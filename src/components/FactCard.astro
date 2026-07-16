@@ -1,0 +1,54 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'entries'>;
+  expanded?: boolean;
+}
+
+const { entry, expanded = false } = Astro.props;
+const { data } = entry;
+---
+<article class:list={["fact-card", { expanded }]}>
+  <p class="stamp">Not a fact anymore</p>
+  <h2><a href={`/entries/${entry.id}/`}>{data.claim}</a></h2>
+
+  <section>
+    <h3>What we know now</h3>
+    <p>{data.currentUnderstanding}</p>
+  </section>
+
+  {expanded && (
+    <section>
+      <h3>Why it changed</h3>
+      <p>{data.whyItChanged}</p>
+    </section>
+  )}
+
+  <dl>
+    <div><dt>Status</dt><dd><span class="pill">{data.status}</span></dd></div>
+    <div><dt>Category</dt><dd><a href={`/categories/${data.category.toLowerCase()}/`}>{data.category}</a></dd></div>
+    {expanded && <div><dt>Accepted approximately</dt><dd>{data.acceptedApproximately}</dd></div>}
+    <div><dt>Changed approximately</dt><dd>{data.changedApproximately}</dd></div>
+  </dl>
+
+  {!expanded && <a class="read" href={`/entries/${entry.id}/`}>Read the evidence →</a>}
+</article>
+
+<style>
+  .fact-card { background: var(--card); border: 1px solid var(--line); border-top: 7px solid var(--accent); padding: clamp(1.3rem, 4vw, 2.2rem); box-shadow: 0 12px 30px rgb(30 24 13 / 6%); }
+  .stamp { margin: 0 0 1rem; text-transform: uppercase; letter-spacing: .13em; font-size: .74rem; font-weight: 950; color: var(--accent-dark); }
+  h2 { margin: 0 0 2rem; font-size: clamp(1.65rem, 4vw, 2.55rem); max-width: 25ch; }
+  h2 a { text-decoration: none; }
+  h2 a:hover { color: var(--accent-dark); }
+  h3 { margin: 1.5rem 0 .25rem; font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; }
+  p { margin-top: 0; }
+  dl { border-top: 1px solid var(--line); margin: 1.6rem 0 0; padding-top: .8rem; }
+  dl div { display: grid; grid-template-columns: minmax(10rem, 1fr) 2fr; gap: 1rem; padding: .35rem 0; }
+  dt { color: var(--muted); }
+  dd { margin: 0; font-weight: 650; }
+  .pill { display: inline-block; padding: .15rem .55rem; border-radius: 999px; background: #eee7d8; }
+  .read { display: inline-block; margin-top: 1.5rem; font-weight: 800; color: var(--accent-dark); }
+  .expanded { box-shadow: none; }
+  @media (max-width: 600px) { dl div { grid-template-columns: 1fr; gap: 0; } }
+</style>

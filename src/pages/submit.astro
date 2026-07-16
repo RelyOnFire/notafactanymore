@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../site-config';
+const repoReady = siteConfig.githubOwner !== 'YOUR_GITHUB_USERNAME';
+---
+<BaseLayout title="Submit a claim">
+  <div class="narrow submit-page">
+    <p class="eyebrow">Contribute</p>
+    <h1>Submit a claim</h1>
+    <p class="lead">Submissions are proposals, not automatic publications. Please provide evidence both that the old claim was genuinely accepted and that the current understanding is better supported.</p>
+
+    {!repoReady && <div class="setup-warning"><strong>Owner setup needed:</strong> replace <code>YOUR_GITHUB_USERNAME</code> in <code>src/site-config.ts</code>. Until then, the form cannot open a GitHub issue.</div>}
+
+    <form id="submission-form">
+      <label>Formerly accepted claim<textarea name="oldClaim" required></textarea></label>
+      <label>What is understood now?<textarea name="current" required></textarea></label>
+      <label>Why did the understanding change?<textarea name="why" required></textarea></label>
+      <div class="two">
+        <label>Category<input name="category" required placeholder="Medicine, Astronomy, Biology…" /></label>
+        <label>Suggested status<select name="status"><option>Overturned</option><option selected>Superseded</option><option>Narrowed</option><option>Reclassified</option><option>Corrected</option></select></label>
+      </div>
+      <label>Evidence the old claim was accepted<textarea name="oldEvidence" required placeholder="Source titles and URLs"></textarea></label>
+      <label>Evidence for the current understanding<textarea name="newEvidence" required placeholder="Source titles and URLs"></textarea></label>
+      <label>Important qualifications or uncertainty<textarea name="qualifications"></textarea></label>
+      <button class="button" type="submit" disabled={!repoReady}>Open submission in GitHub</button>
+      <p class="help">This opens a pre-filled GitHub issue. You can review everything before submitting it.</p>
+    </form>
+  </div>
+</BaseLayout>
+
+<script define:vars={{ owner: siteConfig.githubOwner, repo: siteConfig.githubRepo }}>
+  const form = document.querySelector('#submission-form');
+  form?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const data = new FormData(form);
+    const value = (name) => String(data.get(name) || '').trim();
+    const body = `## Formerly accepted claim\n${value('oldClaim')}\n\n## What is understood now?\n${value('current')}\n\n## Why did it change?\n${value('why')}\n\n## Classification\n- **Category:** ${value('category')}\n- **Suggested status:** ${value('status')}\n\n## Evidence the old claim was accepted\n${value('oldEvidence')}\n\n## Evidence for the current understanding\n${value('newEvidence')}\n\n## Qualifications or uncertainty\n${value('qualifications') || 'None provided.'}\n\n---\nSubmitted through notafactanymore.com. Publication requires editorial review.`;
+    const title = `[Submission] ${value('oldClaim').slice(0, 90)}`;
+    const url = `https://github.com/${owner}/${repo}/issues/new?labels=submission&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+    window.location.href = url;
+  });
+</script>
+
+<style>
+  .submit-page { padding: 5rem 0; }
+  .submit-page h1 { margin: .2rem 0 1rem; }
+  .lead { color: var(--muted); font-size: 1.2rem; }
+  .setup-warning { background: #fff0c9; border: 1px solid #d8b85b; padding: 1rem; margin: 2rem 0; }
+  form { margin-top: 2.5rem; }
+  label { display: block; font-weight: 800; margin: 1.25rem 0; }
+  textarea, input, select { width: 100%; display: block; margin-top: .4rem; border: 1px solid var(--line); background: var(--card); padding: .8rem; border-radius: .35rem; font: inherit; }
+  textarea { min-height: 8rem; resize: vertical; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .help { color: var(--muted); font-size: .9rem; }
+  button:disabled { opacity: .45; cursor: not-allowed; }
+  @media (max-width: 650px) { .two { grid-template-columns: 1fr; gap: 0; } }
+</style>

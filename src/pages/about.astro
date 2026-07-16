@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="About">
+  <article class="narrow prose">
+    <p class="eyebrow">About the project</p>
+    <h1>Facts have a history.</h1>
+    <p class="lead"><strong>Not a Fact Anymore</strong> is a catalogue of claims that were once reasonably accepted as factual but were later overturned, replaced, narrowed, reclassified, or corrected by better evidence.</p>
+    <p>The purpose is not to ridicule earlier researchers or generations. Updating a conclusion when better evidence arrives is one of the healthiest features of science, scholarship, and empirical inquiry.</p>
+    <p>This project begins as a curated, open-source collection. Proposed entries and corrections are reviewed before publication, and every published entry links directly to its evidence.</p>
+  </article>
+</BaseLayout>
+<style>
+  .prose { padding: 5rem 0; }
+  .prose h1 { margin: .2rem 0 1.5rem; }
+  .lead { font-size: 1.3rem; color: var(--muted); }
+  .prose p { font-size: 1.08rem; }
+</style>

@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FactCard from '../../components/FactCard.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('entries');
+  const categories = [...new Set(entries.map((entry) => entry.data.category))];
+  return categories.map((category) => ({
+    params: { category: category.toLowerCase() },
+    props: { category, entries: entries.filter((entry) => entry.data.category === category) },
+  }));
+}
+
+const { category, entries } = Astro.props;
+---
+<BaseLayout title={category}>
+  <header class="container page-head">
+    <p class="eyebrow">Category</p>
+    <h1>{category}</h1>
+  </header>
+  <section class="container grid">
+    {entries.map((entry) => <FactCard entry={entry} />)}
+  </section>
+</BaseLayout>
+<style>
+  .page-head { padding: 5rem 0 2rem; }
+  .page-head h1 { margin: .2rem 0; }
+  .grid { padding: 1rem 0 5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 430px), 1fr)); gap: 1.5rem; align-items: start; }
+</style>

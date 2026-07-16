@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FactCard from '../components/FactCard.astro';
+
+const entries = (await getCollection('entries')).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+const featured = entries.filter((entry) => entry.data.featured);
+---
+<BaseLayout>
+  <section class="hero container">
+    <p class="eyebrow">Facts have a history.</p>
+    <h1>Knowledge changes.<br />The record should too.</h1>
+    <p class="intro">A catalogue of claims that were once reasonably accepted as factual but were later overturned, replaced, narrowed, reclassified, or corrected by better evidence.</p>
+    <div class="actions">
+      <a class="button" href="/browse">Browse the catalogue</a>
+      <a class="button secondary" href="/submit">Submit a claim</a>
+    </div>
+  </section>
+
+  <section class="principle">
+    <div class="narrow">
+      <p>This is not a collection of myths, failed predictions, or things somebody once said. Every entry must show that the previous claim was genuinely supported or treated as authoritative, and that the present understanding is backed by stronger evidence.</p>
+      <strong>Being wrong is not the failure. Refusing to update is.</strong>
+    </div>
+  </section>
+
+  <section class="container featured">
+    <div class="section-heading">
+      <div><p class="eyebrow">Featured entry</p><h2>A clear example of knowledge updating</h2></div>
+      <a href="/browse">View all entries →</a>
+    </div>
+    <div class="cards">
+      {featured.map((entry) => <FactCard entry={entry} expanded />)}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero { padding: clamp(4rem, 10vw, 8rem) 0; }
+  .hero h1 { margin: .3rem 0 1.5rem; max-width: 14ch; }
+  .intro { font-size: clamp(1.1rem, 2.5vw, 1.45rem); color: var(--muted); max-width: 53rem; }
+  .actions { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 2rem; }
+  .principle { background: var(--ink); color: white; padding: 3.5rem 0; }
+  .principle p { font-size: 1.2rem; color: #ddd7ca; }
+  .principle strong { font-size: 1.35rem; }
+  .featured { padding: 5rem 0; }
+  .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 2rem; margin-bottom: 2rem; }
+  .section-heading h2 { margin: .2rem 0 0; }
+  .section-heading > a { font-weight: 800; color: var(--accent-dark); }
+  .cards { display: grid; gap: 2rem; }
+  @media (max-width: 700px) { .section-heading { align-items: start; flex-direction: column; } }
+</style>

@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FactCard from '../components/FactCard.astro';
+
+const entries = (await getCollection('entries')).sort((a, b) => a.data.claim.localeCompare(b.data.claim));
+const categories = [...new Set(entries.map((entry) => entry.data.category))].sort();
+---
+<BaseLayout title="Browse">
+  <header class="page-head container">
+    <p class="eyebrow">The catalogue</p>
+    <h1>Browse entries</h1>
+    <p>Every entry identifies the former claim, the present understanding, why it changed, and the evidence supporting both sides of the history.</p>
+    <div class="filters">
+      {categories.map((category) => <a href={`/categories/${category.toLowerCase()}/`}>{category}</a>)}
+    </div>
+  </header>
+  <section class="container grid">
+    {entries.map((entry) => <FactCard entry={entry} />)}
+  </section>
+</BaseLayout>
+
+<style>
+  .page-head { padding: 5rem 0 2rem; }
+  .page-head h1 { margin: .2rem 0 1rem; }
+  .page-head > p:not(.eyebrow) { font-size: 1.2rem; color: var(--muted); }
+  .filters { display: flex; gap: .6rem; flex-wrap: wrap; margin-top: 1.5rem; }
+  .filters a { border: 1px solid var(--line); border-radius: 999px; padding: .3rem .8rem; text-decoration: none; font-weight: 700; background: var(--card); }
+  .grid { padding: 2rem 0 5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 430px), 1fr)); gap: 1.5rem; align-items: start; }
+</style>

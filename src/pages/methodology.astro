@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Methodology">
+  <article class="narrow prose">
+    <p class="eyebrow">Editorial standard</p>
+    <h1>Methodology</h1>
+    <p class="lead">An entry must document a claim that was previously treated as factual or as the dominant evidence-based explanation by a relevant institution, professional field, textbook, reference work, or substantial expert consensus.</p>
+
+    <h2>What qualifies</h2>
+    <p>The former claim must have been reasonably defensible in its historical setting. The present understanding must be supported by stronger evidence, improved measurement, or a more successful explanatory model.</p>
+
+    <h2>What does not qualify</h2>
+    <p>Urban legends, failed predictions, satire, isolated quotations, propaganda, ordinary opinions, and claims that experts consistently rejected do not belong in the catalogue.</p>
+
+    <h2>Required evidence</h2>
+    <p>Each entry should normally include evidence that the former claim was genuinely accepted and evidence supporting the current understanding. Sources are labelled by purpose so readers can see exactly what each citation establishes.</p>
+
+    <h2>Status labels</h2>
+    <dl>
+      <div><dt>Overturned</dt><dd>The former claim is now considered substantially incorrect.</dd></div>
+      <div><dt>Superseded</dt><dd>A stronger explanation or model replaced it.</dd></div>
+      <div><dt>Narrowed</dt><dd>The claim remains valid only under more limited conditions.</dd></div>
+      <div><dt>Reclassified</dt><dd>The object, condition, or phenomenon is categorized differently.</dd></div>
+      <div><dt>Corrected</dt><dd>Improved data or measurement produced a materially different answer.</dd></div>
+    </dl>
+
+    <h2>Corrections</h2>
+    <p>Entries are dated and periodically reviewed. A source becoming outdated is itself a reason to revise the catalogue. Submissions and corrections are reviewed before publication.</p>
+  </article>
+</BaseLayout>
+<style>
+  .prose { padding: 5rem 0; }
+  .prose h1 { margin: .2rem 0 1.5rem; }
+  .lead { font-size: 1.3rem; color: var(--muted); }
+  .prose h2 { margin-top: 2.8rem; font-size: 1.7rem; }
+  dl div { padding: 1rem 0; border-bottom: 1px solid var(--line); }
+  dt { font-weight: 850; }
+  dd { margin: .25rem 0 0; color: var(--muted); }
+</style>

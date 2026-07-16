@@ -1,0 +1,64 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FactCard from '../../components/FactCard.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('entries');
+  return entries.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const groupedSources = entry.data.sources.reduce<Record<string, typeof entry.data.sources>>((groups, source) => {
+  (groups[source.purpose] ??= []).push(source);
+  return groups;
+}, {});
+---
+<BaseLayout title={entry.data.claim} description={entry.data.summary}>
+  <div class="narrow entry-page">
+    <FactCard entry={entry} expanded />
+
+    <article class="context prose">
+      <Content />
+    </article>
+
+    <section class="evidence">
+      <p class="eyebrow">Evidence</p>
+      <h2>Sources and what they establish</h2>
+      {Object.entries(groupedSources).map(([purpose, sources]) => (
+        <div class="source-group">
+          <h3>{purpose}</h3>
+          <ul>
+            {sources?.map((source) => (
+              <li>
+                <a href={source.url} target="_blank" rel="noopener noreferrer"><strong>{source.title}</strong></a>
+                <span>{source.publisher}</span>
+                <p>{source.note}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </section>
+
+    <aside class="reviewed">
+      Published {entry.data.publishedAt.toLocaleDateString('en-GB')} · Last reviewed {entry.data.reviewedAt.toLocaleDateString('en-GB')}
+    </aside>
+  </div>
+</BaseLayout>
+
+<style>
+  .entry-page { padding: 4rem 0; }
+  .context, .evidence { margin-top: 3rem; }
+  .prose :global(p) { font-size: 1.1rem; }
+  .evidence h2 { margin-top: .3rem; }
+  .source-group { margin-top: 2.25rem; }
+  .source-group h3 { border-bottom: 1px solid var(--line); padding-bottom: .5rem; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { padding: 1rem 0; border-bottom: 1px solid var(--line); }
+  li a { color: var(--accent-dark); }
+  li span { display: block; color: var(--muted); font-size: .92rem; }
+  li p { margin: .35rem 0 0; }
+  .reviewed { margin-top: 3rem; padding: 1rem; background: #e9e3d6; color: var(--muted); font-size: .9rem; }
+</style>

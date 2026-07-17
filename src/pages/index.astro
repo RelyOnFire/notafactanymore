@@ -3,8 +3,15 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import FactCard from '../components/FactCard.astro';
 
-const entries = (await getCollection('entries')).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
-const featured = entries.filter((entry) => entry.data.featured);
+const entries = await getCollection('entries');
+
+const featured = entries
+  .filter((entry) => entry.data.featured)
+  .sort(
+    (a, b) =>
+      (a.data.featuredOrder ?? 999) -
+      (b.data.featuredOrder ?? 999)
+  );
 ---
 <BaseLayout>
   <section class="hero container">

@@ -14,6 +14,7 @@ const entries = defineCollection({
     changedApproximately: z.string(),
     summary: z.string(),
     featured: z.boolean().default(false),
+    featuredOrder: z.number().int().positive().optional(),
     publishedAt: z.coerce.date(),
     reviewedAt: z.coerce.date(),
     sources: z.array(

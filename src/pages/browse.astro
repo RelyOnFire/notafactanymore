@@ -3,28 +3,383 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import FactCard from '../components/FactCard.astro';
 
-const entries = (await getCollection('entries')).sort((a, b) => a.data.claim.localeCompare(b.data.claim));
-const categories = [...new Set(entries.map((entry) => entry.data.category))].sort();
+const entries = (await getCollection('entries')).sort((a, b) =>
+  a.data.claim.localeCompare(b.data.claim)
+);
+
+const categories = [
+  ...new Set(entries.map((entry) => entry.data.category)),
+].sort();
 ---
-<BaseLayout title="Browse">
+
+<BaseLayout
+  title="Browse"
+  description="Browse claims that were once accepted as fact but were later revised by stronger evidence."
+>
   <header class="page-head container">
     <p class="eyebrow">The catalogue</p>
     <h1>Browse entries</h1>
-    <p>Every entry identifies the former claim, the present understanding, why it changed, and the evidence supporting both sides of the history.</p>
-    <div class="filters">
-      {categories.map((category) => <a href={`/categories/${category.toLowerCase()}/`}>{category}</a>)}
-    </div>
+
+    <p>
+      Every entry identifies the former claim, the present understanding, why
+      it changed, and the evidence supporting both sides of the history.
+    </p>
   </header>
-  <section class="container grid">
-    {entries.map((entry) => <FactCard entry={entry} />)}
+
+  <section class="filter-region" aria-labelledby="filter-heading">
+    <div class="container filter-inner">
+      <div class="filter-heading-row">
+        <div>
+          <p class="filter-label" id="filter-heading">
+            Filter by category
+          </p>
+
+          <p class="filter-help">
+            Select one or more categories.
+          </p>
+        </div>
+
+        <button class="clear-filters" type="button" hidden>
+          Clear filters
+        </button>
+      </div>
+
+      <div
+        class="filters"
+        role="group"
+        aria-label="Filter entries by category"
+      >
+        <button
+          class="filter-button is-active"
+          type="button"
+          data-filter="all"
+          aria-pressed="true"
+        >
+          All
+          <span class="count">{entries.length}</span>
+        </button>
+
+        {
+          categories.map((category) => {
+            const count = entries.filter(
+              (entry) => entry.data.category === category
+            ).length;
+
+            return (
+              <button
+                class="filter-button"
+                type="button"
+                data-filter={category}
+                aria-pressed="false"
+              >
+                {category}
+                <span class="count">{count}</span>
+              </button>
+            );
+          })
+        }
+      </div>
+
+      <p class="results-summary" aria-live="polite">
+        Showing all {entries.length} entries
+      </p>
+    </div>
   </section>
+
+  <section class="container grid" aria-label="Catalogue entries">
+    {
+      entries.map((entry) => (
+        <div
+          class="entry-wrapper"
+          data-category={entry.data.category}
+        >
+          <FactCard entry={entry} />
+        </div>
+      ))
+    }
+  </section>
+
+  <noscript>
+    <p class="container noscript-note">
+      Category filtering requires JavaScript. All entries are shown below.
+    </p>
+  </noscript>
+
+  <script>
+    const filterButtons = Array.from(
+      document.querySelectorAll<HTMLButtonElement>('.filter-button')
+    );
+
+    const entryWrappers = Array.from(
+      document.querySelectorAll<HTMLElement>('.entry-wrapper')
+    );
+
+    const clearButton =
+      document.querySelector<HTMLButtonElement>('.clear-filters');
+
+    const resultsSummary =
+      document.querySelector<HTMLElement>('.results-summary');
+
+    const selectedCategories = new Set<string>();
+
+    const updateURL = () => {
+      const url = new URL(window.location.href);
+
+      if (selectedCategories.size === 0) {
+        url.searchParams.delete('categories');
+      } else {
+        url.searchParams.set(
+          'categories',
+          [...selectedCategories].sort().join(',')
+        );
+      }
+
+      window.history.replaceState({}, '', url);
+    };
+
+    const updateDisplay = () => {
+      const showAll = selectedCategories.size === 0;
+      let visibleCount = 0;
+
+      entryWrappers.forEach((wrapper) => {
+        const category = wrapper.dataset.category ?? '';
+
+        const visible =
+          showAll || selectedCategories.has(category);
+
+        wrapper.hidden = !visible;
+
+        if (visible) {
+          visibleCount += 1;
+        }
+      });
+
+      filterButtons.forEach((button) => {
+        const filter = button.dataset.filter ?? '';
+
+        const active =
+          filter === 'all'
+            ? showAll
+            : selectedCategories.has(filter);
+
+        button.classList.toggle('is-active', active);
+        button.setAttribute('aria-pressed', String(active));
+      });
+
+      if (clearButton) {
+        clearButton.hidden = showAll;
+      }
+
+      if (resultsSummary) {
+        if (showAll) {
+          resultsSummary.textContent =
+            `Showing all ${visibleCount} entries`;
+        } else {
+          const categoryList = [...selectedCategories]
+            .sort()
+            .join(', ');
+
+          resultsSummary.textContent =
+            `Showing ${visibleCount} ` +
+            `${visibleCount === 1 ? 'entry' : 'entries'} ` +
+            `in ${categoryList}`;
+        }
+      }
+
+      updateURL();
+    };
+
+    filterButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const filter = button.dataset.filter;
+
+        if (!filter || filter === 'all') {
+          selectedCategories.clear();
+          updateDisplay();
+          return;
+        }
+
+        if (selectedCategories.has(filter)) {
+          selectedCategories.delete(filter);
+        } else {
+          selectedCategories.add(filter);
+        }
+
+        updateDisplay();
+      });
+    });
+
+    clearButton?.addEventListener('click', () => {
+      selectedCategories.clear();
+      updateDisplay();
+    });
+
+    const initialCategories = new URL(window.location.href)
+      .searchParams
+      .get('categories')
+      ?.split(',')
+      .map((category) => category.trim())
+      .filter(Boolean);
+
+    initialCategories?.forEach((category) => {
+      const exists = filterButtons.some(
+        (button) => button.dataset.filter === category
+      );
+
+      if (exists) {
+        selectedCategories.add(category);
+      }
+    });
+
+    updateDisplay();
+  </script>
 </BaseLayout>
 
 <style>
-  .page-head { padding: 5rem 0 2rem; }
-  .page-head h1 { margin: .2rem 0 1rem; }
-  .page-head > p:not(.eyebrow) { font-size: 1.2rem; color: var(--muted); }
-  .filters { display: flex; gap: .6rem; flex-wrap: wrap; margin-top: 1.5rem; }
-  .filters a { border: 1px solid var(--line); border-radius: 999px; padding: .3rem .8rem; text-decoration: none; font-weight: 700; background: var(--card); }
-  .grid { padding: 2rem 0 5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 430px), 1fr)); gap: 1.5rem; align-items: start; }
+  .page-head {
+    padding: 5rem 0 2rem;
+  }
+
+  .page-head h1 {
+    margin: 0.2rem 0 1rem;
+  }
+
+  .page-head > p:not(.eyebrow) {
+    font-size: 1.2rem;
+    color: var(--muted);
+  }
+
+  .filter-region {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: color-mix(
+      in srgb,
+      var(--paper) 94%,
+      transparent
+    );
+    backdrop-filter: blur(10px);
+  }
+
+  .filter-inner {
+    padding: 1rem 0;
+  }
+
+  .filter-heading-row {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .filter-label {
+    margin: 0;
+    font-weight: 850;
+  }
+
+  .filter-help {
+    margin: 0.1rem 0 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .filters {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-top: 0.9rem;
+  }
+
+  .filter-button,
+  .clear-filters {
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.4rem 0.85rem;
+    font: inherit;
+    font-weight: 750;
+    color: var(--ink);
+    background: var(--card);
+    cursor: pointer;
+  }
+
+  .filter-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .filter-button:hover,
+  .filter-button:focus-visible,
+  .clear-filters:hover,
+  .clear-filters:focus-visible {
+    border-color: var(--accent-dark);
+  }
+
+  .filter-button.is-active {
+    border-color: var(--ink);
+    color: white;
+    background: var(--ink);
+  }
+
+  .count {
+    min-width: 1.45rem;
+    padding: 0.05rem 0.35rem;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    text-align: center;
+    color: var(--muted);
+    background: var(--paper);
+  }
+
+  .filter-button.is-active .count {
+    color: var(--ink);
+    background: white;
+  }
+
+  .clear-filters {
+    color: var(--accent-dark);
+    background: transparent;
+  }
+
+  .results-summary {
+    margin: 0.8rem 0 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .grid {
+    padding: 2rem 0 5rem;
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(min(100%, 430px), 1fr)
+    );
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  .entry-wrapper[hidden] {
+    display: none;
+  }
+
+  .noscript-note {
+    margin-bottom: 3rem;
+    color: var(--muted);
+  }
+
+  @media (max-width: 760px) {
+    .page-head {
+      padding-top: 3rem;
+    }
+
+    .filter-region {
+      position: static;
+    }
+
+    .filter-heading-row {
+      align-items: flex-start;
+    }
+  }
 </style>

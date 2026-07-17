@@ -1,12 +1,12 @@
 ---
 claim: "Brown adipose tissue is absent or biologically unimportant in adult humans."
-currentUnderstanding: "Many adults retain metabolically active brown adipose tissue, especially in regions around the neck and upper chest. Its amount and activity vary with age, temperature, body composition, and other factors."
-whyItChanged: "Imaging performed for other medical purposes repeatedly revealed cold-responsive, glucose-consuming tissue. Biopsies and molecular analysis confirmed that this tissue was functional brown fat."
+currentUnderstanding: "Many adults retain active brown fat, especially around the neck and upper chest. Its amount and activity vary with age, temperature, body composition, and other factors."
+whyItChanged: "Medical scans repeatedly revealed cold-responsive tissue that consumed large amounts of glucose. Biopsies and molecular tests confirmed that it was functioning brown fat."
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Mid to late 20th century"
 changedApproximately: "2000s"
-summary: "A heat-producing tissue thought limited to infants was rediscovered as metabolically active in many adults."
+summary: "A heat-producing tissue thought to disappear after infancy was found to remain active in many adults."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -30,6 +30,6 @@ sources:
     note: "Reviews the biology and metabolic activity of human brown adipose tissue."
 ---
 
-The presence of adult brown fat does not mean that activating it is already a proven or sufficient treatment for obesity or metabolic disease.
+The discovery does not mean that activating brown fat is already a proven treatment for obesity or metabolic disease.
 
-Brown and beige adipose cells are related but not identical, and the terminology and lineage of these tissues continue to be refined.
+Brown and beige fat cells are related but not identical, and researchers continue to refine how these tissues develop and function.

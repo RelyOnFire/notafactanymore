@@ -1,12 +1,12 @@
 ---
 claim: "The planets travel around the Sun in perfect circles."
-currentUnderstanding: "Planetary orbits are ellipses, with the Sun at one focus. Many are close to circular, but none is required to be a perfect circle."
-whyItChanged: "Johannes Kepler could not make Tycho Brahe's precise observations of Mars agree with combinations of circular motion. Replacing the circle with an ellipse produced a much better fit and became Kepler's first law."
+currentUnderstanding: "Planets move around the Sun in ellipses, with the Sun at one focus. Many planetary orbits are nearly circular, but they are not required to be perfect circles."
+whyItChanged: "Kepler could not make Tycho Brahe's precise observations of Mars fit combinations of circular motion. An elliptical orbit matched the data far better and became Kepler's first law."
 status: "Superseded"
 category: "Astronomy"
 acceptedApproximately: "Classical antiquity through the early 17th century"
 changedApproximately: "1605–1609"
-summary: "The ancient preference for perfect circular motion was replaced by Kepler's elliptical planetary orbits."
+summary: "Kepler replaced the ancient ideal of perfect circular orbits with ellipses."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -30,6 +30,6 @@ sources:
     note: "Explains the orbital elements used to describe elliptical orbits."
 ---
 
-A circle is a special case of an ellipse, so nearly circular planetary orbits can be approximated as circles for some calculations.
+A circle is a special kind of ellipse, so a nearly circular orbit can still be treated as circular in some calculations.
 
-Copernicus placed the planets around the Sun but retained circular motion. Heliocentrism and elliptical orbits were therefore separate revisions.
+Copernicus moved the planets around the Sun but kept circular motion. Heliocentrism and elliptical orbits were separate changes.

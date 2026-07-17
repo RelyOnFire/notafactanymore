@@ -1,12 +1,12 @@
 ---
 claim: "Adult mammalian brains cannot produce new neurons."
-currentUnderstanding: "Adult neurogenesis occurs in restricted brain regions in many mammals and other vertebrates. Evidence for its extent and persistence in adult humans, especially at advanced ages, remains actively debated."
-whyItChanged: "Cell-birth labeling, microscopy, molecular markers, and studies across birds and mammals demonstrated that new neurons can be generated and integrated after development."
+currentUnderstanding: "Adult neurogenesis occurs in limited brain regions in many animals. How much continues in adult humans, especially later in life, remains actively debated."
+whyItChanged: "Cell-labeling methods, microscopy, and molecular markers showed that new neurons can be produced and integrated after development in birds and mammals."
 status: "Overturned"
 category: "Neuroscience"
 acceptedApproximately: "Late 19th through much of the 20th century"
 changedApproximately: "1960s–1990s"
-summary: "The universal rule that adult brains never generate neurons was overturned, although the scale of adult human neurogenesis remains unsettled."
+summary: "The absolute rule that adult brains never make new neurons was overturned, although the extent in adult humans remains uncertain."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -30,6 +30,6 @@ sources:
     note: "Notes that important questions remain about neurogenesis in the adult human brain."
 ---
 
-This card rejects an absolute prohibition, not every narrower claim about the human brain. Adult neurogenesis is well established in several animal models, while human hippocampal neurogenesis remains methodologically contentious.
+This entry rejects an absolute claim, not every narrower claim about the human brain. Adult neurogenesis is well established in several animal models, while evidence in the adult human hippocampus remains disputed.
 
-New neuron production is also not the brain's only form of plasticity. Existing neurons continually alter their connections and function.
+The brain also changes through many other forms of plasticity, including the remodeling of connections between existing neurons.

@@ -1,12 +1,12 @@
 ---
 claim: "Each gene produces exactly one protein."
-currentUnderstanding: "A single gene can produce multiple RNA and protein products through mechanisms including alternative splicing, alternative promoters, and alternative RNA processing. Many genes also produce functional RNAs rather than proteins."
-whyItChanged: "Molecular studies revealed that RNA transcripts can be assembled in different ways and that gene expression is more flexible than the one-gene–one-protein model allowed."
+currentUnderstanding: "One gene can produce several RNA or protein products through alternative splicing, different promoters, and other forms of RNA processing. Some genes produce functional RNA rather than protein."
+whyItChanged: "Researchers discovered that cells can assemble and process the same gene's RNA in different ways, making gene expression far less one-to-one than the original rule suggested."
 status: "Superseded"
 category: "Genetics"
 acceptedApproximately: "1940s–1970s"
 changedApproximately: "1970s–2000s"
-summary: "The one-gene–one-protein rule was replaced by a more complex model in which one gene can generate multiple products."
+summary: "The one-gene–one-protein rule was replaced by a model in which one gene can produce several different products."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -30,6 +30,6 @@ sources:
     note: "Explains RNA processing and how alternative splicing complicates prediction of proteins from genes."
 ---
 
-The original one-gene–one-enzyme hypothesis was a major advance because it connected genes to biochemical function. It was later refined to one gene–one polypeptide before further discoveries revealed additional complexity.
+The earlier one-gene–one-enzyme idea was an important step because it linked genes to biochemical function. It was later refined before alternative splicing revealed still more complexity.
 
-Not every alternatively spliced transcript necessarily produces a stable, functional protein. The modern point is that a strict one-to-one rule does not hold.
+Not every possible transcript becomes a stable, useful protein. The key correction is that a strict one-to-one rule does not hold.

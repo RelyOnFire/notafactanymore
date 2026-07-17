@@ -1,12 +1,12 @@
 ---
 claim: "Pellagra is an infectious disease that spreads among poor communities."
-currentUnderstanding: "Primary pellagra is caused by severe dietary deficiency of niacin or its precursor tryptophan. Secondary pellagra can occur when disease or medication prevents adequate absorption or metabolism."
-whyItChanged: "Joseph Goldberger showed that pellagra followed restricted diets and could be prevented by dietary improvement. Deliberate exposure experiments also undermined the infectious explanation."
+currentUnderstanding: "Primary pellagra is caused by severe deficiency of niacin or its precursor, tryptophan. It can also develop when illness or medication interferes with absorption or metabolism."
+whyItChanged: "Joseph Goldberger showed that pellagra followed restricted diets and could be prevented by improving food. He and his colleagues also exposed themselves to material from patients without developing the disease."
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Late 19th to early 20th century"
 changedApproximately: "1910s–1930s"
-summary: "A disease widely blamed on infection was shown to result primarily from nutritional deficiency."
+summary: "A disease widely blamed on infection was shown to result mainly from niacin deficiency."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -28,4 +28,6 @@ sources:
     note: "Explains that pellagra is caused by severe niacin deficiency."
 ---
 
-Pellagra can cluster because people share the same restricted diet, making it resemble an infectious disease.
+Pellagra often clustered in poor households and institutions because people ate the same restricted diet. That pattern made it look contagious.
+
+Not every case is caused by simple food scarcity. Malabsorption, alcoholism, certain diseases, and some medications can also produce niacin deficiency.

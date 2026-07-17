@@ -1,12 +1,12 @@
 ---
 claim: "Fungi are plants."
-currentUnderstanding: "Fungi form their own major lineage of life. They do not photosynthesize, absorb nutrients from their surroundings, have chitin-rich cell walls, and are evolutionarily more closely related to animals than to plants."
-whyItChanged: "Differences in nutrition, cellular structure, reproduction, and later molecular evidence showed that fungi did not fit within the plant kingdom. Mid-20th-century classification systems placed them in a separate kingdom."
+currentUnderstanding: "Fungi form their own major branch of life. They do not photosynthesize, absorb nutrients from their surroundings, and have cell walls rich in chitin. Evolutionarily, they are closer to animals than to plants."
+whyItChanged: "Differences in nutrition, cell structure, and reproduction showed that fungi did not fit within the plant kingdom. Molecular evidence later confirmed that they form a separate lineage."
 status: "Reclassified"
 category: "Biology"
 acceptedApproximately: "Antiquity through the mid-20th century"
 changedApproximately: "1950s–1970s"
-summary: "Organisms long classified as plants were reassigned to a separate fungal kingdom."
+summary: "Organisms long classified as plants were moved into their own fungal kingdom."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -24,6 +24,6 @@ sources:
     note: "Describes the differences between fungi and plants and notes that fungi are evolutionarily closer to animals."
 ---
 
-Older botanical classification was understandable because fungi are generally stationary, grow from substrates, and often have branching forms resembling plants.
+The older classification was understandable. Fungi are usually stationary, grow from surfaces, and often have branching forms that resemble plants.
 
-Modern classification continues to be refined, but fungi are not a subgroup of plants.
+Classification continues to be refined, but fungi are not a subgroup of plants.

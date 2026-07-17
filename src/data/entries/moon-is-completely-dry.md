@@ -1,12 +1,12 @@
 ---
 claim: "The Moon is completely dry."
-currentUnderstanding: "The Moon is extremely dry compared with Earth, but it contains water and hydroxyl in minerals and glass, transient surface water, and substantial water ice in some permanently shadowed polar regions."
-whyItChanged: "Early analyses of returned lunar samples found no convincing indigenous water and contamination was difficult to exclude. More sensitive laboratory methods and spacecraft observations later detected lunar water and polar ice."
+currentUnderstanding: "The Moon is extremely dry compared with Earth, but it contains water and hydroxyl in minerals and glass, as well as water ice in some permanently shadowed polar regions."
+whyItChanged: "Early Apollo samples showed no convincing native lunar water, and contamination was difficult to rule out. More sensitive laboratory methods and spacecraft observations later detected water and polar ice."
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Apollo era through the late 1990s"
 changedApproximately: "1990s–2010s"
-summary: "The Moon went from being considered completely dry to being recognized as a very dry world that nevertheless contains water and polar ice."
+summary: "The Moon changed from a completely dry world to a very dry world that still contains water and ice."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -30,6 +30,6 @@ sources:
     note: "Describes water molecules found in lunar glasses and minerals and emphasizes that the Moon remains very dry overall."
 ---
 
-Water on the Moon is not present as oceans, lakes, or widespread liquid water. Much of it occurs in small concentrations, within minerals, or as ice in extremely cold shadows.
+The Moon does not have oceans, lakes, or widespread liquid water. Most lunar water occurs in tiny concentrations, inside minerals, or as ice in extremely cold shadows.
 
-The old conclusion was influenced by the detection limits and contamination problems of early sample analysis, not by careless science.
+The earlier conclusion reflected the limits and contamination problems of the available measurements, not careless science.

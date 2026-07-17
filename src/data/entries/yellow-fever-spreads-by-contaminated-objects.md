@@ -1,12 +1,12 @@
 ---
 claim: "Yellow fever spreads mainly through direct contact with patients, clothing, bedding, and other contaminated objects."
-currentUnderstanding: "Yellow fever is caused by a virus transmitted primarily through the bites of infected mosquitoes. In urban transmission, Aedes aegypti is the principal vector."
-whyItChanged: "Controlled experiments by the U.S. Army Yellow Fever Commission showed that contaminated bedding did not produce disease, while mosquito transmission did."
+currentUnderstanding: "Yellow fever is caused by a virus spread mainly through the bites of infected mosquitoes. In urban outbreaks, Aedes aegypti is the principal vector."
+whyItChanged: "Controlled experiments showed that contaminated bedding did not transmit yellow fever, while mosquitoes did. Mosquito control then sharply reduced urban outbreaks."
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "18th to late 19th century"
 changedApproximately: "1900–1901"
-summary: "The belief that yellow fever spread through contaminated objects was overturned by controlled mosquito-transmission experiments."
+summary: "Experiments overturned the belief that yellow fever spread mainly through contaminated clothing and bedding."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -28,4 +28,6 @@ sources:
     note: "Describes experiments testing contaminated objects and mosquito transmission."
 ---
 
-The commission's work built on the mosquito hypothesis proposed by Cuban physician Carlos Finlay years earlier.
+Yellow fever has both urban and forest transmission cycles, involving different mosquito species and animal hosts. This entry focuses on the urban epidemics investigated around 1900.
+
+The U.S. Army commission built on the mosquito hypothesis proposed earlier by the Cuban physician Carlos Finlay.

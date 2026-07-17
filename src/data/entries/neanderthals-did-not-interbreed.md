@@ -1,12 +1,12 @@
 ---
 claim: "Neanderthals did not interbreed with modern humans or contribute DNA to people living today."
-currentUnderstanding: "Neanderthals and modern humans interbred. Present-day people outside sub-Saharan Africa commonly carry about 1–2% Neanderthal-derived DNA, with different fragments distributed across individuals."
-whyItChanged: "Early mitochondrial-DNA studies found no clear Neanderthal contribution and were often interpreted as evidence against interbreeding. Whole-genome ancient DNA later revealed systematic Neanderthal ancestry in living populations."
+currentUnderstanding: "Neanderthals and modern humans interbred. Many people with ancestry outside sub-Saharan Africa carry about 1–2% Neanderthal-derived DNA, with different fragments present in different individuals."
+whyItChanged: "Early mitochondrial-DNA studies found no clear Neanderthal contribution and were often taken as evidence against interbreeding. Whole-genome ancient DNA later revealed Neanderthal ancestry in living people."
 status: "Overturned"
 category: "Human Evolution"
 acceptedApproximately: "Late 1990s–2000s"
 changedApproximately: "2010"
-summary: "Whole-genome ancient DNA overturned the leading interpretation that Neanderthals left no genetic legacy in living humans."
+summary: "Ancient whole-genome DNA showed that Neanderthals left a genetic legacy in living humans."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -30,6 +30,6 @@ sources:
     note: "Explains that introgressed Neanderthal fragments account for roughly 1–2% of individual non-African genomes."
 ---
 
-The no-interbreeding position was not universally accepted before 2010; fossil anatomy and archaeological overlap had long supported debate. Early mitochondrial DNA constrained possible contributions but did not test the entire nuclear genome.
+The no-interbreeding view was never universal. Fossil anatomy and archaeological overlap had kept the question open, while mitochondrial DNA sampled only one small part of the genome.
 
-Percentages vary by population and individual. African populations can also carry some Neanderthal ancestry through later population movements back into Africa.
+The percentage varies among populations and individuals. Some African populations also carry Neanderthal ancestry through later migrations back into Africa.

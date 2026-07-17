@@ -1,12 +1,12 @@
 ---
 claim: "Earth is only tens or hundreds of millions of years old."
-currentUnderstanding: "Earth formed about 4.54 billion years ago. This age is supported by radiometric dating of meteorites, lunar material, and Earth's oldest minerals and rocks."
-whyItChanged: "Early physical estimates treated Earth mainly as a cooling body and did not account for radioactive heat or modern geophysics. The discovery of radioactivity and radiometric dating provided reliable clocks for measuring deep geological time."
+currentUnderstanding: "Earth formed about 4.54 billion years ago. Radiometric dating of meteorites, lunar material, and Earth's oldest minerals and rocks all support this age."
+whyItChanged: "Early estimates treated Earth mainly as a body cooling from a hot beginning. They did not account for radioactive heat or the way heat moves through the mantle. Radioactivity and radiometric dating later provided reliable clocks for deep geological time."
 status: "Corrected"
 category: "Earth Science"
 acceptedApproximately: "Mid to late 19th century"
 changedApproximately: "1890s–1950s"
-summary: "Nineteenth-century estimates of a young Earth were replaced by radiometric evidence for an age of roughly 4.54 billion years."
+summary: "Radiometric dating replaced 19th-century estimates of a young Earth with an age of about 4.54 billion years."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -28,4 +28,6 @@ sources:
     note: "Explains how radioactive decay provides numerical ages for rocks and geological events."
 ---
 
-Kelvin's estimate was a serious quantitative calculation using the thermodynamics then available, but its assumptions omitted major processes, especially radioactive heat and mantle convection.
+Kelvin's estimate was not a casual guess. It was a serious calculation based on the physics then available, but some of its assumptions were incomplete, especially the omission of radioactive heat and mantle convection.
+
+Geologists had already argued that Earth must be extremely old. Isotope dating eventually supplied a reliable numerical age.

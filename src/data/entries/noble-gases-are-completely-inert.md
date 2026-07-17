@@ -1,12 +1,12 @@
 ---
 claim: "Noble gases are completely inert and cannot form stable chemical compounds."
-currentUnderstanding: "Noble gases are generally very unreactive, but some can form stable compounds. Xenon has the richest chemistry, and compounds of krypton, radon, and argon are also known under suitable conditions."
-whyItChanged: "In 1962, Neil Bartlett produced the first recognized noble-gas compound, xenon hexafluoroplatinate. The result showed that a filled outer electron shell makes reaction difficult, not absolutely impossible."
+currentUnderstanding: "Noble gases are usually very unreactive, but some can form stable compounds. Xenon has the richest chemistry, and compounds involving krypton, radon, and argon are also known under suitable conditions."
+whyItChanged: "In 1962, Neil Bartlett produced the first recognized noble-gas compound. The result showed that a filled outer electron shell makes reactions difficult, not impossible."
 status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "1890s–1962"
 changedApproximately: "1962 onward"
-summary: "A group defined by extreme chemical reluctance proved not to be absolutely inert."
+summary: "The elements once called completely inert turned out to be capable of forming compounds."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -30,6 +30,6 @@ sources:
     note: "Provides current information on xenon's properties and compounds."
 ---
 
-Helium and neon remain extraordinarily unreactive, and ordinary conditions do not make noble gases behave like typical reactive elements.
+Helium and neon remain extraordinarily unreactive, and noble gases do not behave like typical reactive elements under ordinary conditions.
 
-The historical label “inert gases” was useful but too absolute. “Noble gases” better reflects their reluctance rather than an impossibility of reaction.
+The older label “inert gases” was useful but too absolute. “Noble gases” better describes their reluctance to react.

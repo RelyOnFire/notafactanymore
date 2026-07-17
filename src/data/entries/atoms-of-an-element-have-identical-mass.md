@@ -1,12 +1,12 @@
 ---
 claim: "All atoms of the same chemical element have identical mass."
-currentUnderstanding: "Elements can contain multiple isotopes. Isotopes have the same number of protons and therefore belong to the same element, but they have different numbers of neutrons and different masses."
-whyItChanged: "Radioactivity studies and early mass spectrographs revealed atoms with the same chemical identity but different atomic masses. Francis Aston's measurements demonstrated isotopes in many nonradioactive elements."
+currentUnderstanding: "An element can contain several isotopes. Its isotopes have the same number of protons but different numbers of neutrons, giving them different masses."
+whyItChanged: "Research on radioactivity and early mass spectrographs revealed atoms with the same chemical identity but different masses. Francis Aston then measured isotopes in many nonradioactive elements."
 status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Early 19th–early 20th century"
 changedApproximately: "1910s–1920s"
-summary: "A foundational assumption of early atomic theory was overturned by the discovery of isotopes."
+summary: "The discovery of isotopes overturned the idea that every atom of an element has the same mass."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -36,6 +36,6 @@ sources:
     note: "Defines isotopes as atoms with the same atomic number but different mass numbers."
 ---
 
-Dalton's postulate remains approximately useful for ordinary chemical reasoning because isotopes of an element usually have very similar chemistry.
+Dalton's rule remains a useful approximation for ordinary chemistry because isotopes of an element usually behave very similarly.
 
-Modern definitions identify an element by proton number, not by a single atomic mass. Listed relative atomic masses are often abundance-weighted averages.
+Today, an element is defined by its number of protons, not by one fixed atomic mass. Periodic-table masses are often weighted averages of naturally occurring isotopes.

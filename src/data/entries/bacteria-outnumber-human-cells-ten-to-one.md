@@ -1,12 +1,12 @@
 ---
 claim: "Bacterial cells in the human body outnumber human cells by about ten to one."
-currentUnderstanding: "Bacterial and human cell counts are of roughly the same order. A widely cited modern estimate for a reference adult male is about 3.8 × 10^13 bacterial cells and 3.0 × 10^13 human cells, a ratio near 1.3 to 1 rather than 10 to 1."
-whyItChanged: "Researchers revisited old estimates of both bacterial and human cell numbers, replacing rough assumptions about gut volume and cell counts with updated measurements and calculations."
+currentUnderstanding: "Bacterial and human cell numbers are roughly comparable. One widely cited estimate for a reference adult male is about 38 trillion bacterial cells and 30 trillion human cells, a ratio near 1.3 to 1."
+whyItChanged: "Researchers revisited the old estimates, replacing rough assumptions about gut volume and human cell counts with updated measurements and calculations."
 status: "Corrected"
 category: "Biology"
 acceptedApproximately: "1970s–2010s"
 changedApproximately: "2016"
-summary: "A famous ten-to-one microbiome statistic was revised to approximately one bacterial cell per human cell."
+summary: "A famous ten-to-one microbiome statistic was revised to roughly one bacterial cell for every human cell."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -24,6 +24,6 @@ sources:
     note: "Recalculates human and bacterial cell numbers and revises the widely cited ten-to-one ratio to roughly the same order of magnitude."
 ---
 
-The ratio varies with body size, sex, age, bowel contents, health, and how cells are counted. Defecation can also change the bacterial count substantially.
+The ratio varies with body size, age, sex, health, and bowel contents. Even a bowel movement can change the estimate noticeably.
 
-This correction concerns cell numbers, not biological importance. Microbial genes, metabolic activity, and ecological effects cannot be inferred from the cell-count ratio alone.
+This correction concerns cell numbers only. It says nothing simple about the importance of the microbiome, the number of microbial genes, or its metabolic activity.

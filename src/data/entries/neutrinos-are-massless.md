@@ -1,12 +1,12 @@
 ---
 claim: "Neutrinos are massless."
-currentUnderstanding: "Neutrinos have nonzero mass. Experiments show that neutrinos change between flavors, and this oscillation requires differences in mass between neutrino states. Their exact absolute masses remain unknown."
-whyItChanged: "Super-Kamiokande and the Sudbury Neutrino Observatory measured neutrino flavor changes around the turn of the millennium, resolving long-standing atmospheric and solar neutrino deficits."
+currentUnderstanding: "Neutrinos have a small but nonzero mass. Experiments show that they can change from one flavor to another, which requires differences between their mass states. Their exact absolute masses are still unknown."
+whyItChanged: "Super-Kamiokande and the Sudbury Neutrino Observatory measured changes in neutrino flavor, resolving long-standing deficits in atmospheric and solar neutrino observations."
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "Mid-20th century–1990s"
 changedApproximately: "1998–2001"
-summary: "Neutrino oscillations showed that particles long treated as massless must possess a small but nonzero mass."
+summary: "Neutrino oscillations showed that particles long treated as massless must have mass."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -24,6 +24,6 @@ sources:
     note: "Describes the observations of neutrino flavor change and why they imply nonzero mass."
 ---
 
-Oscillation experiments measure differences between neutrino masses, not the complete absolute mass scale. Direct laboratory measurements and cosmology continue to constrain that scale.
+Oscillation experiments measure differences between neutrino masses, not the full absolute mass scale. Laboratory experiments and cosmology continue to narrow that value.
 
-The minimal Standard Model treated neutrinos as massless. Modern extensions incorporate neutrino masses, but their origin remains an open question.
+The original Standard Model treated neutrinos as massless. Modern extensions include their masses, but the underlying mechanism remains an open question.

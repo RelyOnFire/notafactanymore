@@ -1,12 +1,12 @@
 ---
 claim: "The Clovis people were the first inhabitants of the Americas, arriving about 13,500 years ago."
-currentUnderstanding: "Humans were present in the Americas before the Clovis culture. Most specialists accept at least some pre-Clovis occupation, although the exact timing, routes, and number of migrations remain active research questions."
-whyItChanged: "Archaeological sites with credible dates older than Clovis accumulated, while geological and genetic evidence complicated the idea of a single migration through an immediately available ice-free corridor."
+currentUnderstanding: "People were present in the Americas before the Clovis culture. Most specialists accept at least some pre-Clovis occupation, although the timing, routes, and number of migrations are still debated."
+whyItChanged: "Credibly dated sites older than Clovis accumulated, while geological and genetic evidence weakened the idea of one late migration through a newly opened inland corridor."
 status: "Superseded"
 category: "Archaeology"
 acceptedApproximately: "1930s–1990s"
 changedApproximately: "1990s–present"
-summary: "The Clovis-first model was replaced by evidence for human presence in the Americas before Clovis."
+summary: "Evidence for earlier sites replaced the Clovis-first model of the peopling of the Americas."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -30,6 +30,6 @@ sources:
     note: "States that most scholars now accept a human presence before Clovis while timing and migration routes remain unresolved."
 ---
 
-“Pre-Clovis” is a chronological label, not the name of one known people or culture. Different sites vary greatly in the quality and interpretation of their evidence.
+“Pre-Clovis” is a time label, not the name of one known culture. The quality and interpretation of individual sites vary greatly.
 
-The updated position does not establish one universally agreed date for the first arrival, and claims of extremely early occupation require especially careful scrutiny.
+The updated view does not establish one agreed date or route for the first arrival. Claims of extremely early occupation still require especially strong evidence.

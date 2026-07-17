@@ -1,12 +1,12 @@
 ---
 claim: "Malaria is caused by foul or unhealthy air rising from marshes."
-currentUnderstanding: "Malaria is caused by Plasmodium parasites and is usually transmitted through the bites of infected female Anopheles mosquitoes."
-whyItChanged: "Microscopy identified parasites in patients' blood, and mosquito-transmission experiments connected those parasites to Anopheles mosquitoes."
+currentUnderstanding: "Malaria is caused by Plasmodium parasites and is usually spread through the bites of infected female Anopheles mosquitoes."
+whyItChanged: "Researchers found parasites in the blood of people with malaria and later showed that Anopheles mosquitoes transmit them from one host to another."
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Antiquity through the late 19th century"
 changedApproximately: "1880s–1900s"
-summary: "The disease whose name evokes 'bad air' was shown to be a parasitic infection transmitted by mosquitoes."
+summary: "The disease once blamed on marsh air was shown to be a parasitic infection spread by mosquitoes."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -28,4 +28,6 @@ sources:
     note: "Reviews historical explanations and the discoveries of the parasite and mosquito transmission."
 ---
 
-Marsh drainage sometimes reduced malaria because it reduced mosquito breeding sites, not because it removed poisonous vapors.
+Draining marshes sometimes reduced malaria, which made the bad-air explanation seem convincing. It worked because it removed mosquito breeding sites, not because it cleared poisonous vapors.
+
+Mosquito bites are the normal route of transmission, although rare cases can also occur through blood transfusion or from mother to child.

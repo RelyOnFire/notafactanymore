@@ -1,12 +1,12 @@
 ---
 claim: "Organic compounds can be produced only by living organisms using a special vital force."
-currentUnderstanding: "Organic molecules obey the same chemical principles as other matter and can be synthesized from nonliving starting materials. Modern laboratories and industry routinely make natural and entirely novel organic compounds."
-whyItChanged: "In 1828, Friedrich Wöhler synthesized urea from ammonium cyanate, demonstrating that a substance associated with living bodies could arise from nonbiological materials. Later syntheses steadily eroded vitalism."
+currentUnderstanding: "Organic molecules follow the same chemical principles as other matter and can be synthesized from nonliving starting materials. Laboratories and industry routinely make both natural and entirely new organic compounds."
+whyItChanged: "In 1828, Friedrich Wöhler made urea from ammonium cyanate, showing that a substance associated with living bodies could be produced from nonbiological materials. Later syntheses weakened vitalism further."
 status: "Superseded"
 category: "Chemistry"
 acceptedApproximately: "Late 18th–early 19th century"
 changedApproximately: "1828–late 19th century"
-summary: "The boundary between living and nonliving chemistry dissolved as chemists synthesized organic compounds in the laboratory."
+summary: "Laboratory synthesis broke down the supposed chemical boundary between living and nonliving matter."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -30,6 +30,6 @@ sources:
     note: "Discusses the gradual rather than instantaneous decline of vitalist chemistry."
 ---
 
-Wöhler's urea synthesis was symbolically important, but historians caution against presenting it as a single experiment that instantly destroyed vitalism.
+Wöhler's experiment was symbolically important, but it did not destroy vitalism overnight. The change came gradually as more organic compounds were synthesized and explained chemically.
 
-This card concerns chemical synthesis. It does not claim that scientists can yet reproduce every feature of a living organism from simple ingredients.
+This entry concerns chemical synthesis. It does not claim that every feature of a living organism can already be recreated from simple ingredients.

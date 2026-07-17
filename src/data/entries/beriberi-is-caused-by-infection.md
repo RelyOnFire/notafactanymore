@@ -1,12 +1,12 @@
 ---
 claim: "Beriberi is caused by an infectious agent or toxin associated with rice."
-currentUnderstanding: "Beriberi is caused by thiamine deficiency and can affect the cardiovascular system, nervous system, or both."
-whyItChanged: "Feeding experiments showed that animals developed neurological disease on polished rice but recovered when rice bran was restored. Later research isolated the protective factor, vitamin B1."
+currentUnderstanding: "Beriberi is caused by thiamine deficiency. It can damage the nervous system, the cardiovascular system, or both."
+whyItChanged: "Animals fed polished rice developed neurological illness but recovered when rice bran was restored. Later researchers isolated the protective nutrient now known as vitamin B1, or thiamine."
 status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Late 19th to early 20th century"
 changedApproximately: "1890s–1930s"
-summary: "The search for an infectious or toxic cause of beriberi gave way to the discovery of thiamine deficiency."
+summary: "The search for an infection or rice toxin gave way to the discovery that beriberi is caused by thiamine deficiency."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -28,4 +28,6 @@ sources:
     note: "Records Eijkman's Nobel-recognized work connecting diet and antineuritic vitamins."
 ---
 
-Early investigators did not all hold exactly the same infectious or toxin theory. The deficiency model emerged gradually.
+Early researchers did not all support the same explanation, and even Eijkman's interpretation changed over time. The deficiency model emerged gradually.
+
+Today, beriberi can result from poor diet, alcoholism, malabsorption, dialysis, prolonged vomiting, and other conditions that reduce thiamine availability.

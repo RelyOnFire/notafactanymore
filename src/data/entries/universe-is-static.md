@@ -1,12 +1,12 @@
 ---
 claim: "The universe is static and does not expand."
-currentUnderstanding: "On large scales, the universe is expanding. Distant galaxies generally recede in a relationship between distance and redshift, and the expansion rate has changed over cosmic history."
-whyItChanged: "Measurements of galaxy distances and redshifts established a systematic recession pattern. The observations supported dynamic cosmological models rather than a universe remaining permanently the same size."
+currentUnderstanding: "The universe is expanding on large scales. Distant galaxies generally recede in a relationship between their distance and redshift, and the expansion rate has changed over cosmic time."
+whyItChanged: "Measurements of galaxy distances and redshifts revealed a consistent pattern of recession, supporting a changing universe rather than one that remains permanently the same size."
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "19th century through the 1920s"
 changedApproximately: "1920s–1930s"
-summary: "The prevailing static-universe picture was overturned by observations showing that space is expanding."
+summary: "Galaxy measurements overturned the prevailing picture of a static universe."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -30,6 +30,6 @@ sources:
     note: "Summarizes cosmic expansion and the later discovery that the expansion is accelerating."
 ---
 
-Expansion does not mean that galaxies, solar systems, people, or atoms are themselves being stretched in ordinary circumstances. Gravitationally or otherwise bound systems can remain intact.
+Cosmic expansion does not mean that galaxies, solar systems, people, or atoms are being stretched apart in everyday conditions. Bound systems can remain intact.
 
-Hubble was not the only contributor. Theoretical and observational work by Georges Lemaître, Alexander Friedmann, Vesto Slipher, Milton Humason, Henrietta Leavitt, and others was essential.
+The discovery was not Hubble's work alone. Lemaître, Friedmann, Slipher, Humason, Leavitt, and others made essential theoretical and observational contributions.

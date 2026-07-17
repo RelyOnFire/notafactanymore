@@ -1,14 +1,14 @@
 ---
 claim: "Puerperal fever is not carried from patient to patient on doctors' hands, so hand disinfection is unnecessary."
-currentUnderstanding: "Puerperal fever is usually a bacterial infection. Medical staff can transmit infectious material between patients, and effective hand hygiene is a core measure for preventing healthcare-associated infection."
-whyItChanged: "Ignaz Semmelweis observed far higher maternal mortality in a clinic staffed by doctors and students who also performed autopsies. Requiring hand disinfection with chlorinated lime sharply reduced deaths, and later germ theory explained why the intervention worked."
+currentUnderstanding: "Puerperal fever is usually a bacterial infection. Doctors and other medical staff can carry infectious material between patients, making hand hygiene a basic part of infection prevention."
+whyItChanged: "Ignaz Semmelweis found that maternal deaths were much higher in a clinic where doctors and students also performed autopsies. After he required handwashing with chlorinated lime, the death rate fell sharply. Germ theory later explained why it worked."
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Early to mid-19th century"
 changedApproximately: "1840s–1880s"
-summary: "The belief that physicians could not carry childbed fever between patients was overturned by Semmelweis's mortality data and later bacteriology."
+summary: "Semmelweis showed that doctors could carry childbed fever between patients and that disinfecting their hands saved lives."
 featured: true
-featuredOrder: 6
+featuredOrder: 6 
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
 sources:
@@ -29,6 +29,6 @@ sources:
     note: "Explains the role of hand hygiene in preventing transmission of pathogens in healthcare."
 ---
 
-Semmelweis did not yet possess a modern germ theory and initially described the cause as cadaveric material carried from autopsy rooms. His intervention was nevertheless effective.
+-Semmelweis did not yet possess a modern germ theory and initially described the cause as cadaveric material carried from autopsy rooms. His intervention was nevertheless effective.
 
-The change was gradual. Broad acceptance depended on later work in microbiology and antiseptic surgery.
+Acceptance was slow. His findings met strong resistance, and the wider medical explanation only became clear with later advances in microbiology and antiseptic surgery.

@@ -15,7 +15,11 @@ const groupedSources = entry.data.sources.reduce<Record<string, typeof entry.dat
   return groups;
 }, {});
 ---
-<BaseLayout title={entry.data.claim} description={entry.data.summary}>
+<BaseLayout
+  title={entry.data.claim}
+  description={entry.data.summary}
+  type="article"
+>
   <div class="narrow entry-page">
     <FactCard entry={entry} expanded />
 

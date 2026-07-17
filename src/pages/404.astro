@@ -1,0 +1,92 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Page not found | Not a Fact Anymore"
+  description="The page you requested could not be found."
+>
+  <main class="not-found">
+    <div class="status">404</div>
+
+    <p class="eyebrow">NOT A PAGE ANYMORE</p>
+
+    <h1>This page could not be found.</h1>
+
+    <p class="explanation">
+      The link may be outdated, the page may have moved, or the address may
+      contain a mistake.
+    </p>
+
+    <div class="actions">
+      <a class="primary-action" href="/">Return home</a>
+      <a class="secondary-action" href="/browse/">Browse the catalogue</a>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .not-found {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 7rem 1.5rem 9rem;
+    text-align: center;
+  }
+
+  .status {
+    margin-bottom: 1rem;
+    font-size: clamp(5rem, 18vw, 10rem);
+    font-weight: 800;
+    line-height: 0.8;
+    letter-spacing: -0.08em;
+    opacity: 0.12;
+  }
+
+  .eyebrow {
+    margin: 0 0 1rem;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: clamp(2.2rem, 6vw, 4.5rem);
+    line-height: 1;
+    letter-spacing: -0.05em;
+  }
+
+  .explanation {
+    max-width: 580px;
+    margin: 1.5rem auto 0;
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 2rem;
+  }
+
+  .actions a {
+    display: inline-block;
+    padding: 0.85rem 1.15rem;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .primary-action {
+    color: white;
+    background: #111;
+    border-color: #111;
+  }
+
+  .secondary-action {
+    color: inherit;
+  }
+</style>

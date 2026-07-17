@@ -8,7 +8,7 @@ acceptedApproximately: "19th century to 1938"
 changedApproximately: "1938–1939"
 summary: "A fish known only from ancient fossils was unexpectedly found alive in 1938."
 featured: true 
-featuredOrder: 3
+featuredOrder: 4
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
 sources:

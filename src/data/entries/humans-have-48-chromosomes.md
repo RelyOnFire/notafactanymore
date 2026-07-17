@@ -7,7 +7,8 @@ category: "Genetics"
 acceptedApproximately: "1920s–1955"
 changedApproximately: "1955–1956"
 summary: "A chromosome count accepted for about thirty years was corrected from 48 to 46 after improved preparation and microscopy."
-featured: false
+featured: true
+featuredOrder: 3
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
 sources:

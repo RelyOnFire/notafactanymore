@@ -1,13 +1,13 @@
 ---
-claim: "The deep ocean below roughly 300 fathoms [549 meters, 1800 feet] is lifeless."
-currentUnderstanding: "Animals and microorganisms inhabit the ocean at depths far beyond 300 fathoms [549m, 1800ft) including the deepest trenches. Deep-sea ecosystems can be supported by sinking organic matter, chemosynthesis and other energy pathways."
-whyItChanged: "Dredging expeditions in the late 1860s recovered living organisms from depths of about 2,400 fathoms [4390m, 14400ft]. The Challenger expedition then systematically documented diverse deep-sea life."
+claim: "The deep ocean below roughly 300 fathoms (549 meters, 1800 feet) is lifeless."
+currentUnderstanding: "Animals and microorganisms inhabit the ocean at depths far beyond 300 fathoms (549m, 1800ft) including the deepest trenches. Deep-sea ecosystems can be supported by sinking organic matter, chemosynthesis and other energy pathways."
+whyItChanged: "Dredging expeditions in the late 1860s recovered living organisms from depths of about 2,400 fathoms (4390m, 14400ft). The Challenger expedition then systematically documented diverse deep-sea life."
 status: "Overturned"
 category: "Ocean Science"
 acceptedApproximately: "1840s–1860s"
 changedApproximately: "1868–1870s"
 summary: "Dredging recovered living animals far below the depth once proposed as the ocean's lifeless boundary."
-featured: true
+featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
 sources:

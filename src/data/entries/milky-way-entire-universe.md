@@ -7,7 +7,8 @@ category: "Astronomy"
 acceptedApproximately: "Late 19th and early 20th centuries"
 changedApproximately: "1920s"
 summary: "Distance measurements showed that spiral nebulae were separate galaxies far beyond the Milky Way."
-featured: false
+featured: true
+featuredOrder: 4
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
 sources:

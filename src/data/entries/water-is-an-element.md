@@ -7,7 +7,8 @@ category: "Chemistry"
 acceptedApproximately: "Classical antiquity through the 18th century"
 changedApproximately: "1780s"
 summary: "Water's ancient status as one of the basic elements ended when experiments showed that it is a compound of hydrogen and oxygen."
-featured: false
+featured: true
+featuredOrder: 5
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
 sources:

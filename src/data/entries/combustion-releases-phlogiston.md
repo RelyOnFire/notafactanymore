@@ -7,7 +7,7 @@ category: "Chemistry"
 acceptedApproximately: "Late 17th through the late 18th century"
 changedApproximately: "1770s–1790s"
 summary: "The dominant phlogiston theory of burning was replaced by an oxygen-based, mass-conserving account of combustion."
-featured: true
+featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
 sources:

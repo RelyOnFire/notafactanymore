@@ -8,6 +8,7 @@ acceptedApproximately: "19th century to the mid-20th century"
 changedApproximately: "1950s–1960s"
 summary: "The largely fixed-Earth model was replaced by plate tectonics after evidence showed that Earth’s crust is divided into moving plates."
 featured: true
+featuredOrder: 2
 publishedAt: "2026-07-16"
 reviewedAt: "2026-07-16"
 sources:

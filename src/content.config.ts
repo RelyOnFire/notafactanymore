@@ -8,7 +8,7 @@ const entries = defineCollection({
     claim: z.string(),
     currentUnderstanding: z.string(),
     whyItChanged: z.string(),
-    status: z.enum(['Overturned', 'Superseded', 'Narrowed', 'Reclassified', 'Corrected']),
+    status: z.enum(['Overturned', 'Superseded', 'Narrowed', 'Reclassified', 'Corrected','Broadened']),
     category: z.string(),
     acceptedApproximately: z.string(),
     changedApproximately: z.string(),

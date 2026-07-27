@@ -2,7 +2,7 @@
 claim: "Oxidation always means adding oxygen to a substance."
 currentUnderstanding: "Oxidation is the loss of electrons or an increase in oxidation state. Oxygen commonly causes oxidation, but many oxidation reactions contain no oxygen."
 whyItChanged: "The term began with combustion and oxygen chemistry. Electrochemistry and electron theory later revealed the broader pattern shared by reactions involving chlorine, metal ions, electrical cells, and many other oxidants."
-status: "Broadened"
+status: "Superseded"
 category: "Chemistry"
 acceptedApproximately: "Late 18th–19th century"
 changedApproximately: "Late 19th–20th century"

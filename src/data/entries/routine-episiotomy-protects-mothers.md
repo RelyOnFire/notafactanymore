@@ -24,7 +24,7 @@ sources:
   - title: "WHO recommendation on routine or liberal use of episiotomy"
     url: "https://www.ncbi.nlm.nih.gov/books/NBK615641/table/part1.tab76/"
     publisher: "World Health Organization via NCBI Bookshelf"
-    purpose: "Current guidance"
+    purpose: "Current evidence"
     note: "States that routine or liberal episiotomy is not recommended for spontaneous vaginal birth."
 ---
 

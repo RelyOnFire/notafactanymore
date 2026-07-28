@@ -1,17 +1,17 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import CompactClaim from '../components/CompactClaim.astro';
 import FactCard from '../components/FactCard.astro';
 
 const entries = await getCollection('entries');
-
 const featured = entries
   .filter((entry) => entry.data.featured)
-  .sort(
-    (a, b) =>
-      (a.data.featuredOrder ?? 999) -
-      (b.data.featuredOrder ?? 999)
-  );
+  .sort((a, b) => (a.data.featuredOrder ?? 999) - (b.data.featuredOrder ?? 999));
+
+const recent = [...entries]
+  .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime() || a.data.claim.localeCompare(b.data.claim))
+  .slice(0, 12);
 ---
 <BaseLayout>
   <section class="hero container">
@@ -33,11 +33,27 @@ const featured = entries
 
   <section class="container featured">
     <div class="section-heading">
-      <div><p class="eyebrow">Featured entry</p><h2>A clear example of knowledge updating</h2></div>
+      <div><p class="eyebrow">Featured entries</p><h2>Clear examples of knowledge updating</h2></div>
       <a href="/browse">View all entries →</a>
     </div>
     <div class="cards">
       {featured.map((entry) => <FactCard entry={entry} expanded />)}
+    </div>
+  </section>
+
+  <section class="catalogue-preview">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">The growing catalogue</p>
+          <h2>Explore all {entries.length} former facts</h2>
+          <p class="section-intro">A compact preview of recently added entries. The full catalogue can be searched and filtered in either card or list view.</p>
+        </div>
+        <a href="/browse?view=compact">Open compact index →</a>
+      </div>
+      <div class="compact-preview">
+        {recent.map((entry) => <CompactClaim entry={entry} />)}
+      </div>
     </div>
   </section>
 </BaseLayout>
@@ -53,7 +69,13 @@ const featured = entries
   .featured { padding: 5rem 0; }
   .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 2rem; margin-bottom: 2rem; }
   .section-heading h2 { margin: .2rem 0 0; }
-  .section-heading > a { font-weight: 800; color: var(--accent-dark); }
+  .section-heading > a { flex: 0 0 auto; font-weight: 800; color: var(--accent-dark); }
+  .section-intro { margin-bottom: 0; color: var(--muted); }
   .cards { display: grid; gap: 2rem; }
-  @media (max-width: 700px) { .section-heading { align-items: start; flex-direction: column; } }
+  .catalogue-preview { padding: 4.5rem 0 5rem; border-top: 1px solid var(--line); background: color-mix(in srgb, var(--card) 45%, transparent); }
+  .compact-preview { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.55rem; }
+  @media (max-width: 700px) {
+    .section-heading { align-items: start; flex-direction: column; }
+    .compact-preview { grid-template-columns: 1fr; }
+  }
 </style>

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import CompactClaim from '../components/CompactClaim.astro';
 import FactCard from '../components/FactCard.astro';
 
 const entries = (await getCollection('entries')).sort((a, b) =>
@@ -10,98 +11,138 @@ const entries = (await getCollection('entries')).sort((a, b) =>
 const categories = [
   ...new Set(entries.map((entry) => entry.data.category)),
 ].sort();
+
+const statuses = [
+  ...new Set(entries.map((entry) => entry.data.status)),
+].sort();
 ---
 
 <BaseLayout
   title="Browse"
-  description="Browse claims that were once accepted as fact but were later revised by stronger evidence."
+  description="Search and browse claims that were once accepted as fact but were later revised by stronger evidence."
 >
   <header class="page-head container">
     <p class="eyebrow">The catalogue</p>
     <h1>Browse entries</h1>
-
     <p>
-      Every entry identifies the former claim, the present understanding, why
-      it changed, and the evidence supporting both sides of the history.
+      Search the complete collection, narrow it by category or status, and
+      switch between detailed cards and a compact index.
     </p>
   </header>
 
   <section class="filter-region" aria-labelledby="filter-heading">
     <div class="container filter-inner">
+      <div class="primary-controls">
+        <label class="search-field">
+          <span>Search claims</span>
+          <input
+            type="search"
+            class="catalogue-search"
+            placeholder="Search claims and current understanding…"
+            autocomplete="off"
+          />
+        </label>
+
+        <fieldset class="view-switcher">
+          <legend>View</legend>
+          <div class="view-buttons">
+            <button class="view-button" type="button" data-view="cards" aria-pressed="true">
+              Cards
+            </button>
+            <button class="view-button" type="button" data-view="compact" aria-pressed="false">
+              Compact
+            </button>
+          </div>
+        </fieldset>
+      </div>
+
       <div class="filter-heading-row">
         <div>
-          <p class="filter-label" id="filter-heading">
-            Filter by category
-          </p>
+          <p class="filter-label" id="filter-heading">Filter the catalogue</p>
+          <p class="filter-help">Select any combination of categories and statuses.</p>
+        </div>
+        <button class="clear-filters" type="button" hidden>Clear filters</button>
+      </div>
 
-          <p class="filter-help">
-            Select one or more categories.
-          </p>
+      <div class="filter-groups">
+        <div>
+          <p class="group-label">Categories</p>
+          <div class="filters" role="group" aria-label="Filter entries by category">
+            {categories.map((category) => {
+              const count = entries.filter((entry) => entry.data.category === category).length;
+              return (
+                <button
+                  class="filter-button"
+                  type="button"
+                  data-filter-type="category"
+                  data-filter-value={category}
+                  aria-pressed="false"
+                >
+                  {category}<span class="count">{count}</span>
+                </button>
+              );
+            })}
+          </div>
         </div>
 
-        <button class="clear-filters" type="button" hidden>
-          Clear filters
-        </button>
+        <div>
+          <p class="group-label">Status</p>
+          <div class="filters" role="group" aria-label="Filter entries by status">
+            {statuses.map((status) => {
+              const count = entries.filter((entry) => entry.data.status === status).length;
+              return (
+                <button
+                  class="filter-button"
+                  type="button"
+                  data-filter-type="status"
+                  data-filter-value={status}
+                  aria-pressed="false"
+                >
+                  {status}<span class="count">{count}</span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
       </div>
 
-      <div
-        class="filters"
-        role="group"
-        aria-label="Filter entries by category"
-      >
-        <button
-          class="filter-button is-active"
-          type="button"
-          data-filter="all"
-          aria-pressed="true"
-        >
-          All
-          <span class="count">{entries.length}</span>
-        </button>
-
-        {
-          categories.map((category) => {
-            const count = entries.filter(
-              (entry) => entry.data.category === category
-            ).length;
-
-            return (
-              <button
-                class="filter-button"
-                type="button"
-                data-filter={category}
-                aria-pressed="false"
-              >
-                {category}
-                <span class="count">{count}</span>
-              </button>
-            );
-          })
-        }
-      </div>
-
-      <p class="results-summary" aria-live="polite">
-        Showing all {entries.length} entries
-      </p>
+      <p class="results-summary" aria-live="polite">Showing all {entries.length} entries</p>
     </div>
   </section>
 
-  <section class="container grid" aria-label="Catalogue entries">
-    {
-      entries.map((entry) => (
-        <div
-          class="entry-wrapper"
-          data-category={entry.data.category}
-        >
-          <FactCard entry={entry} />
-        </div>
-      ))
-    }
+  <section class="container catalogue catalogue-cards" aria-label="Catalogue card view">
+    {entries.map((entry) => (
+      <div
+        class="entry-wrapper"
+        data-entry-id={entry.id}
+        data-category={entry.data.category}
+        data-status={entry.data.status}
+        data-search={`${entry.data.claim} ${entry.data.currentUnderstanding} ${entry.data.summary} ${entry.data.category} ${entry.data.status}`.toLowerCase()}
+      >
+        <FactCard entry={entry} />
+      </div>
+    ))}
   </section>
+
+  <section class="container catalogue catalogue-compact" aria-label="Compact catalogue view" hidden>
+    {entries.map((entry) => (
+      <div
+        class="entry-wrapper"
+        data-entry-id={entry.id}
+        data-category={entry.data.category}
+        data-status={entry.data.status}
+        data-search={`${entry.data.claim} ${entry.data.currentUnderstanding} ${entry.data.summary} ${entry.data.category} ${entry.data.status}`.toLowerCase()}
+      >
+        <CompactClaim entry={entry} />
+      </div>
+    ))}
+  </section>
+
+  <p class="container empty-state" hidden>No entries match those filters.</p>
 
   <noscript>
     <p class="container noscript-note">
-      Category filtering requires JavaScript. All entries are shown below.
+      Search, filtering, and the compact-view switch require JavaScript. All entries are shown as cards.
     </p>
   </noscript>
 
@@ -109,81 +150,99 @@ const categories = [
     const filterButtons = Array.from(
       document.querySelectorAll<HTMLButtonElement>('.filter-button')
     );
+    const viewButtons = Array.from(
+      document.querySelectorAll<HTMLButtonElement>('.view-button')
+    );
+    const catalogues = Array.from(
+      document.querySelectorAll<HTMLElement>('.catalogue')
+    );
+    const searchInput = document.querySelector<HTMLInputElement>('.catalogue-search');
+    const clearButton = document.querySelector<HTMLButtonElement>('.clear-filters');
+    const resultsSummary = document.querySelector<HTMLElement>('.results-summary');
+    const emptyState = document.querySelector<HTMLElement>('.empty-state');
 
-    const entryWrappers = Array.from(
+    const selectedCategories = new Set<string>();
+    const selectedStatuses = new Set<string>();
+    let currentView: 'cards' | 'compact' = 'cards';
+
+    const allWrappers = () => Array.from(
       document.querySelectorAll<HTMLElement>('.entry-wrapper')
     );
 
-    const clearButton =
-      document.querySelector<HTMLButtonElement>('.clear-filters');
-
-    const resultsSummary =
-      document.querySelector<HTMLElement>('.results-summary');
-
-    const selectedCategories = new Set<string>();
-
     const updateURL = () => {
       const url = new URL(window.location.href);
+      const search = searchInput?.value.trim() ?? '';
 
-      if (selectedCategories.size === 0) {
-        url.searchParams.delete('categories');
-      } else {
-        url.searchParams.set(
-          'categories',
-          [...selectedCategories].sort().join(',')
-        );
-      }
+      const setList = (key: string, values: Set<string>) => {
+        if (values.size) url.searchParams.set(key, [...values].sort().join(','));
+        else url.searchParams.delete(key);
+      };
+
+      setList('categories', selectedCategories);
+      setList('statuses', selectedStatuses);
+      if (search) url.searchParams.set('q', search);
+      else url.searchParams.delete('q');
+      if (currentView === 'compact') url.searchParams.set('view', 'compact');
+      else url.searchParams.delete('view');
 
       window.history.replaceState({}, '', url);
     };
 
+    const setView = (view: 'cards' | 'compact') => {
+      currentView = view;
+      catalogues.forEach((catalogue) => {
+        catalogue.hidden = !catalogue.classList.contains(`catalogue-${view}`);
+      });
+      viewButtons.forEach((button) => {
+        const active = button.dataset.view === view;
+        button.classList.toggle('is-active', active);
+        button.setAttribute('aria-pressed', String(active));
+      });
+      try { localStorage.setItem('catalogue-view', view); } catch {}
+      updateDisplay();
+    };
+
     const updateDisplay = () => {
-      const showAll = selectedCategories.size === 0;
+      const query = searchInput?.value.trim().toLowerCase() ?? '';
+      const visibility = new Map<string, boolean>();
       let visibleCount = 0;
 
-      entryWrappers.forEach((wrapper) => {
-        const category = wrapper.dataset.category ?? '';
-
-        const visible =
-          showAll || selectedCategories.has(category);
-
-        wrapper.hidden = !visible;
-
-        if (visible) {
-          visibleCount += 1;
+      allWrappers().forEach((wrapper) => {
+        const id = wrapper.dataset.entryId ?? '';
+        if (visibility.has(id)) {
+          wrapper.hidden = !visibility.get(id);
+          return;
         }
+
+        const categoryMatch =
+          selectedCategories.size === 0 || selectedCategories.has(wrapper.dataset.category ?? '');
+        const statusMatch =
+          selectedStatuses.size === 0 || selectedStatuses.has(wrapper.dataset.status ?? '');
+        const searchMatch = !query || (wrapper.dataset.search ?? '').includes(query);
+        const visible = categoryMatch && statusMatch && searchMatch;
+
+        visibility.set(id, visible);
+        wrapper.hidden = !visible;
+        if (visible) visibleCount += 1;
       });
 
       filterButtons.forEach((button) => {
-        const filter = button.dataset.filter ?? '';
-
-        const active =
-          filter === 'all'
-            ? showAll
-            : selectedCategories.has(filter);
-
+        const type = button.dataset.filterType;
+        const value = button.dataset.filterValue ?? '';
+        const active = type === 'category'
+          ? selectedCategories.has(value)
+          : selectedStatuses.has(value);
         button.classList.toggle('is-active', active);
         button.setAttribute('aria-pressed', String(active));
       });
 
-      if (clearButton) {
-        clearButton.hidden = showAll;
-      }
-
+      const hasFilters = selectedCategories.size > 0 || selectedStatuses.size > 0 || query.length > 0;
+      if (clearButton) clearButton.hidden = !hasFilters;
+      if (emptyState) emptyState.hidden = visibleCount !== 0;
       if (resultsSummary) {
-        if (showAll) {
-          resultsSummary.textContent =
-            `Showing all ${visibleCount} entries`;
-        } else {
-          const categoryList = [...selectedCategories]
-            .sort()
-            .join(', ');
-
-          resultsSummary.textContent =
-            `Showing ${visibleCount} ` +
-            `${visibleCount === 1 ? 'entry' : 'entries'} ` +
-            `in ${categoryList}`;
-        }
+        resultsSummary.textContent = hasFilters
+          ? `Showing ${visibleCount} of ${visibility.size} ${visibleCount === 1 ? 'entry' : 'entries'}`
+          : `Showing all ${visibility.size} entries`;
       }
 
       updateURL();
@@ -191,63 +250,50 @@ const categories = [
 
     filterButtons.forEach((button) => {
       button.addEventListener('click', () => {
-        const filter = button.dataset.filter;
-
-        if (!filter || filter === 'all') {
-          selectedCategories.clear();
-          updateDisplay();
-          return;
-        }
-
-        if (selectedCategories.has(filter)) {
-          selectedCategories.delete(filter);
-        } else {
-          selectedCategories.add(filter);
-        }
-
+        const type = button.dataset.filterType;
+        const value = button.dataset.filterValue;
+        if (!value) return;
+        const target = type === 'category' ? selectedCategories : selectedStatuses;
+        target.has(value) ? target.delete(value) : target.add(value);
         updateDisplay();
       });
     });
 
+    viewButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const view = button.dataset.view;
+        if (view === 'cards' || view === 'compact') setView(view);
+      });
+    });
+
+    searchInput?.addEventListener('input', updateDisplay);
     clearButton?.addEventListener('click', () => {
       selectedCategories.clear();
+      selectedStatuses.clear();
+      if (searchInput) searchInput.value = '';
       updateDisplay();
+      searchInput?.focus();
     });
 
-    const initialCategories = new URL(window.location.href)
-      .searchParams
-      .get('categories')
-      ?.split(',')
-      .map((category) => category.trim())
-      .filter(Boolean);
+    const url = new URL(window.location.href);
+    const readList = (key: string, target: Set<string>) => {
+      url.searchParams.get(key)?.split(',').map((value) => value.trim()).filter(Boolean).forEach((value) => target.add(value));
+    };
+    readList('categories', selectedCategories);
+    readList('statuses', selectedStatuses);
+    if (searchInput) searchInput.value = url.searchParams.get('q') ?? '';
 
-    initialCategories?.forEach((category) => {
-      const exists = filterButtons.some(
-        (button) => button.dataset.filter === category
-      );
-
-      if (exists) {
-        selectedCategories.add(category);
-      }
-    });
-
-    updateDisplay();
+    let savedView: string | null = null;
+    try { savedView = localStorage.getItem('catalogue-view'); } catch {}
+    const requestedView = url.searchParams.get('view') ?? savedView;
+    setView(requestedView === 'compact' ? 'compact' : 'cards');
   </script>
 </BaseLayout>
 
 <style>
-  .page-head {
-    padding: 5rem 0 2rem;
-  }
-
-  .page-head h1 {
-    margin: 0.2rem 0 1rem;
-  }
-
-  .page-head > p:not(.eyebrow) {
-    font-size: 1.2rem;
-    color: var(--muted);
-  }
+  .page-head { padding: 5rem 0 2rem; }
+  .page-head h1 { margin: 0.2rem 0 1rem; }
+  .page-head > p:not(.eyebrow) { font-size: 1.2rem; color: var(--muted); }
 
   .filter-region {
     position: sticky;
@@ -255,131 +301,48 @@ const categories = [
     z-index: 20;
     border-top: 1px solid var(--line);
     border-bottom: 1px solid var(--line);
-    background: color-mix(
-      in srgb,
-      var(--paper) 94%,
-      transparent
-    );
+    background: color-mix(in srgb, var(--paper) 94%, transparent);
     backdrop-filter: blur(10px);
   }
+  .filter-inner { padding: 1rem 0; }
+  .primary-controls { display: grid; grid-template-columns: minmax(16rem, 1fr) auto; gap: 1rem; align-items: end; }
+  .search-field { display: grid; gap: 0.35rem; font-weight: 850; }
+  .catalogue-search { width: 100%; min-height: 2.8rem; border: 1px solid var(--line); border-radius: 0.55rem; padding: 0.65rem 0.8rem; color: var(--ink); background: var(--card); font: inherit; }
+  .catalogue-search:focus { outline: 2px solid color-mix(in srgb, var(--accent) 45%, transparent); border-color: var(--accent-dark); }
+  .view-switcher { margin: 0; padding: 0; border: 0; }
+  .view-switcher legend { margin-bottom: 0.35rem; font-weight: 850; }
+  .view-buttons { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--card); }
+  .view-button { border: 0; padding: 0.55rem 0.9rem; color: var(--ink); background: transparent; font: inherit; font-weight: 800; cursor: pointer; }
+  .view-button.is-active { color: white; background: var(--ink); }
 
-  .filter-inner {
-    padding: 1rem 0;
-  }
+  .filter-heading-row { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-top: 1rem; }
+  .filter-label, .group-label { margin: 0; font-weight: 850; }
+  .filter-help { margin: 0.1rem 0 0; color: var(--muted); font-size: 0.9rem; }
+  .filter-groups { display: grid; gap: 0.75rem; margin-top: 0.75rem; }
+  .group-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+  .filters { display: flex; gap: 0.45rem; flex-wrap: wrap; margin-top: 0.35rem; }
+  .filter-button, .clear-filters { border: 1px solid var(--line); border-radius: 999px; padding: 0.35rem 0.75rem; color: var(--ink); background: var(--card); font: inherit; font-size: 0.9rem; font-weight: 750; cursor: pointer; }
+  .filter-button { display: inline-flex; align-items: center; gap: 0.4rem; }
+  .filter-button:hover, .filter-button:focus-visible, .clear-filters:hover, .clear-filters:focus-visible { border-color: var(--accent-dark); }
+  .filter-button.is-active { border-color: var(--ink); color: white; background: var(--ink); }
+  .count { min-width: 1.35rem; padding: 0.02rem 0.3rem; border-radius: 999px; color: var(--muted); background: var(--paper); font-size: 0.72rem; text-align: center; }
+  .filter-button.is-active .count { color: var(--ink); background: white; }
+  .clear-filters { color: var(--accent-dark); background: transparent; }
+  .results-summary { margin: 0.75rem 0 0; color: var(--muted); font-size: 0.9rem; }
 
-  .filter-heading-row {
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .filter-label {
-    margin: 0;
-    font-weight: 850;
-  }
-
-  .filter-help {
-    margin: 0.1rem 0 0;
-    color: var(--muted);
-    font-size: 0.9rem;
-  }
-
-  .filters {
-    display: flex;
-    gap: 0.6rem;
-    flex-wrap: wrap;
-    margin-top: 0.9rem;
-  }
-
-  .filter-button,
-  .clear-filters {
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    padding: 0.4rem 0.85rem;
-    font: inherit;
-    font-weight: 750;
-    color: var(--ink);
-    background: var(--card);
-    cursor: pointer;
-  }
-
-  .filter-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
-  }
-
-  .filter-button:hover,
-  .filter-button:focus-visible,
-  .clear-filters:hover,
-  .clear-filters:focus-visible {
-    border-color: var(--accent-dark);
-  }
-
-  .filter-button.is-active {
-    border-color: var(--ink);
-    color: white;
-    background: var(--ink);
-  }
-
-  .count {
-    min-width: 1.45rem;
-    padding: 0.05rem 0.35rem;
-    border-radius: 999px;
-    font-size: 0.78rem;
-    text-align: center;
-    color: var(--muted);
-    background: var(--paper);
-  }
-
-  .filter-button.is-active .count {
-    color: var(--ink);
-    background: white;
-  }
-
-  .clear-filters {
-    color: var(--accent-dark);
-    background: transparent;
-  }
-
-  .results-summary {
-    margin: 0.8rem 0 0;
-    color: var(--muted);
-    font-size: 0.9rem;
-  }
-
-  .grid {
-    padding: 2rem 0 5rem;
-    display: grid;
-    grid-template-columns: repeat(
-      auto-fit,
-      minmax(min(100%, 430px), 1fr)
-    );
-    gap: 1.5rem;
-    align-items: start;
-  }
-
-  .entry-wrapper[hidden] {
-    display: none;
-  }
-
-  .noscript-note {
-    margin-bottom: 3rem;
-    color: var(--muted);
-  }
+  .catalogue { padding: 2rem 0 5rem; }
+  .catalogue-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 430px), 1fr)); gap: 1.5rem; align-items: start; }
+  .catalogue-compact { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.55rem; }
+  .catalogue[hidden] { display: none; }
+  .entry-wrapper[hidden] { display: none; }
+  .empty-state { margin: 3rem auto 5rem; padding: 2rem; border: 1px dashed var(--line); color: var(--muted); text-align: center; }
+  .noscript-note { margin-bottom: 3rem; color: var(--muted); }
 
   @media (max-width: 760px) {
-    .page-head {
-      padding-top: 3rem;
-    }
-
-    .filter-region {
-      position: static;
-    }
-
-    .filter-heading-row {
-      align-items: flex-start;
-    }
+    .page-head { padding-top: 3rem; }
+    .filter-region { position: static; }
+    .primary-controls { grid-template-columns: 1fr; }
+    .filter-heading-row { align-items: flex-start; }
+    .catalogue-compact { grid-template-columns: 1fr; }
   }
 </style>

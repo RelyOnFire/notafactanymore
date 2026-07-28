@@ -1,0 +1,33 @@
+---
+claim: "Rickets is caused primarily by infection or poor hygiene."
+currentUnderstanding: "Most nutritional rickets results from inadequate vitamin D, calcium, or phosphate. Limited sunlight, diet, malabsorption, and some inherited disorders can all contribute."
+whyItChanged: "Rickets was common in crowded industrial cities and often accompanied respiratory illness, making infection and hygiene plausible causes. Animal experiments, sunlight treatment, cod-liver oil, and vitamin D isolation established a nutritional and metabolic explanation."
+status: "Overturned"
+category: "Medicine"
+acceptedApproximately: "19th–early 20th century"
+changedApproximately: "1910s–1930s"
+summary: "A childhood bone disease blamed on infection became a model of vitamin deficiency and sunlight biology."
+featured: false
+publishedAt: "2026-07-28"
+reviewedAt: "2026-07-28"
+sources:
+  - title: "English Disease: Historical Notes on Rickets"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5133108/"
+    publisher: "PubMed Central"
+    purpose: "Previous belief"
+    note: "Describes the misleading 19th- and early-20th-century paradigm that rickets was a consequence of infection."
+  - title: "Rickets: Historical, Epidemiological, Pathophysiological, and Pathological Perspectives"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6474539/"
+    publisher: "PubMed Central"
+    purpose: "Historical context"
+    note: "Reviews the experiments and public-health measures that linked rickets to vitamin D and sunlight."
+  - title: "Rickets: Historical, Epidemiological, Pathophysiological, and Pathological Perspectives"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6474539/"
+    publisher: "PubMed Central"
+    purpose: "Current evidence"
+    note: "Explains modern nutritional and metabolic causes of rickets."
+---
+
+Infections can accompany or worsen illness in children with severe vitamin D deficiency, which helped confuse cause and consequence.
+
+Not every case of rickets is due to vitamin D deficiency alone.

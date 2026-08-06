@@ -30,11 +30,11 @@ const statuses = [
     </p>
   </header>
 
-  <section class="filter-region" aria-labelledby="filter-heading">
+  <section class="filter-region" aria-label="Catalogue controls">
     <div class="container filter-inner">
       <div class="primary-controls">
         <label class="search-field">
-          <span>Search claims</span>
+          <span class="sr-only">Search claims</span>
           <input
             type="search"
             class="catalogue-search"
@@ -44,7 +44,7 @@ const statuses = [
         </label>
 
         <fieldset class="view-switcher">
-          <legend>View</legend>
+          <legend class="sr-only">View</legend>
           <div class="view-buttons">
             <button class="view-button" type="button" data-view="cards" aria-pressed="true">
               Cards
@@ -54,59 +54,90 @@ const statuses = [
             </button>
           </div>
         </fieldset>
+
+        <button
+          class="filter-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="catalogue-filter-panel"
+        >
+          <span>Filters</span>
+          <span class="filter-count" hidden>0</span>
+        </button>
       </div>
 
-      <div class="filter-heading-row">
-        <div>
-          <p class="filter-label" id="filter-heading">Filter the catalogue</p>
-          <p class="filter-help">Select any combination of categories and statuses.</p>
+      <div class="active-filter-row" hidden>
+        <div class="active-filter-chips" aria-label="Active filters"></div>
+        <button class="clear-filters clear-filters-inline" type="button">Clear all</button>
+      </div>
+
+      <div class="catalogue-summary-row">
+        <p class="results-summary" aria-live="polite">Showing all {entries.length} entries</p>
+      </div>
+
+      <div
+        class="filter-panel"
+        id="catalogue-filter-panel"
+        hidden
+        aria-label="Filter catalogue"
+      >
+        <div class="filter-panel-header">
+          <div>
+            <p class="filter-label">Filter the catalogue</p>
+            <p class="filter-help">Choose any combination of categories and statuses.</p>
+          </div>
+          <button class="filter-close" type="button" aria-label="Close filters">×</button>
         </div>
-        <button class="clear-filters" type="button" hidden>Clear filters</button>
-      </div>
 
-      <div class="filter-groups">
-        <div>
-          <p class="group-label">Categories</p>
-          <div class="filters" role="group" aria-label="Filter entries by category">
-            {categories.map((category) => {
-              const count = entries.filter((entry) => entry.data.category === category).length;
-              return (
-                <button
-                  class="filter-button"
-                  type="button"
-                  data-filter-type="category"
-                  data-filter-value={category}
-                  aria-pressed="false"
-                >
-                  {category}<span class="count">{count}</span>
-                </button>
-              );
-            })}
+        <div class="filter-panel-scroll">
+          <div class="filter-groups">
+            <div>
+              <p class="group-label">Categories</p>
+              <div class="filters" role="group" aria-label="Filter entries by category">
+                {categories.map((category) => {
+                  const count = entries.filter((entry) => entry.data.category === category).length;
+                  return (
+                    <button
+                      class="filter-button"
+                      type="button"
+                      data-filter-type="category"
+                      data-filter-value={category}
+                      aria-pressed="false"
+                    >
+                      {category}<span class="count">{count}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div>
+              <p class="group-label">Status</p>
+              <div class="filters" role="group" aria-label="Filter entries by status">
+                {statuses.map((status) => {
+                  const count = entries.filter((entry) => entry.data.status === status).length;
+                  return (
+                    <button
+                      class="filter-button"
+                      type="button"
+                      data-filter-type="status"
+                      data-filter-value={status}
+                      aria-pressed="false"
+                    >
+                      {status}<span class="count">{count}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
 
-        <div>
-          <p class="group-label">Status</p>
-          <div class="filters" role="group" aria-label="Filter entries by status">
-            {statuses.map((status) => {
-              const count = entries.filter((entry) => entry.data.status === status).length;
-              return (
-                <button
-                  class="filter-button"
-                  type="button"
-                  data-filter-type="status"
-                  data-filter-value={status}
-                  aria-pressed="false"
-                >
-                  {status}<span class="count">{count}</span>
-                </button>
-              );
-            })}
-          </div>
+        <div class="filter-panel-actions">
+          <button class="clear-filters clear-filters-panel" type="button">Clear all</button>
+          <button class="apply-filters" type="button">Show all {entries.length} entries</button>
         </div>
       </div>
-
-      <p class="results-summary" aria-live="polite">Showing all {entries.length} entries</p>
     </div>
   </section>
 
@@ -157,13 +188,23 @@ const statuses = [
       document.querySelectorAll<HTMLElement>('.catalogue')
     );
     const searchInput = document.querySelector<HTMLInputElement>('.catalogue-search');
-    const clearButton = document.querySelector<HTMLButtonElement>('.clear-filters');
+    const filterToggle = document.querySelector<HTMLButtonElement>('.filter-toggle');
+    const filterPanel = document.querySelector<HTMLElement>('.filter-panel');
+    const filterClose = document.querySelector<HTMLButtonElement>('.filter-close');
+    const applyButton = document.querySelector<HTMLButtonElement>('.apply-filters');
+    const clearButtons = Array.from(
+      document.querySelectorAll<HTMLButtonElement>('.clear-filters')
+    );
+    const filterCount = document.querySelector<HTMLElement>('.filter-count');
+    const activeFilterRow = document.querySelector<HTMLElement>('.active-filter-row');
+    const activeFilterChips = document.querySelector<HTMLElement>('.active-filter-chips');
     const resultsSummary = document.querySelector<HTMLElement>('.results-summary');
     const emptyState = document.querySelector<HTMLElement>('.empty-state');
 
     const selectedCategories = new Set<string>();
     const selectedStatuses = new Set<string>();
     let currentView: 'cards' | 'compact' = 'cards';
+    let visibleCount = 0;
 
     const allWrappers = () => Array.from(
       document.querySelectorAll<HTMLElement>('.entry-wrapper')
@@ -188,6 +229,22 @@ const statuses = [
       window.history.replaceState({}, '', url);
     };
 
+    const openFilters = () => {
+      if (!filterPanel || !filterToggle) return;
+      filterPanel.hidden = false;
+      filterToggle.setAttribute('aria-expanded', 'true');
+      document.body.classList.add('filters-open');
+      filterPanel.querySelector<HTMLButtonElement>('.filter-button')?.focus();
+    };
+
+    const closeFilters = (returnFocus = true) => {
+      if (!filterPanel || !filterToggle) return;
+      filterPanel.hidden = true;
+      filterToggle.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('filters-open');
+      if (returnFocus) filterToggle.focus();
+    };
+
     const setView = (view: 'cards' | 'compact') => {
       currentView = view;
       catalogues.forEach((catalogue) => {
@@ -202,10 +259,47 @@ const statuses = [
       updateDisplay();
     };
 
+    const removeFilter = (type: string, value: string) => {
+      const target = type === 'category' ? selectedCategories : selectedStatuses;
+      target.delete(value);
+      updateDisplay();
+    };
+
+    const renderActiveFilters = () => {
+      const selections = [
+        ...[...selectedCategories].sort().map((value) => ({ type: 'category', value })),
+        ...[...selectedStatuses].sort().map((value) => ({ type: 'status', value })),
+      ];
+
+      const count = selections.length;
+      if (filterCount) {
+        filterCount.textContent = String(count);
+        filterCount.hidden = count === 0;
+      }
+      if (activeFilterRow) activeFilterRow.hidden = count === 0;
+      if (!activeFilterChips) return;
+
+      activeFilterChips.replaceChildren();
+      selections.forEach(({ type, value }) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'active-filter-chip';
+        button.setAttribute('aria-label', `Remove ${value} filter`);
+        const label = document.createElement('span');
+        label.textContent = value;
+        const removeIcon = document.createElement('span');
+        removeIcon.setAttribute('aria-hidden', 'true');
+        removeIcon.textContent = '×';
+        button.append(label, removeIcon);
+        button.addEventListener('click', () => removeFilter(type, value));
+        activeFilterChips.append(button);
+      });
+    };
+
     const updateDisplay = () => {
       const query = searchInput?.value.trim().toLowerCase() ?? '';
       const visibility = new Map<string, boolean>();
-      let visibleCount = 0;
+      visibleCount = 0;
 
       allWrappers().forEach((wrapper) => {
         const id = wrapper.dataset.entryId ?? '';
@@ -237,15 +331,26 @@ const statuses = [
       });
 
       const hasFilters = selectedCategories.size > 0 || selectedStatuses.size > 0 || query.length > 0;
-      if (clearButton) clearButton.hidden = !hasFilters;
       if (emptyState) emptyState.hidden = visibleCount !== 0;
       if (resultsSummary) {
         resultsSummary.textContent = hasFilters
           ? `Showing ${visibleCount} of ${visibility.size} ${visibleCount === 1 ? 'entry' : 'entries'}`
           : `Showing all ${visibility.size} entries`;
       }
+      if (applyButton) {
+        applyButton.textContent = visibleCount === 1
+          ? 'Show 1 result'
+          : `Show ${visibleCount} results`;
+      }
 
+      renderActiveFilters();
       updateURL();
+    };
+
+    const clearFilters = () => {
+      selectedCategories.clear();
+      selectedStatuses.clear();
+      updateDisplay();
     };
 
     filterButtons.forEach((button) => {
@@ -267,12 +372,15 @@ const statuses = [
     });
 
     searchInput?.addEventListener('input', updateDisplay);
-    clearButton?.addEventListener('click', () => {
-      selectedCategories.clear();
-      selectedStatuses.clear();
-      if (searchInput) searchInput.value = '';
-      updateDisplay();
-      searchInput?.focus();
+    filterToggle?.addEventListener('click', () => {
+      filterPanel?.hidden ? openFilters() : closeFilters();
+    });
+    filterClose?.addEventListener('click', () => closeFilters());
+    applyButton?.addEventListener('click', () => closeFilters());
+    clearButtons.forEach((button) => button.addEventListener('click', clearFilters));
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && filterPanel && !filterPanel.hidden) closeFilters();
     });
 
     const url = new URL(window.location.href);
@@ -294,6 +402,7 @@ const statuses = [
   .page-head { padding: 5rem 0 2rem; }
   .page-head h1 { margin: 0.2rem 0 1rem; }
   .page-head > p:not(.eyebrow) { font-size: 1.2rem; color: var(--muted); }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 
   .filter-region {
     position: sticky;
@@ -301,36 +410,136 @@ const statuses = [
     z-index: 20;
     border-top: 1px solid var(--line);
     border-bottom: 1px solid var(--line);
-    background: color-mix(in srgb, var(--paper) 94%, transparent);
+    background: color-mix(in srgb, var(--paper) 95%, transparent);
     backdrop-filter: blur(10px);
   }
-  .filter-inner { padding: 1rem 0; }
-  .primary-controls { display: grid; grid-template-columns: minmax(16rem, 1fr) auto; gap: 1rem; align-items: end; }
-  .search-field { display: grid; gap: 0.35rem; font-weight: 850; }
-  .catalogue-search { width: 100%; min-height: 2.8rem; border: 1px solid var(--line); border-radius: 0.55rem; padding: 0.65rem 0.8rem; color: var(--ink); background: var(--card); font: inherit; }
+  .filter-inner { position: relative; padding: 0.8rem 0 0.65rem; }
+  .primary-controls {
+    display: grid;
+    grid-template-columns: minmax(16rem, 1fr) auto auto;
+    gap: 0.65rem;
+    align-items: center;
+  }
+  .search-field { display: block; }
+  .catalogue-search {
+    width: 100%;
+    min-height: 2.75rem;
+    border: 1px solid var(--line);
+    border-radius: 0.65rem;
+    padding: 0.62rem 0.8rem;
+    color: var(--ink);
+    background: var(--card);
+    font: inherit;
+  }
   .catalogue-search:focus { outline: 2px solid color-mix(in srgb, var(--accent) 45%, transparent); border-color: var(--accent-dark); }
   .view-switcher { margin: 0; padding: 0; border: 0; }
-  .view-switcher legend { margin-bottom: 0.35rem; font-weight: 850; }
   .view-buttons { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--card); }
-  .view-button { border: 0; padding: 0.55rem 0.9rem; color: var(--ink); background: transparent; font: inherit; font-weight: 800; cursor: pointer; }
+  .view-button { border: 0; padding: 0.55rem 0.85rem; color: var(--ink); background: transparent; font: inherit; font-weight: 800; cursor: pointer; }
   .view-button.is-active { color: white; background: var(--ink); }
 
-  .filter-heading-row { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-top: 1rem; }
-  .filter-label, .group-label { margin: 0; font-weight: 850; }
-  .filter-help { margin: 0.1rem 0 0; color: var(--muted); font-size: 0.9rem; }
-  .filter-groups { display: grid; gap: 0.75rem; margin-top: 0.75rem; }
-  .group-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
-  .filters { display: flex; gap: 0.45rem; flex-wrap: wrap; margin-top: 0.35rem; }
-  .filter-button, .clear-filters { border: 1px solid var(--line); border-radius: 999px; padding: 0.35rem 0.75rem; color: var(--ink); background: var(--card); font: inherit; font-size: 0.9rem; font-weight: 750; cursor: pointer; }
-  .filter-button { display: inline-flex; align-items: center; gap: 0.4rem; }
-  .filter-button:hover, .filter-button:focus-visible, .clear-filters:hover, .clear-filters:focus-visible { border-color: var(--accent-dark); }
-  .filter-button.is-active { border-color: var(--ink); color: white; background: var(--ink); }
-  .count { min-width: 1.35rem; padding: 0.02rem 0.3rem; border-radius: 999px; color: var(--muted); background: var(--paper); font-size: 0.72rem; text-align: center; }
-  .filter-button.is-active .count { color: var(--ink); background: white; }
-  .clear-filters { color: var(--accent-dark); background: transparent; }
-  .results-summary { margin: 0.75rem 0 0; color: var(--muted); font-size: 0.9rem; }
+  .filter-toggle {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.55rem 0.9rem;
+    color: var(--ink);
+    background: var(--card);
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .filter-toggle:hover, .filter-toggle:focus-visible { border-color: var(--accent-dark); }
+  .filter-count {
+    min-width: 1.35rem;
+    padding: 0.05rem 0.35rem;
+    border-radius: 999px;
+    color: white;
+    background: var(--accent-dark);
+    font-size: 0.72rem;
+    line-height: 1.2;
+    text-align: center;
+  }
 
-  .catalogue { padding: 2rem 0 5rem; }
+  .active-filter-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 0.55rem;
+  }
+  .active-filter-row[hidden] { display: none; }
+  .active-filter-chips { display: flex; gap: 0.4rem; overflow-x: auto; scrollbar-width: thin; flex: 1; padding-bottom: 0.1rem; }
+  :global(.active-filter-chip) {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.28rem 0.6rem;
+    color: var(--ink);
+    background: var(--card);
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 750;
+    cursor: pointer;
+  }
+  :global(.active-filter-chip:hover), :global(.active-filter-chip:focus-visible) { border-color: var(--accent-dark); }
+  .clear-filters { border: 0; color: var(--accent-dark); background: transparent; font: inherit; font-size: 0.86rem; font-weight: 800; cursor: pointer; white-space: nowrap; }
+  .clear-filters:hover, .clear-filters:focus-visible { text-decoration: underline; }
+  .catalogue-summary-row { display: flex; justify-content: space-between; align-items: center; }
+  .results-summary { margin: 0.5rem 0 0; color: var(--muted); font-size: 0.86rem; }
+
+  .filter-panel {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 0.45rem);
+    width: min(52rem, 100%);
+    max-height: min(72vh, 42rem);
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    border: 1px solid var(--line);
+    border-radius: 0.9rem;
+    background: var(--card);
+    box-shadow: 0 1.2rem 3rem color-mix(in srgb, var(--ink) 18%, transparent);
+    overflow: hidden;
+  }
+  .filter-panel[hidden] { display: none; }
+  .filter-panel-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; padding: 1rem 1rem 0.8rem; border-bottom: 1px solid var(--line); }
+  .filter-label, .group-label { margin: 0; font-weight: 850; }
+  .filter-help { margin: 0.12rem 0 0; color: var(--muted); font-size: 0.88rem; }
+  .filter-close { width: 2.1rem; height: 2.1rem; border: 0; border-radius: 999px; color: var(--ink); background: var(--paper); font: inherit; font-size: 1.35rem; line-height: 1; cursor: pointer; }
+  .filter-close:hover, .filter-close:focus-visible { background: color-mix(in srgb, var(--accent) 15%, var(--paper)); }
+  .filter-panel-scroll { overflow: auto; padding: 1rem; }
+  .filter-groups { display: grid; gap: 1.2rem; }
+  .group-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+  .filters { display: flex; gap: 0.45rem; flex-wrap: wrap; margin-top: 0.45rem; }
+  .filter-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.38rem 0.72rem;
+    color: var(--ink);
+    background: var(--paper);
+    font: inherit;
+    font-size: 0.88rem;
+    font-weight: 750;
+    cursor: pointer;
+  }
+  .filter-button:hover, .filter-button:focus-visible { border-color: var(--accent-dark); }
+  .filter-button.is-active { border-color: var(--ink); color: white; background: var(--ink); }
+  .count { min-width: 1.35rem; padding: 0.02rem 0.3rem; border-radius: 999px; color: var(--muted); background: var(--card); font-size: 0.72rem; text-align: center; }
+  .filter-button.is-active .count { color: var(--ink); background: white; }
+  .filter-panel-actions { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.8rem 1rem; border-top: 1px solid var(--line); background: color-mix(in srgb, var(--paper) 72%, var(--card)); }
+  .apply-filters { border: 0; border-radius: 999px; padding: 0.65rem 1rem; color: white; background: var(--ink); font: inherit; font-weight: 850; cursor: pointer; }
+  .apply-filters:hover, .apply-filters:focus-visible { background: var(--accent-dark); }
+
+  .catalogue { padding: 1.5rem 0 5rem; }
   .catalogue-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 430px), 1fr)); gap: 1.5rem; align-items: start; }
   .catalogue-compact { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.55rem; }
   .catalogue[hidden] { display: none; }
@@ -340,9 +549,34 @@ const statuses = [
 
   @media (max-width: 760px) {
     .page-head { padding-top: 3rem; }
-    .filter-region { position: static; }
-    .primary-controls { grid-template-columns: 1fr; }
-    .filter-heading-row { align-items: flex-start; }
+    .filter-region { position: sticky; }
+    .primary-controls { grid-template-columns: 1fr auto; }
+    .search-field { grid-column: 1 / -1; }
+    .view-button { padding-inline: 0.75rem; }
+    .filter-toggle { padding-inline: 0.8rem; }
     .catalogue-compact { grid-template-columns: 1fr; }
+
+    .filter-panel {
+      position: fixed;
+      inset: auto 0 0;
+      width: 100%;
+      max-height: min(88vh, 48rem);
+      border-radius: 1rem 1rem 0 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 0;
+      z-index: 50;
+    }
+    :global(body.filters-open)::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      z-index: 40;
+      background: color-mix(in srgb, var(--ink) 42%, transparent);
+    }
+    :global(body.filters-open) { overflow: hidden; }
+    .filter-panel-header, .filter-panel-scroll, .filter-panel-actions { padding-left: max(1rem, env(safe-area-inset-left)); padding-right: max(1rem, env(safe-area-inset-right)); }
+    .filter-panel-actions { padding-bottom: max(0.8rem, env(safe-area-inset-bottom)); }
+    .apply-filters { flex: 1; }
   }
 </style>

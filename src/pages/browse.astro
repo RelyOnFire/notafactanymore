@@ -4,9 +4,35 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import CompactClaim from '../components/CompactClaim.astro';
 import FactCard from '../components/FactCard.astro';
 
-const entries = (await getCollection('entries')).sort((a, b) =>
-  a.data.claim.localeCompare(b.data.claim)
-);
+const claimCollator = new Intl.Collator('en', {
+  sensitivity: 'base',
+  numeric: true,
+});
+
+const claimSortKey = (claim: string) => {
+  let key = claim.trim();
+
+  // Sort by the meaningful subject rather than sentence framing.
+  // Apply repeatedly so claims such as “All the …” lose both openers.
+  const leadingWords = /^(?:a|an|all|every|most|the|there)(?:\s+|\b)\s*/i;
+  let previous = '';
+
+  while (key !== previous) {
+    previous = key;
+    key = key.replace(leadingWords, '');
+  }
+
+  return key.replace(/^[^\p{L}\p{N}]+/u, '').trim() || claim.trim();
+};
+
+const entries = (await getCollection('entries')).sort((a, b) => {
+  const bySubject = claimCollator.compare(
+    claimSortKey(a.data.claim),
+    claimSortKey(b.data.claim),
+  );
+
+  return bySubject || claimCollator.compare(a.data.claim, b.data.claim);
+});
 
 const categories = [
   ...new Set(entries.map((entry) => entry.data.category)),

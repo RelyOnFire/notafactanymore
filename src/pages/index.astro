@@ -8,9 +8,108 @@ const entries = await getCollection('entries');
 const featured = entries
   .filter((entry) => entry.data.featured)
   .sort((a, b) => (a.data.featuredOrder ?? 999) - (b.data.featuredOrder ?? 999));
-const recent = [...entries]
-  .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime() || a.data.claim.localeCompare(b.data.claim))
-  .slice(0, 12);
+const claimCollator = new Intl.Collator('en', {
+  sensitivity: 'base',
+  numeric: true,
+});
+
+const claimSortKey = (claim: string) => {
+  let key = claim.trim();
+
+  // Sort by the meaningful subject rather than sentence framing.
+  // Apply repeatedly so claims such as “All the …” lose both openers.
+  const leadingWords = /^(?:a|an|all|every|most|the|there)(?:\s+|\b)\s*/i;
+  let previous = '';
+
+  while (key !== previous) {
+    previous = key;
+    key = key.replace(leadingWords, '');
+  }
+
+  return key.replace(/^[^\p{L}\p{N}]+/u, '').trim() || claim.trim();
+};
+
+const compareBySubject = (a: (typeof entries)[number], b: (typeof entries)[number]) => {
+  const bySubject = claimCollator.compare(
+    claimSortKey(a.data.claim),
+    claimSortKey(b.data.claim),
+  );
+
+  return bySubject || claimCollator.compare(a.data.claim, b.data.claim);
+};
+
+const compareByRecencyThenSubject = (
+  a: (typeof entries)[number],
+  b: (typeof entries)[number],
+) => {
+  const byDate = b.data.publishedAt.getTime() - a.data.publishedAt.getTime();
+  return byDate || compareBySubject(a, b);
+};
+
+const PREVIEW_SIZE = 12;
+const RECENT_POOL_SIZE = 60;
+const MAX_PER_CATEGORY = 2;
+
+const recentPool = [...entries]
+  .sort(compareByRecencyThenSubject)
+  .slice(0, RECENT_POOL_SIZE);
+
+const categoryQueues = new Map<string, typeof recentPool>();
+
+for (const entry of recentPool) {
+  const queue = categoryQueues.get(entry.data.category) ?? [];
+  queue.push(entry);
+  categoryQueues.set(entry.data.category, queue);
+}
+
+const categoryOrder = [...categoryQueues.keys()].sort((a, b) => {
+  const newestA = categoryQueues.get(a)?.[0];
+  const newestB = categoryQueues.get(b)?.[0];
+
+  if (newestA && newestB) {
+    const byDate =
+      newestB.data.publishedAt.getTime() - newestA.data.publishedAt.getTime();
+
+    if (byDate !== 0) {
+      return byDate;
+    }
+  }
+
+  return claimCollator.compare(a, b);
+});
+
+const diverseRecent: typeof recentPool = [];
+
+for (let round = 0; round < MAX_PER_CATEGORY && diverseRecent.length < PREVIEW_SIZE; round += 1) {
+  for (const category of categoryOrder) {
+    const entry = categoryQueues.get(category)?.[round];
+
+    if (entry) {
+      diverseRecent.push(entry);
+    }
+
+    if (diverseRecent.length >= PREVIEW_SIZE) {
+      break;
+    }
+  }
+}
+
+if (diverseRecent.length < PREVIEW_SIZE) {
+  const selectedIds = new Set(diverseRecent.map((entry) => entry.id));
+
+  for (const entry of recentPool) {
+    if (!selectedIds.has(entry.id)) {
+      diverseRecent.push(entry);
+      selectedIds.add(entry.id);
+    }
+
+    if (diverseRecent.length >= PREVIEW_SIZE) {
+      break;
+    }
+  }
+}
+
+const recent = diverseRecent.sort(compareBySubject);
 ---
 <BaseLayout>
   <section class="hero container">
@@ -61,7 +160,7 @@ const recent = [...entries]
         <div>
           <p class="eyebrow">The growing catalogue</p>
           <h2>Explore all {entries.length} former facts</h2>
-          <p class="section-intro">A compact preview of recently added entries. The full catalogue can be searched and filtered in either card or list view.</p>
+          <p class="section-intro">A varied sample of recently added entries across the catalogue. The full collection can be searched and filtered in either card or compact view.</p>
         </div>
         <a href="/browse?view=compact">Open compact index →</a>
       </div>

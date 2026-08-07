@@ -14,10 +14,8 @@ const entries = defineCollection({
     changedApproximately: z.string(),
 
     // Representative year used only for chronological sorting/grouping.
-    // Keep changedApproximately as the human-readable historical label.
-    // Optional during the migration of the existing catalogue; once every
-    // entry has been reviewed this can become required.
-    timelineYear: z.number().int().optional(),
+    // changedApproximately remains the human-readable historical label.
+    timelineYear: z.number().int(),
 
     summary: z.string(),
     featured: z.boolean().default(false),

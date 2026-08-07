@@ -5,9 +5,11 @@ import CompactClaim from '../components/CompactClaim.astro';
 import FactCard from '../components/FactCard.astro';
 
 const entries = await getCollection('entries');
+
 const featured = entries
   .filter((entry) => entry.data.featured)
   .sort((a, b) => (a.data.featuredOrder ?? 999) - (b.data.featuredOrder ?? 999));
+
 const claimCollator = new Intl.Collator('en', {
   sensitivity: 'base',
   numeric: true,
@@ -16,8 +18,6 @@ const claimCollator = new Intl.Collator('en', {
 const claimSortKey = (claim: string) => {
   let key = claim.trim();
 
-  // Sort by the meaningful subject rather than sentence framing.
-  // Apply repeatedly so claims such as “All the …” lose both openers.
   const leadingWords = /^(?:a|an|all|every|most|the|there)(?:\s+|\b)\s*/i;
   let previous = '';
 
@@ -29,7 +29,10 @@ const claimSortKey = (claim: string) => {
   return key.replace(/^[^\p{L}\p{N}]+/u, '').trim() || claim.trim();
 };
 
-const compareBySubject = (a: (typeof entries)[number], b: (typeof entries)[number]) => {
+const compareBySubject = (
+  a: (typeof entries)[number],
+  b: (typeof entries)[number],
+) => {
   const bySubject = claimCollator.compare(
     claimSortKey(a.data.claim),
     claimSortKey(b.data.claim),
@@ -80,7 +83,11 @@ const categoryOrder = [...categoryQueues.keys()].sort((a, b) => {
 
 const diverseRecent: typeof recentPool = [];
 
-for (let round = 0; round < MAX_PER_CATEGORY && diverseRecent.length < PREVIEW_SIZE; round += 1) {
+for (
+  let round = 0;
+  round < MAX_PER_CATEGORY && diverseRecent.length < PREVIEW_SIZE;
+  round += 1
+) {
   for (const category of categoryOrder) {
     const entry = categoryQueues.get(category)?.[round];
 
@@ -110,13 +117,30 @@ if (diverseRecent.length < PREVIEW_SIZE) {
 }
 
 const recent = diverseRecent.sort(compareBySubject);
+
+const timelineTeaserIds = [
+  'earth-centered-universe',
+  'doctors-do-not-spread-puerperal-fever',
+  'humans-have-48-chromosomes',
+  'universe-expansion-slowing',
+  'kilogram-must-be-a-metal-cylinder',
+];
+
+const timelineTeaser = timelineTeaserIds
+  .map((id) => entries.find((entry) => entry.id === id))
+  .filter((entry): entry is (typeof entries)[number] => Boolean(entry))
+  .sort((a, b) => a.data.timelineYear - b.data.timelineYear);
 ---
 <BaseLayout>
   <section class="hero container">
     <div class="hero-copy">
       <p class="eyebrow">Facts have a history.</p>
       <h1>Knowledge changes.<br />The record should too.</h1>
-      <p class="intro">A catalogue of claims that were once reasonably accepted as factual but were later overturned, replaced, narrowed, reclassified, or corrected by better evidence.</p>
+      <p class="intro">
+        A catalogue of claims that were once reasonably accepted as factual but
+        were later overturned, replaced, narrowed, reclassified, or corrected
+        by better evidence.
+      </p>
     </div>
 
     <div class="hero-art" aria-hidden="true">
@@ -139,18 +163,53 @@ const recent = diverseRecent.sort(compareBySubject);
 
   <section class="principle">
     <div class="narrow">
-      <p>This is not a collection of myths, failed predictions, or things somebody once said. Every entry must show that the previous claim was genuinely supported or treated as authoritative, and that the present understanding is backed by stronger evidence.</p>
+      <p>
+        This is not a collection of myths, failed predictions, or things
+        somebody once said. Every entry must show that the previous claim was
+        genuinely supported or treated as authoritative, and that the present
+        understanding is backed by stronger evidence.
+      </p>
       <strong>Being wrong is not the failure. Refusing to update is.</strong>
     </div>
   </section>
 
   <section class="container featured">
     <div class="section-heading">
-      <div><p class="eyebrow">Featured entries</p><h2>Clear examples of knowledge updating</h2></div>
+      <div>
+        <p class="eyebrow">Featured entries</p>
+        <h2>Clear examples of knowledge updating</h2>
+      </div>
       <a href="/browse">View all entries →</a>
     </div>
+
     <div class="cards">
       {featured.map((entry) => <FactCard entry={entry} expanded />)}
+    </div>
+  </section>
+
+  <section class="timeline-preview">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">The record through time</p>
+          <h2>Centuries of changing knowledge</h2>
+          <p class="section-intro">
+            Follow a few landmark corrections across the historical record, or
+            explore every entry in chronological order.
+          </p>
+        </div>
+        <a href="/timeline">Explore the full timeline →</a>
+      </div>
+
+      <div class="timeline-strip">
+        {timelineTeaser.map((entry) => (
+          <a class="timeline-point" href={`/entries/${entry.id}/`}>
+            <span class="timeline-point-year">{entry.data.timelineYear}</span>
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <span class="timeline-point-claim">{entry.data.claim}</span>
+          </a>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -160,10 +219,15 @@ const recent = diverseRecent.sort(compareBySubject);
         <div>
           <p class="eyebrow">The growing catalogue</p>
           <h2>Explore all {entries.length} former facts</h2>
-          <p class="section-intro">A varied sample of recently added entries across the catalogue. The full collection can be searched and filtered in either card or compact view.</p>
+          <p class="section-intro">
+            A varied sample of recently added entries across the catalogue. The
+            full collection can be searched and filtered in either card or
+            compact view.
+          </p>
         </div>
         <a href="/browse?view=compact">Open compact index →</a>
       </div>
+
       <div class="compact-preview">
         {recent.map((entry) => <CompactClaim entry={entry} />)}
       </div>
@@ -272,6 +336,68 @@ const recent = diverseRecent.sort(compareBySubject);
     gap: 2rem;
   }
 
+  .timeline-preview {
+    padding: 4.5rem 0 5rem;
+    border-top: 1px solid var(--line);
+    background: var(--card);
+  }
+
+  .timeline-strip {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .timeline-strip::before {
+    content: '';
+    position: absolute;
+    top: 2.65rem;
+    left: 7%;
+    right: 7%;
+    height: 1px;
+    background: var(--line);
+  }
+
+  .timeline-point {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    justify-items: center;
+    gap: 0.55rem;
+    padding: 0.45rem;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .timeline-point-year {
+    color: var(--accent-dark);
+    font-weight: 900;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .timeline-dot {
+    width: 0.85rem;
+    height: 0.85rem;
+    border: 3px solid var(--card);
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent);
+  }
+
+  .timeline-point-claim {
+    max-width: 18ch;
+    font-size: 0.92rem;
+    line-height: 1.35;
+    font-weight: 750;
+  }
+
+  .timeline-point:hover .timeline-point-claim {
+    color: var(--accent-dark);
+  }
+
   .catalogue-preview {
     padding: 4.5rem 0 5rem;
     border-top: 1px solid var(--line);
@@ -301,6 +427,36 @@ const recent = diverseRecent.sort(compareBySubject);
 
     .actions {
       margin-top: 0;
+    }
+
+    .timeline-strip {
+      grid-template-columns: 1fr;
+      gap: 0;
+      border-left: 1px solid var(--line);
+      margin-left: 0.45rem;
+    }
+
+    .timeline-strip::before {
+      display: none;
+    }
+
+    .timeline-point {
+      grid-template-columns: 4rem auto 1fr;
+      grid-template-rows: 1fr;
+      justify-items: start;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 0 0.75rem 0.85rem;
+      text-align: left;
+    }
+
+    .timeline-dot {
+      margin-left: -1.3rem;
+      border-color: var(--card);
+    }
+
+    .timeline-point-claim {
+      max-width: none;
     }
   }
 

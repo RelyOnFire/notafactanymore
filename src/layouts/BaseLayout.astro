@@ -37,7 +37,6 @@ const socialImageURL = new URL(image, siteURL);
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
 
@@ -68,7 +67,6 @@ const socialImageURL = new URL(image, siteURL);
     <meta name="twitter:image" content={socialImageURL.toString()} />
     <meta name="twitter:image:alt" content={imageAlt} />
   </head>
-
   <body>
     <header class="site-header">
       <a class="brand" href="/" aria-label={`${siteConfig.name} home`}>
@@ -78,6 +76,7 @@ const socialImageURL = new URL(image, siteURL);
 
       <nav aria-label="Main navigation">
         <a href="/browse">Browse</a>
+        <a href="/timeline">Timeline</a>
         <a href="/methodology">Methodology</a>
         <a href="/submit">Submit a claim</a>
         <a href="/about">About</a>

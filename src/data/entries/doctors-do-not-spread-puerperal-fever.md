@@ -29,6 +29,6 @@ sources:
     note: "Explains the role of hand hygiene in preventing transmission of pathogens in healthcare."
 ---
 
--Semmelweis did not yet possess a modern germ theory and initially described the cause as cadaveric material carried from autopsy rooms. His intervention was nevertheless effective.
+Semmelweis did not yet possess a modern germ theory and initially described the cause as cadaveric material carried from autopsy rooms. His intervention was nevertheless effective.
 
 Acceptance was slow. His findings met strong resistance, and the wider medical explanation only became clear with later advances in microbiology and antiseptic surgery.

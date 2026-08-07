@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Archaeology"
 acceptedApproximately: "Renaissance–20th century"
 changedApproximately: "19th century–present"
+timelineYear: 1815
 summary: "Pigment traces and imaging revealed that much classical marble sculpture was originally brightly colored."
 featured: false
 publishedAt: "2026-08-06"

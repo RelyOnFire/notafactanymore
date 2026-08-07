@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Evolution"
 acceptedApproximately: "Late 19th–20th century textbook usage"
 changedApproximately: "20th century–present"
+timelineYear: 1980
 summary: "Vestigial came to mean reduced from an ancestral role, not necessarily functionless."
 featured: false
 publishedAt: "2026-07-28"

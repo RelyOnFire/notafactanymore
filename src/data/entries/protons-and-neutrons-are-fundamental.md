@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1930s–1960s"
 changedApproximately: "1960s–1970s"
+timelineYear: 1968
 summary: "Scattering experiments opened protons and neutrons and revealed quarks and gluons inside."
 featured: false
 publishedAt: "2026-07-24"

@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Evolution"
 acceptedApproximately: "Early 19th century–early 20th century"
 changedApproximately: "1880s–1930s"
+timelineYear: 1910
 summary: "Genetics replaced routine inheritance of acquired bodily changes as the central mechanism of evolution."
 featured: false
 publishedAt: "2026-08-06"

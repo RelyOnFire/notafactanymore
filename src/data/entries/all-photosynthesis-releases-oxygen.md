@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Biochemistry"
 acceptedApproximately: "19th–early 20th century"
 changedApproximately: "Early–mid-20th century"
+timelineYear: 1931
 summary: "Light-powered biology proved older and more chemically diverse than the oxygen-producing version familiar from plants."
 featured: false
 publishedAt: "2026-07-28"

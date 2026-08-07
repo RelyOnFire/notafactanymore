@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Late 19th century–1980s"
 changedApproximately: "1980s–1990s"
+timelineYear: 1987
 summary: "Surgery was sometimes performed with little or no anesthesia because newborn pain was dismissed as reflexive."
 featured: false
 publishedAt: "2026-07-25"

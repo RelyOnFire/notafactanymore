@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Much of the 18th century"
 changedApproximately: "1790s–1803"
+timelineYear: 1803
 summary: "European scientific skepticism about falling stones ended when witnessed showers and chemical evidence established meteorites as extraterrestrial."
 featured: false
 publishedAt: "2026-07-17"

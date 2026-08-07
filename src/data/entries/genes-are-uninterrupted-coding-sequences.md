@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Genetics"
 acceptedApproximately: "1950s–1977"
 changedApproximately: "1977–1980s"
+timelineYear: 1977
 summary: "Split genes showed that cells edit RNA by removing introns and joining separated coding regions."
 featured: false
 publishedAt: "2026-07-27"

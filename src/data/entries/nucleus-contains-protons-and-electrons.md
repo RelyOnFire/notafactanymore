@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Physics"
 acceptedApproximately: "1910s–1932"
 changedApproximately: "1932–1930s"
+timelineYear: 1932
 summary: "The neutron replaced the hypothetical nuclear electron in the model of atomic nuclei."
 featured: false
 publishedAt: "2026-07-24"

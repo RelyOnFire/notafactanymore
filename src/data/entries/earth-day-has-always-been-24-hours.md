@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Common pre-modern and simplified scientific assumption"
 changedApproximately: "20th century"
+timelineYear: 1963
 summary: "The day became a changing feature of Earth history rather than a permanent 24-hour constant."
 featured: false
 publishedAt: "2026-07-28"

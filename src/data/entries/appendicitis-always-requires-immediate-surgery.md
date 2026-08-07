@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Medicine"
 acceptedApproximately: "1890s–2010s"
 changedApproximately: "2010s–present"
+timelineYear: 2015
 summary: "A universal surgical rule narrowed after trials showed that selected uncomplicated cases can start with antibiotics."
 featured: false
 publishedAt: "2026-07-28"

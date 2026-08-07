@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Late 19th century–1940"
 changedApproximately: "1940s"
+timelineYear: 1940
 summary: "The periodic table continued beyond uranium once nuclear reactions created transuranium elements."
 featured: false
 publishedAt: "2026-07-24"

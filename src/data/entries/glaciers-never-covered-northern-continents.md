@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Before the mid-19th century"
 changedApproximately: "1830s–1870s"
+timelineYear: 1840
 summary: "Landscapes attributed to floods and drifting ice became evidence for continent-scale glaciers."
 featured: false
 publishedAt: "2026-07-28"

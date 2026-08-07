@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "1890s–1962"
 changedApproximately: "1962 onward"
+timelineYear: 1962
 summary: "The elements once called completely inert turned out to be capable of forming compounds."
 featured: false
 publishedAt: "2026-07-17"

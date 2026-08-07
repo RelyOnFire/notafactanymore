@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1930s–1950s"
 changedApproximately: "1950s–1960s"
+timelineYear: 1960
 summary: "Controlled comparisons dismantled a dangerous schizophrenia treatment built around deliberately induced coma."
 featured: false
 publishedAt: "2026-08-06"

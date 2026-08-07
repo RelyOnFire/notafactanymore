@@ -6,6 +6,7 @@ status: "Corrected"
 category: "Earth Science"
 acceptedApproximately: "Mid to late 19th century"
 changedApproximately: "1890s–1950s"
+timelineYear: 1925
 summary: "Radiometric dating replaced 19th-century estimates of a young Earth with an age of about 4.54 billion years."
 featured: false
 publishedAt: "2026-07-17"

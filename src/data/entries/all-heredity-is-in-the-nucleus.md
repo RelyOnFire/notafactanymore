@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Genetics"
 acceptedApproximately: "Early 20th century"
 changedApproximately: "1909–1960s"
+timelineYear: 1963
 summary: "Non-Mendelian inheritance and organelle DNA revealed hereditary information outside the nucleus."
 featured: false
 publishedAt: "2026-08-06"

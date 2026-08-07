@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Neuroscience"
 acceptedApproximately: "Antiquity–1950s"
 changedApproximately: "1930s–1960s"
+timelineYear: 1950
 summary: "Brain recordings transformed sleep from a passive absence of wakefulness into an active sequence of biological states."
 featured: false
 publishedAt: "2026-07-28"

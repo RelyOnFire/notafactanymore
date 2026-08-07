@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Virology"
 acceptedApproximately: "Late 19th century–early 2000s"
 changedApproximately: "2003 onward"
+timelineYear: 2003
 summary: "Giant viruses broke the old size boundary between viruses and cellular microorganisms."
 featured: false
 publishedAt: "2026-07-27"

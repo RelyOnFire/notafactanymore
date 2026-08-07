@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Mid-19th century–1897"
 changedApproximately: "1897–1907"
+timelineYear: 1897
 summary: "Buchner's yeast extract fermented sugar without living cells, helping create modern biochemistry."
 featured: false
 publishedAt: "2026-08-06"

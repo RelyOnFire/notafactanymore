@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "19th century through the 1920s"
 changedApproximately: "1920s–1930s"
+timelineYear: 1929
 summary: "Galaxy measurements overturned the prevailing picture of a static universe."
 featured: false
 publishedAt: "2026-07-17"

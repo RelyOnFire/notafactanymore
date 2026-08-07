@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Cosmology"
 acceptedApproximately: "Early–mid-20th century simplified model"
 changedApproximately: "1970s–1990s"
+timelineYear: 1985
 summary: "Three-dimensional surveys transformed a random galaxy field into a web of filaments and voids."
 featured: false
 publishedAt: "2026-07-28"

@@ -6,6 +6,7 @@ status: "Reclassified"
 category: "Microbiology"
 acceptedApproximately: "19th century–1970s"
 changedApproximately: "1977–1990"
+timelineYear: 1977
 summary: "Molecular evidence split the old prokaryote group into the distinct Bacteria and Archaea."
 featured: false
 publishedAt: "2026-07-17"

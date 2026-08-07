@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "19th century–1960s"
 changedApproximately: "1960s–1990s"
+timelineYear: 1962
 summary: "The dry-scab ideal gave way to dressings that maintain controlled moisture and support faster repair."
 featured: false
 publishedAt: "2026-07-25"

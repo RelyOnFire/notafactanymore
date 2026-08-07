@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Neuroscience"
 acceptedApproximately: "19th century–2015"
 changedApproximately: "2015"
+timelineYear: 2015
 summary: "An anatomical absence taught for generations was overturned by the identification of functional meningeal lymphatic vessels."
 featured: false
 publishedAt: "2026-07-17"

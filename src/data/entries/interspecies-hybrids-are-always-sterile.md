@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Evolution"
 acceptedApproximately: "19th century–mid-20th century"
 changedApproximately: "20th century–present"
+timelineYear: 2006
 summary: "Fertile hybrids and hybrid species showed that species boundaries can be porous rather than universally sterile."
 featured: false
 publishedAt: "2026-08-06"

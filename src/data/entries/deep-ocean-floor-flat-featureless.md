@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Ocean Science"
 acceptedApproximately: "Before the 19th century"
 changedApproximately: "19th century–1950s"
+timelineYear: 1955
 summary: "Sounding and sonar transformed the seafloor from a flat imagined basin into one of Earth's most rugged landscapes."
 featured: false
 publishedAt: "2026-07-24"

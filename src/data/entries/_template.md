@@ -6,10 +6,11 @@ status: "Superseded"
 category: "Category"
 acceptedApproximately: "Approximate period"
 changedApproximately: "Approximate period"
+timelineYear: 1900
 summary: "One-sentence summary for cards and search results."
 featured: false
-publishedAt: "2026-07-16"
-reviewedAt: "2026-07-16"
+publishedAt: "2026-08-07"
+reviewedAt: "2026-08-07"
 sources:
   - title: "Source showing the previous belief"
     url: "https://example.com/old-belief"
@@ -22,5 +23,4 @@ sources:
     purpose: "Current evidence"
     note: "Explain exactly what this source establishes."
 ---
-
 Add qualifications, historical context, and important limitations here.

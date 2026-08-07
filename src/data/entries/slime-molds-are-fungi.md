@@ -6,6 +6,7 @@ status: "Reclassified"
 category: "Microbiology"
 acceptedApproximately: "19th–20th century"
 changedApproximately: "Late 20th century–present"
+timelineYear: 1990
 summary: "Fungus-like fruiting bodies hid the amoeboid ancestry of slime molds."
 featured: false
 publishedAt: "2026-07-28"

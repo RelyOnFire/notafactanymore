@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1896–early 1900s"
 changedApproximately: "1902–1908"
+timelineYear: 1902
 summary: "Radioactivity moved from chemistry into the atomic nucleus when decay proved independent of ordinary chemical conditions."
 featured: false
 publishedAt: "2026-07-24"

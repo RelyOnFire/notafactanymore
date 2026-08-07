@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Late 19th–early 20th century"
 changedApproximately: "Early 20th century–1960s"
+timelineYear: 1965
 summary: "A celebrated network of Martian canals disappeared as telescopes improved and spacecraft photographed the planet up close."
 featured: false
 publishedAt: "2026-07-17"

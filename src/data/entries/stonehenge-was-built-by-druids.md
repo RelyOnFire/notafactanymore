@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Archaeology"
 acceptedApproximately: "Late 17th century–19th century"
 changedApproximately: "Late 19th–20th century"
+timelineYear: 1950
 summary: "Archaeological dating placed Stonehenge long before the historically recorded Druids."
 featured: false
 publishedAt: "2026-08-06"

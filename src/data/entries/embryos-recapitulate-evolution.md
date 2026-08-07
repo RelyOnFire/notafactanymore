@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Biology"
 acceptedApproximately: "Late 19th–early 20th century"
 changedApproximately: "Late 19th–20th century"
+timelineYear: 1900
 summary: "Haeckel's literal biogenetic law was replaced by a branching evolutionary-developmental account."
 featured: false
 publishedAt: "2026-07-17"

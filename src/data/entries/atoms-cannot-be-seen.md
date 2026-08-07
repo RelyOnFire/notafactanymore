@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Technology"
 acceptedApproximately: "19th–mid-20th century"
 changedApproximately: "1950s–1980s"
+timelineYear: 1970
 summary: "Atoms moved from purely inferred entities to objects that could be imaged and even repositioned one by one."
 featured: false
 publishedAt: "2026-07-28"

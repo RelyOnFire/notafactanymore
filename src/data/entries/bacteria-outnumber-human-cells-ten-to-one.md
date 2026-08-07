@@ -6,6 +6,7 @@ status: "Corrected"
 category: "Biology"
 acceptedApproximately: "1970s–2010s"
 changedApproximately: "2016"
+timelineYear: 2016
 summary: "A famous ten-to-one microbiome statistic was revised to roughly one bacterial cell for every human cell."
 featured: false
 publishedAt: "2026-07-17"

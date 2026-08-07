@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Materials Science"
 acceptedApproximately: "Classical physics–20th century"
 changedApproximately: "20th century–present"
+timelineYear: 1996
 summary: "Negative-thermal-expansion materials turned a broad rule into one with important structural exceptions."
 featured: false
 publishedAt: "2026-08-06"

@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Technology"
 acceptedApproximately: "Before modern instrumental seismology"
 changedApproximately: "Late 19th–early 20th century"
+timelineYear: 1900
 summary: "Seismographs made distant earthquakes measurable and locatable without seeing the damage."
 featured: false
 publishedAt: "2026-07-28"

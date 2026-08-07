@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Common pre-tectonic and simplified geological model"
 changedApproximately: "19th century–present"
+timelineYear: 1965
 summary: "Mountains became dynamic landscapes that can rise and erode at the same time."
 featured: false
 publishedAt: "2026-07-28"

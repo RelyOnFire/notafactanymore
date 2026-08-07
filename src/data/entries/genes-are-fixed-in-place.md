@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Genetics"
 acceptedApproximately: "Early to mid-20th century"
 changedApproximately: "1940s–1980s"
+timelineYear: 1950
 summary: "The static chromosome map was revised after the discovery that pieces of DNA can move within genomes."
 featured: false
 publishedAt: "2026-07-17"

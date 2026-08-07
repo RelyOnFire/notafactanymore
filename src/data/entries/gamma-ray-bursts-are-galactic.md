@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "1970s–early 1990s"
 changedApproximately: "1991–1997"
+timelineYear: 1997
 summary: "A once-dominant Milky Way explanation gave way to evidence that gamma-ray bursts occur across the distant universe."
 featured: false
 publishedAt: "2026-07-23"

@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Microbiology"
 acceptedApproximately: "Before the 2000s"
 changedApproximately: "2000s–2010s"
+timelineYear: 2007
 summary: "CRISPR revealed that bacteria can store memories of viruses and defend themselves against later infections."
 featured: false
 publishedAt: "2026-07-27"

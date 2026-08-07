@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Microbiology"
 acceptedApproximately: "Late 19th century–late 20th century"
 changedApproximately: "1970s–2000s"
+timelineYear: 1985
 summary: "Direct counts and DNA surveys revealed a vast microbial majority missing from ordinary culture plates."
 featured: false
 publishedAt: "2026-08-06"

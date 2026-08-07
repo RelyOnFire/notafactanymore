@@ -6,6 +6,7 @@ status: "Reclassified"
 category: "Physics"
 acceptedApproximately: "1910s–1930s"
 changedApproximately: "1920s–1930s"
+timelineYear: 1932
 summary: "The 'rays' from space turned out to be mostly fast-moving particles rather than electromagnetic waves."
 featured: false
 publishedAt: "2026-07-23"

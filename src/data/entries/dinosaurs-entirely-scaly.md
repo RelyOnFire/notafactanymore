@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Paleontology"
 acceptedApproximately: "19th century to the late 20th century"
 changedApproximately: "1990s–present"
+timelineYear: 1996
 summary: "Fossils revealed feathers in many non-avian dinosaurs, replacing the image of dinosaurs as uniformly scaly."
 featured: false
 publishedAt: "2026-07-17"

@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Before modern glaciological measurement"
 changedApproximately: "20th century–present"
+timelineYear: 1957
 summary: "The great polar ice sheets became dynamic rivers of solid ice rather than frozen blocks."
 featured: false
 publishedAt: "2026-07-28"

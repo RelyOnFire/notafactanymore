@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Late 19th century–1970s"
 changedApproximately: "1970s–1980s"
+timelineYear: 1980
 summary: "Trials showed that more disfiguring surgery did not improve survival for many women with early breast cancer."
 featured: false
 publishedAt: "2026-07-25"

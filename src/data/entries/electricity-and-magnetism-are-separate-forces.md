@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Physics"
 acceptedApproximately: "17th century–early 19th century"
 changedApproximately: "1820–1860s"
+timelineYear: 1865
 summary: "Experiments and Maxwell's equations unified electricity, magnetism, and light into electromagnetism."
 featured: false
 publishedAt: "2026-08-06"

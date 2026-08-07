@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Immunology"
 acceptedApproximately: "Early 20th century–1950s"
 changedApproximately: "1940s–1960s"
+timelineYear: 1955
 summary: "Autoantibodies and autoimmune disease showed that immune tolerance can fail rather than making self-attack impossible."
 featured: false
 publishedAt: "2026-08-06"

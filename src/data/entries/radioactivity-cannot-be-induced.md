@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1896–1934"
 changedApproximately: "1934–1935"
+timelineYear: 1934
 summary: "The Joliot-Curies created new radioactive isotopes, turning radioactivity into a producible nuclear property."
 featured: false
 publishedAt: "2026-08-06"

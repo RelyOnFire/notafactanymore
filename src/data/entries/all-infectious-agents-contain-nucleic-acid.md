@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Mid-20th century–1980s"
 changedApproximately: "1982–1997"
+timelineYear: 1982
 summary: "Prions overturned the rule that an infectious agent must carry DNA or RNA."
 featured: false
 publishedAt: "2026-07-17"

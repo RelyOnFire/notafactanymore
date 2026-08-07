@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1897–1920s"
 changedApproximately: "1924–1927"
+timelineYear: 1926
 summary: "Electron diffraction showed that matter could produce wave patterns while still arriving as localized detections."
 featured: false
 publishedAt: "2026-08-06"

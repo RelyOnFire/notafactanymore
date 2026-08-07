@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Planetary Science"
 acceptedApproximately: "Late 19th–mid-20th century"
 changedApproximately: "1950s–1970s"
+timelineYear: 1962
 summary: "A cloud-hidden sister world changed from imagined oceans and jungles into the hottest planetary surface."
 featured: false
 publishedAt: "2026-07-28"

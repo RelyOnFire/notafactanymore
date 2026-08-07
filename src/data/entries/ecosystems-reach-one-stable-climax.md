@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Ecology"
 acceptedApproximately: "Early–mid-20th century"
 changedApproximately: "Mid–late 20th century"
+timelineYear: 1970
 summary: "Ecosystems proved less like organisms maturing toward one final form and more like historically contingent, changing systems."
 featured: false
 publishedAt: "2026-08-06"

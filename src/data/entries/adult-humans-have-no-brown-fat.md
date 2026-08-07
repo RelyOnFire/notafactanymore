@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Mid to late 20th century"
 changedApproximately: "2000s"
+timelineYear: 2009
 summary: "A heat-producing tissue thought to disappear after infancy was found to remain active in many adults."
 featured: false
 publishedAt: "2026-07-17"

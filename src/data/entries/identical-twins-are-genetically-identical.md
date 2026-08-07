@@ -6,6 +6,7 @@ status: "Corrected"
 category: "Genetics"
 acceptedApproximately: "Early 20th century–2000s"
 changedApproximately: "2000s–present"
+timelineYear: 2008
 summary: "Identical twins start from one genome but acquire small genetic differences as development and life continue."
 featured: false
 publishedAt: "2026-07-28"

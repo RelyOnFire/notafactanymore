@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Ecology"
 acceptedApproximately: "Late 19th–mid-20th century"
 changedApproximately: "1950s–1970s"
+timelineYear: 1965
 summary: "Fire proved to be not merely a destroyer but a necessary ecological process in many landscapes."
 featured: false
 publishedAt: "2026-08-06"

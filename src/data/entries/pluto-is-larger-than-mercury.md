@@ -6,6 +6,7 @@ status: "Corrected"
 category: "Planetary Science"
 acceptedApproximately: "1930s–1970s"
 changedApproximately: "1978–2015"
+timelineYear: 1997
 summary: "Better measurements shrank Pluto from a major planet-sized world to a small dwarf planet."
 featured: false
 publishedAt: "2026-07-28"

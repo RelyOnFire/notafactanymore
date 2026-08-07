@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Psychology"
 acceptedApproximately: "Especially influential in the 1930s–1950s"
 changedApproximately: "1950s–present"
+timelineYear: 1959
 summary: "Language learning expanded from imitation and reward into a complex process of pattern discovery, interaction, and development."
 featured: false
 publishedAt: "2026-07-28"

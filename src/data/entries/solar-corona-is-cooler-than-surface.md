@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "19th century–1930s"
 changedApproximately: "1939–1942"
+timelineYear: 1940
 summary: "Highly ionized iron revealed an outer solar atmosphere far hotter than the Sun's visible surface."
 featured: false
 publishedAt: "2026-08-06"

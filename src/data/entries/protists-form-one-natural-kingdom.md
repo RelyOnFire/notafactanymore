@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Evolution"
 acceptedApproximately: "Mid-19th–late 20th century"
 changedApproximately: "1980s–present"
+timelineYear: 1985
 summary: "The protist kingdom dissolved into multiple evolutionary lineages once molecular relationships became visible."
 featured: false
 publishedAt: "2026-07-28"

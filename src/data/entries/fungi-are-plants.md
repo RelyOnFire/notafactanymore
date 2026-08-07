@@ -6,6 +6,7 @@ status: "Reclassified"
 category: "Biology"
 acceptedApproximately: "Antiquity through the mid-20th century"
 changedApproximately: "1950s–1970s"
+timelineYear: 1965
 summary: "Organisms long classified as plants were moved into their own fungal kingdom."
 featured: false
 publishedAt: "2026-07-17"

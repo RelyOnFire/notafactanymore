@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Astronomy"
 acceptedApproximately: "18th to early 19th century"
 changedApproximately: "19th century–1930s"
+timelineYear: 1938
 summary: "Chemical fire could not explain the Sun's age or output; nuclear fusion could."
 featured: false
 publishedAt: "2026-07-23"

@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Astronomy"
 acceptedApproximately: "Antiquity–19th century"
 changedApproximately: "19th century–mid-20th century"
+timelineYear: 1938
 summary: "Stellar physics turned permanent points of light into objects that form, age, transform, and die."
 featured: false
 publishedAt: "2026-08-06"

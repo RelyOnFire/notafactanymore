@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Late 18th–19th century"
 changedApproximately: "1882 onward"
+timelineYear: 1882
 summary: "Family clustering once suggested inherited consumption until Koch identified the bacterium that causes tuberculosis."
 featured: false
 publishedAt: "2026-07-28"

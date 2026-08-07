@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Psychology"
 acceptedApproximately: "Late 19th century–late 20th century"
 changedApproximately: "1960s–2000s"
+timelineYear: 1960
 summary: "Experiments found that aggressive catharsis often rehearses anger instead of emptying it."
 featured: false
 publishedAt: "2026-08-06"

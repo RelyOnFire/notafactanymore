@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1895–early 20th century"
 changedApproximately: "1900s–1950s"
+timelineYear: 1930
 summary: "Radiation injuries and long-term cancer data replaced the idea that repeated X-ray exposure was harmless."
 featured: false
 publishedAt: "2026-08-06"

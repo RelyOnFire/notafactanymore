@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Classical antiquity through the early modern period"
 changedApproximately: "17th–19th centuries"
+timelineYear: 1850
 summary: "A medical framework that shaped diagnosis and treatment for many centuries was replaced by anatomy, physiology, pathology, and germ theory."
 featured: false
 publishedAt: "2026-07-17"

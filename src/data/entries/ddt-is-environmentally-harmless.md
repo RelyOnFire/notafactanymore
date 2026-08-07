@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Environmental Science"
 acceptedApproximately: "1940s–1960s"
 changedApproximately: "1950s–1970s"
+timelineYear: 1962
 summary: "Persistence and eggshell thinning transformed DDT from a seemingly safe pesticide into a major ecological hazard."
 featured: false
 publishedAt: "2026-08-06"

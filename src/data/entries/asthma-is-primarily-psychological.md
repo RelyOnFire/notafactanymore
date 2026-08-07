@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Late 19th–mid-20th century"
 changedApproximately: "1950s–1990s"
+timelineYear: 1975
 summary: "A psychosomatic explanation gave way to evidence of inflammation, immune signaling, and abnormal airway physiology."
 featured: false
 publishedAt: "2026-07-28"

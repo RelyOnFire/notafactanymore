@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Before modern stratigraphy and paleoclimate reconstruction"
 changedApproximately: "19th–20th centuries"
+timelineYear: 1910
 summary: "Ancient shorelines revealed oceans repeatedly advancing across and retreating from the continents."
 featured: false
 publishedAt: "2026-07-28"

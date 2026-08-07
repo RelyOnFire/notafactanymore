@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Human Evolution"
 acceptedApproximately: "Late 19th century–early 20th century"
 changedApproximately: "1920s–1970s"
+timelineYear: 1950
 summary: "Small-brained australopithecines showed that walking on two legs preceded major human brain expansion."
 featured: false
 publishedAt: "2026-08-06"

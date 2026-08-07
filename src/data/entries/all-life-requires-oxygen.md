@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Biology"
 acceptedApproximately: "18th–19th century"
 changedApproximately: "1860s–20th century"
+timelineYear: 1861
 summary: "Anaerobic microbes showed that life can thrive without oxygen and may even be poisoned by it."
 featured: false
 publishedAt: "2026-08-06"

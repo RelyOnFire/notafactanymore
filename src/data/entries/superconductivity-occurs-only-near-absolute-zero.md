@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1911–1986"
 changedApproximately: "1986–1987"
+timelineYear: 1986
 summary: "Ceramic copper oxides moved superconductivity from liquid-helium temperatures into the liquid-nitrogen range."
 featured: false
 publishedAt: "2026-08-06"

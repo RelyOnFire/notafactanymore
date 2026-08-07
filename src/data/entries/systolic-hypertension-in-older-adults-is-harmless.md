@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Early–mid-20th century"
 changedApproximately: "1970s–1990s"
+timelineYear: 1991
 summary: "Outcome trials established age-related systolic hypertension as dangerous and treatable rather than benign."
 featured: false
 publishedAt: "2026-08-06"

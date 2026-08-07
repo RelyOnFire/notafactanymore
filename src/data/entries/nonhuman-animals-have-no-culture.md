@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Animal Behavior"
 acceptedApproximately: "Dominant Western scientific usage through much of the 20th century"
 changedApproximately: "1950s–present"
+timelineYear: 1960
 summary: "Socially learned traditions were found in primates, whales, birds, fish, and other animals."
 featured: false
 publishedAt: "2026-07-28"

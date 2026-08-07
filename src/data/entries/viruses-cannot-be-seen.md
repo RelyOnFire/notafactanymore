@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Technology"
 acceptedApproximately: "Late 19th–1930s"
 changedApproximately: "1930s–1940s"
+timelineYear: 1940
 summary: "Electron microscopy turned invisible infectious agents into visible particles with recognizable structures."
 featured: false
 publishedAt: "2026-07-28"

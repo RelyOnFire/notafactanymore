@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Astronomy"
 acceptedApproximately: "Classical antiquity through the early 17th century"
 changedApproximately: "1605–1609"
+timelineYear: 1609
 summary: "Kepler replaced the ancient ideal of perfect circular orbits with ellipses."
 featured: false
 publishedAt: "2026-07-17"

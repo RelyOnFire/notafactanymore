@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Materials Science"
 acceptedApproximately: "19th century–1970s"
 changedApproximately: "1977–1980s"
+timelineYear: 1981
 summary: "Doped conjugated polymers showed that a plastic could conduct almost like a metal."
 featured: false
 publishedAt: "2026-08-06"

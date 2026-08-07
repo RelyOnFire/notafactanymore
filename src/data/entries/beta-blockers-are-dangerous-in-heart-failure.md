@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1960s–1980s"
 changedApproximately: "1980s–2000s"
+timelineYear: 1985
 summary: "A drug class once formally contraindicated in heart failure became a cornerstone of treatment."
 featured: false
 publishedAt: "2026-07-28"

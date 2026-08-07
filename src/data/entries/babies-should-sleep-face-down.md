@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Public Health"
 acceptedApproximately: "1940s–early 1990s"
 changedApproximately: "Late 1980s–1990s"
+timelineYear: 1990
 summary: "Advice meant to prevent choking increased SIDS risk until public-health campaigns moved infant sleep onto the back."
 featured: false
 publishedAt: "2026-07-25"

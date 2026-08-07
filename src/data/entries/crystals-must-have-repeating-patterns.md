@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Materials Science"
 acceptedApproximately: "19th century–1982"
 changedApproximately: "1982–1992"
+timelineYear: 1982
 summary: "Quasicrystals revealed ordered solids whose atomic patterns never repeat periodically."
 featured: false
 publishedAt: "2026-08-06"

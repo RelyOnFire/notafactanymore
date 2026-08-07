@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "1770s–early 19th century"
 changedApproximately: "1810s"
+timelineYear: 1810
 summary: "Oxygen was named as the supposed maker of all acids, but oxygen-free acids disproved the rule."
 featured: false
 publishedAt: "2026-07-24"

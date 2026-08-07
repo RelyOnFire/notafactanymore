@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Oceanography"
 acceptedApproximately: "Early–mid-20th century"
 changedApproximately: "1980s–1990s"
+timelineYear: 1993
 summary: "Tiny concentrations of iron proved capable of controlling productivity across enormous nutrient-rich ocean regions."
 featured: false
 publishedAt: "2026-08-06"

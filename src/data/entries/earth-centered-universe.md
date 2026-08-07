@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Astronomy"
 acceptedApproximately: "Classical antiquity through the 16th century"
 changedApproximately: "16th–17th centuries"
+timelineYear: 1610
 summary: "The long-dominant geocentric cosmos was replaced by a Sun-centered model of the solar system and, later, by a much larger astronomical picture."
 featured: false
 publishedAt: "2026-07-17"

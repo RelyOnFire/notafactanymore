@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Virology"
 acceptedApproximately: "Late 19th century–1910s"
 changedApproximately: "1915–1917"
+timelineYear: 1916
 summary: "Bacteriophages revealed an immense viral world whose hosts are bacteria."
 featured: false
 publishedAt: "2026-08-06"

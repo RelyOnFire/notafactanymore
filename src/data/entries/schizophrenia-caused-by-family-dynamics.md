@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1940s–1970s"
 changedApproximately: "1960s–1990s"
+timelineYear: 1980
 summary: "Family-blaming theories lost ground as schizophrenia emerged as a complex neurodevelopmental disorder."
 featured: false
 publishedAt: "2026-07-28"

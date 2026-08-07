@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Neuroscience"
 acceptedApproximately: "Late 19th–mid-20th century"
 changedApproximately: "1960s–present"
+timelineYear: 1965
 summary: "The mature brain proved capable of continued rewiring, learning, and structural change."
 featured: false
 publishedAt: "2026-07-28"

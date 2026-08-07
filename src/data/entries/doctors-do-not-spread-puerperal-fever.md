@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Early to mid-19th century"
 changedApproximately: "1840s–1880s"
+timelineYear: 1847
 summary: "Semmelweis showed that doctors could carry childbed fever between patients and that disinfecting their hands saved lives."
 featured: true
 featuredOrder: 6 

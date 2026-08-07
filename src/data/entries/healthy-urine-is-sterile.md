@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Mid-19th century–2010s"
 changedApproximately: "2010s"
+timelineYear: 2012
 summary: "Better culture and sequencing methods revealed a urinary microbiome in people without infection."
 featured: false
 publishedAt: "2026-07-25"

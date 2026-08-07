@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Ocean Science"
 acceptedApproximately: "1840s–1860s"
 changedApproximately: "1868–1870s"
+timelineYear: 1872
 summary: "Dredging recovered living animals far below the depth once proposed as the ocean's lifeless boundary."
 featured: false
 publishedAt: "2026-07-17"

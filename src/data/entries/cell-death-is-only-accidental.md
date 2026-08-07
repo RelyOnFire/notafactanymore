@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Cell Biology"
 acceptedApproximately: "19th century–mid-20th century"
 changedApproximately: "1950s–1990s"
+timelineYear: 1972
 summary: "Apoptosis revealed that cell death can be an organized biological process rather than merely accidental damage."
 featured: false
 publishedAt: "2026-08-06"

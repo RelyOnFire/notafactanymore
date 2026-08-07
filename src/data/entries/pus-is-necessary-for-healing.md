@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Antiquity–19th century"
 changedApproximately: "1860s–early 20th century"
+timelineYear: 1867
 summary: "Antiseptic surgery replaced desirable 'laudable pus' with infection prevention."
 featured: false
 publishedAt: "2026-08-06"

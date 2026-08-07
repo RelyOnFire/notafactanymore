@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Ancient anatomy through much of the 20th century"
 changedApproximately: "20th century–present"
+timelineYear: 2007
 summary: "The skeleton changed from a dead-looking framework into a living, remodeling, signaling organ."
 featured: false
 publishedAt: "2026-07-27"

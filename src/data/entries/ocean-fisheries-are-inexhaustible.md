@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Ecology"
 acceptedApproximately: "19th–early 20th century"
 changedApproximately: "Mid–late 20th century"
+timelineYear: 1970
 summary: "Industrial fishing proved capable of depleting even immense populations spread across the open sea."
 featured: false
 publishedAt: "2026-08-06"

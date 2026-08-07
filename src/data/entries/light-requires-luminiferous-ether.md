@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Physics"
 acceptedApproximately: "19th century"
 changedApproximately: "1880s–1910s"
+timelineYear: 1905
 summary: "Experiments and relativity made the luminiferous ether unnecessary as a medium for light."
 featured: false
 publishedAt: "2026-07-17"

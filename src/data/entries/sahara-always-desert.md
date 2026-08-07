@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Paleoclimate"
 acceptedApproximately: "Before modern paleoclimate reconstruction"
 changedApproximately: "20th century–present"
+timelineYear: 1960
 summary: "The world's largest hot desert has repeatedly become green, wet, and lake-filled."
 featured: false
 publishedAt: "2026-07-24"

@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Paleontology"
 acceptedApproximately: "Much of the 20th century before 1980"
 changedApproximately: "1980s–2010s"
+timelineYear: 1980
 summary: "A gradual-extinction model gave way to evidence for a catastrophic asteroid impact at Chicxulub."
 featured: false
 publishedAt: "2026-07-24"

@@ -6,6 +6,7 @@ status: "Corrected"
 category: "Genetics"
 acceptedApproximately: "Common pre-genome expectation through the 1990s"
 changedApproximately: "2001–2003"
+timelineYear: 2001
 summary: "Sequencing revealed that protein instructions occupy only a small fraction of the human genome."
 featured: false
 publishedAt: "2026-07-27"

@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Botany"
 acceptedApproximately: "Antiquity–19th century"
 changedApproximately: "Mid-19th–early 20th centuries"
+timelineYear: 1860
 summary: "Plants need the resources soil usually provides, not soil itself."
 featured: false
 publishedAt: "2026-08-06"

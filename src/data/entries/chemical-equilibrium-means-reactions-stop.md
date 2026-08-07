@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "19th century–early 20th century"
 changedApproximately: "Late 19th–20th century"
+timelineYear: 1864
 summary: "Dynamic equilibrium means balanced continuing reactions, not molecular inactivity."
 featured: false
 publishedAt: "2026-08-06"

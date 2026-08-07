@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Technology"
 acceptedApproximately: "Ancient navigation–early 18th century"
 changedApproximately: "1730s–1770s"
+timelineYear: 1761
 summary: "A clock accurate at sea turned longitude from a notorious unsolved problem into routine navigation."
 featured: false
 publishedAt: "2026-07-28"

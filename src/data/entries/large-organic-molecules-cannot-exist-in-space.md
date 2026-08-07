@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astrochemistry"
 acceptedApproximately: "Mid-20th century"
 changedApproximately: "1970s–2000s"
+timelineYear: 1980
 summary: "Space chemistry proved capable of producing and preserving molecules far larger than early models allowed."
 featured: false
 publishedAt: "2026-07-23"

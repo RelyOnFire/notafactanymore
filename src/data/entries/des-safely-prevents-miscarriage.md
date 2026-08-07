@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1940s–1971"
 changedApproximately: "1953–1971"
+timelineYear: 1971
 summary: "A failed prevention trial and delayed cancers exposed DES as ineffective and harmful in pregnancy."
 featured: false
 publishedAt: "2026-08-06"

@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Chemistry"
 acceptedApproximately: "Late 18th–early 19th century"
 changedApproximately: "1828–late 19th century"
+timelineYear: 1828
 summary: "Laboratory synthesis broke down the supposed chemical boundary between living and nonliving matter."
 featured: false
 publishedAt: "2026-07-17"

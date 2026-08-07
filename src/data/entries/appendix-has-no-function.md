@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Late 19th through much of the 20th century"
 changedApproximately: "Late 20th century–present"
+timelineYear: 2007
 summary: "The appendix is no longer considered functionless, although it is not essential for normal life."
 featured: false
 publishedAt: "2026-07-17"

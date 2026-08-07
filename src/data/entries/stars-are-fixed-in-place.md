@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Antiquity–early 18th century"
 changedApproximately: "1718–19th century"
+timelineYear: 1718
 summary: "Comparisons with ancient star catalogues revealed that even the supposedly fixed stars move."
 featured: false
 publishedAt: "2026-08-06"

@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Evolution"
 acceptedApproximately: "19th–mid-20th century"
 changedApproximately: "1950s–present"
+timelineYear: 1972
 summary: "Evolution moved from the geological past into experiments and field studies conducted within a human lifetime."
 featured: false
 publishedAt: "2026-07-28"

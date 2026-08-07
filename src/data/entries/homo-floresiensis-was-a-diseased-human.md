@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Human Evolution"
 acceptedApproximately: "Competing expert hypothesis, 2004–2010s"
 changedApproximately: "Late 2000s–present"
+timelineYear: 2016
 summary: "Multiple individuals and a mosaic of primitive anatomy weakened the idea that Flores fossils were diseased modern humans."
 featured: false
 publishedAt: "2026-08-06"

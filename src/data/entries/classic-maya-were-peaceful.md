@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Archaeology"
 acceptedApproximately: "Early–mid-20th century"
 changedApproximately: "1960s–1990s"
+timelineYear: 1980
 summary: "Decoded inscriptions and archaeology replaced the image of an exceptionally peaceful Maya civilization."
 featured: false
 publishedAt: "2026-08-06"

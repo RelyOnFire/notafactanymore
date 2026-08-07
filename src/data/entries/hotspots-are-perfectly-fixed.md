@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Earth Science"
 acceptedApproximately: "1960s–1990s"
 changedApproximately: "1990s–present"
+timelineYear: 1995
 summary: "A useful fixed-hotspot model narrowed into a relatively stable but imperfect geological reference frame."
 featured: false
 publishedAt: "2026-07-28"

@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Much of the 20th century"
 changedApproximately: "1980s–2000s"
+timelineYear: 1985
 summary: "Fat tissue was reinterpreted from passive energy storage into an active endocrine and immune organ."
 featured: false
 publishedAt: "2026-07-17"

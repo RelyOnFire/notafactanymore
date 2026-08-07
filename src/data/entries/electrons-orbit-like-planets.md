@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Physics"
 acceptedApproximately: "1913–1920s"
 changedApproximately: "1920s–1930s"
+timelineYear: 1930
 summary: "The planetary-style Bohr atom was replaced by quantum orbitals and probability-based electron states."
 featured: false
 publishedAt: "2026-07-17"

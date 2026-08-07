@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "19th century–late 20th century"
 changedApproximately: "1990s–2010s"
+timelineYear: 1995
 summary: "Evidence failed to show that routine pregnancy bed rest prevents preterm birth and documented important harms."
 featured: false
 publishedAt: "2026-08-06"

@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Earth Science"
 acceptedApproximately: "Mid-19th century–early 20th century"
 changedApproximately: "1910s–1960s"
+timelineYear: 1960
 summary: "Plate tectonics replaced a shrinking, wrinkling Earth as the general explanation for mountain building."
 featured: false
 publishedAt: "2026-08-06"

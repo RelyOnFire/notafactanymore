@@ -6,6 +6,7 @@ status: "Corrected"
 category: "Ocean Science"
 acceptedApproximately: "Common early natural-history and public model"
 changedApproximately: "19th–20th centuries"
+timelineYear: 1842
 summary: "The living reef surface turned out to rest on generations of skeletons, sediments, and other organisms."
 featured: false
 publishedAt: "2026-07-28"

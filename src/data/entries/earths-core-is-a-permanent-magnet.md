@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "17th century–early 20th century"
 changedApproximately: "1910s–1950s"
+timelineYear: 1919
 summary: "A hot, flowing outer core replaced the permanently magnetized-core model with the geodynamo."
 featured: false
 publishedAt: "2026-08-06"

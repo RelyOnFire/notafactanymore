@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Physics"
 acceptedApproximately: "17th–early 20th century"
 changedApproximately: "1915 onward"
+timelineYear: 1915
 summary: "Instantaneous Newtonian action at a distance was replaced by relativistic gravity with finite-speed propagation."
 featured: false
 publishedAt: "2026-07-17"

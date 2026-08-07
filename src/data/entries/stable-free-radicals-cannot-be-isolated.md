@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Mid-19th century–1900"
 changedApproximately: "1900–1930s"
+timelineYear: 1900
 summary: "Gomberg's triphenylmethyl radical overturned the belief that organic radicals could not persist independently."
 featured: false
 publishedAt: "2026-08-06"

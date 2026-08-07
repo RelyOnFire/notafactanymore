@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Late 19th century–1920s"
 changedApproximately: "1920s–1930s"
+timelineYear: 1930
 summary: "Staudinger established polymers as giant covalently bonded molecules rather than molecular aggregates."
 featured: false
 publishedAt: "2026-08-06"

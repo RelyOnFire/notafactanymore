@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Planetary Science"
 acceptedApproximately: "19th century–mid-20th century"
 changedApproximately: "1950s–1970s"
+timelineYear: 1960
 summary: "Apollo samples settled a long debate by showing that impacts, not volcanoes, made most lunar craters."
 featured: false
 publishedAt: "2026-07-23"

@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Measurement"
 acceptedApproximately: "1889–2019"
 changedApproximately: "2019"
+timelineYear: 2019
 summary: "The last major SI artifact standard was replaced by a definition tied to a fundamental constant."
 featured: false
 publishedAt: "2026-07-28"

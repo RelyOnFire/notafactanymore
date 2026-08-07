@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Especially influential in the 1930s–1960s"
 changedApproximately: "1960s–present"
+timelineYear: 1971
 summary: "An implausible mathematical endpoint became an observed population of astrophysical objects."
 featured: false
 publishedAt: "2026-07-28"

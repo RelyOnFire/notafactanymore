@@ -6,6 +6,7 @@ status: "Corrected"
 category: "Botany"
 acceptedApproximately: "Early–mid-19th century"
 changedApproximately: "1880s–1890s"
+timelineYear: 1890
 summary: "The nitrogen-fixing power of legumes proved to depend on bacteria housed in specialized root nodules."
 featured: false
 publishedAt: "2026-08-06"

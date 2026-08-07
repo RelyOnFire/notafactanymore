@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Earth Science"
 acceptedApproximately: "Early 20th century–1936"
 changedApproximately: "1936–1970s"
+timelineYear: 1936
 summary: "Subtle seismic arrivals revealed a solid inner core inside Earth's liquid outer core."
 featured: false
 publishedAt: "2026-08-06"

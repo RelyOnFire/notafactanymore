@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Early 19th–early 20th century"
 changedApproximately: "1910s–1920s"
+timelineYear: 1913
 summary: "The discovery of isotopes overturned the idea that every atom of an element has the same mass."
 featured: false
 publishedAt: "2026-07-17"

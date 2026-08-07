@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1970s–1989"
 changedApproximately: "1989"
+timelineYear: 1989
 summary: "CAST showed that drugs could improve an ECG marker while making patients more likely to die."
 featured: false
 publishedAt: "2026-08-06"

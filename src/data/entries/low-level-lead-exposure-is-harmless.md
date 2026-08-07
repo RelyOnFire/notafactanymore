@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Public Health"
 acceptedApproximately: "Early–mid-20th century"
 changedApproximately: "1970s–2010s"
+timelineYear: 1979
 summary: "Research repeatedly found harm below blood-lead concentrations once treated as safe."
 featured: false
 publishedAt: "2026-08-06"

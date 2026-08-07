@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astrochemistry"
 acceptedApproximately: "Early 20th century–1960s"
 changedApproximately: "1960s–1980s"
+timelineYear: 1968
 summary: "Interstellar space turned out to host a rich chemistry once thought unable to exist there."
 featured: false
 publishedAt: "2026-07-23"

@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Biology"
 acceptedApproximately: "Classical antiquity through the 19th century"
 changedApproximately: "17th–19th centuries"
+timelineYear: 1861
 summary: "The long-lived doctrine of spontaneous generation was rejected after experiments showed that apparent new life came from contamination by existing organisms."
 featured: false
 publishedAt: "2026-07-17"

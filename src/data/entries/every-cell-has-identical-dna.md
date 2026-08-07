@@ -6,6 +6,7 @@ status: "Corrected"
 category: "Genetics"
 acceptedApproximately: "20th century–early 2000s"
 changedApproximately: "2000s–present"
+timelineYear: 2012
 summary: "The body turned out to be a genetic mosaic rather than billions of exact DNA copies."
 featured: false
 publishedAt: "2026-07-28"

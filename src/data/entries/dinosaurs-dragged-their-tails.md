@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Paleontology"
 acceptedApproximately: "Late 19th–mid-20th century"
 changedApproximately: "Mid to late 20th century"
+timelineYear: 1969
 summary: "The iconic upright, tail-dragging dinosaur was replaced by a balanced, more horizontal reconstruction."
 featured: false
 publishedAt: "2026-07-17"

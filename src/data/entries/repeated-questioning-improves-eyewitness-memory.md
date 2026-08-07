@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Psychology"
 acceptedApproximately: "Longstanding investigative practice through much of the 20th century"
 changedApproximately: "1970s–present"
+timelineYear: 1974
 summary: "More questioning can contaminate a witness's memory instead of simply revealing additional detail."
 featured: false
 publishedAt: "2026-07-28"

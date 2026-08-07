@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Planetary Science"
 acceptedApproximately: "Late 19th–mid-20th century"
 changedApproximately: "1960s–1970s"
+timelineYear: 1965
 summary: "Seasonal darkening once read as Martian plant growth became shifting dust and exposed terrain."
 featured: false
 publishedAt: "2026-07-28"

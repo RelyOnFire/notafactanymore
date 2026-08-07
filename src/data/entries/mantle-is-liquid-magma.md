@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Common popular and early geological interpretation"
 changedApproximately: "20th century"
+timelineYear: 1914
 summary: "The mantle is not a hidden global magma ocean; it is mostly solid rock that flows very slowly."
 featured: false
 publishedAt: "2026-07-24"

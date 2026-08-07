@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Botany"
 acceptedApproximately: "Antiquity–17th century"
 changedApproximately: "Late 17th–18th centuries"
+timelineYear: 1694
 summary: "Experiments with pollen and seed formation established that plants have sexual reproduction as well as asexual reproduction."
 featured: false
 publishedAt: "2026-08-06"

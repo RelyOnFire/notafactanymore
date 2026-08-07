@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Late 19th to early 20th century"
 changedApproximately: "1890s–1930s"
+timelineYear: 1897
 summary: "The search for an infection or rice toxin gave way to the discovery that beriberi is caused by thiamine deficiency."
 featured: false
 publishedAt: "2026-07-17"

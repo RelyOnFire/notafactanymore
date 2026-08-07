@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Before the 1980s"
 changedApproximately: "1980s–1990s"
+timelineYear: 1983
 summary: "A common cancer became preventable once its central viral cause was established."
 featured: false
 publishedAt: "2026-07-25"

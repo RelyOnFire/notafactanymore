@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Zoology"
 acceptedApproximately: "19th–late 20th century"
 changedApproximately: "1960s–present"
+timelineYear: 1965
 summary: "A supposedly scent-blind animal group proved to use odors for navigation, feeding, recognition, and reproduction."
 featured: false
 publishedAt: "2026-07-28"

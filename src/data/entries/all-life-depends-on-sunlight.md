@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Ocean Science"
 acceptedApproximately: "19th century–1977"
 changedApproximately: "1977 onward"
+timelineYear: 1977
 summary: "Hydrothermal-vent communities revealed entire food webs fueled by chemical energy in permanent darkness."
 featured: true
 featuredOrder: 5

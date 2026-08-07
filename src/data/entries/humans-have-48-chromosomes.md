@@ -6,6 +6,7 @@ status: "Corrected"
 category: "Genetics"
 acceptedApproximately: "1920s–1955"
 changedApproximately: "1955–1956"
+timelineYear: 1956
 summary: "Improved microscopy corrected the accepted human chromosome count from 48 to 46."
 featured: true
 featuredOrder: 3 

@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Paleontology"
 acceptedApproximately: "19th and much of the 20th century"
 changedApproximately: "Late 20th century"
+timelineYear: 1996
 summary: "The mass extinction eliminated non-avian dinosaurs, while avian dinosaurs survived as birds."
 featured: false
 publishedAt: "2026-07-17"

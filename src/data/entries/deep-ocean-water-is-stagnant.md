@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Ocean Science"
 acceptedApproximately: "Before modern physical oceanography"
 changedApproximately: "19th–20th centuries"
+timelineYear: 1957
 summary: "The supposedly motionless abyss became part of a global circulation linking the oceans over centuries."
 featured: false
 publishedAt: "2026-07-28"

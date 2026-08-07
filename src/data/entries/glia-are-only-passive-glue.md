@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Neuroscience"
 acceptedApproximately: "Mid-19th century–late 20th century"
 changedApproximately: "1960s–present"
+timelineYear: 1965
 summary: "Cells once dismissed as neural glue proved essential to signaling, metabolism, development, and circuit regulation."
 featured: false
 publishedAt: "2026-08-06"

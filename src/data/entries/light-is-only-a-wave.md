@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Physics"
 acceptedApproximately: "Early 19th–early 20th century"
 changedApproximately: "1905–1920s"
+timelineYear: 1905
 summary: "The successful classical wave theory of light was expanded into a quantum description that also requires photons."
 featured: false
 publishedAt: "2026-07-17"

@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "2nd century through the early 17th century"
 changedApproximately: "1620s–1660s"
+timelineYear: 1628
 summary: "Galen's outward-flow model of blood was replaced by the discovery that blood continuously circulates through the heart and vessels."
 featured: false
 publishedAt: "2026-07-17"

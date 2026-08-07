@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Psychology"
 acceptedApproximately: "Longstanding legal assumption through the late 20th century"
 changedApproximately: "1970s–present"
+timelineYear: 1974
 summary: "Confidence stopped being treated as a simple guarantee that an eyewitness identification is correct."
 featured: false
 publishedAt: "2026-07-28"

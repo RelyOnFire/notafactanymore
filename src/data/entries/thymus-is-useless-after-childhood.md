@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "19th century–early 1960s"
 changedApproximately: "1961–1970s"
+timelineYear: 1961
 summary: "An organ dismissed as a lymphocyte graveyard proved essential for building the adaptive immune system."
 featured: false
 publishedAt: "2026-07-27"

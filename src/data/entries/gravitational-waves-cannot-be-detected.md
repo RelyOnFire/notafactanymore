@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Physics"
 acceptedApproximately: "Common expert assessment, 1910s–1960s"
 changedApproximately: "1960s–2015"
+timelineYear: 2015
 summary: "Kilometre-scale laser interferometers measured spacetime distortions once considered permanently beyond experimental reach."
 featured: false
 publishedAt: "2026-08-06"

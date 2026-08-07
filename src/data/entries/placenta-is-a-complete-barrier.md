@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Medicine"
 acceptedApproximately: "Late 19th century–mid-20th century"
 changedApproximately: "1940s–1960s"
+timelineYear: 1961
 summary: "Congenital infections and drug-related birth defects replaced the impermeable placental-wall model with selective transfer."
 featured: false
 publishedAt: "2026-08-06"

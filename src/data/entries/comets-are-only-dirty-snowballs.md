@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Planetary Science"
 acceptedApproximately: "1950s–1980s"
 changedApproximately: "1986–present"
+timelineYear: 1986
 summary: "Spacecraft turned the tidy dirty-snowball model into a far more complex class of dark, active worlds."
 featured: false
 publishedAt: "2026-07-28"

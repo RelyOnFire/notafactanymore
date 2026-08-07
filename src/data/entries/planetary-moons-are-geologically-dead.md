@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Planetary Science"
 acceptedApproximately: "Before the late 1970s"
 changedApproximately: "1979–present"
+timelineYear: 1979
 summary: "Voyager turned supposedly frozen moons into some of the most active worlds in the Solar System."
 featured: false
 publishedAt: "2026-07-28"

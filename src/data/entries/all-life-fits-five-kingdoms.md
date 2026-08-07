@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Evolution"
 acceptedApproximately: "Late 1960s–1990s"
 changedApproximately: "1970s–present"
+timelineYear: 1977
 summary: "A standard five-kingdom map of life gave way to molecular trees with three domains and many eukaryotic lineages."
 featured: false
 publishedAt: "2026-07-28"

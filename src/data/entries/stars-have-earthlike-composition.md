@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Late 19th century–1920s"
 changedApproximately: "1925–1929"
+timelineYear: 1925
 summary: "Cecilia Payne showed that stellar spectra concealed stars made mostly of hydrogen and helium."
 featured: false
 publishedAt: "2026-08-06"

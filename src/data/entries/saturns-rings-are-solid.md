@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "1650s–mid-19th century"
 changedApproximately: "1850s–1895"
+timelineYear: 1859
 summary: "Dynamics and spectroscopy replaced Saturn's solid rings with countless independently orbiting particles."
 featured: false
 publishedAt: "2026-08-06"

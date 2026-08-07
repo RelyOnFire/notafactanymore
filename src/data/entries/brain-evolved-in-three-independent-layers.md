@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Neuroscience"
 acceptedApproximately: "1950s–late 20th century"
 changedApproximately: "1980s–present"
+timelineYear: 1990
 summary: "Comparative neuroscience replaced three stacked brains with evolutionarily modified, deeply interconnected networks."
 featured: false
 publishedAt: "2026-08-06"

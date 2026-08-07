@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Cell Biology"
 acceptedApproximately: "Mid-20th century–1990s"
 changedApproximately: "1990s–present"
+timelineYear: 1995
 summary: "The cellular powerhouse became a broader control center for metabolism, signaling, stress, and cell death."
 featured: false
 publishedAt: "2026-07-28"

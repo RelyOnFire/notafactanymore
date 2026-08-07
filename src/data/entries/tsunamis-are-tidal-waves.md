@@ -6,6 +6,7 @@ status: "Corrected"
 category: "Ocean Science"
 acceptedApproximately: "Longstanding public and early scientific terminology"
 changedApproximately: "20th century"
+timelineYear: 1946
 summary: "The tidal wave was renamed when its source was traced to earthquakes, landslides, and eruptions rather than tides."
 featured: false
 publishedAt: "2026-07-28"

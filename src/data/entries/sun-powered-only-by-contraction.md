@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Astronomy"
 acceptedApproximately: "Mid to late 19th century"
 changedApproximately: "1920s–1930s"
+timelineYear: 1920
 summary: "Gravitational contraction explained some stellar heating but could not account for the Sun's billion-year lifetime."
 featured: false
 publishedAt: "2026-07-23"

@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Human Evolution"
 acceptedApproximately: "1912–1953"
 changedApproximately: "1949–1953"
+timelineYear: 1953
 summary: "A fossil celebrated for four decades as a human ancestor was exposed as an assembled and chemically altered hoax."
 featured: false
 publishedAt: "2026-07-17"

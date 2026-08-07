@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Measurement"
 acceptedApproximately: "Before the 17th–18th centuries"
 changedApproximately: "1600s–1800s"
+timelineYear: 1742
 summary: "Heat changed from a personal sensation into a quantity that laboratories around the world could compare."
 featured: false
 publishedAt: "2026-07-28"

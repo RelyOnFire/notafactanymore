@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Genetics"
 acceptedApproximately: "Especially influential in early–mid-20th-century public and medical understanding"
 changedApproximately: "Mid-20th century–present"
+timelineYear: 1968
 summary: "Genetic change expanded from damage alone into a spectrum that includes neutral and adaptive variation."
 featured: false
 publishedAt: "2026-07-28"

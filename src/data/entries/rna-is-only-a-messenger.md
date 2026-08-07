@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Biochemistry"
 acceptedApproximately: "1950s–early 1980s"
 changedApproximately: "1980s–2000s"
+timelineYear: 1982
 summary: "RNA changed from a passive courier into a catalyst, regulator, structural molecule, and genome defender."
 featured: false
 publishedAt: "2026-07-27"

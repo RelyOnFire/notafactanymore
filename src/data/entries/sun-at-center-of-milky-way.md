@@ -6,6 +6,7 @@ status: "Corrected"
 category: "Astronomy"
 acceptedApproximately: "18th century–1910s"
 changedApproximately: "1910s–1930s"
+timelineYear: 1918
 summary: "Dust-biased star counts placed us near the middle of the Galaxy until globular clusters revealed the true center."
 featured: false
 publishedAt: "2026-07-23"

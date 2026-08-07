@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Psychology"
 acceptedApproximately: "Early–mid-20th century"
 changedApproximately: "1950s–1960s"
+timelineYear: 1960
 summary: "Comfort and security proved to be fundamental attachment needs rather than mere by-products of feeding."
 featured: false
 publishedAt: "2026-07-28"

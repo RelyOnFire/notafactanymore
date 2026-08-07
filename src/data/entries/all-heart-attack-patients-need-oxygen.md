@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Medicine"
 acceptedApproximately: "Early–late 20th century"
 changedApproximately: "2000s–2010s"
+timelineYear: 2017
 summary: "A universal emergency treatment narrowed to patients who are actually short of oxygen."
 featured: false
 publishedAt: "2026-07-28"

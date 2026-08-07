@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Genetics"
 acceptedApproximately: "Late 19th century–early 1900s"
 changedApproximately: "1902–1915"
+timelineYear: 1910
 summary: "Meiosis, linkage, and genetic mapping established chromosomes as the physical carriers of genes."
 featured: false
 publishedAt: "2026-08-06"

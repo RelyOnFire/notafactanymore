@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Ecology"
 acceptedApproximately: "19th–mid-20th century"
 changedApproximately: "Mid–late 20th century"
+timelineYear: 1970
 summary: "A luxuriant forest canopy did not necessarily indicate rich soil beneath it."
 featured: false
 publishedAt: "2026-08-06"

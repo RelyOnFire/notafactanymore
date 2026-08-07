@@ -6,6 +6,7 @@ status: "Reclassified"
 category: "Microbiology"
 acceptedApproximately: "19th century–1970s"
 changedApproximately: "1960s–1980s"
+timelineYear: 1977
 summary: "A photosynthetic 'alga' moved into the bacterial domain when its cellular organization became clear."
 featured: false
 publishedAt: "2026-07-28"

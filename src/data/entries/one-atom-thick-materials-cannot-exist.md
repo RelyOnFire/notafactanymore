@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Materials Science"
 acceptedApproximately: "Mid-20th century–2004"
 changedApproximately: "2004–2010"
+timelineYear: 2004
 summary: "Graphene demonstrated that stable one-atom-thick crystals can be isolated and studied."
 featured: false
 publishedAt: "2026-08-06"

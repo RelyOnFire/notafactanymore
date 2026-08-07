@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Technology"
 acceptedApproximately: "19th–mid-20th century"
 changedApproximately: "1950s–present"
+timelineYear: 1950
 summary: "Forecasting moved from local signs and short warnings to global computer models with multi-day skill."
 featured: false
 publishedAt: "2026-07-28"

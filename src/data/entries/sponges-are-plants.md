@@ -6,6 +6,7 @@ status: "Reclassified"
 category: "Zoology"
 acceptedApproximately: "Antiquity–18th century"
 changedApproximately: "18th–19th centuries"
+timelineYear: 1825
 summary: "Motionless seafloor forms once treated as plants became some of the simplest known animals."
 featured: false
 publishedAt: "2026-07-28"

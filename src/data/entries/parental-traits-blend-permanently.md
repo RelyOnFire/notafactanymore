@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Genetics"
 acceptedApproximately: "Ancient theories through the late 19th century"
 changedApproximately: "1900s–1920s"
+timelineYear: 1900
 summary: "Mendelian genetics replaced the idea that parental inheritance is permanently mixed and diluted."
 featured: false
 publishedAt: "2026-07-27"

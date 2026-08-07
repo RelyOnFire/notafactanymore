@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Earth Science"
 acceptedApproximately: "19th–mid-20th century"
 changedApproximately: "1950s–1960s"
+timelineYear: 1963
 summary: "The supposedly permanent ocean floor turned out to be a young, continuously recycled part of Earth."
 featured: false
 publishedAt: "2026-07-24"

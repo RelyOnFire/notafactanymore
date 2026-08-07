@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Botany"
 acceptedApproximately: "Antiquity–18th century"
 changedApproximately: "Late 18th–19th centuries"
+timelineYear: 1804
 summary: "The bulk of a plant's dry matter proved to come from carbon dioxide in the air, not from disappearing soil."
 featured: false
 publishedAt: "2026-08-06"

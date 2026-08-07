@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Technology"
 acceptedApproximately: "Late 1890s–early 20th century"
 changedApproximately: "1900s–1970s"
+timelineYear: 1940
 summary: "The bone picture expanded into angiography, mammography, fluoroscopy, and three-dimensional CT."
 featured: false
 publishedAt: "2026-07-28"

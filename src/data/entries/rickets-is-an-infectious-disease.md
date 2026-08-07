@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "19th–early 20th century"
 changedApproximately: "1910s–1930s"
+timelineYear: 1919
 summary: "A childhood bone disease blamed on infection became a model of vitamin deficiency and sunlight biology."
 featured: false
 publishedAt: "2026-07-28"

@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Public Health"
 acceptedApproximately: "Early–mid-20th century"
 changedApproximately: "1950s–1964"
+timelineYear: 1950
 summary: "Large epidemiological studies and biological evidence established smoking as the dominant cause of lung cancer."
 featured: false
 publishedAt: "2026-08-06"

@@ -6,6 +6,7 @@ status: "Reclassified"
 category: "Zoology"
 acceptedApproximately: "Antiquity–early 19th century"
 changedApproximately: "1830s–1850s"
+timelineYear: 1851
 summary: "A shell-bound animal mistaken for a mollusk turned out to be a highly modified crustacean."
 featured: false
 publishedAt: "2026-07-28"

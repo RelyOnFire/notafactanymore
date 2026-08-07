@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Measurement"
 acceptedApproximately: "1889–1960"
 changedApproximately: "1960–1983"
+timelineYear: 1960
 summary: "The world's length standard moved from a platinum-iridium bar to a constant of nature."
 featured: false
 publishedAt: "2026-07-28"

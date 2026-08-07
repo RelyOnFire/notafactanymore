@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Classical antiquity–16th century"
 changedApproximately: "1577–17th century"
+timelineYear: 1577
 summary: "Parallax measurements moved comets out of Earth's atmosphere and into the celestial realm."
 featured: false
 publishedAt: "2026-07-17"

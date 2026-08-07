@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Evolution"
 acceptedApproximately: "19th–mid-20th century"
 changedApproximately: "1960s–1990s"
+timelineYear: 1980
 summary: "Microscopic size stopped being treated as evidence that all single-celled life shares one close ancestry."
 featured: false
 publishedAt: "2026-07-28"

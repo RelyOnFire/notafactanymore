@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Physics"
 acceptedApproximately: "Early to late 19th century"
 changedApproximately: "1890s–1930s"
+timelineYear: 1897
 summary: "Experiments showed that atoms are not indivisible but contain electrons, nuclei, and still smaller particles."
 featured: false
 publishedAt: "2026-07-17"

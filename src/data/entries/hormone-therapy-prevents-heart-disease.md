@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Medicine"
 acceptedApproximately: "1980s–2002"
 changedApproximately: "1998–2002"
+timelineYear: 2002
 summary: "Randomized trials overturned routine hormone therapy as cardiovascular prevention while leaving nuanced symptom treatment intact."
 featured: false
 publishedAt: "2026-08-06"

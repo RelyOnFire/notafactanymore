@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Genetics"
 acceptedApproximately: "Competing biological explanation through the early 20th century"
 changedApproximately: "1943–1950s"
+timelineYear: 1943
 summary: "Fluctuation experiments showed that resistant mutants generally existed before the selective challenge."
 featured: false
 publishedAt: "2026-08-06"

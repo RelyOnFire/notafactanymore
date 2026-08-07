@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Antiquity–early 20th century"
 changedApproximately: "1740s–1930s"
+timelineYear: 1840
 summary: "A mysterious disease of sailors became a precisely defined vitamin deficiency."
 featured: false
 publishedAt: "2026-07-28"

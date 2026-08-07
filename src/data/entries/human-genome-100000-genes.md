@@ -6,6 +6,7 @@ status: "Corrected"
 category: "Genetics"
 acceptedApproximately: "1980s–1990s"
 changedApproximately: "2001–2004"
+timelineYear: 2001
 summary: "Genome sequencing reduced the estimated number of human protein-coding genes from around 100,000 to roughly 20,000."
 featured: false
 publishedAt: "2026-07-17"

@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Biology"
 acceptedApproximately: "Classical antiquity through the mid-19th century"
 changedApproximately: "19th–20th centuries"
+timelineYear: 1859
 summary: "The dominant view of immutable, separately created species was replaced by evolutionary common descent and speciation."
 featured: false
 publishedAt: "2026-07-17"

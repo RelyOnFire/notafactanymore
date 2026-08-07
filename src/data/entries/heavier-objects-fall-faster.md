@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Physics"
 acceptedApproximately: "Classical antiquity through the 16th century"
 changedApproximately: "16th–17th centuries"
+timelineYear: 1638
 summary: "The Aristotelian rule that heavier bodies fall proportionally faster was replaced by the universality of free fall."
 featured: false
 publishedAt: "2026-07-17"

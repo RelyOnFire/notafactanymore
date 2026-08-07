@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1920s–1956"
 changedApproximately: "1956–1957"
+timelineYear: 1957
 summary: "A symmetry ranked with the great conservation laws failed when physicists tested radioactive beta decay."
 featured: false
 publishedAt: "2026-07-24"

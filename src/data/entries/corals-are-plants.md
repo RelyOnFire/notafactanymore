@@ -6,6 +6,7 @@ status: "Reclassified"
 category: "Zoology"
 acceptedApproximately: "Antiquity–18th century"
 changedApproximately: "17th–18th centuries"
+timelineYear: 1753
 summary: "Underwater growths that looked like stone plants proved to be colonies of tiny animals."
 featured: false
 publishedAt: "2026-07-28"

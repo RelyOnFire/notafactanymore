@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Antiquity–19th century"
 changedApproximately: "19th–20th centuries"
+timelineYear: 1965
 summary: "Earthquakes moved from subterranean fire and explosions to the sudden rupture of stressed faults."
 featured: false
 publishedAt: "2026-07-28"

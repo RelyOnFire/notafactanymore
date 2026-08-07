@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Public Health"
 acceptedApproximately: "Mid-20th century–1980s"
 changedApproximately: "1980s–2000s"
+timelineYear: 1986
 summary: "Disease in nonsmokers showed that diluted involuntary tobacco smoke is not harmless."
 featured: false
 publishedAt: "2026-08-06"

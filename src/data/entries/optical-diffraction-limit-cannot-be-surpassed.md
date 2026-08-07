@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Measurement"
 acceptedApproximately: "1870s–1990s"
 changedApproximately: "1990s–2000s"
+timelineYear: 1994
 summary: "Super-resolution fluorescence microscopy bypassed the assumptions behind the conventional diffraction limit."
 featured: false
 publishedAt: "2026-08-06"

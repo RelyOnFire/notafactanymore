@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Classical antiquity through the 18th century"
 changedApproximately: "1750s–1780s"
+timelineYear: 1774
 summary: "Experiments with gases broke the ancient element air into a measurable mixture of different substances."
 featured: false
 publishedAt: "2026-07-24"

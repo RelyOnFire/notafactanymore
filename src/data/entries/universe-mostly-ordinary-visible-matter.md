@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Cosmology"
 acceptedApproximately: "Antiquity–early 20th century"
 changedApproximately: "1930s–2000s"
+timelineYear: 1975
 summary: "Stars, planets, gas, and everything made of atoms turned out to represent only a small fraction of the cosmos."
 featured: false
 publishedAt: "2026-07-23"

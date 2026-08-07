@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Early to late 20th century"
 changedApproximately: "1980s–2000s"
+timelineYear: 1984
 summary: "A nearly routine childbirth procedure proved more harmful than a selective approach."
 featured: false
 publishedAt: "2026-07-25"

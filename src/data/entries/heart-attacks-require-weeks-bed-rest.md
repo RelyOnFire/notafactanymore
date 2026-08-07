@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "1910s–1960s"
 changedApproximately: "1950s–1980s"
+timelineYear: 1970
 summary: "Six weeks of enforced inactivity gave way to early movement and structured cardiac rehabilitation."
 featured: false
 publishedAt: "2026-07-25"

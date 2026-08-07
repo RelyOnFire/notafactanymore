@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Genetics"
 acceptedApproximately: "1940s–1950s"
 changedApproximately: "1956–1957"
+timelineYear: 1957
 summary: "Tobacco mosaic virus experiments demonstrated that RNA itself could carry a genome."
 featured: false
 publishedAt: "2026-08-06"

@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Apollo era through the late 1990s"
 changedApproximately: "1990s–2010s"
+timelineYear: 2009
 summary: "The Moon changed from a completely dry world to a very dry world that still contains water and ice."
 featured: false
 publishedAt: "2026-07-17"

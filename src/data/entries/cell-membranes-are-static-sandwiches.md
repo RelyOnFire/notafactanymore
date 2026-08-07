@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Cell Biology"
 acceptedApproximately: "1930s–1960s"
 changedApproximately: "1960s–1972"
+timelineYear: 1972
 summary: "The rigid membrane sandwich gave way to a dynamic fluid mosaic of lipids and embedded proteins."
 featured: false
 publishedAt: "2026-08-06"

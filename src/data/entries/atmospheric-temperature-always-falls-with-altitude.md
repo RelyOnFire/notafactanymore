@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Atmospheric Science"
 acceptedApproximately: "19th century–1902"
 changedApproximately: "1902–1930s"
+timelineYear: 1919
 summary: "High-altitude balloons found a temperature reversal and revealed the stratosphere."
 featured: false
 publishedAt: "2026-08-06"

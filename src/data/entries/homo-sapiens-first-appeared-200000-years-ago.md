@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Human Evolution"
 acceptedApproximately: "Late 20th century–2017"
 changedApproximately: "2017–present"
+timelineYear: 2017
 summary: "Older North African fossils moved the emergence of Homo sapiens back toward 300,000 years and broadened its geography."
 featured: false
 publishedAt: "2026-08-06"

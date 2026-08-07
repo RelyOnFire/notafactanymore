@@ -6,6 +6,7 @@ status: "Reclassified"
 category: "Astronomy"
 acceptedApproximately: "Late 1950s–early 1960s"
 changedApproximately: "1963 onward"
+timelineYear: 1963
 summary: "Star-like points of light turned out to be the brilliant nuclei of distant galaxies."
 featured: false
 publishedAt: "2026-07-23"

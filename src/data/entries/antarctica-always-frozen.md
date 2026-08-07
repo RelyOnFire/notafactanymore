@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Paleoclimate"
 acceptedApproximately: "Before extensive Antarctic geological exploration"
 changedApproximately: "20th century–present"
+timelineYear: 1984
 summary: "Fossils beneath Antarctica's modern ice revealed forests and warm polar ecosystems from its past."
 featured: false
 publishedAt: "2026-07-24"

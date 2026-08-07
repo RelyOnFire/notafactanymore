@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Physics"
 acceptedApproximately: "Antiquity–17th century"
 changedApproximately: "1676–19th century"
+timelineYear: 1676
 summary: "Astronomical timing exposed a measurable travel time for light across the Solar System."
 featured: false
 publishedAt: "2026-08-06"

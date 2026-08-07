@@ -6,6 +6,7 @@ status: "Reclassified"
 category: "Biology"
 acceptedApproximately: "Antiquity–mid-19th century"
 changedApproximately: "1860s–present"
+timelineYear: 1867
 summary: "A seemingly single organism became a partnership between fungi, photosynthetic cells, and other microbes."
 featured: false
 publishedAt: "2026-07-28"

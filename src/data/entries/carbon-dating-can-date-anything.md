@@ -6,6 +6,7 @@ status: "Narrowed"
 category: "Measurement"
 acceptedApproximately: "Popular interpretation after the late 1940s"
 changedApproximately: "1950s–present"
+timelineYear: 1955
 summary: "A revolutionary dating clock became a specialized method with clear material and age limits."
 featured: false
 publishedAt: "2026-07-28"

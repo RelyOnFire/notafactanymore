@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Neuroscience"
 acceptedApproximately: "1940s–1990s"
 changedApproximately: "1980s–present"
+timelineYear: 1990
 summary: "A simple blood-vessel explanation gave way to a broader neurological and neurovascular model."
 featured: false
 publishedAt: "2026-07-25"

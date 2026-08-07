@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Ocean Science"
 acceptedApproximately: "Mid-20th century–1995"
 changedApproximately: "1995–2000s"
+timelineYear: 1995
 summary: "Instrumental measurements confirmed ocean waves once dismissed as implausible sailors' tales."
 featured: false
 publishedAt: "2026-08-06"

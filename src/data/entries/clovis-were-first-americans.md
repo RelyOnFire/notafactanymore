@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Archaeology"
 acceptedApproximately: "1930s–1990s"
 changedApproximately: "1990s–present"
+timelineYear: 1997
 summary: "Evidence for earlier sites replaced the Clovis-first model of the peopling of the Americas."
 featured: false
 publishedAt: "2026-07-17"

@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Ocean Science"
 acceptedApproximately: "Dominant public and early scientific picture through much of the 20th century"
 changedApproximately: "19th century–present"
+timelineYear: 1872
 summary: "Deep exploration revealed abundant coral ecosystems in cold water far beyond the reach of sunlight."
 featured: false
 publishedAt: "2026-07-24"

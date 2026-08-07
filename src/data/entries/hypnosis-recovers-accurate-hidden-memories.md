@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Psychology"
 acceptedApproximately: "Late 19th–late 20th century"
 changedApproximately: "1970s–1990s"
+timelineYear: 1985
 summary: "Hypnosis can make recollections feel vivid and certain without making them reliably accurate."
 featured: false
 publishedAt: "2026-07-28"

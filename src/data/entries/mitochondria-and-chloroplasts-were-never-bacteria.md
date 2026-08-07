@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Evolution"
 acceptedApproximately: "Dominant cell-biological view through much of the 20th century"
 changedApproximately: "1960s–1980s"
+timelineYear: 1967
 summary: "Two essential cell structures turned out to be descendants of once-independent bacteria."
 featured: false
 publishedAt: "2026-07-27"

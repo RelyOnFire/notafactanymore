@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Ecology"
 acceptedApproximately: "19th–mid-20th century"
 changedApproximately: "1960s–1980s"
+timelineYear: 1966
 summary: "Some predators proved to hold entire communities together rather than simply subtracting prey."
 featured: false
 publishedAt: "2026-08-06"

@@ -6,6 +6,7 @@ status: "Superseded"
 category: "Chemistry"
 acceptedApproximately: "Late 18th–19th century"
 changedApproximately: "Late 19th–20th century"
+timelineYear: 1920
 summary: "Oxidation expanded from a reaction with oxygen into the more general loss of electrons."
 featured: false
 publishedAt: "2026-07-24"

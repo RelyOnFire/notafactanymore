@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Antiquity through the early 20th century"
 changedApproximately: "20th century"
+timelineYear: 1904
 summary: "The apparent void between stars proved to contain a thin but important interstellar medium."
 featured: false
 publishedAt: "2026-07-23"

@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Early to mid-19th century"
 changedApproximately: "1850s–1880s"
+timelineYear: 1854
 summary: "The miasma explanation for cholera was replaced by evidence that the disease spreads primarily through water or food contaminated with Vibrio cholerae."
 featured: false
 publishedAt: "2026-07-17"

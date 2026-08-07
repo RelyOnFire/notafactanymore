@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Physics"
 acceptedApproximately: "Antiquity through the 17th century"
 changedApproximately: "17th–18th centuries"
+timelineYear: 1644
 summary: "Air stopped being treated as weightless once experiments showed that it has mass and produces pressure."
 featured: false
 publishedAt: "2026-07-24"

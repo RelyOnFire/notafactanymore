@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "19th century–early 1990s"
 changedApproximately: "1994"
+timelineYear: 1993
 summary: "The discovery of Dactyl around asteroid Ida showed that even small asteroids can have moons."
 featured: false
 publishedAt: "2026-07-23"

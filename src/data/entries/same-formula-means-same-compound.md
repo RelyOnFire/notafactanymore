@@ -6,6 +6,7 @@ status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Late 18th century–1820s"
 changedApproximately: "1820s–1830s"
+timelineYear: 1828
 summary: "Isomerism showed that composition alone does not determine a compound; molecular structure matters."
 featured: false
 publishedAt: "2026-08-06"

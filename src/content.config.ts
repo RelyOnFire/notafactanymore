@@ -12,6 +12,13 @@ const entries = defineCollection({
     category: z.string(),
     acceptedApproximately: z.string(),
     changedApproximately: z.string(),
+
+    // Representative year used only for chronological sorting/grouping.
+    // Keep changedApproximately as the human-readable historical label.
+    // Optional during the migration of the existing catalogue; once every
+    // entry has been reviewed this can become required.
+    timelineYear: z.number().int().optional(),
+
     summary: z.string(),
     featured: z.boolean().default(false),
     featuredOrder: z.number().int().positive().optional(),

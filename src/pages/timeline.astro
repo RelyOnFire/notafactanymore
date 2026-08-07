@@ -856,6 +856,11 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
   }
 
   @media (max-width: 760px) {
+    .timeline-controls {
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+    }
+  
     .timeline-head {
       padding-top: 3rem;
     }

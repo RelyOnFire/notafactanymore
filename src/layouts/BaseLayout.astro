@@ -1,5 +1,6 @@
 ---
 import { siteConfig } from '../site-config';
+import BackToTop from '../components/BackToTop.astro';
 
 interface Props {
   title?: string;
@@ -86,6 +87,8 @@ const socialImageURL = new URL(image, siteURL);
     <main>
       <slot />
     </main>
+
+    <BackToTop />
 
     <footer>
       <p>

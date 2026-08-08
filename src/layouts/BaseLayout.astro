@@ -27,6 +27,15 @@ const pageTitle =
 
 const siteURL = Astro.site ?? new URL('https://notafactanymore.com');
 
+const websiteJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Not a Fact Anymore',
+  alternateName: 'notafactanymore.com',
+  url: 'https://notafactanymore.com/',
+  description: siteConfig.description,
+};
+
 const pageURL = canonicalURL
   ? new URL(canonicalURL.toString(), siteURL)
   : new URL(Astro.url.pathname, siteURL);
@@ -40,6 +49,13 @@ const socialImageURL = new URL(image, siteURL);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
+
+    {Astro.url.pathname === '/' && (
+      <script
+        type="application/ld+json"
+        set:html={JSON.stringify(websiteJsonLd)}
+      />
+    )}
 
     {noindex && <meta name="robots" content="noindex, nofollow" />}
 

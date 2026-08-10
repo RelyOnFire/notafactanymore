@@ -31,6 +31,23 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     </p>
   </header>
 
+  <section class="school-context container" hidden>
+    <div class="school-context-inner">
+      <div>
+        <p class="eyebrow">Your scientific timeline</p>
+        <h2 class="school-context-title"></h2>
+        <p class="school-context-copy">
+          These entries changed from the year you started school onward. That
+          does not necessarily mean you were taught the earlier view: scientific
+          acceptance, textbooks, curricula, and classroom teaching do not
+          always change at the same time.
+        </p>
+      </div>
+
+      <button class="clear-since" type="button">Show the full timeline</button>
+    </div>
+  </section>
+
   <section class="timeline-controls" aria-label="Timeline controls">
     <div class="container controls-inner">
       <label class="search-field">
@@ -209,10 +226,14 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     const activeFilterChips = document.querySelector<HTMLElement>('.active-filter-chips');
     const resultsSummary = document.querySelector<HTMLElement>('.results-summary');
     const emptyState = document.querySelector<HTMLElement>('.empty-state');
+    const schoolContext = document.querySelector<HTMLElement>('.school-context');
+    const schoolContextTitle = document.querySelector<HTMLElement>('.school-context-title');
+    const clearSinceButton = document.querySelector<HTMLButtonElement>('.clear-since');
 
     const selectedCategories = new Set<string>();
     const selectedStatuses = new Set<string>();
     let direction: 'newest' | 'oldest' = 'newest';
+    let sinceYear: number | null = null;
 
     const allEntries = () => Array.from(
       document.querySelectorAll<HTMLElement>('.timeline-entry')
@@ -232,6 +253,9 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
 
       if (search) url.searchParams.set('q', search);
       else url.searchParams.delete('q');
+
+      if (sinceYear !== null) url.searchParams.set('since', String(sinceYear));
+      else url.searchParams.delete('since');
 
       if (direction === 'oldest') url.searchParams.set('direction', 'oldest');
       else url.searchParams.delete('direction');
@@ -354,7 +378,9 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
           selectedStatuses.size === 0 || selectedStatuses.has(entry.dataset.status ?? '');
 
         const searchMatch = !query || (entry.dataset.search ?? '').includes(query);
-        const visible = categoryMatch && statusMatch && searchMatch;
+        const year = Number(entry.dataset.year ?? 0);
+        const sinceMatch = sinceYear === null || year >= sinceYear;
+        const visible = categoryMatch && statusMatch && searchMatch && sinceMatch;
 
         entry.hidden = !visible;
         if (visible) visibleCount += 1;
@@ -382,12 +408,29 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
       const hasFilters =
         selectedCategories.size > 0 ||
         selectedStatuses.size > 0 ||
-        query.length > 0;
+        query.length > 0 ||
+        sinceYear !== null;
 
       if (resultsSummary) {
-        resultsSummary.textContent = hasFilters
-          ? `Showing ${visibleCount} of ${allEntries().length} ${visibleCount === 1 ? 'entry' : 'entries'}`
-          : `Showing all ${allEntries().length} entries`;
+        if (sinceYear !== null) {
+          resultsSummary.textContent =
+            `Showing ${visibleCount} ${visibleCount === 1 ? 'entry' : 'entries'} changed since ${sinceYear}`;
+        } else if (hasFilters) {
+          resultsSummary.textContent =
+            `Showing ${visibleCount} of ${allEntries().length} ${visibleCount === 1 ? 'entry' : 'entries'}`;
+        } else {
+          resultsSummary.textContent = `Showing all ${allEntries().length} entries`;
+        }
+      }
+
+      if (schoolContext && schoolContextTitle) {
+        if (sinceYear !== null) {
+          schoolContext.hidden = false;
+          schoolContextTitle.textContent =
+            `What changed since you started school in ${sinceYear}?`;
+        } else {
+          schoolContext.hidden = true;
+        }
       }
 
       if (applyButton) {
@@ -436,6 +479,11 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     applyButton?.addEventListener('click', () => closeFilters());
     clearButtons.forEach((button) => button.addEventListener('click', clearFilters));
 
+    clearSinceButton?.addEventListener('click', () => {
+      sinceYear = null;
+      updateDisplay();
+    });
+
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && filterPanel && !filterPanel.hidden) closeFilters();
     });
@@ -453,6 +501,20 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
 
     readList('categories', selectedCategories);
     readList('statuses', selectedStatuses);
+
+    const rawSince = url.searchParams.get('since');
+    if (rawSince) {
+      const parsedSince = Number(rawSince);
+      const currentYear = new Date().getFullYear();
+
+      if (
+        Number.isInteger(parsedSince) &&
+        parsedSince >= 1900 &&
+        parsedSince <= currentYear
+      ) {
+        sinceYear = parsedSince;
+      }
+    }
 
     if (searchInput) searchInput.value = url.searchParams.get('q') ?? '';
 
@@ -476,6 +538,53 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
   .timeline-intro {
     font-size: 1.2rem;
     color: var(--muted);
+  }
+
+  .school-context {
+    padding-bottom: 2.5rem;
+  }
+
+  .school-context[hidden] {
+    display: none;
+  }
+
+  .school-context-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: clamp(1.4rem, 4vw, 2rem);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--accent);
+    background: var(--card);
+  }
+
+  .school-context h2 {
+    margin: 0.15rem 0 0.55rem;
+    font-size: clamp(1.5rem, 3vw, 2.15rem);
+  }
+
+  .school-context-copy {
+    max-width: 68ch;
+    margin: 0;
+    color: var(--muted);
+  }
+
+  .clear-since {
+    flex: 0 0 auto;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.6rem 0.9rem;
+    color: var(--ink);
+    background: var(--paper);
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .clear-since:hover {
+    border-color: var(--accent-dark);
+    color: var(--accent-dark);
   }
 
   .sr-only {
@@ -856,6 +965,11 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
   }
 
   @media (max-width: 760px) {
+    .school-context-inner {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
     .timeline-controls {
       backdrop-filter: none;
       -webkit-backdrop-filter: none;

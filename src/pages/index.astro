@@ -130,6 +130,8 @@ const timelineTeaser = timelineTeaserIds
   .map((id) => entries.find((entry) => entry.id === id))
   .filter((entry): entry is (typeof entries)[number] => Boolean(entry))
   .sort((a, b) => a.data.timelineYear - b.data.timelineYear);
+
+const currentYear = new Date().getFullYear();
 ---
 <BaseLayout>
   <section class="hero container">
@@ -170,6 +172,37 @@ const timelineTeaser = timelineTeaserIds
         understanding is backed by stronger evidence.
       </p>
       <strong>Being wrong is not the failure. Refusing to update is.</strong>
+    </div>
+  </section>
+
+  <section class="school-feature">
+    <div class="container school-feature-inner">
+      <div class="school-feature-copy">
+        <p class="eyebrow">Your scientific timeline</p>
+        <h2>What changed since you started school?</h2>
+        <p>
+          See which parts of the scientific record changed during or after
+          your education.
+        </p>
+      </div>
+
+      <form class="school-form" action="/timeline" method="get">
+        <label for="school-year">I started school in</label>
+        <div class="school-form-row">
+          <input
+            id="school-year"
+            name="since"
+            type="number"
+            min="1900"
+            max={currentYear}
+            placeholder="1994"
+            inputmode="numeric"
+            required
+          />
+          <input type="hidden" name="direction" value="oldest" />
+          <button type="submit">See what changed →</button>
+        </div>
+      </form>
     </div>
   </section>
 
@@ -304,6 +337,82 @@ const timelineTeaser = timelineTeaserIds
     font-size: 1.35rem;
   }
 
+  .school-feature {
+    padding: 4rem 0;
+    border-bottom: 1px solid var(--line);
+    background: var(--card);
+  }
+
+  .school-feature-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 0.8fr);
+    gap: clamp(2rem, 6vw, 5rem);
+    align-items: center;
+  }
+
+  .school-feature-copy h2 {
+    margin: 0.2rem 0 0.75rem;
+  }
+
+  .school-feature-copy p:last-child {
+    max-width: 48rem;
+    margin-bottom: 0;
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
+
+  .school-form {
+    padding: 1.4rem;
+    border: 1px solid var(--line);
+    background: var(--paper);
+  }
+
+  .school-form label {
+    display: block;
+    margin-bottom: 0.55rem;
+    font-weight: 850;
+  }
+
+  .school-form-row {
+    display: flex;
+    gap: 0.65rem;
+  }
+
+  .school-form input[type="number"] {
+    min-width: 0;
+    width: 8rem;
+    min-height: 3rem;
+    border: 1px solid var(--line);
+    border-radius: 0.55rem;
+    padding: 0.65rem 0.75rem;
+    color: var(--ink);
+    background: var(--card);
+    font: inherit;
+    font-size: 1.05rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .school-form input[type="number"]:focus {
+    outline: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
+    border-color: var(--accent-dark);
+  }
+
+  .school-form button {
+    min-height: 3rem;
+    border: 0;
+    border-radius: 0.55rem;
+    padding: 0.65rem 1rem;
+    color: white;
+    background: var(--ink);
+    font: inherit;
+    font-weight: 850;
+    cursor: pointer;
+  }
+
+  .school-form button:hover {
+    background: var(--accent-dark);
+  }
+
   .featured {
     padding: 5rem 0;
   }
@@ -411,6 +520,10 @@ const timelineTeaser = timelineTeaserIds
   }
 
   @media (max-width: 900px) {
+    .school-feature-inner {
+      grid-template-columns: 1fr;
+    }
+
     .hero {
       grid-template-columns: 1fr;
       grid-template-areas:
@@ -472,6 +585,15 @@ const timelineTeaser = timelineTeaserIds
   }
 
   @media (max-width: 520px) {
+    .school-form-row {
+      align-items: stretch;
+      flex-direction: column;
+    }
+
+    .school-form input[type="number"] {
+      width: 100%;
+    }
+
     .hero {
       padding-top: 2.5rem;
     }

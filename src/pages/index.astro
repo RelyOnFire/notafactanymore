@@ -206,20 +206,6 @@ const currentYear = new Date().getFullYear();
     </div>
   </section>
 
-  <section class="container featured">
-    <div class="section-heading">
-      <div>
-        <p class="eyebrow">Featured entries</p>
-        <h2>Clear examples of knowledge updating</h2>
-      </div>
-      <a href="/browse">View all entries →</a>
-    </div>
-
-    <div class="cards">
-      {featured.map((entry) => <FactCard entry={entry} expanded />)}
-    </div>
-  </section>
-
   <section class="timeline-preview">
     <div class="container">
       <div class="section-heading">
@@ -243,6 +229,20 @@ const currentYear = new Date().getFullYear();
           </a>
         ))}
       </div>
+    </div>
+  </section>
+
+  <section class="container featured">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Featured entries</p>
+        <h2>Clear examples of knowledge updating</h2>
+      </div>
+      <a href="/browse">View all entries →</a>
+    </div>
+
+    <div class="cards">
+      {featured.map((entry) => <FactCard entry={entry} expanded />)}
     </div>
   </section>
 

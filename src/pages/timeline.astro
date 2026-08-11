@@ -366,6 +366,40 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
       });
     };
 
+    const updateFilterCounts = (query: string) => {
+      const entries = allEntries();
+
+      filterButtons.forEach((button) => {
+        const type = button.dataset.filterType;
+        const value = button.dataset.filterValue ?? '';
+
+        if (!value || (type !== 'category' && type !== 'status')) return;
+
+        const count = entries.filter((entry) => {
+          const year = Number(entry.dataset.year ?? 0);
+          const sinceMatch = sinceYear === null || year >= sinceYear;
+          const searchMatch = !query || (entry.dataset.search ?? '').includes(query);
+
+          const categoryMatch =
+            type === 'category'
+              ? entry.dataset.category === value
+              : selectedCategories.size === 0 ||
+                selectedCategories.has(entry.dataset.category ?? '');
+
+          const statusMatch =
+            type === 'status'
+              ? entry.dataset.status === value
+              : selectedStatuses.size === 0 ||
+                selectedStatuses.has(entry.dataset.status ?? '');
+
+          return sinceMatch && searchMatch && categoryMatch && statusMatch;
+        }).length;
+
+        const countElement = button.querySelector<HTMLElement>('.count');
+        if (countElement) countElement.textContent = String(count);
+      });
+    };
+
     const updateDisplay = () => {
       const query = searchInput?.value.trim().toLowerCase() ?? '';
       let visibleCount = 0;
@@ -404,6 +438,8 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
         button.classList.toggle('is-active', active);
         button.setAttribute('aria-pressed', String(active));
       });
+
+      updateFilterCounts(query);
 
       const hasFilters =
         selectedCategories.size > 0 ||

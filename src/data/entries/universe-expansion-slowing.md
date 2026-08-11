@@ -8,8 +8,7 @@ acceptedApproximately: "Mid-20th century to 1998"
 changedApproximately: "1998"
 timelineYear: 1998
 summary: "Distant-supernova observations unexpectedly showed that cosmic expansion is accelerating rather than slowing."
-featured: true
-featuredOrder: 4
+featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
 sources:

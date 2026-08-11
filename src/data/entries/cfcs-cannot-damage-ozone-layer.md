@@ -8,7 +8,8 @@ acceptedApproximately: "1930s–1970s"
 changedApproximately: "1974–1980s"
 timelineYear: 1974
 summary: "CFC stability allowed the chemicals to reach the stratosphere, where sunlight released ozone-destroying chlorine."
-featured: false
+featured: true
+featuredOrder: 5
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-06"
 sources:

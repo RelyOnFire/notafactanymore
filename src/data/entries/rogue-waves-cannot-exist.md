@@ -9,6 +9,7 @@ changedApproximately: "1995–2000s"
 timelineYear: 1995
 summary: "Instrumental measurements confirmed ocean waves once dismissed as implausible sailors' tales."
 featured: false
+featuredOrder: 4
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-06"
 sources:

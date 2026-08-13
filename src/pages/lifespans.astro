@@ -68,6 +68,10 @@ const categoryStats = categories
   })
   .sort((a, b) => a.median - b.median || a.category.localeCompare(b.category));
 
+const comparisonCategoryStats = [...categoryStats].sort((a, b) =>
+  a.category.localeCompare(b.category),
+);
+
 const lifespanBands = [
   { key: 'under25', label: '<25 years', test: (years: number) => years < 25 },
   { key: '25to49', label: '25–49 years', test: (years: number) => years >= 25 && years < 50 },
@@ -99,17 +103,25 @@ const centuryStats = centuries.map((century) => {
   };
 });
 
-const medicine = categoryStats.find((item) => item.category === 'Medicine');
-const astronomy = categoryStats.find((item) => item.category === 'Astronomy');
+const defaultComparisonA =
+  categoryStats.find((item) => item.category === 'Medicine') ?? categoryStats[0];
 
-const comparisonDifference =
-  medicine && astronomy ? Math.abs(medicine.median - astronomy.median) : 0;
+const defaultComparisonB =
+  categoryStats.find((item) => item.category === 'Astronomy') ??
+  categoryStats.find((item) => item.category !== defaultComparisonA?.category);
 
-const shorterComparison =
-  medicine && astronomy
-    ? medicine.median === astronomy.median
+const comparisonReady = Boolean(defaultComparisonA && defaultComparisonB);
+
+const formatCategoryDetail = (item: (typeof categoryStats)[number]) =>
+  item.count === 1
+    ? '1 entry · observed range not shown'
+    : `${item.count} entries · range ${formatApproxYears(item.min)} to ${formatApproxYears(item.max)}`;
+
+const initialComparisonResult =
+  defaultComparisonA && defaultComparisonB
+    ? defaultComparisonA.median === defaultComparisonB.median
       ? 'Their medians are the same in this catalogue.'
-      : `${medicine.median < astronomy.median ? 'Medicine' : 'Astronomy'} is ${formatApproxYears(comparisonDifference)} shorter at the median in this catalogue.`
+      : `${defaultComparisonA.median < defaultComparisonB.median ? defaultComparisonA.category : defaultComparisonB.category} is ${formatApproxYears(Math.abs(defaultComparisonA.median - defaultComparisonB.median))} shorter at the median in this catalogue.`
     : '';
 
 const DISPLAY_CAP = 250;
@@ -214,33 +226,71 @@ const DISPLAY_CAP = 250;
     </div>
   </section>
 
-  {medicine && astronomy && (
+  {comparisonReady && defaultComparisonA && defaultComparisonB && (
     <section class="comparison-section">
       <div class="container">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">A requested comparison</p>
-            <h2>Medicine vs Astronomy</h2>
+            <p class="eyebrow">Compare categories</p>
+            <h2 class="comparison-heading">{defaultComparisonA.category} vs {defaultComparisonB.category}</h2>
             <p class="section-intro">
-              A descriptive comparison of the entries currently in this catalogue.
+              Choose any two subjects to compare their entries in this catalogue.
             </p>
           </div>
         </div>
 
+        <div class="comparison-controls" aria-label="Category comparison controls">
+          <label>
+            <span>First category</span>
+            <select class="comparison-select comparison-select-a">
+              {comparisonCategoryStats.map((item) => (
+                <option
+                  value={item.category}
+                  selected={item.category === defaultComparisonA.category}
+                  data-count={item.count}
+                  data-median={item.median}
+                  data-min={item.min}
+                  data-max={item.max}
+                >
+                  {item.category}
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label>
+            <span>Second category</span>
+            <select class="comparison-select comparison-select-b">
+              {comparisonCategoryStats.map((item) => (
+                <option
+                  value={item.category}
+                  selected={item.category === defaultComparisonB.category}
+                  data-count={item.count}
+                  data-median={item.median}
+                  data-min={item.min}
+                  data-max={item.max}
+                >
+                  {item.category}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
+
         <div class="comparison-grid">
-          <article>
-            <span>Medicine</span>
-            <strong>{formatApproxYears(medicine.median)}</strong>
-            <small>{medicine.count} entries · range {formatApproxYears(medicine.min)} to {formatApproxYears(medicine.max)}</small>
+          <article class="comparison-card-a">
+            <span class="comparison-category">{defaultComparisonA.category}</span>
+            <strong class="comparison-median">{formatApproxYears(defaultComparisonA.median)}</strong>
+            <small class="comparison-detail">{formatCategoryDetail(defaultComparisonA)}</small>
           </article>
-          <article>
-            <span>Astronomy</span>
-            <strong>{formatApproxYears(astronomy.median)}</strong>
-            <small>{astronomy.count} entries · range {formatApproxYears(astronomy.min)} to {formatApproxYears(astronomy.max)}</small>
+          <article class="comparison-card-b">
+            <span class="comparison-category">{defaultComparisonB.category}</span>
+            <strong class="comparison-median">{formatApproxYears(defaultComparisonB.median)}</strong>
+            <small class="comparison-detail">{formatCategoryDetail(defaultComparisonB)}</small>
           </article>
         </div>
 
-        <p class="comparison-result">{shorterComparison}</p>
+        <p class="comparison-result" aria-live="polite">{initialComparisonResult}</p>
       </div>
     </section>
   )}
@@ -274,7 +324,11 @@ const DISPLAY_CAP = 250;
               <th scope="row">{item.category}</th>
               <td>{item.count}</td>
               <td>{formatApproxYears(item.median)}</td>
-              <td>{formatApproxYears(item.min)} – {formatApproxYears(item.max)}</td>
+              <td>
+                {item.count === 1
+                  ? <span class="range-unavailable" title="Observed range requires at least two entries" aria-label="Observed range unavailable">—</span>
+                  : <>{formatApproxYears(item.min)} – {formatApproxYears(item.max)}</>}
+              </td>
             </tr>
           ))}
         </tbody>
@@ -469,6 +523,105 @@ const DISPLAY_CAP = 250;
   </section>
 
   <script>
+    const comparisonSelectA = document.querySelector<HTMLSelectElement>('.comparison-select-a');
+    const comparisonSelectB = document.querySelector<HTMLSelectElement>('.comparison-select-b');
+    const comparisonHeading = document.querySelector<HTMLElement>('.comparison-heading');
+    const comparisonCardA = document.querySelector<HTMLElement>('.comparison-card-a');
+    const comparisonCardB = document.querySelector<HTMLElement>('.comparison-card-b');
+    const comparisonResult = document.querySelector<HTMLElement>('.comparison-result');
+
+    type ComparisonStat = {
+      category: string;
+      count: number;
+      median: number;
+      min: number;
+      max: number;
+    };
+
+    const formatApproxYearsClient = (years: number) => {
+      const rounded = Number.isInteger(years) ? years : Math.round(years * 10) / 10;
+      return `≈${rounded.toLocaleString('en-US')} ${rounded === 1 ? 'year' : 'years'}`;
+    };
+
+    const getComparisonStat = (select: HTMLSelectElement): ComparisonStat | null => {
+      const option = select.options[select.selectedIndex];
+      if (!option) return null;
+
+      return {
+        category: option.value,
+        count: Number(option.dataset.count ?? 0),
+        median: Number(option.dataset.median ?? 0),
+        min: Number(option.dataset.min ?? 0),
+        max: Number(option.dataset.max ?? 0),
+      };
+    };
+
+    const formatComparisonDetail = (stat: ComparisonStat) =>
+      stat.count === 1
+        ? '1 entry · observed range not shown'
+        : `${stat.count} entries · range ${formatApproxYearsClient(stat.min)} to ${formatApproxYearsClient(stat.max)}`;
+
+    const updateComparisonCard = (card: HTMLElement | null, stat: ComparisonStat) => {
+      if (!card) return;
+
+      const category = card.querySelector<HTMLElement>('.comparison-category');
+      const medianValue = card.querySelector<HTMLElement>('.comparison-median');
+      const detail = card.querySelector<HTMLElement>('.comparison-detail');
+
+      if (category) category.textContent = stat.category;
+      if (medianValue) medianValue.textContent = formatApproxYearsClient(stat.median);
+      if (detail) detail.textContent = formatComparisonDetail(stat);
+    };
+
+    const keepComparisonDistinct = (
+      changed: HTMLSelectElement,
+      other: HTMLSelectElement,
+    ) => {
+      if (changed.value !== other.value) return;
+
+      const replacement = [...other.options].find(
+        (option) => option.value !== changed.value,
+      );
+
+      if (replacement) other.value = replacement.value;
+    };
+
+    const updateComparison = () => {
+      if (!comparisonSelectA || !comparisonSelectB) return;
+
+      const statA = getComparisonStat(comparisonSelectA);
+      const statB = getComparisonStat(comparisonSelectB);
+      if (!statA || !statB) return;
+
+      if (comparisonHeading) {
+        comparisonHeading.textContent = `${statA.category} vs ${statB.category}`;
+      }
+
+      updateComparisonCard(comparisonCardA, statA);
+      updateComparisonCard(comparisonCardB, statB);
+
+      if (comparisonResult) {
+        if (statA.median === statB.median) {
+          comparisonResult.textContent = 'Their medians are the same in this catalogue.';
+        } else {
+          const shorter = statA.median < statB.median ? statA : statB;
+          const difference = Math.abs(statA.median - statB.median);
+          comparisonResult.textContent =
+            `${shorter.category} is ${formatApproxYearsClient(difference)} shorter at the median in this catalogue.`;
+        }
+      }
+    };
+
+    comparisonSelectA?.addEventListener('change', () => {
+      if (comparisonSelectB) keepComparisonDistinct(comparisonSelectA, comparisonSelectB);
+      updateComparison();
+    });
+
+    comparisonSelectB?.addEventListener('change', () => {
+      if (comparisonSelectA) keepComparisonDistinct(comparisonSelectB, comparisonSelectA);
+      updateComparison();
+    });
+
     const searchInput = document.querySelector<HTMLInputElement>('.lifespan-search');
     const categorySelect = document.querySelector<HTMLSelectElement>('.category-select');
     const statusSelect = document.querySelector<HTMLSelectElement>('.status-select');
@@ -795,9 +948,52 @@ const DISPLAY_CAP = 250;
     max-width: 48rem;
   }
 
+  .comparison-controls {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    max-width: 48rem;
+    margin-bottom: 1rem;
+  }
+
+  .comparison-controls label {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+  }
+
+  .comparison-controls label > span {
+    color: var(--muted);
+    font-size: .78rem;
+    font-weight: 850;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+
+  .comparison-select {
+    width: 100%;
+    min-height: 2.75rem;
+    border: 1px solid var(--line);
+    border-radius: .6rem;
+    padding: .6rem .75rem;
+    color: var(--ink);
+    background: var(--paper);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .comparison-select:focus {
+    outline: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
+    border-color: var(--accent-dark);
+  }
+
   .comparison-result {
     max-width: 48rem;
     margin: 1rem 0 0;
+    color: var(--muted);
+  }
+
+  .range-unavailable {
     color: var(--muted);
   }
 
@@ -1110,6 +1306,7 @@ const DISPLAY_CAP = 250;
     }
 
     .extreme-columns,
+    .comparison-controls,
     .comparison-grid,
     .stats-grid,
     .lifespan-controls {

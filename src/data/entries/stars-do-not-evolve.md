@@ -1,16 +1,18 @@
 ---
-claim: "Stars are permanent celestial objects that do not undergo life cycles."
-currentUnderstanding: "Stars form from collapsing gas, spend finite periods producing energy through nuclear fusion, and change as their fuel and internal structure evolve. Their final states depend strongly on mass and composition."
-whyItChanged: "Ancient and early modern astronomy treated the stellar realm as essentially unchanging. Novae, variable stars, thermodynamics, spectroscopy, star clusters, nuclear physics, and the Hertzsprung–Russell diagram gradually connected different stellar classes into evolutionary sequences."
+claim: "Stars can be treated as essentially fixed stellar types rather than objects passing through connected evolutionary stages."
+currentUnderstanding: "Stars form, change structure and luminosity over time, and end in mass-dependent final states. Stellar classes occupy different stages and tracks of stellar evolution rather than being permanently fixed kinds."
+whyItChanged: "Nineteenth-century thermodynamics and spectroscopy showed that stars are physical objects with finite energy sources. The Hertzsprung–Russell diagram, stellar-structure theory, cluster observations, and nuclear physics then connected stellar properties to evolutionary sequences."
 status: "Superseded"
 category: "Astronomy"
-acceptedApproximately: "Antiquity–19th century"
-changedApproximately: "19th century–mid-20th century"
-timelineYear: 1938
-summary: "Stellar physics turned permanent points of light into objects that form, age, transform, and die."
+acceptedApproximately: "Before modern stellar-structure and evolutionary astronomy"
+acceptedYear: 1850
+changedApproximately: "Late 19th–mid-20th century"
+timelineYear: 1913
+lifespanComparable: false
+summary: "Stellar types became stages and tracks in an evolving physical population rather than permanent kinds."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-13"
 sources:
   - title: "The Life Cycles of Stars"
     url: "https://science.nasa.gov/universe/stars/"

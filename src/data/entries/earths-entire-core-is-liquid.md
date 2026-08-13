@@ -5,6 +5,7 @@ whyItChanged: "The disappearance of direct shear waves through the core establis
 status: "Narrowed"
 category: "Earth Science"
 acceptedApproximately: "Early 20th century–1936"
+acceptedYear: 1915
 changedApproximately: "1936–1970s"
 timelineYear: 1936
 summary: "Subtle seismic arrivals revealed a solid inner core inside Earth's liquid outer core."

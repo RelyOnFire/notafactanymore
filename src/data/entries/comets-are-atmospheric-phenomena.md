@@ -5,12 +5,14 @@ whyItChanged: "Tycho Brahe measured the Great Comet of 1577 and found no detecta
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Classical antiquity–16th century"
+acceptedYear: -350
 changedApproximately: "1577–17th century"
 timelineYear: 1577
+lifespanComparable: true
 summary: "Parallax measurements moved comets out of Earth's atmosphere and into the celestial realm."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Tycho Brahe Measures the Sky"
     url: "https://apod.nasa.gov/apod/ap960915.html"

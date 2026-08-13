@@ -5,6 +5,7 @@ whyItChanged: "Careful experiments failed to detect Earth's motion through the p
 status: "Superseded"
 category: "Physics"
 acceptedApproximately: "19th century"
+acceptedYear: 1850
 changedApproximately: "1880s–1910s"
 timelineYear: 1905
 summary: "Experiments and relativity made the luminiferous ether unnecessary as a medium for light."

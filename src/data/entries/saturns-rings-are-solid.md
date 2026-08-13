@@ -5,6 +5,7 @@ whyItChanged: "Telescopes made the rings look like smooth sheets. Gaps and trans
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "1650s–mid-19th century"
+acceptedYear: 1655
 changedApproximately: "1850s–1895"
 timelineYear: 1859
 summary: "Dynamics and spectroscopy replaced Saturn's solid rings with countless independently orbiting particles."

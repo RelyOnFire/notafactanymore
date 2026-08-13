@@ -5,6 +5,7 @@ whyItChanged: "X-rays were adopted rapidly after 1895, before radiation biology 
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1895–early 20th century"
+acceptedYear: 1895
 changedApproximately: "1900s–1950s"
 timelineYear: 1930
 summary: "Radiation injuries and long-term cancer data replaced the idea that repeated X-ray exposure was harmless."

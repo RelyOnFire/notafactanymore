@@ -5,6 +5,7 @@ whyItChanged: "Seismic waves pass through the mantle in ways that require it to 
 status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Common popular and early geological interpretation"
+acceptedYear: 1850
 changedApproximately: "20th century"
 timelineYear: 1914
 summary: "The mantle is not a hidden global magma ocean; it is mostly solid rock that flows very slowly."

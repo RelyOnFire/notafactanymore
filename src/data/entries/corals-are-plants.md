@@ -1,16 +1,18 @@
 ---
-claim: "Corals are plants that grow like underwater flowers."
+claim: "Corals were commonly classified with plants or “plant-like” marine growths rather than animals."
 currentUnderstanding: "Corals are animals in the phylum Cnidaria. Each colony is made of polyps that capture food, digest it, and often live in partnership with photosynthetic algae."
-whyItChanged: "Corals are rooted in place, branch like plants, and many depend on sunlight, so early naturalists commonly grouped them with plants. Microscopy and observations of feeding, tentacles, larvae, and internal anatomy established their animal nature."
+whyItChanged: "Corals are fixed in place and branch like plants, so early-modern naturalists often grouped them with marine plants. Observations of living polyps and feeding behavior supported an animal interpretation, and Peyssonnel’s work was published by the Royal Society in 1753."
 status: "Reclassified"
 category: "Zoology"
-acceptedApproximately: "Antiquity–18th century"
-changedApproximately: "17th–18th centuries"
+acceptedApproximately: "Early-modern natural history through the mid-18th century"
+acceptedYear: 1600
+changedApproximately: "1720s–1750s"
 timelineYear: 1753
-summary: "Underwater growths that looked like stone plants proved to be colonies of tiny animals."
+lifespanComparable: false
+summary: "Corals moved from the botanical side of natural history to the animal kingdom as living polyps were observed."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Mutualism: Eight examples of species that work together"
     url: "https://www.nhm.ac.uk/discover/mutualism-examples-of-species-that-work-together.html"

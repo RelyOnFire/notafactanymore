@@ -11,6 +11,12 @@ const entries = defineCollection({
     status: z.enum(['Overturned', 'Superseded', 'Narrowed', 'Reclassified', 'Corrected']),
     category: z.string(),
     acceptedApproximately: z.string(),
+
+    // Representative year used for lifespan ordering/statistics.
+    // acceptedApproximately remains the human-readable historical label.
+    acceptedYear: z.number().int(),
+    lifespanComparable: z.boolean().optional().default(true),
+
     changedApproximately: z.string(),
 
     // Representative year used only for chronological sorting/grouping.
@@ -36,6 +42,9 @@ const entries = defineCollection({
         note: z.string(),
       }),
     ),
+  }).refine((entry) => entry.acceptedYear < entry.timelineYear, {
+    message: 'acceptedYear must be earlier than timelineYear',
+    path: ['acceptedYear'],
   }),
 });
 

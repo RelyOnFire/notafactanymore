@@ -5,6 +5,7 @@ whyItChanged: "Their tiny size and featureless appearance under ordinary light m
 status: "Overturned"
 category: "Microbiology"
 acceptedApproximately: "Late 19th–late 20th century"
+acceptedYear: 1885
 changedApproximately: "1990s–present"
 timelineYear: 1995
 summary: "New imaging turned the bacterial cell from a featureless sack into a spatially organized microscopic system."

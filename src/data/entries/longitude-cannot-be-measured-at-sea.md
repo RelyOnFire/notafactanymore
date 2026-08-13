@@ -4,13 +4,15 @@ currentUnderstanding: "Longitude can be determined by comparing local time with 
 whyItChanged: "Latitude was relatively easy to find from the sky, but longitude required knowing the time difference from a reference meridian. Marine chronometers stable enough for long voyages solved the practical problem in the 18th century."
 status: "Overturned"
 category: "Technology"
-acceptedApproximately: "Ancient navigation–early 18th century"
+acceptedApproximately: "A formally recognized navigation problem by the Longitude Act of 1714"
+acceptedYear: 1714
 changedApproximately: "1730s–1770s"
 timelineYear: 1761
+lifespanComparable: true
 summary: "A clock accurate at sea turned longitude from a notorious unsolved problem into routine navigation."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Longitude Found"
     url: "https://www.rmg.co.uk/stories/topics/longitude-found-john-harrison"

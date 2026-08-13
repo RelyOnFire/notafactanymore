@@ -5,6 +5,7 @@ whyItChanged: "Viruses were first associated mainly with diseases of plants and 
 status: "Overturned"
 category: "Virology"
 acceptedApproximately: "Late 19th century–1910s"
+acceptedYear: 1885
 changedApproximately: "1915–1917"
 timelineYear: 1916
 summary: "Bacteriophages revealed an immense viral world whose hosts are bacteria."

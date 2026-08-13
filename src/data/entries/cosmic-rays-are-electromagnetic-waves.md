@@ -5,6 +5,7 @@ whyItChanged: "The name was coined when the radiation's nature was unknown. Clou
 status: "Reclassified"
 category: "Physics"
 acceptedApproximately: "1910s–1930s"
+acceptedYear: 1915
 changedApproximately: "1920s–1930s"
 timelineYear: 1932
 summary: "The 'rays' from space turned out to be mostly fast-moving particles rather than electromagnetic waves."

@@ -4,13 +4,15 @@ currentUnderstanding: "Populations evolve across generations, species share comm
 whyItChanged: "Biogeography, fossils, comparative anatomy, selective breeding, and observations of variation supported common descent and natural selection. Genetics and molecular biology later supplied mechanisms and extensive independent evidence."
 status: "Superseded"
 category: "Biology"
-acceptedApproximately: "Classical antiquity through the mid-19th century"
+acceptedApproximately: "Early-modern and Linnaean natural history through the mid-19th century"
+acceptedYear: 1753
 changedApproximately: "19th–20th centuries"
 timelineYear: 1859
+lifespanComparable: true
 summary: "The dominant view of immutable, separately created species was replaced by evolutionary common descent and speciation."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-13"
 sources:
   - title: "New material added to the American edition of Origin"
     url: "https://www.darwinproject.ac.uk/new-material-added-american-edition-origin"

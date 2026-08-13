@@ -1,16 +1,18 @@
 ---
-claim: "Bone is a passive, inert scaffold whose only important jobs are support, protection, and mineral storage."
-currentUnderstanding: "Bone is living tissue that constantly remodels. It houses blood-forming marrow, responds to mechanical load, communicates through signaling molecules, and can influence metabolism and other organs."
-whyItChanged: "Earlier anatomy emphasized hardness and support. Cell biology, genetics, and hormone research revealed active osteoblasts, osteoclasts, osteocytes, marrow cells, and signals such as osteocalcin."
+claim: "Bone is primarily a structural and mineral-regulating organ, not an endocrine organ that signals to distant tissues."
+currentUnderstanding: "Bone is a dynamic organ that continually remodels and also participates in endocrine signaling. Bone-derived factors such as FGF23 have established systemic roles, while proposed osteocalcin-mediated effects on metabolism and other organs remain an active area of research, especially in humans."
+whyItChanged: "Bone remodeling and cellular activity were already well established before the endocrine shift. What changed in the late 20th and early 21st centuries was evidence that skeletal cells release factors with hormone-like actions on distant organs, expanding the skeleton’s role beyond mechanics, marrow, and mineral homeostasis."
 status: "Superseded"
 category: "Medicine"
-acceptedApproximately: "Ancient anatomy through much of the 20th century"
-changedApproximately: "20th century–present"
+acceptedApproximately: "20th-century physiology before the endocrine role of bone was established"
+acceptedYear: 1950
+changedApproximately: "Late 20th century–2000s"
 timelineYear: 2007
-summary: "The skeleton changed from a dead-looking framework into a living, remodeling, signaling organ."
+lifespanComparable: false
+summary: "The modern revision is not that bone suddenly became “living,” but that an already dynamic organ was recognized as an endocrine signaling organ as well."
 featured: false
 publishedAt: "2026-07-27"
-reviewedAt: "2026-07-27"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Renal osteodystrophy: A historical review of its origins and conceptual evolution"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9713281/"

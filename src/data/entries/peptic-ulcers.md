@@ -5,6 +5,7 @@ whyItChanged: "Research by Barry Marshall and Robin Warren established the conne
 status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Mid-20th century to the 1980s"
+acceptedYear: 1950
 changedApproximately: "1982–1990s"
 timelineYear: 1982
 summary: "The stress-and-lifestyle explanation was replaced after evidence showed that H. pylori infection and NSAID use cause most peptic ulcers."

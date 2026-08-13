@@ -5,6 +5,7 @@ whyItChanged: "The early molecular-biology model emphasized messenger RNA. Catal
 status: "Superseded"
 category: "Biochemistry"
 acceptedApproximately: "1950s–early 1980s"
+acceptedYear: 1955
 changedApproximately: "1980s–2000s"
 timelineYear: 1982
 summary: "RNA changed from a passive courier into a catalyst, regulator, structural molecule, and genome defender."

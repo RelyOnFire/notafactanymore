@@ -5,6 +5,7 @@ whyItChanged: "A growing fossil record revealed contemporaneous species with dif
 status: "Superseded"
 category: "Human Evolution"
 acceptedApproximately: "Late 19th century–late 20th century"
+acceptedYear: 1885
 changedApproximately: "Late 20th century–present"
 timelineYear: 1980
 summary: "The human family tree became a branching, overlapping history rather than a single march toward modern humans."

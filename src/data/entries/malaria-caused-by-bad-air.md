@@ -5,12 +5,14 @@ whyItChanged: "Researchers found parasites in the blood of people with malaria a
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Antiquity through the late 19th century"
+acceptedYear: -400
 changedApproximately: "1880s–1900s"
 timelineYear: 1897
+lifespanComparable: true
 summary: "The disease once blamed on marsh air was shown to be a parasitic infection spread by mosquitoes."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Malaria"
     url: "https://www.who.int/news-room/fact-sheets/detail/malaria"

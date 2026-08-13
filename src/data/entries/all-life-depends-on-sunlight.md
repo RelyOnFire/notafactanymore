@@ -5,6 +5,7 @@ whyItChanged: "The 1977 discovery of dense animal communities at Galápagos hydr
 status: "Overturned"
 category: "Ocean Science"
 acceptedApproximately: "19th century–1977"
+acceptedYear: 1850
 changedApproximately: "1977 onward"
 timelineYear: 1977
 summary: "Hydrothermal-vent communities revealed entire food webs fueled by chemical energy in permanent darkness."

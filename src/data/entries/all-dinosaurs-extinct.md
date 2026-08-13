@@ -5,6 +5,7 @@ whyItChanged: "Detailed comparisons of skeletons, feathers, eggs, nesting behavi
 status: "Narrowed"
 category: "Paleontology"
 acceptedApproximately: "19th and much of the 20th century"
+acceptedYear: 1850
 changedApproximately: "Late 20th century"
 timelineYear: 1996
 summary: "The mass extinction eliminated non-avian dinosaurs, while avian dinosaurs survived as birds."

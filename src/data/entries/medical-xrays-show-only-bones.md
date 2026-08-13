@@ -5,6 +5,7 @@ whyItChanged: "Early radiographs produced striking bone images because calcium a
 status: "Superseded"
 category: "Technology"
 acceptedApproximately: "Late 1890s–early 20th century"
+acceptedYear: 1898
 changedApproximately: "1900s–1970s"
 timelineYear: 1940
 summary: "The bone picture expanded into angiography, mammography, fluoroscopy, and three-dimensional CT."

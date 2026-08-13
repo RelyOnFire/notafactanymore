@@ -5,6 +5,7 @@ whyItChanged: "Improved distance measurements resolved individual stars in spira
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Late 19th and early 20th centuries"
+acceptedYear: 1885
 changedApproximately: "1920s"
 timelineYear: 1925
 summary: "Distance measurements showed that spiral nebulae were separate galaxies far beyond the Milky Way."

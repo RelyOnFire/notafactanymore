@@ -5,6 +5,7 @@ whyItChanged: "Researchers found that radioactive emissions and decay rates pers
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1896–early 1900s"
+acceptedYear: 1896
 changedApproximately: "1902–1908"
 timelineYear: 1902
 summary: "Radioactivity moved from chemistry into the atomic nucleus when decay proved independent of ordinary chemical conditions."

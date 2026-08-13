@@ -5,6 +5,7 @@ whyItChanged: "Evolution was associated mainly with deep time and the fossil rec
 status: "Overturned"
 category: "Evolution"
 acceptedApproximately: "19th–mid-20th century"
+acceptedYear: 1850
 changedApproximately: "1950s–present"
 timelineYear: 1972
 summary: "Evolution moved from the geological past into experiments and field studies conducted within a human lifetime."

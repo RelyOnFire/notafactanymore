@@ -5,6 +5,7 @@ whyItChanged: "Comparative embryology showed that development branches and speci
 status: "Superseded"
 category: "Biology"
 acceptedApproximately: "Late 19th–early 20th century"
+acceptedYear: 1885
 changedApproximately: "Late 19th–20th century"
 timelineYear: 1900
 summary: "Haeckel's literal biogenetic law was replaced by a branching evolutionary-developmental account."

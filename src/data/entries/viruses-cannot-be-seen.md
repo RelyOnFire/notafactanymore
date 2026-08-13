@@ -5,6 +5,7 @@ whyItChanged: "Viruses passed through filters that trapped bacteria and were inv
 status: "Overturned"
 category: "Technology"
 acceptedApproximately: "Late 19th–1930s"
+acceptedYear: 1885
 changedApproximately: "1930s–1940s"
 timelineYear: 1940
 summary: "Electron microscopy turned invisible infectious agents into visible particles with recognizable structures."

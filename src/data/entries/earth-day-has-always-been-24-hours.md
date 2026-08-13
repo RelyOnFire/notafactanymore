@@ -5,6 +5,7 @@ whyItChanged: "The 24-hour day seemed like a fixed astronomical unit. Growth ban
 status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Common pre-modern and simplified scientific assumption"
+acceptedYear: 1700
 changedApproximately: "20th century"
 timelineYear: 1963
 summary: "The day became a changing feature of Earth history rather than a permanent 24-hour constant."

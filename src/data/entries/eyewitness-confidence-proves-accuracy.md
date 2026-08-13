@@ -5,6 +5,7 @@ whyItChanged: "Courts and investigators often treated confidence as a direct win
 status: "Narrowed"
 category: "Psychology"
 acceptedApproximately: "Longstanding legal assumption through the late 20th century"
+acceptedYear: 1900
 changedApproximately: "1970s–present"
 timelineYear: 1974
 summary: "Confidence stopped being treated as a simple guarantee that an eyewitness identification is correct."

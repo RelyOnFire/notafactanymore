@@ -5,6 +5,7 @@ whyItChanged: "Electricity and magnetism were originally studied as distinct phe
 status: "Superseded"
 category: "Physics"
 acceptedApproximately: "17th century–early 19th century"
+acceptedYear: 1650
 changedApproximately: "1820–1860s"
 timelineYear: 1865
 summary: "Experiments and Maxwell's equations unified electricity, magnetism, and light into electromagnetism."

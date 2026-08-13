@@ -5,6 +5,7 @@ whyItChanged: "Their spores and fruiting bodies looked fungal, so they were trad
 status: "Reclassified"
 category: "Microbiology"
 acceptedApproximately: "19th–20th century"
+acceptedYear: 1850
 changedApproximately: "Late 20th century–present"
 timelineYear: 1990
 summary: "Fungus-like fruiting bodies hid the amoeboid ancestry of slime molds."

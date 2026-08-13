@@ -5,6 +5,7 @@ whyItChanged: "Breast cancer was long treated as a disease spreading outward in 
 status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Late 19th century–1970s"
+acceptedYear: 1885
 changedApproximately: "1970s–1980s"
 timelineYear: 1980
 summary: "Trials showed that more disfiguring surgery did not improve survival for many women with early breast cancer."

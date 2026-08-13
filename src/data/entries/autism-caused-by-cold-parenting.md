@@ -5,6 +5,7 @@ whyItChanged: "The 'refrigerator mother' theory became influential in the 1950s 
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1950s–1960s"
+acceptedYear: 1955
 changedApproximately: "1960s–1980s"
 timelineYear: 1975
 summary: "A theory that blamed emotionally cold mothers gave way to evidence that autism is neurodevelopmental."

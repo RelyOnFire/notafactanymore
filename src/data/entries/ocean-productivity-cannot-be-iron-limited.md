@@ -5,6 +5,7 @@ whyItChanged: "Ocean productivity was usually interpreted through major nutrient
 status: "Overturned"
 category: "Oceanography"
 acceptedApproximately: "Early–mid-20th century"
+acceptedYear: 1915
 changedApproximately: "1980s–1990s"
 timelineYear: 1993
 summary: "Tiny concentrations of iron proved capable of controlling productivity across enormous nutrient-rich ocean regions."

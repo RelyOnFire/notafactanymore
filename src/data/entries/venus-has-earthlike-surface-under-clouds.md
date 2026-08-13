@@ -5,6 +5,7 @@ whyItChanged: "The opaque clouds hid the surface, allowing ideas about oceans, s
 status: "Overturned"
 category: "Planetary Science"
 acceptedApproximately: "Late 19th–mid-20th century"
+acceptedYear: 1885
 changedApproximately: "1950s–1970s"
 timelineYear: 1962
 summary: "A cloud-hidden sister world changed from imagined oceans and jungles into the hottest planetary surface."

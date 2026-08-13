@@ -5,6 +5,7 @@ whyItChanged: "Public-health thresholds initially focused on seizures, anemia, e
 status: "Overturned"
 category: "Public Health"
 acceptedApproximately: "Early–mid-20th century"
+acceptedYear: 1915
 changedApproximately: "1970s–2010s"
 timelineYear: 1979
 summary: "Research repeatedly found harm below blood-lead concentrations once treated as safe."

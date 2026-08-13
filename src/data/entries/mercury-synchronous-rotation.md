@@ -5,6 +5,7 @@ whyItChanged: "Radar observations in 1965 measured a rotation period of about 59
 status: "Corrected"
 category: "Astronomy"
 acceptedApproximately: "Late 19th century to 1965"
+acceptedYear: 1885
 changedApproximately: "1965–1966"
 timelineYear: 1965
 summary: "Radar measurements showed that Mercury is not synchronously locked to the Sun but rotates in a 3:2 resonance."

@@ -5,6 +5,7 @@ whyItChanged: "Before the neutron was discovered, nuclear electrons were used to
 status: "Superseded"
 category: "Physics"
 acceptedApproximately: "1910s–1932"
+acceptedYear: 1915
 changedApproximately: "1932–1930s"
 timelineYear: 1932
 summary: "The neutron replaced the hypothetical nuclear electron in the model of atomic nuclei."

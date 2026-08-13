@@ -5,6 +5,7 @@ whyItChanged: "For much of the 20th century, infant reactions were dismissed as 
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Late 19th century–1980s"
+acceptedYear: 1885
 changedApproximately: "1980s–1990s"
 timelineYear: 1987
 summary: "Surgery was sometimes performed with little or no anesthesia because newborn pain was dismissed as reflexive."

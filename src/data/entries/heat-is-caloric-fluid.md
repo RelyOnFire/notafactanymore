@@ -5,6 +5,7 @@ whyItChanged: "Friction and mechanical-work experiments showed that heat could b
 status: "Superseded"
 category: "Physics"
 acceptedApproximately: "18th to mid-19th century"
+acceptedYear: 1750
 changedApproximately: "1790s–1850s"
 timelineYear: 1825
 summary: "The caloric-fluid model of heat was replaced by the mechanical theory of heat and the modern concept of energy transfer."

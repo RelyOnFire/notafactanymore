@@ -4,13 +4,15 @@ currentUnderstanding: "Barnacles are crustaceans related to crabs, lobsters, and
 whyItChanged: "Adult barnacles are fixed to surfaces and enclosed in shells, making them resemble mollusks. Study of their larvae and anatomy, especially during the 19th century, placed them firmly among crustaceans."
 status: "Reclassified"
 category: "Zoology"
-acceptedApproximately: "Antiquity–early 19th century"
-changedApproximately: "1830s–1850s"
-timelineYear: 1851
+acceptedApproximately: "Linnaean classification from 1758 into the early 19th century"
+acceptedYear: 1758
+changedApproximately: "1830s"
+timelineYear: 1830
+lifespanComparable: true
 summary: "A shell-bound animal mistaken for a mollusk turned out to be a highly modified crustacean."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Crustaceans"
     url: "https://australian.museum/learn/animals/crustaceans/"

@@ -5,6 +5,7 @@ whyItChanged: "The term began with combustion and oxygen chemistry. Electrochemi
 status: "Superseded"
 category: "Chemistry"
 acceptedApproximately: "Late 18th–19th century"
+acceptedYear: 1785
 changedApproximately: "Late 19th–20th century"
 timelineYear: 1920
 summary: "Oxidation expanded from a reaction with oxygen into the more general loss of electrons."

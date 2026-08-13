@@ -5,6 +5,7 @@ whyItChanged: "In 1828, Friedrich Wöhler made urea from ammonium cyanate, showi
 status: "Superseded"
 category: "Chemistry"
 acceptedApproximately: "Late 18th–early 19th century"
+acceptedYear: 1785
 changedApproximately: "1828–late 19th century"
 timelineYear: 1828
 summary: "Laboratory synthesis broke down the supposed chemical boundary between living and nonliving matter."

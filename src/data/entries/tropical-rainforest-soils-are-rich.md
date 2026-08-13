@@ -5,6 +5,7 @@ whyItChanged: "Dense vegetation was treated as visible evidence of fertile groun
 status: "Narrowed"
 category: "Ecology"
 acceptedApproximately: "19th–mid-20th century"
+acceptedYear: 1850
 changedApproximately: "Mid–late 20th century"
 timelineYear: 1970
 summary: "A luxuriant forest canopy did not necessarily indicate rich soil beneath it."

@@ -5,6 +5,7 @@ whyItChanged: "The discovery and study of adipose-derived signals, especially le
 status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Much of the 20th century"
+acceptedYear: 1925
 changedApproximately: "1980s–2000s"
 timelineYear: 1985
 summary: "Fat tissue was reinterpreted from passive energy storage into an active endocrine and immune organ."

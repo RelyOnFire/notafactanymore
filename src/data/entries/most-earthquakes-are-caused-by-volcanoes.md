@@ -1,16 +1,18 @@
 ---
-claim: "Most earthquakes are caused by volcanoes or underground explosions."
-currentUnderstanding: "Most damaging earthquakes result from sudden slip on tectonic faults as stressed rock breaks. Volcanic processes produce some earthquakes, but these are a minority and are usually smaller."
-whyItChanged: "Earthquakes were often associated with fire, gases, collapsing caverns, and nearby volcanoes because Earth's interior could not be observed. Global seismology and fault mapping connected earthquake waves to sudden brittle failure."
+claim: "Earthquakes are generated mainly by subterranean winds, gases, fire, explosions, or related volcanic processes."
+currentUnderstanding: "Most damaging earthquakes result from sudden slip on tectonic faults as accumulated stress overcomes friction. Volcanic processes can generate earthquakes, but they are only one specialized source."
+whyItChanged: "Because Earth’s interior was inaccessible, natural philosophers proposed subterranean winds, gases, fire, collapsing cavities, and volcanic activity. Nineteenth- and twentieth-century seismology, fault studies, elastic-rebound theory, and plate tectonics tied most earthquakes to rupture on stressed faults."
 status: "Overturned"
 category: "Earth Science"
-acceptedApproximately: "Antiquity–19th century"
+acceptedApproximately: "Ancient and early-modern natural philosophy; multiple competing subterranean theories"
+acceptedYear: -300
 changedApproximately: "19th–20th centuries"
-timelineYear: 1965
-summary: "Earthquakes moved from subterranean fire and explosions to the sudden rupture of stressed faults."
+timelineYear: 1906
+lifespanComparable: false
+summary: "A family of subterranean-fire and volcanic explanations gave way to fault rupture and tectonic stress."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Some aspects of the early history of seismology"
     url: "https://www.usgs.gov/publications/some-aspects-early-history-seismology"

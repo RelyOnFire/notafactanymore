@@ -5,6 +5,7 @@ whyItChanged: "For much of the twentieth century, undeciphered inscriptions enco
 status: "Overturned"
 category: "Archaeology"
 acceptedApproximately: "Early–mid-20th century"
+acceptedYear: 1915
 changedApproximately: "1960s–1990s"
 timelineYear: 1980
 summary: "Decoded inscriptions and archaeology replaced the image of an exceptionally peaceful Maya civilization."

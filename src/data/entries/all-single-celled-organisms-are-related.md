@@ -5,6 +5,7 @@ whyItChanged: "Early classification relied heavily on visible complexity and gro
 status: "Overturned"
 category: "Evolution"
 acceptedApproximately: "19th–mid-20th century"
+acceptedYear: 1850
 changedApproximately: "1960s–1990s"
 timelineYear: 1980
 summary: "Microscopic size stopped being treated as evidence that all single-celled life shares one close ancestry."

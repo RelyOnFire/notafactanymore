@@ -5,6 +5,7 @@ whyItChanged: "The dirty-snowball model successfully explained comet activity an
 status: "Superseded"
 category: "Planetary Science"
 acceptedApproximately: "1950s–1980s"
+acceptedYear: 1955
 changedApproximately: "1986–present"
 timelineYear: 1986
 summary: "Spacecraft turned the tidy dirty-snowball model into a far more complex class of dark, active worlds."

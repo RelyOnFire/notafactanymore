@@ -4,13 +4,15 @@ currentUnderstanding: "Fungi form their own major branch of life. They do not ph
 whyItChanged: "Differences in nutrition, cell structure, and reproduction showed that fungi did not fit within the plant kingdom. Molecular evidence later confirmed that they form a separate lineage."
 status: "Reclassified"
 category: "Biology"
-acceptedApproximately: "Antiquity through the mid-20th century"
-changedApproximately: "1950s–1970s"
-timelineYear: 1965
+acceptedApproximately: "Linnaean-era taxonomy through the mid-20th century"
+acceptedYear: 1753
+changedApproximately: "1969"
+timelineYear: 1969
+lifespanComparable: true
 summary: "Organisms long classified as plants were moved into their own fungal kingdom."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Fungi through the ages"
     url: "https://growwild.kew.org/blog/fungi-through-ages"

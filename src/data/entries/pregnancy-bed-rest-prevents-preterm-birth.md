@@ -5,6 +5,7 @@ whyItChanged: "Rest seemed mechanically and physiologically plausible and became
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "19th century–late 20th century"
+acceptedYear: 1850
 changedApproximately: "1990s–2010s"
 timelineYear: 1995
 summary: "Evidence failed to show that routine pregnancy bed rest prevents preterm birth and documented important harms."

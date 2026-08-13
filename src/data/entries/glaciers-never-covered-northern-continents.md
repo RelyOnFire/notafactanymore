@@ -5,6 +5,7 @@ whyItChanged: "Boulders, scratched bedrock, moraines, and sediment had been expl
 status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Before the mid-19th century"
+acceptedYear: 1800
 changedApproximately: "1830s–1870s"
 timelineYear: 1840
 summary: "Landscapes attributed to floods and drifting ice became evidence for continent-scale glaciers."

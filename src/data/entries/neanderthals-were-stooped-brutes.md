@@ -5,6 +5,7 @@ whyItChanged: "The influential reconstruction of an elderly, arthritic Neanderth
 status: "Overturned"
 category: "Human Evolution"
 acceptedApproximately: "1910s–mid-20th century"
+acceptedYear: 1915
 changedApproximately: "1950s–present"
 timelineYear: 1957
 summary: "An arthritic skeleton helped create the stooped-brute stereotype, which later fossils and archaeology overturned."

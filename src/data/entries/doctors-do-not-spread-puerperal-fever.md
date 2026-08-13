@@ -5,6 +5,7 @@ whyItChanged: "Ignaz Semmelweis found that maternal deaths were much higher in a
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Early to mid-19th century"
+acceptedYear: 1815
 changedApproximately: "1840s–1880s"
 timelineYear: 1847
 summary: "Semmelweis showed that doctors could carry childbed fever between patients and that disinfecting their hands saved lives."

@@ -5,6 +5,7 @@ whyItChanged: "Investigators traditionally treated additional questioning as a w
 status: "Overturned"
 category: "Psychology"
 acceptedApproximately: "Longstanding investigative practice through much of the 20th century"
+acceptedYear: 1900
 changedApproximately: "1970s–present"
 timelineYear: 1974
 summary: "More questioning can contaminate a witness's memory instead of simply revealing additional detail."

@@ -5,6 +5,7 @@ whyItChanged: "Pain was interpreted as evidence that movement would worsen injur
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "19th century–1980s"
+acceptedYear: 1850
 changedApproximately: "1980s–1990s"
 timelineYear: 1990
 summary: "Trials replaced prolonged bed rest with advice to remain active for most uncomplicated low-back pain."

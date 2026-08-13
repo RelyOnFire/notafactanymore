@@ -5,6 +5,7 @@ whyItChanged: "Before systematic deep-sea sounding, the ocean bottom was largely
 status: "Overturned"
 category: "Ocean Science"
 acceptedApproximately: "Before the 19th century"
+acceptedYear: 1750
 changedApproximately: "19th century–1950s"
 timelineYear: 1955
 summary: "Sounding and sonar transformed the seafloor from a flat imagined basin into one of Earth's most rugged landscapes."

@@ -5,6 +5,7 @@ whyItChanged: "After radioactivity was discovered, it was associated with a limi
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1896–1934"
+acceptedYear: 1896
 changedApproximately: "1934–1935"
 timelineYear: 1934
 summary: "The Joliot-Curies created new radioactive isotopes, turning radioactivity into a producible nuclear property."

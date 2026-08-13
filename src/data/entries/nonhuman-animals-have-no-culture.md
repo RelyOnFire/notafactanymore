@@ -5,6 +5,7 @@ whyItChanged: "Animal behavior was long divided into instinct or individual lear
 status: "Narrowed"
 category: "Animal Behavior"
 acceptedApproximately: "Dominant Western scientific usage through much of the 20th century"
+acceptedYear: 1900
 changedApproximately: "1950s–present"
 timelineYear: 1960
 summary: "Socially learned traditions were found in primates, whales, birds, fish, and other animals."

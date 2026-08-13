@@ -5,6 +5,7 @@ whyItChanged: "The stationary-hotspot model elegantly explained age-progressive 
 status: "Narrowed"
 category: "Earth Science"
 acceptedApproximately: "1960s–1990s"
+acceptedYear: 1965
 changedApproximately: "1990s–present"
 timelineYear: 1995
 summary: "A useful fixed-hotspot model narrowed into a relatively stable but imperfect geological reference frame."

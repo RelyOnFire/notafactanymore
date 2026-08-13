@@ -5,6 +5,7 @@ whyItChanged: "Credibly dated sites older than Clovis accumulated, while geologi
 status: "Superseded"
 category: "Archaeology"
 acceptedApproximately: "1930s–1990s"
+acceptedYear: 1935
 changedApproximately: "1990s–present"
 timelineYear: 1997
 summary: "Evidence for earlier sites replaced the Clovis-first model of the peopling of the Americas."

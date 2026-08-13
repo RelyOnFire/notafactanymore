@@ -5,6 +5,7 @@ whyItChanged: "Radio and microwave spectroscopy began identifying molecular fing
 status: "Overturned"
 category: "Astrochemistry"
 acceptedApproximately: "Early 20th century–1960s"
+acceptedYear: 1915
 changedApproximately: "1960s–1980s"
 timelineYear: 1968
 summary: "Interstellar space turned out to host a rich chemistry once thought unable to exist there."

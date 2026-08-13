@@ -5,6 +5,7 @@ whyItChanged: "A cooling globe offered a global mechanism for compressed and fol
 status: "Superseded"
 category: "Earth Science"
 acceptedApproximately: "Mid-19th century–early 20th century"
+acceptedYear: 1850
 changedApproximately: "1910s–1960s"
 timelineYear: 1960
 summary: "Plate tectonics replaced a shrinking, wrinkling Earth as the general explanation for mountain building."

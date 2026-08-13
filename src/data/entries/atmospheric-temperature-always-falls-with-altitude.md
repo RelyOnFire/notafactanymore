@@ -5,6 +5,7 @@ whyItChanged: "Early balloon measurements generally showed cooling with height, 
 status: "Overturned"
 category: "Atmospheric Science"
 acceptedApproximately: "19th century–1902"
+acceptedYear: 1850
 changedApproximately: "1902–1930s"
 timelineYear: 1919
 summary: "High-altitude balloons found a temperature reversal and revealed the stratosphere."

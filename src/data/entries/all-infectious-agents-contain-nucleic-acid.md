@@ -5,6 +5,7 @@ whyItChanged: "Work on scrapie and related neurodegenerative diseases failed to 
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Mid-20th century–1980s"
+acceptedYear: 1950
 changedApproximately: "1982–1997"
 timelineYear: 1982
 summary: "Prions overturned the rule that an infectious agent must carry DNA or RNA."

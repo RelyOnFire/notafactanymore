@@ -5,6 +5,7 @@ whyItChanged: "Surface currents were easy to observe, while movement in the dark
 status: "Overturned"
 category: "Ocean Science"
 acceptedApproximately: "Before modern physical oceanography"
+acceptedYear: 1850
 changedApproximately: "19th–20th centuries"
 timelineYear: 1957
 summary: "The supposedly motionless abyss became part of a global circulation linking the oceans over centuries."

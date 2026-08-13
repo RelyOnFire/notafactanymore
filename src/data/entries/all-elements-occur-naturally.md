@@ -5,6 +5,7 @@ whyItChanged: "Artificial radioactivity and nuclear bombardment produced isotope
 status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "19th–early 20th century"
+acceptedYear: 1850
 changedApproximately: "1930s–1950s"
 timelineYear: 1937
 summary: "The periodic table came to include elements made in laboratories rather than discovered in natural ores."

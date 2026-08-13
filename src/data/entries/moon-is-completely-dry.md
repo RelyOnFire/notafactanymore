@@ -5,6 +5,7 @@ whyItChanged: "Early Apollo samples showed no convincing native lunar water, and
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Apollo era through the late 1990s"
+acceptedYear: 1970
 changedApproximately: "1990s–2010s"
 timelineYear: 2009
 summary: "The Moon changed from a completely dry world to a very dry world that still contains water and ice."

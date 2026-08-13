@@ -5,6 +5,7 @@ whyItChanged: "Evolution was traditionally represented as a branching tree built
 status: "Narrowed"
 category: "Genetics"
 acceptedApproximately: "19th–mid-20th century"
+acceptedYear: 1850
 changedApproximately: "1920s–present"
 timelineYear: 1946
 summary: "Inheritance gained a sideways route when microbes were found exchanging genes outside reproduction."

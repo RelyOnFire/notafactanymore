@@ -1,16 +1,18 @@
 ---
-claim: "The universe is made almost entirely of ordinary visible matter."
-currentUnderstanding: "Ordinary matter makes up only about 5% of the universe's total cosmic energy budget. Dark matter accounts for about 27% and dark energy about 68% in the standard cosmological model."
-whyItChanged: "Galaxy motions and gravitational lensing revealed unseen mass, while observations of cosmic expansion, supernovae, and the cosmic microwave background showed that an additional dark-energy component dominates the universe."
+claim: "The gravitating mass of galaxies and galaxy clusters can be accounted for almost entirely by the stars and gas that astronomers can observe directly."
+currentUnderstanding: "Observed stars and gas do not provide enough gravity to explain galaxy rotation, cluster dynamics, gravitational lensing, or cosmological structure. In the standard cosmological model, ordinary matter is only a small fraction of the total cosmic energy budget, with dark matter and dark energy dominating."
+whyItChanged: "Twentieth-century measurements of galaxy clusters and rotation curves revealed gravitational effects requiring much more mass than the visible material supplied. Later lensing, cosmic-microwave-background, supernova, and large-scale-structure measurements established a cosmological inventory dominated by dark components."
 status: "Superseded"
 category: "Cosmology"
-acceptedApproximately: "Antiquity–early 20th century"
-changedApproximately: "1930s–2000s"
+acceptedApproximately: "Early 20th-century extragalactic astronomy before dark-matter evidence accumulated"
+acceptedYear: 1920
+changedApproximately: "1930s–1970s, consolidated later"
 timelineYear: 1975
-summary: "Stars, planets, gas, and everything made of atoms turned out to represent only a small fraction of the cosmos."
+lifespanComparable: true
+summary: "Visible stars and gas turned out to account for only part of the gravity in galaxies—and ordinary matter only a small fraction of the modern cosmic inventory."
 featured: false
 publishedAt: "2026-07-23"
-reviewedAt: "2026-07-23"
+reviewedAt: "2026-08-13"
 sources:
   - title: "The Universe's Building Blocks"
     url: "https://science.nasa.gov/universe/overview/building-blocks/"

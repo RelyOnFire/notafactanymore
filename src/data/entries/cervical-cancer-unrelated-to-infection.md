@@ -5,6 +5,7 @@ whyItChanged: "Researchers identified HPV DNA in cervical tumors during the 1980
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Before the 1980s"
+acceptedYear: 1950
 changedApproximately: "1980s–1990s"
 timelineYear: 1983
 summary: "A common cancer became preventable once its central viral cause was established."

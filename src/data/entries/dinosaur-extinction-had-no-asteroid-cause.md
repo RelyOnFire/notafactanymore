@@ -5,6 +5,7 @@ whyItChanged: "A worldwide iridium-rich boundary layer, shocked minerals, glassy
 status: "Superseded"
 category: "Paleontology"
 acceptedApproximately: "Much of the 20th century before 1980"
+acceptedYear: 1925
 changedApproximately: "1980s–2010s"
 timelineYear: 1980
 summary: "A gradual-extinction model gave way to evidence for a catastrophic asteroid impact at Chicxulub."

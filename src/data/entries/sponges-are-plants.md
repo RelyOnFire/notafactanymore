@@ -1,16 +1,18 @@
 ---
-claim: "Sea sponges are plants because they remain fixed in one place and have no obvious organs."
+claim: "Sea sponges were often classified as plants or intermediate plant-like organisms rather than animals."
 currentUnderstanding: "Sponges are animals. They filter water through specialized cells, digest food internally, produce swimming larvae, and share ancestry with other animals."
 whyItChanged: "Their branching forms, immobility, and lack of obvious movement made them look botanical. Microscopy revealed water currents, feeding cells, reproduction, and embryonic development characteristic of animals."
 status: "Reclassified"
 category: "Zoology"
-acceptedApproximately: "Antiquity–18th century"
+acceptedApproximately: "Early-modern natural history through the 18th century"
+acceptedYear: 1600
 changedApproximately: "18th–19th centuries"
 timelineYear: 1825
-summary: "Motionless seafloor forms once treated as plants became some of the simplest known animals."
+lifespanComparable: false
+summary: "Sponges were difficult to place in early classification systems; anatomy, water flow, feeding, and development ultimately established them as animals."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Sponges"
     url: "https://oceanservice.noaa.gov/education/tutorial_corals/coral02_zooxanthellae.html"

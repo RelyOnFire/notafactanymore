@@ -5,6 +5,7 @@ whyItChanged: "Pigments weathered, were buried, or were removed by cleaning and 
 status: "Overturned"
 category: "Archaeology"
 acceptedApproximately: "Renaissance–20th century"
+acceptedYear: 1550
 changedApproximately: "19th century–present"
 timelineYear: 1815
 summary: "Pigment traces and imaging revealed that much classical marble sculpture was originally brightly colored."

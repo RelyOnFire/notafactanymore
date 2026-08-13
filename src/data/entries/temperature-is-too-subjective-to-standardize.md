@@ -5,6 +5,7 @@ whyItChanged: "Early temperature judgments depended on touch and locally made in
 status: "Overturned"
 category: "Measurement"
 acceptedApproximately: "Before the 17th–18th centuries"
+acceptedYear: 1600
 changedApproximately: "1600s–1800s"
 timelineYear: 1742
 summary: "Heat changed from a personal sensation into a quantity that laboratories around the world could compare."

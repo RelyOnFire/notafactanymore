@@ -4,13 +4,15 @@ currentUnderstanding: "Earth rotates once each day and orbits the Sun once each 
 whyItChanged: "The heliocentric model explained planetary motion more coherently, telescopic observations revealed phenomena incompatible with a simple Earth-centered cosmos, and Kepler’s laws and Newtonian gravity supplied a predictive physical framework."
 status: "Superseded"
 category: "Astronomy"
-acceptedApproximately: "Classical antiquity through the 16th century"
+acceptedApproximately: "Ptolemaic astronomy from the 2nd century CE through the early 17th century"
+acceptedYear: 150
 changedApproximately: "16th–17th centuries"
 timelineYear: 1610
+lifespanComparable: true
 summary: "The long-dominant geocentric cosmos was replaced by a Sun-centered model of the solar system and, later, by a much larger astronomical picture."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Picturing the solar system: a tale of astronomical change"
     url: "https://museumsvictoria.com.au/article/picturing-the-solar-system/"

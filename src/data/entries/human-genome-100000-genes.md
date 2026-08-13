@@ -5,6 +5,7 @@ whyItChanged: "Before the human genome was sequenced, gene counts were inferred 
 status: "Corrected"
 category: "Genetics"
 acceptedApproximately: "1980s–1990s"
+acceptedYear: 1985
 changedApproximately: "2001–2004"
 timelineYear: 2001
 summary: "Genome sequencing reduced the estimated number of human protein-coding genes from around 100,000 to roughly 20,000."

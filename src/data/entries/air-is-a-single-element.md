@@ -5,12 +5,14 @@ whyItChanged: "For centuries, air was treated as one of the basic elements. Expe
 status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Classical antiquity through the 18th century"
+acceptedYear: -350
 changedApproximately: "1750s–1780s"
 timelineYear: 1774
+lifespanComparable: true
 summary: "Experiments with gases broke the ancient element air into a measurable mixture of different substances."
 featured: false
 publishedAt: "2026-07-24"
-reviewedAt: "2026-07-24"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Joseph Priestley, Discoverer of Oxygen"
     url: "https://www.acs.org/education/whatischemistry/landmarks/josephpriestleyoxygen.html"

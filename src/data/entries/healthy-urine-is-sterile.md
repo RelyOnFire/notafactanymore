@@ -5,6 +5,7 @@ whyItChanged: "The sterile-urine doctrine grew from 19th-century experiments and
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Mid-19th century–2010s"
+acceptedYear: 1850
 changedApproximately: "2010s"
 timelineYear: 2012
 summary: "Better culture and sequencing methods revealed a urinary microbiome in people without infection."

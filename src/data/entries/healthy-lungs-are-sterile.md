@@ -5,6 +5,7 @@ whyItChanged: "Standard cultures were optimized to detect pathogens and often fo
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Late 19th century–2000s"
+acceptedYear: 1885
 changedApproximately: "2010s"
 timelineYear: 2010
 summary: "DNA-based methods replaced the sterile-lung doctrine with a low-biomass respiratory microbiome."

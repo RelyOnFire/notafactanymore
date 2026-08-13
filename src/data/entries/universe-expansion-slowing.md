@@ -5,6 +5,7 @@ whyItChanged: "Two research teams studying distant supernovae expected to measur
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Mid-20th century to 1998"
+acceptedYear: 1950
 changedApproximately: "1998"
 timelineYear: 1998
 summary: "Distant-supernova observations unexpectedly showed that cosmic expansion is accelerating rather than slowing."

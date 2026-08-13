@@ -5,6 +5,7 @@ whyItChanged: "Because beta blockers reduce heart rate and contractility, using 
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1960s–1980s"
+acceptedYear: 1965
 changedApproximately: "1980s–2000s"
 timelineYear: 1985
 summary: "A drug class once formally contraindicated in heart failure became a cornerstone of treatment."

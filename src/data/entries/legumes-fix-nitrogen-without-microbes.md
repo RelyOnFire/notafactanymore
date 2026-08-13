@@ -5,6 +5,7 @@ whyItChanged: "Legumes were known to improve nitrogen-poor soils before the mech
 status: "Corrected"
 category: "Botany"
 acceptedApproximately: "Early–mid-19th century"
+acceptedYear: 1815
 changedApproximately: "1880s–1890s"
 timelineYear: 1890
 summary: "The nitrogen-fixing power of legumes proved to depend on bacteria housed in specialized root nodules."

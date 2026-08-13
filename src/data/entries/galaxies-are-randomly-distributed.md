@@ -5,6 +5,7 @@ whyItChanged: "Early catalogues covered limited areas and depths, making the lar
 status: "Overturned"
 category: "Cosmology"
 acceptedApproximately: "Early–mid-20th century simplified model"
+acceptedYear: 1915
 changedApproximately: "1970s–1990s"
 timelineYear: 1985
 summary: "Three-dimensional surveys transformed a random galaxy field into a web of filaments and voids."

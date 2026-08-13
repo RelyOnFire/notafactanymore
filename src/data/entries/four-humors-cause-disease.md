@@ -4,13 +4,15 @@ currentUnderstanding: "Diseases have many distinct causes and mechanisms, includ
 whyItChanged: "Anatomy, physiology, microscopy, pathology, microbiology, and experimental medicine produced specific, testable explanations for disease that did not fit humoral theory."
 status: "Superseded"
 category: "Medicine"
-acceptedApproximately: "Classical antiquity through the early modern period"
+acceptedApproximately: "Galenic medicine from roughly the 2nd century CE into the 19th century"
+acceptedYear: 200
 changedApproximately: "17th–19th centuries"
 timelineYear: 1850
+lifespanComparable: true
 summary: "A medical framework that shaped diagnosis and treatment for many centuries was replaced by anatomy, physiology, pathology, and germ theory."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Shakespeare and the Four Humors"
     url: "https://www.nlm.nih.gov/exhibition/shakespeare-and-the-four-humors/index.html"

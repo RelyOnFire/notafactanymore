@@ -5,6 +5,7 @@ whyItChanged: "European naturalists initially doubted the platypus specimen and 
 status: "Overturned"
 category: "Zoology"
 acceptedApproximately: "European natural history before the late 19th century"
+acceptedYear: 1800
 changedApproximately: "1799–1880s"
 timelineYear: 1884
 summary: "The platypus and echidnas forced zoologists to accept that a mammal can lay eggs."

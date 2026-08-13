@@ -5,6 +5,7 @@ whyItChanged: "Physical prototypes made international comparison possible but co
 status: "Superseded"
 category: "Measurement"
 acceptedApproximately: "1889–1960"
+acceptedYear: 1889
 changedApproximately: "1960–1983"
 timelineYear: 1960
 summary: "The world's length standard moved from a platinum-iridium bar to a constant of nature."

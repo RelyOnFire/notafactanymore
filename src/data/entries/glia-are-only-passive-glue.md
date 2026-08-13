@@ -5,6 +5,7 @@ whyItChanged: "The name neuroglia reflected a nineteenth-century support-tissue 
 status: "Overturned"
 category: "Neuroscience"
 acceptedApproximately: "Mid-19th century–late 20th century"
+acceptedYear: 1850
 changedApproximately: "1960s–present"
 timelineYear: 1965
 summary: "Cells once dismissed as neural glue proved essential to signaling, metabolism, development, and circuit regulation."

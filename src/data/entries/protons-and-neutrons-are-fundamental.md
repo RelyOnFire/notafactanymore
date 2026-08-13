@@ -5,6 +5,7 @@ whyItChanged: "Unexpected magnetic properties and high-energy scattering showed 
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1930s–1960s"
+acceptedYear: 1935
 changedApproximately: "1960s–1970s"
 timelineYear: 1968
 summary: "Scattering experiments opened protons and neutrons and revealed quarks and gluons inside."

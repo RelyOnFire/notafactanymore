@@ -5,6 +5,7 @@ whyItChanged: "Classical crystallography defined crystals through periodic latti
 status: "Superseded"
 category: "Materials Science"
 acceptedApproximately: "19th century–1982"
+acceptedYear: 1850
 changedApproximately: "1982–1992"
 timelineYear: 1982
 summary: "Quasicrystals revealed ordered solids whose atomic patterns never repeat periodically."

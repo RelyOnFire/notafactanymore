@@ -5,6 +5,7 @@ whyItChanged: "Howard Temin and David Baltimore independently discovered reverse
 status: "Overturned"
 category: "Genetics"
 acceptedApproximately: "1950s–1970"
+acceptedYear: 1955
 changedApproximately: "1970–1975"
 timelineYear: 1970
 summary: "Reverse transcriptase forced biology to revise the rule that genetic information could never pass from RNA into DNA."

@@ -5,6 +5,7 @@ whyItChanged: "Improved dating, anatomical comparison, and microscopic examinati
 status: "Overturned"
 category: "Human Evolution"
 acceptedApproximately: "1912–1953"
+acceptedYear: 1912
 changedApproximately: "1949–1953"
 timelineYear: 1953
 summary: "A fossil celebrated for four decades as a human ancestor was exposed as an assembled and chemically altered hoax."

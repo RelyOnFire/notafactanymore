@@ -5,6 +5,7 @@ whyItChanged: "After Manfred Sakel introduced the treatment in the 1930s, dramat
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1930s–1950s"
+acceptedYear: 1935
 changedApproximately: "1950s–1960s"
 timelineYear: 1960
 summary: "Controlled comparisons dismantled a dangerous schizophrenia treatment built around deliberately induced coma."

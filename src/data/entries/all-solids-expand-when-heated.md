@@ -5,6 +5,7 @@ whyItChanged: "Positive thermal expansion became a standard generalization becau
 status: "Narrowed"
 category: "Materials Science"
 acceptedApproximately: "Classical physics–20th century"
+acceptedYear: 1800
 changedApproximately: "20th century–present"
 timelineYear: 1996
 summary: "Negative-thermal-expansion materials turned a broad rule into one with important structural exceptions."

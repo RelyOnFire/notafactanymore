@@ -5,6 +5,7 @@ whyItChanged: "Repeated DNA sequences in bacterial genomes were initially myster
 status: "Overturned"
 category: "Microbiology"
 acceptedApproximately: "Before the 2000s"
+acceptedYear: 1990
 changedApproximately: "2000s–2010s"
 timelineYear: 2007
 summary: "CRISPR revealed that bacteria can store memories of viruses and defend themselves against later infections."

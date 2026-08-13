@@ -1,16 +1,18 @@
 ---
-claim: "Sleep is a passive shutdown in which the brain simply becomes inactive."
-currentUnderstanding: "Sleep is an active, highly organized biological state. Different brain systems cycle through distinct stages while supporting memory, learning, metabolic regulation, immune function, and restoration."
-whyItChanged: "Before modern brain recording, sleep appeared to be a uniform period of reduced activity. EEG studies in the 1930s and the discovery of REM sleep in 1953 revealed repeating stages with different patterns of brain activity."
+claim: "Sleep is essentially a unitary, passive state produced by a general reduction of brain activity."
+currentUnderstanding: "Sleep is an actively regulated, highly organized state with recurring non-REM and REM stages, distinct neural activity patterns, and multiple physiological functions."
+whyItChanged: "Before brain recording, sleep could be treated as a largely uniform withdrawal from wakefulness. EEG studies beginning in the 1930s and the discovery of REM sleep in 1953 showed recurring stages with markedly different patterns of brain activity."
 status: "Overturned"
 category: "Neuroscience"
-acceptedApproximately: "Antiquity–1950s"
-changedApproximately: "1930s–1960s"
-timelineYear: 1950
-summary: "Brain recordings transformed sleep from a passive absence of wakefulness into an active sequence of biological states."
+acceptedApproximately: "Before EEG sleep staging and the discovery of REM sleep"
+acceptedYear: 1900
+changedApproximately: "1930s–1950s"
+timelineYear: 1953
+lifespanComparable: false
+summary: "EEG and REM research replaced a unitary passive model of sleep with an actively organized cycle of distinct states."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Stages of Sleep"
     url: "https://www.ncbi.nlm.nih.gov/books/NBK10996/"

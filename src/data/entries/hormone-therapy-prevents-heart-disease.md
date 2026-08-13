@@ -5,6 +5,7 @@ whyItChanged: "Observational studies suggested substantially lower coronary risk
 status: "Narrowed"
 category: "Medicine"
 acceptedApproximately: "1980s–2002"
+acceptedYear: 1985
 changedApproximately: "1998–2002"
 timelineYear: 2002
 summary: "Randomized trials overturned routine hormone therapy as cardiovascular prevention while leaving nuanced symptom treatment intact."

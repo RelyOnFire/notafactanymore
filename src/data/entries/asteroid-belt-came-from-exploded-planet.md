@@ -5,6 +5,7 @@ whyItChanged: "The gap between Mars and Jupiter and the discovery of many small 
 status: "Superseded"
 category: "Planetary Science"
 acceptedApproximately: "19th–early 20th century"
+acceptedYear: 1850
 changedApproximately: "Mid-20th century–present"
 timelineYear: 1951
 summary: "The remains of a shattered planet became leftover building material from a planet that never formed."

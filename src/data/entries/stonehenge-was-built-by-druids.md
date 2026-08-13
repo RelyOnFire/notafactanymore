@@ -5,6 +5,7 @@ whyItChanged: "Seventeenth- and eighteenth-century antiquaries linked Stonehenge
 status: "Overturned"
 category: "Archaeology"
 acceptedApproximately: "Late 17th century–19th century"
+acceptedYear: 1685
 changedApproximately: "Late 19th–20th century"
 timelineYear: 1950
 summary: "Archaeological dating placed Stonehenge long before the historically recorded Druids."

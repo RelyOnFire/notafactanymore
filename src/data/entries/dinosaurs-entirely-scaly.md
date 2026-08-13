@@ -5,6 +5,7 @@ whyItChanged: "Exceptionally preserved fossils, especially discoveries from Chin
 status: "Narrowed"
 category: "Paleontology"
 acceptedApproximately: "19th century to the late 20th century"
+acceptedYear: 1850
 changedApproximately: "1990s–present"
 timelineYear: 1996
 summary: "Fossils revealed feathers in many non-avian dinosaurs, replacing the image of dinosaurs as uniformly scaly."

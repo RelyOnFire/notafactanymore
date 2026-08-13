@@ -5,6 +5,7 @@ whyItChanged: "Mid-20th-century psychiatry promoted ideas such as the 'schizophr
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1940s–1970s"
+acceptedYear: 1945
 changedApproximately: "1960s–1990s"
 timelineYear: 1980
 summary: "Family-blaming theories lost ground as schizophrenia emerged as a complex neurodevelopmental disorder."

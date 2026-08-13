@@ -5,6 +5,7 @@ whyItChanged: "Twentieth-century land management often treated complete suppress
 status: "Narrowed"
 category: "Ecology"
 acceptedApproximately: "Late 19th–mid-20th century"
+acceptedYear: 1885
 changedApproximately: "1950s–1970s"
 timelineYear: 1965
 summary: "Fire proved to be not merely a destroyer but a necessary ecological process in many landscapes."

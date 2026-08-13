@@ -5,6 +5,7 @@ whyItChanged: "As lung cancer increased alongside cigarette consumption, early s
 status: "Overturned"
 category: "Public Health"
 acceptedApproximately: "Early–mid-20th century"
+acceptedYear: 1915
 changedApproximately: "1950s–1964"
 timelineYear: 1950
 summary: "Large epidemiological studies and biological evidence established smoking as the dominant cause of lung cancer."

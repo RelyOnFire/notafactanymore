@@ -5,6 +5,7 @@ whyItChanged: "Nineteenth-century transformist theories often treated use, disus
 status: "Superseded"
 category: "Evolution"
 acceptedApproximately: "Early 19th century–early 20th century"
+acceptedYear: 1815
 changedApproximately: "1880s–1930s"
 timelineYear: 1910
 summary: "Genetics replaced routine inheritance of acquired bodily changes as the central mechanism of evolution."

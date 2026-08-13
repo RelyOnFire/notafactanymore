@@ -1,16 +1,18 @@
 ---
-claim: "Plants require soil in order to grow."
-currentUnderstanding: "Plants require water, light, carbon dioxide, mineral nutrients, oxygen around their roots, and suitable physical support. Soil commonly provides several of these, but nutrient solutions and inert substrates can provide them without soil."
-whyItChanged: "Soil was treated as an indispensable growth medium because nearly all agriculture used it. Nineteenth-century water-culture experiments and twentieth-century hydroponic production demonstrated that plants can complete their life cycles when the necessary nutrients and environmental conditions are supplied without soil."
+claim: "Soil itself is indispensable for normal plant growth, rather than being one way to supply water, minerals, and root support."
+currentUnderstanding: "Plants require water, light, carbon dioxide, mineral nutrients, oxygen around their roots, and suitable physical support. Soil commonly supplies several of these, but nutrient solutions and inert substrates can support complete growth without soil."
+whyItChanged: "Agriculture made soil seem inseparable from plant growth. Water-culture experiments in the 19th century separated the functions of soil from the mineral nutrients plants actually require, laying the foundations of hydroponics."
 status: "Narrowed"
 category: "Botany"
-acceptedApproximately: "Antiquity–19th century"
-changedApproximately: "Mid-19th–early 20th centuries"
+acceptedApproximately: "Before 19th-century mineral-nutrition and water-culture experiments"
+acceptedYear: 1800
+changedApproximately: "Mid-19th century"
 timelineYear: 1860
-summary: "Plants need the resources soil usually provides, not soil itself."
+lifespanComparable: false
+summary: "Plants need the resources normally supplied by soil, not soil itself."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Crop Production without Soil"
     url: "https://www.nature.com/articles/141536a0"

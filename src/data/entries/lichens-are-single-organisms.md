@@ -4,13 +4,15 @@ currentUnderstanding: "A lichen is a stable symbiotic system built mainly from a
 whyItChanged: "Lichens were described as individual plants because they form unified bodies. Microscopy in the 19th century revealed separate fungal and photosynthetic cells living together, and later molecular work exposed even more partners."
 status: "Reclassified"
 category: "Biology"
-acceptedApproximately: "Antiquity–mid-19th century"
+acceptedApproximately: "Linnaean-era taxonomy through the 1860s"
+acceptedYear: 1753
 changedApproximately: "1860s–present"
 timelineYear: 1867
+lifespanComparable: true
 summary: "A seemingly single organism became a partnership between fungi, photosynthetic cells, and other microbes."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Lichens and their partners"
     url: "https://www.fs.usda.gov/wildflowers/beauty/lichens/about.shtml"

@@ -5,6 +5,7 @@ whyItChanged: "In the early 1980s, Thomas Cech and Sidney Altman independently d
 status: "Overturned"
 category: "Biochemistry"
 acceptedApproximately: "Early to mid-20th century through the early 1980s"
+acceptedYear: 1915
 changedApproximately: "1982–1989"
 timelineYear: 1982
 summary: "The discovery of ribozymes showed that proteins are not the only biological catalysts."

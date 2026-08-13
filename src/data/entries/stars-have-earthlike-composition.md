@@ -5,6 +5,7 @@ whyItChanged: "Astronomers initially interpreted similar spectral lines as evide
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Late 19th century–1920s"
+acceptedYear: 1885
 changedApproximately: "1925–1929"
 timelineYear: 1925
 summary: "Cecilia Payne showed that stellar spectra concealed stars made mostly of hydrogen and helium."

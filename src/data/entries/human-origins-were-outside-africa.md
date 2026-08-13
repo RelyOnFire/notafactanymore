@@ -5,6 +5,7 @@ whyItChanged: "European and Asian fossils were discovered and promoted before Af
 status: "Superseded"
 category: "Human Evolution"
 acceptedApproximately: "Late 19th century–mid-20th century"
+acceptedYear: 1885
 changedApproximately: "1920s–1960s"
 timelineYear: 1924
 summary: "African fossils and genetics displaced influential European and Asian cradle-of-humanity models."

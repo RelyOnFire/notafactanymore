@@ -5,6 +5,7 @@ whyItChanged: "The localized bonds and flexible chains of familiar plastics made
 status: "Overturned"
 category: "Materials Science"
 acceptedApproximately: "19th century–1970s"
+acceptedYear: 1850
 changedApproximately: "1977–1980s"
 timelineYear: 1981
 summary: "Doped conjugated polymers showed that a plastic could conduct almost like a metal."

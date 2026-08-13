@@ -5,6 +5,7 @@ whyItChanged: "Rest became the default treatment despite limited direct evidence
 status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Late 20th–early 21st century"
+acceptedYear: 1985
 changedApproximately: "2010s–present"
 timelineYear: 2016
 summary: "Concussion care moved from prolonged cocooning toward brief relative rest and controlled activity."

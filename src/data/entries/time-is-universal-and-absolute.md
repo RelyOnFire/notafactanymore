@@ -5,6 +5,7 @@ whyItChanged: "Einstein's special relativity reconciled the observed invariance 
 status: "Superseded"
 category: "Physics"
 acceptedApproximately: "17th century–early 20th century"
+acceptedYear: 1650
 changedApproximately: "1905–1915"
 timelineYear: 1905
 summary: "Newtonian absolute time was replaced by relativistic spacetime, in which motion and gravity affect measured time."

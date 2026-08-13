@@ -5,6 +5,7 @@ whyItChanged: "Hypnotic age regression and memory enhancement were used clinical
 status: "Overturned"
 category: "Psychology"
 acceptedApproximately: "Late 19th–late 20th century"
+acceptedYear: 1885
 changedApproximately: "1970s–1990s"
 timelineYear: 1985
 summary: "Hypnosis can make recollections feel vivid and certain without making them reliably accurate."

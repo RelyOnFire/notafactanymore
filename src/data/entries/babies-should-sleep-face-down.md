@@ -5,6 +5,7 @@ whyItChanged: "Books and medical advice promoted front sleeping for decades, oft
 status: "Overturned"
 category: "Public Health"
 acceptedApproximately: "1940s–early 1990s"
+acceptedYear: 1945
 changedApproximately: "Late 1980s–1990s"
 timelineYear: 1990
 summary: "Advice meant to prevent choking increased SIDS risk until public-health campaigns moved infant sleep onto the back."

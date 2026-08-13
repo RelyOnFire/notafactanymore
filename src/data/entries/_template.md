@@ -5,6 +5,7 @@ whyItChanged: "Explain the discovery, evidence, measurement, or model that produ
 status: "Superseded"
 category: "Category"
 acceptedApproximately: "Approximate period"
+acceptedYear: 1900
 changedApproximately: "Approximate period"
 timelineYear: 1900
 summary: "One-sentence summary for cards and search results."

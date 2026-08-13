@@ -5,6 +5,7 @@ whyItChanged: "Heart attacks were once viewed as wounds that might rupture if th
 status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "1910s–1960s"
+acceptedYear: 1915
 changedApproximately: "1950s–1980s"
 timelineYear: 1970
 summary: "Six weeks of enforced inactivity gave way to early movement and structured cardiac rehabilitation."

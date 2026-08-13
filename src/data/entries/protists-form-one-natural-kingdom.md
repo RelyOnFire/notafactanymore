@@ -5,6 +5,7 @@ whyItChanged: "The kingdom Protista grouped mostly microscopic eukaryotes by wha
 status: "Superseded"
 category: "Evolution"
 acceptedApproximately: "Mid-19th–late 20th century"
+acceptedYear: 1850
 changedApproximately: "1980s–present"
 timelineYear: 1985
 summary: "The protist kingdom dissolved into multiple evolutionary lineages once molecular relationships became visible."

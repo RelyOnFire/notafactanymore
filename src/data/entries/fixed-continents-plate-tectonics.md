@@ -5,6 +5,7 @@ whyItChanged: "Ocean-floor mapping, seafloor spreading, symmetrical magnetic pat
 status: "Superseded"
 category: "Earth Science"
 acceptedApproximately: "19th century to the mid-20th century"
+acceptedYear: 1850
 changedApproximately: "1950s–1960s"
 timelineYear: 1965
 summary: "The largely fixed-Earth model was replaced by plate tectonics after evidence showed that Earth’s crust is divided into moving plates."

@@ -5,6 +5,7 @@ whyItChanged: "Dredging expeditions in the late 1860s recovered living organisms
 status: "Overturned"
 category: "Ocean Science"
 acceptedApproximately: "1840s–1860s"
+acceptedYear: 1845
 changedApproximately: "1868–1870s"
 timelineYear: 1872
 summary: "Dredging recovered living animals far below the depth once proposed as the ocean's lifeless boundary."

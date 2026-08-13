@@ -5,6 +5,7 @@ whyItChanged: "Hydraulic and catharsis models treated aggressive impulses as pre
 status: "Overturned"
 category: "Psychology"
 acceptedApproximately: "Late 19th century–late 20th century"
+acceptedYear: 1885
 changedApproximately: "1960s–2000s"
 timelineYear: 1960
 summary: "Experiments found that aggressive catharsis often rehearses anger instead of emptying it."

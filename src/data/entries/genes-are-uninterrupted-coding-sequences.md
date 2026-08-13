@@ -5,6 +5,7 @@ whyItChanged: "The early gene-to-messenger model assumed continuous corresponden
 status: "Overturned"
 category: "Genetics"
 acceptedApproximately: "1950s–1977"
+acceptedYear: 1955
 changedApproximately: "1977–1980s"
 timelineYear: 1977
 summary: "Split genes showed that cells edit RNA by removing introns and joining separated coding regions."

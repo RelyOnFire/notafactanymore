@@ -5,6 +5,7 @@ whyItChanged: "Before sensitive seismographs and global timekeeping, reports dep
 status: "Overturned"
 category: "Technology"
 acceptedApproximately: "Before modern instrumental seismology"
+acceptedYear: 1850
 changedApproximately: "Late 19th–early 20th century"
 timelineYear: 1900
 summary: "Seismographs made distant earthquakes measurable and locatable without seeing the damage."

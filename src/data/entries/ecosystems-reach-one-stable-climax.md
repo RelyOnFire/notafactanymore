@@ -5,6 +5,7 @@ whyItChanged: "Frederic Clements's influential succession theory treated vegetat
 status: "Superseded"
 category: "Ecology"
 acceptedApproximately: "Early–mid-20th century"
+acceptedYear: 1915
 changedApproximately: "Mid–late 20th century"
 timelineYear: 1970
 summary: "Ecosystems proved less like organisms maturing toward one final form and more like historically contingent, changing systems."

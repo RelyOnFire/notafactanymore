@@ -5,6 +5,7 @@ whyItChanged: "Parity had been treated as a fundamental conservation law. In 195
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1920s–1956"
+acceptedYear: 1925
 changedApproximately: "1956–1957"
 timelineYear: 1957
 summary: "A symmetry ranked with the great conservation laws failed when physicists tested radioactive beta decay."

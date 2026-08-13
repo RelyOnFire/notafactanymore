@@ -5,6 +5,7 @@ whyItChanged: "Measurements of galaxy distances and redshifts revealed a consist
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "19th century through the 1920s"
+acceptedYear: 1850
 changedApproximately: "1920s–1930s"
 timelineYear: 1929
 summary: "Galaxy measurements overturned the prevailing picture of a static universe."

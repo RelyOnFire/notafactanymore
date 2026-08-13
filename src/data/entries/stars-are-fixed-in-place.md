@@ -4,13 +4,15 @@ currentUnderstanding: "Stars move through the Milky Way and display measurable p
 whyItChanged: "The enormous distances to stars make their angular motion extremely small over a human lifetime. In 1718, Edmond Halley compared contemporary positions with ancient catalogues and identified significant shifts in Sirius, Arcturus, and Aldebaran."
 status: "Overturned"
 category: "Astronomy"
-acceptedApproximately: "Antiquity–early 18th century"
-changedApproximately: "1718–19th century"
-timelineYear: 1718
+acceptedApproximately: "Ptolemaic astronomy through the early 18th century"
+acceptedYear: 150
+changedApproximately: "1738 (first statistically significant stellar proper-motion evidence)"
+timelineYear: 1738
+lifespanComparable: true
 summary: "Comparisons with ancient star catalogues revealed that even the supposedly fixed stars move."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Considerations on the Change of the Latitudes of Some of the Principal Fixt Stars"
     url: "https://royalsocietypublishing.org/doi/10.1098/rstl.1717.0052"

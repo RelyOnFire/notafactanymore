@@ -5,6 +5,7 @@ whyItChanged: "Better cell preparation and microscopy made chromosomes easier to
 status: "Corrected"
 category: "Genetics"
 acceptedApproximately: "1920s–1955"
+acceptedYear: 1925
 changedApproximately: "1955–1956"
 timelineYear: 1956
 summary: "Improved microscopy corrected the accepted human chromosome count from 48 to 46."

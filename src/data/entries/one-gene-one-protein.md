@@ -5,6 +5,7 @@ whyItChanged: "Researchers discovered that cells can assemble and process the sa
 status: "Superseded"
 category: "Genetics"
 acceptedApproximately: "1940s–1970s"
+acceptedYear: 1945
 changedApproximately: "1970s–2000s"
 timelineYear: 1977
 summary: "The one-gene–one-protein rule was replaced by a model in which one gene can produce several different products."

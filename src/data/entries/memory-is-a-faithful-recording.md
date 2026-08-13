@@ -5,6 +5,7 @@ whyItChanged: "Older legal and popular models often treated memory like a perman
 status: "Superseded"
 category: "Psychology"
 acceptedApproximately: "Longstanding popular and legal assumption through much of the 20th century"
+acceptedYear: 1900
 changedApproximately: "1930s–present"
 timelineYear: 1932
 summary: "Memory changed from a mental recording to an active reconstruction that can be altered after an event."

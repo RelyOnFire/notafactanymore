@@ -5,6 +5,7 @@ whyItChanged: "Oxygen seemed intuitively protective and became routine despite l
 status: "Narrowed"
 category: "Medicine"
 acceptedApproximately: "Early–late 20th century"
+acceptedYear: 1915
 changedApproximately: "2000s–2010s"
 timelineYear: 2017
 summary: "A universal emergency treatment narrowed to patients who are actually short of oxygen."

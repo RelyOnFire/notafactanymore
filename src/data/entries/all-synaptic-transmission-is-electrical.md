@@ -5,6 +5,7 @@ whyItChanged: "Because impulses travel electrically along nerves, many physiolog
 status: "Narrowed"
 category: "Neuroscience"
 acceptedApproximately: "Late 19th century–1920s"
+acceptedYear: 1885
 changedApproximately: "1921–1950s"
 timelineYear: 1921
 summary: "Neurotransmitter experiments showed that most synapses use chemical messengers, while electrical synapses remain real exceptions."

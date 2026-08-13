@@ -5,6 +5,7 @@ whyItChanged: "Infrared and radio observations revealed molecular signatures tha
 status: "Overturned"
 category: "Astrochemistry"
 acceptedApproximately: "Mid-20th century"
+acceptedYear: 1950
 changedApproximately: "1970s–2000s"
 timelineYear: 1980
 summary: "Space chemistry proved capable of producing and preserving molecules far larger than early models allowed."

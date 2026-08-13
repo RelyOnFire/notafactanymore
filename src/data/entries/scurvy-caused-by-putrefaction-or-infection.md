@@ -1,16 +1,18 @@
 ---
-claim: "Scurvy is caused by putrefaction, bad air, infection, or poor morale rather than a missing nutrient."
-currentUnderstanding: "Scurvy results from severe vitamin C deficiency. Humans require dietary vitamin C for collagen production and other biological functions."
-whyItChanged: "For centuries, scurvy was explained through humoral imbalance, spoiled food, weather, fatigue, and later infection. Citrus prevented and treated the disease, but the missing substance was not identified as vitamin C until the 20th century."
+claim: "Scurvy is a putrid disease caused by corruption of the body, often promoted by damp, cold, inactivity, and unsuitable food."
+currentUnderstanding: "Scurvy is caused by severe vitamin C deficiency. Vitamin C is required for collagen synthesis and other biological functions, and adequate dietary intake prevents and cures the disease."
+whyItChanged: "Seventeenth- and eighteenth-century physicians commonly interpreted scurvy through putrefaction of the humours and environmental or dietary conditions. Citrus repeatedly prevented or treated scurvy, and early-20th-century animal experiments finally established it as a dietary deficiency disease; vitamin C was later isolated and identified."
 status: "Superseded"
 category: "Medicine"
-acceptedApproximately: "Antiquity–early 20th century"
-changedApproximately: "1740s–1930s"
-timelineYear: 1840
-summary: "A mysterious disease of sailors became a precisely defined vitamin deficiency."
+acceptedApproximately: "17th–18th-century European medicine"
+acceptedYear: 1650
+changedApproximately: "1907–1932"
+timelineYear: 1907
+lifespanComparable: true
+summary: "A putrefactive disease model gave way to the demonstration that scurvy is caused by a missing dietary factor, later identified as vitamin C."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Scurvy on sea and land"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4337985/"

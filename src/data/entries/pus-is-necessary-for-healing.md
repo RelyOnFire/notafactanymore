@@ -4,13 +4,15 @@ currentUnderstanding: "Pus usually indicates an inflammatory response to infecti
 whyItChanged: "The doctrine of 'laudable pus' treated thick, non-foul pus as a favorable sign that a wound was maturing normally. Antisepsis, germ theory, microbiology, and comparative surgical outcomes showed that preventing contamination and infection improved healing."
 status: "Overturned"
 category: "Medicine"
-acceptedApproximately: "Antiquity–19th century"
+acceptedApproximately: "Medieval and early-modern surgical tradition through the 19th century"
+acceptedYear: 1200
 changedApproximately: "1860s–early 20th century"
 timelineYear: 1867
+lifespanComparable: true
 summary: "Antiseptic surgery replaced desirable 'laudable pus' with infection prevention."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-13"
 sources:
   - title: "On a New Method of Treating Compound Fracture, Abscess, etc."
     url: "https://archive.org/details/b30567564"

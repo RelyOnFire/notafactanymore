@@ -5,6 +5,7 @@ whyItChanged: "Early estimates treated Earth mainly as a body cooling from a hot
 status: "Corrected"
 category: "Earth Science"
 acceptedApproximately: "Mid to late 19th century"
+acceptedYear: 1850
 changedApproximately: "1890s–1950s"
 timelineYear: 1925
 summary: "Radiometric dating replaced 19th-century estimates of a young Earth with an age of about 4.54 billion years."

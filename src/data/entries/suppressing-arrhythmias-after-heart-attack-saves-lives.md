@@ -5,6 +5,7 @@ whyItChanged: "Frequent premature beats predicted sudden death, so pharmacologic
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1970s–1989"
+acceptedYear: 1975
 changedApproximately: "1989"
 timelineYear: 1989
 summary: "CAST showed that drugs could improve an ECG marker while making patients more likely to die."

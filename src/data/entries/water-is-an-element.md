@@ -5,12 +5,14 @@ whyItChanged: "Experiments in the late 18th century produced water by reacting g
 status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Classical antiquity through the 18th century"
+acceptedYear: -350
 changedApproximately: "1780s"
 timelineYear: 1783
+lifespanComparable: true
 summary: "Water's ancient status as one of the basic elements ended when experiments showed that it is a compound of hydrogen and oxygen."
 featured: false 
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Revolutionary Instruments: Lavoisier's Tools as Objets d'Art"
     url: "https://www.sciencehistory.org/stories/magazine/revolutionary-instruments-lavoisiers-tools-as-objets-dart/"

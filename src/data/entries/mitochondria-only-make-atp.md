@@ -5,6 +5,7 @@ whyItChanged: "The 'powerhouse' model captured the organelle's most obvious role
 status: "Superseded"
 category: "Cell Biology"
 acceptedApproximately: "Mid-20th century–1990s"
+acceptedYear: 1950
 changedApproximately: "1990s–present"
 timelineYear: 1995
 summary: "The cellular powerhouse became a broader control center for metabolism, signaling, stress, and cell death."

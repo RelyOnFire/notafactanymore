@@ -5,6 +5,7 @@ whyItChanged: "Experiments with cathode rays, radioactivity, particle scattering
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "Early to late 19th century"
+acceptedYear: 1815
 changedApproximately: "1890s–1930s"
 timelineYear: 1897
 summary: "Experiments showed that atoms are not indivisible but contain electrons, nuclei, and still smaller particles."

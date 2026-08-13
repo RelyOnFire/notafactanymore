@@ -4,13 +4,15 @@ currentUnderstanding: "Light propagates through vacuum at a finite speed of exac
 whyItChanged: "Terrestrial experiments initially lacked paths and clocks precise enough to reveal a delay. In 1676, Ole Rømer explained variations in the observed timing of eclipses of Jupiter's moon Io as the changing travel time of light across Earth's orbit."
 status: "Overturned"
 category: "Physics"
-acceptedApproximately: "Antiquity–17th century"
+acceptedApproximately: "17th-century Cartesian natural philosophy"
+acceptedYear: 1637
 changedApproximately: "1676–19th century"
 timelineYear: 1676
+lifespanComparable: true
 summary: "Astronomical timing exposed a measurable travel time for light across the Solar System."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-13"
 sources:
   - title: "A Demonstration Concerning the Motion of Light"
     url: "https://royalsocietypublishing.org/doi/10.1098/rstl.1677.0024"

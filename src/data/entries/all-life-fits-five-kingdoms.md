@@ -5,6 +5,7 @@ whyItChanged: "Whittaker's five kingdoms became a standard textbook framework in
 status: "Superseded"
 category: "Evolution"
 acceptedApproximately: "Late 1960s–1990s"
+acceptedYear: 1968
 changedApproximately: "1970s–present"
 timelineYear: 1977
 summary: "A standard five-kingdom map of life gave way to molecular trees with three domains and many eukaryotic lineages."

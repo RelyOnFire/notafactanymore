@@ -5,6 +5,7 @@ whyItChanged: "In 1962, Neil Bartlett produced the first recognized noble-gas co
 status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "1890s–1962"
+acceptedYear: 1895
 changedApproximately: "1962 onward"
 timelineYear: 1962
 summary: "The elements once called completely inert turned out to be capable of forming compounds."

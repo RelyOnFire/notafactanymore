@@ -5,6 +5,7 @@ whyItChanged: "A simple expectation that temperature should fall with distance f
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "19th century–1930s"
+acceptedYear: 1850
 changedApproximately: "1939–1942"
 timelineYear: 1940
 summary: "Highly ionized iron revealed an outer solar atmosphere far hotter than the Sun's visible surface."

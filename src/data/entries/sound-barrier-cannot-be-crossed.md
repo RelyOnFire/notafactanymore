@@ -5,6 +5,7 @@ whyItChanged: "As aircraft approached Mach 1, rising drag, buffeting, and contro
 status: "Overturned"
 category: "Aerospace"
 acceptedApproximately: "Popular and some engineering opinion in the 1930s–1940s"
+acceptedYear: 1935
 changedApproximately: "1947"
 timelineYear: 1947
 summary: "The sound barrier proved to be a difficult aerodynamic regime rather than an uncrossable wall."

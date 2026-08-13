@@ -5,6 +5,7 @@ whyItChanged: "Early uncontrolled reports emphasized calmer behavior and easier 
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1930s–1950s"
+acceptedYear: 1935
 changedApproximately: "1950s–1970s"
 timelineYear: 1965
 summary: "An acclaimed psychiatric operation was abandoned after its irreversible harms and weak evidence became undeniable."

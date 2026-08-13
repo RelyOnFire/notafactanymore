@@ -1,16 +1,18 @@
 ---
-claim: "Parental traits blend permanently in offspring like two liquids being mixed."
-currentUnderstanding: "Inheritance is carried by discrete genetic variants. An offspring can inherit different variants from each parent, and variants can remain intact through generations even when the visible trait appears intermediate."
-whyItChanged: "Blending inheritance was a common 19th-century model, but it could not explain the reappearance of hidden traits. Mendel's experiments showed that inherited factors segregate and recombine rather than being permanently diluted."
-status: "Superseded"
+claim: "Biologists generally believed inheritance worked by permanently blending parental hereditary material."
+currentUnderstanding: "Nineteenth-century biologists often described offspring traits as blended or intermediate, but that did not usually amount to a single accepted mechanism in which hereditary material was literally and permanently mixed. Historical work shows that only a limited number of biologists explicitly proposed such a blending mechanism."
+whyItChanged: "The familiar “blending inheritance versus Mendel” story was sharpened retrospectively after Mendelian genetics became established. Historians distinguish descriptions of blended outcomes from mechanistic theories of heredity, making the older textbook contrast too simple."
+status: "Corrected"
 category: "Genetics"
-acceptedApproximately: "Ancient theories through the late 19th century"
-changedApproximately: "1900s–1920s"
-timelineYear: 1900
-summary: "Mendelian genetics replaced the idea that parental inheritance is permanently mixed and diluted."
+acceptedApproximately: "A later textbook characterization of 19th-century heredity, rather than a single period of consensus"
+acceptedYear: 1850
+changedApproximately: "Late 20th–21st-century historical reassessment"
+timelineYear: 2014
+lifespanComparable: false
+summary: "The standard story that pre-Mendelian biology broadly endorsed a literal blending mechanism overstates the historical consensus."
 featured: false
 publishedAt: "2026-07-27"
-reviewedAt: "2026-07-27"
+reviewedAt: "2026-08-13"
 sources:
   - title: "The curious case of blending inheritance"
     url: "https://pubmed.ncbi.nlm.nih.gov/24803228/"

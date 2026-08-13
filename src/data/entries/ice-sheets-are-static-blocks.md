@@ -5,6 +5,7 @@ whyItChanged: "Their size and apparently fixed surface made ice sheets look immo
 status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Before modern glaciological measurement"
+acceptedYear: 1850
 changedApproximately: "20th century–present"
 timelineYear: 1957
 summary: "The great polar ice sheets became dynamic rivers of solid ice rather than frozen blocks."

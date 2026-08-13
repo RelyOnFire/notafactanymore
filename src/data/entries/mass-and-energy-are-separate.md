@@ -5,6 +5,7 @@ whyItChanged: "Special relativity linked mass and energy through a single physic
 status: "Superseded"
 category: "Physics"
 acceptedApproximately: "Classical mechanics through the early 20th century"
+acceptedYear: 1700
 changedApproximately: "1905 onward"
 timelineYear: 1905
 summary: "Relativity united mass and energy, turning two separate bookkeeping quantities into related forms of one physical total."

@@ -5,6 +5,7 @@ whyItChanged: "Viruses were historically defined partly by their ability to pass
 status: "Overturned"
 category: "Virology"
 acceptedApproximately: "Late 19th century–early 2000s"
+acceptedYear: 1885
 changedApproximately: "2003 onward"
 timelineYear: 2003
 summary: "Giant viruses broke the old size boundary between viruses and cellular microorganisms."

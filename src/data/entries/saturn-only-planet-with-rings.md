@@ -5,6 +5,7 @@ whyItChanged: "Saturn's rings were the only known planetary ring system for abou
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "17th century–1977"
+acceptedYear: 1650
 changedApproximately: "1977–1989"
 timelineYear: 1977
 summary: "Saturn lost its status as the only ringed planet when faint rings were found around the other giants."

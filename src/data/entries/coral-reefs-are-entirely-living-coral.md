@@ -5,6 +5,7 @@ whyItChanged: "The visible reef surface is colorful and alive, making the whole 
 status: "Corrected"
 category: "Ocean Science"
 acceptedApproximately: "Common early natural-history and public model"
+acceptedYear: 1800
 changedApproximately: "19th–20th centuries"
 timelineYear: 1842
 summary: "The living reef surface turned out to rest on generations of skeletons, sediments, and other organisms."

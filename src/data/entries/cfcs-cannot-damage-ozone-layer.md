@@ -5,6 +5,7 @@ whyItChanged: "The chemical stability that made CFCs useful was initially treate
 status: "Overturned"
 category: "Atmospheric Science"
 acceptedApproximately: "1930s–1970s"
+acceptedYear: 1935
 changedApproximately: "1974–1980s"
 timelineYear: 1974
 summary: "CFC stability allowed the chemicals to reach the stratosphere, where sunlight released ozone-destroying chlorine."

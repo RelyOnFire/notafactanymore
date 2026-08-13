@@ -1,16 +1,18 @@
 ---
-claim: "The space between stars is essentially empty."
-currentUnderstanding: "Interstellar space contains thin gas, plasma, dust, cosmic rays, magnetic fields, and molecules. Some regions form dense molecular clouds where stars and planets are born."
-whyItChanged: "Spectroscopy, radio astronomy, and spacecraft measurements detected matter and fields that are far too sparse to see directly but are widespread throughout the Galaxy."
+claim: "The space between stars contains no detectable material medium."
+currentUnderstanding: "Interstellar space contains extremely diffuse gas, plasma, dust, molecules, cosmic rays, and magnetic fields. Denser molecular clouds are the raw material for new stars and planets."
+whyItChanged: "The material is too diffuse to see directly. In 1904, Johannes Hartmann found stationary calcium absorption lines in the spectrum of a moving binary star, evidence that absorbing material lay between the star and Earth; later spectroscopy and radio astronomy revealed a pervasive interstellar medium."
 status: "Overturned"
 category: "Astronomy"
-acceptedApproximately: "Antiquity through the early 20th century"
-changedApproximately: "20th century"
+acceptedApproximately: "Before the first spectroscopic detections of interstellar matter"
+acceptedYear: 1850
+changedApproximately: "1904–1920s"
 timelineYear: 1904
-summary: "The apparent void between stars proved to contain a thin but important interstellar medium."
+lifespanComparable: false
+summary: "Spectroscopy revealed matter in the apparent void between the stars."
 featured: false
 publishedAt: "2026-07-23"
-reviewedAt: "2026-07-23"
+reviewedAt: "2026-08-13"
 sources:
   - title: "When Earth Songs Filled the Void of Space"
     url: "https://ntrs.nasa.gov/citations/20030062059"

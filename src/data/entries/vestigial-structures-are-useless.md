@@ -5,6 +5,7 @@ whyItChanged: "Vestigial organs were often described as useless remnants, and so
 status: "Narrowed"
 category: "Evolution"
 acceptedApproximately: "Late 19th–20th century textbook usage"
+acceptedYear: 1885
 changedApproximately: "20th century–present"
 timelineYear: 1980
 summary: "Vestigial came to mean reduced from an ancestral role, not necessarily functionless."

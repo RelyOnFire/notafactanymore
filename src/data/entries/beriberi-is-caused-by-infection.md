@@ -5,6 +5,7 @@ whyItChanged: "Animals fed polished rice developed neurological illness but reco
 status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Late 19th to early 20th century"
+acceptedYear: 1885
 changedApproximately: "1890s–1930s"
 timelineYear: 1897
 summary: "The search for an infection or rice toxin gave way to the discovery that beriberi is caused by thiamine deficiency."

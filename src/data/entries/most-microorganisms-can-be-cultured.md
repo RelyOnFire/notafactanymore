@@ -5,6 +5,7 @@ whyItChanged: "Microbiology developed around organisms that formed visible labor
 status: "Overturned"
 category: "Microbiology"
 acceptedApproximately: "Late 19th century–late 20th century"
+acceptedYear: 1885
 changedApproximately: "1970s–2000s"
 timelineYear: 1985
 summary: "Direct counts and DNA surveys revealed a vast microbial majority missing from ordinary culture plates."

@@ -5,6 +5,7 @@ whyItChanged: "Early occupational reports focused on fibrosis and often treated 
 status: "Overturned"
 category: "Public Health"
 acceptedApproximately: "Early 20th century–1960s"
+acceptedYear: 1915
 changedApproximately: "1950s–1970s"
 timelineYear: 1965
 summary: "Worker studies and the mesothelioma connection established asbestos as a potent occupational carcinogen."

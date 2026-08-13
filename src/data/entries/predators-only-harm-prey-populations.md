@@ -5,6 +5,7 @@ whyItChanged: "Management and early ecological reasoning often treated predators
 status: "Overturned"
 category: "Ecology"
 acceptedApproximately: "19th–mid-20th century"
+acceptedYear: 1850
 changedApproximately: "1960s–1980s"
 timelineYear: 1966
 summary: "Some predators proved to hold entire communities together rather than simply subtracting prey."

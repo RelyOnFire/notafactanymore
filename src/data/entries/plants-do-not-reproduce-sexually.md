@@ -1,16 +1,18 @@
 ---
-claim: "Plants do not reproduce sexually in the way animals do."
-currentUnderstanding: "Plants have sexual reproduction involving male and female gametes. In seed plants, pollen delivers sperm cells and fertilization produces an embryo; many plants also reproduce asexually."
-whyItChanged: "Because plants are immobile and their reproductive structures differ greatly from animal organs, their sexuality remained disputed. Controlled experiments by botanists including Rudolf Jakob Camerarius showed that viable seed production depended on pollen, establishing sexual reproduction in plants."
+claim: "Plants were not understood to require a male reproductive contribution analogous to animal fertilization."
+currentUnderstanding: "Plants reproduce sexually as well as asexually. In seed plants, pollen carries the male gametophyte and ultimately delivers sperm cells; fertilization produces the embryo."
+whyItChanged: "Seventeenth-century anatomists debated the meaning of stamens and pollen. Camerarius showed experimentally in 1694 that seed production depended on pollen, providing the first unequivocal experimental demonstration of sexual reproduction in plants."
 status: "Overturned"
 category: "Botany"
-acceptedApproximately: "Antiquity–17th century"
-changedApproximately: "Late 17th–18th centuries"
+acceptedApproximately: "Before the late-17th-century experimental establishment of plant sexuality"
+acceptedYear: 1600
+changedApproximately: "1694 and the early 18th century"
 timelineYear: 1694
-summary: "Experiments with pollen and seed formation established that plants have sexual reproduction as well as asexual reproduction."
+lifespanComparable: false
+summary: "Controlled pollination experiments established a male reproductive role for pollen and a sexual process in plants."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-13"
 sources:
   - title: "De sexu plantarum epistola"
     url: "https://search.worldcat.org/title/8733994"

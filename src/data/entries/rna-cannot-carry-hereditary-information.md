@@ -5,6 +5,7 @@ whyItChanged: "RNA was often treated mainly as an intermediary between DNA and p
 status: "Overturned"
 category: "Genetics"
 acceptedApproximately: "1940s–1950s"
+acceptedYear: 1945
 changedApproximately: "1956–1957"
 timelineYear: 1957
 summary: "Tobacco mosaic virus experiments demonstrated that RNA itself could carry a genome."

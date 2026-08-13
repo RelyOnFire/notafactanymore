@@ -5,6 +5,7 @@ whyItChanged: "Fossil leaves, wood, pollen, roots, soils, and animal remains rev
 status: "Overturned"
 category: "Paleoclimate"
 acceptedApproximately: "Before extensive Antarctic geological exploration"
+acceptedYear: 1900
 changedApproximately: "20th century–present"
 timelineYear: 1984
 summary: "Fossils beneath Antarctica's modern ice revealed forests and warm polar ecosystems from its past."

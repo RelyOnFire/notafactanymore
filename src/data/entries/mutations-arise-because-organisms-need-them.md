@@ -5,6 +5,7 @@ whyItChanged: "Bacteria exposed to viruses or antibiotics seemed to acquire resi
 status: "Overturned"
 category: "Genetics"
 acceptedApproximately: "Competing biological explanation through the early 20th century"
+acceptedYear: 1900
 changedApproximately: "1943–1950s"
 timelineYear: 1943
 summary: "Fluctuation experiments showed that resistant mutants generally existed before the selective challenge."

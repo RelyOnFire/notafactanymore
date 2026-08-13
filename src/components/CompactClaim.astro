@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { formatApproxYears, lifespanYears } from '../lib/lifespans';
 
 interface Props {
   entry: CollectionEntry<'entries'>;
@@ -7,11 +8,13 @@ interface Props {
 
 const { entry } = Astro.props;
 const { data } = entry;
+const lifespan = lifespanYears(data.acceptedYear, data.timelineYear);
+const lifespanComparable = data.lifespanComparable !== false;
 ---
 
 <a class="compact-claim" href={`/entries/${entry.id}/`}>
   <strong>{data.claim}</strong>
-  <span>{data.category} · {data.status}</span>
+  <span>{data.category} · {data.status} · {lifespanComparable ? formatApproxYears(lifespan) : 'Lifespan not quantified'}</span>
 </a>
 
 <style>

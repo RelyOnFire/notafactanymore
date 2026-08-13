@@ -5,6 +5,7 @@ whyItChanged: "Chemical burning could not keep the Sun shining for more than a s
 status: "Superseded"
 category: "Astronomy"
 acceptedApproximately: "18th to early 19th century"
+acceptedYear: 1750
 changedApproximately: "19th century–1930s"
 timelineYear: 1938
 summary: "Chemical fire could not explain the Sun's age or output; nuclear fusion could."

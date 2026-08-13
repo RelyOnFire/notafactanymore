@@ -5,6 +5,7 @@ whyItChanged: "Removing the thymus from adult animals seemed harmless, reinforci
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "19th century–early 1960s"
+acceptedYear: 1850
 changedApproximately: "1961–1970s"
 timelineYear: 1961
 summary: "An organ dismissed as a lymphocyte graveyard proved essential for building the adaptive immune system."

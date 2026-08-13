@@ -5,6 +5,7 @@ whyItChanged: "The giant panda combines bear-like anatomy with a raccoon-like fa
 status: "Reclassified"
 category: "Zoology"
 acceptedApproximately: "Late 19th–late 20th century"
+acceptedYear: 1885
 changedApproximately: "1980s–2000s"
 timelineYear: 1985
 summary: "Genetics settled a long argument by placing the giant panda among bears, not raccoons."

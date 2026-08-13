@@ -5,6 +5,7 @@ whyItChanged: "Deep dredging, submersibles, remotely operated vehicles, and seaf
 status: "Overturned"
 category: "Ocean Science"
 acceptedApproximately: "Dominant public and early scientific picture through much of the 20th century"
+acceptedYear: 1825
 changedApproximately: "19th century–present"
 timelineYear: 1872
 summary: "Deep exploration revealed abundant coral ecosystems in cold water far beyond the reach of sunlight."

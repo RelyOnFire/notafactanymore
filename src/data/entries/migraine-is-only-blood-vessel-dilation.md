@@ -5,6 +5,7 @@ whyItChanged: "The vascular theory dominated after Harold Wolff's work in the 19
 status: "Superseded"
 category: "Neuroscience"
 acceptedApproximately: "1940s–1990s"
+acceptedYear: 1945
 changedApproximately: "1980s–present"
 timelineYear: 1990
 summary: "A simple blood-vessel explanation gave way to a broader neurological and neurovascular model."

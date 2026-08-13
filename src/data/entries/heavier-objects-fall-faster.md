@@ -5,12 +5,14 @@ whyItChanged: "Galileo challenged the Aristotelian account using arguments and e
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "Classical antiquity through the 16th century"
+acceptedYear: -350
 changedApproximately: "16th–17th centuries"
 timelineYear: 1638
+lifespanComparable: true
 summary: "The Aristotelian rule that heavier bodies fall proportionally faster was replaced by the universality of free fall."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Galileo Galilei"
     url: "https://plato.stanford.edu/entries/galileo/"

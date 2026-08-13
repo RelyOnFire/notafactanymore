@@ -5,6 +5,7 @@ whyItChanged: "Classical genetics treated one sampled genome as the genome of th
 status: "Corrected"
 category: "Genetics"
 acceptedApproximately: "20th century–early 2000s"
+acceptedYear: 1950
 changedApproximately: "2000s–present"
 timelineYear: 2012
 summary: "The body turned out to be a genetic mosaic rather than billions of exact DNA copies."

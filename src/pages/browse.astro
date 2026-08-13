@@ -71,6 +71,8 @@ const statuses = [
             <option value="subject">Subject A–Z</option>
             <option value="newest-change">Newest change</option>
             <option value="oldest-change">Oldest change</option>
+            <option value="shortest-lived">Shortest-lived</option>
+            <option value="longest-lived">Longest-lived</option>
             <option value="recently-added">Recently added</option>
           </select>
         </label>
@@ -184,6 +186,7 @@ const statuses = [
         data-claim={entry.data.claim}
         data-subject={claimSortKey(entry.data.claim)}
         data-timeline-year={entry.data.timelineYear}
+        data-lifespan={entry.data.lifespanComparable === false ? "" : entry.data.timelineYear - entry.data.acceptedYear}
         data-published-at={entry.data.publishedAt.getTime()}
       >
         <FactCard entry={entry} />
@@ -202,6 +205,7 @@ const statuses = [
         data-claim={entry.data.claim}
         data-subject={claimSortKey(entry.data.claim)}
         data-timeline-year={entry.data.timelineYear}
+        data-lifespan={entry.data.lifespanComparable === false ? "" : entry.data.timelineYear - entry.data.acceptedYear}
         data-published-at={entry.data.publishedAt.getTime()}
       >
         <CompactClaim entry={entry} />
@@ -246,7 +250,13 @@ const statuses = [
     const selectedCategories = new Set<string>();
     const selectedStatuses = new Set<string>();
 
-    type SortMode = 'subject' | 'newest-change' | 'oldest-change' | 'recently-added';
+    type SortMode =
+      | 'subject'
+      | 'newest-change'
+      | 'oldest-change'
+      | 'shortest-lived'
+      | 'longest-lived'
+      | 'recently-added';
 
     let currentView: 'cards' | 'compact' = 'cards';
     let currentSort: SortMode = 'subject';
@@ -263,6 +273,10 @@ const statuses = [
       const subjectB = b.dataset.subject ?? claimB;
       const yearA = Number(a.dataset.timelineYear ?? 0);
       const yearB = Number(b.dataset.timelineYear ?? 0);
+      const comparableA = Boolean(a.dataset.lifespan);
+      const comparableB = Boolean(b.dataset.lifespan);
+      const lifespanA = comparableA ? Number(a.dataset.lifespan) : 0;
+      const lifespanB = comparableB ? Number(b.dataset.lifespan) : 0;
       const publishedA = Number(a.dataset.publishedAt ?? 0);
       const publishedB = Number(b.dataset.publishedAt ?? 0);
 
@@ -272,6 +286,16 @@ const statuses = [
 
       if (currentSort === 'oldest-change') {
         return yearA - yearB || subjectA.localeCompare(subjectB, undefined, { sensitivity: 'base', numeric: true });
+      }
+
+      if (currentSort === 'shortest-lived') {
+        if (comparableA !== comparableB) return comparableA ? -1 : 1;
+        return lifespanA - lifespanB || yearA - yearB || subjectA.localeCompare(subjectB, undefined, { sensitivity: 'base', numeric: true });
+      }
+
+      if (currentSort === 'longest-lived') {
+        if (comparableA !== comparableB) return comparableA ? -1 : 1;
+        return lifespanB - lifespanA || yearB - yearA || subjectA.localeCompare(subjectB, undefined, { sensitivity: 'base', numeric: true });
       }
 
       if (currentSort === 'recently-added') {
@@ -496,6 +520,8 @@ const statuses = [
         value === 'subject' ||
         value === 'newest-change' ||
         value === 'oldest-change' ||
+        value === 'shortest-lived' ||
+        value === 'longest-lived' ||
         value === 'recently-added'
       ) {
         setSort(value);
@@ -536,6 +562,8 @@ const statuses = [
     if (
       requestedSort === 'newest-change' ||
       requestedSort === 'oldest-change' ||
+      requestedSort === 'shortest-lived' ||
+      requestedSort === 'longest-lived' ||
       requestedSort === 'recently-added'
     ) {
       currentSort = requestedSort;

@@ -5,6 +5,7 @@ whyItChanged: "Composition analysis initially encouraged chemists to identify a 
 status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Late 18th century–1820s"
+acceptedYear: 1785
 changedApproximately: "1820s–1830s"
 timelineYear: 1828
 summary: "Isomerism showed that composition alone does not determine a compound; molecular structure matters."

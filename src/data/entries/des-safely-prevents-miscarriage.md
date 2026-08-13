@@ -5,6 +5,7 @@ whyItChanged: "DES was prescribed from the 1940s despite weak evidence. A contro
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1940s–1971"
+acceptedYear: 1945
 changedApproximately: "1953–1971"
 timelineYear: 1971
 summary: "A failed prevention trial and delayed cancers exposed DES as ineffective and harmful in pregnancy."

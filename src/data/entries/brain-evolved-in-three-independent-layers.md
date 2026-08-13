@@ -5,6 +5,7 @@ whyItChanged: "Paul MacLean's triune-brain model offered an influential synthesi
 status: "Superseded"
 category: "Neuroscience"
 acceptedApproximately: "1950s–late 20th century"
+acceptedYear: 1955
 changedApproximately: "1980s–present"
 timelineYear: 1990
 summary: "Comparative neuroscience replaced three stacked brains with evolutionarily modified, deeply interconnected networks."

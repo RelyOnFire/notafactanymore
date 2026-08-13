@@ -5,6 +5,7 @@ whyItChanged: "Early theories often treated intelligence and brain enlargement a
 status: "Overturned"
 category: "Human Evolution"
 acceptedApproximately: "Late 19th century–early 20th century"
+acceptedYear: 1885
 changedApproximately: "1920s–1970s"
 timelineYear: 1950
 summary: "Small-brained australopithecines showed that walking on two legs preceded major human brain expansion."

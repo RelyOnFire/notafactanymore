@@ -5,6 +5,7 @@ whyItChanged: "In 1994, images from the Galileo spacecraft revealed Dactyl orbit
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "19th century–early 1990s"
+acceptedYear: 1850
 changedApproximately: "1994"
 timelineYear: 1993
 summary: "The discovery of Dactyl around asteroid Ida showed that even small asteroids can have moons."

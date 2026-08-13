@@ -5,6 +5,7 @@ whyItChanged: "For decades, known transition temperatures rose slowly and theory
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1911–1986"
+acceptedYear: 1911
 changedApproximately: "1986–1987"
 timelineYear: 1986
 summary: "Ceramic copper oxides moved superconductivity from liquid-helium temperatures into the liquid-nitrogen range."

@@ -5,6 +5,7 @@ whyItChanged: "Avery, MacLeod and McCarty showed in 1944 that DNA purified from 
 status: "Overturned"
 category: "Genetics"
 acceptedApproximately: "Early 20th century to the 1940s"
+acceptedYear: 1915
 changedApproximately: "1944–1950s"
 timelineYear: 1944
 summary: "Experiments showed that DNA, not protein, carries hereditary information in cells."

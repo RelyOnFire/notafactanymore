@@ -5,6 +5,7 @@ whyItChanged: "Airborne radar, seismic surveys, and satellite measurements revea
 status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Before radar exploration of the Antarctic interior"
+acceptedYear: 1950
 changedApproximately: "1960s–present"
 timelineYear: 1996
 summary: "Radar revealed an extensive hidden hydrological system beneath the Antarctic ice sheet."

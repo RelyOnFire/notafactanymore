@@ -5,6 +5,7 @@ whyItChanged: "The Kelvin–Helmholtz model could power the Sun for only tens of
 status: "Superseded"
 category: "Astronomy"
 acceptedApproximately: "Mid to late 19th century"
+acceptedYear: 1850
 changedApproximately: "1920s–1930s"
 timelineYear: 1920
 summary: "Gravitational contraction explained some stellar heating but could not account for the Sun's billion-year lifetime."

@@ -5,6 +5,7 @@ whyItChanged: "At the coast, a tsunami can resemble a rapidly rising or falling 
 status: "Corrected"
 category: "Ocean Science"
 acceptedApproximately: "Longstanding public and early scientific terminology"
+acceptedYear: 1850
 changedApproximately: "20th century"
 timelineYear: 1946
 summary: "The tidal wave was renamed when its source was traced to earthquakes, landslides, and eruptions rather than tides."

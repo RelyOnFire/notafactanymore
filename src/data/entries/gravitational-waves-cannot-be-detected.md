@@ -5,6 +5,7 @@ whyItChanged: "Even strong astrophysical events distort terrestrial distances by
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "Common expert assessment, 1910s–1960s"
+acceptedYear: 1920
 changedApproximately: "1960s–2015"
 timelineYear: 2015
 summary: "Kilometre-scale laser interferometers measured spacetime distortions once considered permanently beyond experimental reach."

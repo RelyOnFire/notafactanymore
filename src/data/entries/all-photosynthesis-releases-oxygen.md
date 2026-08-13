@@ -5,6 +5,7 @@ whyItChanged: "Photosynthesis was first understood mainly through plants and oxy
 status: "Narrowed"
 category: "Biochemistry"
 acceptedApproximately: "19th–early 20th century"
+acceptedYear: 1850
 changedApproximately: "Early–mid-20th century"
 timelineYear: 1931
 summary: "Light-powered biology proved older and more chemically diverse than the oxygen-producing version familiar from plants."

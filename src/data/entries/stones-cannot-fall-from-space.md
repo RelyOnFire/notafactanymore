@@ -5,6 +5,7 @@ whyItChanged: "Documented falls, chemical analysis, and especially the well-inve
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Much of the 18th century"
+acceptedYear: 1725
 changedApproximately: "1790s–1803"
 timelineYear: 1803
 summary: "European scientific skepticism about falling stones ended when witnessed showers and chemical evidence established meteorites as extraterrestrial."

@@ -5,6 +5,7 @@ whyItChanged: "Weather is chaotic, observations were sparse, and hand calculatio
 status: "Overturned"
 category: "Technology"
 acceptedApproximately: "19th–mid-20th century"
+acceptedYear: 1850
 changedApproximately: "1950s–present"
 timelineYear: 1950
 summary: "Forecasting moved from local signs and short warnings to global computer models with multi-day skill."

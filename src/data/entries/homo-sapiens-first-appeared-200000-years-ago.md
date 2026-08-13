@@ -5,6 +5,7 @@ whyItChanged: "For years, the approximately 195,000-year-old Omo fossils anchore
 status: "Narrowed"
 category: "Human Evolution"
 acceptedApproximately: "Late 20th century–2017"
+acceptedYear: 1985
 changedApproximately: "2017–present"
 timelineYear: 2017
 summary: "Older North African fossils moved the emergence of Homo sapiens back toward 300,000 years and broadened its geography."

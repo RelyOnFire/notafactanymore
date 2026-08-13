@@ -5,6 +5,7 @@ whyItChanged: "Rickets was common in crowded industrial cities and often accompa
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "19th–early 20th century"
+acceptedYear: 1850
 changedApproximately: "1910s–1930s"
 timelineYear: 1919
 summary: "A childhood bone disease blamed on infection became a model of vitamin deficiency and sunlight biology."

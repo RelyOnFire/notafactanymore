@@ -5,6 +5,7 @@ whyItChanged: "The mule became the standard model for hybrid sterility, reinforc
 status: "Narrowed"
 category: "Evolution"
 acceptedApproximately: "19th century–mid-20th century"
+acceptedYear: 1850
 changedApproximately: "20th century–present"
 timelineYear: 2006
 summary: "Fertile hybrids and hybrid species showed that species boundaries can be porous rather than universally sterile."

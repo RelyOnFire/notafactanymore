@@ -5,6 +5,7 @@ whyItChanged: "Mendelian factors were initially abstract, while chromosomes were
 status: "Overturned"
 category: "Genetics"
 acceptedApproximately: "Late 19th century–early 1900s"
+acceptedYear: 1885
 changedApproximately: "1902–1915"
 timelineYear: 1910
 summary: "Meiosis, linkage, and genetic mapping established chromosomes as the physical carriers of genes."

@@ -5,6 +5,7 @@ whyItChanged: "Quasars looked like unresolved stars in early images, which is wh
 status: "Reclassified"
 category: "Astronomy"
 acceptedApproximately: "Late 1950s–early 1960s"
+acceptedYear: 1958
 changedApproximately: "1963 onward"
 timelineYear: 1963
 summary: "Star-like points of light turned out to be the brilliant nuclei of distant galaxies."

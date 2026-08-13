@@ -5,6 +5,7 @@ whyItChanged: "Small telescopes near the limits of resolution encouraged observe
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Late 19th–early 20th century"
+acceptedYear: 1885
 changedApproximately: "Early 20th century–1960s"
 timelineYear: 1965
 summary: "A celebrated network of Martian canals disappeared as telescopes improved and spacecraft photographed the planet up close."

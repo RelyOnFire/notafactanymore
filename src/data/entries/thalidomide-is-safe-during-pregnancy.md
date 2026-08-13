@@ -5,6 +5,7 @@ whyItChanged: "Thalidomide was marketed as a sedative and treatment for pregnanc
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1957–1961"
+acceptedYear: 1957
 changedApproximately: "1961–1962"
 timelineYear: 1961
 summary: "A widely marketed sedative caused a global epidemic of severe birth defects and transformed drug regulation."

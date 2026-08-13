@@ -5,6 +5,7 @@ whyItChanged: "Before the human genome was sequenced, the number and genomic foo
 status: "Corrected"
 category: "Genetics"
 acceptedApproximately: "Common pre-genome expectation through the 1990s"
+acceptedYear: 1970
 changedApproximately: "2001–2003"
 timelineYear: 2001
 summary: "Sequencing revealed that protein instructions occupy only a small fraction of the human genome."

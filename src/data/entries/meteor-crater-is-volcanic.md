@@ -5,6 +5,7 @@ whyItChanged: "Many geologists initially favored an internal explosion because i
 status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Late 19th–mid-20th century"
+acceptedYear: 1885
 changedApproximately: "1900s–1960"
 timelineYear: 1960
 summary: "A crater once explained from below was shown to have been blasted out by an asteroid from above."

@@ -4,13 +4,15 @@ currentUnderstanding: "Planets move around the Sun in ellipses, with the Sun at 
 whyItChanged: "Kepler could not make Tycho Brahe's precise observations of Mars fit combinations of circular motion. An elliptical orbit matched the data far better and became Kepler's first law."
 status: "Superseded"
 category: "Astronomy"
-acceptedApproximately: "Classical antiquity through the early 17th century"
+acceptedApproximately: "Copernican heliocentric astronomy, 1543–1609"
+acceptedYear: 1543
 changedApproximately: "1605–1609"
 timelineYear: 1609
-summary: "Kepler replaced the ancient ideal of perfect circular orbits with ellipses."
+lifespanComparable: true
+summary: "Copernicus put the planets around the Sun but retained perfect circular motion; Kepler replaced those circles with ellipses."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Orbits and Kepler's Laws"
     url: "https://science.nasa.gov/solar-system/orbits-and-keplers-laws/"

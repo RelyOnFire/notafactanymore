@@ -5,6 +5,7 @@ whyItChanged: "Research on radioactivity and early mass spectrographs revealed a
 status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Early 19th–early 20th century"
+acceptedYear: 1815
 changedApproximately: "1910s–1920s"
 timelineYear: 1913
 summary: "The discovery of isotopes overturned the idea that every atom of an element has the same mass."

@@ -5,6 +5,7 @@ whyItChanged: "Atoms were inferred from chemistry and physics long before any in
 status: "Overturned"
 category: "Technology"
 acceptedApproximately: "19th–mid-20th century"
+acceptedYear: 1850
 changedApproximately: "1950s–1980s"
 timelineYear: 1970
 summary: "Atoms moved from purely inferred entities to objects that could be imaged and even repositioned one by one."

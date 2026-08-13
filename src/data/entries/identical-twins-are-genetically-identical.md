@@ -5,6 +5,7 @@ whyItChanged: "Twin studies traditionally treated monozygotic pairs as exact gen
 status: "Corrected"
 category: "Genetics"
 acceptedApproximately: "Early 20th century–2000s"
+acceptedYear: 1915
 changedApproximately: "2000s–present"
 timelineYear: 2008
 summary: "Identical twins start from one genome but acquire small genetic differences as development and life continue."

@@ -5,6 +5,7 @@ whyItChanged: "Cell-labeling methods, microscopy, and molecular markers showed t
 status: "Overturned"
 category: "Neuroscience"
 acceptedApproximately: "Late 19th through much of the 20th century"
+acceptedYear: 1885
 changedApproximately: "1960s–1990s"
 timelineYear: 1998
 summary: "The absolute rule that adult brains never make new neurons was overturned, although the extent in adult humans remains uncertain."

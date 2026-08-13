@@ -5,6 +5,7 @@ whyItChanged: "Medical scans repeatedly revealed cold-responsive tissue that con
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Mid to late 20th century"
+acceptedYear: 1950
 changedApproximately: "2000s"
 timelineYear: 2009
 summary: "A heat-producing tissue thought to disappear after infancy was found to remain active in many adults."

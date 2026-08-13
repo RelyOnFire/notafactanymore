@@ -5,6 +5,7 @@ whyItChanged: "Scientists found rocks magnetized in directions that could not be
 status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Before the mid-20th century"
+acceptedYear: 1850
 changedApproximately: "1920s–1960s"
 timelineYear: 1950
 summary: "Rock magnetism revealed that Earth's magnetic poles have repeatedly switched orientation."

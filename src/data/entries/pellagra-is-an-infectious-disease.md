@@ -5,6 +5,7 @@ whyItChanged: "Joseph Goldberger showed that pellagra followed restricted diets 
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Late 19th to early 20th century"
+acceptedYear: 1885
 changedApproximately: "1910s–1930s"
 timelineYear: 1915
 summary: "A disease widely blamed on infection was shown to result mainly from niacin deficiency."

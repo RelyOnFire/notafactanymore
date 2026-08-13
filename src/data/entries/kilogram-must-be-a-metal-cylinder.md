@@ -5,6 +5,7 @@ whyItChanged: "The international prototype kilogram served as the mass standard 
 status: "Superseded"
 category: "Measurement"
 acceptedApproximately: "1889–2019"
+acceptedYear: 1889
 changedApproximately: "2019"
 timelineYear: 2019
 summary: "The last major SI artifact standard was replaced by a definition tied to a fundamental constant."

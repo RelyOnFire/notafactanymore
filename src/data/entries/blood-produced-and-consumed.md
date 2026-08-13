@@ -5,12 +5,14 @@ whyItChanged: "William Harvey used anatomical observations, valve direction, exp
 status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "2nd century through the early 17th century"
+acceptedYear: 150
 changedApproximately: "1620s–1660s"
 timelineYear: 1628
+lifespanComparable: true
 summary: "Galen's outward-flow model of blood was replaced by the discovery that blood continuously circulates through the heart and vessels."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-13"
 sources:
   - title: "Discovery of the cardiovascular system: from Galen to William Harvey"
     url: "https://pubmed.ncbi.nlm.nih.gov/21781247/"

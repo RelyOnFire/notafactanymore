@@ -5,6 +5,7 @@ whyItChanged: "Careful weighing showed that many substances gain mass when burne
 status: "Superseded"
 category: "Chemistry"
 acceptedApproximately: "Late 17th through the late 18th century"
+acceptedYear: 1685
 changedApproximately: "1770s–1790s"
 timelineYear: 1789
 summary: "The dominant phlogiston theory of burning was replaced by an oxygen-based, mass-conserving account of combustion."

@@ -5,6 +5,7 @@ whyItChanged: "Modern coastlines made sea level seem permanent. Marine terraces,
 status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Before modern stratigraphy and paleoclimate reconstruction"
+acceptedYear: 1800
 changedApproximately: "19th–20th centuries"
 timelineYear: 1910
 summary: "Ancient shorelines revealed oceans repeatedly advancing across and retreating from the continents."

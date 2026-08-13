@@ -5,6 +5,7 @@ whyItChanged: "Equilibrium mixtures appear unchanged, and early static interpret
 status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "19th century–early 20th century"
+acceptedYear: 1850
 changedApproximately: "Late 19th–20th century"
 timelineYear: 1864
 summary: "Dynamic equilibrium means balanced continuing reactions, not molecular inactivity."

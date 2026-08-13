@@ -5,6 +5,7 @@ whyItChanged: "Psychogenic and nervous-system explanations were influential, esp
 status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Late 19th–mid-20th century"
+acceptedYear: 1885
 changedApproximately: "1950s–1990s"
 timelineYear: 1975
 summary: "A psychosomatic explanation gave way to evidence of inflammation, immune signaling, and abnormal airway physiology."

@@ -5,6 +5,7 @@ whyItChanged: "Vitalist interpretations treated fermentation as inseparable from
 status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Mid-19th century–1897"
+acceptedYear: 1850
 changedApproximately: "1897–1907"
 timelineYear: 1897
 summary: "Buchner's yeast extract fermented sugar without living cells, helping create modern biochemistry."

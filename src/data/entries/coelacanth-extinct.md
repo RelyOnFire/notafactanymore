@@ -5,6 +5,7 @@ whyItChanged: "In 1938, museum curator Marjorie Courtenay-Latimer recognized an 
 status: "Overturned"
 category: "Biology"
 acceptedApproximately: "19th century to 1938"
+acceptedYear: 1850
 changedApproximately: "1938–1939"
 timelineYear: 1939
 summary: "A fish known only from ancient fossils was unexpectedly found alive in 1938."

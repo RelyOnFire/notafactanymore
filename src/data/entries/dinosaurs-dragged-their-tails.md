@@ -5,6 +5,7 @@ whyItChanged: "Biomechanics, articulated skeletons, trackways, and improved moun
 status: "Superseded"
 category: "Paleontology"
 acceptedApproximately: "Late 19th–mid-20th century"
+acceptedYear: 1885
 changedApproximately: "Mid to late 20th century"
 timelineYear: 1969
 summary: "The iconic upright, tail-dragging dinosaur was replaced by a balanced, more horizontal reconstruction."

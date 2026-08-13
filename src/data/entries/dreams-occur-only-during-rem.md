@@ -5,6 +5,7 @@ whyItChanged: "After REM sleep was discovered in 1953, its strong association wi
 status: "Overturned"
 category: "Neuroscience"
 acceptedApproximately: "1950s–1970s"
+acceptedYear: 1955
 changedApproximately: "1960s–2000s"
 timelineYear: 1962
 summary: "REM is strongly linked to vivid dreams, but dreaming is not exclusive to REM sleep."

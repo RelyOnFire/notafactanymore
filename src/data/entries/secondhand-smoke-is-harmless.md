@@ -5,6 +5,7 @@ whyItChanged: "Health research initially focused on smokers' much larger doses, 
 status: "Overturned"
 category: "Public Health"
 acceptedApproximately: "Mid-20th century–1980s"
+acceptedYear: 1950
 changedApproximately: "1980s–2000s"
 timelineYear: 1986
 summary: "Disease in nonsmokers showed that diluted involuntary tobacco smoke is not harmless."

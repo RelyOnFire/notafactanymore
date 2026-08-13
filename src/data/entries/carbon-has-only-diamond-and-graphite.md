@@ -5,6 +5,7 @@ whyItChanged: "Diamond and graphite were the only widely recognized allotropes f
 status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "18th century–1985"
+acceptedYear: 1750
 changedApproximately: "1985–2004"
 timelineYear: 1985
 summary: "Carbon's two-form textbook picture expanded into a large family of molecular and nanoscale structures."

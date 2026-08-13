@@ -5,6 +5,7 @@ whyItChanged: "The photoelectric effect and later Compton scattering could not b
 status: "Superseded"
 category: "Physics"
 acceptedApproximately: "Early 19th–early 20th century"
+acceptedYear: 1815
 changedApproximately: "1905–1920s"
 timelineYear: 1905
 summary: "The successful classical wave theory of light was expanded into a quantum description that also requires photons."

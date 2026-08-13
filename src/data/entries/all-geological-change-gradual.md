@@ -5,6 +5,7 @@ whyItChanged: "Uniformitarian geology correctly emphasized processes operating o
 status: "Narrowed"
 category: "Earth Science"
 acceptedApproximately: "Especially influential in the 19th and early 20th centuries"
+acceptedYear: 1850
 changedApproximately: "20th century–present"
 timelineYear: 1980
 summary: "Slow processes remain central to geology, but catastrophes are also part of Earth's normal history."

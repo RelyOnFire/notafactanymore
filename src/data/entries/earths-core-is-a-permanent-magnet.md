@@ -5,6 +5,7 @@ whyItChanged: "Earth's resemblance to a bar magnet made permanent magnetization 
 status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "17th century–early 20th century"
+acceptedYear: 1650
 changedApproximately: "1910s–1950s"
 timelineYear: 1919
 summary: "A hot, flowing outer core replaced the permanently magnetized-core model with the geodynamo."

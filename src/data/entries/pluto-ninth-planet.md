@@ -5,6 +5,7 @@ whyItChanged: "The discovery of Pluto-like bodies in the Kuiper Belt, especially
 status: "Reclassified"
 category: "Astronomy"
 acceptedApproximately: "1930–2006"
+acceptedYear: 1930
 changedApproximately: "2006"
 timelineYear: 2006
 summary: "A new formal definition of planet reclassified Pluto as a dwarf planet."

@@ -5,6 +5,7 @@ whyItChanged: "DDT's effectiveness against insects and relatively low acute toxi
 status: "Overturned"
 category: "Environmental Science"
 acceptedApproximately: "1940s–1960s"
+acceptedYear: 1945
 changedApproximately: "1950s–1970s"
 timelineYear: 1962
 summary: "Persistence and eggshell thinning transformed DDT from a seemingly safe pesticide into a major ecological hazard."

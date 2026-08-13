@@ -5,6 +5,7 @@ whyItChanged: "Super-Kamiokande and the Sudbury Neutrino Observatory measured ch
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "Mid-20th century–1990s"
+acceptedYear: 1950
 changedApproximately: "1998–2001"
 timelineYear: 1998
 summary: "Neutrino oscillations showed that particles long treated as massless must have mass."

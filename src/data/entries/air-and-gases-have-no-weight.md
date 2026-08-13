@@ -1,22 +1,24 @@
 ---
-claim: "Air and other gases are weightless because they naturally rise or disappear."
-currentUnderstanding: "Gases are matter with mass. Air has weight, exerts pressure, and can be compressed, transferred, and weighed."
-whyItChanged: "Sealed-vessel experiments showed that combustion and chemical reactions did not make matter vanish. Barometers, air pumps, and careful weighing established that atmospheric air is a material substance with measurable mass and pressure."
+claim: "Nature prevents a true vacuum from forming; pumps and siphons work because nature abhors empty space."
+currentUnderstanding: "Vacuum can exist. Pumps, siphons, and barometers are explained by pressure differences; in a mercury barometer, atmospheric pressure supports the mercury column while a low-pressure space forms above it."
+whyItChanged: "Aristotelian and medieval natural philosophy commonly explained suction by nature's abhorrence of a void. Torricelli's 1644 mercury experiment produced a sustained empty space and correctly attributed the supported mercury column to the weight and pressure of the atmosphere."
 status: "Overturned"
 category: "Physics"
-acceptedApproximately: "Antiquity through the 17th century"
-changedApproximately: "17th–18th centuries"
+acceptedApproximately: "Medieval scholastic natural philosophy through the early 17th century"
+acceptedYear: 1200
+changedApproximately: "1640s"
 timelineYear: 1644
-summary: "Air stopped being treated as weightless once experiments showed that it has mass and produces pressure."
+lifespanComparable: true
+summary: "Torricelli's barometer replaced 'nature abhors a vacuum' with atmospheric pressure and a physically realizable vacuum."
 featured: false
 publishedAt: "2026-07-24"
-reviewedAt: "2026-07-24"
+reviewedAt: "2026-08-13"
 sources:
-  - title: "Joseph Priestley, Discoverer of Oxygen"
-    url: "https://www.acs.org/education/whatischemistry/landmarks/josephpriestleyoxygen.html"
-    publisher: "American Chemical Society"
-    purpose: "Historical context"
-    note: "Describes how early researchers learned to collect, manipulate, and distinguish different gases as material substances."
+  - title: "Horror Vacui?"
+    url: "https://www.imss.fi.it/vuoto/eprese6.html"
+    publisher: "Institute and Museum of the History of Science, Florence"
+    purpose: "Previous belief"
+    note: "Explains the medieval development and broad acceptance of nature's abhorrence of a vacuum and Torricelli's challenge to it."
 
   - title: "Atmospheric Pressure"
     url: "https://www.weather.gov/jetstream/pressure"

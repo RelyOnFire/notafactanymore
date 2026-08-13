@@ -5,6 +5,7 @@ whyItChanged: "Early mitochondrial-DNA studies found no clear Neanderthal contri
 status: "Overturned"
 category: "Human Evolution"
 acceptedApproximately: "Late 1990s–2000s"
+acceptedYear: 1998
 changedApproximately: "2010"
 timelineYear: 2010
 summary: "Ancient whole-genome DNA showed that Neanderthals left a genetic legacy in living humans."

@@ -5,6 +5,7 @@ whyItChanged: "The impact and volcanic explanations competed for decades. Apollo
 status: "Overturned"
 category: "Planetary Science"
 acceptedApproximately: "19th century–mid-20th century"
+acceptedYear: 1850
 changedApproximately: "1950s–1970s"
 timelineYear: 1960
 summary: "Apollo samples settled a long debate by showing that impacts, not volcanoes, made most lunar craters."

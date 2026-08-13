@@ -5,6 +5,7 @@ whyItChanged: "Chromosome theory correctly centered most heredity in the nucleus
 status: "Narrowed"
 category: "Genetics"
 acceptedApproximately: "Early 20th century"
+acceptedYear: 1915
 changedApproximately: "1909–1960s"
 timelineYear: 1963
 summary: "Non-Mendelian inheritance and organelle DNA revealed hereditary information outside the nucleus."

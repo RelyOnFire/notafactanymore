@@ -5,6 +5,7 @@ whyItChanged: "Traditional wound care aimed to dry wounds using air exposure, he
 status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "19th century–1960s"
+acceptedYear: 1850
 changedApproximately: "1960s–1990s"
 timelineYear: 1962
 summary: "The dry-scab ideal gave way to dressings that maintain controlled moisture and support faster repair."

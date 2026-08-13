@@ -5,6 +5,7 @@ whyItChanged: "The enormous scale and fecundity of marine fish led prominent nin
 status: "Overturned"
 category: "Ecology"
 acceptedApproximately: "19th–early 20th century"
+acceptedYear: 1850
 changedApproximately: "Mid–late 20th century"
 timelineYear: 1970
 summary: "Industrial fishing proved capable of depleting even immense populations spread across the open sea."

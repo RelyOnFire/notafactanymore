@@ -5,6 +5,7 @@ whyItChanged: "Before 1991, the leading models placed the bursts around Galactic
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "1970s–early 1990s"
+acceptedYear: 1975
 changedApproximately: "1991–1997"
 timelineYear: 1997
 summary: "A once-dominant Milky Way explanation gave way to evidence that gamma-ray bursts occur across the distant universe."

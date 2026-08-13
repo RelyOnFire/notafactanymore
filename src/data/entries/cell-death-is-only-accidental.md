@@ -5,6 +5,7 @@ whyItChanged: "Cell loss was long interpreted mainly as passive degeneration or 
 status: "Overturned"
 category: "Cell Biology"
 acceptedApproximately: "19th century–mid-20th century"
+acceptedYear: 1850
 changedApproximately: "1950s–1990s"
 timelineYear: 1972
 summary: "Apoptosis revealed that cell death can be an organized biological process rather than merely accidental damage."

@@ -5,6 +5,7 @@ whyItChanged: "Controlled experiments showed that contaminated bedding did not t
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "18th to late 19th century"
+acceptedYear: 1750
 changedApproximately: "1900–1901"
 timelineYear: 1900
 summary: "Experiments overturned the belief that yellow fever spread mainly through contaminated clothing and bedding."

@@ -5,6 +5,7 @@ whyItChanged: "Newtonian gravity successfully described attraction as action at 
 status: "Superseded"
 category: "Physics"
 acceptedApproximately: "17th–early 20th century"
+acceptedYear: 1650
 changedApproximately: "1915 onward"
 timelineYear: 1915
 summary: "Instantaneous Newtonian action at a distance was replaced by relativistic gravity with finite-speed propagation."

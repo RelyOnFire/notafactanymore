@@ -5,6 +5,7 @@ whyItChanged: "Lake sediments, ancient shorelines, pollen, animal remains, rock 
 status: "Overturned"
 category: "Paleoclimate"
 acceptedApproximately: "Before modern paleoclimate reconstruction"
+acceptedYear: 1900
 changedApproximately: "20th century–present"
 timelineYear: 1960
 summary: "The world's largest hot desert has repeatedly become green, wet, and lake-filled."

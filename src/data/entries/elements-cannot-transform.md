@@ -5,6 +5,7 @@ whyItChanged: "Rutherford and Frederick Soddy showed that radioactive substances
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "Early modern chemistry through the late 19th century"
+acceptedYear: 1750
 changedApproximately: "1902–1930s"
 timelineYear: 1902
 summary: "Radioactivity and nuclear reactions revived transmutation as an experimentally verified process."

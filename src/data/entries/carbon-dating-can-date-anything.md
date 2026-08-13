@@ -5,6 +5,7 @@ whyItChanged: "The power of the first radiocarbon dates encouraged broad public 
 status: "Narrowed"
 category: "Measurement"
 acceptedApproximately: "Popular interpretation after the late 1940s"
+acceptedYear: 1950
 changedApproximately: "1950s–present"
 timelineYear: 1955
 summary: "A revolutionary dating clock became a specialized method with clear material and age limits."

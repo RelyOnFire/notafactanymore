@@ -5,6 +5,7 @@ whyItChanged: "Nineteenth-century chemists repeatedly failed to isolate free car
 status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Mid-19th century–1900"
+acceptedYear: 1850
 changedApproximately: "1900–1930s"
 timelineYear: 1900
 summary: "Gomberg's triphenylmethyl radical overturned the belief that organic radicals could not persist independently."

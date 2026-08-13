@@ -5,6 +5,7 @@ whyItChanged: "Models emphasizing poor soils and environmental limits treated mo
 status: "Narrowed"
 category: "Archaeology"
 acceptedApproximately: "Mid-20th century–1990s"
+acceptedYear: 1950
 changedApproximately: "1990s–present"
 timelineYear: 1995
 summary: "Earthworks, managed forests, and engineered soils revealed major pre-Columbian transformations in parts of Amazonia."

@@ -9,7 +9,7 @@ acceptedYear: 150
 changedApproximately: 18th-century Pacific exploration
 timelineYear: 1774
 lifespanComparable: false
-summary: A symmetry argument put a gigantic continent on maps before anyone had seen it—and eventually sent Cook south under secret Admiralty orders to look for it.
+summary: A symmetry argument put a gigantic continent on maps before anyone had seen it and eventually sent Cook south under secret Admiralty orders to look for it.
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
@@ -39,6 +39,6 @@ As voyages revealed Australia, New Zealand, Tierra del Fuego, and Pacific island
 
 By the eighteenth century, Terra Australis was important enough to become an explicit target of state-sponsored exploration. After observing the 1769 transit of Venus in Tahiti, **James Cook opened secret Admiralty instructions ordering him to search for a “continent, or land of great extent” to the south**. His first voyage did not settle the question. On his second voyage, Cook crossed the Antarctic Circle and sailed through enormous stretches of southern ocean without finding the expected temperate continent.
 
-Antarctica ultimately proved that a southern continent does exist—but not the enormous accessible balancing landmass that earlier theory had placed across much of the Southern Hemisphere.
+Antarctica ultimately proved that a southern continent does exist. It is very different from the enormous accessible balancing landmass that earlier theory had placed across much of the Southern Hemisphere.
 
 Because the hypothesis changed shape across many centuries, its lifespan is not treated as a single precise interval.

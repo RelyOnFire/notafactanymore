@@ -47,4 +47,4 @@ That predictive success is a major reason the model lasted. For more than a mill
 
 Copernicus's 1543 heliocentric system rearranged the geometry but initially retained circular motions and epicycles. The decisive 17th-century transformation came from several directions at once: Galileo's telescopic observations revealed phases of Venus and moons orbiting Jupiter; Kepler replaced circular planetary paths with ellipses; Newton later supplied a common dynamical explanation through gravity.
 
-The result was not simply “Ptolemy was foolish and Copernicus was right.” The old model was a technically impressive predictive achievement built from the observations and mathematical tools available at the time. What changed was the evidence, the geometry, and eventually the underlying physics.
+The transition cannot be reduced to “Ptolemy was foolish and Copernicus was right.” The old model was a technically impressive predictive achievement built from the observations and mathematical tools available at the time. What changed was the evidence, the geometry, and eventually the underlying physics.

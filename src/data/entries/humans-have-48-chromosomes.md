@@ -29,4 +29,4 @@ sources:
 
 The correction applies to the normal chromosome number in most body cells. Mature red blood cells have no nucleus, eggs and sperm have 23 chromosomes, and cancers or chromosome disorders can produce other counts.
 
-Tjio published the result with Albert Levan in 1956. The breakthrough came from clearer chromosome preparations, not simply from recounting the old images.
+Tjio published the result with Albert Levan in 1956. Clearer chromosome preparations made the decisive recount possible.

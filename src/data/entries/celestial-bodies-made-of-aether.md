@@ -1,5 +1,5 @@
 ---
-claim: Heavenly bodies are made from a special incorruptible substance—aether or quintessence—rather than the matter found on Earth.
+claim: Heavenly bodies are made from a special incorruptible substance called aether or quintessence, rather than the matter found on Earth.
 currentUnderstanding: The Sun, stars, planets, moons, asteroids, and comets are made from the same chemical elements and governed by the same fundamental physics studied on Earth, although their compositions and physical states differ.
 whyItChanged: Early-modern astronomy and mechanics eroded the physical boundary between heaven and Earth. Spectroscopy later showed directly that celestial bodies contain familiar chemical elements.
 status: Superseded

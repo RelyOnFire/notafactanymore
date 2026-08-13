@@ -9,7 +9,7 @@ acceptedYear: 1250
 changedApproximately: Early-to-mid 16th century
 timelineYear: 1543
 lifespanComparable: false
-summary: Medieval anatomy divided the womb into seven fetal chambers—even Mondino repeated the scheme after dissecting women—until Renaissance anatomy replaced the diagram with direct human anatomy.
+summary: Medieval anatomy divided the womb into seven fetal chambers. Even Mondino repeated the scheme after dissecting women, before Renaissance anatomy replaced the diagram with direct human anatomy.
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
@@ -39,6 +39,6 @@ What makes the story remarkable is **Mondino de' Liuzzi**. His *Anathomia* becam
 
 Renaissance anatomists gradually broke with it. Berengario da Carpi described a simple uterus, and Vesalius's 1543 *Fabrica* gave a much more recognizable human reproductive anatomy.
 
-The old seven-cell model mixed anatomy with theories about sex determination and bodily heat. Modern anatomy finds one principal uterine cavity, while chromosomal sex is established at fertilization—not by where an embryo occupies a mythical chamber.
+The old seven-cell model mixed anatomy with theories about sex determination and bodily heat. Modern anatomy finds one principal uterine cavity, while chromosomal sex is established at fertilization. An embryo's position in the uterus does not determine sex.
 
 Because the doctrine's origin and geographical spread are not cleanly bounded, this card is excluded from precise lifespan statistics.

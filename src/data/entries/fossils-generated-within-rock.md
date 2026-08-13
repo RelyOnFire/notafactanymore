@@ -9,7 +9,7 @@ acceptedYear: 1550
 changedApproximately: Late 17th–18th centuries
 timelineYear: 1669
 lifespanComparable: false
-summary: Before extinction and sedimentary geology were understood, a shell-shaped object deep inside a mountain was a genuine causal puzzle—and some scholars solved it with a rock-forming 'plastic force.'
+summary: Before extinction and sedimentary geology were understood, a shell-shaped object deep inside a mountain was a genuine causal puzzle. Some scholars explained it with a rock-forming 'plastic force.'
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'

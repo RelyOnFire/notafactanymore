@@ -8,7 +8,7 @@ acceptedApproximately: "Late 19th–mid-20th century"
 acceptedYear: 1885
 changedApproximately: "1950s–1970s"
 timelineYear: 1965
-summary: "Fire proved to be not merely a destroyer but a necessary ecological process in many landscapes."
+summary: "Fire can be a necessary ecological process in many landscapes, even though it can also be destructive."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-06"

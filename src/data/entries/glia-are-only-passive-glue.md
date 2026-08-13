@@ -27,7 +27,7 @@ sources:
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC1571571/"
     publisher: "Journal of Anatomy"
     purpose: "Previous belief"
-    note: "Traces the 'nerve glue' terminology and evidence that glia are not merely passive cells."
+    note: "Traces the 'nerve glue' terminology and evidence for the active physiological roles of glia."
 ---
 
 Glia are not a single cell type, and claims about one kind of glial signaling do not automatically apply to all others.

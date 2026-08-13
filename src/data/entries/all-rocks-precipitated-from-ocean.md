@@ -9,7 +9,7 @@ acceptedYear: 1787
 changedApproximately: Late 18th–early 19th centuries
 timelineYear: 1810
 lifespanComparable: true
-summary: Werner's prestige and mining-school network spread a global geology in which even granite precipitated from a primordial ocean—until field geology made molten origins unavoidable.
+summary: Werner's prestige and mining-school network spread a global geology in which even granite precipitated from a primordial ocean. Field geology eventually made molten origins unavoidable.
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
@@ -41,4 +41,4 @@ But rocks elsewhere behaved badly. Basalt occurred in relationships suggesting l
 
 The argument was not settled by one dramatic experiment. Field geology accumulated cases that a universal ocean-precipitation theory could not absorb.
 
-Modern geology recognizes all three major rock families—igneous, sedimentary, and metamorphic—and the rock cycle continually transforms material among them.
+Modern geology recognizes three major rock families: igneous, sedimentary, and metamorphic. The rock cycle continually transforms material among them.

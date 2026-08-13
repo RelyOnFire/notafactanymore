@@ -39,6 +39,6 @@ That made transmutation intellectually coherent. An alchemist did not necessaril
 
 The theory was tied to real metallurgical experience. Heating, alloying, cementation, gilding, color changes, and purification can dramatically transform how metals look and behave. Ancient gilding practices may even have helped inspire early transmutation concepts.
 
-The framework eroded as chemists developed a more stable concept of chemical elements and reproducible composition. Modern chemistry defines gold by atomic number **79**. Converting another element into gold is physically possible only through nuclear transmutation, not through furnaces, acids, salts, or ordinary chemical operations—and is economically useless as a gold-making method.
+The framework eroded as chemists developed a more stable concept of chemical elements and reproducible composition. Modern chemistry defines gold by atomic number **79**. Converting another element into gold is physically possible only through nuclear transmutation. Furnaces, acids, salts, and ordinary chemical operations cannot do it, and nuclear transmutation is economically useless as a gold-making method.
 
 Because “metallic maturation” took many forms across alchemical traditions, this card is not assigned a precise lifespan.

@@ -8,7 +8,7 @@ acceptedApproximately: "Late 19th century to 1965"
 acceptedYear: 1885
 changedApproximately: "1965–1966"
 timelineYear: 1965
-summary: "Radar measurements showed that Mercury is not synchronously locked to the Sun but rotates in a 3:2 resonance."
+summary: "Radar measurements revealed that Mercury rotates in a 3:2 spin-orbit resonance, completing three rotations for every two trips around the Sun."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"

@@ -1,6 +1,6 @@
 ---
 claim: The human liver is divided into five distinct lobes.
-currentUnderstanding: Standard anatomical description recognizes four named anatomical lobes of the human liver—right, left, caudate, and quadrate—while modern surgical anatomy also divides the liver functionally into vascular segments.
+currentUnderstanding: "Standard anatomical description recognizes four named anatomical lobes of the human liver: right, left, caudate, and quadrate. Modern surgical anatomy also divides the liver functionally into vascular segments."
 whyItChanged: Repeated human dissection showed that the strongly separated five-lobed pattern familiar from several animals was not normal human anatomy. Vesalius still illustrated five lobes in 1538 but rejected the model publicly by 1540 and in his 1543 Fabrica.
 status: Corrected
 category: Medicine
@@ -9,7 +9,7 @@ acceptedYear: 150
 changedApproximately: 1540–1543
 timelineYear: 1543
 lifespanComparable: true
-summary: Animal livers helped create a five-lobed human liver that survived in textbooks—even Vesalius drew it before correcting himself after further dissection.
+summary: Animal livers helped create a five-lobed human liver that survived in textbooks. Even Vesalius drew it before correcting himself after further dissection.
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
@@ -41,4 +41,4 @@ Vesalius provides an unusually visible example of self-correction. His **1538** 
 
 Modern anatomy normally describes right, left, caudate, and quadrate lobes, while clinicians often use a separate functional segmental scheme based on blood supply and biliary drainage.
 
-The history is valuable because it is not simply “Vesalius corrected Galen.” Vesalius initially reproduced the inherited error himself and then changed his mind.
+The history is more complicated than a simple “Vesalius corrected Galen” story. Vesalius initially reproduced the inherited error himself and then changed his mind.

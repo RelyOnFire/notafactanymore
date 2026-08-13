@@ -32,4 +32,4 @@ sources:
 
 A tsunami's arrival and height can be influenced by the state of the ordinary tide, even though the tide did not generate it.
 
-The correction is causal, not merely a preference for a Japanese word.
+The terminology changed because the underlying cause differs from tides; adopting the Japanese word was secondary.

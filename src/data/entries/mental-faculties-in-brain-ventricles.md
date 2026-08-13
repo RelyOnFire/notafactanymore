@@ -9,7 +9,7 @@ acceptedYear: 400
 changedApproximately: 17th–18th centuries
 timelineYear: 1700
 lifespanComparable: false
-summary: Medieval scholars created an early map of the mind inside the brain—but placed imagination, reason, and memory in the ventricles rather than neural tissue.
+summary: Medieval scholars created an early map of the mind inside the brain, placing imagination, reason, and memory in the ventricles rather than neural tissue.
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
@@ -39,6 +39,6 @@ The diagrams were not anatomical maps in the modern sense. They combined medicin
 
 Human dissection increasingly exposed the mismatch between the neat schematic cells and actual ventricular anatomy. Vesalius challenged ventricular localization, but the doctrine did not disappear immediately; later authors, including Descartes in a different form, continued to connect mental operations with ventricular structures.
 
-Modern neuroscience does localize and network brain functions—but in neural tissue and distributed circuits, not in cavities filled with cerebrospinal fluid.
+Modern neuroscience localizes brain functions in neural tissue and distributed circuits. The ventricles are cavities filled with cerebrospinal fluid rather than seats of thought.
 
 Because the doctrine existed in many variants and faded slowly, its lifespan is deliberately not quantified.

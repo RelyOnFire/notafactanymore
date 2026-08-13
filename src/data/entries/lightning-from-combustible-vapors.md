@@ -9,7 +9,7 @@ acceptedYear: 1700
 changedApproximately: Mid-18th century
 timelineYear: 1752
 lifespanComparable: true
-summary: Before atmospheric electricity was established, thunderstorms were explained as chemical explosions of sulfurous and nitrous vapors—a theory that fitted contemporary chemistry surprisingly well.
+summary: Before atmospheric electricity was established, thunderstorms were explained as chemical explosions of sulfurous and nitrous vapors, a theory that fitted contemporary chemistry surprisingly well.
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
@@ -39,6 +39,6 @@ The theory was not obviously foolish within contemporary chemistry. Sulfur reall
 
 Experiments gradually reorganized the problem. Benjamin Franklin proposed that lightning was electrical and developed tests involving pointed conductors, insulated rods, and later the famous kite experiment. Similar experiments in Europe drew sparks from storm clouds. Lightning rods provided a practical technological consequence: if lightning behaved like electricity, charge could be intercepted and conducted.
 
-The old chemical theory did not vanish instantly—some scholars tried to combine combustion and electricity—but atmospheric electricity became the dominant framework.
+The old chemical theory did not vanish instantly. Some scholars tried to combine combustion and electricity, but atmospheric electricity became the dominant framework.
 
 Modern lightning research still studies a surprisingly difficult question: exactly how a storm's electric fields initiate a lightning channel. The mechanism is electrical, not the ignition of sulfurous vapor.

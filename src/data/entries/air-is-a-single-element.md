@@ -46,7 +46,7 @@ sources:
   note: Shows how Aristotelian natural philosophy and its elemental framework remained embedded in university teaching into the Renaissance.
 ---
 
-The idea of elemental air grew out of the same classical framework as elemental water. Empedocles' fifth-century-BCE scheme used four enduring roots—earth, water, air, and fire. Aristotle then systematized them within a physics of matter and change. In *On Generation and Corruption*, air is paired with the qualities hot and moist and treated as one of the primary bodies involved in the transformations of matter.
+The idea of elemental air grew out of the same classical framework as elemental water. Empedocles' fifth-century-BCE scheme used four enduring roots: earth, water, air, and fire. Aristotle then systematized them within a physics of matter and change. In *On Generation and Corruption*, air is paired with the qualities hot and moist and treated as one of the primary bodies involved in the transformations of matter.
 
 This framework survived because it did far more than provide a list of four substances. Aristotelian natural philosophy offered linked explanations for terrestrial matter, motion, weather, celestial structure, and living things. When Aristotle's natural works became part of medieval and Renaissance university curricula, generations of scholars encountered “air” as a fundamental category within a coherent physical system.
 

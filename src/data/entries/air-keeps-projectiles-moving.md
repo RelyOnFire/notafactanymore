@@ -9,7 +9,7 @@ acceptedYear: -350
 changedApproximately: 14th-century impetus mechanics
 timelineYear: 1350
 lifespanComparable: false
-summary: Aristotelian physics required a continuing mover, so the air behind a thrown object was made part of the machinery that kept it going—until medieval impetus theory moved the cause into the projectile.
+summary: Aristotelian physics required a continuing mover, so the air behind a thrown object became part of the machinery that kept it going. Medieval impetus theory later moved the cause into the projectile.
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'

@@ -1,5 +1,5 @@
 ---
-claim: Humans possess a rete mirabile—a vascular network at the base of the brain—like the one described by Galen.
+claim: Humans possess a rete mirabile, a vascular network at the base of the brain like the one described by Galen.
 currentUnderstanding: A true carotid rete mirabile is present in some animal species but is not a normal structure of human anatomy.
 whyItChanged: Vesalius compared human and animal dissections and in 1543 explicitly rejected the rete mirabile as a normal human structure while demonstrating it in sheep.
 status: Overturned
@@ -41,4 +41,4 @@ Andreas Vesalius did something especially persuasive in **1543**. He rejected th
 
 Modern anatomy recognizes no normal human carotid rete mirabile. Rare pathological collateral networks can look superficially “rete-like,” but they are not the normal animal structure Galen's tradition described.
 
-The correction was therefore not “books versus observation” in the abstract—it was **comparative anatomy used as a control experiment**.
+The decisive evidence came from **comparative anatomy used as a control experiment**.

@@ -33,7 +33,7 @@ sources:
   url: https://plato.stanford.edu/archives/sum2024/entries/empedocles/
   publisher: Stanford Encyclopedia of Philosophy
   purpose: Historical context
-  note: Explains Empedocles' four roots—fire, earth, air, and water—and notes Aristotle's credit to him for clearly distinguishing the four.
+  note: Explains Empedocles' four roots (fire, earth, air, and water) and notes Aristotle's credit to him for clearly distinguishing the four.
 - title: On Generation and Corruption, Book II
   url: https://classics.mit.edu/Aristotle/gener_corr.2.ii.html
   publisher: Aristotle

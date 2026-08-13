@@ -37,6 +37,6 @@ Galen described the crystalline lens as the most important part of the eye and t
 
 The transition was gradual. Better human anatomy moved the lens toward its correct position. In **1583**, Felix Platter explicitly assigned the sensory role to the retina rather than the lens. Johannes Kepler's 1604 optics then explained how cornea and lens refract incoming light to form an inverted image on the retina.
 
-Modern physiology preserves an important role for the lens—it changes shape to focus—but sensory transduction belongs to rods and cones in the retina. The lens is optical; the retina is neural.
+Modern physiology preserves an important role for the lens because it changes shape to focus. Sensory transduction, however, belongs to rods and cones in the retina. The lens is optical; the retina is neural.
 
 This is a good example of how a mistaken *function* can distort anatomical expectations: if the lens had to be the seat of vision, its location and relationships were interpreted accordingly.

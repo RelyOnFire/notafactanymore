@@ -51,7 +51,7 @@ sources:
   note: Translation of Galen's commentary preserving the four-humor account of health and disease.
 ---
 
-The four-humor story is more interesting than the usual “Hippocrates invented it and everyone believed it” version. A clear four-humor scheme—blood, phlegm, yellow bile, and black bile—appears in the Hippocratic treatise *On the Nature of Man*, traditionally associated with Polybus, Hippocrates' student and son-in-law. Health was explained as a proper mixture of these fluids; disease could result when their proportions or distribution went wrong.
+The four-humor story is more interesting than the usual “Hippocrates invented it and everyone believed it” version. A clear four-humor scheme of blood, phlegm, yellow bile, and black bile appears in the Hippocratic treatise *On the Nature of Man*, traditionally associated with Polybus, Hippocrates' student and son-in-law. Health was explained as a proper mixture of these fluids; disease could result when their proportions or distribution went wrong.
 
 But ancient Greek medicine was pluralistic. Historians emphasize that four-humor theory was only one of several competing fluid and disease models. It became a much more universal medical standard **after Galen**, the second-century physician whose enormous body of writing synthesized, commented on, and extended earlier Greek medicine. Galen's influence helped bind humoral explanations to anatomy, diagnosis, diet, drugs, bleeding, and other therapies.
 

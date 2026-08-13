@@ -41,7 +41,7 @@ sources:
   note: Explains how Aristotle's translated works became central to the medieval university Arts curriculum.
 ---
 
-Spontaneous generation was not merely a vague ancient intuition. Aristotle gave it a systematic place in his biology. In *History of Animals* he described some insects, shellfish, eels, and fish as arising from mud, sand, decaying matter, or other material without parents. In one striking passage he argued that certain fish “come spontaneously into existence” rather than from eggs or copulation.
+Aristotle gave spontaneous generation a systematic place in his biology, well beyond a vague ancient intuition. In *History of Animals* he described some insects, shellfish, eels, and fish as arising from mud, sand, decaying matter, or other material without parents. In one striking passage he argued that certain fish “come spontaneously into existence” rather than from eggs or copulation.
 
 That made spontaneous generation part of a broader explanatory system: organisms could reproduce normally, but some forms of life were thought to originate directly from suitable matter. Aristotle's biological and natural-philosophical works later became enormously influential. After translations of his corpus circulated in medieval Europe, Aristotelian natural philosophy became central to university teaching, helping keep ancient questions and frameworks active subjects of scholarship rather than museum pieces.
 

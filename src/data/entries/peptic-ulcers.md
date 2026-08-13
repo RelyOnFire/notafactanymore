@@ -27,6 +27,6 @@ sources:
     note: "Identifies H. pylori infection and NSAID use as the most common causes of peptic ulcers."
 ---
 
-The older claim was not simply a fringe misconception. Stress, diet, smoking, personality, and excess acid were widely emphasized in medical explanations and treatment. The discovery of *H. pylori* did not make stress irrelevant to symptoms or health, but it fundamentally changed the accepted causal explanation for most peptic ulcers.
+The older claim was mainstream medicine rather than a fringe misconception. Stress, diet, smoking, personality, and excess acid were widely emphasized in explanations and treatment. The discovery of *H. pylori* did not make stress irrelevant to symptoms or health, but it fundamentally changed the accepted causal explanation for most peptic ulcers.
 
 This entry is classified as **Superseded**, rather than merely overturned, because the older model was replaced by a stronger causal account while some contributing lifestyle factors can still affect symptoms, healing, or recurrence.

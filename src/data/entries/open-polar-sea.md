@@ -9,7 +9,7 @@ acceptedYear: 1851
 changedApproximately: Late 19th-century Arctic exploration
 timelineYear: 1879
 lifespanComparable: true
-summary: Currents, migrating birds, summer sunlight, and patches of open water once seemed to point toward an ice-free ocean at the top of the world—and helped launch dangerous expeditions to find it.
+summary: Currents, migrating birds, summer sunlight, and patches of open water once seemed to point toward an ice-free ocean at the top of the world. The idea helped launch dangerous expeditions to find it.
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
@@ -31,11 +31,11 @@ sources:
   note: Places historical belief in an ice-free Arctic in context and distinguishes it from modern climate projections.
 ---
 
-The **Open Polar Sea** was not just an adventurer's fantasy. In the nineteenth century it became a serious geographical hypothesis.
+The **Open Polar Sea** became a serious nineteenth-century geographical hypothesis and influenced actual exploration.
 
 Supporters argued that warm currents from the Atlantic might keep the central Arctic ice-free. They pointed to migrating birds flying north, summer's continuous sunlight, the assumed inability of icebergs to form far from land, and occasional stretches of open water beyond heavy pack ice.
 
-Those observations were real; the inference was wrong. A **polynya**—a local area of open water surrounded by sea ice—could look tantalizingly like the edge of a larger ice-free ocean. Elisha Kent Kane's 1850s expedition returned with reports of open water to the north, strengthening the theory instead of killing it.
+Those observations were real; the inference was wrong. A **polynya**, a local area of open water surrounded by sea ice, could look tantalizingly like the edge of a larger ice-free ocean. Elisha Kent Kane's 1850s expedition returned with reports of open water to the north, strengthening the theory instead of killing it.
 
 The hypothesis became tied to scientific prestige, commerce, imperial competition, and the search for navigable polar routes. German geographer **August Petermann** gave it additional scientific authority in the 1860s.
 

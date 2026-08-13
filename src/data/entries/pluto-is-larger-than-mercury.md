@@ -32,4 +32,4 @@ sources:
 
 Early estimates varied widely rather than settling on one exact Earth-sized value.
 
-The correction concerns Pluto's initially overestimated scale, not merely its later reclassification as a dwarf planet.
+The relevant correction is Pluto's initially overestimated scale; its later reclassification as a dwarf planet is a separate issue.

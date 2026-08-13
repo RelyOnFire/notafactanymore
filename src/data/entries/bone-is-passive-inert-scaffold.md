@@ -9,7 +9,7 @@ acceptedYear: 1950
 changedApproximately: "Late 20th century–2000s"
 timelineYear: 2007
 lifespanComparable: false
-summary: "The modern revision is not that bone suddenly became “living,” but that an already dynamic organ was recognized as an endocrine signaling organ as well."
+summary: "Bone was already understood as living, dynamic tissue before researchers established its additional role as an endocrine signaling organ."
 featured: false
 publishedAt: "2026-07-27"
 reviewedAt: "2026-08-13"

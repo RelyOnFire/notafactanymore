@@ -9,7 +9,7 @@ acceptedYear: 150
 changedApproximately: 1781–1783
 timelineYear: 1781
 lifespanComparable: true
-summary: For nearly all recorded astronomical history, the known planets stopped at Saturn—until Herschel found a moving object in 1781 that turned out to be an entirely new planet.
+summary: For nearly all recorded astronomical history, the known planets stopped at Saturn. In 1781 Herschel found a moving object that turned out to be an entirely new planet.
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
@@ -31,7 +31,7 @@ sources:
   note: Describes Uranus as the seventh planet and the first planet discovered with a telescope.
 ---
 
-Saturn was not merely the farthest planet **people happened to know about**. It defined the observed outer boundary of the planetary system for almost all of recorded astronomy.
+For almost all of recorded astronomy, Saturn defined the observed outer boundary of the planetary system.
 
 Mercury, Venus, Mars, Jupiter, and Saturn can all be seen without a telescope. In geocentric astronomy Saturn occupied the outermost planetary sphere beneath the fixed stars; heliocentrism changed the arrangement but left Saturn as the farthest known planet.
 
@@ -41,4 +41,4 @@ Then on **13 March 1781**, William Herschel noticed a faint object in Gemini tha
 
 The effect on scale was dramatic. Uranus orbits roughly twice as far from the Sun as Saturn, so the known radius of the planetary system essentially doubled in one discovery. It was also the **first planet discovered with a telescope** and the first addition to the classical planetary inventory in recorded history.
 
-Neptune followed in 1846—this time predicted mathematically from disturbances in Uranus's orbit.
+Neptune followed in 1846, this time predicted mathematically from disturbances in Uranus's orbit.

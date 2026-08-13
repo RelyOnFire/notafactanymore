@@ -9,7 +9,7 @@ acceptedYear: 1920
 changedApproximately: "1930s–1970s, consolidated later"
 timelineYear: 1975
 lifespanComparable: true
-summary: "Visible stars and gas turned out to account for only part of the gravity in galaxies—and ordinary matter only a small fraction of the modern cosmic inventory."
+summary: "Visible stars and gas turned out to account for only part of the gravity in galaxies. Ordinary matter itself makes up only a small fraction of the modern cosmic inventory."
 featured: false
 publishedAt: "2026-07-23"
 reviewedAt: "2026-08-13"

@@ -9,7 +9,7 @@ acceptedYear: 1200
 changedApproximately: 17th–18th centuries
 timelineYear: 1789
 lifespanComparable: false
-summary: Medieval alchemists treated sulfur and mercury as material principles from which metals formed underground—a serious matter theory tied directly to laboratory purification and transmutation.
+summary: Medieval alchemists treated sulfur and mercury as material principles from which metals formed underground. The theory was tied directly to laboratory purification and transmutation.
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
@@ -35,7 +35,7 @@ The sulfur-mercury theory makes medieval alchemy look much less like fantasy and
 
 In Arabic and Latin alchemical traditions, metals were often explained as combinations of **mercury and sulfur principles** formed underground. Differences in purity, proportion, fixation, and environmental conditions produced gold, silver, copper, iron, tin, lead, and other metals.
 
-Modern readers can easily misunderstand those words. “Mercury” and “sulfur” could function as theoretical principles, but historians have shown that many medieval alchemists also treated them as materially manipulable substances—not purely mystical abstractions. Laboratory operations such as heating, distillation, purification, alloying, and reaction were therefore connected to a theory of metallic composition.
+Modern readers can easily misunderstand those words. “Mercury” and “sulfur” could function as theoretical principles, but historians have shown that many medieval alchemists also treated them as materially manipulable substances as well as theoretical principles. Laboratory operations such as heating, distillation, purification, alloying, and reaction were therefore connected to a theory of metallic composition.
 
 The framework spread through Arabic-Latin transmission and became a cornerstone of European alchemy. It also made **transmutation** plausible: if metals differed because the same underlying ingredients were imperfectly combined, then laboratory treatment might correct the mixture.
 

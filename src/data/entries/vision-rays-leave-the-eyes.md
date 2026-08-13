@@ -33,7 +33,7 @@ sources:
 
 “Rays coming out of the eyes” sounds like folklore, but extramission supported serious mathematical optics.
 
-Euclid's *Optics* used straight visual rays extending from the observer to construct a geometry of apparent size and perspective. Other ancient theories differed sharply—Aristotle was an intromissionist, atomists proposed images entering the eye, and Plato's account was partly interactionist—so there was never one universal ancient theory of vision.
+Euclid's *Optics* used straight visual rays extending from the observer to construct a geometry of apparent size and perspective. Other ancient theories differed sharply. Aristotle was an intromissionist, atomists proposed images entering the eye, and Plato's account was partly interactionist, so there was never one universal ancient theory of vision.
 
 In the Latin West, however, extramission became highly influential. The eye was treated as an active participant whose visual power extended toward what it saw.
 

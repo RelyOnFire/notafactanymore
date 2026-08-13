@@ -27,7 +27,7 @@ sources:
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5733037/"
     publisher: "PubMed Central"
     purpose: "Current evidence"
-    note: "Explains that attachment does not merely reflect feeding or another primary physical need."
+    note: "Explains evidence that attachment involves more than feeding or another primary physical need."
 ---
 
 Harlow's experiments involved monkeys, not human infants, and would raise serious ethical concerns today.

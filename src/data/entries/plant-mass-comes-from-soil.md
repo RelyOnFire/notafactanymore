@@ -40,6 +40,6 @@ The soil idea belonged to a much older theory of plant nutrition than the famili
 
 The transition was not a single experiment. Nicholas of Cusa, Jan Baptist van Helmont, Robert Boyle, Stephen Hales, Joseph Priestley, Jan Ingenhousz, and Nicolas-Théodore de Saussure each changed different pieces of the picture. Van Helmont's famous willow experiment showed that a plant could gain far more mass than the soil lost, but he concluded that water supplied the increase. Hales later suspected that part of plant substance came from the air. Priestley and Ingenhousz connected plants, air, light, and gas exchange; de Saussure helped put plant nutrition on a quantitative chemical footing.
 
-That is why the representative change date is much later than van Helmont. The old soil-centered model did not simply flip to the modern answer. It passed through a water-centered model and then through increasingly quantitative studies of air, light, minerals, and carbon chemistry.
+That is why the representative change date is much later than van Helmont. The old soil-centered model changed in stages. It passed through a water-centered model and then through increasingly quantitative studies of air, light, minerals, and carbon chemistry.
 
 Today the key distinction is **fresh mass versus dry mass**. Water can dominate a fresh plant's weight, while most of the carbon in its dry matter ultimately comes from atmospheric carbon dioxide. Soil remains indispensable because it supplies water and mineral nutrients.

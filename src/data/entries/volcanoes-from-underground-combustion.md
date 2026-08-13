@@ -9,7 +9,7 @@ acceptedYear: 1650
 changedApproximately: Late 18th–19th centuries
 timelineYear: 1820
 lifespanComparable: false
-summary: Sulfur burns with choking fumes that resemble volcanic emissions, and underground coal really can burn—making subterranean combustion a plausible early-modern volcano theory.
+summary: Sulfur burns with choking fumes that resemble volcanic emissions, and underground coal really can burn. These observations made subterranean combustion a plausible early-modern volcano theory.
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
@@ -41,4 +41,4 @@ The model had a powerful sensory appeal: smoke-like gas, heat, flames, explosion
 
 Lazzaro Spallanzani experimented with remelting lava around the 1780s, while field geology increasingly connected volcanic rocks with molten origins. During the nineteenth century the problem shifted from underground fuel to **the source of Earth's internal heat**.
 
-Modern volcanology explains eruptions through magma and gas. As magma rises and pressure falls, dissolved water, carbon dioxide, sulfur compounds, and other gases come out of solution. Expanding gas can then drive explosive eruption—real sulfur is involved, but as a dissolved volcanic gas component rather than underground fuel.
+Modern volcanology explains eruptions through magma and gas. As magma rises and pressure falls, dissolved water, carbon dioxide, sulfur compounds, and other gases come out of solution. Expanding gas can then drive explosive eruption. Sulfur is genuinely involved, but as a dissolved volcanic gas component rather than underground fuel.

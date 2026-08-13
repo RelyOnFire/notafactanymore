@@ -41,7 +41,7 @@ sources:
   note: Reviews the long history of suppuration in wound care and medieval challenges to the doctrine.
 ---
 
-The history of “laudable pus” is messier—and more revealing—than the popular version. Ancient physicians did distinguish between kinds of wound discharge. Hippocratic writings treated thick, non-offensive pus as a better sign than thin, foul discharge. Galen is often blamed for turning pus into a requirement for healing, but modern historical reviews argue that this is too simple: Galen also recommended treatments intended to dry wounds and reduce suppuration.
+The history of “laudable pus” is messier and more revealing than the popular version. Ancient physicians did distinguish between kinds of wound discharge. Hippocratic writings treated thick, non-offensive pus as a better sign than thin, foul discharge. Galen is often blamed for turning pus into a requirement for healing, but modern historical reviews argue that this is too simple: Galen also recommended treatments intended to dry wounds and reduce suppuration.
 
 By the medieval period, however, the idea that a healthy wound should pass through a productive suppurative stage had become deeply entrenched in surgical practice. Importantly, it was **never uncontested**. Theodoric Borgognoni argued in the 13th century that wounds did not need to form pus, and Henri de Mondeville made similar objections in the early 14th century. Their opposition is one reason this card uses a medieval representative start rather than pretending that one exact doctrine ran unchanged from Hippocrates onward.
 

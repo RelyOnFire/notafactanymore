@@ -30,6 +30,6 @@ sources:
     note: "Reports the dramatic conductivity increase produced by doping polyacetylene."
 ---
 
-Conductive polymers are not simply metal wires made of plastic. Their conductivity depends on molecular conjugation, doping, morphology, temperature, and processing.
+Conductive polymers work through mechanisms specific to their molecular structure. Their conductivity depends on conjugation, doping, morphology, temperature, and processing.
 
 The broad class of polymers still includes excellent insulators; the correction is that insulation is not unavoidable.

@@ -34,6 +34,6 @@ Physicians used natal charts to assess predisposition, zodiacal diagrams to rela
 
 The boundary did not disappear suddenly with the Scientific Revolution. After 1700, astrology lost much of its former prestige in medical circles, yet respected physicians continued to investigate whether the Moon or planets correlated with fevers and other diseases. Some gathered statistics and framed the question in explicitly empirical terms.
 
-As medicine acquired stronger causal tools—pathological anatomy, physiology, chemistry, germ theory, epidemiology, genetics—the celestial framework lost explanatory value.
+As medicine acquired stronger causal tools, including pathological anatomy, physiology, chemistry, germ theory, epidemiology, and genetics, the celestial framework lost explanatory value.
 
 The card is deliberately scoped to **learned medical astrology**, not modern popular astrology, and its long gradual decline makes an exact lifespan misleading.

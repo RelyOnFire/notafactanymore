@@ -35,7 +35,7 @@ This history contains a particularly good scientific detour.
 
 Before Aristotle, some Greek thinkers had already proposed explanations connecting the Milky Way with stars. In *Meteorology*, Aristotle reviews rival ideas and specifically rejects the proposal that its light comes from innumerable imperceptible stars.
 
-He instead fits the Milky Way into his own physical system. The motion of the heavens, he argued, continually excites combustible material in the upper terrestrial region. The Milky Way is therefore a persistent “fringe” associated with the great circle where stars are densest—meteorology rather than deep-space astronomy.
+He instead fits the Milky Way into his own physical system. The motion of the heavens, he argued, continually excites combustible material in the upper terrestrial region. The Milky Way is therefore a persistent “fringe” associated with the great circle where stars are densest, making it a meteorological phenomenon in his system.
 
 That explanation had an advantage: it connected the Milky Way to Aristotle's broader accounts of comets, meteors, air, fire, and the division between the changing terrestrial realm and the eternal heavens.
 

@@ -30,6 +30,6 @@ sources:
     note: "Reviews how archaeological discoveries replaced the brutish popular and scholarly image."
 ---
 
-Neanderthals were not simply modern humans with different faces. Their anatomy, populations, and cultures differed from those of contemporary Homo sapiens.
+Neanderthals differed from contemporary *Homo sapiens* in anatomy, population history, and culture, well beyond facial appearance.
 
 The correction also should not turn them into idealized copies of us. Evidence for particular symbolic practices remains uneven and is debated site by site.

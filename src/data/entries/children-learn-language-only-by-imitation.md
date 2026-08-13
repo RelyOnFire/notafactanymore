@@ -1,7 +1,7 @@
 ---
 claim: "Children learn language entirely by imitating adults and being rewarded for correct speech."
 currentUnderstanding: "Imitation, feedback, and reinforcement contribute to language learning, but they do not explain it alone. Children detect patterns, infer rules, generalize beyond what they hear, and develop language through interacting cognitive, social, and biological processes."
-whyItChanged: "Behaviorist accounts made imitation and reinforcement central to language acquisition. Children's novel sentences, systematic errors, and rapid rule learning showed that they were not merely copying stored phrases."
+whyItChanged: "Behaviorist accounts made imitation and reinforcement central to language acquisition. Children's novel sentences, systematic errors, and rapid rule learning showed that language acquisition involved more than copying stored phrases."
 status: "Superseded"
 category: "Psychology"
 acceptedApproximately: "Especially influential in the 1930s–1950s"
@@ -30,6 +30,6 @@ sources:
     note: "Reviews evidence that conditioning and imitation matter but are insufficient as a complete explanation."
 ---
 
-The older theory was not simply foolish, and modern researchers still study imitation, reinforcement, social feedback, and statistical learning.
+The older theory captured real parts of language learning, and modern researchers still study imitation, reinforcement, social feedback, and statistical learning.
 
 The card rejects “entirely,” not every role for learning from other people.

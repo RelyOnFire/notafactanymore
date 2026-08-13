@@ -1,6 +1,6 @@
 ---
 claim: The equatorial 'torrid zone' is too hot for humans to inhabit.
-currentUnderstanding: Humans live throughout the tropics and near the equator. Equatorial regions are generally warm, but habitability depends on many factors including rainfall, altitude, ecology, infrastructure, and adaptation—not a lethal solar heat barrier.
+currentUnderstanding: Humans live throughout the tropics and near the equator. Equatorial regions are generally warm, but habitability depends on rainfall, altitude, ecology, infrastructure, adaptation, and many other factors. There is no lethal solar heat barrier around the equator.
 whyItChanged: The claim was challenged even in antiquity by knowledge of inhabited hot regions, and later European travel and exploration made extensive tropical populations impossible to reconcile with an uninhabitable equatorial belt.
 status: Overturned
 category: Earth Science
@@ -9,7 +9,7 @@ acceptedYear: -350
 changedApproximately: Late medieval–15th-century travel and exploration
 timelineYear: 1450
 lifespanComparable: false
-summary: Ancient climatic geometry divided Earth into habitable temperate zones and a lethal equatorial belt—despite dissent and real populations already living in hot regions.
+summary: Ancient climatic geometry divided Earth into habitable temperate zones and a lethal equatorial belt, despite dissent and real populations already living in hot regions.
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
@@ -39,6 +39,6 @@ The idea was never uncontested. **Strabo** explicitly criticized overly broad ve
 
 Versions of the climatic-zone scheme nevertheless passed into later European geography. As European mariners traveled progressively farther down the African coast during the fifteenth century, actual inhabited tropical environments increasingly replaced abstract thermal boundaries on European maps.
 
-Modern climatology still recognizes tropical, temperate, continental, polar, and other climate regimes—but not an equatorial band physically incapable of supporting human life.
+Modern climatology still recognizes tropical, temperate, continental, polar, and other climate regimes. None implies an equatorial band physically incapable of supporting human life.
 
 Because the old doctrine varied substantially between authors and was contradicted even in antiquity, this card is not assigned a precise lifespan.

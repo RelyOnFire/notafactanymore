@@ -41,6 +41,6 @@ Naturalists therefore debated whether swallows **hibernated locally**, sometimes
 
 The evidence for migration became overwhelming through travel observations, recoveries of marked birds, systematic ringing, radar, geolocators, and satellite tracking.
 
-The story is useful because the old theory was not simply credulous. It arose from a genuine observational gap: a bird could vanish from one landscape, and before global tracking there was no easy way to watch where it went next.
+The old theory arose from a genuine observational gap rather than simple credulity. A bird could vanish from one landscape, and before global tracking there was no easy way to watch where it went next.
 
 Because hibernation and migration coexisted as competing explanations rather than forming one clean consensus, this card is not assigned a precise lifespan.

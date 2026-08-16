@@ -1054,11 +1054,11 @@ const DISPLAY_CAP = 250;
     border: 1px solid color-mix(in srgb, var(--ink) 15%, transparent);
   }
 
-  .band-under25 { background: color-mix(in srgb, var(--accent) 85%, white); }
-  .band-25to49 { background: color-mix(in srgb, var(--accent) 68%, white); }
-  .band-50to99 { background: color-mix(in srgb, var(--accent) 50%, white); }
-  .band-100to249 { background: color-mix(in srgb, var(--accent) 32%, var(--ink)); }
-  .band-250plus { background: var(--ink); }
+  .band-under25 { background: #4e79a7; }
+  .band-25to49 { background: #59a14f; }
+  .band-50to99 { background: #f28e2b; }
+  .band-100to249 { background: #b07aa1; }
+  .band-250plus { background: #2f2f2f; }
 
   .century-list {
     display: grid;
@@ -1093,6 +1093,10 @@ const DISPLAY_CAP = 250;
   .distribution-segment {
     min-width: 2px;
     height: 100%;
+  }
+
+  .distribution-segment + .distribution-segment {
+    box-shadow: inset 2px 0 0 var(--card);
   }
 
   .century-counts {

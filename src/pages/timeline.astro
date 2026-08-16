@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { formatHistoricalYear } from '../lib/lifespans';
 
 const entries = (await getCollection('entries')).sort((a, b) => {
   return (
@@ -12,7 +13,13 @@ const entries = (await getCollection('entries')).sort((a, b) => {
 const categories = [...new Set(entries.map((entry) => entry.data.category))].sort();
 const statuses = [...new Set(entries.map((entry) => entry.data.status))].sort();
 
-const decadeFor = (year: number) => Math.floor(year / 10) * 10;
+const decadeFor = (year: number) =>
+  year < 0
+    ? -Math.floor(Math.abs(year) / 10) * 10
+    : Math.floor(year / 10) * 10;
+
+const formatDecade = (decade: number) =>
+  decade < 0 ? `${Math.abs(decade)}s BCE` : `${decade}s`;
 
 const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timelineYear)))]
   .sort((a, b) => b - a);
@@ -155,7 +162,7 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
       return (
         <section class="decade-group" data-decade={decade}>
           <header class="decade-heading">
-            <p>{decade}s</p>
+            <p>{formatDecade(decade)}</p>
             <span aria-hidden="true"></span>
           </header>
 
@@ -169,8 +176,8 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
                 data-status={entry.data.status}
                 data-search={`${entry.data.claim} ${entry.data.currentUnderstanding} ${entry.data.summary} ${entry.data.category} ${entry.data.status} ${entry.data.changedApproximately}`.toLowerCase()}
               >
-                <div class="timeline-year" aria-label={`Representative timeline year ${entry.data.timelineYear}`}>
-                  {entry.data.timelineYear}
+                <div class="timeline-year" aria-label={`Representative timeline year ${formatHistoricalYear(entry.data.timelineYear)}`}>
+                  {formatHistoricalYear(entry.data.timelineYear)}
                 </div>
 
                 <div class="timeline-content">

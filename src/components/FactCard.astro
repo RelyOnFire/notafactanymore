@@ -1,44 +1,84 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import { formatApproxYears, lifespanYears } from '../lib/lifespans';
+import { lifespanYears } from '../lib/lifespans';
+import {
+  categoryLabel,
+  formatApproxYearsLocalized,
+  statusLabel,
+  type EntryTranslation,
+  type SiteLocale,
+} from '../lib/i18n';
 
 interface Props {
   entry: CollectionEntry<'entries'>;
   expanded?: boolean;
+  locale?: SiteLocale;
+  translation?: EntryTranslation;
 }
 
-const { entry, expanded = false } = Astro.props;
+const { entry, expanded = false, locale = 'en', translation } = Astro.props;
 const { data } = entry;
+const translated = locale === 'de' ? translation?.data : undefined;
 const lifespan = lifespanYears(data.acceptedYear, data.timelineYear);
 const lifespanComparable = data.lifespanComparable !== false;
+const entryHref = locale === 'de' ? `/de/entries/${entry.id}/` : `/entries/${entry.id}/`;
+const categoryHref = locale === 'de'
+  ? `/de/browse?category=${encodeURIComponent(data.category)}`
+  : `/categories/${data.category.toLowerCase()}/`;
+
+const labels = locale === 'de'
+  ? {
+      stamp: 'Keine Tatsache mehr',
+      now: 'Was wir heute wissen',
+      why: 'Warum sich das änderte',
+      status: 'Status',
+      category: 'Kategorie',
+      acceptedFor: 'Akzeptiert für',
+      acceptedApproximately: 'Ungefähr akzeptiert',
+      changedApproximately: 'Ungefähr geändert',
+      notQuantified: 'Nicht quantifiziert',
+      read: 'Belege ansehen →',
+    }
+  : {
+      stamp: 'Not a fact anymore',
+      now: 'What we know now',
+      why: 'Why it changed',
+      status: 'Status',
+      category: 'Category',
+      acceptedFor: 'Accepted for',
+      acceptedApproximately: 'Accepted approximately',
+      changedApproximately: 'Changed approximately',
+      notQuantified: 'Not quantified',
+      read: 'Read the evidence →',
+    };
 ---
 <article class:list={["fact-card", { expanded }]}>
-  <p class="stamp">Not a fact anymore</p>
-  <h2><a href={`/entries/${entry.id}/`}>{data.claim}</a></h2>
+  <p class="stamp">{labels.stamp}</p>
+  <h2><a href={entryHref}>{translated?.claim ?? data.claim}</a></h2>
 
   <div class="explanation-grid">
     <section>
-      <h3>What we know now</h3>
-      <p>{data.currentUnderstanding}</p>
+      <h3>{labels.now}</h3>
+      <p>{translated?.currentUnderstanding ?? data.currentUnderstanding}</p>
     </section>
 
     {expanded && (
       <section>
-        <h3>Why it changed</h3>
-        <p>{data.whyItChanged}</p>
+        <h3>{labels.why}</h3>
+        <p>{translated?.whyItChanged ?? data.whyItChanged}</p>
       </section>
     )}
   </div>
 
   <dl>
-    <div><dt>Status</dt><dd><span class="pill">{data.status}</span></dd></div>
-    <div><dt>Category</dt><dd><a href={`/categories/${data.category.toLowerCase()}/`}>{data.category}</a></dd></div>
-    <div><dt>Accepted for</dt><dd><span class="lifespan-pill">{lifespanComparable ? formatApproxYears(lifespan) : 'Not quantified'}</span></dd></div>
-    {expanded && <div><dt>Accepted approximately</dt><dd>{data.acceptedApproximately}</dd></div>}
-    <div><dt>Changed approximately</dt><dd>{data.changedApproximately}</dd></div>
+    <div><dt>{labels.status}</dt><dd><span class="pill">{statusLabel(data.status, locale)}</span></dd></div>
+    <div><dt>{labels.category}</dt><dd><a href={categoryHref}>{categoryLabel(data.category, locale)}</a></dd></div>
+    <div><dt>{labels.acceptedFor}</dt><dd><span class="lifespan-pill">{lifespanComparable ? formatApproxYearsLocalized(lifespan, locale) : labels.notQuantified}</span></dd></div>
+    {expanded && <div><dt>{labels.acceptedApproximately}</dt><dd>{translated?.acceptedApproximately ?? data.acceptedApproximately}</dd></div>}
+    <div><dt>{labels.changedApproximately}</dt><dd>{translated?.changedApproximately ?? data.changedApproximately}</dd></div>
   </dl>
 
-  {!expanded && <a class="read" href={`/entries/${entry.id}/`}>Read the evidence →</a>}
+  {!expanded && <a class="read" href={entryHref}>{labels.read}</a>}
 </article>
 
 <style>

@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout locale="de" title="Methodik" alternatePath="/methodology">
+  <article class="narrow prose">
+    <p class="eyebrow">Redaktioneller Standard</p>
+    <h1>Methodik</h1>
+    <p class="lead">Ein Eintrag muss eine Aussage dokumentieren, die von einer relevanten Institution, einem Fachgebiet, Lehrbuch, Nachschlagewerk oder einem substanziellen fachlichen Konsens zuvor als Tatsache oder als vorherrschende evidenzbasierte Erklärung behandelt wurde.</p>
+
+    <h2>Was aufgenommen wird</h2>
+    <p>Die frühere Aussage muss in ihrem historischen Kontext vernünftigerweise vertretbar gewesen sein. Die heutige Auffassung muss durch stärkere Evidenz, bessere Messmethoden oder ein erfolgreicheres Erklärungsmodell gestützt werden.</p>
+
+    <h2>Was nicht aufgenommen wird</h2>
+    <p>Urban Legends, gescheiterte Vorhersagen, Satire, isolierte Zitate, Propaganda, gewöhnliche Meinungen und Aussagen, die von Fachleuten durchgehend abgelehnt wurden, gehören nicht in den Katalog.</p>
+
+    <h2>Erforderliche Evidenz</h2>
+    <p>Jeder Eintrag sollte normalerweise sowohl Belege dafür enthalten, dass die frühere Aussage tatsächlich akzeptiert war, als auch Belege für die heutige Auffassung. Quellen werden nach ihrem Zweck gekennzeichnet, damit sichtbar ist, was die jeweilige Quellenangabe belegt.</p>
+
+    <h2>Statuskennzeichnungen</h2>
+    <dl>
+      <div><dt>Widerlegt</dt><dd>Die frühere Aussage gilt heute als im Wesentlichen falsch.</dd></div>
+      <div><dt>Abgelöst</dt><dd>Eine stärkere Erklärung oder ein stärkeres Modell hat sie ersetzt.</dd></div>
+      <div><dt>Eingeschränkt</dt><dd>Die Aussage gilt nur noch unter begrenzteren Bedingungen.</dd></div>
+      <div><dt>Neu eingeordnet</dt><dd>Das Objekt, der Zustand oder das Phänomen wird heute anders klassifiziert.</dd></div>
+      <div><dt>Korrigiert</dt><dd>Verbesserte Daten oder Messungen führten zu einer materiell anderen Antwort.</dd></div>
+    </dl>
+
+    <h2>Korrekturen</h2>
+    <p>Einträge sind datiert und werden regelmäßig überprüft. Wenn eine Quelle veraltet, ist das selbst ein Grund, den Katalog zu überarbeiten. Vorschläge und Korrekturen werden vor der Veröffentlichung redaktionell geprüft.</p>
+  </article>
+</BaseLayout>
+<style>
+  .prose { padding: 5rem 0; }
+  .prose h1 { margin: .2rem 0 1.5rem; }
+  .lead { font-size: 1.3rem; color: var(--muted); }
+  .prose h2 { margin-top: 2.8rem; font-size: 1.7rem; }
+  dl div { padding: 1rem 0; border-bottom: 1px solid var(--line); }
+  dt { font-weight: 850; }
+  dd { margin: .25rem 0 0; color: var(--muted); }
+</style>

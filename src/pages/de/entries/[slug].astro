@@ -1,0 +1,86 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import FactCard from '../../../components/FactCard.astro';
+import { sourcePurposeLabel, translationMatchesEntry } from '../../../lib/i18n';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('entries');
+  const translations = await getCollection(
+    'entryTranslations',
+    (translation) => translation.data.locale === 'de',
+  );
+
+  return translations.flatMap((translation) => {
+    const entry = entries.find((candidate) => candidate.id === translation.data.entryId);
+
+    return entry && translationMatchesEntry(entry, translation)
+      ? [{
+          params: { slug: entry.id },
+          props: { entry, translation },
+        }]
+      : [];
+  });
+}
+
+const { entry, translation } = Astro.props;
+const { Content } = await render(translation);
+const sourcesWithIndex = entry.data.sources.map((source, index) => ({ source, index }));
+const groupedSources = sourcesWithIndex.reduce<Record<string, typeof sourcesWithIndex>>((groups, item) => {
+  (groups[item.source.purpose] ??= []).push(item);
+  return groups;
+}, {});
+---
+<BaseLayout
+  locale="de"
+  title={translation.data.claim}
+  description={translation.data.summary}
+  type="article"
+  alternatePath={`/entries/${entry.id}/`}
+>
+  <div class="narrow entry-page">
+    <FactCard entry={entry} translation={translation} locale="de" expanded />
+
+    <article class="context prose">
+      <Content />
+    </article>
+
+    <section class="evidence">
+      <p class="eyebrow">Evidenz</p>
+      <h2>Quellen und was sie belegen</h2>
+      {Object.entries(groupedSources).map(([purpose, items]) => (
+        <div class="source-group">
+          <h3>{sourcePurposeLabel(purpose, 'de')}</h3>
+          <ul>
+            {items?.map(({ source, index }) => (
+              <li>
+                <a href={source.url} target="_blank" rel="noopener noreferrer"><strong>{source.title}</strong></a>
+                <span>{source.publisher}</span>
+                <p>{translation.data.sourceNotes[index] ?? source.note}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </section>
+
+    <aside class="reviewed">
+      Veröffentlicht am {entry.data.publishedAt.toLocaleDateString('de-AT')} · Zuletzt geprüft am {entry.data.reviewedAt.toLocaleDateString('de-AT')}
+    </aside>
+  </div>
+</BaseLayout>
+
+<style>
+  .entry-page { padding: 4rem 0; }
+  .context, .evidence { margin-top: 3rem; }
+  .prose :global(p) { font-size: 1.1rem; }
+  .evidence h2 { margin-top: .3rem; }
+  .source-group { margin-top: 2.25rem; }
+  .source-group h3 { border-bottom: 1px solid var(--line); padding-bottom: .5rem; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { padding: 1rem 0; border-bottom: 1px solid var(--line); }
+  li a { color: var(--accent-dark); }
+  li span { display: block; color: var(--muted); font-size: .92rem; }
+  li p { margin: .35rem 0 0; }
+  .reviewed { margin-top: 3rem; padding: 1rem; background: #e9e3d6; color: var(--muted); font-size: .9rem; }
+</style>

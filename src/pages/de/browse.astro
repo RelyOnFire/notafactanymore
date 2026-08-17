@@ -1,0 +1,141 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FactCard from '../../components/FactCard.astro';
+import { categoryLabel, statusLabel, translationMatchesEntry } from '../../lib/i18n';
+
+const entries = await getCollection('entries');
+const translations = await getCollection(
+  'entryTranslations',
+  (translation) => translation.data.locale === 'de',
+);
+
+const items = translations
+  .map((translation) => {
+    const entry = entries.find((candidate) => candidate.id === translation.data.entryId);
+    return entry && translationMatchesEntry(entry, translation) ? { entry, translation } : null;
+  })
+  .filter((item): item is NonNullable<typeof item> => Boolean(item))
+  .sort((a, b) => a.translation.data.claim.localeCompare(b.translation.data.claim, 'de', { sensitivity: 'base' }));
+
+const categories = [...new Set(items.map(({ entry }) => entry.data.category))]
+  .sort((a, b) => categoryLabel(a, 'de').localeCompare(categoryLabel(b, 'de'), 'de'));
+const statuses = [...new Set(items.map(({ entry }) => entry.data.status))]
+  .sort((a, b) => statusLabel(a, 'de').localeCompare(statusLabel(b, 'de'), 'de'));
+---
+<BaseLayout
+  locale="de"
+  title="Katalog"
+  description="Durchsuche die derzeit auf Deutsch verfügbaren Einträge von Not a Fact Anymore."
+>
+  <section class="container browse-page">
+    <div class="browse-heading">
+      <div>
+        <p class="eyebrow">Deutschsprachige Ausgabe</p>
+        <h1>Katalog</h1>
+        <p class="lead">
+          Zum Start sind {items.length} Einträge vollständig auf Deutsch verfügbar. Der englische
+          Katalog enthält die gesamte Sammlung und bleibt die kanonische Quelle für Metadaten und
+          Belege.
+        </p>
+      </div>
+      <a class="english-link" href="/browse" hreflang="en">Vollständigen englischen Katalog →</a>
+    </div>
+
+    <div class="controls" aria-label="Katalog filtern">
+      <label>
+        Suchen
+        <input id="de-search" type="search" placeholder="Aussage, Erklärung oder Fachgebiet…" autocomplete="off" />
+      </label>
+      <label>
+        Kategorie
+        <select id="de-category">
+          <option value="">Alle Kategorien</option>
+          {categories.map((category) => <option value={category}>{categoryLabel(category, 'de')}</option>)}
+        </select>
+      </label>
+      <label>
+        Status
+        <select id="de-status">
+          <option value="">Alle Status</option>
+          {statuses.map((status) => <option value={status}>{statusLabel(status, 'de')}</option>)}
+        </select>
+      </label>
+    </div>
+
+    <p class="result-count" aria-live="polite"><strong id="de-visible-count">{items.length}</strong> von {items.length} Einträgen</p>
+
+    <div class="cards" id="de-cards">
+      {items.map(({ entry, translation }) => (
+        <div
+          class="card-wrap"
+          data-category={entry.data.category}
+          data-status={entry.data.status}
+          data-search={`${translation.data.claim} ${translation.data.currentUnderstanding} ${translation.data.whyItChanged} ${categoryLabel(entry.data.category, 'de')} ${statusLabel(entry.data.status, 'de')}`.toLocaleLowerCase('de')}
+        >
+          <FactCard entry={entry} translation={translation} locale="de" />
+        </div>
+      ))}
+    </div>
+
+    <p class="no-results" id="de-no-results" hidden>Keine Einträge entsprechen diesen Filtern.</p>
+  </section>
+</BaseLayout>
+
+<script>
+  const search = document.querySelector<HTMLInputElement>('#de-search');
+  const category = document.querySelector<HTMLSelectElement>('#de-category');
+  const status = document.querySelector<HTMLSelectElement>('#de-status');
+  const cards = [...document.querySelectorAll<HTMLElement>('.card-wrap')];
+  const count = document.querySelector<HTMLElement>('#de-visible-count');
+  const noResults = document.querySelector<HTMLElement>('#de-no-results');
+
+  const params = new URLSearchParams(window.location.search);
+  if (category && params.get('category')) category.value = params.get('category') ?? '';
+  if (status && params.get('status')) status.value = params.get('status') ?? '';
+
+  const applyFilters = () => {
+    const query = (search?.value ?? '').trim().toLocaleLowerCase('de');
+    const selectedCategory = category?.value ?? '';
+    const selectedStatus = status?.value ?? '';
+    let visible = 0;
+
+    for (const card of cards) {
+      const matchesSearch = !query || (card.dataset.search ?? '').includes(query);
+      const matchesCategory = !selectedCategory || card.dataset.category === selectedCategory;
+      const matchesStatus = !selectedStatus || card.dataset.status === selectedStatus;
+      const show = matchesSearch && matchesCategory && matchesStatus;
+      card.hidden = !show;
+      if (show) visible += 1;
+    }
+
+    if (count) count.textContent = String(visible);
+    if (noResults) noResults.hidden = visible !== 0;
+  };
+
+  search?.addEventListener('input', applyFilters);
+  category?.addEventListener('change', applyFilters);
+  status?.addEventListener('change', applyFilters);
+  applyFilters();
+</script>
+
+<style>
+  .browse-page { padding: 5rem 0; }
+  .browse-heading { display: flex; justify-content: space-between; align-items: end; gap: 2rem; margin-bottom: 2.5rem; }
+  .browse-heading h1 { margin: .2rem 0 1rem; }
+  .lead { color: var(--muted); font-size: 1.15rem; }
+  .english-link { flex: 0 0 auto; color: var(--accent-dark); font-weight: 800; }
+
+  .controls { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(11rem, .7fr) minmax(11rem, .7fr); gap: 1rem; padding: 1.2rem; border: 1px solid var(--line); background: var(--card); }
+  .controls label { font-weight: 800; }
+  .controls input, .controls select { width: 100%; min-height: 2.8rem; display: block; margin-top: .35rem; border: 1px solid var(--line); border-radius: .35rem; padding: .55rem .7rem; background: white; color: var(--ink); font: inherit; }
+  .result-count { margin: 1.25rem 0; color: var(--muted); }
+  .cards { display: grid; gap: 1.5rem; }
+  .card-wrap[hidden] { display: none; }
+  .no-results { padding: 2rem; border: 1px dashed var(--line); color: var(--muted); text-align: center; }
+
+  @media (max-width: 760px) {
+    .browse-heading { align-items: flex-start; flex-direction: column; }
+    .controls { grid-template-columns: 1fr; }
+  }
+</style>

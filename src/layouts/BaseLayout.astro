@@ -1,6 +1,7 @@
 ---
 import { siteConfig } from '../site-config';
 import BackToTop from '../components/BackToTop.astro';
+import { localeMeta, localizedPath, type SiteLocale } from '../lib/i18n';
 
 interface Props {
   title?: string;
@@ -10,24 +11,37 @@ interface Props {
   canonicalURL?: string | URL;
   type?: 'website' | 'article';
   noindex?: boolean;
+  locale?: SiteLocale;
+  alternatePath?: string;
 }
 
 const {
+  locale = 'en',
   title = siteConfig.name,
-  description = siteConfig.description,
+  description = locale === 'de'
+    ? 'Ein Katalog wissenschaftlicher Aussagen, die einst vernünftigerweise als Tatsachen galten, später aber durch bessere Evidenz widerlegt, ersetzt, eingeschränkt, neu eingeordnet oder korrigiert wurden.'
+    : siteConfig.description,
   image = '/social-card.png',
-  imageAlt = `${siteConfig.name} - Facts have a history.`,
+  imageAlt = locale === 'de'
+    ? `${siteConfig.name} - Fakten haben eine Geschichte.`
+    : `${siteConfig.name} - Facts have a history.`,
   canonicalURL,
   type = 'website',
   noindex = false,
+  alternatePath,
 } = Astro.props;
 
-const pageTitle =
-  Astro.url.pathname === '/'
-    ? `${siteConfig.name}: When Scientific Knowledge Changes`
-    : title === siteConfig.name
-      ? title
-      : `${title} | ${siteConfig.name}`;
+const isLocaleHome = locale === 'de'
+  ? Astro.url.pathname === '/de/' || Astro.url.pathname === '/de'
+  : Astro.url.pathname === '/';
+
+const pageTitle = isLocaleHome
+  ? locale === 'de'
+    ? `${siteConfig.name}: Wenn sich wissenschaftliches Wissen verändert`
+    : `${siteConfig.name}: When Scientific Knowledge Changes`
+  : title === siteConfig.name
+    ? title
+    : `${title} | ${siteConfig.name}`;
 
 const siteURL = Astro.site ?? new URL('https://notafactanymore.com');
 
@@ -45,16 +59,54 @@ const pageURL = canonicalURL
   : new URL(Astro.url.pathname, siteURL);
 
 const socialImageURL = new URL(image, siteURL);
+const otherLocale: SiteLocale = locale === 'de' ? 'en' : 'de';
+const normalizedPath = Astro.url.pathname.length > 1
+  ? Astro.url.pathname.replace(/\/$/, '')
+  : Astro.url.pathname;
+const germanShellRoutes = new Set(['/', '/browse', '/about', '/methodology', '/submit']);
+const englishEquivalent = localizedPath(normalizedPath, 'en');
+const isKnownGermanPair = germanShellRoutes.has(englishEquivalent);
+const resolvedAlternatePath = alternatePath ?? (isKnownGermanPair
+  ? localizedPath(normalizedPath, otherLocale)
+  : undefined);
+const languageHref = resolvedAlternatePath ?? (locale === 'de' ? '/' : '/de/');
+
+const englishPath = resolvedAlternatePath
+  ? locale === 'en' ? Astro.url.pathname : resolvedAlternatePath
+  : undefined;
+const germanPath = resolvedAlternatePath
+  ? locale === 'de' ? Astro.url.pathname : resolvedAlternatePath
+  : undefined;
+
+const navItems = locale === 'de'
+  ? [
+      ['/de/browse', 'Katalog'],
+      ['/de/methodology', 'Methodik'],
+      ['/de/submit', 'Beitrag vorschlagen'],
+      ['/de/about', 'Über das Projekt'],
+    ]
+  : [
+      ['/browse', 'Browse'],
+      ['/timeline', 'Timeline'],
+      ['/lifespans', 'Lifespans'],
+      ['/methodology', 'Methodology'],
+      ['/submit', 'Submit a claim'],
+      ['/about', 'About'],
+    ];
+
+const brandHome = locale === 'de' ? '/de/' : '/';
+const navLabel = locale === 'de' ? 'Hauptnavigation' : 'Main navigation';
+const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteConfig.name} home`;
 ---
 <!doctype html>
-<html lang="en">
+<html lang={localeMeta[locale].htmlLang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
 
-    {Astro.url.pathname === '/' && (
+    {locale === 'en' && Astro.url.pathname === '/' && (
       <script
         type="application/ld+json"
         set:html={JSON.stringify(websiteJsonLd)}
@@ -64,12 +116,19 @@ const socialImageURL = new URL(image, siteURL);
     {noindex && <meta name="robots" content="noindex, nofollow" />}
 
     <link rel="canonical" href={pageURL.toString()} />
+    {englishPath && germanPath && (
+      <>
+        <link rel="alternate" hreflang="en" href={new URL(englishPath, siteURL).toString()} />
+        <link rel="alternate" hreflang="de" href={new URL(germanPath, siteURL).toString()} />
+        <link rel="alternate" hreflang="x-default" href={new URL(englishPath, siteURL).toString()} />
+      </>
+    )}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta name="theme-color" content="#f5f1e8" />
 
     <!-- Open Graph -->
     <meta property="og:site_name" content={siteConfig.name} />
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale" content={localeMeta[locale].ogLocale} />
     <meta property="og:type" content={type} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
@@ -90,33 +149,51 @@ const socialImageURL = new URL(image, siteURL);
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="/" aria-label={`${siteConfig.name} home`}>
+      <a class="brand" href={brandHome} aria-label={brandLabel}>
         <span class="brand-mark" aria-hidden="true">NF</span>
         <span>{siteConfig.name}</span>
       </a>
 
-      <nav aria-label="Main navigation">
-        <a href="/browse">Browse</a>
-        <a href="/timeline">Timeline</a>
-        <a href="/lifespans">Lifespans</a>
-        <a href="/methodology">Methodology</a>
-        <a href="/submit">Submit a claim</a>
-        <a href="/about">About</a>
-      </nav>
+      <div class="header-actions">
+        <nav aria-label={navLabel}>
+          {navItems.map(([href, label]) => <a href={href}>{label}</a>)}
+        </nav>
+        <a
+          class="language-switch"
+          href={languageHref}
+          hreflang={otherLocale}
+          lang={localeMeta[otherLocale].htmlLang}
+          aria-label={locale === 'de' ? 'English version' : 'Deutsche Version'}
+        >
+          {localeMeta[otherLocale].shortName}
+        </a>
+      </div>
     </header>
 
     <main>
       <slot />
     </main>
 
-    <BackToTop />
+    <BackToTop locale={locale} />
 
     <footer>
-      <p>
-        <strong>{siteConfig.name}</strong> documents how defensible knowledge
-        changes when stronger evidence arrives.
-      </p>
-      <p>Every entry is dated, sourced, and open to correction.</p>
+      {locale === 'de' ? (
+        <>
+          <p>
+            <strong>{siteConfig.name}</strong> dokumentiert, wie sich belastbares Wissen verändert,
+            wenn bessere Evidenz verfügbar wird.
+          </p>
+          <p>Jeder Eintrag ist datiert, belegt und offen für Korrekturen.</p>
+        </>
+      ) : (
+        <>
+          <p>
+            <strong>{siteConfig.name}</strong> documents how defensible knowledge
+            changes when stronger evidence arrives.
+          </p>
+          <p>Every entry is dated, sourced, and open to correction.</p>
+        </>
+      )}
     </footer>
   </body>
 </html>
@@ -185,6 +262,12 @@ const socialImageURL = new URL(image, siteURL);
     font-size: 0.8rem;
   }
 
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
   nav {
     display: flex;
     gap: 1.25rem;
@@ -198,6 +281,28 @@ const socialImageURL = new URL(image, siteURL);
   }
 
   nav a:hover {
+    color: var(--accent-dark);
+  }
+
+  .language-switch {
+    display: grid;
+    place-items: center;
+    min-width: 2.5rem;
+    min-height: 2.15rem;
+    padding: 0.25rem 0.55rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--ink);
+    background: var(--card);
+    text-decoration: none;
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+  }
+
+  .language-switch:hover,
+  .language-switch:focus-visible {
+    border-color: var(--accent-dark);
     color: var(--accent-dark);
   }
 
@@ -282,11 +387,27 @@ const socialImageURL = new URL(image, siteURL);
     max-width: 35rem;
   }
 
+  @media (max-width: 900px) {
+    .site-header,
+    .header-actions {
+      align-items: flex-start;
+    }
+
+    .header-actions {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+
   @media (max-width: 760px) {
     .site-header {
       align-items: flex-start;
       flex-direction: column;
       padding: 1rem 0;
+    }
+
+    .header-actions {
+      gap: 0.75rem;
     }
 
     nav {

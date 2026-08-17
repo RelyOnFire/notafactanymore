@@ -1,20 +1,34 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import { formatApproxYears, lifespanYears } from '../lib/lifespans';
+import { lifespanYears } from '../lib/lifespans';
+import {
+  categoryLabel,
+  formatApproxYearsLocalized,
+  statusLabel,
+  type EntryTranslation,
+  type SiteLocale,
+} from '../lib/i18n';
 
 interface Props {
   entry: CollectionEntry<'entries'>;
+  locale?: SiteLocale;
+  translation?: EntryTranslation;
 }
 
-const { entry } = Astro.props;
+const { entry, locale = 'en', translation } = Astro.props;
 const { data } = entry;
+const translated = locale === 'de' ? translation?.data : undefined;
 const lifespan = lifespanYears(data.acceptedYear, data.timelineYear);
 const lifespanComparable = data.lifespanComparable !== false;
+const href = locale === 'de' ? `/de/entries/${entry.id}/` : `/entries/${entry.id}/`;
+const lifespanText = lifespanComparable
+  ? formatApproxYearsLocalized(lifespan, locale)
+  : locale === 'de' ? 'Dauer nicht quantifiziert' : 'Lifespan not quantified';
 ---
 
-<a class="compact-claim" href={`/entries/${entry.id}/`}>
-  <strong>{data.claim}</strong>
-  <span>{data.category} · {data.status} · {lifespanComparable ? formatApproxYears(lifespan) : 'Lifespan not quantified'}</span>
+<a class="compact-claim" href={href}>
+  <strong>{translated?.claim ?? data.claim}</strong>
+  <span>{categoryLabel(data.category, locale)} · {statusLabel(data.status, locale)} · {lifespanText}</span>
 </a>
 
 <style>

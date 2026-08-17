@@ -48,4 +48,20 @@ const entries = defineCollection({
   }),
 });
 
-export const collections = { entries };
+const entryTranslations = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.md', base: './src/data/translations' }),
+  schema: z.object({
+    locale: z.enum(['de', 'fr', 'es']),
+    entryId: z.string(),
+    sourceReviewedAt: z.coerce.date(),
+    claim: z.string(),
+    currentUnderstanding: z.string(),
+    whyItChanged: z.string(),
+    acceptedApproximately: z.string(),
+    changedApproximately: z.string(),
+    summary: z.string(),
+    sourceNotes: z.array(z.string()),
+  }),
+});
+
+export const collections = { entries, entryTranslations };

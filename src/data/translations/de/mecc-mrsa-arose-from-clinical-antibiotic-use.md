@@ -1,6 +1,6 @@
 ---
 locale: de
-entryId: mecC-mrsa-arose-from-clinical-antibiotic-use
+entryId: mecc-mrsa-arose-from-clinical-antibiotic-use
 sourceReviewedAt: "2026-08-13"
 claim: "Europäische mecC-MRSA-Linien entstanden im modernen Antibiotikazeitalter, weil der Einsatz von Antibiotika in Human- oder Veterinärmedizin auf Methicillinresistenz selektierte."
 currentUnderstanding: "Wichtige mecC-MRSA-Linien, die bei europäischen Igeln vorkommen, entstanden bereits vor dem klinischen Einsatz von Antibiotika. Antibiotikaproduzierende Pilze auf Igeln scheinen eine natürliche Umgebung geschaffen zu haben, die Methicillinresistenz lange vor der modernen Medizin begünstigte."

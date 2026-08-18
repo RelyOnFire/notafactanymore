@@ -63,7 +63,16 @@ const otherLocale: SiteLocale = locale === 'de' ? 'en' : 'de';
 const normalizedPath = Astro.url.pathname.length > 1
   ? Astro.url.pathname.replace(/\/$/, '')
   : Astro.url.pathname;
-const germanShellRoutes = new Set(['/', '/browse', '/about', '/methodology', '/submit', '/impressum']);
+const germanShellRoutes = new Set([
+  '/',
+  '/browse',
+  '/timeline',
+  '/lifespans',
+  '/about',
+  '/methodology',
+  '/submit',
+  '/impressum',
+]);
 const englishEquivalent = localizedPath(normalizedPath, 'en');
 const isKnownGermanPair = germanShellRoutes.has(englishEquivalent);
 const resolvedAlternatePath = alternatePath ?? (isKnownGermanPair
@@ -81,6 +90,8 @@ const germanPath = resolvedAlternatePath
 const navItems = locale === 'de'
   ? [
       ['/de/browse', 'Katalog'],
+      ['/de/timeline', 'Zeitleiste'],
+      ['/de/lifespans', 'Lebensdauer'],
       ['/de/methodology', 'Methodik'],
       ['/de/submit', 'Beitrag vorschlagen'],
       ['/de/about', 'Über das Projekt'],
@@ -126,7 +137,6 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta name="theme-color" content="#f5f1e8" />
 
-    <!-- Open Graph -->
     <meta property="og:site_name" content={siteConfig.name} />
     <meta property="og:locale" content={localeMeta[locale].ogLocale} />
     <meta property="og:type" content={type} />
@@ -140,7 +150,6 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content={imageAlt} />
 
-    <!-- X / Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
@@ -216,23 +225,10 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
     background: var(--paper);
   }
 
-  * {
-    box-sizing: border-box;
-  }
-
-  html {
-    background: var(--paper);
-  }
-
-  body {
-    margin: 0;
-    line-height: 1.6;
-    background: var(--paper);
-  }
-
-  a {
-    color: inherit;
-  }
+  * { box-sizing: border-box; }
+  html { background: var(--paper); }
+  body { margin: 0; line-height: 1.6; background: var(--paper); }
+  a { color: inherit; }
 
   .site-header {
     width: min(var(--max), calc(100% - 2rem));
@@ -282,9 +278,7 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
     font-weight: 650;
   }
 
-  nav a:hover {
-    color: var(--accent-dark);
-  }
+  nav a:hover { color: var(--accent-dark); }
 
   .language-switch {
     display: grid;
@@ -308,9 +302,7 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
     color: var(--accent-dark);
   }
 
-  main {
-    min-height: 70vh;
-  }
+  main { min-height: 70vh; }
 
   .container {
     width: min(var(--max), calc(100% - 2rem));
@@ -322,24 +314,14 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
     margin: 0 auto;
   }
 
-  h1,
-  h2,
-  h3 {
+  h1, h2, h3 {
     line-height: 1.1;
     letter-spacing: -0.025em;
   }
 
-  h1 {
-    font-size: clamp(2.5rem, 7vw, 5.75rem);
-  }
-
-  h2 {
-    font-size: clamp(1.7rem, 4vw, 2.8rem);
-  }
-
-  p {
-    max-width: 72ch;
-  }
+  h1 { font-size: clamp(2.5rem, 7vw, 5.75rem); }
+  h2 { font-size: clamp(1.7rem, 4vw, 2.8rem); }
+  p { max-width: 72ch; }
 
   .eyebrow {
     text-transform: uppercase;
@@ -362,9 +344,7 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
     cursor: pointer;
   }
 
-  .button:hover {
-    background: var(--accent-dark);
-  }
+  .button:hover { background: var(--accent-dark); }
 
   .button.secondary {
     color: var(--ink);
@@ -384,20 +364,12 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
     flex-wrap: wrap;
   }
 
-  footer p {
-    margin: 0;
-    max-width: 35rem;
-  }
-
-  footer a {
-    text-underline-offset: 0.18em;
-  }
+  footer p { margin: 0; max-width: 35rem; }
+  footer a { text-underline-offset: 0.18em; }
 
   @media (max-width: 900px) {
     .site-header,
-    .header-actions {
-      align-items: flex-start;
-    }
+    .header-actions { align-items: flex-start; }
 
     .header-actions {
       width: 100%;
@@ -412,12 +384,7 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
       padding: 1rem 0;
     }
 
-    .header-actions {
-      gap: 0.75rem;
-    }
-
-    nav {
-      gap: 0.8rem 1rem;
-    }
+    .header-actions { gap: 0.75rem; }
+    nav { gap: 0.8rem 1rem; }
   }
 </style>

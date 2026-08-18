@@ -1,8 +1,26 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import CompactClaim from '../../components/CompactClaim.astro';
 import FactCard from '../../components/FactCard.astro';
-import { categoryLabel, statusLabel, translationMatchesEntry } from '../../lib/i18n';
+import {
+  categoryLabel,
+  statusLabel,
+  translationMatchesEntry,
+} from '../../lib/i18n';
+
+const claimCollator = new Intl.Collator('de', {
+  sensitivity: 'base',
+  numeric: true,
+});
+
+const claimSortKey = (claim: string) => {
+  let key = claim.trim();
+  const leadingWords = /^(?:(?:der|die|das|ein(?:e|er|es|em|en)?|alle|jeder|jede|jedes|es)\s+)+/i;
+  const stripped = key.replace(leadingWords, '');
+  key = stripped || key;
+  return key.replace(/^[^\p{L}\p{N}]+/u, '').trim() || claim.trim();
+};
 
 const entries = await getCollection('entries');
 const translations = await getCollection(
@@ -16,126 +34,531 @@ const items = translations
     return entry && translationMatchesEntry(entry, translation) ? { entry, translation } : null;
   })
   .filter((item): item is NonNullable<typeof item> => Boolean(item))
-  .sort((a, b) => a.translation.data.claim.localeCompare(b.translation.data.claim, 'de', { sensitivity: 'base' }));
+  .sort((a, b) => {
+    const bySubject = claimCollator.compare(
+      claimSortKey(a.translation.data.claim),
+      claimSortKey(b.translation.data.claim),
+    );
+    return bySubject || claimCollator.compare(a.translation.data.claim, b.translation.data.claim);
+  });
 
 const categories = [...new Set(items.map(({ entry }) => entry.data.category))]
   .sort((a, b) => categoryLabel(a, 'de').localeCompare(categoryLabel(b, 'de'), 'de'));
+
 const statuses = [...new Set(items.map(({ entry }) => entry.data.status))]
   .sort((a, b) => statusLabel(a, 'de').localeCompare(statusLabel(b, 'de'), 'de'));
 ---
 <BaseLayout
   locale="de"
   title="Katalog"
-  description="Durchsuche die derzeit auf Deutsch verfügbaren Einträge von Not a Fact Anymore."
+  description="Durchsuche den vollständigen deutschsprachigen Katalog wissenschaftlicher und historischer Aussagen, deren Bewertung sich durch bessere Evidenz verändert hat."
+  alternatePath="/browse"
 >
-  <section class="container browse-page">
-    <div class="browse-heading">
-      <div>
-        <p class="eyebrow">Deutschsprachige Ausgabe</p>
-        <h1>Katalog</h1>
-        <p class="lead">
-          Zum Start sind {items.length} Einträge vollständig auf Deutsch verfügbar. Der englische
-          Katalog enthält die gesamte Sammlung und bleibt die kanonische Quelle für Metadaten und
-          Belege.
-        </p>
-      </div>
-      <a class="english-link" href="/browse" hreflang="en">Vollständigen englischen Katalog →</a>
-    </div>
+  <header class="page-head container">
+    <p class="eyebrow">Der Katalog</p>
+    <h1>Einträge durchsuchen</h1>
+    <p>
+      Durchsuche die vollständige Sammlung, grenze sie nach Kategorie oder Status ein,
+      ändere die Sortierung und wechsle zwischen ausführlichen Karten und einer kompakten Liste.
+    </p>
+  </header>
 
-    <div class="controls" aria-label="Katalog filtern">
-      <label>
-        Suchen
-        <input id="de-search" type="search" placeholder="Aussage, Erklärung oder Fachgebiet…" autocomplete="off" />
-      </label>
-      <label>
-        Kategorie
-        <select id="de-category">
-          <option value="">Alle Kategorien</option>
-          {categories.map((category) => <option value={category}>{categoryLabel(category, 'de')}</option>)}
-        </select>
-      </label>
-      <label>
-        Status
-        <select id="de-status">
-          <option value="">Alle Status</option>
-          {statuses.map((status) => <option value={status}>{statusLabel(status, 'de')}</option>)}
-        </select>
-      </label>
-    </div>
+  <section class="filter-region" aria-label="Katalogsteuerung">
+    <div class="container filter-inner">
+      <div class="primary-controls">
+        <label class="search-field">
+          <span class="sr-only">Aussagen durchsuchen</span>
+          <input
+            type="search"
+            class="catalogue-search"
+            placeholder="Aussagen und heutigen Wissensstand durchsuchen…"
+            autocomplete="off"
+          />
+        </label>
 
-    <p class="result-count" aria-live="polite"><strong id="de-visible-count">{items.length}</strong> von {items.length} Einträgen</p>
+        <label class="sort-field">
+          <span class="sr-only">Katalog sortieren</span>
+          <select class="sort-select" aria-label="Katalog sortieren">
+            <option value="subject">Thema A–Z</option>
+            <option value="newest-change">Neueste Änderung</option>
+            <option value="oldest-change">Älteste Änderung</option>
+            <option value="shortest-lived">Kürzeste Lebensdauer</option>
+            <option value="longest-lived">Längste Lebensdauer</option>
+            <option value="recently-added">Zuletzt hinzugefügt</option>
+          </select>
+        </label>
 
-    <div class="cards" id="de-cards">
-      {items.map(({ entry, translation }) => (
-        <div
-          class="card-wrap"
-          data-category={entry.data.category}
-          data-status={entry.data.status}
-          data-search={`${translation.data.claim} ${translation.data.currentUnderstanding} ${translation.data.whyItChanged} ${categoryLabel(entry.data.category, 'de')} ${statusLabel(entry.data.status, 'de')}`.toLocaleLowerCase('de')}
+        <fieldset class="view-switcher">
+          <legend class="sr-only">Ansicht</legend>
+          <div class="view-buttons">
+            <button class="view-button" type="button" data-view="cards" aria-pressed="true">Karten</button>
+            <button class="view-button" type="button" data-view="compact" aria-pressed="false">Kompakt</button>
+          </div>
+        </fieldset>
+
+        <button
+          class="filter-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="catalogue-filter-panel"
         >
-          <FactCard entry={entry} translation={translation} locale="de" />
-        </div>
-      ))}
-    </div>
+          <span>Filter</span>
+          <span class="filter-count" hidden>0</span>
+        </button>
+      </div>
 
-    <p class="no-results" id="de-no-results" hidden>Keine Einträge entsprechen diesen Filtern.</p>
+      <div class="active-filter-row" hidden>
+        <div class="active-filter-chips" aria-label="Aktive Filter"></div>
+        <button class="clear-filters clear-filters-inline" type="button">Alle löschen</button>
+      </div>
+
+      <div class="catalogue-summary-row">
+        <p class="results-summary" aria-live="polite">Alle {items.length} Einträge werden angezeigt</p>
+      </div>
+
+      <div
+        class="filter-panel"
+        id="catalogue-filter-panel"
+        hidden
+        aria-label="Katalog filtern"
+      >
+        <div class="filter-panel-header">
+          <div>
+            <p class="filter-label">Katalog filtern</p>
+            <p class="filter-help">Kategorien und Status lassen sich beliebig kombinieren.</p>
+          </div>
+          <button class="filter-close" type="button" aria-label="Filter schließen">×</button>
+        </div>
+
+        <div class="filter-panel-scroll">
+          <div class="filter-groups">
+            <div>
+              <p class="group-label">Kategorien</p>
+              <div class="filters" role="group" aria-label="Einträge nach Kategorie filtern">
+                {categories.map((category) => {
+                  const count = items.filter(({ entry }) => entry.data.category === category).length;
+                  const label = categoryLabel(category, 'de');
+                  return (
+                    <button
+                      class="filter-button"
+                      type="button"
+                      data-filter-type="category"
+                      data-filter-value={category}
+                      data-filter-label={label}
+                      aria-pressed="false"
+                    >
+                      {label}<span class="count">{count}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div>
+              <p class="group-label">Status</p>
+              <div class="filters" role="group" aria-label="Einträge nach Status filtern">
+                {statuses.map((status) => {
+                  const count = items.filter(({ entry }) => entry.data.status === status).length;
+                  const label = statusLabel(status, 'de');
+                  return (
+                    <button
+                      class="filter-button"
+                      type="button"
+                      data-filter-type="status"
+                      data-filter-value={status}
+                      data-filter-label={label}
+                      aria-pressed="false"
+                    >
+                      {label}<span class="count">{count}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-panel-actions">
+          <button class="clear-filters clear-filters-panel" type="button">Alle löschen</button>
+          <button class="apply-filters" type="button">Alle {items.length} Einträge anzeigen</button>
+        </div>
+      </div>
+    </div>
   </section>
+
+  <section class="container catalogue catalogue-cards" aria-label="Katalog als Karten">
+    {items.map(({ entry, translation }) => (
+      <div
+        class="entry-wrapper"
+        data-entry-id={entry.id}
+        data-category={entry.data.category}
+        data-status={entry.data.status}
+        data-search={`${translation.data.claim} ${translation.data.currentUnderstanding} ${translation.data.summary} ${categoryLabel(entry.data.category, 'de')} ${statusLabel(entry.data.status, 'de')} ${entry.data.category} ${entry.data.status}`.toLocaleLowerCase('de')}
+        data-claim={translation.data.claim}
+        data-subject={claimSortKey(translation.data.claim)}
+        data-timeline-year={entry.data.timelineYear}
+        data-lifespan={entry.data.lifespanComparable === false ? '' : entry.data.timelineYear - entry.data.acceptedYear}
+        data-published-at={entry.data.publishedAt.getTime()}
+      >
+        <FactCard entry={entry} translation={translation} locale="de" />
+      </div>
+    ))}
+  </section>
+
+  <section class="container catalogue catalogue-compact" aria-label="Kompakte Katalogansicht" hidden>
+    {items.map(({ entry, translation }) => (
+      <div
+        class="entry-wrapper"
+        data-entry-id={entry.id}
+        data-category={entry.data.category}
+        data-status={entry.data.status}
+        data-search={`${translation.data.claim} ${translation.data.currentUnderstanding} ${translation.data.summary} ${categoryLabel(entry.data.category, 'de')} ${statusLabel(entry.data.status, 'de')} ${entry.data.category} ${entry.data.status}`.toLocaleLowerCase('de')}
+        data-claim={translation.data.claim}
+        data-subject={claimSortKey(translation.data.claim)}
+        data-timeline-year={entry.data.timelineYear}
+        data-lifespan={entry.data.lifespanComparable === false ? '' : entry.data.timelineYear - entry.data.acceptedYear}
+        data-published-at={entry.data.publishedAt.getTime()}
+      >
+        <CompactClaim entry={entry} translation={translation} locale="de" />
+      </div>
+    ))}
+  </section>
+
+  <p class="container empty-state" hidden>Keine Einträge entsprechen diesen Filtern.</p>
+
+  <noscript>
+    <p class="container noscript-note">
+      Suche, Filter, Sortierung und die kompakte Ansicht benötigen JavaScript.
+      Ohne JavaScript werden alle Einträge als Karten angezeigt.
+    </p>
+  </noscript>
+
+  <script>
+    const filterButtons = Array.from(document.querySelectorAll<HTMLButtonElement>('.filter-button'));
+    const viewButtons = Array.from(document.querySelectorAll<HTMLButtonElement>('.view-button'));
+    const catalogues = Array.from(document.querySelectorAll<HTMLElement>('.catalogue'));
+    const searchInput = document.querySelector<HTMLInputElement>('.catalogue-search');
+    const sortSelect = document.querySelector<HTMLSelectElement>('.sort-select');
+    const filterToggle = document.querySelector<HTMLButtonElement>('.filter-toggle');
+    const filterPanel = document.querySelector<HTMLElement>('.filter-panel');
+    const filterClose = document.querySelector<HTMLButtonElement>('.filter-close');
+    const applyButton = document.querySelector<HTMLButtonElement>('.apply-filters');
+    const clearButtons = Array.from(document.querySelectorAll<HTMLButtonElement>('.clear-filters'));
+    const filterCount = document.querySelector<HTMLElement>('.filter-count');
+    const activeFilterRow = document.querySelector<HTMLElement>('.active-filter-row');
+    const activeFilterChips = document.querySelector<HTMLElement>('.active-filter-chips');
+    const resultsSummary = document.querySelector<HTMLElement>('.results-summary');
+    const emptyState = document.querySelector<HTMLElement>('.empty-state');
+
+    const selectedCategories = new Set<string>();
+    const selectedStatuses = new Set<string>();
+
+    type SortMode = 'subject' | 'newest-change' | 'oldest-change' | 'shortest-lived' | 'longest-lived' | 'recently-added';
+    let currentView: 'cards' | 'compact' = 'cards';
+    let currentSort: SortMode = 'subject';
+    let visibleCount = 0;
+
+    const allWrappers = () => Array.from(document.querySelectorAll<HTMLElement>('.entry-wrapper'));
+    const deCompare = (a: string, b: string) => a.localeCompare(b, 'de', { sensitivity: 'base', numeric: true });
+
+    const compareWrappers = (a: HTMLElement, b: HTMLElement) => {
+      const claimA = a.dataset.claim ?? '';
+      const claimB = b.dataset.claim ?? '';
+      const subjectA = a.dataset.subject ?? claimA;
+      const subjectB = b.dataset.subject ?? claimB;
+      const yearA = Number(a.dataset.timelineYear ?? 0);
+      const yearB = Number(b.dataset.timelineYear ?? 0);
+      const comparableA = Boolean(a.dataset.lifespan);
+      const comparableB = Boolean(b.dataset.lifespan);
+      const lifespanA = comparableA ? Number(a.dataset.lifespan) : 0;
+      const lifespanB = comparableB ? Number(b.dataset.lifespan) : 0;
+      const publishedA = Number(a.dataset.publishedAt ?? 0);
+      const publishedB = Number(b.dataset.publishedAt ?? 0);
+
+      if (currentSort === 'newest-change') return yearB - yearA || deCompare(subjectA, subjectB);
+      if (currentSort === 'oldest-change') return yearA - yearB || deCompare(subjectA, subjectB);
+      if (currentSort === 'shortest-lived') {
+        if (comparableA !== comparableB) return comparableA ? -1 : 1;
+        return lifespanA - lifespanB || yearA - yearB || deCompare(subjectA, subjectB);
+      }
+      if (currentSort === 'longest-lived') {
+        if (comparableA !== comparableB) return comparableA ? -1 : 1;
+        return lifespanB - lifespanA || yearB - yearA || deCompare(subjectA, subjectB);
+      }
+      if (currentSort === 'recently-added') return publishedB - publishedA || deCompare(subjectA, subjectB);
+      return deCompare(subjectA, subjectB) || deCompare(claimA, claimB);
+    };
+
+    const sortCatalogues = () => {
+      catalogues.forEach((catalogue) => {
+        const wrappers = Array.from(catalogue.querySelectorAll<HTMLElement>('.entry-wrapper'));
+        wrappers.sort(compareWrappers).forEach((wrapper) => catalogue.append(wrapper));
+      });
+    };
+
+    const updateURL = () => {
+      const url = new URL(window.location.href);
+      const search = searchInput?.value.trim() ?? '';
+      const setList = (key: string, values: Set<string>) => {
+        if (values.size) url.searchParams.set(key, [...values].sort().join(','));
+        else url.searchParams.delete(key);
+      };
+      setList('categories', selectedCategories);
+      setList('statuses', selectedStatuses);
+      search ? url.searchParams.set('q', search) : url.searchParams.delete('q');
+      currentView === 'compact' ? url.searchParams.set('view', 'compact') : url.searchParams.delete('view');
+      currentSort !== 'subject' ? url.searchParams.set('sort', currentSort) : url.searchParams.delete('sort');
+      window.history.replaceState({}, '', url);
+    };
+
+    const openFilters = () => {
+      if (!filterPanel || !filterToggle) return;
+      filterPanel.hidden = false;
+      filterToggle.setAttribute('aria-expanded', 'true');
+      document.body.classList.add('filters-open');
+      filterPanel.querySelector<HTMLButtonElement>('.filter-button')?.focus();
+    };
+
+    const closeFilters = (returnFocus = true) => {
+      if (!filterPanel || !filterToggle) return;
+      filterPanel.hidden = true;
+      filterToggle.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('filters-open');
+      if (returnFocus) filterToggle.focus();
+    };
+
+    const setView = (view: 'cards' | 'compact') => {
+      currentView = view;
+      catalogues.forEach((catalogue) => {
+        catalogue.hidden = !catalogue.classList.contains(`catalogue-${view}`);
+      });
+      viewButtons.forEach((button) => {
+        const active = button.dataset.view === view;
+        button.classList.toggle('is-active', active);
+        button.setAttribute('aria-pressed', String(active));
+      });
+      try { localStorage.setItem('catalogue-view', view); } catch {}
+      updateDisplay();
+    };
+
+    const setSort = (sort: SortMode) => {
+      currentSort = sort;
+      if (sortSelect) sortSelect.value = sort;
+      sortCatalogues();
+      updateURL();
+    };
+
+    const removeFilter = (type: string, value: string) => {
+      (type === 'category' ? selectedCategories : selectedStatuses).delete(value);
+      updateDisplay();
+    };
+
+    const displayLabel = (type: string, value: string) =>
+      filterButtons.find((button) => button.dataset.filterType === type && button.dataset.filterValue === value)?.dataset.filterLabel ?? value;
+
+    const renderActiveFilters = () => {
+      const selections = [
+        ...[...selectedCategories].sort().map((value) => ({ type: 'category', value })),
+        ...[...selectedStatuses].sort().map((value) => ({ type: 'status', value })),
+      ];
+      const count = selections.length;
+      if (filterCount) {
+        filterCount.textContent = String(count);
+        filterCount.hidden = count === 0;
+      }
+      if (activeFilterRow) activeFilterRow.hidden = count === 0;
+      if (!activeFilterChips) return;
+      activeFilterChips.replaceChildren();
+      selections.forEach(({ type, value }) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'active-filter-chip';
+        const labelText = displayLabel(type, value);
+        button.setAttribute('aria-label', `Filter ${labelText} entfernen`);
+        const label = document.createElement('span');
+        label.textContent = labelText;
+        const removeIcon = document.createElement('span');
+        removeIcon.setAttribute('aria-hidden', 'true');
+        removeIcon.textContent = '×';
+        button.append(label, removeIcon);
+        button.addEventListener('click', () => removeFilter(type, value));
+        activeFilterChips.append(button);
+      });
+    };
+
+    const updateDisplay = () => {
+      const query = searchInput?.value.trim().toLocaleLowerCase('de') ?? '';
+      const visibility = new Map<string, boolean>();
+      visibleCount = 0;
+
+      allWrappers().forEach((wrapper) => {
+        const id = wrapper.dataset.entryId ?? '';
+        if (visibility.has(id)) {
+          wrapper.hidden = !visibility.get(id);
+          return;
+        }
+        const categoryMatch = selectedCategories.size === 0 || selectedCategories.has(wrapper.dataset.category ?? '');
+        const statusMatch = selectedStatuses.size === 0 || selectedStatuses.has(wrapper.dataset.status ?? '');
+        const searchMatch = !query || (wrapper.dataset.search ?? '').includes(query);
+        const visible = categoryMatch && statusMatch && searchMatch;
+        visibility.set(id, visible);
+        wrapper.hidden = !visible;
+        if (visible) visibleCount += 1;
+      });
+
+      filterButtons.forEach((button) => {
+        const value = button.dataset.filterValue ?? '';
+        const active = button.dataset.filterType === 'category'
+          ? selectedCategories.has(value)
+          : selectedStatuses.has(value);
+        button.classList.toggle('is-active', active);
+        button.setAttribute('aria-pressed', String(active));
+      });
+
+      const hasFilters = selectedCategories.size > 0 || selectedStatuses.size > 0 || query.length > 0;
+      if (emptyState) emptyState.hidden = visibleCount !== 0;
+      if (resultsSummary) {
+        resultsSummary.textContent = hasFilters
+          ? `${visibleCount} von ${visibility.size} ${visibleCount === 1 ? 'Eintrag' : 'Einträgen'} werden angezeigt`
+          : `Alle ${visibility.size} Einträge werden angezeigt`;
+      }
+      if (applyButton) applyButton.textContent = visibleCount === 1 ? '1 Ergebnis anzeigen' : `${visibleCount} Ergebnisse anzeigen`;
+      sortCatalogues();
+      renderActiveFilters();
+      updateURL();
+    };
+
+    const clearFilters = () => {
+      selectedCategories.clear();
+      selectedStatuses.clear();
+      updateDisplay();
+    };
+
+    filterButtons.forEach((button) => button.addEventListener('click', () => {
+      const value = button.dataset.filterValue;
+      if (!value) return;
+      const target = button.dataset.filterType === 'category' ? selectedCategories : selectedStatuses;
+      target.has(value) ? target.delete(value) : target.add(value);
+      updateDisplay();
+    }));
+
+    viewButtons.forEach((button) => button.addEventListener('click', () => {
+      const view = button.dataset.view;
+      if (view === 'cards' || view === 'compact') setView(view);
+    }));
+
+    sortSelect?.addEventListener('change', () => {
+      const value = sortSelect.value as SortMode;
+      if (['subject', 'newest-change', 'oldest-change', 'shortest-lived', 'longest-lived', 'recently-added'].includes(value)) setSort(value);
+    });
+    searchInput?.addEventListener('input', updateDisplay);
+    filterToggle?.addEventListener('click', () => filterPanel?.hidden ? openFilters() : closeFilters());
+    filterClose?.addEventListener('click', () => closeFilters());
+    applyButton?.addEventListener('click', () => closeFilters());
+    clearButtons.forEach((button) => button.addEventListener('click', clearFilters));
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && filterPanel && !filterPanel.hidden) closeFilters();
+    });
+
+    const url = new URL(window.location.href);
+    const readList = (key: string, target: Set<string>) => {
+      url.searchParams.get(key)?.split(',').map((value) => value.trim()).filter(Boolean).forEach((value) => target.add(value));
+    };
+    readList('categories', selectedCategories);
+    readList('statuses', selectedStatuses);
+    if (searchInput) searchInput.value = url.searchParams.get('q') ?? '';
+
+    const requestedSort = url.searchParams.get('sort');
+    if (requestedSort && ['newest-change', 'oldest-change', 'shortest-lived', 'longest-lived', 'recently-added'].includes(requestedSort)) {
+      currentSort = requestedSort as SortMode;
+    }
+    if (sortSelect) sortSelect.value = currentSort;
+
+    let savedView: string | null = null;
+    try { savedView = localStorage.getItem('catalogue-view'); } catch {}
+    const requestedView = url.searchParams.get('view') ?? savedView;
+    sortCatalogues();
+    setView(requestedView === 'compact' ? 'compact' : 'cards');
+  </script>
 </BaseLayout>
 
-<script>
-  const search = document.querySelector<HTMLInputElement>('#de-search');
-  const category = document.querySelector<HTMLSelectElement>('#de-category');
-  const status = document.querySelector<HTMLSelectElement>('#de-status');
-  const cards = [...document.querySelectorAll<HTMLElement>('.card-wrap')];
-  const count = document.querySelector<HTMLElement>('#de-visible-count');
-  const noResults = document.querySelector<HTMLElement>('#de-no-results');
-
-  const params = new URLSearchParams(window.location.search);
-  if (category && params.get('category')) category.value = params.get('category') ?? '';
-  if (status && params.get('status')) status.value = params.get('status') ?? '';
-
-  const applyFilters = () => {
-    const query = (search?.value ?? '').trim().toLocaleLowerCase('de');
-    const selectedCategory = category?.value ?? '';
-    const selectedStatus = status?.value ?? '';
-    let visible = 0;
-
-    for (const card of cards) {
-      const matchesSearch = !query || (card.dataset.search ?? '').includes(query);
-      const matchesCategory = !selectedCategory || card.dataset.category === selectedCategory;
-      const matchesStatus = !selectedStatus || card.dataset.status === selectedStatus;
-      const show = matchesSearch && matchesCategory && matchesStatus;
-      card.hidden = !show;
-      if (show) visible += 1;
-    }
-
-    if (count) count.textContent = String(visible);
-    if (noResults) noResults.hidden = visible !== 0;
-  };
-
-  search?.addEventListener('input', applyFilters);
-  category?.addEventListener('change', applyFilters);
-  status?.addEventListener('change', applyFilters);
-  applyFilters();
-</script>
-
 <style>
-  .browse-page { padding: 5rem 0; }
-  .browse-heading { display: flex; justify-content: space-between; align-items: end; gap: 2rem; margin-bottom: 2.5rem; }
-  .browse-heading h1 { margin: .2rem 0 1rem; }
-  .lead { color: var(--muted); font-size: 1.15rem; }
-  .english-link { flex: 0 0 auto; color: var(--accent-dark); font-weight: 800; }
+  .page-head { padding: 5rem 0 2rem; }
+  .page-head h1 { margin: .2rem 0 1rem; }
+  .page-head > p:not(.eyebrow) { font-size: 1.2rem; color: var(--muted); }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+  .filter-region { position: sticky; top: 0; z-index: 20; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: color-mix(in srgb, var(--paper) 95%, transparent); backdrop-filter: blur(10px); }
+  .filter-inner { position: relative; padding: .8rem 0 .65rem; }
+  .primary-controls { display: grid; grid-template-columns: minmax(14rem,1fr) auto auto auto; gap: .65rem; align-items: center; }
+  .search-field, .sort-field { display: block; }
+  .catalogue-search, .sort-select { width: 100%; min-height: 2.75rem; border: 1px solid var(--line); border-radius: .65rem; padding: .62rem .8rem; color: var(--ink); background: var(--card); font: inherit; }
+  .sort-select { width: auto; min-width: 12rem; cursor: pointer; }
+  .catalogue-search:focus, .sort-select:focus { outline: 2px solid color-mix(in srgb, var(--accent) 45%, transparent); border-color: var(--accent-dark); }
+  .view-switcher { margin: 0; padding: 0; border: 0; }
+  .view-buttons { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--card); }
+  .view-button { border: 0; padding: .55rem .85rem; color: var(--ink); background: transparent; font: inherit; font-weight: 800; cursor: pointer; }
+  .view-button.is-active { color: white; background: var(--ink); }
+  .filter-toggle { min-height: 2.75rem; display: inline-flex; align-items: center; justify-content: center; gap: .45rem; border: 1px solid var(--line); border-radius: 999px; padding: .55rem .9rem; color: var(--ink); background: var(--card); font: inherit; font-weight: 800; cursor: pointer; }
+  .filter-toggle:hover, .filter-toggle:focus-visible { border-color: var(--accent-dark); }
+  .filter-count { min-width: 1.35rem; padding: .05rem .35rem; border-radius: 999px; color: white; background: var(--accent-dark); font-size: .72rem; line-height: 1.2; text-align: center; }
+  .active-filter-row { display: flex; align-items: center; gap: .6rem; margin-top: .55rem; }
+  .active-filter-row[hidden] { display: none; }
+  .active-filter-chips { display: flex; gap: .4rem; overflow-x: auto; scrollbar-width: thin; flex: 1; padding-bottom: .1rem; }
+  :global(.active-filter-chip) { flex: 0 0 auto; display: inline-flex; align-items: center; gap: .35rem; border: 1px solid var(--line); border-radius: 999px; padding: .28rem .6rem; color: var(--ink); background: var(--card); font: inherit; font-size: .82rem; font-weight: 750; cursor: pointer; }
+  :global(.active-filter-chip:hover), :global(.active-filter-chip:focus-visible) { border-color: var(--accent-dark); }
+  .clear-filters { border: 0; color: var(--accent-dark); background: transparent; font: inherit; font-size: .86rem; font-weight: 800; cursor: pointer; white-space: nowrap; }
+  .clear-filters:hover, .clear-filters:focus-visible { text-decoration: underline; }
+  .catalogue-summary-row { display: flex; justify-content: space-between; align-items: center; }
+  .results-summary { margin: .5rem 0 0; color: var(--muted); font-size: .86rem; }
+  .filter-panel { position: absolute; right: 0; top: calc(100% + .45rem); width: min(52rem,100%); max-height: min(72vh,42rem); display: grid; grid-template-rows: auto minmax(0,1fr) auto; border: 1px solid var(--line); border-radius: .9rem; background: var(--card); box-shadow: 0 1.2rem 3rem color-mix(in srgb, var(--ink) 18%, transparent); overflow: hidden; }
+  .filter-panel[hidden] { display: none; }
+  .filter-panel-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; padding: 1rem 1rem .8rem; border-bottom: 1px solid var(--line); }
+  .filter-label, .group-label { margin: 0; font-weight: 850; }
+  .filter-help { margin: .12rem 0 0; color: var(--muted); font-size: .88rem; }
+  .filter-close { width: 2.1rem; height: 2.1rem; border: 0; border-radius: 999px; color: var(--ink); background: var(--paper); font: inherit; font-size: 1.35rem; line-height: 1; cursor: pointer; }
+  .filter-panel-scroll { overflow: auto; padding: 1rem; }
+  .filter-groups { display: grid; gap: 1.2rem; }
+  .group-label { font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+  .filters { display: flex; gap: .45rem; flex-wrap: wrap; margin-top: .45rem; }
+  .filter-button { display: inline-flex; align-items: center; gap: .4rem; border: 1px solid var(--line); border-radius: 999px; padding: .38rem .72rem; color: var(--ink); background: var(--paper); font: inherit; font-size: .88rem; font-weight: 750; cursor: pointer; }
+  .filter-button:hover, .filter-button:focus-visible { border-color: var(--accent-dark); }
+  .filter-button.is-active { border-color: var(--ink); color: white; background: var(--ink); }
+  .count { min-width: 1.35rem; padding: .02rem .3rem; border-radius: 999px; color: var(--muted); background: var(--card); font-size: .72rem; text-align: center; }
+  .filter-button.is-active .count { color: var(--ink); background: white; }
+  .filter-panel-actions { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .8rem 1rem; border-top: 1px solid var(--line); background: color-mix(in srgb, var(--paper) 72%, var(--card)); }
+  .apply-filters { border: 0; border-radius: 999px; padding: .65rem 1rem; color: white; background: var(--ink); font: inherit; font-weight: 850; cursor: pointer; }
+  .apply-filters:hover, .apply-filters:focus-visible { background: var(--accent-dark); }
+  .catalogue { padding: 1.5rem 0 5rem; }
+  .catalogue-cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,430px),1fr)); gap: 1.5rem; align-items: start; }
+  .catalogue-compact { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .55rem; }
+  .catalogue[hidden], .entry-wrapper[hidden] { display: none; }
+  .empty-state { margin: 3rem auto 5rem; padding: 2rem; border: 1px dashed var(--line); color: var(--muted); text-align: center; }
+  .noscript-note { margin-bottom: 3rem; color: var(--muted); }
 
-  .controls { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(11rem, .7fr) minmax(11rem, .7fr); gap: 1rem; padding: 1.2rem; border: 1px solid var(--line); background: var(--card); }
-  .controls label { font-weight: 800; }
-  .controls input, .controls select { width: 100%; min-height: 2.8rem; display: block; margin-top: .35rem; border: 1px solid var(--line); border-radius: .35rem; padding: .55rem .7rem; background: white; color: var(--ink); font: inherit; }
-  .result-count { margin: 1.25rem 0; color: var(--muted); }
-  .cards { display: grid; gap: 1.5rem; }
-  .card-wrap[hidden] { display: none; }
-  .no-results { padding: 2rem; border: 1px dashed var(--line); color: var(--muted); text-align: center; }
+  @media (max-width: 900px) {
+    .primary-controls { grid-template-columns: minmax(0,1fr) auto auto; }
+    .search-field { grid-column: 1 / -1; }
+  }
 
   @media (max-width: 760px) {
-    .browse-heading { align-items: flex-start; flex-direction: column; }
-    .controls { grid-template-columns: 1fr; }
+    .filter-region { backdrop-filter: none; -webkit-backdrop-filter: none; }
+    .page-head { padding-top: 3rem; }
+    .primary-controls { grid-template-columns: 1fr auto; }
+    .search-field { grid-column: 1 / -1; }
+    .sort-field { min-width: 0; }
+    .sort-select { width: 100%; min-width: 0; }
+    .catalogue-compact { grid-template-columns: 1fr; }
+    .filter-panel { position: fixed; top: max(.75rem,env(safe-area-inset-top)); right: 0; bottom: 0; left: 0; width: 100%; max-height: none; border-radius: 1rem 1rem 0 0; border-left: 0; border-right: 0; border-bottom: 0; z-index: 50; overscroll-behavior: contain; }
+    :global(body.filters-open)::before { content: ''; position: fixed; inset: 0; z-index: 19; background: color-mix(in srgb, var(--ink) 42%, transparent); }
+    :global(body.filters-open) { overflow: hidden; }
+    .filter-panel-scroll { -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+    .filter-panel-header, .filter-panel-scroll, .filter-panel-actions { padding-left: max(1rem,env(safe-area-inset-left)); padding-right: max(1rem,env(safe-area-inset-right)); }
+    .filter-panel-actions { padding-bottom: max(.8rem,env(safe-area-inset-bottom)); }
+    .apply-filters { flex: 1; }
+  }
+
+  @media (max-width: 520px) {
+    .primary-controls { grid-template-columns: 1fr auto; }
+    .sort-field { grid-column: 1 / -1; }
   }
 </style>

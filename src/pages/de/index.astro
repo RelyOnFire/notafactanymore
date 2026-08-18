@@ -20,43 +20,90 @@ const translatedEntries = translations
 
 const featured = translatedEntries
   .filter(({ entry }) => entry.data.featured)
-  .sort((a, b) => (a.entry.data.featuredOrder ?? 999) - (b.entry.data.featuredOrder ?? 999))
-  .slice(0, 3);
+  .sort((a, b) => (a.entry.data.featuredOrder ?? 999) - (b.entry.data.featuredOrder ?? 999));
 
-const catalogue = [...translatedEntries].sort((a, b) =>
-  a.translation.data.claim.localeCompare(b.translation.data.claim, 'de', { sensitivity: 'base' }),
-);
+const claimCollator = new Intl.Collator('de', { sensitivity: 'base', numeric: true });
+const compareByClaim = (a: (typeof translatedEntries)[number], b: (typeof translatedEntries)[number]) =>
+  claimCollator.compare(a.translation.data.claim, b.translation.data.claim);
+const compareByRecencyThenClaim = (a: (typeof translatedEntries)[number], b: (typeof translatedEntries)[number]) =>
+  b.entry.data.publishedAt.getTime() - a.entry.data.publishedAt.getTime() || compareByClaim(a, b);
+
+const PREVIEW_SIZE = 12;
+const RECENT_POOL_SIZE = 60;
+const MAX_PER_CATEGORY = 2;
+const recentPool = [...translatedEntries].sort(compareByRecencyThenClaim).slice(0, RECENT_POOL_SIZE);
+const categoryQueues = new Map<string, typeof recentPool>();
+for (const item of recentPool) {
+  const queue = categoryQueues.get(item.entry.data.category) ?? [];
+  queue.push(item);
+  categoryQueues.set(item.entry.data.category, queue);
+}
+const categoryOrder = [...categoryQueues.keys()].sort((a, b) => {
+  const newestA = categoryQueues.get(a)?.[0];
+  const newestB = categoryQueues.get(b)?.[0];
+  if (newestA && newestB) {
+    const byDate = newestB.entry.data.publishedAt.getTime() - newestA.entry.data.publishedAt.getTime();
+    if (byDate !== 0) return byDate;
+  }
+  return a.localeCompare(b, 'de');
+});
+const diverseRecent: typeof recentPool = [];
+for (let round = 0; round < MAX_PER_CATEGORY && diverseRecent.length < PREVIEW_SIZE; round += 1) {
+  for (const category of categoryOrder) {
+    const item = categoryQueues.get(category)?.[round];
+    if (item) diverseRecent.push(item);
+    if (diverseRecent.length >= PREVIEW_SIZE) break;
+  }
+}
+if (diverseRecent.length < PREVIEW_SIZE) {
+  const selected = new Set(diverseRecent.map(({ entry }) => entry.id));
+  for (const item of recentPool) {
+    if (!selected.has(item.entry.id)) {
+      diverseRecent.push(item);
+      selected.add(item.entry.id);
+    }
+    if (diverseRecent.length >= PREVIEW_SIZE) break;
+  }
+}
+const recent = diverseRecent.sort(compareByClaim);
+
+const timelineTeaserIds = [
+  'earth-centered-universe',
+  'doctors-do-not-spread-puerperal-fever',
+  'humans-have-48-chromosomes',
+  'universe-expansion-slowing',
+  'kilogram-must-be-a-metal-cylinder',
+];
+const timelineTeaser = timelineTeaserIds
+  .map((id) => translatedEntries.find(({ entry }) => entry.id === id))
+  .filter((item): item is (typeof translatedEntries)[number] => Boolean(item))
+  .sort((a, b) => a.entry.data.timelineYear - b.entry.data.timelineYear);
+
+const currentYear = new Date().getFullYear();
 ---
 <BaseLayout
   locale="de"
   alternatePath="/"
-  description="Die deutschsprachige Ausgabe von Not a Fact Anymore: wissenschaftliche Aussagen, die durch bessere Evidenz widerlegt, abgelöst, eingeschränkt, neu eingeordnet oder korrigiert wurden."
+  description="Die deutschsprachige Ausgabe von Not a Fact Anymore: ein vollständiger Katalog wissenschaftlicher und historischer Aussagen, die durch bessere Evidenz widerlegt, abgelöst, eingeschränkt, neu eingeordnet oder korrigiert wurden."
 >
   <section class="hero container">
     <div class="hero-copy">
       <p class="eyebrow">Fakten haben eine Geschichte.</p>
       <h1>Wissen verändert sich.<br />Der Wissensstand sollte es auch.</h1>
       <p class="intro">
-        Ein Katalog wissenschaftlicher Aussagen, die einst vernünftigerweise als Tatsachen galten,
-        später aber durch bessere Evidenz widerlegt, abgelöst, eingeschränkt, neu eingeordnet oder
-        korrigiert wurden.
+        Ein Katalog von Aussagen, die einst vernünftigerweise als Tatsachen galten,
+        später aber durch bessere Evidenz widerlegt, abgelöst, eingeschränkt, neu eingeordnet
+        oder korrigiert wurden.
       </p>
-      <div class="actions">
-        <a class="button" href="/de/browse">Deutschen Katalog ansehen</a>
-        <a class="button secondary" href="/de/submit">Beitrag vorschlagen</a>
-      </div>
     </div>
 
     <div class="hero-art" aria-hidden="true">
-      <img
-        src="/images/cat-oracle-hero-site-bg.webp"
-        alt=""
-        width="1200"
-        height="800"
-        loading="eager"
-        fetchpriority="high"
-        decoding="async"
-      />
+      <img src="/images/cat-oracle-hero-site-bg.webp" alt="" width="1200" height="800" loading="eager" fetchpriority="high" decoding="async" />
+    </div>
+
+    <div class="actions">
+      <a class="button" href="/de/browse">Katalog durchsuchen</a>
+      <a class="button secondary" href="/de/submit">Beitrag vorschlagen</a>
     </div>
   </section>
 
@@ -65,41 +112,60 @@ const catalogue = [...translatedEntries].sort((a, b) =>
       <p>
         Dies ist keine Sammlung von Mythen, gescheiterten Vorhersagen oder Dingen, die irgendwann
         einmal jemand behauptet hat. Jeder Eintrag muss zeigen, dass die frühere Aussage tatsächlich
-        wissenschaftlich gestützt oder als maßgeblich behandelt wurde und dass die heutige Auffassung
-        auf stärkerer Evidenz beruht.
+        gestützt oder als maßgeblich behandelt wurde und dass die heutige Auffassung auf stärkerer Evidenz beruht.
       </p>
       <strong>Falsch zu liegen ist nicht das Versagen. Sich trotz besserer Evidenz nicht zu korrigieren, schon.</strong>
     </div>
   </section>
 
-  <section class="translation-note">
-    <div class="container translation-note-inner">
-      <div>
-        <p class="eyebrow">Deutschsprachige Ausgabe</p>
-        <h2>Die Übersetzung beginnt mit einer kuratierten Auswahl.</h2>
+  <section class="school-feature">
+    <div class="container school-feature-inner">
+      <div class="school-feature-copy">
+        <p class="eyebrow">Wissenschaft seit dem Schulbeginn</p>
+        <h2>Was hat sich seit deinem Schulbeginn verändert?</h2>
+        <p>Sieh nach, welche Teile des wissenschaftlichen Wissensstands sich während oder nach deiner Schulzeit verändert haben.</p>
       </div>
-      <p>
-        Der vollständige englische Katalog bleibt unverändert verfügbar. Die deutsche Ausgabe wird
-        schrittweise erweitert; Quellen, Publikationstitel, Daten und die zugrunde liegenden
-        Klassifikationen bleiben mit dem englischen Original verknüpft.
-      </p>
+      <form class="school-form" action="/de/timeline" method="get">
+        <label for="school-year-de">Schulbeginn im Jahr</label>
+        <div class="school-form-row">
+          <input id="school-year-de" name="since" type="number" min="1900" max={currentYear} placeholder="1994" inputmode="numeric" required />
+          <input type="hidden" name="direction" value="oldest" />
+          <button type="submit">Änderungen ansehen →</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="timeline-preview">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Der Wissensstand im Zeitverlauf</p>
+          <h2>Jahrhunderte sich verändernden Wissens</h2>
+          <p class="section-intro">Folge einigen markanten Korrekturen durch die Geschichte oder erkunde alle Einträge in chronologischer Reihenfolge.</p>
+        </div>
+        <a href="/de/timeline">Vollständige Zeitleiste →</a>
+      </div>
+      <div class="timeline-strip">
+        {timelineTeaser.map(({ entry, translation }) => (
+          <a class="timeline-point" href={`/de/entries/${entry.id}/`}>
+            <span class="timeline-point-year">{entry.data.timelineYear}</span>
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <span class="timeline-point-claim">{translation.data.claim}</span>
+          </a>
+        ))}
+      </div>
     </div>
   </section>
 
   {featured.length > 0 && (
     <section class="container featured">
       <div class="section-heading">
-        <div>
-          <p class="eyebrow">Ausgewählte Einträge</p>
-          <h2>Klare Beispiele dafür, wie sich Wissen aktualisiert</h2>
-        </div>
-        <a href="/de/browse">Alle deutschen Einträge →</a>
+        <div><p class="eyebrow">Ausgewählte Einträge</p><h2>Klare Beispiele dafür, wie sich Wissen aktualisiert</h2></div>
+        <a href="/de/browse">Alle Einträge →</a>
       </div>
-
       <div class="cards">
-        {featured.map(({ entry, translation }) => (
-          <FactCard entry={entry} translation={translation} locale="de" />
-        ))}
+        {featured.map(({ entry, translation }) => <FactCard entry={entry} translation={translation} locale="de" expanded />)}
       </div>
     </section>
   )}
@@ -108,65 +174,62 @@ const catalogue = [...translatedEntries].sort((a, b) =>
     <div class="container">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">Der deutsche Katalog</p>
-          <h2>{catalogue.length} übersetzte Einträge zum Start</h2>
-          <p class="section-intro">
-            Diese erste Auswahl deckt mehrere Fachgebiete und Zeiträume ab. Weitere Einträge werden
-            in späteren Übersetzungswellen ergänzt.
-          </p>
+          <p class="eyebrow">Der wachsende Katalog</p>
+          <h2>Alle {translatedEntries.length} früheren Tatsachen erkunden</h2>
+          <p class="section-intro">Eine abwechslungsreiche Auswahl kürzlich ergänzter Einträge. Die vollständige Sammlung lässt sich im Katalog durchsuchen, filtern und als Karten oder kompakte Liste anzeigen.</p>
         </div>
-        <a href="/browse">Vollständigen englischen Katalog öffnen →</a>
+        <a href="/de/browse">Vollständigen Katalog öffnen →</a>
       </div>
-
       <div class="compact-preview">
-        {catalogue.map(({ entry, translation }) => (
-          <CompactClaim entry={entry} translation={translation} locale="de" />
-        ))}
+        {recent.map(({ entry, translation }) => <CompactClaim entry={entry} translation={translation} locale="de" />)}
       </div>
     </div>
   </section>
 </BaseLayout>
 
 <style>
-  .hero {
-    display: grid;
-    grid-template-columns: minmax(0, 1.08fr) minmax(19rem, 0.92fr);
-    grid-template-areas: "copy art";
-    align-items: center;
-    column-gap: clamp(1.5rem, 4vw, 4.5rem);
-    padding: clamp(3rem, 7vw, 6.5rem) 0;
-  }
-
+  .hero { display: grid; grid-template-columns: minmax(0,1.08fr) minmax(19rem,.92fr); grid-template-areas: "copy art" "actions art"; align-items: center; column-gap: clamp(1.5rem,4vw,4.5rem); padding: clamp(3rem,7vw,6.5rem) 0; }
   .hero-copy { grid-area: copy; min-width: 0; }
   .hero h1 { margin: .3rem 0 1.5rem; max-width: 14ch; }
-  .intro { font-size: clamp(1.1rem, 2.5vw, 1.45rem); color: var(--muted); max-width: 46rem; }
-  .actions { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 2rem; }
+  .intro { font-size: clamp(1.1rem,2.5vw,1.45rem); color: var(--muted); max-width: 46rem; }
+  .actions { grid-area: actions; display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1rem; }
   .hero-art { grid-area: art; min-width: 0; display: flex; justify-content: center; align-items: center; }
-  .hero-art img { display: block; width: min(100%, 37rem); height: auto; object-fit: contain; }
-
+  .hero-art img { display: block; width: min(100%,37rem); height: auto; object-fit: contain; }
   .principle { background: var(--ink); color: white; padding: 3.5rem 0; }
   .principle p { font-size: 1.2rem; color: #ddd7ca; }
   .principle strong { font-size: 1.35rem; }
-
-  .translation-note { padding: 4rem 0; border-bottom: 1px solid var(--line); background: var(--card); }
-  .translation-note-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(2rem, 6vw, 5rem); align-items: center; }
-  .translation-note h2 { margin: .2rem 0 0; }
-  .translation-note p:last-child { color: var(--muted); font-size: 1.05rem; }
-
-  .featured { padding: 5rem 0; }
-  .cards { display: grid; gap: 2rem; }
+  .school-feature { padding: 4rem 0; border-bottom: 1px solid var(--line); background: var(--card); }
+  .school-feature-inner { display: grid; grid-template-columns: minmax(0,1fr) minmax(20rem,.8fr); gap: clamp(2rem,6vw,5rem); align-items: center; }
+  .school-feature h2 { margin: .2rem 0 .7rem; }
+  .school-feature-copy p:last-child { color: var(--muted); }
+  .school-form { padding: 1.2rem; border: 1px solid var(--line); background: var(--paper); }
+  .school-form > label { display: block; margin-bottom: .45rem; font-weight: 800; }
+  .school-form-row { display: flex; gap: .6rem; }
+  .school-form input[type="number"] { min-width: 0; flex: 1; min-height: 2.8rem; border: 1px solid var(--line); border-radius: .5rem; padding: .6rem .75rem; background: var(--card); font: inherit; }
+  .school-form button { border: 0; border-radius: 999px; padding: .65rem 1rem; color: white; background: var(--ink); font: inherit; font-weight: 800; cursor: pointer; }
+  .timeline-preview { padding: 5rem 0; border-bottom: 1px solid var(--line); }
   .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 2rem; margin-bottom: 2rem; }
   .section-heading h2 { margin: .2rem 0 0; }
   .section-heading > a { flex: 0 0 auto; font-weight: 800; color: var(--accent-dark); }
   .section-intro { margin-bottom: 0; color: var(--muted); }
-
-  .catalogue-preview { padding: 4.5rem 0 5rem; border-top: 1px solid var(--line); background: color-mix(in srgb, var(--card) 66%, var(--paper)); }
-  .compact-preview { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
+  .timeline-strip { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 0; overflow-x: auto; padding-bottom: .5rem; }
+  .timeline-point { position: relative; display: grid; grid-template-rows: auto 1.4rem auto; min-width: 12rem; padding-right: 1rem; text-decoration: none; }
+  .timeline-point::after { content: ''; position: absolute; top: 2.05rem; left: .35rem; right: -.35rem; height: 1px; background: var(--line); }
+  .timeline-point:last-child::after { right: calc(100% - .35rem); }
+  .timeline-point-year { color: var(--accent-dark); font-size: .86rem; font-weight: 900; }
+  .timeline-dot { position: relative; z-index: 1; align-self: center; width: .7rem; height: .7rem; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px var(--paper); }
+  .timeline-point-claim { padding-top: .4rem; font-size: .88rem; font-weight: 700; line-height: 1.35; }
+  .timeline-point:hover .timeline-point-claim { color: var(--accent-dark); }
+  .featured { padding: 5rem 0; }
+  .cards { display: grid; gap: 2rem; }
+  .catalogue-preview { padding: 4.5rem 0 5rem; border-top: 1px solid var(--line); background: color-mix(in srgb,var(--card) 66%,var(--paper)); }
+  .compact-preview { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .75rem; }
 
   @media (max-width: 760px) {
-    .hero { grid-template-columns: 1fr; grid-template-areas: "copy" "art"; row-gap: 2rem; }
-    .hero-art img { width: min(100%, 28rem); }
-    .translation-note-inner, .compact-preview { grid-template-columns: 1fr; }
+    .hero { grid-template-columns: 1fr; grid-template-areas: "copy" "actions" "art"; row-gap: 1.25rem; }
+    .hero-art img { width: min(100%,28rem); }
+    .school-feature-inner, .compact-preview { grid-template-columns: 1fr; }
+    .school-form-row { flex-direction: column; }
     .section-heading { align-items: flex-start; flex-direction: column; }
   }
 </style>

@@ -1,0 +1,624 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { centuryNumber, lifespanYears, median } from '../../lib/lifespans';
+import {
+  categoryLabel,
+  formatApproxYearsLocalized,
+  statusLabel,
+  translationMatchesEntry,
+} from '../../lib/i18n';
+
+const entries = await getCollection('entries');
+const translations = await getCollection(
+  'entryTranslations',
+  (translation) => translation.data.locale === 'de',
+);
+
+const items = translations
+  .map((translation) => {
+    const entry = entries.find((candidate) => candidate.id === translation.data.entryId);
+    return entry && translationMatchesEntry(entry, translation) ? { entry, translation } : null;
+  })
+  .filter((item): item is NonNullable<typeof item> => Boolean(item));
+
+const comparableItems = items.filter(({ entry }) => entry.data.lifespanComparable !== false);
+const nonComparableItems = items.filter(({ entry }) => entry.data.lifespanComparable === false);
+
+const records = comparableItems.map(({ entry, translation }) => ({
+  entry,
+  translation,
+  acceptedYear: entry.data.acceptedYear,
+  changedYear: entry.data.timelineYear,
+  lifespan: lifespanYears(entry.data.acceptedYear, entry.data.timelineYear),
+}));
+
+const byShortest = [...records].sort((a, b) =>
+  a.lifespan - b.lifespan ||
+  a.changedYear - b.changedYear ||
+  a.translation.data.claim.localeCompare(b.translation.data.claim, 'de', { sensitivity: 'base' })
+);
+const byLongest = [...records].sort((a, b) =>
+  b.lifespan - a.lifespan ||
+  b.changedYear - a.changedYear ||
+  a.translation.data.claim.localeCompare(b.translation.data.claim, 'de', { sensitivity: 'base' })
+);
+
+const shortest = byShortest.slice(0, 5);
+const longest = byLongest.slice(0, 5);
+const overallMedian = median(records.map((record) => record.lifespan));
+
+const categories = [...new Set(comparableItems.map(({ entry }) => entry.data.category))]
+  .sort((a, b) => categoryLabel(a, 'de').localeCompare(categoryLabel(b, 'de'), 'de'));
+const statuses = [...new Set(comparableItems.map(({ entry }) => entry.data.status))]
+  .sort((a, b) => statusLabel(a, 'de').localeCompare(statusLabel(b, 'de'), 'de'));
+
+const categoryStats = categories
+  .map((category) => {
+    const values = records
+      .filter((record) => record.entry.data.category === category)
+      .map((record) => record.lifespan)
+      .sort((a, b) => a - b);
+    return {
+      category,
+      label: categoryLabel(category, 'de'),
+      count: values.length,
+      median: median(values),
+      min: values[0] ?? 0,
+      max: values.at(-1) ?? 0,
+    };
+  })
+  .sort((a, b) => a.median - b.median || a.label.localeCompare(b.label, 'de'));
+
+const comparisonCategoryStats = [...categoryStats].sort((a, b) => a.label.localeCompare(b.label, 'de'));
+
+const lifespanBands = [
+  { key: 'under25', label: '<25 Jahre', test: (years: number) => years < 25 },
+  { key: '25to49', label: '25–49 Jahre', test: (years: number) => years >= 25 && years < 50 },
+  { key: '50to99', label: '50–99 Jahre', test: (years: number) => years >= 50 && years < 100 },
+  { key: '100to249', label: '100–249 Jahre', test: (years: number) => years >= 100 && years < 250 },
+  { key: '250plus', label: '250+ Jahre', test: (years: number) => years >= 250 },
+];
+
+const centuries = [...new Set(records.map((record) => centuryNumber(record.changedYear)))]
+  .filter((century) => century > 0)
+  .sort((a, b) => a - b);
+
+const centuryStats = centuries.map((century) => {
+  const group = records.filter((record) => centuryNumber(record.changedYear) === century);
+  return {
+    century,
+    label: `${century}. Jahrhundert`,
+    count: group.length,
+    median: median(group.map((record) => record.lifespan)),
+    bands: lifespanBands.map((band) => ({ ...band, count: group.filter((record) => band.test(record.lifespan)).length })),
+  };
+});
+
+const defaultComparisonA = categoryStats.find((item) => item.category === 'Medicine') ?? categoryStats[0];
+const defaultComparisonB = categoryStats.find((item) => item.category === 'Astronomy') ?? categoryStats.find((item) => item.category !== defaultComparisonA?.category);
+const comparisonReady = Boolean(defaultComparisonA && defaultComparisonB);
+
+const formatCategoryDetail = (item: (typeof categoryStats)[number]) => item.count === 1
+  ? '1 Eintrag · beobachtete Spannweite nicht ausgewiesen'
+  : `${item.count} Einträge · Spannweite ${formatApproxYearsLocalized(item.min, 'de')} bis ${formatApproxYearsLocalized(item.max, 'de')}`;
+
+const initialComparisonResult = defaultComparisonA && defaultComparisonB
+  ? defaultComparisonA.median === defaultComparisonB.median
+    ? 'Die Mediane sind in diesem Katalog gleich.'
+    : `${defaultComparisonA.median < defaultComparisonB.median ? defaultComparisonA.label : defaultComparisonB.label} ist in diesem Katalog im Median um ${formatApproxYearsLocalized(Math.abs(defaultComparisonA.median - defaultComparisonB.median), 'de')} kürzer.`
+  : '';
+
+const formatHistoricalYearDe = (year: number) => year < 0 ? `${Math.abs(year)} v. Chr.` : String(year);
+const DISPLAY_CAP = 250;
+---
+<BaseLayout
+  locale="de"
+  title="Lebensdauer"
+  description="Erkunde, wie lange ehemals akzeptierte wissenschaftliche und historische Aussagen ungefähr Bestand hatten, bevor sie korrigiert, eingeschränkt, neu eingeordnet oder abgelöst wurden."
+  alternatePath="/lifespans"
+>
+  <header class="page-head container">
+    <p class="eyebrow">Wie lange hielt eine Tatsache?</p>
+    <h1>Lebensdauer akzeptierter Aussagen</h1>
+    <p>
+      Vergleiche den ungefähren Zeitraum zwischen der Etablierung einer Aussage und dem
+      repräsentativen Zeitpunkt, an dem stärkere Evidenz den Wissensstand veränderte.
+    </p>
+  </header>
+
+  <section class="container stats-grid" aria-label="Zusammenfassung der Lebensdauern">
+    <article>
+      <span>Median des Katalogs</span>
+      <strong>{formatApproxYearsLocalized(overallMedian, 'de')}</strong>
+      <small>Über {records.length} quantitativ vergleichbare Einträge</small>
+    </article>
+    <article>
+      <span>Kürzeste Dauer</span>
+      <strong>{formatApproxYearsLocalized(shortest[0]?.lifespan ?? 0, 'de')}</strong>
+      <small>{shortest[0]?.translation.data.claim}</small>
+    </article>
+    <article>
+      <span>Längste Dauer</span>
+      <strong>{formatApproxYearsLocalized(longest[0]?.lifespan ?? 0, 'de')}</strong>
+      <small>{longest[0]?.translation.data.claim}</small>
+    </article>
+    <article>
+      <span>Kategorien mit Messwerten</span>
+      <strong>{categoryStats.length}</strong>
+      <small>Deskriptiv für diesen Katalog</small>
+    </article>
+  </section>
+
+  <section class="container methodology-note">
+    <p>
+      <strong>Diese Zeitspannen sind Näherungswerte.</strong> Jeder quantitativ vergleichbare Eintrag
+      behält seine lesbaren historischen Zeiträume; <code>acceptedYear</code> und <code>timelineYear</code>
+      dienen nur als repräsentative Anker für Sortierung und Vergleich. Ein Fachgebiet oder Unterricht
+      kann eine ältere Auffassung noch verwenden, nachdem gegenteilige Evidenz erschienen ist. Die Zahlen
+      sind daher keine exakten Zeitpunkte eines universellen Konsenses. {nonComparableItems.length} Einträge
+      sind bewusst von den Lebensdauerstatistiken ausgeschlossen, weil ihre Akzeptanzgrenze zu diffus ist,
+      die historische Formulierung konkurrierende Traditionen umfasst oder eine einzelne Zahl falsche
+      Präzision erzeugen würde. Vergleiche zwischen Kategorien beschreiben diesen kuratierten Katalog und
+      keine allgemeinen Änderungsraten ganzer Wissenschaftsgebiete.
+    </p>
+  </section>
+
+  <section class="container extremes">
+    <div class="section-heading">
+      <div><p class="eyebrow">Die Extreme</p><h2>Kürzeste und längste Lebensdauer</h2></div>
+    </div>
+    <div class="extreme-columns">
+      <section>
+        <h3>Am kürzesten</h3>
+        <ol class="ranked-list">
+          {shortest.map((record) => (
+            <li>
+              <a href={`/de/entries/${record.entry.id}/`}>
+                <strong>{record.translation.data.claim}</strong>
+                <span>{formatHistoricalYearDe(record.acceptedYear)} → {formatHistoricalYearDe(record.changedYear)} · {categoryLabel(record.entry.data.category, 'de')}</span>
+              </a>
+              <span class="duration-badge">{formatApproxYearsLocalized(record.lifespan, 'de')}</span>
+            </li>
+          ))}
+        </ol>
+      </section>
+      <section>
+        <h3>Am längsten</h3>
+        <ol class="ranked-list">
+          {longest.map((record) => (
+            <li>
+              <a href={`/de/entries/${record.entry.id}/`}>
+                <strong>{record.translation.data.claim}</strong>
+                <span>{formatHistoricalYearDe(record.acceptedYear)} → {formatHistoricalYearDe(record.changedYear)} · {categoryLabel(record.entry.data.category, 'de')}</span>
+              </a>
+              <span class="duration-badge">{formatApproxYearsLocalized(record.lifespan, 'de')}</span>
+            </li>
+          ))}
+        </ol>
+      </section>
+    </div>
+  </section>
+
+  {comparisonReady && defaultComparisonA && defaultComparisonB && (
+    <section class="comparison-section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Kategorien vergleichen</p>
+            <h2 class="comparison-heading">{defaultComparisonA.label} vs. {defaultComparisonB.label}</h2>
+            <p class="section-intro">Wähle zwei Fachgebiete und vergleiche ihre Einträge in diesem Katalog.</p>
+          </div>
+        </div>
+
+        <div class="comparison-controls" aria-label="Steuerung des Kategorienvergleichs">
+          <label>
+            <span>Erste Kategorie</span>
+            <select class="comparison-select comparison-select-a">
+              {comparisonCategoryStats.map((item) => (
+                <option value={item.category} selected={item.category === defaultComparisonA.category} data-label={item.label} data-count={item.count} data-median={item.median} data-min={item.min} data-max={item.max}>{item.label}</option>
+              ))}
+            </select>
+          </label>
+          <label>
+            <span>Zweite Kategorie</span>
+            <select class="comparison-select comparison-select-b">
+              {comparisonCategoryStats.map((item) => (
+                <option value={item.category} selected={item.category === defaultComparisonB.category} data-label={item.label} data-count={item.count} data-median={item.median} data-min={item.min} data-max={item.max}>{item.label}</option>
+              ))}
+            </select>
+          </label>
+        </div>
+
+        <div class="comparison-grid">
+          <article class="comparison-card-a">
+            <span class="comparison-category">{defaultComparisonA.label}</span>
+            <strong class="comparison-median">{formatApproxYearsLocalized(defaultComparisonA.median, 'de')}</strong>
+            <small class="comparison-detail">{formatCategoryDetail(defaultComparisonA)}</small>
+          </article>
+          <article class="comparison-card-b">
+            <span class="comparison-category">{defaultComparisonB.label}</span>
+            <strong class="comparison-median">{formatApproxYearsLocalized(defaultComparisonB.median, 'de')}</strong>
+            <small class="comparison-detail">{formatCategoryDetail(defaultComparisonB)}</small>
+          </article>
+        </div>
+        <p class="comparison-result" aria-live="polite">{initialComparisonResult}</p>
+      </div>
+    </section>
+  )}
+
+  <section class="container category-section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Nach Fachgebiet</p>
+        <h2>Median der Lebensdauer nach Kategorie</h2>
+        <p class="section-intro">Sortiert vom kürzesten zum längsten Median. Kleine Kategorien können sich durch einen einzigen neuen Eintrag deutlich verschieben; deshalb wird die Zahl der Einträge mit angezeigt.</p>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Kategorie</th><th scope="col">Einträge</th><th scope="col">Median</th><th scope="col">Beobachtete Spannweite</th></tr></thead>
+        <tbody>
+          {categoryStats.map((item) => (
+            <tr>
+              <th scope="row">{item.label}</th>
+              <td>{item.count}</td>
+              <td>{formatApproxYearsLocalized(item.median, 'de')}</td>
+              <td>{item.count === 1 ? <span class="range-unavailable" title="Eine Spannweite erfordert mindestens zwei Einträge" aria-label="Beobachtete Spannweite nicht verfügbar">—</span> : <>{formatApproxYearsLocalized(item.min, 'de')} – {formatApproxYearsLocalized(item.max, 'de')}</>}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="century-section">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Im Zeitverlauf</p>
+          <h2>Verteilung der Lebensdauern nach Jahrhundert der Änderung</h2>
+          <p class="section-intro">Jede Zeile gruppiert Einträge nach dem Jahrhundert ihres repräsentativen Änderungsjahres und zeigt, wie sich ihre Lebensdauern verteilen.</p>
+        </div>
+      </div>
+      <div class="band-legend" aria-label="Lebensdauerbereiche">
+        {lifespanBands.map((band) => <span><i class={`legend-swatch band-${band.key}`} aria-hidden="true"></i>{band.label}</span>)}
+      </div>
+      <div class="century-list">
+        {centuryStats.map((item) => (
+          <article class="century-row">
+            <div class="century-meta">
+              <strong>{item.label}</strong>
+              <span>{item.count} {item.count === 1 ? 'Eintrag' : 'Einträge'} · Median {formatApproxYearsLocalized(item.median, 'de')}</span>
+            </div>
+            <div class="distribution-bar" aria-label={`Verteilung der Lebensdauern im ${item.label}`}>
+              {item.bands.map((band) => band.count > 0 && (
+                <span class={`distribution-segment band-${band.key}`} style={`width: ${(band.count / item.count) * 100}%`} title={`${band.label}: ${band.count}`}></span>
+              ))}
+            </div>
+            <div class="century-counts">
+              {item.bands.filter((band) => band.count > 0).map((band) => <span>{band.label}: <strong>{band.count}</strong></span>)}
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {nonComparableItems.length > 0 && (
+    <section class="container noncomparable-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Nicht in den Ranglisten</p>
+          <h2>Einträge ohne quantitative Lebensdauer</h2>
+          <p class="section-intro">Diese Einträge bleiben Teil des Katalogs, aber ihre Akzeptanzgrenze ist zu diffus, umstritten oder historisch gemischt für eine vertretbare einzelne Lebensdauer.</p>
+        </div>
+      </div>
+      <div class="noncomparable-list">
+        {nonComparableItems
+          .sort((a, b) => a.translation.data.claim.localeCompare(b.translation.data.claim, 'de'))
+          .map(({ entry, translation }) => (
+            <a href={`/de/entries/${entry.id}/`}>
+              <strong>{translation.data.claim}</strong>
+              <span>{translation.data.acceptedApproximately} → {translation.data.changedApproximately}</span>
+            </a>
+          ))}
+      </div>
+    </section>
+  )}
+
+  <section class="container explorer">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Alle Lebensdauern erkunden</p>
+        <h2>Akzeptanz → Änderung</h2>
+        <p class="section-intro">Durchsuche den Katalog und sortiere von den kürzesten zu den längsten Lebensdauern. Die Balkenlänge stellt die Dauer dar und wird bei {DISPLAY_CAP} Jahren gedeckelt, damit moderne kurzlebige Aussagen sichtbar bleiben; Datumsangaben und Dauer zeigen immer die vollständige ungefähre Spanne.</p>
+      </div>
+    </div>
+
+    <div class="lifespan-controls" aria-label="Steuerung des Lebensdauer-Explorers">
+      <label><span class="sr-only">Aussagen durchsuchen</span><input class="lifespan-search" type="search" placeholder="Aussagen durchsuchen…" autocomplete="off" /></label>
+      <label><span class="sr-only">Nach Kategorie filtern</span><select class="category-select"><option value="">Alle Kategorien</option>{categories.map((category) => <option value={category}>{categoryLabel(category, 'de')}</option>)}</select></label>
+      <label><span class="sr-only">Nach Status filtern</span><select class="status-select"><option value="">Alle Status</option>{statuses.map((status) => <option value={status}>{statusLabel(status, 'de')}</option>)}</select></label>
+      <label><span class="sr-only">Lebensdauern sortieren</span><select class="lifespan-sort"><option value="shortest">Kürzeste zuerst</option><option value="longest">Längste zuerst</option><option value="newest">Neueste Änderung zuerst</option><option value="oldest">Älteste Änderung zuerst</option></select></label>
+    </div>
+
+    <p class="lifespan-results" aria-live="polite">Alle {records.length} Einträge werden angezeigt</p>
+
+    <div class="lifespan-list">
+      {byShortest.map((record) => {
+        const displayWidth = Math.max(4, Math.min(record.lifespan, DISPLAY_CAP) / DISPLAY_CAP * 100);
+        return (
+          <article
+            class="lifespan-entry"
+            data-entry-id={record.entry.id}
+            data-category={record.entry.data.category}
+            data-status={record.entry.data.status}
+            data-lifespan={record.lifespan}
+            data-accepted-year={record.acceptedYear}
+            data-changed-year={record.changedYear}
+            data-claim={record.translation.data.claim}
+            data-search={`${record.translation.data.claim} ${categoryLabel(record.entry.data.category, 'de')} ${statusLabel(record.entry.data.status, 'de')} ${record.translation.data.summary} ${record.translation.data.acceptedApproximately} ${record.translation.data.changedApproximately}`.toLocaleLowerCase('de')}
+          >
+            <div class="entry-copy">
+              <h3><a href={`/de/entries/${record.entry.id}/`}>{record.translation.data.claim}</a></h3>
+              <p>{categoryLabel(record.entry.data.category, 'de')} · {statusLabel(record.entry.data.status, 'de')}</p>
+            </div>
+            <div class="lifespan-visual">
+              <div class="range-label">
+                <span><strong>{formatHistoricalYearDe(record.acceptedYear)}</strong><small>akzeptiert</small></span>
+                <span aria-hidden="true">→</span>
+                <span><strong>{formatHistoricalYearDe(record.changedYear)}</strong><small>geändert</small></span>
+              </div>
+              <div class="range-track" aria-hidden="true">
+                <span class:list={['range-fill', { capped: record.lifespan > DISPLAY_CAP }]} style={`--span-width: ${displayWidth}%`}><i class="start-dot"></i><i class="end-dot"></i></span>
+              </div>
+              <span class="duration-badge">{formatApproxYearsLocalized(record.lifespan, 'de')}</span>
+            </div>
+          </article>
+        );
+      })}
+    </div>
+
+    <p class="lifespan-empty" hidden>Keine Einträge entsprechen diesen Filtern.</p>
+    <noscript><p class="noscript-note">Suche, Filter und Sortierung benötigen JavaScript. Ohne JavaScript werden die Einträge mit der kürzesten Lebensdauer zuerst angezeigt.</p></noscript>
+  </section>
+
+  <script>
+    const comparisonSelectA = document.querySelector<HTMLSelectElement>('.comparison-select-a');
+    const comparisonSelectB = document.querySelector<HTMLSelectElement>('.comparison-select-b');
+    const comparisonHeading = document.querySelector<HTMLElement>('.comparison-heading');
+    const comparisonCardA = document.querySelector<HTMLElement>('.comparison-card-a');
+    const comparisonCardB = document.querySelector<HTMLElement>('.comparison-card-b');
+    const comparisonResult = document.querySelector<HTMLElement>('.comparison-result');
+
+    type ComparisonStat = { category: string; label: string; count: number; median: number; min: number; max: number; };
+    const formatApproxYearsClient = (years: number) => {
+      const rounded = Number.isInteger(years) ? years : Math.round(years * 10) / 10;
+      return `≈${rounded.toLocaleString('de-AT')} ${rounded === 1 ? 'Jahr' : 'Jahre'}`;
+    };
+    const getComparisonStat = (select: HTMLSelectElement): ComparisonStat | null => {
+      const option = select.options[select.selectedIndex];
+      if (!option) return null;
+      return {
+        category: option.value,
+        label: option.dataset.label ?? option.textContent ?? option.value,
+        count: Number(option.dataset.count ?? 0),
+        median: Number(option.dataset.median ?? 0),
+        min: Number(option.dataset.min ?? 0),
+        max: Number(option.dataset.max ?? 0),
+      };
+    };
+    const formatComparisonDetail = (stat: ComparisonStat) => stat.count === 1
+      ? '1 Eintrag · beobachtete Spannweite nicht ausgewiesen'
+      : `${stat.count} Einträge · Spannweite ${formatApproxYearsClient(stat.min)} bis ${formatApproxYearsClient(stat.max)}`;
+    const updateComparisonCard = (card: HTMLElement | null, stat: ComparisonStat) => {
+      if (!card) return;
+      const category = card.querySelector<HTMLElement>('.comparison-category');
+      const medianValue = card.querySelector<HTMLElement>('.comparison-median');
+      const detail = card.querySelector<HTMLElement>('.comparison-detail');
+      if (category) category.textContent = stat.label;
+      if (medianValue) medianValue.textContent = formatApproxYearsClient(stat.median);
+      if (detail) detail.textContent = formatComparisonDetail(stat);
+    };
+    const keepComparisonDistinct = (changed: HTMLSelectElement, other: HTMLSelectElement) => {
+      if (changed.value !== other.value) return;
+      const replacement = [...other.options].find((option) => option.value !== changed.value);
+      if (replacement) other.value = replacement.value;
+    };
+    const updateComparison = () => {
+      if (!comparisonSelectA || !comparisonSelectB) return;
+      const statA = getComparisonStat(comparisonSelectA);
+      const statB = getComparisonStat(comparisonSelectB);
+      if (!statA || !statB) return;
+      if (comparisonHeading) comparisonHeading.textContent = `${statA.label} vs. ${statB.label}`;
+      updateComparisonCard(comparisonCardA, statA);
+      updateComparisonCard(comparisonCardB, statB);
+      if (comparisonResult) {
+        if (statA.median === statB.median) comparisonResult.textContent = 'Die Mediane sind in diesem Katalog gleich.';
+        else {
+          const shorter = statA.median < statB.median ? statA : statB;
+          const difference = Math.abs(statA.median - statB.median);
+          comparisonResult.textContent = `${shorter.label} ist in diesem Katalog im Median um ${formatApproxYearsClient(difference)} kürzer.`;
+        }
+      }
+    };
+    comparisonSelectA?.addEventListener('change', () => { if (comparisonSelectB) keepComparisonDistinct(comparisonSelectA, comparisonSelectB); updateComparison(); });
+    comparisonSelectB?.addEventListener('change', () => { if (comparisonSelectA) keepComparisonDistinct(comparisonSelectB, comparisonSelectA); updateComparison(); });
+
+    const searchInput = document.querySelector<HTMLInputElement>('.lifespan-search');
+    const categorySelect = document.querySelector<HTMLSelectElement>('.category-select');
+    const statusSelect = document.querySelector<HTMLSelectElement>('.status-select');
+    const sortSelect = document.querySelector<HTMLSelectElement>('.lifespan-sort');
+    const list = document.querySelector<HTMLElement>('.lifespan-list');
+    const results = document.querySelector<HTMLElement>('.lifespan-results');
+    const emptyState = document.querySelector<HTMLElement>('.lifespan-empty');
+    const rows = Array.from(document.querySelectorAll<HTMLElement>('.lifespan-entry'));
+    type LifespanSort = 'shortest' | 'longest' | 'newest' | 'oldest';
+    let currentSort: LifespanSort = 'shortest';
+
+    const compareRows = (a: HTMLElement, b: HTMLElement) => {
+      const lifespanA = Number(a.dataset.lifespan ?? 0);
+      const lifespanB = Number(b.dataset.lifespan ?? 0);
+      const changedA = Number(a.dataset.changedYear ?? 0);
+      const changedB = Number(b.dataset.changedYear ?? 0);
+      const claimA = a.dataset.claim ?? '';
+      const claimB = b.dataset.claim ?? '';
+      const claimCompare = () => claimA.localeCompare(claimB, 'de', { sensitivity: 'base' });
+      if (currentSort === 'longest') return lifespanB - lifespanA || changedB - changedA || claimCompare();
+      if (currentSort === 'newest') return changedB - changedA || lifespanA - lifespanB || claimCompare();
+      if (currentSort === 'oldest') return changedA - changedB || lifespanA - lifespanB || claimCompare();
+      return lifespanA - lifespanB || changedA - changedB || claimCompare();
+    };
+
+    const updateURL = () => {
+      const url = new URL(window.location.href);
+      const query = searchInput?.value.trim() ?? '';
+      const category = categorySelect?.value ?? '';
+      const status = statusSelect?.value ?? '';
+      query ? url.searchParams.set('q', query) : url.searchParams.delete('q');
+      category ? url.searchParams.set('category', category) : url.searchParams.delete('category');
+      status ? url.searchParams.set('status', status) : url.searchParams.delete('status');
+      currentSort !== 'shortest' ? url.searchParams.set('sort', currentSort) : url.searchParams.delete('sort');
+      window.history.replaceState({}, '', url);
+    };
+
+    const updateDisplay = () => {
+      const query = searchInput?.value.trim().toLocaleLowerCase('de') ?? '';
+      const category = categorySelect?.value ?? '';
+      const status = statusSelect?.value ?? '';
+      let visible = 0;
+      rows.sort(compareRows).forEach((row) => {
+        const show = (!query || (row.dataset.search ?? '').includes(query)) && (!category || row.dataset.category === category) && (!status || row.dataset.status === status);
+        row.hidden = !show;
+        list?.append(row);
+        if (show) visible += 1;
+      });
+      if (results) {
+        const filtered = query || category || status;
+        results.textContent = filtered
+          ? `${visible} von ${rows.length} ${visible === 1 ? 'Eintrag' : 'Einträgen'} werden angezeigt`
+          : `Alle ${rows.length} Einträge werden angezeigt`;
+      }
+      if (emptyState) emptyState.hidden = visible !== 0;
+      updateURL();
+    };
+
+    const url = new URL(window.location.href);
+    const requestedSort = url.searchParams.get('sort');
+    if (requestedSort === 'longest' || requestedSort === 'newest' || requestedSort === 'oldest') currentSort = requestedSort;
+    if (searchInput) searchInput.value = url.searchParams.get('q') ?? '';
+    const requestedCategory = url.searchParams.get('category') ?? '';
+    if (categorySelect && [...categorySelect.options].some((option) => option.value === requestedCategory)) categorySelect.value = requestedCategory;
+    const requestedStatus = url.searchParams.get('status') ?? '';
+    if (statusSelect && [...statusSelect.options].some((option) => option.value === requestedStatus)) statusSelect.value = requestedStatus;
+    if (sortSelect) sortSelect.value = currentSort;
+    searchInput?.addEventListener('input', updateDisplay);
+    categorySelect?.addEventListener('change', updateDisplay);
+    statusSelect?.addEventListener('change', updateDisplay);
+    sortSelect?.addEventListener('change', () => {
+      const value = sortSelect.value;
+      if (value === 'shortest' || value === 'longest' || value === 'newest' || value === 'oldest') { currentSort = value; updateDisplay(); }
+    });
+    updateDisplay();
+  </script>
+</BaseLayout>
+
+<style>
+  .page-head { padding: 5rem 0 2.25rem; }
+  .page-head h1 { margin: .2rem 0 1rem; }
+  .page-head > p:not(.eyebrow) { max-width: 56rem; color: var(--muted); font-size: 1.2rem; }
+  .stats-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 1rem; padding-bottom: 2rem; }
+  .stats-grid article, .comparison-grid article { display: flex; flex-direction: column; min-width: 0; padding: 1.25rem; border: 1px solid var(--line); background: var(--card); }
+  .stats-grid span, .comparison-grid span { color: var(--muted); font-size: .78rem; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
+  .stats-grid strong, .comparison-grid strong { margin-top: .25rem; font-size: clamp(1.55rem,3vw,2.25rem); line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .stats-grid small, .comparison-grid small { margin-top: .45rem; color: var(--muted); line-height: 1.35; }
+  .methodology-note { padding-bottom: 4.5rem; }
+  .methodology-note p { margin: 0; padding: 1.1rem 1.25rem; border-left: 5px solid var(--accent); background: color-mix(in srgb,var(--card) 80%,transparent); color: var(--muted); }
+  .methodology-note strong { color: var(--ink); }
+  code { font-size: .9em; }
+  .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 2rem; margin-bottom: 2rem; }
+  .section-heading h2 { margin: .2rem 0 0; }
+  .section-intro { max-width: 58rem; margin-bottom: 0; color: var(--muted); }
+  .extremes, .category-section, .explorer { padding-bottom: 5rem; }
+  .extreme-columns { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 2rem; }
+  .extreme-columns > section { padding: 1.4rem; border: 1px solid var(--line); background: var(--card); }
+  .extreme-columns h3 { margin: 0 0 1rem; }
+  .ranked-list { margin: 0; padding: 0; list-style: none; }
+  .ranked-list li { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 1rem; align-items: center; padding: .9rem 0; border-top: 1px solid var(--line); }
+  .ranked-list li:first-child { border-top: 0; }
+  .ranked-list a { min-width: 0; text-decoration: none; }
+  .ranked-list a:hover strong { color: var(--accent-dark); }
+  .ranked-list strong { display: block; line-height: 1.3; }
+  .ranked-list a span { display: block; margin-top: .25rem; color: var(--muted); font-size: .82rem; }
+  .duration-badge { display: inline-flex; align-items: center; justify-content: center; width: max-content; padding: .28rem .62rem; border-radius: 999px; background: color-mix(in srgb,var(--accent) 12%,var(--card)); color: var(--accent-dark); font-size: .8rem; font-weight: 850; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .comparison-section, .century-section { margin-bottom: 5rem; padding: 4.5rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--card); }
+  .comparison-grid, .comparison-controls { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; max-width: 48rem; }
+  .comparison-controls { margin-bottom: 1rem; }
+  .comparison-controls label { display: flex; flex-direction: column; gap: .4rem; }
+  .comparison-controls label > span { color: var(--muted); font-size: .78rem; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
+  .comparison-select { width: 100%; min-height: 2.75rem; border: 1px solid var(--line); border-radius: .6rem; padding: .6rem .75rem; color: var(--ink); background: var(--paper); font: inherit; cursor: pointer; }
+  .comparison-result { max-width: 48rem; margin: 1rem 0 0; color: var(--muted); }
+  .range-unavailable { color: var(--muted); }
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); background: var(--card); }
+  table { width: 100%; border-collapse: collapse; min-width: 42rem; }
+  th, td { padding: .8rem 1rem; border-bottom: 1px solid var(--line); text-align: left; font-variant-numeric: tabular-nums; }
+  thead th { color: var(--muted); font-size: .76rem; letter-spacing: .06em; text-transform: uppercase; }
+  tbody th { font-weight: 750; }
+  tbody tr:last-child th, tbody tr:last-child td { border-bottom: 0; }
+  .band-legend { display: flex; flex-wrap: wrap; gap: .6rem 1rem; margin-bottom: 1.5rem; color: var(--muted); font-size: .8rem; }
+  .band-legend span { display: inline-flex; align-items: center; gap: .35rem; }
+  .legend-swatch { width: .8rem; height: .8rem; border: 1px solid color-mix(in srgb,var(--ink) 15%,transparent); }
+  .band-under25 { background: #4e79a7; } .band-25to49 { background: #59a14f; } .band-50to99 { background: #f28e2b; } .band-100to249 { background: #b07aa1; } .band-250plus { background: #2f2f2f; }
+  .century-list { display: grid; gap: 1.25rem; }
+  .century-row { display: grid; grid-template-columns: 13rem minmax(12rem,1fr); gap: .8rem 1.25rem; align-items: center; }
+  .century-meta { display: flex; flex-direction: column; }
+  .century-meta span { color: var(--muted); font-size: .82rem; }
+  .distribution-bar { display: flex; height: 1.1rem; overflow: hidden; border: 1px solid var(--line); background: var(--paper); }
+  .distribution-segment { min-width: 2px; height: 100%; }
+  .distribution-segment + .distribution-segment { box-shadow: inset 2px 0 0 var(--card); }
+  .century-counts { grid-column: 2; display: flex; flex-wrap: wrap; gap: .3rem .8rem; color: var(--muted); font-size: .76rem; }
+  .noncomparable-section { padding: 4rem 0; }
+  .noncomparable-list { display: grid; grid-template-columns: repeat(auto-fit,minmax(17rem,1fr)); gap: .75rem; }
+  .noncomparable-list a { display: flex; flex-direction: column; gap: .35rem; padding: 1rem; border: 1px solid var(--line); background: var(--card); text-decoration: none; }
+  .noncomparable-list a:hover { border-color: var(--accent-dark); }
+  .noncomparable-list span { color: var(--muted); font-size: .82rem; }
+  .lifespan-controls { display: grid; grid-template-columns: minmax(14rem,1fr) repeat(3,auto); gap: .65rem; padding: .8rem; border: 1px solid var(--line); background: var(--card); }
+  .lifespan-controls input, .lifespan-controls select { width: 100%; min-height: 2.75rem; border: 1px solid var(--line); border-radius: .6rem; padding: .6rem .75rem; color: var(--ink); background: var(--paper); font: inherit; }
+  .lifespan-controls select { cursor: pointer; }
+  .lifespan-results { margin: 1rem 0; color: var(--muted); font-size: .9rem; }
+  .lifespan-list { display: grid; gap: .8rem; }
+  .lifespan-entry { display: grid; grid-template-columns: minmax(15rem,.9fr) minmax(20rem,1.1fr); gap: 1.5rem; align-items: center; padding: 1rem 1.15rem; border: 1px solid var(--line); background: var(--card); }
+  .lifespan-entry[hidden] { display: none; }
+  .entry-copy h3 { margin: 0; font-size: 1rem; line-height: 1.3; }
+  .entry-copy h3 a { text-decoration: none; }
+  .entry-copy h3 a:hover { color: var(--accent-dark); }
+  .entry-copy p { margin: .25rem 0 0; color: var(--muted); font-size: .8rem; }
+  .lifespan-visual { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: .4rem .8rem; align-items: center; }
+  .range-label { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr auto 1fr; gap: .65rem; align-items: end; font-variant-numeric: tabular-nums; }
+  .range-label > span:first-child { text-align: left; } .range-label > span:last-child { text-align: right; }
+  .range-label strong, .range-label small { display: block; }
+  .range-label small { color: var(--muted); font-size: .68rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+  .range-label > span:nth-child(2) { color: var(--muted); }
+  .range-track { position: relative; height: .55rem; border-radius: 999px; background: #e2dccf; }
+  .range-fill { --span-width: 4%; position: absolute; inset: 0 auto 0 0; width: var(--span-width); min-width: .8rem; border-radius: 999px; background: var(--accent); }
+  .range-fill.capped { background: linear-gradient(90deg,var(--accent) 0 92%,var(--ink) 92% 100%); }
+  .start-dot, .end-dot { position: absolute; top: 50%; width: .72rem; height: .72rem; border: 2px solid var(--card); border-radius: 50%; background: var(--accent-dark); transform: translateY(-50%); box-shadow: 0 0 0 1px var(--accent-dark); }
+  .start-dot { left: 0; transform: translate(-10%,-50%); } .end-dot { right: 0; transform: translate(10%,-50%); }
+  .lifespan-empty, .noscript-note { padding: 1rem; border: 1px solid var(--line); background: var(--card); color: var(--muted); }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+  @media (max-width: 900px) {
+    .stats-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+    .lifespan-controls { grid-template-columns: repeat(2,minmax(0,1fr)); }
+    .lifespan-entry { grid-template-columns: 1fr; gap: 1rem; }
+  }
+  @media (max-width: 700px) {
+    .page-head { padding-top: 3rem; }
+    .extreme-columns, .comparison-controls, .comparison-grid, .stats-grid, .lifespan-controls { grid-template-columns: 1fr; }
+    .century-row { grid-template-columns: 1fr; }
+    .century-counts { grid-column: 1; }
+    .ranked-list li { grid-template-columns: 1fr; gap: .45rem; }
+    .lifespan-entry { padding: .9rem; }
+  }
+</style>

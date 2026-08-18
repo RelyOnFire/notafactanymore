@@ -50,13 +50,20 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <p class="section-kicker">Behind the project</p>
         <h2 id="behind-heading">Isaac Mattoo</h2>
         <p class="role">Creator and editor</p>
+
+        <figure class="portrait">
+          <img
+            src="/images/isaac-mattoo-impressum.webp"
+            alt="Isaac Mattoo"
+            width="672"
+            height="1026"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+
         <p>This is a personal project built around a simple idea: facts have histories, and the interesting part is often not merely that something changed, but <em>how</em> and <em>why</em> it changed.</p>
         <p>The catalogue is curated, source-driven and open to correction. Its purpose is not to mock older ideas, but to document the process by which better evidence changes what can reasonably be treated as knowledge.</p>
-
-        <div class="portrait-note">
-          <span aria-hidden="true">NF</span>
-          <p>The portrait for this section will be added separately.</p>
-        </div>
       </aside>
     </div>
   </article>
@@ -123,37 +130,24 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     font-weight: 750;
   }
 
+  .portrait {
+    margin: 0 0 1.5rem;
+  }
+
+  .portrait img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--line);
+    border-radius: .85rem;
+  }
+
   .project-card > p:not(.section-kicker):not(.role) { color: #343434; }
-
-  .portrait-note {
-    margin-top: 2rem;
-    padding-top: 1.25rem;
-    border-top: 1px solid var(--line);
-    display: flex;
-    align-items: center;
-    gap: .85rem;
-    color: var(--muted);
-    font-size: .9rem;
-  }
-
-  .portrait-note span {
-    flex: 0 0 auto;
-    display: grid;
-    place-items: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    background: var(--ink);
-    color: white;
-    font-size: .78rem;
-    font-weight: 900;
-  }
-
-  .portrait-note p { margin: 0; }
 
   @media (max-width: 820px) {
     .impressum { padding-top: 3.5rem; }
     .content-grid { grid-template-columns: 1fr; }
     dl > div { grid-template-columns: 1fr; gap: .2rem; }
+    .portrait { max-width: 22rem; }
   }
 </style>

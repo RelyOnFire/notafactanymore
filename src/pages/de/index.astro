@@ -68,11 +68,12 @@ if (diverseRecent.length < PREVIEW_SIZE) {
 const recent = diverseRecent.sort(compareByClaim);
 
 const timelineTeaserIds = [
+  'torrid-zone-uninhabitable',
   'earth-centered-universe',
   'doctors-do-not-spread-puerperal-fever',
   'humans-have-48-chromosomes',
   'universe-expansion-slowing',
-  'kilogram-must-be-a-metal-cylinder',
+  'king-cobra-is-one-species',
 ];
 const timelineTeaser = timelineTeaserIds
   .map((id) => translatedEntries.find(({ entry }) => entry.id === id))
@@ -212,13 +213,71 @@ const currentYear = new Date().getFullYear();
   .section-heading h2 { margin: .2rem 0 0; }
   .section-heading > a { flex: 0 0 auto; font-weight: 800; color: var(--accent-dark); }
   .section-intro { margin-bottom: 0; color: var(--muted); }
-  .timeline-strip { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 0; overflow-x: auto; padding-bottom: .5rem; }
-  .timeline-point { position: relative; display: grid; grid-template-rows: auto 1.4rem auto; min-width: 12rem; padding-right: 1rem; text-decoration: none; }
-  .timeline-point::after { content: ''; position: absolute; top: 2.05rem; left: .35rem; right: -.35rem; height: 1px; background: var(--line); }
-  .timeline-point:last-child::after { right: calc(100% - .35rem); }
-  .timeline-point-year { color: var(--accent-dark); font-size: .86rem; font-weight: 900; }
-  .timeline-dot { position: relative; z-index: 1; align-self: center; width: .7rem; height: .7rem; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px var(--paper); }
-  .timeline-point-claim { padding-top: .4rem; font-size: .88rem; font-weight: 700; line-height: 1.35; }
+  .timeline-strip {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 1rem;
+    min-width: 0;
+  }
+
+  .timeline-strip::before {
+    content: '';
+    position: absolute;
+    top: 2.775rem;
+    left: calc(100% / 12);
+    right: calc(100% / 12);
+    height: 1px;
+    background: var(--line);
+  }
+
+  .timeline-point {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-rows: 1.35rem 0.85rem auto;
+    justify-items: center;
+    align-items: center;
+    gap: .55rem;
+    min-width: 0;
+    padding: .45rem;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .timeline-point-year {
+    line-height: 1;
+    color: var(--accent-dark);
+    font-size: .86rem;
+    font-weight: 900;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .timeline-dot {
+    position: relative;
+    z-index: 1;
+    width: .85rem;
+    height: .85rem;
+    box-sizing: border-box;
+    border: 3px solid var(--paper);
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent);
+  }
+
+  .timeline-point-claim {
+    width: 100%;
+    min-width: 0;
+    max-width: 18ch;
+    align-self: start;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+    padding-top: .15rem;
+    font-size: .88rem;
+    font-weight: 700;
+    line-height: 1.35;
+  }
   .timeline-point:hover .timeline-point-claim { color: var(--accent-dark); }
   .featured { padding: 5rem 0; }
   .cards { display: grid; gap: 2rem; }
@@ -231,5 +290,36 @@ const currentYear = new Date().getFullYear();
     .school-feature-inner, .compact-preview { grid-template-columns: 1fr; }
     .school-form-row { flex-direction: column; }
     .section-heading { align-items: flex-start; flex-direction: column; }
+
+    .timeline-strip {
+      grid-template-columns: 1fr;
+      gap: 0;
+      border-left: 1px solid var(--line);
+      margin-left: .45rem;
+    }
+
+    .timeline-strip::before {
+      display: none;
+    }
+
+    .timeline-point {
+      grid-template-columns: 4rem auto 1fr;
+      grid-template-rows: auto;
+      justify-items: start;
+      align-items: center;
+      gap: .75rem;
+      padding: .75rem 0 .75rem .85rem;
+      text-align: left;
+    }
+
+    .timeline-dot {
+      margin-left: -1.3rem;
+      border-color: var(--paper);
+    }
+
+    .timeline-point-claim {
+      max-width: none;
+      padding-top: 0;
+    }
   }
 </style>

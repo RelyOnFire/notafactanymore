@@ -119,11 +119,12 @@ if (diverseRecent.length < PREVIEW_SIZE) {
 const recent = diverseRecent.sort(compareBySubject);
 
 const timelineTeaserIds = [
+  'torrid-zone-uninhabitable',
   'earth-centered-universe',
   'doctors-do-not-spread-puerperal-fever',
   'humans-have-48-chromosomes',
   'universe-expansion-slowing',
-  'kilogram-must-be-a-metal-cylinder',
+  'king-cobra-is-one-species',
 ];
 
 const timelineTeaser = timelineTeaserIds
@@ -454,8 +455,9 @@ const currentYear = new Date().getFullYear();
   .timeline-strip {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: 1rem;
+    min-width: 0;
   }
 
   .timeline-strip::before {
@@ -472,9 +474,11 @@ const currentYear = new Date().getFullYear();
     position: relative;
     z-index: 1;
     display: grid;
-    grid-template-rows: auto auto 1fr;
+    grid-template-rows: 1.35rem 0.85rem 1fr;
     justify-items: center;
+    align-items: center;
     gap: 0.55rem;
+    min-width: 0;
     padding: 0.45rem;
     color: inherit;
     text-align: center;
@@ -482,6 +486,7 @@ const currentYear = new Date().getFullYear();
   }
 
   .timeline-point-year {
+    line-height: 1;
     color: var(--accent-dark);
     font-weight: 900;
     font-variant-numeric: tabular-nums;
@@ -497,7 +502,11 @@ const currentYear = new Date().getFullYear();
   }
 
   .timeline-point-claim {
+    width: 100%;
+    min-width: 0;
     max-width: 18ch;
+    overflow-wrap: anywhere;
+    hyphens: auto;
     font-size: 0.92rem;
     line-height: 1.35;
     font-weight: 750;
@@ -555,7 +564,7 @@ const currentYear = new Date().getFullYear();
 
     .timeline-point {
       grid-template-columns: 4rem auto 1fr;
-      grid-template-rows: 1fr;
+      grid-template-rows: auto;
       justify-items: start;
       align-items: center;
       gap: 0.75rem;

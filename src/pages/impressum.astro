@@ -1,0 +1,159 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Impressum"
+  description="Legal disclosure and information about the independent, non-commercial Not a Fact Anymore project."
+  alternatePath="/de/impressum"
+>
+  <article class="impressum container">
+    <header class="page-header">
+      <p class="eyebrow">Legal disclosure</p>
+      <h1>Impressum</h1>
+      <p class="lead">Information about the person behind <strong>Not a Fact Anymore</strong> and the project’s editorial direction.</p>
+    </header>
+
+    <div class="content-grid">
+      <section class="legal-card" aria-labelledby="disclosure-heading">
+        <p class="section-kicker">Disclosure pursuant to § 25 Mediengesetz</p>
+        <h2 id="disclosure-heading">Media owner</h2>
+
+        <dl>
+          <div>
+            <dt>Name</dt>
+            <dd>Isaac Mattoo</dd>
+          </div>
+          <div>
+            <dt>Residence</dt>
+            <dd>Vienna, Austria</dd>
+          </div>
+          <div>
+            <dt>Project</dt>
+            <dd>Not a Fact Anymore</dd>
+          </div>
+          <div>
+            <dt>Status</dt>
+            <dd>Independent, privately operated and non-commercial</dd>
+          </div>
+        </dl>
+
+        <div class="direction">
+          <h3>Editorial direction</h3>
+          <p><strong>Not a Fact Anymore</strong> is an independent, non-commercial information project documenting scientific and historical claims that were once accepted, taught, or defensibly presented as fact and were later corrected, narrowed, reclassified, superseded, or overturned.</p>
+          <p>The project aims to provide a source-based, neutral account of how factual and scientific understanding changes over time.</p>
+        </div>
+
+        <p class="commercial-note">The site contains no advertising, affiliate links, subscriptions, paid services, donations, sponsorships, or commercial partnerships.</p>
+      </section>
+
+      <aside class="project-card" aria-labelledby="behind-heading">
+        <p class="section-kicker">Behind the project</p>
+        <h2 id="behind-heading">Isaac Mattoo</h2>
+        <p class="role">Creator and editor</p>
+        <p>This is a personal project built around a simple idea: facts have histories, and the interesting part is often not merely that something changed, but <em>how</em> and <em>why</em> it changed.</p>
+        <p>The catalogue is curated, source-driven and open to correction. Its purpose is not to mock older ideas, but to document the process by which better evidence changes what can reasonably be treated as knowledge.</p>
+
+        <div class="portrait-note">
+          <span aria-hidden="true">NF</span>
+          <p>The portrait for this section will be added separately.</p>
+        </div>
+      </aside>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .impressum { padding: 5rem 0 1rem; }
+  .page-header { max-width: 820px; margin-bottom: 3rem; }
+  .page-header h1 { margin: .2rem 0 1rem; }
+  .lead { margin: 0; color: var(--muted); font-size: clamp(1.15rem, 2vw, 1.35rem); }
+
+  .content-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr);
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  .legal-card,
+  .project-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 1.25rem;
+    padding: clamp(1.4rem, 4vw, 2.35rem);
+  }
+
+  .section-kicker {
+    margin: 0 0 .6rem;
+    color: var(--accent-dark);
+    font-size: .76rem;
+    font-weight: 900;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  h2 { margin: 0 0 1.5rem; font-size: clamp(1.8rem, 4vw, 2.7rem); }
+  h3 { margin: 0 0 .65rem; font-size: 1.12rem; letter-spacing: -.01em; }
+
+  dl { margin: 0; }
+  dl > div {
+    display: grid;
+    grid-template-columns: 8rem 1fr;
+    gap: 1rem;
+    padding: .9rem 0;
+    border-top: 1px solid var(--line);
+  }
+  dl > div:last-child { border-bottom: 1px solid var(--line); }
+  dt { color: var(--muted); font-weight: 700; }
+  dd { margin: 0; font-weight: 750; }
+
+  .direction { margin-top: 2rem; }
+  .direction p { margin: .6rem 0 0; }
+
+  .commercial-note {
+    margin: 1.5rem 0 0;
+    padding: 1rem 1.1rem;
+    border-left: 3px solid var(--accent);
+    background: var(--paper);
+  }
+
+  .role {
+    margin: -1rem 0 1.5rem;
+    color: var(--muted);
+    font-weight: 750;
+  }
+
+  .project-card > p:not(.section-kicker):not(.role) { color: #343434; }
+
+  .portrait-note {
+    margin-top: 2rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    gap: .85rem;
+    color: var(--muted);
+    font-size: .9rem;
+  }
+
+  .portrait-note span {
+    flex: 0 0 auto;
+    display: grid;
+    place-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: var(--ink);
+    color: white;
+    font-size: .78rem;
+    font-weight: 900;
+  }
+
+  .portrait-note p { margin: 0; }
+
+  @media (max-width: 820px) {
+    .impressum { padding-top: 3.5rem; }
+    .content-grid { grid-template-columns: 1fr; }
+    dl > div { grid-template-columns: 1fr; gap: .2rem; }
+  }
+</style>

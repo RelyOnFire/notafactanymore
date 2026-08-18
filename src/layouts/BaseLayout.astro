@@ -63,7 +63,7 @@ const otherLocale: SiteLocale = locale === 'de' ? 'en' : 'de';
 const normalizedPath = Astro.url.pathname.length > 1
   ? Astro.url.pathname.replace(/\/$/, '')
   : Astro.url.pathname;
-const germanShellRoutes = new Set(['/', '/browse', '/about', '/methodology', '/submit']);
+const germanShellRoutes = new Set(['/', '/browse', '/about', '/methodology', '/submit', '/impressum']);
 const englishEquivalent = localizedPath(normalizedPath, 'en');
 const isKnownGermanPair = germanShellRoutes.has(englishEquivalent);
 const resolvedAlternatePath = alternatePath ?? (isKnownGermanPair
@@ -184,6 +184,7 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
             wenn bessere Evidenz verfügbar wird.
           </p>
           <p>Jeder Eintrag ist datiert, belegt und offen für Korrekturen.</p>
+          <p><a href="/de/impressum">Impressum</a></p>
         </>
       ) : (
         <>
@@ -192,6 +193,7 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
             changes when stronger evidence arrives.
           </p>
           <p>Every entry is dated, sourced, and open to correction.</p>
+          <p><a href="/impressum">Impressum</a></p>
         </>
       )}
     </footer>
@@ -385,6 +387,10 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
   footer p {
     margin: 0;
     max-width: 35rem;
+  }
+
+  footer a {
+    text-underline-offset: 0.18em;
   }
 
   @media (max-width: 900px) {

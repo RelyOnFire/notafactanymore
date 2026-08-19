@@ -1,14 +1,15 @@
 ---
-claim: "Traits acquired during an organism's lifetime are routinely inherited and are the main engine of evolution."
-currentUnderstanding: "Evolution mainly depends on inherited genetic variation, mutation, recombination, drift, and natural selection. Environmental effects can sometimes influence descendants through epigenetic or physiological mechanisms, but this is not the general inheritance of acquired bodily changes proposed by classical Lamarckism."
-whyItChanged: "Nineteenth-century transformist theories often treated use, disuse, and environmentally induced change as heritable. Genetics, chromosome biology, controlled breeding, and molecular mechanisms showed that most changes to an individual's body do not rewrite hereditary information passed to offspring."
+claim: "Bodily changes acquired through use, disuse, or environmental conditions were widely thought to be inherited and to direct evolutionary change."
+currentUnderstanding: "Evolution mainly depends on inherited genetic variation, mutation, recombination, drift, and natural selection. Environmental effects can sometimes influence descendants through epigenetic, developmental, or physiological mechanisms, but this is not the general inheritance of acquired bodily changes proposed by classical Lamarckian theories."
+whyItChanged: "Inheritance of acquired characteristics was widely discussed in 19th-century evolutionary thought. Challenges from germ-line theories, experimental genetics, chromosome biology, and the development of population genetics progressively displaced routine inheritance of acquired bodily modifications as a general evolutionary mechanism."
 status: "Superseded"
 category: "Evolution"
 acceptedApproximately: "Early 19th century–early 20th century"
 acceptedYear: 1815
 changedApproximately: "1880s–1930s"
-timelineYear: 1910
-summary: "Genetics replaced routine inheritance of acquired bodily changes as the central mechanism of evolution."
+timelineYear: 1900
+lifespanComparable: false
+summary: "Genetics displaced routine inheritance of acquired bodily changes as a general mechanism of evolution."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-06"

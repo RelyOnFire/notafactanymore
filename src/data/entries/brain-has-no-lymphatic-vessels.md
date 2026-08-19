@@ -4,10 +4,11 @@ currentUnderstanding: "Functional lymphatic vessels exist in the meninges surrou
 whyItChanged: "High-resolution imaging and tracer studies in 2015 independently identified dural lymphatic vessels that had been overlooked in standard anatomical preparations."
 status: "Overturned"
 category: "Neuroscience"
-acceptedApproximately: "19th century–2015"
+acceptedApproximately: "Modern neuroanatomy before 2015"
 acceptedYear: 1850
 changedApproximately: "2015"
 timelineYear: 2015
+lifespanComparable: false
 summary: "An anatomical absence taught for generations was overturned by the identification of functional meningeal lymphatic vessels."
 featured: false
 publishedAt: "2026-07-17"

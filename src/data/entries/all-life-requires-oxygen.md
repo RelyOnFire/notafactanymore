@@ -4,10 +4,11 @@ currentUnderstanding: "Many organisms live without molecular oxygen. Anaerobes u
 whyItChanged: "Respiration and visible animal life made oxygen appear universal. Pasteur's fermentation studies demonstrated microorganisms that lived and reproduced without air, and later microbiology revealed extensive anaerobic ecosystems and metabolisms."
 status: "Overturned"
 category: "Biology"
-acceptedApproximately: "18th–19th century"
+acceptedApproximately: "19th-century biology before anaerobic life was established"
 acceptedYear: 1750
-changedApproximately: "1860s–20th century"
+changedApproximately: "1860s–1870s"
 timelineYear: 1861
+lifespanComparable: false
 summary: "Anaerobic microbes showed that life can thrive without oxygen and may even be poisoned by it."
 featured: false
 publishedAt: "2026-08-06"

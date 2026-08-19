@@ -1,14 +1,15 @@
 ---
-claim: "Every infectious agent must contain DNA or RNA in order to reproduce and transmit disease."
-currentUnderstanding: "Prions are transmissible agents composed primarily of misfolded protein and lack their own nucleic-acid genome. They propagate by inducing normally folded proteins to adopt an abnormal conformation."
-whyItChanged: "Work on scrapie and related neurodegenerative diseases failed to identify a viral genome. Stanley Prusiner isolated and characterized a proteinaceous infectious particle, leading to the prion model."
+claim: "Transmissible infectious agents were expected to require DNA or RNA to store and propagate biological information."
+currentUnderstanding: "Prions are transmissible agents composed primarily of misfolded protein and lack their own nucleic-acid genome. They propagate by inducing normally folded host proteins to adopt an abnormal conformation."
+whyItChanged: "Scrapie and related diseases resisted attempts to identify a viral genome. In 1982, Stanley Prusiner described a proteinaceous infectious particle, and later work established protein-templated misfolding as the basis of prion propagation."
 status: "Overturned"
 category: "Medicine"
-acceptedApproximately: "Mid-20th century–1980s"
+acceptedApproximately: "Mid-20th century–early 1980s"
 acceptedYear: 1950
 changedApproximately: "1982–1997"
 timelineYear: 1982
-summary: "Prions overturned the rule that an infectious agent must carry DNA or RNA."
+lifespanComparable: false
+summary: "Prions showed that an infectious agent can propagate without carrying its own DNA or RNA genome."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"

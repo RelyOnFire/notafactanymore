@@ -1,14 +1,15 @@
 ---
-claim: "Brown adipose tissue is absent or biologically unimportant in adult humans."
-currentUnderstanding: "Many adults retain active brown fat, especially around the neck and upper chest. Its amount and activity vary with age, temperature, body composition, and other factors."
-whyItChanged: "Medical scans repeatedly revealed cold-responsive tissue that consumed large amounts of glucose. Biopsies and molecular tests confirmed that it was functioning brown fat."
+claim: "Brown adipose tissue was thought to disappear after infancy or to have little physiological importance in normal adults."
+currentUnderstanding: "Many adults retain metabolically active brown adipose tissue, especially around the neck and upper chest. Its amount and activity vary with age, temperature, body composition, and other factors."
+whyItChanged: "Imaging studies repeatedly revealed cold-responsive tissue with high glucose uptake in adults. In 2009, imaging, biopsies, molecular markers, and metabolic measurements confirmed substantial functioning brown adipose tissue in healthy adults."
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Mid to late 20th century"
 acceptedYear: 1950
 changedApproximately: "2000s"
 timelineYear: 2009
-summary: "A heat-producing tissue thought to disappear after infancy was found to remain active in many adults."
+lifespanComparable: false
+summary: "Brown fat thought to disappear or become negligible after infancy was found to remain metabolically active in many adults."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"

@@ -4,10 +4,11 @@ currentUnderstanding: "Routine oxygen is not recommended for heart-attack patien
 whyItChanged: "Oxygen seemed intuitively protective and became routine despite limited trial evidence. Physiological studies and randomized trials found no benefit in normoxic patients and raised concern about reduced coronary blood flow and larger injury."
 status: "Narrowed"
 category: "Medicine"
-acceptedApproximately: "Early–late 20th century"
+acceptedApproximately: "20th century–early 21st century"
 acceptedYear: 1915
-changedApproximately: "2000s–2010s"
+changedApproximately: "1970s–2010s"
 timelineYear: 2017
+lifespanComparable: false
 summary: "A universal emergency treatment narrowed to patients who are actually short of oxygen."
 featured: false
 publishedAt: "2026-07-28"

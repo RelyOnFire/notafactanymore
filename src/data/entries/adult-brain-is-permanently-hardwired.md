@@ -7,7 +7,8 @@ category: "Neuroscience"
 acceptedApproximately: "Late 19th–mid-20th century"
 acceptedYear: 1885
 changedApproximately: "1960s–present"
-timelineYear: 1965
+timelineYear: 1969
+lifespanComparable: false
 summary: "The mature brain proved capable of continued rewiring, learning, and structural change."
 featured: false
 publishedAt: "2026-07-28"
@@ -28,6 +29,11 @@ sources:
     publisher: "National Institute on Deafness and Other Communication Disorders"
     purpose: "Current evidence"
     note: "Defines the nervous system's capacity to adapt to new conditions such as injury."
+  - title: "Neuronal plasticity in the septal nuclei of the adult rat"
+    url: "https://pubmed.ncbi.nlm.nih.gov/5783115/"
+    publisher: "Brain Research via PubMed"
+    purpose: "Primary research"
+    note: "Raisman's 1969 adult-rat study demonstrated lasting anatomical reorganization of synaptic connections after deafferentation."
 ---
 
 Plasticity is not unlimited. Age, injury type, disease, training, and the brain region involved all affect how much change is possible.

@@ -1,14 +1,15 @@
 ---
-claim: "Signals cross every synapse by direct electrical continuity."
+claim: "Synaptic transmission was widely expected to continue electrically across the junction between excitable cells."
 currentUnderstanding: "Most synapses in vertebrate nervous systems transmit information chemically through neurotransmitter release and receptors. Electrical synapses also exist, using gap junctions for direct ionic current."
-whyItChanged: "Because impulses travel electrically along nerves, many physiologists expected the signal to continue electrically between cells. Loewi's transferable-heart experiment and subsequent identification of acetylcholine demonstrated chemical transmission, while later work established both chemical and electrical synapses."
+whyItChanged: "Loewi's 1921 experiments demonstrated a transferable chemical signal from the vagus nerve to the heart. Pharmacological and electrophysiological work then extended chemical transmission to neuronal synapses, while later research also confirmed genuine electrical synapses."
 status: "Narrowed"
 category: "Neuroscience"
-acceptedApproximately: "Late 19th century–1920s"
+acceptedApproximately: "Late 19th–mid-20th century"
 acceptedYear: 1885
 changedApproximately: "1921–1950s"
-timelineYear: 1921
-summary: "Neurotransmitter experiments showed that most synapses use chemical messengers, while electrical synapses remain real exceptions."
+timelineYear: 1952
+lifespanComparable: false
+summary: "Chemical transmission became the dominant synaptic model, while direct electrical synapses survived as an important second mechanism."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-06"
@@ -30,6 +31,6 @@ sources:
     note: "Reviews the continuing existence and functions of electrical synapses alongside chemical transmission."
 ---
 
-The historical controversy was not settled everywhere at once. Chemical transmission was first compelling at autonomic nerve–muscle junctions and was then extended to other synapses.
+The historical controversy was not resolved by one experiment. Loewi's work made chemical transmission compelling at autonomic neuroeffector junctions, while the electrical-versus-chemical debate at neuronal synapses continued into the mid-20th century.
 
 Because electrical synapses are genuine, the old universal claim is narrowed rather than replaced with the equally false claim that every synapse is chemical.

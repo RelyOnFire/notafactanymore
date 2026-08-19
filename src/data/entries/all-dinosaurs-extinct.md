@@ -1,14 +1,15 @@
 ---
-claim: "All dinosaurs became extinct about 66 million years ago."
-currentUnderstanding: "All non-avian dinosaurs became extinct, but one dinosaur lineage survived: birds. In modern evolutionary classification, birds are living avian dinosaurs."
-whyItChanged: "Detailed comparisons of skeletons, feathers, eggs, nesting behaviour and later fossil discoveries established that birds evolved within theropod dinosaurs rather than merely resembling them."
-status: "Narrowed"
+claim: "Dinosaurs were treated as an entirely extinct group, separate from living birds."
+currentUnderstanding: "Non-avian dinosaurs became extinct about 66 million years ago, but one dinosaur lineage survived: birds. In modern phylogenetic classification, birds are living avian dinosaurs."
+whyItChanged: "Anatomical work revived the dinosaurian origin of birds in the 20th century, and cladistic analyses placed birds within theropod dinosaurs. Later feathered fossils provided striking additional evidence for that evolutionary relationship."
+status: "Reclassified"
 category: "Paleontology"
-acceptedApproximately: "19th and much of the 20th century"
+acceptedApproximately: "19th century–late 20th century"
 acceptedYear: 1850
-changedApproximately: "Late 20th century"
-timelineYear: 1996
-summary: "The mass extinction eliminated non-avian dinosaurs, while avian dinosaurs survived as birds."
+changedApproximately: "1970s–1990s"
+timelineYear: 1986
+lifespanComparable: false
+summary: "Dinosaurs were reclassified to include birds, leaving only the non-avian dinosaur lineages extinct."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -30,7 +31,12 @@ sources:
     publisher: "University of California Museum of Paleontology"
     purpose: "Current evidence"
     note: "Reviews anatomical and fossil evidence placing birds within theropod dinosaurs."
+  - title: "Saurischian monophyly and the origin of birds"
+    url: "https://www.biodiversitylibrary.org/part/74988"
+    publisher: "Memoirs of the California Academy of Sciences via Biodiversity Heritage Library"
+    purpose: "Primary research"
+    note: "Gauthier's 1986 cladistic analysis placed birds within theropod dinosaurs and provided a formal phylogenetic landmark for the modern classification."
 ---
 In everyday language, "dinosaurs" often means non-avian dinosaurs, so the older wording remains common. In evolutionary biology, however, excluding birds makes the group incomplete because birds descend from within Dinosauria.
 
-The card is therefore marked **Narrowed**: the extinction claim remains true when explicitly limited to non-avian dinosaurs.
+The change is therefore primarily **taxonomic and phylogenetic**. The end-Cretaceous extinction still eliminated all non-avian dinosaurs, but modern classification no longer treats birds as a group outside Dinosauria.

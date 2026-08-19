@@ -1,14 +1,15 @@
 ---
-claim: "Black holes are mathematical curiosities that cannot exist in nature."
-currentUnderstanding: "Black holes are observed through stellar orbits, accretion radiation, gravitational waves, and horizon-scale imaging. They occur in stellar-mass and supermassive forms."
-whyItChanged: "Even after general relativity permitted extreme collapse, many physicists doubted that nature could produce such objects. X-ray binaries, galactic-center dynamics, gravitational-wave detections, and Event Horizon Telescope images built converging evidence."
+claim: "Black-hole solutions were widely regarded as mathematical idealizations rather than realistic outcomes of gravitational collapse in nature."
+currentUnderstanding: "Black holes are real astrophysical objects. Evidence comes from stellar and gas motions, accretion radiation, gravitational waves, and horizon-scale imaging, and black holes occur across a wide range of masses."
+whyItChanged: "Early relativistic solutions raised doubts about whether their extreme behavior could occur in realistic stars. In the 1960s, theoretical work showed that black-hole formation is a robust consequence of gravitational collapse, while subsequent astronomical observations identified increasingly convincing black-hole candidates and populations."
 status: "Overturned"
 category: "Astronomy"
-acceptedApproximately: "Especially influential in the 1930s–1960s"
+acceptedApproximately: "Especially influential from the 1930s into the 1960s"
 acceptedYear: 1935
-changedApproximately: "1960s–present"
-timelineYear: 1971
-summary: "An implausible mathematical endpoint became an observed population of astrophysical objects."
+changedApproximately: "1960s–1970s"
+timelineYear: 1965
+lifespanComparable: false
+summary: "A relativistic object often treated as physically unrealistic became a robust theoretical prediction and then an observed astrophysical population."
 featured: false
 publishedAt: "2026-07-28"
 reviewedAt: "2026-07-28"

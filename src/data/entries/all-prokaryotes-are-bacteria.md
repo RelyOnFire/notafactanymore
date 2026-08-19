@@ -1,14 +1,15 @@
 ---
-claim: "All organisms without a cell nucleus belong to one fundamental group: the bacteria."
-currentUnderstanding: "Life without a cell nucleus includes two deeply different lineages: Bacteria and Archaea. Archaea differ from bacteria in their membranes, genetics, and much of their molecular machinery."
-whyItChanged: "Carl Woese and colleagues compared ribosomal RNA and found a deep evolutionary split among organisms that had all been grouped together as bacteria."
+claim: "Prokaryotes were treated as one fundamental group, with organisms now called archaea classified among the bacteria."
+currentUnderstanding: "Organisms without a cell nucleus include two deeply different lineages: Bacteria and Archaea. Archaea differ from bacteria in their membranes, genetics, and much of their molecular machinery."
+whyItChanged: "In 1977, Carl Woese and George Fox compared ribosomal RNA and identified a deep evolutionary division within organisms then grouped as prokaryotes. The archaea were subsequently recognized as a fundamentally distinct lineage rather than an unusual branch of bacteria."
 status: "Reclassified"
 category: "Microbiology"
-acceptedApproximately: "19th century–1970s"
+acceptedApproximately: "Mid-20th century–1970s"
 acceptedYear: 1850
 changedApproximately: "1977–1990"
 timelineYear: 1977
-summary: "Molecular evidence split the old prokaryote group into the distinct Bacteria and Archaea."
+lifespanComparable: false
+summary: "Molecular phylogeny split the old unified prokaryotic picture into deeply distinct Bacteria and Archaea."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"

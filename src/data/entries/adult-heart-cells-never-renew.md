@@ -6,8 +6,9 @@ status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Much of the 20th century"
 acceptedYear: 1925
-changedApproximately: "2000s"
+changedApproximately: "Late 20th century–2000s"
 timelineYear: 2009
+lifespanComparable: false
 summary: "The adult heart is not completely cell-static, although its low renewal rate cannot repair major damage."
 featured: false
 publishedAt: "2026-07-17"

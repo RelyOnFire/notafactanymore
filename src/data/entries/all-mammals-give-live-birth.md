@@ -1,14 +1,15 @@
 ---
-claim: "All true mammals give birth to live young, so reports of egg-laying mammals must be mistaken."
-currentUnderstanding: "Platypuses and echidnas are mammals that lay eggs. They have hair and produce milk but retain an ancestral egg-laying reproductive system."
-whyItChanged: "European naturalists initially doubted the platypus specimen and struggled to place it among known animals. Direct anatomical study and observations of monotreme reproduction confirmed both mammalian features and egg laying."
-status: "Overturned"
+claim: "Live birth was treated as a defining feature of mammals, making reports of egg-laying mammals difficult to reconcile with Mammalia."
+currentUnderstanding: "Platypuses and echidnas are mammals that lay eggs. They have hair, produce milk, and share mammalian ancestry while retaining an ancestral egg-laying reproductive system."
+whyItChanged: "European naturalists initially doubted the strange platypus specimens and later disputed reports of monotreme eggs. Anatomical evidence established their mammalian affinities, and direct evidence of egg laying forced zoologists to revise which reproductive traits defined the group."
+status: "Reclassified"
 category: "Zoology"
-acceptedApproximately: "European natural history before the late 19th century"
+acceptedApproximately: "European zoology before monotreme reproduction was resolved"
 acceptedYear: 1800
-changedApproximately: "1799–1880s"
+changedApproximately: "Early 19th century–1880s"
 timelineYear: 1884
-summary: "The platypus and echidnas forced zoologists to accept that a mammal can lay eggs."
+lifespanComparable: false
+summary: "Egg-laying monotremes forced zoologists to broaden the reproductive boundaries of Mammalia."
 featured: false
 publishedAt: "2026-07-27"
 reviewedAt: "2026-07-27"

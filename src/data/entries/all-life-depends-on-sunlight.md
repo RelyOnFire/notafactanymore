@@ -1,14 +1,15 @@
 ---
-claim: "Every ecosystem ultimately depends on sunlight and photosynthesis for its energy."
-currentUnderstanding: "Some ecosystems are based on chemosynthesis. Microorganisms use energy from reactions involving hydrogen sulfide, methane, hydrogen, and other chemicals, supporting food webs with no sunlight."
-whyItChanged: "The 1977 discovery of dense animal communities at Galápagos hydrothermal vents revealed food webs powered by chemical energy rather than photosynthesis."
+claim: "Food webs were expected to depend ultimately on photosynthetic primary production powered by sunlight."
+currentUnderstanding: "Some ecosystems instead begin with chemosynthetic primary production. Microorganisms can obtain energy from chemical reactions involving sulfur compounds, hydrogen, methane, and other substances, supporting food webs in places where sunlight cannot drive photosynthesis."
+whyItChanged: "The 1977 discovery of dense animal communities at Galápagos hydrothermal vents revealed food webs whose local primary production was powered by chemical energy. Subsequent work identified chemoautotrophic microorganisms associated with vent animals."
 status: "Overturned"
 category: "Ocean Science"
-acceptedApproximately: "19th century–1977"
+acceptedApproximately: "Before the discovery of hydrothermal-vent ecosystems"
 acceptedYear: 1850
-changedApproximately: "1977 onward"
+changedApproximately: "1977–early 1980s"
 timelineYear: 1977
-summary: "Hydrothermal-vent communities revealed entire food webs fueled by chemical energy in permanent darkness."
+lifespanComparable: false
+summary: "Hydrothermal-vent ecosystems showed that primary production can be powered by chemical energy instead of sunlight."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -32,6 +33,6 @@ sources:
     note: "Describes vent communities that depend on chemical processes involving seawater and hot magma."
 ---
 
-Most surface and shallow-water ecosystems do depend directly or indirectly on sunlight. The correction is to the universal claim.
+Most familiar food webs ultimately trace their primary production to sunlight. The correction is that photosynthesis is not the only process capable of supplying the primary production that supports an ecosystem.
 
 Chemosynthetic ecosystems still depend on broader planetary geochemistry, and some vent organisms may also receive material ultimately produced in sunlit environments.

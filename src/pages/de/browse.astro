@@ -58,7 +58,7 @@ const statuses = [...new Set(items.map(({ entry }) => entry.data.status))]
     <p class="eyebrow">Der Katalog</p>
     <h1>Einträge durchsuchen</h1>
     <p>
-      Durchsuche die vollständige Sammlung, grenze sie nach Kategorie oder Status ein,
+      Durchsuche die vollständige Sammlung, filtere sie nach Kategorie oder Status,
       ändere die Sortierung und wechsle zwischen ausführlichen Karten und einer kompakten Liste.
     </p>
   </header>
@@ -71,7 +71,7 @@ const statuses = [...new Set(items.map(({ entry }) => entry.data.status))]
           <input
             type="search"
             class="catalogue-search"
-            placeholder="Aussagen und heutigen Wissensstand durchsuchen…"
+            placeholder="Aussagen und den heutigen Wissensstand durchsuchen…"
             autocomplete="off"
           />
         </label>

@@ -100,7 +100,7 @@ const defaultComparisonB = categoryStats.find((item) => item.category === 'Astro
 const comparisonReady = Boolean(defaultComparisonA && defaultComparisonB);
 
 const formatCategoryDetail = (item: (typeof categoryStats)[number]) => item.count === 1
-  ? '1 Eintrag · beobachtete Spannweite nicht ausgewiesen'
+  ? '1 Eintrag · beobachtete Spannweite nicht angegeben'
   : `${item.count} Einträge · Spannweite ${formatApproxYearsLocalized(item.min, 'de')} bis ${formatApproxYearsLocalized(item.max, 'de')}`;
 
 const initialComparisonResult = defaultComparisonA && defaultComparisonB
@@ -144,9 +144,9 @@ const DISPLAY_CAP = 250;
       <small>{longest[0]?.translation.data.claim}</small>
     </article>
     <article>
-      <span>Kategorien mit Messwerten</span>
+      <span>Verglichene Kategorien</span>
       <strong>{categoryStats.length}</strong>
-      <small>Deskriptiv für diesen Katalog</small>
+      <small>Beschreibt nur diesen Katalog</small>
     </article>
   </section>
 
@@ -413,7 +413,7 @@ const DISPLAY_CAP = 250;
       };
     };
     const formatComparisonDetail = (stat: ComparisonStat) => stat.count === 1
-      ? '1 Eintrag · beobachtete Spannweite nicht ausgewiesen'
+      ? '1 Eintrag · beobachtete Spannweite nicht angegeben'
       : `${stat.count} Einträge · Spannweite ${formatApproxYearsClient(stat.min)} bis ${formatApproxYearsClient(stat.max)}`;
     const updateComparisonCard = (card: HTMLElement | null, stat: ComparisonStat) => {
       if (!card) return;

@@ -54,7 +54,7 @@ const labels = locale === 'de'
       other: 'Other',
       otherCategory: 'Other category',
       status: 'Suggested status',
-      oldEvidence: 'Evidence the old claim was accepted',
+      oldEvidence: 'Evidence that the earlier claim was accepted',
       newEvidence: 'Evidence for the current understanding',
       qualifications: 'Important qualifications or uncertainty',
       sourcePlaceholder: 'Source titles and URLs',
@@ -155,7 +155,7 @@ const statusOptions = locale === 'de'
     const footer = locale === 'de'
       ? 'Submitted through the German version of notafactanymore.com. Publication requires editorial review.'
       : 'Submitted through notafactanymore.com. Publication requires editorial review.';
-    const body = `## Formerly accepted claim\n${value('oldClaim')}\n\n## What is understood now?\n${value('current')}\n\n## Why did it change?\n${value('why')}\n\n## Classification\n- **Category:** ${category}\n- **Suggested status:** ${value('status')}\n\n## Evidence the old claim was accepted\n${value('oldEvidence')}\n\n## Evidence for the current understanding\n${value('newEvidence')}\n\n## Qualifications or uncertainty\n${value('qualifications') || 'None provided.'}\n\n---\n${footer}`;
+    const body = `## Formerly accepted claim\n${value('oldClaim')}\n\n## What is understood now?\n${value('current')}\n\n## Why did it change?\n${value('why')}\n\n## Classification\n- **Category:** ${category}\n- **Suggested status:** ${value('status')}\n\n## Evidence that the earlier claim was accepted\n${value('oldEvidence')}\n\n## Evidence for the current understanding\n${value('newEvidence')}\n\n## Qualifications or uncertainty\n${value('qualifications') || 'None provided.'}\n\n---\n${footer}`;
     const title = `[Submission] ${value('oldClaim').slice(0, 90)}`;
     const url = `https://github.com/${owner}/${repo}/issues/new?labels=submission&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
     window.location.href = url;

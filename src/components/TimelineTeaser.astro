@@ -88,10 +88,12 @@ const { items, surface = 'paper', dense = false } = Astro.props;
     align-self: start;
     overflow-wrap: anywhere;
     hyphens: auto;
+    text-wrap: pretty;
     padding-top: 0.15rem;
     font-size: 0.92rem;
     line-height: 1.35;
     font-weight: 750;
+    transition: color 150ms ease;
   }
 
   .dense .timeline-point-year {
@@ -105,6 +107,12 @@ const { items, surface = 'paper', dense = false } = Astro.props;
 
   .timeline-point:hover .timeline-point-claim {
     color: var(--accent-dark);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .timeline-point-claim {
+      transition: none;
+    }
   }
 
   @media (max-width: 900px) {

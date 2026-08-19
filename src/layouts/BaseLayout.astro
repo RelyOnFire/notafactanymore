@@ -235,6 +235,15 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
   body { margin: 0; line-height: 1.6; background: var(--paper); }
   a { color: inherit; }
 
+  :where(a, button, input, select, textarea) {
+    transition:
+      color 150ms ease,
+      background-color 150ms ease,
+      border-color 150ms ease,
+      box-shadow 150ms ease,
+      opacity 150ms ease;
+  }
+
   :where(a, button, input, select, textarea):focus-visible {
     outline: 3px solid color-mix(in srgb, var(--accent) 42%, transparent);
     outline-offset: 3px;
@@ -253,6 +262,14 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
     font-weight: 800;
     text-decoration: none;
     transform: translateY(calc(-100% - 1rem));
+  }
+
+  .skip-link {
+    transition:
+      transform 150ms ease,
+      color 150ms ease,
+      background-color 150ms ease,
+      border-color 150ms ease;
   }
 
   .skip-link:focus {
@@ -356,9 +373,20 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
     letter-spacing: -0.025em;
   }
 
+  h1, h2 {
+    text-wrap: balance;
+  }
+
   h1 { font-size: clamp(2.5rem, 7vw, 5.75rem); }
   h2 { font-size: clamp(1.7rem, 4vw, 2.8rem); }
   p { max-width: 72ch; }
+
+  .lead,
+  .intro,
+  .section-intro,
+  .timeline-intro {
+    text-wrap: pretty;
+  }
 
   .eyebrow {
     text-transform: uppercase;
@@ -409,6 +437,13 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
 
   footer p { margin: 0; max-width: 35rem; }
   footer a { text-underline-offset: 0.18em; }
+
+  @media (prefers-reduced-motion: reduce) {
+    :where(a, button, input, select, textarea),
+    .skip-link {
+      transition: none !important;
+    }
+  }
 
   @media (max-width: 900px) {
     .site-header,

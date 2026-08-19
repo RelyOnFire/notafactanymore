@@ -108,6 +108,7 @@ const navItems = locale === 'de'
 const brandHome = locale === 'de' ? '/de/' : '/';
 const navLabel = locale === 'de' ? 'Hauptnavigation' : 'Main navigation';
 const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteConfig.name} home`;
+const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
 ---
 <!doctype html>
 <html lang={localeMeta[locale].htmlLang}>
@@ -157,6 +158,7 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
     <meta name="twitter:image:alt" content={imageAlt} />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">{skipLabel}</a>
     <header class="site-header">
       <a class="brand" href={brandHome} aria-label={brandLabel}>
         <span class="brand-mark" aria-hidden="true">NF</span>
@@ -165,7 +167,10 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
 
       <div class="header-actions">
         <nav aria-label={navLabel}>
-          {navItems.map(([href, label]) => <a href={href}>{label}</a>)}
+          {navItems.map(([href, label]) => {
+            const current = normalizedPath === href;
+            return <a href={href} aria-current={current ? 'page' : undefined}>{label}</a>;
+          })}
         </nav>
         <a
           class="language-switch"
@@ -179,7 +184,7 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
       </div>
     </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
       <slot />
     </main>
 
@@ -230,6 +235,30 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
   body { margin: 0; line-height: 1.6; background: var(--paper); }
   a { color: inherit; }
 
+  :where(a, button, input, select, textarea):focus-visible {
+    outline: 3px solid color-mix(in srgb, var(--accent) 42%, transparent);
+    outline-offset: 3px;
+  }
+
+  .skip-link {
+    position: fixed;
+    top: 0.75rem;
+    left: 0.75rem;
+    z-index: 100;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid var(--ink);
+    border-radius: 0.35rem;
+    color: white;
+    background: var(--ink);
+    font-weight: 800;
+    text-decoration: none;
+    transform: translateY(calc(-100% - 1rem));
+  }
+
+  .skip-link:focus {
+    transform: translateY(0);
+  }
+
   .site-header {
     width: min(var(--max), calc(100% - 2rem));
     margin: 0 auto;
@@ -279,6 +308,14 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
   }
 
   nav a:hover { color: var(--accent-dark); }
+
+  nav a[aria-current="page"] {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.35rem;
+  }
 
   .language-switch {
     display: grid;
@@ -350,6 +387,12 @@ const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteCo
     color: var(--ink);
     background: transparent;
     border: 1px solid var(--ink);
+  }
+
+  .button.secondary:hover {
+    border-color: var(--accent-dark);
+    color: white;
+    background: var(--accent-dark);
   }
 
   footer {

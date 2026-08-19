@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CompactClaim from '../../components/CompactClaim.astro';
 import FactCard from '../../components/FactCard.astro';
+import TimelineTeaser from '../../components/TimelineTeaser.astro';
 import { translationMatchesEntry } from '../../lib/i18n';
 
 const entries = await getCollection('entries');
@@ -147,15 +148,14 @@ const currentYear = new Date().getFullYear();
         </div>
         <a href="/de/timeline">Vollständige Zeitleiste →</a>
       </div>
-      <div class="timeline-strip">
-        {timelineTeaser.map(({ entry, translation }) => (
-          <a class="timeline-point" href={`/de/entries/${entry.id}/`}>
-            <span class="timeline-point-year">{entry.data.timelineYear}</span>
-            <span class="timeline-dot" aria-hidden="true"></span>
-            <span class="timeline-point-claim">{translation.data.claim}</span>
-          </a>
-        ))}
-      </div>
+      <TimelineTeaser
+        dense
+        items={timelineTeaser.map(({ entry, translation }) => ({
+          href: `/de/entries/${entry.id}/`,
+          year: entry.data.timelineYear,
+          claim: translation.data.claim,
+        }))}
+      />
     </div>
   </section>
 
@@ -166,7 +166,7 @@ const currentYear = new Date().getFullYear();
         <a href="/de/browse">Alle Einträge →</a>
       </div>
       <div class="cards">
-        {featured.map(({ entry, translation }) => <FactCard entry={entry} translation={translation} locale="de" expanded />)}
+        {featured.map(({ entry, translation }) => <FactCard entry={entry} translation={translation} locale="de" expanded headingLevel={3} />)}
       </div>
     </section>
   )}
@@ -213,72 +213,6 @@ const currentYear = new Date().getFullYear();
   .section-heading h2 { margin: .2rem 0 0; }
   .section-heading > a { flex: 0 0 auto; font-weight: 800; color: var(--accent-dark); }
   .section-intro { margin-bottom: 0; color: var(--muted); }
-  .timeline-strip {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 1rem;
-    min-width: 0;
-  }
-
-  .timeline-strip::before {
-    content: '';
-    position: absolute;
-    top: 2.775rem;
-    left: calc(100% / 12);
-    right: calc(100% / 12);
-    height: 1px;
-    background: var(--line);
-  }
-
-  .timeline-point {
-    position: relative;
-    z-index: 1;
-    display: grid;
-    grid-template-rows: 1.35rem 0.85rem auto;
-    justify-items: center;
-    align-items: center;
-    gap: .55rem;
-    min-width: 0;
-    padding: .45rem;
-    color: inherit;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .timeline-point-year {
-    line-height: 1;
-    color: var(--accent-dark);
-    font-size: .86rem;
-    font-weight: 900;
-    font-variant-numeric: tabular-nums;
-  }
-
-  .timeline-dot {
-    position: relative;
-    z-index: 1;
-    width: .85rem;
-    height: .85rem;
-    box-sizing: border-box;
-    border: 3px solid var(--paper);
-    border-radius: 50%;
-    background: var(--accent);
-    box-shadow: 0 0 0 1px var(--accent);
-  }
-
-  .timeline-point-claim {
-    width: 100%;
-    min-width: 0;
-    max-width: 18ch;
-    align-self: start;
-    overflow-wrap: anywhere;
-    hyphens: auto;
-    padding-top: .15rem;
-    font-size: .88rem;
-    font-weight: 700;
-    line-height: 1.35;
-  }
-  .timeline-point:hover .timeline-point-claim { color: var(--accent-dark); }
   .featured { padding: 5rem 0; }
   .cards { display: grid; gap: 2rem; }
   .catalogue-preview { padding: 4.5rem 0 5rem; border-top: 1px solid var(--line); background: color-mix(in srgb,var(--card) 66%,var(--paper)); }
@@ -291,35 +225,5 @@ const currentYear = new Date().getFullYear();
     .school-form-row { flex-direction: column; }
     .section-heading { align-items: flex-start; flex-direction: column; }
 
-    .timeline-strip {
-      grid-template-columns: 1fr;
-      gap: 0;
-      border-left: 1px solid var(--line);
-      margin-left: .45rem;
-    }
-
-    .timeline-strip::before {
-      display: none;
-    }
-
-    .timeline-point {
-      grid-template-columns: 4rem auto 1fr;
-      grid-template-rows: auto;
-      justify-items: start;
-      align-items: center;
-      gap: .75rem;
-      padding: .75rem 0 .75rem .85rem;
-      text-align: left;
-    }
-
-    .timeline-dot {
-      margin-left: -1.3rem;
-      border-color: var(--paper);
-    }
-
-    .timeline-point-claim {
-      max-width: none;
-      padding-top: 0;
-    }
   }
 </style>

@@ -380,7 +380,10 @@ const DISPLAY_CAP = 250;
       })}
     </div>
 
-    <p class="lifespan-empty" hidden>Keine Einträge entsprechen diesen Filtern.</p>
+    <div class="lifespan-empty" hidden>
+      <p>Keine Einträge entsprechen diesen Filtern.</p>
+      <button class="lifespan-clear" type="button">Filter zurücksetzen</button>
+    </div>
     <noscript><p class="noscript-note">Suche, Filter und Sortierung benötigen JavaScript. Ohne JavaScript werden die Einträge mit der kürzesten Lebensdauer zuerst angezeigt.</p></noscript>
   </section>
 
@@ -453,6 +456,7 @@ const DISPLAY_CAP = 250;
     const list = document.querySelector<HTMLElement>('.lifespan-list');
     const results = document.querySelector<HTMLElement>('.lifespan-results');
     const emptyState = document.querySelector<HTMLElement>('.lifespan-empty');
+    const clearButton = document.querySelector<HTMLButtonElement>('.lifespan-clear');
     const rows = Array.from(document.querySelectorAll<HTMLElement>('.lifespan-entry'));
     type LifespanSort = 'shortest' | 'longest' | 'newest' | 'oldest';
     let currentSort: LifespanSort = 'shortest';
@@ -513,6 +517,13 @@ const DISPLAY_CAP = 250;
     const requestedStatus = url.searchParams.get('status') ?? '';
     if (statusSelect && [...statusSelect.options].some((option) => option.value === requestedStatus)) statusSelect.value = requestedStatus;
     if (sortSelect) sortSelect.value = currentSort;
+    clearButton?.addEventListener('click', () => {
+      if (searchInput) searchInput.value = '';
+      if (categorySelect) categorySelect.value = '';
+      if (statusSelect) statusSelect.value = '';
+      updateDisplay();
+    });
+
     searchInput?.addEventListener('input', updateDisplay);
     categorySelect?.addEventListener('change', updateDisplay);
     statusSelect?.addEventListener('change', updateDisplay);
@@ -606,6 +617,8 @@ const DISPLAY_CAP = 250;
   .start-dot, .end-dot { position: absolute; top: 50%; width: .72rem; height: .72rem; border: 2px solid var(--card); border-radius: 50%; background: var(--accent-dark); transform: translateY(-50%); box-shadow: 0 0 0 1px var(--accent-dark); }
   .start-dot { left: 0; transform: translate(-10%,-50%); } .end-dot { right: 0; transform: translate(10%,-50%); }
   .lifespan-empty, .noscript-note { padding: 1rem; border: 1px solid var(--line); background: var(--card); color: var(--muted); }
+  .lifespan-empty p { margin: 0 0 .6rem; }
+  .lifespan-clear { border: 0; padding: 0; color: var(--accent-dark); background: transparent; font: inherit; font-weight: 800; cursor: pointer; text-decoration: underline; text-underline-offset: .18em; }
   .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 
   @media (max-width: 900px) {

@@ -95,10 +95,10 @@ const decades = [...new Set(items.map(({ entry }) => decadeFor(entry.data.timeli
 
       <p class="results-summary" aria-live="polite">Alle {items.length} Einträge werden angezeigt</p>
 
-      <div class="filter-panel" id="timeline-filter-panel" hidden>
+      <div class="filter-panel" id="timeline-filter-panel" hidden role="dialog" aria-labelledby="timeline-filter-title-de">
         <div class="filter-panel-header">
           <div>
-            <p class="filter-label">Zeitleiste filtern</p>
+            <p class="filter-label" id="timeline-filter-title-de">Zeitleiste filtern</p>
             <p class="filter-help">Kategorien und Status lassen sich beliebig kombinieren.</p>
           </div>
           <button class="filter-close" type="button" aria-label="Filter schließen">×</button>
@@ -152,7 +152,7 @@ const decades = [...new Set(items.map(({ entry }) => decadeFor(entry.data.timeli
       return (
         <section class="decade-group" data-decade={decade}>
           <header class="decade-heading">
-            <p>{formatDecadeDe(decade)}</p><span aria-hidden="true"></span>
+            <h2>{formatDecadeDe(decade)}</h2><span aria-hidden="true"></span>
           </header>
 
           <div class="decade-entries">
@@ -170,7 +170,7 @@ const decades = [...new Set(items.map(({ entry }) => decadeFor(entry.data.timeli
                 </div>
 
                 <div class="timeline-content">
-                  <h2><a href={`/de/entries/${entry.id}/`}>{translation.data.claim}</a></h2>
+                  <h3><a href={`/de/entries/${entry.id}/`}>{translation.data.claim}</a></h3>
                   <p class="timeline-meta">
                     <span>{categoryLabel(entry.data.category, 'de')}</span>
                     <span aria-hidden="true">·</span>
@@ -187,7 +187,10 @@ const decades = [...new Set(items.map(({ entry }) => decadeFor(entry.data.timeli
     })}
   </div>
 
-  <p class="container empty-state" hidden>Keine Einträge entsprechen diesen Filtern.</p>
+  <div class="container empty-state" hidden>
+    <p>Keine Einträge entsprechen diesen Filtern.</p>
+    <button class="empty-reset" type="button">Gesamte Zeitleiste anzeigen</button>
+  </div>
 
   <noscript>
     <p class="container noscript-note">
@@ -213,6 +216,7 @@ const decades = [...new Set(items.map(({ entry }) => decadeFor(entry.data.timeli
     const schoolContext = document.querySelector<HTMLElement>('.school-context');
     const schoolContextTitle = document.querySelector<HTMLElement>('.school-context-title');
     const clearSinceButton = document.querySelector<HTMLButtonElement>('.clear-since');
+    const emptyResetButton = document.querySelector<HTMLButtonElement>('.empty-reset');
 
     const selectedCategories = new Set<string>();
     const selectedStatuses = new Set<string>();
@@ -402,8 +406,37 @@ const decades = [...new Set(items.map(({ entry }) => decadeFor(entry.data.timeli
     applyButton?.addEventListener('click', () => closeFilters());
     clearButtons.forEach((button) => button.addEventListener('click', clearFilters));
     clearSinceButton?.addEventListener('click', () => { sinceYear = null; updateDisplay(); });
+    emptyResetButton?.addEventListener('click', () => {
+      selectedCategories.clear();
+      selectedStatuses.clear();
+      sinceYear = null;
+      if (searchInput) searchInput.value = '';
+      updateDisplay();
+    });
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && filterPanel && !filterPanel.hidden) closeFilters();
+    });
+
+    filterPanel?.addEventListener('keydown', (event) => {
+      if (event.key !== 'Tab' || !window.matchMedia('(max-width: 760px)').matches) return;
+
+      const focusable = Array.from(
+        filterPanel.querySelectorAll<HTMLElement>(
+          'button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])'
+        )
+      ).filter((element) => !element.hasAttribute('hidden'));
+
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
     });
 
     const url = new URL(window.location.href);
@@ -471,17 +504,19 @@ const decades = [...new Set(items.map(({ entry }) => decadeFor(entry.data.timeli
   .decade-group { margin-bottom: 3.75rem; }
   .decade-group[hidden], .timeline-entry[hidden] { display: none; }
   .decade-heading { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 1rem; margin-bottom: .5rem; }
-  .decade-heading p { margin: 0; font-size: clamp(1.65rem,3vw,2.35rem); font-weight: 900; letter-spacing: -.04em; }
+  .decade-heading h2 { margin: 0; font-size: clamp(1.65rem,3vw,2.35rem); font-weight: 900; letter-spacing: -.04em; }
   .decade-heading span { height: 1px; background: var(--line); }
   .timeline-entry { display: grid; grid-template-columns: 7rem minmax(0,1fr); gap: 1.5rem; padding: 1.35rem 0; border-bottom: 1px solid var(--line); }
   .timeline-year { padding-top: .15rem; color: var(--accent-dark); font-size: 1.2rem; line-height: 1; font-weight: 900; font-variant-numeric: tabular-nums; }
-  .timeline-content h2 { max-width: 42ch; margin: 0 0 .35rem; font-size: clamp(1.25rem,2.4vw,1.8rem); }
-  .timeline-content h2 a { text-decoration-thickness: .08em; text-underline-offset: .16em; text-decoration-color: color-mix(in srgb,var(--accent) 45%,transparent); }
-  .timeline-content h2 a:hover { color: var(--accent-dark); }
+  .timeline-content h3 { max-width: 42ch; margin: 0 0 .35rem; font-size: clamp(1.25rem,2.4vw,1.8rem); }
+  .timeline-content h3 a { text-decoration-thickness: .08em; text-underline-offset: .16em; text-decoration-color: color-mix(in srgb,var(--accent) 45%,transparent); }
+  .timeline-content h3 a:hover { color: var(--accent-dark); }
   .timeline-meta { display: flex; gap: .45rem; flex-wrap: wrap; margin: 0 0 .45rem; color: var(--muted); font-size: .86rem; font-weight: 700; }
   .timeline-summary { margin: 0; max-width: 68ch; }
   .change-period { margin: .55rem 0 0; color: var(--muted); font-size: .84rem; }
   .empty-state { margin: 3rem auto 5rem; padding: 2rem; border: 1px dashed var(--line); color: var(--muted); text-align: center; }
+  .empty-state p { margin: 0 auto .65rem; }
+  .empty-reset { border: 0; color: var(--accent-dark); background: transparent; font: inherit; font-weight: 800; cursor: pointer; text-decoration: underline; text-underline-offset: .18em; }
   .noscript-note { margin-bottom: 3rem; color: var(--muted); }
 
   @media (max-width: 760px) {

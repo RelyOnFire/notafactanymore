@@ -14,9 +14,12 @@ interface Props {
   expanded?: boolean;
   locale?: SiteLocale;
   translation?: EntryTranslation;
+  headingLevel?: 1 | 2 | 3;
 }
 
-const { entry, expanded = false, locale = 'en', translation } = Astro.props;
+const { entry, expanded = false, locale = 'en', translation, headingLevel = 2 } = Astro.props;
+const Heading = `h${headingLevel}` as 'h1' | 'h2' | 'h3';
+const Subheading = `h${Math.min(headingLevel + 1, 4)}` as 'h2' | 'h3' | 'h4';
 const { data } = entry;
 const translated = locale === 'de' ? translation?.data : undefined;
 const lifespan = lifespanYears(data.acceptedYear, data.timelineYear);
@@ -54,17 +57,17 @@ const labels = locale === 'de'
 ---
 <article class:list={["fact-card", { expanded }]}>
   <p class="stamp">{labels.stamp}</p>
-  <h2><a href={entryHref}>{translated?.claim ?? data.claim}</a></h2>
+  <Heading class="fact-title"><a href={entryHref}>{translated?.claim ?? data.claim}</a></Heading>
 
   <div class="explanation-grid">
     <section>
-      <h3>{labels.now}</h3>
+      <Subheading class="fact-subheading">{labels.now}</Subheading>
       <p>{translated?.currentUnderstanding ?? data.currentUnderstanding}</p>
     </section>
 
     {expanded && (
       <section>
-        <h3>{labels.why}</h3>
+        <Subheading class="fact-subheading">{labels.why}</Subheading>
         <p>{translated?.whyItChanged ?? data.whyItChanged}</p>
       </section>
     )}
@@ -99,21 +102,21 @@ const labels = locale === 'de'
     color: var(--accent-dark);
   }
 
-  h2 {
+  .fact-title {
     margin: 0 0 2rem;
     font-size: clamp(1.65rem, 4vw, 2.55rem);
     max-width: 38ch;
   }
 
-  h2 a {
+  .fact-title a {
     text-decoration: none;
   }
 
-  h2 a:hover {
+  .fact-title a:hover {
     color: var(--accent-dark);
   }
 
-  h3 {
+  .fact-subheading {
     margin: 1.5rem 0 .25rem;
     font-size: .8rem;
     text-transform: uppercase;
@@ -190,7 +193,7 @@ const labels = locale === 'de'
       align-items: start;
     }
 
-    .expanded .explanation-grid h3 {
+    .expanded .explanation-grid .fact-subheading {
       margin-top: 0;
     }
 

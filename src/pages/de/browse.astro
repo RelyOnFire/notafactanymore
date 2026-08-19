@@ -120,11 +120,12 @@ const statuses = [...new Set(items.map(({ entry }) => entry.data.status))]
         class="filter-panel"
         id="catalogue-filter-panel"
         hidden
-        aria-label="Katalog filtern"
+        role="dialog"
+        aria-labelledby="catalogue-filter-title-de"
       >
         <div class="filter-panel-header">
           <div>
-            <p class="filter-label">Katalog filtern</p>
+            <p class="filter-label" id="catalogue-filter-title-de">Katalog filtern</p>
             <p class="filter-help">Kategorien und Status lassen sich beliebig kombinieren.</p>
           </div>
           <button class="filter-close" type="button" aria-label="Filter schließen">×</button>
@@ -224,7 +225,10 @@ const statuses = [...new Set(items.map(({ entry }) => entry.data.status))]
     ))}
   </section>
 
-  <p class="container empty-state" hidden>Keine Einträge entsprechen diesen Filtern.</p>
+  <div class="container empty-state" hidden>
+    <p>Keine Einträge entsprechen diesen Filtern.</p>
+    <button class="clear-filters empty-clear" type="button">Alle löschen</button>
+  </div>
 
   <noscript>
     <p class="container noscript-note">
@@ -431,6 +435,7 @@ const statuses = [...new Set(items.map(({ entry }) => entry.data.status))]
     const clearFilters = () => {
       selectedCategories.clear();
       selectedStatuses.clear();
+      if (searchInput) searchInput.value = '';
       updateDisplay();
     };
 
@@ -458,6 +463,28 @@ const statuses = [...new Set(items.map(({ entry }) => entry.data.status))]
     clearButtons.forEach((button) => button.addEventListener('click', clearFilters));
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && filterPanel && !filterPanel.hidden) closeFilters();
+    });
+
+    filterPanel?.addEventListener('keydown', (event) => {
+      if (event.key !== 'Tab' || !window.matchMedia('(max-width: 760px)').matches) return;
+
+      const focusable = Array.from(
+        filterPanel.querySelectorAll<HTMLElement>(
+          'button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])'
+        )
+      ).filter((element) => !element.hasAttribute('hidden'));
+
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
     });
 
     const url = new URL(window.location.href);
@@ -533,6 +560,8 @@ const statuses = [...new Set(items.map(({ entry }) => entry.data.status))]
   .catalogue-compact { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .55rem; }
   .catalogue[hidden], .entry-wrapper[hidden] { display: none; }
   .empty-state { margin: 3rem auto 5rem; padding: 2rem; border: 1px dashed var(--line); color: var(--muted); text-align: center; }
+  .empty-state p { margin: 0 auto .65rem; }
+  .empty-clear { display: inline-block; }
   .noscript-note { margin-bottom: 3rem; color: var(--muted); }
 
   @media (max-width: 900px) {

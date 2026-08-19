@@ -113,11 +113,12 @@ const statuses = [
         class="filter-panel"
         id="catalogue-filter-panel"
         hidden
-        aria-label="Filter catalogue"
+        role="dialog"
+        aria-labelledby="catalogue-filter-title"
       >
         <div class="filter-panel-header">
           <div>
-            <p class="filter-label">Filter the catalogue</p>
+            <p class="filter-label" id="catalogue-filter-title">Filter the catalogue</p>
             <p class="filter-help">Choose any combination of categories and statuses.</p>
           </div>
           <button class="filter-close" type="button" aria-label="Close filters">×</button>
@@ -213,7 +214,10 @@ const statuses = [
     ))}
   </section>
 
-  <p class="container empty-state" hidden>No entries match those filters.</p>
+  <div class="container empty-state" hidden>
+    <p>No entries match those filters.</p>
+    <button class="clear-filters empty-clear" type="button">Clear all</button>
+  </div>
 
   <noscript>
     <p class="container noscript-note">
@@ -491,6 +495,7 @@ const statuses = [
     const clearFilters = () => {
       selectedCategories.clear();
       selectedStatuses.clear();
+      if (searchInput) searchInput.value = '';
       updateDisplay();
     };
 
@@ -540,6 +545,28 @@ const statuses = [
 
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && filterPanel && !filterPanel.hidden) closeFilters();
+    });
+
+    filterPanel?.addEventListener('keydown', (event) => {
+      if (event.key !== 'Tab' || !window.matchMedia('(max-width: 760px)').matches) return;
+
+      const focusable = Array.from(
+        filterPanel.querySelectorAll<HTMLElement>(
+          'button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])'
+        )
+      ).filter((element) => !element.hasAttribute('hidden'));
+
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
     });
 
     const url = new URL(window.location.href);
@@ -967,6 +994,14 @@ const statuses = [
     border: 1px dashed var(--line);
     color: var(--muted);
     text-align: center;
+  }
+
+  .empty-state p {
+    margin: 0 auto 0.65rem;
+  }
+
+  .empty-clear {
+    display: inline-block;
   }
 
   .noscript-note {

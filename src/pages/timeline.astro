@@ -92,10 +92,10 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
 
       <p class="results-summary" aria-live="polite">Showing all {entries.length} entries</p>
 
-      <div class="filter-panel" id="timeline-filter-panel" hidden>
+      <div class="filter-panel" id="timeline-filter-panel" hidden role="dialog" aria-labelledby="timeline-filter-title">
         <div class="filter-panel-header">
           <div>
-            <p class="filter-label">Filter the timeline</p>
+            <p class="filter-label" id="timeline-filter-title">Filter the timeline</p>
             <p class="filter-help">Choose any combination of categories and statuses.</p>
           </div>
           <button class="filter-close" type="button" aria-label="Close filters">×</button>
@@ -162,7 +162,7 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
       return (
         <section class="decade-group" data-decade={decade}>
           <header class="decade-heading">
-            <p>{formatDecade(decade)}</p>
+            <h2>{formatDecade(decade)}</h2>
             <span aria-hidden="true"></span>
           </header>
 
@@ -181,9 +181,9 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
                 </div>
 
                 <div class="timeline-content">
-                  <h2>
+                  <h3>
                     <a href={`/entries/${entry.id}/`}>{entry.data.claim}</a>
-                  </h2>
+                  </h3>
 
                   <p class="timeline-meta">
                     <span>{entry.data.category}</span>
@@ -205,7 +205,10 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     })}
   </div>
 
-  <p class="container empty-state" hidden>No entries match those filters.</p>
+  <div class="container empty-state" hidden>
+    <p>No entries match those filters.</p>
+    <button class="empty-reset" type="button">Show the full timeline</button>
+  </div>
 
   <noscript>
     <p class="container noscript-note">
@@ -236,6 +239,7 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     const schoolContext = document.querySelector<HTMLElement>('.school-context');
     const schoolContextTitle = document.querySelector<HTMLElement>('.school-context-title');
     const clearSinceButton = document.querySelector<HTMLButtonElement>('.clear-since');
+    const emptyResetButton = document.querySelector<HTMLButtonElement>('.empty-reset');
 
     const selectedCategories = new Set<string>();
     const selectedStatuses = new Set<string>();
@@ -527,8 +531,38 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
       updateDisplay();
     });
 
+    emptyResetButton?.addEventListener('click', () => {
+      selectedCategories.clear();
+      selectedStatuses.clear();
+      sinceYear = null;
+      if (searchInput) searchInput.value = '';
+      updateDisplay();
+    });
+
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && filterPanel && !filterPanel.hidden) closeFilters();
+    });
+
+    filterPanel?.addEventListener('keydown', (event) => {
+      if (event.key !== 'Tab' || !window.matchMedia('(max-width: 760px)').matches) return;
+
+      const focusable = Array.from(
+        filterPanel.querySelectorAll<HTMLElement>(
+          'button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])'
+        )
+      ).filter((element) => !element.hasAttribute('hidden'));
+
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
     });
 
     const url = new URL(window.location.href);
@@ -924,7 +958,7 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     margin-bottom: 0.5rem;
   }
 
-  .decade-heading p {
+  .decade-heading h2 {
     margin: 0;
     font-size: clamp(1.65rem, 3vw, 2.35rem);
     font-weight: 900;
@@ -957,19 +991,19 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     font-variant-numeric: tabular-nums;
   }
 
-  .timeline-content h2 {
+  .timeline-content h3 {
     max-width: 42ch;
     margin: 0 0 0.35rem;
     font-size: clamp(1.25rem, 2.4vw, 1.8rem);
   }
 
-  .timeline-content h2 a {
+  .timeline-content h3 a {
     text-decoration-thickness: 0.08em;
     text-underline-offset: 0.16em;
     text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent);
   }
 
-  .timeline-content h2 a:hover {
+  .timeline-content h3 a:hover {
     color: var(--accent-dark);
   }
 
@@ -1000,6 +1034,18 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     border: 1px dashed var(--line);
     color: var(--muted);
     text-align: center;
+  }
+
+  .empty-state p { margin: 0 auto 0.65rem; }
+  .empty-reset {
+    border: 0;
+    color: var(--accent-dark);
+    background: transparent;
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
   }
 
   .noscript-note {

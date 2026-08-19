@@ -32,7 +32,7 @@ const groupedSources = entry.data.sources.reduce<Record<string, typeof entry.dat
   alternatePath={hasGermanTranslation ? `/de/entries/${entry.id}/` : undefined}
 >
   <div class="narrow entry-page">
-    <FactCard entry={entry} expanded />
+    <FactCard entry={entry} expanded headingLevel={1} />
 
     <article class="context prose">
       <Content />

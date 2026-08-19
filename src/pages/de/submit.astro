@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { siteConfig } from '../../site-config';
-const repoReady = siteConfig.githubOwner !== 'YOUR_GITHUB_USERNAME';
+import SubmissionForm from '../../components/SubmissionForm.astro';
 ---
 <BaseLayout locale="de" title="Beitrag vorschlagen" alternatePath="/submit">
   <div class="narrow submit-page">
@@ -9,49 +8,12 @@ const repoReady = siteConfig.githubOwner !== 'YOUR_GITHUB_USERNAME';
     <h1>Beitrag vorschlagen</h1>
     <p class="lead">Vorschläge werden nicht automatisch veröffentlicht. Bitte liefere sowohl Belege dafür, dass die frühere Aussage tatsächlich akzeptiert war, als auch dafür, dass die heutige Auffassung besser gestützt ist.</p>
 
-    {!repoReady && <div class="setup-warning"><strong>Einrichtung erforderlich:</strong> Ersetze <code>YOUR_GITHUB_USERNAME</code> in <code>src/site-config.ts</code>. Bis dahin kann das Formular kein GitHub-Issue öffnen.</div>}
-
-    <form id="submission-form">
-      <label>Früher akzeptierte Aussage<textarea name="oldClaim" required></textarea></label>
-      <label>Was wissen wir heute?<textarea name="current" required></textarea></label>
-      <label>Warum hat sich die Auffassung geändert?<textarea name="why" required></textarea></label>
-      <div class="two">
-        <label>Kategorie<input name="category" required placeholder="Medizin, Astronomie, Biologie…" /></label>
-        <label>Vorgeschlagener Status<select name="status"><option value="Overturned">Widerlegt</option><option value="Superseded" selected>Abgelöst</option><option value="Narrowed">Eingeschränkt</option><option value="Reclassified">Neu eingeordnet</option><option value="Corrected">Korrigiert</option></select></label>
-      </div>
-      <label>Belege dafür, dass die frühere Aussage akzeptiert war<textarea name="oldEvidence" required placeholder="Quellentitel und URLs"></textarea></label>
-      <label>Belege für die heutige Auffassung<textarea name="newEvidence" required placeholder="Quellentitel und URLs"></textarea></label>
-      <label>Wichtige Einschränkungen oder Unsicherheiten<textarea name="qualifications"></textarea></label>
-      <button class="button" type="submit" disabled={!repoReady}>Vorschlag in GitHub öffnen</button>
-      <p class="help">Dadurch wird ein vorausgefülltes GitHub-Issue geöffnet. Vor dem Absenden kannst du alles noch einmal prüfen.</p>
-    </form>
+    <SubmissionForm locale="de" />
   </div>
 </BaseLayout>
-
-<script define:vars={{ owner: siteConfig.githubOwner, repo: siteConfig.githubRepo }}>
-  const form = document.querySelector('#submission-form');
-  form?.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const data = new FormData(form);
-    const value = (name) => String(data.get(name) || '').trim();
-    const body = `## Formerly accepted claim\n${value('oldClaim')}\n\n## What is understood now?\n${value('current')}\n\n## Why did it change?\n${value('why')}\n\n## Classification\n- **Category:** ${value('category')}\n- **Suggested status:** ${value('status')}\n\n## Evidence the old claim was accepted\n${value('oldEvidence')}\n\n## Evidence for the current understanding\n${value('newEvidence')}\n\n## Qualifications or uncertainty\n${value('qualifications') || 'None provided.'}\n\n---\nSubmitted through the German version of notafactanymore.com. Publication requires editorial review.`;
-    const title = `[Submission] ${value('oldClaim').slice(0, 90)}`;
-    const url = `https://github.com/${owner}/${repo}/issues/new?labels=submission&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
-    window.location.href = url;
-  });
-</script>
 
 <style>
   .submit-page { padding: 5rem 0; }
   .submit-page h1 { margin: .2rem 0 1rem; }
   .lead { color: var(--muted); font-size: 1.2rem; }
-  .setup-warning { background: #fff0c9; border: 1px solid #d8b85b; padding: 1rem; margin: 2rem 0; }
-  form { margin-top: 2.5rem; }
-  label { display: block; font-weight: 800; margin: 1.25rem 0; }
-  textarea, input, select { width: 100%; display: block; margin-top: .4rem; border: 1px solid var(--line); background: var(--card); padding: .8rem; border-radius: .35rem; font: inherit; }
-  textarea { min-height: 8rem; resize: vertical; }
-  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-  .help { color: var(--muted); font-size: .9rem; }
-  button:disabled { opacity: .45; cursor: not-allowed; }
-  @media (max-width: 650px) { .two { grid-template-columns: 1fr; gap: 0; } }
 </style>

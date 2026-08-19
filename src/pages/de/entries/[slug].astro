@@ -39,7 +39,7 @@ const groupedSources = sourcesWithIndex.reduce<Record<string, typeof sourcesWith
   alternatePath={`/entries/${entry.id}/`}
 >
   <div class="narrow entry-page">
-    <FactCard entry={entry} translation={translation} locale="de" expanded />
+    <FactCard entry={entry} translation={translation} locale="de" expanded headingLevel={1} />
 
     <article class="context prose">
       <Content />

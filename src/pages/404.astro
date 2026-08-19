@@ -3,10 +3,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="Page not found | Not a Fact Anymore"
+  title="Page not found"
   description="The page you requested could not be found."
 >
-  <main class="not-found">
+  <article class="not-found">
     <div class="status">404</div>
 
     <p class="eyebrow">NOT A PAGE ANYMORE</p>
@@ -22,7 +22,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <a class="primary-action" href="/">Return home</a>
       <a class="secondary-action" href="/browse/">Browse the catalogue</a>
     </div>
-  </main>
+  </article>
 </BaseLayout>
 
 <style>
@@ -82,8 +82,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
   .primary-action {
     color: white;
-    background: #111;
-    border-color: #111;
+    background: var(--ink);
+    border-color: var(--ink);
   }
 
   .secondary-action {

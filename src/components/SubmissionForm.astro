@@ -1,0 +1,243 @@
+---
+import { getCollection } from 'astro:content';
+import { siteConfig } from '../site-config';
+import { categoryLabel, type SiteLocale } from '../lib/i18n';
+
+interface Props {
+  locale?: SiteLocale;
+}
+
+const { locale = 'en' } = Astro.props;
+const repoReady = siteConfig.githubOwner !== 'YOUR_GITHUB_USERNAME';
+const entries = await getCollection('entries');
+const categories = [...new Set(entries.map((entry) => entry.data.category))].sort((a, b) =>
+  locale === 'de'
+    ? categoryLabel(a, 'de').localeCompare(categoryLabel(b, 'de'), 'de')
+    : a.localeCompare(b, 'en', { sensitivity: 'base' })
+);
+
+const labels = locale === 'de'
+  ? {
+      setupStrong: 'Einrichtung erforderlich:',
+      setupBefore: 'Ersetze',
+      setupAfter: 'in',
+      setupEnd: 'Bis dahin kann das Formular kein GitHub-Issue öffnen.',
+      claimGroup: 'Aussage',
+      classificationGroup: 'Einordnung',
+      evidenceGroup: 'Belege',
+      oldClaim: 'Früher akzeptierte Aussage',
+      current: 'Was wissen wir heute?',
+      why: 'Warum hat sich die Auffassung geändert?',
+      category: 'Kategorie',
+      other: 'Sonstiges',
+      otherCategory: 'Andere Kategorie',
+      status: 'Vorgeschlagener Status',
+      oldEvidence: 'Belege dafür, dass die frühere Aussage akzeptiert war',
+      newEvidence: 'Belege für die heutige Auffassung',
+      qualifications: 'Wichtige Einschränkungen oder Unsicherheiten',
+      sourcePlaceholder: 'Quellentitel und URLs',
+      submit: 'Vorschlag in GitHub öffnen',
+      help: 'Dadurch wird ein vorausgefülltes GitHub-Issue geöffnet. Vor dem Absenden kannst du alles noch einmal prüfen.',
+    }
+  : {
+      setupStrong: 'Owner setup needed:',
+      setupBefore: 'replace',
+      setupAfter: 'in',
+      setupEnd: 'Until then, the form cannot open a GitHub issue.',
+      claimGroup: 'Claim',
+      classificationGroup: 'Classification',
+      evidenceGroup: 'Evidence',
+      oldClaim: 'Formerly accepted claim',
+      current: 'What is understood now?',
+      why: 'Why did the understanding change?',
+      category: 'Category',
+      other: 'Other',
+      otherCategory: 'Other category',
+      status: 'Suggested status',
+      oldEvidence: 'Evidence the old claim was accepted',
+      newEvidence: 'Evidence for the current understanding',
+      qualifications: 'Important qualifications or uncertainty',
+      sourcePlaceholder: 'Source titles and URLs',
+      submit: 'Open submission in GitHub',
+      help: 'This opens a pre-filled GitHub issue. You can review everything before submitting it.',
+    };
+
+const statusOptions = locale === 'de'
+  ? [
+      ['Overturned', 'Widerlegt'],
+      ['Superseded', 'Abgelöst'],
+      ['Narrowed', 'Eingeschränkt'],
+      ['Reclassified', 'Neu eingeordnet'],
+      ['Corrected', 'Korrigiert'],
+    ]
+  : [
+      ['Overturned', 'Overturned'],
+      ['Superseded', 'Superseded'],
+      ['Narrowed', 'Narrowed'],
+      ['Reclassified', 'Reclassified'],
+      ['Corrected', 'Corrected'],
+    ];
+---
+
+{!repoReady && (
+  <div class="setup-warning">
+    <strong>{labels.setupStrong}</strong> {labels.setupBefore} <code>YOUR_GITHUB_USERNAME</code> {labels.setupAfter} <code>src/site-config.ts</code>. {labels.setupEnd}
+  </div>
+)}
+
+<form id="submission-form">
+  <fieldset>
+    <legend>{labels.claimGroup}</legend>
+    <label>{labels.oldClaim}<textarea name="oldClaim" required></textarea></label>
+    <label>{labels.current}<textarea name="current" required></textarea></label>
+    <label>{labels.why}<textarea name="why" required></textarea></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>{labels.classificationGroup}</legend>
+    <div class="two">
+      <label>
+        {labels.category}
+        <select name="category" required>
+          <option value="" selected disabled></option>
+          {categories.map((category) => (
+            <option value={category}>{locale === 'de' ? categoryLabel(category, 'de') : category}</option>
+          ))}
+          <option value="__other__">{labels.other}</option>
+        </select>
+      </label>
+      <label>
+        {labels.status}
+        <select name="status">
+          {statusOptions.map(([value, label]) => (
+            <option value={value} selected={value === 'Superseded'}>{label}</option>
+          ))}
+        </select>
+      </label>
+    </div>
+    <label class="other-category" hidden>{labels.otherCategory}<input name="categoryOther" /></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>{labels.evidenceGroup}</legend>
+    <label>{labels.oldEvidence}<textarea name="oldEvidence" required placeholder={labels.sourcePlaceholder}></textarea></label>
+    <label>{labels.newEvidence}<textarea name="newEvidence" required placeholder={labels.sourcePlaceholder}></textarea></label>
+    <label>{labels.qualifications}<textarea name="qualifications"></textarea></label>
+  </fieldset>
+
+  <button class="button" type="submit" disabled={!repoReady}>{labels.submit}</button>
+  <p class="help">{labels.help}</p>
+</form>
+
+<script define:vars={{ owner: siteConfig.githubOwner, repo: siteConfig.githubRepo, locale }}>
+  const form = document.querySelector('#submission-form');
+  const categorySelect = form?.querySelector('select[name="category"]');
+  const otherCategoryLabel = form?.querySelector('.other-category');
+  const otherCategoryInput = form?.querySelector('input[name="categoryOther"]');
+
+  const syncOtherCategory = () => {
+    const otherSelected = categorySelect?.value === '__other__';
+    if (otherCategoryLabel) otherCategoryLabel.hidden = !otherSelected;
+    if (otherCategoryInput) {
+      otherCategoryInput.required = Boolean(otherSelected);
+      if (!otherSelected) otherCategoryInput.value = '';
+    }
+  };
+
+  categorySelect?.addEventListener('change', syncOtherCategory);
+  syncOtherCategory();
+
+  form?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const data = new FormData(form);
+    const value = (name) => String(data.get(name) || '').trim();
+    const category = value('category') === '__other__' ? value('categoryOther') : value('category');
+    const footer = locale === 'de'
+      ? 'Submitted through the German version of notafactanymore.com. Publication requires editorial review.'
+      : 'Submitted through notafactanymore.com. Publication requires editorial review.';
+    const body = `## Formerly accepted claim\n${value('oldClaim')}\n\n## What is understood now?\n${value('current')}\n\n## Why did it change?\n${value('why')}\n\n## Classification\n- **Category:** ${category}\n- **Suggested status:** ${value('status')}\n\n## Evidence the old claim was accepted\n${value('oldEvidence')}\n\n## Evidence for the current understanding\n${value('newEvidence')}\n\n## Qualifications or uncertainty\n${value('qualifications') || 'None provided.'}\n\n---\n${footer}`;
+    const title = `[Submission] ${value('oldClaim').slice(0, 90)}`;
+    const url = `https://github.com/${owner}/${repo}/issues/new?labels=submission&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+    window.location.href = url;
+  });
+</script>
+
+<style>
+  .setup-warning {
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 1px solid #d8b85b;
+    background: #fff0c9;
+  }
+
+  form {
+    margin-top: 2.5rem;
+  }
+
+  fieldset {
+    margin: 0 0 1.25rem;
+    padding: 1.2rem 1.25rem 0.35rem;
+    border: 1px solid var(--line);
+    background: color-mix(in srgb, var(--card) 72%, transparent);
+  }
+
+  legend {
+    padding: 0 0.4rem;
+    font-weight: 850;
+  }
+
+  label {
+    display: block;
+    margin: 1rem 0;
+    font-weight: 800;
+  }
+
+  textarea,
+  input,
+  select {
+    display: block;
+    width: 100%;
+    margin-top: 0.4rem;
+    padding: 0.8rem;
+    border: 1px solid var(--line);
+    border-radius: 0.35rem;
+    background: var(--card);
+    font: inherit;
+  }
+
+  textarea {
+    min-height: 8rem;
+    resize: vertical;
+  }
+
+  .two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .other-category[hidden] {
+    display: none;
+  }
+
+  .help {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  button:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+
+  @media (max-width: 650px) {
+    fieldset {
+      padding-inline: 1rem;
+    }
+
+    .two {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+  }
+</style>

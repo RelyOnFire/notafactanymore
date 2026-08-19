@@ -512,7 +512,10 @@ const DISPLAY_CAP = 250;
       })}
     </div>
 
-    <p class="lifespan-empty" hidden>No entries match those filters.</p>
+    <div class="lifespan-empty" hidden>
+      <p>No entries match those filters.</p>
+      <button class="lifespan-clear" type="button">Clear filters</button>
+    </div>
 
     <noscript>
       <p class="noscript-note">
@@ -629,6 +632,7 @@ const DISPLAY_CAP = 250;
     const list = document.querySelector<HTMLElement>('.lifespan-list');
     const results = document.querySelector<HTMLElement>('.lifespan-results');
     const emptyState = document.querySelector<HTMLElement>('.lifespan-empty');
+    const clearButton = document.querySelector<HTMLButtonElement>('.lifespan-clear');
 
     const rows = Array.from(
       document.querySelectorAll<HTMLElement>('.lifespan-entry')
@@ -740,6 +744,13 @@ const DISPLAY_CAP = 250;
     }
 
     if (sortSelect) sortSelect.value = currentSort;
+
+    clearButton?.addEventListener('click', () => {
+      if (searchInput) searchInput.value = '';
+      if (categorySelect) categorySelect.value = '';
+      if (statusSelect) statusSelect.value = '';
+      updateDisplay();
+    });
 
     searchInput?.addEventListener('input', updateDisplay);
     categorySelect?.addEventListener('change', updateDisplay);
@@ -1275,6 +1286,19 @@ const DISPLAY_CAP = 250;
     border: 1px solid var(--line);
     background: var(--card);
     color: var(--muted);
+  }
+
+  .lifespan-empty p { margin: 0 0 0.6rem; }
+  .lifespan-clear {
+    border: 0;
+    padding: 0;
+    color: var(--accent-dark);
+    background: transparent;
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
   }
 
   .sr-only {

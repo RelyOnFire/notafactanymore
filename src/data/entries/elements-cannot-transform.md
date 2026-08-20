@@ -11,7 +11,7 @@ timelineYear: 1902
 summary: "Radioactivity and nuclear reactions revived transmutation as an experimentally verified process."
 featured: false
 publishedAt: "2026-07-24"
-reviewedAt: "2026-07-24"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Award ceremony speech: Nobel Prize in Chemistry 1908"
     url: "https://www.nobelprize.org/prizes/chemistry/1908/ceremony-speech/"
@@ -32,6 +32,12 @@ sources:
     note: "Describes Rutherford's artificial conversion of nitrogen into oxygen and later accelerator-driven transmutations."
 ---
 
-Modern nuclear transmutation is real but does not validate the alchemical belief that ordinary chemical treatment can cheaply turn bulk lead into gold.
+Modern chemistry was built partly by rejecting alchemical transmutation. By the nineteenth century, an element was treated as a chemically fundamental substance: reactions could combine and separate elements, but ordinary chemical processes did not turn one element into another. That stability helped make the periodic table possible.
 
-Chemical reactions rearrange electrons; transmutation requires a change in the atomic nucleus.
+Radioactivity broke the rule. Studying radioactive materials around 1902, Ernest Rutherford and Frederick Soddy concluded that atoms were spontaneously disintegrating and producing substances with different chemical identities. The idea sounded uncomfortably close to transmutation, but the evidence showed that the change was real.
+
+Rutherford later demonstrated an artificial nuclear transformation by bombarding nitrogen and producing oxygen. Subsequent nuclear physics made transmutation routine in reactors and accelerators and created elements not previously known on Earth.
+
+The crucial distinction is the **atomic nucleus**. Chemical reactions rearrange electrons and bonds while leaving the proton count unchanged. Nuclear decay or reactions can change that proton count, and therefore the identity of the element.
+
+This does not vindicate the old alchemical expectation that bulk lead can be cheaply converted into gold by ordinary chemical treatment. Nuclear transmutation is real, but it operates through entirely different physics.

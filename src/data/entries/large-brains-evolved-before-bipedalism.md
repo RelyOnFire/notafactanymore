@@ -11,7 +11,7 @@ timelineYear: 1950
 summary: "Small-brained australopithecines showed that walking on two legs preceded major human brain expansion."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Introduction to Human Evolution"
     url: "https://humanorigins.si.edu/education/introduction-human-evolution"
@@ -30,6 +30,12 @@ sources:
     note: "Summarizes evidence of regular bipedal walking in a hominin living more than four million years ago."
 ---
 
-The order of traits is not a single switch. Bipedal anatomy evolved gradually, and brain size also changed unevenly across different lineages.
+Early theories of human origins often made intelligence the decisive first step. A larger brain seemed the obvious trait that would free the hands, enable tools and set the human lineage on a different evolutionary path, so brain expansion was frequently imagined as preceding fully upright walking.
 
-The corrected sequence is nevertheless clear at broad scale: substantial adaptations to two-legged walking predate the pronounced encephalization associated with later Homo.
+The Taung Child complicated that sequence. Announced in 1924, the South African fossil had a small brain but anatomical features suggesting a position on the human side of the ape–human divide. Later australopithecine skeletons made the combination clearer: relatively small-brained hominins could nonetheless possess substantial adaptations for habitual bipedalism.
+
+Older hominin discoveries pushed upright walking still farther back. Evidence from species more than four million years old shows that bipedal adaptations were developing long before the pronounced increase in brain size associated with later members of *Homo*.
+
+Neither trait appeared in one instant. Bipedal anatomy evolved gradually, and brain size changed unevenly among different lineages.
+
+At broad scale, though, the order is now clear: **walking on two legs came first**. Major encephalization was a later chapter in human evolution, not the initial change that created bipedality.

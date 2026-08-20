@@ -11,7 +11,7 @@ timelineYear: 1840
 summary: "Landscapes attributed to floods and drifting ice became evidence for continent-scale glaciers."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The Great Ice Age"
     url: "https://www.usgs.gov/publications/great-ice-age"
@@ -30,6 +30,12 @@ sources:
     note: "Documents erosion across the region formerly covered by the Laurentide Ice Sheet."
 ---
 
-Acceptance of glacial theory was gradual, and some geologists recognized local glaciers before accepting continent-scale ice sheets.
+Northern landscapes contained clues that were difficult to explain: enormous boulders sat far from matching bedrock, rock surfaces were polished and scratched, and ridges of unsorted debris crossed valleys and plains. Before continental glaciation was accepted, floods, floating ice and other mechanisms were invoked to account for these features.
 
-The correction concerns the former rejection of widespread continental glaciation, not whether every northern landscape was covered at the same time.
+Naturalists familiar with Alpine glaciers noticed that active ice produced remarkably similar forms. In the nineteenth century, Louis Agassiz and others argued that glaciers had once expanded far beyond the mountains and covered huge parts of Europe.
+
+The proposal was initially controversial because it required a climate and landscape radically unlike the present. But the same package of evidence—striations, moraines, erratic boulders and characteristic sediments—appeared across northern Europe and North America. Mapping showed that the features formed coherent patterns best explained by enormous land-based ice sheets.
+
+Later geology established repeated Pleistocene glaciations, including the Laurentide Ice Sheet over much of northern North America and comparable ice sheets across Eurasia.
+
+Acceptance was gradual, and local glaciers were recognized before every geologist accepted continent-scale ice. The correction is to the rejection of widespread continental glaciation, not a claim that every northern region was covered simultaneously.

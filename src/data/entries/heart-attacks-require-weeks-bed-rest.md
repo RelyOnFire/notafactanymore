@@ -11,7 +11,7 @@ timelineYear: 1970
 summary: "Six weeks of enforced inactivity gave way to early movement and structured cardiac rehabilitation."
 featured: false
 publishedAt: "2026-07-25"
-reviewedAt: "2026-07-25"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Historical Context of Cardiac Rehabilitation"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9091441/"
@@ -30,6 +30,12 @@ sources:
     note: "Reviews the evidence and recommendations supporting early mobilization after uncomplicated myocardial infarction."
 ---
 
-Early movement is not appropriate at the same speed for every patient. Complications, procedures, heart function, and overall stability affect the plan.
+Early twentieth-century physicians often treated myocardial infarction as an injury that needed prolonged physical protection. Movement was feared to strain damaged heart muscle, provoke rupture or trigger another event, so patients could spend six weeks or more confined to bed and face severe restrictions afterward.
 
-The old rule failed because it applied prolonged inactivity broadly, including to uncomplicated cases.
+The strategy had an intuitive logic but imposed its own physiological costs. Long immobility causes rapid deconditioning, muscle loss, reduced exercise tolerance and increased risk of blood clots.
+
+From the 1950s onward, clinicians began testing less restrictive approaches. “Armchair” treatment allowed selected patients to sit up sooner, followed by progressively earlier walking. Studies showed that uncomplicated patients could often mobilize safely without the feared cardiac catastrophe.
+
+The change expanded into structured **cardiac rehabilitation**, combining monitored exercise, risk-factor management, education and gradual return to normal activity. Recovery after an uncomplicated heart attack is now built around appropriately timed movement rather than routine weeks of complete inactivity.
+
+Early mobilization is not identical for every patient. Heart function, procedures, rhythm problems and other complications can alter the plan. The superseded rule was the broad prescription of prolonged bed rest even when recovery was otherwise uncomplicated.

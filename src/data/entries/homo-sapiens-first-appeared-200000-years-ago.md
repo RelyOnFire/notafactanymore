@@ -11,7 +11,7 @@ timelineYear: 2017
 summary: "Older North African fossils moved the emergence of Homo sapiens back toward 300,000 years and broadened its geography."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The age of the hominin fossils from Jebel Irhoud, Morocco, and the origins of the Middle Stone Age"
     url: "https://www.nature.com/articles/nature22335"
@@ -30,6 +30,12 @@ sources:
     note: "Summarizes the current approximate 300,000-year time depth of our species in Africa."
 ---
 
-Species origins rarely occur at one precisely recoverable moment. The Jebel Irhoud fossils combine modern-looking facial and dental traits with a more archaic braincase, illustrating gradual mosaic evolution.
+For years, the oldest widely accepted fossils assigned to *Homo sapiens* came from East Africa and clustered near the 200,000-year mark. The Omo remains in Ethiopia, originally dated to roughly 195,000 years, helped anchor a simple picture in which our species appeared around that time in eastern Africa.
 
-The exact classification of the earliest fossils and the relative contribution of different African populations remain active research questions.
+Discoveries and redating made both parts of that picture less tidy. Fossils from Jebel Irhoud in Morocco were dated to about **315,000 years ago** and displayed a mosaic of traits: faces and teeth that look relatively modern alongside a more archaic braincase. Rather than representing a fully modern population appearing suddenly, they fit a longer evolutionary transition.
+
+The geography broadened too. Early *Homo sapiens* fossils and technologies occur across widely separated parts of Africa, supporting models in which populations across the continent exchanged genes and traits over long periods.
+
+Species origins are rarely single recoverable moments. Fossil classification near a lineage boundary is inherently difficult, and researchers still debate which early specimens belong inside *Homo sapiens* and how different African populations contributed.
+
+The correction is therefore a narrowing of the old “about 200,000 years ago in East Africa” model: the roots of our species extend closer to 300,000 years and appear geographically broader than one sudden birthplace.

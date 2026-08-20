@@ -11,7 +11,7 @@ timelineYear: 1926
 summary: "Electron diffraction showed that matter could produce wave patterns while still arriving as localized detections."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Clinton Davisson – Facts"
     url: "https://www.nobelprize.org/prizes/physics/1937/davisson/facts/"
@@ -30,6 +30,10 @@ sources:
     note: "Summarizes the experiments establishing electron waves and de Broglie's theory."
 ---
 
-Wave-particle duality is not a claim that an electron literally switches between a tiny ball and a material ripple. Both classical pictures are incomplete.
+When J. J. Thomson identified the electron in 1897, the evidence looked strongly particle-like: electrons carried definite charge, struck detectors at localized points and could be deflected by electric and magnetic fields. A tiny charged corpuscle was therefore the natural model.
 
-This card is distinct from the planetary-orbit model of atoms, which concerns electron states around nuclei rather than the more general wave nature of matter.
+Quantum theory complicated that picture. In 1924, Louis de Broglie proposed that matter itself should have a wavelength. The proposal sounded abstract until Clinton Davisson and Lester Germer scattered electrons from a nickel crystal and obtained diffraction patterns—the same kind of geometric interference associated with waves. George Paget Thomson independently observed electron diffraction through thin films.
+
+Yet the experiments did not simply replace a particle with a classical wave. Electrons still arrive in individual localized detections even when many such events build up an interference pattern.
+
+Quantum mechanics therefore abandoned both ordinary classical pictures as complete descriptions. An electron is represented by a quantum state whose behavior can produce wave-like diffraction and particle-like detection outcomes. “Wave-particle duality” is a warning about the limits of the classical categories, not a literal switch between a tiny ball and a material ripple.

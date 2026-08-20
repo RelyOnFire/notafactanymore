@@ -11,7 +11,7 @@ timelineYear: 1924
 summary: "African fossils and genetics displaced influential European and Asian cradle-of-humanity models."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Genetics"
     url: "https://humanorigins.si.edu/evidence/genetics"
@@ -30,6 +30,12 @@ sources:
     note: "States that fossils from the first four million years of human evolution are entirely African."
 ---
 
-This card concerns the deep origin of the human lineage, not every later event in human evolution. Homo erectus and other humans lived in Asia and Europe for long periods, and Eurasian populations contributed ancestry to some living people.
+Darwin had suggested an African origin for humans in 1871, based partly on our relationship to African apes. But the early fossil record did not make Africa the obvious center of the story. Important human fossils were being found in Europe and Asia, while much of Africa remained paleontologically unexplored.
 
-Darwin had already suggested Africa in 1871, so an African origin was not invented by later fossil discoveries. The change was from a contested minority or speculative position to the evidence-based center of the field.
+That imbalance supported influential Eurasian origin models. Some researchers expected the crucial transitional forms to come from Europe or Asia, where fossils such as Neanderthals, *Homo erectus* from Java and later discoveries seemed to offer tangible evidence.
+
+The 1924 Taung Child began shifting the geography. Raymond Dart identified the small South African skull as an australopithecine with a mixture of ape-like and human-like traits. Later discoveries across eastern and southern Africa produced multiple early hominin species, many far older than the Eurasian forms then known.
+
+The fossil pattern is now clear at broad scale: the first several million years of hominin evolution are African. Genetic evidence likewise places the deepest ancestry of living humans in Africa.
+
+This does not make Eurasia irrelevant. *Homo* dispersed out of Africa repeatedly, and Eurasian lineages such as Neanderthals and Denisovans later contributed ancestry to some living people. The correction concerns the **deep origin of the human lineage**, not every later chapter.

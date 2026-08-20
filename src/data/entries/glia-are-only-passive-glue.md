@@ -11,7 +11,7 @@ timelineYear: 1965
 summary: "Cells once dismissed as neural glue proved essential to signaling, metabolism, development, and circuit regulation."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Neural circuits in the 21st century: Synaptic networks of neurons and glia"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC34003/"
@@ -30,6 +30,12 @@ sources:
     note: "Traces the 'nerve glue' terminology and evidence for the active physiological roles of glia."
 ---
 
-Glia are not a single cell type, and claims about one kind of glial signaling do not automatically apply to all others.
+The word *glia* comes from the Greek for glue, and the name captured the nineteenth-century picture well. Neurons generated obvious electrical signals and long projecting fibers, while the surrounding cells seemed to provide packing, insulation and structural support.
 
-Some highly publicized ideas, especially broad versions of gliotransmission, remain debated. The well-established correction is broader: glia perform indispensable active functions far beyond structural packing.
+That division of labor persisted because neurons were easier to connect to information processing. Better recordings, microscopy and molecular tools gradually showed that the “support cells” were doing far more.
+
+Different glial populations perform very different jobs. Oligodendrocytes and Schwann cells form myelin; astrocytes regulate ions and neurotransmitters, supply metabolic support, help shape synapses and influence local blood flow; microglia serve major immune and surveillance functions. Glia also guide development and respond dynamically to neural activity and injury.
+
+The updated picture does not mean neurons lost their central role in rapid electrical signaling. Nor does every proposed form of glial signaling have equal support—broad claims about gliotransmission, for example, remain debated.
+
+The well-established correction is simpler and stronger: glia are not passive filler. They are indispensable, active participants in the development, maintenance and operation of nervous systems.

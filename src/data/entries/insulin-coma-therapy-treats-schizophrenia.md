@@ -11,7 +11,7 @@ timelineYear: 1960
 summary: "Controlled comparisons dismantled a dangerous schizophrenia treatment built around deliberately induced coma."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Insulin coma therapy in schizophrenia"
     url: "https://pubmed.ncbi.nlm.nih.gov/17105748/"
@@ -30,6 +30,12 @@ sources:
     note: "Documents the professional enthusiasm and institutional infrastructure surrounding the treatment."
 ---
 
-The intensive nursing, structured routine, and attention surrounding treatment may have influenced some outcomes independently of insulin coma.
+In the 1930s, psychiatrist Manfred Sakel introduced a dramatic treatment for schizophrenia: large doses of insulin were used to drive patients into severe hypoglycemia and repeated comas, after which glucose was administered to revive them. Reports of striking recoveries helped the method spread internationally.
 
-The historical failure does not imply that all biological treatments for schizophrenia are invalid. Modern antipsychotic treatment also has limitations and adverse effects, but it is supported by a different evidence base.
+Treatment units became elaborate medical operations requiring close nursing, repeated procedures and management of seizures and prolonged unconsciousness. That intensity could itself create an impression of powerful biological therapy, while uncontrolled reports made it difficult to separate genuine benefit from selection, supportive care and the natural course of illness.
+
+Better-controlled studies weakened the central claim. In one influential comparison, patients receiving true insulin comas did not fare better than those receiving a safer control treatment designed to mimic parts of the experience without the deep hypoglycemic coma.
+
+The risks were substantial: seizures, brain injury, prolonged coma, metabolic complications and death. The arrival of antipsychotic drugs in the 1950s also offered a more practical alternative and accelerated the treatment's decline.
+
+The historical failure does not imply that all biological treatments for schizophrenia are invalid. It shows why dramatic intervention and professional enthusiasm cannot substitute for controlled evidence of a specific therapeutic effect.

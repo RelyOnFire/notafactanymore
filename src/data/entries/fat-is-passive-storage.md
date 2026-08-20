@@ -11,7 +11,7 @@ timelineYear: 1985
 summary: "Fat tissue was reinterpreted from passive energy storage into an active endocrine and immune organ."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Biochemistry of adipose tissue: an endocrine organ"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3648822/"
@@ -32,6 +32,12 @@ sources:
     note: "Describes the storage, endocrine, thermogenic, and insulin-related functions of adipose tissue."
 ---
 
-Energy storage remains a crucial function of white adipose tissue. The earlier model was incomplete, not wrong about storage itself.
+For much of modern physiology, white adipose tissue was described mainly as the body's fuel warehouse. Fat cells stored excess energy as triglycerides and released fatty acids when needed. That function is real and essential, but it encouraged the image of adipose tissue as metabolically passive packaging.
 
-Different fat depots and cell types have different functions, and endocrine activity can be beneficial or dysregulated depending on physiological context.
+Research on circulating signals changed the picture. Adipose cells and the immune cells living among them were found to secrete numerous signaling molecules. The discovery of leptin in the 1990s was especially striking: a hormone produced by fat tissue could signal the brain about energy stores and influence appetite and metabolism.
+
+Other adipose-derived factors, including adiponectin and inflammatory cytokines, linked fat tissue to insulin sensitivity, vascular biology, immunity and reproduction. Different fat depots also turned out to have distinct metabolic properties rather than behaving as interchangeable storage bags.
+
+Modern adipose tissue is therefore treated as an active **endocrine and immune organ** as well as an energy reservoir.
+
+The old model was incomplete rather than backwards. Energy storage remains one of white fat's central jobs, and endocrine activity can be either adaptive or dysregulated depending on tissue type, location and physiological state.

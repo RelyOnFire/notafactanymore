@@ -11,7 +11,7 @@ timelineYear: 2012
 summary: "The body turned out to be a genetic mosaic rather than billions of exact DNA copies."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The human brain through the lens of somatic mosaicism"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10213359/"
@@ -30,6 +30,12 @@ sources:
     note: "Explains that somatic mutations make cells within one person genetically different."
 ---
 
-Most cells still share overwhelmingly similar DNA, including the inherited variants used in ordinary genetic testing.
+Because almost every cell descends from the same fertilized egg, genetics long used a convenient simplification: one person, one genome. Blood or another accessible tissue could be sampled and treated as representative of the DNA throughout the body, apart from obvious exceptions such as cancers or major chromosome abnormalities.
 
-The differences are usually small and harmless, but some affect development, aging, disease, or cancer.
+But every cell division creates another opportunity for DNA changes. Mutations that arise after fertilization are inherited only by the descendants of that particular cell, producing patches or lineages with slightly different genomes. This is **somatic mosaicism**.
+
+For many years, most such variation was difficult to detect because standard sequencing averaged DNA from millions of cells. Higher-resolution and single-cell methods made it possible to identify low-frequency mutations and reconstruct genetically distinct lineages within healthy tissues, including the brain, skin and blood.
+
+Most cells in one person are still overwhelmingly similar genetically, which is why ordinary genetic testing works. The differences are generally tiny relative to the whole genome and often harmless.
+
+The correction is therefore to the word **exactly**. A human body is not a collection of billions of perfectly identical DNA copies; it is a related mosaic whose cells accumulate different mutations over development and aging.

@@ -11,7 +11,7 @@ timelineYear: 1915
 summary: "Instantaneous Newtonian action at a distance was replaced by relativistic gravity with finite-speed propagation."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Gravitational Wave Detection: Principles and Practice"
     url: "https://dcc-llo.ligo.org/public/0072/P1100131/003/CR%20GW%20review%20Saulson%20v3.pdf"
@@ -32,6 +32,12 @@ sources:
     note: "Notes that relativity's predictions have been repeatedly tested and confirmed."
 ---
 
-The static gravitational field around a steadily existing mass is not a signal continually arriving from the mass in the ordinary sense. The finite-speed statement concerns changes and causal influences.
+Newton's law of gravity was spectacularly successful, but mathematically it treated the force between masses as depending on their positions at the same instant. If interpreted literally, a change in one mass would affect the gravitational field arbitrarily far away with no travel time.
 
-Newton's theory remains extraordinarily accurate for many slow-moving, weak-field systems.
+Newton himself was uneasy with unexplained action at a distance, but his theory did not provide a finite-speed mechanism. For ordinary planetary motion, that omission mattered little because the approximation works extremely well.
+
+General relativity changed the underlying picture. Gravity became the geometry of a dynamical spacetime rather than a force transmitted instantaneously between distant bodies. Changes in the gravitational field propagate causally at the speed of light, and accelerating masses can generate traveling distortions known as gravitational waves.
+
+A century later, gravitational-wave detections supplied direct observations of those propagating disturbances. Relativistic tests in astronomy likewise constrain gravity to the same causal speed scale as light.
+
+The finite-speed statement concerns **changes and causal influences**. A static gravitational field around a steadily existing mass should not be pictured as a stream of fresh signals continuously leaving the mass. Newtonian gravity remains an extraordinarily accurate approximation in slow-moving, weak-field situations.

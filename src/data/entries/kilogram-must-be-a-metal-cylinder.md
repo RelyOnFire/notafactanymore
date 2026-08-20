@@ -11,7 +11,7 @@ timelineYear: 2019
 summary: "The last major SI artifact standard was replaced by a definition tied to a fundamental constant."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Kilogram: The Past"
     url: "https://www.nist.gov/si-redefinition/kilogram-past"
@@ -30,6 +30,12 @@ sources:
     note: "Provides the current SI basis for the kilogram."
 ---
 
-Physical kilogram standards are still used as practical transfer standards in laboratories.
+From 1889, the kilogram was literally tied to one object: the International Prototype of the Kilogram, a platinum-iridium cylinder stored near Paris. National laboratories maintained official copies whose masses were periodically compared with the prototype.
 
-What changed was the definition, not the continued usefulness of carefully maintained masses.
+The system was remarkably successful, but it had a conceptual weakness. If the defining artifact gained or lost a tiny amount of material through contamination, cleaning or surface change, there was no independent kilogram against which to say that the prototype itself had changed. Comparisons among the prototype and its copies showed small relative drifts over time.
+
+Metrology therefore pursued a definition based on an invariant property of nature rather than a particular object. Kibble balances linked mechanical power to electrical measurements, while atom-counting approaches provided an independent route to the same mass scale.
+
+In 2019, the SI redefinition fixed the numerical value of the **Planck constant**. The kilogram is now realized through measurements traceable to that constant instead of being equal by definition to the mass of one cylinder.
+
+Physical kilogram standards did not become useless. Laboratories still use carefully maintained masses as practical transfer standards. What changed was the foundation of the unit itself.

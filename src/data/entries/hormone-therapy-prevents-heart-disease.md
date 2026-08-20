@@ -11,7 +11,7 @@ timelineYear: 2002
 summary: "Randomized trials overturned routine hormone therapy as cardiovascular prevention while leaving nuanced symptom treatment intact."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women"
     url: "https://jamanetwork.com/journals/jama/fullarticle/195120"
@@ -30,6 +30,12 @@ sources:
     note: "Reviews differences by age, timing, regimen, indication, and baseline risk."
 ---
 
-The WHI did not show that hormone therapy is uniformly dangerous or useless. It tested particular oral preparations in women whose average age was well beyond the onset of menopause.
+By the 1980s and 1990s, observational studies seemed to show that postmenopausal women using estrogen had substantially lower rates of coronary heart disease. The finding fit biological expectations about estrogen's effects on cholesterol and blood vessels, and hormone therapy was increasingly discussed not only for symptoms but as long-term disease prevention.
 
-Current treatment decisions for menopausal symptoms are individualized. The corrected claim concerns prescribing hormones as general chronic-disease prevention.
+The observational evidence had a hidden problem: women who chose or were prescribed hormone therapy differed from nonusers in many ways, including health behaviors, access to care and socioeconomic status. Those differences could make treatment look protective even when the drug itself was not causing the advantage.
+
+Randomized trials tested the idea more directly. The Women's Health Initiative, using specific oral hormone regimens in a broad population of postmenopausal women, found no overall coronary prevention benefit and identified important risks, including thromboembolic events and, for some regimens, stroke and breast cancer.
+
+That result changed routine preventive prescribing, but it should not be flattened into “hormones are always harmful.” Risk and benefit vary with age, time since menopause, formulation, route, dose and whether progestogen is needed.
+
+Menopausal hormone therapy remains an important treatment for appropriate symptoms in selected patients. The corrected claim is narrower: it should not be started simply as a general strategy to prevent cardiovascular disease.

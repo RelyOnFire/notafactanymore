@@ -11,7 +11,7 @@ timelineYear: 1950
 summary: "The static chromosome map was revised after the discovery that pieces of DNA can move within genomes."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The Nobel Prize in Physiology or Medicine 1983 – Press release"
     url: "https://www.nobelprize.org/prizes/medicine/1983/press-release/"
@@ -32,6 +32,12 @@ sources:
     note: "Describes the hostile or perplexed reception to McClintock's theory and its later confirmation."
 ---
 
-Most genes do remain at stable inherited locations over ordinary cell generations. The correction is to the absolute claim that no genomic sequence can move.
+Classical chromosome maps treated genes as loci arranged in stable linear order. Crossing over could reshuffle which inherited chromosome segments ended up together, but the loci themselves were expected to stay put. That framework was extraordinarily successful for Mendelian genetics.
 
-Some transposable elements move directly, while others move through an RNA intermediate that is copied back into DNA.
+Barbara McClintock found something stranger while studying maize chromosomes in the 1940s. Certain genetic elements appeared able to change position, and their movement could switch nearby genes on or off, producing unstable patterns of kernel color. She described these as **controlling elements**.
+
+The proposal was difficult to absorb because mobile genes did not fit the static chromosome map that had explained so much genetic behavior. McClintock's interpretation received limited acceptance for years.
+
+Evidence from bacteria and other organisms eventually made transposition unmistakable. Molecular biology identified multiple classes of transposable elements: some move directly as DNA, while retrotransposons copy themselves through an RNA intermediate before inserting a new DNA copy elsewhere.
+
+Most genes still occupy stable inherited locations across ordinary generations. The discovery did not turn the genome into a constantly rearranging jumble. It overturned the absolute rule that genomic sequences **cannot move**, and mobile elements are now understood as major contributors to mutation, regulation and genome evolution.

@@ -11,7 +11,7 @@ timelineYear: 2001
 summary: "Genome sequencing reduced the estimated number of human protein-coding genes from around 100,000 to roughly 20,000."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "International Human Genome Sequencing Consortium Describes Finished Human Genome Sequence"
     url: "https://www.genome.gov/12513430/2004-release-ihgsc-describes-finished-human-sequence"
@@ -31,6 +31,13 @@ sources:
     purpose: "Current evidence"
     note: "Reviews the history and continuing difficulty of determining the exact human gene catalogue."
 ---
-This card refers specifically to **protein-coding genes**. The human genome also contains many genes that produce functional RNAs rather than proteins, and the exact boundaries and number of genes continue to be refined.
 
-The correction also helped weaken the assumption that organismal complexity can be explained simply by having more protein-coding genes.
+Before a complete human genome existed, scientists had to estimate gene number indirectly—from the diversity of proteins and RNA, mutation data, genome complexity and comparisons with other organisms. By the late twentieth century, figures around **100,000 protein-coding genes** were common.
+
+The Human Genome Project made direct counting possible, although “direct” still required difficult computational and experimental annotation. When the draft sequence appeared in 2001, the predicted total was already far below expectations. Analysis of the finished sequence pushed the estimate down toward roughly 20,000–25,000 protein-coding genes.
+
+That surprise weakened a simple intuition about biological complexity. Humans do not achieve complex anatomy and behavior merely by possessing vastly more protein-coding genes than other animals. Alternative splicing, gene regulation, noncoding RNAs, protein modification and networks of interacting genes all contribute substantially to what a genome can do.
+
+The number is still not perfectly fixed because gene boundaries, small proteins and annotation standards continue to be refined.
+
+This card refers specifically to **protein-coding genes**. The genome also contains many genes whose functional products are RNAs rather than proteins, so “about 20,000 genes total” would itself be too simple.

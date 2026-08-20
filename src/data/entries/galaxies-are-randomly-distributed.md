@@ -11,7 +11,7 @@ timelineYear: 1985
 summary: "Three-dimensional surveys transformed a random galaxy field into a web of filaments and voids."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Large-Scale Structures"
     url: "https://science.nasa.gov/universe/galaxies/large-scale-structures/"
@@ -30,6 +30,12 @@ sources:
     note: "Explains how redshift surveys revealed walls, clusters, and voids instead of a random distribution."
 ---
 
-The universe is statistically homogeneous on sufficiently large scales, but homogeneous does not mean randomly sprinkled at every smaller scale.
+A two-dimensional photograph of the sky shows galaxies scattered in every direction, and early catalogues sampled too little volume to reveal the full three-dimensional pattern. Although clusters of galaxies were known, the universe beyond them could still be approximated as a broadly random distribution.
 
-Galaxies still have random motions within the much larger structured pattern.
+Redshift surveys changed the view by adding distance. Astronomers measured the spectra of thousands and then millions of galaxies and plotted their positions in three dimensions. Instead of an even statistical sprinkling, the maps revealed long filaments and sheets wrapped around enormous regions containing relatively few galaxies.
+
+Successive surveys extended this **cosmic web** across hundreds of millions of light-years. Modern cosmology explains the pattern as the result of gravity amplifying small density variations in the early universe, with dark matter providing much of the underlying structure into which ordinary matter and galaxies formed.
+
+This does not violate the cosmological principle. On sufficiently large scales, the universe can be statistically homogeneous and isotropic while still containing highly structured clustering on smaller scales.
+
+Nor are individual galaxy motions perfectly ordered. The correction is about their spatial distribution: galaxies occupy a connected hierarchy of clusters, filaments, walls and voids rather than being independently sprinkled through space.

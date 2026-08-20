@@ -11,7 +11,7 @@ timelineYear: 1960
 summary: "Comfort and security proved to be fundamental attachment needs rather than mere by-products of feeding."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Affectional responses in the infant monkey"
     url: "https://pubmed.ncbi.nlm.nih.gov/13675765/"
@@ -30,6 +30,12 @@ sources:
     note: "Explains evidence that attachment involves more than feeding or another primary physical need."
 ---
 
-Harlow's experiments involved monkeys, not human infants, and would raise serious ethical concerns today.
+Behaviorist and drive-reduction theories offered a straightforward explanation for infant attachment: hunger is a primary biological drive, the caregiver supplies food, and affection becomes a learned association with the person who removes that discomfort.
 
-Human attachment theory also developed through Bowlby's and Ainsworth's observations of children and caregivers.
+Harry Harlow's surrogate-mother experiments with rhesus monkeys directly separated feeding from comfort. Infant monkeys were given access to a bare wire surrogate that could provide milk and a soft cloth-covered surrogate that did not necessarily feed them. The infants spent far more time clinging to the soft surrogate and sought it for security when frightened.
+
+The findings made **contact comfort** difficult to treat as a mere by-product of feeding. At the same time, John Bowlby's attachment theory and Mary Ainsworth's observations of human caregiver–child relationships emphasized proximity, security and responsive caregiving as central features of attachment.
+
+Feeding is still part of caregiving and can contribute to social bonding. The superseded idea is that attachment is mainly a learned reward association created because one person supplies calories.
+
+Harlow's experiments involved monkeys, not human infants, and their methods raise serious ethical concerns by modern standards. Human attachment science rests on a much broader body of developmental observation and research.

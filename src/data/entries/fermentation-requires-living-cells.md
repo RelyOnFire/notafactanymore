@@ -11,7 +11,7 @@ timelineYear: 1897
 summary: "Buchner's yeast extract fermented sugar without living cells, helping create modern biochemistry."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Eduard Buchner – Nobel Lecture"
     url: "https://www.nobelprize.org/prizes/chemistry/1907/buchner/lecture/"
@@ -30,6 +30,12 @@ sources:
     note: "Summarizes the discovery of cell-free fermentation and its significance."
 ---
 
-In nature and industry, fermentation is still usually performed by living microorganisms because cells regenerate enzymes, cofactors, and metabolic intermediates.
+Louis Pasteur had established that fermentation was closely associated with living microorganisms, helping defeat older ideas of spontaneous chemical decomposition. That success also encouraged a stronger interpretation: perhaps fermentation depended on the intact living organization of the yeast cell and could not be reproduced outside it.
 
-Buchner's result did not show that life is merely one enzyme. It showed that a reaction associated with life could be studied through separable chemical machinery.
+Eduard Buchner tested the boundary almost accidentally. In 1897 he ground yeast cells with sand and filtered the mixture to obtain a liquid extract with no intact living yeast. When sugar was added, the extract still produced alcohol and carbon dioxide.
+
+The result showed that the chemistry of fermentation could continue in **cell-free material**. Buchner called the active principle zymase; later biochemistry resolved fermentation into networks of enzymes, cofactors and metabolic intermediates.
+
+The experiment was important far beyond brewing. It helped establish that a process strongly associated with life could be dissected into chemical reactions and studied outside an intact organism, a foundational idea for enzymology and biochemistry.
+
+Living microorganisms still perform fermentation in nature and industry because cells regenerate enzymes, cofactors and intermediates. Buchner did not show that life itself is “just one enzyme”; he showed that this particular living process did not require an intact living cell at every moment.

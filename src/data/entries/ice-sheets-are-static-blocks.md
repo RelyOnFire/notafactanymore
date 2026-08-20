@@ -11,7 +11,7 @@ timelineYear: 1957
 summary: "The great polar ice sheets became dynamic rivers of solid ice rather than frozen blocks."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Understanding ice"
     url: "https://ice2sea-testing.web.bas.ac.uk/ice2sea-science/understanding-ice/index.html"
@@ -30,6 +30,12 @@ sources:
     note: "Describes complex, dynamic behavior and rapid changes in former continental ice sheets."
 ---
 
-Much of an ice sheet moves only meters or less per year, making it appear stationary without long-term measurements.
+A polar ice sheet looks immovable. Its surface can extend beyond the horizon, and even a few meters of annual movement is invisible without fixed reference points. That scale made it easy to imagine the great ice masses as blocks simply resting on bedrock.
 
-The word “flow” describes slow deformation of solid ice, not liquid water moving through it.
+Glaciology showed that solid ice **flows**. Under the enormous pressure created by its own weight, ice deforms internally and moves outward from high interior regions. Where basal conditions and topography allow, ice streams and outlet glaciers can move far faster than the surrounding ice.
+
+Survey markers provided early measurements of motion. Later radar, boreholes, GPS and satellite observations mapped both surface velocity and structures deep inside the ice, revealing drainage networks that continually transfer mass from the interior toward the margins and ocean.
+
+An ice sheet is therefore a dynamic system balancing snowfall, internal flow, melting, fracture and iceberg calving. Changes at the edges can alter flow far inland.
+
+“Flow” does not mean the ice has become liquid water. Most of the sheet remains solid and may move only slowly. The correction is that apparent stillness on a human timescale is not physical immobility.

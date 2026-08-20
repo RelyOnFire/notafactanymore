@@ -11,7 +11,7 @@ timelineYear: 2016
 summary: "Multiple individuals and a mosaic of primitive anatomy weakened the idea that Flores fossils were diseased modern humans."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Flores hominid: new species or microcephalic dwarf?"
     url: "https://pubmed.ncbi.nlm.nih.gov/17031806/"
@@ -30,6 +30,12 @@ sources:
     note: "Reviews the pathology proposals and the anatomical evidence against them."
 ---
 
-Unlike many cards on the site, this was not a long-standing consensus overturned by one discovery. It was a serious competing interpretation within a highly public scientific dispute.
+When the partial skeleton LB1 was announced from the Indonesian island of Flores in 2004, it was startlingly small: an adult body about a meter tall with a brain far smaller than expected for recent members of the genus *Homo*. The discoverers proposed a new species, *Homo floresiensis*.
 
-The ancestry of Homo floresiensis remains unsettled, and no DNA has yet been recovered. Recognizing it as distinct does not determine whether it descended from Homo erectus or from an earlier dispersing lineage.
+Not everyone agreed. Several researchers argued that LB1 might instead be an anatomically modern human affected by microcephaly, an endocrine disorder or another developmental condition. This was a genuine expert dispute, not a settled old consensus.
+
+The pathology explanation became harder to maintain as more evidence accumulated. Additional individuals showed similarly small-bodied anatomy, while detailed studies found a mosaic of traits in the skull, teeth, wrist, shoulder, foot and limb proportions that did not fit well with a single diseased *Homo sapiens* individual.
+
+Most specialists now accept *Homo floresiensis* as a distinct archaic human taxon. That does not settle its ancestry. Researchers still debate whether the Flores population descended from *Homo erectus* that became small-bodied on an island or from an earlier dispersing lineage.
+
+No ancient DNA has yet resolved the question. The correction is therefore narrower than a solved family tree: the “merely a diseased modern human” explanation is no longer the leading interpretation.

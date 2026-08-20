@@ -12,7 +12,7 @@ summary: "The largely fixed-Earth model was replaced by plate tectonics after ev
 featured: true
 featuredOrder: 2
 publishedAt: "2026-07-16"
-reviewedAt: "2026-07-16"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Historical perspective: This Dynamic Earth"
     url: "https://pubs.usgs.gov/gip/dynamic/historical.html"
@@ -45,8 +45,12 @@ sources:
     note: "Explains that plate motion can now be measured directly and that different plates move at different speeds and in different directions."
 ---
 
-Continental drift and plate tectonics are related, but they are not identical theories. Alfred Wegener proposed that continents moved, but his original model did not correctly explain how that movement occurred. Modern plate tectonics holds that continents are embedded within larger lithospheric plates rather than independently ploughing through stationary oceanic crust.
+By the early twentieth century, geology had strong evidence for ancient seas, mountain building and large vertical changes in Earth's crust, but most geologists still treated continents and ocean basins as fundamentally fixed in their horizontal positions.
 
-Plate tectonics is firmly established, and plate motion can now be measured directly. Scientists nevertheless continue to study details such as when plate tectonics began on the early Earth and the relative importance of mantle convection, slab pull, ridge push, and other forces in driving individual plates.
+Alfred Wegener challenged that framework in 1912. The fit of continental margins, matching fossils and geological structures across oceans suggested that continents had once been joined and later separated. Many geologists rejected continental drift, however, because Wegener lacked a convincing mechanism and his continents appeared to require ploughing through resistant oceanic crust.
 
-The historical dates are approximate. Wegener presented continental drift in 1912, the fixed-Earth framework remained dominant through much of the first half of the 20th century, and modern plate tectonics became broadly accepted during the 1960s.
+The decisive evidence came from the ocean floor. Sonar mapping revealed mid-ocean ridges; seafloor-spreading models proposed that new crust formed there; magnetic surveys found symmetrical stripes recording geomagnetic reversals on either side of the ridges; and oceanic crust became progressively older away from them. Earthquake and volcano belts outlined the boundaries of moving lithospheric plates.
+
+By the 1960s, plate tectonics unified these observations. Continents move because they are embedded within larger plates, not because they independently push through stationary seafloor.
+
+Plate motion can now be measured directly. Research continues into the early history and detailed driving forces of plate tectonics, but the fixed-Earth framework it replaced is no longer viable.

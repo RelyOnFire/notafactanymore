@@ -11,7 +11,7 @@ timelineYear: 1932
 summary: "Memory changed from a mental recording to an active reconstruction that can be altered after an event."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Eyewitness memory"
     url: "https://dictionary.apa.org/eyewitness-memory"
@@ -30,6 +30,12 @@ sources:
     note: "Explains how procedures and later interactions can affect a witness's memory and identification."
 ---
 
-Memory is not generally useless or random. It often preserves the central meaning of an event well enough to guide everyday life.
+Everyday language encourages a recording metaphor for memory: an event is “stored,” later “retrieved,” and perhaps replayed with enough concentration. Legal systems have likewise often treated a confident eyewitness as though the original scene remained intact inside the witness's mind.
 
-The correction concerns exactness and immunity to later influence, especially for details.
+Experimental psychology showed that recall is more constructive. Frederic Bartlett's work in the 1930s demonstrated that people reshape remembered material using expectations and prior knowledge rather than reproducing it mechanically.
+
+Later experiments made the vulnerability especially clear for eyewitnesses. Misleading information introduced **after** an event can alter later reports—the misinformation effect. Question wording, conversations with other witnesses, lineup procedures, and feedback can all influence what is subsequently remembered and how confident a person feels about it.
+
+This does not mean memory is useless or random. It usually preserves enough structure and meaning to guide ordinary life, and some memories can be highly accurate.
+
+The correction concerns exactness and immunity to later influence. Remembering is an active reconstruction from stored information, context, inference, and subsequent experience—not the playback of a fixed internal video.

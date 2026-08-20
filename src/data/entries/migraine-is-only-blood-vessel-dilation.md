@@ -11,7 +11,7 @@ timelineYear: 1990
 summary: "A simple blood-vessel explanation gave way to a broader neurological and neurovascular model."
 featured: false
 publishedAt: "2026-07-25"
-reviewedAt: "2026-07-25"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Pathophysiology of Migraine"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5539409/"
@@ -30,6 +30,12 @@ sources:
     note: "Reviews the modern view that vascular changes may contribute but do not alone explain migraine."
 ---
 
-Blood vessels still participate in migraine biology, and the field continues to debate the relative importance of vascular and neural mechanisms.
+For much of the twentieth century, migraine was explained primarily as a vascular event. Constriction of cranial blood vessels was invoked for aura, followed by dilation that supposedly produced the throbbing headache. Harold Wolff's influential work helped make this the dominant model.
 
-The rejected claim is the simple one-cause model, not every vascular contribution.
+The theory fit some observations, but it became too simple. Imaging and blood-flow studies showed that attacks could begin without the predicted vascular sequence, and vascular changes did not consistently track symptoms well enough to explain migraine on their own.
+
+Research increasingly pointed toward the brain itself: altered sensory processing, cortical excitability, the trigeminal system, brainstem and hypothalamic networks, and signaling molecules such as CGRP all participate in attacks. Treatments targeting neural signaling can work without acting as simple mechanical vasoconstrictors.
+
+Blood vessels have not disappeared from migraine biology. Neurovascular interactions remain important, and the precise balance of neural and vascular mechanisms is still studied.
+
+The superseded claim is the one-cause story. Migraine is not simply a headache produced because an artery dilates; it is a complex neurological disorder in which vascular changes are one part of a larger system.

@@ -11,7 +11,7 @@ timelineYear: 1965
 summary: "An acclaimed psychiatric operation was abandoned after its irreversible harms and weak evidence became undeniable."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The Nobel Prize in Physiology or Medicine 1949"
     url: "https://www.nobelprize.org/prizes/medicine/1949/summary/"
@@ -30,6 +30,12 @@ sources:
     note: "Distinguishes destructive historical lobotomy from rare modern stereotactic and neuromodulatory procedures."
 ---
 
-Some historical patients and families reported improvement, but studies often lacked controls and defined success as reduced disturbance or easier care rather than restored autonomy and function.
+In an era when psychiatric hospitals had few effective treatments for severe psychosis, depression, and agitation, prefrontal leucotomy offered something medicine desperately wanted: an intervention that seemed capable of changing otherwise intractable behavior.
 
-Rare modern neurosurgical procedures for otherwise intractable illness use precise targets, formal review, and informed consent. They are not equivalent to historical lobotomy.
+Early reports emphasized patients who became calmer or easier to manage. Outcome standards were often weak, controls were uncommon, and a reduction in disruptive behavior could be counted as success even when the patient lost initiative, emotional range, judgment, or independence. The procedure nonetheless gained remarkable professional legitimacy; Egas Moniz received a share of the 1949 Nobel Prize for its supposed therapeutic value.
+
+Longer experience exposed the cost. Lobotomy could produce profound apathy, personality change, cognitive impairment, seizures, incontinence, disability, and death. The damage was irreversible.
+
+Ethical criticism grew alongside better outcome assessment, while the arrival of antipsychotic medications offered a less destructive alternative. Routine lobotomy collapsed over the following decades.
+
+Some patients and families did report improvement, so the history is not accurately described as universal immediate catastrophe. The failure was that broad claims of effectiveness and acceptable safety rested on poor evidence and often valued institutional manageability over the patient's autonomy and function.

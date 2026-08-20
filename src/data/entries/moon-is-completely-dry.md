@@ -11,20 +11,18 @@ timelineYear: 2009
 summary: "The Moon changed from a completely dry world to a very dry world that still contains water and ice."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Moon Water and Ices"
     url: "https://science.nasa.gov/moon/moon-water-and-ices/"
     publisher: "NASA"
     purpose: "Historical context"
     note: "Explains that Apollo-era sample results led scientists to conclude that the lunar surface was completely dry, and traces later discoveries."
-
   - title: "Moon Facts"
     url: "https://science.nasa.gov/moon/facts/"
     publisher: "NASA"
     purpose: "Current evidence"
     note: "Summarizes discoveries of water, hydroxyl, and concentrated ice in permanently shadowed polar regions."
-
   - title: "There's Water on the Moon?"
     url: "https://science.nasa.gov/solar-system/moon/theres-water-on-the-moon/"
     publisher: "NASA"
@@ -32,6 +30,12 @@ sources:
     note: "Describes water molecules found in lunar glasses and minerals and emphasizes that the Moon remains very dry overall."
 ---
 
-The Moon does not have oceans, lakes, or widespread liquid water. Most lunar water occurs in tiny concentrations, inside minerals, or as ice in extremely cold shadows.
+Apollo samples seemed to confirm an intuitively dry Moon. The returned rocks contained no convincing reservoir of native lunar water, and tiny traces were difficult to distinguish from contamination introduced on Earth. For decades, the Moon was therefore described as essentially or completely dry.
 
-The earlier conclusion reflected the limits and contamination problems of the available measurements, not careless science.
+Later instruments became sensitive enough to revisit the question. Spacecraft measurements found hydrogen concentrated near the poles, while spectrometers detected water or hydroxyl signatures across parts of the surface.
+
+Laboratory reanalysis of Apollo materials added another surprise. Volcanic glass beads and minerals preserved small amounts of indigenous water, showing that water had existed within the lunar interior rather than arriving only as modern surface contamination.
+
+The strongest concentrations occur in permanently shadowed polar regions where temperatures remain low enough for water ice to persist over long periods.
+
+The correction should not be exaggerated. The Moon has no oceans, lakes, or widespread liquid water and remains extraordinarily dry compared with Earth. Most lunar water exists in tiny concentrations, bound in materials, or frozen in cold traps. “Completely dry” became “very dry, but not water-free.”

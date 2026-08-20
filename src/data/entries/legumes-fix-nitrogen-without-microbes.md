@@ -11,7 +11,7 @@ timelineYear: 1890
 summary: "The nitrogen-fixing power of legumes proved to depend on bacteria housed in specialized root nodules."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Untersuchungen über die Stickstoffnahrung der Gramineen und Leguminosen"
     url: "https://www.biodiversitylibrary.org/bibliography/27102"
@@ -30,4 +30,12 @@ sources:
     note: "Reviews the molecular and physiological partnership between legumes and nitrogen-fixing bacteria."
 ---
 
-The shorthand phrase “nitrogen-fixing plants” is still common, but it describes the functioning partnership rather than an unaided biochemical ability of the plant.
+Farmers knew long before modern microbiology that peas, beans, clover, and related crops could improve nitrogen-poor soils. Because the effect followed the plant, it was natural to attribute the ability to the legume itself.
+
+The puzzle was atmospheric nitrogen. Nitrogen gas is abundant in air, but most plants cannot use it directly. In the 1880s, Hermann Hellriegel and Hermann Wilfarth showed that legumes gained nitrogen only when their roots developed characteristic nodules under suitable conditions. Sterile plants without the right biological partner lost the advantage.
+
+Researchers then isolated bacteria from those nodules. The resulting picture was a **symbiosis**: rhizobia infect the roots and live in specialized nodules, where microbial nitrogenase converts atmospheric nitrogen into compounds the plant can use. The plant, in turn, supplies carbohydrates and a controlled environment.
+
+That partnership explains why legumes can enrich agricultural systems while neighboring non-legumes generally cannot fix atmospheric nitrogen on their own.
+
+The phrase “nitrogen-fixing plant” remains useful shorthand, but it hides the division of labor. In the familiar legume system, the biochemical act of nitrogen fixation is carried out by microbes living in partnership with the plant.

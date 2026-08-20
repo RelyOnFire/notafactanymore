@@ -11,7 +11,7 @@ timelineYear: 1960
 summary: "Socially learned traditions were found in primates, whales, birds, fish, and other animals."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Social Learning and Culture in Child and Chimpanzee"
     url: "https://pubmed.ncbi.nlm.nih.gov/28051932/"
@@ -30,6 +30,14 @@ sources:
     note: "Reviews socially transmitted traditions across many animal species and behavioral domains."
 ---
 
-Researchers disagree about whether every socially learned tradition deserves the full word “culture,” especially when comparing it with cumulative human culture.
+“Culture” was long treated as part of the boundary separating humans from other animals. Nonhuman behavior could be instinctive or individually learned, but enduring traditions transmitted socially were often reserved conceptually for our species.
 
-The narrow correction is secure: socially transmitted, group-specific traditions are not uniquely human.
+Long-term field studies made that boundary harder to defend. Chimpanzee communities, for example, showed group-specific tool-use and foraging practices that could not be explained simply by genetics or local ecology.
+
+Comparable patterns appeared elsewhere: whale and bird vocal traditions, socially learned migration routes, local hunting methods, and group-specific foraging conventions.
+
+Experiments strengthened the case by introducing new behaviors into groups and watching them spread socially and persist. In some wild bird studies, experimentally seeded foraging techniques survived across successive cohorts.
+
+Researchers still debate how broadly to use the word **culture**, especially because human cumulative culture can build technologies, institutions, and symbolic systems at an unmatched scale.
+
+The secure correction is narrower: socially learned, group-specific traditions are not uniquely human. Whatever boundary remains between human and nonhuman culture cannot be defined simply as the presence or absence of social transmission.

@@ -11,7 +11,7 @@ timelineYear: 1905
 summary: "Experiments and relativity made the luminiferous ether unnecessary as a medium for light."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Albert A. Michelson – Biographical"
     url: "https://www.nobelprize.org/prizes/physics/1907/michelson/biographical/"
@@ -30,6 +30,12 @@ sources:
     note: "Explains modern experimental tests of relativity and the invariance of the speed of light."
 ---
 
-The Michelson–Morley experiment did not instantly rule out every possible ether model. Modified versions survived for a time, but they became increasingly unnecessary and unproductive.
+Every familiar mechanical wave needs something to wave. Sound travels through air; water waves move through water. Once light was understood as a wave, nineteenth-century physicists therefore inferred a pervasive medium filling even apparently empty space: the **luminiferous ether**.
 
-Modern physics describes the vacuum using quantum fields. That is not a return to the 19th-century idea of a mechanical ether carrying light waves.
+Maxwell's electromagnetic theory made the wave description stronger but did not immediately remove the medium. If Earth moved through a stationary ether, however, sufficiently precise optical experiments ought to detect an “ether wind” that changed the measured behavior of light.
+
+Michelson and Morley's interferometer experiments failed to find the expected motion. The null result did not instantly eliminate every ether theory—modified models could be invented to preserve it—but the mechanical medium became increasingly awkward.
+
+Special relativity supplied a cleaner framework. The speed of light is invariant for inertial observers, and electromagnetic propagation does not require a material substance through which Earth moves.
+
+Modern quantum field theory assigns rich physical properties to the vacuum, but that is not a revival of the nineteenth-century ether. The abandoned claim was specifically that light requires a mechanical carrier analogous to air for sound.

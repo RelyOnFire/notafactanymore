@@ -11,7 +11,7 @@ timelineYear: 1994
 summary: "Super-resolution fluorescence microscopy bypassed the assumptions behind the conventional diffraction limit."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The Nobel Prize in Chemistry 2014 – Popular information"
     url: "https://www.nobelprize.org/prizes/chemistry/2014/popular-information/"
@@ -30,6 +30,14 @@ sources:
     note: "Hell and Wichmann proposed the principle underlying STED microscopy."
 ---
 
-Super-resolution does not repeal diffraction or make resolution unlimited. Each method depends on labeling, photon counts, noise, sample motion, reconstruction assumptions, and possible artifacts.
+Ernst Abbe's nineteenth-century diffraction analysis correctly identified a fundamental limitation of **conventional optical imaging**. When two objects are closer than roughly the scale set by wavelength and numerical aperture, their diffraction patterns overlap and ordinary microscopy cannot resolve them as separate structures.
 
-Abbe's limit remains correct for the conventional imaging conditions he analyzed. The correction is to treating those conditions as unavoidable.
+Over time, that result was often summarized more absolutely: visible-light microscopy could never reveal detail below the diffraction limit.
+
+Super-resolution methods changed the assumptions rather than repealing diffraction. STED microscopy selectively suppresses fluorescence around a tiny central region, while PALM and STORM activate sparse subsets of fluorescent molecules and localize their positions across many measurements.
+
+By controlling emitter states, exploiting nonlinear responses, or accumulating information over time, these methods reconstruct structures at scales well below conventional diffraction-limited resolution.
+
+The achievement is not unlimited. Resolution still depends on labeling, photon counts, noise, sample movement, reconstruction choices, and method-specific artifacts.
+
+Abbe's limit remains correct for the imaging conditions he analyzed. What narrowed was the claim that every optical microscope must operate under exactly those conditions.

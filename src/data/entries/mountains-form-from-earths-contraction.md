@@ -11,7 +11,7 @@ timelineYear: 1960
 summary: "Plate tectonics replaced a shrinking, wrinkling Earth as the general explanation for mountain building."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "This Dynamic Earth: The Story of Plate Tectonics"
     url: "https://pubs.usgs.gov/gip/dynamic/dynamic.html"
@@ -30,6 +30,12 @@ sources:
     note: "Wegener's mobile-continent argument challenged fixed-Earth and contraction explanations."
 ---
 
-Plate convergence does not act alone. Climate and erosion remove mass, isostatic adjustment raises crust, and mantle dynamics can contribute broad uplift.
+A cooling object contracts. In the nineteenth century, that simple physical intuition became a global geological theory: as Earth lost heat and shrank, its rigid outer shell was thought to wrinkle, fold, and crumple into mountain ranges much as the skin of a drying fruit wrinkles.
 
-Earth has cooled over geological time, but global thermal contraction is not the principal mechanism organizing modern mountain belts.
+The model could explain compressed and folded rocks in broad terms, but it struggled with the geography and history of mountain belts. Why were deformation, volcanoes, and earthquakes concentrated in particular global zones, and how were ocean basins related to continental ranges?
+
+Continental drift challenged the fixed, shrinking Earth, but lacked a convincing mechanism. Mid-twentieth-century mapping of the seafloor supplied the missing framework: mid-ocean ridges, magnetic stripes, young oceanic crust, trenches, and earthquake belts revealed moving lithospheric plates.
+
+Plate tectonics then connected mountain building to convergence. Continental collisions thicken crust, subduction drives deformation and magmatism, and faulting, uplift, erosion, and isostatic adjustment reshape the resulting ranges.
+
+Earth has cooled over geological time, but wholesale thermal contraction is not the mechanism organizing most modern mountain belts. Mountain building is a consequence of a mobile planet.

@@ -11,7 +11,7 @@ timelineYear: 1970
 summary: "Industrial fishing proved capable of depleting even immense populations spread across the open sea."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Inaugural Address, Fisheries Exhibition, London"
     url: "https://mathcs.clarku.edu/huxley/SM5/fish.html"
@@ -30,4 +30,14 @@ sources:
     note: "Explains modern stock assessment, overfishing determinations, and rebuilding of depleted fisheries."
 ---
 
-Huxley did acknowledge that river fisheries and some shellfish beds could be exhausted. The overturned claim concerned the supposedly untouchable abundance of the great open-sea fisheries.
+The open ocean looked limitless. Fish reproduced in enormous numbers, fleets were tiny relative to the sea, and catches from famous grounds could seem inexhaustible year after year.
+
+That intuition was expressed explicitly by prominent nineteenth-century scientists. Thomas Henry Huxley argued that major sea fisheries such as cod, herring, and mackerel were effectively beyond human depletion under the fishing methods of his time.
+
+Technology changed the scale of exploitation. Steam and diesel vessels, sonar, refrigeration, factory processing, larger nets, and global markets allowed fishing pressure to reach populations across entire regions.
+
+Catch records and stock assessments then showed what intuition had missed: fishing mortality can exceed reproduction for years, driving stocks downward and sometimes producing dramatic collapses. Recovery can take decades or fail altogether if habitats, food webs, or environmental conditions have also changed.
+
+Not every fishery is doomed to collapse. Effective quotas, protected areas, gear restrictions, and other management can maintain or rebuild stocks.
+
+Huxley himself recognized that some river fisheries and shellfish beds could be exhausted. The overturned claim concerns the supposedly untouchable abundance of the great open-sea fisheries.

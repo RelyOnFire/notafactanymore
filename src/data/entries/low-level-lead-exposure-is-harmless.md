@@ -11,7 +11,7 @@ timelineYear: 1979
 summary: "Research repeatedly found harm below blood-lead concentrations once treated as safe."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Preventing Lead Poisoning in Young Children"
     url: "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000659.htm"
@@ -30,6 +30,12 @@ sources:
     note: "States that no safe level has been identified and that low levels can impair learning and attention."
 ---
 
-A blood-lead reference value is not a boundary between harmless and dangerous exposure. It identifies children with levels higher than most peers so that sources can be investigated.
+Early public-health definitions of lead poisoning were built around obvious illness: severe anemia, abdominal symptoms, encephalopathy, seizures, and other unmistakable signs of toxicity. If a child had a blood-lead concentration below the level associated with those outcomes, exposure could be treated as effectively safe.
 
-The strongest evidence concerns developing children. Lead is also harmful to adults, but effects, exposure patterns, and clinical decisions differ by age and circumstance.
+Long-term developmental studies changed the question. Researchers began measuring cognition, attention, school performance, and behavior rather than waiting for acute poisoning. Harmful associations appeared at concentrations below the existing intervention thresholds.
+
+Each time the threshold was lowered, further studies found measurable effects below the new line. Public-health guidance therefore moved away from the idea of a biologically clean boundary separating “safe” from “poisoned.”
+
+For children, no safe blood-lead level has been identified. Current reference values are **population tools**, not toxicity thresholds: they identify children with higher exposure than most peers so sources can be investigated and reduced.
+
+The strongest evidence and most stringent guidance concern developing children because the nervous system is especially vulnerable. Lead is harmful to adults as well, but exposure patterns and clinical decisions differ. The correction is that absence of dramatic poisoning does not mean absence of biological harm.

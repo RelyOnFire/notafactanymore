@@ -11,7 +11,7 @@ timelineYear: 1972
 summary: "Evolution moved from the geological past into experiments and field studies conducted within a human lifetime."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Fluctuating selection: the perpetual renewal of adaptation in variable environments"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2842698/"
@@ -30,6 +30,14 @@ sources:
     note: "Contrasts the common slow-evolution picture with observed rapid evolution under strong selection."
 ---
 
-Major anatomical transformations and speciation can still require long periods, and short-term change does not always persist.
+Evolutionary theory was born in deep time. Fossils and geological succession emphasized changes unfolding across immense intervals, so natural selection was often pictured as a process too slow to watch directly.
 
-Rapid evolution and deep-time evolution are different scales of the same process.
+But evolutionary speed depends on generation time, heritable variation, and the strength of selection. Microbes exposed to antibiotics and insects exposed to pesticides supplied dramatic examples: allele frequencies could change rapidly when survival differences were large.
+
+Long-term field studies then measured comparable shifts in wild vertebrates. Traits in birds, fish, and other animals changed detectably across only a few generations as environments and selective pressures changed.
+
+Experimental evolution made the process even easier to observe by following populations under controlled conditions and measuring genetic change through time.
+
+None of this means every evolutionary transformation is fast. Large anatomical changes, ecological transitions, and speciation can require long periods, and short-term responses can reverse when environments change.
+
+The correction is to **always**. Natural selection can produce measurable evolutionary change within years or decades; deep-time evolution and rapid contemporary evolution are different timescales of the same process.

@@ -11,7 +11,7 @@ timelineYear: 1930
 summary: "Radiation injuries and long-term cancer data replaced the idea that repeated X-ray exposure was harmless."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Radiation Protection in Medicine"
     url: "https://www.iaea.org/topics/radiation-protection/patients"
@@ -30,6 +30,12 @@ sources:
     note: "Summarizes cumulative ionizing-radiation risk while emphasizing the benefits of medically necessary imaging."
 ---
 
-Not all medical imaging uses ionizing radiation: ultrasound and MRI do not use X-rays. CT and fluoroscopy can deliver much higher doses than a simple radiograph.
+X-rays entered medicine almost immediately after their discovery in 1895. Physicians could see fractures and foreign objects inside a living body without surgery, and the diagnostic value was so obvious that use spread before anyone had a mature theory of radiation injury or a reliable way to measure dose.
 
-Radiation protection follows the principle of keeping exposure as low as reasonably achievable while still obtaining the needed diagnostic or therapeutic result.
+Early operators sometimes exposed themselves and patients repeatedly for long periods. Skin burns, chronic nonhealing injuries, hair loss, infertility, and eventually excess cancers made clear that the rays were not biologically neutral.
+
+The underlying reason is that X-rays are **ionizing radiation**. They can damage molecules and DNA, and cumulative dose matters. The effect is not simply reset to zero after each examination.
+
+Radiology responded with shielding, dosimetry, shorter exposures, improved detectors, and the principles of justification and optimization. Modern diagnostic imaging can often obtain far more information with much less radiation than early equipment required.
+
+That does not mean an individual medically necessary X-ray is dangerously reckless. For most justified diagnostic studies, the clinical benefit greatly exceeds the small radiation risk. CT and fluoroscopy can deliver much larger doses than a simple radiograph, while MRI and ultrasound do not use ionizing radiation at all.

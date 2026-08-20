@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: "A family of subterranean-fire and volcanic explanations gave way to fault rupture and tectonic stress."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-08-13"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Some aspects of the early history of seismology"
     url: "https://www.usgs.gov/publications/some-aspects-early-history-seismology"
@@ -31,6 +31,12 @@ sources:
     note: "States that eruption-related earthquakes are usually moderate and distinguishes them from larger tectonic earthquakes near volcanoes."
 ---
 
-Volcanoes do generate earthquakes, and tectonic earthquakes can sometimes influence volcanic systems.
+Before Earth’s interior could be measured, earthquakes invited mechanical explanations based on processes people could imagine underground. Ancient and early-modern writers proposed trapped winds, expanding vapors, fire, collapsing cavities, or disturbances related to volcanoes.
 
-The overturned claim is that volcanism or subterranean explosion explains earthquakes in general.
+These were not one uniform doctrine, but they shared a basic assumption: shaking was produced by some local subterranean eruption, explosion, or movement of material beneath the affected region.
+
+Field geology and instrumental seismology changed the scale of the problem. Large earthquakes were repeatedly associated with faults, and measurements of ground displacement showed that crust on opposite sides could move abruptly by meters.
+
+After the 1906 San Francisco earthquake, elastic-rebound theory provided a powerful mechanism: tectonic forces slowly deform the crust until friction is overcome and a fault suddenly slips, releasing stored elastic energy as seismic waves. Plate tectonics later explained why stress concentrates along global belts.
+
+Volcanoes really can generate earthquakes, and tectonic events can interact with volcanic systems. The overturned idea is that volcanic or explosive underground processes explain earthquakes in general. Most major earthquakes are fault-rupture events driven by tectonic stress.

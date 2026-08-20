@@ -11,7 +11,7 @@ timelineYear: 1943
 summary: "Fluctuation experiments showed that resistant mutants generally existed before the selective challenge."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Mutations of Bacteria from Virus Sensitivity to Virus Resistance"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC1209226/"
@@ -30,6 +30,12 @@ sources:
     note: "Describes modern fluctuation tests in which mutations arise during growth before selection is applied."
 ---
 
-Mutation is not perfectly uniform or independent of conditions. Stress can change mutation rates, DNA repair, and which genomic regions are especially vulnerable.
+Resistance can look purposeful. A bacterial population exposed to a virus or antibiotic suddenly produces survivors carrying exactly the trait needed to withstand the new threat. One possible interpretation was that the challenge itself induced the appropriate adaptive change.
 
-That does not give mutation a mechanism for anticipating which specific sequence change an organism will need. Selection supplies the direction by preserving useful variants after they occur.
+In 1943, Salvador Luria and Max Delbrück designed a statistical test that distinguished that model from spontaneous mutation. They grew many independent bacterial cultures and then exposed each to bacteriophage.
+
+If exposure directly caused resistance, each culture should produce roughly similar numbers of resistant colonies. Instead, the numbers varied enormously. Some cultures contained “jackpots” of resistant descendants, exactly what would be expected if a mutation had occurred randomly **before** exposure and then multiplied during growth.
+
+Selection therefore explains the apparent direction: the environment does not specify the needed DNA change; it favors rare variants that already happen to survive.
+
+Mutation rates are not perfectly constant. Stress and DNA repair can alter how often and where mutations occur. What is missing is foresight: mutations do not inspect the environment and manufacture the specific useful sequence an organism will need.

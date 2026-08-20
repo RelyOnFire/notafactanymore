@@ -11,7 +11,7 @@ timelineYear: 1987
 summary: "Surgery was sometimes performed with little or no anesthesia because newborn pain was dismissed as reflexive."
 featured: false
 publishedAt: "2026-07-25"
-reviewedAt: "2026-07-25"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The infancy of infant pain research"
     url: "https://pubmed.ncbi.nlm.nih.gov/23548489/"
@@ -30,6 +30,14 @@ sources:
     note: "Reviews neonatal pain responses and modern pain-reduction methods."
 ---
 
-The older practice was also influenced by legitimate concerns about the safety of anesthetic drugs in very small and medically fragile infants.
+For much of the twentieth century, newborn pain was underestimated. The neonatal nervous system was known to be immature, and crying or withdrawal during procedures could be interpreted as primitive reflexes rather than evidence of meaningful pain.
 
-Recognizing neonatal pain does not mean that newborns experience or communicate pain exactly as adults do.
+That assumption had practical consequences. Some infants underwent major surgery with little analgesia beyond drugs intended to keep them still, partly because physicians also had legitimate concerns about the safety of anesthetics in tiny and critically ill patients.
+
+Research in the 1980s made the physiological cost visible. Newborns exposed to surgery without adequate analgesia showed large hormonal and cardiovascular stress responses. Providing pain relief reduced those responses and improved physiological stability.
+
+Subsequent work documented organized behavioral, autonomic, hormonal, and neural responses to painful stimulation. Neonatal pain prevention and treatment became a standard part of care.
+
+Newborns do not necessarily experience or communicate pain exactly as adults do, and pain measurement remains indirect because infants cannot describe what they feel.
+
+The overturned claim is the stronger one: immaturity does not make the newborn nervous system incapable of pain.

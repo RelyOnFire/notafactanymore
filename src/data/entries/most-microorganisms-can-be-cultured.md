@@ -11,7 +11,7 @@ timelineYear: 1985
 summary: "Direct counts and DNA surveys revealed a vast microbial majority missing from ordinary culture plates."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The uncultured microbial majority"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC419844/"
@@ -30,6 +30,12 @@ sources:
     note: "Introduced an in-situ cultivation approach that recovered organisms missed by conventional methods."
 ---
 
-“Uncultured” does not mean permanently impossible to grow. Improved media, co-culture, diffusion chambers, host systems, and single-cell methods continue to bring new organisms into culture.
+Classical microbiology was built around cultivation. A sample was spread on nutrient media, colonies appeared, and those organisms could then be isolated and studied. The success of the method naturally made the visible colonies look representative of the microbial world.
 
-The claim is also method-dependent: a species cultivable under one specialized protocol may remain invisible under routine clinical or environmental methods.
+Direct counts exposed a mismatch. Environmental samples often contained orders of magnitude more microbial cells than the number of colonies that appeared on laboratory plates—a discrepancy that became known as the **great plate count anomaly**.
+
+Molecular sequencing made the gap impossible to dismiss. DNA surveys revealed vast lineages with no cultured representatives, including organisms abundant in oceans, soils, sediments, and host-associated communities.
+
+The problem was often the laboratory rather than the organism. Some microbes require extremely low nutrient concentrations, slow growth, unusual gases, host cells, metabolic partners, or chemical signals provided by their natural environment. New media, co-culture, diffusion chambers, and single-cell methods have brought many formerly “unculturable” organisms into culture.
+
+So “uncultured” does not mean permanently impossible to grow. The correction is that routine methods sample a biased subset of microbial diversity rather than most of it.

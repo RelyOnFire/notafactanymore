@@ -11,20 +11,18 @@ timelineYear: 1965
 summary: "A celebrated network of Martian canals disappeared as telescopes improved and spacecraft photographed the planet up close."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Mars Then and Now"
     url: "https://apod.nasa.gov/apod/ap031112.html"
     publisher: "NASA Astronomy Picture of the Day"
     purpose: "Historical context"
     note: "Describes the late-19th-century canal debate and the prominent astronomers who claimed to see straight lines."
-
   - title: "Mariner 9 Orbital Study of Mars"
     url: "https://www.jpl.nasa.gov/news/mariner-9-orbital-study-of-mars/"
     publisher: "NASA Jet Propulsion Laboratory"
     purpose: "Current evidence"
     note: "States that Mariner 6 and 7 photographs showed no trace of the canals earlier astronomers believed were present."
-
   - title: "Triumph of Mariner 4"
     url: "https://science.nasa.gov/mars/triumph-of-mariner-4/"
     publisher: "NASA"
@@ -32,6 +30,12 @@ sources:
     note: "Explains how the first close-up Mars images ended many ideas about an inhabited, Earth-like planet."
 ---
 
-The canal claim was contested even at its height. It should be understood as a reported telescopic observation accepted by several prominent astronomers, not as unanimous astronomical consensus.
+During the favorable Mars opposition of 1877, Giovanni Schiaparelli mapped narrow features he called *canali*—Italian for channels. In English, “canals” carried a stronger suggestion of artificial construction, and later observers, most famously Percival Lowell, drew elaborate networks of straight lines across the planet.
 
-Mars genuinely contains natural channels carved by water, lava, wind, and mass movement. Those features are distinct from Lowell's regular geometric canal network.
+The claim was never unanimous. Some skilled astronomers could not reproduce the features at all, and increasingly powerful telescopes failed to make the supposed geometry more secure.
+
+The problem lay near the limits of visual resolution. Faint, disconnected patches and boundaries can be perceptually joined into straight lines when viewed through a small, turbulent telescopic image. The resulting maps could become more orderly than the surface that produced the impression.
+
+Mariner spacecraft finally photographed Mars at close range. The geometric network was absent. Later missions revealed a far richer real landscape of impact craters, volcanoes, dunes, fractures, valleys, and channels carved by ancient water and other processes.
+
+Those genuine channels should not be confused with Lowell's planet-spanning straight canals. The historical claim is best understood as a prominent and contested telescopic interpretation, not a unanimous astronomical consensus.

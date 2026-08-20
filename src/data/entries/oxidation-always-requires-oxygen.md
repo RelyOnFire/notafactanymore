@@ -11,20 +11,18 @@ timelineYear: 1920
 summary: "Oxidation expanded from a reaction with oxygen into the more general loss of electrons."
 featured: false
 publishedAt: "2026-07-24"
-reviewedAt: "2026-07-24"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Oxygen"
     url: "https://periodic-table.rsc.org/element/8/oxygen"
     publisher: "Royal Society of Chemistry"
     purpose: "Historical context"
     note: "Describes the discovery and naming of oxygen in the period when combustion and oxidation were understood through oxygen combination."
-
   - title: "Oxidation-reduction reaction"
     url: "https://goldbook.iupac.org/terms/view/O04362"
     publisher: "International Union of Pure and Applied Chemistry"
     purpose: "Current evidence"
     note: "Defines oxidation and reduction through changes in oxidation state and electron transfer."
-
   - title: "Redox"
     url: "https://www.rsc.org/periodic-table/chemistry/redox"
     publisher: "Royal Society of Chemistry"
@@ -32,6 +30,12 @@ sources:
     note: "Explains oxidation as electron loss and reduction as electron gain."
 ---
 
-The older oxygen-based meaning is still useful in ordinary reactions such as burning and rusting.
+The word *oxidation* began literally with oxygen chemistry. Combustion, rusting, and related reactions involved substances combining with oxygen, so defining oxidation as oxygen addition worked well for the phenomena that gave the process its name.
 
-The term was broadened rather than discarded, so this entry is best classified as a conceptual expansion.
+Chemistry later encountered reactions with the same underlying structure but no oxygen at all. Chlorine could oxidize metals, electrochemical cells could drive oxidation and reduction, and electron theory provided a more general language for what was changing.
+
+Oxidation came to mean **loss of electrons**, or equivalently an increase in oxidation state, while reduction means gain of electrons or a decrease in oxidation state.
+
+That broader definition unifies oxygen reactions with a much larger class of redox chemistry. When iron rusts, oxygen is still involved and the older description remains perfectly useful. But oxygen is not what makes the process oxidation at the most general level.
+
+This is therefore a conceptual expansion rather than a simple reversal. Chemistry retained the old examples and generalized the rule that connects them.

@@ -11,7 +11,7 @@ timelineYear: 1957
 summary: "An arthritic skeleton helped create the stooped-brute stereotype, which later fossils and archaeology overturned."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Homo neanderthalensis"
     url: "https://www.si.edu/object/homo-neanderthalensis%3Adpo_3d_200128"
@@ -30,6 +30,12 @@ sources:
     note: "Reviews how archaeological discoveries replaced the brutish popular and scholarly image."
 ---
 
-Neanderthals differed from contemporary *Homo sapiens* in anatomy, population history, and culture, well beyond facial appearance.
+One skeleton had an outsized influence on the public image of Neanderthals. In the early twentieth century, Marcellin Boule reconstructed the elderly La Chapelle-aux-Saints individual with a bent spine, flexed knees, and a shambling posture. The specimen was affected by severe arthritis, but the reconstruction helped make the stooped “caveman” stereotype look anatomical.
 
-The correction also should not turn them into idealized copies of us. Evidence for particular symbolic practices remains uneven and is debated site by site.
+Reassessment showed that Neanderthals were fully upright bipeds. Their stocky bodies, broad trunks, and relatively short distal limbs are better interpreted as adaptations to cold Pleistocene environments than as signs of primitiveness or poor posture.
+
+Archaeology changed the behavioral picture as well. Neanderthals manufactured sophisticated stone tools, controlled fire, hunted large animals, and sometimes survived serious injuries that imply prolonged care by other group members.
+
+Evidence for ornaments, pigments, burials, and other symbolic practices has further narrowed the old intellectual gulf, though individual sites remain debated.
+
+The correction should not turn Neanderthals into idealized copies of modern humans. They had their own anatomy, population history, and cultural traditions. What disappeared was the caricature of an inherently stooped, shambling, unintelligent brute.

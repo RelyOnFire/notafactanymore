@@ -12,7 +12,7 @@ lifespanComparable: true
 summary: "A seemingly single organism became a partnership between fungi, photosynthetic cells, and other microbes."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-08-13"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Lichens and their partners"
     url: "https://www.fs.usda.gov/wildflowers/beauty/lichens/about.shtml"
@@ -31,6 +31,12 @@ sources:
     note: "Reports an additional fungal partner in many lichens, complicating the classic two-member model."
 ---
 
-A lichen still functions as a recognizable biological unit and is usually named according to its main fungal partner.
+A lichen looks like one organism. It forms a coherent crust, leafy sheet, or branching body, grows as a unit, and can be collected and named much like a moss or small plant. Early taxonomists therefore treated lichens as ordinary individual organisms.
 
-Calling it a partnership does not mean it is merely a loose or accidental mixture.
+Microscopy revealed a stranger structure. Nineteenth-century investigators found fungal filaments wrapped around green algal or cyanobacterial cells. The lichen body was not the tissue of one plant-like species but a stable **symbiosis** between organisms with different ancestries and jobs.
+
+The fungal partner builds most of the visible structure, absorbs water and minerals, and provides protection. The photosynthetic partner supplies carbohydrates; cyanobacterial partners can sometimes contribute fixed nitrogen as well.
+
+Modern molecular studies have made the partnership even less tidy. Some lichens contain additional fungi, yeasts, bacteria, or more than one photosynthetic partner, so even the classic “one fungus plus one alga” formula can be too simple.
+
+A lichen still functions as a recognizable biological unit and is usually named according to its main fungal partner. Calling it a symbiosis does not mean it is a loose accidental mixture. The reclassification is that this apparent individual is an organized biological partnership.

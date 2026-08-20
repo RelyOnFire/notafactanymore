@@ -11,7 +11,7 @@ timelineYear: 1965
 summary: "Seasonal darkening once read as Martian plant growth became shifting dust and exposed terrain."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Mars Exploration: Historical Perspective"
     url: "https://nssdc.gsfc.nasa.gov/planetary/mars/marshist.html"
@@ -30,6 +30,12 @@ sources:
     note: "Shows that winds and dust redistribution can produce major changes in dark and bright surface areas."
 ---
 
-Mars may have hosted life in the distant past, and subsurface life remains an open question.
+Early telescopic observers could see broad dark and bright markings on Mars but not the fine surface details behind them. Some of the darker regions appeared to change with the Martian seasons, an observation that invited an Earth-like explanation: vegetation might be greening, spreading, or dying back as conditions changed.
 
-This card concerns the old interpretation of visible seasonal markings as present-day vegetation.
+That interpretation remained plausible while Mars was imagined as a colder but broadly habitable terrestrial world. The telescope compressed dust, frost, terrain, and atmospheric effects into shifting patches of brightness.
+
+Spacecraft transformed the evidence. Close imaging revealed a dry, dusty landscape rather than plant-covered seasonal zones, while spectroscopy failed to find the expected signatures of widespread surface vegetation. Modern observations show that Martian winds can move thin veneers of bright dust, exposing or concealing darker material and changing large-scale **albedo** patterns.
+
+Frost and other seasonal processes can contribute as well. The markings really do change; the error was the biological mechanism assigned to them.
+
+Mars may once have supported habitable environments, and the possibility of past or subsurface life remains scientifically open. This card concerns the former interpretation of visible present-day surface darkening as seasonal plant growth.

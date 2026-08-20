@@ -11,7 +11,7 @@ timelineYear: 1950
 summary: "Large epidemiological studies and biological evidence established smoking as the dominant cause of lung cancer."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Smoking and Carcinoma of the Lung"
     url: "https://www.bmj.com/content/2/4682/739"
@@ -30,6 +30,16 @@ sources:
     note: "Summarizes the causal evidence and present estimates of smoking-related cancer risk."
 ---
 
-Smoking is not the only cause of lung cancer. Radon, asbestos, air pollution, inherited susceptibility, and other exposures also contribute, and some patients have never smoked.
+Lung cancer was once uncommon enough that its dramatic twentieth-century rise demanded explanation. Cigarette consumption had increased enormously, but an association alone did not automatically establish cause.
 
-The overturned position was sustained partly by genuine methodological caution and partly by tobacco-industry efforts to manufacture uncertainty after the evidence became strong.
+In 1950, major case-control studies reported that people with lung cancer were far more likely to have smoked, especially heavily. Prospective cohort studies then followed smokers and nonsmokers through time and found the same pattern.
+
+The evidence accumulated in ways expected for causation: risk increased with cumulative smoking exposure, declined after quitting, and appeared across different populations and study designs.
+
+Laboratory and molecular research added mechanisms. Tobacco smoke contains numerous carcinogens capable of damaging DNA, and tumors from smokers often bear mutational patterns consistent with that exposure.
+
+By 1964, the U.S. Surgeon General's review concluded that cigarette smoking caused lung cancer.
+
+Smoking is not the only cause. Radon, asbestos, air pollution, inherited susceptibility, and other exposures contribute, and some patients have never smoked.
+
+The eventual controversy also cannot be separated from tobacco-industry efforts to amplify uncertainty after the causal evidence had become strong.

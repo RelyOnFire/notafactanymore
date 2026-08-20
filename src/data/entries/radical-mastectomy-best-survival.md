@@ -11,7 +11,7 @@ timelineYear: 1980
 summary: "Trials showed that more disfiguring surgery did not improve survival for many women with early breast cancer."
 featured: false
 publishedAt: "2026-07-25"
-reviewedAt: "2026-07-25"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Umberto Veronesi"
     url: "https://prevention.cancer.gov/about-dcp/history-and-timeline/commemoration-50th/umberto-veronesi"
@@ -30,6 +30,14 @@ sources:
     note: "Explains that later U.S. trials also found no survival advantage for radical surgery."
 ---
 
-The appropriate operation depends on tumor size, biology, location, genetics, previous treatment, patient preference, and access to radiation.
+The radical mastectomy was built on a coherent model of cancer spread. If breast cancer advanced outward in an orderly sequence from the breast into nearby lymph nodes and then farther into the body, removing more local tissue should prevent later dissemination.
 
-Breast-conserving treatment is not suitable for every cancer, but maximum tissue removal is no longer assumed to be inherently superior.
+That logic encouraged increasingly extensive operations, including removal of the breast, lymph nodes, and underlying chest muscles.
+
+Randomized trials tested whether more surgery actually produced better survival. Beginning in the 1970s, studies in Europe and the United States compared radical procedures with less extensive surgery and, later, breast-conserving surgery plus radiation.
+
+For many women with early breast cancer, the more disfiguring operation did **not** improve overall survival.
+
+The results helped replace the purely local-spread model with a more systemic understanding of breast cancer biology and supported treatments tailored to tumor characteristics rather than simply maximizing tissue removal.
+
+Mastectomy remains the right operation in many circumstances, and breast-conserving therapy is not appropriate for every patient. The superseded rule is that greater surgical extent is inherently better cancer treatment.

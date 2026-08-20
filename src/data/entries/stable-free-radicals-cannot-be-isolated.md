@@ -11,7 +11,7 @@ timelineYear: 1900
 summary: "Gomberg's triphenylmethyl radical overturned the belief that organic radicals could not persist independently."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Moses Gomberg and the Discovery of Organic Free Radicals"
     url: "https://www.acs.org/education/whatischemistry/landmarks/freeradicals.html"
@@ -30,6 +30,14 @@ sources:
     note: "Summarizes the later acceptance and broad importance of stable and reactive radicals."
 ---
 
-“Stable” is relative. Many radicals remain highly reactive and exist only briefly, while persistent radicals survive because their structures suppress the usual reaction pathways.
+Nineteenth-century chemistry had already used the word *radical* for recurring groups of atoms within compounds, but isolating a genuinely free carbon-centered radical was another matter. Repeated failures and ordinary valence rules made such species look too reactive to exist independently.
 
-The card concerns free radicals as isolable chemical species, not the broader historical use of “radical” for ordinary bonded groups within molecules.
+In 1900, Moses Gomberg was trying to prepare a highly substituted hydrocarbon when he obtained unexpected products. He proposed that the chemistry involved **triphenylmethyl**, a carbon-centered free radical.
+
+The claim challenged accepted ideas about carbon valence and faced years of skepticism. Further experiments eventually established that persistent radicals were real chemical species rather than analytical mistakes or ordinary closed-shell molecules.
+
+Their persistence is structural, not magical. Resonance can spread the unpaired electron across a molecule, while bulky groups can physically shield the reactive center and suppress the reactions that normally destroy radicals.
+
+“Stable” is therefore relative. Many radicals exist for only fractions of a second; others can be prepared, stored, crystallized, and studied.
+
+The discovery opened modern free-radical chemistry and showed that high reactivity does not automatically make isolation impossible.

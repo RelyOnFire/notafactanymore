@@ -11,7 +11,7 @@ timelineYear: 1980
 summary: "Family-blaming theories lost ground as schizophrenia emerged as a complex neurodevelopmental disorder."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Family therapy for persons with schizophrenia"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10238333/"
@@ -30,6 +30,14 @@ sources:
     note: "States that psychodynamic family theories have not survived as viable causal models."
 ---
 
-Family stress can affect symptoms, relapse risk, and recovery, which is why supportive family interventions can still be useful.
+Mid-twentieth-century psychiatry often searched for the origins of schizophrenia inside the family. Theories of the **“schizophrenogenic mother”** blamed cold, controlling, or contradictory parenting, while the “double bind” hypothesis proposed that repeated incompatible messages trapped a child in pathological communication.
 
-That does not mean families caused the illness.
+These ideas were influential partly because schizophrenia's biology was poorly understood and psychoanalytic explanations dominated large parts of psychiatry.
+
+They also imposed a heavy burden on families, especially mothers, by treating ordinary or stressed relationships as the cause of a severe psychiatric disorder.
+
+Genetic studies, adoption and twin research, developmental evidence, epidemiology, and neuroscience increasingly pointed elsewhere. Schizophrenia is now understood as a complex disorder involving inherited vulnerability, brain development, and multiple environmental risk factors rather than one pathogenic family pattern.
+
+Family environment can still matter greatly **after** illness develops. High conflict or stress can affect relapse risk, and supportive family interventions can improve outcomes.
+
+That therapeutic relevance is not evidence that families created the disorder. The causal family-blaming theories themselves did not survive.

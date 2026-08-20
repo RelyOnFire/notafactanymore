@@ -11,7 +11,7 @@ timelineYear: 1919
 summary: "A childhood bone disease blamed on infection became a model of vitamin deficiency and sunlight biology."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "English Disease: Historical Notes on Rickets"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5133108/"
@@ -30,6 +30,16 @@ sources:
     note: "Explains modern nutritional and metabolic causes of rickets."
 ---
 
-Infections can accompany or worsen illness in children with severe vitamin D deficiency, which helped confuse cause and consequence.
+Rickets became especially common in crowded industrial cities, where children often lived in dark housing, had poor diets, and suffered frequent infections. Those associations made infection, bad air, and poor hygiene plausible causal explanations.
 
-Not every case of rickets is due to vitamin D deficiency alone.
+Experiments gradually separated correlation from cause. Animal studies linked abnormal bone development to diet, while cod-liver oil could prevent or treat the disease.
+
+Sunlight proved just as important. Children exposed to ultraviolet light improved, connecting rickets to a factor that the body could generate in skin.
+
+That factor became identified as **vitamin D**, which is essential to calcium and phosphate metabolism and normal mineralization of growing bone.
+
+The new model also explained why rickets clustered in polluted northern cities: limited sunlight and restricted diets could occur together in the same disadvantaged populations that also experienced more infectious disease.
+
+Not every case is caused by vitamin D deficiency alone. Calcium or phosphate deficiency, malabsorption, liver or kidney disease, and inherited disorders can also produce rickets.
+
+The key correction was causal: infection could accompany the disease without being its primary explanation.

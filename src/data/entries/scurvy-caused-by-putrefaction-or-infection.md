@@ -12,7 +12,7 @@ lifespanComparable: true
 summary: "A putrefactive disease model gave way to the demonstration that scurvy is caused by a missing dietary factor, later identified as vitamin C."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-08-13"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Scurvy on sea and land"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4337985/"
@@ -31,6 +31,14 @@ sources:
     note: "Reviews vitamin C deficiency as the cause of scurvy and the eventual isolation of the antiscorbutic factor."
 ---
 
-Citrus treatment worked long before vitamin C was identified, but practice and explanation did not change at the same time.
+Scurvy was one of the great diseases of long sea voyages. Bleeding gums, bruising, weakness, poor wound healing, and death appeared in crews living for months under cold, damp, crowded conditions.
 
-Other hardships at sea affected health, even though they were not the specific cause of scurvy.
+Those circumstances encouraged explanations based on putrefaction of the body, bad air, inactivity, infection, or combinations of environmental hardship and unsuitable food.
+
+Citrus repeatedly provided a clue. James Lind's 1747 comparison famously found rapid improvement among sailors given oranges and lemons, but a working treatment did not immediately produce a correct theory—or even consistent naval practice.
+
+Only in the early twentieth century did controlled animal experiments establish scurvy as a **deficiency disease** caused by the absence of a specific dietary factor. That factor was later isolated and identified as vitamin C.
+
+The delay is instructive: evidence that a treatment works can precede understanding of why it works by generations.
+
+Other hardships aboard ships certainly affected health, and citrus was not always stored or processed in ways that preserved its antiscorbutic activity. But the specific cause of scurvy is severe vitamin C deficiency.

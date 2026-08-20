@@ -11,7 +11,7 @@ timelineYear: 1957
 summary: "Tobacco mosaic virus experiments demonstrated that RNA itself could carry a genome."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Reconstitution of Active Tobacco Mosaic Virus from Its Inactive Protein and Nucleic Acid Components"
     url: "https://www.pnas.org/doi/10.1073/pnas.41.10.690"
@@ -30,6 +30,16 @@ sources:
     note: "Reported that the nucleic-acid component determined infectivity and viral characteristics."
 ---
 
-This card is distinct from the claim that RNA is “only a messenger.” RNA can also catalyze reactions, regulate genes, form cellular structures, and perform many other functions.
+Once DNA was established as the hereditary material of cells, RNA was often assigned a secondary role: an intermediate that copied information from DNA and helped express it.
 
-The correction likewise does not make DNA and RNA interchangeable in all settings. Their chemistry gives them different stability, replication, and repair properties.
+Tobacco mosaic virus provided a direct test of whether that hierarchy was universal. The virus consists largely of RNA wrapped in a protein coat, and researchers could separate the components experimentally.
+
+Reconstituted virus containing the RNA became infectious again. More importantly, experiments using components from different viral strains showed that inherited viral characteristics followed the **RNA**, not the protein coat.
+
+RNA could therefore function as a genome.
+
+Many viruses are now known to use RNA as their hereditary material, while cellular organisms use DNA for long-term genome storage.
+
+The result does not make RNA and DNA interchangeable in every setting. Their chemical stability, replication, and repair differ substantially.
+
+It also differs from the broader claim that RNA is “only a messenger.” RNA can serve hereditary, catalytic, regulatory, and structural roles; this card is specifically about its ability to carry genetic information across generations of a replicating system.

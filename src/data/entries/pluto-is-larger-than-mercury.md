@@ -11,7 +11,7 @@ timelineYear: 1997
 summary: "Better measurements shrank Pluto from a major planet-sized world to a small dwarf planet."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Pluto: Facts"
     url: "https://science.nasa.gov/dwarf-planets/pluto/facts/"
@@ -30,6 +30,14 @@ sources:
     note: "Describes how knowledge of Pluto's size and the surrounding population changed after its discovery."
 ---
 
-Early estimates varied widely rather than settling on one exact Earth-sized value.
+When Pluto was discovered in 1930, astronomers knew its orbit long before they knew its physical size. The object appeared only as a point of light, so diameter estimates depended heavily on assumptions about how reflective its surface was.
 
-The relevant correction is Pluto's initially overestimated scale; its later reclassification as a dwarf planet is a separate issue.
+If Pluto were dark, it would need to be large to appear as bright as it did. Early estimates therefore ranged widely and sometimes made it comparable to major planets.
+
+The discovery of Charon in 1978 transformed the mass estimate because the moon's orbit allowed the Pluto system to be weighed dynamically. Pluto turned out to be far less massive than expected.
+
+Stellar occultations and improved telescopes refined the radius, and the New Horizons flyby in 2015 measured a diameter of about **2,377 kilometers**—smaller than Earth's Moon and dramatically smaller than Mercury.
+
+The history is a measurement correction, not the same event as Pluto's later reclassification. Astronomers had already learned that Pluto was a small world before the 2006 planet-definition debate.
+
+Early estimates also varied rather than settling on one exact Earth-sized figure. The enduring correction is the scale: Pluto is much smaller than the major planets it was once compared with.

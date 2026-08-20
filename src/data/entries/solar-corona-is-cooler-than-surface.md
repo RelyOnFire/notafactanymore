@@ -11,7 +11,7 @@ timelineYear: 1940
 summary: "Highly ionized iron revealed an outer solar atmosphere far hotter than the Sun's visible surface."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Spots, Waves and Wind: A Solar Science Timeline"
     url: "https://www.nasa.gov/history/spots-waves-and-wind-a-solar-science-timeline-full-text/"
@@ -30,6 +30,14 @@ sources:
     note: "Reviews spectroscopy, ionization, and the unexpectedly high coronal temperature."
 ---
 
-The observation is secure, but the precise balance of mechanisms that heats different parts of the corona remains an active research problem. Magnetic reconnection and wave dissipation are leading contributors.
+The visible surface of the Sun is about 5,800 kelvin. Ordinary intuition says that material farther from a hot surface should be cooler, so the faint outer corona was naturally expected to have a lower temperature.
 
-Temperature also describes particle energy rather than total stored heat. The corona is extremely tenuous despite its high temperature.
+Its spectrum contained mysterious emission lines that could not be matched to known elements under familiar laboratory conditions. For a time, astronomers proposed an unknown element called **coronium**.
+
+The puzzle disappeared in an unexpected way. Bengt Edlén showed that the lines came from familiar atoms such as iron stripped of many electrons. Producing those highly ionized states requires temperatures around a million kelvin.
+
+The corona was not cooler than the photosphere—it was hundreds of times hotter.
+
+That created a new problem rather than ending the story: how can the tenuous outer atmosphere become so hot above a much cooler visible surface? Magnetic reconnection and wave dissipation are among the leading mechanisms, and the balance varies across solar structures.
+
+Temperature here refers to particle energies. The corona is extraordinarily thin, so its total heat content is not comparable to that of dense solar layers simply because its temperature is higher.

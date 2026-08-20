@@ -11,7 +11,7 @@ timelineYear: 1930
 summary: "Staudinger established polymers as giant covalently bonded molecules rather than molecular aggregates."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Hermann Staudinger and the Foundation of Polymer Science"
     url: "https://www.acs.org/education/whatischemistry/landmarks/staudingerpolymerscience.html"
@@ -30,6 +30,16 @@ sources:
     note: "Recognizes Staudinger's discoveries in macromolecular chemistry."
 ---
 
-Some polymer materials also contain intermolecular associations, crystallites, cross-links, fillers, and entanglements. These affect their bulk properties without replacing the covalent macromolecular chains.
+Rubber, cellulose, proteins, and other polymeric materials behaved strangely compared with familiar small molecules. Their solutions were unusually viscous, and apparent molecular masses seemed implausibly large.
 
-Not every large molecule is a polymer, and not every polymer is a simple linear chain.
+A common explanation was that the material consisted of ordinary small molecules held together in loose colloidal aggregates rather than one enormous covalently bonded structure.
+
+Hermann Staudinger argued the opposite in the 1920s. Polymers, he proposed, were genuine **macromolecules**: long chains whose atoms were connected by ordinary covalent bonds.
+
+The claim met substantial resistance because molecules of such size seemed chemically unreasonable. Staudinger and others built the case through chemical transformations, viscosity studies, and increasingly persuasive molecular-weight measurements.
+
+Macromolecular chemistry eventually became the foundation for understanding synthetic plastics, rubber, cellulose, proteins, and many other materials.
+
+Bulk polymer properties can still depend on intermolecular forces, entanglements, crystallites, fillers, and cross-links. Those features do not replace the underlying covalently bonded chains.
+
+Not every large molecule is a polymer, and not every polymer is a simple straight chain. The overturned idea was that polymer size itself had to be an illusion created by aggregation.

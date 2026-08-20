@@ -11,7 +11,7 @@ timelineYear: 1986
 summary: "Disease in nonsmokers showed that diluted involuntary tobacco smoke is not harmless."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Health Problems Caused by Secondhand Smoke"
     url: "https://www.cdc.gov/tobacco/secondhand-smoke/health.html"
@@ -30,6 +30,14 @@ sources:
     note: "An influential early prospective study linking household exposure with lung cancer."
 ---
 
-Secondhand exposure is generally lower than active smoking, so the risks are not numerically identical. Lower dose does not mean zero risk.
+Once the dangers of active smoking became clear, involuntary exposure still seemed like a different problem. A nonsmoker in the same room inhaled a much smaller dose, and ventilation or dilution was often assumed to make that dose medically insignificant.
 
-Ordinary ventilation, air cleaning, or separate smoking sections do not reliably eliminate exposure; removing indoor combustion is the effective control.
+Epidemiology showed otherwise. Studies of nonsmokers living with smokers found elevated lung-cancer risk, and later research linked secondhand smoke to coronary heart disease, stroke, respiratory illness, and harms in infants and children.
+
+Biomarkers confirmed that nonsmokers were absorbing tobacco-smoke chemicals rather than merely smelling them. Smoke-free workplace and public-space studies added evidence that reducing exposure produced measurable health benefits.
+
+Secondhand exposure is generally lower than active smoking, so the risks are not numerically identical. Lower exposure, however, does not mean zero biological effect.
+
+Ordinary ventilation, air cleaning, or separating smokers within the same indoor space cannot reliably eliminate exposure.
+
+The correction is therefore about causation, not equivalence: secondhand smoke is less concentrated than actively inhaled smoke but still causes disease.

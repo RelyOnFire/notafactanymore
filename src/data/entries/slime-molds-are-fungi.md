@@ -11,7 +11,7 @@ timelineYear: 1990
 summary: "Fungus-like fruiting bodies hid the amoeboid ancestry of slime molds."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Renewing Linnaean taxonomy"
     url: "https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12920"
@@ -30,6 +30,14 @@ sources:
     note: "Reviews the amoeboid biology and evolutionary placement of social slime molds."
 ---
 
-“Slime mold” itself refers to more than one evolutionary group.
+Slime molds earned their fungal classification from appearance. They produce spores and often build delicate stalked fruiting structures that can look remarkably like tiny mushrooms.
 
-Their resemblance to fungi is a case of similar life cycles evolving in unrelated organisms.
+Their feeding stage tells a different story. Rather than growing as absorptive fungal filaments, many slime molds move as amoeboid cells that crawl, engulf food, and sometimes aggregate into larger multicellular structures.
+
+Microscopy and life-cycle studies already made them unusual fungi. Molecular phylogeny resolved the deeper relationship: the best-known slime-mold groups belong with amoeba-like eukaryotic lineages rather than within the true fungi.
+
+The resemblance is therefore largely convergent. Unrelated organisms evolved similar spore-producing structures because those structures solve similar dispersal problems.
+
+“Slime mold” itself is not one single evolutionary branch. The name covers more than one lineage with superficially similar life histories.
+
+Their historical placement among fungi was understandable from morphology, and mycologists contributed enormously to their study. The reclassification changed ancestry, not the fact that their fruiting bodies can still look strikingly fungal.

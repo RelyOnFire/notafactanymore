@@ -12,7 +12,7 @@ summary: "Instrumental measurements confirmed ocean waves once dismissed as impl
 featured: true
 featuredOrder: 4
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "What is a rogue wave?"
     url: "https://oceanservice.noaa.gov/facts/roguewaves.html"
@@ -31,6 +31,12 @@ sources:
     note: "Describes the Draupner platform measurement and recorded wave characteristics."
 ---
 
-There is no single mechanism behind every rogue wave, and not every unusually large wave qualifies under the same statistical definition.
+Sailors had long reported isolated walls of water far larger than the surrounding waves. The stories were difficult to verify and often exceeded what standard linear wave statistics seemed likely to produce, so extreme accounts could be dismissed as exaggeration or measurement error.
 
-The revised science does not validate every maritime story. It establishes that exceptional isolated waves are physically possible and measurable.
+On 1 January 1995, instruments on the Draupner oil platform in the North Sea recorded an exceptional wave directly. The **Draupner wave** rose dramatically above the surrounding sea state and supplied the kind of objective measurement the debate had lacked.
+
+Rogue-wave research expanded rapidly afterward. Extreme waves can arise through several mechanisms, including ordinary statistical chance, interaction between wave groups, focusing by currents, directional effects, and nonlinear dynamics.
+
+There is no single mechanism behind every event, and definitions differ somewhat depending on whether height is compared with nearby waves or the significant wave height of the sea state.
+
+The revised science does not validate every dramatic maritime story. It establishes the narrower point that isolated waves far larger than their surroundings are physically real and measurable.

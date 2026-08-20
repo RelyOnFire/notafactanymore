@@ -11,7 +11,7 @@ timelineYear: 1984
 summary: "A nearly routine childbirth procedure proved more harmful than a selective approach."
 featured: false
 publishedAt: "2026-07-25"
-reviewedAt: "2026-07-25"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Network meta-analysis of episiotomy approaches"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12442280/"
@@ -30,6 +30,14 @@ sources:
     note: "States that routine or liberal episiotomy is not recommended for spontaneous vaginal birth."
 ---
 
-Episiotomy can still be considered in selected situations, especially during some assisted or urgent births.
+Episiotomy was introduced as a controlled surgical cut that could replace an unpredictable natural tear. The logic was persuasive: a clean incision might heal better, prevent severe perineal injury, protect the pelvic floor, and speed delivery.
 
-The discarded claim is that cutting routinely protects women as a group.
+During the twentieth century, the procedure became routine in many hospitals even though those preventive benefits had not been established by strong trials.
+
+Comparative studies reversed the assumption. Routine episiotomy did not reliably prevent severe tearing or later pelvic-floor problems and could itself increase pain, blood loss, healing difficulty, and extension into more serious injury.
+
+A **restrictive** strategy—using episiotomy only when there is a specific indication—produced better overall outcomes for most spontaneous vaginal births and became the recommended approach.
+
+Episiotomy has not disappeared. It can still be appropriate in selected assisted or urgent deliveries or when clinicians judge that enlarging the vaginal opening is necessary.
+
+The overturned claim is the population-wide preventive rule: routinely cutting the perineum does not protect mothers better than selective use.

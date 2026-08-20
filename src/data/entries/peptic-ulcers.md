@@ -12,14 +12,13 @@ summary: "The stress-and-lifestyle explanation was replaced after evidence showe
 featured: true
 featuredOrder: 1
 publishedAt: "2026-07-16"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The Nobel Prize in Physiology or Medicine 2005: Press release"
     url: "https://www.nobelprize.org/prizes/medicine/2005/press-release/"
     publisher: "The Nobel Prize"
     purpose: "Historical context"
     note: "Explains that stress and lifestyle were considered the major causes of peptic-ulcer disease when Marshall and Warren discovered H. pylori, and summarizes the evidence establishing the bacterium's role."
-
   - title: "Peptic Ulcer Disease"
     url: "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/all-content"
     publisher: "U.S. National Institute of Diabetes and Digestive and Kidney Diseases"
@@ -27,6 +26,14 @@ sources:
     note: "Identifies H. pylori infection and NSAID use as the most common causes of peptic ulcers."
 ---
 
-The older claim was mainstream medicine rather than a fringe misconception. Stress, diet, smoking, personality, and excess acid were widely emphasized in explanations and treatment. The discovery of *H. pylori* did not make stress irrelevant to symptoms or health, but it fundamentally changed the accepted causal explanation for most peptic ulcers.
+For much of the twentieth century, peptic ulcers were explained largely through excess stomach acid, stress, diet, smoking, and personality. Treatment therefore emphasized antacids, bland diets, stress reduction, and sometimes surgery.
 
-This entry is classified as **Superseded**, rather than merely overturned, because the older model was replaced by a stronger causal account while some contributing lifestyle factors can still affect symptoms, healing, or recurrence.
+In the early 1980s, pathologist Robin Warren repeatedly noticed curved bacteria living in inflamed stomach tissue. Barry Marshall joined him in investigating the organism, later named *Helicobacter pylori*.
+
+The idea faced resistance because the stomach was considered too acidic for long-term bacterial colonization and because ulcers already had an established physiological explanation. Evidence accumulated that *H. pylori* was strongly associated with chronic gastritis and ulcer disease, and that eliminating the infection with antibiotics dramatically reduced recurrence.
+
+Another major cause also became clear: NSAIDs can weaken the stomach and duodenal lining and cause ulcers independently of *H. pylori*.
+
+Stress and lifestyle did not become biologically meaningless. Smoking can impair healing, severe physiological stress can contribute to ulceration in critically ill patients, and symptoms can be influenced by many factors.
+
+The causal center nevertheless changed. Most peptic ulcers are now understood through *H. pylori* infection and NSAID exposure rather than a general stress-and-personality model.

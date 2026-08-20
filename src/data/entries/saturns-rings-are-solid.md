@@ -11,7 +11,7 @@ timelineYear: 1859
 summary: "Dynamics and spectroscopy replaced Saturn's solid rings with countless independently orbiting particles."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Hubble Views Saturn Ring-Plane Crossing"
     url: "https://science.nasa.gov/missions/hubble/hubble-views-saturn-ring-plane-crossing/"
@@ -30,6 +30,14 @@ sources:
     note: "Summarizes Cassini measurements of the rings' particles, composition, thickness, and structure."
 ---
 
-Ring particles collide, clump temporarily, and interact gravitationally, so the rings are not an idealized cloud of completely isolated grains.
+Through early telescopes, Saturn's rings looked like smooth, continuous bands. A solid disk or set of rigid rings was therefore a natural interpretation.
 
-From a distance they still behave collectively like a disk, with waves and structures that can resemble fluid behavior without forming one solid object.
+The dynamics created trouble. A rigid ring large enough to encircle Saturn would be difficult to keep stable, and observed gaps and translucent regions suggested that the structure was not a single solid object.
+
+James Clerk Maxwell attacked the problem mathematically in the 1850s. He showed that neither a rigid solid ring nor a continuous fluid ring could remain stable in the required form. The viable solution was a ring made of many separate bodies orbiting Saturn.
+
+In 1895, James Keeler supplied direct observational support through spectroscopy. The inner ring material moved faster than the outer material, exactly as expected for independently orbiting particles following Keplerian motion.
+
+Modern spacecraft have revealed an enormous population of mostly icy particles ranging from dust grains to large blocks and embedded moonlets.
+
+The particles still collide, clump, and interact gravitationally, so the rings can develop waves and collective disk-like structures. They are particulate, not one solid sheet.

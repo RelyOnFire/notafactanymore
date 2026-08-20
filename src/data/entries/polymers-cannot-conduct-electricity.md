@@ -11,7 +11,7 @@ timelineYear: 1981
 summary: "Doped conjugated polymers showed that a plastic could conduct almost like a metal."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Press release: The 2000 Nobel Prize in Chemistry"
     url: "https://www.nobelprize.org/prizes/chemistry/2000/press-release/"
@@ -30,6 +30,14 @@ sources:
     note: "Reports the dramatic conductivity increase produced by doping polyacetylene."
 ---
 
-Conductive polymers work through mechanisms specific to their molecular structure. Their conductivity depends on conjugation, doping, morphology, temperature, and processing.
+Ordinary plastics are excellent electrical insulators. Their electrons are localized in chemical bonds, which is exactly why polymer coatings became so useful around wires and electronic components.
 
-The broad class of polymers still includes excellent insulators; the correction is that insulation is not unavoidable.
+That success encouraged a broader assumption: insulation was an unavoidable property of polymers as a class.
+
+Conjugated polymers changed the picture. Their backbones contain alternating bonds that allow electrons to become more delocalized than in familiar plastics. In the late 1970s, Hideki Shirakawa, Alan MacDiarmid, and Alan Heeger found that chemically **doping polyacetylene** increased its conductivity by many orders of magnitude.
+
+The result showed that a material could retain a polymeric molecular structure while supporting substantial electrical transport. Conducting and semiconducting polymers later became important in sensors, displays, organic electronics, coatings, and energy devices.
+
+Most polymers are still insulators. Conductivity depends strongly on molecular conjugation, doping, morphology, temperature, and processing.
+
+The correction is therefore not that “plastic conducts electricity.” It is that electrical insulation is not a necessary defining property of all polymers.

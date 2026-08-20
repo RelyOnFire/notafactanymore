@@ -11,7 +11,7 @@ timelineYear: 1934
 summary: "The Joliot-Curies created new radioactive isotopes, turning radioactivity into a producible nuclear property."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Irène Joliot-Curie – Nobel Lecture"
     url: "https://www.nobelprize.org/prizes/chemistry/1935/joliot-curie/lecture/"
@@ -30,6 +30,14 @@ sources:
     note: "Contrasts naturally occurring radioactivity with the new synthesis of radioactive elements."
 ---
 
-Artificial radioactivity does not mean that any ordinary material can be made indefinitely radioactive by any exposure. Production depends on particular nuclear reactions and isotopes.
+The first radioactive substances were discovered in nature. Uranium, radium, and related materials emitted radiation spontaneously, so radioactivity initially looked like an intrinsic property belonging to a special set of naturally unstable substances.
 
-This subject is distinct from the site's card explaining that radioactivity is a nuclear rather than chemical property.
+In 1934, Irène Joliot-Curie and Frédéric Joliot bombarded light elements with alpha particles and found something new: after the external source was removed, the target material **continued** emitting radiation.
+
+The bombardment had created unstable nuclei that did not previously exist in the sample. Artificial radioactivity had been produced.
+
+The discovery rapidly expanded nuclear physics. Artificial radionuclides could be generated for tracing chemical and biological processes, medical diagnosis and therapy, industrial measurement, and later many other applications.
+
+Artificial radioactivity does not mean any object becomes permanently radioactive after arbitrary exposure. Induced activity depends on the specific nuclear reaction, target nucleus, projectile energy, and half-life of the resulting isotope.
+
+The conceptual shift was that radioactivity was not limited to a fixed list of substances supplied by nature. Unstable nuclei could be manufactured.

@@ -12,20 +12,18 @@ lifespanComparable: true
 summary: "Copernicus put the planets around the Sun but retained perfect circular motion; Kepler replaced those circles with ellipses."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-08-13"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Orbits and Kepler's Laws"
     url: "https://science.nasa.gov/solar-system/orbits-and-keplers-laws/"
     publisher: "NASA"
     purpose: "Historical context"
     note: "Explains Kepler's initial commitment to circular orbits and his realization that the planets move in ellipses."
-
   - title: "Planetary Motion: The History of an Idea That Launched the Scientific Revolution"
     url: "https://science.nasa.gov/solar-system/planetary-motion/"
     publisher: "NASA"
     purpose: "Historical context"
     note: "Describes the transition from circles and epicycles to Kepler's laws."
-
   - title: "Chapter 5: Planetary Orbits"
     url: "https://science.nasa.gov/learn/basics-of-space-flight/chapter5-1/"
     publisher: "NASA"
@@ -33,6 +31,14 @@ sources:
     note: "Explains the orbital elements used to describe elliptical orbits."
 ---
 
-A circle is a special kind of ellipse, so a nearly circular orbit can still be treated as circular in some calculations.
+Copernicus moved Earth and the other planets around the Sun, but he preserved one of astronomy's oldest assumptions: heavenly motion should be built from perfect circles.
 
-Copernicus moved the planets around the Sun but kept circular motion. Heliocentrism and elliptical orbits were separate changes.
+Tycho Brahe's exceptionally precise observations made that increasingly difficult. Johannes Kepler inherited Tycho's measurements of Mars and spent years trying to reproduce them with combinations of circular motion.
+
+A stubborn discrepancy remained. It was small by ordinary standards but too large to dismiss given the precision of the observations.
+
+Kepler eventually abandoned the circle and found that an **ellipse**, with the Sun at one focus, matched Mars far better. In 1609 he published what became his first two laws of planetary motion.
+
+The change is important because heliocentrism and elliptical orbits were separate conceptual steps. Copernicus had relocated the center of planetary motion without discarding circular perfection.
+
+Many planetary orbits are close enough to circles that circular approximations remain useful. A circle is itself a special case of an ellipse. What Kepler removed was the requirement that celestial motion must be perfectly circular.

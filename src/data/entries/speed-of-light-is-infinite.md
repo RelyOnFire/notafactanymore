@@ -12,7 +12,7 @@ lifespanComparable: true
 summary: "Astronomical timing exposed a measurable travel time for light across the Solar System."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-13"
+reviewedAt: "2026-08-20"
 sources:
   - title: "A Demonstration Concerning the Motion of Light"
     url: "https://royalsocietypublishing.org/doi/10.1098/rstl.1677.0024"
@@ -31,6 +31,16 @@ sources:
     note: "Explains the modern SI relationship between the metre and the exact speed of light."
 ---
 
-Rømer did not directly produce today's precise numerical value. Later experiments refined the speed using aberration, rotating wheels, mirrors, interferometry, and electronic methods.
+On human scales, light appears instantaneous. A lamp illuminates a room without any detectable delay, and seventeenth-century terrestrial experiments lacked both sufficiently long paths and clocks precise enough to measure the travel time.
 
-Light travels more slowly through materials because of its interaction with matter; the exact constant refers to propagation in vacuum.
+Ole Rømer found the delay on an astronomical scale. He tracked eclipses of Jupiter's moon Io and noticed that the predicted times drifted depending on Earth's position in its orbit.
+
+When Earth was farther from Jupiter, the eclipses appeared later; when it was closer, they appeared earlier. Rømer interpreted the changing delay as the extra time required for light to cross the changing distance.
+
+The result showed that light had a **finite speed**, although Rømer did not determine today's precise value.
+
+Later measurements using stellar aberration, rotating wheels and mirrors, interferometry, and electronic timing steadily improved the number.
+
+Today the vacuum speed of light is fixed by definition at exactly 299,792,458 metres per second and helps define the meter itself.
+
+Light can propagate more slowly through materials because of interactions with matter; the exact constant refers to vacuum.

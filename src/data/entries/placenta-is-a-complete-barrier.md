@@ -11,7 +11,7 @@ timelineYear: 1961
 summary: "Congenital infections and drug-related birth defects replaced the impermeable placental-wall model with selective transfer."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Thalidomide"
     url: "https://www.fda.gov/consumers/consumer-updates/thalidomide-research-advances-patient-safety"
@@ -30,6 +30,14 @@ sources:
     note: "Reviews infections capable of crossing the placenta and causing congenital disease."
 ---
 
-Scientists never believed that absolutely nothing crossed the placenta: oxygen and nutrients obviously must. The narrowed claim concerns the historically influential idea that it reliably excluded harmful agents.
+The placenta obviously cannot be a wall against everything: oxygen, glucose, amino acids, antibodies, and many other substances must move between maternal and fetal systems. But the term **placental barrier** encouraged a stronger assumption that harmful drugs, chemicals, and infectious agents were reliably excluded.
 
-Transfer alone does not prove fetal harm. Risk depends on dose, timing, metabolism, placental biology, and the developmental process affected.
+Clinical evidence made that impossible to maintain. Congenital infections showed that some pathogens could cross or damage the placental interface. Pharmacological measurements demonstrated transfer of many medicines and chemicals.
+
+The thalidomide disaster gave the issue enormous visibility. A drug taken during pregnancy could reach the developing embryo and cause severe limb and organ malformations, proving that maternal treatment and fetal exposure could not be considered separate.
+
+Modern placental biology describes selective transport rather than impermeability. Molecular size, lipid solubility, transport proteins, metabolism, gestational age, and placental condition all influence what crosses and in what amount.
+
+Transfer also does not automatically mean harm. Risk depends on dose, timing, fetal development, and the specific substance.
+
+The corrected model is therefore not “the placenta offers no protection.” It is a highly active biological interface that filters and regulates exchange but cannot guarantee fetal isolation from harmful exposures.

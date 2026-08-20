@@ -11,7 +11,7 @@ timelineYear: 1985
 summary: "The protist kingdom dissolved into multiple evolutionary lineages once molecular relationships became visible."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Protist classification and the kingdoms of organisms"
     url: "https://pubmed.ncbi.nlm.nih.gov/418827/"
@@ -30,6 +30,12 @@ sources:
     note: "Explains that molecular data showed Protista contains multiple groups of equal taxonomic rank."
 ---
 
-“Protist” remains useful informally for discussing many mostly microscopic eukaryotes.
+“Protist” was a useful solution to a taxonomic problem. Microscopic eukaryotes that were not convincingly animals, plants, or fungi could be placed together in one kingdom rather than forced into categories built around larger organisms.
 
-The obsolete part is treating all protists as one branch excluding animals, plants, and fungi.
+The weakness was evolutionary. The group was defined largely by what its members **were not**, not by a single shared ancestry exclusive of the other eukaryotic kingdoms.
+
+Ultrastructural studies began revealing deep differences among protists, and molecular phylogenies made the problem explicit. Some lineages traditionally called protists are more closely related to animals or fungi than to other protists; others lie near plants or within entirely different major branches.
+
+Modern classifications therefore divide eukaryotes into several large evolutionary groups rather than treating Protista as one natural kingdom.
+
+The word remains useful informally for many mostly microscopic eukaryotes, especially in ecology and teaching. The superseded part is the tree-of-life claim: “protists” are not one coherent branch from which animals, plants, and fungi are excluded.

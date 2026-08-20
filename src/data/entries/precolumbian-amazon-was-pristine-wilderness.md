@@ -11,7 +11,7 @@ timelineYear: 1995
 summary: "Earthworks, managed forests, and engineered soils revealed major pre-Columbian transformations in parts of Amazonia."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Pre-Columbian earth-builders settled along the entire southern rim of the Amazon"
     url: "https://www.nature.com/articles/s41467-018-03510-7"
@@ -35,6 +35,14 @@ sources:
     note: "Summarizes how dark earths, managed vegetation, and raised fields contradict earlier perceptions of universally pristine forest."
 ---
 
-This correction does not mean that the entire Amazon was densely urbanized or uniformly transformed. Archaeological visibility, population estimates, and the scale of human influence differ sharply by region and period.
+Mid-twentieth-century models often emphasized the ecological constraints of the Amazon basin. Poor tropical soils and difficult environments seemed to limit large, permanent populations, reinforcing an image of most pre-Columbian Amazonia as lightly inhabited wilderness.
 
-“Pristine” is also a misleading standard for conservation. Demonstrating long Indigenous stewardship does not imply that modern industrial clearing, mining, roads, or burning reproduce those older land-use systems.
+Archaeology steadily complicated that picture. Researchers found **anthropogenic dark earths** enriched by long-term human activity, large geometric earthworks, raised fields, roads, canals, and settlement networks in multiple regions.
+
+Plant distributions and palaeoecological evidence added another layer. Many modern forests preserve legacies of cultivation, selection, burning, and agroforestry extending back centuries or millennia.
+
+Lidar has made some of these patterns visible at landscape scale, revealing infrastructure and settlement forms hidden beneath vegetation.
+
+The correction must remain regional. The Amazon is enormous, archaeological preservation is uneven, and occupation density varied sharply across time and place. Evidence for large or highly managed populations in some areas does not mean the entire basin was urbanized.
+
+Nor does ancient Indigenous stewardship make modern industrial deforestation ecologically equivalent. “Not pristine” means human influence has deep history; it does not erase differences in scale, technology, or environmental impact.

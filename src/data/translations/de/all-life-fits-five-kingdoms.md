@@ -1,8 +1,8 @@
 ---
 locale: de
 entryId: all-life-fits-five-kingdoms
-sourceReviewedAt: "2026-07-28"
-claim: "Alle Lebewesen lassen sich natürlich in fünf Reiche einordnen: Tiere, Pflanzen, Pilze, Protisten und Moneren."
+sourceReviewedAt: '2026-08-20'
+claim: 'Alle Lebewesen lassen sich natürlich in fünf Reiche einordnen: Tiere, Pflanzen, Pilze, Protisten und Moneren.'
 currentUnderstanding: Das Fünf-Reiche-System bleibt historisch und für den Unterricht nützlich, bildet aber nicht alle wichtigen evolutionären Verwandtschaftsverhältnisse korrekt ab. Moderne Klassifikationen verwenden Domänen und mehrere große eukaryotische Gruppen.
 whyItChanged: Whittakers fünf Reiche wurden im späten 20. Jahrhundert zu einem Standardmodell in Lehrbüchern. Molekulare Stammbäume trennten Archaeen von Bakterien und zeigten, dass die „Protisten“ viele nicht eng miteinander verwandte Linien umfassen.
 acceptedApproximately: Späte 1960er- bis 1990er-Jahre
@@ -14,6 +14,14 @@ sourceNotes:
 - Präsentiert eine molekular gestützte Klassifikation mit mehreren eukaryotischen Großgruppen.
 ---
 
-In der modernen Biologie gibt es keine einzige, überall verbindliche Zahl von Reichen, weil taxonomische Ränge wie „Reich“ zum Teil Konventionen sind.
+Robert Whittakers Fünf-Reiche-System löste reale Probleme älterer Klassifikationen. Pilze mussten nicht länger als Pflanzen behandelt werden, und Mikroorganismen ließen sich sinnvoller auf Monera und Protista verteilen.
 
-Der robuste Wandel besteht darin, dass Monera und Protista nicht mehr als zwei jeweils zusammenhängende natürliche Abstammungslinien gelten.
+Bis zum späten 20. Jahrhundert wurde dieses Schema zu einer Standardkarte des Lebens in vielen Biologielehrbüchern.
+
+Molekulare Phylogenie veränderte die Karte grundlegend. DNA- und RNA-Sequenzen erlaubten es, Verwandtschaft direkt über gemeinsame Abstammung zu rekonstruieren statt hauptsächlich über sichtbare Merkmale.
+
+Dabei zerfiel das Reich **Monera**, als Archaeen als tief eigenständige Linie neben den Bakterien erkannt wurden. Auch Protista erwies sich als Sammelgruppe: Viele dort vereinte mikroskopische Eukaryoten gehören zu weit auseinanderliegenden Ästen des Stammbaums.
+
+Moderne Klassifikationen arbeiten daher mit Domänen und mehreren großen eukaryotischen Linien oder Supergruppen.
+
+Eine einzige, überall verbindliche Zahl von „Reichen“ gibt es heute nicht, weil taxonomische Rangstufen teilweise Konvention sind. Der robuste wissenschaftliche Wandel ist evolutionär: Monera und Protista bilden jeweils keine einzige natürliche Abstammungslinie.

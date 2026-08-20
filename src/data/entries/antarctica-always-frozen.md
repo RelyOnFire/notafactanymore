@@ -11,7 +11,7 @@ timelineYear: 1984
 summary: "Fossils beneath Antarctica's modern ice revealed forests and warm polar ecosystems from its past."
 featured: false
 publishedAt: "2026-07-24"
-reviewedAt: "2026-07-24"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Fossils from the Antarctic"
     url: "https://www.bas.ac.uk/data/our-data/fossils-from-the-antarctic/"
@@ -25,4 +25,16 @@ sources:
     note: "Reports fossil soil, roots, pollen, and spores showing a temperate rainforest near the South Pole."
 ---
 
-Antarctica has remained near the South Pole for a very long time. Its past warmth came from different atmospheric and oceanic conditions.
+Modern Antarctica is so dominated by ice that permanence feels intuitive. Its interior is among the coldest places on Earth, and the continental ice sheet conceals most of the landscape.
+
+Geology preserves a very different history.
+
+Fossil leaves, wood, pollen, roots, soils, and animal remains show that Antarctica supported forests and diverse terrestrial ecosystems during much warmer intervals. Dinosaurs lived there, and later mammals occupied Antarctic environments before extensive glaciation.
+
+These findings do not require Antarctica to have migrated from the tropics in the recent past. The continent has remained at high southern latitudes for a very long time.
+
+What changed were atmospheric greenhouse conditions, ocean circulation, continental connections, and the global climate system.
+
+The Antarctic ice sheet itself developed over geological time rather than existing unchanged throughout Earth's history.
+
+The correction is therefore climatic, not merely geographic: a continent near the South Pole can still support forests under sufficiently warm planetary conditions.

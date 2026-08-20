@@ -11,7 +11,7 @@ timelineYear: 2015
 summary: "A universal surgical rule narrowed after trials showed that selected uncomplicated cases can start with antibiotics."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Evidence for an Antibiotics-First Strategy for Uncomplicated Appendicitis"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4769928/"
@@ -30,6 +30,16 @@ sources:
     note: "Keeps appendectomy as standard treatment while recognizing antibiotics alone for selected patients."
 ---
 
-Surgery remains necessary or preferable in many cases, especially with perforation, generalized infection, an appendicolith, failed antibiotic treatment, or diagnostic uncertainty.
+Appendectomy became one of surgery's great successes. Before reliable diagnosis and treatment, appendicitis could progress to perforation, peritonitis, and death, so removing the inflamed appendix promptly was a rational life-saving rule.
 
-This is a narrowing of an absolute rule, not the end of appendectomy.
+For more than a century, that rule hardened into an absolute: diagnosed appendicitis meant surgery.
+
+Modern imaging made it possible to distinguish **uncomplicated** appendicitis from perforation, abscess, and other higher-risk disease more reliably.
+
+Randomized trials then tested antibiotics-first treatment in carefully selected uncomplicated cases. Many patients recovered without immediate surgery, showing that appendectomy was not biologically mandatory in every case.
+
+The tradeoff matters. Some patients later experience recurrent appendicitis or ultimately require surgery, and factors such as an appendicolith can change the risk.
+
+Appendectomy therefore remains a standard, definitive, and often preferred treatment.
+
+The correction is a narrowing, not a reversal of surgical practice: selected uncomplicated cases can reasonably begin with antibiotics after informed discussion of recurrence and treatment-failure risk.

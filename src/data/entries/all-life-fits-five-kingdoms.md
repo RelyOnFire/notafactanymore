@@ -11,7 +11,7 @@ timelineYear: 1977
 summary: "A standard five-kingdom map of life gave way to molecular trees with three domains and many eukaryotic lineages."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Five Kingdoms, More or Less"
     url: "https://academic.oup.com/bioscience/article-abstract/62/1/67/295711"
@@ -30,6 +30,16 @@ sources:
     note: "Presents a molecularly informed classification using multiple eukaryotic clusters."
 ---
 
-There is no single universally fixed number of kingdoms in modern biology because ranks such as “kingdom” are partly conventional.
+Robert Whittaker's five-kingdom system solved real problems in older taxonomy. Fungi no longer had to be treated as plants, and microorganisms could be divided more meaningfully among Monera and Protista.
 
-The robust change is the abandonment of Monera and Protista as two coherent natural branches.
+By the late twentieth century, the five kingdoms became a standard textbook map of life.
+
+Molecular phylogeny changed the map because DNA and RNA sequences allowed relationships to be inferred directly from shared ancestry rather than mainly from visible form.
+
+The old kingdom Monera split dramatically when archaea proved to represent a deep lineage distinct from bacteria. Protista fractured as well: organisms grouped together because they were mostly microscopic eukaryotes turned out to belong to many different branches.
+
+Modern classifications therefore use domains and multiple eukaryotic supergroups rather than one universally accepted set of five kingdoms.
+
+There is no single sacred number of kingdoms today because taxonomic ranks are partly conventional.
+
+The robust scientific change is evolutionary: Monera and Protista do not each represent one coherent natural branch of the tree of life.

@@ -11,7 +11,7 @@ timelineYear: 1965
 summary: "Worker studies and the mesothelioma connection established asbestos as a potent occupational carcinogen."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Asbestos Exposure and Neoplasia"
     url: "https://jamanetwork.com/journals/jama/article-abstract/1164491"
@@ -30,6 +30,16 @@ sources:
     note: "Reviews exposure routes, disease latency, and the established causal relationship."
 ---
 
-Cancer usually appears decades after exposure, which helped obscure the relationship. Risk depends on fiber type, dose, duration, smoking, and other factors.
+Early occupational medicine recognized that heavy asbestos exposure could scar the lungs, producing asbestosis. Cancer was harder to connect.
 
-Smoking and asbestos interact strongly in causing lung cancer, but smoking does not explain mesothelioma or make asbestos harmless.
+One reason was **latency**. Mesothelioma and lung cancer often appear decades after the exposure that caused them, long after workers had changed jobs or retired.
+
+As larger occupational cohorts were followed, the pattern became unmistakable. Workers with heavy asbestos exposure developed excess cancers, and the striking association with mesothelioma provided an especially distinctive signal.
+
+The evidence eventually established asbestos as a human carcinogen as well as a cause of fibrotic lung disease.
+
+Risk depends on dose, fiber characteristics, duration of exposure, and other factors. Smoking interacts strongly with asbestos exposure in causing lung cancer.
+
+That interaction does not make asbestos harmless, and smoking does not explain the asbestos–mesothelioma relationship.
+
+The historical delay illustrates why long-latency occupational hazards can remain underestimated even after more immediate tissue damage is already recognized.

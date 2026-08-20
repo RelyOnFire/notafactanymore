@@ -12,20 +12,18 @@ lifespanComparable: true
 summary: "Visible stars and gas turned out to account for only part of the gravity in galaxies. Ordinary matter itself makes up only a small fraction of the modern cosmic inventory."
 featured: false
 publishedAt: "2026-07-23"
-reviewedAt: "2026-08-13"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The Universe's Building Blocks"
     url: "https://science.nasa.gov/universe/overview/building-blocks/"
     publisher: "NASA"
     purpose: "Historical context"
     note: "Explains that astronomers did not recognize dark matter until the 20th century."
-
   - title: "Dark Matter"
     url: "https://science.nasa.gov/dark-matter/"
     publisher: "NASA"
     purpose: "Current evidence"
     note: "Gives the standard approximate composition of 5% ordinary matter, 27% dark matter, and 68% dark energy."
-
   - title: "Composition of the Cosmos"
     url: "https://science.nasa.gov/asset/hubble/composition-of-the-cosmos/"
     publisher: "NASA"
@@ -33,6 +31,18 @@ sources:
     note: "Shows ordinary matter as only a small part of the total cosmic composition."
 ---
 
-“Dark matter” and “dark energy” are names for measured effects and model components whose underlying physical nature is still unknown.
+Early extragalactic astronomy could reasonably begin with what telescopes showed: stars, glowing gas, dust, and the light they produced. Those visible components seemed like the natural inventory of galactic mass.
 
-The percentages may be refined as measurements improve, but ordinary matter is clearly not the dominant component.
+Dynamics said otherwise.
+
+Fritz Zwicky's work on galaxy clusters suggested that the visible galaxies did not contain enough mass to explain their motions. Later, galaxy rotation curves showed stars orbiting at speeds that remained unexpectedly high far from galactic centers.
+
+The gravitational field implied much more mass than the luminous matter supplied.
+
+Gravitational lensing, the cosmic microwave background, and large-scale structure strengthened the case and helped establish a broader cosmological inventory.
+
+In the standard model, ordinary matter makes up only a small fraction of the total cosmic energy density; dark matter and dark energy dominate.
+
+Those names describe well-measured effects and model components, not fully understood substances. Their underlying physical nature remains open.
+
+The robust correction is not that visible matter is unimportant. It is that what shines is only a minority of what gravity and cosmology require.

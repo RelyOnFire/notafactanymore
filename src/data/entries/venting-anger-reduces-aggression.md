@@ -11,7 +11,7 @@ timelineYear: 1960
 summary: "Experiments found that aggressive catharsis often rehearses anger instead of emptying it."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Catharsis, aggression, and persuasive influence"
     url: "https://pubmed.ncbi.nlm.nih.gov/10101875/"
@@ -30,6 +30,16 @@ sources:
     note: "Examines belief in catharsis and why people may use aggression as attempted mood regulation."
 ---
 
-Talking about anger, setting boundaries, exercise, expressive writing, and trauma treatment are not all equivalent to aggressive venting. Their effects depend on whether they promote understanding and regulation or rehearse hostility.
+The catharsis idea treats anger like pressure in a vessel. If aggressive energy builds up, expressing it—yelling, hitting something, or otherwise “getting it out”—should reduce the pressure and leave the person calmer.
 
-Temporary relief also does not prove reduced later aggression. A behavior can feel satisfying while reinforcing the response pattern.
+Controlled experiments repeatedly failed to support that simple hydraulic model.
+
+Participants encouraged to punch bags while thinking about someone who angered them often became **more**, not less, aggressive afterward. Rehearsing the grievance can maintain arousal and strengthen hostile thoughts rather than exhausting them.
+
+More recent synthesis likewise finds better results from strategies that lower physiological arousal or interrupt rumination.
+
+This does not mean people should suppress every emotion or never talk about anger. Constructive conversation, boundary-setting, therapy, exercise, and expressive writing are not equivalent to aggressive venting.
+
+Feeling temporary relief also does not prove that aggression has been reduced. A behavior can feel satisfying while reinforcing the same response pattern.
+
+The overturned claim is specifically that acting out anger works like draining a tank.

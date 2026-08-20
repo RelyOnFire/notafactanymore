@@ -11,20 +11,18 @@ timelineYear: 2003
 summary: "Giant viruses broke the old size boundary between viruses and cellular microorganisms."
 featured: false
 publishedAt: "2026-07-27"
-reviewedAt: "2026-07-27"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Mimivirus: leading the way in the discovery of giant viruses of amoebae"
     url: "https://www.nature.com/articles/nrmicro.2016.197"
     publisher: "Nature Reviews Microbiology"
     purpose: "Previous belief"
     note: "Explains that viruses were previously defined partly by submicroscopic size, which discouraged searches for much larger forms."
-
   - title: "Discovery of the Giant Mimivirus"
     url: "https://www.nature.com/scitable/topicpage/discovery-of-the-giant-mimivirus-14402410/"
     publisher: "Nature Education"
     purpose: "Historical context"
     note: "Describes how Mimivirus was first mistaken for a bacterium because of its unusual size and staining behavior."
-
   - title: "Giant virus biology and diversity in the era of genome-resolved metagenomics"
     url: "https://www.nature.com/articles/s41579-022-00754-5"
     publisher: "Nature Reviews Microbiology"
@@ -32,6 +30,16 @@ sources:
     note: "Reviews giant viruses with bacteria-sized particles, megabase genomes, and features once associated only with cellular organisms."
 ---
 
-Most viruses remain far smaller than bacteria and contain much smaller genomes.
+The first viruses were discovered operationally: infectious agents small enough to pass through filters that trapped known bacteria. Their tiny size became part of the intuitive boundary between viruses and cellular life.
 
-The discovery did not erase the distinction between viruses and cells, but it made size an unreliable dividing line.
+That assumption influenced what researchers looked for.
+
+Mimivirus was so large that when it was found inside amoebae, it was initially mistaken for a bacterium. Genetic analysis eventually showed that it was a virus with an enormous particle and a genome far larger than those of many familiar viruses.
+
+Other giant viruses followed, some with genomes exceeding a million base pairs and encoding hundreds of genes.
+
+These discoveries did not erase the distinction between viruses and cells. Giant viruses still depend on host cells for reproduction and lack the full autonomous machinery of cellular organisms.
+
+Most viruses also remain much smaller than bacteria.
+
+What disappeared was the universal size rule. Particle diameter and genome size overlap enough that “smaller than bacteria” is no longer a reliable definition of what a virus is.

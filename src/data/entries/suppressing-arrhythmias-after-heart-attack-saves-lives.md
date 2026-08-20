@@ -11,7 +11,7 @@ timelineYear: 1989
 summary: "CAST showed that drugs could improve an ECG marker while making patients more likely to die."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Preliminary Report: Effect of Encainide and Flecainide on Mortality in a Randomized Trial of Arrhythmia Suppression after Myocardial Infarction"
     url: "https://www.nejm.org/doi/full/10.1056/NEJM198908103210629"
@@ -30,6 +30,18 @@ sources:
     note: "Uses antiarrhythmic therapy as a classic warning that improving a surrogate can worsen clinical outcomes."
 ---
 
-CAST did not prove that every antiarrhythmic drug or every use of flecainide is harmful. The result applied to a specific high-risk post-infarction population and treatment strategy.
+After myocardial infarction, frequent premature ventricular beats were strongly associated with sudden cardiac death. The causal interpretation seemed obvious: if the abnormal beats predicted lethal arrhythmias, suppressing them should save lives.
 
-Its wider lesson is methodological: a biomarker must be validated against outcomes that matter to patients.
+Antiarrhythmic drugs such as encainide and flecainide did exactly what clinicians wanted on the electrocardiogram. They markedly reduced ventricular ectopy.
+
+The Cardiac Arrhythmia Suppression Trial tested whether that cleaner ECG translated into better outcomes.
+
+It did the opposite.
+
+Patients receiving the active drugs had substantially more arrhythmic deaths and higher overall mortality than patients receiving placebo, and the relevant treatment arms were stopped early.
+
+CAST became one of medicine's clearest warnings about **surrogate endpoints**. A treatment can improve a biomarker associated with risk while worsening the outcome patients actually care about.
+
+The trial did not prove that every antiarrhythmic drug is harmful or that flecainide has no legitimate use. Its result applied to a specific high-risk post-infarction population and strategy.
+
+The broader lesson is methodological: changing a marker is not enough; therapies must be tested against real clinical outcomes.

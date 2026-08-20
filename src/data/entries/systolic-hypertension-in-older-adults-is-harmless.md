@@ -11,7 +11,7 @@ timelineYear: 1991
 summary: "Outcome trials established age-related systolic hypertension as dangerous and treatable rather than benign."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Prevention of Stroke by Antihypertensive Drug Treatment in Older Persons With Isolated Systolic Hypertension"
     url: "https://jamanetwork.com/journals/jama/article-abstract/385664"
@@ -30,6 +30,16 @@ sources:
     note: "Explains the health risks and modern management of hypertension in older adults."
 ---
 
-Very aggressive treatment can cause dizziness, falls, electrolyte abnormalities, or kidney problems in some patients. Targets therefore should not be reduced to a single number for every older person.
+Systolic blood pressure often rises with age as large arteries stiffen. Because the pattern was common, clinicians could interpret it as a normal adaptation rather than disease.
 
-The overturned claim is that elevated systolic pressure is inherently benign or physiologically required merely because it is common with age.
+There was also a plausible physiological concern: lowering pressure too aggressively might reduce blood flow to aging organs and cause dizziness, falls, or other harm.
+
+Randomized outcome trials changed the balance. Studies such as SHEP showed that treating isolated systolic hypertension in older adults substantially reduced stroke and major cardiovascular events.
+
+Later trials extended the evidence into very old populations.
+
+The lesson was that **common with age** does not mean **harmless because of age**.
+
+Treatment still requires individual judgment. Frailty, orthostatic symptoms, kidney function, medication burden, and adverse effects matter, and an appropriate target for one older adult may be wrong for another.
+
+The overturned claim is the broad one: elevated systolic pressure is not physiologically required or benign merely because it becomes more prevalent with aging.

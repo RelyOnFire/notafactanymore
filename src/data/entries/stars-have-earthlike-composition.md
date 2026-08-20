@@ -11,7 +11,7 @@ timelineYear: 1925
 summary: "Cecilia Payne showed that stellar spectra concealed stars made mostly of hydrogen and helium."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "From Computer to Astronomer: The Role of Women in Astronomy"
     url: "https://airandspace.si.edu/stories/editorial/computer-astronomer-role-women-astronomy"
@@ -30,6 +30,16 @@ sources:
     note: "Reviews the resistance to Payne's result and its later confirmation."
 ---
 
-Spectral-line strength does not translate directly into abundance. Temperature, pressure, and ionization determine which lines are visible and how strong they appear.
+Stellar spectra showed many of the same elements known on Earth. Iron, calcium, sodium, and other familiar species produced recognizable lines, encouraging the conclusion that stars probably contained broadly Earth-like mixtures.
 
-Stars are not chemically identical. Their small heavy-element fraction records their age, birthplace, and earlier generations of stellar nucleosynthesis.
+That interpretation assumed that line strength tracked abundance fairly directly.
+
+Cecilia Payne showed why it did not. In her 1925 thesis, she applied the new physics of ionization to stellar atmospheres and demonstrated that temperature changes which ions and atoms produce visible absorption lines.
+
+Once those effects were accounted for, hydrogen and helium turned out to be vastly more abundant than the heavier elements that often dominated the visually striking parts of the spectrum.
+
+The result initially seemed so surprising that even experts urged caution, but later work confirmed the basic conclusion: ordinary stars are overwhelmingly made of **hydrogen and helium**.
+
+Spectral lines still reveal composition, but they must be interpreted through temperature, pressure, ionization, and radiative-transfer physics.
+
+Stars are not chemically identical. Their smaller heavy-element fraction varies with age and formation history, preserving a record of earlier generations of stellar nucleosynthesis.

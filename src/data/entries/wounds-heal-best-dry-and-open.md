@@ -11,7 +11,7 @@ timelineYear: 1962
 summary: "The dry-scab ideal gave way to dressings that maintain controlled moisture and support faster repair."
 featured: false
 publishedAt: "2026-07-25"
-reviewedAt: "2026-07-25"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Why Wet to Dry?"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3601877/"
@@ -30,6 +30,14 @@ sources:
     note: "Compares repair under moist coverings with repair under dry, air-exposed dressings."
 ---
 
-Moist does not mean soaking wet. Too much fluid can damage surrounding skin and increase other problems.
+A dry scab looks protective. It forms a visible barrier, reduces surface moisture, and can make a wound appear sealed off from contamination. Traditional wound care therefore often aimed to dry wounds aggressively.
 
-Different wounds require different dressings, drainage, infection control, and medical treatment.
+Experimental work beginning in the 1960s showed that this visible crust was not necessarily ideal for tissue repair.
+
+Epithelial cells migrate across the wound surface more efficiently when the environment remains **appropriately moist**. Under excessively dry conditions, a hard scab can become an obstacle that cells must move beneath while the exposed tissue dehydrates.
+
+Modern dressings therefore often aim to protect the wound while maintaining controlled moisture.
+
+That does not mean “the wetter, the better.” Excess fluid can macerate surrounding skin, worsen leakage, and create other problems. Infection, drainage, wound depth, blood supply, and underlying disease also change what treatment is appropriate.
+
+The superseded rule is the universal dry-and-open ideal. For many wounds, protected moist healing produces faster and better epithelial repair than deliberate desiccation.

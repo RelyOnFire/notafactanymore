@@ -11,7 +11,7 @@ timelineYear: 1900
 summary: "Experiments overturned the belief that yellow fever spread mainly through contaminated clothing and bedding."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Yellow Fever"
     url: "https://www.cdc.gov/yellow-fever/about/index.html"
@@ -30,6 +30,18 @@ sources:
     note: "Describes experiments testing contaminated objects and mosquito transmission."
 ---
 
-Yellow fever has both urban and forest transmission cycles, involving different mosquito species and animal hosts. This entry focuses on the urban epidemics investigated around 1900.
+Yellow fever outbreaks looked contagious in the ordinary sense. Patients became ill in crowded cities, and bedding, clothes, rooms, and personal effects from the sick were natural suspects.
 
-The U.S. Army commission built on the mosquito hypothesis proposed earlier by the Cuban physician Carlos Finlay.
+The competing mosquito hypothesis came from Cuban physician Carlos Finlay, who proposed that mosquitoes transmitted the disease years before the idea was widely accepted.
+
+Around 1900, the U.S. Army Yellow Fever Commission tested the alternatives directly. Volunteers exposed to clothing and bedding heavily contaminated by yellow-fever patients did not develop the disease.
+
+Mosquito exposure produced a very different result.
+
+The experiments shifted attention from **fomites**—contaminated objects—to mosquito transmission and helped make vector control central to urban yellow-fever prevention.
+
+Modern virology identifies yellow fever as a viral infection transmitted by infected mosquitoes, with *Aedes aegypti* especially important in urban cycles.
+
+The ecology is broader than one mosquito species: forest cycles involve other mosquitoes and animal hosts.
+
+The historical correction concerns the urban epidemic model investigated around 1900, not every ecological setting in which yellow fever circulates.

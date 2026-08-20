@@ -11,7 +11,7 @@ timelineYear: 1897
 summary: "Experiments revealed internal atomic structure: electrons, nuclei, and still smaller particles."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Subatomic particles"
     url: "https://home.cern/science/physics/subatomic-particles"
@@ -30,6 +30,16 @@ sources:
     note: "Documents Rutherford's work on radioactivity and atomic disintegration."
 ---
 
-Atoms are still the smallest units that retain the ordinary chemical identity of an element. Splitting or changing the nucleus can turn one element into another.
+The name *atom* comes from an ancient idea of something that cannot be cut further, but ancient atomism was philosophical rather than an experimentally established model of matter.
 
-Ancient atomism was largely philosophical. The scientific correction applies most directly to the evidence-based atomic model developed in the 19th century.
+By the nineteenth century, atoms had become powerful scientific entities. Dalton's chemistry explained fixed combining ratios by treating each element as built from characteristic indivisible atoms. For chemical reactions, that model worked remarkably well.
+
+Late-century experiments began opening the atom.
+
+J. J. Thomson's cathode-ray work identified the **electron**, a negatively charged constituent far smaller than an atom. Rutherford's scattering experiments then showed that most atomic mass and positive charge are concentrated in a tiny nucleus rather than spread throughout the atom.
+
+The nucleus itself acquired structure with the proton and Chadwick's 1932 neutron. Later particle physics showed that protons and neutrons are composite particles made from quarks and gluons.
+
+Atoms remain fundamental to chemistry because they are the smallest ordinary units that preserve an element's chemical identity. Breaking or changing the nucleus moves into nuclear physics and can turn one element into another.
+
+The correction is therefore physical, not chemical: atoms are extraordinarily useful units of matter, but they are not indivisible.

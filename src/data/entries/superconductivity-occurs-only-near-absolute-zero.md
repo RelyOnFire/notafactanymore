@@ -11,7 +11,7 @@ timelineYear: 1986
 summary: "Ceramic copper oxides moved superconductivity from liquid-helium temperatures into the liquid-nitrogen range."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Press release: The 1987 Nobel Prize in Physics"
     url: "https://www.nobelprize.org/prizes/physics/1987/press-release/"
@@ -30,6 +30,16 @@ sources:
     note: "The 1986 paper reporting superconductivity in the lanthanum-barium-copper-oxide system."
 ---
 
-“High-temperature” is relative: these materials still require extreme cooling compared with everyday conditions.
+Superconductivity was discovered in 1911 in mercury cooled to only a few kelvin above absolute zero. For decades, every known superconductor required similarly extreme cryogenic conditions.
 
-Claims of superconductivity near room temperature, especially under pressure, require exceptional replication. No ambient-pressure room-temperature superconductor is established.
+That history encouraged the expectation that superconductivity was inherently confined to the liquid-helium temperature range.
+
+In 1986, Georg Bednorz and K. Alex Müller reported superconductivity in a ceramic copper oxide at a dramatically higher transition temperature. Other cuprates followed almost immediately, including materials that remained superconducting above **77 kelvin**, the boiling point of liquid nitrogen.
+
+That threshold mattered practically because liquid nitrogen is far cheaper and easier to handle than liquid helium.
+
+“High-temperature” is relative. Even 77 kelvin is about −196 °C, nowhere near ordinary room conditions.
+
+Later unconventional superconductors expanded the range further, but claims of near-room-temperature superconductivity—especially under high pressure—require exceptionally strong replication. No ambient-pressure room-temperature superconductor is established.
+
+The overturned claim is therefore not that superconductivity has become warm. It is that it is restricted to within only a few degrees of absolute zero.

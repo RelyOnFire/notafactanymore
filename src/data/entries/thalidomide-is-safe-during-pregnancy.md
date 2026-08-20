@@ -12,7 +12,7 @@ summary: "A widely marketed sedative caused a global epidemic of severe birth de
 featured: true
 featuredOrder: 7
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Thalidomide-induced teratogenesis: History and mechanisms"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4737249/"
@@ -31,6 +31,16 @@ sources:
     note: "Describes controlled modern therapeutic uses and strict pregnancy-prevention requirements."
 ---
 
-Thalidomide was not approved in the United States during the original disaster, largely because FDA reviewer Frances Kelsey demanded more safety evidence.
+Thalidomide was introduced in the late 1950s as a sedative and was promoted in several countries for nausea during pregnancy. Existing animal tests had not revealed the devastating human developmental risk.
 
-The drug later gained tightly controlled uses in conditions including multiple myeloma and complications of leprosy. Therapeutic value does not reduce its pregnancy risk.
+The pattern became visible clinically. In 1961, physicians independently linked maternal thalidomide use with a striking cluster of severe congenital abnormalities, especially shortened or absent limbs but also defects of the ears, eyes, heart, and internal organs.
+
+Timing mattered enormously. Exposure during a narrow window of early embryonic development could produce major malformations.
+
+The drug was withdrawn in many countries, and the disaster transformed expectations for reproductive toxicology, clinical evidence, and drug regulation.
+
+The United States largely avoided the original catastrophe because FDA reviewer **Frances Kelsey** refused to approve thalidomide without stronger safety evidence.
+
+Thalidomide itself later returned under tightly controlled conditions for diseases including multiple myeloma and complications of leprosy.
+
+Therapeutic usefulness does not reduce its teratogenicity. Modern treatment requires rigorous pregnancy-prevention systems because even limited exposure during susceptible stages can be catastrophic.

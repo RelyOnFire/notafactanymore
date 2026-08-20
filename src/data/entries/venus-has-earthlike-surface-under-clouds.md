@@ -11,7 +11,7 @@ timelineYear: 1962
 summary: "A cloud-hidden sister world changed from imagined oceans and jungles into the hottest planetary surface."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Venus: Facts"
     url: "https://science.nasa.gov/venus/venus-facts/"
@@ -30,6 +30,16 @@ sources:
     note: "Reviews the transition from speculative cloud-covered surface models to spacecraft measurements."
 ---
 
-Not every scientist expected jungles, and some pre-space-age models already predicted severe heat.
+Venus resembles Earth in size and mass, but its global cloud cover hid the surface from ordinary telescopes. That combination left room for a wide range of pre-space-age models.
 
-The broader overturned claim was that Venus's hidden surface could be broadly Earth-like and habitable.
+Some scientists and popular writers imagined a humid, oceanic, or even swamp-like world beneath the clouds. Others already suspected much hotter conditions, so there was never one uniform “Venus jungle” consensus.
+
+Radio observations increasingly pointed toward extreme temperatures.
+
+Mariner 2's 1962 flyby confirmed that Venus was extraordinarily hot, and later Soviet Venera landers directly measured a surface with crushing pressure and temperatures around **465°C**.
+
+The dense carbon-dioxide atmosphere produces a powerful greenhouse effect, while the surface is dry and hostile by terrestrial standards.
+
+Venus remains Earth's closest planetary analogue in size and bulk composition, which is exactly what makes the contrast scientifically important.
+
+The overturned claim is the broader expectation that the cloud-hidden surface could be mild and broadly Earth-like—not that every astronomer specifically predicted oceans or vegetation.

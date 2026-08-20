@@ -11,7 +11,7 @@ timelineYear: 1975
 summary: "A psychosomatic explanation gave way to evidence of inflammation, immune signaling, and abnormal airway physiology."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Psychogenic Factors in Bronchial Asthma"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2282510/"
@@ -30,6 +30,14 @@ sources:
     note: "Explains the modern inflammatory model that led to controller therapies such as inhaled corticosteroids."
 ---
 
-Stress, panic, and emotional states can trigger or worsen symptoms in some people, and breathing disorders can sometimes mimic asthma.
+Asthma can be strongly affected by emotion. Fear, stress, panic, and excitement can change breathing patterns or help trigger symptoms, which made a psychological explanation plausible before airway biology was well understood.
 
-That does not make asthma imaginary or primarily psychological.
+In the early and mid-twentieth century, some clinicians went much further and treated asthma as primarily psychosomatic: wheezing and breathlessness were interpreted as bodily expressions of emotional conflict or disordered personality.
+
+Physiology and immunology gradually shifted the causal center. Researchers demonstrated variable airflow obstruction, bronchial hyperresponsiveness, allergic pathways, eosinophilic inflammation, and structural changes in the airways. The effectiveness of bronchodilators and especially anti-inflammatory treatments such as inhaled corticosteroids reinforced the biological model.
+
+Modern asthma is not one single mechanism; different patients can have different inflammatory patterns and triggers.
+
+Psychological stress still matters because it can worsen symptoms, alter adherence, and interact with autonomic and immune pathways. Panic and dysfunctional breathing can also mimic or amplify asthma symptoms.
+
+That is very different from saying that asthma itself is imagined or produced primarily by personality or parenting. It is a chronic airway disorder whose symptoms can be influenced by the mind without being caused by it.

@@ -11,7 +11,7 @@ timelineYear: 1919
 summary: "High-altitude balloons found a temperature reversal and revealed the stratosphere."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The History of Atmospheric Discovery"
     url: "https://scied.ucar.edu/learning-zone/atmosphere/history-discovery-atmosphere"
@@ -30,6 +30,16 @@ sources:
     note: "Summarizes the temperature-defined atmospheric layers and their reversals."
 ---
 
-Temperature does not rise uniformly throughout the entire stratosphere, and local conditions vary with latitude, season, and ozone concentration.
+Near Earth's surface, climbing generally means cooling. Mountains are colder than nearby lowlands, and nineteenth-century balloon measurements likewise found temperature falling as instruments rose through the lower atmosphere.
 
-The broader atmosphere contains several temperature layers, so neither “always cooler upward” nor “always warmer upward” is correct.
+It was natural to extrapolate that trend upward.
+
+Around 1902, Léon Teisserenc de Bort in France and Richard Assmann in Germany independently pushed instrumented balloons high enough to find something unexpected. At roughly 10–15 kilometres, the steady cooling stopped.
+
+The discovery revealed a new atmospheric layer, later called the **stratosphere**. Within much of it, temperature rises with altitude because ozone absorbs ultraviolet radiation and converts part of that energy into heat.
+
+The atmosphere contains further reversals above the stratosphere: temperature falls through the mesosphere and rises again through the thermosphere.
+
+These layers are partly defined by exactly this alternating temperature structure.
+
+The familiar rule remains useful inside the troposphere, where most weather occurs. The overturned claim is the extrapolation that the same lapse rate must continue indefinitely upward. Earth's atmosphere is thermally layered rather than monotonically colder with height.

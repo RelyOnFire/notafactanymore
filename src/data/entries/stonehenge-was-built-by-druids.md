@@ -11,7 +11,7 @@ timelineYear: 1950
 summary: "Archaeological dating placed Stonehenge long before the historically recorded Druids."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Research on Stonehenge"
     url: "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/history/research/"
@@ -30,6 +30,14 @@ sources:
     note: "Notes that Stonehenge had been abandoned at least a millennium before Druids first appear in written records."
 ---
 
-Modern Druid and neo-pagan groups have a legitimate modern cultural association with Stonehenge, but they are not evidence about who constructed it.
+Stonehenge had no inscription naming its builders, so early antiquaries tried to connect it with historical groups known from surviving texts.
 
-Archaeology can date building phases and reconstruct many activities around the monument, but Stonehenge's exact purposes and social organization remain debated.
+The Druids seemed an attractive candidate. Classical writers described them as religious specialists in Iron Age Britain and Gaul, and seventeenth- and eighteenth-century scholars such as John Aubrey and William Stukeley linked them to the monument.
+
+Archaeology eventually broke the chronological connection. Excavation, artifact typology, stratigraphy, and later radiocarbon dating placed Stonehenge's construction in the **Neolithic and Bronze Age**, with the main stone settings erected around 2500 BCE.
+
+The historically documented Druids appear much later. By the time written sources describe them, Stonehenge had already existed for many centuries and had been abandoned for a very long time.
+
+Modern Druid and neo-pagan groups can have a genuine contemporary cultural relationship with Stonehenge without being its ancient builders.
+
+The monument's exact purposes remain debated, and its construction involved multiple phases and communities. What archaeology has settled much more firmly is the chronology: Stonehenge predates the recorded Druids by thousands of years.

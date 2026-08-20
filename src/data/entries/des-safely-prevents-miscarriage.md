@@ -11,7 +11,7 @@ timelineYear: 1971
 summary: "A failed prevention trial and delayed cancers exposed DES as ineffective and harmful in pregnancy."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The effects of the administration of diethylstilbestrol during pregnancy"
     url: "https://pubmed.ncbi.nlm.nih.gov/13106157/"
@@ -30,6 +30,12 @@ sources:
     note: "Summarizes the evidence on lack of benefit and long-term health effects."
 ---
 
-DES was also used for purposes outside pregnancy and later found limited uses in cancer treatment. This card concerns routine administration to prevent pregnancy loss.
+DES was a powerful synthetic estrogen, and from the 1940s physicians prescribed it to pregnant women in the hope that hormonal support would prevent miscarriage and other complications. The treatment spread before convincing controlled evidence showed that it worked.
 
-Most people exposed prenatally do not develop clear-cell cancer, but elevated risks and reproductive effects were sufficiently serious to transform drug regulation and follow-up.
+That evidence became uncomfortable early. A randomized clinical trial published in 1953 found that DES did **not** prevent miscarriage or the other pregnancy problems for which it was being given. Yet exposure continued for years, in part because established practice changed more slowly than the evidence.
+
+The decisive safety alarm came in 1971, when physicians reported an unusual cluster of clear-cell adenocarcinoma of the vagina in very young women. Prenatal DES exposure emerged as the striking common factor. Subsequent research documented additional reproductive and health effects, and regulators warned against its use in pregnancy.
+
+The episode therefore involved two different failures: the drug was ineffective for its intended preventive purpose, and some harms appeared only years later in the children who had been exposed before birth.
+
+DES also had uses outside pregnancy, including limited cancer treatment. Most prenatally exposed people do not develop clear-cell cancer; the correction is specifically to the former assumption that pregnancy use was both effective and acceptably safe.

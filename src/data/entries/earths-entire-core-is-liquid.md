@@ -11,7 +11,7 @@ timelineYear: 1936
 summary: "Subtle seismic arrivals revealed a solid inner core inside Earth's liquid outer core."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "P′"
     url: "https://doi.org/10.1111/j.1365-246X.1936.tb01483.x"
@@ -30,6 +30,10 @@ sources:
     note: "Summarizes the crust, mantle, liquid outer core, and solid inner core."
 ---
 
-“Solid” does not mean cold or rigid on every timescale. The inner core is extremely hot and can deform slowly under immense pressure.
+Seismology first revealed Earth's core indirectly. Shear waves do not travel through liquids, and their disappearance across a large part of the globe showed that a major region deep inside Earth was molten. It was natural to treat the newly identified metallic core as liquid throughout.
 
-Its exact structure, anisotropy, rotation, and possible layering remain active areas of seismological research.
+Some seismic waves refused to fit that simple model. In 1936, Danish seismologist Inge Lehmann analyzed faint arrivals recorded in regions where a wholly liquid core should have produced a deeper seismic shadow. She proposed that waves were being reflected and refracted by a smaller, distinct body at Earth's center.
+
+Later observations confirmed and refined the model: a **liquid outer core** surrounds a **solid inner core**. Immense pressure raises the melting point of the iron-rich material enough for the center to remain solid despite temperatures comparable to the surface of the Sun.
+
+“Solid” does not mean cold or perfectly rigid. The inner core can deform over geological timescales, and its anisotropy, layering, growth and possible differential rotation remain active research topics. The old liquid-core model was therefore narrowed rather than discarded—the outer core really is liquid.

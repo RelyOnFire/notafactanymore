@@ -3,7 +3,7 @@ locale: de
 entryId: all-prokaryotes-are-bacteria
 sourceReviewedAt: "2026-08-20"
 claim: Prokaryoten galten als eine grundlegende einheitliche Gruppe; Organismen, die heute Archaeen genannt werden, wurden den Bakterien zugerechnet.
-currentUnderstanding: Organismen ohne Zellkern umfassen zwei tief getrennte Abstammungslinien: Bakterien und Archaeen. Archaeen unterscheiden sich von Bakterien unter anderem in ihren Membranen, ihrer Genetik und großen Teilen ihrer molekularen Maschinerie.
+currentUnderstanding: "Organismen ohne Zellkern umfassen zwei tief getrennte Abstammungslinien: Bakterien und Archaeen. Archaeen unterscheiden sich von Bakterien unter anderem in ihren Membranen, ihrer Genetik und großen Teilen ihrer molekularen Maschinerie."
 whyItChanged: 1977 verglichen Carl Woese und George Fox ribosomale RNA und fanden eine tiefe evolutionäre Trennung innerhalb jener Organismen, die bis dahin gemeinsam als Prokaryoten behandelt wurden. Archaeen wurden daraufhin als grundsätzlich eigenständige Abstammungslinie erkannt und nicht mehr als ungewöhnlicher Zweig der Bakterien.
 acceptedApproximately: Mitte des 20. Jahrhunderts bis 1970er-Jahre
 changedApproximately: 1977–1990

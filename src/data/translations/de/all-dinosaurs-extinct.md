@@ -3,7 +3,7 @@ locale: de
 entryId: all-dinosaurs-extinct
 sourceReviewedAt: "2026-08-20"
 claim: Dinosaurier galten als vollständig ausgestorbene Gruppe, getrennt von den heute lebenden Vögeln.
-currentUnderstanding: Nichtvogeldinosaurier starben vor etwa 66 Millionen Jahren aus, doch eine Dinosaurierlinie überlebte: die Vögel. In der modernen phylogenetischen Systematik sind Vögel lebende Vogeldinosaurier.
+currentUnderstanding: "Nichtvogeldinosaurier starben vor etwa 66 Millionen Jahren aus, doch eine Dinosaurierlinie überlebte: die Vögel. In der modernen phylogenetischen Systematik sind Vögel lebende Vogeldinosaurier."
 whyItChanged: Anatomische Arbeiten belebten im 20. Jahrhundert die Idee eines dinosaurischen Ursprungs der Vögel neu, und kladistische Analysen ordneten Vögel innerhalb der Theropodendinosaurier ein. Spätere Funde gefiederter Dinosaurier lieferten besonders anschauliche zusätzliche Belege.
 acceptedApproximately: 19. Jahrhundert bis spätes 20. Jahrhundert
 changedApproximately: 1970er- bis 1990er-Jahre

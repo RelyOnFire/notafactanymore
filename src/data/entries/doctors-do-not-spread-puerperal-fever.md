@@ -12,7 +12,7 @@ summary: "Semmelweis showed that doctors could carry childbed fever between pati
 featured: true
 featuredOrder: 6 
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Historical perspective on hand hygiene in health care"
     url: "https://www.ncbi.nlm.nih.gov/books/NBK144018/"
@@ -31,6 +31,12 @@ sources:
     note: "Explains the role of hand hygiene in preventing transmission of pathogens in healthcare."
 ---
 
-Semmelweis did not yet possess a modern germ theory and initially described the cause as cadaveric material carried from autopsy rooms. His intervention was nevertheless effective.
+In nineteenth-century maternity hospitals, puerperal or “childbed” fever could kill alarming numbers of women after delivery. Causes were disputed and commonly framed in terms such as epidemic influences, miasma or individual susceptibility. Physicians moving between patients—and even directly from autopsies to examinations—did not routinely disinfect their hands.
 
-Acceptance was slow. His findings met strong resistance, and the wider medical explanation only became clear with later advances in microbiology and antiseptic surgery.
+At Vienna General Hospital, Ignaz Semmelweis confronted a striking natural comparison. Mortality was much higher in the division staffed by doctors and medical students, who also performed autopsies, than in the division staffed by midwives. In 1847 he required the medical staff to wash their hands in chlorinated lime before examining patients. Maternal mortality fell sharply.
+
+Semmelweis did not yet have modern bacteriology. He described the danger as cadaveric material carried from dissecting rooms, and his explanation did not fit comfortably with prevailing medical theories. His results therefore did not produce instant acceptance; resistance continued despite the mortality figures.
+
+Later germ theory and antiseptic practice supplied the mechanism Semmelweis lacked. Puerperal fever is usually bacterial, and hands, instruments and other routes can transmit pathogens between patients.
+
+The historical lesson is not that Semmelweis single-handedly invented all infection control. It is that direct clinical evidence showed medical attendants could transmit lethal disease before microbiology could explain exactly what they were carrying.

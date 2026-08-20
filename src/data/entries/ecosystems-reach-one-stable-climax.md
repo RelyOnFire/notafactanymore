@@ -11,7 +11,7 @@ timelineYear: 1970
 summary: "Ecosystems proved less like organisms maturing toward one final form and more like historically contingent, changing systems."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Plant Succession: An Analysis of the Development of Vegetation"
     url: "https://openlibrary.org/works/OL1471243W/Plant_succession"
@@ -30,4 +30,10 @@ sources:
     note: "Describes contrasting stable ecosystem states maintained by different feedbacks."
 ---
 
-“Climax community” can still be useful in limited descriptive contexts. What was superseded was the universal, deterministic model of one inevitable and permanent endpoint.
+Frederic Clements gave early twentieth-century ecology one of its most influential organizing ideas. After disturbance, vegetation was expected to pass through an orderly sequence of communities until it reached a mature **climax** determined chiefly by regional climate. Clements compared the process to the development of an organism toward an adult form.
+
+That model made succession intelligible, but field ecology increasingly resisted its determinism. Species often responded individually rather than as a tightly integrated community. Fires, storms, grazing and other disturbances could recur before any permanent endpoint formed, while differences in colonization history could send superficially similar sites along different trajectories.
+
+Later work added stronger challenges. Feedbacks can maintain more than one long-lasting ecosystem state under similar external conditions, and systems can sometimes shift abruptly between them. Climate change and human land use further undermine the idea of a universal final community waiting at the end of succession.
+
+Ecologists still use “climax” in some descriptive settings, and succession can certainly produce relatively persistent communities. What was superseded was the expectation of **one inevitable, permanent endpoint** for every ecosystem.

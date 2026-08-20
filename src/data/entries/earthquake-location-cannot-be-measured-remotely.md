@@ -11,7 +11,7 @@ timelineYear: 1900
 summary: "Seismographs made distant earthquakes measurable and locatable without seeing the damage."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "How do seismologists locate an earthquake?"
     url: "https://www.usgs.gov/faqs/how-do-seismologists-locate-earthquake"
@@ -30,6 +30,10 @@ sources:
     note: "Shows how modern sensor networks detect and analyze earthquakes in real time."
 ---
 
-A sparse network can produce a less precise location, and offshore or very deep earthquakes may be harder to constrain.
+Before instrumental seismology, an earthquake was reconstructed mainly from what people could report: where shaking was strongest, which buildings failed and how widely the disturbance was felt. For remote earthquakes—especially beneath oceans or in sparsely populated regions—there might be little direct information about the source at all.
 
-The breakthrough was that the source could be inferred from waves recorded elsewhere.
+Sensitive seismographs changed the problem from one of witnessing damage to one of measuring waves. Earthquakes send several types of seismic waves through Earth at different speeds. The faster P waves arrive before S waves, and the size of that time gap provides information about a station's distance from the source.
+
+One station gives a distance rather than a unique point. Combining arrival times from multiple stations allows seismologists to determine an epicenter, while richer network data can constrain depth and the geometry of the rupture. Standardized clocks and expanding instrument networks made this possible across continents.
+
+Modern systems can detect and locate earthquakes rapidly enough to support early-warning networks. Precision still depends on station coverage and Earth structure, so sparse networks and offshore events can be harder to constrain. The breakthrough was that the source could be **inferred from waves recorded far away**.

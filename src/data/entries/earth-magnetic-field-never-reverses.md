@@ -11,7 +11,7 @@ timelineYear: 1950
 summary: "Rock magnetism revealed that Earth's magnetic poles have repeatedly switched orientation."
 featured: false
 publishedAt: "2026-07-24"
-reviewedAt: "2026-07-24"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Magnetic stripes and isotopic clocks"
     url: "https://pubs.usgs.gov/gip/dynamic/stripes.html"
@@ -25,6 +25,10 @@ sources:
     note: "Explains how lavas and sediments preserve past polarity and confirms repeated reversals."
 ---
 
-A reversal is not an instantaneous flip. It usually unfolds over hundreds to thousands of years.
+When iron-bearing lava cools, magnetic minerals can lock in the direction of Earth's field at that time. Early measurements produced a puzzle: some old rocks were magnetized in directions radically different from the modern field. Possible explanations included movement or rotation of the rocks themselves as well as changes in the field.
 
-Reversals are different from the gradual movement of the magnetic poles seen from year to year.
+As paleomagnetic records accumulated, reversed polarity became impossible to dismiss as a local oddity. Successive lava flows preserved alternating intervals in which the global field had approximately its present orientation and intervals in which magnetic north and south were reversed.
+
+The decisive pattern appeared on the ocean floor. Surveys found parallel bands of normal and reversed magnetization arranged symmetrically on either side of mid-ocean ridges. When combined with radiometric dating, these stripes became both a record of repeated geomagnetic reversals and powerful evidence for seafloor spreading.
+
+A reversal is not an instantaneous pole swap. The transition generally unfolds over hundreds to thousands of years, and it is distinct from the gradual wandering of the magnetic poles observed from year to year.

@@ -11,7 +11,7 @@ timelineYear: 1919
 summary: "A hot, flowing outer core replaced the permanently magnetized-core model with the geodynamo."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Is the Earth a magnet?"
     url: "https://www.usgs.gov/faqs/earth-a-magnet"
@@ -30,6 +30,10 @@ sources:
     note: "William Gilbert's influential magnetic-Earth model treated the planet as a great magnet."
 ---
 
-Parts of Earth's crust do retain permanent magnetization, preserving records of ancient field directions. They do not generate most of the present global field.
+William Gilbert's seventeenth-century description of Earth as a giant magnet was a major advance: it treated compass behavior as a property of the planet rather than as an attraction to a celestial point. Once an iron-rich interior became plausible, a permanently magnetized core offered an intuitive physical picture.
 
-The dynamo is strongly supported, although the detailed origin of reversals and many aspects of core flow remain under study.
+Several discoveries made that picture untenable. Temperatures deep inside Earth are far above the point at which iron can retain ordinary ferromagnetic magnetization. The geomagnetic field also changes measurably over time and has repeatedly reversed polarity, behavior unlike a fixed bar magnet buried at the center of the planet.
+
+At the same time, seismology established a liquid, electrically conducting outer core. Dynamo theory showed how motion of that conducting metal, organized by convection and Earth's rotation, can sustain electric currents and continually regenerate a magnetic field.
+
+Earth therefore still behaves *approximately* like a dipole magnet at the surface, but the resemblance does not reveal the generating mechanism. Parts of the crust do preserve permanent magnetization, including records of ancient field directions; they contribute only a small fraction of the global field compared with the core dynamo.

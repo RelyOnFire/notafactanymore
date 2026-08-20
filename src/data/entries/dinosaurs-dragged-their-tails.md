@@ -11,20 +11,18 @@ timelineYear: 1969
 summary: "The iconic upright, tail-dragging dinosaur was replaced by a balanced, more horizontal reconstruction."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Tyrannosaurus rex Fossil"
     url: "https://www.amnh.org/exhibitions/permanent/saurischian-dinosaurs/tyrannosaurus-rex"
     publisher: "American Museum of Natural History"
     purpose: "Historical context"
     note: "Explains how an early upright museum mount helped create generations of tail-dragging Tyrannosaurus reconstructions."
-
   - title: "Debunking dinosaur myths and movie misconceptions"
     url: "https://www.nhm.ac.uk/discover/debunking-dinosaur-myths-and-movie-misconceptions.html"
     publisher: "Natural History Museum"
     purpose: "Current evidence"
     note: "States that dinosaurs did not normally drag their tails along the ground."
-
   - title: "What's wrong with these dinosaur reconstructions?"
     url: "https://www.nhm.ac.uk/discover/whats-wrong-with-these-dinosaur-reconstructions.html"
     publisher: "Natural History Museum"
@@ -32,6 +30,10 @@ sources:
     note: "Contrasts older tail-dragging reconstructions with modern evidence that dinosaurs held their tails aloft."
 ---
 
-Occasional tail-drag marks are known, so the correction is not that no dinosaur's tail ever touched the ground. The old error was treating dragging as the normal walking posture.
+Early dinosaur skeletons were difficult to reconstruct from incomplete fossils, and large bipeds were often compared with kangaroos. Museum mounts helped make the result iconic: a nearly upright torso, hips low behind the body and a heavy tail resting on the ground as a third support.
 
-Some early paleontologists already suspected that museum mounts were too upright, but engineering limits and popular imagery kept the pose influential.
+The pose became culturally self-reinforcing. Illustrations copied museum mounts, and the mounts in turn made the posture seem anatomically established. Yet articulated skeletons did not require such an erect stance, and fossil trackways produced an awkward question: if dinosaurs routinely dragged enormous tails, why were continuous tail grooves so uncommon alongside their footprints?
+
+Biomechanical reconstruction increasingly placed the spine closer to horizontal, with the tail held clear of the ground as a counterbalance to the head and torso. The dinosaur renaissance of the late twentieth century made this more active, balanced posture familiar, and museums remounted major skeletons accordingly.
+
+Occasional fossil tail-drag marks do exist, so no absolute rule says a dinosaur's tail could never touch the ground. The change concerns the **normal walking posture** represented by generations of reconstructions.

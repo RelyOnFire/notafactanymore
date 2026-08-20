@@ -11,20 +11,24 @@ timelineYear: 1872
 summary: "Dredging recovered living animals far below the depth once proposed as the ocean's lifeless boundary."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Timeline: The Breakthrough Years, 1866–1922"
     url: "https://oceanexplorer.noaa.gov/history/timeline-the-breakthrough-years-1866-1922/"
     publisher: "NOAA Ocean Exploration"
     purpose: "Historical context"
     note: "Records the discovery of life at 2,400 fathoms, overturning Edward Forbes' proposed lifeless azoic zone below 300 fathoms."
-
   - title: "What is the deep ocean?"
     url: "https://oceanexplorer.noaa.gov/ocean-fact/deep-ocean/"
     publisher: "NOAA Ocean Exploration"
     purpose: "Current evidence"
     note: "Overview of the deep ocean and the organisms and ecosystems found there."
 ---
-Edward Forbes' azoic-zone hypothesis was influential but was challenged even before it was decisively disproved. The depth boundary was an extrapolation from limited sampling rather than a directly observed global limit.
 
-The modern deep ocean is not uniformly rich in life, but it is not biologically empty.
+In the 1840s, naturalist Edward Forbes proposed an **azoic zone**: below roughly 300 fathoms, declining light, temperature and food supposedly made animal life impossible. It was a plausible extrapolation from the sparse dredging records then available, and the idea became influential even though deep sampling remained extremely limited.
+
+The boundary began to collapse as better dredges reached farther down. Expeditions in the late 1860s recovered living animals from depths approaching 2,400 fathoms. The *Challenger* expedition of 1872–1876 then sampled the deep ocean systematically and found life across a huge range of depths, replacing a hypothetical biological cutoff with direct observations.
+
+Modern exploration has extended that story to abyssal plains and the deepest trenches. Deep-sea communities can survive on organic material sinking from above, chemical energy from the seafloor, and other pathways.
+
+Forbes' hypothesis had already attracted challenges before the decisive expeditions. The correction is therefore not that everyone accepted a precise global boundary, but that an influential proposed limit proved dramatically too shallow.

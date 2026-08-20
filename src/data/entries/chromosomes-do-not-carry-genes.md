@@ -11,7 +11,7 @@ timelineYear: 1910
 summary: "Meiosis, linkage, and genetic mapping established chromosomes as the physical carriers of genes."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "What Did Sutton See? Thirty Years of Confusion Over the Chromosomal Basis of Mendelism"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC1950603/"
@@ -30,6 +30,8 @@ sources:
     note: "Morgan connected the white-eye trait to the X chromosome, supplying direct evidence for chromosome-based genes."
 ---
 
-Chromosome theory did not emerge from one decisive observation. It became persuasive through the convergence of cytology, breeding experiments, sex linkage, linkage groups, crossing over, and gene maps.
+When Mendel's work was rediscovered around 1900, his hereditary “factors” were mathematical entities inferred from breeding ratios. Chromosomes, meanwhile, were visible structures that paired and separated during cell division, but their connection to those factors was not yet established.
 
-Genes are not beads with fixed physical boundaries in every modern molecular sense, but their hereditary information is encoded in chromosomal DNA or, for cytoplasmic genes, organelle genomes.
+Walter Sutton and Theodor Boveri noticed that chromosome behavior during meiosis closely matched what Mendelian segregation required: homologous chromosomes occur in pairs, separate into gametes, and reunite at fertilization. The chromosome theory was initially a hypothesis rather than a settled identification. Thomas Hunt Morgan's *Drosophila* experiments then gave it a physical foothold. The white-eye trait followed the X chromosome, and groups of linked traits recombined at frequencies that could be used to map their relative positions.
+
+The convergence of cytology and breeding turned abstract genes into entities located on chromosomes. Modern molecular genetics later identified DNA as their principal material basis and refined what counts as a gene.

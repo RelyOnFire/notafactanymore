@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: "Hydrothermal-vent ecosystems showed that primary production can be powered by chemical energy instead of sunlight."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Take a DEEP Dive for National Ocean Month"
     url: "https://oceanexplorer.noaa.gov/exploration-extras/22-national-ocean-month/"
@@ -33,6 +33,8 @@ sources:
     note: "Describes vent communities that depend on chemical processes involving seawater and hot magma."
 ---
 
-Most familiar food webs ultimately trace their primary production to sunlight. The correction is that photosynthesis is not the only process capable of supplying the primary production that supports an ecosystem.
+For most ecologists, the familiar route into a food web began with sunlight. Plants and algae captured solar energy, herbivores ate them, and predators followed. Even organisms in the deep sea were commonly understood as depending on organic material that ultimately rained down from photosynthetic life above.
 
-Chemosynthetic ecosystems still depend on broader planetary geochemistry, and some vent organisms may also receive material ultimately produced in sunlit environments.
+The 1977 expedition to the Galápagos Rift encountered something that did not fit that picture: dense communities of giant tube worms, clams, and other animals clustered around hydrothermal vents far below the reach of sunlight. The animals were not surviving on an unexpectedly large shower of surface food. Subsequent work showed that microorganisms were using chemical energy from reduced compounds in vent fluids to fix carbon, and that some vent animals lived in close symbiosis with these chemoautotrophic microbes.
+
+Chemosynthesis was not itself invented in 1977; microorganisms capable of obtaining energy from inorganic chemical reactions had been studied much earlier. What changed was the recognized ecological scale of the process. An entire rich animal community could be supported by local primary production that did not begin with photosynthesis. Most ecosystems still depend ultimately on sunlight, but sunlight is not a universal prerequisite for primary production.

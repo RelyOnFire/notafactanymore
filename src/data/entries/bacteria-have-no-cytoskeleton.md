@@ -11,7 +11,7 @@ timelineYear: 1995
 summary: "New imaging turned the bacterial cell from a featureless sack into a spatially organized microscopic system."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Small but Mighty: Cell Size and Bacteria"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4484965/"
@@ -30,6 +30,8 @@ sources:
     note: "Reviews bacterial cytoskeletons, compartments, and other mechanisms of internal organization."
 ---
 
-Bacterial cells generally lack the large membrane-bound organelles familiar from animal and plant cells.
+For most of the 20th century, the contrast seemed obvious: eukaryotic cells had organelles and a cytoskeleton, while bacteria looked like tiny, nearly featureless bags of enzymes. Their small size put much of their internal organization below the resolution of ordinary light microscopy, reinforcing the idea that little spatial structure was there to see.
 
-Their organization is different and more compact, not absent.
+That picture broke down as genetics and new imaging methods made bacterial proteins visible inside living cells. FtsZ, a relative of tubulin, forms a ring that helps organize cell division; MreB and related actin-like proteins help control cell shape and spatial organization. Other systems position chromosomes, enzymes, protein complexes, and specialized compartments.
+
+Bacteria still generally lack the large membrane-bound organelles familiar from animal and plant cells. Their interiors are organized differently and on a smaller scale—not unstructured.

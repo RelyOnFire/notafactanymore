@@ -11,7 +11,7 @@ timelineYear: 1977
 summary: "A photosynthetic 'alga' moved into the bacterial domain when its cellular organization became clear."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Taxonomy of cyanobacteria: the era of change"
     url: "https://journals.rcsi.science/0026-3656/article/view/273070"
@@ -30,6 +30,8 @@ sources:
     note: "Identifies cyanobacteria as photosynthetic bacteria rather than true algae."
 ---
 
-The common name “blue-green algae” is still widely used in public-health warnings and ecology.
+“Blue-green algae” was not an arbitrary name. These organisms form visible mats and blooms, contain photosynthetic pigments, and release oxygen, so they fit naturally into older botanical systems that grouped photosynthetic organisms with plants and algae. For generations they were studied largely by phycologists and classified as algae.
 
-The name survives, but the biological classification changed.
+Their cells told a different story. Improved microscopy and biochemistry showed no membrane-bound nucleus and no chloroplasts; photosynthesis occurs on internal membranes within a prokaryotic cell. As microbiology and molecular classification matured, those similarities to bacteria became decisive. The organisms were increasingly treated as cyanobacteria rather than as a branch of eukaryotic algae.
+
+The old name survives in everyday speech, environmental monitoring, and public-health warnings, which can make the reclassification easy to miss. Cyanobacteria really do perform oxygenic photosynthesis like algae and plants; they simply evolved on the bacterial side of life's deepest cellular divide.

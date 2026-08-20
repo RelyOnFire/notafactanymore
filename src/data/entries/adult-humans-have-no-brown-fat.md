@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: "Brown fat thought to disappear or become negligible after infancy was found to remain metabolically active in many adults."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Brown adipose tissue: Recent insights into development, metabolic function and therapeutic potential"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3661118/"
@@ -33,6 +33,8 @@ sources:
     note: "Reviews the biology and metabolic activity of human brown adipose tissue."
 ---
 
-The discovery does not mean that activating brown fat is already a proven treatment for obesity or metabolic disease.
+Brown adipose tissue is specialized for producing heat rather than simply storing energy. Its role was obvious in newborns and small mammals, but for decades human brown fat was commonly assumed to disappear after infancy or survive only as physiologically unimportant remnants.
 
-Brown and beige fat cells are related but not identical, and researchers continue to refine how these tissues develop and function.
+The surprise came partly from medical imaging. PET scans used in cancer care repeatedly showed patches of tissue—especially around the neck and upper chest—that avidly took up glucose, varied with temperature, and did not behave like tumors. Researchers realized that many of these signals matched the locations and activity expected of brown fat. In 2009, several studies combined PET imaging with biopsies, molecular markers, and metabolic measurements to establish functioning brown adipose tissue in normal adults.
+
+Adult brown fat varies substantially among people and tends to be more detectable under cold conditions. Its rediscovery also prompted renewed interest in metabolism and obesity, but that should not be confused with a proven therapy: showing that brown fat burns energy does not mean activating it is already an effective treatment for metabolic disease.

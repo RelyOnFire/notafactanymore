@@ -11,7 +11,7 @@ timelineYear: 1985
 summary: "A drug class once formally contraindicated in heart failure became a cornerstone of treatment."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "A Historical Perspective on the Development of Beta-Adrenergic Blockers"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8109906/"
@@ -30,6 +30,8 @@ sources:
     note: "Explains the modern evidence supporting beta blockers in chronic heart failure."
 ---
 
-Beta blockers can worsen acute decompensated heart failure if started or increased at the wrong time.
+The original contraindication followed sensible short-term physiology. A failing heart already struggled to pump; beta blockers slowed the heart and reduced contractile force. Giving one to a patient with heart failure could therefore look like deliberately weakening an already weak pump, and the drugs were avoided for years.
 
-The reversal applies to carefully selected drugs and stable chronic treatment, not indiscriminate use in every situation.
+The mistake was treating the immediate effect as the whole disease. Chronic heart failure drives persistent sympathetic activation, exposing the heart to high levels of catecholamine signaling that can promote arrhythmias, remodeling, and further deterioration. Beginning in the 1970s, Swedish clinicians including Finn Waagstein cautiously tested beta blockade in selected chronic patients. Larger randomized trials later showed substantial reductions in hospitalization and death with particular beta blockers, transforming guidelines.
+
+The old concern was not imaginary. Starting or increasing a beta blocker during unstable, acutely decompensated heart failure can still be hazardous. The reversal concerns carefully introduced long-term therapy in appropriate stable patients.

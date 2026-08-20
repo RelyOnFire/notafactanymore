@@ -12,7 +12,7 @@ lifespanComparable: true
 summary: "A shell-bound animal mistaken for a mollusk turned out to be a highly modified crustacean."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-08-13"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Crustaceans"
     url: "https://australian.museum/learn/animals/crustaceans/"
@@ -31,6 +31,8 @@ sources:
     note: "Reviews barnacle classification and their placement within Crustacea."
 ---
 
-The adult shell is produced by the barnacle and is not evidence of molluscan ancestry.
+An adult barnacle gives almost every superficial cue in the wrong direction. It is cemented to a rock, pier, whale, or ship; it sits inside hard calcareous plates; and it has none of the obvious walking legs or segmented body people associate with crabs and shrimp. Early classifiers therefore grouped barnacles with other shelled invertebrates.
 
-Darwin spent years studying barnacles, but their crustacean nature had begun to emerge before his monographs.
+The disguise falls apart during development. In the early 19th century, naturalists studying barnacle larvae found free-swimming forms with unmistakably crustacean features. Adult anatomy likewise revealed jointed feeding appendages and other arthropod characteristics. Barnacles were consequently moved away from mollusk-like groupings and into Crustacea.
+
+Darwin later spent years dissecting and classifying barnacles, greatly refining their taxonomy and evolutionary relationships, but their basic crustacean identity had already emerged. The shell is an adaptation of a highly modified crustacean, not evidence of molluscan ancestry.

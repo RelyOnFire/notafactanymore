@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: "Dinosaurs were reclassified to include birds, leaving only the non-avian dinosaur lineages extinct."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Birds are Dinosaurs"
     url: "https://naturalhistory2.si.edu/vt3/NMNH/DT/rails/r10.html"
@@ -37,6 +37,9 @@ sources:
     purpose: "Primary research"
     note: "Gauthier's 1986 cladistic analysis placed birds within theropod dinosaurs and provided a formal phylogenetic landmark for the modern classification."
 ---
-In everyday language, "dinosaurs" often means non-avian dinosaurs, so the older wording remains common. In evolutionary biology, however, excluding birds makes the group incomplete because birds descend from within Dinosauria.
 
-The change is therefore primarily **taxonomic and phylogenetic**. The end-Cretaceous extinction still eliminated all non-avian dinosaurs, but modern classification no longer treats birds as a group outside Dinosauria.
+The first Archaeopteryx fossils in the 1860s already gave birds an unmistakably reptilian-looking relative, and Thomas Henry Huxley argued that birds were closely connected to dinosaurs. But that idea did not become the standard classification. For much of the 20th century, dinosaurs remained an extinct reptile group in textbooks and museum displays, while birds occupied a separate class.
+
+The modern connection revived with detailed anatomical work on small theropod dinosaurs, especially John Ostrom's studies of Deinonychus beginning in the late 1960s. Shared features of the limbs, hips, shoulders, and skeleton made a dinosaurian origin of birds increasingly persuasive. Cladistics then changed the classification itself: Jacques Gauthier's 1986 analysis placed birds within theropod dinosaurs rather than alongside them as a separate evolutionary branch.
+
+Discoveries of feathered non-avian dinosaurs later made the relationship visually dramatic, but the essential change was phylogenetic. The end-Cretaceous extinction still eliminated every non-avian dinosaur lineage. Birds survived from within Dinosauria, so in modern evolutionary classification the group is not wholly extinct.

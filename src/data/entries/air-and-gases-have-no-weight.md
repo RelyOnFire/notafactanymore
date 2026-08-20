@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: "Air stopped being treated as weightless once experiments showed that it has mass and produces pressure."
 featured: false
 publishedAt: "2026-07-24"
-reviewedAt: "2026-07-24"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Joseph Priestley, Discoverer of Oxygen"
     url: "https://www.acs.org/education/whatischemistry/landmarks/josephpriestleyoxygen.html"
@@ -33,6 +33,8 @@ sources:
     note: "Describes pressure as a measurable physical quantity, including atmospheric and gas pressure."
 ---
 
-The old wording varied. Some natural philosophers accepted that air could exert force while still treating it as unusually light or lacking ordinary weight.
+Air is difficult to recognize as ordinary matter because it is invisible, escapes open containers, and surrounds everything at once. Older natural philosophy therefore treated it very differently from dense solids and liquids. Some thinkers allowed air to exert force while still regarding it as naturally light, effectively weightless, or unlike matter that could be put on a balance.
 
-This card combines two nearly identical backlog claims: “air has no weight” and “gases are weightless.”
+Seventeenth-century experiments made that picture harder to maintain. Torricelli's mercury barometer showed that the atmosphere could support a column of liquid, and Pascal's measurements linked that pressure to the amount of atmosphere overhead. Boyle's air-pump experiments then demonstrated that air could be trapped, compressed, expanded, and removed in controlled ways. Gases increasingly became substances that experimenters could collect and manipulate rather than an indistinct absence surrounding solid matter.
+
+Later pneumatic chemistry made different gases into measurable chemical substances, while careful weighing showed that material was not simply vanishing when gases formed or were consumed. Modern atmospheric pressure is literally related to the weight of the air above a surface. The historical transition was gradual, but the end result was decisive: gases have mass and obey the same conservation of matter as less elusive substances.

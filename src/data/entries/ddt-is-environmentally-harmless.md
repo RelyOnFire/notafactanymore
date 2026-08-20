@@ -11,7 +11,7 @@ timelineYear: 1962
 summary: "Persistence and eggshell thinning transformed DDT from a seemingly safe pesticide into a major ecological hazard."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "DDT - A Brief History and Status"
     url: "https://www.epa.gov/ingredients-used-pesticide-products/ddt-brief-history-and-status"
@@ -30,6 +30,8 @@ sources:
     note: "Reviews physiological evidence linking p,p'-DDE to eggshell-gland dysfunction in sensitive birds."
 ---
 
-DDT had genuine public-health value against malaria and other vector-borne diseases, and restricted disease-control use continues under international rules.
+DDT earned its reputation before it earned its environmental controversy. It was extraordinarily effective against mosquitoes, lice, and agricultural pests, helped control malaria and typhus, and had relatively low acute toxicity to humans compared with many earlier insecticides. Those advantages encouraged enormous postwar use and made serious ecological consequences seem less likely.
 
-Its ecological effects vary by species, dose, timing, and exposure route. The correction is not that every application caused identical harm.
+The problem emerged from what happened after spraying. DDT is persistent and fat-soluble, so residues can remain in ecosystems, accumulate in organisms, and become concentrated through food webs. Its breakdown product DDE proved especially important in sensitive birds, interfering with eggshell formation and contributing to reproductive failure in species such as eagles, falcons, and pelicans. Field observations, residue measurements, experiments, and later population recoveries after restrictions tied these effects together.
+
+That history does not erase DDT's genuine public-health value. International rules still allow restricted disease-vector control in particular circumstances. The overturned claim is environmental harmlessness, not that every use produced identical harm or no benefit.

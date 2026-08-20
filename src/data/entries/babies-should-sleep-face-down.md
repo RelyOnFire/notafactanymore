@@ -11,7 +11,7 @@ timelineYear: 1990
 summary: "Advice meant to prevent choking increased SIDS risk until public-health campaigns moved infant sleep onto the back."
 featured: false
 publishedAt: "2026-07-25"
-reviewedAt: "2026-07-25"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Infant sleeping position and sudden infant death syndrome"
     url: "https://pubmed.ncbi.nlm.nih.gov/15843394/"
@@ -30,6 +30,8 @@ sources:
     note: "Reports that prone sleeping and SIDS both declined sharply after the American Academy of Pediatrics recommended back sleeping."
 ---
 
-This guidance applies to sleep, not to supervised awake tummy time, which supports motor development.
+For much of the mid-20th century, putting an infant to sleep on the stomach could sound like the cautious choice. A common fear was that a baby lying on its back might aspirate vomit, and medical books and childcare advice increasingly recommended the prone position despite little evidence that it was safer.
 
-Individual medical circumstances may require specific advice from a child's clinical team.
+The pattern changed when epidemiologists compared infant deaths with sleep position. Studies in several countries found prone sleeping strongly associated with sudden infant death syndrome, while places that shifted infants onto their backs saw SIDS rates fall. National campaigns in the late 1980s and 1990s turned that evidence into one of the most consequential changes in routine infant-care advice.
+
+Back sleeping is for sleep; supervised awake tummy time remains useful for motor development. Individual medical conditions can also require advice tailored by a child's clinical team.

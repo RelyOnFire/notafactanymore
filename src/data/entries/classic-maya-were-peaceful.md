@@ -11,7 +11,7 @@ timelineYear: 1980
 summary: "Decoded inscriptions and archaeology replaced the image of an exceptionally peaceful Maya civilization."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Secrets of the Maya: Deciphering Tikal"
     url: "https://www.smithsonianmag.com/history/secrets-of-the-maya-deciphering-tikal-2289808/"
@@ -30,6 +30,8 @@ sources:
     note: "Explains how decipherment exposed records of battles, sacrifice, dynastic politics, and conquest."
 ---
 
-The older model did not claim that no Maya person had ever fought. It treated warfare as peripheral to societies supposedly dominated by peaceful ritual and calendrical concerns.
+Early 20th-century Maya archaeology was shaped by monuments whose inscriptions could not yet be read as history. Scholars could recognize dates, calendars, astronomy, and ritual imagery, and influential interpreters such as J. Eric Thompson pictured many Maya centers primarily as ceremonial places governed by priestly elites. Warfare existed in the model, but it was often treated as peripheral rather than a major force in politics.
 
-The correction should not portray Maya civilization as nothing but warfare. Maya communities also produced sophisticated agriculture, art, architecture, mathematics, astronomy, trade, and literature over a large and varied region.
+As Maya writing was deciphered, the monuments began naming rulers and recording accessions, captures, attacks, alliances, and dynastic rivalries. Archaeology supplied a second line of evidence: fortifications, burned settlements, weapons, mass violence, and episodes in which attacks transformed or ended political centers. The resulting picture was not of one peaceful civilization but of many competing Maya states whose relations could include sustained warfare.
+
+That correction should not swing into the opposite caricature. Maya societies also created extraordinary systems of agriculture, trade, art, architecture, mathematics, astronomy, and literature across a diverse region and more than a millennium of history.

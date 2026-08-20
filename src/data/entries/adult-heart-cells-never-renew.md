@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: "The adult heart is not completely cell-static, although its low renewal rate cannot repair major damage."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Heart regeneration: Past, present and future"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2999050/"
@@ -33,6 +33,8 @@ sources:
     note: "Explains that adult mammalian hearts undergo limited self-renewal but remain poor at regenerating after injury."
 ---
 
-This does not mean that the adult human heart can replace scar tissue after a large heart attack. Normal turnover is slow, and clinically meaningful regeneration remains a major research challenge.
+For most of the 20th century, the adult mammalian heart was described as a post-mitotic organ. Cardiomyocytes were thought to leave the cell cycle after development and persist for life, helping explain why a major heart attack heals largely by scar formation rather than by rebuilding lost muscle.
 
-Studies have produced differing estimates, but the absolute claim of zero cardiomyocyte renewal is no longer defensible.
+The difficulty was measuring extremely slow turnover in humans. A striking solution came from atmospheric carbon-14 released during Cold War nuclear testing. Because dividing cells incorporate contemporary carbon into newly made DNA, researchers could compare carbon-14 levels in cardiomyocyte nuclei with the dated atmospheric record. In 2009, that method showed that adult human cardiomyocytes are not all as old as the person carrying them.
+
+The estimated renewal rate is low—about 1% per year in younger adults and declining with age—and studies differ on the exact numbers. That is enough to overturn the absolute claim of zero replacement, but nowhere near enough to regenerate the large mass of muscle destroyed in a major infarction. Limited normal turnover and clinically useful heart regeneration are very different things.

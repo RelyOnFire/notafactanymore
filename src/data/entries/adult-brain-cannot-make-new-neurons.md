@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: "The absolute rule that adult brains never make new neurons was overturned, although the extent in adult humans remains uncertain."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Neurogenesis in the Adult and Aging Brain"
     url: "https://www.ncbi.nlm.nih.gov/books/NBK3874/"
@@ -33,6 +33,8 @@ sources:
     note: "Notes that important questions remain about neurogenesis in the adult human brain."
 ---
 
-This entry rejects an absolute claim, not every narrower claim about the human brain. Adult neurogenesis is well established in several animal models, while evidence in the adult human hippocampus remains disputed.
+For much of the 20th century, mature nervous tissue was treated as essentially finished: neurons lost during adulthood might be compensated for by other cells or connections, but not replaced by newly born neurons. That view fit the apparent stability of adult brain anatomy and the difficulty of observing rare cell birth in intact tissue.
 
-The brain also changes through many other forms of plasticity, including the remodeling of connections between existing neurons.
+Beginning in the 1960s, radioactive cell-labeling experiments reported newly generated neurons in adult mammalian brains. Later work in birds and mammals, using improved microscopy and molecular markers, showed that new neurons could survive and become incorporated into existing circuits. The old absolute rule therefore failed even before the harder question of adult human neurogenesis was settled.
+
+That human question remains unusually contentious. Studies disagree about how much neurogenesis persists in the adult hippocampus and how strongly it declines with age. The correction is consequently narrower than the popular slogan that the adult human brain is constantly growing large numbers of new neurons: adult neurogenesis clearly exists in several animals, while its extent in humans remains debated.

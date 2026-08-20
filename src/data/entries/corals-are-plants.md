@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: "Corals moved from the botanical side of natural history to the animal kingdom as living polyps were observed."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-08-13"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Mutualism: Eight examples of species that work together"
     url: "https://www.nhm.ac.uk/discover/mutualism-examples-of-species-that-work-together.html"
@@ -31,6 +31,8 @@ sources:
     note: "Describes coral polyps as animals related to anemones and jellyfish."
 ---
 
-The algae living inside many reef-building corals perform photosynthesis, which helped preserve the plant-like impression.
+Coral challenged the old boundary between plant, animal, and mineral. A colony is rooted in place, often branches like a shrub, and leaves behind a hard stony skeleton. Without observing living polyps closely, treating coral as a marine plant—or even as a mineral growth with a living surface—was understandable.
 
-The coral animal and its algal partner are different organisms.
+In the 18th century, Jean-André Peyssonnel argued from direct observations that the tiny organisms extending from coral were animals. Other naturalists resisted, but feeding behavior and anatomy increasingly supported him, and his work reached a wider scientific audience through the Royal Society in 1753. Corals were eventually placed among animals, where modern zoology classifies them with sea anemones and jellyfish in Cnidaria.
+
+The plant-like impression has one extra twist: many reef-building corals contain photosynthetic algae living symbiotically inside their tissues. Those algae provide much of the coral's energy, but they are partners within an animal host—not evidence that the coral itself is a plant.

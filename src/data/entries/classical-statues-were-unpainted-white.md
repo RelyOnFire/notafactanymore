@@ -11,7 +11,7 @@ timelineYear: 1815
 summary: "Pigment traces and imaging revealed that much classical marble sculpture was originally brightly colored."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Polychromy of Roman Marble Sculpture"
     url: "https://www.metmuseum.org/essays/polychromy-of-roman-marble-sculpture"
@@ -30,6 +30,8 @@ sources:
     note: "Discusses why colorless museum objects fostered the belief that ancient sculpture was intended to be white."
 ---
 
-Not every marble surface was covered identically, and reconstructions necessarily involve uncertainty because pigments survive unevenly.
+The classical statues that reached modern museums had already been filtered by time. Paint flaked and faded, burial altered surfaces, and later cleaning could remove surviving color. What remained most visibly was durable pale marble. Renaissance and neoclassical admiration for that appearance helped turn an accident of preservation into an aesthetic ideal: antiquity itself came to be imagined in white stone.
 
-White marble itself was also valued in antiquity. The overturned claim is the assumption that the present colorless condition of most surviving statues generally reflects their intended original appearance.
+Evidence for color never disappeared completely. Ancient texts mentioned painted sculpture, and archaeologists sometimes saw pigment with the naked eye. Modern microscopy, ultraviolet and infrared imaging, and chemical analysis made much subtler traces recoverable. They reveal reds, blues, yellows, patterned clothing, painted hair and eyes, gilding, and other decoration on many Greek and Roman works.
+
+Polychromy was not uniform. Some surfaces may have remained exposed, white marble itself could be valued, and reconstructions necessarily contain uncertainty where pigments survive poorly. The corrected picture is a much more colorful classical world—not a rule that every statue was completely coated in bright paint.

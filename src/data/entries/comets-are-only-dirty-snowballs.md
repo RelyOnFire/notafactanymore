@@ -11,7 +11,7 @@ timelineYear: 1986
 summary: "Spacecraft turned the tidy dirty-snowball model into a far more complex class of dark, active worlds."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Comets: Facts"
     url: "https://science.nasa.gov/solar-system/comets/facts/"
@@ -30,6 +30,8 @@ sources:
     note: "Documents organic compounds and chemical complexity measured at comet 67P."
 ---
 
-The dirty-snowball model was not wholly wrong. Volatile ice still drives the coma and tails when a comet approaches the Sun.
+Fred Whipple's “dirty snowball” model was successful because it explained the defining behavior of comets. A nucleus rich in volatile ice warms near the Sun, releasing gas and entrained dust that form the coma and tails. For decades, that was a useful physical picture of an object no spacecraft had yet seen up close.
 
-The superseded part is the idea that the model fully captures comet structure and composition.
+The first encounters complicated it. Images of Halley's nucleus in 1986 showed an extraordinarily dark object rather than a bright exposed snowball, with activity concentrated in jets. Later missions found porous surfaces, pits, cliffs, layering, dust-rich material, minerals, and complex organic chemistry. Deep Impact excavated material from comet Tempel 1, while Rosetta followed comet 67P for years and revealed a geologically varied, structurally complex nucleus.
+
+The original model survives at its core: sublimating ice really does power cometary activity. What changed is the idea that “dirty snowball” is a complete description of what a comet nucleus is made of and how it is built.

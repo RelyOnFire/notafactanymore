@@ -11,7 +11,7 @@ timelineYear: 1990
 summary: "Comparative neuroscience replaced three stacked brains with evolutionarily modified, deeply interconnected networks."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The Brain Is Adaptive Not Triune"
     url: "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2022.802606/full"
@@ -30,6 +30,8 @@ sources:
     note: "MacLean's full statement of the three-brain evolutionary framework."
 ---
 
-The model was scientifically influential and stimulated useful comparative questions long before it became a modern internet trope.
+Paul MacLean's triune-brain model gave a memorable evolutionary story to familiar psychological conflicts. An ancient “reptilian complex” supposedly handled instinct and routine, a later paleomammalian or limbic brain supplied emotion, and the newest neomammalian cortex supplied abstract reason. The model was influential in neuroscience and psychiatry before becoming even more popular in education, management, and self-help.
 
-Terms such as brainstem, basal ganglia, limbic structures, and neocortex remain valid anatomy. What is superseded is their presentation as three separately evolved minds with neatly divided instinctive, emotional, and rational functions.
+Comparative neurobiology made the evolutionary staircase increasingly difficult to sustain. Reptiles and other vertebrates possess homologues of structures once treated as uniquely mammalian additions, while mammalian cortical, limbic, and subcortical regions evolved by modification and reorganization of shared ancestral systems. Modern connectivity research also shows dense interaction among regions involved in motivation, emotion, perception, memory, and cognition rather than three semi-independent minds competing for control.
+
+The anatomical terms remain useful. What is superseded is the tidy story that evolution simply stacked a rational mammal brain on top of an emotional mammal brain on top of a reptile brain.

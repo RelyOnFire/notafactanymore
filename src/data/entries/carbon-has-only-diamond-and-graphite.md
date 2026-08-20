@@ -11,7 +11,7 @@ timelineYear: 1985
 summary: "Carbon's two-form textbook picture expanded into a large family of molecular and nanoscale structures."
 featured: false
 publishedAt: "2026-07-24"
-reviewedAt: "2026-07-24"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Fullertubes: A 30-Year Story"
     url: "https://pubs.acs.org/doi/10.1021/acs.accounts.4c00302"
@@ -32,6 +32,8 @@ sources:
     note: "Reviews the modern family of graphite, diamond, graphene, nanotubes, fullerenes, and related carbon allotropes."
 ---
 
-Scientists had long known amorphous carbon materials such as soot and charcoal, but diamond and graphite were treated as the two principal crystalline allotropes.
+For generations, crystalline carbon meant two radically different materials made from the same element. In diamond, each carbon atom sits in a three-dimensional network; in graphite, atoms form sheets that slide over one another. Soot, charcoal, and other amorphous carbons were familiar, but textbooks still had a remarkably simple answer to the question of carbon's principal crystalline allotropes: diamond and graphite.
 
-Some proposed carbon structures remain difficult to isolate, so not every theoretical arrangement should be counted equally.
+In 1985, experiments vaporizing carbon produced C60, a closed cage of sixty carbon atoms shaped like a molecular soccer ball. The fullerene discovery showed that carbon could form stable architectures outside the old pair. Carbon nanotubes followed, and in 2004 researchers isolated graphene—an individual atomic sheet corresponding to a single layer of graphite. A much broader world of carbon nanostructures followed.
+
+Not every theoretically possible carbon arrangement is equally stable or experimentally established. The important correction is that diamond and graphite are not carbon's only structurally distinct forms.

@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: "Immune tolerance proved to be a set of fallible safeguards rather than an absolute barrier to self-directed disease."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "A Proposed Classification of the Immunological Diseases"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC1564298/"
@@ -36,6 +36,8 @@ sources:
     note: "Witebsky and colleagues' 1956 experiments produced thyroid autoantibodies in rabbits, helping establish experimentally induced organ-specific autoimmunity."
 ---
 
-Ehrlich's *horror autotoxicus* should not be read as a literal claim that an immune system could never react against self. Its historical importance lies in the strong expectation that mechanisms normally prevented harmful self-reactivity, an expectation that made autoimmune explanations of disease difficult to establish.
+At the start of the 20th century, Paul Ehrlich's idea of *horror autotoxicus* gave immunology a powerful expectation: organisms possessed safeguards that normally prevented destructive immune reactions against their own tissues. Ehrlich's actual position was more nuanced than the later slogan that autoimmunity was literally impossible, but the principle made self-directed immunity difficult to accept as a broad explanation for disease.
 
-Autoimmunity also differs from autoinflammation, allergy, and tissue damage caused indirectly by infection. Precise diagnosis depends on the immune pathway involved.
+Clinical observations gradually weakened that barrier. Researchers identified antibodies that reacted with a patient's own cells or tissues, including cases associated with hemolytic anemia and thyroid disease. The decisive advance was not merely finding self-reactivity, because harmless self-reactive cells and antibodies can exist, but demonstrating that such responses could cause pathology. In 1956, Witebsky and colleagues experimentally induced thyroid autoantibodies in rabbits, part of a broader body of work that helped establish organ-specific autoimmune disease.
+
+Modern immunology replaced an absolute protective barrier with multiple layers of tolerance. Developing lymphocytes are screened, peripheral cells are regulated, and several mechanisms restrain self-reactivity—but none is perfect. Autoimmune disease occurs when those controls fail or are bypassed. The historical correction is therefore a narrowing of immune tolerance, not a claim that the immune system ordinarily attacks the body indiscriminately.

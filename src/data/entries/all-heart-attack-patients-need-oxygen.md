@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: "A universal emergency treatment narrowed to patients who are actually short of oxygen."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Oxygen therapy in myocardial infarction: an historical perspective"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC1809170/"
@@ -31,6 +31,8 @@ sources:
     note: "Reviews the guideline shift from oxygen for all heart attacks to treatment mainly for hypoxemia."
 ---
 
-Oxygen is still lifesaving when a patient is hypoxemic.
+Supplemental oxygen became one of the standard sights of heart-attack care. The rationale seemed almost self-evident: a coronary artery was starving heart muscle of oxygen, so giving the patient more oxygen should help threatened tissue. The practice became routine long before strong randomized evidence showed that normoxic patients benefited.
 
-The reversal concerns routine use in people whose blood already carries enough oxygen.
+That intuition overlooked an important distinction between oxygen in the lungs and blood and blood flow through the blocked coronary circulation. Once hemoglobin is already well saturated, extra oxygen adds relatively little to the blood's oxygen content. Hyperoxia can also constrict coronary vessels and alter circulation in ways that might be unhelpful.
+
+A controlled trial published in the 1970s failed to show benefit in uncomplicated myocardial infarction, but routine oxygen persisted for decades. Larger modern trials and reviews eventually reinforced the absence of benefit in patients whose oxygen saturation is already normal, and guidelines narrowed accordingly. Oxygen remains essential when a heart-attack patient is hypoxemic or has respiratory compromise; what disappeared was the assumption that every infarction automatically requires it.

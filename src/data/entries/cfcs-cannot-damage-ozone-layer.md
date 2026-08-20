@@ -12,7 +12,7 @@ summary: "CFC stability allowed the chemicals to reach the stratosphere, where s
 featured: true
 featuredOrder: 5
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "History of the study of atmospheric ozone"
     url: "https://acd-ext.gsfc.nasa.gov/People/Stolarski/history.html"
@@ -31,6 +31,8 @@ sources:
     note: "Explains the evidence, policy response, and ongoing recovery under the Montreal Protocol."
 ---
 
-CFCs are not highly reactive in the lower atmosphere; that part of the old description was correct. Their persistence is precisely what enables them to reach ultraviolet-rich altitudes.
+CFCs looked unusually safe for a reason: they were stable, nonflammable, and remarkably unreactive in the lower atmosphere. Those properties made them useful as refrigerants and aerosol propellants, and there seemed to be no obvious chemical pathway from a leak near the ground to damage high in the stratosphere.
 
-Ozone depletion and climate change are different problems, although many ozone-depleting substances are also powerful greenhouse gases.
+Mario Molina and F. Sherwood Rowland turned that stability into the problem. In 1974 they argued that CFC molecules could survive for years, diffuse upward, and eventually encounter ultraviolet radiation energetic enough to break them apart. The released chlorine atoms could then catalytically destroy ozone while being regenerated to attack again. Measurements of stratospheric chlorine chemistry and the discovery of the Antarctic ozone hole made the mechanism an environmental reality rather than a theoretical concern.
+
+The old description was partly right: CFCs really are resistant to reaction in the lower atmosphere. That persistence is precisely what allows them to reach the part of the atmosphere where they become destructive.

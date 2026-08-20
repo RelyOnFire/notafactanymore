@@ -11,7 +11,7 @@ timelineYear: 1959
 summary: "Language learning expanded from imitation and reward into a complex process of pattern discovery, interaction, and development."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "A new view of language acquisition"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC34178/"
@@ -30,6 +30,8 @@ sources:
     note: "Reviews evidence that conditioning and imitation matter but are insufficient as a complete explanation."
 ---
 
-The older theory captured real parts of language learning, and modern researchers still study imitation, reinforcement, social feedback, and statistical learning.
+Behaviorism offered an appealingly concrete account of language. Children heard adults speak, copied what they heard, and had successful utterances reinforced while unsuccessful ones faded away. B. F. Skinner's 1957 *Verbal Behavior* placed language within this broader framework of learned behavior.
 
-The card rejects “entirely,” not every role for learning from other people.
+Children themselves exposed the limits of a pure copying model. They routinely produce sentences they have never heard and make rule-like errors such as applying a regular grammatical pattern where adults use an exception. Such mistakes are poor imitation but good evidence of generalization. The famous Skinner–Chomsky debate helped push language research toward mechanisms capable of generating new structure rather than merely reproducing rewarded phrases.
+
+Modern accounts are more pluralistic than either side of that early dispute. Imitation, reinforcement, social interaction, statistical learning, memory, cognition, and biological constraints all contribute. The superseded claim is that imitation and reward by themselves are a complete explanation.

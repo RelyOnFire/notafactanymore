@@ -11,7 +11,7 @@ timelineYear: 1983
 summary: "A common cancer became preventable once its central viral cause was established."
 featured: false
 publishedAt: "2026-07-25"
-reviewedAt: "2026-07-25"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Preventing Cervical Cancer: The Development of HPV Vaccines"
     url: "https://www.cancer.gov/research/progress/discovery/hpv-vaccines"
@@ -30,6 +30,8 @@ sources:
     note: "States that nearly all cervical cancers are caused by HPV and explains how vaccination can prevent them."
 ---
 
-The older scientific picture was not always that infection was impossible. Nineteenth-century observations had suggested a sexually transmitted cause, but the actual agent remained unidentified for more than a century.
+Cervical cancer had long carried clues that infection might matter. Nineteenth-century physicians noticed patterns associated with sexual exposure, but epidemiology could not identify an agent, and proposed infectious causes came and went. By the mid-20th century the disease was not explained by a specific virus, and later attention briefly focused on herpes simplex virus type 2 rather than papillomaviruses.
 
-HPV infection is extremely common; cancer is a rare outcome that usually requires persistent high-risk infection and additional cellular changes.
+Harald zur Hausen proposed that particular human papillomaviruses might be responsible. His group isolated HPV16 DNA from cervical-cancer tissue in 1983 and HPV18 soon afterward. Molecular work showed that high-risk HPV genes can disrupt cellular controls on proliferation, while large epidemiological studies established persistent high-risk HPV infection as the central causal requirement for cervical cancer.
+
+That discovery changed prevention as well as explanation: HPV testing and vaccination can interrupt the causal chain before cancer develops. Most HPV infections still clear spontaneously, so infection alone does not mean that cancer is inevitable.

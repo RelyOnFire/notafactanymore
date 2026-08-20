@@ -11,7 +11,7 @@ timelineYear: 1897
 summary: "The search for an infection or rice toxin gave way to the discovery that beriberi is caused by thiamine deficiency."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-07-17"
+reviewedAt: "2026-08-20"
 sources:
   - title: "An Overview of Beriberi"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12503715/"
@@ -30,6 +30,8 @@ sources:
     note: "Records Eijkman's Nobel-recognized work connecting diet and antineuritic vitamins."
 ---
 
-Early researchers did not all support the same explanation, and even Eijkman's interpretation changed over time. The deficiency model emerged gradually.
+Beriberi was especially common where polished white rice dominated the diet, but that association did not initially point cleanly to deficiency. In the bacteriological era, infection was an obvious suspect, and some researchers instead imagined a toxin in the rice. Christiaan Eijkman himself first interpreted his famous chicken experiments in toxic terms after birds fed polished rice developed a paralysis-like illness and recovered when rice bran was restored.
 
-Today, beriberi can result from poor diet, alcoholism, malabsorption, dialysis, prolonged vomiting, and other conditions that reduce thiamine availability.
+The more radical interpretation was that something necessary had been removed. Gerrit Grijns argued that the outer layers of rice supplied an essential protective substance, helping shift the problem from poison to missing nutrient. Work on dietary “accessory factors” followed, and the protective compound was eventually identified as vitamin B1, or thiamine.
+
+The transition was gradual rather than a single eureka moment. Modern beriberi can arise from inadequate intake, alcoholism, malabsorption, prolonged vomiting, dialysis, and other conditions that leave the body short of thiamine.

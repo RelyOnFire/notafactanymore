@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: "Genetics displaced routine inheritance of acquired bodily changes as a general mechanism of evolution."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-06"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Zoological Philosophy"
     url: "https://www.gutenberg.org/ebooks/11525"
@@ -31,6 +31,8 @@ sources:
     note: "The DNA double-helix model helped establish a physical mechanism for copying hereditary information."
 ---
 
-This correction does not mean that environments never affect descendants. Maternal effects, cultural inheritance, developmental conditions, and some epigenetic states can persist across generations.
+Lamarck made inheritance of acquired characteristics central to his evolutionary theory: repeated use could strengthen an organ, disuse could weaken it, and those alterations could be passed to offspring. Similar ideas remained influential well beyond Lamarck. Even Darwin allowed mechanisms that could transmit effects acquired during life, and several late-19th-century evolutionary schools gave such inheritance an important role.
 
-Those phenomena are narrower than the classical claim that bodily changes produced by use, disuse, injury, or need are generally written into heredity and direct long-term evolution.
+The picture became harder to sustain as heredity was separated from ordinary changes to the body. August Weismann argued for a distinction between the reproductive germ line and the rest of the organism, while Mendelian genetics, chromosome theory, and later population genetics showed how inherited variants could persist and recombine without being rewritten each generation by use or disuse. By the modern synthesis, routine inheritance of acquired bodily modifications was no longer needed as a general engine of evolution.
+
+That does not mean environments leave no mark across generations. Maternal effects, cultural inheritance, developmental conditions, and some epigenetic states can persist. Those effects are narrower than the classical claim that changes produced by exercise, injury, disuse, or need are generally written into heredity and direct long-term evolution.

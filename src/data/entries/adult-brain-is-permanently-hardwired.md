@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: "The mature brain proved capable of continued rewiring, learning, and structural change."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Adult Neuroplasticity: More Than 40 Years of Research"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4026979/"
@@ -36,6 +36,8 @@ sources:
     note: "Raisman's 1969 adult-rat study demonstrated lasting anatomical reorganization of synaptic connections after deafferentation."
 ---
 
-Plasticity is not unlimited. Age, injury type, disease, training, and the brain region involved all affect how much change is possible.
+The mature brain was once pictured as comparatively fixed: development established its essential wiring, and adulthood brought stability rather than large-scale reorganization. That assumption was reinforced by the poor recovery seen after many brain and spinal injuries and by the lack of techniques capable of watching living neural circuits change.
 
-The correction is not that adults can effortlessly learn or recover anything.
+Evidence accumulated that adult nervous systems were less rigid. Lesion experiments showed surviving neurons forming new synaptic arrangements; sensory and motor studies found cortical maps changing when inputs or behavior changed; rehabilitation demonstrated functional reassignment after injury. Raisman's 1969 work was an early anatomical demonstration that adult synaptic connections could reorganize after part of their input was removed.
+
+Modern imaging and longitudinal studies have extended that picture to humans, finding experience-related changes in connectivity and measurable aspects of brain structure. Plasticity is nevertheless constrained by age, region, injury, disease, and training. The discarded idea is permanent hardwiring, not the opposite fantasy that an adult brain can reorganize without biological limits.

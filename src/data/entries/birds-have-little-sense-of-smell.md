@@ -11,7 +11,7 @@ timelineYear: 1965
 summary: "A supposedly scent-blind animal group proved to use odors for navigation, feeding, recognition, and reproduction."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-07-28"
+reviewedAt: "2026-08-20"
 sources:
   - title: "The underestimated role of olfaction in avian reproduction"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2692081/"
@@ -30,6 +30,8 @@ sources:
     note: "Reviews avian smell in navigation, foraging, social recognition, and reproduction."
 ---
 
-Some birds do have relatively small olfactory systems and depend more heavily on other senses.
+Birds advertise vision and hearing spectacularly: bright plumage, precise flight, elaborate calls, and obvious responses to visual landmarks. They generally do not sniff in a mammal-like way, so classical zoology often treated smell as a weak or nearly absent avian sense. That generalization survived even though species such as kiwis, petrels, and vultures offered hints that some birds were doing much more with odor.
 
-The reversal concerns birds as a class, not the claim that every species has an exceptional nose.
+Experiments and field observations eventually made the case harder to dismiss. Birds have functional olfactory bulbs and receptor genes, and different species use odor to locate food, navigate over long distances, recognize nests and individuals, detect predators, and influence mate choice. The size and importance of the olfactory system vary enormously across the class.
+
+The correction is therefore not that every bird has a bloodhound's nose. It is that “birds barely smell” was a poor class-wide rule built partly from how humans happened to observe them.

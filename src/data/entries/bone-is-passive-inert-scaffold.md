@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: "Bone was already understood as living, dynamic tissue before researchers established its additional role as an endocrine signaling organ."
 featured: false
 publishedAt: "2026-07-27"
-reviewedAt: "2026-08-13"
+reviewedAt: "2026-08-20"
 sources:
   - title: "Renal osteodystrophy: A historical review of its origins and conceptual evolution"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9713281/"
@@ -33,6 +33,8 @@ sources:
     note: "Reviews bone as a living endocrine organ involved in whole-body physiology."
 ---
 
-Support, protection, mineral regulation, and blood-cell production remain central skeletal functions.
+By the late 20th century, physiologists certainly did not regard bone as literally dead material. Bone remodeling, calcium and phosphate storage, marrow, fracture repair, osteoblasts, and osteoclasts were all established biology. The narrower assumption was that the skeleton's systemic roles were largely mechanical, hematopoietic, and mineral-regulatory—not that bone cells also behaved as an endocrine signaling system.
 
-Some proposed endocrine effects, especially findings based mainly on animal models, continue to be refined in humans.
+That boundary blurred when researchers identified molecules made in bone that act on distant organs. FGF23 became a particularly clear example: produced chiefly by bone cells, it circulates to the kidney and helps control phosphate and vitamin-D metabolism. Work in the 2000s on osteocalcin proposed still broader effects on metabolism and other tissues, helping popularize the concept of bone as an endocrine organ.
+
+The strength of the evidence is not equal for every proposed bone hormone. FGF23 has an established systemic role; several osteocalcin effects remain more contested in humans than early animal studies suggested.

@@ -1,7 +1,7 @@
 ---
 locale: de
 entryId: interstellar-space-is-empty
-sourceReviewedAt: "2026-08-13"
+sourceReviewedAt: "2026-08-20"
 claim: "Der Raum zwischen den Sternen enthält kein nachweisbares materielles Medium."
 currentUnderstanding: "Der interstellare Raum enthält extrem dünnes Gas, Plasma, Staub, Moleküle, kosmische Strahlung und Magnetfelder. Dichtere Molekülwolken liefern das Ausgangsmaterial für neue Sterne und Planeten."
 whyItChanged: "Das Material ist zu dünn verteilt, um direkt sichtbar zu sein. 1904 fand Johannes Hartmann stationäre Kalzium-Absorptionslinien im Spektrum eines sich bewegenden Doppelsterns – ein Hinweis darauf, dass sich absorbierendes Material zwischen Stern und Erde befand. Spätere Spektroskopie und Radioastronomie zeigten ein allgegenwärtiges interstellares Medium."
@@ -14,6 +14,12 @@ sourceNotes:
 - "Zeigt, dass selbst scheinbar leerer intergalaktischer Raum große Mengen gewöhnlicher Materie enthält."
 ---
 
-Nach irdischen Maßstäben ist der interstellare Raum weiterhin ein ausgezeichnetes Vakuum. Korrigiert wird, dass „fast leer“ nicht dasselbe bedeutet wie „enthält nichts“.
+Die Dunkelheit zwischen den Sternen legte die Vorstellung echter Leere nahe. Materie wäre dort im Vergleich zu irdischen Gasen extrem dünn verteilt, und vor empfindlicher Spektroskopie gab es kaum eine direkte Möglichkeit, sie nachzuweisen.
 
-Das interstellare Medium ist zentral für Sternentstehung, Chemie und den Stoffkreislauf innerhalb von Galaxien.
+1904 untersuchte Johannes Hartmann das Spektrum eines Doppelsternsystems, dessen eigene Spektrallinien sich durch die Umlaufbewegung periodisch verschoben. Einige schmale Kalzium-Absorptionslinien bewegten sich jedoch **nicht** mit dem Stern. Die einfachste Erklärung war, dass das absorbierende Material irgendwo zwischen dem Sternsystem und der Erde lag.
+
+Weitere spektroskopische Beobachtungen zeigten interstellares Gas und Staub entlang vieler Sichtlinien. Später wies die Radioastronomie kalten atomaren Wasserstoff und Molekülwolken nach, die im sichtbaren Licht nahezu unsichtbar sind. Andere Verfahren kartierten ionisiertes Gas, kosmische Strahlung und Magnetfelder.
+
+Das interstellare Medium erwies sich als zentraler Bestandteil der Entwicklung von Galaxien. Sterne entstehen aus seinen dichteren Wolken, geben durch Winde und Explosionen Material zurück und reichern damit das Gas an, aus dem spätere Sterne und Planeten hervorgehen.
+
+Nach Laborstandards ist interstellarer Raum weiterhin ein außergewöhnlich gutes Vakuum. Die Korrektur liegt im Unterschied zwischen **fast leer** und **enthält nichts**: Selbst wenige Teilchen pro Kubikzentimeter werden über Entfernungen von Lichtjahren astrophysikalisch bedeutsam.

@@ -1,7 +1,7 @@
 ---
 locale: de
 entryId: human-genome-100000-genes
-sourceReviewedAt: "2026-07-17"
+sourceReviewedAt: "2026-08-20"
 claim: "Das menschliche Genom enthält ungefähr 100.000 proteincodierende Gene."
 currentUnderstanding: "Heutige Annotationen gehen von ungefähr 20.000 proteincodierenden menschlichen Genen aus, wobei die genaue Zahl von Definitionen und fortlaufender Genomannotation abhängt."
 whyItChanged: "Vor der Sequenzierung des menschlichen Genoms wurden Genzahlen indirekt geschätzt. Entwurfs- und fertige Genomsequenzen ermöglichten es, Gene wesentlich systematischer zu identifizieren und zu bestätigen, wodurch die Schätzung stark sank."
@@ -14,6 +14,12 @@ sourceNotes:
 - "Gibt einen Überblick über die Geschichte und die weiterhin schwierige Bestimmung eines exakten menschlichen Genkatalogs."
 ---
 
-Diese Karte bezieht sich ausdrücklich auf **proteincodierende Gene**. Das menschliche Genom enthält außerdem viele Gene, die funktionelle RNAs statt Proteine erzeugen, und genaue Grenzen und Gesamtzahlen werden weiter verfeinert.
+Bevor eine vollständige menschliche Genomsequenz vorlag, musste die Zahl der Gene indirekt geschätzt werden – etwa aus der Vielfalt von Proteinen und RNA, aus Mutationsdaten, der Komplexität des Genoms und Vergleichen mit anderen Organismen. Gegen Ende des 20. Jahrhunderts waren Schätzungen von rund **100.000 proteincodierenden Genen** weit verbreitet.
 
-Die Korrektur schwächte auch die Vorstellung, die Komplexität eines Organismus lasse sich einfach durch eine größere Zahl proteincodierender Gene erklären.
+Das Humangenomprojekt machte eine wesentlich systematischere Zählung möglich, auch wenn selbst diese „direkte“ Bestimmung schwierige computergestützte und experimentelle Annotation erforderte. Schon mit dem Entwurf des Genoms von 2001 lag die vorhergesagte Zahl deutlich unter den Erwartungen; die Analyse der fertiggestellten Sequenz drückte sie weiter in Richtung etwa 20.000 bis 25.000 proteincodierende Gene.
+
+Die Überraschung schwächte eine einfache Vorstellung biologischer Komplexität. Der Mensch ist nicht deshalb komplex, weil er schlicht viel mehr proteincodierende Gene besitzt als andere Tiere. Alternatives Spleißen, Genregulation, nichtcodierende RNAs, Proteinmodifikationen und Netzwerke wechselwirkender Gene tragen wesentlich dazu bei, was ein Genom leisten kann.
+
+Auch heute ist die Zahl nicht auf eine letzte Stelle festgeschrieben. Gengrenzen, sehr kleine Proteine und die Kriterien der Annotation werden weiter verfeinert.
+
+Diese Karte bezieht sich ausdrücklich auf **proteincodierende Gene**. Das menschliche Genom enthält außerdem zahlreiche Gene, deren funktionelles Produkt RNA statt Protein ist. Die Aussage „der Mensch hat insgesamt etwa 20.000 Gene“ wäre daher selbst wieder eine zu grobe Vereinfachung.

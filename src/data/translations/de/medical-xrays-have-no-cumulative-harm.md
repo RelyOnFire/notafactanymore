@@ -1,19 +1,25 @@
 ---
 locale: de
 entryId: medical-xrays-have-no-cumulative-harm
-sourceReviewedAt: "2026-08-06"
-claim: "Wiederholte medizinische Röntgenexposition verursacht keine kumulativen biologischen Schäden."
-currentUnderstanding: "Röntgenstrahlen sind ionisierende Strahlung. Die Dosis summiert sich über mehrere Expositionen und kann Gewebe und DNA schädigen, auch wenn das Risiko einer einzelnen medizinisch gerechtfertigten modernen diagnostischen Untersuchung meist klein gegenüber ihrem klinischen Nutzen ist."
-whyItChanged: "Röntgenstrahlen wurden nach 1895 rasch eingesetzt, bevor Strahlenbiologie oder Dosimetrie existierten. Verbrennungen, nicht heilende Verletzungen, Unfruchtbarkeit, Leukämien und Krebserkrankungen bei frühen Anwendern und Patienten zeigten die Notwendigkeit von Abschirmung, Dosisbegrenzung und medizinischer Rechtfertigung."
-acceptedApproximately: "1895 bis frühes 20. Jahrhundert"
-changedApproximately: "1900er- bis 1950er-Jahre"
-summary: "Strahlenschäden und langfristige Krebsdaten verdrängten die Vorstellung, wiederholte Röntgenexposition sei harmlos."
+sourceReviewedAt: '2026-08-20'
+claim: Wiederholte medizinische Röntgenexposition verursacht keine kumulativen biologischen Schäden.
+currentUnderstanding: Röntgenstrahlen sind ionisierende Strahlung. Die Dosis summiert sich über mehrere Expositionen und kann Gewebe und DNA schädigen, auch wenn das Risiko einer einzelnen medizinisch gerechtfertigten modernen diagnostischen Untersuchung meist klein gegenüber ihrem klinischen Nutzen ist.
+whyItChanged: Röntgenstrahlen wurden nach 1895 rasch eingesetzt, bevor Strahlenbiologie oder Dosimetrie existierten. Verbrennungen, nicht heilende Verletzungen, Unfruchtbarkeit, Leukämien und Krebserkrankungen bei frühen Anwendern und Patienten zeigten die Notwendigkeit von Abschirmung, Dosisbegrenzung und medizinischer Rechtfertigung.
+acceptedApproximately: 1895 bis frühes 20. Jahrhundert
+changedApproximately: 1900er- bis 1950er-Jahre
+summary: Strahlenschäden und langfristige Krebsdaten verdrängten die Vorstellung, wiederholte Röntgenexposition sei harmlos.
 sourceNotes:
-- "Erklärt Rechtfertigung, Optimierung und Patientenschutz beim medizinischen Einsatz ionisierender Strahlung."
-- "Gibt einen Überblick über die rasche Einführung, frühe Verletzungen und die Entstehung des Strahlenschutzes."
-- "Fasst das kumulative Risiko ionisierender Strahlung zusammen und betont zugleich den Nutzen medizinisch notwendiger Bildgebung."
+- Erklärt Rechtfertigung, Optimierung und Patientenschutz beim medizinischen Einsatz ionisierender Strahlung.
+- Gibt einen Überblick über die rasche Einführung, frühe Verletzungen und die Entstehung des Strahlenschutzes.
+- Fasst das kumulative Risiko ionisierender Strahlung zusammen und betont zugleich den Nutzen medizinisch notwendiger Bildgebung.
 ---
 
-Nicht jede medizinische Bildgebung verwendet ionisierende Strahlung: Ultraschall und MRT kommen ohne Röntgenstrahlen aus. CT und Durchleuchtung können deutlich höhere Dosen verursachen als eine einfache Röntgenaufnahme.
+Röntgenstrahlen fanden fast unmittelbar nach ihrer Entdeckung 1895 Eingang in die Medizin. Erstmals ließen sich Knochenbrüche und Fremdkörper im lebenden Körper ohne Operation sichtbar machen. Der diagnostische Nutzen war so offensichtlich, dass sich die Technik verbreitete, bevor Strahlenbiologie, Dosimetrie oder belastbare Schutzstandards existierten.
 
-Strahlenschutz folgt dem Prinzip, die Exposition so niedrig wie vernünftigerweise erreichbar zu halten und zugleich das notwendige diagnostische oder therapeutische Ergebnis zu erzielen.
+Frühe Anwender setzten sich selbst und ihre Patienten zum Teil wiederholt und über lange Zeiträume der Strahlung aus. Hautverbrennungen, chronische Wunden, Haarausfall, Unfruchtbarkeit und später ein erhöhtes Krebsrisiko machten deutlich, dass Röntgenstrahlen biologisch keineswegs neutral sind.
+
+Der Grund ist, dass Röntgenstrahlen **ionisierende Strahlung** darstellen. Sie können Moleküle und DNA schädigen, und die erhaltene Dosis lässt sich nicht nach jeder Untersuchung auf null zurücksetzen. Wiederholte Exposition trägt zur Gesamtdosis bei.
+
+Die Radiologie reagierte mit Abschirmung, Dosimetrie, kürzeren Belichtungszeiten, empfindlicheren Detektoren sowie den Prinzipien von Rechtfertigung und Optimierung. Moderne Verfahren können mit deutlich geringerer Dosis wesentlich mehr diagnostische Information liefern als frühe Geräte.
+
+Das bedeutet nicht, dass eine medizinisch notwendige Röntgenaufnahme unverantwortlich gefährlich wäre. Bei den meisten gerechtfertigten diagnostischen Untersuchungen überwiegt der klinische Nutzen das geringe Strahlenrisiko deutlich. CT und Durchleuchtung können höhere Dosen verursachen als eine einfache Röntgenaufnahme; MRT und Ultraschall verwenden dagegen überhaupt keine ionisierende Strahlung.

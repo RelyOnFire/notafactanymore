@@ -363,7 +363,7 @@ const DISPLAY_CAP = 250;
               <span>{item.count} {item.count === 1 ? 'entry' : 'entries'} · median {formatApproxYears(item.median)}</span>
             </div>
 
-            <div class="distribution-bar" aria-label={`${item.label} lifespan distribution`}>
+            <div class="distribution-bar" aria-hidden="true">
               {item.bands.map((band) =>
                 band.count > 0 && (
                   <span

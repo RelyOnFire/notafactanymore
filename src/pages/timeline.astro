@@ -241,6 +241,30 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     const clearSinceButton = document.querySelector<HTMLButtonElement>('.clear-since');
     const emptyResetButton = document.querySelector<HTMLButtonElement>('.empty-reset');
 
+    const mobileFilterMedia = window.matchMedia('(max-width: 760px)');
+    const filterPanelAnchor = filterPanel ? document.createComment('timeline-filter-panel-anchor') : null;
+
+    if (filterPanel && filterPanelAnchor) {
+      filterPanel.before(filterPanelAnchor);
+    }
+
+    const syncFilterPanelMount = () => {
+      if (!filterPanel || !filterPanelAnchor) return;
+
+      if (mobileFilterMedia.matches && !filterPanel.hidden) {
+        if (filterPanel.parentElement !== document.body) {
+          document.body.append(filterPanel);
+        }
+        filterPanel.setAttribute('aria-modal', 'true');
+        return;
+      }
+
+      if (filterPanel.parentElement === document.body && filterPanelAnchor.parentNode) {
+        filterPanelAnchor.parentNode.insertBefore(filterPanel, filterPanelAnchor.nextSibling);
+      }
+      filterPanel.removeAttribute('aria-modal');
+    };
+
     const selectedCategories = new Set<string>();
     const selectedStatuses = new Set<string>();
     let direction: 'newest' | 'oldest' = 'newest';
@@ -277,6 +301,7 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     const openFilters = () => {
       if (!filterPanel || !filterToggle) return;
       filterPanel.hidden = false;
+      syncFilterPanelMount();
       filterToggle.setAttribute('aria-expanded', 'true');
       document.body.classList.add('timeline-filters-open');
       filterPanel.querySelector<HTMLButtonElement>('.filter-button')?.focus();
@@ -285,6 +310,7 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     const closeFilters = (returnFocus = true) => {
       if (!filterPanel || !filterToggle) return;
       filterPanel.hidden = true;
+      syncFilterPanelMount();
       filterToggle.setAttribute('aria-expanded', 'false');
       document.body.classList.remove('timeline-filters-open');
       if (returnFocus) filterToggle.focus();
@@ -525,6 +551,7 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     filterClose?.addEventListener('click', () => closeFilters());
     applyButton?.addEventListener('click', () => closeFilters());
     clearButtons.forEach((button) => button.addEventListener('click', clearFilters));
+    mobileFilterMedia.addEventListener('change', syncFilterPanelMount);
 
     clearSinceButton?.addEventListener('click', () => {
       sinceYear = null;
@@ -544,7 +571,7 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     });
 
     filterPanel?.addEventListener('keydown', (event) => {
-      if (event.key !== 'Tab' || !window.matchMedia('(max-width: 760px)').matches) return;
+      if (event.key !== 'Tab' || !mobileFilterMedia.matches) return;
 
       const focusable = Array.from(
         filterPanel.querySelectorAll<HTMLElement>(
@@ -846,8 +873,8 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
   }
 
   .filter-close {
-    width: 2.1rem;
-    height: 2.1rem;
+    width: 2.75rem;
+    height: 2.75rem;
     border: 0;
     border-radius: 999px;
     color: var(--ink);
@@ -1143,5 +1170,45 @@ const decades = [...new Set(entries.map((entry) => decadeFor(entry.data.timeline
     .direction-field {
       grid-column: 1 / -1;
     }
+  }
+
+  @media (max-width: 760px) {
+    :global(body.timeline-filters-open > .filter-panel) {
+      position: fixed;
+      top: max(0.75rem, env(safe-area-inset-top));
+      right: 0;
+      bottom: auto;
+      left: 0;
+      width: 100%;
+      height: calc(100dvh - max(0.75rem, env(safe-area-inset-top)));
+      max-height: none;
+      min-height: 0;
+    }
+  }
+
+  /* UI Pass 2 interaction states */
+  .filter-toggle:hover,
+  .filter-toggle:focus-visible,
+  .filter-button:hover,
+  .filter-button:focus-visible {
+    border-color: var(--accent-dark);
+  }
+
+  :global(.active-filter-chip:hover),
+  :global(.active-filter-chip:focus-visible),
+  .clear-filters:hover,
+  .clear-filters:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 0.16em;
+  }
+
+  .filter-close:hover,
+  .filter-close:focus-visible {
+    background: color-mix(in srgb, var(--accent) 15%, var(--paper));
+  }
+
+  .apply-filters:hover,
+  .apply-filters:focus-visible {
+    background: var(--accent-dark);
   }
 </style>

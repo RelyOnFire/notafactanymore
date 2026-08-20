@@ -232,7 +232,12 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
 
   * { box-sizing: border-box; }
   html { background: var(--paper); }
-  body { margin: 0; line-height: 1.6; background: var(--paper); }
+  body {
+    margin: 0;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+    background: var(--paper);
+  }
   a { color: inherit; }
 
   :where(a, button, input, select, textarea) {
@@ -337,8 +342,8 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
   .language-switch {
     display: grid;
     place-items: center;
-    min-width: 2.5rem;
-    min-height: 2.15rem;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
     padding: 0.25rem 0.55rem;
     border: 1px solid var(--line);
     border-radius: 999px;

@@ -291,7 +291,7 @@ const DISPLAY_CAP = 250;
               <strong>{item.label}</strong>
               <span>{item.count} {item.count === 1 ? 'Eintrag' : 'Einträge'} · Median {formatApproxYearsLocalized(item.median, 'de')}</span>
             </div>
-            <div class="distribution-bar" aria-label={`Verteilung der Lebensdauern im ${item.label}`}>
+            <div class="distribution-bar" aria-hidden="true">
               {item.bands.map((band) => band.count > 0 && (
                 <span class={`distribution-segment band-${band.key}`} style={`width: ${(band.count / item.count) * 100}%`} title={`${band.label}: ${band.count}`}></span>
               ))}

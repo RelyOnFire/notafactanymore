@@ -251,6 +251,30 @@ const statuses = [
     const resultsSummary = document.querySelector<HTMLElement>('.results-summary');
     const emptyState = document.querySelector<HTMLElement>('.empty-state');
 
+    const mobileFilterMedia = window.matchMedia('(max-width: 760px)');
+    const filterPanelAnchor = filterPanel ? document.createComment('filter-panel-anchor') : null;
+
+    if (filterPanel && filterPanelAnchor) {
+      filterPanel.before(filterPanelAnchor);
+    }
+
+    const syncFilterPanelMount = () => {
+      if (!filterPanel || !filterPanelAnchor) return;
+
+      if (mobileFilterMedia.matches && !filterPanel.hidden) {
+        if (filterPanel.parentElement !== document.body) {
+          document.body.append(filterPanel);
+        }
+        filterPanel.setAttribute('aria-modal', 'true');
+        return;
+      }
+
+      if (filterPanel.parentElement === document.body && filterPanelAnchor.parentNode) {
+        filterPanelAnchor.parentNode.insertBefore(filterPanel, filterPanelAnchor.nextSibling);
+      }
+      filterPanel.removeAttribute('aria-modal');
+    };
+
     const selectedCategories = new Set<string>();
     const selectedStatuses = new Set<string>();
 
@@ -346,6 +370,7 @@ const statuses = [
     const openFilters = () => {
       if (!filterPanel || !filterToggle) return;
       filterPanel.hidden = false;
+      syncFilterPanelMount();
       filterToggle.setAttribute('aria-expanded', 'true');
       document.body.classList.add('filters-open');
       filterPanel.querySelector<HTMLButtonElement>('.filter-button')?.focus();
@@ -354,6 +379,7 @@ const statuses = [
     const closeFilters = (returnFocus = true) => {
       if (!filterPanel || !filterToggle) return;
       filterPanel.hidden = true;
+      syncFilterPanelMount();
       filterToggle.setAttribute('aria-expanded', 'false');
       document.body.classList.remove('filters-open');
       if (returnFocus) filterToggle.focus();
@@ -542,13 +568,14 @@ const statuses = [
     filterClose?.addEventListener('click', () => closeFilters());
     applyButton?.addEventListener('click', () => closeFilters());
     clearButtons.forEach((button) => button.addEventListener('click', clearFilters));
+    mobileFilterMedia.addEventListener('change', syncFilterPanelMount);
 
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && filterPanel && !filterPanel.hidden) closeFilters();
     });
 
     filterPanel?.addEventListener('keydown', (event) => {
-      if (event.key !== 'Tab' || !window.matchMedia('(max-width: 760px)').matches) return;
+      if (event.key !== 'Tab' || !mobileFilterMedia.matches) return;
 
       const focusable = Array.from(
         filterPanel.querySelectorAll<HTMLElement>(
@@ -1118,6 +1145,20 @@ const statuses = [
 
     .sort-field {
       grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 760px) {
+    :global(body.filters-open > .filter-panel) {
+      position: fixed;
+      top: max(0.75rem, env(safe-area-inset-top));
+      right: 0;
+      bottom: auto;
+      left: 0;
+      width: 100%;
+      height: calc(100dvh - max(0.75rem, env(safe-area-inset-top)));
+      max-height: none;
+      min-height: 0;
     }
   }
 </style>

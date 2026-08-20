@@ -9,8 +9,7 @@ acceptedYear: 1925
 changedApproximately: "1955–1956"
 timelineYear: 1956
 summary: "Improved microscopy corrected the accepted human chromosome count from 48 to 46."
-featured: true
-featuredOrder: 3 
+featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
 sources:

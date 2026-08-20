@@ -21,7 +21,8 @@ const translatedEntries = translations
 
 const featured = translatedEntries
   .filter(({ entry }) => entry.data.featured)
-  .sort((a, b) => (a.entry.data.featuredOrder ?? 999) - (b.entry.data.featuredOrder ?? 999));
+  .sort((a, b) => (a.entry.data.featuredOrder ?? 999) - (b.entry.data.featuredOrder ?? 999))
+  .slice(0, 6);
 
 const claimCollator = new Intl.Collator('de', { sensitivity: 'base', numeric: true });
 const compareByClaim = (a: (typeof translatedEntries)[number], b: (typeof translatedEntries)[number]) =>

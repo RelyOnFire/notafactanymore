@@ -5,9 +5,11 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "npm run check:content && astro build && npm run check:build-output",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "check:content": "node scripts/check-content-integrity.mjs",
+    "check:build-output": "node scripts/check-build-output.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

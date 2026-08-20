@@ -1,7 +1,7 @@
 ---
 locale: de
 entryId: electrons-orbit-like-planets
-sourceReviewedAt: "2026-07-17"
+sourceReviewedAt: "2026-08-20"
 claim: "Elektronen bewegen sich auf festen kreisförmigen Bahnen um den Atomkern, ähnlich wie Planeten um die Sonne."
 currentUnderstanding: "Elektronen in Atomen besetzen Quantenzustände, die durch Wellenfunktionen und Wahrscheinlichkeitsverteilungen beschrieben werden. Sie folgen keinen gleichzeitig exakt bestimmten klassischen Bahnen mit genau festgelegten Orten und Impulsen."
 whyItChanged: "Das Bohr-Modell erklärte das Spektrum des Wasserstoffs, scheiterte aber bei komplexeren Atomen und war mit der Unschärferelation nicht vereinbar. Die Quantenmechanik ersetzte feste Elektronenbahnen durch Orbitale und quantisierte Zustände."
@@ -14,6 +14,12 @@ sourceNotes:
 - "Fasst Bohrs Beitrag zur Theorie der Atomstruktur zusammen."
 ---
 
-Das Bohr-Modell bleibt eine nützliche Einführung und Näherung für wasserstoffähnliche Atome und führte korrekt quantisierte Energieniveaus ein.
+Rutherfords Kernatom hinterließ ein großes Problem: Nach der klassischen Elektrodynamik müsste ein kreisendes geladenes Elektron ständig Energie abstrahlen und schließlich in den Kern stürzen. Niels Bohr rettete das Modell 1913, indem er nur bestimmte quantisierte Kreisbahnen und Energieniveaus zuließ.
 
-Ein Orbital ist keine unscharfe klassische Umlaufbahn, die nur wegen unvollkommener Messgeräte verschwommen erscheint. Es ist ein Quantenzustand mit grundsätzlich probabilistischen Messergebnissen.
+Für Wasserstoff funktionierte das erstaunlich gut. Das Modell reproduzierte die Spektrallinien und führte Quantisierung in die Atomphysik ein. Dadurch wurde das Bild von Elektronen, die wie Planeten um einen Kern kreisen, wissenschaftlich einflussreich und zugleich extrem einprägsam.
+
+Bei komplexeren Atomen geriet es jedoch an Grenzen. In den 1920er-Jahren ersetzten de Broglies Materiewellen, Schrödingers Wellenmechanik und Heisenbergs Matrizenmechanik feste klassische Bahnen durch Quantenzustände. Die Unschärferelation schloss zusätzlich die Vorstellung aus, ein Elektron besitze entlang einer verborgenen Planetenbahn gleichzeitig einen exakt bestimmten Ort und Impuls.
+
+Moderne **Orbitale** sind daher keine verschwommenen Bohr-Bahnen, die nur wegen unvollkommener Messgeräte unscharf erscheinen. Sie sind Quantenzustände, beschrieben durch Wellenfunktionen und Wahrscheinlichkeitsverteilungen.
+
+Das Bohr-Modell bleibt als Einführung und Näherung, besonders für wasserstoffähnliche Atome, nützlich. Seine quantisierten Energieniveaus waren ein echter Fortschritt. Überholt ist die wörtliche Vorstellung fester Kreisbahnen.

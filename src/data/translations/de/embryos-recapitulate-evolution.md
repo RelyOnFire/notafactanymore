@@ -1,7 +1,7 @@
 ---
 locale: de
 entryId: embryos-recapitulate-evolution
-sourceReviewedAt: "2026-07-17"
+sourceReviewedAt: "2026-08-20"
 claim: "Ein Embryo durchläuft während seiner Entwicklung vollständige erwachsene Stadien seiner evolutionären Vorfahren."
 currentUnderstanding: "Embryonalentwicklung spiegelt gemeinsame Abstammung und veränderte Entwicklungsprogramme wider, doch Embryonen spielen keine wörtliche Abfolge erwachsener Ahnenformen nach."
 whyItChanged: "Die vergleichende Embryologie zeigte, dass Entwicklungswege sich verzweigen und spezialisieren, statt eine einzige Leiter von Ahnenstadien hinaufzusteigen. Genetik und evolutionäre Entwicklungsbiologie erklärten konservierte Strukturen später durch gemeinsame Entwicklungsmechanismen."
@@ -14,6 +14,12 @@ sourceNotes:
 - "Erklärt, dass Haeckels strenges biogenetisches Grundgesetz keine experimentelle Unterstützung fand."
 ---
 
-Embryonen können homologe Strukturen zeigen, die von gemeinsamen Vorfahren geerbt wurden, etwa Schlundbögen bei Wirbeltieren. Das stützt die Evolution, ohne zu bedeuten, dass ein menschlicher Embryo buchstäblich zu einem erwachsenen Fisch oder Reptil wird.
+Die Embryologie des 19. Jahrhunderts zeigte auffällige Ähnlichkeiten zwischen sich entwickelnden Wirbeltieren. Ernst Haeckel machte daraus eine weitreichende Regel: **Ontogenese rekapituliert Phylogenese**. In der stärksten Form sollte ein Embryo Entwicklungsstadien durchlaufen, die den erwachsenen Formen seiner evolutionären Vorfahren entsprechen.
 
-Schwächere Verwendungen des Begriffs „Rekapitulation“ kommen in der Biologie weiterhin vor. Haeckels universelles wörtliches Gesetz gilt jedoch nicht.
+Die Idee war attraktiv, weil sie Evolutionsgeschichte scheinbar direkt in der Entwicklung sichtbar machte. Schlundbögen eines menschlichen Embryos konnten dann nicht nur als homologe Strukturen verstanden werden, sondern als vorübergehende Wiederholung eines fischartigen Ahnenstadiums.
+
+Die vergleichende Embryologie machte diese wörtliche Abfolge zunehmend unhaltbar. Embryonen entwickeln sich auseinander, spezialisieren unterschiedliche Strukturen zu verschiedenen Zeitpunkten und durchlaufen keine vollständigen Erwachsenenformen früherer Arten. Evolution verändert Entwicklungsprogramme, statt einfach immer neue Stufen an das Ende einer Ahnenleiter anzuhängen.
+
+Die moderne evolutionäre Entwicklungsbiologie erklärt die echten Gemeinsamkeiten durch gemeinsame Abstammung, konservierte Gene und homologe Entwicklungswege. Schlundbögen bei Wirbeltieren sind beispielsweise ein Hinweis auf gemeinsames entwicklungsbiologisches Erbe – aber ein menschlicher Embryo wird nicht vorübergehend zu einem erwachsenen Fisch.
+
+Schwächere Verwendungen des Begriffs „Rekapitulation“ existieren für einzelne Entwicklungsphänomene weiterhin. Überholt ist Haeckels universelles, wörtliches biogenetisches Grundgesetz.

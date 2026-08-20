@@ -1,7 +1,7 @@
 ---
 locale: de
 entryId: fat-is-passive-storage
-sourceReviewedAt: "2026-07-17"
+sourceReviewedAt: "2026-08-20"
 claim: "Körperfett ist ein träges Speicherdepot, dessen einzige wichtige Aufgabe darin besteht, überschüssige Energie aufzubewahren."
 currentUnderstanding: "Fettgewebe ist stoffwechselaktiv und wirkt als endokrines und immunologisches Organ. Es setzt Hormone und Signalstoffe frei, die Appetit, Insulinempfindlichkeit, Entzündung, Fortpflanzung und Gefäßbiologie beeinflussen."
 whyItChanged: "Die Entdeckung und Untersuchung von Signalstoffen aus dem Fettgewebe, besonders Leptin und Adiponektin, zeigte eine Kommunikation zwischen Fettgewebe, Gehirn, Leber, Muskeln, Immunsystem und anderen Organen."
@@ -14,6 +14,12 @@ sourceNotes:
 - "Beschreibt Speicher-, endokrine, thermogene und insulinbezogene Funktionen des Fettgewebes."
 ---
 
-Energiespeicherung bleibt eine zentrale Funktion des weißen Fettgewebes. Das frühere Modell war in diesem Punkt nicht falsch, sondern unvollständig.
+Über weite Teile der modernen Physiologie wurde weißes Fettgewebe vor allem als Treibstofflager des Körpers beschrieben. Fettzellen speicherten überschüssige Energie als Triglyzeride und setzten bei Bedarf Fettsäuren frei. Diese Aufgabe ist real und unverzichtbar, förderte aber das Bild von Fettgewebe als metabolisch passiver Verpackung.
 
-Verschiedene Fettdepots und Zelltypen erfüllen unterschiedliche Aufgaben, und endokrine Aktivität kann je nach physiologischem Kontext nützlich oder fehlreguliert sein.
+Die Forschung an zirkulierenden Signalstoffen veränderte dieses Bild. Fettzellen und die zwischen ihnen lebenden Immunzellen produzieren zahlreiche Botenstoffe. Besonders eindrucksvoll war die Entdeckung von **Leptin** in den 1990er-Jahren: Ein vom Fettgewebe gebildetes Hormon kann dem Gehirn Informationen über Energiereserven vermitteln und Appetit sowie Stoffwechsel beeinflussen.
+
+Weitere vom Fettgewebe stammende Faktoren, darunter Adiponektin und entzündliche Zytokine, verbanden Fettgewebe mit Insulinempfindlichkeit, Gefäßbiologie, Immunfunktion und Fortpflanzung. Zudem unterscheiden sich einzelne Fettdepots metabolisch deutlich und sind keineswegs einfach austauschbare Speicherbeutel.
+
+Fettgewebe gilt heute deshalb zugleich als Energiereservoir und als aktives **endokrines und immunologisches Organ**.
+
+Das ältere Modell war eher unvollständig als falsch herum. Energiespeicherung bleibt eine Kernfunktion des weißen Fettgewebes, und seine Signalwirkung kann je nach Gewebetyp, Lage und physiologischem Zustand sinnvoll oder fehlreguliert sein.

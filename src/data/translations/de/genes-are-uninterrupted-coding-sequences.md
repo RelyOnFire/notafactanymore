@@ -1,7 +1,7 @@
 ---
 locale: de
 entryId: genes-are-uninterrupted-coding-sequences
-sourceReviewedAt: "2026-07-27"
+sourceReviewedAt: "2026-08-20"
 claim: "Ein Gen eines komplexen Organismus ist ein durchgehender DNA-Abschnitt, der direkt seiner Boten-RNA entspricht."
 currentUnderstanding: "Viele eukaryotische Gene sind in codierende Bereiche, die Exons, aufgeteilt und durch Introns unterbrochen. Zellen schreiben zunächst den gesamten Bereich in RNA um und entfernen anschließend die Introns durch Spleißen."
 whyItChanged: "Das frühe Gen-zu-Boten-RNA-Modell ging von einer durchgehenden Entsprechung aus. 1977 fanden Richard Roberts und Phillip Sharp unabhängig voneinander, dass virale und zelluläre Gene aus voneinander getrennten DNA-Abschnitten bestehen können."
@@ -14,6 +14,12 @@ sourceNotes:
 - "Erklärt die Verarbeitung von Prä-mRNA, das Entfernen von Introns und das Spleißen von Exons."
 ---
 
-Viele bakterielle Gene sind durchgehend, und auch manche eukaryotischen Gene enthalten keine Introns.
+Nach der Entdeckung der Boten-RNA lag ein sehr einfaches Genmodell nahe: Ein Gen sollte als zusammenhängender DNA-Abschnitt vorliegen, der in derselben Reihenfolge in RNA abgeschrieben wird. Für viele bakterielle Gene funktioniert dieses Bild tatsächlich gut, und es passte elegant zur frühen molekularen Genetik.
 
-Die Entdeckung ersetzte eine universelle Regel, nicht die Existenz ununterbrochener Gene.
+1977 stießen Richard Roberts und Phillip Sharp unabhängig voneinander auf etwas Unerwartetes. Beim Vergleich viraler DNA mit der dazugehörigen RNA zeigte sich, dass die RNA nur zu voneinander getrennten DNA-Abschnitten passte. Zwischen den codierenden Bereichen lagen Sequenzen, die in der reifen Boten-RNA fehlten.
+
+Die Erklärung war RNA-Verarbeitung. Eukaryotische Zellen transkribieren zunächst eine längere Vorläufer-RNA. **Introns** werden daraus entfernt, während die verbleibenden **Exons** miteinander verknüpft werden. Das Spleißen machte deutlich, dass die Information eines Gens nicht immer als ein ununterbrochener Block vorliegen muss.
+
+Später zeigte sich zusätzlich, dass alternatives Spleißen verschiedene RNA- und Proteinvarianten aus demselben Gen erzeugen kann. Damit wurde das klassische Eins-zu-eins-Bild von DNA-Abschnitt und fertiger mRNA weiter aufgeweicht.
+
+Die Korrektur ist dennoch keine Umkehr ins Gegenteil. Viele bakterielle Gene und auch manche eukaryotische Gene sind tatsächlich intronfrei. Widerlegt wurde die universelle Regel, alle Gene müssten durchgehend codierende Sequenzen sein.

@@ -1,7 +1,7 @@
 ---
 locale: de
 entryId: galaxies-are-randomly-distributed
-sourceReviewedAt: "2026-07-28"
+sourceReviewedAt: "2026-08-20"
 claim: "Galaxien sind mehr oder weniger zufällig im Universum verteilt."
 currentUnderstanding: "Galaxien bilden ein kosmisches Netz aus Haufen, Filamenten, Wänden und riesigen Leerräumen, das durch Gravitation aus frühen Dichteschwankungen entstanden ist."
 whyItChanged: "Frühe Kataloge erfassten nur begrenzte Himmelsgebiete und Entfernungen, sodass großräumige Muster schwer erkennbar waren. Rotverschiebungsdurchmusterungen kartierten Galaxien dreidimensional und zeigten zusammenhängende Strukturen über Hunderte Millionen Lichtjahre."
@@ -14,6 +14,12 @@ sourceNotes:
 - "Erklärt, wie Rotverschiebungsdurchmusterungen Wände, Haufen und Leerräume statt einer zufälligen Verteilung sichtbar machten."
 ---
 
-Auf ausreichend großen Skalen ist das Universum statistisch homogen. Homogen bedeutet jedoch nicht, dass Galaxien auf jeder kleineren Skala zufällig verstreut sind.
+Auf zweidimensionalen Himmelsaufnahmen wirken Galaxien zunächst in alle Richtungen verstreut, und frühe Kataloge erfassten zu wenig Volumen, um das vollständige räumliche Muster sichtbar zu machen. Galaxienhaufen waren zwar bekannt, doch außerhalb davon konnte man das Universum noch näherungsweise als breit gestreute, mehr oder weniger zufällige Verteilung behandeln.
 
-Innerhalb des viel größeren strukturierten Musters besitzen Galaxien weiterhin zufällige Eigenbewegungen.
+Rotverschiebungsdurchmusterungen änderten das Bild, weil sie die dritte Dimension hinzufügten. Astronomen maßen die Spektren von zunächst Tausenden und später Millionen Galaxien und trugen ihre Positionen räumlich auf. Statt einer gleichmäßigen statistischen Streuung erschienen lange Filamente und Wände, die gewaltige Regionen mit vergleichsweise wenigen Galaxien umschließen.
+
+Immer größere Durchmusterungen verfolgten dieses **kosmische Netz** über Hunderte Millionen Lichtjahre. Die moderne Kosmologie erklärt es dadurch, dass Gravitation kleine Dichteunterschiede des frühen Universums verstärkte, wobei Dunkle Materie einen großen Teil der zugrunde liegenden Struktur bildet, in der sich gewöhnliche Materie und Galaxien sammelten.
+
+Das widerspricht dem kosmologischen Prinzip nicht. Auf hinreichend großen Skalen kann das Universum statistisch homogen und isotrop sein und zugleich auf kleineren Skalen stark strukturiert erscheinen.
+
+Die Korrektur betrifft die räumliche Verteilung: Galaxien sind nicht unabhängig im Raum verstreut, sondern bilden eine zusammenhängende Hierarchie aus Haufen, Filamenten, Wänden und Leerräumen.

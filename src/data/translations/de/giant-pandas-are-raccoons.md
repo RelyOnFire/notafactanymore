@@ -1,7 +1,7 @@
 ---
 locale: de
 entryId: giant-pandas-are-raccoons
-sourceReviewedAt: "2026-07-28"
+sourceReviewedAt: "2026-08-20"
 claim: "Große Pandas sind näher mit Waschbären als mit Bären verwandt."
 currentUnderstanding: "Große Pandas gehören zur Familie der Bären, Ursidae. Kleine Pandas bilden ihre eigene Familie, Ailuridae, und sind näher mit Marderverwandten wie Waschbären, Wieseln und Stinktieren verwandt."
 whyItChanged: "Der Große Panda verbindet bärenähnliche Anatomie mit einem waschbärartigen Gesicht, einer stark spezialisierten Bambusnahrung und dem gemeinsamen Namen mit dem Kleinen Panda. Molekulare und genetische Studien klärten schließlich, dass der Große Panda ein echter Bär ist."
@@ -14,6 +14,12 @@ sourceNotes:
 - "Erwähnt die jahrzehntelange Debatte Bär gegen Waschbär und ihre molekulare Klärung."
 ---
 
-Großer Panda und Kleiner Panda sind trotz ihres gemeinsamen Namens keine nahen Verwandten.
+Der Große Panda war taxonomisch ungewöhnlich genug, um über Jahrzehnte zwischen zwei Tierfamilien zu schwanken. Sein Körperbau wirkte bärenartig, doch Schädelmerkmale, Gesicht, Bambusnahrung und die gemeinsame Bezeichnung mit dem Kleinen Panda ließen auch eine nähere Verwandtschaft mit Waschbären plausibel erscheinen.
 
-Die ältere Einordnung war nachvollziehbar, weil äußeres Erscheinungsbild und Ernährung die tatsächliche Abstammung verschleiern können.
+Morphologische Vergleiche lieferten widersprüchliche Signale. Je nachdem, welche Merkmale stärker gewichtet wurden, konnte der Große Panda eher zu den Bären oder eher in die Nähe der Waschbärverwandten gestellt werden.
+
+Molekulare Methoden lösten den Streit zunehmend auf. Proteinvergleiche, DNA-Hybridisierung und später Genomdaten zeigten, dass der Große Panda innerhalb der **Ursidae**, also der echten Bären, liegt. Der Kleine Panda gehört dagegen zu einer eigenen Familie, den Ailuridae, innerhalb jener größeren Raubtiergruppe, zu der auch Waschbären, Marder und Stinktiere gehören.
+
+Der gemeinsame Name „Panda“ spiegelt damit keine besonders enge Verwandtschaft wider.
+
+Die ältere Einordnung war keine bloße Kuriosität, sondern ein Beispiel dafür, wie spezialisierte Ernährung und konvergente Körpermerkmale tatsächliche Abstammungsverhältnisse verschleiern können. Molekulare Phylogenie lieferte hier eine deutlichere Antwort als äußere Ähnlichkeit allein.

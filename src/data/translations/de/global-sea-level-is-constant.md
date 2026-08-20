@@ -1,7 +1,7 @@
 ---
 locale: de
 entryId: global-sea-level-is-constant
-sourceReviewedAt: "2026-07-28"
+sourceReviewedAt: "2026-08-20"
 claim: "Der globale Meeresspiegel bleibt über geologische Zeiträume im Wesentlichen konstant."
 currentUnderstanding: "Der Meeresspiegel ist wiederholt um Dutzende bis über 100 Meter gestiegen und gefallen, weil sich Eismenge, Meerestemperatur, Form des Meeresbodens und tektonische Verhältnisse verändert haben."
 whyItChanged: "Die heutige Küstenlinie ließ den Meeresspiegel dauerhaft erscheinen. Meeresterrassen, überflutete Flusstäler, Korallenriffe, Küstensedimente, Isotopenarchive und Datierungen zeigten jedoch frühere Küstenlinien weit über und unter dem heutigen Niveau."
@@ -14,6 +14,12 @@ sourceNotes:
 - "Beschreibt Meeresterrassen, Fossilien und Isotopenarchive, die frühere Meeresspiegelschwankungen festhalten."
 ---
 
-Globaler Meeresspiegel und lokaler relativer Meeresspiegel sind nicht dasselbe. Land kann sich heben oder senken, während sich zugleich der globale Ozean verändert.
+Die moderne Küstenlinie wirkt auf menschlichen Zeitskalen überraschend dauerhaft. Noch bevor globale Messnetze oder präzise Datierungen existierten, lag es deshalb nahe, die Höhe des Ozeans als nahezu feste Bezugsfläche zu behandeln.
 
-Die genaue Größenordnung sehr alter Schwankungen bleibt unsicher. Für einen konstanten Meeresspiegel gibt es jedoch keine Grundlage.
+Die Geologie sammelte jedoch Spuren früherer Küsten an Orten, an denen heute kein Meer liegt. Hebung einzelner Landflächen konnte einige Fälle erklären, aber nicht alle. Marine Sedimente, Korallenriffe, Küstenterrassen und überflutete Flusstäler zeigten, dass sich auch das **globale Ozeanvolumen und die Aufnahmefähigkeit der Becken** im Lauf der Erdgeschichte verändert hatten.
+
+Besonders deutlich wurde dies mit der Eiszeitforschung. Während des letzten glazialen Maximums war enorme Wassermenge in kontinentalen Eisschilden gebunden; der globale Meeresspiegel lag ungefähr 120 Meter unter dem heutigen Niveau. Beim Abschmelzen wurden Küsten weit landeinwärts verlagert und frühere Flusstäler überflutet.
+
+Auf längeren geologischen Zeitskalen verändern außerdem thermische Ausdehnung, die Größe von Eisschilden, tektonische Hebung und Senkung sowie die Form und das Volumen der Ozeanbecken den Meeresspiegel.
+
+Wichtig ist die Unterscheidung zwischen **globalem** und **lokalem relativem Meeresspiegel**. Ein Küstenort kann steigen oder sinken, weil sich das Land selbst bewegt. Für die Erdgeschichte insgesamt gibt es jedoch keine Grundlage für einen konstanten globalen Meeresspiegel.

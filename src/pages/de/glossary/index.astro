@@ -12,6 +12,16 @@ const cardTranslations = await getCollection(
   (entry) => entry.data.locale === 'de',
 );
 
+const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+
+const letterForTerm = (term: string) =>
+  term
+    .trim()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .charAt(0)
+    .toUpperCase();
+
 const glossaryTranslationsById = new Map(
   glossaryTranslations.map((entry) => [entry.data.entryId, entry.data]),
 );
@@ -52,9 +62,25 @@ const cardsByGlossaryId = new Map(
       .sort((a, b) => a.claim.localeCompare(b.claim, 'de')),
   ]),
 );
+
+const grouped = alphabet
+  .map((letter) => ({
+    letter,
+    entries: localized.filter(({ entry, translated }) =>
+      letterForTerm(translated?.term ?? entry.data.term) === letter
+    ),
+  }))
+  .filter((group) => group.entries.length > 0);
+
+const availableLetters = new Set(grouped.map((group) => group.letter));
 ---
-<BaseLayout title="Glossar" locale="de" alternatePath="/glossary/">
-  <section class="narrow glossary-page">
+<BaseLayout
+  title="Glossar"
+  description="Ein A–Z-Glossar wissenschaftlicher, historischer und technischer Begriffe, die auf Not a Fact Anymore verwendet werden."
+  locale="de"
+  alternatePath="/glossary/"
+>
+  <section id="glossary-top" class="narrow glossary-page">
     <p class="eyebrow">Nachschlagewerk</p>
     <h1>Glossar</h1>
     <p class="intro">
@@ -63,77 +89,264 @@ const cardsByGlossaryId = new Map(
       die Quellen hinter den Definitionen.
     </p>
 
+    <nav class="glossary-alphabet" aria-label="Glossar-Alphabet">
+      <div class="glossary-alphabet-track">
+        {alphabet.map((letter) =>
+          availableLetters.has(letter) ? (
+            <a href={`#letter-${letter.toLowerCase()}`}>{letter}</a>
+          ) : (
+            <span aria-disabled="true">{letter}</span>
+          )
+        )}
+      </div>
+    </nav>
+
     <div class="glossary-list">
-      {localized.map(({ entry, translated }) => {
-        const usedIn = cardsByGlossaryId.get(entry.id) ?? [];
-        return (
-          <article id={entry.id} class="glossary-entry">
-            <h2>{translated?.term ?? entry.data.term}</h2>
-            <p class="glossary-short">
-              {translated?.shortDefinition ?? entry.data.shortDefinition}
-            </p>
-            {(translated?.longDefinition ?? entry.data.longDefinition) && (
-              <p>{translated?.longDefinition ?? entry.data.longDefinition}</p>
-            )}
+      {grouped.map(({ letter, entries }) => (
+        <section
+          id={`letter-${letter.toLowerCase()}`}
+          class="glossary-letter-section"
+          aria-labelledby={`letter-heading-${letter.toLowerCase()}`}
+        >
+          <div class="glossary-letter-heading">
+            <h2 id={`letter-heading-${letter.toLowerCase()}`}>{letter}</h2>
+            <a href="#glossary-top" aria-label={`Zurück zum A–Z-Index von ${letter}`}>A–Z</a>
+          </div>
 
-            {entry.data.relatedTerms.length > 0 && (
-              <p class="glossary-related">
-                <strong>Verwandt:</strong>{' '}
-                {entry.data.relatedTerms.map((id, index) => (
-                  <>
-                    {index > 0 && ', '}
-                    <a href={`#${id}`}>{nameById.get(id) ?? id}</a>
-                  </>
-                ))}
-              </p>
-            )}
+          <div class="glossary-letter-entries">
+            {entries.map(({ entry, translated }) => {
+              const usedIn = cardsByGlossaryId.get(entry.id) ?? [];
+              return (
+                <article id={entry.id} class="glossary-entry">
+                  <h3>{translated?.term ?? entry.data.term}</h3>
+                  <p class="glossary-short">
+                    {translated?.shortDefinition ?? entry.data.shortDefinition}
+                  </p>
+                  {(translated?.longDefinition ?? entry.data.longDefinition) && (
+                    <p>{translated?.longDefinition ?? entry.data.longDefinition}</p>
+                  )}
 
-            {usedIn.length > 0 && (
-              <div class="glossary-used-in">
-                <h3>Verwendet in diesen Karten</h3>
-                <ul>
-                  {usedIn.map((card) => (
-                    <li><a href={`/de/entries/${card.id}/`}>{card.claim}</a></li>
-                  ))}
-                </ul>
-              </div>
-            )}
+                  {entry.data.relatedTerms.length > 0 && (
+                    <p class="glossary-related">
+                      <strong>Verwandt:</strong>{' '}
+                      {entry.data.relatedTerms.map((id, index) => (
+                        <>
+                          {index > 0 && ', '}
+                          <a href={`#${id}`}>{nameById.get(id) ?? id}</a>
+                        </>
+                      ))}
+                    </p>
+                  )}
 
-            <details class="glossary-sources">
-              <summary>Quellen</summary>
-              <ul>
-                {entry.data.sources.map((source) => (
-                  <li>
-                    <a href={source.url}>{source.title}</a>
-                    <span> — {source.publisher}</span>
-                    <p>{source.note}</p>
-                  </li>
-                ))}
-              </ul>
-            </details>
-          </article>
-        );
-      })}
+                  {usedIn.length > 0 && (
+                    <div class="glossary-used-in">
+                      <h4>Verwendet in diesen Karten</h4>
+                      <ul>
+                        {usedIn.map((card) => (
+                          <li><a href={`/de/entries/${card.id}/`}>{card.claim}</a></li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  <details class="glossary-sources">
+                    <summary>Quellen</summary>
+                    <ul>
+                      {entry.data.sources.map((source) => (
+                        <li>
+                          <a href={source.url}>{source.title}</a>
+                          <span> — {source.publisher}</span>
+                          <p>{source.note}</p>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+      ))}
     </div>
   </section>
 </BaseLayout>
 
 <style>
-  .glossary-page { padding: clamp(2rem, 6vw, 5rem) 0; }
-  .glossary-page h1 { margin-bottom: .75rem; }
-  .intro { color: var(--muted); font-size: 1.08rem; }
-  .glossary-list { margin-top: 3rem; }
-  .glossary-entry { scroll-margin-top: 1.5rem; padding: 2rem 0; border-top: 1px solid var(--line); }
-  .glossary-entry:target { border-top-color: var(--accent); }
-  .glossary-entry h2 { margin: 0 0 .65rem; font-size: clamp(1.45rem, 3vw, 2rem); }
-  .glossary-short { font-weight: 700; }
-  .glossary-related a, .glossary-used-in a, .glossary-sources a { color: var(--accent-dark); }
-  .glossary-used-in { margin-top: 1rem; }
-  .glossary-used-in h3 { margin: 0 0 .35rem; font-size: .82rem; letter-spacing: .06em; text-transform: uppercase; }
-  .glossary-used-in ul { margin: 0; padding-left: 1.2rem; }
-  .glossary-used-in li + li { margin-top: .25rem; }
-  .glossary-sources { margin-top: 1rem; }
-  .glossary-sources summary { cursor: pointer; font-weight: 750; }
-  .glossary-sources li { margin: .8rem 0; }
-  .glossary-sources li p { margin: .15rem 0 0; color: var(--muted); }
+  .glossary-page {
+    padding: clamp(2rem, 6vw, 5rem) 0;
+  }
+
+  .glossary-page h1 {
+    margin-bottom: .75rem;
+  }
+
+  .intro {
+    color: var(--muted);
+    font-size: 1.08rem;
+  }
+
+  .glossary-alphabet {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    display: block;
+    margin: 2rem 0 0;
+    padding: .55rem 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: var(--paper);
+  }
+
+  .glossary-alphabet-track {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: max-content;
+  }
+
+  .glossary-alphabet a,
+  .glossary-alphabet span {
+    display: grid;
+    place-items: center;
+    width: 1.7rem;
+    height: 1.9rem;
+    border-radius: .3rem;
+    font-size: .78rem;
+    font-weight: 850;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+  .glossary-alphabet a {
+    color: var(--ink);
+  }
+
+  .glossary-alphabet a:hover,
+  .glossary-alphabet a:focus-visible {
+    color: white;
+    background: var(--accent-dark);
+  }
+
+  .glossary-alphabet span {
+    color: var(--muted);
+    opacity: .32;
+  }
+
+  .glossary-list {
+    margin-top: 1rem;
+  }
+
+  .glossary-letter-section {
+    scroll-margin-top: 4rem;
+    padding-top: 2rem;
+  }
+
+  .glossary-letter-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: .55rem;
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .glossary-letter-heading h2 {
+    margin: 0;
+    color: var(--accent-dark);
+    font-size: clamp(2rem, 5vw, 3.25rem);
+  }
+
+  .glossary-letter-heading > a {
+    color: var(--muted);
+    font-size: .78rem;
+    font-weight: 800;
+    letter-spacing: .06em;
+    text-decoration: none;
+  }
+
+  .glossary-letter-heading > a:hover {
+    color: var(--accent-dark);
+  }
+
+  .glossary-entry {
+    scroll-margin-top: 4rem;
+    padding: 1.8rem 0 2rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .glossary-entry:target {
+    border-bottom-color: var(--accent);
+  }
+
+  .glossary-entry h3 {
+    margin: 0 0 .65rem;
+    font-size: clamp(1.4rem, 3vw, 1.9rem);
+  }
+
+  .glossary-short {
+    font-weight: 700;
+  }
+
+  .glossary-related a,
+  .glossary-used-in a,
+  .glossary-sources a {
+    color: var(--accent-dark);
+  }
+
+  .glossary-used-in {
+    margin-top: 1rem;
+  }
+
+  .glossary-used-in h4 {
+    margin: 0 0 .35rem;
+    font-size: .82rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+
+  .glossary-used-in ul {
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+
+  .glossary-used-in li + li {
+    margin-top: .25rem;
+  }
+
+  .glossary-sources {
+    margin-top: 1rem;
+  }
+
+  .glossary-sources summary {
+    cursor: pointer;
+    font-weight: 750;
+  }
+
+  .glossary-sources li {
+    margin: .8rem 0;
+  }
+
+  .glossary-sources li p {
+    margin: .15rem 0 0;
+    color: var(--muted);
+  }
+
+  @media (max-width: 620px) {
+    .glossary-alphabet {
+      margin-inline: -1rem;
+      padding-inline: 1rem;
+      overflow-x: auto;
+      scrollbar-width: thin;
+    }
+
+    .glossary-alphabet-track {
+      gap: .2rem;
+      justify-content: flex-start;
+    }
+
+    .glossary-alphabet a,
+    .glossary-alphabet span {
+      flex: 0 0 1.7rem;
+    }
+  }
 </style>

@@ -1,7 +1,7 @@
 ---
 claim: "Prokaryotes were treated as one fundamental group, with organisms now called archaea classified among the bacteria."
-currentUnderstanding: "Organisms without a cell nucleus include two deeply different lineages: Bacteria and Archaea. Archaea differ from bacteria in their membranes, genetics, and much of their molecular machinery."
-whyItChanged: "In 1977, Carl Woese and George Fox compared ribosomal RNA and identified a deep evolutionary division within organisms then grouped as prokaryotes. The archaea were subsequently recognized as a fundamentally distinct lineage rather than an unusual branch of bacteria."
+currentUnderstanding: "Cells without a nucleus are not all one kind of organism. They include Bacteria and Archaea, two deeply different evolutionary lineages. Archaea can resemble bacteria under a microscope but differ in their cell membranes, genes, and much of the molecular machinery inside the cell."
+whyItChanged: "In 1977, Carl Woese and George Fox compared ribosomal RNA, part of the cell’s protein-making machinery that changes slowly over evolutionary time. The differences showed that methane-producing microbes then treated as unusual bacteria belonged to a separate major lineage, now called Archaea."
 status: "Reclassified"
 category: "Microbiology"
 acceptedApproximately: "Mid-20th century–1970s"
@@ -9,7 +9,7 @@ acceptedYear: 1950
 changedApproximately: "1977–1990"
 timelineYear: 1977
 lifespanComparable: false
-summary: "Molecular phylogeny split the old unified prokaryotic picture into deeply distinct Bacteria and Archaea."
+summary: "Molecular comparisons showed that nucleus-free cells include two deeply different lineages, Bacteria and Archaea."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
@@ -33,8 +33,12 @@ sources:
     note: "Reviews molecular and genomic evidence supporting Archaea as distinct from Bacteria."
 ---
 
-By the mid-20th century, cellular life was commonly divided at a very deep level between eukaryotes, whose cells contain nuclei, and prokaryotes, whose cells do not. Organisms in the second category were generally treated as bacteria. Methane-producing microbes and other organisms now recognized as archaea were therefore interpreted as unusual bacterial branches rather than as members of a fundamentally different lineage.
+By the mid-twentieth century, biologists often divided cells into two broad types. Eukaryotic cells, such as those of animals and plants, contain a nucleus. Prokaryotic cells do not. Organisms in that second group were generally treated as bacteria.
 
-Carl Woese and George Fox challenged that organization by comparing ribosomal RNA, a molecule shared across cellular life but conserved enough to reveal very deep evolutionary relationships. Their 1977 analysis found that methanogens were not simply peculiar bacteria: their molecular differences pointed to a major lineage distinct from both familiar bacteria and eukaryotes.
+That meant methane-producing microbes and other organisms now called archaea were classified as unusual kinds of bacteria. Under a microscope, the grouping was understandable: both bacteria and archaea are small cells without nuclei.
 
-The classification continued to develop, culminating in the three-domain proposal of Bacteria, Archaea, and Eucarya. "Prokaryote" remains useful as a descriptive term for organisms whose cells lack a nucleus, but molecular phylogeny showed that it does not correspond to one simple evolutionary branch. Modern work continues to refine the deepest relationships among these lineages without restoring archaea to Bacteria.
+Carl Woese and George Fox looked deeper. In 1977, they compared ribosomal RNA, a molecule used by all cells when making proteins. Because parts of this molecule change slowly over evolutionary time, its sequence can reveal very ancient relationships.
+
+The methane-producing microbes were not simply an odd bacterial branch. Their ribosomal RNA differed so strongly that it pointed to a separate major lineage. Later molecular work reinforced the distinction, and Archaea came to be recognized alongside Bacteria and Eukarya as one of the three domains of cellular life.
+
+The word prokaryote is still useful for describing cells without nuclei. What changed is the idea that all such cells form one natural evolutionary group or are all bacteria.

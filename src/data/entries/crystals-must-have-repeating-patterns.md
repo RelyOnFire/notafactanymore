@@ -1,14 +1,14 @@
 ---
 claim: "Every crystal must have a periodically repeating atomic pattern."
-currentUnderstanding: "Crystals can possess long-range order without periodic repetition. Quasicrystals produce sharp diffraction patterns and forbidden rotational symmetries while remaining aperiodic."
-whyItChanged: "Classical crystallography defined crystals through periodic lattices. In 1982, Dan Shechtman observed a sharp electron-diffraction pattern with fivefold-related symmetry that no periodic crystal could produce, leading to the recognition of quasicrystals and a revised definition of crystallinity."
+currentUnderstanding: "A crystal can be highly ordered without repeating the same atomic pattern over and over. Quasicrystals have this nonrepeating order, yet they still produce the sharp diffraction patterns characteristic of crystals."
+whyItChanged: "Classical crystallography treated periodic repetition as part of what made a crystal a crystal. In 1982, Dan Shechtman saw an electron-diffraction pattern from an aluminium–manganese alloy with a symmetry that an ordinary repeating crystal could not produce. The result led to the recognition of quasicrystals."
 status: "Superseded"
 category: "Materials Science"
 acceptedApproximately: "19th century–1982"
 acceptedYear: 1850
 changedApproximately: "1982–1992"
 timelineYear: 1982
-summary: "Quasicrystals revealed ordered solids whose atomic patterns never repeat periodically."
+summary: "Quasicrystals showed that atoms can form a highly ordered crystal without repeating one pattern periodically."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,8 +30,10 @@ sources:
     note: "Reviews resistance to the discovery and the later acceptance of aperiodic crystals."
 ---
 
-For classical crystallography, periodicity was not merely common; it was built into the definition. A crystal's atomic arrangement repeated through space in a lattice, and that periodicity restricted the rotational symmetries a crystal could possess. Fivefold symmetry, for example, could not tile ordinary three-dimensional space periodically.
+A familiar crystal can be pictured as a three-dimensional wallpaper pattern: one small arrangement of atoms repeats again and again through the material. For a long time, that kind of periodic repetition was part of the definition of a crystal.
 
-In 1982, Dan Shechtman examined an aluminium–manganese alloy and found a sharp electron-diffraction pattern with tenfold symmetry. Sharp spots meant long-range order, yet the symmetry was incompatible with a conventional periodic lattice. The result was initially so contrary to crystallographic expectations that it met intense skepticism. Subsequent experiments reproduced the phenomenon and mathematical descriptions showed how ordered, nonrepeating structures could generate such diffraction patterns.
+In 1982, Dan Shechtman examined an aluminium–manganese alloy using electron diffraction. In this technique, electrons scatter from the atoms and produce a pattern that reveals how regularly those atoms are arranged. Shechtman saw sharp, orderly spots, so the material clearly had strong internal order. But the pattern had a symmetry that an ordinary repeating crystal could not produce.
 
-Quasicrystals are not halfway between crystals and glass. They have highly organized long-range order but no simple translational repeat. Their acceptance therefore changed the definition of crystallinity itself: periodicity is one way to build a crystal, not an absolute requirement.
+The result was initially difficult to accept because it seemed to violate the rules of crystallography. Other experiments reproduced it, and researchers showed that atoms can form structures that are ordered across long distances without ever repeating the same pattern periodically.
+
+These materials became known as quasicrystals. They are not disordered like glass; their atoms follow a precise arrangement. The discovery changed the definition of a crystal by showing that long-range order does not require periodic repetition.

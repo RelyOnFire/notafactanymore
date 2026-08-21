@@ -1,14 +1,14 @@
 ---
 claim: "The laws of physics always treat a process and its mirror image identically."
-currentUnderstanding: "The weak interaction violates parity symmetry. Some particle decays distinguish left from right, although parity remains conserved in electromagnetism and the strong interaction."
-whyItChanged: "Parity had been treated as a fundamental conservation law. In 1956, Lee and Yang identified that it had not been tested in weak interactions, and Chien-Shiung Wu's cobalt-60 experiment showed a clear mirror asymmetry."
+currentUnderstanding: "The weak interaction—the force involved in radioactive beta decay—does not always treat a process and its mirror image the same way. In weak decays, nature can distinguish left from right. Electromagnetic and strong interactions still preserve this mirror symmetry."
+whyItChanged: "Physicists had assumed that mirror symmetry, or parity, was a universal law. In 1956, Lee and Yang noticed that it had never been directly tested in weak interactions. Chien-Shiung Wu and colleagues then tested beta decay in cobalt-60 and found a clear left-right asymmetry."
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1920s–1956"
 acceptedYear: 1925
 changedApproximately: "1956–1957"
 timelineYear: 1957
-summary: "A symmetry ranked with the great conservation laws failed when physicists tested radioactive beta decay."
+summary: "A mirror-symmetry law thought to apply throughout physics failed when it was tested in radioactive beta decay."
 featured: false
 publishedAt: "2026-07-24"
 reviewedAt: "2026-08-20"
@@ -30,14 +30,10 @@ sources:
     note: "Recounts the rapid experimental confirmation that weak decays violate mirror symmetry."
 ---
 
-Parity symmetry says, roughly, that nature should not care whether an experiment is replaced by its mirror image. By the mid-twentieth century, that principle had worked so reliably that physicists treated parity conservation as one of the fundamental rules of physics.
+Imagine filming a physical experiment and then watching its mirror image. Parity symmetry says that the mirrored experiment should still obey the same laws: nature should not have a built-in preference for left over right.
 
-A puzzle in particle physics prompted Tsung-Dao Lee and Chen-Ning Yang to examine the assumption carefully. In 1956 they realized that parity had been tested extensively in electromagnetic and strong interactions but not directly in weak interactions.
+By the mid-twentieth century, this symmetry had worked so reliably that physicists treated parity conservation as a fundamental rule. But in 1956, Tsung-Dao Lee and Chen-Ning Yang noticed an important gap. Parity had been tested in electromagnetic and strong interactions, but not directly in the weak interaction, which is involved in radioactive beta decay.
 
-Chien-Shiung Wu and collaborators performed the crucial experiment using radioactive cobalt-60 nuclei aligned at very low temperature. If parity were conserved, beta electrons should be emitted symmetrically relative to the nuclear spin. They were not.
+Chien-Shiung Wu and collaborators performed the crucial test with cobalt-60. They aligned the radioactive nuclei and measured the directions in which electrons were emitted during beta decay. If parity were conserved, the mirrored arrangement would be equally likely. Instead, the electrons showed a preferred direction.
 
-Nature distinguished left from right in the weak interaction.
-
-The result was shocking precisely because the symmetry had seemed so fundamental. It did not mean that every physical law became handed. Electromagnetic and strong interactions still conserve parity to extremely high precision.
-
-The discovery replaced one universal conservation law with a more precise statement about which interactions preserve mirror symmetry and which do not.
+The weak interaction really does distinguish left from right. That did not make parity useless: electromagnetic and strong interactions still preserve it to extremely high precision. What disappeared was the belief that mirror symmetry had to hold for every fundamental interaction.

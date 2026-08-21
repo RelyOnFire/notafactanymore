@@ -1,7 +1,7 @@
 ---
 claim: "European mecC-MRSA lineages arose during the modern antibiotic era because medical or veterinary antibiotic use selected for methicillin resistance."
-currentUnderstanding: "Major mecC-MRSA lineages found in European hedgehogs predate clinical antibiotic use. Antibiotic-producing fungi on hedgehogs appear to have created a natural environment that favored methicillin resistance long before modern medicine."
-whyItChanged: "Genome-based dating placed major mecC-MRSA lineages roughly 130–200 years in the past. Researchers also showed that the hedgehog-associated fungus Trichophyton erinacei produces β-lactam antibiotics capable of selecting for resistant staphylococci."
+currentUnderstanding: "Some European MRSA lineages carrying the resistance gene mecC arose long before antibiotics were used in medicine. Hedgehogs carry these bacteria alongside a skin fungus that naturally produces β-lactam antibiotics, creating an environment that can favor resistant bacteria without human antibiotic use."
+whyItChanged: "Genome comparisons dated major hedgehog-associated mecC-MRSA lineages to roughly 130–200 years ago. Researchers then showed that the fungus *Trichophyton erinacei* produces β-lactam antibiotics that can suppress susceptible staphylococci and give resistant strains an advantage."
 status: "Corrected"
 category: "Microbiology"
 acceptedApproximately: "2011–2022"
@@ -9,7 +9,7 @@ acceptedYear: 2011
 lifespanComparable: false
 changedApproximately: "2022"
 timelineYear: 2022
-summary: "Genomic dating traced hedgehog-associated mecC-MRSA to decades before clinical antibiotics and linked its evolution to naturally produced β-lactams."
+summary: "Some mecC-MRSA evolved before clinical antibiotics, apparently under natural antibiotic pressure on hedgehog skin."
 featured: false
 publishedAt: "2026-08-13"
 reviewedAt: "2026-08-13"
@@ -26,8 +26,12 @@ sources:
     note: "Open-access full text of the primary study, including the evidence that dairy cattle had previously been considered a likely reservoir and that hedgehogs are an older natural reservoir."
 ---
 
-When mecC-MRSA was identified in livestock and people in the early 2010s, the obvious explanation for its methicillin resistance was the same pressure that drives many modern resistance problems: exposure to antibiotics used in medicine or agriculture. European hedgehogs, however, turned out to carry closely related resistant bacteria at unusually high rates.
+MRSA stands for methicillin-resistant *Staphylococcus aureus*: strains of a common bacterium that can resist methicillin and related antibiotics. One way MRSA can acquire that resistance is through a gene called mecC.
 
-Whole-genome phylogenies pushed the origins of major mecC-MRSA lineages back about 130–200 years, before methicillin or other modern clinical antibiotics existed. Researchers then examined the hedgehog skin environment and found that *Trichophyton erinacei*, a fungus commonly associated with the animals, produces β-lactam antibiotics. Resistant *Staphylococcus aureus* has an advantage in that naturally antibiotic-rich setting.
+When mecC-MRSA was found in livestock and people in the early 2010s, modern antibiotic use seemed like the obvious explanation. Medicine and agriculture create strong selection for bacteria that can survive antibiotics.
 
-Human antibiotic use can still select for and spread resistant bacteria. The hedgehog lineages show that the resistance genes involved here had already evolved under natural antibiotic pressure before the clinical antibiotic era began.
+European hedgehogs complicated that story. They carried closely related mecC-MRSA at unusually high rates. Comparisons of bacterial genomes indicated that major lineages had begun diversifying roughly 130–200 years ago, before methicillin and the modern clinical antibiotic era.
+
+Researchers then found a plausible source of natural antibiotic pressure on the hedgehogs themselves. A fungus associated with hedgehog skin, *Trichophyton erinacei*, produces β-lactam antibiotics. In that environment, susceptible *S. aureus* can be inhibited while resistant strains have an advantage.
+
+Human antibiotic use still drives many resistance problems and can spread resistant bacteria. The correction here is more specific: these mecC-MRSA lineages did not need modern medicine to create the resistance in the first place.

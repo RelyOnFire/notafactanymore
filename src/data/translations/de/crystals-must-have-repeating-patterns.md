@@ -3,19 +3,21 @@ locale: de
 entryId: crystals-must-have-repeating-patterns
 sourceReviewedAt: "2026-08-20"
 claim: Jeder Kristall muss ein periodisch wiederholtes Atommuster besitzen.
-currentUnderstanding: Kristalle können Fernordnung ohne periodische Wiederholung besitzen. Quasikristalle erzeugen scharfe Beugungsmuster und Rotationssymmetrien, die bei periodischen Kristallen nicht möglich sind, obwohl ihre Struktur aperiodisch ist.
-whyItChanged: Die klassische Kristallographie definierte Kristalle über periodische Gitter. 1982 beobachtete Dan Shechtman ein scharfes Elektronenbeugungsmuster mit einer Symmetrie, die kein periodischer Kristall erzeugen konnte. Daraus entstand die Anerkennung von Quasikristallen und eine erweiterte Definition von Kristallinität.
+currentUnderstanding: "Ein Kristall kann stark geordnet sein, ohne dass sich dasselbe Atommuster immer wiederholt. Quasikristalle besitzen eine solche nichtperiodische Ordnung und erzeugen dennoch die scharfen Beugungsmuster, die für Kristalle typisch sind."
+whyItChanged: "Die klassische Kristallographie betrachtete periodische Wiederholung als Teil dessen, was einen Kristall ausmacht. 1982 beobachtete Dan Shechtman bei einer Aluminium-Mangan-Legierung ein Elektronenbeugungsmuster mit einer Symmetrie, die ein gewöhnlicher periodischer Kristall nicht erzeugen konnte. Daraus entstand die Anerkennung der Quasikristalle."
 acceptedApproximately: 19. Jahrhundert bis 1982
 changedApproximately: 1982–1992
-summary: Quasikristalle zeigten geordnete Festkörper, deren atomare Muster sich nicht periodisch wiederholen.
+summary: "Quasikristalle zeigten, dass Atome einen stark geordneten Kristall bilden können, ohne dass sich ein Muster periodisch wiederholt."
 sourceNotes:
 - Erklärt, dass periodische Wiederholung lange als grundlegende Voraussetzung für Kristalle galt.
 - Beschreibt das nicht wiederholende, aber regelmäßige Beugungsmuster, das Quasikristalle etablierte.
 - Gibt einen Überblick über den Widerstand gegen die Entdeckung und die spätere Akzeptanz aperiodischer Kristalle.
 ---
 
-Für die klassische Kristallographie war Periodizität nicht nur häufig, sondern Teil der Definition. Die atomare Anordnung eines Kristalls wiederholte sich räumlich in einem Gitter, und diese Periodizität beschränkte auch die möglichen Rotationssymmetrien. Fünfzählige Symmetrie etwa lässt sich mit einem gewöhnlichen periodischen Gitter nicht lückenlos vereinbaren.
+Einen gewöhnlichen Kristall kann man sich wie eine dreidimensionale Tapete vorstellen: Eine kleine Anordnung von Atomen wiederholt sich immer wieder durch das Material. Lange Zeit gehörte diese periodische Wiederholung zur Definition eines Kristalls.
 
-1982 untersuchte Dan Shechtman eine Aluminium-Mangan-Legierung und fand ein scharfes Elektronenbeugungsmuster mit zehnzähliger Symmetrie. Scharfe Punkte bedeuteten Fernordnung, doch die Symmetrie passte nicht zu einem konventionellen periodischen Kristall. Der Befund widersprach den damaligen Erwartungen so stark, dass er zunächst heftige Skepsis auslöste. Spätere Experimente reproduzierten das Phänomen, und mathematische Modelle zeigten, wie geordnete, nicht periodisch wiederholte Strukturen solche Beugungsmuster erzeugen können.
+1982 untersuchte Dan Shechtman eine Aluminium-Mangan-Legierung mit Elektronenbeugung. Dabei werden Elektronen an den Atomen gestreut; aus dem entstehenden Muster lässt sich erkennen, wie regelmäßig die Atome angeordnet sind. Shechtman sah scharfe, geordnete Punkte. Das Material besaß also eindeutig eine starke innere Ordnung. Die Symmetrie des Musters konnte jedoch kein gewöhnlicher periodischer Kristall erzeugen.
 
-Quasikristalle liegen nicht einfach irgendwo zwischen Kristall und Glas. Sie besitzen ausgeprägte Fernordnung, aber keine einfache translatorische Wiederholung. Ihre Anerkennung veränderte deshalb die Definition von Kristallinität selbst: Periodizität ist eine Möglichkeit, einen Kristall aufzubauen – keine absolute Voraussetzung.
+Der Befund war zunächst schwer zu akzeptieren, weil er den damaligen Regeln der Kristallographie widersprach. Andere Experimente bestätigten ihn, und Forschende zeigten, dass Atome über große Entfernungen geordnet sein können, ohne dass sich dasselbe Muster periodisch wiederholt.
+
+Solche Materialien werden Quasikristalle genannt. Sie sind nicht ungeordnet wie Glas; ihre Atome folgen einer präzisen Struktur. Die Entdeckung erweiterte deshalb die Definition eines Kristalls: Fernordnung ist möglich, ohne dass periodische Wiederholung zwingend erforderlich ist.

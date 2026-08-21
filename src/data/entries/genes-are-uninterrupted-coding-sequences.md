@@ -1,14 +1,14 @@
 ---
 claim: "A gene in a complex organism is one continuous stretch of DNA that directly matches its messenger RNA."
-currentUnderstanding: "Many eukaryotic genes are split into coding regions called exons separated by introns. Cells copy the full region into RNA and then splice out the introns."
-whyItChanged: "The early gene-to-messenger model assumed continuous correspondence. In 1977, Richard Roberts and Phillip Sharp independently found that viral and cellular genes could be broken into separated DNA segments."
+currentUnderstanding: "Many genes in animals, plants, fungi, and other organisms with cell nuclei are not one uninterrupted stretch of usable information. The first RNA copy contains sections that will be kept, called exons, and sections that will be removed, called introns."
+whyItChanged: "In 1977, Richard Roberts and Phillip Sharp found that some messenger RNA matched separated pieces of the DNA rather than one continuous stretch. This showed that cells can first copy a larger region and then edit the RNA by removing introns and joining exons."
 status: "Overturned"
 category: "Genetics"
 acceptedApproximately: "1950s–1977"
 acceptedYear: 1955
 changedApproximately: "1977–1980s"
 timelineYear: 1977
-summary: "Split genes showed that cells edit RNA by removing introns and joining separated coding regions."
+summary: "Split genes showed that a cell can copy a gene as a rough draft, remove introns, and join the remaining exons into the final messenger RNA."
 featured: false
 publishedAt: "2026-07-27"
 reviewedAt: "2026-08-20"
@@ -30,12 +30,12 @@ sources:
     note: "Explains pre-mRNA processing, intron removal, and exon splicing."
 ---
 
-The early molecular picture of a gene was elegantly direct: DNA was copied into messenger RNA, and the RNA sequence corresponded continuously to the gene that produced it. That model fit many bacterial genes and seemed like a natural extension of the emerging DNA-to-RNA-to-protein framework.
+The early molecular picture of a gene was very direct. DNA was copied into messenger RNA, which carries genetic instructions that can be used to make a protein. It seemed natural to expect the finished RNA to match one continuous stretch of the gene that produced it.
 
-In 1977, Richard Roberts and Phillip Sharp independently encountered something that did not fit. When viral messenger RNA was matched against the DNA from which it came, the corresponding DNA regions were separated by stretches that were absent from the mature RNA.
+In 1977, Richard Roberts and Phillip Sharp independently found something different. When they compared messenger RNA with the DNA it came from, the RNA matched several separated pieces of DNA. Stretches in between were missing from the finished message.
 
-The solution was the split gene. In many eukaryotes, a gene is transcribed into a longer precursor RNA containing both exons and introns. RNA splicing removes the introns and joins the retained exons before the mature messenger RNA is translated.
+The first RNA copy is therefore better thought of as a rough draft. It can contain sections that will remain in the finished messenger RNA, called exons, separated by sections that will be removed, called introns. The cell cuts out the introns and joins the exons together in a process called RNA splicing.
 
-The discovery added an entire processing step between transcription and translation and opened the way to later work on alternative splicing, in which different exon combinations can produce multiple RNA products from one gene.
+This also made another possibility clear: the same gene can sometimes be spliced in different ways, keeping different combinations of exons and producing different RNA products.
 
-Many bacterial genes are continuous, and some eukaryotic genes contain no introns. What failed was the universal rule that a gene must be one uninterrupted DNA sequence corresponding directly to its mature messenger RNA.
+Many bacterial genes are continuous, and some genes in organisms with cell nuclei contain no introns. What failed was the rule that every gene must correspond to one uninterrupted stretch of its finished messenger RNA.

@@ -3,19 +3,23 @@ locale: de
 entryId: all-prokaryotes-are-bacteria
 sourceReviewedAt: "2026-08-20"
 claim: Prokaryoten galten als eine grundlegende einheitliche Gruppe; Organismen, die heute Archaeen genannt werden, wurden den Bakterien zugerechnet.
-currentUnderstanding: "Organismen ohne Zellkern umfassen zwei tief getrennte Abstammungslinien: Bakterien und Archaeen. Archaeen unterscheiden sich von Bakterien unter anderem in ihren Membranen, ihrer Genetik und großen Teilen ihrer molekularen Maschinerie."
-whyItChanged: 1977 verglichen Carl Woese und George Fox ribosomale RNA und fanden eine tiefe evolutionäre Trennung innerhalb jener Organismen, die bis dahin gemeinsam als Prokaryoten behandelt wurden. Archaeen wurden daraufhin als grundsätzlich eigenständige Abstammungslinie erkannt und nicht mehr als ungewöhnlicher Zweig der Bakterien.
+currentUnderstanding: "Zellen ohne Zellkern gehören nicht alle zu derselben Art von Organismen. Sie umfassen Bakterien und Archaeen, zwei evolutionär tief getrennte Linien. Archaeen können unter dem Mikroskop Bakterien ähneln, unterscheiden sich aber in ihren Zellmembranen, Genen und vielen molekularen Abläufen."
+whyItChanged: "1977 verglichen Carl Woese und George Fox ribosomale RNA, einen Bestandteil der zellulären Proteinherstellung, der sich im Laufe der Evolution nur langsam verändert. Die Unterschiede zeigten, dass methanbildende Mikroben, die bis dahin als ungewöhnliche Bakterien galten, zu einer eigenen großen Abstammungslinie gehörten: den Archaeen."
 acceptedApproximately: Mitte des 20. Jahrhunderts bis 1970er-Jahre
 changedApproximately: 1977–1990
-summary: Molekulare Phylogenie teilte das alte einheitliche Prokaryotenbild in die tief getrennten Linien Bacteria und Archaea.
+summary: "Molekulare Vergleiche zeigten, dass Zellen ohne Zellkern zwei tief getrennte Linien umfassen: Bakterien und Archaeen."
 sourceNotes:
 - Stellt die Drei-Domänen-Klassifikation auf Grundlage tiefgreifender molekularer Unterschiede vor.
 - Beschreibt, wie Woeses Arbeiten Organismen, die zuvor als ungewöhnliche Bakterien galten, zu einer eigenen Domäne machten.
 - Gibt einen Überblick über molekulare und genomische Befunde, die Archaeen klar von Bakterien unterscheiden.
 ---
 
-Mitte des 20. Jahrhunderts wurde zelluläres Leben häufig auf einer sehr tiefen Ebene in Eukaryoten mit Zellkern und Prokaryoten ohne Zellkern eingeteilt. Organismen der zweiten Kategorie behandelte man im Wesentlichen als Bakterien. Methanbildende Mikroben und andere Organismen, die wir heute als Archaeen kennen, galten deshalb als ungewöhnliche bakterielle Zweige und nicht als Mitglieder einer fundamental anderen Abstammungslinie.
+Mitte des 20. Jahrhunderts teilten Biologen Zellen häufig in zwei große Typen ein. Eukaryotische Zellen, etwa die von Tieren und Pflanzen, besitzen einen Zellkern. Prokaryotische Zellen besitzen keinen. Organismen der zweiten Gruppe wurden im Wesentlichen als Bakterien behandelt.
 
-Carl Woese und George Fox stellten diese Ordnung infrage, indem sie ribosomale RNA verglichen – ein Molekül, das in allem zellulären Leben vorkommt und zugleich konserviert genug ist, um sehr tiefe evolutionäre Beziehungen sichtbar zu machen. Ihre Analyse von 1977 zeigte, dass Methanogene nicht bloß sonderbare Bakterien waren: Die molekularen Unterschiede verwiesen auf eine große Linie, die sowohl von bekannten Bakterien als auch von Eukaryoten verschieden war.
+Dadurch galten methanbildende Mikroben und andere Organismen, die wir heute Archaeen nennen, als ungewöhnliche Bakterien. Unter dem Mikroskop war diese Einteilung nachvollziehbar: Bakterien und Archaeen sind kleine Zellen ohne Zellkern.
 
-Die Klassifikation entwickelte sich weiter und mündete schließlich im Drei-Domänen-Modell mit Bacteria, Archaea und Eucarya. „Prokaryot“ bleibt als beschreibender Begriff für Organismen ohne Zellkern nützlich, entspricht aber keinem einfachen einzelnen Ast des Stammbaums. Moderne Arbeiten verfeinern die tiefsten Beziehungen zwischen diesen Linien weiter, ohne Archaeen wieder den Bakterien zuzuordnen.
+Carl Woese und George Fox gingen tiefer. 1977 verglichen sie ribosomale RNA, ein Molekül, das alle Zellen bei der Herstellung von Proteinen benötigen. Teile davon verändern sich im Laufe der Evolution nur langsam und eignen sich deshalb dazu, sehr alte Verwandtschaftsbeziehungen zu erkennen.
+
+Die methanbildenden Mikroben waren nicht bloß ein sonderbarer Seitenzweig der Bakterien. Ihre ribosomale RNA unterschied sich so stark, dass sie auf eine eigene große Abstammungslinie hinwies. Spätere molekulare Arbeiten bestätigten die Trennung, und Archaeen wurden neben Bakterien und Eukaryoten als eine der drei Domänen des zellulären Lebens anerkannt.
+
+Der Begriff Prokaryot bleibt als Beschreibung für Zellen ohne Zellkern nützlich. Geändert hat sich die Vorstellung, dass alle solchen Zellen eine einzige natürliche Abstammungsgruppe bilden oder sämtlich Bakterien sind.

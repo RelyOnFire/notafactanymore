@@ -1,14 +1,14 @@
 ---
 claim: "Peptic ulcers are primarily caused by stress and lifestyle."
-currentUnderstanding: "Most peptic ulcers are caused by Helicobacter pylori infection or by certain medications, particularly nonsteroidal anti-inflammatory drugs (NSAIDs)."
-whyItChanged: "Research by Barry Marshall and Robin Warren established the connection between H. pylori, gastritis, and peptic-ulcer disease, replacing the dominant emphasis on stress and lifestyle with an infectious explanation for most cases."
+currentUnderstanding: "Most peptic ulcers are caused either by infection with *Helicobacter pylori*, a bacterium that can live in the stomach, or by nonsteroidal anti-inflammatory drugs (NSAIDs), a common class of pain-relief medicines that can damage the stomach and duodenal lining."
+whyItChanged: "Robin Warren and Barry Marshall found *H. pylori* living in inflamed stomach tissue and showed that the infection was closely tied to gastritis and ulcer disease. Treating the infection with antibiotics sharply reduced ulcer recurrence, while NSAIDs emerged as another major cause."
 status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "Mid-20th century to the 1980s"
 acceptedYear: 1950
 changedApproximately: "1982–1990s"
 timelineYear: 1982
-summary: "The stress-and-lifestyle explanation was replaced after evidence showed that H. pylori infection and NSAID use cause most peptic ulcers."
+summary: "Most peptic ulcers turned out to be caused by *H. pylori* infection or NSAID use rather than stress and personality."
 featured: true
 featuredOrder: 1
 publishedAt: "2026-07-16"
@@ -26,14 +26,12 @@ sources:
     note: "Identifies H. pylori infection and NSAID use as the most common causes of peptic ulcers."
 ---
 
-For much of the twentieth century, peptic ulcers were explained largely through excess stomach acid, stress, diet, smoking, and personality. Treatment therefore emphasized antacids, bland diets, stress reduction, and sometimes surgery.
+For much of the twentieth century, peptic ulcers were blamed mainly on excess stomach acid, stress, diet, smoking, and sometimes personality. Treatment therefore focused on antacids, bland diets, stress reduction, and in severe cases surgery.
 
-In the early 1980s, pathologist Robin Warren repeatedly noticed curved bacteria living in inflamed stomach tissue. Barry Marshall joined him in investigating the organism, later named *Helicobacter pylori*.
+In the early 1980s, pathologist Robin Warren repeatedly saw curved bacteria in inflamed stomach tissue. Barry Marshall joined him in studying the organism, later named *Helicobacter pylori*. The idea was surprising because the stomach was considered too acidic for bacteria to live there for long.
 
-The idea faced resistance because the stomach was considered too acidic for long-term bacterial colonization and because ulcers already had an established physiological explanation. Evidence accumulated that *H. pylori* was strongly associated with chronic gastritis and ulcer disease, and that eliminating the infection with antibiotics dramatically reduced recurrence.
+The evidence became hard to dismiss. *H. pylori* was strongly associated with chronic stomach inflammation and ulcer disease, and eliminating the infection with antibiotics greatly reduced the chance that ulcers would return.
 
-Another major cause also became clear: NSAIDs can weaken the stomach and duodenal lining and cause ulcers independently of *H. pylori*.
+A second major cause also became clear: nonsteroidal anti-inflammatory drugs, or NSAIDs, can weaken the protective lining of the stomach and duodenum and cause ulcers without *H. pylori*.
 
-Stress and lifestyle did not become biologically meaningless. Smoking can impair healing, severe physiological stress can contribute to ulceration in critically ill patients, and symptoms can be influenced by many factors.
-
-The causal center nevertheless changed. Most peptic ulcers are now understood through *H. pylori* infection and NSAID exposure rather than a general stress-and-personality model.
+Stress and lifestyle can still affect symptoms and healing, and severe physical stress can contribute to ulcers in critically ill patients. But for most peptic ulcers, the main causes are now understood to be *H. pylori* infection and NSAID use.

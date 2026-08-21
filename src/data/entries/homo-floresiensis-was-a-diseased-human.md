@@ -1,7 +1,7 @@
 ---
 claim: "Homo floresiensis was merely a modern human with a disease or growth disorder."
 currentUnderstanding: "Most specialists recognize *Homo floresiensis* as a distinct archaic human species rather than a diseased modern human. Its unusual anatomy appears in more than one individual and includes a combination of primitive traits that a single disorder does not explain well."
-whyItChanged: "The first well-preserved skeleton was extremely small, with a very small brain, so researchers proposed conditions such as microcephaly—a disorder involving unusually small brain growth—or endocrine disease. Additional fossils and detailed studies of the skull, teeth, wrist, shoulder, foot, and limb proportions made a pathological *Homo sapiens* explanation increasingly difficult to sustain."
+whyItChanged: "The first well-preserved skeleton was extremely small, with a very small brain, so researchers proposed conditions such as [microcephaly](glossary:microcephaly), in which brain growth is unusually limited, or endocrine disease. Additional fossils and detailed studies of the skull, teeth, wrist, shoulder, foot, and limb proportions made a pathological *Homo sapiens* explanation increasingly difficult to sustain."
 status: "Overturned"
 category: "Human Evolution"
 acceptedApproximately: "Competing expert hypothesis, 2004–2010s"
@@ -34,7 +34,7 @@ When the partial skeleton known as LB1 was announced from the Indonesian island 
 
 LB1 belonged to an adult only about a meter tall and had a brain far smaller than expected for a recent member of the genus *Homo*. The discoverers proposed a new species, *Homo floresiensis*.
 
-Other researchers suggested a very different explanation: perhaps LB1 was an anatomically modern human with a medical condition. One proposal was microcephaly, in which brain growth is abnormally limited; others involved endocrine or developmental disorders.
+Other researchers suggested a very different explanation: perhaps LB1 was an anatomically modern human with a medical condition. One proposal was microcephaly; others involved endocrine or developmental disorders.
 
 This was a real scientific dispute rather than a simple case of an old consensus being overturned.
 

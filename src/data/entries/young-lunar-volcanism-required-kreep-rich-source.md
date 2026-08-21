@@ -1,7 +1,7 @@
 ---
 claim: "The Moon’s youngest mare volcanism required a KREEP-rich mantle source enriched in heat-producing elements."
-currentUnderstanding: "Chang’e-5 returned lunar basalts about 2 billion years old whose chemistry points to a mantle source with little KREEP contribution. KREEP—material rich in potassium, rare-earth elements, phosphorus, and heat-producing radioactive elements—is therefore not required as the direct source of the Moon’s youngest volcanism."
-whyItChanged: "Many young volcanic rocks occur in a KREEP-rich region of the Moon, so its extra radioactive heat seemed like a natural explanation for late volcanism. Isotope measurements of Chang’e-5 samples instead traced those basalts to a chemically depleted mantle source with little KREEP contribution."
+currentUnderstanding: "Chang’e-5 returned lunar basalts about 2 billion years old whose chemistry points to a mantle source with little KREEP contribution. [KREEP](glossary:kreep)—material rich in potassium, rare-earth elements, phosphorus, and heat-producing radioactive elements—is therefore not required as the direct source of the Moon’s youngest volcanism."
+whyItChanged: "Many young volcanic rocks occur in a KREEP-rich region of the Moon, so its extra radioactive heat seemed like a natural explanation for late volcanism. Isotope measurements of Chang’e-5 samples instead traced those basalts to a [chemically depleted mantle source](glossary:depleted-mantle-source) with little KREEP contribution."
 status: "Narrowed"
 category: "Planetary Science"
 acceptedApproximately: "1990s–2021"
@@ -33,7 +33,7 @@ sources:
 
 The dark plains visible across much of the Moon are ancient lava flows. Some of these mare basalts are much younger than most lunar volcanism, raising a basic question: what kept parts of the Moon hot enough to melt so late in its history?
 
-One leading explanation focused on KREEP. The name comes from potassium (K), rare-earth elements (REE), and phosphorus (P). KREEP-rich material also contains radioactive elements that release heat as they decay. Because many young mare basalts occur in the Procellarum KREEP Terrane, a large KREEP-rich region, it was reasonable to suspect that this extra heat was directly tied to their source.
+One leading explanation focused on KREEP. The name comes from potassium (K), rare-earth elements (REE), and phosphorus (P). KREEP-rich material also contains radioactive elements that release heat as they decay. Because many young mare basalts occur in the [Procellarum KREEP Terrane](glossary:procellarum-kreep-terrane), it was reasonable to suspect that this extra heat was directly tied to their source.
 
 Chang’e-5 made that idea testable by returning rocks from one of the Moon's youngest volcanic regions. The basalts are about 2 billion years old, but their isotope signatures point to a chemically depleted part of the lunar mantle with little KREEP contribution.
 

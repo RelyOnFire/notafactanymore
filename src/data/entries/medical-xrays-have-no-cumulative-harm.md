@@ -1,6 +1,6 @@
 ---
 claim: "Repeated medical X-ray exposure causes no cumulative biological harm."
-currentUnderstanding: "X-rays are [ionizing radiation](glossary:ionizing-radiation): they carry enough energy to remove electrons from atoms and can therefore damage tissue and DNA. Radiation dose accumulates across exposures, although the risk from an individually justified modern diagnostic examination is usually small compared with its clinical benefit."
+currentUnderstanding: "X-rays are [ionizing radiation](glossary:ionizing-radiation): they carry enough energy to remove electrons from atoms and can therefore damage tissue and DNA. [Radiation dose](glossary:radiation-dose) accumulates across exposures, although the risk from an individually justified modern diagnostic examination is usually small compared with its clinical benefit."
 whyItChanged: "X-rays were adopted rapidly after 1895, before radiation biology or dosimetry existed. Burns, nonhealing injuries, infertility, leukemia, and cancers among early operators and patients established the need for shielding, dose limitation, and justification."
 status: "Overturned"
 category: "Medicine"

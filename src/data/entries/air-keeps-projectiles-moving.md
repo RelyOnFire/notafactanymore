@@ -1,7 +1,7 @@
 ---
 claim: A thrown projectile continues moving after release because the surrounding air rushes around it and supplies the continuing external push.
 currentUnderstanding: A projectile does not require a continuing forward-moving agent. Inertia carries it forward while gravity, aerodynamic drag, and other forces change its motion.
-whyItChanged: Medieval critics found the Aristotelian air-push mechanism physically implausible. Jean Buridan's 14th-century impetus theory placed the continuing cause inside the moving projectile, an important step away from antiperistasis and toward later inertial mechanics.
+whyItChanged: Medieval critics found the Aristotelian air-push mechanism physically implausible. Jean Buridan's 14th-century [impetus theory](glossary:impetus) placed the continuing cause inside the moving projectile, an important step away from [antiperistasis](glossary:antiperistasis) and toward later inertial mechanics.
 status: Superseded
 category: Physics
 acceptedApproximately: An influential Aristotelian explanation of projectile motion in antiquity and medieval natural philosophy

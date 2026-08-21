@@ -3,7 +3,7 @@ locale: de
 entryId: medical-xrays-have-no-cumulative-harm
 sourceReviewedAt: '2026-08-20'
 claim: Wiederholte medizinische Röntgenexposition verursacht keine kumulativen biologischen Schäden.
-currentUnderstanding: "Röntgenstrahlen sind [ionisierende Strahlung](glossary:ionizing-radiation): Sie besitzen genügend Energie, um Elektronen aus Atomen zu lösen, und können dadurch Gewebe und DNA schädigen. Die Strahlendosis summiert sich über mehrere Expositionen, auch wenn das Risiko einer einzelnen medizinisch gerechtfertigten modernen diagnostischen Untersuchung meist klein gegenüber ihrem klinischen Nutzen ist."
+currentUnderstanding: "Röntgenstrahlen sind [ionisierende Strahlung](glossary:ionizing-radiation): Sie besitzen genügend Energie, um Elektronen aus Atomen zu lösen, und können dadurch Gewebe und DNA schädigen. Die [Strahlendosis](glossary:radiation-dose) summiert sich über mehrere Expositionen, auch wenn das Risiko einer einzelnen medizinisch gerechtfertigten modernen diagnostischen Untersuchung meist klein gegenüber ihrem klinischen Nutzen ist."
 whyItChanged: Röntgenstrahlen wurden nach 1895 rasch eingesetzt, bevor Strahlenbiologie oder Dosimetrie existierten. Verbrennungen, nicht heilende Verletzungen, Unfruchtbarkeit, Leukämien und Krebserkrankungen bei frühen Anwendern und Patienten zeigten die Notwendigkeit von Abschirmung, Dosisbegrenzung und medizinischer Rechtfertigung.
 acceptedApproximately: 1895 bis frühes 20. Jahrhundert
 changedApproximately: 1900er- bis 1950er-Jahre

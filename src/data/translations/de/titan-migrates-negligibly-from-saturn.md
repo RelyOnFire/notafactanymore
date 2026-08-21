@@ -3,7 +3,7 @@ locale: de
 entryId: titan-migrates-negligibly-from-saturn
 sourceReviewedAt: "2026-08-13"
 claim: "Titans durch Gezeiten verursachte Wanderung nach außen sollte äußerst langsam sein, weil er Saturn in großer Entfernung umkreist."
-currentUnderstanding: "Titan entfernt sich langsam von Saturn, aber wesentlich schneller, als ältere Gezeitenmodelle für einen so weit außen kreisenden Mond vorhersagten. Cassini-Messungen stützen einen Prozess namens Resonanzbindung, bei dem Titan stark an sich verändernde Schwingungen im Inneren Saturns gekoppelt bleiben und weiterhin Gezeitenenergie erhalten kann."
+currentUnderstanding: "Titan entfernt sich langsam von Saturn, aber wesentlich schneller, als ältere Gezeitenmodelle für einen so weit außen kreisenden Mond vorhersagten. Cassini-Messungen stützen einen Prozess namens [Resonanzbindung](glossary:resonance-locking), bei dem Titan stark an sich verändernde Schwingungen im Inneren Saturns gekoppelt bleiben und weiterhin Gezeitenenergie erhalten kann."
 whyItChanged: "Traditionelle Modelle ließen die Gezeitenmigration mit wachsendem Abstand stark schwächer werden, weshalb Titan nur extrem langsam nach außen wandern sollte. Langjährige Positionsmessungen Titans und Radiomessungen der Cassini-Sonde fanden unabhängig voneinander eine Rate, die mehr als hundertmal über vielen früheren Schätzungen lag."
 acceptedApproximately: "1960er-Jahre bis 2020"
 changedApproximately: "2020"
@@ -25,7 +25,7 @@ Forschende nutzten zwei unabhängige Methoden: jahrzehntelange präzise Position
 
 Eine führende Erklärung heißt Resonanzbindung.
 
-Saturn kann im Inneren in vielen natürlichen Mustern schwingen. Während sich der Planet im Lauf der Zeit langsam verändert, ändern sich auch die Frequenzen dieser Schwingungen. Unter passenden Bedingungen kann Titans Umlaufbewegung an eine solche Schwingung gekoppelt bleiben und dadurch selbst in großer Entfernung eine starke Gezeitenwechselwirkung aufrechterhalten.
+Saturn kann im Inneren in vielen natürlichen Mustern oder [Schwingungsmoden](glossary:oscillation-mode) schwingen. Während sich der Planet im Lauf der Zeit langsam verändert, ändern sich auch die Frequenzen dieser Schwingungen. Unter passenden Bedingungen kann Titans Umlaufbewegung an eine solche Schwingung gekoppelt bleiben und dadurch selbst in großer Entfernung eine starke Gezeitenwechselwirkung aufrechterhalten.
 
 Die schnellere Migration verändert Rekonstruktionen des Saturnsystems, weil Titan und andere Monde im Lauf ihrer Geschichte viel weiter gewandert sein könnten als ältere Modelle erlaubten.
 

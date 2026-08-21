@@ -4,7 +4,7 @@ entryId: air-keeps-projectiles-moving
 sourceReviewedAt: "2026-08-13"
 claim: Ein geworfenes Objekt bewegt sich nach dem Loslassen weiter, weil die umgebende Luft hinter ihm nachströmt und es weiter nach vorn schiebt.
 currentUnderstanding: Ein Projektil braucht keinen ständig weiterwirkenden Antrieb nach vorn. Seine Trägheit hält die Bewegung aufrecht, während Schwerkraft, Luftwiderstand und andere Kräfte seine Bewegung verändern.
-whyItChanged: Mittelalterliche Kritiker hielten den aristotelischen Mechanismus, bei dem die Luft das Projektil weiterdrückt, für physikalisch unplausibel. Jean Buridans Impetustheorie aus dem 14. Jahrhundert verlegte die fortwirkende Ursache in das bewegte Objekt selbst und war damit ein wichtiger Schritt weg von der Antiperistasis und hin zur späteren Trägheitsmechanik.
+whyItChanged: Mittelalterliche Kritiker hielten den aristotelischen Mechanismus, bei dem die Luft das Projektil weiterdrückt, für physikalisch unplausibel. Jean Buridans [Impetustheorie](glossary:impetus) aus dem 14. Jahrhundert verlegte die fortwirkende Ursache in das bewegte Objekt selbst und war damit ein wichtiger Schritt weg von der [Antiperistasis](glossary:antiperistasis) und hin zur späteren Trägheitsmechanik.
 acceptedApproximately: Einflussreiche aristotelische Erklärung der Projektilbewegung in Antike und mittelalterlicher Naturphilosophie
 changedApproximately: Impetustheorie des 14. Jahrhunderts
 summary: Weil die aristotelische Physik für Bewegung einen fortwirkenden Beweger verlangte, wurde die Luft hinter einem geworfenen Objekt zum Teil des Mechanismus, der es in Bewegung hielt. Die mittelalterliche Impetustheorie verlegte diese Ursache schließlich in das Projektil selbst.

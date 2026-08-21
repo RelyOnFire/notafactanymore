@@ -1,0 +1,19 @@
+term: Radiation dose
+aliases:
+- dose
+- absorbed dose
+- effective dose
+shortDefinition: A quantity used to describe how much ionizing radiation energy is deposited in matter or, in protection
+  contexts, the biological significance of an exposure.
+longDefinition: Radiation dose is a family of measurement concepts rather than a single number. Absorbed dose measures
+  energy deposited per unit mass and is expressed in gray. Radiation protection also uses equivalent and effective dose,
+  expressed in sievert, to account for radiation type and the differing sensitivities of tissues. Repeated exposures
+  contribute to a person's cumulative radiation history even though biological risk is not determined by dose alone.
+relatedTerms:
+- ionizing-radiation
+reviewedAt: '2026-08-21'
+sources:
+- title: Radiation Protection in Medicine
+  url: https://www.iaea.org/topics/radiation-protection/patients
+  publisher: International Atomic Energy Agency
+  note: Explains patient radiation protection, dose optimization, and the use of dose concepts in medical imaging.

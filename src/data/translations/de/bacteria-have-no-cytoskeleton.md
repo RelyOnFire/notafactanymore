@@ -3,19 +3,21 @@ locale: de
 entryId: bacteria-have-no-cytoskeleton
 sourceReviewedAt: "2026-08-20"
 claim: Bakterien sind unstrukturierte Enzymsäcke ohne Zytoskelett oder geordnetes Inneres.
-currentUnderstanding: Bakterien organisieren Zellteilung, Form, Chromosomenbewegung, Transport, Stoffwechsel und spezialisierte Kompartimente mithilfe zytoskelettaler Proteine und anderer räumlicher Systeme.
-whyItChanged: Ihre geringe Größe und ihr unter gewöhnlichen Lichtmikroskopen nahezu strukturloses Erscheinungsbild begünstigten ein einfaches Sack-Modell. Molekulargenetik, Fluoreszenzmikroskopie und Kryo-Elektronentomographie zeigten dagegen aktinähnliche, tubulinähnliche und weitere Struktursysteme.
+currentUnderstanding: "Bakterien besitzen ein organisiertes Zellinneres. Mit Strukturproteinen steuern sie ihre Form, positionieren Bestandteile in der Zelle und organisieren die Zellteilung. Einige dieser Proteine sind mit Aktin und Tubulin verwandt, zwei wichtigen Bestandteilen des Zytoskeletts von Tier- und Pflanzenzellen."
+whyItChanged: "Bakterien sind so klein, dass ihr Inneres unter gewöhnlichen Lichtmikroskopen früher fast strukturlos erschien. Genetik und verbesserte Bildgebung machten später Proteine wie FtsZ sichtbar, das an der Teilungsstelle einen Ring bildet, und MreB, ein aktinähnliches Protein, das an der Organisation der Zellform beteiligt ist."
 acceptedApproximately: Spätes 19. bis spätes 20. Jahrhundert
 changedApproximately: 1990er-Jahre bis heute
-summary: Neue Bildgebung verwandelte die Bakterienzelle von einem scheinbar strukturlosen Sack in ein räumlich organisiertes Mikrosystem.
+summary: "Bessere Bildgebung und Genetik zeigten, dass Bakterien interne Struktursysteme besitzen und keine strukturlosen Säcke voller Enzyme sind."
 sourceNotes:
 - Erklärt, wie die geringe Größe und das glasige Erscheinungsbild von Bakterien die Vorstellung einer einfachen inneren Struktur begünstigten.
 - Berichtet, dass die Entdeckung bakterieller Homologe von Aktin und Tubulin die Vorstellung widerlegte, Zytoskelette seien nur Eukaryoten vorbehalten.
 - Gibt einen Überblick über bakterielle Zytoskelette, Kompartimente und weitere Mechanismen innerer Organisation.
 ---
 
-Über weite Teile des 20. Jahrhunderts schien der Gegensatz eindeutig: Eukaryotische Zellen besaßen Organellen und ein Zytoskelett, Bakterien dagegen wirkten wie winzige, nahezu strukturlose Säcke voller Enzyme. Ihre geringe Größe lag für viele innere Strukturen unterhalb der Auflösungsgrenze gewöhnlicher Lichtmikroskope und verstärkte die Vorstellung, es gebe dort kaum räumliche Organisation.
+Über weite Teile des 20. Jahrhunderts schien der Unterschied zwischen komplexen Zellen und Bakterien offensichtlich. Tier- und Pflanzenzellen besaßen sichtbare innere Strukturen und ein Zytoskelett – ein Gerüst aus Proteinen, das die Zelle organisiert. Bakterien wirkten dagegen wie winzige, beinahe strukturlose Säcke voller Enzyme.
 
-Dieses Bild zerfiel, als Genetik und neue Bildgebungsverfahren bakterielle Proteine in lebenden Zellen sichtbar machten. FtsZ, ein Verwandter von Tubulin, bildet einen Ring, der die Zellteilung organisiert. MreB und verwandte aktinähnliche Proteine helfen dabei, Zellform und räumliche Organisation zu steuern. Weitere Systeme positionieren Chromosomen, Enzyme, Proteinkomplexe und spezialisierte Kompartimente.
+Ihre geringe Größe war ein Teil des Problems. Viele bakterielle Strukturen sind zu klein, um sie mit gewöhnlichen Lichtmikroskopen aufzulösen. Ein organisiertes Zellinneres konnte daher leicht leer erscheinen.
 
-Bakterien besitzen im Allgemeinen weiterhin nicht die großen membranumhüllten Organellen, die man aus Tier- und Pflanzenzellen kennt. Ihr Inneres ist anders und auf kleinerem Maßstab organisiert – nicht unstrukturiert.
+Genetik und bessere Bildgebungsverfahren änderten dieses Bild. Das bakterielle Protein FtsZ, ein Verwandter des Tubulins im Zytoskelett von Tier- und Pflanzenzellen, bildet dort einen Ring, wo sich ein Bakterium teilen wird. Ein weiteres Protein, MreB, ist mit Aktin verwandt und hilft bei der Organisation der Zellform.
+
+Weitere bakterielle Systeme positionieren Chromosomen, Enzyme, Proteinkomplexe und spezialisierte Bereiche innerhalb der Zelle. Bakterien besitzen im Allgemeinen nicht dieselben großen membranumhüllten Organellen wie Tier- und Pflanzenzellen. Ihr Inneres ist aber nicht unstrukturiert, sondern auf kleinerem Maßstab und auf andere Weise organisiert.

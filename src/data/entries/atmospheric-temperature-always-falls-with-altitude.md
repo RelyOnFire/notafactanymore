@@ -1,14 +1,14 @@
 ---
 claim: "Atmospheric temperature always decreases as altitude increases."
-currentUnderstanding: "Temperature decreases through the troposphere but begins increasing through much of the stratosphere because ozone absorbs ultraviolet radiation. Higher atmospheric layers follow additional reversals."
-whyItChanged: "Early balloon measurements generally showed cooling with height, encouraging extrapolation of the trend. In 1902, Léon Teisserenc de Bort and Richard Assmann independently found that cooling stopped near 10–15 kilometres and that an upper layer was nearly isothermal or warming."
+currentUnderstanding: "Temperature does not keep falling all the way up through the atmosphere. It usually decreases through the troposphere, the lowest layer where most weather occurs, but begins rising through much of the stratosphere because ozone absorbs ultraviolet sunlight and converts some of that energy to heat."
+whyItChanged: "Mountains and early balloon measurements both showed cooling with height, so it was easy to extend that pattern upward. Around 1902, high-altitude balloons flown by Léon Teisserenc de Bort and Richard Assmann independently showed that the cooling stopped roughly 10–15 kilometres above the surface."
 status: "Overturned"
 category: "Atmospheric Science"
 acceptedApproximately: "19th century–1902"
 acceptedYear: 1850
 changedApproximately: "1902–1930s"
 timelineYear: 1919
-summary: "High-altitude balloons found a temperature reversal and revealed the stratosphere."
+summary: "High-altitude balloons showed that the atmosphere is layered and that temperature can begin rising again above the troposphere."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,16 +30,14 @@ sources:
     note: "Summarizes the temperature-defined atmospheric layers and their reversals."
 ---
 
-Near Earth's surface, climbing generally means cooling. Mountains are colder than nearby lowlands, and nineteenth-century balloon measurements likewise found temperature falling as instruments rose through the lower atmosphere.
+Near Earth's surface, going higher usually means getting colder. Mountains are colder than nearby lowlands, and nineteenth-century balloon measurements found the same pattern through the lower atmosphere.
 
-It was natural to extrapolate that trend upward.
+It was natural to assume that the cooling simply continued upward.
 
-Around 1902, Léon Teisserenc de Bort in France and Richard Assmann in Germany independently pushed instrumented balloons high enough to find something unexpected. At roughly 10–15 kilometres, the steady cooling stopped.
+Around 1902, Léon Teisserenc de Bort in France and Richard Assmann in Germany independently sent instrumented balloons high enough to test that assumption. At roughly 10–15 kilometres above the surface, the steady cooling stopped.
 
-The discovery revealed a new atmospheric layer, later called the stratosphere. Within much of it, temperature rises with altitude because ozone absorbs ultraviolet radiation and converts part of that energy into heat.
+That boundary separates the troposphere, the lowest atmospheric layer where most weather occurs, from the stratosphere above it. Through much of the stratosphere, temperature rises with altitude instead of falling. Ozone absorbs ultraviolet radiation from the Sun and converts some of that energy into heat.
 
-The atmosphere contains further reversals above the stratosphere: temperature falls through the mesosphere and rises again through the thermosphere.
+Higher still, the direction changes again: temperature falls through the mesosphere and rises through the thermosphere.
 
-These layers are partly defined by exactly this alternating temperature structure.
-
-The familiar rule remains useful inside the troposphere, where most weather occurs. The overturned claim is the extrapolation that the same lapse rate must continue indefinitely upward. Earth's atmosphere is thermally layered rather than monotonically colder with height.
+The atmosphere is therefore divided into layers partly by these temperature changes. Cooling with height remains a useful rule in the troposphere, but it is not a rule for the atmosphere as a whole.

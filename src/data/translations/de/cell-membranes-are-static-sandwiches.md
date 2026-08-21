@@ -3,19 +3,25 @@ locale: de
 entryId: cell-membranes-are-static-sandwiches
 sourceReviewedAt: "2026-08-20"
 claim: Zellmembranen sind statische Protein-Lipid-Protein-Sandwiches.
-currentUnderstanding: Biologische Membranen sind dynamische Lipiddoppelschichten mit eingebetteten und angelagerten Proteinen. Ihre Bestandteile können sich bewegen, gruppieren, mit dem Zytoskelett interagieren und spezialisierte Domänen bilden.
-whyItChanged: Das Danielli-Davson-Sandwichmodell und spätere Einheitsmembranmodelle deuteten Permeabilität und elektronenmikroskopische Bilder als Proteinschichten um einen Lipidkern. Gefrierbruchmikroskopie, Proteinchemie und Messungen lateraler Beweglichkeit stützten stattdessen Proteine, die in eine fluide Lipiddoppelschicht eingebettet sind.
+currentUnderstanding: "Zellmembranen sind flexible Doppelschichten aus Lipidmolekülen, in die Proteine eingebettet oder an die Proteine angelagert sind. Lipide und viele Proteine können sich seitlich in der Membran bewegen; Zellen ordnen sie außerdem in wechselnden Gruppen und spezialisierten Bereichen."
+whyItChanged: "Ältere Modelle stellten sich eine Lipidschicht vor, die auf beiden Seiten von durchgehenden Proteinschichten überzogen war. Gefrierbruchmikroskopie zeigte stattdessen Partikel innerhalb der Membran, und Zellfusionsexperimente belegten, dass Membranproteine sich seitlich über die Oberfläche bewegen können. Daraus entstand das Flüssig-Mosaik-Modell."
 acceptedApproximately: 1930er- bis 1960er-Jahre
 changedApproximately: 1960er-Jahre bis 1972
-summary: Das starre Membran-Sandwich wurde durch ein dynamisches Flüssig-Mosaik aus Lipiden und eingebetteten Proteinen ersetzt.
+summary: "Aus dem starren, proteinbeschichteten Membran-Sandwich wurde eine flexible Lipidschicht mit beweglichen, eingebetteten Proteinen."
 sourceNotes:
 - Danielli und Davson entwickelten das einflussreiche Modell einer von Proteinen umhüllten Lipidmembran.
 - Singer und Nicolson schlugen globuläre Proteine vor, die in eine fluide Lipiddoppelschicht eingebettet sind.
 - Gibt einen Überblick über das statische Dreischichtmodell, die Belege, die es verdrängten, und spätere Verfeinerungen der Membranorganisation.
 ---
 
-Das Protein-Lipid-Protein-„Sandwich“ löste echte Probleme. Danielli und Davsons Modell der 1930er-Jahre erklärte, wie eine Lipidmembran mit selektiver Permeabilität zusammenpassen könnte. Spätere elektronenmikroskopische Aufnahmen schienen zudem eine universelle dunkel-hell-dunkel geschichtete Struktur zu zeigen. Im daraus entstandenen Einheitsmembranmodell wirkten Proteine wie durchgehende Beschichtungen auf beiden Seiten eines Lipidkerns.
+Frühe Membranmodelle mussten zwei Beobachtungen gleichzeitig erklären: Zellen besaßen offensichtlich eine fetthaltige Barriere, diese Barriere musste aber zugleich kontrollieren, welche Stoffe hinein- und hinausgelangen.
 
-Mehrere Befundlinien passten zunehmend nicht mehr dazu. Gefrierbruchmikroskopie zeigte Partikel innerhalb der Membran statt nur auf ihren Oberflächen. Biochemische Untersuchungen fanden zahlreiche Proteine tief in die Lipidschicht eingebettet. Zellfusionsexperimente zeigten 1970, dass Membranproteine zweier Zellen sich seitlich über die fusionierte Oberfläche verteilen konnten. Singer und Nicolson fassten diese Ergebnisse 1972 im Flüssig-Mosaik-Modell zusammen: eine fluide Lipiddoppelschicht mit darin eingebetteten oder angelagerten Proteinen.
+Das einflussreiche Danielli-Davson-Modell stellte die Membran deshalb als Sandwich dar. In der Mitte lag eine Lipidschicht, die auf beiden Seiten von durchgehenden Proteinschichten überzogen war. Spätere elektronenmikroskopische Bilder schienen eine saubere Dreischichtung zu bestätigen.
 
-Auch dieses Modell wurde später verfeinert. Reale Membranen sind dicht gepackt, asymmetrisch, in Bereiche gegliedert, mit dem Zytoskelett gekoppelt und in spezialisierte Domänen organisiert. Verschwunden ist das universelle statische Sandwich.
+Mehrere Experimente passten jedoch immer schlechter dazu.
+
+Bei der Gefrierbruchmikroskopie wird eine gefrorene Membran entlang ihres Inneren aufgespalten. Dabei erschienen Partikel nicht nur auf den Oberflächen, sondern mitten in der Membran. Biochemische Untersuchungen zeigten ebenfalls, dass viele Membranproteine tief in die Lipidschicht hineinreichen.
+
+Zellfusionsexperimente lieferten einen weiteren Hinweis. Wurden zwei Zellen mit unterschiedlich markierten Membranproteinen verschmolzen, vermischten sich die Proteine allmählich über die gemeinsame Oberfläche. Die Membran war also keine starre Platte; viele ihrer Bestandteile konnten sich seitlich bewegen.
+
+Singer und Nicolson fassten diese Befunde 1972 im Flüssig-Mosaik-Modell zusammen: eine flexible Lipiddoppelschicht mit eingebetteten oder angelagerten Proteinen. Reale Membranen sind noch stärker organisiert und dichter gepackt, doch das universelle starre Sandwich hatte ausgedient.

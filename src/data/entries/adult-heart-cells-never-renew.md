@@ -1,7 +1,7 @@
 ---
 claim: "Adult human heart-muscle cells are permanently post-mitotic and are never replaced."
-currentUnderstanding: "Adult human cardiomyocytes renew slowly throughout life. Estimated annual turnover is roughly 1% in young adults and declines with age, far too little to restore major injury."
-whyItChanged: "Cell-labeling studies and retrospective carbon-14 birth dating made it possible to estimate when cardiomyocyte DNA formed, demonstrating limited but measurable renewal."
+currentUnderstanding: "Adult human heart-muscle cells, called cardiomyocytes, do renew, but very slowly. Estimates suggest that roughly 1% are replaced each year in younger adults, with the rate falling with age. That is far too little to rebuild the large amount of muscle lost in a major heart attack."
+whyItChanged: "The turnover was too slow to observe easily. Researchers eventually used carbon-14 left in the atmosphere by Cold War nuclear tests as a time stamp: newly formed cells incorporated the carbon level present when their DNA was made. This showed that some adult heart-muscle cells were younger than the person carrying them."
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Much of the 20th century"
@@ -9,7 +9,7 @@ acceptedYear: 1925
 changedApproximately: "Late 20th century–2000s"
 timelineYear: 2009
 lifespanComparable: false
-summary: "The adult heart is not completely cell-static, although its low renewal rate cannot repair major damage."
+summary: "Adult heart-muscle cells do renew slowly, but not fast enough to repair major damage."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
@@ -33,8 +33,12 @@ sources:
     note: "Explains that adult mammalian hearts undergo limited self-renewal but remain poor at regenerating after injury."
 ---
 
-For most of the 20th century, the adult mammalian heart was described as a post-mitotic organ. Cardiomyocytes were thought to leave the cell cycle after development and persist for life, helping explain why a major heart attack heals largely by scar formation rather than by rebuilding lost muscle.
+For most of the twentieth century, adult heart-muscle cells were thought to be permanent. Once development was complete, cardiomyocytes—the cells that make the heart contract—were expected to last for life rather than divide and be replaced.
 
-The difficulty was measuring extremely slow turnover in humans. A striking solution came from atmospheric carbon-14 released during Cold War nuclear testing. Because dividing cells incorporate contemporary carbon into newly made DNA, researchers could compare carbon-14 levels in cardiomyocyte nuclei with the dated atmospheric record. In 2009, that method showed that adult human cardiomyocytes are not all as old as the person carrying them.
+That seemed consistent with what happens after a major heart attack. Dead heart muscle is largely replaced by scar tissue instead of being rebuilt as new working muscle.
 
-The estimated renewal rate is low—about 1% per year in younger adults and declining with age—and studies differ on the exact numbers. That is enough to overturn the absolute claim of zero replacement, but nowhere near enough to regenerate the large mass of muscle destroyed in a major infarction. Limited normal turnover and clinically useful heart regeneration are very different things.
+The problem was that extremely slow cell renewal is difficult to measure in a living human heart. Researchers found an unusual clock in atmospheric carbon-14. Above-ground nuclear tests during the Cold War caused a sharp, well-dated rise in carbon-14 in the atmosphere. When a cell makes new DNA, it incorporates carbon from that time.
+
+By measuring carbon-14 in the DNA of heart-muscle cells and comparing it with the atmospheric record, researchers could estimate when those cells were formed. In 2009, this showed that some adult cardiomyocytes were younger than the people carrying them.
+
+The estimated renewal rate is low—about 1% per year in younger adults and less with age—and exact estimates vary. That is enough to overturn the claim of no renewal, but nowhere near enough to regenerate the muscle lost in a major heart attack.

@@ -1,7 +1,7 @@
 ---
 claim: "Adult mammalian brains cannot produce new neurons."
-currentUnderstanding: "Adult neurogenesis occurs in limited brain regions in many animals. How much continues in adult humans, especially later in life, remains actively debated."
-whyItChanged: "Cell-labeling methods, microscopy, and molecular markers showed that new neurons can be produced and integrated after development in birds and mammals."
+currentUnderstanding: "Adult brains can produce new neurons, a process called neurogenesis, in limited regions in many animals. How much new-neuron formation continues in adult humans—especially later in life—remains actively debated."
+whyItChanged: "New neurons are rare and difficult to identify in mature brain tissue. Beginning in the 1960s, cell-labeling experiments and later improved microscopy and molecular markers showed that newly formed neurons can survive and join existing brain circuits in adult birds and mammals."
 status: "Overturned"
 category: "Neuroscience"
 acceptedApproximately: "Late 19th–mid-20th century"
@@ -9,7 +9,7 @@ acceptedYear: 1885
 changedApproximately: "1960s–1990s"
 timelineYear: 1965
 lifespanComparable: false
-summary: "The absolute rule that adult brains never make new neurons was overturned, although the extent in adult humans remains uncertain."
+summary: "Adult brains can make some new neurons, although how much this happens in adult humans remains uncertain."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
@@ -33,8 +33,10 @@ sources:
     note: "Notes that important questions remain about neurogenesis in the adult human brain."
 ---
 
-For much of the 20th century, mature nervous tissue was treated as essentially finished: neurons lost during adulthood might be compensated for by other cells or connections, but not replaced by newly born neurons. That view fit the apparent stability of adult brain anatomy and the difficulty of observing rare cell birth in intact tissue.
+For much of the twentieth century, the mature brain was treated as essentially finished. Neurons lost during adulthood might be compensated for by changes in other cells or connections, but they were not expected to be replaced by newly born neurons.
 
-Beginning in the 1960s, radioactive cell-labeling experiments reported newly generated neurons in adult mammalian brains. Later work in birds and mammals, using improved microscopy and molecular markers, showed that new neurons could survive and become incorporated into existing circuits. The old absolute rule therefore failed even before the harder question of adult human neurogenesis was settled.
+The difficulty was that new-neuron formation is rare and hard to see directly. Beginning in the 1960s, researchers used cell-labeling methods that mark cells when they divide. They found newly generated neurons in adult mammalian brains.
 
-That human question remains unusually contentious. Studies disagree about how much neurogenesis persists in the adult hippocampus and how strongly it declines with age. The correction is consequently narrower than the popular slogan that the adult human brain is constantly growing large numbers of new neurons: adult neurogenesis clearly exists in several animals, while its extent in humans remains debated.
+Later microscopy and molecular markers made the evidence stronger. In several birds and mammals, new neurons formed after development can survive and become part of existing neural circuits. This process is called adult neurogenesis.
+
+The human case is less settled. Studies disagree about how much neurogenesis continues in the adult hippocampus, a brain region important for memory, and how sharply it declines with age. The old absolute claim—that adult brains cannot make new neurons at all—has failed. The amount of new-neuron formation in adult humans remains an open question.

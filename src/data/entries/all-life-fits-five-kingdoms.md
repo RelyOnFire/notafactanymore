@@ -1,14 +1,14 @@
 ---
 claim: "All living things fit naturally into five kingdoms: animals, plants, fungi, protists, and monerans."
-currentUnderstanding: "The five-kingdom system remains useful historically and educationally, but it does not accurately represent all major evolutionary relationships. Modern classifications use domains and multiple eukaryotic supergroups."
-whyItChanged: "Whittaker's five kingdoms became a standard textbook framework in the late 20th century. Molecular phylogeny separated archaea from bacteria and showed that 'Protista' contains many unrelated lineages."
+currentUnderstanding: "The five-kingdom system—animals, plants, fungi, protists, and monerans—does not accurately represent all major evolutionary relationships. DNA and RNA comparisons showed that organisms once grouped together as Monera actually include two very different lineages, Bacteria and Archaea, while 'Protista' contains many distantly related branches."
+whyItChanged: "The five kingdoms were built mainly from cell structure, nutrition, and visible form. Molecular phylogeny—reconstructing ancestry by comparing DNA or RNA sequences—revealed relationships that those features had hidden. Archaea separated from Bacteria, and the protists broke into many different evolutionary groups."
 status: "Superseded"
 category: "Evolution"
 acceptedApproximately: "Late 1960s–1990s"
 acceptedYear: 1968
 changedApproximately: "1970s–present"
 timelineYear: 1977
-summary: "A standard five-kingdom map of life gave way to molecular trees with three domains and many eukaryotic lineages."
+summary: "DNA and RNA comparisons broke apart two of the five traditional kingdoms and produced a branching tree of life with three domains and many eukaryotic lineages."
 featured: false
 publishedAt: "2026-07-28"
 reviewedAt: "2026-08-20"
@@ -30,16 +30,14 @@ sources:
     note: "Presents a molecularly informed classification using multiple eukaryotic clusters."
 ---
 
-Robert Whittaker's five-kingdom system solved real problems in older taxonomy. Fungi no longer had to be treated as plants, and microorganisms could be divided more meaningfully among Monera and Protista.
+Robert Whittaker's five-kingdom system was a major improvement over older classifications. Animals, plants, and fungi were separated from one another, while most organisms without a cell nucleus were placed in Monera and many other mostly microscopic organisms in Protista.
 
-By the late twentieth century, the five kingdoms became a standard textbook map of life.
+By the late twentieth century, this became a standard textbook map of life.
 
-Molecular phylogeny changed the map because DNA and RNA sequences allowed relationships to be inferred directly from shared ancestry rather than mainly from visible form.
+The problem was that looking similar does not always mean sharing a close evolutionary history. Researchers increasingly compared DNA and RNA sequences instead. Because related organisms inherit those sequences from common ancestors, the similarities and differences can be used to reconstruct a family tree of life. This approach is called molecular phylogeny.
 
-The old kingdom Monera split dramatically when archaea proved to represent a deep lineage distinct from bacteria. Protista fractured as well: organisms grouped together because they were mostly microscopic eukaryotes turned out to belong to many different branches.
+The old kingdom Monera split dramatically. Organisms without nuclei that had all been treated as bacteria turned out to contain two deeply different lineages: Bacteria and Archaea.
 
-Modern classifications therefore use domains and multiple eukaryotic supergroups rather than one universally accepted set of five kingdoms.
+Protista also came apart. It had served as a convenient home for many organisms that were neither animals, plants, nor fungi, but molecular family trees showed that these organisms belonged to many different branches rather than one natural group.
 
-There is no single sacred number of kingdoms today because taxonomic ranks are partly conventional.
-
-The robust scientific change is evolutionary: Monera and Protista do not each represent one coherent natural branch of the tree of life.
+Modern classification therefore uses three domains—Bacteria, Archaea, and Eukarya—along with multiple major groups within the eukaryotes. There is no single universally required number of kingdoms today. The important change is that the five old kingdoms do not map cleanly onto the evolutionary tree.

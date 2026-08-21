@@ -1,7 +1,7 @@
 ---
 claim: "The central nervous system has no conventional lymphatic vessels."
-currentUnderstanding: "Functional lymphatic vessels exist in the meninges surrounding the brain and connect cerebrospinal-fluid and immune drainage pathways to cervical lymph nodes."
-whyItChanged: "High-resolution imaging and tracer studies in 2015 independently identified dural lymphatic vessels that had been overlooked in standard anatomical preparations."
+currentUnderstanding: "Functional lymphatic vessels exist in the meninges, the protective membranes surrounding the brain. They help drain fluid and immune material toward lymph nodes in the neck. This is different from having a dense lymphatic network running through the brain tissue itself."
+whyItChanged: "The vessels are thin and lie in the membranes around the brain, which made them easy to miss in standard anatomical preparations. In 2015, high-resolution imaging and tracer experiments independently showed fluid and immune material moving through these meningeal lymphatic vessels toward cervical lymph nodes."
 status: "Overturned"
 category: "Neuroscience"
 acceptedApproximately: "Modern neuroanatomy before 2015"
@@ -9,7 +9,7 @@ acceptedYear: 1850
 changedApproximately: "2015"
 timelineYear: 2015
 lifespanComparable: false
-summary: "An anatomical absence taught for generations was overturned by the identification of functional meningeal lymphatic vessels."
+summary: "Lymphatic vessels were found in the membranes surrounding the brain, overturning the long-taught claim that the central nervous system had none."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
@@ -33,6 +33,14 @@ sources:
     note: "Reviews the anatomy and functions of meningeal lymphatic vessels."
 ---
 
-These vessels are in the meninges and associated structures, not a dense lymphatic network running through brain tissue in the same pattern seen in many peripheral organs.
+The lymphatic system is a network of vessels that drains excess fluid from tissues and helps move immune cells and other material toward lymph nodes. For generations, standard anatomy taught that the central nervous system lacked conventional lymphatic vessels.
 
-Historical anatomists had reported possible meningeal lymphatics earlier, but the finding was not integrated into mainstream modern anatomy until new methods confirmed it.
+That claim was too broad.
+
+The vessels are not spread densely through brain tissue in the same way lymphatics run through many other organs. Instead, they lie in the meninges—the membranes surrounding the brain—and connect drainage around the brain with lymph nodes in the neck.
+
+Earlier anatomists had occasionally described structures that might have been meningeal lymphatics, but the finding did not become part of mainstream modern anatomy.
+
+In 2015, two research groups independently used high-resolution imaging and tracer experiments to show functional lymphatic vessels in the dura, one of the outer meningeal layers. Tracers placed around the brain could move through these vessels toward cervical lymph nodes.
+
+The discovery did not mean that the brain itself contains an ordinary peripheral-style lymphatic network. It showed that the central nervous system is connected to conventional lymphatic drainage through vessels in its surrounding membranes.

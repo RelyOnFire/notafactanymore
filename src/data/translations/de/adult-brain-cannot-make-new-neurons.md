@@ -3,19 +3,21 @@ locale: de
 entryId: adult-brain-cannot-make-new-neurons
 sourceReviewedAt: "2026-08-20"
 claim: Das Gehirn erwachsener Säugetiere kann keine neuen Nervenzellen bilden.
-currentUnderstanding: Bei vielen Tieren findet in begrenzten Hirnregionen auch im Erwachsenenalter Neurogenese statt. Wie viel davon beim erwachsenen Menschen, insbesondere im höheren Alter, weiterbesteht, wird weiterhin intensiv diskutiert.
-whyItChanged: Zellmarkierungsmethoden, Mikroskopie und molekulare Marker zeigten, dass bei Vögeln und Säugetieren auch nach Abschluss der Entwicklung neue Nervenzellen entstehen, überleben und in bestehende Schaltkreise eingebaut werden können.
+currentUnderstanding: "Erwachsene Gehirne können in begrenzten Regionen neue Nervenzellen bilden; dieser Vorgang heißt Neurogenese. Bei vielen Tierarten ist das klar belegt. Wie viel Neubildung beim erwachsenen Menschen – besonders im höheren Alter – weiter stattfindet, wird weiterhin intensiv diskutiert."
+whyItChanged: "Neue Nervenzellen entstehen selten und sind in reifem Hirngewebe schwer zu erkennen. Ab den 1960er-Jahren zeigten Zellmarkierungen und später bessere Mikroskopie und molekulare Marker, dass neu gebildete Neuronen bei erwachsenen Vögeln und Säugetieren überleben und in bestehende Netzwerke eingebaut werden können."
 acceptedApproximately: Spätes 19. bis Mitte des 20. Jahrhunderts
 changedApproximately: 1960er- bis 1990er-Jahre
-summary: Die absolute Regel, dass erwachsene Gehirne niemals neue Nervenzellen bilden, wurde widerlegt; wie stark die Neurogenese beim erwachsenen Menschen ist, bleibt jedoch umstritten.
+summary: "Erwachsene Gehirne können einige neue Nervenzellen bilden; wie stark dieser Vorgang beim erwachsenen Menschen ist, bleibt jedoch unsicher."
 sourceNotes:
 - Erläutert, dass die Vorstellung, Nervenzellen würden nur während der Entwicklung gebildet, trotz früher Gegenbelege lange fortbestand.
 - Beschreibt, wie die Neurogenese bei erwachsenen Säugetieren ein lange geltendes Dogma widerlegte.
 - Weist darauf hin, dass zur Neurogenese im erwachsenen menschlichen Gehirn weiterhin wichtige Fragen offen sind.
 ---
 
-Über weite Teile des 20. Jahrhunderts galt reifes Nervengewebe als im Wesentlichen fertiggestellt: Nervenzellen, die im Erwachsenenalter verloren gingen, konnten vielleicht durch andere Zellen oder veränderte Verschaltungen teilweise kompensiert werden, aber nicht durch neu entstandene Neuronen ersetzt werden. Dieses Bild passte zur scheinbaren Stabilität der Anatomie des erwachsenen Gehirns und dazu, dass seltene Zellneubildung im intakten Gewebe kaum zu beobachten war.
+Über weite Teile des 20. Jahrhunderts galt das erwachsene Gehirn als im Wesentlichen fertig. Nervenzellen, die im Erwachsenenalter verloren gingen, konnten vielleicht durch veränderte Verschaltungen oder andere Zellen teilweise kompensiert werden, aber nicht durch neu entstandene Neuronen ersetzt werden.
 
-Ab den 1960er-Jahren lieferten radioaktive Zellmarkierungen Hinweise auf neu entstandene Nervenzellen in Gehirnen erwachsener Säugetiere. Spätere Arbeiten an Vögeln und Säugetieren zeigten mit besserer Mikroskopie und molekularen Markern, dass neue Neuronen überleben und in vorhandene neuronale Netzwerke integriert werden können. Damit war die absolute Regel bereits widerlegt, noch bevor die schwierigere Frage der Neurogenese beim erwachsenen Menschen geklärt war.
+Das Problem war, dass die Neubildung von Nervenzellen selten und direkt nur schwer zu beobachten ist. Ab den 1960er-Jahren verwendeten Forschende Zellmarkierungen, die Zellen kennzeichnen, wenn sie sich teilen. Dabei fanden sie neu entstandene Nervenzellen in Gehirnen erwachsener Säugetiere.
 
-Gerade diese Frage bleibt ungewöhnlich kontrovers. Studien kommen zu unterschiedlichen Ergebnissen darüber, wie viel Neurogenese im erwachsenen Hippocampus fortbesteht und wie stark sie mit dem Alter abnimmt. Die Korrektur ist deshalb enger als die populäre Vorstellung, das erwachsene menschliche Gehirn bilde ständig große Mengen neuer Nervenzellen: Bei mehreren Tierarten ist adulte Neurogenese klar belegt; ihr Ausmaß beim Menschen bleibt umstritten.
+Spätere Mikroskopie und molekulare Marker verstärkten die Belege. Bei mehreren Vogel- und Säugetierarten können nach Abschluss der Entwicklung neue Neuronen entstehen, überleben und Teil bestehender neuronaler Netzwerke werden. Dieser Vorgang heißt adulte Neurogenese.
+
+Beim Menschen ist die Lage weniger eindeutig. Studien kommen zu unterschiedlichen Ergebnissen darüber, wie viel Neurogenese im erwachsenen Hippocampus – einer für das Gedächtnis wichtigen Hirnregion – fortbesteht und wie stark sie mit dem Alter abnimmt. Die alte absolute Behauptung, erwachsene Gehirne könnten überhaupt keine neuen Neuronen bilden, ist widerlegt. Das genaue Ausmaß beim erwachsenen Menschen bleibt offen.

@@ -1,14 +1,14 @@
 ---
 claim: "Bacteria are unstructured bags of enzymes with no cytoskeleton or organized interior."
-currentUnderstanding: "Bacteria organize cell division, shape, chromosome movement, transport, metabolism, and specialized compartments using cytoskeletal proteins and other spatial systems."
-whyItChanged: "Their tiny size and featureless appearance under ordinary light microscopes encouraged a simple mixed-bag model. Molecular genetics, fluorescence microscopy, and cryo-electron tomography revealed actin-like, tubulin-like, and other structural systems."
+currentUnderstanding: "Bacteria have organized interiors. They use structural proteins to control cell shape, position internal components, and organize cell division. Some of these proteins are relatives of actin and tubulin, major parts of the cytoskeleton in animal and plant cells."
+whyItChanged: "Bacteria are so small that ordinary light microscopes once made their interiors look almost featureless. Genetics and improved imaging later revealed proteins such as FtsZ, which forms a ring where a bacterium divides, and MreB, an actin-like protein that helps organize cell shape."
 status: "Overturned"
 category: "Microbiology"
 acceptedApproximately: "Late 19th–late 20th century"
 acceptedYear: 1885
 changedApproximately: "1990s–present"
 timelineYear: 1995
-summary: "New imaging turned the bacterial cell from a featureless sack into a spatially organized microscopic system."
+summary: "Improved imaging and genetics showed that bacteria use internal structural systems rather than being featureless bags of enzymes."
 featured: false
 publishedAt: "2026-07-28"
 reviewedAt: "2026-08-20"
@@ -30,8 +30,10 @@ sources:
     note: "Reviews bacterial cytoskeletons, compartments, and other mechanisms of internal organization."
 ---
 
-For most of the 20th century, the contrast seemed obvious: eukaryotic cells had organelles and a cytoskeleton, while bacteria looked like tiny, nearly featureless bags of enzymes. Their small size put much of their internal organization below the resolution of ordinary light microscopy, reinforcing the idea that little spatial structure was there to see.
+For much of the twentieth century, the contrast between complex cells and bacteria seemed obvious. Animal and plant cells contained visible internal structures and a cytoskeleton—a framework of proteins that helps organize the cell. Bacteria looked like tiny, almost featureless bags of enzymes.
 
-That picture broke down as genetics and new imaging methods made bacterial proteins visible inside living cells. FtsZ, a relative of tubulin, forms a ring that helps organize cell division; MreB and related actin-like proteins help control cell shape and spatial organization. Other systems position chromosomes, enzymes, protein complexes, and specialized compartments.
+Their size was part of the problem. Many bacterial structures are too small to resolve with ordinary light microscopes, so an organized interior could easily look empty.
 
-Bacteria still generally lack the large membrane-bound organelles familiar from animal and plant cells. Their interiors are organized differently and on a smaller scale—not unstructured.
+Genetics and better imaging changed that picture. The bacterial protein FtsZ, a relative of the tubulin used in the cytoskeleton of animal and plant cells, forms a ring where a bacterium is about to divide. Another protein, MreB, is related to actin and helps organize cell shape.
+
+Other bacterial systems position chromosomes, enzymes, protein complexes, and specialized compartments inside the cell. Bacteria generally do not have the same large membrane-bound organelles found in animal and plant cells, but their interiors are not unstructured. They are organized on a smaller scale and in different ways.

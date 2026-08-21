@@ -3,21 +3,25 @@ locale: de
 entryId: cfcs-cannot-damage-ozone-layer
 sourceReviewedAt: "2026-08-20"
 claim: Chemisch sehr stabile FCKW, die in Bodennähe freigesetzt werden, können die Ozonschicht in der Stratosphäre nicht schädigen.
-currentUnderstanding: FCKW sind in der unteren Atmosphäre so langlebig, dass sie bis in die Stratosphäre gelangen. Dort spaltet ultraviolettes Licht Chlor ab, das Ozon katalytisch abbauen kann.
-whyItChanged: Gerade die chemische Stabilität, die FCKW technisch so nützlich machte, ließ sie zunächst harmlos erscheinen. Molina und Rowland zeigten 1974, dass diese Stabilität den Transport in die Stratosphäre ermöglicht. Spätere Messungen der Chlorchemie und das antarktische Ozonloch bestätigten den großräumigen Ozonabbau.
+currentUnderstanding: "FCKW – Fluorchlorkohlenwasserstoffe, die früher häufig als Kältemittel und Treibgase eingesetzt wurden – sind in Bodennähe so stabil, dass sie lange genug überleben, um die Stratosphäre zu erreichen. Dort zerlegt ultraviolettes Sonnenlicht die Moleküle und setzt Chlor frei, das in wiederholten Reaktionen viele Ozonmoleküle zerstören kann."
+whyItChanged: "Gerade die chemische Stabilität, die FCKW sicher erscheinen ließ, sorgte dafür, dass sie jahrelang bestehen und nach oben gelangen konnten. Molina und Rowland zeigten 1974, wie UV-Licht in der Stratosphäre Chlor aus FCKW freisetzen kann. Spätere Messungen und das antarktische Ozonloch bestätigten die großräumige Wirkung."
 acceptedApproximately: 1930er- bis 1970er-Jahre
 changedApproximately: 1974 bis 1980er-Jahre
-summary: Die große Stabilität von FCKW lässt sie die Stratosphäre erreichen, wo Sonnenlicht ozonabbauendes Chlor freisetzt.
+summary: "FCKW wirkten wegen ihrer Stabilität harmlos; genau diese Stabilität ließ sie die Stratosphäre erreichen und ozonabbauendes Chlor freisetzen."
 sourceNotes:
 - Beschreibt die Theorie von Molina und Rowland und die Belege dafür, dass Chlor aus FCKW zum Ozonabbau beiträgt.
 - Fasst den Transport von FCKW, ihre Spaltung durch UV-Strahlung, die katalytische Wirkung von Chlor und wichtige Beobachtungen zusammen.
 - Erläutert die wissenschaftlichen Belege, die politische Reaktion und die Erholung der Ozonschicht unter dem Montrealer Protokoll.
 ---
 
-FCKW wirkten aus gutem Grund ungewöhnlich sicher: Sie waren stabil, nicht brennbar und in der unteren Atmosphäre bemerkenswert reaktionsträge. Genau diese Eigenschaften machten sie als Kältemittel und Treibgase attraktiv. Ein offensichtlicher chemischer Weg von einer Freisetzung nahe der Erdoberfläche zu Schäden hoch oben in der Stratosphäre war zunächst nicht erkennbar.
+FCKW, also Fluorchlorkohlenwasserstoffe, wirkten zunächst ungewöhnlich sicher. Sie waren stabil, nicht brennbar und reagierten nahe der Erdoberfläche kaum mit anderen Stoffen. Deshalb wurden sie häufig als Kältemittel, Treibgase und Industriechemikalien eingesetzt.
 
-Mario Molina und F. Sherwood Rowland machten 1974 gerade diese Stabilität zum Problem. Sie argumentierten, dass FCKW-Moleküle jahrelang überleben, langsam nach oben gelangen und schließlich auf energiereiche UV-Strahlung treffen können, die sie zerlegt. Dabei freigesetzte Chloratome können Ozon katalytisch zerstören und werden in der Reaktion immer wieder regeneriert.
+Gerade diese Stabilität wurde zum Problem.
 
-Messungen der stratosphärischen Chlorchemie und die Entdeckung des antarktischen Ozonlochs machten aus der theoretischen Sorge eine beobachtete Umweltwirkung.
+Mario Molina und F. Sherwood Rowland argumentierten 1974, dass FCKW-Moleküle in der unteren Atmosphäre jahrelang überleben können. Dadurch bleibt genug Zeit, damit sie sich bis in die Stratosphäre verteilen – jene Atmosphärenschicht, in der der größte Teil des schützenden Ozons liegt.
 
-Ein Teil der älteren Beschreibung war also richtig: FCKW sind in der unteren Atmosphäre tatsächlich sehr reaktionsträge. Genau diese Beständigkeit ermöglicht ihnen jedoch, jene Höhen zu erreichen, in denen sie schädlich werden.
+Dort kann energiereicheres ultraviolettes Sonnenlicht ein FCKW-Molekül aufbrechen und Chlor freisetzen. Das Chlor zerstört nicht nur ein einziges Ozonmolekül und verschwindet danach. Es kann an einer Reaktionskette teilnehmen, bei der Ozon abgebaut und das Chlor anschließend wieder freigesetzt wird.
+
+Messungen der Chlorchemie in der Stratosphäre und die Entdeckung des antarktischen Ozonlochs bestätigten später, dass dieser Prozess Ozon in sehr großem Maßstab abbauen kann.
+
+Die ältere Beobachtung war teilweise richtig: FCKW sind in Bodennähe tatsächlich ungewöhnlich reaktionsträge. Der Fehler war die Annahme, chemische Stabilität bedeute überall in der Atmosphäre Umweltverträglichkeit.

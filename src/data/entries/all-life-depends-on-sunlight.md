@@ -1,7 +1,7 @@
 ---
 claim: "Food webs were expected to depend ultimately on photosynthetic primary production powered by sunlight."
-currentUnderstanding: "Some ecosystems instead begin with chemosynthetic primary production. Microorganisms can obtain energy from chemical reactions involving sulfur compounds, hydrogen, methane, and other substances, supporting food webs in places where sunlight cannot drive photosynthesis."
-whyItChanged: "The 1977 discovery of dense animal communities at Galápagos hydrothermal vents revealed food webs whose local primary production was powered by chemical energy. Subsequent work identified chemoautotrophic microorganisms associated with vent animals."
+currentUnderstanding: "Some ecosystems do not begin with sunlight. Certain microorganisms can make organic matter using energy released by chemical reactions rather than photosynthesis. This process, called chemosynthesis, can support entire food webs in dark environments such as deep-sea hydrothermal vents."
+whyItChanged: "In 1977, scientists found dense communities of tube worms, clams, and other animals around hydrothermal vents on the Galápagos Rift, far below the reach of sunlight. Researchers later showed that microorganisms there were using chemical energy from vent fluids to make organic matter, providing the base of the local food web."
 status: "Overturned"
 category: "Ocean Science"
 acceptedApproximately: "Before the discovery of hydrothermal-vent ecosystems"
@@ -9,7 +9,7 @@ acceptedYear: 1850
 changedApproximately: "1977–early 1980s"
 timelineYear: 1977
 lifespanComparable: false
-summary: "Hydrothermal-vent ecosystems showed that primary production can be powered by chemical energy instead of sunlight."
+summary: "Deep-sea vent ecosystems showed that a food web can begin with chemical energy instead of sunlight."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
@@ -33,8 +33,12 @@ sources:
     note: "Describes vent communities that depend on chemical processes involving seawater and hot magma."
 ---
 
-For most ecologists, the familiar route into a food web began with sunlight. Plants and algae captured solar energy, herbivores ate them, and predators followed. Even organisms in the deep sea were commonly understood as depending on organic material that ultimately rained down from photosynthetic life above.
+The familiar route into a food web begins with sunlight. Plants and algae use photosynthesis to turn light energy into organic matter. Herbivores eat them, predators eat the herbivores, and even much of the deep sea depends on organic material that eventually sinks down from sunlit waters.
 
-The 1977 expedition to the Galápagos Rift encountered something that did not fit that picture: dense communities of giant tube worms, clams, and other animals clustered around hydrothermal vents far below the reach of sunlight. The animals were not surviving on an unexpectedly large shower of surface food. Subsequent work showed that microorganisms were using chemical energy from reduced compounds in vent fluids to fix carbon, and that some vent animals lived in close symbiosis with these chemoautotrophic microbes.
+In 1977, scientists exploring the Galápagos Rift found something unexpected. Around deep-sea hydrothermal vents—cracks where hot, mineral-rich water emerges from the seafloor—they found dense communities of giant tube worms, clams, and other animals. No sunlight reaches those depths.
 
-Chemosynthesis was not itself invented in 1977; microorganisms capable of obtaining energy from inorganic chemical reactions had been studied much earlier. What changed was the recognized ecological scale of the process. An entire rich animal community could be supported by local primary production that did not begin with photosynthesis. Most ecosystems still depend ultimately on sunlight, but sunlight is not a universal prerequisite for primary production.
+The animals were not simply living on an unusually large supply of food falling from above. Microorganisms around the vents were using energy from chemical reactions involving substances such as hydrogen sulfide to make organic matter from carbon dioxide. That process is called chemosynthesis.
+
+Some vent animals feed on these microorganisms; others house them inside their bodies and depend on them directly. In either case, chemical energy from the vent can form the base of the food web.
+
+Chemosynthesis itself was known before 1977. What the vents revealed was how large and complex an ecosystem could be without local photosynthesis. Most ecosystems still depend ultimately on sunlight, but not all of them do.

@@ -1,7 +1,7 @@
 ---
 claim: "Bone is primarily a structural and mineral-regulating organ, not an endocrine organ that signals to distant tissues."
-currentUnderstanding: "Bone is a dynamic organ that continually remodels and also participates in endocrine signaling. Bone-derived factors such as FGF23 have established systemic roles, while proposed osteocalcin-mediated effects on metabolism and other organs remain an active area of research, especially in humans."
-whyItChanged: "Bone remodeling and cellular activity were already well established before the endocrine shift. What changed in the late 20th and early 21st centuries was evidence that skeletal cells release factors with hormone-like actions on distant organs, expanding the skeleton’s role beyond mechanics, marrow, and mineral homeostasis."
+currentUnderstanding: "Bone is not only structural tissue. It is constantly rebuilt, stores and releases minerals, produces blood cells in its marrow, and also sends chemical signals to distant organs. One well-established example is FGF23, a hormone made mainly by bone cells that helps the kidneys control phosphate and vitamin D."
+whyItChanged: "Researchers already knew that bone was living, active tissue. What changed was the discovery that bone cells also release substances into the bloodstream that act on distant organs. FGF23 provided clear evidence that the skeleton participates in endocrine signaling, while some broader proposed hormone effects remain less certain."
 status: "Superseded"
 category: "Medicine"
 acceptedApproximately: "20th-century physiology before the endocrine role of bone was established"
@@ -9,7 +9,7 @@ acceptedYear: 1950
 changedApproximately: "Late 20th century–2000s"
 timelineYear: 2007
 lifespanComparable: false
-summary: "Bone was already understood as living, dynamic tissue before researchers established its additional role as an endocrine signaling organ."
+summary: "Bone was already known to be living tissue; later research added another role, showing that it also sends hormone-like signals to distant organs."
 featured: false
 publishedAt: "2026-07-27"
 reviewedAt: "2026-08-20"
@@ -33,8 +33,12 @@ sources:
     note: "Reviews bone as a living endocrine organ involved in whole-body physiology."
 ---
 
-By the late 20th century, physiologists certainly did not regard bone as literally dead material. Bone remodeling, calcium and phosphate storage, marrow, fracture repair, osteoblasts, and osteoclasts were all established biology. The narrower assumption was that the skeleton's systemic roles were largely mechanical, hematopoietic, and mineral-regulatory—not that bone cells also behaved as an endocrine signaling system.
+Bone was never simply dead scaffolding. Long before the endocrine idea emerged, researchers knew that bone is constantly broken down and rebuilt, stores calcium and phosphate, contains marrow, and repairs itself after fractures.
 
-That boundary blurred when researchers identified molecules made in bone that act on distant organs. FGF23 became a particularly clear example: produced chiefly by bone cells, it circulates to the kidney and helps control phosphate and vitamin-D metabolism. Work in the 2000s on osteocalcin proposed still broader effects on metabolism and other tissues, helping popularize the concept of bone as an endocrine organ.
+The narrower old assumption was that the skeleton's main jobs were structural, mineral, and blood-cell related. It was not generally treated as an organ that also sends hormone-like signals to distant parts of the body.
 
-The strength of the evidence is not equal for every proposed bone hormone. FGF23 has an established systemic role; several osteocalcin effects remain more contested in humans than early animal studies suggested.
+That changed as researchers identified molecules made by bone cells that circulate through the blood. FGF23 is one of the clearest examples. Bone cells release it, and it acts mainly on the kidneys to help control phosphate levels and vitamin-D metabolism.
+
+Research on another bone-derived molecule, osteocalcin, suggested wider effects on metabolism and other organs, especially in animal studies. Some of those proposed effects remain less certain in humans.
+
+So the change was not from "dead bone" to "living bone." Bone was already known to be living and dynamic. The newer idea is that the skeleton also participates in endocrine signaling.

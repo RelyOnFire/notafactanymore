@@ -3,19 +3,25 @@ locale: de
 entryId: cervical-cancer-unrelated-to-infection
 sourceReviewedAt: "2026-08-20"
 claim: Gebärmutterhalskrebs hat nichts mit einer Virusinfektion zu tun.
-currentUnderstanding: Eine anhaltende Infektion mit Hochrisiko-Typen des humanen Papillomavirus ist die notwendige Ursache nahezu aller Fälle von Gebärmutterhalskrebs, auch wenn die meisten HPV-Infektionen von selbst verschwinden und keinen Krebs verursachen.
-whyItChanged: In den 1980er-Jahren wurde HPV-DNA in Gebärmutterhalstumoren gefunden. Labor- und epidemiologische Studien zeigten anschließend, wie Hochrisiko-Typen zelluläre Kontrollmechanismen stören und Gebärmutterhalskrebs stark vorhersagen.
+currentUnderstanding: "Nahezu alle Fälle von Gebärmutterhalskrebs werden durch eine anhaltende Infektion mit Hochrisiko-Typen des humanen Papillomavirus, kurz HPV, verursacht. HPV ist sehr häufig und die meisten Infektionen verschwinden von selbst; bleiben bestimmte Hochrisiko-Typen jedoch bestehen, können sie nach und nach die Kontrolle über das Wachstum von Zellen am Gebärmutterhals stören."
+whyItChanged: "In den 1980er-Jahren fand die Arbeitsgruppe von Harald zur Hausen DNA bestimmter HPV-Typen in Gebärmutterhalskrebsgewebe. Spätere Labor- und Bevölkerungsstudien zeigten, dass eine anhaltende Infektion mit diesen Hochrisiko-Typen die zentrale Ursache der Erkrankung ist."
 acceptedApproximately: Vor den 1980er-Jahren
 changedApproximately: 1980er- bis 1990er-Jahre
-summary: Ein häufiger Krebs wurde gezielt vermeidbar, nachdem seine zentrale virale Ursache etabliert war.
+summary: "Eine anhaltende Infektion mit bestimmten HPV-Typen erwies sich als zentrale Ursache nahezu aller Fälle von Gebärmutterhalskrebs."
 sourceNotes:
 - Verfolgt die Identifizierung von HPV in Gebärmutterhalstumoren und die Experimente, die seine ursächliche Rolle etablierten.
 - Dokumentiert die Entdeckung von HPV-16- und HPV-18-DNA in einem großen Anteil von Gebärmutterhalskrebserkrankungen im Jahr 1984.
 - Erklärt, dass nahezu alle Fälle von Gebärmutterhalskrebs durch HPV verursacht werden und wie Impfungen vorbeugen können.
 ---
 
-Gebärmutterhalskrebs hatte lange Hinweise darauf geliefert, dass eine Infektion eine Rolle spielen könnte. Ärzte des 19. Jahrhunderts bemerkten Muster, die mit sexueller Exposition zusammenhingen, doch die Epidemiologie konnte keinen Erreger identifizieren, und verschiedene infektiöse Erklärungen kamen und gingen. Mitte des 20. Jahrhunderts ließ sich die Erkrankung keinem bestimmten Virus zuordnen; später rückte zeitweise Herpes-simplex-Virus Typ 2 statt Papillomaviren in den Fokus.
+Gebärmutterhalskrebs hatte lange Hinweise auf eine infektiöse Ursache geliefert. Die Häufigkeit hing mit Mustern sexueller Exposition zusammen, doch über Jahrzehnte ließ sich kein bestimmter Erreger identifizieren.
 
-Harald zur Hausen schlug vor, dass bestimmte humane Papillomaviren verantwortlich sein könnten. Seine Arbeitsgruppe isolierte 1983 HPV16-DNA aus Gebärmutterhalskrebsgewebe und kurz darauf HPV18. Molekulare Arbeiten zeigten, dass Gene von Hochrisiko-HPV zentrale Kontrollen der Zellvermehrung stören können, während große epidemiologische Studien eine anhaltende Infektion mit Hochrisiko-HPV als zentrale kausale Voraussetzung für Gebärmutterhalskrebs etablierten.
+Harald zur Hausen schlug vor, dass bestimmte Typen des humanen Papillomavirus verantwortlich sein könnten. HPV bezeichnet eine große Familie von Viren, die Haut und Schleimhäute infizieren. Die meisten Infektionen sind vorübergehend und führen nicht zu Krebs.
 
-Diese Entdeckung veränderte nicht nur die Erklärung, sondern auch die Prävention: HPV-Tests und Impfungen können die Kausalkette unterbrechen, bevor Krebs entsteht. Die meisten HPV-Infektionen verschwinden dennoch spontan – eine Infektion bedeutet also keineswegs, dass Krebs unvermeidlich ist.
+1983 fand zur Hausens Arbeitsgruppe HPV16-DNA in Gebärmutterhalskrebsgewebe, kurz darauf auch HPV18. Diese und mehrere verwandte Typen werden heute als Hochrisiko-HPV bezeichnet, weil eine anhaltende Infektion Proteine stören kann, die normalerweise Zellteilung kontrollieren und die Vermehrung geschädigter Zellen verhindern.
+
+Große epidemiologische Studien zeigten anschließend, dass eine anhaltende Hochrisiko-HPV-Infektion bei praktisch allen Fällen von Gebärmutterhalskrebs eine zentrale Voraussetzung ist.
+
+Der Unterschied zwischen Infektion und Krebs ist wichtig. HPV-Infektionen sind äußerst häufig und verschwinden meist ohne Behandlung. Krebs entsteht gewöhnlich erst, wenn eine Hochrisiko-Infektion über Jahre bestehen bleibt und weitere Zellveränderungen hinzukommen.
+
+Die Entdeckung veränderte auch die Prävention. Impfungen können Infektionen mit wichtigen Hochrisiko-Typen verhindern, und HPV-Tests können anhaltende Infektionen erkennen, bevor Krebs entsteht.

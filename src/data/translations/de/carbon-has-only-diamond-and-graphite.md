@@ -3,19 +3,25 @@ locale: de
 entryId: carbon-has-only-diamond-and-graphite
 sourceReviewedAt: "2026-08-20"
 claim: Kohlenstoff hat nur zwei echte kristalline Formen – Diamant und Graphit.
-currentUnderstanding: Kohlenstoff bildet viele Allotrope und Nanostrukturen, darunter Fullerene, Graphen, Kohlenstoffnanoröhren, amorphe Formen und mehrere weniger vertraute Strukturen.
-whyItChanged: Diamant und Graphit waren über Generationen hinweg die einzigen weithin anerkannten Allotrope. Die Entdeckung der Fullerene im Jahr 1985 sowie später von Nanoröhren und isoliertem Graphen zeigte neue stabile Anordnungen von Kohlenstoffatomen.
+currentUnderstanding: "Kohlenstoff kann viele Allotrope bilden – unterschiedliche Strukturen, die vollständig aus demselben Element bestehen. Diamant und Graphit sind zwei Beispiele; daneben gibt es Fullerene, Kohlenstoffnanoröhren, Graphen und weitere Strukturen mit sehr unterschiedlichen Formen und Eigenschaften."
+whyItChanged: "Über Generationen waren Diamant und Graphit die einzigen weithin anerkannten kristallinen Allotrope des Kohlenstoffs. Die Entdeckung der Fullerene 1985 zeigte, dass Kohlenstoffatome stabile geschlossene Käfige bilden können; später kamen Nanoröhren und isoliertes Graphen hinzu."
 acceptedApproximately: 18. Jahrhundert bis 1985
 changedApproximately: 1985–2004
-summary: Das einfache Schulbuchbild mit zwei Kohlenstoffformen wuchs zu einer großen Familie molekularer und nanoskaliger Strukturen an.
+summary: "Diamant und Graphit erwiesen sich als nur zwei Mitglieder einer viel größeren Familie von Kohlenstoffstrukturen."
 sourceNotes:
 - Berichtet, dass bis in die 1980er-Jahre nur Diamant und Graphit als Kohlenstoffallotrope anerkannt waren.
 - Datiert die Entdeckung des C60-Fullerens auf 1985 und gibt einen Überblick über die spätere Identifizierung von Nanoröhren und Graphen.
 - Gibt einen Überblick über die moderne Familie von Graphit, Diamant, Graphen, Nanoröhren, Fullerenen und verwandten Kohlenstoffallotropen.
 ---
 
-Über Generationen bedeutete kristalliner Kohlenstoff im Wesentlichen zwei radikal unterschiedliche Materialien aus demselben Element. Im Diamant sitzt jedes Kohlenstoffatom in einem dreidimensionalen Netzwerk; im Graphit bilden die Atome Schichten, die gegeneinander gleiten können. Ruß, Holzkohle und andere amorphe Kohlenstoffformen waren bekannt, doch auf die Frage nach den wichtigsten kristallinen Allotropen lautete die Lehrbuchantwort erstaunlich lange schlicht: Diamant und Graphit.
+Dasselbe chemische Element kann seine Atome manchmal in unterschiedlichen Strukturen anordnen. Solche verschiedenen Strukturformen eines Elements heißen Allotrope.
 
-1985 erzeugten Experimente, bei denen Kohlenstoff verdampft wurde, C60 – einen geschlossenen Käfig aus sechzig Kohlenstoffatomen, der an einen molekularen Fußball erinnert. Die Entdeckung der Fullerene zeigte, dass Kohlenstoff stabile Architekturen außerhalb des alten Zweierbildes bilden kann. Es folgten Kohlenstoffnanoröhren, und 2004 wurde Graphen isoliert – eine einzelne atomare Schicht, die einer Lage des Graphits entspricht. Danach öffnete sich eine weit größere Welt von Kohlenstoff-Nanostrukturen.
+Kohlenstoff lieferte lange das klassische Beispiel. Im Diamant ist jedes Kohlenstoffatom in ein starres dreidimensionales Netzwerk eingebunden. Im Graphit bilden die Atome flache Schichten, die gegeneinander gleiten können. Über Generationen waren dies die beiden wichtigsten kristallinen Kohlenstoffformen in Lehrbüchern.
 
-Nicht jede theoretisch denkbare Kohlenstoffanordnung ist gleich stabil oder experimentell bestätigt. Die entscheidende Korrektur lautet, dass Diamant und Graphit nicht die einzigen strukturell unterschiedlichen Formen von Kohlenstoff sind.
+Dann wurde die Familie größer.
+
+1985 entstanden in Experimenten beim Verdampfen von Kohlenstoff C60-Moleküle: sechzig Kohlenstoffatome, die einen hohlen Käfig bilden, ungefähr in der Form eines Fußballs. Diese Moleküle gehören zu einer neuen Stoffklasse, den Fullerenen.
+
+Später wurden Kohlenstoffnanoröhren beschrieben – winzige Röhren aus Kohlenstoffschichten – und 2004 Graphen isoliert, eine einzige Atomlage in einem flachen Wabenmuster.
+
+Nicht jede vorgeschlagene Kohlenstoffstruktur ist gleich stabil oder gleich gut belegt. Diamant und Graphit sind jedoch eindeutig nicht die einzigen unterschiedlichen Strukturen, die Kohlenstoff bilden kann.

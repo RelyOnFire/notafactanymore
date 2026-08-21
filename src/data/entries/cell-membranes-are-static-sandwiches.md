@@ -1,14 +1,14 @@
 ---
 claim: "Cell membranes are static protein–lipid–protein sandwiches."
-currentUnderstanding: "Biological membranes are dynamic lipid bilayers containing embedded and associated proteins. Their components can move, cluster, interact with cytoskeletons, and form specialized domains."
-whyItChanged: "The Danielli–Davson sandwich and later unit-membrane models interpreted permeability and electron-microscope images as protein layers coating a lipid core. Freeze-fracture microscopy, protein chemistry, and measurements of lateral mobility supported proteins embedded within a fluid bilayer."
+currentUnderstanding: "Cell membranes are flexible double layers of lipid molecules with proteins embedded in or attached to them. The lipids and many proteins can move sideways within the membrane, and cells organize them into changing clusters and specialized regions."
+whyItChanged: "Older models pictured a lipid layer coated on both sides by continuous sheets of protein. Freeze-fracture microscopy instead revealed particles embedded within membranes, and cell-fusion experiments showed membrane proteins moving sideways across the surface. These findings led to the fluid-mosaic model."
 status: "Superseded"
 category: "Cell Biology"
 acceptedApproximately: "1930s–1960s"
 acceptedYear: 1935
 changedApproximately: "1960s–1972"
 timelineYear: 1972
-summary: "The rigid membrane sandwich gave way to a dynamic fluid mosaic of lipids and embedded proteins."
+summary: "The cell membrane changed from a rigid protein-coated sandwich to a flexible lipid layer with mobile, embedded proteins."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,8 +30,14 @@ sources:
     note: "Reviews the static trilayer model, the evidence that displaced it, and later refinements to membrane organization."
 ---
 
-The protein–lipid–protein “sandwich” solved real problems. Danielli and Davson's 1930s model explained how a lipid membrane could coexist with selective permeability, while later electron microscopy seemed to show a universal dark–light–dark trilayer. The resulting unit-membrane picture made proteins look like continuous coatings on the two surfaces of a lipid core.
+Early membrane models tried to explain two things at once: cells clearly had a fatty barrier, but that barrier also had to control what entered and left.
 
-Several lines of evidence stopped fitting. Freeze-fracture microscopy exposed particles within the membrane rather than only on its surfaces. Biochemical studies showed many proteins were deeply embedded in lipid. In 1970, cell-fusion experiments demonstrated that membrane proteins from two cells could mix laterally across the fused surface. Singer and Nicolson brought these findings together in their 1972 fluid-mosaic model: a fluid lipid bilayer with proteins inserted into or associated with it.
+The influential Danielli-Davson model pictured the membrane as a sandwich. A layer of lipids sat in the middle, with continuous layers of protein coating both outer surfaces. Later electron-microscope images seemed to support a neat three-layer structure.
 
-That model has itself been refined. Real membranes are crowded, asymmetric, compartmentalized, attached to cytoskeletons, and organized into domains. What disappeared was the universal static sandwich.
+Several experiments made that picture harder to maintain.
+
+Freeze-fracture microscopy splits a frozen membrane apart along its interior. Instead of showing proteins only as surface coatings, it revealed particles embedded within the membrane itself. Biochemical work likewise showed that many membrane proteins extend deeply into the lipid layer.
+
+Cell-fusion experiments supplied another clue. When two cells with differently labeled membrane proteins were fused, the proteins gradually mixed across the combined surface. The membrane was not a rigid sheet; many of its components could move sideways.
+
+Singer and Nicolson brought these findings together in their 1972 fluid-mosaic model: a flexible lipid bilayer with proteins embedded in or associated with it. Modern membranes are even more organized and crowded than that simple picture suggests, but the universal static sandwich did not survive.

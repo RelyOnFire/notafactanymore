@@ -1,7 +1,7 @@
 ---
 claim: "Synaptic transmission was widely expected to continue electrically across the junction between excitable cells."
-currentUnderstanding: "Most synapses in vertebrate nervous systems transmit information chemically through neurotransmitter release and receptors. Electrical synapses also exist, using gap junctions for direct ionic current."
-whyItChanged: "Loewi's 1921 experiments demonstrated a transferable chemical signal from the vagus nerve to the heart. Pharmacological and electrophysiological work then extended chemical transmission to neuronal synapses, while later research also confirmed genuine electrical synapses."
+currentUnderstanding: "A synapse is the junction where one nerve cell communicates with another cell. At most vertebrate synapses, the first cell releases chemical messengers called neurotransmitters, which bind to receptors on the next cell. Some synapses are genuinely electrical and pass current directly between cells through connecting channels."
+whyItChanged: "Because nerve impulses travel electrically along nerve fibers, many physiologists expected the signal to cross from cell to cell electrically as well. In 1921, Otto Loewi showed that stimulating the vagus nerve made the heart release a transferable chemical signal. Later work established chemical transmission at many neuronal synapses while also confirming true electrical synapses."
 status: "Narrowed"
 category: "Neuroscience"
 acceptedApproximately: "Late 19th–mid-20th century"
@@ -9,7 +9,7 @@ acceptedYear: 1885
 changedApproximately: "1921–1950s"
 timelineYear: 1952
 lifespanComparable: false
-summary: "Chemical transmission became the dominant synaptic model, while direct electrical synapses survived as an important second mechanism."
+summary: "Most synapses use chemical messengers to pass signals between cells, although some transmit electrical current directly."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-06"
@@ -31,6 +31,12 @@ sources:
     note: "Reviews the continuing existence and functions of electrical synapses alongside chemical transmission."
 ---
 
-The historical controversy was not resolved by one experiment. Loewi's work made chemical transmission compelling at autonomic neuroeffector junctions, while the electrical-versus-chemical debate at neuronal synapses continued into the mid-20th century.
+Nerve impulses travel along nerve cells as electrical signals, so it once seemed natural to assume that the signal simply continued electrically into the next cell.
 
-Because electrical synapses are genuine, the old universal claim is narrowed rather than replaced with the equally false claim that every synapse is chemical.
+The difficult point was the synapse: the tiny junction where a nerve cell communicates with another nerve cell, muscle cell, or gland. Does electricity cross that junction directly, or does the first cell release a chemical signal?
+
+Otto Loewi provided powerful evidence for the chemical route in 1921. He stimulated the vagus nerve of a frog heart, which slowed the heartbeat. He then transferred fluid from around that heart to a second heart, and the second heart slowed too. Something released into the fluid had carried the signal. That substance was later identified as acetylcholine, one of the chemicals now called neurotransmitters.
+
+At a chemical synapse, the first cell releases a neurotransmitter. The molecule crosses the tiny gap and binds to receptors on the next cell, changing its activity.
+
+Chemical transmission turned out to dominate in vertebrate nervous systems, but electrical synapses also exist. At those junctions, channels connect neighboring cells closely enough for electrical current to pass directly between them. The old mistake was treating one mechanism as universal.

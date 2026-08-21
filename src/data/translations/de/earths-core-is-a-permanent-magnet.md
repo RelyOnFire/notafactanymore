@@ -3,21 +3,27 @@ locale: de
 entryId: earths-core-is-a-permanent-magnet
 sourceReviewedAt: "2026-08-20"
 claim: "Das Magnetfeld der Erde wird durch permanente Magnetisierung ihres eisenreichen Kerns erzeugt."
-currentUnderstanding: "Das Hauptfeld der Erde entsteht durch einen Dynamo: Bewegungen elektrisch leitfähigen flüssigen Metalls im äußeren Kern erzeugen elektrische Ströme und erhalten ein sich veränderndes Magnetfeld."
-whyItChanged: "Die Ähnlichkeit der Erde mit einem Stabmagneten machte dauerhafte Magnetisierung zu einer naheliegenden Erklärung. Messungen der Kerntemperaturen, der Verlust des Ferromagnetismus oberhalb der Curie-Temperatur, säkulare Feldänderungen, Umpolungen und die Physik des flüssigen Kerns schlossen einen dauerhaft magnetisierten Kern aus."
+currentUnderstanding: "Das Hauptmagnetfeld der Erde entsteht durch einen Geodynamo im flüssigen äußeren Kern. Heißes, elektrisch leitfähiges Metall bewegt sich dort und erzeugt elektrische Ströme, die das Magnetfeld fortlaufend erhalten. Der Kern ist viel zu heiß, um sich wie ein gewöhnlicher permanenter Stabmagnet zu verhalten."
+whyItChanged: "Das Erdmagnetfeld ähnelt dem eines Stabmagneten, weshalb dauerhafte Magnetisierung zunächst nahelag. Später zeigte sich, dass die Kerntemperaturen über jener Grenze liegen, oberhalb der Eisen keine gewöhnliche Dauermagnetisierung behalten kann. Gleichzeitig wies die Seismologie einen flüssigen äußeren Kern nach, und Beobachtungen zeigten, dass sich das Feld verändert und wiederholt umpolt."
 acceptedApproximately: "17. Jahrhundert bis frühes 20. Jahrhundert"
 changedApproximately: "1910er- bis 1950er-Jahre"
-summary: "Ein heißer, strömender äußerer Kern ersetzte das Modell eines dauerhaft magnetisierten Erdkerns durch den Geodynamo."
+summary: "Das Erdmagnetfeld entsteht hauptsächlich durch bewegtes flüssiges Metall im äußeren Kern und nicht durch einen dauerhaft magnetisierten Eisenkern."
 sourceNotes:
 - "Erklärt, warum der heiße Kern keine permanente Magnetisierung behalten kann und stattdessen das Hauptfeld erzeugt."
 - "Beschreibt den Dynamo des äußeren Kerns und Veränderungen des Erdmagnetfelds."
 - "William Gilberts einflussreiches Modell der magnetischen Erde behandelte den Planeten als großen Magneten."
 ---
 
-William Gilberts Beschreibung der Erde als riesigen Magneten im 17. Jahrhundert war ein großer Fortschritt: Kompassverhalten wurde damit als Eigenschaft des Planeten selbst verstanden und nicht als Anziehung durch einen Punkt am Himmel. Als ein eisenreicher Erdkern plausibel wurde, lag die Vorstellung eines dauerhaft magnetisierten Kerns nahe.
+Das Erdmagnetfeld ähnelt grob dem Feld eines riesigen Stabmagneten. Deshalb lag die frühe Vorstellung nahe, im Inneren der Erde befinde sich ein dauerhaft magnetisierter eisenreicher Kern.
 
-Mehrere Entdeckungen machten dieses Bild unhaltbar. Die Temperaturen tief im Erdinneren liegen weit oberhalb jener Schwelle, bei der Eisen gewöhnliche ferromagnetische Dauermagnetisierung behalten kann. Außerdem verändert sich das Erdmagnetfeld messbar mit der Zeit und hat seine Polarität wiederholt umgekehrt – ein Verhalten, das nicht zu einem festen Stabmagneten im Erdzentrum passt.
+Das Problem ist die Temperatur. Gewöhnliches Eisen kann nur unterhalb einer bestimmten Schwelle dauerhaft ferromagnetisch bleiben. Diese Schwelle heißt Curie-Temperatur. Oberhalb davon zerstört die Wärmebewegung jene geordnete magnetische Ausrichtung, die für einen Dauermagneten nötig ist.
 
-Gleichzeitig zeigte die Seismologie, dass der äußere Kern flüssig und elektrisch leitfähig ist. Die Dynamotheorie erklärte, wie Bewegungen dieses leitfähigen Metalls – organisiert durch Konvektion und Erdrotation – elektrische Ströme erzeugen und das Magnetfeld fortlaufend neu aufbauen können.
+Der Erdkern ist deutlich heißer.
 
-An der Erdoberfläche verhält sich das Feld weiterhin annähernd wie das eines Dipolmagneten. Diese Ähnlichkeit verrät aber nicht den Entstehungsmechanismus. Teile der Erdkruste bewahren dauerhafte Magnetisierung und damit auch Aufzeichnungen früherer Feldrichtungen; zum globalen Feld tragen sie jedoch nur einen kleinen Anteil im Vergleich zum Dynamo im Kern bei.
+Auch das Verhalten des Feldes passt nicht zu einem fest vergrabenen Magneten. Stärke und Richtung verändern sich messbar mit der Zeit, und die globale magnetische Polarität der Erde hat sich in der Erdgeschichte viele Male umgekehrt.
+
+Die Seismologie lieferte einen weiteren wichtigen Hinweis: Der äußere Erdkern ist flüssig und besteht überwiegend aus elektrisch leitfähigem Metall.
+
+Wenn sich dieses flüssige Metall bewegt, können elektrische Ströme entstehen. Diese Ströme erzeugen wiederum Magnetfelder. Bewegung des Fluids, Konvektion und Erdrotation können den Prozess selbst aufrechterhalten. Dieser Mechanismus heißt Geodynamo.
+
+Von weit außen betrachtet ähnelt das Erdmagnetfeld weiterhin ungefähr einem Dipol, also einem einfachen Magneten mit zwei Polen. Seine Quelle ist jedoch bewegtes leitfähiges Fluid und kein permanenter Stabmagnet im Erdzentrum.

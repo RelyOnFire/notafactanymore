@@ -1,14 +1,14 @@
 ---
 claim: "Beta blockers are dangerous and should not be used in patients with chronic heart failure."
-currentUnderstanding: "Selected beta blockers are standard treatment for stable heart failure with reduced ejection fraction. They improve symptoms and reduce hospitalization and mortality when introduced carefully."
-whyItChanged: "Because beta blockers reduce heart rate and contractility, using them in a weak heart seemed physiologically backward. Small Swedish studies and later large randomized trials showed that long-term blockade protects the heart from harmful chronic sympathetic stimulation."
+currentUnderstanding: "Selected beta blockers are standard treatment for stable heart failure with reduced ejection fraction, meaning the heart pumps out a smaller-than-normal share of the blood in its main chamber with each beat. When introduced carefully, these drugs reduce hospitalization and improve survival."
+whyItChanged: "Beta blockers slow the heart and reduce the force of contraction, so giving them to a weak heart seemed dangerous. Longer-term studies showed that chronic heart failure also keeps the body's adrenaline-like stress system switched on, which can further damage the heart. Carefully blocking part of that signaling improved outcomes."
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1960s–1980s"
 acceptedYear: 1965
 changedApproximately: "1980s–2000s"
 timelineYear: 1985
-summary: "A drug class once formally contraindicated in heart failure became a cornerstone of treatment."
+summary: "A drug class once avoided for weakening the heartbeat became a standard long-term treatment for stable heart failure."
 featured: false
 publishedAt: "2026-07-28"
 reviewedAt: "2026-08-20"
@@ -30,8 +30,10 @@ sources:
     note: "Explains the modern evidence supporting beta blockers in chronic heart failure."
 ---
 
-The original contraindication followed sensible short-term physiology. A failing heart already struggled to pump; beta blockers slowed the heart and reduced contractile force. Giving one to a patient with heart failure could therefore look like deliberately weakening an already weak pump, and the drugs were avoided for years.
+The original concern made sense. A failing heart was already struggling to pump, and beta blockers slow the heart rate and reduce the force of each contraction. Giving one to a patient with heart failure could therefore look like deliberately weakening an already weak pump.
 
-The mistake was treating the immediate effect as the whole disease. Chronic heart failure drives persistent sympathetic activation, exposing the heart to high levels of catecholamine signaling that can promote arrhythmias, remodeling, and further deterioration. Beginning in the 1970s, Swedish clinicians including Finn Waagstein cautiously tested beta blockade in selected chronic patients. Larger randomized trials later showed substantial reductions in hospitalization and death with particular beta blockers, transforming guidelines.
+But chronic heart failure is not only a problem of weak contractions. The body responds by keeping the sympathetic nervous system—the system that releases adrenaline-like signals—persistently activated. That may help briefly, but over months and years it can promote abnormal rhythms, harmful changes in the heart muscle, and further decline.
 
-The old concern was not imaginary. Starting or increasing a beta blocker during unstable, acutely decompensated heart failure can still be hazardous. The reversal concerns carefully introduced long-term therapy in appropriate stable patients.
+Beginning in the 1970s, Swedish clinicians including Finn Waagstein cautiously tested beta blockers in selected patients with stable chronic heart failure. Larger randomized trials later showed that certain beta blockers could reduce hospitalizations and deaths when introduced carefully and increased gradually.
+
+The old concern still matters in the wrong setting. Starting or rapidly increasing a beta blocker during unstable, acutely worsening heart failure can be dangerous. The correction applies to carefully managed long-term treatment in appropriate stable patients.

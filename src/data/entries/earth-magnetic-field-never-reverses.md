@@ -1,14 +1,14 @@
 ---
 claim: "Earth's magnetic field has always pointed in roughly the same direction."
-currentUnderstanding: "Earth's magnetic field has reversed polarity many times. Rocks preserve intervals when magnetic north and south were opposite their present orientation."
-whyItChanged: "Scientists found rocks magnetized in directions that could not be explained by the present field alone. Paleomagnetic dating and symmetrical magnetic stripes on the seafloor established a repeating history of reversals."
+currentUnderstanding: "Earth's magnetic field has reversed many times. During a reversal, the planet's overall magnetic polarity changes so that magnetic north and south end up opposite their previous orientation. Ancient rocks preserve a record of these past directions."
+whyItChanged: "When iron-bearing lava cools, magnetic minerals can lock in the direction of Earth's field at that time. Geologists found alternating layers with normal and reversed magnetization, and later discovered matching magnetic stripes on both sides of mid-ocean ridges. The global pattern showed repeated reversals rather than local anomalies."
 status: "Overturned"
 category: "Earth Science"
 acceptedApproximately: "Before the mid-20th century"
 acceptedYear: 1850
 changedApproximately: "1920s–1960s"
 timelineYear: 1950
-summary: "Rock magnetism revealed that Earth's magnetic poles have repeatedly switched orientation."
+summary: "Magnetized rocks record repeated periods when Earth's magnetic north and south were reversed."
 featured: false
 publishedAt: "2026-07-24"
 reviewedAt: "2026-08-20"
@@ -25,10 +25,14 @@ sources:
     note: "Explains how lavas and sediments preserve past polarity and confirms repeated reversals."
 ---
 
-When iron-bearing lava cools, magnetic minerals can lock in the direction of Earth's field at that time. Early measurements produced a puzzle: some old rocks were magnetized in directions radically different from the modern field. Possible explanations included movement or rotation of the rocks themselves as well as changes in the field.
+Some minerals act like tiny compass needles while molten rock is cooling. Once the rock solidifies, their orientation can become locked in, preserving the direction of Earth's magnetic field at that time.
 
-As paleomagnetic records accumulated, reversed polarity became impossible to dismiss as a local oddity. Successive lava flows preserved alternating intervals in which the global field had approximately its present orientation and intervals in which magnetic north and south were reversed.
+That created a puzzle. Some old rocks pointed roughly with the modern field, while others were magnetized in the opposite direction.
 
-The decisive pattern appeared on the ocean floor. Surveys found parallel bands of normal and reversed magnetization arranged symmetrically on either side of mid-ocean ridges. When combined with radiometric dating, these stripes became both a record of repeated geomagnetic reversals and powerful evidence for seafloor spreading.
+At first, the rocks themselves might have moved or rotated after forming. But as more lava flows were studied, a repeated pattern emerged: layers formed during intervals of normal polarity alternated with layers formed when the global field was reversed.
 
-A reversal is not an instantaneous pole swap. The transition generally unfolds over hundreds to thousands of years, and it is distinct from the gradual wandering of the magnetic poles observed from year to year.
+The clearest confirmation came from the ocean floor. New basalt forms along mid-ocean ridges and moves outward on both sides. As it cools, it records the magnetic field. Surveys found parallel bands of normal and reversed magnetization arranged as matching stripes on either side of the ridges.
+
+These stripes recorded both seafloor spreading and a long history of geomagnetic reversals.
+
+A reversal is not an instant flip from one pole to the other. The transition usually takes hundreds to thousands of years, and it is different from the smaller year-to-year movement of the magnetic poles.

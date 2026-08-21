@@ -3,25 +3,25 @@ locale: de
 entryId: all-rocks-precipitated-from-ocean
 sourceReviewedAt: "2026-08-13"
 claim: "Die meisten wichtigen Gesteine, darunter Granit und viele vulkanische Gesteine, sind aus einem Urmeer ausgefällt, das einst die Erde bedeckte."
-currentUnderstanding: "Gesteine entstehen auf unterschiedlichen Wegen. Magmatische Gesteine kristallisieren aus Magma oder Lava, Sedimentgesteine entstehen aus abgelagerten Sedimenten oder chemischer beziehungsweise biologischer Ausfällung, und metamorphe Gesteine durch die Umwandlung vorhandener Gesteine unter Hitze, Druck und Fluiden."
-whyItChanged: "Feldbeobachtungen zeigten immer mehr magmatische Zusammenhänge, die der Neptunismus nicht erklären konnte. Plutonisten und spätere Geologen wiesen darauf hin, dass etwa Basalt und Granit aus geschmolzenem Material entstehen können statt durch Ausfällung aus dem Meer."
+currentUnderstanding: "Gesteine entstehen auf mehreren grundsätzlich verschiedenen Wegen. Magmatische Gesteine wie Basalt und Granit kristallisieren aus geschmolzenem Gestein; Sedimentgesteine entstehen aus abgelagertem Material oder aus Stoffen, die aus Wasser ausgefällt werden; metamorphe Gesteine entstehen, wenn ältere Gesteine durch Hitze, Druck oder Fluide umgewandelt werden."
+whyItChanged: "Der Neptunismus nahm an, fast alle wichtigen Gesteine seien aus einem ursprünglichen Ozean ausgefällt worden. Feldgeologen fanden jedoch immer mehr Strukturen, die dazu nicht passten: Basalt trat als erkalteter Lavastrom auf, Granit durchschnitt ältere Gesteine, und angrenzendes Gestein zeigte Spuren starker Erhitzung. Solche Beobachtungen wiesen bei vielen Gesteinen auf einen Ursprung aus Schmelze hin."
 acceptedApproximately: "Neptunistische Geologie des späten 18. Jahrhunderts"
 changedApproximately: "Spätes 18. bis frühes 19. Jahrhundert"
-summary: "Werners Einfluss verbreitete eine Geologie, in der selbst Granit aus einem Urmeer ausgefällt sein sollte. Feldbeobachtungen machten schließlich magmatische Ursprünge unvermeidlich."
+summary: "Feldbeobachtungen zeigten, dass Granit, Basalt und viele andere Gesteine aus geschmolzenem Material entstanden und nicht sämtlich aus einem Urmeer ausfielen."
 sourceNotes:
 - "Fasst den Wernerianischen Neptunismus und die Vorstellung zusammen, dass die Gesteine der Erde aus einem großen zurückweichenden Ozean ausgefällt wurden."
 - "Erklärt Werners Einfluss als Lehrer, die Verbreitung des Neptunismus und die Feldbeobachtungen, die ihn untergruben."
 - "Erklärt den modernen magmatischen Ursprung von Lava und vulkanischen magmatischen Gesteinen."
 ---
 
-Der Neptunismus war eine globale Theorie, die auf einer überraschend lokalen geologischen Stichprobe beruhte.
+Im späten 18. Jahrhundert entwickelte Abraham Gottlob Werner eine umfassende Erklärung für die Gesteine der Erde. Er nahm an, ein gewaltiger Ur-Ozean habe einst den gesamten Planeten bedeckt. Während das Wasser zurückwich, sollten verschiedene Gesteine in einer festen Reihenfolge daraus ausgefällt worden sein.
 
-Abraham Gottlob Werner, ein äußerst einflussreicher Lehrer an der Bergakademie Freiberg, nahm an, die Erde sei einst von einem gewaltigen Ozean bedeckt gewesen. Während dieser Ozean allmählich zurückwich, sollten Gesteine in einer festen Reihenfolge aus ihm ausgefällt worden sein. Selbst kristalline Gesteine wie Granit galten als frühe Ablagerungen dieses Urmeers.
+Diese Theorie wurde als Neptunismus bekannt. Selbst Granit – heute als magmatisches Gestein erkannt – galt darin als eine der frühesten Ablagerungen des alten Ozeans.
 
-Die Theorie hatte echte Stärken. Sie bot eine einfache universelle Chronologie, passte zu vielen geschichteten Gesteinen rund um Freiberg und wurde von einem Lehrer vertreten, dessen Schüler seine Methoden in ganz Europa verbreiteten.
+Das Modell erklärte viele geschichtete Gesteine rund um Werners Bergakademie in Freiberg gut, und sein großer Einfluss half, die Theorie in Europa zu verbreiten. Doch Geologen fanden andernorts zunehmend Gesteine, die sich nur schwer als Meeresablagerungen erklären ließen.
 
-Doch anderswo passten die Gesteine immer schlechter ins Bild. Basalt trat in Formen auf, die auf Lavaströme deuteten; Granit drang in umgebende Gesteine ein; Kontaktzonen zeigten Spuren großer Hitze. Plutonistische Deutungen, unter anderem von James Hutton, erklärten diese Strukturen zunehmend durch unterirdische Wärme und geschmolzenes Gestein.
+Basalt trat in Formen auf, die wie erkaltete Lavaströme aussahen. Granit durchschnitt manchmal ältere Gesteine, statt sauber unter ihnen zu liegen, und die Gesteine an solchen Kontaktzonen zeigten Spuren starker Erhitzung.
 
-Die Debatte wurde nicht durch ein einziges entscheidendes Experiment beendet. Stattdessen häuften sich Feldbeobachtungen, die eine universelle Ausfällungstheorie nicht mehr erklären konnte.
+Diese Beobachtungen stützten die konkurrierende Vorstellung, dass Hitze und geschmolzenes Gestein eine zentrale Rolle in der Geologie spielen. Mit der Zeit ließ sich eine einzige Herkunft aller Gesteine durch Ausfällung aus dem Ozean nicht mehr aufrechterhalten.
 
-Die moderne Geologie unterscheidet drei große Gesteinsgruppen: magmatische, sedimentäre und metamorphe Gesteine. Im Gesteinskreislauf wird Material ständig zwischen ihnen umgewandelt.
+Die moderne Geologie unterscheidet drei große Gesteinsgruppen. Magmatische Gesteine kristallisieren aus Magma oder Lava. Sedimentgesteine entstehen aus abgelagerten Sedimenten oder aus im Wasser ausgefälltem Material. Metamorphe Gesteine entstehen, wenn vorhandene Gesteine durch Hitze, Druck und Fluide verändert werden.

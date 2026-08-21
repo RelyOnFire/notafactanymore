@@ -1,7 +1,7 @@
 ---
 claim: Most major rocks, including granite and many volcanic rocks, precipitated from a primordial ocean that once covered Earth.
-currentUnderstanding: Rocks form through multiple processes. Igneous rocks crystallize from magma or lava; sedimentary rocks form from deposited sediments or chemical/biological precipitation; metamorphic rocks form when existing rocks are transformed by heat, pressure, and fluids.
-whyItChanged: Field observations increasingly showed igneous relationships that Neptunism could not explain. Plutonists and later geologists demonstrated that rocks such as basalt and granite could originate from molten material rather than oceanic precipitation.
+currentUnderstanding: "Rocks form in several fundamentally different ways. Igneous rocks such as basalt and granite crystallize from molten rock; sedimentary rocks form from deposited material or substances precipitated from water; and metamorphic rocks form when older rocks are transformed by heat, pressure, or fluids."
+whyItChanged: "Neptunism proposed that nearly all major rocks had precipitated from a primordial ocean. Field geologists increasingly found features that did not fit: basalt occurred as lava flows, granite cut through older rocks, and surrounding rock showed signs of intense heating. These observations pointed to molten origins for many rocks."
 status: Overturned
 category: Earth Science
 acceptedApproximately: Late 18th-century Neptunist geology
@@ -9,7 +9,7 @@ acceptedYear: 1787
 changedApproximately: Late 18th–early 19th centuries
 timelineYear: 1810
 lifespanComparable: true
-summary: Werner's prestige and mining-school network spread a global geology in which even granite precipitated from a primordial ocean. Field geology eventually made molten origins unavoidable.
+summary: "Field evidence showed that granite, basalt, and many other rocks formed from molten material rather than all precipitating from a primordial ocean."
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
@@ -31,14 +31,14 @@ sources:
   note: Explains the modern magmatic origin of lava and volcanic igneous rocks.
 ---
 
-Neptunism was a global theory built from a surprisingly local geological sample.
+In the late eighteenth century, Abraham Gottlob Werner proposed an ambitious explanation for Earth's rocks. He argued that a vast primordial ocean had once covered the planet and that, as the water receded, different rocks precipitated from it in a fixed sequence.
 
-Abraham Gottlob Werner, an enormously influential teacher at the Freiberg mining academy, proposed that Earth had once been covered by a vast ocean. As that ocean gradually receded, rocks precipitated from it in a fixed sequence. Even crystalline rocks such as granite belonged to the earliest oceanic deposits.
+This theory became known as Neptunism. It even treated granite—today recognized as an igneous rock—as one of the earliest deposits from the ancient ocean.
 
-The theory had several strengths. It offered a simple universal chronology, matched many layered rocks around Freiberg, and came from a teacher whose students carried his methods across Europe. Werner's mining school became a major center of geological training, giving Neptunism something like an international alumni network.
+The model made sense of many layered rocks around Werner's mining academy at Freiberg, and his influence helped spread it across Europe. But geologists working elsewhere kept finding rocks that were difficult to explain as ocean deposits.
 
-But rocks elsewhere behaved badly. Basalt occurred in relationships suggesting lava flows; granite intruded into surrounding rocks; contacts showed signs of intense heat. Plutonist interpretations associated with James Hutton and others increasingly explained these structures through subterranean heat and molten rock.
+Basalt appeared in forms that looked like cooled lava flows. Granite sometimes cut through older rocks instead of lying neatly beneath them, and the rocks beside those contacts showed signs of strong heating.
 
-The argument was not settled by one dramatic experiment. Field geology accumulated cases that a universal ocean-precipitation theory could not absorb.
+These observations supported the competing idea that heat and molten rock played a major role in geology. Over time, field evidence made a single ocean-precipitation origin impossible to maintain.
 
-Modern geology recognizes three major rock families: igneous, sedimentary, and metamorphic. The rock cycle continually transforms material among them.
+Modern geology recognizes three broad rock families. Igneous rocks crystallize from magma or lava. Sedimentary rocks form from deposited sediments or material precipitated from water. Metamorphic rocks form when existing rocks are changed by heat, pressure, and fluids.

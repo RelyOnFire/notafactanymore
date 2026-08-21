@@ -3,19 +3,23 @@ locale: de
 entryId: all-infectious-agents-contain-nucleic-acid
 sourceReviewedAt: "2026-08-20"
 claim: Übertragbare infektiöse Erreger galten als auf DNA oder RNA angewiesen, um biologische Information zu speichern und weiterzugeben.
-currentUnderstanding: Prionen sind übertragbare Erreger, die hauptsächlich aus fehlgefaltetem Protein bestehen und kein eigenes Nukleinsäuregenom besitzen. Sie vermehren ihren pathologischen Zustand, indem sie normal gefaltete Wirtsproteine dazu bringen, dieselbe abnorme Konformation anzunehmen.
-whyItChanged: Bei Scrapie und verwandten Erkrankungen ließ sich trotz intensiver Suche kein virales Genom finden. 1982 beschrieb Stanley Prusiner ein „proteinartiges infektiöses Partikel“; spätere Arbeiten etablierten proteinvermittelte Fehlfaltung als Grundlage der Prionenvermehrung.
+currentUnderstanding: "Prionen sind infektiöse Erreger, die hauptsächlich aus Protein bestehen und kein eigenes DNA- oder RNA-Genom besitzen. Ein fehlgefaltetes Prionprotein kann normal gefaltete Kopien desselben Proteins im Wirt dazu bringen, ebenfalls diese abnorme Form anzunehmen; so breitet sich die schädliche Faltung aus."
+whyItChanged: "DNA und RNA waren als Träger biologischer Information etabliert, weshalb ein infektiöser Erreger ohne beides kaum vorstellbar schien. Bei Scrapie und verwandten Erkrankungen ließ sich jedoch wiederholt kein virales Genom finden. Stanley Prusiner schlug 1982 ein infektiöses Protein als Ursache vor; spätere Arbeiten zeigten, wie sich die Form eines Proteins von Molekül zu Molekül übertragen kann."
 acceptedApproximately: Mitte des 20. Jahrhunderts bis frühe 1980er-Jahre
 changedApproximately: 1982–1997
-summary: Prionen zeigten, dass ein infektiöser Erreger sich ohne eigenes DNA- oder RNA-Genom ausbreiten kann.
+summary: "Prionen zeigten, dass sich ein infektiöser Erreger durch die Weitergabe einer schädlichen Proteinfaltung ausbreiten kann, ohne eigenes DNA- oder RNA-Genom."
 sourceNotes:
 - Stellt fest, dass Prionpartikel aus Protein bestehen und im Gegensatz zu anderen infektiösen Erregern keine Nukleinsäure enthalten.
 - Fasst die Isolierung und Identifizierung des proteinartigen infektiösen Agens zusammen, das als Prion bezeichnet wurde.
 - Beschreibt die lange und kontroverse Suche nach Nukleinsäure im vermeintlichen Scrapie-Virus.
 ---
 
-Mitte des 20. Jahrhunderts wurden Vererbung und Virusvermehrung zunehmend über Nukleinsäuren verstanden. Ein infektiöser Erreger, der seine charakteristischen Eigenschaften ohne DNA oder RNA weitergeben konnte, schien deshalb schwer mit der Molekularbiologie vereinbar.
+Mitte des 20. Jahrhunderts waren DNA und RNA zum Kern des Verständnisses von Vererbung und Viren geworden. Viren tragen genetische Anweisungen in einem dieser Moleküle und nutzen eine Wirtszelle, um weitere Kopien herzustellen. Ein infektiöser Erreger ohne eigene DNA oder RNA war deshalb schwer vorstellbar.
 
-Scrapie machte das Problem besonders hartnäckig. Der übertragbare Erreger verhielt sich anders als bekannte Viren, und wiederholte Versuche, ein gewöhnliches Genom nachzuweisen, scheiterten. Stanley Prusiner argumentierte 1982, es handle sich um ein „proteinaceous infectious particle“, später verkürzt zu *Prion*. Gerade weil sich damit biologische Information ohne eigene Nukleinsäuresequenz auszubreiten schien, war der Vorschlag stark umstritten.
+Scrapie, eine tödliche Erkrankung des Gehirns bei Schafen und Ziegen, verhielt sich jedoch nicht wie ein bekanntes Virus. Die Krankheit ließ sich übertragen, doch wiederholte Versuche, ein gewöhnliches virales Genom zu finden, scheiterten.
 
-Die Lösung war eine andere Form von Schablonenwirkung. Ein fehlgefaltetes Prionprotein kann normal gefaltete Versionen desselben Wirtsproteins dazu bringen, ebenfalls die abnorme Konformation anzunehmen. Dadurch kann sich der pathologische Zustand vervielfältigen und ausbreiten. Unterschiedliche Faltungen helfen außerdem, das Verhalten verschiedener Prionstämme zu erklären. Der Wirt stellt weiterhin das Gen für das normale Prionprotein bereit; was dem infektiösen Partikel fehlt, ist ein eigenes DNA- oder RNA-Genom.
+1982 schlug Stanley Prusiner vor, der infektiöse Erreger sei stattdessen ein Protein. Er nannte ihn ein „proteinaceous infectious particle“, verkürzt zu Prion. Die Idee war umstritten, weil Proteine biologische Information nicht eigenständig vervielfältigen sollten.
+
+Die Lösung liegt nicht in einer genetischen Sequenz, sondern in der Form des Proteins. Ein normales Prionprotein des Wirts kann sich falsch falten. Diese fehlgefaltete Form kann anschließend normal gefaltete Kopien desselben Proteins dazu bringen, ebenfalls die abnorme Form anzunehmen. So breitet sich die schädliche Faltung von Protein zu Protein aus.
+
+Der Wirt besitzt weiterhin DNA, die das normale Prionprotein codiert. Dem infektiösen Prion selbst fehlt jedoch ein eigenes DNA- oder RNA-Genom.

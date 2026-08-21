@@ -34,7 +34,7 @@ At the start of the twentieth century, astronomers knew that the Milky Way was a
 
 The dispute was serious enough to produce the 1920 Great Debate between Harlow Shapley and Heber Curtis. Shapley's enlarged estimate of the Milky Way made it easier to place the spirals inside it, while Curtis argued for an extragalactic interpretation.
 
-The decisive evidence was distance. Edwin Hubble identified Cepheid variable stars in the Andromeda nebula and used their period–luminosity relationship to estimate a distance far beyond the known bounds of the Milky Way. Andromeda was not a nearby cloud inside our Galaxy; it was another galaxy.
+The decisive evidence was distance. Edwin Hubble identified Cepheid variable stars in the Andromeda nebula. Cepheids brighten and dim in a regular cycle, and the length of that cycle reveals their true luminosity; comparing that with how faint they appear lets astronomers estimate their distance. Hubble's Cepheids placed Andromeda far beyond the known bounds of the Milky Way. It was not a nearby cloud inside our Galaxy but another galaxy.
 
 Similar measurements rapidly expanded the universe from one stellar system to a cosmos filled with galaxies.
 

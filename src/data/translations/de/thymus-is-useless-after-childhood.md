@@ -3,7 +3,7 @@ locale: de
 entryId: thymus-is-useless-after-childhood
 sourceReviewedAt: '2026-08-20'
 claim: Der Thymus ist ein nutzloses rudimentäres Organ, besonders nach der Kindheit.
-currentUnderstanding: Im Thymus werden sich entwickelnde T-Zellen ausgewählt und darauf geprägt, auf Bedrohungen zu reagieren, während Angriffe auf körpereigenes Gewebe begrenzt werden. Seine Aktivität nimmt mit dem Alter ab, wird aber nicht bedeutungslos.
+currentUnderstanding: "Der Thymus ist ein Trainings- und Auswahlort für sich entwickelnde T-Zellen, also Immunzellen, die gezielte Abwehrreaktionen koordinieren und ausführen. Er erhält Zellen, die auf Bedrohungen reagieren können, und entfernt oder bremst viele, die stark gegen körpereigenes Gewebe reagieren. Seine Aktivität nimmt mit dem Alter ab, wird aber nicht bedeutungslos."
 whyItChanged: Die Entfernung des Thymus bei erwachsenen Tieren schien folgenlos und bestärkte die Ansicht, er habe kaum eine Funktion. 1961 zeigte Jacques Miller, dass seine Entfernung bei neugeborenen Mäusen schwere Immundefekte und eine erhöhte Infektionsanfälligkeit verursachte.
 acceptedApproximately: 19. Jahrhundert bis frühe 1960er-Jahre
 changedApproximately: 1961 bis 1970er-Jahre
@@ -20,7 +20,7 @@ Experimente verstärkten den Eindruck der Bedeutungslosigkeit: Entfernte man den
 
 Jacques Miller änderte das Bild 1961 mit einem entscheidenden entwicklungsbiologischen Vergleich. Entfernte er den Thymus bei neugeborenen Mäusen, entwickelten sie schwere Immundefekte und wurden deutlich anfälliger für Infektionen.
 
-Damit wurde klar, dass der Thymus seine wichtigste Arbeit früh im Leben leistet: Dort entwickeln sich T-Zellen und durchlaufen Auswahlprozesse, die funktionsfähige Immunantworten ermöglichen und zugleich starke Reaktionen gegen körpereigenes Gewebe begrenzen.
+Damit wurde klar, dass der Thymus seine wichtigste Arbeit früh im Leben leistet: Dort entwickeln sich T-Zellen – Immunzellen, die für gezielte adaptive Abwehrreaktionen zentral sind – und durchlaufen einen Trainings- und Auswahlprozess. Zellen mit nützlichen Reaktionsmöglichkeiten bleiben erhalten, während viele Zellen mit starker Reaktion gegen körpereigenes Gewebe entfernt oder gebremst werden.
 
 Dass eine Entfernung im Erwachsenenalter weniger spektakulär wirkt, hat einen Grund: Viele langlebige T-Zellen wurden bereits zuvor aufgebaut.
 

@@ -1,6 +1,6 @@
 ---
 claim: "Widespread domestic-horse mobility was a major driver of the Yamnaya expansion into Europe around 3000 BCE."
-currentUnderstanding: "Ancient horse genomes place the rapid spread of the lineage that dominates modern domestic horses around 2200 BCE, several centuries after the main Yamnaya expansion. Large domestic-horse herds therefore cannot explain that earlier migration in the form once proposed."
+currentUnderstanding: "The Yamnaya were mobile pastoralist communities of the Pontic-Caspian steppe whose ancestry spread widely into Europe around 3000 BCE. Ancient horse genomes place the rapid spread of the lineage that dominates modern domestic horses around 2200 BCE, several centuries later, so large domestic-horse herds cannot explain the earlier expansion in the form once proposed."
 whyItChanged: "Ancient-DNA studies reconstructed horse population turnover across Eurasia and found that the modern domestic lineage remained geographically restricted during the Yamnaya migrations, then expanded rapidly in the late third millennium BCE."
 status: "Overturned"
 category: "Archaeology"
@@ -26,7 +26,7 @@ sources:
     note: "Expands the dataset to 475 ancient horse genomes and again finds the chronology incompatible with large domestic-horse herds driving the earlier Yamnaya migration."
 ---
 
-The Yamnaya expansion transformed Europe in the third millennium BCE, carrying steppe ancestry across enormous distances. Because horses later became central to steppe mobility, archaeologists often treated riding and domestic horse herds as part of the explanation for how that earlier expansion happened. Wagons, horse remains and evidence of close human-horse contact made the idea plausible.
+The Yamnaya were mobile pastoralist communities of the Pontic-Caspian steppe. Their expansion in the third millennium BCE transformed Europe, carrying steppe ancestry across enormous distances. Because horses later became central to steppe mobility, archaeologists often treated riding and domestic horse herds as part of the explanation for how that earlier expansion happened. Wagons, horse remains and evidence of close human-horse contact made the idea plausible.
 
 Ancient horse genomes separated the chronology of the people from the chronology of the domestic horse lineage that later spread across Eurasia. During the main Yamnaya migrations around 3000 BCE, that horse population was still geographically restricted. Its rapid expansion appears several centuries later, around 2200 BCE. A larger 2024 genomic dataset reinforced the same timing.
 

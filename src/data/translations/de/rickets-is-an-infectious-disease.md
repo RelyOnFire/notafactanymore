@@ -3,7 +3,7 @@ locale: de
 entryId: rickets-is-an-infectious-disease
 sourceReviewedAt: '2026-08-20'
 claim: Rachitis wird hauptsächlich durch eine Infektion oder schlechte Hygiene verursacht.
-currentUnderstanding: Die meisten Fälle ernährungsbedingter Rachitis entstehen durch unzureichendes Vitamin D, Kalzium oder Phosphat. Zu wenig Sonnenlicht, Ernährung, Malabsorption und bestimmte erbliche Erkrankungen können dazu beitragen.
+currentUnderstanding: "Die meisten Fälle ernährungsbedingter Rachitis entstehen durch unzureichendes Vitamin D, Kalzium oder Phosphat. Dadurch wird die Mineralisierung gestört – also die Einlagerung von Mineralstoffen, die wachsende Knochen fest und belastbar macht. Zu wenig Sonnenlicht, Ernährung, Malabsorption und bestimmte erbliche Erkrankungen können dazu beitragen."
 whyItChanged: Rachitis war in dicht besiedelten Industriestädten häufig und trat oft zusammen mit Atemwegserkrankungen auf, wodurch Infektion und Hygiene als Ursachen plausibel erschienen. Tierversuche, Sonnenlichtbehandlung, Lebertran und die Isolierung von Vitamin D etablierten eine ernährungs- und stoffwechselbezogene Erklärung.
 acceptedApproximately: 19. bis frühes 20. Jahrhundert
 changedApproximately: 1910er- bis 1930er-Jahre
@@ -20,7 +20,7 @@ Nach und nach gelang es, diese Begleitfaktoren von der eigentlichen Ursache zu t
 
 Ebenso wichtig war Sonnenlicht. Kinder verbesserten sich unter ultravioletter Bestrahlung – ein Hinweis darauf, dass der Körper selbst einen entscheidenden Stoff unter Lichteinwirkung bilden konnte.
 
-Dieser Stoff wurde als Vitamin D identifiziert. Vitamin D ist wesentlich für den Kalzium- und Phosphathaushalt und damit für die normale Mineralisierung wachsender Knochen.
+Dieser Stoff wurde als Vitamin D identifiziert. Vitamin D ist wesentlich für den Kalzium- und Phosphathaushalt und damit für die Mineralisierung – die Einlagerung von Mineralstoffen, durch die wachsende Knochen fest und belastbar werden.
 
 Das neue Modell erklärte zugleich, warum Rachitis gerade in armen, verschmutzten nördlichen Industriestädten so häufig war: geringe Sonnenexposition, Luftverschmutzung und einseitige Ernährung konnten in denselben Bevölkerungsgruppen zusammenkommen, in denen auch Infektionen verbreitet waren.
 

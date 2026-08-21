@@ -1,6 +1,6 @@
 ---
 claim: "Pellagra is an infectious disease that spreads among poor communities."
-currentUnderstanding: "Primary pellagra is caused by severe deficiency of niacin or its precursor, tryptophan. It can also develop when illness or medication interferes with absorption or metabolism."
+currentUnderstanding: "Primary pellagra is caused by severe deficiency of niacin (vitamin B3) or of tryptophan, an amino acid the body can use to make niacin. It can also develop when illness or medication interferes with absorption or metabolism."
 whyItChanged: "Joseph Goldberger showed that pellagra followed restricted diets and could be prevented by improving food. He and his colleagues also exposed themselves to material from patients without developing the disease."
 status: "Overturned"
 category: "Medicine"
@@ -36,7 +36,7 @@ Joseph Goldberger noticed a pattern that infection did not explain well. Staff c
 
 Goldberger and colleagues even exposed themselves to blood, secretions, and skin material from pellagra patients without becoming ill—dramatic evidence against a transmissible pathogen.
 
-The nutritional explanation was later traced to deficiency of niacin or its precursor tryptophan. Diets heavily dependent on poorly processed maize and lacking adequate protein made the deficiency especially likely.
+The nutritional explanation was later traced to deficiency of niacin, or vitamin B3, and of tryptophan, an amino acid the body can use to make niacin. Diets heavily dependent on poorly processed maize and lacking adequate protein supplied too little usable niacin and made the deficiency especially likely.
 
 Pellagra can still arise for reasons other than simple poverty or food scarcity, including malabsorption, alcoholism, metabolic disease, and certain medications.
 

@@ -14,7 +14,7 @@ sourceNotes:
 - Stellt fest, dass eine routinemäßige oder großzügige Episiotomie bei spontaner vaginaler Geburt nicht empfohlen wird.
 ---
 
-Die Episiotomie wurde als kontrollierter chirurgischer Schnitt eingeführt, der einen unvorhersehbaren natürlichen Dammriss ersetzen sollte. Die Logik war überzeugend: Eine saubere Inzision könnte leichter heilen, schwere Risse verhindern, den Beckenboden schützen und die Geburt beschleunigen.
+Eine Episiotomie ist ein chirurgischer Schnitt in den Damm, also das Gewebe zwischen Scheidenöffnung und After. Sie wurde als kontrollierte Inzision eingeführt, die einen unvorhersehbaren natürlichen Dammriss ersetzen sollte. Die Logik war überzeugend: Eine saubere Inzision könnte leichter heilen, schwere Risse verhindern, den Beckenboden schützen und die Geburt beschleunigen.
 
 Im Verlauf des 20. Jahrhunderts wurde der Eingriff in vielen Kliniken nahezu routinemäßig durchgeführt, obwohl die angenommenen Schutzwirkungen nur unzureichend durch belastbare Studien geprüft waren.
 

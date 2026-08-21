@@ -30,7 +30,7 @@ sources:
     note: "Summarizes fossil evidence indicating feathers in dinosaurs such as Velociraptor."
 ---
 
-For most of the history of dinosaur reconstruction, artists had good reason to cover non-avian dinosaurs in reptile-like scales. Fossilized skin impressions showed scales in some species, while feathers were known from birds and the bird-like *Archaeopteryx*. Without direct evidence, extending feathers broadly across dinosaurs would itself have been speculation.
+For most of the history of dinosaur reconstruction, artists had good reason to cover non-avian dinosaurs—that is, dinosaurs other than birds—in reptile-like scales. Fossilized skin impressions showed scales in some species, while feathers were known from birds and the bird-like *Archaeopteryx*. Without direct evidence, extending feathers broadly across dinosaurs would itself have been speculation.
 
 Exceptional fossils changed the picture. Beginning in the 1990s, deposits in northeastern China preserved fine body coverings around non-avian dinosaur skeletons. *Sinosauropteryx* was reported with a halo of filamentous structures, and subsequent finds revealed increasingly complex feathers in many theropods. Evidence such as quill knobs on forearm bones showed that feather attachment could sometimes be inferred even when the feathers themselves were not preserved.
 

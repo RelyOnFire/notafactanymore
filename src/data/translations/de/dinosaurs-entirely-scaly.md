@@ -14,7 +14,7 @@ sourceNotes:
 - "Fasst Fossilbelege zusammen, die Federn bei Dinosauriern wie Velociraptor anzeigen."
 ---
 
-Über den größten Teil der Geschichte der Dinosaurierrekonstruktion gab es gute Gründe, Nichtvogeldinosaurier mit reptilienartigen Schuppen darzustellen. Fossile Hautabdrücke belegten Schuppen bei manchen Arten, während Federn von Vögeln und dem vogelähnlichen *Archaeopteryx* bekannt waren. Ohne direkte Belege wäre es selbst Spekulation gewesen, Federn großzügig auf den gesamten Dinosaurierstammbaum zu übertragen.
+Über den größten Teil der Geschichte der Dinosaurierrekonstruktion gab es gute Gründe, Nichtvogeldinosaurier – also Dinosaurier außerhalb der Vögel – mit reptilienartigen Schuppen darzustellen. Fossile Hautabdrücke belegten Schuppen bei manchen Arten, während Federn von Vögeln und dem vogelähnlichen *Archaeopteryx* bekannt waren. Ohne direkte Belege wäre es selbst Spekulation gewesen, Federn großzügig auf den gesamten Dinosaurierstammbaum zu übertragen.
 
 Außergewöhnlich gut erhaltene Fossilien veränderten dieses Bild. Ab den 1990er-Jahren bewahrten Fundstätten im Nordosten Chinas feine Körperbedeckungen rund um die Skelette von Nichtvogeldinosauriern. *Sinosauropteryx* wurde mit einem Saum filamentartiger Strukturen beschrieben; spätere Funde zeigten zunehmend komplexe Federn bei vielen Theropoden. Befunde wie Ansatzstellen für Federkiele an Unterarmknochen machten Federn teils sogar dann nachweisbar, wenn die Federn selbst nicht fossil erhalten waren.
 

@@ -3,7 +3,7 @@ locale: de
 entryId: white-light-is-simple
 sourceReviewedAt: '2026-08-13'
 claim: Weißes Licht ist eine einfache, einheitliche Art von Licht, während Prismen und andere transparente Körper die in einem Spektrum sichtbaren Farben erzeugen oder verändern.
-currentUnderstanding: Weißes Licht kann eine Mischung verschiedener Wellenlängen enthalten. Ein Prisma trennt unterschiedliche Wellenlängen, weil der Brechungsindex von der Wellenlänge abhängt; es erzeugt die Spektralfarben nicht erst aus zuvor farblosem Licht.
+currentUnderstanding: "Weißes Licht kann eine Mischung verschiedener Wellenlängen enthalten. Ein Prisma trennt sie, weil sein Brechungsindex – ein Maß dafür, wie stark das Material Licht ablenkt – von der Wellenlänge abhängt. Das Prisma trennt daher bereits im einfallenden Licht enthaltene Farben, statt sie erst aus farblosem Licht zu erzeugen."
 whyItChanged: Newtons Prismenexperimente zeigten, dass verschiedenfarbige Strahlen unterschiedlich stark gebrochen werden und dass getrennte Farben wieder zu weißem Licht vereinigt werden können. Seine Experimente mit zwei Prismen sollten zeigen, dass die Farben Eigenschaften des einfallenden Lichts waren und nicht Unregelmäßigkeiten, die vom Glas erzeugt wurden.
 acceptedApproximately: Optische Theorien vor Newton, besonders im 17. Jahrhundert
 changedApproximately: 1666–1672

@@ -1,6 +1,6 @@
 ---
 claim: "A stable material only one atom thick cannot exist on its own."
-currentUnderstanding: "Graphene and many other two-dimensional materials can exist as stable, free-standing or supported sheets only one atomic layer thick."
+currentUnderstanding: "Graphene—a sheet of carbon only one atom thick—and many other two-dimensional materials can exist as stable, free-standing or supported layers only one atomic layer thick."
 whyItChanged: "Thermal fluctuations were expected to destabilize perfectly two-dimensional crystals. In 2004, researchers isolated graphene from graphite and measured its unusual electronic properties; later microscopy showed that slight rippling helps stabilize real sheets."
 status: "Overturned"
 category: "Materials Science"
@@ -30,6 +30,6 @@ sources:
     note: "Reviews why two-dimensional crystals had been considered unstable and how graphene changed that view."
 ---
 
-Real graphene is not a perfectly flat mathematical plane. It ripples, bends, contains defects, and often interacts with a substrate or surrounding material.
+Graphene is a single layer of carbon atoms arranged in a honeycomb-like lattice. Real graphene is not a perfectly flat mathematical plane. It ripples, bends, contains defects, and often interacts with a substrate or surrounding material.
 
 The result nevertheless established a genuine class of atomically thin materials, including semiconductors, insulators, magnets, and superconductors.

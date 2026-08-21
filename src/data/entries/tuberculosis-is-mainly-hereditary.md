@@ -34,7 +34,7 @@ Tuberculosis often ran through families. In an era before germ theory, that patt
 
 The disease also had a long, variable course. Some exposed people never became visibly ill, while others wasted away over months or years, reinforcing the idea that individual constitution was central.
 
-Robert Koch changed the causal framework in 1882 by identifying the tubercle bacillus and demonstrating a specific infectious agent associated with the disease.
+Robert Koch changed the causal framework in 1882 by identifying the bacterium that causes tuberculosis, *Mycobacterium tuberculosis*. It was historically called the tubercle bacillus; a bacillus is a rod-shaped bacterium.
 
 That did not make heredity irrelevant. Genetic variation strongly influences immune responses to *Mycobacterium tuberculosis*, and host factors help determine whether infection remains latent or progresses to active disease.
 

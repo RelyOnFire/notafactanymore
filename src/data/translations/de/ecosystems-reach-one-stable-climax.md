@@ -14,7 +14,7 @@ sourceNotes:
 - "Beschreibt unterschiedliche stabile Ökosystemzustände, die durch verschiedene Rückkopplungen erhalten werden."
 ---
 
-Frederic Clements gab der Ökologie des frühen 20. Jahrhunderts eines ihrer einflussreichsten Ordnungskonzepte. Nach einer Störung sollte sich die Vegetation in einer geordneten Abfolge von Gemeinschaften entwickeln, bis sie eine reife Klimaxgemeinschaft erreicht, die vor allem durch das regionale Klima bestimmt wird. Clements verglich diesen Prozess mit der Entwicklung eines Organismus bis zum Erwachsenenstadium.
+Frederic Clements gab der Ökologie des frühen 20. Jahrhunderts eines ihrer einflussreichsten Ordnungskonzepte. Nach einer Störung sollte sich die Vegetation in einer geordneten Abfolge von Gemeinschaften entwickeln – einem Prozess, den man ökologische Sukzession nennt –, bis sie eine reife Klimaxgemeinschaft erreicht, die vor allem durch das regionale Klima bestimmt wird. Clements verglich diesen Prozess mit der Entwicklung eines Organismus bis zum Erwachsenenstadium.
 
 Das Modell machte Sukzession verständlich, doch Feldökologie widersetzte sich zunehmend seiner starken Determiniertheit. Arten reagierten häufig individuell statt als eng integrierte Gemeinschaft. Feuer, Stürme, Beweidung und andere Störungen konnten wiederkehren, bevor sich überhaupt ein dauerhafter Endzustand bildete. Unterschiede darin, welche Arten wann ein Gebiet besiedelten, konnten ähnliche Standorte auf verschiedene Entwicklungspfade schicken.
 

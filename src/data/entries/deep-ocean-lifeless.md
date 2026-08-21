@@ -29,6 +29,6 @@ In the 1840s, naturalist Edward Forbes proposed an azoic zone: below roughly 300
 
 The boundary began to collapse as better dredges reached farther down. Expeditions in the late 1860s recovered living animals from depths approaching 2,400 fathoms. The *Challenger* expedition of 1872–1876 then sampled the deep ocean systematically and found life across a huge range of depths, replacing a hypothetical biological cutoff with direct observations.
 
-Modern exploration has extended that story to abyssal plains and the deepest trenches. Deep-sea communities can survive on organic material sinking from above, chemical energy from the seafloor, and other pathways.
+Modern exploration has extended that story to abyssal plains and the deepest trenches. Deep-sea communities can survive on organic material sinking from above and, in some places, on chemosynthesis—using energy from chemical reactions rather than sunlight to make organic matter—as well as other energy pathways.
 
 Forbes' hypothesis had already attracted challenges before the decisive expeditions. The correction is therefore not that everyone accepted a precise global boundary, but that an influential proposed limit proved dramatically too shallow.

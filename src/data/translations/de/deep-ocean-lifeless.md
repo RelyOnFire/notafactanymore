@@ -17,6 +17,6 @@ In den 1840er-Jahren formulierte der Naturforscher Edward Forbes die Hypothese e
 
 Mit besseren Dredgen begann diese Grenze zu zerfallen. Expeditionen der späten 1860er-Jahre holten lebende Tiere aus Tiefen von annähernd 2.400 Faden. Die *Challenger*-Expedition von 1872 bis 1876 untersuchte die Tiefsee anschließend systematisch und fand Leben über ein enormes Tiefenspektrum hinweg. Eine hypothetische biologische Grenze wurde damit durch direkte Beobachtung ersetzt.
 
-Moderne Forschung hat diese Geschichte bis in die abyssalen Ebenen und tiefsten Meeresgräben fortgeführt. Tiefseegemeinschaften können von organischem Material leben, das von oben herabsinkt, von chemischer Energie am Meeresboden und von weiteren Stoffwechselwegen.
+Moderne Forschung hat diese Geschichte bis in die abyssalen Ebenen und tiefsten Meeresgräben fortgeführt. Tiefseegemeinschaften können von organischem Material leben, das von oben herabsinkt, und an manchen Orten von Chemosynthese – also der Nutzung chemischer Reaktionen statt Sonnenlicht, um organische Stoffe aufzubauen – sowie von weiteren Energiewegen.
 
 Forbes' Hypothese war schon vor ihrer endgültigen Widerlegung umstritten. Die Korrektur lautet daher nicht, dass alle Fachleute eine exakt globale 300-Faden-Grenze akzeptierten, sondern dass eine einflussreiche angenommene Lebensgrenze sich als drastisch zu flach erwies.

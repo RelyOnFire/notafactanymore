@@ -3,7 +3,7 @@ locale: de
 entryId: pellagra-is-an-infectious-disease
 sourceReviewedAt: '2026-08-20'
 claim: Pellagra ist eine Infektionskrankheit, die sich in armen Gemeinschaften ausbreitet.
-currentUnderstanding: Primäre Pellagra wird durch einen schweren Mangel an Niacin oder dessen Vorstufe Tryptophan verursacht. Sie kann auch entstehen, wenn Krankheiten oder Medikamente Aufnahme oder Stoffwechsel beeinträchtigen.
+currentUnderstanding: "Primäre Pellagra wird durch einen schweren Mangel an Niacin (Vitamin B3) oder an Tryptophan verursacht, einer Aminosäure, aus der der Körper Niacin bilden kann. Sie kann auch entstehen, wenn Krankheiten oder Medikamente Aufnahme oder Stoffwechsel beeinträchtigen."
 whyItChanged: Joseph Goldberger zeigte, dass Pellagra mit einseitiger Ernährung zusammenhing und durch bessere Nahrung verhindert werden konnte. Er und seine Kollegen setzten sich außerdem Material von Erkrankten aus, ohne selbst zu erkranken.
 acceptedApproximately: Spätes 19. bis frühes 20. Jahrhundert
 changedApproximately: 1910er- bis 1930er-Jahre
@@ -20,6 +20,6 @@ Joseph Goldberger fiel jedoch ein Muster auf, das schlecht zu einer Infektion pa
 
 Goldberger und Kollegen gingen noch weiter und setzten sich selbst Blut, Sekreten und Hautmaterial von Pellagra-Patienten aus, ohne zu erkranken. Das war ein drastischer Test gegen die Annahme eines übertragbaren Erregers.
 
-Die ernährungsbedingte Erklärung wurde später genauer gefasst: Entscheidend ist ein schwerer Mangel an Niacin oder seiner Vorstufe Tryptophan. Besonders riskant waren Ernährungsweisen, die stark auf ungeeignet verarbeitetem Mais beruhten und zugleich wenig hochwertiges Protein enthielten.
+Die ernährungsbedingte Erklärung wurde später genauer gefasst: Entscheidend ist ein schwerer Mangel an Niacin, also Vitamin B3, oder an Tryptophan, einer Aminosäure, aus der der Körper Niacin bilden kann. Besonders riskant waren Ernährungsweisen mit viel ungeeignet verarbeitetem Mais und zugleich wenig hochwertigem Protein, weil sie zu wenig verwertbares Niacin lieferten.
 
 Pellagra kann auch heute aus anderen Gründen entstehen, etwa durch Malabsorption, Alkoholabhängigkeit, Stoffwechselerkrankungen oder bestimmte Medikamente. Der historische Irrtum bestand darin, ein gemeinsames Expositionsmuster mit Ansteckung zu verwechseln: Menschen wurden gemeinsam krank, weil sie dieselbe mangelhafte Ernährung teilten.

@@ -30,7 +30,7 @@ sources:
     note: "Describes contrasting stable ecosystem states maintained by different feedbacks."
 ---
 
-Frederic Clements gave early twentieth-century ecology one of its most influential organizing ideas. After disturbance, vegetation was expected to pass through an orderly sequence of communities until it reached a mature climax determined chiefly by regional climate. Clements compared the process to the development of an organism toward an adult form.
+Frederic Clements gave early twentieth-century ecology one of its most influential organizing ideas. After disturbance, vegetation was expected to pass through an orderly sequence of communities—a process called ecological succession—until it reached a mature climax community determined chiefly by regional climate. Clements compared the process to the development of an organism toward an adult form.
 
 That model made succession intelligible, but field ecology increasingly resisted its determinism. Species often responded individually rather than as a tightly integrated community. Fires, storms, grazing and other disturbances could recur before any permanent endpoint formed, while differences in colonization history could send superficially similar sites along different trajectories.
 

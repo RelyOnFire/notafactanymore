@@ -1,6 +1,6 @@
 ---
 claim: "Rickets is caused primarily by infection or poor hygiene."
-currentUnderstanding: "Most nutritional rickets results from inadequate vitamin D, calcium, or phosphate. Limited sunlight, diet, malabsorption, and some inherited disorders can all contribute."
+currentUnderstanding: "Most nutritional rickets results from inadequate vitamin D, calcium, or phosphate. These shortages impair bone mineralization—the hardening of growing bone with calcium- and phosphate-rich mineral. Limited sunlight, diet, malabsorption, and some inherited disorders can all contribute."
 whyItChanged: "Rickets was common in crowded industrial cities and often accompanied respiratory illness, making infection and hygiene plausible causes. Animal experiments, sunlight treatment, cod-liver oil, and vitamin D isolation established a nutritional and metabolic explanation."
 status: "Overturned"
 category: "Medicine"
@@ -36,7 +36,7 @@ Experiments gradually separated correlation from cause. Animal studies linked ab
 
 Sunlight proved just as important. Children exposed to ultraviolet light improved, connecting rickets to a factor that the body could generate in skin.
 
-That factor became identified as vitamin D, which is essential to calcium and phosphate metabolism and normal mineralization of growing bone.
+That factor became identified as vitamin D, which is essential to calcium and phosphate metabolism and to mineralization—the process by which growing bone is hardened with mineral.
 
 The new model also explained why rickets clustered in polluted northern cities: limited sunlight and restricted diets could occur together in the same disadvantaged populations that also experienced more infectious disease.
 

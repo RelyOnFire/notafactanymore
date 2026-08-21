@@ -1,6 +1,6 @@
 ---
 claim: White light is a simple, uniform kind of light, while prisms and other transparent bodies create or modify the colors seen in a spectrum.
-currentUnderstanding: White light can contain a mixture of wavelengths. A prism separates different wavelengths because the refractive index depends on wavelength; it does not manufacture the spectral colors from otherwise colorless light.
+currentUnderstanding: "White light can contain a mixture of wavelengths. A prism separates them because its refractive index—how strongly it bends light—changes with wavelength. The prism therefore separates colors already present in the incoming light rather than manufacturing them from colorless light."
 whyItChanged: Newton's prism experiments showed that differently colored rays have different refrangibilities and that separated colors can be recombined to make white light. His two-prism experiments were designed to show that the colors were properties of the incoming light rather than irregularities produced by the glass.
 status: Overturned
 category: Physics

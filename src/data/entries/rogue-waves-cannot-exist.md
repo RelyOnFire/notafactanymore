@@ -37,6 +37,6 @@ On 1 January 1995, instruments on the Draupner oil platform in the North Sea rec
 
 Rogue-wave research expanded rapidly afterward. Extreme waves can arise through several mechanisms, including ordinary statistical chance, interaction between wave groups, focusing by currents, directional effects, and nonlinear dynamics.
 
-There is no single mechanism behind every event, and definitions differ somewhat depending on whether height is compared with nearby waves or the significant wave height of the sea state.
+There is no single mechanism behind every event. A common statistical reference is the significant wave height, roughly the average height of the highest one-third of waves in a sea state; rogue-wave definitions compare an extreme wave with that surrounding baseline.
 
 The revised science does not validate every dramatic maritime story. It establishes the narrower point that isolated waves far larger than their surroundings are physically real and measurable.

@@ -3,7 +3,7 @@ locale: de
 entryId: stable-free-radicals-cannot-be-isolated
 sourceReviewedAt: '2026-08-20'
 claim: Stabile organische freie Radikale können nicht isoliert werden.
-currentUnderstanding: Einige freie Radikale sind beständig genug, um hergestellt, gelagert, kristallisiert und untersucht zu werden. Ihre Stabilität kann durch Resonanz, sterische Abschirmung, elektronische Effekte oder Delokalisierung entstehen.
+currentUnderstanding: "Einige freie Radikale – Atome oder Moleküle mit einem ungepaarten Elektron – sind beständig genug, um hergestellt, gelagert, kristallisiert und untersucht zu werden. Ihre Stabilität kann durch Resonanz, sterische Abschirmung, elektronische Effekte oder Delokalisierung des ungepaarten Elektrons über das Molekül entstehen."
 whyItChanged: Chemiker des 19. Jahrhunderts scheiterten wiederholt daran, freie Kohlenstoffradikale zu isolieren, und hielten sie unter gewöhnlichen Bedingungen schließlich für unmöglich. 1900 stellte Moses Gomberg Triphenylmethyl her und argumentierte, es enthalte dreiwertigen Kohlenstoff. Trotz jahrelanger Skepsis eröffnete dies die Chemie freier Radikale.
 acceptedApproximately: Mitte des 19. Jahrhunderts bis 1900
 changedApproximately: 1900 bis 1930er-Jahre
@@ -14,7 +14,7 @@ sourceNotes:
 - Fasst die spätere Akzeptanz und die breite Bedeutung stabiler und reaktiver Radikale zusammen.
 ---
 
-In der Chemie des 19. Jahrhunderts wurde der Begriff „Radikal“ bereits für wiederkehrende Atomgruppen innerhalb von Verbindungen verwendet. Einen wirklich freien, kohlenstoffzentrierten Radikalzustand zu isolieren war jedoch eine andere Sache.
+In der Chemie des 19. Jahrhunderts wurde der Begriff „Radikal“ bereits für wiederkehrende Atomgruppen innerhalb von Verbindungen verwendet. Ein freies Radikal im modernen Sinn ist ein Atom oder Molekül mit einem ungepaarten Elektron; einen kohlenstoffzentrierten Vertreter tatsächlich zu isolieren war jedoch eine andere Sache.
 
 Wiederholte Fehlschläge und die gewöhnlichen Valenzregeln des Kohlenstoffs ließen solche Spezies zu reaktiv erscheinen, um unabhängig existieren zu können.
 

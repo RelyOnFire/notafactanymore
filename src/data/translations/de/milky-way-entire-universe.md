@@ -18,7 +18,7 @@ Zu Beginn des 20. Jahrhunderts war bekannt, dass die Milchstraße ein riesiges S
 
 Die Frage war offen genug, dass sie 1920 in der sogenannten Great Debate zwischen Harlow Shapley und Heber Curtis öffentlich ausgetragen wurde. Shapleys stark vergrößerte Schätzung der Milchstraße erleichterte es, die Spiralnebel innerhalb dieses Systems unterzubringen; Curtis vertrat dagegen eine extragalaktische Deutung.
 
-Entscheidend wurde schließlich nicht bloß ein schärferes Bild, sondern die Entfernungsmessung. Edwin Hubble identifizierte Cepheiden in der Andromeda-Nebelregion und nutzte deren Perioden-Leuchtkraft-Beziehung, um ihre Entfernung abzuschätzen. Sie lag weit außerhalb der damals bekannten Grenzen der Milchstraße.
+Entscheidend wurde schließlich nicht bloß ein schärferes Bild, sondern die Entfernungsmessung. Edwin Hubble identifizierte Cepheiden in der Andromeda-Nebelregion. Cepheiden werden in einem regelmäßigen Rhythmus heller und dunkler; aus der Länge dieses Zyklus lässt sich ihre tatsächliche Leuchtkraft ableiten. Vergleicht man diese mit ihrer beobachteten Helligkeit, kann man ihre Entfernung bestimmen. Hubbles Cepheiden lagen weit außerhalb der damals bekannten Grenzen der Milchstraße.
 
 Andromeda war damit keine nahe Wolke innerhalb unserer Galaxie, sondern eine eigene Galaxie. Vergleichbare Messungen erweiterten das bekannte Universum rasch von einem einzigen großen Sternsystem zu einem Kosmos voller Galaxien.
 

@@ -32,7 +32,7 @@ sources:
     note: "Describes the storage, endocrine, thermogenic, and insulin-related functions of adipose tissue."
 ---
 
-For much of modern physiology, white adipose tissue was described mainly as the body's fuel warehouse. Fat cells stored excess energy as triglycerides and released fatty acids when needed. That function is real and essential, but it encouraged the image of adipose tissue as metabolically passive packaging.
+For much of modern physiology, white adipose tissue—the body's fat tissue—was described mainly as a fuel warehouse. Fat cells stored excess energy as triglycerides and released fatty acids when needed. That function is real and essential, but it encouraged the image of adipose tissue as metabolically passive packaging.
 
 Research on circulating signals changed the picture. Adipose cells and the immune cells living among them were found to secrete numerous signaling molecules. The discovery of leptin in the 1990s was especially striking: a hormone produced by fat tissue could signal the brain about energy stores and influence appetite and metabolism.
 

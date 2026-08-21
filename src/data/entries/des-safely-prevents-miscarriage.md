@@ -34,7 +34,7 @@ DES was a powerful synthetic estrogen, and from the 1940s physicians prescribed 
 
 That evidence became uncomfortable early. A randomized clinical trial published in 1953 found that DES did not prevent miscarriage or the other pregnancy problems for which it was being given. Yet exposure continued for years, in part because established practice changed more slowly than the evidence.
 
-The decisive safety alarm came in 1971, when physicians reported an unusual cluster of clear-cell adenocarcinoma of the vagina in very young women. Prenatal DES exposure emerged as the striking common factor. Subsequent research documented additional reproductive and health effects, and regulators warned against its use in pregnancy.
+The decisive safety alarm came in 1971, when physicians reported an unusual cluster of clear-cell adenocarcinoma, a rare cancer of gland-like cells, in the vaginas of very young women. Prenatal DES exposure emerged as the striking common factor. Subsequent research documented additional reproductive and health effects, and regulators warned against its use in pregnancy.
 
 The episode therefore involved two different failures: the drug was ineffective for its intended preventive purpose, and some harms appeared only years later in the children who had been exposed before birth.
 

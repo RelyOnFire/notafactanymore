@@ -32,9 +32,9 @@ sources:
 
 For much of the twentieth century, newborn pain was underestimated. The neonatal nervous system was known to be immature, and crying or withdrawal during procedures could be interpreted as primitive reflexes rather than evidence of meaningful pain.
 
-That assumption had practical consequences. Some infants underwent major surgery with little analgesia beyond drugs intended to keep them still, partly because physicians also had legitimate concerns about the safety of anesthetics in tiny and critically ill patients.
+That assumption had practical consequences. Some infants underwent major surgery with little pain relief, or analgesia, beyond drugs intended to keep them still. Physicians also had legitimate concerns about anesthesia—the medicines used to prevent pain and awareness during surgery—in tiny and critically ill patients.
 
-Research in the 1980s made the physiological cost visible. Newborns exposed to surgery without adequate analgesia showed large hormonal and cardiovascular stress responses. Providing pain relief reduced those responses and improved physiological stability.
+Research in the 1980s made the physiological cost visible. Newborns exposed to surgery without adequate analgesia showed large hormonal and cardiovascular stress responses. Providing adequate analgesia reduced those responses and improved physiological stability.
 
 Subsequent work documented organized behavioral, autonomic, hormonal, and neural responses to painful stimulation. Neonatal pain prevention and treatment became a standard part of care.
 

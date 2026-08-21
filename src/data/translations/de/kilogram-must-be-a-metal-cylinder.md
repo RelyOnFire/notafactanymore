@@ -3,7 +3,7 @@ locale: de
 entryId: kilogram-must-be-a-metal-cylinder
 sourceReviewedAt: "2026-08-20"
 claim: "Ein Kilogramm muss durch die Masse eines bestimmten Metallzylinders definiert sein."
-currentUnderstanding: "Das Kilogramm wird heute definiert, indem der Zahlenwert der Planckschen Konstante festgelegt wird. Diese Definition lässt sich mit hochpräzisen elektrischen und mechanischen Messungen praktisch realisieren."
+currentUnderstanding: "Das Kilogramm wird nicht mehr durch einen einzelnen Gegenstand definiert. Stattdessen legt das SI einen exakten Wert für die Plancksche Konstante fest, eine fundamentale Naturkonstante, die Energie und Frequenz miteinander verknüpft; Labore realisieren das Kilogramm durch Präzisionsmessungen, die auf diesen Wert zurückgeführt werden."
 whyItChanged: "Der internationale Kilogrammprototyp diente mehr als ein Jahrhundert lang als Massenstandard. Vergleiche zeigten jedoch, dass physische Referenzkörper relativ zueinander geringfügig driften können. Fortschritte bei der Kibble-Waage und bei Verfahren zum Zählen von Atomen ermöglichten eine Definition über eine Naturkonstante."
 acceptedApproximately: "1889–2019"
 changedApproximately: "2019"
@@ -20,6 +20,6 @@ Das System funktionierte bemerkenswert gut, hatte aber eine grundsätzliche Schw
 
 Die Metrologie suchte deshalb nach einer Definition, die auf einer unveränderlichen Eigenschaft der Natur statt auf einem einzelnen Objekt beruht. Kibble-Waagen verknüpfen mechanische Leistung mit elektrischen Messgrößen; Verfahren zur Atomzählung lieferten einen unabhängigen Weg zur selben Massenskala.
 
-Mit der SI-Neudefinition von 2019 wurde der Zahlenwert der Planckschen Konstante festgelegt. Das Kilogramm wird seitdem durch Messungen realisiert, die auf diese Konstante zurückgeführt werden können, statt definitionsgemäß der Masse eines bestimmten Zylinders zu entsprechen.
+Mit der SI-Neudefinition von 2019 wurde ein exakter Zahlenwert für die Plancksche Konstante festgelegt, eine fundamentale Naturkonstante, die in der Quantenphysik Energie und Frequenz miteinander verknüpft. Das Kilogramm wird seitdem durch Messungen realisiert, die auf diesen festgelegten Wert zurückgeführt werden können, statt definitionsgemäß der Masse eines bestimmten Zylinders zu entsprechen.
 
 Physische Kilogrammnormale wurden dadurch nicht nutzlos. Labore verwenden sorgfältig erhaltene Massestücke weiterhin als praktische Vergleichs- und Transferstandards. Geändert hat sich die Grundlage der Einheit selbst.

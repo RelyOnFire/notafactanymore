@@ -30,7 +30,7 @@ sources:
     note: "States that routine or liberal episiotomy is not recommended for spontaneous vaginal birth."
 ---
 
-Episiotomy was introduced as a controlled surgical cut that could replace an unpredictable natural tear. The logic was persuasive: a clean incision might heal better, prevent severe perineal injury, protect the pelvic floor, and speed delivery.
+An episiotomy is a surgical cut in the perineum, the tissue between the vaginal opening and the anus. It was introduced as a controlled incision that could replace an unpredictable natural tear. The logic was persuasive: a clean incision might heal better, prevent severe perineal injury, protect the pelvic floor, and speed delivery.
 
 During the twentieth century, the procedure became routine in many hospitals even though those preventive benefits had not been established by strong trials.
 

@@ -18,7 +18,7 @@ Tuberkulose trat häufig innerhalb derselben Familien auf. Vor der Keimtheorie w
 
 Auch der lange und sehr unterschiedliche Krankheitsverlauf verstärkte diese Vorstellung. Manche exponierte Menschen blieben gesund, andere erkrankten schwer – ein Hinweis darauf, dass individuelle Konstitution offensichtlich eine Rolle spielte.
 
-Robert Koch veränderte 1882 den kausalen Rahmen, als er den Tuberkulosebazillus identifizierte und einen spezifischen infektiösen Erreger etablierte.
+Robert Koch veränderte 1882 den kausalen Rahmen, als er das Tuberkulose verursachende Bakterium *Mycobacterium tuberculosis* identifizierte. Historisch wurde es als Tuberkulosebazillus bezeichnet; Bazillus bezeichnet hier ein stäbchenförmiges Bakterium.
 
 Damit wurde Vererbung nicht bedeutungslos. Genetische Unterschiede beeinflussen Immunreaktionen auf *Mycobacterium tuberculosis* erheblich und tragen dazu bei, ob eine Infektion latent bleibt oder in eine aktive Erkrankung übergeht.
 

@@ -34,7 +34,7 @@ Newtonian mechanics treated time as a universal background. Every ideal clock in
 
 That assumption becomes incompatible with two experimentally supported ideas: the laws of physics are the same for inertial observers, and the speed of light in vacuum is invariant.
 
-Einstein's special relativity resolved the conflict by changing time itself. Moving observers can measure different intervals between the same events, and events simultaneous in one reference frame need not be simultaneous in another.
+Einstein's special relativity resolved the conflict by changing time itself. Two observers moving relative to one another can compare clocks and measure different elapsed times between events. They can also disagree about whether two distant events happened at the same time. This relativity of simultaneity is not a clock error; each measurement is consistent within the observer's reference frame.
 
 General relativity extended the revision. Clock rates also depend on gravity: clocks deeper in a gravitational field run differently from clocks higher up.
 

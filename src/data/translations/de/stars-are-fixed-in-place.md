@@ -3,7 +3,7 @@ locale: de
 entryId: stars-are-fixed-in-place
 sourceReviewedAt: "2026-08-13"
 claim: "Die Fixsterne bewegen sich nicht relativ zueinander."
-currentUnderstanding: "Sterne bewegen sich durch die Milchstraße und zeigen am Himmel eine messbare Eigenbewegung. Ihre scheinbaren Sternbilder verändern sich langsam, weil Sterne unterschiedliche Geschwindigkeiten und Entfernungen haben."
+currentUnderstanding: "Sterne bewegen sich durch die Milchstraße. Ihre langsame Positionsänderung am Himmel heißt Eigenbewegung und wird mit Astrometrie gemessen, also der präzisen Vermessung von Himmelspositionen. Sternbilder verändern sich daher über lange Zeiträume allmählich."
 whyItChanged: "Die enormen Entfernungen zu Sternen machen ihre Winkelbewegung über ein Menschenleben hinweg äußerst klein. 1718 verglich Edmond Halley damalige Positionen mit antiken Katalogen und erkannte auffällige Verschiebungen bei Sirius, Arktur und Aldebaran."
 acceptedApproximately: "Ptolemäische Astronomie bis ins frühe 18. Jahrhundert"
 changedApproximately: "1738 (erster statistisch signifikanter Nachweis stellarer Eigenbewegung)"
@@ -23,4 +23,4 @@ Diese scheinbare Stabilität passte gut zur antiken und mittelalterlichen Sterna
 
 Ironischerweise halfen gerade diese alten Kataloge später, die Grenze dieser Vorstellung aufzudecken. Edmond Halley verglich Sternpositionen des 18. Jahrhunderts mit antiken und frühneuzeitlichen Messungen und argumentierte 1717/1718, mehrere helle Sterne hätten sich bewegt. Moderne Neuanalysen zeigen, dass Halleys Belege statistisch nicht sicher waren. Jacques Cassinis Arbeit über Arktur aus dem Jahr 1738 liefert einen saubereren ersten signifikanten Nachweis stellarer Eigenbewegung.
 
-Moderne Astrometrie macht aus diesem winzigen Effekt eine umfassende kinematische Karte. Sterne bewegen sich mit unterschiedlichen Geschwindigkeiten und in unterschiedlichen Entfernungen durch die Milchstraße; ihre Sternbilder wirken nur deshalb fix, weil die stellaren Distanzen gewaltig und menschliche Lebensspannen kurz sind.
+Moderne Astrometrie – die präzise Vermessung von Himmelspositionen – macht aus dieser winzigen Eigenbewegung eine umfassende Karte stellarer Bewegung. Sterne bewegen sich mit unterschiedlichen Geschwindigkeiten und in unterschiedlichen Entfernungen durch die Milchstraße; ihre Sternbilder wirken nur deshalb fix, weil die Entfernungen gewaltig und menschliche Lebensspannen kurz sind.

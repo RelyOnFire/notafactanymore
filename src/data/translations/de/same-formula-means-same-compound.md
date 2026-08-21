@@ -14,6 +14,6 @@ sourceNotes:
 - "Erklärt Konstitutions- und Stereoisomerie."
 ---
 
-Eine Summenformel schränkt die möglichen Stoffe weiterhin stark ein, und analytische Methoden können Isomere voneinander unterscheiden.
+Isomere sind Verbindungen aus denselben Arten und Anzahlen von Atomen, deren Atome jedoch anders miteinander verknüpft oder im Raum anders angeordnet sind. Eine Summenformel schränkt die möglichen Stoffe daher stark ein, legt aber nicht automatisch eine einzige Struktur fest.
 
 Die Entdeckung der Isomerie war ein entscheidender Schritt zur Strukturchemie: Es reicht nicht zu wissen, welche Atome vorhanden sind; auch ihre Bindungen und räumliche Anordnung sind wichtig.

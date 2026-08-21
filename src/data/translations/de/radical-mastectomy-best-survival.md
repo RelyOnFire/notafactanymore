@@ -22,6 +22,6 @@ Randomisierte Studien prüften ab den 1970er-Jahren, ob mehr Operation tatsächl
 
 Für viele Frauen mit frühem Brustkrebs brachte die stärker entstellende Operation keinen Überlebensvorteil.
 
-Die Ergebnisse unterstützten zugleich ein systemischeres Verständnis der Brustkrebsbiologie: Mikroskopische Ausbreitung kann bereits früh stattfinden, während lokale Kontrolle und systemische Behandlung nach Tumoreigenschaften kombiniert werden müssen. Maximale Gewebeentfernung ist deshalb nicht automatisch die wirksamste Therapie.
+Die Ergebnisse unterstützten zugleich ein systemischeres Verständnis von Brustkrebs. Krebszellen können sich bereits über die Brust hinaus verbreitet haben, bevor ein Tumor entfernt wird; dann beseitigt die Entfernung von noch mehr umliegendem Gewebe nicht zwangsläufig bereits weitergewanderte Tumorzellen. Lokale Kontrolle und systemische Behandlung werden deshalb nach Tumoreigenschaften kombiniert, statt einfach möglichst viel Gewebe zu entfernen.
 
 Eine Mastektomie bleibt in vielen Situationen die richtige Operation, und eine brusterhaltende Behandlung eignet sich nicht für jede Patientin. Abgelöst wurde die allgemeine Regel, dass ein radikalerer chirurgischer Eingriff grundsätzlich die bessere Überlebenschance bietet.

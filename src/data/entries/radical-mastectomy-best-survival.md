@@ -38,6 +38,6 @@ Randomized trials tested whether more surgery actually produced better survival.
 
 For many women with early breast cancer, the more disfiguring operation did not improve overall survival.
 
-The results helped replace the purely local-spread model with a more systemic understanding of breast cancer biology and supported treatments tailored to tumor characteristics rather than simply maximizing tissue removal.
+The results helped replace the purely local-spread model with a more systemic understanding of breast cancer. Cancer cells can sometimes spread beyond the breast before a tumor is removed, so taking away more nearby tissue does not necessarily eliminate disease that has already traveled elsewhere. Treatment therefore became more tailored to tumor biology rather than simply maximizing tissue removal.
 
 Mastectomy remains the right operation in many circumstances, and breast-conserving therapy is not appropriate for every patient. The superseded rule is that greater surgical extent is inherently better cancer treatment.

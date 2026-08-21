@@ -16,7 +16,7 @@ sourceNotes:
 
 Während großer Teile des 20. Jahrhunderts wurde Schmerz bei Neugeborenen unterschätzt. Ihr Nervensystem war erkennbar unreif, und Weinen, Zurückziehen oder vegetative Reaktionen auf Eingriffe ließen sich als einfache Reflexe deuten, ohne ihnen ein bedeutsames Schmerzerleben zuzuschreiben.
 
-Diese Auffassung hatte direkte klinische Folgen. Manche Neugeborene wurden selbst bei größeren Operationen nur unzureichend analgetisch behandelt. Dazu kamen allerdings reale medizinische Bedenken: Narkosemittel konnten bei sehr kleinen, instabilen Säuglingen erhebliche Risiken bergen, und die Möglichkeiten zur Überwachung waren begrenzter als heute.
+Diese Auffassung hatte direkte klinische Folgen. Manche Neugeborene erhielten selbst bei größeren Operationen nur unzureichende Schmerzlinderung, fachsprachlich Analgesie. Dazu kamen allerdings reale medizinische Bedenken: Eine Anästhesie – also die medikamentöse Ausschaltung von Schmerz und gegebenenfalls Bewusstsein während eines Eingriffs – konnte bei sehr kleinen, instabilen Säuglingen erhebliche Risiken bergen, und die Möglichkeiten zur Überwachung waren begrenzter als heute.
 
 In den 1980er-Jahren zeigten Studien, dass unzureichend behandelte chirurgische Schmerzen bei Neugeborenen ausgeprägte hormonelle und kardiovaskuläre Stressreaktionen auslösen. Eine angemessene Analgesie verringerte diese Reaktionen und verbesserte die physiologische Stabilität.
 

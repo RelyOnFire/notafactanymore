@@ -30,6 +30,6 @@ sources:
     note: "Explains constitutional and stereochemical forms of isomerism."
 ---
 
-A molecular formula still places strong constraints on possible substances, and analytical techniques can distinguish isomers.
+Isomers are compounds built from the same kinds and numbers of atoms but arranged differently—either connected in a different order or positioned differently in three-dimensional space. A molecular formula therefore still places strong constraints on possible substances, but it does not identify a unique structure.
 
 The discovery of isomerism was a major step toward structural chemistry: knowing which atoms are present is not enough; their bonding and spatial arrangement also matter.

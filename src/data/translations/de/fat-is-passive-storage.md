@@ -14,7 +14,7 @@ sourceNotes:
 - "Beschreibt Speicher-, endokrine, thermogene und insulinbezogene Funktionen des Fettgewebes."
 ---
 
-Über weite Teile der modernen Physiologie wurde weißes Fettgewebe vor allem als Treibstofflager des Körpers beschrieben. Fettzellen speicherten überschüssige Energie als Triglyzeride und setzten bei Bedarf Fettsäuren frei. Diese Aufgabe ist real und unverzichtbar, förderte aber das Bild von Fettgewebe als metabolisch passiver Verpackung.
+Über weite Teile der modernen Physiologie wurde weißes Fettgewebe, fachsprachlich auch adipöses Gewebe, vor allem als Treibstofflager des Körpers beschrieben. Fettzellen speicherten überschüssige Energie als Triglyzeride und setzten bei Bedarf Fettsäuren frei. Diese Aufgabe ist real und unverzichtbar, förderte aber das Bild von Fettgewebe als metabolisch passiver Verpackung.
 
 Die Forschung an zirkulierenden Signalstoffen veränderte dieses Bild. Fettzellen und die zwischen ihnen lebenden Immunzellen produzieren zahlreiche Botenstoffe. Besonders eindrucksvoll war die Entdeckung von Leptin in den 1990er-Jahren: Ein vom Fettgewebe gebildetes Hormon kann dem Gehirn Informationen über Energiereserven vermitteln und Appetit sowie Stoffwechsel beeinflussen.
 

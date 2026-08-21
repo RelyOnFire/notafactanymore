@@ -153,8 +153,7 @@ const DISPLAY_CAP = 250;
   <section class="container methodology-note">
     <p>
       <strong>Diese Zeitspannen sind Näherungswerte.</strong> Jeder quantitativ vergleichbare Eintrag
-      behält seine lesbaren historischen Zeiträume; <code>acceptedYear</code> und <code>timelineYear</code>
-      dienen nur als repräsentative Anker für Sortierung und Vergleich. Ein Fachgebiet oder Unterricht
+      behält seine lesbaren historischen Zeiträume; <code>acceptedYear</code>{' '}und{' '}<code>timelineYear</code>{' '}dienen nur als repräsentative Anker für Sortierung und Vergleich. Ein Fachgebiet oder Unterricht
       kann eine ältere Auffassung noch verwenden, nachdem gegenteilige Evidenz erschienen ist. Die Zahlen
       sind daher keine exakten Zeitpunkte eines universellen Konsenses. {nonComparableItems.length} Einträge
       sind bewusst von den Lebensdauerstatistiken ausgeschlossen, weil ihre Akzeptanzgrenze zu diffus ist,
@@ -305,34 +304,12 @@ const DISPLAY_CAP = 250;
     </div>
   </section>
 
-  {nonComparableItems.length > 0 && (
-    <section class="container noncomparable-section">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Nicht in den Ranglisten</p>
-          <h2>Einträge ohne quantitative Lebensdauer</h2>
-          <p class="section-intro">Diese Einträge bleiben Teil des Katalogs, aber ihre Akzeptanzgrenze ist zu diffus, umstritten oder historisch gemischt für eine vertretbare einzelne Lebensdauer.</p>
-        </div>
-      </div>
-      <div class="noncomparable-list">
-        {nonComparableItems
-          .sort((a, b) => a.translation.data.claim.localeCompare(b.translation.data.claim, 'de'))
-          .map(({ entry, translation }) => (
-            <a href={`/de/entries/${entry.id}/`}>
-              <strong>{translation.data.claim}</strong>
-              <span>{translation.data.acceptedApproximately} → {translation.data.changedApproximately}</span>
-            </a>
-          ))}
-      </div>
-    </section>
-  )}
-
   <section class="container explorer">
     <div class="section-heading">
       <div>
         <p class="eyebrow">Alle Lebensdauern erkunden</p>
         <h2>Akzeptanz → Änderung</h2>
-        <p class="section-intro">Durchsuche den Katalog und sortiere von den kürzesten zu den längsten Lebensdauern. Die Balkenlänge stellt die Dauer dar und wird bei {DISPLAY_CAP} Jahren gedeckelt, damit moderne kurzlebige Aussagen sichtbar bleiben; Datumsangaben und Dauer zeigen immer die vollständige ungefähre Spanne.</p>
+        <p class="section-intro">Der Explorer startet mit Chemie als überschaubarer Auswahl; mit „Alle Kategorien“ kannst du den gesamten Katalog anzeigen. Durchsuche und sortiere die Einträge von den kürzesten zu den längsten Lebensdauern. Die Balkenlänge stellt die Dauer dar und wird bei{' '}{DISPLAY_CAP}{' '}Jahren gedeckelt, damit moderne kurzlebige Aussagen sichtbar bleiben; Datumsangaben und Dauer zeigen immer die vollständige ungefähre Spanne.</p>
       </div>
     </div>
 
@@ -386,6 +363,30 @@ const DISPLAY_CAP = 250;
     </div>
     <noscript><p class="noscript-note">Suche, Filter und Sortierung benötigen JavaScript. Ohne JavaScript werden die Einträge mit der kürzesten Lebensdauer zuerst angezeigt.</p></noscript>
   </section>
+
+  {nonComparableItems.length > 0 && (
+    <section class="container noncomparable-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Nicht in den Ranglisten</p>
+          <h2>Einträge ohne quantitative Lebensdauer</h2>
+          <p class="section-intro">Diese Einträge bleiben Teil des Katalogs, aber ihre Akzeptanzgrenze ist zu diffus, umstritten oder historisch gemischt für eine vertretbare einzelne Lebensdauer.</p>
+        </div>
+      </div>
+      <div class="noncomparable-list">
+        {nonComparableItems
+          .sort((a, b) => a.translation.data.claim.localeCompare(b.translation.data.claim, 'de'))
+          .map(({ entry, translation }) => (
+            <a href={`/de/entries/${entry.id}/`}>
+              <strong>{translation.data.claim}</strong>
+              <span>{translation.data.acceptedApproximately} → {translation.data.changedApproximately}</span>
+            </a>
+          ))}
+      </div>
+    </section>
+  )}
+
+  
 
   <script>
     const comparisonSelectA = document.querySelector<HTMLSelectElement>('.comparison-select-a');
@@ -512,8 +513,22 @@ const DISPLAY_CAP = 250;
     const requestedSort = url.searchParams.get('sort');
     if (requestedSort === 'longest' || requestedSort === 'newest' || requestedSort === 'oldest') currentSort = requestedSort;
     if (searchInput) searchInput.value = url.searchParams.get('q') ?? '';
-    const requestedCategory = url.searchParams.get('category') ?? '';
-    if (categorySelect && [...categorySelect.options].some((option) => option.value === requestedCategory)) categorySelect.value = requestedCategory;
+    const requestedCategory = url.searchParams.get('category');
+    if (categorySelect) {
+      if (
+        requestedCategory &&
+        [...categorySelect.options].some((option) => option.value === requestedCategory)
+      ) {
+        categorySelect.value = requestedCategory;
+      } else if (
+        !url.searchParams.has('q') &&
+        !url.searchParams.has('status') &&
+        !url.searchParams.has('sort') &&
+        [...categorySelect.options].some((option) => option.value === 'Chemistry')
+      ) {
+        categorySelect.value = 'Chemistry';
+      }
+    }
     const requestedStatus = url.searchParams.get('status') ?? '';
     if (statusSelect && [...statusSelect.options].some((option) => option.value === requestedStatus)) statusSelect.value = requestedStatus;
     if (sortSelect) sortSelect.value = currentSort;
@@ -599,7 +614,10 @@ const DISPLAY_CAP = 250;
   .lifespan-controls select { cursor: pointer; }
   .lifespan-results { margin: 1rem 0; color: var(--muted); font-size: .9rem; }
   .lifespan-list { display: grid; gap: .8rem; }
-  .lifespan-entry { display: grid; grid-template-columns: minmax(15rem,.9fr) minmax(20rem,1.1fr); gap: 1.5rem; align-items: center; padding: 1rem 1.15rem; border: 1px solid var(--line); background: var(--card); }
+  .lifespan-entry {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .8rem; align-items: center; padding: 1rem 1.15rem; border: 1px solid var(--line); background: var(--card); }
   .lifespan-entry[hidden] { display: none; }
   .entry-copy h3 { margin: 0; font-size: 1rem; line-height: 1.3; }
   .entry-copy h3 a { text-decoration: none; }

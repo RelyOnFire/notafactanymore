@@ -165,8 +165,7 @@ const DISPLAY_CAP = 250;
   <section class="container methodology-note">
     <p>
       <strong>These durations are approximate.</strong> Each quantitatively comparable entry keeps its
-      human-readable historical ranges, while <code>acceptedYear</code> and
-      <code>timelineYear</code> provide representative landmarks for ordering
+      human-readable historical ranges, while <code>acceptedYear</code>{' '}and{' '}<code>timelineYear</code>{' '}provide representative landmarks for ordering
       and comparison. A field or classroom can continue using an older view
       after contrary evidence appears, so these numbers are not exact dates of
       universal consensus. {nonComparableEntries.length} entries are deliberately excluded from
@@ -386,30 +385,6 @@ const DISPLAY_CAP = 250;
     </div>
   </section>
 
-  {nonComparableEntries.length > 0 && (
-    <section class="container noncomparable-section">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Kept out of the rankings</p>
-          <h2>Entries not assigned a quantitative lifespan</h2>
-          <p class="section-intro">
-            These remain part of the catalogue, but their acceptance boundary is too diffuse, contested, or historically mixed for a defensible single-number lifespan.
-          </p>
-        </div>
-      </div>
-      <div class="noncomparable-list">
-        {nonComparableEntries
-          .sort((a, b) => a.data.claim.localeCompare(b.data.claim))
-          .map((entry) => (
-            <a href={`/entries/${entry.id}/`}>
-              <strong>{entry.data.claim}</strong>
-              <span>{entry.data.acceptedApproximately} → {entry.data.changedApproximately}</span>
-            </a>
-          ))}
-      </div>
-    </section>
-  )}
-
   <section class="container explorer">
     <div class="section-heading">
       <div>
@@ -417,9 +392,11 @@ const DISPLAY_CAP = 250;
         <h2>Acceptance → change</h2>
         <p class="section-intro">
           Search the catalogue and sort it from the shortest-lived claims to
-          the longest. Bar length represents lifespan and is capped at
-          {DISPLAY_CAP} years so modern short-lived claims remain visible; the
-          printed dates and duration always show the full approximate span.
+          the longest. The explorer starts with Chemistry as a manageable sample;
+          choose All categories to see the full catalogue. Bar length represents
+          lifespan and is capped at{' '}{DISPLAY_CAP}{' '}years so modern short-lived
+          claims remain visible; the printed dates and duration always show the
+          full approximate span.
         </p>
       </div>
     </div>
@@ -524,6 +501,32 @@ const DISPLAY_CAP = 250;
       </p>
     </noscript>
   </section>
+
+  {nonComparableEntries.length > 0 && (
+    <section class="container noncomparable-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Kept out of the rankings</p>
+          <h2>Entries not assigned a quantitative lifespan</h2>
+          <p class="section-intro">
+            These remain part of the catalogue, but their acceptance boundary is too diffuse, contested, or historically mixed for a defensible single-number lifespan.
+          </p>
+        </div>
+      </div>
+      <div class="noncomparable-list">
+        {nonComparableEntries
+          .sort((a, b) => a.data.claim.localeCompare(b.data.claim))
+          .map((entry) => (
+            <a href={`/entries/${entry.id}/`}>
+              <strong>{entry.data.claim}</strong>
+              <span>{entry.data.acceptedApproximately} → {entry.data.changedApproximately}</span>
+            </a>
+          ))}
+      </div>
+    </section>
+  )}
+
+  
 
   <script>
     const comparisonSelectA = document.querySelector<HTMLSelectElement>('.comparison-select-a');
@@ -727,12 +730,21 @@ const DISPLAY_CAP = 250;
 
     if (searchInput) searchInput.value = url.searchParams.get('q') ?? '';
 
-    const requestedCategory = url.searchParams.get('category') ?? '';
-    if (
-      categorySelect &&
-      [...categorySelect.options].some((option) => option.value === requestedCategory)
-    ) {
-      categorySelect.value = requestedCategory;
+    const requestedCategory = url.searchParams.get('category');
+    if (categorySelect) {
+      if (
+        requestedCategory &&
+        [...categorySelect.options].some((option) => option.value === requestedCategory)
+      ) {
+        categorySelect.value = requestedCategory;
+      } else if (
+        !url.searchParams.has('q') &&
+        !url.searchParams.has('status') &&
+        !url.searchParams.has('sort') &&
+        [...categorySelect.options].some((option) => option.value === 'Chemistry')
+      ) {
+        categorySelect.value = 'Chemistry';
+      }
     }
 
     const requestedStatus = url.searchParams.get('status') ?? '';
@@ -1163,8 +1175,8 @@ const DISPLAY_CAP = 250;
 
   .lifespan-entry {
     display: grid;
-    grid-template-columns: minmax(15rem, .9fr) minmax(20rem, 1.1fr);
-    gap: 1.5rem;
+    grid-template-columns: 1fr;
+    gap: .8rem;
     align-items: center;
     padding: 1rem 1.15rem;
     border: 1px solid var(--line);

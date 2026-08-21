@@ -26,8 +26,8 @@ const lifespan = lifespanYears(data.acceptedYear, data.timelineYear);
 const lifespanComparable = data.lifespanComparable !== false;
 const entryHref = locale === 'de' ? `/de/entries/${entry.id}/` : `/entries/${entry.id}/`;
 const categoryHref = locale === 'de'
-  ? `/de/browse?category=${encodeURIComponent(data.category)}`
-  : `/categories/${data.category.toLowerCase()}/`;
+  ? `/de/categories/${encodeURIComponent(data.category.toLowerCase())}/`
+  : `/categories/${encodeURIComponent(data.category.toLowerCase())}/`;
 
 const labels = locale === 'de'
   ? {

@@ -260,7 +260,7 @@ const DISPLAY_CAP = 250;
         <tbody>
           {categoryStats.map((item) => (
             <tr>
-              <th scope="row">{item.label}</th>
+              <th scope="row"><a href={`/de/categories/${encodeURIComponent(item.category.toLowerCase())}/`}>{item.label}</a></th>
               <td>{item.count}</td>
               <td>{formatApproxYearsLocalized(item.median, 'de')}</td>
               <td>{item.count === 1 ? <span class="range-unavailable" title="Eine Spannweite erfordert mindestens zwei Einträge" aria-label="Beobachtete Spannweite nicht verfügbar">—</span> : <>{formatApproxYearsLocalized(item.min, 'de')} – {formatApproxYearsLocalized(item.max, 'de')}</>}</td>
@@ -651,5 +651,15 @@ const DISPLAY_CAP = 250;
     .century-counts { grid-column: 1; }
     .ranked-list li { grid-template-columns: 1fr; gap: .45rem; }
     .lifespan-entry { padding: .9rem; }
+  }
+
+  .category-section tbody th a {
+    color: var(--ink);
+    text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent);
+    text-underline-offset: .16em;
+  }
+  .category-section tbody th a:hover,
+  .category-section tbody th a:focus-visible {
+    color: var(--accent-dark);
   }
 </style>

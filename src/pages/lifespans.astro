@@ -320,7 +320,7 @@ const DISPLAY_CAP = 250;
         <tbody>
           {categoryStats.map((item) => (
             <tr>
-              <th scope="row">{item.category}</th>
+              <th scope="row"><a href={`/categories/${encodeURIComponent(item.category.toLowerCase())}/`}>{item.category}</a></th>
               <td>{item.count}</td>
               <td>{formatApproxYears(item.median)}</td>
               <td>
@@ -1400,4 +1400,14 @@ const DISPLAY_CAP = 250;
     font-size: .82rem;
   }
 
+
+  .category-section tbody th a {
+    color: var(--ink);
+    text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent);
+    text-underline-offset: .16em;
+  }
+  .category-section tbody th a:hover,
+  .category-section tbody th a:focus-visible {
+    color: var(--accent-dark);
+  }
 </style>

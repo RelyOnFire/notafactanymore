@@ -1,37 +1,58 @@
 ---
 import { getCollection } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import FactCard from '../../components/FactCard.astro';
-import CompactClaim from '../../components/CompactClaim.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import FactCard from '../../../components/FactCard.astro';
+import CompactClaim from '../../../components/CompactClaim.astro';
+import {
+  categoryLabel,
+  formatApproxYearsLocalized,
+  statusLabel,
+  translationMatchesEntry,
+} from '../../../lib/i18n';
 import {
   centuryLabel,
   formatApproxYears,
   formatHistoricalYear,
   lifespanYears,
   median,
-} from '../../lib/lifespans';
+} from '../../../lib/lifespans';
 
 export async function getStaticPaths() {
   const entries = await getCollection('entries');
-  const categories = [...new Set(entries.map((entry) => entry.data.category))].sort();
+  const translations = await getCollection(
+    'entryTranslations',
+    (translation) => translation.data.locale === 'de',
+  );
+
+  const translatedEntries = entries.flatMap((entry) => {
+    const translation = translations.find(
+      (candidate) =>
+        candidate.data.entryId === entry.id &&
+        translationMatchesEntry(entry, candidate),
+    );
+    return translation ? [{ entry, translation }] : [];
+  });
+
+  const categories = [...new Set(translatedEntries.map(({ entry }) => entry.data.category))].sort();
 
   return categories.map((category) => ({
     params: { category: category.toLowerCase() },
     props: {
       category,
-      entries: entries.filter((entry) => entry.data.category === category),
+      items: translatedEntries.filter(({ entry }) => entry.data.category === category),
     },
   }));
 }
 
-const { category, entries } = Astro.props;
+const { category, items } = Astro.props;
+const entries = items.map(({ entry }) => entry);
 
 const statusStats = [...new Set(entries.map((entry) => entry.data.status))]
   .map((status) => ({
     status,
     count: entries.filter((entry) => entry.data.status === status).length,
   }))
-  .sort((a, b) => b.count - a.count || a.status.localeCompare(b.status));
+  .sort((a, b) => b.count - a.count || statusLabel(a.status, 'de').localeCompare(statusLabel(b.status, 'de'), 'de'));
 
 const comparableEntries = entries.filter((entry) => entry.data.lifespanComparable !== false);
 const categoryMedian = comparableEntries.length
@@ -40,59 +61,68 @@ const categoryMedian = comparableEntries.length
 
 const oldestChange = Math.min(...entries.map((entry) => entry.data.timelineYear));
 const newestChange = Math.max(...entries.map((entry) => entry.data.timelineYear));
+const categoryName = categoryLabel(category, 'de');
 
-const sortedEntries = [...entries].sort(
+const formatHistoricalYearDe = (year: number) => year < 0 ? `${Math.abs(year)} v. Chr.` : String(year);
+const centuryLabelDe = (year: number) => {
+  if (year <= 0) return 'v. Chr.';
+  const century = Math.floor((year - 1) / 100) + 1;
+  return `${century}. Jahrhundert`;
+};
+
+const sortedItems = [...items].sort(
   (a, b) =>
-    b.data.timelineYear - a.data.timelineYear ||
-    a.data.claim.localeCompare(b.data.claim, 'en', { sensitivity: 'base' }),
+    b.entry.data.timelineYear - a.entry.data.timelineYear ||
+    a.translation.data.claim.localeCompare(b.translation.data.claim, 'de', { sensitivity: 'base' }),
 );
 ---
 <BaseLayout
-  title={`${category} — Category`}
-  description={`Explore ${entries.length} catalogue entries in ${category}, with status, lifespan, chronology, filtering, grouping, and sorting.`}
-  alternatePath={`/de/categories/${encodeURIComponent(category.toLowerCase())}/`}
+  locale="de"
+  title={`${categoryName} — Kategorie`}
+  description={`Erkunde ${entries.length} Katalogeinträge in ${categoryName} mit Status, Lebensdauer, Chronologie, Filtern, Gruppierung und Sortierung.`}
+  alternatePath={`/categories/${encodeURIComponent(category.toLowerCase())}/`}
 >
   <header class="container page-head">
-    <p class="eyebrow">Category</p>
-    <h1>{category}</h1>
+    <p class="eyebrow">Kategorie</p>
+    <h1>{categoryName}</h1>
     <p class="page-intro">
-      Explore the {entries.length} {entries.length === 1 ? 'entry' : 'entries'} currently assigned to this
-      category. These counts describe this curated catalogue, not the size or rate of change of the field itself.
+      Erkunde die {entries.length} {entries.length === 1 ? 'Eintrag' : 'Einträge'}, die derzeit dieser
+      Kategorie zugeordnet sind. Die Zahlen beschreiben diesen kuratierten Katalog, nicht Größe oder Änderungsrate des Fachgebiets.
     </p>
   </header>
 
   <section class="container overview" aria-labelledby="category-overview-title">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">At a glance</p>
-        <h2 id="category-overview-title">What this category contains</h2>
+        <p class="eyebrow">Auf einen Blick</p>
+        <h2 id="category-overview-title">Was diese Kategorie enthält</h2>
       </div>
     </div>
 
     <div class="stats-grid">
       <article>
-        <span>Entries</span>
+        <span>Einträge</span>
         <strong>{entries.length}</strong>
-        <small>In this catalogue</small>
+        <small>In diesem Katalog</small>
       </article>
       <article>
-        <span>Statuses represented</span>
+        <span>Vertretene Status</span>
         <strong>{statusStats.length}</strong>
-        <small>{statusStats.map((item) => item.status).join(' · ')}</small>
+        <small>{statusStats.map((item) => statusLabel(item.status, 'de')).join(' · ')}</small>
       </article>
       <article>
-        <span>Median lifespan</span>
-        <strong>{categoryMedian === null ? '—' : formatApproxYears(categoryMedian)}</strong>
+        <span>Median der Lebensdauer</span>
+        <strong>{categoryMedian === null ? '—' : formatApproxYearsLocalized(categoryMedian, 'de')}</strong>
         <small>
           {comparableEntries.length === 0
-            ? 'No quantitatively comparable entries'
-            : `Across ${comparableEntries.length} quantitatively comparable ${comparableEntries.length === 1 ? 'entry' : 'entries'}`}
+            ? 'Keine quantitativ vergleichbaren Einträge'
+            : `${comparableEntries.length} quantitativ vergleichbare ${comparableEntries.length === 1 ? 'Eintrag' : 'Einträge'}`}
         </small>
       </article>
       <article>
-        <span>Representative changes</span>
-        <strong>{formatHistoricalYear(oldestChange)} → {formatHistoricalYear(newestChange)}</strong>
-        <small>Oldest to newest change anchor</small>
+        <span>Repräsentative Änderungen</span>
+        <strong>{formatHistoricalYearDe(oldestChange)} → {formatHistoricalYearDe(newestChange)}</strong>
+        <small>Ältester bis neuester Änderungsanker</small>
       </article>
     </div>
 
@@ -104,7 +134,7 @@ const sortedEntries = [...entries].sort(
           data-status={item.status}
           aria-pressed="false"
         >
-          <span>{item.status}</span>
+          <span>{statusLabel(item.status, 'de')}</span>
           <strong>{item.count}</strong>
           <i
             aria-hidden="true"
@@ -119,62 +149,62 @@ const sortedEntries = [...entries].sort(
     <div class="container">
       <div class="section-heading explorer-heading">
         <div>
-          <p class="eyebrow">Explore the entries</p>
-          <h2>Browse {category}</h2>
+          <p class="eyebrow">Einträge erkunden</p>
+          <h2>{categoryName} durchsuchen</h2>
           <p>
-            Filter the category, choose how entries are grouped, and change the ordering without leaving the page.
+            Filtere die Kategorie, wähle eine Gruppierung und ändere die Sortierung, ohne die Seite zu verlassen.
           </p>
         </div>
       </div>
 
-      <div class="controls" aria-label={`${category} category controls`}>
+      <div class="controls" aria-label={`Steuerung für die Kategorie ${categoryName}`}>
         <label class="search-field">
-          <span class="sr-only">Search this category</span>
-          <input class="category-search" type="search" placeholder={`Search ${category}…`} autocomplete="off" />
+          <span class="sr-only">Diese Kategorie durchsuchen</span>
+          <input class="category-search" type="search" placeholder={`${categoryName} durchsuchen…`} autocomplete="off" />
         </label>
 
         <label>
-          <span class="control-label">Lifespan</span>
+          <span class="control-label">Lebensdauer</span>
           <select class="lifespan-filter">
-            <option value="">All entries</option>
-            <option value="quantified">Quantified lifespan</option>
-            <option value="unquantified">Not quantified</option>
+            <option value="">Alle Einträge</option>
+            <option value="quantified">Quantifizierte Lebensdauer</option>
+            <option value="unquantified">Nicht quantifiziert</option>
           </select>
         </label>
 
         <label>
-          <span class="control-label">Sort</span>
+          <span class="control-label">Sortierung</span>
           <select class="sort-select">
-            <option value="newest">Newest change first</option>
-            <option value="oldest">Oldest change first</option>
-            <option value="shortest">Shortest-lived first</option>
-            <option value="longest">Longest-lived first</option>
+            <option value="newest">Neueste Änderung zuerst</option>
+            <option value="oldest">Älteste Änderung zuerst</option>
+            <option value="shortest">Kürzeste Lebensdauer zuerst</option>
+            <option value="longest">Längste Lebensdauer zuerst</option>
             <option value="alphabetical">A–Z</option>
-            <option value="recently-added">Recently added</option>
+            <option value="recently-added">Zuletzt hinzugefügt</option>
           </select>
         </label>
 
         <label>
-          <span class="control-label">Group by</span>
+          <span class="control-label">Gruppieren nach</span>
           <select class="group-select">
             <option value="status">Status</option>
-            <option value="century">Century of change</option>
-            <option value="none">No grouping</option>
+            <option value="century">Jahrhundert der Änderung</option>
+            <option value="none">Keine Gruppierung</option>
           </select>
         </label>
 
-        <div class="view-toggle" aria-label="Entry view">
-          <button class="view-button is-active" type="button" data-view="cards" aria-pressed="true">Cards</button>
-          <button class="view-button" type="button" data-view="compact" aria-pressed="false">Compact</button>
+        <div class="view-toggle" aria-label="Eintragsansicht">
+          <button class="view-button is-active" type="button" data-view="cards" aria-pressed="true">Karten</button>
+          <button class="view-button" type="button" data-view="compact" aria-pressed="false">Kompakt</button>
         </div>
 
-        <button class="clear-controls" type="button">Clear filters</button>
+        <button class="clear-controls" type="button">Filter zurücksetzen</button>
       </div>
 
-      <p class="results-summary" aria-live="polite">Showing all {entries.length} entries</p>
+      <p class="results-summary" aria-live="polite">Alle {entries.length} Einträge werden angezeigt</p>
 
       <div class="category-list" data-view="cards">
-        {sortedEntries.map((entry) => {
+        {sortedItems.map(({ entry, translation }) => {
           const comparable = entry.data.lifespanComparable !== false;
           return (
             <div
@@ -182,29 +212,29 @@ const sortedEntries = [...entries].sort(
               data-entry-id={entry.id}
               data-status={entry.data.status}
               data-timeline-year={entry.data.timelineYear}
-              data-century={centuryLabel(entry.data.timelineYear)}
+              data-century={centuryLabelDe(entry.data.timelineYear)}
               data-century-order={entry.data.timelineYear}
               data-lifespan={comparable ? lifespanYears(entry.data.acceptedYear, entry.data.timelineYear) : ''}
               data-comparable={String(comparable)}
               data-published-at={entry.data.publishedAt.getTime()}
-              data-claim={entry.data.claim}
-              data-search={`${entry.data.claim} ${entry.data.currentUnderstanding} ${entry.data.summary} ${entry.data.status} ${entry.data.changedApproximately}`.toLowerCase()}
+              data-claim={translation.data.claim}
+              data-search={`${translation.data.claim} ${translation.data.currentUnderstanding} ${translation.data.summary} ${statusLabel(entry.data.status, 'de')} ${translation.data.changedApproximately}`.toLocaleLowerCase('de')}
             >
-              <div class="card-view"><FactCard entry={entry} /></div>
-              <div class="compact-view"><CompactClaim entry={entry} /></div>
+              <div class="card-view"><FactCard entry={entry} translation={translation} locale="de" /></div>
+              <div class="compact-view"><CompactClaim entry={entry} translation={translation} locale="de" /></div>
             </div>
           );
         })}
       </div>
 
       <div class="empty-state" hidden>
-        <p>No entries match those filters.</p>
-        <button class="empty-clear" type="button">Show all {category} entries</button>
+        <p>Keine Einträge entsprechen diesen Filtern.</p>
+        <button class="empty-clear" type="button">Alle Einträge in {categoryName} anzeigen</button>
       </div>
 
       <noscript>
         <p class="noscript-note">
-          Filtering, grouping, sorting, and the compact-view switch require JavaScript. Entries are shown newest-change first.
+          Filter, Gruppierung, Sortierung und die Kompaktansicht benötigen JavaScript. Ohne JavaScript werden die Einträge nach der neuesten Änderung sortiert angezeigt.
         </p>
       </noscript>
     </div>
@@ -251,22 +281,26 @@ const sortedEntries = [...entries].sort(
       const publishedA = Number(a.dataset.publishedAt ?? 0);
       const publishedB = Number(b.dataset.publishedAt ?? 0);
 
-      if (currentSort === 'oldest') return yearA - yearB || claimA.localeCompare(claimB);
+      if (currentSort === 'oldest') return yearA - yearB || claimA.localeCompare(claimB, 'de', { sensitivity: 'base' });
       if (currentSort === 'shortest') {
         if (comparableA !== comparableB) return comparableA ? -1 : 1;
-        return lifespanA - lifespanB || yearA - yearB || claimA.localeCompare(claimB);
+        return lifespanA - lifespanB || yearA - yearB || claimA.localeCompare(claimB, 'de', { sensitivity: 'base' });
       }
       if (currentSort === 'longest') {
         if (comparableA !== comparableB) return comparableA ? -1 : 1;
-        return lifespanB - lifespanA || yearB - yearA || claimA.localeCompare(claimB);
+        return lifespanB - lifespanA || yearB - yearA || claimA.localeCompare(claimB, 'de', { sensitivity: 'base' });
       }
-      if (currentSort === 'alphabetical') return claimA.localeCompare(claimB, undefined, { sensitivity: 'base' });
-      if (currentSort === 'recently-added') return publishedB - publishedA || claimA.localeCompare(claimB);
-      return yearB - yearA || claimA.localeCompare(claimB);
+      if (currentSort === 'alphabetical') return claimA.localeCompare(claimB, 'de', { sensitivity: 'base' });
+      if (currentSort === 'recently-added') return publishedB - publishedA || claimA.localeCompare(claimB, 'de', { sensitivity: 'base' });
+      return yearB - yearA || claimA.localeCompare(claimB, 'de', { sensitivity: 'base' });
     };
 
     const groupLabel = (wrapper: HTMLElement) => {
-      if (currentGroup === 'status') return wrapper.dataset.status ?? 'Other';
+      if (currentGroup === 'status') {
+        const raw = wrapper.dataset.status ?? 'Other';
+        const button = statusButtons.find((candidate) => candidate.dataset.status === raw);
+        return button?.querySelector('span')?.textContent ?? raw;
+      }
       if (currentGroup === 'century') return wrapper.dataset.century ?? 'Other';
       return '';
     };
@@ -319,7 +353,7 @@ const sortedEntries = [...entries].sort(
 
         const count = document.createElement('span');
         const groupEntries = sorted.filter((wrapper) => groupLabel(wrapper) === label);
-        count.textContent = `${groupEntries.length} ${groupEntries.length === 1 ? 'entry' : 'entries'}`;
+        count.textContent = `${groupEntries.length} ${groupEntries.length === 1 ? 'Eintrag' : 'Einträge'}`;
 
         heading.append(title, count);
 
@@ -348,7 +382,7 @@ const sortedEntries = [...entries].sort(
     };
 
     const updateDisplay = () => {
-      const query = searchInput?.value.trim().toLowerCase() ?? '';
+      const query = searchInput?.value.trim().toLocaleLowerCase('de') ?? '';
       const lifespan = lifespanFilter?.value ?? '';
 
       const visible = wrappers.filter((wrapper) => {
@@ -378,8 +412,8 @@ const sortedEntries = [...entries].sort(
       if (resultsSummary) {
         const filtered = query || selectedStatus || lifespan;
         resultsSummary.textContent = filtered
-          ? `Showing ${visible.length} of ${wrappers.length} ${visible.length === 1 ? 'entry' : 'entries'}`
-          : `Showing all ${wrappers.length} entries`;
+          ? `${visible.length} von ${wrappers.length} ${visible.length === 1 ? 'Eintrag' : 'Einträgen'} werden angezeigt`
+          : `Alle ${wrappers.length} Einträge werden angezeigt`;
       }
 
       if (emptyState) emptyState.hidden = visible.length !== 0;

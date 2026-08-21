@@ -3,23 +3,27 @@ locale: de
 entryId: gravity-acts-instantaneously
 sourceReviewedAt: "2026-08-20"
 claim: "Änderungen der Gravitation werden über beliebige Entfernungen augenblicklich übertragen."
-currentUnderstanding: "Änderungen des Gravitationsfeldes breiten sich als Störungen der Raumzeit mit Lichtgeschwindigkeit aus. Beschleunigte Massen können Gravitationswellen erzeugen."
-whyItChanged: "Die Newtonsche Gravitation beschrieb Anziehung erfolgreich als Fernwirkung, lieferte aber keinen Mechanismus mit endlicher Ausbreitungsgeschwindigkeit. Die Allgemeine Relativitätstheorie ersetzte dieses Bild durch eine dynamische Raumzeit und sagte Gravitationswellen voraus, die sich mit Lichtgeschwindigkeit ausbreiten."
+currentUnderstanding: "Änderungen der Gravitation wirken nicht überall gleichzeitig. In der Allgemeinen Relativitätstheorie ist Gravitation Teil der Struktur der Raumzeit, und Änderungen des Gravitationsfelds breiten sich mit Lichtgeschwindigkeit aus. Stark beschleunigte Massen können wandernde Störungen erzeugen, die Gravitationswellen heißen."
+whyItChanged: "Newtons Gravitationsgesetz beschrieb die Anziehung äußerst erfolgreich, behandelte sie mathematisch aber so, als hinge sie von den Positionen der Massen im selben Augenblick ab, ohne einen Mechanismus für endliche Ausbreitungsgeschwindigkeit. Die Allgemeine Relativitätstheorie ersetzte dieses Bild durch eine dynamische Raumzeit, deren Störungen sich kausal mit Lichtgeschwindigkeit ausbreiten."
 acceptedApproximately: "17. bis frühes 20. Jahrhundert"
 changedApproximately: "Ab 1915"
-summary: "Die augenblickliche Newtonsche Fernwirkung wurde durch relativistische Gravitation mit endlicher Ausbreitungsgeschwindigkeit ersetzt."
+summary: "Aus augenblicklicher Fernwirkung wurde ein Gravitationsfeld, dessen Änderungen sich mit Lichtgeschwindigkeit ausbreiten."
 sourceNotes:
 - "Stellt Newtons augenblickliche Fernwirkung der Allgemeinen Relativitätstheorie mit Gravitationswellen bei Lichtgeschwindigkeit gegenüber."
 - "Erklärt Gravitation in der Allgemeinen Relativitätstheorie als Krümmung der Raumzeit."
 - "Hält fest, dass Vorhersagen der Relativitätstheorie wiederholt getestet und bestätigt wurden."
 ---
 
-Newtons Gravitationsgesetz war revolutionär, weil es dieselbe mathematische Regel auf fallende Körper und Planetenbahnen anwenden konnte. In seiner Gleichung hängt die Gravitationskraft direkt von der augenblicklichen Entfernung zwischen zwei Massen ab. Ein expliziter Mechanismus oder eine Verzögerungszeit erscheint darin nicht.
+Newtons Gravitationsgesetz war außerordentlich erfolgreich. Es erklärte fallende Körper, Planetenbahnen, Gezeiten und vieles mehr.
 
-Diese Fernwirkung machte Newton selbst philosophisch unbehaglich, doch für die Himmelsmechanik funktionierte sie hervorragend. Erst mit der Relativitätstheorie wurde eine augenblickliche Übertragung problematisch, weil kausale Einflüsse die Lichtgeschwindigkeit nicht überschreiten dürfen.
+Seine Mathematik enthielt jedoch eine unbequeme Eigenschaft. Die Anziehung zwischen zwei Massen hing von ihren Positionen im selben Augenblick ab. Wörtlich verstanden würde eine Positionsänderung einer Masse beliebig weit entfernt sofort Wirkung zeigen.
 
-Einsteins Allgemeine Relativitätstheorie von 1915 ersetzte Gravitation durch die Geometrie einer dynamischen Raumzeit. Änderungen in der Massenverteilung verändern diese Geometrie nicht überall gleichzeitig. Störungen können sich als Gravitationswellen ausbreiten, und die Theorie sagt für sie Lichtgeschwindigkeit voraus.
+Newton selbst war mit einer unerklärten Fernwirkung unzufrieden, auch wenn seine Gleichungen für die gewöhnliche Astronomie hervorragend funktionierten.
 
-Beobachtungen binärer Systeme und später direkte Gravitationswellennachweise bestätigten diese endliche Ausbreitung. Ereignisse wie die Verschmelzung zweier Neutronensterne liefern zusätzlich sehr enge Tests dafür, dass gravitative und elektromagnetische Signale sich mit praktisch derselben Grenzgeschwindigkeit ausbreiten.
+Die Allgemeine Relativitätstheorie änderte das zugrunde liegende Bild. Gravitation wurde nicht länger als Kraft behandelt, die augenblicklich durch den leeren Raum greift. Masse und Energie beeinflussen die Geometrie der Raumzeit, und Änderungen dieser Geometrie breiten sich mit Lichtgeschwindigkeit nach außen aus.
 
-Ein statisches Gravitationsfeld ist dabei nicht einfach ein fortlaufend ausgesendetes Signal. Die endliche Geschwindigkeit betrifft Veränderungen und kausale Einflüsse. Für langsam bewegte Körper in schwachen Feldern bleibt Newtons Näherung weiterhin außerordentlich genau.
+Wenn massereiche Objekte stark beschleunigt werden, können solche Änderungen als Gravitationswellen weiterlaufen: Wellen in der Raumzeit, die Information über die Bewegung ihrer Quelle tragen.
+
+Direkte Nachweise von Gravitationswellen ab 2015 lieferten Beobachtungen solcher sich ausbreitenden Störungen.
+
+Das bedeutet nicht, dass man sich ein statisches Gravitationsfeld als ständigen Strom neuer Signale von einer ruhenden Masse vorstellen sollte. Die endliche Ausbreitungsgeschwindigkeit betrifft Änderungen und kausale Einflüsse. Für langsame Bewegungen und schwache Gravitationsfelder bleibt die newtonsche Gravitation eine ausgezeichnete Näherung.

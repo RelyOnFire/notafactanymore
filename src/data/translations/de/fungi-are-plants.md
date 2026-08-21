@@ -3,22 +3,26 @@ locale: de
 entryId: fungi-are-plants
 sourceReviewedAt: "2026-08-20"
 claim: "Pilze sind Pflanzen."
-currentUnderstanding: "Pilze bilden einen eigenen großen Zweig des Lebens. Sie betreiben keine Photosynthese, nehmen Nährstoffe aus ihrer Umgebung auf und besitzen Zellwände, die reich an Chitin sind. Evolutionär sind sie näher mit Tieren als mit Pflanzen verwandt."
-whyItChanged: "Unterschiede bei Ernährung, Zellstruktur und Fortpflanzung zeigten, dass Pilze nicht in das Pflanzenreich passten. Molekulare Daten bestätigten später, dass sie eine eigenständige Abstammungslinie bilden."
+currentUnderstanding: "Pilze bilden einen eigenen großen Zweig des Lebens. Anders als Pflanzen betreiben sie keine Photosynthese; sie geben Verdauungsenzyme in ihre Umgebung ab und nehmen die dabei entstehenden Nährstoffe auf. Molekulare Daten zeigen außerdem, dass Pilze evolutionär näher mit Tieren als mit Pflanzen verwandt sind."
+whyItChanged: "Pilze wurden ursprünglich zu den Pflanzen gestellt, weil sie ortsgebunden wachsen und oft verzweigte Formen besitzen. Ernährung, Zellwände, Fortpflanzung und weitere biologische Merkmale machten diese Einordnung zunehmend unpassend. Molekulare Vergleiche bestätigten später, dass Pilze eine eigenständige evolutionäre Linie bilden."
 acceptedApproximately: "Taxonomie seit Linné bis Mitte des 20. Jahrhunderts"
 changedApproximately: "1969"
-summary: "Organismen, die lange als Pflanzen klassifiziert worden waren, wurden in ein eigenes Pilzreich verschoben."
+summary: "Pilze wurden aus dem Pflanzenreich herausgelöst, nachdem ihre Biologie und Evolutionsgeschichte eine eigenständige Abstammungslinie zeigten."
 sourceNotes:
 - "Erklärt, dass Pilze bis zur Anerkennung eines eigenen Reichs in der Mitte des 20. Jahrhunderts zum Pflanzenreich gerechnet wurden."
 - "Beschreibt die Unterschiede zwischen Pilzen und Pflanzen und weist darauf hin, dass Pilze evolutionär näher mit Tieren verwandt sind."
 ---
 
-Frühe Klassifikation stützte sich stark auf sichtbare Form und Lebensweise. Pilze wuchsen aus Boden und Holz, blieben meist an einem Ort und bildeten häufig verzweigte Strukturen. In den breiten botanischen Kategorien ihrer Zeit war es deshalb nachvollziehbar, Pilze und Schimmel zu den Pflanzen zu stellen.
+Pilze den Pflanzen zuzuordnen war zunächst durchaus nachvollziehbar. Pilze und Schimmel wachsen aus Boden oder anderen Oberflächen, bleiben meist an einem Ort und bilden häufig verzweigte Strukturen. In älteren Klassifikationen, die stark auf sichtbarer Form und Lebensweise beruhten, passten sie gut in die Botanik.
 
-Die Physiologie legte jedoch tiefgreifende Unterschiede offen. Pilze betreiben keine Photosynthese und stellen ihre Nahrung nicht aus Licht her. Sie verdauen Material außerhalb ihrer Zellen und nehmen die entstehenden Nährstoffe anschließend auf. Ihre Zellwände enthalten viel Chitin statt der für Pflanzen typischen Cellulose, und auch Fortpflanzung und Zellorganisation folgen eigenen Mustern.
+Genauere Untersuchungen zeigten jedoch eine völlig andere Art der Ernährung.
 
-Bis zur Mitte des 20. Jahrhunderts wurde die Einordnung als Pflanzen immer unpassender. Robert Whittakers einflussreiches Fünf-Reiche-System von 1969 gab Pilzen ein eigenes Reich, statt sie als ungewöhnliche Pflanzen zu behandeln.
+Pflanzen betreiben Photosynthese und nutzen Lichtenergie, um organisches Material herzustellen. Pilze tun das nicht. Stattdessen geben sie Verdauungsenzyme an das Material in ihrer Umgebung ab und nehmen anschließend die kleineren Moleküle auf, die durch diese Verdauung entstehen.
 
-Die molekulare Phylogenetik machte die Trennung später auch evolutionär eindeutig: Pilze gehören zu einer Abstammungslinie, die näher mit Tieren als mit Pflanzen verwandt ist.
+Auch ihre Zellen unterscheiden sich in wichtigen Punkten. Pilzzellwände enthalten viel Chitin, während pflanzliche Zellwände vor allem aus Cellulose bestehen. Fortpflanzung und Zellorganisation folgen ebenfalls eigenen Mustern.
 
-Die Systematik innerhalb der Pilze wird durch genetische Daten weiterhin verfeinert, doch die große Korrektur ist abgeschlossen. Pilze wurden nicht bloß zu einem Sonderzweig der Botanik, sondern als fundamental eigenständige eukaryotische Linie erkannt.
+Im 20. Jahrhundert wurde es daher immer schwieriger, Pilze als ungewöhnliche Pflanzen zu behandeln. Robert Whittakers Fünf-Reiche-System von 1969 gab ihnen ein eigenes Reich.
+
+DNA- und RNA-Vergleiche machten die evolutionäre Trennung später noch deutlicher. Pilze gehören zu einer Linie, die näher mit Tieren als mit Pflanzen verwandt ist.
+
+Die Systematik innerhalb der Pilze wird durch genetische Daten weiterhin verfeinert. Pilze selbst sind jedoch klar als eigenständige große Abstammungslinie etabliert.

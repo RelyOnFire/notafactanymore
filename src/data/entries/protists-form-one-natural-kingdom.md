@@ -1,14 +1,14 @@
 ---
 claim: "Protists form one coherent natural kingdom of simple eukaryotes."
-currentUnderstanding: "Protists are a practical collection of eukaryotes that are not animals, plants, or fungi, but they do not form one exclusive evolutionary lineage."
-whyItChanged: "The kingdom Protista grouped mostly microscopic eukaryotes by what they lacked. Ultrastructure and molecular phylogeny showed that different protists are scattered across several deep branches, some closer to animals, plants, or fungi than to other protists."
+currentUnderstanding: "“Protist” is a useful informal label for many eukaryotes that are not animals, plants, or fungi, but protists do not form one natural evolutionary branch. Different organisms once placed in Protista belong to several widely separated lineages."
+whyItChanged: "Protista grouped together mostly microscopic organisms because they did not fit comfortably into the animal, plant, or fungal kingdoms. Microscopy revealed major structural differences, and DNA and RNA comparisons later showed that many protists are more closely related to animals, plants, or fungi than to other protists."
 status: "Superseded"
 category: "Evolution"
 acceptedApproximately: "Mid-19th–late 20th century"
 acceptedYear: 1850
 changedApproximately: "1980s–present"
 timelineYear: 1985
-summary: "The protist kingdom dissolved into multiple evolutionary lineages once molecular relationships became visible."
+summary: "Molecular family trees broke the old protist kingdom into several separate evolutionary lineages."
 featured: false
 publishedAt: "2026-07-28"
 reviewedAt: "2026-08-20"
@@ -30,12 +30,18 @@ sources:
     note: "Explains that molecular data showed Protista contains multiple groups of equal taxonomic rank."
 ---
 
-“Protist” was a useful solution to a taxonomic problem. Microscopic eukaryotes that were not convincingly animals, plants, or fungi could be placed together in one kingdom rather than forced into categories built around larger organisms.
+The kingdom Protista solved a practical classification problem.
 
-The weakness was evolutionary. The group was defined largely by what its members were not, not by a single shared ancestry exclusive of the other eukaryotic kingdoms.
+Many microscopic organisms have cells with nuclei, making them eukaryotes, but they are not obviously animals, plants, or fungi. Putting them together as protists avoided forcing them into one of those familiar groups.
 
-Ultrastructural studies began revealing deep differences among protists, and molecular phylogenies made the problem explicit. Some lineages traditionally called protists are more closely related to animals or fungi than to other protists; others lie near plants or within entirely different major branches.
+The difficulty was that “protist” mostly described what an organism was not.
 
-Modern classifications therefore divide eukaryotes into several large evolutionary groups rather than treating Protista as one natural kingdom.
+A natural evolutionary group should contain organisms that share a common ancestor and, ideally, all of that ancestor's descendants. Protista did not meet that test.
 
-The word remains useful informally for many mostly microscopic eukaryotes, especially in ecology and teaching. The superseded part is the tree-of-life claim: “protists” are not one coherent branch from which animals, plants, and fungi are excluded.
+Microscopy began revealing major differences in cell structure among organisms grouped as protists. DNA and RNA comparisons made the evolutionary problem much clearer.
+
+Some traditional protists are close relatives of animals and fungi. Others are related to plants. Still others belong to entirely different deep branches of the eukaryotic tree.
+
+Modern classification therefore divides eukaryotes among several major evolutionary groups instead of treating all protists as one kingdom.
+
+The word *protist* remains useful in ecology and teaching as an informal description of many mostly microscopic eukaryotes. What has been abandoned is the claim that they together form one coherent branch of the tree of life.

@@ -1,14 +1,14 @@
 ---
 claim: "Equilibrium climate sensitivity to doubled atmospheric CO₂ is likely between 1.5°C and 4.5°C."
-currentUnderstanding: "IPCC AR6 assessed a narrower likely range of 2.5°C to 4.0°C, with a best estimate of 3°C and a very likely range of 2°C to 5°C."
-whyItChanged: "Evidence from climate feedbacks, the instrumental record, paleoclimate and statistical constraints became consistent enough to rule out more of the low and high ends of the long-standing range."
+currentUnderstanding: "Equilibrium climate sensitivity estimates how much the planet would eventually warm after atmospheric CO₂ doubled and the climate had time to adjust. IPCC AR6 assessed the likely range as 2.5°C to 4.0°C, with a best estimate of 3°C."
+whyItChanged: "For decades, the likely range remained 1.5°C to 4.5°C because several important climate feedbacks and the historical record left large uncertainty. By AR6, evidence from observed warming, Earth's energy imbalance, past climates, feedback physics, and statistical methods had become consistent enough to narrow the likely range."
 status: "Narrowed"
 category: "Atmospheric Science"
 acceptedApproximately: "1979–2021"
 acceptedYear: 1979
 changedApproximately: "2021"
 timelineYear: 2021
-summary: "IPCC AR6 narrowed the long-standing likely range for equilibrium climate sensitivity from 1.5–4.5°C to 2.5–4.0°C."
+summary: "Better evidence narrowed the likely warming from doubled CO₂ from 1.5–4.5°C to 2.5–4.0°C."
 featured: false
 publishedAt: "2026-08-13"
 reviewedAt: "2026-08-13"
@@ -30,8 +30,16 @@ sources:
     note: "Directly compares AR6’s 2.5–4.0°C likely ECS range with the 1.5–4.5°C likely range in AR5."
 ---
 
-The broad 1.5–4.5°C range has a long history. A similar interval appeared in the 1979 Charney report and remained remarkably persistent through later assessments, even as climate models, observations and paleoclimate records improved. The central estimate stayed near 3°C, while uncertainty at both ends proved difficult to reduce.
+Climate sensitivity asks a specific question: if the amount of carbon dioxide in the atmosphere doubled, how much warmer would Earth eventually become after the oceans and other slow parts of the climate system had adjusted?
 
-By AR6, several independent approaches had become more informative. Researchers could combine physical understanding of feedbacks with the observed warming and energy imbalance of the modern climate, evidence from past climates, and newer statistical constraints. Taken together, those lines of evidence supported a narrower likely range of 2.5–4.0°C.
+That quantity is called equilibrium climate sensitivity.
 
-This change tightened the uncertainty around climate sensitivity rather than shifting its central value dramatically. IPCC probability language also matters here: values outside the likely range remain possible. AR6 gives a wider very likely range of 2–5°C.
+The answer is not simply the warming produced by CO₂ itself. Warming triggers feedbacks. More water vapor strengthens the greenhouse effect, melting ice exposes darker surfaces that absorb more sunlight, and changes in clouds can either amplify or reduce warming. Because these feedbacks are difficult to constrain precisely, the uncertainty remained broad for decades.
+
+A range similar to 1.5–4.5°C appeared in the 1979 Charney report and persisted through several generations of climate assessments, with a central estimate near 3°C.
+
+By the IPCC's Sixth Assessment Report, several independent lines of evidence had become more informative. Researchers combined observed modern warming and Earth's energy imbalance with evidence from ancient climates and better physical estimates of feedbacks.
+
+AR6 assessed a likely range of 2.5–4.0°C, with a best estimate of 3°C. A wider very likely range of 2–5°C reflects the fact that values outside the likely range are still possible.
+
+The major change was therefore a narrowing of uncertainty, not a dramatic movement of the central estimate.

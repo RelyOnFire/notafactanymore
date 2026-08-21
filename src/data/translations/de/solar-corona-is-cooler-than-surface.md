@@ -3,25 +3,31 @@ locale: de
 entryId: solar-corona-is-cooler-than-surface
 sourceReviewedAt: '2026-08-20'
 claim: Die äußere Atmosphäre der Sonne muss kühler sein als ihre sichtbare Oberfläche.
-currentUnderstanding: Die Sonnenkorona erreicht Temperaturen von ungefähr einer bis mehreren Millionen Kelvin und ist damit hunderte Male heißer als die darunterliegende Photosphäre.
-whyItChanged: Die einfache Erwartung, die Temperatur müsse mit zunehmender Entfernung von der heißen Oberfläche fallen, ließ eine kühle Korona plausibel erscheinen. Spektrallinien, die zunächst einem unbekannten Element namens Coronium zugeschrieben wurden, erwiesen sich als stark ionisiertes Eisen, das Temperaturen von Millionen Grad erfordert.
+currentUnderstanding: "Die Sonnenkorona, also die dünne äußere Atmosphäre der Sonne, erreicht ungefähr eine bis mehrere Millionen Kelvin und ist damit weit heißer als die sichtbare Oberfläche mit etwa 5.800 K. Die Korona ist extrem dünn, daher bedeutet ihre hohe Temperatur nicht, dass sie mehr gesamte Wärmeenergie enthält als die dichteren Schichten darunter."
+whyItChanged: "Es erschien naheliegend, dass die Atmosphäre über der Sonnenoberfläche mit wachsender Entfernung kühler wird. Rätselhafte Spektrallinien der Korona wurden schließlich als Licht bekannter Atome wie Eisen erkannt, denen viele Elektronen fehlten – ein Zustand, der Temperaturen um eine Million Kelvin erfordert."
 acceptedApproximately: 19. Jahrhundert bis 1930er-Jahre
 changedApproximately: 1939 bis 1942
-summary: Stark ionisiertes Eisen offenbarte eine äußere Sonnenatmosphäre, die weit heißer ist als die sichtbare Oberfläche.
+summary: "Stark ionisierte Atome zeigten, dass die dünne äußere Sonnenkorona hunderte Male heißer ist als die sichtbare Oberfläche."
 sourceNotes:
 - Erklärt, wie Bengt Edléns Identifizierung stark ionisierten Eisens zum Problem der Koronaheizung führte.
 - Beschreibt die millionen Grad heiße Korona und die frühere Deutung durch das vermeintliche Element Coronium.
 - Gibt einen Überblick über Spektroskopie, Ionisation und die unerwartet hohe Temperatur der Korona.
 ---
 
-Eine einfache Temperaturvorstellung spricht dafür, dass es mit zunehmender Entfernung von einer heißen Oberfläche kälter wird. Entsprechend lag nahe, die dünne äußere Atmosphäre der Sonne für kühler als die sichtbare Photosphäre zu halten.
+Die sichtbare Oberfläche der Sonne, die Photosphäre, hat eine Temperatur von etwa 5.800 Kelvin.
 
-Bei Sonnenfinsternissen zeigte die Korona jedoch ungewöhnliche Spektrallinien, die sich zunächst keinem bekannten Element zuordnen ließen. Man vermutete deshalb ein hypothetisches neues Element und nannte es Coronium.
+Alltagserfahrung legt nahe, dass es mit zunehmender Entfernung von einer heißen Oberfläche kühler werden sollte. Deshalb erwarteten Astronomen zunächst, dass die schwache äußere Atmosphäre der Sonne kühler als die Photosphäre sei.
 
-In den 1930er- und frühen 1940er-Jahren erkannte Bengt Edlén, dass diese Linien stattdessen von bereits bekannten Elementen stammen – insbesondere Eisen –, deren Atome extrem viele Elektronen verloren hatten.
+Ihr Spektrum gab jedoch Rätsel auf.
 
-Solche hohen Ionisationsstufen erfordern Temperaturen von ungefähr einer Million Kelvin oder mehr. Die Korona war also nicht kühler als die Photosphäre, sondern hundertfach heißer.
+Wenn Astronomen das Licht der Korona in seine Wellenlängen zerlegten, fanden sie helle Linien, die unter gewöhnlichen Laborbedingungen zu keinem bekannten Element passten. Zeitweise vermutete man deshalb ein unbekanntes Element namens „Coronium“.
 
-Damit entstand ein neues Problem: Woher kommt die Energie? Die hohe Temperatur der Korona ist gut belegt, das genaue Zusammenspiel ihrer Heizmechanismen wird aber weiterhin erforscht. Magnetische Rekonnexion und die Dissipation von Wellen gehören zu den wichtigsten Erklärungsansätzen.
+Die Lösung war überraschender.
 
-Hohe Temperatur bedeutet außerdem nicht, dass die Korona mehr Wärmeenergie pro Volumen enthält als die dichtere Photosphäre. Die Korona ist extrem dünn; „heiß“ beschreibt hier vor allem die hohe mittlere Energie ihrer Teilchen.
+Bengt Edlén zeigte, dass die rätselhaften Linien von bekannten Atomen stammen, vor allem von Eisen, denen viele Elektronen entrissen worden waren. Um so viele Elektronen zu entfernen, sind Stöße mit extrem hohen Energien nötig – entsprechend Temperaturen um eine Million Kelvin.
+
+Die Korona war also nicht kühler als die sichtbare Oberfläche, sondern hunderte Male heißer.
+
+Damit entstand ein neues Problem: die Koronaheizung. Wie kann die dünne äußere Atmosphäre über einer wesentlich kühleren Photosphäre so heiß werden? Magnetische Prozesse, darunter Wellenheizung und magnetische Rekonnexion, spielen in heutigen Erklärungen eine zentrale Rolle, wobei ihr Anteil regional unterschiedlich sein kann.
+
+Temperatur beschreibt hier die typische Energie der Teilchen. Weil die Korona extrem dünn ist, darf ihre hohe Temperatur nicht mit einem größeren gesamten Wärmeinhalt als in den viel dichteren Schichten darunter verwechselt werden.

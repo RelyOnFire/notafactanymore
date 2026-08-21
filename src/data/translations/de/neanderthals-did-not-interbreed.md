@@ -3,25 +3,29 @@ locale: de
 entryId: neanderthals-did-not-interbreed
 sourceReviewedAt: '2026-08-20'
 claim: Neandertaler kreuzten sich nicht mit modernen Menschen und trugen keine DNA zu heute lebenden Menschen bei.
-currentUnderstanding: Neandertaler und moderne Menschen zeugten gemeinsame Nachkommen. Viele Menschen mit Vorfahren außerhalb Subsahara-Afrikas tragen etwa 1 bis 2 % von Neandertalern stammende DNA, wobei unterschiedliche Personen unterschiedliche Fragmente besitzen.
-whyItChanged: Frühe Untersuchungen mitochondrialer DNA fanden keinen eindeutigen Beitrag der Neandertaler und wurden häufig als Beleg gegen Vermischung interpretiert. Spätere Analysen vollständiger alter Genome wiesen Neandertaler-Abstammung bei heute lebenden Menschen nach.
+currentUnderstanding: "Neandertaler und moderne Menschen kreuzten sich miteinander. Viele Menschen mit Vorfahren außerhalb Subsahara-Afrikas tragen ungefähr 1–2 Prozent von Neandertalern stammende DNA, wobei sich die erhaltenen Fragmente von Person zu Person unterscheiden."
+whyItChanged: "Frühe Untersuchungen alter DNA konzentrierten sich auf mitochondriale DNA, ein kleines genetisches System, das nur über die mütterliche Linie vererbt wird, und fanden keinen klaren Neandertaler-Beitrag bei heute lebenden Menschen. Die Sequenzierung ganzer Genome untersuchte später das viel größere Kerngenom und wies dort Neandertaler-DNA in heutigen Populationen nach."
 acceptedApproximately: Späte 1990er- bis 2000er-Jahre
 changedApproximately: '2010'
-summary: Alte vollständige Genome zeigten, dass Neandertaler ein genetisches Erbe in heute lebenden Menschen hinterlassen haben.
+summary: "Alte vollständige Genome zeigten, dass Neandertaler genetische Spuren in heute lebenden Menschen hinterlassen haben."
 sourceNotes:
 - Erklärt, dass frühe Ergebnisse mitochondrialer DNA häufig als überzeugender Beleg gegen Vermischung interpretiert wurden.
 - Berichtet über den Entwurf des Neandertaler-Genoms von 2010 und die Belege für einen genetischen Beitrag der Neandertaler zu modernen Menschen.
 - Erklärt, dass eingekreuzte Neandertaler-Fragmente ungefähr 1 bis 2 % der individuellen Genome von Menschen außerhalb Afrikas ausmachen.
 ---
 
-Über einen großen Teil des 20. Jahrhunderts wurde das Verhältnis zwischen Neandertalern und modernen Menschen vor allem anhand von Anatomie und Archäologie diskutiert. Alte DNA versprach schließlich einen direkteren Test.
+Über Jahrzehnte wurde die Beziehung zwischen Neandertalern und modernen Menschen vor allem anhand von Knochen und archäologischen Funden diskutiert. Alte DNA versprach eine direktere Antwort.
 
-Die ersten Untersuchungen konzentrierten sich auf mitochondriale DNA, ein kleines genetisches System, das über die mütterliche Linie vererbt wird. Neandertaler-Sequenzen lagen außerhalb der Variation heute lebender Menschen, und das Fehlen eines klaren mitochondrialen Beitrags wurde häufig als starkes Argument gegen Vermischung verstanden.
+Die ersten erfolgreichen Untersuchungen konzentrierten sich auf mitochondriale DNA. Mitochondrien sind Strukturen in Zellen, die eine kleine Menge eigener DNA besitzen. Diese DNA wird fast ausschließlich über die mütterliche Linie vererbt.
 
-Diese Schlussfolgerung war jedoch enger, als sie oft klang. Mitochondriale DNA bildet nur eine einzige mütterliche Abstammungslinie ab. Eine solche Linie kann im Laufe der Generationen verschwinden, selbst wenn an anderen Stellen des Genoms erheblicher Genfluss stattgefunden hat.
+Die mitochondriale DNA von Neandertalern lag außerhalb der Variation heute lebender Menschen. Das wurde häufig als Hinweis verstanden, Neandertaler hätten keinen genetischen Beitrag zu heutigen Populationen geleistet.
 
-2010 veränderte der Entwurf des nuklearen Neandertaler-Genoms die Debatte. Vergleiche zeigten, dass viele heute lebende Menschen mit Vorfahren außerhalb Subsahara-Afrikas DNA-Fragmente tragen, die von Neandertalern stammen. Damit war alter Genfluss zwischen den Populationen direkt belegt.
+Mitochondriale DNA erfasst jedoch nur eine sehr schmale Abstammungslinie. Angenommen, eine Neandertalerin bekam Kinder mit einer modernen menschlichen Population, aber ihre direkte Mutter-Tochter-Linie endete nach einigen Generationen. Ihre mitochondriale DNA könnte verschwinden, während andere Teile ihres Genoms in Nachkommen erhalten blieben.
 
-In einzelnen Genomen machen solche Fragmente häufig ungefähr 1 bis 2 % aus, wobei unterschiedliche Menschen unterschiedliche Abschnitte besitzen. Spätere Rückwanderungen nach Afrika brachten zudem Neandertaler-Abstammung in einige afrikanische Populationen.
+Das wesentlich größere Kerngenom bot den breiteren Test.
 
-Die Position „keine Vermischung“ war nie universell akzeptiert. Vollständige alte Genome konnten eine Frage beantworten, für die ein einziges kleines genetisches Kompartiment zu wenig Information geliefert hatte.
+2010 veröffentlichten Forschende einen ersten Entwurf des Neandertaler-Kerngenoms und verglichen ihn mit Genomen heute lebender Menschen. Viele Menschen mit Vorfahren außerhalb Subsahara-Afrikas trugen DNA-Abschnitte, die Neandertalern besonders ähnlich waren. Das belegte frühere Vermischung.
+
+Einzelne Genome enthalten häufig ungefähr 1–2 Prozent Neandertaler-DNA, wobei verschiedene Menschen unterschiedliche Fragmente bewahren. Spätere Wanderungen brachten außerdem einen Teil dieser Abstammung wieder in afrikanische Populationen.
+
+Die Ansicht völliger Nichtvermischung war nie universell. Vollständige Genome machten jedoch Genfluss sichtbar, den ein einziges kleines mütterliches Erbsystem leicht übersehen konnte.

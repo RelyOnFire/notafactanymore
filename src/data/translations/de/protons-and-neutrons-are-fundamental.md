@@ -3,27 +3,31 @@ locale: de
 entryId: protons-and-neutrons-are-fundamental
 sourceReviewedAt: '2026-08-20'
 claim: Protonen und Neutronen sind fundamentale Teilchen ohne innere Struktur.
-currentUnderstanding: Protonen und Neutronen sind zusammengesetzte Teilchen aus Quarks und Gluonen. Ihre Masse, ihr Spin und andere Eigenschaften entstehen aus der Dynamik der starken Wechselwirkung.
-whyItChanged: Unerwartete magnetische Eigenschaften und Hochenergie-Streuexperimente zeigten, dass Nukleonen nicht punktförmig sind. Tiefinelastische Experimente offenbarten kleinere geladene Bestandteile, die später im Rahmen des Quarkmodells identifiziert wurden.
+currentUnderstanding: "Protonen und Neutronen sind keine fundamentalen Teilchen. Sie bestehen aus Quarks und Gluonen, deren Verhalten von der starken Wechselwirkung bestimmt wird. Ein großer Teil ihrer Masse stammt aus der Energie dieser inneren Dynamik und nicht einfach aus den Massen ihrer Quarks."
+whyItChanged: "Protonen und Neutronen konnten zunächst als praktische elementare Bausteine des Atomkerns behandelt werden. Hochenergetische Streuexperimente zeigten später, dass Elektronen beim Auftreffen auf Protonen an kleineren geladenen Bestandteilen im Inneren gestreut werden – ein Hinweis auf Quarks und innere Struktur."
 acceptedApproximately: 1930er- bis 1960er-Jahre
 changedApproximately: 1960er- bis 1970er-Jahre
-summary: Streuexperimente öffneten gewissermaßen Protonen und Neutronen und offenbarten Quarks und Gluonen in ihrem Inneren.
+summary: "Hochenergetische Streuexperimente enthüllten Quarks und Gluonen in Teilchen, die zuvor als fundamental galten."
 sourceNotes:
 - Erklärt, dass ungewöhnliche magnetische Momente der Nukleonen erstmals auf eine innere Struktur hindeuteten und Streuexperimente später punktförmige Bestandteile offenbarten.
 - Beschreibt Belege aus tiefinelastischer Streuung für Quarks in Protonen und Neutronen.
 - Identifiziert Quarks als elementare Bestandteile und Protonen und Neutronen als zusammengesetzte Hadronen.
 ---
 
-Nach der Entdeckung des Neutrons 1932 ließ sich der Atomkern elegant aus Protonen und Neutronen aufbauen. Für einige Jahrzehnte konnten diese Nukleonen selbst als elementare Teilchen behandelt werden – grundlegende Bausteine ohne bekannte innere Struktur.
+Nach der Entdeckung des Neutrons 1932 ließ sich der Atomkern einfacher beschreiben. Kerne konnten aus Protonen und Neutronen aufgebaut werden; gemeinsam nennt man beide Nukleonen.
 
-Erste Zweifel kamen durch ihre magnetischen Eigenschaften auf. Proton und Neutron verhielten sich nicht so, wie man es von vollkommen punktförmigen, strukturlosen Teilchen erwarten würde.
+Eine Zeit lang war es plausibel, diese Nukleonen als elementare Teilchen ohne kleinere Bestandteile zu behandeln.
 
-Den entscheidenden Einblick brachten Hochenergie-Streuexperimente. Elektronen wurden auf Protonen geschossen, und bei tiefinelastischer Streuung sahen die Messergebnisse so aus, als träfen sie auf deutlich kleinere geladene Bestandteile im Inneren des Protons.
+Hochenergetische Streuexperimente änderten dieses Bild.
 
-Das Prinzip erinnerte an Rutherfords frühere Streuexperimente, mit denen der Atomkern sichtbar geworden war – nur wurde diesmal gewissermaßen das Proton selbst „geöffnet“.
+Das Grundprinzip ähnelt einem Echo, mit dem man etwas über ein Objekt lernt, das man nicht direkt sehen kann. Physiker schossen energiereiche Elektronen auf Protonen und maßen, in welchen Richtungen die Elektronen zurückgestreut wurden.
 
-Die beobachteten Bestandteile wurden mit Quarks identifiziert, die durch Gluonen und die starke Wechselwirkung gebunden sind. Heute beschreibt die Quantenchromodynamik Protonen und Neutronen als zusammengesetzte Hadronen.
+Wäre ein Proton ein glattes punktförmiges Teilchen, müsste die Streuung einem bestimmten Muster folgen. Bei hohen Energien verhielten sich die Elektronen jedoch so, als würden sie auf wesentlich kleinere geladene Bestandteile im Proton treffen.
 
-Dabei sitzen nicht einfach drei kleine Quarkkugeln statisch in einem Behälter. Gluonfelder und fortwährend entstehende Quark-Antiquark-Beiträge sind wesentliche Teile ihrer Struktur, und ein großer Teil der Nukleonenmasse stammt aus der Energie der starken Wechselwirkung.
+Diese Versuche wurden als tiefinelastische Streuung bekannt und lieferten starke Belege für innere Komponenten. Die kleineren Bestandteile wurden mit Quarks identifiziert.
 
-Protonen und Neutronen bleiben äußerst nützliche Bausteine der Kernphysik. Fundamental sind sie jedoch nicht.
+Die moderne Quantenchromodynamik beschreibt Quarks als durch Gluonen gebunden, die Träger der starken Wechselwirkung.
+
+Ein Proton besteht nicht einfach aus drei winzigen harten Kugeln, die unbeweglich in einer Hülle sitzen. Sein Inneres ist ein hochdynamisches Quantensystem mit Gluonfeldern und kurzzeitig entstehenden Quark-Antiquark-Paaren. Ein großer Teil der Protonenmasse stammt aus der Energie dieser starken Wechselwirkung.
+
+Protonen und Neutronen bleiben äußerst nützliche Bausteine der Kernphysik. Sie sind jedoch zusammengesetzt und nicht fundamental.

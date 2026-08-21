@@ -3,29 +3,31 @@ locale: de
 entryId: yellow-fever-spreads-by-contaminated-objects
 sourceReviewedAt: '2026-08-20'
 claim: Gelbfieber verbreitet sich hauptsächlich durch direkten Kontakt mit Erkrankten, Kleidung, Bettwäsche und anderen kontaminierten Gegenständen.
-currentUnderstanding: Gelbfieber wird durch ein Virus verursacht, das hauptsächlich durch die Stiche infizierter Mücken übertragen wird. Bei städtischen Ausbrüchen ist Aedes aegypti der wichtigste Vektor.
-whyItChanged: Kontrollierte Experimente zeigten, dass kontaminierte Bettwäsche Gelbfieber nicht übertrug, Mücken dagegen schon. Die Bekämpfung von Mücken verringerte daraufhin städtische Ausbrüche drastisch.
+currentUnderstanding: "Gelbfieber ist eine Viruserkrankung, die hauptsächlich durch infizierte Stechmücken übertragen wird. Bei urbaner Übertragung ist *Aedes aegypti* der wichtigste Vektor; kontaminierte Kleidung, Bettwäsche und gewöhnlicher Kontakt mit Erkrankten sind nicht der Hauptübertragungsweg."
+whyItChanged: "Gelbfieberepidemien ließen Zimmer, Kleidung und Bettzeug Erkrankter gefährlich erscheinen. Um 1900 zeigten kontrollierte Experimente, dass Freiwillige trotz Kontakt mit stark kontaminierter Bettwäsche kein Gelbfieber entwickelten, während infizierte Stechmücken die Krankheit übertragen konnten."
 acceptedApproximately: 18. bis spätes 19. Jahrhundert
 changedApproximately: 1900–1901
-summary: Experimente widerlegten die Annahme, dass Gelbfieber hauptsächlich durch kontaminierte Kleidung und Bettwäsche verbreitet wird.
+summary: "Experimente verschoben die Gelbfieberprävention von kontaminierten Gegenständen auf die Übertragung durch Stechmücken."
 sourceNotes:
 - Erklärt, dass Gelbfieber eine Viruserkrankung ist, die durch infizierte Mücken übertragen wird.
 - Beschreibt die Übertragung von Gelbfieber durch infizierte Mücken.
 - Beschreibt Experimente, mit denen die Übertragung durch kontaminierte Gegenstände und durch Mücken geprüft wurde.
 ---
 
-Gelbfieberausbrüche sahen nach gewöhnlicher Ansteckung aus. Menschen erkrankten in dicht besiedelten Städten, und Kleidung, Bettwäsche, Zimmer und persönliche Gegenstände von Erkrankten waren naheliegende Verdächtige.
+Gelbfieber breitete sich häufig in dicht besiedelten Städten aus. Deshalb lag der Verdacht nahe, dieselben Dinge könnten gefährlich sein wie bei vielen anderen ansteckenden Krankheiten: Erkrankte selbst, ihre Zimmer, Kleidung, Bettzeug und andere verunreinigte Gegenstände.
 
-Eine konkurrierende Erklärung kam vom kubanischen Arzt Carlos Finlay, der Jahre vor ihrer breiten Akzeptanz vorgeschlagen hatte, dass Mücken die Krankheit übertragen.
+Solche Gegenstände nennt man Fomites, wenn man ihnen eine Rolle bei der Übertragung von Infektionen zuschreibt.
 
-Um 1900 prüfte die Gelbfieberkommission der US-Armee beide Modelle direkt.
+Der kubanische Arzt Carlos Finlay schlug im 19. Jahrhundert einen völlig anderen Mechanismus vor. Er vermutete, Stechmücken würden Gelbfieber von Mensch zu Mensch übertragen, doch die Idee fand zunächst wenig Zustimmung.
 
-Freiwillige wurden Kleidung und Bettwäsche ausgesetzt, die stark mit Material von Gelbfieberkranken verunreinigt war. Sie erkrankten nicht.
+Um 1900 prüfte die U.S. Army Yellow Fever Commission die konkurrierenden Erklärungen experimentell.
 
-Bei gezielter Mückenexposition sah das Ergebnis anders aus. Damit verlagerte sich die Erklärung von Fomiten – kontaminierten Gegenständen – auf einen Vektor.
+In einer Versuchsreihe betraten Freiwillige Räume mit Bettzeug, Kleidung und anderen Materialien, die stark durch Gelbfieberpatienten verunreinigt waren. Trotz des engen Kontakts entwickelten sie die Krankheit nicht.
 
-Die Erkenntnis machte Mückenbekämpfung zu einem zentralen Instrument gegen urbane Gelbfieberausbrüche.
+Versuche mit Stechmücken lieferten das gegenteilige Ergebnis. Hatten Mücken zuvor an Gelbfieberpatienten Blut gesaugt und stachen später empfängliche Freiwillige, konnte die Krankheit übertragen werden.
 
-Heute wissen wir, dass Gelbfieber durch ein Virus verursacht und durch infizierte Mücken übertragen wird; bei städtischen Zyklen spielt *Aedes aegypti* die wichtigste Rolle.
+Die Ergebnisse richteten die Prävention auf die Bekämpfung von Stechmücken aus.
 
-Die Ökologie ist allerdings breiter: In Waldzyklen sind andere Mückenarten und tierische Wirte beteiligt. Die historische Korrektur betrifft vor allem das urbane Epidemiemodell, das um 1900 untersucht wurde.
+Heute ist bekannt, dass Gelbfieber durch ein Virus verursacht wird. In urbanen Ausbrüchen ist *Aedes aegypti* der wichtigste Vektor – also der Organismus, der das Virus zwischen Menschen überträgt.
+
+Außerhalb von Städten ist die Ökologie breiter; dort sind andere Mückenarten und tierische Wirte an Waldzyklen beteiligt. Die historische Korrektur betrifft die Vorstellung, kontaminierte Kleidung und Bettwäsche seien der wichtigste Grund für die Ausbreitung städtischer Gelbfieberepidemien.

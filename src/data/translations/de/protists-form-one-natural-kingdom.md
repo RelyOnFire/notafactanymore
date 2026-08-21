@@ -3,25 +3,29 @@ locale: de
 entryId: protists-form-one-natural-kingdom
 sourceReviewedAt: '2026-08-20'
 claim: Protisten bilden ein einziges zusammenhängendes natürliches Reich einfacher Eukaryoten.
-currentUnderstanding: Protisten sind eine praktische Sammelgruppe von Eukaryoten, die weder Tiere noch Pflanzen oder Pilze sind. Sie bilden jedoch keine einzelne, ausschließlich ihnen eigene evolutionäre Abstammungslinie.
-whyItChanged: Das Reich Protista gruppierte überwiegend mikroskopische Eukaryoten danach, was ihnen fehlte. Ultrastruktur und molekulare Phylogenie zeigten, dass verschiedene Protisten über mehrere tief getrennte Äste verteilt sind und manche enger mit Tieren, Pflanzen oder Pilzen verwandt sind als mit anderen Protisten.
+currentUnderstanding: "„Protist“ ist eine nützliche informelle Bezeichnung für viele Eukaryoten, die keine Tiere, Pflanzen oder Pilze sind. Evolutionär bilden Protisten jedoch keinen einzigen natürlichen Zweig; Organismen, die früher gemeinsam zu Protista gerechnet wurden, gehören zu mehreren weit auseinanderliegenden Linien."
+whyItChanged: "Protista vereinte vor allem mikroskopische Organismen, die nicht gut in Tier-, Pflanzen- oder Pilzreich passten. Mikroskopie zeigte große strukturelle Unterschiede, und DNA- sowie RNA-Vergleiche belegten später, dass manche Protisten näher mit Tieren, Pflanzen oder Pilzen verwandt sind als mit anderen Protisten."
 acceptedApproximately: Mitte des 19. bis spätes 20. Jahrhundert
 changedApproximately: 1980er-Jahre bis heute
-summary: Das Protistenreich zerfiel in mehrere evolutionäre Linien, als molekulare Verwandtschaftsverhältnisse sichtbar wurden.
+summary: "Molekulare Stammbäume zerlegten das alte Protistenreich in mehrere getrennte evolutionäre Linien."
 sourceNotes:
 - Stellt Protista als Reich vor, das unterschiedliche einzellige Eukaryoten ordnen sollte.
 - Ersetzt ein einziges Protistenreich durch mehrere große eukaryotische Gruppen.
 - Erklärt, dass molekulare Daten zeigten, dass Protista mehrere Gruppen von gleichrangiger taxonomischer Bedeutung umfasst.
 ---
 
-„Protist“ war lange eine praktische Lösung für ein echtes taxonomisches Problem. Mikroskopische Eukaryoten, die weder eindeutig Tiere noch Pflanzen oder Pilze waren, konnten in einem eigenen Reich zusammengefasst werden, statt sie in Kategorien zu zwingen, die vor allem für größere Organismen entwickelt worden waren.
+Das Reich Protista löste ein praktisches Klassifikationsproblem.
 
-Das Problem lag in der Abstammung. Die Gruppe war weitgehend darüber definiert, was ihre Mitglieder nicht waren – nicht über einen gemeinsamen Vorfahren, dessen Nachkommen ausschließlich Protisten wären.
+Viele mikroskopische Organismen besitzen Zellen mit Zellkern und sind damit Eukaryoten, lassen sich aber nicht eindeutig als Tiere, Pflanzen oder Pilze einordnen. Sie gemeinsam als Protisten zu führen, verhinderte, dass man sie in unpassende bekannte Gruppen zwingen musste.
 
-Ultrastrukturelle Untersuchungen zeigten bereits tiefgreifende Unterschiede zwischen verschiedenen protistischen Gruppen. Molekulare Stammbäume machten das Problem schließlich eindeutig: Manche traditionell als Protisten bezeichneten Linien sind enger mit Tieren oder Pilzen verwandt als mit anderen Protisten; andere stehen Pflanzen näher oder gehören zu völlig anderen großen Ästen der Eukaryoten.
+Das Problem war, dass „Protist“ vor allem beschrieb, was ein Organismus nicht war.
 
-Moderne Klassifikationen teilen die Eukaryoten deshalb in mehrere große evolutionäre Gruppen auf, statt Protista als ein einziges natürliches Reich zu behandeln.
+Eine natürliche evolutionäre Gruppe sollte Organismen umfassen, die einen gemeinsamen Vorfahren teilen und möglichst auch alle Nachkommen dieses Vorfahren einschließen. Protista erfüllte diese Bedingung nicht.
 
-Der Begriff bleibt informell nützlich, besonders in Ökologie und Lehre, wenn überwiegend mikroskopische Eukaryoten gemeinsam gemeint sind.
+Mikroskopische Untersuchungen zeigten zunächst große Unterschiede im Zellbau der zusammengefassten Organismen. DNA- und RNA-Vergleiche machten das evolutionäre Problem noch deutlicher.
 
-Abgelöst ist die stammesgeschichtliche Behauptung: „Protisten“ bilden keinen einzelnen natürlichen Ast des Lebens, von dem Tiere, Pflanzen und Pilze ausgeschlossen wären.
+Einige traditionelle Protisten sind nahe Verwandte von Tieren und Pilzen. Andere stehen Pflanzen näher. Wieder andere gehören zu ganz anderen tiefen Ästen des eukaryotischen Stammbaums.
+
+Moderne Klassifikationen teilen Eukaryoten deshalb auf mehrere große evolutionäre Gruppen auf, statt alle Protisten als ein einziges Reich zu behandeln.
+
+Der Begriff *Protist* bleibt in Ökologie und Unterricht als informelle Bezeichnung für viele überwiegend mikroskopische Eukaryoten nützlich. Aufgegeben wurde die Behauptung, sie bildeten gemeinsam einen einzigen geschlossenen Zweig des Lebens.

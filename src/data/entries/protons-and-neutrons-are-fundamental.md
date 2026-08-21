@@ -1,14 +1,14 @@
 ---
 claim: "Protons and neutrons are fundamental particles with no internal structure."
-currentUnderstanding: "Protons and neutrons are composite particles made of quarks and gluons. Their mass, spin, and other properties emerge from the dynamics of the strong interaction."
-whyItChanged: "Unexpected magnetic properties and high-energy scattering showed that nucleons were not point-like. Deep-inelastic experiments revealed smaller charged constituents, later identified within the quark model."
+currentUnderstanding: "Protons and neutrons are not fundamental particles. They are composite particles built from quarks and gluons, whose interactions are governed by the strong nuclear force. Much of a proton or neutron's mass comes from the energy of this internal activity rather than simply from the masses of its quarks."
+whyItChanged: "Protons and neutrons initially behaved like convenient elementary building blocks of the atomic nucleus. High-energy scattering experiments later showed that electrons striking protons were bouncing from smaller charged constituents inside them, providing evidence for quarks and an internal structure."
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1930s–1960s"
 acceptedYear: 1935
 changedApproximately: "1960s–1970s"
 timelineYear: 1968
-summary: "Scattering experiments opened protons and neutrons and revealed quarks and gluons inside."
+summary: "High-energy scattering revealed quarks and gluons inside particles once treated as fundamental."
 featured: false
 publishedAt: "2026-07-24"
 reviewedAt: "2026-08-20"
@@ -30,14 +30,20 @@ sources:
     note: "Identifies quarks as elementary constituents and protons and neutrons as composite hadrons."
 ---
 
-After the neutron's discovery in 1932, nuclear structure became much simpler: atomic nuclei could be built from protons and neutrons. For a time, these nucleons could themselves be treated as elementary particles.
+After the neutron was discovered in 1932, the atomic nucleus became easier to describe. Nuclei could be built from protons and neutrons, collectively called nucleons.
 
-Hints of internal structure appeared in their magnetic properties and in scattering experiments. The decisive evidence came from high-energy electron beams aimed at protons.
+For a time, it was reasonable to treat those nucleons as elementary particles with no smaller components.
 
-In deep-inelastic scattering, electrons behaved as though they were striking much smaller charged constituents inside the proton. The pattern resembled Rutherford's earlier use of scattering to reveal the atomic nucleus—but now the target being opened was the proton itself.
+High-energy scattering changed that picture.
 
-Those constituents became identified with quarks, bound by gluons through the strong interaction described by quantum chromodynamics.
+The basic idea is similar to using an echo to learn about an object you cannot see directly. Physicists fired energetic electrons at protons and measured how the electrons bounced away.
 
-A proton is not simply three tiny balls sitting motionless inside a container. Its structure includes gluon fields and continually fluctuating quark–antiquark contributions, and much of its mass emerges from strong-interaction energy rather than the bare masses of the valence quarks.
+If a proton were a smooth point-like particle, the scattering should follow one pattern. Instead, at high energies the electrons behaved as though they were striking much smaller charged objects inside the proton.
 
-Protons and neutrons remain indispensable effective building blocks in nuclear physics. They are simply not fundamental ones.
+These experiments became known as deep-inelastic scattering and supplied strong evidence for internal constituents. The smaller objects were identified with quarks.
+
+Modern quantum chromodynamics describes quarks as bound together by gluons, the carriers of the strong interaction.
+
+A proton is not simply three tiny hard balls sitting motionless inside a shell. Its interior is a highly dynamic quantum system containing gluon fields and temporary quark-antiquark pairs. Much of the proton's mass comes from the energy of those strong-interaction fields and motions.
+
+Protons and neutrons remain extremely useful building blocks for nuclear physics. They are composite rather than fundamental.

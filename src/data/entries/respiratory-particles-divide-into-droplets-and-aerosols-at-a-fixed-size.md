@@ -1,7 +1,7 @@
 ---
 claim: "Respiratory particles can be divided into “droplets” and “aerosols” using one fixed particle-size cutoff."
-currentUnderstanding: "WHO and other major health agencies now describe infectious respiratory particles as a continuous range of sizes. They no longer recommend a single universal size cutoff to separate smaller from larger particles."
-whyItChanged: "COVID-19 exposed incompatible definitions across infection control, aerosol science and other fields. A WHO-led technical consultation reviewed the terminology and replaced the fixed droplet-aerosol boundary with a shared spectrum-based framework."
+currentUnderstanding: "Respiratory particles form a continuous range of sizes rather than two clean categories separated by one universal cutoff. Larger particles tend to settle faster and smaller ones tend to remain airborne longer, but their behavior also depends on evaporation, airflow, humidity, and how they are produced."
+whyItChanged: "Infection-control guidance often divided particles into “droplets” and “aerosols” at a fixed diameter, but different fields used different cutoffs. COVID-19 exposed the mismatch, and aerosol science showed that particle behavior changes gradually rather than at one magic size. WHO-led terminology now uses a spectrum-based framework."
 status: "Superseded"
 category: "Public Health"
 acceptedApproximately: "20th century–2024"
@@ -9,7 +9,7 @@ acceptedYear: 1950
 lifespanComparable: false
 changedApproximately: "2024"
 timelineYear: 2024
-summary: "WHO-led terminology now treats infectious respiratory particles as a size spectrum instead of dividing them at one universal cutoff."
+summary: "Respiratory particles are now treated as a size spectrum rather than two categories split by one universal cutoff."
 featured: false
 publishedAt: "2026-08-13"
 reviewedAt: "2026-08-13"
@@ -26,8 +26,16 @@ sources:
     note: "States explicitly that infectious respiratory particles form a continuous size spectrum and that no single cutoff should distinguish smaller from larger particles."
 ---
 
-For decades, infection-control guidance often sorted respiratory particles into two named groups. Larger “droplets” were expected to fall quickly, while smaller “aerosols” could remain suspended. The dividing line was commonly expressed as a fixed particle diameter, although different organizations and disciplines used different numbers.
+For decades, infection-control guidance often sorted particles breathed, coughed, or sneezed from the respiratory tract into two groups.
 
-COVID-19 made the weakness of that vocabulary hard to ignore. Aerosol scientists, clinicians, engineers and public-health agencies were often using the same words for different physical ranges. Particle behavior also changes continuously with size, evaporation, airflow and environmental conditions, so a single diameter cannot capture every relevant transition.
+Larger “droplets” were expected to fall quickly to nearby surfaces. Smaller “aerosols” were expected to remain suspended in the air and travel farther. A particular particle diameter was often used as the dividing line.
 
-A WHO-led consultation published new terminology in 2024 after working with experts and major health agencies. It describes infectious respiratory particles along a spectrum and distinguishes them by behavior and context rather than one universal droplet-aerosol cutoff. The older terms can still be useful in some settings, but the rigid size boundary has been superseded.
+The problem was that there was no single agreed line. Different health agencies, medical traditions, and aerosol scientists used different size cutoffs.
+
+The physics is also more gradual than the two-box picture suggests. A respiratory particle can evaporate after leaving the mouth or nose and become smaller. How long it stays airborne depends not only on its diameter but also on airflow, humidity, air movement, and the speed and direction with which it was emitted.
+
+COVID-19 made these differences in terminology difficult to ignore because clinicians, engineers, aerosol scientists, and public-health agencies were often using the same words in different ways.
+
+A WHO-led consultation published revised terminology in 2024. It treats infectious respiratory particles as a continuous spectrum and describes their behavior without relying on one universal droplet-versus-aerosol size boundary.
+
+The older words can still be useful in context. What was superseded was the idea that one fixed diameter cleanly separates two physically distinct kinds of respiratory particle.

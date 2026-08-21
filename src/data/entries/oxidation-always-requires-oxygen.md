@@ -1,14 +1,14 @@
 ---
 claim: "Oxidation always means adding oxygen to a substance."
-currentUnderstanding: "Oxidation is the loss of electrons or an increase in oxidation state. Oxygen commonly causes oxidation, but many oxidation reactions contain no oxygen."
-whyItChanged: "The term began with combustion and oxygen chemistry. Electrochemistry and electron theory later revealed the broader pattern shared by reactions involving chlorine, metal ions, electrical cells, and many other oxidants."
+currentUnderstanding: "Oxidation does not require oxygen. In modern chemistry, oxidation means that a substance loses electrons, or equivalently that its oxidation state increases. Oxygen often causes oxidation, but chlorine, metal ions, and many other chemicals can do the same."
+whyItChanged: "The word oxidation began with reactions involving oxygen, so the original definition matched combustion and rusting well. Electrochemistry and electron theory later showed that the same type of chemical change could occur without oxygen, revealing electron transfer as the broader pattern."
 status: "Superseded"
 category: "Chemistry"
 acceptedApproximately: "Late 18th–19th century"
 acceptedYear: 1785
 changedApproximately: "Late 19th–20th century"
 timelineYear: 1920
-summary: "Oxidation expanded from a reaction with oxygen into the more general loss of electrons."
+summary: "Oxidation expanded from “combining with oxygen” to the more general loss of electrons."
 featured: false
 publishedAt: "2026-07-24"
 reviewedAt: "2026-08-20"
@@ -30,12 +30,16 @@ sources:
     note: "Explains oxidation as electron loss and reduction as electron gain."
 ---
 
-The word *oxidation* began literally with oxygen chemistry. Combustion, rusting, and related reactions involved substances combining with oxygen, so defining oxidation as oxygen addition worked well for the phenomena that gave the process its name.
+The word *oxidation* originally meant what its name suggests: a reaction involving oxygen.
 
-Chemistry later encountered reactions with the same underlying structure but no oxygen at all. Chlorine could oxidize metals, electrochemical cells could drive oxidation and reduction, and electron theory provided a more general language for what was changing.
+That definition worked well for familiar examples. Iron rusts by reacting with oxygen, and combustion often involves a substance combining with oxygen from the air.
 
-Oxidation came to mean loss of electrons, or equivalently an increase in oxidation state, while reduction means gain of electrons or a decrease in oxidation state.
+Chemists later found reactions that behaved in the same way chemically even though no oxygen was present.
 
-That broader definition unifies oxygen reactions with a much larger class of redox chemistry. When iron rusts, oxygen is still involved and the older description remains perfectly useful. But oxygen is not what makes the process oxidation at the most general level.
+The broader pattern became clear with electron theory. In an oxidation reaction, a substance loses electrons. The partner reaction is reduction, in which another substance gains electrons. Because the two always occur together, chemists often call them redox reactions.
 
-This is therefore a conceptual expansion rather than a simple reversal. Chemistry retained the old examples and generalized the rule that connects them.
+For example, chlorine can oxidize a metal by taking electrons from it even though the reaction contains no oxygen at all.
+
+Chemists also describe oxidation using oxidation states, a bookkeeping system for tracking how electrons are distributed in compounds. When an atom's oxidation state increases, it has been oxidized.
+
+Oxygen is still a very common oxidizing agent, so the old definition remains useful for many everyday reactions. What changed was the general rule: oxygen is one way to cause oxidation, not what defines oxidation itself.

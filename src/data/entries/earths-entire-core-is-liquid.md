@@ -1,14 +1,14 @@
 ---
 claim: "Earth's entire metallic core is liquid."
-currentUnderstanding: "Earth has a liquid outer core surrounding a solid inner core. Seismic waves, normal modes, and other geophysical observations constrain their different physical states."
-whyItChanged: "The disappearance of direct shear waves through the core established a liquid region, encouraging a wholly liquid model. Inge Lehmann identified seismic arrivals in 1936 that were best explained by a distinct inner core, and later seismology established that it is solid."
+currentUnderstanding: "Earth's core has two main layers: a liquid outer core surrounding a solid inner core. Earthquake waves reveal the difference because different kinds of seismic waves travel differently through solids and liquids."
+whyItChanged: "Early seismology showed that shear waves do not pass through a large region of the core, establishing that much of it is liquid. In 1936, Inge Lehmann found faint earthquake-wave arrivals that a completely liquid core could not explain and proposed a smaller inner core at Earth's center. Later seismology showed that this inner core is solid."
 status: "Narrowed"
 category: "Earth Science"
 acceptedApproximately: "Early 20th century–1936"
 acceptedYear: 1915
 changedApproximately: "1936–1970s"
 timelineYear: 1936
-summary: "Subtle seismic arrivals revealed a solid inner core inside Earth's liquid outer core."
+summary: "Earthquake waves revealed a solid inner core inside Earth's liquid outer core."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,10 +30,14 @@ sources:
     note: "Summarizes the crust, mantle, liquid outer core, and solid inner core."
 ---
 
-Seismology first revealed Earth's core indirectly. Shear waves do not travel through liquids, and their disappearance across a large part of the globe showed that a major region deep inside Earth was molten. It was natural to treat the newly identified metallic core as liquid throughout.
+Seismologists cannot see Earth's core directly, but earthquake waves let them probe it.
 
-Some seismic waves refused to fit that simple model. In 1936, Danish seismologist Inge Lehmann analyzed faint arrivals recorded in regions where a wholly liquid core should have produced a deeper seismic shadow. She proposed that waves were being reflected and refracted by a smaller, distinct body at Earth's center.
+One important clue comes from shear waves, or S-waves. These waves can travel through solid rock but not through liquid. Their disappearance on the far side of Earth showed that a large region deep inside the planet is liquid, and for a time it was reasonable to picture the metallic core as liquid throughout.
 
-Later observations confirmed and refined the model: a liquid outer core surrounds a solid inner core. Immense pressure raises the melting point of the iron-rich material enough for the center to remain solid despite temperatures comparable to the surface of the Sun.
+Some earthquake waves did not fit that simple picture. In 1936, Danish seismologist Inge Lehmann studied faint signals reaching places where a completely liquid core should have produced a deeper shadow. She proposed that the waves were being reflected and bent by a smaller body at the very center of Earth.
 
-“Solid” does not mean cold or perfectly rigid. The inner core can deform over geological timescales, and its anisotropy, layering, growth and possible differential rotation remain active research topics. The old liquid-core model was therefore narrowed rather than discarded—the outer core really is liquid.
+Later observations confirmed the basic structure: a liquid outer core surrounds a solid inner core.
+
+The inner core is not solid because it is cool. Its temperature is comparable to the surface of the Sun. It remains solid because the enormous pressure at Earth's center raises the melting point of its iron-rich material.
+
+The old model was therefore only partly wrong. Much of the core really is liquid; the correction was the discovery of a solid center inside it.

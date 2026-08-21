@@ -1,14 +1,14 @@
 ---
 claim: "Genes pass only from parents to their offspring."
-currentUnderstanding: "Genes usually pass vertically from parent to offspring, but they can also move horizontally between unrelated organisms. Horizontal gene transfer is especially important in microbes and can spread traits such as antibiotic resistance."
-whyItChanged: "Evolution was traditionally represented as a branching tree built entirely from descent. Bacterial transformation, conjugation, viruses, and later genome sequencing showed that DNA can cross lineage and even species boundaries."
+currentUnderstanding: "Genes usually pass vertically from parents to offspring, but DNA can also move horizontally between unrelated organisms. This is especially common in microbes and can spread useful traits, including antibiotic resistance, without reproduction."
+whyItChanged: "Classical heredity followed family lines, but microbiologists discovered several ways bacteria can acquire DNA from elsewhere: taking up loose DNA, transferring DNA directly between cells, or receiving it through viruses. Genome sequencing later showed that these transfers have repeatedly crossed lineage boundaries during evolution."
 status: "Narrowed"
 category: "Genetics"
 acceptedApproximately: "19th–mid-20th century"
 acceptedYear: 1850
 changedApproximately: "1920s–present"
 timelineYear: 1946
-summary: "Inheritance gained a sideways route when microbes were found exchanging genes outside reproduction."
+summary: "Genes usually move down family lines, but microbes can also acquire DNA sideways from unrelated organisms."
 featured: false
 publishedAt: "2026-07-28"
 reviewedAt: "2026-08-20"
@@ -30,12 +30,16 @@ sources:
     note: "Reviews documented transfer from bacteria into eukaryotic organisms and its occasional role in adaptation."
 ---
 
-Classical heredity was vertical: genes passed down family lines from parents to offspring. Darwin's branching tree of life and later Mendelian genetics both fit naturally into that picture, with lineages diverging but not normally exchanging hereditary material after they separated.
+The familiar picture of inheritance is vertical. Parents pass genes to offspring, and over generations lineages branch apart.
 
-Microbiology revealed a sideways route. In bacterial transformation, cells can take up DNA from their surroundings. Conjugation transfers genetic material directly between cells, while viruses can carry DNA from one host to another. These mechanisms allow genes to cross lineage boundaries without reproduction.
+Microbes revealed that DNA can sometimes move sideways as well.
 
-The evolutionary importance became especially clear once genome sequencing began comparing whole microbial genomes. Some genes had histories that did not match the species tree, showing repeated horizontal transfers over deep time. Antibiotic-resistance genes provide a modern, medically important example of traits moving rapidly among bacterial populations.
+Bacteria have several routes for this. In transformation, a cell takes up loose DNA from its surroundings. In conjugation, DNA is transferred directly from one bacterial cell to another. In transduction, a virus that infects bacteria carries DNA between cells.
 
-Vertical inheritance remains dominant for most genes in animals and plants, and evolutionary trees remain enormously useful. Horizontal gene transfer is much more frequent in microbes and does not turn life's history into a complete web.
+These processes are forms of horizontal gene transfer because the DNA moves between organisms without parent-to-offspring reproduction.
 
-The correction is therefore a narrowing of the old rule: heredity is usually vertical, but genes are not restricted to parent-to-offspring transmission.
+The medical importance is easy to see in antibiotic resistance. A useful resistance gene can move into a new bacterial population instead of waiting for that population to evolve the same protection independently.
+
+Whole-genome comparisons later showed that horizontal transfers have also shaped microbial evolution over very long periods. Some genes have histories that do not match the simple branching history of the organisms carrying them.
+
+Vertical inheritance still dominates for most genes in animals and plants, and family trees remain extremely useful. Horizontal gene transfer adds another route, especially in microbes; it does not replace ordinary inheritance.

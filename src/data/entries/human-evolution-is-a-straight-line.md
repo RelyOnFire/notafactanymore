@@ -1,14 +1,14 @@
 ---
 claim: "Human evolution followed a single straight ladder in which one species replaced the next."
-currentUnderstanding: "Human evolution was branching rather than linear. Multiple hominin species often coexisted, and many lineages ended without becoming direct ancestors of Homo sapiens."
-whyItChanged: "A growing fossil record revealed contemporaneous species with different combinations of traits, while cladistic analysis and genetics replaced simple ancestor-to-descendant sequences with branching evolutionary relationships."
+currentUnderstanding: "Human evolution is a branching family tree, not a single ladder. Several hominin species often lived at the same time, many lineages died out without becoming our direct ancestors, and some later branches also interbred."
+whyItChanged: "A sparse early fossil record made it easy to arrange a few famous specimens as successive stages leading toward modern humans. As more fossils were found, species overlapped in time and showed different mixtures of traits. Genetic evidence later revealed interbreeding between some branches as well."
 status: "Superseded"
 category: "Human Evolution"
 acceptedApproximately: "Late 19th century–late 20th century"
 acceptedYear: 1885
 changedApproximately: "Late 20th century–present"
 timelineYear: 1980
-summary: "The human family tree became a branching, overlapping history rather than a single march toward modern humans."
+summary: "The human family tree became a branching, overlapping history rather than a single march toward *Homo sapiens*."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,12 +30,16 @@ sources:
     note: "Summarizes the diversity of recognized early human species and the continuing debate over their precise relationships."
 ---
 
-Evolutionary theory itself was branching from Darwin onward, but the sparse early human fossil record encouraged a much simpler practical picture. A handful of famous specimens could be arranged as successive stages leading from ape-like ancestors toward modern humans, and textbooks and museum displays often reinforced that ladder.
+The familiar “march of progress” image shows human evolution as a single file: one ape-like form gradually becoming more upright and human until it ends with *Homo sapiens*.
 
-As discoveries multiplied, the sequence became impossible to keep linear. Different hominin species overlapped in time, sometimes for hundreds of thousands of years. Fossils combined traits in different ways rather than appearing as evenly spaced intermediate steps, and many lineages clearly ended without becoming direct ancestors of *Homo sapiens*.
+Evolutionary theory itself did not require such a ladder, but the early human fossil record was sparse enough that a few famous specimens could be arranged that way in textbooks and museum displays.
 
-Cladistic methods formalized the change by treating relationships as branching trees rather than ranked progressions. Genetics added another complication: later human populations sometimes interbred, so parts of the history include gene flow between branches rather than clean replacement.
+As more fossils were discovered, the neat sequence fell apart.
 
-The modern picture is therefore a bushy family tree, not a march of inevitable improvement toward us.
+Different hominin species often overlapped in time, sometimes for hundreds of thousands of years. Some had large brains but retained other older traits; others combined anatomy in different ways. Many branches clearly ended without becoming direct ancestors of modern humans.
 
-That does not mean every relationship is unknowable or that no species was ancestral to another. The correction is to the single-file ladder: several hominin forms coexisted, many were side branches, and human evolution did not proceed through one predetermined succession of species.
+“Hominin” refers to humans and the extinct species more closely related to us than to chimpanzees. Their history looks much more like a branching bush than a ladder.
+
+Genetics made the picture even less linear. Neanderthals, Denisovans, and some populations of *Homo sapiens* interbred, so branches that had separated could sometimes exchange genes again.
+
+That does not mean the relationships are unknowable or that one species never gave rise to another. The correction is to the single-file progression: human evolution contained many contemporaneous branches, side lineages, extinctions, and some interbreeding.

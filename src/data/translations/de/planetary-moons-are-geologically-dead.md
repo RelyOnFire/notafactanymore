@@ -3,25 +3,29 @@ locale: de
 entryId: planetary-moons-are-geologically-dead
 sourceReviewedAt: '2026-08-20'
 claim: Kleine Monde sind kalte, geologisch tote Welten.
-currentUnderstanding: Mehrere Monde sind stark aktiv. Io besitzt intensiven Vulkanismus, Enceladus und Europa zeigen aktives Eis und unterirdische Ozeane, und andere Monde weisen Tektonik, Fontänen, Oberflächenerneuerung oder möglichen Kryovulkanismus auf.
-whyItChanged: Man erwartete, dass kleine Himmelskörper ihre innere Wärme rasch verlieren. Voyager entdeckte 1979 aktive Vulkane auf Io; spätere Missionen fanden an anderen Monden Fontänen, junges Gelände, Gezeitenheizung und verborgene Ozeane.
+currentUnderstanding: "Einige Monde sind geologisch äußerst aktiv. Io besitzt starken Vulkanismus; Europa und Enceladus enthalten unterirdische Ozeane und zeigen aktive Eisverformung oder Fontänen. Gezeitenkräfte ihrer Planeten können diese Monde ständig verformen und dadurch im Inneren Wärme erzeugen."
+whyItChanged: "Kleine Himmelskörper verlieren ihre ursprüngliche innere Wärme schneller als große Planeten und sollten daher früh geologisch inaktiv werden. Voyager entdeckte 1979 aktive Vulkane auf Io; spätere Missionen fanden junge Oberflächen, Fontänen, verborgene Ozeane und weitere Hinweise darauf, dass Gezeiten kleine Monde aktiv halten können."
 acceptedApproximately: Vor den späten 1970er-Jahren
 changedApproximately: 1979 bis heute
-summary: Voyager machte aus vermeintlich erstarrten Monden einige der aktivsten Welten des Sonnensystems.
+summary: "Kleine Monde, die längst erstarrt sein sollten, erwiesen sich teilweise als einige der aktivsten Welten des Sonnensystems."
 sourceNotes:
 - Beschreibt die Entdeckung aktiver Vulkane auf Io durch Voyager 1 im Jahr 1979.
 - Dokumentiert aktive Fontänen und einen globalen unterirdischen Ozean.
 - Gibt einen Überblick über Belege für einen globalen Ozean und eine aktive Eisoberfläche.
 ---
 
-Kleine Himmelskörper sollten rasch auskühlen. Im Verhältnis zu ihrem Volumen besitzen sie viel Oberfläche, über die innere Wärme entweichen kann. Daraus entstand die plausible Erwartung, kleine Monde müssten geologisch vergleichsweise früh erstarren.
+Kleine Himmelskörper kühlen schneller aus als große. Sie besitzen im Verhältnis zu ihrer Oberfläche weniger inneres Volumen, in dem Wärme gespeichert werden kann.
 
-Voyager 1 zerstörte diese einfache Regel 1979. Aufnahmen des Jupitermonds Io zeigten aktive Vulkanfontänen – der erste direkt beobachtete aktive Vulkanismus außerhalb der Erde.
+Daraus ergab sich eine naheliegende Erwartung: Kleine Monde sollten ihre ursprüngliche Wärme früh verlieren und geologisch tot werden.
 
-Die fehlende Energiequelle war Gezeitenheizung. Jupiters Gravitation verformt Io fortlaufend, weil sich der Mond auf einer leicht exzentrischen Bahn bewegt und durch Resonanzen mit anderen Monden in diesem Zustand gehalten wird. Orbitale Energie wird dabei in Wärme umgewandelt.
+Io widerlegte diese Regel auf spektakuläre Weise.
 
-Spätere Missionen erweiterten die Überraschung. Europa besitzt eine junge, gebrochene Eisoberfläche über einem globalen unterirdischen Ozean. Cassini entdeckte auf dem viel kleineren Enceladus wasserreiche Fontänen und ebenfalls einen verborgenen Ozean.
+Als Voyager 1 1979 am Jupiter vorbeiflog, zeigten die Bilder vulkanische Fontänen über der Oberfläche von Io. Es war der erste beobachtete aktive Vulkanismus außerhalb der Erde.
 
-Größe bleibt wichtig: Viele kleine Monde sind tatsächlich weitgehend inaktiv, weil sie früh auskühlten. Aber sie bestimmt den Energiehaushalt nicht allein. Gezeitenkräfte, radioaktiver Zerfall und unterirdische Flüssigkeiten können selbst kleine Welten über geologische Zeiträume aktiv halten.
+Die fehlende Energiequelle war nicht Restwärme aus Ios Entstehung. Jupiters Gravitation zieht und staucht den Mond ständig. Weil Ios Bahn leicht elliptisch ist und durch Wechselwirkungen mit benachbarten Monden so gehalten wird, ändern sich Stärke und Richtung dieser Gezeitenverformung fortlaufend. Diese Verformung erzeugt Wärme im Inneren.
 
-Widerlegt wurde die universelle Regel, nicht die Physik der Abkühlung.
+Spätere Missionen zeigten, dass Io nicht die einzige Überraschung war. Europa besitzt eine junge, stark aufgebrochene Eiskruste über einem globalen Ozean. Saturns kleiner Mond Enceladus schleudert wasserreiches Material aus Spalten nahe seinem Südpol und besitzt ebenfalls einen inneren Ozean.
+
+Damit wurde Gezeitenheizung zu einer wichtigen Energiequelle kleiner Welten.
+
+Die Größe bleibt relevant, und viele kleine Monde sind tatsächlich kalt und weitgehend inaktiv. Die Korrektur betrifft die universelle Regel: Ein kleiner Mond kann geologisch aktiv bleiben, wenn eine andere Energiequelle – besonders Gezeitenverformung – sein Inneres warm hält.

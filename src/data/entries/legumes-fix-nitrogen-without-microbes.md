@@ -1,14 +1,14 @@
 ---
 claim: "Legume plants enrich soil by fixing atmospheric nitrogen on their own."
-currentUnderstanding: "Most agricultural legumes obtain fixed nitrogen through symbiosis with bacteria, especially rhizobia, living in root nodules. The microbes perform nitrogen fixation, while the plant supplies energy and a protected environment."
-whyItChanged: "Legumes were known to improve nitrogen-poor soils before the mechanism was understood, so the ability was attributed to the plant. Experiments by Hellriegel and Wilfarth and subsequent isolation of nodule bacteria established that microbial partners were responsible for converting atmospheric nitrogen into usable compounds."
+currentUnderstanding: "Legumes such as peas, beans, and clover usually obtain usable nitrogen through a partnership with bacteria called rhizobia. The bacteria live in specialized root nodules and convert nitrogen gas from the air into chemical forms the plant can use; the plant supplies them with energy and shelter."
+whyItChanged: "Farmers knew that legumes could improve nitrogen-poor soils before anyone knew why, so the ability was naturally attributed to the plant itself. Experiments in the 1880s showed that legumes lost this advantage when grown without the right microbes, and researchers then isolated nitrogen-fixing bacteria from their root nodules."
 status: "Corrected"
 category: "Botany"
 acceptedApproximately: "Early–mid-19th century"
 acceptedYear: 1815
 changedApproximately: "1880s–1890s"
 timelineYear: 1890
-summary: "The nitrogen-fixing power of legumes proved to depend on bacteria housed in specialized root nodules."
+summary: "The nitrogen-fixing ability of legumes turned out to depend on bacteria living inside specialized root nodules."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,12 +30,16 @@ sources:
     note: "Reviews the molecular and physiological partnership between legumes and nitrogen-fixing bacteria."
 ---
 
-Farmers knew long before modern microbiology that peas, beans, clover, and related crops could improve nitrogen-poor soils. Because the effect followed the plant, it was natural to attribute the ability to the legume itself.
+Farmers knew long before modern microbiology that crops such as peas, beans, and clover could improve nitrogen-poor soil.
 
-The puzzle was atmospheric nitrogen. Nitrogen gas is abundant in air, but most plants cannot use it directly. In the 1880s, Hermann Hellriegel and Hermann Wilfarth showed that legumes gained nitrogen only when their roots developed characteristic nodules under suitable conditions. Sterile plants without the right biological partner lost the advantage.
+Because the effect followed the plant, it was natural to think that legumes themselves were pulling nitrogen directly from the air.
 
-Researchers then isolated bacteria from those nodules. The resulting picture was a symbiosis: rhizobia infect the roots and live in specialized nodules, where microbial nitrogenase converts atmospheric nitrogen into compounds the plant can use. The plant, in turn, supplies carbohydrates and a controlled environment.
+The difficulty is that atmospheric nitrogen is mostly nitrogen gas, N₂. Although it is abundant, the two nitrogen atoms are bound together so tightly that most plants cannot use the gas directly.
 
-That partnership explains why legumes can enrich agricultural systems while neighboring non-legumes generally cannot fix atmospheric nitrogen on their own.
+In the 1880s, Hermann Hellriegel and Hermann Wilfarth showed that legumes gained nitrogen only when their roots developed characteristic nodules under the right biological conditions. Plants grown without the necessary microbes lost the advantage.
 
-The phrase “nitrogen-fixing plant” remains useful shorthand, but it hides the division of labor. In the familiar legume system, the biochemical act of nitrogen fixation is carried out by microbes living in partnership with the plant.
+Researchers then isolated bacteria from those nodules. The relationship is a symbiosis: both partners benefit.
+
+The bacteria, especially a group called rhizobia, live inside the root nodules and perform nitrogen fixation. Their enzymes convert atmospheric nitrogen gas into chemical forms that can eventually be incorporated into plant molecules. The plant supplies sugars for energy and provides a protected environment in the nodule.
+
+Calling a bean or clover a “nitrogen-fixing plant” is still useful shorthand. But in the familiar legume system, the actual chemistry of nitrogen fixation is carried out by microbial partners.

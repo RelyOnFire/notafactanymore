@@ -3,23 +3,27 @@ locale: de
 entryId: human-evolution-is-a-straight-line
 sourceReviewedAt: "2026-08-20"
 claim: "Die menschliche Evolution verlief wie eine einzige gerade Leiter, auf der eine Art die nächste ersetzte."
-currentUnderstanding: "Die menschliche Evolution verlief verzweigt statt linear. Mehrere Homininenarten lebten häufig gleichzeitig, und viele Linien endeten, ohne direkte Vorfahren von Homo sapiens zu werden."
-whyItChanged: "Ein wachsender Fossilbestand zeigte gleichzeitig lebende Arten mit unterschiedlichen Merkmalskombinationen. Kladistische Analysen und Genetik ersetzten einfache Ahnen-Nachkommen-Reihen durch verzweigte evolutionäre Beziehungen."
+currentUnderstanding: "Die Evolution des Menschen gleicht einem verzweigten Stammbaum und keiner einzelnen Leiter. Mehrere Homininenarten lebten häufig gleichzeitig, viele Linien starben aus, ohne direkte Vorfahren des Menschen zu werden, und einige spätere Zweige kreuzten sich miteinander."
+whyItChanged: "Der frühe Fossilbericht war so lückenhaft, dass sich wenige berühmte Funde leicht als aufeinanderfolgende Stufen zum modernen Menschen anordnen ließen. Mit mehr Fossilien zeigte sich, dass Arten zeitlich überlappten und unterschiedliche Merkmalskombinationen besaßen. Genetische Daten belegten später außerdem Vermischung zwischen einigen Zweigen."
 acceptedApproximately: "Spätes 19. bis spätes 20. Jahrhundert"
 changedApproximately: "Spätes 20. Jahrhundert bis heute"
-summary: "Aus einer geraden Entwicklungslinie zum modernen Menschen wurde ein verzweigter Stammbaum mit sich überschneidenden Linien."
+summary: "Aus der geraden Fortschrittsleiter wurde eine verzweigte, sich zeitlich überlappende Geschichte der menschlichen Evolution."
 sourceNotes:
 - "Diskutiert das Fortbestehen linearer Leitermodelle in Deutungen der menschlichen Evolution."
 - "Erklärt, dass der menschliche Stammbaum viele Äste besitzt und mehrere frühe Menschenarten zeitweise gleichzeitig lebten."
 - "Fasst die Vielfalt bekannter früher Menschenarten und die anhaltende Debatte über ihre genauen Beziehungen zusammen."
 ---
 
-Die Evolutionstheorie war seit Darwin grundsätzlich verzweigt gedacht. Der anfangs sehr lückenhafte Fossilbestand der menschlichen Entwicklung begünstigte in der Praxis jedoch ein viel einfacheres Bild: Einige bekannte Fossilien ließen sich als aufeinanderfolgende Stufen vom affenähnlichen Vorfahren zum modernen Menschen anordnen, und Lehrbücher sowie Museumsschauen verstärkten diese Leiterdarstellung häufig.
+Das vertraute Bild vom „Marsch des Fortschritts“ zeigt menschliche Evolution wie eine Reihe hintereinander laufender Figuren: Eine affenähnliche Form wird Schritt für Schritt aufrechter und menschlicher, bis am Ende *Homo sapiens* steht.
 
-Mit jedem neuen Fund wurde es schwieriger, die Geschichte in einer einzigen Linie zu halten. Verschiedene Homininenarten lebten zur selben Zeit, teilweise über Hunderttausende Jahre hinweg. Fossilien zeigen Merkmale in unterschiedlichen Kombinationen statt als gleichmäßig verteilte Zwischenstufen, und viele Linien endeten eindeutig, ohne direkte Vorfahren von *Homo sapiens* zu werden.
+Die Evolutionstheorie selbst verlangte eine solche Leiter nicht. Der frühe Fossilbericht war jedoch so lückenhaft, dass sich wenige berühmte Funde leicht in eine solche Abfolge einordnen ließen, und Lehrbücher sowie Museumsausstellungen verstärkten dieses Bild.
 
-Kladistische Methoden formalisierten diesen Wandel, indem sie Verwandtschaft als verzweigte Stammbäume statt als Rangfolge des Fortschritts modellierten. Genetische Daten machten das Bild noch komplexer: Spätere Menschenpopulationen kreuzten sich teilweise miteinander, sodass zwischen einzelnen Ästen auch Genfluss stattfand und nicht nur saubere Ablösung.
+Mit immer mehr Fossilien zerfiel die saubere Reihenfolge.
 
-Das heutige Bild ähnelt daher eher einem buschigen Stammbaum als einem Marsch zwangsläufiger Verbesserung hin zu uns.
+Verschiedene Homininenarten lebten häufig gleichzeitig, teilweise über Hunderttausende Jahre. Manche besaßen große Gehirne und zugleich andere ursprüngliche Merkmale; andere kombinierten ihre Eigenschaften auf ganz andere Weise. Viele Zweige endeten eindeutig, ohne direkte Vorfahren moderner Menschen zu werden.
 
-Das bedeutet nicht, dass jede Abstammungsbeziehung unbekannt wäre oder nie eine Art aus einer anderen hervorging. Überholt ist die einzelne, geradlinige Leiter: Mehrere Homininenformen existierten nebeneinander, viele waren Seitenlinien, und die menschliche Evolution folgte keiner vorbestimmten Abfolge von Arten.
+Als Homininen bezeichnet man Menschen und jene ausgestorbenen Arten, die näher mit uns als mit Schimpansen verwandt sind. Ihre Geschichte ähnelt eher einem verzweigten Busch als einer Leiter.
+
+Die Genetik machte das Bild noch weniger linear. Neandertaler, Denisova-Menschen und einige Populationen von *Homo sapiens* kreuzten sich miteinander, sodass getrennte Zweige später wieder Gene austauschen konnten.
+
+Das bedeutet nicht, dass alle Verwandtschaftsverhältnisse unbekannt wären oder niemals eine Art aus einer anderen hervorging. Die Korrektur betrifft die Einbahnstraße: Menschliche Evolution bestand aus gleichzeitig lebenden Zweigen, Seitenlinien, Aussterben und teilweise auch Vermischung.

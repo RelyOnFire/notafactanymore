@@ -3,23 +3,27 @@ locale: de
 entryId: migraine-is-only-blood-vessel-dilation
 sourceReviewedAt: '2026-08-20'
 claim: Migräne wird einfach dadurch verursacht, dass sich Blutgefäße zunächst verengen und anschließend erweitern.
-currentUnderstanding: Migräne ist eine komplexe neurologische und neurovaskuläre Erkrankung, an der Hirnnetzwerke, sensorische Verarbeitung, das Trigeminussystem, Signalmoleküle und Wechselwirkungen mit Blutgefäßen beteiligt sind. Eine Gefäßerweiterung allein ist weder notwendig noch ausreichend.
-whyItChanged: Nach Harold Wolffs Arbeiten in den 1940er-Jahren dominierte die Gefäßtheorie. Bildgebung des Gehirns, Untersuchungen des Blutflusses und Behandlungen, die auf neuronale Signalwege wirken, zeigten, dass Migräne auf mehr beruht als auf mechanischen Veränderungen des Arteriendurchmessers.
+currentUnderstanding: "Migräne ist eine neurologische Erkrankung, an der Hirnnetzwerke, Sinnesverarbeitung, das Trigeminussystem, Botenstoffe und Blutgefäße beteiligt sind. Veränderungen der Gefäßweite können während einer Attacke auftreten, doch eine Gefäßerweiterung allein ist weder notwendig noch ausreichend, um Migräne zu erklären."
+whyItChanged: "Die ältere Gefäßtheorie erklärte die Aura durch eine Verengung von Hirngefäßen und den anschließenden Kopfschmerz durch deren Erweiterung. Bildgebung, Blutflussmessungen und Behandlungen, die gezielt neuronale Signalwege beeinflussen, zeigten jedoch, dass Attacken ohne diese einfache Gefäßabfolge beginnen können und Migräne breitere Veränderungen im Nervensystem umfasst."
 acceptedApproximately: 1940er- bis 1990er-Jahre
 changedApproximately: 1980er-Jahre bis heute
-summary: Eine einfache Erklärung über Blutgefäße wich einem umfassenderen neurologischen und neurovaskulären Modell.
+summary: "Aus einer einfachen Gefäßerklärung wurde ein umfassenderes neurologisches und neurovaskuläres Modell der Migräne."
 sourceNotes:
 - Erklärt, wie Wolffs Arbeiten der Gefäßtheorie Auftrieb gaben und sie zur führenden Erklärung der Migräne machten.
 - Stellt fest, dass die Gefäßtheorie durch Belege für primäre Vorgänge im Gehirn und neurovaskuläre Mechanismen abgelöst wurde.
 - Gibt einen Überblick über die heutige Auffassung, wonach Gefäßveränderungen beitragen können, Migräne aber nicht allein erklären.
 ---
 
-Über einen großen Teil des 20. Jahrhunderts wurde Migräne vor allem als Gefäßereignis erklärt. Eine Verengung von Hirngefäßen sollte die Aura auslösen, auf die anschließend eine Erweiterung der Gefäße und damit der pulsierende Kopfschmerz folgte. Harold Wolffs einflussreiche Arbeiten machten dieses Modell zur dominierenden Erklärung.
+Über weite Teile des 20. Jahrhunderts wurde Migräne vor allem als Problem der Blutgefäße im und um das Gehirn erklärt.
 
-Die Theorie passte zu einigen Beobachtungen, erwies sich aber als zu einfach. Bildgebungs- und Blutflussstudien zeigten, dass Attacken ohne die vorhergesagte Gefäßabfolge beginnen können und dass Veränderungen des Gefäßdurchmessers die Symptome nicht zuverlässig genug erklären.
+Die klassische Abfolge war einfach: Zunächst sollten sich Gefäße verengen und dadurch die als Aura bezeichneten Seh- oder Sinnesstörungen auslösen. Anschließend sollten sie sich erweitern, und diese Erweiterung galt als Ursache des pochenden Kopfschmerzes.
 
-Zunehmend rückte das Gehirn selbst in den Mittelpunkt: veränderte sensorische Verarbeitung, kortikale Erregbarkeit, das Trigeminussystem sowie Netzwerke in Hirnstamm und Hypothalamus. Auch Signalmoleküle wie CGRP spielen eine wichtige Rolle. Therapien, die solche neuronalen Signalwege beeinflussen, können wirksam sein, ohne bloß Blutgefäße mechanisch zu verengen.
+Das Modell passte zu manchen Beobachtungen, aber nicht zu allen.
 
-Damit sind Gefäße nicht aus der Migränebiologie verschwunden. Neurovaskuläre Wechselwirkungen bleiben relevant, und das genaue Zusammenspiel neuronaler und vaskulärer Mechanismen wird weiter erforscht.
+Bildgebung und Blutflussmessungen zeigten, dass Migräneattacken auch ohne die vorhergesagte Abfolge von Verengung und Erweiterung beginnen können. Veränderungen der Gefäßweite stimmen außerdem nicht zuverlässig genug mit den Symptomen überein, um die ganze Erkrankung zu erklären.
 
-Überholt ist das Ein-Ursachen-Modell. Migräne ist nicht einfach ein Kopfschmerz, der entsteht, weil sich eine Arterie erweitert, sondern eine komplexe neurologische Erkrankung, in der Gefäßveränderungen nur ein Teil eines größeren Systems sind.
+Die Forschung richtete sich zunehmend auf das Nervensystem selbst. Das Trigeminussystem – ein wichtiger sensorischer Signalweg für Gesicht, Kopf und die Hirnhäute – wird während Attacken aktiviert. Auch Hirnnetzwerke für Schmerz- und Sinnesverarbeitung verändern sich, und Botenstoffe wie CGRP helfen, migränebezogene Signale weiterzugeben und zu verstärken.
+
+Medikamente, die CGRP oder andere neuronale Signalwege blockieren, können Migräne verhindern oder lindern, ohne einfach nur Gefäße mechanisch zu verengen.
+
+Blutgefäße bleiben Teil der Migränebiologie; deshalb wird sie häufig als neurovaskuläre Erkrankung beschrieben. Verschwunden ist die Ein-Ursachen-Erklärung, Migräne sei lediglich ein Kopfschmerz durch die Erweiterung einer Arterie.

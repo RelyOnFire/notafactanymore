@@ -3,23 +3,27 @@ locale: de
 entryId: mountains-form-from-earths-contraction
 sourceReviewedAt: '2026-08-20'
 claim: Gebirgsketten entstehen hauptsächlich, weil die abkühlende Erde schrumpft und dabei Falten wirft.
-currentUnderstanding: Die meisten großen Gebirgsgürtel entstehen durch Plattenkonvergenz, Subduktion, Kontinentkollision, Verwerfungen, Krustenverdickung, Magmatismus, Hebung und Erosion. Andere Gebirge entstehen durch Vulkanismus oder Dehnung.
-whyItChanged: Eine abkühlende Erdkugel bot einen globalen Mechanismus für gestauchte und gefaltete Gesteine, konnte aber Verteilung und Entwicklungsgeschichte der Gebirgsgürtel nicht vollständig erklären. Kontinentaldrift, Ozeanbodenspreizung, Erdbebenmuster, Geologie des Meeresbodens und Plattentektonik lieferten einen quantitativen Rahmen für eine bewegliche Erde.
+currentUnderstanding: "Die meisten großen Gebirgsgürtel entstehen durch die Bewegung und Wechselwirkung tektonischer Platten. Kontinente können kollidieren und die Erdkruste verdicken, eine Platte kann an einer Subduktionszone unter eine andere absinken, und Verwerfungen, Vulkanismus, Hebung und Erosion formen anschließend die Gebirge."
+whyItChanged: "Eine abkühlende Erde schrumpft tatsächlich etwas, weshalb Geologen des 19. Jahrhunderts plausibel annehmen konnten, ihre Kruste würde sich beim Schrumpfen falten. Kartierungen des Meeresbodens, Erdbeben, Vulkane, magnetische Streifen und die Spreizung des Ozeanbodens zeigten später bewegliche tektonische Platten und verbanden große Gebirgsgürtel mit deren Grenzen."
 acceptedApproximately: Mitte des 19. bis frühes 20. Jahrhundert
 changedApproximately: 1910er- bis 1960er-Jahre
-summary: Die Plattentektonik ersetzte eine schrumpfende, Falten werfende Erde als allgemeine Erklärung der Gebirgsbildung.
+summary: "Aus dem Faltenmodell einer schrumpfenden Erde wurde Gebirgsbildung als Folge beweglicher tektonischer Platten."
 sourceNotes:
 - Erklärt, wie Plattentektonik Gebirgsketten, Erdbeben, Vulkane und andere globale geologische Erscheinungen erklärt.
 - Gibt einen Überblick über die Belege, die zur plattentektonischen Revolution führten.
 - Wegeners Argument für bewegliche Kontinente stellte Vorstellungen einer unbeweglichen Erde und Kontraktionstheorien infrage.
 ---
 
-Ein abkühlender Körper zieht sich zusammen. Im 19. Jahrhundert wurde diese einfache physikalische Vorstellung zu einer globalen geologischen Theorie: Wenn die Erde Wärme verliert und schrumpft, müsse ihre starre äußere Schale Falten und Runzeln bilden – ähnlich der Haut einer trocknenden Frucht. Gebirgsketten ließen sich so als globale Schrumpfungsfalten deuten.
+Ein abkühlender Körper zieht sich zusammen. Im 19. Jahrhundert übertrugen Geologen diese einfache Vorstellung auf den ganzen Planeten.
 
-Das Modell konnte gestauchte und gefaltete Gesteine grundsätzlich verständlich machen. Schwieriger war die räumliche und zeitliche Verteilung der Gebirgsgürtel: Warum konzentrierten sich Deformation, Vulkanismus und Erdbeben in bestimmten Zonen, und wie hingen Ozeanbecken und Kontinentalränder damit zusammen?
+Wenn die Erde früher wesentlich heißer gewesen war und beim Abkühlen allmählich schrumpfte, konnte ihre starre äußere Hülle für das kleinere Innere zu groß werden. Die Kruste sollte sich dann falten und zerknittern – ähnlich wie die Haut einer trocknenden Frucht. Gebirge erschienen als natürliche Falten.
 
-Die Kontinentaldrift stellte die unbewegliche, schrumpfende Erde infrage, besaß zunächst aber keinen überzeugenden Mechanismus. Mitte des 20. Jahrhunderts lieferten Kartierungen des Meeresbodens den entscheidenden Rahmen: mittelozeanische Rücken, magnetische Streifenmuster, junge ozeanische Kruste, Tiefseegräben und Erdbebengürtel zeigten eine bewegliche Lithosphäre.
+Das Modell hatte einen gewissen Reiz, weil Gebirge tatsächlich stark gefaltete und zusammengedrückte Gesteine enthalten.
 
-Die Plattentektonik verband Gebirgsbildung mit Konvergenz. Kontinentkollisionen verdicken die Kruste, Subduktion treibt Deformation und Magmatismus an, und Verwerfungen, Hebung, Erosion sowie isostatischer Ausgleich formen die entstehenden Gebirge weiter.
+Das globale Muster war schwieriger zu erklären. Gebirgsgürtel, Tiefseegräben, Vulkane und Erdbeben liegen in bestimmten Zonen der Erde und nicht als zufällige Falten über einen gleichmäßig schrumpfenden Planeten verteilt.
 
-Die Erde hat sich über geologische Zeiträume tatsächlich abgekühlt. Eine globale thermische Kontraktion ist jedoch nicht der Mechanismus, der die meisten heutigen Gebirgsgürtel organisiert. Gebirgsbildung ist vor allem Ausdruck eines mobilen Planeten.
+Die Erforschung des Meeresbodens im 20. Jahrhundert lieferte einen anderen Mechanismus. An mittelozeanischen Rücken entsteht neue Kruste und bewegt sich nach außen. Anderswo sinkt eine tektonische Platte an einer Subduktionszone unter eine andere, während Kontinente auf konvergierenden Platten miteinander kollidieren können.
+
+Solche Kollisionen und Subduktionszonen komprimieren und verdicken die Kruste, treiben Verwerfungen und Vulkanismus an und heben große Gebirgsgürtel. Erosion und weitere Hebung verändern sie anschließend weiter.
+
+Die Erde ist im Laufe ihrer Geschichte abgekühlt, doch globale Kontraktion ist nicht der Hauptmechanismus heutiger Gebirgsbildung. Die meisten großen Gebirge sind Produkte einer beweglichen Oberfläche aus tektonischen Platten.

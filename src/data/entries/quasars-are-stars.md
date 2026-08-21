@@ -1,14 +1,14 @@
 ---
 claim: "Quasars are unusual stars within or near the Milky Way."
-currentUnderstanding: "Quasars are extremely luminous active galactic nuclei powered by matter falling toward supermassive black holes in distant galaxies."
-whyItChanged: "Quasars looked like unresolved stars in early images, which is why they were called quasi-stellar objects. Their large redshifts, enormous luminosities, and eventual detection of host galaxies showed that they were distant galactic nuclei."
+currentUnderstanding: "Quasars are not stars. They are extraordinarily bright active galactic nuclei—the compact centers of distant galaxies—powered by matter falling toward supermassive black holes."
+whyItChanged: "Early photographs showed quasars as unresolved points of light, so they looked like unusual stars. In 1963, the spectrum of 3C 273 revealed a very large redshift, placing it at an enormous distance if the redshift came from cosmic expansion. Later observations found host galaxies around the bright nuclei."
 status: "Reclassified"
 category: "Astronomy"
 acceptedApproximately: "Late 1950s–early 1960s"
 acceptedYear: 1958
 changedApproximately: "1963 onward"
 timelineYear: 1963
-summary: "Star-like points of light turned out to be the brilliant nuclei of distant galaxies."
+summary: "Star-like points of light turned out to be the intensely luminous centers of distant galaxies."
 featured: false
 publishedAt: "2026-07-23"
 reviewedAt: "2026-08-20"
@@ -30,14 +30,20 @@ sources:
     note: "Describes quasars as distant, highly luminous galactic nuclei."
 ---
 
-Early quasars looked exactly like their name suggests: quasi-stellar points of light. Photographic plates did not resolve obvious galaxies around them, so a stellar interpretation was a natural starting point.
+The name quasar comes from “quasi-stellar,” meaning star-like.
 
-The spectrum of 3C 273 changed the scale of the problem in 1963. Its strange emission lines made sense once Maarten Schmidt recognized that they were familiar lines shifted to much longer wavelengths.
+That description made sense in early photographs. Quasars appeared as tiny unresolved points of light rather than as extended galaxies, so astronomers initially considered explanations involving unusual stars or other relatively nearby objects.
 
-If that redshift was cosmological, 3C 273 was not a nearby star at all. It was enormously distant and therefore astonishingly luminous.
+The spectrum of 3C 273 changed the scale of the problem in 1963.
 
-Other quasars showed similar behavior, and later imaging directly revealed galaxies surrounding many of the star-like nuclei. The modern explanation is an active galactic nucleus powered by matter accreting onto a supermassive black hole.
+Its light contained bright emission lines that at first seemed unfamiliar. Maarten Schmidt recognized that they were actually known atomic lines shifted far toward longer wavelengths.
 
-The early stellar interpretation was brief and not universal, and “quasi-stellar” remains a good description of how quasars appear in unresolved images.
+This shift is called redshift. For very distant galaxies, the expansion of the universe stretches the wavelength of light while it travels toward us. If 3C 273's redshift had that cosmological origin, the object had to be enormously far away.
 
-The reclassification was physical, not visual: an object that looked like one bright star turned out to be the compact, violently energetic center of an entire distant galaxy.
+That meant it was also extraordinarily luminous. A normal star could not explain the observed brightness from such a distance.
+
+Other quasars showed the same pattern, and improved imaging eventually revealed galaxies surrounding many of the bright point-like sources.
+
+The modern explanation is an active galactic nucleus. Gas and dust fall toward a supermassive black hole at the center of a galaxy, forming a hot accretion flow that can release tremendous amounts of radiation.
+
+Quasars can still look like stars when their host galaxy is unresolved. What changed was the physical interpretation: the point of light is the brilliant center of an entire distant galaxy.

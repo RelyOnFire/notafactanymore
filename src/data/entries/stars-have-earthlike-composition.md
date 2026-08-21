@@ -1,14 +1,14 @@
 ---
 claim: "Stars have roughly the same elemental composition as Earth."
-currentUnderstanding: "Stars are overwhelmingly composed of hydrogen and helium. Heavier elements are present in much smaller proportions, with abundances that vary among stars and stellar populations."
-whyItChanged: "Astronomers initially interpreted similar spectral lines as evidence that stars and Earth's crust contained elements in broadly similar proportions. Cecilia Payne applied ionization theory to stellar spectra and showed that temperature strongly affects line strength, revealing vastly greater hydrogen and helium abundances."
+currentUnderstanding: "Most ordinary stars are made overwhelmingly of hydrogen and helium, not an Earth-like mixture of heavy elements. Elements such as iron, calcium, and oxygen are present in much smaller proportions, and their abundances vary between stars."
+whyItChanged: "Stellar spectra showed strong lines from many elements familiar on Earth, which encouraged the assumption that stars contained them in roughly similar proportions. Cecilia Payne showed in 1925 that temperature and ionization strongly affect line strength, revealing that hydrogen and helium were vastly more abundant than the visually prominent heavy elements."
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Late 19th century–1920s"
 acceptedYear: 1885
 changedApproximately: "1925–1929"
 timelineYear: 1925
-summary: "Cecilia Payne showed that stellar spectra concealed stars made mostly of hydrogen and helium."
+summary: "Interpreting stellar spectra with ionization physics revealed stars made mostly of hydrogen and helium."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,16 +30,18 @@ sources:
     note: "Reviews the resistance to Payne's result and its later confirmation."
 ---
 
-Stellar spectra showed many of the same elements known on Earth. Iron, calcium, sodium, and other familiar species produced recognizable lines, encouraging the conclusion that stars probably contained broadly Earth-like mixtures.
+Astronomers can learn what a star contains by spreading its light into a spectrum.
 
-That interpretation assumed that line strength tracked abundance fairly directly.
+Dark and bright lines appear at particular wavelengths because atoms and ions absorb or emit specific energies of light. Early stellar spectra contained recognizable lines from iron, calcium, sodium, hydrogen, and many other elements also found on Earth.
 
-Cecilia Payne showed why it did not. In her 1925 thesis, she applied the new physics of ionization to stellar atmospheres and demonstrated that temperature changes which ions and atoms produce visible absorption lines.
+It was tempting to assume that the strongest-looking lines came from the most abundant elements and that stars therefore had a roughly Earth-like chemical mixture.
 
-Once those effects were accounted for, hydrogen and helium turned out to be vastly more abundant than the heavier elements that often dominated the visually striking parts of the spectrum.
+Cecilia Payne showed why that inference failed.
 
-The result initially seemed so surprising that even experts urged caution, but later work confirmed the basic conclusion: ordinary stars are overwhelmingly made of hydrogen and helium.
+In her 1925 doctoral work, she applied the new physics of ionization to stellar atmospheres. Temperature determines how many electrons an atom has lost and which energy states are populated. That, in turn, determines which spectral lines become strong or weak.
 
-Spectral lines still reveal composition, but they must be interpreted through temperature, pressure, ionization, and radiative-transfer physics.
+A weak line can therefore come from an abundant element in the wrong physical state, while a strong line can come from a much less abundant element whose atoms happen to produce that transition efficiently.
 
-Stars are not chemically identical. Their smaller heavy-element fraction varies with age and formation history, preserving a record of earlier generations of stellar nucleosynthesis.
+Once temperature and ionization were taken into account, hydrogen and helium emerged as overwhelmingly dominant in ordinary stars.
+
+Heavier elements are still crucial. Their smaller abundances vary among stars and preserve information about earlier generations of stellar evolution and nucleosynthesis. What changed was the idea that a stellar spectrum could be read as a simple abundance chart resembling Earth's composition.

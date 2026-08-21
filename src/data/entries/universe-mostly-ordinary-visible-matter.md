@@ -1,7 +1,7 @@
 ---
 claim: "The gravitating mass of galaxies and galaxy clusters can be accounted for almost entirely by the stars and gas that astronomers can observe directly."
-currentUnderstanding: "Observed stars and gas do not provide enough gravity to explain galaxy rotation, cluster dynamics, gravitational lensing, or cosmological structure. In the standard cosmological model, ordinary matter is only a small fraction of the total cosmic energy budget, with dark matter and dark energy dominating."
-whyItChanged: "Twentieth-century measurements of galaxy clusters and rotation curves revealed gravitational effects requiring much more mass than the visible material supplied. Later lensing, cosmic-microwave-background, supernova, and large-scale-structure measurements established a cosmological inventory dominated by dark components."
+currentUnderstanding: "The stars, glowing gas, planets, and other ordinary matter we can observe directly make up only a small part of the modern cosmic inventory. Gravity requires much more dark matter around galaxies and clusters, while cosmological measurements indicate that dark energy contributes an even larger share of the universe's total energy density."
+whyItChanged: "Galaxy clusters and rotation curves showed more gravitational pull than visible stars and gas could provide. Gravitational lensing later mapped unseen mass directly through its effect on light, while the cosmic microwave background, supernovae, and large-scale structure established a universe dominated by dark matter and dark energy."
 status: "Superseded"
 category: "Cosmology"
 acceptedApproximately: "Early 20th-century extragalactic astronomy before dark-matter evidence accumulated"
@@ -9,7 +9,7 @@ acceptedYear: 1920
 changedApproximately: "1930s–1970s, consolidated later"
 timelineYear: 1975
 lifespanComparable: true
-summary: "Visible stars and gas turned out to account for only part of the gravity in galaxies. Ordinary matter itself makes up only a small fraction of the modern cosmic inventory."
+summary: "Visible matter accounts for only a minority of the gravity and energy budget inferred for the universe."
 featured: false
 publishedAt: "2026-07-23"
 reviewedAt: "2026-08-20"
@@ -31,18 +31,20 @@ sources:
     note: "Shows ordinary matter as only a small part of the total cosmic composition."
 ---
 
-Early extragalactic astronomy could reasonably begin with what telescopes showed: stars, glowing gas, dust, and the light they produced. Those visible components seemed like the natural inventory of galactic mass.
+Astronomy begins with what gives off or blocks light: stars, glowing gas, dust, planets, and galaxies.
 
-Dynamics said otherwise.
+It was therefore natural to treat visible matter as most of the material in the universe.
 
-Fritz Zwicky's work on galaxy clusters suggested that the visible galaxies did not contain enough mass to explain their motions. Later, galaxy rotation curves showed stars orbiting at speeds that remained unexpectedly high far from galactic centers.
+Gravity told a different story.
 
-The gravitational field implied much more mass than the luminous matter supplied.
+In galaxy clusters, galaxies move too quickly to be held together by the gravity of the visible material alone. Within individual galaxies, stars far from the center also orbit faster than expected if most of the mass followed the visible light.
 
-Gravitational lensing, the cosmic microwave background, and large-scale structure strengthened the case and helped establish a broader cosmological inventory.
+The simplest conclusion was that much more gravitating matter was present than telescopes could see. This unseen component became known as dark matter.
 
-In the standard model, ordinary matter makes up only a small fraction of the total cosmic energy density; dark matter and dark energy dominate.
+Gravitational lensing supplied another way to detect it. Mass bends the path of background light, so astronomers can map the gravitational mass of a galaxy or cluster even when that mass emits no light.
 
-Those names describe well-measured effects and model components, not fully understood substances. Their underlying physical nature remains open.
+Cosmology then broadened the inventory again. Measurements of distant supernovae showed that the expansion of the universe is accelerating. Together with the cosmic microwave background and large-scale structure, these observations led to the standard model in which ordinary matter is only a small fraction of the total cosmic energy density. Dark matter contributes much more, and dark energy contributes the largest share.
 
-The robust correction is not that visible matter is unimportant. It is that what shines is only a minority of what gravity and cosmology require.
+The names do not mean that the underlying physics is fully understood. The nature of dark matter and dark energy remains one of the largest open problems in physics.
+
+The robust correction is simpler: the matter we see shining is not most of what gravitational and cosmological measurements require.

@@ -1,14 +1,14 @@
 ---
 claim: "An optical microscope can never resolve detail smaller than the diffraction limit."
-currentUnderstanding: "The diffraction limit still constrains conventional linear imaging, but super-resolution methods can obtain finer spatial information by controlling fluorescent states, scanning nonlinear responses, or localizing individual emitters over many measurements."
-whyItChanged: "Abbe correctly showed that ordinary optical imaging loses high-spatial-frequency information. The limit was later treated as an absolute boundary for optical microscopy until STED, PALM, STORM, and related methods changed the assumptions under which the image is formed."
+currentUnderstanding: "Ordinary optical microscopes cannot cleanly separate two nearby details once their blurred light patterns overlap below the diffraction limit. Super-resolution microscopy can recover finer information by changing how fluorescent molecules are switched on, measured, and reconstructed rather than by making conventional diffraction disappear."
+whyItChanged: "Abbe's diffraction limit correctly described ordinary imaging, but it was often turned into the stronger claim that no light microscope could ever see finer detail. Methods such as STED, PALM, and STORM changed the imaging conditions by controlling fluorescence or locating individual molecules across many measurements."
 status: "Narrowed"
 category: "Measurement"
 acceptedApproximately: "1870s–1990s"
 acceptedYear: 1875
 changedApproximately: "1990s–2000s"
 timelineYear: 1994
-summary: "Super-resolution fluorescence microscopy bypassed the assumptions behind the conventional diffraction limit."
+summary: "Super-resolution microscopy beat the conventional diffraction limit by changing how optical images are formed and reconstructed."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,14 +30,20 @@ sources:
     note: "Hell and Wichmann proposed the principle underlying STED microscopy."
 ---
 
-Ernst Abbe's nineteenth-century diffraction analysis correctly identified a fundamental limitation of conventional optical imaging. When two objects are closer than roughly the scale set by wavelength and numerical aperture, their diffraction patterns overlap and ordinary microscopy cannot resolve them as separate structures.
+Even a perfect optical lens cannot focus light into an infinitely small point.
 
-Over time, that result was often summarized more absolutely: visible-light microscopy could never reveal detail below the diffraction limit.
+Because light behaves as a wave, a tiny object appears through a microscope as a blurred spot rather than a perfect dot. If two objects are close enough that their blurred patterns overlap strongly, an ordinary microscope can no longer separate them.
 
-Super-resolution methods changed the assumptions rather than repealing diffraction. STED microscopy selectively suppresses fluorescence around a tiny central region, while PALM and STORM activate sparse subsets of fluorescent molecules and localize their positions across many measurements.
+Ernst Abbe described this diffraction limit in the nineteenth century. For conventional microscopy, the result is real and fundamental.
 
-By controlling emitter states, exploiting nonlinear responses, or accumulating information over time, these methods reconstruct structures at scales well below conventional diffraction-limited resolution.
+Over time, however, the rule was often restated more broadly: no optical microscope could ever extract detail below that scale.
 
-The achievement is not unlimited. Resolution still depends on labeling, photon counts, noise, sample movement, reconstruction choices, and method-specific artifacts.
+Super-resolution microscopy changed the assumptions.
 
-Abbe's limit remains correct for the imaging conditions he analyzed. What narrowed was the claim that every optical microscope must operate under exactly those conditions.
+Some methods use fluorescent molecules that can be switched between bright and dark states. PALM and STORM, for example, turn on only a sparse set of molecules at a time. Because the glowing spots are separated, each molecule's position can be estimated very precisely. Repeating that process many times allows a much finer image to be reconstructed.
+
+STED takes a different approach. It uses an additional beam of light to suppress fluorescence around the edge of a small region, leaving a much smaller central area able to glow.
+
+These methods do not abolish diffraction. The light from each emitting molecule still diffracts. They obtain extra spatial information by controlling when and where fluorescence occurs and by combining many measurements.
+
+Resolution is still limited by labeling, photon counts, noise, sample movement, and the particular method used. Abbe's result remains correct for conventional imaging; what failed was treating those conditions as unavoidable for every optical microscope.

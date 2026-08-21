@@ -3,27 +3,31 @@ locale: de
 entryId: quasars-are-stars
 sourceReviewedAt: '2026-08-20'
 claim: Quasare sind ungewöhnliche Sterne innerhalb oder in der Nähe der Milchstraße.
-currentUnderstanding: Quasare sind extrem leuchtkräftige aktive Galaxienkerne, die von Materie angetrieben werden, die auf supermassereiche Schwarze Löcher in fernen Galaxien fällt.
-whyItChanged: Auf frühen Aufnahmen erschienen Quasare punktförmig wie Sterne, weshalb sie als „quasi-stellare Objekte“ bezeichnet wurden. Ihre großen Rotverschiebungen, enorme Leuchtkraft und schließlich der Nachweis ihrer Wirtsgalaxien zeigten, dass es sich um weit entfernte galaktische Kerne handelt.
+currentUnderstanding: "Quasare sind keine Sterne. Sie sind außerordentlich helle aktive Galaxienkerne – die kompakten Zentren ferner Galaxien – und werden durch Materie angetrieben, die auf supermassereiche Schwarze Löcher zufällt."
+whyItChanged: "Auf frühen Fotografien erschienen Quasare als unaufgelöste Lichtpunkte und sahen daher wie ungewöhnliche Sterne aus. 1963 zeigte das Spektrum von 3C 273 eine sehr große Rotverschiebung, die das Objekt bei kosmologischer Deutung in enorme Entfernung rückte. Spätere Beobachtungen fanden Wirtsgalaxien um die hellen Kerne."
 acceptedApproximately: Späte 1950er- bis frühe 1960er-Jahre
 changedApproximately: Ab 1963
-summary: Sternähnliche Lichtpunkte erwiesen sich als die gleißend hellen Kerne ferner Galaxien.
+summary: "Sternähnliche Lichtpunkte erwiesen sich als extrem leuchtkräftige Zentren ferner Galaxien."
 sourceNotes:
 - Stellt fest, dass Quasare als Lichtpunkte erschienen und bis in die 1960er-Jahre für eine Art Stern gehalten wurden.
 - Erklärt die Herkunft der Bezeichnung „quasi-stellar“ und Hubbles Nachweis der Galaxien, die Quasare beherbergen.
 - Beschreibt Quasare als weit entfernte, extrem leuchtkräftige Galaxienkerne.
 ---
 
-Frühe Quasare sahen tatsächlich fast genau so aus, wie ihr Name vermuten lässt: quasi-stellar, also sternähnlich. Auf fotografischen Aufnahmen erschienen sie als unaufgelöste Lichtpunkte, ohne klar erkennbare Galaxie um sie herum. Eine stellare Erklärung war daher zunächst naheliegend.
+Der Name Quasar leitet sich von „quasi-stellar“ ab – also sternähnlich.
 
-1963 veränderte das Spektrum von 3C 273 den Maßstab des Problems. Die rätselhaften Emissionslinien ließen sich verstehen, als Maarten Schmidt erkannte, dass es sich um bekannte Linien handelte, die extrem stark zu längeren Wellenlängen verschoben waren.
+Auf frühen Fotografien war diese Beschreibung passend. Quasare erschienen als winzige unaufgelöste Lichtpunkte und nicht als ausgedehnte Galaxien. Deshalb wurden zunächst Erklärungen mit ungewöhnlichen Sternen oder anderen vergleichsweise nahen Objekten erwogen.
 
-War diese Rotverschiebung kosmologisch, konnte 3C 273 kein naher Stern sein. Das Objekt musste ungeheuer weit entfernt liegen – und dementsprechend eine gewaltige Leuchtkraft besitzen.
+Das Spektrum von 3C 273 veränderte 1963 den Maßstab des Problems.
 
-Andere Quasare zeigten ähnliche Eigenschaften. Spätere Beobachtungen lösten schließlich auch die umgebenden Wirtsgalaxien auf.
+Sein Licht enthielt helle Emissionslinien, die zunächst unbekannt wirkten. Maarten Schmidt erkannte, dass es sich in Wirklichkeit um bekannte atomare Linien handelte, die stark zu längeren Wellenlängen verschoben waren.
 
-Heute werden Quasare als besonders leuchtkräftige aktive Galaxienkerne verstanden, deren Energie aus Materie stammt, die in die Umgebung supermassereicher Schwarzer Löcher fällt.
+Diese Verschiebung heißt Rotverschiebung. Bei sehr fernen Galaxien dehnt die Expansion des Universums die Wellenlänge des Lichts auf seinem Weg zu uns. Wenn die Rotverschiebung von 3C 273 kosmologischen Ursprung hatte, musste das Objekt extrem weit entfernt sein.
 
-Die frühe Sterninterpretation war kurzlebig und nicht unter allen Astronomen gleichermaßen akzeptiert. „Quasi-stellar“ blieb trotzdem im Namen erhalten, weil es ihr Erscheinungsbild beschreibt.
+Damit musste es zugleich außerordentlich leuchtkräftig sein. Ein gewöhnlicher Stern konnte die beobachtete Helligkeit aus dieser Entfernung nicht erklären.
 
-Die Neuklassifizierung war physikalisch: Ein einzelner sternähnlicher Lichtpunkt erwies sich als der extrem kompakte und energiereiche Kern einer ganzen fernen Galaxie.
+Andere Quasare zeigten dasselbe Muster, und bessere Bildgebung enthüllte schließlich Galaxien um viele der hellen punktförmigen Quellen.
+
+Heute werden Quasare als aktive Galaxienkerne verstanden. Gas und Staub fallen auf ein supermassereiches Schwarzes Loch im Zentrum einer Galaxie und bilden dabei einen heißen Akkretionsfluss, der enorme Mengen Strahlung freisetzen kann.
+
+Quasare können weiterhin wie Sterne aussehen, wenn ihre Wirtsgalaxie nicht aufgelöst wird. Geändert hat sich die physikalische Deutung: Der Lichtpunkt ist das extrem helle Zentrum einer ganzen fernen Galaxie.

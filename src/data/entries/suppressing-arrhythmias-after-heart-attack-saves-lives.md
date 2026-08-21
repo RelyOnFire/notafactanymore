@@ -1,14 +1,14 @@
 ---
 claim: "Suppressing premature ventricular beats after a heart attack reduces the risk of sudden death."
-currentUnderstanding: "Eliminating an abnormal surrogate marker does not necessarily improve survival. In post-infarction patients, encainide and flecainide suppressed ventricular ectopy but increased arrhythmic and overall mortality."
-whyItChanged: "Frequent premature beats predicted sudden death, so pharmacologically suppressing them seemed logically protective. The randomized Cardiac Arrhythmia Suppression Trial found substantially more deaths in treated patients, forcing early termination."
+currentUnderstanding: "After a heart attack, eliminating premature ventricular beats on an ECG does not necessarily make a patient safer. In the CAST trial, the drugs encainide and flecainide suppressed these abnormal beats but increased deaths from arrhythmia and increased overall mortality."
+whyItChanged: "Frequent premature ventricular beats were associated with sudden death, so suppressing them looked like an obvious way to reduce risk. CAST tested that assumption against actual survival and found the opposite result, showing that improving a risk marker can still worsen the outcome that matters."
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "1970s–1989"
 acceptedYear: 1975
 changedApproximately: "1989"
 timelineYear: 1989
-summary: "CAST showed that drugs could improve an ECG marker while making patients more likely to die."
+summary: "CAST showed that a drug can improve an ECG warning sign while making patients more likely to die."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,18 +30,18 @@ sources:
     note: "Uses antiarrhythmic therapy as a classic warning that improving a surrogate can worsen clinical outcomes."
 ---
 
-After myocardial infarction, frequent premature ventricular beats were strongly associated with sudden cardiac death. The causal interpretation seemed obvious: if the abnormal beats predicted lethal arrhythmias, suppressing them should save lives.
+After a heart attack, some patients have frequent premature ventricular beats.
 
-Antiarrhythmic drugs such as encainide and flecainide did exactly what clinicians wanted on the electrocardiogram. They markedly reduced ventricular ectopy.
+These are extra heartbeats that begin in the ventricles, the heart's main pumping chambers, before the next normal beat is due. Because frequent abnormal beats were associated with a higher risk of sudden cardiac death, they seemed like more than a warning sign: perhaps they were part of the cause.
 
-The Cardiac Arrhythmia Suppression Trial tested whether that cleaner ECG translated into better outcomes.
+That made the treatment logic straightforward. If a drug suppressed the premature beats, it should reduce dangerous arrhythmias and save lives.
 
-It did the opposite.
+The drugs encainide and flecainide worked well on the electrical marker. Patients' electrocardiograms, or ECGs, showed far fewer premature ventricular beats.
 
-Patients receiving the active drugs had substantially more arrhythmic deaths and higher overall mortality than patients receiving placebo, and the relevant treatment arms were stopped early.
+The Cardiac Arrhythmia Suppression Trial, known as CAST, asked the more important question: did those patients actually live longer?
 
-CAST became one of medicine's clearest warnings about surrogate endpoints. A treatment can improve a biomarker associated with risk while worsening the outcome patients actually care about.
+They did not. Patients receiving the active drugs had more deaths from arrhythmias and higher overall mortality than those receiving placebo. The relevant treatment arms were stopped early.
 
-The trial did not prove that every antiarrhythmic drug is harmful or that flecainide has no legitimate use. Its result applied to a specific high-risk post-infarction population and strategy.
+The premature beats were a surrogate endpoint—a measurable sign associated with the real outcome of interest. CAST became a classic demonstration that improving such a marker does not prove that a treatment improves health.
 
-The broader lesson is methodological: changing a marker is not enough; therapies must be tested against real clinical outcomes.
+The trial does not mean every antiarrhythmic drug is dangerous in every setting. Its lesson was specific and powerful: in high-risk patients after myocardial infarction, suppressing ventricular ectopy with these drugs made the ECG look better while making survival worse.

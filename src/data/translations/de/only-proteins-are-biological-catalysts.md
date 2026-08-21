@@ -3,22 +3,30 @@ locale: de
 entryId: only-proteins-are-biological-catalysts
 sourceReviewedAt: '2026-08-20'
 claim: Nur Proteine können als Enzyme oder biologische Katalysatoren wirken.
-currentUnderstanding: Einige RNA-Moleküle können chemische Reaktionen katalysieren. Diese Ribozyme können RNA schneiden, verbinden und verarbeiten und sind an wesentlichen chemischen Vorgängen in Zellen beteiligt.
-whyItChanged: Anfang der 1980er-Jahre entdeckten Thomas Cech und Sidney Altman unabhängig voneinander katalytische RNA. Bis dahin galt biologische Katalyse als ausschließliche Eigenschaft von Proteinen.
+currentUnderstanding: "Proteine sind nicht die einzigen Moleküle, die als biologische Katalysatoren wirken können. Auch einige RNA-Moleküle beschleunigen chemische Reaktionen; solche katalytischen RNAs heißen Ribozyme."
+whyItChanged: "Enzyme waren so stark mit Proteinen verbunden, dass Katalyse oft als reine Proteineigenschaft galt. Anfang der 1980er-Jahre fand Thomas Cech ein RNA-Molekül, das sein eigenes Spleißen katalysieren konnte, während Sidney Altmans Arbeiten zeigten, dass die RNA in RNase P selbst RNA-Verarbeitung katalysieren kann."
 acceptedApproximately: Frühes bis mittleres 20. Jahrhundert bis Anfang der 1980er-Jahre
 changedApproximately: 1982 bis 1989
-summary: Die Entdeckung von Ribozymen zeigte, dass Proteine nicht die einzigen biologischen Katalysatoren sind.
+summary: "Die Entdeckung von Ribozymen zeigte, dass neben Proteinen auch RNA biologische Reaktionen katalysieren kann."
 sourceNotes:
 - Erklärt, dass katalytische RNA völlig überraschend entdeckt wurde und Darstellungen biologischer Katalyse in Lehrbüchern überarbeitet werden mussten.
 - Dokumentiert die Verleihung des Nobelpreises an Sidney Altman und Thomas Cech für die Entdeckung der katalytischen Eigenschaften von RNA.
 ---
 
-Nachdem sich Enzyme als Proteine erwiesen hatten, schien biologische Katalyse fest an Proteinstruktur gebunden zu sein. Proteine besitzen zwanzig verschiedene Aminosäurebausteine und können komplexe dreidimensionale aktive Zentren bilden; RNA erschien demgegenüber vor allem als Träger und Vermittler genetischer Information.
+Ein Katalysator beschleunigt eine chemische Reaktion, ohne dabei selbst verbraucht zu werden.
 
-Anfang der 1980er-Jahre stießen zwei Forschungsprogramme unabhängig voneinander auf unerwartete Ergebnisse. Thomas Cech untersuchte die Verarbeitung ribosomaler RNA bei *Tetrahymena* und fand, dass ein RNA-Abschnitt sich selbst herausschneiden konnte, ohne dass ein Protein-Enzym die entscheidende Reaktion katalysierte.
+In lebenden Zellen heißen solche Katalysatoren meist Enzyme, und über weite Teile der Biochemie des 20. Jahrhunderts galten Enzyme als Proteine. Das war plausibel: Proteine können komplizierte dreidimensionale Formen annehmen und viele unterschiedliche chemische Gruppen tragen, die Reaktionen erleichtern.
 
-Sidney Altman und Kollegen zeigten parallel, dass die RNA-Komponente der RNase P direkt an der katalytischen Spaltung von Vorläufer-RNA beteiligt ist.
+RNA schien dagegen eine andere Aufgabe zu besitzen: genetische Information zu tragen oder bei ihrer Umsetzung zu helfen.
 
-Damit war klar, dass RNA nicht nur Information speichern oder als Gerüst dienen kann. Bestimmte RNA-Moleküle falten sich zu Strukturen mit eigener katalytischer Aktivität – Ribozyme.
+Zwei Entdeckungen Anfang der 1980er-Jahre durchbrachen diese Trennung.
 
-Proteine bleiben die mit Abstand häufigsten und vielfältigsten biologischen Katalysatoren. Die Entdeckung der Ribozyme hob diese zentrale Rolle nicht auf, sondern beseitigte die Ausschließlichkeit. Sie stärkte außerdem Ideen über eine frühe „RNA-Welt“, beweist für sich allein aber keine bestimmte Geschichte des Ursprungs des Lebens.
+Thomas Cech untersuchte ein RNA-Molekül des Mikroorganismus *Tetrahymena*. Ein Teil dieser RNA konnte sich selbst aus einem längeren RNA-Molekül herausschneiden und die verbleibenden Stücke wieder verbinden, ohne dass ein Protein-Enzym die Chemie übernahm.
+
+Sidney Altmans Arbeiten an einem anderen System, RNase P, zeigten ebenfalls, dass dessen RNA-Komponente katalytische Reaktionen ausführen kann.
+
+RNA-Moleküle mit katalytischer Aktivität wurden als Ribozyme bekannt.
+
+Die Entdeckung machte Proteine als Enzyme nicht unwichtig. Proteine bleiben die bei weitem vielfältigsten und häufigsten biologischen Katalysatoren. RNA kann jedoch zwei Eigenschaften verbinden, die zuvor unterschiedlichen Molekülklassen zugeschrieben wurden: Sie kann Information tragen und chemische Reaktionen katalysieren.
+
+Diese Kombination trug auch zur Idee einer frühen „RNA-Welt“ bei, beweist für sich allein jedoch kein bestimmtes Szenario für den Ursprung des Lebens.

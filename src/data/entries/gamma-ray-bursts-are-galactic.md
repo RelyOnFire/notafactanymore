@@ -1,14 +1,14 @@
 ---
 claim: "Gamma-ray bursts come from neutron stars within the Milky Way."
-currentUnderstanding: "Most gamma-ray bursts occur in distant galaxies at cosmological distances. Long bursts are linked to the deaths of massive stars, while many short bursts come from compact-object mergers."
-whyItChanged: "Before 1991, the leading models placed the bursts around Galactic neutron stars. BATSE found an almost perfectly isotropic sky distribution, and later afterglow redshifts directly placed bursts in distant galaxies."
+currentUnderstanding: "Most gamma-ray bursts are enormous explosions in distant galaxies, not ordinary events inside the Milky Way. Long bursts are linked to the collapse of massive stars, while many short bursts come from mergers of compact objects such as neutron stars."
+whyItChanged: "Gamma-ray bursts appeared briefly and then vanished, so early astronomers had little way to measure their distance and many models placed them around neutron stars in our Galaxy. BATSE later found the bursts spread almost evenly across the sky, and in 1997 fading afterglows allowed redshift measurements that placed bursts billions of light-years away."
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "1970s–early 1990s"
 acceptedYear: 1975
 changedApproximately: "1991–1997"
 timelineYear: 1997
-summary: "A once-dominant Milky Way explanation gave way to evidence that gamma-ray bursts occur across the distant universe."
+summary: "Afterglows and redshifts showed that most gamma-ray bursts occur in distant galaxies rather than within the Milky Way."
 featured: false
 publishedAt: "2026-07-23"
 reviewedAt: "2026-08-20"
@@ -32,12 +32,16 @@ sources:
     note: "States that afterglow studies place gamma-ray bursts at cosmological distances."
 ---
 
-Gamma-ray bursts were discovered accidentally by satellites in the late 1960s. They appeared without warning, lasted from fractions of a second to minutes and then vanished, leaving little information about distance. Neutron stars in the Milky Way offered plausible engines, and Galactic models dominated much of the early debate.
+Gamma-ray bursts are sudden flashes of extremely energetic radiation. They can last from a fraction of a second to several minutes and then disappear.
 
-NASA's Compton Gamma Ray Observatory changed the geometry of the problem. Beginning in 1991, its BATSE instrument detected bursts across the whole sky. If ordinary Galactic-disk neutron stars produced them, the distribution should have been concentrated toward the Milky Way's plane. Instead, the bursts were remarkably isotropic.
+When satellites discovered them in the late 1960s, astronomers had almost no information about how far away they were. Neutron stars in the Milky Way offered plausible sources, so Galactic models dominated much of the early debate.
 
-Isotropy alone did not prove a cosmological origin; an enormous spherical halo around the Galaxy could mimic it. The decisive step came in 1997, when satellites localized bursts quickly enough for astronomers to detect fading afterglows at other wavelengths. Spectra and host galaxies then supplied redshifts placing bursts billions of light-years away.
+NASA's Compton Gamma Ray Observatory changed the picture. Its BATSE instrument detected bursts all across the sky. If most came from ordinary objects in the Milky Way's flat disk, they should have appeared concentrated along the bright band of the Galaxy. Instead, the distribution was almost uniform in every direction.
 
-The energy scale changed dramatically with the distance. Long bursts were later connected to the deaths of massive stars, while many short bursts are associated with compact-object mergers.
+That was a serious problem for simple Galactic models, but it did not yet prove that the bursts were extremely distant. A huge spherical halo around the Milky Way could also look nearly uniform from Earth.
 
-Some gamma-ray transients, including soft gamma repeaters from magnetars, do occur within our Galaxy. The correction concerns the classical gamma-ray bursts at the center of the historical distance-scale debate.
+The decisive evidence came in 1997. Satellites began locating bursts quickly enough for telescopes to observe their fading afterglows in visible light and other wavelengths. Astronomers could then measure redshift—the stretching of light caused by cosmic expansion—and identify host galaxies. The bursts were billions of light-years away.
+
+That distance meant their energy output was enormous. Later observations connected long bursts with the deaths of massive stars and many short bursts with mergers involving neutron stars.
+
+Some gamma-ray transients do occur inside the Milky Way, but the classical gamma-ray bursts at the center of the old distance debate are mostly cosmological.

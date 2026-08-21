@@ -1,14 +1,14 @@
 ---
 claim: "Neanderthals did not interbreed with modern humans or contribute DNA to people living today."
-currentUnderstanding: "Neanderthals and modern humans interbred. Many people with ancestry outside sub-Saharan Africa carry about 1–2% Neanderthal-derived DNA, with different fragments present in different individuals."
-whyItChanged: "Early mitochondrial-DNA studies found no clear Neanderthal contribution and were often taken as evidence against interbreeding. Whole-genome ancient DNA later revealed Neanderthal ancestry in living people."
+currentUnderstanding: "Neanderthals and modern humans interbred. Many people with ancestry outside sub-Saharan Africa carry roughly 1–2% Neanderthal-derived DNA, although each person carries a different collection of Neanderthal fragments."
+whyItChanged: "Early ancient-DNA studies examined mitochondrial DNA, a small genetic system inherited only through the maternal line, and found no clear Neanderthal contribution to living humans. Whole-genome sequencing later examined the much larger nuclear genome and revealed Neanderthal-derived DNA in living populations."
 status: "Overturned"
 category: "Human Evolution"
 acceptedApproximately: "Late 1990s–2000s"
 acceptedYear: 1998
 changedApproximately: "2010"
 timelineYear: 2010
-summary: "Ancient whole-genome DNA showed that Neanderthals left a genetic legacy in living humans."
+summary: "Whole-genome ancient DNA showed that Neanderthals left a genetic legacy in living humans."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
@@ -30,14 +30,18 @@ sources:
     note: "Explains that introgressed Neanderthal fragments account for roughly 1–2% of individual non-African genomes."
 ---
 
-For much of the twentieth century, Neanderthal relationships to modern humans were argued mainly from anatomy and archaeology. Ancient DNA offered what seemed like a more decisive test.
+For decades, the relationship between Neanderthals and modern humans was argued mainly from bones and archaeology. Ancient DNA promised a more direct answer.
 
-Early studies focused on mitochondrial DNA, a small genetic system inherited through the maternal line. Neanderthal mitochondrial sequences fell outside the variation of living humans, and the absence of a clear modern contribution was often taken as strong evidence that the populations had not interbred.
+The first successful studies focused on mitochondrial DNA. Mitochondria are structures inside cells that carry a small amount of their own DNA, and that DNA is inherited almost entirely through the maternal line.
 
-That conclusion was always more limited than it sounded. Mitochondrial DNA samples only one maternal lineage and can disappear from descendants even when substantial interbreeding occurred elsewhere in the genome.
+Neanderthal mitochondrial DNA fell outside the variation seen in living humans. That result was often taken as evidence that Neanderthals had not contributed to people alive today.
 
-In 2010, the draft Neanderthal nuclear genome changed the debate. Comparisons showed that many living people with ancestry outside sub-Saharan Africa carry Neanderthal-derived DNA, demonstrating ancient gene flow between the populations.
+But mitochondrial DNA samples only one narrow line of ancestry. Imagine a Neanderthal woman had children with a modern human population, but after many generations her direct mother-to-daughter line happened to end. Her mitochondrial DNA could disappear even while other parts of her genome remained in descendants.
 
-Individual genomes commonly contain roughly 1–2% Neanderthal ancestry, though the exact amount varies and different people carry different fragments. Later back-migration also carried some Neanderthal ancestry into African populations.
+The larger nuclear genome provided the broader test.
 
-The no-interbreeding position was never universal. Whole-genome ancient DNA resolved what a single small genetic compartment could not.
+In 2010, researchers published a draft Neanderthal nuclear genome and compared it with genomes from living humans. Many people with ancestry outside sub-Saharan Africa carried DNA segments more closely related to Neanderthals, demonstrating ancient interbreeding.
+
+Individual genomes commonly contain roughly 1–2% Neanderthal-derived DNA, with different fragments preserved in different people. Later migrations also carried some of that ancestry into populations in Africa.
+
+The no-interbreeding view was never universal. What whole-genome data did was reveal gene flow that a single small maternal genetic system could easily miss.

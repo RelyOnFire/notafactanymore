@@ -3,23 +3,23 @@ locale: de
 entryId: healthy-lungs-are-sterile
 sourceReviewedAt: "2026-08-20"
 claim: "Gesunde Lungen sind steril und enthalten keine mikrobielle Gemeinschaft."
-currentUnderstanding: "Auch die unteren Atemwege gesunder Menschen enthalten mikrobielle Gemeinschaften mit geringer Dichte. Sie werden durch Einatmen, Mikroaspiration, Reinigungsmechanismen und lokale Wachstumsbedingungen geprägt."
-whyItChanged: "Standardkulturen waren darauf ausgelegt, Krankheitserreger zu finden, und blieben bei gesunden Lungen oft ohne Befund. Gefundene Organismen wurden häufig als Verunreinigung abgetan. Kulturunabhängige Sequenzierung zeigte dagegen wiederkehrende mikrobielle Populationen."
+currentUnderstanding: "Gesunde Lungen sind nicht vollständig steril. Die unteren Atemwege enthalten kleine Mengen von Mikroorganismen und damit ein dünn besiedeltes Mikrobiom, das durch eingeatmete Organismen, winzige Mengen aus Mund und Rachen, Immunabwehr und lokale Wachstumsbedingungen geprägt wird."
+whyItChanged: "Routinekulturen waren darauf ausgelegt, krankmachende Mikroben zu finden, die sich im Labor gut vermehren, und Proben aus gesunden Lungen blieben häufig negativ. DNA-basierte Methoden wiesen später in sorgfältig gewonnenen Proben aus den unteren Atemwegen von Menschen ohne Infektion wiederholt mikrobielle Populationen nach."
 acceptedApproximately: "Spätes 19. Jahrhundert bis 2000er-Jahre"
 changedApproximately: "2010er-Jahre"
-summary: "DNA-basierte Methoden ersetzten die Vorstellung der sterilen Lunge durch ein Atemwegsmikrobiom mit geringer Biomasse."
+summary: "Gesunde Lungen können eine dünn besiedelte mikrobielle Gemeinschaft enthalten, ohne infiziert zu sein."
 sourceNotes:
 - "Beschreibt die Vorstellung steriler Lungen als fest in medizinischen Lehrbüchern verankert und erläutert ihre historische Grundlage."
 - "Erklärt, wie kulturbasierte Methoden die Annahme steriler Lungen im 20. Jahrhundert verstärkten."
 - "Gibt einen Überblick über mikrobielle Gemeinschaften, die heute in gesunden oberen und unteren Atemwegen bekannt sind."
 ---
 
-Die oberen Atemwege sind voller Mikroorganismen, doch die gesunde Lunge galt lange als Ausnahme. Schleim, Flimmerhärchen, Husten und Immunabwehr schienen eingeatmete Keime so effizient zu entfernen, dass die unteren Atemwege im Normalzustand als steril betrachtet wurden.
+Über weite Teile der modernen Medizin galten die unteren Atemwege gesunder Menschen als steril. Wurden Bakterien in einer Lungenprobe gefunden, konnten sie als Verunreinigung aus dem Mund oder als Hinweis auf eine Infektion gelten.
 
-Klassische Kulturen stützten dieses Bild. Proben aus gesunden Lungen lieferten oft kein Wachstum, und wenn doch Bakterien gefunden wurden, konnten sie leicht als Verunreinigung aus Mund oder oberen Atemwegen interpretiert werden.
+Diese Schlussfolgerung passte zu den verfügbaren Methoden. Klinische Standardkulturen eignen sich gut dazu, viele krankmachende Bakterien nachzuweisen, die im Labor leicht wachsen. Eine dünn besiedelte Gemeinschaft mit Organismen, die unter Routinebedingungen schlecht wachsen, erfassen sie deutlich schlechter.
 
-Mit kulturunabhängigen Sequenzierverfahren änderte sich die Nachweisgrenze. Forschende fanden wiederkehrende bakterielle DNA-Signaturen in den unteren Atemwegen gesunder Menschen. Kontrollierte Probenentnahmen und verbesserte Methoden zeigten, dass dort tatsächlich mikrobielle Gemeinschaften mit sehr geringer Biomasse existieren.
+DNA-basierte Verfahren veränderten das Bild. Forschende fanden in sorgfältig gewonnenen Proben aus den unteren Atemwegen von Menschen ohne Lungenentzündung oder andere offensichtliche Infektion wiederholt mikrobielles Erbmaterial. Verbesserte Probenahme und Kontrollen gegen Verunreinigung zeigten, dass zumindest ein Teil dieser Signale echte Gemeinschaften in der Lunge widerspiegelt.
 
-Das Lungenmikrobiom funktioniert anders als das dicht besiedelte Darmmikrobiom. Viele Organismen gelangen wahrscheinlich durch Einatmen oder Mikroaspiration hinein und werden anschließend durch Schleimtransport, Immunabwehr und andere Reinigungsmechanismen wieder entfernt. Zusammensetzung und Dichte ergeben sich daher aus einem Gleichgewicht von Eintrag, Entfernung und lokalem Wachstum.
+Das Lungenmikrobiom unterscheidet sich stark vom dicht besiedelten Darm. In den unteren Atemwegen gibt es viel weniger Mikroorganismen. Ihre Zusammensetzung wird laufend durch eingeatmete Organismen, winzige Mengen von Material aus Mund und Rachen, Immunabwehr und lokale Wachstumsbedingungen beeinflusst.
 
-Der Nachweis mikrobieller DNA bedeutet weder automatisch aktive Infektion noch dauerhafte Besiedlung durch jeden gefundenen Organismus. Korrigiert wurde die absolute Behauptung steriler gesunder Lungen.
+Der Nachweis mikrobieller DNA bedeutet außerdem nicht automatisch, dass ein Organismus aktiv wächst oder Krankheit verursacht. Die wichtige Korrektur betrifft das alte Entweder-oder aus steril und infiziert: Gesunde Lungen können Mikroben enthalten, ohne infiziert zu sein.

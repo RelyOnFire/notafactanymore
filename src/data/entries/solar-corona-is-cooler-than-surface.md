@@ -1,14 +1,14 @@
 ---
 claim: "The Sun's outer atmosphere must be cooler than its visible surface."
-currentUnderstanding: "The solar corona reaches temperatures of roughly one to several million kelvin, hundreds of times hotter than the photosphere below it."
-whyItChanged: "A simple expectation that temperature should fall with distance from the hot surface made a cool corona seem natural. Spectral lines once attributed to an unknown element, coronium, were identified as highly ionized iron requiring million-degree temperatures."
+currentUnderstanding: "The Sun's corona, its thin outer atmosphere, reaches roughly one to several million kelvin—far hotter than the visible surface below, which is about 5,800 K. The corona is extremely thin, so high temperature does not mean it contains more total heat than the denser layers beneath it."
+whyItChanged: "It seemed natural for the atmosphere above the Sun's surface to become cooler with distance. Mysterious spectral lines in the corona were eventually identified as light from familiar atoms such as iron stripped of many electrons, a condition that requires temperatures around a million kelvin."
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "19th century–1930s"
 acceptedYear: 1850
 changedApproximately: "1939–1942"
 timelineYear: 1940
-summary: "Highly ionized iron revealed an outer solar atmosphere far hotter than the Sun's visible surface."
+summary: "Highly ionized atoms revealed that the Sun's thin outer corona is hundreds of times hotter than its visible surface."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,14 +30,20 @@ sources:
     note: "Reviews spectroscopy, ionization, and the unexpectedly high coronal temperature."
 ---
 
-The visible surface of the Sun is about 5,800 kelvin. Ordinary intuition says that material farther from a hot surface should be cooler, so the faint outer corona was naturally expected to have a lower temperature.
+The visible surface of the Sun, called the photosphere, is about 5,800 kelvin.
 
-Its spectrum contained mysterious emission lines that could not be matched to known elements under familiar laboratory conditions. For a time, astronomers proposed an unknown element called coronium.
+Ordinary experience suggests that moving away from a hot surface should mean getting cooler. For that reason, the faint atmosphere extending above the Sun was naturally expected to be cooler than the photosphere.
 
-The puzzle disappeared in an unexpected way. Bengt Edlén showed that the lines came from familiar atoms such as iron stripped of many electrons. Producing those highly ionized states requires temperatures around a million kelvin.
+Its spectrum produced a puzzle.
 
-The corona was not cooler than the photosphere—it was hundreds of times hotter.
+When astronomers spread coronal light into a spectrum, they found bright lines that did not match familiar elements under ordinary laboratory conditions. For a time, some proposed that an unknown element—“coronium”—was responsible.
 
-That created a new problem rather than ending the story: how can the tenuous outer atmosphere become so hot above a much cooler visible surface? Magnetic reconnection and wave dissipation are among the leading mechanisms, and the balance varies across solar structures.
+The answer was stranger.
 
-Temperature here refers to particle energies. The corona is extraordinarily thin, so its total heat content is not comparable to that of dense solar layers simply because its temperature is higher.
+Bengt Edlén showed that the mysterious lines came from familiar atoms, especially iron, that had lost many of their electrons. Removing that many electrons requires collisions at extraordinarily high energies, corresponding to temperatures around a million kelvin.
+
+The corona was therefore not cooler than the visible surface. It was hundreds of times hotter.
+
+That discovery created the coronal-heating problem: how does the Sun's thin outer atmosphere become so hot above a much cooler photosphere? Magnetic activity, including wave heating and magnetic reconnection, is central to modern explanations, although the balance of mechanisms varies across the corona.
+
+Temperature here measures the typical energy of particles. Because the corona is extremely sparse, its high temperature should not be confused with containing more total thermal energy than the much denser layers below.

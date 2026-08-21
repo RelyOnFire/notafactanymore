@@ -1,14 +1,14 @@
 ---
 claim: "Mountain ranges form mainly because a cooling Earth contracts and wrinkles."
-currentUnderstanding: "Most major mountain belts form through plate convergence, subduction, continental collision, faulting, crustal thickening, magmatism, uplift, and erosion. Other mountains form through volcanism or extension."
-whyItChanged: "A cooling globe offered a global mechanism for compressed and folded rocks, but it could not explain the full distribution and history of mountain belts. Continental drift, seafloor spreading, earthquake patterns, ocean-floor geology, and plate tectonics supplied a quantitative mobile-Earth framework."
+currentUnderstanding: "Most major mountain belts form because tectonic plates move and interact. Continents can collide and thicken the crust, one plate can sink beneath another at a subduction zone, and faulting, volcanism, uplift, and erosion then shape the resulting mountains."
+whyItChanged: "A cooling Earth really does contract somewhat, so nineteenth-century geologists could reasonably imagine its crust wrinkling as the planet shrank. Ocean-floor mapping, earthquakes, volcanoes, magnetic stripes, and seafloor spreading later revealed moving tectonic plates and tied major mountain belts to their boundaries."
 status: "Superseded"
 category: "Earth Science"
 acceptedApproximately: "Mid-19th century–early 20th century"
 acceptedYear: 1850
 changedApproximately: "1910s–1960s"
 timelineYear: 1960
-summary: "Plate tectonics replaced a shrinking, wrinkling Earth as the general explanation for mountain building."
+summary: "Mountain building changed from a shrinking-Earth wrinkle model to a consequence of moving tectonic plates."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,12 +30,16 @@ sources:
     note: "Wegener's mobile-continent argument challenged fixed-Earth and contraction explanations."
 ---
 
-A cooling object contracts. In the nineteenth century, that simple physical intuition became a global geological theory: as Earth lost heat and shrank, its rigid outer shell was thought to wrinkle, fold, and crumple into mountain ranges much as the skin of a drying fruit wrinkles.
+A cooling object contracts. In the nineteenth century, geologists applied that simple idea to the whole planet.
 
-The model could explain compressed and folded rocks in broad terms, but it struggled with the geography and history of mountain belts. Why were deformation, volcanoes, and earthquakes concentrated in particular global zones, and how were ocean basins related to continental ranges?
+If Earth had once been much hotter and was gradually shrinking as it cooled, its rigid outer shell might have become too large for the smaller interior. The crust could then wrinkle and crumple, rather like the skin of a drying fruit. Mountain ranges seemed like the obvious wrinkles.
 
-Continental drift challenged the fixed, shrinking Earth, but lacked a convincing mechanism. Mid-twentieth-century mapping of the seafloor supplied the missing framework: mid-ocean ridges, magnetic stripes, young oceanic crust, trenches, and earthquake belts revealed moving lithospheric plates.
+The model had some appeal because mountains contain strongly folded and compressed rocks.
 
-Plate tectonics then connected mountain building to convergence. Continental collisions thicken crust, subduction drives deformation and magmatism, and faulting, uplift, erosion, and isostatic adjustment reshape the resulting ranges.
+The larger pattern was harder to explain. Mountain belts, deep ocean trenches, volcanoes, and earthquakes occur in particular global zones rather than as random wrinkles spread across a uniformly shrinking planet.
 
-Earth has cooled over geological time, but wholesale thermal contraction is not the mechanism organizing most modern mountain belts. Mountain building is a consequence of a mobile planet.
+Mid-twentieth-century exploration of the ocean floor supplied a different mechanism. New crust forms along mid-ocean ridges and moves outward. Elsewhere, one tectonic plate can sink beneath another at a subduction zone, while continents carried by converging plates can collide.
+
+Those collisions and subduction zones compress and thicken crust, drive faulting and volcanism, and raise large mountain belts. Erosion and continued uplift then reshape them over time.
+
+Earth has cooled over its history, but global contraction is not the main process organizing modern mountain ranges. Most major belts are products of a mobile surface divided into tectonic plates.

@@ -1,14 +1,14 @@
 ---
 claim: "Polymers and plastics are necessarily electrical insulators."
-currentUnderstanding: "Most ordinary polymers are insulating, but conjugated polymers can conduct electricity when their electronic structure and charge concentration are appropriately controlled."
-whyItChanged: "The localized bonds and flexible chains of familiar plastics made insulation seem intrinsic to the class. In the late 1970s, Shirakawa, MacDiarmid, and Heeger showed that chemically doping polyacetylene could increase its conductivity by many orders of magnitude."
+currentUnderstanding: "Most common polymers are electrical insulators, but some can conduct. Conjugated polymers have chains in which electrons can spread across connected bonds, and chemical doping can add or remove charge carriers and raise their conductivity dramatically."
+whyItChanged: "Familiar plastics insulated wires so well that insulation seemed like an intrinsic property of polymers. In the late 1970s, Hideki Shirakawa, Alan MacDiarmid, and Alan Heeger showed that chemically doped polyacetylene could become many orders of magnitude more conductive."
 status: "Overturned"
 category: "Materials Science"
 acceptedApproximately: "19th century–1970s"
 acceptedYear: 1850
 changedApproximately: "1977–1980s"
 timelineYear: 1981
-summary: "Doped conjugated polymers showed that a plastic could conduct almost like a metal."
+summary: "Conducting polymers showed that electrical insulation is common in plastics but not a defining property of all polymers."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,14 +30,20 @@ sources:
     note: "Reports the dramatic conductivity increase produced by doping polyacetylene."
 ---
 
-Ordinary plastics are excellent electrical insulators. Their electrons are localized in chemical bonds, which is exactly why polymer coatings became so useful around wires and electronic components.
+Most everyday plastics are excellent electrical insulators. That is why polymer coatings are so useful around wires and electronic components.
 
-That success encouraged a broader assumption: insulation was an unavoidable property of polymers as a class.
+The reason lies in their electronic structure. In many ordinary polymers, electrons are tightly localized in particular chemical bonds and cannot move easily through the material.
 
-Conjugated polymers changed the picture. Their backbones contain alternating bonds that allow electrons to become more delocalized than in familiar plastics. In the late 1970s, Hideki Shirakawa, Alan MacDiarmid, and Alan Heeger found that chemically doping polyacetylene increased its conductivity by many orders of magnitude.
+For a long time, that made electrical insulation seem like a basic property of polymers as a whole.
 
-The result showed that a material could retain a polymeric molecular structure while supporting substantial electrical transport. Conducting and semiconducting polymers later became important in sensors, displays, organic electronics, coatings, and energy devices.
+Conjugated polymers provided an exception.
 
-Most polymers are still insulators. Conductivity depends strongly on molecular conjugation, doping, morphology, temperature, and processing.
+In these molecules, the backbone contains a connected pattern of alternating bonds. Their electrons can become spread out, or delocalized, over a larger part of the chain rather than remaining confined to one bond.
 
-The correction is therefore not that “plastic conducts electricity.” It is that electrical insulation is not a necessary defining property of all polymers.
+That still does not automatically make the material highly conductive. A major change comes from chemical doping. Here, “doping” means adding chemicals that remove or supply electrons, creating mobile charge carriers that can travel through the polymer.
+
+In the late 1970s, Hideki Shirakawa, Alan MacDiarmid, and Alan Heeger showed that doping polyacetylene could increase its electrical conductivity by many orders of magnitude.
+
+Conducting and semiconducting polymers later became useful in sensors, displays, organic electronics, coatings, and energy technologies.
+
+Most polymers remain good insulators. The correction is narrower: being a polymer does not automatically mean being unable to conduct electricity.

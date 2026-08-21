@@ -1,14 +1,14 @@
 ---
 claim: "Homo floresiensis was merely a modern human with a disease or growth disorder."
-currentUnderstanding: "Most specialists recognize Homo floresiensis as a distinct archaic human taxon. Its unusual anatomy appears across several individuals and includes primitive traits that are not explained well by a single modern-human disorder."
-whyItChanged: "The first skeleton's tiny body and brain prompted diagnoses including microcephaly and endocrine disorders. Additional remains and studies of the skull, teeth, wrist, shoulder, foot, and limb proportions made a pathological Homo sapiens explanation increasingly difficult to sustain."
+currentUnderstanding: "Most specialists recognize *Homo floresiensis* as a distinct archaic human species rather than a diseased modern human. Its unusual anatomy appears in more than one individual and includes a combination of primitive traits that a single disorder does not explain well."
+whyItChanged: "The first well-preserved skeleton was extremely small, with a very small brain, so researchers proposed conditions such as microcephaly—a disorder involving unusually small brain growth—or endocrine disease. Additional fossils and detailed studies of the skull, teeth, wrist, shoulder, foot, and limb proportions made a pathological *Homo sapiens* explanation increasingly difficult to sustain."
 status: "Overturned"
 category: "Human Evolution"
 acceptedApproximately: "Competing expert hypothesis, 2004–2010s"
 acceptedYear: 2004
 changedApproximately: "Late 2000s–present"
 timelineYear: 2016
-summary: "Multiple individuals and a mosaic of primitive anatomy weakened the idea that Flores fossils were diseased modern humans."
+summary: "Multiple individuals and a distinctive mix of anatomical traits weakened the idea that *Homo floresiensis* was simply a diseased modern human."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,12 +30,18 @@ sources:
     note: "Reviews the pathology proposals and the anatomical evidence against them."
 ---
 
-When the partial skeleton LB1 was announced from the Indonesian island of Flores in 2004, it was startlingly small: an adult body about a meter tall with a brain far smaller than expected for recent members of the genus *Homo*. The discoverers proposed a new species, *Homo floresiensis*.
+When the partial skeleton known as LB1 was announced from the Indonesian island of Flores in 2004, it immediately caused controversy.
 
-Not everyone agreed. Several researchers argued that LB1 might instead be an anatomically modern human affected by microcephaly, an endocrine disorder or another developmental condition. This was a genuine expert dispute, not a settled old consensus.
+LB1 belonged to an adult only about a meter tall and had a brain far smaller than expected for a recent member of the genus *Homo*. The discoverers proposed a new species, *Homo floresiensis*.
 
-The pathology explanation became harder to maintain as more evidence accumulated. Additional individuals showed similarly small-bodied anatomy, while detailed studies found a mosaic of traits in the skull, teeth, wrist, shoulder, foot and limb proportions that did not fit well with a single diseased *Homo sapiens* individual.
+Other researchers suggested a very different explanation: perhaps LB1 was an anatomically modern human with a medical condition. One proposal was microcephaly, in which brain growth is abnormally limited; others involved endocrine or developmental disorders.
 
-Most specialists now accept *Homo floresiensis* as a distinct archaic human taxon. That does not settle its ancestry. Researchers still debate whether the Flores population descended from *Homo erectus* that became small-bodied on an island or from an earlier dispersing lineage.
+This was a real scientific dispute rather than a simple case of an old consensus being overturned.
 
-No ancient DNA has yet resolved the question. The correction is therefore narrower than a solved family tree: the “merely a diseased modern human” explanation is no longer the leading interpretation.
+The disease explanation became harder to maintain as more fossils were studied. Remains from additional individuals showed similarly small body size, while the anatomy of the skull, teeth, wrist, shoulder, foot, and limbs included a mixture of features that did not fit well with a single pathological modern human.
+
+Most specialists now accept *Homo floresiensis* as a distinct archaic human species.
+
+Its exact ancestry is still debated. The population may have descended from *Homo erectus* and evolved a small body on an island, or it may represent an earlier branch of human evolution. No ancient DNA has yet settled that question.
+
+What has changed most strongly is the narrower claim that the Flores fossils can be explained simply as diseased *Homo sapiens*.

@@ -1,14 +1,14 @@
 ---
 claim: "Electrons travel around an atomic nucleus in definite circular paths like planets orbiting the Sun."
-currentUnderstanding: "Electrons in atoms occupy quantum states described by wavefunctions and probability distributions. They do not follow simultaneously well-defined classical paths with exact positions and momenta."
-whyItChanged: "The Bohr model explained hydrogen's spectrum but failed for more complex atoms and conflicted with the uncertainty principle. Quantum mechanics replaced fixed electron orbits with orbitals and quantized states."
+currentUnderstanding: "Electrons in atoms do not travel around the nucleus on fixed circular tracks. Quantum mechanics describes them with orbitals: states that tell us the probabilities of finding an electron in different regions and the energies it can have."
+whyItChanged: "Bohr's 1913 model successfully explained hydrogen by allowing only certain electron orbits and energies, but it failed for more complicated atoms. Quantum mechanics replaced those definite paths with wave-like states, while the uncertainty principle showed that an electron cannot simultaneously have an exactly defined position and momentum along a hidden classical orbit."
 status: "Superseded"
 category: "Physics"
 acceptedApproximately: "1913–1920s"
 acceptedYear: 1913
 changedApproximately: "1920s–1930s"
 timelineYear: 1930
-summary: "The planetary-style Bohr atom was replaced by quantum orbitals and probability-based electron states."
+summary: "The planetary picture of electrons on fixed tracks was replaced by quantum orbitals and probability-based states."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
@@ -32,12 +32,16 @@ sources:
     note: "Summarizes Bohr's contribution to the theory of atomic structure."
 ---
 
-Rutherford's nuclear atom left a major problem: under classical electrodynamics, an orbiting charged electron should continuously radiate energy and spiral into the nucleus. In 1913, Niels Bohr rescued the model by allowing electrons only certain quantized circular orbits and energy levels.
+The familiar picture of an atom looks like a tiny solar system: a nucleus in the middle with electrons circling it on neat paths.
 
-The result was remarkably successful for hydrogen. It reproduced the atom's spectral lines and introduced quantization into atomic structure, so the image of electrons circling a nucleus like planets became both scientifically influential and visually memorable.
+That image comes largely from Niels Bohr's 1913 model. Earlier atomic models had a serious problem: under classical physics, a charged electron moving in a circle should lose energy and spiral into the nucleus. Bohr avoided that collapse by allowing electrons only certain fixed orbits with specific energies.
 
-But the model did not scale cleanly to more complicated atoms. During the 1920s, de Broglie's matter waves, Schrödinger's wave mechanics and Heisenberg's matrix mechanics replaced definite classical paths with quantum states. The uncertainty principle further ruled out assigning an electron both an exact position and exact momentum along a hidden planetary trajectory.
+For hydrogen, the model worked remarkably well. It explained the atom's pattern of spectral lines and introduced the crucial idea that atomic energies come in discrete steps.
 
-Modern orbitals are therefore not fuzzy versions of Bohr's orbits caused by imperfect measurement. They are quantum states described by wavefunctions and probability distributions.
+But the literal orbit picture did not survive.
 
-The Bohr model remains useful as an introductory approximation, especially for hydrogen-like atoms, and its quantized energy levels were a genuine advance. What was superseded was the literal picture of electrons following definite circular tracks around the nucleus.
+Quantum mechanics showed that an electron in an atom is described by a wavefunction. From it, physicists calculate an orbital: a pattern giving the probability of detecting the electron in different regions around the nucleus. An orbital is not a blurry planetary track. The electron is not assumed to be following a definite hidden circle that we simply fail to see.
+
+The uncertainty principle reinforces that distinction: position and momentum cannot both be assigned exact classical values at the same time.
+
+Bohr's energy levels remain an important stepping stone and are still useful for simple atoms. What was superseded was the picture of electrons literally travelling around nuclei on fixed circular paths.

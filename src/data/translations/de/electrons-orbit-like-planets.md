@@ -3,23 +3,27 @@ locale: de
 entryId: electrons-orbit-like-planets
 sourceReviewedAt: "2026-08-20"
 claim: "Elektronen bewegen sich auf festen kreisförmigen Bahnen um den Atomkern, ähnlich wie Planeten um die Sonne."
-currentUnderstanding: "Elektronen in Atomen besetzen Quantenzustände, die durch Wellenfunktionen und Wahrscheinlichkeitsverteilungen beschrieben werden. Sie folgen keinen gleichzeitig exakt bestimmten klassischen Bahnen mit genau festgelegten Orten und Impulsen."
-whyItChanged: "Das Bohr-Modell erklärte das Spektrum des Wasserstoffs, scheiterte aber bei komplexeren Atomen und war mit der Unschärferelation nicht vereinbar. Die Quantenmechanik ersetzte feste Elektronenbahnen durch Orbitale und quantisierte Zustände."
+currentUnderstanding: "Elektronen bewegen sich in Atomen nicht auf festen Kreisbahnen um den Kern. Die Quantenmechanik beschreibt sie durch Orbitale: Zustände, die angeben, mit welcher Wahrscheinlichkeit ein Elektron in verschiedenen Bereichen gefunden werden kann und welche Energien es besitzt."
+whyItChanged: "Bohrs Modell von 1913 erklärte Wasserstoff erfolgreich, indem es nur bestimmte Elektronenbahnen und Energien erlaubte, scheiterte aber bei komplexeren Atomen. Die Quantenmechanik ersetzte diese festen Bahnen durch wellenartige Zustände; die Unschärferelation zeigte zudem, dass ein Elektron nicht gleichzeitig einen exakt bestimmten Ort und Impuls entlang einer verborgenen klassischen Bahn besitzen kann."
 acceptedApproximately: "1913 bis 1920er-Jahre"
 changedApproximately: "1920er- bis 1930er-Jahre"
-summary: "Das planetenartige Bohr-Atom wurde durch Quantenorbitale und probabilistische Elektronenzustände ersetzt."
+summary: "Das Planetenbild fester Elektronenbahnen wurde durch Quantenorbitale und Wahrscheinlichkeitszustände ersetzt."
 sourceNotes:
 - "Beschreibt Bohrs Atommodell und erklärt, warum es durch die Quantenmechanik abgelöst wurde."
 - "Erklärt, dass das damals verbreitete Modell fester Bahnen bei größeren Atomen versagte und durch eine neue Theorie ersetzt wurde."
 - "Fasst Bohrs Beitrag zur Theorie der Atomstruktur zusammen."
 ---
 
-Rutherfords Kernatom hinterließ ein großes Problem: Nach der klassischen Elektrodynamik müsste ein kreisendes geladenes Elektron ständig Energie abstrahlen und schließlich in den Kern stürzen. Niels Bohr rettete das Modell 1913, indem er nur bestimmte quantisierte Kreisbahnen und Energieniveaus zuließ.
+Das vertraute Bild eines Atoms ähnelt einem winzigen Sonnensystem: In der Mitte sitzt der Atomkern, während Elektronen auf sauberen Bahnen darum kreisen.
 
-Für Wasserstoff funktionierte das erstaunlich gut. Das Modell reproduzierte die Spektrallinien und führte Quantisierung in die Atomphysik ein. Dadurch wurde das Bild von Elektronen, die wie Planeten um einen Kern kreisen, wissenschaftlich einflussreich und zugleich extrem einprägsam.
+Dieses Bild geht vor allem auf Niels Bohrs Modell von 1913 zurück. Frühere Atommodelle hatten ein großes Problem: Nach klassischer Physik müsste ein geladenes Elektron auf einer Kreisbahn ständig Energie abstrahlen und schließlich in den Kern stürzen. Bohr vermied diesen Kollaps, indem er nur bestimmte feste Bahnen mit genau festgelegten Energien zuließ.
 
-Bei komplexeren Atomen geriet es jedoch an Grenzen. In den 1920er-Jahren ersetzten de Broglies Materiewellen, Schrödingers Wellenmechanik und Heisenbergs Matrizenmechanik feste klassische Bahnen durch Quantenzustände. Die Unschärferelation schloss zusätzlich die Vorstellung aus, ein Elektron besitze entlang einer verborgenen Planetenbahn gleichzeitig einen exakt bestimmten Ort und Impuls.
+Für Wasserstoff funktionierte das erstaunlich gut. Das Modell erklärte die Spektrallinien des Atoms und führte die entscheidende Idee ein, dass atomare Energien nur bestimmte Werte annehmen.
 
-Moderne Orbitale sind daher keine verschwommenen Bohr-Bahnen, die nur wegen unvollkommener Messgeräte unscharf erscheinen. Sie sind Quantenzustände, beschrieben durch Wellenfunktionen und Wahrscheinlichkeitsverteilungen.
+Die wörtliche Vorstellung von Kreisbahnen überlebte jedoch nicht.
 
-Das Bohr-Modell bleibt als Einführung und Näherung, besonders für wasserstoffähnliche Atome, nützlich. Seine quantisierten Energieniveaus waren ein echter Fortschritt. Überholt ist die wörtliche Vorstellung fester Kreisbahnen.
+Die Quantenmechanik beschreibt ein Elektron im Atom mit einer Wellenfunktion. Daraus lässt sich ein Orbital berechnen: ein Muster, das angibt, mit welcher Wahrscheinlichkeit das Elektron in verschiedenen Bereichen um den Kern nachgewiesen wird. Ein Orbital ist keine unscharfe Planetenbahn. Man nimmt nicht an, dass das Elektron heimlich einen festen Kreis beschreibt, den wir nur nicht genau beobachten können.
+
+Auch die Unschärferelation trennt beide Bilder: Ort und Impuls lassen sich nicht gleichzeitig mit exakt klassischen Werten festlegen.
+
+Bohrs Energieniveaus bleiben ein wichtiger Zwischenschritt und sind für einfache Atome weiterhin nützlich. Überholt ist die wörtliche Vorstellung, Elektronen würden auf festen Kreisbahnen um Atomkerne laufen.

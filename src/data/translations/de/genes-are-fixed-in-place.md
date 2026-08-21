@@ -3,23 +3,25 @@ locale: de
 entryId: genes-are-fixed-in-place
 sourceReviewedAt: "2026-08-20"
 claim: "Gene besitzen dauerhaft feste Positionen auf Chromosomen und können sich im Genom nicht bewegen."
-currentUnderstanding: "Transponierbare Elemente können ihre Position im Genom verändern oder Kopien erzeugen, die an anderer Stelle eingefügt werden. Mobile Elemente sind weit verbreitet und beeinflussen Genregulation, Mutation und Genomentwicklung erheblich."
-whyItChanged: "Barbara McClintock entdeckte in Mais steuernde Elemente, die ihre Position änderten und die Aktivität benachbarter Gene beeinflussten. Weil das der damals vorherrschenden Genetik widersprach, wurde ihre Interpretation zunächst ignoriert oder abgelehnt. Später wurde Transposition bei vielen Organismen nachgewiesen."
+currentUnderstanding: "Die meisten Gene liegen stabil an bestimmten Stellen der Chromosomen, doch einige DNA-Sequenzen können sich bewegen. Solche transponierbaren Elemente können sich ausschneiden oder kopieren und an neuen Positionen einfügen, wo sie Gene stören, Genaktivität verändern oder zur Evolution von Genomen beitragen können."
+whyItChanged: "Die klassische Genetik kartierte Gene auf stabile Positionen in Chromosomen. Barbara McClintock fand bei Mais jedoch genetische Elemente, deren Bewegung die Aktivität benachbarter Gene veränderte und dadurch die Färbung der Körner beeinflusste. Spätere molekulare Forschung fand transponierbare Elemente bei Bakterien, Pflanzen, Tieren und vielen weiteren Organismen."
 acceptedApproximately: "Frühes bis mittleres 20. Jahrhundert"
 changedApproximately: "1940er- bis 1980er-Jahre"
-summary: "Die statische Chromosomenkarte wurde revidiert, nachdem sich zeigte, dass DNA-Abschnitte innerhalb von Genomen wandern können."
+summary: "Genome enthalten mobile DNA-Sequenzen, die sich bewegen oder Kopien an neuen Positionen einfügen können."
 sourceNotes:
 - "Beschreibt McClintocks Entdeckung mobiler genetischer Elemente und ihre spätere Anerkennung in vielen Organismen."
 - "Erinnert daran, dass genetische Transposition dem Dogma der 1940er-Jahre widersprach und zunächst ignoriert oder abgelehnt wurde."
 - "Beschreibt die skeptische Reaktion auf McClintocks Theorie und ihre spätere Bestätigung."
 ---
 
-Klassische Chromosomenkarten behandelten Gene als Loci in einer stabilen linearen Reihenfolge. Crossing-over konnte zwar neu kombinieren, welche vererbten Chromosomenabschnitte zusammen weitergegeben wurden, doch die Genorte selbst sollten an ihrem Platz bleiben. Für die mendelsche Genetik war dieses Modell außerordentlich erfolgreich.
+Die klassische Genetik behandelte Chromosomen wie geordnete Karten. Gene besetzten bestimmte Positionen, sogenannte Loci, entlang eines Chromosoms. Crossing-over konnte zwar neu kombinieren, welche Chromosomenabschnitte gemeinsam vererbt wurden, doch die Positionen selbst sollten stabil bleiben.
 
-Barbara McClintock stieß in den 1940er-Jahren bei der Untersuchung von Maischromosomen auf etwas wesentlich Ungewöhnlicheres. Bestimmte genetische Elemente schienen ihre Position verändern zu können, und ihre Bewegung konnte benachbarte Gene an- oder abschalten. Dadurch entstanden instabile Muster in der Färbung von Maiskörnern. McClintock nannte sie controlling elements.
+Barbara McClintock fand in den 1940er-Jahren bei der Untersuchung von Mais eine Ausnahme.
 
-Die Idee war schwer einzuordnen, weil bewegliche Gene nicht zum statischen Chromosomenbild passten, das so viele genetische Phänomene erfolgreich erklärt hatte. Ihre Interpretation fand deshalb lange nur begrenzte Akzeptanz.
+Bestimmte genetische Elemente schienen an neue Stellen im Chromosom zu wandern. Wenn sie sich in oder neben andere Gene einfügten, konnten sie deren Aktivität verändern und dadurch wechselnde Farbmuster in Maiskörnern erzeugen.
 
-Befunde aus Bakterien und anderen Organismen machten Transposition schließlich unbestreitbar. Die Molekularbiologie identifizierte mehrere Klassen transponierbarer Elemente: Manche bewegen sich direkt als DNA, andere – Retrotransposons – erzeugen zunächst eine RNA-Kopie, die anschließend wieder als DNA an einer neuen Stelle eingebaut wird.
+McClintock nannte sie controlling elements. Die Vorstellung beweglicher DNA passte nur schwer in das damalige Bild stabiler Chromosomenkarten und fand deshalb lange nur begrenzte Akzeptanz.
 
-Die meisten Gene bleiben über gewöhnliche Zell- und Organismengenerationen hinweg an stabilen vererbten Positionen. Das Genom ist kein ständig neu gemischtes Durcheinander. Widerlegt wurde die absolute Regel, genomische Sequenzen könnten überhaupt nicht wandern. Mobile Elemente gelten heute als wichtige Quellen für Mutation, Genregulation und Genomevolution.
+Spätere Forschung zeigte, dass mobile DNA weit verbreitet ist. Heute heißen solche Sequenzen transponierbare Elemente. Manche bewegen sich direkt von einer DNA-Position zu einer anderen. Andere, sogenannte Retrotransposons, werden zunächst in RNA kopiert und anschließend wieder in DNA umgeschrieben, bevor eine neue Kopie an anderer Stelle eingefügt wird.
+
+Die meisten gewöhnlichen Gene springen nicht ständig durch das Genom. Die entscheidende Korrektur lautet, dass Chromosomenpositionen nicht ausnahmslos fest sind: Genome enthalten mobile Sequenzen, die Mutationen erzeugen, Genregulation verändern und Genome über die Evolution hinweg umgestalten können.

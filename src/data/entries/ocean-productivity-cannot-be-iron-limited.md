@@ -1,7 +1,7 @@
 ---
 claim: "Open-ocean regions rich in nitrate and phosphate were thought to contain enough iron that iron deficiency could not explain their low phytoplankton productivity."
-currentUnderstanding: "In several high-nutrient, low-chlorophyll ocean regions, scarce bioavailable iron restricts phytoplankton growth even though nitrate and phosphate remain abundant. Iron addition can stimulate blooms, although grazing, light, other nutrients, and ecosystem feedbacks also matter."
-whyItChanged: "Iron limitation had been proposed for decades, but older seawater measurements appeared to show abundant iron and trace-metal contamination made the hypothesis difficult to test. Cleaner sampling and analysis in the 1980s revealed extremely low dissolved iron, laboratory and bottle enrichments stimulated phytoplankton growth, and open-ocean iron-enrichment experiments in the 1990s confirmed iron limitation in major high-nutrient, low-chlorophyll regions."
+currentUnderstanding: "Some ocean regions contain plenty of major nutrients such as nitrate and phosphate but still support surprisingly little phytoplankton growth. In several of these regions, the missing ingredient is iron: tiny amounts of bioavailable iron can limit the microscopic algae that form the base of the food web."
+whyItChanged: "Older measurements often appeared to find enough iron in seawater, but trace-metal sampling was easily contaminated by ships, containers, and equipment. Cleaner methods in the 1980s revealed extremely low dissolved iron, and experiments showed that adding very small amounts could trigger phytoplankton growth."
 status: "Corrected"
 category: "Oceanography"
 acceptedApproximately: "Mid-20th century–1980s, while iron limitation remained a recurring minority hypothesis"
@@ -9,7 +9,7 @@ acceptedYear: 1950
 changedApproximately: "1980s–1990s"
 timelineYear: 1993
 lifespanComparable: false
-summary: "Cleaner measurements showed that apparent iron abundance was partly an analytical illusion, and field experiments confirmed iron-limited ocean regions."
+summary: "Cleaner measurements and iron-addition experiments showed that trace iron can limit productivity even where major nutrients are abundant."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -36,8 +36,16 @@ sources:
     note: "Synthesizes open-ocean enrichment experiments and the modern understanding of iron limitation and its ecological effects."
 ---
 
-Some of the ocean's strangest waters contain plenty of the major nutrients nitrate and phosphate yet relatively little phytoplankton. Iron deficiency had been suggested as an explanation for decades, but the available measurements appeared to show enough dissolved iron that the idea lacked convincing support. Measuring trace metals in seawater turned out to be exceptionally vulnerable to contamination.
+Some parts of the open ocean contain an odd combination: plenty of nitrate and phosphate, yet relatively little phytoplankton.
 
-Cleaner sampling changed the picture. In the 1980s John Martin and colleagues measured extremely low dissolved iron in open-ocean surface water. In 1988, adding tiny amounts of iron to North Pacific samples drove far greater phytoplankton growth and nitrate consumption. The 1993 IronEx experiment then added iron directly to the equatorial Pacific and produced a clear biological response in the ocean itself.
+Phytoplankton are microscopic photosynthetic organisms that form the base of much of the marine food web. Like plants on land, they need major nutrients such as nitrogen and phosphorus. But they also need much smaller amounts of trace elements, including iron.
 
-Iron is not the universal or sole limiting nutrient. Light, grazing, nitrogen, phosphorus, silicon, and other processes can dominate elsewhere.
+Iron limitation had been proposed for decades, but seawater measurements seemed to show enough iron that the idea was difficult to prove.
+
+The measurement itself turned out to be part of the problem. The natural amount of dissolved iron in remote surface water can be extraordinarily small. A little contamination from a ship, metal equipment, dust, or a sample container can overwhelm the real signal.
+
+Cleaner sampling in the 1980s revealed that some open-ocean waters contained far less dissolved iron than older measurements suggested.
+
+Researchers then tested whether that shortage mattered biologically. Adding tiny amounts of iron to seawater samples produced much stronger phytoplankton growth and greater use of the nitrate already present. In the 1990s, open-ocean experiments added iron directly to nutrient-rich waters and produced clear blooms.
+
+Iron is not the only control on ocean productivity. Light, grazing, nitrogen, phosphorus, silicon, and other factors can dominate in other places. The correction is that abundant nitrate and phosphate do not guarantee that phytoplankton have every nutrient they need.

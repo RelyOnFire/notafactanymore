@@ -1,14 +1,14 @@
 ---
 claim: "Glial cells are merely passive glue and support for the neurons that perform all meaningful nervous-system processing."
-currentUnderstanding: "Glia are active participants in nervous-system function. Different glial types regulate ions and neurotransmitters, supply metabolic support, form myelin, shape synapses, influence blood flow, guide development, and coordinate immune responses."
-whyItChanged: "The name neuroglia reflected a nineteenth-century support-tissue interpretation, and neurons dominated electrophysiology. Recordings, imaging, molecular studies, and genetic manipulation showed glial responses to neural activity and essential roles in synaptic and circuit function."
+currentUnderstanding: "Glial cells do much more than hold neurons in place. Different kinds of glia insulate nerve fibers, control the chemical environment around neurons, supply metabolic support, help shape synapses, regulate local blood flow, guide development, and perform immune functions in the nervous system."
+whyItChanged: "Neurons produced obvious electrical signals, while the surrounding glial cells looked mainly structural, which made the old 'neural glue' idea plausible. Better recordings, microscopy, molecular methods, and genetic experiments later showed glia responding to neural activity and performing essential jobs throughout nervous tissue."
 status: "Overturned"
 category: "Neuroscience"
 acceptedApproximately: "Mid-19th century–late 20th century"
 acceptedYear: 1850
 changedApproximately: "1960s–present"
 timelineYear: 1965
-summary: "Cells once dismissed as neural glue proved essential to signaling, metabolism, development, and circuit regulation."
+summary: "Cells once treated mainly as neural support proved to be active participants in the operation and maintenance of the nervous system."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,12 +30,14 @@ sources:
     note: "Traces the 'nerve glue' terminology and evidence for the active physiological roles of glia."
 ---
 
-The word *glia* comes from the Greek for glue, and the name captured the nineteenth-century picture well. Neurons generated obvious electrical signals and long projecting fibers, while the surrounding cells seemed to provide packing, insulation and structural support.
+The name glia comes from the Greek word for glue. It reflects an old division of labor: neurons were the cells that carried meaningful electrical signals, while glial cells were thought mainly to fill space, support tissue, and insulate the nervous system.
 
-That division of labor persisted because neurons were easier to connect to information processing. Better recordings, microscopy and molecular tools gradually showed that the “support cells” were doing far more.
+Better tools revealed that “support” covered a much wider set of active jobs.
 
-Different glial populations perform very different jobs. Oligodendrocytes and Schwann cells form myelin; astrocytes regulate ions and neurotransmitters, supply metabolic support, help shape synapses and influence local blood flow; microglia serve major immune and surveillance functions. Glia also guide development and respond dynamically to neural activity and injury.
+Different glial cells do different things. Oligodendrocytes in the brain and spinal cord, and Schwann cells in peripheral nerves, wrap nerve fibers in myelin. This insulation helps electrical signals travel quickly and reliably.
 
-The updated picture does not mean neurons lost their central role in rapid electrical signaling. Nor does every proposed form of glial signaling have equal support—broad claims about gliotransmission, for example, remain debated.
+Astrocytes help control the concentrations of ions and neurotransmitters around neurons, supply metabolic support, influence local blood flow, and help maintain the environment around synapses.
 
-The well-established correction is simpler and stronger: glia are not passive filler. They are indispensable, active participants in the development, maintenance and operation of nervous systems.
+Microglia are immune cells of the central nervous system. They survey tissue, respond to injury and infection, clear debris, and help reshape connections during development.
+
+These roles do not mean that neurons have stopped being central to rapid information transmission, and some proposed forms of glial signaling remain debated. The established correction is simpler: glia are not passive filler. They are essential working cells with many specialized functions.

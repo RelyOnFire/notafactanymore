@@ -1,14 +1,14 @@
 ---
 claim: "Mass and energy are entirely separate conserved quantities."
-currentUnderstanding: "Mass contributes to a system's total energy and can be converted into other forms of energy. Conversely, energy stored in a system contributes to its mass."
-whyItChanged: "Special relativity linked mass and energy through a single physical framework. Nuclear reactions later made the conversion measurable through mass differences and released energy."
+currentUnderstanding: "Mass and energy are related rather than completely separate. A body's rest mass corresponds to energy through E = mc², and energy stored inside a system contributes to that system's mass. Nuclear reactions make this connection large enough to measure easily."
+whyItChanged: "Classical physics kept conservation of mass and conservation of energy as separate bookkeeping rules. Special relativity linked them, showing that a change in a system's stored energy is accompanied by a corresponding change in mass. Nuclear reactions later made the relationship directly measurable."
 status: "Superseded"
 category: "Physics"
 acceptedApproximately: "Classical mechanics through the early 20th century"
 acceptedYear: 1700
 changedApproximately: "1905 onward"
 timelineYear: 1905
-summary: "Relativity united mass and energy, turning two separate bookkeeping quantities into related forms of one physical total."
+summary: "Relativity showed that mass contributes to energy and that changing a system's energy can change its mass."
 featured: false
 publishedAt: "2026-07-24"
 reviewedAt: "2026-08-20"
@@ -30,12 +30,18 @@ sources:
     note: "Contrasts the classical framework of absolute space and time with Einstein's relativistic revision."
 ---
 
-Classical physics kept mass and energy in different accounting systems. Mass was conserved in ordinary chemical and mechanical processes, while energy was separately conserved as kinetic, potential, thermal, and other forms.
+In classical physics, mass and energy were kept in separate accounts.
 
-Special relativity connected those ledgers. Einstein showed that a body's rest mass contributes an enormous amount of energy, summarized by the famous relation E = mc². A system that loses energy can therefore lose a corresponding amount of mass, while adding stored energy increases the system's mass.
+Mass appeared to be conserved: the amount of matter before and after an ordinary chemical or mechanical process stayed the same. Energy was conserved separately as motion, heat, stored energy, and other forms.
 
-For chemical reactions the mass change is so tiny that classical conservation of mass remains an excellent approximation. Nuclear reactions made the connection much easier to measure. The mass of the products can differ detectably from the starting nuclei, with the difference appearing as released or absorbed energy.
+Special relativity connected the two.
 
-Modern physics therefore conserves total energy-momentum rather than treating mass and energy as independent substances.
+Einstein's famous relation E = mc² says that a body's rest mass corresponds to an enormous amount of energy. The factor c²—the speed of light squared—is so large that even a tiny change in mass can correspond to a large amount of energy.
 
-“Mass and energy are the same thing” is also too loose. Invariant mass, energy, and momentum remain distinct physical quantities with precise relationships. The superseded idea is that mass and energy are completely separate and independently conserved.
+The relationship works in the other direction as well. If energy is added to a closed system and stored inside it, the system's mass increases slightly. If the system releases energy, its mass can decrease.
+
+In ordinary chemical reactions these mass changes are extremely small, so the classical rule of mass conservation remains an excellent approximation.
+
+Nuclear reactions make the effect much easier to measure. The combined mass of the products can differ detectably from the starting nuclei, with the difference appearing as released or absorbed energy.
+
+It is still too loose to say that mass and energy are simply “the same thing.” Modern physics treats mass, energy, and momentum as distinct quantities with precise relationships. What disappeared was the idea that mass and energy are completely separate and independently conserved.

@@ -1,14 +1,14 @@
 ---
 claim: "The ocean floor is as ancient and permanent as the continents."
-currentUnderstanding: "Oceanic crust is continually created at mid-ocean ridges and recycled at subduction zones. Most is much younger than continental crust."
-whyItChanged: "Seafloor mapping, magnetic stripes, sediment thickness, and radiometric dating showed that oceanic crust grows younger toward ridges and disappears into trenches."
+currentUnderstanding: "Oceanic crust is continuously created at mid-ocean ridges and destroyed at subduction zones, so it is generally much younger than continental crust. The oldest surviving ocean floor is only a small fraction of Earth's age."
+whyItChanged: "Before plate tectonics, ocean basins were often treated as ancient permanent features. Seafloor mapping and magnetic surveys showed new crust forming at ridges, while sediment thickness and radiometric dating showed that the crust gets older away from those ridges. Trenches revealed where old oceanic plates sink back into the mantle."
 status: "Superseded"
 category: "Earth Science"
 acceptedApproximately: "19th–mid-20th century"
 acceptedYear: 1850
 changedApproximately: "1950s–1960s"
 timelineYear: 1963
-summary: "The supposedly permanent ocean floor turned out to be a young, continuously recycled part of Earth."
+summary: "The ocean floor turned out to be a young, continuously recycled part of Earth's surface rather than an ancient permanent crust."
 featured: false
 publishedAt: "2026-07-24"
 reviewedAt: "2026-08-20"
@@ -25,14 +25,18 @@ sources:
     note: "Gives an average oceanic-crust age of about 55 million years and an oldest age of about 180 million years."
 ---
 
-Before plate tectonics, continents and ocean basins were commonly treated as long-lived fixed features of Earth. If continents preserved rocks billions of years old, it was reasonable to expect the deep ocean floor to preserve a similarly ancient record.
+Continents preserve rocks that are billions of years old. Before plate tectonics, it seemed reasonable to expect the deep ocean floor to contain an equally ancient geological record.
 
-Mid-twentieth-century ocean exploration revealed the opposite. Sonar mapped enormous mid-ocean ridges, while magnetic surveys found parallel stripes of normal and reversed magnetization arranged symmetrically on either side.
+Ocean exploration revealed something very different.
 
-Seafloor spreading explained the pattern: new basaltic crust forms at ridges, moves outward, and records Earth's magnetic field as it cools. Sediments also become thicker with distance from the ridges, exactly as expected if older crust has had more time to accumulate them.
+Sonar mapping found enormous mountain chains running through the oceans. These mid-ocean ridges are places where hot material rises and new basaltic ocean crust forms.
 
-Radiometric dating confirmed the striking age pattern. Oceanic crust is generally young compared with continents, and the oldest surviving seafloor is only a small fraction of Earth's age.
+Magnetic surveys supplied a striking clue that the new crust moves away from the ridge. As basalt cools, magnetic minerals record the direction of Earth's magnetic field. Because the field has reversed many times, the seafloor developed alternating magnetic stripes. The same stripe pattern appears on both sides of a ridge, as if new crust were being added in the middle and carried outward.
 
-The missing ancient ocean floor is not missing by accident. It is recycled at subduction zones, where oceanic lithosphere sinks back into the mantle.
+Other evidence matched that picture. Sediment becomes thicker farther from the ridges because older seafloor has had more time to collect it, and radiometric dating shows the basalt itself getting progressively older with distance.
 
-Old sediment can rest on young crust, but the basaltic ocean floor itself is geologically temporary.
+Yet even the oldest surviving oceanic crust is young compared with ancient continental rocks.
+
+The reason is recycling. At subduction zones, oceanic plates bend downward and sink back into the mantle. New ocean floor is continually created while old ocean floor is destroyed.
+
+Ancient sediments can sometimes sit on younger ocean crust, but the basaltic crust beneath them is geologically temporary.

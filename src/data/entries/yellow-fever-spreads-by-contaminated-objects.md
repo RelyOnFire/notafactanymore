@@ -1,14 +1,14 @@
 ---
 claim: "Yellow fever spreads mainly through direct contact with patients, clothing, bedding, and other contaminated objects."
-currentUnderstanding: "Yellow fever is caused by a virus spread mainly through the bites of infected mosquitoes. In urban outbreaks, Aedes aegypti is the principal vector."
-whyItChanged: "Controlled experiments showed that contaminated bedding did not transmit yellow fever, while mosquitoes did. Mosquito control then sharply reduced urban outbreaks."
+currentUnderstanding: "Yellow fever is a viral disease spread mainly by infected mosquitoes. In urban transmission, *Aedes aegypti* is the principal mosquito vector; contaminated clothing, bedding, and ordinary contact with patients are not the main route."
+whyItChanged: "Yellow-fever epidemics made patients' rooms, clothes, and bedding seem dangerous. Around 1900, controlled experiments found that volunteers exposed to heavily contaminated bedding did not develop yellow fever, while exposure to infected mosquitoes could transmit the disease."
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "18th to late 19th century"
 acceptedYear: 1750
 changedApproximately: "1900–1901"
 timelineYear: 1900
-summary: "Experiments overturned the belief that yellow fever spread mainly through contaminated clothing and bedding."
+summary: "Experiments shifted yellow-fever prevention from contaminated objects to mosquito transmission."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
@@ -30,18 +30,20 @@ sources:
     note: "Describes experiments testing contaminated objects and mosquito transmission."
 ---
 
-Yellow fever outbreaks looked contagious in the ordinary sense. Patients became ill in crowded cities, and bedding, clothes, rooms, and personal effects from the sick were natural suspects.
+Yellow fever often spread through crowded cities, so it was natural to suspect the same things feared in many other contagious diseases: sick patients, their rooms, clothing, bedding, and other contaminated objects.
 
-The competing mosquito hypothesis came from Cuban physician Carlos Finlay, who proposed that mosquitoes transmitted the disease years before the idea was widely accepted.
+Such objects are called fomites when they are thought to carry infection.
 
-Around 1900, the U.S. Army Yellow Fever Commission tested the alternatives directly. Volunteers exposed to clothing and bedding heavily contaminated by yellow-fever patients did not develop the disease.
+Cuban physician Carlos Finlay proposed a very different mechanism in the nineteenth century. He argued that mosquitoes transmitted yellow fever from one person to another, but the idea was not widely accepted at first.
 
-Mosquito exposure produced a very different result.
+Around 1900, the U.S. Army Yellow Fever Commission tested the competing explanations.
 
-The experiments shifted attention from fomites—contaminated objects—to mosquito transmission and helped make vector control central to urban yellow-fever prevention.
+In one set of experiments, volunteers entered rooms containing bedding, clothing, and other materials heavily contaminated by yellow-fever patients. Despite close contact with these objects, they did not develop the disease.
 
-Modern virology identifies yellow fever as a viral infection transmitted by infected mosquitoes, with *Aedes aegypti* especially important in urban cycles.
+Mosquito experiments produced the opposite result. When mosquitoes had first fed on yellow-fever patients and were later allowed to bite susceptible volunteers, transmission could occur.
 
-The ecology is broader than one mosquito species: forest cycles involve other mosquitoes and animal hosts.
+The results redirected prevention toward mosquito control.
 
-The historical correction concerns the urban epidemic model investigated around 1900, not every ecological setting in which yellow fever circulates.
+Yellow fever is now known to be caused by a virus. In urban outbreaks, *Aedes aegypti* is the main vector—the organism that carries the virus between people.
+
+The ecology is broader outside cities, where other mosquito species and animal hosts take part in forest transmission cycles. The historical correction is that contaminated clothing and bedding were not the principal explanation for urban yellow-fever spread.

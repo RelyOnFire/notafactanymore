@@ -1,14 +1,14 @@
 ---
 claim: "Mars has a liquid metallic core with a radius of about 1,830 km."
-currentUnderstanding: "InSight data are better explained by a molten silicate layer above a smaller liquid metallic core. Independent 2023 analyses placed the core radius at roughly 1,650–1,675 km."
-whyItChanged: "The first seismic estimate treated a deep internal boundary as the top of the metallic core. Newly detected seismic phases and revised interior models showed that the boundary can instead mark the top of a molten silicate layer above the core."
+currentUnderstanding: "Mars appears to have a smaller metallic core than first estimated by NASA's InSight mission. Newer analyses place the liquid core at roughly 1,650–1,675 km in radius, with a layer of molten silicate rock above it."
+whyItChanged: "The first seismic analysis in 2021 interpreted a deep boundary inside Mars as the top of the metallic core, giving a radius near 1,830 km. Later marsquakes produced additional seismic paths that were better explained if that boundary marked the top of a molten silicate layer sitting above a smaller core."
 status: "Corrected"
 category: "Planetary Science"
 acceptedApproximately: "2021–2023"
 acceptedYear: 2021
 changedApproximately: "2023"
 timelineYear: 2023
-summary: "New InSight analyses identified a molten silicate layer above Mars’s core and reduced the estimated metallic-core radius."
+summary: "Additional InSight seismic data revealed a molten layer above Mars's core and reduced the estimated metallic-core radius."
 featured: false
 publishedAt: "2026-08-13"
 reviewedAt: "2026-08-13"
@@ -30,8 +30,16 @@ sources:
     note: "Independently models a basal molten silicate layer and obtains a core radius of 1,650 ± 20 km."
 ---
 
-InSight gave scientists the first direct seismic measurements of another planet’s deep interior. The initial 2021 interpretation placed the top of Mars’s liquid metallic core about 1,830 kilometers from the center. That implied a surprisingly large, relatively low-density core.
+NASA's InSight lander gave scientists the first direct seismic measurements of the deep interior of another planet.
 
-More seismic data revealed a missing piece of the interior. Two independent 2023 studies found that a molten silicate layer can sit between the solid mantle and the metallic core. The boundary identified in the earlier analysis was therefore higher than the true core-mantle boundary. With that layer included, the metallic core shrank to roughly 1,650–1,675 kilometers in radius and could be denser than first inferred.
+The basic idea is similar to earthquake seismology on Earth. A marsquake sends vibrations through the planet. Different materials bend, reflect, and slow those waves in different ways, so the arrival times recorded by the lander can reveal hidden boundaries inside Mars.
 
-The episode shows how quickly a first measurement of an inaccessible planetary interior can change as new seismic paths become available. InSight established the core seismically in 2021; the extra data then changed what one of its boundaries represented.
+In 2021, the first major analysis placed the top of Mars's liquid metallic core about 1,830 kilometers from the planet's center. That implied a surprisingly large core with a relatively low density.
+
+More marsquakes provided additional wave paths through the deep interior. In 2023, two independent studies found that the new signals were better explained by adding a layer of molten silicate rock between the solid mantle and the metallic core.
+
+That changed the meaning of the boundary identified earlier. What had looked like the top of the metallic core could instead be the top of this molten rock layer.
+
+With the extra layer included, the metallic core itself shrank to roughly 1,650–1,675 kilometers in radius and could be denser than first thought.
+
+The episode did not show that InSight's seismic method had failed. It showed how a first model of an inaccessible planetary interior can change when new wave paths reveal an extra layer.

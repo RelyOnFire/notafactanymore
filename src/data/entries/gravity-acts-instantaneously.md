@@ -1,14 +1,14 @@
 ---
 claim: "Changes in gravity are transmitted instantaneously across any distance."
-currentUnderstanding: "Changes in the gravitational field propagate at the speed of light as disturbances in spacetime. Accelerating masses can generate gravitational waves."
-whyItChanged: "Newtonian gravity successfully described attraction as action at a distance but did not supply a finite propagation mechanism. General relativity replaced this with dynamical spacetime and predicted gravitational waves traveling at light speed."
+currentUnderstanding: "Changes in gravity do not act everywhere at once. In general relativity, gravity is part of the structure of spacetime, and changes in the gravitational field propagate at the speed of light. Rapidly accelerating masses can produce traveling disturbances called gravitational waves."
+whyItChanged: "Newton's law described gravity extremely well but treated the attraction between masses as depending on their positions at the same instant, without a mechanism for finite-speed propagation. General relativity replaced that picture with a changing spacetime whose disturbances travel causally at light speed."
 status: "Superseded"
 category: "Physics"
 acceptedApproximately: "17th–early 20th century"
 acceptedYear: 1650
 changedApproximately: "1915 onward"
 timelineYear: 1915
-summary: "Instantaneous Newtonian action at a distance was replaced by relativistic gravity with finite-speed propagation."
+summary: "Gravity stopped being an instantaneous action at a distance and became a field whose changes propagate at the speed of light."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
@@ -32,12 +32,16 @@ sources:
     note: "Notes that relativity's predictions have been repeatedly tested and confirmed."
 ---
 
-Newton's law of gravity was spectacularly successful, but mathematically it treated the force between masses as depending on their positions at the same instant. If interpreted literally, a change in one mass would affect the gravitational field arbitrarily far away with no travel time.
+Newton's law of gravity was extraordinarily successful. It explained falling objects, planetary orbits, tides, and much more.
 
-Newton himself was uneasy with unexplained action at a distance, but his theory did not provide a finite-speed mechanism. For ordinary planetary motion, that omission mattered little because the approximation works extremely well.
+But its mathematics contained an uncomfortable feature. The gravitational pull between two masses depended on where they were at the same instant. Taken literally, if one mass changed position, the effect could be felt arbitrarily far away with no travel time.
 
-General relativity changed the underlying picture. Gravity became the geometry of a dynamical spacetime rather than a force transmitted instantaneously between distant bodies. Changes in the gravitational field propagate causally at the speed of light, and accelerating masses can generate traveling distortions known as gravitational waves.
+Newton himself was uneasy about unexplained action at a distance, although his equations worked extremely well for ordinary astronomy.
 
-A century later, gravitational-wave detections supplied direct observations of those propagating disturbances. Relativistic tests in astronomy likewise constrain gravity to the same causal speed scale as light.
+General relativity changed the underlying picture. Gravity was no longer treated as a force reaching instantly across empty space. Mass and energy affect the geometry of spacetime, and changes in that geometry propagate outward at the speed of light.
 
-The finite-speed statement concerns changes and causal influences. A static gravitational field around a steadily existing mass should not be pictured as a stream of fresh signals continuously leaving the mass. Newtonian gravity remains an extraordinarily accurate approximation in slow-moving, weak-field situations.
+When massive objects accelerate strongly, those changes can travel as gravitational waves: ripples in spacetime that carry information about the motion that produced them.
+
+Direct detections of gravitational waves beginning in 2015 provided observations of such traveling disturbances.
+
+This does not mean a static gravitational field should be imagined as a stream of new signals constantly leaving a stationary mass. The finite-speed rule concerns changes and causal influences. Newtonian gravity remains an excellent approximation when speeds are low and gravitational fields are weak.

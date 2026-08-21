@@ -3,23 +3,27 @@ locale: de
 entryId: mitochondria-and-chloroplasts-were-never-bacteria
 sourceReviewedAt: '2026-08-20'
 claim: Mitochondrien und Chloroplasten entwickelten sich vollständig innerhalb komplexer Zellen und haben keine evolutionäre Beziehung zu Bakterien.
-currentUnderstanding: Mitochondrien und Chloroplasten stammen von Bakterien ab, die mit anderen Zellen uralte symbiotische Beziehungen eingingen. Sie besitzen noch immer bakterienähnliche Genome, Ribosomen, Membranen und Teilungsmechanismen.
-whyItChanged: Endosymbiotische Erklärungen wurden während großer Teile des 20. Jahrhunderts wiederholt abgelehnt. Elektronenmikroskopie, Organellen-DNA, bakterienähnliche Proteinsynthese und molekulare Stammbäume machten eine bakterielle Abstammung später überzeugend.
+currentUnderstanding: "Mitochondrien und Chloroplasten stammen von Bakterien ab, die einst selbstständig lebten. Frühe Wirtszellen nahmen diese Bakterien auf, die Partnerschaft wurde dauerhaft, und im Verlauf der Evolution wurden aus den ehemaligen Bakterien Organellen – spezialisierte Strukturen innerhalb der Zelle."
+whyItChanged: "Die bakterielle Herkunft galt lange als spekulativ. Später zeigte sich, dass Mitochondrien und Chloroplasten eigene DNA besitzen, sich bakterienähnlich teilen, bakterienähnliche Ribosomen verwenden und Membranen sowie Gene mit klaren bakteriellen Beziehungen bewahren. Molekulare Vergleiche ordneten Mitochondrien einer bakteriellen Abstammung und Chloroplasten den Cyanobakterien zu."
 acceptedApproximately: Vorherrschende zellbiologische Sichtweise während großer Teile des 20. Jahrhunderts
 changedApproximately: 1960er- bis 1980er-Jahre
-summary: Zwei unverzichtbare Zellstrukturen erwiesen sich als Nachfahren einst selbstständiger Bakterien.
+summary: "Mitochondrien und Chloroplasten erwiesen sich als Nachfahren von Bakterien, die zu dauerhaften Bestandteilen komplexer Zellen wurden."
 sourceNotes:
 - Stellt fest, dass Zellbiologen endosymbiotische Erklärungen von den 1920er- bis in die 1970er-Jahre ablehnten.
 - Erklärt, dass die Theorie zunächst auf starken Widerstand stieß und bis in die 1980er-Jahre breite Akzeptanz fand.
 - Gibt einen Überblick über genomische und phylogenetische Belege für die bakterielle Abstammung der Mitochondrien.
 ---
 
-Mitochondrien und Chloroplasten wirken zunächst wie gewöhnliche Bestandteile komplexer Zellen. Daher war es naheliegend, sie als Strukturen zu betrachten, die sich vollständig innerhalb eukaryotischer Zellen entwickelt hatten. Vorschläge, sie könnten von ehemals frei lebenden Mikroorganismen abstammen, existierten früh, galten aber über Jahrzehnte vielen Zellbiologen als spekulativ.
+Mitochondrien und Chloroplasten sind Strukturen innerhalb komplexer Zellen. Mitochondrien helfen Zellen, nutzbare Energie aus Nahrung zu gewinnen; Chloroplasten betreiben bei Pflanzen und Algen Photosynthese.
 
-Die Organellen selbst lieferten jedoch auffällige Hinweise. Sie vermehren sich durch Teilung in bakterienähnlicher Weise, besitzen eigenes DNA-Material und enthalten Ribosomen, die sich von denen im übrigen eukaryotischen Zellplasma unterscheiden. Auch Membranen und biochemische Mechanismen zeigen klare Parallelen zu Bakterien.
+Lange lag deshalb die Annahme nahe, diese Strukturen hätten sich vollständig innerhalb solcher Zellen entwickelt.
 
-Lynn Margulis fasste in den 1960er-Jahren die endosymbiotische Erklärung neu und einflussreich zusammen. Die stärkste Bestätigung kam später aus molekularen Daten: Organellengene ließen sich direkt mit Bakteriengenen vergleichen. Mitochondrien ließen sich in bakterielle Abstammungslinien einordnen, Chloroplasten in die der Cyanobakterien.
+Eine andere Idee besagte, dass sie ursprünglich selbstständige Bakterien waren.
 
-Das heutige Modell ist damit zugleich zellbiologisch und historisch. Eine frühe Wirtszelle nahm Bakterien auf, die zu dauerhaften Partnern wurden. Im Laufe der Evolution verloren sie ihre Selbstständigkeit und übertrugen viele ihrer Gene in den Zellkern des Wirts.
+Nach diesem endosymbiotischen Modell nahm eine frühe Wirtszelle ein Bakterium auf, verdaut es aber nicht. Beide Partner profitierten: Das Bakterium lieferte nützliche Stoffwechselfunktionen, während der Wirt Schutz und Nährstoffe bot. Über viele Generationen wurde die Partnerschaft dauerhaft, und das Bakterium verlor einen großen Teil seiner Selbstständigkeit.
 
-Der endosymbiotische Ursprung von Mitochondrien und Chloroplasten ist heute gut belegt. Details zur damaligen Wirtszelle und zu den frühesten Stadien werden weiter untersucht. Nicht jede vorgeschlagene endosymbiotische Herkunft anderer Zellstrukturen hat eine vergleichbar starke Evidenzbasis.
+Die heutigen Organellen bewahren Spuren dieser Geschichte. Mitochondrien und Chloroplasten besitzen eigene DNA, teilen sich ähnlich wie Bakterien und verwenden Ribosomen, die sich von jenen im übrigen Zellinneren unterscheiden. Auch ihre Membranen und viele Gene zeigen klare bakterielle Verwandtschaft.
+
+Molekulare Vergleiche machten die Herkunft besonders überzeugend. Mitochondrien gehen auf eine bakterielle Abstammungslinie zurück; Chloroplasten auf Cyanobakterien, also jene Bakteriengruppe, die sauerstoffbildende Photosynthese betreibt.
+
+Viele Gene der ursprünglichen Bakterien sind inzwischen in den Zellkern des Wirts gewandert. Moderne Mitochondrien und Chloroplasten sind daher keine frei lebenden Bakterien mehr, ihre bakterielle Herkunft ist jedoch gut etabliert.

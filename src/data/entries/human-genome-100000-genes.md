@@ -1,14 +1,14 @@
 ---
 claim: "The human genome contains about 100,000 protein-coding genes."
-currentUnderstanding: "Current annotations place the human protein-coding gene count at roughly 20,000, although the exact total depends on definitions and ongoing annotation."
-whyItChanged: "Before the human genome was sequenced, gene counts were inferred indirectly. Draft and finished genome sequences allowed researchers to identify and validate genes much more systematically, reducing the estimate dramatically."
+currentUnderstanding: "Humans have roughly 20,000 protein-coding genes, not about 100,000. A protein-coding gene is a stretch of DNA whose information can be used to make a protein. The exact count continues to change slightly as genome annotation improves."
+whyItChanged: "Before the human genome was sequenced, scientists had to estimate gene number indirectly from proteins, RNA, mutations, and genome complexity. The Human Genome Project allowed researchers to search the DNA sequence systematically and found far fewer protein-coding genes than expected."
 status: "Corrected"
 category: "Genetics"
 acceptedApproximately: "1980s–1990s"
 acceptedYear: 1985
 changedApproximately: "2001–2004"
 timelineYear: 2001
-summary: "Genome sequencing reduced the estimated number of human protein-coding genes from around 100,000 to roughly 20,000."
+summary: "Sequencing the human genome cut the estimated number of protein-coding genes from around 100,000 to roughly 20,000."
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
@@ -32,12 +32,16 @@ sources:
     note: "Reviews the history and continuing difficulty of determining the exact human gene catalogue."
 ---
 
-Before a complete human genome existed, scientists had to estimate gene number indirectly—from the diversity of proteins and RNA, mutation data, genome complexity and comparisons with other organisms. By the late twentieth century, figures around 100,000 protein-coding genes were common.
+Before the Human Genome Project, scientists could not simply read through the complete human DNA sequence and count genes. They had to estimate the total indirectly from known proteins, RNA molecules, mutations, genome size, and comparisons with other organisms.
 
-The Human Genome Project made direct counting possible, although “direct” still required difficult computational and experimental annotation. When the draft sequence appeared in 2001, the predicted total was already far below expectations. Analysis of the finished sequence pushed the estimate down toward roughly 20,000–25,000 protein-coding genes.
+By the late twentieth century, estimates around 100,000 protein-coding genes were common.
 
-That surprise weakened a simple intuition about biological complexity. Humans do not achieve complex anatomy and behavior merely by possessing vastly more protein-coding genes than other animals. Alternative splicing, gene regulation, noncoding RNAs, protein modification and networks of interacting genes all contribute substantially to what a genome can do.
+A protein-coding gene is a DNA region whose information can ultimately be used to make a protein. Even with a complete genome sequence, identifying one is not always trivial: researchers must determine where genes begin and end, which RNA transcripts are real, and whether a predicted sequence actually produces a functional protein.
 
-The number is still not perfectly fixed because gene boundaries, small proteins and annotation standards continue to be refined.
+When the first draft of the human genome appeared in 2001, the count was already dramatically below 100,000. Later annotation brought the estimate down toward roughly 20,000 protein-coding genes.
 
-This card refers specifically to protein-coding genes. The genome also contains many genes whose functional products are RNAs rather than proteins, so “about 20,000 genes total” would itself be too simple.
+The surprise showed that biological complexity does not come simply from having vastly more protein-coding genes. Cells can use the same genes in different ways through regulation, alternative RNA splicing, chemical modification of proteins, and networks of interacting genes.
+
+The exact number continues to be refined as small proteins and gene boundaries are reassessed.
+
+This count also refers specifically to protein-coding genes. The human genome contains many additional genes whose functional products are RNA rather than proteins.

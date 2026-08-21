@@ -1,14 +1,14 @@
 ---
 claim: "Rubber, cellulose, and other polymers are loose aggregates of small molecules rather than giant covalently bonded molecules."
-currentUnderstanding: "Polymers are macromolecules: long molecular chains or networks built from covalently connected repeating units."
-whyItChanged: "Early chemists often explained the unusual viscosity and apparent molecular mass of polymers as colloidal association. Hermann Staudinger argued that they were genuine giant molecules and supported the claim through chemical reactions, viscosity measurements, and molecular-weight studies."
+currentUnderstanding: "Polymers are macromolecules: very large molecules made from many smaller building blocks joined by covalent bonds into long chains or networks. Materials such as rubber and cellulose are not merely loose clusters of ordinary small molecules."
+whyItChanged: "Early chemists found polymer solutions unusually viscous and obtained apparent molecular masses that seemed implausibly large. Many therefore interpreted polymers as aggregates of small molecules. Hermann Staudinger argued that the large size was real and built evidence that the atoms were joined into genuine covalent chains."
 status: "Overturned"
 category: "Chemistry"
 acceptedApproximately: "Late 19th century–1920s"
 acceptedYear: 1885
 changedApproximately: "1920s–1930s"
 timelineYear: 1930
-summary: "Staudinger established polymers as giant covalently bonded molecules rather than molecular aggregates."
+summary: "Polymers turned out to be genuine giant molecules rather than loose aggregates of small molecules."
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
@@ -30,16 +30,18 @@ sources:
     note: "Recognizes Staudinger's discoveries in macromolecular chemistry."
 ---
 
-Rubber, cellulose, proteins, and other polymeric materials behaved strangely compared with familiar small molecules. Their solutions were unusually viscous, and apparent molecular masses seemed implausibly large.
+Early chemists had a size problem.
 
-A common explanation was that the material consisted of ordinary small molecules held together in loose colloidal aggregates rather than one enormous covalently bonded structure.
+Rubber, cellulose, and similar materials behaved as if their molecules were enormously larger than familiar chemicals. Their solutions could be extremely viscous, and measurements suggested molecular masses that seemed almost unreasonable.
 
-Hermann Staudinger argued the opposite in the 1920s. Polymers, he proposed, were genuine macromolecules: long chains whose atoms were connected by ordinary covalent bonds.
+One way to explain that behavior was to assume there were no giant molecules at all. Perhaps many ordinary small molecules were simply clustering together into loose aggregates.
 
-The claim met substantial resistance because molecules of such size seemed chemically unreasonable. Staudinger and others built the case through chemical transformations, viscosity studies, and increasingly persuasive molecular-weight measurements.
+Hermann Staudinger argued for the more radical alternative in the 1920s: the large molecules were real.
 
-Macromolecular chemistry eventually became the foundation for understanding synthetic plastics, rubber, cellulose, proteins, and many other materials.
+He called them macromolecules. In a polymer, many smaller building blocks are joined together by ordinary covalent chemical bonds, producing long chains or networks containing enormous numbers of atoms.
 
-Bulk polymer properties can still depend on intermolecular forces, entanglements, crystallites, fillers, and cross-links. Those features do not replace the underlying covalently bonded chains.
+The proposal met strong resistance because molecules of that size did not fit comfortably with prevailing chemical intuition. Evidence from chemical reactions, viscosity measurements, and increasingly reliable molecular-weight measurements eventually supported Staudinger's model.
 
-Not every large molecule is a polymer, and not every polymer is a simple straight chain. The overturned idea was that polymer size itself had to be an illusion created by aggregation.
+Modern polymer chemistry rests on that idea. Rubber, cellulose, many plastics, and numerous biological molecules owe their properties in part to genuinely large covalently bonded structures.
+
+Polymers can still interact with one another through weaker forces, become tangled, crystallize, or form cross-links. Those larger-scale interactions affect material properties, but they do not replace the covalently bonded macromolecules underneath.

@@ -1,7 +1,7 @@
 ---
 claim: Volcanic eruptions are driven by underground combustion or chemical fires involving substances such as sulfur, coal, or other combustible materials.
-currentUnderstanding: Volcanism is driven by magma generated within Earth, its buoyant ascent, pressure changes, and the exsolution and expansion of dissolved gases. Volcanoes are not giant subterranean coal or sulfur fires.
-whyItChanged: Field geology, experiments on lava and rock melting, and growing knowledge of Earth's internal heat made combustion models increasingly inadequate during the late 18th and 19th centuries.
+currentUnderstanding: "Volcanoes are driven by molten rock and expanding gases, not by underground fires. Magma forms within Earth and can rise because it is buoyant. As pressure falls during ascent, dissolved gases come out of the magma and expand, sometimes powering explosive eruptions."
+whyItChanged: "Volcanoes looked and smelled like giant fires: sulfur was common near vents, gases resembled smoke, and real coal seams could burn underground. Field geology and experiments later showed that lava was molten rock and that large volcanic bodies had formed from melts, making combustion an inadequate source for volcanism."
 status: Superseded
 category: Earth Science
 acceptedApproximately: Influential 17th–18th-century theories, with older roots
@@ -9,7 +9,7 @@ acceptedYear: 1650
 changedApproximately: Late 18th–19th centuries
 timelineYear: 1820
 lifespanComparable: false
-summary: Sulfur burns with choking fumes that resemble volcanic emissions, and underground coal really can burn. These observations made subterranean combustion a plausible early-modern volcano theory.
+summary: "Volcanoes changed from imagined subterranean fires to eruptions driven by rising magma and expanding dissolved gases."
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
@@ -31,14 +31,20 @@ sources:
   note: Explains magma ascent and gas-driven volcanic eruption in modern volcanology.
 ---
 
-Volcanoes looked remarkably like enormous fires.
+To an early observer, a volcano could look like an enormous underground fire.
 
-Sulfur was abundant around volcanic vents, burned with a strange blue flame, and released choking fumes. Coal and other combustible materials were known to burn underground. In an age before magma chambers and mantle melting, it was reasonable to ask whether volcanic “fire” came from combustion inside the Earth.
+There was heat, glowing material, choking gas, explosions, and sulfur around volcanic vents. Sulfur itself burns, and real coal seams can catch fire underground. Without a modern picture of magma and Earth's interior, subterranean combustion was a plausible explanation.
 
-By the seventeenth and eighteenth centuries, chemical-reaction theories had substantial support. Different authors proposed burning sulfur, coal, pyrites, or oxidation reactions involving metals and other underground materials.
+Different versions proposed burning sulfur, coal, pyrite, metals, or other reactive material beneath the surface.
 
-The model had a powerful sensory appeal: smoke-like gas, heat, flames, explosions, sulfurous odors. But it struggled with the scale and composition of lava and with geological evidence that enormous masses of rock had actually been molten.
+The geology did not fit well enough.
 
-Lazzaro Spallanzani experimented with remelting lava around the 1780s, while field geology increasingly connected volcanic rocks with molten origins. During the nineteenth century the problem shifted from underground fuel to the source of Earth's internal heat.
+Lava behaves as molten rock, and large volcanic formations contain enormous amounts of material that had clearly melted and then solidified. Field relationships also linked volcanic rocks to deeper bodies of once-molten rock rather than to local deposits of fuel.
 
-Modern volcanology explains eruptions through magma and gas. As magma rises and pressure falls, dissolved water, carbon dioxide, sulfur compounds, and other gases come out of solution. Expanding gas can then drive explosive eruption. Sulfur is genuinely involved, but as a dissolved volcanic gas component rather than underground fuel.
+Experiments in the eighteenth and nineteenth centuries showed that lava could be remelted and would solidify again into volcanic rock. As understanding of Earth's internal heat improved, volcanism came to be explained through melting inside the planet rather than combustion.
+
+Modern eruptions are driven by magma and gas. Magma can rise through the crust because it is less dense than surrounding rock. It also contains dissolved water, carbon dioxide, sulfur compounds, and other gases.
+
+As magma rises, pressure falls. Just as opening a carbonated drink lets dissolved gas form bubbles, falling pressure allows gases to come out of the magma and expand. That expansion can help drive an explosive eruption.
+
+Sulfur is genuinely part of volcanic chemistry. It is not the underground fuel powering a giant fire.

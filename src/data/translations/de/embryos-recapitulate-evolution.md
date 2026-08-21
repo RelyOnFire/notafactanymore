@@ -3,23 +3,25 @@ locale: de
 entryId: embryos-recapitulate-evolution
 sourceReviewedAt: "2026-08-20"
 claim: "Ein Embryo durchläuft während seiner Entwicklung vollständige erwachsene Stadien seiner evolutionären Vorfahren."
-currentUnderstanding: "Embryonalentwicklung spiegelt gemeinsame Abstammung und veränderte Entwicklungsprogramme wider, doch Embryonen spielen keine wörtliche Abfolge erwachsener Ahnenformen nach."
-whyItChanged: "Die vergleichende Embryologie zeigte, dass Entwicklungswege sich verzweigen und spezialisieren, statt eine einzige Leiter von Ahnenstadien hinaufzusteigen. Genetik und evolutionäre Entwicklungsbiologie erklärten konservierte Strukturen später durch gemeinsame Entwicklungsmechanismen."
+currentUnderstanding: "Embryonen spiegeln gemeinsame Abstammung wider, durchlaufen aber keine Abfolge vollständiger erwachsener Formen ihrer evolutionären Vorfahren. Verwandte Arten verwenden oft ähnliche Entwicklungsstrukturen und genetische Programme, verändern sie im weiteren Verlauf jedoch auf unterschiedliche Weise."
+whyItChanged: "Vergleiche im 19. Jahrhundert zeigten echte Ähnlichkeiten zwischen Wirbeltierembryonen. Weitere Embryologie machte jedoch deutlich, dass Entwicklungswege sich verzweigen und spezialisieren, statt eine Ahnenleiter nachzuspielen. Die Genetik zeigte später, dass viele Gemeinsamkeiten aus gemeinsam geerbten Entwicklungsprogrammen stammen."
 acceptedApproximately: "Spätes 19. bis frühes 20. Jahrhundert"
 changedApproximately: "Spätes 19. bis 20. Jahrhundert"
-summary: "Haeckels wörtliches biogenetisches Grundgesetz wurde durch ein verzweigtes evolutions- und entwicklungsbiologisches Modell ersetzt."
+summary: "Embryonen bewahren Spuren gemeinsamer Abstammung, spielen aber keine wörtliche Folge erwachsener Ahnenformen nach."
 sourceNotes:
 - "Gibt einen Überblick über Haeckels biogenetisches Grundgesetz und die wissenschaftliche Ablehnung einer wörtlichen Rekapitulation."
 - "Behandelt die Geschichte der Rekapitulationstheorie und den Wandel entwicklungsbiologischer Vorstellungen."
 - "Erklärt, dass Haeckels strenges biogenetisches Grundgesetz keine experimentelle Unterstützung fand."
 ---
 
-Die Embryologie des 19. Jahrhunderts zeigte auffällige Ähnlichkeiten zwischen sich entwickelnden Wirbeltieren. Ernst Haeckel machte daraus eine weitreichende Regel: Ontogenese rekapituliert Phylogenese. In der stärksten Form sollte ein Embryo Entwicklungsstadien durchlaufen, die den erwachsenen Formen seiner evolutionären Vorfahren entsprechen.
+Embryologen des 19. Jahrhunderts bemerkten auffällige Ähnlichkeiten zwischen sich entwickelnden Wirbeltieren. Ernst Haeckel fasste diese Beobachtungen in den berühmten Satz „Ontogenese rekapituliert Phylogenese“: Die Entwicklung eines Individuums sollte die Evolutionsgeschichte seiner Art nachspielen.
 
-Die Idee war attraktiv, weil sie Evolutionsgeschichte scheinbar direkt in der Entwicklung sichtbar machte. Schlundbögen eines menschlichen Embryos konnten dann nicht nur als homologe Strukturen verstanden werden, sondern als vorübergehende Wiederholung eines fischartigen Ahnenstadiums.
+In der stärksten Form dieser Idee durchlief ein Embryo Stadien, die den erwachsenen Formen seiner Vorfahren entsprachen. Ein menschlicher Embryo konnte dann etwa als vorübergehend „fischartig“ beschrieben werden.
 
-Die vergleichende Embryologie machte diese wörtliche Abfolge zunehmend unhaltbar. Embryonen entwickeln sich auseinander, spezialisieren unterschiedliche Strukturen zu verschiedenen Zeitpunkten und durchlaufen keine vollständigen Erwachsenenformen früherer Arten. Evolution verändert Entwicklungsprogramme, statt einfach immer neue Stufen an das Ende einer Ahnenleiter anzuhängen.
+Die wirklichen Gemeinsamkeiten sind subtiler.
 
-Die moderne evolutionäre Entwicklungsbiologie erklärt die echten Gemeinsamkeiten durch gemeinsame Abstammung, konservierte Gene und homologe Entwicklungswege. Schlundbögen bei Wirbeltieren sind beispielsweise ein Hinweis auf gemeinsames entwicklungsbiologisches Erbe – aber ein menschlicher Embryo wird nicht vorübergehend zu einem erwachsenen Fisch.
+Verwandte Tiere erben viele derselben Entwicklungsgene und beginnen mit einigen ähnlichen Grundstrukturen. Wirbeltierembryonen bilden zum Beispiel Schlundbögen im Kopf- und Halsbereich. Bei Fischen tragen einige dieser Strukturen zu den Kiemen bei; bei Säugetieren entwickeln sich verwandte embryonale Strukturen zu Teilen von Kiefer, Ohr, Rachen und Hals.
 
-Schwächere Verwendungen des Begriffs „Rekapitulation“ existieren für einzelne Entwicklungsphänomene weiterhin. Überholt ist Haeckels universelles, wörtliches biogenetisches Grundgesetz.
+Dieser gemeinsame Ausgangspunkt spiegelt gemeinsame Abstammung wider. Ein menschlicher Embryo ist jedoch zu keinem Zeitpunkt ein kleiner erwachsener Fisch. Die Entwicklung verzweigt sich in artspezifische Wege, und Evolution kann Zeitpunkt, Form und spätere Funktion geerbter Entwicklungsstrukturen verändern.
+
+Die moderne evolutionäre Entwicklungsbiologie bewahrt damit die Verbindung zwischen Entwicklung und Abstammung, verwirft aber Haeckels wörtliche Wiederholung erwachsener Ahnenstadien.

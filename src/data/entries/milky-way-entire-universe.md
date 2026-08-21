@@ -1,7 +1,7 @@
 ---
 claim: "The Milky Way contains essentially the entire universe."
 currentUnderstanding: "The Milky Way is one galaxy among an enormous population of other galaxies spread throughout the observable universe."
-whyItChanged: "Improved distance measurements resolved individual stars in spiral nebulae such as Andromeda. Edwin Hubble's observations of Cepheid variable stars showed that these objects were far beyond the Milky Way."
+whyItChanged: "Improved distance measurements resolved individual stars in spiral nebulae such as Andromeda. Edwin Hubble's observations of [Cepheid variable stars](glossary:cepheid-variable) showed that these objects were far beyond the Milky Way."
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Late 19th and early 20th centuries"

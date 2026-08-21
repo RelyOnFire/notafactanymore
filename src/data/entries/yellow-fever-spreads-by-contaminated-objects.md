@@ -1,6 +1,6 @@
 ---
 claim: "Yellow fever spreads mainly through direct contact with patients, clothing, bedding, and other contaminated objects."
-currentUnderstanding: "Yellow fever is a viral disease spread mainly by infected mosquitoes. In urban transmission, *Aedes aegypti* is the principal mosquito vector; contaminated clothing, bedding, and ordinary contact with patients are not the main route."
+currentUnderstanding: "Yellow fever is a viral disease spread mainly by infected mosquitoes. In urban transmission, *Aedes aegypti* is the principal mosquito [vector](glossary:vector); contaminated clothing, bedding, and ordinary contact with patients are not the main route."
 whyItChanged: "Yellow-fever epidemics made patients' rooms, clothes, and bedding seem dangerous. Around 1900, controlled experiments found that volunteers exposed to heavily contaminated bedding did not develop yellow fever, while exposure to infected mosquitoes could transmit the disease."
 status: "Overturned"
 category: "Medicine"
@@ -32,7 +32,7 @@ sources:
 
 Yellow fever often spread through crowded cities, so it was natural to suspect the same things feared in many other contagious diseases: sick patients, their rooms, clothing, bedding, and other contaminated objects.
 
-Such objects are called fomites when they are thought to carry infection.
+Such contaminated objects were often treated as [fomites](glossary:fomite).
 
 Cuban physician Carlos Finlay proposed a very different mechanism in the nineteenth century. He argued that mosquitoes transmitted yellow fever from one person to another, but the idea was not widely accepted at first.
 

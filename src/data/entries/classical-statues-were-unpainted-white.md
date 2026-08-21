@@ -1,6 +1,6 @@
 ---
 claim: "Ancient Greek and Roman marble statues were intentionally displayed as pure, unpainted white stone."
-currentUnderstanding: "Many classical sculptures were painted, gilded, inlaid, or otherwise colored. Some received full polychromy, while others used selective color to emphasize skin, hair, clothing, eyes, or attributes."
+currentUnderstanding: "Many classical sculptures were painted, gilded, inlaid, or otherwise colored. Some received full [polychromy](glossary:polychromy), while others used selective color to emphasize skin, hair, clothing, eyes, or attributes."
 whyItChanged: "Pigments weathered, were buried, or were removed by cleaning and restoration, leaving museum collections dominated by pale marble. Microscopy, ultraviolet and infrared imaging, chemical analysis, ancient texts, and surviving traces reconstructed a much more colorful visual culture."
 status: "Overturned"
 category: "Archaeology"

@@ -3,7 +3,7 @@ locale: de
 entryId: genes-are-uninterrupted-coding-sequences
 sourceReviewedAt: "2026-08-20"
 claim: "Ein Gen eines komplexen Organismus ist ein durchgehender DNA-Abschnitt, der direkt seiner Boten-RNA entspricht."
-currentUnderstanding: "Viele Gene von Tieren, Pflanzen, Pilzen und anderen Organismen mit Zellkern bestehen nicht aus einem einzigen ununterbrochenen Abschnitt nutzbarer Information. Die erste RNA-Kopie enthält Bereiche, die erhalten bleiben – Exons – und dazwischenliegende Bereiche, die entfernt werden – Introns."
+currentUnderstanding: "Viele Gene von Tieren, Pflanzen, Pilzen und anderen Organismen mit Zellkern bestehen nicht aus einem einzigen ununterbrochenen Abschnitt nutzbarer Information. Die erste RNA-Kopie enthält Bereiche, die erhalten bleiben – Exons – und dazwischenliegende Bereiche, die entfernt werden – [Introns](glossary:intron)."
 whyItChanged: "1977 fanden Richard Roberts und Phillip Sharp, dass manche Boten-RNA nicht zu einem durchgehenden DNA-Abschnitt passte, sondern zu mehreren voneinander getrennten Stücken. Damit wurde klar, dass Zellen zunächst einen größeren Bereich kopieren und die RNA anschließend bearbeiten können, indem sie Introns entfernen und Exons verbinden."
 acceptedApproximately: "1950er-Jahre bis 1977"
 changedApproximately: "1977 bis 1980er-Jahre"
@@ -18,7 +18,7 @@ Das frühe molekulare Genmodell war sehr direkt. DNA wurde in Boten-RNA abgeschr
 
 1977 fanden Richard Roberts und Phillip Sharp unabhängig voneinander etwas anderes. Beim Vergleich von Boten-RNA mit der DNA, aus der sie entstanden war, passte die RNA zu mehreren getrennten DNA-Abschnitten. Dazwischen lagen Bereiche, die in der fertigen RNA fehlten.
 
-Die erste RNA-Kopie lässt sich deshalb eher als Rohfassung verstehen. Sie kann Abschnitte enthalten, die in der fertigen Boten-RNA erhalten bleiben; diese heißen Exons. Dazwischen können Abschnitte liegen, die entfernt werden; sie heißen Introns. Beim RNA-Spleißen schneidet die Zelle die Introns heraus und verbindet die Exons miteinander.
+Die erste RNA-Kopie lässt sich deshalb eher als Rohfassung verstehen. Sie kann Abschnitte enthalten, die in der fertigen Boten-RNA erhalten bleiben; diese heißen Exons. Dazwischen können Abschnitte liegen, die entfernt werden; sie heißen Introns. Beim [RNA-Spleißen](glossary:rna-splicing) schneidet die Zelle die Introns heraus und verbindet die Exons miteinander.
 
 Damit wurde auch eine weitere Möglichkeit sichtbar: Dasselbe Gen kann manchmal auf unterschiedliche Weise gespleißt werden. Je nachdem, welche Exons verbunden werden, können verschiedene RNA-Produkte entstehen.
 

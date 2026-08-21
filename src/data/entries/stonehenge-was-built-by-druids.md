@@ -1,7 +1,7 @@
 ---
 claim: "Stonehenge was built by Druids."
-currentUnderstanding: "Stonehenge was constructed in stages by Neolithic and Bronze Age communities, with the principal stone settings raised around 2500 BCE. Historically documented Druids lived much later."
-whyItChanged: "Seventeenth- and eighteenth-century antiquaries linked Stonehenge to the only named pre-Roman British priesthood known from classical texts. Excavation, typology, stratigraphy, and radiocarbon dating placed construction thousands of years earlier."
+currentUnderstanding: "Stonehenge was constructed in stages by Neolithic and Bronze Age communities, with the principal stone settings raised around 2500 BCE. Historically documented [Druids](glossary:druids) lived much later."
+whyItChanged: "Seventeenth- and eighteenth-century antiquaries linked Stonehenge to the only named pre-Roman British priesthood known from classical texts. Excavation, typology, stratigraphy, and [radiocarbon dating](glossary:radiocarbon-dating) placed construction thousands of years earlier."
 status: "Overturned"
 category: "Archaeology"
 acceptedApproximately: "Late 17th century–19th century"

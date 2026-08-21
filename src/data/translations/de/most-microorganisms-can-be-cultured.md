@@ -4,7 +4,7 @@ entryId: most-microorganisms-can-be-cultured
 sourceReviewedAt: '2026-08-20'
 claim: Mit üblichen Labormethoden lassen sich die meisten in der Natur vorkommenden Mikroorganismen kultivieren.
 currentUnderstanding: "Traditionelle Laborkulturen – das Wachstum von Mikroorganismen unter kontrollierten Bedingungen – erfassen nur einen Teil der Mikroorganismen aus der Umwelt. Viele benötigen ungewöhnliche Nährstoffe, Partnerorganismen, Wirtszellen, sehr langsames Wachstum, geringe Nährstoffkonzentrationen oder Bedingungen, die sich nur schwer nachbilden lassen."
-whyItChanged: Die Mikrobiologie entwickelte sich anhand von Organismen, die im Labor sichtbare Kolonien bildeten, und erzeugte dadurch ein verzerrtes Bild der mikrobiellen Vielfalt. Direkte Zellzählungen, molekulare Sequenzierung, Metagenomik und neue Kultivierungsmethoden machten die sogenannte „great plate count anomaly“ sichtbar.
+whyItChanged: Die Mikrobiologie entwickelte sich anhand von Organismen, die im Labor sichtbare Kolonien bildeten, und erzeugte dadurch ein verzerrtes Bild der mikrobiellen Vielfalt. Direkte Zellzählungen, molekulare Sequenzierung, [Metagenomik](glossary:metagenomics) und neue Kultivierungsmethoden machten die sogenannte „great plate count anomaly“ sichtbar.
 acceptedApproximately: Spätes 19. bis spätes 20. Jahrhundert
 changedApproximately: 1970er- bis 2000er-Jahre
 summary: Direkte Zählungen und DNA-Untersuchungen zeigten eine riesige mikrobielle Mehrheit, die auf gewöhnlichen Kulturplatten fehlt.
@@ -18,7 +18,7 @@ Die klassische Mikrobiologie wurde durch Kultivierung aufgebaut, also dadurch, M
 
 Direkte Zellzählungen zeigten jedoch eine auffällige Diskrepanz. Umweltproben enthielten oft um Größenordnungen mehr mikrobielle Zellen, als anschließend Kolonien auf gewöhnlichen Kulturplatten erschienen. Dieses Problem wurde als great plate count anomaly bekannt.
 
-Molekulare Sequenzierung machte die Lücke noch deutlicher. Metagenomik – das direkte Lesen von DNA aus einer Umweltprobe, ohne zunächst jeden Organismus im Labor zu züchten – fand riesige Abstammungslinien ohne kultivierte Vertreter, darunter häufige Organismen aus Ozeanen, Böden, Sedimenten und mikrobiellen Gemeinschaften in Wirten.
+Molekulare Sequenzierung machte die Lücke noch deutlicher. Metagenomik fand riesige Abstammungslinien ohne kultivierte Vertreter, darunter häufige Organismen aus Ozeanen, Böden, Sedimenten und mikrobiellen Gemeinschaften in Wirten.
 
 Oft liegt das Problem weniger am Organismus als an den Laborbedingungen. Manche Mikroben brauchen extrem niedrige Nährstoffkonzentrationen, ungewöhnliche Gase, Wirtszellen, Stoffwechselpartner, chemische Signale oder schlicht sehr lange Wachstumszeiten. Neue Medien, Kokulturen, Diffusionskammern und Einzelzellmethoden haben bereits viele früher „unkultivierbare“ Organismen in Kultur gebracht.
 

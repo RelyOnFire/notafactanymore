@@ -1,6 +1,6 @@
 ---
 claim: "A gene in a complex organism is one continuous stretch of DNA that directly matches its messenger RNA."
-currentUnderstanding: "Many genes in animals, plants, fungi, and other organisms with cell nuclei are not one uninterrupted stretch of usable information. The first RNA copy contains sections that will be kept, called exons, and sections that will be removed, called introns."
+currentUnderstanding: "Many genes in animals, plants, fungi, and other organisms with cell nuclei are not one uninterrupted stretch of usable information. The first RNA copy contains sections that will be kept, called exons, and sections that will be removed, called [introns](glossary:intron)."
 whyItChanged: "In 1977, Richard Roberts and Phillip Sharp found that some messenger RNA matched separated pieces of the DNA rather than one continuous stretch. This showed that cells can first copy a larger region and then edit the RNA by removing introns and joining exons."
 status: "Overturned"
 category: "Genetics"
@@ -34,7 +34,7 @@ The early molecular picture of a gene was very direct. DNA was copied into messe
 
 In 1977, Richard Roberts and Phillip Sharp independently found something different. When they compared messenger RNA with the DNA it came from, the RNA matched several separated pieces of DNA. Stretches in between were missing from the finished message.
 
-The first RNA copy is therefore better thought of as a rough draft. It can contain sections that will remain in the finished messenger RNA, called exons, separated by sections that will be removed, called introns. The cell cuts out the introns and joins the exons together in a process called RNA splicing.
+The first RNA copy is therefore better thought of as a rough draft. It can contain sections that will remain in the finished messenger RNA, called exons, separated by sections that will be removed, called introns. The cell cuts out the introns and joins the exons together in a process called [RNA splicing](glossary:rna-splicing).
 
 This also made another possibility clear: the same gene can sometimes be spliced in different ways, keeping different combinations of exons and producing different RNA products.
 

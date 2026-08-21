@@ -1,6 +1,7 @@
 ---
 import { siteConfig } from '../site-config';
 import BackToTop from '../components/BackToTop.astro';
+import GlossaryPopover from '../components/GlossaryPopover.astro';
 import { localeMeta, localizedPath, type SiteLocale } from '../lib/i18n';
 
 interface Props {
@@ -188,6 +189,7 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
       <slot />
     </main>
 
+    <GlossaryPopover locale={locale} />
     <BackToTop locale={locale} />
 
     <footer>

@@ -64,4 +64,37 @@ const entryTranslations = defineCollection({
   }),
 });
 
-export const collections = { entries, entryTranslations };
+
+const glossarySource = z.object({
+  title: z.string(),
+  url: z.string().url(),
+  publisher: z.string(),
+  note: z.string(),
+});
+
+const glossary = defineCollection({
+  loader: glob({ pattern: '**/*.yaml', base: './src/data/glossary' }),
+  schema: z.object({
+    term: z.string(),
+    aliases: z.array(z.string()).optional().default([]),
+    shortDefinition: z.string(),
+    longDefinition: z.string().optional(),
+    reviewedAt: z.coerce.date(),
+    sources: z.array(glossarySource).min(1),
+  }),
+});
+
+const glossaryTranslations = defineCollection({
+  loader: glob({ pattern: '**/*.yaml', base: './src/data/glossary-translations' }),
+  schema: z.object({
+    locale: z.enum(['de', 'fr', 'es']),
+    entryId: z.string(),
+    sourceReviewedAt: z.coerce.date(),
+    term: z.string(),
+    aliases: z.array(z.string()).optional().default([]),
+    shortDefinition: z.string(),
+    longDefinition: z.string().optional(),
+  }),
+});
+
+export const collections = { entries, entryTranslations, glossary, glossaryTranslations };

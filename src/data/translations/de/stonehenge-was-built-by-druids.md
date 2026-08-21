@@ -3,8 +3,8 @@ locale: de
 entryId: stonehenge-was-built-by-druids
 sourceReviewedAt: '2026-08-20'
 claim: Stonehenge wurde von Druiden erbaut.
-currentUnderstanding: Stonehenge wurde in mehreren Phasen von Gemeinschaften der Jungsteinzeit und Bronzezeit errichtet; die wichtigsten Steinsetzungen entstanden um 2500 v. Chr. Historisch dokumentierte Druiden lebten wesentlich später.
-whyItChanged: Altertumsforscher des 17. und 18. Jahrhunderts verbanden Stonehenge mit der einzigen aus klassischen Texten namentlich bekannten vorrömischen britischen Priesterschaft. Ausgrabungen, Typologie, Stratigrafie und Radiokarbondatierung datierten den Bau Jahrtausende früher.
+currentUnderstanding: Stonehenge wurde in mehreren Phasen von Gemeinschaften der Jungsteinzeit und Bronzezeit errichtet; die wichtigsten Steinsetzungen entstanden um 2500 v. Chr. Historisch dokumentierte [Druiden](glossary:druids) lebten sehr viel später.
+whyItChanged: Altertumsforscher des 17. und 18. Jahrhunderts verbanden Stonehenge mit der einzigen aus klassischen Texten namentlich bekannten vorrömischen britischen Priesterschaft. Ausgrabungen, Typologie, Stratigrafie und spätere [Radiokarbondatierung](glossary:radiocarbon-dating) datierten den Bau Jahrtausende früher.
 acceptedApproximately: Spätes 17. bis 19. Jahrhundert
 changedApproximately: Spätes 19. bis 20. Jahrhundert
 summary: Archäologische Datierung zeigte, dass Stonehenge lange vor den historisch belegten Druiden errichtet wurde.

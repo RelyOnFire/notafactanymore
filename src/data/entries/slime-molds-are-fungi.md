@@ -32,7 +32,7 @@ sources:
 
 Slime molds earned their name and their old classification from what they look like when they reproduce.
 
-Many produce stalks topped with spores. At that stage they can resemble tiny fungi closely enough that mycologists—scientists who study fungi—naturally included them in fungal classifications.
+Many produce stalks topped with spores. At that stage they can resemble tiny fungi closely enough that [mycologists](glossary:mycologist) naturally included them in fungal classifications.
 
 Their feeding stage tells a very different story.
 
@@ -40,7 +40,7 @@ True fungi typically grow as filaments and absorb nutrients from material around
 
 Some species spend much of their life as separate amoeboid cells and then gather together when conditions change. Others form large flowing masses containing many nuclei before building spore-producing structures.
 
-Those life cycles already made slime molds unusual “fungi.” Molecular phylogeny—the reconstruction of evolutionary relationships from DNA and RNA—made the separation clearer. The best-known slime-mold groups fall among amoeba-like eukaryotic lineages rather than within the true fungi.
+Those life cycles already made slime molds unusual “fungi.” [Molecular phylogeny](glossary:molecular-phylogeny) made the separation clearer. The best-known slime-mold groups fall among amoeba-like eukaryotic lineages rather than within the true fungi.
 
 Their fungal appearance is therefore a case of different organisms evolving similar solutions to the same problem: producing and dispersing spores.
 

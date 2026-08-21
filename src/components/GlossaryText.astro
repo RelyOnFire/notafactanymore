@@ -1,0 +1,43 @@
+---
+interface Props {
+  text: string;
+}
+
+type Segment =
+  | { type: 'text'; value: string }
+  | { type: 'glossary'; label: string; id: string };
+
+const { text } = Astro.props;
+const pattern = /\[([^\]\n]+)\]\(glossary:([a-z0-9][a-z0-9-]*)\)/g;
+const segments: Segment[] = [];
+let cursor = 0;
+let match: RegExpExecArray | null;
+
+while ((match = pattern.exec(text)) !== null) {
+  if (match.index > cursor) {
+    segments.push({ type: 'text', value: text.slice(cursor, match.index) });
+  }
+
+  segments.push({ type: 'glossary', label: match[1], id: match[2] });
+  cursor = pattern.lastIndex;
+}
+
+if (cursor < text.length) {
+  segments.push({ type: 'text', value: text.slice(cursor) });
+}
+---
+{segments.map((segment) =>
+  segment.type === 'text'
+    ? segment.value
+    : (
+      <button
+        type="button"
+        class="glossary-term"
+        data-glossary-id={segment.id}
+        aria-controls="glossary-popover"
+        aria-expanded="false"
+      >
+        {segment.label}
+      </button>
+    )
+)}

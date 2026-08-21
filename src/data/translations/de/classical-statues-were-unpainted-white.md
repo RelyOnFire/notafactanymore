@@ -3,7 +3,7 @@ locale: de
 entryId: classical-statues-were-unpainted-white
 sourceReviewedAt: "2026-08-20"
 claim: Antike griechische und römische Marmorstatuen wurden bewusst als reiner, unbemalter weißer Stein gezeigt.
-currentUnderstanding: Viele klassische Skulpturen waren bemalt, vergoldet, eingelegt oder anderweitig farbig gestaltet. Manche erhielten eine vollständige Polychromie, andere nutzten Farbe gezielt für Haut, Haare, Kleidung, Augen oder Attribute.
+currentUnderstanding: Viele klassische Skulpturen waren bemalt, vergoldet, eingelegt oder anderweitig farbig gestaltet. Manche erhielten eine vollständige [Polychromie](glossary:polychromy), andere nutzten Farbe gezielt für Haut, Haare, Kleidung, Augen oder Attribute.
 whyItChanged: Pigmente verwitterten, wurden verschüttet oder bei Reinigung und Restaurierung entfernt, sodass Museumssammlungen von hellem Marmor geprägt wurden. Mikroskopie, UV- und Infrarotbildgebung, chemische Analysen, antike Texte und erhaltene Farbreste rekonstruierten eine deutlich farbigere Bildwelt.
 acceptedApproximately: Renaissance bis 20. Jahrhundert
 changedApproximately: 19. Jahrhundert bis heute

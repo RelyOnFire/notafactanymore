@@ -31,7 +31,7 @@ sources:
     note: "Explains the long theoretical uncertainty and later proof that black-hole formation is a robust prediction of general relativity."
 ---
 
-General relativity produced black-hole-like solutions early, but a solution to an equation is not automatically an object nature actually makes. The Schwarzschild radius—the radius that, for an idealized non-rotating and uncharged black hole, marks the event horizon beyond which even light cannot escape—was difficult to interpret, and many physicists suspected that realistic stars would avoid such a fate. Even the 1939 calculation by Oppenheimer and Snyder of continued gravitational collapse did not immediately make black holes mainstream astrophysics.
+General relativity produced black-hole-like solutions early, but a solution to an equation is not automatically an object nature actually makes. The [Schwarzschild radius](glossary:schwarzschild-radius), which marks the [event horizon](glossary:event-horizon) for an idealized non-rotating, uncharged black hole, was difficult to interpret, and many physicists suspected that realistic stars would avoid such a fate. Even the 1939 calculation by Oppenheimer and Snyder of continued gravitational collapse did not immediately make black holes mainstream astrophysics.
 
 That changed in the 1960s. Better coordinates clarified that the event horizon was not itself a physical singularity, and work on gravitational collapse—most famously Roger Penrose's 1965 singularity theorem—showed that black-hole formation was not merely an artifact of perfect spherical symmetry. Astronomy then supplied candidates such as Cygnus X-1, followed by evidence for stellar and supermassive black-hole populations.
 

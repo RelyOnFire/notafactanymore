@@ -3,7 +3,7 @@ locale: de
 entryId: yellow-fever-spreads-by-contaminated-objects
 sourceReviewedAt: '2026-08-20'
 claim: Gelbfieber verbreitet sich hauptsächlich durch direkten Kontakt mit Erkrankten, Kleidung, Bettwäsche und anderen kontaminierten Gegenständen.
-currentUnderstanding: "Gelbfieber ist eine Viruserkrankung, die hauptsächlich durch infizierte Stechmücken übertragen wird. Bei urbaner Übertragung ist *Aedes aegypti* der wichtigste Vektor; kontaminierte Kleidung, Bettwäsche und gewöhnlicher Kontakt mit Erkrankten sind nicht der Hauptübertragungsweg."
+currentUnderstanding: "Gelbfieber ist eine Viruserkrankung, die hauptsächlich durch infizierte Stechmücken übertragen wird. Bei urbaner Übertragung ist *Aedes aegypti* der wichtigste [Vektor](glossary:vector); kontaminierte Kleidung, Bettwäsche und gewöhnlicher Kontakt mit Erkrankten sind nicht der Hauptübertragungsweg."
 whyItChanged: "Gelbfieberepidemien ließen Zimmer, Kleidung und Bettzeug Erkrankter gefährlich erscheinen. Um 1900 zeigten kontrollierte Experimente, dass Freiwillige trotz Kontakt mit stark kontaminierter Bettwäsche kein Gelbfieber entwickelten, während infizierte Stechmücken die Krankheit übertragen konnten."
 acceptedApproximately: 18. bis spätes 19. Jahrhundert
 changedApproximately: 1900–1901
@@ -16,7 +16,7 @@ sourceNotes:
 
 Gelbfieber breitete sich häufig in dicht besiedelten Städten aus. Deshalb lag der Verdacht nahe, dieselben Dinge könnten gefährlich sein wie bei vielen anderen ansteckenden Krankheiten: Erkrankte selbst, ihre Zimmer, Kleidung, Bettzeug und andere verunreinigte Gegenstände.
 
-Solche Gegenstände nennt man Fomites, wenn man ihnen eine Rolle bei der Übertragung von Infektionen zuschreibt.
+Solche verunreinigten Gegenstände wurden häufig als [Fomites](glossary:fomite) behandelt.
 
 Der kubanische Arzt Carlos Finlay schlug im 19. Jahrhundert einen völlig anderen Mechanismus vor. Er vermutete, Stechmücken würden Gelbfieber von Mensch zu Mensch übertragen, doch die Idee fand zunächst wenig Zustimmung.
 

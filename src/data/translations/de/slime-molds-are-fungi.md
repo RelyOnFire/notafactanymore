@@ -16,7 +16,7 @@ sourceNotes:
 
 Schleimpilze verdanken ihren Namen und ihre frühere Einordnung vor allem ihrem Aussehen während der Fortpflanzung.
 
-Viele bilden kleine Stiele mit Sporen an der Spitze. In diesem Stadium können sie winzigen Pilzen so stark ähneln, dass Mykologen – Forschende, die Pilze untersuchen – sie ganz selbstverständlich in pilzliche Klassifikationen einordneten.
+Viele bilden kleine Stiele mit Sporen an der Spitze. In diesem Stadium können sie winzigen Pilzen so stark ähneln, dass [Mykologen](glossary:mycologist) sie ganz selbstverständlich in pilzliche Klassifikationen einordneten.
 
 Die Ernährungsphase erzählt jedoch eine andere Geschichte.
 
@@ -24,7 +24,7 @@ Echte Pilze wachsen typischerweise in fadenförmigen Strukturen und nehmen Nähr
 
 Manche Arten verbringen einen großen Teil ihres Lebens als einzelne amöboide Zellen und sammeln sich erst bei veränderten Bedingungen zu größeren Verbänden. Andere bilden große fließende Massen mit vielen Zellkernen, bevor sie sporenbildende Strukturen aufbauen.
 
-Schon diese Lebenszyklen machten Schleimpilze zu ungewöhnlichen „Pilzen“. Die molekulare Phylogenie – die Rekonstruktion evolutionärer Verwandtschaft anhand von DNA und RNA – machte die Trennung noch klarer. Die bekanntesten Schleimpilzgruppen gehören zu amöbenartigen eukaryotischen Linien und nicht zu den echten Pilzen.
+Schon diese Lebenszyklen machten Schleimpilze zu ungewöhnlichen „Pilzen“. Die [molekulare Phylogenie](glossary:molecular-phylogeny) machte die Trennung noch klarer. Die bekanntesten Schleimpilzgruppen gehören zu amöbenartigen eukaryotischen Linien und nicht zu den echten Pilzen.
 
 Die pilzähnliche Gestalt ist daher ein Fall, in dem nicht verwandte Organismen ähnliche Lösungen für dasselbe Problem entwickelt haben: Sporen zu bilden und zu verbreiten.
 

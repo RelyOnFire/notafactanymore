@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { lifespanYears } from '../lib/lifespans';
+import GlossaryText from './GlossaryText.astro';
 import {
   categoryLabel,
   formatApproxYearsLocalized,
@@ -62,13 +63,13 @@ const labels = locale === 'de'
   <div class="explanation-grid">
     <section>
       <Subheading class="fact-subheading">{labels.now}</Subheading>
-      <p>{translated?.currentUnderstanding ?? data.currentUnderstanding}</p>
+      <p><GlossaryText text={translated?.currentUnderstanding ?? data.currentUnderstanding} /></p>
     </section>
 
     {expanded && (
       <section>
         <Subheading class="fact-subheading">{labels.why}</Subheading>
-        <p>{translated?.whyItChanged ?? data.whyItChanged}</p>
+        <p><GlossaryText text={translated?.whyItChanged ?? data.whyItChanged} /></p>
       </section>
     )}
   </div>

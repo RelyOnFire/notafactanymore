@@ -4,7 +4,7 @@ entryId: milky-way-entire-universe
 sourceReviewedAt: '2026-08-20'
 claim: Die Milchstraße umfasst im Wesentlichen das gesamte Universum.
 currentUnderstanding: Die Milchstraße ist eine Galaxie unter einer enormen Zahl weiterer Galaxien, die über das beobachtbare Universum verteilt sind.
-whyItChanged: Verbesserte Entfernungsmessungen lösten einzelne Sterne in Spiralnebeln wie Andromeda auf. Edwin Hubbles Beobachtungen von Cepheiden zeigten, dass diese Objekte weit außerhalb der Milchstraße liegen.
+whyItChanged: Verbesserte Entfernungsmessungen lösten einzelne Sterne in Spiralnebeln wie Andromeda auf. Edwin Hubbles Beobachtungen von [Cepheiden](glossary:cepheid-variable) zeigten, dass diese Objekte weit außerhalb der Milchstraße liegen.
 acceptedApproximately: Spätes 19. und frühes 20. Jahrhundert
 changedApproximately: 1920er-Jahre
 summary: Entfernungsmessungen zeigten, dass Spiralnebel eigenständige Galaxien weit außerhalb der Milchstraße sind.

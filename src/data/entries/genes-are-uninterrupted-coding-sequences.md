@@ -1,6 +1,6 @@
 ---
 claim: "A gene in a complex organism is one continuous stretch of DNA that directly matches its messenger RNA."
-currentUnderstanding: "Many genes in animals, plants, fungi, and other organisms with cell nuclei are not one uninterrupted stretch of usable information. The first RNA copy contains sections that will be kept, called exons, and sections that will be removed, called [introns](glossary:intron)."
+currentUnderstanding: "Many genes in animals, plants, fungi, and other organisms with cell nuclei are not one uninterrupted stretch of usable information. The first RNA copy contains sections that will be kept, called [exons](glossary:exon), and sections that will be removed, called [introns](glossary:intron)."
 whyItChanged: "In 1977, Richard Roberts and Phillip Sharp found that some messenger RNA matched separated pieces of the DNA rather than one continuous stretch. This showed that cells can first copy a larger region and then edit the RNA by removing introns and joining exons."
 status: "Overturned"
 category: "Genetics"

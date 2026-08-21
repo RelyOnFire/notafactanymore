@@ -44,6 +44,6 @@ Mosquito experiments produced the opposite result. When mosquitoes had first fed
 
 The results redirected prevention toward mosquito control.
 
-Yellow fever is now known to be caused by a virus. In urban outbreaks, *Aedes aegypti* is the main vector—the organism that carries the virus between people.
+Yellow fever is now known to be caused by a virus. In urban outbreaks, *Aedes aegypti* is the main vector for transmission between people.
 
 The ecology is broader outside cities, where other mosquito species and animal hosts take part in forest transmission cycles. The historical correction is that contaminated clothing and bedding were not the principal explanation for urban yellow-fever spread.

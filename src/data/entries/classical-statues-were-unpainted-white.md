@@ -34,4 +34,4 @@ The classical statues that reached modern museums had already been filtered by t
 
 Evidence for color never disappeared completely. Ancient texts mentioned painted sculpture, and archaeologists sometimes saw pigment with the naked eye. Modern microscopy, ultraviolet and infrared imaging, and chemical analysis made much subtler traces recoverable. They reveal reds, blues, yellows, patterned clothing, painted hair and eyes, gilding, and other decoration on many Greek and Roman works.
 
-Polychromy was not uniform. Some surfaces may have remained exposed, white marble itself could be valued, and reconstructions necessarily contain uncertainty where pigments survive poorly. The corrected picture is a much more colorful classical world—not a rule that every statue was completely coated in bright paint.
+Polychromy was not uniform. Some surfaces may have remained exposed, white marble itself could be valued, and reconstructions necessarily contain uncertainty where pigments survive poorly. The evidence points to a classical world in which color was common, with considerable variation in how extensively individual sculptures were painted or decorated.

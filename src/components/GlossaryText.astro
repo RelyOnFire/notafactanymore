@@ -1,43 +1,40 @@
 ---
-interface Props {
-  text: string;
-}
+import type { SiteLocale } from '../lib/i18n';
+
+interface Props { text: string; locale?: SiteLocale; }
 
 type Segment =
   | { type: 'text'; value: string }
+  | { type: 'em'; value: string }
   | { type: 'glossary'; label: string; id: string };
 
-const { text } = Astro.props;
-const pattern = /\[([^\]\n]+)\]\(glossary:([a-z0-9][a-z0-9-]*)\)/g;
+const { text, locale = 'en' } = Astro.props;
+const pattern = /\[([^\]\n]+)\]\(glossary:([a-z0-9][a-z0-9-]*)\)|\*([^*\n]+)\*/g;
 const segments: Segment[] = [];
 let cursor = 0;
 let match: RegExpExecArray | null;
 
 while ((match = pattern.exec(text)) !== null) {
-  if (match.index > cursor) {
-    segments.push({ type: 'text', value: text.slice(cursor, match.index) });
-  }
-
-  segments.push({ type: 'glossary', label: match[1], id: match[2] });
+  if (match.index > cursor) segments.push({ type: 'text', value: text.slice(cursor, match.index) });
+  if (match[1] && match[2]) segments.push({ type: 'glossary', label: match[1], id: match[2] });
+  else if (match[3]) segments.push({ type: 'em', value: match[3] });
   cursor = pattern.lastIndex;
 }
+if (cursor < text.length) segments.push({ type: 'text', value: text.slice(cursor) });
 
-if (cursor < text.length) {
-  segments.push({ type: 'text', value: text.slice(cursor) });
-}
+const hrefFor = (id: string) => locale === 'de' ? `/de/glossary/#${id}` : `/glossary/#${id}`;
 ---
-{segments.map((segment) =>
-  segment.type === 'text'
-    ? segment.value
-    : (
-      <button
-        type="button"
-        class="glossary-term"
-        data-glossary-id={segment.id}
-        aria-controls="glossary-popover"
-        aria-expanded="false"
-      >
-        {segment.label}
-      </button>
-    )
-)}
+{segments.map((segment) => {
+  if (segment.type === 'text') return segment.value;
+  if (segment.type === 'em') return <em>{segment.value}</em>;
+  return (
+    <a
+      class="glossary-term"
+      href={hrefFor(segment.id)}
+      data-glossary-id={segment.id}
+      aria-describedby="glossary-popover-definition"
+    >
+      {segment.label}
+    </a>
+  );
+})}

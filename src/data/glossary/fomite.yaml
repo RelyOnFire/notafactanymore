@@ -1,10 +1,14 @@
 term: Fomite
 aliases: []
-shortDefinition: An inanimate object that can carry infectious material and contribute to transmission.
-longDefinition: A fomite is a contaminated object or surface involved in indirect transmission. Whether fomites matter depends strongly on the particular pathogen; the yellow-fever experiments showed they were not the main route in urban yellow-fever spread.
+shortDefinition: An inanimate object or surface that can carry infectious material and contribute to transmission.
+longDefinition: A fomite is an inanimate object or surface that can become contaminated and help transmit an infectious agent.
+  How important fomite transmission is depends strongly on the pathogen; for yellow fever, contaminated objects were historically
+  suspected but mosquitoes proved to be the important route.
 reviewedAt: '2026-08-21'
 sources:
 - title: The U.S. Army Yellow Fever Commission
   url: https://history.amedd.army.mil/booksdocs/Misc/evprev/ch4.htm
   publisher: U.S. Army Medical Department
   note: Describes experiments testing contaminated objects as a proposed route of yellow-fever transmission.
+relatedTerms:
+- vector

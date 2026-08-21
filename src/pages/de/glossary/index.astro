@@ -1,0 +1,139 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const glossaryEntries = await getCollection('glossary');
+const glossaryTranslations = await getCollection(
+  'glossaryTranslations',
+  (entry) => entry.data.locale === 'de',
+);
+const cardTranslations = await getCollection(
+  'entryTranslations',
+  (entry) => entry.data.locale === 'de',
+);
+
+const glossaryTranslationsById = new Map(
+  glossaryTranslations.map((entry) => [entry.data.entryId, entry.data]),
+);
+
+const localized = glossaryEntries
+  .map((entry) => ({ entry, translated: glossaryTranslationsById.get(entry.id) }))
+  .sort((a, b) =>
+    (a.translated?.term ?? a.entry.data.term).localeCompare(
+      b.translated?.term ?? b.entry.data.term,
+      'de',
+    ),
+  );
+
+const nameById = new Map(
+  localized.map(({ entry, translated }) => [
+    entry.id,
+    translated?.term ?? entry.data.term,
+  ]),
+);
+
+const usesGlossaryId = (
+  entry: { data: unknown; body?: string },
+  id: string,
+) => {
+  const marker = `glossary:${id}`;
+  return JSON.stringify(entry.data).includes(marker) || (entry.body?.includes(marker) ?? false);
+};
+
+const cardsByGlossaryId = new Map(
+  glossaryEntries.map((glossaryEntry) => [
+    glossaryEntry.id,
+    cardTranslations
+      .filter((entry) => usesGlossaryId(entry, glossaryEntry.id))
+      .map((entry) => ({
+        id: entry.data.entryId,
+        claim: entry.data.claim,
+      }))
+      .sort((a, b) => a.claim.localeCompare(b.claim, 'de')),
+  ]),
+);
+---
+<BaseLayout title="Glossar" locale="de" alternatePath="/glossary/">
+  <section class="narrow glossary-page">
+    <p class="eyebrow">Nachschlagewerk</p>
+    <h1>Glossar</h1>
+    <p class="intro">
+      Kurze Definitionen erscheinen direkt im Katalog. Diese erweiterten Einträge bieten
+      zusätzlichen Kontext, verwandte Begriffe, die Karten mit dem jeweiligen Begriff und
+      die Quellen hinter den Definitionen.
+    </p>
+
+    <div class="glossary-list">
+      {localized.map(({ entry, translated }) => {
+        const usedIn = cardsByGlossaryId.get(entry.id) ?? [];
+        return (
+          <article id={entry.id} class="glossary-entry">
+            <h2>{translated?.term ?? entry.data.term}</h2>
+            <p class="glossary-short">
+              {translated?.shortDefinition ?? entry.data.shortDefinition}
+            </p>
+            {(translated?.longDefinition ?? entry.data.longDefinition) && (
+              <p>{translated?.longDefinition ?? entry.data.longDefinition}</p>
+            )}
+
+            {entry.data.relatedTerms.length > 0 && (
+              <p class="glossary-related">
+                <strong>Verwandt:</strong>{' '}
+                {entry.data.relatedTerms.map((id, index) => (
+                  <>
+                    {index > 0 && ', '}
+                    <a href={`#${id}`}>{nameById.get(id) ?? id}</a>
+                  </>
+                ))}
+              </p>
+            )}
+
+            {usedIn.length > 0 && (
+              <div class="glossary-used-in">
+                <h3>Verwendet in diesen Karten</h3>
+                <ul>
+                  {usedIn.map((card) => (
+                    <li><a href={`/de/entries/${card.id}/`}>{card.claim}</a></li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            <details class="glossary-sources">
+              <summary>Quellen</summary>
+              <ul>
+                {entry.data.sources.map((source) => (
+                  <li>
+                    <a href={source.url}>{source.title}</a>
+                    <span> — {source.publisher}</span>
+                    <p>{source.note}</p>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          </article>
+        );
+      })}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .glossary-page { padding: clamp(2rem, 6vw, 5rem) 0; }
+  .glossary-page h1 { margin-bottom: .75rem; }
+  .intro { color: var(--muted); font-size: 1.08rem; }
+  .glossary-list { margin-top: 3rem; }
+  .glossary-entry { scroll-margin-top: 1.5rem; padding: 2rem 0; border-top: 1px solid var(--line); }
+  .glossary-entry:target { border-top-color: var(--accent); }
+  .glossary-entry h2 { margin: 0 0 .65rem; font-size: clamp(1.45rem, 3vw, 2rem); }
+  .glossary-short { font-weight: 700; }
+  .glossary-related a, .glossary-used-in a, .glossary-sources a { color: var(--accent-dark); }
+  .glossary-used-in { margin-top: 1rem; }
+  .glossary-used-in h3 { margin: 0 0 .35rem; font-size: .82rem; letter-spacing: .06em; text-transform: uppercase; }
+  .glossary-used-in ul { margin: 0; padding-left: 1.2rem; }
+  .glossary-used-in li + li { margin-top: .25rem; }
+  .glossary-sources { margin-top: 1rem; }
+  .glossary-sources summary { cursor: pointer; font-weight: 750; }
+  .glossary-sources li { margin: .8rem 0; }
+  .glossary-sources li p { margin: .15rem 0 0; color: var(--muted); }
+</style>

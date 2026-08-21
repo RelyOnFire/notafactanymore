@@ -1,6 +1,6 @@
 ---
 claim: "Slime molds are fungi."
-currentUnderstanding: "Slime molds are not true fungi. The name covers several groups of amoeba-like eukaryotes that crawl and feed as individual cells or moving masses before producing spore-bearing structures that happen to resemble fungal fruiting bodies."
+currentUnderstanding: "Slime molds are not true fungi. The name covers several groups of amoeba-like [eukaryotes](glossary:eukaryote) that crawl and feed as individual cells or moving masses before producing spore-bearing structures that happen to resemble fungal fruiting bodies."
 whyItChanged: "Their spores and stalked fruiting structures made slime molds look fungal, so they were traditionally studied with fungi. Observations of their moving, engulfing feeding stages and later DNA-based family trees showed that the best-known groups belong with amoeba-like lineages rather than true fungi."
 status: "Reclassified"
 category: "Microbiology"

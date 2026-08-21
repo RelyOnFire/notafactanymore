@@ -1,10 +1,14 @@
 term: Cepheid variable
 aliases: []
-shortDefinition: A pulsating star whose brightness changes in a regular cycle related to its intrinsic luminosity, making it useful for measuring astronomical distances.
-longDefinition: For Cepheid variables, a longer pulsation period corresponds to a greater intrinsic luminosity. Comparing that true luminosity with the star’s apparent brightness provides a distance estimate.
+shortDefinition: A pulsating star whose brightness changes in a regular cycle related to its intrinsic luminosity, making
+  it useful for measuring astronomical distances.
+longDefinition: Cepheid variables brighten and dim with a period closely related to their intrinsic luminosity. Comparing
+  that luminosity with how bright the star appears lets astronomers estimate its distance. Cepheids became an important rung
+  in the cosmic distance ladder used to measure distances beyond direct geometric methods.
 reviewedAt: '2026-08-21'
 sources:
 - title: 'Time Travel: Observing Cosmic History'
   url: https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/time-travel-observing-cosmic-history/
   publisher: NASA
   note: Explains astronomical distance measurement using standard candles including Cepheid variables.
+relatedTerms: []

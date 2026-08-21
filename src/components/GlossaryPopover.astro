@@ -2,242 +2,110 @@
 import { getCollection } from 'astro:content';
 import type { SiteLocale } from '../lib/i18n';
 
-interface Props {
-  locale?: SiteLocale;
-}
-
+interface Props { locale?: SiteLocale; }
 const { locale = 'en' } = Astro.props;
 const entries = await getCollection('glossary');
 const translations = locale === 'de'
   ? await getCollection('glossaryTranslations', (entry) => entry.data.locale === 'de')
   : [];
 const translationsById = new Map(translations.map((entry) => [entry.data.entryId, entry.data]));
-
-const glossaryData = Object.fromEntries(
-  entries.map((entry) => {
-    const translated = translationsById.get(entry.id);
-    return [
-      entry.id,
-      {
-        term: translated?.term ?? entry.data.term,
-        definition: translated?.shortDefinition ?? entry.data.shortDefinition,
-      },
-    ];
-  }),
-);
-
+const glossaryData = Object.fromEntries(entries.map((entry) => {
+  const translated = translationsById.get(entry.id);
+  return [entry.id, {
+    term: translated?.term ?? entry.data.term,
+    definition: translated?.shortDefinition ?? entry.data.shortDefinition,
+    href: `${locale === 'de' ? '/de/glossary/' : '/glossary/'}#${entry.id}`,
+  }];
+}));
 const serializedGlossary = JSON.stringify(glossaryData).replace(/</g, '\\u003c');
+const fullLabel = locale === 'de' ? 'Vollständigen Glossareintrag öffnen →' : 'Open full glossary entry →';
 ---
-<div
-  id="glossary-popover"
-  class="glossary-popover"
-  role="tooltip"
-  hidden
->
+<div id="glossary-popover" class="glossary-popover" hidden>
   <div class="glossary-popover-card">
     <p class="glossary-popover-term" data-glossary-popover-term aria-hidden="true"></p>
-    <p class="glossary-popover-definition" data-glossary-popover-definition></p>
+    <p id="glossary-popover-definition" class="glossary-popover-definition" data-glossary-popover-definition></p>
+    <a class="glossary-popover-link" data-glossary-popover-link href="/glossary/">{fullLabel}</a>
   </div>
 </div>
 <script id="glossary-data" type="application/json" set:html={serializedGlossary}></script>
-
 <script>
   const popover = document.querySelector('#glossary-popover');
   const dataNode = document.querySelector('#glossary-data');
-
   if (popover instanceof HTMLElement && dataNode instanceof HTMLScriptElement) {
     const glossary = JSON.parse(dataNode.textContent || '{}');
     const termNode = popover.querySelector('[data-glossary-popover-term]');
     const definitionNode = popover.querySelector('[data-glossary-popover-definition]');
+    const fullLink = popover.querySelector('[data-glossary-popover-link]');
     const triggers = Array.from(document.querySelectorAll('.glossary-term[data-glossary-id]'));
-    const mobileQuery = window.matchMedia('(max-width: 700px)');
+    const touchLike = window.matchMedia('(hover: none), (pointer: coarse)');
+    const mobile = window.matchMedia('(max-width: 700px)');
+    let active = null;
+    let pinned = null;
 
-    let activeTrigger = null;
-    let pinnedTrigger = null;
-
-    const setExpanded = (trigger, expanded) => {
-      if (!(trigger instanceof HTMLElement)) return;
-      trigger.setAttribute('aria-expanded', expanded ? 'true' : 'false');
-      if (expanded) trigger.setAttribute('aria-describedby', 'glossary-popover');
-      else trigger.removeAttribute('aria-describedby');
-    };
-
-    const positionPopover = () => {
-      if (!(activeTrigger instanceof HTMLElement) || popover.hidden) return;
-
-      if (mobileQuery.matches) {
-        popover.style.left = '0';
-        popover.style.right = '0';
-        popover.style.top = 'auto';
-        popover.style.bottom = '0';
+    const position = () => {
+      if (!(active instanceof HTMLElement) || popover.hidden) return;
+      if (mobile.matches || touchLike.matches) {
+        Object.assign(popover.style,{left:'0',right:'0',top:'auto',bottom:'0'});
         return;
       }
-
-      popover.style.right = 'auto';
-      popover.style.bottom = 'auto';
-      const anchor = activeTrigger.getBoundingClientRect();
-      const box = popover.getBoundingClientRect();
-      const gutter = 12;
-      const offset = 10;
-      let left = anchor.left + (anchor.width / 2) - (box.width / 2);
-      left = Math.max(gutter, Math.min(left, window.innerWidth - box.width - gutter));
-
-      let top = anchor.top - box.height - offset;
-      if (top < gutter) top = anchor.bottom + offset;
-
-      popover.style.left = `${Math.round(left)}px`;
-      popover.style.top = `${Math.round(top)}px`;
+      popover.style.right='auto'; popover.style.bottom='auto';
+      const a=active.getBoundingClientRect(), b=popover.getBoundingClientRect(), gutter=12, offset=10;
+      let left=a.left+a.width/2-b.width/2;
+      left=Math.max(gutter,Math.min(left,window.innerWidth-b.width-gutter));
+      let top=a.top-b.height-offset;
+      if(top<gutter) top=a.bottom+offset;
+      popover.style.left=`${Math.round(left)}px`; popover.style.top=`${Math.round(top)}px`;
     };
-
-    const openPopover = (trigger, { pin = false } = {}) => {
-      if (!(trigger instanceof HTMLElement)) return;
-      const id = trigger.dataset.glossaryId;
-      const item = id ? glossary[id] : undefined;
-      if (!item || !(termNode instanceof HTMLElement) || !(definitionNode instanceof HTMLElement)) return;
-
-      if (activeTrigger && activeTrigger !== trigger) setExpanded(activeTrigger, false);
-      activeTrigger = trigger;
-      if (pin) pinnedTrigger = trigger;
-
-      termNode.textContent = item.term;
-      definitionNode.textContent = item.definition;
-      popover.hidden = false;
-      setExpanded(trigger, true);
-      requestAnimationFrame(positionPopover);
+    const open = (trigger, pin=false) => {
+      const id=trigger?.dataset?.glossaryId, item=id?glossary[id]:null;
+      if(!item || !(termNode instanceof HTMLElement) || !(definitionNode instanceof HTMLElement) || !(fullLink instanceof HTMLAnchorElement)) return;
+      active=trigger; if(pin) pinned=trigger;
+      termNode.textContent=item.term; definitionNode.textContent=item.definition; fullLink.href=item.href;
+      popover.hidden=false; requestAnimationFrame(position);
     };
-
-    const closePopover = ({ restoreFocus = false } = {}) => {
-      const triggerToFocus = pinnedTrigger;
-      if (activeTrigger) setExpanded(activeTrigger, false);
-      popover.hidden = true;
-      popover.removeAttribute('style');
-      activeTrigger = null;
-      pinnedTrigger = null;
-      if (restoreFocus && triggerToFocus instanceof HTMLElement) triggerToFocus.focus();
-    };
+    const close = () => { popover.hidden=true; popover.removeAttribute('style'); active=null; pinned=null; };
 
     for (const trigger of triggers) {
-      trigger.addEventListener('mouseenter', () => {
-        if (!pinnedTrigger) openPopover(trigger);
-      });
-
-      trigger.addEventListener('mouseleave', () => {
-        if (!pinnedTrigger && document.activeElement !== trigger) closePopover();
-      });
-
-      trigger.addEventListener('focus', () => {
-        if (pinnedTrigger && pinnedTrigger !== trigger) pinnedTrigger = null;
-        openPopover(trigger);
-      });
-
-      trigger.addEventListener('blur', () => {
-        if (!pinnedTrigger) closePopover();
-      });
-
-      trigger.addEventListener('click', (event) => {
-        event.preventDefault();
-        if (pinnedTrigger === trigger) {
-          closePopover();
-          return;
-        }
-        pinnedTrigger = trigger;
-        openPopover(trigger, { pin: true });
+      trigger.addEventListener('mouseenter',()=>{ if(!touchLike.matches && !pinned) open(trigger); });
+      trigger.addEventListener('mouseleave',()=>{ if(!touchLike.matches && !pinned && document.activeElement!==trigger) close(); });
+      trigger.addEventListener('focus',()=>{ if(!touchLike.matches) open(trigger); });
+      trigger.addEventListener('blur',()=>{ if(!touchLike.matches && !popover.matches(':hover')) close(); });
+      trigger.addEventListener('click',(event)=>{
+        if(!touchLike.matches) return; // real link on desktop/keyboard
+        if(pinned!==trigger){ event.preventDefault(); open(trigger,true); }
       });
     }
-
-    document.addEventListener('pointerdown', (event) => {
-      if (!pinnedTrigger) return;
-      const target = event.target;
-      if (!(target instanceof Node)) return;
-      if (pinnedTrigger.contains(target) || popover.contains(target)) return;
-      closePopover();
+    popover.addEventListener('mouseleave',()=>{ if(!touchLike.matches && document.activeElement!==active) close(); });
+    document.addEventListener('pointerdown',(event)=>{
+      if(!pinned) return;
+      const target=event.target;
+      if(target instanceof Node && !pinned.contains(target) && !popover.contains(target)) close();
     });
-
-    document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape' && !popover.hidden) {
-        closePopover({ restoreFocus: Boolean(pinnedTrigger) });
-      }
-    });
-
-    window.addEventListener('resize', positionPopover);
-    window.addEventListener('scroll', positionPopover, { passive: true });
-    mobileQuery.addEventListener('change', positionPopover);
+    document.addEventListener('keydown',(event)=>{ if(event.key==='Escape' && !popover.hidden) close(); });
+    window.addEventListener('resize',position); window.addEventListener('scroll',position,{passive:true});
   }
 </script>
-
 <style is:global>
   .glossary-term {
-    appearance: none;
-    display: inline;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    border-radius: 0.12em;
     color: inherit;
-    background: transparent;
-    font: inherit;
-    line-height: inherit;
-    text-align: inherit;
     text-decoration-line: underline;
     text-decoration-style: dotted;
     text-decoration-thickness: 1px;
     text-decoration-color: color-mix(in srgb, currentColor 58%, transparent);
-    text-underline-offset: 0.18em;
+    text-underline-offset: .18em;
     cursor: help;
   }
-
-  .glossary-term:hover,
-  .glossary-term[aria-expanded="true"] {
-    color: var(--accent-dark);
-    text-decoration-style: solid;
-    text-decoration-color: currentColor;
+  .glossary-term:hover,.glossary-term:focus-visible {
+    color: var(--accent-dark); text-decoration-style: solid; text-decoration-color: currentColor;
   }
-
-  .glossary-popover[hidden] {
-    display: none !important;
-  }
-
-  .glossary-popover {
-    position: fixed;
-    z-index: 120;
-    width: min(22rem, calc(100vw - 2rem));
-    pointer-events: auto;
-  }
-
-  .glossary-popover-card {
-    padding: 0.85rem 1rem 0.9rem;
-    border: 1px solid var(--ink);
-    border-radius: 0.65rem;
-    background: var(--card);
-    color: var(--ink);
-    box-shadow: 0 14px 38px rgb(23 23 23 / 16%);
-  }
-
-  .glossary-popover-term {
-    margin: 0 0 0.2rem;
-    color: var(--accent-dark);
-    font-size: 0.78rem;
-    font-weight: 900;
-    letter-spacing: 0.055em;
-    text-transform: uppercase;
-  }
-
-  .glossary-popover-definition {
-    margin: 0;
-    max-width: none;
-    font-size: 0.94rem;
-    line-height: 1.48;
-  }
-
-  @media (max-width: 700px) {
-    .glossary-popover {
-      width: 100%;
-      padding: 0 0.65rem max(0.65rem, env(safe-area-inset-bottom));
-    }
-
-    .glossary-popover-card {
-      border-radius: 0.9rem;
-      box-shadow: 0 -10px 34px rgb(23 23 23 / 15%);
-    }
+  .glossary-popover[hidden]{display:none!important}
+  .glossary-popover{position:fixed;z-index:120;width:min(22rem,calc(100vw - 2rem));pointer-events:auto}
+  .glossary-popover-card{padding:.85rem 1rem .9rem;border:1px solid var(--ink);border-radius:.65rem;background:var(--card);color:var(--ink);box-shadow:0 14px 38px rgb(23 23 23 / 16%)}
+  .glossary-popover-term{margin:0 0 .2rem;color:var(--accent-dark);font-size:.78rem;font-weight:900;letter-spacing:.055em;text-transform:uppercase}
+  .glossary-popover-definition{margin:0;max-width:none;font-size:.94rem;line-height:1.48}
+  .glossary-popover-link{display:inline-block;margin-top:.55rem;color:var(--accent-dark);font-size:.84rem;font-weight:800;text-underline-offset:.18em}
+  @media (max-width:700px),(hover:none),(pointer:coarse){
+    .glossary-popover{width:100%;padding:0 .65rem max(.65rem,env(safe-area-inset-bottom))}
+    .glossary-popover-card{border-radius:.9rem;box-shadow:0 -10px 34px rgb(23 23 23 / 15%)}
   }
 </style>

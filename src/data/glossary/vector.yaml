@@ -1,10 +1,13 @@
 term: Vector
 aliases: []
 shortDefinition: A living carrier—often an insect or tick—that transmits a pathogen between hosts.
-longDefinition: In infectious-disease ecology, a vector carries a pathogen from one host to another. For urban yellow fever, the principal vector is the mosquito Aedes aegypti.
+longDefinition: In infectious-disease ecology, a vector carries a pathogen from one host to another. For urban yellow fever,
+  the principal vector is the mosquito Aedes aegypti.
 reviewedAt: '2026-08-21'
 sources:
 - title: Yellow Fever
   url: https://www.cdc.gov/yellow-fever/about/index.html
   publisher: U.S. Centers for Disease Control and Prevention
   note: Explains mosquito-borne transmission of yellow fever.
+relatedTerms:
+- fomite

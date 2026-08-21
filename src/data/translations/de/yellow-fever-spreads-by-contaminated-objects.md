@@ -28,6 +28,6 @@ Versuche mit Stechmücken lieferten das gegenteilige Ergebnis. Hatten Mücken zu
 
 Die Ergebnisse richteten die Prävention auf die Bekämpfung von Stechmücken aus.
 
-Heute ist bekannt, dass Gelbfieber durch ein Virus verursacht wird. In urbanen Ausbrüchen ist *Aedes aegypti* der wichtigste Vektor – also der Organismus, der das Virus zwischen Menschen überträgt.
+Heute ist bekannt, dass Gelbfieber durch ein Virus verursacht wird. In urbanen Ausbrüchen ist *Aedes aegypti* der wichtigste Vektor für die Übertragung zwischen Menschen.
 
 Außerhalb von Städten ist die Ökologie breiter; dort sind andere Mückenarten und tierische Wirte an Waldzyklen beteiligt. Die historische Korrektur betrifft die Vorstellung, kontaminierte Kleidung und Bettwäsche seien der wichtigste Grund für die Ausbreitung städtischer Gelbfieberepidemien.

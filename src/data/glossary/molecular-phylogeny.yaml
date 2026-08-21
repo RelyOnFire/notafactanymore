@@ -1,10 +1,13 @@
 term: Molecular phylogeny
 aliases: []
 shortDefinition: The reconstruction of evolutionary relationships using molecular data such as DNA, RNA, or protein sequences.
-longDefinition: Molecular phylogeny compares inherited molecular sequences to estimate how organisms are related and where their evolutionary lineages diverged.
+longDefinition: Molecular phylogeny compares inherited molecular sequences to estimate how organisms are related and where
+  their evolutionary lineages diverged.
 reviewedAt: '2026-08-21'
 sources:
 - title: The new higher level classification of eukaryotes
   url: https://pubmed.ncbi.nlm.nih.gov/16248873/
   publisher: Journal of Eukaryotic Microbiology
   note: Uses molecular evidence to place major eukaryotic lineages in an evolutionary classification.
+relatedTerms:
+- eukaryote

@@ -3,7 +3,7 @@ locale: de
 entryId: slime-molds-are-fungi
 sourceReviewedAt: '2026-08-20'
 claim: Schleimpilze sind Pilze.
-currentUnderstanding: "Schleimpilze sind keine echten Pilze. Der Name umfasst mehrere Gruppen amöbenartiger Eukaryoten, die als einzelne Zellen oder bewegliche Massen kriechen und Nahrung aufnehmen, bevor sie sporenbildende Strukturen erzeugen, die Pilzfruchtkörpern ähneln."
+currentUnderstanding: "Schleimpilze sind keine echten Pilze. Der Name umfasst mehrere Gruppen amöbenartiger [Eukaryoten](glossary:eukaryote), die als einzelne Zellen oder bewegliche Massen kriechen und Nahrung aufnehmen, bevor sie sporenbildende Strukturen erzeugen, die Pilzfruchtkörpern ähneln."
 whyItChanged: "Sporen und gestielte Fruchtkörper ließen Schleimpilze pilzartig erscheinen, weshalb sie traditionell von Mykologen untersucht wurden. Beobachtungen ihrer kriechenden und Nahrung aufnehmenden Lebensstadien sowie spätere DNA-Stammbäume zeigten, dass die bekanntesten Gruppen zu amöbenartigen Linien und nicht zu den echten Pilzen gehören."
 acceptedApproximately: 19. bis 20. Jahrhundert
 changedApproximately: Spätes 20. Jahrhundert bis heute

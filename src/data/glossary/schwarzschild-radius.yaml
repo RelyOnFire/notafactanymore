@@ -1,10 +1,16 @@
 term: Schwarzschild radius
 aliases: []
-shortDefinition: For an idealized non-rotating, uncharged black hole, the radius of its event horizon. It depends only on the black hole’s mass.
-longDefinition: In the Schwarzschild solution of general relativity, the horizon lies at r = 2GM/c². Rotating or electrically charged black holes have different horizon geometry, so “Schwarzschild radius” is not a universal synonym for every black-hole horizon.
+shortDefinition: For an idealized non-rotating, uncharged black hole, the radius of its event horizon. It depends only on
+  the black hole’s mass.
+longDefinition: In the Schwarzschild solution of general relativity, the horizon lies at r = 2GM/c². Rotating or electrically
+  charged black holes have different horizon geometry, so “Schwarzschild radius” is not a universal synonym for every black-hole
+  horizon.
 reviewedAt: '2026-08-21'
 sources:
 - title: Black Holes
   url: https://science.nasa.gov/universe/black-holes/
   publisher: NASA Science
   note: Explains black holes and the horizon boundary associated with them.
+relatedTerms:
+- event-horizon
+- general-relativity

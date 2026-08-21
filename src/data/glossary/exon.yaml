@@ -1,0 +1,16 @@
+term: Exon
+aliases:
+- exons
+shortDefinition: A section of a gene's initial RNA copy that is retained when introns are removed during RNA splicing.
+longDefinition: In a split gene, exons are the sections retained in the mature RNA after intervening introns are removed.
+  Exons can be joined in different combinations through alternative splicing, so one gene can sometimes produce multiple RNA
+  products.
+relatedTerms:
+- intron
+- rna-splicing
+reviewedAt: '2026-08-21'
+sources:
+- title: The Nobel Prize in Physiology or Medicine 1993 – Press release
+  url: https://www.nobelprize.org/prizes/medicine/1993/press-release/
+  publisher: The Nobel Prize
+  note: Describes split genes and removal of intervening sequences during RNA processing.

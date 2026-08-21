@@ -1,7 +1,7 @@
 ---
 claim: "Black-hole solutions were widely regarded as mathematical idealizations rather than realistic outcomes of gravitational collapse in nature."
 currentUnderstanding: "Black holes are real astrophysical objects. Evidence comes from stellar and gas motions, accretion radiation, gravitational waves, and horizon-scale imaging, and black holes occur across a wide range of masses."
-whyItChanged: "Early relativistic solutions raised doubts about whether their extreme behavior could occur in realistic stars. In the 1960s, theoretical work showed that black-hole formation is a robust consequence of gravitational collapse, while subsequent astronomical observations identified increasingly convincing black-hole candidates and populations."
+whyItChanged: "Early [relativistic](glossary:general-relativity) solutions raised doubts about whether their extreme behavior could occur in realistic stars. In the 1960s, theoretical work showed that black-hole formation is a robust consequence of gravitational collapse, while subsequent astronomical observations identified increasingly convincing black-hole candidates and populations."
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Especially influential from the 1930s into the 1960s"
@@ -31,8 +31,8 @@ sources:
     note: "Explains the long theoretical uncertainty and later proof that black-hole formation is a robust prediction of general relativity."
 ---
 
-General relativity produced black-hole-like solutions early, but a solution to an equation is not automatically an object nature actually makes. The [Schwarzschild radius](glossary:schwarzschild-radius), which marks the [event horizon](glossary:event-horizon) for an idealized non-rotating, uncharged black hole, was difficult to interpret, and many physicists suspected that realistic stars would avoid such a fate. Even the 1939 calculation by Oppenheimer and Snyder of continued gravitational collapse did not immediately make black holes mainstream astrophysics.
+General relativity produced black-hole-like solutions early, but a solution to an equation is not automatically an object nature actually makes. The [Schwarzschild radius](glossary:schwarzschild-radius) was difficult to interpret, and many physicists suspected that realistic stars would avoid such a fate. Even the 1939 calculation by Oppenheimer and Snyder of continued gravitational collapse did not immediately make black holes mainstream astrophysics.
 
-That changed in the 1960s. Better coordinates clarified that the event horizon was not itself a physical singularity, and work on gravitational collapse—most famously Roger Penrose's 1965 singularity theorem—showed that black-hole formation was not merely an artifact of perfect spherical symmetry. Astronomy then supplied candidates such as Cygnus X-1, followed by evidence for stellar and supermassive black-hole populations.
+That changed in the 1960s. Better coordinates clarified that the [event horizon](glossary:event-horizon) was not itself a physical singularity, and work on gravitational collapse—most famously Roger Penrose's 1965 singularity theorem—showed that black-hole formation was not merely an artifact of perfect spherical symmetry. Astronomy then supplied candidates such as Cygnus X-1, followed by evidence for stellar and supermassive black-hole populations.
 
 Gravitational-wave detections and horizon-scale imaging later made the case extraordinarily direct. Quantum questions about horizons and singularities remain, but the astrophysical existence of black holes does not.

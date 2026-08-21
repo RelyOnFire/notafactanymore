@@ -82,6 +82,32 @@ for (const name of enGlossaryFiles) {
   if (!shortDefinition) errors.push(`${name}: missing shortDefinition`);
   if (!reviewedAt) errors.push(`${name}: missing reviewedAt`);
   reviewedById.set(id, reviewedAt);
+
+  const relatedBlock = text.match(/^relatedTerms:\s*\n((?:\s+-\s+.*\n?)*)/m)?.[1] ?? '';
+  const relatedTerms = [...relatedBlock.matchAll(/^\s+-\s+(.+?)\s*$/gm)]
+    .map((match) => stripQuotes(match[1]));
+
+  const relatedCounts = new Map();
+  for (const relatedId of relatedTerms) {
+    relatedCounts.set(relatedId, (relatedCounts.get(relatedId) ?? 0) + 1);
+    if (relatedId === id) errors.push(`${id}: relatedTerms must not contain a self-link`);
+    if (!enGlossaryIds.has(relatedId)) {
+      errors.push(`${id}: relatedTerms contains unknown glossary id ${JSON.stringify(relatedId)}`);
+    }
+  }
+  for (const [relatedId, count] of relatedCounts) {
+    if (count > 1) {
+      errors.push(`${id}: relatedTerms contains ${JSON.stringify(relatedId)} ${count} times`);
+    }
+  }
+
+  const aliasesBlock = text.match(/^aliases:\s*\n((?:\s+-\s+.*\n?)*)/m)?.[1] ?? '';
+  const aliases = [...aliasesBlock.matchAll(/^\s+-\s+(.+?)\s*$/gm)]
+    .map((match) => stripQuotes(match[1]));
+  const aliasKeys = aliases.map((alias) => alias.toLocaleLowerCase('en'));
+  if (new Set(aliasKeys).size !== aliasKeys.length) {
+    errors.push(`${id}: aliases contains a duplicate value`);
+  }
 }
 
 for (const name of deGlossaryFiles) {
@@ -153,8 +179,12 @@ for (const [slug, enIds] of enRefs) {
   }
 }
 
+for (const slug of deRefs.keys()) {
+  if (!enRefs.has(slug)) errors.push(`de/${slug}: no matching English entry`);
+}
+
 if (errors.length) fail();
 
 const cardsWithGlossary = [...enRefs.values()].filter((set) => set.size > 0).length;
 const referenceCount = [...enRefs.values()].reduce((sum, set) => sum + set.size, 0);
-console.log(`Glossary integrity OK: ${enGlossaryIds.size} concepts, ${cardsWithGlossary} prototype cards, ${referenceCount} English concept references, EN/DE aligned.`);
+console.log(`Glossary integrity OK: ${enGlossaryIds.size} concepts, ${cardsWithGlossary} cards, ${referenceCount} English concept references, EN/DE aligned.`);

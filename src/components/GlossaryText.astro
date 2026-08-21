@@ -3,12 +3,38 @@ import type { SiteLocale } from '../lib/i18n';
 
 interface Props { text: string; locale?: SiteLocale; }
 
+type InlineSegment =
+  | { type: 'text'; value: string }
+  | { type: 'em'; value: string };
+
 type Segment =
   | { type: 'text'; value: string }
   | { type: 'em'; value: string }
-  | { type: 'glossary'; label: string; id: string };
+  | { type: 'glossary'; label: InlineSegment[]; id: string };
 
 const { text, locale = 'en' } = Astro.props;
+
+const parseInlineEmphasis = (value: string): InlineSegment[] => {
+  const parts: InlineSegment[] = [];
+  const emphasisPattern = /\*([^*\n]+)\*/g;
+  let cursor = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = emphasisPattern.exec(value)) !== null) {
+    if (match.index > cursor) {
+      parts.push({ type: 'text', value: value.slice(cursor, match.index) });
+    }
+    parts.push({ type: 'em', value: match[1] });
+    cursor = emphasisPattern.lastIndex;
+  }
+
+  if (cursor < value.length) {
+    parts.push({ type: 'text', value: value.slice(cursor) });
+  }
+
+  return parts;
+};
+
 const pattern = /\[([^\]\n]+)\]\(glossary:([a-z0-9][a-z0-9-]*)\)|\*([^*\n]+)\*/g;
 const segments: Segment[] = [];
 let cursor = 0;
@@ -16,10 +42,14 @@ let match: RegExpExecArray | null;
 
 while ((match = pattern.exec(text)) !== null) {
   if (match.index > cursor) segments.push({ type: 'text', value: text.slice(cursor, match.index) });
-  if (match[1] && match[2]) segments.push({ type: 'glossary', label: match[1], id: match[2] });
-  else if (match[3]) segments.push({ type: 'em', value: match[3] });
+  if (match[1] && match[2]) {
+    segments.push({ type: 'glossary', label: parseInlineEmphasis(match[1]), id: match[2] });
+  } else if (match[3]) {
+    segments.push({ type: 'em', value: match[3] });
+  }
   cursor = pattern.lastIndex;
 }
+
 if (cursor < text.length) segments.push({ type: 'text', value: text.slice(cursor) });
 
 const hrefFor = (id: string) => locale === 'de' ? `/de/glossary/#${id}` : `/glossary/#${id}`;
@@ -34,7 +64,9 @@ const hrefFor = (id: string) => locale === 'de' ? `/de/glossary/#${id}` : `/glos
       data-glossary-id={segment.id}
       aria-describedby="glossary-popover-definition"
     >
-      {segment.label}
+      {segment.label.map((part) =>
+        part.type === 'em' ? <em>{part.value}</em> : part.value
+      )}
     </a>
   );
 })}

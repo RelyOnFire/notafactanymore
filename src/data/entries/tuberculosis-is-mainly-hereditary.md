@@ -1,7 +1,7 @@
 ---
 claim: "Tuberculosis is mainly an inherited constitutional disease rather than a contagious infection."
 currentUnderstanding: "Tuberculosis is caused by infection with Mycobacterium tuberculosis. Genetics and immune function affect who becomes infected or develops disease, but the bacterium is the necessary cause."
-whyItChanged: "Tuberculosis often clustered in families, which made heredity seem persuasive during the 18th and 19th centuries. Koch's identification of the tuberculosis bacillus in 1882 established an infectious agent."
+whyItChanged: "Tuberculosis often clustered in families, which made heredity seem persuasive during the 18th and 19th centuries. Koch's identification of the tuberculosis [bacillus](glossary:bacillus) in 1882 established an infectious agent."
 status: "Overturned"
 category: "Medicine"
 acceptedApproximately: "Late 18th–19th century"
@@ -34,7 +34,7 @@ Tuberculosis often ran through families. In an era before germ theory, that patt
 
 The disease also had a long, variable course. Some exposed people never became visibly ill, while others wasted away over months or years, reinforcing the idea that individual constitution was central.
 
-Robert Koch changed the causal framework in 1882 by identifying the bacterium that causes tuberculosis, *Mycobacterium tuberculosis*. It was historically called the tubercle bacillus; a bacillus is a rod-shaped bacterium.
+Robert Koch changed the causal framework in 1882 by identifying the bacterium that causes tuberculosis, *Mycobacterium tuberculosis*. It was historically called the tubercle bacillus.
 
 That did not make heredity irrelevant. Genetic variation strongly influences immune responses to *Mycobacterium tuberculosis*, and host factors help determine whether infection remains latent or progresses to active disease.
 

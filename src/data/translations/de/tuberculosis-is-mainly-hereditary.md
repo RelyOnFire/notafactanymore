@@ -4,7 +4,7 @@ entryId: tuberculosis-is-mainly-hereditary
 sourceReviewedAt: '2026-08-20'
 claim: Tuberkulose ist hauptsächlich eine vererbte konstitutionelle Krankheit und keine ansteckende Infektion.
 currentUnderstanding: Tuberkulose wird durch eine Infektion mit *Mycobacterium tuberculosis* verursacht. Genetik und Immunfunktion beeinflussen, wer sich infiziert oder erkrankt, doch das Bakterium ist die notwendige Ursache.
-whyItChanged: Tuberkulose trat häufig gehäuft in Familien auf, wodurch Vererbung im 18. und 19. Jahrhundert als Erklärung überzeugend wirkte. Kochs Identifizierung des Tuberkulosebazillus im Jahr 1882 etablierte einen infektiösen Erreger.
+whyItChanged: Tuberkulose trat häufig gehäuft in Familien auf, wodurch Vererbung im 18. und 19. Jahrhundert als Erklärung überzeugend wirkte. Kochs Identifizierung des Tuberkulose[bazillus](glossary:bacillus) im Jahr 1882 etablierte einen infektiösen Erreger.
 acceptedApproximately: Spätes 18. bis 19. Jahrhundert
 changedApproximately: Ab 1882
 summary: Familiäre Häufung ließ die Schwindsucht einst erblich erscheinen, bis Koch das Bakterium identifizierte, das Tuberkulose verursacht.
@@ -18,7 +18,7 @@ Tuberkulose trat häufig innerhalb derselben Familien auf. Vor der Keimtheorie w
 
 Auch der lange und sehr unterschiedliche Krankheitsverlauf verstärkte diese Vorstellung. Manche exponierte Menschen blieben gesund, andere erkrankten schwer – ein Hinweis darauf, dass individuelle Konstitution offensichtlich eine Rolle spielte.
 
-Robert Koch veränderte 1882 den kausalen Rahmen, als er das Tuberkulose verursachende Bakterium *Mycobacterium tuberculosis* identifizierte. Historisch wurde es als Tuberkulosebazillus bezeichnet; Bazillus bezeichnet hier ein stäbchenförmiges Bakterium.
+Robert Koch veränderte 1882 den kausalen Rahmen, als er das Tuberkulose verursachende Bakterium *Mycobacterium tuberculosis* identifizierte. Historisch wurde es als Tuberkulosebazillus bezeichnet.
 
 Damit wurde Vererbung nicht bedeutungslos. Genetische Unterschiede beeinflussen Immunreaktionen auf *Mycobacterium tuberculosis* erheblich und tragen dazu bei, ob eine Infektion latent bleibt oder in eine aktive Erkrankung übergeht.
 

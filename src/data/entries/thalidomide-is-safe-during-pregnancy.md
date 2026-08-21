@@ -1,6 +1,6 @@
 ---
 claim: "Thalidomide is safe to use during pregnancy."
-currentUnderstanding: "Thalidomide is a powerful human teratogen—a substance that can disrupt embryonic or fetal development and cause birth defects. Exposure during sensitive stages of early pregnancy can cause severe limb, ear, eye, cardiac, and internal-organ defects, and pregnancy must be rigorously prevented during treatment."
+currentUnderstanding: "Thalidomide is a powerful human [teratogen](glossary:teratogen). Exposure during sensitive stages of early pregnancy can cause severe limb, ear, eye, cardiac, and internal-organ defects, and pregnancy must be rigorously prevented during treatment."
 whyItChanged: "Thalidomide was marketed as a sedative and treatment for pregnancy nausea after animal testing failed to reveal its human teratogenicity. In 1961, clinicians independently connected characteristic birth defects with maternal use, leading to withdrawal and major drug-regulation reforms."
 status: "Overturned"
 category: "Medicine"
@@ -31,7 +31,7 @@ sources:
     note: "Describes controlled modern therapeutic uses and strict pregnancy-prevention requirements."
 ---
 
-Thalidomide was introduced in the late 1950s as a sedative and was promoted in several countries for nausea during pregnancy. Existing animal tests had not revealed its devastating human teratogenicity—the ability to disrupt embryonic development and cause birth defects.
+Thalidomide was introduced in the late 1950s as a sedative and was promoted in several countries for nausea during pregnancy. Existing animal tests had not revealed its devastating human teratogenicity.
 
 The pattern became visible clinically. In 1961, physicians independently linked maternal thalidomide use with a striking cluster of severe congenital abnormalities, especially shortened or absent limbs but also defects of the ears, eyes, heart, and internal organs.
 

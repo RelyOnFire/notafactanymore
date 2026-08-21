@@ -1,6 +1,6 @@
 ---
 claim: The fixed stars do not move relative to one another.
-currentUnderstanding: "Stars move through the Milky Way. Their slow change in position across the sky is called proper motion and can be measured by astrometry, the precise measurement of celestial positions. Constellations therefore change gradually over long timescales."
+currentUnderstanding: "Stars move through the Milky Way. Their slow change in position across the sky is called proper motion and can be measured by [astrometry](glossary:astrometry). Constellations therefore change gradually over long timescales."
 whyItChanged: The enormous distances to stars make their angular motion extremely small over a human lifetime. In 1718, Edmond Halley compared contemporary positions with ancient catalogues and identified significant shifts in Sirius, Arcturus, and Aldebaran.
 status: Overturned
 category: Astronomy
@@ -52,4 +52,4 @@ That apparent stability made sense within ancient and medieval stellar astronomy
 
 Ironically, those same old catalogues eventually helped expose the limitation. Edmond Halley compared eighteenth-century stellar positions with ancient and early-modern measurements and argued in 1717/1718 that several bright stars had moved. Modern reanalysis shows that Halley's evidence was not statistically secure. Jacques Cassini's 1738 work on Arcturus provides a cleaner first significant proper-motion detection.
 
-Modern astrometry—the precise measurement of celestial positions—turns this tiny proper motion into a vast map of stellar movement. Stars move through the Milky Way at different velocities and distances; their constellations only look fixed because stellar distances are enormous and human lifetimes are short.
+Modern astrometry turns this tiny proper motion into a vast map of stellar movement. Stars move through the Milky Way at different velocities and distances; their constellations only look fixed because stellar distances are enormous and human lifetimes are short.

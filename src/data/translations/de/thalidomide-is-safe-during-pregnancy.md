@@ -3,7 +3,7 @@ locale: de
 entryId: thalidomide-is-safe-during-pregnancy
 sourceReviewedAt: '2026-08-20'
 claim: Thalidomid kann während der Schwangerschaft sicher angewendet werden.
-currentUnderstanding: "Thalidomid ist ein starkes menschliches Teratogen – also ein Stoff, der die Entwicklung von Embryo oder Fötus stören und Fehlbildungen verursachen kann. Eine Einnahme in empfindlichen Phasen der frühen Schwangerschaft kann schwere Fehlbildungen an Gliedmaßen, Ohren, Augen, Herz und inneren Organen verursachen. Während einer Behandlung muss eine Schwangerschaft deshalb strikt verhindert werden."
+currentUnderstanding: "Thalidomid ist ein starkes menschliches [Teratogen](glossary:teratogen). Eine Einnahme in empfindlichen Phasen der frühen Schwangerschaft kann schwere Fehlbildungen an Gliedmaßen, Ohren, Augen, Herz und inneren Organen verursachen. Während einer Behandlung muss eine Schwangerschaft deshalb strikt verhindert werden."
 whyItChanged: Thalidomid wurde nach Tierversuchen, die seine teratogene Wirkung beim Menschen nicht erkennen ließen, als Beruhigungsmittel und gegen Schwangerschaftsübelkeit vermarktet. 1961 brachten Ärzte charakteristische Fehlbildungen unabhängig voneinander mit der Einnahme in der Schwangerschaft in Verbindung. Das führte zur Marktrücknahme und später zu grundlegenden Reformen der Arzneimittelregulierung.
 acceptedApproximately: 1957–1961
 changedApproximately: 1961–1962
@@ -14,7 +14,7 @@ sourceNotes:
 - Beschreibt heutige streng kontrollierte Anwendungen und die verpflichtenden Maßnahmen zur Schwangerschaftsverhütung.
 ---
 
-Thalidomid wurde Ende der 1950er-Jahre als Beruhigungs- und Schlafmittel vermarktet und auch gegen Schwangerschaftsübelkeit eingesetzt. Frühere Tierversuche hatten die ausgeprägte Teratogenität beim Menschen – also die Fähigkeit, die Embryonalentwicklung zu stören und Fehlbildungen zu verursachen – nicht zuverlässig vorhergesagt.
+Thalidomid wurde Ende der 1950er-Jahre als Beruhigungs- und Schlafmittel vermarktet und auch gegen Schwangerschaftsübelkeit eingesetzt. Frühere Tierversuche hatten die ausgeprägte Teratogenität beim Menschen nicht zuverlässig vorhergesagt.
 
 Ab 1961 fiel Ärzten in mehreren Ländern eine ungewöhnliche Häufung seltener Fehlbildungen auf, besonders stark verkürzte oder fehlende Gliedmaßen. Unabhängig voneinander verbanden sie diese Fälle mit der Einnahme von Thalidomid in der frühen Schwangerschaft.
 

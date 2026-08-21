@@ -33,7 +33,7 @@ sources:
 
 Sailors had long reported isolated walls of water far larger than the surrounding waves. The stories were difficult to verify and often exceeded what standard linear wave statistics seemed likely to produce, so extreme accounts could be dismissed as exaggeration or measurement error.
 
-On 1 January 1995, instruments on the Draupner oil platform in the North Sea recorded an exceptional wave directly. The **Draupner wave** rose dramatically above the surrounding sea state and supplied the kind of objective measurement the debate had lacked.
+On 1 January 1995, instruments on the Draupner oil platform in the North Sea recorded an exceptional wave directly. The Draupner wave rose dramatically above the surrounding sea state and supplied the kind of objective measurement the debate had lacked.
 
 Rogue-wave research expanded rapidly afterward. Extreme waves can arise through several mechanisms, including ordinary statistical chance, interaction between wave groups, focusing by currents, directional effects, and nonlinear dynamics.
 

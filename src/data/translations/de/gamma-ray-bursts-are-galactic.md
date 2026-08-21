@@ -18,7 +18,7 @@ Gammastrahlenausbrüche wurden Ende der 1960er-Jahre zufällig von Satelliten en
 
 NASAs Compton Gamma Ray Observatory veränderte die Geometrie des Problems. Ab 1991 registrierte sein BATSE-Instrument Ausbrüche über den gesamten Himmel. Wären gewöhnliche Neutronensterne in der galaktischen Scheibe die Quellen gewesen, hätte sich eine Häufung entlang der Milchstraßenebene zeigen müssen. Stattdessen waren die Ereignisse bemerkenswert isotrop verteilt.
 
-Isotropie allein bewies noch keinen kosmologischen Ursprung; ein riesiger kugelförmiger Halo um die Milchstraße hätte ein ähnliches Muster erzeugen können. Der entscheidende Schritt kam 1997, als Satelliten Ausbrüche schnell genug lokalisierten, dass Astronomen verblassende **Nachglühen** in anderen Wellenlängen beobachten konnten. Spektren und Wirtsgalaxien lieferten anschließend Rotverschiebungen und zeigten Entfernungen von Milliarden Lichtjahren.
+Isotropie allein bewies noch keinen kosmologischen Ursprung; ein riesiger kugelförmiger Halo um die Milchstraße hätte ein ähnliches Muster erzeugen können. Der entscheidende Schritt kam 1997, als Satelliten Ausbrüche schnell genug lokalisierten, dass Astronomen verblassende Nachglühen in anderen Wellenlängen beobachten konnten. Spektren und Wirtsgalaxien lieferten anschließend Rotverschiebungen und zeigten Entfernungen von Milliarden Lichtjahren.
 
 Damit änderte sich auch die Energieskala dramatisch. Lange Ausbrüche wurden später mit dem Tod massereicher Sterne verbunden, viele kurze Ausbrüche mit Verschmelzungen kompakter Objekte.
 

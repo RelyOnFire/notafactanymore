@@ -36,7 +36,7 @@ By the nineteenth century, atoms had become powerful scientific entities. Dalton
 
 Late-century experiments began opening the atom.
 
-J. J. Thomson's cathode-ray work identified the **electron**, a negatively charged constituent far smaller than an atom. Rutherford's scattering experiments then showed that most atomic mass and positive charge are concentrated in a tiny nucleus rather than spread throughout the atom.
+J. J. Thomson's cathode-ray work identified the electron, a negatively charged constituent far smaller than an atom. Rutherford's scattering experiments then showed that most atomic mass and positive charge are concentrated in a tiny nucleus rather than spread throughout the atom.
 
 The nucleus itself acquired structure with the proton and Chadwick's 1932 neutron. Later particle physics showed that protons and neutrons are composite particles made from quarks and gluons.
 

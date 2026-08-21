@@ -20,7 +20,7 @@ Viele gemeldete Fälle wurden deshalb als Irrtum, Betrug oder als gewöhnliches 
 
 Ende des 18. Jahrhunderts häuften sich besser dokumentierte Fälle. Chemische Analysen zeigten zudem, dass manche dieser Steine ungewöhnliche Zusammensetzungen besaßen.
 
-Der entscheidende Wendepunkt kam 1803 in **L'Aigle** in Frankreich, wo nach einer beobachteten Feuerkugel Tausende Steine über ein großes Gebiet niedergingen. Eine offizielle Untersuchung sammelte zahlreiche unabhängige Zeugenaussagen und Fundstücke.
+Der entscheidende Wendepunkt kam 1803 in L'Aigle in Frankreich, wo nach einer beobachteten Feuerkugel Tausende Steine über ein großes Gebiet niedergingen. Eine offizielle Untersuchung sammelte zahlreiche unabhängige Zeugenaussagen und Fundstücke.
 
 Danach ließ sich die Verbindung zwischen atmosphärischen Feuererscheinungen und festen außerirdischen Körpern kaum noch bestreiten.
 

@@ -38,4 +38,4 @@ Older hominin discoveries pushed upright walking still farther back. Evidence fr
 
 Neither trait appeared in one instant. Bipedal anatomy evolved gradually, and brain size changed unevenly among different lineages.
 
-At broad scale, though, the order is now clear: **walking on two legs came first**. Major encephalization was a later chapter in human evolution, not the initial change that created bipedality.
+At broad scale, though, the order is now clear: walking on two legs came first. Major encephalization was a later chapter in human evolution, not the initial change that created bipedality.

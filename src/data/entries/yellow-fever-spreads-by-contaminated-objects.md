@@ -38,7 +38,7 @@ Around 1900, the U.S. Army Yellow Fever Commission tested the alternatives direc
 
 Mosquito exposure produced a very different result.
 
-The experiments shifted attention from **fomites**—contaminated objects—to mosquito transmission and helped make vector control central to urban yellow-fever prevention.
+The experiments shifted attention from fomites—contaminated objects—to mosquito transmission and helped make vector control central to urban yellow-fever prevention.
 
 Modern virology identifies yellow fever as a viral infection transmitted by infected mosquitoes, with *Aedes aegypti* especially important in urban cycles.
 

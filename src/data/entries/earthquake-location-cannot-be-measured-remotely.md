@@ -36,4 +36,4 @@ Sensitive seismographs changed the problem from one of witnessing damage to one 
 
 One station gives a distance rather than a unique point. Combining arrival times from multiple stations allows seismologists to determine an epicenter, while richer network data can constrain depth and the geometry of the rupture. Standardized clocks and expanding instrument networks made this possible across continents.
 
-Modern systems can detect and locate earthquakes rapidly enough to support early-warning networks. Precision still depends on station coverage and Earth structure, so sparse networks and offshore events can be harder to constrain. The breakthrough was that the source could be **inferred from waves recorded far away**.
+Modern systems can detect and locate earthquakes rapidly enough to support early-warning networks. Precision still depends on station coverage and Earth structure, so sparse networks and offshore events can be harder to constrain. The breakthrough was that the source could be inferred from waves recorded far away.

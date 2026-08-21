@@ -16,10 +16,10 @@ sourceNotes:
 
 Klassische Chromosomenkarten behandelten Gene als Loci in einer stabilen linearen Reihenfolge. Crossing-over konnte zwar neu kombinieren, welche vererbten Chromosomenabschnitte zusammen weitergegeben wurden, doch die Genorte selbst sollten an ihrem Platz bleiben. Für die mendelsche Genetik war dieses Modell außerordentlich erfolgreich.
 
-Barbara McClintock stieß in den 1940er-Jahren bei der Untersuchung von Maischromosomen auf etwas wesentlich Ungewöhnlicheres. Bestimmte genetische Elemente schienen ihre Position verändern zu können, und ihre Bewegung konnte benachbarte Gene an- oder abschalten. Dadurch entstanden instabile Muster in der Färbung von Maiskörnern. McClintock nannte sie **controlling elements**.
+Barbara McClintock stieß in den 1940er-Jahren bei der Untersuchung von Maischromosomen auf etwas wesentlich Ungewöhnlicheres. Bestimmte genetische Elemente schienen ihre Position verändern zu können, und ihre Bewegung konnte benachbarte Gene an- oder abschalten. Dadurch entstanden instabile Muster in der Färbung von Maiskörnern. McClintock nannte sie controlling elements.
 
 Die Idee war schwer einzuordnen, weil bewegliche Gene nicht zum statischen Chromosomenbild passten, das so viele genetische Phänomene erfolgreich erklärt hatte. Ihre Interpretation fand deshalb lange nur begrenzte Akzeptanz.
 
 Befunde aus Bakterien und anderen Organismen machten Transposition schließlich unbestreitbar. Die Molekularbiologie identifizierte mehrere Klassen transponierbarer Elemente: Manche bewegen sich direkt als DNA, andere – Retrotransposons – erzeugen zunächst eine RNA-Kopie, die anschließend wieder als DNA an einer neuen Stelle eingebaut wird.
 
-Die meisten Gene bleiben über gewöhnliche Zell- und Organismengenerationen hinweg an stabilen vererbten Positionen. Das Genom ist kein ständig neu gemischtes Durcheinander. Widerlegt wurde die absolute Regel, genomische Sequenzen könnten **überhaupt nicht wandern**. Mobile Elemente gelten heute als wichtige Quellen für Mutation, Genregulation und Genomevolution.
+Die meisten Gene bleiben über gewöhnliche Zell- und Organismengenerationen hinweg an stabilen vererbten Positionen. Das Genom ist kein ständig neu gemischtes Durcheinander. Widerlegt wurde die absolute Regel, genomische Sequenzen könnten überhaupt nicht wandern. Mobile Elemente gelten heute als wichtige Quellen für Mutation, Genregulation und Genomevolution.

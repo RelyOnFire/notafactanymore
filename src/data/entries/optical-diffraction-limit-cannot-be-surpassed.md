@@ -30,7 +30,7 @@ sources:
     note: "Hell and Wichmann proposed the principle underlying STED microscopy."
 ---
 
-Ernst Abbe's nineteenth-century diffraction analysis correctly identified a fundamental limitation of **conventional optical imaging**. When two objects are closer than roughly the scale set by wavelength and numerical aperture, their diffraction patterns overlap and ordinary microscopy cannot resolve them as separate structures.
+Ernst Abbe's nineteenth-century diffraction analysis correctly identified a fundamental limitation of conventional optical imaging. When two objects are closer than roughly the scale set by wavelength and numerical aperture, their diffraction patterns overlap and ordinary microscopy cannot resolve them as separate structures.
 
 Over time, that result was often summarized more absolutely: visible-light microscopy could never reveal detail below the diffraction limit.
 

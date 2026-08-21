@@ -18,7 +18,7 @@ Der Thymus war lange ein anatomisches Rätsel. Er ist bei Kindern relativ groß,
 
 Experimente verstärkten den Eindruck der Bedeutungslosigkeit: Entfernte man den Thymus bei erwachsenen Tieren, schienen zunächst kaum dramatische Folgen aufzutreten. Das Organ wurde daher teils als rudimentär oder sogar als „Friedhof“ sterbender Lymphozyten beschrieben.
 
-Jacques Miller änderte das Bild 1961 mit einem entscheidenden entwicklungsbiologischen Vergleich. Entfernte er den Thymus bei **neugeborenen Mäusen**, entwickelten sie schwere Immundefekte und wurden deutlich anfälliger für Infektionen.
+Jacques Miller änderte das Bild 1961 mit einem entscheidenden entwicklungsbiologischen Vergleich. Entfernte er den Thymus bei neugeborenen Mäusen, entwickelten sie schwere Immundefekte und wurden deutlich anfälliger für Infektionen.
 
 Damit wurde klar, dass der Thymus seine wichtigste Arbeit früh im Leben leistet: Dort entwickeln sich T-Zellen und durchlaufen Auswahlprozesse, die funktionsfähige Immunantworten ermöglichen und zugleich starke Reaktionen gegen körpereigenes Gewebe begrenzen.
 

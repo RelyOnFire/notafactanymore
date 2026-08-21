@@ -14,7 +14,7 @@ sourceNotes:
 - Beschreibt den aktiven Wechsel zwischen Non-REM- und REM-Schlaf sowie die physiologischen Veränderungen in den einzelnen Stadien.
 ---
 
-Von außen wirkt Schlaf wie ein Rückzug aus Aktivität. Der Körper bewegt sich weniger, Reaktionen auf die Umwelt nehmen ab, und das Bewusstsein für die Umgebung verschwindet weitgehend. Ohne Messung der Gehirnaktivität lag deshalb die Vorstellung eines einheitlichen **passiven Abschaltzustands** nahe.
+Von außen wirkt Schlaf wie ein Rückzug aus Aktivität. Der Körper bewegt sich weniger, Reaktionen auf die Umwelt nehmen ab, und das Bewusstsein für die Umgebung verschwindet weitgehend. Ohne Messung der Gehirnaktivität lag deshalb die Vorstellung eines einheitlichen passiven Abschaltzustands nahe.
 
 Das Elektroenzephalogramm veränderte dieses Bild. Ab den 1930er-Jahren zeigten EEG-Aufzeichnungen, dass sich die elektrische Aktivität des Gehirns während des Schlafs systematisch verändert und mehrere unterscheidbare Stadien durchläuft.
 

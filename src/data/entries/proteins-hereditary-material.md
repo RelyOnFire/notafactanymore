@@ -34,7 +34,7 @@ Proteins looked like the obvious hereditary material. They were chemically diver
 
 Avery, MacLeod, and McCarty tested the question through bacterial transformation. They purified the material that could transfer a heritable trait between strains of *Streptococcus pneumoniae* and then selectively destroyed different molecular classes.
 
-Destroying protein did not eliminate the transforming activity. Destroying **DNA** did.
+Destroying protein did not eliminate the transforming activity. Destroying DNA did.
 
 The 1944 result was pivotal but not instantly accepted. Some researchers worried about contamination or remained convinced that proteins were the more plausible information carrier. Later bacteriophage experiments and the elucidation of DNA structure made the case overwhelming.
 

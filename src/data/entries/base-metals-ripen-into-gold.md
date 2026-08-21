@@ -31,14 +31,14 @@ sources:
   note: Explains medieval theories of metallic principles that made purification and transmutation conceptually plausible.
 ---
 
-Alchemy's dream of making gold depended on a theory about how **nature itself makes metals**.
+Alchemy's dream of making gold depended on a theory about how nature itself makes metals.
 
 In influential medieval and early-modern traditions, metals were not always treated as permanently different elemental species. They could be stages or outcomes of a common underground generative process. Gold represented the most perfect, mature, or well-balanced metallic state; base metals were defective, contaminated, or incompletely “ripened.”
 
-That made transmutation intellectually coherent. An alchemist did not necessarily imagine creating gold from nothing. The laboratory could **imitate and accelerate geological maturation**, purifying ingredients and correcting the proportions or qualities that nature had failed to perfect.
+That made transmutation intellectually coherent. An alchemist did not necessarily imagine creating gold from nothing. The laboratory could imitate and accelerate geological maturation, purifying ingredients and correcting the proportions or qualities that nature had failed to perfect.
 
 The theory was tied to real metallurgical experience. Heating, alloying, cementation, gilding, color changes, and purification can dramatically transform how metals look and behave. Ancient gilding practices may even have helped inspire early transmutation concepts.
 
-The framework eroded as chemists developed a more stable concept of chemical elements and reproducible composition. Modern chemistry defines gold by atomic number **79**. Converting another element into gold is physically possible only through nuclear transmutation. Furnaces, acids, salts, and ordinary chemical operations cannot do it, and nuclear transmutation is economically useless as a gold-making method.
+The framework eroded as chemists developed a more stable concept of chemical elements and reproducible composition. Modern chemistry defines gold by atomic number 79. Converting another element into gold is physically possible only through nuclear transmutation. Furnaces, acids, salts, and ordinary chemical operations cannot do it, and nuclear transmutation is economically useless as a gold-making method.
 
 Because “metallic maturation” took many forms across alchemical traditions, this card is not assigned a precise lifespan.

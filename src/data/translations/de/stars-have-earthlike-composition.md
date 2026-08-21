@@ -18,7 +18,7 @@ Spektren zeigten schon im 19. Jahrhundert, dass viele Elemente, die auf der Erde
 
 Das Problem war, dass die Stärke einer Spektrallinie nicht direkt angibt, wie viel von einem Element vorhanden ist. Sie hängt stark davon ab, in welchem Ionisationszustand sich die Atome befinden – und dieser wiederum von Temperatur und Druck.
 
-Cecilia Payne wandte 1925 die damals neue Ionisationstheorie systematisch auf Sternatmosphären an. Ihr Ergebnis war radikal: Wasserstoff und Helium mussten in Sternen **um Größenordnungen häufiger** sein als schwere Elemente.
+Cecilia Payne wandte 1925 die damals neue Ionisationstheorie systematisch auf Sternatmosphären an. Ihr Ergebnis war radikal: Wasserstoff und Helium mussten in Sternen um Größenordnungen häufiger sein als schwere Elemente.
 
 Die Schlussfolgerung stieß zunächst auf Skepsis, weil sie der etablierten Vorstellung widersprach. Wenige Jahre später bestätigten weitere Analysen das Ergebnis.
 

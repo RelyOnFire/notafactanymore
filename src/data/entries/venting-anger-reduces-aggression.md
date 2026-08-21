@@ -34,7 +34,7 @@ The catharsis idea treats anger like pressure in a vessel. If aggressive energy 
 
 Controlled experiments repeatedly failed to support that simple hydraulic model.
 
-Participants encouraged to punch bags while thinking about someone who angered them often became **more**, not less, aggressive afterward. Rehearsing the grievance can maintain arousal and strengthen hostile thoughts rather than exhausting them.
+Participants encouraged to punch bags while thinking about someone who angered them often became more, not less, aggressive afterward. Rehearsing the grievance can maintain arousal and strengthen hostile thoughts rather than exhausting them.
 
 More recent synthesis likewise finds better results from strategies that lower physiological arousal or interrupt rumination.
 

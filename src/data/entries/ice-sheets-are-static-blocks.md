@@ -32,7 +32,7 @@ sources:
 
 A polar ice sheet looks immovable. Its surface can extend beyond the horizon, and even a few meters of annual movement is invisible without fixed reference points. That scale made it easy to imagine the great ice masses as blocks simply resting on bedrock.
 
-Glaciology showed that solid ice **flows**. Under the enormous pressure created by its own weight, ice deforms internally and moves outward from high interior regions. Where basal conditions and topography allow, ice streams and outlet glaciers can move far faster than the surrounding ice.
+Glaciology showed that solid ice flows. Under the enormous pressure created by its own weight, ice deforms internally and moves outward from high interior regions. Where basal conditions and topography allow, ice streams and outlet glaciers can move far faster than the surrounding ice.
 
 Survey markers provided early measurements of motion. Later radar, boreholes, GPS and satellite observations mapped both surface velocity and structures deep inside the ice, revealing drainage networks that continually transfer mass from the interior toward the margins and ocean.
 

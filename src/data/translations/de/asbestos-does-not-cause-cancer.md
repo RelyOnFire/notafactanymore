@@ -18,7 +18,7 @@ Frühe Arbeitsmedizin erkannte relativ schnell, dass starke Asbestexposition die
 
 Krebs war schwieriger zuzuordnen.
 
-Ein wesentlicher Grund ist die **lange Latenzzeit**. Mesotheliome und Lungenkrebs können erst Jahrzehnte nach der entscheidenden Exposition auftreten, lange nachdem Beschäftigte den Arbeitsplatz gewechselt oder verlassen haben.
+Ein wesentlicher Grund ist die lange Latenzzeit. Mesotheliome und Lungenkrebs können erst Jahrzehnte nach der entscheidenden Exposition auftreten, lange nachdem Beschäftigte den Arbeitsplatz gewechselt oder verlassen haben.
 
 Mit größeren und länger beobachteten Beschäftigtenkohorten wurde das Muster jedoch deutlich. Stark exponierte Arbeiter entwickelten erheblich häufiger bestimmte Krebsarten, und die besonders auffällige Verbindung zwischen Asbest und Mesotheliom lieferte ein starkes Signal.
 

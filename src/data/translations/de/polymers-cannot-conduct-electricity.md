@@ -18,10 +18,10 @@ Gewöhnliche Kunststoffe sind hervorragende elektrische Isolatoren. Ihre Elektro
 
 Dieser praktische Erfolg begünstigte eine stärkere Annahme: Elektrische Isolation sei eine unvermeidliche Eigenschaft von Polymeren als Stoffklasse.
 
-**Konjugierte Polymere** zeigten jedoch einen anderen elektronischen Aufbau. Entlang ihrer Ketten wechseln Bindungstypen so, dass Elektronen stärker delokalisiert werden können als in typischen Kunststoffen. Ende der 1970er-Jahre fanden Hideki Shirakawa, Alan MacDiarmid und Alan Heeger, dass chemische **Dotierung von Polyacetylen** seine Leitfähigkeit um viele Größenordnungen steigern kann.
+Konjugierte Polymere zeigten jedoch einen anderen elektronischen Aufbau. Entlang ihrer Ketten wechseln Bindungstypen so, dass Elektronen stärker delokalisiert werden können als in typischen Kunststoffen. Ende der 1970er-Jahre fanden Hideki Shirakawa, Alan MacDiarmid und Alan Heeger, dass chemische Dotierung von Polyacetylen seine Leitfähigkeit um viele Größenordnungen steigern kann.
 
 Damit war gezeigt, dass ein Material seine polymere Molekülstruktur behalten und trotzdem erheblichen elektrischen Strom transportieren kann. Leitende und halbleitende Polymere wurden später für Sensoren, Displays, organische Elektronik, Beschichtungen und Energietechnik wichtig.
 
 Die meisten Polymere bleiben dennoch Isolatoren. Leitfähigkeit hängt stark von Konjugation, Dotierung, Morphologie, Temperatur und Verarbeitung ab.
 
-Die Korrektur lautet daher nicht „Kunststoff leitet Strom“, sondern: Elektrische Isolation ist **kein notwendiges Definitionsmerkmal aller Polymere**.
+Die Korrektur lautet daher nicht „Kunststoff leitet Strom“, sondern: Elektrische Isolation ist kein notwendiges Definitionsmerkmal aller Polymere.

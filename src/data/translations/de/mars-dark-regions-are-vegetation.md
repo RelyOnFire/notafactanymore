@@ -18,7 +18,7 @@ Frühe Teleskope zeigten auf dem Mars großflächige dunkle und helle Flecken, a
 
 Unter diesen Beobachtungsbedingungen wurden Staub, Frost, Geländeformen und atmosphärische Effekte zu wechselnden Helligkeitsmustern zusammengefasst. Die tatsächliche Veränderlichkeit der Flecken machte die Vegetationshypothese plausibler, als sie aus heutiger Sicht wirkt.
 
-Raumsonden veränderten die Evidenz grundlegend. Nahaufnahmen zeigten eine kalte, trockene und staubreiche Oberfläche statt großflächiger saisonaler Pflanzendecken; spektroskopische Untersuchungen fanden nicht die dafür erwarteten biologischen Signaturen. Heute ist bekannt, dass Marswinde dünne Schichten hellen Staubs verlagern und dadurch dunkleren Untergrund freilegen oder wieder bedecken können. So verändern sich großräumige **Albedo**-Muster.
+Raumsonden veränderten die Evidenz grundlegend. Nahaufnahmen zeigten eine kalte, trockene und staubreiche Oberfläche statt großflächiger saisonaler Pflanzendecken; spektroskopische Untersuchungen fanden nicht die dafür erwarteten biologischen Signaturen. Heute ist bekannt, dass Marswinde dünne Schichten hellen Staubs verlagern und dadurch dunkleren Untergrund freilegen oder wieder bedecken können. So verändern sich großräumige Albedo-Muster.
 
 Auch Frost und andere saisonale Prozesse spielen eine Rolle. Die sichtbaren Markierungen verändern sich also tatsächlich; falsch war die biologische Ursache, die man diesen Veränderungen zuschrieb.
 

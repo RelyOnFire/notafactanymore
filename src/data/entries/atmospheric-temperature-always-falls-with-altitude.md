@@ -36,7 +36,7 @@ It was natural to extrapolate that trend upward.
 
 Around 1902, Léon Teisserenc de Bort in France and Richard Assmann in Germany independently pushed instrumented balloons high enough to find something unexpected. At roughly 10–15 kilometres, the steady cooling stopped.
 
-The discovery revealed a new atmospheric layer, later called the **stratosphere**. Within much of it, temperature rises with altitude because ozone absorbs ultraviolet radiation and converts part of that energy into heat.
+The discovery revealed a new atmospheric layer, later called the stratosphere. Within much of it, temperature rises with altitude because ozone absorbs ultraviolet radiation and converts part of that energy into heat.
 
 The atmosphere contains further reversals above the stratosphere: temperature falls through the mesosphere and rises again through the thermosphere.
 

@@ -35,9 +35,9 @@ Bird migration is obvious only after someone has connected the same populations 
 
 European swallows appeared reliably in spring and disappeared in autumn. Where could such small birds possibly go? Long-distance migration across seas and continents sounded extraordinary, while many familiar animals genuinely did become torpid during winter.
 
-Naturalists therefore debated whether swallows **hibernated locally**, sometimes supposedly clustering underwater or burying themselves in the mud of ponds. The idea persisted into the eighteenth century and was defended in learned publications.
+Naturalists therefore debated whether swallows hibernated locally, sometimes supposedly clustering underwater or burying themselves in the mud of ponds. The idea persisted into the eighteenth century and was defended in learned publications.
 
-**Gilbert White** treated the seasonal disappearance of swallows as an empirical problem rather than something to settle by authority. He accumulated observations for years, though he remained open to some form of torpor. Anatomist **John Hunter** went further: he confined swallows with access to water, reeds, and mud to test whether they would hibernate. They did not.
+Gilbert White treated the seasonal disappearance of swallows as an empirical problem rather than something to settle by authority. He accumulated observations for years, though he remained open to some form of torpor. Anatomist John Hunter went further: he confined swallows with access to water, reeds, and mud to test whether they would hibernate. They did not.
 
 The evidence for migration became overwhelming through travel observations, recoveries of marked birds, systematic ringing, radar, geolocators, and satellite tracking.
 

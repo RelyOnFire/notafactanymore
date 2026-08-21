@@ -20,7 +20,7 @@ Das Tabakmosaikvirus zeigte, dass diese Hierarchie nicht universell ist. Das Vir
 
 Wurde das Virus aus seinen Komponenten wieder zusammengesetzt, konnte es erneut infektiös werden. Noch überzeugender waren Versuche, bei denen RNA und Proteinhüllen verschiedener Virusstämme kombiniert wurden.
 
-Die vererbbaren Eigenschaften der neu gebildeten Viren folgten der **RNA**, nicht der Proteinhülle.
+Die vererbbaren Eigenschaften der neu gebildeten Viren folgten der RNA, nicht der Proteinhülle.
 
 Damit war gezeigt, dass RNA selbst als Genom dienen kann.
 

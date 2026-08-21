@@ -33,9 +33,9 @@ sources:
 
 Preformationism became attractive partly because the Scientific Revolution made nature seem increasingly mechanical.
 
-If an embryo gradually acquires organized parts, where does that organization come from? To some seventeenth- and eighteenth-century naturalists, **epigenesis** seemed to require an obscure organizing force. Preformation offered a more mechanical answer: the organism's parts already existed and development was essentially growth and unfolding.
+If an embryo gradually acquires organized parts, where does that organization come from? To some seventeenth- and eighteenth-century naturalists, epigenesis seemed to require an obscure organizing force. Preformation offered a more mechanical answer: the organism's parts already existed and development was essentially growth and unfolding.
 
-The theory split into rival camps. **Ovists** placed the preformed organism in the egg. **Spermists** placed it in sperm after microscopes revealed spermatozoa in the 1670s. Nicolaas Hartsoeker's famous 1694 drawing of a tiny curled human in a sperm became an icon of the debate, although he did not claim that he had literally observed such a miniature person.
+The theory split into rival camps. Ovists placed the preformed organism in the egg. Spermists placed it in sperm after microscopes revealed spermatozoa in the 1670s. Nicolaas Hartsoeker's famous 1694 drawing of a tiny curled human in a sperm became an icon of the debate, although he did not claim that he had literally observed such a miniature person.
 
 Preformation could become spectacularly recursive. Some ovists imagined that future generations were nested inside one another like Russian dolls, all created in the ovaries of the first female.
 

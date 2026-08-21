@@ -30,7 +30,7 @@ sources:
     note: "Explains modern experimental tests of relativity and the invariance of the speed of light."
 ---
 
-Every familiar mechanical wave needs something to wave. Sound travels through air; water waves move through water. Once light was understood as a wave, nineteenth-century physicists therefore inferred a pervasive medium filling even apparently empty space: the **luminiferous ether**.
+Every familiar mechanical wave needs something to wave. Sound travels through air; water waves move through water. Once light was understood as a wave, nineteenth-century physicists therefore inferred a pervasive medium filling even apparently empty space: the luminiferous ether.
 
 Maxwell's electromagnetic theory made the wave description stronger but did not immediately remove the medium. If Earth moved through a stationary ether, however, sufficiently precise optical experiments ought to detect an “ether wind” that changed the measured behavior of light.
 

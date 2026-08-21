@@ -34,7 +34,7 @@ Appendectomy became one of surgery's great successes. Before reliable diagnosis 
 
 For more than a century, that rule hardened into an absolute: diagnosed appendicitis meant surgery.
 
-Modern imaging made it possible to distinguish **uncomplicated** appendicitis from perforation, abscess, and other higher-risk disease more reliably.
+Modern imaging made it possible to distinguish uncomplicated appendicitis from perforation, abscess, and other higher-risk disease more reliably.
 
 Randomized trials then tested antibiotics-first treatment in carefully selected uncomplicated cases. Many patients recovered without immediate surgery, showing that appendectomy was not biologically mandatory in every case.
 

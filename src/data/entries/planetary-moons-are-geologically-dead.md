@@ -34,7 +34,7 @@ Small worlds should cool quickly. With much less volume relative to surface area
 
 Voyager shattered that expectation in 1979. Images of Jupiter's moon Io showed active volcanic plumes rising above the surface—the first observed active volcanism beyond Earth.
 
-The missing energy source was **tidal heating**. Jupiter's gravity repeatedly flexes Io as its slightly eccentric orbit carries it through changing tidal forces, converting orbital energy into internal heat.
+The missing energy source was tidal heating. Jupiter's gravity repeatedly flexes Io as its slightly eccentric orbit carries it through changing tidal forces, converting orbital energy into internal heat.
 
 Later missions expanded the surprise. Europa shows a young, fractured icy surface above a global subsurface ocean, while Cassini discovered jets of water-rich material erupting from Enceladus, another small moon with an internal ocean.
 

@@ -16,12 +16,12 @@ sourceNotes:
 
 76 Jahre lang stand Pluto in Lehrbüchern als neunter Planet des Sonnensystems. Seine geringe Größe und ungewöhnliche Umlaufbahn waren bekannt, doch es gab keine formale Planetendefinition, die ihn eindeutig ausschloss.
 
-Die Entdeckung des **Kuipergürtels** veränderte den Kontext. Pluto wirkte zunehmend weniger wie ein isolierter Sonderfall und mehr wie ein großes Mitglied einer ganzen Population eisiger Körper jenseits von Neptun.
+Die Entdeckung des Kuipergürtels veränderte den Kontext. Pluto wirkte zunehmend weniger wie ein isolierter Sonderfall und mehr wie ein großes Mitglied einer ganzen Population eisiger Körper jenseits von Neptun.
 
 Mit der Entdeckung von Eris wurde die Klassifikationsfrage akut. Sollte jeder ähnlich große neu gefundene Körper als weiterer Planet gelten, oder brauchte die Astronomie eine klarere Grenze?
 
-2006 verabschiedete die Internationale Astronomische Union eine formale Definition für Planeten des Sonnensystems. Ein Planet muss die Sonne umkreisen, durch seine Eigengravitation annähernd rund sein und die **Umgebung seiner Umlaufbahn freigeräumt** haben. Pluto erfüllt die ersten beiden Bedingungen, nicht aber die dritte, und wurde deshalb als Zwergplanet klassifiziert.
+2006 verabschiedete die Internationale Astronomische Union eine formale Definition für Planeten des Sonnensystems. Ein Planet muss die Sonne umkreisen, durch seine Eigengravitation annähernd rund sein und die Umgebung seiner Umlaufbahn freigeräumt haben. Pluto erfüllt die ersten beiden Bedingungen, nicht aber die dritte, und wurde deshalb als Zwergplanet klassifiziert.
 
-An Pluto selbst änderte sich 2006 nichts. Die Änderung war **taxonomisch**, ausgelöst durch neues Wissen über seine kosmische Nachbarschaft.
+An Pluto selbst änderte sich 2006 nichts. Die Änderung war taxonomisch, ausgelöst durch neues Wissen über seine kosmische Nachbarschaft.
 
 Die IAU-Definition ist der offizielle astronomische Standard, aber nicht jeder Planetenforscher hält sie für die beste wissenschaftliche Definition. Einige bevorzugen geophysikalische Kriterien, nach denen Pluto weiterhin ein Planet wäre. Der Eintrag beschreibt die formale Klassifikation, nicht eine behauptete vollständige Einigkeit über die Terminologie.

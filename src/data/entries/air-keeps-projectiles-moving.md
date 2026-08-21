@@ -33,14 +33,14 @@ sources:
 
 Projectile motion exposed a basic difficulty in Aristotelian mechanics.
 
-If motion normally requires a mover acting on what is moved, what keeps a stone or javelin going **after it leaves the hand**?
+If motion normally requires a mover acting on what is moved, what keeps a stone or javelin going after it leaves the hand?
 
-One Aristotelian answer became known as **antiperistasis**. As the projectile moved, it displaced air. The surrounding air rushed around into the space behind the object and in doing so helped propel it forward. The medium that also resisted motion therefore became part of the continuing cause of motion.
+One Aristotelian answer became known as antiperistasis. As the projectile moved, it displaced air. The surrounding air rushed around into the space behind the object and in doing so helped propel it forward. The medium that also resisted motion therefore became part of the continuing cause of motion.
 
-The explanation attracted criticism long before Galileo. John Philoponus challenged aspects of Aristotelian projectile theory in late antiquity. Medieval Islamic thinkers developed concepts of *mayl* or inclination. In the fourteenth century, **Jean Buridan** gave impetus theory an especially influential form: the thrower impresses a motive force into the projectile itself, and the projectile continues while that impetus exceeds resisting influences.
+The explanation attracted criticism long before Galileo. John Philoponus challenged aspects of Aristotelian projectile theory in late antiquity. Medieval Islamic thinkers developed concepts of *mayl* or inclination. In the fourteenth century, Jean Buridan gave impetus theory an especially influential form: the thrower impresses a motive force into the projectile itself, and the projectile continues while that impetus exceeds resisting influences.
 
-Buridan's impetus was **not yet Newtonian inertia**. It was still a positive impressed quality that could be depleted or corrupted. But it removed the need for the surrounding air to act as a relay of movers.
+Buridan's impetus was not yet Newtonian inertia. It was still a positive impressed quality that could be depleted or corrupted. But it removed the need for the surrounding air to act as a relay of movers.
 
-Later inertial mechanics made the conceptual reversal complete: continuing uniform motion does not need a continuing cause; it is **change in motion** that requires net force.
+Later inertial mechanics made the conceptual reversal complete: continuing uniform motion does not need a continuing cause; it is change in motion that requires net force.
 
 Because Aristotelian projectile explanations and their medieval replacements developed in stages, the card is excluded from exact lifespan statistics.

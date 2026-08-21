@@ -34,7 +34,7 @@ Astronomers tried to map the Milky Way long before they could see through its du
 
 That approach produced models, such as Jacobus Kapteyn's, in which the Sun sat close to the center.
 
-The hidden bias was **interstellar extinction**. Dust along the galactic plane blocks distant starlight, making the observable stellar distribution look smaller and more locally centered than the Galaxy really is.
+The hidden bias was interstellar extinction. Dust along the galactic plane blocks distant starlight, making the observable stellar distribution look smaller and more locally centered than the Galaxy really is.
 
 Harlow Shapley approached the problem differently. He mapped the distribution of globular clusters and found that they were concentrated toward Sagittarius rather than around the Sun.
 

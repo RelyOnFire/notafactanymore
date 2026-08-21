@@ -19,6 +19,6 @@ Anfang der 1980er-Jahre bemerkte der Pathologe Robin Warren wiederholt gebogene 
 
 Die Idee stieß auf Widerstand, weil der Magen als zu sauer für eine dauerhafte bakterielle Besiedlung galt und für Geschwüre bereits ein etabliertes physiologisches Modell existierte. Doch die Evidenz wurde stärker: *H. pylori* war eng mit chronischer Gastritis und Ulkuskrankheit verbunden, und die Eradikation des Bakteriums mit Antibiotika senkte die Rückfallrate drastisch.
 
-Parallel wurde eine zweite Hauptursache klar: **NSAR** können die Schutzmechanismen von Magen und Zwölffingerdarm schwächen und unabhängig von *H. pylori* Geschwüre verursachen.
+Parallel wurde eine zweite Hauptursache klar: NSAR können die Schutzmechanismen von Magen und Zwölffingerdarm schwächen und unabhängig von *H. pylori* Geschwüre verursachen.
 
 Stress und Lebensstil wurden dadurch nicht biologisch bedeutungslos. Rauchen kann die Heilung beeinträchtigen, schwerer physiologischer Stress kann bei kritisch Kranken zur Ulkusbildung beitragen, und Beschwerden werden durch viele Faktoren beeinflusst. Der kausale Schwerpunkt verschob sich jedoch grundlegend: Die meisten peptischen Geschwüre werden heute durch *H. pylori* oder NSAR erklärt, nicht durch ein allgemeines Stress-und-Persönlichkeits-Modell.

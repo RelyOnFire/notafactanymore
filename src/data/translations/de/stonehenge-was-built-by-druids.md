@@ -16,11 +16,11 @@ sourceNotes:
 
 Stonehenge war jahrhundertelang ein sichtbares Monument ohne schriftliche Baugeschichte. Antiquaren des 17. und 18. Jahrhunderts standen für das vorrömische Britannien nur wenige namentlich bekannte Gruppen zur Verfügung.
 
-John Aubrey und später William Stukeley verbanden das Monument deshalb mit den **Druiden**, die aus klassischen Quellen als religiöse Spezialisten keltischer Gesellschaften bekannt waren. Die Vorstellung wurde kulturell außerordentlich einflussreich.
+John Aubrey und später William Stukeley verbanden das Monument deshalb mit den Druiden, die aus klassischen Quellen als religiöse Spezialisten keltischer Gesellschaften bekannt waren. Die Vorstellung wurde kulturell außerordentlich einflussreich.
 
 Die Archäologie verschob Stonehenge jedoch weit zurück in der Zeit. Stratigrafie, Fundtypologie und später Radiokarbondatierungen zeigten, dass das Monument in mehreren Phasen der Jungsteinzeit und Bronzezeit entstand.
 
-Die großen Steinsetzungen wurden ungefähr um **2500 v. Chr.** errichtet. Historisch beschriebene Druiden erscheinen erst viele Jahrhunderte später in eisenzeitlichen Gesellschaften.
+Die großen Steinsetzungen wurden ungefähr um 2500 v. Chr. errichtet. Historisch beschriebene Druiden erscheinen erst viele Jahrhunderte später in eisenzeitlichen Gesellschaften.
 
 Damit ist die zeitliche Lücke zu groß, um die dokumentierten Druiden als Erbauer zu identifizieren.
 

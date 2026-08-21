@@ -35,7 +35,7 @@ A sea sponge barely resembles a familiar animal. It is fixed to the substrate, h
 
 That appearance made sponges difficult to place in early classification systems. Some naturalists treated them as plants or as intermediate organisms somewhere between conventional kingdoms.
 
-Microscopy exposed distinctly animal biology. Sponges pump water through internal canals using specialized flagellated cells, capture food particles, digest nutrients, reproduce sexually, and often produce **free-swimming larvae**.
+Microscopy exposed distinctly animal biology. Sponges pump water through internal canals using specialized flagellated cells, capture food particles, digest nutrients, reproduce sexually, and often produce free-swimming larvae.
 
 They are now placed firmly within the animal kingdom and are crucial to research on the early evolution of multicellular animals.
 

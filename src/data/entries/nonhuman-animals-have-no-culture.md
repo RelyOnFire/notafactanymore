@@ -38,6 +38,6 @@ Comparable patterns appeared elsewhere: whale and bird vocal traditions, sociall
 
 Experiments strengthened the case by introducing new behaviors into groups and watching them spread socially and persist. In some wild bird studies, experimentally seeded foraging techniques survived across successive cohorts.
 
-Researchers still debate how broadly to use the word **culture**, especially because human cumulative culture can build technologies, institutions, and symbolic systems at an unmatched scale.
+Researchers still debate how broadly to use the word culture, especially because human cumulative culture can build technologies, institutions, and symbolic systems at an unmatched scale.
 
 The secure correction is narrower: socially learned, group-specific traditions are not uniquely human. Whatever boundary remains between human and nonhuman culture cannot be defined simply as the presence or absence of social transmission.

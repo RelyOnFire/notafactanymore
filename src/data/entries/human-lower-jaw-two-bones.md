@@ -35,7 +35,7 @@ This card is important partly because it prevents the history of anatomy from be
 
 The inherited Galenic description treated the adult lower jaw as two bones joined at the chin. That is an understandable error from comparative anatomy and development: humans are born with two mandibular halves, and several animals retain a visible midline union.
 
-Around **1200**, the physician and scholar **Abd al-Latif al-Baghdadi** encountered large collections of human skeletal remains in Egypt. He reports repeatedly examining the mandible, ultimately in more than two thousand skulls, and finding no joint at the chin. He explicitly argues that direct observation is stronger evidence than textual authority, even when the authority is Galen.
+Around 1200, the physician and scholar Abd al-Latif al-Baghdadi encountered large collections of human skeletal remains in Egypt. He reports repeatedly examining the mandible, ultimately in more than two thousand skulls, and finding no joint at the chin. He explicitly argues that direct observation is stronger evidence than textual authority, even when the authority is Galen.
 
 The adult human mandible is indeed a single bone. Its two embryonic halves fuse at the mandibular symphysis during infancy.
 

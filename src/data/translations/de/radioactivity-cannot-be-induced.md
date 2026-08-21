@@ -16,7 +16,7 @@ sourceNotes:
 
 Die ersten radioaktiven Stoffe wurden in der Natur entdeckt. Uran, Radium und verwandte Materialien sendeten scheinbar spontan Strahlung aus. Radioaktivität wirkte daher zunächst wie eine besondere Eigenschaft einer begrenzten Gruppe natürlich instabiler Stoffe.
 
-1934 beschossen Irène Joliot-Curie und Frédéric Joliot leichte Elemente mit Alphateilchen. Das überraschende Ergebnis zeigte sich, nachdem die externe Strahlungsquelle bereits entfernt worden war: Das bestrahlte Material **strahlte weiter**.
+1934 beschossen Irène Joliot-Curie und Frédéric Joliot leichte Elemente mit Alphateilchen. Das überraschende Ergebnis zeigte sich, nachdem die externe Strahlungsquelle bereits entfernt worden war: Das bestrahlte Material strahlte weiter.
 
 Bei der Bestrahlung waren neue, instabile Atomkerne entstanden, die zuvor in der Probe nicht vorhanden gewesen waren. Radioaktivität war künstlich erzeugt worden.
 

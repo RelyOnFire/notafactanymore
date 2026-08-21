@@ -34,7 +34,7 @@ Everyday language encourages a recording metaphor for memory: an event is “sto
 
 Experimental psychology showed that recall is more constructive. Frederic Bartlett's work in the 1930s demonstrated that people reshape remembered material using expectations and prior knowledge rather than reproducing it mechanically.
 
-Later experiments made the vulnerability especially clear for eyewitnesses. Misleading information introduced **after** an event can alter later reports—the misinformation effect. Question wording, conversations with other witnesses, lineup procedures, and feedback can all influence what is subsequently remembered and how confident a person feels about it.
+Later experiments made the vulnerability especially clear for eyewitnesses. Misleading information introduced after an event can alter later reports—the misinformation effect. Question wording, conversations with other witnesses, lineup procedures, and feedback can all influence what is subsequently remembered and how confident a person feels about it.
 
 This does not mean memory is useless or random. It usually preserves enough structure and meaning to guide ordinary life, and some memories can be highly accurate.
 

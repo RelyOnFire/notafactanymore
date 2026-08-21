@@ -20,6 +20,6 @@ Der photoelektrische Effekt zeigte jedoch eine Grenze des klassischen Modells. L
 
 1905 schlug Einstein vor, dass Licht Energie in diskreten Paketen austauscht. Die Idee war zunächst umstritten, gerade weil die Wellentheorie so erfolgreich gewesen war. Spätere Befunde, darunter die Compton-Streuung, stärkten die Vorstellung quantisierter elektromagnetischer Strahlung.
 
-Die Quantentheorie behielt beide Seiten der Beobachtung bei. Licht breitet sich aus und interferiert auf wellentypische Weise, während Wechselwirkungen in diskreten Quanten stattfinden können, die wir **Photonen** nennen.
+Die Quantentheorie behielt beide Seiten der Beobachtung bei. Licht breitet sich aus und interferiert auf wellentypische Weise, während Wechselwirkungen in diskreten Quanten stattfinden können, die wir Photonen nennen.
 
 Welle-Teilchen-Dualismus bedeutet nicht, dass sich ein Photon abwechselnd in eine winzige klassische Kugel und eine wasserähnliche Welle verwandelt. Beide klassischen Bilder sind nur begrenzte Analogien. Die klassische Wellenoptik bleibt für viele Anwendungen äußerst präzise, ist aber nicht die vollständige Theorie des Lichts.

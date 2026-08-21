@@ -16,7 +16,7 @@ sourceNotes:
 
 Nach Rutherfords Entdeckung des kleinen, positiv geladenen Atomkerns war klar, dass fast die gesamte Masse eines Atoms dort konzentriert ist. Gleichzeitig stellte sich ein Problem: Die Kernmasse vieler Elemente war erheblich größer, als sich aus ihrer positiven Ladung allein erklären ließ.
 
-Da Protonen und Elektronen die bekannten subatomaren Teilchen waren, entstand ein plausibles Modell: Der Kern könnte mehr Protonen enthalten, als seine Nettoladung vermuten ließ, während zusätzliche **Kernelektronen** einen Teil der positiven Ladung ausgleichen.
+Da Protonen und Elektronen die bekannten subatomaren Teilchen waren, entstand ein plausibles Modell: Der Kern könnte mehr Protonen enthalten, als seine Nettoladung vermuten ließ, während zusätzliche Kernelektronen einen Teil der positiven Ladung ausgleichen.
 
 Das Modell schien außerdem zum Betazerfall zu passen, bei dem Elektronen aus radioaktiven Stoffen austreten. Es war deshalb kein naiver Irrtum, sondern ein ernsthafter Versuch, Masse, Ladung und Radioaktivität mit dem damaligen Teilcheninventar zu vereinen.
 

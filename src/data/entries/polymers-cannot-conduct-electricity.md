@@ -34,7 +34,7 @@ Ordinary plastics are excellent electrical insulators. Their electrons are local
 
 That success encouraged a broader assumption: insulation was an unavoidable property of polymers as a class.
 
-Conjugated polymers changed the picture. Their backbones contain alternating bonds that allow electrons to become more delocalized than in familiar plastics. In the late 1970s, Hideki Shirakawa, Alan MacDiarmid, and Alan Heeger found that chemically **doping polyacetylene** increased its conductivity by many orders of magnitude.
+Conjugated polymers changed the picture. Their backbones contain alternating bonds that allow electrons to become more delocalized than in familiar plastics. In the late 1970s, Hideki Shirakawa, Alan MacDiarmid, and Alan Heeger found that chemically doping polyacetylene increased its conductivity by many orders of magnitude.
 
 The result showed that a material could retain a polymeric molecular structure while supporting substantial electrical transport. Conducting and semiconducting polymers later became important in sensors, displays, organic electronics, coatings, and energy devices.
 

@@ -32,7 +32,7 @@ sources:
 
 “Protist” was a useful solution to a taxonomic problem. Microscopic eukaryotes that were not convincingly animals, plants, or fungi could be placed together in one kingdom rather than forced into categories built around larger organisms.
 
-The weakness was evolutionary. The group was defined largely by what its members **were not**, not by a single shared ancestry exclusive of the other eukaryotic kingdoms.
+The weakness was evolutionary. The group was defined largely by what its members were not, not by a single shared ancestry exclusive of the other eukaryotic kingdoms.
 
 Ultrastructural studies began revealing deep differences among protists, and molecular phylogenies made the problem explicit. Some lineages traditionally called protists are more closely related to animals or fungi than to other protists; others lie near plants or within entirely different major branches.
 

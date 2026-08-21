@@ -20,7 +20,7 @@ Es lag daher nahe, diesen Trend einfach nach oben fortzuschreiben.
 
 Um 1902 ließen Léon Teisserenc de Bort in Frankreich und Richard Assmann in Deutschland unabhängig voneinander Instrumentenballons hoch genug steigen, um etwas Unerwartetes zu messen: In ungefähr 10 bis 15 Kilometern Höhe hörte die stetige Abkühlung auf.
 
-Damit wurde eine neue Atmosphärenschicht sichtbar, die später **Stratosphäre** genannt wurde. In großen Teilen dieser Schicht steigt die Temperatur mit der Höhe, weil Ozon ultraviolette Strahlung absorbiert und einen Teil dieser Energie in Wärme umwandelt.
+Damit wurde eine neue Atmosphärenschicht sichtbar, die später Stratosphäre genannt wurde. In großen Teilen dieser Schicht steigt die Temperatur mit der Höhe, weil Ozon ultraviolette Strahlung absorbiert und einen Teil dieser Energie in Wärme umwandelt.
 
 Noch weiter oben folgen zusätzliche Umkehrungen: In der Mesosphäre sinkt die Temperatur wieder, in der Thermosphäre steigt sie erneut.
 

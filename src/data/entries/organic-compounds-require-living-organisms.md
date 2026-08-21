@@ -30,7 +30,7 @@ sources:
     note: "Discusses the gradual rather than instantaneous decline of vitalist chemistry."
 ---
 
-Early chemistry divided substances associated with living organisms from the mineral world. Organic compounds seemed unusually complex, and many chemists believed their formation required a special **vital force** available only inside living bodies.
+Early chemistry divided substances associated with living organisms from the mineral world. Organic compounds seemed unusually complex, and many chemists believed their formation required a special vital force available only inside living bodies.
 
 In 1828, Friedrich Wöhler heated ammonium cyanate and obtained urea—a compound strongly associated with animal physiology—from materials that did not require a living organism.
 

@@ -20,6 +20,6 @@ Für Wasserstoff funktionierte das erstaunlich gut. Das Modell reproduzierte die
 
 Bei komplexeren Atomen geriet es jedoch an Grenzen. In den 1920er-Jahren ersetzten de Broglies Materiewellen, Schrödingers Wellenmechanik und Heisenbergs Matrizenmechanik feste klassische Bahnen durch Quantenzustände. Die Unschärferelation schloss zusätzlich die Vorstellung aus, ein Elektron besitze entlang einer verborgenen Planetenbahn gleichzeitig einen exakt bestimmten Ort und Impuls.
 
-Moderne **Orbitale** sind daher keine verschwommenen Bohr-Bahnen, die nur wegen unvollkommener Messgeräte unscharf erscheinen. Sie sind Quantenzustände, beschrieben durch Wellenfunktionen und Wahrscheinlichkeitsverteilungen.
+Moderne Orbitale sind daher keine verschwommenen Bohr-Bahnen, die nur wegen unvollkommener Messgeräte unscharf erscheinen. Sie sind Quantenzustände, beschrieben durch Wellenfunktionen und Wahrscheinlichkeitsverteilungen.
 
 Das Bohr-Modell bleibt als Einführung und Näherung, besonders für wasserstoffähnliche Atome, nützlich. Seine quantisierten Energieniveaus waren ein echter Fortschritt. Überholt ist die wörtliche Vorstellung fester Kreisbahnen.

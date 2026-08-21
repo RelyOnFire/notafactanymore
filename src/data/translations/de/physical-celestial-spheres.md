@@ -18,7 +18,7 @@ Die vertrauten Ringe in alten geozentrischen Darstellungen waren nicht immer blo
 
 In einflussreichen antiken und mittelalterlichen Kosmologien wurden die Planeten und Fixsterne mit ineinander verschachtelten kugelförmigen Strukturen um die Erde verbunden. Diese Sphären lieferten eine physische Architektur für die geordnete Kreisbewegung. Aristoteles' ausgereifte Kosmologie erforderte sogar ein umfangreiches System aufeinander abgestimmter Himmelssphären.
 
-Wie genau man sich das Material dieser Sphären vorstellte, unterschied sich je nach Autor und Epoche. Es wäre daher irreführend, von einer fünfzehn Jahrhunderte lang unveränderten Lehre von „Kristallsphären“ zu sprechen. Die Tradition physischer Sphären war jedoch bedeutend genug, dass der Komet von **1577** zu einer direkten Herausforderung wurde. Tycho Brahes Parallaxenmessungen verorteten den Kometen in der Planetenregion; wenn er sich durch diesen Raum bewegte, waren harte, ineinander liegende Schalen nur schwer aufrechtzuerhalten.
+Wie genau man sich das Material dieser Sphären vorstellte, unterschied sich je nach Autor und Epoche. Es wäre daher irreführend, von einer fünfzehn Jahrhunderte lang unveränderten Lehre von „Kristallsphären“ zu sprechen. Die Tradition physischer Sphären war jedoch bedeutend genug, dass der Komet von 1577 zu einer direkten Herausforderung wurde. Tycho Brahes Parallaxenmessungen verorteten den Kometen in der Planetenregion; wenn er sich durch diesen Raum bewegte, waren harte, ineinander liegende Schalen nur schwer aufrechtzuerhalten.
 
 Die kopernikanische Astronomie ordnete das System neu, während Kepler und anschließend Newton die von Sphären angetriebene Bewegung schrittweise durch mathematische Bahndynamik und universelle Gravitation ersetzten.
 

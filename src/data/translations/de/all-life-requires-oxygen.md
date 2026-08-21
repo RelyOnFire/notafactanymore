@@ -15,8 +15,8 @@ sourceNotes:
 - "Gibt einen Überblick über Energiestoffwechsel, bei denen andere Elektronenakzeptoren als molekularer Sauerstoff genutzt werden."
 ---
 
-Nachdem Sauerstoff identifiziert und seine Aufnahme mit der Atmung von Tieren verknüpft worden war, lag die Verallgemeinerung nahe, **freier Sauerstoff sei eine Grundvoraussetzung des Lebens**. In Pasteurs Gärungsversuchen begann diese Regel jedoch zu versagen. 1861 beschrieb er Mikroorganismen der Buttersäuregärung, die ohne freien Sauerstoff leben konnten; in späteren Arbeiten unterschied er Organismen, die Sauerstoff benötigen, von solchen, die ohne ihn auskommen.
+Nachdem Sauerstoff identifiziert und seine Aufnahme mit der Atmung von Tieren verknüpft worden war, lag die Verallgemeinerung nahe, freier Sauerstoff sei eine Grundvoraussetzung des Lebens. In Pasteurs Gärungsversuchen begann diese Regel jedoch zu versagen. 1861 beschrieb er Mikroorganismen der Buttersäuregärung, die ohne freien Sauerstoff leben konnten; in späteren Arbeiten unterschied er Organismen, die Sauerstoff benötigen, von solchen, die ohne ihn auskommen.
 
 Die Mikrobiologie machte aus der Anaerobiose schließlich weit mehr als eine scheinbare Ausnahme unter Gärungsorganismen. Viele Mikroben gewinnen Energie durch Gärung oder mithilfe alternativer Elektronenakzeptoren, fakultative Anaerobier können zwischen verschiedenen Stoffwechselweisen wechseln, und manche obligaten Anaerobier werden durch Sauerstoff geschädigt.
 
-Die Korrektur bezieht sich auf **molekularen Sauerstoff (O₂)**. Sie bedeutet nicht, dass anaerobe Organismen oder ihre Umwelt frei von Sauerstoffatomen wären.
+Die Korrektur bezieht sich auf molekularen Sauerstoff (O₂). Sie bedeutet nicht, dass anaerobe Organismen oder ihre Umwelt frei von Sauerstoffatomen wären.

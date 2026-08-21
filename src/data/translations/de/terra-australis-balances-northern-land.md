@@ -14,13 +14,13 @@ sourceNotes:
 - "Hält fest, dass Terra Australis häufig als große südliche Landmasse vorgestellt wurde, die die nördlichen Kontinente ausgleichen sollte."
 ---
 
-**Terra Australis Incognita** war eine Geografie, die teilweise aus Theorie entstand, bevor Beobachtungen vorlagen.
+Terra Australis Incognita war eine Geografie, die teilweise aus Theorie entstand, bevor Beobachtungen vorlagen.
 
-Europäische Karten zeigten über Jahrhunderte eine riesige südliche Landmasse, die weit über die heutige Antarktis hinausreichte. Eine wiederkehrende Begründung war der **Ausgleich**: Die großen bekannten Kontinente der Nordhalbkugel schienen eine vergleichbare südliche Landmasse zu erfordern, damit der Globus geografisch oder physikalisch symmetrisch blieb.
+Europäische Karten zeigten über Jahrhunderte eine riesige südliche Landmasse, die weit über die heutige Antarktis hinausreichte. Eine wiederkehrende Begründung war der Ausgleich: Die großen bekannten Kontinente der Nordhalbkugel schienen eine vergleichbare südliche Landmasse zu erfordern, damit der Globus geografisch oder physikalisch symmetrisch blieb.
 
 Als Reisen Australien, Neuseeland, Feuerland und pazifische Inseln erschlossen, formten Kartografen den hypothetischen Kontinent wiederholt um, statt ihn sofort aufzugeben.
 
-Im 18. Jahrhundert war Terra Australis wichtig genug, um zum ausdrücklichen Ziel staatlich finanzierter Erkundung zu werden. Nachdem **James Cook 1769 auf Tahiti den Venustransit beobachtet hatte, öffnete er geheime Anweisungen der Admiralität, die ihn anwiesen, südlich nach einem „continent, or land of great extent“ zu suchen**. Seine erste Reise entschied die Frage nicht. Auf der zweiten überquerte Cook den südlichen Polarkreis und segelte durch gewaltige Bereiche des Südlichen Ozeans, ohne den erwarteten gemäßigten Kontinent zu finden.
+Im 18. Jahrhundert war Terra Australis wichtig genug, um zum ausdrücklichen Ziel staatlich finanzierter Erkundung zu werden. Nachdem James Cook 1769 auf Tahiti den Venustransit beobachtet hatte, öffnete er geheime Anweisungen der Admiralität, die ihn anwiesen, südlich nach einem „continent, or land of great extent“ zu suchen. Seine erste Reise entschied die Frage nicht. Auf der zweiten überquerte Cook den südlichen Polarkreis und segelte durch gewaltige Bereiche des Südlichen Ozeans, ohne den erwarteten gemäßigten Kontinent zu finden.
 
 Die Antarktis zeigte schließlich, dass tatsächlich ein Südkontinent existiert. Er unterscheidet sich jedoch grundlegend von der riesigen, zugänglichen Ausgleichslandmasse, die frühere Theorien über weite Teile der Südhalbkugel gelegt hatten.
 

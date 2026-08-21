@@ -17,7 +17,7 @@ sourceNotes:
 - "Beschreibt die fortdauernde zentrale Rolle von Aristoteles' Physik in der Naturphilosophie der Renaissance."
 ---
 
-Die alte Regel war Teil von Aristoteles' umfassenderer Theorie der **natürlichen Bewegung**. Erdige und wässrige Körper sollten sich von Natur aus zum Mittelpunkt des Kosmos bewegen, Luft und Feuer dagegen nach oben. In seiner *Physik* argumentierte Aristoteles, dass ein Körper mit größerem Gewicht unter sonst gleichen Bedingungen schneller durch ein widerstehendes Medium bewegt werde. Fallgeschwindigkeit ergab sich damit aus dem Gewicht des Körpers und aus der Dichte des Mediums.
+Die alte Regel war Teil von Aristoteles' umfassenderer Theorie der natürlichen Bewegung. Erdige und wässrige Körper sollten sich von Natur aus zum Mittelpunkt des Kosmos bewegen, Luft und Feuer dagegen nach oben. In seiner *Physik* argumentierte Aristoteles, dass ein Körper mit größerem Gewicht unter sonst gleichen Bedingungen schneller durch ein widerstehendes Medium bewegt werde. Fallgeschwindigkeit ergab sich damit aus dem Gewicht des Körpers und aus der Dichte des Mediums.
 
 Das war keine einzelne Vermutung, die Gelehrte zwei Jahrtausende lang unverändert wiederholten. Aristoteles' Physik war ein Rahmen, an dem weitergearbeitet und gestritten wurde. Mittelalterliche Naturphilosophen kritisierten, veränderten und erweiterten Teile davon; Diskussionen über Wurfbewegung und Impetus sind gute Beispiele. Als Aristoteles' naturphilosophische Werke in die mittelalterlichen Universitäten gelangten, wurde seine *Physik* dennoch zu einem der zentralen Texte für das Studium von Bewegung.
 

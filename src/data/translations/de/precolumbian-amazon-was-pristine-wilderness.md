@@ -17,12 +17,12 @@ sourceNotes:
 
 Modelle der Mitte des 20. Jahrhunderts betonten häufig die ökologischen Grenzen des Amazonasbeckens. Nährstoffarme tropische Böden und schwierige Umweltbedingungen schienen große, dauerhafte Bevölkerungen zu begrenzen. Daraus entstand das Bild, der größte Teil des präkolumbischen Amazoniens sei dünn besiedelte, weitgehend unberührte Wildnis gewesen.
 
-Archäologische Funde machten dieses Modell zunehmend zu grob. In mehreren Regionen wurden **anthropogene Schwarzerden**, großflächige geometrische Erdwerke, Hochbeete, Straßen, Kanäle und komplexe Siedlungsnetze nachgewiesen.
+Archäologische Funde machten dieses Modell zunehmend zu grob. In mehreren Regionen wurden anthropogene Schwarzerden, großflächige geometrische Erdwerke, Hochbeete, Straßen, Kanäle und komplexe Siedlungsnetze nachgewiesen.
 
 Pflanzenverteilungen und paläoökologische Daten ergänzten das Bild. Manche heutigen Wälder tragen bis heute Spuren jahrhundertelanger oder jahrtausendelanger Nutzung, etwa durch gezielte Förderung nützlicher Pflanzen, Brandmanagement und Agroforstwirtschaft.
 
 Lidar macht inzwischen auch unter dichter Vegetation Landschaftsstrukturen sichtbar, die vom Boden aus leicht übersehen werden und zeigt in einigen Regionen eine wesentlich intensivere Besiedlung als früher angenommen.
 
-Die Korrektur muss jedoch **regional** bleiben. Amazonien ist riesig, die archäologische Sichtbarkeit sehr ungleich, und Bevölkerungsdichte sowie Eingriffsintensität unterschieden sich stark nach Ort und Zeit. Aus bedeutenden Zentren und stark bewirtschafteten Landschaften folgt nicht, dass das gesamte Becken urbanisiert war.
+Die Korrektur muss jedoch regional bleiben. Amazonien ist riesig, die archäologische Sichtbarkeit sehr ungleich, und Bevölkerungsdichte sowie Eingriffsintensität unterschieden sich stark nach Ort und Zeit. Aus bedeutenden Zentren und stark bewirtschafteten Landschaften folgt nicht, dass das gesamte Becken urbanisiert war.
 
 Ebenso bedeutet „nicht unberührt“ nicht, dass heutige industrielle Abholzung, Bergbau oder großflächige Brände ökologisch mit historischer indigener Landnutzung gleichzusetzen wären. Der Befund zeigt eine tiefe Geschichte menschlicher Landschaftspflege, keine Aufhebung von Unterschieden in Maßstab und Wirkung.

@@ -36,4 +36,4 @@ The pose became culturally self-reinforcing. Illustrations copied museum mounts,
 
 Biomechanical reconstruction increasingly placed the spine closer to horizontal, with the tail held clear of the ground as a counterbalance to the head and torso. The dinosaur renaissance of the late twentieth century made this more active, balanced posture familiar, and museums remounted major skeletons accordingly.
 
-Occasional fossil tail-drag marks do exist, so no absolute rule says a dinosaur's tail could never touch the ground. The change concerns the **normal walking posture** represented by generations of reconstructions.
+Occasional fossil tail-drag marks do exist, so no absolute rule says a dinosaur's tail could never touch the ground. The change concerns the normal walking posture represented by generations of reconstructions.

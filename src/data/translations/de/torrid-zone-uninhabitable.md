@@ -18,7 +18,7 @@ Die „heiße Zone“ war eine geografische Schlussfolgerung aus der Geometrie d
 
 Griechische Geografen teilten die kugelförmige Erde in Klimagürtel. Aristoteles argumentierte, Regionen jenseits der Tropen seien wegen übermäßiger Hitze unbewohnbar, während die Polarregionen wegen der Kälte unbewohnbar seien. Bewohnbares Land lag demnach in gemäßigten Zonen zwischen diesen Extremen.
 
-Die Vorstellung war nie unumstritten. **Strabon** kritisierte ausdrücklich zu weit gefasste Versionen der heißen Zone und verwies auf bewohnte äthiopische Regionen als Beleg dafür, dass beträchtliche Gebiete nahe den Tropen offensichtlich bewohnbar waren. Dieser Widerspruch ist wichtig: Es handelte sich um eine gelehrte geografische Debatte, nicht um eine universelle antike Tatsache.
+Die Vorstellung war nie unumstritten. Strabon kritisierte ausdrücklich zu weit gefasste Versionen der heißen Zone und verwies auf bewohnte äthiopische Regionen als Beleg dafür, dass beträchtliche Gebiete nahe den Tropen offensichtlich bewohnbar waren. Dieser Widerspruch ist wichtig: Es handelte sich um eine gelehrte geografische Debatte, nicht um eine universelle antike Tatsache.
 
 Varianten dieses Klimazonenschemas gingen dennoch in die spätere europäische Geografie ein. Als europäische Seefahrer im 15. Jahrhundert immer weiter an der afrikanischen Küste nach Süden vordrangen, ersetzten tatsächlich bewohnte tropische Umgebungen auf europäischen Karten zunehmend abstrakte thermische Grenzen.
 

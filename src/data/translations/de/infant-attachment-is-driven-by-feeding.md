@@ -18,7 +18,7 @@ Behavioristische und triebtheoretische Ansätze boten eine einfache Erklärung f
 
 Harry Harlows Experimente mit Rhesusaffen trennten Füttern und Trost gezielt voneinander. Junge Affen konnten zwischen einer nackten Draht-Ersatzmutter, die Milch bereitstellte, und einer weich bezogenen Ersatzmutter wählen, die nicht unbedingt fütterte. Sie verbrachten deutlich mehr Zeit an der weichen Figur und suchten sie bei Angst als sicheren Zufluchtsort auf.
 
-Damit ließ sich **Kontaktkomfort** schwer noch als bloßes Nebenprodukt des Fütterns erklären. Parallel betonten John Bowlbys Bindungstheorie und Mary Ainsworths Beobachtungen menschlicher Betreuungsperson-Kind-Beziehungen Nähe, Sicherheit und feinfühlige Reaktion als zentrale Bestandteile von Bindung.
+Damit ließ sich Kontaktkomfort schwer noch als bloßes Nebenprodukt des Fütterns erklären. Parallel betonten John Bowlbys Bindungstheorie und Mary Ainsworths Beobachtungen menschlicher Betreuungsperson-Kind-Beziehungen Nähe, Sicherheit und feinfühlige Reaktion als zentrale Bestandteile von Bindung.
 
 Füttern bleibt natürlich ein Teil der Betreuung und kann soziale Bindung fördern. Überholt ist die engere Vorstellung, Bindung entstehe hauptsächlich als gelernte Belohnungsassoziation, weil eine bestimmte Person Kalorien liefert.
 

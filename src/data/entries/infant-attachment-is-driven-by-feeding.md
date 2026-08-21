@@ -34,7 +34,7 @@ Behaviorist and drive-reduction theories offered a straightforward explanation f
 
 Harry Harlow's surrogate-mother experiments with rhesus monkeys directly separated feeding from comfort. Infant monkeys were given access to a bare wire surrogate that could provide milk and a soft cloth-covered surrogate that did not necessarily feed them. The infants spent far more time clinging to the soft surrogate and sought it for security when frightened.
 
-The findings made **contact comfort** difficult to treat as a mere by-product of feeding. At the same time, John Bowlby's attachment theory and Mary Ainsworth's observations of human caregiver–child relationships emphasized proximity, security and responsive caregiving as central features of attachment.
+The findings made contact comfort difficult to treat as a mere by-product of feeding. At the same time, John Bowlby's attachment theory and Mary Ainsworth's observations of human caregiver–child relationships emphasized proximity, security and responsive caregiving as central features of attachment.
 
 Feeding is still part of caregiving and can contribute to social bonding. The superseded idea is that attachment is mainly a learned reward association created because one person supplies calories.
 

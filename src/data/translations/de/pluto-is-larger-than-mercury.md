@@ -18,10 +18,10 @@ Als Pluto 1930 entdeckt wurde, kannten Astronomen seine Umlaufbahn lange bevor s
 
 Wenn Pluto eine dunkle Oberfläche besäße, müsste er sehr groß sein, um so hell zu erscheinen. Entsprechend streuten frühe Schätzungen stark und rückten ihn teilweise in die Größenordnung großer Planeten.
 
-Die Entdeckung von **Charon** im Jahr 1978 änderte die Massenschätzung grundlegend. Aus der Umlaufbahn des Mondes ließ sich das Pluto-System dynamisch „wiegen“, und Pluto erwies sich als wesentlich masseärmer als gedacht.
+Die Entdeckung von Charon im Jahr 1978 änderte die Massenschätzung grundlegend. Aus der Umlaufbahn des Mondes ließ sich das Pluto-System dynamisch „wiegen“, und Pluto erwies sich als wesentlich masseärmer als gedacht.
 
-Sternbedeckungen, bessere Teleskope und schließlich der Vorbeiflug von New Horizons 2015 verfeinerten die Abmessungen. Heute wird Plutos Durchmesser mit rund **2.377 Kilometern** angegeben – kleiner als der Erdmond und weit kleiner als Merkur.
+Sternbedeckungen, bessere Teleskope und schließlich der Vorbeiflug von New Horizons 2015 verfeinerten die Abmessungen. Heute wird Plutos Durchmesser mit rund 2.377 Kilometern angegeben – kleiner als der Erdmond und weit kleiner als Merkur.
 
-Diese Geschichte ist eine **Messkorrektur** und nicht dasselbe wie Plutos spätere Neuklassifizierung 2006. Schon lange vor der Planetendebatte war klar geworden, dass Pluto eine kleine Welt ist.
+Diese Geschichte ist eine Messkorrektur und nicht dasselbe wie Plutos spätere Neuklassifizierung 2006. Schon lange vor der Planetendebatte war klar geworden, dass Pluto eine kleine Welt ist.
 
 Auch die frühen Werte waren nicht einheitlich; es gab keine einzelne verbindliche erdgroße Schätzung. Die dauerhafte Korrektur betrifft den Maßstab: Pluto ist erheblich kleiner als die großen Planeten, mit denen er anfangs verglichen wurde.

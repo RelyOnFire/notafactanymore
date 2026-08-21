@@ -20,7 +20,7 @@ Traditionelle Wundpflege zielte deshalb häufig darauf ab, Wunden bewusst auszut
 
 Experimente ab den 1960er-Jahren zeigten jedoch, dass diese sichtbare Kruste nicht unbedingt die beste Umgebung für Gewebereparatur schafft.
 
-Epithelzellen wandern über eine Wundoberfläche effizienter, wenn sie **angemessen feucht** bleibt. Bei übermäßiger Trockenheit kann ein harter Schorf zum Hindernis werden, unter dem Zellen wandern müssen, während freiliegendes Gewebe zusätzlich austrocknet.
+Epithelzellen wandern über eine Wundoberfläche effizienter, wenn sie angemessen feucht bleibt. Bei übermäßiger Trockenheit kann ein harter Schorf zum Hindernis werden, unter dem Zellen wandern müssen, während freiliegendes Gewebe zusätzlich austrocknet.
 
 Moderne Verbände sollen daher häufig schützen und zugleich eine kontrolliert feuchte Umgebung erhalten.
 

@@ -17,4 +17,4 @@ Die Domestikation des Huhns war ungewöhnlich schwer zu rekonstruieren. Wilde Ba
 
 Die Studie von 2022 beruhte nicht auf einem einzelnen spektakulären Fund. Sie prüfte den globalen archäologischen Datensatz neu und fragte bei jedem Vorkommen, ob es wirklich Huhn war, sicher mit Menschen verbunden und solide datiert. Dadurch fielen viele frühe Behauptungen weg. Als früheste eindeutige Haushühner blieben Funde aus Ban Non Wat in Zentralthailand um etwa 1650 bis 1250 v. Chr.
 
-Diese Karte soll nicht sagen, Indien sei die einzige ältere Hypothese gewesen. Die Ursprünge des Haushuhns waren umstritten, und genetische Daten hatten einfache Ein-Zentrum-Erzählungen bereits erschwert. Die Korrektur ist enger: **Das Domestikationsmodell für den indischen Subkontinent passt nicht mehr zur stärksten archäologischen Chronologie.**
+Diese Karte soll nicht sagen, Indien sei die einzige ältere Hypothese gewesen. Die Ursprünge des Haushuhns waren umstritten, und genetische Daten hatten einfache Ein-Zentrum-Erzählungen bereits erschwert. Die Korrektur ist enger: Das Domestikationsmodell für den indischen Subkontinent passt nicht mehr zur stärksten archäologischen Chronologie.

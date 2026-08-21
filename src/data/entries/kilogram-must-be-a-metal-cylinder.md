@@ -36,6 +36,6 @@ The system was remarkably successful, but it had a conceptual weakness. If the d
 
 Metrology therefore pursued a definition based on an invariant property of nature rather than a particular object. Kibble balances linked mechanical power to electrical measurements, while atom-counting approaches provided an independent route to the same mass scale.
 
-In 2019, the SI redefinition fixed the numerical value of the **Planck constant**. The kilogram is now realized through measurements traceable to that constant instead of being equal by definition to the mass of one cylinder.
+In 2019, the SI redefinition fixed the numerical value of the Planck constant. The kilogram is now realized through measurements traceable to that constant instead of being equal by definition to the mass of one cylinder.
 
 Physical kilogram standards did not become useless. Laboratories still use carefully maintained masses as practical transfer standards. What changed was the foundation of the unit itself.

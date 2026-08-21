@@ -31,13 +31,13 @@ sources:
   note: Provides the exact vacuum speed of light, the reference point for modern refractive-index descriptions.
 ---
 
-For a time, measuring light's speed in water was a way to choose between two competing pictures of what light **is**.
+For a time, measuring light's speed in water was a way to choose between two competing pictures of what light is.
 
-In Newtonian corpuscular optics, light consisted of tiny particles. To bend a ray toward the normal when it entered water or glass, the denser medium was supposed to exert an attractive force that increased the corpuscles' speed. **Wave theories predicted the opposite**: refraction into a denser medium required a lower propagation speed.
+In Newtonian corpuscular optics, light consisted of tiny particles. To bend a ray toward the normal when it entered water or glass, the denser medium was supposed to exert an attractive force that increased the corpuscles' speed. Wave theories predicted the opposite: refraction into a denser medium required a lower propagation speed.
 
 Newtonian optics dominated much eighteenth-century British and European optics, so the faster-in-water prediction acquired substantial authority even though wave theories never disappeared.
 
-The experimental test was extraordinarily difficult because light moves so quickly. In **1850**, Léon Foucault adapted a rotating-mirror method to compare the speed of light through air and water over laboratory distances. The result was decisive in sign: light traveled **slower** in water.
+The experimental test was extraordinarily difficult because light moves so quickly. In 1850, Léon Foucault adapted a rotating-mirror method to compare the speed of light through air and water over laboratory distances. The result was decisive in sign: light traveled slower in water.
 
 That did not by itself establish the full modern electromagnetic theory of light, but it removed one of the most important experimental advantages of Newton's corpuscular refraction mechanism.
 

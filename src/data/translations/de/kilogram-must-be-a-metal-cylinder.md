@@ -20,6 +20,6 @@ Das System funktionierte bemerkenswert gut, hatte aber eine grundsätzliche Schw
 
 Die Metrologie suchte deshalb nach einer Definition, die auf einer unveränderlichen Eigenschaft der Natur statt auf einem einzelnen Objekt beruht. Kibble-Waagen verknüpfen mechanische Leistung mit elektrischen Messgrößen; Verfahren zur Atomzählung lieferten einen unabhängigen Weg zur selben Massenskala.
 
-Mit der SI-Neudefinition von 2019 wurde der Zahlenwert der **Planckschen Konstante** festgelegt. Das Kilogramm wird seitdem durch Messungen realisiert, die auf diese Konstante zurückgeführt werden können, statt definitionsgemäß der Masse eines bestimmten Zylinders zu entsprechen.
+Mit der SI-Neudefinition von 2019 wurde der Zahlenwert der Planckschen Konstante festgelegt. Das Kilogramm wird seitdem durch Messungen realisiert, die auf diese Konstante zurückgeführt werden können, statt definitionsgemäß der Masse eines bestimmten Zylinders zu entsprechen.
 
 Physische Kilogrammnormale wurden dadurch nicht nutzlos. Labore verwenden sorgfältig erhaltene Massestücke weiterhin als praktische Vergleichs- und Transferstandards. Geändert hat sich die Grundlage der Einheit selbst.

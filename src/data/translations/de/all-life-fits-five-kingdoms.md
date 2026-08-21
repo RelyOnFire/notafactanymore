@@ -20,7 +20,7 @@ Bis zum späten 20. Jahrhundert wurde dieses Schema zu einer Standardkarte des L
 
 Molekulare Phylogenie veränderte die Karte grundlegend. DNA- und RNA-Sequenzen erlaubten es, Verwandtschaft direkt über gemeinsame Abstammung zu rekonstruieren statt hauptsächlich über sichtbare Merkmale.
 
-Dabei zerfiel das Reich **Monera**, als Archaeen als tief eigenständige Linie neben den Bakterien erkannt wurden. Auch Protista erwies sich als Sammelgruppe: Viele dort vereinte mikroskopische Eukaryoten gehören zu weit auseinanderliegenden Ästen des Stammbaums.
+Dabei zerfiel das Reich Monera, als Archaeen als tief eigenständige Linie neben den Bakterien erkannt wurden. Auch Protista erwies sich als Sammelgruppe: Viele dort vereinte mikroskopische Eukaryoten gehören zu weit auseinanderliegenden Ästen des Stammbaums.
 
 Moderne Klassifikationen arbeiten daher mit Domänen und mehreren großen eukaryotischen Linien oder Supergruppen.
 

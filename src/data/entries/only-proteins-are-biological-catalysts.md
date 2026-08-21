@@ -29,7 +29,7 @@ Enzymes were proteins. By the late twentieth century, that statement looked almo
 
 Two discoveries overturned that boundary independently. Thomas Cech found that an RNA molecule in *Tetrahymena* could catalyze its own splicing, while Sidney Altman's work on RNase P showed that its RNA component carried catalytic activity.
 
-The molecules became known as **ribozymes**. RNA could do more than store or transmit information; it could accelerate chemical reactions.
+The molecules became known as ribozymes. RNA could do more than store or transmit information; it could accelerate chemical reactions.
 
 The discovery also changed how biologists thought about the early evolution of life, because RNA possesses both informational and catalytic capabilities. That helped motivate the RNA-world hypothesis.
 

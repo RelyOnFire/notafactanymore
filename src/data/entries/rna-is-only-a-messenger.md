@@ -34,10 +34,10 @@ The early central picture of molecular biology gave RNA an important but seeming
 
 That division of labor steadily broke down.
 
-Ribosomal RNA turned out to be a core structural and catalytic part of the ribosome. In the early 1980s, researchers discovered **ribozymes**—RNA molecules capable of catalyzing chemical reactions.
+Ribosomal RNA turned out to be a core structural and catalytic part of the ribosome. In the early 1980s, researchers discovered ribozymes—RNA molecules capable of catalyzing chemical reactions.
 
 Small regulatory RNAs added another layer. RNA interference showed that short RNA molecules can recognize matching sequences and silence gene expression, while many other noncoding RNAs participate in processing, regulation, chromosome biology, and genome defense.
 
 Messenger RNA remains essential, and carrying protein-coding instructions is still one of RNA's central functions.
 
-The superseded idea is the word **only**. RNA is not merely a disposable courier between DNA and protein; it can be structural, catalytic, regulatory, and in some viruses even hereditary.
+The superseded idea is the word only. RNA is not merely a disposable courier between DNA and protein; it can be structural, catalytic, regulatory, and in some viruses even hereditary.

@@ -38,6 +38,6 @@ Mining engineer Daniel Barringer argued in the early twentieth century that a me
 
 Modern impact physics explains why that search failed. A high-speed collision releases enough energy to vaporize, melt, fragment, and disperse much of the projectile.
 
-Eugene Shoemaker's later geological mapping supplied the decisive evidence. Overturned rock layers, ejecta patterns, shocked minerals, and structural relationships matched an explosion directed **downward from an impact**, not upward from volcanic activity.
+Eugene Shoemaker's later geological mapping supplied the decisive evidence. Overturned rock layers, ejecta patterns, shocked minerals, and structural relationships matched an explosion directed downward from an impact, not upward from volcanic activity.
 
 Meteor Crater became one of the key terrestrial laboratories for recognizing impact structures elsewhere on Earth and across the Solar System.

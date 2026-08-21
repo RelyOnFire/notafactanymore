@@ -20,7 +20,7 @@ Im Verlauf des 20. Jahrhunderts wurde der Eingriff in vielen Kliniken nahezu rou
 
 Vergleichende Untersuchungen kehrten die Annahme um. Eine routinemäßige Episiotomie verhinderte schwere Dammverletzungen oder spätere Beckenbodenprobleme nicht zuverlässig und konnte selbst Schmerzen, Blutverlust, Wundheilungsstörungen sowie die Ausdehnung zu schwereren Verletzungen begünstigen.
 
-Ein **zurückhaltender Einsatz** – also eine Episiotomie nur bei konkreter Indikation – führte bei den meisten spontanen vaginalen Geburten insgesamt zu besseren Ergebnissen und wurde zum empfohlenen Vorgehen.
+Ein zurückhaltender Einsatz – also eine Episiotomie nur bei konkreter Indikation – führte bei den meisten spontanen vaginalen Geburten insgesamt zu besseren Ergebnissen und wurde zum empfohlenen Vorgehen.
 
 Der Eingriff ist damit nicht verschwunden. Bei bestimmten assistierten Geburten, akuter fetaler Gefährdung oder anderen ausgewählten Situationen kann er weiterhin sinnvoll sein.
 

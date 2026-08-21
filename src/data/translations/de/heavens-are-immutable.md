@@ -18,6 +18,6 @@ Aristoteles teilte den Kosmos in zwei physikalisch verschiedene Bereiche. Unterh
 
 Diese Trennung wurde zu einer der ordnenden Ideen späterer aristotelischer Naturphilosophie. Es ging um die Frage, welche Arten von Veränderung in verschiedenen Regionen des Universums überhaupt physikalisch möglich seien — weit mehr als nur um die Beobachtung, dass Sterne *stabil aussahen*.
 
-Dann lieferte der Himmel unbequeme Belege. **1572** erschien ein heller „neuer Stern“. Tycho Brahes Messungen fanden keine tägliche Parallaxe, die groß genug gewesen wäre, um ihn in der Atmosphäre zu verorten; er gehörte in die Sternensphäre. **1577** zeigte auch ein großer Komet zu wenig Parallaxe für ein atmosphärisches Objekt und musste Regionen durchqueren, in denen verschachtelte Himmelssphären angenommen worden waren.
+Dann lieferte der Himmel unbequeme Belege. 1572 erschien ein heller „neuer Stern“. Tycho Brahes Messungen fanden keine tägliche Parallaxe, die groß genug gewesen wäre, um ihn in der Atmosphäre zu verorten; er gehörte in die Sternensphäre. 1577 zeigte auch ein großer Komet zu wenig Parallaxe für ein atmosphärisches Objekt und musste Regionen durchqueren, in denen verschachtelte Himmelssphären angenommen worden waren.
 
 Das Teleskop verschärfte das Problem: Berge und Krater machten den angeblich perfekten Mond uneben, während Sonnenflecken sich über die Oberfläche der Sonne bewegten. Der Himmel war zu einem physikalischen Ort geworden, an dem tatsächlich Dinge geschehen.

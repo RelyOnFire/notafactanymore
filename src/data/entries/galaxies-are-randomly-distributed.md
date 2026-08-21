@@ -34,7 +34,7 @@ A two-dimensional photograph of the sky shows galaxies scattered in every direct
 
 Redshift surveys changed the view by adding distance. Astronomers measured the spectra of thousands and then millions of galaxies and plotted their positions in three dimensions. Instead of an even statistical sprinkling, the maps revealed long filaments and sheets wrapped around enormous regions containing relatively few galaxies.
 
-Successive surveys extended this **cosmic web** across hundreds of millions of light-years. Modern cosmology explains the pattern as the result of gravity amplifying small density variations in the early universe, with dark matter providing much of the underlying structure into which ordinary matter and galaxies formed.
+Successive surveys extended this cosmic web across hundreds of millions of light-years. Modern cosmology explains the pattern as the result of gravity amplifying small density variations in the early universe, with dark matter providing much of the underlying structure into which ordinary matter and galaxies formed.
 
 This does not violate the cosmological principle. On sufficiently large scales, the universe can be statistically homogeneous and isotropic while still containing highly structured clustering on smaller scales.
 

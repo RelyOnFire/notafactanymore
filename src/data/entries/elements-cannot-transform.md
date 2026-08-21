@@ -38,6 +38,6 @@ Radioactivity broke the rule. Studying radioactive materials around 1902, Ernest
 
 Rutherford later demonstrated an artificial nuclear transformation by bombarding nitrogen and producing oxygen. Subsequent nuclear physics made transmutation routine in reactors and accelerators and created elements not previously known on Earth.
 
-The crucial distinction is the **atomic nucleus**. Chemical reactions rearrange electrons and bonds while leaving the proton count unchanged. Nuclear decay or reactions can change that proton count, and therefore the identity of the element.
+The crucial distinction is the atomic nucleus. Chemical reactions rearrange electrons and bonds while leaving the proton count unchanged. Nuclear decay or reactions can change that proton count, and therefore the identity of the element.
 
 This does not vindicate the old alchemical expectation that bulk lead can be cheaply converted into gold by ordinary chemical treatment. Nuclear transmutation is real, but it operates through entirely different physics.

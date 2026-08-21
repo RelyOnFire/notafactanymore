@@ -32,7 +32,7 @@ sources:
 
 Early occupational medicine recognized that heavy asbestos exposure could scar the lungs, producing asbestosis. Cancer was harder to connect.
 
-One reason was **latency**. Mesothelioma and lung cancer often appear decades after the exposure that caused them, long after workers had changed jobs or retired.
+One reason was latency. Mesothelioma and lung cancer often appear decades after the exposure that caused them, long after workers had changed jobs or retired.
 
 As larger occupational cohorts were followed, the pattern became unmistakable. Workers with heavy asbestos exposure developed excess cancers, and the striking association with mesothelioma provided an especially distinctive signal.
 

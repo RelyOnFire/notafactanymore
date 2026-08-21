@@ -29,7 +29,7 @@ For decades, the simplest Standard Model treated neutrinos as exactly massless. 
 
 A long-running observational problem refused to fit comfortably: detectors saw fewer solar and atmospheric neutrinos of particular flavors than expected. One possibility was that the experiments or astrophysical models were wrong. Another was that neutrinos were changing identity while traveling.
 
-Super-Kamiokande provided decisive evidence in 1998 that atmospheric neutrinos were **oscillating** between flavors. The Sudbury Neutrino Observatory later showed that the Sun was producing the expected overall neutrino flux even though many electron neutrinos arrived as other flavors.
+Super-Kamiokande provided decisive evidence in 1998 that atmospheric neutrinos were oscillating between flavors. The Sudbury Neutrino Observatory later showed that the Sun was producing the expected overall neutrino flux even though many electron neutrinos arrived as other flavors.
 
 Flavor oscillation requires neutrino states with different masses, so at least some neutrino masses must be nonzero.
 

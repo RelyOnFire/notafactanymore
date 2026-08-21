@@ -34,7 +34,7 @@ The emerging molecular framework of the 1950s emphasized a familiar direction of
 
 Howard Temin's work on RNA tumor viruses challenged that picture. He proposed that an RNA virus could make a DNA copy inside an infected cell, but the idea initially ran against prevailing expectations.
 
-In 1970, Temin and David Baltimore independently identified an enzyme that did exactly that. **Reverse transcriptase** uses RNA as a template to synthesize DNA. Retroviruses use the resulting DNA copy to integrate viral information into the host genome.
+In 1970, Temin and David Baltimore independently identified an enzyme that did exactly that. Reverse transcriptase uses RNA as a template to synthesize DNA. Retroviruses use the resulting DNA copy to integrate viral information into the host genome.
 
 Reverse transcription later turned out not to be a viral oddity. Related enzymes and mechanisms occur in normal cellular biology, including retrotransposons and telomerase.
 

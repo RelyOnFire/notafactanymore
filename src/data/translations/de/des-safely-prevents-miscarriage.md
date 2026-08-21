@@ -16,7 +16,7 @@ sourceNotes:
 
 DES war ein stark wirksames synthetisches Östrogen. Seit den 1940er-Jahren verschrieben Ärzte es Schwangeren in der Hoffnung, hormonelle Unterstützung könne Fehlgeburten und andere Komplikationen verhindern. Die Behandlung verbreitete sich, bevor überzeugende kontrollierte Studien überhaupt gezeigt hatten, dass sie wirkte.
 
-Schon früh wurde die Evidenz unbequem. Eine 1953 veröffentlichte randomisierte Studie fand, dass DES Fehlgeburten und die anderen Schwangerschaftsprobleme, gegen die es eingesetzt wurde, **nicht** verhinderte. Trotzdem wurde das Medikament noch jahrelang weitergegeben – auch weil sich etablierte medizinische Praxis oft langsamer ändert als die zugrunde liegende Evidenz.
+Schon früh wurde die Evidenz unbequem. Eine 1953 veröffentlichte randomisierte Studie fand, dass DES Fehlgeburten und die anderen Schwangerschaftsprobleme, gegen die es eingesetzt wurde, nicht verhinderte. Trotzdem wurde das Medikament noch jahrelang weitergegeben – auch weil sich etablierte medizinische Praxis oft langsamer ändert als die zugrunde liegende Evidenz.
 
 Der entscheidende Sicherheitsschock kam 1971. Ärzte berichteten über eine ungewöhnliche Häufung des klarzelligen Adenokarzinoms der Vagina bei sehr jungen Frauen. Als auffälliger gemeinsamer Faktor erwies sich die DES-Exposition vor der Geburt. Spätere Forschung dokumentierte weitere reproduktive und gesundheitliche Folgen, und Behörden warnten schließlich vor der Anwendung in der Schwangerschaft.
 

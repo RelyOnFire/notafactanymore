@@ -28,7 +28,7 @@ sources:
 
 Medical astrology was not the medieval equivalent of reading a horoscope column.
 
-In late-medieval and early-modern European universities, astronomy and astrology belonged to learned mathematical culture and were deeply entangled with medicine. **Ptolemy's** astrological framework held that heavenly bodies exerted physical influences on the terrestrial world. Combined with Galenic humoral medicine, planetary qualities such as heat, cold, moisture, and dryness could be mapped onto bodies and diseases.
+In late-medieval and early-modern European universities, astronomy and astrology belonged to learned mathematical culture and were deeply entangled with medicine. Ptolemy's astrological framework held that heavenly bodies exerted physical influences on the terrestrial world. Combined with Galenic humoral medicine, planetary qualities such as heat, cold, moisture, and dryness could be mapped onto bodies and diseases.
 
 Physicians used natal charts to assess predisposition, zodiacal diagrams to relate body regions to signs, and planetary timing to decide when to bleed or administer medicines. Astrological configurations were also used to forecast epidemics. These were attempts at causal and predictive medicine using the best astronomical calculations available.
 
@@ -36,4 +36,4 @@ The boundary did not disappear suddenly with the Scientific Revolution. After 17
 
 As medicine acquired stronger causal tools, including pathological anatomy, physiology, chemistry, germ theory, epidemiology, and genetics, the celestial framework lost explanatory value.
 
-The card is deliberately scoped to **learned medical astrology**, not modern popular astrology, and its long gradual decline makes an exact lifespan misleading.
+The card is deliberately scoped to learned medical astrology, not modern popular astrology, and its long gradual decline makes an exact lifespan misleading.

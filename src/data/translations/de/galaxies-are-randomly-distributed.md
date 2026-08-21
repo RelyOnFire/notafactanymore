@@ -18,7 +18,7 @@ Auf zweidimensionalen Himmelsaufnahmen wirken Galaxien zunächst in alle Richtun
 
 Rotverschiebungsdurchmusterungen änderten das Bild, weil sie die dritte Dimension hinzufügten. Astronomen maßen die Spektren von zunächst Tausenden und später Millionen Galaxien und trugen ihre Positionen räumlich auf. Statt einer gleichmäßigen statistischen Streuung erschienen lange Filamente und Wände, die gewaltige Regionen mit vergleichsweise wenigen Galaxien umschließen.
 
-Immer größere Durchmusterungen verfolgten dieses **kosmische Netz** über Hunderte Millionen Lichtjahre. Die moderne Kosmologie erklärt es dadurch, dass Gravitation kleine Dichteunterschiede des frühen Universums verstärkte, wobei Dunkle Materie einen großen Teil der zugrunde liegenden Struktur bildet, in der sich gewöhnliche Materie und Galaxien sammelten.
+Immer größere Durchmusterungen verfolgten dieses kosmische Netz über Hunderte Millionen Lichtjahre. Die moderne Kosmologie erklärt es dadurch, dass Gravitation kleine Dichteunterschiede des frühen Universums verstärkte, wobei Dunkle Materie einen großen Teil der zugrunde liegenden Struktur bildet, in der sich gewöhnliche Materie und Galaxien sammelten.
 
 Das widerspricht dem kosmologischen Prinzip nicht. Auf hinreichend großen Skalen kann das Universum statistisch homogen und isotrop sein und zugleich auf kleineren Skalen stark strukturiert erscheinen.
 

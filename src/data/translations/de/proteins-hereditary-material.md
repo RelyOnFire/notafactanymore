@@ -20,7 +20,7 @@ Für viele Genetiker war deshalb schwer vorstellbar, dass gerade DNA genügend I
 
 Avery, MacLeod und McCarty untersuchten das Problem anhand der bakteriellen Transformation. Sie reinigten den Stoff aus *Streptococcus pneumoniae*, der ein erbliches Merkmal von einem Bakterienstamm auf einen anderen übertragen konnte, und zerstörten anschließend gezielt verschiedene Molekülklassen.
 
-Wurde Protein abgebaut, blieb die Transformationsfähigkeit erhalten. Wurde dagegen **DNA** zerstört, verschwand sie.
+Wurde Protein abgebaut, blieb die Transformationsfähigkeit erhalten. Wurde dagegen DNA zerstört, verschwand sie.
 
 Das Ergebnis von 1944 war entscheidend, setzte sich aber nicht augenblicklich durch. Einige Forschende vermuteten Verunreinigungen oder hielten Proteine weiterhin für den plausibleren Informationsträger. Spätere Bakteriophagenexperimente und die Aufklärung der DNA-Struktur machten die Schlussfolgerung zunehmend zwingend.
 

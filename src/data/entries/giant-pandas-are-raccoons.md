@@ -34,7 +34,7 @@ The giant panda was a classification headache almost from the moment it entered 
 
 Anatomy produced competing signals, and classifications shifted for decades. The difficulty illustrated a general problem in taxonomy: animals can independently evolve similar features because they occupy similar ecological niches, while highly specialized diets can obscure deeper ancestry.
 
-Molecular evidence eventually broke the tie. Protein comparisons and later DNA studies placed the giant panda firmly within **Ursidae**, the bear family. The red panda followed a different history and is now placed in its own family, Ailuridae, within the broader musteloid group that includes raccoons, weasels and skunks.
+Molecular evidence eventually broke the tie. Protein comparisons and later DNA studies placed the giant panda firmly within Ursidae, the bear family. The red panda followed a different history and is now placed in its own family, Ailuridae, within the broader musteloid group that includes raccoons, weasels and skunks.
 
 The shared word “panda” therefore hides two distant relationships. Giant pandas are unusual bears; red pandas are not bears at all.
 

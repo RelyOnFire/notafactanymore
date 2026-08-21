@@ -16,7 +16,7 @@ sourceNotes:
 
 Als Autismus noch unscharf definiert und wenig verstanden war, deuteten Teile der Psychiatrie kindliches Verhalten stark durch psychoanalytische Modelle familiärer Beziehungen.
 
-Die folgenreichste Variante war die Theorie der **„Kühlschrankmutter“**. Autistischer Rückzug wurde dabei als Reaktion auf eine emotional kalte, ablehnende oder zu wenig liebevolle Mutter erklärt.
+Die folgenreichste Variante war die Theorie der „Kühlschrankmutter“. Autistischer Rückzug wurde dabei als Reaktion auf eine emotional kalte, ablehnende oder zu wenig liebevolle Mutter erklärt.
 
 Leo Kanners eigene Rolle war komplizierter, als dieses spätere Schlagwort vermuten lässt. Er beschrieb Autismus zunächst als wahrscheinlich angeboren und wandte sich später gegen die Schuldzuweisung an Eltern. Seine Beschreibungen emotional reservierter Familien schufen jedoch einen Ansatzpunkt, den andere Kliniker zu einer kausalen Theorie ausbauten.
 
@@ -24,4 +24,4 @@ Zwillings- und Familienstudien, Entwicklungsforschung, Genetik und Neurowissensc
 
 Erziehung beeinflusst selbstverständlich Erfahrungen, Fähigkeiten, Belastung und Wohlbefinden jedes Kindes. Ein unterstützendes Umfeld kann enorm viel bewirken.
 
-Das ist aber nicht dasselbe wie die Behauptung, der Erziehungsstil **verursache Autismus**. Die Kühlschrankmutter-Theorie verwandelte klinische Eindrücke und kulturelle Annahmen über Mütter in kausale Schuld, ohne dafür ausreichende Evidenz zu besitzen.
+Das ist aber nicht dasselbe wie die Behauptung, der Erziehungsstil verursache Autismus. Die Kühlschrankmutter-Theorie verwandelte klinische Eindrücke und kulturelle Annahmen über Mütter in kausale Schuld, ohne dafür ausreichende Evidenz zu besitzen.

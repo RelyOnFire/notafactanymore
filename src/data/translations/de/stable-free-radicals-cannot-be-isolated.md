@@ -14,11 +14,11 @@ sourceNotes:
 - Fasst die spätere Akzeptanz und die breite Bedeutung stabiler und reaktiver Radikale zusammen.
 ---
 
-In der Chemie des 19. Jahrhunderts wurde der Begriff „Radikal“ bereits für wiederkehrende Atomgruppen innerhalb von Verbindungen verwendet. Einen **wirklich freien**, kohlenstoffzentrierten Radikalzustand zu isolieren war jedoch eine andere Sache.
+In der Chemie des 19. Jahrhunderts wurde der Begriff „Radikal“ bereits für wiederkehrende Atomgruppen innerhalb von Verbindungen verwendet. Einen wirklich freien, kohlenstoffzentrierten Radikalzustand zu isolieren war jedoch eine andere Sache.
 
 Wiederholte Fehlschläge und die gewöhnlichen Valenzregeln des Kohlenstoffs ließen solche Spezies zu reaktiv erscheinen, um unabhängig existieren zu können.
 
-1900 versuchte Moses Gomberg, einen stark substituierten Kohlenwasserstoff herzustellen, erhielt aber unerwartete Produkte. Er schlug vor, dass seine Reaktionen ein **Triphenylmethyl-Radikal** mit dreiwertigem Kohlenstoff enthielten.
+1900 versuchte Moses Gomberg, einen stark substituierten Kohlenwasserstoff herzustellen, erhielt aber unerwartete Produkte. Er schlug vor, dass seine Reaktionen ein Triphenylmethyl-Radikal mit dreiwertigem Kohlenstoff enthielten.
 
 Die Behauptung widersprach etablierten Vorstellungen über Kohlenstoffbindungen und stieß jahrelang auf Skepsis. Weitere Experimente zeigten schließlich, dass persistente Radikale tatsächlich reale chemische Spezies sind und nicht bloß Messfehler oder gewöhnliche geschlossenschalige Moleküle.
 

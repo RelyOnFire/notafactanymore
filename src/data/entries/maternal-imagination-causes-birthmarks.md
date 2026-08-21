@@ -26,12 +26,12 @@ sources:
   note: Places maternal-imagination and preformation theories within the development of scientific teratology.
 ---
 
-The doctrine of **maternal imagination** was far more elaborate than the familiar superstition that a fright might leave a birthmark.
+The doctrine of maternal imagination was far more elaborate than the familiar superstition that a fright might leave a birthmark.
 
 Ancient authors had already speculated that parental visual impressions at conception could influence offspring. By the late Middle Ages and early modern period, the doctrine increasingly focused on the pregnant mother's imagination throughout gestation.
 
-Seventeenth-century physicians and philosophers tried to give the idea actual mechanisms. **Thomas Fienus, Descartes, van Helmont**, and others debated how intense images, desires, touches, or terror might alter the fetus. Different classes of anomaly acquired different explanations: a localized birthmark might follow a craving or touch, while severe malformations could be blamed on terror.
+Seventeenth-century physicians and philosophers tried to give the idea actual mechanisms. Thomas Fienus, Descartes, van Helmont, and others debated how intense images, desires, touches, or terror might alter the fetus. Different classes of anomaly acquired different explanations: a localized birthmark might follow a craving or touch, while severe malformations could be blamed on terror.
 
 The doctrine had a social effect as well as a medical one. It could transform an abnormal birth from evidence of adultery, bestiality, demonic influence, or divine punishment into a tragic physiological accident, although it also placed a heavy burden of blame on mothers.
 
-During the eighteenth century, the emerging field of **teratology** increasingly treated malformations as developmental phenomena that could be compared, classified, and experimentally investigated. Modern developmental biology recognizes many real maternal influences on fetal development, including infections, drugs, nutrition, and metabolic disease. Thoughts and visual impressions do not physically stamp a fetus.
+During the eighteenth century, the emerging field of teratology increasingly treated malformations as developmental phenomena that could be compared, classified, and experimentally investigated. Modern developmental biology recognizes many real maternal influences on fetal development, including infections, drugs, nutrition, and metabolic disease. Thoughts and visual impressions do not physically stamp a fetus.

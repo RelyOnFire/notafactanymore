@@ -34,10 +34,10 @@ sources:
 
 Interstellar space looks hostile to complex chemistry. Gas densities are extremely low, temperatures can be extreme, and ultraviolet radiation can break molecular bonds. Early astrochemical expectations therefore favored atoms and relatively small molecules rather than large, stable carbon-rich structures.
 
-Astronomical spectroscopy changed that picture. Infrared observations revealed strong emission features that could not be explained by isolated atoms or the simplest molecules. Laboratory spectra and theoretical modeling linked many of those features to families of large aromatic carbon compounds, especially **polycyclic aromatic hydrocarbons**.
+Astronomical spectroscopy changed that picture. Infrared observations revealed strong emission features that could not be explained by isolated atoms or the simplest molecules. Laboratory spectra and theoretical modeling linked many of those features to families of large aromatic carbon compounds, especially polycyclic aromatic hydrocarbons.
 
 Radio and infrared astronomy continued to expand the inventory of interstellar chemistry. Carbon chains, complex organic molecules and, eventually, fullerenes such as C60 were identified in circumstellar and interstellar environments. Some large molecules survive because their structures are unusually stable, while others form or are processed on dust grains and in shielded clouds.
 
-“Organic” here means carbon-based; it does **not** imply biological origin. Space chemistry can produce sophisticated carbon molecules without life.
+“Organic” here means carbon-based; it does not imply biological origin. Space chemistry can produce sophisticated carbon molecules without life.
 
 The discovery matters because it changed the chemical starting conditions for stars and planets. Material incorporated into young planetary systems can already contain a rich inventory of carbon chemistry before any planet becomes habitable.

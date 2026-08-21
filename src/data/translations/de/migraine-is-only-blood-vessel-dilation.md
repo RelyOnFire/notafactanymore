@@ -22,4 +22,4 @@ Zunehmend rückte das Gehirn selbst in den Mittelpunkt: veränderte sensorische 
 
 Damit sind Gefäße nicht aus der Migränebiologie verschwunden. Neurovaskuläre Wechselwirkungen bleiben relevant, und das genaue Zusammenspiel neuronaler und vaskulärer Mechanismen wird weiter erforscht.
 
-Überholt ist das **Ein-Ursachen-Modell**. Migräne ist nicht einfach ein Kopfschmerz, der entsteht, weil sich eine Arterie erweitert, sondern eine komplexe neurologische Erkrankung, in der Gefäßveränderungen nur ein Teil eines größeren Systems sind.
+Überholt ist das Ein-Ursachen-Modell. Migräne ist nicht einfach ein Kopfschmerz, der entsteht, weil sich eine Arterie erweitert, sondern eine komplexe neurologische Erkrankung, in der Gefäßveränderungen nur ein Teil eines größeren Systems sind.

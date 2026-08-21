@@ -32,7 +32,7 @@ sources:
     note: "Explains that Haeckel's strict biogenetic law lacked experimental support."
 ---
 
-Nineteenth-century embryology revealed striking similarities among developing vertebrates. Ernst Haeckel turned those similarities into a sweeping rule: **ontogeny recapitulates phylogeny**. In its strongest form, an embryo was said to pass through stages corresponding to the adult forms of its evolutionary ancestors.
+Nineteenth-century embryology revealed striking similarities among developing vertebrates. Ernst Haeckel turned those similarities into a sweeping rule: ontogeny recapitulates phylogeny. In its strongest form, an embryo was said to pass through stages corresponding to the adult forms of its evolutionary ancestors.
 
 The idea was attractive because it seemed to make evolutionary history visible inside development. A human embryo's pharyngeal arches, for example, could be read not merely as homologous structures but as a temporary replay of a fish-like ancestral stage.
 

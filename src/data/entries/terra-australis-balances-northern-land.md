@@ -31,13 +31,13 @@ sources:
   note: Notes that Terra Australis was commonly imagined as a large southern landmass balancing northern continents.
 ---
 
-**Terra Australis Incognita** was geography created partly by theory before observation.
+Terra Australis Incognita was geography created partly by theory before observation.
 
-European maps for centuries showed a huge southern landmass extending far beyond modern Antarctica. One recurring rationale was **balance**: the large known continents of the Northern Hemisphere seemed to require a comparable southern landmass to keep the globe geographically or physically symmetrical.
+European maps for centuries showed a huge southern landmass extending far beyond modern Antarctica. One recurring rationale was balance: the large known continents of the Northern Hemisphere seemed to require a comparable southern landmass to keep the globe geographically or physically symmetrical.
 
 As voyages revealed Australia, New Zealand, Tierra del Fuego, and Pacific islands, mapmakers repeatedly reshaped the hypothetical continent rather than immediately abandoning it.
 
-By the eighteenth century, Terra Australis was important enough to become an explicit target of state-sponsored exploration. After observing the 1769 transit of Venus in Tahiti, **James Cook opened secret Admiralty instructions ordering him to search for a “continent, or land of great extent” to the south**. His first voyage did not settle the question. On his second voyage, Cook crossed the Antarctic Circle and sailed through enormous stretches of southern ocean without finding the expected temperate continent.
+By the eighteenth century, Terra Australis was important enough to become an explicit target of state-sponsored exploration. After observing the 1769 transit of Venus in Tahiti, James Cook opened secret Admiralty instructions ordering him to search for a “continent, or land of great extent” to the south. His first voyage did not settle the question. On his second voyage, Cook crossed the Antarctic Circle and sailed through enormous stretches of southern ocean without finding the expected temperate continent.
 
 Antarctica ultimately proved that a southern continent does exist. It is very different from the enormous accessible balancing landmass that earlier theory had placed across much of the Southern Hemisphere.
 

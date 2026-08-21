@@ -32,7 +32,7 @@ sources:
 
 When autism was still poorly defined, psychiatry often interpreted childhood behavior through psychoanalytic theories of family relationships.
 
-The most damaging version became the **“refrigerator mother”** idea: autistic withdrawal was said to develop because a mother was emotionally cold, rejecting, or insufficiently affectionate.
+The most damaging version became the “refrigerator mother” idea: autistic withdrawal was said to develop because a mother was emotionally cold, rejecting, or insufficiently affectionate.
 
 Leo Kanner's own role was more complicated than the later slogan suggests. He initially described autism as likely inborn and later opposed blaming parents, but his descriptions of emotionally reserved families helped create an opening that other clinicians expanded into a causal theory.
 
@@ -40,4 +40,4 @@ Twin and family studies, developmental research, genetics, and neuroscience move
 
 Parenting affects every child's experiences, skills, stress, and wellbeing. Supportive environments can make an enormous difference.
 
-That does not mean parenting style **causes autism**. The refrigerator-mother theory converted correlation, clinical impression, and cultural assumptions about mothers into causal blame without adequate evidence.
+That does not mean parenting style causes autism. The refrigerator-mother theory converted correlation, clinical impression, and cultural assumptions about mothers into causal blame without adequate evidence.

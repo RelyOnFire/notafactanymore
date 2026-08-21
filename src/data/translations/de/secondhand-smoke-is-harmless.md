@@ -18,7 +18,7 @@ Als die Gefahren des aktiven Rauchens immer deutlicher wurden, lag der Schwerpun
 
 Epidemiologische Studien fanden jedoch bei Nichtrauchenden erhöhte Krankheitsraten, wenn sie regelmäßig Tabakrauch anderer Menschen ausgesetzt waren. Besonders untersucht wurden Partner von Rauchern und Beschäftigte in stark verrauchten Innenräumen.
 
-Biomarker bestätigten, dass Nichtrauchende tatsächlich Tabakbestandteile und deren Stoffwechselprodukte aufnehmen. Mit wachsender Datenbasis wurden kausale Zusammenhänge mit **Lungenkrebs, koronarer Herzkrankheit und Schlaganfall** sowie wichtigen gesundheitlichen Folgen bei Säuglingen und Kindern festgestellt.
+Biomarker bestätigten, dass Nichtrauchende tatsächlich Tabakbestandteile und deren Stoffwechselprodukte aufnehmen. Mit wachsender Datenbasis wurden kausale Zusammenhänge mit Lungenkrebs, koronarer Herzkrankheit und Schlaganfall sowie wichtigen gesundheitlichen Folgen bei Säuglingen und Kindern festgestellt.
 
 Die Dosis beim Passivrauchen ist gewöhnlich geringer als beim aktiven Rauchen. Die Risiken sind daher nicht einfach gleich groß. Eine niedrigere Dosis bedeutet aber nicht, dass das Risiko null ist.
 

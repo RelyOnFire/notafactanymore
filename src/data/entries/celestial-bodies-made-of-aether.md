@@ -33,7 +33,7 @@ sources:
 
 Aether was more than a mysterious extra material. It solved a structural problem in Aristotelian physics.
 
-Earthly matter was built from earth, water, air, and fire. Those elements had natural places, could transform into one another, and belonged to a world of generation and decay. But the heavens seemed to move endlessly in perfect circles without wearing out. Aristotle therefore assigned them a different kind of matter: **aether**, whose natural motion was eternal circular motion.
+Earthly matter was built from earth, water, air, and fire. Those elements had natural places, could transform into one another, and belonged to a world of generation and decay. But the heavens seemed to move endlessly in perfect circles without wearing out. Aristotle therefore assigned them a different kind of matter: aether, whose natural motion was eternal circular motion.
 
 The result was a two-material universe. Rocks, oceans, flames, and bodies were one kind of nature; stars and planets were another.
 

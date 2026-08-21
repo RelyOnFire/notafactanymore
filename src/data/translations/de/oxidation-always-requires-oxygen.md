@@ -14,12 +14,12 @@ sourceNotes:
 - Erklärt Oxidation als Elektronenabgabe und Reduktion als Elektronenaufnahme.
 ---
 
-Der Begriff **Oxidation** entstand buchstäblich aus der Sauerstoffchemie. Verbrennung, Rostbildung und viele andere bekannte Reaktionen ließen sich als Verbindung einer Substanz mit Sauerstoff beschreiben. Für die Phänomene, die dem Wort seinen Namen gaben, funktionierte diese Definition ausgezeichnet.
+Der Begriff Oxidation entstand buchstäblich aus der Sauerstoffchemie. Verbrennung, Rostbildung und viele andere bekannte Reaktionen ließen sich als Verbindung einer Substanz mit Sauerstoff beschreiben. Für die Phänomene, die dem Wort seinen Namen gaben, funktionierte diese Definition ausgezeichnet.
 
 Mit der Entwicklung von Elektrochemie und Elektronentheorie wurden jedoch Reaktionen sichtbar, die demselben grundlegenden Muster folgten, obwohl überhaupt kein Sauerstoff beteiligt war. Chlor kann Metalle oxidieren, Metallionen können andere Stoffe oxidieren, und in elektrochemischen Zellen laufen Oxidations- und Reduktionsprozesse gekoppelt ab.
 
-Das allgemeinere Konzept wurde deshalb über Elektronen beziehungsweise Oxidationszahlen formuliert: **Oxidation** ist die Abgabe von Elektronen oder eine Erhöhung der Oxidationszahl; **Reduktion** ist die Aufnahme von Elektronen oder eine Abnahme der Oxidationszahl.
+Das allgemeinere Konzept wurde deshalb über Elektronen beziehungsweise Oxidationszahlen formuliert: Oxidation ist die Abgabe von Elektronen oder eine Erhöhung der Oxidationszahl; Reduktion ist die Aufnahme von Elektronen oder eine Abnahme der Oxidationszahl.
 
 Damit bleibt die alte Sauerstoffbeschreibung in vielen Alltagssituationen richtig. Wenn Eisen rostet, ist Sauerstoff beteiligt und die ältere Sprache passt weiterhin gut.
 
-Die wissenschaftliche Änderung war daher keine einfache Umkehr, sondern eine **Erweiterung des Begriffs**. Sauerstoffreaktionen bilden einen wichtigen Teil der Redoxchemie, aber Sauerstoff ist nicht das Merkmal, das Oxidation im allgemeinsten Sinn definiert.
+Die wissenschaftliche Änderung war daher keine einfache Umkehr, sondern eine Erweiterung des Begriffs. Sauerstoffreaktionen bilden einen wichtigen Teil der Redoxchemie, aber Sauerstoff ist nicht das Merkmal, das Oxidation im allgemeinsten Sinn definiert.

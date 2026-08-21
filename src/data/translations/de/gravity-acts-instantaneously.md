@@ -16,9 +16,9 @@ sourceNotes:
 
 Newtons Gravitationsgesetz war revolutionär, weil es dieselbe mathematische Regel auf fallende Körper und Planetenbahnen anwenden konnte. In seiner Gleichung hängt die Gravitationskraft direkt von der augenblicklichen Entfernung zwischen zwei Massen ab. Ein expliziter Mechanismus oder eine Verzögerungszeit erscheint darin nicht.
 
-Diese **Fernwirkung** machte Newton selbst philosophisch unbehaglich, doch für die Himmelsmechanik funktionierte sie hervorragend. Erst mit der Relativitätstheorie wurde eine augenblickliche Übertragung problematisch, weil kausale Einflüsse die Lichtgeschwindigkeit nicht überschreiten dürfen.
+Diese Fernwirkung machte Newton selbst philosophisch unbehaglich, doch für die Himmelsmechanik funktionierte sie hervorragend. Erst mit der Relativitätstheorie wurde eine augenblickliche Übertragung problematisch, weil kausale Einflüsse die Lichtgeschwindigkeit nicht überschreiten dürfen.
 
-Einsteins Allgemeine Relativitätstheorie von 1915 ersetzte Gravitation durch die Geometrie einer dynamischen Raumzeit. Änderungen in der Massenverteilung verändern diese Geometrie nicht überall gleichzeitig. Störungen können sich als **Gravitationswellen** ausbreiten, und die Theorie sagt für sie Lichtgeschwindigkeit voraus.
+Einsteins Allgemeine Relativitätstheorie von 1915 ersetzte Gravitation durch die Geometrie einer dynamischen Raumzeit. Änderungen in der Massenverteilung verändern diese Geometrie nicht überall gleichzeitig. Störungen können sich als Gravitationswellen ausbreiten, und die Theorie sagt für sie Lichtgeschwindigkeit voraus.
 
 Beobachtungen binärer Systeme und später direkte Gravitationswellennachweise bestätigten diese endliche Ausbreitung. Ereignisse wie die Verschmelzung zweier Neutronensterne liefern zusätzlich sehr enge Tests dafür, dass gravitative und elektromagnetische Signale sich mit praktisch derselben Grenzgeschwindigkeit ausbreiten.
 

@@ -36,6 +36,6 @@ As discoveries multiplied, the sequence became impossible to keep linear. Differ
 
 Cladistic methods formalized the change by treating relationships as branching trees rather than ranked progressions. Genetics added another complication: later human populations sometimes interbred, so parts of the history include gene flow between branches rather than clean replacement.
 
-The modern picture is therefore a **bushy family tree**, not a march of inevitable improvement toward us.
+The modern picture is therefore a bushy family tree, not a march of inevitable improvement toward us.
 
 That does not mean every relationship is unknowable or that no species was ancestral to another. The correction is to the single-file ladder: several hominin forms coexisted, many were side branches, and human evolution did not proceed through one predetermined succession of species.

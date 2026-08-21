@@ -18,7 +18,7 @@ Röntgenstrahlen fanden fast unmittelbar nach ihrer Entdeckung 1895 Eingang in d
 
 Frühe Anwender setzten sich selbst und ihre Patienten zum Teil wiederholt und über lange Zeiträume der Strahlung aus. Hautverbrennungen, chronische Wunden, Haarausfall, Unfruchtbarkeit und später ein erhöhtes Krebsrisiko machten deutlich, dass Röntgenstrahlen biologisch keineswegs neutral sind.
 
-Der Grund ist, dass Röntgenstrahlen **ionisierende Strahlung** darstellen. Sie können Moleküle und DNA schädigen, und die erhaltene Dosis lässt sich nicht nach jeder Untersuchung auf null zurücksetzen. Wiederholte Exposition trägt zur Gesamtdosis bei.
+Der Grund ist, dass Röntgenstrahlen ionisierende Strahlung darstellen. Sie können Moleküle und DNA schädigen, und die erhaltene Dosis lässt sich nicht nach jeder Untersuchung auf null zurücksetzen. Wiederholte Exposition trägt zur Gesamtdosis bei.
 
 Die Radiologie reagierte mit Abschirmung, Dosimetrie, kürzeren Belichtungszeiten, empfindlicheren Detektoren sowie den Prinzipien von Rechtfertigung und Optimierung. Moderne Verfahren können mit deutlich geringerer Dosis wesentlich mehr diagnostische Information liefern als frühe Geräte.
 

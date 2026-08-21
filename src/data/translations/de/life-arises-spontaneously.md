@@ -22,4 +22,4 @@ Damit war die Urzeugung Teil eines größeren Erklärungsmodells: Organismen kon
 
 Die Lehre wurde mehrfach eingeschränkt, bevor sie endgültig zusammenbrach. Francesco Redi stellte im 17. Jahrhundert die spontane Entstehung größerer Tiere infrage; im 18. Jahrhundert stritten Needham und Spallanzani über Mikroorganismen. Im 19. Jahrhundert verteidigte Félix Pouchet die Urzeugung weiterhin, während Louis Pasteur sie bekämpfte. Pasteurs Schwanenhalskolben halfen zu zeigen, dass sterilisierte Nährlösung steril blieb, solange luftgetragene Kontamination ausgeschlossen war.
 
-Diese Geschichte betrifft das wiederholte Auftreten von Organismen unter gewöhnlichen heutigen Bedingungen. Sie beantwortet **nicht** die separate Frage nach dem Ursprung des Lebens und danach, wie die ersten selbstreplizierenden Systeme auf der frühen Erde entstanden.
+Diese Geschichte betrifft das wiederholte Auftreten von Organismen unter gewöhnlichen heutigen Bedingungen. Sie beantwortet nicht die separate Frage nach dem Ursprung des Lebens und danach, wie die ersten selbstreplizierenden Systeme auf der frühen Erde entstanden.

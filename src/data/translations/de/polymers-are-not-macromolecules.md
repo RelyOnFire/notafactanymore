@@ -18,7 +18,7 @@ Kautschuk, Cellulose, Proteine und andere polymere Stoffe verhielten sich im Lab
 
 Eine verbreitete Erklärung lautete deshalb, diese Stoffe bestünden aus gewöhnlichen kleinen Molekülen, die sich zu lockeren kolloidalen Aggregaten zusammenschließen. Die enorme „Molekülgröße“ wäre dann nur ein Effekt der Assoziation.
 
-Hermann Staudinger argumentierte in den 1920er-Jahren für das Gegenteil: Polymere seien echte **Makromoleküle**, lange Ketten, deren Atome durch gewöhnliche kovalente Bindungen zusammengehalten werden.
+Hermann Staudinger argumentierte in den 1920er-Jahren für das Gegenteil: Polymere seien echte Makromoleküle, lange Ketten, deren Atome durch gewöhnliche kovalente Bindungen zusammengehalten werden.
 
 Die Vorstellung stieß auf erheblichen Widerstand, weil Moleküle dieser Größenordnung chemisch kaum vorstellbar erschienen. Staudinger und andere bauten die Evidenz jedoch schrittweise aus – durch chemische Reaktionen, Viskositätsmessungen und zunehmend überzeugende Bestimmungen der Molekülmasse.
 

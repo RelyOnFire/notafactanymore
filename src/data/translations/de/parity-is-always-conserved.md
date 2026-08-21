@@ -16,7 +16,7 @@ sourceNotes:
 
 Paritätssymmetrie bedeutet vereinfacht, dass ein physikalischer Vorgang und sein Spiegelbild denselben Naturgesetzen folgen sollten. Bei elektromagnetischen und starken Wechselwirkungen funktionierte diese Vorstellung so zuverlässig, dass die Erhaltung der Parität Mitte des 20. Jahrhunderts als grundlegendes Prinzip galt.
 
-Ein Rätsel in der Teilchenphysik veranlasste Tsung-Dao Lee und Chen-Ning Yang 1956, die experimentelle Grundlage genauer zu prüfen. Dabei fiel ihnen auf, dass die Parität zwar für elektromagnetische und starke Prozesse ausführlich getestet worden war, aber **nicht direkt für die schwache Wechselwirkung**.
+Ein Rätsel in der Teilchenphysik veranlasste Tsung-Dao Lee und Chen-Ning Yang 1956, die experimentelle Grundlage genauer zu prüfen. Dabei fiel ihnen auf, dass die Parität zwar für elektromagnetische und starke Prozesse ausführlich getestet worden war, aber nicht direkt für die schwache Wechselwirkung.
 
 Chien-Shiung Wu und ihre Kollegen führten den entscheidenden Test mit radioaktiven Cobalt-60-Kernen durch, deren Spins bei sehr niedriger Temperatur ausgerichtet wurden. Wäre die Parität erhalten, müssten die beim Betazerfall ausgesandten Elektronen spiegelbildlich symmetrisch relativ zur Kernspinrichtung verteilt sein.
 

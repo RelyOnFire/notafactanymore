@@ -33,12 +33,12 @@ sources:
 
 Volcanoes looked remarkably like enormous fires.
 
-Sulfur was abundant around volcanic vents, burned with a strange blue flame, and released choking fumes. Coal and other combustible materials were known to burn underground. In an age before magma chambers and mantle melting, it was reasonable to ask whether volcanic “fire” came from **combustion inside the Earth**.
+Sulfur was abundant around volcanic vents, burned with a strange blue flame, and released choking fumes. Coal and other combustible materials were known to burn underground. In an age before magma chambers and mantle melting, it was reasonable to ask whether volcanic “fire” came from combustion inside the Earth.
 
 By the seventeenth and eighteenth centuries, chemical-reaction theories had substantial support. Different authors proposed burning sulfur, coal, pyrites, or oxidation reactions involving metals and other underground materials.
 
 The model had a powerful sensory appeal: smoke-like gas, heat, flames, explosions, sulfurous odors. But it struggled with the scale and composition of lava and with geological evidence that enormous masses of rock had actually been molten.
 
-Lazzaro Spallanzani experimented with remelting lava around the 1780s, while field geology increasingly connected volcanic rocks with molten origins. During the nineteenth century the problem shifted from underground fuel to **the source of Earth's internal heat**.
+Lazzaro Spallanzani experimented with remelting lava around the 1780s, while field geology increasingly connected volcanic rocks with molten origins. During the nineteenth century the problem shifted from underground fuel to the source of Earth's internal heat.
 
 Modern volcanology explains eruptions through magma and gas. As magma rises and pressure falls, dissolved water, carbon dioxide, sulfur compounds, and other gases come out of solution. Expanding gas can then drive explosive eruption. Sulfur is genuinely involved, but as a dissolved volcanic gas component rather than underground fuel.

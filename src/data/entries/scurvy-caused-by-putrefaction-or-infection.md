@@ -37,7 +37,7 @@ Those circumstances encouraged explanations based on putrefaction of the body, b
 
 Citrus repeatedly provided a clue. James Lind's 1747 comparison famously found rapid improvement among sailors given oranges and lemons, but a working treatment did not immediately produce a correct theory—or even consistent naval practice.
 
-Only in the early twentieth century did controlled animal experiments establish scurvy as a **deficiency disease** caused by the absence of a specific dietary factor. That factor was later isolated and identified as vitamin C.
+Only in the early twentieth century did controlled animal experiments establish scurvy as a deficiency disease caused by the absence of a specific dietary factor. That factor was later isolated and identified as vitamin C.
 
 The delay is instructive: evidence that a treatment works can precede understanding of why it works by generations.
 

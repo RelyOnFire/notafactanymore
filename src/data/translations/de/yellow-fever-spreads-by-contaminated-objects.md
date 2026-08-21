@@ -16,13 +16,13 @@ sourceNotes:
 
 Gelbfieberausbrüche sahen nach gewöhnlicher Ansteckung aus. Menschen erkrankten in dicht besiedelten Städten, und Kleidung, Bettwäsche, Zimmer und persönliche Gegenstände von Erkrankten waren naheliegende Verdächtige.
 
-Eine konkurrierende Erklärung kam vom kubanischen Arzt **Carlos Finlay**, der Jahre vor ihrer breiten Akzeptanz vorgeschlagen hatte, dass Mücken die Krankheit übertragen.
+Eine konkurrierende Erklärung kam vom kubanischen Arzt Carlos Finlay, der Jahre vor ihrer breiten Akzeptanz vorgeschlagen hatte, dass Mücken die Krankheit übertragen.
 
 Um 1900 prüfte die Gelbfieberkommission der US-Armee beide Modelle direkt.
 
 Freiwillige wurden Kleidung und Bettwäsche ausgesetzt, die stark mit Material von Gelbfieberkranken verunreinigt war. Sie erkrankten nicht.
 
-Bei gezielter Mückenexposition sah das Ergebnis anders aus. Damit verlagerte sich die Erklärung von **Fomiten** – kontaminierten Gegenständen – auf einen Vektor.
+Bei gezielter Mückenexposition sah das Ergebnis anders aus. Damit verlagerte sich die Erklärung von Fomiten – kontaminierten Gegenständen – auf einen Vektor.
 
 Die Erkenntnis machte Mückenbekämpfung zu einem zentralen Instrument gegen urbane Gelbfieberausbrüche.
 

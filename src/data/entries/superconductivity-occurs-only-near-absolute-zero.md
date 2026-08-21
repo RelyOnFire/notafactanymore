@@ -34,7 +34,7 @@ Superconductivity was discovered in 1911 in mercury cooled to only a few kelvin 
 
 That history encouraged the expectation that superconductivity was inherently confined to the liquid-helium temperature range.
 
-In 1986, Georg Bednorz and K. Alex Müller reported superconductivity in a ceramic copper oxide at a dramatically higher transition temperature. Other cuprates followed almost immediately, including materials that remained superconducting above **77 kelvin**, the boiling point of liquid nitrogen.
+In 1986, Georg Bednorz and K. Alex Müller reported superconductivity in a ceramic copper oxide at a dramatically higher transition temperature. Other cuprates followed almost immediately, including materials that remained superconducting above 77 kelvin, the boiling point of liquid nitrogen.
 
 That threshold mattered practically because liquid nitrogen is far cheaper and easier to handle than liquid helium.
 

@@ -34,7 +34,7 @@ Reports of stones falling from the sky sounded scientifically suspect to many ei
 
 The skepticism was not irrational: eyewitness accounts were difficult to verify, specimens could be mislabeled, and there was no accepted population of solid extraterrestrial debris from which stones might fall.
 
-Chemical analyses in the 1790s began showing unusual similarities among alleged fallen stones, but the decisive case came at **L'Aigle, France, in 1803**.
+Chemical analyses in the 1790s began showing unusual similarities among alleged fallen stones, but the decisive case came at L'Aigle, France, in 1803.
 
 Thousands of stones fell over a wide area in a witnessed shower. Jean-Baptiste Biot investigated the event for the French Academy and documented enough independent testimony and physical evidence to make a terrestrial explanation implausible.
 

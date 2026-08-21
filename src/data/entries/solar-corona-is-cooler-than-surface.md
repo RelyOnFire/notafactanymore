@@ -32,7 +32,7 @@ sources:
 
 The visible surface of the Sun is about 5,800 kelvin. Ordinary intuition says that material farther from a hot surface should be cooler, so the faint outer corona was naturally expected to have a lower temperature.
 
-Its spectrum contained mysterious emission lines that could not be matched to known elements under familiar laboratory conditions. For a time, astronomers proposed an unknown element called **coronium**.
+Its spectrum contained mysterious emission lines that could not be matched to known elements under familiar laboratory conditions. For a time, astronomers proposed an unknown element called coronium.
 
 The puzzle disappeared in an unexpected way. Bengt Edlén showed that the lines came from familiar atoms such as iron stripped of many electrons. Producing those highly ionized states requires temperatures around a million kelvin.
 

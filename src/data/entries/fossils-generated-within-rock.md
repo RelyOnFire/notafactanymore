@@ -33,11 +33,11 @@ sources:
 
 Early “fossils” were not automatically understood as dead organisms.
 
-The word itself once meant broadly **things dug from the Earth**, including crystals, mineral concretions, artifacts, and organic-looking stones. That made the problem harder than our modern category suggests.
+The word itself once meant broadly things dug from the Earth, including crystals, mineral concretions, artifacts, and organic-looking stones. That made the problem harder than our modern category suggests.
 
-Some scholars recognized organic origins. Others proposed that Earth possessed a **plastic**, formative, or mineral force capable of generating shell-like and bone-like forms inside rock. The idea avoided difficult questions: How could marine shells reach mountains? How could solid rock form around them? And what if a fossil resembled no living species in a world where extinction itself was controversial?
+Some scholars recognized organic origins. Others proposed that Earth possessed a plastic, formative, or mineral force capable of generating shell-like and bone-like forms inside rock. The idea avoided difficult questions: How could marine shells reach mountains? How could solid rock form around them? And what if a fossil resembled no living species in a world where extinction itself was controversial?
 
-The transition depended on joining biology to geology. In 1666, **Nicolaus Steno** dissected a shark and recognized that mysterious “tongue stones” closely resembled shark teeth. His 1669 work then developed principles explaining how sediments accumulate in layers and how solid objects can become enclosed as those sediments turn to rock.
+The transition depended on joining biology to geology. In 1666, Nicolaus Steno dissected a shark and recognized that mysterious “tongue stones” closely resembled shark teeth. His 1669 work then developed principles explaining how sediments accumulate in layers and how solid objects can become enclosed as those sediments turn to rock.
 
 Steno did not instantly settle every fossil controversy, and Flood explanations remained influential. But the combination of anatomical comparison, stratigraphy, and eventually extinction transformed fossils into evidence of past life and past environments.
 

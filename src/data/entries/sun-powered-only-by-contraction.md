@@ -44,4 +44,4 @@ Nuclear physics supplied it. Hydrogen fusion in the core can power a main-sequen
 
 Gravitational contraction was not discarded as nonsense. It really does heat forming stars and remains crucial before stable hydrogen fusion begins.
 
-The superseded claim is the word **only**. Contraction helped build and heat the young Sun, but nuclear fusion is what sustains the mature Sun today.
+The superseded claim is the word only. Contraction helped build and heat the young Sun, but nuclear fusion is what sustains the mature Sun today.

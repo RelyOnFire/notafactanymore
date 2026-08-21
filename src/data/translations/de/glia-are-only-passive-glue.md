@@ -14,7 +14,7 @@ sourceNotes:
 - "Verfolgt die Herkunft des Begriffs „Nervenkleber“ und die Belege für aktive physiologische Funktionen von Gliazellen."
 ---
 
-Schon der Name **Neuroglia** – sinngemäß „Nervenkleber“ – spiegelt die historische Arbeitsteilung im Nervensystem wider. Neuronen erzeugten elektrische Signale und galten als die eigentlichen Informationsträger; Gliazellen schienen den Raum dazwischen zu füllen, Gewebe zu stützen und zu isolieren.
+Schon der Name Neuroglia – sinngemäß „Nervenkleber“ – spiegelt die historische Arbeitsteilung im Nervensystem wider. Neuronen erzeugten elektrische Signale und galten als die eigentlichen Informationsträger; Gliazellen schienen den Raum dazwischen zu füllen, Gewebe zu stützen und zu isolieren.
 
 Mit besseren Messmethoden wurde diese Rollenverteilung immer schwerer aufrechtzuerhalten. Oligodendrozyten und Schwann-Zellen bilden Myelin und beeinflussen damit direkt die Geschwindigkeit neuronaler Signalübertragung. Astrozyten regulieren Kalium, nehmen Neurotransmitter auf, versorgen Nervenzellen metabolisch und beeinflussen die Umgebung von Synapsen. Mikroglia übernehmen Immunfunktionen, beseitigen Zellreste und wirken an Entwicklung und Umbau neuronaler Netzwerke mit.
 

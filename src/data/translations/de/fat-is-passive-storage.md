@@ -16,10 +16,10 @@ sourceNotes:
 
 Über weite Teile der modernen Physiologie wurde weißes Fettgewebe vor allem als Treibstofflager des Körpers beschrieben. Fettzellen speicherten überschüssige Energie als Triglyzeride und setzten bei Bedarf Fettsäuren frei. Diese Aufgabe ist real und unverzichtbar, förderte aber das Bild von Fettgewebe als metabolisch passiver Verpackung.
 
-Die Forschung an zirkulierenden Signalstoffen veränderte dieses Bild. Fettzellen und die zwischen ihnen lebenden Immunzellen produzieren zahlreiche Botenstoffe. Besonders eindrucksvoll war die Entdeckung von **Leptin** in den 1990er-Jahren: Ein vom Fettgewebe gebildetes Hormon kann dem Gehirn Informationen über Energiereserven vermitteln und Appetit sowie Stoffwechsel beeinflussen.
+Die Forschung an zirkulierenden Signalstoffen veränderte dieses Bild. Fettzellen und die zwischen ihnen lebenden Immunzellen produzieren zahlreiche Botenstoffe. Besonders eindrucksvoll war die Entdeckung von Leptin in den 1990er-Jahren: Ein vom Fettgewebe gebildetes Hormon kann dem Gehirn Informationen über Energiereserven vermitteln und Appetit sowie Stoffwechsel beeinflussen.
 
 Weitere vom Fettgewebe stammende Faktoren, darunter Adiponektin und entzündliche Zytokine, verbanden Fettgewebe mit Insulinempfindlichkeit, Gefäßbiologie, Immunfunktion und Fortpflanzung. Zudem unterscheiden sich einzelne Fettdepots metabolisch deutlich und sind keineswegs einfach austauschbare Speicherbeutel.
 
-Fettgewebe gilt heute deshalb zugleich als Energiereservoir und als aktives **endokrines und immunologisches Organ**.
+Fettgewebe gilt heute deshalb zugleich als Energiereservoir und als aktives endokrines und immunologisches Organ.
 
 Das ältere Modell war eher unvollständig als falsch herum. Energiespeicherung bleibt eine Kernfunktion des weißen Fettgewebes, und seine Signalwirkung kann je nach Gewebetyp, Lage und physiologischem Zustand sinnvoll oder fehlreguliert sein.

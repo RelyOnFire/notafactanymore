@@ -43,6 +43,6 @@ sources:
 
 The bad-air explanation has unusually deep roots. In *On Airs, Waters, and Places*, written in the Hippocratic tradition around 400 BCE, marshy and stagnant waters were described as unhealthy and associated with recurring fevers and enlarged spleens. Later Greek and Roman observers also connected wetlands with fever. The association was real even though the proposed mechanism was wrong: wetlands were excellent habitat for the mosquitoes that actually transmit malaria.
 
-The word **malaria** itself preserves the old theory. Early-modern Italians spoke of *mal'aria* or “bad air,” and marsh drainage could appear to confirm the idea because draining standing water really did reduce disease. It did so by removing mosquito breeding sites, not by dispersing poisonous vapors.
+The word malaria itself preserves the old theory. Early-modern Italians spoke of *mal'aria* or “bad air,” and marsh drainage could appear to confirm the idea because draining standing water really did reduce disease. It did so by removing mosquito breeding sites, not by dispersing poisonous vapors.
 
 The old framework survived partly because it predicted geography surprisingly well. The decisive change required separating correlation from mechanism: Alphonse Laveran identified parasites in malaria patients' blood in 1880, and work by Ronald Ross and others in the 1890s established mosquito transmission. The landscape had been pointing observers toward the right places for more than two millennia while misleading them about the causal agent.

@@ -18,7 +18,7 @@ Die Appendektomie gehört zu den großen Erfolgen der modernen Chirurgie. Unbeha
 
 Mit der Zeit wurde aus dieser Regel ein Absolut: diagnostizierte Appendizitis bedeutete Operation.
 
-Moderne Bildgebung erlaubt heute eine bessere Trennung zwischen **unkomplizierter** Appendizitis und Fällen mit Perforation, Abszess oder anderen Risikomerkmalen.
+Moderne Bildgebung erlaubt heute eine bessere Trennung zwischen unkomplizierter Appendizitis und Fällen mit Perforation, Abszess oder anderen Risikomerkmalen.
 
 Randomisierte Studien prüften daraufhin eine Antibiotikatherapie als erste Behandlung bei sorgfältig ausgewählten unkomplizierten Fällen. Viele Patientinnen und Patienten erholten sich zunächst ohne sofortige Operation.
 
@@ -26,4 +26,4 @@ Der Kompromiss ist wichtig: Ein Teil entwickelt später erneut Beschwerden oder 
 
 Die Appendektomie bleibt daher eine definitive, sehr wirksame und oft bevorzugte Therapie.
 
-Die Korrektur ist eine Eingrenzung, keine Umkehr der chirurgischen Praxis: Nicht **jeder** unkomplizierte Fall muss biologisch zwingend sofort operiert werden.
+Die Korrektur ist eine Eingrenzung, keine Umkehr der chirurgischen Praxis: Nicht jeder unkomplizierte Fall muss biologisch zwingend sofort operiert werden.

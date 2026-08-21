@@ -18,6 +18,6 @@ Die Seismologie machte den Erdkern zunächst indirekt sichtbar. Scherwellen brei
 
 Einige seismische Wellen passten jedoch nicht in dieses einfache Modell. 1936 untersuchte die dänische Seismologin Inge Lehmann schwache Signale aus Regionen, in denen ein vollständig flüssiger Kern einen tieferen Wellenschatten hätte erzeugen sollen. Sie schlug vor, dass die Wellen an einem kleineren, eigenständigen Körper im Erdzentrum reflektiert und gebrochen würden.
 
-Spätere Messungen bestätigten und verfeinerten dieses Modell: Ein **flüssiger äußerer Kern** umgibt einen **festen inneren Kern**. Der gewaltige Druck hebt den Schmelzpunkt des eisenreichen Materials so stark an, dass das Zentrum trotz Temperaturen in der Größenordnung der Sonnenoberfläche fest bleibt.
+Spätere Messungen bestätigten und verfeinerten dieses Modell: Ein flüssiger äußerer Kern umgibt einen festen inneren Kern. Der gewaltige Druck hebt den Schmelzpunkt des eisenreichen Materials so stark an, dass das Zentrum trotz Temperaturen in der Größenordnung der Sonnenoberfläche fest bleibt.
 
 „Fest“ bedeutet dabei weder kalt noch auf allen Zeitskalen starr. Der innere Kern kann sich über geologische Zeiträume verformen; seine Anisotropie, Schichtung, sein Wachstum und eine mögliche unterschiedliche Rotation bleiben aktive Forschungsgebiete. Das alte Modell eines flüssigen Kerns wurde daher eingegrenzt und nicht vollständig verworfen – der äußere Kern ist tatsächlich flüssig.

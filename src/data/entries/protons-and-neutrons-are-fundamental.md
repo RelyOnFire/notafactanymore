@@ -36,7 +36,7 @@ Hints of internal structure appeared in their magnetic properties and in scatter
 
 In deep-inelastic scattering, electrons behaved as though they were striking much smaller charged constituents inside the proton. The pattern resembled Rutherford's earlier use of scattering to reveal the atomic nucleus—but now the target being opened was the proton itself.
 
-Those constituents became identified with **quarks**, bound by gluons through the strong interaction described by quantum chromodynamics.
+Those constituents became identified with quarks, bound by gluons through the strong interaction described by quantum chromodynamics.
 
 A proton is not simply three tiny balls sitting motionless inside a container. Its structure includes gluon fields and continually fluctuating quark–antiquark contributions, and much of its mass emerges from strong-interaction energy rather than the bare masses of the valence quarks.
 

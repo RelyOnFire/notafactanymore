@@ -34,7 +34,7 @@ A dry scab looks protective. It forms a visible barrier, reduces surface moistur
 
 Experimental work beginning in the 1960s showed that this visible crust was not necessarily ideal for tissue repair.
 
-Epithelial cells migrate across the wound surface more efficiently when the environment remains **appropriately moist**. Under excessively dry conditions, a hard scab can become an obstacle that cells must move beneath while the exposed tissue dehydrates.
+Epithelial cells migrate across the wound surface more efficiently when the environment remains appropriately moist. Under excessively dry conditions, a hard scab can become an obstacle that cells must move beneath while the exposed tissue dehydrates.
 
 Modern dressings therefore often aim to protect the wound while maintaining controlled moisture.
 

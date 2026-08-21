@@ -33,11 +33,11 @@ sources:
 
 The sulfur-mercury theory makes medieval alchemy look much less like fantasy and much more like an early science of materials.
 
-In Arabic and Latin alchemical traditions, metals were often explained as combinations of **mercury and sulfur principles** formed underground. Differences in purity, proportion, fixation, and environmental conditions produced gold, silver, copper, iron, tin, lead, and other metals.
+In Arabic and Latin alchemical traditions, metals were often explained as combinations of mercury and sulfur principles formed underground. Differences in purity, proportion, fixation, and environmental conditions produced gold, silver, copper, iron, tin, lead, and other metals.
 
 Modern readers can easily misunderstand those words. “Mercury” and “sulfur” could function as theoretical principles, but historians have shown that many medieval alchemists also treated them as materially manipulable substances as well as theoretical principles. Laboratory operations such as heating, distillation, purification, alloying, and reaction were therefore connected to a theory of metallic composition.
 
-The framework spread through Arabic-Latin transmission and became a cornerstone of European alchemy. It also made **transmutation** plausible: if metals differed because the same underlying ingredients were imperfectly combined, then laboratory treatment might correct the mixture.
+The framework spread through Arabic-Latin transmission and became a cornerstone of European alchemy. It also made transmutation plausible: if metals differed because the same underlying ingredients were imperfectly combined, then laboratory treatment might correct the mixture.
 
 Early-modern chymistry complicated the picture with Paracelsian *tria prima*, corpuscular theories, and increasingly diverse experimental substances. Eighteenth-century quantitative chemistry and later atomic theory replaced universal sulfur-mercury composition with chemical elements and compounds.
 

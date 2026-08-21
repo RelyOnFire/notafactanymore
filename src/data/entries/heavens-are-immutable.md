@@ -35,6 +35,6 @@ Aristotle's cosmos was divided into two physically different realms. Below the M
 
 That distinction became one of the organizing ideas of later Aristotelian natural philosophy. It was a theory about what kinds of change were physically possible in different regions of the universe, going far beyond the observation that stars *looked* stable.
 
-Then the sky produced awkward evidence. In **1572**, a brilliant “new star” appeared. Tycho Brahe's measurements showed no detectable daily parallax large enough to place it in the atmosphere; it belonged among the stars. In **1577**, a great comet likewise showed too little parallax to be an atmospheric phenomenon and had to pass through regions where nested celestial spheres were supposed to exist.
+Then the sky produced awkward evidence. In 1572, a brilliant “new star” appeared. Tycho Brahe's measurements showed no detectable daily parallax large enough to place it in the atmosphere; it belonged among the stars. In 1577, a great comet likewise showed too little parallax to be an atmospheric phenomenon and had to pass through regions where nested celestial spheres were supposed to exist.
 
 The telescopic era deepened the problem: mountains and craters marred the supposedly perfect Moon, while sunspots changed across the Sun's surface. The heavens had become a physical place where things happen.

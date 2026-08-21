@@ -18,7 +18,7 @@ Die ersten Viren wurden unter anderem dadurch definiert, dass ihre infektiösen 
 
 Diese Erwartung beeinflusste auch, wonach Forschende suchten.
 
-**Mimivirus** war so groß, dass es nach seiner Entdeckung in Amöben zunächst für ein Bakterium gehalten wurde. Erst genetische Analysen zeigten, dass es sich um ein außergewöhnlich großes Virus handelt.
+Mimivirus war so groß, dass es nach seiner Entdeckung in Amöben zunächst für ein Bakterium gehalten wurde. Erst genetische Analysen zeigten, dass es sich um ein außergewöhnlich großes Virus handelt.
 
 Weitere Riesenviren folgten. Einige besitzen Partikel in der Größenordnung kleiner Bakterien und Genome mit mehr als einer Million Basenpaaren und Hunderten von Genen.
 
@@ -26,4 +26,4 @@ Das hebt den grundlegenden Unterschied zwischen Viren und Zellen nicht auf. Ries
 
 Auch die große Mehrheit der Viren bleibt wesentlich kleiner als Bakterien.
 
-Verschwunden ist die **universelle Größengrenze**. Partikelgröße und Genomgröße überlappen genug, dass „kleiner als Bakterien“ keine verlässliche Definition eines Virus mehr ist.
+Verschwunden ist die universelle Größengrenze. Partikelgröße und Genomgröße überlappen genug, dass „kleiner als Bakterien“ keine verlässliche Definition eines Virus mehr ist.

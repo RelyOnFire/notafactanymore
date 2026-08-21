@@ -13,7 +13,7 @@ sourceNotes:
 - "Gibt einen Überblick über den tiefen Ozean und die dort vorkommenden Organismen und Ökosysteme."
 ---
 
-In den 1840er-Jahren formulierte der Naturforscher Edward Forbes die Hypothese einer **azoischen Zone**: Unterhalb von ungefähr 300 Faden sollten abnehmendes Licht, niedrige Temperaturen und Nahrungsmangel tierisches Leben unmöglich machen. Für die damals äußerst begrenzten Tiefseeproben war das eine plausible Hochrechnung, und die Vorstellung wurde einflussreich, obwohl tatsächlich nur sehr wenig aus großen Tiefen bekannt war.
+In den 1840er-Jahren formulierte der Naturforscher Edward Forbes die Hypothese einer azoischen Zone: Unterhalb von ungefähr 300 Faden sollten abnehmendes Licht, niedrige Temperaturen und Nahrungsmangel tierisches Leben unmöglich machen. Für die damals äußerst begrenzten Tiefseeproben war das eine plausible Hochrechnung, und die Vorstellung wurde einflussreich, obwohl tatsächlich nur sehr wenig aus großen Tiefen bekannt war.
 
 Mit besseren Dredgen begann diese Grenze zu zerfallen. Expeditionen der späten 1860er-Jahre holten lebende Tiere aus Tiefen von annähernd 2.400 Faden. Die *Challenger*-Expedition von 1872 bis 1876 untersuchte die Tiefsee anschließend systematisch und fand Leben über ein enormes Tiefenspektrum hinweg. Eine hypothetische biologische Grenze wurde damit durch direkte Beobachtung ersetzt.
 

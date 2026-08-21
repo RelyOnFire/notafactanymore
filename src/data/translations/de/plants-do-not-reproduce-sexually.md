@@ -18,7 +18,7 @@ Blütenpflanzen bilden Samen, doch der Fortpflanzungsmechanismus war lange unkla
 
 Rudolf Jacob Camerarius lieferte 1694 den entscheidenden experimentellen Schritt. Er entfernte oder isolierte männliche Blütenstrukturen und verglich anschließend die Samenbildung. Unter Bedingungen, in denen kein Pollen wirksam werden konnte, entstanden keine normalen fruchtbaren Samen.
 
-Damit wurde Pollen als notwendiger **männlicher Fortpflanzungsbeitrag** etabliert und Pflanzensexualität experimentell greifbar.
+Damit wurde Pollen als notwendiger männlicher Fortpflanzungsbeitrag etabliert und Pflanzensexualität experimentell greifbar.
 
 Spätere Mikroskopie und Embryologie klärten den Mechanismus genauer. Bei Samenpflanzen trägt das Pollenkorn den männlichen Gametophyten; schließlich gelangen Spermazellen zur Samenanlage, wo die Befruchtung stattfindet und der Embryo entsteht.
 

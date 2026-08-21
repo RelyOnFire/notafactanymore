@@ -36,6 +36,6 @@ As stratigraphy improved, evidence accumulated that the ocean itself had repeate
 
 Ice-age geology supplied one of the clearest mechanisms. During glacial maxima, enormous amounts of water were locked in continental ice sheets, lowering global sea level by roughly 100 meters or more. Melting ice returned that water to the ocean. Thermal expansion and changes in ocean-basin geometry add other causes on different timescales.
 
-This distinction matters because **global sea level** and **local relative sea level** are not identical. A coast can experience rising or falling water because the land itself is subsiding or uplifting even while the global mean moves differently.
+This distinction matters because global sea level and local relative sea level are not identical. A coast can experience rising or falling water because the land itself is subsiding or uplifting even while the global mean moves differently.
 
 The exact magnitude of very ancient changes remains uncertain, but geological sea level is not a fixed background. It has repeatedly advanced and retreated across the continents.

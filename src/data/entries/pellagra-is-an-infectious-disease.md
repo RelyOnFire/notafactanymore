@@ -36,7 +36,7 @@ Joseph Goldberger noticed a pattern that infection did not explain well. Staff c
 
 Goldberger and colleagues even exposed themselves to blood, secretions, and skin material from pellagra patients without becoming ill—dramatic evidence against a transmissible pathogen.
 
-The nutritional explanation was later traced to deficiency of **niacin** or its precursor tryptophan. Diets heavily dependent on poorly processed maize and lacking adequate protein made the deficiency especially likely.
+The nutritional explanation was later traced to deficiency of niacin or its precursor tryptophan. Diets heavily dependent on poorly processed maize and lacking adequate protein made the deficiency especially likely.
 
 Pellagra can still arise for reasons other than simple poverty or food scarcity, including malabsorption, alcoholism, metabolic disease, and certain medications.
 

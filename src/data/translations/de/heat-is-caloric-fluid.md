@@ -13,11 +13,11 @@ sourceNotes:
 - "Beschreibt, wie Joules elektrische und mechanische Experimente ihn zur Ablehnung der Kalorikum-Theorie und zur Energieäquivalenz führten."
 ---
 
-Im 18. Jahrhundert war die Vorstellung eines unsichtbaren Wärmefluids erstaunlich leistungsfähig. Das **Kalorikum** sollte in Körpern gespeichert sein und von warmen zu kalten Gegenständen fließen. Damit ließen sich Wärmeleitung, Mischtemperaturen und viele kalorimetrische Beobachtungen gut ordnen.
+Im 18. Jahrhundert war die Vorstellung eines unsichtbaren Wärmefluids erstaunlich leistungsfähig. Das Kalorikum sollte in Körpern gespeichert sein und von warmen zu kalten Gegenständen fließen. Damit ließen sich Wärmeleitung, Mischtemperaturen und viele kalorimetrische Beobachtungen gut ordnen.
 
 Probleme entstanden, wenn mechanische Arbeit scheinbar unbegrenzt Wärme erzeugen konnte. Benjamin Thompson, Graf Rumford, beobachtete bei der Herstellung von Kanonen, dass Reibung fortlaufend große Wärmemengen hervorbrachte. Für einen begrenzten Vorrat eines konservierten Wärmefluides war das schwer zu erklären.
 
-James Prescott Joule machte den Zusammenhang quantitativ. In elektrischen und mechanischen Experimenten zeigte er, dass eine bestimmte Menge verrichteter Arbeit reproduzierbar einer bestimmten Wärmemenge entsprach. Wärme ließ sich damit als Form von **Energieübertragung** verstehen, nicht als materieller Stoff.
+James Prescott Joule machte den Zusammenhang quantitativ. In elektrischen und mechanischen Experimenten zeigte er, dass eine bestimmte Menge verrichteter Arbeit reproduzierbar einer bestimmten Wärmemenge entsprach. Wärme ließ sich damit als Form von Energieübertragung verstehen, nicht als materieller Stoff.
 
 Die entstehende Thermodynamik und kinetische Gastheorie verbanden Temperatur zunehmend mit mikroskopischer Bewegung und innerer Energie. Clausius, Kelvin, Maxwell, Boltzmann und andere machten daraus ein wesentlich umfassenderes Modell.
 

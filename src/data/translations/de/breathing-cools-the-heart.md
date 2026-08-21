@@ -14,7 +14,7 @@ sourceNotes:
 - "Beschreibt den modernen pulmonalen Gasaustausch und die Atemphysiologie."
 ---
 
-Antike Theorien der Atmung bauten auf einem Körper auf, der von **angeborener Wärme** angetrieben wurde.
+Antike Theorien der Atmung bauten auf einem Körper auf, der von angeborener Wärme angetrieben wurde.
 
 Aristoteles stellte das Herz ins physiologische Zentrum und verstand Atmung als Kühlprozess. Galen entwickelte später ein viel ausgefeilteres Herz-Lungen-System, in das Herz, Lungen, Blut und *Pneuma* eingebunden waren. Das Modell war in Bezug auf Kreislauf und Gasaustausch falsch, aber in sich schlüssig genug, um die westliche medizinische Physiologie ungefähr dreizehn Jahrhunderte lang zu prägen.
 

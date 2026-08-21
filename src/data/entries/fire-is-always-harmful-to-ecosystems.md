@@ -32,10 +32,10 @@ sources:
 
 For land managers confronting burned forests, destroyed timber and threats to towns, fire naturally looked like damage to be prevented. In the United States, twentieth-century policy increasingly made rapid suppression the goal, reinforcing the idea that a healthy landscape was one from which fire had been excluded.
 
-Ecologists studying fire history found a different baseline. Many forests, grasslands and shrublands had burned repeatedly long before modern suppression, through lightning and Indigenous burning. Plants and animals in these systems evolved around characteristic **fire regimes**—particular frequencies, seasons and intensities of burning.
+Ecologists studying fire history found a different baseline. Many forests, grasslands and shrublands had burned repeatedly long before modern suppression, through lightning and Indigenous burning. Plants and animals in these systems evolved around characteristic fire regimes—particular frequencies, seasons and intensities of burning.
 
 Decades without fire changed some of those landscapes. Shade-tolerant vegetation expanded, fire-dependent regeneration was interrupted and fuels accumulated. Management experiments showed that prescribed burning could restore ecological processes and, in some settings, reduce the probability of later severe fires.
 
 Agencies consequently moved away from universal suppression toward a mixture of prescribed fire, managed natural fire and suppression depending on place and conditions.
 
-That does not make fire inherently beneficial. A blaze can be ecologically destructive, especially when its severity or frequency falls outside the historical regime, and human safety can require suppression regardless of ecological role. The correction is to **always**: in many ecosystems, eliminating every fire is itself a major intervention.
+That does not make fire inherently beneficial. A blaze can be ecologically destructive, especially when its severity or frequency falls outside the historical regime, and human safety can require suppression regardless of ecological role. The correction is to always: in many ecosystems, eliminating every fire is itself a major intervention.

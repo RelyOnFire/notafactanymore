@@ -30,7 +30,7 @@ sources:
     note: "Reviews infections capable of crossing the placenta and causing congenital disease."
 ---
 
-The placenta obviously cannot be a wall against everything: oxygen, glucose, amino acids, antibodies, and many other substances must move between maternal and fetal systems. But the term **placental barrier** encouraged a stronger assumption that harmful drugs, chemicals, and infectious agents were reliably excluded.
+The placenta obviously cannot be a wall against everything: oxygen, glucose, amino acids, antibodies, and many other substances must move between maternal and fetal systems. But the term placental barrier encouraged a stronger assumption that harmful drugs, chemicals, and infectious agents were reliably excluded.
 
 Clinical evidence made that impossible to maintain. Congenital infections showed that some pathogens could cross or damage the placental interface. Pharmacological measurements demonstrated transfer of many medicines and chemicals.
 

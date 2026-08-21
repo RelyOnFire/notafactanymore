@@ -36,8 +36,8 @@ sources:
     note: "Synthesizes open-ocean enrichment experiments and the modern understanding of iron limitation and its ecological effects."
 ---
 
-Some of the ocean's strangest waters contain plenty of the major nutrients **nitrate and phosphate** yet relatively little phytoplankton. Iron deficiency had been suggested as an explanation for decades, but the available measurements appeared to show enough dissolved iron that the idea lacked convincing support. Measuring trace metals in seawater turned out to be exceptionally vulnerable to contamination.
+Some of the ocean's strangest waters contain plenty of the major nutrients nitrate and phosphate yet relatively little phytoplankton. Iron deficiency had been suggested as an explanation for decades, but the available measurements appeared to show enough dissolved iron that the idea lacked convincing support. Measuring trace metals in seawater turned out to be exceptionally vulnerable to contamination.
 
-Cleaner sampling changed the picture. In the 1980s John Martin and colleagues measured extremely low dissolved iron in open-ocean surface water. In 1988, adding tiny amounts of iron to North Pacific samples drove far greater phytoplankton growth and nitrate consumption. The 1993 **IronEx** experiment then added iron directly to the equatorial Pacific and produced a clear biological response in the ocean itself.
+Cleaner sampling changed the picture. In the 1980s John Martin and colleagues measured extremely low dissolved iron in open-ocean surface water. In 1988, adding tiny amounts of iron to North Pacific samples drove far greater phytoplankton growth and nitrate consumption. The 1993 IronEx experiment then added iron directly to the equatorial Pacific and produced a clear biological response in the ocean itself.
 
 Iron is not the universal or sole limiting nutrient. Light, grazing, nitrogen, phosphorus, silicon, and other processes can dominate elsewhere.

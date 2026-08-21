@@ -35,7 +35,7 @@ The “torrid zone” was a geographical deduction from the geometry of sunlight
 
 Greek geographers divided the spherical Earth into climatic belts. Aristotle argued that regions beyond the tropics were uninhabitable because of excessive heat, while the polar regions were uninhabitable because of cold. Habitable lands therefore occupied temperate zones between these extremes.
 
-The idea was never uncontested. **Strabo** explicitly criticized overly broad versions of the torrid zone and pointed to inhabited Ethiopian regions as evidence that substantial territory near the tropics was plainly habitable. That dissent is important: this was a learned geographical debate, not a universal ancient fact.
+The idea was never uncontested. Strabo explicitly criticized overly broad versions of the torrid zone and pointed to inhabited Ethiopian regions as evidence that substantial territory near the tropics was plainly habitable. That dissent is important: this was a learned geographical debate, not a universal ancient fact.
 
 Versions of the climatic-zone scheme nevertheless passed into later European geography. As European mariners traveled progressively farther down the African coast during the fifteenth century, actual inhabited tropical environments increasingly replaced abstract thermal boundaries on European maps.
 

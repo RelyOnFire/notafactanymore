@@ -18,7 +18,7 @@ Seeleute berichteten seit Langem von einzelnen „Wasserwänden“, die weit hö
 
 Entsprechend wurden besonders extreme Berichte häufig als Übertreibung, Fehleinschätzung oder Messfehler abgetan.
 
-Am 1. Januar 1995 zeichnete die Draupner-Ölplattform in der Nordsee eine außergewöhnliche Welle mit Instrumenten direkt auf. Die **Draupner-Welle** ragte drastisch über den umgebenden Seegang hinaus und lieferte genau den objektiven Messnachweis, der der Debatte gefehlt hatte.
+Am 1. Januar 1995 zeichnete die Draupner-Ölplattform in der Nordsee eine außergewöhnliche Welle mit Instrumenten direkt auf. Die Draupner-Welle ragte drastisch über den umgebenden Seegang hinaus und lieferte genau den objektiven Messnachweis, der der Debatte gefehlt hatte.
 
 Danach entwickelte sich die Forschung zu Monsterwellen rasch weiter. Solche Extremereignisse können durch verschiedene Mechanismen entstehen: statistisch seltene Überlagerungen, Wechselwirkungen zwischen Wellengruppen, fokussierende Meeresströmungen, unterschiedliche Einfallsrichtungen und nichtlineare Effekte.
 

@@ -37,7 +37,7 @@ Euclid's *Optics* used straight visual rays extending from the observer to const
 
 In the Latin West, however, extramission became highly influential. The eye was treated as an active participant whose visual power extended toward what it saw.
 
-The major transformation came through **Ibn al-Haytham (Alhazen)**. His *Book of Optics* replaced outgoing visual rays with a sophisticated account in which light travels from visible objects into the eye. After the work was translated into Latin around 1200, Roger Bacon, Witelo, John Pecham, and other perspectivists made intromission central to later medieval optical theory.
+The major transformation came through Ibn al-Haytham (Alhazen). His *Book of Optics* replaced outgoing visual rays with a sophisticated account in which light travels from visible objects into the eye. After the work was translated into Latin around 1200, Roger Bacon, Witelo, John Pecham, and other perspectivists made intromission central to later medieval optical theory.
 
 Modern vision science adds the physiology missing from both ancient geometrical camps: incoming light is focused onto retinal photoreceptors, converted into electrical signals, and processed through neural circuits.
 

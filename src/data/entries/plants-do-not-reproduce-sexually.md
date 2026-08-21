@@ -35,7 +35,7 @@ Flowers had visible structures, but their reproductive roles were not obvious. B
 
 In the seventeenth century, anatomists increasingly suspected a sexual process. Rudolf Jakob Camerarius supplied the crucial experimental step.
 
-By removing or isolating staminate structures and comparing seed production, Camerarius showed that fertile seed formation depended on **pollen**. His 1694 work provided the first clear experimental demonstration that plants possess male and female reproductive functions analogous, in an important sense, to those of animals.
+By removing or isolating staminate structures and comparing seed production, Camerarius showed that fertile seed formation depended on pollen. His 1694 work provided the first clear experimental demonstration that plants possess male and female reproductive functions analogous, in an important sense, to those of animals.
 
 Later microscopy and embryology clarified the mechanism. In seed plants, pollen carries the male gametophyte, which ultimately delivers sperm cells to the ovule, where fertilization produces the embryo.
 

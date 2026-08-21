@@ -20,8 +20,8 @@ Merkur, Venus, Mars, Jupiter und Saturn sind alle mit bloßem Auge sichtbar. In 
 
 Teleskope veränderten viele Einzelheiten unseres Wissens über die bekannten Planeten, doch mehr als 170 Jahre nach Beginn der teleskopischen Astronomie durch Galileo kam kein weiterer hinzu.
 
-Dann bemerkte **William Herschel am 13. März 1781** ein lichtschwaches Objekt im Sternbild Zwillinge, das sich gegenüber dem Sternhintergrund bewegte. Zunächst hielt er einen Kometen für möglich. Weitere Beobachtungen zeigten eine ferne, nahezu kreisförmige Umlaufbahn, die zu einem Planeten passte. Bis 1783 war sein Planetenstatus weitgehend akzeptiert.
+Dann bemerkte William Herschel am 13. März 1781 ein lichtschwaches Objekt im Sternbild Zwillinge, das sich gegenüber dem Sternhintergrund bewegte. Zunächst hielt er einen Kometen für möglich. Weitere Beobachtungen zeigten eine ferne, nahezu kreisförmige Umlaufbahn, die zu einem Planeten passte. Bis 1783 war sein Planetenstatus weitgehend akzeptiert.
 
-Die Auswirkung auf den Maßstab war gewaltig. Uranus kreist ungefähr doppelt so weit von der Sonne entfernt wie Saturn, sodass sich der bekannte Radius des Planetensystems mit einer einzigen Entdeckung praktisch verdoppelte. Uranus war außerdem der **erste mit einem Teleskop entdeckte Planet** und der erste Zuwachs zum klassischen Planetenbestand in der überlieferten Geschichte.
+Die Auswirkung auf den Maßstab war gewaltig. Uranus kreist ungefähr doppelt so weit von der Sonne entfernt wie Saturn, sodass sich der bekannte Radius des Planetensystems mit einer einzigen Entdeckung praktisch verdoppelte. Uranus war außerdem der erste mit einem Teleskop entdeckte Planet und der erste Zuwachs zum klassischen Planetenbestand in der überlieferten Geschichte.
 
 Neptun folgte 1846, diesmal mathematisch aus Störungen der Uranusbahn vorhergesagt.

@@ -36,4 +36,4 @@ Exceptional fossils changed the picture. Beginning in the 1990s, deposits in nor
 
 The discoveries also weakened the idea that feathers originated solely for powered flight. Filamentous coverings and feathers could serve insulation, display, brooding and other functions before some lineages adapted them for flight.
 
-The old image should not simply be inverted. Many dinosaurs had scales, and some animals combined scales with feathers on different parts of the body. The correction is that **uniformly scaly** is no longer a defensible description of Dinosauria.
+The old image should not simply be inverted. Many dinosaurs had scales, and some animals combined scales with feathers on different parts of the body. The correction is that uniformly scaly is no longer a defensible description of Dinosauria.

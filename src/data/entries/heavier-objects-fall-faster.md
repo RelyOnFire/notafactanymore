@@ -46,7 +46,7 @@ sources:
   note: Describes the continued centrality of Aristotle's Physics in Renaissance university natural philosophy.
 ---
 
-The old rule was part of Aristotle's larger theory of **natural motion**. Earthy and watery bodies were thought to move naturally toward the center of the cosmos, while air and fire tended upward. In his *Physics*, Aristotle reasoned that, other things being equal, a body with greater weight should move faster through a resisting medium. That made falling speed a consequence of both the body's heaviness and the density of what it moved through.
+The old rule was part of Aristotle's larger theory of natural motion. Earthy and watery bodies were thought to move naturally toward the center of the cosmos, while air and fire tended upward. In his *Physics*, Aristotle reasoned that, other things being equal, a body with greater weight should move faster through a resisting medium. That made falling speed a consequence of both the body's heaviness and the density of what it moved through.
 
 This was not an isolated guess that scholars repeated unchanged for two thousand years. Aristotle's physics became a framework to argue with. Medieval natural philosophers criticized, modified, and extended parts of it; discussions of projectile motion and impetus are good examples. But when Aristotle's translated natural works entered the medieval universities, his *Physics* became one of the central texts through which motion itself was studied.
 

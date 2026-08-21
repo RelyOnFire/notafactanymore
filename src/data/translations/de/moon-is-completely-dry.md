@@ -20,7 +20,7 @@ Die Apollo-Proben schienen zunächst das intuitive Bild eines ausgedörrten Mond
 
 Empfindlichere Instrumente ermöglichten später eine neue Prüfung. Raumsonden fanden erhöhte Wasserstoffkonzentrationen in Polnähe, und Spektrometer wiesen Wasser- beziehungsweise Hydroxylsignaturen an Teilen der Oberfläche nach.
 
-Auch die erneute Laboranalyse von Apollo-Material brachte eine Überraschung. Vulkanische Glasperlen und Minerale enthielten geringe Mengen **indigenen** Wassers. Das zeigte, dass Wasser nicht ausschließlich als moderne Oberflächenverunreinigung oder erst durch jüngste Einschläge vorhanden sein konnte, sondern auch im Mondinneren existiert hatte.
+Auch die erneute Laboranalyse von Apollo-Material brachte eine Überraschung. Vulkanische Glasperlen und Minerale enthielten geringe Mengen indigenen Wassers. Das zeigte, dass Wasser nicht ausschließlich als moderne Oberflächenverunreinigung oder erst durch jüngste Einschläge vorhanden sein konnte, sondern auch im Mondinneren existiert hatte.
 
 Die höchsten bekannten Konzentrationen liegen in dauerhaft verschatteten Polarregionen, deren Temperaturen niedrig genug sind, damit Wassereis über sehr lange Zeiträume erhalten bleibt.
 

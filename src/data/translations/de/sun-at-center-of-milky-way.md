@@ -14,13 +14,13 @@ sourceNotes:
 - Stellt fest, dass das Sonnensystem die Milchstraße umkreist und für einen Umlauf ungefähr 240 Millionen Jahre benötigt.
 ---
 
-Bevor Astronomen durch interstellaren Staub hindurchsehen konnten, versuchten sie die Milchstraße mit **Sternzählungen** zu kartieren. In verschiedene Richtungen wurden Sterne gezählt und ihre scheinbaren Entfernungen abgeschätzt.
+Bevor Astronomen durch interstellaren Staub hindurchsehen konnten, versuchten sie die Milchstraße mit Sternzählungen zu kartieren. In verschiedene Richtungen wurden Sterne gezählt und ihre scheinbaren Entfernungen abgeschätzt.
 
 Diese Karten ließen die Sonne überraschend zentral erscheinen. Ein besonders einflussreiches Modell von Jacobus Kapteyn beschrieb eine vergleichsweise kleine Galaxis, in der die Sonne nahe dem Zentrum lag.
 
 Das Problem war unsichtbarer Staub. Entlang der galaktischen Ebene wird das Licht entfernter Sterne absorbiert und gerötet. Dadurch sah es so aus, als würde die Sterndichte in vielen Richtungen früher abfallen, als sie tatsächlich tat.
 
-Harlow Shapley nutzte stattdessen die Verteilung von **Kugelsternhaufen**. Diese bildeten ein ausgedehntes System, dessen Mittelpunkt weit von der Sonne entfernt in Richtung Schütze lag.
+Harlow Shapley nutzte stattdessen die Verteilung von Kugelsternhaufen. Diese bildeten ein ausgedehntes System, dessen Mittelpunkt weit von der Sonne entfernt in Richtung Schütze lag.
 
 Shapley überschätzte einzelne Entfernungen, entfernte die Sonne aber korrekt aus ihrer privilegierten Position.
 

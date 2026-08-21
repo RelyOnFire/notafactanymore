@@ -20,7 +20,7 @@ Auch Einsteins frühes kosmologisches Modell war statisch, obwohl seine allgemei
 
 Parallel hatte Vesto Slipher bei vielen Spiralnebeln große Rotverschiebungen gemessen. Verbesserte Entfernungsmessungen zeigten später, dass es sich um externe Galaxien handelt.
 
-Bis Ende der 1920er-Jahre wurde der Zusammenhang zwischen Galaxienentfernung und Rezessionsgeschwindigkeit deutlich genug, um eine **Expansion des Universums auf großen Skalen** zu stützen.
+Bis Ende der 1920er-Jahre wurde der Zusammenhang zwischen Galaxienentfernung und Rezessionsgeschwindigkeit deutlich genug, um eine Expansion des Universums auf großen Skalen zu stützen.
 
 Diese Entdeckung war nicht das Werk einer einzigen Person. Leavitt, Slipher, Friedmann, Lemaître, Hubble, Humason und andere lieferten wesentliche theoretische und beobachtende Bausteine.
 

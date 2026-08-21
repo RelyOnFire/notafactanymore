@@ -34,7 +34,7 @@ Louis Pasteur had established that fermentation was closely associated with livi
 
 Eduard Buchner tested the boundary almost accidentally. In 1897 he ground yeast cells with sand and filtered the mixture to obtain a liquid extract with no intact living yeast. When sugar was added, the extract still produced alcohol and carbon dioxide.
 
-The result showed that the chemistry of fermentation could continue in **cell-free material**. Buchner called the active principle zymase; later biochemistry resolved fermentation into networks of enzymes, cofactors and metabolic intermediates.
+The result showed that the chemistry of fermentation could continue in cell-free material. Buchner called the active principle zymase; later biochemistry resolved fermentation into networks of enzymes, cofactors and metabolic intermediates.
 
 The experiment was important far beyond brewing. It helped establish that a process strongly associated with life could be dissected into chemical reactions and studied outside an intact organism, a foundational idea for enzymology and biochemistry.
 

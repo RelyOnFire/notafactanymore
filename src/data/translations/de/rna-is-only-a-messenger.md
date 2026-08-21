@@ -18,10 +18,10 @@ Im frühen Grundbild der Molekularbiologie hatte RNA eine wichtige, aber scheinb
 
 Diese klare Arbeitsteilung wurde schrittweise aufgeweicht.
 
-Ribosomale RNA erwies sich nicht bloß als Gerüst, sondern als zentraler struktureller und katalytischer Bestandteil des Ribosoms. Anfang der 1980er-Jahre wurden **Ribozyme** entdeckt – RNA-Moleküle, die selbst chemische Reaktionen katalysieren können.
+Ribosomale RNA erwies sich nicht bloß als Gerüst, sondern als zentraler struktureller und katalytischer Bestandteil des Ribosoms. Anfang der 1980er-Jahre wurden Ribozyme entdeckt – RNA-Moleküle, die selbst chemische Reaktionen katalysieren können.
 
 Kleine regulatorische RNAs eröffneten einen weiteren Bereich. RNA-Interferenz zeigte, dass kurze RNA-Moleküle komplementäre Sequenzen erkennen und Genexpression gezielt unterdrücken können. Andere nichtcodierende RNAs sind an RNA-Verarbeitung, Chromosomenbiologie, Genregulation und der Abwehr fremder genetischer Elemente beteiligt.
 
 Messenger-RNA bleibt unverzichtbar, und der Transport von Bauanweisungen für Proteine ist weiterhin eine zentrale RNA-Funktion.
 
-Abgelöst wurde das Wort **ausschließlich**. RNA ist nicht nur ein kurzlebiger Kurier zwischen DNA und Protein, sondern kann strukturelle, katalytische und regulatorische Funktionen übernehmen – und bei manchen Viren sogar selbst das Erbmaterial bilden.
+Abgelöst wurde das Wort ausschließlich. RNA ist nicht nur ein kurzlebiger Kurier zwischen DNA und Protein, sondern kann strukturelle, katalytische und regulatorische Funktionen übernehmen – und bei manchen Viren sogar selbst das Erbmaterial bilden.

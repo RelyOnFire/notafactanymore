@@ -35,9 +35,9 @@ The five-lobed liver shows how expectations can survive direct access to anatomy
 
 The idea appears in the Hippocratic tradition and was adopted by Galen. It makes sense in the context of animal dissection: dogs, cats, rabbits, pigs, and some primates have much more conspicuously separated liver lobes than humans.
 
-What is striking is how long the inherited picture survived **after human autopsies had resumed**. Anatomists did not necessarily walk into a dissection with a blank conceptual slate; ancient authorities told them what structures ought to be there.
+What is striking is how long the inherited picture survived after human autopsies had resumed. Anatomists did not necessarily walk into a dissection with a blank conceptual slate; ancient authorities told them what structures ought to be there.
 
-Vesalius provides an unusually visible example of self-correction. His **1538** anatomical tables still show a five-lobed liver. During public anatomy at Bologna in **1540**, and then in the *Fabrica* of **1543**, he rejected the old description for humans.
+Vesalius provides an unusually visible example of self-correction. His 1538 anatomical tables still show a five-lobed liver. During public anatomy at Bologna in 1540, and then in the *Fabrica* of 1543, he rejected the old description for humans.
 
 Modern anatomy normally describes right, left, caudate, and quadrate lobes, while clinicians often use a separate functional segmental scheme based on blood supply and biliary drainage.
 

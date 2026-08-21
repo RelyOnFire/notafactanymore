@@ -20,4 +20,4 @@ Mehrere Entdeckungen machten dieses Bild unhaltbar. Die Temperaturen tief im Erd
 
 Gleichzeitig zeigte die Seismologie, dass der äußere Kern flüssig und elektrisch leitfähig ist. Die Dynamotheorie erklärte, wie Bewegungen dieses leitfähigen Metalls – organisiert durch Konvektion und Erdrotation – elektrische Ströme erzeugen und das Magnetfeld fortlaufend neu aufbauen können.
 
-An der Erdoberfläche verhält sich das Feld weiterhin **annähernd** wie das eines Dipolmagneten. Diese Ähnlichkeit verrät aber nicht den Entstehungsmechanismus. Teile der Erdkruste bewahren dauerhafte Magnetisierung und damit auch Aufzeichnungen früherer Feldrichtungen; zum globalen Feld tragen sie jedoch nur einen kleinen Anteil im Vergleich zum Dynamo im Kern bei.
+An der Erdoberfläche verhält sich das Feld weiterhin annähernd wie das eines Dipolmagneten. Diese Ähnlichkeit verrät aber nicht den Entstehungsmechanismus. Teile der Erdkruste bewahren dauerhafte Magnetisierung und damit auch Aufzeichnungen früherer Feldrichtungen; zum globalen Feld tragen sie jedoch nur einen kleinen Anteil im Vergleich zum Dynamo im Kern bei.

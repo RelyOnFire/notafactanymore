@@ -13,12 +13,12 @@ sourceNotes:
 - "Ordnet die Lehre von der mütterlichen Einbildungskraft und Präformationstheorien in die Entwicklung der wissenschaftlichen Teratologie ein."
 ---
 
-Die Lehre von der **mütterlichen Einbildungskraft** war weit ausgearbeiteter als der bekannte Aberglaube, ein Schreck könne ein Muttermal hinterlassen.
+Die Lehre von der mütterlichen Einbildungskraft war weit ausgearbeiteter als der bekannte Aberglaube, ein Schreck könne ein Muttermal hinterlassen.
 
 Schon antike Autoren spekulierten, dass visuelle Eindrücke der Eltern bei der Empfängnis den Nachwuchs beeinflussen könnten. Im späten Mittelalter und in der frühen Neuzeit verlagerte sich die Lehre zunehmend auf die Vorstellungskraft der Schwangeren während der gesamten Schwangerschaft.
 
-Ärzte und Philosophen des 17. Jahrhunderts versuchten, der Idee konkrete Mechanismen zu geben. **Thomas Fienus, Descartes, van Helmont** und andere diskutierten, wie intensive Bilder, Wünsche, Berührungen oder Schrecken den Fötus verändern könnten. Unterschiedliche Arten von Fehlbildungen erhielten unterschiedliche Erklärungen: Ein lokal begrenztes Muttermal konnte einem Gelüst oder einer Berührung zugeschrieben werden, schwere Fehlbildungen dagegen einem Schockerlebnis.
+Ärzte und Philosophen des 17. Jahrhunderts versuchten, der Idee konkrete Mechanismen zu geben. Thomas Fienus, Descartes, van Helmont und andere diskutierten, wie intensive Bilder, Wünsche, Berührungen oder Schrecken den Fötus verändern könnten. Unterschiedliche Arten von Fehlbildungen erhielten unterschiedliche Erklärungen: Ein lokal begrenztes Muttermal konnte einem Gelüst oder einer Berührung zugeschrieben werden, schwere Fehlbildungen dagegen einem Schockerlebnis.
 
 Die Lehre hatte neben medizinischen auch soziale Auswirkungen. Sie konnte eine ungewöhnliche Geburt von einem vermeintlichen Zeichen für Ehebruch, Bestialität, dämonischen Einfluss oder göttliche Strafe in einen tragischen physiologischen Unfall umdeuten. Gleichzeitig legte sie Müttern eine schwere Last der Schuld auf.
 
-Im 18. Jahrhundert behandelte die entstehende **Teratologie** Fehlbildungen zunehmend als Entwicklungsphänomene, die verglichen, klassifiziert und experimentell untersucht werden konnten. Die moderne Entwicklungsbiologie kennt viele reale mütterliche Einflüsse auf die Entwicklung des Fötus, darunter Infektionen, Medikamente, Ernährung und Stoffwechselerkrankungen. Gedanken und visuelle Eindrücke prägen dem Fötus jedoch keine körperlichen Formen auf.
+Im 18. Jahrhundert behandelte die entstehende Teratologie Fehlbildungen zunehmend als Entwicklungsphänomene, die verglichen, klassifiziert und experimentell untersucht werden konnten. Die moderne Entwicklungsbiologie kennt viele reale mütterliche Einflüsse auf die Entwicklung des Fötus, darunter Infektionen, Medikamente, Ernährung und Stoffwechselerkrankungen. Gedanken und visuelle Eindrücke prägen dem Fötus jedoch keine körperlichen Formen auf.

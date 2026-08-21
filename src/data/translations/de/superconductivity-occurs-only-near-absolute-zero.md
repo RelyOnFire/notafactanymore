@@ -18,7 +18,7 @@ Seit der Entdeckung der Supraleitung 1911 lagen die bekannten Übergangstemperat
 
 Das ließ eine starke Erwartung entstehen: Supraleitung schien grundsätzlich an Temperaturen nahe dem absoluten Nullpunkt gebunden zu sein.
 
-1986 entdeckten Georg Bednorz und K. Alex Müller in keramischen Kupferoxiden einen unerwarteten supraleitenden Zustand bei deutlich höheren Temperaturen. Kurz darauf wurden verwandte Materialien gefunden, die sogar oberhalb von **77 Kelvin**, dem Siedepunkt von flüssigem Stickstoff, supraleitend bleiben.
+1986 entdeckten Georg Bednorz und K. Alex Müller in keramischen Kupferoxiden einen unerwarteten supraleitenden Zustand bei deutlich höheren Temperaturen. Kurz darauf wurden verwandte Materialien gefunden, die sogar oberhalb von 77 Kelvin, dem Siedepunkt von flüssigem Stickstoff, supraleitend bleiben.
 
 Das war sowohl praktisch als auch theoretisch ein Bruch. Kühlung mit flüssigem Stickstoff ist wesentlich einfacher und billiger als mit flüssigem Helium, und die neuen Materialien passten nicht sauber in die etablierte Theorie konventioneller Supraleitung.
 

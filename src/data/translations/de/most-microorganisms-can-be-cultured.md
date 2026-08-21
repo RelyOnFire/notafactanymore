@@ -16,7 +16,7 @@ sourceNotes:
 
 Die klassische Mikrobiologie wurde durch Kultivierung aufgebaut. Eine Probe kam auf ein Nährmedium, sichtbare Kolonien wuchsen heran, und diese Organismen ließen sich isolieren und weiter untersuchen. Der enorme Erfolg dieser Methode ließ die wachsenden Kolonien leicht repräsentativ für die mikrobielle Welt erscheinen.
 
-Direkte Zellzählungen zeigten jedoch eine auffällige Diskrepanz. Umweltproben enthielten oft um Größenordnungen mehr mikrobielle Zellen, als anschließend Kolonien auf gewöhnlichen Kulturplatten erschienen. Dieses Problem wurde als **great plate count anomaly** bekannt.
+Direkte Zellzählungen zeigten jedoch eine auffällige Diskrepanz. Umweltproben enthielten oft um Größenordnungen mehr mikrobielle Zellen, als anschließend Kolonien auf gewöhnlichen Kulturplatten erschienen. Dieses Problem wurde als great plate count anomaly bekannt.
 
 Molekulare Sequenzierung machte die Lücke noch deutlicher. DNA-Untersuchungen fanden riesige Abstammungslinien ohne kultivierte Vertreter, darunter häufige Organismen aus Ozeanen, Böden, Sedimenten und mikrobiellen Gemeinschaften in Wirten.
 

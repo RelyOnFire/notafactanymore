@@ -32,7 +32,7 @@ sources:
     note: "Reviews the history and continuing difficulty of determining the exact human gene catalogue."
 ---
 
-Before a complete human genome existed, scientists had to estimate gene number indirectly—from the diversity of proteins and RNA, mutation data, genome complexity and comparisons with other organisms. By the late twentieth century, figures around **100,000 protein-coding genes** were common.
+Before a complete human genome existed, scientists had to estimate gene number indirectly—from the diversity of proteins and RNA, mutation data, genome complexity and comparisons with other organisms. By the late twentieth century, figures around 100,000 protein-coding genes were common.
 
 The Human Genome Project made direct counting possible, although “direct” still required difficult computational and experimental annotation. When the draft sequence appeared in 2001, the predicted total was already far below expectations. Analysis of the finished sequence pushed the estimate down toward roughly 20,000–25,000 protein-coding genes.
 
@@ -40,4 +40,4 @@ That surprise weakened a simple intuition about biological complexity. Humans do
 
 The number is still not perfectly fixed because gene boundaries, small proteins and annotation standards continue to be refined.
 
-This card refers specifically to **protein-coding genes**. The genome also contains many genes whose functional products are RNAs rather than proteins, so “about 20,000 genes total” would itself be too simple.
+This card refers specifically to protein-coding genes. The genome also contains many genes whose functional products are RNAs rather than proteins, so “about 20,000 genes total” would itself be too simple.

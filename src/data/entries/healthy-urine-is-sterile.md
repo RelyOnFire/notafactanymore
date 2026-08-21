@@ -34,7 +34,7 @@ The phrase “sterile urine” became a basic clinical assumption: urine inside 
 
 Those methods were optimized for common urinary pathogens under a narrow set of laboratory conditions. They were not designed to recover every slow-growing, low-abundance or demanding organism.
 
-In the 2010s, sequencing and **enhanced quantitative urine culture** began detecting bacteria in bladder samples from people without symptoms of urinary tract infection. Repeated studies supported the existence of a low-biomass urinary microbiome rather than a universally sterile bladder.
+In the 2010s, sequencing and enhanced quantitative urine culture began detecting bacteria in bladder samples from people without symptoms of urinary tract infection. Repeated studies supported the existence of a low-biomass urinary microbiome rather than a universally sterile bladder.
 
 The finding changed interpretation rather than abolishing diagnosis. Bacteria in urine can still represent infection, and collection method matters because urine can acquire organisms from the urethra or surrounding skin after leaving the bladder. Symptoms, organism abundance, host response and clinical context remain essential.
 

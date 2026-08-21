@@ -33,11 +33,11 @@ sources:
 
 Neptunism was a global theory built from a surprisingly local geological sample.
 
-**Abraham Gottlob Werner**, an enormously influential teacher at the Freiberg mining academy, proposed that Earth had once been covered by a vast ocean. As that ocean gradually receded, rocks precipitated from it in a fixed sequence. Even crystalline rocks such as **granite** belonged to the earliest oceanic deposits.
+Abraham Gottlob Werner, an enormously influential teacher at the Freiberg mining academy, proposed that Earth had once been covered by a vast ocean. As that ocean gradually receded, rocks precipitated from it in a fixed sequence. Even crystalline rocks such as granite belonged to the earliest oceanic deposits.
 
 The theory had several strengths. It offered a simple universal chronology, matched many layered rocks around Freiberg, and came from a teacher whose students carried his methods across Europe. Werner's mining school became a major center of geological training, giving Neptunism something like an international alumni network.
 
-But rocks elsewhere behaved badly. Basalt occurred in relationships suggesting lava flows; granite intruded into surrounding rocks; contacts showed signs of intense heat. **Plutonist** interpretations associated with James Hutton and others increasingly explained these structures through subterranean heat and molten rock.
+But rocks elsewhere behaved badly. Basalt occurred in relationships suggesting lava flows; granite intruded into surrounding rocks; contacts showed signs of intense heat. Plutonist interpretations associated with James Hutton and others increasingly explained these structures through subterranean heat and molten rock.
 
 The argument was not settled by one dramatic experiment. Field geology accumulated cases that a universal ocean-precipitation theory could not absorb.
 

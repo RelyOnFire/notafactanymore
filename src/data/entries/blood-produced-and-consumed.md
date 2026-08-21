@@ -43,7 +43,7 @@ sources:
 
 Galen's circulatory model was sophisticated enough to explain a great deal of anatomy without containing circulation in the modern sense. In the second century CE, Galen described two linked but distinct vascular systems. Food was transformed into blood in the liver and sent outward through the veins to nourish tissues. Arteries carried blood mixed with *pneuma*, a life-associated principle linked to respiration. Blood could pass between the venous and arterial sides through pathways Galen believed existed, including invisible pores in the heart's septum.
 
-The system was **open-ended**: tissues consumed the blood delivered to them, so the liver continually made more. That is why Harvey's later arithmetic was so damaging. Once he estimated how much blood the heart expelled with each beat, the implied daily volume was far too large for the liver to manufacture and the tissues to consume continuously.
+The system was open-ended: tissues consumed the blood delivered to them, so the liver continually made more. That is why Harvey's later arithmetic was so damaging. Once he estimated how much blood the heart expelled with each beat, the implied daily volume was far too large for the liver to manufacture and the tissues to consume continuously.
 
 Galen's medical writings became extraordinarily authoritative across later Byzantine, Islamic, and European medicine, but the history was never a simple 1,500-year freeze. Ibn al-Nafis described pulmonary circulation in the 13th century and rejected Galen's invisible septal pores. Renaissance anatomists such as Vesalius corrected additional Galenic anatomy before Harvey.
 

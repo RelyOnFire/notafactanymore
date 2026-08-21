@@ -33,10 +33,10 @@ sources:
 
 The pituitary's name preserves its old job description.
 
-Galen described the structure beneath the brain as part of a route by which mucus or **pituita** from the cerebral ventricles drained toward the nasopharynx. The infundibulum served as a funnel and the gland as a receptacle or filter. That interpretation fitted a humoral physiology in which excess cerebral phlegm could leave the head through the nose.
+Galen described the structure beneath the brain as part of a route by which mucus or pituita from the cerebral ventricles drained toward the nasopharynx. The infundibulum served as a funnel and the gland as a receptacle or filter. That interpretation fitted a humoral physiology in which excess cerebral phlegm could leave the head through the nose.
 
 The model survived for more than a millennium because the anatomy seemed suggestive: the gland sits directly beneath the brain and close to the nasal cavities. Even Vesalius's 1543 illustrations still show ducts thought to participate in this drainage.
 
-The decisive anatomical problem was that the supposed passage was not actually open in the living body. In **1655**, Conrad Victor Schneider rejected the idea that nasal mucus came from the brain and showed that the nose and sinuses have their own mucous structures. Richard Lower later reinforced the rejection of the Galenic drainage route.
+The decisive anatomical problem was that the supposed passage was not actually open in the living body. In 1655, Conrad Victor Schneider rejected the idea that nasal mucus came from the brain and showed that the nose and sinuses have their own mucous structures. Richard Lower later reinforced the rejection of the Galenic drainage route.
 
 The pituitary's real importance turned out to be almost the opposite of a passive waste outlet. It is a densely vascular endocrine organ whose hormones coordinate multiple body systems under hypothalamic control.

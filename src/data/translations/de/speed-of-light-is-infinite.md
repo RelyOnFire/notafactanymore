@@ -20,7 +20,7 @@ Ole Rømer fand die Verzögerung deshalb im astronomischen Maßstab. Er beobacht
 
 Wenn die Erde weiter von Jupiter entfernt war, erschienen die Verfinsterungen später; bei kleinerem Abstand früher. Rømer deutete diese Verschiebung als zusätzliche Zeit, die das Licht für die veränderte Strecke benötigt.
 
-Damit war gezeigt, dass Licht eine **endliche Geschwindigkeit** besitzt, auch wenn Rømer den heutigen präzisen Zahlenwert noch nicht bestimmen konnte.
+Damit war gezeigt, dass Licht eine endliche Geschwindigkeit besitzt, auch wenn Rømer den heutigen präzisen Zahlenwert noch nicht bestimmen konnte.
 
 Spätere Messungen mit stellarer Aberration, rotierenden Zahnrädern und Spiegeln, Interferometrie und elektronischer Zeitmessung verbesserten den Wert immer weiter.
 

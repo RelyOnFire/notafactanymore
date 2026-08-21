@@ -34,7 +34,7 @@ The word *oxidation* began literally with oxygen chemistry. Combustion, rusting,
 
 Chemistry later encountered reactions with the same underlying structure but no oxygen at all. Chlorine could oxidize metals, electrochemical cells could drive oxidation and reduction, and electron theory provided a more general language for what was changing.
 
-Oxidation came to mean **loss of electrons**, or equivalently an increase in oxidation state, while reduction means gain of electrons or a decrease in oxidation state.
+Oxidation came to mean loss of electrons, or equivalently an increase in oxidation state, while reduction means gain of electrons or a decrease in oxidation state.
 
 That broader definition unifies oxygen reactions with a much larger class of redox chemistry. When iron rusts, oxygen is still involved and the older description remains perfectly useful. But oxygen is not what makes the process oxidation at the most general level.
 

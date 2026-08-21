@@ -34,7 +34,7 @@ Rubber, cellulose, proteins, and other polymeric materials behaved strangely com
 
 A common explanation was that the material consisted of ordinary small molecules held together in loose colloidal aggregates rather than one enormous covalently bonded structure.
 
-Hermann Staudinger argued the opposite in the 1920s. Polymers, he proposed, were genuine **macromolecules**: long chains whose atoms were connected by ordinary covalent bonds.
+Hermann Staudinger argued the opposite in the 1920s. Polymers, he proposed, were genuine macromolecules: long chains whose atoms were connected by ordinary covalent bonds.
 
 The claim met substantial resistance because molecules of such size seemed chemically unreasonable. Staudinger and others built the case through chemical transformations, viscosity studies, and increasingly persuasive molecular-weight measurements.
 

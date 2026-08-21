@@ -47,4 +47,4 @@ That made spontaneous generation part of a broader explanatory system: organisms
 
 The doctrine was repeatedly narrowed before it finally collapsed. Francesco Redi challenged spontaneous generation of larger animals in the 17th century; Needham and Spallanzani debated microorganisms in the 18th. In the 19th century Félix Pouchet still defended spontaneous generation while Louis Pasteur opposed it. Pasteur's swan-neck-flask experiments helped show that sterilized broth remained sterile when airborne contamination was excluded.
 
-This history concerns the repeated appearance of organisms under ordinary present-day conditions. It does **not** answer the separate origin-of-life question of how the first self-replicating systems arose on the early Earth.
+This history concerns the repeated appearance of organisms under ordinary present-day conditions. It does not answer the separate origin-of-life question of how the first self-replicating systems arose on the early Earth.

@@ -33,7 +33,7 @@ sources:
 
 A lichen looks like one organism. It forms a coherent crust, leafy sheet, or branching body, grows as a unit, and can be collected and named much like a moss or small plant. Early taxonomists therefore treated lichens as ordinary individual organisms.
 
-Microscopy revealed a stranger structure. Nineteenth-century investigators found fungal filaments wrapped around green algal or cyanobacterial cells. The lichen body was not the tissue of one plant-like species but a stable **symbiosis** between organisms with different ancestries and jobs.
+Microscopy revealed a stranger structure. Nineteenth-century investigators found fungal filaments wrapped around green algal or cyanobacterial cells. The lichen body was not the tissue of one plant-like species but a stable symbiosis between organisms with different ancestries and jobs.
 
 The fungal partner builds most of the visible structure, absorbs water and minerals, and provides protection. The photosynthetic partner supplies carbohydrates; cyanobacterial partners can sometimes contribute fixed nitrogen as well.
 

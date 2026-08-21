@@ -34,7 +34,7 @@ The original one-gene–one-enzyme idea was a major conceptual breakthrough. It 
 
 As molecular biology developed, the rule was refined to “one gene–one protein.” That still suggested a clean one-to-one mapping from a DNA sequence to a single final protein product.
 
-Split genes and RNA processing disrupted the simplicity. In many eukaryotic genes, precursor RNA can be **spliced in different ways**, including or excluding particular exons. Different promoters, start sites, and processing choices can further diversify the resulting RNAs and proteins.
+Split genes and RNA processing disrupted the simplicity. In many eukaryotic genes, precursor RNA can be spliced in different ways, including or excluding particular exons. Different promoters, start sites, and processing choices can further diversify the resulting RNAs and proteins.
 
 Some genes do not encode proteins at all; their functional products are RNAs.
 

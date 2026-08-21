@@ -36,7 +36,7 @@ That made it easy to dismiss the organ as vestigial or even as a place where lym
 
 Jacques Miller changed the interpretation in 1961 by removing the thymus from newborn mice. The animals developed severe defects in immune function and became unusually susceptible to infection.
 
-The timing explained the earlier confusion. The thymus is especially important while the immune system is being built. Developing lymphocytes enter the organ, where **T cells** undergo selection that helps them recognize foreign threats while limiting dangerous reactions against the body's own tissues.
+The timing explained the earlier confusion. The thymus is especially important while the immune system is being built. Developing lymphocytes enter the organ, where T cells undergo selection that helps them recognize foreign threats while limiting dangerous reactions against the body's own tissues.
 
 Adults retain long-lived T cells generated earlier, so removing an adult thymus cannot reproduce the consequences of losing it during development.
 

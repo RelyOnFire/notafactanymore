@@ -32,13 +32,13 @@ sources:
 
 Once cosmic expansion had been established, gravity seemed to imply the next step. Matter attracts matter, so the expansion should gradually slow as the universe's contents pull back against it.
 
-By the 1990s, two teams were using distant Type Ia supernovae as standardizable candles to measure that expected **deceleration**.
+By the 1990s, two teams were using distant Type Ia supernovae as standardizable candles to measure that expected deceleration.
 
 The supernovae did not behave as predicted. At given redshifts, they appeared dimmer than a simple slowing-universe model expected, implying that they were farther away.
 
 The most consistent interpretation was startling: cosmic expansion had sped up over time.
 
-That discovery introduced what is now called **dark energy**, a name for the component or effect driving the observed acceleration in the standard cosmological model.
+That discovery introduced what is now called dark energy, a name for the component or effect driving the observed acceleration in the standard cosmological model.
 
 The label is not a complete physical explanation. Its nature remains one of cosmology's major open problems.
 

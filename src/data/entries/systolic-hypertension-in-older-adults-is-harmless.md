@@ -38,7 +38,7 @@ Randomized outcome trials changed the balance. Studies such as SHEP showed that 
 
 Later trials extended the evidence into very old populations.
 
-The lesson was that **common with age** does not mean **harmless because of age**.
+The lesson was that common with age does not mean harmless because of age.
 
 Treatment still requires individual judgment. Frailty, orthostatic symptoms, kidney function, medication burden, and adverse effects matter, and an appropriate target for one older adult may be wrong for another.
 

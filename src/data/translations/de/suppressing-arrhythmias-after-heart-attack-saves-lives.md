@@ -16,13 +16,13 @@ sourceNotes:
 
 Nach einem Herzinfarkt waren häufige ventrikuläre Extrasystolen mit einem höheren Risiko für plötzlichen Herztod verbunden. Daraus ergab sich eine scheinbar zwingende Strategie: Wenn diese Rhythmusstörungen gefährlich sind, sollte ihre medikamentöse Unterdrückung Leben retten.
 
-Antiarrhythmika wie **Encainid und Flecainid** konnten die auffälligen Extraschläge im EKG tatsächlich deutlich reduzieren.
+Antiarrhythmika wie Encainid und Flecainid konnten die auffälligen Extraschläge im EKG tatsächlich deutlich reduzieren.
 
 Die Cardiac Arrhythmia Suppression Trial prüfte jedoch nicht nur den EKG-Effekt, sondern die entscheidende Frage: Starben die behandelten Patienten seltener?
 
 Das Ergebnis war das Gegenteil. In den behandelten Gruppen traten mehr arrhythmiebedingte Todesfälle und eine höhere Gesamtsterblichkeit auf. Die entsprechenden Studienarme wurden vorzeitig beendet.
 
-CAST wurde zu einem klassischen Beispiel für die Gefahr von **Surrogatendpunkten**. Ein Biomarker kann mit einem Risiko zusammenhängen und unter Therapie besser aussehen, ohne dass sich das für Patienten relevante Ergebnis verbessert.
+CAST wurde zu einem klassischen Beispiel für die Gefahr von Surrogatendpunkten. Ein Biomarker kann mit einem Risiko zusammenhängen und unter Therapie besser aussehen, ohne dass sich das für Patienten relevante Ergebnis verbessert.
 
 Die Studie zeigte nicht, dass jedes Antiarrhythmikum oder jede heutige Anwendung von Flecainid schädlich ist. Sie betraf eine bestimmte Hochrisikogruppe nach Herzinfarkt und eine bestimmte Behandlungsstrategie.
 

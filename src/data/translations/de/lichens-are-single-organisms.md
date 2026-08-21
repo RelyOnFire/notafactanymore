@@ -16,7 +16,7 @@ sourceNotes:
 
 Eine Flechte sieht zunächst wie ein einzelner Organismus aus. Sie bildet eine zusammenhängende Kruste, blattartige Fläche oder verzweigte Struktur, wächst als Einheit und lässt sich ähnlich wie ein Moos oder eine kleine Pflanze sammeln und benennen. Entsprechend behandelten frühe Taxonomen Flechten als gewöhnliche Einzelorganismen.
 
-Die Mikroskopie enthüllte im 19. Jahrhundert eine ungewöhnlichere Architektur. Pilzfäden umschließen grüne Algen- oder Cyanobakterienzellen. Der sichtbare Flechtenkörper ist damit nicht einfach das Gewebe einer einzigen pflanzenähnlichen Art, sondern das Ergebnis einer stabilen **Symbiose** zwischen Organismen unterschiedlicher Abstammung.
+Die Mikroskopie enthüllte im 19. Jahrhundert eine ungewöhnlichere Architektur. Pilzfäden umschließen grüne Algen- oder Cyanobakterienzellen. Der sichtbare Flechtenkörper ist damit nicht einfach das Gewebe einer einzigen pflanzenähnlichen Art, sondern das Ergebnis einer stabilen Symbiose zwischen Organismen unterschiedlicher Abstammung.
 
 Der Pilz bildet den größten Teil der sichtbaren Struktur, nimmt Wasser und Mineralstoffe auf und schafft Schutz. Der photosynthetische Partner liefert energiereiche Kohlenstoffverbindungen; Cyanobakterien können in manchen Flechten zusätzlich Stickstoff fixieren.
 

@@ -36,7 +36,7 @@ Gamma-ray bursts were discovered accidentally by satellites in the late 1960s. T
 
 NASA's Compton Gamma Ray Observatory changed the geometry of the problem. Beginning in 1991, its BATSE instrument detected bursts across the whole sky. If ordinary Galactic-disk neutron stars produced them, the distribution should have been concentrated toward the Milky Way's plane. Instead, the bursts were remarkably isotropic.
 
-Isotropy alone did not prove a cosmological origin; an enormous spherical halo around the Galaxy could mimic it. The decisive step came in 1997, when satellites localized bursts quickly enough for astronomers to detect fading **afterglows** at other wavelengths. Spectra and host galaxies then supplied redshifts placing bursts billions of light-years away.
+Isotropy alone did not prove a cosmological origin; an enormous spherical halo around the Galaxy could mimic it. The decisive step came in 1997, when satellites localized bursts quickly enough for astronomers to detect fading afterglows at other wavelengths. Spectra and host galaxies then supplied redshifts placing bursts billions of light-years away.
 
 The energy scale changed dramatically with the distance. Long bursts were later connected to the deaths of massive stars, while many short bursts are associated with compact-object mergers.
 

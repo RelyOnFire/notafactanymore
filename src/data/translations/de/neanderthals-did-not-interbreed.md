@@ -16,7 +16,7 @@ sourceNotes:
 
 Über einen großen Teil des 20. Jahrhunderts wurde das Verhältnis zwischen Neandertalern und modernen Menschen vor allem anhand von Anatomie und Archäologie diskutiert. Alte DNA versprach schließlich einen direkteren Test.
 
-Die ersten Untersuchungen konzentrierten sich auf **mitochondriale DNA**, ein kleines genetisches System, das über die mütterliche Linie vererbt wird. Neandertaler-Sequenzen lagen außerhalb der Variation heute lebender Menschen, und das Fehlen eines klaren mitochondrialen Beitrags wurde häufig als starkes Argument gegen Vermischung verstanden.
+Die ersten Untersuchungen konzentrierten sich auf mitochondriale DNA, ein kleines genetisches System, das über die mütterliche Linie vererbt wird. Neandertaler-Sequenzen lagen außerhalb der Variation heute lebender Menschen, und das Fehlen eines klaren mitochondrialen Beitrags wurde häufig als starkes Argument gegen Vermischung verstanden.
 
 Diese Schlussfolgerung war jedoch enger, als sie oft klang. Mitochondriale DNA bildet nur eine einzige mütterliche Abstammungslinie ab. Eine solche Linie kann im Laufe der Generationen verschwinden, selbst wenn an anderen Stellen des Genoms erheblicher Genfluss stattgefunden hat.
 

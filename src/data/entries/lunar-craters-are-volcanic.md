@@ -38,4 +38,4 @@ Apollo provided physical samples. Lunar rocks contained shock effects produced b
 
 The Moon is not a world without volcanism. Vast basaltic eruptions filled enormous ancient impact basins and created the maria, and some smaller depressions are volcanic.
 
-The overturned claim is about the **dominant crater population**. Most ordinary lunar craters are scars left by asteroids and comets, while volcanism primarily modified other parts of the landscape.
+The overturned claim is about the dominant crater population. Most ordinary lunar craters are scars left by asteroids and comets, while volcanism primarily modified other parts of the landscape.

@@ -34,7 +34,7 @@ Once DNA was established as the hereditary material of cells, RNA was often assi
 
 Tobacco mosaic virus provided a direct test of whether that hierarchy was universal. The virus consists largely of RNA wrapped in a protein coat, and researchers could separate the components experimentally.
 
-Reconstituted virus containing the RNA became infectious again. More importantly, experiments using components from different viral strains showed that inherited viral characteristics followed the **RNA**, not the protein coat.
+Reconstituted virus containing the RNA became infectious again. More importantly, experiments using components from different viral strains showed that inherited viral characteristics followed the RNA, not the protein coat.
 
 RNA could therefore function as a genome.
 

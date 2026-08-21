@@ -32,10 +32,10 @@ sources:
 
 Because almost every cell descends from the same fertilized egg, genetics long used a convenient simplification: one person, one genome. Blood or another accessible tissue could be sampled and treated as representative of the DNA throughout the body, apart from obvious exceptions such as cancers or major chromosome abnormalities.
 
-But every cell division creates another opportunity for DNA changes. Mutations that arise after fertilization are inherited only by the descendants of that particular cell, producing patches or lineages with slightly different genomes. This is **somatic mosaicism**.
+But every cell division creates another opportunity for DNA changes. Mutations that arise after fertilization are inherited only by the descendants of that particular cell, producing patches or lineages with slightly different genomes. This is somatic mosaicism.
 
 For many years, most such variation was difficult to detect because standard sequencing averaged DNA from millions of cells. Higher-resolution and single-cell methods made it possible to identify low-frequency mutations and reconstruct genetically distinct lineages within healthy tissues, including the brain, skin and blood.
 
 Most cells in one person are still overwhelmingly similar genetically, which is why ordinary genetic testing works. The differences are generally tiny relative to the whole genome and often harmless.
 
-The correction is therefore to the word **exactly**. A human body is not a collection of billions of perfectly identical DNA copies; it is a related mosaic whose cells accumulate different mutations over development and aging.
+The correction is therefore to the word exactly. A human body is not a collection of billions of perfectly identical DNA copies; it is a related mosaic whose cells accumulate different mutations over development and aging.

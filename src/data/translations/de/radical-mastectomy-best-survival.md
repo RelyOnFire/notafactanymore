@@ -20,7 +20,7 @@ Aus dieser Logik entstanden immer ausgedehntere Operationen, bei denen nicht nur
 
 Randomisierte Studien prüften ab den 1970er-Jahren, ob mehr Operation tatsächlich längeres Überleben bedeutete. Europäische und US-amerikanische Studien verglichen radikale Verfahren mit weniger ausgedehnten Eingriffen und später mit brusterhaltender Operation plus Strahlentherapie.
 
-Für viele Frauen mit frühem Brustkrebs brachte die stärker entstellende Operation **keinen Überlebensvorteil**.
+Für viele Frauen mit frühem Brustkrebs brachte die stärker entstellende Operation keinen Überlebensvorteil.
 
 Die Ergebnisse unterstützten zugleich ein systemischeres Verständnis der Brustkrebsbiologie: Mikroskopische Ausbreitung kann bereits früh stattfinden, während lokale Kontrolle und systemische Behandlung nach Tumoreigenschaften kombiniert werden müssen. Maximale Gewebeentfernung ist deshalb nicht automatisch die wirksamste Therapie.
 

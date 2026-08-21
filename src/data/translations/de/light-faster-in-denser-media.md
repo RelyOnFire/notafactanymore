@@ -14,13 +14,13 @@ sourceNotes:
 - "Liefert die exakt definierte Lichtgeschwindigkeit im Vakuum als Bezugspunkt moderner Brechungsindex-Beschreibungen."
 ---
 
-Eine Zeit lang war die Messung der Lichtgeschwindigkeit in Wasser eine Möglichkeit, zwischen zwei konkurrierenden Vorstellungen darüber zu entscheiden, **was Licht ist**.
+Eine Zeit lang war die Messung der Lichtgeschwindigkeit in Wasser eine Möglichkeit, zwischen zwei konkurrierenden Vorstellungen darüber zu entscheiden, was Licht ist.
 
-In Newtons Korpuskularoptik bestand Licht aus winzigen Teilchen. Damit ein Lichtstrahl beim Eintritt in Wasser oder Glas zum Lot hin gebrochen wurde, sollte das dichtere Medium eine anziehende Kraft ausüben, die die Teilchen beschleunigte. **Wellentheorien sagten das Gegenteil voraus**: Brechung in ein dichteres Medium erforderte eine geringere Ausbreitungsgeschwindigkeit.
+In Newtons Korpuskularoptik bestand Licht aus winzigen Teilchen. Damit ein Lichtstrahl beim Eintritt in Wasser oder Glas zum Lot hin gebrochen wurde, sollte das dichtere Medium eine anziehende Kraft ausüben, die die Teilchen beschleunigte. Wellentheorien sagten das Gegenteil voraus: Brechung in ein dichteres Medium erforderte eine geringere Ausbreitungsgeschwindigkeit.
 
 Die newtonsche Optik dominierte große Teile der britischen und europäischen Optik des 18. Jahrhunderts. Dadurch gewann die Vorhersage „schneller in Wasser“ erhebliche Autorität, obwohl Wellentheorien nie vollständig verschwanden.
 
-Der experimentelle Test war außerordentlich schwierig, weil sich Licht so schnell bewegt. **1850** passte Léon Foucault eine Drehspiegelmethode an, um die Lichtgeschwindigkeit durch Luft und Wasser über Laborentfernungen direkt zu vergleichen. Das Ergebnis war eindeutig: Licht bewegte sich in Wasser **langsamer**.
+Der experimentelle Test war außerordentlich schwierig, weil sich Licht so schnell bewegt. 1850 passte Léon Foucault eine Drehspiegelmethode an, um die Lichtgeschwindigkeit durch Luft und Wasser über Laborentfernungen direkt zu vergleichen. Das Ergebnis war eindeutig: Licht bewegte sich in Wasser langsamer.
 
 Damit war noch nicht die vollständige moderne elektromagnetische Theorie des Lichts bewiesen, doch einer der wichtigsten experimentellen Vorteile von Newtons Korpuskularmodell der Brechung war verschwunden.
 

@@ -14,9 +14,9 @@ sourceNotes:
 - "Moderne Übersichtsarbeit zu den elektrischen Durchschlagsprozessen, die an der Entstehung von Blitzen beteiligt sind."
 ---
 
-Blitze gehörten einst ebenso selbstverständlich zur **Chemie**, wie sie heute zur Elektrizitätslehre gehören.
+Blitze gehörten einst ebenso selbstverständlich zur Chemie, wie sie heute zur Elektrizitätslehre gehören.
 
-An ältere Traditionen anknüpfend stellten sich viele Gelehrte des 18. Jahrhunderts vor, dass sich in der Atmosphäre brennbare **schwefelhaltige und salpetrige Dämpfe** ansammelten. Ihre spontane Entzündung oder explosive Reaktion konnte Blitze, Donner, Hitze und den mit Gewittern verbundenen Geruch erklären. Ähnliche unterirdische Dämpfe wurden für Erdbeben und Vulkane verantwortlich gemacht, sodass mehrere gewaltsame Naturphänomene in einem gemeinsamen chemischen Rahmen zusammenliefen.
+An ältere Traditionen anknüpfend stellten sich viele Gelehrte des 18. Jahrhunderts vor, dass sich in der Atmosphäre brennbare schwefelhaltige und salpetrige Dämpfe ansammelten. Ihre spontane Entzündung oder explosive Reaktion konnte Blitze, Donner, Hitze und den mit Gewittern verbundenen Geruch erklären. Ähnliche unterirdische Dämpfe wurden für Erdbeben und Vulkane verantwortlich gemacht, sodass mehrere gewaltsame Naturphänomene in einem gemeinsamen chemischen Rahmen zusammenliefen.
 
 Innerhalb der damaligen Chemie war die Theorie keineswegs offensichtlich absurd. Schwefel brennt tatsächlich heftig. Brennbare Dämpfe existieren. Und elektrische Erscheinungen selbst waren nur unzureichend verstanden und wurden teilweise mit Begriffen beschrieben, die an Feuer oder Schwefel erinnerten.
 

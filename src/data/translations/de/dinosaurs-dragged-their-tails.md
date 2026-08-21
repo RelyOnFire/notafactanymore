@@ -20,4 +20,4 @@ Die Haltung verstärkte sich kulturell selbst. Illustrationen kopierten Museumsp
 
 Biomechanische Rekonstruktionen rückten die Wirbelsäule zunehmend in eine horizontalere Lage. Der Schwanz wurde frei über dem Boden als Gegengewicht zu Kopf und Rumpf getragen. Die sogenannte Dinosaurier-Renaissance des späten 20. Jahrhunderts machte diese aktivere, ausbalancierte Haltung populär, und große Museumsskelette wurden entsprechend neu montiert.
 
-Gelegentliche fossile Schwanzschleifspuren existieren durchaus. Es gilt also keine absolute Regel, dass ein Dinosaurierschwanz niemals den Boden berührte. Geändert hat sich die Vorstellung von der **normalen Gehhaltung**, die Generationen von Rekonstruktionen geprägt hatte.
+Gelegentliche fossile Schwanzschleifspuren existieren durchaus. Es gilt also keine absolute Regel, dass ein Dinosaurierschwanz niemals den Boden berührte. Geändert hat sich die Vorstellung von der normalen Gehhaltung, die Generationen von Rekonstruktionen geprägt hatte.

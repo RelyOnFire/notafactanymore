@@ -16,7 +16,7 @@ sourceNotes:
 
 Diese Vorstellung hielt sich, weil sie mehrere sonst schwer erklärbare Vorgänge der Fortpflanzung in ein einziges physiologisches System einband.
 
-Antike medizinische Autoren bemerkten, dass die Menstruation in der Schwangerschaft gewöhnlich ausbleibt und auch während des Stillens eine Zeit lang nicht zurückkehrt. Innerhalb der humoralen Reproduktionsphysiologie deutete das darauf hin, dass derselbe Stoff **umgeleitet** werde: zurückgehaltenes Menstruationsblut könne während der Schwangerschaft den Fötus nähren und später zu den Brüsten wandern, um zu Milch zu werden.
+Antike medizinische Autoren bemerkten, dass die Menstruation in der Schwangerschaft gewöhnlich ausbleibt und auch während des Stillens eine Zeit lang nicht zurückkehrt. Innerhalb der humoralen Reproduktionsphysiologie deutete das darauf hin, dass derselbe Stoff umgeleitet werde: zurückgehaltenes Menstruationsblut könne während der Schwangerschaft den Fötus nähren und später zu den Brüsten wandern, um zu Milch zu werden.
 
 Aristoteles, Soranos, Galen und spätere medizinische Autoritäten wiederholten Varianten dieser Theorie. Daraus entstanden weitere Lehren über Kolostrum, die Ernährung der Mutter, sexuelle Aktivität während der Laktation, Ammenwesen und die vermeintlichen Wirkungen „schlechter Milch“ auf Säuglinge.
 

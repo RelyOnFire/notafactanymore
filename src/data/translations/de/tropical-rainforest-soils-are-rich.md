@@ -14,7 +14,7 @@ sourceNotes:
 - "Zeigt, dass tropische Böden ein breites Spektrum an Fruchtbarkeit aufweisen, und weist die spätere Gegenvereinfachung zurück, tropische Böden seien grundsätzlich unfruchtbar."
 ---
 
-Dichter tropischer Wald legte einst einen einfachen Schluss nahe: Eine derart üppige Vegetation müsse auf außergewöhnlich fruchtbarem Boden wachsen. Daraus folgte auch die Erwartung, gerodeter Regenwald müsse sich dauerhaft besonders gut landwirtschaftlich nutzen lassen. Tropische Bodenkartierungen zeichneten zunehmend ein anderes Bild. Bereits in den 1930er-Jahren warnten Bodenkundler ausdrücklich davor, **die Üppigkeit des Waldes mit landwirtschaftlicher Bodenfruchtbarkeit gleichzusetzen**.
+Dichter tropischer Wald legte einst einen einfachen Schluss nahe: Eine derart üppige Vegetation müsse auf außergewöhnlich fruchtbarem Boden wachsen. Daraus folgte auch die Erwartung, gerodeter Regenwald müsse sich dauerhaft besonders gut landwirtschaftlich nutzen lassen. Tropische Bodenkartierungen zeichneten zunehmend ein anderes Bild. Bereits in den 1930er-Jahren warnten Bodenkundler ausdrücklich davor, die Üppigkeit des Waldes mit landwirtschaftlicher Bodenfruchtbarkeit gleichzusetzen.
 
 In vielen feuchten, alten Tropenlandschaften hinterlassen intensive Verwitterung und Auswaschung nur vergleichsweise wenige leicht verfügbare Nährstoffe im Mineralboden. Wälder können dennoch äußerst produktiv sein, weil Nährstoffe rasch in lebender Biomasse, Streu, Wurzeln, Pilzen und Mikroben gebunden und wiederverwertet werden. Eine Rodung kann diesen Kreislauf unterbrechen und den Boden zusätzlich Erosion und Nährstoffverlust aussetzen.
 

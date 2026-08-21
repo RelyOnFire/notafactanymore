@@ -14,7 +14,7 @@ sourceNotes:
 - Erörtert den allmählichen statt sofortigen Niedergang der vitalistischen Chemie.
 ---
 
-Frühe Chemiker unterschieden deutlich zwischen Stoffen der mineralischen Welt und den komplexen Verbindungen, die aus Pflanzen und Tieren gewonnen wurden. Viele Vertreter des **Vitalismus** nahmen an, dass zur Bildung organischer Stoffe eine besondere Lebenskraft nötig sei, die nur in Organismen wirke.
+Frühe Chemiker unterschieden deutlich zwischen Stoffen der mineralischen Welt und den komplexen Verbindungen, die aus Pflanzen und Tieren gewonnen wurden. Viele Vertreter des Vitalismus nahmen an, dass zur Bildung organischer Stoffe eine besondere Lebenskraft nötig sei, die nur in Organismen wirke.
 
 1828 erhitzte Friedrich Wöhler Ammoniumcyanat und erhielt Harnstoff – eine Verbindung, die bis dahin eng mit tierischer Physiologie verbunden war. Damit ließ sich ein typischer „organischer“ Stoff aus Ausgangsmaterialien herstellen, ohne dass ein lebender Organismus beteiligt war.
 

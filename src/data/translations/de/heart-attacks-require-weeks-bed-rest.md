@@ -18,7 +18,7 @@ Ein Herzinfarkt wurde früher wie eine schwere innere Verletzung behandelt. Der 
 
 Die Behandlung hatte jedoch eigene Gefahren. Lange Immobilität führt rasch zu Muskelabbau, Kreislaufverlust, Thrombosen und allgemeiner Dekonditionierung. Als Ärzte in den 1950er- und 1960er-Jahren begannen, ausgewählte stabile Patienten früher aufsetzen und gehen zu lassen, zeigte sich, dass dies nicht die befürchtete Welle von Komplikationen verursachte.
 
-Schrittweise entwickelten sich daraus strukturierte Programme der **kardialen Rehabilitation**. Kontrollierte körperliche Aktivität wurde nicht mehr als Gegensatz zur Heilung betrachtet, sondern als Teil davon – angepasst an Herzfunktion, Symptome und Komplikationen.
+Schrittweise entwickelten sich daraus strukturierte Programme der kardialen Rehabilitation. Kontrollierte körperliche Aktivität wurde nicht mehr als Gegensatz zur Heilung betrachtet, sondern als Teil davon – angepasst an Herzfunktion, Symptome und Komplikationen.
 
 Mit moderner Akutbehandlung, schneller Wiedereröffnung verschlossener Koronararterien und kürzeren Krankenhausaufenthalten wurde die alte mehrwöchige Bettruhe noch weniger sinnvoll.
 

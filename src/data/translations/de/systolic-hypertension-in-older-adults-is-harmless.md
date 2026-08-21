@@ -14,7 +14,7 @@ sourceNotes:
 - Erklärt Gesundheitsrisiken und moderne Behandlung von Hypertonie bei älteren Erwachsenen.
 ---
 
-Mit zunehmendem Alter steigt bei vielen Menschen der systolische Blutdruck, unter anderem weil große Arterien steifer werden. Früher wurde dieser Anstieg deshalb häufig als normaler oder sogar **notwendiger** Teil des Alterns betrachtet.
+Mit zunehmendem Alter steigt bei vielen Menschen der systolische Blutdruck, unter anderem weil große Arterien steifer werden. Früher wurde dieser Anstieg deshalb häufig als normaler oder sogar notwendiger Teil des Alterns betrachtet.
 
 Dahinter stand auch eine reale Sorge: Wenn ältere Gewebe eine höhere Druckdifferenz zur Durchblutung brauchten, könnte eine medikamentöse Senkung Schwindel, Ohnmacht oder Organschäden verursachen.
 

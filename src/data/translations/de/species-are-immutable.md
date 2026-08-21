@@ -18,7 +18,7 @@ In der europäischen Naturgeschichte der frühen Neuzeit und besonders in linné
 
 Beobachtungen aus Biogeografie und Paläontologie machten diese Vorstellung zunehmend schwerer zu halten. Fossilien zeigten ausgestorbene Formen, Inseln beherbergten eng verwandte, aber unterschiedliche Arten, und Zuchtwahl demonstrierte, wie stark vererbbare Merkmale unter Auswahl verändert werden können.
 
-Darwin und Wallace verbanden solche Befunde mit **gemeinsamer Abstammung und natürlicher Selektion**. Populationen besitzen erbliche Variation; unter unterschiedlichen Umweltbedingungen können sich diese Unterschiede über Generationen aufbauen und schließlich zur Entstehung neuer Arten beitragen.
+Darwin und Wallace verbanden solche Befunde mit gemeinsamer Abstammung und natürlicher Selektion. Populationen besitzen erbliche Variation; unter unterschiedlichen Umweltbedingungen können sich diese Unterschiede über Generationen aufbauen und schließlich zur Entstehung neuer Arten beitragen.
 
 Die Belege endeten nicht im 19. Jahrhundert. Genetik erklärte die Vererbung, Populationsbiologie machte evolutionäre Veränderung messbar, und molekulare Sequenzen zeigten verschachtelte Muster gemeinsamer Abstammung im gesamten Stammbaum des Lebens.
 

@@ -16,12 +16,12 @@ sourceNotes:
 
 Newtons Farbtheorie kehrte die Richtung der Erklärung um.
 
-Dass ein Prisma farbige Säume erzeugt, war schon lange bekannt. Die naheliegende Annahme lautete, **weißes Licht sei der einfache Ausgangsstoff** und werde durch Brechung, Glas, Schatten oder eine Wechselwirkung im Medium zu Farben verändert. Die optischen Theorien des 17. Jahrhunderts unterschieden sich in ihren Mechanismen; es gab daher keine einzige, allgemein gültige Theorie vor Newton.
+Dass ein Prisma farbige Säume erzeugt, war schon lange bekannt. Die naheliegende Annahme lautete, weißes Licht sei der einfache Ausgangsstoff und werde durch Brechung, Glas, Schatten oder eine Wechselwirkung im Medium zu Farben verändert. Die optischen Theorien des 17. Jahrhunderts unterschieden sich in ihren Mechanismen; es gab daher keine einzige, allgemein gültige Theorie vor Newton.
 
 Newtons Experimente führten zu einer anderen Behauptung: Das Prisma sortierte Licht, das bereits uneinheitlich zusammengesetzt war. In seinem berühmten *experimentum crucis* wählte er einen schmalen Bereich aus dem Spektrum eines ersten Prismas aus und brach diesen erneut. Ein roter Strahl blieb charakteristisch rot und wurde anders stark gebrochen als ein violetter. Wiederholte Brechung verwandelte die einzelnen Farben nicht beliebig in neue Farbsätze.
 
 Anschließend ging er das Problem aus der entgegengesetzten Richtung an. Wenn weißes Licht eine Mischung ist, müssten getrennte Spektralfarben wieder zusammengeführt werden können. Newton verwendete Linsen und Prismen, um sie erneut zu vereinigen und wieder Weiß zu erhalten.
 
-Das Ergebnis war begrifflich überraschend: **Weiß**, das visuell einfach erscheint, ist optisch zusammengesetzt; einzelne Spektralfarben können homogener sein.
+Das Ergebnis war begrifflich überraschend: Weiß, das visuell einfach erscheint, ist optisch zusammengesetzt; einzelne Spektralfarben können homogener sein.
 
 Newtons Deutung war umstritten und brauchte Jahrzehnte, um breite Akzeptanz zu finden. Da die vornewtonschen Theorien vielfältig waren und keinen klar abgegrenzten Konsens bildeten, ist dieser Eintrag von präzisen Lebensdauerstatistiken ausgeschlossen.

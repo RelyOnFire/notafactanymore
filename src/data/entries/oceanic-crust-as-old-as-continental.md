@@ -33,6 +33,6 @@ Seafloor spreading explained the pattern: new basaltic crust forms at ridges, mo
 
 Radiometric dating confirmed the striking age pattern. Oceanic crust is generally young compared with continents, and the oldest surviving seafloor is only a small fraction of Earth's age.
 
-The missing ancient ocean floor is not missing by accident. It is **recycled** at subduction zones, where oceanic lithosphere sinks back into the mantle.
+The missing ancient ocean floor is not missing by accident. It is recycled at subduction zones, where oceanic lithosphere sinks back into the mantle.
 
 Old sediment can rest on young crust, but the basaltic ocean floor itself is geologically temporary.

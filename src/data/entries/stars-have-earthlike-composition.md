@@ -38,7 +38,7 @@ Cecilia Payne showed why it did not. In her 1925 thesis, she applied the new phy
 
 Once those effects were accounted for, hydrogen and helium turned out to be vastly more abundant than the heavier elements that often dominated the visually striking parts of the spectrum.
 
-The result initially seemed so surprising that even experts urged caution, but later work confirmed the basic conclusion: ordinary stars are overwhelmingly made of **hydrogen and helium**.
+The result initially seemed so surprising that even experts urged caution, but later work confirmed the basic conclusion: ordinary stars are overwhelmingly made of hydrogen and helium.
 
 Spectral lines still reveal composition, but they must be interpreted through temperature, pressure, ionization, and radiative-transfer physics.
 

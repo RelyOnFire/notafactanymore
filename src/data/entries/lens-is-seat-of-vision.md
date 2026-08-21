@@ -35,7 +35,7 @@ The lens once occupied a much grander place in visual physiology than it does to
 
 Galen described the crystalline lens as the most important part of the eye and the place where visual sensation was received. That assumption influenced not only anatomy but also the geometry of the eye: the lens was often drawn near the center because a central position seemed appropriate for the organ of sight.
 
-The transition was gradual. Better human anatomy moved the lens toward its correct position. In **1583**, Felix Platter explicitly assigned the sensory role to the retina rather than the lens. Johannes Kepler's 1604 optics then explained how cornea and lens refract incoming light to form an inverted image on the retina.
+The transition was gradual. Better human anatomy moved the lens toward its correct position. In 1583, Felix Platter explicitly assigned the sensory role to the retina rather than the lens. Johannes Kepler's 1604 optics then explained how cornea and lens refract incoming light to form an inverted image on the retina.
 
 Modern physiology preserves an important role for the lens because it changes shape to focus. Sensory transduction, however, belongs to rods and cones in the retina. The lens is optical; the retina is neural.
 

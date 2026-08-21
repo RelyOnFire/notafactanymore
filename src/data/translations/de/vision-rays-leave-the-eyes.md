@@ -20,7 +20,7 @@ Euklids *Optics* nutzte geradlinige Sehstrahlen, die vom Beobachter ausgingen, u
 
 Im lateinischen Westen wurde die Extramission jedoch sehr einflussreich. Das Auge galt als aktiver Teilnehmer, dessen Sehkraft sich auf das erstreckte, was es sah.
 
-Die große Wende kam durch **Ibn al-Haytham (Alhazen)**. Sein *Book of Optics* ersetzte ausgehende Sehstrahlen durch eine ausgearbeitete Erklärung, nach der Licht von sichtbaren Objekten ins Auge gelangt. Nachdem das Werk um 1200 ins Lateinische übersetzt worden war, machten Roger Bacon, Witelo, John Pecham und andere Perspektivisten die Intromission zum Kern der späteren mittelalterlichen Optik.
+Die große Wende kam durch Ibn al-Haytham (Alhazen). Sein *Book of Optics* ersetzte ausgehende Sehstrahlen durch eine ausgearbeitete Erklärung, nach der Licht von sichtbaren Objekten ins Auge gelangt. Nachdem das Werk um 1200 ins Lateinische übersetzt worden war, machten Roger Bacon, Witelo, John Pecham und andere Perspektivisten die Intromission zum Kern der späteren mittelalterlichen Optik.
 
 Die moderne Sehwissenschaft ergänzt die Physiologie, die beiden antiken geometrischen Lagern fehlte: Einfallendes Licht wird auf Photorezeptoren der Netzhaut fokussiert, in elektrische Signale umgewandelt und in neuronalen Schaltkreisen verarbeitet.
 

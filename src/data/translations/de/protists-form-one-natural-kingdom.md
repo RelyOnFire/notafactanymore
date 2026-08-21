@@ -16,7 +16,7 @@ sourceNotes:
 
 „Protist“ war lange eine praktische Lösung für ein echtes taxonomisches Problem. Mikroskopische Eukaryoten, die weder eindeutig Tiere noch Pflanzen oder Pilze waren, konnten in einem eigenen Reich zusammengefasst werden, statt sie in Kategorien zu zwingen, die vor allem für größere Organismen entwickelt worden waren.
 
-Das Problem lag in der Abstammung. Die Gruppe war weitgehend darüber definiert, was ihre Mitglieder **nicht** waren – nicht über einen gemeinsamen Vorfahren, dessen Nachkommen ausschließlich Protisten wären.
+Das Problem lag in der Abstammung. Die Gruppe war weitgehend darüber definiert, was ihre Mitglieder nicht waren – nicht über einen gemeinsamen Vorfahren, dessen Nachkommen ausschließlich Protisten wären.
 
 Ultrastrukturelle Untersuchungen zeigten bereits tiefgreifende Unterschiede zwischen verschiedenen protistischen Gruppen. Molekulare Stammbäume machten das Problem schließlich eindeutig: Manche traditionell als Protisten bezeichneten Linien sind enger mit Tieren oder Pilzen verwandt als mit anderen Protisten; andere stehen Pflanzen näher oder gehören zu völlig anderen großen Ästen der Eukaryoten.
 

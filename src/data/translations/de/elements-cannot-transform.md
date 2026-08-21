@@ -20,6 +20,6 @@ Die Radioaktivität brach diese Regel auf. Bei der Untersuchung radioaktiver Sto
 
 Rutherford zeigte später auch eine künstliche Kernumwandlung, indem er Stickstoff bombardierte und Sauerstoff erzeugte. Die spätere Kernphysik machte Transmutation in Reaktoren und Beschleunigern zu einem routinemäßig kontrollierbaren Prozess und erzeugte sogar Elemente, die auf der Erde zuvor nicht bekannt waren.
 
-Entscheidend ist der **Atomkern**. Chemische Reaktionen ordnen Elektronen und Bindungen neu, ohne die Protonenzahl zu verändern. Kernzerfälle und Kernreaktionen können dagegen die Protonenzahl ändern – und damit die Identität des Elements.
+Entscheidend ist der Atomkern. Chemische Reaktionen ordnen Elektronen und Bindungen neu, ohne die Protonenzahl zu verändern. Kernzerfälle und Kernreaktionen können dagegen die Protonenzahl ändern – und damit die Identität des Elements.
 
 Das bestätigt nicht die alte alchemistische Erwartung, man könne große Mengen Blei mit gewöhnlicher Chemie billig in Gold verwandeln. Kerntransmutation ist real, beruht aber auf völlig anderer Physik.

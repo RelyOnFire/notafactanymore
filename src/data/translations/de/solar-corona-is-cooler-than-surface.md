@@ -16,11 +16,11 @@ sourceNotes:
 
 Eine einfache Temperaturvorstellung spricht dafür, dass es mit zunehmender Entfernung von einer heißen Oberfläche kälter wird. Entsprechend lag nahe, die dünne äußere Atmosphäre der Sonne für kühler als die sichtbare Photosphäre zu halten.
 
-Bei Sonnenfinsternissen zeigte die Korona jedoch ungewöhnliche Spektrallinien, die sich zunächst keinem bekannten Element zuordnen ließen. Man vermutete deshalb ein hypothetisches neues Element und nannte es **Coronium**.
+Bei Sonnenfinsternissen zeigte die Korona jedoch ungewöhnliche Spektrallinien, die sich zunächst keinem bekannten Element zuordnen ließen. Man vermutete deshalb ein hypothetisches neues Element und nannte es Coronium.
 
 In den 1930er- und frühen 1940er-Jahren erkannte Bengt Edlén, dass diese Linien stattdessen von bereits bekannten Elementen stammen – insbesondere Eisen –, deren Atome extrem viele Elektronen verloren hatten.
 
-Solche hohen Ionisationsstufen erfordern Temperaturen von ungefähr einer Million Kelvin oder mehr. Die Korona war also nicht kühler als die Photosphäre, sondern **hundertfach heißer**.
+Solche hohen Ionisationsstufen erfordern Temperaturen von ungefähr einer Million Kelvin oder mehr. Die Korona war also nicht kühler als die Photosphäre, sondern hundertfach heißer.
 
 Damit entstand ein neues Problem: Woher kommt die Energie? Die hohe Temperatur der Korona ist gut belegt, das genaue Zusammenspiel ihrer Heizmechanismen wird aber weiterhin erforscht. Magnetische Rekonnexion und die Dissipation von Wellen gehören zu den wichtigsten Erklärungsansätzen.
 

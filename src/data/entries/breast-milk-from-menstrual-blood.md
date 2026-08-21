@@ -33,7 +33,7 @@ sources:
 
 This belief survived because it connected several otherwise puzzling reproductive events into one physiological system.
 
-Ancient medical writers noticed that menstruation usually stops during pregnancy and remains absent for some time during breastfeeding. Within humoral reproductive physiology, that suggested that the same material was being **redirected**: retained menstrual blood could nourish the fetus during pregnancy and later travel to the breasts to become milk.
+Ancient medical writers noticed that menstruation usually stops during pregnancy and remains absent for some time during breastfeeding. Within humoral reproductive physiology, that suggested that the same material was being redirected: retained menstrual blood could nourish the fetus during pregnancy and later travel to the breasts to become milk.
 
 Aristotle, Soranus, Galen, and later medical authorities repeated variants of this theory. It generated additional doctrines about colostrum, maternal diet, sexual activity during lactation, wet nursing, and the supposed effects of “bad milk” on infants.
 

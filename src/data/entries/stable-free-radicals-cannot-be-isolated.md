@@ -32,7 +32,7 @@ sources:
 
 Nineteenth-century chemistry had already used the word *radical* for recurring groups of atoms within compounds, but isolating a genuinely free carbon-centered radical was another matter. Repeated failures and ordinary valence rules made such species look too reactive to exist independently.
 
-In 1900, Moses Gomberg was trying to prepare a highly substituted hydrocarbon when he obtained unexpected products. He proposed that the chemistry involved **triphenylmethyl**, a carbon-centered free radical.
+In 1900, Moses Gomberg was trying to prepare a highly substituted hydrocarbon when he obtained unexpected products. He proposed that the chemistry involved triphenylmethyl, a carbon-centered free radical.
 
 The claim challenged accepted ideas about carbon valence and faced years of skepticism. Further experiments eventually established that persistent radicals were real chemical species rather than analytical mistakes or ordinary closed-shell molecules.
 

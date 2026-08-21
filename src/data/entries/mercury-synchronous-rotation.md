@@ -33,4 +33,4 @@ sources:
 ---
 The older result arose because Mercury is difficult to observe from Earth. At the times when it was best positioned for telescopic observation, its actual 3:2 resonance caused nearly the same region to be visible, creating a misleading pattern.
 
-This entry uses **Corrected** because a specific measured property, Mercury's rotation period, was revised after a better observational method became available.
+This entry uses Corrected because a specific measured property, Mercury's rotation period, was revised after a better observational method became available.

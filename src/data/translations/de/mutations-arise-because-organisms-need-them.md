@@ -20,6 +20,6 @@ Resistenz kann zielgerichtet wirken. Setzt man eine Bakterienpopulation einem Vi
 
 Würde der Phage die Resistenz direkt auslösen, sollten die Kulturen ungefähr ähnliche Zahlen resistenter Kolonien hervorbringen. Tatsächlich schwankten die Zahlen enorm. Einige Kulturen enthielten regelrechte „Jackpots“ resistenter Nachkommen.
 
-Genau das erwartet man, wenn eine Mutation **vor** der Exposition zufällig in einer einzelnen Zelle auftritt und deren resistente Nachkommen sich schon während des Wachstums vermehren. Die Umwelt erzeugt dann nicht die benötigte Sequenzänderung; sie selektiert Varianten, die bereits vorhanden sind.
+Genau das erwartet man, wenn eine Mutation vor der Exposition zufällig in einer einzelnen Zelle auftritt und deren resistente Nachkommen sich schon während des Wachstums vermehren. Die Umwelt erzeugt dann nicht die benötigte Sequenzänderung; sie selektiert Varianten, die bereits vorhanden sind.
 
 Mutationsraten sind dennoch nicht vollkommen konstant. Stress, DNA-Reparatur und lokale Eigenschaften des Genoms können beeinflussen, wie häufig und wo Mutationen auftreten. Was fehlt, ist Voraussicht: Mutationen lesen die Umwelt nicht aus und erzeugen gezielt die konkrete Sequenz, die ein Organismus als Nächstes benötigen wird.

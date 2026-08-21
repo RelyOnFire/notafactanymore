@@ -35,10 +35,10 @@ sources:
 
 The darkness between stars encouraged an intuitive picture of true emptiness. Any material there would be extraordinarily diffuse compared with terrestrial gases, and before sensitive spectroscopy there was little direct way to detect it.
 
-In 1904, Johannes Hartmann was studying the spectrum of a binary star whose own spectral lines shifted back and forth as the stars moved in orbit. Some narrow calcium absorption lines did **not** move with the star. The simplest explanation was that the absorbing material lay somewhere between the system and Earth.
+In 1904, Johannes Hartmann was studying the spectrum of a binary star whose own spectral lines shifted back and forth as the stars moved in orbit. Some narrow calcium absorption lines did not move with the star. The simplest explanation was that the absorbing material lay somewhere between the system and Earth.
 
 Further spectroscopy revealed interstellar gas and dust along many sight lines. Radio astronomy later detected cold atomic hydrogen and molecular clouds that are nearly invisible at optical wavelengths, while other observations mapped ionized gas, cosmic rays and magnetic fields.
 
 The interstellar medium turned out to be central to galactic evolution. Stars form from its denser clouds, return material through winds and explosions, and enrich the gas from which later stars and planets form.
 
-Interstellar space is still an extraordinary vacuum by laboratory standards. The correction is the difference between **almost empty** and **containing nothing**: even a few particles per cubic centimeter matter enormously when spread across light-years.
+Interstellar space is still an extraordinary vacuum by laboratory standards. The correction is the difference between almost empty and containing nothing: even a few particles per cubic centimeter matter enormously when spread across light-years.

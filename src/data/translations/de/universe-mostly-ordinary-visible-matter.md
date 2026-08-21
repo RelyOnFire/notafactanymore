@@ -18,7 +18,7 @@ Frühe extragalaktische Astronomie begann zwangsläufig mit dem, was Teleskope z
 
 Die Dynamik passte jedoch nicht dazu.
 
-Fritz Zwickys Untersuchungen von Galaxienhaufen deuteten darauf hin, dass die sichtbaren Galaxien viel zu wenig Masse enthalten, um ihre beobachteten Bewegungen zu erklären. Später zeigten **Rotationskurven**, dass Sterne in äußeren Bereichen von Galaxien schneller umlaufen, als die sichtbare Masse erwarten ließ.
+Fritz Zwickys Untersuchungen von Galaxienhaufen deuteten darauf hin, dass die sichtbaren Galaxien viel zu wenig Masse enthalten, um ihre beobachteten Bewegungen zu erklären. Später zeigten Rotationskurven, dass Sterne in äußeren Bereichen von Galaxien schneller umlaufen, als die sichtbare Masse erwarten ließ.
 
 Gravitationslinsen, die kosmische Mikrowellen-Hintergrundstrahlung und die großräumige Strukturbildung verstärkten das Bild weiter.
 

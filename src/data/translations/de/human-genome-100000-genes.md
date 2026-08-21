@@ -14,7 +14,7 @@ sourceNotes:
 - "Gibt einen Überblick über die Geschichte und die weiterhin schwierige Bestimmung eines exakten menschlichen Genkatalogs."
 ---
 
-Bevor eine vollständige menschliche Genomsequenz vorlag, musste die Zahl der Gene indirekt geschätzt werden – etwa aus der Vielfalt von Proteinen und RNA, aus Mutationsdaten, der Komplexität des Genoms und Vergleichen mit anderen Organismen. Gegen Ende des 20. Jahrhunderts waren Schätzungen von rund **100.000 proteincodierenden Genen** weit verbreitet.
+Bevor eine vollständige menschliche Genomsequenz vorlag, musste die Zahl der Gene indirekt geschätzt werden – etwa aus der Vielfalt von Proteinen und RNA, aus Mutationsdaten, der Komplexität des Genoms und Vergleichen mit anderen Organismen. Gegen Ende des 20. Jahrhunderts waren Schätzungen von rund 100.000 proteincodierenden Genen weit verbreitet.
 
 Das Humangenomprojekt machte eine wesentlich systematischere Zählung möglich, auch wenn selbst diese „direkte“ Bestimmung schwierige computergestützte und experimentelle Annotation erforderte. Schon mit dem Entwurf des Genoms von 2001 lag die vorhergesagte Zahl deutlich unter den Erwartungen; die Analyse der fertiggestellten Sequenz drückte sie weiter in Richtung etwa 20.000 bis 25.000 proteincodierende Gene.
 
@@ -22,4 +22,4 @@ Die Überraschung schwächte eine einfache Vorstellung biologischer Komplexität
 
 Auch heute ist die Zahl nicht auf eine letzte Stelle festgeschrieben. Gengrenzen, sehr kleine Proteine und die Kriterien der Annotation werden weiter verfeinert.
 
-Diese Karte bezieht sich ausdrücklich auf **proteincodierende Gene**. Das menschliche Genom enthält außerdem zahlreiche Gene, deren funktionelles Produkt RNA statt Protein ist. Die Aussage „der Mensch hat insgesamt etwa 20.000 Gene“ wäre daher selbst wieder eine zu grobe Vereinfachung.
+Diese Karte bezieht sich ausdrücklich auf proteincodierende Gene. Das menschliche Genom enthält außerdem zahlreiche Gene, deren funktionelles Produkt RNA statt Protein ist. Die Aussage „der Mensch hat insgesamt etwa 20.000 Gene“ wäre daher selbst wieder eine zu grobe Vereinfachung.

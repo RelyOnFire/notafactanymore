@@ -14,13 +14,13 @@ sourceNotes:
 - "Erklärt moderne Membran-Aktionspotenziale als Grundlage der elektrischen Signalübertragung in Nervenzellen."
 ---
 
-Tierische Geister waren ein Versuch, ein echtes mechanistisches Problem zu lösen: **Wie kann das Gehirn einen weit entfernten Muskel in Bewegung setzen?**
+Tierische Geister waren ein Versuch, ein echtes mechanistisches Problem zu lösen: Wie kann das Gehirn einen weit entfernten Muskel in Bewegung setzen?
 
 Galen stellte das Gehirn in den Mittelpunkt von Wahrnehmung und willkürlicher Bewegung. In der späteren ventrikulär-pneumatischen Tradition entstand im Gehirn ein verfeinertes *Pneuma* oder ein psychischer Geist, der durch die Nerven weitergeleitet wurde. Nerven ließen sich daher als winzige Leitungen vorstellen, die eine feine aktive Substanz zwischen Gehirn, Sinnesorganen und Muskeln transportierten.
 
 Der Erklärungsrahmen erwies sich als anpassungsfähig. Descartes verwarf vieles aus der galenischen Physiologie, behielt aber die „tierischen Geister“ bei und beschrieb sie nun mechanischer als feine Partikel, die durch Nerven in die Muskeln strömten.
 
-Im 18. Jahrhundert wurde das alte Bild zunehmend schwer aufrechtzuerhalten. Forscher schlugen Flüssigkeiten, Schwingungen, Reizbarkeit und andere vermittelnde Mechanismen vor. Arbeiten an elektrischen Fischen, zur Nervenreizung und zur Muskelkontraktion machten Elektrizität dann zu einem immer plausibleren physiologischen Wirkprinzip. Galvanis Experimente von **1791** wurden zu einem wichtigen Meilenstein bei der Entstehung der Elektrophysiologie.
+Im 18. Jahrhundert wurde das alte Bild zunehmend schwer aufrechtzuerhalten. Forscher schlugen Flüssigkeiten, Schwingungen, Reizbarkeit und andere vermittelnde Mechanismen vor. Arbeiten an elektrischen Fischen, zur Nervenreizung und zur Muskelkontraktion machten Elektrizität dann zu einem immer plausibleren physiologischen Wirkprinzip. Galvanis Experimente von 1791 wurden zu einem wichtigen Meilenstein bei der Entstehung der Elektrophysiologie.
 
 Moderne Nerven funktionieren nicht als leere Röhren, die einen besonderen Geist transportieren. Signale breiten sich als Änderungen des Membranpotenzials entlang von Axonen aus; zwischen Zellen erfolgt die Übertragung chemisch oder elektrisch.
 

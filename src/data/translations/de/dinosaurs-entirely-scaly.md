@@ -20,4 +20,4 @@ Außergewöhnlich gut erhaltene Fossilien veränderten dieses Bild. Ab den 1990e
 
 Damit verlor auch die Vorstellung an Plausibilität, Federn seien ausschließlich für aktiven Flug entstanden. Filamente und Federn konnten schon vorher als Isolation, Schmuck, beim Brüten oder für andere Funktionen dienen.
 
-Das alte Bild sollte allerdings nicht einfach ins Gegenteil verkehrt werden. Viele Dinosaurier hatten Schuppen, und manche kombinierten Schuppen und Federn an verschiedenen Körperregionen. Korrigiert wird die pauschale Aussage, Dinosaurier seien **durchgehend schuppig** gewesen.
+Das alte Bild sollte allerdings nicht einfach ins Gegenteil verkehrt werden. Viele Dinosaurier hatten Schuppen, und manche kombinierten Schuppen und Federn an verschiedenen Körperregionen. Korrigiert wird die pauschale Aussage, Dinosaurier seien durchgehend schuppig gewesen.

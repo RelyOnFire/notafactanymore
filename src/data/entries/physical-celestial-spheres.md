@@ -35,7 +35,7 @@ The familiar rings in old geocentric diagrams were not always understood as mere
 
 In influential ancient and medieval cosmologies, the planets and fixed stars were associated with nested spherical structures surrounding Earth. These spheres supplied a physical architecture for ordered circular motion. Aristotle's mature cosmology even required a large system of coordinated celestial spheres.
 
-The exact material nature of the spheres varied across authors and periods, so it would be misleading to pretend there was one unchanged “crystal sphere” doctrine for fifteen centuries. But the physical-sphere tradition was important enough that the comet of **1577** became a direct challenge. Tycho Brahe's parallax work placed the comet in the planetary region; if it traveled through that space, hard nested shells became difficult to maintain.
+The exact material nature of the spheres varied across authors and periods, so it would be misleading to pretend there was one unchanged “crystal sphere” doctrine for fifteen centuries. But the physical-sphere tradition was important enough that the comet of 1577 became a direct challenge. Tycho Brahe's parallax work placed the comet in the planetary region; if it traveled through that space, hard nested shells became difficult to maintain.
 
 Copernican astronomy rearranged the system, while Kepler and then Newton progressively replaced sphere-driven motion with mathematical orbital dynamics and universal gravitation.
 

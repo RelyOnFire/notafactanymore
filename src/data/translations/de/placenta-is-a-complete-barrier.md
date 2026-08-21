@@ -14,12 +14,12 @@ sourceNotes:
 - Gibt einen Überblick über Infektionen, die die Plazenta überwinden und angeborene Erkrankungen verursachen können.
 ---
 
-Die Plazenta konnte nie als Barriere gegen **alles** verstanden werden: Sauerstoff, Glukose, Aminosäuren, Antikörper und viele andere Stoffe müssen zwischen Mutter und Fötus ausgetauscht werden. Der Begriff „Plazentaschranke“ begünstigte jedoch eine stärkere Vorstellung, wonach schädliche Arzneimittel, Chemikalien und Infektionserreger zuverlässig vom ungeborenen Kind ferngehalten würden.
+Die Plazenta konnte nie als Barriere gegen alles verstanden werden: Sauerstoff, Glukose, Aminosäuren, Antikörper und viele andere Stoffe müssen zwischen Mutter und Fötus ausgetauscht werden. Der Begriff „Plazentaschranke“ begünstigte jedoch eine stärkere Vorstellung, wonach schädliche Arzneimittel, Chemikalien und Infektionserreger zuverlässig vom ungeborenen Kind ferngehalten würden.
 
 Klinische Beobachtungen machten diese Annahme zunehmend unhaltbar. Angeborene Infektionen zeigten, dass manche Erreger die Plazenta passieren oder ihre Funktion schädigen können. Pharmakologische Messungen belegten zudem den Übergang zahlreicher Medikamente und Chemikalien.
 
 Besonders sichtbar wurde das Problem durch die Thalidomid-Katastrophe. Ein Medikament, das in der Schwangerschaft eingenommen wurde, konnte den sich entwickelnden Embryo erreichen und schwere Fehlbildungen an Gliedmaßen und Organen verursachen. Mütterliche Behandlung und fetale Exposition ließen sich damit nicht länger als getrennte Systeme behandeln.
 
-Heute wird die Plazenta als **selektive, aktive Grenzfläche** verstanden. Molekülgröße, Fettlöslichkeit, Transportproteine, Stoffwechsel, Schwangerschaftsalter und Zustand der Plazenta beeinflussen, was in welcher Menge übertritt.
+Heute wird die Plazenta als selektive, aktive Grenzfläche verstanden. Molekülgröße, Fettlöslichkeit, Transportproteine, Stoffwechsel, Schwangerschaftsalter und Zustand der Plazenta beeinflussen, was in welcher Menge übertritt.
 
 Ein Übergang bedeutet allerdings nicht automatisch Schaden. Das Risiko hängt von Dosis, Zeitpunkt und dem betroffenen Entwicklungsprozess ab. Die Korrektur lautet daher nicht „die Plazenta schützt überhaupt nicht“, sondern: Sie reguliert den Austausch, kann den Fötus aber nicht zuverlässig von allen schädlichen Expositionen isolieren.

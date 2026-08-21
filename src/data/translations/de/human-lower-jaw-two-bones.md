@@ -18,7 +18,7 @@ Diese Karte ist auch deshalb wichtig, weil sie verhindert, dass die Geschichte d
 
 Die überlieferte galenische Beschreibung behandelte den erwachsenen Unterkiefer als zwei am Kinn verbundene Knochen. Der Fehler ist aus vergleichender Anatomie und Entwicklung nachvollziehbar: Menschen werden mit zwei Unterkieferhälften geboren, und bei mehreren Tierarten bleibt eine sichtbare Verbindung in der Mittellinie bestehen.
 
-Um **1200** stieß der Arzt und Gelehrte **Abd al-Latif al-Baghdadi** in Ägypten auf große Ansammlungen menschlicher Skelette. Er berichtet, den Unterkiefer wiederholt untersucht zu haben, schließlich an mehr als zweitausend Schädeln, ohne am Kinn ein Gelenk zu finden. Er argumentierte ausdrücklich, direkte Beobachtung sei stärker als Textautorität – selbst wenn diese Autorität Galen sei.
+Um 1200 stieß der Arzt und Gelehrte Abd al-Latif al-Baghdadi in Ägypten auf große Ansammlungen menschlicher Skelette. Er berichtet, den Unterkiefer wiederholt untersucht zu haben, schließlich an mehr als zweitausend Schädeln, ohne am Kinn ein Gelenk zu finden. Er argumentierte ausdrücklich, direkte Beobachtung sei stärker als Textautorität – selbst wenn diese Autorität Galen sei.
 
 Der erwachsene menschliche Unterkiefer ist tatsächlich ein einzelner Knochen. Seine beiden embryonalen Hälften verschmelzen während des Säuglingsalters an der Unterkiefersymphyse.
 

@@ -40,4 +40,4 @@ Experimental evolution made the process even easier to observe by following popu
 
 None of this means every evolutionary transformation is fast. Large anatomical changes, ecological transitions, and speciation can require long periods, and short-term responses can reverse when environments change.
 
-The correction is to **always**. Natural selection can produce measurable evolutionary change within years or decades; deep-time evolution and rapid contemporary evolution are different timescales of the same process.
+The correction is to always. Natural selection can produce measurable evolutionary change within years or decades; deep-time evolution and rapid contemporary evolution are different timescales of the same process.

@@ -38,6 +38,6 @@ The result was remarkably successful for hydrogen. It reproduced the atom's spec
 
 But the model did not scale cleanly to more complicated atoms. During the 1920s, de Broglie's matter waves, Schrödinger's wave mechanics and Heisenberg's matrix mechanics replaced definite classical paths with quantum states. The uncertainty principle further ruled out assigning an electron both an exact position and exact momentum along a hidden planetary trajectory.
 
-Modern **orbitals** are therefore not fuzzy versions of Bohr's orbits caused by imperfect measurement. They are quantum states described by wavefunctions and probability distributions.
+Modern orbitals are therefore not fuzzy versions of Bohr's orbits caused by imperfect measurement. They are quantum states described by wavefunctions and probability distributions.
 
 The Bohr model remains useful as an introductory approximation, especially for hydrogen-like atoms, and its quantized energy levels were a genuine advance. What was superseded was the literal picture of electrons following definite circular tracks around the nucleus.

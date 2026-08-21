@@ -18,7 +18,7 @@ Der Große Panda war taxonomisch ungewöhnlich genug, um über Jahrzehnte zwisch
 
 Morphologische Vergleiche lieferten widersprüchliche Signale. Je nachdem, welche Merkmale stärker gewichtet wurden, konnte der Große Panda eher zu den Bären oder eher in die Nähe der Waschbärverwandten gestellt werden.
 
-Molekulare Methoden lösten den Streit zunehmend auf. Proteinvergleiche, DNA-Hybridisierung und später Genomdaten zeigten, dass der Große Panda innerhalb der **Ursidae**, also der echten Bären, liegt. Der Kleine Panda gehört dagegen zu einer eigenen Familie, den Ailuridae, innerhalb jener größeren Raubtiergruppe, zu der auch Waschbären, Marder und Stinktiere gehören.
+Molekulare Methoden lösten den Streit zunehmend auf. Proteinvergleiche, DNA-Hybridisierung und später Genomdaten zeigten, dass der Große Panda innerhalb der Ursidae, also der echten Bären, liegt. Der Kleine Panda gehört dagegen zu einer eigenen Familie, den Ailuridae, innerhalb jener größeren Raubtiergruppe, zu der auch Waschbären, Marder und Stinktiere gehören.
 
 Der gemeinsame Name „Panda“ spiegelt damit keine besonders enge Verwandtschaft wider.
 

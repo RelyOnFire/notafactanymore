@@ -16,7 +16,7 @@ sourceNotes:
 
 Ein polarer Eisschild wirkt unbeweglich. Seine Oberfläche kann bis zum Horizont reichen, und selbst einige Meter Bewegung pro Jahr sind ohne feste Bezugspunkte nicht zu erkennen. Diese Größenordnung machte es naheliegend, die gewaltigen Eismassen als Blöcke zu betrachten, die einfach auf dem Untergrund liegen.
 
-Die Glaziologie zeigte jedoch, dass festes Eis **fließt**. Unter dem enormen Druck seines eigenen Gewichts verformt es sich im Inneren und bewegt sich von den hoch gelegenen Zentralbereichen nach außen. Wo Untergrund, Schmelzwasser und Topografie es begünstigen, können Eisströme und Auslassgletscher wesentlich schneller fließen als das umgebende Eis.
+Die Glaziologie zeigte jedoch, dass festes Eis fließt. Unter dem enormen Druck seines eigenen Gewichts verformt es sich im Inneren und bewegt sich von den hoch gelegenen Zentralbereichen nach außen. Wo Untergrund, Schmelzwasser und Topografie es begünstigen, können Eisströme und Auslassgletscher wesentlich schneller fließen als das umgebende Eis.
 
 Vermessungsmarken lieferten frühe direkte Messungen dieser Bewegung. Später kartierten Radar, Bohrungen, GPS und Satelliten sowohl die Geschwindigkeit an der Oberfläche als auch Strukturen tief im Eis. Damit wurde sichtbar, wie ein Netzwerk aus langsam und schnell fließenden Bereichen fortlaufend Masse aus dem Inneren zu den Rändern und zum Ozean transportiert.
 

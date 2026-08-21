@@ -33,7 +33,7 @@ sources:
 
 Long before modern functional neuroanatomy, scholars tried to put different parts of the mind in different places.
 
-Between late antiquity and the early Middle Ages, the **cell doctrine** developed from Greco-Roman ideas about the brain, pneuma, and psychology. In common three-cell versions, cognitive operations were arranged along the cerebral ventricles: sensation or imagination toward the front, reasoning in a middle cell, and memory toward the rear. Different authors varied the assignments.
+Between late antiquity and the early Middle Ages, the cell doctrine developed from Greco-Roman ideas about the brain, pneuma, and psychology. In common three-cell versions, cognitive operations were arranged along the cerebral ventricles: sensation or imagination toward the front, reasoning in a middle cell, and memory toward the rear. Different authors varied the assignments.
 
 The diagrams were not anatomical maps in the modern sense. They combined medicine, philosophy, and theories of internal mental faculties. Manuscript illustrations circulated for centuries, and printed versions remained popular well into the Renaissance and early modern period.
 

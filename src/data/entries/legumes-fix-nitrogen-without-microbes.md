@@ -34,7 +34,7 @@ Farmers knew long before modern microbiology that peas, beans, clover, and relat
 
 The puzzle was atmospheric nitrogen. Nitrogen gas is abundant in air, but most plants cannot use it directly. In the 1880s, Hermann Hellriegel and Hermann Wilfarth showed that legumes gained nitrogen only when their roots developed characteristic nodules under suitable conditions. Sterile plants without the right biological partner lost the advantage.
 
-Researchers then isolated bacteria from those nodules. The resulting picture was a **symbiosis**: rhizobia infect the roots and live in specialized nodules, where microbial nitrogenase converts atmospheric nitrogen into compounds the plant can use. The plant, in turn, supplies carbohydrates and a controlled environment.
+Researchers then isolated bacteria from those nodules. The resulting picture was a symbiosis: rhizobia infect the roots and live in specialized nodules, where microbial nitrogenase converts atmospheric nitrogen into compounds the plant can use. The plant, in turn, supplies carbohydrates and a controlled environment.
 
 That partnership explains why legumes can enrich agricultural systems while neighboring non-legumes generally cannot fix atmospheric nitrogen on their own.
 

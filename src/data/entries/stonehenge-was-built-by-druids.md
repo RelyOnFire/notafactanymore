@@ -34,7 +34,7 @@ Stonehenge had no inscription naming its builders, so early antiquaries tried to
 
 The Druids seemed an attractive candidate. Classical writers described them as religious specialists in Iron Age Britain and Gaul, and seventeenth- and eighteenth-century scholars such as John Aubrey and William Stukeley linked them to the monument.
 
-Archaeology eventually broke the chronological connection. Excavation, artifact typology, stratigraphy, and later radiocarbon dating placed Stonehenge's construction in the **Neolithic and Bronze Age**, with the main stone settings erected around 2500 BCE.
+Archaeology eventually broke the chronological connection. Excavation, artifact typology, stratigraphy, and later radiocarbon dating placed Stonehenge's construction in the Neolithic and Bronze Age, with the main stone settings erected around 2500 BCE.
 
 The historically documented Druids appear much later. By the time written sources describe them, Stonehenge had already existed for many centuries and had been abandoned for a very long time.
 

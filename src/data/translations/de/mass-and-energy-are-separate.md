@@ -16,7 +16,7 @@ sourceNotes:
 
 In der klassischen Physik wurden Masse und Energie in getrennten Bilanzen geführt. Masse blieb bei gewöhnlichen chemischen und mechanischen Vorgängen erhalten; Energie wurde unabhängig davon als kinetische, potenzielle, thermische oder andere Energieform bilanziert.
 
-Die Spezielle Relativitätstheorie verband diese beiden Konten. Einsteins berühmte Beziehung **E = mc²** macht deutlich, dass die Ruhemasse eines Körpers zu seiner Energie gehört. Verliert ein System Energie, kann seine Masse entsprechend abnehmen; wird Energie in einem System gespeichert, erhöht sich seine Masse.
+Die Spezielle Relativitätstheorie verband diese beiden Konten. Einsteins berühmte Beziehung E = mc² macht deutlich, dass die Ruhemasse eines Körpers zu seiner Energie gehört. Verliert ein System Energie, kann seine Masse entsprechend abnehmen; wird Energie in einem System gespeichert, erhöht sich seine Masse.
 
 Bei chemischen Reaktionen ist diese Massenänderung so klein, dass die klassische Massenerhaltung weiterhin eine ausgezeichnete Näherung darstellt. In Kernreaktionen werden die Unterschiede deutlich leichter messbar: Die Masse der Reaktionsprodukte kann sich nachweisbar von der Ausgangsmasse unterscheiden, während die Differenz als freigesetzte oder aufgenommene Energie erscheint.
 

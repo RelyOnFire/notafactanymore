@@ -31,7 +31,7 @@ sources:
     note: "Shows that tropical soils span a wide range of fertility and rejects the later opposite stereotype that tropical soils are universally infertile."
 ---
 
-Dense tropical forest once invited a simple inference: vegetation this luxuriant must be growing on extraordinarily fertile ground. That assumption also encouraged the idea that cleared rainforest should remain highly productive for agriculture. Tropical soil surveys increasingly showed otherwise. By the 1930s, soil scientists were explicitly warning that **forest luxuriance was not a reliable measure of agricultural fertility**.
+Dense tropical forest once invited a simple inference: vegetation this luxuriant must be growing on extraordinarily fertile ground. That assumption also encouraged the idea that cleared rainforest should remain highly productive for agriculture. Tropical soil surveys increasingly showed otherwise. By the 1930s, soil scientists were explicitly warning that forest luxuriance was not a reliable measure of agricultural fertility.
 
 In many wet, old tropical landscapes, intense weathering and leaching leave relatively few readily available nutrients in the mineral soil. Forests can remain extremely productive because nutrients are captured and recycled rapidly through living biomass, litter, roots, fungi, and microbes. Clearing can disrupt that cycle and expose soil to erosion and nutrient loss.
 

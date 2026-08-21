@@ -24,6 +24,6 @@ Seine Argumentation wurde jedoch durch eine falsche Erwartung geschwächt: Barri
 
 Moderne Einschlagsphysik erklärt, warum. Eine Hochgeschwindigkeitskollision setzt so viel Energie frei, dass große Teile des Einschlagkörpers verdampfen, schmelzen, zerbrechen und verteilt werden.
 
-Eugene Shoemakers spätere geologische Kartierungen lieferten die entscheidenden Belege. Umgestürzte Gesteinsschichten, Auswurfmuster, Schockmerkmale und strukturelle Beziehungen passten zu einer explosiven Wirkung **von oben nach unten**, nicht zu einer vulkanischen Explosion aus der Tiefe.
+Eugene Shoemakers spätere geologische Kartierungen lieferten die entscheidenden Belege. Umgestürzte Gesteinsschichten, Auswurfmuster, Schockmerkmale und strukturelle Beziehungen passten zu einer explosiven Wirkung von oben nach unten, nicht zu einer vulkanischen Explosion aus der Tiefe.
 
 Meteor Crater wurde dadurch zu einem wichtigen Referenzort für die Erkennung weiterer Einschlagsstrukturen auf der Erde und im Sonnensystem.

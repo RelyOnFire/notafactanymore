@@ -16,7 +16,7 @@ sourceNotes:
 
 Lange vor der modernen funktionellen Neuroanatomie versuchten Gelehrte, verschiedene Teile des Geistes an unterschiedlichen Orten unterzubringen.
 
-Zwischen Spätantike und frühem Mittelalter entwickelte sich die **Zellenlehre** aus griechisch-römischen Vorstellungen über Gehirn, Pneuma und Psychologie. In verbreiteten Drei-Zellen-Modellen wurden kognitive Vorgänge entlang der Hirnventrikel angeordnet: Wahrnehmung oder Vorstellungskraft vorne, Vernunft in einer mittleren Zelle und Gedächtnis hinten. Je nach Autor variierten die Zuordnungen.
+Zwischen Spätantike und frühem Mittelalter entwickelte sich die Zellenlehre aus griechisch-römischen Vorstellungen über Gehirn, Pneuma und Psychologie. In verbreiteten Drei-Zellen-Modellen wurden kognitive Vorgänge entlang der Hirnventrikel angeordnet: Wahrnehmung oder Vorstellungskraft vorne, Vernunft in einer mittleren Zelle und Gedächtnis hinten. Je nach Autor variierten die Zuordnungen.
 
 Die Diagramme waren keine anatomischen Karten im modernen Sinn. Sie verbanden Medizin, Philosophie und Theorien innerer geistiger Fähigkeiten. Manuskriptillustrationen wurden über Jahrhunderte weitergegeben, und gedruckte Fassungen blieben bis weit in Renaissance und frühe Neuzeit verbreitet.
 

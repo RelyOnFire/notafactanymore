@@ -16,11 +16,11 @@ sourceNotes:
 
 Der Neptunismus war eine globale Theorie, die auf einer überraschend lokalen geologischen Stichprobe beruhte.
 
-**Abraham Gottlob Werner**, ein äußerst einflussreicher Lehrer an der Bergakademie Freiberg, nahm an, die Erde sei einst von einem gewaltigen Ozean bedeckt gewesen. Während dieser Ozean allmählich zurückwich, sollten Gesteine in einer festen Reihenfolge aus ihm ausgefällt worden sein. Selbst kristalline Gesteine wie **Granit** galten als frühe Ablagerungen dieses Urmeers.
+Abraham Gottlob Werner, ein äußerst einflussreicher Lehrer an der Bergakademie Freiberg, nahm an, die Erde sei einst von einem gewaltigen Ozean bedeckt gewesen. Während dieser Ozean allmählich zurückwich, sollten Gesteine in einer festen Reihenfolge aus ihm ausgefällt worden sein. Selbst kristalline Gesteine wie Granit galten als frühe Ablagerungen dieses Urmeers.
 
 Die Theorie hatte echte Stärken. Sie bot eine einfache universelle Chronologie, passte zu vielen geschichteten Gesteinen rund um Freiberg und wurde von einem Lehrer vertreten, dessen Schüler seine Methoden in ganz Europa verbreiteten.
 
-Doch anderswo passten die Gesteine immer schlechter ins Bild. Basalt trat in Formen auf, die auf Lavaströme deuteten; Granit drang in umgebende Gesteine ein; Kontaktzonen zeigten Spuren großer Hitze. **Plutonistische** Deutungen, unter anderem von James Hutton, erklärten diese Strukturen zunehmend durch unterirdische Wärme und geschmolzenes Gestein.
+Doch anderswo passten die Gesteine immer schlechter ins Bild. Basalt trat in Formen auf, die auf Lavaströme deuteten; Granit drang in umgebende Gesteine ein; Kontaktzonen zeigten Spuren großer Hitze. Plutonistische Deutungen, unter anderem von James Hutton, erklärten diese Strukturen zunehmend durch unterirdische Wärme und geschmolzenes Gestein.
 
 Die Debatte wurde nicht durch ein einziges entscheidendes Experiment beendet. Stattdessen häuften sich Feldbeobachtungen, die eine universelle Ausfällungstheorie nicht mehr erklären konnte.
 

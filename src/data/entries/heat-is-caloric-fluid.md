@@ -34,4 +34,4 @@ James Prescott Joule turned that qualitative objection into measurement. Using e
 
 The emerging conservation-of-energy framework and kinetic theory then connected temperature and internal energy to microscopic motion and interactions.
 
-Caloric theory was not useless; some equations and intuitions developed under it survived into thermodynamics. What disappeared was the physical substance itself. Modern physics treats **heat** as energy transferred because of a temperature difference, not as material stored inside an object.
+Caloric theory was not useless; some equations and intuitions developed under it survived into thermodynamics. What disappeared was the physical substance itself. Modern physics treats heat as energy transferred because of a temperature difference, not as material stored inside an object.

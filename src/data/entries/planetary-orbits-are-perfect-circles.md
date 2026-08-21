@@ -37,7 +37,7 @@ Tycho Brahe's exceptionally precise observations made that increasingly difficul
 
 A stubborn discrepancy remained. It was small by ordinary standards but too large to dismiss given the precision of the observations.
 
-Kepler eventually abandoned the circle and found that an **ellipse**, with the Sun at one focus, matched Mars far better. In 1609 he published what became his first two laws of planetary motion.
+Kepler eventually abandoned the circle and found that an ellipse, with the Sun at one focus, matched Mars far better. In 1609 he published what became his first two laws of planetary motion.
 
 The change is important because heliocentrism and elliptical orbits were separate conceptual steps. Copernicus had relocated the center of planetary motion without discarding circular perfection.
 

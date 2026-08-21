@@ -22,4 +22,4 @@ Apollo lieferte schließlich physische Proben. Mondgesteine zeigten Schockmerkma
 
 Das bedeutet nicht, dass der Mond nie vulkanisch aktiv war. Gewaltige basaltische Lavaströme füllten alte große Einschlagsbecken und schufen die von der Erde sichtbaren Maria; einzelne kleinere Vertiefungen können ebenfalls vulkanischen Ursprungs sein.
 
-Überholt ist die Aussage über die **vorherrschende Kraterpopulation**. Die meisten gewöhnlichen Mondkrater sind Narben von Asteroiden- und Kometeneinschlägen, während Vulkanismus andere Teile der Landschaft formte und überprägte.
+Überholt ist die Aussage über die vorherrschende Kraterpopulation. Die meisten gewöhnlichen Mondkrater sind Narben von Asteroiden- und Kometeneinschlägen, während Vulkanismus andere Teile der Landschaft formte und überprägte.

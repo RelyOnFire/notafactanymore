@@ -31,13 +31,13 @@ sources:
   note: Explains modern membrane action potentials underlying neuronal electrical signaling.
 ---
 
-Animal spirits were an attempt to solve a real mechanism problem: **how can the brain make a distant muscle move?**
+Animal spirits were an attempt to solve a real mechanism problem: how can the brain make a distant muscle move?
 
 Galen placed the brain at the center of sensation and voluntary action. In the later ventricular-pneumatic tradition, a refined *pneuma* or psychic spirit was generated in the brain and transmitted through nerves. Nerves could therefore be imagined as tiny conduits carrying a subtle active substance between the brain, sense organs, and muscles.
 
 The framework proved adaptable. Descartes rejected much of Galenic physiology but retained “animal spirits,” now described in more mechanical terms as fine particles flowing through nerves into muscles.
 
-During the eighteenth century the old picture became harder to maintain. Investigators proposed fluids, vibrations, irritability, and other intermediate mechanisms. Work on electric fish, nerve stimulation, and muscle contraction then made electricity an increasingly plausible physiological agent. Galvani's **1791** experiments became an important landmark in the emergence of electrophysiology.
+During the eighteenth century the old picture became harder to maintain. Investigators proposed fluids, vibrations, irritability, and other intermediate mechanisms. Work on electric fish, nerve stimulation, and muscle contraction then made electricity an increasingly plausible physiological agent. Galvani's 1791 experiments became an important landmark in the emergence of electrophysiology.
 
 Modern nerves do not operate as empty tubes carrying a special spirit. Signals propagate as changes in membrane voltage along axons, with chemical or electrical transmission between cells.
 

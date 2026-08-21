@@ -16,7 +16,7 @@ sourceNotes:
 
 Ernst Abbe zeigte im 19. Jahrhundert, dass die Auflösung eines gewöhnlichen Lichtmikroskops durch Beugung begrenzt ist. Zwei nahe Strukturen erzeugen überlappende Beugungsmuster; unterhalb einer durch Wellenlänge und numerische Apertur bestimmten Skala lassen sie sich in einer konventionellen Abbildung nicht mehr getrennt erkennen.
 
-Diese Grenze war physikalisch gut begründet und wurde häufig zu einer noch stärkeren Aussage verkürzt: Sichtbare Lichtmikroskopie könne **niemals** feinere Details zugänglich machen.
+Diese Grenze war physikalisch gut begründet und wurde häufig zu einer noch stärkeren Aussage verkürzt: Sichtbare Lichtmikroskopie könne niemals feinere Details zugänglich machen.
 
 Superauflösungsverfahren änderten jedoch nicht die Beugung selbst, sondern die Bedingungen, unter denen Informationen gesammelt werden. Bei STED wird Fluoreszenz um einen winzigen zentralen Bereich gezielt unterdrückt. PALM und STORM aktivieren jeweils nur wenige fluoreszierende Moleküle und bestimmen deren Positionen über viele einzelne Messungen hinweg mit hoher Präzision.
 

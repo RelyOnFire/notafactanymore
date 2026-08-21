@@ -16,13 +16,13 @@ sourceNotes:
 
 Nachdem die kosmische Expansion etabliert war, schien der nächste Schritt physikalisch naheliegend. Materie zieht Materie gravitativ an, also sollte diese Anziehung die Expansion mit der Zeit abbremsen.
 
-In den 1990er-Jahren nutzten zwei Forschungsteams weit entfernte **Typ-Ia-Supernovae** als standardisierbare Leuchtquellen, um genau diese erwartete Verlangsamung zu messen.
+In den 1990er-Jahren nutzten zwei Forschungsteams weit entfernte Typ-Ia-Supernovae als standardisierbare Leuchtquellen, um genau diese erwartete Verlangsamung zu messen.
 
 Die Supernovae waren jedoch bei gegebener Rotverschiebung schwächer als erwartet. Sie mussten weiter entfernt liegen, als ein einfaches Modell mit verlangsamter Expansion vorhersagte.
 
-Die überraschende Schlussfolgerung lautete: Die Expansion hat sich im späteren Universum **beschleunigt**.
+Die überraschende Schlussfolgerung lautete: Die Expansion hat sich im späteren Universum beschleunigt.
 
-Für die dafür verantwortliche Komponente oder Wirkung etablierte sich der Name **Dunkle Energie**.
+Für die dafür verantwortliche Komponente oder Wirkung etablierte sich der Name Dunkle Energie.
 
 Dieser Begriff ist keine vollständige physikalische Erklärung. Was dunkle Energie tatsächlich ist, gehört weiterhin zu den großen offenen Fragen der Kosmologie.
 

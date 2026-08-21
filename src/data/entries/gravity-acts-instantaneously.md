@@ -40,4 +40,4 @@ General relativity changed the underlying picture. Gravity became the geometry o
 
 A century later, gravitational-wave detections supplied direct observations of those propagating disturbances. Relativistic tests in astronomy likewise constrain gravity to the same causal speed scale as light.
 
-The finite-speed statement concerns **changes and causal influences**. A static gravitational field around a steadily existing mass should not be pictured as a stream of fresh signals continuously leaving the mass. Newtonian gravity remains an extraordinarily accurate approximation in slow-moving, weak-field situations.
+The finite-speed statement concerns changes and causal influences. A static gravitational field around a steadily existing mass should not be pictured as a stream of fresh signals continuously leaving the mass. Newtonian gravity remains an extraordinarily accurate approximation in slow-moving, weak-field situations.

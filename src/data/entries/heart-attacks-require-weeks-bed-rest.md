@@ -36,6 +36,6 @@ The strategy had an intuitive logic but imposed its own physiological costs. Lon
 
 From the 1950s onward, clinicians began testing less restrictive approaches. “Armchair” treatment allowed selected patients to sit up sooner, followed by progressively earlier walking. Studies showed that uncomplicated patients could often mobilize safely without the feared cardiac catastrophe.
 
-The change expanded into structured **cardiac rehabilitation**, combining monitored exercise, risk-factor management, education and gradual return to normal activity. Recovery after an uncomplicated heart attack is now built around appropriately timed movement rather than routine weeks of complete inactivity.
+The change expanded into structured cardiac rehabilitation, combining monitored exercise, risk-factor management, education and gradual return to normal activity. Recovery after an uncomplicated heart attack is now built around appropriately timed movement rather than routine weeks of complete inactivity.
 
 Early mobilization is not identical for every patient. Heart function, procedures, rhythm problems and other complications can alter the plan. The superseded rule was the broad prescription of prolonged bed rest even when recovery was otherwise uncomplicated.

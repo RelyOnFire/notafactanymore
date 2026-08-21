@@ -25,7 +25,7 @@ sources:
     note: "Overview of the deep ocean and the organisms and ecosystems found there."
 ---
 
-In the 1840s, naturalist Edward Forbes proposed an **azoic zone**: below roughly 300 fathoms, declining light, temperature and food supposedly made animal life impossible. It was a plausible extrapolation from the sparse dredging records then available, and the idea became influential even though deep sampling remained extremely limited.
+In the 1840s, naturalist Edward Forbes proposed an azoic zone: below roughly 300 fathoms, declining light, temperature and food supposedly made animal life impossible. It was a plausible extrapolation from the sparse dredging records then available, and the idea became influential even though deep sampling remained extremely limited.
 
 The boundary began to collapse as better dredges reached farther down. Expeditions in the late 1860s recovered living animals from depths approaching 2,400 fathoms. The *Challenger* expedition of 1872–1876 then sampled the deep ocean systematically and found life across a huge range of depths, replacing a hypothetical biological cutoff with direct observations.
 

@@ -22,4 +22,4 @@ Louis Agassiz machte die Glazialtheorie in den 1830er-Jahren prominent und argum
 
 Spätere Datierungen und Paläoklimaforschung zeigten, dass das Pleistozän nicht nur eine einzige Eiszeit umfasste, sondern wiederholte Glazialzyklen. Der Laurentidische Eisschild in Nordamerika und große eurasische Eisschilde waren stellenweise mehrere Kilometer mächtig.
 
-Die Akzeptanz verlief schrittweise. Manche Geologen akzeptierten zunächst nur lokale Vergletscherung. Korrigiert wurde die Ablehnung **großflächiger kontinentaler Eisschilde**, nicht die Vorstellung, jeder Ort im Norden sei gleichzeitig vereist gewesen.
+Die Akzeptanz verlief schrittweise. Manche Geologen akzeptierten zunächst nur lokale Vergletscherung. Korrigiert wurde die Ablehnung großflächiger kontinentaler Eisschilde, nicht die Vorstellung, jeder Ort im Norden sei gleichzeitig vereist gewesen.

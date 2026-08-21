@@ -36,6 +36,6 @@ The photoelectric effect exposed a limit. Shining light on a material could ejec
 
 In 1905, Einstein proposed that light exchanged energy in discrete packets. The idea was initially controversial because it seemed to revive particle-like light after the wave model had been so successful. Later evidence, including Compton scattering, strengthened the case for quantized electromagnetic radiation.
 
-Quantum theory kept both sets of observations. Light propagates and interferes in ways associated with waves, while interactions can occur in discrete quanta called **photons**.
+Quantum theory kept both sets of observations. Light propagates and interferes in ways associated with waves, while interactions can occur in discrete quanta called photons.
 
 This is not a literal story in which a photon alternates between being a tiny billiard ball and a water wave. Classical waves and classical particles are both incomplete analogies. Wave optics remains extremely accurate for many applications, but it is not the whole theory of light.

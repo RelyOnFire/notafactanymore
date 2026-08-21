@@ -20,7 +20,7 @@ Im 19. Jahrhundert wurden Atome zu äußerst erfolgreichen wissenschaftlichen Ei
 
 Gegen Ende des Jahrhunderts begannen Experimente das Atom zu öffnen.
 
-J. J. Thomsons Arbeiten mit Kathodenstrahlen identifizierten das **Elektron**, einen negativ geladenen Bestandteil, der viel kleiner als ein Atom ist. Rutherfords Streuexperimente zeigten anschließend, dass fast die gesamte Masse und positive Ladung in einem winzigen Atomkern konzentriert ist.
+J. J. Thomsons Arbeiten mit Kathodenstrahlen identifizierten das Elektron, einen negativ geladenen Bestandteil, der viel kleiner als ein Atom ist. Rutherfords Streuexperimente zeigten anschließend, dass fast die gesamte Masse und positive Ladung in einem winzigen Atomkern konzentriert ist.
 
 Auch der Kern erwies sich als strukturiert: Protonen und Chadwicks 1932 entdeckte Neutronen bilden gewöhnliche Kerne. Spätere Teilchenphysik zeigte wiederum, dass Protonen und Neutronen aus Quarks und Gluonen bestehen.
 

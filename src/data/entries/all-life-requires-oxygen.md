@@ -36,8 +36,8 @@ sources:
     note: "Reviews energy metabolism using electron acceptors other than molecular oxygen."
 ---
 
-Once oxygen had been identified and animal respiration linked to its consumption, it was natural to generalize that **free oxygen was a basic requirement of life**. That rule began to fail in Pasteur's fermentation experiments. In 1861 he described microorganisms associated with butyric fermentation that could live without free oxygen, and his later work distinguished organisms that require oxygen from those able to live without it.
+Once oxygen had been identified and animal respiration linked to its consumption, it was natural to generalize that free oxygen was a basic requirement of life. That rule began to fail in Pasteur's fermentation experiments. In 1861 he described microorganisms associated with butyric fermentation that could live without free oxygen, and his later work distinguished organisms that require oxygen from those able to live without it.
 
 Microbiology turned anaerobiosis from an apparent exception among ferments into a broad biological phenomenon. Many microbes use fermentation or alternative electron acceptors, facultative anaerobes can switch between metabolic modes, and some obligate anaerobes are harmed by oxygen.
 
-The correction concerns **molecular oxygen (O₂)**. It does not mean oxygen atoms are absent from anaerobic organisms or their environments.
+The correction concerns molecular oxygen (O₂). It does not mean oxygen atoms are absent from anaerobic organisms or their environments.

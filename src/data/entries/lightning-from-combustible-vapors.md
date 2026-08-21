@@ -31,9 +31,9 @@ sources:
   note: Modern research review of electrical breakdown processes involved in lightning initiation.
 ---
 
-Lightning once belonged as naturally to **chemistry** as it does to electricity today.
+Lightning once belonged as naturally to chemistry as it does to electricity today.
 
-Drawing on older traditions, many eighteenth-century scholars imagined the atmosphere accumulating combustible **sulfurous and nitrous vapors**. Their spontaneous ignition or explosive reaction could explain lightning, thunder, heat, and the smell associated with storms. Similar subterranean vapors were invoked for earthquakes and volcanoes, linking several violent natural phenomena through one chemical framework.
+Drawing on older traditions, many eighteenth-century scholars imagined the atmosphere accumulating combustible sulfurous and nitrous vapors. Their spontaneous ignition or explosive reaction could explain lightning, thunder, heat, and the smell associated with storms. Similar subterranean vapors were invoked for earthquakes and volcanoes, linking several violent natural phenomena through one chemical framework.
 
 The theory was not obviously foolish within contemporary chemistry. Sulfur really burns dramatically. Combustible vapors exist. Electrical phenomena themselves were poorly understood and were sometimes described using fire-like or sulfur-like language.
 

@@ -30,7 +30,7 @@ sources:
     note: "Describes quasars as distant, highly luminous galactic nuclei."
 ---
 
-Early quasars looked exactly like their name suggests: **quasi-stellar** points of light. Photographic plates did not resolve obvious galaxies around them, so a stellar interpretation was a natural starting point.
+Early quasars looked exactly like their name suggests: quasi-stellar points of light. Photographic plates did not resolve obvious galaxies around them, so a stellar interpretation was a natural starting point.
 
 The spectrum of 3C 273 changed the scale of the problem in 1963. Its strange emission lines made sense once Maarten Schmidt recognized that they were familiar lines shifted to much longer wavelengths.
 

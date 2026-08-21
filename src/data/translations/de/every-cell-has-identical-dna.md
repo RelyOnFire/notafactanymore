@@ -16,10 +16,10 @@ sourceNotes:
 
 Weil nahezu jede Körperzelle von derselben befruchteten Eizelle abstammt, arbeitete die Genetik lange mit einer sehr nützlichen Vereinfachung: ein Mensch, ein Genom. Blut oder anderes leicht zugängliches Gewebe konnte untersucht und als repräsentativ für die DNA im gesamten Körper behandelt werden – abgesehen von offensichtlichen Ausnahmen wie Krebs oder großen Chromosomenveränderungen.
 
-Doch jede Zellteilung ist eine weitere Gelegenheit für DNA-Veränderungen. Mutationen, die erst nach der Befruchtung entstehen, werden nur an die Nachkommen der jeweiligen Zelle weitergegeben. Dadurch entstehen Zellgruppen oder Zelllinien mit leicht unterschiedlichen Genomen. Das nennt man **somatischen Mosaizismus**.
+Doch jede Zellteilung ist eine weitere Gelegenheit für DNA-Veränderungen. Mutationen, die erst nach der Befruchtung entstehen, werden nur an die Nachkommen der jeweiligen Zelle weitergegeben. Dadurch entstehen Zellgruppen oder Zelllinien mit leicht unterschiedlichen Genomen. Das nennt man somatischen Mosaizismus.
 
 Lange blieb ein großer Teil dieser Variation unsichtbar, weil Standardsequenzierungen DNA aus Millionen Zellen mitteln. Hochauflösende und Einzelzellverfahren machten es möglich, seltene Mutationen nachzuweisen und genetisch verschiedene Zelllinien selbst in gesundem Gewebe zu rekonstruieren – unter anderem in Gehirn, Haut und Blut.
 
 Die Zellen eines Menschen sind genetisch weiterhin überwiegend sehr ähnlich, weshalb gewöhnliche Gentests funktionieren. Die Unterschiede betreffen meist nur einen winzigen Teil des gesamten Genoms und sind häufig harmlos.
 
-Die Korrektur betrifft deshalb das Wort **exakt**. Ein menschlicher Körper besteht nicht aus Milliarden vollkommen identischer DNA-Kopien, sondern aus einem verwandten genetischen Mosaik, dessen Zellen im Lauf von Entwicklung und Alterung unterschiedliche Mutationen ansammeln.
+Die Korrektur betrifft deshalb das Wort exakt. Ein menschlicher Körper besteht nicht aus Milliarden vollkommen identischer DNA-Kopien, sondern aus einem verwandten genetischen Mosaik, dessen Zellen im Lauf von Entwicklung und Alterung unterschiedliche Mutationen ansammeln.

@@ -16,9 +16,9 @@ sourceNotes:
 
 Die Gebärmutter mit sieben Kammern ist ein eindrückliches Beispiel dafür, wie eine Zeichnung den Kontakt mit dem Körper überleben konnte, den sie angeblich beschrieb.
 
-In der mittelalterlichen gelehrten Anatomie wurde die Gebärmutter mitunter in **sieben Zellen** unterteilt: drei rechts für männliche Föten, drei links für weibliche Föten und eine mittlere Kammer für einen als hermaphroditisch verstandenen Fetus. Die Lehre wird häufig mit Michael Scot und der salernitanischen Tradition verbunden, obwohl Historiker frühere Varianten nachweisen.
+In der mittelalterlichen gelehrten Anatomie wurde die Gebärmutter mitunter in sieben Zellen unterteilt: drei rechts für männliche Föten, drei links für weibliche Föten und eine mittlere Kammer für einen als hermaphroditisch verstandenen Fetus. Die Lehre wird häufig mit Michael Scot und der salernitanischen Tradition verbunden, obwohl Historiker frühere Varianten nachweisen.
 
-Besonders bemerkenswert ist **Mondino de' Liuzzi**. Sein *Anathomia* wurde für die mittelalterliche anatomische Lehre außerordentlich einflussreich, und er hatte in Bologna persönlich weibliche Leichen seziert. Dennoch beschrieb er weiterhin sieben Gebärmutterkammern. Das überlieferte Schema war stark genug, um die Deutung dessen zu prägen, was bei Sektionen zu sehen war.
+Besonders bemerkenswert ist Mondino de' Liuzzi. Sein *Anathomia* wurde für die mittelalterliche anatomische Lehre außerordentlich einflussreich, und er hatte in Bologna persönlich weibliche Leichen seziert. Dennoch beschrieb er weiterhin sieben Gebärmutterkammern. Das überlieferte Schema war stark genug, um die Deutung dessen zu prägen, was bei Sektionen zu sehen war.
 
 Renaissance-Anatomen lösten sich schrittweise davon. Berengario da Carpi beschrieb eine einfache Gebärmutter, und Vesalius' *Fabrica* von 1543 zeigte eine deutlich besser wiedererkennbare menschliche Fortpflanzungsanatomie.
 

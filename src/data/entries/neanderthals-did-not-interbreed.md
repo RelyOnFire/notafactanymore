@@ -32,7 +32,7 @@ sources:
 
 For much of the twentieth century, Neanderthal relationships to modern humans were argued mainly from anatomy and archaeology. Ancient DNA offered what seemed like a more decisive test.
 
-Early studies focused on **mitochondrial DNA**, a small genetic system inherited through the maternal line. Neanderthal mitochondrial sequences fell outside the variation of living humans, and the absence of a clear modern contribution was often taken as strong evidence that the populations had not interbred.
+Early studies focused on mitochondrial DNA, a small genetic system inherited through the maternal line. Neanderthal mitochondrial sequences fell outside the variation of living humans, and the absence of a clear modern contribution was often taken as strong evidence that the populations had not interbred.
 
 That conclusion was always more limited than it sounded. Mitochondrial DNA samples only one maternal lineage and can disappear from descendants even when substantial interbreeding occurred elsewhere in the genome.
 

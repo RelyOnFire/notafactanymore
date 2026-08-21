@@ -52,4 +52,4 @@ The importance of Aristotle was not that everyone in 350 BCE suddenly agreed wit
 
 The chemical revolution broke the old category itself. Eighteenth-century experimenters learned to isolate and characterize different gases, and work by Henry Cavendish, Antoine Lavoisier, and others showed that water could be made from what became known as hydrogen and oxygen. Later electrolysis made its decomposability visually unmistakable.
 
-So this card spans two different meanings of **element**. The classical element was a fundamental constituent within an explanatory physics; the modern chemical element is defined by atomic identity. Water ceased to qualify under the newer concept because it is a compound.
+So this card spans two different meanings of element. The classical element was a fundamental constituent within an explanatory physics; the modern chemical element is defined by atomic identity. Water ceased to qualify under the newer concept because it is a compound.

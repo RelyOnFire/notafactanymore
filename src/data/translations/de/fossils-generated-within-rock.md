@@ -16,11 +16,11 @@ sourceNotes:
 
 Frühe „Fossilien“ wurden nicht automatisch als tote Organismen verstanden.
 
-Das Wort bezeichnete ursprünglich ganz allgemein **Dinge, die aus der Erde ausgegraben wurden**, darunter Kristalle, Mineralkonkretionen, Artefakte und organisch aussehende Steine. Dadurch war das Problem schwieriger, als unsere moderne Kategorie vermuten lässt.
+Das Wort bezeichnete ursprünglich ganz allgemein Dinge, die aus der Erde ausgegraben wurden, darunter Kristalle, Mineralkonkretionen, Artefakte und organisch aussehende Steine. Dadurch war das Problem schwieriger, als unsere moderne Kategorie vermuten lässt.
 
-Einige Gelehrte erkannten organische Ursprünge. Andere nahmen eine **plastische**, formende oder mineralische Kraft der Erde an, die muschel- oder knochenähnliche Gestalten im Gestein erzeugen könne. Diese Vorstellung umging schwierige Fragen: Wie gelangten Meeresmuscheln auf Berge? Wie konnte festes Gestein sie umschließen? Und was, wenn ein Fossil keinem lebenden Tier ähnelte, obwohl selbst Aussterben noch umstritten war?
+Einige Gelehrte erkannten organische Ursprünge. Andere nahmen eine plastische, formende oder mineralische Kraft der Erde an, die muschel- oder knochenähnliche Gestalten im Gestein erzeugen könne. Diese Vorstellung umging schwierige Fragen: Wie gelangten Meeresmuscheln auf Berge? Wie konnte festes Gestein sie umschließen? Und was, wenn ein Fossil keinem lebenden Tier ähnelte, obwohl selbst Aussterben noch umstritten war?
 
-Der Wandel gelang durch die Verbindung von Biologie und Geologie. 1666 sezierte **Nicolaus Steno** einen Hai und erkannte, dass rätselhafte „Zungensteine“ Haifischzähnen stark ähnelten. In seiner Arbeit von 1669 entwickelte er anschließend Prinzipien dafür, wie Sedimente sich in Schichten ablagern und feste Gegenstände eingeschlossen werden können, während diese Sedimente zu Gestein werden.
+Der Wandel gelang durch die Verbindung von Biologie und Geologie. 1666 sezierte Nicolaus Steno einen Hai und erkannte, dass rätselhafte „Zungensteine“ Haifischzähnen stark ähnelten. In seiner Arbeit von 1669 entwickelte er anschließend Prinzipien dafür, wie Sedimente sich in Schichten ablagern und feste Gegenstände eingeschlossen werden können, während diese Sedimente zu Gestein werden.
 
 Steno beendete nicht sofort jede Fossildebatte, und Sintflut-Erklärungen blieben einflussreich. Doch anatomischer Vergleich, Stratigraphie und schließlich die Anerkennung des Aussterbens machten Fossilien zu Belegen für früheres Leben und vergangene Umweltbedingungen.
 

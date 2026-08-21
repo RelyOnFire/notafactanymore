@@ -16,4 +16,4 @@ sourceNotes:
 
 Das ältere Ergebnis entstand, weil Merkur von der Erde aus schwer zu beobachten ist. Zu den Zeiten, in denen er für Teleskopbeobachtungen am günstigsten stand, führte seine tatsächliche 3:2-Resonanz dazu, dass nahezu dieselbe Region sichtbar war. Dadurch entstand ein irreführendes Muster.
 
-Dieser Eintrag verwendet **Korrigiert**, weil eine konkrete gemessene Eigenschaft – Merkurs Rotationsperiode – revidiert wurde, nachdem eine bessere Beobachtungsmethode verfügbar geworden war.
+Dieser Eintrag verwendet Korrigiert, weil eine konkrete gemessene Eigenschaft – Merkurs Rotationsperiode – revidiert wurde, nachdem eine bessere Beobachtungsmethode verfügbar geworden war.

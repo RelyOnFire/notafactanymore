@@ -18,9 +18,9 @@ Vogelzug wird erst dann offensichtlich, wenn dieselben Populationen über enorme
 
 Europäische Schwalben erschienen zuverlässig im Frühjahr und verschwanden im Herbst. Wohin konnten so kleine Vögel gehen? Fernwanderungen über Meere und Kontinente klangen außergewöhnlich, während viele vertraute Tiere tatsächlich im Winter in Starre verfielen.
 
-Naturforscher diskutierten daher, ob Schwalben **lokal überwinterten**, angeblich teilweise in Gruppen unter Wasser oder im Schlamm von Teichen. Die Vorstellung hielt sich bis ins 18. Jahrhundert und wurde in gelehrten Publikationen verteidigt.
+Naturforscher diskutierten daher, ob Schwalben lokal überwinterten, angeblich teilweise in Gruppen unter Wasser oder im Schlamm von Teichen. Die Vorstellung hielt sich bis ins 18. Jahrhundert und wurde in gelehrten Publikationen verteidigt.
 
-**Gilbert White** behandelte das saisonale Verschwinden der Schwalben als empirisches Problem statt als Frage, die durch Autorität zu entscheiden war. Er sammelte jahrelang Beobachtungen, blieb jedoch für eine Form von Starre offen. Der Anatom **John Hunter** ging weiter: Er hielt Schwalben mit Zugang zu Wasser, Schilf und Schlamm, um zu prüfen, ob sie überwintern würden. Sie taten es nicht.
+Gilbert White behandelte das saisonale Verschwinden der Schwalben als empirisches Problem statt als Frage, die durch Autorität zu entscheiden war. Er sammelte jahrelang Beobachtungen, blieb jedoch für eine Form von Starre offen. Der Anatom John Hunter ging weiter: Er hielt Schwalben mit Zugang zu Wasser, Schilf und Schlamm, um zu prüfen, ob sie überwintern würden. Sie taten es nicht.
 
 Die Belege für Migration wurden durch Reisebeobachtungen, Wiederfunde markierter Vögel, systematische Beringung, Radar, Geolokatoren und Satellitenverfolgung überwältigend.
 

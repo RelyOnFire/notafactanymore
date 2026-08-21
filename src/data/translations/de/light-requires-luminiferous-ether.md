@@ -14,7 +14,7 @@ sourceNotes:
 - Erklärt moderne experimentelle Prüfungen der Relativität und der Invarianz der Lichtgeschwindigkeit.
 ---
 
-Bei allen vertrauten mechanischen Wellen schwingt etwas: Schall breitet sich in Luft aus, Wasserwellen im Wasser. Als Licht im 19. Jahrhundert überzeugend als Wellenphänomen verstanden wurde, lag deshalb die Annahme nahe, auch der scheinbar leere Weltraum müsse von einem Trägermedium erfüllt sein – dem **Lichtäther**.
+Bei allen vertrauten mechanischen Wellen schwingt etwas: Schall breitet sich in Luft aus, Wasserwellen im Wasser. Als Licht im 19. Jahrhundert überzeugend als Wellenphänomen verstanden wurde, lag deshalb die Annahme nahe, auch der scheinbar leere Weltraum müsse von einem Trägermedium erfüllt sein – dem Lichtäther.
 
 Maxwells elektromagnetische Theorie stärkte die Wellenbeschreibung, beseitigte das angenommene Medium aber nicht sofort. Bewegte sich die Erde durch einen ruhenden Äther, sollte sich mit hinreichend präzisen optischen Experimenten ein „Ätherwind“ nachweisen lassen, der die beobachtete Lichtausbreitung verändert.
 

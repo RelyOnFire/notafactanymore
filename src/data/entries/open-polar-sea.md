@@ -31,14 +31,14 @@ sources:
   note: Places historical belief in an ice-free Arctic in context and distinguishes it from modern climate projections.
 ---
 
-The **Open Polar Sea** became a serious nineteenth-century geographical hypothesis and influenced actual exploration.
+The Open Polar Sea became a serious nineteenth-century geographical hypothesis and influenced actual exploration.
 
 Supporters argued that warm currents from the Atlantic might keep the central Arctic ice-free. They pointed to migrating birds flying north, summer's continuous sunlight, the assumed inability of icebergs to form far from land, and occasional stretches of open water beyond heavy pack ice.
 
-Those observations were real; the inference was wrong. A **polynya**, a local area of open water surrounded by sea ice, could look tantalizingly like the edge of a larger ice-free ocean. Elisha Kent Kane's 1850s expedition returned with reports of open water to the north, strengthening the theory instead of killing it.
+Those observations were real; the inference was wrong. A polynya, a local area of open water surrounded by sea ice, could look tantalizingly like the edge of a larger ice-free ocean. Elisha Kent Kane's 1850s expedition returned with reports of open water to the north, strengthening the theory instead of killing it.
 
-The hypothesis became tied to scientific prestige, commerce, imperial competition, and the search for navigable polar routes. German geographer **August Petermann** gave it additional scientific authority in the 1860s.
+The hypothesis became tied to scientific prestige, commerce, imperial competition, and the search for navigable polar routes. German geographer August Petermann gave it additional scientific authority in the 1860s.
 
-Exploration eventually supplied the missing scale. Expeditions continued to encounter enormous moving fields of sea ice across the central Arctic. The ill-fated **Jeannette** expedition, which departed in 1879 expecting open water, instead became trapped and drifted in pack ice.
+Exploration eventually supplied the missing scale. Expeditions continued to encounter enormous moving fields of sea ice across the central Arctic. The ill-fated Jeannette expedition, which departed in 1879 expecting open water, instead became trapped and drifted in pack ice.
 
 Modern climate warming is now making the Arctic increasingly seasonally ice-free, but that future phenomenon should not be confused with the historical claim that a naturally navigable open sea already existed beyond a ring of ice.

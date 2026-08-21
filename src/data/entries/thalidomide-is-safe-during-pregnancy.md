@@ -39,7 +39,7 @@ Timing mattered enormously. Exposure during a narrow window of early embryonic d
 
 The drug was withdrawn in many countries, and the disaster transformed expectations for reproductive toxicology, clinical evidence, and drug regulation.
 
-The United States largely avoided the original catastrophe because FDA reviewer **Frances Kelsey** refused to approve thalidomide without stronger safety evidence.
+The United States largely avoided the original catastrophe because FDA reviewer Frances Kelsey refused to approve thalidomide without stronger safety evidence.
 
 Thalidomide itself later returned under tightly controlled conditions for diseases including multiple myeloma and complications of leprosy.
 

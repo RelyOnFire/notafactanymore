@@ -36,6 +36,6 @@ Long-term developmental studies changed the question. Researchers began measurin
 
 Each time the threshold was lowered, further studies found measurable effects below the new line. Public-health guidance therefore moved away from the idea of a biologically clean boundary separating “safe” from “poisoned.”
 
-For children, no safe blood-lead level has been identified. Current reference values are **population tools**, not toxicity thresholds: they identify children with higher exposure than most peers so sources can be investigated and reduced.
+For children, no safe blood-lead level has been identified. Current reference values are population tools, not toxicity thresholds: they identify children with higher exposure than most peers so sources can be investigated and reduced.
 
 The strongest evidence and most stringent guidance concern developing children because the nervous system is especially vulnerable. Lead is harmful to adults as well, but exposure patterns and clinical decisions differ. The correction is that absence of dramatic poisoning does not mean absence of biological harm.

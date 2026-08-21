@@ -19,6 +19,6 @@ Anfang der 1980er-Jahre stießen zwei Forschungsprogramme unabhängig voneinande
 
 Sidney Altman und Kollegen zeigten parallel, dass die RNA-Komponente der RNase P direkt an der katalytischen Spaltung von Vorläufer-RNA beteiligt ist.
 
-Damit war klar, dass RNA nicht nur Information speichern oder als Gerüst dienen kann. Bestimmte RNA-Moleküle falten sich zu Strukturen mit eigener katalytischer Aktivität – **Ribozyme**.
+Damit war klar, dass RNA nicht nur Information speichern oder als Gerüst dienen kann. Bestimmte RNA-Moleküle falten sich zu Strukturen mit eigener katalytischer Aktivität – Ribozyme.
 
 Proteine bleiben die mit Abstand häufigsten und vielfältigsten biologischen Katalysatoren. Die Entdeckung der Ribozyme hob diese zentrale Rolle nicht auf, sondern beseitigte die Ausschließlichkeit. Sie stärkte außerdem Ideen über eine frühe „RNA-Welt“, beweist für sich allein aber keine bestimmte Geschichte des Ursprungs des Lebens.

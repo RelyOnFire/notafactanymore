@@ -36,7 +36,7 @@ If Pluto were dark, it would need to be large to appear as bright as it did. Ear
 
 The discovery of Charon in 1978 transformed the mass estimate because the moon's orbit allowed the Pluto system to be weighed dynamically. Pluto turned out to be far less massive than expected.
 
-Stellar occultations and improved telescopes refined the radius, and the New Horizons flyby in 2015 measured a diameter of about **2,377 kilometers**—smaller than Earth's Moon and dramatically smaller than Mercury.
+Stellar occultations and improved telescopes refined the radius, and the New Horizons flyby in 2015 measured a diameter of about 2,377 kilometers—smaller than Earth's Moon and dramatically smaller than Mercury.
 
 The history is a measurement correction, not the same event as Pluto's later reclassification. Astronomers had already learned that Pluto was a small world before the 2006 planet-definition debate.
 

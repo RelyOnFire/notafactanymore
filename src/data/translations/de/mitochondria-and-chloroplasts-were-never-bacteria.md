@@ -14,7 +14,7 @@ sourceNotes:
 - Gibt einen Überblick über genomische und phylogenetische Belege für die bakterielle Abstammung der Mitochondrien.
 ---
 
-Mitochondrien und Chloroplasten wirken zunächst wie gewöhnliche Bestandteile komplexer Zellen. Daher war es naheliegend, sie als Strukturen zu betrachten, die sich vollständig **innerhalb** eukaryotischer Zellen entwickelt hatten. Vorschläge, sie könnten von ehemals frei lebenden Mikroorganismen abstammen, existierten früh, galten aber über Jahrzehnte vielen Zellbiologen als spekulativ.
+Mitochondrien und Chloroplasten wirken zunächst wie gewöhnliche Bestandteile komplexer Zellen. Daher war es naheliegend, sie als Strukturen zu betrachten, die sich vollständig innerhalb eukaryotischer Zellen entwickelt hatten. Vorschläge, sie könnten von ehemals frei lebenden Mikroorganismen abstammen, existierten früh, galten aber über Jahrzehnte vielen Zellbiologen als spekulativ.
 
 Die Organellen selbst lieferten jedoch auffällige Hinweise. Sie vermehren sich durch Teilung in bakterienähnlicher Weise, besitzen eigenes DNA-Material und enthalten Ribosomen, die sich von denen im übrigen eukaryotischen Zellplasma unterscheiden. Auch Membranen und biochemische Mechanismen zeigen klare Parallelen zu Bakterien.
 

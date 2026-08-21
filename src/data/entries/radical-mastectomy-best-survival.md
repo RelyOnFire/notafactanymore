@@ -36,7 +36,7 @@ That logic encouraged increasingly extensive operations, including removal of th
 
 Randomized trials tested whether more surgery actually produced better survival. Beginning in the 1970s, studies in Europe and the United States compared radical procedures with less extensive surgery and, later, breast-conserving surgery plus radiation.
 
-For many women with early breast cancer, the more disfiguring operation did **not** improve overall survival.
+For many women with early breast cancer, the more disfiguring operation did not improve overall survival.
 
 The results helped replace the purely local-spread model with a more systemic understanding of breast cancer biology and supported treatments tailored to tumor characteristics rather than simply maximizing tissue removal.
 

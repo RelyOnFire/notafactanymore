@@ -18,7 +18,7 @@ Die Linse nahm in der früheren Sehphysiologie eine viel bedeutendere Rolle ein 
 
 Galen beschrieb die kristalline Linse als wichtigsten Teil des Auges und als den Ort, an dem Seheindrücke aufgenommen würden. Diese Annahme beeinflusste nicht nur die Physiologie, sondern auch die Geometrie anatomischer Darstellungen: Die Linse wurde häufig nahe der Mitte des Auges gezeichnet, weil eine zentrale Position für das vermeintliche Sehorgan plausibel erschien.
 
-Der Übergang verlief schrittweise. Genauere menschliche Anatomie rückte die Linse an ihre tatsächliche Position. **1583** schrieb Felix Platter die sensorische Funktion ausdrücklich der Netzhaut statt der Linse zu. Johannes Keplers Optik von 1604 erklärte anschließend, wie Hornhaut und Linse das einfallende Licht brechen und ein umgekehrtes Bild auf der Netzhaut erzeugen.
+Der Übergang verlief schrittweise. Genauere menschliche Anatomie rückte die Linse an ihre tatsächliche Position. 1583 schrieb Felix Platter die sensorische Funktion ausdrücklich der Netzhaut statt der Linse zu. Johannes Keplers Optik von 1604 erklärte anschließend, wie Hornhaut und Linse das einfallende Licht brechen und ein umgekehrtes Bild auf der Netzhaut erzeugen.
 
 Die moderne Physiologie lässt der Linse weiterhin eine wichtige Rolle: Sie verändert ihre Form, um scharfzustellen. Die eigentliche sensorische Umwandlung übernehmen jedoch Stäbchen und Zapfen in der Netzhaut. Die Linse ist optisch; die Netzhaut ist neuronal.
 

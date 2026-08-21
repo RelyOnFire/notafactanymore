@@ -16,10 +16,10 @@ sourceNotes:
 
 Darwins Stammbaum des Lebens und die klassische Genetik machten Vererbung vor allem zu einem vertikalen Prozess: Gene wandern von Vorfahren zu Nachkommen, und evolutionäre Linien verzweigen sich mit jeder Generation weiter auseinander.
 
-Bakterien zeigten jedoch, dass DNA nicht ausschließlich diesem Weg folgt. Griffiths Transformationsversuche von 1928 belegten, dass Bakterien erbliches Material aus ihrer Umgebung aufnehmen können. Später wurden **Konjugation** und **Transduktion** entdeckt – Prozesse, bei denen DNA direkt zwischen Zellen oder über Viren übertragen wird.
+Bakterien zeigten jedoch, dass DNA nicht ausschließlich diesem Weg folgt. Griffiths Transformationsversuche von 1928 belegten, dass Bakterien erbliches Material aus ihrer Umgebung aufnehmen können. Später wurden Konjugation und Transduktion entdeckt – Prozesse, bei denen DNA direkt zwischen Zellen oder über Viren übertragen wird.
 
 Die Bedeutung wurde besonders deutlich bei Antibiotikaresistenzen. Resistenzgene können sich zwischen Bakterienarten verbreiten, ohne dass jede Empfängerlinie sie unabhängig durch Mutation entwickeln muss. Genomvergleiche zeigten schließlich, dass horizontaler Gentransfer ein grundlegender Bestandteil der mikrobiellen Evolution ist.
 
 Auch zwischen sehr weit entfernten Organismen sind einzelne Transfers dokumentiert, etwa von Bakterien zu Eukaryoten. Solche Ereignisse sind jedoch bei Tieren und Pflanzen deutlich seltener als bei Mikroben.
 
-Vertikale Vererbung bleibt deshalb für die meisten Gene höherer Organismen der dominierende Weg. Die Korrektur lautet nicht, dass Stammbäume nutzlos wären, sondern dass die Geschichte des Lebens stellenweise eher einem **Netzwerk mit Querverbindungen** gleicht als ausschließlich einem sauber verzweigenden Baum.
+Vertikale Vererbung bleibt deshalb für die meisten Gene höherer Organismen der dominierende Weg. Die Korrektur lautet nicht, dass Stammbäume nutzlos wären, sondern dass die Geschichte des Lebens stellenweise eher einem Netzwerk mit Querverbindungen gleicht als ausschließlich einem sauber verzweigenden Baum.

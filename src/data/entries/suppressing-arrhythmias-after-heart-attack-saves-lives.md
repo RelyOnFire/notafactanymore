@@ -40,7 +40,7 @@ It did the opposite.
 
 Patients receiving the active drugs had substantially more arrhythmic deaths and higher overall mortality than patients receiving placebo, and the relevant treatment arms were stopped early.
 
-CAST became one of medicine's clearest warnings about **surrogate endpoints**. A treatment can improve a biomarker associated with risk while worsening the outcome patients actually care about.
+CAST became one of medicine's clearest warnings about surrogate endpoints. A treatment can improve a biomarker associated with risk while worsening the outcome patients actually care about.
 
 The trial did not prove that every antiarrhythmic drug is harmful or that flecainide has no legitimate use. Its result applied to a specific high-risk post-infarction population and strategy.
 

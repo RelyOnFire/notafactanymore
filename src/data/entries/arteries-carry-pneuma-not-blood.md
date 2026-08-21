@@ -31,13 +31,13 @@ sources:
   note: Explains Galen's blood-containing arteries while distinguishing his system from modern circulation.
 ---
 
-The name **artery** comes from a world in which an empty vessel in a corpse could look like an air tube.
+The name artery comes from a world in which an empty vessel in a corpse could look like an air tube.
 
-In Hellenistic Alexandria, **Erasistratus** developed an influential cardiovascular physiology in which veins carried blood while arteries carried *pneuma*, a vital air-like substance. The model was linked to a broader theory of respiration, pulse, and vital function.
+In Hellenistic Alexandria, Erasistratus developed an influential cardiovascular physiology in which veins carried blood while arteries carried *pneuma*, a vital air-like substance. The model was linked to a broader theory of respiration, pulse, and vital function.
 
 Post-mortem anatomy offered some intuitive support: arteries can be relatively empty after death, while veins often contain obvious blood. The arterial pulse also made arteries seem functionally distinct.
 
-**Galen** rejected the air-only artery. In the second century CE he used vivisection and ligature experiments and argued at length that arteries in living animals are filled with blood. This was a genuine experimental correction, although it was still far from the modern concept of circulation. Galen still described separate arterial and venous systems, liver-produced blood, pneuma, invisible cardiac pores, and an open-ended distribution of blood to tissues.
+Galen rejected the air-only artery. In the second century CE he used vivisection and ligature experiments and argued at length that arteries in living animals are filled with blood. This was a genuine experimental correction, although it was still far from the modern concept of circulation. Galen still described separate arterial and venous systems, liver-produced blood, pneuma, invisible cardiac pores, and an open-ended distribution of blood to tissues.
 
 So the historical sequence is unusually instructive: one ancient physiological claim was experimentally overturned by another ancient physician, while the replacement theory itself remained deeply wrong in other ways for more than a millennium.
 

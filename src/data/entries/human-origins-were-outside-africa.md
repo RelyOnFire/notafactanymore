@@ -38,4 +38,4 @@ The 1924 Taung Child began shifting the geography. Raymond Dart identified the s
 
 The fossil pattern is now clear at broad scale: the first several million years of hominin evolution are African. Genetic evidence likewise places the deepest ancestry of living humans in Africa.
 
-This does not make Eurasia irrelevant. *Homo* dispersed out of Africa repeatedly, and Eurasian lineages such as Neanderthals and Denisovans later contributed ancestry to some living people. The correction concerns the **deep origin of the human lineage**, not every later chapter.
+This does not make Eurasia irrelevant. *Homo* dispersed out of Africa repeatedly, and Eurasian lineages such as Neanderthals and Denisovans later contributed ancestry to some living people. The correction concerns the deep origin of the human lineage, not every later chapter.

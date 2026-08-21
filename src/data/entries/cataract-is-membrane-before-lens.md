@@ -31,13 +31,13 @@ sources:
   note: Defines cataract as a cloudy area in the natural lens and explains the lens's role in focusing light on the retina.
 ---
 
-This wrong model survived partly because the treatment **worked**.
+This wrong model survived partly because the treatment worked.
 
-For centuries, cataract was commonly understood as a separate opacity or concretion forming between the pupil and the crystalline lens. Surgeons treated it by **couching**: pushing the obstructing material downward out of the visual axis. Patients could regain useful vision afterward.
+For centuries, cataract was commonly understood as a separate opacity or concretion forming between the pupil and the crystalline lens. Surgeons treated it by couching: pushing the obstructing material downward out of the visual axis. Patients could regain useful vision afterward.
 
 That success seemed to confirm the anatomy. If sight returned after the obstruction was pushed aside, it was reasonable to think a film had been moved away from a still-transparent lens.
 
-The mechanism was different. Couching actually displaced the **opaque lens** itself. In 1705, Michel Brisseau couched the eye of a recently deceased cataract patient and then dissected it, finding the crystalline lens depressed into the vitreous. Antoine Maître-Jan and other observers produced similar evidence, and by the following decade the new interpretation became broadly accepted.
+The mechanism was different. Couching actually displaced the opaque lens itself. In 1705, Michel Brisseau couched the eye of a recently deceased cataract patient and then dissected it, finding the crystalline lens depressed into the vitreous. Antoine Maître-Jan and other observers produced similar evidence, and by the following decade the new interpretation became broadly accepted.
 
 Modern cataract surgery still treats the lens as the problem, but rather than simply displacing it, surgeons remove the cloudy lens and usually replace it with an artificial intraocular lens.
 

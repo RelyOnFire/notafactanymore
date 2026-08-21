@@ -20,7 +20,7 @@ Im 19. und frühen 20. Jahrhundert änderte sich das. Thermodynamik und Spektros
 
 Das Hertzsprung-Russell-Diagramm zeigte systematische Beziehungen zwischen Leuchtkraft und Temperatur. Besonders aufschlussreich wurden Sternhaufen: Ihre Sterne entstanden ungefähr zur selben Zeit, besitzen aber unterschiedliche Massen. Dadurch ließ sich beobachten, wie massereichere Sterne die Hauptreihe früher verlassen als masseärmere.
 
-Mit Modellen des Sternaufbaus und der Kernfusion wurden daraus **Entwicklungspfade**. Sterne entstehen aus Gaswolken, verbringen je nach Masse unterschiedlich lange auf der Hauptreihe und entwickeln sich anschließend zu Riesen, Überriesen oder anderen Stadien, bevor sie als Weiße Zwerge, Neutronensterne oder Schwarze Löcher enden können.
+Mit Modellen des Sternaufbaus und der Kernfusion wurden daraus Entwicklungspfade. Sterne entstehen aus Gaswolken, verbringen je nach Masse unterschiedlich lange auf der Hauptreihe und entwickeln sich anschließend zu Riesen, Überriesen oder anderen Stadien, bevor sie als Weiße Zwerge, Neutronensterne oder Schwarze Löcher enden können.
 
 Es gibt dabei keine einzige universelle Sequenz. Ein massearmer Stern durchläuft eine andere Geschichte als ein sonnenähnlicher oder massereicher Stern.
 

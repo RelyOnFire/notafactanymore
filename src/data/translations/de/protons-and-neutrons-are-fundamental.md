@@ -22,7 +22,7 @@ Den entscheidenden Einblick brachten Hochenergie-Streuexperimente. Elektronen wu
 
 Das Prinzip erinnerte an Rutherfords frühere Streuexperimente, mit denen der Atomkern sichtbar geworden war – nur wurde diesmal gewissermaßen das Proton selbst „geöffnet“.
 
-Die beobachteten Bestandteile wurden mit **Quarks** identifiziert, die durch Gluonen und die starke Wechselwirkung gebunden sind. Heute beschreibt die Quantenchromodynamik Protonen und Neutronen als zusammengesetzte Hadronen.
+Die beobachteten Bestandteile wurden mit Quarks identifiziert, die durch Gluonen und die starke Wechselwirkung gebunden sind. Heute beschreibt die Quantenchromodynamik Protonen und Neutronen als zusammengesetzte Hadronen.
 
 Dabei sitzen nicht einfach drei kleine Quarkkugeln statisch in einem Behälter. Gluonfelder und fortwährend entstehende Quark-Antiquark-Beiträge sind wesentliche Teile ihrer Struktur, und ein großer Teil der Nukleonenmasse stammt aus der Energie der starken Wechselwirkung.
 

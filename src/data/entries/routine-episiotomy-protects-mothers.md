@@ -36,7 +36,7 @@ During the twentieth century, the procedure became routine in many hospitals eve
 
 Comparative studies reversed the assumption. Routine episiotomy did not reliably prevent severe tearing or later pelvic-floor problems and could itself increase pain, blood loss, healing difficulty, and extension into more serious injury.
 
-A **restrictive** strategy—using episiotomy only when there is a specific indication—produced better overall outcomes for most spontaneous vaginal births and became the recommended approach.
+A restrictive strategy—using episiotomy only when there is a specific indication—produced better overall outcomes for most spontaneous vaginal births and became the recommended approach.
 
 Episiotomy has not disappeared. It can still be appropriate in selected assisted or urgent deliveries or when clinicians judge that enlarging the vaginal opening is necessary.
 

@@ -37,8 +37,8 @@ Mercury, Venus, Mars, Jupiter, and Saturn can all be seen without a telescope. I
 
 Telescopes transformed many details of the known planets, yet for more than 170 years after Galileo began telescopic astronomy they did not add another one.
 
-Then on **13 March 1781**, William Herschel noticed a faint object in Gemini that moved against the stellar background. He initially considered it a comet. Continued observations showed a distant, nearly circular orbit consistent with a planet. By 1783 its planetary status was broadly accepted.
+Then on 13 March 1781, William Herschel noticed a faint object in Gemini that moved against the stellar background. He initially considered it a comet. Continued observations showed a distant, nearly circular orbit consistent with a planet. By 1783 its planetary status was broadly accepted.
 
-The effect on scale was dramatic. Uranus orbits roughly twice as far from the Sun as Saturn, so the known radius of the planetary system essentially doubled in one discovery. It was also the **first planet discovered with a telescope** and the first addition to the classical planetary inventory in recorded history.
+The effect on scale was dramatic. Uranus orbits roughly twice as far from the Sun as Saturn, so the known radius of the planetary system essentially doubled in one discovery. It was also the first planet discovered with a telescope and the first addition to the classical planetary inventory in recorded history.
 
 Neptune followed in 1846, this time predicted mathematically from disturbances in Uranus's orbit.

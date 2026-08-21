@@ -14,14 +14,14 @@ sourceNotes:
 - Erklärt die Bahnelemente, mit denen elliptische Umlaufbahnen beschrieben werden.
 ---
 
-Kopernikus setzte die Erde und die anderen Planeten um die Sonne, behielt aber eine viel ältere astronomische Annahme bei: Vollkommene Himmelsbewegung sollte aus **Kreisen** bestehen.
+Kopernikus setzte die Erde und die anderen Planeten um die Sonne, behielt aber eine viel ältere astronomische Annahme bei: Vollkommene Himmelsbewegung sollte aus Kreisen bestehen.
 
 Tycho Brahes außergewöhnlich präzise Beobachtungen machten diese Vorstellung zunehmend schwer zu halten. Johannes Kepler übernahm insbesondere Tychos Marsdaten und versuchte jahrelang, sie mit Kombinationen kreisförmiger Bewegungen zu reproduzieren.
 
 Eine kleine, aber hartnäckige Abweichung blieb bestehen. Gemessen an der Qualität der Daten war sie zu groß, um als Beobachtungsfehler abgetan zu werden.
 
-Kepler gab schließlich den Kreis auf und stellte fest, dass eine **Ellipse**, mit der Sonne in einem Brennpunkt, die Marsbahn wesentlich besser beschreibt. 1609 veröffentlichte er daraus seine ersten beiden Gesetze der Planetenbewegung.
+Kepler gab schließlich den Kreis auf und stellte fest, dass eine Ellipse, mit der Sonne in einem Brennpunkt, die Marsbahn wesentlich besser beschreibt. 1609 veröffentlichte er daraus seine ersten beiden Gesetze der Planetenbewegung.
 
 Historisch wichtig ist, dass Heliozentrismus und elliptische Bahnen zwei getrennte Änderungen waren. Kopernikus hatte das Zentrum des Planetensystems verlegt, ohne die Forderung nach perfekter Kreisbewegung aufzugeben.
 
-Viele Planetenbahnen sind nahezu kreisförmig, sodass Kreisbahnen weiterhin nützliche Näherungen sein können. Ein Kreis ist selbst ein Spezialfall der Ellipse. Keplers Korrektur bestand darin, dass Himmelsbahnen **nicht perfekt kreisförmig sein müssen**.
+Viele Planetenbahnen sind nahezu kreisförmig, sodass Kreisbahnen weiterhin nützliche Näherungen sein können. Ein Kreis ist selbst ein Spezialfall der Ellipse. Keplers Korrektur bestand darin, dass Himmelsbahnen nicht perfekt kreisförmig sein müssen.

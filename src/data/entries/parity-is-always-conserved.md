@@ -32,7 +32,7 @@ sources:
 
 Parity symmetry says, roughly, that nature should not care whether an experiment is replaced by its mirror image. By the mid-twentieth century, that principle had worked so reliably that physicists treated parity conservation as one of the fundamental rules of physics.
 
-A puzzle in particle physics prompted Tsung-Dao Lee and Chen-Ning Yang to examine the assumption carefully. In 1956 they realized that parity had been tested extensively in electromagnetic and strong interactions but **not directly in weak interactions**.
+A puzzle in particle physics prompted Tsung-Dao Lee and Chen-Ning Yang to examine the assumption carefully. In 1956 they realized that parity had been tested extensively in electromagnetic and strong interactions but not directly in weak interactions.
 
 Chien-Shiung Wu and collaborators performed the crucial experiment using radioactive cobalt-60 nuclei aligned at very low temperature. If parity were conserved, beta electrons should be emitted symmetrically relative to the nuclear spin. They were not.
 

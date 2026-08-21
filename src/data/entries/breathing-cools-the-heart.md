@@ -31,7 +31,7 @@ sources:
   note: Describes modern pulmonary gas exchange and respiratory physiology.
 ---
 
-Ancient respiration theories were built around a body powered by **innate heat**.
+Ancient respiration theories were built around a body powered by innate heat.
 
 Aristotle placed the heart at the physiological center and treated respiration as a cooling process. Galen later built a much more elaborate cardiorespiratory system involving the heart, lungs, blood, and *pneuma*. The model was wrong about circulation and gas exchange, but it was internally coherent enough to dominate Western medical physiology for roughly thirteen centuries.
 

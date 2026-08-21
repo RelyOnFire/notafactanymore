@@ -32,7 +32,7 @@ sources:
 
 Classical microbiology was built around cultivation. A sample was spread on nutrient media, colonies appeared, and those organisms could then be isolated and studied. The success of the method naturally made the visible colonies look representative of the microbial world.
 
-Direct counts exposed a mismatch. Environmental samples often contained orders of magnitude more microbial cells than the number of colonies that appeared on laboratory plates—a discrepancy that became known as the **great plate count anomaly**.
+Direct counts exposed a mismatch. Environmental samples often contained orders of magnitude more microbial cells than the number of colonies that appeared on laboratory plates—a discrepancy that became known as the great plate count anomaly.
 
 Molecular sequencing made the gap impossible to dismiss. DNA surveys revealed vast lineages with no cultured representatives, including organisms abundant in oceans, soils, sediments, and host-associated communities.
 

@@ -20,6 +20,6 @@ Joseph Goldberger fiel jedoch ein Muster auf, das schlecht zu einer Infektion pa
 
 Goldberger und Kollegen gingen noch weiter und setzten sich selbst Blut, Sekreten und Hautmaterial von Pellagra-Patienten aus, ohne zu erkranken. Das war ein drastischer Test gegen die Annahme eines übertragbaren Erregers.
 
-Die ernährungsbedingte Erklärung wurde später genauer gefasst: Entscheidend ist ein schwerer Mangel an **Niacin** oder seiner Vorstufe Tryptophan. Besonders riskant waren Ernährungsweisen, die stark auf ungeeignet verarbeitetem Mais beruhten und zugleich wenig hochwertiges Protein enthielten.
+Die ernährungsbedingte Erklärung wurde später genauer gefasst: Entscheidend ist ein schwerer Mangel an Niacin oder seiner Vorstufe Tryptophan. Besonders riskant waren Ernährungsweisen, die stark auf ungeeignet verarbeitetem Mais beruhten und zugleich wenig hochwertiges Protein enthielten.
 
 Pellagra kann auch heute aus anderen Gründen entstehen, etwa durch Malabsorption, Alkoholabhängigkeit, Stoffwechselerkrankungen oder bestimmte Medikamente. Der historische Irrtum bestand darin, ein gemeinsames Expositionsmuster mit Ansteckung zu verwechseln: Menschen wurden gemeinsam krank, weil sie dieselbe mangelhafte Ernährung teilten.

@@ -34,7 +34,7 @@ Resistance can look purposeful. A bacterial population exposed to a virus or ant
 
 In 1943, Salvador Luria and Max Delbrück designed a statistical test that distinguished that model from spontaneous mutation. They grew many independent bacterial cultures and then exposed each to bacteriophage.
 
-If exposure directly caused resistance, each culture should produce roughly similar numbers of resistant colonies. Instead, the numbers varied enormously. Some cultures contained “jackpots” of resistant descendants, exactly what would be expected if a mutation had occurred randomly **before** exposure and then multiplied during growth.
+If exposure directly caused resistance, each culture should produce roughly similar numbers of resistant colonies. Instead, the numbers varied enormously. Some cultures contained “jackpots” of resistant descendants, exactly what would be expected if a mutation had occurred randomly before exposure and then multiplied during growth.
 
 Selection therefore explains the apparent direction: the environment does not specify the needed DNA change; it favors rare variants that already happen to survive.
 

@@ -36,7 +36,7 @@ That reasoning also shaped wildlife management, where predators were often treat
 
 Community ecology showed that removing a predator can have less intuitive effects. In Robert Paine's famous intertidal experiments, removing the predatory sea star *Pisaster* allowed mussels to dominate space and exclude other species. Diversity fell even though one prey population prospered.
 
-The result helped establish the idea of a **keystone predator**: a species whose ecological effect is disproportionately large because it prevents dominant competitors from monopolizing resources.
+The result helped establish the idea of a keystone predator: a species whose ecological effect is disproportionately large because it prevents dominant competitors from monopolizing resources.
 
 Later work documented trophic cascades in many systems, where predator loss or recovery alters prey behavior, vegetation, smaller consumers, and food-web structure.
 

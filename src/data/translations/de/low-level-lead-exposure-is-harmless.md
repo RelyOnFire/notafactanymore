@@ -20,6 +20,6 @@ Langfristige Entwicklungsstudien stellten eine andere Frage. Statt erst auf mani
 
 Mit jeder Absenkung der Schwelle fanden weitere Studien messbare Effekte auch unterhalb der neuen Grenze. Die öffentliche Gesundheitsvorsorge entfernte sich deshalb vom Bild einer klaren biologischen Trennlinie zwischen „sicher“ und „vergiftet“.
 
-Für Kinder ist heute kein sicherer Blutbleispiegel bekannt. Aktuelle Referenzwerte sind **populationsbezogene Vergleichswerte**, keine Toxizitätsschwellen. Sie sollen Kinder mit höheren Belastungen als die meisten Gleichaltrigen identifizieren, damit mögliche Quellen gesucht und reduziert werden können.
+Für Kinder ist heute kein sicherer Blutbleispiegel bekannt. Aktuelle Referenzwerte sind populationsbezogene Vergleichswerte, keine Toxizitätsschwellen. Sie sollen Kinder mit höheren Belastungen als die meisten Gleichaltrigen identifizieren, damit mögliche Quellen gesucht und reduziert werden können.
 
 Die strengsten Empfehlungen betreffen Kinder in der Entwicklung, weil ihr Nervensystem besonders empfindlich ist. Blei schadet auch Erwachsenen, doch Expositionsmuster und klinische Entscheidungen unterscheiden sich. Korrigiert wurde die Annahme, dass das Fehlen dramatischer Vergiftungszeichen gleichbedeutend mit dem Fehlen biologischer Schäden sei.

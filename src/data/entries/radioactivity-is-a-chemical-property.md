@@ -34,7 +34,7 @@ Radioactivity was discovered before the atomic nucleus was known. It was therefo
 
 Experiments showed remarkable stubbornness. Radioactive material could be chemically separated, heated, cooled, dissolved, or incorporated into compounds while its characteristic activity persisted.
 
-Rutherford and Soddy concluded that the process belonged to the **atom itself**, not to ordinary molecular chemistry. Radioactive decay represented spontaneous atomic transformation.
+Rutherford and Soddy concluded that the process belonged to the atom itself, not to ordinary molecular chemistry. Radioactive decay represented spontaneous atomic transformation.
 
 Later nuclear physics localized the phenomenon more precisely in unstable nuclei. Ordinary chemical bonding rearranges electrons but leaves the nucleus largely untouched, which is why chemistry generally does not switch radioactivity on or off.
 

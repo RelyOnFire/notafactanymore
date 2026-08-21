@@ -16,11 +16,11 @@ sourceNotes:
 
 Die Schwefel-Quecksilber-Theorie lässt mittelalterliche Alchemie deutlich weniger wie Fantasie und stärker wie eine frühe Materialwissenschaft erscheinen.
 
-In arabischen und lateinischen alchemistischen Traditionen wurden Metalle häufig als Kombinationen von **Quecksilber- und Schwefelprinzipien** erklärt, die sich unter der Erde bildeten. Unterschiede in Reinheit, Verhältnis, Fixierung und Umweltbedingungen sollten Gold, Silber, Kupfer, Eisen, Zinn, Blei und andere Metalle hervorbringen.
+In arabischen und lateinischen alchemistischen Traditionen wurden Metalle häufig als Kombinationen von Quecksilber- und Schwefelprinzipien erklärt, die sich unter der Erde bildeten. Unterschiede in Reinheit, Verhältnis, Fixierung und Umweltbedingungen sollten Gold, Silber, Kupfer, Eisen, Zinn, Blei und andere Metalle hervorbringen.
 
 Für heutige Leser sind diese Begriffe leicht misszuverstehen. „Quecksilber“ und „Schwefel“ konnten als theoretische Prinzipien dienen, doch Historiker haben gezeigt, dass viele mittelalterliche Alchemisten sie zugleich als materiell manipulierbare Stoffe auffassten. Laborverfahren wie Erhitzen, Destillation, Reinigung, Legieren und chemische Reaktion waren damit direkt mit einer Theorie der Metallzusammensetzung verbunden.
 
-Der Rahmen verbreitete sich durch den arabisch-lateinischen Wissenstransfer und wurde zu einem Grundpfeiler der europäischen Alchemie. Er machte auch die **Transmutation** plausibel: Wenn Metalle sich nur dadurch unterschieden, dass dieselben Grundbestandteile unvollkommen kombiniert waren, konnte eine Laborbehandlung die Mischung möglicherweise korrigieren.
+Der Rahmen verbreitete sich durch den arabisch-lateinischen Wissenstransfer und wurde zu einem Grundpfeiler der europäischen Alchemie. Er machte auch die Transmutation plausibel: Wenn Metalle sich nur dadurch unterschieden, dass dieselben Grundbestandteile unvollkommen kombiniert waren, konnte eine Laborbehandlung die Mischung möglicherweise korrigieren.
 
 Die frühneuzeitliche Chymie verkomplizierte das Bild mit den paracelsischen *tria prima*, Korpuskulartheorien und einer wachsenden Vielfalt experimentell untersuchter Stoffe. Die quantitative Chemie des 18. Jahrhunderts und später die Atomtheorie ersetzten die Vorstellung einer universellen Schwefel-Quecksilber-Zusammensetzung durch chemische Elemente und Verbindungen.
 

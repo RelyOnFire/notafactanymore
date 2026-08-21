@@ -16,14 +16,14 @@ sourceNotes:
 
 Die Bewegung von Projektilen machte ein Grundproblem der aristotelischen Mechanik besonders sichtbar.
 
-Wenn Bewegung normalerweise einen Beweger voraussetzt, der auf das Bewegte einwirkt, was hält dann einen Stein oder Speer **in Bewegung, nachdem er die Hand verlassen hat**?
+Wenn Bewegung normalerweise einen Beweger voraussetzt, der auf das Bewegte einwirkt, was hält dann einen Stein oder Speer in Bewegung, nachdem er die Hand verlassen hat?
 
-Eine aristotelische Antwort wurde später als **Antiperistasis** bezeichnet. Während sich das Projektil bewegte, verdrängte es Luft. Die umgebende Luft strömte in den Raum hinter dem Objekt und half dabei, es weiter nach vorn zu treiben. Das Medium, das die Bewegung zugleich bremste, wurde damit auch zu einem Teil ihrer fortwirkenden Ursache.
+Eine aristotelische Antwort wurde später als Antiperistasis bezeichnet. Während sich das Projektil bewegte, verdrängte es Luft. Die umgebende Luft strömte in den Raum hinter dem Objekt und half dabei, es weiter nach vorn zu treiben. Das Medium, das die Bewegung zugleich bremste, wurde damit auch zu einem Teil ihrer fortwirkenden Ursache.
 
-Diese Erklärung wurde schon lange vor Galileo kritisiert. Johannes Philoponos stellte in der Spätantike Teile der aristotelischen Projektiltheorie infrage. Gelehrte in der mittelalterlichen islamischen Welt entwickelten Vorstellungen von *mayl*, also einer Art Neigung oder Bewegungsvermögen. Im 14. Jahrhundert formulierte **Jean Buridan** eine besonders einflussreiche Impetustheorie: Der Werfer prägt dem Projektil eine bewegende Kraft ein, und es bewegt sich weiter, solange dieser Impetus gegenüber den bremsenden Einflüssen überwiegt.
+Diese Erklärung wurde schon lange vor Galileo kritisiert. Johannes Philoponos stellte in der Spätantike Teile der aristotelischen Projektiltheorie infrage. Gelehrte in der mittelalterlichen islamischen Welt entwickelten Vorstellungen von *mayl*, also einer Art Neigung oder Bewegungsvermögen. Im 14. Jahrhundert formulierte Jean Buridan eine besonders einflussreiche Impetustheorie: Der Werfer prägt dem Projektil eine bewegende Kraft ein, und es bewegt sich weiter, solange dieser Impetus gegenüber den bremsenden Einflüssen überwiegt.
 
-Buridans Impetus war **noch nicht die newtonsche Trägheit**. Er galt weiterhin als positiv eingeprägte Eigenschaft, die schwächer werden oder verloren gehen konnte. Dennoch machte er die umgebende Luft als Kette immer neuer Beweger überflüssig.
+Buridans Impetus war noch nicht die newtonsche Trägheit. Er galt weiterhin als positiv eingeprägte Eigenschaft, die schwächer werden oder verloren gehen konnte. Dennoch machte er die umgebende Luft als Kette immer neuer Beweger überflüssig.
 
-Die spätere Trägheitsmechanik kehrte die Grundannahme schließlich vollständig um: Gleichförmige Bewegung braucht keine fortwährende Ursache; eine resultierende Kraft ist nötig, um **Bewegung zu verändern**.
+Die spätere Trägheitsmechanik kehrte die Grundannahme schließlich vollständig um: Gleichförmige Bewegung braucht keine fortwährende Ursache; eine resultierende Kraft ist nötig, um Bewegung zu verändern.
 
 Da sich aristotelische Projektiltheorien und ihre mittelalterlichen Nachfolger schrittweise entwickelten, ist dieser Eintrag von exakten Lebensdauerstatistiken ausgeschlossen.

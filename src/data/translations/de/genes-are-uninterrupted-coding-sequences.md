@@ -18,7 +18,7 @@ Nach der Entdeckung der Boten-RNA lag ein sehr einfaches Genmodell nahe: Ein Gen
 
 1977 stießen Richard Roberts und Phillip Sharp unabhängig voneinander auf etwas Unerwartetes. Beim Vergleich viraler DNA mit der dazugehörigen RNA zeigte sich, dass die RNA nur zu voneinander getrennten DNA-Abschnitten passte. Zwischen den codierenden Bereichen lagen Sequenzen, die in der reifen Boten-RNA fehlten.
 
-Die Erklärung war RNA-Verarbeitung. Eukaryotische Zellen transkribieren zunächst eine längere Vorläufer-RNA. **Introns** werden daraus entfernt, während die verbleibenden **Exons** miteinander verknüpft werden. Das Spleißen machte deutlich, dass die Information eines Gens nicht immer als ein ununterbrochener Block vorliegen muss.
+Die Erklärung war RNA-Verarbeitung. Eukaryotische Zellen transkribieren zunächst eine längere Vorläufer-RNA. Introns werden daraus entfernt, während die verbleibenden Exons miteinander verknüpft werden. Das Spleißen machte deutlich, dass die Information eines Gens nicht immer als ein ununterbrochener Block vorliegen muss.
 
 Später zeigte sich zusätzlich, dass alternatives Spleißen verschiedene RNA- und Proteinvarianten aus demselben Gen erzeugen kann. Damit wurde das klassische Eins-zu-eins-Bild von DNA-Abschnitt und fertiger mRNA weiter aufgeweicht.
 

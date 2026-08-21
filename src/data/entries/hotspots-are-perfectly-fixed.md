@@ -32,10 +32,10 @@ sources:
 
 Hotspot island chains offered geologists an elegant ruler for plate motion. If a plume or melting source stayed fixed deep in the mantle while a tectonic plate moved overhead, a sequence of volcanoes should form with ages increasing away from the active hotspot. Hawaii is the classic example.
 
-That geometry made hotspots useful as a supposedly **absolute reference frame**. Plate motion could be reconstructed by treating hotspot positions as fixed while continents and oceanic plates moved above them.
+That geometry made hotspots useful as a supposedly absolute reference frame. Plate motion could be reconstructed by treating hotspot positions as fixed while continents and oceanic plates moved above them.
 
 As more hotspot tracks were compared, the reference frame stopped behaving as perfectly rigid. Some chains could not be reconciled with one set of stationary source points, and mantle-flow models allowed plume conduits and melting regions themselves to migrate or bend. Evidence from the Hawaiian–Emperor chain also raised questions about how much apparent track geometry reflects plate motion versus hotspot motion.
 
 The original approximation remains extremely useful. Many hotspots are far more stable than the plates above them over long intervals, so they still provide valuable constraints on plate history.
 
-What changed is the word **perfectly**. Hotspots are not universally immobile points nailed to a rigid mantle coordinate system, and different hotspots need not preserve exactly the same reference frame through geological time.
+What changed is the word perfectly. Hotspots are not universally immobile points nailed to a rigid mantle coordinate system, and different hotspots need not preserve exactly the same reference frame through geological time.

@@ -18,7 +18,7 @@ Kleine Himmelskörper sollten rasch auskühlen. Im Verhältnis zu ihrem Volumen 
 
 Voyager 1 zerstörte diese einfache Regel 1979. Aufnahmen des Jupitermonds Io zeigten aktive Vulkanfontänen – der erste direkt beobachtete aktive Vulkanismus außerhalb der Erde.
 
-Die fehlende Energiequelle war **Gezeitenheizung**. Jupiters Gravitation verformt Io fortlaufend, weil sich der Mond auf einer leicht exzentrischen Bahn bewegt und durch Resonanzen mit anderen Monden in diesem Zustand gehalten wird. Orbitale Energie wird dabei in Wärme umgewandelt.
+Die fehlende Energiequelle war Gezeitenheizung. Jupiters Gravitation verformt Io fortlaufend, weil sich der Mond auf einer leicht exzentrischen Bahn bewegt und durch Resonanzen mit anderen Monden in diesem Zustand gehalten wird. Orbitale Energie wird dabei in Wärme umgewandelt.
 
 Spätere Missionen erweiterten die Überraschung. Europa besitzt eine junge, gebrochene Eisoberfläche über einem globalen unterirdischen Ozean. Cassini entdeckte auf dem viel kleineren Enceladus wasserreiche Fontänen und ebenfalls einen verborgenen Ozean.
 

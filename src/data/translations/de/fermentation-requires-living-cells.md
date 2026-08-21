@@ -18,7 +18,7 @@ Louis Pasteur hatte gezeigt, dass Gärung eng mit lebenden Mikroorganismen verbu
 
 Eduard Buchner testete diese Grenze 1897 beinahe zufällig. Er zerrieb Hefezellen mit Sand und filterte das Gemisch, sodass ein flüssiger Extrakt ohne intakte lebende Hefe entstand. Als Zucker zugesetzt wurde, bildete der Extrakt trotzdem Alkohol und Kohlendioxid.
 
-Damit war gezeigt, dass die Chemie der Gärung auch in **zellfreiem Material** weiterlaufen kann. Buchner nannte das aktive Prinzip „Zymase“; die spätere Biochemie zerlegte den Prozess in Netzwerke aus Enzymen, Cofaktoren und Stoffwechselzwischenprodukten.
+Damit war gezeigt, dass die Chemie der Gärung auch in zellfreiem Material weiterlaufen kann. Buchner nannte das aktive Prinzip „Zymase“; die spätere Biochemie zerlegte den Prozess in Netzwerke aus Enzymen, Cofaktoren und Stoffwechselzwischenprodukten.
 
 Die Bedeutung ging weit über Brauerei und Gärung hinaus. Das Experiment half zu zeigen, dass sich ein eng mit Leben verbundener Prozess in chemische Teilreaktionen zerlegen und außerhalb eines intakten Organismus untersuchen lässt – eine Grundidee der Enzymologie und Biochemie.
 

@@ -14,7 +14,7 @@ sourceNotes:
 - Erklärt RNA-Verarbeitung und wie alternatives Spleißen die Vorhersage von Proteinen aus Genen erschwert.
 ---
 
-Die berühmte Regel begann als großer Fortschritt. Beadle und Tatum verbanden Gene mit konkreten biochemischen Funktionen und formulierten zunächst das Prinzip **„ein Gen – ein Enzym“**. Als klar wurde, dass viele Proteine keine Enzyme sind und manche aus mehreren Untereinheiten bestehen, wurde daraus in Lehrbüchern häufig „ein Gen – ein Protein“.
+Die berühmte Regel begann als großer Fortschritt. Beadle und Tatum verbanden Gene mit konkreten biochemischen Funktionen und formulierten zunächst das Prinzip „ein Gen – ein Enzym“. Als klar wurde, dass viele Proteine keine Enzyme sind und manche aus mehreren Untereinheiten bestehen, wurde daraus in Lehrbüchern häufig „ein Gen – ein Protein“.
 
 Die Grundidee – dass Gene die Herstellung bestimmter Zellprodukte steuern – blieb richtig. Zu streng war die Vorstellung einer festen Eins-zu-eins-Zuordnung.
 

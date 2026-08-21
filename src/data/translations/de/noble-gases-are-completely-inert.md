@@ -22,4 +22,4 @@ Neil Bartlett stellte diese Grenze 1962 infrage. Er hatte beobachtet, dass Plati
 
 Kurz danach entwickelte sich eine umfangreichere Xenonchemie mit Fluoriden, Oxiden und weiteren Verbindungen; später wurden auch Verbindungen anderer schwererer Edelgase bekannt.
 
-Damit wurden Edelgase nicht plötzlich zu gewöhnlich reaktiven Elementen. Helium und Neon sind weiterhin außerordentlich reaktionsträge, und selbst Xenon reagiert nur unter bestimmten Bedingungen mit geeigneten Partnern. Korrigiert wurde das Wort **vollständig**: Eine stabile Außenschale macht Reaktionen schwierig, nicht prinzipiell unmöglich.
+Damit wurden Edelgase nicht plötzlich zu gewöhnlich reaktiven Elementen. Helium und Neon sind weiterhin außerordentlich reaktionsträge, und selbst Xenon reagiert nur unter bestimmten Bedingungen mit geeigneten Partnern. Korrigiert wurde das Wort vollständig: Eine stabile Außenschale macht Reaktionen schwierig, nicht prinzipiell unmöglich.

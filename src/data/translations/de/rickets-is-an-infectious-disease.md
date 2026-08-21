@@ -18,7 +18,7 @@ Rachitis war in den dicht besiedelten Industriestädten des 19. und frühen 20. 
 
 Nach und nach gelang es, diese Begleitfaktoren von der eigentlichen Ursache zu trennen. Tierversuche zeigten, dass sich gestörte Knochenentwicklung über die Ernährung beeinflussen ließ, und Lebertran konnte Rachitis verhindern oder bessern.
 
-Ebenso wichtig war **Sonnenlicht**. Kinder verbesserten sich unter ultravioletter Bestrahlung – ein Hinweis darauf, dass der Körper selbst einen entscheidenden Stoff unter Lichteinwirkung bilden konnte.
+Ebenso wichtig war Sonnenlicht. Kinder verbesserten sich unter ultravioletter Bestrahlung – ein Hinweis darauf, dass der Körper selbst einen entscheidenden Stoff unter Lichteinwirkung bilden konnte.
 
 Dieser Stoff wurde als Vitamin D identifiziert. Vitamin D ist wesentlich für den Kalzium- und Phosphathaushalt und damit für die normale Mineralisierung wachsender Knochen.
 

@@ -36,7 +36,7 @@ Experiments gradually separated correlation from cause. Animal studies linked ab
 
 Sunlight proved just as important. Children exposed to ultraviolet light improved, connecting rickets to a factor that the body could generate in skin.
 
-That factor became identified as **vitamin D**, which is essential to calcium and phosphate metabolism and normal mineralization of growing bone.
+That factor became identified as vitamin D, which is essential to calcium and phosphate metabolism and normal mineralization of growing bone.
 
 The new model also explained why rickets clustered in polluted northern cities: limited sunlight and restricted diets could occur together in the same disadvantaged populations that also experienced more infectious disease.
 

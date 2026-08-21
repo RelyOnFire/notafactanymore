@@ -14,7 +14,7 @@ sourceNotes:
 - "Erklärt, dass Haeckels strenges biogenetisches Grundgesetz keine experimentelle Unterstützung fand."
 ---
 
-Die Embryologie des 19. Jahrhunderts zeigte auffällige Ähnlichkeiten zwischen sich entwickelnden Wirbeltieren. Ernst Haeckel machte daraus eine weitreichende Regel: **Ontogenese rekapituliert Phylogenese**. In der stärksten Form sollte ein Embryo Entwicklungsstadien durchlaufen, die den erwachsenen Formen seiner evolutionären Vorfahren entsprechen.
+Die Embryologie des 19. Jahrhunderts zeigte auffällige Ähnlichkeiten zwischen sich entwickelnden Wirbeltieren. Ernst Haeckel machte daraus eine weitreichende Regel: Ontogenese rekapituliert Phylogenese. In der stärksten Form sollte ein Embryo Entwicklungsstadien durchlaufen, die den erwachsenen Formen seiner evolutionären Vorfahren entsprechen.
 
 Die Idee war attraktiv, weil sie Evolutionsgeschichte scheinbar direkt in der Entwicklung sichtbar machte. Schlundbögen eines menschlichen Embryos konnten dann nicht nur als homologe Strukturen verstanden werden, sondern als vorübergehende Wiederholung eines fischartigen Ahnenstadiums.
 

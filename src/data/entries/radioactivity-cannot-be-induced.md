@@ -32,7 +32,7 @@ sources:
 
 The first radioactive substances were discovered in nature. Uranium, radium, and related materials emitted radiation spontaneously, so radioactivity initially looked like an intrinsic property belonging to a special set of naturally unstable substances.
 
-In 1934, Irène Joliot-Curie and Frédéric Joliot bombarded light elements with alpha particles and found something new: after the external source was removed, the target material **continued** emitting radiation.
+In 1934, Irène Joliot-Curie and Frédéric Joliot bombarded light elements with alpha particles and found something new: after the external source was removed, the target material continued emitting radiation.
 
 The bombardment had created unstable nuclei that did not previously exist in the sample. Artificial radioactivity had been produced.
 

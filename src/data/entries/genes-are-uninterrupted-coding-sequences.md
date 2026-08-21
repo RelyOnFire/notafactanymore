@@ -34,7 +34,7 @@ The early molecular picture of a gene was elegantly direct: DNA was copied into 
 
 In 1977, Richard Roberts and Phillip Sharp independently encountered something that did not fit. When viral messenger RNA was matched against the DNA from which it came, the corresponding DNA regions were separated by stretches that were absent from the mature RNA.
 
-The solution was the **split gene**. In many eukaryotes, a gene is transcribed into a longer precursor RNA containing both exons and introns. RNA splicing removes the introns and joins the retained exons before the mature messenger RNA is translated.
+The solution was the split gene. In many eukaryotes, a gene is transcribed into a longer precursor RNA containing both exons and introns. RNA splicing removes the introns and joins the retained exons before the mature messenger RNA is translated.
 
 The discovery added an entire processing step between transcription and translation and opened the way to later work on alternative splicing, in which different exon combinations can produce multiple RNA products from one gene.
 

@@ -18,7 +18,7 @@ Schleimpilze erhielten ihren Namen nicht zufällig. Sie bilden Sporen und oft au
 
 Ihr übriger Lebenszyklus passt jedoch schlecht zu echten Pilzen.
 
-Viele Schleimpilze verbringen einen großen Teil ihres Lebens als frei bewegliche **amöboide Zellen**, die Bakterien und andere Partikel aufnehmen. Bei plasmodialen Formen können zahlreiche Zellkerne in einer großen beweglichen Masse zusammenleben; bei sozialen Schleimpilzen sammeln sich einzelne Amöben unter bestimmten Bedingungen zu einem gemeinsamen Fruchtkörper.
+Viele Schleimpilze verbringen einen großen Teil ihres Lebens als frei bewegliche amöboide Zellen, die Bakterien und andere Partikel aufnehmen. Bei plasmodialen Formen können zahlreiche Zellkerne in einer großen beweglichen Masse zusammenleben; bei sozialen Schleimpilzen sammeln sich einzelne Amöben unter bestimmten Bedingungen zu einem gemeinsamen Fruchtkörper.
 
 Echte Pilze ernähren sich dagegen typischerweise durch Absorption gelöster Nährstoffe über Zellwände und besitzen eine ganz andere Zellbiologie.
 

@@ -14,13 +14,13 @@ sourceNotes:
 - "Erklärt Galens Vorstellung blutgefüllter Arterien und grenzt sie zugleich vom modernen Blutkreislauf ab."
 ---
 
-Der Begriff **Arterie** stammt aus einer Zeit, in der ein leeres Gefäß in einem Leichnam wie eine Luftröhre wirken konnte.
+Der Begriff Arterie stammt aus einer Zeit, in der ein leeres Gefäß in einem Leichnam wie eine Luftröhre wirken konnte.
 
-Im hellenistischen Alexandria entwickelte **Erasistratos** eine einflussreiche Herz-Kreislauf-Lehre, nach der Venen Blut und Arterien *Pneuma*, eine lebensspendende luftartige Substanz, transportierten. Das Modell war Teil einer umfassenderen Theorie von Atmung, Puls und Lebensfunktionen.
+Im hellenistischen Alexandria entwickelte Erasistratos eine einflussreiche Herz-Kreislauf-Lehre, nach der Venen Blut und Arterien *Pneuma*, eine lebensspendende luftartige Substanz, transportierten. Das Modell war Teil einer umfassenderen Theorie von Atmung, Puls und Lebensfunktionen.
 
 Anatomische Beobachtungen nach dem Tod konnten diese Vorstellung plausibel erscheinen lassen: Arterien können dann relativ leer sein, während Venen oft deutlich Blut enthalten. Auch der Puls ließ Arterien funktionell besonders erscheinen.
 
-**Galen** widersprach der Vorstellung luftgefüllter Arterien. Im 2. Jahrhundert n. Chr. zeigte er mit Tierversuchen und Ligaturen, dass Arterien lebender Tiere Blut enthalten. Das war eine echte experimentelle Korrektur, aber noch kein moderner Kreislauf. Galen ging weiterhin von getrennten arteriellen und venösen Systemen, in der Leber erzeugtem Blut, Pneuma, unsichtbaren Herzporen und einem offenen Verbrauch des Blutes im Gewebe aus.
+Galen widersprach der Vorstellung luftgefüllter Arterien. Im 2. Jahrhundert n. Chr. zeigte er mit Tierversuchen und Ligaturen, dass Arterien lebender Tiere Blut enthalten. Das war eine echte experimentelle Korrektur, aber noch kein moderner Kreislauf. Galen ging weiterhin von getrennten arteriellen und venösen Systemen, in der Leber erzeugtem Blut, Pneuma, unsichtbaren Herzporen und einem offenen Verbrauch des Blutes im Gewebe aus.
 
 Die historische Abfolge ist deshalb besonders lehrreich: Eine antike physiologische Behauptung wurde von einem anderen antiken Arzt experimentell widerlegt, während dessen Ersatzmodell in vielen anderen Punkten noch mehr als ein Jahrtausend falsch blieb.
 

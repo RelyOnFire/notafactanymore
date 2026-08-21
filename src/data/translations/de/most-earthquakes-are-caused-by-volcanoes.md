@@ -18,7 +18,7 @@ Bevor sich Vorgänge im Erdinneren messen ließen, mussten Erdbeben mit Mechanis
 
 Dabei handelte es sich nicht um eine einzige einheitliche Lehre. Gemeinsam war vielen dieser Vorstellungen aber die Annahme, das Schütteln werde durch eine lokale unterirdische Explosion, Eruption oder Bewegung von Material verursacht.
 
-Feldgeologie und instrumentelle Seismologie veränderten den Maßstab des Problems. Große Erdbeben ließen sich wiederholt mit **Verwerfungen** verbinden, und Vermessungen zeigten, dass sich die Erdkruste auf beiden Seiten solcher Brüche schlagartig um Meter gegeneinander verschieben kann.
+Feldgeologie und instrumentelle Seismologie veränderten den Maßstab des Problems. Große Erdbeben ließen sich wiederholt mit Verwerfungen verbinden, und Vermessungen zeigten, dass sich die Erdkruste auf beiden Seiten solcher Brüche schlagartig um Meter gegeneinander verschieben kann.
 
 Nach dem Erdbeben von San Francisco 1906 lieferte die Theorie des elastischen Rücksprungs einen schlüssigen Mechanismus: Tektonische Kräfte verformen die Kruste langsam, bis die Reibung nicht mehr standhält und eine Verwerfung plötzlich gleitet. Die gespeicherte elastische Energie wird dabei als seismische Wellen frei. Die Plattentektonik erklärte später, warum sich solche Spannungen in globalen Gürteln konzentrieren.
 

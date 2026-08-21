@@ -38,6 +38,6 @@ Research on circulating signals changed the picture. Adipose cells and the immun
 
 Other adipose-derived factors, including adiponectin and inflammatory cytokines, linked fat tissue to insulin sensitivity, vascular biology, immunity and reproduction. Different fat depots also turned out to have distinct metabolic properties rather than behaving as interchangeable storage bags.
 
-Modern adipose tissue is therefore treated as an active **endocrine and immune organ** as well as an energy reservoir.
+Modern adipose tissue is therefore treated as an active endocrine and immune organ as well as an energy reservoir.
 
 The old model was incomplete rather than backwards. Energy storage remains one of white fat's central jobs, and endocrine activity can be either adaptive or dysregulated depending on tissue type, location and physiological state.

@@ -16,7 +16,7 @@ sourceNotes:
 
 Der interstellare Raum wirkt wie eine ausgesprochen feindliche Umgebung für komplexe Chemie. Die Gasdichte ist extrem gering, die Temperaturen können stark variieren, und ultraviolette Strahlung kann chemische Bindungen aufbrechen. Frühe astrochemische Modelle erwarteten daher eher Atome und vergleichsweise kleine Moleküle als große, stabile kohlenstoffreiche Strukturen.
 
-Die astronomische Spektroskopie veränderte dieses Bild. Infrarotbeobachtungen zeigten ausgeprägte Emissionsmerkmale, die sich weder mit einzelnen Atomen noch mit den einfachsten Molekülen erklären ließen. Laborspektren und theoretische Modelle verbanden viele dieser Signaturen mit Familien großer aromatischer Kohlenstoffverbindungen, besonders **polyzyklischen aromatischen Kohlenwasserstoffen**.
+Die astronomische Spektroskopie veränderte dieses Bild. Infrarotbeobachtungen zeigten ausgeprägte Emissionsmerkmale, die sich weder mit einzelnen Atomen noch mit den einfachsten Molekülen erklären ließen. Laborspektren und theoretische Modelle verbanden viele dieser Signaturen mit Familien großer aromatischer Kohlenstoffverbindungen, besonders polyzyklischen aromatischen Kohlenwasserstoffen.
 
 Radio- und Infrarotastronomie erweiterten den chemischen Katalog des Weltraums weiter. Kohlenstoffketten, komplexe organische Moleküle und schließlich Fullerene wie C60 wurden in zirkumstellaren und interstellaren Umgebungen identifiziert. Manche großen Moleküle überstehen die Strahlung wegen besonders stabiler Strukturen; andere entstehen oder werden auf Staubkörnern und in abgeschirmten Wolken weiterverarbeitet.
 

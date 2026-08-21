@@ -22,4 +22,4 @@ Das 1924 entdeckte Taung-Kind verschob den geografischen Schwerpunkt. Raymond Da
 
 Im großen Maßstab ist das Fossilmuster heute klar: Die ersten mehreren Millionen Jahre der Homininenevolution spielen sich in Afrika ab. Genetische Daten verorten ebenso die tiefste Abstammung heute lebender Menschen in Afrika.
 
-Eurasien wird dadurch nicht bedeutungslos. *Homo* verließ Afrika mehrfach, und eurasische Linien wie Neandertaler und Denisovaner trugen später zur Abstammung mancher heute lebender Menschen bei. Korrigiert wurde die Vorstellung vom **tiefen Ursprung der menschlichen Linie** außerhalb Afrikas, nicht jedes spätere Kapitel unserer Evolution.
+Eurasien wird dadurch nicht bedeutungslos. *Homo* verließ Afrika mehrfach, und eurasische Linien wie Neandertaler und Denisovaner trugen später zur Abstammung mancher heute lebender Menschen bei. Korrigiert wurde die Vorstellung vom tiefen Ursprung der menschlichen Linie außerhalb Afrikas, nicht jedes spätere Kapitel unserer Evolution.

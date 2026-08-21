@@ -14,11 +14,11 @@ sourceNotes:
 - Zeigt, wie die atomare Erklärung mit älteren chemischen Theorien unveränderlicher Elemente kollidierte.
 ---
 
-Radioaktivität wurde entdeckt, bevor der Atomkern bekannt war. Deshalb war es zunächst vernünftig zu prüfen, ob diese merkwürdige Strahlung vielleicht eine ungewöhnliche **chemische** oder molekulare Eigenschaft darstellte – ähnlich anderen Eigenschaften, die sich durch Erhitzen, Lösen oder chemische Bindung verändern.
+Radioaktivität wurde entdeckt, bevor der Atomkern bekannt war. Deshalb war es zunächst vernünftig zu prüfen, ob diese merkwürdige Strahlung vielleicht eine ungewöhnliche chemische oder molekulare Eigenschaft darstellte – ähnlich anderen Eigenschaften, die sich durch Erhitzen, Lösen oder chemische Bindung verändern.
 
 Experimente zeigten jedoch eine bemerkenswerte Unempfindlichkeit gegenüber solchen Eingriffen. Radioaktive Stoffe konnten chemisch getrennt, erhitzt, abgekühlt, gelöst oder in neue Verbindungen eingebaut werden, ohne dass ihre charakteristische Aktivität verschwand.
 
-Rutherford und Soddy schlossen daraus, dass der Prozess im **Atom selbst** stattfinden musste und nicht in gewöhnlichen Molekülen. Radioaktiver Zerfall bedeutete eine spontane Umwandlung von Atomen.
+Rutherford und Soddy schlossen daraus, dass der Prozess im Atom selbst stattfinden musste und nicht in gewöhnlichen Molekülen. Radioaktiver Zerfall bedeutete eine spontane Umwandlung von Atomen.
 
 Die spätere Kernphysik lokalisierte den Vorgang noch genauer in instabilen Atomkernen. Chemische Reaktionen verändern vor allem die Elektronenhülle, während der Kern weitgehend unberührt bleibt. Deshalb beeinflussen normale chemische Bedingungen die meisten Zerfallsraten kaum oder gar nicht.
 

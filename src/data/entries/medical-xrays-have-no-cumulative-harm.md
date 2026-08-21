@@ -34,7 +34,7 @@ X-rays entered medicine almost immediately after their discovery in 1895. Physic
 
 Early operators sometimes exposed themselves and patients repeatedly for long periods. Skin burns, chronic nonhealing injuries, hair loss, infertility, and eventually excess cancers made clear that the rays were not biologically neutral.
 
-The underlying reason is that X-rays are **ionizing radiation**. They can damage molecules and DNA, and cumulative dose matters. The effect is not simply reset to zero after each examination.
+The underlying reason is that X-rays are ionizing radiation. They can damage molecules and DNA, and cumulative dose matters. The effect is not simply reset to zero after each examination.
 
 Radiology responded with shielding, dosimetry, shorter exposures, improved detectors, and the principles of justification and optimization. Modern diagnostic imaging can often obtain far more information with much less radiation than early equipment required.
 

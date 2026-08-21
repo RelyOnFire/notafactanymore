@@ -20,7 +20,7 @@ Entsprechend waren Schwämme in frühen Klassifikationssystemen schwer einzuordn
 
 Die Mikroskopie machte eine andere Biologie sichtbar. Schwämme pumpen Wasser mithilfe spezialisierter begeißelter Zellen durch ein System innerer Kanäle, fangen Nahrungspartikel aus dem Wasser und verdauen sie im Körper.
 
-Sie vermehren sich sexuell und bilden bei vielen Arten **frei schwimmende Larven** – ein Lebensstadium, das der unbewegliche erwachsene Schwamm von außen nicht erkennen lässt.
+Sie vermehren sich sexuell und bilden bei vielen Arten frei schwimmende Larven – ein Lebensstadium, das der unbewegliche erwachsene Schwamm von außen nicht erkennen lässt.
 
 Heute gehören Schwämme eindeutig zum Tierreich und sind besonders wichtig für die Erforschung der frühen Evolution vielzelliger Tiere.
 

@@ -18,7 +18,7 @@ Die Katharsisvorstellung behandelt Wut wie Druck in einem Behälter. Wenn aggres
 
 Kontrollierte Experimente unterstützen dieses einfache hydraulische Modell jedoch nicht.
 
-Teilnehmende, die ermutigt wurden, beim Schlagen auf einen Boxsack an die Person zu denken, die sie verärgert hatte, verhielten sich anschließend häufig **aggressiver**, nicht weniger aggressiv.
+Teilnehmende, die ermutigt wurden, beim Schlagen auf einen Boxsack an die Person zu denken, die sie verärgert hatte, verhielten sich anschließend häufig aggressiver, nicht weniger aggressiv.
 
 Das Wiederholen der Kränkung kann Erregung und feindselige Gedanken aufrechterhalten, statt sie zu erschöpfen.
 

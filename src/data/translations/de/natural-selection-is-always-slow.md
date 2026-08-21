@@ -24,4 +24,4 @@ Experimentelle Evolution machte solche Prozesse zusätzlich kontrollierbar, inde
 
 Das heißt nicht, dass jede evolutionäre Veränderung schnell ist. Große anatomische Umbauten, ökologische Übergänge und Artbildung können lange Zeiträume benötigen; kurzfristige Anpassungen können sich zudem wieder umkehren, wenn sich die Umwelt verändert.
 
-Korrigiert wird das Wort **immer**. Natürliche Selektion kann innerhalb von Jahren oder Jahrzehnten messbare Evolution hervorbringen. Rasche Gegenwartsevolution und Evolution über geologische Zeiträume sind unterschiedliche Zeitskalen desselben Prozesses.
+Korrigiert wird das Wort immer. Natürliche Selektion kann innerhalb von Jahren oder Jahrzehnten messbare Evolution hervorbringen. Rasche Gegenwartsevolution und Evolution über geologische Zeiträume sind unterschiedliche Zeitskalen desselben Prozesses.

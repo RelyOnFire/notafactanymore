@@ -18,9 +18,9 @@ Die fünf Leberlappen zeigen, wie stark Erwartungen selbst bei direktem Zugang z
 
 Die Vorstellung findet sich in der hippokratischen Tradition und wurde von Galen übernommen. Im Kontext von Tiersektionen war sie plausibel: Hunde, Katzen, Kaninchen, Schweine und manche Primaten besitzen deutlich stärker voneinander getrennte Leberlappen als Menschen.
 
-Bemerkenswert ist, wie lange das überlieferte Bild **nach der Wiederaufnahme menschlicher Autopsien** bestehen blieb. Anatomen gingen nicht zwingend ohne Vorannahmen in eine Sektion; antike Autoritäten sagten ihnen, welche Strukturen zu erwarten waren.
+Bemerkenswert ist, wie lange das überlieferte Bild nach der Wiederaufnahme menschlicher Autopsien bestehen blieb. Anatomen gingen nicht zwingend ohne Vorannahmen in eine Sektion; antike Autoritäten sagten ihnen, welche Strukturen zu erwarten waren.
 
-Vesalius liefert ein besonders sichtbares Beispiel wissenschaftlicher Selbstkorrektur. Seine anatomischen Tafeln von **1538** zeigen noch eine fünflappige Leber. Bei öffentlichen Anatomien in Bologna **1540** und später in der *Fabrica* von **1543** verwarf er diese Beschreibung für den Menschen.
+Vesalius liefert ein besonders sichtbares Beispiel wissenschaftlicher Selbstkorrektur. Seine anatomischen Tafeln von 1538 zeigen noch eine fünflappige Leber. Bei öffentlichen Anatomien in Bologna 1540 und später in der *Fabrica* von 1543 verwarf er diese Beschreibung für den Menschen.
 
 Heute unterscheidet die Anatomie gewöhnlich rechten, linken, Lobus caudatus und Lobus quadratus. Klinisch wird daneben häufig eine funktionelle Segmentierung nach Blutversorgung und Gallenabfluss verwendet.
 

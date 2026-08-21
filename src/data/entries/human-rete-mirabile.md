@@ -33,12 +33,12 @@ sources:
 
 This is almost a perfect case study in the danger of extrapolating animal anatomy to humans.
 
-Galen's anatomical system included a **rete mirabile**, a dense vascular network at the base of the brain. Such networks really exist in some mammals. Human dissection was constrained in Galen's world, so animal findings could migrate into descriptions of human structure and then acquire enormous textual authority.
+Galen's anatomical system included a rete mirabile, a dense vascular network at the base of the brain. Such networks really exist in some mammals. Human dissection was constrained in Galen's world, so animal findings could migrate into descriptions of human structure and then acquire enormous textual authority.
 
 The error persisted into Renaissance anatomy. Early printed anatomical images still showed the rete in the human head.
 
-Andreas Vesalius did something especially persuasive in **1543**. He rejected the rete mirabile in humans based on dissection, but he also dissected sheep and demonstrated that he could find the structure perfectly well in an animal that actually possessed it. That made it much harder to dismiss the discrepancy as poor technique or failure to locate a delicate vessel.
+Andreas Vesalius did something especially persuasive in 1543. He rejected the rete mirabile in humans based on dissection, but he also dissected sheep and demonstrated that he could find the structure perfectly well in an animal that actually possessed it. That made it much harder to dismiss the discrepancy as poor technique or failure to locate a delicate vessel.
 
 Modern anatomy recognizes no normal human carotid rete mirabile. Rare pathological collateral networks can look superficially “rete-like,” but they are not the normal animal structure Galen's tradition described.
 
-The decisive evidence came from **comparative anatomy used as a control experiment**.
+The decisive evidence came from comparative anatomy used as a control experiment.

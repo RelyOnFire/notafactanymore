@@ -34,7 +34,7 @@ Early telescopic observers could see broad dark and bright markings on Mars but 
 
 That interpretation remained plausible while Mars was imagined as a colder but broadly habitable terrestrial world. The telescope compressed dust, frost, terrain, and atmospheric effects into shifting patches of brightness.
 
-Spacecraft transformed the evidence. Close imaging revealed a dry, dusty landscape rather than plant-covered seasonal zones, while spectroscopy failed to find the expected signatures of widespread surface vegetation. Modern observations show that Martian winds can move thin veneers of bright dust, exposing or concealing darker material and changing large-scale **albedo** patterns.
+Spacecraft transformed the evidence. Close imaging revealed a dry, dusty landscape rather than plant-covered seasonal zones, while spectroscopy failed to find the expected signatures of widespread surface vegetation. Modern observations show that Martian winds can move thin veneers of bright dust, exposing or concealing darker material and changing large-scale albedo patterns.
 
 Frost and other seasonal processes can contribute as well. The markings really do change; the error was the biological mechanism assigned to them.
 

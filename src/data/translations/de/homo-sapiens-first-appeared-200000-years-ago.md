@@ -16,10 +16,10 @@ sourceNotes:
 
 Lange stammten die ältesten weithin anerkannten Fossilien, die *Homo sapiens* zugerechnet wurden, aus Ostafrika und lagen zeitlich nahe an der Marke von 200.000 Jahren. Besonders die Omo-Fossilien aus Äthiopien, ursprünglich auf rund 195.000 Jahre datiert, stützten das vergleichsweise einfache Bild, unsere Art sei ungefähr zu dieser Zeit in Ostafrika entstanden.
 
-Neue Funde und Datierungen machten beide Teile dieses Bildes weniger eindeutig. Die Fossilien von Jebel Irhoud in Marokko wurden auf etwa **315.000 Jahre** datiert. Sie verbinden relativ modern wirkende Gesichts- und Zahnmerkmale mit einer archaischeren Form des Hirnschädels und passen damit eher zu einem längeren, mosaikartigen Übergang als zu einer plötzlich vollständig modernen Population.
+Neue Funde und Datierungen machten beide Teile dieses Bildes weniger eindeutig. Die Fossilien von Jebel Irhoud in Marokko wurden auf etwa 315.000 Jahre datiert. Sie verbinden relativ modern wirkende Gesichts- und Zahnmerkmale mit einer archaischeren Form des Hirnschädels und passen damit eher zu einem längeren, mosaikartigen Übergang als zu einer plötzlich vollständig modernen Population.
 
 Auch geografisch wurde das Modell breiter. Frühe *Homo-sapiens*-Fossilien und zugehörige Technologien sind aus weit voneinander entfernten Regionen Afrikas bekannt. Das stützt Modelle, in denen Populationen über lange Zeiträume hinweg Gene und Merkmale austauschten, statt dass alles auf eine einzige kleine Ursprungspopulation in Ostafrika zurückgeht.
 
 Artentstehung lässt sich selten auf einen einzigen exakt rekonstruierbaren Zeitpunkt reduzieren. Gerade nahe einer evolutionären Grenzlinie bleibt die Zuordnung einzelner Fossilien schwierig, und weiterhin wird darüber diskutiert, welche frühen Exemplare bereits zu *Homo sapiens* gehören und welchen Beitrag verschiedene afrikanische Populationen leisteten.
 
-Die frühere Aussage wurde daher **eingegrenzt**, nicht einfach ins Gegenteil verkehrt: Die Wurzeln unserer Art reichen näher an 300.000 Jahre zurück und scheinen geografisch breiter verteilt gewesen zu sein als ein einzelner plötzlicher Ursprung in Ostafrika.
+Die frühere Aussage wurde daher eingegrenzt, nicht einfach ins Gegenteil verkehrt: Die Wurzeln unserer Art reichen näher an 300.000 Jahre zurück und scheinen geografisch breiter verteilt gewesen zu sein als ein einzelner plötzlicher Ursprung in Ostafrika.

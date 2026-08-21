@@ -20,7 +20,7 @@ Diese Denkweise prägte auch Teile des Wildtiermanagements, in denen Räuber vor
 
 Die Gemeinschaftsökologie zeigte jedoch, dass die Entfernung eines Räubers unerwartete Folgen haben kann. In Robert Paines berühmten Experimenten an felsigen Küsten führte die Entfernung des räuberischen Seesterns *Pisaster* dazu, dass Muscheln den verfügbaren Raum dominierten und andere Arten verdrängten. Die Artenvielfalt sank, obwohl eine Beuteart deutlich profitierte.
 
-Daraus entstand das Konzept des **Schlüsselräubers**: Manche Räuber haben einen überproportional großen Einfluss, weil sie dominante Konkurrenten daran hindern, Ressourcen vollständig zu monopolisieren.
+Daraus entstand das Konzept des Schlüsselräubers: Manche Räuber haben einen überproportional großen Einfluss, weil sie dominante Konkurrenten daran hindern, Ressourcen vollständig zu monopolisieren.
 
 Spätere Arbeiten dokumentierten in vielen Systemen trophische Kaskaden, bei denen Verlust oder Rückkehr von Räubern Verhalten und Dichte von Beutetieren, Vegetation, kleinere Konsumenten und ganze Nahrungsnetze verändern.
 

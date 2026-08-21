@@ -22,4 +22,4 @@ Noch ältere Homininenfunde verlagerten den aufrechten Gang weiter zurück. Arte
 
 Keines der beiden Merkmale entstand in einem einzigen Schritt. Die Anatomie der Zweibeinigkeit entwickelte sich schrittweise, und auch die Gehirngröße veränderte sich in verschiedenen Linien unterschiedlich.
 
-Im großen Maßstab ist die Reihenfolge dennoch klar: **Das Gehen auf zwei Beinen kam zuerst.** Die starke Enzephalisation war ein späteres Kapitel der menschlichen Evolution und nicht der anfängliche Wandel, der Zweibeinigkeit hervorbrachte.
+Im großen Maßstab ist die Reihenfolge dennoch klar: Das Gehen auf zwei Beinen kam zuerst. Die starke Enzephalisation war ein späteres Kapitel der menschlichen Evolution und nicht der anfängliche Wandel, der Zweibeinigkeit hervorbrachte.

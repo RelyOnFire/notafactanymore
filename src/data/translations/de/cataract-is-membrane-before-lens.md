@@ -14,13 +14,13 @@ sourceNotes:
 - "Definiert den Katarakt als getrübten Bereich der natürlichen Linse und erklärt deren Rolle bei der Lichtfokussierung auf die Netzhaut."
 ---
 
-Dieses falsche Modell hielt sich unter anderem deshalb, weil die Behandlung **funktionierte**.
+Dieses falsche Modell hielt sich unter anderem deshalb, weil die Behandlung funktionierte.
 
-Über Jahrhunderte wurde der Katarakt meist als eigenständige Trübung oder Ablagerung zwischen Pupille und natürlicher Linse verstanden. Behandelt wurde er durch den **Starstich**: Die störende Struktur wurde nach unten aus der Sehachse gedrückt. Danach konnten Patientinnen und Patienten teilweise wieder brauchbar sehen.
+Über Jahrhunderte wurde der Katarakt meist als eigenständige Trübung oder Ablagerung zwischen Pupille und natürlicher Linse verstanden. Behandelt wurde er durch den Starstich: Die störende Struktur wurde nach unten aus der Sehachse gedrückt. Danach konnten Patientinnen und Patienten teilweise wieder brauchbar sehen.
 
 Dieser Erfolg schien die Anatomie zu bestätigen. Wenn das Sehen zurückkehrte, nachdem die vermeintliche Trübung beiseitegeschoben worden war, lag die Vorstellung einer Membran vor einer weiterhin klaren Linse nahe.
 
-Tatsächlich wurde beim Starstich die **getrübte Linse selbst** verlagert. 1705 führte Michel Brisseau an einem kürzlich verstorbenen Kataraktpatienten einen Starstich durch und sezierte anschließend das Auge. Dabei fand er die natürliche Linse nach hinten in den Glaskörper gedrückt. Antoine Maître-Jan und andere Beobachter lieferten ähnliche Befunde, und innerhalb des folgenden Jahrzehnts setzte sich die neue Interpretation weitgehend durch.
+Tatsächlich wurde beim Starstich die getrübte Linse selbst verlagert. 1705 führte Michel Brisseau an einem kürzlich verstorbenen Kataraktpatienten einen Starstich durch und sezierte anschließend das Auge. Dabei fand er die natürliche Linse nach hinten in den Glaskörper gedrückt. Antoine Maître-Jan und andere Beobachter lieferten ähnliche Befunde, und innerhalb des folgenden Jahrzehnts setzte sich die neue Interpretation weitgehend durch.
 
 Auch moderne Kataraktchirurgie behandelt die Linse als Ursache. Heute wird die trübe Linse jedoch entfernt und meist durch eine künstliche Intraokularlinse ersetzt.
 

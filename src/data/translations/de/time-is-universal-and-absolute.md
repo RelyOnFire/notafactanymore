@@ -18,7 +18,7 @@ In der newtonschen Physik war Zeit ein universeller Hintergrund. Uhren konnten f
 
 Einsteins spezielle Relativitätstheorie von 1905 änderte diesen Rahmen. Wenn die Lichtgeschwindigkeit für alle Inertialbeobachter gleich sein soll, können Raum und Zeit nicht gleichzeitig absolut bleiben.
 
-Die Folge ist **Zeitdilatation**: Bewegte Uhren können relativ zu einem Beobachter langsamer gehen. Ebenso ist Gleichzeitigkeit nicht universell – zwei räumlich getrennte Ereignisse, die für einen Beobachter gleichzeitig sind, müssen es für einen anders bewegten Beobachter nicht sein.
+Die Folge ist Zeitdilatation: Bewegte Uhren können relativ zu einem Beobachter langsamer gehen. Ebenso ist Gleichzeitigkeit nicht universell – zwei räumlich getrennte Ereignisse, die für einen Beobachter gleichzeitig sind, müssen es für einen anders bewegten Beobachter nicht sein.
 
 Die allgemeine Relativitätstheorie erweiterte das Bild. Auch Gravitation beeinflusst die Gangrate von Uhren; Uhren in unterschiedlich starken Gravitationsfeldern sammeln unterschiedliche Eigenzeiten.
 

@@ -32,7 +32,7 @@ sources:
 
 Classical physics kept mass and energy in different accounting systems. Mass was conserved in ordinary chemical and mechanical processes, while energy was separately conserved as kinetic, potential, thermal, and other forms.
 
-Special relativity connected those ledgers. Einstein showed that a body's rest mass contributes an enormous amount of energy, summarized by the famous relation **E = mc²**. A system that loses energy can therefore lose a corresponding amount of mass, while adding stored energy increases the system's mass.
+Special relativity connected those ledgers. Einstein showed that a body's rest mass contributes an enormous amount of energy, summarized by the famous relation E = mc². A system that loses energy can therefore lose a corresponding amount of mass, while adding stored energy increases the system's mass.
 
 For chemical reactions the mass change is so tiny that classical conservation of mass remains an excellent approximation. Nuclear reactions made the connection much easier to measure. The mass of the products can differ detectably from the starting nuclei, with the difference appearing as released or absorbed energy.
 

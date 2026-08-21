@@ -37,7 +37,7 @@ Ole Rømer found the delay on an astronomical scale. He tracked eclipses of Jupi
 
 When Earth was farther from Jupiter, the eclipses appeared later; when it was closer, they appeared earlier. Rømer interpreted the changing delay as the extra time required for light to cross the changing distance.
 
-The result showed that light had a **finite speed**, although Rømer did not determine today's precise value.
+The result showed that light had a finite speed, although Rømer did not determine today's precise value.
 
 Later measurements using stellar aberration, rotating wheels and mirrors, interferometry, and electronic timing steadily improved the number.
 

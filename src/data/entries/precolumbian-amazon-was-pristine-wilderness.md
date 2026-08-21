@@ -37,7 +37,7 @@ sources:
 
 Mid-twentieth-century models often emphasized the ecological constraints of the Amazon basin. Poor tropical soils and difficult environments seemed to limit large, permanent populations, reinforcing an image of most pre-Columbian Amazonia as lightly inhabited wilderness.
 
-Archaeology steadily complicated that picture. Researchers found **anthropogenic dark earths** enriched by long-term human activity, large geometric earthworks, raised fields, roads, canals, and settlement networks in multiple regions.
+Archaeology steadily complicated that picture. Researchers found anthropogenic dark earths enriched by long-term human activity, large geometric earthworks, raised fields, roads, canals, and settlement networks in multiple regions.
 
 Plant distributions and palaeoecological evidence added another layer. Many modern forests preserve legacies of cultivation, selection, burning, and agroforestry extending back centuries or millennia.
 

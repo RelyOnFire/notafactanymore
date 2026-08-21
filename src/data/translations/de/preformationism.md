@@ -16,9 +16,9 @@ sourceNotes:
 
 Der Präformationismus wurde unter anderem attraktiv, weil die wissenschaftliche Revolution die Natur zunehmend mechanisch erscheinen ließ.
 
-Wenn ein Embryo organisierte Teile erst nach und nach erhält, woher kommt dann diese Organisation? Für manche Naturforscher des 17. und 18. Jahrhunderts schien die **Epigenese** eine schwer fassbare organisierende Kraft vorauszusetzen. Präformation bot eine mechanischere Antwort: Die Teile des Organismus seien bereits vorhanden, und Entwicklung bestehe im Wesentlichen aus Wachstum und Entfaltung.
+Wenn ein Embryo organisierte Teile erst nach und nach erhält, woher kommt dann diese Organisation? Für manche Naturforscher des 17. und 18. Jahrhunderts schien die Epigenese eine schwer fassbare organisierende Kraft vorauszusetzen. Präformation bot eine mechanischere Antwort: Die Teile des Organismus seien bereits vorhanden, und Entwicklung bestehe im Wesentlichen aus Wachstum und Entfaltung.
 
-Die Theorie teilte sich in konkurrierende Lager. **Ovisten** verorteten den vorgeformten Organismus im Ei. **Spermisten** verorteten ihn im Spermium, nachdem Mikroskope in den 1670er-Jahren Spermatozoen sichtbar gemacht hatten. Nicolaas Hartsoekers berühmte Zeichnung eines winzigen zusammengerollten Menschen in einem Spermium aus dem Jahr 1694 wurde zu einem Symbol der Debatte, obwohl er nicht behauptete, tatsächlich eine solche Miniaturperson beobachtet zu haben.
+Die Theorie teilte sich in konkurrierende Lager. Ovisten verorteten den vorgeformten Organismus im Ei. Spermisten verorteten ihn im Spermium, nachdem Mikroskope in den 1670er-Jahren Spermatozoen sichtbar gemacht hatten. Nicolaas Hartsoekers berühmte Zeichnung eines winzigen zusammengerollten Menschen in einem Spermium aus dem Jahr 1694 wurde zu einem Symbol der Debatte, obwohl er nicht behauptete, tatsächlich eine solche Miniaturperson beobachtet zu haben.
 
 Präformation konnte spektakulär rekursiv werden. Manche Ovisten stellten sich vor, zukünftige Generationen seien wie russische Puppen ineinander verschachtelt und bereits alle in den Eierstöcken der ersten Frau erschaffen worden.
 

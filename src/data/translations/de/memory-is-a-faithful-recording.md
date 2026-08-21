@@ -18,7 +18,7 @@ Unsere Alltagssprache legt ein Aufzeichnungsmodell des Gedächtnisses nahe: Ein 
 
 Die experimentelle Psychologie zeichnete ein konstruktiveres Bild. Frederic Bartlett zeigte bereits in den 1930er-Jahren, dass Menschen Erinnerungsmaterial beim Abruf mit Erwartungen und Vorwissen umformen, statt es mechanisch zu reproduzieren.
 
-Spätere Experimente machten diese Veränderbarkeit besonders bei Augenzeugenerinnerungen sichtbar. Irreführende Informationen, die **nach** einem Ereignis gegeben werden, können spätere Berichte verändern – der sogenannte Fehlinformationseffekt. Auch die Formulierung von Fragen, Gespräche mit anderen Zeugen, Gegenüberstellungsverfahren und bestätigendes Feedback können beeinflussen, was später erinnert wird und wie sicher sich eine Person dabei fühlt.
+Spätere Experimente machten diese Veränderbarkeit besonders bei Augenzeugenerinnerungen sichtbar. Irreführende Informationen, die nach einem Ereignis gegeben werden, können spätere Berichte verändern – der sogenannte Fehlinformationseffekt. Auch die Formulierung von Fragen, Gespräche mit anderen Zeugen, Gegenüberstellungsverfahren und bestätigendes Feedback können beeinflussen, was später erinnert wird und wie sicher sich eine Person dabei fühlt.
 
 Das Gedächtnis ist deshalb nicht wertlos oder zufällig. Es bewahrt häufig genug Struktur und Bedeutung eines Ereignisses, um den Alltag zuverlässig zu steuern, und manche Erinnerungen können sehr genau sein.
 

@@ -14,13 +14,13 @@ sourceNotes:
 - Beschreibt Quasare als weit entfernte, extrem leuchtkräftige Galaxienkerne.
 ---
 
-Frühe Quasare sahen tatsächlich fast genau so aus, wie ihr Name vermuten lässt: **quasi-stellar**, also sternähnlich. Auf fotografischen Aufnahmen erschienen sie als unaufgelöste Lichtpunkte, ohne klar erkennbare Galaxie um sie herum. Eine stellare Erklärung war daher zunächst naheliegend.
+Frühe Quasare sahen tatsächlich fast genau so aus, wie ihr Name vermuten lässt: quasi-stellar, also sternähnlich. Auf fotografischen Aufnahmen erschienen sie als unaufgelöste Lichtpunkte, ohne klar erkennbare Galaxie um sie herum. Eine stellare Erklärung war daher zunächst naheliegend.
 
 1963 veränderte das Spektrum von 3C 273 den Maßstab des Problems. Die rätselhaften Emissionslinien ließen sich verstehen, als Maarten Schmidt erkannte, dass es sich um bekannte Linien handelte, die extrem stark zu längeren Wellenlängen verschoben waren.
 
 War diese Rotverschiebung kosmologisch, konnte 3C 273 kein naher Stern sein. Das Objekt musste ungeheuer weit entfernt liegen – und dementsprechend eine gewaltige Leuchtkraft besitzen.
 
-Andere Quasare zeigten ähnliche Eigenschaften. Spätere Beobachtungen lösten schließlich auch die umgebenden **Wirtsgalaxien** auf.
+Andere Quasare zeigten ähnliche Eigenschaften. Spätere Beobachtungen lösten schließlich auch die umgebenden Wirtsgalaxien auf.
 
 Heute werden Quasare als besonders leuchtkräftige aktive Galaxienkerne verstanden, deren Energie aus Materie stammt, die in die Umgebung supermassereicher Schwarzer Löcher fällt.
 

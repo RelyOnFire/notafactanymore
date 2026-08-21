@@ -36,7 +36,7 @@ Some scientists and popular writers imagined a humid, oceanic, or even swamp-lik
 
 Radio observations increasingly pointed toward extreme temperatures.
 
-Mariner 2's 1962 flyby confirmed that Venus was extraordinarily hot, and later Soviet Venera landers directly measured a surface with crushing pressure and temperatures around **465°C**.
+Mariner 2's 1962 flyby confirmed that Venus was extraordinarily hot, and later Soviet Venera landers directly measured a surface with crushing pressure and temperatures around 465°C.
 
 The dense carbon-dioxide atmosphere produces a powerful greenhouse effect, while the surface is dry and hostile by terrestrial standards.
 

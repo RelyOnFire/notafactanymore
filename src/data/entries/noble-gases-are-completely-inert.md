@@ -30,7 +30,7 @@ sources:
     note: "Provides current information on xenon's properties and compounds."
 ---
 
-The noble gases earned their reputation honestly. Helium, neon, argon, krypton, xenon, and radon have filled outer electron shells and showed extraordinarily little chemical reactivity under ordinary conditions. For decades they were commonly called the **inert gases**.
+The noble gases earned their reputation honestly. Helium, neon, argon, krypton, xenon, and radon have filled outer electron shells and showed extraordinarily little chemical reactivity under ordinary conditions. For decades they were commonly called the inert gases.
 
 That description gradually hardened into an absolute rule: noble gases could not form stable compounds.
 
@@ -40,4 +40,4 @@ Chemists quickly developed a wider xenon chemistry, including fluorides and oxid
 
 The discovery did not make the group normally reactive. Helium and neon remain extraordinarily resistant to ordinary chemistry, and even xenon requires conditions and partners very different from those of typical reactive elements.
 
-The correction is to **completely inert**. A filled valence shell strongly suppresses reaction; it does not make chemical bonding impossible.
+The correction is to completely inert. A filled valence shell strongly suppresses reaction; it does not make chemical bonding impossible.

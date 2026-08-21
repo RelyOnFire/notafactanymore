@@ -14,13 +14,13 @@ sourceNotes:
 - Gibt einen Überblick über Vitamin-C-Mangel als Ursache von Skorbut und die spätere Isolierung des antiskorbutischen Faktors.
 ---
 
-Skorbut trat besonders häufig auf langen Seereisen auf, wo Kälte, Feuchtigkeit, Erschöpfung, schlechte Hygiene und einseitige Nahrung gleichzeitig vorkamen. In der Medizin des 17. und 18. Jahrhunderts wurde die Krankheit daher oft als Form innerer **Fäulnis** oder Verderbnis der Körpersäfte gedeutet.
+Skorbut trat besonders häufig auf langen Seereisen auf, wo Kälte, Feuchtigkeit, Erschöpfung, schlechte Hygiene und einseitige Nahrung gleichzeitig vorkamen. In der Medizin des 17. und 18. Jahrhunderts wurde die Krankheit daher oft als Form innerer Fäulnis oder Verderbnis der Körpersäfte gedeutet.
 
 Frisches Obst und Gemüse – besonders Zitrusfrüchte – konnten Skorbut jedoch erstaunlich wirksam behandeln. James Linds Vergleich verschiedener Therapien im Jahr 1747 zeigte, dass Seeleute mit Orangen und Zitronen sich rasch besserten.
 
 Doch wirksame Praxis und richtige Erklärung entwickelten sich nicht gleichzeitig. Zitrussaft wurde nicht überall konsequent eingesetzt, seine Wirksamkeit konnte durch Lagerung und Verarbeitung verloren gehen, und ältere Vorstellungen über Klima, Fäulnis oder Infektion blieben lange bestehen.
 
-Erst Tierversuche zu Beginn des 20. Jahrhunderts machten deutlich, dass Skorbut eine **Mangelerkrankung** ist: Bestimmte Nahrungsmittel enthielten einen notwendigen Faktor, dessen Fehlen die Krankheit auslöste.
+Erst Tierversuche zu Beginn des 20. Jahrhunderts machten deutlich, dass Skorbut eine Mangelerkrankung ist: Bestimmte Nahrungsmittel enthielten einen notwendigen Faktor, dessen Fehlen die Krankheit auslöste.
 
 Dieser Faktor wurde später isoliert und als Vitamin C identifiziert. Vitamin C wird unter anderem für die Kollagensynthese benötigt; sein Mangel erklärt Blutungen, schlechte Wundheilung und die charakteristischen Gewebeschäden des Skorbuts.
 

@@ -16,10 +16,10 @@ sourceNotes:
 
 Der Name der Hypophyse bewahrt ihre alte vermeintliche Aufgabe.
 
-Galen beschrieb die Struktur unterhalb des Gehirns als Teil eines Weges, über den Schleim oder **pituita** aus den Hirnventrikeln in Richtung Nasenrachenraum abfließen sollte. Der Hypophysenstiel diente in diesem Modell als Trichter und die Drüse als Auffangbehälter oder Filter. Das passte zu einer humoralpathologischen Physiologie, in der überschüssiges Phlegma aus dem Gehirn über die Nase den Kopf verlassen konnte.
+Galen beschrieb die Struktur unterhalb des Gehirns als Teil eines Weges, über den Schleim oder pituita aus den Hirnventrikeln in Richtung Nasenrachenraum abfließen sollte. Der Hypophysenstiel diente in diesem Modell als Trichter und die Drüse als Auffangbehälter oder Filter. Das passte zu einer humoralpathologischen Physiologie, in der überschüssiges Phlegma aus dem Gehirn über die Nase den Kopf verlassen konnte.
 
 Das Modell überdauerte mehr als ein Jahrtausend, weil die Anatomie zunächst plausibel wirkte: Die Drüse liegt direkt unter dem Gehirn und nahe den Nasenhöhlen. Selbst Vesalius' Abbildungen von 1543 zeigen noch Gänge, die an diesem Abfluss beteiligt sein sollten.
 
-Das entscheidende anatomische Problem bestand darin, dass der angenommene Durchgang im lebenden Körper tatsächlich nicht offen war. **1655** widersprach Conrad Victor Schneider der Vorstellung, Nasenschleim stamme aus dem Gehirn, und zeigte, dass Nase und Nebenhöhlen eigene schleimbildende Strukturen besitzen. Richard Lower bekräftigte später die Zurückweisung des galenischen Abflusswegs.
+Das entscheidende anatomische Problem bestand darin, dass der angenommene Durchgang im lebenden Körper tatsächlich nicht offen war. 1655 widersprach Conrad Victor Schneider der Vorstellung, Nasenschleim stamme aus dem Gehirn, und zeigte, dass Nase und Nebenhöhlen eigene schleimbildende Strukturen besitzen. Richard Lower bekräftigte später die Zurückweisung des galenischen Abflusswegs.
 
 Die tatsächliche Bedeutung der Hypophyse erwies sich nahezu als Gegenteil eines passiven Abflussorgans. Sie ist ein stark durchblutetes endokrines Organ, dessen Hormone unter Kontrolle des Hypothalamus mehrere Körpersysteme koordinieren.

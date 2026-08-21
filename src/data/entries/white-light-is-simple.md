@@ -33,12 +33,12 @@ sources:
 
 Newton's color theory reversed the direction of explanation.
 
-A prism had long been known to produce colored fringes. The natural assumption was that **white light was the simple starting material** and that refraction, glass, shadow, or some interaction in the medium modified it into colors. Seventeenth-century optical theories differed in their mechanisms, so there was no single universal pre-Newton theory.
+A prism had long been known to produce colored fringes. The natural assumption was that white light was the simple starting material and that refraction, glass, shadow, or some interaction in the medium modified it into colors. Seventeenth-century optical theories differed in their mechanisms, so there was no single universal pre-Newton theory.
 
 Newton's experiments made a different claim: the prism was sorting light that was already heterogeneous. His famous *experimentum crucis* selected one narrow part of a first prism's spectrum and refracted it again. A red ray remained characteristically red and refracted by a different amount from a violet one. Repeated refraction did not turn each color into an arbitrary new set.
 
 He then attacked the problem from the opposite direction. If white light is a mixture, separated spectral colors should be capable of recombination. Newton used lenses and prisms to bring them back together and recover white.
 
-The result was conceptually strange: **white**, which looks visually simple, is optically compound; individual spectral colors can be more homogeneous.
+The result was conceptually strange: white, which looks visually simple, is optically compound; individual spectral colors can be more homogeneous.
 
 Newton's interpretation was controversial and took decades to secure broad acceptance. Because the pre-Newtonian theories were diverse rather than one sharply bounded consensus, this entry is excluded from precise lifespan statistics.

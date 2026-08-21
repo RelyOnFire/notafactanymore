@@ -33,8 +33,8 @@ sources:
 
 The historically interesting flat-Earth story is much older than Columbus.
 
-Aristotle records that **Anaximenes, Anaxagoras, and Democritus** explained Earth's stability by its flatness. In their model, the broad Earth covered the air beneath it “like a lid”; trapped air could support a large flat body and keep it from falling. The model was an attempt to solve a physical problem: if unsupported objects fall, why does the whole Earth remain at rest?
+Aristotle records that Anaximenes, Anaxagoras, and Democritus explained Earth's stability by its flatness. In their model, the broad Earth covered the air beneath it “like a lid”; trapped air could support a large flat body and keep it from falling. The model was an attempt to solve a physical problem: if unsupported objects fall, why does the whole Earth remain at rest?
 
 By the fourth century BCE, Greek learned astronomy contained powerful arguments for a spherical Earth. Aristotle appealed to the curved outline of Earth's shadow during lunar eclipses and to the fact that different stars became visible after relatively small north–south journeys. He also argued that heavy material naturally converges toward a common center.
 
-This card therefore does **not** support the later story that educated medieval Europeans thought Earth was flat until Columbus. The genuine scholarly flat-Earth models belong much earlier, inside a period when Greek thinkers were actively arguing among competing natural explanations.
+This card therefore does not support the later story that educated medieval Europeans thought Earth was flat until Columbus. The genuine scholarly flat-Earth models belong much earlier, inside a period when Greek thinkers were actively arguing among competing natural explanations.

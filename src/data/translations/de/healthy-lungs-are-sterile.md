@@ -14,12 +14,12 @@ sourceNotes:
 - "Gibt einen Überblick über mikrobielle Gemeinschaften, die heute in gesunden oberen und unteren Atemwegen bekannt sind."
 ---
 
-Die oberen Atemwege sind voller Mikroorganismen, doch die gesunde Lunge galt lange als Ausnahme. Schleim, Flimmerhärchen, Husten und Immunabwehr schienen eingeatmete Keime so effizient zu entfernen, dass die unteren Atemwege im Normalzustand als **steril** betrachtet wurden.
+Die oberen Atemwege sind voller Mikroorganismen, doch die gesunde Lunge galt lange als Ausnahme. Schleim, Flimmerhärchen, Husten und Immunabwehr schienen eingeatmete Keime so effizient zu entfernen, dass die unteren Atemwege im Normalzustand als steril betrachtet wurden.
 
 Klassische Kulturen stützten dieses Bild. Proben aus gesunden Lungen lieferten oft kein Wachstum, und wenn doch Bakterien gefunden wurden, konnten sie leicht als Verunreinigung aus Mund oder oberen Atemwegen interpretiert werden.
 
 Mit kulturunabhängigen Sequenzierverfahren änderte sich die Nachweisgrenze. Forschende fanden wiederkehrende bakterielle DNA-Signaturen in den unteren Atemwegen gesunder Menschen. Kontrollierte Probenentnahmen und verbesserte Methoden zeigten, dass dort tatsächlich mikrobielle Gemeinschaften mit sehr geringer Biomasse existieren.
 
-Das Lungenmikrobiom funktioniert anders als das dicht besiedelte Darmmikrobiom. Viele Organismen gelangen wahrscheinlich durch Einatmen oder **Mikroaspiration** hinein und werden anschließend durch Schleimtransport, Immunabwehr und andere Reinigungsmechanismen wieder entfernt. Zusammensetzung und Dichte ergeben sich daher aus einem Gleichgewicht von Eintrag, Entfernung und lokalem Wachstum.
+Das Lungenmikrobiom funktioniert anders als das dicht besiedelte Darmmikrobiom. Viele Organismen gelangen wahrscheinlich durch Einatmen oder Mikroaspiration hinein und werden anschließend durch Schleimtransport, Immunabwehr und andere Reinigungsmechanismen wieder entfernt. Zusammensetzung und Dichte ergeben sich daher aus einem Gleichgewicht von Eintrag, Entfernung und lokalem Wachstum.
 
 Der Nachweis mikrobieller DNA bedeutet weder automatisch aktive Infektion noch dauerhafte Besiedlung durch jeden gefundenen Organismus. Korrigiert wurde die absolute Behauptung steriler gesunder Lungen.

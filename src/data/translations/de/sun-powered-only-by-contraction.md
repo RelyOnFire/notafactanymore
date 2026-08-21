@@ -16,7 +16,7 @@ sourceNotes:
 
 Nachdem gewöhnliche chemische Verbrennung als Energiequelle der Sonne unzureichend geworden war, bot die Gravitation eine deutlich stärkere Alternative.
 
-Hermann von Helmholtz und Lord Kelvin zeigten, dass eine langsam schrumpfende Sonne **Gravitationsenergie** in Wärme umwandeln könnte. Das Modell war physikalisch solide und erklärte, wie ein selbstgravitierender Gasball große Energiemengen freisetzen kann.
+Hermann von Helmholtz und Lord Kelvin zeigten, dass eine langsam schrumpfende Sonne Gravitationsenergie in Wärme umwandeln könnte. Das Modell war physikalisch solide und erklärte, wie ein selbstgravitierender Gasball große Energiemengen freisetzen kann.
 
 Sein Problem war die Zeit. Die berechnete Kelvin-Helmholtz-Zeitskala lag nur bei einigen zehn Millionen Jahren.
 
@@ -24,6 +24,6 @@ Geologische Schichten, Fossilien und später radiometrische Datierungen zeigten 
 
 Mit der Entdeckung der Kernfusion kam die fehlende Energiequelle. Wasserstofffusion im Sonnenkern liefert heute den überwiegenden Teil der Leuchtkraft.
 
-Das macht das ältere Modell nicht nutzlos. Gravitative Kontraktion ist für **Protosterne und junge Sterne** tatsächlich entscheidend und heizt sie auf, bevor stabile Wasserstofffusion beginnt.
+Das macht das ältere Modell nicht nutzlos. Gravitative Kontraktion ist für Protosterne und junge Sterne tatsächlich entscheidend und heizt sie auf, bevor stabile Wasserstofffusion beginnt.
 
 Korrigiert wurde also das Wort „ausschließlich“: Kontraktion ist ein realer Teil der Sternentwicklung, aber nicht die langfristige Hauptenergiequelle der reifen Sonne.

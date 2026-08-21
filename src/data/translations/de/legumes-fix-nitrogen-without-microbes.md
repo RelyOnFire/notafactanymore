@@ -18,7 +18,7 @@ Schon lange vor der modernen Mikrobiologie wussten Landwirte, dass Erbsen, Bohne
 
 Das eigentliche Rätsel war der Luftstickstoff. Molekularer Stickstoff ist in der Atmosphäre reichlich vorhanden, für die meisten Pflanzen aber nicht direkt nutzbar. In den 1880er-Jahren zeigten Hermann Hellriegel und Hermann Wilfarth, dass Leguminosen ihren besonderen Stickstoffvorteil nur unter Bedingungen entwickeln, in denen sich die charakteristischen Wurzelknöllchen bilden. Steril kultivierte Pflanzen ohne den passenden biologischen Partner verloren diesen Vorteil.
 
-Kurz darauf ließen sich Bakterien aus den Knöllchen isolieren. Damit entstand das heute vertraute Bild einer **Symbiose**: Rhizobien besiedeln die Wurzeln und leben in spezialisierten Knöllchen, wo ihr Enzymapparat atmosphärischen Stickstoff in für die Pflanze nutzbare Verbindungen überführt. Die Pflanze liefert im Gegenzug Kohlenhydrate und eine kontrollierte, geschützte Umgebung.
+Kurz darauf ließen sich Bakterien aus den Knöllchen isolieren. Damit entstand das heute vertraute Bild einer Symbiose: Rhizobien besiedeln die Wurzeln und leben in spezialisierten Knöllchen, wo ihr Enzymapparat atmosphärischen Stickstoff in für die Pflanze nutzbare Verbindungen überführt. Die Pflanze liefert im Gegenzug Kohlenhydrate und eine kontrollierte, geschützte Umgebung.
 
 Diese Arbeitsteilung erklärt, warum Leguminosen landwirtschaftliche Systeme mit Stickstoff anreichern können, während benachbarte Nicht-Leguminosen Luftstickstoff gewöhnlich nicht selbst fixieren.
 

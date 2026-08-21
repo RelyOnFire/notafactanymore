@@ -32,12 +32,12 @@ sources:
 
 Rutherford's nuclear atom created a bookkeeping problem. Nuclear charge was determined by the number of positive charges, yet many nuclei had masses much larger than their charge alone suggested.
 
-Before any neutral nuclear particle was known, one plausible solution was to place extra protons in the nucleus and cancel some of their positive charge with **nuclear electrons**. The same electrons seemed to offer a ready explanation for beta radiation.
+Before any neutral nuclear particle was known, one plausible solution was to place extra protons in the nucleus and cancel some of their positive charge with nuclear electrons. The same electrons seemed to offer a ready explanation for beta radiation.
 
 The model became increasingly strained as quantum mechanics developed. Confined electrons would have required implausible energies and did not fit observed nuclear spins and statistics cleanly.
 
 James Chadwick's discovery of the neutron in 1932 supplied the missing constituent: a neutral particle with nearly the proton's mass. Nuclei could now be built from protons and neutrons without storing ordinary electrons inside them.
 
-Beta decay still emits electrons, but modern weak-interaction theory explains those electrons as **created during the decay process**, not released from a pre-existing nuclear stockpile.
+Beta decay still emits electrons, but modern weak-interaction theory explains those electrons as created during the decay process, not released from a pre-existing nuclear stockpile.
 
 The old model was a serious inference from the particles then known. The neutron made a much more coherent nucleus possible.

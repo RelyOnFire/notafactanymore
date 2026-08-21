@@ -20,6 +20,6 @@ Mit jedem neuen Fund wurde es schwieriger, die Geschichte in einer einzigen Lini
 
 Kladistische Methoden formalisierten diesen Wandel, indem sie Verwandtschaft als verzweigte Stammbäume statt als Rangfolge des Fortschritts modellierten. Genetische Daten machten das Bild noch komplexer: Spätere Menschenpopulationen kreuzten sich teilweise miteinander, sodass zwischen einzelnen Ästen auch Genfluss stattfand und nicht nur saubere Ablösung.
 
-Das heutige Bild ähnelt daher eher einem **buschigen Stammbaum** als einem Marsch zwangsläufiger Verbesserung hin zu uns.
+Das heutige Bild ähnelt daher eher einem buschigen Stammbaum als einem Marsch zwangsläufiger Verbesserung hin zu uns.
 
 Das bedeutet nicht, dass jede Abstammungsbeziehung unbekannt wäre oder nie eine Art aus einer anderen hervorging. Überholt ist die einzelne, geradlinige Leiter: Mehrere Homininenformen existierten nebeneinander, viele waren Seitenlinien, und die menschliche Evolution folgte keiner vorbestimmten Abfolge von Arten.

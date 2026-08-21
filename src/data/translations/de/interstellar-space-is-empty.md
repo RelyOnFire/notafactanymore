@@ -16,10 +16,10 @@ sourceNotes:
 
 Die Dunkelheit zwischen den Sternen legte die Vorstellung echter Leere nahe. Materie wäre dort im Vergleich zu irdischen Gasen extrem dünn verteilt, und vor empfindlicher Spektroskopie gab es kaum eine direkte Möglichkeit, sie nachzuweisen.
 
-1904 untersuchte Johannes Hartmann das Spektrum eines Doppelsternsystems, dessen eigene Spektrallinien sich durch die Umlaufbewegung periodisch verschoben. Einige schmale Kalzium-Absorptionslinien bewegten sich jedoch **nicht** mit dem Stern. Die einfachste Erklärung war, dass das absorbierende Material irgendwo zwischen dem Sternsystem und der Erde lag.
+1904 untersuchte Johannes Hartmann das Spektrum eines Doppelsternsystems, dessen eigene Spektrallinien sich durch die Umlaufbewegung periodisch verschoben. Einige schmale Kalzium-Absorptionslinien bewegten sich jedoch nicht mit dem Stern. Die einfachste Erklärung war, dass das absorbierende Material irgendwo zwischen dem Sternsystem und der Erde lag.
 
 Weitere spektroskopische Beobachtungen zeigten interstellares Gas und Staub entlang vieler Sichtlinien. Später wies die Radioastronomie kalten atomaren Wasserstoff und Molekülwolken nach, die im sichtbaren Licht nahezu unsichtbar sind. Andere Verfahren kartierten ionisiertes Gas, kosmische Strahlung und Magnetfelder.
 
 Das interstellare Medium erwies sich als zentraler Bestandteil der Entwicklung von Galaxien. Sterne entstehen aus seinen dichteren Wolken, geben durch Winde und Explosionen Material zurück und reichern damit das Gas an, aus dem spätere Sterne und Planeten hervorgehen.
 
-Nach Laborstandards ist interstellarer Raum weiterhin ein außergewöhnlich gutes Vakuum. Die Korrektur liegt im Unterschied zwischen **fast leer** und **enthält nichts**: Selbst wenige Teilchen pro Kubikzentimeter werden über Entfernungen von Lichtjahren astrophysikalisch bedeutsam.
+Nach Laborstandards ist interstellarer Raum weiterhin ein außergewöhnlich gutes Vakuum. Die Korrektur liegt im Unterschied zwischen fast leer und enthält nichts: Selbst wenige Teilchen pro Kubikzentimeter werden über Entfernungen von Lichtjahren astrophysikalisch bedeutsam.

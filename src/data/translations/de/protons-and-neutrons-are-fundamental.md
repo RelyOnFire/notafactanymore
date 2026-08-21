@@ -14,7 +14,7 @@ sourceNotes:
 - Identifiziert Quarks als elementare Bestandteile und Protonen und Neutronen als zusammengesetzte Hadronen.
 ---
 
-Nach der Entdeckung des Neutrons 1932 ließ sich der Atomkern einfacher beschreiben. Kerne konnten aus Protonen und Neutronen aufgebaut werden; gemeinsam nennt man beide Nukleonen.
+Nach der Entdeckung des Neutrons 1932 ließ sich der Atomkern einfacher beschreiben. Kerne konnten aus Protonen und Neutronen aufgebaut werden; gemeinsam nennt man beide [Nukleonen](glossary:nucleon).
 
 Eine Zeit lang war es plausibel, diese Nukleonen als elementare Teilchen ohne kleinere Bestandteile zu behandeln.
 
@@ -24,9 +24,9 @@ Das Grundprinzip ähnelt einem Echo, mit dem man etwas über ein Objekt lernt, d
 
 Wäre ein Proton ein glattes punktförmiges Teilchen, müsste die Streuung einem bestimmten Muster folgen. Bei hohen Energien verhielten sich die Elektronen jedoch so, als würden sie auf wesentlich kleinere geladene Bestandteile im Proton treffen.
 
-Diese Versuche wurden als tiefinelastische Streuung bekannt und lieferten starke Belege für innere Komponenten. Die kleineren Bestandteile wurden mit Quarks identifiziert.
+Diese Versuche wurden als [tiefinelastische Streuung](glossary:deep-inelastic-scattering) bekannt und lieferten starke Belege für innere Komponenten. Die kleineren Bestandteile wurden mit Quarks identifiziert.
 
-Die moderne Quantenchromodynamik beschreibt Quarks als durch Gluonen gebunden, die Träger der starken Wechselwirkung.
+Die moderne [Quantenchromodynamik](glossary:quantum-chromodynamics) beschreibt Quarks als durch Gluonen gebunden, die Träger der starken Wechselwirkung.
 
 Ein Proton besteht nicht einfach aus drei winzigen harten Kugeln, die unbeweglich in einer Hülle sitzen. Sein Inneres ist ein hochdynamisches Quantensystem mit Gluonfeldern und kurzzeitig entstehenden Quark-Antiquark-Paaren. Ein großer Teil der Protonenmasse stammt aus der Energie dieser starken Wechselwirkung.
 

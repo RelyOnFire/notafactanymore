@@ -30,7 +30,7 @@ sources:
     note: "Identifies quarks as elementary constituents and protons and neutrons as composite hadrons."
 ---
 
-After the neutron was discovered in 1932, the atomic nucleus became easier to describe. Nuclei could be built from protons and neutrons, collectively called nucleons.
+After the neutron was discovered in 1932, the atomic nucleus became easier to describe. Nuclei could be built from protons and neutrons, collectively called [nucleons](glossary:nucleon).
 
 For a time, it was reasonable to treat those nucleons as elementary particles with no smaller components.
 
@@ -40,9 +40,9 @@ The basic idea is similar to using an echo to learn about an object you cannot s
 
 If a proton were a smooth point-like particle, the scattering should follow one pattern. Instead, at high energies the electrons behaved as though they were striking much smaller charged objects inside the proton.
 
-These experiments became known as deep-inelastic scattering and supplied strong evidence for internal constituents. The smaller objects were identified with quarks.
+These experiments became known as [deep-inelastic scattering](glossary:deep-inelastic-scattering) and supplied strong evidence for internal constituents. The smaller objects were identified with quarks.
 
-Modern quantum chromodynamics describes quarks as bound together by gluons, the carriers of the strong interaction.
+Modern [quantum chromodynamics](glossary:quantum-chromodynamics) describes quarks as bound together by gluons, the carriers of the strong interaction.
 
 A proton is not simply three tiny hard balls sitting motionless inside a shell. Its interior is a highly dynamic quantum system containing gluon fields and temporary quark-antiquark pairs. Much of the proton's mass comes from the energy of those strong-interaction fields and motions.
 

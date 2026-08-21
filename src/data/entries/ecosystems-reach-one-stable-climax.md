@@ -1,7 +1,7 @@
 ---
 claim: "Ecological succession naturally ends in one permanent and stable climax community."
-currentUnderstanding: "Succession can follow multiple pathways and may produce different long-lasting states. Disturbance, climate, species arrival, historical contingency, feedbacks, and human activity can prevent or redirect any single endpoint."
-whyItChanged: "Frederic Clements's influential succession theory treated vegetation development as an orderly process culminating in a climate-determined climax. Field studies and later ecological theory demonstrated persistent disturbance, individualistic species responses, alternative stable states, and multiple possible trajectories."
+currentUnderstanding: "[Succession](glossary:ecological-succession) can follow multiple pathways and may produce different long-lasting states. Disturbance, climate, species arrival, historical contingency, feedbacks, and human activity can prevent or redirect any single endpoint."
+whyItChanged: "Frederic Clements's influential succession theory treated vegetation development as an orderly process culminating in a climate-determined [climax](glossary:climax-community). Field studies and later ecological theory demonstrated persistent disturbance, individualistic species responses, alternative stable states, and multiple possible trajectories."
 status: "Superseded"
 category: "Ecology"
 acceptedApproximately: "Early–mid-20th century"

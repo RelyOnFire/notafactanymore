@@ -1,7 +1,7 @@
 ---
 claim: "Neutrinos are massless."
-currentUnderstanding: "Neutrinos have a tiny but nonzero mass. They come in different types, called flavors, and can change from one flavor into another while traveling. That oscillation can occur only if the underlying neutrino states do not all have the same mass."
-whyItChanged: "Detectors had long found fewer solar and atmospheric neutrinos of particular flavors than expected. Super-Kamiokande showed in 1998 that atmospheric neutrinos changed flavor depending on how far they traveled, and the Sudbury Neutrino Observatory later showed that missing solar electron neutrinos were arriving as other flavors."
+currentUnderstanding: "Neutrinos have a tiny but nonzero mass. They come in different types, called [flavors](glossary:neutrino-flavor), and can change from one flavor into another while traveling. That oscillation can occur only if the underlying neutrino states do not all have the same mass."
+whyItChanged: "Detectors had long found fewer solar and atmospheric neutrinos of particular flavors than expected. [Super-Kamiokande](glossary:super-kamiokande) showed in 1998 that atmospheric neutrinos changed flavor depending on how far they traveled, and the Sudbury Neutrino Observatory later showed that missing solar electron neutrinos were arriving as other flavors."
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "Mid-20th century–1990s"
@@ -37,7 +37,7 @@ One explanation was that the neutrinos were not disappearing at all. They were c
 
 Super-Kamiokande provided decisive evidence in 1998. Atmospheric muon neutrinos were depleted in a way that depended on the distance they had traveled through Earth. The Sudbury Neutrino Observatory later showed that the Sun was producing the expected total number of neutrinos, but many electron neutrinos had arrived as other flavors.
 
-This behavior is called neutrino oscillation. In quantum mechanics, flavor states are mixtures of underlying mass states. For the flavor mixture to change as the particles travel, those mass states must have different masses.
+This behavior is called [neutrino oscillation](glossary:neutrino-oscillation). In quantum mechanics, flavor states are mixtures of underlying mass states. For the flavor mixture to change as the particles travel, those mass states must have different masses.
 
 The experiments therefore show that at least some neutrino masses are nonzero.
 

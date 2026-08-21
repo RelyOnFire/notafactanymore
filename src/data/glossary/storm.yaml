@@ -1,0 +1,18 @@
+term: STORM
+aliases:
+- stochastic optical reconstruction microscopy
+shortDefinition: A single-molecule super-resolution method that reconstructs an image from many precisely localized fluorescent
+  emitters switched on in sparse subsets.
+longDefinition: Stochastic optical reconstruction microscopy, or STORM, separates nearby fluorescent emitters in time
+  by switching only sparse subsets into an emitting state. Each isolated spot can be localized much more precisely than
+  its diffraction-blurred width. Accumulating many localization events produces a high-resolution reconstruction.
+relatedTerms:
+- super-resolution-microscopy
+- palm
+- diffraction-limit
+reviewedAt: '2026-08-21'
+sources:
+- title: The Nobel Prize in Chemistry 2014 – Popular information
+  url: https://www.nobelprize.org/prizes/chemistry/2014/popular-information/
+  publisher: The Nobel Prize
+  note: Describes the single-molecule localization principle used by methods including STORM.

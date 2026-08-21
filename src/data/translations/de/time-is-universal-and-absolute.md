@@ -3,7 +3,7 @@ locale: de
 entryId: time-is-universal-and-absolute
 sourceReviewedAt: '2026-08-20'
 claim: Zeit vergeht überall gleich, und alle Beobachter können sich auf eine einzige universelle Gegenwart einigen.
-currentUnderstanding: Die verstrichene Zeit hängt von relativer Bewegung und den Gravitationsbedingungen ab. Beobachter können bei Dauer und Gleichzeitigkeit von Ereignissen zu unterschiedlichen Ergebnissen kommen und dennoch jeweils in sich konsistente Messungen erhalten.
+currentUnderstanding: Die verstrichene Zeit hängt von relativer Bewegung und den Gravitationsbedingungen ab. Beobachter können bei Dauer und [Gleichzeitigkeit](glossary:simultaneity) von Ereignissen zu unterschiedlichen Ergebnissen kommen und dennoch jeweils in sich konsistente Messungen erhalten.
 whyItChanged: Einsteins spezielle Relativitätstheorie brachte die beobachtete Invarianz der Lichtgeschwindigkeit mit dem Relativitätsprinzip in Einklang, indem sie die Begriffe Zeit und Gleichzeitigkeit neu fasste. Die allgemeine Relativitätstheorie zeigte später, dass auch Gravitation die Gangrate von Uhren beeinflusst.
 acceptedApproximately: 17. Jahrhundert bis frühes 20. Jahrhundert
 changedApproximately: 1905 bis 1915
@@ -18,7 +18,7 @@ In der newtonschen Physik war Zeit ein universeller Hintergrund. Uhren konnten f
 
 Einsteins spezielle Relativitätstheorie von 1905 änderte diesen Rahmen. Wenn die Lichtgeschwindigkeit für alle Inertialbeobachter gleich sein soll, können Raum und Zeit nicht gleichzeitig absolut bleiben.
 
-Die Folge ist Zeitdilatation: Zwei relativ zueinander bewegte Beobachter können Uhren vergleichen und unterschiedliche verstrichene Zeiten zwischen Ereignissen messen. Auch darüber, ob zwei weit voneinander entfernte Ereignisse gleichzeitig stattfanden, können sie zu unterschiedlichen Ergebnissen kommen. Diese Relativität der Gleichzeitigkeit ist kein Uhrenfehler; jede Messung ist innerhalb des jeweiligen Bezugssystems konsistent.
+Die Folge ist Zeitdilatation: Zwei relativ zueinander bewegte Beobachter können Uhren vergleichen und unterschiedliche verstrichene Zeiten zwischen Ereignissen messen. Auch darüber, ob zwei weit voneinander entfernte Ereignisse gleichzeitig stattfanden, können sie zu unterschiedlichen Ergebnissen kommen. Diese Relativität der Gleichzeitigkeit ist kein Uhrenfehler; jede Messung ist innerhalb des jeweiligen [Bezugssystems](glossary:reference-frame) konsistent.
 
 Die allgemeine Relativitätstheorie erweiterte das Bild. Auch Gravitation beeinflusst die Gangrate von Uhren; Uhren in unterschiedlich starken Gravitationsfeldern sammeln unterschiedliche Eigenzeiten.
 

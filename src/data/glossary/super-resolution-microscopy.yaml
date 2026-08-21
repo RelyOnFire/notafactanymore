@@ -1,0 +1,21 @@
+term: Super-resolution microscopy
+aliases:
+- super-resolution
+- super-resolved fluorescence microscopy
+shortDefinition: Optical microscopy methods that recover spatial information finer than the conventional diffraction-limited
+  resolution.
+longDefinition: Super-resolution microscopy is a family of techniques that surpass the conventional diffraction-limited
+  resolution of light microscopy by controlling fluorescence or combining information across many measurements. Major
+  approaches include STED, which spatially suppresses fluorescence, and single-molecule localization methods such as
+  PALM and STORM.
+relatedTerms:
+- diffraction-limit
+- sted
+- palm
+- storm
+reviewedAt: '2026-08-21'
+sources:
+- title: 'Press release: The Nobel Prize in Chemistry 2014'
+  url: https://www.nobelprize.org/prizes/chemistry/2014/press-release/
+  publisher: The Nobel Prize
+  note: Recognizes super-resolved fluorescence microscopy for extending optical imaging into the nanometre scale.

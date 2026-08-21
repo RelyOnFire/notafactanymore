@@ -3,7 +3,7 @@ locale: de
 entryId: same-formula-means-same-compound
 sourceReviewedAt: "2026-08-06"
 claim: "Zwei Stoffe mit derselben Summenformel müssen dieselbe Verbindung sein."
-currentUnderstanding: "Verschiedene Verbindungen können dieselbe Summenformel besitzen, sich aber in der Verknüpfung ihrer Atome oder ihrer dreidimensionalen Anordnung unterscheiden. Solche Isomere können sehr unterschiedliche physikalische, chemische und biologische Eigenschaften haben."
+currentUnderstanding: "Verschiedene Verbindungen können dieselbe Summenformel besitzen, sich aber in der Verknüpfung ihrer Atome oder ihrer dreidimensionalen Anordnung unterscheiden. Solche [Isomere](glossary:isomer) können sehr unterschiedliche physikalische, chemische und biologische Eigenschaften haben."
 whyItChanged: "Die Analyse der Zusammensetzung begünstigte zunächst die Vorstellung, eine Verbindung lasse sich durch die Mengenverhältnisse ihrer Elemente eindeutig bestimmen. Entdeckungen wie Silbercyanat und Silberfulminat zeigten dieselbe Zusammensetzung bei stark unterschiedlichen Eigenschaften und führten Berzelius zur Einführung des Konzepts der Isomerie."
 acceptedApproximately: "Spätes 18. Jahrhundert bis 1820er-Jahre"
 changedApproximately: "1820er- bis 1830er-Jahre"

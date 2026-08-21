@@ -1,7 +1,7 @@
 ---
 claim: Most major rocks, including granite and many volcanic rocks, precipitated from a primordial ocean that once covered Earth.
-currentUnderstanding: "Rocks form in several fundamentally different ways. Igneous rocks such as basalt and granite crystallize from molten rock; sedimentary rocks form from deposited material or substances precipitated from water; and metamorphic rocks form when older rocks are transformed by heat, pressure, or fluids."
-whyItChanged: "Neptunism proposed that nearly all major rocks had precipitated from a primordial ocean. Field geologists increasingly found features that did not fit: basalt occurred as lava flows, granite cut through older rocks, and surrounding rock showed signs of intense heating. These observations pointed to molten origins for many rocks."
+currentUnderstanding: "Rocks form in several fundamentally different ways. [Igneous rocks](glossary:igneous-rock) such as basalt and granite crystallize from molten rock; [sedimentary rocks](glossary:sedimentary-rock) form from deposited material or substances precipitated from water; and [metamorphic rocks](glossary:metamorphic-rock) form when older rocks are transformed by heat, pressure, or fluids."
+whyItChanged: "[Neptunism](glossary:neptunism) proposed that nearly all major rocks had precipitated from a primordial ocean. Field geologists increasingly found features that did not fit: basalt occurred as lava flows, granite cut through older rocks, and surrounding rock showed signs of intense heating. These observations pointed to molten origins for many rocks."
 status: Overturned
 category: Earth Science
 acceptedApproximately: Late 18th-century Neptunist geology

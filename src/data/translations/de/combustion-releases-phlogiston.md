@@ -4,7 +4,7 @@ entryId: combustion-releases-phlogiston
 sourceReviewedAt: "2026-08-20"
 claim: Brennende Stoffe setzen ein feuerartiges Material namens Phlogiston frei.
 currentUnderstanding: Verbrennung umfasst chemische Oxidationsreaktionen. Bei gewöhnlichem Brennen reagiert ein Brennstoff mit Sauerstoff, bildet neue Produkte und setzt dabei Energie frei.
-whyItChanged: Sorgfältiges Wiegen zeigte, dass viele Stoffe beim Verbrennen Masse gewinnen, statt ein Material zu verlieren. Lavoisiers Experimente klärten die Rolle des Sauerstoffs und ersetzten Phlogiston durch eine quantitative chemische Erklärung.
+whyItChanged: Sorgfältiges Wiegen zeigte, dass viele Stoffe beim Verbrennen Masse gewinnen, statt ein Material zu verlieren. Lavoisiers Experimente klärten die Rolle des Sauerstoffs und ersetzten [Phlogiston](glossary:phlogiston) durch eine quantitative chemische Erklärung.
 acceptedApproximately: Spätes 17. bis spätes 18. Jahrhundert
 changedApproximately: 1770er- bis 1790er-Jahre
 summary: Die dominierende Phlogistontheorie der Verbrennung wurde durch eine sauerstoffbasierte, massenerhaltende Erklärung ersetzt.

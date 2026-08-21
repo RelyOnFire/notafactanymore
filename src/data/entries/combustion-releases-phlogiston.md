@@ -1,7 +1,7 @@
 ---
 claim: "Burning substances release a fire-like material called phlogiston."
 currentUnderstanding: "Combustion is a set of chemical oxidation reactions. In ordinary burning, a fuel reacts with oxygen and forms new products while releasing energy."
-whyItChanged: "Careful weighing showed that many substances gain mass when burned rather than losing a material. Lavoisier's experiments identified oxygen's role in combustion and replaced phlogiston with a quantitative chemical account."
+whyItChanged: "Careful weighing showed that many substances gain mass when burned rather than losing a material. Lavoisier's experiments identified oxygen's role in combustion and replaced [phlogiston](glossary:phlogiston) with a quantitative chemical account."
 status: "Superseded"
 category: "Chemistry"
 acceptedApproximately: "Late 17th through the late 18th century"

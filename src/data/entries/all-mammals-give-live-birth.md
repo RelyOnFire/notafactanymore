@@ -35,6 +35,6 @@ sources:
 
 When the first platypus skins reached European naturalists around the turn of the 19th century, the animal seemed almost assembled from incompatible parts. Its bill, fur, webbed feet, and unusual anatomy were strange enough that some initially suspected a hoax. As genuine specimens accumulated, a harder problem remained: what kind of animal was it?
 
-Platypuses and echidnas had unmistakably mammalian features, including hair and milk production, yet reports that they laid eggs sat awkwardly with the familiar association between mammals and live birth. For decades zoologists argued over monotreme reproduction, complicated by the difficulty of observing the animals directly and by fragmentary specimens sent from Australia.
+Platypuses and echidnas had unmistakably mammalian features, including hair and milk production, yet reports that they laid eggs sat awkwardly with the familiar association between mammals and live birth. For decades zoologists argued over [monotreme](glossary:monotreme) reproduction, complicated by the difficulty of observing the animals directly and by fragmentary specimens sent from Australia.
 
 The dispute finally yielded to direct evidence. In 1884, observations and collected material confirmed egg laying in monotremes. Mammalia therefore could not be defined by live birth alone. Platypuses and echidnas retained an ancestral reproductive mode while sharing the derived traits and evolutionary ancestry that place them firmly among mammals.

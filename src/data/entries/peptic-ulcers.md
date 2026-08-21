@@ -1,6 +1,6 @@
 ---
 claim: "Peptic ulcers are primarily caused by stress and lifestyle."
-currentUnderstanding: "Most peptic ulcers are caused either by infection with *Helicobacter pylori*, a bacterium that can live in the stomach, or by nonsteroidal anti-inflammatory drugs (NSAIDs), a common class of pain-relief medicines that can damage the stomach and duodenal lining."
+currentUnderstanding: "Most peptic ulcers are caused either by infection with [*Helicobacter pylori*](glossary:helicobacter-pylori), a bacterium that can live in the stomach, or by [nonsteroidal anti-inflammatory drugs (NSAIDs)](glossary:nsaid), a common class of pain-relief medicines that can damage the stomach and duodenal lining."
 whyItChanged: "Robin Warren and Barry Marshall found *H. pylori* living in inflamed stomach tissue and showed that the infection was closely tied to gastritis and ulcer disease. Treating the infection with antibiotics sharply reduced ulcer recurrence, while NSAIDs emerged as another major cause."
 status: "Superseded"
 category: "Medicine"

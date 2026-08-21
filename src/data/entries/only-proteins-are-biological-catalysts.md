@@ -1,6 +1,6 @@
 ---
 claim: "Only proteins can act as enzymes or biological catalysts."
-currentUnderstanding: "Proteins are not the only molecules that can act as biological catalysts. Some RNA molecules can also speed up chemical reactions; these catalytic RNAs are called ribozymes."
+currentUnderstanding: "Proteins are not the only molecules that can act as biological [catalysts](glossary:catalyst). Some RNA molecules can also speed up chemical reactions; these catalytic RNAs are called [ribozymes](glossary:ribozyme)."
 whyItChanged: "Enzymes were so strongly associated with proteins that catalytic activity was often treated as a protein-only property. In the early 1980s, Thomas Cech found an RNA molecule that could catalyze its own splicing, while Sidney Altman's work showed that RNA in RNase P could catalyze RNA processing."
 status: "Overturned"
 category: "Biochemistry"

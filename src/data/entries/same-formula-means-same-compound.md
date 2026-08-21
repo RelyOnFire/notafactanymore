@@ -1,6 +1,6 @@
 ---
 claim: "Two substances with the same molecular formula must be the same compound."
-currentUnderstanding: "Different compounds can share a molecular formula while differing in atom connectivity or three-dimensional arrangement. These isomers can have very different physical, chemical, and biological properties."
+currentUnderstanding: "Different compounds can share a molecular formula while differing in atom connectivity or three-dimensional arrangement. These [isomers](glossary:isomer) can have very different physical, chemical, and biological properties."
 whyItChanged: "Composition analysis initially encouraged chemists to identify a compound by the proportions of its elements. Discoveries such as silver cyanate and silver fulminate showed identical composition but sharply different properties, leading Berzelius to introduce the concept of isomerism."
 status: "Overturned"
 category: "Chemistry"

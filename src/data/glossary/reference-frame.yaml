@@ -1,0 +1,18 @@
+term: Reference frame
+aliases:
+- reference frames
+- frame of reference
+- inertial frame
+shortDefinition: A coordinate system and set of clocks used by an observer to assign positions and times to events.
+longDefinition: A reference frame provides the spatial coordinates and clock readings used to describe physical events.
+  In special relativity, inertial frames move at constant velocity relative to one another and are related by Lorentz
+  transformations. Different frames can assign different times, lengths, and simultaneity relations while agreeing on
+  frame-independent physical laws and invariant quantities.
+relatedTerms:
+- simultaneity
+reviewedAt: '2026-08-21'
+sources:
+- title: Einstein's Discovery of Relativity
+  url: https://history.aip.org/exhibits/einstein/essay-einstein-relativity.htm
+  publisher: American Institute of Physics
+  note: Explains the role of observers and reference systems in special relativity.

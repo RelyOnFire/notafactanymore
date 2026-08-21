@@ -1,0 +1,18 @@
+term: STED
+aliases:
+- stimulated emission depletion microscopy
+shortDefinition: A super-resolution method that uses stimulated emission to suppress fluorescence around a small central
+  region, shrinking the effective area that can emit light.
+longDefinition: Stimulated emission depletion microscopy, or STED, excites fluorescent molecules and then applies a second,
+  typically doughnut-shaped beam that forces molecules around the edge back to the non-emitting state. Only a much smaller
+  central region remains fluorescent. Scanning that reduced emitting region across the sample produces resolution finer
+  than conventional diffraction-limited imaging.
+relatedTerms:
+- super-resolution-microscopy
+- diffraction-limit
+reviewedAt: '2026-08-21'
+sources:
+- title: Breaking the diffraction resolution limit by stimulated emission
+  url: https://opg.optica.org/ol/abstract.cfm?uri=ol-19-11-780
+  publisher: Optics Letters
+  note: Hell and Wichmann proposed the principle underlying STED microscopy.

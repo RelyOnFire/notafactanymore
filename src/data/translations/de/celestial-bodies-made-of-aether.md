@@ -14,7 +14,7 @@ sourceNotes:
 - "Zeigt, wie Sternspektren vertraute chemische Elemente in Sternen nachweisen."
 ---
 
-Äther war nicht nur ein geheimnisvoller zusätzlicher Stoff. Er löste ein grundlegendes Problem der aristotelischen Physik.
+[Äther](glossary:aether) war nicht nur ein geheimnisvoller zusätzlicher Stoff. Er löste ein grundlegendes Problem der aristotelischen Physik.
 
 Irdische Materie bestand aus Erde, Wasser, Luft und Feuer. Diese Elemente hatten natürliche Orte, konnten sich ineinander umwandeln und gehörten zu einer Welt von Entstehung und Zerfall. Der Himmel dagegen schien sich endlos in vollkommenen Kreisen zu bewegen, ohne sich abzunutzen. Aristoteles ordnete ihm deshalb eine andere Materie zu: den Äther, dessen natürliche Bewegung die ewige Kreisbewegung war.
 

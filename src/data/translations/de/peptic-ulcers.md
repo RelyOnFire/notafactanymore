@@ -3,7 +3,7 @@ locale: de
 entryId: peptic-ulcers
 sourceReviewedAt: '2026-08-20'
 claim: Peptische Geschwüre werden hauptsächlich durch Stress und Lebensstil verursacht.
-currentUnderstanding: "Die meisten peptischen Geschwüre entstehen entweder durch eine Infektion mit *Helicobacter pylori*, einem Bakterium, das im Magen leben kann, oder durch nichtsteroidale Antirheumatika (NSAR), eine häufig verwendete Gruppe schmerz- und entzündungshemmender Medikamente, die die Magen- und Zwölffingerdarmschleimhaut schädigen können."
+currentUnderstanding: "Die meisten peptischen Geschwüre entstehen entweder durch eine Infektion mit [*Helicobacter pylori*](glossary:helicobacter-pylori), einem Bakterium, das im Magen leben kann, oder durch [nichtsteroidale Antirheumatika (NSAR)](glossary:nsaid), eine häufig verwendete Gruppe schmerz- und entzündungshemmender Medikamente, die die Magen- und Zwölffingerdarmschleimhaut schädigen können."
 whyItChanged: "Robin Warren und Barry Marshall fanden *H. pylori* in entzündeter Magenschleimhaut und zeigten den engen Zusammenhang mit Gastritis und Ulkuskrankheit. Wurde die Infektion mit Antibiotika beseitigt, gingen Rückfälle stark zurück; zugleich wurden NSAR als zweite wichtige Ursache erkannt."
 acceptedApproximately: Mitte des 20. Jahrhunderts bis in die 1980er-Jahre
 changedApproximately: 1982–1990er-Jahre

@@ -14,11 +14,11 @@ sourceNotes:
 - "Erklärt mittelalterliche Theorien metallischer Prinzipien, die Reinigung und Transmutation begrifflich plausibel machten."
 ---
 
-Der Traum der Alchemie, Gold herzustellen, beruhte auf einer Theorie darüber, wie die Natur selbst Metalle hervorbringt.
+Der Traum der [Alchemie](glossary:alchemy), Gold herzustellen, beruhte auf einer Theorie darüber, wie die Natur selbst Metalle hervorbringt.
 
 In einflussreichen mittelalterlichen und frühneuzeitlichen Traditionen galten Metalle nicht immer als dauerhaft verschiedene elementare Arten. Sie konnten als Stadien oder Ergebnisse eines gemeinsamen unterirdischen Entstehungsprozesses verstanden werden. Gold stellte den vollkommensten, ausgereiftesten oder am besten ausgewogenen metallischen Zustand dar; unedle Metalle galten als fehlerhaft, verunreinigt oder unvollständig „gereift“.
 
-Damit wurde Transmutation intellektuell schlüssig. Ein Alchemist stellte sich nicht unbedingt vor, Gold aus dem Nichts zu erzeugen. Das Labor konnte die geologische Reifung nachahmen und beschleunigen, Zutaten reinigen und jene Proportionen oder Eigenschaften korrigieren, die die Natur nicht vollkommen ausgeprägt hatte.
+Damit wurde [Transmutation](glossary:transmutation) intellektuell schlüssig. Ein Alchemist stellte sich nicht unbedingt vor, Gold aus dem Nichts zu erzeugen. Das Labor konnte die geologische Reifung nachahmen und beschleunigen, Zutaten reinigen und jene Proportionen oder Eigenschaften korrigieren, die die Natur nicht vollkommen ausgeprägt hatte.
 
 Die Theorie war mit echter metallurgischer Erfahrung verknüpft. Erhitzen, Legieren, Zementation, Vergolden, Farbveränderungen und Reinigung können Aussehen und Verhalten von Metallen stark verändern. Antike Vergoldungsverfahren könnten frühe Transmutationsvorstellungen sogar mit angeregt haben.
 

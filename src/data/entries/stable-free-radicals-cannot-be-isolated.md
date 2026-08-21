@@ -1,6 +1,6 @@
 ---
 claim: "Stable organic free radicals cannot be isolated."
-currentUnderstanding: "Some free radicals—atoms or molecules with an unpaired electron—are sufficiently persistent to be prepared, stored, crystallized, and studied. Their stability can result from resonance, steric protection, electronic effects, or delocalization of the unpaired electron across the molecule."
+currentUnderstanding: "Some [free radicals](glossary:free-radical)—atoms or molecules with an unpaired electron—are sufficiently persistent to be prepared, stored, crystallized, and studied. Their stability can result from resonance, steric protection, electronic effects, or delocalization of the unpaired electron across the molecule."
 whyItChanged: "Nineteenth-century chemists repeatedly failed to isolate free carbon radicals and came to regard them as impossible under ordinary conditions. In 1900, Moses Gomberg prepared triphenylmethyl and argued that it contained trivalent carbon, opening free-radical chemistry despite years of skepticism."
 status: "Overturned"
 category: "Chemistry"

@@ -31,11 +31,11 @@ sources:
   note: Explains medieval theories of metallic principles that made purification and transmutation conceptually plausible.
 ---
 
-Alchemy's dream of making gold depended on a theory about how nature itself makes metals.
+[Alchemy](glossary:alchemy)'s dream of making gold depended on a theory about how nature itself makes metals.
 
 In influential medieval and early-modern traditions, metals were not always treated as permanently different elemental species. They could be stages or outcomes of a common underground generative process. Gold represented the most perfect, mature, or well-balanced metallic state; base metals were defective, contaminated, or incompletely “ripened.”
 
-That made transmutation intellectually coherent. An alchemist did not necessarily imagine creating gold from nothing. The laboratory could imitate and accelerate geological maturation, purifying ingredients and correcting the proportions or qualities that nature had failed to perfect.
+That made [transmutation](glossary:transmutation) intellectually coherent. An alchemist did not necessarily imagine creating gold from nothing. The laboratory could imitate and accelerate geological maturation, purifying ingredients and correcting the proportions or qualities that nature had failed to perfect.
 
 The theory was tied to real metallurgical experience. Heating, alloying, cementation, gilding, color changes, and purification can dramatically transform how metals look and behave. Ancient gilding practices may even have helped inspire early transmutation concepts.
 

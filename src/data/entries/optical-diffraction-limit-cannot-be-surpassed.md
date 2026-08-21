@@ -1,7 +1,7 @@
 ---
 claim: "An optical microscope can never resolve detail smaller than the diffraction limit."
-currentUnderstanding: "Ordinary optical microscopes cannot cleanly separate two nearby details once their blurred light patterns overlap below the diffraction limit. Super-resolution microscopy can recover finer information by changing how fluorescent molecules are switched on, measured, and reconstructed rather than by making conventional diffraction disappear."
-whyItChanged: "Abbe's diffraction limit correctly described ordinary imaging, but it was often turned into the stronger claim that no light microscope could ever see finer detail. Methods such as STED, PALM, and STORM changed the imaging conditions by controlling fluorescence or locating individual molecules across many measurements."
+currentUnderstanding: "Ordinary optical microscopes cannot cleanly separate two nearby details once their blurred light patterns overlap below the [diffraction limit](glossary:diffraction-limit). [Super-resolution microscopy](glossary:super-resolution-microscopy) can recover finer information by changing how fluorescent molecules are switched on, measured, and reconstructed rather than by making conventional diffraction disappear."
+whyItChanged: "Abbe's diffraction limit correctly described ordinary imaging, but it was often turned into the stronger claim that no light microscope could ever see finer detail. Methods such as [STED](glossary:sted), [PALM](glossary:palm), and [STORM](glossary:storm) changed the imaging conditions by controlling fluorescence or locating individual molecules across many measurements."
 status: "Narrowed"
 category: "Measurement"
 acceptedApproximately: "1870s–1990s"

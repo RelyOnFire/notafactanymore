@@ -3,8 +3,8 @@ locale: de
 entryId: parity-is-always-conserved
 sourceReviewedAt: '2026-08-20'
 claim: Die Naturgesetze behandeln einen Vorgang und sein Spiegelbild immer identisch.
-currentUnderstanding: "Die schwache Wechselwirkung – die unter anderem am radioaktiven Betazerfall beteiligt ist – behandelt einen Vorgang und sein Spiegelbild nicht immer gleich. Bei schwachen Zerfällen kann die Natur zwischen links und rechts unterscheiden. Elektromagnetische und starke Wechselwirkungen erhalten diese Spiegelsymmetrie dagegen."
-whyItChanged: "Physiker hatten angenommen, dass Spiegelsymmetrie, also Parität, ein allgemeines Naturgesetz sei. 1956 bemerkten Lee und Yang, dass sie bei schwachen Wechselwirkungen noch nie direkt geprüft worden war. Chien-Shiung Wu und ihr Team testeten daraufhin den Betazerfall von Cobalt-60 und fanden eine eindeutige Links-Rechts-Asymmetrie."
+currentUnderstanding: "Die [schwache Wechselwirkung](glossary:weak-interaction) – die unter anderem am radioaktiven Betazerfall beteiligt ist – behandelt einen Vorgang und sein Spiegelbild nicht immer gleich. Bei schwachen Zerfällen kann die Natur zwischen links und rechts unterscheiden. Elektromagnetische und starke Wechselwirkungen erhalten diese Spiegelsymmetrie dagegen."
+whyItChanged: "Physiker hatten angenommen, dass Spiegelsymmetrie, also [Parität](glossary:parity), ein allgemeines Naturgesetz sei. 1956 bemerkten Lee und Yang, dass sie bei schwachen Wechselwirkungen noch nie direkt geprüft worden war. Chien-Shiung Wu und ihr Team testeten daraufhin den Betazerfall von Cobalt-60 und fanden eine eindeutige Links-Rechts-Asymmetrie."
 acceptedApproximately: 1920er-Jahre bis 1956
 changedApproximately: 1956 bis 1957
 summary: "Ein als universell geltendes Gesetz der Spiegelsymmetrie scheiterte beim experimentellen Test des radioaktiven Betazerfalls."

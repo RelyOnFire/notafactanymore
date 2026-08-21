@@ -1,7 +1,7 @@
 ---
 claim: "The laws of physics always treat a process and its mirror image identically."
-currentUnderstanding: "The weak interaction—the force involved in radioactive beta decay—does not always treat a process and its mirror image the same way. In weak decays, nature can distinguish left from right. Electromagnetic and strong interactions still preserve this mirror symmetry."
-whyItChanged: "Physicists had assumed that mirror symmetry, or parity, was a universal law. In 1956, Lee and Yang noticed that it had never been directly tested in weak interactions. Chien-Shiung Wu and colleagues then tested beta decay in cobalt-60 and found a clear left-right asymmetry."
+currentUnderstanding: "The [weak interaction](glossary:weak-interaction)—the force involved in radioactive beta decay—does not always treat a process and its mirror image the same way. In weak decays, nature can distinguish left from right. Electromagnetic and strong interactions still preserve this mirror symmetry."
+whyItChanged: "Physicists had assumed that mirror symmetry, or [parity](glossary:parity), was a universal law. In 1956, Lee and Yang noticed that it had never been directly tested in weak interactions. Chien-Shiung Wu and colleagues then tested beta decay in cobalt-60 and found a clear left-right asymmetry."
 status: "Overturned"
 category: "Physics"
 acceptedApproximately: "1920s–1956"

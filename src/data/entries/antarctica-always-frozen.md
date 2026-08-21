@@ -29,7 +29,7 @@ Modern Antarctica is so dominated by ice that permanence feels intuitive. Its in
 
 Geology preserves a very different history.
 
-Fossil leaves, wood, pollen, roots, soils, and animal remains show that Antarctica supported forests and diverse terrestrial ecosystems during much warmer intervals. Dinosaurs lived there, and later mammals occupied Antarctic environments before extensive glaciation.
+[Fossil leaves, wood, pollen, roots](glossary:fossil-flora), soils, and animal remains show that Antarctica supported forests and diverse terrestrial ecosystems during much [warmer intervals](glossary:paleoclimate). Dinosaurs lived there, and later mammals occupied Antarctic environments before extensive glaciation.
 
 These findings do not require Antarctica to have migrated from the tropics in the recent past. The continent has remained at high southern latitudes for a very long time.
 

@@ -1,7 +1,7 @@
 ---
 claim: "Widespread domestic-horse mobility was a major driver of the Yamnaya expansion into Europe around 3000 BCE."
-currentUnderstanding: "The Yamnaya were mobile pastoralist communities of the Pontic-Caspian steppe whose ancestry spread widely into Europe around 3000 BCE. Ancient horse genomes place the rapid spread of the lineage that dominates modern domestic horses around 2200 BCE, several centuries later, so large domestic-horse herds cannot explain the earlier expansion in the form once proposed."
-whyItChanged: "Ancient-DNA studies reconstructed horse population turnover across Eurasia and found that the modern domestic lineage remained geographically restricted during the Yamnaya migrations, then expanded rapidly in the late third millennium BCE."
+currentUnderstanding: "The [Yamnaya](glossary:yamnaya) were mobile pastoralist communities of the Pontic-Caspian steppe whose ancestry spread widely into Europe around 3000 BCE. Ancient horse genomes place the rapid spread of the lineage that dominates modern domestic horses around 2200 BCE, several centuries later, so large domestic-horse herds cannot explain the earlier expansion in the form once proposed."
+whyItChanged: "[Ancient-DNA](glossary:ancient-dna) studies reconstructed horse population turnover across Eurasia and found that the modern domestic lineage remained geographically restricted during the Yamnaya migrations, then expanded rapidly in the late third millennium BCE."
 status: "Overturned"
 category: "Archaeology"
 acceptedApproximately: "late 20th century–2021"

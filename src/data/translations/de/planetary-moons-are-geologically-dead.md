@@ -3,7 +3,7 @@ locale: de
 entryId: planetary-moons-are-geologically-dead
 sourceReviewedAt: '2026-08-20'
 claim: Kleine Monde sind kalte, geologisch tote Welten.
-currentUnderstanding: "Einige Monde sind geologisch äußerst aktiv. Io besitzt starken Vulkanismus; Europa und Enceladus enthalten unterirdische Ozeane und zeigen aktive Eisverformung oder Fontänen. Gezeitenkräfte ihrer Planeten können diese Monde ständig verformen und dadurch im Inneren Wärme erzeugen."
+currentUnderstanding: "Einige Monde sind geologisch äußerst aktiv. Io besitzt starken Vulkanismus; Europa und Enceladus enthalten unterirdische Ozeane und zeigen aktive Eisverformung oder Fontänen. [Gezeitenheizung](glossary:tidal-heating) durch ihre Planeten kann diese Monde ständig verformen und dadurch im Inneren Wärme erzeugen."
 whyItChanged: "Kleine Himmelskörper verlieren ihre ursprüngliche innere Wärme schneller als große Planeten und sollten daher früh geologisch inaktiv werden. Voyager entdeckte 1979 aktive Vulkane auf Io; spätere Missionen fanden junge Oberflächen, Fontänen, verborgene Ozeane und weitere Hinweise darauf, dass Gezeiten kleine Monde aktiv halten können."
 acceptedApproximately: Vor den späten 1970er-Jahren
 changedApproximately: 1979 bis heute
@@ -24,7 +24,7 @@ Als Voyager 1 1979 am Jupiter vorbeiflog, zeigten die Bilder vulkanische Fontän
 
 Die fehlende Energiequelle war nicht Restwärme aus Ios Entstehung. Jupiters Gravitation zieht und staucht den Mond ständig. Weil Ios Bahn leicht elliptisch ist und durch Wechselwirkungen mit benachbarten Monden so gehalten wird, ändern sich Stärke und Richtung dieser Gezeitenverformung fortlaufend. Diese Verformung erzeugt Wärme im Inneren.
 
-Spätere Missionen zeigten, dass Io nicht die einzige Überraschung war. Europa besitzt eine junge, stark aufgebrochene Eiskruste über einem globalen Ozean. Saturns kleiner Mond Enceladus schleudert wasserreiches Material aus Spalten nahe seinem Südpol und besitzt ebenfalls einen inneren Ozean.
+Spätere Missionen zeigten, dass Io nicht die einzige Überraschung war. Europa besitzt eine junge, stark aufgebrochene Eiskruste über einem globalen Ozean. Saturns kleiner Mond Enceladus zeigt [kryovulkanische](glossary:cryovolcanism) Aktivität und schleudert wasserreiches Material aus Spalten nahe seinem Südpol und besitzt ebenfalls einen inneren Ozean.
 
 Damit wurde Gezeitenheizung zu einer wichtigen Energiequelle kleiner Welten.
 

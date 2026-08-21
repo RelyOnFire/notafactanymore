@@ -3,7 +3,7 @@ locale: de
 entryId: one-atom-thick-materials-cannot-exist
 sourceReviewedAt: "2026-08-06"
 claim: "Ein stabiles Material von nur einer Atomlage Dicke kann für sich allein nicht existieren."
-currentUnderstanding: "Graphen – eine nur eine Atomlage dicke Schicht aus Kohlenstoff – und viele andere zweidimensionale Materialien können als stabile, freistehende oder auf einem Träger liegende Schichten existieren."
+currentUnderstanding: "[Graphen](glossary:graphene) – eine nur eine Atomlage dicke Schicht aus Kohlenstoff – und viele andere zweidimensionale Materialien können als stabile, freistehende oder auf einem Träger liegende Schichten existieren."
 whyItChanged: "Man erwartete, dass thermische Fluktuationen vollkommen zweidimensionale Kristalle destabilisieren würden. 2004 isolierten Forschende Graphen aus Graphit und maßen seine ungewöhnlichen elektronischen Eigenschaften; spätere Mikroskopie zeigte, dass leichte Welligkeit reale Schichten stabilisiert."
 acceptedApproximately: "Mitte des 20. Jahrhunderts bis 2004"
 changedApproximately: "2004 bis 2010"

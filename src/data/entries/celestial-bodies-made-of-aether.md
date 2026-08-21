@@ -31,7 +31,7 @@ sources:
   note: Shows how stellar spectra reveal familiar chemical elements in stars.
 ---
 
-Aether was more than a mysterious extra material. It solved a structural problem in Aristotelian physics.
+[Aether](glossary:aether) was more than a mysterious extra material. It solved a structural problem in Aristotelian physics.
 
 Earthly matter was built from earth, water, air, and fire. Those elements had natural places, could transform into one another, and belonged to a world of generation and decay. But the heavens seemed to move endlessly in perfect circles without wearing out. Aristotle therefore assigned them a different kind of matter: aether, whose natural motion was eternal circular motion.
 

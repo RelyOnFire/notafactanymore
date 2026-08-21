@@ -3,7 +3,7 @@ locale: de
 entryId: only-proteins-are-biological-catalysts
 sourceReviewedAt: '2026-08-20'
 claim: Nur Proteine können als Enzyme oder biologische Katalysatoren wirken.
-currentUnderstanding: "Proteine sind nicht die einzigen Moleküle, die als biologische Katalysatoren wirken können. Auch einige RNA-Moleküle beschleunigen chemische Reaktionen; solche katalytischen RNAs heißen Ribozyme."
+currentUnderstanding: "Proteine sind nicht die einzigen Moleküle, die als biologische [Katalysatoren](glossary:catalyst) wirken können. Auch einige RNA-Moleküle beschleunigen chemische Reaktionen; solche katalytischen RNAs heißen [Ribozyme](glossary:ribozyme)."
 whyItChanged: "Enzyme waren so stark mit Proteinen verbunden, dass Katalyse oft als reine Proteineigenschaft galt. Anfang der 1980er-Jahre fand Thomas Cech ein RNA-Molekül, das sein eigenes Spleißen katalysieren konnte, während Sidney Altmans Arbeiten zeigten, dass die RNA in RNase P selbst RNA-Verarbeitung katalysieren kann."
 acceptedApproximately: Frühes bis mittleres 20. Jahrhundert bis Anfang der 1980er-Jahre
 changedApproximately: 1982 bis 1989

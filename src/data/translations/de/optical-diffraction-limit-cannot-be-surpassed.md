@@ -3,8 +3,8 @@ locale: de
 entryId: optical-diffraction-limit-cannot-be-surpassed
 sourceReviewedAt: '2026-08-20'
 claim: Ein optisches Mikroskop kann niemals Details auflösen, die kleiner als die Beugungsgrenze sind.
-currentUnderstanding: "Gewöhnliche Lichtmikroskope können zwei nahe Details nicht mehr sauber trennen, wenn sich ihre durch Beugung erzeugten Lichtflecken unterhalb der Auflösungsgrenze stark überlagern. Superauflösungsmikroskopie gewinnt dennoch feinere räumliche Information, indem sie steuert, welche Fluoreszenzmoleküle leuchten, wie sie gemessen und wie viele Einzelmessungen zusammengesetzt werden."
-whyItChanged: "Abbes Beugungsgrenze beschrieb die konventionelle Bildgebung korrekt, wurde aber oft zur stärkeren Behauptung verallgemeinert, kein Lichtmikroskop könne jemals feinere Details erkennen. Verfahren wie STED, PALM und STORM veränderten die Bedingungen der Bildentstehung, indem sie Fluoreszenz gezielt steuerten oder einzelne Moleküle über viele Messungen lokalisierten."
+currentUnderstanding: "Gewöhnliche Lichtmikroskope können zwei nahe Details nicht mehr sauber trennen, wenn sich ihre durch Beugung erzeugten Lichtflecken unterhalb der [Beugungsgrenze](glossary:diffraction-limit) stark überlagern. [Superauflösungsmikroskopie](glossary:super-resolution-microscopy) gewinnt dennoch feinere räumliche Information, indem sie steuert, welche Fluoreszenzmoleküle leuchten, wie sie gemessen und wie viele Einzelmessungen zusammengesetzt werden."
+whyItChanged: "Abbes Beugungsgrenze beschrieb die konventionelle Bildgebung korrekt, wurde aber oft zur stärkeren Behauptung verallgemeinert, kein Lichtmikroskop könne jemals feinere Details erkennen. Verfahren wie [STED](glossary:sted), [PALM](glossary:palm) und [STORM](glossary:storm) veränderten die Bedingungen der Bildentstehung, indem sie Fluoreszenz gezielt steuerten oder einzelne Moleküle über viele Messungen lokalisierten."
 acceptedApproximately: 1870er- bis 1990er-Jahre
 changedApproximately: 1990er- bis 2000er-Jahre
 summary: "Superauflösungsmikroskopie unterschritt die konventionelle Beugungsgrenze, indem sie veränderte, wie optische Bilder erzeugt und rekonstruiert werden."

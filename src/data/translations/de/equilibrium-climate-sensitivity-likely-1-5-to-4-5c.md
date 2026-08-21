@@ -3,8 +3,8 @@ locale: de
 entryId: equilibrium-climate-sensitivity-likely-1-5-to-4-5c
 sourceReviewedAt: "2026-08-13"
 claim: "Die Gleichgewichts-Klimasensitivität bei einer Verdopplung des atmosphärischen CO₂ liegt wahrscheinlich zwischen 1,5 °C und 4,5 °C."
-currentUnderstanding: "Die Gleichgewichts-Klimasensitivität beschreibt, um wie viel sich die Erde langfristig erwärmen würde, wenn sich die CO₂-Konzentration in der Atmosphäre verdoppelt und das Klimasystem genügend Zeit zur Anpassung hat. Der IPCC bewertete im AR6 einen wahrscheinlichen Bereich von 2,5 °C bis 4,0 °C mit einer besten Schätzung von 3 °C."
-whyItChanged: "Über Jahrzehnte blieb der wahrscheinliche Bereich bei 1,5 °C bis 4,5 °C, weil wichtige Klimarückkopplungen und die historische Messreihe große Unsicherheiten ließen. Bis zum AR6 waren Beobachtungen der Erwärmung, das Energieungleichgewicht der Erde, frühere Klimazustände, die Physik der Rückkopplungen und statistische Methoden konsistent genug geworden, um den wahrscheinlichen Bereich einzuengen."
+currentUnderstanding: "Die [Gleichgewichts-Klimasensitivität](glossary:equilibrium-climate-sensitivity) beschreibt, um wie viel sich die Erde langfristig erwärmen würde, wenn sich die CO₂-Konzentration in der Atmosphäre verdoppelt und das Klimasystem genügend Zeit zur Anpassung hat. Der IPCC bewertete im AR6 einen wahrscheinlichen Bereich von 2,5 °C bis 4,0 °C mit einer besten Schätzung von 3 °C."
+whyItChanged: "Über Jahrzehnte blieb der wahrscheinliche Bereich bei 1,5 °C bis 4,5 °C, weil wichtige [Klimarückkopplungen](glossary:climate-feedback) und die historische Messreihe große Unsicherheiten ließen. Bis zum AR6 waren Beobachtungen der Erwärmung, das Energieungleichgewicht der Erde, frühere Klimazustände, die Physik der Rückkopplungen und statistische Methoden konsistent genug geworden, um den wahrscheinlichen Bereich einzuengen."
 acceptedApproximately: "1979 bis 2021"
 changedApproximately: "2021"
 summary: "Bessere Belege verengten die wahrscheinliche Erwärmung bei verdoppeltem CO₂ von 1,5–4,5 °C auf 2,5–4,0 °C."

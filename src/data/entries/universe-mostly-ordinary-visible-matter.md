@@ -1,7 +1,7 @@
 ---
 claim: "The gravitating mass of galaxies and galaxy clusters can be accounted for almost entirely by the stars and gas that astronomers can observe directly."
-currentUnderstanding: "The stars, glowing gas, planets, and other ordinary matter we can observe directly make up only a small part of the modern cosmic inventory. Gravity requires much more dark matter around galaxies and clusters, while cosmological measurements indicate that dark energy contributes an even larger share of the universe's total energy density."
-whyItChanged: "Galaxy clusters and rotation curves showed more gravitational pull than visible stars and gas could provide. Gravitational lensing later mapped unseen mass directly through its effect on light, while the cosmic microwave background, supernovae, and large-scale structure established a universe dominated by dark matter and dark energy."
+currentUnderstanding: "The stars, glowing gas, planets, and other ordinary matter we can observe directly make up only a small part of the modern cosmic inventory. Gravity requires much more [dark matter](glossary:dark-matter) around galaxies and clusters, while cosmological measurements indicate that [dark energy](glossary:dark-energy) contributes an even larger share of the universe's total energy density."
+whyItChanged: "Galaxy clusters and rotation curves showed more gravitational pull than visible stars and gas could provide. [Gravitational lensing](glossary:gravitational-lensing) later mapped unseen mass directly through its effect on light, while the [cosmic microwave background](glossary:cosmic-microwave-background), supernovae, and large-scale structure established a universe dominated by dark matter and dark energy."
 status: "Superseded"
 category: "Cosmology"
 acceptedApproximately: "Early 20th-century extragalactic astronomy before dark-matter evidence accumulated"

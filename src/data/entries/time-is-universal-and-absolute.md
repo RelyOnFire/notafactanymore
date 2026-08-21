@@ -1,6 +1,6 @@
 ---
 claim: "Time passes identically everywhere, and all observers can agree on one universal present."
-currentUnderstanding: "Elapsed time depends on relative motion and gravitational conditions. Observers can disagree about the duration and simultaneity of events while each obtains internally consistent measurements."
+currentUnderstanding: "Elapsed time depends on relative motion and gravitational conditions. Observers can disagree about the duration and [simultaneity](glossary:simultaneity) of events while each obtains internally consistent measurements."
 whyItChanged: "Einstein's special relativity reconciled the observed invariance of light speed with the principle of relativity by revising the concepts of time and simultaneity. General relativity later showed that gravity also affects clock rates."
 status: "Superseded"
 category: "Physics"
@@ -34,7 +34,7 @@ Newtonian mechanics treated time as a universal background. Every ideal clock in
 
 That assumption becomes incompatible with two experimentally supported ideas: the laws of physics are the same for inertial observers, and the speed of light in vacuum is invariant.
 
-Einstein's special relativity resolved the conflict by changing time itself. Two observers moving relative to one another can compare clocks and measure different elapsed times between events. They can also disagree about whether two distant events happened at the same time. This relativity of simultaneity is not a clock error; each measurement is consistent within the observer's reference frame.
+Einstein's special relativity resolved the conflict by changing time itself. Two observers moving relative to one another can compare clocks and measure different elapsed times between events. They can also disagree about whether two distant events happened at the same time. This relativity of simultaneity is not a clock error; each measurement is consistent within the observer's [reference frame](glossary:reference-frame).
 
 General relativity extended the revision. Clock rates also depend on gravity: clocks deeper in a gravitational field run differently from clocks higher up.
 

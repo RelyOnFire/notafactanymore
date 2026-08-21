@@ -1,0 +1,18 @@
+term: PALM
+aliases:
+- photoactivated localization microscopy
+shortDefinition: A super-resolution method that localizes sparse subsets of photoactivatable fluorescent molecules and
+  combines many cycles into a fine image.
+longDefinition: Photoactivated localization microscopy, or PALM, activates only a sparse subset of fluorescent labels
+  at a time so that their diffraction-blurred spots do not strongly overlap. Each molecule's position can then be estimated
+  with high precision. Repeating the cycle and combining thousands of localizations reconstructs a super-resolved image.
+relatedTerms:
+- super-resolution-microscopy
+- storm
+- diffraction-limit
+reviewedAt: '2026-08-21'
+sources:
+- title: The Nobel Prize in Chemistry 2014 – Popular information
+  url: https://www.nobelprize.org/prizes/chemistry/2014/popular-information/
+  publisher: The Nobel Prize
+  note: Explains single-molecule localization approaches underlying PALM and related super-resolution methods.

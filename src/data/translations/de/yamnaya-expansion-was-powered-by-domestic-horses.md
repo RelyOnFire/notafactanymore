@@ -3,8 +3,8 @@ locale: de
 entryId: yamnaya-expansion-was-powered-by-domestic-horses
 sourceReviewedAt: '2026-08-13'
 claim: Weit verbreitete Mobilität mit domestizierten Pferden war um 3000 v. Chr. ein wesentlicher Antrieb der Jamnaja-Expansion nach Europa.
-currentUnderstanding: "Die Jamnaja waren mobile Hirtengemeinschaften der pontisch-kaspischen Steppe, deren Abstammung sich um 3000 v. Chr. weit nach Europa ausbreitete. Alte Pferdegenome datieren die rasche Ausbreitung der Linie, von der die heutigen Hauspferde überwiegend abstammen, dagegen auf etwa 2200 v. Chr. Große Herden domestizierter Pferde können die frühere Expansion daher nicht in der einst vorgeschlagenen Form erklären."
-whyItChanged: Studien alter DNA rekonstruierten den Austausch von Pferdepopulationen in Eurasien und zeigten, dass die moderne Hauspferdelinie während der Jamnaja-Migrationen geografisch begrenzt blieb und sich erst im späten dritten Jahrtausend v. Chr. rasch ausbreitete.
+currentUnderstanding: "Die [Jamnaja](glossary:yamnaya) waren mobile Hirtengemeinschaften der pontisch-kaspischen Steppe, deren Abstammung sich um 3000 v. Chr. weit nach Europa ausbreitete. Alte Pferdegenome datieren die rasche Ausbreitung der Linie, von der die heutigen Hauspferde überwiegend abstammen, dagegen auf etwa 2200 v. Chr. Große Herden domestizierter Pferde können die frühere Expansion daher nicht in der einst vorgeschlagenen Form erklären."
+whyItChanged: Studien [alter DNA](glossary:ancient-dna) rekonstruierten den Austausch von Pferdepopulationen in Eurasien und zeigten, dass die moderne Hauspferdelinie während der Jamnaja-Migrationen geografisch begrenzt blieb und sich erst im späten dritten Jahrtausend v. Chr. rasch ausbreitete.
 acceptedApproximately: Spätes 20. Jahrhundert bis 2021
 changedApproximately: 2021–2024
 summary: Alte Pferdegenome datieren weit verbreitete pferdegestützte Mobilität mehrere Jahrhunderte nach der Hauptphase der Jamnaja-Expansion.

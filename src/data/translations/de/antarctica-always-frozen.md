@@ -15,7 +15,7 @@ sourceNotes:
 
 Die heutige Antarktis ist so stark vom Eis geprägt, dass ihre scheinbare Permanenz intuitiv wirkt. Das Innere gehört zu den kältesten Regionen der Erde, und der Eisschild verdeckt fast die gesamte Landschaft.
 
-Die Geologie bewahrt jedoch eine völlig andere Vergangenheit. Fossile Blätter, Holz, Pollen, Wurzeln, Böden und Tierfossilien zeigen, dass die Antarktis in wärmeren Erdzeitaltern Wälder und vielfältige terrestrische Ökosysteme trug.
+Die Geologie bewahrt jedoch eine völlig andere Vergangenheit. [Fossile Blätter, Holz, Pollen, Wurzeln](glossary:fossil-flora), Böden und Tierfossilien zeigen, dass die Antarktis in [wärmeren Erdzeitaltern](glossary:paleoclimate) Wälder und vielfältige terrestrische Ökosysteme trug.
 
 Dinosaurier lebten dort, und später auch Säugetiere, bevor sich die großflächige Vereisung etablierte.
 

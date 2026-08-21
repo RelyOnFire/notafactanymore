@@ -1,0 +1,23 @@
+term: Diffraction limit
+aliases:
+- Abbe diffraction limit
+- diffraction resolution limit
+shortDefinition: The conventional resolution limit caused by the wave nature of light, which makes point-like objects
+  appear as finite blurred spots.
+longDefinition: In ordinary optical imaging, diffraction spreads light from a point object into a finite pattern. Two
+  sufficiently close objects therefore produce overlapping patterns that cannot be cleanly distinguished by conventional
+  imaging. Ernst Abbe related this resolution scale to wavelength and numerical aperture. Super-resolution methods do
+  not make diffraction vanish; they obtain additional information by changing illumination, fluorescence behavior, or
+  reconstruction.
+relatedTerms:
+- super-resolution-microscopy
+- sted
+- palm
+- storm
+reviewedAt: '2026-08-21'
+sources:
+- title: The Nobel Prize in Chemistry 2014 – Popular information
+  url: https://www.nobelprize.org/prizes/chemistry/2014/popular-information/
+  publisher: The Nobel Prize
+  note: Explains Abbe's diffraction limit and how super-resolution fluorescence microscopy works around its conventional
+    assumptions.

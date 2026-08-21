@@ -1,7 +1,7 @@
 ---
 claim: "Equilibrium climate sensitivity to doubled atmospheric CO₂ is likely between 1.5°C and 4.5°C."
-currentUnderstanding: "Equilibrium climate sensitivity estimates how much the planet would eventually warm after atmospheric CO₂ doubled and the climate had time to adjust. IPCC AR6 assessed the likely range as 2.5°C to 4.0°C, with a best estimate of 3°C."
-whyItChanged: "For decades, the likely range remained 1.5°C to 4.5°C because several important climate feedbacks and the historical record left large uncertainty. By AR6, evidence from observed warming, Earth's energy imbalance, past climates, feedback physics, and statistical methods had become consistent enough to narrow the likely range."
+currentUnderstanding: "[Equilibrium climate sensitivity](glossary:equilibrium-climate-sensitivity) estimates how much the planet would eventually warm after atmospheric CO₂ doubled and the climate had time to adjust. IPCC AR6 assessed the likely range as 2.5°C to 4.0°C, with a best estimate of 3°C."
+whyItChanged: "For decades, the likely range remained 1.5°C to 4.5°C because several important [climate feedbacks](glossary:climate-feedback) and the historical record left large uncertainty. By AR6, evidence from observed warming, Earth's energy imbalance, past climates, feedback physics, and statistical methods had become consistent enough to narrow the likely range."
 status: "Narrowed"
 category: "Atmospheric Science"
 acceptedApproximately: "1979–2021"

@@ -1,0 +1,18 @@
+term: Roche limit
+aliases:
+- Roche boundary
+shortDefinition: The approximate distance from a body inside which tidal forces can prevent loose material held together
+  mainly by self-gravity from assembling into a moon.
+longDefinition: The Roche limit compares the tidal forces from a larger body with the self-gravity holding a smaller
+  body or collection of material together. Inside the classical limit, loose material is more easily disrupted or kept
+  from accreting into a moon. The exact distance depends on density, structure, rotation, and material behavior, so it
+  is not a universal hard boundary for every ring system.
+relatedTerms:
+- stellar-occultation
+reviewedAt: '2026-08-21'
+sources:
+- title: A dense ring of the trans-Neptunian object Quaoar outside its Roche limit
+  url: https://doi.org/10.1038/s41586-022-05629-6
+  publisher: Nature
+  note: Reports Quaoar's dense ring well outside its classical Roche limit and discusses why the limit is not an absolute
+    ring boundary.

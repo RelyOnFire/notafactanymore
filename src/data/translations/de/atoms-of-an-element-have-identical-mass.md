@@ -15,6 +15,8 @@ sourceNotes:
 - "Definiert Isotope als Atome mit gleicher Ordnungszahl, aber unterschiedlicher Massenzahl."
 ---
 
+Isotope sind Varianten desselben Elements mit gleicher Protonenzahl, aber unterschiedlicher Neutronenzahl und dadurch unterschiedlicher Masse.
+
 Daltons Regel bleibt für viele chemische Anwendungen eine brauchbare Näherung, weil Isotope eines Elements meist sehr ähnlich reagieren.
 
 Heute wird ein Element über die Zahl seiner Protonen definiert und nicht über eine einzige feste Atommasse. Die im Periodensystem angegebenen Massen sind häufig gewichtete Mittelwerte der natürlich vorkommenden Isotope.

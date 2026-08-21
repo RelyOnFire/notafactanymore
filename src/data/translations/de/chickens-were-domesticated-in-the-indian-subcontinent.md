@@ -13,7 +13,7 @@ sourceNotes:
 - "Gibt einen Überblick über frühere archäologische Behauptungen und die langjährige Debatte über Ort und Zeitpunkt der Hühnerdomestikation in Asien."
 ---
 
-Die Domestikation des Huhns war ungewöhnlich schwer zu rekonstruieren. Wilde Bankivahühner haben ein großes asiatisches Verbreitungsgebiet, vogelgroße Knochen lassen sich oft nur schwer sicher Hühnern zuordnen, und ältere Ausgrabungen verfügten häufig nicht über direkte Radiokarbondatierungen. Entsprechend wechselten vorgeschlagene Domestikationszentren zwischen Nordchina, Südasien und Südostasien.
+Die Domestikation des Huhns war ungewöhnlich schwer zu rekonstruieren. Das Bankivahuhn – der Wildvogel, von dem Haushühner größtenteils abstammen – besitzt ein großes asiatisches Verbreitungsgebiet, seine Knochen lassen sich oft nur schwer sicher von verwandten Vögeln unterscheiden, und ältere Ausgrabungen verfügten häufig nicht über direkte Radiokarbondatierungen. Entsprechend wechselten vorgeschlagene Domestikationszentren zwischen Nordchina, Südasien und Südostasien.
 
 Die Studie von 2022 beruhte nicht auf einem einzelnen spektakulären Fund. Sie prüfte den globalen archäologischen Datensatz neu und fragte bei jedem Vorkommen, ob es wirklich Huhn war, sicher mit Menschen verbunden und solide datiert. Dadurch fielen viele frühe Behauptungen weg. Als früheste eindeutige Haushühner blieben Funde aus Ban Non Wat in Zentralthailand um etwa 1650 bis 1250 v. Chr.
 

@@ -38,6 +38,8 @@ sources:
     note: "Defines isotopes as atoms with the same atomic number but different mass numbers."
 ---
 
+Isotopes are versions of the same element that contain the same number of protons but different numbers of neutrons, giving them different masses.
+
 Dalton's rule remains a useful approximation for ordinary chemistry because isotopes of an element usually behave very similarly.
 
 Today, an element is defined by its number of protons, not by one fixed atomic mass. Periodic-table masses are often weighted averages of naturally occurring isotopes.

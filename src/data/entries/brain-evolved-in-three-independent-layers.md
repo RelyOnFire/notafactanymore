@@ -30,7 +30,7 @@ sources:
     note: "MacLean's full statement of the three-brain evolutionary framework."
 ---
 
-Paul MacLean's triune-brain model gave a memorable evolutionary story to familiar psychological conflicts. An ancient “reptilian complex” supposedly handled instinct and routine, a later paleomammalian or limbic brain supplied emotion, and the newest neomammalian cortex supplied abstract reason. The model was influential in neuroscience and psychiatry before becoming even more popular in education, management, and self-help.
+Paul MacLean's triune-brain model gave a memorable evolutionary story to familiar psychological conflicts. It pictured the brain as three evolutionary layers stacked on top of one another: an ancient “reptilian complex” for instinct and routine, a later mammalian layer associated with emotion and often called the limbic system, and a newest cortical layer responsible for abstract reason. The model was influential in neuroscience and psychiatry before becoming even more popular in education, management, and self-help.
 
 Comparative neurobiology made the evolutionary staircase increasingly difficult to sustain. Reptiles and other vertebrates possess homologues of structures once treated as uniquely mammalian additions, while mammalian cortical, limbic, and subcortical regions evolved by modification and reorganization of shared ancestral systems. Modern connectivity research also shows dense interaction among regions involved in motivation, emotion, perception, memory, and cognition rather than three semi-independent minds competing for control.
 

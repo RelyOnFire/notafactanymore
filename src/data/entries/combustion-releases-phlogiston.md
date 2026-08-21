@@ -30,7 +30,7 @@ sources:
     note: "States that Lavoisier overturned the dominant phlogiston theory and laid foundations for modern chemistry."
 ---
 
-Phlogiston gave 18th-century chemists a common way to connect burning, calcination, smelting, and respiration. A combustible substance was thought to contain phlogiston and release it during burning; what remained was the dephlogisticated residue. The theory could accommodate a surprising range of laboratory observations, which is why it was not discarded simply because later textbooks find it strange.
+Phlogiston—a hypothetical fire-like substance thought to leave material as it burned—gave 18th-century chemists a common way to connect burning, calcination, smelting, and respiration. A combustible substance was thought to contain phlogiston and release it during burning; what remained was the dephlogisticated residue. The theory could accommodate a surprising range of laboratory observations, which is why it was not discarded simply because later textbooks find it strange.
 
 Its hardest problem was quantitative. Metals often *gained* mass when heated into what chemists called calxes, awkward behavior for a process supposedly involving the loss of material. Antoine Lavoisier used sealed vessels and careful weighing to follow matter through reactions and argued that combustion instead involved combination with a component of air—oxygen. His framework tied burning to conservation of mass and a new chemical nomenclature.
 

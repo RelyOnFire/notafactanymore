@@ -33,6 +33,6 @@ sources:
 
 An adult barnacle gives almost every superficial cue in the wrong direction. It is cemented to a rock, pier, whale, or ship; it sits inside hard calcareous plates; and it has none of the obvious walking legs or segmented body people associate with crabs and shrimp. Early classifiers therefore grouped barnacles with other shelled invertebrates.
 
-The disguise falls apart during development. In the early 19th century, naturalists studying barnacle larvae found free-swimming forms with unmistakably crustacean features. Adult anatomy likewise revealed jointed feeding appendages and other arthropod characteristics. Barnacles were consequently moved away from mollusk-like groupings and into Crustacea.
+The disguise falls apart during development. In the early 19th century, naturalists studying barnacle larvae found free-swimming forms with segmented bodies and jointed appendages—the basic body plan of crustaceans such as crabs and shrimp. Adult anatomy likewise revealed jointed feeding appendages and other arthropod characteristics. Barnacles were consequently moved away from mollusk-like groupings and into Crustacea.
 
 Darwin later spent years dissecting and classifying barnacles, greatly refining their taxonomy and evolutionary relationships, but their basic crustacean identity had already emerged. The shell is an adaptation of a highly modified crustacean, not evidence of molluscan ancestry.

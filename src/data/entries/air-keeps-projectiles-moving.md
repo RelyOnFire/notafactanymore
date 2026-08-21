@@ -35,9 +35,9 @@ Projectile motion exposed a basic difficulty in Aristotelian mechanics.
 
 If motion normally requires a mover acting on what is moved, what keeps a stone or javelin going after it leaves the hand?
 
-One Aristotelian answer became known as antiperistasis. As the projectile moved, it displaced air. The surrounding air rushed around into the space behind the object and in doing so helped propel it forward. The medium that also resisted motion therefore became part of the continuing cause of motion.
+One Aristotelian answer, later called antiperistasis, held that the projectile displaced air and the surrounding air then rushed around into the space behind it, helping push it forward. The medium that also resisted motion therefore became part of the continuing cause of motion.
 
-The explanation attracted criticism long before Galileo. John Philoponus challenged aspects of Aristotelian projectile theory in late antiquity. Medieval Islamic thinkers developed concepts of *mayl* or inclination. In the fourteenth century, Jean Buridan gave impetus theory an especially influential form: the thrower impresses a motive force into the projectile itself, and the projectile continues while that impetus exceeds resisting influences.
+The explanation attracted criticism long before Galileo. John Philoponus challenged aspects of Aristotelian projectile theory in late antiquity. Medieval Islamic thinkers developed concepts of *mayl*, or inclination. In the fourteenth century, Jean Buridan gave impetus theory an especially influential form: the thrower impresses an impetus—a continuing motive tendency—into the projectile, and the projectile keeps moving while that impetus exceeds resisting influences.
 
 Buridan's impetus was not yet Newtonian inertia. It was still a positive impressed quality that could be depleted or corrupted. But it removed the need for the surrounding air to act as a relay of movers.
 

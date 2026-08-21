@@ -16,7 +16,7 @@ sourceNotes:
 
 Die Maya-Archäologie des frühen 20. Jahrhunderts wurde stark von Monumenten geprägt, deren Inschriften noch nicht als historische Texte gelesen werden konnten. Datumsangaben, Kalender, astronomische Bezüge und Ritualdarstellungen waren erkennbar, und einflussreiche Forscher wie J. Eric Thompson deuteten viele Maya-Zentren vor allem als zeremonielle Orte unter priesterlichen Eliten. Krieg kam in diesem Bild durchaus vor, galt aber eher als Randerscheinung als als zentrale politische Kraft.
 
-Mit der Entzifferung der Maya-Schrift begannen die Monumente Herrscher beim Namen zu nennen und Thronbesteigungen, Gefangennahmen, Angriffe, Bündnisse und dynastische Rivalitäten zu dokumentieren. Die Archäologie lieferte eine zweite Beweislinie: Befestigungen, verbrannte Siedlungen, Waffen, Massengewalt und Angriffe, die politische Zentren tiefgreifend veränderten oder beendeten.
+Als Forschende immer mehr Maya-Inschriften lesen konnten, begannen die Monumente Herrscher namentlich zu nennen und Thronbesteigungen, Gefangennahmen, Angriffe, Bündnisse und dynastische Rivalitäten zu dokumentieren. Die Archäologie lieferte eine zweite Beleglinie: Befestigungen, verbrannte Siedlungen, Waffen, Massengewalt und Episoden, in denen Angriffe politische Zentren veränderten oder beendeten. Das daraus entstehende Bild war nicht das einer außergewöhnlich friedlichen Zivilisation, sondern vieler konkurrierender Maya-Staaten, deren Beziehungen auch anhaltende Kriege einschließen konnten.
 
 Das neue Bild zeigt keine einheitlich friedliche Zivilisation, sondern viele konkurrierende Maya-Staaten, deren Beziehungen auch lang anhaltende Kriege umfassen konnten.
 

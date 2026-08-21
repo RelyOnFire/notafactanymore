@@ -1,6 +1,6 @@
 ---
 claim: "Once adulthood is reached, the brain is permanently hardwired and cannot substantially reorganize."
-currentUnderstanding: "Adult brains remain plastic. Learning, experience, injury, stress, hormones, and rehabilitation can alter synapses, neural maps, connectivity, and even aspects of brain structure."
+currentUnderstanding: "Adult brains remain capable of change, a property known as neuroplasticity. Learning, experience, injury, stress, hormones, and rehabilitation can alter synapses, neural maps, connectivity, and even aspects of brain structure."
 whyItChanged: "A fixed adult nervous system was a longstanding neurological dogma. Lesion studies, microscopy, brain imaging, sensory-map research, and rehabilitation showed continuing structural and functional reorganization."
 status: "Overturned"
 category: "Neuroscience"
@@ -38,6 +38,6 @@ sources:
 
 The mature brain was once pictured as comparatively fixed: development established its essential wiring, and adulthood brought stability rather than large-scale reorganization. That assumption was reinforced by the poor recovery seen after many brain and spinal injuries and by the lack of techniques capable of watching living neural circuits change.
 
-Evidence accumulated that adult nervous systems were less rigid. Lesion experiments showed surviving neurons forming new synaptic arrangements; sensory and motor studies found cortical maps changing when inputs or behavior changed; rehabilitation demonstrated functional reassignment after injury. Raisman's 1969 work was an early anatomical demonstration that adult synaptic connections could reorganize after part of their input was removed.
+Evidence accumulated that adult nervous systems were less rigid. Lesion experiments showed surviving neurons forming new synaptic arrangements; sensory and motor studies found cortical maps—the brain's organized representations of sensation and movement—changing when inputs or behavior changed; rehabilitation demonstrated functional reassignment after injury. Raisman's 1969 work was an early anatomical demonstration that adult synaptic connections could reorganize after part of their input was removed.
 
-Modern imaging and longitudinal studies have extended that picture to humans, finding experience-related changes in connectivity and measurable aspects of brain structure. Plasticity is nevertheless constrained by age, region, injury, disease, and training. The discarded idea is permanent hardwiring, not the opposite fantasy that an adult brain can reorganize without biological limits.
+Modern imaging and longitudinal studies have extended that picture to humans, finding experience-related changes in connectivity and measurable aspects of brain structure. This continuing capacity for change is called neuroplasticity. It is nevertheless constrained by age, region, injury, disease, and training. The discarded idea is permanent hardwiring, not the opposite fantasy that an adult brain can reorganize without biological limits.

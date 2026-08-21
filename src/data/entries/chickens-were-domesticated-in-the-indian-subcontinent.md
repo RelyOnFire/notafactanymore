@@ -26,7 +26,7 @@ sources:
     note: "Reviews earlier archaeological claims and the long-running debate over the geography and chronology of chicken domestication in Asia."
 ---
 
-Reconstructing chicken domestication is unusually difficult. Red junglefowl ranged across much of Asia, their bones can be hard to distinguish from related birds, and many older finds were dated from surrounding material rather than from the bones themselves. Those uncertainties produced several competing origin models, with South Asia often treated as an important early center.
+Reconstructing chicken domestication is unusually difficult. Red junglefowl—the wild bird from which domestic chickens mostly descend—ranged across much of Asia, their bones can be hard to distinguish from related birds, and many older finds were dated from surrounding material rather than from the bones themselves. Those uncertainties produced several competing origin models, with South Asia often treated as an important early center.
 
 The 2022 study revisited the archaeological record site by site. It asked whether each reported specimen could be identified securely, whether it occurred in a clear human context, and whether the date was reliable. Many of the earliest claims failed one or more of those tests. The earliest unambiguous domestic chickens in the revised chronology came from Ban Non Wat in central Thailand, around 1650–1250 BCE.
 

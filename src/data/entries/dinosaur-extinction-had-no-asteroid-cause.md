@@ -1,7 +1,7 @@
 ---
 claim: "The extinction of non-avian dinosaurs was a gradual event with no major asteroid cause."
 currentUnderstanding: "A large asteroid struck at Chicxulub about 66 million years ago and triggered severe global environmental disruption. This impact was the primary cause of the end-Cretaceous mass extinction."
-whyItChanged: "A worldwide iridium-rich boundary layer, shocked minerals, glassy ejecta, tsunami deposits, and the discovery of the Chicxulub crater linked the extinction horizon to a giant impact."
+whyItChanged: "A worldwide iridium-rich boundary layer, shocked minerals, glassy [ejecta](glossary:ejecta), tsunami deposits, and the discovery of the Chicxulub crater linked the extinction horizon to a giant impact."
 status: "Superseded"
 category: "Paleontology"
 acceptedApproximately: "Much of the 20th century before 1980"
@@ -29,6 +29,6 @@ For much of the twentieth century, dinosaur extinction was commonly discussed as
 
 In 1980, Luis and Walter Alvarez and colleagues reported an extraordinary concentration of iridium in the thin geological layer marking the end of the Cretaceous. Because iridium is scarce in Earth's crust but comparatively abundant in meteorites, they proposed that a giant impact had injected dust and debris into the atmosphere and triggered the mass extinction.
 
-The hypothesis initially met substantial resistance. Over the following decades, investigators found shocked minerals, glassy ejecta—rock melted or blasted outward by an impact—and tsunami deposits at the same boundary. The discovery of the enormous buried Chicxulub crater in Mexico supplied the matching impact site, and increasingly precise dating tied it closely to the extinction 66 million years ago.
+The hypothesis initially met substantial resistance. Over the following decades, investigators found shocked minerals, glassy ejecta and tsunami deposits at the same boundary. The discovery of the enormous buried Chicxulub crater in Mexico supplied the matching impact site, and increasingly precise dating tied it closely to the extinction 66 million years ago.
 
 Deccan Traps volcanism was also occurring around the boundary and remains part of research into the environmental stresses of the period. The superseded view is not that volcanism mattered nothing, but that the end-Cretaceous extinction can be explained without the catastrophic Chicxulub impact.

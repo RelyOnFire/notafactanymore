@@ -1,6 +1,6 @@
 ---
 claim: "A kilogram must be defined by the mass of one particular metal cylinder."
-currentUnderstanding: "The kilogram is no longer defined by one physical object. Instead, the SI fixes an exact value for the Planck constant, a fundamental constant linking energy to frequency, and laboratories realize the kilogram through precision measurements tied to that value."
+currentUnderstanding: "The kilogram is no longer defined by one physical object. Instead, the SI fixes an exact value for the [Planck constant](glossary:planck-constant), and laboratories realize the kilogram through precision measurements tied to that value."
 whyItChanged: "The international prototype kilogram served as the mass standard for more than a century, but comparisons suggested that physical artifacts could drift relative to one another. Advances in the Kibble balance and atom-counting methods enabled a constant-based definition."
 status: "Superseded"
 category: "Measurement"
@@ -36,6 +36,6 @@ The system was remarkably successful, but it had a conceptual weakness. If the d
 
 Metrology therefore pursued a definition based on an invariant property of nature rather than a particular object. Kibble balances linked mechanical power to electrical measurements, while atom-counting approaches provided an independent route to the same mass scale.
 
-In 2019, the SI redefinition fixed an exact numerical value for the Planck constant, a fundamental constant linking energy to frequency in quantum physics. The kilogram is now realized through measurements traceable to that fixed value instead of being equal by definition to the mass of one cylinder.
+In 2019, the SI redefinition fixed an exact numerical value for the Planck constant. The kilogram is now realized through measurements traceable to that fixed value instead of being equal by definition to the mass of one cylinder.
 
 Physical kilogram standards did not become useless. Laboratories still use carefully maintained masses as practical transfer standards. What changed was the foundation of the unit itself.

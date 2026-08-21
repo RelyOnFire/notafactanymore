@@ -24,6 +24,6 @@ Das Enzym heißt Reverse Transkriptase. Es liest ein RNA-Molekül als Vorlage un
 
 Retroviren nutzen diesen Vorgang als normalen Teil ihres Lebenszyklus. Nach der Infektion wird virale RNA in DNA umgeschrieben, und diese DNA kann anschließend in das Genom der Wirtszelle eingebaut werden.
 
-Reverse Transkription kommt auch außerhalb von Retroviren vor. Verwandte Mechanismen nutzen Retrotransposons – mobile DNA-Elemente, die sich über eine RNA-Zwischenstufe kopieren – und die Telomerase, ein Enzym zur Erhaltung der Chromosomenenden.
+Reverse Transkription kommt auch außerhalb von Retroviren vor. Verwandte Mechanismen nutzen [Retrotransposons](glossary:retrotransposon) und die Telomerase, ein Enzym zur Erhaltung der Chromosomenenden.
 
 Historisch ist eine Nuance wichtig. Francis Cricks präzise formuliertes zentrales Dogma verbot RNA→DNA nicht grundsätzlich. Die Entdeckung widerlegte eine weit verbreitete vereinfachte Fassung der Regel, nicht Cricks sorgfältigste Formulierung.

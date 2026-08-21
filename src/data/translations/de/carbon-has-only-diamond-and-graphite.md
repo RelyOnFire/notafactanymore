@@ -3,7 +3,7 @@ locale: de
 entryId: carbon-has-only-diamond-and-graphite
 sourceReviewedAt: "2026-08-20"
 claim: Kohlenstoff hat nur zwei echte kristalline Formen – Diamant und Graphit.
-currentUnderstanding: "Kohlenstoff kann viele Allotrope bilden – unterschiedliche Strukturen, die vollständig aus demselben Element bestehen. Diamant und Graphit sind zwei Beispiele; daneben gibt es Fullerene, Kohlenstoffnanoröhren, Graphen und weitere Strukturen mit sehr unterschiedlichen Formen und Eigenschaften."
+currentUnderstanding: "Kohlenstoff kann viele Allotrope bilden – unterschiedliche Strukturen, die vollständig aus demselben Element bestehen. Diamant und Graphit sind zwei Beispiele; daneben gibt es [Fullerene](glossary:fullerene), [Kohlenstoffnanoröhren](glossary:carbon-nanotube), Graphen und weitere Strukturen mit sehr unterschiedlichen Formen und Eigenschaften."
 whyItChanged: "Über Generationen waren Diamant und Graphit die einzigen weithin anerkannten kristallinen Allotrope des Kohlenstoffs. Die Entdeckung der Fullerene 1985 zeigte, dass Kohlenstoffatome stabile geschlossene Käfige bilden können; später kamen Nanoröhren und isoliertes Graphen hinzu."
 acceptedApproximately: 18. Jahrhundert bis 1985
 changedApproximately: 1985–2004
@@ -22,6 +22,6 @@ Dann wurde die Familie größer.
 
 1985 entstanden in Experimenten beim Verdampfen von Kohlenstoff C60-Moleküle: sechzig Kohlenstoffatome, die einen hohlen Käfig bilden, ungefähr in der Form eines Fußballs. Diese Moleküle gehören zu einer neuen Stoffklasse, den Fullerenen.
 
-Später wurden Kohlenstoffnanoröhren beschrieben – winzige Röhren aus Kohlenstoffschichten – und 2004 Graphen isoliert, eine einzige Atomlage in einem flachen Wabenmuster.
+Später wurden Kohlenstoffnanoröhren beschrieben und 2004 Graphen isoliert, eine einzige Atomlage in einem flachen Wabenmuster.
 
 Nicht jede vorgeschlagene Kohlenstoffstruktur ist gleich stabil oder gleich gut belegt. Diamant und Graphit sind jedoch eindeutig nicht die einzigen unterschiedlichen Strukturen, die Kohlenstoff bilden kann.

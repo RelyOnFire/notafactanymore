@@ -1,7 +1,7 @@
 ---
 claim: "Before European contact, Amazonia was largely pristine wilderness occupied only by small, scattered groups with little effect on the landscape."
 currentUnderstanding: "Many parts of Amazonia were substantially shaped by Indigenous societies before European contact. Archaeologists have found settlements, roads, canals, raised fields, large earthworks, engineered soils, and long-term forest management. The scale of occupation varied greatly across the enormous basin."
-whyItChanged: "Older models emphasized poor tropical soils and often pictured most of the interior as capable of supporting only small scattered populations. Archaeology, human-made dark earths, plant distributions, palaeoecology, and lidar later revealed dense settlement and extensive landscape engineering in multiple regions."
+whyItChanged: "Older models emphasized poor tropical soils and often pictured most of the interior as capable of supporting only small scattered populations. Archaeology, human-made dark earths, plant distributions, palaeoecology, and [lidar](glossary:lidar) later revealed dense settlement and extensive landscape engineering in multiple regions."
 status: "Narrowed"
 category: "Archaeology"
 acceptedApproximately: "Mid-20th century–1990s"
@@ -45,7 +45,7 @@ Researchers found *terra preta*, or Amazonian dark earth: unusually fertile soil
 
 Plant ecology provided another clue. Some forests contain unusually high concentrations of useful tree species that Indigenous peoples cultivated, protected, or encouraged over many generations.
 
-Lidar—laser mapping from aircraft—has made large structures visible beneath dense vegetation, revealing settlement layouts and earthworks that are difficult to recognize from ground level.
+Lidar has made large structures visible beneath dense vegetation, revealing settlement layouts and earthworks that are difficult to recognize from ground level.
 
 None of this means the entire Amazon basin was densely urbanized. Amazonia is enormous, and population density and land use varied sharply among regions and through time.
 

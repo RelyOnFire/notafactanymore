@@ -1,0 +1,15 @@
+term: Significant wave height
+aliases:
+- Hs
+shortDefinition: A standard measure of sea state, historically defined as the average height of the highest one-third
+  of waves.
+longDefinition: Significant wave height is used to summarize the size of waves in a sea state. The traditional observational
+  definition is the mean height of the highest one-third of waves; modern instruments often estimate an equivalent
+  quantity statistically from the wave spectrum. Rogue waves are commonly defined relative to this surrounding baseline.
+relatedTerms: []
+reviewedAt: '2026-08-21'
+sources:
+- title: What is a rogue wave?
+  url: https://oceanservice.noaa.gov/facts/roguewaves.html
+  publisher: NOAA National Ocean Service
+  note: Defines rogue waves in relation to the significant wave height of the surrounding sea state.

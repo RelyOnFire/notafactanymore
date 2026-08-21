@@ -4,7 +4,7 @@ entryId: precolumbian-amazon-was-pristine-wilderness
 sourceReviewedAt: '2026-08-20'
 claim: Vor dem europäischen Kontakt war Amazonien weitgehend unberührte Wildnis, die nur von kleinen, verstreuten Gruppen bewohnt wurde, die die Landschaft kaum beeinflussten.
 currentUnderstanding: "Viele Teile Amazoniens wurden bereits vor dem europäischen Kontakt deutlich von indigenen Gesellschaften geprägt. Archäologen fanden Siedlungen, Straßen, Kanäle, Hochbeete, große Erdwerke, gezielt veränderte Böden und langfristige Waldnutzung. Das Ausmaß der Besiedlung unterschied sich im riesigen Becken jedoch stark."
-whyItChanged: "Ältere Modelle betonten nährstoffarme Tropenböden und stellten weite Teile des Landesinneren als Gebiet dar, das nur kleine verstreute Populationen tragen konnte. Archäologie, menschengemachte Schwarzerden, Pflanzenverteilungen, Paläoökologie und Lidar zeigten später in mehreren Regionen dichte Besiedlung und umfangreiche Landschaftsgestaltung."
+whyItChanged: "Ältere Modelle betonten nährstoffarme Tropenböden und stellten weite Teile des Landesinneren als Gebiet dar, das nur kleine verstreute Populationen tragen konnte. Archäologie, menschengemachte Schwarzerden, Pflanzenverteilungen, Paläoökologie und [Lidar](glossary:lidar) zeigten später in mehreren Regionen dichte Besiedlung und umfangreiche Landschaftsgestaltung."
 acceptedApproximately: Mitte des 20. Jahrhunderts bis 1990er-Jahre
 changedApproximately: 1990er-Jahre bis heute
 summary: "Archäologische Befunde zeigten, dass bedeutende Teile des präkolumbischen Amazoniens besiedelte, gestaltete und bewirtschaftete Landschaften und keine unberührte Wildnis waren."
@@ -25,7 +25,7 @@ Forschende fanden *terra preta*, die Amazonas-Schwarzerde: ungewöhnlich fruchtb
 
 Auch die Pflanzenökologie lieferte Hinweise. Manche heutigen Wälder enthalten besonders viele nützliche Baumarten, die indigene Gesellschaften über viele Generationen kultivierten, schützten oder gezielt förderten.
 
-Lidar – eine Laserkartierung aus der Luft – machte große Strukturen unter dichter Vegetation sichtbar und zeigte Siedlungsformen und Erdwerke, die vom Boden aus nur schwer zu erkennen sind.
+Lidar machte große Strukturen unter dichter Vegetation sichtbar und zeigte Siedlungsformen und Erdwerke, die vom Boden aus nur schwer zu erkennen sind.
 
 Das bedeutet nicht, dass das gesamte Amazonasbecken dicht urbanisiert gewesen wäre. Amazonien ist riesig, und Bevölkerungsdichte sowie Landnutzung unterschieden sich stark zwischen Regionen und Zeiten.
 

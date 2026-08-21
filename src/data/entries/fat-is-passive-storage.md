@@ -1,6 +1,6 @@
 ---
 claim: "Body fat is an inert storage depot whose only important role is holding excess energy."
-currentUnderstanding: "Adipose tissue is metabolically active and functions as an endocrine and immune organ. It secretes hormones and signaling molecules that influence appetite, insulin sensitivity, inflammation, reproduction, and vascular biology."
+currentUnderstanding: "[Adipose tissue](glossary:adipose-tissue) is metabolically active and functions as an endocrine and immune organ. It secretes hormones and signaling molecules that influence appetite, insulin sensitivity, inflammation, reproduction, and vascular biology."
 whyItChanged: "The discovery and study of adipose-derived signals, especially leptin and adiponectin, revealed communication between fat tissue, the brain, liver, muscle, immune system, and other organs."
 status: "Superseded"
 category: "Medicine"
@@ -32,7 +32,7 @@ sources:
     note: "Describes the storage, endocrine, thermogenic, and insulin-related functions of adipose tissue."
 ---
 
-For much of modern physiology, white adipose tissue—the body's fat tissue—was described mainly as a fuel warehouse. Fat cells stored excess energy as triglycerides and released fatty acids when needed. That function is real and essential, but it encouraged the image of adipose tissue as metabolically passive packaging.
+For much of modern physiology, white adipose tissue was described mainly as a fuel warehouse. Fat cells stored excess energy as triglycerides and released fatty acids when needed. That function is real and essential, but it encouraged the image of adipose tissue as metabolically passive packaging.
 
 Research on circulating signals changed the picture. Adipose cells and the immune cells living among them were found to secrete numerous signaling molecules. The discovery of leptin in the 1990s was especially striking: a hormone produced by fat tissue could signal the brain about energy stores and influence appetite and metabolism.
 

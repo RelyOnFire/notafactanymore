@@ -1,6 +1,6 @@
 ---
 claim: "Food webs were expected to depend ultimately on photosynthetic primary production powered by sunlight."
-currentUnderstanding: "Some ecosystems do not begin with sunlight. Certain microorganisms can make organic matter using energy released by chemical reactions rather than photosynthesis. This process, called chemosynthesis, can support entire food webs in dark environments such as deep-sea hydrothermal vents."
+currentUnderstanding: "Some ecosystems do not begin with sunlight. Certain microorganisms can make organic matter using energy released by chemical reactions rather than photosynthesis. This process, called chemosynthesis, can support entire food webs in dark environments such as deep-sea [hydrothermal vents](glossary:hydrothermal-vent)."
 whyItChanged: "In 1977, scientists found dense communities of tube worms, clams, and other animals around hydrothermal vents on the Galápagos Rift, far below the reach of sunlight. Researchers later showed that microorganisms there were using chemical energy from vent fluids to make organic matter, providing the base of the local food web."
 status: "Overturned"
 category: "Ocean Science"
@@ -35,7 +35,7 @@ sources:
 
 The familiar route into a food web begins with sunlight. Plants and algae use photosynthesis to turn light energy into organic matter. Herbivores eat them, predators eat the herbivores, and even much of the deep sea depends on organic material that eventually sinks down from sunlit waters.
 
-In 1977, scientists exploring the Galápagos Rift found something unexpected. Around deep-sea hydrothermal vents—cracks where hot, mineral-rich water emerges from the seafloor—they found dense communities of giant tube worms, clams, and other animals. No sunlight reaches those depths.
+In 1977, scientists exploring the Galápagos Rift found something unexpected. Around deep-sea hydrothermal vents they found dense communities of giant tube worms, clams, and other animals. No sunlight reaches those depths.
 
 The animals were not simply living on an unusually large supply of food falling from above. Microorganisms around the vents were using energy from chemical reactions involving substances such as hydrogen sulfide to make organic matter from carbon dioxide. That process is called chemosynthesis.
 

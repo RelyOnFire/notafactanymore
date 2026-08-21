@@ -1,6 +1,6 @@
 ---
 claim: "Carbon has only two true crystalline forms: diamond and graphite."
-currentUnderstanding: "Carbon can form many allotropes—different structures made entirely from the same element. Diamond and graphite are two examples, but carbon also forms fullerenes, carbon nanotubes, graphene, and other structures with very different shapes and properties."
+currentUnderstanding: "Carbon can form many allotropes—different structures made entirely from the same element. Diamond and graphite are two examples, but carbon also forms [fullerenes](glossary:fullerene), [carbon nanotubes](glossary:carbon-nanotube), graphene, and other structures with very different shapes and properties."
 whyItChanged: "For generations, diamond and graphite were the only widely recognized crystalline allotropes of carbon. The discovery of fullerenes in 1985 showed that carbon atoms could form stable closed cages, and later work added nanotubes and isolated graphene to the family."
 status: "Overturned"
 category: "Chemistry"
@@ -40,6 +40,6 @@ Then the family expanded.
 
 In 1985, experiments that vaporized carbon produced C60, a molecule made from sixty carbon atoms joined into a hollow cage shaped roughly like a soccer ball. It became part of a new class called fullerenes.
 
-Researchers later identified carbon nanotubes—tiny cylinders built from carbon sheets—and in 2004 isolated graphene, a single layer of carbon atoms arranged in a flat honeycomb pattern.
+Researchers later identified carbon nanotubes and in 2004 isolated graphene, a single layer of carbon atoms arranged in a flat honeycomb pattern.
 
 Not every proposed carbon structure is equally stable or well established. But diamond and graphite are clearly not the only distinct ways carbon atoms can organize themselves.

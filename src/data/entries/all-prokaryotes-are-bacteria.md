@@ -1,7 +1,7 @@
 ---
 claim: "Prokaryotes were treated as one fundamental group, with organisms now called archaea classified among the bacteria."
 currentUnderstanding: "Cells without a nucleus are not all one kind of organism. They include Bacteria and Archaea, two deeply different evolutionary lineages. Archaea can resemble bacteria under a microscope but differ in their cell membranes, genes, and much of the molecular machinery inside the cell."
-whyItChanged: "In 1977, Carl Woese and George Fox compared ribosomal RNA, part of the cell’s protein-making machinery that changes slowly over evolutionary time. The differences showed that methane-producing microbes then treated as unusual bacteria belonged to a separate major lineage, now called Archaea."
+whyItChanged: "In 1977, Carl Woese and George Fox compared [ribosomal RNA](glossary:ribosomal-rna), whose slowly changing sequences can preserve evidence of deep evolutionary relationships. The differences showed that methane-producing microbes then treated as unusual bacteria belonged to a separate major lineage, now called Archaea."
 status: "Reclassified"
 category: "Microbiology"
 acceptedApproximately: "Mid-20th century–1970s"
@@ -37,7 +37,7 @@ By the mid-twentieth century, biologists often divided cells into two broad type
 
 That meant methane-producing microbes and other organisms now called archaea were classified as unusual kinds of bacteria. Under a microscope, the grouping was understandable: both bacteria and archaea are small cells without nuclei.
 
-Carl Woese and George Fox looked deeper. In 1977, they compared ribosomal RNA, a molecule used by all cells when making proteins. Because parts of this molecule change slowly over evolutionary time, its sequence can reveal very ancient relationships.
+Carl Woese and George Fox looked deeper. In 1977, they compared ribosomal RNA. Because parts of it change slowly over evolutionary time, its sequence can reveal very ancient relationships.
 
 The methane-producing microbes were not simply an odd bacterial branch. Their ribosomal RNA differed so strongly that it pointed to a separate major lineage. Later molecular work reinforced the distinction, and Archaea came to be recognized alongside Bacteria and Eukarya as one of the three domains of cellular life.
 

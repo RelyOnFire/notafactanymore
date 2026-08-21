@@ -22,6 +22,6 @@ Am 1. Januar 1995 zeichnete die Draupner-Ölplattform in der Nordsee eine außer
 
 Danach entwickelte sich die Forschung zu Monsterwellen rasch weiter. Solche Extremereignisse können durch verschiedene Mechanismen entstehen: statistisch seltene Überlagerungen, Wechselwirkungen zwischen Wellengruppen, fokussierende Meeresströmungen, unterschiedliche Einfallsrichtungen und nichtlineare Effekte.
 
-Es gibt keinen einzelnen Mechanismus, der jede Monsterwelle erklärt. Eine gebräuchliche statistische Vergleichsgröße ist die signifikante Wellenhöhe, grob die mittlere Höhe des höchsten Drittels der Wellen eines Seegangs; Definitionen von Monsterwellen vergleichen eine Extremwelle mit diesem Hintergrund.
+Es gibt keinen einzelnen Mechanismus, der jede Monsterwelle erklärt. Eine gebräuchliche statistische Vergleichsgröße ist die [signifikante Wellenhöhe](glossary:significant-wave-height), ein Maß für den umgebenden Seegang; Definitionen von Monsterwellen vergleichen eine Extremwelle mit diesem Hintergrund.
 
 Die moderne Forschung bestätigt damit nicht automatisch jede spektakuläre Seemannsgeschichte. Sie bestätigt die engere wissenschaftliche Aussage eindeutig: Einzelne Meereswellen, die ihre Umgebung außergewöhnlich stark überragen, sind physikalisch real und messbar.

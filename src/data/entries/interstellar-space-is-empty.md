@@ -1,6 +1,6 @@
 ---
 claim: "The space between stars contains no detectable material medium."
-currentUnderstanding: "Interstellar space contains an extremely thin interstellar medium: gas, plasma (gas whose atoms have been electrically charged), dust, molecules, cosmic rays, and magnetic fields. Denser molecular clouds are the raw material for new stars and planets."
+currentUnderstanding: "Interstellar space contains an extremely thin interstellar medium: gas, [plasma](glossary:plasma), dust, molecules, cosmic rays, and magnetic fields. Denser molecular clouds are the raw material for new stars and planets."
 whyItChanged: "The material is too diffuse to see directly. In 1904, Johannes Hartmann found stationary calcium absorption lines in the spectrum of a moving binary star, evidence that absorbing material lay between the star and Earth; later spectroscopy and radio astronomy revealed a pervasive interstellar medium."
 status: "Overturned"
 category: "Astronomy"
@@ -37,7 +37,7 @@ The darkness between stars encouraged an intuitive picture of true emptiness. An
 
 In 1904, Johannes Hartmann was studying the spectrum of a binary star whose own spectral lines shifted back and forth as the stars moved in orbit. Some narrow calcium absorption lines did not move with the star. The simplest explanation was that the absorbing material lay somewhere between the system and Earth.
 
-Further spectroscopy revealed interstellar gas and dust along many sight lines. Radio astronomy later detected cold atomic hydrogen and molecular clouds that are nearly invisible at optical wavelengths, while other observations mapped plasma—gas whose atoms have been electrically charged—along with cosmic rays and magnetic fields.
+Further spectroscopy revealed interstellar gas and dust along many sight lines. Radio astronomy later detected cold atomic hydrogen and molecular clouds that are nearly invisible at optical wavelengths, while other observations mapped plasma along with cosmic rays and magnetic fields.
 
 The interstellar medium turned out to be central to galactic evolution. Stars form from its denser clouds, return material through winds and explosions, and enrich the gas from which later stars and planets form.
 

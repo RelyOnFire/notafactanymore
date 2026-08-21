@@ -40,6 +40,6 @@ The enzyme is called reverse transcriptase. It reads an RNA molecule and builds 
 
 Retroviruses use this process as part of their normal life cycle. After infection, viral RNA is copied into DNA, and that DNA can be inserted into the host cell's genome.
 
-Reverse transcription also occurs outside retroviruses. Related mechanisms are used by retrotransposons—mobile DNA elements that copy themselves through RNA—and by telomerase, an enzyme involved in maintaining chromosome ends.
+Reverse transcription also occurs outside retroviruses. Related mechanisms are used by [retrotransposons](glossary:retrotransposon) and by telomerase, an enzyme involved in maintaining chromosome ends.
 
 There is an important historical nuance. Francis Crick's carefully stated central dogma did not actually forbid RNA-to-DNA transfer. The discovery overturned a widespread simplified version of the rule, not the most precise formulation Crick gave.

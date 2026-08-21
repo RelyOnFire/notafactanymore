@@ -3,7 +3,7 @@ locale: de
 entryId: all-life-depends-on-sunlight
 sourceReviewedAt: "2026-08-20"
 claim: Nahrungsnetze galten letztlich als abhängig von photosynthetischer Primärproduktion, die durch Sonnenlicht angetrieben wird.
-currentUnderstanding: "Manche Ökosysteme beginnen nicht mit Sonnenlicht. Bestimmte Mikroorganismen können organisches Material herstellen, indem sie Energie aus chemischen Reaktionen statt aus Photosynthese gewinnen. Dieser Vorgang heißt Chemosynthese und kann in dunklen Umgebungen wie hydrothermalen Quellen der Tiefsee ganze Nahrungsnetze tragen."
+currentUnderstanding: "Manche Ökosysteme beginnen nicht mit Sonnenlicht. Bestimmte Mikroorganismen können organisches Material herstellen, indem sie Energie aus chemischen Reaktionen statt aus Photosynthese gewinnen. Dieser Vorgang heißt Chemosynthese und kann in dunklen Umgebungen wie [hydrothermalen Quellen](glossary:hydrothermal-vent) der Tiefsee ganze Nahrungsnetze tragen."
 whyItChanged: "1977 fanden Forschende am Galápagos-Rift dichte Gemeinschaften aus Röhrenwürmern, Muscheln und anderen Tieren rund um hydrothermale Quellen – weit unterhalb der Reichweite von Sonnenlicht. Spätere Arbeiten zeigten, dass Mikroorganismen dort chemische Energie aus den Quellfluiden nutzten, um organisches Material herzustellen und damit die Basis des lokalen Nahrungsnetzes zu bilden."
 acceptedApproximately: Vor der Entdeckung der Ökosysteme an hydrothermalen Tiefseequellen
 changedApproximately: 1977 bis frühe 1980er-Jahre
@@ -16,7 +16,7 @@ sourceNotes:
 
 Der vertraute Einstieg in ein Nahrungsnetz ist Sonnenlicht. Pflanzen und Algen nutzen Photosynthese, um Lichtenergie in organisches Material umzuwandeln. Pflanzenfresser fressen sie, Räuber fressen wiederum die Pflanzenfresser, und selbst große Teile der Tiefsee hängen von organischem Material ab, das irgendwann aus den lichtdurchfluteten Wasserschichten nach unten sinkt.
 
-1977 fanden Forschende am Galápagos-Rift etwas Unerwartetes. Rund um hydrothermale Quellen – Spalten, aus denen heißes, mineralreiches Wasser aus dem Meeresboden austritt – lebten dichte Gemeinschaften aus riesigen Röhrenwürmern, Muscheln und anderen Tieren. In diese Tiefe dringt kein Sonnenlicht.
+1977 fanden Forschende am Galápagos-Rift etwas Unerwartetes. Rund um hydrothermale Quellen lebten dichte Gemeinschaften aus riesigen Röhrenwürmern, Muscheln und anderen Tieren. In diese Tiefe dringt kein Sonnenlicht.
 
 Die Tiere lebten nicht einfach von ungewöhnlich viel Nahrung, die von oben herabsank. Mikroorganismen an den Quellen nutzten Energie aus chemischen Reaktionen, unter anderem mit Schwefelwasserstoff, um aus Kohlendioxid organisches Material herzustellen. Dieser Vorgang heißt Chemosynthese.
 

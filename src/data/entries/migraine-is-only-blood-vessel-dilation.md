@@ -1,6 +1,6 @@
 ---
 claim: "Migraine is caused simply by blood vessels constricting and then dilating."
-currentUnderstanding: "Migraine is a neurological disorder involving brain networks, sensory processing, the trigeminal nerve system, signaling molecules, and blood vessels. Changes in vessel size can occur during an attack, but dilation by itself is neither necessary nor enough to explain migraine."
+currentUnderstanding: "Migraine is a neurological disorder involving brain networks, sensory processing, the [trigeminal nerve system](glossary:trigeminal-system), signaling molecules, and blood vessels. Changes in vessel size can occur during an attack, but dilation by itself is neither necessary nor enough to explain migraine."
 whyItChanged: "The older vascular theory linked aura to narrowing of cranial vessels and headache to their later dilation. Brain imaging, blood-flow studies, and treatments aimed at neural signaling showed that attacks can begin without that simple vessel sequence and that migraine involves broader nervous-system changes."
 status: "Superseded"
 category: "Neuroscience"
@@ -38,7 +38,7 @@ That model fit some observations, but not all of them.
 
 Brain imaging and blood-flow studies showed that migraine attacks can begin without the predicted sequence of vessel narrowing and widening. Changes in blood-vessel size also do not track symptoms consistently enough to explain the whole disorder.
 
-Research increasingly pointed to the nervous system itself. The trigeminal system—a major sensory pathway carrying signals from the face, head, and the coverings of the brain—becomes involved during attacks. Brain networks that regulate pain and sensory processing also change, and signaling molecules such as CGRP help transmit and amplify migraine-related signals.
+Research increasingly pointed to the nervous system itself. The trigeminal system becomes involved during attacks. Brain networks that regulate pain and sensory processing also change, and signaling molecules such as CGRP help transmit and amplify migraine-related signals.
 
 Treatments that block CGRP or other neural pathways can prevent or relieve migraine without working as simple mechanical vasoconstrictors.
 

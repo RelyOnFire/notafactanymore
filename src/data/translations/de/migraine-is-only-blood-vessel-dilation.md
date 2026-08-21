@@ -3,7 +3,7 @@ locale: de
 entryId: migraine-is-only-blood-vessel-dilation
 sourceReviewedAt: '2026-08-20'
 claim: Migräne wird einfach dadurch verursacht, dass sich Blutgefäße zunächst verengen und anschließend erweitern.
-currentUnderstanding: "Migräne ist eine neurologische Erkrankung, an der Hirnnetzwerke, Sinnesverarbeitung, das Trigeminussystem, Botenstoffe und Blutgefäße beteiligt sind. Veränderungen der Gefäßweite können während einer Attacke auftreten, doch eine Gefäßerweiterung allein ist weder notwendig noch ausreichend, um Migräne zu erklären."
+currentUnderstanding: "Migräne ist eine neurologische Erkrankung, an der Hirnnetzwerke, Sinnesverarbeitung, das [Trigeminussystem](glossary:trigeminal-system), Botenstoffe und Blutgefäße beteiligt sind. Veränderungen der Gefäßweite können während einer Attacke auftreten, doch eine Gefäßerweiterung allein ist weder notwendig noch ausreichend, um Migräne zu erklären."
 whyItChanged: "Die ältere Gefäßtheorie erklärte die Aura durch eine Verengung von Hirngefäßen und den anschließenden Kopfschmerz durch deren Erweiterung. Bildgebung, Blutflussmessungen und Behandlungen, die gezielt neuronale Signalwege beeinflussen, zeigten jedoch, dass Attacken ohne diese einfache Gefäßabfolge beginnen können und Migräne breitere Veränderungen im Nervensystem umfasst."
 acceptedApproximately: 1940er- bis 1990er-Jahre
 changedApproximately: 1980er-Jahre bis heute
@@ -22,7 +22,7 @@ Das Modell passte zu manchen Beobachtungen, aber nicht zu allen.
 
 Bildgebung und Blutflussmessungen zeigten, dass Migräneattacken auch ohne die vorhergesagte Abfolge von Verengung und Erweiterung beginnen können. Veränderungen der Gefäßweite stimmen außerdem nicht zuverlässig genug mit den Symptomen überein, um die ganze Erkrankung zu erklären.
 
-Die Forschung richtete sich zunehmend auf das Nervensystem selbst. Das Trigeminussystem – ein wichtiger sensorischer Signalweg für Gesicht, Kopf und die Hirnhäute – wird während Attacken aktiviert. Auch Hirnnetzwerke für Schmerz- und Sinnesverarbeitung verändern sich, und Botenstoffe wie CGRP helfen, migränebezogene Signale weiterzugeben und zu verstärken.
+Die Forschung richtete sich zunehmend auf das Nervensystem selbst. Das Trigeminussystem wird während Attacken aktiviert. Auch Hirnnetzwerke für Schmerz- und Sinnesverarbeitung verändern sich, und Botenstoffe wie CGRP helfen, migränebezogene Signale weiterzugeben und zu verstärken.
 
 Medikamente, die CGRP oder andere neuronale Signalwege blockieren, können Migräne verhindern oder lindern, ohne einfach nur Gefäße mechanisch zu verengen.
 

@@ -1,6 +1,6 @@
 ---
 claim: "Adult human heart-muscle cells are permanently post-mitotic and are never replaced."
-currentUnderstanding: "Adult human heart-muscle cells, called cardiomyocytes, do renew, but very slowly. Estimates suggest that roughly 1% are replaced each year in younger adults, with the rate falling with age. That is far too little to rebuild the large amount of muscle lost in a major heart attack."
+currentUnderstanding: "Adult human heart-muscle cells, called [cardiomyocytes](glossary:cardiomyocyte), do renew, but very slowly. Estimates suggest that roughly 1% are replaced each year in younger adults, with the rate falling with age. That is far too little to rebuild the large amount of muscle lost in a major heart attack."
 whyItChanged: "The turnover was too slow to observe easily. Researchers eventually used carbon-14 left in the atmosphere by Cold War nuclear tests as a time stamp: newly formed cells incorporated the carbon level present when their DNA was made. This showed that some adult heart-muscle cells were younger than the person carrying them."
 status: "Overturned"
 category: "Medicine"
@@ -33,7 +33,7 @@ sources:
     note: "Explains that adult mammalian hearts undergo limited self-renewal but remain poor at regenerating after injury."
 ---
 
-For most of the twentieth century, adult heart-muscle cells were thought to be permanent. Once development was complete, cardiomyocytes—the cells that make the heart contract—were expected to last for life rather than divide and be replaced.
+For most of the twentieth century, adult heart-muscle cells were thought to be permanent. Once development was complete, cardiomyocytes were expected to last for life rather than divide and be replaced.
 
 That seemed consistent with what happens after a major heart attack. Dead heart muscle is largely replaced by scar tissue instead of being rebuilt as new working muscle.
 

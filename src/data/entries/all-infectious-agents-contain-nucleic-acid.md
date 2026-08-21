@@ -1,6 +1,6 @@
 ---
 claim: "Transmissible infectious agents were expected to require DNA or RNA to store and propagate biological information."
-currentUnderstanding: "Prions are infectious agents made mainly of protein and carry no DNA or RNA genome of their own. A misfolded prion protein can force normally folded copies of the same protein in the host to change into the same abnormal shape, allowing the harmful form to spread."
+currentUnderstanding: "[Prions](glossary:prion) are infectious agents made mainly of protein and carry no DNA or RNA genome of their own. A misfolded prion protein can force normally folded copies of the same protein in the host to change into the same abnormal shape, allowing the harmful form to spread."
 whyItChanged: "DNA and RNA had become the known carriers of biological information, so an infectious agent without either seemed implausible. Scrapie and related diseases repeatedly failed to yield a viral genome. Stanley Prusiner proposed in 1982 that the agent was an infectious protein, and later work showed how protein shape itself could be copied from one molecule to another."
 status: "Overturned"
 category: "Medicine"

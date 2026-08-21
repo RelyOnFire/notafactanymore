@@ -3,7 +3,7 @@ locale: de
 entryId: adult-heart-cells-never-renew
 sourceReviewedAt: "2026-08-20"
 claim: Herzmuskelzellen erwachsener Menschen sind dauerhaft postmitotisch und werden niemals ersetzt.
-currentUnderstanding: "Herzmuskelzellen des erwachsenen Menschen, sogenannte Kardiomyozyten, erneuern sich tatsächlich – allerdings sehr langsam. Bei jüngeren Erwachsenen werden Schätzungen zufolge ungefähr 1 Prozent pro Jahr ersetzt, mit sinkender Rate im Alter. Das reicht bei weitem nicht aus, um den großen Muskelverlust eines schweren Herzinfarkts zu reparieren."
+currentUnderstanding: "Herzmuskelzellen des erwachsenen Menschen, sogenannte [Kardiomyozyten](glossary:cardiomyocyte), erneuern sich tatsächlich – allerdings sehr langsam. Bei jüngeren Erwachsenen werden Schätzungen zufolge ungefähr 1 Prozent pro Jahr ersetzt, mit sinkender Rate im Alter. Das reicht bei weitem nicht aus, um den großen Muskelverlust eines schweren Herzinfarkts zu reparieren."
 whyItChanged: "Der Zellumsatz war zu langsam, um ihn leicht beobachten zu können. Forschende nutzten schließlich Kohlenstoff-14 aus oberirdischen Atomwaffentests des Kalten Krieges als Zeitmarke: Neu entstandene Zellen bauten den jeweils vorhandenen Kohlenstoff in ihre DNA ein. So zeigte sich, dass manche Herzmuskelzellen bei Erwachsenen jünger waren als die Menschen, zu denen sie gehörten."
 acceptedApproximately: Über weite Teile des 20. Jahrhunderts
 changedApproximately: Spätes 20. Jahrhundert bis 2000er-Jahre
@@ -14,7 +14,7 @@ sourceNotes:
 - Erklärt, dass sich das Herz erwachsener Säugetiere in begrenztem Umfang selbst erneuert, nach Verletzungen aber nur schlecht regeneriert.
 ---
 
-Über weite Teile des 20. Jahrhunderts galten Herzmuskelzellen erwachsener Menschen als dauerhaft. Nach Abschluss der Entwicklung sollten Kardiomyozyten – die Zellen, die das Herz zusammenziehen – ein Leben lang bestehen bleiben, statt sich zu teilen und ersetzt zu werden.
+Über weite Teile des 20. Jahrhunderts galten Herzmuskelzellen erwachsener Menschen als dauerhaft. Nach Abschluss der Entwicklung sollten Kardiomyozyten ein Leben lang bestehen bleiben, statt sich zu teilen und ersetzt zu werden.
 
 Das passte gut zu dem, was nach einem schweren Herzinfarkt geschieht. Abgestorbener Herzmuskel wird größtenteils durch Narbengewebe ersetzt und nicht als neuer funktionsfähiger Muskel wieder aufgebaut.
 

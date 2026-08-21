@@ -3,7 +3,7 @@ locale: de
 entryId: all-infectious-agents-contain-nucleic-acid
 sourceReviewedAt: "2026-08-20"
 claim: Übertragbare infektiöse Erreger galten als auf DNA oder RNA angewiesen, um biologische Information zu speichern und weiterzugeben.
-currentUnderstanding: "Prionen sind infektiöse Erreger, die hauptsächlich aus Protein bestehen und kein eigenes DNA- oder RNA-Genom besitzen. Ein fehlgefaltetes Prionprotein kann normal gefaltete Kopien desselben Proteins im Wirt dazu bringen, ebenfalls diese abnorme Form anzunehmen; so breitet sich die schädliche Faltung aus."
+currentUnderstanding: "[Prionen](glossary:prion) sind infektiöse Erreger, die hauptsächlich aus Protein bestehen und kein eigenes DNA- oder RNA-Genom besitzen. Ein fehlgefaltetes Prionprotein kann normal gefaltete Kopien desselben Proteins im Wirt dazu bringen, ebenfalls diese abnorme Form anzunehmen; so breitet sich die schädliche Faltung aus."
 whyItChanged: "DNA und RNA waren als Träger biologischer Information etabliert, weshalb ein infektiöser Erreger ohne beides kaum vorstellbar schien. Bei Scrapie und verwandten Erkrankungen ließ sich jedoch wiederholt kein virales Genom finden. Stanley Prusiner schlug 1982 ein infektiöses Protein als Ursache vor; spätere Arbeiten zeigten, wie sich die Form eines Proteins von Molekül zu Molekül übertragen kann."
 acceptedApproximately: Mitte des 20. Jahrhunderts bis frühe 1980er-Jahre
 changedApproximately: 1982–1997

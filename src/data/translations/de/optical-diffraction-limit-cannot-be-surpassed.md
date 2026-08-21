@@ -24,9 +24,9 @@ Mit der Zeit wurde die Regel jedoch oft weiter gefasst: Kein optisches Mikroskop
 
 Die Superauflösungsmikroskopie veränderte die Voraussetzungen.
 
-Einige Verfahren verwenden Fluoreszenzmoleküle, die zwischen einem hellen und einem dunklen Zustand geschaltet werden können. Bei PALM und STORM wird jeweils nur eine kleine, weit auseinanderliegende Gruppe von Molekülen eingeschaltet. Dadurch überlagern sich ihre Lichtflecken weniger, und die Position jedes Moleküls kann sehr genau geschätzt werden. Wiederholt man den Vorgang oft genug, lässt sich daraus ein wesentlich feineres Bild zusammensetzen.
+Einige Verfahren trennen Fluoreszenzmoleküle zeitlich voneinander. Bei PALM und STORM leuchtet jeweils nur eine kleine Gruppe gleichzeitig, sodass einzelne Positionen präzise bestimmt und viele Messungen zu einem feineren Bild kombiniert werden können.
 
-STED nutzt einen anderen Ansatz. Ein zusätzlicher Lichtstrahl unterdrückt die Fluoreszenz am Rand eines kleinen Bereichs, sodass nur ein noch kleineres Zentrum leuchten kann.
+STED nutzt einen anderen Ansatz: Ein zusätzlicher Lichtstrahl unterdrückt die Fluoreszenz um einen kleinen zentralen Bereich und verkleinert so die Fläche, die leuchten kann.
 
 Diese Methoden schaffen die Beugung nicht ab. Das Licht jedes leuchtenden Moleküls wird weiterhin gebeugt. Sie gewinnen zusätzliche räumliche Information, indem sie steuern, wann und wo Fluoreszenz auftritt und viele Messungen miteinander kombinieren.
 

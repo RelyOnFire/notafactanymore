@@ -33,7 +33,7 @@ sources:
 
 The dark plains visible across much of the Moon are ancient lava flows. Some of these mare basalts are much younger than most lunar volcanism, raising a basic question: what kept parts of the Moon hot enough to melt so late in its history?
 
-One leading explanation focused on KREEP. The name comes from potassium (K), rare-earth elements (REE), and phosphorus (P). KREEP-rich material also contains radioactive elements that release heat as they decay. Because many young mare basalts occur in the [Procellarum KREEP Terrane](glossary:procellarum-kreep-terrane), it was reasonable to suspect that this extra heat was directly tied to their source.
+One leading explanation focused on KREEP. Its radioactive elements release heat as they decay, and many young mare basalts occur in the [Procellarum KREEP Terrane](glossary:procellarum-kreep-terrane). It was therefore reasonable to suspect that this extra heat was directly tied to their source.
 
 Chang’e-5 made that idea testable by returning rocks from one of the Moon's youngest volcanic regions. The basalts are about 2 billion years old, but their isotope signatures point to a chemically depleted part of the lunar mantle with little KREEP contribution.
 

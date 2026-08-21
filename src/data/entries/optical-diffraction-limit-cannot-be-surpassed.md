@@ -40,9 +40,9 @@ Over time, however, the rule was often restated more broadly: no optical microsc
 
 Super-resolution microscopy changed the assumptions.
 
-Some methods use fluorescent molecules that can be switched between bright and dark states. PALM and STORM, for example, turn on only a sparse set of molecules at a time. Because the glowing spots are separated, each molecule's position can be estimated very precisely. Repeating that process many times allows a much finer image to be reconstructed.
+Some methods separate fluorescent molecules in time. PALM and STORM switch on only a sparse set at once, allowing individual positions to be estimated precisely and many measurements to be combined into a finer image.
 
-STED takes a different approach. It uses an additional beam of light to suppress fluorescence around the edge of a small region, leaving a much smaller central area able to glow.
+STED takes a different approach: an additional beam suppresses fluorescence around a small central region, shrinking the area that can glow.
 
 These methods do not abolish diffraction. The light from each emitting molecule still diffracts. They obtain extra spatial information by controlling when and where fluorescence occurs and by combining many measurements.
 

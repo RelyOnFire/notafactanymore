@@ -3,7 +3,7 @@ locale: de
 entryId: large-brains-evolved-before-bipedalism
 sourceReviewedAt: "2026-08-20"
 claim: "Die menschliche Abstammungslinie entwickelte ein großes Gehirn, bevor sie gewöhnlich auf zwei Beinen ging."
-currentUnderstanding: "Gewohnheitsmäßige [Zweibeinigkeit](glossary:bipedalism), regelmäßiges Gehen auf zwei Beinen, entstand Millionen Jahre vor der starken Zunahme der Gehirngröße bei der Gattung *Homo*. Frühe [Homininen](glossary:hominin), also Angehörige der menschlichen Entwicklungslinie nach ihrer Abspaltung von der Linie zu den Schimpansen, besaßen Gehirne, deren Größe noch weitgehend mit der heutiger Menschenaffen vergleichbar war."
+currentUnderstanding: "Gewohnheitsmäßige [Zweibeinigkeit](glossary:bipedalism), regelmäßiges Gehen auf zwei Beinen, entstand Millionen Jahre vor der starken Zunahme der Gehirngröße bei der Gattung *Homo*. Frühe [Homininen](glossary:hominin) besaßen Gehirne, deren Größe noch weitgehend mit der heutiger Menschenaffen vergleichbar war."
 whyItChanged: "Frühe Theorien behandelten Intelligenz und Gehirnvergrößerung häufig als den Ausgangspunkt der Menschwerdung. Australopithecinen und noch ältere Homininen verbanden dagegen Belege für aufrechten Gang mit relativ kleinen Gehirnen."
 acceptedApproximately: "Spätes 19. bis frühes 20. Jahrhundert"
 changedApproximately: "1920er- bis 1970er-Jahre"

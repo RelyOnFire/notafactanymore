@@ -16,7 +16,7 @@ sourceNotes:
 
 Die dunklen Ebenen auf dem Mond bestehen zu großen Teilen aus alten Lavaflüssen. Einige dieser Mare-Basalte sind deutlich jünger als der Großteil des Mondvulkanismus. Das warf eine einfache Frage auf: Was hielt Teile des Mondes so lange heiß genug, dass dort noch Gestein schmelzen konnte?
 
-Eine wichtige Erklärung konzentrierte sich auf KREEP. Der Name setzt sich aus Kalium (K), Seltenerdelementen (REE) und Phosphor (P) zusammen. KREEP-reiches Material enthält außerdem radioaktive Elemente, die beim Zerfall Wärme freisetzen. Weil viele junge Mare-Basalte im [Procellarum KREEP Terrane](glossary:procellarum-kreep-terrane) liegen, lag die Vermutung nahe, dass diese zusätzliche Wärme unmittelbar mit ihrer Entstehungsquelle zusammenhing.
+Eine wichtige Erklärung konzentrierte sich auf KREEP. Seine radioaktiven Elemente setzen beim Zerfall Wärme frei, und viele junge Mare-Basalte liegen im [Procellarum KREEP Terrane](glossary:procellarum-kreep-terrane). Daher lag die Vermutung nahe, dass diese zusätzliche Wärme unmittelbar mit ihrer Entstehungsquelle zusammenhing.
 
 Chang’e-5 brachte Gestein aus einer der jüngsten Vulkanregionen des Mondes zurück. Die Basalte sind etwa zwei Milliarden Jahre alt, doch ihre Isotopensignaturen weisen auf einen chemisch verarmten Bereich des Mondmantels mit nur geringem KREEP-Beitrag hin.
 

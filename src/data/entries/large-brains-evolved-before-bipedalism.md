@@ -1,6 +1,6 @@
 ---
 claim: "The human lineage developed a large brain before it became habitually bipedal."
-currentUnderstanding: "Habitual [bipedalism](glossary:bipedalism), regular walking on two legs, appeared millions of years before the major expansion of brain size seen in the genus *Homo*. Early [hominins](glossary:hominin), members of the human lineage after its split from the lineage leading to chimpanzees, retained brains broadly comparable in size to those of living apes."
+currentUnderstanding: "Habitual [bipedalism](glossary:bipedalism), regular walking on two legs, appeared millions of years before the major expansion of brain size seen in the genus *Homo*. Early [hominins](glossary:hominin) retained brains broadly comparable in size to those of living apes."
 whyItChanged: "Early theories often treated intelligence and brain enlargement as the initiating human trait. Australopithecine and earlier hominin fossils instead combined evidence of upright walking with relatively small brains."
 status: "Overturned"
 category: "Human Evolution"

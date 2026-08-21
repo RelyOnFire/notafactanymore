@@ -30,8 +30,8 @@ sources:
     note: "States that most scholars now accept a human presence before Clovis while timing and migration routes remain unresolved."
 ---
 
-The Clovis-first model became powerful because Clovis sites supplied exactly the kind of evidence archaeologists wanted: distinctive stone tools found with extinct Ice Age animals and, eventually, reliable dates. For decades, older claims were disputed, poorly dated, or ambiguous, while an ice-free corridor through western Canada offered a plausible route for a late migration from Beringia.
+The [Clovis](glossary:clovis)-first model became powerful because Clovis sites supplied exactly the kind of evidence archaeologists wanted: distinctive stone tools found with extinct Ice Age animals and, eventually, reliable dates. For decades, older claims were disputed, poorly dated, or ambiguous, while an ice-free corridor through western Canada offered a plausible route for a late migration from Beringia.
 
-The model weakened as better pre-Clovis evidence accumulated. Monte Verde in Chile became a major turning point when its occupation was accepted as older than Clovis in the 1990s. Other sites, improved dating, genetics, and reconstructions of ice-sheet history made a single late arrival increasingly difficult to defend and encouraged renewed attention to coastal as well as inland routes.
+The model weakened as better [pre-Clovis](glossary:pre-clovis) evidence accumulated. Monte Verde in Chile became a major turning point when its occupation was accepted as older than Clovis in the 1990s. Other sites, improved dating, genetics, and reconstructions of ice-sheet history made a single late arrival increasingly difficult to defend and encouraged renewed attention to coastal as well as inland routes.
 
 “Pre-Clovis” does not name one culture, and it does not supply one universally agreed first-arrival date. Some much earlier claims remain controversial. The change is narrower but decisive: Clovis can no longer be treated as the first human presence in the Americas.

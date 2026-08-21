@@ -14,7 +14,7 @@ sourceNotes:
 - Stellt fest, dass psychodynamische Familientheorien als tragfähige Ursachenerklärungen nicht Bestand hatten.
 ---
 
-In der Psychiatrie der Mitte des 20. Jahrhunderts wurde die Ursache der Schizophrenie häufig innerhalb der Familie gesucht. Theorien über die „schizophrenogene Mutter“ machten kalte, kontrollierende oder widersprüchliche Erziehung verantwortlich. Die „Double-Bind“-Hypothese wiederum nahm an, wiederholt unvereinbare Botschaften könnten ein Kind in krankhafte Kommunikationsmuster drängen.
+In der Psychiatrie der Mitte des 20. Jahrhunderts wurde die Ursache der Schizophrenie häufig innerhalb der Familie gesucht. Theorien über die [„schizophrenogene Mutter“](glossary:schizophrenogenic-mother) machten kalte, kontrollierende oder widersprüchliche Erziehung verantwortlich. Die [„Double-Bind“](glossary:double-bind)-Hypothese wiederum nahm an, wiederholt unvereinbare Botschaften könnten ein Kind in krankhafte Kommunikationsmuster drängen.
 
 Solche Vorstellungen waren einflussreich, weil die Biologie der Schizophrenie noch wenig verstanden war und psychoanalytische Erklärungen große Teile der Psychiatrie prägten.
 

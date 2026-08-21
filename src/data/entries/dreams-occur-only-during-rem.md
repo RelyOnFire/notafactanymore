@@ -30,9 +30,9 @@ sources:
     note: "Explains that dreams are usually most vivid during REM but can also occur during non-REM sleep."
 ---
 
-The discovery of rapid eye movement sleep in the 1950s seemed to offer an objective physiological marker for something previously accessible mainly through subjective reports. When researchers awakened sleepers during REM, they frequently obtained vivid accounts of dreams. Awakenings from other stages produced dream reports less often.
+The discovery of [rapid eye movement sleep](glossary:rem-sleep) in the 1950s seemed to offer an objective physiological marker for something previously accessible mainly through subjective reports. When researchers awakened sleepers during REM, they frequently obtained vivid accounts of dreams. Awakenings from other stages produced dream reports less often.
 
-That strong association was easy to turn into an identity: REM sleep is dreaming. But the experimental method also provided the means to test the claim. Researchers who systematically awakened people during non-REM sleep found that they too could report imagery, thoughts and sometimes elaborate dream experiences.
+That strong association was easy to turn into an identity: REM sleep is dreaming. But the experimental method also provided the means to test the claim. Researchers who systematically awakened people during [non-REM sleep](glossary:non-rem-sleep) found that they too could report imagery, thoughts and sometimes elaborate dream experiences.
 
 Later neurophysiology and brain-imaging work reinforced the separation between a sleep stage and the conscious experience occurring within it. REM remains especially associated with vivid, emotional and story-like dreams, but it is neither necessary for every dream nor a guarantee that a remembered dream report will follow.
 

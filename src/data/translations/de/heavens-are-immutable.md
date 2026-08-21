@@ -14,7 +14,7 @@ sourceNotes:
 - "Die moderne Sternastronomie behandelt Sterne als sich entwickelnde physikalische Objekte mit Lebenszyklen statt als unveränderliche Lichter."
 ---
 
-Aristoteles teilte den Kosmos in zwei physikalisch verschiedene Bereiche. Unterhalb des Mondes war gewöhnliche Materie Entstehung, Vergehen und geradliniger Bewegung unterworfen. Oberhalb des Mondes galt der Himmel als vollkommen und ewig und bestand aus einem anderen Stoff, dessen natürliche Bewegung gleichförmig und kreisförmig sein sollte.
+Aristoteles teilte den Kosmos in zwei physikalisch verschiedene Bereiche. [Unterhalb des Mondes](glossary:sublunary) war gewöhnliche Materie Entstehung, Vergehen und geradliniger Bewegung unterworfen. Oberhalb des Mondes galt der Himmel als vollkommen und ewig und bestand aus einem anderen Stoff, dessen natürliche Bewegung gleichförmig und kreisförmig sein sollte.
 
 Diese Trennung wurde zu einer der ordnenden Ideen späterer aristotelischer Naturphilosophie. Es ging um die Frage, welche Arten von Veränderung in verschiedenen Regionen des Universums überhaupt physikalisch möglich seien — weit mehr als nur um die Beobachtung, dass Sterne *stabil aussahen*.
 

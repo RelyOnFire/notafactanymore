@@ -32,11 +32,11 @@ sources:
 
 For 76 years after its discovery, Pluto appeared in textbooks as the Solar System's ninth planet. Its unusual orbit and small size were known, but there was no formal definition that clearly excluded it.
 
-The discovery of the Kuiper Belt changed the context. Pluto began to look less like a lone odd planet and more like a large member of a broad population of icy bodies beyond Neptune.
+The discovery of the [Kuiper Belt](glossary:kuiper-belt) changed the context. Pluto began to look less like a lone odd planet and more like a large member of a broad population of icy bodies beyond Neptune.
 
 The issue became unavoidable after the discovery of Eris, an object then thought to rival or exceed Pluto in size. Astronomers faced a classification problem: add more planets as similar bodies were found, or define a boundary.
 
-In 2006, the International Astronomical Union adopted a formal Solar System definition. A planet must orbit the Sun, be rounded by its own gravity, and have cleared the neighbourhood around its orbit. Pluto satisfies the first two conditions but not the third, so it was placed in the new dwarf-planet category.
+In 2006, the International Astronomical Union adopted a formal Solar System definition. A planet must orbit the Sun, be rounded by its own gravity, and have cleared the neighbourhood around its orbit. Pluto satisfies the first two conditions but not the third, so it was placed in the new [dwarf-planet](glossary:dwarf-planet) category.
 
 Nothing physical happened to Pluto in 2006. This was a taxonomic change prompted by new context.
 

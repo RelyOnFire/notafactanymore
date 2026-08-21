@@ -33,7 +33,7 @@ sources:
 
 The seven-chambered uterus is a striking example of a diagram surviving contact with the body it supposedly described.
 
-In medieval learned anatomy, the uterus was sometimes divided into seven cells: three on the right for male fetuses, three on the left for female fetuses, and a central chamber associated with an intersex fetus. The doctrine is often linked to Michael Scot and the Salernitan tradition, though historians trace versions of it earlier.
+In medieval learned anatomy, the uterus was sometimes divided into [seven cells](glossary:seven-cell-uterus-diagram): three on the right for male fetuses, three on the left for female fetuses, and a central chamber associated with an intersex fetus. The doctrine is often linked to Michael Scot and the Salernitan tradition, though historians trace versions of it earlier.
 
 What makes the story remarkable is Mondino de' Liuzzi. His *Anathomia* became enormously influential in medieval anatomical teaching, and he had personally dissected female corpses in Bologna. Yet he still described seven uterine chambers. The inherited scheme was strong enough to shape the interpretation of what dissection revealed.
 

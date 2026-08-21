@@ -32,7 +32,7 @@ sources:
 
 For years, the oldest widely accepted fossils assigned to *Homo sapiens* came from East Africa and clustered near the 200,000-year mark. The Omo remains in Ethiopia, originally dated to roughly 195,000 years, helped anchor a simple picture in which our species appeared around that time in eastern Africa.
 
-Discoveries and redating made both parts of that picture less tidy. Fossils from Jebel Irhoud in Morocco were dated to about 315,000 years ago and displayed a mosaic of traits: faces and teeth that look relatively modern alongside a more archaic braincase. Rather than representing a fully modern population appearing suddenly, they fit a longer evolutionary transition.
+Discoveries and redating made both parts of that picture less tidy. Fossils from [Jebel Irhoud](glossary:jebel-irhoud) in Morocco were dated to about 315,000 years ago and displayed a [mosaic of traits](glossary:mosaic-anatomy): faces and teeth that look relatively modern alongside a more archaic braincase. Rather than representing a fully modern population appearing suddenly, they fit a longer evolutionary transition.
 
 The geography broadened too. Early *Homo sapiens* fossils and technologies occur across widely separated parts of Africa, supporting models in which populations across the continent exchanged genes and traits over long periods.
 

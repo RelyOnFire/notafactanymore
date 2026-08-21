@@ -20,7 +20,7 @@ Einige Wissenschaftler und populäre Darstellungen stellten sich unter den Wolke
 
 Radiobeobachtungen deuteten zunehmend auf extreme Temperaturen hin.
 
-Der Vorbeiflug von Mariner 2 im Jahr 1962 bestätigte eine außerordentlich heiße Venus. Spätere sowjetische Venera-Landesonden maßen direkt Oberflächentemperaturen um 465 °C und einen Druck von etwa dem 90-Fachen des irdischen Luftdrucks auf Meereshöhe.
+Der Vorbeiflug von [Mariner 2](glossary:mariner-2) im Jahr 1962 bestätigte eine außerordentlich heiße Venus. Spätere sowjetische [Venera](glossary:venera)-Landesonden maßen direkt Oberflächentemperaturen um 465 °C und einen Druck von etwa dem 90-Fachen des irdischen Luftdrucks auf Meereshöhe.
 
 Die dichte Kohlendioxidatmosphäre erzeugt einen mächtigen Treibhauseffekt; die Oberfläche ist trocken und nach irdischen Maßstäben extrem lebensfeindlich.
 

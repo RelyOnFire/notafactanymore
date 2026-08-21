@@ -17,7 +17,7 @@ sourceNotes:
 - Zeigt, wie aristotelische Naturphilosophie und ihr Elementeschema bis in die Renaissance hinein im universitären Unterricht verankert blieben.
 ---
 
-Die Vorstellung von Luft als Element entstand aus demselben klassischen Denkrahmen wie die Vorstellung von Wasser als Element. Empedokles unterschied im 5. Jahrhundert v. Chr. vier beständige „Wurzeln“: Erde, Wasser, Luft und Feuer. Aristoteles ordnete sie später in eine umfassendere Physik von Materie und Veränderung ein. In *Über Entstehen und Vergehen* wird Luft mit den Eigenschaften warm und feucht verbunden und als einer der grundlegenden Körper behandelt, die sich ineinander umwandeln können.
+Die Vorstellung von Luft als [Element](glossary:element-concept) entstand aus demselben klassischen Denkrahmen wie die Vorstellung von Wasser als Element. Empedokles unterschied im 5. Jahrhundert v. Chr. vier beständige „Wurzeln“: Erde, Wasser, Luft und Feuer. Aristoteles ordnete sie später in eine umfassendere Physik von Materie und Veränderung ein. In *Über Entstehen und Vergehen* wird Luft mit den Eigenschaften warm und feucht verbunden und als einer der grundlegenden Körper behandelt, die sich ineinander umwandeln können.
 
 Dieses Modell hielt sich nicht nur deshalb so lange, weil es vier Stoffe aufzählte. Die aristotelische Naturphilosophie verknüpfte Erklärungen für irdische Materie, Bewegung, Wetter, den Aufbau des Himmels und Lebewesen. Als Aristoteles' naturwissenschaftliche Schriften im Mittelalter und in der Renaissance zum Universitätsstoff wurden, begegneten Generationen von Gelehrten der „Luft“ als grundlegender Kategorie eines zusammenhängenden physikalischen Systems.
 

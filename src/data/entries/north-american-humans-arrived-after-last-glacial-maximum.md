@@ -26,8 +26,8 @@ sources:
     note: "Tests the disputed original chronology with terrestrial pollen radiocarbon dating and optically stimulated luminescence, independently supporting Last Glacial Maximum ages."
 ---
 
-For much of the 20th century, the dominant archaeological chronology placed the first secure occupation of North America near the end of the last ice age. Earlier sites were proposed repeatedly, but disputed dates or uncertain associations made claims from the Last Glacial Maximum itself difficult to establish.
+For much of the 20th century, the dominant archaeological chronology placed the first secure occupation of North America near the end of the last ice age. Earlier sites were proposed repeatedly, but disputed dates or uncertain associations made claims from the [Last Glacial Maximum](glossary:last-glacial-maximum) itself difficult to establish.
 
 Footprints at White Sands changed that chronology. Tracks preserved in ancient lake deposits were dated to about 23,000–21,000 years ago, several thousand years earlier than the long-standing late-glacial picture. The initial dates relied on seeds from an aquatic plant, which raised a reasonable concern that old carbon from lake water could make them appear too ancient.
 
-A 2023 follow-up tested the result with terrestrial pollen and optically stimulated luminescence. Both methods supported the original age range. The White Sands evidence therefore places people in North America while the Last Glacial Maximum was still underway, pushing secure occupation well beyond the chronology that dominated late-20th-century archaeology.
+A 2023 follow-up tested the result with terrestrial pollen and [optically stimulated luminescence](glossary:luminescence-dating). Both methods supported the original age range. The White Sands evidence therefore places people in North America while the Last Glacial Maximum was still underway, pushing secure occupation well beyond the chronology that dominated late-20th-century archaeology.

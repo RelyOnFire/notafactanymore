@@ -13,6 +13,6 @@ sourceNotes:
 - "Gibt einen Überblick über lebende Quastenflosser, ihre Wiederentdeckung und ihre heutige Verbreitung."
 ---
 
-Die Entdeckung von 1938 zeigte nicht, dass jede fossile Quastenflosser-Art überlebt hatte. Sie zeigte, dass die größere Abstammungslinie lebende Vertreter besitzt.
+Die Entdeckung von 1938 zeigte nicht, dass jede fossile Quastenflosser-Art überlebt hatte. Sie zeigte, dass die größere [Abstammungslinie](glossary:coelacanth) lebende Vertreter besitzt.
 
 Die Bezeichnung moderner Arten als „lebende Fossilien“ kann irreführend sein: Auch heutige Quastenflosser haben sich weiterentwickelt und sind keine buchstäblich unveränderten Überlebenden einer fossilen Art.

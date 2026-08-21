@@ -30,7 +30,7 @@ sources:
     note: "States that psychodynamic family theories have not survived as viable causal models."
 ---
 
-Mid-twentieth-century psychiatry often searched for the origins of schizophrenia inside the family. Theories of the “schizophrenogenic mother” blamed cold, controlling, or contradictory parenting, while the “double bind” hypothesis proposed that repeated incompatible messages trapped a child in pathological communication.
+Mid-twentieth-century psychiatry often searched for the origins of schizophrenia inside the family. Theories of the [“schizophrenogenic mother”](glossary:schizophrenogenic-mother) blamed cold, controlling, or contradictory parenting, while the [“double bind”](glossary:double-bind) hypothesis proposed that repeated incompatible messages trapped a child in pathological communication.
 
 These ideas were influential partly because schizophrenia's biology was poorly understood and psychoanalytic explanations dominated large parts of psychiatry.
 

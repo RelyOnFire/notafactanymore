@@ -31,7 +31,7 @@ sources:
   note: Modern stellar astronomy treats stars as evolving physical objects with life cycles rather than immutable lights.
 ---
 
-Aristotle's cosmos was divided into two physically different realms. Below the Moon, ordinary matter was subject to generation, corruption, and rectilinear motion. Above the Moon, the heavens were perfect, eternal, and composed of a different substance whose natural motion was uniform and circular.
+Aristotle's cosmos was divided into two physically different realms. [Below the Moon](glossary:sublunary), ordinary matter was subject to generation, corruption, and rectilinear motion. Above the Moon, the heavens were perfect, eternal, and composed of a different substance whose natural motion was uniform and circular.
 
 That distinction became one of the organizing ideas of later Aristotelian natural philosophy. It was a theory about what kinds of change were physically possible in different regions of the universe, going far beyond the observation that stars *looked* stable.
 

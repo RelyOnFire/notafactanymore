@@ -14,9 +14,9 @@ sourceNotes:
 - "Erklärt, dass Träume im REM-Schlaf meist besonders lebhaft sind, aber auch im Non-REM-Schlaf auftreten können."
 ---
 
-Die Entdeckung des REM-Schlafs in den 1950er-Jahren schien erstmals einen objektiven physiologischen Marker für etwas zu liefern, das zuvor fast nur über subjektive Berichte zugänglich gewesen war. Wenn Forschende Menschen während REM weckten, berichteten diese häufig von lebhaften Träumen. Nach dem Aufwecken aus anderen Schlafstadien wurden Träume seltener erinnert.
+Die Entdeckung des [REM-Schlafs](glossary:rem-sleep) in den 1950er-Jahren schien erstmals einen objektiven physiologischen Marker für etwas zu liefern, das zuvor fast nur über subjektive Berichte zugänglich gewesen war. Wenn Forschende Menschen während REM weckten, berichteten diese häufig von lebhaften Träumen. Nach dem Aufwecken aus anderen Schlafstadien wurden Träume seltener erinnert.
 
-Aus dieser starken Verbindung wurde leicht eine Gleichsetzung: REM-Schlaf ist Träumen. Doch dieselbe experimentelle Methode erlaubte es auch, die Behauptung zu prüfen. Forschende, die systematisch während des Non-REM-Schlafs weckten, erhielten ebenfalls Berichte über Bilder, Gedanken und teilweise ausführliche Traumerlebnisse.
+Aus dieser starken Verbindung wurde leicht eine Gleichsetzung: REM-Schlaf ist Träumen. Doch dieselbe experimentelle Methode erlaubte es auch, die Behauptung zu prüfen. Forschende, die systematisch während des [Non-REM-Schlafs](glossary:non-rem-sleep) weckten, erhielten ebenfalls Berichte über Bilder, Gedanken und teilweise ausführliche Traumerlebnisse.
 
 Spätere neurophysiologische Untersuchungen und Hirnbildgebung trennten den Schlafzustand noch deutlicher vom bewussten Erleben innerhalb dieses Zustands. REM bleibt besonders stark mit lebhaften, emotionalen und erzählerischen Träumen verbunden, ist aber weder für jeden Traum notwendig noch garantiert REM, dass nach dem Aufwachen ein Traum erinnert wird.
 

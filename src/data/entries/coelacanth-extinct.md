@@ -25,6 +25,6 @@ sources:
     purpose: "Current evidence"
     note: "Overview of living coelacanths, their rediscovery and their modern distribution."
 ---
-The 1938 discovery did not show that every fossil coelacanth species survived. It showed that the broader coelacanth lineage had living representatives.
+The 1938 discovery did not show that every fossil coelacanth species survived. It showed that the broader [coelacanth](glossary:coelacanth) lineage had living representatives.
 
 Calling the modern species a "living fossil" can be misleading: living coelacanths have continued evolving and are not literally unchanged survivors of a fossil species.

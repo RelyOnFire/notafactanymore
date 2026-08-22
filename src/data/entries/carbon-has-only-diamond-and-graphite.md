@@ -16,17 +16,14 @@ media:
   - id: "carbon-allotropes"
     type: "image"
     src: "/media/entries/carbon-has-only-diamond-and-graphite/carbon-allotropes.svg"
-    width: 1205
-    height: 638
-    alt: "Structural models of several forms of pure carbon, including diamond, graphite, a C60 fullerene, a carbon nanotube, and amorphous carbon."
-    caption: "The same element can build radically different structures. This comparison includes diamond and graphite alongside a C60 fullerene, a single-walled carbon nanotube, and amorphous carbon—making visible why the old two-form picture became too narrow."
-    credit: "Jozef Sivek"
-    sourceLabel: "Wikimedia Commons"
-    sourceUrl: "https://commons.wikimedia.org/wiki/File:Carbon_allotropes.svg"
-    rights: "licensed"
-    licenseLabel: "CC BY-SA 4.0"
-    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/"
-    derivative: false
+    width: 1200
+    height: 760
+    alt: "Explanatory comparison of five carbon allotropes: diamond, graphite, a C60 fullerene, a carbon nanotube, and graphene."
+    caption: "One element can build many structures. The graphic contrasts diamond and graphite with a C60 fullerene, a nanotube, and graphene, making clear why the old two-form picture became too narrow."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/carbon-has-only-diamond-and-graphite/"
+    rights: "original"
     layout: "wide"
 sources:
   - title: "Fullertubes: A 30-Year Story"

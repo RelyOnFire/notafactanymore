@@ -1,0 +1,460 @@
+---
+import { getCollection } from 'astro:content';
+import type { SiteLocale } from '../lib/i18n';
+
+interface Props {
+  locale?: SiteLocale;
+}
+
+const { locale = 'en' } = Astro.props;
+
+const beliefs = await getCollection('institutionalBeliefs');
+
+const allEpisodes = beliefs.flatMap((belief) =>
+  belief.data.episodes.map((episode) => ({
+    ...episode,
+    beliefId: belief.id,
+  }))
+);
+
+const periodLabels = locale === 'de'
+  ? {
+      pre1900: 'Vor 1900',
+      early20: '1900–1939',
+      mid20: '1940–1969',
+      late20: '1970–1999',
+      modern: '2000–heute',
+    }
+  : {
+      pre1900: 'Before 1900',
+      early20: '1900–1939',
+      mid20: '1940–1969',
+      late20: '1970–1999',
+      modern: '2000–present',
+    };
+
+const coveragePeriods = [
+  {
+    id: 'pre-1900',
+    start: Number.MIN_SAFE_INTEGER,
+    end: 1899,
+    label: periodLabels.pre1900,
+  },
+  {
+    id: '1900-1939',
+    start: 1900,
+    end: 1939,
+    label: periodLabels.early20,
+  },
+  {
+    id: '1940-1969',
+    start: 1940,
+    end: 1969,
+    label: periodLabels.mid20,
+  },
+  {
+    id: '1970-1999',
+    start: 1970,
+    end: 1999,
+    label: periodLabels.late20,
+  },
+  {
+    id: '2000-present',
+    start: 2000,
+    end: Number.MAX_SAFE_INTEGER,
+    label: periodLabels.modern,
+  },
+];
+
+const baseCoverageRegions = [
+  {
+    id: 'north-america',
+    keys: ['North America'],
+    en: 'North America',
+    de: 'Nordamerika',
+  },
+  {
+    id: 'latin-america-caribbean',
+    keys: ['Latin America', 'Caribbean'],
+    en: 'Latin America & Caribbean',
+    de: 'Lateinamerika & Karibik',
+  },
+  {
+    id: 'europe',
+    keys: ['Europe'],
+    en: 'Europe',
+    de: 'Europa',
+  },
+  {
+    id: 'eastern-europe',
+    keys: ['Eastern Europe'],
+    en: 'Eastern Europe',
+    de: 'Osteuropa',
+  },
+  {
+    id: 'eurasia',
+    keys: ['Eurasia'],
+    en: 'USSR / Eurasia',
+    de: 'UdSSR / Eurasien',
+  },
+  {
+    id: 'middle-east',
+    keys: ['Middle East'],
+    en: 'Middle East',
+    de: 'Naher Osten',
+  },
+  {
+    id: 'south-asia',
+    keys: ['South Asia'],
+    en: 'South Asia',
+    de: 'Südasien',
+  },
+  {
+    id: 'east-asia',
+    keys: ['East Asia'],
+    en: 'East Asia',
+    de: 'Ostasien',
+  },
+  {
+    id: 'southeast-asia',
+    keys: ['Southeast Asia'],
+    en: 'Southeast Asia',
+    de: 'Südostasien',
+  },
+  {
+    id: 'central-asia',
+    keys: ['Central Asia'],
+    en: 'Central Asia',
+    de: 'Zentralasien',
+  },
+  {
+    id: 'africa',
+    keys: ['Africa'],
+    en: 'Africa',
+    de: 'Afrika',
+  },
+  {
+    id: 'oceania',
+    keys: ['Oceania'],
+    en: 'Oceania',
+    de: 'Ozeanien',
+  },
+];
+
+const knownRegionKeys = new Set(baseCoverageRegions.flatMap((region) => region.keys));
+const extraRegionKeys = [...new Set(allEpisodes.map((episode) => episode.region))]
+  .filter((region) => !knownRegionKeys.has(region))
+  .sort((a, b) => a.localeCompare(b, locale));
+
+const coverageRegions = [
+  ...baseCoverageRegions,
+  ...extraRegionKeys.map((region) => ({
+    id: `other-${region.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+    keys: [region],
+    en: region,
+    de: region,
+  })),
+];
+
+const regionHasEpisode = (regionKeys: string[]) =>
+  allEpisodes.some((episode) => regionKeys.includes(episode.region));
+
+const coveredRegionCount = coverageRegions.filter((region) =>
+  regionHasEpisode(region.keys)
+).length;
+
+const matrix = coverageRegions.map((region) => ({
+  ...region,
+  label: locale === 'de' ? region.de : region.en,
+  cells: coveragePeriods.map((period) => {
+    const episodes = allEpisodes.filter(
+      (episode) =>
+        region.keys.includes(episode.region) &&
+        episode.startYear <= period.end &&
+        episode.endYear >= period.start
+    );
+    const polities = [...new Set(episodes.map((episode) => episode.polity))]
+      .sort((a, b) => a.localeCompare(b, locale));
+
+    return {
+      period,
+      count: episodes.length,
+      polityCount: polities.length,
+      polities,
+      density: Math.min(4, episodes.length),
+    };
+  }),
+}));
+
+const copy = locale === 'de'
+  ? {
+      eyebrow: 'Forschungsabdeckung',
+      title: 'Abdeckung des Katalogs',
+      intro:
+        'Die Matrix zeigt, welche Regionen und Zeiträume der derzeitige Katalog bereits dokumentiert. Gezählt werden institutionelle Episoden, deren Laufzeit den jeweiligen Zeitraum berührt.',
+      caution:
+        'Sie beschreibt die Abdeckung dieser Sammlung, nicht die historische Häufigkeit institutioneller Irrtümer. Leere oder dünn besetzte Felder sind Forschungslücken im Katalog.',
+      region: 'Region',
+      episode: 'Episode',
+      episodes: 'Episoden',
+      polity: 'politischer Raum',
+      polities: 'politische Räume',
+      noCoverage: 'Noch keine dokumentierte Episode',
+      densityNote:
+        'Die Schattierung zeigt nur die Zahl dokumentierter Episoden, nicht deren Schweregrad.',
+      summary: (episodes: number, covered: number, total: number) =>
+        `${episodes} Episoden · ${covered} von ${total} Zielregionen derzeit belegt`,
+    }
+  : {
+      eyebrow: 'Research coverage',
+      title: 'Coverage of the catalogue',
+      intro:
+        'This matrix shows which regions and periods the current catalogue already documents. A cell counts institutional episodes whose active span overlaps that period.',
+      caution:
+        'It describes the coverage of this collection, not the historical prevalence of institutional error. Empty or thin cells are research gaps in the catalogue.',
+      region: 'Region',
+      episode: 'episode',
+      episodes: 'episodes',
+      polity: 'polity',
+      polities: 'polities',
+      noCoverage: 'No documented episode yet',
+      densityNote:
+        'Shading indicates only the number of documented episodes, not their severity.',
+      summary: (episodes: number, covered: number, total: number) =>
+        `${episodes} episodes · ${covered} of ${total} target regions currently represented`,
+    };
+
+const cellLabel = (count: number, polityCount: number) => {
+  if (count === 0) return copy.noCoverage;
+  const episodeLabel = count === 1 ? copy.episode : copy.episodes;
+  const polityLabel = polityCount === 1 ? copy.polity : copy.polities;
+  return `${count} ${episodeLabel}, ${polityCount} ${polityLabel}`;
+};
+---
+
+<section class="coverage-section container" id="coverage" aria-labelledby="coverage-title">
+  <header class="coverage-head">
+    <div>
+      <p class="eyebrow">{copy.eyebrow}</p>
+      <h2 id="coverage-title">{copy.title}</h2>
+      <p class="coverage-intro">{copy.intro}</p>
+      <p class="coverage-caution">{copy.caution}</p>
+    </div>
+    <p class="coverage-summary">
+      {copy.summary(allEpisodes.length, coveredRegionCount, coverageRegions.length)}
+    </p>
+  </header>
+
+  <div
+    class="coverage-table-wrap"
+    tabindex="0"
+    aria-label={locale === 'de'
+      ? 'Matrix der Katalogabdeckung nach Region und Zeitraum'
+      : 'Catalogue coverage matrix by region and period'}
+  >
+    <table class="coverage-table">
+      <thead>
+        <tr>
+          <th scope="col" class="region-column">{copy.region}</th>
+          {coveragePeriods.map((period) => (
+            <th scope="col">{period.label}</th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {matrix.map((row) => (
+          <tr>
+            <th scope="row">{row.label}</th>
+            {row.cells.map((cell) => (
+              <td
+                class={`coverage-cell coverage-density-${cell.density}`}
+                title={
+                  cell.count === 0
+                    ? copy.noCoverage
+                    : `${cellLabel(cell.count, cell.polityCount)}: ${cell.polities.join(', ')}`
+                }
+                aria-label={`${row.label}, ${cell.period.label}: ${cellLabel(cell.count, cell.polityCount)}`}
+              >
+                {cell.count === 0 ? (
+                  <span class="coverage-zero" aria-hidden="true">—</span>
+                ) : (
+                  <>
+                    <strong>{cell.count}</strong>
+                    <span>
+                      {cell.polityCount} {cell.polityCount === 1 ? copy.polity : copy.polities}
+                    </span>
+                  </>
+                )}
+              </td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <p class="coverage-density-note">{copy.densityNote}</p>
+</section>
+
+<style>
+  .coverage-section {
+    margin-top: 5.5rem;
+    padding-top: 2.5rem;
+    border-top: 2px solid var(--ink);
+  }
+
+  .coverage-head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(230px, 0.35fr);
+    gap: 2rem;
+    align-items: end;
+  }
+
+  .coverage-head h2 {
+    margin: 0.15rem 0 0.8rem;
+  }
+
+  .coverage-intro {
+    margin: 0;
+    color: var(--muted);
+    font-size: 1.02rem;
+  }
+
+  .coverage-caution {
+    margin: 0.75rem 0 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+
+  .coverage-summary {
+    margin: 0;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--line);
+    border-radius: 0.65rem;
+    background: var(--card);
+    color: var(--muted);
+    font-size: 0.88rem;
+    font-weight: 720;
+  }
+
+  .coverage-table-wrap {
+    margin-top: 1.5rem;
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: 0.8rem;
+    background: var(--card);
+  }
+
+  .coverage-table {
+    width: 100%;
+    min-width: 820px;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+  }
+
+  .coverage-table th,
+  .coverage-table td {
+    padding: 0.8rem 0.7rem;
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .coverage-table tr:last-child > * {
+    border-bottom: 0;
+  }
+
+  .coverage-table tr > *:last-child {
+    border-right: 0;
+  }
+
+  .coverage-table thead th {
+    background: color-mix(in srgb, var(--paper) 78%, var(--card));
+    color: var(--muted);
+    font-size: 0.76rem;
+    font-weight: 850;
+    letter-spacing: 0.035em;
+  }
+
+  .coverage-table .region-column,
+  .coverage-table tbody th {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    min-width: 175px;
+    text-align: left;
+    background: var(--card);
+  }
+
+  .coverage-table thead .region-column {
+    z-index: 3;
+    background: color-mix(in srgb, var(--paper) 78%, var(--card));
+  }
+
+  .coverage-table tbody th {
+    font-weight: 800;
+  }
+
+  .coverage-cell {
+    min-width: 122px;
+    background: var(--card);
+  }
+
+  .coverage-cell strong {
+    display: block;
+    font-size: 1.18rem;
+    line-height: 1;
+  }
+
+  .coverage-cell span:not(.coverage-zero) {
+    display: block;
+    margin-top: 0.28rem;
+    color: var(--muted);
+    font-size: 0.7rem;
+    line-height: 1.2;
+  }
+
+  .coverage-zero {
+    color: color-mix(in srgb, var(--muted) 48%, transparent);
+    font-size: 1.15rem;
+  }
+
+  .coverage-density-1 {
+    background: color-mix(in srgb, #4f5d6b 6%, var(--card));
+  }
+
+  .coverage-density-2 {
+    background: color-mix(in srgb, #4f5d6b 11%, var(--card));
+  }
+
+  .coverage-density-3 {
+    background: color-mix(in srgb, #4f5d6b 17%, var(--card));
+  }
+
+  .coverage-density-4 {
+    background: color-mix(in srgb, #4f5d6b 24%, var(--card));
+  }
+
+  .coverage-density-note {
+    margin: 0.75rem 0 0;
+    color: var(--muted);
+    font-size: 0.78rem;
+  }
+
+  @media (max-width: 760px) {
+    .coverage-section {
+      margin-top: 4rem;
+    }
+
+    .coverage-head {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .coverage-summary {
+      width: fit-content;
+    }
+  }
+</style>

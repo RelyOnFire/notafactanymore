@@ -12,7 +12,21 @@ lifespanComparable: false
 summary: "Adult heart-muscle cells do renew slowly, but not fast enough to repair major damage."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-08-20"
+reviewedAt: "2026-08-22"
+media:
+  - id: "carbon14-heart-cell-dating"
+    type: "image"
+    src: "/media/entries/adult-heart-cells-never-renew/carbon14-heart-cell-dating.en.svg"
+    width: 1200
+    height: 820
+    alt: "Schematic showing the atmospheric carbon-14 spike from nuclear weapons testing and how carbon-14 measured in heart-cell DNA can be matched to the known atmospheric curve to estimate when a cell formed."
+    caption: "Cold War nuclear testing accidentally created a biological timestamp. Atmospheric carbon-14 rose sharply and then declined along a well-measured curve. Because newly made DNA incorporates carbon from its time of formation, researchers could compare carbon-14 in cardiomyocyte DNA with that curve and estimate when the cells were born. The curve shown here is schematic, not a quantitative carbon-14 record."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/adult-heart-cells-never-renew/"
+    rights: "original"
+    derivative: false
+    layout: "wide"
 sources:
   - title: "Heart regeneration: Past, present and future"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2999050/"

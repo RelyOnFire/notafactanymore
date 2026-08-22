@@ -1,13 +1,18 @@
 ---
 locale: de
 entryId: adult-heart-cells-never-renew
-sourceReviewedAt: "2026-08-20"
+sourceReviewedAt: "2026-08-22"
 claim: Herzmuskelzellen erwachsener Menschen sind dauerhaft postmitotisch und werden niemals ersetzt.
 currentUnderstanding: "Herzmuskelzellen des erwachsenen Menschen, sogenannte [Kardiomyozyten](glossary:cardiomyocyte), erneuern sich tatsächlich – allerdings sehr langsam. Bei jüngeren Erwachsenen werden Schätzungen zufolge ungefähr 1 Prozent pro Jahr ersetzt, mit sinkender Rate im Alter. Das reicht bei weitem nicht aus, um den großen Muskelverlust eines schweren Herzinfarkts zu reparieren."
 whyItChanged: "Der Zellumsatz war zu langsam, um ihn leicht beobachten zu können. Forschende nutzten schließlich Kohlenstoff-14 aus oberirdischen Atomwaffentests des Kalten Krieges als Zeitmarke: Neu entstandene Zellen bauten den jeweils vorhandenen Kohlenstoff in ihre DNA ein. So zeigte sich, dass manche Herzmuskelzellen bei Erwachsenen jünger waren als die Menschen, zu denen sie gehörten."
 acceptedApproximately: Über weite Teile des 20. Jahrhunderts
 changedApproximately: Spätes 20. Jahrhundert bis 2000er-Jahre
 summary: "Herzmuskelzellen erwachsener Menschen erneuern sich langsam, aber nicht schnell genug, um größere Schäden zu reparieren."
+media:
+  - id: "carbon14-heart-cell-dating"
+    src: "/media/entries/adult-heart-cells-never-renew/carbon14-heart-cell-dating.de.svg"
+    alt: "Schematische Darstellung des durch Atomwaffentests verursachten Anstiegs von Kohlenstoff-14 in der Atmosphäre und der Methode, Kohlenstoff-14 in der DNA von Herzmuskelzellen mit diesem bekannten Verlauf abzugleichen, um das Entstehungsjahr einer Zelle zu schätzen."
+    caption: "Atomwaffentests des Kalten Krieges erzeugten unbeabsichtigt eine biologische Zeitmarke. Der atmosphärische Kohlenstoff-14-Gehalt stieg stark an und sank danach entlang eines gut vermessenen Verlaufs. Da neu gebildete DNA Kohlenstoff aus ihrer Entstehungszeit einbaut, konnten Forschende den C-14-Gehalt in der DNA von Kardiomyozyten mit dieser Kurve vergleichen und so abschätzen, wann die Zellen entstanden. Die dargestellte Kurve ist schematisch und keine quantitative C-14-Messreihe."
 sourceNotes:
 - Erklärt, dass das Herz über den größten Teil des 20. Jahrhunderts als postmitotisches Organ ohne Regenerationsfähigkeit galt.
 - Berichtet anhand von Kohlenstoff-14-Datierungen über eine altersabhängige jährliche Erneuerung menschlicher Kardiomyozyten.

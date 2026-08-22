@@ -1,13 +1,18 @@
 ---
 locale: de
 entryId: earths-entire-core-is-liquid
-sourceReviewedAt: "2026-08-20"
+sourceReviewedAt: "2026-08-22"
 claim: "Der gesamte metallische Erdkern ist flüssig."
 currentUnderstanding: "Der Erdkern besteht aus zwei Hauptbereichen: Ein flüssiger äußerer Kern umgibt einen festen inneren Kern. Erdbebenwellen machen den Unterschied sichtbar, weil verschiedene seismische Wellentypen sich in festen und flüssigen Materialien unterschiedlich ausbreiten."
 whyItChanged: "Frühe Seismologie zeigte, dass Scherwellen einen großen Bereich des Kerns nicht durchqueren können, und belegte damit eine ausgedehnte flüssige Zone. 1936 fand Inge Lehmann schwache Erdbebenwellen, die ein vollständig flüssiger Kern nicht erklären konnte, und schlug einen kleineren inneren Kern im Erdzentrum vor. Spätere Seismologie zeigte, dass dieser fest ist."
 acceptedApproximately: "Frühes 20. Jahrhundert bis 1936"
 changedApproximately: "1936 bis 1970er-Jahre"
 summary: "Erdbebenwellen enthüllten einen festen inneren Kern innerhalb des flüssigen äußeren Erdkerns."
+media:
+  - id: "seismic-core-explainer"
+    src: "/media/entries/earths-entire-core-is-liquid/seismic-core-explainer.de.svg"
+    alt: "Schematischer Erdquerschnitt: S-Wellen enden am flüssigen äußeren Kern, während P-Wellen den Kern durchqueren und dabei gebrochen werden; im Zentrum liegt der feste innere Kern."
+    caption: "Erdbebenwellen dienen als Sonde für das Erdinnere. S-Wellen können den flüssigen äußeren Kern nicht durchqueren, während P-Wellen ihn passieren und durch Geschwindigkeitsänderungen gebrochen werden. Schwache P-Wellen, die ein vollständig flüssiger Kern nicht erklären konnte, führten Inge Lehmann 1936 zur Annahme eines inneren Kerns; spätere Seismologie zeigte, dass dieser fest ist. Die dargestellten Wellenwege sind vereinfacht und nicht maßstabsgetreu."
 sourceNotes:
 - "Inge Lehmanns Arbeit von 1936 schlug einen inneren Kern zur Erklärung seismischer Beobachtungen vor."
 - "Gibt einen Überblick über die Entdeckung des Erdkerns und die spätere Bestätigung, dass der innere Kern fest ist."

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+<title id="title">Eine unerwartete biologische Uhr</title><desc id="desc">A schematic of the atmospheric carbon-14 bomb pulse and how DNA carbon-14 can date when a heart cell formed.</desc>
+<rect width="1200" height="820" rx="22" fill="#f5f0e6"/>
+<text x="70" y="76" font-family="system-ui,sans-serif" font-size="28" font-weight="700" letter-spacing="2" fill="#4f776e">Eine unerwartete biologische Uhr</text>
+<rect x="70" y="112" width="1060" height="360" rx="22" fill="#fbf8f1" stroke="#d6cec0" stroke-width="2"/>
+<text x="105" y="162" font-family="system-ui,sans-serif" font-size="22" font-weight="650" fill="#2f302d">Atmosphärischer C-14-Verlauf</text>
+<line x1="118" y1="408" x2="1075" y2="408" stroke="#6d6b64" stroke-width="2"/>
+<line x1="118" y1="205" x2="118" y2="408" stroke="#6d6b64" stroke-width="2"/>
+<path d="M120 365 C250 364 300 360 350 342 C405 320 445 242 487 182 C505 156 524 154 542 192 C575 258 630 294 700 319 C800 349 920 361 1070 368" fill="none" stroke="#c7a24d" stroke-width="10" stroke-linecap="round"/>
+<line x1="490" y1="182" x2="490" y2="408" stroke="#a85b4b" stroke-width="2" stroke-dasharray="8 8"/>
+<text x="405" y="225" font-family="system-ui,sans-serif" font-size="20" font-weight="650" fill="#a85b4b">Atomwaffentests</text>
+<text x="150" y="340" font-family="system-ui,sans-serif" font-size="19" fill="#6d6b64">vor den Tests</text>
+<text x="742" y="310" font-family="system-ui,sans-serif" font-size="19" fill="#6d6b64">bekannter Rückgang</text>
+<g font-family="system-ui,sans-serif" font-size="18" fill="#6d6b64" text-anchor="middle">
+<text x="150" y="442">1950</text><text x="490" y="442">1963</text><text x="700" y="442">1980</text><text x="965" y="442">2000</text>
+</g>
+
+<rect x="70" y="505" width="1060" height="245" rx="22" fill="#fbf8f1" stroke="#d6cec0" stroke-width="2"/>
+<!-- person/birth -->
+<circle cx="165" cy="584" r="27" fill="#e8dfcf" stroke="#2f302d" stroke-width="3"/>
+<path d="M118 684 C122 628 137 608 165 608 C193 608 208 628 212 684 Z" fill="#e8dfcf" stroke="#2f302d" stroke-width="3"/>
+<text x="165" y="716" text-anchor="middle" font-family="system-ui,sans-serif" font-size="20" fill="#6d6b64">Geburt</text>
+<!-- arrow 1 --> <path d="M245 620 H350" stroke="#4f776e" stroke-width="4" marker-end="url(#a)"/>
+<!-- dna sample -->
+<g transform="translate(390 555)">
+<path d="M0 0 C48 32 48 92 0 124 M78 0 C30 32 30 92 78 124" fill="none" stroke="#66839a" stroke-width="6"/>
+<g stroke="#c7a24d" stroke-width="3"><line x1="11" y1="18" x2="67" y2="18"/><line x1="22" y1="44" x2="56" y2="44"/><line x1="22" y1="80" x2="56" y2="80"/><line x1="11" y1="106" x2="67" y2="106"/></g>
+</g>
+<text x="429" y="716" text-anchor="middle" font-family="system-ui,sans-serif" font-size="20" fill="#2f302d">C-14 in DNA messen</text>
+<!-- arrow 2 --> <path d="M505 620 H610" stroke="#4f776e" stroke-width="4" marker-end="url(#a)"/>
+<!-- mini curve match -->
+<rect x="640" y="553" width="195" height="126" rx="16" fill="#f5f0e6" stroke="#d6cec0" stroke-width="2"/>
+<path d="M660 650 C690 648 710 646 725 635 C745 619 755 570 775 575 C795 580 805 620 820 640" fill="none" stroke="#c7a24d" stroke-width="6"/>
+<circle cx="797" cy="625" r="8" fill="#a85b4b"/>
+<text x="738" y="716" text-anchor="middle" font-family="system-ui,sans-serif" font-size="20" fill="#2f302d">mit Kurve abgleichen</text>
+<!-- arrow 3 --> <path d="M865 620 H940" stroke="#4f776e" stroke-width="4" marker-end="url(#a)"/>
+<!-- date result -->
+<circle cx="1010" cy="612" r="55" fill="#e8dfcf" stroke="#4f776e" stroke-width="4"/>
+<text x="1010" y="606" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#2f302d">≈ 1980</text>
+<text x="1010" y="716" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#2f302d">Entstehungsjahr</text>
+<text x="1100" y="785" text-anchor="end" font-family="system-ui,sans-serif" font-size="16" fill="#6d6b64">Schematisch — keine quantitative C-14-Skala</text>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#4f776e"/></marker></defs>
+</svg>

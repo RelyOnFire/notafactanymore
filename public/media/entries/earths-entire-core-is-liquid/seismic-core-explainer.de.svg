@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+<title id="title">Erdbebenwellen als Sonde</title><desc id="desc">Schematic showing that S waves stop at Earth's liquid outer core while P waves pass through it and reveal the solid inner core.</desc>
+<rect width="1200" height="820" rx="22" fill="#f5f0e6"/>
+<text x="70" y="76" font-family="system-ui,sans-serif" font-size="28" font-weight="700" letter-spacing="2" fill="#4f776e">Erdbebenwellen als Sonde</text>
+<!-- Earth -->
+<circle cx="600" cy="420" r="300" fill="#e8dfcf" stroke="#2f302d" stroke-width="3"/>
+<circle cx="600" cy="420" r="170" fill="#d8b96c" stroke="#2f302d" stroke-width="3"/>
+<circle cx="600" cy="420" r="78" fill="#c9c2b5" stroke="#2f302d" stroke-width="3"/>
+<!-- quake source -->
+<circle cx="600" cy="120" r="11" fill="#a85b4b"/>
+<path d="M600 100 l-12 18 h13 l-8 18 23-25 h-13 l8-11z" fill="#a85b4b"/>
+<text x="600" y="95" text-anchor="middle" font-family="system-ui,sans-serif" font-size="19" fill="#2f302d">Erdbeben</text>
+<!-- S wave paths (teal dashed) stop at outer core -->
+<path d="M590 132 C480 215 415 290 430 390 C442 470 470 510 505 545" fill="none" stroke="#4f776e" stroke-width="5" stroke-dasharray="10 8"/>
+<path d="M610 132 C720 215 785 290 770 390 C758 470 730 510 695 545" fill="none" stroke="#4f776e" stroke-width="5" stroke-dasharray="10 8"/>
+<!-- stop bars -->
+<line x1="492" y1="530" x2="520" y2="559" stroke="#a85b4b" stroke-width="7"/><line x1="680" y1="559" x2="708" y2="530" stroke="#a85b4b" stroke-width="7"/>
+<!-- P wave paths -->
+<path d="M580 132 C505 220 480 310 505 365 C535 430 555 455 580 480 C600 500 600 565 600 712" fill="none" stroke="#66839a" stroke-width="6"/>
+<path d="M620 132 C695 220 720 310 695 365 C665 430 645 455 620 480 C600 500 600 565 600 712" fill="none" stroke="#66839a" stroke-width="6"/>
+<!-- layer labels -->
+<g font-family="system-ui,sans-serif" fill="#2f302d" text-anchor="middle">
+<text x="600" y="270" font-size="22" font-weight="650">Mantel</text>
+<text x="600" y="377" font-size="21" font-weight="650">flüssiger äußerer Kern</text>
+<text x="600" y="430" font-size="19" font-weight="650">fester innerer Kern</text>
+</g>
+<!-- Callouts -->
+<rect x="70" y="236" width="270" height="140" rx="18" fill="#fbf8f1" stroke="#d6cec0" stroke-width="2"/>
+<line x1="340" y1="315" x2="440" y2="360" stroke="#4f776e" stroke-width="3"/>
+<text x="105" y="285" font-family="system-ui,sans-serif" font-size="25" font-weight="700" fill="#4f776e">S-Welle</text>
+<text x="105" y="328" font-family="system-ui,sans-serif" font-size="20" fill="#2f302d">stoppt an Flüssigkeit</text>
+<rect x="860" y="236" width="270" height="140" rx="18" fill="#fbf8f1" stroke="#d6cec0" stroke-width="2"/>
+<line x1="860" y1="315" x2="720" y2="360" stroke="#66839a" stroke-width="3"/>
+<text x="895" y="285" font-family="system-ui,sans-serif" font-size="25" font-weight="700" fill="#66839a">P-Welle</text>
+<text x="895" y="328" font-family="system-ui,sans-serif" font-size="20" fill="#2f302d">durchquert Flüssigkeit</text>
+<text x="1100" y="785" text-anchor="end" font-family="system-ui,sans-serif" font-size="16" fill="#6d6b64">Schematische Wellenwege — nicht maßstabsgetreu</text>
+</svg>

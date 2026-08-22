@@ -11,7 +11,21 @@ timelineYear: 1936
 summary: "Earthquake waves revealed a solid inner core inside Earth's liquid outer core."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-20"
+reviewedAt: "2026-08-22"
+media:
+  - id: "seismic-core-explainer"
+    type: "image"
+    src: "/media/entries/earths-entire-core-is-liquid/seismic-core-explainer.en.svg"
+    width: 1200
+    height: 820
+    alt: "Schematic cross-section of Earth showing S waves stopping at the liquid outer core while P waves pass through the core and are refracted, with a solid inner core at the center."
+    caption: "Earthquake waves act like a probe of Earth's interior. S waves cannot travel through the liquid outer core, while P waves can pass through it and bend as their speed changes. Subtle P-wave arrivals that a completely liquid core could not explain led Inge Lehmann to propose an inner core in 1936; later seismology established that the inner core is solid. Wave paths here are simplified and not to scale."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/earths-entire-core-is-liquid/"
+    rights: "original"
+    derivative: false
+    layout: "wide"
 sources:
   - title: "P′"
     url: "https://doi.org/10.1111/j.1365-246X.1936.tb01483.x"

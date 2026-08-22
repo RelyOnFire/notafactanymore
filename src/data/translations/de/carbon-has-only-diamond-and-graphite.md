@@ -10,8 +10,8 @@ changedApproximately: 1985–2004
 summary: "Diamant und Graphit erwiesen sich als nur zwei Mitglieder einer viel größeren Familie von Kohlenstoffstrukturen."
 media:
   - id: "carbon-allotropes"
-    alt: "Erklärungsgrafik mit fünf Kohlenstoffallotropen: Diamant, Graphit, ein C60-Fulleren, eine Kohlenstoffnanoröhre und Graphen."
-    caption: "Ein und dasselbe Element kann viele Strukturen bilden. Die Grafik stellt Diamant und Graphit einem C60-Fulleren, einer Nanoröhre und Graphen gegenüber – und zeigt, warum das alte Bild von nur zwei Formen zu eng wurde."
+    alt: "Strukturmodelle mehrerer Formen von reinem Kohlenstoff, darunter Diamant, Graphit, ein C60-Fulleren, eine Kohlenstoffnanoröhre und amorpher Kohlenstoff."
+    caption: "Dasselbe Element kann grundverschiedene Strukturen bilden. Der Vergleich zeigt Diamant und Graphit zusammen mit einem C60-Fulleren, einer einwandigen Kohlenstoffnanoröhre und amorphem Kohlenstoff – und macht sichtbar, warum das alte Bild von nur zwei Formen zu eng wurde."
 sourceNotes:
 - Berichtet, dass bis in die 1980er-Jahre nur Diamant und Graphit als Kohlenstoffallotrope anerkannt waren.
 - Datiert die Entdeckung des C60-Fullerens auf 1985 und gibt einen Überblick über die spätere Identifizierung von Nanoröhren und Graphen.

@@ -12,20 +12,6 @@ summary: "Dust-biased star counts placed us near the middle of the Galaxy until 
 featured: false
 publishedAt: "2026-07-23"
 reviewedAt: "2026-08-22"
-media:
-  - id: "milky-way-mapping-bias"
-    type: "image"
-    src: "/media/entries/sun-at-center-of-milky-way/milky-way-mapping-bias.en.svg"
-    width: 1200
-    height: 760
-    alt: "Two-panel schematic of Milky Way mapping. Dust-limited star counts make the visible stellar system look centered on the Sun, while the distribution of globular clusters points to a much larger Galaxy with the Sun far from the center."
-    caption: "Star counts were biased by interstellar dust, which hid distant stars and made the observable system look locally centered on the Sun. Shapley's globular-cluster map instead pointed toward a much larger Galactic system centered far away in Sagittarius."
-    credit: "Original graphic: Not a Fact Anymore"
-    sourceLabel: "Not a Fact Anymore"
-    sourceUrl: "https://notafactanymore.com/entries/sun-at-center-of-milky-way/"
-    rights: "original"
-    derivative: false
-    layout: "wide"
 sources:
   - title: "The Great Debate: Historical Review"
     url: "https://apod.nasa.gov/diamond_jubilee/papers/trimble.html"

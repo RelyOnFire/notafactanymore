@@ -13,18 +13,19 @@ featured: false
 publishedAt: "2026-07-24"
 reviewedAt: "2026-08-22"
 media:
-  - id: "seafloor-relief-explainer"
+  - id: "atlantic-bathymetry-noaa"
     type: "image"
-    src: "/media/entries/deep-ocean-floor-flat-featureless/seafloor-relief-explainer.en.svg"
-    width: 1200
-    height: 820
-    alt: "Two-panel explanatory diagram. The left panel shows a ship taking only a few isolated depth soundings above an imagined smooth ocean basin. The right panel shows sonar measuring a much more varied seafloor with a continental slope, abyssal plain, seamount, mid-ocean ridge, and deep trench."
-    caption: "Why the old picture was plausible, and why it failed. Sparse depth measurements left enormous gaps that could be mentally filled with a smooth basin; systematic sounding and sonar revealed ridges, trenches, seamounts and other large relief. Abyssal plains are real, but they are only one part of the seafloor."
-    credit: "Original graphic: Not a Fact Anymore"
-    sourceLabel: "Not a Fact Anymore"
-    sourceUrl: "https://notafactanymore.com/entries/deep-ocean-floor-flat-featureless/"
-    rights: "original"
-    layout: "wide"
+    src: "/media/entries/deep-ocean-floor-flat-featureless/atlantic-bathymetry-noaa.webp"
+    width: 800
+    height: 1000
+    alt: "Bathymetric relief map of the Atlantic region. A long mid-ocean ridge runs down the center of the ocean basin, with broad abyssal plains, fracture zones, continental margins, trenches, and other large seafloor features visible around it."
+    caption: "Bathymetric relief of the Atlantic seafloor. The Mid-Atlantic Ridge runs through the center of the basin, surrounded by abyssal plains, fracture zones, seamounts, continental margins, and other large-scale relief. The deep ocean does contain broad flat plains, but they are only one part of a much more varied landscape."
+    credit: "NOAA"
+    sourceLabel: "Wikimedia Commons"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Atlantic_bathymetry.jpg"
+    rights: "public-domain"
+    derivative: true
+    layout: "inline"
 sources:
   - title: "Developing the theory: This Dynamic Earth"
     url: "https://pubs.usgs.gov/gip/dynamic/developing.html"

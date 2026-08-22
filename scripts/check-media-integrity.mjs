@@ -38,6 +38,28 @@ const mediaIds = (fm) =>
   [...mediaBlock(fm).matchAll(/^\s+- id:\s*(.+?)\s*$/gm)]
     .map((match) => stripQuotes(match[1]));
 
+const mediaSrcs = (fm) =>
+  [...mediaBlock(fm).matchAll(/^\s+src:\s*(.+?)\s*$/gm)]
+    .map((match) => stripQuotes(match[1]));
+
+const validateLocalAsset = (slug, src) => {
+  if (!src.startsWith('/')) return;
+
+  if (!src.startsWith('/media/')) {
+    errors.push(
+      `en/${slug}: local media src ${JSON.stringify(src)} must live under /media/`
+    );
+    return;
+  }
+
+  const publicPath = path.join(ROOT, 'public', src.slice(1));
+  if (!fs.existsSync(publicPath)) {
+    errors.push(
+      `en/${slug}: local media asset does not exist: ${src} (expected ${publicPath})`
+    );
+  }
+};
+
 const validateUnique = (slug, locale, ids) => {
   const seen = new Set();
   for (const id of ids) {
@@ -57,6 +79,10 @@ for (const name of markdownFiles(entriesDir)) {
   const fm = frontmatter(path.join(entriesDir, name));
   const ids = mediaIds(fm);
   validateUnique(slug, 'en', ids);
+
+  const srcs = mediaSrcs(fm);
+  for (const src of srcs) validateLocalAsset(slug, src);
+
   enBySlug.set(slug, ids);
 }
 

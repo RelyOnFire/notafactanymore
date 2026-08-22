@@ -15,9 +15,9 @@ reviewedAt: "2026-08-21"
 media:
   - id: "california-island-vinckeboons-1650"
     type: "image"
-    src: "https://blogs.loc.gov/loc/files/2020/01/Screen-Shot-2020-01-03-at-2.40.42-PM-1024x822.png"
-    width: 1024
-    height: 822
+    src: "/media/entries/california-is-an-island/california-island-vinckeboons-1650.webp"
+    width: 2400
+    height: 1712
     alt: "Seventeenth-century manuscript map showing California as a long island separated from the North American mainland, crossed by navigational rhumb lines."
     caption: "Joan Vinckeboons’s manuscript map from about 1650 shows California as a detached island, directly documenting the cartographic model that circulated in seventeenth-century Europe."
     credit: "Joan Vinckeboons, ca. 1650"

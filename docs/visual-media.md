@@ -6,10 +6,12 @@ Visuals on Not a Fact Anymore are evidence or explanation, not decoration.
 
 - Add a visual only when it helps a reader understand the old model, the corrective evidence, or the mechanism of change.
 - Prefer primary or institutional source material for historical maps, photographs, scans, and scientific figures.
+- When reuse rights allow it, keep a web-sized derivative under `public/media/entries/<slug>/` and serve that local copy. The institutional `sourceUrl` remains the provenance link.
+- External image URLs are an exception, not the default; hotlinks can break or be blocked.
 - Do not use generic stock imagery.
 - Every media item requires descriptive alt text, an explanatory caption, creator/credit information, a source link, and a rights classification.
 - English and German cards use the same media IDs. Alt text and captions are localized independently.
-- The permanent media checker rejects EN/DE media-ID drift.
+- The permanent media checker rejects EN/DE media-ID drift and fails the build when a site-relative `/media/...` asset is missing from `public/`.
 
 ## Placement
 

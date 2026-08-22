@@ -12,6 +12,22 @@ summary: "Pigment traces and imaging revealed that much classical marble sculptu
 featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
+media:
+  - id: "peplos-kore-cast-color-reconstruction"
+    type: "image"
+    src: "/media/entries/classical-statues-were-unpainted-white/peplos-kore-cast-color-reconstruction.webp"
+    width: 2197
+    height: 2668
+    alt: "Two museum casts of the ancient Greek Peplos Kore shown side by side: one pale plaster cast and one reconstruction with painted hair, skin, clothing, and patterned decoration."
+    caption: "A plaster cast of the Peplos Kore beside a modern color reconstruction at Cambridge’s Museum of Classical Archaeology. The reconstruction is interpretive rather than a literal recovery of every lost color, but it makes visible the kind of painted surface supported by surviving pigment and analytical evidence."
+    credit: "Photo: Zde; Cambridge Museum of Classical Archaeology"
+    sourceLabel: "Wikimedia Commons"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Peplos_Kore,_cast_and_reconstruction,_Cambridge_Museum_of_Classical_Archaeology,_154248.jpg"
+    rights: "licensed"
+    licenseLabel: "CC BY-SA 4.0"
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/"
+    derivative: true
+    layout: "inline"
 sources:
   - title: "Polychromy of Roman Marble Sculpture"
     url: "https://www.metmuseum.org/essays/polychromy-of-roman-marble-sculpture"

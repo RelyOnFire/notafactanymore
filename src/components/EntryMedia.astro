@@ -22,8 +22,10 @@ const labels = locale === 'de'
       rights: {
         'public-domain': 'Gemeinfrei',
         'public-domain-no-known-restrictions': 'Gemeinfrei / keine bekannten Einschränkungen',
+        'licensed': 'Lizenziert',
         'source-specific': 'Rechte siehe Quelle',
       },
+      derivative: 'Für die Webdarstellung konvertiert',
     }
   : {
       source: 'View source ↗',
@@ -31,8 +33,10 @@ const labels = locale === 'de'
       rights: {
         'public-domain': 'Public domain',
         'public-domain-no-known-restrictions': 'Public domain / no known restrictions',
+        'licensed': 'Licensed',
         'source-specific': 'See source for rights',
       },
+      derivative: 'Converted for web display',
     };
 ---
 {media.length > 0 && (
@@ -71,7 +75,19 @@ const labels = locale === 'de'
                 {item.sourceLabel}: {labels.source}
               </a>
               <span aria-hidden="true"> · </span>
-              <span>{labels.rights[item.rights]}</span>
+              {item.licenseUrl && item.licenseLabel ? (
+                <a href={item.licenseUrl} target="_blank" rel="noopener noreferrer">
+                  {item.licenseLabel}
+                </a>
+              ) : (
+                <span>{labels.rights[item.rights]}</span>
+              )}
+              {item.derivative && (
+                <>
+                  <span aria-hidden="true"> · </span>
+                  <span>{labels.derivative}</span>
+                </>
+              )}
             </p>
           </figcaption>
         </figure>

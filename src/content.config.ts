@@ -21,9 +21,21 @@ const entryMedia = z.object({
   rights: z.enum([
     'public-domain',
     'public-domain-no-known-restrictions',
+    'licensed',
     'source-specific',
   ]),
+  licenseLabel: z.string().min(1).optional(),
+  licenseUrl: z.string().url().optional(),
+  derivative: z.boolean().optional().default(false),
   layout: z.enum(['inline', 'wide']).optional().default('wide'),
+}).superRefine((media, ctx) => {
+  if (media.rights === 'licensed' && (!media.licenseLabel || !media.licenseUrl)) {
+    ctx.addIssue({
+      code: 'custom',
+      message: 'licensed media requires licenseLabel and licenseUrl',
+      path: ['rights'],
+    });
+  }
 });
 
 const translatedEntryMedia = z.object({

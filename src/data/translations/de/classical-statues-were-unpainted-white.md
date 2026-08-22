@@ -8,6 +8,10 @@ whyItChanged: Pigmente verwitterten, wurden verschüttet oder bei Reinigung und 
 acceptedApproximately: Renaissance bis 20. Jahrhundert
 changedApproximately: 19. Jahrhundert bis heute
 summary: Pigmentreste und Bildgebung zeigten, dass ein großer Teil klassischer Marmorskulptur ursprünglich farbig gestaltet war.
+media:
+  - id: "peplos-kore-cast-color-reconstruction"
+    alt: "Zwei Museumsabgüsse der antiken griechischen Peplos-Kore nebeneinander: ein heller Gipsabguss und eine Rekonstruktion mit bemalten Haaren, Haut, Kleidung und gemusterter Verzierung."
+    caption: "Ein Gipsabguss der Peplos-Kore neben einer modernen Farbrekonstruktion im Museum of Classical Archaeology in Cambridge. Die Rekonstruktion ist interpretativ und keine exakte Wiederherstellung jeder verlorenen Farbe; sie veranschaulicht jedoch die Art bemalter Oberfläche, die durch erhaltene Pigmente und analytische Befunde gestützt wird."
 sourceNotes:
 - Gibt einen Überblick über Belege, dass griechische und römische Skulpturen bemalt, vergoldet, versilbert und eingelegt waren.
 - Erklärt, wie das Bild des weißen Marmors zu einem modernen Missverständnis wurde und wie die Polychromieforschung es infrage stellte.

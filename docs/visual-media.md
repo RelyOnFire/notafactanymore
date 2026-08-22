@@ -10,6 +10,7 @@ Visuals on Not a Fact Anymore are evidence or explanation, not decoration.
 - External image URLs are an exception, not the default; hotlinks can break or be blocked.
 - Do not use generic stock imagery.
 - Every media item requires descriptive alt text, an explanatory caption, creator/credit information, a source link, and a rights classification.
+- For Creative Commons or other explicitly licensed media, record the license name and license URL. If the local web copy was resized, converted, cropped, or otherwise altered, set `derivative: true` so the rendered credit states that the file was modified for web display.
 - English and German cards use the same media IDs. Alt text and captions are localized independently.
 - The permanent media checker rejects EN/DE media-ID drift and fails the build when a site-relative `/media/...` asset is missing from `public/`.
 
@@ -32,6 +33,8 @@ Visuals currently appear only on full entry pages, between the expanded fact car
 - `sourceLabel`
 - `sourceUrl`
 - `rights`
+- `licenseLabel` / `licenseUrl` for explicitly licensed media
+- `derivative`
 - `layout`
 
 ## German media translation fields
@@ -44,6 +47,7 @@ Visuals currently appear only on full entry pages, between the expanded fact car
 
 - `public-domain`
 - `public-domain-no-known-restrictions`
+- `licensed`
 - `source-specific`
 
 ## First prototype

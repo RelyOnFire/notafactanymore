@@ -1,0 +1,14 @@
+locale: de
+entryId: race-based-kidney-function-correction
+sourceReviewedAt: 2026-08-22
+title: „Rassenkorrektur“ der Nierenfunktion
+claim: Die Einstufung als schwarz wurde als physiologische Variable behandelt, die bei ansonsten gleichen kreatininbasierten Ausgangswerten automatisch zu einer höheren geschätzten Nierenfunktion führen sollte.
+currentUnderstanding: „Rasse“ ist eine soziale und keine biologische Kategorie und zu ungenau, um als pauschaler physiologischer Korrekturfaktor in Gleichungen zur Nierenfunktion zu dienen. Aktuelle US-Empfehlungen verwenden rassenunabhängige eGFR-Gleichungen und greifen bei Bedarf an höherer Genauigkeit auf Cystatin C oder eine direkte GFR-Messung zurück.
+episodes:
+  - id: united-states-1999-2021
+    polity: Vereinigte Staaten
+    summary: Beginnend mit der 1999 veröffentlichten MDRD-Gleichung und später der weit verbreiteten CKD-EPI-Gleichung erhielten in den USA als schwarz klassifizierte Patienten bei der Schätzung der Nierenfunktion einen höheren eGFR-Wert. KDOQI-Leitlinien empfahlen Gleichungen, in denen „Rasse“ als Variable berücksichtigt wurde, und Labore automatisierten deren Anwendung. 2021 empfahlen die National Kidney Foundation und die American Society of Nephrology die rasche Umstellung auf eine neue rassenunabhängige Gleichung.
+    consequences:
+      - Rassenabhängige Einstufung chronischer Nierenerkrankungen
+      - Mögliche Verzögerung nephrologischer Betreuung und Transplantationsüberweisung
+      - Rassenabhängige Schwellenwerte für Medikamente und Behandlungen

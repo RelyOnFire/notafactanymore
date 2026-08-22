@@ -1,0 +1,36 @@
+title: Race-based kidney-function correction
+claim: Black race was treated as a physiological variable that justified automatically increasing estimated kidney function for Black patients with otherwise identical creatinine-based inputs.
+currentUnderstanding: Race is a social rather than biological category and is too imprecise to serve as a blanket physiological correction in kidney-function equations. Current U.S. guidance recommends race-free eGFR equations, with cystatin C or measured GFR used when greater precision is needed.
+category: Medicine and clinical algorithms
+reviewedAt: 2026-08-22
+episodes:
+  - id: united-states-1999-2021
+    polity: United States
+    region: North America
+    startYear: 1999
+    endYear: 2021
+    periodLabel: 1999–2021
+    strength: policy-basis
+    institutionTypes: [medical, professional]
+    institutions:
+      - National Kidney Foundation KDOQI guidelines
+      - U.S. clinical laboratories and health systems
+      - CKD-EPI clinical equation ecosystem
+    consequences:
+      - Race-dependent chronic-kidney-disease staging
+      - Potential delay of nephrology and transplant referral
+      - Race-dependent medication and treatment thresholds
+    summary: Beginning with the MDRD equation published in 1999 and later the widely adopted CKD-EPI equation, U.S. kidney-function estimates applied a higher eGFR to patients classified as Black. KDOQI guidelines recommended prediction equations incorporating race, and laboratories automated their use. In 2021, the National Kidney Foundation and American Society of Nephrology recommended immediate adoption of a new race-free equation, concluding that a uniform approach without a race variable was preferable for U.S. clinical care.
+    sources:
+      - title: KDOQI Clinical Practice Guidelines — Guideline 4, Estimation of GFR
+        url: https://kidneyfoundation.cachefly.net/professionals/KDOQI/guidelines_ckd/p5_lab_g4.htm
+        publisher: National Kidney Foundation
+        note: Historical guideline recommending GFR prediction equations using variables including race and specifically endorsing the MDRD Study equation for adults.
+      - title: A Unifying Approach for GFR Estimation — Recommendations of the NKF-ASN Task Force
+        url: https://pubmed.ncbi.nlm.nih.gov/34556489/
+        publisher: Journal of the American Society of Nephrology
+        note: Final 2021 task-force recommendation for immediate implementation of a race-free creatinine equation across U.S. laboratories.
+      - title: National Kidney Foundation Laboratory Engagement Working Group Recommendations for Implementing the CKD-EPI 2021 Race-Free Equations
+        url: https://academic.oup.com/clinchem/article/68/4/511/6463626
+        publisher: Clinical Chemistry
+        note: Documents widespread U.S. laboratory use of MDRD and CKD-EPI equations containing a Black race coefficient and the rationale for replacing them with race-free equations.

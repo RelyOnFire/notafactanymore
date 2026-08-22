@@ -178,7 +178,7 @@ const institutionalEpisode = z.object({
   region: z.string().min(1),
   startYear: z.number().int(),
   endYear: z.number().int(),
-  periodLabel: z.string().min(1),
+  endOpen: z.boolean().optional().default(false),
   strength: institutionalStrength,
   institutionTypes: z.array(institutionalType).min(1),
   institutions: z.array(z.string().min(1)).min(1),

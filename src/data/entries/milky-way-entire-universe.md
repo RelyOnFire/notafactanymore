@@ -1,7 +1,7 @@
 ---
 claim: "The Milky Way contains essentially the entire universe."
 currentUnderstanding: "The Milky Way is one galaxy among an enormous population of other galaxies spread throughout the observable universe."
-whyItChanged: "Improved distance measurements resolved individual stars in spiral nebulae such as Andromeda. Edwin Hubble's observations of [Cepheid variable stars](glossary:cepheid-variable) showed that these objects were far beyond the Milky Way."
+whyItChanged: "Improved distance measurements resolved individual stars in spiral nebulae such as Andromeda. Edwin Hubble's observations of Cepheid variable stars showed that these objects were far beyond the Milky Way."
 status: "Overturned"
 category: "Astronomy"
 acceptedApproximately: "Late 19th and early 20th centuries"
@@ -12,6 +12,19 @@ summary: "Distance measurements showed that spiral nebulae were separate galaxie
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
+media:
+  - id: "milky-way-entire-universe-explainer"
+    type: "image"
+    src: "/media/entries/milky-way-entire-universe/milky-way-entire-universe-explainer.en.svg"
+    width: 760
+    height: 1730
+    alt: "Two-stage scale diagram. The first shows spiral nebulae placed within a large Milky Way representing nearly the whole known universe. The second uses a distance measurement to place Andromeda outside the Milky Way and shows additional galaxies beyond it."
+    caption: "The crucial change was one of measured distance. Once Cepheid variables placed Andromeda far beyond the known extent of the Milky Way, the spiral nebula could no longer be an object inside our Galaxy: the Milky Way became one galaxy among many."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/milky-way-entire-universe/"
+    rights: "original"
+    layout: "wide"
 sources:
   - title: "Mount Wilson Astronomer Estimates Milky Way Ten Times Bigger Than Thought"
     url: "https://imagine.gsfc.nasa.gov/educators/programs/cosmictimes/educators/guide/1919/milkyway.html"
@@ -34,7 +47,7 @@ At the start of the twentieth century, astronomers knew that the Milky Way was a
 
 The dispute was serious enough to produce the 1920 Great Debate between Harlow Shapley and Heber Curtis. Shapley's enlarged estimate of the Milky Way made it easier to place the spirals inside it, while Curtis argued for an extragalactic interpretation.
 
-The decisive evidence was distance. Edwin Hubble identified Cepheid variable stars in the Andromeda nebula and used them as distance indicators. Hubble's Cepheids placed Andromeda far beyond the known bounds of the Milky Way. It was not a nearby cloud inside our Galaxy but another galaxy.
+The decisive evidence was distance. Edwin Hubble identified Cepheid variable stars in the Andromeda nebula and used their period–luminosity relationship to estimate a distance far beyond the known bounds of the Milky Way. Andromeda was not a nearby cloud inside our Galaxy; it was another galaxy.
 
 Similar measurements rapidly expanded the universe from one stellar system to a cosmos filled with galaxies.
 

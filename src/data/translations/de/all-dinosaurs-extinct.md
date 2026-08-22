@@ -8,6 +8,11 @@ whyItChanged: Anatomische Arbeiten belebten im 20. Jahrhundert die Idee eines di
 acceptedApproximately: 19. Jahrhundert bis spätes 20. Jahrhundert
 changedApproximately: 1970er- bis 1990er-Jahre
 summary: Die Dinosaurier wurden so neu eingeordnet, dass Vögel innerhalb der Gruppe liegen; ausgestorben sind nur die nicht-avischen Dinosaurierlinien.
+media:
+  - id: "all-dinosaurs-extinct-explainer"
+    src: "/media/entries/all-dinosaurs-extinct/all-dinosaurs-extinct-explainer.de.svg"
+    alt: "Vereinfachter Stammbaum mit mehreren Dinosaurierlinien. Vögel zweigen innerhalb der theropoden Dinosaurier und nicht außerhalb der Dinosauria ab. Die Linien der Nicht-Vogel-Dinosaurier enden an der Kreide-Paläogen-Grenze, während die Vogellinie bis in die Gegenwart weiterläuft."
+    caption: "In der evolutionären Systematik stehen Vögel nicht als eigene überlebende Gruppe neben den Dinosauriern. Sie zweigen innerhalb der theropoden Dinosaurier ab: Am Ende der Kreidezeit starben die Nicht-Vogel-Dinosaurier aus, während eine Dinosaurierlinie als Vögel überlebte."
 sourceNotes:
 - Stellt fest, dass der gemeinsame Vorfahr aller Vögel ein Dinosaurier war und alle Vögel daher Dinosaurier sind.
 - Erklärt, dass Vögel lebende Dinosaurier sind und sich das Aussterben auf die nicht-avischen Dinosauriergruppen bezieht.

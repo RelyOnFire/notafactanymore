@@ -13,6 +13,19 @@ summary: "Dinosaurs were reclassified to include birds, leaving only the non-avi
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
+media:
+  - id: "all-dinosaurs-extinct-explainer"
+    type: "image"
+    src: "/media/entries/all-dinosaurs-extinct/all-dinosaurs-extinct-explainer.en.svg"
+    width: 760
+    height: 1490
+    alt: "Simplified evolutionary tree showing several dinosaur branches, with birds branching from within theropod dinosaurs rather than outside Dinosauria. The non-avian dinosaur branches end at the end-Cretaceous extinction boundary while the bird branch continues to the present."
+    caption: "In evolutionary classification, birds do not sit beside dinosaurs as a separate surviving group. They branch from within theropod dinosaurs, which means the end-Cretaceous extinction eliminated the non-avian dinosaurs while one dinosaur lineage survived as birds."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/all-dinosaurs-extinct/"
+    rights: "original"
+    layout: "inline"
 sources:
   - title: "Birds are Dinosaurs"
     url: "https://naturalhistory2.si.edu/vt3/NMNH/DT/rails/r10.html"

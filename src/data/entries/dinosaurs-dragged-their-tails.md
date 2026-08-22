@@ -12,6 +12,19 @@ summary: "The iconic upright, tail-dragging dinosaur was replaced by a balanced,
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
+media:
+  - id: "dinosaurs-dragged-their-tails-explainer"
+    type: "image"
+    src: "/media/entries/dinosaurs-dragged-their-tails/dinosaurs-dragged-their-tails-explainer.en.svg"
+    width: 760
+    height: 1760
+    alt: "Side-by-side silhouette comparison. The older reconstruction stands nearly upright with its tail touching the ground as a third support. The modern reconstruction holds the torso more horizontally and the tail clear of the ground, balancing the head and body."
+    caption: "Older reconstructions often posed large bipedal dinosaurs almost upright with the tail resting on the ground. Fossil trackways and biomechanical reconstruction instead support a more horizontal, balanced walking posture with the tail normally held clear as a counterweight."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/dinosaurs-dragged-their-tails/"
+    rights: "original"
+    layout: "wide"
 sources:
   - title: "Tyrannosaurus rex Fossil"
     url: "https://www.amnh.org/exhibitions/permanent/saurischian-dinosaurs/tyrannosaurus-rex"

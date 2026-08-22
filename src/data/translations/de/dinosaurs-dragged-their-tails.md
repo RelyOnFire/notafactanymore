@@ -8,6 +8,11 @@ whyItChanged: "Biomechanik, zusammenhängende Skelette, Fährten und verbesserte
 acceptedApproximately: "Spätes 19. bis Mitte des 20. Jahrhunderts"
 changedApproximately: "Mitte bis spätes 20. Jahrhundert"
 summary: "Der ikonische aufrechte Dinosaurier mit schleifendem Schwanz wurde durch eine ausbalancierte, horizontalere Rekonstruktion ersetzt."
+media:
+  - id: "dinosaurs-dragged-their-tails-explainer"
+    src: "/media/entries/dinosaurs-dragged-their-tails/dinosaurs-dragged-their-tails-explainer.de.svg"
+    alt: "Silhouettenvergleich nebeneinander. Die ältere Rekonstruktion steht fast aufrecht und stützt den Schwanz als dritten Kontaktpunkt auf dem Boden ab. Die moderne Rekonstruktion hält den Rumpf horizontaler und den Schwanz frei als Gegengewicht zu Kopf und Körper."
+    caption: "Ältere Rekonstruktionen stellten große zweibeinige Dinosaurier oft fast aufrecht dar, mit dem Schwanz auf dem Boden. Fossile Fährten und biomechanische Rekonstruktionen sprechen dagegen für eine horizontalere, ausbalancierte Gehhaltung, bei der der Schwanz normalerweise als Gegengewicht frei getragen wurde."
 sourceNotes:
 - "Erklärt, wie eine frühe aufrechte Museumsrekonstruktion über Generationen hinweg Schwanz schleifende Tyrannosaurus-Darstellungen prägte."
 - "Stellt fest, dass Dinosaurier ihre Schwänze normalerweise nicht über den Boden schleiften."

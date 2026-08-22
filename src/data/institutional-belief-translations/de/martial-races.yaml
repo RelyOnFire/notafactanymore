@@ -2,8 +2,8 @@ locale: de
 entryId: martial-races
 sourceReviewedAt: 2026-08-22
 title: „Kriegerrassen“
-claim: Bestimmten indischen Gemeinschaften wurden angeborene rassische oder erbliche Eigenschaften zugeschrieben, die sie von Natur aus zu besseren Soldaten machen sollten als andere.
-currentUnderstanding: Militärische Leistungsfähigkeit ist keine erbliche Eigenschaft einer „Rasse“ oder Kaste. Ausbildung, Auswahl, Ernährung, Organisation, Erfahrung, Anreize, Technologie und soziale Bedingungen beeinflussen militärische Effektivität; breite ethnische Kategorien begründen keine angeborene Eignung zum Soldaten.
+claim: Bestimmten südasiatischen Gemeinschaften wurden angeborene rassische oder erbliche Eigenschaften zugeschrieben, die sie von Natur aus zu besseren Soldaten machen sollten als andere.
+currentUnderstanding: Militärische Leistungsfähigkeit ist keine erbliche Eigenschaft einer „Rasse“, Ethnie oder Kaste. Ausbildung, Auswahl, Ernährung, Organisation, Erfahrung, Anreize, Technologie und soziale Bedingungen beeinflussen militärische Effektivität; breite Abstammungsgruppen begründen keine angeborene Eignung zum Soldaten.
 episodes:
   - id: british-india-1880-1947
     polity: Britisch-Indien
@@ -12,3 +12,10 @@ episodes:
       - Selektive Militärrekrutierung
       - Ungleicher Zugang zu militärischer Beschäftigung
       - Rassifizierte Einteilung von Gemeinschaften
+  - id: pakistan-1947-1971
+    polity: Pakistan
+    summary: Nach der Unabhängigkeit entfernte sich Pakistan formal von der britischen Rassenterminologie, übernahm jedoch ein Militärrekrutierungssystem, das auf den früheren „martial races“ beruhte. Führende Offiziere hielten Bengalen weiterhin für wenig geeignetes militärisches Personal, und die Rekrutierung aus Ostpakistan wuchs nur langsam. Bengalen blieben bis in die 1960er-Jahre in der Armee stark unterrepräsentiert; das koloniale Erbe wurde damit Teil des größeren institutionellen Ungleichgewichts zwischen Ost- und Westpakistan.
+    consequences:
+      - Starke Unterrepräsentation von Bengalen in den Streitkräften
+      - Regionale Konzentration der Rekrutierung auf Punjab und den Nordwesten
+      - Politische Spannungen in Ostpakistan

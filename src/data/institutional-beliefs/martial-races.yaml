@@ -1,6 +1,6 @@
 title: Martial races
-claim: Some Indian communities were treated as possessing innate racial or hereditary qualities that made them naturally better soldiers than others.
-currentUnderstanding: Military performance is not an inherited racial or caste trait. Training, selection, nutrition, organization, experience, incentives, technology, and social conditions all shape military effectiveness, while broad ethnic categories do not establish an innate capacity for soldiering.
+claim: Some South Asian communities were treated as possessing innate racial or hereditary qualities that made them naturally better soldiers than others.
+currentUnderstanding: Military performance is not an inherited racial, ethnic, or caste trait. Training, selection, nutrition, organization, experience, incentives, technology, and social conditions all shape military effectiveness, while broad ancestry groups do not establish an innate capacity for soldiering.
 category: Military anthropology
 reviewedAt: 2026-08-22
 episodes:
@@ -30,3 +30,29 @@ episodes:
         url: https://www.tandfonline.com/doi/full/10.1080/0031322X.2012.701495
         publisher: Patterns of Prejudice
         note: Reviews the racialization of colonial military recruitment and the belief that selected communities possessed qualities necessary for military service.
+  - id: pakistan-1947-1971
+    polity: Pakistan
+    region: South Asia
+    startYear: 1947
+    endYear: 1971
+    periodLabel: 1947–1971
+    strength: policy-basis
+    institutionTypes: [government, military]
+    institutions:
+      - Pakistan Army
+      - Pakistan defence establishment
+      - Military recruitment and training system
+    consequences:
+      - Severe under-representation of Bengalis in the armed forces
+      - Regional concentration of recruitment in Punjab and the northwest
+      - Political grievance in East Pakistan
+    summary: After independence, Pakistan formally moved away from British racial terminology but inherited a military recruitment system built around “martial” populations. Senior officers continued to regard Bengalis as poor military material, and recruitment from East Pakistan expanded only slowly. Bengalis remained sharply under-represented in the Army through the 1960s, making the colonial martial-race legacy part of a wider pattern of institutional imbalance between East and West Pakistan.
+    sources:
+      - title: Bengali Representation in Pakistan Defence Forces (1947–1971) — A Revisit
+        url: https://www.biiss.org/article/bengali-representation-in-pakistan-defence-forces-1947-1971-a-revisit
+        publisher: BIISS Journal
+        note: Historical and statistical study arguing that Pakistan's military perpetuated colonial martial-race assumptions to justify low Bengali recruitment.
+      - title: Colonial Military Service and Identity Formation — A Case Study of British India
+        url: https://academic.oup.com/edited-volume/63111/chapter-abstract/567592865
+        publisher: Oxford University Press
+        note: Reviews colonial martial-race recruitment and notes its continuing influence on the postcolonial armies of India and Pakistan.

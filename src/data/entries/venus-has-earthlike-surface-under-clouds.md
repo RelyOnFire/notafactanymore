@@ -11,7 +11,21 @@ timelineYear: 1962
 summary: "A cloud-hidden sister world changed from imagined oceans and jungles into the hottest planetary surface."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-08-20"
+reviewedAt: "2026-08-22"
+media:
+  - id: "magellan-venus-radar-hemisphere"
+    type: "image"
+    src: "/media/entries/venus-has-earthlike-surface-under-clouds/magellan-venus-radar-hemisphere.webp"
+    width: 2000
+    height: 2000
+    alt: "Radar-derived hemispheric view of Venus showing detailed surface terrain that is hidden beneath the planet's opaque cloud cover."
+    caption: "Magellan radar made the cloud-hidden surface of Venus globally visible. This hemispheric mosaic is derived mainly from radar imagery and is color-coded to emphasize terrain and elevation; it is not a natural-color optical photograph of the surface."
+    credit: "NASA/JPL/USGS"
+    sourceLabel: "NASA Science / Photojournal"
+    sourceUrl: "https://science.nasa.gov/photojournal/hemispheric-view-of-venus-centered-at-180-east-longitude/"
+    rights: "source-specific"
+    derivative: true
+    layout: "inline"
 sources:
   - title: "Venus: Facts"
     url: "https://science.nasa.gov/venus/venus-facts/"

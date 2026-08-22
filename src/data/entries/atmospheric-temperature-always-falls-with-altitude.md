@@ -11,7 +11,21 @@ timelineYear: 1919
 summary: "High-altitude balloons showed that the atmosphere is layered and that temperature can begin rising again above the troposphere."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-20"
+reviewedAt: "2026-08-22"
+media:
+  - id: "atmospheric-temperature-profile"
+    type: "image"
+    src: "/media/entries/atmospheric-temperature-always-falls-with-altitude/atmospheric-temperature-profile.en.svg"
+    width: 1200
+    height: 820
+    alt: "Schematic temperature profile through Earth's atmosphere. A dashed line shows the old assumption of continuous cooling with altitude, while the measured profile cools in the troposphere, warms in the stratosphere, cools in the mesosphere, and warms again in the thermosphere."
+    caption: "A schematic temperature profile shows why the simple rule fails. Temperature generally falls through the troposphere, rises through much of the stratosphere, falls again through the mesosphere, and rises through the thermosphere. The curve is explanatory rather than a precise atmospheric sounding."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/atmospheric-temperature-always-falls-with-altitude/"
+    rights: "original"
+    derivative: false
+    layout: "wide"
 sources:
   - title: "The History of Atmospheric Discovery"
     url: "https://scied.ucar.edu/learning-zone/atmosphere/history-discovery-atmosphere"

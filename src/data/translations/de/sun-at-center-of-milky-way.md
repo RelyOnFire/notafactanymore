@@ -1,13 +1,18 @@
 ---
 locale: de
 entryId: sun-at-center-of-milky-way
-sourceReviewedAt: '2026-08-20'
+sourceReviewedAt: "2026-08-22"
 claim: Die Sonne befindet sich im oder nahe dem Zentrum der Milchstraße.
 currentUnderstanding: Die Sonne liegt in der Scheibe der Milchstraße, ungefähr 26.000 Lichtjahre vom galaktischen Zentrum entfernt, und benötigt etwa 240 Millionen Jahre für einen Umlauf.
 whyItChanged: Interstellarer Staub verzerrte Sternzählungen und ließ das umgebende Sternsystem so erscheinen, als sei es auf die Sonne zentriert. Harlow Shapleys Arbeiten mit Kugelsternhaufen zeigten, dass die Galaxis wesentlich größer war und ihr Zentrum weit entfernt im Sternbild Schütze lag.
 acceptedApproximately: 18. Jahrhundert bis 1910er-Jahre
 changedApproximately: 1910er- bis 1930er-Jahre
 summary: Durch Staub verzerrte Sternzählungen setzten uns nahe an die Mitte der Galaxis, bis Kugelsternhaufen das tatsächliche Zentrum erkennen ließen.
+media:
+  - id: "milky-way-mapping-bias"
+    src: "/media/entries/sun-at-center-of-milky-way/milky-way-mapping-bias.de.svg"
+    alt: "Zweiteilige schematische Karte der Milchstraße. Durch Staub begrenzte Sternzählungen lassen das sichtbare Sternsystem auf die Sonne zentriert erscheinen; die Verteilung der Kugelsternhaufen weist dagegen auf eine wesentlich größere Galaxis hin, in der die Sonne weit vom Zentrum entfernt liegt."
+    caption: "Interstellarer Staub verzerrte Sternzählungen, weil er entfernte Sterne verdeckte und das sichtbare System lokal um die Sonne zentriert erscheinen ließ. Shapleys Karte der Kugelsternhaufen wies dagegen auf ein wesentlich größeres galaktisches System mit einem weit entfernten Zentrum in Richtung Schütze hin."
 sourceNotes:
 - Beschreibt Kapteyns einflussreiches kleines Modell der Milchstraße, das nahezu auf die Sonne zentriert war.
 - Erklärt, wie Shapley die Sonne weit vom Zentrum der Milchstraße entfernt einordnete.

@@ -11,7 +11,21 @@ timelineYear: 1957
 summary: "The great polar ice sheets became dynamic rivers of solid ice rather than frozen blocks."
 featured: false
 publishedAt: "2026-07-28"
-reviewedAt: "2026-08-20"
+reviewedAt: "2026-08-22"
+media:
+  - id: "antarctic-ice-flow-map"
+    type: "image"
+    src: "/media/entries/ice-sheets-are-static-blocks/antarctic-ice-flow-map.webp"
+    width: 1192
+    height: 1192
+    alt: "Satellite-derived map of Antarctic ice-flow speed and direction. Networks of faster-flowing ice streams extend from the continental interior toward the coast."
+    caption: "Satellite radar measurements make Antarctic ice motion visible at continental scale. Slow interior ice feeds networks of faster ice streams and outlet glaciers toward the coast, contradicting the mental model of an immobile block resting on land."
+    credit: "NASA/JPL-Caltech/UCI"
+    sourceLabel: "NASA/JPL Photojournal"
+    sourceUrl: "https://www.jpl.nasa.gov/images/pia14556-nasa-research-leads-to-first-complete-map-of-antarctic-ice-flows/"
+    rights: "source-specific"
+    derivative: true
+    layout: "inline"
 sources:
   - title: "Understanding ice"
     url: "https://ice2sea-testing.web.bas.ac.uk/ice2sea-science/understanding-ice/index.html"

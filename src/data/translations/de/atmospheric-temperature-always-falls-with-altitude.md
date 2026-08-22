@@ -1,13 +1,18 @@
 ---
 locale: de
 entryId: atmospheric-temperature-always-falls-with-altitude
-sourceReviewedAt: '2026-08-20'
+sourceReviewedAt: "2026-08-22"
 claim: Die Temperatur der Atmosphäre nimmt mit zunehmender Höhe immer ab.
 currentUnderstanding: "Die Temperatur sinkt nicht durch die gesamte Atmosphäre immer weiter ab. In der Troposphäre, der untersten Schicht mit dem größten Teil des Wetters, wird es nach oben hin meist kälter. In großen Teilen der Stratosphäre steigt die Temperatur dagegen wieder, weil Ozon ultraviolettes Sonnenlicht absorbiert und einen Teil dieser Energie in Wärme umwandelt."
 whyItChanged: "Berge und frühe Ballonmessungen zeigten beide eine Abkühlung mit der Höhe, daher lag es nahe, dieses Muster nach oben fortzuschreiben. Um 1902 zeigten Hochaufstiegsballons von Léon Teisserenc de Bort und Richard Assmann unabhängig voneinander, dass die Abkühlung in ungefähr 10 bis 15 Kilometern Höhe aufhörte."
 acceptedApproximately: 19. Jahrhundert bis 1902
 changedApproximately: 1902 bis 1930er-Jahre
 summary: "Hochaufstiegsballons zeigten, dass die Atmosphäre geschichtet ist und die Temperatur oberhalb der Troposphäre wieder ansteigen kann."
+media:
+  - id: "atmospheric-temperature-profile"
+    src: "/media/entries/atmospheric-temperature-always-falls-with-altitude/atmospheric-temperature-profile.de.svg"
+    alt: "Schematisches Temperaturprofil durch die Erdatmosphäre. Eine gestrichelte Linie zeigt die alte Annahme einer fortgesetzten Abkühlung mit der Höhe; das Messprofil kühlt in der Troposphäre ab, erwärmt sich in der Stratosphäre, kühlt in der Mesosphäre erneut ab und erwärmt sich in der Thermosphäre wieder."
+    caption: "Ein schematisches Temperaturprofil zeigt, warum die einfache Regel versagt. In der Troposphäre sinkt die Temperatur im Allgemeinen, in großen Teilen der Stratosphäre steigt sie, in der Mesosphäre sinkt sie erneut und in der Thermosphäre steigt sie wieder. Die Kurve dient der Erklärung und ist keine maßstabsgetreue atmosphärische Messkurve."
 sourceNotes:
 - Beschreibt die unabhängigen Ballonentdeckungen von Assmann und Teisserenc de Bort im Jahr 1902.
 - Erklärt, warum die Temperatur in der Stratosphäre mit der Höhe zunimmt.

@@ -1,13 +1,18 @@
 ---
 locale: de
 entryId: cell-membranes-are-static-sandwiches
-sourceReviewedAt: "2026-08-20"
+sourceReviewedAt: "2026-08-22"
 claim: Zellmembranen sind statische Protein-Lipid-Protein-Sandwiches.
 currentUnderstanding: "Zellmembranen sind flexible Doppelschichten aus Lipidmolekülen, in die Proteine eingebettet oder an die Proteine angelagert sind. Lipide und viele Proteine können sich seitlich in der Membran bewegen; Zellen ordnen sie außerdem in wechselnden Gruppen und spezialisierten Bereichen."
 whyItChanged: "Ältere Modelle stellten sich eine Lipidschicht vor, die auf beiden Seiten von durchgehenden Proteinschichten überzogen war. Gefrierbruchmikroskopie zeigte stattdessen Partikel innerhalb der Membran, und Zellfusionsexperimente belegten, dass Membranproteine sich seitlich über die Oberfläche bewegen können. Daraus entstand das Flüssig-Mosaik-Modell."
 acceptedApproximately: 1930er- bis 1960er-Jahre
 changedApproximately: 1960er-Jahre bis 1972
 summary: "Aus dem starren, proteinbeschichteten Membran-Sandwich wurde eine flexible Lipidschicht mit beweglichen, eingebetteten Proteinen."
+media:
+  - id: "membrane-model-explainer"
+    src: "/media/entries/cell-membranes-are-static-sandwiches/membrane-model-explainer.de.svg"
+    alt: "Zweiteilige Membrangrafik. Das ältere Modell zeigt eine Lipiddoppelschicht, die auf beiden Seiten von durchgehenden Proteinschichten überzogen ist. Das modernisierte Flüssig-Mosaik-Modell zeigt Proteine innerhalb der Lipiddoppelschicht und Pfeile für ihre seitliche Bewegung."
+    caption: "Das Danielli-Davson-Modell setzte auf beide Seiten der Lipidschicht durchgehende Proteinschichten. Spätere Befunde zeigten viele Proteine innerhalb einer fluiden Doppelschicht und ihre seitliche Beweglichkeit. Reale Membranen sind komplexer und stärker organisiert als diese vereinfachte Flüssig-Mosaik-Darstellung."
 sourceNotes:
 - Danielli und Davson entwickelten das einflussreiche Modell einer von Proteinen umhüllten Lipidmembran.
 - Singer und Nicolson schlugen globuläre Proteine vor, die in eine fluide Lipiddoppelschicht eingebettet sind.

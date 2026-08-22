@@ -11,7 +11,21 @@ timelineYear: 1972
 summary: "The cell membrane changed from a rigid protein-coated sandwich to a flexible lipid layer with mobile, embedded proteins."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-20"
+reviewedAt: "2026-08-22"
+media:
+  - id: "membrane-model-explainer"
+    type: "image"
+    src: "/media/entries/cell-membranes-are-static-sandwiches/membrane-model-explainer.en.svg"
+    width: 1200
+    height: 760
+    alt: "Two-panel membrane diagram. The older model shows a lipid bilayer coated on both sides by continuous protein layers. The modernized fluid-mosaic view shows proteins embedded within a lipid bilayer, with arrows indicating lateral movement."
+    caption: "The Danielli–Davson model placed continuous protein coats on both sides of the lipid layer. Later evidence showed many proteins embedded within a fluid bilayer and able to move laterally. Modern membranes are more organized and crowded than this simplified fluid-mosaic sketch."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/cell-membranes-are-static-sandwiches/"
+    rights: "original"
+    derivative: false
+    layout: "wide"
 sources:
   - title: "A Contribution to the Theory of Permeability of Thin Films"
     url: "https://doi.org/10.1002/jcp.1030050409"

@@ -1,13 +1,17 @@
 ---
 locale: de
 entryId: ice-sheets-are-static-blocks
-sourceReviewedAt: "2026-08-20"
+sourceReviewedAt: "2026-08-22"
 claim: "Eisschilde sind statische Eisblöcke, die unbeweglich auf dem Land liegen."
 currentUnderstanding: "Eisschilde fließen unter ihrem eigenen Gewicht. Eis bewegt sich vom Inneren zu schnell fließenden Auslassgletschern und Eisströmen, während Schneefall, Schmelzen, Bruch und Wechselwirkungen mit dem Ozean das System fortlaufend verändern."
 whyItChanged: "Ihre enorme Größe und scheinbar unveränderte Oberfläche ließen Eisschilde auf menschlichen Zeitskalen unbeweglich erscheinen. Vermessung, Satellitenradar, GPS, Bohrungen und Fernerkundung maßen jedoch innere Verformung und schnellen Eisfluss."
 acceptedApproximately: "Vor moderner glaziologischer Messtechnik"
 changedApproximately: "20. Jahrhundert bis heute"
 summary: "Die großen polaren Eisschilde wurden von gefrorenen Blöcken zu dynamischen Strömen aus festem Eis."
+media:
+  - id: "antarctic-ice-flow-map"
+    alt: "Aus Satellitendaten abgeleitete Karte von Geschwindigkeit und Richtung des Eisflusses in der Antarktis. Netzwerke schneller fließender Eisströme ziehen sich vom Inneren des Kontinents bis zur Küste."
+    caption: "Satellitenradarmessungen machen die Bewegung des antarktischen Eises im Maßstab eines Kontinents sichtbar. Langsames Eis im Inneren speist Netzwerke schnellerer Eisströme und Auslassgletscher zur Küste – im Gegensatz zum Bild eines unbeweglichen Eisblocks auf dem Land."
 sourceNotes:
 - "Stellt das Bild eines statischen Eisblocks direkt der inneren Dynamik moderner Eisschilde gegenüber."
 - "Beschreibt langsam fließendes Eis im Inneren und schnell fließende Gletscher, die Eisschilde entwässern."

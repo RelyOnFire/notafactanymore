@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" rx="22" fill="#f5f0e6"/>
+<text x="70" y="72" fill="#4f776e" font-size="25" font-weight="700" letter-spacing="3" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">EINE VERZERRTE KARTE DER MILCHSTRASSE</text>
+<rect x="70" y="110" width="500" height="570" rx="20" fill="#fbf8f1" stroke="#d6cec0" stroke-width="2"/>
+<rect x="630" y="110" width="500" height="570" rx="20" fill="#fbf8f1" stroke="#d6cec0" stroke-width="2"/>
+<text x="110" y="160" fill="#4f776e" font-size="20" font-weight="700" letter-spacing="2" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">STERNZÄHLUNGEN</text>
+<text x="670" y="160" fill="#4f776e" font-size="20" font-weight="700" letter-spacing="2" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">KUGELSTERNHAUFEN</text>
+<!-- left: apparent local system -->
+<ellipse cx="320" cy="400" rx="190" ry="115" fill="#e8e1d4" stroke="#d6cec0" stroke-width="2"/>
+<ellipse cx="320" cy="400" rx="128" ry="78" fill="#fbf8f1" stroke="#c7a24d" stroke-width="3" stroke-dasharray="8 8"/>
+<circle cx="170" cy="390" r="3.5" fill="#6d6b64"/><circle cx="190" cy="350" r="3.5" fill="#6d6b64"/><circle cx="208" cy="435" r="3.5" fill="#6d6b64"/><circle cx="235" cy="377" r="3.5" fill="#6d6b64"/><circle cx="252" cy="422" r="3.5" fill="#6d6b64"/><circle cx="278" cy="344" r="3.5" fill="#6d6b64"/><circle cx="290" cy="465" r="3.5" fill="#6d6b64"/><circle cx="345" cy="346" r="3.5" fill="#6d6b64"/><circle cx="360" cy="445" r="3.5" fill="#6d6b64"/><circle cx="392" cy="377" r="3.5" fill="#6d6b64"/><circle cx="418" cy="430" r="3.5" fill="#6d6b64"/><circle cx="440" cy="360" r="3.5" fill="#6d6b64"/><circle cx="468" cy="405" r="3.5" fill="#6d6b64"/><circle cx="230" cy="330" r="3.5" fill="#6d6b64"/><circle cx="405" cy="466" r="3.5" fill="#6d6b64"/><circle cx="335" cy="375" r="3.5" fill="#6d6b64"/><circle cx="270" cy="405" r="3.5" fill="#6d6b64"/><circle cx="370" cy="410" r="3.5" fill="#6d6b64"/>
+<!-- dust bands obscure farther stars -->
+<path d="M 145 350 C 225 330 405 330 495 360" fill="none" stroke="#b9b1a4" stroke-width="25" opacity=".75"/>
+<path d="M 150 448 C 250 470 390 470 495 438" fill="none" stroke="#b9b1a4" stroke-width="20" opacity=".65"/>
+<circle cx="320" cy="400" r="10" fill="#c7a24d"/>
+<text x="320" y="535" text-anchor="middle" fill="#2f302d" font-size="20" font-weight="650" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Sonne</text>
+<text x="320" y="610" text-anchor="middle" fill="#6d6b64" font-size="18" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Staub begrenzt die Sichtweite</text>
+<!-- right: larger Galaxy and cluster centroid -->
+<ellipse cx="880" cy="410" rx="210" ry="128" fill="#e8e1d4" stroke="#d6cec0" stroke-width="2"/>
+<ellipse cx="820" cy="410" rx="74" ry="74" fill="none" stroke="#4f776e" stroke-width="3" stroke-dasharray="7 7"/>
+<circle cx="786" cy="360" r="6" fill="#4f776e" opacity=".9"/><circle cx="817" cy="347" r="6" fill="#4f776e" opacity=".9"/><circle cx="846" cy="365" r="6" fill="#4f776e" opacity=".9"/><circle cx="770" cy="395" r="6" fill="#4f776e" opacity=".9"/><circle cx="805" cy="390" r="6" fill="#4f776e" opacity=".9"/><circle cx="850" cy="400" r="6" fill="#4f776e" opacity=".9"/><circle cx="780" cy="435" r="6" fill="#4f776e" opacity=".9"/><circle cx="820" cy="452" r="6" fill="#4f776e" opacity=".9"/><circle cx="856" cy="438" r="6" fill="#4f776e" opacity=".9"/><circle cx="797" cy="475" r="6" fill="#4f776e" opacity=".9"/><circle cx="835" cy="475" r="6" fill="#4f776e" opacity=".9"/><circle cx="750" cy="414" r="6" fill="#4f776e" opacity=".9"/>
+<circle cx="820" cy="410" r="11" fill="#2f302d"/>
+<circle cx="1015" cy="430" r="10" fill="#c7a24d"/>
+<line x1="831" y1="410" x2="1005" y2="428" stroke="#9b958b" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="820" y="535" text-anchor="middle" fill="#2f302d" font-size="19" font-weight="650" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Galaktisches Zentrum</text>
+<text x="1015" y="485" text-anchor="middle" fill="#2f302d" font-size="19" font-weight="650" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Sonne</text>
+</svg>

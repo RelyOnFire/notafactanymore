@@ -147,4 +147,87 @@ const glossaryTranslations = defineCollection({
   }),
 });
 
-export const collections = { entries, entryTranslations, glossary, glossaryTranslations };
+const institutionalStrength = z.enum([
+  'institutionally-influential',
+  'officially-endorsed',
+  'policy-basis',
+  'enforced-doctrine',
+]);
+
+const institutionalType = z.enum([
+  'government',
+  'court',
+  'academy',
+  'university',
+  'medical',
+  'professional',
+  'education',
+  'military',
+]);
+
+const institutionalSource = z.object({
+  title: z.string(),
+  url: z.string().url(),
+  publisher: z.string(),
+  note: z.string(),
+});
+
+const institutionalEpisode = z.object({
+  id: mediaId,
+  polity: z.string().min(1),
+  region: z.string().min(1),
+  startYear: z.number().int(),
+  endYear: z.number().int(),
+  periodLabel: z.string().min(1),
+  strength: institutionalStrength,
+  institutionTypes: z.array(institutionalType).min(1),
+  institutions: z.array(z.string().min(1)).min(1),
+  consequences: z.array(z.string().min(1)).min(1),
+  summary: z.string().min(1),
+  sources: z.array(institutionalSource).min(1),
+}).refine((episode) => episode.startYear <= episode.endYear, {
+  message: 'institutional episode startYear must be earlier than or equal to endYear',
+  path: ['startYear'],
+});
+
+const institutionalBeliefs = defineCollection({
+  loader: glob({ pattern: '**/*.yaml', base: './src/data/institutional-beliefs' }),
+  schema: z.object({
+    title: z.string().min(1),
+    claim: z.string().min(1),
+    currentUnderstanding: z.string().min(1),
+    category: z.string().min(1),
+    entryId: z.string().min(1).optional(),
+    reviewedAt: z.coerce.date(),
+    episodes: z.array(institutionalEpisode).min(1),
+  }),
+});
+
+const institutionalBeliefTranslations = defineCollection({
+  loader: glob({ pattern: '**/*.yaml', base: './src/data/institutional-belief-translations' }),
+  schema: z.object({
+    locale: z.enum(['de', 'fr', 'es']),
+    entryId: z.string().min(1),
+    sourceReviewedAt: z.coerce.date(),
+    title: z.string().min(1),
+    claim: z.string().min(1),
+    currentUnderstanding: z.string().min(1),
+    episodes: z.array(
+      z.object({
+        id: mediaId,
+        polity: z.string().min(1),
+        summary: z.string().min(1),
+        consequences: z.array(z.string().min(1)).min(1),
+      }),
+    ).min(1),
+  }),
+});
+
+export const collections = {
+  entries,
+  entryTranslations,
+  glossary,
+  glossaryTranslations,
+  institutionalBeliefs,
+  institutionalBeliefTranslations,
+};

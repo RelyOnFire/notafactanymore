@@ -1,0 +1,921 @@
+---
+import { getCollection } from 'astro:content';
+import type { SiteLocale } from '../lib/i18n';
+
+interface Props {
+  locale?: SiteLocale;
+}
+
+const { locale = 'en' } = Astro.props;
+
+const beliefs = await getCollection('institutionalBeliefs');
+const translations = locale === 'de'
+  ? await getCollection(
+      'institutionalBeliefTranslations',
+      (translation) => translation.data.locale === 'de',
+    )
+  : [];
+
+const translationById = new Map(
+  translations.map((translation) => [translation.data.entryId, translation]),
+);
+
+const strengthLabels: Record<string, string> = locale === 'de'
+  ? {
+      'institutionally-influential': 'Institutionell einflussreich',
+      'officially-endorsed': 'Offiziell unterstützt',
+      'policy-basis': 'Grundlage staatlicher Praxis',
+      'enforced-doctrine': 'Durchgesetzte Doktrin',
+    }
+  : {
+      'institutionally-influential': 'Institutionally influential',
+      'officially-endorsed': 'Officially endorsed',
+      'policy-basis': 'Policy basis',
+      'enforced-doctrine': 'Enforced doctrine',
+    };
+
+const typeLabels: Record<string, string> = locale === 'de'
+  ? {
+      government: 'Staat',
+      court: 'Gericht',
+      academy: 'Akademie',
+      university: 'Universität',
+      medical: 'Medizin',
+      professional: 'Fachinstitution',
+      education: 'Bildung',
+      military: 'Militär',
+    }
+  : {
+      government: 'Government',
+      court: 'Court',
+      academy: 'Academy',
+      university: 'University',
+      medical: 'Medical',
+      professional: 'Professional',
+      education: 'Education',
+      military: 'Military',
+    };
+
+const entries = beliefs.map((belief) => {
+  const translation = translationById.get(belief.id);
+  const isCurrentTranslation = translation
+    ? translation.data.sourceReviewedAt.getTime() === belief.data.reviewedAt.getTime()
+    : false;
+  const localized = locale === 'de' && isCurrentTranslation ? translation : undefined;
+  const translatedEpisodes = new Map(
+    localized?.data.episodes.map((episode) => [episode.id, episode]) ?? [],
+  );
+
+  return {
+    belief,
+    title: localized?.data.title ?? belief.data.title,
+    claim: localized?.data.claim ?? belief.data.claim,
+    currentUnderstanding:
+      localized?.data.currentUnderstanding ?? belief.data.currentUnderstanding,
+    episodes: belief.data.episodes.map((episode) => {
+      const translatedEpisode = translatedEpisodes.get(episode.id);
+      return {
+        ...episode,
+        polity: translatedEpisode?.polity ?? episode.polity,
+        summary: translatedEpisode?.summary ?? episode.summary,
+        consequences: translatedEpisode?.consequences ?? episode.consequences,
+      };
+    }).sort((a, b) =>
+      a.startYear - b.startYear ||
+      a.polity.localeCompare(b.polity, locale)
+    ),
+  };
+}).sort((a, b) => {
+  const aStart = Math.min(...a.episodes.map((episode) => episode.startYear));
+  const bStart = Math.min(...b.episodes.map((episode) => episode.startYear));
+  return aStart - bStart || a.title.localeCompare(b.title, locale);
+});
+
+const regions = [...new Set(
+  entries.flatMap((item) => item.episodes.map((episode) => episode.region)),
+)].sort((a, b) => a.localeCompare(b, locale));
+
+const polities = [...new Set(
+  entries.flatMap((item) => item.episodes.map((episode) => episode.polity)),
+)].sort((a, b) => a.localeCompare(b, locale));
+
+const types = [...new Set(
+  entries.flatMap((item) => item.episodes.flatMap((episode) => episode.institutionTypes)),
+)].sort((a, b) => typeLabels[a].localeCompare(typeLabels[b], locale));
+
+const strengths = [
+  'institutionally-influential',
+  'officially-endorsed',
+  'policy-basis',
+  'enforced-doctrine',
+].filter((strength) =>
+  entries.some((item) => item.episodes.some((episode) => episode.strength === strength))
+);
+
+const decadeFor = (year: number) => Math.floor(year / 10) * 10;
+
+const allDecades = [...new Set(
+  entries.flatMap((item) =>
+    item.episodes.flatMap((episode) => {
+      const decades: number[] = [];
+      for (
+        let decade = decadeFor(episode.startYear);
+        decade <= decadeFor(episode.endYear);
+        decade += 10
+      ) {
+        decades.push(decade);
+      }
+      return decades;
+    })
+  ),
+)].sort((a, b) => a - b);
+
+const formatDecade = (decade: number) =>
+  locale === 'de' ? `${decade}er` : `${decade}s`;
+
+const entryPath = (entryId: string) => locale === 'de'
+  ? `/de/entries/${entryId}/`
+  : `/entries/${entryId}/`;
+
+const copy = locale === 'de'
+  ? {
+      eyebrow: 'Wenn Behauptungen Macht bekommen',
+      title: 'Institutionelle Überzeugungen',
+      intro:
+        'Diese Zeitleiste verfolgt Aussagen, die nicht nur geglaubt wurden, sondern genügend institutionelle Autorität erhielten, um Forschung, Lehre, Medizin, Recht oder staatliche Praxis zu prägen.',
+      ruleTitle: 'Was hier aufgenommen wird',
+      ruleBody:
+        'Ein Fall gehört hierher, wenn sich benennen lässt, welche Institution die Aussage als etabliertes Wissen behandelte, wann das geschah und welche Folgen daraus entstanden. Die Seite setzt unterschiedliche Regime, Länder oder Institutionen nicht gleich; die Intensität der Institutionalisierung wird ausdrücklich gekennzeichnet.',
+      chronologyTitle: 'Was galt gleichzeitig?',
+      chronologyBody:
+        'Die Jahrzehntansicht macht sichtbar, welche institutionellen Überzeugungen etwa in den 1950er- oder 1960er-Jahren gleichzeitig in verschiedenen Ländern wirkten, während jede nationale oder institutionelle Episode als ein zusammenhängender historischer Fall bestehen bleibt.',
+      coverageNote:
+        'Die Sammlung wächst. Fehlende Länder oder Zeiträume bedeuten fehlende Abdeckung, nicht das Fehlen institutioneller Irrtümer. Sie ist weder ein Ranking von Staaten noch eine vollständige Weltgeschichte.',
+      levelsTitle: 'Stufen der Institutionalisierung',
+      levels: {
+        'institutionally-influential': 'In einflussreichen Fachkreisen oder Einrichtungen verwendet, aber nicht als staatliche Doktrin.',
+        'officially-endorsed': 'Von maßgeblichen staatlichen oder fachlichen Institutionen ausdrücklich unterstützt.',
+        'policy-basis': 'Als Grundlage für Gesetze, Verwaltung, medizinische Praxis oder andere konkrete Politik verwendet.',
+        'enforced-doctrine': 'Institutionell durchgesetzt; konkurrierende wissenschaftliche Positionen wurden eingeschränkt oder unterdrückt.',
+      },
+      search: 'Überzeugungen durchsuchen…',
+      allRegions: 'Alle Regionen',
+      allPolities: 'Alle Länder / politischen Räume',
+      allTypes: 'Alle Institutionstypen',
+      allStrengths: 'Alle Stufen',
+      allDecades: 'Alle Jahrzehnte',
+      activeIn: 'Aktiv im Jahrzehnt',
+      reset: 'Filter zurücksetzen',
+      institutions: 'Institutionen',
+      consequences: 'Folgen',
+      evidence: 'Belege zur Institutionalisierung',
+      linkedEntry: 'Zum Katalogeintrag',
+      current: 'Heutiger Wissensstand',
+      noResults: 'Keine institutionellen Fälle entsprechen diesen Filtern.',
+      episodes: (count: number) => `${count} ${count === 1 ? 'Episode' : 'Episoden'}`,
+      resultSummary: (episodes: number, groups: number) =>
+        `${episodes} institutionelle Episoden in ${groups} Themen`,
+    }
+  : {
+      eyebrow: 'When claims acquire power',
+      title: 'Institutional beliefs',
+      intro:
+        'This timeline tracks claims that were not merely believed, but acquired enough institutional authority to shape research, education, medicine, law, or public policy.',
+      ruleTitle: 'What qualifies',
+      ruleBody:
+        'A case belongs here when we can identify which institution treated the claim as established knowledge, when that happened, and what followed from it. The page does not equate different regimes, countries, or institutions; the degree of institutionalization is labeled explicitly.',
+      chronologyTitle: 'What was authoritative at the same time?',
+      chronologyBody:
+        'The decade view makes it possible to ask which institutional beliefs were operating around the world during the 1950s or 1960s, while each country or institutional episode remains a single continuous historical case.',
+      coverageNote:
+        'This is a growing research collection. Missing countries or periods mean missing coverage, not an absence of institutional error. It is neither a ranking of states nor a complete world history.',
+      levelsTitle: 'Levels of institutionalization',
+      levels: {
+        'institutionally-influential': 'Used within influential professional circles or institutions without becoming state doctrine.',
+        'officially-endorsed': 'Explicitly backed by major state or professional institutions.',
+        'policy-basis': 'Used to justify laws, administration, medical practice, or other concrete policy.',
+        'enforced-doctrine': 'Institutionally enforced; competing scientific positions were restricted or suppressed.',
+      },
+      search: 'Search institutional beliefs…',
+      allRegions: 'All regions',
+      allPolities: 'All countries / polities',
+      allTypes: 'All institution types',
+      allStrengths: 'All levels',
+      allDecades: 'All decades',
+      activeIn: 'Active in decade',
+      reset: 'Reset filters',
+      institutions: 'Institutions',
+      consequences: 'Consequences',
+      evidence: 'Institutional evidence',
+      linkedEntry: 'Open catalogue entry',
+      current: 'Current understanding',
+      noResults: 'No institutional cases match those filters.',
+      episodes: (count: number) => `${count} ${count === 1 ? 'episode' : 'episodes'}`,
+      resultSummary: (episodes: number, groups: number) =>
+        `${episodes} institutional episodes across ${groups} beliefs`,
+    };
+
+const levelDescriptions: Record<string, string> = copy.levels;
+const totalEpisodes = entries.flatMap((item) => item.episodes).length;
+---
+
+<header class="institutional-head container">
+  <p class="eyebrow">{copy.eyebrow}</p>
+  <h1>{copy.title}</h1>
+  <p class="institutional-intro">{copy.intro}</p>
+
+  <div class="definition-grid">
+    <section class="definition-card">
+      <h2>{copy.ruleTitle}</h2>
+      <p>{copy.ruleBody}</p>
+    </section>
+    <section class="definition-card">
+      <h2>{copy.chronologyTitle}</h2>
+      <p>{copy.chronologyBody}</p>
+    </section>
+  </div>
+
+  <p class="coverage-note">{copy.coverageNote}</p>
+
+  <section class="level-legend" aria-labelledby="institutional-levels-title">
+    <h2 id="institutional-levels-title">{copy.levelsTitle}</h2>
+    <div class="level-grid">
+      {strengths.map((strength) => (
+        <div>
+          <span class={`strength strength-${strength}`}>{strengthLabels[strength]}</span>
+          <p>{levelDescriptions[strength]}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+</header>
+
+<section
+  class="institutional-controls"
+  aria-label={locale === 'de' ? 'Filter für institutionelle Überzeugungen' : 'Institutional belief filters'}
+>
+  <div class="container control-grid">
+    <label class="search-field">
+      <span class="sr-only">{locale === 'de' ? 'Suchen' : 'Search'}</span>
+      <input
+        class="institutional-search"
+        type="search"
+        placeholder={copy.search}
+        autocomplete="off"
+      />
+    </label>
+
+    <label>
+      <span class="sr-only">{locale === 'de' ? 'Jahrzehnt' : 'Decade'}</span>
+      <select class="institutional-filter" data-filter="decade">
+        <option value="">{copy.activeIn}: {copy.allDecades}</option>
+        {allDecades.map((decade) => (
+          <option value={decade}>{copy.activeIn}: {formatDecade(decade)}</option>
+        ))}
+      </select>
+    </label>
+
+    <label>
+      <span class="sr-only">Region</span>
+      <select class="institutional-filter" data-filter="region">
+        <option value="">{copy.allRegions}</option>
+        {regions.map((region) => <option value={region}>{region}</option>)}
+      </select>
+    </label>
+
+    <label>
+      <span class="sr-only">{locale === 'de' ? 'Land oder politischer Raum' : 'Country or polity'}</span>
+      <select class="institutional-filter" data-filter="polity">
+        <option value="">{copy.allPolities}</option>
+        {polities.map((polity) => <option value={polity}>{polity}</option>)}
+      </select>
+    </label>
+
+    <label>
+      <span class="sr-only">{locale === 'de' ? 'Institutionstyp' : 'Institution type'}</span>
+      <select class="institutional-filter" data-filter="type">
+        <option value="">{copy.allTypes}</option>
+        {types.map((type) => <option value={type}>{typeLabels[type]}</option>)}
+      </select>
+    </label>
+
+    <label>
+      <span class="sr-only">{locale === 'de' ? 'Stufe der Institutionalisierung' : 'Level of institutionalization'}</span>
+      <select class="institutional-filter" data-filter="strength">
+        <option value="">{copy.allStrengths}</option>
+        {strengths.map((strength) => (
+          <option value={strength}>{strengthLabels[strength]}</option>
+        ))}
+      </select>
+    </label>
+
+    <div class="control-footer">
+      <p class="results-summary" aria-live="polite">
+        {copy.resultSummary(totalEpisodes, entries.length)}
+      </p>
+      <button class="reset-filters" type="button">{copy.reset}</button>
+    </div>
+  </div>
+</section>
+
+<div class="belief-groups container">
+  {entries.map((item) => (
+    <section
+      class="belief-group"
+      data-belief-id={item.belief.id}
+      data-group-search={`${item.title} ${item.claim} ${item.currentUnderstanding}`.toLowerCase()}
+    >
+      <header class="belief-heading">
+        <div>
+          <div class="belief-heading-topline">
+            <span>{item.belief.data.category}</span>
+            <span class="episode-count">{copy.episodes(item.episodes.length)}</span>
+          </div>
+          <h2>{item.title}</h2>
+          <p class="belief-claim">{item.claim}</p>
+        </div>
+
+        <details class="group-current">
+          <summary>{copy.current}</summary>
+          <p>{item.currentUnderstanding}</p>
+        </details>
+      </header>
+
+      <div class="episode-grid">
+        {item.episodes.map((episode) => {
+          const searchText = [
+            item.title,
+            item.claim,
+            item.currentUnderstanding,
+            episode.polity,
+            episode.region,
+            episode.periodLabel,
+            episode.summary,
+            ...episode.institutions,
+            ...episode.consequences,
+            ...episode.institutionTypes.map((type) => typeLabels[type]),
+            strengthLabels[episode.strength],
+          ].join(' ').toLowerCase();
+
+          return (
+            <article
+              class="episode-card"
+              data-start-year={episode.startYear}
+              data-end-year={episode.endYear}
+              data-region={episode.region}
+              data-polity={episode.polity}
+              data-strength={episode.strength}
+              data-types={episode.institutionTypes.join('|')}
+              data-search={searchText}
+            >
+              <div class="episode-topline">
+                <span class="polity">{episode.polity}</span>
+                <span class="period">{episode.periodLabel}</span>
+              </div>
+
+              <span class={`strength strength-${episode.strength}`}>
+                {strengthLabels[episode.strength]}
+              </span>
+
+              <p class="episode-summary">{episode.summary}</p>
+
+              <div class="episode-section">
+                <h3>{copy.institutions}</h3>
+                <p>{episode.institutions.join(' · ')}</p>
+              </div>
+
+              <div class="episode-section">
+                <h3>{copy.consequences}</h3>
+                <div class="tag-row">
+                  {episode.consequences.map((consequence) => (
+                    <span class="tag">{consequence}</span>
+                  ))}
+                </div>
+              </div>
+
+              <details class="evidence">
+                <summary>{copy.evidence}</summary>
+                <ul>
+                  {episode.sources.map((source) => (
+                    <li>
+                      <a href={source.url} target="_blank" rel="noreferrer">
+                        {source.title}
+                      </a>
+                      <span>{source.publisher}</span>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+
+              {item.belief.data.entryId && (
+                <a class="entry-link" href={entryPath(item.belief.data.entryId)}>
+                  {copy.linkedEntry} →
+                </a>
+              )}
+            </article>
+          );
+        })}
+      </div>
+    </section>
+  ))}
+</div>
+
+<div class="empty-state container" hidden>
+  <p>{copy.noResults}</p>
+</div>
+
+<script>
+  const search = document.querySelector<HTMLInputElement>('.institutional-search');
+  const filters = Array.from(
+    document.querySelectorAll<HTMLSelectElement>('.institutional-filter')
+  );
+  const reset = document.querySelector<HTMLButtonElement>('.reset-filters');
+  const resultSummary = document.querySelector<HTMLElement>('.results-summary');
+  const emptyState = document.querySelector<HTMLElement>('.empty-state');
+  const groups = Array.from(document.querySelectorAll<HTMLElement>('.belief-group'));
+
+  const locale: 'en' | 'de' = document.documentElement.lang.startsWith('de') ? 'de' : 'en';
+
+  const summaryCopy = {
+    en: (episodes: number, groups: number) =>
+      `${episodes} institutional episodes across ${groups} beliefs`,
+    de: (episodes: number, groups: number) =>
+      `${episodes} institutionelle Episoden in ${groups} Themen`,
+  };
+
+  const apply = () => {
+    const query = search?.value.trim().toLowerCase() ?? '';
+    const active = Object.fromEntries(
+      filters.map((filter) => [filter.dataset.filter ?? '', filter.value]),
+    );
+
+    const selectedDecade = active.decade ? Number(active.decade) : null;
+    const decadeStart = selectedDecade;
+    const decadeEnd = selectedDecade === null ? null : selectedDecade + 9;
+
+    let visibleEpisodes = 0;
+    let visibleGroups = 0;
+
+    for (const group of groups) {
+      const groupSearch = group.dataset.groupSearch ?? '';
+      const cards = Array.from(group.querySelectorAll<HTMLElement>('.episode-card'));
+      let visibleCards = 0;
+
+      for (const card of cards) {
+        const types = (card.dataset.types ?? '').split('|');
+        const startYear = Number(card.dataset.startYear);
+        const endYear = Number(card.dataset.endYear);
+
+        const activeInDecade =
+          selectedDecade === null ||
+          (startYear <= (decadeEnd ?? startYear) && endYear >= (decadeStart ?? endYear));
+
+        const matches =
+          (!query ||
+            groupSearch.includes(query) ||
+            (card.dataset.search ?? '').includes(query)) &&
+          (!active.region || card.dataset.region === active.region) &&
+          (!active.polity || card.dataset.polity === active.polity) &&
+          (!active.strength || card.dataset.strength === active.strength) &&
+          (!active.type || types.includes(active.type)) &&
+          activeInDecade;
+
+        card.hidden = !matches;
+
+        if (matches) {
+          visibleCards += 1;
+          visibleEpisodes += 1;
+        }
+      }
+
+      group.hidden = visibleCards === 0;
+      if (visibleCards > 0) visibleGroups += 1;
+
+      const count = group.querySelector<HTMLElement>('.episode-count');
+      if (count) {
+        count.textContent = locale === 'de'
+          ? `${visibleCards} ${visibleCards === 1 ? 'Episode' : 'Episoden'}`
+          : `${visibleCards} ${visibleCards === 1 ? 'episode' : 'episodes'}`;
+      }
+    }
+
+    if (resultSummary) {
+      resultSummary.textContent = summaryCopy[locale](visibleEpisodes, visibleGroups);
+    }
+
+    if (emptyState) emptyState.hidden = visibleEpisodes > 0;
+  };
+
+  search?.addEventListener('input', apply);
+  filters.forEach((filter) => filter.addEventListener('change', apply));
+
+  reset?.addEventListener('click', () => {
+    if (search) search.value = '';
+    filters.forEach((filter) => {
+      filter.value = '';
+    });
+    apply();
+  });
+</script>
+
+<style>
+  .institutional-head {
+    padding: 5rem 0 2.5rem;
+  }
+
+  .institutional-head h1 {
+    margin: 0.2rem 0 1rem;
+    max-width: 900px;
+  }
+
+  .institutional-intro {
+    margin: 0;
+    max-width: 780px;
+    color: var(--muted);
+    font-size: clamp(1.08rem, 2vw, 1.35rem);
+  }
+
+  .definition-grid {
+    margin-top: 2.3rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .definition-card {
+    padding: 1.35rem 1.4rem;
+    border: 1px solid var(--line);
+    border-radius: 0.85rem;
+    background: color-mix(in srgb, var(--card) 82%, transparent);
+  }
+
+  .definition-card h2 {
+    margin: 0 0 0.6rem;
+    font-size: 1.15rem;
+  }
+
+  .definition-card p {
+    margin: 0;
+    color: var(--muted);
+  }
+
+  .coverage-note {
+    margin: 1rem 0 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+
+  .level-legend {
+    margin-top: 1rem;
+    padding: 1.25rem 1.4rem;
+    border: 1px solid var(--line);
+    border-radius: 0.85rem;
+    background: var(--card);
+  }
+
+  .level-legend h2 {
+    margin: 0 0 0.9rem;
+    font-size: 1rem;
+  }
+
+  .level-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .level-grid > div {
+    min-width: 0;
+  }
+
+  .level-grid .strength {
+    margin-top: 0;
+  }
+
+  .level-grid p {
+    margin: 0.5rem 0 0;
+    color: var(--muted);
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
+
+  .institutional-controls {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    border-block: 1px solid var(--line);
+    background: color-mix(in srgb, var(--paper) 94%, transparent);
+    backdrop-filter: blur(12px);
+  }
+
+  .control-grid {
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: minmax(240px, 1.6fr) repeat(5, minmax(145px, 1fr));
+    gap: 0.7rem;
+    align-items: center;
+  }
+
+  .control-grid input,
+  .control-grid select {
+    width: 100%;
+    min-height: 2.8rem;
+    padding: 0.65rem 0.75rem;
+    border: 1px solid var(--line);
+    border-radius: 0.55rem;
+    background: var(--card);
+    color: var(--ink);
+    font: inherit;
+  }
+
+  .control-footer {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .results-summary {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .reset-filters {
+    border: 0;
+    padding: 0.2rem 0;
+    color: var(--accent-dark);
+    background: transparent;
+    font: inherit;
+    font-weight: 750;
+    cursor: pointer;
+  }
+
+  .belief-groups {
+    padding-top: 3rem;
+  }
+
+  .belief-group + .belief-group {
+    margin-top: 4.5rem;
+  }
+
+  .belief-group[hidden],
+  .episode-card[hidden] {
+    display: none;
+  }
+
+  .belief-heading {
+    margin-bottom: 1.2rem;
+    padding-bottom: 1.15rem;
+    border-bottom: 2px solid var(--ink);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(250px, 0.45fr);
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .belief-heading-topline {
+    margin-bottom: 0.35rem;
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .episode-count {
+    padding-left: 0.7rem;
+    border-left: 1px solid var(--line);
+  }
+
+  .belief-heading h2 {
+    margin: 0;
+    font-size: clamp(2rem, 5vw, 3.3rem);
+  }
+
+  .belief-claim {
+    margin: 0.7rem 0 0;
+    max-width: 760px;
+    font-size: 1.03rem;
+    font-weight: 680;
+  }
+
+  .group-current {
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--line);
+    border-radius: 0.7rem;
+    background: var(--card);
+  }
+
+  .group-current summary {
+    cursor: pointer;
+    color: var(--accent-dark);
+    font-weight: 800;
+  }
+
+  .group-current p {
+    margin: 0.55rem 0 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .episode-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .episode-card {
+    padding: 1.35rem;
+    border: 1px solid var(--line);
+    border-radius: 0.85rem;
+    background: var(--card);
+    box-shadow: 0 8px 30px rgba(23, 23, 23, 0.035);
+  }
+
+  .episode-topline {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
+
+  .period {
+    color: var(--accent-dark);
+    white-space: nowrap;
+  }
+
+  .strength {
+    display: inline-flex;
+    margin-top: 0.75rem;
+    padding: 0.26rem 0.58rem;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    background: var(--paper);
+    font-size: 0.72rem;
+    font-weight: 850;
+    letter-spacing: 0.03em;
+  }
+
+  .strength-policy-basis,
+  .strength-enforced-doctrine {
+    border-color: color-mix(in srgb, var(--accent) 35%, var(--line));
+    color: var(--accent-dark);
+  }
+
+  .episode-summary {
+    margin: 0.95rem 0 1.1rem;
+    color: var(--muted);
+  }
+
+  .episode-section {
+    padding-top: 0.9rem;
+    border-top: 1px solid color-mix(in srgb, var(--line) 72%, transparent);
+  }
+
+  .episode-section + .episode-section {
+    margin-top: 0.85rem;
+  }
+
+  .episode-section h3 {
+    margin: 0 0 0.38rem;
+    font-size: 0.73rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .episode-section p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .tag {
+    padding: 0.22rem 0.48rem;
+    border-radius: 0.35rem;
+    background: var(--paper);
+    color: var(--muted);
+    font-size: 0.78rem;
+  }
+
+  .evidence {
+    margin-top: 0.9rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid color-mix(in srgb, var(--line) 72%, transparent);
+  }
+
+  .evidence summary {
+    cursor: pointer;
+    color: var(--accent-dark);
+    font-weight: 780;
+  }
+
+  .evidence ul {
+    margin: 0.75rem 0 0;
+    padding-left: 1.15rem;
+  }
+
+  .evidence li + li {
+    margin-top: 0.7rem;
+  }
+
+  .evidence a {
+    font-weight: 720;
+  }
+
+  .evidence li > span {
+    display: block;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+
+  .entry-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--accent-dark);
+    font-weight: 800;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+  }
+
+  .empty-state {
+    padding: 4rem 0;
+    color: var(--muted);
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  @media (max-width: 1100px) {
+    .control-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .search-field {
+      grid-column: span 3;
+    }
+
+    .level-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 760px) {
+    .institutional-head {
+      padding-top: 3.2rem;
+    }
+
+    .definition-grid,
+    .episode-grid,
+    .control-grid,
+    .level-grid,
+    .belief-heading {
+      grid-template-columns: 1fr;
+    }
+
+    .search-field {
+      grid-column: auto;
+    }
+
+    .institutional-controls {
+      position: static;
+    }
+
+    .control-footer {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .episode-topline {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+
+    .group-current {
+      max-width: none;
+    }
+  }
+</style>

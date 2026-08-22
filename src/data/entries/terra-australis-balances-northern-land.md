@@ -12,7 +12,21 @@ lifespanComparable: false
 summary: A symmetry argument put a gigantic continent on maps before anyone had seen it and eventually sent Cook south under secret Admiralty orders to look for it.
 featured: false
 publishedAt: '2026-08-13'
-reviewedAt: '2026-08-13'
+reviewedAt: '2026-08-22'
+media:
+  - id: "ortelius-terra-australis-1570"
+    type: "image"
+    src: "/media/entries/terra-australis-balances-northern-land/ortelius-terra-australis-1570.webp"
+    width: 2400
+    height: 1634
+    alt: "Abraham Ortelius's 1570 world map, with a huge hypothetical landmass labeled Terra Australis Nondum Cognita stretching across much of the bottom of the map beneath South America, Africa, and Asia."
+    caption: "Ortelius's 1570 world map makes the old mental model visible: a vast Terra Australis Nondum Cognita occupies much of the unknown south. The landmass was cartographic conjecture rather than an observed continent; Antarctica exists, but not as this enormous temperate balancing land."
+    credit: "Abraham Ortelius, Typus Orbis Terrarum (1570); Library of Congress scan"
+    sourceLabel: "Wikimedia Commons"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:OrteliusWorldMap1570.jpg"
+    rights: "public-domain"
+    derivative: true
+    layout: "wide"
 sources:
 - title: The Search for 'Terra Australis'
   url: https://www.nationalarchives.gov.uk/education/resources/the-search-for-terra-australis/

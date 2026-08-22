@@ -11,7 +11,20 @@ timelineYear: 1955
 summary: "Sounding and sonar transformed the seafloor from a flat imagined basin into one of Earth's most rugged landscapes."
 featured: false
 publishedAt: "2026-07-24"
-reviewedAt: "2026-07-24"
+reviewedAt: "2026-08-22"
+media:
+  - id: "seafloor-relief-explainer"
+    type: "image"
+    src: "/media/entries/deep-ocean-floor-flat-featureless/seafloor-relief-explainer.en.svg"
+    width: 1200
+    height: 820
+    alt: "Two-panel explanatory diagram. The left panel shows a ship taking only a few isolated depth soundings above an imagined smooth ocean basin. The right panel shows sonar measuring a much more varied seafloor with a continental slope, abyssal plain, seamount, mid-ocean ridge, and deep trench."
+    caption: "Why the old picture was plausible, and why it failed. Sparse depth measurements left enormous gaps that could be mentally filled with a smooth basin; systematic sounding and sonar revealed ridges, trenches, seamounts and other large relief. Abyssal plains are real, but they are only one part of the seafloor."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/deep-ocean-floor-flat-featureless/"
+    rights: "original"
+    layout: "wide"
 sources:
   - title: "Developing the theory: This Dynamic Earth"
     url: "https://pubs.usgs.gov/gip/dynamic/developing.html"

@@ -1,13 +1,18 @@
 ---
 locale: de
 entryId: terra-australis-balances-northern-land
-sourceReviewedAt: "2026-08-13"
+sourceReviewedAt: "2026-08-22"
 claim: "Ein riesiger Südkontinent muss existieren, um die großen Landmassen der Nordhalbkugel auszugleichen."
 currentUnderstanding: "Die Kontinente der Erde sind Produkte der Plattentektonik und geologischen Geschichte; es gibt keine physikalische Notwendigkeit, dass die Landfläche zwischen den Hemisphären symmetrisch verteilt sein muss. Die Antarktis existiert, ist aber nicht die gewaltige gemäßigte Terra Australis, die auf frühen Karten vorgestellt wurde."
 whyItChanged: "Seereisen fanden den angenommenen Kontinent in den erwarteten gemäßigten südlichen Breiten wiederholt nicht. James Cooks Reisen im 18. Jahrhundert durchquerten und kartierten große Teile des Südpazifiks und hohe südliche Breiten und schlossen damit die riesige Terra Australis aus, die auf älteren Karten eingezeichnet war."
 acceptedApproximately: "Antike geografische Spekulation, in der Renaissance und frühneuzeitlichen europäischen Kartografie stark wiederbelebt"
 changedApproximately: "Erkundung des Pazifiks im 18. Jahrhundert"
 summary: "Ein Symmetrieargument setzte einen gigantischen Kontinent auf Karten, bevor ihn jemand gesehen hatte, und schickte Cook schließlich mit geheimen Admiralitätsbefehlen nach Süden, um nach ihm zu suchen."
+media:
+  - id: "ortelius-terra-australis-1570"
+    src: "/media/entries/terra-australis-balances-northern-land/ortelius-terra-australis-1570.webp"
+    alt: "Abraham Ortelius’ Weltkarte von 1570. Am unteren Rand erstreckt sich unter Südamerika, Afrika und Asien eine riesige hypothetische Landmasse mit der Beschriftung Terra Australis Nondum Cognita."
+    caption: "Ortelius’ Weltkarte von 1570 macht das frühere Denkmodell sichtbar: Eine gewaltige Terra Australis Nondum Cognita nimmt große Teile des unbekannten Südens ein. Diese Landmasse war kartografische Spekulation und kein beobachteter Kontinent; die Antarktis existiert, aber nicht als dieses riesige gemäßigte Ausgleichsland."
 sourceNotes:
 - "Erklärt die lange angenommene Existenz eines großen Südkontinents und Cooks geheimen Auftrag, nach ihm zu suchen."
 - "Enthält die Anweisungen der Admiralität, die Cook zur Suche nach einem Kontinent von großer Ausdehnung aufforderten."

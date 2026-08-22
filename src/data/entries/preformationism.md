@@ -12,7 +12,23 @@ lifespanComparable: true
 summary: 'Microscopy helped create one of embryology''s strangest serious theories: organisms were already preformed in eggs or sperm and merely unfolded during development.'
 featured: false
 publishedAt: '2026-08-13'
-reviewedAt: '2026-08-13'
+reviewedAt: '2026-08-22'
+media:
+  - id: "hartsoeker-homunculus-1694"
+    type: "image"
+    src: "/media/entries/preformationism/hartsoeker-homunculus-1694.webp"
+    width: 1000
+    height: 1769
+    alt: "Historical 1694 illustration by Nicolaas Hartsoeker showing a tiny curled human figure imagined inside the head of a sperm cell."
+    caption: "Hartsoeker's famous 1694 image became an icon of spermist preformation: the idea that a miniature organism was already present in the sperm and development mainly enlarged or unfolded it. Hartsoeker presented the figure as a speculation, not as something he claimed to have literally seen through a microscope."
+    credit: "Nicolaas Hartsoeker, Essay de dioptrique (1694); Wellcome Collection"
+    sourceLabel: "Wikimedia Commons / Wellcome Collection"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:N._Hartsoeker,_Essay_de_dioptrique_Wellcome_M0016638.jpg"
+    rights: "licensed"
+    licenseLabel: "CC BY 4.0"
+    licenseUrl: "https://creativecommons.org/licenses/by/4.0/"
+    derivative: true
+    layout: "inline"
 sources:
 - title: Preformationism in the Enlightenment
   url: https://embryo.asu.edu/pages/preformationism-enlightenment

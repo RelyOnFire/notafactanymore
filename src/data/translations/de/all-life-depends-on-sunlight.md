@@ -1,13 +1,18 @@
 ---
 locale: de
 entryId: all-life-depends-on-sunlight
-sourceReviewedAt: "2026-08-20"
+sourceReviewedAt: "2026-08-22"
 claim: Nahrungsnetze galten letztlich als abhängig von photosynthetischer Primärproduktion, die durch Sonnenlicht angetrieben wird.
 currentUnderstanding: "Manche Ökosysteme beginnen nicht mit Sonnenlicht. Bestimmte Mikroorganismen können organisches Material herstellen, indem sie Energie aus chemischen Reaktionen statt aus Photosynthese gewinnen. Dieser Vorgang heißt Chemosynthese und kann in dunklen Umgebungen wie [hydrothermalen Quellen](glossary:hydrothermal-vent) der Tiefsee ganze Nahrungsnetze tragen."
 whyItChanged: "1977 fanden Forschende am Galápagos-Rift dichte Gemeinschaften aus Röhrenwürmern, Muscheln und anderen Tieren rund um hydrothermale Quellen – weit unterhalb der Reichweite von Sonnenlicht. Spätere Arbeiten zeigten, dass Mikroorganismen dort chemische Energie aus den Quellfluiden nutzten, um organisches Material herzustellen und damit die Basis des lokalen Nahrungsnetzes zu bilden."
 acceptedApproximately: Vor der Entdeckung der Ökosysteme an hydrothermalen Tiefseequellen
 changedApproximately: 1977 bis frühe 1980er-Jahre
 summary: "Ökosysteme an Tiefseequellen zeigten, dass ein Nahrungsnetz mit chemischer Energie statt mit Sonnenlicht beginnen kann."
+media:
+  - id: "chemosynthesis-food-web-explainer"
+    src: "/media/entries/all-life-depends-on-sunlight/chemosynthesis-food-web-explainer.de.svg"
+    alt: "Zweiteilige Erklärungsgrafik mit zwei Wegen in ein Nahrungsnetz. Links treibt Sonnenlicht photosynthetische Mikroben und Algen nahe der Meeresoberfläche an. Rechts liefern reduzierte Stoffe in Fluiden hydrothermaler Quellen Energie für chemosynthetische Mikroben, die Tiere am dunklen Meeresboden ernähren."
+    caption: "Die meisten Nahrungsnetze beginnen mit Sonnenlicht und Photosynthese. An hydrothermalen Quellen kann lokale Primärproduktion stattdessen mit chemischer Energie beginnen: Chemosynthetische Mikroorganismen fixieren Kohlenstoff und tragen dichte Tiergemeinschaften in völliger Dunkelheit. Die Grafik zeigt einen vereinfachten Weg; reale Quellgemeinschaften nutzen mehrere Stoffwechselwege."
 sourceNotes:
 - Erklärt, dass Wissenschaftler lange davon ausgingen, alles Leben drehe sich letztlich um Sonnenlicht, und wie die Entdeckung der Tiefseequellen dieses Bild veränderte.
 - Erklärt chemosynthetische Nahrungsnetze und ihre Entdeckung an hydrothermalen Quellen im Jahr 1977.

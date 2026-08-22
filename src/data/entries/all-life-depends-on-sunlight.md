@@ -12,7 +12,20 @@ lifespanComparable: false
 summary: "Deep-sea vent ecosystems showed that a food web can begin with chemical energy instead of sunlight."
 featured: false
 publishedAt: "2026-07-17"
-reviewedAt: "2026-08-20"
+reviewedAt: "2026-08-22"
+media:
+  - id: "chemosynthesis-food-web-explainer"
+    type: "image"
+    src: "/media/entries/all-life-depends-on-sunlight/chemosynthesis-food-web-explainer.en.svg"
+    width: 1200
+    height: 900
+    alt: "Side-by-side explanatory diagram comparing two routes into a food web. On the left, sunlight powers photosynthetic microbes and algae near the ocean surface. On the right, reduced chemicals in hydrothermal-vent fluids supply energy to chemosynthetic microbes, which support animals on the dark seafloor."
+    caption: "Most food webs begin with sunlight and photosynthesis. At hydrothermal vents, local primary production can instead begin with chemical energy: chemosynthetic microorganisms fix carbon and support dense animal communities in darkness. The diagram shows one simplified pathway; real vent communities use several metabolisms."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/all-life-depends-on-sunlight/"
+    rights: "original"
+    layout: "wide"
 sources:
   - title: "Take a DEEP Dive for National Ocean Month"
     url: "https://oceanexplorer.noaa.gov/exploration-extras/22-national-ocean-month/"

@@ -1,13 +1,18 @@
 ---
 locale: de
 entryId: preformationism
-sourceReviewedAt: "2026-08-13"
+sourceReviewedAt: "2026-08-22"
 claim: "Ein Embryo existiert bereits in einer im Wesentlichen vorgeformten Miniaturorganisation, und Entwicklung besteht hauptsächlich darin, bereits vorhandene Strukturen zu entfalten oder zu vergrößern."
 currentUnderstanding: "Die Form eines Embryos entsteht schrittweise durch Zellteilung, Differenzierung, Signalübertragung, Genregulation, Morphogenese und Wechselwirkungen zwischen Geweben. Der Organismus liegt weder im Ei noch im Spermium bereits als vollständiges Miniaturindividuum vor."
 whyItChanged: "Verbesserte Mikroskopie und systematische Embryologie zeigten, dass Strukturen während der Entwicklung schrittweise entstehen, statt sich lediglich aus einer vorgeformten Miniatur zu vergrößern. Bis zum frühen 19. Jahrhundert hatte der Präformationismus seine wissenschaftliche Unterstützung weitgehend verloren."
 acceptedApproximately: "Spätes 17. bis 18. Jahrhundert"
 changedApproximately: "Spätes 18. bis frühes 19. Jahrhundert"
 summary: "Die Mikroskopie half, eine der ungewöhnlichsten ernsthaften Theorien der Embryologie hervorzubringen: Organismen seien bereits in Ei oder Spermium vorgeformt und entfalteten sich während der Entwicklung nur noch."
+media:
+  - id: "hartsoeker-homunculus-1694"
+    src: "/media/entries/preformationism/hartsoeker-homunculus-1694.webp"
+    alt: "Historische Darstellung von Nicolaas Hartsoeker aus dem Jahr 1694: Im Kopf eines Spermiums ist ein winziger zusammengerollter Mensch eingezeichnet."
+    caption: "Hartsoekers berühmte Darstellung von 1694 wurde zu einem Symbol des spermistischen Präformationismus: der Vorstellung, ein Miniaturorganismus sei bereits im Spermium vorhanden und werde während der Entwicklung im Wesentlichen nur größer beziehungsweise entfalte sich. Hartsoeker stellte die Figur als Spekulation dar und behauptete nicht, sie tatsächlich im Mikroskop gesehen zu haben."
 sourceNotes:
 - "Erklärt die im Zeitalter der Aufklärung verbreitete Theorie, ihre ovistische und spermistische Variante sowie ihren Niedergang bis zum frühen 19. Jahrhundert."
 - "Behandelt spermistischen Präformationismus, die Entdeckung der Spermien und Hartsoekers berühmte Darstellung."

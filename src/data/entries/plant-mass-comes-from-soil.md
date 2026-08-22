@@ -13,6 +13,19 @@ summary: The bulk of a plant's dry matter proved to come from carbon dioxide in 
 featured: false
 publishedAt: '2026-08-06'
 reviewedAt: '2026-08-13'
+media:
+  - id: "plant-mass-comes-from-soil-explainer"
+    type: "image"
+    src: "/media/entries/plant-mass-comes-from-soil/plant-mass-comes-from-soil-explainer.en.svg"
+    width: 760
+    height: 1610
+    alt: "Explanatory diagram comparing a plant and soil before and after growth. The plant gains substantial dry mass while soil mass changes little. Arrows show carbon dioxide entering through the leaves, water entering through the roots, and mineral nutrients coming from the soil."
+    caption: "A growing plant can gain far more dry mass than the surrounding soil loses. Later work showed that the carbon making up much of plant dry matter comes from atmospheric carbon dioxide, while soil supplies essential mineral nutrients and water rather than most of the added dry material."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/plant-mass-comes-from-soil/"
+    rights: "original"
+    layout: "inline"
 sources:
 - title: The Vegetable Staticks of Stephen Hales
   url: https://royalsocietypublishing.org/doi/10.1098/rsnr.1993.0001

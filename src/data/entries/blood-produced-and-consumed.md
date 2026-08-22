@@ -13,6 +13,19 @@ summary: Galen's outward-flow model of blood was replaced by the discovery that 
 featured: false
 publishedAt: '2026-07-17'
 reviewedAt: '2026-08-13'
+media:
+  - id: "blood-produced-and-consumed-explainer"
+    type: "image"
+    src: "/media/entries/blood-produced-and-consumed/blood-produced-and-consumed-explainer.en.svg"
+    width: 760
+    height: 1710
+    alt: "Comparison diagram. The first section shows blood produced in the liver and flowing outward toward tissues where it is consumed. The second shows a closed loop in which the heart drives blood through arteries and back through veins, with pulmonary circulation included."
+    caption: "A simplified comparison of the Galenic blood model and Harvey’s circulation. In the older framework, blood was continually produced and used by the tissues; Harvey’s experiments and quantitative reasoning instead supported repeated circulation driven by the heart."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/blood-produced-and-consumed/"
+    rights: "original"
+    layout: "inline"
 sources:
 - title: 'Discovery of the cardiovascular system: from Galen to William Harvey'
   url: https://pubmed.ncbi.nlm.nih.gov/21781247/

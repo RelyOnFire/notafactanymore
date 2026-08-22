@@ -12,6 +12,19 @@ summary: "A new formal definition of planet reclassified Pluto as a dwarf planet
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
+media:
+  - id: "pluto-ninth-planet-explainer"
+    type: "image"
+    src: "/media/entries/pluto-ninth-planet/pluto-ninth-planet-explainer.en.svg"
+    width: 760
+    height: 1690
+    alt: "Classification diagram. An older Solar System row labels Pluto as the ninth planet. A second view places Pluto with other Kuiper Belt objects and lists the IAU criteria: orbit the Sun, be rounded by gravity, and clear the orbital neighbourhood. Pluto meets the first two but not the third."
+    caption: "Pluto did not physically change in 2006; its classification did. Discoveries in the Kuiper Belt placed it among a broader population of icy bodies, and under the IAU’s Solar System definition it is a dwarf planet because it has not cleared the neighbourhood around its orbit."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/pluto-ninth-planet/"
+    rights: "original"
+    layout: "inline"
 sources:
   - title: "Pluto Facts"
     url: "https://science.nasa.gov/dwarf-planets/pluto/facts/"
@@ -32,11 +45,11 @@ sources:
 
 For 76 years after its discovery, Pluto appeared in textbooks as the Solar System's ninth planet. Its unusual orbit and small size were known, but there was no formal definition that clearly excluded it.
 
-The discovery of the [Kuiper Belt](glossary:kuiper-belt) changed the context. Pluto began to look less like a lone odd planet and more like a large member of a broad population of icy bodies beyond Neptune.
+The discovery of the Kuiper Belt changed the context. Pluto began to look less like a lone odd planet and more like a large member of a broad population of icy bodies beyond Neptune.
 
 The issue became unavoidable after the discovery of Eris, an object then thought to rival or exceed Pluto in size. Astronomers faced a classification problem: add more planets as similar bodies were found, or define a boundary.
 
-In 2006, the International Astronomical Union adopted a formal Solar System definition. A planet must orbit the Sun, be rounded by its own gravity, and have cleared the neighbourhood around its orbit. Pluto satisfies the first two conditions but not the third, so it was placed in the new [dwarf-planet](glossary:dwarf-planet) category.
+In 2006, the International Astronomical Union adopted a formal Solar System definition. A planet must orbit the Sun, be rounded by its own gravity, and have cleared the neighbourhood around its orbit. Pluto satisfies the first two conditions but not the third, so it was placed in the new dwarf-planet category.
 
 Nothing physical happened to Pluto in 2006. This was a taxonomic change prompted by new context.
 

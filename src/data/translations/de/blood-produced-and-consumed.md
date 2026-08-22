@@ -8,6 +8,11 @@ whyItChanged: "William Harvey zeigte mithilfe anatomischer Beobachtungen, der Ri
 acceptedApproximately: "2. Jahrhundert bis frühes 17. Jahrhundert"
 changedApproximately: "1620er- bis 1660er-Jahre"
 summary: "Galens Modell eines nach außen strömenden Blutes wurde durch die Entdeckung ersetzt, dass Blut kontinuierlich durch Herz und Gefäße zirkuliert."
+media:
+  - id: "blood-produced-and-consumed-explainer"
+    src: "/media/entries/blood-produced-and-consumed/blood-produced-and-consumed-explainer.de.svg"
+    alt: "Vergleichsdiagramm. Der erste Abschnitt zeigt Blut, das in der Leber gebildet wird und nach außen zu den Geweben fließt, wo es verbraucht wird. Der zweite zeigt einen geschlossenen Kreislauf, in dem das Herz Blut durch Arterien und über Venen zurücktreibt, einschließlich des Lungenkreislaufs."
+    caption: "Eine vereinfachte Gegenüberstellung des galenischen Blutmodells und Harveys Kreislauf. Im älteren Modell wurde Blut fortlaufend gebildet und von den Geweben verbraucht; Harveys Experimente und quantitative Überlegungen stützten dagegen einen wiederholten, vom Herzen angetriebenen Kreislauf."
 sourceNotes:
 - "Fasst Galens Behauptung zusammen, dass die Leber Blut erzeuge, das nach außen verteilt werde, und berichtet, dass dieses Modell etwa fünfzehn Jahrhunderte dominierte."
 - "Beschreibt das galenische Modell, in dem Nahrung in der Leber zu Blut wird und dann an den Körper verteilt wird."

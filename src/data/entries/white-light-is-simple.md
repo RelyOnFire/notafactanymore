@@ -1,6 +1,6 @@
 ---
 claim: White light is a simple, uniform kind of light, while prisms and other transparent bodies create or modify the colors seen in a spectrum.
-currentUnderstanding: "White light can contain a mixture of wavelengths. A prism separates them because its [refractive index](glossary:refractive-index) changes with wavelength. The prism therefore separates colors already present in the incoming light rather than manufacturing them from colorless light."
+currentUnderstanding: White light can contain a mixture of wavelengths. A prism separates different wavelengths because the refractive index depends on wavelength; it does not manufacture the spectral colors from otherwise colorless light.
 whyItChanged: Newton's prism experiments showed that differently colored rays have different refrangibilities and that separated colors can be recombined to make white light. His two-prism experiments were designed to show that the colors were properties of the incoming light rather than irregularities produced by the glass.
 status: Overturned
 category: Physics
@@ -13,6 +13,19 @@ summary: Before Newton, prism colors were commonly explained as modifications of
 featured: false
 publishedAt: '2026-08-13'
 reviewedAt: '2026-08-13'
+media:
+  - id: "white-light-is-simple-explainer"
+    type: "image"
+    src: "/media/entries/white-light-is-simple/white-light-is-simple-explainer.en.svg"
+    width: 760
+    height: 1510
+    alt: "Two-stage diagram. White light enters a prism and spreads into a spectrum from red to violet. In the second stage, the separated colors are brought back together and emerge as white light, illustrating separation and recombination."
+    caption: "Newton’s prism experiments reversed a common older direction of explanation. A prism separates white light into differently refracted colors, and those colors can be recombined into white: the spectrum reflects components of the incoming light rather than colors simply manufactured by the glass."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/white-light-is-simple/"
+    rights: "original"
+    layout: "inline"
 sources:
 - title: A Letter of Mr. Isaac Newton containing his New Theory about Light and Colors
   url: https://www.newtonproject.ox.ac.uk/view/texts/normalized/NATP00006

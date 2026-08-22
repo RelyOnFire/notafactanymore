@@ -8,6 +8,11 @@ whyItChanged: "Frühe Vorstellungen zur Pflanzenernährung konzentrierten sich a
 acceptedApproximately: "Antike bis 18. Jahrhundert"
 changedApproximately: "Spätes 18. bis 19. Jahrhundert"
 summary: "Der größte Teil der pflanzlichen Trockenmasse erwies sich als aus Kohlendioxid der Luft aufgebaut, nicht aus verschwindender Erde."
+media:
+  - id: "plant-mass-comes-from-soil-explainer"
+    src: "/media/entries/plant-mass-comes-from-soil/plant-mass-comes-from-soil-explainer.de.svg"
+    alt: "Erklärdiagramm mit Pflanze und Boden vor und nach dem Wachstum. Die Pflanze gewinnt deutlich an Trockenmasse, während sich die Bodenmasse nur wenig ändert. Pfeile zeigen Kohlendioxid über die Blätter, Wasser über die Wurzeln und Mineralstoffe aus dem Boden."
+    caption: "Eine wachsende Pflanze kann weit mehr Trockenmasse gewinnen, als der umgebende Boden verliert. Spätere Forschung zeigte, dass der Kohlenstoff in einem großen Teil der pflanzlichen Trockenmasse aus atmosphärischem Kohlendioxid stammt; der Boden liefert Wasser und wichtige Mineralstoffe, aber nicht den Großteil der neu gebildeten Trockenmasse."
 sourceNotes:
 - "Gibt einen Überblick über frühe quantitative Untersuchungen der Pflanzenphysiologie und die zunehmende Erkenntnis, dass Luft zur Pflanzensubstanz beiträgt."
 - "Erklärt, wie Pflanzen Kohlendioxid und Wasser nutzen, um Kohlenhydrate zu bilden, die den größten Teil ihrer Trockenbiomasse ausmachen."

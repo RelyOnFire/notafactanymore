@@ -8,6 +8,11 @@ whyItChanged: Die Entdeckung Pluto-ähnlicher Körper im Kuipergürtel, insbeson
 acceptedApproximately: 1930 bis 2006
 changedApproximately: '2006'
 summary: Eine neue formale Definition des Begriffs Planet klassifizierte Pluto als Zwergplaneten neu.
+media:
+  - id: "pluto-ninth-planet-explainer"
+    src: "/media/entries/pluto-ninth-planet/pluto-ninth-planet-explainer.de.svg"
+    alt: "Klassifikationsdiagramm. Eine ältere Darstellung des Sonnensystems bezeichnet Pluto als neunten Planeten. Eine zweite ordnet ihn anderen Objekten des Kuipergürtels zu und zeigt die IAU-Kriterien: Sonne umkreisen, durch eigene Gravitation rund sein und die Bahnumgebung freigeräumt haben. Pluto erfüllt die ersten beiden, nicht aber das dritte."
+    caption: "Pluto veränderte sich 2006 nicht physisch, sondern seine Einordnung. Entdeckungen im Kuipergürtel stellten ihn in eine größere Population eisiger Körper; nach der IAU-Definition für das Sonnensystem gilt er als Zwergplanet, weil er die Umgebung seiner Umlaufbahn nicht freigeräumt hat."
 sourceNotes:
 - Stellt fest, dass Pluto lange als neunter Planet galt und 2006 als Zwergplanet neu klassifiziert wurde.
 - Gibt die IAU-Definition eines Planeten wieder und erklärt, warum Pluto sie nicht erfüllt.
@@ -16,11 +21,11 @@ sourceNotes:
 
 76 Jahre lang stand Pluto in Lehrbüchern als neunter Planet des Sonnensystems. Seine geringe Größe und ungewöhnliche Umlaufbahn waren bekannt, doch es gab keine formale Planetendefinition, die ihn eindeutig ausschloss.
 
-Die Entdeckung des [Kuipergürtels](glossary:kuiper-belt) veränderte den Kontext. Pluto wirkte zunehmend weniger wie ein isolierter Sonderfall und mehr wie ein großes Mitglied einer ganzen Population eisiger Körper jenseits von Neptun.
+Die Entdeckung des Kuipergürtels veränderte den Kontext. Pluto wirkte zunehmend weniger wie ein isolierter Sonderfall und mehr wie ein großes Mitglied einer ganzen Population eisiger Körper jenseits von Neptun.
 
 Mit der Entdeckung von Eris wurde die Klassifikationsfrage akut. Sollte jeder ähnlich große neu gefundene Körper als weiterer Planet gelten, oder brauchte die Astronomie eine klarere Grenze?
 
-2006 verabschiedete die Internationale Astronomische Union eine formale Definition für Planeten des Sonnensystems. Ein Planet muss die Sonne umkreisen, durch seine Eigengravitation annähernd rund sein und die Umgebung seiner Umlaufbahn freigeräumt haben. Pluto erfüllt die ersten beiden Bedingungen, nicht aber die dritte, und wurde deshalb als [Zwergplanet](glossary:dwarf-planet) klassifiziert.
+2006 verabschiedete die Internationale Astronomische Union eine formale Definition für Planeten des Sonnensystems. Ein Planet muss die Sonne umkreisen, durch seine Eigengravitation annähernd rund sein und die Umgebung seiner Umlaufbahn freigeräumt haben. Pluto erfüllt die ersten beiden Bedingungen, nicht aber die dritte, und wurde deshalb als Zwergplanet klassifiziert.
 
 An Pluto selbst änderte sich 2006 nichts. Die Änderung war taxonomisch, ausgelöst durch neues Wissen über seine kosmische Nachbarschaft.
 

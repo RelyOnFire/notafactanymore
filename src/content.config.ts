@@ -23,6 +23,7 @@ const entryMedia = z.object({
     'public-domain-no-known-restrictions',
     'licensed',
     'source-specific',
+    'original',
   ]),
   licenseLabel: z.string().min(1).optional(),
   licenseUrl: z.string().url().optional(),
@@ -40,6 +41,10 @@ const entryMedia = z.object({
 
 const translatedEntryMedia = z.object({
   id: mediaId,
+  src: z.string().refine(
+    (value) => value.startsWith('/') || /^https:\/\//.test(value),
+    { message: 'translated media src must be a site-relative path or an https URL' },
+  ).optional(),
   alt: z.string().min(1),
   caption: z.string().min(1),
 });

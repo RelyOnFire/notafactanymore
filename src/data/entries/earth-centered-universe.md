@@ -13,6 +13,19 @@ summary: The long-dominant geocentric cosmos was replaced by a Sun-centered mode
 featured: false
 publishedAt: '2026-07-17'
 reviewedAt: '2026-08-13'
+media:
+  - id: "earth-centered-cosmos-explainer"
+    type: "image"
+    src: "/media/entries/earth-centered-universe/earth-centered-cosmos-explainer.en.svg"
+    width: 760
+    height: 2490
+    alt: "Vertical three-part explanatory diagram. At the top, Earth sits at the center of concentric layers representing the Moon, Mercury, Venus, the Sun, Mars, Jupiter, Saturn, and the fixed stars. The middle section shows three parts of the changing astronomical picture: the phases of Venus, moons orbiting Jupiter, and a planet tracing apparent retrograde motion. The bottom section shows a simplified heliocentric system, with the Sun at the center of the planetary system, Earth and other planets orbiting it, and the Moon orbiting Earth."
+    caption: "A simplified view of the shift from an Earth-centered cosmos to a heliocentric planetary system. Observations such as Venus’s phases and Jupiter’s moons weakened parts of the traditional model, while later astronomy and physics made a moving Earth increasingly compelling. The transition unfolded gradually rather than through a single decisive discovery."
+    credit: "Original graphic: Not a Fact Anymore"
+    sourceLabel: "Not a Fact Anymore"
+    sourceUrl: "https://notafactanymore.com/entries/earth-centered-universe/"
+    rights: "original"
+    layout: "inline"
 sources:
 - title: 'Picturing the solar system: a tale of astronomical change'
   url: https://museumsvictoria.com.au/article/picturing-the-solar-system/

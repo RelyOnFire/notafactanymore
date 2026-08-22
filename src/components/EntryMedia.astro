@@ -24,6 +24,7 @@ const labels = locale === 'de'
         'public-domain-no-known-restrictions': 'Gemeinfrei / keine bekannten Einschränkungen',
         'licensed': 'Lizenziert',
         'source-specific': 'Rechte siehe Quelle',
+        'original': 'Eigene Grafik',
       },
       derivative: 'Für die Webdarstellung konvertiert',
     }
@@ -35,6 +36,7 @@ const labels = locale === 'de'
         'public-domain-no-known-restrictions': 'Public domain / no known restrictions',
         'licensed': 'Licensed',
         'source-specific': 'See source for rights',
+        'original': 'Original graphic',
       },
       derivative: 'Converted for web display',
     };
@@ -43,37 +45,55 @@ const labels = locale === 'de'
   <div class="entry-media-stack">
     {media.map((item) => {
       const translated = translationsById.get(item.id);
+      const src = translated?.src ?? item.src;
       const alt = translated?.alt ?? item.alt;
       const caption = translated?.caption ?? item.caption;
 
       return (
         <figure class:list={['entry-media', `entry-media--${item.layout}`]}>
-          <a
-            class="entry-media-image-link"
-            href={item.sourceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`${labels.imageLink}: ${item.sourceLabel}`}
-          >
-            <img
-              src={item.src}
-              width={item.width}
-              height={item.height}
-              alt={alt}
-              loading="lazy"
-              decoding="async"
-              referrerpolicy="no-referrer"
-            />
-          </a>
+          {item.rights === 'original' ? (
+            <div class="entry-media-image-link entry-media-image-link--static">
+              <img
+                src={src}
+                width={item.width}
+                height={item.height}
+                alt={alt}
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          ) : (
+            <a
+              class="entry-media-image-link"
+              href={item.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${labels.imageLink}: ${item.sourceLabel}`}
+            >
+              <img
+                src={src}
+                width={item.width}
+                height={item.height}
+                alt={alt}
+                loading="lazy"
+                decoding="async"
+                referrerpolicy="no-referrer"
+              />
+            </a>
+          )}
 
           <figcaption>
             <p class="entry-media-caption">{caption}</p>
             <p class="entry-media-meta">
               <span>{item.credit}</span>
-              <span aria-hidden="true"> · </span>
-              <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">
-                {item.sourceLabel}: {labels.source}
-              </a>
+              {item.rights !== 'original' && (
+                <>
+                  <span aria-hidden="true"> · </span>
+                  <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">
+                    {item.sourceLabel}: {labels.source}
+                  </a>
+                </>
+              )}
               <span aria-hidden="true"> · </span>
               {item.licenseUrl && item.licenseLabel ? (
                 <a href={item.licenseUrl} target="_blank" rel="noopener noreferrer">
@@ -124,8 +144,8 @@ const labels = locale === 'de'
     box-shadow: 0 12px 30px rgb(30 24 13 / 7%);
   }
 
-  .entry-media-image-link:hover,
-  .entry-media-image-link:focus-visible {
+  a.entry-media-image-link:hover,
+  a.entry-media-image-link:focus-visible {
     border-color: var(--accent-dark);
   }
 

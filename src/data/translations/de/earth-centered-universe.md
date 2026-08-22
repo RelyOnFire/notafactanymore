@@ -8,6 +8,11 @@ whyItChanged: Das heliozentrische Modell erklärte die Bewegungen der Planeten �
 acceptedApproximately: Ptolemäische Astronomie vom 2. Jahrhundert n. Chr. bis ins frühe 17. Jahrhundert
 changedApproximately: 16.–17. Jahrhundert
 summary: Das lange vorherrschende geozentrische Weltbild wurde durch ein sonnenzentriertes Modell des Sonnensystems und später durch ein wesentlich größeres astronomisches Bild ersetzt.
+media:
+  - id: "earth-centered-cosmos-explainer"
+    src: "/media/entries/earth-centered-universe/earth-centered-cosmos-explainer.de.svg"
+    alt: "Vertikale Grafik in drei Abschnitten. Oben befindet sich die Erde im Zentrum konzentrischer Sphären für Mond, Merkur, Venus, Sonne, Mars, Jupiter, Saturn und die Fixsterne. In der Mitte werden drei Aspekte des veränderten astronomischen Bildes gezeigt: die Phasen der Venus, Monde um Jupiter und die scheinbar rückläufige Bewegung eines Planeten. Unten ist ein vereinfachtes heliozentrisches System dargestellt, in dem die Erde und andere Planeten die Sonne umkreisen und der Mond die Erde umkreist."
+    caption: "Eine vereinfachte Darstellung des Übergangs vom erdzentrierten Kosmos zum heliozentrischen Planetensystem. Beobachtungen wie die Phasen der Venus und die Monde des Jupiter schwächten Teile des traditionellen Modells, während spätere Astronomie und Physik eine bewegte Erde zunehmend überzeugend machten. Der Wandel vollzog sich schrittweise und nicht durch eine einzige entscheidende Entdeckung."
 sourceNotes:
 - Beschreibt das ptolemäische geozentrische Modell und erklärt, dass es über viele Jahrhunderte die vorherrschende Theorie war.
 - Erläutert, dass die Planeten die Sonne auf elliptischen Bahnen umkreisen, die durch Keplers Gesetze beschrieben werden.

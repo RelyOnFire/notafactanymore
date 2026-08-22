@@ -582,11 +582,20 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
   .level-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1rem;
+    gap: 0;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 0.7rem;
   }
 
   .level-grid > div {
     min-width: 0;
+    padding: 0.95rem 1rem;
+    background: color-mix(in srgb, var(--card) 88%, #ebe7df);
+  }
+
+  .level-grid > div + div {
+    border-left: 1px solid var(--line);
   }
 
   .level-grid .strength {
@@ -752,22 +761,81 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
   }
 
   .strength {
+    --level-color: #4f5d6b;
+    --level-bg: color-mix(in srgb, var(--level-color) 10%, white);
+    --level-border: color-mix(in srgb, var(--level-color) 58%, var(--line));
+
     display: inline-flex;
+    align-items: center;
+    gap: 0.48rem;
     margin-top: 0.75rem;
-    padding: 0.26rem 0.58rem;
-    border-radius: 999px;
-    border: 1px solid var(--line);
-    color: var(--muted);
-    background: var(--paper);
+    padding: 0.3rem 0.68rem 0.3rem 0.42rem;
+    border: 1px solid var(--level-border);
+    border-left-width: 4px;
+    border-radius: 0.3rem;
+    color: color-mix(in srgb, var(--level-color) 88%, black);
+    background: var(--level-bg);
     font-size: 0.72rem;
     font-weight: 850;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.025em;
   }
 
-  .strength-policy-basis,
+  .strength::before {
+    display: grid;
+    place-items: center;
+    min-width: 1.35rem;
+    height: 1.35rem;
+    padding: 0 0.2rem;
+    border: 1px solid color-mix(in srgb, var(--level-color) 68%, black);
+    border-radius: 0.16rem;
+    color: white;
+    background: var(--level-color);
+    font-size: 0.64rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 0;
+  }
+
+  /* A deliberately sombre archival scale. The hues avoid traffic-light semantics;
+     escalation is also encoded by Roman numerals, darker fills, and heavier borders. */
+  .strength-institutionally-influential {
+    --level-color: #4f5d6b;
+    --level-bg: color-mix(in srgb, #4f5d6b 9%, white);
+    border-left-width: 3px;
+  }
+
+  .strength-institutionally-influential::before {
+    content: 'I';
+  }
+
+  .strength-officially-endorsed {
+    --level-color: #514a68;
+    --level-bg: color-mix(in srgb, #514a68 11%, white);
+    border-left-width: 4px;
+  }
+
+  .strength-officially-endorsed::before {
+    content: 'II';
+  }
+
+  .strength-policy-basis {
+    --level-color: #655047;
+    --level-bg: color-mix(in srgb, #655047 14%, white);
+    border-left-width: 5px;
+  }
+
+  .strength-policy-basis::before {
+    content: 'III';
+  }
+
   .strength-enforced-doctrine {
-    border-color: color-mix(in srgb, var(--accent) 35%, var(--line));
-    color: var(--accent-dark);
+    --level-color: #6a2e35;
+    --level-bg: color-mix(in srgb, #6a2e35 18%, white);
+    border-left-width: 6px;
+  }
+
+  .strength-enforced-doctrine::before {
+    content: 'IV';
   }
 
   .episode-summary {
@@ -912,6 +980,11 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
       align-items: flex-start;
       flex-direction: column;
       gap: 0.1rem;
+    }
+
+    .level-grid > div + div {
+      border-left: 0;
+      border-top: 1px solid var(--line);
     }
 
     .group-current {

@@ -12,6 +12,19 @@ summary: "The miasma explanation for cholera was replaced by evidence that the d
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-07-17"
+media:
+  - id: "john-snow-cholera-map-1854"
+    type: "image"
+    src: "/media/entries/cholera-caused-by-miasma/john-snow-cholera-map-1854.webp"
+    width: 2400
+    height: 2251
+    alt: "John Snow’s 1854 map of Soho showing cholera deaths as stacked black bars along streets. The heaviest concentration of marks is around the Broad Street area near the contaminated water pump."
+    caption: "John Snow’s 1854 map plots cholera deaths as stacked black bars along Soho’s streets. The dense concentration around Broad Street supported his case that the outbreak was linked to contaminated water rather than poisonous air; the map was one part of a broader investigation."
+    credit: "John Snow, 1854"
+    sourceLabel: "Wikimedia Commons"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Snow-cholera-map-1.jpg"
+    rights: "public-domain-no-known-restrictions"
+    layout: "wide"
 sources:
   - title: "150th Anniversary of John Snow and the Pump Handle"
     url: "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5334a1.htm"

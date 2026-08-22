@@ -8,6 +8,11 @@ whyItChanged: "Ausbruchsmuster verbanden die Krankheit mit bestimmten Wasservers
 acceptedApproximately: "Frühes bis mittleres 19. Jahrhundert"
 changedApproximately: "1850er- bis 1880er-Jahre"
 summary: "Die Miasma-Erklärung der Cholera wurde durch Belege ersetzt, dass sich die Krankheit vor allem über mit Vibrio cholerae verunreinigtes Wasser oder Lebensmittel verbreitet."
+media:
+  - id: "john-snow-cholera-map-1854"
+    src: "/media/entries/cholera-caused-by-miasma/john-snow-cholera-map-1854.webp"
+    alt: "John Snows Karte von Soho aus dem Jahr 1854 zeigt Choleratodesfälle als gestapelte schwarze Balken entlang der Straßen. Die dichteste Häufung der Markierungen liegt im Bereich der Broad Street nahe der verunreinigten Wasserpumpe."
+    caption: "John Snows Karte von 1854 verzeichnet Choleratodesfälle als gestapelte schwarze Balken entlang der Straßen Sohos. Die starke Häufung rund um die Broad Street stützte seine These, dass der Ausbruch mit verunreinigtem Wasser statt mit giftiger Luft zusammenhing; die Karte war ein Teil einer umfassenderen Untersuchung."
 sourceNotes:
 - "Erklärt, dass Snows Theorie der Wasserübertragung gegenüber der damals dominierenden Miasma-Erklärung unpopulär war, und fasst seine Broad-Street-Untersuchung zusammen."
 - "Beschreibt Snows Kartierung und Untersuchung des Londoner Choleraausbruchs von 1854."

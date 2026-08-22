@@ -3,24 +3,25 @@ locale: de
 entryId: earth-magnetic-field-never-reverses
 sourceReviewedAt: "2026-08-20"
 claim: "Das Magnetfeld der Erde hat immer ungefähr in dieselbe Richtung gezeigt."
-currentUnderstanding: "Das Erdmagnetfeld hat seine Polarität viele Male umgekehrt. Bei einer solchen Umpolung ändert sich die globale magnetische Ausrichtung, sodass magnetischer Nord- und Südpol schließlich gegenüber ihrer vorherigen Orientierung vertauscht sind. Alte Gesteine bewahren Aufzeichnungen dieser früheren Feldrichtungen."
-whyItChanged: "Wenn eisenhaltige Lava abkühlt, können magnetische Minerale die damalige Richtung des Erdmagnetfelds speichern. Geologen fanden abwechselnde Gesteinsschichten mit normaler und umgekehrter Magnetisierung und später passende magnetische Streifen auf beiden Seiten mittelozeanischer Rücken. Das globale Muster zeigte wiederholte Umpolungen statt lokaler Besonderheiten."
+currentUnderstanding: "Das Erdmagnetfeld hat seine Polarität viele Male umgekehrt. Gesteine bewahren Zeitabschnitte, in denen magnetischer Nord- und Südpol gegenüber ihrer heutigen Orientierung vertauscht waren."
+whyItChanged: "Forschende fanden Gesteine, deren Magnetisierung sich nicht allein mit dem heutigen Feld erklären ließ. Paläomagnetische Datierung und symmetrische magnetische Streifen am Meeresboden etablierten eine wiederkehrende Geschichte von Polaritätsumkehrungen."
 acceptedApproximately: "Vor der Mitte des 20. Jahrhunderts"
 changedApproximately: "1920er- bis 1960er-Jahre"
-summary: "Magnetisierte Gesteine bewahren Zeitabschnitte, in denen magnetischer Nord- und Südpol der Erde gegenüber heute vertauscht waren."
+summary: "Gesteinsmagnetismus zeigte, dass die magnetischen Pole der Erde wiederholt ihre Orientierung gewechselt haben."
+media:
+  - id: "oceanic-magnetic-striping-usgs"
+    src: "/media/entries/earth-magnetic-field-never-reverses/oceanic-magnetic-striping-usgs.svg"
+    alt: "Dreiteiliges Diagramm zur Ozeanbodenspreizung und zu magnetischen Umpolungen. Am mittelozeanischen Rücken entsteht neue ozeanische Kruste und bewegt sich im Lauf der Zeit nach außen; dabei bleiben abwechselnde Streifen normaler und umgekehrter magnetischer Polarität auf beiden Seiten annähernd symmetrisch erhalten."
+    caption: "Ein theoretisches Modell der Entstehung magnetischer Streifen im Lauf der Zeit. Während am mittelozeanischen Rücken neue ozeanische Kruste entsteht und nach außen wandert, bleiben aufeinanderfolgende Umpolungen des Erdmagnetfelds als abwechselnde, annähernd symmetrische Streifen normaler und umgekehrter Polarität erhalten."
 sourceNotes:
 - "Erklärt, wie wiederholte Feldumkehrungen frühere Erklärungen für magnetische Muster am Meeresboden ersetzten."
 - "Erklärt, wie Lava und Sedimente frühere Polaritäten bewahren und wiederholte Umkehrungen bestätigen."
 ---
 
-Manche Minerale verhalten sich beim Abkühlen von Lava wie winzige Kompassnadeln. Sobald das Gestein erstarrt, kann ihre Ausrichtung gewissermaßen eingefroren werden und die Richtung des damaligen Erdmagnetfelds bewahren.
+Wenn eisenhaltige Lava abkühlt, können magnetische Minerale die Richtung des damaligen Erdmagnetfelds gewissermaßen einfrieren. Frühe Messungen lieferten ein Rätsel: Manche alten Gesteine waren in Richtungen magnetisiert, die stark vom heutigen Feld abwichen. Dafür kamen zunächst mehrere Erklärungen infrage – unter anderem spätere Bewegung oder Rotation der Gesteine selbst.
 
-Das führte zu einem Rätsel. Manche alten Gesteine waren ungefähr wie das heutige Feld magnetisiert, andere genau entgegengesetzt.
+Mit zunehmenden paläomagnetischen Daten ließ sich umgekehrte Polarität jedoch nicht länger als lokale Besonderheit abtun. Aufeinanderfolgende Lavaflüsse bewahrten abwechselnde Zeitabschnitte, in denen das globale Magnetfeld ungefähr wie heute orientiert war, und Phasen, in denen magnetischer Nord- und Südpol vertauscht waren.
 
-Zunächst hätte sich auch das Gestein selbst nach seiner Entstehung bewegen oder drehen können. Mit immer mehr untersuchten Lavafolgen zeigte sich jedoch ein wiederkehrendes Muster: Schichten aus Zeiten normaler Polarität wechselten mit Schichten, die während einer global umgekehrten Feldrichtung entstanden waren.
+Das entscheidende Muster fand sich schließlich am Meeresboden. Messungen zeigten parallele Streifen normaler und umgekehrter Magnetisierung, symmetrisch auf beiden Seiten mittelozeanischer Rücken angeordnet. Zusammen mit radiometrischer Datierung wurden diese Streifen sowohl zu einem Archiv wiederholter geomagnetischer Umpolungen als auch zu einem starken Beleg für die Spreizung des Meeresbodens.
 
-Die deutlichste Bestätigung kam vom Meeresboden. An mittelozeanischen Rücken entsteht neue basaltische Kruste und bewegt sich zu beiden Seiten nach außen. Beim Abkühlen zeichnet sie das jeweilige Magnetfeld auf. Messungen fanden parallele Streifen normaler und umgekehrter Magnetisierung, die sich auf beiden Seiten der Rücken spiegelbildlich entsprachen.
-
-Diese Streifen dokumentierten sowohl die Spreizung des Meeresbodens als auch eine lange Geschichte geomagnetischer Umpolungen.
-
-Eine Umpolung ist kein augenblicklicher Tausch der Pole. Der Übergang dauert meist Hunderte bis Tausende Jahre und unterscheidet sich von der kleineren jährlichen Wanderung der magnetischen Pole.
+Eine Umpolung ist kein augenblicklicher Tausch der Pole. Der Übergang verläuft gewöhnlich über Hunderte bis Tausende Jahre und unterscheidet sich von der allmählichen Wanderung der magnetischen Pole, die von Jahr zu Jahr beobachtet wird.

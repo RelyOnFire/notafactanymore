@@ -12,6 +12,20 @@ summary: "A celebrated network of Martian canals disappeared as telescopes impro
 featured: false
 publishedAt: "2026-07-17"
 reviewedAt: "2026-08-20"
+media:
+  - id: "schiaparelli-mars-map-1889"
+    type: "image"
+    src: "/media/entries/mars-is-crossed-by-canals/schiaparelli-mars-map-1889.webp"
+    width: 2000
+    height: 1200
+    alt: "Historical 1889 map of Mars showing two hemispheric views covered with a latitude-longitude grid, named surface regions, and numerous thin straight lines representing the canali mapped from telescopic observations."
+    caption: "This 1889 reproduction of a Schiaparelli map shows the narrow linear features called canali. Maps like this helped make a planet-wide network seem tangible, even though later observations and spacecraft found no corresponding system of geometrically straight canals."
+    credit: "Schiaparelli map of Mars, 1889; Popular Science Monthly"
+    sourceLabel: "Wikimedia Commons"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:PSM_V35_D060_Schiaparelli_map_of_mars.jpg"
+    rights: "public-domain"
+    derivative: true
+    layout: "wide"
 sources:
   - title: "Mars Then and Now"
     url: "https://apod.nasa.gov/apod/ap031112.html"

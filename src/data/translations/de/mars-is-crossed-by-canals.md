@@ -8,6 +8,10 @@ whyItChanged: Kleine Teleskope nahe ihrer Auflösungsgrenze begünstigten die Wa
 acceptedApproximately: Spätes 19. bis frühes 20. Jahrhundert
 changedApproximately: Frühes 20. Jahrhundert bis 1960er-Jahre
 summary: Ein berühmtes Netz von Marskanälen verschwand, als bessere Teleskope und schließlich Raumsonden den Planeten genauer zeigten.
+media:
+  - id: "schiaparelli-mars-map-1889"
+    alt: "Historische Marskarte von 1889 mit zwei Halbkugelansichten, Gradnetz, benannten Oberflächenregionen und zahlreichen dünnen geraden Linien, die die aus Teleskopbeobachtungen kartierten canali darstellen."
+    caption: "Diese Reproduktion einer Schiaparelli-Karte von 1889 zeigt die schmalen linearen Strukturen, die canali genannt wurden. Solche Karten ließen ein planetenweites Netz greifbar erscheinen, obwohl spätere Beobachtungen und Raumsonden kein entsprechendes System geometrisch gerader Kanäle fanden."
 sourceNotes:
 - Beschreibt die Kanaldebatte des späten 19. Jahrhunderts und prominente Astronomen, die behaupteten, gerade Linien zu sehen.
 - Stellt fest, dass Aufnahmen von Mariner 6 und 7 keine Spur der Kanäle zeigten, die frühere Astronomen zu erkennen glaubten.

@@ -11,7 +11,23 @@ timelineYear: 1985
 summary: "Diamond and graphite turned out to be only two members of a much larger family of carbon structures."
 featured: false
 publishedAt: "2026-07-24"
-reviewedAt: "2026-08-20"
+reviewedAt: "2026-08-22"
+media:
+  - id: "carbon-allotropes"
+    type: "image"
+    src: "/media/entries/carbon-has-only-diamond-and-graphite/carbon-allotropes.svg"
+    width: 1205
+    height: 638
+    alt: "Structural models of several forms of pure carbon, including diamond, graphite, a C60 fullerene, a carbon nanotube, and amorphous carbon."
+    caption: "The same element can build radically different structures. This comparison includes diamond and graphite alongside a C60 fullerene, a single-walled carbon nanotube, and amorphous carbon—making visible why the old two-form picture became too narrow."
+    credit: "Jozef Sivek"
+    sourceLabel: "Wikimedia Commons"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Carbon_allotropes.svg"
+    rights: "licensed"
+    licenseLabel: "CC BY-SA 4.0"
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/"
+    derivative: false
+    layout: "wide"
 sources:
   - title: "Fullertubes: A 30-Year Story"
     url: "https://pubs.acs.org/doi/10.1021/acs.accounts.4c00302"

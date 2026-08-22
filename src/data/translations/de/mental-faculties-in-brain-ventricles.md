@@ -1,13 +1,17 @@
 ---
 locale: de
 entryId: mental-faculties-in-brain-ventricles
-sourceReviewedAt: "2026-08-13"
+sourceReviewedAt: "2026-08-22"
 claim: "Vorstellungskraft, Vernunft und Gedächtnis befinden sich in bestimmten flüssigkeitsgefüllten Hirnventrikeln oder „Zellen“."
 currentUnderstanding: "Kognitive Funktionen entstehen aus verteilten und miteinander interagierenden neuronalen Netzwerken im Hirngewebe. Die Hirnventrikel sind flüssigkeitsgefüllte Hohlräume, die Liquor enthalten und zirkulieren lassen, keine Kammern für geistige Fähigkeiten."
 whyItChanged: "Anatomen der Renaissance zeigten, dass die tatsächliche Anatomie der Ventrikel nicht zu den schematischen Zellkarten passte. Forschende des 17. und 18. Jahrhunderts entwickelten alternative Modelle, die Funktionen im Hirngewebe statt in den Ventrikelräumen ansiedelten."
 acceptedApproximately: "Spätantike und mittelalterliche Zellenlehre seit dem 4. bis 5. Jahrhundert n. Chr."
 changedApproximately: "17. bis 18. Jahrhundert"
 summary: "Mittelalterliche Gelehrte schufen eine frühe Karte des Geistes im Gehirn und ordneten Vorstellungskraft, Vernunft und Gedächtnis den Ventrikeln statt dem Nervengewebe zu."
+media:
+  - id: "reisch-ventricular-cell-doctrine-1503"
+    alt: "Holzschnitt von 1503 im Profil: Sinnesbahnen führen in ein schematisch in beschriftete innere Kammern gegliedertes Gehirn, denen geistige Fähigkeiten zugeordnet werden."
+    caption: "Gregor Reischs Diagramm von 1503 macht die ventrikuläre „Zellenlehre“ sichtbar: Sinnesbahnen führen in schematische Kammern, die unter anderem Vorstellungskraft, Vernunft und Gedächtnis zugeordnet wurden. Es zeigt ein historisches Modell des Geistes, keine moderne anatomische Darstellung der Hirnventrikel."
 sourceNotes:
 - "Beschreibt die spätantike Entstehung, mittelalterliche Weitergabe, Fortdauer in der Renaissance und schließlich die Ablösung ventrikulärer Zellenmodelle."
 - "Verfolgt die Drei-Zellen-Lehre und ihre Weitergabe durch byzantinische, arabische und lateinische Gelehrsamkeit."

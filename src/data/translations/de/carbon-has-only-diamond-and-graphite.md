@@ -1,13 +1,17 @@
 ---
 locale: de
 entryId: carbon-has-only-diamond-and-graphite
-sourceReviewedAt: "2026-08-20"
+sourceReviewedAt: "2026-08-22"
 claim: Kohlenstoff hat nur zwei echte kristalline Formen – Diamant und Graphit.
 currentUnderstanding: "Kohlenstoff kann viele Allotrope bilden – unterschiedliche Strukturen, die vollständig aus demselben Element bestehen. Diamant und Graphit sind zwei Beispiele; daneben gibt es [Fullerene](glossary:fullerene), [Kohlenstoffnanoröhren](glossary:carbon-nanotube), Graphen und weitere Strukturen mit sehr unterschiedlichen Formen und Eigenschaften."
 whyItChanged: "Über Generationen waren Diamant und Graphit die einzigen weithin anerkannten kristallinen Allotrope des Kohlenstoffs. Die Entdeckung der Fullerene 1985 zeigte, dass Kohlenstoffatome stabile geschlossene Käfige bilden können; später kamen Nanoröhren und isoliertes Graphen hinzu."
 acceptedApproximately: 18. Jahrhundert bis 1985
 changedApproximately: 1985–2004
 summary: "Diamant und Graphit erwiesen sich als nur zwei Mitglieder einer viel größeren Familie von Kohlenstoffstrukturen."
+media:
+  - id: "carbon-allotropes"
+    alt: "Strukturmodelle mehrerer Formen von reinem Kohlenstoff, darunter Diamant, Graphit, ein C60-Fulleren, eine Kohlenstoffnanoröhre und amorpher Kohlenstoff."
+    caption: "Dasselbe Element kann grundverschiedene Strukturen bilden. Der Vergleich zeigt Diamant und Graphit zusammen mit einem C60-Fulleren, einer einwandigen Kohlenstoffnanoröhre und amorphem Kohlenstoff – und macht sichtbar, warum das alte Bild von nur zwei Formen zu eng wurde."
 sourceNotes:
 - Berichtet, dass bis in die 1980er-Jahre nur Diamant und Graphit als Kohlenstoffallotrope anerkannt waren.
 - Datiert die Entdeckung des C60-Fullerens auf 1985 und gibt einen Überblick über die spätere Identifizierung von Nanoröhren und Graphen.

@@ -1,13 +1,17 @@
 ---
 locale: de
 entryId: crystals-must-have-repeating-patterns
-sourceReviewedAt: "2026-08-20"
+sourceReviewedAt: "2026-08-22"
 claim: Jeder Kristall muss ein periodisch wiederholtes Atommuster besitzen.
 currentUnderstanding: "Ein Kristall kann stark geordnet sein, ohne dass sich dasselbe Atommuster immer wiederholt. Quasikristalle besitzen eine solche nichtperiodische Ordnung und erzeugen dennoch die scharfen Beugungsmuster, die für Kristalle typisch sind."
 whyItChanged: "Die klassische Kristallographie betrachtete periodische Wiederholung als Teil dessen, was einen Kristall ausmacht. 1982 beobachtete Dan Shechtman bei einer Aluminium-Mangan-Legierung ein [Elektronenbeugungsmuster](glossary:electron-diffraction) mit einer Symmetrie, die ein gewöhnlicher periodischer Kristall nicht erzeugen konnte. Daraus entstand die Anerkennung der Quasikristalle."
 acceptedApproximately: 19. Jahrhundert bis 1982
 changedApproximately: 1982–1992
 summary: "Quasikristalle zeigten, dass Atome einen stark geordneten Kristall bilden können, ohne dass sich ein Muster periodisch wiederholt."
+media:
+  - id: "quasicrystal-diffraction-nist"
+    alt: "Elektronenbeugungsmuster von Quasikristallen: scharfe Anordnungen heller Punkte um den Zentralstrahl, mit hervorgehobener fünf- und zehnzähliger Rotationssymmetrie."
+    caption: "Elektronenbeugung an Quasikristallen mit fünf- und zehnzähliger Symmetrie – Symmetrien, die ein gewöhnlicher periodisch wiederholter Kristall nicht erzeugen kann. Die scharfen Punkte zeigen eine ausgeprägte Fernordnung; die ungewöhnliche Symmetrie half zu erkennen, dass kristalline Ordnung keine periodische Wiederholung voraussetzt."
 sourceNotes:
 - Erklärt, dass periodische Wiederholung lange als grundlegende Voraussetzung für Kristalle galt.
 - Beschreibt das nicht wiederholende, aber regelmäßige Beugungsmuster, das Quasikristalle etablierte.

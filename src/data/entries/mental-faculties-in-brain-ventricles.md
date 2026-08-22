@@ -12,7 +12,23 @@ lifespanComparable: false
 summary: Medieval scholars created an early map of the mind inside the brain, placing imagination, reason, and memory in the ventricles rather than neural tissue.
 featured: false
 publishedAt: '2026-08-13'
-reviewedAt: '2026-08-13'
+reviewedAt: '2026-08-22'
+media:
+  - id: "reisch-ventricular-cell-doctrine-1503"
+    type: "image"
+    src: "/media/entries/mental-faculties-in-brain-ventricles/reisch-ventricular-cell-doctrine-1503.webp"
+    width: 1600
+    height: 2309
+    alt: "A 1503 woodcut in profile showing sensory pathways entering a schematic brain divided into labeled internal compartments representing mental faculties."
+    caption: "Gregor Reisch's 1503 diagram makes the ventricular 'cell doctrine' visible: sensory pathways lead into schematic compartments associated with faculties such as imagination, reasoning, and memory. It is a map of a historical theory of mind, not a modern anatomical diagram of the ventricles."
+    credit: "Gregor Reisch, Margarita Philosophica (1503); Wellcome Collection"
+    sourceLabel: "Wikimedia Commons / Wellcome Collection"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Woodcut_of_head_showing_Cerebral_ventricles._Wellcome_M0000436.jpg"
+    rights: "licensed"
+    licenseLabel: "CC BY 4.0"
+    licenseUrl: "https://creativecommons.org/licenses/by/4.0/"
+    derivative: true
+    layout: "inline"
 sources:
 - title: The Medieval Cell Doctrine
   url: https://academic.oup.com/edited-volume/61797/chapter-abstract/546105184

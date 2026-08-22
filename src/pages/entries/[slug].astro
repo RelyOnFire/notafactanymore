@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import FactCard from '../../components/FactCard.astro';
+import EntryMedia from '../../components/EntryMedia.astro';
 import { translationMatchesEntry } from '../../lib/i18n';
 
 export async function getStaticPaths() {
@@ -33,6 +34,8 @@ const groupedSources = entry.data.sources.reduce<Record<string, typeof entry.dat
 >
   <div class="narrow entry-page">
     <FactCard entry={entry} expanded headingLevel={1} />
+
+    <EntryMedia media={entry.data.media} />
 
     <article class="context prose">
       <Content />

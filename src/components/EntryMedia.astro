@@ -1,0 +1,171 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import type { SiteLocale } from '../lib/i18n';
+
+type MediaItem = NonNullable<CollectionEntry<'entries'>['data']['media']>[number];
+type TranslatedMediaItem =
+  NonNullable<CollectionEntry<'entryTranslations'>['data']['media']>[number];
+
+interface Props {
+  media: MediaItem[];
+  locale?: SiteLocale;
+  translations?: TranslatedMediaItem[];
+}
+
+const { media, locale = 'en', translations = [] } = Astro.props;
+const translationsById = new Map(translations.map((item) => [item.id, item]));
+
+const labels = locale === 'de'
+  ? {
+      source: 'Quelle öffnen ↗',
+      imageLink: 'Bildquelle öffnen',
+      rights: {
+        'public-domain': 'Gemeinfrei',
+        'public-domain-no-known-restrictions': 'Gemeinfrei / keine bekannten Einschränkungen',
+        'source-specific': 'Rechte siehe Quelle',
+      },
+    }
+  : {
+      source: 'View source ↗',
+      imageLink: 'Open image source',
+      rights: {
+        'public-domain': 'Public domain',
+        'public-domain-no-known-restrictions': 'Public domain / no known restrictions',
+        'source-specific': 'See source for rights',
+      },
+    };
+---
+{media.length > 0 && (
+  <div class="entry-media-stack">
+    {media.map((item) => {
+      const translated = translationsById.get(item.id);
+      const alt = translated?.alt ?? item.alt;
+      const caption = translated?.caption ?? item.caption;
+
+      return (
+        <figure class:list={['entry-media', `entry-media--${item.layout}`]}>
+          <a
+            class="entry-media-image-link"
+            href={item.sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`${labels.imageLink}: ${item.sourceLabel}`}
+          >
+            <img
+              src={item.src}
+              width={item.width}
+              height={item.height}
+              alt={alt}
+              loading="lazy"
+              decoding="async"
+              referrerpolicy="no-referrer"
+            />
+          </a>
+
+          <figcaption>
+            <p class="entry-media-caption">{caption}</p>
+            <p class="entry-media-meta">
+              <span>{item.credit}</span>
+              <span aria-hidden="true"> · </span>
+              <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">
+                {item.sourceLabel}: {labels.source}
+              </a>
+              <span aria-hidden="true"> · </span>
+              <span>{labels.rights[item.rights]}</span>
+            </p>
+          </figcaption>
+        </figure>
+      );
+    })}
+  </div>
+)}
+
+<style>
+  .entry-media-stack {
+    margin-top: 3rem;
+  }
+
+  .entry-media {
+    margin: 0;
+  }
+
+  .entry-media + .entry-media {
+    margin-top: 2.5rem;
+  }
+
+  .entry-media--wide {
+    width: min(1040px, calc(100vw - 2rem));
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .entry-media-image-link {
+    display: block;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: .55rem;
+    background: #e9e3d6;
+    box-shadow: 0 12px 30px rgb(30 24 13 / 7%);
+  }
+
+  .entry-media-image-link:hover,
+  .entry-media-image-link:focus-visible {
+    border-color: var(--accent-dark);
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  figcaption {
+    padding: .8rem .1rem 0;
+  }
+
+  .entry-media-caption {
+    margin: 0;
+    max-width: 78ch;
+    font-size: .98rem;
+    line-height: 1.5;
+  }
+
+  .entry-media-meta {
+    margin: .35rem 0 0;
+    max-width: 90ch;
+    color: var(--muted);
+    font-size: .82rem;
+    line-height: 1.45;
+  }
+
+  .entry-media-meta a {
+    color: var(--accent-dark);
+    text-underline-offset: .16em;
+  }
+
+  @media (max-width: 600px) {
+    .entry-media-stack {
+      margin-top: 2.25rem;
+    }
+
+    .entry-media--wide {
+      width: calc(100vw - 1rem);
+    }
+
+    .entry-media-image-link {
+      border-radius: .4rem;
+    }
+
+    .entry-media-meta span[aria-hidden='true'] {
+      display: none;
+    }
+
+    .entry-media-meta > * {
+      display: block;
+    }
+
+    .entry-media-meta > * + * {
+      margin-top: .15rem;
+    }
+  }
+</style>

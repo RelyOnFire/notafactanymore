@@ -8,6 +8,10 @@ whyItChanged: "Europäische Kartografen des 17. Jahrhunderts verbreiteten ein In
 acceptedApproximately: "In der europäischen Kartografie von den 1620er Jahren bis ins frühe 18. Jahrhundert weit verbreitet"
 changedApproximately: "Kinos Überlandexpeditionen 1698–1701; Veröffentlichung seiner Halbinselkarte in Europa 1705"
 summary: "Ein Kartierungsfehler des 17. Jahrhunderts machte Kalifornien auf europäischen Karten zu einer berühmten Insel, bis Erkundungen am nördlichen Ende des Golfs von Kalifornien die Landverbindung belegten."
+media:
+  - id: "california-island-vinckeboons-1650"
+    alt: "Manuskriptkarte des 17. Jahrhunderts, auf der Kalifornien als lange, vom nordamerikanischen Festland getrennte Insel dargestellt ist; Navigationslinien überziehen die Karte."
+    caption: "Joan Vinckeboons’ Manuskriptkarte von etwa 1650 zeigt Kalifornien als abgetrennte Insel und dokumentiert damit unmittelbar das Kartenbild, das sich im Europa des 17. Jahrhunderts verbreitete."
 sourceNotes:
   - "Erklärt, dass europäische Kartografen Kalifornien ab 1622 als Insel darstellten und große britische und niederländische Verlage dieses Modell bis weit ins frühe 18. Jahrhundert übernahmen."
   - "Eine niederländische Manuskriptkarte von etwa 1650 dokumentiert die Inseldarstellung unmittelbar während ihrer Verbreitung in der europäischen Kartografie."

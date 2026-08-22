@@ -2,6 +2,36 @@ import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
+const mediaId = z.string().regex(/^[a-z0-9][a-z0-9-]*$/);
+
+const entryMedia = z.object({
+  id: mediaId,
+  type: z.enum(['image']),
+  src: z.string().refine(
+    (value) => value.startsWith('/') || /^https:\/\//.test(value),
+    { message: 'media src must be a site-relative path or an https URL' },
+  ),
+  width: z.number().int().positive(),
+  height: z.number().int().positive(),
+  alt: z.string().min(1),
+  caption: z.string().min(1),
+  credit: z.string().min(1),
+  sourceLabel: z.string().min(1),
+  sourceUrl: z.string().url(),
+  rights: z.enum([
+    'public-domain',
+    'public-domain-no-known-restrictions',
+    'source-specific',
+  ]),
+  layout: z.enum(['inline', 'wide']).optional().default('wide'),
+});
+
+const translatedEntryMedia = z.object({
+  id: mediaId,
+  alt: z.string().min(1),
+  caption: z.string().min(1),
+});
+
 const entries = defineCollection({
   loader: glob({ pattern: '**/[^_]*.md', base: './src/data/entries' }),
   schema: z.object({
@@ -28,6 +58,7 @@ const entries = defineCollection({
     featuredOrder: z.number().int().positive().optional(),
     publishedAt: z.coerce.date(),
     reviewedAt: z.coerce.date(),
+    media: z.array(entryMedia).optional().default([]),
     sources: z.array(
       z.object({
         title: z.string(),
@@ -60,6 +91,7 @@ const entryTranslations = defineCollection({
     acceptedApproximately: z.string(),
     changedApproximately: z.string(),
     summary: z.string(),
+    media: z.array(translatedEntryMedia).optional().default([]),
     sourceNotes: z.array(z.string()),
   }),
 });

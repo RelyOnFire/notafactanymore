@@ -8,13 +8,13 @@
     "build": "npm run check:content && astro build && npm run check:build-output",
     "preview": "astro preview",
     "astro": "astro",
-    "check:content": "node scripts/check-content-integrity.mjs && node scripts/check-glossary-integrity.mjs && node scripts/check-narrative-emphasis.mjs",
+    "check:content": "node scripts/check-content-integrity.mjs && node scripts/check-media-integrity.mjs && node scripts/check-glossary-integrity.mjs && node scripts/check-narrative-emphasis.mjs",
     "check:build-output": "node scripts/check-build-output.mjs"
   },
   "dependencies": {
-    "@astrojs/markdown-remark": "^7.2.2",
     "@astrojs/sitemap": "^3.7.3",
-    "astro": "^7.2.2"
+    "astro": "^7.2.2",
+    "@astrojs/markdown-remark": "^7.2.2"
   },
   "allowScripts": {
     "esbuild@0.28.2": true

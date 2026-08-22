@@ -12,6 +12,19 @@ summary: "A seventeenth-century mapping error turned California into a famous is
 featured: false
 publishedAt: "2026-08-21"
 reviewedAt: "2026-08-21"
+media:
+  - id: "california-island-vinckeboons-1650"
+    type: "image"
+    src: "https://blogs.loc.gov/loc/files/2020/01/Screen-Shot-2020-01-03-at-2.40.42-PM-1024x822.png"
+    width: 1024
+    height: 822
+    alt: "Seventeenth-century manuscript map showing California as a long island separated from the North American mainland, crossed by navigational rhumb lines."
+    caption: "Joan Vinckeboons’s manuscript map from about 1650 shows California as a detached island, directly documenting the cartographic model that circulated in seventeenth-century Europe."
+    credit: "Joan Vinckeboons, ca. 1650"
+    sourceLabel: "Library of Congress"
+    sourceUrl: "https://www.loc.gov/item/99443375/"
+    rights: "public-domain-no-known-restrictions"
+    layout: "wide"
 sources:
   - title: "California as an Island"
     url: "https://www.loc.gov/exhibits/treasures/tr11a.html#obj37"

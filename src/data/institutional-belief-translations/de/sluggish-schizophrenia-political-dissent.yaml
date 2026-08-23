@@ -1,14 +1,33 @@
 locale: de
 entryId: sluggish-schizophrenia-political-dissent
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: '2026-08-23'
 title: „Schleichende Schizophrenie“ und politischer Widerspruch
-claim: Beharrlicher Reformwille oder politische Opposition konnten als Anzeichen einer milden Schizophrenie behandelt werden, selbst wenn keine offene Psychose vorlag.
-currentUnderstanding: Politischer Widerspruch ist kein Symptom einer Schizophrenie. Eine psychiatrische Diagnose erfordert klinisch belastbare Hinweise auf eine psychische Erkrankung und darf nicht aus Opposition gegen eine Regierung, Reformforderungen oder dem Festhalten an politischen Überzeugungen abgeleitet werden.
+claim: Beharrlicher Reformwille oder politische Opposition konnten als Anzeichen einer milden Schizophrenie behandelt
+  werden, selbst wenn keine offene Psychose vorlag.
+currentUnderstanding: Politischer Widerspruch ist kein Symptom einer Schizophrenie. Eine psychiatrische Diagnose
+  erfordert klinisch belastbare Hinweise auf eine psychische Erkrankung und darf nicht aus Opposition gegen eine
+  Regierung, Reformforderungen oder dem Festhalten an politischen Überzeugungen abgeleitet werden.
 episodes:
-  - id: soviet-union-1969-1989
-    polity: Sowjetunion
-    summary: Die ungewöhnlich weit gefasste sowjetische Diagnose der „schleichenden Schizophrenie“ erlaubte es, Schizophrenie auch bei Menschen festzustellen, die im Alltag funktionierten und keine offene Psychose zeigten. In der Breschnew-Ära wurde sie wiederholt auf Dissidenten angewandt; Reformbestrebungen und politische Opposition konnten als krankhaft gedeutet und psychiatrische Internierung als Repressionsmittel eingesetzt werden.
-    consequences:
-      - Psychiatrische Internierung von Dissidenten
-      - Erzwungene psychiatrische Behandlung
-      - Unterdrückung politischen und religiösen Widerspruchs
+- id: soviet-union-1969-1989
+  polity: Sowjetunion
+  institutions:
+  - Institut für Psychiatrie der Akademie der Medizinischen Wissenschaften der UdSSR
+  - Serbski-Zentralinstitut für forensische Psychiatrie
+  - Komitee für Staatssicherheit (KGB)
+  - Innenministerium der UdSSR (MWD)
+  institutionalContext: Die von Andrei Sneschnewski geprägte Moskauer psychiatrische Schule am Institut für Psychiatrie
+    der Akademie der Medizinischen Wissenschaften lieferte den ungewöhnlich weit gefassten diagnostischen Rahmen.
+    Das Serbski-Institut erstellte forensisch-psychiatrische Gutachten in politischen Verfahren; der KGB und der
+    Ermittlungsapparat führten Dissidenten diesem System zu; spezielle psychiatrische Krankenhäuser für Zwangsunterbringung
+    unterstanden bis zu ihrer Übertragung an das Gesundheitswesen 1988 dem Innenministerium. Daraus folgt nicht,
+    dass jeder sowjetische Psychiater bewusst an politischer Repression beteiligt war.
+  summary: Die ungewöhnlich weit gefasste sowjetische Diagnose der „schleichenden Schizophrenie“ erlaubte es, Schizophrenie
+    auch bei Menschen festzustellen, die im Alltag funktionierten und keine offene Psychose zeigten. In der Breschnew-Ära
+    wurde sie wiederholt auf Dissidenten angewandt; Reformbestrebungen und politische Opposition konnten als krankhaft
+    gedeutet werden. Die Doktrin entstand im dominierenden Moskauer psychiatrischen Umfeld, wurde unter anderem
+    durch forensische Begutachtung am Serbski-Institut operationalisiert und mit dem staatlichen Sicherheits- und
+    Internierungsapparat verknüpft.
+  consequences:
+  - Psychiatrische Internierung von Dissidenten
+  - Erzwungene psychiatrische Behandlung
+  - Unterdrückung politischen und religiösen Widerspruchs

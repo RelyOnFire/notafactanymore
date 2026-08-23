@@ -1,65 +1,103 @@
 title: Anal examinations as proof of same-sex conduct
-claim: The shape, tone, or condition of the anus and anal sphincter was treated as physical evidence that a person had engaged in receptive anal intercourse.
-currentUnderstanding: Anal examinations cannot reliably determine whether someone has previously engaged in consensual receptive anal intercourse. The supposed forensic signs descend from discredited nineteenth-century theories and have no scientifically valid evidentiary value.
+claim: The shape, tone, or condition of the anus and anal sphincter was treated as physical evidence that a person
+  had engaged in receptive anal intercourse.
+currentUnderstanding: Anal examinations cannot reliably determine whether someone has previously engaged in consensual
+  receptive anal intercourse. The supposed forensic signs descend from discredited nineteenth-century theories and
+  have no scientifically valid evidentiary value.
 category: Forensic medicine and sexuality
-reviewedAt: 2026-08-22
+reviewedAt: '2026-08-23'
 episodes:
-  - id: egypt-2001-2017
-    polity: Egypt
-    region: Middle East
-    startYear: 2001
-    endYear: 2017
-    endOpen: true
-    periodLabel: 2001–at least 2017
-    strength: policy-basis
-    institutionTypes: [government, court, medical]
-    institutions:
-      - Forensic Medicine Authority
-      - Public prosecutors
-      - Ministry of Justice
-      - Police
-    consequences:
-      - Forced anal examinations
-      - Medical reports used in prosecutions
-      - Conviction and imprisonment for consensual same-sex conduct
-      - Cruel, degrading, and potentially torturous treatment
-    summary: Egyptian prosecutors repeatedly referred men and transgender women accused of “debauchery” to the Justice Ministry's Forensic Medicine Authority for anal examinations intended to produce evidence of receptive anal sex. The practice was documented from the 2001 Queen Boat prosecutions through the 2010s, and medical reports were used in court despite the absence of scientific validity.
-    sources:
-      - title: Dignity Debased — Forced Anal Examinations in Homosexuality Prosecutions
-        url: https://www.hrw.org/report/2016/07/12/dignity-debased/forced-anal-examinations-homosexuality-prosecutions
-        publisher: Human Rights Watch
-        note: Documents Egypt's long-running forensic practice, its roots in nineteenth-century theories, and use of examination reports as evidence in prosecutions.
-      - title: Global Medical Body Condemns Forced Anal Exams
-        url: https://www.hrw.org/news/2017/10/17/global-medical-body-condemns-forced-anal-exams
-        publisher: Human Rights Watch
-        note: Reports that Egypt's Forensic Medicine Authority was still systematically conducting the examinations in 2017 and that results were regularly used in court.
-      - title: Statement on Anal Examinations in Cases of Alleged Homosexuality
-        url: https://www.wma.net/policy-tags/anal-examination/
-        publisher: World Medical Association
-        note: States that forced anal examinations are scientifically unfounded and cannot reliably establish consensual anal intercourse.
-  - id: lebanon-2012
-    polity: Lebanon
-    region: Middle East
-    startYear: 2012
-    endYear: 2012
-    periodLabel: "2012"
-    strength: policy-basis
-    institutionTypes: [government, court, medical]
-    institutions:
-      - Public Prosecutor's Office
-      - Internal Security Forces
-      - State forensic doctors
-    consequences:
-      - Forced anal examinations
-      - Medical evidence used in criminal charges
-      - Cruel and degrading treatment
-    summary: In 2012, Lebanese public prosecutors ordered forensic anal examinations of men arrested on suspicion of homosexual conduct, and examination results contributed to criminal charges. The Lebanese Order of Physicians then issued a directive prohibiting doctors from performing the tests, calling them medically and scientifically useless and a form of torture.
-    sources:
-      - title: Lebanon — Stop “Tests of Shame”
-        url: https://www.hrw.org/news/2012/08/10/lebanon-stop-tests-shame
-        publisher: Human Rights Watch
-        note: Documents prosecutor-ordered examinations in 2012, their use in criminal proceedings, and the Lebanese Order of Physicians' directive against the practice.
-      - title: Forced anal examinations to ascertain sexual orientation and sexual behavior — an abusive and medically unsound practice
-        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5856262/
-        publisher: PLOS Medicine
-        note: Reviews the absence of scientific validity and describes Lebanon's medical and legal efforts to end the practice.
+- id: egypt-2001-2017
+  polity: Egypt
+  region: Middle East
+  startYear: 2001
+  endYear: 2017
+  endOpen: true
+  periodLabel: 2001–at least 2017
+  strength: policy-basis
+  institutionTypes:
+  - government
+  - court
+  - medical
+  institutions:
+  - Forensic Medicine Authority (مصلحة الطب الشرعي)
+  - Egyptian Public Prosecution (النيابة العامة)
+  - Ministry of Justice (وزارة العدل)
+  institutionalContext: Public prosecutors referred defendants accused of “debauchery” for examination; the Ministry
+    of Justice's Forensic Medicine Authority performed the examinations and produced reports used as evidence. Police
+    made arrests and escorted detainees, but the decisive medico-legal chain was prosecution referral → Forensic
+    Medicine Authority examination → court use of the report.
+  consequences:
+  - Forced anal examinations
+  - Medical reports used in prosecutions
+  - Conviction and imprisonment for consensual same-sex conduct
+  - Cruel, degrading, and potentially torturous treatment
+  summary: Egyptian prosecutors repeatedly referred men and transgender women accused of “debauchery” to the Justice
+    Ministry's Forensic Medicine Authority for anal examinations intended to produce evidence of receptive anal
+    sex. The practice was documented from the 2001 Queen Boat prosecutions through the 2010s, and medical reports
+    were used in court despite the absence of scientific validity.
+  sources:
+  - title: Dignity Debased — Forced Anal Examinations in Homosexuality Prosecutions
+    url: https://www.hrw.org/report/2016/07/12/dignity-debased/forced-anal-examinations-homosexuality-prosecutions
+    publisher: Human Rights Watch
+    note: Documents Egypt's long-running practice, including prosecutor-ordered referrals to the Ministry of Justice's
+      Forensic Medicine Authority, the nineteenth-century roots of the claimed signs, and use of examination reports
+      as evidence.
+  - title: Global Medical Body Condemns Forced Anal Exams
+    url: https://www.hrw.org/news/2017/10/17/global-medical-body-condemns-forced-anal-exams
+    publisher: Human Rights Watch
+    note: Reports that Egypt's Forensic Medicine Authority was still systematically conducting the examinations
+      in 2017 and that results were regularly used in court.
+  - title: WMA Resolution on Prohibition of Forced Anal Examinations to Substantiate Same-Sex Sexual Activity
+    url: https://www.wma.net/policies-post/wma-resolution-on-prohibition-of-forced-anal-examinations-to-substantiate-same-sex-sexual-activity/
+    publisher: World Medical Association
+    note: Direct WMA policy states that forced anal examinations are medically invalid, unscientific and futile,
+      and calls on physicians and medical associations not to participate in them.
+- id: lebanon-2012-2015
+  polity: Lebanon
+  region: Middle East
+  startYear: 2012
+  endYear: 2015
+  periodLabel: 2012–2015
+  strength: policy-basis
+  institutionTypes:
+  - government
+  - court
+  - medical
+  institutions:
+  - Cassation Public Prosecution
+  - Internal Security Forces
+  - Lebanese Order of Physicians
+  institutionalContext: Internal Security Forces arrests fed suspects into a medico-legal process in which public
+    prosecutors could order forensic anal examinations. The Cassation Public Prosecution sat at the top of the national
+    prosecutorial hierarchy; its 2012 directive did not impose a categorical ban, but permitted examinations with
+    purported consent and treated refusal as incriminating. The Lebanese Order of Physicians separately instructed
+    doctors not to perform the tests. Human Rights Watch documented continued examinations or threats of examination
+    in 2014 and 2015.
+  consequences:
+  - Forced anal examinations
+  - Medical evidence used in criminal charges
+  - Cruel and degrading treatment
+  summary: 'In 2012, Lebanese public prosecutors ordered forensic anal examinations of men arrested on suspicion
+    of homosexual conduct, and examination results contributed to criminal charges. The Lebanese Order of Physicians
+    condemned the tests as medically and scientifically useless and a form of torture. The practice did not end
+    immediately: the public prosecutor''s 2012 directive still allowed examinations under purported consent and
+    treated refusal as evidence, and later reporting documented continued use or threats of use through 2015.'
+  sources:
+  - title: Lebanon — Stop “Tests of Shame”
+    url: https://www.hrw.org/news/2012/08/10/lebanon-stop-tests-shame
+    publisher: Human Rights Watch
+    note: Documents the Internal Security Forces arrests, prosecutor-ordered examinations, use of results in criminal
+      charges, the Lebanese Order of Physicians' prohibition, and the 2012 public-prosecutor directive that still
+      allowed the examinations under purported consent.
+  - title: Dignity Debased — Forced Anal Examinations in Homosexuality Prosecutions
+    url: https://www.hrw.org/report/2016/07/12/dignity-debased/forced-anal-examinations-homosexuality-prosecutions
+    publisher: Human Rights Watch
+    note: Documents that anal examinations or threats of them continued to be used in Lebanon during 2014 and 2015
+      despite the medical and human-rights campaign against the practice.
+  - title: Forced anal examinations to ascertain sexual orientation and sexual behavior — an abusive and medically
+      unsound practice
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5856262/
+    publisher: PLOS Medicine
+    note: Reviews the absence of scientific validity and describes Lebanon's medical and legal efforts to end the
+      practice.

@@ -1,32 +1,63 @@
 title: Sluggish schizophrenia and political dissent
-claim: Persistent political reformism or opposition could be treated as evidence of a mild form of schizophrenia even when a person showed no overt psychosis.
-currentUnderstanding: Political dissent is not a symptom of schizophrenia. Psychiatric diagnosis requires clinically valid evidence of mental disorder and cannot be inferred from opposition to a government, advocacy of reform, or persistence in political beliefs.
+claim: Persistent political reformism or opposition could be treated as evidence of a mild form of schizophrenia
+  even when a person showed no overt psychosis.
+currentUnderstanding: Political dissent is not a symptom of schizophrenia. Psychiatric diagnosis requires clinically
+  valid evidence of mental disorder and cannot be inferred from opposition to a government, advocacy of reform,
+  or persistence in political beliefs.
 category: Psychiatry
-reviewedAt: 2026-08-22
+reviewedAt: '2026-08-23'
 episodes:
-  - id: soviet-union-1969-1989
-    polity: Soviet Union
-    region: Eurasia
-    startYear: 1969
-    endYear: 1989
-    periodLabel: 1969–1989
-    strength: enforced-doctrine
-    institutionTypes: [government, medical]
-    institutions:
-      - Moscow School of Psychiatry
-      - Serbsky Institute
-      - Soviet forensic-psychiatric system
-    consequences:
-      - Psychiatric incarceration of dissidents
-      - Forced psychiatric treatment
-      - Suppression of political and religious dissent
-    summary: The unusually broad Soviet category of “sluggish schizophrenia” allowed schizophrenia to be diagnosed in people who functioned normally and lacked overt psychosis. During the Brezhnev era it was repeatedly applied to dissidents, with reformist or oppositional behavior interpreted as pathology and psychiatric detention used as a mechanism of political repression.
-    sources:
-      - title: Political Abuse of Psychiatry — An Historical Overview
-        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2800147/
-        publisher: Schizophrenia Bulletin
-        note: Reviews systematic Soviet political abuse of psychiatry and explains how the broad concept of sluggish schizophrenia could incorporate reformist and truth-seeking behavior.
-      - title: Cold War Psychiatry, Extremism, and Expertise
-        url: https://academic.oup.com/ips/article/16/1/olab034/6459960
-        publisher: International Political Sociology
-        note: Describes systematic cooperation between state security and psychiatric institutions and the diagnosis and detention of Soviet reformers under sluggish schizophrenia.
+- id: soviet-union-1969-1989
+  polity: Soviet Union
+  region: Eurasia
+  startYear: 1969
+  endYear: 1989
+  periodLabel: 1969–1989
+  strength: enforced-doctrine
+  institutionTypes:
+  - government
+  - medical
+  institutions:
+  - Institute of Psychiatry of the USSR Academy of Medical Sciences
+  - Serbsky Central Research Institute for Forensic Psychiatry
+  - Committee for State Security (KGB)
+  - Ministry of Internal Affairs of the USSR (MVD)
+  institutionalContext: Snezhnevsky's Moscow psychiatric school, centered on the Institute of Psychiatry of the
+    USSR Academy of Medical Sciences, supplied the unusually broad diagnostic framework. The Serbsky Institute performed
+    forensic psychiatric evaluations in political cases; the KGB and investigative system referred dissidents into
+    that machinery; and special psychiatric hospitals used for compulsory confinement were administered by the Ministry
+    of Internal Affairs until their transfer to the health system in 1988. This institutional chain does not imply
+    that every Soviet psychiatrist knowingly participated in political repression.
+  consequences:
+  - Psychiatric incarceration of dissidents
+  - Forced psychiatric treatment
+  - Suppression of political and religious dissent
+  summary: The unusually broad Soviet category of “sluggish schizophrenia” allowed schizophrenia to be diagnosed
+    in people who functioned normally and lacked overt psychosis. During the Brezhnev era it was repeatedly applied
+    to dissidents, with reformist or oppositional behavior interpreted as pathology. The doctrine was developed
+    within the dominant Moscow psychiatric school, operationalized through forensic evaluation at institutions such
+    as the Serbsky Institute, and connected to state-security and special-hospital detention machinery.
+  sources:
+  - title: Political Abuse of Psychiatry — An Historical Overview
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2800147/
+    publisher: Schizophrenia Bulletin
+    note: Reviews systematic Soviet political abuse of psychiatry, explains the Moscow School and Snezhnevsky's
+      broad concept of sluggish schizophrenia, and describes “reform delusions,” “struggle for the truth,” and “perseverance”
+      as symptoms that could be used against dissenters; it also discusses KGB involvement while distinguishing
+      deliberate abuse from psychiatrists who accepted the diagnostic framework.
+  - title: Cold War Psychiatry, Extremism, and Expertise
+    url: https://academic.oup.com/ips/article/16/1/olab034/6459960
+    publisher: International Political Sociology
+    note: Examines the Soviet sluggish-schizophrenia framework, its use against reformers and political dissenters,
+      and the institutional interaction between state authority and psychiatric expertise.
+  - title: Mental health care — Trends in health systems in the former Soviet countries
+    url: https://www.ncbi.nlm.nih.gov/books/NBK458299/
+    publisher: European Observatory on Health Systems and Policies / NCBI Bookshelf
+    note: Identifies the Serbsky Institute as a dominant institution in repression of political dissidents, closely
+      connected to the KGB, and explains how Snezhnevsky-style sluggish schizophrenia became a preferred diagnosis
+      for political dissent.
+  - title: 'Editorial: Political abuse of psychiatry in authoritarian systems'
+    url: https://www.cambridge.org/core/journals/irish-journal-of-psychological-medicine/article/editorial-political-abuse-of-psychiatry-in-authoritarian-systems/6660A6682F9F2E40B11C9E7FC7920427
+    publisher: Irish Journal of Psychological Medicine
+    note: Reviews the Serbsky Institute–KGB relationship and records that Soviet special forensic psychiatric hospitals
+      were transferred from the Ministry of Internal Affairs to the Ministry of Health in 1988.

@@ -1,32 +1,58 @@
 title: Immigration as biological improvement
-claim: Immigrants were classified by racial, hereditary, and national-origin traits as either improving or threatening the nation's biological and “ethnic” condition.
-currentUnderstanding: National origin, ethnicity, and socially defined race do not determine a person's hereditary worth or whether their descendants biologically improve a country. Human genetic variation does not divide populations into superior and inferior national stocks, and social, intellectual, or moral traits cannot be ranked through the eugenic categories used by these immigration policies.
+claim: Immigrants were classified by racial, hereditary, and national-origin traits as either improving or threatening
+  the nation's biological and “ethnic” condition.
+currentUnderstanding: National origin, ethnicity, and socially defined race do not determine a person's hereditary
+  worth or whether their descendants biologically improve a country. Human genetic variation does not divide populations
+  into superior and inferior national stocks, and social, intellectual, or moral traits cannot be ranked through
+  the eugenic categories used by these immigration policies.
 category: Eugenics and immigration
-reviewedAt: 2026-08-22
+reviewedAt: '2026-08-23'
 episodes:
-  - id: colombia-1922-1940
-    polity: Colombia
-    region: Latin America
-    startYear: 1922
-    endYear: 1940
-    periodLabel: 1922–1940
-    strength: policy-basis
-    institutionTypes: [government]
-    institutions:
-      - Congress of Colombia
-      - Executive government
-      - Immigration and diplomatic authorities
-    consequences:
-      - Racial selection of immigrants
-      - Exclusion of Afro-Caribbean migrants
-      - Restrictions on Jewish refugees
-    summary: Colombia's 1922 immigration law explicitly linked immigration to improving the country's physical and moral “ethnic conditions” and authorized exclusion of people considered undesirable for the nation's racial development. During the 1920s and 1930s, officials applied this eugenic and racial framework to restrict migrants including Afro-Caribbeans and Jewish refugees.
-    sources:
-      - title: Ley 114 de 1922 — Sobre inmigración y colonias agrícolas
-        url: https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes%2F1644783
-        publisher: Government of Colombia — SUIN-Juriscol
-        note: The law explicitly directs immigration policy toward improvement of Colombia's physical and moral ethnic conditions and excludes people considered unsuitable for the development of the race.
-      - title: El discurso eugenésico y las teorías racistas en las políticas migratorias colombianas — el rechazo de migrantes afroantillanos y judíos (1920–1940)
-        url: https://historiayespacio.univalle.edu.co/index.php/historia_y_espacio/article/view/11495
-        publisher: Historia y Espacio — Universidad del Valle
-        note: Uses diplomatic correspondence and executive decrees to document how eugenic and racist migration policy was applied to Afro-Caribbean migrants and Jewish refugees from 1920 to 1940.
+- id: colombia-1922-1940
+  polity: Colombia
+  region: Latin America
+  startYear: 1922
+  endYear: 1940
+  periodLabel: 1922–1940
+  strength: policy-basis
+  institutionTypes:
+  - government
+  institutions:
+  - Congreso de Colombia
+  - Oficina de Información y Propaganda del Ministerio de Agricultura y Comercio
+  - Juntas de Inmigración
+  - Ministerio de Relaciones Exteriores
+  institutionalContext: Ley 114 de 1922 assigned immigration administration to the Oficina de Información y Propaganda
+    del Ministerio de Agricultura y Comercio, working through immigration agents abroad and Juntas de Inmigración
+    at ports, border towns and major cities. During the late 1930s, the Ministerio de Relaciones Exteriores and
+    Colombian consular network became central to increasingly restrictive visa policy, including measures applied
+    to Jewish refugees.
+  consequences:
+  - Racial selection of immigrants
+  - Exclusion of Afro-Caribbean migrants
+  - Restrictions on Jewish refugees
+  summary: Colombia's 1922 immigration law explicitly linked immigration to improving the country's physical and
+    moral “ethnic conditions” and built an administrative system for selecting and excluding migrants. The law placed
+    immigration work in a named ministry office, consular agents and local immigration boards. During the 1920s
+    and 1930s, officials applied this eugenic and racial framework to restrict migrants including Afro-Caribbeans
+    and, under increasingly restrictive Foreign Ministry visa policy, Jewish refugees.
+  sources:
+  - title: Ley 114 de 1922 — Sobre inmigración y colonias agrícolas
+    url: https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes%2F1644783
+    publisher: Government of Colombia — SUIN-Juriscol
+    note: Primary law linking immigration to improvement of Colombia's physical and moral ethnic conditions; names
+      the immigration office within the Ministry of Agriculture and Commerce, immigration agents abroad, Juntas
+      de Inmigración, consular officials and port authorities that implemented the system.
+  - title: El discurso eugenésico y las teorías racistas en las políticas migratorias colombianas — el rechazo de
+      migrantes afroantillanos y judíos (1920–1940)
+    url: https://historiayespacio.univalle.edu.co/index.php/historia_y_espacio/article/view/11495
+    publisher: Historia y Espacio — Universidad del Valle
+    note: Uses diplomatic correspondence and executive decrees to document how eugenic and racist migration policy
+      was applied to Afro-Caribbean migrants and Jewish refugees from 1920 to 1940, including the Foreign Ministry
+      and consular machinery.
+  - title: Decreto 1723 de 1938 — disposiciones sobre inmigración y extranjería
+    url: https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/decreto_1723_1938.htm
+    publisher: Ministerio de Relaciones Exteriores de Colombia — Normograma
+    note: Primary 1938 decree tightening visa and immigration requirements and assigning discretionary exceptions
+      to the Ministry of Foreign Affairs; the contemporary policy operated through Colombian consulates and was
+      used within the restrictive framework applied to Jewish refugees.

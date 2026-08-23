@@ -1,27 +1,101 @@
 locale: de
 entryId: eugenic-sterilization
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: 2026-08-23
 title: Eugenische Sterilisation
-claim: Behinderung, psychische Erkrankungen und soziale „Untauglichkeit“ wurden häufig als so stark erblich betrachtet, dass die Verhinderung der Fortpflanzung ausgewählter Menschen die Bevölkerung verbessern sollte.
-currentUnderstanding: Menschliche Eigenschaften entstehen aus komplexen Wechselwirkungen zwischen vielen Genen, Entwicklung, Umwelt, Kultur und sozialen Bedingungen. Viele von Eugenikprogrammen erfasste Kategorien waren überhaupt keine einfachen Erbmerkmale; Zwangssterilisation verletzte zudem körperliche Selbstbestimmung und Menschenrechte.
+claim: Behinderung, psychische Erkrankungen und soziale „Untauglichkeit“ wurden häufig als so stark erblich betrachtet,
+  dass die Verhinderung der Fortpflanzung ausgewählter Menschen die Bevölkerung verbessern sollte.
+currentUnderstanding: Menschliche Eigenschaften entstehen aus komplexen Wechselwirkungen zwischen vielen Genen,
+  Entwicklung, Umwelt, Kultur und sozialen Bedingungen. Viele von Eugenikprogrammen erfasste Kategorien waren überhaupt
+  keine einfachen Erbmerkmale; Zwangssterilisation verletzte zudem körperliche Selbstbestimmung und Menschenrechte.
 episodes:
-  - id: united-states-1907-1974
-    polity: Vereinigte Staaten
-    summary: Ab Indiana 1907 erließen 32 Bundesstaaten eugenische Sterilisationsgesetze. Staatliche Einrichtungen sterilisierten Zehntausende als „untauglich“ eingestufte Menschen; 1927 bestätigte der Supreme Court Virginias Gesetz im Fall Buck v. Bell.
-    consequences: [Zwangssterilisation, Behindertenpolitik, Reproduktive Rechte]
-  - id: germany-1933-1945
-    polity: NS-Deutschland
-    summary: Das Gesetz zur Verhütung erbkranken Nachwuchses von 1933 machte eugenische Bewertungen zum Bestandteil staatlichen Rechts. Erbgesundheitsgerichte genehmigten Hunderttausende Zwangssterilisationen und verankerten rassenhygienische Vorstellungen in Medizin und Verwaltung.
-    consequences: [Zwangssterilisation, Rassenpolitik, Verfolgung behinderter Menschen]
-  - id: sweden-1935-1975
-    polity: Schweden
-    summary: Schwedische Sterilisationsgesetze galten von 1935 bis 1975. Eine spätere historische Untersuchung schätzte, dass in diesem Zeitraum ungefähr 32.000 Sterilisationen unfreiwillig waren und eugenische sowie sozialpolitische Urteile darüber widerspiegelten, wer Kinder bekommen sollte.
-    consequences: [Unfreiwillige Sterilisation, Behindertenpolitik, Sozialpolitik]
-  - id: japan-1948-1996
-    polity: Japan
-    summary: Japans Eugenic Protection Act von 1948 zielte ausdrücklich darauf, als eugenisch unerwünscht eingestufte Geburten zu verhindern und erlaubte bei bestimmten Diagnosen Zwangssterilisation. Die eugenischen Bestimmungen blieben bis zur Gesetzesänderung 1996 bestehen.
-    consequences: [Zwangssterilisation, Behindertenpolitik, Reproduktive Rechte]
-  - id: czechoslovakia-1972-1989
-    polity: Tschechoslowakei
-    summary: Die tschechoslowakischen Sterilisationsregeln waren formal ethnisch neutral, wurden von Ärzten und Sozialarbeitern jedoch unverhältnismäßig und unter Zwang gegen Romnja angewandt. Dissidenten dokumentierten Ende der 1970er-Jahre administrative Programme gegen Roma; spätere Forschung führt die Praxis auf institutionelle Kontinuitäten zwischen Eugenik, medizinischer Genetik und staatlicher Sozialpolitik zurück.
-    consequences: [Zwangssterilisation von Romnja, Reproduktive Diskriminierung, Rassifizierte Sozialpolitik]
+- id: united-states-1907-1974
+  polity: Vereinigte Staaten
+  institutions:
+  - Virginia General Assembly
+  - Virginia State Colony for Epileptics and Feeble-Minded
+  - Supreme Court of the United States
+  summary: Ab Indiana 1907 erließen 32 Bundesstaaten eugenische Sterilisationsgesetze. Staatliche Einrichtungen
+    sterilisierten Zehntausende als „untauglich“ eingestufte Menschen; 1927 bestätigte der Supreme Court Virginias
+    Gesetz im Fall Buck v. Bell.
+  consequences:
+  - Zwangssterilisation
+  - Behindertenpolitik
+  - Reproduktive Rechte
+  institutionalContext: 'In den Vereinigten Staaten gab es keine einheitliche Bundesbehörde für Sterilisation: Die
+    Programme wurden von den Einzelstaaten gesetzlich geschaffen und verwaltet. Die genannten Institutionen Virginias
+    zeigen die institutionelle Kette hinter dem landesweit einflussreichen Präzedenzfall Buck v. Bell; vergleichbare
+    Gesetze sowie staatliche Krankenhäuser und Fürsorgeanstalten bestanden in zahlreichen weiteren Bundesstaaten.'
+- id: germany-1933-1945
+  polity: NS-Deutschland
+  institutions:
+  - Reichsministerium des Innern
+  - Erbgesundheitsgerichte
+  - Erbgesundheitsobergerichte
+  - Gesundheitsämter und Amtsärzte
+  summary: Das Gesetz zur Verhütung erbkranken Nachwuchses von 1933 machte eugenische Bewertungen zum Bestandteil
+    staatlichen Rechts. Das Reichsministerium des Innern prägte die Umsetzung; Gesundheitsämter und Amtsärzte führten
+    Betroffene in das Verfahren; Erbgesundheitsgerichte ordneten Sterilisationen an; Erbgesundheitsobergerichte
+    entschieden über Beschwerden. Hunderttausende Menschen wurden durch diesen Verwaltungs-, Medizin- und Justizapparat
+    zwangssterilisiert.
+  consequences:
+  - Zwangssterilisation
+  - Rassenhygienische Verwaltung
+  - Verfolgung behinderter Menschen
+  institutionalContext: Das Reichsministerium des Innern gab Durchführungsvorgaben. Gesundheitsämter und Amtsärzte
+    leiteten und dokumentierten Verfahren; Erbgesundheitsgerichte ordneten Sterilisationen an; Erbgesundheitsobergerichte
+    entschieden über Beschwerden. Krankenhäuser und Ärzte führten die Eingriffe anschließend aus. Der breitere Medizin-
+    und Verwaltungsapparat wird deshalb hier beschrieben, während die Institutionsliste die formalen deutschen Stellen
+    nennt.
+- id: sweden-1935-1975
+  polity: Schweden
+  institutions:
+  - Medicinalstyrelsen
+  - Socialstyrelsen (ab 1968)
+  summary: Schwedische Sterilisationsgesetze galten von 1935 bis 1975. Eine spätere historische Untersuchung schätzte,
+    dass in diesem Zeitraum ungefähr 32.000 Sterilisationen unfreiwillig waren und eugenische sowie sozialpolitische
+    Urteile darüber widerspiegelten, wer Kinder bekommen sollte.
+  consequences:
+  - Unfreiwillige Sterilisation
+  - Behindertenpolitik
+  - Sozialpolitik
+  institutionalContext: Medicinalstyrelsen – ab 1968 Socialstyrelsen – war die zentrale Behörde, die Sterilisationen
+    genehmigte und Anweisungen herausgab. Anträge konnten durch lokale Akteure wie Anstaltsleitungen, Ärzte, Kinderfürsorge-
+    oder Armenfürsorgeorgane angestoßen werden; genehmigte Eingriffe wurden in Krankenhäusern durchgeführt. Die
+    spätere staatliche Untersuchung beschrieb diesen verteilten Fach- und Wohlfahrtsapparat als Teil der Struktur,
+    in der Druck und bedingter Zwang möglich wurden.
+- id: japan-1948-1996
+  polity: Japan
+  institutions:
+  - 厚生省 (Ministerium für Gesundheit und Wohlfahrt)
+  - 都道府県優生保護審査会 (präfekturale Eugenikschutz-Prüfungsausschüsse)
+  - 中央優生保護審査会 (Zentraler Eugenikschutz-Prüfungsausschuss)
+  summary: Japans Eugenic Protection Act von 1948 zielte ausdrücklich darauf, als eugenisch unerwünscht eingestufte
+    Geburten zu verhindern und erlaubte bei bestimmten Diagnosen Zwangssterilisation. Die eugenischen Bestimmungen
+    blieben bis zur Gesetzesänderung 1996 bestehen.
+  consequences:
+  - Zwangssterilisation
+  - Behindertenpolitik
+  - Reproduktive Rechte
+  institutionalContext: Das 厚生省 verschickte nationale Durchführungserlasse an die Präfekturgouverneure. Präfekturale
+    Prüfungsausschüsse entschieden über Zwangseingriffe nach dem Eugenic Protection Act; ein zentraler Ausschuss
+    übernahm Aufsichts- und Überprüfungsfunktionen. Bestimmte Ärzte und medizinische Einrichtungen führten die Eingriffe
+    aus.
+- id: czechoslovakia-1972-1989
+  polity: Tschechoslowakei
+  institutions:
+  - Ministerstvo zdravotnictví České socialistické republiky
+  - Ministerstvo zdravotnictví Slovenské socialistické republiky
+  - Sterilizační komise nach den Richtlinien von 1972
+  summary: Die tschechoslowakischen Sterilisationsregeln waren formal ethnisch neutral, wurden von Ärzten und Sozialarbeitern
+    jedoch unverhältnismäßig und unter Zwang gegen Romnja angewandt. Dissidenten dokumentierten Ende der 1970er-Jahre
+    administrative Programme gegen Roma; spätere Forschung führt die Praxis auf institutionelle Kontinuitäten zwischen
+    Eugenik, medizinischer Genetik und staatlicher Sozialpolitik zurück.
+  consequences:
+  - Zwangssterilisation von Romnja
+  - Reproduktive Diskriminierung
+  - Rassifizierte Sozialpolitik
+  institutionalContext: Die Gesundheitsministerien der tschechischen und slowakischen Teilrepublik erließen parallele
+    Sterilisationsrichtlinien. Im tschechischen System wurden Sterilisationskommissionen an Krankenhäusern über
+    die okresní ústavy národního zdraví eingerichtet; medizinisches und sozialfürsorgerisches Personal konnte Anträge
+    und Einwilligung in der Praxis beeinflussen. Spätere Untersuchungen zeigten, dass die formal ethnisch neutralen
+    Regeln unverhältnismäßig und unter Zwang gegen Romnja angewandt wurden.

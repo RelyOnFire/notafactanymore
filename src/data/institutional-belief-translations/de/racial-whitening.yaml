@@ -1,14 +1,18 @@
 locale: de
 entryId: racial-whitening
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: 2026-08-23
 title: Rassische „Aufhellung“
 claim: Ein höherer Anteil europäischer Abstammung durch Einwanderung und Eheschließungen wurde als biologischer Weg behandelt, die Nation „weißer“ zu machen und zu verbessern.
 currentUnderstanding: Menschliche Populationen bilden keine biologische Hierarchie von minder- zu höherwertigen „Rassen“, und ein größerer Anteil einer gesellschaftlich als „weiß“ definierten Abstammung verbessert eine Bevölkerung nicht biologisch. „Rasse“ ist eine soziale Einteilung, die genetische Abstammungsmuster nur unvollkommen abbildet.
 episodes:
   - id: brazil-1890-1930
     polity: Brasilien
-    summary: In der Ersten Brasilianischen Republik war die Vorstellung politisch einflussreich, europäische Einwanderung und rassische Vermischung könnten Brasilien schrittweise „weißer“ machen. Die Einwanderungspolitik förderte Europäer finanziell, während die Regelungen von 1890 die Einwanderung aus Afrika und Asien beschränkten und dem Whitening-Projekt institutionelle Wirkung verliehen.
+    institutions:
+      - Ministério da Agricultura, Comércio e Obras Públicas
+      - Directoria Geral do Serviço de Povoamento
+    institutionalContext: In der Ersten Republik gab es keine einzelne Behörde namens etwa „Whitening Office“. Die Einwanderungs- und Kolonisationspolitik lief über konkrete Ministerien und ab 1907 über die Directoria Geral do Serviço de Povoamento, die zentrale Bundesstelle für staatlich geförderte Einwanderung und Ansiedlung. Das Dekret von 1890 wies außerdem Diplomaten, Konsuln und Hafenpolizei Vollzugsaufgaben zu; diese verteilte Verwaltung wird hier erläutert, statt als erfundene Institution bezeichnet zu werden.
+    summary: In der Ersten Brasilianischen Republik war die Vorstellung politisch einflussreich, europäische Einwanderung und rassische Vermischung könnten Brasilien schrittweise „weißer“ machen. Bundesrecht und Ansiedlungsprogramme schufen konkrete Verwaltungsstrukturen, um ausgewählte Einwanderung anzuziehen und zu subventionieren, während die Regelung von 1890 die Einreise aus Afrika und Asien beschränkte.
     consequences:
-      - Subventionierte europäische Einwanderung
-      - Beschränkung afrikanischer und asiatischer Einwanderung
-      - Rassifizierte Bevölkerungspolitik
+      - Staatliche Subventionen und Verwaltungsstrukturen zugunsten europäischer Einwanderung
+      - Formale Beschränkungen afrikanischer und asiatischer Einwanderung im Regelwerk von 1890
+      - Rassifizierte Bevölkerungspolitik im Namen nationaler „Verbesserung“

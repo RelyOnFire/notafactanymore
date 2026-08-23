@@ -61,6 +61,12 @@ const formatPeriod = (startYear: number, endYear: number, endOpen = false) => {
   return `${startYear}–${endYear}${endOpen ? '+' : ''}`;
 };
 
+const compactInstitutionLabel = (institutions: string[]) => {
+  if (institutions.length <= 2) return institutions.join(' · ');
+  const more = institutions.length - 2;
+  return `${institutions.slice(0, 2).join(' · ')} · +${more} ${locale === 'de' ? 'weitere' : 'more'}`;
+};
+
 const entries = beliefs.map((belief) => {
   const translation = translationById.get(belief.id);
   const isCurrentTranslation = translation
@@ -83,6 +89,9 @@ const entries = beliefs.map((belief) => {
         ...episode,
         period: formatPeriod(episode.startYear, episode.endYear, episode.endOpen),
         polity: translatedEpisode?.polity ?? episode.polity,
+        institutions: translatedEpisode?.institutions ?? episode.institutions,
+        institutionalContext:
+          translatedEpisode?.institutionalContext ?? episode.institutionalContext,
         summary: translatedEpisode?.summary ?? episode.summary,
         consequences: translatedEpisode?.consequences ?? episode.consequences,
       };
@@ -143,6 +152,10 @@ const entryPath = (entryId: string) => locale === 'de'
   ? `/de/entries/${entryId}/`
   : `/entries/${entryId}/`;
 
+const casePath = (beliefId: string) => locale === 'de'
+  ? `/de/institutions/${beliefId}/`
+  : `/institutions/${beliefId}/`;
+
 const copy = locale === 'de'
   ? {
       eyebrow: 'Wenn Behauptungen Macht bekommen',
@@ -181,6 +194,7 @@ const copy = locale === 'de'
       consequences: 'Folgen',
       evidence: 'Belege zur Institutionalisierung',
       linkedEntry: 'Zum Katalogeintrag',
+      moreOnCase: 'weitere auf der Detailseite',
       current: 'Heutiger Wissensstand',
       noResults: 'Keine institutionellen Fälle entsprechen diesen Filtern.',
       episodes: (count: number) => `${count} ${count === 1 ? 'Episode' : 'Episoden'}`,
@@ -224,6 +238,7 @@ const copy = locale === 'de'
       consequences: 'Consequences',
       evidence: 'Institutional evidence',
       linkedEntry: 'Open catalogue entry',
+      moreOnCase: 'more on the case page',
       current: 'Current understanding',
       noResults: 'No institutional cases match those filters.',
       episodes: (count: number) => `${count} ${count === 1 ? 'episode' : 'episodes'}`,
@@ -284,7 +299,7 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     <label class="decade-field">
       <span class="sr-only">{locale === 'de' ? 'Jahrzehnt' : 'Decade'}</span>
       <select class="institutional-filter" data-filter="decade">
-        <option value="">{copy.activeIn}: {copy.allDecades}</option>
+        <option value="">{copy.allDecades}</option>
         {allDecades.map((decade) => (
           <option value={decade}>{formatDecade(decade)}</option>
         ))}
@@ -355,14 +370,18 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
             <span>{item.belief.data.category}</span>
             <span class="episode-count">{copy.episodes(item.episodes.length)}</span>
           </div>
-          <h2>{item.title}</h2>
+          <h2>
+            <a href={casePath(item.belief.id)}>{item.title}</a>
+          </h2>
           <p class="belief-claim">{item.claim}</p>
         </div>
 
-        <details class="group-current">
-          <summary>{copy.current}</summary>
-          <p>{item.currentUnderstanding}</p>
-        </details>
+        <div class="belief-heading-actions">
+          <details class="group-current">
+            <summary>{copy.current}</summary>
+            <p>{item.currentUnderstanding}</p>
+          </details>
+        </div>
       </header>
 
       <div class="episode-grid">
@@ -375,11 +394,16 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
             episode.region,
             episode.period,
             episode.summary,
+            episode.institutionalContext ?? '',
             ...episode.institutions,
             ...episode.consequences,
             ...episode.institutionTypes.map((type) => typeLabels[type]),
             strengthLabels[episode.strength],
           ].join(' ').toLowerCase();
+
+          const compactConsequences = episode.consequences.slice(0, 3);
+          const hiddenConsequenceCount =
+            Math.max(0, episode.consequences.length - compactConsequences.length);
 
           return (
             <article
@@ -405,16 +429,21 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
 
               <div class="episode-section">
                 <h3>{copy.institutions}</h3>
-                <p>{episode.institutions.join(' · ')}</p>
+                <p>{compactInstitutionLabel(episode.institutions)}</p>
               </div>
 
               <div class="episode-section">
                 <h3>{copy.consequences}</h3>
-                <div class="tag-row">
-                  {episode.consequences.map((consequence) => (
-                    <span class="tag">{consequence}</span>
+                <ul class="consequence-list">
+                  {compactConsequences.map((consequence) => (
+                    <li>{consequence}</li>
                   ))}
-                </div>
+                  {hiddenConsequenceCount > 0 && (
+                    <li class="consequence-more">
+                      +{hiddenConsequenceCount} {copy.moreOnCase}
+                    </li>
+                  )}
+                </ul>
               </div>
 
               <details class="evidence">
@@ -581,53 +610,34 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
 </script>
 
 <style>
-  .institutional-head {
-    padding: 5rem 0 2.5rem;
-  }
-
-  .institutional-head h1 {
-    margin: 0.2rem 0 1rem;
-    max-width: 900px;
-  }
-
+  .institutional-head { padding: 5rem 0 2.5rem; }
+  .institutional-head h1 { margin: 0.2rem 0 1rem; max-width: 900px; }
   .institutional-intro {
     margin: 0;
     max-width: 780px;
     color: var(--muted);
     font-size: clamp(1.08rem, 2vw, 1.35rem);
   }
-
   .definition-grid {
     margin-top: 2.3rem;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
   }
-
   .definition-card {
     padding: 1.35rem 1.4rem;
     border: 1px solid var(--line);
     border-radius: 0.85rem;
     background: color-mix(in srgb, var(--card) 82%, transparent);
   }
-
-  .definition-card h2 {
-    margin: 0 0 0.6rem;
-    font-size: 1.15rem;
-  }
-
-  .definition-card p {
-    margin: 0;
-    color: var(--muted);
-  }
-
+  .definition-card h2 { margin: 0 0 0.6rem; font-size: 1.15rem; }
+  .definition-card p { margin: 0; color: var(--muted); }
   .coverage-note {
     margin: 1rem 0 0;
     color: var(--muted);
     font-size: 0.9rem;
     font-style: italic;
   }
-
   .level-legend {
     margin-top: 1rem;
     padding: 1.25rem 1.4rem;
@@ -635,12 +645,7 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     border-radius: 0.85rem;
     background: var(--card);
   }
-
-  .level-legend h2 {
-    margin: 0 0 0.9rem;
-    font-size: 1rem;
-  }
-
+  .level-legend h2 { margin: 0 0 0.9rem; font-size: 1rem; }
   .level-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -649,28 +654,19 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     border: 1px solid var(--line);
     border-radius: 0.7rem;
   }
-
   .level-grid > div {
     min-width: 0;
     padding: 0.95rem 1rem;
     background: color-mix(in srgb, var(--card) 88%, #ebe7df);
   }
-
-  .level-grid > div + div {
-    border-left: 1px solid var(--line);
-  }
-
-  .level-grid .strength {
-    margin-top: 0;
-  }
-
+  .level-grid > div + div { border-left: 1px solid var(--line); }
+  .level-grid .strength { margin-top: 0; }
   .level-grid p {
     margin: 0.5rem 0 0;
     color: var(--muted);
     font-size: 0.82rem;
     line-height: 1.45;
   }
-
   .institutional-controls {
     position: sticky;
     top: 0;
@@ -679,20 +675,16 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     background: color-mix(in srgb, var(--paper) 96%, transparent);
     backdrop-filter: blur(12px);
   }
-
   .control-bar {
     padding: 0.72rem 0;
     display: grid;
     grid-template-columns:
       minmax(250px, 1.45fr)
       minmax(180px, 0.65fr)
-      auto
-      auto
-      minmax(210px, 0.8fr);
+      auto auto minmax(210px, 0.8fr);
     gap: 0.6rem;
     align-items: center;
   }
-
   .control-bar input,
   .control-bar select {
     width: 100%;
@@ -704,11 +696,7 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     color: var(--ink);
     font: inherit;
   }
-
-  .more-filters {
-    position: relative;
-  }
-
+  .more-filters { position: relative; }
   .more-filters > summary {
     min-height: 2.65rem;
     padding: 0.58rem 0.78rem;
@@ -725,22 +713,14 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     white-space: nowrap;
     list-style: none;
   }
-
-  .more-filters > summary::-webkit-details-marker {
-    display: none;
-  }
-
+  .more-filters > summary::-webkit-details-marker { display: none; }
   .more-filters > summary::after {
     content: '▾';
     color: var(--muted);
     font-size: 0.72rem;
     transition: transform 120ms ease;
   }
-
-  .more-filters[open] > summary::after {
-    transform: rotate(180deg);
-  }
-
+  .more-filters[open] > summary::after { transform: rotate(180deg); }
   .advanced-filter-count {
     min-width: 1.25rem;
     padding: 0.08rem 0.35rem;
@@ -751,12 +731,8 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     line-height: 1.2;
     text-align: center;
   }
-
   .advanced-filter-count[hidden],
-  .reset-filters[hidden] {
-    display: none;
-  }
-
+  .reset-filters[hidden] { display: none; }
   .advanced-filter-panel {
     position: absolute;
     top: calc(100% + 0.55rem);
@@ -772,11 +748,7 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     background: var(--card);
     box-shadow: 0 16px 45px rgba(23, 23, 23, 0.12);
   }
-
-  .advanced-filter-panel label {
-    min-width: 0;
-  }
-
+  .advanced-filter-panel label { min-width: 0; }
   .filter-label {
     display: block;
     margin: 0 0 0.28rem;
@@ -786,7 +758,6 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     letter-spacing: 0.05em;
     text-transform: uppercase;
   }
-
   .results-summary {
     margin: 0;
     justify-self: end;
@@ -794,7 +765,6 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     font-size: 0.82rem;
     text-align: right;
   }
-
   .reset-filters {
     border: 0;
     padding: 0.35rem 0.15rem;
@@ -806,20 +776,10 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     cursor: pointer;
     white-space: nowrap;
   }
-
-  .belief-groups {
-    padding-top: 3rem;
-  }
-
-  .belief-group + .belief-group {
-    margin-top: 4.5rem;
-  }
-
+  .belief-groups { padding-top: 3rem; }
+  .belief-group + .belief-group { margin-top: 4.5rem; }
   .belief-group[hidden],
-  .episode-card[hidden] {
-    display: none;
-  }
-
+  .episode-card[hidden] { display: none; }
   .belief-heading {
     margin-bottom: 1.2rem;
     padding-bottom: 1.15rem;
@@ -829,7 +789,6 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     gap: 2rem;
     align-items: start;
   }
-
   .belief-heading-topline {
     margin-bottom: 0.35rem;
     display: flex;
@@ -841,49 +800,38 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }
-
-  .episode-count {
-    padding-left: 0.7rem;
-    border-left: 1px solid var(--line);
-  }
-
-  .belief-heading h2 {
-    margin: 0;
-    font-size: clamp(2rem, 5vw, 3.3rem);
-  }
-
+  .episode-count { padding-left: 0.7rem; border-left: 1px solid var(--line); }
+  .belief-heading h2 { margin: 0; font-size: clamp(2rem, 5vw, 3.3rem); }
+  .belief-heading h2 a { color: inherit; text-decoration: none; }
+  .belief-heading h2 a:hover { color: var(--accent-dark); }
   .belief-claim {
     margin: 0.7rem 0 0;
     max-width: 760px;
     font-size: 1.03rem;
     font-weight: 680;
   }
-
+  .belief-heading-actions { min-width: 0; }
   .group-current {
     padding: 0.9rem 1rem;
     border: 1px solid var(--line);
     border-radius: 0.7rem;
     background: var(--card);
   }
-
-  .group-current summary {
-    cursor: pointer;
+  .group-current summary { cursor: pointer; color: var(--accent-dark); font-weight: 800; }
+  .group-current p { margin: 0.55rem 0 0; color: var(--muted); font-size: 0.9rem; }
+  .entry-link {
+    display: inline-block;
+    margin-top: 0.75rem;
     color: var(--accent-dark);
     font-weight: 800;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
   }
-
-  .group-current p {
-    margin: 0.55rem 0 0;
-    color: var(--muted);
-    font-size: 0.9rem;
-  }
-
   .episode-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
   }
-
   .episode-card {
     padding: 1.35rem;
     border: 1px solid var(--line);
@@ -891,7 +839,6 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     background: var(--card);
     box-shadow: 0 8px 30px rgba(23, 23, 23, 0.035);
   }
-
   .episode-topline {
     display: flex;
     justify-content: space-between;
@@ -899,17 +846,11 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     font-size: 0.9rem;
     font-weight: 800;
   }
-
-  .period {
-    color: var(--accent-dark);
-    white-space: nowrap;
-  }
-
+  .period { color: var(--accent-dark); white-space: nowrap; }
   .strength {
     --level-color: #4f5d6b;
     --level-bg: color-mix(in srgb, var(--level-color) 10%, white);
     --level-border: color-mix(in srgb, var(--level-color) 58%, var(--line));
-
     display: inline-flex;
     align-items: center;
     gap: 0.48rem;
@@ -924,7 +865,6 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     font-weight: 850;
     letter-spacing: 0.025em;
   }
-
   .strength::before {
     display: grid;
     place-items: center;
@@ -940,135 +880,78 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     line-height: 1;
     letter-spacing: 0;
   }
-
-  /* A deliberately sombre archival scale. The hues avoid traffic-light semantics;
-     escalation is also encoded by Roman numerals, darker fills, and heavier borders. */
   .strength-institutionally-influential {
     --level-color: #4f5d6b;
     --level-bg: color-mix(in srgb, #4f5d6b 9%, white);
     border-left-width: 3px;
   }
-
-  .strength-institutionally-influential::before {
-    content: 'I';
-  }
-
+  .strength-institutionally-influential::before { content: 'I'; }
   .strength-officially-endorsed {
     --level-color: #514a68;
     --level-bg: color-mix(in srgb, #514a68 11%, white);
     border-left-width: 4px;
   }
-
-  .strength-officially-endorsed::before {
-    content: 'II';
-  }
-
+  .strength-officially-endorsed::before { content: 'II'; }
   .strength-policy-basis {
     --level-color: #655047;
     --level-bg: color-mix(in srgb, #655047 14%, white);
     border-left-width: 5px;
   }
-
-  .strength-policy-basis::before {
-    content: 'III';
-  }
-
+  .strength-policy-basis::before { content: 'III'; }
   .strength-enforced-doctrine {
     --level-color: #6a2e35;
     --level-bg: color-mix(in srgb, #6a2e35 18%, white);
     border-left-width: 6px;
   }
-
-  .strength-enforced-doctrine::before {
-    content: 'IV';
-  }
-
-  .episode-summary {
-    margin: 0.95rem 0 1.1rem;
-    color: var(--muted);
-  }
-
+  .strength-enforced-doctrine::before { content: 'IV'; }
+  .episode-summary { margin: 0.95rem 0 1.1rem; color: var(--muted); }
   .episode-section {
     padding-top: 0.9rem;
     border-top: 1px solid color-mix(in srgb, var(--line) 72%, transparent);
   }
-
-  .episode-section + .episode-section {
-    margin-top: 0.85rem;
-  }
-
+  .episode-section + .episode-section { margin-top: 0.85rem; }
   .episode-section h3 {
     margin: 0 0 0.38rem;
     font-size: 0.73rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
   }
-
-  .episode-section p {
+  .episode-section p { margin: 0; color: var(--muted); font-size: 0.88rem; }
+  .consequence-list {
     margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 0.28rem;
+  }
+  .consequence-list li {
+    position: relative;
+    padding-left: 0.85rem;
     color: var(--muted);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    line-height: 1.38;
   }
-
-  .tag-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
+  .consequence-list li::before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: color-mix(in srgb, var(--muted) 68%, transparent);
   }
-
-  .tag {
-    padding: 0.22rem 0.48rem;
-    border-radius: 0.35rem;
-    background: var(--paper);
-    color: var(--muted);
-    font-size: 0.78rem;
+  .consequence-list .consequence-more {
+    color: var(--accent-dark);
+    font-weight: 720;
   }
-
   .evidence {
     margin-top: 0.9rem;
     padding-top: 0.75rem;
     border-top: 1px solid color-mix(in srgb, var(--line) 72%, transparent);
   }
-
-  .evidence summary {
-    cursor: pointer;
-    color: var(--accent-dark);
-    font-weight: 780;
-  }
-
-  .evidence ul {
-    margin: 0.75rem 0 0;
-    padding-left: 1.15rem;
-  }
-
-  .evidence li + li {
-    margin-top: 0.7rem;
-  }
-
-  .evidence a {
-    font-weight: 720;
-  }
-
-  .evidence li > span {
-    display: block;
-    color: var(--muted);
-    font-size: 0.8rem;
-  }
-
-  .entry-link {
-    display: inline-block;
-    margin-top: 1rem;
-    color: var(--accent-dark);
-    font-weight: 800;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.2em;
-  }
-
-  .empty-state {
-    padding: 4rem 0;
-    color: var(--muted);
-  }
-
+  .evidence summary { cursor: pointer; color: var(--accent-dark); font-weight: 780; }
+  .evidence ul { margin: 0.75rem 0 0; padding-left: 1.15rem; }
+  .evidence li + li { margin-top: 0.7rem; }
+  .evidence a { font-weight: 720; }
+  .evidence li > span { display: block; color: var(--muted); font-size: 0.8rem; }
+  .empty-state { padding: 4rem 0; color: var(--muted); }
   .sr-only {
     position: absolute;
     width: 1px;
@@ -1080,51 +963,27 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     white-space: nowrap;
     border: 0;
   }
-
   @media (max-width: 1100px) {
     .control-bar {
       grid-template-columns: minmax(220px, 1fr) minmax(180px, 0.65fr) auto auto;
     }
-
     .results-summary {
       grid-column: 1 / -1;
       justify-self: start;
       text-align: left;
     }
-
-    .level-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+    .level-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   }
-
   @media (max-width: 760px) {
-    .institutional-head {
-      padding-top: 3.2rem;
-    }
-
+    .institutional-head { padding-top: 3.2rem; }
     .definition-grid,
     .episode-grid,
     .level-grid,
-    .belief-heading {
-      grid-template-columns: 1fr;
-    }
-
-    .control-bar {
-      grid-template-columns: 1fr auto;
-    }
-
-    .search-field {
-      grid-column: 1 / -1;
-    }
-
-    .decade-field {
-      min-width: 0;
-    }
-
-    .more-filters > summary {
-      width: 100%;
-    }
-
+    .belief-heading { grid-template-columns: 1fr; }
+    .control-bar { grid-template-columns: 1fr auto; }
+    .search-field { grid-column: 1 / -1; }
+    .decade-field { min-width: 0; }
+    .more-filters > summary { width: 100%; }
     .advanced-filter-panel {
       position: static;
       width: 100%;
@@ -1132,31 +991,22 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
       grid-template-columns: 1fr;
       box-shadow: none;
     }
-
     .reset-filters,
     .results-summary {
       grid-column: 1 / -1;
       justify-self: start;
       text-align: left;
     }
-
-    .institutional-controls {
-      position: static;
-    }
-
+    .institutional-controls { position: static; }
     .episode-topline {
       align-items: flex-start;
       flex-direction: column;
       gap: 0.1rem;
     }
-
     .level-grid > div + div {
       border-left: 0;
       border-top: 1px solid var(--line);
     }
-
-    .group-current {
-      max-width: none;
-    }
+    .group-current { max-width: none; }
   }
 </style>

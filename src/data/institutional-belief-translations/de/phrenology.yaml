@@ -1,15 +1,18 @@
 locale: de
 entryId: phrenology
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: 2026-08-23
 title: Phrenologie
 claim: Geistige Fähigkeiten und Charakter lassen sich aus der Schädelform ableiten, weil verschiedene „Organe“ des Gehirns den darüberliegenden Schädel unterschiedlich ausformen.
 currentUnderstanding: Hirnfunktionen beruhen auf Nervengewebe und verteilten Netzwerken. Unebenheiten des Schädels liefern keine gültige Karte von Persönlichkeit, Intelligenz, Moral oder geistigen Fähigkeiten.
 episodes:
   - id: britain-1820-1850
     polity: Vereinigtes Königreich
+    institutions:
+      - Edinburgh Phrenological Society
+      - London Phrenological Society
+    institutionalContext: Phrenologische Vorstellungen zirkulierten darüber hinaus unter Ärzten, Psychiatern, Pädagogen und Sozialreformern. Diese verteilten Fachnetzwerke werden hier jedoch nicht so behandelt, als seien sie eine einzelne Institution. Die beiden genannten Gesellschaften sind die klarsten identifizierbaren institutionellen Träger dieser Episode.
     summary: Die Phrenologie bildete organisierte wissenschaftliche Gesellschaften und beeinflusste einige britische Ärzte, Psychiater, Pädagogen und Sozialreformer. Ihre institutionellen Ambitionen gingen um die Mitte des Jahrhunderts zurück, auch wenn populäre Praxis wesentlich länger fortbestand.
-    consequences: [Psychiatrische Theorie, Bildungsreform, Argumente zur Strafrechtsreform]
-  - id: united-states-1825-1840
-    polity: Vereinigte Staaten
-    summary: In den 1820er- und 1830er-Jahren nutzten einige amerikanische akademische Ärzte phrenologische Theorien zur Deutung neurologischer Symptome. Die Lehre wurde nie staatliche Doktrin, fungierte aber zeitweise innerhalb von Teilen der professionellen Medizin.
-    consequences: [Neurologische Deutung, Medizinische Ausbildung, Psychiatrische Theorie]
+    consequences:
+      - Phrenologische Vorstellungen flossen in psychiatrische und neurologische Deutungen ein
+      - Bildungs- und Sozialreformargumente wurden mit vermeintlich schädelbasierten Fähigkeiten begründet
+      - Organisierte Gesellschaften verliehen der Lehre wissenschaftliche und fachliche Legitimität

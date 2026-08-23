@@ -1,0 +1,656 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import type { SiteLocale } from '../lib/i18n';
+
+interface Props {
+  belief: any;
+  locale?: SiteLocale;
+  translation?: any;
+  hasGermanTranslation?: boolean;
+}
+
+const {
+  belief,
+  locale = 'en',
+  translation,
+  hasGermanTranslation = false,
+} = Astro.props;
+
+const localized = locale === 'de' ? translation : undefined;
+const translatedEpisodes = new Map(
+  localized?.data.episodes.map((episode: any) => [episode.id, episode]) ?? [],
+);
+
+const title = localized?.data.title ?? belief.data.title;
+const claim = localized?.data.claim ?? belief.data.claim;
+const currentUnderstanding =
+  localized?.data.currentUnderstanding ?? belief.data.currentUnderstanding;
+const impact = locale === 'de'
+  ? localized?.data.impact
+  : belief.data.impact;
+
+const strengthLabels: Record<string, string> = locale === 'de'
+  ? {
+      'institutionally-influential': 'Institutionell einflussreich',
+      'officially-endorsed': 'Offiziell unterstützt',
+      'policy-basis': 'Grundlage staatlicher Praxis',
+      'enforced-doctrine': 'Durchgesetzte Doktrin',
+    }
+  : {
+      'institutionally-influential': 'Institutionally influential',
+      'officially-endorsed': 'Officially endorsed',
+      'policy-basis': 'Policy basis',
+      'enforced-doctrine': 'Enforced doctrine',
+    };
+
+const formatPeriod = (startYear: number, endYear: number, endOpen = false) => {
+  if (startYear === endYear) return `${startYear}${endOpen ? '+' : ''}`;
+  return `${startYear}–${endYear}${endOpen ? '+' : ''}`;
+};
+
+const episodes = belief.data.episodes
+  .map((episode: any) => {
+    const translatedEpisode = translatedEpisodes.get(episode.id) as any;
+    return {
+      ...episode,
+      polity: translatedEpisode?.polity ?? episode.polity,
+      summary: translatedEpisode?.summary ?? episode.summary,
+      institutions: translatedEpisode?.institutions ?? episode.institutions,
+      institutionalContext:
+        translatedEpisode?.institutionalContext ?? episode.institutionalContext,
+      consequences: translatedEpisode?.consequences ?? episode.consequences,
+      period: formatPeriod(episode.startYear, episode.endYear, episode.endOpen),
+    };
+  })
+  .sort((a: any, b: any) =>
+    a.startYear - b.startYear ||
+    a.polity.localeCompare(b.polity, locale)
+  );
+
+const copy = locale === 'de'
+  ? {
+      back: 'Zur Zeitleiste der institutionellen Überzeugungen',
+      eyebrow: 'Institutionelle Überzeugung',
+      claim: 'Die institutionelle Behauptung',
+      current: 'Heutiger Wissensstand',
+      impact: 'Folgen und menschliche Auswirkungen',
+      impactContext: 'Wie daraus Folgen entstanden',
+      impactCaution:
+        'Zahlen werden nur hervorgehoben, wenn sie durch die angegebenen Quellen gestützt werden. Die Größe einer damit verbundenen Katastrophe wird nicht automatisch als ausschließlich durch diese Überzeugung verursacht behandelt.',
+      episode: 'Institutionelle Episode',
+      institutions: 'Institutionen',
+      institutionalContext: 'Institutioneller Apparat',
+      consequences: 'Dokumentierte Folgen',
+      evidence: 'Quellen und was sie belegen',
+      catalogue: 'Verknüpfter Katalogeintrag',
+      reviewed: 'Zuletzt geprüft',
+      episodes: (count: number) => `${count} ${count === 1 ? 'Episode' : 'Episoden'}`,
+    }
+  : {
+      back: 'Back to institutional beliefs timeline',
+      eyebrow: 'Institutional belief',
+      claim: 'The institutional claim',
+      current: 'Current understanding',
+      impact: 'Consequences and human impact',
+      impactContext: 'How the consequences followed',
+      impactCaution:
+        'Quantitative figures are highlighted only when the cited evidence supports them. The scale of a related catastrophe is not automatically treated as a death toll caused solely by this belief.',
+      episode: 'Institutional episode',
+      institutions: 'Institutions',
+      institutionalContext: 'Institutional machinery',
+      consequences: 'Documented consequences',
+      evidence: 'Sources and what they establish',
+      catalogue: 'Linked catalogue entry',
+      reviewed: 'Last reviewed',
+      episodes: (count: number) => `${count} ${count === 1 ? 'episode' : 'episodes'}`,
+    };
+
+const timelinePath = locale === 'de' ? '/de/institutions/' : '/institutions/';
+const alternatePath = locale === 'de'
+  ? `/institutions/${belief.id}/`
+  : hasGermanTranslation
+    ? `/de/institutions/${belief.id}/`
+    : undefined;
+
+const cataloguePath = belief.data.entryId
+  ? locale === 'de'
+    ? `/de/entries/${belief.data.entryId}/`
+    : `/entries/${belief.data.entryId}/`
+  : undefined;
+---
+
+<BaseLayout
+  locale={locale}
+  title={`${title} — ${locale === 'de' ? 'Institutionelle Überzeugungen' : 'Institutional beliefs'}`}
+  description={claim}
+  type="article"
+  alternatePath={alternatePath}
+>
+  <main class="institution-case container">
+    <a class="back-link" href={timelinePath}>← {copy.back}</a>
+
+    <header class="case-head">
+      <p class="eyebrow">{copy.eyebrow} · {belief.data.category}</p>
+      <h1>{title}</h1>
+      <p class="claim">{claim}</p>
+      <p class="episode-count">{copy.episodes(episodes.length)}</p>
+    </header>
+
+    <section class="understanding" aria-labelledby="current-understanding-title">
+      <p class="section-kicker">{copy.current}</p>
+      <h2 id="current-understanding-title">{copy.current}</h2>
+      <p>{currentUnderstanding}</p>
+    </section>
+
+    {impact && (
+      <section class="impact-section" aria-labelledby="impact-title">
+        <p class="section-kicker">{copy.impact}</p>
+        <h2 id="impact-title">{copy.impact}</h2>
+        <p class="impact-summary">{impact.summary}</p>
+
+        {impact.context.length > 0 && (
+          <div class="impact-context">
+            <h3>{copy.impactContext}</h3>
+            <div class="impact-context-copy">
+              {impact.context.map((paragraph: string) => <p>{paragraph}</p>)}
+            </div>
+          </div>
+        )}
+
+        {impact.highlights.length > 0 && (
+          <div class="impact-grid">
+            {impact.highlights.map((highlight: any) => (
+              <article class="impact-highlight">
+                <strong>{highlight.value}</strong>
+                <h3>{highlight.label}</h3>
+                {highlight.note && <p>{highlight.note}</p>}
+              </article>
+            ))}
+          </div>
+        )}
+
+        <p class="impact-caution">{copy.impactCaution}</p>
+      </section>
+    )}
+
+    <section class="episodes-section">
+      {episodes.map((episode: any) => (
+        <article class="episode-detail" id={episode.id}>
+          <header class="episode-detail-head">
+            <div>
+              <p class="section-kicker">{copy.episode}</p>
+              <h2>{episode.polity}</h2>
+            </div>
+            <div class="episode-meta">
+              <span class="period">{episode.period}</span>
+              <span class={`strength strength-${episode.strength}`}>
+                {strengthLabels[episode.strength]}
+              </span>
+            </div>
+          </header>
+
+          <p class="episode-summary">{episode.summary}</p>
+
+          <div class="episode-record">
+            <section class="episode-record-row">
+              <h3>{copy.institutions}</h3>
+              <ul class="institution-list">
+                {episode.institutions.map((institution: string) => (
+                  <li>{institution}</li>
+                ))}
+              </ul>
+            </section>
+
+            <section class="episode-record-row">
+              <h3>{copy.consequences}</h3>
+              <ul class="consequence-list">
+                {episode.consequences.map((consequence: string) => (
+                  <li>{consequence}</li>
+                ))}
+              </ul>
+            </section>
+
+            {episode.institutionalContext && (
+              <section class="episode-record-row institutional-context">
+                <h3>{copy.institutionalContext}</h3>
+                <p>{episode.institutionalContext}</p>
+              </section>
+            )}
+          </div>
+
+          <section class="source-section">
+            <h3>{copy.evidence}</h3>
+            <ul class="source-list">
+              {episode.sources.map((source: any) => (
+                <li>
+                  <a href={source.url} target="_blank" rel="noopener noreferrer">
+                    <strong>{source.title}</strong>
+                  </a>
+                  <span>{source.publisher}</span>
+                  <p>{source.note}</p>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </article>
+      ))}
+    </section>
+
+    {cataloguePath && (
+      <aside class="catalogue-link">
+        <span>{copy.catalogue}</span>
+        <a href={cataloguePath}>{belief.data.entryId} →</a>
+      </aside>
+    )}
+
+    <p class="reviewed">
+      {copy.reviewed}: {belief.data.reviewedAt.toLocaleDateString(locale === 'de' ? 'de-AT' : 'en-GB')}
+    </p>
+  </main>
+</BaseLayout>
+
+<style>
+  .institution-case {
+    max-width: 1040px;
+    padding: 3.5rem 0 5rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-bottom: 2.2rem;
+    color: var(--accent-dark);
+    font-size: 0.9rem;
+    font-weight: 760;
+    text-underline-offset: 0.2em;
+  }
+
+  .case-head {
+    max-width: 900px;
+    padding-bottom: 2.25rem;
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .case-head h1 {
+    margin: 0.25rem 0 1rem;
+    max-width: 900px;
+    font-size: clamp(2.5rem, 7vw, 5rem);
+    line-height: 0.98;
+  }
+
+  .claim {
+    margin: 0;
+    max-width: 820px;
+    font-size: clamp(1.15rem, 2vw, 1.45rem);
+    font-weight: 680;
+    line-height: 1.45;
+  }
+
+  .episode-count {
+    margin: 1rem 0 0;
+    color: var(--muted);
+    font-size: 0.85rem;
+    font-weight: 760;
+  }
+
+  .section-kicker {
+    margin: 0 0 0.35rem;
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 850;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .understanding,
+  .impact-section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid var(--line);
+    border-radius: 0.9rem;
+    background: var(--card);
+  }
+
+  .understanding h2,
+  .impact-section h2 {
+    margin: 0;
+    font-size: 1.35rem;
+  }
+
+  .understanding > p:last-child,
+  .impact-summary {
+    margin: 0.65rem 0 0;
+    max-width: 850px;
+    color: var(--muted);
+    font-size: 1.02rem;
+    line-height: 1.62;
+  }
+
+  .impact-context {
+    margin-top: 1.35rem;
+    padding-top: 1.15rem;
+    display: grid;
+    grid-template-columns: minmax(165px, 0.3fr) minmax(0, 1fr);
+    gap: 1.8rem;
+    align-items: start;
+    border-top: 1px solid var(--line);
+  }
+
+  .impact-context h3 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.35;
+  }
+
+  .impact-context-copy {
+    min-width: 0;
+    max-width: 48rem;
+  }
+
+  .impact-context-copy p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .impact-context-copy p + p {
+    margin-top: 0.9rem;
+  }
+
+  .impact-section {
+    margin-top: 1rem;
+    border-top: 4px solid var(--ink);
+  }
+
+  .impact-grid {
+    margin-top: 1.3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .impact-highlight {
+    min-width: 0;
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 0.7rem;
+    background: color-mix(in srgb, var(--paper) 70%, var(--card));
+  }
+
+  .impact-highlight strong {
+    display: block;
+    font-size: clamp(1.5rem, 4vw, 2.35rem);
+    line-height: 1.05;
+  }
+
+  .impact-highlight h3 {
+    margin: 0.5rem 0 0;
+    font-size: 0.9rem;
+  }
+
+  .impact-highlight p {
+    margin: 0.45rem 0 0;
+    color: var(--muted);
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
+
+  .impact-caution {
+    margin: 1rem 0 0;
+    padding-top: 0.85rem;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-style: italic;
+  }
+
+  .episodes-section {
+    margin-top: 3.5rem;
+  }
+
+  .episode-detail {
+    padding-top: 2.5rem;
+    border-top: 3px solid var(--ink);
+  }
+
+  .episode-detail + .episode-detail {
+    margin-top: 5.5rem;
+    padding-top: 3rem;
+    border-top-width: 4px;
+  }
+
+  .episode-detail-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .episode-detail-head h2 {
+    margin: 0;
+    font-size: clamp(1.9rem, 4vw, 2.8rem);
+  }
+
+  .episode-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.6rem;
+  }
+
+  .period {
+    color: var(--accent-dark);
+    font-weight: 850;
+  }
+
+  .strength {
+    --level-color: #4f5d6b;
+    --level-bg: color-mix(in srgb, var(--level-color) 10%, white);
+    --level-border: color-mix(in srgb, var(--level-color) 58%, var(--line));
+    display: inline-flex;
+    align-items: center;
+    gap: 0.48rem;
+    padding: 0.3rem 0.68rem 0.3rem 0.42rem;
+    border: 1px solid var(--level-border);
+    border-left-width: 4px;
+    border-radius: 0.3rem;
+    color: color-mix(in srgb, var(--level-color) 88%, black);
+    background: var(--level-bg);
+    font-size: 0.72rem;
+    font-weight: 850;
+    letter-spacing: 0.025em;
+  }
+
+  .strength::before {
+    display: grid;
+    place-items: center;
+    min-width: 1.35rem;
+    height: 1.35rem;
+    padding: 0 0.2rem;
+    border: 1px solid color-mix(in srgb, var(--level-color) 68%, black);
+    border-radius: 0.16rem;
+    color: white;
+    background: var(--level-color);
+    font-size: 0.64rem;
+    font-weight: 900;
+    line-height: 1;
+  }
+
+  .strength-institutionally-influential { --level-color: #4f5d6b; }
+  .strength-institutionally-influential::before { content: 'I'; }
+  .strength-officially-endorsed { --level-color: #514a68; }
+  .strength-officially-endorsed::before { content: 'II'; }
+  .strength-policy-basis { --level-color: #655047; }
+  .strength-policy-basis::before { content: 'III'; }
+  .strength-enforced-doctrine { --level-color: #6a2e35; }
+  .strength-enforced-doctrine::before { content: 'IV'; }
+
+  .episode-summary {
+    margin: 1rem 0 0;
+    max-width: 880px;
+    color: var(--muted);
+    font-size: 1.05rem;
+    line-height: 1.62;
+  }
+
+  .episode-record {
+    margin-top: 1.7rem;
+    border-block: 1px solid var(--line);
+  }
+
+  .episode-record-row {
+    display: grid;
+    grid-template-columns: minmax(175px, 0.28fr) minmax(0, 1fr);
+    gap: 1.8rem;
+    align-items: start;
+    padding: 1rem 0;
+  }
+
+  .episode-record-row + .episode-record-row {
+    border-top: 1px solid color-mix(in srgb, var(--line) 78%, transparent);
+  }
+
+  .episode-record-row h3 {
+    margin: 0;
+    color: var(--ink);
+    font-size: 0.74rem;
+    font-weight: 850;
+    letter-spacing: 0.075em;
+    line-height: 1.45;
+    text-transform: uppercase;
+  }
+
+  .institution-list,
+  .consequence-list,
+  .source-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .institution-list,
+  .consequence-list {
+    min-width: 0;
+  }
+
+  .institution-list li,
+  .consequence-list li {
+    position: relative;
+    padding: 0 0 0 1rem;
+    line-height: 1.52;
+  }
+
+  .institution-list li + li,
+  .consequence-list li + li {
+    margin-top: 0.52rem;
+  }
+
+  .institution-list li::before,
+  .consequence-list li::before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: var(--muted);
+  }
+
+  .institutional-context p {
+    margin: 0;
+    max-width: 52rem;
+    color: var(--muted);
+    font-size: 0.92rem;
+    line-height: 1.62;
+  }
+
+  .source-section {
+    margin-top: 1.8rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .source-section h3 {
+    margin: 0 0 0.65rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+  }
+
+  .source-list li {
+    padding: 1rem 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--line) 72%, transparent);
+  }
+
+  .source-list a {
+    color: var(--accent-dark);
+  }
+
+  .source-list span {
+    display: block;
+    margin-top: 0.15rem;
+    color: var(--muted);
+    font-size: 0.83rem;
+  }
+
+  .source-list p {
+    margin: 0.4rem 0 0;
+    max-width: 850px;
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .catalogue-link {
+    margin-top: 3rem;
+    padding: 1.1rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 0.75rem;
+    background: var(--card);
+  }
+
+  .catalogue-link span {
+    color: var(--muted);
+  }
+
+  .catalogue-link a {
+    color: var(--accent-dark);
+    font-weight: 800;
+  }
+
+  .reviewed {
+    margin: 2rem 0 0;
+    color: var(--muted);
+    font-size: 0.82rem;
+  }
+
+  @media (max-width: 760px) {
+    .institution-case {
+      padding-top: 2.5rem;
+    }
+
+    .episode-detail-head {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .episode-meta {
+      align-items: flex-start;
+    }
+
+    .episode-record-row,
+    .impact-context {
+      grid-template-columns: 1fr;
+      gap: 0.55rem;
+    }
+
+    .impact-context-copy,
+    .institutional-context p {
+      max-width: none;
+    }
+
+    .catalogue-link {
+      flex-direction: column;
+    }
+  }
+</style>

@@ -2,30 +2,34 @@ title: Racial whitening
 claim: Increasing European ancestry through immigration and intermarriage was treated as a biological route to “whiten” and improve the nation.
 currentUnderstanding: Human populations do not form a biological hierarchy from inferior to superior races, and increasing ancestry associated with socially defined “whiteness” does not biologically improve a population. Race is a social classification that only imperfectly tracks patterns of genetic ancestry.
 category: Race and demography
-reviewedAt: 2026-08-22
+reviewedAt: 2026-08-23
 episodes:
   - id: brazil-1890-1930
     polity: Brazil
     region: Latin America
     startYear: 1890
     endYear: 1930
-    periodLabel: 1890–1930
     strength: policy-basis
     institutionTypes: [government]
     institutions:
-      - Federal government of the First Brazilian Republic
-      - Federal and state immigration administrations
+      - Ministério da Agricultura, Comércio e Obras Públicas
+      - Directoria Geral do Serviço de Povoamento
+    institutionalContext: The First Republic did not operate a single agency called a “whitening office.” Federal immigration and colonization policy moved through named ministries and, from 1907, the Directoria Geral do Serviço de Povoamento, the central office charged with federally promoted immigration and settlement. The 1890 immigration decree also assigned enforcement roles to Brazilian diplomatic and consular agents and port police; those distributed functions are described here rather than being presented as invented institution names.
     consequences:
-      - Subsidized European immigration
-      - Restrictions on African and Asian immigration
-      - Racialized population policy
-    summary: During the First Brazilian Republic, influential racial theory held that European immigration and interracial marriage could make Brazil progressively whiter. Immigration policy subsidized Europeans while the 1890 framework restricted immigration from Africa and Asia, giving the whitening project concrete institutional form.
+      - Federal subsidies and administrative machinery favoring European immigration
+      - Formal restrictions on immigrants from Africa and Asia in the 1890 framework
+      - Population policy shaped by racialized ideas of national improvement
+    summary: During the First Brazilian Republic, influential racial theory held that European immigration and interracial marriage could make Brazil progressively whiter. Federal immigration rules and settlement programs supplied concrete machinery for attracting and subsidizing selected immigrants, while the 1890 framework restricted entry from Africa and Asia.
     sources:
       - title: Racial Whitening as a Global “Innovation” — Race in the First Brazilian Republic, 1889–1930
         url: https://www.cambridge.org/core/journals/du-bois-review-social-science-research-on-race/article/racial-whitening-as-a-global-innovation/2675EBB583BEE2C057ED301018F153D2
         publisher: Du Bois Review
         note: Argues that racial whitening had wide political resonance in the First Republic and oriented discriminatory immigration structures intended to reshape the national population.
-      - title: Pursuing Racial Order and Social Progress — Violence, Afrophobia and “Religious Racism” in Brazil
-        url: https://www.cambridge.org/core/journals/latin-american-research-review/article/pursuing-racial-order-and-social-progress-violence-afrophobia-and-religious-racism-in-brazil/A36688155381AE52A05987C590F8ED69
-        publisher: Latin American Research Review
-        note: Describes the 1890 restriction on African and Asian immigration alongside aggressive encouragement and subsidization of European immigration.
+      - title: Decreto nº 528, de 28 de Junho de 1890
+        url: https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-528-28-junho-1890-506935-publicacaooriginal-1-pe.html
+        publisher: Câmara dos Deputados
+        note: Primary federal decree regulating immigration; restricted entry of Indigenous people from Asia or Africa without congressional authorization and subsidized eligible immigrant passages.
+      - title: Decreto nº 6.479, de 16 de Maio de 1907
+        url: https://www2.camara.leg.br/legin/fed/decret/1900-1909/decreto-6479-16-maio-1907-527639-publicacaooriginal-1-pe.html
+        publisher: Câmara dos Deputados
+        note: Creates the Directoria Geral do Serviço de Povoamento as the central federal office for immigration and colonization work promoted or subsidized by the federal government.

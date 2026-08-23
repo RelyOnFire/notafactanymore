@@ -1,58 +1,93 @@
 title: Martial races
-claim: Some South Asian communities were treated as possessing innate racial or hereditary qualities that made them naturally better soldiers than others.
-currentUnderstanding: Military performance is not an inherited racial, ethnic, or caste trait. Training, selection, nutrition, organization, experience, incentives, technology, and social conditions all shape military effectiveness, while broad ancestry groups do not establish an innate capacity for soldiering.
+claim: Some South Asian communities were treated as possessing innate racial or hereditary qualities that made them
+  naturally better soldiers than others.
+currentUnderstanding: Military performance is not an inherited racial, ethnic, or caste trait. Training, selection,
+  nutrition, organization, experience, incentives, technology, and social conditions all shape military effectiveness,
+  while broad ancestry groups do not establish an innate capacity for soldiering.
 category: Military anthropology
-reviewedAt: 2026-08-22
+reviewedAt: 2026-08-23
 episodes:
-  - id: british-india-1880-1947
-    polity: British India
-    region: South Asia
-    startYear: 1880
-    endYear: 1947
-    periodLabel: 1880s–1947
-    strength: policy-basis
-    institutionTypes: [government, military]
-    institutions:
-      - British Indian Army
-      - Government of India military administration
-      - Regimental recruitment system
-    consequences:
-      - Selective military recruitment
-      - Unequal access to military employment
-      - Racialized classification of communities
-    summary: From the late nineteenth century, British Indian Army recruitment increasingly favored communities classified as “martial,” including Sikhs, Gurkhas, and some Punjabi Muslim and frontier groups. Racialized assumptions about courage, masculinity, climate, caste, and heredity became part of the practical machinery of recruitment.
-    sources:
-      - title: Race and Recruitment in the Indian Army — 1880–1918
-        url: https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/race-and-recruitment-in-the-indian-army-18801918/054587B97D07557F48A4CEAC7553D0AC
-        publisher: Modern Asian Studies
-        note: Finds that martial-race theory shaped Indian Army recruitment policy from the late nineteenth century and remained operational, with modifications, during the early twentieth century.
-      - title: Recruiting the “martial races” — identities and military service in colonial India
-        url: https://www.tandfonline.com/doi/full/10.1080/0031322X.2012.701495
-        publisher: Patterns of Prejudice
-        note: Reviews the racialization of colonial military recruitment and the belief that selected communities possessed qualities necessary for military service.
-  - id: pakistan-1947-1971
-    polity: Pakistan
-    region: South Asia
-    startYear: 1947
-    endYear: 1971
-    periodLabel: 1947–1971
-    strength: policy-basis
-    institutionTypes: [government, military]
-    institutions:
-      - Pakistan Army
-      - Pakistan defence establishment
-      - Military recruitment and training system
-    consequences:
-      - Severe under-representation of Bengalis in the armed forces
-      - Regional concentration of recruitment in Punjab and the northwest
-      - Political grievance in East Pakistan
-    summary: After independence, Pakistan formally moved away from British racial terminology but inherited a military recruitment system built around “martial” populations. Senior officers continued to regard Bengalis as poor military material, and recruitment from East Pakistan expanded only slowly. Bengalis remained sharply under-represented in the Army through the 1960s, making the colonial martial-race legacy part of a wider pattern of institutional imbalance between East and West Pakistan.
-    sources:
-      - title: Bengali Representation in Pakistan Defence Forces (1947–1971) — A Revisit
-        url: https://www.biiss.org/article/bengali-representation-in-pakistan-defence-forces-1947-1971-a-revisit
-        publisher: BIISS Journal
-        note: Historical and statistical study arguing that Pakistan's military perpetuated colonial martial-race assumptions to justify low Bengali recruitment.
-      - title: Colonial Military Service and Identity Formation — A Case Study of British India
-        url: https://academic.oup.com/edited-volume/63111/chapter-abstract/567592865
-        publisher: Oxford University Press
-        note: Reviews colonial martial-race recruitment and notes its continuing influence on the postcolonial armies of India and Pakistan.
+- id: british-india-1880-1947
+  polity: British India
+  region: South Asia
+  startYear: 1880
+  endYear: 1947
+  periodLabel: 1880s–1947
+  strength: policy-basis
+  institutionTypes:
+  - government
+  - military
+  institutions:
+  - British Indian Army
+  - Army Headquarters, India
+  - Adjutant-General’s Branch, Recruiting Directorate
+  consequences:
+  - Selective military recruitment
+  - Unequal access to military employment
+  - Racialized classification of communities
+  summary: 'From the late nineteenth century, British Indian Army recruitment increasingly favored communities classified
+    as “martial,” including Sikhs, Gurkhas, and some Punjabi Muslim and frontier groups. This was not merely a diffuse
+    colonial stereotype: Army recruitment policy and its administrative machinery classified communities by supposed
+    inherited or environmentally fixed soldierly qualities, concentrating recruitment in selected regions and groups.'
+  sources:
+  - title: Race and Recruitment in the Indian Army — 1880–1918
+    url: https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/race-and-recruitment-in-the-indian-army-18801918/054587B97D07557F48A4CEAC7553D0AC
+    publisher: Modern Asian Studies
+    note: Finds that martial-race theory shaped Indian Army recruitment policy from the late nineteenth century
+      and remained operational, with modifications, during the early twentieth century; it also describes the Adjutant-General's
+      Department taking centralized control of wartime recruitment.
+  - title: Recruiting in India, before and during the war of 1914–18
+    url: https://searcharchives.bl.uk/?q=038-000794813&sort=hierarchy
+    publisher: Army Headquarters, India / British Library India Office Records
+    note: Catalogue record for the 1919 Army Headquarters report, shelfmark IOR/L/MIL/17/5/2152, documenting the
+      official recruitment machinery and class-based recruitment system.
+  - title: Recruiting the “martial races” — identities and military service in colonial India
+    url: https://www.tandfonline.com/doi/full/10.1080/0031322X.2012.701495
+    publisher: Patterns of Prejudice
+    note: Reviews the racialization of colonial military recruitment and the belief that selected communities possessed
+      qualities necessary for military service.
+  institutionalContext: Recruiting policy was centralized through Army Headquarters and the Adjutant-General’s recruiting
+    machinery, then implemented by regimental and regional recruiting organizations. The named bodies are the central
+    institutional carriers; the wider recruiting apparatus is described here rather than listed as a vague institution.
+- id: pakistan-1947-1971
+  polity: Pakistan
+  region: South Asia
+  startYear: 1947
+  endYear: 1971
+  periodLabel: 1947–1971
+  strength: policy-basis
+  institutionTypes:
+  - government
+  - military
+  institutions:
+  - Pakistan Army
+  - General Headquarters (GHQ), Pakistan Army
+  consequences:
+  - Severe under-representation of Bengalis in the armed forces
+  - Regional concentration of recruitment in Punjab and the northwest
+  - Political grievance in East Pakistan
+  summary: After independence, Pakistan formally moved away from British racial terminology but inherited an army
+    whose recruitment geography and class composition had been built around the colonial “martial races” system.
+    Senior officers continued to regard Bengalis as poor military material, and recruitment from East Pakistan expanded
+    only slowly. Bengalis remained sharply under-represented through the 1960s, making the inherited doctrine part
+    of a wider institutional imbalance between East and West Pakistan.
+  sources:
+  - title: Bengali Representation in Pakistan Defence Forces (1947–1971) — A Revisit
+    url: https://www.biiss.org/article/bengali-representation-in-pakistan-defence-forces-1947-1971-a-revisit
+    publisher: BIISS Journal
+    note: Historical and statistical study arguing that Pakistan's military perpetuated colonial martial-race assumptions
+      to justify low Bengali recruitment.
+  - title: The Foundations of Pakistan’s Strategic Culture — The British, Martial Race, and Its Influence on Pakistani
+      Strategic Culture
+    url: https://www.usmcu.edu/Outreach/Marine-Corps-University-Press/MCU-Journal/Journal-of-Advanced-Military-Studies-SI-2022/The-Foundations-of-Pakistans-Strategic-Culture/
+    publisher: Marine Corps University Press
+    note: Describes the continuation of class-composition preferences in the early Pakistan Army and the influence
+      of British officers, including Commander-in-Chief Douglas Gracey, on inherited martial-race assumptions.
+  - title: Colonial Military Service and Identity Formation — A Case Study of British India
+    url: https://academic.oup.com/edited-volume/63111/chapter-abstract/567592865
+    publisher: Oxford University Press
+    note: Reviews colonial martial-race recruitment and notes its continuing influence on the postcolonial armies
+      of India and Pakistan.
+  institutionalContext: After 1947, the Pakistan Army inherited much of the British Indian Army’s regimental and
+    recruiting structure. General Headquarters shaped force composition while regimental recruitment reproduced
+    preferences for Punjabis and Pashtuns associated with the older martial-race framework.

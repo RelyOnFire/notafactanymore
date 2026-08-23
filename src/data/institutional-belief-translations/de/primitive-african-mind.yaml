@@ -1,21 +1,29 @@
 locale: de
 entryId: primitive-african-mind
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: 2026-08-23
 title: Der „primitive afrikanische Geist“
 claim: Koloniale Psychiatrie behandelte Afrikaner als psychisch „primitiv“ – stärker von Instinkt oder „magischem“ Denken und weniger von höherem Denkvermögen geprägt als Europäer.
 currentUnderstanding: Einen wissenschaftlich gültigen einheitlichen „afrikanischen Geist“ gibt es nicht, und Abstammung ordnet Bevölkerungen nicht auf einer Hierarchie kognitiver Entwicklung ein. Kognition und psychische Gesundheit unterscheiden sich zwischen Individuen und werden von Biologie, Entwicklung, Kultur, Umwelt, Bildung und sozialen Bedingungen geprägt.
 episodes:
   - id: french-algeria-1918-1953
     polity: Französisch-Algerien
-    summary: Antoine Porot und die einflussreiche Schule von Algier beschrieben Nordafrikaner als Menschen mit „primitiver“ Gehirnentwicklung, schwachen höheren kortikalen Funktionen und weitgehend instinktgesteuertem Verhalten. Solche Vorstellungen flossen in Lehre und klinische Deutung der kolonialen Psychiatrie in Französisch-Nordafrika ein.
+    institutions:
+      - Faculté de médecine d'Alger
+      - Hôpital psychiatrique de Blida-Joinville
+    institutionalContext: Die „École d'Alger“ war eher ein intellektuelles und professionelles Netzwerk um Antoine Porot als eine einzelne Behörde. Institutionelles Gewicht erhielt sie durch die medizinische Fakultät der Universität Algier, die psychiatrische Ausbildung und das Krankenhaus Blida-Joinville, wo der Deutungsrahmen Lehre und klinische Praxis prägte.
+    summary: Antoine Porot und die einflussreiche Schule von Algier beschrieben Nordafrikaner als Menschen mit „primitiver“ Gehirnentwicklung, schwachen höheren kortikalen Funktionen und weitgehend instinktgesteuertem Verhalten. Über konkrete universitäre und klinische Einrichtungen flossen solche Vorstellungen in psychiatrische Lehre und Praxis in Französisch-Nordafrika ein.
     consequences:
-      - Rassifizierte psychiatrische Theorie
-      - Klinische Deutung nordafrikanischer Patienten
-      - Psychiatrische Ausbildung
+      - Rassifizierte psychiatrische Lehre und Theorie
+      - Klinische Deutung nordafrikanischer Patienten durch eine Rassenhierarchie
+      - Ausbildung kolonialpsychiatrischen Personals in einem primitivistischen Deutungsrahmen
   - id: british-kenya-1954-1959
     polity: Britisch-Kenia
-    summary: 1954 beauftragte die kenianische Kolonialregierung den Psychiater J. C. Carothers mit einer psychologischen Erklärung der Mau-Mau-Bewegung. Sein Bericht stellte die Kikuyu als zwischen „primitiven“ Denkformen und destabilisierender Modernisierung gefangen dar; Kolonialbeamte griffen dieses ethnopsychiatrische Deutungsmuster später bei Internierungs- und „Rehabilitations“-Programmen auf.
+    institutions:
+      - Department of Community Development and Rehabilitation, Colony and Protectorate of Kenya
+      - Office of the Commissioner for Community Development and Rehabilitation
+    institutionalContext: Die kenianische Kolonialregierung beauftragte J. C. Carothers 1954; die konkrete Umsetzung lag jedoch bei spezifischeren Stellen. Das Department of Community Development and Rehabilitation und der zuständige Commissioner organisierten das Rehabilitationssystem für Internierte und Verurteilte. Carothers' psychologischer Deutungsrahmen half dabei, Eidbindungen, „Deconditioning“ und Umerziehung institutionell zu erklären.
+    summary: 1954 beauftragte die kenianische Kolonialregierung den Psychiater J. C. Carothers mit einer psychologischen Erklärung der Mau-Mau-Bewegung. Sein Bericht stellte die Kikuyu als zwischen „primitiven“ Denkformen und destabilisierender Modernisierung gefangen dar; die für Community Development und Rehabilitation zuständigen Stellen griffen verwandte Annahmen beim Aufbau von Internierungs- und Umerziehungsprogrammen auf.
     consequences:
-      - Deutung der Aufstandsbekämpfung
-      - Internierungs- und „Rehabilitations“-Politik
-      - Rassifizierte psychiatrische Deutung von Widerstand
+      - Psychiatrische Deutung von Mau Mau als Fehlanpassung statt vorwiegend politischem Konflikt
+      - Ethnopsychologische Theorie als Bestandteil von Internierungs- und Rehabilitationspolitik
+      - Institutionelle Verstärkung rassifizierter Erklärungen afrikanischen politischen Verhaltens

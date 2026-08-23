@@ -172,6 +172,18 @@ const institutionalSource = z.object({
   note: z.string(),
 });
 
+const institutionalImpactHighlight = z.object({
+  value: z.union([z.string().min(1), z.number()]).transform(String),
+  label: z.string().min(1),
+  note: z.string().min(1).optional(),
+});
+
+const institutionalImpact = z.object({
+  summary: z.string().min(1),
+  context: z.array(z.string().min(1)).optional().default([]),
+  highlights: z.array(institutionalImpactHighlight).optional().default([]),
+});
+
 const institutionalEpisode = z.object({
   id: mediaId,
   polity: z.string().min(1),
@@ -182,6 +194,7 @@ const institutionalEpisode = z.object({
   strength: institutionalStrength,
   institutionTypes: z.array(institutionalType).min(1),
   institutions: z.array(z.string().min(1)).min(1),
+  institutionalContext: z.string().min(1).optional(),
   consequences: z.array(z.string().min(1)).min(1),
   summary: z.string().min(1),
   sources: z.array(institutionalSource).min(1),
@@ -199,8 +212,15 @@ const institutionalBeliefs = defineCollection({
     category: z.string().min(1),
     entryId: z.string().min(1).optional(),
     reviewedAt: z.coerce.date(),
+    impact: institutionalImpact.optional(),
     episodes: z.array(institutionalEpisode).min(1),
   }),
+});
+
+const translatedInstitutionalImpactHighlight = z.object({
+  value: z.union([z.string().min(1), z.number()]).transform(String),
+  label: z.string().min(1),
+  note: z.string().min(1).optional(),
 });
 
 const institutionalBeliefTranslations = defineCollection({
@@ -212,10 +232,17 @@ const institutionalBeliefTranslations = defineCollection({
     title: z.string().min(1),
     claim: z.string().min(1),
     currentUnderstanding: z.string().min(1),
+    impact: z.object({
+      summary: z.string().min(1),
+      context: z.array(z.string().min(1)).optional().default([]),
+      highlights: z.array(translatedInstitutionalImpactHighlight).optional().default([]),
+    }).optional(),
     episodes: z.array(
       z.object({
         id: mediaId,
         polity: z.string().min(1),
+              institutions: z.array(z.string().min(1)).min(1).optional(),
+        institutionalContext: z.string().min(1).optional(),
         summary: z.string().min(1),
         consequences: z.array(z.string().min(1)).min(1),
       }),

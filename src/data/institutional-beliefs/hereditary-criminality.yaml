@@ -1,32 +1,59 @@
 title: Hereditary criminality
 claim: Membership in certain castes or tribes was treated as evidence of a hereditary disposition to crime.
-currentUnderstanding: Criminal behavior is not an inherited property of a caste, tribe, or ethnic community. Crime is shaped by individual circumstances, institutions, opportunity, social conditions, and many other factors; collective ancestry does not establish criminal propensity.
+currentUnderstanding: Criminal behavior is not an inherited property of a caste, tribe, or ethnic community. Crime
+  is shaped by individual circumstances, institutions, opportunity, social conditions, and many other factors; collective
+  ancestry does not establish criminal propensity.
 category: Criminology and anthropology
-reviewedAt: 2026-08-22
+reviewedAt: 2026-08-23
 episodes:
-  - id: british-india-1871-1947
-    polity: British India
-    region: South Asia
-    startYear: 1871
-    endYear: 1947
-    periodLabel: 1871–1947
-    strength: enforced-doctrine
-    institutionTypes: [government, court]
-    institutions:
-      - Government of India
-      - Provincial administrations and police
-      - Criminal Tribes settlements
-    consequences:
-      - Collective registration and surveillance
-      - Restrictions on movement
-      - Forced settlement and “reclamation”
-    summary: The Criminal Tribes Acts allowed colonial authorities to notify entire communities as groups whose criminality was treated as hereditary. People could be registered, watched, restricted in their movement, and confined or resettled because of group membership rather than an individual criminal conviction.
-    sources:
-      - title: State and Criminal Tribes in Colonial Punjab — Surveillance, Control and Reclamation of the “Dangerous Classes”
-        url: https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/state-and-criminal-tribes-in-colonial-punjab-surveillance-control-and-reclamation-of-the-dangerous-classes/5156F74993B1B1BDE0187A004B445AAD
-        publisher: Modern Asian Studies
-        note: Describes roughly 150,000 Punjabis notified under the Criminal Tribes Act as members of tribes and castes whose hereditary occupation was deemed to be crime.
-      - title: The Moghia Menace, or the Watch Over Watchmen In British India
-        url: https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/moghia-menace-or-the-watch-over-watchmen-in-british-india/6725830A5EAF6DD17E566627E020FF19
-        publisher: Modern Asian Studies
-        note: Examines the colonial classification of Moghias as hereditary professional robbers and its connection to the first Criminal Tribes Act of 1871.
+- id: british-india-1871-1947
+  polity: British India
+  region: South Asia
+  startYear: 1871
+  endYear: 1947
+  periodLabel: 1871–1947
+  strength: enforced-doctrine
+  institutionTypes:
+  - government
+  - court
+  institutions:
+  - Governor-General of India in Council
+  - Punjab Criminal Tribes Department
+  - District Magistrates
+  - District Superintendents of Police
+  consequences:
+  - Collective registration and surveillance
+  - Restrictions on movement
+  - Forced settlement and “reclamation”
+  summary: 'The Criminal Tribes Acts allowed colonial authorities to notify entire communities as groups whose criminality
+    was treated as hereditary. The statutory machinery was explicit: provincial “Local Governments” proposed or
+    administered notifications, district magistrates maintained registers and movement controls, police enforced
+    them, and in Punjab a dedicated Criminal Tribes Department supervised the system. People could be registered,
+    watched, restricted in movement, and confined or resettled because of group membership rather than an individual
+    criminal conviction.'
+  sources:
+  - title: Criminal Tribes Act, 1871
+    url: https://www.indiacode.nic.in/repealedfileopen?rfilename=A1871-27.pdf
+    publisher: India Code / Government of India
+    note: Primary statutory text naming the Governor-General in Council, Local Governments, magistrates, District
+      Superintendents of Police, registration, movement restrictions, settlement powers, and police enforcement.
+  - title: State and Criminal Tribes in Colonial Punjab — Surveillance, Control and Reclamation of the “Dangerous
+      Classes”
+    url: https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/state-and-criminal-tribes-in-colonial-punjab-surveillance-control-and-reclamation-of-the-dangerous-classes/5156F74993B1B1BDE0187A004B445AAD
+    publisher: Modern Asian Studies
+    note: Describes roughly 150,000 Punjabis notified under the Criminal Tribes Act as members of tribes and castes
+      whose hereditary occupation was deemed to be crime.
+  - title: The Criminal Tribe in India before 1947
+    url: https://etheses.whiterose.ac.uk/id/eprint/22408/1/Gandee_SE_History_PhD_2018.pdf
+    publisher: University of Leeds
+    note: Reconstructs the implementing administration, including Punjab's Deputy Commissioner for Criminal Tribes,
+      the Criminal Tribes Department, settlement staff, and police officers who operationalized the category.
+  - title: The Moghia Menace, or the Watch Over Watchmen In British India
+    url: https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/moghia-menace-or-the-watch-over-watchmen-in-british-india/6725830A5EAF6DD17E566627E020FF19
+    publisher: Modern Asian Studies
+    note: Examines the colonial classification of Moghias as hereditary professional robbers and its connection
+      to the first Criminal Tribes Act of 1871.
+  institutionalContext: The Criminal Tribes Acts delegated implementation to provincial 'Local Governments' and
+    district officials. Registration, surveillance, settlement restrictions and enforcement therefore operated through
+    a distributed colonial administrative and police system; Punjab later maintained a dedicated Criminal Tribes
+    Department.

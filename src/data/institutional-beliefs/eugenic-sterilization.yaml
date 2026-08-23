@@ -1,136 +1,215 @@
 title: Eugenic sterilization
-claim: Disability, mental illness, and social “unfitness” were often treated as sufficiently hereditary that preventing selected people from reproducing would improve the population.
-currentUnderstanding: Human traits arise from complex interactions among many genes, development, environment, culture, and social conditions. Many categories targeted by eugenic programs were not simple hereditary traits at all, and coercive sterilization violated bodily autonomy and human rights.
+claim: Disability, mental illness, and social “unfitness” were often treated as sufficiently hereditary that preventing
+  selected people from reproducing would improve the population.
+currentUnderstanding: Human traits arise from complex interactions among many genes, development, environment, culture,
+  and social conditions. Many categories targeted by eugenic programs were not simple hereditary traits at all,
+  and coercive sterilization violated bodily autonomy and human rights.
 category: Genetics and medicine
-reviewedAt: 2026-08-22
+reviewedAt: 2026-08-23
 episodes:
-  - id: united-states-1907-1974
-    polity: United States
-    region: North America
-    startYear: 1907
-    endYear: 1974
-    periodLabel: 1907–mid-1970s
-    strength: policy-basis
-    institutionTypes: [government, court, medical]
-    institutions:
-      - State legislatures and state institutions
-      - U.S. Supreme Court
-      - State medical and mental-health systems
-    consequences:
-      - Compulsory sterilization
-      - Disability policy
-      - Reproductive rights
-    summary: Thirty-two states enacted eugenic sterilization laws, beginning with Indiana in 1907. State institutions sterilized tens of thousands of people deemed “unfit,” and the U.S. Supreme Court upheld Virginia's law in Buck v. Bell in 1927.
-    sources:
-      - title: Eugenics and Involuntary Sterilization, 1907–2015
-        url: https://pubmed.ncbi.nlm.nih.gov/26322647/
-        publisher: Annual Review of Genomics and Human Genetics
-        note: Reviews U.S. sterilization laws, Buck v. Bell, and the roughly 60,000 people sterilized under eugenic programs.
-      - title: Demographic Patterns of Eugenic Sterilization in Five U.S. States
-        url: https://reporter.nih.gov/project-details/10463757
-        publisher: National Institutes of Health
-        note: NIH project summary describing state eugenic laws from 1907 into the 1970s and their discriminatory implementation.
-  - id: germany-1933-1945
-    polity: Nazi Germany
-    region: Europe
-    startYear: 1933
-    endYear: 1945
-    periodLabel: 1933–1945
-    strength: enforced-doctrine
-    institutionTypes: [government, court, medical]
-    institutions:
-      - Reich government
-      - Hereditary Health Courts
-      - German medical system
-    consequences:
-      - Forced sterilization
-      - Racial policy
-      - Disability persecution
-    summary: The 1933 Law for the Prevention of Hereditarily Diseased Offspring made eugenic judgments part of state law. Hereditary Health Courts authorized hundreds of thousands of compulsory sterilizations, embedding racial-hygiene ideas in medicine and administration.
-    sources:
-      - title: Laws and Decrees — Sterilization Law
-        url: https://www.ushmm.org/m/pdfs/2019Laws_and_Decrees.pdf
-        publisher: United States Holocaust Memorial Museum
-        note: Documents the July 1933 sterilization law and its use against people classified as having hereditary physical or mental conditions.
-      - title: Eugenics and Involuntary Sterilization, 1907–2015
-        url: https://pubmed.ncbi.nlm.nih.gov/26322647/
-        publisher: Annual Review of Genomics and Human Genetics
-        note: Summarizes the scale of compulsory sterilization under German Hereditary Health Courts.
-  - id: sweden-1935-1975
-    polity: Sweden
-    region: Europe
-    startYear: 1935
-    endYear: 1975
-    periodLabel: 1935–1975
-    strength: policy-basis
-    institutionTypes: [government, medical]
-    institutions:
-      - Swedish state
-      - Board of Health
-      - Medical and social-welfare institutions
-    consequences:
-      - Involuntary sterilization
-      - Disability policy
-      - Social welfare
-    summary: Swedish sterilization laws operated from 1935 to 1975. A later historical review estimated that roughly 32,000 sterilizations in that period were involuntary, reflecting eugenic and social-policy judgments about who should reproduce.
-    sources:
-      - title: "Legalised non-consensual sterilisation — eugenics put into practice before 1945, and the aftermath. Part 2: Europe"
-        url: https://pubmed.ncbi.nlm.nih.gov/29671357/
-        publisher: PubMed
-        note: Reviews European sterilization laws and estimates about 32,000 involuntary sterilizations in Sweden from 1935 to 1975.
-      - title: Compulsory sterilisation in Sweden
-        url: https://pubmed.ncbi.nlm.nih.gov/11656691/
-        publisher: Bioethics
-        note: Historical and ethical review of Sweden's compulsory sterilization policy from 1935 to 1975.
-  - id: japan-1948-1996
-    polity: Japan
-    region: East Asia
-    startYear: 1948
-    endYear: 1996
-    periodLabel: 1948–1996
-    strength: policy-basis
-    institutionTypes: [government, medical]
-    institutions:
-      - Ministry of Health and Welfare
-      - Prefectural Eugenic Protection review boards
-      - Public-health and medical institutions
-    consequences:
-      - Compulsory sterilization
-      - Disability policy
-      - Reproductive rights
-    summary: Japan's 1948 Eugenic Protection Act explicitly aimed to prevent births considered eugenically undesirable and authorized compulsory sterilization for specified conditions. The eugenic provisions remained until the law was revised in 1996.
-    sources:
-      - title: Japan turns pro-life — recent change in reproductive health policy and challenges by new technologies
-        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3952537/
-        publisher: Reproductive Health
-        note: Reviews the 1948 Eugenic Protection Act, its stated eugenic purpose, compulsory sterilizations, and the 1996 revision.
-      - title: Measures concerning the implementation of amendments to the Eugenic Protection Act
-        url: https://www.mhlw.go.jp/web/t_doc?dataId=00ta9683&dataType=1&pageNo=1
-        publisher: Japan Ministry of Health, Labour and Welfare
-        note: 1952 ministry circular documenting implementation and expansion of sterilization provisions under the law.
-  - id: czechoslovakia-1972-1989
-    polity: Czechoslovakia
-    region: Eastern Europe
-    startYear: 1972
-    endYear: 1989
-    periodLabel: 1972–1989
-    strength: policy-basis
-    institutionTypes: [government, medical]
-    institutions:
-      - Czechoslovak health administration
-      - Local medical institutions
-      - Social-welfare authorities
-    consequences:
-      - Coercive sterilization of Romani women
-      - Reproductive discrimination
-      - Racialized social policy
-    summary: Czechoslovak sterilization rules were formally ethnicity-neutral, but doctors and social workers disproportionately and coercively applied them to Romani women. Dissidents documented administrative programs targeting Roma by the late 1970s, while later scholarship traces the practice to institutional continuities between eugenics, medical genetics, and state social policy.
-    sources:
-      - title: The Forced Sterilization of Roma Women between the 1970s and the 1980s — The Rise of Eugenic Socialism
-        url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FBBFB9B019376D944CFD499875342619/9789048544059c6_p177-202_CBO.pdf/the-forced-sterilization-of-roma-women-between-the-1970s-and-the-1980s-the-rise-of-eugenic-socialism.pdf
-        publisher: Amsterdam University Press / Cambridge Core
-        note: Examines the transfer from eugenics to medical genetics and the enforced sterilization of Roma women in socialist Czechoslovakia.
-      - title: “We Won't Ban Castrating Pervs Despite What Europe Might Think!” — Czech Medical Sexology and the Practice of Therapeutic Castration
-        url: https://www.cambridge.org/core/journals/medical-history/article/we-wont-ban-castrating-pervs-despite-what-europe-might-think-czech-medical-sexology-and-the-practice-of-therapeutic-castration/33F2D0706DFACCEB04DC35D11AEA9655
-        publisher: Medical History
-        note: Notes that sterilization was specified by a 1972 health directive and that ethnicity-neutral rules were coercively and disproportionately applied to Roma women.
+- id: united-states-1907-1974
+  polity: United States
+  region: North America
+  startYear: 1907
+  endYear: 1974
+  periodLabel: 1907–mid-1970s
+  strength: policy-basis
+  institutionTypes:
+  - government
+  - court
+  - medical
+  institutions:
+  - Virginia General Assembly
+  - Virginia State Colony for Epileptics and Feeble-Minded
+  - Supreme Court of the United States
+  consequences:
+  - Compulsory sterilization
+  - Disability policy
+  - Reproductive rights
+  summary: Thirty-two states enacted eugenic sterilization laws, beginning with Indiana in 1907. State institutions
+    sterilized tens of thousands of people deemed “unfit,” and the U.S. Supreme Court upheld Virginia's law in Buck
+    v. Bell in 1927.
+  sources:
+  - title: Eugenics and Involuntary Sterilization, 1907–2015
+    url: https://pubmed.ncbi.nlm.nih.gov/26322647/
+    publisher: Annual Review of Genomics and Human Genetics
+    note: Reviews U.S. sterilization laws, Buck v. Bell, and the roughly 60,000 people sterilized under eugenic
+      programs.
+  - title: Demographic Patterns of Eugenic Sterilization in Five U.S. States
+    url: https://reporter.nih.gov/project-details/10463757
+    publisher: National Institutes of Health
+    note: NIH project summary describing state eugenic laws from 1907 into the 1970s and their discriminatory implementation.
+  - title: Buck v. Bell — Library of Virginia document context
+    url: https://www.lva.virginia.gov/collections/educator-resources/dbva/items/show/227
+    publisher: Library of Virginia
+    note: Identifies the Virginia State Colony for Epileptics and Feeble-Minded, Virginia’s 1924 sterilization law,
+      the Buck v. Bell test case, and the subsequent national spread of compulsory sterilization laws.
+  institutionalContext: 'The United States had no single federal sterilization authority: eugenic sterilization
+    was enacted and administered state by state. The named Virginia bodies show the institutional chain that produced
+    the nationally influential Buck v. Bell precedent; comparable statutes and state hospitals or custodial institutions
+    operated across dozens of states.'
+- id: germany-1933-1945
+  polity: Nazi Germany
+  region: Europe
+  startYear: 1933
+  endYear: 1945
+  periodLabel: 1933–1945
+  strength: enforced-doctrine
+  institutionTypes:
+  - government
+  - court
+  - medical
+  institutions:
+  - Reichsministerium des Innern
+  - Erbgesundheitsgerichte
+  - Erbgesundheitsobergerichte
+  - Gesundheitsämter und Amtsärzte
+  consequences:
+  - Forced sterilization
+  - Racial-hygiene administration
+  - Disability persecution
+  summary: The 1933 Gesetz zur Verhütung erbkranken Nachwuchses made eugenic judgments part of state law. The Reichsministerium
+    des Innern shaped implementation; Gesundheitsämter and Amtsärzte identified and brought cases into the system;
+    Erbgesundheitsgerichte ordered sterilizations; and Erbgesundheitsobergerichte handled appeals. Hundreds of thousands
+    of people were compulsorily sterilized through this administrative, medical, and judicial machinery.
+  sources:
+  - title: Laws and Decrees — Sterilization Law
+    url: https://www.ushmm.org/m/pdfs/2019Laws_and_Decrees.pdf
+    publisher: United States Holocaust Memorial Museum
+    note: Documents the July 1933 sterilization law and its use against people classified as having hereditary physical
+      or mental conditions.
+  - title: Erbgesundheitsgerichte im Regierungsbezirk Magdeburg, 1934–1946 — Bestand C 136 I
+    url: https://recherche.landesarchiv.sachsen-anhalt.de/Query/detail.aspx?ID=1156663
+    publisher: Landesarchiv Sachsen-Anhalt
+    note: Official archival description identifies the Erbgesundheitsgerichte, Erbgesundheitsobergerichte, Amtsärzte
+      and Gesundheitsämter in the statutory enforcement machinery and records implementing instructions from the
+      Reichsminister des Innern.
+  - title: Eugenics and Involuntary Sterilization, 1907–2015
+    url: https://pubmed.ncbi.nlm.nih.gov/26322647/
+    publisher: Annual Review of Genomics and Human Genetics
+    note: Summarizes the scale of compulsory sterilization under German Erbgesundheitsgerichte.
+  institutionalContext: The Reichsministerium des Innern issued implementing direction. Gesundheitsämter and Amtsärzte
+    initiated and documented cases; Erbgesundheitsgerichte made sterilization orders; Erbgesundheitsobergerichte
+    heard appeals. Hospitals and physicians then carried out the operations. The generic medical and administrative
+    system is therefore described as machinery, while the institution list preserves the formal German bodies.
+- id: sweden-1935-1975
+  polity: Sweden
+  region: Europe
+  startYear: 1935
+  endYear: 1975
+  periodLabel: 1935–1975
+  strength: policy-basis
+  institutionTypes:
+  - government
+  - medical
+  institutions:
+  - Medicinalstyrelsen
+  - Socialstyrelsen (from 1968)
+  consequences:
+  - Involuntary sterilization
+  - Disability policy
+  - Social welfare
+  summary: Swedish sterilization laws operated from 1935 to 1975. A later historical review estimated that roughly
+    32,000 sterilizations in that period were involuntary, reflecting eugenic and social-policy judgments about
+    who should reproduce.
+  sources:
+  - title: Steriliseringsfrågan i Sverige 1935–1975 — SOU 2000:20
+    url: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/statens-offentliga-utredningar/steriliseringsfragan-i-sverige-1935-1975_gob320/html/
+    publisher: Sveriges riksdag / Statens offentliga utredningar
+    note: Official historical inquiry identifying Medicinalstyrelsen, later Socialstyrelsen, as the permit authority;
+      documents the application and hospital machinery and records 62,888 sterilizations from 1935 to 1975.
+  - title: 'Legalised non-consensual sterilisation — eugenics put into practice before 1945, and the aftermath.
+      Part 2: Europe'
+    url: https://pubmed.ncbi.nlm.nih.gov/29671357/
+    publisher: PubMed
+    note: Reviews European sterilization laws and estimates about 32,000 involuntary sterilizations in Sweden from
+      1935 to 1975.
+  - title: Compulsory sterilisation in Sweden
+    url: https://pubmed.ncbi.nlm.nih.gov/11656691/
+    publisher: Bioethics
+    note: Historical and ethical review of Sweden's compulsory sterilization policy from 1935 to 1975.
+  institutionalContext: Medicinalstyrelsen—and from 1968 Socialstyrelsen—was the central authority granting sterilization
+    permits and issuing guidance. Applications could be initiated through local actors including institutional directors,
+    physicians, child-welfare or poor-relief bodies; approved procedures were then carried out in hospitals. The
+    later government inquiry identified this distributed professional and welfare machinery as part of how pressure
+    and conditional coercion operated.
+- id: japan-1948-1996
+  polity: Japan
+  region: East Asia
+  startYear: 1948
+  endYear: 1996
+  periodLabel: 1948–1996
+  strength: policy-basis
+  institutionTypes:
+  - government
+  - medical
+  institutions:
+  - Ministry of Health and Welfare (厚生省)
+  - Prefectural Eugenic Protection Review Boards (都道府県優生保護審査会)
+  - Central Eugenic Protection Review Board (中央優生保護審査会)
+  consequences:
+  - Compulsory sterilization
+  - Disability policy
+  - Reproductive rights
+  summary: Japan's 1948 Eugenic Protection Act explicitly aimed to prevent births considered eugenically undesirable
+    and authorized compulsory sterilization for specified conditions. The eugenic provisions remained until the
+    law was revised in 1996.
+  sources:
+  - title: Japan turns pro-life — recent change in reproductive health policy and challenges by new technologies
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3952537/
+    publisher: Reproductive Health
+    note: Reviews the 1948 Eugenic Protection Act, its stated eugenic purpose, compulsory sterilizations, and the
+      1996 revision.
+  - title: Measures concerning the implementation of amendments to the Eugenic Protection Act
+    url: https://www.mhlw.go.jp/web/t_doc?dataId=00ta9683&dataType=1&pageNo=1
+    publisher: Japan Ministry of Health, Labour and Welfare
+    note: 1952 ministry circular documenting implementation and expansion of sterilization provisions under the
+      law.
+  institutionalContext: The Ministry of Health and Welfare issued national implementation circulars to prefectural
+    governors. Prefectural review boards decided compulsory eugenic-surgery cases, while the central review body
+    handled the national supervisory/review role before later administrative reorganizations; designated physicians
+    and medical institutions performed the procedures.
+- id: czechoslovakia-1972-1989
+  polity: Czechoslovakia
+  region: Eastern Europe
+  startYear: 1972
+  endYear: 1989
+  periodLabel: 1972–1989
+  strength: policy-basis
+  institutionTypes:
+  - government
+  - medical
+  institutions:
+  - Ministry of Health of the Czech Socialist Republic
+  - Ministry of Health of the Slovak Socialist Republic
+  - Sterilization commissions established under the 1972 directives
+  consequences:
+  - Coercive sterilization of Romani women
+  - Reproductive discrimination
+  - Racialized social policy
+  summary: Czechoslovak sterilization rules were formally ethnicity-neutral, but doctors and social workers disproportionately
+    and coercively applied them to Romani women. Dissidents documented administrative programs targeting Roma by
+    the late 1970s, while later scholarship traces the practice to institutional continuities between eugenics,
+    medical genetics, and state social policy.
+  sources:
+  - title: 1972 sterilization directive of the Ministry of Health of the Czech Socialist Republic
+    url: https://www.aspi.cz/products/lawText/1/32073/1/2/smernice-c-lp-2523-19111971-o-provadeni-sterilizace/smernice-c-lp-2523-19111971-o-provadeni-sterilizace
+    publisher: ASPI / text of Ministry of Health directive
+    note: Primary directive naming the Ministry of Health of the Czech Socialist Republic and defining the hospital
+      sterilization commissions that decided most sterilization indications.
+  - title: The Forced Sterilization of Roma Women between the 1970s and the 1980s — The Rise of Eugenic Socialism
+    url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FBBFB9B019376D944CFD499875342619/9789048544059c6_p177-202_CBO.pdf/the-forced-sterilization-of-roma-women-between-the-1970s-and-the-1980s-the-rise-of-eugenic-socialism.pdf
+    publisher: Amsterdam University Press / Cambridge Core
+    note: Examines the transfer from eugenics to medical genetics and the enforced sterilization of Roma women in
+      socialist Czechoslovakia.
+  - title: “We Won't Ban Castrating Pervs Despite What Europe Might Think!” — Czech Medical Sexology and the Practice
+      of Therapeutic Castration
+    url: https://www.cambridge.org/core/journals/medical-history/article/we-wont-ban-castrating-pervs-despite-what-europe-might-think-czech-medical-sexology-and-the-practice-of-therapeutic-castration/33F2D0706DFACCEB04DC35D11AEA9655
+    publisher: Medical History
+    note: Notes that sterilization was specified by a 1972 health directive and that ethnicity-neutral rules were
+      coercively and disproportionately applied to Roma women.
+  institutionalContext: The Czech and Slovak health ministries issued parallel sterilization directives. In the
+    Czech system, hospital-based sterilization commissions were formally constituted through district Institutes
+    of National Health; medical and social-welfare personnel could shape applications and consent in practice. Later
+    investigations found that formally ethnicity-neutral rules were disproportionately and coercively applied to
+    Romani women.

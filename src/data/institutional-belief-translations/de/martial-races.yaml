@@ -1,21 +1,47 @@
 locale: de
 entryId: martial-races
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: 2026-08-23
 title: „Kriegerrassen“
-claim: Bestimmten südasiatischen Gemeinschaften wurden angeborene rassische oder erbliche Eigenschaften zugeschrieben, die sie von Natur aus zu besseren Soldaten machen sollten als andere.
-currentUnderstanding: Militärische Leistungsfähigkeit ist keine erbliche Eigenschaft einer „Rasse“, Ethnie oder Kaste. Ausbildung, Auswahl, Ernährung, Organisation, Erfahrung, Anreize, Technologie und soziale Bedingungen beeinflussen militärische Effektivität; breite Abstammungsgruppen begründen keine angeborene Eignung zum Soldaten.
+claim: Bestimmten südasiatischen Gemeinschaften wurden angeborene rassische oder erbliche Eigenschaften zugeschrieben,
+  die sie von Natur aus zu besseren Soldaten machen sollten als andere.
+currentUnderstanding: Militärische Leistungsfähigkeit ist keine erbliche Eigenschaft einer „Rasse“, Ethnie oder
+  Kaste. Ausbildung, Auswahl, Ernährung, Organisation, Erfahrung, Anreize, Technologie und soziale Bedingungen beeinflussen
+  militärische Effektivität; breite Abstammungsgruppen begründen keine angeborene Eignung zum Soldaten.
 episodes:
-  - id: british-india-1880-1947
-    polity: Britisch-Indien
-    summary: Seit dem späten 19. Jahrhundert bevorzugte die Rekrutierung der britisch-indischen Armee zunehmend Gemeinschaften, die als „martial races“ eingestuft wurden, darunter Sikhs, Gurkhas sowie Teile der punjabischen muslimischen und nordwestlichen Bevölkerung. Rassifizierte Vorstellungen über Mut, Männlichkeit, Klima, Kaste und Vererbung wurden Teil der praktischen Rekrutierungspolitik.
-    consequences:
-      - Selektive Militärrekrutierung
-      - Ungleicher Zugang zu militärischer Beschäftigung
-      - Rassifizierte Einteilung von Gemeinschaften
-  - id: pakistan-1947-1971
-    polity: Pakistan
-    summary: Nach der Unabhängigkeit entfernte sich Pakistan formal von der britischen Rassenterminologie, übernahm jedoch ein Militärrekrutierungssystem, das auf den früheren „martial races“ beruhte. Führende Offiziere hielten Bengalen weiterhin für wenig geeignetes militärisches Personal, und die Rekrutierung aus Ostpakistan wuchs nur langsam. Bengalen blieben bis in die 1960er-Jahre in der Armee stark unterrepräsentiert; das koloniale Erbe wurde damit Teil des größeren institutionellen Ungleichgewichts zwischen Ost- und Westpakistan.
-    consequences:
-      - Starke Unterrepräsentation von Bengalen in den Streitkräften
-      - Regionale Konzentration der Rekrutierung auf Punjab und den Nordwesten
-      - Politische Spannungen in Ostpakistan
+- id: british-india-1880-1947
+  polity: Britisch-Indien
+  institutions:
+  - Britisch-Indische Armee
+  - Army Headquarters, India
+  - Adjutant-General’s Branch, Recruiting Directorate
+  summary: 'Seit dem späten 19. Jahrhundert bevorzugte die Rekrutierung der britisch-indischen Armee zunehmend Gemeinschaften,
+    die als „martial races“ eingestuft wurden, darunter Sikhs, Gurkhas sowie Teile der punjabischen muslimischen
+    und nordwestlichen Bevölkerung. Dabei handelte es sich nicht nur um ein diffuses koloniales Vorurteil: Die Rekrutierungspolitik
+    und ihr Verwaltungsapparat klassifizierten Gemeinschaften nach vermeintlich angeborenen oder durch Herkunft
+    und Umwelt festgelegten soldatischen Eigenschaften und konzentrierten die Rekrutierung auf ausgewählte Regionen
+    und Gruppen.'
+  consequences:
+  - Selektive Militärrekrutierung
+  - Ungleicher Zugang zu militärischer Beschäftigung
+  - Rassifizierte Einteilung von Gemeinschaften
+  institutionalContext: Die Rekrutierungspolitik wurde über Army Headquarters und den Rekrutierungsapparat der Adjutant-General’s
+    Branch zentralisiert und anschließend durch Regimenter und regionale Rekrutierungsstellen umgesetzt. Die genannten
+    Stellen sind die zentralen institutionellen Träger; der breitere Apparat wird hier erläutert statt als vager
+    Institutionsname aufgeführt.
+- id: pakistan-1947-1971
+  polity: Pakistan
+  institutions:
+  - Pakistan Army
+  - General Headquarters (GHQ), Pakistan Army
+  summary: Nach der Unabhängigkeit entfernte sich Pakistan formal von der britischen Rassenterminologie, übernahm
+    jedoch eine Armee, deren Rekrutierungsgeografie und „class composition“ vom kolonialen System der „martial races“
+    geprägt worden waren. Führende Offiziere hielten Bengalen weiterhin für wenig geeignetes militärisches Personal,
+    und die Rekrutierung aus Ostpakistan wuchs nur langsam. Bengalen blieben bis in die 1960er-Jahre stark unterrepräsentiert;
+    die übernommene Doktrin wurde damit Teil des größeren institutionellen Ungleichgewichts zwischen Ost- und Westpakistan.
+  consequences:
+  - Starke Unterrepräsentation von Bengalen in den Streitkräften
+  - Regionale Konzentration der Rekrutierung auf Punjab und den Nordwesten
+  - Politische Spannungen in Ostpakistan
+  institutionalContext: Nach 1947 übernahm die Pakistan Army große Teile der Regiments- und Rekrutierungsstruktur
+    der British Indian Army. Das General Headquarters prägte die Zusammensetzung der Streitkräfte, während die Regimentsrekrutierung
+    Präferenzen für Punjabis und Paschtunen aus dem älteren „martial races“-Rahmen fortführte.

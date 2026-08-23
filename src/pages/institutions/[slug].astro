@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import InstitutionalBeliefDetailPage from '../../components/InstitutionalBeliefDetailPage.astro';
+
+export async function getStaticPaths() {
+  const beliefs = await getCollection('institutionalBeliefs');
+  const translations = await getCollection(
+    'institutionalBeliefTranslations',
+    (translation) => translation.data.locale === 'de',
+  );
+
+  const currentGermanIds = new Set(
+    translations.flatMap((translation) => {
+      const belief = beliefs.find((candidate) => candidate.id === translation.data.entryId);
+      return belief &&
+        translation.data.sourceReviewedAt.getTime() === belief.data.reviewedAt.getTime()
+        ? [belief.id]
+        : [];
+    }),
+  );
+
+  return beliefs.map((belief) => ({
+    params: { slug: belief.id },
+    props: {
+      belief,
+      hasGermanTranslation: currentGermanIds.has(belief.id),
+    },
+  }));
+}
+
+const { belief, hasGermanTranslation } = Astro.props;
+---
+
+<InstitutionalBeliefDetailPage
+  belief={belief}
+  locale="en"
+  hasGermanTranslation={hasGermanTranslation}
+/>

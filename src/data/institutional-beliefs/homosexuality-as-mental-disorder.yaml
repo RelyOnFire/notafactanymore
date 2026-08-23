@@ -2,7 +2,7 @@ title: Homosexuality as a mental disorder
 claim: Homosexuality was treated as a diagnosable mental or sexual disorder within the official medical classification system.
 currentUnderstanding: Homosexuality is not a disease, mental disorder, sexual disorder, or perversion. Same-sex attraction is part of normal variation in human sexuality, and attempts to pathologize sexual orientation have no valid medical basis.
 category: Psychiatry and sexuality
-reviewedAt: 2026-08-22
+reviewedAt: 2026-08-23
 episodes:
   - id: brazil-1979-1985
     polity: Brazil
@@ -13,20 +13,22 @@ episodes:
     strength: policy-basis
     institutionTypes: [government, medical, professional]
     institutions:
-      - INAMPS health classification system
-      - Federal Council of Medicine
-      - Brazilian medical services using ICD-9
+      - Ministério da Saúde
+      - Conselho Federal de Medicina (CFM)
+      - Centro Brasileiro de Classificação de Doenças (CBCD)
+    institutionalContext: >-
+      The pathological category came from ICD-9, which placed homosexuality at 302.0 under “sexual deviations and disorders” in the mental-disorders chapter. When the requested Brazilian reclassification reached the federal health administration, the Centro Brasileiro de Classificação de Doenças proposed use of V62 for consultations in which homosexuality itself was the reason for contact, the Ministry of Health referred the matter to the Conselho Federal de Medicina, and the CFM approved that guidance in 1985.
     consequences:
       - Diagnostic coding as a mental or sexual disorder
       - Medical pathologization of homosexuality
       - Institutional stigma in health care
-    summary: Brazil's health system used ICD-9 code 302.0, which placed homosexuality under “sexual deviations and disorders” in the mental-disorders chapter. In 1985, after a formal review requested through the Ministry of Health, the Federal Council of Medicine directed doctors not to use that pathological classification and moved homosexuality out of the disorder code.
+    summary: Brazil's medical classification system used ICD-9 code 302.0, which placed homosexuality under “sexual deviations and disorders” in the mental-disorders chapter. In 1985, after a request passed through the federal health administration, the Conselho Federal de Medicina approved guidance that consultations whose reason was homosexuality could instead be coded under V62, “other psychosocial circumstances.” Where another pathological condition was present, the underlying diagnosis was to be coded separately. The decision therefore loosened the pathological classification in Brazilian medical practice without literally deleting ICD-9's international 302.0 category.
     sources:
       - title: Parecer CFM nº 05/1985
-        url: https://sistemas.cfm.org.br/normas/visualizar/pareceres/BR/1985/5
+        url: https://sistemas.cfm.org.br/normas/arquivos/pareceres/BR/1985/5_1985.pdf
         publisher: Conselho Federal de Medicina
-        note: Primary 1985 opinion describing the then-current ICD-9 classification of homosexuality as code 302.0 and directing Brazilian physicians to stop coding it as a sexual disorder.
+        note: Primary three-page 1985 opinion documenting ICD-9 code 302.0, the CBCD proposal, the Ministry of Health referral, and the CFM conclusion that relevant consultations could be coded under V62 while separate pathological conditions should be coded by their underlying diagnosis.
       - title: Histórico — Resolução nº 01/1999
         url: https://site.cfp.org.br/resolucao-01-99/historico/
         publisher: Conselho Federal de Psicologia
-        note: Historical overview noting that Brazil's Federal Council of Medicine removed the pathological classification of homosexuality in 1985.
+        note: Historical overview identifying the 1985 CFM decision as Brazil's key medical-classification change concerning homosexuality.

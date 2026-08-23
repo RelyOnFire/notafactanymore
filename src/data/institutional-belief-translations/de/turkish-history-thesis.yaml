@@ -1,13 +1,20 @@
 locale: de
 entryId: turkish-history-thesis
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: 2026-08-23
 title: Türkische Geschichtsthese
 claim: Türken wurden als alte weiße beziehungsweise „alpine Rasse“ behandelt, deren Vorfahren die Zivilisation aus Zentralasien in andere Regionen getragen und zahlreiche frühe Hochkulturen gegründet oder wesentlich geprägt hätten.
 currentUnderstanding: Moderne Bevölkerungen sind das Ergebnis komplexer Migration und Vermischung, nicht voneinander getrennter „Zivilisationsrassen“. Überholte Kategorien wie „alpin“ oder „kaukasisch“ beschreiben keine natürlichen Unterteilungen der Menschheit; die Ursprünge antiker Zivilisationen lassen sich keinem einzelnen modernen Volk oder einer „Rasse“ zuschreiben.
 episodes:
   - id: turkey-1931-1939
     polity: Türkei
-    summary: Die Türkische Geschichtsthese wurde zu einem offiziellen Rahmen der frühen republikanischen Geschichtsschreibung und des Geschichtsunterrichts. Sie stellte Türken als ein altes, zivilisationsstiftendes Volk zentralasiatischer Herkunft dar und sollte ihre Zugehörigkeit zur weißen „alpinen Rasse“ belegen. Staatlich geförderte Kongresse und eine anthropometrische Erhebung an Zehntausenden Menschen im Jahr 1937 dienten zur Stützung der These.
+    institutions:
+      - Türk Tarihi Tetkik Cemiyeti / Türk Tarih Kurumu
+      - Maarif Vekâleti
+      - Sıhhat ve İçtimaî Muavenet Vekâleti
+      - İstatistik Umum Müdürlüğü
+    institutionalContext: >-
+      Die Türk Tarihi Tetkik Cemiyeti, später Türk Tarih Kurumu, entwickelte die These und erarbeitete die vierbändige Schulbuchreihe, die vom Maarif Vekâleti veröffentlicht wurde. Die landesweite anthropometrische Erhebung von 1937 wurde über das Gesundheitsministerium organisiert; das İstatistik Umum Müdürlüğü übernahm die Auswertung der Erhebungsbögen. Kongresse und einzelne Forscher waren Teil dieses Apparats, werden hier aber nicht an die Stelle der formalen Trägerinstitutionen gesetzt.
+    summary: Die Türkische Geschichtsthese wurde zu einem offiziellen Rahmen der frühen republikanischen Geschichtsschreibung und des Geschichtsunterrichts. Die Türk Tarihi Tetkik Cemiyeti erarbeitete eine vierbändige Schulbuchreihe, die vom Bildungsministerium veröffentlicht wurde; staatlich geförderte Geschichtskongresse verbreiteten die These. 1937 organisierte das Gesundheitsministerium eine landesweite anthropometrische Erhebung an rund 64.000 Menschen, deren Daten von der Statistikverwaltung bearbeitet wurden. Afet İnan nutzte die Ergebnisse zur Stützung der Behauptung, Türken gehörten zur weißen „alpinen Rasse“ und hätten Zivilisation aus Zentralasien verbreitet.
     consequences:
       - Nationaler Geschichtsunterricht
       - Staatlich geförderte Rassenanthropologie

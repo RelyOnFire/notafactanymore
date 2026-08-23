@@ -1,13 +1,19 @@
 locale: de
 entryId: homosexuality-as-mental-disorder
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: 2026-08-23
 title: Homosexualität als psychische Störung
 claim: Homosexualität wurde im offiziellen medizinischen Klassifikationssystem als diagnostizierbare psychische beziehungsweise sexuelle Störung behandelt.
 currentUnderstanding: Homosexualität ist weder Krankheit noch psychische oder sexuelle Störung und keine „Perversion“. Gleichgeschlechtliche Anziehung gehört zur normalen Vielfalt menschlicher Sexualität; für die Pathologisierung sexueller Orientierung gibt es keine tragfähige medizinische Grundlage.
 episodes:
   - id: brazil-1979-1985
     polity: Brasilien
-    summary: Das brasilianische Gesundheitssystem verwendete den ICD-9-Code 302.0, der Homosexualität im Kapitel der psychischen Störungen unter „sexuelle Abweichungen und Störungen“ einordnete. Nach einer formellen Überprüfung auf Initiative des Gesundheitsministeriums wies der Conselho Federal de Medicina 1985 Ärzte an, diese pathologisierende Einstufung nicht mehr zu verwenden und Homosexualität aus dem Störungscode herauszunehmen.
+    institutions:
+      - Ministério da Saúde
+      - Conselho Federal de Medicina (CFM)
+      - Centro Brasileiro de Classificação de Doenças (CBCD)
+    institutionalContext: >-
+      Die pathologisierende Kategorie stammte aus der ICD-9, die Homosexualität unter 302.0 den „sexuellen Abweichungen und Störungen“ im Kapitel der psychischen Störungen zuordnete. Als die Forderung nach einer anderen brasilianischen Kodierung die Bundesgesundheitsverwaltung erreichte, schlug das Centro Brasileiro de Classificação de Doenças für Konsultationen wegen Homosexualität V62 vor; das Gesundheitsministerium legte die Frage dem Conselho Federal de Medicina vor, der diese Orientierung 1985 billigte.
+    summary: Das brasilianische medizinische Klassifikationssystem verwendete den ICD-9-Code 302.0, der Homosexualität im Kapitel der psychischen Störungen unter „sexuelle Abweichungen und Störungen“ einordnete. 1985 billigte der Conselho Federal de Medicina nach einer Überprüfung durch die Bundesgesundheitsverwaltung die Orientierung, Konsultationen, deren Anlass Homosexualität war, stattdessen unter V62 („andere psychosoziale Umstände“) zu kodieren. Lag eine andere Erkrankung vor, sollte diese als Grunderkrankung kodiert werden. Die Entscheidung lockerte damit die pathologisierende Einstufung in der brasilianischen Praxis, ohne die internationale ICD-9-Kategorie 302.0 wörtlich zu löschen.
     consequences:
       - Diagnostische Kodierung als psychische oder sexuelle Störung
       - Medizinische Pathologisierung von Homosexualität

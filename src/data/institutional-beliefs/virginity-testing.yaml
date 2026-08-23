@@ -2,7 +2,7 @@ title: Virginity testing
 claim: Examination of the hymen or vagina was treated as capable of determining whether a woman or girl had previously had vaginal intercourse.
 currentUnderstanding: No physical examination can establish whether a woman or girl has previously had vaginal intercourse. Hymenal appearance varies normally and is not a reliable record of sexual activity; so-called virginity or two-finger tests have no scientific or clinical validity.
 category: Forensic medicine and sexuality
-reviewedAt: 2026-08-22
+reviewedAt: 2026-08-23
 episodes:
   - id: turkey-1986-1998
     polity: Turkey
@@ -59,39 +59,48 @@ episodes:
         publisher: Human Rights Watch
         note: Documents widespread institutional use of the test, its prescription in 2005 and 2007 forensic-medicine textbooks, public-hospital examination forms, and court reliance on supposed signs of sexual habituation.
       - title: Guidelines & Protocols — Medico-legal care for survivors/victims of sexual violence
-        url: https://mohfw.gov.in/sites/default/files/9535223249_1.pdf
+        url: https://mohfw.gov.in/sites/default/files/953522324.pdf
         publisher: Ministry of Health and Family Welfare, Government of India
         note: National guidelines state that the two-finger test must not be conducted and that hymenal, vaginal, or anal findings cannot establish past sexual experience.
       - title: Supreme Court of India — Lillu @ Rajesh and Anr. v. State of Haryana
         url: https://api.sci.gov.in/jonew/judis/40308.pdf
         publisher: Supreme Court of India
         note: 2013 judgment rejecting the two-finger test as violating survivors' privacy, physical and mental integrity, and dignity.
-  - id: indonesia-2014-2021
+  - id: indonesia-2014-2022
     polity: Indonesia
     region: Southeast Asia
     startYear: 2014
-    endYear: 2021
-    periodLabel: 2014–2021
+    endYear: 2022
+    periodLabel: 2014–2022
     strength: policy-basis
     institutionTypes: [government, medical, military]
     institutions:
-      - Indonesian National Police
-      - Indonesian Armed Forces
-      - Police and military medical services
+      - Indonesian National Police (Polri)
+      - Police Medical and Health Center (Pusdokkes Polri)
+      - Indonesian National Armed Forces (TNI)
+      - Indonesian Army (TNI AD)
+      - Indonesian Navy (TNI AL)
+      - Indonesian Air Force (TNI AU)
+    institutionalContext: >-
+      In the police recruitment system, Human Rights Watch identified the National Police regulation and Pusdokkes Polri personnel as part of the testing machinery. In the military, all three service branches had used the practice. The Army began ending it in 2021; the armed-forces-wide endpoint came only in 2022, when the military announced that the Army, Navy, and Air Force had all effectively ended the tests for recruitment.
     consequences:
       - Invasive examinations of female recruits
       - Sex discrimination in public employment
       - Psychological and physical harm
-    summary: In 2014, Indonesia's police recruitment system still subjected female applicants to “virginity tests,” including the discredited two-finger examination; the police recruitment website explicitly listed virginity as a requirement. Human Rights Watch also documented the practice across the armed forces. In 2021, the Army chief directed that female recruits should undergo the same medically relevant checks as men, signaling the end of the Army's version of the practice.
+    summary: In 2014, Indonesia's police recruitment system still subjected female applicants to “virginity tests,” including the discredited two-finger examination; Pusdokkes Polri personnel conducted the examinations in police medical facilities. Human Rights Watch also documented the practice across all three armed-forces branches. The Army began ending the practice in 2021, but the Navy and Air Force had not yet fully followed; in April 2022 an armed-forces spokesperson announced that the Army, Navy, and Air Force had all effectively ended virginity testing for recruitment.
     sources:
       - title: Indonesia — “Virginity Tests” for Female Police
         url: https://www.hrw.org/news/2014/11/17/indonesia-virginity-tests-female-police
         publisher: Human Rights Watch
-        note: Documents the official recruitment context, the police website requirement, interviews with applicants, and the use of the two-finger examination in 2014.
+        note: Documents the official police recruitment context, Chief Police Regulation No. 5/2009, the continuing two-finger examination in 2014, and Pusdokkes Polri personnel conducting the tests in police-operated hospitals.
       - title: Indonesia Army Chief to Terminate Unscientific “Virginity Test”
         url: https://www.hrw.org/news/2021/08/03/indonesia-army-chief-terminate-unscientific-virginity-test
         publisher: Human Rights Watch
-        note: Documents the 2021 Army instruction ending medically irrelevant virginity testing for female recruits and notes decades of use across the security forces.
+        note: Documents the 2021 Army order ending medically irrelevant virginity testing for female recruits while noting the practice's long use across the security forces.
+      - title: Indonesia Military Finally Ends Abusive “Virginity Test”
+        url: https://www.hrw.org/news/2022/04/20/indonesia-military-finally-ends-abusive-virginity-test
+        publisher: Human Rights Watch
+        note: Records the armed forces' April 2022 announcement that all three branches — Army, Navy, and Air Force — had effectively ended virginity testing for recruitment, establishing the later military-wide endpoint.
       - title: Eliminating virginity testing — an interagency statement
         url: https://www.who.int/publications/i/item/WHO-RHR-18.15
         publisher: World Health Organization

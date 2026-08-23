@@ -2,7 +2,7 @@ title: Sparrow eradication
 claim: Sparrows were treated as net agricultural enemies whose mass eradication would increase grain production.
 currentUnderstanding: Sparrows can consume grain, but they also eat insects and participate in food webs. Large-scale predator removal can trigger ecological effects that make simple “pest equals net harm” assumptions fail.
 category: Ecology and agriculture
-reviewedAt: 2026-08-22
+reviewedAt: 2026-08-23
 episodes:
   - id: china-1958-1959
     polity: People's Republic of China
@@ -13,15 +13,20 @@ episodes:
     strength: policy-basis
     institutionTypes: [government, education]
     institutions:
-      - Central government
-      - Patriotic Health Campaign
-      - Provincial and local authorities
+      - Central Committee of the Communist Party of China
+      - State Council of the People's Republic of China
+    institutionalContext: >-
+      The national institutional proposition is unusually explicit. On 12 February 1958, the CCP Central Committee and State Council jointly issued the directive 关于除四害讲卫生的指示, describing rats and sparrows as major enemies that damaged grain and obstructed production. Mass implementation then ran through the wider Four Pests and patriotic-health mobilization apparatus; those provincial and local implementation networks are described as machinery rather than listed as if they were single institutions.
     consequences:
       - Wildlife eradication
       - Agricultural policy
       - Ecological disruption
-    summary: During the Four Pests campaign, sparrows were targeted nationally as crop-eating pests. Mass killing sharply reduced sparrow populations; historical and ecological reviews describe insect outbreaks, ecological disruption, and poor harvest effects. This card does not attribute the Great Famine to the sparrow campaign alone.
+    summary: During the Four Pests campaign, a February 1958 directive from the CCP Central Committee and State Council explicitly classified sparrows as major enemies that damaged grain and obstructed production. Mass killing sharply reduced sparrow populations. Historical and ecological reviews describe subsequent insect outbreaks, ecological disruption, and poor harvest effects; by June 1959 sparrows had been removed from the official Four Pests list. This card does not attribute the Great Famine to the sparrow campaign alone.
     sources:
+      - title: 中共中央、国务院关于除四害讲卫生的指示 — 12 February 1958
+        url: https://www.forestry.gov.cn/c/www/dszl/151050.jhtml
+        publisher: National Forestry and Grassland Administration of China
+        note: Official government reproduction of the CCP Central Committee and State Council directive stating that rats and sparrows were major enemies that damaged grain and obstructed production; the same official historical record notes that sparrows were removed from the Four Pests list by June 1959.
       - title: Threats to China's Biodiversity by Contradictions Policy
         url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4293358/
         publisher: Environmental Management

@@ -1,13 +1,18 @@
 locale: de
 entryId: sun-language-theory
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: 2026-08-23
 title: Sonnensprachtheorie
 claim: Türkisch wurde als Ursprache behandelt, aus der sich letztlich die übrigen Sprachen der Welt entwickelt hätten.
 currentUnderstanding: Türkisch gehört zur Familie der Turksprachen und ist nicht die Vorfahrin aller menschlichen Sprachen. Die historische Linguistik rekonstruiert verschiedene Sprachfamilien und ältere Sprachstufen anhand systematischer Lautwandel, Grammatik und belegbarer Abstammungsverhältnisse; für die Sonnensprachtheorie gibt es keine belastbare Evidenz.
 episodes:
   - id: turkey-1936-1938
     polity: Türkei
-    summary: Die Sonnensprachtheorie wurde über die staatlich gestützte Türkische Sprachgesellschaft gefördert und 1936 zu einem zentralen Thema des Dritten Türkischen Sprachkongresses. Sie schrieb dem Türkischen eine ursprüngliche Rolle bei der Entstehung menschlicher Sprache zu und wurde aus politischen sowie national-kulturellen Gründen unterstützt, bevor man sie wieder aufgab.
+    institutions:
+      - Türk Dil Kurumu
+      - Üçüncü Türk Dil Kurultayı
+    institutionalContext: >-
+      Hauptträger der Theorie war der Türk Dil Kurumu. Auf dem Dritten Türkischen Sprachkongress von 1936 wurde die Sonnensprachtheorie zum Gegenstand institutioneller Spracharbeit; eigens dafür bestand die Güneş-Dil Teorisi ve Dil Karşılaştırmaları Komisyonu. Das weitere staatlich gestützte Umfeld der Sprachreform wird hier als institutioneller Zusammenhang beschrieben und nicht als eigene Behörde ausgegeben.
+    summary: Die Sonnensprachtheorie wurde über den staatlich gestützten Türk Dil Kurumu gefördert und 1936 zu einem zentralen Thema des Dritten Türkischen Sprachkongresses. Die Kongressakten behandelten sie als neue sprachwissenschaftliche Schule und sahen eine eigene Kommission für die Theorie vor. Sie schrieb dem Türkischen eine ursprüngliche Rolle bei der Entstehung menschlicher Sprache zu und wurde aus politischen sowie national-kulturellen Gründen unterstützt, bevor man sie wieder aufgab.
     consequences:
       - Staatlich geförderte Sprachforschung
       - Sprachpolitik

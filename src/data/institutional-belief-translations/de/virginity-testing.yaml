@@ -1,6 +1,6 @@
 locale: de
 entryId: virginity-testing
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: 2026-08-23
 title: „Jungfräulichkeitstests“
 claim: Untersuchungen des Hymens oder der Vagina wurden als geeignet behandelt, festzustellen, ob eine Frau oder ein Mädchen bereits vaginalen Geschlechtsverkehr hatte.
 currentUnderstanding: Keine körperliche Untersuchung kann feststellen, ob eine Frau oder ein Mädchen zuvor vaginalen Geschlechtsverkehr hatte. Das Erscheinungsbild des Hymens variiert natürlicherweise und ist kein verlässlicher Nachweis sexueller Aktivität; sogenannte Jungfräulichkeits- oder Zwei-Finger-Tests besitzen keine wissenschaftliche oder klinische Aussagekraft.
@@ -21,9 +21,18 @@ episodes:
       - Beurteilung der Sexualgeschichte in gerichtsmedizinischen Berichten
       - Verwendung zur Infragestellung von Glaubwürdigkeit oder Zustimmung
       - Erneute Traumatisierung der Betroffenen
-  - id: indonesia-2014-2021
+  - id: indonesia-2014-2022
     polity: Indonesien
-    summary: Noch 2014 mussten sich Bewerberinnen für die indonesische Polizei sogenannten „Jungfräulichkeitstests“ einschließlich des widerlegten Zwei-Finger-Tests unterziehen; die Rekrutierungswebsite der Polizei nannte Jungfräulichkeit ausdrücklich als Voraussetzung. Human Rights Watch dokumentierte die Praxis außerdem in den Streitkräften. 2021 ordnete der Heereschef an, Bewerberinnen nur noch denselben medizinisch relevanten Untersuchungen wie Männer zu unterziehen.
+    institutions:
+      - Kepolisian Negara Republik Indonesia (Polri)
+      - Pusat Kedokteran dan Kesehatan Polri (Pusdokkes Polri)
+      - Tentara Nasional Indonesia (TNI)
+      - Tentara Nasional Indonesia Angkatan Darat (TNI AD)
+      - Tentara Nasional Indonesia Angkatan Laut (TNI AL)
+      - Tentara Nasional Indonesia Angkatan Udara (TNI AU)
+    institutionalContext: >-
+      Im Polizeisystem benennt Human Rights Watch die nationale Polizeiverordnung und Pusdokkes Polri als Teile des Untersuchungsapparats. In den Streitkräften war die Praxis in allen drei Teilstreitkräften verbreitet. Das Heer begann 2021 mit der Abschaffung; der streitkräfteweite Endpunkt wurde erst 2022 erreicht, als TNI mitteilte, dass Heer, Marine und Luftwaffe die Tests bei der Rekrutierung effektiv beendet hätten.
+    summary: Noch 2014 mussten sich Bewerberinnen für die indonesische Polizei sogenannten „Jungfräulichkeitstests“ einschließlich des widerlegten Zwei-Finger-Tests unterziehen; Personal von Pusdokkes Polri führte die Untersuchungen in polizeilichen medizinischen Einrichtungen durch. Human Rights Watch dokumentierte die Praxis außerdem in allen drei Teilstreitkräften. Das Heer begann 2021 mit der Abschaffung, Marine und Luftwaffe folgten jedoch noch nicht vollständig. Im April 2022 teilten die Streitkräfte schließlich mit, dass Heer, Marine und Luftwaffe die Jungfräulichkeitstests bei der Rekrutierung effektiv beendet hätten.
     consequences:
       - Invasive Untersuchungen von Bewerberinnen
       - Geschlechterdiskriminierung im öffentlichen Dienst

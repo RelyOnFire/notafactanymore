@@ -1,6 +1,8 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import type { SiteLocale } from '../lib/i18n';
+import { translationMatchesEntry } from '../lib/i18n';
 
 interface Props {
   belief: any;
@@ -112,11 +114,34 @@ const alternatePath = locale === 'de'
     ? `/de/institutions/${belief.id}/`
     : undefined;
 
-const cataloguePath = belief.data.entryId
-  ? locale === 'de'
-    ? `/de/entries/${belief.data.entryId}/`
-    : `/entries/${belief.data.entryId}/`
-  : undefined;
+let cataloguePath: string | undefined;
+let catalogueTitle: string | undefined;
+
+if (belief.data.entryId) {
+  const catalogueEntries = await getCollection('entries', (entry) => entry.id === belief.data.entryId);
+  const catalogueEntry = catalogueEntries[0];
+
+  if (catalogueEntry) {
+    catalogueTitle = catalogueEntry.data.claim;
+    cataloguePath = `/entries/${catalogueEntry.id}/`;
+
+    if (locale === 'de') {
+      const catalogueTranslations = await getCollection(
+        'entryTranslations',
+        (entryTranslation) =>
+          entryTranslation.data.locale === 'de' &&
+          entryTranslation.data.entryId === catalogueEntry.id &&
+          translationMatchesEntry(catalogueEntry, entryTranslation),
+      );
+      const catalogueTranslation = catalogueTranslations[0];
+
+      if (catalogueTranslation) {
+        catalogueTitle = catalogueTranslation.data.claim;
+        cataloguePath = `/de/entries/${catalogueEntry.id}/`;
+      }
+    }
+  }
+}
 ---
 
 <BaseLayout
@@ -239,7 +264,7 @@ const cataloguePath = belief.data.entryId
     {cataloguePath && (
       <aside class="catalogue-link">
         <span>{copy.catalogue}</span>
-        <a href={cataloguePath}>{belief.data.entryId} →</a>
+        <a href={cataloguePath}>{catalogueTitle ?? belief.data.entryId} →</a>
       </aside>
     )}
 

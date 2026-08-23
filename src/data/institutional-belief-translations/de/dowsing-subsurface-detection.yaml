@@ -2,66 +2,89 @@ locale: de
 entryId: dowsing-subsurface-detection
 sourceReviewedAt: 2026-08-23
 title: Wünschelrutengehen als verlässliche Methode zur Untergrunderkundung
-claim: Geschulte Personen mit Wünschelrute, Pendel oder ähnlichen radiästhetischen Verfahren galten als fähig, verborgenes
+claim: >-
+  Geschulte Personen mit Wünschelrute, Pendel oder ähnlichen radiästhetischen Verfahren galten als fähig, verborgenes
   Grundwasser oder geologische Strukturen zuverlässig genug aufzuspüren, um technische Entscheidungen daran auszurichten.
-currentUnderstanding: Kontrollierte Untersuchungen haben nicht gezeigt, dass Wünschelrutengehen verlässliche Informationen
-  über verborgenes Grundwasser oder geologische Ziele liefert, die über gewöhnliche Umweltinformationen und Zufall hinausgehen.
-  Gerade bei der Wassersuche lässt sich scheinbarer Erfolg leicht überschätzen, weil unter großen Teilen der Landschaft
-  Grundwasser vorhanden ist. Tiefe, Ergiebigkeit und Qualität lassen sich belastbar nur mit hydrogeologischen, geologischen
-  und geophysikalischen Verfahren bestimmen.
+currentUnderstanding: >-
+  Kontrollierte Untersuchungen haben nicht gezeigt, dass Wünschelrutengehen verlässliche Informationen über verborgenes
+  Grundwasser oder geologische Ziele liefert, die über gewöhnliche Umweltinformationen und Zufall hinausgehen. Eine
+  Neuauswertung der großen deutschen Scheunenexperimente fand keine reproduzierbare Wünschelrutenleistung. Gerade bei der
+  Wassersuche lässt sich scheinbarer Erfolg leicht überschätzen, weil unter großen Teilen der Landschaft Grundwasser vorhanden
+  ist. Tiefe, Ergiebigkeit und Qualität lassen sich belastbar nur mit hydrogeologischen, geologischen und geophysikalischen
+  Verfahren bestimmen.
 episodes:
-- id: soviet-union-1967-1991
-  polity: Sowjetunion
-  summary: 1967 berief das sowjetische Geologieministerium am Allunionsinstitut für mineralische Rohstoffe VIMS eine Tagung
-    mit acht Instituten ein, um das Wünschelrutengehen unter den Begriffen „biophysikalischer Effekt“ und „biophysikalische
-    Methode“ systematisch zu untersuchen. Es folgten ein unionsweites Forschungsprogramm, eine interministerielle Kommission,
-    wiederholte Fachseminare, Veröffentlichungen und methodische Hinweise für die geologische Kartierung. Eine Darstellung
-    beteiligter Forscher von 1984 erklärte die Wirksamkeit der Methode innerhalb dieses Programms für anerkannt und verwies
-    auf Unterstützung aus der Akademie der Wissenschaften, obwohl ein erfolgloser kontrollierter Versuch im Gebiet der Kursker
-    Magnetanomalie die weitere Entwicklung bereits gebremst hatte.
-  consequences:
-  - Ein koordiniertes Forschungsprogramm zur sogenannten biophysikalischen Methode wurde über mehrere Institute hinweg aufgebaut
-  - Unionsweite Seminare und eine interministerielle Kommission institutionalisierten Forschung und fachlichen Austausch
-  - Für die geologische Kartierung wurden methodische Hinweise zur Anwendung des Verfahrens ausgearbeitet
-  - Untersucht wurde der Einsatz zur Suche nach Erz, Grundwasser, Erdöl, Verwerfungen und anderen Untergrundzielen
-  institutions:
-  - Ministerium für Geologie der UdSSR
-  - Allunionsinstitut für mineralische Rohstoffe (VIMS)
-  - Interministerielle Kommission zum biophysikalischen Effekt
-  - Akademie der Wissenschaften der UdSSR
-- id: germany-1991-1995
-  polity: Deutschland
-  summary: Die bundeseigene Entwicklungshilfeorganisation GTZ setzte Wünschelrutengänger praktisch in Trinkwasserprojekten
-    unter anderem in Sri Lanka, auf den Philippinen, im Kongo und in Kenia ein. Eine zeitgenössische Meldung von 1991 zitierte
-    den Leiter des GTZ-Bereichs Wasser, Abfallwirtschaft und Ressourcenschutz mit einer auf schwierige geologische Bedingungen
-    beschränkten Anwendung. Später veröffentlichte die GTZ einen technischen Bericht zur „unkonventionellen Wasserprospektion“;
-    ein Fachartikel von 1995 beschrieb eine Reihe von GTZ-Projekten, in denen die Methode in Trockengebieten eingesetzt
-    worden war. Kontrollierte Evidenz belegt jedoch nicht, dass die Wünschelrute selbst gegenüber gewöhnlichen Hinweisen
-    und Zufall zusätzliche verlässliche Informationen liefert.
-  consequences:
-  - Wünschelrutengänger bestimmten Bohrstellen in internationalen Trinkwasserprojekten mit
-  - Das Verfahren wurde in schwierigen Trockengebieten neben konventioneller hydrogeologischer und geophysikalischer Erkundung
-    eingesetzt
-  - Die GTZ veröffentlichte einen technischen Bericht, der das Verfahren als mögliche Methode der Wasserprospektion behandelte
-  institutions:
-  - Deutsche Gesellschaft für Technische Zusammenarbeit (GTZ)
-- id: austria-2020-2026
-  polity: Österreich
-  summary: Österreichische Landwirtschaftskammern veröffentlichten Wünschelrutengehen als praktische Hilfe bei der Wasserversorgung
-    und nicht bloß als Beschreibung eines Volksglaubens. Ein 2020 auf nationalen und regionalen Kammerseiten erschienener
-    Beitrag erklärt, Rute und Pendel könnten konkrete Fragen zu Brunnen und Quellen verlässlich klären und geübte Rutengänger
-    hätten sehr hohe Erfolgschancen. Er beschreibt außerdem eine fortdauernde Zusammenarbeit der Landwirtschaftskammer Oberösterreich
-    mit einem Rutengänger, der erstmals 1994 bei der Entwässerung eines Rutschhanges eingesetzt worden war. Die Landwirtschaftskammer
-    Kärnten veröffentlichte 2024 aktualisierte Hinweise, wonach die Wünschelrute bei nachlassender Quellschüttung wertvolle
-    Dienste leisten könne.
-  consequences:
-  - Offizielle landwirtschaftliche Beratung empfiehlt Rute und Pendel zur Diagnose von Problemen an Brunnen und Quellen
-  - Die Hinweise schreiben geübten Rutengängern im Vergleich zu anderen Methoden sehr hohe Erfolgschancen zu
-  - Die Landwirtschaftskammer Oberösterreich berichtet von wiederholten Vermittlungen an einen Rutengänger, zu dem seit
-    einem Entwässerungsprojekt von 1994 Kontakt bestand
-  - Aktualisierte Kammerinformationen von 2024 stellten Wünschelrutengehen weiterhin als Hilfe bei Wasserknappheit dar
-  institutions:
-  - Landwirtschaftskammer Österreich
-  - Landwirtschaftskammer Oberösterreich
-  - Landwirtschaftskammer Steiermark
-  - Landwirtschaftskammer Kärnten
+  - id: soviet-union-1967-1991
+    polity: Sowjetunion
+    summary: >-
+      1967 berief das sowjetische Geologieministerium am Allunionsinstitut für mineralische Rohstoffe VIMS eine Tagung mit
+      acht Instituten ein, um das Wünschelrutengehen unter den Begriffen „biophysikalischer Effekt“ und „biophysikalische
+      Methode“ systematisch zu untersuchen. Es folgten ein unionsweites Forschungsprogramm, eine interministerielle Kommission,
+      wiederholte Fachseminare, Veröffentlichungen und methodische Hinweise für die geologische Kartierung. Eine Darstellung
+      beteiligter Forscher von 1984 erklärte die Wirksamkeit der Methode innerhalb dieses Programms für anerkannt und verwies
+      auf Unterstützung aus der Akademie der Wissenschaften, obwohl ein erfolgloser kontrollierter Versuch im Gebiet der
+      Kursker Magnetanomalie die weitere Entwicklung bereits gebremst hatte.
+    consequences:
+      - Ein koordiniertes Forschungsprogramm zur sogenannten biophysikalischen Methode wurde über mehrere Institute hinweg aufgebaut
+      - Unionsweite Seminare und eine interministerielle Kommission institutionalisierten Forschung und fachlichen Austausch
+      - Für die geologische Kartierung wurden methodische Hinweise zur Anwendung des Verfahrens ausgearbeitet
+      - Untersucht wurde der Einsatz zur Suche nach Erz, Grundwasser, Erdöl, Verwerfungen und anderen Untergrundzielen
+    institutions:
+      - Ministerium für Geologie der UdSSR
+      - Allunionsinstitut für mineralische Rohstoffe (VIMS)
+      - Interministerielle Kommission zum biophysikalischen Effekt
+      - Akademie der Wissenschaften der UdSSR
+    institutionalContext: >-
+      Dieses institutionelle Programm bedeutete keine einhellige Anerkennung in der sowjetischen Geologie. Die Darstellung
+      beteiligter Forscher von 1984 erwähnt selbst einen erfolglosen kontrollierten Versuch an der Kursker Magnetanomalie,
+      der das Programm bremste, sowie veröffentlichte geologische Kritik. Die Einstufung beruht auf dem vom Ministerium
+      getragenen Forschungsprogramm, der Kommission, den Fachseminaren, methodischen Anwendungshinweisen und der parallel
+      fortbestehenden Unterstützung auf Akademieebene.
+  - id: germany-1991-1995
+    polity: Deutschland
+    summary: >-
+      Die bundeseigene Entwicklungshilfeorganisation GTZ setzte Wünschelrutengänger praktisch in Trinkwasserprojekten unter
+      anderem in Sri Lanka, auf den Philippinen, im Kongo und in Kenia ein. Eine zeitgenössische Meldung von 1991 zitierte
+      den Leiter des GTZ-Bereichs Wasser, Abfallwirtschaft und Ressourcenschutz mit einer auf schwierige geologische Bedingungen
+      beschränkten Anwendung. Später veröffentlichte die GTZ Hans-Dieter Betz' technischen Bericht zur unkonventionellen
+      Wasserprospektion; ein Beitrag von 1995 stellte eine Reihe von GTZ-Projekten als Beleg dafür dar, ausgewählte Rutengänger
+      ergänzend in die Grundwasserprospektion einzubeziehen. Kontrollierte Evidenz belegt jedoch nicht, dass die Wünschelrute
+      selbst gegenüber gewöhnlichen Hinweisen und Zufall reproduzierbare zusätzliche Informationen liefert.
+    consequences:
+      - Wünschelrutengänger bestimmten Bohrstellen in internationalen Trinkwasserprojekten mit
+      - Das Verfahren wurde in schwierigen Trockengebieten neben konventioneller hydrogeologischer und geophysikalischer Erkundung eingesetzt
+      - Die GTZ veröffentlichte einen technischen Bericht, der das Verfahren als mögliche Methode der Wasserprospektion behandelte
+    institutions:
+      - Deutsche Gesellschaft für Technische Zusammenarbeit (GTZ)
+    institutionalContext: >-
+      Belegt ist eine operative Nutzung in bestimmten Projekten, nicht die Verdrängung der Hydrogeologie innerhalb der gesamten
+      GTZ. Der zeitgenössische Bericht von 1991 beschreibt eine „pragmatische“ Kombination konventioneller und unkonventioneller
+      Prospektion unter besonders schwierigen geologischen Bedingungen, wobei Rutengänger in einzelnen Auslandsprojekten bei
+      der Wahl von Bohrstellen mitwirkten. Parallel dazu erzeugte staatlich finanzierte deutsche Wünschelrutenforschung umstrittene
+      positive Befunde; eine spätere fachwissenschaftliche Neuauswertung der Scheunenexperimente fand jedoch keine reproduzierbare
+      Leistung und hielt die Ergebnisse für mit Zufall vereinbar.
+  - id: austria-2020-2026
+    polity: Österreich
+    summary: >-
+      Österreichische Landwirtschaftskammern veröffentlichten Wünschelrutengehen als praktische Hilfe bei der Wasserversorgung
+      und nicht bloß als Beschreibung eines Volksglaubens. Ein 2020 auf nationalen und regionalen Kammerseiten erschienener
+      Beitrag erklärt, Rute und Pendel könnten konkrete Fragen zu Brunnen und Quellen verlässlich klären und geübte Rutengänger
+      hätten sehr hohe Erfolgschancen. Er beschreibt außerdem eine fortdauernde Zusammenarbeit der Landwirtschaftskammer
+      Oberösterreich mit einem Rutengänger, der erstmals 1994 bei der Entwässerung eines Rutschhanges eingesetzt worden war.
+      Die Landwirtschaftskammern Steiermark und Kärnten veröffentlichten 2024 aktualisierte Hinweise, wonach die Wünschelrute
+      bei nachlassender Quellschüttung wertvolle Dienste leisten könne.
+    consequences:
+      - Offizielle landwirtschaftliche Beratung empfiehlt Rute und Pendel zur Diagnose von Problemen an Brunnen und Quellen
+      - Die Hinweise schreiben geübten Rutengängern im Vergleich zu anderen Methoden sehr hohe Erfolgschancen zu
+      - Die Landwirtschaftskammer Oberösterreich berichtet von wiederholten Vermittlungen an einen Rutengänger, zu dem seit einem Entwässerungsprojekt von 1994 Kontakt bestand
+      - Aktualisierte Kammerinformationen von 2024 stellten Wünschelrutengehen weiterhin als Hilfe bei Wasserknappheit dar
+    institutions:
+      - Landwirtschaftskammer Österreich
+      - Landwirtschaftskammer Oberösterreich
+      - Landwirtschaftskammer Steiermark
+      - Landwirtschaftskammer Kärnten
+    institutionalContext: >-
+      Dabei handelt es sich um offizielle Kammerberatung und Vermittlungspraxis, nicht um eine gesetzlich vorgeschriebene
+      technische Methode. Bemerkenswert ist, dass öffentlich-rechtliche landwirtschaftliche Berufsvertretungen die Wünschelrute
+      als praktische Hilfestellung präsentierten, ihr verlässliche diagnostische Aussagekraft und geschulten Anwendern hohe
+      Erfolgschancen zuschrieben und die Landwirtschaftskammer Oberösterreich eine fortdauernde Vermittlung an einen Rutengänger
+      beschrieb.

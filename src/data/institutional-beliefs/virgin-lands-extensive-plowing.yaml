@@ -1,33 +1,60 @@
 title: Extensive plowing of the Virgin Lands
-claim: Rapidly plowing vast semi-arid steppe grasslands and maximizing the area under grain was treated as a sustainable route to large, continuing increases in Soviet food production.
-currentUnderstanding: Semi-arid steppe farming is constrained by rainfall, wind erosion, soil fertility, and the need for locally adapted rotations and fallow. Expanding cultivation can raise output temporarily, but relentless plowing and reduced fallow on fragile dryland soils can deplete fertility and expose topsoil to severe erosion.
+claim: Rapidly plowing vast semi-arid steppe grasslands and maximizing the area under grain was treated as a sustainable route
+  to large, continuing increases in Soviet food production.
+currentUnderstanding: Semi-arid steppe farming is constrained by rainfall, wind erosion, soil fertility, and the need for
+  locally adapted rotations and fallow. Expanding cultivation can raise output temporarily, but relentless plowing and reduced
+  fallow on fragile dryland soils can deplete fertility and expose topsoil to severe erosion.
 category: Agriculture and environmental management
-reviewedAt: 2026-08-22
+reviewedAt: '2026-08-23'
 episodes:
-  - id: soviet-kazakhstan-1954-1963
-    polity: Soviet Kazakhstan
-    region: Central Asia
-    startYear: 1954
-    endYear: 1963
-    periodLabel: 1954–1963
-    strength: policy-basis
-    institutionTypes: [government]
-    institutions:
-      - Communist Party of the Soviet Union
-      - Kazakh SSR agricultural administration
-      - Virgin Lands state-farm system
-    consequences:
-      - Large-scale conversion of steppe to cropland
-      - Declining soil fertility
-      - Wind erosion and dust storms
-      - Volatile grain production
-    summary: Khrushchev's Virgin Lands campaign rapidly converted enormous areas of Kazakhstan's steppe to grain production. Early harvests encouraged continued expansion, but political pressure to maximize acreage reduced fallow and imported farming practices poorly suited to dry, fragile soils. By the early 1960s fertility was declining, erosion was severe, and the 1963 crop failure exposed the limits of the strategy.
-    sources:
-      - title: Building authority around a new agricultural policy
-        url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/05EBCD673F9C1DA2077FE10C1D8B871C/9780511753534c2_p15-34_CBO.pdf/building_authority_around_a_new_agricultural_policy.pdf
-        publisher: Cambridge University Press
-        note: Historical analysis of the Virgin Lands policy describing political pressure to expand plowing, declining fallow, soil-fertility loss, dust storms, and the 1963 failure.
-      - title: The Fate of the Earth
-        url: https://assets.cambridge.org/97805217/62441/excerpt/9780521762441_excerpt.pdf
-        publisher: Cambridge University Press
-        note: Environmental-history account describing the Virgin Lands campaign's conversion of semi-arid grassland and the erosion risks created by extensive plowing.
+- id: soviet-kazakhstan-1954-1963
+  polity: Soviet Kazakhstan
+  region: Central Asia
+  startYear: 1954
+  endYear: 1963
+  periodLabel: 1954–1963
+  strength: policy-basis
+  institutionTypes:
+  - government
+  institutions:
+  - Central Committee of the Communist Party of the Soviet Union (CPSU)
+  - Council of Ministers of the USSR
+  institutionalContext: The Virgin Lands campaign was established and repeatedly expanded through formal central decisions
+    rather than by an entity called a “Virgin Lands state-farm system.” The CPSU Central Committee Plenum adopted the foundational
+    2 March 1954 resolution, and the CPSU Central Committee and USSR Council of Ministers issued joint resolutions later that
+    year to expand the programme. Implementation then ran through the Kazakh party and republican administration, state farms,
+    machine-tractor stations and local agricultural organizations; those operational layers are described here rather than
+    treated as one institution.
+  consequences:
+  - Large-scale conversion of steppe to cropland
+  - Declining soil fertility
+  - Wind erosion and dust storms
+  - Volatile grain production
+  summary: Khrushchev’s Virgin Lands campaign was launched through a March 1954 CPSU Central Committee Plenum resolution and
+    expanded through joint CPSU Central Committee and USSR Council of Ministers decisions. It rapidly converted enormous areas
+    of Kazakhstan’s steppe to grain production. Early harvests encouraged continued expansion, but political pressure to maximize
+    acreage reduced fallow and imported farming practices poorly suited to dry, fragile soils. By the early 1960s fertility
+    was declining, erosion was severe, and the 1963 crop failure exposed the limits of the strategy.
+  sources:
+  - title: О дальнейшем увеличении производства зерна в стране и об освоении целинных и залежных земель — resolution of the
+      CPSU Central Committee Plenum, 2 March 1954
+    url: https://search.rsl.ru/ru/record/01005814913
+    publisher: Russian State Library
+    note: Catalogue and full-access record for the foundational 2 March 1954 CPSU Central Committee Plenum resolution on increasing
+      grain production and developing virgin and fallow lands; the record identifies the issuing Central Committee Plenum
+      and preserves multiple RSL shelfmarks.
+  - title: О дальнейшем освоении целинных и залежных земель для увеличения производства зерна — 13 August 1954
+    url: https://docs.historyrussia.org/ru/nodes/355218-postanovlenie-tsk-kpss-i-soveta-ministrov-sssr-13-avgusta-1954-g-o-dalneyshem-osvoenii-tselinnyh-i-zalezhnyh-zemel-dlya-uvelicheniya-proizvodstva-zerna
+    publisher: Electronic Library of Historical Documents (History of Russia)
+    note: Historical-document record identifying the 13 August 1954 measure as a joint resolution of the CPSU Central Committee
+      and Council of Ministers of the USSR to further expand Virgin Lands grain production.
+  - title: Building authority around a new agricultural policy
+    url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/05EBCD673F9C1DA2077FE10C1D8B871C/9780511753534c2_p15-34_CBO.pdf/building_authority_around_a_new_agricultural_policy.pdf
+    publisher: Cambridge University Press
+    note: Historical analysis of the Virgin Lands policy describing political pressure to expand plowing, declining fallow,
+      soil-fertility loss, dust storms, and the 1963 failure.
+  - title: The Fate of the Earth
+    url: https://assets.cambridge.org/97805217/62441/excerpt/9780521762441_excerpt.pdf
+    publisher: Cambridge University Press
+    note: Environmental-history account describing the Virgin Lands campaign’s conversion of semi-arid grassland and the erosion
+      risks created by extensive plowing.

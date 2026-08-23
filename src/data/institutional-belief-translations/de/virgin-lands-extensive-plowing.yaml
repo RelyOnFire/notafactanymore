@@ -1,15 +1,33 @@
 locale: de
 entryId: virgin-lands-extensive-plowing
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: '2026-08-23'
 title: Großflächiges Pflügen der Neulandgebiete
-claim: Das rasche Umpflügen riesiger semiarider Steppengebiete und die Maximierung der Getreideanbaufläche wurden als nachhaltiger Weg zu dauerhaft stark höheren sowjetischen Nahrungsmittelerträgen behandelt.
-currentUnderstanding: Landwirtschaft in semiariden Steppen wird durch Niederschlag, Winderosion, Bodenfruchtbarkeit sowie den Bedarf an lokal angepassten Fruchtfolgen und Brache begrenzt. Eine Ausweitung des Anbaus kann Erträge vorübergehend steigern; dauerhaftes Pflügen und zu wenig Brache auf empfindlichen Trockenböden können jedoch die Fruchtbarkeit abbauen und den Oberboden schwerer Erosion aussetzen.
+claim: Das rasche Umpflügen riesiger semiarider Steppengebiete und die Maximierung der Getreideanbaufläche wurden als nachhaltiger
+  Weg zu dauerhaft stark höheren sowjetischen Nahrungsmittelerträgen behandelt.
+currentUnderstanding: Landwirtschaft in semiariden Steppen wird durch Niederschlag, Winderosion, Bodenfruchtbarkeit sowie
+  den Bedarf an lokal angepassten Fruchtfolgen und Brache begrenzt. Eine Ausweitung des Anbaus kann Erträge vorübergehend
+  steigern; dauerhaftes Pflügen und zu wenig Brache auf empfindlichen Trockenböden können jedoch die Fruchtbarkeit abbauen
+  und den Oberboden schwerer Erosion aussetzen.
 episodes:
-  - id: soviet-kazakhstan-1954-1963
-    polity: Sowjetisches Kasachstan
-    summary: Chruschtschows Neulandkampagne wandelte riesige Flächen der kasachischen Steppe in kurzer Zeit in Getreideland um. Frühe Ernteerfolge förderten die weitere Expansion, doch politischer Druck zur Maximierung der Anbaufläche verringerte die Brache und übertrug Landwirtschaftsmethoden auf trockene, empfindliche Böden, für die sie schlecht geeignet waren. Anfang der 1960er-Jahre sank die Bodenfruchtbarkeit, Winderosion nahm stark zu und der Ernteausfall von 1963 machte die Grenzen der Strategie sichtbar.
-    consequences:
-      - Großflächige Umwandlung von Steppe in Ackerland
-      - Sinkende Bodenfruchtbarkeit
-      - Winderosion und Staubstürme
-      - Stark schwankende Getreideproduktion
+- id: soviet-kazakhstan-1954-1963
+  polity: Sowjetisches Kasachstan
+  institutions:
+  - Центральный Комитет КПСС (Zentralkomitee der KPdSU)
+  - Совет Министров СССР (Ministerrat der UdSSR)
+  institutionalContext: Die Neulandkampagne wurde durch formelle Beschlüsse der zentralen Staats- und Parteiführung geschaffen
+    und wiederholt ausgeweitet, nicht durch eine einzelne Institution namens „Neuland-Sowchossystem“. Das Plenum des Zentralkomitees
+    der KPdSU beschloss am 2. März 1954 die grundlegende Resolution; später im selben Jahr erweiterten das Zentralkomitee
+    und der Ministerrat der UdSSR das Programm durch gemeinsame Beschlüsse. Die Umsetzung lief anschließend über Partei- und
+    Republikverwaltung in Kasachstan, Sowchosen, Maschinen-Traktoren-Stationen und lokale Agrarorganisationen; diese operativen
+    Ebenen werden hier als Apparat beschrieben.
+  summary: Chruschtschows Neulandkampagne wurde durch eine Resolution des ZK-Plenums vom März 1954 begonnen und durch gemeinsame
+    Beschlüsse des Zentralkomitees der KPdSU und des Ministerrats der UdSSR ausgeweitet. Riesige Flächen der kasachischen
+    Steppe wurden in kurzer Zeit in Getreideland umgewandelt. Frühe Ernteerfolge förderten die weitere Expansion, doch politischer
+    Druck zur Maximierung der Anbaufläche verringerte die Brache und übertrug Landwirtschaftsmethoden auf trockene, empfindliche
+    Böden, für die sie schlecht geeignet waren. Anfang der 1960er-Jahre sank die Bodenfruchtbarkeit, Winderosion nahm stark
+    zu und der Ernteausfall von 1963 machte die Grenzen der Strategie sichtbar.
+  consequences:
+  - Großflächige Umwandlung von Steppe in Ackerland
+  - Sinkende Bodenfruchtbarkeit
+  - Winderosion und Staubstürme
+  - Stark schwankende Getreideproduktion

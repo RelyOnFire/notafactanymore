@@ -1,15 +1,34 @@
 locale: de
 entryId: ainu-primitive-race
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: '2026-08-23'
 title: Ainu als „primitive Rasse“
-claim: Ainu wurden als „primitives“, rückständiges oder verschwindendes Volk behandelt, dessen Überleben und Modernisierung die Assimilation an eine sesshafte japanische Agrargesellschaft erfordere.
-currentUnderstanding: Die Ainu sind ein indigenes Volk mit eigenen Geschichten, Sprachen, kulturellen Traditionen und politischen Gemeinschaften. Unterschiede zwischen Ainu und japanischen Lebensweisen waren kein Beleg biologischer Rückständigkeit; koloniale Enteignung, Zwangsumsiedlung, Einschränkungen des Ressourcenzugangs, Krankheiten und Assimilationspolitik trugen selbst wesentlich zu Verarmung und Bevölkerungsrückgang bei.
+claim: Ainu wurden als „primitives“, rückständiges oder verschwindendes Volk behandelt, dessen Überleben und Modernisierung
+  die Assimilation an eine sesshafte japanische Agrargesellschaft erfordere.
+currentUnderstanding: Die Ainu sind ein indigenes Volk mit eigenen Geschichten, Sprachen, kulturellen Traditionen und politischen
+  Gemeinschaften. Unterschiede zwischen Ainu und japanischen Lebensweisen waren kein Beleg biologischer Rückständigkeit; koloniale
+  Enteignung, Zwangsumsiedlung, Einschränkungen des Ressourcenzugangs, Krankheiten und Assimilationspolitik trugen selbst
+  wesentlich zu Verarmung und Bevölkerungsrückgang bei.
 episodes:
-  - id: japan-1899-1939
-    polity: Japan
-    summary: Japanische Kolonialverwaltung und physische Anthropologie stellten Ainu wiederholt als „primitive“ oder aussterbende „Rasse“ dar. Das Hokkaido Former Aborigines Protection Act von 1899 sollte ihre Lebensweise durch Landwirtschaft und Assimilation umformen; zugleich zielten Einschränkungen bei Jagd, Fischerei, Landbesitz, Sprache und Bräuchen auf die Eingliederung in eine vermeintlich fortgeschrittenere japanische Gesellschaft.
-    consequences:
-      - Erzwungene Agrarisierung
-      - Unterdrückung indigener Lebensweisen
-      - Enteignung von Land und Ressourcen
-      - Kulturelle Assimilation
+- id: japan-1899-1939
+  polity: Japan
+  institutions:
+  - 内務省 (Innenministerium)
+  - 北海道庁 (Hokkaidō-Verwaltung)
+  - 東京帝国大学 (Kaiserliche Universität Tokio)
+  - 東京人類学会 (Anthropologische Gesellschaft Tokio)
+  institutionalContext: 'Das Hokkaidō Former Aborigines Protection Act von 1899 übertrug dem Innenminister Durchführungskompetenzen
+    und dem Gouverneur der Hokkaidō-Verwaltung unmittelbare Befugnisse über Land, Gemeinschaftsvermögen und Polizeiverordnungen,
+    während Landwirtschaft und staatliche Schulbildung gefördert wurden. Die rassenanthropologische Seite hatte eigene identifizierbare
+    Träger: Die Kaiserliche Universität Tokio wurde zu einem Zentrum der physischen Anthropologie, und die Anthropologische
+    Gesellschaft Tokio veröffentlichte umfangreiche Ainu-Forschung. Der breitere koloniale, schulische und wissenschaftliche
+    Apparat wird deshalb hier beschrieben, statt ihn als einzelne vermeintliche Institution auszugeben.'
+  summary: Japanische Kolonialverwaltung und physische Anthropologie stellten Ainu wiederholt als „primitive“ oder aussterbende
+    „Rasse“ dar. Das Hokkaidō Former Aborigines Protection Act von 1899 sollte ihre Lebensweise durch Landwirtschaft und Assimilation
+    umformen; zugleich zielten Einschränkungen bei Jagd, Fischerei, Landbesitz, Sprache und Bräuchen auf die Eingliederung
+    in eine vermeintlich fortgeschrittenere japanische Gesellschaft. Parallel institutionalisierten die Kaiserliche Universität
+    Tokio und die Anthropologische Gesellschaft Tokio die physisch-anthropologische Erforschung der Ainu.
+  consequences:
+  - Erzwungene Agrarisierung
+  - Unterdrückung indigener Lebensweisen
+  - Enteignung von Land und Ressourcen
+  - Kulturelle Assimilation

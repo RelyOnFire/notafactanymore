@@ -1,32 +1,52 @@
 title: Close planting and deep plowing
-claim: Very dense planting and unusually deep plowing were treated as broadly applicable techniques that would sharply increase agricultural yields.
-currentUnderstanding: Planting density and tillage have crop-, soil-, and climate-specific optima. More plants per area or deeper tillage do not automatically produce higher yields; excessive density increases competition for light, water, and nutrients, while overly deep or poorly matched tillage can damage soil structure and waste labor.
+claim: Very dense planting and unusually deep plowing were treated as broadly applicable techniques that would sharply increase
+  agricultural yields.
+currentUnderstanding: Planting density and tillage have crop-, soil-, and climate-specific optima. More plants per area or
+  deeper tillage do not automatically produce higher yields; excessive density increases competition for light, water, and
+  nutrients, while overly deep or poorly matched tillage can damage soil structure and waste labor.
 category: Agriculture
-reviewedAt: 2026-08-22
+reviewedAt: '2026-08-23'
 episodes:
-  - id: china-1958-1961
-    polity: People's Republic of China
-    region: East Asia
-    startYear: 1958
-    endYear: 1961
-    periodLabel: 1958–1961
-    strength: policy-basis
-    institutionTypes: [government]
-    institutions:
-      - Chinese Communist Party leadership
-      - Ministry of Agriculture
-      - Provincial and commune agricultural administrations
-    consequences:
-      - Mandatory or heavily pressured cultivation campaigns
-      - Reduced yields in some regions
-      - Misallocation of agricultural labor
-    summary: During the Great Leap Forward, deep plowing and close planting were elevated into nationally promoted agricultural methods and incorporated into Mao's agricultural “eight-point charter.” Authorities pushed them far beyond locally appropriate conditions. Historical economic research identifies these centrally promoted techniques as among the policies that reduced agricultural output, alongside several other major causes of the crisis.
-    sources:
-      - title: The Ministry of Agriculture and Rural and Agricultural Policies in 1958
-        url: https://academic.oup.com/book/51913/chapter-abstract/420792907
-        publisher: Oxford University Press
-        note: Examines central agricultural policy formation and implementation during the Great Leap Forward and the Ministry of Agriculture's role in the 1958 campaign.
-      - title: Feeding China — The Experience since 1949
-        url: https://academic.oup.com/book/26282/chapter/194517464
-        publisher: Oxford University Press
-        note: Identifies deep plowing and close planting as centrally promoted innovations carried beyond rational limits that reduced output during the Great Leap Forward.
+- id: china-1958-1961
+  polity: People's Republic of China
+  region: East Asia
+  startYear: 1958
+  endYear: 1961
+  periodLabel: 1958–1961
+  strength: policy-basis
+  institutionTypes:
+  - government
+  institutions:
+  - Central Committee of the Chinese Communist Party
+  - Ministry of Agriculture of the People’s Republic of China
+  institutionalContext: The strongest identifiable national carrier was the Chinese Communist Party Central Committee. Its
+    29 August 1958 directive declared deep plowing the central agricultural yield-increasing technique and ordered a Party-wide,
+    mass campaign; People’s Daily reported that the directive had been approved at an expanded Politburo meeting. The Ministry
+    of Agriculture participated in central agricultural policy formation and national technical promotion. Provincial party
+    committees, local authorities and people’s communes implemented these campaigns, but those distributed layers are described
+    as machinery rather than listed as if they were a single institution.
+  consequences:
+  - Mandatory or heavily pressured cultivation campaigns
+  - Reduced yields in some regions
+  - Misallocation of agricultural labor
+  summary: During the Great Leap Forward, deep plowing and close planting were elevated into nationally promoted agricultural
+    methods and incorporated into Mao’s agricultural “eight-point charter.” A 29 August 1958 Central Committee directive declared
+    deep plowing the central technique for increasing yields and called for a mass campaign. Authorities pushed these methods
+    far beyond locally appropriate conditions. Historical economic research identifies centrally promoted deep plowing and
+    close planting among the policies that reduced agricultural output, alongside several other major causes of the crisis.
+  sources:
+  - title: 中共中央关于深耕和改良土壤的指示 — 29 August 1958
+    url: https://www.ce.cn/xwzx/gnsz/szyw/200706/05/t20070605_11606403.shtml
+    publisher: Xinhua reproduction via China Economic Net
+    note: Reproduces the 29 August 1958 CCP Central Committee directive declaring deep plowing the central agricultural yield-increasing
+      technique and calling for Party-wide and mass mobilization to carry out deep plowing and soil improvement.
+  - title: The Ministry of Agriculture and Rural and Agricultural Policies in 1958
+    url: https://academic.oup.com/book/51913/chapter-abstract/420792907
+    publisher: Oxford University Press
+    note: Examines central agricultural policy formation and implementation during the Great Leap Forward and the Ministry
+      of Agriculture’s role in the 1958 campaign.
+  - title: Feeding China — The Experience since 1949
+    url: https://academic.oup.com/book/26282/chapter/194517464
+    publisher: Oxford University Press
+    note: Identifies deep plowing and close planting as centrally promoted innovations carried beyond rational limits that
+      reduced output during the Great Leap Forward.

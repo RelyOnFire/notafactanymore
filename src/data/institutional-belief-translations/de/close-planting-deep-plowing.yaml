@@ -1,14 +1,32 @@
 locale: de
 entryId: close-planting-deep-plowing
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: '2026-08-23'
 title: Dichte Aussaat und tiefes Pflügen
-claim: Sehr dichte Aussaat und ungewöhnlich tiefes Pflügen wurden als breit anwendbare Methoden behandelt, die landwirtschaftliche Erträge stark steigern würden.
-currentUnderstanding: Pflanzdichte und Bodenbearbeitung haben je nach Kulturpflanze, Boden und Klima unterschiedliche Optima. Mehr Pflanzen pro Fläche oder tieferes Pflügen erhöhen den Ertrag nicht automatisch; übermäßige Dichte verschärft die Konkurrenz um Licht, Wasser und Nährstoffe, während zu tiefe oder unpassende Bodenbearbeitung die Bodenstruktur schädigen und Arbeitskraft verschwenden kann.
+claim: Sehr dichte Aussaat und ungewöhnlich tiefes Pflügen wurden als breit anwendbare Methoden behandelt, die landwirtschaftliche
+  Erträge stark steigern würden.
+currentUnderstanding: Pflanzdichte und Bodenbearbeitung haben je nach Kulturpflanze, Boden und Klima unterschiedliche Optima.
+  Mehr Pflanzen pro Fläche oder tieferes Pflügen erhöhen den Ertrag nicht automatisch; übermäßige Dichte verschärft die Konkurrenz
+  um Licht, Wasser und Nährstoffe, während zu tiefe oder unpassende Bodenbearbeitung die Bodenstruktur schädigen und Arbeitskraft
+  verschwenden kann.
 episodes:
-  - id: china-1958-1961
-    polity: Volksrepublik China
-    summary: Während des Großen Sprungs nach vorn wurden tiefes Pflügen und dichte Aussaat zu landesweit propagierten Agrarmethoden erhoben und in Maos landwirtschaftliche „Acht-Punkte-Charta“ aufgenommen. Behörden trieben ihre Anwendung weit über lokal sinnvolle Bedingungen hinaus. Wirtschaftshistorische Forschung zählt diese zentral geförderten Techniken zu den Maßnahmen, die – neben mehreren anderen wesentlichen Ursachen der Krise – die landwirtschaftliche Produktion verringerten.
-    consequences:
-      - Verordnete oder stark erzwungene Anbaukampagnen
-      - Ertragsverluste in einzelnen Regionen
-      - Fehlallokation landwirtschaftlicher Arbeitskraft
+- id: china-1958-1961
+  polity: Volksrepublik China
+  institutions:
+  - 中共中央 (Zentralkomitee der Kommunistischen Partei Chinas)
+  - 中华人民共和国农业部 (Landwirtschaftsministerium der Volksrepublik China)
+  institutionalContext: Der klarste nationale institutionelle Träger war das Zentralkomitee der Kommunistischen Partei Chinas.
+    Seine Weisung vom 29. August 1958 erklärte tiefes Pflügen zur zentralen agrartechnischen Maßnahme zur Ertragssteigerung
+    und ordnete eine parteiweite Massenkampagne an; die Volkszeitung berichtete, dass die Weisung auf einer erweiterten Sitzung
+    des Politbüros beschlossen worden war. Das Landwirtschaftsministerium wirkte an der zentralen Agrarpolitik und der landesweiten
+    technischen Propagierung mit. Provinzparteien, lokale Behörden und Volkskommunen setzten die Kampagnen um; diese verteilte
+    Umsetzung wird als Apparat beschrieben und nicht als einzelne Institution ausgegeben.
+  summary: Während des Großen Sprungs nach vorn wurden tiefes Pflügen und dichte Aussaat zu landesweit propagierten Agrarmethoden
+    erhoben und in Maos landwirtschaftliche „Acht-Punkte-Charta“ aufgenommen. Eine Weisung des Zentralkomitees vom 29. August
+    1958 erklärte tiefes Pflügen zur zentralen Maßnahme zur Ertragssteigerung und rief zu einer Massenkampagne auf. Behörden
+    trieben die Methoden weit über lokal sinnvolle Bedingungen hinaus. Wirtschaftshistorische Forschung zählt die zentral
+    geförderten Techniken zu den Maßnahmen, die – neben mehreren anderen wesentlichen Ursachen – die landwirtschaftliche Produktion
+    verringerten.
+  consequences:
+  - Verordnete oder stark erzwungene Anbaukampagnen
+  - Ertragsverluste in einzelnen Regionen
+  - Fehlallokation landwirtschaftlicher Arbeitskraft

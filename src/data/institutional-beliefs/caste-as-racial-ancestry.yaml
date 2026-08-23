@@ -1,32 +1,55 @@
 title: Caste as racial ancestry
-claim: Caste rank was treated as reflecting measurable racial ancestry, with bodily measurements such as the nasal index used to classify Indians into racial types.
-currentUnderstanding: Caste is a historical and social system, not a biological hierarchy of races. Long-term endogamy has produced some genetic structure among South Asian populations, but skull or nasal measurements do not define discrete human races and do not validate caste rank as a measure of biological ancestry or human worth.
+claim: Caste rank was treated as reflecting measurable racial ancestry, with bodily measurements such as the nasal index used
+  to classify Indians into racial types.
+currentUnderstanding: Caste is a historical and social system, not a biological hierarchy of races. Long-term endogamy has
+  produced some genetic structure among South Asian populations, but skull or nasal measurements do not define discrete human
+  races and do not validate caste rank as a measure of biological ancestry or human worth.
 category: Race and anthropology
-reviewedAt: 2026-08-22
+reviewedAt: '2026-08-23'
 episodes:
-  - id: british-india-1891-1903
-    polity: British India
-    region: South Asia
-    startYear: 1891
-    endYear: 1903
-    periodLabel: 1891–1903
-    strength: officially-endorsed
-    institutionTypes: [government]
-    institutions:
-      - Census of India
-      - Colonial ethnographic administration
-      - Government anthropometric surveys
-    consequences:
-      - Racial classification of caste groups
-      - Anthropometric data collection
-      - Official ethnographic categories
-    summary: Herbert Risley's anthropometric work classified Indian populations into racial types using measurements including the nasal index. As Census Commissioner, Risley carried this framework into the 1901 Census of India, whose caste chapter and ethnographic appendices treated physical measurements as evidence about race and caste hierarchy.
-    sources:
-      - title: Environment and Ethnicity in India, 1200–1991
-        url: https://assets.cambridge.org/97805216/40787/sample/9780521640787ws.pdf
-        publisher: Cambridge University Press
-        note: Describes Risley's use of the nasal index to argue that caste hierarchy corresponded to measurable racial difference and identifies upper castes as Aryan within that scheme.
-      - title: Census of India, 1901 — Ethnographic Appendices
-        url: https://books.google.com/books?id=8MsiAQAAMAAJ
-        publisher: Government of India
-        note: Official 1903 ethnographic appendices containing the anthropometric data used in the caste and race analysis of the 1901 census.
+- id: british-india-1901-1903
+  polity: British India
+  region: South Asia
+  startYear: 1901
+  endYear: 1903
+  periodLabel: 1901–1903
+  strength: officially-endorsed
+  institutionTypes:
+  - government
+  institutions:
+  - Home Department, Government of India
+  - Office of the Census Commissioner for India
+  institutionalContext: Risley’s earlier anthropometric work in Bengal supplied the intellectual framework, but the all-India
+    institutional episode is dated from 1901. The Government of India’s Home Department formally sanctioned an Ethnographic
+    Survey in connection with the census, while Census Commissioner Herbert Risley directed the census and served as honorary
+    director of the ethnographic survey. Provincial superintendents and survey staff gathered and standardized caste and anthropometric
+    material; those distributed field operations are described as machinery rather than listed as a single institution.
+  consequences:
+  - Racial classification of caste groups
+  - Anthropometric data collection
+  - Official ethnographic categories
+  summary: Herbert Risley’s earlier anthropometric work classified Indian populations into racial types using measurements
+    including the nasal index. In 1901 the Government of India formally sanctioned an all-India Ethnographic Survey in connection
+    with the census, with Risley serving as Census Commissioner and directing the ethnographic work. The resulting 1901 Census
+    report and 1903 ethnographic appendices treated physical measurements as evidence about race and caste hierarchy.
+  sources:
+  - title: Environment and Ethnicity in India, 1200–1991
+    url: https://assets.cambridge.org/97805216/40787/sample/9780521640787ws.pdf
+    publisher: Cambridge University Press
+    note: Describes Risley’s use of the nasal index to argue that caste hierarchy corresponded to measurable racial difference
+      and identifies upper castes as Aryan within that scheme.
+  - title: Census of India, 1901 — Ethnographic Appendices
+    url: https://books.google.com/books?id=8MsiAQAAMAAJ
+    publisher: Government of India
+    note: Official 1903 ethnographic appendices containing the anthropometric data used in the caste and race analysis of
+      the 1901 census.
+  - title: Ethnographic Survey of India in connection with the Census of 1901 — Home Department proceedings
+    url: https://openlibrary.org/books/OL15311581M/Ethnographic_Survey_of_India_in_connection_with_the_Census_of_1901_Nos._3219-3232
+    publisher: Government of India, Home Department — catalogue record via Open Library
+    note: Catalogue record for the 1901 Government of India Home Department proceedings formally establishing the Ethnographic
+      Survey in connection with the census and identifying the Census Commissioner as the issuing office.
+  - title: Herbert Risley — institutional biography
+    url: https://therai.org.uk/archives-and-manuscripts/obituaries/herbert-risley/
+    publisher: Royal Anthropological Institute
+    note: Records Risley’s appointment as Census Commissioner for the 1901 census and his leadership of the countrywide Ethnographic
+      Survey, linking the census office to the formal survey apparatus.

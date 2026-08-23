@@ -1,14 +1,31 @@
 locale: de
 entryId: caste-as-racial-ancestry
-sourceReviewedAt: 2026-08-22
+sourceReviewedAt: '2026-08-23'
 title: Kaste als rassische Abstammung
-claim: Der Rang einer Kaste wurde als Ausdruck messbarer rassischer Abstammung behandelt; Körpermaße wie der Nasenindex dienten dazu, Menschen in Indien verschiedenen „Rassentypen“ zuzuordnen.
-currentUnderstanding: Kaste ist ein historisches und soziales System, keine biologische Hierarchie von „Rassen“. Langjährige Endogamie hat zwar gewisse genetische Strukturen zwischen südasiatischen Bevölkerungsgruppen erzeugt, doch Schädel- oder Nasenmaße definieren keine diskreten menschlichen Rassen und bestätigen weder Kastenrang noch menschlichen Wert als biologisches Maß.
+claim: Der Rang einer Kaste wurde als Ausdruck messbarer rassischer Abstammung behandelt; Körpermaße wie der Nasenindex dienten
+  dazu, Menschen in Indien verschiedenen „Rassentypen“ zuzuordnen.
+currentUnderstanding: Kaste ist ein historisches und soziales System, keine biologische Hierarchie von „Rassen“. Langjährige
+  Endogamie hat zwar gewisse genetische Strukturen zwischen südasiatischen Bevölkerungsgruppen erzeugt, doch Schädel- oder
+  Nasenmaße definieren keine diskreten menschlichen Rassen und bestätigen weder Kastenrang noch menschlichen Wert als biologisches
+  Maß.
 episodes:
-  - id: british-india-1891-1903
-    polity: Britisch-Indien
-    summary: Herbert Risleys anthropometrische Arbeiten ordneten Bevölkerungen Indiens anhand von Messgrößen wie dem Nasenindex verschiedenen „Rassentypen“ zu. Als Census Commissioner übertrug Risley dieses Schema in den Zensus von 1901, dessen Kapitel zu Kaste und ethnografische Anhänge Körpermaße als Evidenz für Rasse und Kastenhierarchie behandelten.
-    consequences:
-      - Rassische Klassifizierung von Kastengruppen
-      - Anthropometrische Datenerhebung
-      - Amtliche ethnografische Kategorien
+- id: british-india-1901-1903
+  polity: Britisch-Indien
+  institutions:
+  - Home Department, Government of India
+  - Office of the Census Commissioner for India
+  institutionalContext: Risleys frühere anthropometrische Arbeiten in Bengalen lieferten den intellektuellen Rahmen; die gesamtindische
+    institutionelle Episode beginnt hier jedoch 1901. Das Home Department der Government of India genehmigte formell einen
+    Ethnographic Survey im Zusammenhang mit dem Zensus, während Census Commissioner Herbert Risley den Zensus leitete und
+    zugleich als Honorary Director of Ethnography fungierte. Provinzielle Superintendenten und Erhebungspersonal sammelten
+    und standardisierten Kasten- und anthropometrische Daten; diese verteilte Feldorganisation wird als Apparat beschrieben
+    und nicht als einzelne Institution ausgegeben.
+  summary: Herbert Risleys frühere anthropometrische Arbeiten ordneten Bevölkerungen Indiens anhand von Messgrößen wie dem
+    Nasenindex verschiedenen „Rassentypen“ zu. 1901 genehmigte die Government of India einen gesamtindischen Ethnographic
+    Survey im Zusammenhang mit dem Zensus; Risley war Census Commissioner und leitete zugleich die ethnografischen Arbeiten.
+    Der Bericht zum Zensus von 1901 und die 1903 veröffentlichten ethnografischen Anhänge behandelten Körpermaße als Evidenz
+    für „Rasse“ und Kastenhierarchie.
+  consequences:
+  - Rassische Klassifizierung von Kastengruppen
+  - Anthropometrische Datenerhebung
+  - Amtliche ethnografische Kategorien

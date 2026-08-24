@@ -1,0 +1,52 @@
+locale: de
+entryId: beriberi-infectious-disease
+sourceReviewedAt: '2026-08-24'
+title: Beriberi als Infektionskrankheit statt als Mangelkrankheit
+claim: Die medizinische Führung des Kaiserlich Japanischen Heeres behandelte Beriberi hauptsächlich als Infektionskrankheit
+  statt als ernährungsbedingte Erkrankung und widersetzte sich einer Rationsreform, obwohl die Marine die Krankheit
+  durch Ernährungsänderungen nahezu beseitigt hatte.
+currentUnderstanding: Beriberi wird durch einen Mangel an Thiamin (Vitamin B1) verursacht. Eine Ernährung, die überwiegend
+  aus stark poliertem Reis besteht, kann einen Mangel hervorrufen, weil beim Polieren thiaminreiche äußere Schichten
+  entfernt werden. Infektionstheorien erklärten weder das Ernährungsexperiment der Marine noch die Wirkung von Reiskleie
+  oder die späteren biochemischen Befunde zum Thiaminmangel.
+impact:
+  summary: Japan bot einen ungewöhnlich deutlichen Vergleich innerhalb desselben Staates. Die Marine änderte nach
+    Kanehiro Takakis Schiffsbeobachtungen die Ernährung und beseitigte Beriberi nahezu; die medizinische Führung
+    des Heeres hielt dagegen an einer infektiösen Erklärung und an poliertem Reis fest. In späteren Kriegen litt
+    das Heer unter enormer Beriberi-Morbidität, obwohl die Marine bereits starke Gegenbelege geliefert hatte.
+  highlights:
+  - value: 1884–85
+    label: Ernährungsexperimente und Rationsreform der Marine wurden vom Verschwinden von Beriberi in der Marine
+      gefolgt
+  - value: Heeresdoktrin
+    label: Die medizinische Führung des Heeres hielt an einem infektiösen Ursprung fest und wies Takakis Ernährungserklärung
+      zurück
+  - value: 1904–05
+    label: Laut der herangezogenen Übersicht erreichten Beriberi-Todesfälle im Heer eine Größenordnung ähnlich den
+      direkten Kriegstoten, während in der Marine keine Beriberi-Todesfälle auftraten
+  context:
+  - Die Ursache von Beriberi war anfangs tatsächlich unsicher. Der institutionelle Fehler liegt hier im Festhalten
+    des Heeres an seiner Erklärung, nachdem innerhalb desselben Staates starke Ernährungsbelege vorlagen – nicht
+    darin, dass Ärzte des 19. Jahrhunderts die Vitamintheorie zunächst nicht kannten.
+episodes:
+- id: japan-army-1885-1905
+  polity: Japan
+  institutions:
+  - Imperial Japanese Army
+  - Army Medical Department of the Imperial Japanese Army
+  institutionalContext: Marine und Heer verfolgten unterschiedliche medizinische Strategien. Nach Takakis Vergleichsfahrten
+    und der Ernährungsreform brach Beriberi in der Marine ein. Die medizinische Führung des Heeres hielt einen infektiösen
+    Ursprung weiterhin für plausibler und lehnte die Ernährungserklärung ab, während polierter Reis die Heeresverpflegung
+    prägte. 1905 bezeichnet hier das Ende des Russisch-Japanischen Krieges und nicht die spätere Identifizierung
+    von Thiamin.
+  summary: Seit Mitte der 1880er-Jahre lieferten Ernährungsexperimente und Rationsreform der japanischen Marine
+    starke Hinweise auf eine ernährungsbedingte Ursache von Beriberi und beseitigten die Krankheit unter Seeleuten
+    nahezu. Die medizinische Führung des Heeres hielt dennoch an einem infektiösen Ursprung fest und wies die Ernährungserklärung
+    zurück, während Soldaten stark von poliertem Reis abhängig blieben. Im Russisch-Japanischen Krieg erlitt das
+    Heer massive Beriberi-Erkrankungen und -Todesfälle; spätere Vitaminforschung identifizierte Thiaminmangel als
+    Ursache.
+  consequences:
+  - Fortführung einer stark auf poliertem Reis beruhenden Heeresverpflegung trotz starker Gegenbelege
+  - Sehr hohe Zahl an Beriberi-Erkrankungen bei Soldaten im Krieg
+  - Tausende vermeidbare Todesfälle und Verlust militärischer Einsatzfähigkeit
+  - Verzögerte institutionelle Anerkennung eines Ernährungsmechanismus

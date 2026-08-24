@@ -1,0 +1,48 @@
+locale: de
+entryId: narcoanalysis-truth-extraction
+sourceReviewedAt: '2026-08-24'
+title: Narkoanalyse als verlässliches Mittel zur Gewinnung verborgener Wahrheit
+claim: Medikamentös ausgelöste Enthemmung mit Natrium-Pentothal wurde so behandelt, als erschwere sie das Lügen
+  und ermögliche Ermittlern, verborgene wahrheitsgemäße Informationen von Beschuldigten und Zeugen zu gewinnen.
+currentUnderstanding: Sedierende Medikamente können Hemmungen senken, erzeugen aber keinen physiologischen Zustand,
+  in dem eine Person die Wahrheit sagen muss. Aussagen unter Narkoanalyse können falsch, suggestibel, verwirrt oder
+  konfabuliert sein. Das Verfahren ist daher kein verlässliches „Wahrheitsserum“, auch wenn freiwillig gewonnene
+  Angaben mitunter Ermittlungsansätze liefern können.
+impact:
+  summary: Indien institutionalisierte die Narkoanalyse über forensische Labore und ein amtliches Verfahrenshandbuch,
+    das ausdrücklich erklärte, im medikamentös erzeugten Zustand sei Lügen schwierig. Der Supreme Court prüfte später
+    die wissenschaftliche Literatur, betonte die fehlende zuverlässige Wahrheitsinduktion und untersagte 2010 die
+    unfreiwillige Anwendung.
+  highlights:
+  - value: '2005'
+    label: Das nationale forensische Handbuch beschrieb Narkoanalyse als Zustand, in dem Lügen erschwert sei
+  - value: Praktische Anwendung
+    label: Polizei und staatliche Forensiklabore setzten das Verfahren bei Beschuldigten und Zeugen ein
+  - value: '2010'
+    label: Der Supreme Court untersagte unfreiwillige Narkoanalyse und hob Zuverlässigkeits- und Suggestibilitätsprobleme
+      hervor
+  context:
+  - Das Verfassungsurteil von 2010 betraf neben der Zuverlässigkeit vor allem unfreiwillige Anwendung sowie körperliche
+    und geistige Autonomie. Es erklärte nicht jede freiwillige Untersuchung für illegal; rechtliche Zulässigkeit
+    belegt jedoch keine wissenschaftliche Validität.
+episodes:
+- id: india-2005-2010
+  polity: Indien
+  institutions:
+  - Directorate of Forensic Science, Ministry of Home Affairs
+  - Forensic Science Laboratory, Bengaluru, Karnataka
+  institutionalContext: Das Verfahrenshandbuch der Directorate of Forensic Science von 2005 stellte Narkoanalyse
+    als forensisches Ermittlungsinstrument dar und behauptete ausdrücklich, im erzeugten Zustand sei Lügen schwierig.
+    Staatliche Labore setzten das Verfahren in Ermittlungen ein, die später Teil des Selvi-Verfahrens wurden. 2010
+    untersagte der Supreme Court die unfreiwillige Anwendung und verwies auf Belege, dass medikamentös erzeugte
+    Aussagen nicht zuverlässig wahr sind.
+  summary: Indiens forensisches Narkoanalyse-Handbuch von 2005 erklärte, Natrium-Pentothal könne verborgene Informationen
+    freisetzen und mache es für die untersuchte Person schwierig zu lügen. Polizei und Forensiklabore setzten die
+    Methode in Strafverfahren ein. Im Fall Selvi v. State of Karnataka prüfte der Supreme Court Belege dafür, dass
+    Narkoanalyse keine zuverlässig wahren Aussagen erzeugt, wies auf Suggestibilität und Falschinformationen hin
+    und untersagte 2010 die unfreiwillige Anwendung.
+  consequences:
+  - Medikamentengestützte Vernehmung von Beschuldigten und Zeugen
+  - Forensische Aussagen und Ermittlungsansätze auf Grundlage einer unzuverlässigen Wahrheitsannahme
+  - Eingriffe in körperliche und geistige Autonomie durch erzwungene Anwendung
+  - Beeinflussung von Ermittlungen und Verfahren durch suggestible oder erfundene Aussagen

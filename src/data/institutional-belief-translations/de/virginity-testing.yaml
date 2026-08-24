@@ -1,39 +1,105 @@
 locale: de
 entryId: virginity-testing
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: '2026-08-24'
 title: „Jungfräulichkeitstests“
-claim: Untersuchungen des Hymens oder der Vagina wurden als geeignet behandelt, festzustellen, ob eine Frau oder ein Mädchen bereits vaginalen Geschlechtsverkehr hatte.
-currentUnderstanding: Keine körperliche Untersuchung kann feststellen, ob eine Frau oder ein Mädchen zuvor vaginalen Geschlechtsverkehr hatte. Das Erscheinungsbild des Hymens variiert natürlicherweise und ist kein verlässlicher Nachweis sexueller Aktivität; sogenannte Jungfräulichkeits- oder Zwei-Finger-Tests besitzen keine wissenschaftliche oder klinische Aussagekraft.
+claim: Untersuchungen des Hymens oder der Vagina wurden als geeignet behandelt, festzustellen, ob eine Frau oder
+  ein Mädchen bereits vaginalen Geschlechtsverkehr hatte.
+currentUnderstanding: Keine körperliche Untersuchung kann feststellen, ob eine Frau oder ein Mädchen zuvor vaginalen
+  Geschlechtsverkehr hatte. Das Erscheinungsbild des Hymens variiert natürlicherweise und ist kein verlässlicher
+  Nachweis sexueller Aktivität; sogenannte Jungfräulichkeits- oder Zwei-Finger-Tests besitzen keine wissenschaftliche
+  oder klinische Aussagekraft.
 episodes:
-  - id: turkey-1986-1998
-    polity: Türkei
-    summary: Türkische Polizei, Gendarmerie, Schulen, Wohnheime und andere staatliche Einrichtungen ordneten Untersuchungen an oder ermöglichten sie, mit denen die „Jungfräulichkeit“ von Frauen und Mädchen festgestellt werden sollte. Staatliche Gerichtsmediziner führten solche Untersuchungen unter anderem bei Inhaftierten, bei Verdacht auf Prostitution, im Rahmen schulischer Disziplin und wegen vermeintlicher Verstöße gegen die öffentliche Moral durch. Ende 1998 untersagte eine staatliche Regelung Jungfräulichkeitstests, sofern die Frau sie nicht selbst verlangte.
-    consequences:
-      - Erzwungene Genitaluntersuchungen
-      - Verwendung vermeintlicher „Jungfräulichkeit“ als polizeiliches Beweismittel
-      - Überwachung und Bestrafung von Frauen und Mädchen
-      - Psychische und körperliche Schäden
-  - id: india-2005-2013
-    polity: Indien
-    summary: In der indischen Gerichtsmedizin und in öffentlichen Krankenhäusern wurde der Zwei-Finger-Test weiterhin eingesetzt, um zu beurteilen, ob Vergewaltigungsbetroffene an Geschlechtsverkehr „gewöhnt“ seien. Befunde zu Hymen und vermeintlicher vaginaler Weite gelangten in gerichtsmedizinische Berichte und konnten vor Gericht verwendet werden, um Glaubwürdigkeit oder fehlende Zustimmung infrage zu stellen. Der Supreme Court verwarf die Praxis 2013; nationale Gesundheitsrichtlinien untersagten anschließend den Test und Aussagen über frühere sexuelle Erfahrung.
-    consequences:
-      - Invasive Untersuchungen von Vergewaltigungsbetroffenen
-      - Beurteilung der Sexualgeschichte in gerichtsmedizinischen Berichten
-      - Verwendung zur Infragestellung von Glaubwürdigkeit oder Zustimmung
-      - Erneute Traumatisierung der Betroffenen
-  - id: indonesia-2014-2022
-    polity: Indonesien
-    institutions:
-      - Kepolisian Negara Republik Indonesia (Polri)
-      - Pusat Kedokteran dan Kesehatan Polri (Pusdokkes Polri)
-      - Tentara Nasional Indonesia (TNI)
-      - Tentara Nasional Indonesia Angkatan Darat (TNI AD)
-      - Tentara Nasional Indonesia Angkatan Laut (TNI AL)
-      - Tentara Nasional Indonesia Angkatan Udara (TNI AU)
-    institutionalContext: >-
-      Im Polizeisystem benennt Human Rights Watch die nationale Polizeiverordnung und Pusdokkes Polri als Teile des Untersuchungsapparats. In den Streitkräften war die Praxis in allen drei Teilstreitkräften verbreitet. Das Heer begann 2021 mit der Abschaffung; der streitkräfteweite Endpunkt wurde erst 2022 erreicht, als TNI mitteilte, dass Heer, Marine und Luftwaffe die Tests bei der Rekrutierung effektiv beendet hätten.
-    summary: Noch 2014 mussten sich Bewerberinnen für die indonesische Polizei sogenannten „Jungfräulichkeitstests“ einschließlich des widerlegten Zwei-Finger-Tests unterziehen; Personal von Pusdokkes Polri führte die Untersuchungen in polizeilichen medizinischen Einrichtungen durch. Human Rights Watch dokumentierte die Praxis außerdem in allen drei Teilstreitkräften. Das Heer begann 2021 mit der Abschaffung, Marine und Luftwaffe folgten jedoch noch nicht vollständig. Im April 2022 teilten die Streitkräfte schließlich mit, dass Heer, Marine und Luftwaffe die Jungfräulichkeitstests bei der Rekrutierung effektiv beendet hätten.
-    consequences:
-      - Invasive Untersuchungen von Bewerberinnen
-      - Geschlechterdiskriminierung im öffentlichen Dienst
-      - Psychische und körperliche Schäden
+- id: turkey-1986-1998
+  polity: Türkei
+  summary: Türkische Polizei, Gendarmerie, Schulen, Wohnheime und andere staatliche Einrichtungen ordneten Untersuchungen
+    an oder ermöglichten sie, mit denen die „Jungfräulichkeit“ von Frauen und Mädchen festgestellt werden sollte.
+    Staatliche Gerichtsmediziner führten solche Untersuchungen unter anderem bei Inhaftierten, bei Verdacht auf
+    Prostitution, im Rahmen schulischer Disziplin und wegen vermeintlicher Verstöße gegen die öffentliche Moral
+    durch. Ende 1998 untersagte eine staatliche Regelung Jungfräulichkeitstests, sofern die Frau sie nicht selbst
+    verlangte.
+  consequences:
+  - Erzwungene Genitaluntersuchungen
+  - Verwendung vermeintlicher „Jungfräulichkeit“ als polizeiliches Beweismittel
+  - Überwachung und Bestrafung von Frauen und Mädchen
+  - Psychische und körperliche Schäden
+- id: iran-2002-2026
+  polity: Iran
+  institutions:
+  - Legal Medicine Organization of Iran (LMOI)
+  - Justiz der Islamischen Republik Iran
+  institutionalContext: Die Legal Medicine Organization ist eine offizielle Einrichtung der iranischen Justiz; ihre
+    gerichtsmedizinischen Zentren erstellen auf Anforderung von Gerichten und Richtern Gutachten. Forschungen aus
+    iranischen gerichtsmedizinischen Zentren beschreiben Jungfräulichkeitsuntersuchungen auf Anordnung von Zivil-
+    und Strafgerichten sowie für weitere formelle gerichtsmedizinische Zwecke. Eine landesweite Abschaffung lässt
+    sich in den zugänglichen Quellen nicht belegen; ein Länderbericht von 2026 berichtet weiterhin von möglichen
+    staatlich veranlassten Tests in einzelnen Fällen. Deshalb wird die Episode als fortdauernd und nicht mit einem
+    erfundenen Enddatum geführt.
+  summary: Iranische gerichtsmedizinische Zentren führten Hymenuntersuchungen durch, mit denen für formelle rechtliche
+    Zwecke eine angebliche „Jungfräulichkeit“ festgestellt werden sollte. Eine Studie mit erfahrenen Untersucherinnen
+    aus Teheraner gerichtsmedizinischen Zentren, darunter Forschende der Legal Medicine Organization of Iran, beschreibt
+    Untersuchungen auf Anordnung von Zivil- und Strafgerichten und dokumentiert Anwendungen bei Ehe, Scheidung,
+    Unterbringung in Wohlfahrtseinrichtungen, mutmaßlicher sexueller Gewalt und der Ausstellung von Jungfräulichkeitsbescheinigungen.
+    Dieselben Untersucherinnen äußerten Zweifel an Genauigkeit und Sicherheit der Diagnose. Die moderne Evidenz
+    zeigt, dass das Erscheinungsbild des Hymens keine sexuelle Vorgeschichte bestimmen kann; eine landesweite iranische
+    Abschaffung ist in den zugänglichen Quellen jedoch nicht belegt.
+  consequences:
+  - Gerichtlich angeordnete Hymenuntersuchungen
+  - Gerichtsmedizinische Bescheinigungen und Gutachten in Zivil- und Strafsachen
+  - Entscheidungen zu Ehe, Scheidung, Unterbringung und mutmaßlicher sexueller Aktivität
+  - Psychische und soziale Schäden bis hin zu Gewalt- und Selbstgefährdungsrisiken
+- id: india-2005-2013
+  polity: Indien
+  summary: In der indischen Gerichtsmedizin und in öffentlichen Krankenhäusern wurde der Zwei-Finger-Test weiterhin
+    eingesetzt, um zu beurteilen, ob Vergewaltigungsbetroffene an Geschlechtsverkehr „gewöhnt“ seien. Befunde zu
+    Hymen und vermeintlicher vaginaler Weite gelangten in gerichtsmedizinische Berichte und konnten vor Gericht
+    verwendet werden, um Glaubwürdigkeit oder fehlende Zustimmung infrage zu stellen. Der Supreme Court verwarf
+    die Praxis 2013; nationale Gesundheitsrichtlinien untersagten anschließend den Test und Aussagen über frühere
+    sexuelle Erfahrung.
+  consequences:
+  - Invasive Untersuchungen von Vergewaltigungsbetroffenen
+  - Beurteilung der Sexualgeschichte in gerichtsmedizinischen Berichten
+  - Verwendung zur Infragestellung von Glaubwürdigkeit oder Zustimmung
+  - Erneute Traumatisierung der Betroffenen
+- id: indonesia-2014-2022
+  polity: Indonesien
+  institutions:
+  - Kepolisian Negara Republik Indonesia (Polri)
+  - Pusat Kedokteran dan Kesehatan Polri (Pusdokkes Polri)
+  - Tentara Nasional Indonesia (TNI)
+  - Tentara Nasional Indonesia Angkatan Darat (TNI AD)
+  - Tentara Nasional Indonesia Angkatan Laut (TNI AL)
+  - Tentara Nasional Indonesia Angkatan Udara (TNI AU)
+  institutionalContext: Im Polizeisystem benennt Human Rights Watch die nationale Polizeiverordnung und Pusdokkes
+    Polri als Teile des Untersuchungsapparats. In den Streitkräften war die Praxis in allen drei Teilstreitkräften
+    verbreitet. Das Heer begann 2021 mit der Abschaffung; der streitkräfteweite Endpunkt wurde erst 2022 erreicht,
+    als TNI mitteilte, dass Heer, Marine und Luftwaffe die Tests bei der Rekrutierung effektiv beendet hätten.
+  summary: Noch 2014 mussten sich Bewerberinnen für die indonesische Polizei sogenannten „Jungfräulichkeitstests“
+    einschließlich des widerlegten Zwei-Finger-Tests unterziehen; Personal von Pusdokkes Polri führte die Untersuchungen
+    in polizeilichen medizinischen Einrichtungen durch. Human Rights Watch dokumentierte die Praxis außerdem in
+    allen drei Teilstreitkräften. Das Heer begann 2021 mit der Abschaffung, Marine und Luftwaffe folgten jedoch
+    noch nicht vollständig. Im April 2022 teilten die Streitkräfte schließlich mit, dass Heer, Marine und Luftwaffe
+    die Jungfräulichkeitstests bei der Rekrutierung effektiv beendet hätten.
+  consequences:
+  - Invasive Untersuchungen von Bewerberinnen
+  - Geschlechterdiskriminierung im öffentlichen Dienst
+  - Psychische und körperliche Schäden
+- id: kazakhstan-2025-2026
+  polity: Kasachstan
+  institutions:
+  - Center for Forensic Examinations, Ministry of Justice of the Republic of Kazakhstan
+  institutionalContext: Eine aktuelle forensische Methodik des Justizministeriums zählt bei Untersuchungen weiblicher
+    „Sexualzustände“ sowohl die Bestimmung sexueller Unversehrtheit als auch die Feststellung früheren Geschlechtsverkehrs
+    zu den Sachverständigenaufgaben. Dasselbe Dokument räumt ein, dass Geschlechtsverkehr ohne Verletzung des Hymens
+    möglich ist, hält die Hymen- und Genitaluntersuchung aber dennoch in einem Verfahren zur Schlussfolgerung auf
+    frühere sexuelle Aktivität aufrecht. Die Episode bleibt offen, weil die staatliche Methodik 2025 veröffentlicht
+    wurde.
+  summary: Kasachstans forensisches Zentrum des Justizministeriums veröffentlichte 2025 eine Methodik zu weiblichen
+    „Sexualzuständen“, die die Bestimmung sexueller Unversehrtheit und die Feststellung früheren Geschlechtsverkehrs
+    umfasst. Das Dokument verlangt Genital- und Hymenuntersuchungen und räumt zugleich ein, dass Geschlechtsverkehr
+    ohne Hymenruptur stattfinden kann. Die WHO stellt klar, dass das Aussehen des Hymens früheren vaginalen Geschlechtsverkehr
+    nicht nachweisen kann und keine Untersuchung eine solche Vorgeschichte beweist.
+  consequences:
+  - Forensische Genitaluntersuchungen zur Schlussfolgerung auf früheren Geschlechtsverkehr
+  - Verwendung von Hymenzustand und Verletzungen innerhalb einer staatlichen Beweismethodik
+  - Möglicher Einfluss medizinisch-forensischer Schlussfolgerungen auf Straf- und Zivilverfahren
+  - Fortführung einer wissenschaftlich ungültigen Jungfräulichkeitsinferenz im amtlichen Forensikrahmen

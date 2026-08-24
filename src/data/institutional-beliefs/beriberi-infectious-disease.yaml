@@ -1,0 +1,72 @@
+title: Beriberi as an infectious disease rather than a nutritional deficiency
+claim: The Imperial Japanese Army’s medical leadership treated beriberi as principally infectious rather than diet-related
+  and resisted ration reform even after the Navy had nearly eliminated the disease through dietary change.
+currentUnderstanding: Beriberi is caused by thiamine (vitamin B1) deficiency. Diets dominated by highly polished
+  rice can produce deficiency because milling removes thiamine-rich outer layers. Infectious-disease theories did
+  not explain the Navy’s dietary experiment, the effect of rice bran, or the later biochemical evidence identifying
+  thiamine deficiency.
+category: Medicine, nutrition and military health
+reviewedAt: '2026-08-24'
+impact:
+  summary: Japan produced an unusually sharp same-state contrast. The Navy changed sailors’ diets after Kanehiro
+    Takaki’s shipboard observations and virtually eliminated beriberi, while Army medical leaders continued to favor
+    an infectious explanation and maintained polished-rice rations. During later wars the Army experienced enormous
+    beriberi morbidity while the Navy’s experience supplied contradictory evidence.
+  highlights:
+  - value: 1884–85
+    label: Navy dietary experiments and ration reform were followed by the disappearance of beriberi from the Navy
+  - value: Army doctrine
+    label: Army medical leaders continued to favor an infectious origin and rejected Takaki’s dietary explanation
+  - value: 1904–05
+    label: Beriberi deaths in the Army were comparable in scale to direct war deaths while Navy deaths were absent
+      in the cited review
+  context:
+  - The early cause of beriberi was genuinely uncertain. The institutional error here is the Army’s persistence
+    after strong within-state dietary evidence accumulated, not the mere fact that nineteenth-century physicians
+    initially lacked vitamin theory.
+episodes:
+- id: japan-army-1885-1905
+  polity: Japan
+  region: East Asia
+  startYear: 1885
+  endYear: 1905
+  strength: policy-basis
+  institutionTypes:
+  - government
+  - medical
+  - military
+  institutions:
+  - Imperial Japanese Army
+  - Army Medical Department of the Imperial Japanese Army
+  institutionalContext: The Japanese Navy and Army operated under different medical policies. After Takaki’s controlled
+    voyage comparison and dietary reform, Navy beriberi collapsed. Army medical leaders, including the head of the
+    Army medical department, continued to treat an infectious origin as more plausible and resisted the food explanation
+    while polished rice remained central to Army rations. The 1905 endpoint marks the end of the Russo-Japanese
+    War, not the final discovery of thiamine.
+  consequences:
+  - Continued polished-rice military ration policy despite strong dietary counterevidence
+  - Large numbers of soldiers developed beriberi during wartime
+  - Thousands of preventable military deaths and losses of operational capacity
+  - Delayed institutional acceptance of a nutritional mechanism
+  summary: From the mid-1880s, the Japanese Navy’s dietary experiments and ration reform supplied strong evidence
+    that beriberi was diet-related and nearly eliminated the disease among sailors. Army medical leaders nevertheless
+    continued to favor an infectious origin and rejected the dietary explanation while soldiers remained heavily
+    dependent on polished rice. During the Russo-Japanese War the Army suffered massive beriberi morbidity and mortality,
+    while later vitamin research established thiamine deficiency as the cause.
+  sources:
+  - title: Clinical studies on rising and re-rising neurological diseases in Japan
+    url: https://www.jstage.jst.go.jp/article/pjab/86/4/86_4_366/_pdf
+    publisher: Proceedings of the Japan Academy, Series B
+    note: 'Japan Academy review reconstructing the beriberi controversy: the Navy’s dietary experiment and disappearance
+      of beriberi, continued Army belief in an infectious origin, persistence of polished-rice rations, wartime
+      deaths, and eventual recognition of thiamine deficiency.'
+  - title: Rare Diseases and Medical Institutions in Meiji Japan
+    url: https://www.esri.cao.go.jp/en/esri/archive/bun/abstract/bun203-e.html
+    publisher: Economic and Social Research Institute, Cabinet Office of Japan
+    note: Japanese Cabinet Office research describing the sharply different Army and Navy policies toward beriberi
+      and the institutional persistence of Army ration policy during the Sino-Japanese and Russo-Japanese wars.
+  - title: Food education white paper — historical information on beriberi
+    url: https://www.maff.go.jp/j/syokuiku/wpaper/h29/h29_h/book/part2/chap6/b2_c6_6_00.html
+    publisher: Ministry of Agriculture, Forestry and Fisheries of Japan
+    note: Official Japanese government historical account of Takaki’s dietary work, Navy prevention, the contemporary
+      infection theory and the later nutritional understanding of beriberi.

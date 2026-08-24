@@ -2,33 +2,45 @@ locale: de
 entryId: polygraph-security-screening
 sourceReviewedAt: '2026-08-24'
 title: Polygraph-Screening als verlässliche Erkennung von Täuschung und Personalrisiken
-claim: Polygraphische Screenings wurden als hinreichend genau bei der Unterscheidung wahrheitsgemäßer und täuschender
-  Personen behandelt, um verpflichtende Personalprüfungen und folgenreiche Sicherheits- oder Integritätsentscheidungen
-  zu rechtfertigen.
-currentUnderstanding: Polygraphen messen physiologische Erregung und nicht Täuschung selbst. Tests zu konkreten
-  Einzelvorfällen können unter bestimmten Bedingungen besser als der Zufall unterscheiden, sind aber keineswegs
-  unfehlbar. Breite Personal-Screenings und folgenreiche Ernennungsentscheidungen verstärken Fehlalarm- und Übersehensrisiken,
-  insbesondere wenn das gesuchte Fehlverhalten selten ist. Polygraphen können Ermittlungen, Abschreckung oder Eingeständnisse
-  unterstützen; das ist jedoch etwas anderes als eine verlässliche individuelle Wahrheits- oder Integritätsbestimmung.
+claim: Polygraphische Screenings wurden als hinreichend genau behandelt, um aus physiologischen Reaktionen Täuschung,
+  verborgenes Fehlverhalten oder Personalrisiken abzuleiten und damit verpflichtende Personalprüfungen sowie folgenreiche
+  Sicherheits-, Integritäts-, Einstellungs- oder Ernennungsentscheidungen zu rechtfertigen.
+currentUnderstanding: Polygraphen messen physiologische Erregung und nicht Täuschung, Integrität oder Korruptionsneigung
+  selbst. Tests zu konkreten Einzelvorfällen können unter bestimmten Bedingungen besser als der Zufall unterscheiden,
+  sind aber keineswegs unfehlbar; die Evidenz für breite Personal-Screenings ist deutlich schwächer. Screenings
+  und folgenreiche Ernennungsentscheidungen verstärken Fehlalarm- und Übersehensrisiken, insbesondere wenn das gesuchte
+  Fehlverhalten selten ist. Polygraphen können Ermittlungen, Abschreckung oder Eingeständnisse unterstützen; das
+  ist jedoch etwas anderes als eine verlässliche individuelle Bestimmung von Wahrhaftigkeit, Integrität oder künftigem
+  Fehlverhalten.
 impact:
-  summary: Zwei institutionelle Korrekturen zeigen unterschiedliche Formen übermäßiger Gewichtung von Polygraphen.
-    Das US-Energieministerium hielt an verpflichtenden Sicherheits-Screenings fest, bis eine Prüfung der National
-    Academies zeigte, dass seltene Sicherheitsverletzer damit nicht zuverlässig erkannt werden können. Moldau machte
-    einen positiven Test sogar zur Zugangsvoraussetzung für eine leitende Integritätsfunktion; das Verfassungsgericht
-    beseitigte diese ausschließende Wirkung wegen der geringen wissenschaftlichen Gewissheit.
+  summary: Die dokumentierte Verbreitung umfasst inzwischen sowohl korrigierte als auch fortbestehende Systeme.
+    Das US-Energieministerium begrenzte nach einer Prüfung der National Academies das Gewicht verpflichtender Sicherheits-Screenings;
+    Moldau beseitigte nach verfassungsgerichtlicher Prüfung eine ausschließende Zugangsschranke. Kirgisistan, Kasachstan
+    und Usbekistan binden Polygraphen dagegen weiterhin in Systeme für Staatsdienst, Strafverfolgung oder Richterauswahl
+    ein. Der institutionelle Fehler besteht nicht in der Messung physiologischer Daten an sich, sondern darin, diese
+    Reaktionen als hinreichend diagnostisch für Wahrhaftigkeit, verborgenes Fehlverhalten oder Integritätsrisiken
+    zu behandeln, um folgenreiche Personalentscheidungen zu beeinflussen.
   highlights:
-  - value: '1999'
-    label: DOE führte verpflichtende Gegenspionage-Polygraphentests für sensibles Personal ein
   - value: '2002'
-    label: Die National Academies hielten die Genauigkeit für die Erkennung seltener Sicherheitsverletzer im Screening
+    label: Die National Academies hielten die Screening-Genauigkeit für die Erkennung seltener Sicherheitsverletzer
       für unzureichend
-  - value: 2017–18
-    label: Moldau schloss einen Bewerber wegen eines nicht positiven Tests aus; das Verfassungsgericht hob anschließend
-      diese Zugangsschranke auf
+  - value: 2010–heute
+    label: Kirgisistan hält Polygraphentests im staatlichen Personalrahmen aufrecht, einschließlich besonders korruptionsgefährdeter
+      Stellen
+  - value: 2014–heute
+    label: Kasachstan verlangt Aussagen zur Wahrhaftigkeit in Polygraphenberichten für Strafverfolgungspersonal
+      und später auch Richterkandidaten
+  - value: 2023–heute
+    label: Usbekistan machte Polygraphenprüfungen zum Teil der Personalauswahl des Innenministeriums und schult
+      Fachkräfte zur Bewertung von Korruptions- und Fehlverhaltensrisiken
   context:
   - Die Korrektur ist enger als „Polygraphen funktionieren nie“. Besonders problematisch sind breite Screenings
-    und ausschließende Personalentscheidungen, bei denen physiologische Erregung wie ein eindeutiger Marker für
-    Täuschung oder verborgenes institutionelles Risiko behandelt wird.
+    und folgenreiche Personalentscheidungen, bei denen physiologische Erregung wie ein eindeutiger Marker für Täuschung,
+    verborgenes Fehlverhalten oder künftiges institutionelles Risiko behandelt wird.
+  - Mehrere aktuelle Systeme bezeichnen Polygraphenbefunde ausdrücklich als beratend, probabilistisch oder nur als
+    einen Bestandteil einer umfassenderen Bewertung. Sie gehören dennoch hierher, wenn der Test institutionell vorgeschrieben
+    ist und die daraus abgeleitete Wahrhaftigkeits- oder Risikobewertung ausdrücklich in Einstellungs-, Ernennungs-,
+    Beurteilungs- oder interne Ermittlungsentscheidungen einfließt.
 episodes:
 - id: united-states-doe-1999-2006
   polity: Vereinigte Staaten
@@ -78,3 +90,79 @@ episodes:
   - Risiko, unsichere Täuschungsinferenz als endgültiges Integritätsurteil zu behandeln
   - Verfassungsgerichtliche Korrektur, um den Test von einer dispositiven Schranke auf nicht abschließende Information
     zurückzustufen
+- id: kyrgyzstan-2010-2026
+  polity: Kirgisistan
+  institutions:
+  - State Personnel Service of the Kyrgyz Republic
+  - Staatliche Agentur für Staatsdienst und lokale Selbstverwaltung beim Ministerkabinett der Kirgisischen Republik
+  institutionalContext: Ein Präsidialerlass von 2010 führte Polygraphentests in das Personalwesen des kirgisischen
+    Staatsdienstes ein. Die Durchführungsregelung definiert den Test als Bewertung der Zuverlässigkeit der Angaben
+    der untersuchten Person und nennt als Ziele unter anderem die Aufdeckung dienstlichen Missbrauchs, die Erkennung
+    einer Neigung zu Korruptionshandlungen, die Überprüfung von Ausbildung und Qualifikation sowie die Beurteilung
+    der Eignung für eine Stelle. Änderungen von 2018 bezogen ausdrücklich staatliche Stellen ein, die als besonders
+    korruptionsgefährdet gelten. Die heutige Staatsdienstagentur führt den Erlass weiterhin in ihrer Rechtsgrundlage
+    und ist nach ihrer geltenden Organisationsregelung für die Durchführung gesetzlich vorgesehener Polygraphentests
+    zuständig.
+  summary: Kirgisistan verankerte Polygraphentests 2010 formell als Instrument der Korruptions- und Integritätsprüfung
+    im staatlichen Personalwesen. Das Regelwerk behandelt die Untersuchung als geeignet, die Zuverlässigkeit von
+    Angaben eines Bewerbers oder Beamten zu bewerten, und nutzt sie zur Prüfung von Korruptionsrisiken, verborgenem
+    Fehlverhalten, Qualifikationen und beruflicher Eignung. 2018 wurde der Anwendungsbereich ausdrücklich um besonders
+    korruptionsgefährdete staatliche Stellen erweitert; die heutige Staatsdienstagentur führt den Erlass weiterhin
+    als geltende Rechtsgrundlage.
+  consequences:
+  - Polygraphen-Screening von Bewerbern für erfasste Stellen des Staatsdienstes
+  - Nutzung physiologischer Reaktionen zur Bewertung der Zuverlässigkeit von Angaben
+  - Prüfung von Korruptionsneigung, dienstlichem Fehlverhalten und Eignung für den Staatsdienst
+  - Einfluss von Polygrapheninformationen auf Einstellung, Rotation und interne Untersuchungen
+- id: kazakhstan-2014-2026
+  polity: Kasachstan
+  institutions:
+  - Regierung der Republik Kasachstan
+  - Innenministerium der Republik Kasachstan
+  - Hoher Justizrat der Republik Kasachstan
+  - Nationales Sicherheitskomitee der Republik Kasachstan
+  institutionalContext: Seit 2014 schreiben Regierungsregeln Polygraphenuntersuchungen für bestimmte Bewerber und
+    Beschäftigte in Strafverfolgung, Zivilschutz und staatlichem Kurierdienst vor. Ziel ist ausdrücklich, zusätzliche
+    Informationen zu gewinnen und die Zuverlässigkeit der Angaben der untersuchten Person zu prüfen; der Polygraphologe
+    erstellt ein formelles Gutachten zur Wahrhaftigkeit der Antworten. Das Ergebnis wird zwar als probabilistisch,
+    beratend und ergänzend bezeichnet, muss aber von Personal-, Beurteilungs-, Auswahl-, Aufnahme- und internen
+    Sicherheitsstellen bei Einstellung, Beurteilung, Auswahlverfahren und dienstlichen Untersuchungen berücksichtigt
+    werden. Seit 2016 gilt ein paralleles System für erfolgreiche Richterkandidaten beim Nationalen Sicherheitskomitee.
+    Beide Regelwerke sind weiterhin aktuell.
+  summary: Kasachstan bindet Polygraphen seit 2014 in folgenreiche Personalentscheidungen des Staates ein. Die geltenden
+    Regeln verlangen ein Gutachten zur Wahrhaftigkeit der Antworten und sehen die Nutzung der Ergebnisse bei Einstellung,
+    Beurteilung, Auswahlverfahren und dienstlichen Untersuchungen vor, obwohl sie zugleich als probabilistisch und
+    beratend bezeichnet werden. Seit 2016 werden auch Richterkandidaten nach bestandener Qualifikationsprüfung polygraphisch
+    untersucht. Die Regelungen wurden 2025 beziehungsweise im Juli 2026 erneut geändert und sind damit eindeutig
+    aktuell.
+  consequences:
+  - Polygraphen-Screening von Bewerbern und Beschäftigten in erfassten Sicherheits- und Strafverfolgungsbehörden
+  - Formelle Schlussfolgerungen zur Wahrhaftigkeit der im Test gegebenen Antworten
+  - Verwendung der Ergebnisse bei Einstellung, Beurteilung, Auswahl, Ausbildungszulassung und dienstlichen Untersuchungen
+  - Polygraphenprüfung von Richterkandidaten nach bestandener Qualifikationsprüfung
+  - Weiterleitung von Hinweisen auf mögliche Straftaten zur amtlichen Überprüfung
+- id: uzbekistan-2023-2026
+  polity: Usbekistan
+  institutions:
+  - Innenministerium der Republik Usbekistan
+  - Akademie des Innenministeriums der Republik Usbekistan
+  institutionalContext: 'Die geltenden Dienstvorschriften des usbekischen Innenministeriums machen seit dem 1. September
+    2023 eine psychophysiologische Polygraphenuntersuchung zum Bestandteil der Überprüfungsphase für Bewerber im
+    inneren Dienst, ausdrücklich um negative Faktoren zu ermitteln, die einer Einstellung entgegenstehen können.
+    Aus Auswahl und Überprüfung wird anschließend eine amtliche Beurteilung der moralisch-beruflichen und gesundheitlichen
+    Eignung abgeleitet. Wie die Ergebnisse institutionell interpretiert werden, zeigt die aktuelle Praxis besonders
+    deutlich: Im August 2026 schulte die Akademie des Innenministeriums Fachpsychologen darin, mit Polygraphen Risikofaktoren
+    bei Bewerbern sowie die Neigung von Beschäftigten zu Korruption und anderem Fehlverhalten zu beurteilen und
+    dabei aufgezeichnete psychophysiologische Reaktionen auszuwerten.'
+  summary: Seit September 2023 gehört in Usbekistan eine psychophysiologische Polygraphenuntersuchung zum Auswahlverfahren
+    für Bewerber des inneren Dienstes; ihr erklärter Zweck ist die Ermittlung negativer Faktoren, die einer Einstellung
+    entgegenstehen können. Die Praxis ist weiterhin aktiv. Noch im August 2026 schulte die Akademie des Innenministeriums
+    Fachkräfte darin, Polygraphen zur Bewertung von Bewerberrisiken und zur Erkennung einer Neigung zu Korruption
+    und anderem Fehlverhalten bei Personalentscheidungen einzusetzen. Damit geht das System deutlich über den bloßen
+    Besitz eines „Lügendetektors“ hinaus.
+  consequences:
+  - Polygraphenuntersuchung von Polizeibewerbern als formeller Bestandteil der Einstellungsprüfung
+  - Einfluss polygraphisch abgeleiteter Risikobefunde auf die Beurteilung der Diensttauglichkeit
+  - Schulung von Personalfachkräften zur Ableitung von Korruptions- und Fehlverhaltensneigung aus psychophysiologischen
+    Tests
+  - Institutionalisierung der Methode durch zertifizierte Fachausbildung innerhalb des Innenministeriumssystems

@@ -1,0 +1,34 @@
+locale: de
+entryId: polygraph-security-screening
+sourceReviewedAt: 2026-08-24
+title: Polygraph-Screening als verlässliche Erkennung von Sicherheitsrisiken
+claim: Polygraphische Mitarbeiter-Screenings wurden als hinreichend genau bei der Unterscheidung von Täuschung und Sicherheitsrisiken behandelt, um routinemäßige verpflichtende Tests als zentrales Instrument der Spionageabwehr zu rechtfertigen.
+currentUnderstanding: >-
+  Polygraphen messen physiologische Erregung, nicht Täuschung selbst. Bei konkreten Einzelvorfällen können Polygraphentests unter bestimmten Bedingungen Wahrheit und Lüge besser als der Zufall unterscheiden, sind aber keineswegs unfehlbar. Für breit angelegte Sicherheitsüberprüfungen von Beschäftigten, bei denen tatsächliche Spione oder Saboteure extrem selten sind, reicht die Genauigkeit nicht aus, um ernsthafte Gefahren zuverlässig von loyalen Beschäftigten zu trennen: Empfindliche Schwellenwerte erzeugen viele Fehlalarme, restriktive Schwellenwerte übersehen viele tatsächliche Gefahren. Polygraphen können dennoch als Ermittlungsinstrument, Abschreckung oder zur Gewinnung von Eingeständnissen nützlich sein; das ist jedoch etwas anderes als verlässliche Lügenerkennung.
+impact:
+  summary: Der Fall des US-Energieministeriums zeigt eine ungewöhnlich transparente institutionelle Korrektur. DOE führte ein verpflichtendes Gegenspionage-Polygraphenprogramm ein, ließ dessen wissenschaftliche Grundlage von den National Academies untersuchen, erhielt das Ergebnis, dass die Genauigkeit für Sicherheits-Screenings nicht ausreiche, schlug zunächst trotzdem die Fortführung des bestehenden Systems vor und ordnete Polygraphen schließlich als ein Element einer umfassenderen Gegenspionagebewertung ein statt als eigenständiges Sicherheitsurteil.
+  highlights:
+    - value: '1999'
+      label: DOE erließ eine Bundesregel für Polygraphen-Screenings in sensiblen Positionen
+    - value: '2002'
+      label: Die National Academies befanden die Genauigkeit für die Erkennung von Sicherheitsverletzern im Mitarbeiter-Screening als unzureichend
+    - value: '2006'
+      label: Überarbeitete DOE-Regeln begrenzten die Verwendung negativer Polygraphenbefunde und banden sie in umfassendere Gegenspionagebewertungen ein
+  context:
+    - Die wissenschaftliche Korrektur ist enger als die Parole „Polygraphen funktionieren nicht“. Die National Academies sahen bei Tests zu konkreten Einzelvorfällen einen gewissen diagnostischen Wert und mögliche Vorteile bei Abschreckung oder Eingeständnissen. Ihre schärfste negative Schlussfolgerung betraf Sicherheits-Screenings in Populationen mit extrem niedriger Grundrate tatsächlicher Gefahren – genau die institutionelle Anwendung des DOE-Programms.
+episodes:
+  - id: united-states-doe-1999-2006
+    polity: Vereinigte Staaten
+    institutions:
+      - United States Department of Energy (DOE)
+      - National Nuclear Security Administration (NNSA)
+      - DOE Office of Counterintelligence
+    institutionalContext: >-
+      Die DOE-Regel von 1999 machte Gegenspionage-Polygraphentests für bestimmte Bundes- und Vertragsbeschäftigte mit Zugang zu hochsensiblen nuklearen und klassifizierten Informationen zu einem Bestandteil des Zugangsregimes. Der Kongress verpflichtete DOE anschließend, eine Untersuchung der National Academy of Sciences zu berücksichtigen. Nachdem der Bericht 2002 die Genauigkeit für Sicherheits-Screenings als unzureichend bewertet hatte, schlug DOE zunächst die Fortführung des Programms vor. 2006 wurde das System so überarbeitet, dass Polygraphenbefunde nur noch ein Bestandteil einer umfassenderen Gegenspionagebewertung waren und allein keine nachteilige Personal- oder Zugangsentscheidung tragen durften.
+    summary: >-
+      1999 führte das US-Energieministerium ein formelles Gegenspionage-Polygraphenprogramm für Beschäftigte, Auftragnehmer und Bewerber mit Zugang zu besonders sensiblen klassifizierten Informationen und Nuklearsicherheitsprogrammen ein. Anschließend beauftragte DOE die National Academies mit einer Bewertung der wissenschaftlichen Grundlage. Der Bericht von 2002 kam zu dem Schluss, dass die Genauigkeit von Polygraphentests für Mitarbeiter-Sicherheitsüberprüfungen nicht ausreicht, um sich auf sie als Erkennungsinstrument zu verlassen, weil die Seltenheit tatsächlicher Spione und Saboteure zwangsläufig problematische Fehlalarme und übersehene Gefahren erzeugt. DOE schlug 2003 unter Verweis auf die Sicherheitslage nach dem 11. September dennoch die Fortführung verpflichtender Screenings vor. Die Ersatzregel von 2006 behielt Polygraphen für definierte Hochrisiko-Gegenspionagebewertungen bei, begrenzte aber ihre Beweiskraft ausdrücklich: Ein negativer Polygraphenbefund durfte für sich allein keine Personal- oder Zugangsentscheidung begründen und musste mit anderen Ermittlungsinformationen bewertet werden.
+    consequences:
+      - Beschäftigte und Auftragnehmer in sensiblen Positionen mussten verpflichtende Gegenspionage-Polygraphentests absolvieren
+      - Eine Verweigerung konnte den Erstzugang zu sensiblen Positionen verhindern oder zum Verlust klassifizierten Zugangs führen
+      - Polygraphenbefunde lösten Folgeinterviews und weitere Gegenspionageprüfungen aus
+      - Das Screening erzeugte vorhersehbare Risiken falscher Verdächtigung und falscher Entwarnung in einer Population mit sehr niedriger Grundrate tatsächlicher Sicherheitsverletzer

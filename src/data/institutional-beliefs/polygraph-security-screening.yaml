@@ -1,0 +1,56 @@
+title: Polygraph screening as reliable detection of security threats
+claim: Polygraph screening of employees was treated as accurate enough at distinguishing deception and security risk to justify routine mandatory testing as a central counterintelligence screening control.
+currentUnderstanding: >-
+  Polygraph responses reflect physiological arousal, not deception itself. Specific-incident polygraph tests can discriminate truthful from deceptive examinees at rates above chance under some conditions, but they are far from infallible. For broad employee security screening, where actual spies or saboteurs are extremely rare, the evidence does not support enough accuracy to reliably separate serious threats from innocent employees: sensitive thresholds produce many false positives, while restrictive thresholds miss many threats. Polygraphs may still have investigative, deterrent, or admission-eliciting utility, but those functions are distinct from reliable lie detection.
+category: Security screening and behavioral detection
+reviewedAt: 2026-08-24
+impact:
+  summary: The Department of Energy case is a unusually transparent institutional correction. DOE created a mandatory counterintelligence polygraph program, commissioned the National Academies to assess its scientific basis, received a finding that screening accuracy was insufficient to justify reliance on it, initially proposed retaining the existing system anyway, and ultimately recast polygraph results as one element of a broader counterintelligence evaluation rather than a standalone security judgment.
+  highlights:
+    - value: '1999'
+      label: DOE issued a federal rule establishing counterintelligence polygraph screening for sensitive positions
+    - value: '2002'
+      label: National Academies review found screening accuracy insufficient to justify federal reliance on polygraphs for detecting security violators
+    - value: '2006'
+      label: Revised DOE rules limited how adverse polygraph results could be used and embedded them in broader counterintelligence evaluations
+  context:
+    - The scientific correction is narrower than the slogan “polygraphs do not work.” The National Academies found some diagnostic value for specific-incident testing and possible utility for deterrence or eliciting admissions. Its strongest negative conclusion concerned low-base-rate employee security screening—the precise institutional use at issue in the DOE program.
+episodes:
+  - id: united-states-doe-1999-2006
+    polity: United States
+    region: North America
+    startYear: 1999
+    endYear: 2006
+    periodLabel: 1999–2006
+    strength: policy-basis
+    institutionTypes: [government]
+    institutions:
+      - United States Department of Energy (DOE)
+      - National Nuclear Security Administration (NNSA)
+      - DOE Office of Counterintelligence
+    institutionalContext: >-
+      DOE's 1999 rule made counterintelligence polygraph screening part of the access regime for categories of federal and contractor personnel handling highly sensitive nuclear and classified information. Congress then required DOE to take account of a National Academy of Sciences review. After the 2002 report found the test insufficiently accurate for employee security screening, DOE initially proposed continuing the existing program, then revised the system in 2006 so that polygraph findings were only one component of a broader counterintelligence evaluation and could not alone support adverse personnel or access action.
+    consequences:
+      - Employees and contractors in sensitive positions were subjected to mandatory counterintelligence polygraph screening
+      - Refusal could prevent initial access to sensitive positions or result in loss of classified access
+      - Polygraph results generated follow-up interviews and counterintelligence investigation
+      - Screening created predictable risks of false suspicion and false reassurance in a very low-base-rate security population
+    summary: >-
+      In 1999 the U.S. Department of Energy created a formal counterintelligence polygraph screening program for employees, contractors, and applicants with access to especially sensitive classified information and nuclear-security programs. DOE then commissioned the National Academies to review the science. The 2002 review concluded that the accuracy of polygraph testing was insufficient to justify federal reliance on it for employee security screening, because the rarity of actual spies and saboteurs makes both false positives and false negatives unavoidable at damaging levels. DOE nevertheless proposed continuing mandatory screening in 2003, citing the post-9/11 security environment. Its 2006 replacement rule retained polygraphs for defined high-risk counterintelligence evaluations but formally limited their evidentiary role: an adverse polygraph result could not by itself justify personnel or access action and had to be considered with other investigative information.
+    sources:
+      - title: Polygraph Examination Regulation — Final Rule, 1999
+        url: https://www.govinfo.gov/content/pkg/FR-1999-12-17/pdf/99-32721.pdf
+        publisher: United States Department of Energy / Federal Register
+        note: Primary federal rule establishing DOE counterintelligence polygraph screening for specified employees, contractors, applicants, and other personnel with access to sensitive information and programs.
+      - title: The Polygraph and Lie Detection — Executive Summary
+        url: https://www.nationalacademies.org/read/10420/chapter/2
+        publisher: National Research Council / National Academies Press
+        note: Concludes that polygraph accuracy for federal employee security screening is insufficient to justify reliance on the test and explains the severe false-positive and false-negative tradeoff in low-base-rate populations.
+      - title: Counterintelligence Evaluation Regulations — 2006 final rule
+        url: https://sgp.fas.org/news/2006/09/fr092906.html
+        publisher: United States Department of Energy / Federal Register text mirrored by Federation of American Scientists
+        note: Reconstructs DOE's policy history, records that DOE initially proposed retaining mandatory screening after the NAS report, and establishes the 2006 framework treating polygraph results as one component of a broader counterintelligence evaluation.
+      - title: 10 CFR § 709.25 — Limits on use of polygraph examination results
+        url: https://www.law.cornell.edu/cfr/text/10/709.25
+        publisher: Electronic Code of Federal Regulations via Legal Information Institute
+        note: Current codified rule prohibits DOE or its contractors from taking adverse personnel or access action solely on a “significant response” or “no opinion” polygraph result and bars substituting the polygraph for required investigation.

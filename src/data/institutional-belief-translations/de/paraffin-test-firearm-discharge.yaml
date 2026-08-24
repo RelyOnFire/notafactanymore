@@ -1,0 +1,32 @@
+locale: de
+entryId: paraffin-test-firearm-discharge
+sourceReviewedAt: 2026-08-24
+title: Paraffin-Nitrattest als Nachweis eines Schusswaffengebrauchs
+claim: Ein positiver Paraffin- beziehungsweise Dermal-Nitrattest an den Händen einer Person wurde als Hinweis darauf behandelt, dass sie kurz zuvor eine Schusswaffe abgefeuert habe, weil die nachgewiesenen Nitrate als Schießpulverrückstände gedeutet wurden.
+currentUnderstanding: Der klassische Paraffintest ist chemisch unspezifisch. Er weist Nitrate oder Nitrite nach, die neben Schussabgabe aus vielen anderen Quellen stammen können, etwa Düngemitteln, Tabakrauch, Arzneimitteln, Feuerwerkskörpern und weiteren Stoffen. Tatsächliche Schützen können nach Waschen, durch Umweltverlust oder abhängig von Waffe und Munition ebenfalls negativ testen. Moderne Schussrückstandsanalyse nutzt spezifischere Partikel- und Elementmethoden; auch valide GSR-Befunde sind Kontextbeweise und kein Beweis dafür, dass eine bestimmte Person eine Waffe abgefeuert hat.
+impact:
+  summary: Bemerkenswert ist, dass die institutionelle Nutzung auf den Philippinen die wissenschaftliche und gerichtliche Korrektur um Jahrzehnte überdauerte. Gerichte bezeichneten den Paraffintest wiederholt als äußerst unzuverlässig und nicht schlüssig, während Polizei und forensische Labore ihn weiterhin einsetzten – bis hin zu Untersuchungen von Polizeischüssen in den 2020er-Jahren.
+  highlights:
+    - value: '1941'
+      label: Chemiker der Philippine Constabulary nutzten Paraffin-Nitrattests bereits in Strafverfahren
+    - value: '1990er'
+      label: Der Supreme Court bezeichnete den Test wiederholt als äußerst unzuverlässig und unspezifisch
+    - value: '2023'
+      label: Eine Untersuchung des philippinischen Senats behandelte das Unterlassen von Paraffintests nach einem Polizeischuss weiterhin als Ermittlungsfehler
+  context:
+    - Das Problem besteht nicht darin, dass jedes philippinische Gericht den Test für beweiskräftig hielt. Im Gegenteil warnte der Supreme Court wiederholt, dass Nitratbefunde ihre Quelle nicht erkennen lassen und negative Ergebnisse einen Schusswaffengebrauch nicht ausschließen. Der institutionelle Widerspruch liegt darin, dass die operative Polizeipraxis den Test noch lange danach als bedeutsames Verfahren nach Schusswaffeneinsätzen behandelte.
+episodes:
+  - id: philippines-1941-2023
+    polity: Philippinen
+    institutions:
+      - Philippine Constabulary
+      - National Bureau of Investigation (NBI), Forensic Chemistry Division
+      - Philippine National Police (PNP), Crime Laboratory / Forensic Group
+    institutionalContext: >-
+      Aufeinanderfolgende philippinische Polizeibehörden und forensische Dienste verwendeten Paraffinabdrücke und Diphenylamin-Nitrattests bei Schusswaffenermittlungen. Der Supreme Court bewertete die Ergebnisse zunehmend als rechtlich nicht schlüssig; die operative Verwendung hielt jedoch an. PNP-Labore führten den Test weiter durch, leitende Polizeibeamte verwiesen in Ermittlungen auf positive Ergebnisse, und 2023 dokumentierte eine Senatsanhörung die Aussage eines Polizeichefs, nach einer tödlichen Schussabgabe hätten die beteiligten Beamten paraffiniert werden sollen.
+    summary: >-
+      Philippinische Ermittler nutzten den Paraffin-Diphenylamin-Test über Jahrzehnte, um Nitrate an den Händen Verdächtiger nachzuweisen, und deuteten positive Ergebnisse häufig als Beleg für einen kürzlich abgegebenen Schuss. Bereits 1941 verwendeten Chemiker der Philippine Constabulary das Verfahren; später wurde es Bestandteil der forensischen Arbeit von NBI und PNP. Der Supreme Court erklärte wiederholt, dass der Test als Nachweis eines Schusswaffengebrauchs äußerst unzuverlässig ist, weil Nitrate unspezifisch sind und tatsächliche Schützen ebenfalls negativ testen können. Trotzdem blieb das Verfahren bis weit ins 21. Jahrhundert in Gebrauch: 2021 verwies die PNP öffentlich auf einen positiven Paraffintest, und 2023 behandelte eine Untersuchung des Senats das Ausbleiben solcher Tests nach einem tödlichen Polizeieinsatz als erheblichen Ermittlungsfehler.
+    consequences:
+      - Verdächtige und Polizeibeamte wurden nach Schussereignissen Paraffintests unterzogen
+      - Positive Nitratbefunde beeinflussten Festnahmen, Haft, Anklageentscheidungen und Beweiserhebung vor Gericht
+      - Verfahren zur Aufklärung von Polizeischüssen erwarteten den Test trotz langjähriger Warnungen vor seiner Unzuverlässigkeit weiterhin

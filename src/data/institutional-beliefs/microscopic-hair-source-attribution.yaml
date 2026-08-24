@@ -1,0 +1,96 @@
+title: Microscopic hair similarity as source attribution
+claim: >-
+  A questioned hair that appeared microscopically indistinguishable from a suspect's hair was treated as evidence
+  that could strongly attribute the hair to that person, sometimes with numerical or near-individualizing claims
+  about how unlikely another source would be.
+currentUnderstanding: >-
+  Microscopic hair comparison can describe morphology, distinguish some samples, exclude dissimilar hairs, and in
+  context support a limited association. It cannot uniquely identify a person, however, and historical examiners
+  lacked validated population-frequency data that could turn microscopic similarity into an individual-source
+  probability. Mitochondrial or nuclear DNA testing can provide more meaningful source information when suitable
+  biological material is available.
+category: Forensic science and criminal evidence
+reviewedAt: 2026-08-23
+impact:
+  summary: >-
+    The FBI's later review identified a systemic problem in how microscopic similarities were communicated, not a
+    finding that microscopy itself was scientifically meaningless. Unsupported probability and individualizing
+    language made a limited association sound far more source-specific than the underlying method allowed.
+  highlights:
+    - value: '96%'
+      label: 257 of 268 reviewed inculpatory trial transcripts contained erroneous examiner statements
+    - value: Nearly 3,000
+      label: Cases identified by the government for potential FBI review
+    - value: '41'
+      label: States in which the reviewed FBI examiners had testified
+  context:
+    - >-
+      These figures measure flawed examiner statements or reports, not a count of wrongful convictions. The FBI's
+      review explicitly distinguishes the validity of microscopic comparison as a descriptive technique from the
+      unsupported significance that examiners sometimes assigned to a similarity.
+    - >-
+      The FBI also trained hundreds of state and local hair examiners. Its later root-cause analysis found no evidence
+      of malicious intent and identified insufficiently specific guidance for reports and testimony as the most
+      important cause of the errors.
+episodes:
+  - id: united-states-1973-1999
+    polity: United States
+    region: North America
+    startYear: 1973
+    endYear: 1999
+    periodLabel: 1973–1999
+    strength: policy-basis
+    institutionTypes: [government, professional, court, education]
+    institutions:
+      - Federal Bureau of Investigation Laboratory
+      - FBI Academy
+    institutionalContext: >-
+      FBI hair microscopy predated 1973, but that year marks the documented beginning of FBI training for state and
+      local hair examiners, making the method an institutionalized national forensic practice rather than only an
+      internal federal examination. The FBI later limited its formal retrospective review to cases analyzed before
+      31 December 1999; by then mitochondrial-DNA analysis had been introduced as a more meaningful complementary
+      source test.
+    consequences:
+      - Hair evidence was used to associate defendants with crime scenes, victims, weapons, or other objects
+      - Laboratory reports and sworn testimony sometimes overstated the source significance of microscopic similarity
+      - FBI training propagated hair-comparison practice to hundreds of state and local examiners
+      - A large federal and state notification and case-review effort followed the discovery of systematic testimony errors
+    summary: >-
+      The FBI Laboratory used microscopic hair comparison to evaluate whether questioned and known hairs shared the
+      same observable characteristics, and beginning in 1973 the FBI trained state and local analysts in the method.
+      Similarity could legitimately support a limited association, but examiners sometimes went much further by using
+      probabilities or individualizing language that had no validated population-frequency basis. In the FBI/DOJ
+      review of pre-2000 cases, erroneous statements appeared in 257 of 268 reviewed inculpatory trial transcripts.
+      The FBI later stressed that microscopy itself remained a valid comparative technique while acknowledging that
+      historical reports and testimony had overstated what a match could mean.
+    sources:
+      - title: FBI Testimony on Microscopic Hair Analysis Contained Errors in at Least 90 Percent of Cases in Ongoing Review
+        url: https://www.fbi.gov/news/press-releases/fbi-testimony-on-microscopic-hair-analysis-contained-errors-in-at-least-90-percent-of-cases-in-ongoing-review
+        publisher: Federal Bureau of Investigation
+        note: >-
+          Reports nearly 3,000 potentially reviewable cases, erroneous statements in 257 of 268 reviewed inculpatory
+          trial transcripts, testimony by reviewed examiners in 41 states, and FBI training of hundreds of state hair examiners.
+      - title: FBI/DOJ Microscopic Hair Comparison Analysis Review
+        url: https://www.fbi.gov/how-we-can-help-you/fbidoj-microscopic-hair-comparison-analysis-review
+        publisher: Federal Bureau of Investigation
+        note: >-
+          Explicitly distinguishes microscopic hair comparison as a valid comparative technique from the overstatement
+          problem, describes the use of mitochondrial DNA for more meaningful association, and defines the pre-2000 review scope.
+      - title: Root Cause Analysis for Microscopic Hair Comparison Analysis Completed
+        url: https://www.fbi.gov/news/press-releases/root-cause-analysis-for-microscopic-hair-comparison-analysis-completed
+        publisher: Federal Bureau of Investigation
+        note: >-
+          Summarizes the independent root-cause review, which found no evidence of malicious intent and identified
+          insufficiently specific guidance for examiner reports and testimony as the most important cause of errors.
+      - title: The Washington Post — FBI hair-comparison investigation
+        url: https://www.pulitzer.org/finalists/washington-post-0
+        publisher: The Pulitzer Prizes — reproducing Washington Post reporting
+        note: >-
+          Documents that the FBI Laboratory began training state and local hair examiners in 1973 and describes the
+          national diffusion and source-attribution assumptions surrounding the practice.
+      - title: Microscopy of Hairs — A Practical Guide and Manual
+        url: https://www.ojp.gov/ncjrs/virtual-library/abstracts/microscopy-hairs-practical-guide-and-manual
+        publisher: U.S. Department of Justice — Office of Justice Programs
+        note: >-
+          Official bibliographic record for the FBI-authored 1977 technical manual used to teach microscopic hair
+          examination and identification in criminal investigation.

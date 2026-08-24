@@ -1,0 +1,83 @@
+title: Comparative bullet-lead analysis as source attribution
+claim: >-
+  Bullets with indistinguishable trace-element composition were treated as evidence that they were likely to have
+  come from the same ammunition box, manufacturing batch, or closely shared source, allowing crime-scene bullets
+  to be linked strongly to ammunition possessed by a suspect.
+currentUnderstanding: >-
+  Elemental-composition measurement can distinguish some bullet-lead samples, but an analytical match cannot
+  identify a particular ammunition box or manufacturing date. Different production sources can sometimes be
+  compositionally indistinguishable, and the population and distribution frequencies needed for strong source
+  probabilities were not known. The evidence can therefore support only a limited association, not highly specific
+  source attribution.
+category: Forensic science and criminal evidence
+reviewedAt: 2026-08-23
+impact:
+  summary: >-
+    The institutional error was not that elemental analysis measured nothing. It was that a real chemical comparison
+    was sometimes translated into much stronger source claims than the manufacturing and statistical evidence could
+    support, and those claims entered criminal investigations and trials through the FBI Laboratory.
+  highlights:
+    - value: Thousands
+      label: Criminal cases in which FBI testimony relied on compositional bullet-lead analysis, according to the National Research Council
+    - value: '2004'
+      label: National Research Council rejected particular-box and manufacturing-date attribution from a compositional match
+    - value: '2005'
+      label: FBI Laboratory discontinued the examination
+  context:
+    - >-
+      The 2004 National Research Council review did not say that measuring trace elements was scientifically worthless.
+      It found that the measurements could distinguish some samples, but that coincidentally indistinguishable lead
+      compositions existed and the inferential language presented to courts needed to be sharply limited.
+    - >-
+      The FBI later explained to Congress that the analytical and laboratory parts of the method were considered sound,
+      while the statistical interpretation could be overstated. The Bureau stopped conducting the examination in 2005
+      and undertook notification and case-review efforts.
+episodes:
+  - id: united-states-1960-2005
+    polity: United States
+    region: North America
+    startYear: 1960
+    endYear: 2005
+    periodLabel: 1960s–2005
+    strength: policy-basis
+    institutionTypes: [government, professional, court]
+    institutions:
+      - Federal Bureau of Investigation Laboratory
+    institutionalContext: >-
+      The National Research Council dates law-enforcement use of compositional analysis of bullet lead to the 1960s.
+      The FBI Laboratory provided the examination in federal matters and at the request of state and local authorities;
+      FBI examiners then reported and testified about the significance of compositional similarities in criminal cases.
+      The startYear value 1960 represents the documented decade rather than a claimed single launch date.
+    consequences:
+      - Crime-scene bullets were associated with ammunition found in suspects' possession
+      - FBI laboratory reports and expert testimony were used in federal and state criminal prosecutions
+      - Particular-box or same-manufacturing-period implications could increase the apparent weight of a chemical match
+      - The FBI later undertook notification and review of affected cases after discontinuing the technique
+    summary: >-
+      From the 1960s through 2005, the FBI Laboratory used compositional analysis of bullet lead when conventional
+      firearm-mark comparison was unavailable or impractical. The National Research Council reported that FBI
+      representatives had relied on the technique in thousands of criminal cases. The elemental measurements themselves
+      could distinguish some samples, but the interpretive step was much weaker: in 2004 the National Research Council
+      found that available data did not support saying that a crime bullet came from, or was likely to have come from,
+      a particular ammunition box, and that compositional data alone could not establish a manufacture date. The FBI
+      discontinued the examination in 2005 after concluding that its statistical interpretation could be overstated.
+    sources:
+      - title: Forensic Analysis — Weighing Bullet Lead Evidence
+        url: https://www.nationalacademies.org/publications/10924
+        publisher: National Research Council — National Academies Press
+        note: >-
+          Consensus review states that FBI representatives had relied on compositional bullet-lead evidence in thousands
+          of criminal cases since the 1960s and emphasizes the very limited conclusions the results can support.
+      - title: Forensic Analysis — Weighing Bullet Lead Evidence — Interpretation
+        url: https://www.nationalacademies.org/read/10924/chapter/6
+        publisher: National Research Council — National Academies Press
+        note: >-
+          Finds that available data do not support attribution to a particular ammunition box, calls box references
+          seriously misleading, and states that compositional data alone cannot establish the date of manufacture.
+      - title: Forensic Science — Hearing before the Senate Committee on the Judiciary
+        url: https://www.congress.gov/event/110th-congress/senate-event/LC9523/text
+        publisher: United States Congress
+        note: >-
+          FBI Director Robert Mueller described the Bureau's response to the National Academies review, explaining that
+          the laboratory analysis was considered appropriate while statistical interpretation could be overstated, and
+          that the FBI stopped using the examination in 2005 and pursued case notification and review.

@@ -1,0 +1,91 @@
+locale: de
+entryId: remote-molecular-substance-detectors
+sourceReviewedAt: 2026-08-23
+title: Fern-„Molekulardetektoren“ für Sprengstoff und Drogen
+claim: >-
+  Handgeräte mit passiver Antenne wie GT200 und ADE 651 wurden als fähig behandelt, versteckten Sprengstoff,
+  Drogen, Waffen oder andere Stoffe über behauptete molekulare oder elektrostatische Mechanismen aus der Ferne
+  zu erkennen – zuverlässig genug, um Durchsuchungen, Kontrollstellen, Festnahmen und andere Sicherheitsentscheidungen zu steuern.
+currentUnderstanding: >-
+  Für diese Geräte existierte kein validierter Mechanismus, der die behaupteten Stoffe aus der Ferne erkennen konnte.
+  Ein kontrollierter Test des GT200 ergab eine mit Zufall vereinbare Leistung; ein britisches Strafgericht bezeichnete
+  die ADE-Geräte als nutzlos und ihre Sprengstofferkennung als nicht besser als Zufall. Verlässliche Sprengstoff- oder
+  Drogenerkennung erfordert validierte physikalische, chemische, biologische, hundegestützte oder bildgebende Verfahren
+  und nicht die Bewegung einer unversorgten passiven Antenne.
+impact:
+  summary: >-
+    Das institutionelle Versagen bestand nicht nur in verschwenderischer Beschaffung. Nicht validierte Anzeigen wurden
+    in operative Sicherheitssignale übersetzt und beeinflussten Durchsuchungen, Hausbetretungen, Festnahmen,
+    Kontrollstellen und Entscheidungen darüber, ob Menschen oder Fahrzeuge gefährlich seien, während die Geräte ein
+    Vertrauen erzeugten, das kontrollierte Tests und spätere Strafverfahren nicht rechtfertigten.
+  highlights:
+    - value: '742'
+      label: Von Mexikos SEDENA beschaffte GT200-Geräte laut Parlamentsunterlagen
+    - value: 17 von 20
+      label: Fehlversuche des GT200 in einem Doppelblindtest mit zertifizierten Bedienern
+    - value: 7.000+
+      label: ADE-Geräte, die James McCormicks Unternehmen an die irakische Regierung und andere internationale Stellen verkaufte
+  context:
+    - >-
+      Beschaffungszahlen und fehlerhafte Geräteanzeigen erlauben keine belastbare Zahl von Fehlfestnahmen, Verletzten
+      oder Todesfällen. Bei der Strafzumessung gegen den ADE-651-Verkäufer hielt das englische Gericht ausdrücklich fest,
+      dass kein konkreter Todes- oder Verletzungsfall einem Gerät bewiesen zugerechnet werden könne, sah die erzeugte
+      Scheinsicherheit aber mit hoher Wahrscheinlichkeit als materiellen Beitrag zu Tod und Verletzungen an.
+    - >-
+      Das Ende der Mexiko-Episode bezeichnet den letzten in diesem Quellenbestand dokumentierten Zeitraum, in dem
+      Betrieb und institutionelle Verteidigung auf Bundesebene noch Gegenstand parlamentarischer Auseinandersetzung waren.
+      Es bedeutet nicht, dass an einem bestimmten Tag jedes GT200 aus jeder bundesstaatlichen oder kommunalen Behörde verschwand.
+episodes:
+  - id: mexico-2008-2014
+    polity: Mexiko
+    institutions:
+      - Secretaría de la Defensa Nacional (SEDENA)
+      - Secretaría de Marina (SEMAR)
+      - Procuraduría General de la República (PGR)
+      - Petróleos Mexicanos (PEMEX)
+    institutionalContext: >-
+      Die mexikanische Bundesregierung beschaffte GT200-Geräte für militärische, sicherheitsbehördliche,
+      staatsanwaltschaftliche und infrastrukturelle Aufgaben. SEDENA dokumentierte Einsätze öffentlich; die nationale
+      Menschenrechtskommission berichtete zugleich über militärische Nutzung von Geräteanzeigen bei Einsätzen gegen
+      organisierte Kriminalität und Hausbetretungen. Zwischen 2011 und 2014 stellten Wissenschaftler, Gerichte, CNDH und
+      Parlamentarier die Validität zunehmend infrage, während Parlamentsunterlagen weiterhin Betrieb und fehlende
+      einheitliche Aussetzung auf Bundesebene thematisierten.
+    summary: >-
+      Ab 2008 beschafften mexikanische Bundesbehörden GT200-„Molekulardetektoren“ zur Suche nach Drogen, Sprengstoff,
+      Waffen und ähnlichen Zielen. Parlamentsunterlagen nennen 742 Geräte für SEDENA, 102 für SEMAR, 54 für PEMEX und
+      sieben für die PGR. SEDENA-Pressemitteilungen dokumentieren ihren operativen Einsatz; die CNDH berichtete, dass
+      Streitkräfte GT200-Anzeigen in Ermittlungen gegen organisierte Kriminalität nutzten und darauf teilweise
+      Hausbetretungen stützten. Ein späterer Doppelblindtest mit zertifizierten Bedienern scheiterte in 17 von 20 Versuchen,
+      was mit Zufall vereinbar war. Bis 2014 hatten sich gerichtliche, wissenschaftliche, menschenrechtliche und
+      parlamentarische Einwände zu einer offenen institutionellen Auseinandersetzung entwickelt.
+    consequences:
+      - GT200-Anzeigen wurden bei militärischen Einsätzen und Maßnahmen gegen organisierte Kriminalität verwendet
+      - Gerätesignale trugen zu Durchsuchungen, Hausbetretungen, Festnahmen und Strafverfahren bei
+      - Bundesbehörden gaben öffentliche Mittel für mehr als tausend Geräte im mexikanischen Staatsapparat aus
+      - Gerichte und Menschenrechtsorgane befassten sich später mit den wissenschaftlichen und verfassungsrechtlichen Folgen der Nutzung
+  - id: iraq-2007-2016
+    polity: Irak
+    institutions:
+      - Ministry of Interior of Iraq
+      - General Directorate for Combating Explosives, Ministry of Interior
+      - Iraqi Police Service
+    institutionalContext: >-
+      Die Beschaffung durch das Innenministerium begann mit Vertrag 2/2007 nach einem Bedarf aus der für
+      Sprengstoffbekämpfung zuständigen Direktion. Geräte der ADE-Familie wurden anschließend an irakischen Kontrollstellen
+      eingesetzt und blieben trotz internationaler Warnungen, Korruptionsermittlungen und der britischen Betrugsverurteilung
+      des Verkäufers von 2013 im Polizeieinsatz. Premierminister Haider al-Abadi ordnete erst im Juli 2016 an, die
+      Scheindetektoren nicht mehr zu verwenden.
+    summary: >-
+      Das irakische Innenministerium begann 2007 mit der Beschaffung von ADE-Geräten für die Sprengstoffabwehr; die
+      Geräte wurden anschließend zum vertrauten Bestandteil von Polizei- und Sicherheitskontrollstellen. 2013 verurteilte
+      das Central Criminal Court in London den Verkäufer James McCormick wegen Betrugs. Der Richter bezeichnete die
+      Geräte als nutzlos und ihre Sprengstofferkennung als nicht besser als Zufall; die erzeugte Scheinsicherheit habe
+      mit hoher Wahrscheinlichkeit zu Tod und Verletzungen beigetragen, ohne dass ein konkretes Opfer einem Gerät sicher
+      zugerechnet werden könne. Trotzdem blieben die Geräte bis Juli 2016 im irakischen Polizeieinsatz, als Premierminister
+      Haider al-Abadi den Sicherheitsdiensten ihre weitere Nutzung untersagte.
+    consequences:
+      - ADE-Geräte wurden zur Kontrolle von Fahrzeugen und Personen an Sicherheitskontrollstellen eingesetzt
+      - Sicherheitskräfte vertrauten Geräteanzeigen bei der Bewertung von Sprengstoffgefahr
+      - Große öffentliche Ausgaben flossen in später als nutzlos erkannte Geräte
+      - Die Nutzung dauerte noch Jahre nach Warnungen, Ermittlungen und ausländischen Beschränkungen an
+      - Die erzeugte Scheinsicherheit stellte an Hochrisiko-Kontrollstellen selbst eine fortdauernde Gefahr dar

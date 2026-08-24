@@ -1,0 +1,59 @@
+locale: de
+entryId: comparative-bullet-lead-source-attribution
+sourceReviewedAt: 2026-08-23
+title: Vergleichende Geschossbleianalyse als Herkunftszuschreibung
+claim: >-
+  Geschosse mit nicht unterscheidbarer Spurenelementzusammensetzung wurden als Hinweis behandelt, dass sie
+  wahrscheinlich aus derselben Munitionsschachtel, demselben Produktionslos oder einer eng gemeinsamen Quelle
+  stammten, sodass Tatgeschosse stark mit Munition aus dem Besitz eines Verdächtigen verknüpft werden konnten.
+currentUnderstanding: >-
+  Die Elementanalyse kann manche Bleiproben voneinander unterscheiden, doch eine analytische Übereinstimmung
+  identifiziert weder eine bestimmte Munitionsschachtel noch ein Herstellungsdatum. Verschiedene Produktionsquellen
+  können chemisch nicht unterscheidbar sein; außerdem fehlten belastbare Häufigkeits- und Verteilungsdaten für starke
+  Herkunftswahrscheinlichkeiten. Eine Übereinstimmung erlaubt daher nur eine begrenzte Assoziation, keine spezifische
+  Herkunftszuschreibung.
+impact:
+  summary: >-
+    Der institutionelle Fehler bestand nicht darin, dass die chemische Analyse überhaupt nichts maß. Aus einer realen
+    chemischen Ähnlichkeit wurden jedoch teilweise wesentlich stärkere Herkunftsaussagen abgeleitet, als Herstellungs-
+    und Statistikdaten rechtfertigten, und diese Aussagen gelangten über das FBI Laboratory in Ermittlungen und Prozesse.
+  highlights:
+    - value: Tausende
+      label: Strafverfahren, in denen FBI-Aussagen laut National Research Council auf der Geschossbleianalyse beruhten
+    - value: '2004'
+      label: Der National Research Council verwarf die Zuordnung zu einer bestimmten Schachtel oder einem Herstellungszeitpunkt
+    - value: '2005'
+      label: Das FBI Laboratory stellte die Untersuchung ein
+  context:
+    - >-
+      Der Bericht von 2004 erklärte die Messung von Spurenelementen nicht für wertlos. Er stellte vielmehr fest, dass
+      manche Proben unterscheidbar sind, zugleich aber zufällig nicht unterscheidbare Bleizusammensetzungen vorkommen
+      und die vor Gericht verwendete Schlussfolgerung deutlich begrenzt werden muss.
+    - >-
+      Das FBI erklärte später gegenüber dem Kongress, der analytische Laborteil sei grundsätzlich tragfähig gewesen,
+      während die statistische Interpretation überzogen werden konnte. 2005 stellte das Bureau die Untersuchung ein
+      und leitete Benachrichtigungs- und Überprüfungsmaßnahmen ein.
+episodes:
+  - id: united-states-1960-2005
+    polity: Vereinigte Staaten
+    institutions:
+      - Federal Bureau of Investigation Laboratory
+    institutionalContext: >-
+      Der National Research Council datiert die forensische Nutzung der vergleichenden Geschossbleianalyse auf die
+      1960er-Jahre. Das FBI Laboratory führte die Untersuchung in Bundesverfahren sowie auf Ersuchen einzelstaatlicher
+      und lokaler Behörden durch; FBI-Sachverständige berichteten anschließend über die Bedeutung chemischer
+      Übereinstimmungen und sagten dazu vor Gericht aus. startYear 1960 steht hier für das belegte Jahrzehnt und nicht
+      für einen behaupteten exakten Einführungstag.
+    summary: >-
+      Von den 1960er-Jahren bis 2005 verwendete das FBI Laboratory die vergleichende Elementanalyse von Geschossblei,
+      wenn eine klassische Untersuchung von Waffen- und Geschossspuren nicht möglich oder sinnvoll war. Nach Angaben
+      des National Research Council stützten sich FBI-Sachverständige in Tausenden Strafverfahren auf diese Methode.
+      Die chemischen Messungen konnten manche Proben unterscheiden, doch die Herkunftsdeutung war wesentlich schwächer:
+      2004 stellte der National Research Council fest, dass sich aus einer Übereinstimmung weder die Herkunft aus einer
+      bestimmten Munitionsschachtel noch ein Herstellungsdatum ableiten lasse. 2005 stellte das FBI die Untersuchung ein,
+      nachdem deutlich geworden war, dass ihre statistische Interpretation überzogen werden konnte.
+    consequences:
+      - Tatgeschosse wurden mit Munition aus dem Besitz von Verdächtigen in Verbindung gebracht
+      - FBI-Laborberichte und Sachverständigenaussagen wurden in Bundes- und einzelstaatlichen Strafverfahren verwendet
+      - Hinweise auf dieselbe Munitionsschachtel oder denselben Herstellungszeitraum konnten einer chemischen Übereinstimmung zu großes Gewicht geben
+      - Nach Einstellung der Methode leitete das FBI Benachrichtigungs- und Fallüberprüfungen ein

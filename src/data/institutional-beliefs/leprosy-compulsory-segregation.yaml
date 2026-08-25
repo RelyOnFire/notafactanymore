@@ -1,27 +1,36 @@
 title: Leprosy as requiring prolonged compulsory segregation
-claim: People with leprosy were treated as dangerous enough to require prolonged compulsory segregation even after
+claim: >-
+  People with leprosy were treated as dangerous enough to require prolonged compulsory segregation even after
   effective chemotherapy had made a blanket isolation policy medically unnecessary.
-currentUnderstanding: 'Leprosy is transmissible, but transmission generally requires prolonged close contact with
-  an untreated case. Effective multidrug treatment rapidly ends infectiousness: WHO states that a patient stops
-  transmitting the disease once treatment begins. Medical care and follow-up may be necessary, but prolonged blanket
-  segregation of treated patients is not required for infection control.'
+currentUnderstanding: >-
+  Leprosy is transmissible, but transmission generally requires prolonged close contact with an untreated case.
+  Effective treatment ends infectiousness, so medical care and follow-up may be necessary without prolonged blanket
+  segregation of treated patients. Modern WHO guidance states that a patient stops transmitting the disease once
+  treatment begins.
 category: Medicine, infectious disease and public health
 reviewedAt: '2026-08-24'
 impact:
-  summary: Japan maintained a segregation system long after its medical rationale had collapsed. The government’s
-    own Hansen’s disease verification process concluded that chemotherapy had made segregation unnecessary and that
-    by 1960 the Health Minister had enough knowledge to recognize this. Nevertheless, the legal segregation framework
-    persisted until 1996.
+  summary: >-
+    Hawaiʻi and Japan both retained segregation frameworks after effective chemotherapy had undermined the rationale
+    for blanket isolation. In Hawaiʻi, sulfone therapy arrived in 1946 and later official histories date the end of
+    forced isolation at Kalaupapa to 1949, yet the formal isolation policy survived until 1969. In Japan, a later
+    government review found segregation medically indefensible by about 1960, but the legal framework remained until 1996.
   highlights:
-  - value: '1960'
-    label: Later official review found that the medical basis for segregation was no longer defensible by this point
+  - value: '1946'
+    label: Sulfone treatment reached Hawaiʻi and removed the medical need for blanket isolation
+  - value: '1949'
+    label: Later Hawaiʻi legislative and NPS histories date the end of forced isolation at Kalaupapa to this year
+  - value: '1969'
+    label: Hawaiʻi formally abolished its isolation policy
   - value: 36 years
-    label: The segregation framework persisted from the representative 1960 correction point until repeal in 1996
-  - value: '1996'
-    label: Japan finally repealed the Leprosy Prevention Law and ended the legal segregation regime
+    label: Japan's segregation framework persisted from the representative 1960 correction point until repeal in 1996
   context:
-  - Untreated leprosy can transmit. The corrected proposition is not “leprosy is never contagious,” but that prolonged
-    compulsory segregation remained necessary after effective treatment had made routine isolation medically unjustified.
+  - >-
+    Untreated leprosy can transmit. The corrected proposition is not “leprosy is never contagious,” but that prolonged
+    compulsory segregation remained necessary after effective treatment had made routine blanket isolation medically unjustified.
+  - >-
+    Hawaiʻi's 1946–1969 episode does not mean every patient remained continuously confined for those 23 years. Forced
+    isolation eased and is described in later official histories as ending in 1949; 1969 marks formal abolition of the policy.
 episodes:
 - id: japan-1960-1996
   polity: Japan
@@ -34,28 +43,85 @@ episodes:
   - medical
   institutions:
   - Ministry of Health and Welfare of Japan
-  institutionalContext: Japan’s segregation policy had much earlier origins, but 1960 is used as the defensible
-    start of the institutional-error period because the later government verification process found that, by then,
-    the Health Minister either possessed or could readily obtain the medical knowledge necessary to conclude that
-    segregation was unnecessary. The policy and Leprosy Prevention Law nevertheless remained in force until 1996.
+  institutionalContext: >-
+    Japan's segregation policy had much earlier origins, but 1960 is used as the defensible start of the institutional-error
+    period because the later government verification process found that, by then, the Health Minister either possessed
+    or could readily obtain the medical knowledge necessary to conclude that segregation was unnecessary. The policy
+    and Leprosy Prevention Law nevertheless remained in force until 1996.
   consequences:
-  - Continued confinement and segregation of people with Hansen’s disease
+  - Continued confinement and segregation of people with Hansen's disease
   - Severe restrictions on family life, residence and social participation
   - State reinforcement of public stigma that treated patients as continuing dangers
   - Decades of rights violations after the medical justification for blanket segregation had disappeared
-  summary: Japan continued a legal segregation regime for people with Hansen’s disease after effective chemotherapy
-    had made blanket isolation medically unnecessary. The government’s later verification committee concluded that
-    the need for segregation was already medically indefensible by about 1960 and that official policy reinforced
-    the belief that patients remained dangerous. The Leprosy Prevention Law was not repealed until 1996.
+  summary: >-
+    Japan continued a legal segregation regime for people with Hansen's disease after effective chemotherapy had made
+    blanket isolation medically unnecessary. The government's later verification committee concluded that the need
+    for segregation was already medically indefensible by about 1960 and that official policy reinforced the belief
+    that patients remained dangerous. The Leprosy Prevention Law was not repealed until 1996.
   sources:
-  - title: Verification Committee Concerning Hansen’s Disease — Final Report
+  - title: Verification Committee Concerning Hansen's Disease — Final Report
     url: https://www.mhlw.go.jp/english/policy/health/01/pdf/01.pdf
     publisher: Ministry of Health, Labour and Welfare of Japan
-    note: Official government verification report concluding that chemotherapy had made segregation unnecessary,
-      that by 1960 the Health Minister had sufficient medical information to judge the necessity of segregation,
-      and that the segregation framework persisted until repeal in 1996.
+    note: >-
+      Official government verification report concluding that chemotherapy had made segregation unnecessary, that
+      by 1960 the Health Minister had sufficient medical information to judge the necessity of segregation, and that
+      the segregation framework persisted until repeal in 1996.
   - title: Leprosy — Fact sheet
     url: https://www.who.int/news-room/fact-sheets/detail/leprosy
     publisher: World Health Organization
-    note: Current WHO evidence says transmission follows prolonged close contact with an untreated case rather than
-      casual contact, and that a patient stops transmitting the disease upon initiation of treatment.
+    note: >-
+      Current WHO evidence says transmission follows prolonged close contact with an untreated case rather than casual
+      contact, and that a patient stops transmitting the disease upon initiation of treatment.
+- id: united-states-hawaii-1946-1969
+  polity: United States — Hawaiʻi
+  region: North America
+  startYear: 1946
+  endYear: 1969
+  strength: policy-basis
+  institutionTypes:
+  - government
+  - medical
+  institutions:
+  - Board of Health, Territory of Hawaiʻi
+  - Hawaiʻi Department of Health
+  institutionalContext: >-
+    Hawaiʻi's compulsory-isolation regime began in the nineteenth century, but this episode starts in 1946 because
+    effective sulfone treatment then reached Hawaiʻi and removed the medical rationale for blanket isolation of treated
+    patients. Later official histories describe forced isolation at Kalaupapa as ending in 1949, while the state's
+    formal isolation policy and legal framework were not abolished until 1969. The episode therefore distinguishes
+    the easing of confinement from the later institutional repeal.
+  consequences:
+  - Continued compulsory isolation during the transition after effective treatment became available
+  - Persistence of a formal segregation policy after its blanket medical rationale had collapsed
+  - Continued institutional reinforcement of stigma around people with Hansen's disease
+  - Delayed restoration of ordinary residence and community life as the old isolation system was dismantled
+  summary: >-
+    Sulfone therapy was introduced in Hawaiʻi in 1946 and made treated Hansen's disease patients noninfectious,
+    eliminating the medical need for blanket isolation. Later Hawaiʻi legislative and National Park Service histories
+    date the end of forced isolation at Kalaupapa to 1949, but the state did not formally abolish its isolation policy
+    until 1969. The episode therefore captures the institutional lag between effective treatment, the practical end
+    of forced isolation, and final repeal of the segregation framework.
+  sources:
+  - title: A Brief History of Kalaupapa
+    url: https://www.nps.gov/kala/learn/historyculture/a-brief-history-of-kalaupapa.htm
+    publisher: National Park Service
+    note: >-
+      Official NPS history states that sulfone drugs were introduced in Hawaiʻi in 1946, treated patients were no longer
+      contagious and there was no further need for isolation, while forced-quarantine laws were abolished in 1969.
+  - title: The History of Hansen's Disease in Hawaiʻi
+    url: https://www.nps.gov/kala/learn/historyculture/hansensdisease.htm
+    publisher: National Park Service
+    note: >-
+      Official history describes effective sulfone treatment and the long interval before Hawaiʻi abolished its isolation policy in 1969.
+  - title: S.B. No. 697, C.D. 1 — Kalaupapa Memorial and history
+    url: https://data.capitol.hawaii.gov/sessions/session2021/Bills/SB697_CD1_.HTM
+    publisher: Hawaiʻi State Legislature
+    note: >-
+      Legislative history states that sulfone treatment introduced in 1946 removed the need for isolation, forced
+      isolation at Kalaupapa ended in 1949, and the state's official isolation policy did not end until 1969.
+  - title: Kalaupapa Updates
+    url: https://health.hawaii.gov/kalaupapaupdates/
+    publisher: Hawaiʻi Department of Health
+    note: >-
+      Current state health page records that the isolation order was lifted in 1969 after effective antibiotic treatment
+      had transformed Hansen's disease care.

@@ -1,14 +1,16 @@
 locale: de
 entryId: homeopathy-effective-treatment
-sourceReviewedAt: '2026-08-23'
+sourceReviewedAt: '2026-08-24'
 title: Homöopathie als wirksame Behandlung
-claim: Homöopathische Präparate wurden als therapeutisch wirksam genug behandelt, um ihre Bereitstellung oder Erstattung
-  in öffentlichen Gesundheitssystemen zu rechtfertigen.
-currentUnderstanding: Für Homöopathie sind bei keiner bekannten Krankheit robuste und reproduzierbare therapeutische
-  Wirkungen über den Placeboeffekt hinaus belegt. Zentrale Annahmen der Homöopathie – darunter Wirkungen extremer
-  Verdünnungen, die kein Molekül des Ausgangsstoffs mehr enthalten können – sind mit etablierter Chemie und Pharmakologie
-  nicht vereinbar. Zuwendung und Placeboeffekte können das subjektive Befinden beeinflussen, belegen aber keine
-  spezifische Wirkung des homöopathischen Präparats.
+claim: >-
+  Homöopathie wurde institutionell als medizinisch wirksame Therapie behandelt – stark genug, um öffentliche
+  Bereitstellung, Erstattung, formelle Einbindung in Gesundheitssysteme oder ärztliche Zertifizierung zu rechtfertigen.
+currentUnderstanding: >-
+  Für Homöopathie sind bei keiner bekannten Krankheit robuste und reproduzierbare therapeutische Wirkungen über den
+  Placeboeffekt hinaus belegt. Zentrale Annahmen der Homöopathie – darunter Wirkungen extremer Verdünnungen, die kein
+  Molekül des Ausgangsstoffs mehr enthalten können – sind mit etablierter Chemie und Pharmakologie nicht vereinbar.
+  Zuwendung und Placeboeffekte können das subjektive Befinden beeinflussen, belegen aber keine spezifische Wirkung
+  des homöopathischen Präparats.
 episodes:
 - id: united-kingdom-1948-2017
   polity: Vereinigtes Königreich
@@ -18,12 +20,13 @@ episodes:
   - Bristol Homeopathic Hospital
   - Liverpool Homeopathic Hospital
   - Glasgow Homoeopathic Hospital
-  institutionalContext: Homöopathie war im NHS über spezialisierte Krankenhäuser, hausärztliche Verordnungen und
-    lokale Beauftragung verankert, nicht über eine einzige nationale Homöopathiebehörde. Die genannten Krankenhäuser
-    waren konkrete institutionelle Träger; Primary Care Trusts und spätere lokale Beauftragungsstellen steuerten
-    einen großen Teil von Finanzierung und Überweisungen. NHS England leitete 2017 die nationale Kehrtwende bei
-    der Verordnung ein.
-  summary: Homöopathie wurde seit der Gründung des NHS 1948 öffentlich finanziert und angeboten, unter anderem über
+  institutionalContext: >-
+    Homöopathie war im NHS über spezialisierte Krankenhäuser, hausärztliche Verordnungen und lokale Beauftragung
+    verankert, nicht über eine einzige nationale Homöopathiebehörde. Die genannten Krankenhäuser waren konkrete
+    institutionelle Träger; Primary Care Trusts und spätere lokale Beauftragungsstellen steuerten einen großen Teil
+    von Finanzierung und Überweisungen. NHS England leitete 2017 die nationale Kehrtwende bei der Verordnung ein.
+  summary: >-
+    Homöopathie wurde seit der Gründung des NHS 1948 öffentlich finanziert und angeboten, unter anderem über
     spezialisierte homöopathische Krankenhäuser und Verordnungen in der Primärversorgung. Eine Untersuchung des
     britischen Unterhauses kam 2010 zu dem Schluss, dass die Evidenz keine Wirksamkeit über Placebo hinaus stützte
     und empfahl ein Ende der NHS-Finanzierung. 2017 führte NHS England nationale Leitlinien ein, nach denen Homöopathie
@@ -37,16 +40,17 @@ episodes:
   institutions:
   - Assurance Maladie
   - Ministère des Affaires sociales et de la Solidarité nationale
-  institutionalContext: Die Erstattungsliste von 1984 wurde vom Ministère des Affaires sociales et de la Solidarité
-    nationale erlassen und über die gesetzliche Krankenversicherung sowie ein verteiltes Netz aus verordnenden Ärzten
-    und Apotheken umgesetzt. Diese professionelle Infrastruktur wird hier beschrieben, statt sie als eine einzelne
-    Institution auszugeben. 2019 führte die Haute Autorité de Santé die wissenschaftliche Neubewertung durch, die
-    zum Ende der Erstattung führte.
-  summary: Homöopathische Arzneimittel waren in Frankreich auf Grundlage einer Regelung von 1984 durch die gesetzliche
+  institutionalContext: >-
+    Die Erstattungsliste von 1984 wurde vom Ministère des Affaires sociales et de la Solidarité nationale erlassen
+    und über die gesetzliche Krankenversicherung sowie ein verteiltes Netz aus verordnenden Ärzten und Apotheken
+    umgesetzt. Diese professionelle Infrastruktur wird hier beschrieben, statt sie als eine einzelne Institution
+    auszugeben. 2019 führte die Haute Autorité de Santé die wissenschaftliche Neubewertung durch, die zum Ende der
+    Erstattung führte.
+  summary: >-
+    Homöopathische Arzneimittel waren in Frankreich auf Grundlage einer Regelung von 1984 durch die gesetzliche
     Krankenversicherung erstattungsfähig. 2019 führte die Haute Autorité de Santé erstmals eine wissenschaftliche
     Bewertung speziell zur Erstattungsfähigkeit durch und kam zu dem Ergebnis, dass die Wirksamkeit für eine öffentliche
-    Finanzierung nicht ausreichend belegt war. 2020 wurde die Erstattung reduziert und zum 1. Januar 2021 vollständig
-    beendet.
+    Finanzierung nicht ausreichend belegt war. 2020 wurde die Erstattung reduziert und zum 1. Januar 2021 vollständig beendet.
   consequences:
   - Öffentliche Erstattung homöopathischer Arzneimittel
   - Routinemäßige Verordnung im versicherten Gesundheitssystem
@@ -56,12 +60,14 @@ episodes:
   institutions:
   - Ministério da Saúde
   - Sistema Único de Saúde (SUS)
-  institutionalContext: PNPIC ist eine bundesweite Politik des Ministério da Saúde und wird über das dezentral organisierte
-    SUS umgesetzt. Gesundheitssekretariate und Versorgungsstellen der Bundesstaaten und Gemeinden erbringen einen
-    großen Teil der konkreten Leistungen; weil diese je nach Gebiet unterschiedlich sind, werden sie hier als Umsetzungsapparat
+  institutionalContext: >-
+    PNPIC ist eine bundesweite Politik des Ministério da Saúde und wird über das dezentral organisierte SUS umgesetzt.
+    Gesundheitssekretariate und Versorgungsstellen der Bundesstaaten und Gemeinden erbringen einen großen Teil der
+    konkreten Leistungen; weil diese je nach Gebiet unterschiedlich sind, werden sie hier als Umsetzungsapparat
     beschrieben und nicht als eine erfundene Einzelinstitution geführt.
-  summary: Brasiliens Nationale Politik für Integrative und Komplementäre Praktiken nahm Homöopathie 2006 ausdrücklich
-    in das öffentliche SUS-System auf und wies staatliche Stellen an, homöopathische Konsultationen, Arzneimittel,
+  summary: >-
+    Brasiliens Nationale Politik für Integrative und Komplementäre Praktiken nahm Homöopathie 2006 ausdrücklich in
+    das öffentliche SUS-System auf und wies staatliche Stellen an, homöopathische Konsultationen, Arzneimittel,
     Fortbildung und Versorgungsangebote auszubauen. Die Politik schrieb der Homöopathie Beiträge zu Prävention und
     Genesung sowie zu einer Verringerung konventioneller Interventionen zu. Homöopathie ist 2026 weiterhin Bestandteil
     des nationalen PNPIC-Rahmens.
@@ -70,3 +76,29 @@ episodes:
   - Einbindung in Primär- und Spezialversorgung
   - Öffentliche Bereitstellung homöopathischer Arzneimittel
   - Ausbildung und Verbreitung im Gesundheitssystem
+- id: austria-1994-2026
+  polity: Österreich
+  institutions:
+  - Österreichische Ärztekammer
+  - Österreichische Akademie der Ärzte
+  institutionalContext: >-
+    Die Österreichische Ärztekammer führte 1994 ein Spezialdiplom für Homöopathie ein und hält es bis heute in ihrem
+    formellen ärztlichen Weiterbildungssystem aufrecht. Das aktuelle Curriculum bezeichnet Homöopathie als ärztliche
+    Therapie mit Arzneimittelprüfung am gesunden Menschen, Potenzierung und Ähnlichkeitsprinzip und sieht vor, dass
+    Absolventinnen und Absolventen akute und chronische Erkrankungen nach den Regeln der Homöopathie behandeln können.
+    Die Österreichische Akademie der Ärzte administriert das Diplom im Auftrag der Ärztekammer. Dies ist eine berufliche
+    Zertifizierung und keine allgemeine Kassenleistung: Die österreichische Sozialversicherung hat Homöopathie getrennt
+    davon als nicht wissenschaftlich gesicherte Heilmethode und homöopathische Arzneimittel grundsätzlich als nicht
+    ausreichend wirksam für eine Erstattung eingeordnet.
+  summary: >-
+    Die Österreichische Ärztekammer zertifiziert Ärztinnen und Ärzte seit 1994 in Homöopathie. Ihr aktuelles ÖÄK-Diplom
+    definiert die Methode als ärztliche Therapie, lehrt Potenzierung und Ähnlichkeitsprinzip und sieht die Behandlung
+    akuter und chronischer Erkrankungen vor. Das Diplom ist weiterhin aktiv: Im Fortbildungsbericht 2025 wurden zum
+    Jahresende 2024 insgesamt 675 Diplominhaberinnen und -inhaber gezählt. Diese Anerkennung besteht neben einer
+    ausdrücklich anderen österreichischen gesundheitspolitischen Bewertung, nach der Homöopathie wissenschaftlich
+    nicht gesichert ist und homöopathische Arzneimittel grundsätzlich nicht die Evidenzschwelle für eine Erstattung erreichen.
+  consequences:
+  - Formelles ärztliches Diplom für homöopathische Diagnostik und Behandlung
+  - Dreijähriger Weiterbildungspfad mit 350 Unterrichtseinheiten unter Anerkennung der Ärztekammer
+  - Berufliche Legitimation der Behandlung akuter und chronischer Erkrankungen nach homöopathischen Prinzipien
+  - Hunderte aktuell diplomierte Ärztinnen und Ärzte trotz fehlender robuster Evidenz für eine spezifische therapeutische Wirkung

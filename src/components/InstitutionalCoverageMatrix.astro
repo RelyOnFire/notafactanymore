@@ -1,6 +1,12 @@
 ---
 import { getCollection } from 'astro:content';
 import type { SiteLocale } from '../lib/i18n';
+import {
+  institutionalCoverageRegions,
+  institutionalCoverageRegionLabel,
+  resolveInstitutionalCoverageRegion,
+  type InstitutionalCoverageRegionId,
+} from '../lib/institutionalCoverageRegions';
 
 interface Props {
   locale?: SiteLocale;
@@ -14,6 +20,10 @@ const allEpisodes = beliefs.flatMap((belief) =>
   belief.data.episodes.map((episode) => ({
     ...episode,
     beliefId: belief.id,
+    coverageRegionId: resolveInstitutionalCoverageRegion({
+      polity: episode.polity,
+      region: episode.region,
+    }),
   }))
 );
 
@@ -66,101 +76,36 @@ const coveragePeriods = [
   },
 ];
 
-const baseCoverageRegions = [
-  {
-    id: 'north-america',
-    keys: ['North America'],
-    en: 'North America',
-    de: 'Nordamerika',
-  },
-  {
-    id: 'latin-america-caribbean',
-    keys: ['Latin America', 'Caribbean'],
-    en: 'Latin America & Caribbean',
-    de: 'Lateinamerika & Karibik',
-  },
-  {
-    id: 'europe',
-    keys: ['Europe'],
-    en: 'Europe',
-    de: 'Europa',
-  },
-  {
-    id: 'eastern-europe',
-    keys: ['Eastern Europe'],
-    en: 'Eastern Europe',
-    de: 'Osteuropa',
-  },
-  {
-    id: 'eurasia',
-    keys: ['Eurasia'],
-    en: 'USSR / Eurasia',
-    de: 'UdSSR / Eurasien',
-  },
-  {
-    id: 'middle-east',
-    keys: ['Middle East'],
-    en: 'Middle East',
-    de: 'Naher Osten',
-  },
-  {
-    id: 'south-asia',
-    keys: ['South Asia'],
-    en: 'South Asia',
-    de: 'Südasien',
-  },
-  {
-    id: 'east-asia',
-    keys: ['East Asia'],
-    en: 'East Asia',
-    de: 'Ostasien',
-  },
-  {
-    id: 'southeast-asia',
-    keys: ['Southeast Asia'],
-    en: 'Southeast Asia',
-    de: 'Südostasien',
-  },
-  {
-    id: 'central-asia',
-    keys: ['Central Asia'],
-    en: 'Central Asia',
-    de: 'Zentralasien',
-  },
-  {
-    id: 'africa',
-    keys: ['Africa'],
-    en: 'Africa',
-    de: 'Afrika',
-  },
-  {
-    id: 'oceania',
-    keys: ['Oceania'],
-    en: 'Oceania',
-    de: 'Ozeanien',
-  },
-];
+const unclassifiedEpisodes = allEpisodes.filter(
+  (episode) => episode.coverageRegionId === 'unclassified'
+);
 
-const knownRegionKeys = new Set(baseCoverageRegions.flatMap((region) => region.keys));
-const extraRegionKeys = [...new Set(allEpisodes.map((episode) => episode.region))]
-  .filter((region) => !knownRegionKeys.has(region))
-  .sort((a, b) => a.localeCompare(b, locale));
+if (unclassifiedEpisodes.length > 0) {
+  console.warn(
+    '[InstitutionalCoverageMatrix] Unclassified episode polities:',
+    [...new Set(unclassifiedEpisodes.map((episode) => `${episode.polity} (${episode.region})`))].join(', ')
+  );
+}
+
+const diagnosticRegion = {
+  id: 'unclassified' as InstitutionalCoverageRegionId,
+  en: 'Unclassified',
+  de: 'Nicht klassifiziert',
+  target: false,
+};
 
 const coverageRegions = [
-  ...baseCoverageRegions,
-  ...extraRegionKeys.map((region) => ({
-    id: `other-${region.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
-    keys: [region],
-    en: region,
-    de: region,
-  })),
+  ...institutionalCoverageRegions,
+  ...(unclassifiedEpisodes.length > 0 ? [diagnosticRegion] : []),
 ];
 
-const regionHasEpisode = (regionKeys: string[]) =>
-  allEpisodes.some((episode) => regionKeys.includes(episode.region));
+const targetCoverageRegions = institutionalCoverageRegions.filter((region) => region.target);
 
-const coveredRegionCount = coverageRegions.filter((region) =>
-  regionHasEpisode(region.keys)
+const regionHasEpisode = (regionId: InstitutionalCoverageRegionId) =>
+  allEpisodes.some((episode) => episode.coverageRegionId === regionId);
+
+const coveredRegionCount = targetCoverageRegions.filter((region) =>
+  regionHasEpisode(region.id)
 ).length;
 
 const matrix = coverageRegions.map((region) => ({
@@ -169,10 +114,11 @@ const matrix = coverageRegions.map((region) => ({
   cells: coveragePeriods.map((period) => {
     const episodes = allEpisodes.filter(
       (episode) =>
-        region.keys.includes(episode.region) &&
+        episode.coverageRegionId === region.id &&
         episode.startYear <= period.end &&
         episode.endYear >= period.start
     );
+
     const polities = [...new Set(episodes.map((episode) => episode.polity))]
       .sort((a, b) => a.localeCompare(b, locale));
 
@@ -191,9 +137,11 @@ const copy = locale === 'de'
       eyebrow: 'Forschungsabdeckung',
       title: 'Abdeckung des Katalogs',
       intro:
-        'Die Matrix zeigt, welche Regionen und Zeiträume der derzeitige Katalog bereits dokumentiert. Gezählt werden institutionelle Episoden, deren Laufzeit den jeweiligen Zeitraum berührt.',
+        'Die Matrix zeigt, welche festen geografischen Abdeckungsregionen und Zeiträume der derzeitige Katalog bereits dokumentiert. Gezählt werden institutionelle Episoden, deren Laufzeit den jeweiligen Zeitraum berührt.',
       caution:
         'Sie beschreibt die Abdeckung dieser Sammlung, nicht die historische Häufigkeit institutioneller Irrtümer. Leere oder dünn besetzte Felder sind Forschungslücken im Katalog.',
+      taxonomy:
+        'Für die Vergleichbarkeit verwendet die Matrix eine feste Forschungstaxonomie statt der frei formulierten Regionsangabe einzelner Karten. Alternative geografische oder kulturelle Einordnungen können ebenfalls sinnvoll sein; überregionale Fälle werden getrennt zusammengefasst.',
       region: 'Region',
       episode: 'Episode',
       episodes: 'Episoden',
@@ -209,9 +157,11 @@ const copy = locale === 'de'
       eyebrow: 'Research coverage',
       title: 'Coverage of the catalogue',
       intro:
-        'This matrix shows which regions and periods the current catalogue already documents. A cell counts institutional episodes whose active span overlaps that period.',
+        'This matrix shows which fixed geographic coverage regions and periods the current catalogue already documents. A cell counts institutional episodes whose active span overlaps that period.',
       caution:
         'It describes the coverage of this collection, not the historical prevalence of institutional error. Empty or thin cells are research gaps in the catalogue.',
+      taxonomy:
+        'For comparability, the matrix uses one fixed research taxonomy rather than each card’s free-text region label. Other geographic or cultural classifications can also be valid; cross-regional cases are grouped separately.',
       region: 'Region',
       episode: 'episode',
       episodes: 'episodes',
@@ -232,16 +182,26 @@ const cellLabel = (count: number, polityCount: number) => {
 };
 ---
 
-<section class="coverage-section container" id="coverage" aria-labelledby="coverage-title">
+<section
+  class="coverage-section container"
+  id="coverage"
+  aria-labelledby="coverage-title"
+  data-coverage-locale={locale}
+>
   <header class="coverage-head">
     <div>
       <p class="eyebrow">{copy.eyebrow}</p>
       <h2 id="coverage-title">{copy.title}</h2>
       <p class="coverage-intro">{copy.intro}</p>
       <p class="coverage-caution">{copy.caution}</p>
+      <p class="coverage-taxonomy">{copy.taxonomy}</p>
     </div>
     <p class="coverage-summary">
-      {copy.summary(allEpisodes.length, coveredRegionCount, coverageRegions.length)}
+      {copy.summary(
+        allEpisodes.length,
+        coveredRegionCount,
+        targetCoverageRegions.length
+      )}
     </p>
   </header>
 
@@ -263,7 +223,7 @@ const cellLabel = (count: number, polityCount: number) => {
       </thead>
       <tbody>
         {matrix.map((row) => (
-          <tr>
+          <tr class={row.target ? undefined : 'coverage-special-row'}>
             <th scope="row">{row.label}</th>
             {row.cells.map((cell) => (
               <td
@@ -296,6 +256,90 @@ const cellLabel = (count: number, polityCount: number) => {
   <p class="coverage-density-note">{copy.densityNote}</p>
 </section>
 
+<script>
+  import {
+    institutionalCoverageRegions,
+    institutionalCoverageRegionLabel,
+    resolveInstitutionalCoverageRegion,
+  } from '../lib/institutionalCoverageRegions';
+
+  const normalizeRegionFilter = () => {
+    const select = document.querySelector<HTMLSelectElement>(
+      '.institutional-filter[data-filter="region"]'
+    );
+    const cards = [
+      ...document.querySelectorAll<HTMLElement>('.episode-card[data-region][data-polity]'),
+    ];
+
+    if (!select || cards.length === 0) return;
+
+    const locale = document.documentElement.lang.toLowerCase().startsWith('de')
+      ? 'de'
+      : 'en';
+
+    const usedRegionIds = new Set<string>();
+
+    cards.forEach((card) => {
+      const coverageRegionId = resolveInstitutionalCoverageRegion({
+        polity: card.dataset.polity ?? '',
+        region: card.dataset.region ?? '',
+      });
+
+      card.dataset.region = coverageRegionId;
+      usedRegionIds.add(coverageRegionId);
+    });
+
+    const firstOption = select.options[0];
+    const previousValue = select.value;
+    select.replaceChildren(firstOption);
+
+    institutionalCoverageRegions.forEach((region) => {
+      if (!usedRegionIds.has(region.id)) return;
+
+      const option = document.createElement('option');
+      option.value = region.id;
+      option.textContent = institutionalCoverageRegionLabel(region.id, locale);
+      select.append(option);
+    });
+
+    if (usedRegionIds.has('unclassified')) {
+      const option = document.createElement('option');
+      option.value = 'unclassified';
+      option.textContent = institutionalCoverageRegionLabel('unclassified', locale);
+      select.append(option);
+    }
+
+    const requestedRegion =
+      new URL(window.location.href).searchParams.get('region') ?? '';
+
+    if (
+      requestedRegion &&
+      [...select.options].some((option) => option.value === requestedRegion)
+    ) {
+      select.value = requestedRegion;
+    } else if (
+      [...select.options].some((option) => option.value === previousValue)
+    ) {
+      select.value = previousValue;
+    } else {
+      select.value = '';
+    }
+
+    // The catalogue component owns the filtering and URL-state machinery.
+    // Re-dispatch after normalization so any initial filtering that ran against
+    // the old free-text region values is recalculated with canonical ids.
+    requestAnimationFrame(() => {
+      select.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', normalizeRegionFilter, { once: true });
+  } else {
+    normalizeRegionFilter();
+  }
+</script>
+
 <style>
   .coverage-section {
     margin-top: 5.5rem;
@@ -320,11 +364,19 @@ const cellLabel = (count: number, polityCount: number) => {
     font-size: 1.02rem;
   }
 
-  .coverage-caution {
+  .coverage-caution,
+  .coverage-taxonomy {
     margin: 0.75rem 0 0;
     color: var(--muted);
     font-size: 0.9rem;
+  }
+
+  .coverage-caution {
     font-style: italic;
+  }
+
+  .coverage-taxonomy {
+    max-width: 76ch;
   }
 
   .coverage-summary {
@@ -395,6 +447,14 @@ const cellLabel = (count: number, polityCount: number) => {
 
   .coverage-table tbody th {
     font-weight: 800;
+  }
+
+  .coverage-special-row > th {
+    border-top: 2px solid var(--line);
+  }
+
+  .coverage-special-row > td {
+    border-top: 2px solid var(--line);
   }
 
   .coverage-cell {

@@ -1,0 +1,57 @@
+locale: de
+entryId: bertillon-anthropometry-identification
+sourceReviewedAt: '2026-08-24'
+title: Anthropometrische Körpermaße als zuverlässige Personenidentifikation
+claim: >-
+  Polizeibehörden behandelten standardisierte Körpermaße Erwachsener als stabil und trennscharf genug, um
+  Gewohnheitstäter primär zu erfassen, wiederzufinden und zu identifizieren.
+currentUnderstanding: >-
+  Körpermaße können zur Personenbeschreibung beitragen, doch ein kleiner Satz manuell erhobener Maße ist für eine
+  eigenständige verlässliche Identifikation nicht stabil und reproduzierbar genug. Messmethode, Gerätekalibrierung,
+  körperliche Veränderungen und Überschneidungen zwischen Personen erzeugen Fehler. In Britisch-Indien ersetzten
+  Behörden die anthropometrische Kartei durch Fingerabdruckklassifikation, nachdem diese für Strafregister als
+  effizienter und zuverlässiger bewertet worden war.
+impact:
+  summary: >-
+    Britisch-Indien führte 1892 die Bertillon-Anthropometrie formell zur Identifikation von Gewohnheitstätern ein.
+    Polizeiliche Karteien waren darauf angewiesen, dass Beamte standardisierte Körpermaße genau genug reproduzierten,
+    um frühere Akten einer Person wiederzufinden. Bereits fünf Jahre später empfahl eine amtliche Prüfung stattdessen
+    die Fingerabdruckklassifikation; im Juni 1897 führte die Government of India sie systemweit ein.
+  highlights:
+  - value: '1892'
+    label: Die Government of India führte die Bertillon-Anthropometrie für Gewohnheitstäter formell ein
+  - value: 5 Jahre
+    label: Zeitraum von der formellen Einführung bis zur staatlichen Einführung der Fingerabdruckklassifikation
+  - value: 12. Juni 1897
+    label: Eine Resolution der Government of India ersetzte die Anthropometrie durch Fingerabdruckidentifikation
+  context:
+  - >-
+    Beim Bertillon-System ging es nicht nur darum, Körpermaße beschreibend zu verwenden. Sein institutioneller Nutzen
+    setzte voraus, dass standardisierte Maße reproduzierbar und trennscharf genug waren, um eine frühere Strafakte
+    wiederzufinden und die Identität zu prüfen. Mess- und Gerätefehler untergruben genau diese Funktion.
+  - >-
+    Die Ablösung durch Fingerabdrücke ist die historische Korrektur dieses Verwaltungssystems. Daraus folgt weder,
+    dass jede Fingerabdruckanalyse unfehlbar ist, noch dass Körpermaße keinerlei legitime beschreibende Funktion haben.
+episodes:
+- id: british-india-1892-1897
+  polity: Britisch-Indien
+  institutions:
+  - Government of India
+  - Bengal Police
+  institutionalContext: >-
+    Die Bengal Police begann 1892 mit anthropometrischen Karteikarten; eine Anweisung der Government of India vom
+    10. Mai 1892 weitete das Bertillon-System zur Identifikation von Gewohnheitstätern aus. Erwachsene Gefangene wurden
+    anhand standardisierter Körpermaße klassifiziert, damit bei mutmaßlichen Wiederholungstätern frühere Akten
+    gefunden und verglichen werden konnten. Das Verfahren erforderte präzise Instrumente und sehr reproduzierbare
+    Messtechnik. 1897 bewertete ein amtliches Komitee die Fingerabdruckklassifikation für dieselbe Aufgabe als überlegen;
+    am 12. Juni führte die Government of India das Fingerabdrucksystem per Resolution ein.
+  summary: >-
+    Ab 1892 institutionalisierte Britisch-Indien die Bertillon-Anthropometrie zur Identifikation von Gewohnheitstätern,
+    wobei die Bengal Police zu den zentralen Anwendern gehörte. Das System verlangte von geschulten Beamten, standardisierte
+    Körpermaße so genau zu reproduzieren, dass frühere Akten wiedergefunden werden konnten. 1897 empfahl ein amtliches
+    Komitee Fingerabdrücke als überlegen; am 12. Juni 1897 führte die Government of India die Fingerabdruckklassifikation ein.
+  consequences:
+  - Gewohnheitstäter wurden über anthropometrische Strafregister vermessen und erfasst
+  - Polizeiliche Ausbildung und Aktenrecherche wurden um standardisierte Körpermaße organisiert
+  - Die Identifikation hing von Maßen ab, die für Bedienungs-, Geräte- und Klassifikationsfehler anfällig waren
+  - Nach amtlicher Prüfung ersetzte die Regierung das System durch Fingerabdruckklassifikation

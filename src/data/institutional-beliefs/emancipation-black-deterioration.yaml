@@ -1,0 +1,111 @@
+title: Emancipation as a cause of Black mental and social deterioration
+claim: >-
+  Emancipation was treated as a cause of Black mental and social deterioration, with defective federal census
+  disability statistics cited as quantitative evidence that Black people fared better under slavery.
+currentUnderstanding: >-
+  The 1840 census returns could not support that causal inference. Their disability statistics contained severe
+  enumeration and tabulation errors, and the columns for Black disability did not themselves distinguish free from
+  enslaved people. Towns were reported as containing insane Black residents despite reporting no Black residents at
+  all. Sectional differences constructed from these defective returns were not evidence that emancipation caused
+  mental illness, disability or social deterioration.
+category: Race, statistics and public policy
+reviewedAt: '2026-08-24'
+impact:
+  summary: >-
+    Defective statistics in the 1840 United States census were transformed into an official pro-slavery argument by
+    Secretary of State John C. Calhoun. In April 1844 he used sectional comparisons of disability returns in diplomatic
+    correspondence to argue that changing the relation between Black and white people had worsened Black people's
+    condition. Contemporary statisticians and asylum physicians exposed gross errors in the returns, and Congress
+    investigated the census, yet the Department of State defended the general conclusion again in 1845.
+  highlights:
+  - value: 1 in 96 vs 1 in 672
+    label: Calhoun's composite disability ratio for states without and with slavery; it was not an insanity-only statistic
+  - value: 56 of 94
+    label: alleged Black insanity cases in Maine assigned to towns that the same census reported as having no Black residents
+  - value: '1844'
+    label: congressional reports documented major errors in the sixth census
+  context:
+  - >-
+    The 1840 census itself is evidence production, not the start of this institutional-belief episode. The causal
+    proposition becomes an official federal position in 1844 when Secretary of State John C. Calhoun used the census
+    in State Department diplomacy to argue that emancipation or altered racial relations produced deterioration.
+  - >-
+    The census separately counted free Black people and enslaved people in its population columns, but its disability
+    section grouped “colored persons” together. Calhoun's 1-in-96 versus 1-in-672 comparison therefore relied on
+    sectional state categories rather than a direct census comparison of free and enslaved Black insanity rates.
+  - >-
+    Calhoun's ratio combined deafness, muteness, blindness, idiocy and insanity. It must not be described as a statistic
+    showing that free Black people were seven times more likely to be insane.
+episodes:
+- id: united-states-1844-1845
+  polity: United States
+  region: North America
+  startYear: 1844
+  endYear: 1845
+  periodLabel: 1844–1845
+  strength: officially-endorsed
+  institutionTypes:
+  - government
+  institutions:
+  - United States Department of State
+  institutionalContext: >-
+    The federal census of 1840 supplied the defective numerical material, but the Department of State supplied the
+    causal institutional endorsement. In an official letter to British minister Richard Pakenham dated 18 April 1844,
+    Secretary of State John C. Calhoun argued from census and other official statistics that Black people's condition
+    deteriorated where states had changed the racial “relation” associated with slavery. He cited sharply different
+    sectional disability ratios as evidence. After statistical and congressional challenges exposed major defects in
+    the census, the State Department nevertheless defended the general comparison in 1845.
+  consequences:
+  - Defective federal statistics were incorporated into an official United States diplomatic argument defending slavery
+  - Numerical authority gave a racial and medical claim the appearance of quantitative federal validation
+  - The Department of State continued to defend the comparison after formal statistical challenges
+  - The episode demonstrated how census errors could be converted into institutional racial policy arguments
+  summary: >-
+    In 1844 Secretary of State John C. Calhoun used the defective sixth-census disability returns in official
+    correspondence to argue that Black people suffered greater physical, mental and social deterioration where
+    slavery had been abolished or racial relations altered. The census did not directly report the free-versus-enslaved
+    insanity comparison often attributed to it: disability columns grouped Black people together, and Calhoun built
+    a sectional proxy from states with different slavery regimes. Contemporary investigators found impossible entries
+    and gross tabulation errors. Congress investigated the census, but the Department of State continued to defend
+    the broad conclusion into 1845.
+  sources:
+  - title: 1840 Census — questionnaire and schedules
+    url: https://www.census.gov/programs-surveys/decennial-census/technical-documentation/questionnaires.1840_Census.html
+    publisher: United States Census Bureau
+    note: >-
+      Official census documentation showing that population schedules separately counted free colored persons and
+      slaves, while the disability section used combined categories for “colored persons,” an important limitation
+      on later free-versus-enslaved comparisons.
+  - title: Message of the President transmitting correspondence concerning Texas — Senate Document 341
+    url: https://texashistory.unt.edu/ark:/67531/metapth2363/
+    publisher: United States Senate / Portal to Texas History
+    note: >-
+      Primary congressional publication containing Secretary of State John C. Calhoun's 18 April 1844 letter to
+      Richard Pakenham, in which census-based sectional disability comparisons were used to argue that altered racial
+      relations worsened Black people's condition.
+  - title: Fifth Annual Report of the Maine Insane Hospital, 1844
+    url: https://digitalmaine.com/amhi_reports/11/
+    publisher: State of Maine / Digital Maine
+    note: >-
+      Primary state asylum report in which Isaac Ray exposed impossible census returns for Black insanity in Maine,
+      including alleged cases assigned to towns that the same census reported as containing no Black inhabitants.
+  - title: House Reports 579 and 580, 28th Congress, 1st session — catalogue record
+    url: https://digital.library.unt.edu/ark:/67531/metadc9165/m1/502/
+    publisher: United States Government Printing Office / UNT Digital Library
+    note: >-
+      Official descriptive catalogue distinguishing the two congressional reports issued 17 June 1844: Report 579
+      addressed sectional statistics and slavery, while Report 580 addressed census inaccuracies and the memorial
+      of the American Statistical Association.
+  - title: Census Technology, Politics, and Institutional Change, 1790–2020
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8415740/
+    publisher: Journal of American History / PubMed Central
+    note: >-
+      Peer-reviewed institutional history documenting Edward Jarvis, William Brigham and J. Wingate Thornton's
+      American Statistical Association memorial challenging gross errors in the sixth census.
+  - title: Statistical View of the United States — 1850 Census
+    url: https://www.census.gov/library/publications/1854/dec/1850c.html
+    publisher: United States Census Bureau
+    note: >-
+      Official 1850 census publication representing the later federal statistical framework in which free Black and
+      enslaved populations were treated separately; the accompanying 1850 abstract acknowledged serious deficiencies
+      or tabulation errors in the 1840 insanity and idiocy returns.

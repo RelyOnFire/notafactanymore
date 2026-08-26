@@ -6,13 +6,12 @@ import { buildKnowledgeGraph } from '../lib/knowledgeGraph';
 import '../styles/knowledge-graph-dynamic.css';
 
 const entries = await getCollection('entries');
-const glossaryEntries = await getCollection('glossary');
-const data = buildKnowledgeGraph({ entries, glossaryEntries, locale: 'en' });
+const data = buildKnowledgeGraph({ entries, locale: 'en' });
 ---
 
 <BaseLayout
   title="Knowledge Map"
-  description="Explore how corrected scientific claims connect through fields and shared concepts across Not a Fact Anymore."
+  description="Explore recurring ways accepted ideas went wrong and the kinds of evidence that changed them across Not a Fact Anymore."
   locale="en"
   alternatePath="/de/graph/"
 >

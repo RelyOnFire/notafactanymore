@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import KnowledgeGraph from '../../components/KnowledgeGraph.astro';
+import { buildKnowledgeGraph } from '../../lib/knowledgeGraph';
+
+const entries = await getCollection('entries');
+const glossaryEntries = await getCollection('glossary');
+const entryTranslations = await getCollection(
+  'entryTranslations',
+  (translation) => translation.data.locale === 'de',
+);
+const glossaryTranslations = await getCollection(
+  'glossaryTranslations',
+  (translation) => translation.data.locale === 'de',
+);
+const data = buildKnowledgeGraph({
+  entries,
+  glossaryEntries,
+  entryTranslations,
+  glossaryTranslations,
+  locale: 'de',
+});
+---
+
+<BaseLayout
+  title="Wissenskarte"
+  description="Erkunde, wie korrigierte wissenschaftliche Aussagen über Fachgebiete und gemeinsam verwendete Begriffe miteinander verbunden sind."
+  locale="de"
+  alternatePath="/graph/"
+>
+  <KnowledgeGraph data={data} locale="de" />
+</BaseLayout>

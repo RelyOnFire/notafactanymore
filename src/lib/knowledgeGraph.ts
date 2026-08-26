@@ -1,8 +1,14 @@
 import type { CollectionEntry } from 'astro:content';
 import { categoryLabel, statusLabel, translationMatchesEntry, type SiteLocale } from './i18n';
+import {
+  knowledgeAssignments,
+  ontologyTermById,
+  type KnowledgeSemanticAssignment,
+  type SemanticAxis,
+} from '../data/knowledgeOntology';
 
-export type KnowledgeNodeKind = 'claim' | 'concept' | 'category';
-export type KnowledgeEdgeKind = 'category' | 'concept' | 'related-concept';
+export type KnowledgeNodeKind = 'claim' | 'error-pattern' | 'correction-mechanism';
+export type KnowledgeEdgeKind = 'error-pattern' | 'correction-mechanism';
 
 export interface KnowledgeNode {
   id: string;
@@ -33,16 +39,19 @@ export interface KnowledgeGraphData {
   nodes: KnowledgeNode[];
   edges: KnowledgeEdge[];
   claimCount: number;
-  conceptCount: number;
-  categoryCount: number;
+  mappedClaimCount: number;
+  errorPatternCount: number;
+  correctionMechanismCount: number;
 }
 
 type Entry = CollectionEntry<'entries'>;
 type EntryTranslation = CollectionEntry<'entryTranslations'>;
-type GlossaryEntry = CollectionEntry<'glossary'>;
-type GlossaryTranslation = CollectionEntry<'glossaryTranslations'>;
+type CuratedEntry = {
+  id: string;
+  assignment: KnowledgeSemanticAssignment;
+  entry: Entry;
+};
 
-const GLOSSARY_REF_PATTERN = /glossary:([a-z0-9][a-z0-9-]*)/g;
 const GOLDEN_ANGLE = Math.PI * (3 - Math.sqrt(5));
 
 const stableHash = (value: string) => {
@@ -54,33 +63,18 @@ const stableHash = (value: string) => {
   return hash >>> 0;
 };
 
-const refsForEntry = (entry: Entry) => {
-  const text = `${JSON.stringify(entry.data)}\n${entry.body ?? ''}`;
-  const ids = new Set<string>();
-  GLOSSARY_REF_PATTERN.lastIndex = 0;
-  let match: RegExpExecArray | null;
-  while ((match = GLOSSARY_REF_PATTERN.exec(text)) !== null) ids.add(match[1]);
-  return [...ids];
-};
+const edgeId = (kind: KnowledgeEdgeKind, claimId: string, ontologyId: string) =>
+  `${kind}:${claimId}:${ontologyId}`;
 
-const edgeId = (kind: KnowledgeEdgeKind, source: string, target: string) => {
-  const [a, b] = kind === 'related-concept' && source > target
-    ? [target, source]
-    : [source, target];
-  return `${kind}:${a}:${b}`;
-};
+const axisNodeId = (axis: SemanticAxis, id: string) => `${axis}:${id}`;
 
 export const buildKnowledgeGraph = ({
   entries,
-  glossaryEntries,
   entryTranslations = [],
-  glossaryTranslations = [],
   locale = 'en',
 }: {
   entries: Entry[];
-  glossaryEntries: GlossaryEntry[];
   entryTranslations?: EntryTranslation[];
-  glossaryTranslations?: GlossaryTranslation[];
   locale?: SiteLocale;
 }): KnowledgeGraphData => {
   const localizedEntries = new Map<string, EntryTranslation>();
@@ -92,79 +86,91 @@ export const buildKnowledgeGraph = ({
     }
   }
 
-  const localizedGlossary = new Map<string, GlossaryTranslation>();
-  if (locale === 'de') {
-    const glossaryById = new Map(glossaryEntries.map((entry) => [entry.id, entry]));
-    for (const translation of glossaryTranslations) {
-      if (translation.data.locale !== 'de') continue;
-      const source = glossaryById.get(translation.data.entryId);
-      if (
-        source &&
-        translation.data.sourceReviewedAt.getTime() === source.data.reviewedAt.getTime()
-      ) {
-        localizedGlossary.set(source.id, translation);
-      }
+  const entryById = new Map(entries.map((entry) => [entry.id, entry]));
+  const curatedEntries: CuratedEntry[] = Object.entries(knowledgeAssignments)
+    .map(([id, assignment]) => {
+      const entry = entryById.get(id);
+      return entry ? { id, assignment, entry } : null;
+    })
+    .filter((item): item is CuratedEntry => item !== null);
+
+  const usage = new Map<string, number>();
+  for (const { assignment } of curatedEntries) {
+    for (const id of [...assignment.errorPatterns, ...assignment.correctionMechanisms]) {
+      usage.set(id, (usage.get(id) ?? 0) + 1);
     }
   }
 
-  const entryRefs = new Map(entries.map((entry) => [entry.id, refsForEntry(entry)]));
-  const usedConceptIds = new Set([...entryRefs.values()].flat());
-  const glossaryById = new Map(glossaryEntries.map((entry) => [entry.id, entry]));
-
-  const categoryGroups = [...new Set(entries.map((entry) => entry.data.category))]
-    .map((category) => ({
-      category,
-      label: categoryLabel(category, locale),
-      entries: entries.filter((entry) => entry.data.category === category),
-    }))
-    .sort((a, b) =>
-      b.entries.length - a.entries.length || a.label.localeCompare(b.label, locale)
-    );
-
   const nodes: KnowledgeNode[] = [];
   const edges: KnowledgeEdge[] = [];
-  const positions = new Map<string, { x: number; y: number }>();
-  const claimsByConcept = new Map<string, string[]>();
+  const hubPositions = new Map<string, { x: number; y: number }>();
 
-  categoryGroups.forEach((group, categoryIndex) => {
-    const angle = categoryIndex * GOLDEN_ANGLE;
-    const radius = categoryIndex === 0 ? 0 : 245 + 245 * Math.sqrt(categoryIndex);
-    const center = {
-      x: Math.cos(angle) * radius * 1.2,
-      y: Math.sin(angle) * radius * 0.82,
-    };
-    const categoryNodeId = `category:${group.category}`;
+  const errorIds = [...new Set(curatedEntries.flatMap(({ assignment }) => [...assignment.errorPatterns]))];
+  const correctionIds = [...new Set(curatedEntries.flatMap(({ assignment }) => [...assignment.correctionMechanisms]))];
 
-    positions.set(categoryNodeId, center);
-    nodes.push({
-      id: categoryNodeId,
-      sourceId: group.category,
-      kind: 'category',
-      label: group.label,
-      weight: group.entries.length,
-      x: center.x,
-      y: center.y,
-      href: `${locale === 'de' ? '/de' : ''}/categories/${encodeURIComponent(group.category.toLowerCase())}/`,
+  errorIds.sort((a, b) => (usage.get(b) ?? 0) - (usage.get(a) ?? 0) || a.localeCompare(b));
+  correctionIds.sort((a, b) => (usage.get(b) ?? 0) - (usage.get(a) ?? 0) || a.localeCompare(b));
+
+  const placeHubRing = (
+    ids: string[],
+    axis: SemanticAxis,
+    radiusX: number,
+    radiusY: number,
+    phase: number,
+  ) => {
+    ids.forEach((id, index) => {
+      const angle = phase + (Math.PI * 2 * index) / Math.max(ids.length, 1);
+      const position = { x: Math.cos(angle) * radiusX, y: Math.sin(angle) * radiusY };
+      const term = ontologyTermById.get(id);
+      if (!term) return;
+      const nodeId = axisNodeId(axis, id);
+      hubPositions.set(nodeId, position);
+      nodes.push({
+        id: nodeId,
+        sourceId: id,
+        kind: axis,
+        label: term.label[locale],
+        summary: term.definition[locale],
+        weight: usage.get(id) ?? 1,
+        x: position.x,
+        y: position.y,
+      });
     });
+  };
 
-    const sortedEntries = [...group.entries].sort((a, b) =>
-      a.data.timelineYear - b.data.timelineYear || a.id.localeCompare(b.id)
-    );
+  placeHubRing(errorIds, 'error-pattern', 920, 600, Math.PI);
+  placeHubRing(correctionIds, 'correction-mechanism', 920, 600, 0);
 
-    sortedEntries.forEach((entry, claimIndex) => {
-      const localAngle = claimIndex * GOLDEN_ANGLE + (stableHash(entry.id) % 360) * (Math.PI / 180);
-      const localRadius = 72 + 34 * Math.sqrt(claimIndex + 1);
+  curatedEntries
+    .sort((a, b) => a.entry.data.timelineYear - b.entry.data.timelineYear || a.id.localeCompare(b.id))
+    .forEach(({ id, assignment, entry }, index) => {
+      const connectedHubIds = [
+        ...assignment.errorPatterns.map((termId) => axisNodeId('error-pattern', termId)),
+        ...assignment.correctionMechanisms.map((termId) => axisNodeId('correction-mechanism', termId)),
+      ];
+      const positions = connectedHubIds
+        .map((nodeId) => hubPositions.get(nodeId))
+        .filter((position): position is { x: number; y: number } => Boolean(position));
+
+      const mean = positions.length > 0
+        ? {
+            x: positions.reduce((sum, position) => sum + position.x, 0) / positions.length,
+            y: positions.reduce((sum, position) => sum + position.y, 0) / positions.length,
+          }
+        : { x: 0, y: 0 };
+      const hash = stableHash(id);
+      const angle = index * GOLDEN_ANGLE + (hash % 360) * (Math.PI / 180);
+      const radius = 34 + (hash % 70);
       const position = {
-        x: center.x + Math.cos(localAngle) * localRadius,
-        y: center.y + Math.sin(localAngle) * localRadius,
+        x: mean.x + Math.cos(angle) * radius,
+        y: mean.y + Math.sin(angle) * radius,
       };
-      const claimNodeId = `claim:${entry.id}`;
-      const translation = localizedEntries.get(entry.id);
+      const translation = localizedEntries.get(id);
+      const claimNodeId = `claim:${id}`;
 
-      positions.set(claimNodeId, position);
       nodes.push({
         id: claimNodeId,
-        sourceId: entry.id,
+        sourceId: id,
         kind: 'claim',
         label: translation?.data.claim ?? entry.data.claim,
         summary: translation?.data.summary ?? entry.data.summary,
@@ -173,98 +179,40 @@ export const buildKnowledgeGraph = ({
         status: entry.data.status,
         statusLabel: statusLabel(entry.data.status, locale),
         timelineYear: entry.data.timelineYear,
-        changedApproximately:
-          translation?.data.changedApproximately ?? entry.data.changedApproximately,
-        href: `${locale === 'de' ? '/de' : ''}/entries/${entry.id}/`,
-        weight: 1,
+        changedApproximately: translation?.data.changedApproximately ?? entry.data.changedApproximately,
+        href: `${locale === 'de' ? '/de' : ''}/entries/${id}/`,
+        weight: connectedHubIds.length,
         x: position.x,
         y: position.y,
       });
 
-      edges.push({
-        id: edgeId('category', claimNodeId, categoryNodeId),
-        source: claimNodeId,
-        target: categoryNodeId,
-        kind: 'category',
+      assignment.errorPatterns.forEach((termId) => {
+        const target = axisNodeId('error-pattern', termId);
+        edges.push({
+          id: edgeId('error-pattern', claimNodeId, target),
+          source: claimNodeId,
+          target,
+          kind: 'error-pattern',
+        });
       });
 
-      for (const conceptId of entryRefs.get(entry.id) ?? []) {
-        if (!glossaryById.has(conceptId)) continue;
-        const connected = claimsByConcept.get(conceptId) ?? [];
-        connected.push(claimNodeId);
-        claimsByConcept.set(conceptId, connected);
-      }
-    });
-  });
-
-  const conceptNodes: KnowledgeNode[] = [];
-  [...usedConceptIds].sort().forEach((conceptId) => {
-    const source = glossaryById.get(conceptId);
-    if (!source) return;
-    const linkedClaims = claimsByConcept.get(conceptId) ?? [];
-    if (linkedClaims.length === 0) return;
-
-    const claimPositions = linkedClaims
-      .map((id) => positions.get(id))
-      .filter((position): position is { x: number; y: number } => Boolean(position));
-    const meanX = claimPositions.reduce((sum, position) => sum + position.x, 0) / claimPositions.length;
-    const meanY = claimPositions.reduce((sum, position) => sum + position.y, 0) / claimPositions.length;
-    const hash = stableHash(conceptId);
-    const offsetAngle = (hash % 360) * (Math.PI / 180);
-    const offsetRadius = linkedClaims.length > 1 ? 58 : 38;
-    const position = {
-      x: meanX + Math.cos(offsetAngle) * offsetRadius,
-      y: meanY + Math.sin(offsetAngle) * offsetRadius,
-    };
-    const translation = localizedGlossary.get(conceptId);
-    const conceptNodeId = `concept:${conceptId}`;
-
-    positions.set(conceptNodeId, position);
-    conceptNodes.push({
-      id: conceptNodeId,
-      sourceId: conceptId,
-      kind: 'concept',
-      label: translation?.data.term ?? source.data.term,
-      summary: translation?.data.shortDefinition ?? source.data.shortDefinition,
-      href: `${locale === 'de' ? '/de' : ''}/glossary/#${conceptId}`,
-      weight: linkedClaims.length,
-      x: position.x,
-      y: position.y,
-    });
-
-    for (const claimNodeId of linkedClaims) {
-      edges.push({
-        id: edgeId('concept', claimNodeId, conceptNodeId),
-        source: claimNodeId,
-        target: conceptNodeId,
-        kind: 'concept',
+      assignment.correctionMechanisms.forEach((termId) => {
+        const target = axisNodeId('correction-mechanism', termId);
+        edges.push({
+          id: edgeId('correction-mechanism', claimNodeId, target),
+          source: claimNodeId,
+          target,
+          kind: 'correction-mechanism',
+        });
       });
-    }
-  });
-
-  nodes.push(...conceptNodes);
-
-  const conceptNodeIds = new Set(conceptNodes.map((node) => node.id));
-  const relatedEdgeIds = new Set<string>();
-  for (const source of glossaryEntries) {
-    const sourceNodeId = `concept:${source.id}`;
-    if (!conceptNodeIds.has(sourceNodeId)) continue;
-
-    for (const relatedId of source.data.relatedTerms) {
-      const targetNodeId = `concept:${relatedId}`;
-      if (!conceptNodeIds.has(targetNodeId)) continue;
-      const id = edgeId('related-concept', sourceNodeId, targetNodeId);
-      if (relatedEdgeIds.has(id)) continue;
-      relatedEdgeIds.add(id);
-      edges.push({ id, source: sourceNodeId, target: targetNodeId, kind: 'related-concept' });
-    }
-  }
+    });
 
   return {
     nodes,
     edges,
     claimCount: entries.length,
-    conceptCount: conceptNodes.length,
-    categoryCount: categoryGroups.length,
+    mappedClaimCount: curatedEntries.length,
+    errorPatternCount: errorIds.length,
+    correctionMechanismCount: correctionIds.length,
   };
 };

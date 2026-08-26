@@ -68,6 +68,21 @@ const edgeId = (kind: KnowledgeEdgeKind, claimId: string, ontologyId: string) =>
 
 const axisNodeId = (axis: SemanticAxis, id: string) => `${axis}:${id}`;
 
+// These two calibrators make the narrowest error-pattern terms genuinely cross-disciplinary:
+// proxy-as-outcome links a clinical surrogate failure to environmental safety inference,
+// while association-as-causation links clinical confounding to an archaeological mobility model.
+const semanticAssignments: Record<string, KnowledgeSemanticAssignment> = {
+  ...knowledgeAssignments,
+  'ddt-is-environmentally-harmless': {
+    errorPatterns: ['proxy-as-outcome'],
+    correctionMechanisms: ['population-outcomes', 'causal-mechanism'],
+  },
+  'yamnaya-expansion-was-powered-by-domestic-horses': {
+    errorPatterns: ['association-as-causation'],
+    correctionMechanisms: ['dating-chronology', 'comparative-analysis'],
+  },
+};
+
 export const buildKnowledgeGraph = ({
   entries,
   entryTranslations = [],
@@ -87,7 +102,7 @@ export const buildKnowledgeGraph = ({
   }
 
   const entryById = new Map(entries.map((entry) => [entry.id, entry]));
-  const curatedEntries: CuratedEntry[] = Object.entries(knowledgeAssignments)
+  const curatedEntries: CuratedEntry[] = Object.entries(semanticAssignments)
     .map(([id, assignment]) => {
       const entry = entryById.get(id);
       return entry ? { id, assignment, entry } : null;

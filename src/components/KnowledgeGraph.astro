@@ -13,7 +13,7 @@ const copy = locale === 'de'
   ? {
       eyebrow: 'Wissenslandschaft',
       title: 'Karte des veränderten Wissens',
-      intro: 'Erkunde, wie Aussagen über Fachgebiete und gemeinsam verwendete Begriffe miteinander verbunden sind. Die Linien zeigen Beziehungen, die bereits im Katalog oder Glossar dokumentiert sind.',
+      intro: 'Verfolge die Verbindungen zwischen Aussagen, Fachgebieten und gemeinsam verwendeten Begriffen im Katalog und Glossar.',
       search: 'Aussagen und Begriffe durchsuchen…',
       categories: 'Kategorie',
       statuses: 'Status',
@@ -30,8 +30,11 @@ const copy = locale === 'de'
       categoryPage: 'Kategorie öffnen',
       connected: 'Direkte Verbindungen',
       claim: 'Aussage',
+      claims: 'Aussagen',
       concept: 'Begriff',
+      concepts: 'Begriffe',
       category: 'Kategorie',
+      categoryPlural: 'Kategorien',
       visible: 'sichtbare Knoten',
       coverage: 'Katalogabdeckung',
       coverageIntro: 'Die Dichte zeigt nur, wie viele Einträge dieser Katalog in einer Kategorie und Zeitspanne dokumentiert. Sie misst weder die historische Häufigkeit von Irrtümern noch die Bedeutung eines Fachgebiets.',
@@ -39,7 +42,7 @@ const copy = locale === 'de'
   : {
       eyebrow: 'Knowledge landscape',
       title: 'Map of changing knowledge',
-      intro: 'Explore how claims connect through fields and shared concepts already documented in the catalogue and glossary. Lines represent curated relationships, not AI similarity.',
+      intro: 'Follow the connections between claims, scientific fields, and the concepts they share across the catalogue and glossary.',
       search: 'Search claims and concepts…',
       categories: 'Category',
       statuses: 'Status',
@@ -56,8 +59,11 @@ const copy = locale === 'de'
       categoryPage: 'Open category',
       connected: 'Direct connections',
       claim: 'Claim',
+      claims: 'Claims',
       concept: 'Concept',
+      concepts: 'Concepts',
       category: 'Category',
+      categoryPlural: 'Categories',
       visible: 'visible nodes',
       coverage: 'Catalogue coverage',
       coverageIntro: 'Density shows only how many entries this catalogue documents in a field and period. It does not measure historical prevalence of error or the importance of a field.',
@@ -110,9 +116,9 @@ const coverageRows = categories.map((category) => ({
       <p class="intro">{copy.intro}</p>
     </div>
     <div class="knowledge-stats" aria-label={locale === 'de' ? 'Zusammenfassung des Wissensgraphen' : 'Knowledge graph summary'}>
-      <span><strong>{data.claimCount}</strong> {copy.claim.toLowerCase()}</span>
-      <span><strong>{data.conceptCount}</strong> {copy.concept.toLowerCase()}</span>
-      <span><strong>{data.categoryCount}</strong> {copy.category.toLowerCase()}</span>
+      <span><strong>{data.claimCount}</strong> {copy.claims.toLowerCase()}</span>
+      <span><strong>{data.conceptCount}</strong> {copy.concepts.toLowerCase()}</span>
+      <span><strong>{data.categoryCount}</strong> {copy.categoryPlural.toLowerCase()}</span>
     </div>
   </header>
 
@@ -144,7 +150,7 @@ const coverageRows = categories.map((category) => ({
   <div class="graph-shell">
     <div class="graph-stage-wrap">
       <div class="graph-stage" tabindex="0" role="application" aria-label={locale === 'de' ? 'Interaktive Wissenskarte' : 'Interactive knowledge map'}>
-        <svg class="graph-svg" viewBox="-1800 -1400 3600 2800" aria-hidden="true">
+        <svg class="graph-svg" viewBox="-1800 -1400 3600 2800">
           <g class="graph-viewport">
             <g class="edge-layer"></g>
             <g class="node-layer"></g>
@@ -442,8 +448,12 @@ const coverageRows = categories.map((category) => ({
           group.append(text);
         }
 
-        group.addEventListener('click', () => {
-          if (!moved) selectNode(node.id);
+        group.addEventListener('pointerdown', (event) => {
+          event.stopPropagation();
+        });
+        group.addEventListener('click', (event) => {
+          event.stopPropagation();
+          selectNode(node.id);
         });
         group.addEventListener('keydown', (event) => {
           if (event.key === 'Enter' || event.key === ' ') {
@@ -497,6 +507,8 @@ const coverageRows = categories.map((category) => ({
       }, { passive: false });
 
       svg.addEventListener('pointerdown', (event) => {
+        const target = event.target;
+        if (target instanceof Element && target.closest('.graph-node')) return;
         dragging = true;
         moved = false;
         lastPoint = { x: event.clientX, y: event.clientY };
@@ -512,7 +524,10 @@ const coverageRows = categories.map((category) => ({
         lastPoint = { x: event.clientX, y: event.clientY };
         applyTransform();
       });
-      const endDrag = () => { dragging = false; };
+      const endDrag = (event: PointerEvent) => {
+        if (svg.hasPointerCapture(event.pointerId)) svg.releasePointerCapture(event.pointerId);
+        dragging = false;
+      };
       svg.addEventListener('pointerup', endDrag);
       svg.addEventListener('pointercancel', endDrag);
 

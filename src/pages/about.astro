@@ -1,13 +1,26 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const entries = await getCollection('entries');
+const institutionalBeliefs = await getCollection('institutionalBeliefs');
+const glossary = await getCollection('glossary');
 ---
-<BaseLayout title="About">
+<BaseLayout title="About" alternatePath="/de/about">
   <article class="narrow prose">
     <p class="eyebrow">About the project</p>
     <h1>Facts have a history.</h1>
-    <p class="lead"><strong>Not a Fact Anymore</strong> is a catalogue of claims that were once reasonably accepted as factual but were later overturned, replaced, narrowed, reclassified, or corrected by better evidence.</p>
-    <p>The purpose is not to ridicule earlier researchers or generations. Revising a conclusion when better evidence arrives is one of the strengths of science, scholarship, and empirical inquiry.</p>
-    <p>This project is a curated, open-source collection. Proposed entries and corrections are reviewed before publication, and every published entry links directly to its evidence.</p>
+    <p class="lead"><strong>Not a Fact Anymore</strong> documents claims that institutions, researchers, and expert communities once had reason to treat as factual, and what happened when stronger evidence changed the picture.</p>
+
+    <p>The core catalogue currently contains <strong>{entries.length}</strong> corrected, narrowed, superseded, reclassified, or overturned claims. A separate <strong>Institutional Beliefs</strong> collection follows cases in which factual propositions became embedded in policy, medicine, law, professional practice, education, or other institutions before being corrected or disconfirmed.</p>
+
+    <p>The site also tracks when claims changed, how long they remained defensible, the concepts that connect them, and where the catalogue itself is dense or sparse. Its <strong>{glossary.length}</strong>-term glossary, timelines, lifespan analysis, category pages, and Knowledge Map are different ways of exploring the same sourced material rather than separate datasets.</p>
+
+    <p>The purpose is not to ridicule earlier researchers or generations. Many discarded ideas were reasonable given the evidence and instruments available at the time. Revising a conclusion when better evidence arrives is one of the strengths of science, scholarship, and empirical inquiry.</p>
+
+    <p>This is a curated, open-source project. Every published claim is sourced, dates and boundaries are treated as approximations where the history demands it, and proposed entries and corrections are reviewed before publication. The Institutional Beliefs collection currently contains <strong>{institutionalBeliefs.length}</strong> documented cases.</p>
+
+    <p class="about-links"><a href="/methodology">Read the methodology</a> · <a href="/submit">Suggest a claim or correction</a></p>
   </article>
 </BaseLayout>
 <style>
@@ -15,4 +28,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   .prose h1 { margin: .2rem 0 1.5rem; }
   .lead { font-size: 1.3rem; color: var(--muted); }
   .prose p { font-size: 1.08rem; }
+  .about-links { margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid var(--line); font-weight: 750; }
+  .about-links a { color: var(--accent-dark); text-underline-offset: .18em; }
 </style>

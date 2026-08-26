@@ -101,7 +101,6 @@ const navItems = locale === 'de'
       ['/de/glossary', 'Glossar'],
       ['/de/methodology', 'Methodik'],
       ['/de/submit', 'Beitrag vorschlagen'],
-      ['/de/about', 'Über das Projekt'],
     ]
   : [
       ['/browse', 'Browse'],
@@ -112,7 +111,6 @@ const navItems = locale === 'de'
       ['/glossary', 'Glossary'],
       ['/methodology', 'Methodology'],
       ['/submit', 'Submit a claim'],
-      ['/about', 'About'],
     ];
 
 const brandHome = locale === 'de' ? '/de/' : '/';
@@ -204,21 +202,31 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
     <footer>
       {locale === 'de' ? (
         <>
-          <p>
-            <strong>{siteConfig.name}</strong> dokumentiert, wie sich belastbares Wissen verändert,
-            wenn bessere Evidenz verfügbar wird.
-          </p>
-          <p>Jeder Eintrag ist datiert, belegt und offen für Korrekturen.</p>
-          <p><a href="/de/impressum">Impressum</a></p>
+          <div class="footer-copy">
+            <p>
+              <strong>{siteConfig.name}</strong> dokumentiert, wie sich belastbares Wissen verändert,
+              wenn bessere Evidenz verfügbar wird.
+            </p>
+            <p>Jeder Eintrag ist datiert, belegt und offen für Korrekturen.</p>
+          </div>
+          <nav class="footer-links" aria-label="Weitere Informationen">
+            <a href="/de/about">Über das Projekt</a>
+            <a href="/de/impressum">Impressum</a>
+          </nav>
         </>
       ) : (
         <>
-          <p>
-            <strong>{siteConfig.name}</strong> documents how defensible knowledge
-            changes when stronger evidence arrives.
-          </p>
-          <p>Every entry is dated, sourced, and open to correction.</p>
-          <p><a href="/impressum">Impressum</a></p>
+          <div class="footer-copy">
+            <p>
+              <strong>{siteConfig.name}</strong> documents how defensible knowledge
+              changes when stronger evidence arrives.
+            </p>
+            <p>Every entry is dated, sourced, and open to correction.</p>
+          </div>
+          <nav class="footer-links" aria-label="Project information">
+            <a href="/about">About</a>
+            <a href="/impressum">Impressum</a>
+          </nav>
         </>
       )}
     </footer>
@@ -323,26 +331,28 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
   }
 
   .header-actions {
+    min-width: 0;
     display: flex;
     align-items: center;
     gap: 1rem;
   }
 
-  nav {
+  .site-header nav {
     display: flex;
-    gap: 1.25rem;
+    justify-content: flex-end;
+    gap: 0.9rem 1.1rem;
     flex-wrap: wrap;
   }
 
-  nav a {
+  .site-header nav a {
     color: var(--muted);
     text-decoration: none;
     font-weight: 650;
   }
 
-  nav a:hover { color: var(--accent-dark); }
+  .site-header nav a:hover { color: var(--accent-dark); }
 
-  nav a[aria-current="page"] {
+  .site-header nav a[aria-current="page"] {
     color: var(--ink);
     text-decoration: underline;
     text-decoration-color: var(--accent);
@@ -451,8 +461,27 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
     flex-wrap: wrap;
   }
 
+  .footer-copy {
+    display: grid;
+    gap: 0.2rem;
+  }
+
   footer p { margin: 0; max-width: 35rem; }
-  footer a { text-underline-offset: 0.18em; }
+
+  .footer-links {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .footer-links a {
+    color: var(--muted);
+    font-weight: 650;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+  }
+
+  .footer-links a:hover { color: var(--accent-dark); }
 
   @media (prefers-reduced-motion: reduce) {
     :where(a, button, input, select, textarea),
@@ -479,6 +508,6 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
     }
 
     .header-actions { gap: 0.75rem; }
-    nav { gap: 0.8rem 1rem; }
+    .site-header nav { gap: 0.8rem 1rem; }
   }
 </style>

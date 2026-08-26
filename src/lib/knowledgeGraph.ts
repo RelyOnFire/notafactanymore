@@ -111,16 +111,15 @@ export const buildKnowledgeGraph = ({
   errorIds.sort((a, b) => (usage.get(b) ?? 0) - (usage.get(a) ?? 0) || a.localeCompare(b));
   correctionIds.sort((a, b) => (usage.get(b) ?? 0) - (usage.get(a) ?? 0) || a.localeCompare(b));
 
-  const placeHubRing = (
-    ids: string[],
-    axis: SemanticAxis,
-    radiusX: number,
-    radiusY: number,
-    phase: number,
-  ) => {
+  const placeHubColumn = (ids: string[], axis: SemanticAxis, x: number) => {
+    const span = 1100;
     ids.forEach((id, index) => {
-      const angle = phase + (Math.PI * 2 * index) / Math.max(ids.length, 1);
-      const position = { x: Math.cos(angle) * radiusX, y: Math.sin(angle) * radiusY };
+      const y = ids.length === 1 ? 0 : -span / 2 + (span * index) / (ids.length - 1);
+      const hash = stableHash(id);
+      const position = {
+        x: x + ((hash % 47) - 23),
+        y: y + (((hash >>> 8) % 31) - 15),
+      };
       const term = ontologyTermById.get(id);
       if (!term) return;
       const nodeId = axisNodeId(axis, id);
@@ -138,8 +137,10 @@ export const buildKnowledgeGraph = ({
     });
   };
 
-  placeHubRing(errorIds, 'error-pattern', 920, 600, Math.PI);
-  placeHubRing(correctionIds, 'correction-mechanism', 920, 600, 0);
+  // The two semantic axes are spatially explicit: old-model failure modes on the left,
+  // correction mechanisms on the right. Claims sit between the hubs they connect.
+  placeHubColumn(errorIds, 'error-pattern', -900);
+  placeHubColumn(correctionIds, 'correction-mechanism', 900);
 
   curatedEntries
     .sort((a, b) => a.entry.data.timelineYear - b.entry.data.timelineYear || a.id.localeCompare(b.id))
@@ -160,7 +161,7 @@ export const buildKnowledgeGraph = ({
         : { x: 0, y: 0 };
       const hash = stableHash(id);
       const angle = index * GOLDEN_ANGLE + (hash % 360) * (Math.PI / 180);
-      const radius = 34 + (hash % 70);
+      const radius = 38 + (hash % 86);
       const position = {
         x: mean.x + Math.cos(angle) * radius,
         y: mean.y + Math.sin(angle) * radius,

@@ -1,0 +1,620 @@
+---
+import type { SiteLocale } from '../lib/i18n';
+import type { KnowledgeGraphData } from '../lib/knowledgeGraph';
+
+interface Props {
+  data: KnowledgeGraphData;
+  locale?: SiteLocale;
+}
+
+const { data, locale = 'en' } = Astro.props;
+
+const copy = locale === 'de'
+  ? {
+      eyebrow: 'Wissenslandschaft',
+      title: 'Karte des veränderten Wissens',
+      intro: 'Erkunde, wie Aussagen über Fachgebiete und gemeinsam verwendete Begriffe miteinander verbunden sind. Die Linien zeigen Beziehungen, die bereits im Katalog oder Glossar dokumentiert sind.',
+      search: 'Aussagen und Begriffe durchsuchen…',
+      categories: 'Kategorie',
+      statuses: 'Status',
+      allCategories: 'Alle Kategorien',
+      allStatuses: 'Alle Status',
+      surprise: 'Überrasch mich',
+      reset: 'Ansicht zurücksetzen',
+      zoomIn: 'Vergrößern',
+      zoomOut: 'Verkleinern',
+      details: 'Auswahl',
+      choose: 'Wähle einen Knoten aus, um seine direkten Verbindungen zu sehen.',
+      open: 'Eintrag öffnen',
+      glossary: 'Glossareintrag öffnen',
+      categoryPage: 'Kategorie öffnen',
+      connected: 'Direkte Verbindungen',
+      claim: 'Aussage',
+      concept: 'Begriff',
+      category: 'Kategorie',
+      visible: 'sichtbare Knoten',
+      coverage: 'Katalogabdeckung',
+      coverageIntro: 'Die Dichte zeigt nur, wie viele Einträge dieser Katalog in einer Kategorie und Zeitspanne dokumentiert. Sie misst weder die historische Häufigkeit von Irrtümern noch die Bedeutung eines Fachgebiets.',
+    }
+  : {
+      eyebrow: 'Knowledge landscape',
+      title: 'Map of changing knowledge',
+      intro: 'Explore how claims connect through fields and shared concepts already documented in the catalogue and glossary. Lines represent curated relationships, not AI similarity.',
+      search: 'Search claims and concepts…',
+      categories: 'Category',
+      statuses: 'Status',
+      allCategories: 'All categories',
+      allStatuses: 'All statuses',
+      surprise: 'Surprise me',
+      reset: 'Reset view',
+      zoomIn: 'Zoom in',
+      zoomOut: 'Zoom out',
+      details: 'Selection',
+      choose: 'Select a node to see its immediate connections.',
+      open: 'Open entry',
+      glossary: 'Open glossary term',
+      categoryPage: 'Open category',
+      connected: 'Direct connections',
+      claim: 'Claim',
+      concept: 'Concept',
+      category: 'Category',
+      visible: 'visible nodes',
+      coverage: 'Catalogue coverage',
+      coverageIntro: 'Density shows only how many entries this catalogue documents in a field and period. It does not measure historical prevalence of error or the importance of a field.',
+    };
+
+const categories = data.nodes
+  .filter((node) => node.kind === 'category')
+  .map((node) => ({ value: node.sourceId, label: node.label }))
+  .sort((a, b) => a.label.localeCompare(b.label, locale));
+
+const statuses = [...new Map(
+  data.nodes
+    .filter((node) => node.kind === 'claim' && node.status)
+    .map((node) => [node.status!, node.statusLabel ?? node.status!])
+).entries()]
+  .map(([value, label]) => ({ value, label }))
+  .sort((a, b) => a.label.localeCompare(b.label, locale));
+
+const claims = data.nodes.filter((node) => node.kind === 'claim');
+const years = claims.map((node) => node.timelineYear).filter((year): year is number => Number.isFinite(year));
+const minYear = Math.min(...years);
+const maxYear = Math.max(...years);
+const coverageBands = [
+  { id: 'pre1800', label: locale === 'de' ? 'Vor 1800' : 'Before 1800', start: Number.MIN_SAFE_INTEGER, end: 1799 },
+  { id: '1800s', label: '1800–1899', start: 1800, end: 1899 },
+  { id: '1900-1949', label: '1900–1949', start: 1900, end: 1949 },
+  { id: '1950-1999', label: '1950–1999', start: 1950, end: 1999 },
+  { id: '2000-present', label: locale === 'de' ? '2000–heute' : '2000–present', start: 2000, end: Number.MAX_SAFE_INTEGER },
+];
+
+const coverageRows = categories.map((category) => ({
+  ...category,
+  cells: coverageBands.map((band) => {
+    const count = claims.filter((node) =>
+      node.category === category.value &&
+      typeof node.timelineYear === 'number' &&
+      node.timelineYear >= band.start &&
+      node.timelineYear <= band.end
+    ).length;
+    return { ...band, count, density: Math.min(5, count) };
+  }),
+}));
+---
+
+<section class="knowledge-map-section container" data-knowledge-map data-locale={locale}>
+  <header class="knowledge-map-head">
+    <div>
+      <p class="eyebrow">{copy.eyebrow}</p>
+      <h1>{copy.title}</h1>
+      <p class="intro">{copy.intro}</p>
+    </div>
+    <div class="knowledge-stats" aria-label={locale === 'de' ? 'Zusammenfassung des Wissensgraphen' : 'Knowledge graph summary'}>
+      <span><strong>{data.claimCount}</strong> {copy.claim.toLowerCase()}</span>
+      <span><strong>{data.conceptCount}</strong> {copy.concept.toLowerCase()}</span>
+      <span><strong>{data.categoryCount}</strong> {copy.category.toLowerCase()}</span>
+    </div>
+  </header>
+
+  <div class="graph-controls" aria-label={locale === 'de' ? 'Steuerung der Wissenskarte' : 'Knowledge map controls'}>
+    <label class="graph-search-wrap">
+      <span class="sr-only">{copy.search}</span>
+      <input class="graph-search" type="search" placeholder={copy.search} autocomplete="off" />
+    </label>
+    <label>
+      <span>{copy.categories}</span>
+      <select class="graph-category-filter">
+        <option value="">{copy.allCategories}</option>
+        {categories.map((item) => <option value={item.value}>{item.label}</option>)}
+      </select>
+    </label>
+    <label>
+      <span>{copy.statuses}</span>
+      <select class="graph-status-filter">
+        <option value="">{copy.allStatuses}</option>
+        {statuses.map((item) => <option value={item.value}>{item.label}</option>)}
+      </select>
+    </label>
+    <div class="graph-control-buttons">
+      <button type="button" class="graph-surprise">{copy.surprise}</button>
+      <button type="button" class="graph-reset">{copy.reset}</button>
+    </div>
+  </div>
+
+  <div class="graph-shell">
+    <div class="graph-stage-wrap">
+      <div class="graph-stage" tabindex="0" role="application" aria-label={locale === 'de' ? 'Interaktive Wissenskarte' : 'Interactive knowledge map'}>
+        <svg class="graph-svg" viewBox="-1800 -1400 3600 2800" aria-hidden="true">
+          <g class="graph-viewport">
+            <g class="edge-layer"></g>
+            <g class="node-layer"></g>
+          </g>
+        </svg>
+        <div class="graph-zoom-controls" aria-label={locale === 'de' ? 'Zoomsteuerung' : 'Zoom controls'}>
+          <button type="button" class="graph-zoom-in" aria-label={copy.zoomIn}>+</button>
+          <button type="button" class="graph-zoom-out" aria-label={copy.zoomOut}>−</button>
+        </div>
+        <p class="graph-visible-count" aria-live="polite"></p>
+      </div>
+      <p class="graph-help">
+        {locale === 'de'
+          ? 'Ziehe zum Verschieben, scrolle zum Zoomen und wähle einen Knoten aus, um nur sein direktes Umfeld hervorzuheben.'
+          : 'Drag to pan, scroll to zoom, and select a node to highlight its immediate neighborhood.'}
+      </p>
+    </div>
+
+    <aside class="graph-details" aria-live="polite">
+      <p class="eyebrow">{copy.details}</p>
+      <div class="graph-details-content">
+        <p class="graph-empty-details">{copy.choose}</p>
+      </div>
+    </aside>
+  </div>
+
+  <noscript>
+    <p class="graph-noscript">
+      {locale === 'de'
+        ? 'Die interaktive Wissenskarte benötigt JavaScript. Der restliche Katalog bleibt vollständig zugänglich.'
+        : 'The interactive knowledge map requires JavaScript. The rest of the catalogue remains fully accessible.'}
+    </p>
+  </noscript>
+
+  <section class="coverage-section" aria-labelledby="knowledge-coverage-title">
+    <header class="coverage-head">
+      <div>
+        <p class="eyebrow">{copy.coverage}</p>
+        <h2 id="knowledge-coverage-title">{copy.coverage}</h2>
+        <p>{copy.coverageIntro}</p>
+      </div>
+      <p class="coverage-years">{Number.isFinite(minYear) && Number.isFinite(maxYear) ? `${minYear} → ${maxYear}` : ''}</p>
+    </header>
+    <div class="coverage-table-wrap" tabindex="0">
+      <table class="coverage-table">
+        <thead>
+          <tr>
+            <th scope="col">{copy.category}</th>
+            {coverageBands.map((band) => <th scope="col">{band.label}</th>)}
+          </tr>
+        </thead>
+        <tbody>
+          {coverageRows.map((row) => (
+            <tr>
+              <th scope="row">{row.label}</th>
+              {row.cells.map((cell) => (
+                <td class={`coverage-density-${cell.density}`} title={`${row.label}, ${cell.label}: ${cell.count}`}>
+                  {cell.count === 0 ? <span aria-hidden="true">—</span> : <strong>{cell.count}</strong>}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <script type="application/json" class="graph-data" set:html={JSON.stringify(data)} />
+  <script type="application/json" class="graph-copy" set:html={JSON.stringify(copy)} />
+</section>
+
+<script>
+  type NodeKind = 'claim' | 'concept' | 'category';
+  type GraphNode = {
+    id: string;
+    sourceId: string;
+    kind: NodeKind;
+    label: string;
+    summary?: string;
+    category?: string;
+    categoryLabel?: string;
+    status?: string;
+    statusLabel?: string;
+    timelineYear?: number;
+    changedApproximately?: string;
+    href?: string;
+    weight: number;
+    x: number;
+    y: number;
+  };
+  type GraphEdge = { id: string; source: string; target: string; kind: string };
+  type GraphData = { nodes: GraphNode[]; edges: GraphEdge[] };
+
+  const root = document.querySelector<HTMLElement>('[data-knowledge-map]');
+  if (root) {
+    const data = JSON.parse(root.querySelector<HTMLScriptElement>('.graph-data')?.textContent ?? '{}') as GraphData;
+    const copy = JSON.parse(root.querySelector<HTMLScriptElement>('.graph-copy')?.textContent ?? '{}') as Record<string, string>;
+    const svg = root.querySelector<SVGSVGElement>('.graph-svg');
+    const viewport = root.querySelector<SVGGElement>('.graph-viewport');
+    const edgeLayer = root.querySelector<SVGGElement>('.edge-layer');
+    const nodeLayer = root.querySelector<SVGGElement>('.node-layer');
+    const details = root.querySelector<HTMLElement>('.graph-details-content');
+    const search = root.querySelector<HTMLInputElement>('.graph-search');
+    const categoryFilter = root.querySelector<HTMLSelectElement>('.graph-category-filter');
+    const statusFilter = root.querySelector<HTMLSelectElement>('.graph-status-filter');
+    const visibleCount = root.querySelector<HTMLElement>('.graph-visible-count');
+    const surprise = root.querySelector<HTMLButtonElement>('.graph-surprise');
+    const reset = root.querySelector<HTMLButtonElement>('.graph-reset');
+    const zoomIn = root.querySelector<HTMLButtonElement>('.graph-zoom-in');
+    const zoomOut = root.querySelector<HTMLButtonElement>('.graph-zoom-out');
+
+    if (svg && viewport && edgeLayer && nodeLayer && details) {
+      const nodesById = new Map(data.nodes.map((node) => [node.id, node]));
+      const adjacency = new Map<string, Set<string>>();
+      data.nodes.forEach((node) => adjacency.set(node.id, new Set()));
+      data.edges.forEach((edge) => {
+        adjacency.get(edge.source)?.add(edge.target);
+        adjacency.get(edge.target)?.add(edge.source);
+      });
+
+      const nodeEls = new Map<string, SVGGElement>();
+      const edgeEls = new Map<string, SVGLineElement>();
+      const NS = 'http://www.w3.org/2000/svg';
+      let selectedId = '';
+      let scale = 1;
+      let panX = 0;
+      let panY = 0;
+      let dragging = false;
+      let moved = false;
+      let lastPoint = { x: 0, y: 0 };
+
+      const typeLabel = (kind: NodeKind) => copy[kind] ?? kind;
+      const actionLabel = (node: GraphNode) =>
+        node.kind === 'concept' ? copy.glossary : node.kind === 'category' ? copy.categoryPage : copy.open;
+
+      const applyTransform = () => {
+        viewport.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
+      };
+
+      const isNodeVisible = (node: GraphNode) => {
+        const query = search?.value.trim().toLowerCase() ?? '';
+        const category = categoryFilter?.value ?? '';
+        const status = statusFilter?.value ?? '';
+
+        const textMatch = !query || `${node.label} ${node.summary ?? ''} ${node.categoryLabel ?? ''} ${node.statusLabel ?? ''}`.toLowerCase().includes(query);
+        if (!textMatch) return false;
+
+        if (node.kind === 'claim') {
+          if (category && node.category !== category) return false;
+          if (status && node.status !== status) return false;
+          return true;
+        }
+
+        if (node.kind === 'category') {
+          if (category && node.sourceId !== category) return false;
+          return !status;
+        }
+
+        if (node.kind === 'concept') {
+          const neighbors = [...(adjacency.get(node.id) ?? [])]
+            .map((id) => nodesById.get(id))
+            .filter((candidate): candidate is GraphNode => Boolean(candidate));
+          return neighbors.some((neighbor) => neighbor.kind === 'claim' && isNodeVisible(neighbor));
+        }
+
+        return true;
+      };
+
+      const renderDetails = (node?: GraphNode) => {
+        details.replaceChildren();
+        if (!node) {
+          const p = document.createElement('p');
+          p.className = 'graph-empty-details';
+          p.textContent = copy.choose ?? '';
+          details.append(p);
+          return;
+        }
+
+        const type = document.createElement('p');
+        type.className = 'graph-node-type';
+        type.textContent = typeLabel(node.kind);
+        const title = document.createElement('h2');
+        title.textContent = node.label;
+        details.append(type, title);
+
+        if (node.kind === 'claim') {
+          const meta = document.createElement('p');
+          meta.className = 'graph-node-meta';
+          meta.textContent = [node.categoryLabel, node.statusLabel, node.changedApproximately].filter(Boolean).join(' · ');
+          details.append(meta);
+        }
+
+        if (node.summary) {
+          const summary = document.createElement('p');
+          summary.textContent = node.summary;
+          details.append(summary);
+        }
+
+        const neighbors = [...(adjacency.get(node.id) ?? [])]
+          .map((id) => nodesById.get(id))
+          .filter((candidate): candidate is GraphNode => Boolean(candidate) && isNodeVisible(candidate))
+          .sort((a, b) => a.label.localeCompare(b.label));
+
+        if (neighbors.length > 0) {
+          const heading = document.createElement('h3');
+          heading.textContent = copy.connected ?? '';
+          const list = document.createElement('ul');
+          neighbors.slice(0, 24).forEach((neighbor) => {
+            const li = document.createElement('li');
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.textContent = neighbor.label;
+            button.addEventListener('click', () => selectNode(neighbor.id));
+            li.append(button);
+            list.append(li);
+          });
+          details.append(heading, list);
+        }
+
+        if (node.href) {
+          const link = document.createElement('a');
+          link.className = 'button graph-open-link';
+          link.href = node.href;
+          link.textContent = actionLabel(node);
+          details.append(link);
+        }
+      };
+
+      const applyHighlight = () => {
+        const neighborhood = selectedId ? new Set([selectedId, ...(adjacency.get(selectedId) ?? [])]) : null;
+        nodeEls.forEach((el, id) => {
+          const node = nodesById.get(id);
+          const visible = node ? isNodeVisible(node) : false;
+          el.classList.toggle('is-hidden', !visible);
+          el.classList.toggle('is-selected', id === selectedId);
+          el.classList.toggle('is-muted', Boolean(neighborhood && !neighborhood.has(id)));
+        });
+        edgeEls.forEach((el, id) => {
+          const edge = data.edges.find((candidate) => candidate.id === id);
+          const source = edge ? nodesById.get(edge.source) : undefined;
+          const target = edge ? nodesById.get(edge.target) : undefined;
+          const visible = Boolean(edge && source && target && isNodeVisible(source) && isNodeVisible(target));
+          const highlighted = Boolean(edge && selectedId && (edge.source === selectedId || edge.target === selectedId));
+          el.classList.toggle('is-hidden', !visible);
+          el.classList.toggle('is-highlighted', highlighted);
+          el.classList.toggle('is-muted', Boolean(selectedId && !highlighted));
+        });
+        const count = data.nodes.filter(isNodeVisible).length;
+        if (visibleCount) visibleCount.textContent = `${count} ${copy.visible ?? ''}`;
+      };
+
+      const selectNode = (id: string) => {
+        selectedId = id;
+        const node = nodesById.get(id);
+        renderDetails(node);
+        applyHighlight();
+      };
+
+      data.edges.forEach((edge) => {
+        const source = nodesById.get(edge.source);
+        const target = nodesById.get(edge.target);
+        if (!source || !target) return;
+        const line = document.createElementNS(NS, 'line');
+        line.setAttribute('x1', String(source.x));
+        line.setAttribute('y1', String(source.y));
+        line.setAttribute('x2', String(target.x));
+        line.setAttribute('y2', String(target.y));
+        line.setAttribute('class', `graph-edge graph-edge-${edge.kind}`);
+        edgeLayer.append(line);
+        edgeEls.set(edge.id, line);
+      });
+
+      data.nodes.forEach((node) => {
+        const group = document.createElementNS(NS, 'g');
+        group.setAttribute('class', `graph-node graph-node-${node.kind}`);
+        group.setAttribute('transform', `translate(${node.x} ${node.y})`);
+        group.setAttribute('tabindex', '0');
+        group.setAttribute('role', 'button');
+        group.setAttribute('aria-label', `${typeLabel(node.kind)}: ${node.label}`);
+
+        const circle = document.createElementNS(NS, 'circle');
+        const radius = node.kind === 'category'
+          ? Math.min(28, 14 + Math.sqrt(node.weight) * 2.2)
+          : node.kind === 'concept'
+            ? Math.min(12, 6 + Math.sqrt(node.weight) * 1.3)
+            : 6;
+        circle.setAttribute('r', String(radius));
+        group.append(circle);
+
+        if (node.kind === 'category') {
+          const text = document.createElementNS(NS, 'text');
+          text.setAttribute('x', String(radius + 7));
+          text.setAttribute('y', '4');
+          text.textContent = node.label;
+          group.append(text);
+        }
+
+        group.addEventListener('click', () => {
+          if (!moved) selectNode(node.id);
+        });
+        group.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            selectNode(node.id);
+          }
+        });
+        nodeLayer.append(group);
+        nodeEls.set(node.id, group);
+      });
+
+      const refresh = () => {
+        if (selectedId && !isNodeVisible(nodesById.get(selectedId)!)) {
+          selectedId = '';
+          renderDetails();
+        }
+        applyHighlight();
+      };
+      search?.addEventListener('input', refresh);
+      categoryFilter?.addEventListener('change', refresh);
+      statusFilter?.addEventListener('change', refresh);
+
+      surprise?.addEventListener('click', () => {
+        const candidates = data.nodes.filter((node) => node.kind === 'claim' && isNodeVisible(node));
+        const node = candidates[Math.floor(Math.random() * candidates.length)];
+        if (node) selectNode(node.id);
+      });
+
+      reset?.addEventListener('click', () => {
+        if (search) search.value = '';
+        if (categoryFilter) categoryFilter.value = '';
+        if (statusFilter) statusFilter.value = '';
+        selectedId = '';
+        scale = 1;
+        panX = 0;
+        panY = 0;
+        applyTransform();
+        renderDetails();
+        applyHighlight();
+      });
+
+      const setScale = (next: number) => {
+        scale = Math.max(0.35, Math.min(4, next));
+        applyTransform();
+      };
+      zoomIn?.addEventListener('click', () => setScale(scale * 1.2));
+      zoomOut?.addEventListener('click', () => setScale(scale / 1.2));
+      svg.addEventListener('wheel', (event) => {
+        event.preventDefault();
+        setScale(scale * (event.deltaY < 0 ? 1.08 : 0.92));
+      }, { passive: false });
+
+      svg.addEventListener('pointerdown', (event) => {
+        dragging = true;
+        moved = false;
+        lastPoint = { x: event.clientX, y: event.clientY };
+        svg.setPointerCapture(event.pointerId);
+      });
+      svg.addEventListener('pointermove', (event) => {
+        if (!dragging) return;
+        const dx = event.clientX - lastPoint.x;
+        const dy = event.clientY - lastPoint.y;
+        if (Math.abs(dx) + Math.abs(dy) > 2) moved = true;
+        panX += dx / scale;
+        panY += dy / scale;
+        lastPoint = { x: event.clientX, y: event.clientY };
+        applyTransform();
+      });
+      const endDrag = () => { dragging = false; };
+      svg.addEventListener('pointerup', endDrag);
+      svg.addEventListener('pointercancel', endDrag);
+
+      renderDetails();
+      applyHighlight();
+      applyTransform();
+    }
+  }
+</script>
+
+<style>
+  .knowledge-map-section { padding: clamp(2.5rem, 6vw, 5rem) 0; }
+  .knowledge-map-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2rem; align-items: end; }
+  .knowledge-map-head h1 { margin: .15rem 0 .8rem; }
+  .knowledge-map-head .intro { margin: 0; color: var(--muted); font-size: 1.08rem; }
+  .knowledge-stats { display: flex; gap: .65rem; flex-wrap: wrap; justify-content: flex-end; }
+  .knowledge-stats span { padding: .65rem .8rem; border: 1px solid var(--line); border-radius: .55rem; background: var(--card); color: var(--muted); font-size: .82rem; }
+  .knowledge-stats strong { color: var(--ink); }
+
+  .graph-controls { display: grid; grid-template-columns: minmax(260px, 1.4fr) minmax(170px, .55fr) minmax(170px, .55fr) auto; gap: .8rem; margin-top: 2rem; align-items: end; }
+  .graph-controls label { display: grid; gap: .25rem; color: var(--muted); font-size: .78rem; font-weight: 800; }
+  .graph-controls input, .graph-controls select, .graph-controls button { min-height: 44px; border: 1px solid var(--line); border-radius: .55rem; background: var(--card); color: var(--ink); font: inherit; }
+  .graph-controls input, .graph-controls select { width: 100%; padding: .65rem .75rem; }
+  .graph-control-buttons { display: flex; gap: .5rem; }
+  .graph-control-buttons button { padding: .6rem .8rem; cursor: pointer; font-weight: 750; }
+  .graph-surprise { background: var(--ink) !important; color: white !important; border-color: var(--ink) !important; }
+  .graph-surprise:hover { background: var(--accent-dark) !important; }
+
+  .graph-shell { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 340px); gap: 1rem; margin-top: 1rem; align-items: stretch; }
+  .graph-stage { position: relative; min-height: 680px; height: 72vh; max-height: 850px; overflow: hidden; border: 1px solid var(--line); border-radius: .8rem; background: var(--card); cursor: grab; touch-action: none; }
+  .graph-stage:active { cursor: grabbing; }
+  .graph-svg { width: 100%; height: 100%; display: block; }
+  .graph-help { margin: .55rem .2rem 0; color: var(--muted); font-size: .82rem; }
+  .graph-zoom-controls { position: absolute; top: .75rem; right: .75rem; display: grid; gap: .35rem; }
+  .graph-zoom-controls button { width: 2.4rem; height: 2.4rem; border: 1px solid var(--line); border-radius: .45rem; background: var(--card); font: inherit; font-size: 1.15rem; cursor: pointer; }
+  .graph-visible-count { position: absolute; left: .75rem; bottom: .65rem; margin: 0; padding: .35rem .55rem; border-radius: .4rem; background: color-mix(in srgb, var(--card) 92%, transparent); color: var(--muted); font-size: .76rem; }
+
+  :global(.graph-edge) { stroke: #b8b1a4; stroke-width: 1.15; stroke-opacity: .36; vector-effect: non-scaling-stroke; transition: opacity 140ms ease, stroke 140ms ease, stroke-width 140ms ease; }
+  :global(.graph-edge-concept), :global(.graph-edge-related-concept) { stroke: #8f8678; stroke-dasharray: 3 3; }
+  :global(.graph-edge.is-highlighted) { stroke: var(--accent-dark); stroke-width: 2.2; stroke-opacity: .9; }
+  :global(.graph-edge.is-muted) { opacity: .06; }
+  :global(.graph-edge.is-hidden) { display: none; }
+
+  :global(.graph-node) { cursor: pointer; transition: opacity 140ms ease; outline: none; }
+  :global(.graph-node circle) { stroke: var(--card); stroke-width: 2; vector-effect: non-scaling-stroke; }
+  :global(.graph-node-claim circle) { fill: var(--ink); }
+  :global(.graph-node-concept circle) { fill: var(--accent); }
+  :global(.graph-node-category circle) { fill: #e7dfd0; stroke: var(--ink); stroke-width: 2.4; }
+  :global(.graph-node text) { fill: var(--ink); font-size: 18px; font-weight: 800; paint-order: stroke; stroke: var(--card); stroke-width: 5px; stroke-linejoin: round; }
+  :global(.graph-node.is-muted) { opacity: .13; }
+  :global(.graph-node.is-hidden) { display: none; }
+  :global(.graph-node.is-selected circle) { fill: var(--accent-dark); stroke: var(--ink); stroke-width: 3.5; }
+  :global(.graph-node:focus-visible circle) { stroke: var(--accent-dark); stroke-width: 4; }
+
+  .graph-details { min-height: 680px; height: 72vh; max-height: 850px; overflow: auto; padding: 1.25rem; border: 1px solid var(--line); border-radius: .8rem; background: var(--card); }
+  .graph-details h2 { margin: .2rem 0 .7rem; font-size: clamp(1.5rem, 2.6vw, 2rem); }
+  .graph-details h3 { margin-top: 1.7rem; font-size: 1rem; }
+  .graph-node-type, .graph-node-meta { color: var(--muted); font-size: .82rem; font-weight: 750; }
+  .graph-node-meta { margin-top: -.3rem; }
+  .graph-details ul { list-style: none; margin: .4rem 0 0; padding: 0; display: grid; gap: .35rem; }
+  .graph-details li button { width: 100%; padding: .45rem .55rem; border: 1px solid var(--line); border-radius: .4rem; background: transparent; color: var(--ink); text-align: left; cursor: pointer; font: inherit; font-size: .86rem; }
+  .graph-details li button:hover { border-color: var(--accent-dark); color: var(--accent-dark); }
+  .graph-open-link { margin-top: 1.4rem; }
+  .graph-empty-details { color: var(--muted); }
+  .graph-noscript { margin-top: 1rem; padding: 1rem; border: 1px solid var(--line); background: var(--card); }
+
+  .coverage-section { margin-top: 5rem; padding-top: 2.5rem; border-top: 2px solid var(--ink); }
+  .coverage-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2rem; align-items: end; }
+  .coverage-head h2 { margin: .15rem 0 .7rem; }
+  .coverage-head p { color: var(--muted); }
+  .coverage-years { padding: .6rem .8rem; border: 1px solid var(--line); border-radius: .5rem; background: var(--card); font-weight: 800; white-space: nowrap; }
+  .coverage-table-wrap { margin-top: 1.25rem; overflow-x: auto; border: 1px solid var(--line); border-radius: .8rem; background: var(--card); }
+  .coverage-table { width: 100%; min-width: 760px; border-collapse: collapse; font-size: .84rem; }
+  .coverage-table th, .coverage-table td { padding: .7rem .65rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: center; }
+  .coverage-table th:first-child { text-align: left; position: sticky; left: 0; background: var(--card); z-index: 1; }
+  .coverage-table tr:last-child > * { border-bottom: 0; }
+  .coverage-density-0 { color: var(--muted); }
+  .coverage-density-1 { background: color-mix(in srgb, var(--accent) 10%, var(--card)); }
+  .coverage-density-2 { background: color-mix(in srgb, var(--accent) 18%, var(--card)); }
+  .coverage-density-3 { background: color-mix(in srgb, var(--accent) 28%, var(--card)); }
+  .coverage-density-4 { background: color-mix(in srgb, var(--accent) 40%, var(--card)); }
+  .coverage-density-5 { background: color-mix(in srgb, var(--accent) 54%, var(--card)); }
+
+  @media (max-width: 980px) {
+    .knowledge-map-head, .coverage-head { grid-template-columns: 1fr; }
+    .knowledge-stats { justify-content: flex-start; }
+    .graph-controls { grid-template-columns: 1fr 1fr; }
+    .graph-search-wrap { grid-column: 1 / -1; }
+    .graph-control-buttons { justify-content: stretch; }
+    .graph-control-buttons button { flex: 1; }
+    .graph-shell { grid-template-columns: 1fr; }
+    .graph-details { min-height: 0; height: auto; max-height: none; }
+  }
+
+  @media (max-width: 640px) {
+    .graph-controls { grid-template-columns: 1fr; }
+    .graph-search-wrap { grid-column: auto; }
+    .graph-stage { min-height: 520px; height: 66vh; }
+    .graph-details { position: relative; padding: 1rem; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    :global(.graph-node), :global(.graph-edge) { transition: none; }
+  }
+</style>

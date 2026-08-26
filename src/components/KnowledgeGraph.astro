@@ -13,65 +13,68 @@ const copy = locale === 'de'
   ? {
       eyebrow: 'Wissenslandschaft',
       title: 'Karte des veränderten Wissens',
-      intro: 'Verfolge die Verbindungen zwischen Aussagen, Fachgebieten und gemeinsam verwendeten Begriffen im Katalog und Glossar.',
-      search: 'Aussagen und Begriffe durchsuchen…',
-      categories: 'Kategorie',
+      intro: 'Erkunde wiederkehrende Muster, durch die akzeptierte Vorstellungen falsch lagen, und die Arten von Evidenz, durch die sie korrigiert wurden. Fachgebiete dienen nur als Filter; die Verbindungen sind kuratierte, fachübergreifende Beziehungen.',
+      search: 'Aussagen und Muster durchsuchen…',
+      categories: 'Fachgebiet',
       statuses: 'Status',
-      allCategories: 'Alle Kategorien',
+      allCategories: 'Alle Fachgebiete',
       allStatuses: 'Alle Status',
       surprise: 'Überrasch mich',
       reset: 'Ansicht zurücksetzen',
       zoomIn: 'Vergrößern',
       zoomOut: 'Verkleinern',
       details: 'Auswahl',
-      choose: 'Wähle einen Knoten aus, um seine direkten Verbindungen zu sehen.',
+      choose: 'Wähle eine Aussage oder ein Muster aus, um ihre direkten Verbindungen zu sehen.',
       open: 'Eintrag öffnen',
-      glossary: 'Glossareintrag öffnen',
-      categoryPage: 'Kategorie öffnen',
       connected: 'Direkte Verbindungen',
       claim: 'Aussage',
-      claims: 'Aussagen',
-      concept: 'Begriff',
-      concepts: 'Begriffe',
-      category: 'Kategorie',
-      categoryPlural: 'Kategorien',
+      errorPattern: 'Fehlermuster',
+      correctionMechanism: 'Korrekturmechanismus',
+      claims: 'Katalogaussagen',
+      mapped: 'semantisch kartiert',
+      errorPatterns: 'Fehlermuster',
+      correctionMechanisms: 'Korrekturmechanismen',
       visible: 'sichtbare Knoten',
-      coverage: 'Katalogabdeckung',
-      coverageIntro: 'Die Dichte zeigt nur, wie viele Einträge dieser Katalog in einer Kategorie und Zeitspanne dokumentiert. Sie misst weder die historische Häufigkeit von Irrtümern noch die Bedeutung eines Fachgebiets.',
+      legendError: 'Was am alten Modell falsch war',
+      legendCorrection: 'Welche Evidenz es korrigierte',
+      legendClaim: 'Katalogaussage',
     }
   : {
       eyebrow: 'Knowledge landscape',
       title: 'Map of changing knowledge',
-      intro: 'Follow the connections between claims, scientific fields, and the concepts they share across the catalogue and glossary.',
-      search: 'Search claims and concepts…',
-      categories: 'Category',
+      intro: 'Explore recurring ways accepted ideas went wrong — and the kinds of evidence that changed them. Fields are filters only; the links are curated semantic relationships across disciplines.',
+      search: 'Search claims and patterns…',
+      categories: 'Field',
       statuses: 'Status',
-      allCategories: 'All categories',
+      allCategories: 'All fields',
       allStatuses: 'All statuses',
       surprise: 'Surprise me',
       reset: 'Reset view',
       zoomIn: 'Zoom in',
       zoomOut: 'Zoom out',
       details: 'Selection',
-      choose: 'Select a node to see its immediate connections.',
+      choose: 'Select a claim or pattern to see its immediate connections.',
       open: 'Open entry',
-      glossary: 'Open glossary term',
-      categoryPage: 'Open category',
       connected: 'Direct connections',
       claim: 'Claim',
-      claims: 'Claims',
-      concept: 'Concept',
-      concepts: 'Concepts',
-      category: 'Category',
-      categoryPlural: 'Categories',
+      errorPattern: 'Error pattern',
+      correctionMechanism: 'Correction mechanism',
+      claims: 'catalogue claims',
+      mapped: 'semantically mapped',
+      errorPatterns: 'error patterns',
+      correctionMechanisms: 'correction mechanisms',
       visible: 'visible nodes',
-      coverage: 'Catalogue coverage',
-      coverageIntro: 'Density shows only how many entries this catalogue documents in a field and period. It does not measure historical prevalence of error or the importance of a field.',
+      legendError: 'What was wrong with the old model',
+      legendCorrection: 'What kind of evidence corrected it',
+      legendClaim: 'Catalogue claim',
     };
 
-const categories = data.nodes
-  .filter((node) => node.kind === 'category')
-  .map((node) => ({ value: node.sourceId, label: node.label }))
+const categories = [...new Map(
+  data.nodes
+    .filter((node) => node.kind === 'claim' && node.category)
+    .map((node) => [node.category!, node.categoryLabel ?? node.category!])
+).entries()]
+  .map(([value, label]) => ({ value, label }))
   .sort((a, b) => a.label.localeCompare(b.label, locale));
 
 const statuses = [...new Map(
@@ -81,31 +84,6 @@ const statuses = [...new Map(
 ).entries()]
   .map(([value, label]) => ({ value, label }))
   .sort((a, b) => a.label.localeCompare(b.label, locale));
-
-const claims = data.nodes.filter((node) => node.kind === 'claim');
-const years = claims.map((node) => node.timelineYear).filter((year): year is number => Number.isFinite(year));
-const minYear = Math.min(...years);
-const maxYear = Math.max(...years);
-const coverageBands = [
-  { id: 'pre1800', label: locale === 'de' ? 'Vor 1800' : 'Before 1800', start: Number.MIN_SAFE_INTEGER, end: 1799 },
-  { id: '1800s', label: '1800–1899', start: 1800, end: 1899 },
-  { id: '1900-1949', label: '1900–1949', start: 1900, end: 1949 },
-  { id: '1950-1999', label: '1950–1999', start: 1950, end: 1999 },
-  { id: '2000-present', label: locale === 'de' ? '2000–heute' : '2000–present', start: 2000, end: Number.MAX_SAFE_INTEGER },
-];
-
-const coverageRows = categories.map((category) => ({
-  ...category,
-  cells: coverageBands.map((band) => {
-    const count = claims.filter((node) =>
-      node.category === category.value &&
-      typeof node.timelineYear === 'number' &&
-      node.timelineYear >= band.start &&
-      node.timelineYear <= band.end
-    ).length;
-    return { ...band, count, density: Math.min(5, count) };
-  }),
-}));
 ---
 
 <section class="knowledge-map-section container" data-knowledge-map data-locale={locale}>
@@ -115,12 +93,19 @@ const coverageRows = categories.map((category) => ({
       <h1>{copy.title}</h1>
       <p class="intro">{copy.intro}</p>
     </div>
-    <div class="knowledge-stats" aria-label={locale === 'de' ? 'Zusammenfassung des Wissensgraphen' : 'Knowledge graph summary'}>
-      <span><strong>{data.claimCount}</strong> {copy.claims.toLowerCase()}</span>
-      <span><strong>{data.conceptCount}</strong> {copy.concepts.toLowerCase()}</span>
-      <span><strong>{data.categoryCount}</strong> {copy.categoryPlural.toLowerCase()}</span>
+    <div class="knowledge-stats" aria-label={locale === 'de' ? 'Zusammenfassung der Wissenskarte' : 'Knowledge map summary'}>
+      <span><strong>{data.claimCount}</strong> {copy.claims}</span>
+      <span><strong>{data.mappedClaimCount}</strong> {copy.mapped}</span>
+      <span><strong>{data.errorPatternCount}</strong> {copy.errorPatterns}</span>
+      <span><strong>{data.correctionMechanismCount}</strong> {copy.correctionMechanisms}</span>
     </div>
   </header>
+
+  <div class="graph-legend" aria-label={locale === 'de' ? 'Legende' : 'Legend'}>
+    <span><i class="legend-dot legend-claim"></i>{copy.legendClaim}</span>
+    <span><i class="legend-dot legend-error"></i>{copy.legendError}</span>
+    <span><i class="legend-dot legend-correction"></i>{copy.legendCorrection}</span>
+  </div>
 
   <div class="graph-controls" aria-label={locale === 'de' ? 'Steuerung der Wissenskarte' : 'Knowledge map controls'}>
     <label class="graph-search-wrap">
@@ -150,7 +135,7 @@ const coverageRows = categories.map((category) => ({
   <div class="graph-shell">
     <div class="graph-stage-wrap">
       <div class="graph-stage" tabindex="0" role="application" aria-label={locale === 'de' ? 'Interaktive Wissenskarte' : 'Interactive knowledge map'}>
-        <svg class="graph-svg" viewBox="-1800 -1400 3600 2800">
+        <svg class="graph-svg" viewBox="-1250 -850 2500 1700">
           <g class="graph-viewport">
             <g class="edge-layer"></g>
             <g class="node-layer"></g>
@@ -164,7 +149,7 @@ const coverageRows = categories.map((category) => ({
       </div>
       <p class="graph-help">
         {locale === 'de'
-          ? 'Ziehe zum Verschieben, scrolle zum Zoomen und wähle einen Knoten aus, um nur sein direktes Umfeld hervorzuheben.'
+          ? 'Ziehe zum Verschieben, scrolle zum Zoomen und wähle einen Knoten aus, um sein direktes Umfeld hervorzuheben.'
           : 'Drag to pan, scroll to zoom, and select a node to highlight its immediate neighborhood.'}
       </p>
     </div>
@@ -185,45 +170,12 @@ const coverageRows = categories.map((category) => ({
     </p>
   </noscript>
 
-  <section class="coverage-section" aria-labelledby="knowledge-coverage-title">
-    <header class="coverage-head">
-      <div>
-        <p class="eyebrow">{copy.coverage}</p>
-        <h2 id="knowledge-coverage-title">{copy.coverage}</h2>
-        <p>{copy.coverageIntro}</p>
-      </div>
-      <p class="coverage-years">{Number.isFinite(minYear) && Number.isFinite(maxYear) ? `${minYear} → ${maxYear}` : ''}</p>
-    </header>
-    <div class="coverage-table-wrap" tabindex="0">
-      <table class="coverage-table">
-        <thead>
-          <tr>
-            <th scope="col">{copy.category}</th>
-            {coverageBands.map((band) => <th scope="col">{band.label}</th>)}
-          </tr>
-        </thead>
-        <tbody>
-          {coverageRows.map((row) => (
-            <tr>
-              <th scope="row">{row.label}</th>
-              {row.cells.map((cell) => (
-                <td class={`coverage-density-${cell.density}`} title={`${row.label}, ${cell.label}: ${cell.count}`}>
-                  {cell.count === 0 ? <span aria-hidden="true">—</span> : <strong>{cell.count}</strong>}
-                </td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  </section>
-
   <script type="application/json" class="graph-data" set:html={JSON.stringify(data)} />
   <script type="application/json" class="graph-copy" set:html={JSON.stringify(copy)} />
 </section>
 
 <script>
-  type NodeKind = 'claim' | 'concept' | 'category';
+  type NodeKind = 'claim' | 'error-pattern' | 'correction-mechanism';
   type GraphNode = {
     id: string;
     sourceId: string;
@@ -264,6 +216,7 @@ const coverageRows = categories.map((category) => ({
 
     if (svg && viewport && edgeLayer && nodeLayer && details) {
       const nodesById = new Map(data.nodes.map((node) => [node.id, node]));
+      const edgesById = new Map(data.edges.map((edge) => [edge.id, edge]));
       const adjacency = new Map<string, Set<string>>();
       data.nodes.forEach((node) => adjacency.set(node.id, new Set()));
       data.edges.forEach((edge) => {
@@ -279,44 +232,44 @@ const coverageRows = categories.map((category) => ({
       let panX = 0;
       let panY = 0;
       let dragging = false;
-      let moved = false;
       let lastPoint = { x: 0, y: 0 };
 
-      const typeLabel = (kind: NodeKind) => copy[kind] ?? kind;
-      const actionLabel = (node: GraphNode) =>
-        node.kind === 'concept' ? copy.glossary : node.kind === 'category' ? copy.categoryPage : copy.open;
+      const typeLabel = (kind: NodeKind) => {
+        if (kind === 'error-pattern') return copy.errorPattern ?? kind;
+        if (kind === 'correction-mechanism') return copy.correctionMechanism ?? kind;
+        return copy.claim ?? kind;
+      };
 
       const applyTransform = () => {
         viewport.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
       };
 
-      const isNodeVisible = (node: GraphNode) => {
+      const queryMatches = (node: GraphNode) => {
         const query = search?.value.trim().toLowerCase() ?? '';
+        return !query || `${node.label} ${node.summary ?? ''} ${node.categoryLabel ?? ''} ${node.statusLabel ?? ''}`.toLowerCase().includes(query);
+      };
+
+      const claimMatchesFilters = (node: GraphNode) => {
+        if (node.kind !== 'claim') return false;
         const category = categoryFilter?.value ?? '';
         const status = statusFilter?.value ?? '';
-
-        const textMatch = !query || `${node.label} ${node.summary ?? ''} ${node.categoryLabel ?? ''} ${node.statusLabel ?? ''}`.toLowerCase().includes(query);
-        if (!textMatch) return false;
-
-        if (node.kind === 'claim') {
-          if (category && node.category !== category) return false;
-          if (status && node.status !== status) return false;
-          return true;
-        }
-
-        if (node.kind === 'category') {
-          if (category && node.sourceId !== category) return false;
-          return !status;
-        }
-
-        if (node.kind === 'concept') {
-          const neighbors = [...(adjacency.get(node.id) ?? [])]
-            .map((id) => nodesById.get(id))
-            .filter((candidate): candidate is GraphNode => Boolean(candidate));
-          return neighbors.some((neighbor) => neighbor.kind === 'claim' && isNodeVisible(neighbor));
-        }
-
+        if (category && node.category !== category) return false;
+        if (status && node.status !== status) return false;
         return true;
+      };
+
+      const isNodeVisible = (node: GraphNode) => {
+        if (node.kind === 'claim') return claimMatchesFilters(node) && queryMatches(node);
+
+        const connectedClaims = [...(adjacency.get(node.id) ?? [])]
+          .map((id) => nodesById.get(id))
+          .filter((candidate): candidate is GraphNode => Boolean(candidate) && candidate?.kind === 'claim');
+        const hasFilteredClaim = connectedClaims.some(claimMatchesFilters);
+        if (!hasFilteredClaim) return false;
+
+        const query = search?.value.trim() ?? '';
+        if (!query) return true;
+        return queryMatches(node) || connectedClaims.some((claim) => claimMatchesFilters(claim) && queryMatches(claim));
       };
 
       const renderDetails = (node?: GraphNode) => {
@@ -352,17 +305,20 @@ const coverageRows = categories.map((category) => ({
         const neighbors = [...(adjacency.get(node.id) ?? [])]
           .map((id) => nodesById.get(id))
           .filter((candidate): candidate is GraphNode => Boolean(candidate) && isNodeVisible(candidate))
-          .sort((a, b) => a.label.localeCompare(b.label));
+          .sort((a, b) => {
+            if (a.kind !== b.kind) return a.kind.localeCompare(b.kind);
+            return a.label.localeCompare(b.label);
+          });
 
         if (neighbors.length > 0) {
           const heading = document.createElement('h3');
           heading.textContent = copy.connected ?? '';
           const list = document.createElement('ul');
-          neighbors.slice(0, 24).forEach((neighbor) => {
+          neighbors.forEach((neighbor) => {
             const li = document.createElement('li');
             const button = document.createElement('button');
             button.type = 'button';
-            button.textContent = neighbor.label;
+            button.textContent = `${typeLabel(neighbor.kind)} · ${neighbor.label}`;
             button.addEventListener('click', () => selectNode(neighbor.id));
             li.append(button);
             list.append(li);
@@ -374,7 +330,7 @@ const coverageRows = categories.map((category) => ({
           const link = document.createElement('a');
           link.className = 'button graph-open-link';
           link.href = node.href;
-          link.textContent = actionLabel(node);
+          link.textContent = copy.open ?? '';
           details.append(link);
         }
       };
@@ -389,7 +345,7 @@ const coverageRows = categories.map((category) => ({
           el.classList.toggle('is-muted', Boolean(neighborhood && !neighborhood.has(id)));
         });
         edgeEls.forEach((el, id) => {
-          const edge = data.edges.find((candidate) => candidate.id === id);
+          const edge = edgesById.get(id);
           const source = edge ? nodesById.get(edge.source) : undefined;
           const target = edge ? nodesById.get(edge.target) : undefined;
           const visible = Boolean(edge && source && target && isNodeVisible(source) && isNodeVisible(target));
@@ -432,15 +388,11 @@ const coverageRows = categories.map((category) => ({
         group.setAttribute('aria-label', `${typeLabel(node.kind)}: ${node.label}`);
 
         const circle = document.createElementNS(NS, 'circle');
-        const radius = node.kind === 'category'
-          ? Math.min(28, 14 + Math.sqrt(node.weight) * 2.2)
-          : node.kind === 'concept'
-            ? Math.min(12, 6 + Math.sqrt(node.weight) * 1.3)
-            : 6;
+        const radius = node.kind === 'claim' ? 6 : Math.min(24, 11 + Math.sqrt(node.weight) * 1.7);
         circle.setAttribute('r', String(radius));
         group.append(circle);
 
-        if (node.kind === 'category') {
+        if (node.kind !== 'claim') {
           const text = document.createElementNS(NS, 'text');
           text.setAttribute('x', String(radius + 7));
           text.setAttribute('y', '4');
@@ -448,9 +400,7 @@ const coverageRows = categories.map((category) => ({
           group.append(text);
         }
 
-        group.addEventListener('pointerdown', (event) => {
-          event.stopPropagation();
-        });
+        group.addEventListener('pointerdown', (event) => event.stopPropagation());
         group.addEventListener('click', (event) => {
           event.stopPropagation();
           selectNode(node.id);
@@ -466,7 +416,8 @@ const coverageRows = categories.map((category) => ({
       });
 
       const refresh = () => {
-        if (selectedId && !isNodeVisible(nodesById.get(selectedId)!)) {
+        const selected = nodesById.get(selectedId);
+        if (selectedId && (!selected || !isNodeVisible(selected))) {
           selectedId = '';
           renderDetails();
         }
@@ -510,7 +461,6 @@ const coverageRows = categories.map((category) => ({
         const target = event.target;
         if (target instanceof Element && target.closest('.graph-node')) return;
         dragging = true;
-        moved = false;
         lastPoint = { x: event.clientX, y: event.clientY };
         svg.setPointerCapture(event.pointerId);
       });
@@ -518,7 +468,6 @@ const coverageRows = categories.map((category) => ({
         if (!dragging) return;
         const dx = event.clientX - lastPoint.x;
         const dy = event.clientY - lastPoint.y;
-        if (Math.abs(dx) + Math.abs(dy) > 2) moved = true;
         panX += dx / scale;
         panY += dy / scale;
         lastPoint = { x: event.clientX, y: event.clientY };
@@ -540,14 +489,21 @@ const coverageRows = categories.map((category) => ({
 
 <style>
   .knowledge-map-section { padding: clamp(2.5rem, 6vw, 5rem) 0; }
-  .knowledge-map-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2rem; align-items: end; }
+  .knowledge-map-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, auto); gap: 2rem; align-items: end; }
   .knowledge-map-head h1 { margin: .15rem 0 .8rem; }
-  .knowledge-map-head .intro { margin: 0; color: var(--muted); font-size: 1.08rem; }
+  .knowledge-map-head .intro { max-width: 780px; margin: 0; color: var(--muted); font-size: 1.08rem; }
   .knowledge-stats { display: flex; gap: .65rem; flex-wrap: wrap; justify-content: flex-end; }
   .knowledge-stats span { padding: .65rem .8rem; border: 1px solid var(--line); border-radius: .55rem; background: var(--card); color: var(--muted); font-size: .82rem; }
   .knowledge-stats strong { color: var(--ink); }
 
-  .graph-controls { display: grid; grid-template-columns: minmax(260px, 1.4fr) minmax(170px, .55fr) minmax(170px, .55fr) auto; gap: .8rem; margin-top: 2rem; align-items: end; }
+  .graph-legend { display: flex; flex-wrap: wrap; gap: .65rem 1.2rem; margin-top: 1.35rem; color: var(--muted); font-size: .8rem; }
+  .graph-legend span { display: inline-flex; align-items: center; gap: .42rem; }
+  .legend-dot { width: .72rem; height: .72rem; display: inline-block; border-radius: 999px; }
+  .legend-claim { background: var(--ink); }
+  .legend-error { background: #e7dfd0; border: 1px solid var(--ink); }
+  .legend-correction { background: var(--accent); }
+
+  .graph-controls { display: grid; grid-template-columns: minmax(260px, 1.4fr) minmax(170px, .55fr) minmax(170px, .55fr) auto; gap: .8rem; margin-top: 1.2rem; align-items: end; }
   .graph-controls label { display: grid; gap: .25rem; color: var(--muted); font-size: .78rem; font-weight: 800; }
   .graph-controls input, .graph-controls select, .graph-controls button { min-height: 44px; border: 1px solid var(--line); border-radius: .55rem; background: var(--card); color: var(--ink); font: inherit; }
   .graph-controls input, .graph-controls select { width: 100%; padding: .65rem .75rem; }
@@ -565,19 +521,20 @@ const coverageRows = categories.map((category) => ({
   .graph-zoom-controls button { width: 2.4rem; height: 2.4rem; border: 1px solid var(--line); border-radius: .45rem; background: var(--card); font: inherit; font-size: 1.15rem; cursor: pointer; }
   .graph-visible-count { position: absolute; left: .75rem; bottom: .65rem; margin: 0; padding: .35rem .55rem; border-radius: .4rem; background: color-mix(in srgb, var(--card) 92%, transparent); color: var(--muted); font-size: .76rem; }
 
-  :global(.graph-edge) { stroke: #b8b1a4; stroke-width: 1.15; stroke-opacity: .36; vector-effect: non-scaling-stroke; transition: opacity 140ms ease, stroke 140ms ease, stroke-width 140ms ease; }
-  :global(.graph-edge-concept), :global(.graph-edge-related-concept) { stroke: #8f8678; stroke-dasharray: 3 3; }
-  :global(.graph-edge.is-highlighted) { stroke: var(--accent-dark); stroke-width: 2.2; stroke-opacity: .9; }
-  :global(.graph-edge.is-muted) { opacity: .06; }
+  :global(.graph-edge) { stroke-width: 1.15; stroke-opacity: .34; vector-effect: non-scaling-stroke; transition: opacity 140ms ease, stroke 140ms ease, stroke-width 140ms ease; }
+  :global(.graph-edge-error-pattern) { stroke: #a49c90; }
+  :global(.graph-edge-correction-mechanism) { stroke: var(--accent); stroke-dasharray: 3 3; stroke-opacity: .29; }
+  :global(.graph-edge.is-highlighted) { stroke: var(--accent-dark); stroke-width: 2.2; stroke-opacity: .92; stroke-dasharray: none; }
+  :global(.graph-edge.is-muted) { opacity: .05; }
   :global(.graph-edge.is-hidden) { display: none; }
 
   :global(.graph-node) { cursor: pointer; transition: opacity 140ms ease; outline: none; }
   :global(.graph-node circle) { stroke: var(--card); stroke-width: 2; vector-effect: non-scaling-stroke; }
   :global(.graph-node-claim circle) { fill: var(--ink); }
-  :global(.graph-node-concept circle) { fill: var(--accent); }
-  :global(.graph-node-category circle) { fill: #e7dfd0; stroke: var(--ink); stroke-width: 2.4; }
-  :global(.graph-node text) { fill: var(--ink); font-size: 18px; font-weight: 800; paint-order: stroke; stroke: var(--card); stroke-width: 5px; stroke-linejoin: round; }
-  :global(.graph-node.is-muted) { opacity: .13; }
+  :global(.graph-node-error-pattern circle) { fill: #e7dfd0; stroke: var(--ink); stroke-width: 2.4; }
+  :global(.graph-node-correction-mechanism circle) { fill: var(--accent); stroke: var(--card); stroke-width: 2.4; }
+  :global(.graph-node text) { fill: var(--ink); font-size: 16px; font-weight: 800; paint-order: stroke; stroke: var(--card); stroke-width: 5px; stroke-linejoin: round; }
+  :global(.graph-node.is-muted) { opacity: .11; }
   :global(.graph-node.is-hidden) { display: none; }
   :global(.graph-node.is-selected circle) { fill: var(--accent-dark); stroke: var(--ink); stroke-width: 3.5; }
   :global(.graph-node:focus-visible circle) { stroke: var(--accent-dark); stroke-width: 4; }
@@ -594,25 +551,8 @@ const coverageRows = categories.map((category) => ({
   .graph-empty-details { color: var(--muted); }
   .graph-noscript { margin-top: 1rem; padding: 1rem; border: 1px solid var(--line); background: var(--card); }
 
-  .coverage-section { margin-top: 5rem; padding-top: 2.5rem; border-top: 2px solid var(--ink); }
-  .coverage-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2rem; align-items: end; }
-  .coverage-head h2 { margin: .15rem 0 .7rem; }
-  .coverage-head p { color: var(--muted); }
-  .coverage-years { padding: .6rem .8rem; border: 1px solid var(--line); border-radius: .5rem; background: var(--card); font-weight: 800; white-space: nowrap; }
-  .coverage-table-wrap { margin-top: 1.25rem; overflow-x: auto; border: 1px solid var(--line); border-radius: .8rem; background: var(--card); }
-  .coverage-table { width: 100%; min-width: 760px; border-collapse: collapse; font-size: .84rem; }
-  .coverage-table th, .coverage-table td { padding: .7rem .65rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: center; }
-  .coverage-table th:first-child { text-align: left; position: sticky; left: 0; background: var(--card); z-index: 1; }
-  .coverage-table tr:last-child > * { border-bottom: 0; }
-  .coverage-density-0 { color: var(--muted); }
-  .coverage-density-1 { background: color-mix(in srgb, var(--accent) 10%, var(--card)); }
-  .coverage-density-2 { background: color-mix(in srgb, var(--accent) 18%, var(--card)); }
-  .coverage-density-3 { background: color-mix(in srgb, var(--accent) 28%, var(--card)); }
-  .coverage-density-4 { background: color-mix(in srgb, var(--accent) 40%, var(--card)); }
-  .coverage-density-5 { background: color-mix(in srgb, var(--accent) 54%, var(--card)); }
-
   @media (max-width: 980px) {
-    .knowledge-map-head, .coverage-head { grid-template-columns: 1fr; }
+    .knowledge-map-head { grid-template-columns: 1fr; }
     .knowledge-stats { justify-content: flex-start; }
     .graph-controls { grid-template-columns: 1fr 1fr; }
     .graph-search-wrap { grid-column: 1 / -1; }

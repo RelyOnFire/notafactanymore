@@ -1,13 +1,26 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const entries = await getCollection('entries');
+const institutionalBeliefs = await getCollection('institutionalBeliefs');
+const glossary = await getCollection('glossary');
 ---
 <BaseLayout locale="de" title="Über das Projekt" alternatePath="/about">
   <article class="narrow prose">
     <p class="eyebrow">Über das Projekt</p>
     <h1>Fakten haben eine Geschichte.</h1>
-    <p class="lead"><strong>Not a Fact Anymore</strong> ist ein Katalog von Aussagen, die einst vernünftigerweise als Tatsachen galten, später aber durch bessere Evidenz widerlegt, abgelöst, eingeschränkt, neu eingeordnet oder korrigiert wurden.</p>
-    <p>Das Ziel besteht nicht darin, frühere Forschende oder Generationen lächerlich zu machen. Eine Schlussfolgerung zu revidieren, wenn bessere Evidenz verfügbar wird, gehört zu den Stärken von Wissenschaft, Forschung und empirischem Denken.</p>
-    <p>Das Projekt ist eine kuratierte Open-Source-Sammlung. Vorgeschlagene Einträge und Korrekturen werden vor der Veröffentlichung geprüft; jeder veröffentlichte Eintrag verweist direkt auf die zugrunde liegenden Belege.</p>
+    <p class="lead"><strong>Not a Fact Anymore</strong> dokumentiert Aussagen, die Institutionen, Forschende und Fachgemeinschaften einst mit guten Gründen als Tatsachen behandeln konnten – und was geschah, als stärkere Evidenz dieses Bild veränderte.</p>
+
+    <p>Der Hauptkatalog umfasst derzeit <strong>{entries.length}</strong> korrigierte, eingeschränkte, abgelöste, neu eingeordnete oder widerlegte Aussagen. Die separate Sammlung <strong>Institutionelle Überzeugungen</strong> verfolgt Fälle, in denen Tatsachenbehauptungen in Politik, Medizin, Recht, Berufspraxis, Bildung oder anderen Institutionen verankert wurden, bevor sie korrigiert oder widerlegt wurden.</p>
+
+    <p>Die Website untersucht außerdem, wann sich Aussagen änderten, wie lange sie vertretbar blieben, welche Begriffe sie miteinander verbinden und in welchen Bereichen der Katalog selbst dicht oder dünn belegt ist. Das Glossar mit <strong>{glossary.length}</strong> Begriffen, Zeitleisten, Lebensdaueranalysen, Kategorieseiten und die Wissenskarte sind verschiedene Zugänge zu demselben belegten Material – keine voneinander getrennten Datensätze.</p>
+
+    <p>Das Ziel besteht nicht darin, frühere Forschende oder Generationen lächerlich zu machen. Viele verworfene Ideen waren angesichts der damals verfügbaren Evidenz und Instrumente vernünftig. Eine Schlussfolgerung zu revidieren, wenn bessere Evidenz verfügbar wird, gehört zu den Stärken von Wissenschaft, Forschung und empirischem Denken.</p>
+
+    <p>Das Projekt ist eine kuratierte Open-Source-Sammlung. Jede veröffentlichte Aussage ist belegt; Datierungen und Grenzen werden als Näherungen behandelt, wenn es die historische Quellenlage verlangt; vorgeschlagene Einträge und Korrekturen werden vor der Veröffentlichung geprüft. Die Sammlung Institutionelle Überzeugungen enthält derzeit <strong>{institutionalBeliefs.length}</strong> dokumentierte Fälle.</p>
+
+    <p class="about-links"><a href="/de/methodology">Zur Methodik</a> · <a href="/de/submit">Aussage oder Korrektur vorschlagen</a></p>
   </article>
 </BaseLayout>
 <style>
@@ -15,4 +28,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   .prose h1 { margin: .2rem 0 1.5rem; }
   .lead { font-size: 1.3rem; color: var(--muted); }
   .prose p { font-size: 1.08rem; }
+  .about-links { margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid var(--line); font-weight: 750; }
+  .about-links a { color: var(--accent-dark); text-underline-offset: .18em; }
 </style>

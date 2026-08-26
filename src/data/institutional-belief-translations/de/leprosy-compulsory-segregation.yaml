@@ -1,54 +1,60 @@
 locale: de
 entryId: leprosy-compulsory-segregation
-sourceReviewedAt: '2026-08-24'
+sourceReviewedAt: '2026-08-25'
 title: Lepra als Grund für langandauernde verpflichtende Isolation
-claim: >-
-  Menschen mit Lepra wurden als so gefährlich behandelt, dass sie langfristig zwangsweise abgesondert werden müssten,
-  obwohl wirksame Chemotherapie eine pauschale Isolationspolitik medizinisch unnötig gemacht hatte.
-currentUnderstanding: >-
-  Lepra ist übertragbar, doch die Übertragung erfordert typischerweise längeren engen Kontakt mit einem unbehandelten
-  Fall. Wirksame Behandlung beendet die Infektiosität; medizinische Behandlung und Nachsorge können daher nötig sein,
-  ohne dass behandelte Patienten langfristig pauschal abgesondert werden müssen. Laut WHO überträgt ein Patient die
-  Krankheit nach Beginn der Behandlung nicht mehr.
+claim: Menschen mit Lepra wurden als so gefährlich behandelt, dass sie langfristig zwangsweise abgesondert werden
+  müssten, obwohl wirksame Chemotherapie eine pauschale Isolationspolitik medizinisch unnötig gemacht hatte.
+currentUnderstanding: Lepra ist übertragbar, doch die Übertragung erfordert typischerweise längeren engen Kontakt
+  mit einem unbehandelten Fall. Wirksame Behandlung beendet die Infektiosität; medizinische Behandlung und Nachsorge
+  können daher nötig sein, ohne dass behandelte Patienten langfristig pauschal abgesondert werden müssen. Laut WHO
+  überträgt ein Patient die Krankheit nach Beginn der Behandlung nicht mehr.
 impact:
-  summary: >-
-    Hawaiʻi und Japan hielten an Segregationsrahmen fest, nachdem wirksame Chemotherapie die medizinische Grundlage
-    pauschaler Isolation entzogen hatte. In Hawaiʻi wurde 1946 die Sulfontherapie eingeführt; spätere amtliche Darstellungen
-    datieren das Ende der Zwangsisolation in Kalaupapa auf 1949, die formelle Isolationspolitik endete jedoch erst 1969.
-    In Japan kam eine spätere staatliche Prüfung zu dem Ergebnis, dass Segregation spätestens um 1960 medizinisch nicht
-    mehr zu rechtfertigen war; der gesetzliche Rahmen blieb bis 1996 bestehen.
+  summary: Hawaiʻi, die Philippinen und Japan hielten an Zwangssegregationssystemen fest, nachdem wirksame Chemotherapie
+    die medizinische Grundlage pauschaler Isolation entzogen hatte. In Hawaiʻi wurde 1946 die Sulfontherapie eingeführt;
+    spätere amtliche Darstellungen datieren das Ende der Zwangsisolation in Kalaupapa auf 1949, die formelle Isolationspolitik
+    endete jedoch erst 1969. Auf den Philippinen schrieb ein Gesetz von 1952 weiterhin die Isolation und Absonderung
+    bakteriologisch positiver Fälle vor, gerade als Sulfone allgemein eingesetzt wurden; 1964 kehrte das Parlament
+    diesen Grundsatz um. In Japan war die Segregation nach einer späteren staatlichen Prüfung spätestens um 1960 medizinisch
+    nicht mehr zu rechtfertigen, der Rechtsrahmen blieb bis 1996 bestehen.
   highlights:
   - value: '1946'
     label: Die Sulfontherapie erreichte Hawaiʻi und beseitigte die medizinische Notwendigkeit pauschaler Isolation
-  - value: '1949'
-    label: Spätere Darstellungen des Parlaments von Hawaiʻi und des NPS datieren das Ende der Zwangsisolation in Kalaupapa auf dieses Jahr
+  - value: 1952–1964
+    label: Philippinisches Recht schrieb noch die Segregation bakteriologisch positiver Fälle vor, bevor der Grundsatz
+      umgekehrt wurde
   - value: '1969'
     label: Hawaiʻi hob seine Isolationspolitik formell auf
   - value: 36 Jahre
     label: Japans Segregationsrahmen bestand vom repräsentativen Korrekturpunkt 1960 bis zur Aufhebung 1996 fort
   context:
-  - >-
-    Unbehandelte Lepra kann übertragen werden. Korrigiert wird nicht die Aussage „Lepra ist niemals ansteckend“,
-    sondern die Annahme, nach wirksamer Behandlung bleibe langandauernde pauschale Zwangsisolation zur Infektionskontrolle erforderlich.
-  - >-
-    Die Episode Hawaiʻi 1946–1969 bedeutet nicht, dass alle Patienten während dieser 23 Jahre ununterbrochen
-    eingeschlossen blieben. Die Zwangsisolation wurde gelockert und endete nach späteren amtlichen Darstellungen 1949;
-    1969 markiert die formelle Aufhebung der Politik.
+  - Unbehandelte Lepra kann übertragen werden. Korrigiert wird nicht die Aussage „Lepra ist niemals ansteckend“, sondern
+    die Annahme, nach wirksamer Behandlung bleibe langandauernde pauschale Zwangsisolation zur Infektionskontrolle
+    erforderlich.
+  - Die Episode Hawaiʻi 1946–1969 bedeutet nicht, dass alle Patienten während dieser 23 Jahre ununterbrochen eingeschlossen
+    blieben. Die Zwangsisolation wurde gelockert und endete nach späteren amtlichen Darstellungen 1949; 1969 markiert
+    die formelle Aufhebung der Politik.
+  - 'Das philippinische Gesetz von 1952 verlangte nicht, jeden Menschen mit Lepra speziell nach Culion zu bringen.
+    Es schrieb für bakteriologisch positive Fälle Isolation und Segregation innerhalb eines größeren Systems staatlicher
+    Sanatorien und Behandlungsstellen vor. Auch die Reform von 1964 schaffte stationäre Behandlung nicht vollständig
+    ab: Bei medizinischer Notwendigkeit blieb sie möglich.'
+  - Der philippinische Korrekturpunkt ist ungewöhnlich ausdrücklich. Republic Act No. 4073 stellte 1964 den Grundsatz
+    auf, dass Menschen mit Lepra nicht zu segregieren seien, sofern keine stationäre Behandlung erforderlich war.
+    Ein Rehabilitationsgesetz von 1966 erklärte anschließend, Sulfontherapie habe die langandauernde Unterbringung
+    für die meisten Patienten unnötig gemacht, und benannte deren soziale Schäden.
 episodes:
 - id: japan-1960-1996
   polity: Japan
   institutions:
   - Ministry of Health and Welfare of Japan
-  institutionalContext: >-
-    Japans Segregationspolitik begann wesentlich früher. 1960 wird hier als belastbarer Beginn der institutionellen
-    Fehlerphase verwendet, weil die spätere staatliche Prüfung feststellte, dass der Gesundheitsminister spätestens
-    damals über das notwendige medizinische Wissen verfügte oder es leicht hätte beschaffen können, um die Unnötigkeit
-    der Isolation zu erkennen. Gesetz und Politik blieben dennoch bis 1996 bestehen.
-  summary: >-
-    Japan hielt an einem gesetzlichen Segregationssystem für Menschen mit Hansen-Krankheit fest, nachdem wirksame
+  institutionalContext: Japans Segregationspolitik begann wesentlich früher. 1960 wird hier als belastbarer Beginn
+    der institutionellen Fehlerphase verwendet, weil die spätere staatliche Prüfung feststellte, dass der Gesundheitsminister
+    spätestens damals über das notwendige medizinische Wissen verfügte oder es leicht hätte beschaffen können, um
+    die Unnötigkeit der Isolation zu erkennen. Gesetz und Politik blieben dennoch bis 1996 bestehen.
+  summary: Japan hielt an einem gesetzlichen Segregationssystem für Menschen mit Hansen-Krankheit fest, nachdem wirksame
     Chemotherapie pauschale Isolation medizinisch unnötig gemacht hatte. Die spätere staatliche Untersuchung kam zu
     dem Ergebnis, dass die medizinische Rechtfertigung spätestens um 1960 nicht mehr tragfähig war und die offizielle
-    Politik die Vorstellung fortschrieb, Patienten seien weiterhin gefährlich. Das Leprosy Prevention Law wurde erst 1996 aufgehoben.
+    Politik die Vorstellung fortschrieb, Patienten seien weiterhin gefährlich. Das Leprosy Prevention Law wurde erst
+    1996 aufgehoben.
   consequences:
   - Fortgesetzte Absonderung und Unterbringung von Menschen mit Hansen-Krankheit
   - Massive Einschränkungen von Familienleben, Wohnort und gesellschaftlicher Teilhabe
@@ -59,21 +65,47 @@ episodes:
   institutions:
   - Board of Health, Territory of Hawaiʻi
   - Hawaiʻi Department of Health
-  institutionalContext: >-
-    Hawaiʻis Zwangsisolationssystem begann im 19. Jahrhundert; diese Episode setzt jedoch 1946 ein, weil damals eine
-    wirksame Sulfontherapie Hawaiʻi erreichte und damit die medizinische Grundlage für eine pauschale Isolation behandelter
-    Patienten entfiel. Spätere amtliche Darstellungen datieren das Ende der Zwangsisolation in Kalaupapa auf 1949,
-    während die formelle staatliche Isolationspolitik und ihr rechtlicher Rahmen erst 1969 aufgehoben wurden. Die
-    Episode trennt daher die praktische Lockerung der Einschließung von der späteren institutionellen Aufhebung.
-  summary: >-
-    1946 wurde in Hawaiʻi eine wirksame Sulfontherapie eingeführt, durch die behandelte Patienten mit Hansen-Krankheit
+  institutionalContext: Hawaiʻis Zwangsisolationssystem begann im 19. Jahrhundert; diese Episode setzt jedoch 1946
+    ein, weil damals eine wirksame Sulfontherapie Hawaiʻi erreichte und damit die medizinische Grundlage für eine
+    pauschale Isolation behandelter Patienten entfiel. Spätere amtliche Darstellungen datieren das Ende der Zwangsisolation
+    in Kalaupapa auf 1949, während die formelle staatliche Isolationspolitik und ihr rechtlicher Rahmen erst 1969
+    aufgehoben wurden. Die Episode trennt daher die praktische Lockerung der Einschließung von der späteren institutionellen
+    Aufhebung.
+  summary: 1946 wurde in Hawaiʻi eine wirksame Sulfontherapie eingeführt, durch die behandelte Patienten mit Hansen-Krankheit
     nicht mehr infektiös waren und pauschale Isolation medizinisch unnötig wurde. Spätere Darstellungen des Parlaments
-    von Hawaiʻi und des National Park Service datieren das Ende der Zwangsisolation in Kalaupapa auf 1949; die
-    Isolationspolitik des Staates wurde jedoch erst 1969 formell aufgehoben. Die Episode zeigt damit die institutionelle
-    Verzögerung zwischen wirksamer Behandlung, dem praktischen Ende der Zwangsisolation und der endgültigen Aufhebung
-    des Segregationsrahmens.
+    von Hawaiʻi und des National Park Service datieren das Ende der Zwangsisolation in Kalaupapa auf 1949; die Isolationspolitik
+    des Staates wurde jedoch erst 1969 formell aufgehoben. Die Episode zeigt damit die institutionelle Verzögerung
+    zwischen wirksamer Behandlung, dem praktischen Ende der Zwangsisolation und der endgültigen Aufhebung des Segregationsrahmens.
   consequences:
   - Fortgesetzte Zwangsisolation während der Übergangsphase nach Verfügbarkeit wirksamer Behandlung
   - Fortbestand einer formellen Segregationspolitik nach Wegfall ihrer pauschalen medizinischen Begründung
   - Weitere institutionelle Verstärkung des Stigmas gegenüber Menschen mit Hansen-Krankheit
   - Verzögerte Rückkehr zu freier Wohnortwahl und normalem Gemeinschaftsleben beim Abbau des alten Isolationssystems
+- id: philippines-1952-1964
+  polity: Philippinen
+  institutions:
+  - philippinisches Gesundheitsministerium — Director of Health
+  - Bureau und Director of Hospitals
+  - staatliche Sanatorien und Lepra-Behandlungsdienste
+  institutionalContext: 'Republic Act No. 753 vom Juni 1952 verpflichtete den Director of Health, Verdachtsfälle diagnostisch
+    untersuchen zu lassen und bakteriologisch positive Personen dem Director of Hospitals zur Isolation und Segregation
+    zu übergeben. Derselbe Rechtsrahmen schuf Meldepflichten und verbot es, einen Erkrankten wissentlich zu verbergen,
+    um seine Entdeckung und Übergabe an die Gesundheitsbehörden zu verhindern. Gleichzeitig wurde die Sulfontherapie
+    auf den Philippinen allgemein eingesetzt. Am 18. Juni 1964 kehrte Republic Act No. 4073 den Grundsatz um: Menschen
+    mit Lepra sollten nicht mehr segregiert werden, sofern das Krankheitsstadium keine stationäre Behandlung erforderte;
+    normale Behandlung war in staatlichen Hautkliniken, Rural Health Units oder bei zugelassenen Ärzten möglich.'
+  summary: Die Philippinen behielten eine Zwangssegregationsregel genau zu dem Zeitpunkt bei, als wirksame Sulfontherapie
+    allgemein verfügbar wurde. Republic Act No. 753 machte einen positiven bakteriologischen Befund weiterhin zum
+    Auslöser verpflichtender Isolation und Segregation. Zwölf Jahre später kehrte der Gesetzgeber diesen Grundsatz
+    ausdrücklich um; ein Rehabilitationsgesetz von 1966 stellte fest, dass Sulfontherapie langandauernde Unterbringung
+    für die meisten Patienten unnötig gemacht hatte, und erkannte die sozialen und psychischen Folgen dieser Unterbringung
+    an.
+  consequences:
+  - Verpflichtende Isolation und Segregation bakteriologisch positiver Patienten nach dem Gesetz von 1952
+  - Melde- und Ermittlungsmechanismen durch Polizei, Gesundheitsdienste und weitere Stellen zur Durchsetzung des Systems
+  - Strafrechtliches Verbot, Erkrankte zu verbergen oder zu beherbergen, um die Segregation zu verhindern
+  - Trennung von Zuhause und Familie sowie Verlust von Arbeit und sozialen Bindungen durch langandauernde Unterbringung
+  - Fortgesetzte institutionelle Stigmatisierung, nachdem Chemotherapie pauschale Isolation medizinisch unnötig gemacht
+    hatte
+  - Gesetzlicher Übergang 1964 zu ambulanter und wohnortnaher Behandlung bei Beibehaltung stationärer Versorgung nur
+    bei medizinischer Notwendigkeit

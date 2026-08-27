@@ -1,0 +1,19 @@
+term: Gray
+aliases:
+  - Gy
+  - nGy
+  - nanogray
+  - nanograys
+shortDefinition: The SI unit of absorbed ionizing-radiation dose. One gray (Gy) means one joule of radiation energy absorbed per kilogram of matter; one nanogray (nGy) is one-billionth of a gray.
+longDefinition: Gray measures how much ionizing-radiation energy is deposited in matter. It is an absorbed-dose unit, not by itself a measure of biological harm; sieverts (Sv) are used for radiation quantities that apply biological weighting. In the background-radiation card, 214 nGy per hour means an absorbed dose rate of 214 billionths of a joule per kilogram each hour. Popular "banana equivalent dose" comparisons are normally framed in sieverts, so they are not a direct conversion from gray.
+relatedTerms: []
+reviewedAt: '2026-08-27'
+sources:
+  - title: SI units for ionizing radiation — gray
+    url: https://www.bipm.org/en/-/resolution-cgpm-15-9
+    publisher: Bureau International des Poids et Mesures
+    note: Defines the gray, symbol Gy, as the SI unit of absorbed dose equal to one joule per kilogram.
+  - title: Radiation Protection and Safety of Radiation Sources — absorbed dose
+    url: https://nucleus.iaea.org/sites/nss-oui/Published%20Collections/m_3761d926-c16f-4477-a63b-741a9db1c16c/m_3761d926-c16f-4477-a63b-741a9db1c16c__50_0.Html
+    publisher: International Atomic Energy Agency
+    note: Defines absorbed dose as energy imparted by ionizing radiation per unit mass and identifies the SI unit as the gray (Gy).

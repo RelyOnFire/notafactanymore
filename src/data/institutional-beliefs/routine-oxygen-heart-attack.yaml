@@ -1,0 +1,55 @@
+title: Routine oxygen for uncomplicated heart attacks
+entryId: all-heart-attack-patients-need-oxygen
+claim: Supplemental oxygen was professionally recommended for routine early use in uncomplicated heart-attack patients even when blood oxygen was not low, because raising available oxygen was expected to help ischemic heart muscle.
+currentUnderstanding: Supplemental oxygen is indicated for acute coronary syndrome when hypoxemia or respiratory compromise is present. In patients whose oxygen saturation is already at least 90%, randomized trials have not shown cardiovascular benefit from routine oxygen, and current U.S. guidelines recommend against it.
+category: Emergency cardiology and treatment guidelines
+reviewedAt: '2026-08-27'
+impact:
+  summary: Oxygen became a reflexive part of heart-attack care despite weak evidence for normoxic patients. Professional guidelines helped preserve that practice into the twenty-first century. Trials later showed no improvement in survival or recurrent infarction, while hyperoxia can increase coronary vascular resistance and oxidative stress.
+  highlights:
+  - value: '2004'
+    label: ACC/AHA STEMI guideline said oxygen for all uncomplicated patients during the first six hours was reasonable
+  - value: '6,629'
+    label: Patients in the DETO2X-AMI randomized trial of routine oxygen versus ambient air
+  - value: '2025'
+    label: U.S. ACS guideline classified routine oxygen at saturation 90% or higher as Class III — No Benefit
+  context:
+  - "The 2004 recommendation was Class IIa with Level of Evidence C: it said routine oxygen was reasonable, not mandatory, and rested mainly on expert judgment rather than strong outcome trials."
+  - Oxygen remains an essential treatment for hypoxemia and respiratory distress. The corrected proposition concerns automatic oxygen for patients whose blood is already adequately oxygenated.
+episodes:
+- id: united-states-acc-aha-2004-2013
+  polity: United States
+  region: North America
+  startYear: 2004
+  endYear: 2013
+  strength: officially-endorsed
+  institutionTypes:
+  - professional
+  - medical
+  institutions:
+  - American College of Cardiology
+  - American Heart Association
+  institutionalContext: The 2004 ACC/AHA guideline for ST-elevation myocardial infarction gave a Class IIa recommendation that supplemental oxygen was reasonable for all patients with uncomplicated STEMI during the first six hours, while separately giving a Class I recommendation for patients with oxygen saturation below 90%. By 2013 the STEMI guideline acknowledged that few data supported or refuted routine oxygen, cited a pooled signal of possible harm and emphasized oxygen for hypoxemia. Subsequent trials made the shift more definitive.
+  consequences:
+  - Professional guidance reinforced routine oxygen use in normoxic heart-attack patients despite the absence of strong evidence that it improved clinical outcomes
+  - Patients could receive unnecessary oxygen even when hemoglobin was already adequately saturated
+  - Hyperoxia can increase coronary vascular resistance and oxidative stress, creating plausible mechanisms of harm without demonstrated compensating benefit in normoxic patients
+  - Large randomized trials later found no reduction in mortality or recurrent myocardial infarction from routine oxygen in patients without hypoxemia
+  summary: "The routine oxygen mask survived because the physiology sounded obvious: an obstructed coronary artery was starving myocardium of oxygen, so supplying more oxygen seemed protective. The 2004 ACC/AHA STEMI guideline still called oxygen for every uncomplicated patient during the first six hours reasonable, although the evidence level was only C. By 2013 the same guideline process openly acknowledged the lack of supporting data and possible harm. DETO2X-AMI then randomized 6,629 patients and found no mortality or reinfarction benefit. Current ACC/AHA guidance gives routine oxygen in ACS patients with saturation of at least 90% a Class III 'No Benefit' recommendation."
+  sources:
+  - title: 2004 ACC/AHA Guidelines for the Management of Patients With ST-Elevation Myocardial Infarction — Executive Summary
+    url: https://www.jacc.org/doi/10.1016/j.jacc.2004.07.002
+    publisher: American College of Cardiology / American Heart Association
+    note: The guideline gave a Class IIa, Level C recommendation that supplemental oxygen was reasonable for all uncomplicated STEMI patients during the first six hours, alongside a stronger recommendation for documented hypoxemia.
+  - title: 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction
+    url: https://www.jacc.org/doi/10.1016/j.jacc.2012.11.019
+    publisher: American College of Cardiology Foundation / American Heart Association
+    note: The later guideline states that few data supported routine oxygen, cites possible excess mortality in pooled trials, notes increased coronary vascular resistance and emphasizes use for hypoxemia.
+  - title: Oxygen Therapy in Suspected Acute Myocardial Infarction
+    url: https://www.nejm.org/doi/10.1056/NEJMoa1706222
+    publisher: The New England Journal of Medicine
+    note: DETO2X-AMI randomized 6,629 patients with suspected myocardial infarction and oxygen saturation of at least 90%; routine oxygen did not reduce one-year mortality or rehospitalization with myocardial infarction.
+  - title: 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes
+    url: https://www.jacc.org/doi/10.1016/j.jacc.2024.11.009
+    publisher: American College of Cardiology / American Heart Association and partner societies
+    note: Current guidance recommends oxygen for confirmed hypoxia and gives routine oxygen in ACS patients with saturation at least 90% a Class III — No Benefit recommendation based on randomized evidence.

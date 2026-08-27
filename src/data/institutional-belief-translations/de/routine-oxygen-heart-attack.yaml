@@ -1,0 +1,31 @@
+locale: de
+entryId: routine-oxygen-heart-attack
+sourceReviewedAt: '2026-08-27'
+title: Routinemäßige Sauerstoffgabe bei unkompliziertem Herzinfarkt
+claim: Fachgesellschaften empfahlen zusätzlichen Sauerstoff routinemäßig auch für unkomplizierte Herzinfarktpatienten ohne Sauerstoffmangel, weil mehr verfügbares Sauerstoffangebot das ischämische Herzmuskelgewebe schützen sollte.
+currentUnderstanding: Bei akutem Koronarsyndrom ist zusätzlicher Sauerstoff bei Hypoxämie oder respiratorischer Beeinträchtigung angezeigt. Bei einer Sauerstoffsättigung von mindestens 90 Prozent zeigen randomisierte Studien keinen kardiovaskulären Nutzen einer routinemäßigen Gabe; aktuelle US-Leitlinien raten davon ab.
+impact:
+  summary: Sauerstoff wurde trotz schwacher Evidenz für normoxische Patienten zum reflexhaften Bestandteil der Herzinfarktversorgung. Fachleitlinien hielten diese Praxis bis ins 21. Jahrhundert aufrecht. Spätere Studien zeigten keinen Vorteil für Überleben oder erneuten Infarkt; Hyperoxie kann zudem den koronaren Gefäßwiderstand und oxidativen Stress erhöhen.
+  highlights:
+  - value: '2004'
+    label: Die ACC/AHA-STEMI-Leitlinie hielt Sauerstoff für alle unkomplizierten Patienten in den ersten sechs Stunden für vertretbar
+  - value: '6.629'
+    label: Patienten in der randomisierten DETO2X-AMI-Studie mit Sauerstoff oder Umgebungsluft
+  - value: '2025'
+    label: Die US-Leitlinie stufte Routine-Sauerstoff ab 90 Prozent Sättigung als Klasse III — kein Nutzen ein
+  context:
+  - Die Empfehlung von 2004 war Klasse IIa bei Evidenzgrad C. Sauerstoff wurde als vertretbar bezeichnet, nicht als zwingend vorgeschrieben; die Empfehlung beruhte überwiegend auf Expertenurteil statt auf starken Endpunktstudien.
+  - Bei Hypoxämie und Atemnot bleibt Sauerstoff eine wesentliche Therapie. Korrigiert wurde die automatische Gabe an Patienten, deren Blut bereits ausreichend oxygeniert ist.
+episodes:
+- id: united-states-acc-aha-2004-2013
+  polity: Vereinigte Staaten
+  institutions:
+  - American College of Cardiology
+  - American Heart Association
+  institutionalContext: Die ACC/AHA-Leitlinie zum ST-Hebungsinfarkt von 2004 bewertete zusätzlichen Sauerstoff für alle unkomplizierten STEMI-Patienten während der ersten sechs Stunden als Klasse-IIa-Empfehlung, während für eine Sauerstoffsättigung unter 90 Prozent eine Klasse-I-Empfehlung galt. 2013 räumte die STEMI-Leitlinie ein, dass nur wenige Daten für oder gegen die Routinegabe vorlagen, verwies auf ein mögliches Schadenssignal in zusammengefassten Studien und betonte Sauerstoff bei Hypoxämie. Spätere randomisierte Studien machten den Kurswechsel eindeutiger.
+  consequences:
+  - Fachleitlinien stützten die routinemäßige Sauerstoffgabe bei normoxischen Herzinfarktpatienten, obwohl belastbare Belege für bessere klinische Ergebnisse fehlten
+  - Patienten konnten unnötig Sauerstoff erhalten, obwohl ihr Hämoglobin bereits ausreichend gesättigt war
+  - Hyperoxie kann den koronaren Gefäßwiderstand und oxidativen Stress erhöhen und damit plausible Schadensmechanismen erzeugen, ohne bei normoxischen Patienten einen nachgewiesenen Gegen-Nutzen zu bieten
+  - Große randomisierte Studien zeigten später weder eine niedrigere Sterblichkeit noch weniger erneute Herzinfarkte durch Routine-Sauerstoff bei Patienten ohne Hypoxämie
+  summary: "Die Routinegabe von Sauerstoff hielt sich, weil die Physiologie unmittelbar einleuchtete: Wenn eine verschlossene Koronararterie Herzmuskel von Sauerstoff abschneidet, sollte mehr Sauerstoff schützen. Noch 2004 bezeichnete die ACC/AHA-STEMI-Leitlinie Sauerstoff für jeden unkomplizierten Patienten in den ersten sechs Stunden als vertretbar, allerdings nur bei Evidenzgrad C. 2013 räumte derselbe Leitlinienprozess die fehlende Evidenz und mögliche Schäden offen ein. DETO2X-AMI randomisierte anschließend 6.629 Patienten und fand weder einen Überlebens- noch einen Reinfarktvorteil. Die aktuelle ACC/AHA-Leitlinie stuft Routine-Sauerstoff bei ACS und einer Sättigung von mindestens 90 Prozent als Klasse III „kein Nutzen“ ein."

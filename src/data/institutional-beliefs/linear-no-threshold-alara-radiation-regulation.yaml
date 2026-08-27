@@ -1,0 +1,44 @@
+title: Linear no-threshold radiation risk and ALARA regulation
+claim: U.S. nuclear regulation treated stochastic radiation risk as extending linearly with dose without a safe threshold and required licensed exposures below legal dose limits to be reduced as low as reasonably achievable (ALARA).
+currentUnderstanding: High doses of ionizing radiation are established causes of cancer, but the exact cancer dose-response at very low doses cannot be measured precisely with current epidemiology. The linear no-threshold model remains a plausible and widely used protection model, and no consensus-supported, regulation-ready universal threshold or hormesis model has replaced it. The NRC now distinguishes that precautionary model from directly demonstrated low-dose harm; in 2026 it proposed retiring ALARA terminology and strict no-threshold implementation while retaining a linear dose-response model, dose limits, and graded dose-management requirements. The proposal was not yet final as of this review.
+category: Radiation protection and nuclear regulation
+reviewedAt: 2026-08-26
+episodes:
+  - id: united-states-nrc-1991-present
+    polity: United States
+    region: North America
+    startYear: 1991
+    endYear: 2026
+    endOpen: true
+    strength: policy-basis
+    institutionTypes: [government]
+    institutions:
+      - U.S. Nuclear Regulatory Commission
+    institutionalContext: The NRC's 1991 revision of 10 CFR Part 20 established the current radiation-protection framework. Section 20.1101 requires licensees to maintain radiation-protection programs and to use practical procedures and engineering controls to keep occupational and public doses ALARA. The NRC has described the LNT model as an underlying premise of much of its radiation-protection regulation and in 2021 rejected petitions seeking to replace it with threshold or hormesis approaches.
+    consequences:
+      - NRC licensees were required to develop, document and implement radiation-protection programs and to reduce occupational and public doses below regulatory limits when further reduction was reasonably achievable.
+      - ALARA affected engineering controls, work planning, monitoring, effluent management, licensing and decommissioning decisions rather than functioning only as an advisory scientific hypothesis.
+      - The NRC's 2026 proposed rule states that application of ALARA at very low doses has at times produced significant economic costs and operational or licensing inefficiencies without commensurate public-health and safety gains.
+      - The 2026 proposal would retire ALARA terminology and replace highly subjective below-limit optimization with a graded dose-management framework, but the existing rules remained in force while the proposal was pending.
+    summary: The NRC codified ALARA throughout the modern Part 20 framework in 1991 against a longer U.S. regulatory history of linear, no-threshold radiation protection. In 2015, petitioners asked the agency to abandon LNT and ALARA in favor of threshold and radiation-hormesis interpretations; the NRC denied those petitions in 2021, concluding that LNT remained a sound regulatory basis. In July 2026 the agency proposed a substantial narrowing of that approach. The proposal explicitly says the evidence remains insufficient to refute LNT and that no consensus-supported, regulation-ready alternative exists, but argues that strict implementation of the no-threshold premise can become disproportionately conservative at very low doses. It therefore proposes retaining a linear dose-response model while retiring ALARA terminology and specifying a more determinate graded approach below dose limits.
+    sources:
+      - title: "10 CFR Part 20 — Standards for Protection Against Radiation"
+        url: https://www.nrc.gov/reading-rm/doc-collections/cfr/part020/full-text.html
+        publisher: U.S. Nuclear Regulatory Commission
+        note: Section 20.1101 requires each licensee to maintain a radiation-protection program and use practical procedures and engineering controls to keep occupational and public doses ALARA; the current Part 20 framework dates from the 1991 revision.
+      - title: Linear No-Threshold Model and Standards for Protection Against Radiation
+        url: https://www.federalregister.gov/documents/2021/08/17/2021-17475/linear-no-threshold-model-and-standards-for-protection-against-radiation
+        publisher: U.S. Nuclear Regulatory Commission / Federal Register
+        note: NRC denial of three petitions seeking to replace LNT, including with radiation hormesis; states that LNT underpins the radiation-protection standards and continued to provide a sound regulatory basis in 2021.
+      - title: Reforming and Modernizing the NRC's Radiation Protection Framework
+        url: https://www.federalregister.gov/documents/2026/07/15/2026-14208/reforming-and-modernizing-the-nrcs-radiation-protection-framework
+        publisher: U.S. Nuclear Regulatory Commission / Federal Register
+        note: July 2026 proposed rule that would retire ALARA terminology and reduce strict no-threshold implementation while explicitly stating that evidence is insufficient to refute LNT and that no consensus-supported, regulation-ready alternative model exists.
+      - title: Health Risks from Exposure to Low Levels of Ionizing Radiation — BEIR VII Phase 2
+        url: https://www.nationalacademies.org/read/11340/chapter/2
+        publisher: National Academies of Sciences, Engineering, and Medicine
+        note: Consensus assessment judging LNT the most reasonable description for low-dose solid-cancer risk while acknowledging the statistical difficulty of directly measuring risk at very low doses.
+      - title: ICRP Publication 99 — Low-dose Extrapolation of Radiation-related Cancer Risk
+        url: https://www.icrp.org/publication.asp?id=ICRP%20Publication%2099
+        publisher: International Commission on Radiological Protection
+        note: Concludes that evidence does not favor a universal low-dose threshold and that LNT with uncertainty remains a prudent basis for radiation protection.

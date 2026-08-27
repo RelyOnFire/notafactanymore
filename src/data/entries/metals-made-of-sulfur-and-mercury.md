@@ -1,7 +1,7 @@
 ---
 claim: Metals are composed from sulfur and mercury principles in different proportions and qualities.
 currentUnderstanding: Metals are chemical elements or alloys whose properties arise from atomic structure, composition, crystal structure, bonding, defects, and microstructure. They are not built from universal sulfur and mercury principles.
-whyItChanged: Early-modern chymistry introduced competing matter theories, while quantitative chemistry increasingly classified substances through reproducible composition and reaction. The chemical revolution and atomic theory eventually replaced sulfur-mercury metallogenesis.
+whyItChanged: "Early-modern [chymistry](glossary:chymistry) introduced competing matter theories, while quantitative chemistry increasingly classified substances through reproducible composition and reaction. The chemical revolution and atomic theory eventually replaced sulfur-mercury metallogenesis."
 status: Superseded
 category: Chemistry
 acceptedApproximately: Medieval Arabic and Latin alchemy, especially 12th–16th centuries
@@ -12,7 +12,7 @@ lifespanComparable: false
 summary: Medieval alchemists treated sulfur and mercury as material principles from which metals formed underground. The theory was tied directly to laboratory purification and transmutation.
 featured: false
 publishedAt: '2026-08-13'
-reviewedAt: '2026-08-13'
+reviewedAt: '2026-08-27'
 sources:
 - title: Mercury and sulphur among the High Medieval alchemists
   url: https://pubmed.ncbi.nlm.nih.gov/25509633/

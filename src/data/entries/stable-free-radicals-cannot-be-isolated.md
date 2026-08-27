@@ -1,6 +1,6 @@
 ---
 claim: "Stable organic free radicals cannot be isolated."
-currentUnderstanding: "Some [free radicals](glossary:free-radical)—atoms or molecules with an unpaired electron—are sufficiently persistent to be prepared, stored, crystallized, and studied. Their stability can result from resonance, steric protection, electronic effects, or delocalization of the unpaired electron across the molecule."
+currentUnderstanding: "Some [free radicals](glossary:free-radical) are sufficiently persistent to be prepared, stored, crystallized, and studied. Their stability can result from resonance, steric protection, electronic effects, or delocalization of the unpaired electron across the molecule."
 whyItChanged: "Nineteenth-century chemists repeatedly failed to isolate free carbon radicals and came to regard them as impossible under ordinary conditions. In 1900, Moses Gomberg prepared triphenylmethyl and argued that it contained trivalent carbon, opening free-radical chemistry despite years of skepticism."
 status: "Overturned"
 category: "Chemistry"
@@ -11,7 +11,7 @@ timelineYear: 1900
 summary: "Gomberg's triphenylmethyl radical overturned the belief that organic radicals could not persist independently."
 featured: false
 publishedAt: "2026-08-06"
-reviewedAt: "2026-08-20"
+reviewedAt: "2026-08-27"
 sources:
   - title: "Moses Gomberg and the Discovery of Organic Free Radicals"
     url: "https://www.acs.org/education/whatischemistry/landmarks/freeradicals.html"
@@ -30,7 +30,7 @@ sources:
     note: "Summarizes the later acceptance and broad importance of stable and reactive radicals."
 ---
 
-Nineteenth-century chemistry had already used the word *radical* for recurring groups of atoms within compounds. A free radical in the modern sense is an atom or molecule with an unpaired electron, and isolating a carbon-centered example was another matter.
+Nineteenth-century chemistry had already used the word *radical* for recurring groups of atoms within compounds. The harder question was whether a free radical could persist independently long enough to isolate, especially when the reactive center was carbon.
 
 In 1900, Moses Gomberg was trying to prepare a highly substituted hydrocarbon when he obtained unexpected products. He proposed that the chemistry involved triphenylmethyl, a carbon-centered free radical.
 

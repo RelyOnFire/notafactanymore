@@ -1,10 +1,10 @@
 ---
 locale: de
 entryId: metals-made-of-sulfur-and-mercury
-sourceReviewedAt: "2026-08-13"
+sourceReviewedAt: "2026-08-27"
 claim: "Metalle bestehen aus Schwefel- und Quecksilberprinzipien in unterschiedlichen Verhältnissen und Qualitäten."
 currentUnderstanding: "Metalle sind chemische Elemente oder Legierungen, deren Eigenschaften aus Atomstruktur, Zusammensetzung, Kristallstruktur, Bindungen, Defekten und Mikrostruktur hervorgehen. Sie sind nicht aus universellen Schwefel- und Quecksilberprinzipien aufgebaut."
-whyItChanged: "Die frühneuzeitliche Chymie brachte konkurrierende Materietheorien hervor, während die quantitative Chemie Stoffe zunehmend anhand reproduzierbarer Zusammensetzung und Reaktionen klassifizierte. Die chemische Revolution und die Atomtheorie ersetzten schließlich die Schwefel-Quecksilber-Lehre der Metallentstehung."
+whyItChanged: "Die frühneuzeitliche [Chymie](glossary:chymistry) brachte konkurrierende Materietheorien hervor, während die quantitative Chemie Stoffe zunehmend anhand reproduzierbarer Zusammensetzung und Reaktionen klassifizierte. Die chemische Revolution und die Atomtheorie ersetzten schließlich die Schwefel-Quecksilber-Lehre der Metallentstehung."
 acceptedApproximately: "Mittelalterliche arabische und lateinische Alchemie, besonders 12. bis 16. Jahrhundert"
 changedApproximately: "17. bis 18. Jahrhundert"
 summary: "Mittelalterliche Alchemisten betrachteten Schwefel und Quecksilber als materielle Prinzipien, aus denen Metalle unterirdisch entstanden. Die Theorie war unmittelbar mit Laborverfahren zur Reinigung und Transmutation verbunden."

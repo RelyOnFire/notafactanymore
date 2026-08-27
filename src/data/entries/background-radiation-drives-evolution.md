@@ -1,7 +1,7 @@
 ---
-claim: "Natural background ionizing radiation supplies a significant share of the spontaneous mutations that drive evolution."
-currentUnderstanding: "Background radiation can cause mutations, and organisms have evolved in its presence, but it is not known to be a necessary or major source of the mutation supply that enables evolution. In bacterial experiments, natural-background radiation interacts with cells far less often than spontaneous mutations arise, and reducing the radiation background substantially did not measurably slow adaptation over hundreds of generations. Some organisms do show physiological responses when background radiation is strongly reduced, so the correction is not that background radiation is biologically irrelevant."
-whyItChanged: "Mid-twentieth-century radiation genetics extrapolated from radiation-induced mutation experiments and treated natural radiation as an appreciable contributor to spontaneous mutation. Deep-underground laboratories later made it possible to reduce environmental ionizing radiation and test the idea directly. Modeling and evolution experiments found that ordinary background radiation contributes too few cellular interactions to dominate mutation supply in E. coli and that populations adapted similarly when the background was greatly reduced."
+claim: "Natural background radiation supplies a significant share of the spontaneous mutations that drive evolution."
+currentUnderstanding: "Ionizing radiation can cause mutations, but natural background radiation is only one source of genetic change and does not appear necessary to supply the variation on which evolution acts. Bacteria evolved normally when background radiation was sharply reduced, although near-total removal can affect cell physiology."
+whyItChanged: "Early radiation genetics showed dramatically increased mutation rates after large radiation exposures, encouraging scientists to assign natural radiation an important evolutionary role. Later measurements showed that replication errors and cellular chemistry generate mutations much more frequently, while ultra-low-background experiments found no detectable loss of evolutionary adaptation when radiation was reduced."
 status: "Narrowed"
 category: "Evolution"
 acceptedApproximately: "1940s–1950s"
@@ -9,10 +9,10 @@ acceptedYear: 1956
 changedApproximately: "2010s"
 timelineYear: 2019
 lifespanComparable: false
-summary: "Natural radiation can cause mutations, but experiments do not support treating ordinary background radiation as a necessary or major engine of evolutionary mutation supply."
+summary: "Natural radiation causes mutations, but experiments show that evolution does not depend on it as a major source of genetic variation."
 featured: false
 publishedAt: "2026-08-26"
-reviewedAt: "2026-08-26"
+reviewedAt: "2026-08-27"
 sources:
   - title: "The Academy in the Fifties — Beginnings of the Space Age"
     url: "https://www.ncbi.nlm.nih.gov/books/NBK217888/"
@@ -36,14 +36,8 @@ sources:
     note: "Shows that removing most natural background radiation can alter gene expression and cellular homeostasis in a bacterium, an important caveat against interpreting the evolutionary result as proof that background radiation has no biological effects."
 ---
 
-Ionizing radiation can damage DNA and create mutations. Because life has always existed amid cosmic radiation and naturally radioactive materials, early radiation geneticists asked whether this unavoidable exposure might be an important source of the spontaneous mutations on which evolution acts.
+Radiation genetics changed how scientists understood mutation. After H. J. Muller showed that X-rays could sharply increase mutation rates, natural background radiation became an obvious candidate for one of the forces continually supplying evolution with new variation. In 1956, the U.S. National Academy of Sciences’ BEAR Genetics Committee concluded that background radiation provided enough mutations for evolutionary purposes.
 
-Hermann J. Muller, whose X-ray experiments helped establish radiation-induced mutagenesis, suggested in 1941 that natural radioactivity might appreciably influence human mutation frequency and could be significant in evolution. The U.S. National Academy of Sciences' 1956 Biological Effects of Atomic Radiation (BEAR) Genetics Committee later concluded that background radiation provided sufficient mutations for evolutionary purposes. That conclusion sat comfortably with the broader mid-century view that radiation-induced and spontaneous mutations could be compared through a common mutation-rate framework.
+The problem was one of scale. Radiation really can damage DNA, but cells acquire mutations in many other ways, including replication errors and ordinary chemical reactions. At normal background levels, radiation encounters individual cells too infrequently to account for most spontaneous mutation. Experiments in ultra-low-radiation laboratories eventually allowed the idea to be tested directly: *E. coli* populations evolved for 500 generations under substantially reduced radiation without measurably slower adaptation.
 
-The difficult part was testing how much ordinary background radiation actually contributes. Deep-underground laboratories eventually provided environments in which cosmic and terrestrial radiation could be reduced far below normal surface levels. Modeling for E. coli found that ionizing-radiation tracks struck cells much less frequently than spontaneous mutations arose under the same growth conditions, making natural radiation an implausible dominant source of mutation supply in that system.
-
-A direct evolution experiment published in 2019 then propagated E. coli populations for 500 generations under a surface radiation background and under a background reduced by roughly sevenfold. Both groups improved in fitness at similar rates. The authors found no significant evidence that reducing environmental radiation curtailed adaptive evolution and concluded that natural background radiation was unlikely to be a major source of beneficial mutations in their experiment.
-
-That does not mean radiation is biologically irrelevant or that organisms have never adapted to it. Other deep-underground experiments have found altered growth, stress responses, gene expression, or cellular defenses when background radiation is strongly reduced. Such results are compatible with organisms having evolved physiological responses to a normally present environmental factor without requiring that factor as a major source of evolutionary mutations.
-
-The narrower modern view is therefore two-part: background radiation really can produce mutations, but evolution does not appear to depend on ordinary natural radiation for its mutation supply. Replication errors, endogenous chemical damage, recombination, mobile genetic elements, and other processes continue to generate heritable variation even when environmental ionizing radiation is greatly reduced.
+Removing nearly all natural radiation can still alter growth, gene expression, and stress responses. That is evidence that organisms have evolved in a radioactive environment—not that background radiation supplies the mutations evolution requires. Radiation remains a mutagen; what changed was the estimate of its importance among the many sources of genetic variation.

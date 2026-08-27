@@ -1,13 +1,22 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const [entries, glossary, institutionalBeliefs] = await Promise.all([
+  getCollection('entries'),
+  getCollection('glossary'),
+  getCollection('institutionalBeliefs'),
+]);
 ---
 <BaseLayout locale="de" title="Über das Projekt" alternatePath="/about">
   <article class="narrow prose">
     <p class="eyebrow">Über das Projekt</p>
     <h1>Fakten haben eine Geschichte.</h1>
-    <p class="lead"><strong>Not a Fact Anymore</strong> ist ein Katalog von Aussagen, die einst vernünftigerweise als Tatsachen galten, später aber durch bessere Evidenz widerlegt, abgelöst, eingeschränkt, neu eingeordnet oder korrigiert wurden.</p>
-    <p>Das Ziel besteht nicht darin, frühere Forschende oder Generationen lächerlich zu machen. Eine Schlussfolgerung zu revidieren, wenn bessere Evidenz verfügbar wird, gehört zu den Stärken von Wissenschaft, Forschung und empirischem Denken.</p>
-    <p>Das Projekt ist eine kuratierte Open-Source-Sammlung. Vorgeschlagene Einträge und Korrekturen werden vor der Veröffentlichung geprüft; jeder veröffentlichte Eintrag verweist direkt auf die zugrunde liegenden Belege.</p>
+    <p class="lead"><strong>Not a Fact Anymore</strong> dokumentiert Aussagen, die Institutionen, Forschende und Fachgemeinschaften einst mit guten Gründen als Tatsachen behandelten – und was geschah, als stärkere Evidenz dieses Bild veränderte.</p>
+    <p>Der Kernkatalog enthält derzeit <strong>{entries.length}</strong> korrigierte, eingeschränkte, abgelöste, neu eingeordnete oder widerlegte Aussagen. Eine separate Sammlung <strong>Institutionelle Überzeugungen</strong> verfolgt Fälle, in denen Tatsachenbehauptungen in Politik, Medizin, Recht, Berufspraxis, Bildung oder anderen Institutionen verankert wurden, bevor sie korrigiert oder widerlegt wurden.</p>
+    <p>Die Website erfasst außerdem, wann sich Aussagen änderten, wie lange sie vertretbar blieben und welche Begriffe sie miteinander verbinden. Das Glossar mit <strong>{glossary.length}</strong> Begriffen, die Zeitleisten, die Analyse ihrer Lebensdauer und die Kategorieseiten bieten verschiedene Zugänge zum Kernkatalog. <strong>Institutionelle Überzeugungen</strong> ist eine verwandte, aber eigenständige Sammlung mit strengeren Aufnahmekriterien.</p>
+    <p>Ziel ist nicht, frühere Forschende oder Generationen lächerlich zu machen. Viele verworfene Vorstellungen waren angesichts der damals verfügbaren Evidenz und Instrumente vernünftig. Eine Schlussfolgerung zu revidieren, wenn bessere Evidenz verfügbar wird, gehört zu den Stärken von Wissenschaft, Forschung und empirischem Denken.</p>
+    <p>Dies ist ein kuratiertes Open-Source-Projekt. Jede veröffentlichte Aussage ist belegt; Datierungen und Abgrenzungen werden dort, wo es die historische Lage verlangt, als Annäherungen behandelt; vorgeschlagene Einträge und Korrekturen werden vor der Veröffentlichung geprüft. Die Sammlung Institutionelle Überzeugungen enthält derzeit <strong>{institutionalBeliefs.length}</strong> dokumentierte Fälle.</p>
   </article>
 </BaseLayout>
 <style>

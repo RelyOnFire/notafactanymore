@@ -5,16 +5,30 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <article class="narrow prose">
     <p class="eyebrow">Editorial standard</p>
     <h1>Methodology</h1>
-    <p class="lead">An entry must document a claim that was previously treated as factual or as the dominant evidence-based explanation by a relevant institution, professional field, textbook, reference work, or substantial expert consensus.</p>
+    <p class="lead">The site uses two related inclusion standards. The core catalogue tracks scientific and scholarly claims that were once reasonably treated as factual or as the best available evidence-based explanation. <strong>Institutional Beliefs</strong> uses a stricter test for factual propositions that became embedded in institutional practice.</p>
 
-    <h2>What qualifies</h2>
-    <p>The former claim must have been reasonably defensible in its historical setting. The present understanding must be supported by stronger evidence, improved measurement, or a more successful explanatory model.</p>
+    <h2>The core catalogue</h2>
+    <p>A core entry must make a concrete factual claim and show that it had meaningful standing within a relevant expert community, institution, textbook tradition, reference work, or professional practice. The former claim must have been reasonably defensible in its historical setting, and the later change must be traceable to stronger evidence, improved measurement, or a more successful explanatory framework.</p>
+
+    <h2>Institutional Beliefs</h2>
+    <p>This collection asks a narrower question: did a factual proposition become operational inside an identifiable institution and materially shape what that institution did? A case should support all five links in the chain:</p>
+    <ol>
+      <li><strong>Proposition</strong> — a specific factual proposition that was treated as true.</li>
+      <li><strong>Carrier</strong> — an identifiable institution, authority, profession, or institutional system that carried it.</li>
+      <li><strong>Mechanism</strong> — a policy, diagnosis, law, professional standard, training practice, curriculum, evidentiary rule, protocol, or comparable mechanism through which the proposition was put into practice.</li>
+      <li><strong>Consequences</strong> — decisions, practices, classifications, treatments, or other outcomes materially shaped by it.</li>
+      <li><strong>Correction</strong> — evidence, review, or institutional change that corrected, narrowed, replaced, abandoned, or disconfirmed the proposition.</li>
+    </ol>
+    <p>Being widely believed is not enough. The institutional carrier and the operational mechanism must be identifiable from the evidence.</p>
 
     <h2>What does not qualify</h2>
-    <p>Urban legends, failed predictions, satire, isolated quotations, propaganda, ordinary opinions, and claims that experts consistently rejected do not belong in the catalogue.</p>
+    <p>The core catalogue is not a collection of generic misconceptions. Urban legends, failed predictions, satire, isolated quotations, propaganda, value judgments, and claims that relevant experts consistently rejected do not qualify. A factual proposition embedded in policy or law may qualify for Institutional Beliefs, but the policy preference itself does not.</p>
 
     <h2>Required evidence</h2>
-    <p>Each entry should normally include evidence that the former claim was genuinely accepted and evidence supporting the current understanding. Sources are labelled by purpose so readers can see exactly what each citation establishes.</p>
+    <p>Each core entry should normally include evidence that the former claim was genuinely accepted and evidence supporting the current understanding. Institutional Beliefs entries also need evidence for the carrier, mechanism, consequences, and correction. Sources are labelled by purpose so readers can see what each citation establishes.</p>
+
+    <h2>Glossary and tooltips</h2>
+    <p>The glossary is for technical, historical, or otherwise unfamiliar terms whose precision would be lost by simply replacing them with plainer language. Cards should remain readable without opening a tooltip. A tooltip should define the unfamiliar term and, where useful, add context that the surrounding sentence does not already provide; it should not merely repeat an inline definition.</p>
 
     <h2>Status labels</h2>
     <dl>
@@ -26,7 +40,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     </dl>
 
     <h2>Corrections</h2>
-    <p>Entries are dated and periodically reviewed. A source becoming outdated is itself a reason to revise the catalogue. Submissions and corrections are reviewed before publication.</p>
+    <p>Entries are dated and periodically reviewed. Dates and boundaries are treated as approximations where the historical record demands it. A source becoming outdated, a consensus being overstated, or stronger evidence emerging is a reason to revise the catalogue. Submissions and corrections are reviewed before publication.</p>
   </article>
 </BaseLayout>
 <style>
@@ -34,6 +48,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   .prose h1 { margin: .2rem 0 1.5rem; }
   .lead { font-size: 1.3rem; color: var(--muted); }
   .prose h2 { margin-top: 2.8rem; font-size: 1.7rem; }
+  .prose li { margin: .55rem 0; }
   dl div { padding: 1rem 0; border-bottom: 1px solid var(--line); }
   dt { font-weight: 850; }
   dd { margin: .25rem 0 0; color: var(--muted); }

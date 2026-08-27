@@ -5,16 +5,30 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   <article class="narrow prose">
     <p class="eyebrow">Redaktioneller Standard</p>
     <h1>Methodik</h1>
-    <p class="lead">Ein Eintrag muss eine Aussage dokumentieren, die von einer relevanten Institution, einem Fachgebiet, Lehrbuch, Nachschlagewerk oder einem breiten fachlichen Konsens zuvor als Tatsache oder als vorherrschende evidenzbasierte Erklärung behandelt wurde.</p>
+    <p class="lead">Die Website verwendet zwei miteinander verwandte Aufnahmestandards. Der Kernkatalog erfasst wissenschaftliche und fachliche Aussagen, die einst vernünftigerweise als Tatsachen oder als beste verfügbare evidenzbasierte Erklärung galten. <strong>Institutionelle Überzeugungen</strong> folgt einem strengeren Test für Tatsachenbehauptungen, die in institutioneller Praxis verankert wurden.</p>
 
-    <h2>Was aufgenommen wird</h2>
-    <p>Die frühere Aussage muss in ihrem historischen Kontext vernünftigerweise vertretbar gewesen sein. Die heutige Auffassung muss durch stärkere Evidenz, bessere Messmethoden oder ein erfolgreicheres Erklärungsmodell gestützt werden.</p>
+    <h2>Der Kernkatalog</h2>
+    <p>Ein Kerneintrag muss eine konkrete Tatsachenbehauptung formulieren und zeigen, dass sie innerhalb einer relevanten Fachgemeinschaft, Institution, Lehrbuchtradition, eines Nachschlagewerks oder einer Berufspraxis eine substantielle Stellung hatte. Die frühere Aussage muss in ihrem historischen Kontext vernünftigerweise vertretbar gewesen sein; die spätere Veränderung muss sich auf stärkere Evidenz, bessere Messmethoden oder einen erfolgreicheren Erklärungsrahmen zurückführen lassen.</p>
+
+    <h2>Institutionelle Überzeugungen</h2>
+    <p>Diese Sammlung stellt eine engere Frage: Wurde eine Tatsachenbehauptung innerhalb einer identifizierbaren Institution praktisch wirksam und prägte sie materiell deren Handeln? Ein Fall sollte alle fünf Glieder der Kette belegen:</p>
+    <ol>
+      <li><strong>Proposition</strong> — eine konkrete Tatsachenbehauptung, die als wahr behandelt wurde.</li>
+      <li><strong>Träger</strong> — eine identifizierbare Institution, Behörde, Profession oder ein institutionelles System, das die Behauptung trug.</li>
+      <li><strong>Mechanismus</strong> — eine Richtlinie, Diagnose, ein Gesetz, beruflicher Standard, eine Ausbildungspraxis, ein Lehrplan, eine Beweisregel, ein Protokoll oder ein vergleichbarer Weg, über den die Behauptung praktisch umgesetzt wurde.</li>
+      <li><strong>Folgen</strong> — Entscheidungen, Praktiken, Klassifikationen, Behandlungen oder andere Ergebnisse, die dadurch materiell geprägt wurden.</li>
+      <li><strong>Korrektur</strong> — Evidenz, Überprüfung oder institutionelle Veränderung, durch die die Behauptung korrigiert, eingeschränkt, ersetzt, aufgegeben oder widerlegt wurde.</li>
+    </ol>
+    <p>Eine weit verbreitete Überzeugung allein genügt nicht. Der institutionelle Träger und der operative Mechanismus müssen aus den Belegen erkennbar sein.</p>
 
     <h2>Was nicht aufgenommen wird</h2>
-    <p>Moderne Sagen, gescheiterte Vorhersagen, Satire, isolierte Zitate, Propaganda, gewöhnliche Meinungen und Aussagen, die von Fachleuten durchgehend abgelehnt wurden, gehören nicht in den Katalog.</p>
+    <p>Der Kernkatalog ist keine Sammlung allgemeiner Irrtümer. Moderne Sagen, gescheiterte Vorhersagen, Satire, isolierte Zitate, Propaganda, Werturteile und Aussagen, die von den relevanten Fachleuten durchgehend abgelehnt wurden, qualifizieren sich nicht. Eine Tatsachenbehauptung, die in Politik oder Recht verankert wurde, kann für Institutionelle Überzeugungen geeignet sein; die politische Präferenz selbst ist es nicht.</p>
 
     <h2>Erforderliche Evidenz</h2>
-    <p>Jeder Eintrag sollte normalerweise sowohl Belege dafür enthalten, dass die frühere Aussage tatsächlich akzeptiert war, als auch Belege für die heutige Auffassung. Quellen werden nach ihrem Zweck gekennzeichnet, damit sichtbar ist, was die jeweilige Quellenangabe belegt.</p>
+    <p>Jeder Kerneintrag sollte normalerweise sowohl Belege dafür enthalten, dass die frühere Aussage tatsächlich akzeptiert war, als auch Belege für die heutige Auffassung. Einträge in Institutionelle Überzeugungen benötigen zusätzlich Belege für Träger, Mechanismus, Folgen und Korrektur. Quellen werden nach ihrem Zweck gekennzeichnet, damit sichtbar ist, was die jeweilige Quellenangabe belegt.</p>
+
+    <h2>Glossar und Tooltips</h2>
+    <p>Das Glossar ist für technische, historische oder anderweitig ungewohnte Begriffe gedacht, deren Präzision bei einer bloßen Ersetzung durch einfachere Sprache verloren ginge. Karten sollen verständlich bleiben, ohne dass ein Tooltip geöffnet werden muss. Ein Tooltip soll den ungewohnten Begriff erklären und, wo sinnvoll, zusätzlichen Kontext liefern, den der umgebende Satz noch nicht enthält; er soll nicht lediglich eine unmittelbar daneben stehende Definition wiederholen.</p>
 
     <h2>Statuskennzeichnungen</h2>
     <dl>
@@ -26,7 +40,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     </dl>
 
     <h2>Korrekturen</h2>
-    <p>Einträge sind datiert und werden regelmäßig überprüft. Wenn eine Quelle veraltet, ist das selbst ein Grund, den Katalog zu überarbeiten. Vorschläge und Korrekturen werden vor der Veröffentlichung redaktionell geprüft.</p>
+    <p>Einträge sind datiert und werden regelmäßig überprüft. Datierungen und Abgrenzungen werden dort als Annäherungen behandelt, wo es die historische Quellenlage verlangt. Eine veraltete Quelle, ein überzeichneter Konsens oder stärkere neue Evidenz sind Gründe, den Katalog zu überarbeiten. Vorschläge und Korrekturen werden vor der Veröffentlichung redaktionell geprüft.</p>
   </article>
 </BaseLayout>
 <style>
@@ -34,6 +48,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   .prose h1 { margin: .2rem 0 1.5rem; }
   .lead { font-size: 1.3rem; color: var(--muted); }
   .prose h2 { margin-top: 2.8rem; font-size: 1.7rem; }
+  .prose li { margin: .55rem 0; }
   dl div { padding: 1rem 0; border-bottom: 1px solid var(--line); }
   dt { font-weight: 850; }
   dd { margin: .25rem 0 0; color: var(--muted); }

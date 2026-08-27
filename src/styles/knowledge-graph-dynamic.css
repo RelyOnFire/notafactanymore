@@ -1,0 +1,85 @@
+.graph-details-content h2 {
+  margin: .2rem 0 .7rem;
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+}
+
+.graph-details-content h3 {
+  margin: 1.7rem 0 .55rem;
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: var(--muted);
+}
+
+.graph-details-content .graph-node-type,
+.graph-details-content .graph-node-meta {
+  color: var(--muted);
+  font-size: .82rem;
+  font-weight: 750;
+}
+
+.graph-details-content .graph-node-meta {
+  margin-top: -.3rem;
+}
+
+.graph-details-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.graph-details-content li {
+  margin: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.graph-details-content li button {
+  width: 100%;
+  padding: .72rem .15rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  font-size: .88rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.graph-details-content li button::after {
+  content: '→';
+  float: right;
+  margin-left: .75rem;
+  color: var(--accent-dark);
+  opacity: 0;
+  transform: translateX(-.2rem);
+  transition: opacity 150ms ease, transform 150ms ease;
+}
+
+.graph-details-content li button:hover,
+.graph-details-content li button:focus-visible {
+  color: var(--accent-dark);
+}
+
+.graph-details-content li button:hover::after,
+.graph-details-content li button:focus-visible::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.graph-details-content .graph-open-link {
+  margin-top: 1.4rem;
+}
+
+.graph-details-content .graph-empty-details {
+  color: var(--muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .graph-details-content li button::after {
+    transition: none;
+  }
+}

@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import KnowledgeGraph from '../../components/KnowledgeGraph.astro';
+import { buildKnowledgeGraph } from '../../lib/knowledgeGraph';
+import '../../styles/knowledge-graph-dynamic.css';
+
+const entries = await getCollection('entries');
+const entryTranslations = await getCollection(
+  'entryTranslations',
+  (translation) => translation.data.locale === 'de',
+);
+const data = buildKnowledgeGraph({ entries, entryTranslations, locale: 'de' });
+---
+
+<BaseLayout
+  title="Wissenskarte"
+  description="Erkunde wiederkehrende Muster, durch die akzeptierte Vorstellungen falsch lagen, und die Evidenz, durch die sie korrigiert wurden."
+  locale="de"
+  alternatePath="/graph/"
+>
+  <KnowledgeGraph data={data} locale="de" />
+</BaseLayout>

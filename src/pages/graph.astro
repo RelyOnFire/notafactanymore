@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import KnowledgeGraph from '../components/KnowledgeGraph.astro';
+import { buildKnowledgeGraph } from '../lib/knowledgeGraph';
+import '../styles/knowledge-graph-dynamic.css';
+
+const entries = await getCollection('entries');
+const data = buildKnowledgeGraph({ entries, locale: 'en' });
+---
+
+<BaseLayout
+  title="Knowledge Map"
+  description="Explore recurring ways accepted ideas went wrong and the kinds of evidence that changed them across Not a Fact Anymore."
+  locale="en"
+  alternatePath="/de/graph/"
+>
+  <KnowledgeGraph data={data} locale="en" />
+</BaseLayout>

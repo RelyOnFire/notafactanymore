@@ -117,8 +117,17 @@ const regions = [...new Set(
   entries.flatMap((item) => item.episodes.map((episode) => episode.region)),
 )].sort((a, b) => a.localeCompare(b, locale));
 
-const polities = [...new Set(
-  entries.flatMap((item) => item.episodes.map((episode) => episode.polity)),
+const polityGroupFor = (polity: string) => {
+  for (const separator of [' — ', ' – ', ' - ']) {
+    if (polity.includes(separator)) {
+      return polity.split(separator)[0].trim();
+    }
+  }
+  return polity;
+};
+
+const polityFilters = [...new Set(
+  entries.flatMap((item) => item.episodes.map((episode) => polityGroupFor(episode.polity))),
 )].sort((a, b) => a.localeCompare(b, locale));
 
 const types = [...new Set(
@@ -279,19 +288,17 @@ const highestStrengthFor = (episodes: typeof allEpisodes) =>
     'institutionally-influential',
   );
 
-const compactScopeFor = (episodes: typeof allEpisodes) => {
-  const uniquePolities = [...new Set(episodes.map((episode) => episode.polity))];
+const compactPeriodFor = (episodes: typeof allEpisodes) => {
   const startYear = Math.min(...episodes.map((episode) => episode.startYear));
   const endYear = Math.max(...episodes.map((episode) => episode.endYear));
   const endOpen = episodes.some(
     (episode) => episode.endOpen && episode.endYear === endYear,
   );
-  const polityText = uniquePolities.length <= 2
-    ? uniquePolities.join(' · ')
-    : copy.polities(uniquePolities.length);
-
-  return `${copy.episodes(episodes.length)} · ${polityText} · ${formatPeriod(startYear, endYear, endOpen)}`;
+  return formatPeriod(startYear, endYear, endOpen);
 };
+
+const compactPolitiesFor = (episodes: typeof allEpisodes) =>
+  [...new Set(episodes.map((episode) => episode.polity))].join(' · ');
 ---
 
 <header class="institutional-head container">
@@ -437,7 +444,7 @@ const compactScopeFor = (episodes: typeof allEpisodes) => {
           <section>
             <p class="group-label">{copy.filterPolity}</p>
             <div class="filters" role="group" aria-label={copy.filterPolity}>
-              {polities.map((polity) => (
+              {polityFilters.map((polity) => (
                 <button
                   class="filter-button"
                   type="button"
@@ -446,7 +453,7 @@ const compactScopeFor = (episodes: typeof allEpisodes) => {
                   data-filter-label={polity}
                   aria-pressed="false"
                 >
-                  {polity}<span class="count">{countEpisodes((episode) => episode.polity === polity)}</span>
+                  {polity}<span class="count">{countEpisodes((episode) => polityGroupFor(episode.polity) === polity)}</span>
                 </button>
               ))}
             </div>
@@ -523,14 +530,19 @@ const compactScopeFor = (episodes: typeof allEpisodes) => {
             <p class="belief-claim">{item.claim}</p>
 
             <div class="compact-belief-meta">
-              <span
-                class={`compact-strength strength strength-${initialHighestStrength}`}
-                data-compact-strength
-              >
-                {strengthLabels[initialHighestStrength]}
-              </span>
-              <span class="compact-scope" data-compact-scope>
-                {compactScopeFor(item.episodes)}
+              <div class="compact-meta-top">
+                <span
+                  class={`compact-strength strength strength-${initialHighestStrength}`}
+                  data-compact-strength
+                >
+                  {strengthLabels[initialHighestStrength]}
+                </span>
+                <span class="compact-period" data-compact-period>
+                  {compactPeriodFor(item.episodes)}
+                </span>
+              </div>
+              <span class="compact-polities" data-compact-polities>
+                {compactPolitiesFor(item.episodes)}
               </span>
             </div>
           </div>
@@ -573,6 +585,7 @@ const compactScopeFor = (episodes: typeof allEpisodes) => {
                 data-period={episode.period}
                 data-region={episode.region}
                 data-polity={episode.polity}
+                data-polity-group={polityGroupFor(episode.polity)}
                 data-strength={episode.strength}
                 data-types={episode.institutionTypes.join('|')}
                 data-search={searchText}
@@ -728,16 +741,6 @@ const compactScopeFor = (episodes: typeof allEpisodes) => {
       `${episodes} institutionelle Episoden in ${groups} Themen`,
   };
 
-  const episodeCopy = {
-    en: (count: number) => `${count} ${count === 1 ? 'episode' : 'episodes'}`,
-    de: (count: number) => `${count} ${count === 1 ? 'Episode' : 'Episoden'}`,
-  };
-
-  const polityCopy = {
-    en: (count: number) => `${count} polities`,
-    de: (count: number) => `${count} politische Räume`,
-  };
-
   const highestCopy = {
     en: (count: number) => `Highest level among ${count} matching episodes`,
     de: (count: number) => `Höchste Stufe unter ${count} passenden Episoden`,
@@ -825,8 +828,9 @@ const compactScopeFor = (episodes: typeof allEpisodes) => {
 
   const updateCompactMeta = (group: HTMLElement, cards: HTMLElement[]) => {
     const badge = group.querySelector<HTMLElement>('[data-compact-strength]');
-    const scope = group.querySelector<HTMLElement>('[data-compact-scope]');
-    if (!badge || !scope || cards.length === 0) return;
+    const period = group.querySelector<HTMLElement>('[data-compact-period]');
+    const polities = group.querySelector<HTMLElement>('[data-compact-polities]');
+    if (!badge || !period || !polities || cards.length === 0) return;
 
     const strengths = [...new Set(cards.map((card) => card.dataset.strength ?? ''))]
       .filter(Boolean);
@@ -846,7 +850,9 @@ const compactScopeFor = (episodes: typeof allEpisodes) => {
     badge.textContent = strengthLabel[locale][highest] ?? highest;
     badge.title = strengths.length > 1 ? highestCopy[locale](cards.length) : '';
 
-    const polities = [...new Set(cards.map((card) => card.dataset.polity ?? '').filter(Boolean))];
+    const visiblePolities = [...new Set(
+      cards.map((card) => card.dataset.polity ?? '').filter(Boolean)
+    )];
     const starts = cards.map((card) => Number(card.dataset.startYear));
     const ends = cards.map((card) => Number(card.dataset.endYear));
     const start = Math.min(...starts);
@@ -854,14 +860,11 @@ const compactScopeFor = (episodes: typeof allEpisodes) => {
     const endOpen = cards.some(
       (card) => card.dataset.endOpen === 'true' && Number(card.dataset.endYear) === end,
     );
-    const period = start === end
+
+    period.textContent = start === end
       ? `${start}${endOpen ? '+' : ''}`
       : `${start}–${end}${endOpen ? '+' : ''}`;
-    const polityText = polities.length <= 2
-      ? polities.join(' · ')
-      : polityCopy[locale](polities.length);
-
-    scope.textContent = `${episodeCopy[locale](cards.length)} · ${polityText} · ${period}`;
+    polities.textContent = visiblePolities.join(' · ');
   };
 
   const matchesCard = (card: HTMLElement, groupSearch: string, query: string) => {
@@ -882,7 +885,7 @@ const compactScopeFor = (episodes: typeof allEpisodes) => {
 
     const polityMatch =
       selected.polity.size === 0 ||
-      selected.polity.has(card.dataset.polity ?? '');
+      selected.polity.has(card.dataset.polityGroup ?? '');
 
     const strengthMatch =
       selected.strength.size === 0 ||
@@ -980,7 +983,11 @@ const compactScopeFor = (episodes: typeof allEpisodes) => {
       }
 
       const count = group.querySelector<HTMLElement>('.episode-count');
-      if (count) count.textContent = episodeCopy[locale](matchingCards.length);
+      if (count) {
+        count.textContent = locale === 'de'
+          ? `${matchingCards.length} ${matchingCards.length === 1 ? 'Episode' : 'Episoden'}`
+          : `${matchingCards.length} ${matchingCards.length === 1 ? 'episode' : 'episodes'}`;
+      }
     });
 
     filterButtons.forEach((button) => {
@@ -1533,6 +1540,7 @@ const compactScopeFor = (episodes: typeof allEpisodes) => {
     background: var(--level-bg);
     font-size: 0.72rem;
     font-weight: 850;
+    line-height: 1.15;
     letter-spacing: 0.025em;
   }
   .strength::before {
@@ -1693,21 +1701,33 @@ const compactScopeFor = (episodes: typeof allEpisodes) => {
     overflow: hidden;
   }
   .belief-groups.is-compact .compact-belief-meta {
-    margin-top: 0.62rem;
+    margin-top: 0.68rem;
+    display: grid;
+    gap: 0.38rem;
+  }
+  .compact-meta-top {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 0.45rem 0.65rem;
+    gap: 0.5rem 0.7rem;
   }
   .belief-groups.is-compact .compact-strength {
     margin: 0;
     flex: 0 0 auto;
+    align-self: center;
   }
-  .compact-scope {
+  .compact-period {
+    color: var(--ink);
+    font-size: 1rem;
+    font-weight: 860;
+    line-height: 1;
+    letter-spacing: -0.01em;
+  }
+  .compact-polities {
     color: var(--muted);
-    font-size: 0.75rem;
+    font-size: 0.76rem;
     font-weight: 700;
-    line-height: 1.3;
+    line-height: 1.35;
   }
   .belief-groups.is-compact .belief-heading-actions,
   .belief-groups.is-compact .episode-grid {
@@ -1808,13 +1828,19 @@ const compactScopeFor = (episodes: typeof allEpisodes) => {
       -webkit-line-clamp: 2;
     }
     .belief-groups.is-compact .compact-belief-meta {
-      align-items: flex-start;
+      gap: 0.4rem;
+    }
+    .compact-meta-top {
+      align-items: center;
       gap: 0.42rem 0.58rem;
     }
     .belief-groups.is-compact .compact-strength {
       font-size: 0.68rem;
     }
-    .compact-scope { font-size: 0.71rem; }
+    .compact-period {
+      font-size: 0.95rem;
+    }
+    .compact-polities { font-size: 0.71rem; }
   }
 
   @media (prefers-reduced-motion: reduce) {

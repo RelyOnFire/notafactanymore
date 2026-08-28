@@ -1752,6 +1752,61 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
   }
   :global(body.filters-open) { overflow: hidden; }
 
+
+
+  @media (min-width: 900px) {
+    .belief-groups.is-compact .belief-heading {
+      padding: 0.78rem 1rem;
+    }
+
+    .belief-groups.is-compact .belief-heading > div:first-child {
+      display: grid;
+      grid-template-columns: minmax(17.5rem, 18.5rem) minmax(0, 1fr);
+      grid-template-areas:
+        "meta topline"
+        "meta title"
+        "meta claim"
+        "meta polities";
+      column-gap: 1.35rem;
+      row-gap: 0;
+      align-items: start;
+    }
+
+    .belief-groups.is-compact .belief-heading-topline {
+      grid-area: topline;
+      margin: 0 0 0.1rem;
+      align-self: end;
+    }
+
+    .belief-groups.is-compact .belief-heading h2 {
+      grid-area: title;
+    }
+
+    .belief-groups.is-compact .belief-claim {
+      grid-area: claim;
+      margin-top: 0.18rem;
+      max-width: none;
+      -webkit-line-clamp: 3;
+    }
+
+    .belief-groups.is-compact .compact-belief-meta {
+      display: contents;
+    }
+
+    .belief-groups.is-compact .compact-meta-top {
+      grid-area: meta;
+      align-self: center;
+      padding-right: 1.25rem;
+      border-right: 1px solid color-mix(in srgb, var(--line) 78%, transparent);
+    }
+
+    .belief-groups.is-compact .compact-polities {
+      grid-area: polities;
+      margin-top: 0.28rem;
+      min-width: 0;
+    }
+  }
+
   @media (max-width: 1100px) {
     .level-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   }

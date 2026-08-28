@@ -22,7 +22,7 @@ impact:
   - value: '1969'
     label: Hawaiʻi formally abolished its isolation policy
   - value: 36 years
-    label: Japan's segregation framework persisted from the representative 1960 correction point until repeal in 1996
+    label: Japan's segregation framework persisted from 1960, when later government review found segregation medically indefensible, until repeal in 1996
   context:
   - Untreated leprosy can transmit. The corrected proposition is not 'leprosy is never contagious,' but that prolonged
     compulsory segregation remained necessary after effective treatment had made routine blanket isolation medically
@@ -34,10 +34,11 @@ impact:
     bacteriologically positive cases to be turned over for isolation and segregation within a wider system of government
     sanitaria and treatment facilities. The 1964 reform did not abolish institutional care either: people whose stage
     of disease required it could still be hospitalized.'
-  - The Philippine endpoint is unusually explicit. Republic Act No. 4073 changed the legal default in 1964 to 'persons
-    afflicted with leprosy not to be segregated' except when institutional treatment was required. A 1966 rehabilitation
-    law then stated that sulfone treatment had made prolonged confinement unnecessary for most patients and acknowledged
-    the damage produced by that confinement.
+  - >-
+    Republic Act No. 4073 made the Philippine legal reversal unusually explicit in 1964: 'persons afflicted with
+    leprosy not to be segregated' except when institutional treatment was required. A 1966 rehabilitation law then
+    stated that sulfone treatment had made prolonged confinement unnecessary for most patients and acknowledged the
+    damage produced by that confinement.
 episodes:
 - id: japan-1960-1996
   polity: Japan
@@ -50,10 +51,10 @@ episodes:
   - medical
   institutions:
   - Ministry of Health and Welfare of Japan
-  institutionalContext: Japan's segregation policy had much earlier origins, but 1960 is used as the defensible start
-    of the institutional-error period because the later government verification process found that, by then, the Health
-    Minister either possessed or could readily obtain the medical knowledge necessary to conclude that segregation
-    was unnecessary. The policy and Leprosy Prevention Law nevertheless remained in force until 1996.
+  institutionalContext: Japan's segregation policy had much earlier origins. The later government verification process
+    found that by 1960 the Health Minister either possessed or could readily obtain the medical knowledge necessary
+    to conclude that segregation was unnecessary. The policy and Leprosy Prevention Law nevertheless remained in
+    force until 1996.
   consequences:
   - Continued confinement and segregation of people with Hansen's disease
   - Severe restrictions on family life, residence and social participation
@@ -87,11 +88,11 @@ episodes:
   institutions:
   - Board of Health, Territory of Hawaiʻi
   - Hawaiʻi Department of Health
-  institutionalContext: Hawaiʻi's compulsory-isolation regime began in the nineteenth century, but this episode starts
-    in 1946 because effective sulfone treatment then reached Hawaiʻi and removed the medical rationale for blanket
-    isolation of treated patients. Later official histories describe forced isolation at Kalaupapa as ending in 1949,
-    while the state's formal isolation policy and legal framework were not abolished until 1969. The episode therefore
-    distinguishes the easing of confinement from the later institutional repeal.
+  institutionalContext: Hawaiʻi's compulsory-isolation regime began in the nineteenth century. Effective sulfone
+    treatment reached Hawaiʻi in 1946 and removed the medical rationale for blanket isolation of treated patients.
+    Later official histories describe forced isolation at Kalaupapa as ending in 1949, while the state's formal
+    isolation policy and legal framework were not abolished until 1969. Practice therefore changed before the
+    institutional framework was formally repealed.
   consequences:
   - Continued compulsory isolation during the transition after effective treatment became available
   - Persistence of a formal segregation policy after its blanket medical rationale had collapsed

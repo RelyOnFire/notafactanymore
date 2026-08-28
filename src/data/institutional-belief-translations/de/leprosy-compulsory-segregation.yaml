@@ -25,7 +25,7 @@ impact:
   - value: '1969'
     label: Hawaiʻi hob seine Isolationspolitik formell auf
   - value: 36 Jahre
-    label: Japans Segregationsrahmen bestand vom repräsentativen Korrekturpunkt 1960 bis zur Aufhebung 1996 fort
+    label: Japans Segregationsrahmen bestand von 1960, als eine spätere staatliche Prüfung die Segregation bereits für medizinisch unhaltbar befand, bis zur Aufhebung 1996 fort
   context:
   - Unbehandelte Lepra kann übertragen werden. Korrigiert wird nicht die Aussage „Lepra ist niemals ansteckend“, sondern
     die Annahme, nach wirksamer Behandlung bleibe langandauernde pauschale Zwangsisolation zur Infektionskontrolle
@@ -37,19 +37,20 @@ impact:
     Es schrieb für bakteriologisch positive Fälle Isolation und Segregation innerhalb eines größeren Systems staatlicher
     Sanatorien und Behandlungsstellen vor. Auch die Reform von 1964 schaffte stationäre Behandlung nicht vollständig
     ab: Bei medizinischer Notwendigkeit blieb sie möglich.'
-  - Der philippinische Korrekturpunkt ist ungewöhnlich ausdrücklich. Republic Act No. 4073 stellte 1964 den Grundsatz
-    auf, dass Menschen mit Lepra nicht zu segregieren seien, sofern keine stationäre Behandlung erforderlich war.
-    Ein Rehabilitationsgesetz von 1966 erklärte anschließend, Sulfontherapie habe die langandauernde Unterbringung
-    für die meisten Patienten unnötig gemacht, und benannte deren soziale Schäden.
+  - >-
+    Republic Act No. 4073 formulierte die philippinische Rechtsänderung 1964 ungewöhnlich ausdrücklich: Menschen
+    mit Lepra sollten nicht segregiert werden, sofern keine stationäre Behandlung erforderlich war. Ein
+    Rehabilitationsgesetz von 1966 erklärte anschließend, Sulfontherapie habe die langandauernde Unterbringung für
+    die meisten Patienten unnötig gemacht, und benannte deren soziale Schäden.
 episodes:
 - id: japan-1960-1996
   polity: Japan
   institutions:
   - Ministry of Health and Welfare of Japan
-  institutionalContext: Japans Segregationspolitik begann wesentlich früher. 1960 wird hier als belastbarer Beginn
-    der institutionellen Fehlerphase verwendet, weil die spätere staatliche Prüfung feststellte, dass der Gesundheitsminister
-    spätestens damals über das notwendige medizinische Wissen verfügte oder es leicht hätte beschaffen können, um
-    die Unnötigkeit der Isolation zu erkennen. Gesetz und Politik blieben dennoch bis 1996 bestehen.
+  institutionalContext: Japans Segregationspolitik begann wesentlich früher. Die spätere staatliche Prüfung stellte
+    fest, dass der Gesundheitsminister spätestens 1960 über das notwendige medizinische Wissen verfügte oder es leicht
+    hätte beschaffen können, um die Unnötigkeit der Isolation zu erkennen. Gesetz und Politik blieben dennoch bis
+    1996 bestehen.
   summary: Japan hielt an einem gesetzlichen Segregationssystem für Menschen mit Hansen-Krankheit fest, nachdem wirksame
     Chemotherapie pauschale Isolation medizinisch unnötig gemacht hatte. Die spätere staatliche Untersuchung kam zu
     dem Ergebnis, dass die medizinische Rechtfertigung spätestens um 1960 nicht mehr tragfähig war und die offizielle
@@ -65,12 +66,11 @@ episodes:
   institutions:
   - Board of Health, Territory of Hawaiʻi
   - Hawaiʻi Department of Health
-  institutionalContext: Hawaiʻis Zwangsisolationssystem begann im 19. Jahrhundert; diese Episode setzt jedoch 1946
-    ein, weil damals eine wirksame Sulfontherapie Hawaiʻi erreichte und damit die medizinische Grundlage für eine
-    pauschale Isolation behandelter Patienten entfiel. Spätere amtliche Darstellungen datieren das Ende der Zwangsisolation
-    in Kalaupapa auf 1949, während die formelle staatliche Isolationspolitik und ihr rechtlicher Rahmen erst 1969
-    aufgehoben wurden. Die Episode trennt daher die praktische Lockerung der Einschließung von der späteren institutionellen
-    Aufhebung.
+  institutionalContext: Hawaiʻis Zwangsisolationssystem begann im 19. Jahrhundert. 1946 erreichte eine wirksame
+    Sulfontherapie Hawaiʻi und entzog der pauschalen Isolation behandelter Patienten die medizinische Grundlage.
+    Spätere amtliche Darstellungen datieren das Ende der Zwangsisolation in Kalaupapa auf 1949, während die formelle
+    staatliche Isolationspolitik und ihr rechtlicher Rahmen erst 1969 aufgehoben wurden. Die Praxis lockerte sich
+    damit vor der späteren institutionellen Aufhebung.
   summary: 1946 wurde in Hawaiʻi eine wirksame Sulfontherapie eingeführt, durch die behandelte Patienten mit Hansen-Krankheit
     nicht mehr infektiös waren und pauschale Isolation medizinisch unnötig wurde. Spätere Darstellungen des Parlaments
     von Hawaiʻi und des National Park Service datieren das Ende der Zwangsisolation in Kalaupapa auf 1949; die Isolationspolitik

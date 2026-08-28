@@ -1,0 +1,225 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { formatHistoricalYear } from '../../lib/lifespans';
+
+const entries = await getCollection('entries');
+
+const subjects = [...new Set(entries.map((entry) => entry.data.category))]
+  .map((category) => {
+    const categoryEntries = entries.filter((entry) => entry.data.category === category);
+    const sortedByChange = [...categoryEntries].sort(
+      (a, b) =>
+        b.data.timelineYear - a.data.timelineYear ||
+        a.data.claim.localeCompare(b.data.claim, 'en', { sensitivity: 'base' }),
+    );
+
+    return {
+      category,
+      count: categoryEntries.length,
+      oldestChange: Math.min(...categoryEntries.map((entry) => entry.data.timelineYear)),
+      newestChange: Math.max(...categoryEntries.map((entry) => entry.data.timelineYear)),
+      latest: sortedByChange[0],
+    };
+  })
+  .sort((a, b) => a.category.localeCompare(b.category, 'en', { sensitivity: 'base' }));
+---
+<BaseLayout
+  title="Subjects"
+  description={`Explore ${entries.length} catalogue entries across ${subjects.length} scientific and scholarly subjects.`}
+  alternatePath="/de/categories/"
+>
+  <header class="container page-head">
+    <p class="eyebrow">Explore by subject</p>
+    <h1>Follow changing knowledge through a field</h1>
+    <p class="page-intro">
+      Choose a subject to see the claims in that part of the catalogue, compare
+      their lifespans and statuses, and explore when the record changed.
+    </p>
+
+    <div class="directory-summary" aria-label="Subject directory summary">
+      <span><strong>{subjects.length}</strong> subjects</span>
+      <span aria-hidden="true">·</span>
+      <span><strong>{entries.length}</strong> entries</span>
+    </div>
+  </header>
+
+  <section class="subject-directory">
+    <div class="container">
+      <div class="subject-grid">
+        {subjects.map((subject) => (
+          <a
+            class="subject-card"
+            href={`/categories/${encodeURIComponent(subject.category.toLowerCase())}/`}
+          >
+            <div class="subject-card-head">
+              <h2>{subject.category}</h2>
+              <span>{subject.count} {subject.count === 1 ? 'entry' : 'entries'}</span>
+            </div>
+
+            <p class="subject-range">
+              {formatHistoricalYear(subject.oldestChange)}
+              <span aria-hidden="true"> → </span>
+              {formatHistoricalYear(subject.newestChange)}
+            </p>
+
+            {subject.latest && (
+              <div class="subject-example">
+                <span>Most recent change represented</span>
+                <strong>{subject.latest.data.claim}</strong>
+              </div>
+            )}
+
+            <span class="subject-action">Explore {subject.category} →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-head {
+    padding: 5rem 0 3.5rem;
+  }
+
+  .page-head h1 {
+    margin: 0.2rem 0 1rem;
+    max-width: 13ch;
+  }
+
+  .page-intro {
+    max-width: 58rem;
+    color: var(--muted);
+    font-size: 1.15rem;
+  }
+
+  .directory-summary {
+    display: flex;
+    align-items: baseline;
+    gap: 0.65rem;
+    margin-top: 1.5rem;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  .directory-summary strong {
+    color: var(--ink);
+    font-size: 1.2rem;
+  }
+
+  .subject-directory {
+    padding: 3.5rem 0 5rem;
+    border-top: 1px solid var(--line);
+    background: color-mix(in srgb, var(--card) 45%, transparent);
+  }
+
+  .subject-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.85rem;
+  }
+
+  .subject-card {
+    display: flex;
+    min-width: 0;
+    min-height: 14.5rem;
+    flex-direction: column;
+    padding: 1.2rem;
+    border: 1px solid var(--line);
+    background: var(--card);
+    text-decoration: none;
+    transition:
+      border-color 140ms ease,
+      transform 140ms ease,
+      box-shadow 140ms ease;
+  }
+
+  .subject-card:hover,
+  .subject-card:focus-visible {
+    border-color: var(--accent-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgb(30 24 13 / 7%);
+  }
+
+  .subject-card-head {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .subject-card h2 {
+    margin: 0;
+    font-size: clamp(1.25rem, 2vw, 1.55rem);
+  }
+
+  .subject-card-head > span {
+    flex: 0 0 auto;
+    padding: 0.18rem 0.5rem;
+    border-radius: 999px;
+    color: var(--muted);
+    background: #eee7d8;
+    font-size: 0.75rem;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+
+  .subject-range {
+    margin: 0.7rem 0 0;
+    color: var(--accent-dark);
+    font-size: 0.88rem;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .subject-example {
+    margin-top: 1.15rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .subject-example span {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .subject-example strong {
+    display: block;
+    font-size: 0.95rem;
+    line-height: 1.35;
+  }
+
+  .subject-action {
+    margin-top: auto;
+    padding-top: 1.2rem;
+    color: var(--accent-dark);
+    font-size: 0.88rem;
+    font-weight: 850;
+  }
+
+  @media (max-width: 900px) {
+    .subject-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 600px) {
+    .page-head {
+      padding-top: 3.5rem;
+    }
+
+    .subject-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .subject-card {
+      min-height: 0;
+    }
+  }
+</style>

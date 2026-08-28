@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import CompactClaim from '../components/CompactClaim.astro';
 import FactCard from '../components/FactCard.astro';
 import TimelineTeaser from '../components/TimelineTeaser.astro';
+import HomeDiscoveryPaths from '../components/HomeDiscoveryPaths.astro';
 
 const entries = await getCollection('entries');
 
@@ -233,6 +234,8 @@ const currentYear = new Date().getFullYear();
       />
     </div>
   </section>
+
+  <HomeDiscoveryPaths />
 
   <section class="container featured">
     <div class="section-heading">

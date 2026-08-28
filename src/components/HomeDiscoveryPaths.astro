@@ -1,0 +1,176 @@
+---
+import type { SiteLocale } from '../lib/i18n';
+
+interface Props {
+  locale?: SiteLocale;
+}
+
+const { locale = 'en' } = Astro.props;
+
+const items = locale === 'de'
+  ? [
+      {
+        eyebrow: 'Nach Fachgebiet',
+        title: 'Wissen innerhalb eines Fachgebiets',
+        copy: 'Erkunde Medizin, Astronomie, Physik, Archäologie und weitere Fachgebiete als eigene Teilkataloge.',
+        href: '/de/categories/',
+        action: 'Fachgebiete erkunden →',
+      },
+      {
+        eyebrow: 'Nach Lebensdauer',
+        title: 'Wie lange blieb eine Aussage bestehen?',
+        copy: 'Vergleiche kurzlebige Auffassungen mit Vorstellungen, die sich über Jahrhunderte hielten.',
+        href: '/de/lifespans',
+        action: 'Lebensdauern vergleichen →',
+      },
+      {
+        eyebrow: 'Nach Institution',
+        title: 'Wenn Überzeugungen institutionelle Macht erhielten',
+        copy: 'Verfolge Aussagen, die Forschung, Medizin, Recht, Verwaltung oder staatliche Praxis prägten.',
+        href: '/de/institutions',
+        action: 'Institutionelle Überzeugungen →',
+      },
+    ]
+  : [
+      {
+        eyebrow: 'By subject',
+        title: 'Follow change within a field',
+        copy: 'Explore Medicine, Astronomy, Physics, Archaeology, and other subjects as their own parts of the catalogue.',
+        href: '/categories/',
+        action: 'Explore subjects →',
+      },
+      {
+        eyebrow: 'By lifespan',
+        title: 'How long did a fact last?',
+        copy: 'Compare short-lived conclusions with accepted ideas that persisted for centuries.',
+        href: '/lifespans',
+        action: 'Compare lifespans →',
+      },
+      {
+        eyebrow: 'By institution',
+        title: 'When beliefs gained institutional power',
+        copy: 'Follow claims that shaped research, medicine, law, administration, or public policy.',
+        href: '/institutions',
+        action: 'Explore institutional beliefs →',
+      },
+    ];
+
+const heading = locale === 'de'
+  ? 'Den Wissenswandel aus einer anderen Perspektive erkunden'
+  : 'Explore the record another way';
+
+const intro = locale === 'de'
+  ? 'Der Katalog lässt sich nicht nur als Liste lesen. Folge einem Fachgebiet, vergleiche die Lebensdauer von Aussagen oder untersuche, was geschah, wenn Überzeugungen institutionell wirksam wurden.'
+  : 'The catalogue is more than a list. Follow a field, compare how long claims persisted, or examine what happened when beliefs became institutionally consequential.';
+---
+
+<section class="discovery-paths">
+  <div class="container">
+    <div class="discovery-heading">
+      <p class="eyebrow">{locale === 'de' ? 'Wege durch den Katalog' : 'Ways through the catalogue'}</p>
+      <h2>{heading}</h2>
+      <p>{intro}</p>
+    </div>
+
+    <div class="discovery-grid">
+      {items.map((item) => (
+        <a class="discovery-path" href={item.href}>
+          <span class="path-eyebrow">{item.eyebrow}</span>
+          <strong>{item.title}</strong>
+          <p>{item.copy}</p>
+          <span class="path-action">{item.action}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .discovery-paths {
+    padding: 4.5rem 0 5rem;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: var(--paper);
+  }
+
+  .discovery-heading {
+    margin-bottom: 2rem;
+  }
+
+  .discovery-heading h2 {
+    margin: 0.2rem 0 0.75rem;
+  }
+
+  .discovery-heading > p:last-child {
+    margin-bottom: 0;
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
+
+  .discovery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.8rem;
+  }
+
+  .discovery-path {
+    display: flex;
+    min-width: 0;
+    min-height: 15rem;
+    flex-direction: column;
+    padding: 1.35rem;
+    border: 1px solid var(--line);
+    background: var(--card);
+    text-decoration: none;
+    transition:
+      border-color 140ms ease,
+      transform 140ms ease,
+      box-shadow 140ms ease;
+  }
+
+  .discovery-path:hover,
+  .discovery-path:focus-visible {
+    border-color: var(--accent-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgb(30 24 13 / 7%);
+  }
+
+  .path-eyebrow {
+    color: var(--accent-dark);
+    font-size: 0.72rem;
+    font-weight: 900;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+
+  .discovery-path > strong {
+    margin-top: 0.45rem;
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+
+  .discovery-path p {
+    margin: 0.7rem 0 0;
+    color: var(--muted);
+    font-size: 0.94rem;
+    line-height: 1.5;
+  }
+
+  .path-action {
+    margin-top: auto;
+    padding-top: 1.25rem;
+    color: var(--accent-dark);
+    font-size: 0.88rem;
+    font-weight: 850;
+  }
+
+  @media (max-width: 800px) {
+    .discovery-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .discovery-path {
+      min-height: 0;
+    }
+  }
+</style>

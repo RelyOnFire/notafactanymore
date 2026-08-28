@@ -6,35 +6,63 @@ interface Props {
 }
 
 const { locale = 'en' } = Astro.props;
-const label = locale === 'de' ? 'Nach oben' : 'Back to top';
-const shortLabel = locale === 'de' ? 'Oben' : 'Top';
+const topLabel = locale === 'de' ? 'Nach oben' : 'Back to top';
+const topShortLabel = locale === 'de' ? 'Oben' : 'Top';
+const shareLabel = locale === 'de' ? 'Teilen' : 'Share';
+const copiedLabel = locale === 'de' ? 'Kopiert' : 'Copied';
+
+const pathname = Astro.url.pathname;
+const shareEnabled = /^\/(?:de\/)?(?:browse|timeline|institutions(?:\/[^/]+)?|entries\/[^/]+)\/?$/.test(pathname);
 ---
-<button
-  class="back-to-top"
-  type="button"
-  aria-label={label}
-  title={label}
-  tabindex="-1"
->
-  <span class="back-to-top-arrow" aria-hidden="true">↑</span>
-  <span class="back-to-top-label">{shortLabel}</span>
-</button>
+
+<div class="floating-actions" aria-label={locale === 'de' ? 'Seitenaktionen' : 'Page actions'}>
+  {shareEnabled && (
+    <button
+      class="share-page"
+      type="button"
+      aria-label={shareLabel}
+      title={shareLabel}
+      data-label={shareLabel}
+      data-copied-label={copiedLabel}
+    >
+      <svg class="share-page-icon" aria-hidden="true" viewBox="0 0 24 24">
+        <circle cx="18" cy="5" r="2.4"></circle>
+        <circle cx="6" cy="12" r="2.4"></circle>
+        <circle cx="18" cy="19" r="2.4"></circle>
+        <path d="M8.2 10.9 15.7 6.4M8.2 13.1l7.5 4.5"></path>
+      </svg>
+      <span class="share-page-label">{shareLabel}</span>
+    </button>
+  )}
+
+  <button
+    class="back-to-top"
+    type="button"
+    aria-label={topLabel}
+    title={topLabel}
+    tabindex="-1"
+  >
+    <span class="back-to-top-arrow" aria-hidden="true">↑</span>
+    <span class="back-to-top-label">{topShortLabel}</span>
+  </button>
+</div>
 
 <script>
-  const button = document.querySelector<HTMLButtonElement>('.back-to-top');
+  const topButton = document.querySelector<HTMLButtonElement>('.back-to-top');
+  const shareButton = document.querySelector<HTMLButtonElement>('.share-page');
 
-  if (button) {
+  if (topButton) {
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
     const updateVisibility = () => {
       const threshold = Math.max(650, window.innerHeight * 0.85);
       const visible = window.scrollY > threshold;
 
-      button.classList.toggle('is-visible', visible);
-      button.tabIndex = visible ? 0 : -1;
+      topButton.classList.toggle('is-visible', visible);
+      topButton.tabIndex = visible ? 0 : -1;
     };
 
-    button.addEventListener('click', () => {
+    topButton.addEventListener('click', () => {
       window.scrollTo({
         top: 0,
         behavior: reduceMotion.matches ? 'auto' : 'smooth',
@@ -45,19 +73,90 @@ const shortLabel = locale === 'de' ? 'Oben' : 'Top';
     window.addEventListener('resize', updateVisibility, { passive: true });
     updateVisibility();
   }
+
+  if (shareButton) {
+    const defaultLabel = shareButton.dataset.label ?? 'Share';
+    const copiedLabel = shareButton.dataset.copiedLabel ?? 'Copied';
+    const visibleLabel = shareButton.querySelector<HTMLElement>('.share-page-label');
+    let copiedTimer: number | undefined;
+
+    const showCopied = () => {
+      if (visibleLabel) visibleLabel.textContent = copiedLabel;
+      shareButton.setAttribute('aria-label', copiedLabel);
+      shareButton.title = copiedLabel;
+      shareButton.classList.add('is-copied');
+
+      if (copiedTimer) window.clearTimeout(copiedTimer);
+      copiedTimer = window.setTimeout(() => {
+        if (visibleLabel) visibleLabel.textContent = defaultLabel;
+        shareButton.setAttribute('aria-label', defaultLabel);
+        shareButton.title = defaultLabel;
+        shareButton.classList.remove('is-copied');
+      }, 1600);
+    };
+
+    const fallbackCopy = async () => {
+      const url = window.location.href;
+
+      try {
+        await navigator.clipboard.writeText(url);
+        showCopied();
+        return;
+      } catch {}
+
+      const textarea = document.createElement('textarea');
+      textarea.value = url;
+      textarea.setAttribute('readonly', '');
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.append(textarea);
+      textarea.select();
+
+      try {
+        document.execCommand('copy');
+        showCopied();
+      } finally {
+        textarea.remove();
+      }
+    };
+
+    shareButton.addEventListener('click', async () => {
+      if (typeof navigator.share === 'function') {
+        try {
+          await navigator.share({
+            title: document.title,
+            url: window.location.href,
+          });
+          return;
+        } catch (error) {
+          if (error instanceof DOMException && error.name === 'AbortError') return;
+        }
+      }
+
+      await fallbackCopy();
+    });
+  }
 </script>
 
 <style>
-  .back-to-top {
+  .floating-actions {
     position: fixed;
     right: max(1rem, env(safe-area-inset-right));
     bottom: max(1rem, env(safe-area-inset-bottom));
     z-index: 18;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+
+  .share-page,
+  .back-to-top {
+    min-height: 2.8rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 0.4rem;
-    min-height: 2.8rem;
     border: 1px solid var(--line);
     border-radius: 999px;
     padding: 0.55rem 0.85rem;
@@ -67,29 +166,45 @@ const shortLabel = locale === 'de' ? 'Oben' : 'Top';
     font: inherit;
     font-weight: 850;
     cursor: pointer;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(0.7rem);
     transition:
       opacity 150ms ease,
       transform 150ms ease,
       background 150ms ease;
   }
 
-  .back-to-top.is-visible {
-    opacity: 1;
-    pointer-events: auto;
-    transform: translateY(0);
-  }
-
+  .share-page:hover,
+  .share-page:focus-visible,
   .back-to-top:hover,
   .back-to-top:focus-visible {
     background: var(--accent-dark);
   }
 
+  .share-page:focus-visible,
   .back-to-top:focus-visible {
     outline: 3px solid color-mix(in srgb, var(--accent) 35%, transparent);
     outline-offset: 2px;
+  }
+
+  .share-page.is-copied {
+    background: var(--accent-dark);
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .back-to-top.is-visible {
+    display: inline-flex;
+  }
+
+  .share-page-icon {
+    width: 1.05rem;
+    height: 1.05rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
   }
 
   .back-to-top-arrow {
@@ -98,6 +213,11 @@ const shortLabel = locale === 'de' ? 'Oben' : 'Top';
   }
 
   @media (max-width: 600px) {
+    .floating-actions {
+      gap: 0.45rem;
+    }
+
+    .share-page,
     .back-to-top {
       width: 3rem;
       height: 3rem;
@@ -105,6 +225,7 @@ const shortLabel = locale === 'de' ? 'Oben' : 'Top';
       padding: 0;
     }
 
+    .share-page-label,
     .back-to-top-label {
       position: absolute;
       width: 1px;
@@ -117,19 +238,25 @@ const shortLabel = locale === 'de' ? 'Oben' : 'Top';
       border: 0;
     }
 
+    .share-page-icon {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+
     .back-to-top-arrow {
       font-size: 1.3rem;
     }
   }
 
   @media (prefers-reduced-motion: reduce) {
+    .share-page,
     .back-to-top {
       transition: none;
     }
   }
 
   @media print {
-    .back-to-top {
+    .floating-actions {
       display: none;
     }
   }

@@ -34,6 +34,13 @@ const strengthLabels: Record<string, string> = locale === 'de'
       'enforced-doctrine': 'Enforced doctrine',
     };
 
+const strengthRanks: Record<string, number> = {
+  'institutionally-influential': 1,
+  'officially-endorsed': 2,
+  'policy-basis': 3,
+  'enforced-doctrine': 4,
+};
+
 const typeLabels: Record<string, string> = locale === 'de'
   ? {
       government: 'Staat',
@@ -178,18 +185,20 @@ const copy = locale === 'de'
         'enforced-doctrine': 'Institutionell durchgesetzt; konkurrierende wissenschaftliche Positionen wurden eingeschränkt oder unterdrückt.',
       },
       search: 'Überzeugungen durchsuchen…',
-      moreFilters: 'Weitere Filter',
+      cards: 'Karten',
+      compact: 'Kompakt',
+      view: 'Ansicht',
+      filters: 'Filter',
+      filterTitle: 'Institutionelle Überzeugungen filtern',
+      filterHelp: 'Innerhalb einer Gruppe sind mehrere Auswahlen möglich. Zwischen Gruppen werden die Filter kombiniert.',
+      filterDecade: 'Jahrzehnt',
       filterRegion: 'Region',
       filterPolity: 'Land / politischer Raum',
       filterType: 'Institutionstyp',
       filterStrength: 'Stufe',
-      allRegions: 'Alle Regionen',
-      allPolities: 'Alle Länder / politischen Räume',
-      allTypes: 'Alle Institutionstypen',
-      allStrengths: 'Alle Stufen',
-      allDecades: 'Alle Jahrzehnte',
-      activeIn: 'Aktiv in',
-      reset: 'Zurücksetzen',
+      clearAll: 'Alle löschen',
+      closeFilters: 'Filter schließen',
+      showResults: (count: number) => count === 1 ? '1 Ergebnis anzeigen' : `${count} Ergebnisse anzeigen`,
       institutions: 'Institutionen',
       consequences: 'Folgen',
       evidence: 'Belege zur Institutionalisierung',
@@ -198,8 +207,11 @@ const copy = locale === 'de'
       current: 'Heutiger Wissensstand',
       noResults: 'Keine institutionellen Fälle entsprechen diesen Filtern.',
       episodes: (count: number) => `${count} ${count === 1 ? 'Episode' : 'Episoden'}`,
+      polities: (count: number) => `${count} politische Räume`,
       resultSummary: (episodes: number, groups: number) =>
         `${episodes} institutionelle Episoden in ${groups} Themen`,
+      highestLevel: (count: number) =>
+        `Höchste Stufe unter ${count} passenden Episoden`,
     }
   : {
       eyebrow: 'When claims acquire power',
@@ -222,18 +234,20 @@ const copy = locale === 'de'
         'enforced-doctrine': 'Institutionally enforced; competing scientific positions were restricted or suppressed.',
       },
       search: 'Search institutional beliefs…',
-      moreFilters: 'More filters',
+      cards: 'Cards',
+      compact: 'Compact',
+      view: 'View',
+      filters: 'Filters',
+      filterTitle: 'Filter institutional beliefs',
+      filterHelp: 'Choose multiple options within a group. Different filter groups are combined.',
+      filterDecade: 'Decade',
       filterRegion: 'Region',
       filterPolity: 'Country / polity',
       filterType: 'Institution type',
       filterStrength: 'Level',
-      allRegions: 'All regions',
-      allPolities: 'All countries / polities',
-      allTypes: 'All institution types',
-      allStrengths: 'All levels',
-      allDecades: 'Any decade',
-      activeIn: 'Active in',
-      reset: 'Clear',
+      clearAll: 'Clear all',
+      closeFilters: 'Close filters',
+      showResults: (count: number) => count === 1 ? 'Show 1 result' : `Show ${count} results`,
       institutions: 'Institutions',
       consequences: 'Consequences',
       evidence: 'Institutional evidence',
@@ -242,12 +256,42 @@ const copy = locale === 'de'
       current: 'Current understanding',
       noResults: 'No institutional cases match those filters.',
       episodes: (count: number) => `${count} ${count === 1 ? 'episode' : 'episodes'}`,
+      polities: (count: number) => `${count} polities`,
       resultSummary: (episodes: number, groups: number) =>
         `${episodes} institutional episodes across ${groups} beliefs`,
+      highestLevel: (count: number) =>
+        `Highest level among ${count} matching episodes`,
     };
 
 const levelDescriptions: Record<string, string> = copy.levels;
-const totalEpisodes = entries.flatMap((item) => item.episodes).length;
+const allEpisodes = entries.flatMap((item) => item.episodes);
+const totalEpisodes = allEpisodes.length;
+
+const countEpisodes = (predicate: (episode: typeof allEpisodes[number]) => boolean) =>
+  allEpisodes.filter(predicate).length;
+
+const highestStrengthFor = (episodes: typeof allEpisodes) =>
+  episodes.reduce(
+    (highest, episode) =>
+      strengthRanks[episode.strength] > strengthRanks[highest]
+        ? episode.strength
+        : highest,
+    'institutionally-influential',
+  );
+
+const compactScopeFor = (episodes: typeof allEpisodes) => {
+  const uniquePolities = [...new Set(episodes.map((episode) => episode.polity))];
+  const startYear = Math.min(...episodes.map((episode) => episode.startYear));
+  const endYear = Math.max(...episodes.map((episode) => episode.endYear));
+  const endOpen = episodes.some(
+    (episode) => episode.endOpen && episode.endYear === endYear,
+  );
+  const polityText = uniquePolities.length <= 2
+    ? uniquePolities.join(' · ')
+    : copy.polities(uniquePolities.length);
+
+  return `${copy.episodes(episodes.length)} · ${polityText} · ${formatPeriod(startYear, endYear, endOpen)}`;
+};
 ---
 
 <header class="institutional-head container">
@@ -285,212 +329,397 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
   class="institutional-controls"
   aria-label={locale === 'de' ? 'Filter für institutionelle Überzeugungen' : 'Institutional belief filters'}
 >
-  <div class="container control-bar">
-    <label class="search-field">
-      <span class="sr-only">{locale === 'de' ? 'Suchen' : 'Search'}</span>
-      <input
-        class="institutional-search"
-        type="search"
-        placeholder={copy.search}
-        autocomplete="off"
-      />
-    </label>
+  <div class="container filter-inner">
+    <div class="primary-controls">
+      <label class="search-field">
+        <span class="sr-only">{locale === 'de' ? 'Suchen' : 'Search'}</span>
+        <input
+          class="institutional-search"
+          type="search"
+          placeholder={copy.search}
+          autocomplete="off"
+        />
+      </label>
 
-    <label class="decade-field">
-      <span class="sr-only">{locale === 'de' ? 'Jahrzehnt' : 'Decade'}</span>
-      <select class="institutional-filter" data-filter="decade">
-        <option value="">{copy.allDecades}</option>
-        {allDecades.map((decade) => (
-          <option value={decade}>{formatDecade(decade)}</option>
-        ))}
-      </select>
-    </label>
+      <fieldset class="view-switcher">
+        <legend class="sr-only">{copy.view}</legend>
+        <div class="view-buttons">
+          <button class="view-button" type="button" data-view="cards" aria-pressed="true">
+            {copy.cards}
+          </button>
+          <button class="view-button" type="button" data-view="compact" aria-pressed="false">
+            {copy.compact}
+          </button>
+        </div>
+      </fieldset>
 
-    <details class="more-filters">
-      <summary>
-        <span>{copy.moreFilters}</span>
-        <span class="advanced-filter-count" hidden>0</span>
-      </summary>
+      <button
+        class="filter-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="institutional-filter-panel"
+      >
+        <span>{copy.filters}</span>
+        <span class="filter-count" hidden>0</span>
+      </button>
+    </div>
 
-      <div class="advanced-filter-panel">
-        <label>
-          <span class="filter-label">{copy.filterRegion}</span>
-          <select class="institutional-filter" data-filter="region">
-            <option value="">{copy.allRegions}</option>
-            {regions.map((region) => <option value={region}>{region}</option>)}
-          </select>
-        </label>
+    <div class="active-filter-row" hidden>
+      <div class="active-filter-chips" aria-label={locale === 'de' ? 'Aktive Filter' : 'Active filters'}></div>
+      <button class="clear-filters clear-filters-inline" type="button">{copy.clearAll}</button>
+    </div>
 
-        <label>
-          <span class="filter-label">{copy.filterPolity}</span>
-          <select class="institutional-filter" data-filter="polity">
-            <option value="">{copy.allPolities}</option>
-            {polities.map((polity) => <option value={polity}>{polity}</option>)}
-          </select>
-        </label>
+    <div class="summary-row">
+      <p class="results-summary" aria-live="polite">
+        {copy.resultSummary(totalEpisodes, entries.length)}
+      </p>
+    </div>
 
-        <label>
-          <span class="filter-label">{copy.filterType}</span>
-          <select class="institutional-filter" data-filter="type">
-            <option value="">{copy.allTypes}</option>
-            {types.map((type) => <option value={type}>{typeLabels[type]}</option>)}
-          </select>
-        </label>
-
-        <label>
-          <span class="filter-label">{copy.filterStrength}</span>
-          <select class="institutional-filter" data-filter="strength">
-            <option value="">{copy.allStrengths}</option>
-            {strengths.map((strength) => (
-              <option value={strength}>{strengthLabels[strength]}</option>
-            ))}
-          </select>
-        </label>
+    <div
+      class="filter-panel"
+      id="institutional-filter-panel"
+      hidden
+      role="dialog"
+      aria-labelledby="institutional-filter-title"
+    >
+      <div class="filter-panel-header">
+        <div>
+          <p class="filter-panel-title" id="institutional-filter-title">{copy.filterTitle}</p>
+          <p class="filter-help">{copy.filterHelp}</p>
+        </div>
+        <button class="filter-close" type="button" aria-label={copy.closeFilters}>×</button>
       </div>
-    </details>
 
-    <button class="reset-filters" type="button" hidden>{copy.reset}</button>
+      <div class="filter-panel-scroll">
+        <div class="filter-groups">
+          <section>
+            <p class="group-label">{copy.filterDecade}</p>
+            <div class="filters" role="group" aria-label={copy.filterDecade}>
+              {allDecades.map((decade) => {
+                const count = countEpisodes(
+                  (episode) =>
+                    episode.startYear <= decade + 9 && episode.endYear >= decade,
+                );
+                return (
+                  <button
+                    class="filter-button"
+                    type="button"
+                    data-filter-type="decade"
+                    data-filter-value={String(decade)}
+                    data-filter-label={formatDecade(decade)}
+                    aria-pressed="false"
+                  >
+                    {formatDecade(decade)}<span class="count">{count}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </section>
 
-    <p class="results-summary" aria-live="polite">
-      {copy.resultSummary(totalEpisodes, entries.length)}
-    </p>
+          <section>
+            <p class="group-label">{copy.filterRegion}</p>
+            <div class="filters" role="group" aria-label={copy.filterRegion}>
+              {regions.map((region) => (
+                <button
+                  class="filter-button"
+                  type="button"
+                  data-filter-type="region"
+                  data-filter-value={region}
+                  data-filter-label={region}
+                  aria-pressed="false"
+                >
+                  {region}<span class="count">{countEpisodes((episode) => episode.region === region)}</span>
+                </button>
+              ))}
+            </div>
+          </section>
+
+          <section>
+            <p class="group-label">{copy.filterPolity}</p>
+            <div class="filters" role="group" aria-label={copy.filterPolity}>
+              {polities.map((polity) => (
+                <button
+                  class="filter-button"
+                  type="button"
+                  data-filter-type="polity"
+                  data-filter-value={polity}
+                  data-filter-label={polity}
+                  aria-pressed="false"
+                >
+                  {polity}<span class="count">{countEpisodes((episode) => episode.polity === polity)}</span>
+                </button>
+              ))}
+            </div>
+          </section>
+
+          <section>
+            <p class="group-label">{copy.filterType}</p>
+            <div class="filters" role="group" aria-label={copy.filterType}>
+              {types.map((type) => (
+                <button
+                  class="filter-button"
+                  type="button"
+                  data-filter-type="type"
+                  data-filter-value={type}
+                  data-filter-label={typeLabels[type]}
+                  aria-pressed="false"
+                >
+                  {typeLabels[type]}
+                  <span class="count">{countEpisodes((episode) => episode.institutionTypes.includes(type))}</span>
+                </button>
+              ))}
+            </div>
+          </section>
+
+          <section>
+            <p class="group-label">{copy.filterStrength}</p>
+            <div class="filters" role="group" aria-label={copy.filterStrength}>
+              {strengths.map((strength) => (
+                <button
+                  class="filter-button"
+                  type="button"
+                  data-filter-type="strength"
+                  data-filter-value={strength}
+                  data-filter-label={strengthLabels[strength]}
+                  aria-pressed="false"
+                >
+                  <span class={`filter-level strength strength-${strength}`}>
+                    {strengthLabels[strength]}
+                  </span>
+                  <span class="count">{countEpisodes((episode) => episode.strength === strength)}</span>
+                </button>
+              ))}
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="filter-panel-actions">
+        <button class="clear-filters clear-filters-panel" type="button">{copy.clearAll}</button>
+        <button class="apply-filters" type="button">{copy.showResults(totalEpisodes)}</button>
+      </div>
+    </div>
   </div>
 </section>
 
 <div class="belief-groups container">
-  {entries.map((item) => (
-    <section
-      class="belief-group"
-      data-belief-id={item.belief.id}
-      data-group-search={`${item.title} ${item.claim} ${item.currentUnderstanding}`.toLowerCase()}
-    >
-      <header class="belief-heading">
-        <div>
-          <div class="belief-heading-topline">
-            <span>{item.belief.data.category}</span>
-            <span class="episode-count">{copy.episodes(item.episodes.length)}</span>
-          </div>
-          <h2>
-            <a href={casePath(item.belief.id)}>{item.title}</a>
-          </h2>
-          <p class="belief-claim">{item.claim}</p>
-        </div>
+  {entries.map((item) => {
+    const initialHighestStrength = highestStrengthFor(item.episodes);
+    return (
+      <section
+        class="belief-group"
+        data-belief-id={item.belief.id}
+        data-group-search={`${item.title} ${item.claim} ${item.currentUnderstanding}`.toLowerCase()}
+      >
+        <header class="belief-heading">
+          <div>
+            <div class="belief-heading-topline">
+              <span>{item.belief.data.category}</span>
+              <span class="episode-count">{copy.episodes(item.episodes.length)}</span>
+            </div>
+            <h2>
+              <a href={casePath(item.belief.id)}>{item.title}</a>
+            </h2>
+            <p class="belief-claim">{item.claim}</p>
 
-        <div class="belief-heading-actions">
-          <details class="group-current">
-            <summary>{copy.current}</summary>
-            <p>{item.currentUnderstanding}</p>
-          </details>
-        </div>
-      </header>
-
-      <div class="episode-grid">
-        {item.episodes.map((episode) => {
-          const searchText = [
-            item.title,
-            item.claim,
-            item.currentUnderstanding,
-            episode.polity,
-            episode.region,
-            episode.period,
-            episode.summary,
-            episode.institutionalContext ?? '',
-            ...episode.institutions,
-            ...episode.consequences,
-            ...episode.institutionTypes.map((type) => typeLabels[type]),
-            strengthLabels[episode.strength],
-          ].join(' ').toLowerCase();
-
-          const compactConsequences = episode.consequences.slice(0, 3);
-          const hiddenConsequenceCount =
-            Math.max(0, episode.consequences.length - compactConsequences.length);
-
-          return (
-            <article
-              class="episode-card"
-              data-start-year={episode.startYear}
-              data-end-year={episode.endYear}
-              data-region={episode.region}
-              data-polity={episode.polity}
-              data-strength={episode.strength}
-              data-types={episode.institutionTypes.join('|')}
-              data-search={searchText}
-            >
-              <div class="episode-topline">
-                <span class="polity">{episode.polity}</span>
-                <span class="period">{episode.period}</span>
-              </div>
-
-              <span class={`strength strength-${episode.strength}`}>
-                {strengthLabels[episode.strength]}
+            <div class="compact-belief-meta">
+              <span
+                class={`compact-strength strength strength-${initialHighestStrength}`}
+                data-compact-strength
+              >
+                {strengthLabels[initialHighestStrength]}
               </span>
+              <span class="compact-scope" data-compact-scope>
+                {compactScopeFor(item.episodes)}
+              </span>
+            </div>
+          </div>
 
-              <p class="episode-summary">{episode.summary}</p>
+          <div class="belief-heading-actions">
+            <details class="group-current">
+              <summary>{copy.current}</summary>
+              <p>{item.currentUnderstanding}</p>
+            </details>
+          </div>
+        </header>
 
-              <div class="episode-section">
-                <h3>{copy.institutions}</h3>
-                <p>{compactInstitutionLabel(episode.institutions)}</p>
-              </div>
+        <div class="episode-grid">
+          {item.episodes.map((episode) => {
+            const searchText = [
+              item.title,
+              item.claim,
+              item.currentUnderstanding,
+              episode.polity,
+              episode.region,
+              episode.period,
+              episode.summary,
+              episode.institutionalContext ?? '',
+              ...episode.institutions,
+              ...episode.consequences,
+              ...episode.institutionTypes.map((type) => typeLabels[type]),
+              strengthLabels[episode.strength],
+            ].join(' ').toLowerCase();
 
-              <div class="episode-section">
-                <h3>{copy.consequences}</h3>
-                <ul class="consequence-list">
-                  {compactConsequences.map((consequence) => (
-                    <li>{consequence}</li>
-                  ))}
-                  {hiddenConsequenceCount > 0 && (
-                    <li class="consequence-more">
-                      +{hiddenConsequenceCount} {copy.moreOnCase}
-                    </li>
-                  )}
-                </ul>
-              </div>
+            const compactConsequences = episode.consequences.slice(0, 3);
+            const hiddenConsequenceCount =
+              Math.max(0, episode.consequences.length - compactConsequences.length);
 
-              <details class="evidence">
-                <summary>{copy.evidence}</summary>
-                <ul>
-                  {episode.sources.map((source) => (
-                    <li>
-                      <a href={source.url} target="_blank" rel="noreferrer">
-                        {source.title}
-                      </a>
-                      <span>{source.publisher}</span>
-                    </li>
-                  ))}
-                </ul>
-              </details>
+            return (
+              <article
+                class="episode-card"
+                data-start-year={episode.startYear}
+                data-end-year={episode.endYear}
+                data-end-open={episode.endOpen ? 'true' : 'false'}
+                data-period={episode.period}
+                data-region={episode.region}
+                data-polity={episode.polity}
+                data-strength={episode.strength}
+                data-types={episode.institutionTypes.join('|')}
+                data-search={searchText}
+              >
+                <div class="episode-topline">
+                  <span class="polity">{episode.polity}</span>
+                  <span class="period">{episode.period}</span>
+                </div>
 
-              {item.belief.data.entryId && (
-                <a class="entry-link" href={entryPath(item.belief.data.entryId)}>
-                  {copy.linkedEntry} →
-                </a>
-              )}
-            </article>
-          );
-        })}
-      </div>
-    </section>
-  ))}
+                <span class={`strength strength-${episode.strength}`}>
+                  {strengthLabels[episode.strength]}
+                </span>
+
+                <p class="episode-summary">{episode.summary}</p>
+
+                <div class="episode-section">
+                  <h3>{copy.institutions}</h3>
+                  <p>{compactInstitutionLabel(episode.institutions)}</p>
+                </div>
+
+                <div class="episode-section">
+                  <h3>{copy.consequences}</h3>
+                  <ul class="consequence-list">
+                    {compactConsequences.map((consequence) => (
+                      <li>{consequence}</li>
+                    ))}
+                    {hiddenConsequenceCount > 0 && (
+                      <li class="consequence-more">
+                        +{hiddenConsequenceCount} {copy.moreOnCase}
+                      </li>
+                    )}
+                  </ul>
+                </div>
+
+                <details class="evidence">
+                  <summary>{copy.evidence}</summary>
+                  <ul>
+                    {episode.sources.map((source) => (
+                      <li>
+                        <a href={source.url} target="_blank" rel="noreferrer">
+                          {source.title}
+                        </a>
+                        <span>{source.publisher}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+
+                {item.belief.data.entryId && (
+                  <a class="entry-link" href={entryPath(item.belief.data.entryId)}>
+                    {copy.linkedEntry} →
+                  </a>
+                )}
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    );
+  })}
 </div>
 
 <div class="empty-state container" hidden>
   <p>{copy.noResults}</p>
+  <button class="clear-filters empty-clear" type="button">{copy.clearAll}</button>
 </div>
+
+<noscript>
+  <p class="container noscript-note">
+    {locale === 'de'
+      ? 'Suche, Filter und Kompaktansicht benötigen JavaScript. Alle Episoden werden als Karten angezeigt.'
+      : 'Search, filtering, and compact view require JavaScript. All episodes are shown as cards.'}
+  </p>
+</noscript>
 
 <script>
   const search = document.querySelector<HTMLInputElement>('.institutional-search');
-  const filters = Array.from(
-    document.querySelectorAll<HTMLSelectElement>('.institutional-filter')
+  const filterButtons = Array.from(
+    document.querySelectorAll<HTMLButtonElement>('.filter-button')
   );
-  const reset = document.querySelector<HTMLButtonElement>('.reset-filters');
+  const viewButtons = Array.from(
+    document.querySelectorAll<HTMLButtonElement>('.view-button')
+  );
+  const filterToggle = document.querySelector<HTMLButtonElement>('.filter-toggle');
+  const filterPanel = document.querySelector<HTMLElement>('.filter-panel');
+  const filterClose = document.querySelector<HTMLButtonElement>('.filter-close');
+  const applyButton = document.querySelector<HTMLButtonElement>('.apply-filters');
+  const clearButtons = Array.from(
+    document.querySelectorAll<HTMLButtonElement>('.clear-filters, .empty-clear')
+  );
+  const filterCount = document.querySelector<HTMLElement>('.filter-count');
+  const activeFilterRow = document.querySelector<HTMLElement>('.active-filter-row');
+  const activeFilterChips = document.querySelector<HTMLElement>('.active-filter-chips');
   const resultSummary = document.querySelector<HTMLElement>('.results-summary');
   const emptyState = document.querySelector<HTMLElement>('.empty-state');
+  const beliefGroups = document.querySelector<HTMLElement>('.belief-groups');
   const groups = Array.from(document.querySelectorAll<HTMLElement>('.belief-group'));
-  const moreFilters = document.querySelector<HTMLDetailsElement>('.more-filters');
-  const advancedFilterCount =
-    document.querySelector<HTMLElement>('.advanced-filter-count');
 
-  const locale: 'en' | 'de' = document.documentElement.lang.startsWith('de') ? 'de' : 'en';
+  const locale: 'en' | 'de' =
+    document.documentElement.lang.startsWith('de') ? 'de' : 'en';
+
+  const mobileMedia = window.matchMedia('(max-width: 760px)');
+  const filterPanelAnchor = filterPanel
+    ? document.createComment('institutional-filter-panel-anchor')
+    : null;
+
+  if (filterPanel && filterPanelAnchor) {
+    filterPanel.before(filterPanelAnchor);
+  }
+
+  const selected: Record<string, Set<string>> = {
+    decade: new Set<string>(),
+    region: new Set<string>(),
+    polity: new Set<string>(),
+    type: new Set<string>(),
+    strength: new Set<string>(),
+  };
+
+  const parameterByType: Record<string, string> = {
+    decade: 'decades',
+    region: 'regions',
+    polity: 'polities',
+    type: 'types',
+    strength: 'strengths',
+  };
+
+  const strengthRank: Record<string, number> = {
+    'institutionally-influential': 1,
+    'officially-endorsed': 2,
+    'policy-basis': 3,
+    'enforced-doctrine': 4,
+  };
+
+  const strengthLabel: Record<string, Record<string, string>> = {
+    en: {
+      'institutionally-influential': 'Institutionally influential',
+      'officially-endorsed': 'Officially endorsed',
+      'policy-basis': 'Policy basis',
+      'enforced-doctrine': 'Enforced doctrine',
+    },
+    de: {
+      'institutionally-influential': 'Institutionell einflussreich',
+      'officially-endorsed': 'Offiziell unterstützt',
+      'policy-basis': 'Grundlage staatlicher Praxis',
+      'enforced-doctrine': 'Durchgesetzte Doktrin',
+    },
+  };
 
   const summaryCopy = {
     en: (episodes: number, groups: number) =>
@@ -499,114 +728,388 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
       `${episodes} institutionelle Episoden in ${groups} Themen`,
   };
 
-  const updateControlState = () => {
-    const advancedCount = filters.filter(
-      (filter) => filter.dataset.filter !== 'decade' && filter.value
-    ).length;
-    const hasAnyFilter =
-      Boolean(search?.value.trim()) || filters.some((filter) => Boolean(filter.value));
+  const episodeCopy = {
+    en: (count: number) => `${count} ${count === 1 ? 'episode' : 'episodes'}`,
+    de: (count: number) => `${count} ${count === 1 ? 'Episode' : 'Episoden'}`,
+  };
 
-    if (advancedFilterCount) {
-      advancedFilterCount.textContent = String(advancedCount);
-      advancedFilterCount.hidden = advancedCount === 0;
+  const polityCopy = {
+    en: (count: number) => `${count} polities`,
+    de: (count: number) => `${count} politische Räume`,
+  };
+
+  const highestCopy = {
+    en: (count: number) => `Highest level among ${count} matching episodes`,
+    de: (count: number) => `Höchste Stufe unter ${count} passenden Episoden`,
+  };
+
+  const showCopy = {
+    en: (count: number) => count === 1 ? 'Show 1 result' : `Show ${count} results`,
+    de: (count: number) => count === 1 ? '1 Ergebnis anzeigen' : `${count} Ergebnisse anzeigen`,
+  };
+
+  let currentView: 'cards' | 'compact' = 'cards';
+  let visibleEpisodes = 0;
+  let visibleGroups = 0;
+
+  const syncFilterPanelMount = () => {
+    if (!filterPanel || !filterPanelAnchor) return;
+
+    if (mobileMedia.matches && !filterPanel.hidden) {
+      if (filterPanel.parentElement !== document.body) {
+        document.body.append(filterPanel);
+      }
+      filterPanel.setAttribute('aria-modal', 'true');
+      return;
     }
 
-    if (reset) reset.hidden = !hasAnyFilter;
+    if (filterPanel.parentElement === document.body && filterPanelAnchor.parentNode) {
+      filterPanelAnchor.parentNode.insertBefore(filterPanel, filterPanelAnchor.nextSibling);
+    }
+    filterPanel.removeAttribute('aria-modal');
+  };
+
+  const updateURL = () => {
+    const url = new URL(window.location.href);
+    const query = search?.value.trim() ?? '';
+
+    Object.entries(parameterByType).forEach(([type, parameter]) => {
+      const values = [...selected[type]].sort();
+      if (values.length) url.searchParams.set(parameter, values.join(','));
+      else url.searchParams.delete(parameter);
+    });
+
+    if (query) url.searchParams.set('q', query);
+    else url.searchParams.delete('q');
+
+    url.searchParams.set('view', currentView);
+    window.history.replaceState({}, '', url);
+  };
+
+  const setView = (view: 'cards' | 'compact', persist = true) => {
+    currentView = view;
+    beliefGroups?.classList.toggle('is-compact', view === 'compact');
+
+    viewButtons.forEach((button) => {
+      const active = button.dataset.view === view;
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
+
+    if (persist) {
+      try {
+        localStorage.setItem('institutional-beliefs-view', view);
+      } catch {}
+    }
+
+    updateURL();
+  };
+
+  const openFilters = () => {
+    if (!filterPanel || !filterToggle) return;
+    filterPanel.hidden = false;
+    syncFilterPanelMount();
+    filterToggle.setAttribute('aria-expanded', 'true');
+    document.body.classList.add('filters-open');
+    filterPanel.querySelector<HTMLButtonElement>('.filter-button')?.focus();
+  };
+
+  const closeFilters = (returnFocus = true) => {
+    if (!filterPanel || !filterToggle) return;
+    filterPanel.hidden = true;
+    syncFilterPanelMount();
+    filterToggle.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove('filters-open');
+    if (returnFocus) filterToggle.focus();
+  };
+
+  const updateCompactMeta = (group: HTMLElement, cards: HTMLElement[]) => {
+    const badge = group.querySelector<HTMLElement>('[data-compact-strength]');
+    const scope = group.querySelector<HTMLElement>('[data-compact-scope]');
+    if (!badge || !scope || cards.length === 0) return;
+
+    const strengths = [...new Set(cards.map((card) => card.dataset.strength ?? ''))]
+      .filter(Boolean);
+
+    const highest = strengths.reduce(
+      (best, strength) =>
+        (strengthRank[strength] ?? 0) > (strengthRank[best] ?? 0)
+          ? strength
+          : best,
+      'institutionally-influential',
+    );
+
+    Object.keys(strengthRank).forEach((strength) => {
+      badge.classList.remove(`strength-${strength}`);
+    });
+    badge.classList.add(`strength-${highest}`);
+    badge.textContent = strengthLabel[locale][highest] ?? highest;
+    badge.title = strengths.length > 1 ? highestCopy[locale](cards.length) : '';
+
+    const polities = [...new Set(cards.map((card) => card.dataset.polity ?? '').filter(Boolean))];
+    const starts = cards.map((card) => Number(card.dataset.startYear));
+    const ends = cards.map((card) => Number(card.dataset.endYear));
+    const start = Math.min(...starts);
+    const end = Math.max(...ends);
+    const endOpen = cards.some(
+      (card) => card.dataset.endOpen === 'true' && Number(card.dataset.endYear) === end,
+    );
+    const period = start === end
+      ? `${start}${endOpen ? '+' : ''}`
+      : `${start}–${end}${endOpen ? '+' : ''}`;
+    const polityText = polities.length <= 2
+      ? polities.join(' · ')
+      : polityCopy[locale](polities.length);
+
+    scope.textContent = `${episodeCopy[locale](cards.length)} · ${polityText} · ${period}`;
+  };
+
+  const matchesCard = (card: HTMLElement, groupSearch: string, query: string) => {
+    const types = (card.dataset.types ?? '').split('|').filter(Boolean);
+    const startYear = Number(card.dataset.startYear);
+    const endYear = Number(card.dataset.endYear);
+
+    const decadeMatch =
+      selected.decade.size === 0 ||
+      [...selected.decade].some((value) => {
+        const decade = Number(value);
+        return startYear <= decade + 9 && endYear >= decade;
+      });
+
+    const regionMatch =
+      selected.region.size === 0 ||
+      selected.region.has(card.dataset.region ?? '');
+
+    const polityMatch =
+      selected.polity.size === 0 ||
+      selected.polity.has(card.dataset.polity ?? '');
+
+    const strengthMatch =
+      selected.strength.size === 0 ||
+      selected.strength.has(card.dataset.strength ?? '');
+
+    const typeMatch =
+      selected.type.size === 0 ||
+      types.some((type) => selected.type.has(type));
+
+    const searchMatch =
+      !query ||
+      groupSearch.includes(query) ||
+      (card.dataset.search ?? '').includes(query);
+
+    return (
+      searchMatch &&
+      decadeMatch &&
+      regionMatch &&
+      polityMatch &&
+      strengthMatch &&
+      typeMatch
+    );
+  };
+
+  const renderActiveFilters = () => {
+    const selections = filterButtons
+      .filter((button) => {
+        const type = button.dataset.filterType ?? '';
+        const value = button.dataset.filterValue ?? '';
+        return selected[type]?.has(value);
+      })
+      .map((button) => ({
+        type: button.dataset.filterType ?? '',
+        value: button.dataset.filterValue ?? '',
+        label: button.dataset.filterLabel ?? button.dataset.filterValue ?? '',
+      }));
+
+    if (filterCount) {
+      filterCount.textContent = String(selections.length);
+      filterCount.hidden = selections.length === 0;
+    }
+
+    if (activeFilterRow) activeFilterRow.hidden = selections.length === 0;
+    if (!activeFilterChips) return;
+
+    activeFilterChips.replaceChildren();
+
+    selections.forEach(({ type, value, label }) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'active-filter-chip';
+      button.setAttribute(
+        'aria-label',
+        locale === 'de' ? `Filter ${label} entfernen` : `Remove ${label} filter`,
+      );
+
+      const text = document.createElement('span');
+      text.textContent = label;
+
+      const remove = document.createElement('span');
+      remove.setAttribute('aria-hidden', 'true');
+      remove.textContent = '×';
+
+      button.append(text, remove);
+      button.addEventListener('click', () => {
+        selected[type]?.delete(value);
+        apply();
+      });
+      activeFilterChips.append(button);
+    });
   };
 
   const apply = () => {
     const query = search?.value.trim().toLowerCase() ?? '';
-    const active = Object.fromEntries(
-      filters.map((filter) => [filter.dataset.filter ?? '', filter.value]),
-    );
+    visibleEpisodes = 0;
+    visibleGroups = 0;
 
-    const selectedDecade = active.decade ? Number(active.decade) : null;
-    const decadeStart = selectedDecade;
-    const decadeEnd = selectedDecade === null ? null : selectedDecade + 9;
-
-    let visibleEpisodes = 0;
-    let visibleGroups = 0;
-
-    for (const group of groups) {
+    groups.forEach((group) => {
       const groupSearch = group.dataset.groupSearch ?? '';
       const cards = Array.from(group.querySelectorAll<HTMLElement>('.episode-card'));
-      let visibleCards = 0;
+      const matchingCards: HTMLElement[] = [];
 
-      for (const card of cards) {
-        const types = (card.dataset.types ?? '').split('|');
-        const startYear = Number(card.dataset.startYear);
-        const endYear = Number(card.dataset.endYear);
-
-        const activeInDecade =
-          selectedDecade === null ||
-          (startYear <= (decadeEnd ?? startYear) && endYear >= (decadeStart ?? endYear));
-
-        const matches =
-          (!query ||
-            groupSearch.includes(query) ||
-            (card.dataset.search ?? '').includes(query)) &&
-          (!active.region || card.dataset.region === active.region) &&
-          (!active.polity || card.dataset.polity === active.polity) &&
-          (!active.strength || card.dataset.strength === active.strength) &&
-          (!active.type || types.includes(active.type)) &&
-          activeInDecade;
-
+      cards.forEach((card) => {
+        const matches = matchesCard(card, groupSearch, query);
         card.hidden = !matches;
+        if (matches) matchingCards.push(card);
+      });
 
-        if (matches) {
-          visibleCards += 1;
-          visibleEpisodes += 1;
-        }
+      group.hidden = matchingCards.length === 0;
+
+      if (matchingCards.length > 0) {
+        visibleGroups += 1;
+        visibleEpisodes += matchingCards.length;
+        updateCompactMeta(group, matchingCards);
       }
-
-      group.hidden = visibleCards === 0;
-      if (visibleCards > 0) visibleGroups += 1;
 
       const count = group.querySelector<HTMLElement>('.episode-count');
-      if (count) {
-        count.textContent = locale === 'de'
-          ? `${visibleCards} ${visibleCards === 1 ? 'Episode' : 'Episoden'}`
-          : `${visibleCards} ${visibleCards === 1 ? 'episode' : 'episodes'}`;
-      }
-    }
+      if (count) count.textContent = episodeCopy[locale](matchingCards.length);
+    });
+
+    filterButtons.forEach((button) => {
+      const type = button.dataset.filterType ?? '';
+      const value = button.dataset.filterValue ?? '';
+      const active = selected[type]?.has(value) ?? false;
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
 
     if (resultSummary) {
       resultSummary.textContent = summaryCopy[locale](visibleEpisodes, visibleGroups);
     }
 
+    if (applyButton) {
+      applyButton.textContent = showCopy[locale](visibleEpisodes);
+    }
+
     if (emptyState) emptyState.hidden = visibleEpisodes > 0;
-    updateControlState();
+
+    renderActiveFilters();
+    updateURL();
   };
 
-  search?.addEventListener('input', apply);
-  filters.forEach((filter) => filter.addEventListener('change', apply));
-
-  reset?.addEventListener('click', () => {
+  const clearFilters = () => {
+    Object.values(selected).forEach((set) => set.clear());
     if (search) search.value = '';
-    filters.forEach((filter) => {
-      filter.value = '';
-    });
-    if (moreFilters) moreFilters.open = false;
     apply();
+  };
+
+  filterButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const type = button.dataset.filterType ?? '';
+      const value = button.dataset.filterValue ?? '';
+      const set = selected[type];
+      if (!set || !value) return;
+
+      set.has(value) ? set.delete(value) : set.add(value);
+      apply();
+    });
   });
+
+  viewButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const view = button.dataset.view;
+      if (view === 'cards' || view === 'compact') setView(view, true);
+    });
+  });
+
+  search?.addEventListener('input', apply);
+  filterToggle?.addEventListener('click', () => {
+    filterPanel?.hidden ? openFilters() : closeFilters();
+  });
+  filterClose?.addEventListener('click', () => closeFilters());
+  applyButton?.addEventListener('click', () => closeFilters());
+  clearButtons.forEach((button) => button.addEventListener('click', clearFilters));
+  mobileMedia.addEventListener('change', syncFilterPanelMount);
 
   document.addEventListener('click', (event) => {
     if (
-      moreFilters?.open &&
+      filterPanel &&
+      !filterPanel.hidden &&
+      !mobileMedia.matches &&
       event.target instanceof Node &&
-      !moreFilters.contains(event.target)
+      !filterPanel.contains(event.target) &&
+      !filterToggle?.contains(event.target)
     ) {
-      moreFilters.open = false;
+      closeFilters(false);
     }
   });
 
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && moreFilters?.open) {
-      moreFilters.open = false;
+    if (event.key === 'Escape' && filterPanel && !filterPanel.hidden) {
+      closeFilters();
     }
   });
 
-  updateControlState();
+  filterPanel?.addEventListener('keydown', (event) => {
+    if (event.key !== 'Tab' || !mobileMedia.matches) return;
+
+    const focusable = Array.from(
+      filterPanel.querySelectorAll<HTMLElement>(
+        'button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])'
+      )
+    ).filter((element) => !element.hasAttribute('hidden'));
+
+    if (focusable.length === 0) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  });
+
+  const url = new URL(window.location.href);
+
+  Object.entries(parameterByType).forEach(([type, parameter]) => {
+    url.searchParams
+      .get(parameter)
+      ?.split(',')
+      .map((value) => value.trim())
+      .filter(Boolean)
+      .forEach((value) => selected[type].add(value));
+  });
+
+  if (search) search.value = url.searchParams.get('q') ?? '';
+
+  let savedView: string | null = null;
+  try {
+    savedView = localStorage.getItem('institutional-beliefs-view');
+  } catch {}
+
+  const requestedView = url.searchParams.get('view');
+  const initialView =
+    requestedView === 'cards' || requestedView === 'compact'
+      ? requestedView
+      : savedView === 'cards' || savedView === 'compact'
+        ? savedView
+        : mobileMedia.matches
+          ? 'compact'
+          : 'cards';
+
+  setView(initialView, false);
+  apply();
 </script>
 
 <style>
@@ -667,6 +1170,7 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     font-size: 0.82rem;
     line-height: 1.45;
   }
+
   .institutional-controls {
     position: sticky;
     top: 0;
@@ -675,107 +1179,253 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     background: color-mix(in srgb, var(--paper) 96%, transparent);
     backdrop-filter: blur(12px);
   }
-  .control-bar {
-    padding: 0.72rem 0;
+  .filter-inner {
+    position: relative;
+    padding: 0.72rem 0 0.62rem;
+  }
+  .primary-controls {
     display: grid;
-    grid-template-columns:
-      minmax(250px, 1.45fr)
-      minmax(180px, 0.65fr)
-      auto auto minmax(210px, 0.8fr);
-    gap: 0.6rem;
+    grid-template-columns: minmax(250px, 1fr) auto auto;
+    gap: 0.65rem;
     align-items: center;
   }
-  .control-bar input,
-  .control-bar select {
+  .institutional-search {
     width: 100%;
-    min-height: 2.65rem;
-    padding: 0.58rem 0.72rem;
+    min-height: 2.75rem;
+    padding: 0.62rem 0.8rem;
     border: 1px solid var(--line);
-    border-radius: 0.5rem;
-    background: var(--card);
+    border-radius: 0.65rem;
     color: var(--ink);
+    background: var(--card);
     font: inherit;
   }
-  .more-filters { position: relative; }
-  .more-filters > summary {
-    min-height: 2.65rem;
-    padding: 0.58rem 0.78rem;
+  .institutional-search:focus {
+    outline: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
+    border-color: var(--accent-dark);
+  }
+  .view-switcher {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .view-buttons {
+    display: inline-flex;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--card);
+  }
+  .view-button {
+    border: 0;
+    padding: 0.55rem 0.85rem;
+    color: var(--ink);
+    background: transparent;
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .view-button.is-active {
+    color: white;
+    background: var(--ink);
+  }
+  .filter-toggle {
+    min-height: 2.75rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 0.45rem;
     border: 1px solid var(--line);
-    border-radius: 0.5rem;
-    background: var(--card);
+    border-radius: 999px;
+    padding: 0.55rem 0.9rem;
     color: var(--ink);
-    font-weight: 750;
+    background: var(--card);
+    font: inherit;
+    font-weight: 800;
     cursor: pointer;
-    white-space: nowrap;
-    list-style: none;
   }
-  .more-filters > summary::-webkit-details-marker { display: none; }
-  .more-filters > summary::after {
-    content: '▾';
-    color: var(--muted);
-    font-size: 0.72rem;
-    transition: transform 120ms ease;
-  }
-  .more-filters[open] > summary::after { transform: rotate(180deg); }
-  .advanced-filter-count {
+  .filter-count {
     min-width: 1.25rem;
     padding: 0.08rem 0.35rem;
     border-radius: 999px;
+    color: white;
     background: var(--ink);
-    color: var(--paper);
     font-size: 0.7rem;
     line-height: 1.2;
     text-align: center;
   }
-  .advanced-filter-count[hidden],
-  .reset-filters[hidden] { display: none; }
-  .advanced-filter-panel {
-    position: absolute;
-    top: calc(100% + 0.55rem);
-    right: 0;
-    z-index: 30;
-    width: min(560px, calc(100vw - 2rem));
-    padding: 0.9rem;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.75rem;
+  .filter-count[hidden] { display: none; }
+
+  .active-filter-row {
+    margin-top: 0.55rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+  .active-filter-row[hidden] { display: none; }
+  .active-filter-chips {
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  :global(.active-filter-chip) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
     border: 1px solid var(--line);
-    border-radius: 0.7rem;
+    border-radius: 999px;
+    padding: 0.28rem 0.55rem;
+    color: var(--ink);
     background: var(--card);
-    box-shadow: 0 16px 45px rgba(23, 23, 23, 0.12);
+    font: inherit;
+    font-size: 0.78rem;
+    font-weight: 750;
+    cursor: pointer;
+    white-space: nowrap;
   }
-  .advanced-filter-panel label { min-width: 0; }
-  .filter-label {
-    display: block;
-    margin: 0 0 0.28rem;
-    color: var(--muted);
-    font-size: 0.7rem;
-    font-weight: 800;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-  }
-  .results-summary {
-    margin: 0;
-    justify-self: end;
-    color: var(--muted);
-    font-size: 0.82rem;
-    text-align: right;
-  }
-  .reset-filters {
+  .clear-filters {
     border: 0;
     padding: 0.35rem 0.15rem;
     color: var(--accent-dark);
     background: transparent;
     font: inherit;
-    font-size: 0.84rem;
-    font-weight: 780;
+    font-size: 0.82rem;
+    font-weight: 800;
     cursor: pointer;
     white-space: nowrap;
   }
+  .summary-row { margin-top: 0.38rem; }
+  .results-summary {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+
+  .filter-panel {
+    position: absolute;
+    top: calc(100% + 0.55rem);
+    right: 0;
+    z-index: 50;
+    width: min(820px, calc(100vw - 2rem));
+    max-height: min(74vh, 720px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 0.85rem;
+    background: var(--card);
+    box-shadow: 0 18px 55px rgb(23 23 23 / 16%);
+  }
+  .filter-panel[hidden] { display: none; }
+  .filter-panel-header {
+    padding: 1rem 1rem 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .filter-panel-title {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 850;
+  }
+  .filter-help {
+    margin: 0.2rem 0 0;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+  .filter-close {
+    width: 2.2rem;
+    height: 2.2rem;
+    flex: 0 0 auto;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--ink);
+    background: var(--paper);
+    font: inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .filter-panel-scroll {
+    min-height: 0;
+    overflow-y: auto;
+    padding: 1rem;
+  }
+  .filter-groups {
+    display: grid;
+    gap: 1.15rem;
+  }
+  .filter-groups section + section {
+    padding-top: 1rem;
+    border-top: 1px solid color-mix(in srgb, var(--line) 75%, transparent);
+  }
+  .group-label {
+    margin: 0 0 0.55rem;
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 850;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.42rem;
+  }
+  .filter-button {
+    min-height: 2.15rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.42rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.34rem 0.62rem;
+    color: var(--ink);
+    background: color-mix(in srgb, var(--card) 80%, var(--paper));
+    font: inherit;
+    font-size: 0.79rem;
+    font-weight: 720;
+    cursor: pointer;
+  }
+  .filter-button.is-active {
+    border-color: var(--ink);
+    color: white;
+    background: var(--ink);
+  }
+  .filter-button .count {
+    color: var(--muted);
+    font-size: 0.68rem;
+    font-weight: 800;
+  }
+  .filter-button.is-active .count { color: color-mix(in srgb, white 72%, transparent); }
+  .filter-button .filter-level {
+    margin: 0;
+    pointer-events: none;
+  }
+  .filter-button.is-active .filter-level {
+    border-color: color-mix(in srgb, white 55%, transparent);
+  }
+  .filter-panel-actions {
+    padding: 0.8rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
+    align-items: center;
+    border-top: 1px solid var(--line);
+    background: color-mix(in srgb, var(--paper) 65%, var(--card));
+  }
+  .apply-filters {
+    min-height: 2.55rem;
+    border: 0;
+    border-radius: 999px;
+    padding: 0.55rem 1rem;
+    color: white;
+    background: var(--ink);
+    font: inherit;
+    font-weight: 820;
+    cursor: pointer;
+  }
+
   .belief-groups { padding-top: 3rem; }
   .belief-group + .belief-group { margin-top: 4.5rem; }
   .belief-group[hidden],
@@ -800,9 +1450,18 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }
-  .episode-count { padding-left: 0.7rem; border-left: 1px solid var(--line); }
-  .belief-heading h2 { margin: 0; font-size: clamp(2rem, 5vw, 3.3rem); }
-  .belief-heading h2 a { color: inherit; text-decoration: none; }
+  .episode-count {
+    padding-left: 0.7rem;
+    border-left: 1px solid var(--line);
+  }
+  .belief-heading h2 {
+    margin: 0;
+    font-size: clamp(2rem, 5vw, 3.3rem);
+  }
+  .belief-heading h2 a {
+    color: inherit;
+    text-decoration: none;
+  }
   .belief-heading h2 a:hover { color: var(--accent-dark); }
   .belief-claim {
     margin: 0.7rem 0 0;
@@ -817,8 +1476,18 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     border-radius: 0.7rem;
     background: var(--card);
   }
-  .group-current summary { cursor: pointer; color: var(--accent-dark); font-weight: 800; }
-  .group-current p { margin: 0.55rem 0 0; color: var(--muted); font-size: 0.9rem; }
+  .group-current summary {
+    cursor: pointer;
+    color: var(--accent-dark);
+    font-weight: 800;
+  }
+  .group-current p {
+    margin: 0.55rem 0 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .compact-belief-meta { display: none; }
+
   .entry-link {
     display: inline-block;
     margin-top: 0.75rem;
@@ -847,6 +1516,7 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     font-weight: 800;
   }
   .period { color: var(--accent-dark); white-space: nowrap; }
+
   .strength {
     --level-color: #4f5d6b;
     --level-bg: color-mix(in srgb, var(--level-color) 10%, white);
@@ -904,6 +1574,7 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     border-left-width: 6px;
   }
   .strength-enforced-doctrine::before { content: 'IV'; }
+
   .episode-summary { margin: 0.95rem 0 1.1rem; color: var(--muted); }
   .episode-section {
     padding-top: 0.9rem;
@@ -946,12 +1617,106 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     padding-top: 0.75rem;
     border-top: 1px solid color-mix(in srgb, var(--line) 72%, transparent);
   }
-  .evidence summary { cursor: pointer; color: var(--accent-dark); font-weight: 780; }
+  .evidence summary {
+    cursor: pointer;
+    color: var(--accent-dark);
+    font-weight: 780;
+  }
   .evidence ul { margin: 0.75rem 0 0; padding-left: 1.15rem; }
   .evidence li + li { margin-top: 0.7rem; }
   .evidence a { font-weight: 720; }
-  .evidence li > span { display: block; color: var(--muted); font-size: 0.8rem; }
+  .evidence li > span {
+    display: block;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+
+  .belief-groups.is-compact {
+    padding-top: 1.25rem;
+    display: grid;
+    gap: 0.55rem;
+  }
+  .belief-groups.is-compact .belief-group {
+    position: relative;
+    margin: 0;
+    border: 1px solid var(--line);
+    border-radius: 0.78rem;
+    background: color-mix(in srgb, var(--card) 88%, transparent);
+    transition:
+      border-color 140ms ease,
+      background 140ms ease,
+      transform 140ms ease;
+  }
+  .belief-groups.is-compact .belief-group:hover {
+    border-color: var(--accent-dark);
+    background: var(--card);
+    transform: translateY(-1px);
+  }
+  .belief-groups.is-compact .belief-heading {
+    margin: 0;
+    padding: 0.85rem 1rem;
+    border: 0;
+    display: block;
+  }
+  .belief-groups.is-compact .belief-heading-topline {
+    margin-bottom: 0.18rem;
+    font-size: 0.68rem;
+  }
+  .belief-groups.is-compact .episode-count { display: none; }
+  .belief-groups.is-compact .belief-heading h2 {
+    margin: 0;
+    font-size: 1.08rem;
+    line-height: 1.28;
+  }
+  .belief-groups.is-compact .belief-heading h2 a::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 0.78rem;
+  }
+  .belief-groups.is-compact .belief-heading h2 a:focus-visible {
+    outline: none;
+  }
+  .belief-groups.is-compact .belief-heading h2 a:focus-visible::after {
+    outline: 3px solid color-mix(in srgb, var(--accent) 42%, transparent);
+    outline-offset: 3px;
+  }
+  .belief-groups.is-compact .belief-claim {
+    margin: 0.32rem 0 0;
+    color: var(--muted);
+    font-size: 0.86rem;
+    font-weight: 620;
+    line-height: 1.38;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  .belief-groups.is-compact .compact-belief-meta {
+    margin-top: 0.62rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.45rem 0.65rem;
+  }
+  .belief-groups.is-compact .compact-strength {
+    margin: 0;
+    flex: 0 0 auto;
+  }
+  .compact-scope {
+    color: var(--muted);
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .belief-groups.is-compact .belief-heading-actions,
+  .belief-groups.is-compact .episode-grid {
+    display: none;
+  }
+
   .empty-state { padding: 4rem 0; color: var(--muted); }
+  .empty-state .empty-clear { margin-top: 0.5rem; }
+  .noscript-note { color: var(--muted); font-size: 0.9rem; }
   .sr-only {
     position: absolute;
     width: 1px;
@@ -963,50 +1728,96 @@ const totalEpisodes = entries.flatMap((item) => item.episodes).length;
     white-space: nowrap;
     border: 0;
   }
+  :global(body.filters-open) { overflow: hidden; }
+
   @media (max-width: 1100px) {
-    .control-bar {
-      grid-template-columns: minmax(220px, 1fr) minmax(180px, 0.65fr) auto auto;
-    }
-    .results-summary {
-      grid-column: 1 / -1;
-      justify-self: start;
-      text-align: left;
-    }
     .level-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   }
+
   @media (max-width: 760px) {
     .institutional-head { padding-top: 3.2rem; }
     .definition-grid,
     .episode-grid,
-    .level-grid,
     .belief-heading { grid-template-columns: 1fr; }
-    .control-bar { grid-template-columns: 1fr auto; }
+
+    .level-grid {
+      grid-template-columns: none;
+      grid-auto-flow: column;
+      grid-auto-columns: minmax(220px, 82vw);
+      overflow-x: auto;
+      scroll-snap-type: x proximity;
+    }
+    .level-grid > div { scroll-snap-align: start; }
+    .level-grid > div + div {
+      border-left: 1px solid var(--line);
+      border-top: 0;
+    }
+
+    .institutional-controls { position: sticky; top: 0; }
+    .primary-controls {
+      grid-template-columns: 1fr auto;
+      gap: 0.55rem;
+    }
     .search-field { grid-column: 1 / -1; }
-    .decade-field { min-width: 0; }
-    .more-filters > summary { width: 100%; }
-    .advanced-filter-panel {
-      position: static;
-      width: 100%;
-      margin-top: 0.55rem;
-      grid-template-columns: 1fr;
-      box-shadow: none;
+    .view-switcher { min-width: 0; }
+    .view-button { padding-inline: 0.72rem; }
+    .filter-toggle { min-width: 0; }
+
+    .active-filter-row {
+      overflow-x: auto;
+      padding-bottom: 0.12rem;
+      scrollbar-width: thin;
     }
-    .reset-filters,
-    .results-summary {
-      grid-column: 1 / -1;
-      justify-self: start;
-      text-align: left;
+    .active-filter-chips {
+      flex-wrap: nowrap;
+      flex: 0 0 auto;
     }
-    .institutional-controls { position: static; }
+    .clear-filters-inline { flex: 0 0 auto; }
+
+    .filter-panel {
+      position: fixed;
+      inset: max(0.65rem, env(safe-area-inset-top))
+        max(0.65rem, env(safe-area-inset-right))
+        max(0.65rem, env(safe-area-inset-bottom))
+        max(0.65rem, env(safe-area-inset-left));
+      width: auto;
+      max-height: none;
+      z-index: 90;
+      border-radius: 0.9rem;
+    }
+    .filter-panel-scroll { padding: 0.9rem; }
+    .filter-panel-actions {
+      padding-bottom: max(0.8rem, env(safe-area-inset-bottom));
+    }
+
     .episode-topline {
       align-items: flex-start;
       flex-direction: column;
       gap: 0.1rem;
     }
-    .level-grid > div + div {
-      border-left: 0;
-      border-top: 1px solid var(--line);
-    }
     .group-current { max-width: none; }
+
+    .belief-groups.is-compact .belief-heading {
+      padding: 0.78rem 0.85rem;
+    }
+    .belief-groups.is-compact .belief-heading h2 {
+      font-size: 1rem;
+    }
+    .belief-groups.is-compact .belief-claim {
+      font-size: 0.82rem;
+      -webkit-line-clamp: 2;
+    }
+    .belief-groups.is-compact .compact-belief-meta {
+      align-items: flex-start;
+      gap: 0.42rem 0.58rem;
+    }
+    .belief-groups.is-compact .compact-strength {
+      font-size: 0.68rem;
+    }
+    .compact-scope { font-size: 0.71rem; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .belief-groups.is-compact .belief-group { transition: none; }
   }
 </style>

@@ -144,21 +144,34 @@ const scanEntries = (dir, locale) => {
     }
 
     const found = refs(text);
+    const frontmatterRefs = refs(frontmatter);
+    const bodyRefs = refs(body);
     const glossaryTokenCount = (text.match(/glossary:/g) ?? []).length;
     if (glossaryTokenCount !== found.length) {
       errors.push(`${locale}/${slug}: malformed glossary markup; use [visible text](glossary:concept-id)`);
     }
 
-    const counts = new Map();
+    const validIds = locale === 'de' ? deGlossaryIds : enGlossaryIds;
     for (const ref of found) {
-      counts.set(ref.id, (counts.get(ref.id) ?? 0) + 1);
-      const validIds = locale === 'de' ? deGlossaryIds : enGlossaryIds;
       if (!validIds.has(ref.id)) errors.push(`${locale}/${slug}: unknown glossary id ${JSON.stringify(ref.id)}`);
     }
 
-    for (const [id, count] of counts) {
-      if (count > 1) {
-        errors.push(`${locale}/${slug}: glossary id ${JSON.stringify(id)} is marked ${count} times; mark only the first useful occurrence`);
+    // A concept may be useful once in the card's frontmatter display and again in
+    // the article body. These are separate reader-facing surfaces and both
+    // render as ordinary links to the same glossary anchor. Still catch
+    // accidental repeated marking within either surface.
+    for (const [surface, surfaceRefs] of [
+      ['frontmatter', frontmatterRefs],
+      ['body', bodyRefs],
+    ]) {
+      const counts = new Map();
+      for (const ref of surfaceRefs) {
+        counts.set(ref.id, (counts.get(ref.id) ?? 0) + 1);
+      }
+      for (const [id, count] of counts) {
+        if (count > 1) {
+          errors.push(`${locale}/${slug}: glossary id ${JSON.stringify(id)} is marked ${count} times in ${surface}; mark only the first useful occurrence on that surface`);
+        }
       }
     }
 

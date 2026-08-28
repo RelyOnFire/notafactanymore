@@ -1,0 +1,253 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import {
+  categoryLabel,
+  statusLabel,
+  translationMatchesEntry,
+  type EntryTranslation,
+  type SiteLocale,
+} from '../lib/i18n';
+import { formatHistoricalYear } from '../lib/lifespans';
+
+interface Props {
+  entry: CollectionEntry<'entries'>;
+  locale?: SiteLocale;
+}
+
+const { entry, locale = 'en' } = Astro.props;
+const entries = await getCollection('entries');
+
+const translationById = new Map<string, EntryTranslation>();
+
+if (locale === 'de') {
+  const translations = await getCollection(
+    'entryTranslations',
+    (translation) => translation.data.locale === 'de',
+  );
+
+  for (const translation of translations) {
+    const translatedEntry = entries.find(
+      (candidate) => candidate.id === translation.data.entryId,
+    );
+
+    if (
+      translatedEntry &&
+      translationMatchesEntry(translatedEntry, translation)
+    ) {
+      translationById.set(translatedEntry.id, translation);
+    }
+  }
+}
+
+const eligibleEntries = entries.filter(
+  (candidate) =>
+    candidate.id !== entry.id &&
+    (locale === 'en' || translationById.has(candidate.id)),
+);
+
+const compareByChronologicalDistance = (
+  a: CollectionEntry<'entries'>,
+  b: CollectionEntry<'entries'>,
+) => {
+  const distanceA = Math.abs(a.data.timelineYear - entry.data.timelineYear);
+  const distanceB = Math.abs(b.data.timelineYear - entry.data.timelineYear);
+
+  return (
+    distanceA - distanceB ||
+    Math.abs(a.data.acceptedYear - entry.data.acceptedYear) -
+      Math.abs(b.data.acceptedYear - entry.data.acceptedYear) ||
+    a.data.claim.localeCompare(b.data.claim, locale)
+  );
+};
+
+const sameCategory = eligibleEntries
+  .filter((candidate) => candidate.data.category === entry.data.category)
+  .sort(compareByChronologicalDistance)
+  .slice(0, 2);
+
+const sameCategoryIds = new Set(sameCategory.map((candidate) => candidate.id));
+
+const aroundSameTime = eligibleEntries
+  .filter(
+    (candidate) =>
+      candidate.data.category !== entry.data.category &&
+      !sameCategoryIds.has(candidate.id),
+  )
+  .sort(compareByChronologicalDistance)
+  .slice(0, 2);
+
+const formatYear = (year: number) =>
+  locale === 'de'
+    ? year < 0
+      ? `${Math.abs(year)} v. Chr.`
+      : String(year)
+    : formatHistoricalYear(year);
+
+const currentCategory = categoryLabel(entry.data.category, locale);
+const categoryHref =
+  locale === 'de'
+    ? `/de/categories/${encodeURIComponent(entry.data.category.toLowerCase())}/`
+    : `/categories/${encodeURIComponent(entry.data.category.toLowerCase())}/`;
+const timelineHref = locale === 'de' ? '/de/timeline' : '/timeline';
+
+const copy =
+  locale === 'de'
+    ? {
+        eyebrow: 'Weiter entdecken',
+        title: 'Dem Wandel des Wissens weiter folgen',
+        sameCategory: `Mehr aus dem Bereich ${currentCategory}`,
+        aroundSameTime: `Etwa um ${formatYear(entry.data.timelineYear)}`,
+        categoryLink: `Alle Einträge in ${currentCategory} →`,
+        timelineLink: 'Gesamte Zeitleiste öffnen →',
+      }
+    : {
+        eyebrow: 'Continue exploring',
+        title: 'Keep following the record',
+        sameCategory: `More from ${currentCategory}`,
+        aroundSameTime: `Around ${formatYear(entry.data.timelineYear)}`,
+        categoryLink: `Explore all ${currentCategory} →`,
+        timelineLink: 'Open the full timeline →',
+      };
+
+const claimFor = (candidate: CollectionEntry<'entries'>) =>
+  locale === 'de'
+    ? translationById.get(candidate.id)?.data.claim ?? candidate.data.claim
+    : candidate.data.claim;
+
+const entryHrefFor = (candidate: CollectionEntry<'entries'>) =>
+  locale === 'de'
+    ? `/de/entries/${candidate.id}/`
+    : `/entries/${candidate.id}/`;
+---
+
+{(sameCategory.length > 0 || aroundSameTime.length > 0) && (
+  <section class="entry-discovery" aria-labelledby="entry-discovery-title">
+    <div class="discovery-heading">
+      <p class="eyebrow">{copy.eyebrow}</p>
+      <h2 id="entry-discovery-title">{copy.title}</h2>
+    </div>
+
+    <div class="discovery-groups">
+      {sameCategory.length > 0 && (
+        <section class="discovery-group">
+          <h3>{copy.sameCategory}</h3>
+          <div class="discovery-list">
+            {sameCategory.map((candidate) => (
+              <a class="discovery-card" href={entryHrefFor(candidate)}>
+                <strong>{claimFor(candidate)}</strong>
+                <span>
+                  {formatYear(candidate.data.timelineYear)}
+                  {' · '}
+                  {statusLabel(candidate.data.status, locale)}
+                </span>
+              </a>
+            ))}
+          </div>
+          <a class="group-link" href={categoryHref}>{copy.categoryLink}</a>
+        </section>
+      )}
+
+      {aroundSameTime.length > 0 && (
+        <section class="discovery-group">
+          <h3>{copy.aroundSameTime}</h3>
+          <div class="discovery-list">
+            {aroundSameTime.map((candidate) => (
+              <a class="discovery-card" href={entryHrefFor(candidate)}>
+                <strong>{claimFor(candidate)}</strong>
+                <span>
+                  {formatYear(candidate.data.timelineYear)}
+                  {' · '}
+                  {categoryLabel(candidate.data.category, locale)}
+                </span>
+              </a>
+            ))}
+          </div>
+          <a class="group-link" href={timelineHref}>{copy.timelineLink}</a>
+        </section>
+      )}
+    </div>
+  </section>
+)}
+
+<style>
+  .entry-discovery {
+    margin-top: 3.5rem;
+    padding-top: 2.5rem;
+    border-top: 2px solid var(--ink);
+  }
+
+  .discovery-heading {
+    margin-bottom: 1.4rem;
+  }
+
+  .discovery-heading h2 {
+    margin: 0.2rem 0 0;
+    font-size: clamp(1.7rem, 4vw, 2.4rem);
+  }
+
+  .discovery-groups {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .discovery-group {
+    min-width: 0;
+    padding: 1.1rem;
+    border: 1px solid var(--line);
+    background: color-mix(in srgb, var(--card) 72%, transparent);
+  }
+
+  .discovery-group h3 {
+    margin: 0 0 0.8rem;
+    font-size: 1rem;
+  }
+
+  .discovery-list {
+    display: grid;
+    gap: 0.55rem;
+  }
+
+  .discovery-card {
+    display: block;
+    min-width: 0;
+    padding: 0.8rem 0.85rem;
+    border: 1px solid var(--line);
+    background: var(--card);
+    text-decoration: none;
+  }
+
+  .discovery-card:hover,
+  .discovery-card:focus-visible {
+    border-color: var(--accent-dark);
+  }
+
+  .discovery-card strong {
+    display: block;
+    line-height: 1.3;
+  }
+
+  .discovery-card span {
+    display: block;
+    margin-top: 0.28rem;
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-weight: 650;
+    line-height: 1.3;
+  }
+
+  .group-link {
+    display: inline-block;
+    margin-top: 0.9rem;
+    color: var(--accent-dark);
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
+
+  @media (max-width: 700px) {
+    .discovery-groups {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

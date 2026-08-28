@@ -531,14 +531,14 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
 
             <div class="compact-belief-meta">
               <div class="compact-meta-top">
+                <span class="compact-period" data-compact-period>
+                  {compactPeriodFor(item.episodes)}
+                </span>
                 <span
                   class={`compact-strength strength strength-${initialHighestStrength}`}
                   data-compact-strength
                 >
                   {strengthLabels[initialHighestStrength]}
-                </span>
-                <span class="compact-period" data-compact-period>
-                  {compactPeriodFor(item.episodes)}
                 </span>
               </div>
               <span class="compact-polities" data-compact-polities>
@@ -1697,7 +1697,7 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
     line-height: 1.38;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     overflow: hidden;
   }
   .belief-groups.is-compact .compact-belief-meta {
@@ -1706,22 +1706,24 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
     gap: 0.38rem;
   }
   .compact-meta-top {
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(9.4ch, max-content) minmax(0, max-content);
     align-items: center;
-    flex-wrap: wrap;
-    gap: 0.5rem 0.7rem;
+    column-gap: 0.72rem;
   }
   .belief-groups.is-compact .compact-strength {
     margin: 0;
-    flex: 0 0 auto;
     align-self: center;
+    justify-self: start;
   }
   .compact-period {
     color: var(--ink);
-    font-size: 1rem;
-    font-weight: 860;
+    font-size: 1.02rem;
+    font-weight: 880;
     line-height: 1;
     letter-spacing: -0.01em;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
   }
   .compact-polities {
     color: var(--muted);
@@ -1825,14 +1827,15 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
     }
     .belief-groups.is-compact .belief-claim {
       font-size: 0.82rem;
-      -webkit-line-clamp: 2;
+      -webkit-line-clamp: 3;
     }
     .belief-groups.is-compact .compact-belief-meta {
       gap: 0.4rem;
     }
     .compact-meta-top {
+      grid-template-columns: minmax(9.4ch, max-content) minmax(0, max-content);
       align-items: center;
-      gap: 0.42rem 0.58rem;
+      column-gap: 0.58rem;
     }
     .belief-groups.is-compact .compact-strength {
       font-size: 0.68rem;

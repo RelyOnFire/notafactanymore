@@ -5,6 +5,7 @@ import CompactClaim from '../components/CompactClaim.astro';
 import FactCard from '../components/FactCard.astro';
 import TimelineTeaser from '../components/TimelineTeaser.astro';
 import HomeDiscoveryPaths from '../components/HomeDiscoveryPaths.astro';
+import SurpriseMe from '../components/SurpriseMe.astro';
 
 const entries = await getCollection('entries');
 
@@ -263,7 +264,10 @@ const currentYear = new Date().getFullYear();
             compact view.
           </p>
         </div>
-        <a href="/browse?view=compact">Open compact index →</a>
+        <div class="catalogue-actions">
+          <a href="/browse?view=compact">Open compact index →</a>
+          <SurpriseMe />
+        </div>
       </div>
 
       <div class="compact-preview">
@@ -440,6 +444,20 @@ const currentYear = new Date().getFullYear();
     color: var(--accent-dark);
   }
 
+  .catalogue-actions {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .catalogue-actions > a {
+    font-weight: 800;
+    color: var(--accent-dark);
+  }
+
   .section-intro {
     margin-bottom: 0;
     color: var(--muted);
@@ -497,6 +515,10 @@ const currentYear = new Date().getFullYear();
     .section-heading {
       align-items: start;
       flex-direction: column;
+    }
+
+    .catalogue-actions {
+      justify-content: flex-start;
     }
 
     .compact-preview {

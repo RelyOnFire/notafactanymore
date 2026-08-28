@@ -10,64 +10,70 @@ const { locale = 'en' } = Astro.props;
 const items = locale === 'de'
   ? [
       {
-        eyebrow: 'Nach Fachgebiet',
-        title: 'Wissen innerhalb eines Fachgebiets',
-        copy: 'Erkunde Medizin, Astronomie, Physik, Archäologie und weitere Fachgebiete als eigene Teilkataloge.',
+        number: '01',
+        kicker: 'Fachgebiete',
+        title: 'Mit einem Thema anfangen',
+        copy: 'Medizin, Astronomie, Physik, Archäologie und mehr – jeweils mit eigener Zeitleiste und eigenen Filtern.',
         href: '/de/categories/',
-        action: 'Fachgebiete erkunden →',
+        action: 'Fachgebiete ansehen →',
       },
       {
-        eyebrow: 'Nach Lebensdauer',
-        title: 'Wie lange blieb eine Aussage bestehen?',
-        copy: 'Vergleiche kurzlebige Auffassungen mit Vorstellungen, die sich über Jahrhunderte hielten.',
+        number: '02',
+        kicker: 'Lebensdauern',
+        title: 'Sehen, was sich wie lange hielt',
+        copy: 'Vergleiche Aussagen, die nur wenige Jahre Bestand hatten, mit Vorstellungen, die Jahrhunderte überdauerten.',
         href: '/de/lifespans',
         action: 'Lebensdauern vergleichen →',
       },
       {
-        eyebrow: 'Nach Institution',
-        title: 'Wenn Überzeugungen institutionelle Macht erhielten',
-        copy: 'Verfolge Aussagen, die Forschung, Medizin, Recht, Verwaltung oder staatliche Praxis prägten.',
+        number: '03',
+        kicker: 'Institutionen',
+        title: 'Sehen, was praktische Folgen hatte',
+        copy: 'Folge Aussagen, die Medizin, Forschung, Recht, Verwaltung oder staatliche Praxis prägten.',
         href: '/de/institutions',
-        action: 'Institutionelle Überzeugungen →',
+        action: 'Institutionen erkunden →',
       },
     ]
   : [
       {
-        eyebrow: 'By subject',
-        title: 'Follow change within a field',
-        copy: 'Explore Medicine, Astronomy, Physics, Archaeology, and other subjects as their own parts of the catalogue.',
+        number: '01',
+        kicker: 'Subjects',
+        title: 'Start with a field',
+        copy: 'Medicine, astronomy, physics, archaeology, and more—each with its own timeline and filters.',
         href: '/categories/',
-        action: 'Explore subjects →',
+        action: 'Browse subjects →',
       },
       {
-        eyebrow: 'By lifespan',
-        title: 'How long did a fact last?',
-        copy: 'Compare short-lived conclusions with accepted ideas that persisted for centuries.',
+        number: '02',
+        kicker: 'Lifespans',
+        title: 'See what lasted',
+        copy: 'Compare claims that survived a few years with ideas that held on for centuries.',
         href: '/lifespans',
         action: 'Compare lifespans →',
       },
       {
-        eyebrow: 'By institution',
-        title: 'When beliefs gained institutional power',
-        copy: 'Follow claims that shaped research, medicine, law, administration, or public policy.',
+        number: '03',
+        kicker: 'Institutions',
+        title: 'See what had consequences',
+        copy: 'Follow claims that shaped medicine, research, law, administration, or public policy.',
         href: '/institutions',
-        action: 'Explore institutional beliefs →',
+        action: 'Explore institutions →',
       },
     ];
 
 const heading = locale === 'de'
-  ? 'Den Wissenswandel aus einer anderen Perspektive erkunden'
-  : 'Explore the record another way';
+  ? 'Drei Wege durch den Katalog'
+  : 'Three ways into the catalogue';
 
 const intro = locale === 'de'
-  ? 'Der Katalog lässt sich nicht nur als Liste lesen. Folge einem Fachgebiet, vergleiche die Lebensdauer von Aussagen oder untersuche, was geschah, wenn Überzeugungen institutionell wirksam wurden.'
-  : 'The catalogue is more than a list. Follow a field, compare how long claims persisted, or examine what happened when beliefs became institutionally consequential.';
+  ? 'Starte mit einem Fachgebiet, vergleiche die Lebensdauer von Aussagen oder schau dir an, was geschah, wenn Institutionen auf ihnen handelten.'
+  : 'Start with a field, compare how long claims lasted, or look at what happened when institutions acted on them.';
 ---
 
 <section class="discovery-paths">
   <div class="container">
     <div class="discovery-heading">
-      <p class="eyebrow">{locale === 'de' ? 'Wege durch den Katalog' : 'Ways through the catalogue'}</p>
+      <p class="eyebrow">{locale === 'de' ? 'Erkunden' : 'Explore'}</p>
       <h2>{heading}</h2>
       <p>{intro}</p>
     </div>
@@ -75,7 +81,8 @@ const intro = locale === 'de'
     <div class="discovery-grid">
       {items.map((item) => (
         <a class="discovery-path" href={item.href}>
-          <span class="path-eyebrow">{item.eyebrow}</span>
+          <span class="path-number" aria-hidden="true">{item.number}</span>
+          <span class="path-kicker">{item.kicker}</span>
           <strong>{item.title}</strong>
           <p>{item.copy}</p>
           <span class="path-action">{item.action}</span>
@@ -87,81 +94,98 @@ const intro = locale === 'de'
 
 <style>
   .discovery-paths {
-    padding: 4.5rem 0 5rem;
-    border-top: 1px solid var(--line);
+    padding: clamp(4.5rem, 8vw, 6rem) 0;
     border-bottom: 1px solid var(--line);
     background: var(--paper);
   }
 
   .discovery-heading {
-    margin-bottom: 2rem;
+    max-width: 52rem;
+    margin-bottom: clamp(2.5rem, 5vw, 3.5rem);
   }
 
   .discovery-heading h2 {
-    margin: 0.2rem 0 0.75rem;
+    margin: 0.15rem 0 0.9rem;
+    max-width: 18ch;
+    font-size: clamp(2.1rem, 5vw, 3.35rem);
   }
 
   .discovery-heading > p:last-child {
     margin-bottom: 0;
     color: var(--muted);
-    font-size: 1.05rem;
+    font-size: 1.08rem;
   }
 
   .discovery-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.8rem;
+    border-top: 2px solid var(--ink);
   }
 
   .discovery-path {
     display: flex;
     min-width: 0;
-    min-height: 15rem;
+    min-height: 18rem;
     flex-direction: column;
-    padding: 1.35rem;
-    border: 1px solid var(--line);
-    background: var(--card);
+    padding: 1.45rem clamp(1.15rem, 2.5vw, 2rem) 0.35rem;
+    border-right: 1px solid var(--line);
     text-decoration: none;
-    transition:
-      border-color 140ms ease,
-      transform 140ms ease,
-      box-shadow 140ms ease;
   }
 
-  .discovery-path:hover,
-  .discovery-path:focus-visible {
-    border-color: var(--accent-dark);
-    transform: translateY(-2px);
-    box-shadow: 0 10px 24px rgb(30 24 13 / 7%);
+  .discovery-path:first-child {
+    padding-left: 0;
   }
 
-  .path-eyebrow {
+  .discovery-path:last-child {
+    padding-right: 0;
+    border-right: 0;
+  }
+
+  .path-number {
+    color: color-mix(in srgb, var(--muted) 55%, transparent);
+    font-size: clamp(2.25rem, 5vw, 3.4rem);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.06em;
+  }
+
+  .path-kicker {
+    margin-top: 1.5rem;
     color: var(--accent-dark);
-    font-size: 0.72rem;
+    font-size: 0.74rem;
     font-weight: 900;
     letter-spacing: 0.09em;
     text-transform: uppercase;
   }
 
   .discovery-path > strong {
-    margin-top: 0.45rem;
-    font-size: 1.25rem;
-    line-height: 1.2;
+    margin-top: 0.42rem;
+    max-width: 15ch;
+    font-size: clamp(1.3rem, 2.5vw, 1.65rem);
+    line-height: 1.12;
+    letter-spacing: -0.02em;
   }
 
   .discovery-path p {
-    margin: 0.7rem 0 0;
+    margin: 0.8rem 0 0;
     color: var(--muted);
-    font-size: 0.94rem;
+    font-size: 0.95rem;
     line-height: 1.5;
   }
 
   .path-action {
     margin-top: auto;
-    padding-top: 1.25rem;
+    padding-top: 1.5rem;
     color: var(--accent-dark);
-    font-size: 0.88rem;
-    font-weight: 850;
+    font-size: 0.9rem;
+    font-weight: 830;
+  }
+
+  .discovery-path:hover > strong,
+  .discovery-path:focus-visible > strong,
+  .discovery-path:hover .path-action,
+  .discovery-path:focus-visible .path-action {
+    color: var(--accent-dark);
   }
 
   @media (max-width: 800px) {
@@ -169,8 +193,30 @@ const intro = locale === 'de'
       grid-template-columns: 1fr;
     }
 
-    .discovery-path {
+    .discovery-path,
+    .discovery-path:first-child,
+    .discovery-path:last-child {
       min-height: 0;
+      padding: 1.4rem 0 1.6rem;
+      border-right: 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .discovery-path:last-child {
+      border-bottom: 0;
+    }
+
+    .path-number {
+      font-size: 2rem;
+    }
+
+    .path-kicker {
+      margin-top: 0.9rem;
+    }
+
+    .path-action {
+      margin-top: 1rem;
+      padding-top: 0;
     }
   }
 </style>

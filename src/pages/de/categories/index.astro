@@ -51,201 +51,184 @@ const subjects = [...new Set(translatedEntries.map(({ entry }) => entry.data.cat
 <BaseLayout
   locale="de"
   title="Fachgebiete"
-  description={`Erkunde ${translatedEntries.length} Katalogeinträge aus ${subjects.length} wissenschaftlichen und wissenschaftsnahen Fachgebieten.`}
+  description={`Durchsuche ${translatedEntries.length} Katalogeinträge aus ${subjects.length} wissenschaftlichen und wissenschaftsnahen Fachgebieten.`}
   alternatePath="/categories/"
 >
   <header class="container page-head">
-    <p class="eyebrow">Nach Fachgebiet erkunden</p>
-    <h1>Verfolge den Wissenswandel innerhalb eines Fachgebiets</h1>
+    <p class="eyebrow">Fachgebiete</p>
+    <h1>Nach Fachgebiet stöbern</h1>
     <p class="page-intro">
-      Wähle ein Fachgebiet, um die dazugehörigen Einträge zu erkunden,
-      Lebensdauern und Status zu vergleichen und nachzuvollziehen, wann sich
-      der Wissensstand änderte.
+      Beginne mit einem Thema. Jedes Fachgebiet hat eine eigene Chronologie,
+      Statusübersicht, Lebensdauerstatistik, Suche und Sortierung.
     </p>
 
-    <div class="directory-summary" aria-label="Zusammenfassung der Fachgebiete">
-      <span><strong>{subjects.length}</strong> Fachgebiete</span>
-      <span aria-hidden="true">·</span>
-      <span><strong>{translatedEntries.length}</strong> Einträge</span>
-    </div>
+    <p class="directory-summary">
+      <strong>{subjects.length}</strong> Fachgebiete · <strong>{translatedEntries.length}</strong> Einträge
+    </p>
   </header>
 
   <section class="subject-directory">
-    <div class="container">
-      <div class="subject-grid">
-        {subjects.map((subject) => (
-          <a
-            class="subject-card"
-            href={`/de/categories/${encodeURIComponent(subject.category.toLowerCase())}/`}
-          >
-            <div class="subject-card-head">
-              <h2>{subject.label}</h2>
-              <span>{subject.count} {subject.count === 1 ? 'Eintrag' : 'Einträge'}</span>
-            </div>
-
+    <div class="container subject-grid">
+      {subjects.map((subject) => (
+        <a
+          class="subject-row"
+          href={`/de/categories/${encodeURIComponent(subject.category.toLowerCase())}/`}
+        >
+          <div class="subject-main">
+            <h2>{subject.label}</h2>
             <p class="subject-range">
               {formatHistoricalYearDe(subject.oldestChange)}
               <span aria-hidden="true"> → </span>
               {formatHistoricalYearDe(subject.newestChange)}
             </p>
+          </div>
 
-            {subject.latest && (
-              <div class="subject-example">
-                <span>Jüngste hier erfasste Änderung</span>
-                <strong>{subject.latest.translation.data.claim}</strong>
-              </div>
-            )}
+          <div class="subject-count">
+            <strong>{subject.count}</strong>
+            <span>{subject.count === 1 ? 'Eintrag' : 'Einträge'}</span>
+          </div>
 
-            <span class="subject-action">{subject.label} erkunden →</span>
-          </a>
-        ))}
-      </div>
+          {subject.latest && (
+            <div class="subject-latest">
+              <span>Jüngste Änderung hier</span>
+              <strong>{subject.latest.translation.data.claim}</strong>
+            </div>
+          )}
+
+          <span class="subject-action">{subject.label} öffnen →</span>
+        </a>
+      ))}
     </div>
   </section>
 </BaseLayout>
 
 <style>
   .page-head {
-    padding: 5rem 0 3.5rem;
+    padding: 5rem 0 4rem;
   }
 
   .page-head h1 {
-    margin: 0.2rem 0 1rem;
-    max-width: 15ch;
+    margin: 0.15rem 0 1rem;
+    max-width: 13ch;
   }
 
   .page-intro {
-    max-width: 58rem;
+    max-width: 54rem;
     color: var(--muted);
     font-size: 1.15rem;
   }
 
   .directory-summary {
-    display: flex;
-    align-items: baseline;
-    gap: 0.65rem;
-    margin-top: 1.5rem;
+    margin: 1.6rem 0 0;
     color: var(--muted);
     font-size: 0.95rem;
   }
 
   .directory-summary strong {
     color: var(--ink);
-    font-size: 1.2rem;
   }
 
   .subject-directory {
-    padding: 3.5rem 0 5rem;
-    border-top: 1px solid var(--line);
-    background: color-mix(in srgb, var(--card) 45%, transparent);
+    padding: 1rem 0 5rem;
   }
 
   .subject-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.85rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: clamp(2.5rem, 6vw, 5rem);
   }
 
-  .subject-card {
-    display: flex;
+  .subject-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "main count"
+      "latest latest"
+      "action action";
     min-width: 0;
-    min-height: 14.5rem;
-    flex-direction: column;
-    padding: 1.2rem;
-    border: 1px solid var(--line);
-    background: var(--card);
+    padding: 1.5rem 0 1.65rem;
+    border-top: 1px solid var(--line);
     text-decoration: none;
-    transition:
-      border-color 140ms ease,
-      transform 140ms ease,
-      box-shadow 140ms ease;
   }
 
-  .subject-card:hover,
-  .subject-card:focus-visible {
-    border-color: var(--accent-dark);
-    transform: translateY(-2px);
-    box-shadow: 0 10px 24px rgb(30 24 13 / 7%);
-  }
+  .subject-main { grid-area: main; min-width: 0; }
 
-  .subject-card-head {
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .subject-card h2 {
+  .subject-row h2 {
     margin: 0;
-    font-size: clamp(1.25rem, 2vw, 1.55rem);
-  }
-
-  .subject-card-head > span {
-    flex: 0 0 auto;
-    padding: 0.18rem 0.5rem;
-    border-radius: 999px;
-    color: var(--muted);
-    background: #eee7d8;
-    font-size: 0.75rem;
-    font-weight: 800;
-    white-space: nowrap;
+    font-size: clamp(1.35rem, 2.5vw, 1.75rem);
   }
 
   .subject-range {
-    margin: 0.7rem 0 0;
+    margin: 0.45rem 0 0;
     color: var(--accent-dark);
-    font-size: 0.88rem;
+    font-size: 0.82rem;
     font-weight: 800;
     font-variant-numeric: tabular-nums;
   }
 
-  .subject-example {
-    margin-top: 1.15rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--line);
+  .subject-count {
+    grid-area: count;
+    align-self: start;
+    padding-left: 1rem;
+    text-align: right;
   }
 
-  .subject-example span {
+  .subject-count strong {
     display: block;
-    margin-bottom: 0.35rem;
+    font-size: 1.8rem;
+    line-height: 1;
+  }
+
+  .subject-count span {
+    display: block;
+    margin-top: 0.2rem;
     color: var(--muted);
     font-size: 0.72rem;
-    font-weight: 800;
-    letter-spacing: 0.04em;
+    font-weight: 750;
+  }
+
+  .subject-latest {
+    grid-area: latest;
+    margin-top: 1.15rem;
+  }
+
+  .subject-latest span {
+    display: block;
+    margin-bottom: 0.3rem;
+    color: var(--muted);
+    font-size: 0.7rem;
+    font-weight: 850;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
   }
 
-  .subject-example strong {
+  .subject-latest strong {
     display: block;
-    font-size: 0.95rem;
-    line-height: 1.35;
+    max-width: 34rem;
+    font-size: 0.92rem;
+    line-height: 1.4;
   }
 
   .subject-action {
-    margin-top: auto;
-    padding-top: 1.2rem;
+    grid-area: action;
+    margin-top: 1rem;
     color: var(--accent-dark);
-    font-size: 0.88rem;
-    font-weight: 850;
+    font-size: 0.84rem;
+    font-weight: 830;
   }
 
-  @media (max-width: 900px) {
-    .subject-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+  .subject-row:hover h2,
+  .subject-row:focus-visible h2 {
+    color: var(--accent-dark);
   }
 
-  @media (max-width: 600px) {
-    .page-head {
-      padding-top: 3.5rem;
-    }
-
+  @media (max-width: 760px) {
     .subject-grid {
       grid-template-columns: 1fr;
     }
 
-    .subject-card {
-      min-height: 0;
+    .page-head {
+      padding-top: 3.5rem;
     }
   }
 </style>

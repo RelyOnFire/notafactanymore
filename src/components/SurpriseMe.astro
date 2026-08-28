@@ -1,0 +1,148 @@
+---
+import { getCollection } from 'astro:content';
+import {
+  translationMatchesEntry,
+  type SiteLocale,
+} from '../lib/i18n';
+
+interface Props {
+  locale?: SiteLocale;
+  excludeId?: string;
+  surface?: 'inline' | 'entry';
+}
+
+const {
+  locale = 'en',
+  excludeId,
+  surface = 'inline',
+} = Astro.props;
+
+const entries = await getCollection('entries');
+
+let ids = entries
+  .filter((entry) => entry.id !== excludeId)
+  .map((entry) => entry.id);
+
+if (locale === 'de') {
+  const translations = await getCollection(
+    'entryTranslations',
+    (translation) => translation.data.locale === 'de',
+  );
+
+  const translatedIds = new Set(
+    translations.flatMap((translation) => {
+      const entry = entries.find(
+        (candidate) => candidate.id === translation.data.entryId,
+      );
+
+      return entry && translationMatchesEntry(entry, translation)
+        ? [entry.id]
+        : [];
+    }),
+  );
+
+  ids = ids.filter((id) => translatedIds.has(id));
+}
+
+const label =
+  locale === 'de'
+    ? surface === 'entry'
+      ? 'Zufälligen Eintrag wählen'
+      : 'Überrasch mich'
+    : surface === 'entry'
+      ? 'Pick one at random'
+      : 'Surprise me';
+
+const prefix = locale === 'de' ? '/de/entries/' : '/entries/';
+---
+
+{ids.length > 0 && (
+  <button
+    class:list={['surprise-me', `surprise-${surface}`]}
+    type="button"
+    data-surprise-me
+    data-entry-ids={JSON.stringify(ids)}
+    data-entry-prefix={prefix}
+  >
+    <svg aria-hidden="true" viewBox="0 0 24 24">
+      <path d="M4 7h3.2c2.8 0 3.6 2.2 4.8 5s2 5 4.8 5H20"></path>
+      <path d="m17 14 3 3-3 3"></path>
+      <path d="M4 17h3.2c1.5 0 2.4-.6 3.1-1.6"></path>
+      <path d="M13.7 8.6C14.4 7.6 15.3 7 16.8 7H20"></path>
+      <path d="m17 4 3 3-3 3"></path>
+    </svg>
+    <span>{label}</span>
+  </button>
+)}
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('[data-surprise-me]').forEach((button) => {
+    if (button.dataset.surpriseReady === 'true') return;
+    button.dataset.surpriseReady = 'true';
+
+    button.addEventListener('click', () => {
+      let ids: string[] = [];
+
+      try {
+        ids = JSON.parse(button.dataset.entryIds ?? '[]');
+      } catch {
+        return;
+      }
+
+      if (ids.length === 0) return;
+
+      let index = Math.floor(Math.random() * ids.length);
+
+      if (globalThis.crypto?.getRandomValues) {
+        const random = new Uint32Array(1);
+        globalThis.crypto.getRandomValues(random);
+        index = random[0] % ids.length;
+      }
+
+      const id = ids[index];
+      const prefix = button.dataset.entryPrefix ?? '/entries/';
+      window.location.assign(`${prefix}${id}/`);
+    });
+  });
+</script>
+
+<style>
+  .surprise-me {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.48rem;
+    min-height: 2.85rem;
+    border: 1px solid var(--ink);
+    border-radius: 999px;
+    padding: 0.58rem 1rem;
+    color: var(--ink);
+    background: transparent;
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 820;
+    cursor: pointer;
+  }
+
+  .surprise-me:hover,
+  .surprise-me:focus-visible {
+    border-color: var(--accent-dark);
+    color: white;
+    background: var(--accent-dark);
+  }
+
+  .surprise-me svg {
+    width: 1.05rem;
+    height: 1.05rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .surprise-entry {
+    border-color: var(--line);
+    background: color-mix(in srgb, var(--card) 55%, transparent);
+  }
+</style>

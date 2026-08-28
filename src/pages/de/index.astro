@@ -5,6 +5,7 @@ import CompactClaim from '../../components/CompactClaim.astro';
 import FactCard from '../../components/FactCard.astro';
 import TimelineTeaser from '../../components/TimelineTeaser.astro';
 import HomeDiscoveryPaths from '../../components/HomeDiscoveryPaths.astro';
+import SurpriseMe from '../../components/SurpriseMe.astro';
 import { translationMatchesEntry } from '../../lib/i18n';
 
 const entries = await getCollection('entries');
@@ -183,7 +184,10 @@ const currentYear = new Date().getFullYear();
           <h2>Alle {translatedEntries.length} früheren Tatsachen erkunden</h2>
           <p class="section-intro">Eine abwechslungsreiche Auswahl kürzlich ergänzter Einträge. Die vollständige Sammlung lässt sich im Katalog durchsuchen, filtern und als Karten oder kompakte Liste anzeigen.</p>
         </div>
-        <a href="/de/browse">Vollständigen Katalog öffnen →</a>
+        <div class="catalogue-actions">
+          <a href="/de/browse">Vollständigen Katalog öffnen →</a>
+          <SurpriseMe locale="de" />
+        </div>
       </div>
       <div class="compact-preview">
         {recent.map(({ entry, translation }) => <CompactClaim entry={entry} translation={translation} locale="de" />)}
@@ -216,6 +220,8 @@ const currentYear = new Date().getFullYear();
   .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 2rem; margin-bottom: 2rem; }
   .section-heading h2 { margin: .2rem 0 0; }
   .section-heading > a { flex: 0 0 auto; font-weight: 800; color: var(--accent-dark); }
+  .catalogue-actions { display: flex; flex: 0 0 auto; align-items: center; gap: .75rem; flex-wrap: wrap; justify-content: flex-end; }
+  .catalogue-actions > a { font-weight: 800; color: var(--accent-dark); }
   .section-intro { margin-bottom: 0; color: var(--muted); }
   .featured { padding: 5rem 0; }
   .cards { display: grid; gap: 2rem; }
@@ -228,6 +234,7 @@ const currentYear = new Date().getFullYear();
     .school-feature-inner, .compact-preview { grid-template-columns: 1fr; }
     .school-form-row { flex-direction: column; }
     .section-heading { align-items: flex-start; flex-direction: column; }
+    .catalogue-actions { justify-content: flex-start; }
 
   }
 </style>

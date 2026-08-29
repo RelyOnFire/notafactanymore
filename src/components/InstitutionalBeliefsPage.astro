@@ -2,9 +2,12 @@
 import { getCollection } from 'astro:content';
 import {
   formatInstitutionalPeriod,
-  institutionalRegionLabel,
   type SiteLocale,
 } from '../lib/i18n';
+import {
+  currentInstitutionalTranslationMap,
+  normalizeInstitutionalBelief,
+} from '../lib/institutionalBeliefs';
 
 interface Props {
   locale?: SiteLocale;
@@ -20,9 +23,10 @@ const translations = locale === 'de'
     )
   : [];
 
-const translationById = new Map(
-  translations.map((translation) => [translation.data.entryId, translation]),
-);
+const translationById = currentInstitutionalTranslationMap(beliefs, translations);
+const visibleBeliefs = locale === 'de'
+  ? beliefs.filter((belief) => translationById.has(belief.id))
+  : beliefs;
 
 const strengthLabels: Record<string, string> = locale === 'de'
   ? {
@@ -73,45 +77,19 @@ const compactInstitutionLabel = (institutions: string[]) => {
   return `${institutions.slice(0, 2).join(' · ')} · +${more} ${locale === 'de' ? 'weitere' : 'more'}`;
 };
 
-const entries = beliefs.map((belief) => {
-  const translation = translationById.get(belief.id);
-  const isCurrentTranslation = translation
-    ? translation.data.sourceReviewedAt.getTime() === belief.data.reviewedAt.getTime()
-    : false;
-  const localized = locale === 'de' && isCurrentTranslation ? translation : undefined;
-  const translatedEpisodes = new Map(
-    localized?.data.episodes.map((episode) => [episode.id, episode]) ?? [],
+const entries = visibleBeliefs.map((belief) => {
+  const normalized = normalizeInstitutionalBelief(
+    belief,
+    locale,
+    translationById.get(belief.id),
   );
 
   return {
     belief,
-    title: localized?.data.title ?? belief.data.title,
-    claim: localized?.data.claim ?? belief.data.claim,
-    currentUnderstanding:
-      localized?.data.currentUnderstanding ?? belief.data.currentUnderstanding,
-    episodes: belief.data.episodes.map((episode) => {
-      const translatedEpisode = translatedEpisodes.get(episode.id);
-      return {
-        ...episode,
-        period: formatInstitutionalPeriod(
-          {
-            startYear: episode.startYear,
-            endYear: episode.endYear,
-            endOpen: episode.endOpen,
-            periodLabel: episode.periodLabel,
-            translatedPeriodLabel: translatedEpisode?.periodLabel,
-          },
-          locale,
-        ),
-        regionLabel: institutionalRegionLabel(episode.region, locale),
-        polity: translatedEpisode?.polity ?? episode.polity,
-        institutions: translatedEpisode?.institutions ?? episode.institutions,
-        institutionalContext:
-          translatedEpisode?.institutionalContext ?? episode.institutionalContext,
-        summary: translatedEpisode?.summary ?? episode.summary,
-        consequences: translatedEpisode?.consequences ?? episode.consequences,
-      };
-    }).sort((a, b) =>
+    title: normalized.title,
+    claim: normalized.proposition,
+    currentUnderstanding: normalized.correction,
+    episodes: [...normalized.episodes].sort((a, b) =>
       a.startYear - b.startYear ||
       a.polity.localeCompare(b.polity, locale)
     ),

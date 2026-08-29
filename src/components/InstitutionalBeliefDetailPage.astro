@@ -2,15 +2,19 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import {
-  formatInstitutionalPeriod,
   translationMatchesEntry,
   type SiteLocale,
 } from '../lib/i18n';
+import {
+  normalizeInstitutionalBelief,
+  type InstitutionalBeliefEntry,
+  type InstitutionalBeliefTranslationEntry,
+} from '../lib/institutionalBeliefs';
 
 interface Props {
-  belief: any;
+  belief: InstitutionalBeliefEntry;
   locale?: SiteLocale;
-  translation?: any;
+  translation?: InstitutionalBeliefTranslationEntry;
   hasGermanTranslation?: boolean;
 }
 
@@ -21,18 +25,13 @@ const {
   hasGermanTranslation = false,
 } = Astro.props;
 
-const localized = locale === 'de' ? translation : undefined;
-const translatedEpisodes = new Map(
-  localized?.data.episodes.map((episode: any) => [episode.id, episode]) ?? [],
-);
-
-const title = localized?.data.title ?? belief.data.title;
-const claim = localized?.data.claim ?? belief.data.claim;
-const currentUnderstanding =
-  localized?.data.currentUnderstanding ?? belief.data.currentUnderstanding;
-const impact = locale === 'de'
-  ? localized?.data.impact
-  : belief.data.impact;
+const normalized = normalizeInstitutionalBelief(belief, locale, translation);
+const {
+  title,
+  proposition: claim,
+  correction: currentUnderstanding,
+  impact,
+} = normalized;
 
 const strengthLabels: Record<string, string> = locale === 'de'
   ? {
@@ -48,33 +47,10 @@ const strengthLabels: Record<string, string> = locale === 'de'
       'enforced-doctrine': 'Enforced doctrine',
     };
 
-const episodes = belief.data.episodes
-  .map((episode: any) => {
-    const translatedEpisode = translatedEpisodes.get(episode.id) as any;
-    return {
-      ...episode,
-      polity: translatedEpisode?.polity ?? episode.polity,
-      summary: translatedEpisode?.summary ?? episode.summary,
-      institutions: translatedEpisode?.institutions ?? episode.institutions,
-      institutionalContext:
-        translatedEpisode?.institutionalContext ?? episode.institutionalContext,
-      consequences: translatedEpisode?.consequences ?? episode.consequences,
-      period: formatInstitutionalPeriod(
-        {
-          startYear: episode.startYear,
-          endYear: episode.endYear,
-          endOpen: episode.endOpen,
-          periodLabel: episode.periodLabel,
-          translatedPeriodLabel: translatedEpisode?.periodLabel,
-        },
-        locale,
-      ),
-    };
-  })
-  .sort((a: any, b: any) =>
-    a.startYear - b.startYear ||
-    a.polity.localeCompare(b.polity, locale)
-  );
+const episodes = [...normalized.episodes].sort((a, b) =>
+  a.startYear - b.startYear ||
+  a.polity.localeCompare(b.polity, locale)
+);
 
 const copy = locale === 'de'
   ? {
@@ -116,16 +92,17 @@ const copy = locale === 'de'
 
 const timelinePath = locale === 'de' ? '/de/institutions/' : '/institutions/';
 const alternatePath = locale === 'de'
-  ? `/institutions/${belief.id}/`
+  ? `/institutions/${normalized.id}/`
   : hasGermanTranslation
-    ? `/de/institutions/${belief.id}/`
+    ? `/de/institutions/${normalized.id}/`
     : undefined;
 
 let cataloguePath: string | undefined;
 let catalogueTitle: string | undefined;
+const linkedEntryId = normalized.entryId;
 
-if (belief.data.entryId) {
-  const catalogueEntries = await getCollection('entries', (entry) => entry.id === belief.data.entryId);
+if (linkedEntryId) {
+  const catalogueEntries = await getCollection('entries', (entry) => entry.id === linkedEntryId);
   const catalogueEntry = catalogueEntries[0];
 
   if (catalogueEntry) {
@@ -162,7 +139,7 @@ if (belief.data.entryId) {
     <a class="back-link" href={timelinePath}>← {copy.back}</a>
 
     <header class="case-head">
-      <p class="eyebrow">{copy.eyebrow} · {belief.data.category}</p>
+      <p class="eyebrow">{copy.eyebrow} · {normalized.category}</p>
       <h1>{title}</h1>
       <p class="claim">{claim}</p>
       <p class="episode-count">{copy.episodes(episodes.length)}</p>
@@ -184,14 +161,14 @@ if (belief.data.entryId) {
           <div class="impact-context">
             <h3>{copy.impactContext}</h3>
             <div class="impact-context-copy">
-              {impact.context.map((paragraph: string) => <p>{paragraph}</p>)}
+              {impact.context.map((paragraph) => <p>{paragraph}</p>)}
             </div>
           </div>
         )}
 
         {impact.highlights.length > 0 && (
           <div class="impact-grid">
-            {impact.highlights.map((highlight: any) => (
+            {impact.highlights.map((highlight) => (
               <article class="impact-highlight">
                 <strong>{highlight.value}</strong>
                 <h3>{highlight.label}</h3>
@@ -206,7 +183,7 @@ if (belief.data.entryId) {
     )}
 
     <section class="episodes-section">
-      {episodes.map((episode: any) => (
+      {episodes.map((episode) => (
         <article class="episode-detail" id={episode.id}>
           <header class="episode-detail-head">
             <div>
@@ -227,7 +204,7 @@ if (belief.data.entryId) {
             <section class="episode-record-row">
               <h3>{copy.institutions}</h3>
               <ul class="institution-list">
-                {episode.institutions.map((institution: string) => (
+                {episode.institutions.map((institution) => (
                   <li>{institution}</li>
                 ))}
               </ul>
@@ -236,7 +213,7 @@ if (belief.data.entryId) {
             <section class="episode-record-row">
               <h3>{copy.consequences}</h3>
               <ul class="consequence-list">
-                {episode.consequences.map((consequence: string) => (
+                {episode.consequences.map((consequence) => (
                   <li>{consequence}</li>
                 ))}
               </ul>
@@ -253,13 +230,13 @@ if (belief.data.entryId) {
           <section class="source-section">
             <h3>{copy.evidence}</h3>
             <ul class="source-list">
-              {episode.sources.map((source: any) => (
+              {episode.sources.map((source) => (
                 <li>
                   <a href={source.url} target="_blank" rel="noopener noreferrer">
                     <strong>{source.title}</strong>
                   </a>
                   <span>{source.publisher}</span>
-                  <p>{source.note}</p>
+                  {source.note && <p>{source.note}</p>}
                 </li>
               ))}
             </ul>
@@ -271,12 +248,12 @@ if (belief.data.entryId) {
     {cataloguePath && (
       <aside class="catalogue-link">
         <span>{copy.catalogue}</span>
-        <a href={cataloguePath}>{catalogueTitle ?? belief.data.entryId} →</a>
+        <a href={cataloguePath}>{catalogueTitle ?? normalized.entryId} →</a>
       </aside>
     )}
 
     <p class="reviewed">
-      {copy.reviewed}: {belief.data.reviewedAt.toLocaleDateString(locale === 'de' ? 'de-AT' : 'en-GB')}
+      {copy.reviewed}: {normalized.reviewedAt.toLocaleDateString(locale === 'de' ? 'de-AT' : 'en-GB')}
     </p>
   </article>
 </BaseLayout>

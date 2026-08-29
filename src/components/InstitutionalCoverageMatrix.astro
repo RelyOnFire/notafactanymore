@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import type { SiteLocale } from '../lib/i18n';
+import { normalizeInstitutionalBelief } from '../lib/institutionalBeliefs';
 import {
   institutionalCoverageRegions,
   institutionalCoverageRegionLabel,
@@ -17,7 +18,7 @@ const { locale = 'en' } = Astro.props;
 const beliefs = await getCollection('institutionalBeliefs');
 
 const allEpisodes = beliefs.flatMap((belief) =>
-  belief.data.episodes.map((episode) => ({
+  normalizeInstitutionalBelief(belief).episodes.map((episode) => ({
     ...episode,
     beliefId: belief.id,
     coverageRegionId: resolveInstitutionalCoverageRegion({

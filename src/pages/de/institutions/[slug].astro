@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import InstitutionalBeliefDetailPage from '../../../components/InstitutionalBeliefDetailPage.astro';
+import { currentInstitutionalTranslationMap } from '../../../lib/institutionalBeliefs';
 
 export async function getStaticPaths() {
   const beliefs = await getCollection('institutionalBeliefs');
@@ -8,12 +9,11 @@ export async function getStaticPaths() {
     'institutionalBeliefTranslations',
     (translation) => translation.data.locale === 'de',
   );
+  const currentTranslations = currentInstitutionalTranslationMap(beliefs, translations);
 
-  return translations.flatMap((translation) => {
-    const belief = beliefs.find((candidate) => candidate.id === translation.data.entryId);
-
-    return belief &&
-      translation.data.sourceReviewedAt.getTime() === belief.data.reviewedAt.getTime()
+  return beliefs.flatMap((belief) => {
+    const translation = currentTranslations.get(belief.id);
+    return translation
       ? [{
           params: { slug: belief.id },
           props: { belief, translation },

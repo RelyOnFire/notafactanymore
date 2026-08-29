@@ -22,7 +22,7 @@ const {
   description = locale === 'de'
     ? 'Ein Katalog wissenschaftlicher Aussagen, die einst vernünftigerweise als Tatsachen galten, später aber durch bessere Evidenz widerlegt, ersetzt, eingeschränkt, neu eingeordnet oder korrigiert wurden.'
     : siteConfig.description,
-  image = '/social-card.png',
+  image = locale === 'de' ? '/social-card-de.png' : '/social-card.png',
   imageAlt = locale === 'de'
     ? `${siteConfig.name} - Fakten haben eine Geschichte.`
     : `${siteConfig.name} - Facts have a history.`,

@@ -1,6 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
-import type { SiteLocale } from '../lib/i18n';
+import {
+  formatInstitutionalPeriod,
+  institutionalRegionLabel,
+  type SiteLocale,
+} from '../lib/i18n';
 
 interface Props {
   locale?: SiteLocale;
@@ -63,11 +67,6 @@ const typeLabels: Record<string, string> = locale === 'de'
       military: 'Military',
     };
 
-const formatPeriod = (startYear: number, endYear: number, endOpen = false) => {
-  if (startYear === endYear) return `${startYear}${endOpen ? '+' : ''}`;
-  return `${startYear}–${endYear}${endOpen ? '+' : ''}`;
-};
-
 const compactInstitutionLabel = (institutions: string[]) => {
   if (institutions.length <= 2) return institutions.join(' · ');
   const more = institutions.length - 2;
@@ -94,7 +93,17 @@ const entries = beliefs.map((belief) => {
       const translatedEpisode = translatedEpisodes.get(episode.id);
       return {
         ...episode,
-        period: formatPeriod(episode.startYear, episode.endYear, episode.endOpen),
+        period: formatInstitutionalPeriod(
+          {
+            startYear: episode.startYear,
+            endYear: episode.endYear,
+            endOpen: episode.endOpen,
+            periodLabel: episode.periodLabel,
+            translatedPeriodLabel: translatedEpisode?.periodLabel,
+          },
+          locale,
+        ),
+        regionLabel: institutionalRegionLabel(episode.region, locale),
         polity: translatedEpisode?.polity ?? episode.polity,
         institutions: translatedEpisode?.institutions ?? episode.institutions,
         institutionalContext:
@@ -113,9 +122,16 @@ const entries = beliefs.map((belief) => {
   return aStart - bStart || a.title.localeCompare(b.title, locale);
 });
 
-const regions = [...new Set(
-  entries.flatMap((item) => item.episodes.map((episode) => episode.region)),
-)].sort((a, b) => a.localeCompare(b, locale));
+const regions = [
+  ...new Map(
+    entries.flatMap((item) =>
+      item.episodes.map((episode) => [
+        episode.region,
+        { value: episode.region, label: episode.regionLabel },
+      ] as const),
+    ),
+  ).values(),
+].sort((a, b) => a.label.localeCompare(b.label, locale));
 
 const polityGroupFor = (polity: string) => {
   for (const separator of [' — ', ' – ', ' - ']) {
@@ -289,12 +305,14 @@ const highestStrengthFor = (episodes: typeof allEpisodes) =>
   );
 
 const compactPeriodFor = (episodes: typeof allEpisodes) => {
+  if (episodes.length === 1) return episodes[0].period;
+
   const startYear = Math.min(...episodes.map((episode) => episode.startYear));
   const endYear = Math.max(...episodes.map((episode) => episode.endYear));
   const endOpen = episodes.some(
     (episode) => episode.endOpen && episode.endYear === endYear,
   );
-  return formatPeriod(startYear, endYear, endOpen);
+  return formatInstitutionalPeriod({ startYear, endYear, endOpen }, locale);
 };
 
 const compactPolitiesFor = (episodes: typeof allEpisodes) =>
@@ -426,16 +444,16 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
           <section>
             <p class="group-label">{copy.filterRegion}</p>
             <div class="filters" role="group" aria-label={copy.filterRegion}>
-              {regions.map((region) => (
+              {regions.map(({ value, label }) => (
                 <button
                   class="filter-button"
                   type="button"
                   data-filter-type="region"
-                  data-filter-value={region}
-                  data-filter-label={region}
+                  data-filter-value={value}
+                  data-filter-label={label}
                   aria-pressed="false"
                 >
-                  {region}<span class="count">{countEpisodes((episode) => episode.region === region)}</span>
+                  {label}<span class="count">{countEpisodes((episode) => episode.region === value)}</span>
                 </button>
               ))}
             </div>
@@ -563,6 +581,7 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
               item.currentUnderstanding,
               episode.polity,
               episode.region,
+              episode.regionLabel,
               episode.period,
               episode.summary,
               episode.institutionalContext ?? '',
@@ -703,6 +722,20 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
     type: new Set<string>(),
     strength: new Set<string>(),
   };
+
+  const allowedValues: Record<string, Set<string>> = {
+    decade: new Set<string>(),
+    region: new Set<string>(),
+    polity: new Set<string>(),
+    type: new Set<string>(),
+    strength: new Set<string>(),
+  };
+
+  filterButtons.forEach((button) => {
+    const type = button.dataset.filterType ?? '';
+    const value = button.dataset.filterValue ?? '';
+    if (value && allowedValues[type]) allowedValues[type].add(value);
+  });
 
   const parameterByType: Record<string, string> = {
     decade: 'decades',
@@ -853,17 +886,24 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
     const visiblePolities = [...new Set(
       cards.map((card) => card.dataset.polity ?? '').filter(Boolean)
     )];
-    const starts = cards.map((card) => Number(card.dataset.startYear));
-    const ends = cards.map((card) => Number(card.dataset.endYear));
-    const start = Math.min(...starts);
-    const end = Math.max(...ends);
-    const endOpen = cards.some(
-      (card) => card.dataset.endOpen === 'true' && Number(card.dataset.endYear) === end,
-    );
+    const singlePeriod = cards.length === 1 ? cards[0].dataset.period : undefined;
 
-    period.textContent = start === end
-      ? `${start}${endOpen ? '+' : ''}`
-      : `${start}–${end}${endOpen ? '+' : ''}`;
+    if (singlePeriod) {
+      period.textContent = singlePeriod;
+    } else {
+      const starts = cards.map((card) => Number(card.dataset.startYear));
+      const ends = cards.map((card) => Number(card.dataset.endYear));
+      const start = Math.min(...starts);
+      const end = Math.max(...ends);
+      const endOpen = cards.some(
+        (card) => card.dataset.endOpen === 'true' && Number(card.dataset.endYear) === end,
+      );
+
+      period.textContent = start === end
+        ? `${start}${endOpen ? '+' : ''}`
+        : `${start}–${end}${endOpen ? '+' : ''}`;
+    }
+
     polities.textContent = visiblePolities.join(' · ');
   };
 
@@ -1095,7 +1135,9 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
       ?.split(',')
       .map((value) => value.trim())
       .filter(Boolean)
-      .forEach((value) => selected[type].add(value));
+      .forEach((value) => {
+        if (allowedValues[type]?.has(value)) selected[type].add(value);
+      });
   });
 
   if (search) search.value = url.searchParams.get('q') ?? '';

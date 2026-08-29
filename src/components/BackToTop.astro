@@ -10,6 +10,9 @@ const topLabel = locale === 'de' ? 'Nach oben' : 'Back to top';
 const topShortLabel = locale === 'de' ? 'Oben' : 'Top';
 const shareLabel = locale === 'de' ? 'Teilen' : 'Share';
 const copiedLabel = locale === 'de' ? 'Kopiert' : 'Copied';
+const copiedMessage = locale === 'de'
+  ? 'Link in die Zwischenablage kopiert'
+  : 'Link copied to clipboard';
 
 const pathname = Astro.url.pathname;
 const shareEnabled = /^\/(?:de\/)?(?:browse|timeline|institutions(?:\/[^/]+)?|entries\/[^/]+)\/?$/.test(pathname);
@@ -24,6 +27,7 @@ const shareEnabled = /^\/(?:de\/)?(?:browse|timeline|institutions(?:\/[^/]+)?|en
       title={shareLabel}
       data-label={shareLabel}
       data-copied-label={copiedLabel}
+      data-copied-message={copiedMessage}
     >
       <svg class="share-page-icon" aria-hidden="true" viewBox="0 0 24 24">
         <circle cx="18" cy="5" r="2.4"></circle>
@@ -33,6 +37,15 @@ const shareEnabled = /^\/(?:de\/)?(?:browse|timeline|institutions(?:\/[^/]+)?|en
       </svg>
       <span class="share-page-label">{shareLabel}</span>
     </button>
+  )}
+
+  {shareEnabled && (
+    <span
+      class="share-status"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+    ></span>
   )}
 
   <button
@@ -50,6 +63,7 @@ const shareEnabled = /^\/(?:de\/)?(?:browse|timeline|institutions(?:\/[^/]+)?|en
 <script>
   const topButton = document.querySelector<HTMLButtonElement>('.back-to-top');
   const shareButton = document.querySelector<HTMLButtonElement>('.share-page');
+  const shareStatus = document.querySelector<HTMLElement>('.share-status');
 
   if (topButton) {
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -77,6 +91,7 @@ const shareEnabled = /^\/(?:de\/)?(?:browse|timeline|institutions(?:\/[^/]+)?|en
   if (shareButton) {
     const defaultLabel = shareButton.dataset.label ?? 'Share';
     const copiedLabel = shareButton.dataset.copiedLabel ?? 'Copied';
+    const copiedMessage = shareButton.dataset.copiedMessage ?? 'Link copied to clipboard';
     const visibleLabel = shareButton.querySelector<HTMLElement>('.share-page-label');
     let copiedTimer: number | undefined;
 
@@ -86,12 +101,20 @@ const shareEnabled = /^\/(?:de\/)?(?:browse|timeline|institutions(?:\/[^/]+)?|en
       shareButton.title = copiedLabel;
       shareButton.classList.add('is-copied');
 
+      if (shareStatus) {
+        shareStatus.textContent = '';
+        window.requestAnimationFrame(() => {
+          shareStatus.textContent = copiedMessage;
+        });
+      }
+
       if (copiedTimer) window.clearTimeout(copiedTimer);
       copiedTimer = window.setTimeout(() => {
         if (visibleLabel) visibleLabel.textContent = defaultLabel;
         shareButton.setAttribute('aria-label', defaultLabel);
         shareButton.title = defaultLabel;
         shareButton.classList.remove('is-copied');
+        if (shareStatus) shareStatus.textContent = '';
       }, 1600);
     };
 
@@ -113,8 +136,8 @@ const shareEnabled = /^\/(?:de\/)?(?:browse|timeline|institutions(?:\/[^/]+)?|en
       textarea.select();
 
       try {
-        document.execCommand('copy');
-        showCopied();
+        const copied = document.execCommand('copy');
+        if (copied) showCopied();
       } finally {
         textarea.remove();
       }
@@ -139,6 +162,18 @@ const shareEnabled = /^\/(?:de\/)?(?:browse|timeline|institutions(?:\/[^/]+)?|en
 </script>
 
 <style>
+  .share-status {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
   .floating-actions {
     position: fixed;
     right: max(1rem, env(safe-area-inset-right));

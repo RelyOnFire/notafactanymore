@@ -191,6 +191,7 @@ const institutionalEpisode = z.object({
   startYear: z.number().int(),
   endYear: z.number().int(),
   endOpen: z.boolean().optional().default(false),
+  periodLabel: z.string().min(1).optional(),
   strength: institutionalStrength,
   institutionTypes: z.array(institutionalType).min(1),
   institutions: z.array(z.string().min(1)).min(1),
@@ -241,7 +242,8 @@ const institutionalBeliefTranslations = defineCollection({
       z.object({
         id: mediaId,
         polity: z.string().min(1),
-              institutions: z.array(z.string().min(1)).min(1).optional(),
+        periodLabel: z.string().min(1).optional(),
+        institutions: z.array(z.string().min(1)).min(1).optional(),
         institutionalContext: z.string().min(1).optional(),
         summary: z.string().min(1),
         consequences: z.array(z.string().min(1)).min(1),

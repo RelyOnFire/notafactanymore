@@ -1,8 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import type { SiteLocale } from '../lib/i18n';
-import { translationMatchesEntry } from '../lib/i18n';
+import {
+  formatInstitutionalPeriod,
+  translationMatchesEntry,
+  type SiteLocale,
+} from '../lib/i18n';
 
 interface Props {
   belief: any;
@@ -45,11 +48,6 @@ const strengthLabels: Record<string, string> = locale === 'de'
       'enforced-doctrine': 'Enforced doctrine',
     };
 
-const formatPeriod = (startYear: number, endYear: number, endOpen = false) => {
-  if (startYear === endYear) return `${startYear}${endOpen ? '+' : ''}`;
-  return `${startYear}–${endYear}${endOpen ? '+' : ''}`;
-};
-
 const episodes = belief.data.episodes
   .map((episode: any) => {
     const translatedEpisode = translatedEpisodes.get(episode.id) as any;
@@ -61,7 +59,16 @@ const episodes = belief.data.episodes
       institutionalContext:
         translatedEpisode?.institutionalContext ?? episode.institutionalContext,
       consequences: translatedEpisode?.consequences ?? episode.consequences,
-      period: formatPeriod(episode.startYear, episode.endYear, episode.endOpen),
+      period: formatInstitutionalPeriod(
+        {
+          startYear: episode.startYear,
+          endYear: episode.endYear,
+          endOpen: episode.endOpen,
+          periodLabel: episode.periodLabel,
+          translatedPeriodLabel: translatedEpisode?.periodLabel,
+        },
+        locale,
+      ),
     };
   })
   .sort((a: any, b: any) =>
@@ -151,7 +158,7 @@ if (belief.data.entryId) {
   type="article"
   alternatePath={alternatePath}
 >
-  <main class="institution-case container">
+  <article class="institution-case container">
     <a class="back-link" href={timelinePath}>← {copy.back}</a>
 
     <header class="case-head">
@@ -271,7 +278,7 @@ if (belief.data.entryId) {
     <p class="reviewed">
       {copy.reviewed}: {belief.data.reviewedAt.toLocaleDateString(locale === 'de' ? 'de-AT' : 'en-GB')}
     </p>
-  </main>
+  </article>
 </BaseLayout>
 
 <style>

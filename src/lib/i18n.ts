@@ -103,6 +103,79 @@ export const sourcePurposeLabels: Record<SiteLocale, Record<string, string>> = {
   },
 };
 
+export const institutionalRegionLabels: Record<SiteLocale, Record<string, string>> = {
+  en: {},
+  de: {
+    Africa: 'Afrika',
+    Caucasus: 'Kaukasus',
+    'Central Africa': 'Zentralafrika',
+    'Central Asia': 'Zentralasien',
+    'Cross-regional': 'Regionenübergreifend',
+    'East Africa': 'Ostafrika',
+    'East Asia': 'Ostasien',
+    'Eastern Europe': 'Osteuropa',
+    Eurasia: 'Eurasien',
+    Europe: 'Europa',
+    'Europe and Asia': 'Europa und Asien',
+    Global: 'Global',
+    'Latin America': 'Lateinamerika',
+    'Latin America & Caribbean': 'Lateinamerika und Karibik',
+    'Middle East': 'Naher Osten',
+    'North Africa': 'Nordafrika',
+    'North America': 'Nordamerika',
+    'Northern Europe': 'Nordeuropa',
+    Oceania: 'Ozeanien',
+    'South America': 'Südamerika',
+    'South Asia': 'Südasien',
+    'Southeast Asia': 'Südostasien',
+    'Southern Africa': 'Südliches Afrika',
+    'West Africa': 'Westafrika',
+    'Western Europe': 'Westeuropa',
+  },
+};
+
+interface InstitutionalPeriodOptions {
+  startYear: number;
+  endYear: number;
+  endOpen?: boolean;
+  periodLabel?: string;
+  translatedPeriodLabel?: string;
+}
+
+const germanInstitutionalPeriodLabel = (label: string) =>
+  label
+    .replace(/\bCOVID-19 emergency period\b/gi, 'COVID-19-Notstandsphase')
+    .replace(/\bearly[\s-]+(\d{4})s\b/gi, 'Anfang der $1er')
+    .replace(/\bmid[\s-]+(\d{4})s\b/gi, 'Mitte der $1er')
+    .replace(/\blate[\s-]+(\d{4})s\b/gi, 'Ende der $1er')
+    .replace(/\bat least\s+(\d{4})\b/gi, 'mindestens $1')
+    .replace(/\bpresent\b/gi, 'heute')
+    .replace(/\bcirca\s+(\d{4})\b/gi, 'ca. $1')
+    .replace(/\bc\.\s*(\d{4})\b/gi, 'ca. $1')
+    .replace(/\b(\d{4})s\b/g, '$1er');
+
+export const institutionalRegionLabel = (region: string, locale: SiteLocale) =>
+  institutionalRegionLabels[locale][region] ?? region;
+
+export const formatInstitutionalPeriod = (
+  {
+    startYear,
+    endYear,
+    endOpen = false,
+    periodLabel,
+    translatedPeriodLabel,
+  }: InstitutionalPeriodOptions,
+  locale: SiteLocale,
+) => {
+  const authoredLabel = locale === 'de'
+    ? translatedPeriodLabel ?? (periodLabel ? germanInstitutionalPeriodLabel(periodLabel) : undefined)
+    : periodLabel;
+
+  if (authoredLabel) return authoredLabel;
+  if (startYear === endYear) return `${startYear}${endOpen ? '+' : ''}`;
+  return `${startYear}–${endYear}${endOpen ? '+' : ''}`;
+};
+
 export const categoryLabel = (category: string, locale: SiteLocale) =>
   categoryLabels[locale][category] ?? category;
 

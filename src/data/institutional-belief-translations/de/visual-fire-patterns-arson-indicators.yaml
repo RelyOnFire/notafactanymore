@@ -1,9 +1,14 @@
+schemaVersion: 2
 locale: de
 entryId: visual-fire-patterns-arson-indicators
 sourceReviewedAt: 2026-08-24
 title: Sichtbare Brandmuster als Hinweise auf Brandbeschleuniger
-claim: Bestimmte sichtbare Spuren nach einem Brand – darunter glänzende „Alligator“-Verkohlung, gesprungenes beziehungsweise fein rissiges Glas, enge V-Muster sowie ungewöhnlich tiefe oder bodennahe Brandspuren – wurden als Hinweise darauf behandelt, dass ein Feuer wegen eines flüssigen Brandbeschleunigers ungewöhnlich heiß oder schnell gebrannt habe.
-currentUnderstanding: Brandmuster können bei der Rekonstruktion von Ursprungsort und Brandverlauf helfen, doch viele traditionelle „Brandstiftungsindikatoren“ sind weder spezifisch für brennbare Flüssigkeiten noch für vorsätzliche Brandlegung. Flashover, Lüftung, Löschwasser, Brennstoffanordnung und normale Branddynamik können Spuren erzeugen, die früher Brandbeschleunigern zugeschrieben wurden. Moderne Brandermittlung verlangt daher Hypothesenprüfung, Kontext und bestätigende physikalische oder chemische Evidenz statt eines einzelnen sichtbaren Musters als Beweis für Brandstiftung.
+proposition:
+  summary: >-
+    Bestimmte sichtbare Spuren nach einem Brand – darunter glänzende „Alligator“-Verkohlung, gesprungenes beziehungsweise fein rissiges Glas, enge V-Muster sowie ungewöhnlich tiefe oder bodennahe Brandspuren – wurden als Hinweise darauf behandelt, dass ein Feuer wegen eines flüssigen Brandbeschleunigers ungewöhnlich heiß oder schnell gebrannt habe.
+correction:
+  summary: >-
+    Brandmuster können bei der Rekonstruktion von Ursprungsort und Brandverlauf helfen, doch viele traditionelle „Brandstiftungsindikatoren“ sind weder spezifisch für brennbare Flüssigkeiten noch für vorsätzliche Brandlegung. Flashover, Lüftung, Löschwasser, Brennstoffanordnung und normale Branddynamik können Spuren erzeugen, die früher Brandbeschleunigern zugeschrieben wurden. Moderne Brandermittlung verlangt daher Hypothesenprüfung, Kontext und bestätigende physikalische oder chemische Evidenz statt eines einzelnen sichtbaren Musters als Beweis für Brandstiftung.
 episodes:
   - id: united-states-1980-1992
     polity: Vereinigte Staaten
@@ -18,3 +23,25 @@ episodes:
       - Sichtbare Brandmuster dienten als Grundlage für Schlussfolgerungen über ungewöhnlich schnelle oder heiße Brände und möglichen Brandbeschleunigereinsatz
       - Schwache Musterdeutungen konnten dazu beitragen, versehentliche Brände als vorsätzlich verursacht einzustufen
       - Solche Deutungen gelangten in Ermittlungsberichte und Sachverständigenaussagen in Straf- und Versicherungsverfahren
+    mechanism:
+      summary: >-
+        Das National Bureau of Standards veröffentlichte Handbook 134 als staatliches Nachschlagewerk; Mitarbeiter der National Fire Academy berieten bei seiner Erstellung. Die institutionelle Autorität verbreitete die Deutungen sichtbarer Brandmuster über Fachliteratur und Ausbildung.
+    institutionalCorrection:
+      periodLabel: Ab 1992
+      summary: >-
+        NFPA 921 etablierte die wissenschaftliche Methode und Hypothesenprüfung für Brandermittlungen und wies die unbelegte Verwendung einzelner sichtbarer Muster als Nachweis von Brandbeschleunigern oder Brandstiftung zurück.
+evidence:
+  - id: fire-review-proposition
+  - id: fire-review-correction
+  - id: fire-nij-correction
+  - id: fire-handbook-carrier
+    note: Amtlicher NIST-Nachweis für NBS Handbook 134, das 1980 als Nachschlagewerk für angehende und erfahrene Brandermittler veröffentlicht wurde.
+  - id: fire-handbook-mechanism
+  - id: fire-review-mechanism
+    note: Der Überblick beschreibt, wie Alligatorverkohlung, Glasrissbildung, Verkohlungstiefe, Abplatzungen und verwandte Muster trotz geringer wissenschaftlicher Validierung weithin als Brandstiftungsindikatoren verwendet wurden, und erläutert die Rolle von NFPA 921 bei der Korrektur dieser Deutungen.
+  - id: fire-review-consequences
+  - id: fire-review-institutional-correction
+  - id: fire-nfpa-current-context
+    note: Das NIST-Register forensischer Standards führt NFPA 921:2021 als Konsensleitfaden für Brand- und Explosionsermittlungen.
+  - id: fire-nij-institutional-correction
+    note: Die aktuelle bundesstaatliche Ermittlungsleitlinie weist Ermittler an, Tatortuntersuchungen gemäß NFPA 921 und anderen anerkannten nationalen Leitlinien durchzuführen, statt sich auf einzelne traditionelle Brandindikatoren zu stützen.

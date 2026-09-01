@@ -1,94 +1,96 @@
+schemaVersion: 2
 locale: de
 entryId: beriberi-infectious-disease
 sourceReviewedAt: '2026-08-25'
 title: Beriberi als Infektionskrankheit statt als Mangelkrankheit
-claim: Militärische und kolonialmedizinische Institutionen in Japan und Niederländisch-Indien behandelten Beriberi
-  vorwiegend als Infektionskrankheit statt als ernährungsbedingte Erkrankung. In Japan hielt die medizinische Führung
-  des Heeres an dieser Erklärung fest, obwohl die Marine Beriberi durch Ernährungsänderungen nahezu beseitigt hatte.
-  In Niederländisch-Indien kam eine staatliche Untersuchungskommission zunächst zu dem Schluss, eine bakterielle
-  Infektion mit Toxinwirkung verursache die Krankheit, bevor Labor- und Gefängnisdaten den Blick auf polierten Reis
-  lenkten.
-currentUnderstanding: Beriberi wird durch Thiaminmangel (Vitamin B1) verursacht. Eine stark von poliertem Reis geprägte
-  Ernährung kann einen solchen Mangel hervorrufen, weil beim Polieren thiaminreiche Außenschichten entfernt werden.
-  Infektionstheorien erklärten weder die Ergebnisse der japanischen Marine noch Eijkmans ernährungsabhängige Tierversuche,
-  Vordermans Gefängnisstudie oder die spätere biochemische Identifizierung von Thiamin. Die Ursache war anfangs
-  tatsächlich unsicher; der institutionelle Fehler lag im Festhalten an beziehungsweise in der amtlichen Bestätigung
-  eines Infektionsmodells, nachdem starke Ernährungsbelege vorlagen.
+proposition:
+  summary: >-
+    Militärische und kolonialmedizinische Institutionen in Japan und Niederländisch-Indien behandelten Beriberi vorwiegend als Infektionskrankheit statt als ernährungsbedingte Erkrankung. In Japan hielt die medizinische Führung des Heeres an dieser Erklärung fest, obwohl die Marine Beriberi durch Ernährungsänderungen nahezu beseitigt hatte. In Niederländisch-Indien kam eine staatliche Untersuchungskommission zunächst zu dem Schluss, eine bakterielle Infektion mit Toxinwirkung verursache die Krankheit, bevor Labor- und Gefängnisdaten den Blick auf polierten Reis lenkten.
+correction:
+  summary: >-
+    Beriberi wird durch Thiaminmangel (Vitamin B1) verursacht. Eine stark von poliertem Reis geprägte Ernährung kann einen solchen Mangel hervorrufen, weil beim Polieren thiaminreiche Außenschichten entfernt werden. Infektionstheorien erklärten weder die Ergebnisse der japanischen Marine noch Eijkmans ernährungsabhängige Tierversuche, Vordermans Gefängnisstudie oder die spätere biochemische Identifizierung von Thiamin. Die Ursache war anfangs tatsächlich unsicher; der institutionelle Fehler lag im Festhalten an beziehungsweise in der amtlichen Bestätigung eines Infektionsmodells, nachdem starke Ernährungsbelege vorlagen.
 impact:
-  summary: 'Beriberi erzeugte in Asien zwei besonders aufschlussreiche institutionelle Episoden. Japans Marine änderte
-    die Ernährung und beseitigte die Krankheit nahezu, während das Heer an Infektion und poliertem Reis festhielt.
-    In Niederländisch-Indien entsandte die Regierung 1886 eine eigene Beriberi-Kommission, deren Leiter von einer
-    bakteriellen Tropeninfektion mit Toxinwirkung überzeugt zurückkehrten. Dasselbe koloniale Medizinsystem erzeugte
-    dann die Gegenbelege: Eijkmans Versuche verbanden polierten Reis mit einer beriberiähnlichen Neuropathie, und
-    Regierungsarzt Adolphe Vorderman fand in Gefängnissen einen starken Zusammenhang zwischen Reissorte und menschlichem
-    Beriberi.'
+  summary: >-
+    Beriberi erzeugte in Asien zwei besonders aufschlussreiche institutionelle Episoden. Japans Marine änderte die Ernährung und beseitigte die Krankheit nahezu, während das Heer an Infektion und poliertem Reis festhielt. In Niederländisch-Indien entsandte die Regierung 1886 eine eigene Beriberi-Kommission, deren Leiter von einer bakteriellen Tropeninfektion mit Toxinwirkung überzeugt zurückkehrten. Dasselbe koloniale Medizinsystem erzeugte dann die Gegenbelege: Eijkmans Versuche verbanden polierten Reis mit einer beriberiähnlichen Neuropathie, und Regierungsarzt Adolphe Vorderman fand in Gefängnissen einen starken Zusammenhang zwischen Reissorte und menschlichem Beriberi.
   highlights:
-  - value: 1884–85
-    label: Ernährungsexperimente und Rationsreform der japanischen Marine wurden vom Verschwinden von Beriberi in
-      der Marine gefolgt
-  - value: 34 von 63 vs. 1 von 27
-    label: 'Gefängnisse mit endemischem oder gelegentlichem Beriberi in einer späteren Übersicht: polierter weißer
-      Reis gegenüber unpoliertem rotem Reis'
-    note: Die historische Übersicht nennt endemisches Beriberi in 34 von 63 Gefängnissen mit poliertem weißen Reis
-      und gelegentliches Beriberi in nur einem von 27 Gefängnissen mit unpoliertem rotem Reis.
-  - value: 1904–05
-    label: das japanische Heer erlitt weiterhin massive Beriberi-Ausfälle, obwohl die Marine starke Ernährungsgegenbelege
-      geliefert hatte
+    - value: 1884–85
+      label: Ernährungsexperimente und Rationsreform der japanischen Marine wurden vom Verschwinden von Beriberi in der Marine gefolgt
+    - value: 34 von 63 vs. 1 von 27
+      label: 'Gefängnisse mit endemischem oder gelegentlichem Beriberi in einer späteren Übersicht: polierter weißer Reis gegenüber unpoliertem rotem Reis'
+      note: Die historische Übersicht nennt endemisches Beriberi in 34 von 63 Gefängnissen mit poliertem weißen Reis und gelegentliches Beriberi in nur einem von 27 Gefängnissen mit unpoliertem rotem Reis.
+    - value: 1904–05
+      label: das japanische Heer erlitt weiterhin massive Beriberi-Ausfälle, obwohl die Marine starke Ernährungsgegenbelege geliefert hatte
   context:
-  - Als die ersten Kommissionen Beriberi untersuchten, existierte noch keine Vitamintheorie. Die Bakteriologie veränderte
-    gerade die Medizin, weshalb eine infektiöse Hypothese zunächst plausibel war. Der institutionelle Fehler entstand
-    erst, als starke Ernährungsgegenbelege vorlagen und die Infektionserklärung dennoch die Politik weiter prägte.
-  - 'In Japan geht es vor allem um institutionelles Festhalten: Das Heer behielt Infektionstheorie und Verpflegungspolitik
-    trotz der Gegenbelege der Marine bei. Die niederländisch-indische Episode ist anders: Eine staatlich gestützte
-    Infektionserklärung wurde durch Forschung innerhalb desselben kolonialen Medizin- und Gefängnissystems schrittweise
-    widerlegt.'
-  - Vordermans große amtliche Gefängnisuntersuchung von 1897 und die anschließende Hinwendung zu unpoliertem Reis
-    markieren einen wichtigen institutionellen Wandel in Niederländisch-Indien. Eine weltweite Einigung über Vitaminmangel
-    bestand damals noch nicht; Thiamin selbst war ebenfalls noch nicht isoliert.
+    - Als die ersten Kommissionen Beriberi untersuchten, existierte noch keine Vitamintheorie. Die Bakteriologie veränderte gerade die Medizin, weshalb eine infektiöse Hypothese zunächst plausibel war. Der institutionelle Fehler entstand erst, als starke Ernährungsgegenbelege vorlagen und die Infektionserklärung dennoch die Politik weiter prägte.
+    - 'In Japan geht es vor allem um institutionelles Festhalten: Das Heer behielt Infektionstheorie und Verpflegungspolitik trotz der Gegenbelege der Marine bei. Die niederländisch-indische Episode ist anders: Eine staatlich gestützte Infektionserklärung wurde durch Forschung innerhalb desselben kolonialen Medizin- und Gefängnissystems schrittweise widerlegt.'
+    - Vordermans große amtliche Gefängnisuntersuchung von 1897 und die anschließende Hinwendung zu unpoliertem Reis markieren einen wichtigen institutionellen Wandel in Niederländisch-Indien. Eine weltweite Einigung über Vitaminmangel bestand damals noch nicht; Thiamin selbst war ebenfalls noch nicht isoliert.
 episodes:
-- id: japan-army-1885-1905
-  polity: Japan
-  institutions:
-  - Kaiserlich Japanisches Heer
-  - Heeresmedizinalabteilung des Kaiserlich Japanischen Heeres
-  institutionalContext: Marine und Heer verfolgten unterschiedliche medizinische Strategien. Nach Takakis Vergleichsfahrten
-    und der Ernährungsreform brach Beriberi in der Marine ein. Die medizinische Führung des Heeres hielt einen infektiösen
-    Ursprung weiterhin für plausibler und lehnte die Ernährungserklärung ab, während polierter Reis die Heeresverpflegung
-    prägte. Der Russisch-Japanische Krieg endete 1905; Thiamin wurde erst später identifiziert.
-  summary: Seit Mitte der 1880er-Jahre lieferten Ernährungsexperimente und Rationsreform der japanischen Marine
-    starke Hinweise auf eine ernährungsbedingte Ursache von Beriberi und beseitigten die Krankheit unter Seeleuten
-    nahezu. Die medizinische Führung des Heeres hielt dennoch an einem infektiösen Ursprung fest. Im Russisch-Japanischen
-    Krieg erlitt das Heer massive Beriberi-Erkrankungen und -Todesfälle; spätere Vitaminforschung identifizierte
-    Thiaminmangel als Ursache.
-  consequences:
-  - Fortführung einer stark auf poliertem Reis beruhenden Heeresverpflegung trotz starker Gegenbelege
-  - Sehr hohe Zahl an Beriberi-Erkrankungen bei Soldaten im Krieg
-  - Tausende vermeidbare Todesfälle und Verlust militärischer Einsatzfähigkeit
-  - Verzögerte institutionelle Anerkennung eines Ernährungsmechanismus
-- id: dutch-east-indies-1886-1897
-  polity: Niederländisch-Indien
-  institutions:
-  - niederländische Regierungskommission zur Beriberi-Forschung
-  - Medizinisches Laboratorium in Weltevreden
-  - ziviler Medizinaldienst und Gefängnisgesundheitsverwaltung Niederländisch-Indiens
-  institutionalContext: 1886 entsandte die niederländische Regierung Cornelis Pekelharing und Cornelis Winkler zur
-    Untersuchung des schweren Beriberi-Problems in Niederländisch-Indien; Christiaan Eijkman wurde der Kommission
-    für die bakteriologischen Arbeiten beigeordnet. Pekelharing und Winkler deuteten Beriberi als Erkrankung peripherer
-    Nerven durch Bakterien und ein spezifisches Toxin und kehrten in der Überzeugung zurück, es handle sich um eine
-    tropische Infektionskrankheit. Eijkman blieb im staatlichen Labor und gewann zunehmend Hinweise auf die Ernährung.
-    Regierungsarzt und Gefängnisinspektor Adolphe Vorderman prüfte anschließend mit Gefängnisakten und verblindeter
-    Reisbestimmung auf Java und Madura den Zusammenhang beim Menschen. Sein Bericht von 1897 zeigte Beriberi fast
-    ausschließlich in Verbindung mit poliertem statt unpoliertem Reis.
-  summary: 'Die niederländisch-indische Episode zeigt eine institutionelle Selbstkorrektur. Eine Regierungskommission
-    kam zunächst zu einem Infektionsurteil, das gut zur neuen Bakteriologie der 1880er-Jahre passte. Die im kolonialen
-    Medizinalsystem fortgesetzte Forschung untergrub dieses Urteil: Eijkmans Versuche belasteten polierten Reis,
-    und Vordermans amtliche Gefängnisstudie zeigte einen starken Zusammenhang zwischen Reissorte und Beriberi. Die
-    Evidenz lenkte die Praxis auf Ernährung, lange bevor Thiamin selbst isoliert wurde.'
-  consequences:
-  - Förmliches koloniales Forschungsprogramm, das zunächst um eine bakterielle und toxische Erklärung organisiert
-    war
-  - Fortgesetzte bakteriologische Forschung, während eine Ernährungsursache institutionell randständig blieb
-  - Verzögerte Nutzung reisbasierter Prävention in Einrichtungen mit regelmäßig poliertem Reis
-  - Groß angelegte amtliche Gefängnisuntersuchung, nachdem die Ernährungshinweise stärker wurden
-  - Umstellung auf unpolierten Reis im Gefängniswesen, als der koloniale Gesundheitsdienst die neuen Befunde in
-    Prävention übersetzte
+  - id: japan-army-1885-1905
+    polity: Japan
+    institutions:
+      - Kaiserlich Japanisches Heer
+      - Heeresmedizinalabteilung des Kaiserlich Japanischen Heeres
+    institutionalContext: >-
+      Marine und Heer verfolgten unterschiedliche medizinische Strategien. Nach Takakis Vergleichsfahrten und der Ernährungsreform brach Beriberi in der Marine ein. Die medizinische Führung des Heeres hielt einen infektiösen Ursprung weiterhin für plausibler und lehnte die Ernährungserklärung ab, während polierter Reis die Heeresverpflegung prägte. Der Russisch-Japanische Krieg endete 1905; Thiamin wurde erst später identifiziert.
+    summary: >-
+      Seit Mitte der 1880er-Jahre lieferten Ernährungsexperimente und Rationsreform der japanischen Marine starke Hinweise auf eine ernährungsbedingte Ursache von Beriberi und beseitigten die Krankheit unter Seeleuten nahezu. Die medizinische Führung des Heeres hielt dennoch an einem infektiösen Ursprung fest. Im Russisch-Japanischen Krieg erlitt das Heer massive Beriberi-Erkrankungen und -Todesfälle; spätere Vitaminforschung identifizierte Thiaminmangel als Ursache.
+    consequences:
+      - Fortführung einer stark auf poliertem Reis beruhenden Heeresverpflegung trotz starker Gegenbelege
+      - Sehr hohe Zahl an Beriberi-Erkrankungen bei Soldaten im Krieg
+      - Tausende vermeidbare Todesfälle und Verlust militärischer Einsatzfähigkeit
+      - Verzögerte institutionelle Anerkennung eines Ernährungsmechanismus
+    mechanism:
+      summary: >-
+        Die medizinische Führung des Heeres behielt trotz der starken Ernährungsgegenbelege der Marine die Infektionserklärung und eine von poliertem Reis geprägte Rationspolitik bei, sodass die Theorie die Militärverpflegung weiter bestimmte.
+    institutionalCorrection:
+      summary: >-
+        Spätere Forschung etablierte Thiaminmangel als Ursache; in den vorliegenden Quellen ist jedoch kein datierter institutioneller Akt des Kaiserlich Japanischen Heeres dokumentiert, der die Beriberi-Lehre oder Rationspolitik förmlich korrigierte.
+  - id: dutch-east-indies-1886-1897
+    polity: Niederländisch-Indien
+    institutions:
+      - niederländische Regierungskommission zur Beriberi-Forschung
+      - Medizinisches Laboratorium in Weltevreden
+      - ziviler Medizinaldienst und Gefängnisgesundheitsverwaltung Niederländisch-Indiens
+    institutionalContext: >-
+      1886 entsandte die niederländische Regierung Cornelis Pekelharing und Cornelis Winkler zur Untersuchung des schweren Beriberi-Problems in Niederländisch-Indien; Christiaan Eijkman wurde der Kommission für die bakteriologischen Arbeiten beigeordnet. Pekelharing und Winkler deuteten Beriberi als Erkrankung peripherer Nerven durch Bakterien und ein spezifisches Toxin und kehrten in der Überzeugung zurück, es handle sich um eine tropische Infektionskrankheit. Eijkman blieb im staatlichen Labor und gewann zunehmend Hinweise auf die Ernährung. Regierungsarzt und Gefängnisinspektor Adolphe Vorderman prüfte anschließend mit Gefängnisakten und verblindeter Reisbestimmung auf Java und Madura den Zusammenhang beim Menschen. Sein Bericht von 1897 zeigte Beriberi fast ausschließlich in Verbindung mit poliertem statt unpoliertem Reis.
+    summary: >-
+      Die niederländisch-indische Episode zeigt eine institutionelle Selbstkorrektur. Eine Regierungskommission kam zunächst zu einem Infektionsurteil, das gut zur neuen Bakteriologie der 1880er-Jahre passte. Die im kolonialen Medizinalsystem fortgesetzte Forschung untergrub dieses Urteil: Eijkmans Versuche belasteten polierten Reis, und Vordermans amtliche Gefängnisstudie zeigte einen starken Zusammenhang zwischen Reissorte und Beriberi. Die Evidenz lenkte die Praxis auf Ernährung, lange bevor Thiamin selbst isoliert wurde.
+    consequences:
+      - Förmliches koloniales Forschungsprogramm, das zunächst um eine bakterielle und toxische Erklärung organisiert war
+      - Fortgesetzte bakteriologische Forschung, während eine Ernährungsursache institutionell randständig blieb
+      - Verzögerte Nutzung reisbasierter Prävention in Einrichtungen mit regelmäßig poliertem Reis
+      - Groß angelegte amtliche Gefängnisuntersuchung, nachdem die Ernährungshinweise stärker wurden
+      - Umstellung auf unpolierten Reis im Gefängniswesen, als der koloniale Gesundheitsdienst die neuen Befunde in Prävention übersetzte
+    mechanism:
+      summary: >-
+        Die niederländische Regierungskommission organisierte die Untersuchung um die Bakteriologie und bestätigte amtlich eine Erklärung durch Bakterien und Toxine, wodurch das koloniale Forschungsprogramm auf eine infektiöse Ursache ausgerichtet wurde.
+    institutionalCorrection:
+      periodLabel: '1897'
+      summary: >-
+        Vordermans amtliche Gefängnisstudie und die wachsenden Ernährungsbelege des kolonialen Medizinsystems verlagerten die Prävention in Niederländisch-Indien auf unpolierten Reis.
+evidence:
+  - id: beriberi-japan-review-proposition
+  - id: beriberi-dbnl-proposition
+  - id: beriberi-maff-correction
+  - id: beriberi-vitamin-correction
+  - id: beriberi-japan-review-impact
+  - id: beriberi-vorderman-review-impact
+  - id: beriberi-vitamin-impact
+  - id: beriberi-japan-review-mechanism
+    note: 'Der Überblick der Japan Academy rekonstruiert die Beriberi-Kontroverse: das Ernährungsexperiment der Marine und das Verschwinden der Krankheit, den fortgesetzten Infektionsglauben des Heeres, das Festhalten an polierten Reisrationen, Kriegstote und die spätere Anerkennung des Thiaminmangels.'
+  - id: beriberi-esri-carrier
+    note: Die Forschung des japanischen Cabinet Office beschreibt die stark unterschiedlichen Beriberi-Strategien von Heer und Marine und das institutionelle Festhalten an der Heeresverpflegung während des Chinesisch-Japanischen und Russisch-Japanischen Krieges.
+  - id: beriberi-japan-review-consequences
+  - id: beriberi-maff-context
+    note: Amtliche japanische historische Darstellung von Takakis Ernährungsarbeit, der Prävention in der Marine, der damaligen Infektionstheorie und dem späteren ernährungsmedizinischen Verständnis von Beriberi.
+  - id: beriberi-archive-carrier
+    note: Der Datensatz des niederländischen Nationalarchivs dokumentiert Eijkmans militärmedizinischen Hintergrund, seine Mitgliedschaft in der Beriberi-Kommission von 1886 und seine spätere Leitung des medizinischen Labors in Weltevreden.
+  - id: beriberi-dbnl-mechanism
+    note: Historische niederländische Darstellung, nach der Pekelharing und Winkler von der offiziellen Kommission überzeugt zurückkehrten, Beriberi sei eine tropische Infektionskrankheit durch toxinbildende Bakterien; zugleich werden verbleibende Beweislücken beschrieben.
+  - id: beriberi-vorderman-review-consequences
+    note: Peer-reviewte Rekonstruktion von Vordermans amtlicher Gefängnisuntersuchung einschließlich staatlicher Gefängniskrankenakten, verblindeter Reisklassifikation und des starken Zusammenhangs zwischen poliertem Reis und Beriberi.
+  - id: beriberi-vitamin-consequences
+  - id: beriberi-vorderman-primary-context
+    note: Zugang zu Vordermans Primärbericht von 1897 und übersetzten Schlüsselpassagen, die zeigen, wie die Gefängnisstudie den Zusammenhang zwischen Reissorte und Beriberi bei möglichst geringer Beobachterverzerrung prüfte.
+  - id: beriberi-vitamin-institutional-correction
+    note: Historischer Überblick über die Ergebnisse in kolonialen Gefängnissen und die Entscheidung des Gesundheitsinspektors, unpolierten roten Reis auszugeben; danach ging Beriberi in den Gefängnissen rasch zurück.

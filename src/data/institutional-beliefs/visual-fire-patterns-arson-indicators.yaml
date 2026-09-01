@@ -1,6 +1,11 @@
+schemaVersion: 2
 title: Visual fire patterns as indicators of accelerant use
-claim: Particular post-fire visual patterns, including shiny “alligator” char, crazed glass, narrow V-patterns, and unusually deep or low burning, were treated as signs that a fire had burned unusually hot or fast because a liquid accelerant had been used.
-currentUnderstanding: Fire damage patterns can help reconstruct origin and fire development, but many once-traditional “arson indicators” are not specific to ignitable liquids or deliberate fire-setting. Flashover, ventilation, suppression water, fuel geometry, and ordinary fire dynamics can produce patterns once attributed to accelerants. Modern fire investigation therefore requires hypothesis testing, scene context, and corroborating physical or chemical evidence rather than treating a single visual pattern as proof of arson.
+proposition:
+  summary: >-
+    Particular post-fire visual patterns, including shiny “alligator” char, crazed glass, narrow V-patterns, and unusually deep or low burning, were treated as signs that a fire had burned unusually hot or fast because a liquid accelerant had been used.
+correction:
+  summary: >-
+    Fire damage patterns can help reconstruct origin and fire development, but many once-traditional “arson indicators” are not specific to ignitable liquids or deliberate fire-setting. Flashover, ventilation, suppression water, fuel geometry, and ordinary fire dynamics can produce patterns once attributed to accelerants. Modern fire investigation therefore requires hypothesis testing, scene context, and corroborating physical or chemical evidence rather than treating a single visual pattern as proof of arson.
 category: Forensic science and fire investigation
 reviewedAt: 2026-08-24
 episodes:
@@ -23,20 +28,101 @@ episodes:
       - Pattern interpretations entered investigative reports and expert testimony in criminal and insurance proceedings
     summary: >-
       The 1980 National Bureau of Standards Fire Investigation Handbook presented visual features such as shiny alligatoring, crazed glass, and narrow V-patterns as indicators of unusually rapid or hot fire development. In professional practice these descriptions were often interpreted as evidence of flammable-liquid acceleration, even though an earlier federal survey had warned that many traditional “burn indicators” lacked scientific validation. During the following decade the interpretations spread through training and textbooks. NFPA 921, first issued in 1992, rejected many of these supposed indicators as unsupported misconceptions and promoted a systematic scientific-method approach to origin-and-cause investigation.
-    sources:
-      - title: Fire Investigation Handbook
-        url: https://www.nist.gov/publications/fire-investigation-handbook
-        publisher: National Institute of Standards and Technology
-        note: Official NIST record for NBS Handbook 134, published in 1980 as a reference tool for beginning and experienced fire investigators.
-      - title: Use of damage in fire investigation — a review of fire patterns analysis, research and future direction
-        url: https://link.springer.com/article/10.1186/s40038-015-0008-4
-        publisher: Fire Science Reviews
-        note: Reviews how alligatoring, glass crazing, char depth, spalling and related patterns became widely used as arson indicators despite little scientific validation, and describes NFPA 921's role in correcting those interpretations.
-      - title: NFPA 921:2021 Guide for Fire and Explosion Investigation
-        url: https://www.nist.gov/standard/716
-        publisher: National Institute of Standards and Technology — OSAC Standards Library
-        note: NIST's forensic-standards registry lists NFPA 921:2021 as the consensus guide for fire and explosion investigation.
-      - title: A Guide for Investigating Fire and Arson
-        url: https://nij.ojp.gov/topics/articles/guide-investigating-fire-and-arson
-        publisher: National Institute of Justice
-        note: Current federal investigative guidance directs investigators to conduct scene examinations in accordance with NFPA 921 and other recognized national guidelines rather than relying on isolated traditional burn indicators.
+    mechanism:
+      kind: publication
+      summary: >-
+        The National Bureau of Standards published Handbook 134 as a federal reference, with National Fire Academy personnel advising its preparation, and the resulting institutional authority circulated visual-pattern interpretations through investigative references and training.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: From 1992
+      summary: >-
+        NFPA 921 established scientific-method and hypothesis-testing guidance for fire investigation and rejected unsupported reliance on isolated visual patterns as proof of accelerant use or arson.
+sources:
+  - id: nist-fire-investigation-handbook-1980
+    title: Fire Investigation Handbook
+    url: https://www.nist.gov/publications/fire-investigation-handbook
+    publisher: National Institute of Standards and Technology
+  - id: fire-pattern-analysis-review-2015
+    title: Use of damage in fire investigation — a review of fire patterns analysis, research and future direction
+    url: https://link.springer.com/article/10.1186/s40038-015-0008-4
+    publisher: Fire Science Reviews
+  - id: nist-nfpa-921-2021
+    title: NFPA 921:2021 Guide for Fire and Explosion Investigation
+    url: https://www.nist.gov/standard/716
+    publisher: National Institute of Standards and Technology — OSAC Standards Library
+  - id: nij-fire-arson-guide
+    title: A Guide for Investigating Fire and Arson
+    url: https://nij.ojp.gov/topics/articles/guide-investigating-fire-and-arson
+    publisher: National Institute of Justice
+evidence:
+  - id: fire-review-proposition
+    sourceId: fire-pattern-analysis-review-2015
+    relation: supports
+    target:
+      scope: belief
+      aspect: proposition
+  - id: fire-review-correction
+    sourceId: fire-pattern-analysis-review-2015
+    relation: supports
+    target:
+      scope: belief
+      aspect: correction
+  - id: fire-nij-correction
+    sourceId: nij-fire-arson-guide
+    relation: documents
+    target:
+      scope: belief
+      aspect: correction
+  - id: fire-handbook-carrier
+    sourceId: nist-fire-investigation-handbook-1980
+    relation: documents
+    target:
+      scope: episode
+      episodeId: united-states-1980-1992
+      aspect: carrier
+    note: Official NIST record for NBS Handbook 134, published in 1980 as a reference tool for beginning and experienced fire investigators.
+  - id: fire-handbook-mechanism
+    sourceId: nist-fire-investigation-handbook-1980
+    relation: documents
+    target:
+      scope: episode
+      episodeId: united-states-1980-1992
+      aspect: mechanism
+  - id: fire-review-mechanism
+    sourceId: fire-pattern-analysis-review-2015
+    relation: supports
+    target:
+      scope: episode
+      episodeId: united-states-1980-1992
+      aspect: mechanism
+    note: Reviews how alligatoring, glass crazing, char depth, spalling and related patterns became widely used as arson indicators despite little scientific validation, and describes NFPA 921's role in correcting those interpretations.
+  - id: fire-review-consequences
+    sourceId: fire-pattern-analysis-review-2015
+    relation: supports
+    target:
+      scope: episode
+      episodeId: united-states-1980-1992
+      aspect: consequences
+  - id: fire-review-institutional-correction
+    sourceId: fire-pattern-analysis-review-2015
+    relation: supports
+    target:
+      scope: episode
+      episodeId: united-states-1980-1992
+      aspect: institutional-correction
+  - id: fire-nfpa-current-context
+    sourceId: nist-nfpa-921-2021
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: united-states-1980-1992
+      aspect: institutional-correction
+    note: NIST's forensic-standards registry lists NFPA 921:2021 as the consensus guide for fire and explosion investigation.
+  - id: fire-nij-institutional-correction
+    sourceId: nij-fire-arson-guide
+    relation: documents
+    target:
+      scope: episode
+      episodeId: united-states-1980-1992
+      aspect: institutional-correction
+    note: Current federal investigative guidance directs investigators to conduct scene examinations in accordance with NFPA 921 and other recognized national guidelines rather than relying on isolated traditional burn indicators.

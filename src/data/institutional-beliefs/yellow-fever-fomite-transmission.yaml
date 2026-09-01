@@ -1,114 +1,207 @@
+schemaVersion: 2
 title: Contaminated clothing, bedding and rooms as carriers of yellow fever
 entryId: yellow-fever-spreads-by-contaminated-objects
-claim: U.S. Army and military-government health authorities in Cuba treated clothing, bedding, buildings and other
-  objects exposed to yellow-fever patients as capable of carrying the disease, making destruction, disinfection and
-  fomite-focused quarantine part of yellow-fever control.
-currentUnderstanding: 'Yellow fever is transmitted primarily when infected mosquitoes, especially Aedes aegypti, bite
-  susceptible people; contaminated bedding, clothing and ordinary personal effects do not transmit the disease. The
-  U.S. Army Yellow Fever Commission demonstrated this directly in 1900–1901: volunteers repeatedly slept in close
-  contact with heavily contaminated bedding and clothing without contracting yellow fever, while controlled exposure
-  to infected mosquitoes transmitted it. The findings validated the mosquito mechanism long advocated by Cuban physician
-  Carlos Finlay and redirected control toward preventing mosquito transmission.'
+proposition:
+  summary: >-
+    U.S. Army and military-government health authorities in Cuba treated clothing, bedding, buildings and other objects exposed to yellow-fever patients as capable of carrying the disease, making destruction, disinfection and fomite-focused quarantine part of yellow-fever control.
+correction:
+  summary: >-
+    Yellow fever is transmitted primarily when infected mosquitoes, especially Aedes aegypti, bite susceptible people; contaminated bedding, clothing and ordinary personal effects do not transmit the disease. The U.S. Army Yellow Fever Commission demonstrated this directly in 1900–1901: volunteers repeatedly slept in close contact with heavily contaminated bedding and clothing without contracting yellow fever, while controlled exposure to infected mosquitoes transmitted it. The findings validated the mosquito mechanism long advocated by Cuban physician Carlos Finlay and redirected control toward preventing mosquito transmission.
 category: Public health, military medicine and infectious disease
 reviewedAt: '2026-08-25'
 impact:
-  summary: The fomite model shaped concrete Army measures during the 1898 occupation of Cuba. Medical recommendations
-    called for buildings used by inhabitants and refugees' clothing to be burned, for convalescents' clothing to be
-    destroyed, and for infected quarters and effects to be disinfected. Yet yellow fever persisted despite extensive
-    cleaning and disinfection. At Camp Lazear, the Army commission then deliberately exposed nonimmune volunteers
-    to bedding and clothing thoroughly soiled by yellow-fever patients; none developed the disease. The military government
-    progressively replaced the old controls with mosquito exclusion, fumigation aimed at killing mosquitoes and destruction
-    of breeding sites. Havana's reported yellow-fever burden fell from about 1,400 cases in 1900 to 37 in 1901 and
-    none in 1902 under the new vector-control programme.
+  summary: >-
+    The fomite model shaped concrete Army measures during the 1898 occupation of Cuba. Medical recommendations called for buildings used by inhabitants and refugees' clothing to be burned, for convalescents' clothing to be destroyed, and for infected quarters and effects to be disinfected. Yet yellow fever persisted despite extensive cleaning and disinfection. At Camp Lazear, the Army commission then deliberately exposed nonimmune volunteers to bedding and clothing thoroughly soiled by yellow-fever patients; none developed the disease. The military government progressively replaced the old controls with mosquito exclusion, fumigation aimed at killing mosquitoes and destruction of breeding sites. Havana's reported yellow-fever burden fell from about 1,400 cases in 1900 to 37 in 1901 and none in 1902 under the new vector-control programme.
   highlights:
-  - value: '1898'
-    label: Army medical recommendations called for burning buildings and refugees' clothing in Cuba
-  - value: '0'
-    label: yellow-fever cases among volunteers in repeated Camp Lazear fomite-exposure experiments
-    note: The volunteers were deliberately exposed to heavily contaminated bedding and clothing from yellow-fever
-      patients.
-  - value: 1,400 → 37 → 0
-    label: reported Havana yellow-fever cases in 1900, 1901 and 1902 as mosquito-focused control replaced the old
-      model
-    note: The decline followed a broader mosquito-control programme and should not be attributed to one intervention
-      alone.
+    - value: '1898'
+      label: Army medical recommendations called for burning buildings and refugees' clothing in Cuba
+    - value: '0'
+      label: yellow-fever cases among volunteers in repeated Camp Lazear fomite-exposure experiments
+      note: The volunteers were deliberately exposed to heavily contaminated bedding and clothing from yellow-fever patients.
+    - value: 1,400 → 37 → 0
+      label: reported Havana yellow-fever cases in 1900, 1901 and 1902 as mosquito-focused control replaced the old model
+      note: The decline followed a broader mosquito-control programme and should not be attributed to one intervention alone.
   context:
-  - The correction is specific to yellow-fever transmission by contaminated objects. Cleaning streets, improving water
-    and sewerage, isolating infectious patients and disinfecting materials can be valuable for other diseases; the
-    Army's broader sanitation programme improved health even though it failed to stop yellow fever.
-  - Quarantine was not rendered meaningless by the mosquito discovery. Preventing mosquitoes from biting a viremic
-    patient can interrupt transmission. What became unnecessary was treating the patient's bedding, clothing or baggage
-    themselves as infectious fomites requiring elaborate disinfection.
-  - The Army commission did not originate the mosquito hypothesis. Cuban physician Carlos Finlay had argued for Aedes
-    transmission for nearly two decades and supplied mosquito eggs to the commission. The Army's institutional contribution
-    was controlled experimental confirmation and rapid translation into sanitary policy.
-  - By 1901 the decisive fomite and mosquito experiments had been completed and published, alongside the associated
-    policy shift. Operational orders changed during late 1900 and 1901 rather than on a single day.
+    - The correction is specific to yellow-fever transmission by contaminated objects. Cleaning streets, improving water and sewerage, isolating infectious patients and disinfecting materials can be valuable for other diseases; the Army's broader sanitation programme improved health even though it failed to stop yellow fever.
+    - Quarantine was not rendered meaningless by the mosquito discovery. Preventing mosquitoes from biting a viremic patient can interrupt transmission. What became unnecessary was treating the patient's bedding, clothing or baggage themselves as infectious fomites requiring elaborate disinfection.
+    - The Army commission did not originate the mosquito hypothesis. Cuban physician Carlos Finlay had argued for Aedes transmission for nearly two decades and supplied mosquito eggs to the commission. The Army's institutional contribution was controlled experimental confirmation and rapid translation into sanitary policy.
+    - By 1901 the decisive fomite and mosquito experiments had been completed and published, alongside the associated policy shift. Operational orders changed during late 1900 and 1901 rather than on a single day.
 episodes:
-- id: cuba-us-military-government-1898-1901
-  polity: Cuba — U.S. military government
-  region: Latin America & Caribbean
-  startYear: 1898
-  endYear: 1901
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - military
-  - medical
-  institutions:
-  - U.S. Army Medical Department
-  - U.S. Military Government of Cuba
-  - U.S. Army Yellow Fever Commission
-  institutionalContext: When U.S. forces entered Cuba in 1898, Army medical doctrine treated contaminated places and
-    effects as important sources of yellow-fever infection. Official recommendations included burning buildings used
-    by inhabitants, destroying refugees' and convalescents' clothing and moving camps away from supposedly infected
-    sites. In Havana, cleaning, quarantine and disinfection improved general health but failed to control yellow fever.
-    Surgeon General George Sternberg therefore created the Yellow Fever Commission in May 1900. Reed, Carroll, Lazear
-    and Agramonte then combined mosquito experiments with a deliberately severe fomite test at Camp Lazear. Volunteers
-    remained healthy after prolonged exposure to contaminated clothing and bedding. Army sanitary policy shifted toward
-    screening patients, killing adult mosquitoes and eliminating breeding sites, while laborious disinfection of baggage
-    and exposed effects was dropped as a yellow-fever measure.
-  consequences:
-  - Destruction by fire of buildings and clothing believed capable of carrying yellow-fever infection
-  - Time-consuming disinfection and quarantine procedures directed at supposedly contaminated personal effects
-  - Persistence of yellow fever despite extensive city cleaning and fomite-focused sanitary measures
-  - Use of controlled human experiments by the Army commission to discriminate between fomite and mosquito transmission
-  - Rapid replacement of the old mechanism with mosquito exclusion, fumigation and breeding-site control
-  - Major reduction and eventual elimination of urban yellow fever in Havana under the vector-control programme
-  summary: 'The U.S. Army''s Cuba experience is a compact institutional correction. In 1898 its medical system acted
-    on the widely held belief that infected rooms, clothing and bedding could carry yellow fever. The same military
-    medical apparatus then tested that proposition directly: nonimmune volunteers remained healthy despite prolonged
-    contact with contaminated fomites, while infected mosquitoes transmitted the disease. The military government
-    rewrote sanitary practice around the mosquito mechanism, making the disconfirmed causal belief immediately consequential
-    for policy.'
-  sources:
-  - title: Report of the Surgeon-General of the Army for 1898 — recommendations for troops in Cuba
+  - id: cuba-us-military-government-1898-1901
+    polity: Cuba — U.S. military government
+    region: Latin America & Caribbean
+    startYear: 1898
+    endYear: 1901
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - military
+      - medical
+    institutions:
+      - U.S. Army Medical Department
+      - U.S. Military Government of Cuba
+      - U.S. Army Yellow Fever Commission
+    institutionalContext: >-
+      When U.S. forces entered Cuba in 1898, Army medical doctrine treated contaminated places and effects as important sources of yellow-fever infection. Official recommendations included burning buildings used by inhabitants, destroying refugees' and convalescents' clothing and moving camps away from supposedly infected sites. In Havana, cleaning, quarantine and disinfection improved general health but failed to control yellow fever. Surgeon General George Sternberg therefore created the Yellow Fever Commission in May 1900. Reed, Carroll, Lazear and Agramonte then combined mosquito experiments with a deliberately severe fomite test at Camp Lazear. Volunteers remained healthy after prolonged exposure to contaminated clothing and bedding. Army sanitary policy shifted toward screening patients, killing adult mosquitoes and eliminating breeding sites, while laborious disinfection of baggage and exposed effects was dropped as a yellow-fever measure.
+    consequences:
+      - Destruction by fire of buildings and clothing believed capable of carrying yellow-fever infection
+      - Time-consuming disinfection and quarantine procedures directed at supposedly contaminated personal effects
+      - Persistence of yellow fever despite extensive city cleaning and fomite-focused sanitary measures
+      - Use of controlled human experiments by the Army commission to discriminate between fomite and mosquito transmission
+      - Rapid replacement of the old mechanism with mosquito exclusion, fumigation and breeding-site control
+      - Major reduction and eventual elimination of urban yellow fever in Havana under the vector-control programme
+    summary: >-
+      The U.S. Army's Cuba experience is a compact institutional correction. In 1898 its medical system acted on the widely held belief that infected rooms, clothing and bedding could carry yellow fever. The same military medical apparatus then tested that proposition directly: nonimmune volunteers remained healthy despite prolonged contact with contaminated fomites, while infected mosquitoes transmitted the disease. The military government rewrote sanitary practice around the mosquito mechanism, making the disconfirmed causal belief immediately consequential for policy.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Army medical doctrine became official practice through burning, disinfection, and quarantine measures directed at buildings, clothing, bedding, baggage, and military quarters believed to carry yellow fever.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 1900–1901
+      summary: >-
+        The Army commission experimentally rejected fomite transmission, and the military government shifted policy toward mosquito exclusion, killing adult mosquitoes, and eliminating breeding sites.
+sources:
+  - id: army-surgeon-general-report-1898
+    title: Report of the Surgeon-General of the Army for 1898 — recommendations for troops in Cuba
     url: https://achh.army.mil/history/book-spanam-arsg1898-arsg1898reportsgreenleaf/
     publisher: U.S. Army Medical Department, Office of Medical History
-    note: Primary Army medical record recommending that buildings used by inhabitants and refugees' clothing be destroyed
-      by fire, and that clothing of yellow-fever convalescents also be burned.
-  - title: The Army Medical Department, 1865–1917 — Yellow fever in Cuba
+  - id: army-medical-department-cuba-history
+    title: The Army Medical Department, 1865–1917 — Yellow fever in Cuba
     url: https://achh.army.mil/history/book-spanam-gillet3-ch9/
     publisher: U.S. Army Medical Department, Office of Medical History
-    note: Official Army history documenting failure of clothing and quarters disinfection, the Camp Lazear fomite
-      experiments, the mosquito findings and the subsequent removal of elaborate baggage and clothing disinfection.
-  - title: Yellow-Fever Commission — Congressional report
+  - id: yellow-fever-commission-congressional-report
+    title: Yellow-Fever Commission — Congressional report
     url: https://www.govinfo.gov/content/pkg/SERIALSET-05659_00_00-032-0520-0000/pdf/SERIALSET-05659_00_00-032-0520-0000.pdf
     publisher: U.S. Government Publishing Office
-    note: Federal record describing the repeated exposure of volunteers to contaminated bedding and clothing, none
-      of whom contracted yellow fever, and noting that belief in fomite transmission had been practically universal.
-  - title: Recent Researches Concerning the Etiology, Propagation, and Prevention of Yellow Fever
+  - id: reed-yellow-fever-researches-1902
+    title: Recent Researches Concerning the Etiology, Propagation, and Prevention of Yellow Fever
     url: https://www.govinfo.gov/content/pkg/SERIALSET-04424_00_00-020-0118-0000/pdf/SERIALSET-04424_00_00-020-0118-0000.pdf
     publisher: U.S. Government Publishing Office
-    note: Walter Reed's 1902 summary of the Army commission's 1900–1901 experiments, including detailed exposure of
-      nonimmune volunteers to heavily contaminated yellow-fever bedding and clothing without disease.
-  - title: 'The Demands of Humanity: Army Medical Disaster Relief'
+  - id: army-medical-disaster-history
+    title: 'The Demands of Humanity: Army Medical Disaster Relief'
     url: https://achh.army.mil/history/book-misc-disaster-ch3/
     publisher: U.S. Army Medical Department, Office of Medical History
-    note: Army history explaining that persistent yellow fever despite cleaning and disinfection led to the commission
-      and documenting the early shift to mosquito-control orders in late 1900.
-  - title: Yellow Fever Work in Cuba
+  - id: army-yellow-fever-work-cuba
+    title: Yellow Fever Work in Cuba
     url: https://history.army.mil/portals/143/Images/Publications/catalog/70-115-1.pdf
     publisher: U.S. Army Center of Military History
-    note: Official Army history crediting Finlay's prior hypothesis, describing the commission's proof and recording
-      the fall in Havana yellow-fever cases from about 1,400 in 1900 to 37 in 1901 and none in 1902.
+evidence:
+  - id: yellow-1898-proposition
+    sourceId: army-surgeon-general-report-1898
+    relation: documents
+    target:
+      scope: belief
+      aspect: proposition
+  - id: yellow-army-history-correction
+    sourceId: army-medical-department-cuba-history
+    relation: supports
+    target:
+      scope: belief
+      aspect: correction
+  - id: yellow-congress-correction
+    sourceId: yellow-fever-commission-congressional-report
+    relation: supports
+    target:
+      scope: belief
+      aspect: correction
+  - id: yellow-reed-correction
+    sourceId: reed-yellow-fever-researches-1902
+    relation: supports
+    target:
+      scope: belief
+      aspect: correction
+  - id: yellow-1898-impact
+    sourceId: army-surgeon-general-report-1898
+    relation: documents
+    target:
+      scope: belief
+      aspect: impact
+  - id: yellow-congress-impact
+    sourceId: yellow-fever-commission-congressional-report
+    relation: supports
+    target:
+      scope: belief
+      aspect: impact
+  - id: yellow-cuba-work-impact
+    sourceId: army-yellow-fever-work-cuba
+    relation: supports
+    target:
+      scope: belief
+      aspect: impact
+  - id: yellow-1898-carrier
+    sourceId: army-surgeon-general-report-1898
+    relation: documents
+    target:
+      scope: episode
+      episodeId: cuba-us-military-government-1898-1901
+      aspect: carrier
+    note: Primary Army medical record recommending that buildings used by inhabitants and refugees' clothing be destroyed by fire, and that clothing of yellow-fever convalescents also be burned.
+  - id: yellow-1898-mechanism
+    sourceId: army-surgeon-general-report-1898
+    relation: documents
+    target:
+      scope: episode
+      episodeId: cuba-us-military-government-1898-1901
+      aspect: mechanism
+  - id: yellow-army-history-mechanism
+    sourceId: army-medical-department-cuba-history
+    relation: supports
+    target:
+      scope: episode
+      episodeId: cuba-us-military-government-1898-1901
+      aspect: mechanism
+    note: Official Army history documenting failure of clothing and quarters disinfection, the Camp Lazear fomite experiments, the mosquito findings and the subsequent removal of elaborate baggage and clothing disinfection.
+  - id: yellow-army-history-consequences
+    sourceId: army-medical-department-cuba-history
+    relation: supports
+    target:
+      scope: episode
+      episodeId: cuba-us-military-government-1898-1901
+      aspect: consequences
+  - id: yellow-congress-consequences
+    sourceId: yellow-fever-commission-congressional-report
+    relation: supports
+    target:
+      scope: episode
+      episodeId: cuba-us-military-government-1898-1901
+      aspect: consequences
+    note: Federal record describing the repeated exposure of volunteers to contaminated bedding and clothing, none of whom contracted yellow fever, and noting that belief in fomite transmission had been practically universal.
+  - id: yellow-reed-institutional-correction
+    sourceId: reed-yellow-fever-researches-1902
+    relation: supports
+    target:
+      scope: episode
+      episodeId: cuba-us-military-government-1898-1901
+      aspect: institutional-correction
+    note: Walter Reed's 1902 summary of the Army commission's 1900–1901 experiments, including detailed exposure of nonimmune volunteers to heavily contaminated yellow-fever bedding and clothing without disease.
+  - id: yellow-disaster-institutional-correction
+    sourceId: army-medical-disaster-history
+    relation: supports
+    target:
+      scope: episode
+      episodeId: cuba-us-military-government-1898-1901
+      aspect: institutional-correction
+    note: Army history explaining that persistent yellow fever despite cleaning and disinfection led to the commission and documenting the early shift to mosquito-control orders in late 1900.
+  - id: yellow-cuba-work-consequences
+    sourceId: army-yellow-fever-work-cuba
+    relation: supports
+    target:
+      scope: episode
+      episodeId: cuba-us-military-government-1898-1901
+      aspect: consequences
+    note: Official Army history crediting Finlay's prior hypothesis, describing the commission's proof and recording the fall in Havana yellow-fever cases from about 1,400 in 1900 to 37 in 1901 and none in 1902.
+  - id: yellow-army-history-institutional-correction
+    sourceId: army-medical-department-cuba-history
+    relation: supports
+    target:
+      scope: episode
+      episodeId: cuba-us-military-government-1898-1901
+      aspect: institutional-correction
+  - id: yellow-cuba-work-institutional-correction
+    sourceId: army-yellow-fever-work-cuba
+    relation: supports
+    target:
+      scope: episode
+      episodeId: cuba-us-military-government-1898-1901
+      aspect: institutional-correction

@@ -1,151 +1,243 @@
+schemaVersion: 2
 title: Beriberi as an infectious disease rather than a nutritional deficiency
 entryId: beriberi-is-caused-by-infection
-claim: Military and colonial medical institutions in Japan and the Dutch East Indies treated beriberi as principally
-  infectious rather than diet-related. In Japan, Army medical leaders resisted ration reform after the Navy had
-  nearly eliminated the disease through dietary change; in the Dutch East Indies, a government research commission
-  initially concluded that a bacterial infection and toxin caused the disease before colonial laboratory and prison
-  evidence shifted attention to polished rice.
-currentUnderstanding: Beriberi is caused by thiamine (vitamin B1) deficiency. Diets dominated by highly polished
-  rice can produce deficiency because milling removes thiamine-rich outer layers. Infection theories could not account
-  for the Japanese Navy's dietary results, Eijkman's food-dependent animal experiments, Vorderman's prison survey
-  or the later biochemical identification of thiamine. The early cause was genuinely uncertain; the institutional
-  error was persisting with or formally endorsing an infectious model after strong dietary evidence emerged.
+proposition:
+  summary: >-
+    Military and colonial medical institutions in Japan and the Dutch East Indies treated beriberi as principally infectious rather than diet-related. In Japan, Army medical leaders resisted ration reform after the Navy had nearly eliminated the disease through dietary change; in the Dutch East Indies, a government research commission initially concluded that a bacterial infection and toxin caused the disease before colonial laboratory and prison evidence shifted attention to polished rice.
+correction:
+  summary: >-
+    Beriberi is caused by thiamine (vitamin B1) deficiency. Diets dominated by highly polished rice can produce deficiency because milling removes thiamine-rich outer layers. Infection theories could not account for the Japanese Navy's dietary results, Eijkman's food-dependent animal experiments, Vorderman's prison survey or the later biochemical identification of thiamine. The early cause was genuinely uncertain; the institutional error was persisting with or formally endorsing an infectious model after strong dietary evidence emerged.
 category: Medicine, nutrition and military health
 reviewedAt: '2026-08-25'
 impact:
-  summary: Beriberi produced two unusually revealing institutional episodes in Asia. Japan's Navy changed sailors'
-    diets and virtually eliminated the disease while Army medical leaders continued to favor infection and polished-rice
-    rations. In the Dutch East Indies, the government sent a formal beriberi commission in 1886; its leaders returned
-    convinced that a tropical bacterial infection produced a neurotoxin. The colonial medical system then generated
-    its own contradiction. Eijkman's experiments connected polished rice with a beriberi-like neuropathy, and government
-    physician Adolphe Vorderman found a striking prison-level association between polished rice and human beriberi.
-    The prison evidence helped move dietary prevention into practice.
+  summary: >-
+    Beriberi produced two unusually revealing institutional episodes in Asia. Japan's Navy changed sailors' diets and virtually eliminated the disease while Army medical leaders continued to favor infection and polished-rice rations. In the Dutch East Indies, the government sent a formal beriberi commission in 1886; its leaders returned convinced that a tropical bacterial infection produced a neurotoxin. The colonial medical system then generated its own contradiction. Eijkman's experiments connected polished rice with a beriberi-like neuropathy, and government physician Adolphe Vorderman found a striking prison-level association between polished rice and human beriberi. The prison evidence helped move dietary prevention into practice.
   highlights:
-  - value: 1884–85
-    label: Japanese Navy dietary experiments and ration reform were followed by the disappearance of beriberi from
-      the Navy
-  - value: 34 of 63 vs 1 of 27
-    label: 'Dutch East Indies prisons with endemic or occasional beriberi in a later review: polished-rice prisons
-      versus red-rice prisons'
-    note: The historical review reports endemic beriberi in 34 of 63 prisons serving white polished rice and occasional
-      beriberi in only one of 27 prisons serving red unpolished rice.
-  - value: 1904–05
-    label: the Japanese Army still suffered massive wartime beriberi after the Navy had supplied strong dietary
-      counterevidence
+    - value: 1884–85
+      label: Japanese Navy dietary experiments and ration reform were followed by the disappearance of beriberi from the Navy
+    - value: 34 of 63 vs 1 of 27
+      label: 'Dutch East Indies prisons with endemic or occasional beriberi in a later review: polished-rice prisons versus red-rice prisons'
+      note: The historical review reports endemic beriberi in 34 of 63 prisons serving white polished rice and occasional beriberi in only one of 27 prisons serving red unpolished rice.
+    - value: 1904–05
+      label: the Japanese Army still suffered massive wartime beriberi after the Navy had supplied strong dietary counterevidence
   context:
-  - Vitamin theory did not yet exist when the first commissions investigated beriberi. Bacteriology was transforming
-    medicine, so an infectious hypothesis was initially reasonable. The institutional failure came later, when
-    strong dietary evidence accumulated but the infectious interpretation continued to shape policy.
-  - 'The Japanese case is principally a persistence problem: the Army maintained its infectious interpretation
-    and ration policy after the Navy had produced strong contradictory evidence. The Dutch case is different:
-    a state-sponsored infectious conclusion was progressively overturned by research generated within the same colonial
-    medical and prison system.'
-  - Vorderman's 1897 official prison investigation and the associated move toward unpolished rice mark a major
-    institutional shift in the Dutch East Indies. They did not represent worldwide agreement on vitamin deficiency,
-    and thiamine itself had not yet been isolated.
+    - Vitamin theory did not yet exist when the first commissions investigated beriberi. Bacteriology was transforming medicine, so an infectious hypothesis was initially reasonable. The institutional failure came later, when strong dietary evidence accumulated but the infectious interpretation continued to shape policy.
+    - 'The Japanese case is principally a persistence problem: the Army maintained its infectious interpretation and ration policy after the Navy had produced strong contradictory evidence. The Dutch case is different: a state-sponsored infectious conclusion was progressively overturned by research generated within the same colonial medical and prison system.'
+    - Vorderman's 1897 official prison investigation and the associated move toward unpolished rice mark a major institutional shift in the Dutch East Indies. They did not represent worldwide agreement on vitamin deficiency, and thiamine itself had not yet been isolated.
 episodes:
-- id: japan-army-1885-1905
-  polity: Japan
-  region: East Asia
-  startYear: 1885
-  endYear: 1905
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  - military
-  institutions:
-  - Imperial Japanese Army
-  - Army Medical Department of the Imperial Japanese Army
-  institutionalContext: The Japanese Navy and Army operated under different medical policies. After Takaki's controlled
-    voyage comparison and dietary reform, Navy beriberi collapsed. Army medical leaders, including the head of the
-    Army medical department, continued to treat an infectious origin as more plausible and resisted the food explanation
-    while polished rice remained central to Army rations. The Russo-Japanese War ended in 1905; thiamine itself
-    was identified later.
-  consequences:
-  - Continued polished-rice military ration policy despite strong dietary counterevidence
-  - Large numbers of soldiers developed beriberi during wartime
-  - Thousands of preventable military deaths and losses of operational capacity
-  - Delayed institutional acceptance of a nutritional mechanism
-  summary: From the mid-1880s, the Japanese Navy's dietary experiments and ration reform supplied strong evidence
-    that beriberi was diet-related and nearly eliminated the disease among sailors. Army medical leaders nevertheless
-    continued to favor an infectious origin and rejected the dietary explanation while soldiers remained heavily
-    dependent on polished rice. During the Russo-Japanese War the Army suffered massive beriberi morbidity and mortality,
-    while later vitamin research established thiamine deficiency as the cause.
-  sources:
-  - title: Clinical studies on rising and re-rising neurological diseases in Japan
+  - id: japan-army-1885-1905
+    polity: Japan
+    region: East Asia
+    startYear: 1885
+    endYear: 1905
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+      - military
+    institutions:
+      - Imperial Japanese Army
+      - Army Medical Department of the Imperial Japanese Army
+    institutionalContext: >-
+      The Japanese Navy and Army operated under different medical policies. After Takaki's controlled voyage comparison and dietary reform, Navy beriberi collapsed. Army medical leaders, including the head of the Army medical department, continued to treat an infectious origin as more plausible and resisted the food explanation while polished rice remained central to Army rations. The Russo-Japanese War ended in 1905; thiamine itself was identified later.
+    consequences:
+      - Continued polished-rice military ration policy despite strong dietary counterevidence
+      - Large numbers of soldiers developed beriberi during wartime
+      - Thousands of preventable military deaths and losses of operational capacity
+      - Delayed institutional acceptance of a nutritional mechanism
+    summary: >-
+      From the mid-1880s, the Japanese Navy's dietary experiments and ration reform supplied strong evidence that beriberi was diet-related and nearly eliminated the disease among sailors. Army medical leaders nevertheless continued to favor an infectious origin and rejected the dietary explanation while soldiers remained heavily dependent on polished rice. During the Russo-Japanese War the Army suffered massive beriberi morbidity and mortality, while later vitamin research established thiamine deficiency as the cause.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Army medical leaders retained an infectious explanation and continued a polished-rice ration policy despite the Navy's strong dietary counterevidence, allowing the theory to shape military provisioning.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        Later research established thiamine deficiency as the cause, but the available record does not identify a dated institutional act by the Imperial Japanese Army that formally corrected its beriberi doctrine or ration policy.
+  - id: dutch-east-indies-1886-1897
+    polity: Dutch East Indies
+    region: Southeast Asia
+    startYear: 1886
+    endYear: 1897
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+      - medical
+    institutions:
+      - Dutch government Commission for Beriberi Research
+      - Medical Laboratory at Weltevreden
+      - Civil Medical Service and prison health administration of the Dutch East Indies
+    institutionalContext: >-
+      In 1886 the Dutch government sent Cornelis Pekelharing and Cornelis Winkler to investigate the severe beriberi problem in the East Indies, with Christiaan Eijkman attached to the commission for bacteriological research. Pekelharing and Winkler concluded that beriberi was a peripheral-nerve disease caused by bacteria producing a specific toxin and returned to the Netherlands convinced that it was a tropical infectious disease. Eijkman remained at the government laboratory and gradually obtained evidence linking the disease to diet. Government physician and prison inspector Adolphe Vorderman then used prison records and blinded rice assessment across Java and Madura to test the association in people. His 1897 report showed beriberi to be overwhelmingly associated with polished rather than unpolished rice, helping move colonial prison practice toward dietary prevention.
+    consequences:
+      - A formal colonial research programme initially organised around a bacterial and toxin explanation
+      - Continued bacteriological investigation while a dietary cause remained institutionally marginal
+      - Delayed use of rice-based prevention in institutions where polished rice was routinely supplied
+      - Large-scale government prison investigation once dietary evidence became compelling
+      - Adoption of unpolished rice in prison diets as the colonial health service translated the new evidence into prevention
+    summary: >-
+      The Dutch East Indies episode shows an institution correcting itself. A government commission initially returned an infectious verdict consistent with the new bacteriology of the 1880s. Research left behind in the colonial medical laboratory then undermined that conclusion: Eijkman's experiments implicated polished rice, and Vorderman's government prison survey demonstrated a striking human association between rice type and beriberi. The evidence redirected institutional practice toward diet years before thiamine itself was isolated.
+    mechanism:
+      kind: endorsement
+      summary: >-
+        The Dutch government commission organized the inquiry around bacteriology and officially endorsed a bacterial-toxin explanation, directing the colonial research programme toward an infectious cause.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: '1897'
+      summary: >-
+        Vorderman's official prison study and the colonial medical system's accumulating dietary evidence shifted prevention toward unpolished rice within the Dutch East Indies.
+sources:
+  - id: japan-academy-beriberi-review
+    title: Clinical studies on rising and re-rising neurological diseases in Japan
     url: https://www.jstage.jst.go.jp/article/pjab/86/4/86_4_366/_pdf
     publisher: Proceedings of the Japan Academy, Series B
-    note: 'Japan Academy review reconstructing the beriberi controversy: the Navy''s dietary experiment and disappearance
-      of beriberi, continued Army belief in an infectious origin, persistence of polished-rice rations, wartime
-      deaths and eventual recognition of thiamine deficiency.'
-  - title: Rare Diseases and Medical Institutions in Meiji Japan
+  - id: esri-meiji-medical-institutions
+    title: Rare Diseases and Medical Institutions in Meiji Japan
     url: https://www.esri.cao.go.jp/en/esri/archive/bun/abstract/bun203-e.html
     publisher: Economic and Social Research Institute, Cabinet Office of Japan
-    note: Japanese Cabinet Office research describing the sharply different Army and Navy policies toward beriberi
-      and the institutional persistence of Army ration policy during the Sino-Japanese and Russo-Japanese wars.
-  - title: Food education white paper — historical information on beriberi
+  - id: maff-beriberi-history
+    title: Food education white paper — historical information on beriberi
     url: https://www.maff.go.jp/j/syokuiku/wpaper/h29/h29_h/book/part2/chap6/b2_c6_6_00.html
     publisher: Ministry of Agriculture, Forestry and Fisheries of Japan
-    note: Official Japanese government historical account of Takaki's dietary work, Navy prevention, the contemporary
-      infection theory and the later nutritional understanding of beriberi.
-- id: dutch-east-indies-1886-1897
-  polity: Dutch East Indies
-  region: Southeast Asia
-  startYear: 1886
-  endYear: 1897
-  strength: officially-endorsed
-  institutionTypes:
-  - government
-  - medical
-  institutions:
-  - Dutch government Commission for Beriberi Research
-  - Medical Laboratory at Weltevreden
-  - Civil Medical Service and prison health administration of the Dutch East Indies
-  institutionalContext: In 1886 the Dutch government sent Cornelis Pekelharing and Cornelis Winkler to investigate
-    the severe beriberi problem in the East Indies, with Christiaan Eijkman attached to the commission for bacteriological
-    research. Pekelharing and Winkler concluded that beriberi was a peripheral-nerve disease caused by bacteria
-    producing a specific toxin and returned to the Netherlands convinced that it was a tropical infectious disease.
-    Eijkman remained at the government laboratory and gradually obtained evidence linking the disease to diet. Government
-    physician and prison inspector Adolphe Vorderman then used prison records and blinded rice assessment across
-    Java and Madura to test the association in people. His 1897 report showed beriberi to be overwhelmingly associated
-    with polished rather than unpolished rice, helping move colonial prison practice toward dietary prevention.
-  consequences:
-  - A formal colonial research programme initially organised around a bacterial and toxin explanation
-  - Continued bacteriological investigation while a dietary cause remained institutionally marginal
-  - Delayed use of rice-based prevention in institutions where polished rice was routinely supplied
-  - Large-scale government prison investigation once dietary evidence became compelling
-  - Adoption of unpolished rice in prison diets as the colonial health service translated the new evidence into
-    prevention
-  summary: 'The Dutch East Indies episode shows an institution correcting itself. A government commission initially
-    returned an infectious verdict consistent with the new bacteriology of the 1880s. Research left behind in the
-    colonial medical laboratory then undermined that conclusion: Eijkman''s experiments implicated polished rice,
-    and Vorderman''s government prison survey demonstrated a striking human association between rice type and beriberi.
-    The evidence redirected institutional practice toward diet years before thiamine itself was isolated.'
-  sources:
-  - title: Professor Doctor Christiaan Eykman — Nationaal Archief collection record
+  - id: nationaal-archief-eijkman
+    title: Professor Doctor Christiaan Eykman — Nationaal Archief collection record
     url: https://www.nationaalarchief.nl/onderzoeken/fotocollectie/af1c8c36-d0b4-102d-bcf8-003048976d84
     publisher: Nationaal Archief, Netherlands
-    note: Dutch National Archives record documenting Eijkman's military-medical background, his 1886 membership
-      in the Commission for Beriberi Research and his later direction of the medical laboratory at Weltevreden.
-  - title: Christiaan Eijkman — Nederlandsche helden der wetenschap
+  - id: dbnl-eijkman-history
+    title: Christiaan Eijkman — Nederlandsche helden der wetenschap
     url: https://www.dbnl.org/tekst/seve003nede01_01/seve003nede01_01_0009.php
     publisher: Digital Library for Dutch Literature
-    note: Historical Dutch account explaining that Pekelharing and Winkler returned from the official commission
-      convinced that beriberi was a tropical infectious disease caused by bacteria producing a toxin, while noting
-      the evidentiary gaps that remained.
-  - title: 'Adolphe Vorderman''s 1897 study on beriberi: an example of scrupulous efforts to avoid bias'
+  - id: vorderman-1897-jrsm-review
+    title: 'Adolphe Vorderman''s 1897 study on beriberi: an example of scrupulous efforts to avoid bias'
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3595404/
     publisher: Journal of the Royal Society of Medicine
-    note: Peer-reviewed reconstruction of Vorderman's official prison investigation, including his use of government
-      prison medical records, blinded rice classification and the strong association between polished rice and beriberi.
-  - title: 'Christiaan Eijkman: First bacteriologist at Utrecht University, Nobel laureate for his work on vitamins'
+  - id: eijkman-vitamin-history
+    title: 'Christiaan Eijkman: First bacteriologist at Utrecht University, Nobel laureate for his work on vitamins'
     url: https://academic.oup.com/femspd/article/26/3-4/185/637203
     publisher: Pathogens and Disease
-    note: Historical review describing the colonial prison results and the health inspector's decision to serve
-      unpolished red rice to prisoners, after which prison beriberi rapidly declined.
-  - title: Vorderman AG (1897) — primary study and translated passages
+  - id: james-lind-vorderman-1897
+    title: Vorderman AG (1897) — primary study and translated passages
     url: https://www.jameslindlibrary.org/vorderman-ag-1897/
     publisher: The James Lind Library
-    note: Access point to Vorderman's 1897 primary report and translated key passages showing how the prison survey
-      was designed to test the relationship between rice type and beriberi while minimising observer bias.
+evidence:
+  - id: beriberi-japan-review-proposition
+    sourceId: japan-academy-beriberi-review
+    relation: supports
+    target:
+      scope: belief
+      aspect: proposition
+  - id: beriberi-dbnl-proposition
+    sourceId: dbnl-eijkman-history
+    relation: supports
+    target:
+      scope: belief
+      aspect: proposition
+  - id: beriberi-maff-correction
+    sourceId: maff-beriberi-history
+    relation: supports
+    target:
+      scope: belief
+      aspect: correction
+  - id: beriberi-vitamin-correction
+    sourceId: eijkman-vitamin-history
+    relation: supports
+    target:
+      scope: belief
+      aspect: correction
+  - id: beriberi-japan-review-impact
+    sourceId: japan-academy-beriberi-review
+    relation: supports
+    target:
+      scope: belief
+      aspect: impact
+  - id: beriberi-vorderman-review-impact
+    sourceId: vorderman-1897-jrsm-review
+    relation: supports
+    target:
+      scope: belief
+      aspect: impact
+  - id: beriberi-vitamin-impact
+    sourceId: eijkman-vitamin-history
+    relation: supports
+    target:
+      scope: belief
+      aspect: impact
+  - id: beriberi-japan-review-mechanism
+    sourceId: japan-academy-beriberi-review
+    relation: supports
+    target:
+      scope: episode
+      episodeId: japan-army-1885-1905
+      aspect: mechanism
+    note: 'Japan Academy review reconstructing the beriberi controversy: the Navy''s dietary experiment and disappearance of beriberi, continued Army belief in an infectious origin, persistence of polished-rice rations, wartime deaths and eventual recognition of thiamine deficiency.'
+  - id: beriberi-esri-carrier
+    sourceId: esri-meiji-medical-institutions
+    relation: supports
+    target:
+      scope: episode
+      episodeId: japan-army-1885-1905
+      aspect: carrier
+    note: Japanese Cabinet Office research describing the sharply different Army and Navy policies toward beriberi and the institutional persistence of Army ration policy during the Sino-Japanese and Russo-Japanese wars.
+  - id: beriberi-japan-review-consequences
+    sourceId: japan-academy-beriberi-review
+    relation: supports
+    target:
+      scope: episode
+      episodeId: japan-army-1885-1905
+      aspect: consequences
+  - id: beriberi-maff-context
+    sourceId: maff-beriberi-history
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: japan-army-1885-1905
+      aspect: context
+    note: Official Japanese government historical account of Takaki's dietary work, Navy prevention, the contemporary infection theory and the later nutritional understanding of beriberi.
+  - id: beriberi-archive-carrier
+    sourceId: nationaal-archief-eijkman
+    relation: documents
+    target:
+      scope: episode
+      episodeId: dutch-east-indies-1886-1897
+      aspect: carrier
+    note: Dutch National Archives record documenting Eijkman's military-medical background, his 1886 membership in the Commission for Beriberi Research and his later direction of the medical laboratory at Weltevreden.
+  - id: beriberi-dbnl-mechanism
+    sourceId: dbnl-eijkman-history
+    relation: supports
+    target:
+      scope: episode
+      episodeId: dutch-east-indies-1886-1897
+      aspect: mechanism
+    note: Historical Dutch account explaining that Pekelharing and Winkler returned from the official commission convinced that beriberi was a tropical infectious disease caused by bacteria producing a toxin, while noting the evidentiary gaps that remained.
+  - id: beriberi-vorderman-review-consequences
+    sourceId: vorderman-1897-jrsm-review
+    relation: supports
+    target:
+      scope: episode
+      episodeId: dutch-east-indies-1886-1897
+      aspect: consequences
+    note: Peer-reviewed reconstruction of Vorderman's official prison investigation, including his use of government prison medical records, blinded rice classification and the strong association between polished rice and beriberi.
+  - id: beriberi-vitamin-consequences
+    sourceId: eijkman-vitamin-history
+    relation: supports
+    target:
+      scope: episode
+      episodeId: dutch-east-indies-1886-1897
+      aspect: consequences
+  - id: beriberi-vorderman-primary-context
+    sourceId: james-lind-vorderman-1897
+    relation: documents
+    target:
+      scope: episode
+      episodeId: dutch-east-indies-1886-1897
+      aspect: context
+    note: Access point to Vorderman's 1897 primary report and translated key passages showing how the prison survey was designed to test the relationship between rice type and beriberi while minimising observer bias.
+  - id: beriberi-vitamin-institutional-correction
+    sourceId: eijkman-vitamin-history
+    relation: supports
+    target:
+      scope: episode
+      episodeId: dutch-east-indies-1886-1897
+      aspect: institutional-correction
+    note: Historical review describing the colonial prison results and the health inspector's decision to serve unpolished red rice to prisoners, after which prison beriberi rapidly declined.

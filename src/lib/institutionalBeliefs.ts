@@ -225,18 +225,29 @@ const normalizeV2 = (
       const episodeEvidence = evidence.filter(
         (item) => item.target.scope === 'episode' && item.target.episodeId === episode.id,
       );
-      const sources = episodeEvidence.flatMap((item) => {
-        const source = sourceById.get(item.sourceId);
-        return source
-          ? [{
-              ...source,
-              evidenceId: item.id,
-              note: item.note,
-              relation: item.relation,
-              target: item.target,
-              locator: item.locator,
-            }]
-          : [];
+      const evidenceBySourceId = new Map<string, NormalizedInstitutionalEvidence[]>();
+
+      for (const item of episodeEvidence) {
+        const sourceEvidence = evidenceBySourceId.get(item.sourceId);
+        if (sourceEvidence) sourceEvidence.push(item);
+        else evidenceBySourceId.set(item.sourceId, [item]);
+      }
+
+      const sources = [...sourceById.values()].flatMap((source) => {
+        const sourceEvidence = evidenceBySourceId.get(source.id);
+        if (!sourceEvidence?.length) return [];
+
+        const representative = sourceEvidence.find((item) => item.note) ?? sourceEvidence[0];
+        if (!representative) return [];
+
+        return [{
+          ...source,
+          evidenceId: representative.id,
+          note: representative.note,
+          relation: representative.relation,
+          target: representative.target,
+          locator: representative.locator,
+        }];
       });
 
       return {

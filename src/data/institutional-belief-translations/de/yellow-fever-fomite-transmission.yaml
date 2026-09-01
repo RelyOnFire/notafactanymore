@@ -1,73 +1,77 @@
+schemaVersion: 2
 locale: de
 entryId: yellow-fever-fomite-transmission
 sourceReviewedAt: '2026-08-25'
 title: Kontaminierte Kleidung, Bettzeug und Räume als Überträger von Gelbfieber
-claim: Gesundheitsbehörden der US-Armee und der Militärregierung in Kuba behandelten Kleidung, Bettzeug, Gebäude und
-  andere Gegenstände aus der Umgebung von Gelbfieberkranken als mögliche Krankheitsträger und machten Verbrennung,
-  Desinfektion und auf Fomiten ausgerichtete Quarantäne zu Bestandteilen der Gelbfieberbekämpfung.
-currentUnderstanding: 'Gelbfieber wird vor allem übertragen, wenn infizierte Stechmücken – insbesondere Aedes aegypti
-  – empfängliche Menschen stechen; kontaminiertes Bettzeug, Kleidung und gewöhnliche persönliche Gegenstände übertragen
-  die Krankheit nicht. Die Yellow Fever Commission der US-Armee zeigte dies 1900–1901 direkt: Freiwillige schliefen
-  wiederholt in engem Kontakt mit stark kontaminierter Kleidung und Bettzeug, ohne zu erkranken, während kontrollierte
-  Exposition gegenüber infizierten Mücken Gelbfieber auslöste. Damit wurde der von dem kubanischen Arzt Carlos Finlay
-  seit langem vertretene Mückenmechanismus experimentell bestätigt und die Prävention auf die Unterbrechung der Mückenübertragung
-  ausgerichtet.'
+proposition:
+  summary: >-
+    Gesundheitsbehörden der US-Armee und der Militärregierung in Kuba behandelten Kleidung, Bettzeug, Gebäude und andere Gegenstände aus der Umgebung von Gelbfieberkranken als mögliche Krankheitsträger und machten Verbrennung, Desinfektion und auf Fomiten ausgerichtete Quarantäne zu Bestandteilen der Gelbfieberbekämpfung.
+correction:
+  summary: >-
+    Gelbfieber wird vor allem übertragen, wenn infizierte Stechmücken – insbesondere Aedes aegypti – empfängliche Menschen stechen; kontaminiertes Bettzeug, Kleidung und gewöhnliche persönliche Gegenstände übertragen die Krankheit nicht. Die Yellow Fever Commission der US-Armee zeigte dies 1900–1901 direkt: Freiwillige schliefen wiederholt in engem Kontakt mit stark kontaminierter Kleidung und Bettzeug, ohne zu erkranken, während kontrollierte Exposition gegenüber infizierten Mücken Gelbfieber auslöste. Damit wurde der von dem kubanischen Arzt Carlos Finlay seit langem vertretene Mückenmechanismus experimentell bestätigt und die Prävention auf die Unterbrechung der Mückenübertragung ausgerichtet.
 impact:
-  summary: Das Fomitenmodell prägte konkrete Maßnahmen der US-Armee während der Besetzung Kubas ab 1898. Medizinische
-    Empfehlungen sahen vor, von Einwohnern genutzte Gebäude und die Kleidung von Flüchtlingen zu verbrennen, Kleidung
-    von Rekonvaleszenten zu vernichten und betroffene Räume und Gegenstände zu desinfizieren. Trotzdem bestand Gelbfieber
-    trotz umfangreicher Reinigung und Desinfektion fort. In Camp Lazear setzte die Army Commission daraufhin nichtimmune
-    Freiwillige absichtlich Bettzeug und Kleidung aus, die stark mit Material von Gelbfieberpatienten verunreinigt
-    waren; niemand erkrankte. Die Militärregierung ersetzte die alten Maßnahmen schrittweise durch Mückenschutz, mückenabtötende
-    Begasung und Beseitigung von Brutstätten. Die gemeldeten Gelbfieberfälle in Havanna fielen im neuen Kontrollsystem
-    von rund 1.400 im Jahr 1900 auf 37 im Jahr 1901 und auf null im Jahr 1902.
+  summary: >-
+    Das Fomitenmodell prägte konkrete Maßnahmen der US-Armee während der Besetzung Kubas ab 1898. Medizinische Empfehlungen sahen vor, von Einwohnern genutzte Gebäude und die Kleidung von Flüchtlingen zu verbrennen, Kleidung von Rekonvaleszenten zu vernichten und betroffene Räume und Gegenstände zu desinfizieren. Trotzdem bestand Gelbfieber trotz umfangreicher Reinigung und Desinfektion fort. In Camp Lazear setzte die Army Commission daraufhin nichtimmune Freiwillige absichtlich Bettzeug und Kleidung aus, die stark mit Material von Gelbfieberpatienten verunreinigt waren; niemand erkrankte. Die Militärregierung ersetzte die alten Maßnahmen schrittweise durch Mückenschutz, mückenabtötende Begasung und Beseitigung von Brutstätten. Die gemeldeten Gelbfieberfälle in Havanna fielen im neuen Kontrollsystem von rund 1.400 im Jahr 1900 auf 37 im Jahr 1901 und auf null im Jahr 1902.
   highlights:
-  - value: '1898'
-    label: Heeresmedizinische Empfehlungen verlangten in Kuba die Verbrennung von Gebäuden und Flüchtlingskleidung
-  - value: '0'
-    label: Gelbfieberfälle unter Freiwilligen in wiederholten Fomitenexperimenten von Camp Lazear
-    note: Die Freiwilligen waren bewusst stark kontaminiertem Bettzeug und Kleidung von Gelbfieberpatienten ausgesetzt.
-  - value: 1.400 → 37 → 0
-    label: gemeldete Gelbfieberfälle in Havanna 1900, 1901 und 1902 beim Übergang zur Mückenbekämpfung
-    note: Der Rückgang folgte einem breiteren Vektorkontrollprogramm und wird nicht einer einzelnen Maßnahme zugeschrieben.
+    - value: '1898'
+      label: Heeresmedizinische Empfehlungen verlangten in Kuba die Verbrennung von Gebäuden und Flüchtlingskleidung
+    - value: '0'
+      label: Gelbfieberfälle unter Freiwilligen in wiederholten Fomitenexperimenten von Camp Lazear
+      note: Die Freiwilligen waren bewusst stark kontaminiertem Bettzeug und Kleidung von Gelbfieberpatienten ausgesetzt.
+    - value: 1.400 → 37 → 0
+      label: gemeldete Gelbfieberfälle in Havanna 1900, 1901 und 1902 beim Übergang zur Mückenbekämpfung
+      note: Der Rückgang folgte einem breiteren Vektorkontrollprogramm und wird nicht einer einzelnen Maßnahme zugeschrieben.
   context:
-  - Die Korrektur betrifft gezielt die Übertragung von Gelbfieber durch kontaminierte Gegenstände. Straßenreinigung,
-    sauberes Wasser, Kanalisation, Isolation und Desinfektion können bei anderen Krankheiten sehr wirksam sein; das
-    breitere Hygieneprogramm der Armee verbesserte die Gesundheit, obwohl es Gelbfieber nicht stoppte.
-  - Auch Quarantäne wurde durch die Mückenentdeckung nicht bedeutungslos. Wird verhindert, dass Mücken einen virämischen
-    Patienten stechen, kann die Übertragung unterbrochen werden. Unnötig war die Vorstellung, Bettzeug, Kleidung oder
-    Gepäck selbst seien infektiöse Fomiten, die aufwendig desinfiziert werden müssten.
-  - Die Army Commission erfand die Mückenhypothese nicht. Der kubanische Arzt Carlos Finlay hatte Aedes bereits fast
-    zwei Jahrzehnte als Überträger vorgeschlagen und der Kommission Mückeneier zur Verfügung gestellt. Die institutionelle
-    Leistung der Armee bestand in der kontrollierten experimentellen Bestätigung und der raschen Umsetzung in Sanitätspolitik.
-  - Bis 1901 waren die entscheidenden Fomiten- und Mückenversuche abgeschlossen und veröffentlicht; zugleich
-    vollzog sich der damit verbundene Politikwechsel. Einzelne Einsatzbefehle änderten sich bereits Ende 1900 und im Laufe von 1901.
+    - Die Korrektur betrifft gezielt die Übertragung von Gelbfieber durch kontaminierte Gegenstände. Straßenreinigung, sauberes Wasser, Kanalisation, Isolation und Desinfektion können bei anderen Krankheiten sehr wirksam sein; das breitere Hygieneprogramm der Armee verbesserte die Gesundheit, obwohl es Gelbfieber nicht stoppte.
+    - Auch Quarantäne wurde durch die Mückenentdeckung nicht bedeutungslos. Wird verhindert, dass Mücken einen virämischen Patienten stechen, kann die Übertragung unterbrochen werden. Unnötig war die Vorstellung, Bettzeug, Kleidung oder Gepäck selbst seien infektiöse Fomiten, die aufwendig desinfiziert werden müssten.
+    - Die Army Commission erfand die Mückenhypothese nicht. Der kubanische Arzt Carlos Finlay hatte Aedes bereits fast zwei Jahrzehnte als Überträger vorgeschlagen und der Kommission Mückeneier zur Verfügung gestellt. Die institutionelle Leistung der Armee bestand in der kontrollierten experimentellen Bestätigung und der raschen Umsetzung in Sanitätspolitik.
+    - Bis 1901 waren die entscheidenden Fomiten- und Mückenversuche abgeschlossen und veröffentlicht; zugleich vollzog sich der damit verbundene Politikwechsel. Einzelne Einsatzbefehle änderten sich bereits Ende 1900 und im Laufe von 1901.
 episodes:
-- id: cuba-us-military-government-1898-1901
-  polity: Kuba — US-Militärregierung
-  institutions:
-  - Sanitätsdienst der US-Armee
-  - US-Militärregierung in Kuba
-  - Yellow Fever Commission der US-Armee
-  institutionalContext: Als US-Truppen 1898 nach Kuba kamen, behandelte die Heeresmedizin kontaminierte Orte und Gegenstände
-    als wichtige Quellen der Gelbfieberinfektion. Amtliche Empfehlungen sahen vor, von Einwohnern genutzte Gebäude,
-    Flüchtlingskleidung und Kleidung von Gelbfieber-Rekonvaleszenten zu verbrennen und Lager von vermeintlich infizierten
-    Orten zu verlegen. In Havanna verbesserten Reinigung, Quarantäne und Desinfektion zwar die allgemeine Gesundheit,
-    kontrollierten aber Gelbfieber nicht. Surgeon General George Sternberg setzte deshalb im Mai 1900 die Yellow Fever
-    Commission ein. Reed, Carroll, Lazear und Agramonte kombinierten anschließend Mückenversuche mit einem absichtlich
-    extremen Fomitentest in Camp Lazear. Freiwillige blieben trotz langandauernden Kontakts mit kontaminierter Kleidung
-    und Bettzeug gesund. Die Sanitätspolitik verlagerte sich auf Abschirmung von Patienten, Abtötung erwachsener Mücken
-    und Beseitigung von Brutstätten; die aufwendige Desinfektion von Gepäck und Kontaktgegenständen als Gelbfiebermaßnahme
-    entfiel.
-  summary: 'Die Kuba-Episode der US-Armee ist eine besonders kompakte institutionelle Selbstkorrektur. 1898 handelte
-    das Medizinsystem nach der weithin akzeptierten Annahme, infizierte Räume, Kleidung und Bettzeug könnten Gelbfieber
-    übertragen. Dasselbe militärmedizinische System prüfte die Behauptung dann direkt: Nichtimmune Freiwillige blieben
-    trotz langem Fomitenkontakt gesund, während infizierte Mücken die Krankheit übertrugen. Die Militärregierung schrieb
-    ihre Sanitätspraxis um den Mückenmechanismus herum neu.'
-  consequences:
-  - Verbrennung von Gebäuden und Kleidung, die als mögliche Träger von Gelbfieber angesehen wurden
-  - Zeitaufwendige Desinfektions- und Quarantäneverfahren für vermeintlich kontaminierte persönliche Gegenstände
-  - Fortbestehen von Gelbfieber trotz umfangreicher Stadtreinigung und fomitenorientierter Hygienemaßnahmen
-  - Kontrollierte Humanexperimente der Army Commission zur Unterscheidung zwischen Fomiten- und Mückenübertragung
-  - Rasche Ablösung des alten Mechanismus durch Mückenschutz, Begasung und Brutstättenbekämpfung
-  - Starker Rückgang und schließlich Beseitigung des städtischen Gelbfiebers in Havanna unter dem Vektorkontrollprogramm
+  - id: cuba-us-military-government-1898-1901
+    polity: Kuba — US-Militärregierung
+    institutions:
+      - Sanitätsdienst der US-Armee
+      - US-Militärregierung in Kuba
+      - Yellow Fever Commission der US-Armee
+    institutionalContext: >-
+      Als US-Truppen 1898 nach Kuba kamen, behandelte die Heeresmedizin kontaminierte Orte und Gegenstände als wichtige Quellen der Gelbfieberinfektion. Amtliche Empfehlungen sahen vor, von Einwohnern genutzte Gebäude, Flüchtlingskleidung und Kleidung von Gelbfieber-Rekonvaleszenten zu verbrennen und Lager von vermeintlich infizierten Orten zu verlegen. In Havanna verbesserten Reinigung, Quarantäne und Desinfektion zwar die allgemeine Gesundheit, kontrollierten aber Gelbfieber nicht. Surgeon General George Sternberg setzte deshalb im Mai 1900 die Yellow Fever Commission ein. Reed, Carroll, Lazear und Agramonte kombinierten anschließend Mückenversuche mit einem absichtlich extremen Fomitentest in Camp Lazear. Freiwillige blieben trotz langandauernden Kontakts mit kontaminierter Kleidung und Bettzeug gesund. Die Sanitätspolitik verlagerte sich auf Abschirmung von Patienten, Abtötung erwachsener Mücken und Beseitigung von Brutstätten; die aufwendige Desinfektion von Gepäck und Kontaktgegenständen als Gelbfiebermaßnahme entfiel.
+    summary: >-
+      Die Kuba-Episode der US-Armee ist eine besonders kompakte institutionelle Selbstkorrektur. 1898 handelte das Medizinsystem nach der weithin akzeptierten Annahme, infizierte Räume, Kleidung und Bettzeug könnten Gelbfieber übertragen. Dasselbe militärmedizinische System prüfte die Behauptung dann direkt: Nichtimmune Freiwillige blieben trotz langem Fomitenkontakt gesund, während infizierte Mücken die Krankheit übertrugen. Die Militärregierung schrieb ihre Sanitätspraxis um den Mückenmechanismus herum neu.
+    consequences:
+      - Verbrennung von Gebäuden und Kleidung, die als mögliche Träger von Gelbfieber angesehen wurden
+      - Zeitaufwendige Desinfektions- und Quarantäneverfahren für vermeintlich kontaminierte persönliche Gegenstände
+      - Fortbestehen von Gelbfieber trotz umfangreicher Stadtreinigung und fomitenorientierter Hygienemaßnahmen
+      - Kontrollierte Humanexperimente der Army Commission zur Unterscheidung zwischen Fomiten- und Mückenübertragung
+      - Rasche Ablösung des alten Mechanismus durch Mückenschutz, Begasung und Brutstättenbekämpfung
+      - Starker Rückgang und schließlich Beseitigung des städtischen Gelbfiebers in Havanna unter dem Vektorkontrollprogramm
+    mechanism:
+      summary: >-
+        Die medizinische Doktrin der US-Armee wurde durch Verbrennungs-, Desinfektions- und Quarantänemaßnahmen für Gebäude, Kleidung, Bettzeug, Gepäck und Militärunterkünfte, die als Gelbfieberträger galten, in amtliche Praxis umgesetzt.
+    institutionalCorrection:
+      periodLabel: 1900–1901
+      summary: >-
+        Die Army Commission widerlegte die Fomitenübertragung experimentell, und die Militärregierung verlagerte ihre Politik auf Mückenschutz, die Abtötung erwachsener Mücken und die Beseitigung von Brutstätten.
+evidence:
+  - id: yellow-1898-proposition
+  - id: yellow-army-history-correction
+  - id: yellow-congress-correction
+  - id: yellow-reed-correction
+  - id: yellow-1898-impact
+  - id: yellow-congress-impact
+  - id: yellow-cuba-work-impact
+  - id: yellow-1898-carrier
+    note: Primärquelle der US-Heeresmedizin mit der Empfehlung, von Einwohnern genutzte Gebäude und die Kleidung von Flüchtlingen durch Feuer zu vernichten sowie die Kleidung von Gelbfieber-Rekonvaleszenten zu verbrennen.
+  - id: yellow-1898-mechanism
+  - id: yellow-army-history-mechanism
+    note: Amtliche Heeresgeschichte zum Scheitern der Desinfektion von Kleidung und Unterkünften, den Fomitenexperimenten von Camp Lazear, den Mückenbefunden und der anschließenden Aufgabe aufwendiger Gepäck- und Kleidungsdesinfektion.
+  - id: yellow-army-history-consequences
+  - id: yellow-congress-consequences
+    note: Bundesstaatlicher Bericht über die wiederholte Exposition von Freiwilligen gegenüber kontaminiertem Bettzeug und Kleidung, ohne dass jemand an Gelbfieber erkrankte, sowie über die zuvor nahezu allgemeine Annahme einer Fomitenübertragung.
+  - id: yellow-reed-institutional-correction
+    note: Walter Reeds Zusammenfassung von 1902 über die Versuche der Army Commission 1900–1901, darunter die detaillierte Exposition nichtimmuner Freiwilliger gegenüber stark kontaminiertem Gelbfieber-Bettzeug und Kleidung ohne Erkrankung.
+  - id: yellow-disaster-institutional-correction
+    note: Heeresgeschichtliche Darstellung, nach der anhaltendes Gelbfieber trotz Reinigung und Desinfektion zur Kommission führte; sie dokumentiert zudem die frühen Mückenbekämpfungsbefehle Ende 1900.
+  - id: yellow-cuba-work-consequences
+    note: Amtliche Heeresgeschichte, die Finlays frühere Hypothese würdigt, den Nachweis der Kommission beschreibt und den Rückgang der Gelbfieberfälle in Havanna von etwa 1.400 im Jahr 1900 auf 37 im Jahr 1901 und null im Jahr 1902 festhält.
+  - id: yellow-army-history-institutional-correction
+  - id: yellow-cuba-work-institutional-correction

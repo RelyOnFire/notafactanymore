@@ -1,0 +1,1408 @@
+---
+import { getCollection } from 'astro:content';
+import type { SiteLocale } from '../lib/i18n';
+import {
+  currentInstitutionalTranslationMap,
+  normalizeInstitutionalBelief,
+  type NormalizedInstitutionalEvidence,
+} from '../lib/institutionalBeliefs';
+
+interface Props {
+  locale?: SiteLocale;
+}
+
+const { locale = 'en' } = Astro.props;
+
+const PILOT_IDS = [
+  'visual-fire-patterns-arson-indicators',
+  'routine-oxygen-heart-attack',
+  'beriberi-infectious-disease',
+  'yellow-fever-fomite-transmission',
+] as const;
+
+const allBeliefs = await getCollection('institutionalBeliefs');
+const translations = locale === 'de'
+  ? await getCollection(
+      'institutionalBeliefTranslations',
+      (translation) => translation.data.locale === 'de',
+    )
+  : [];
+const translationById = currentInstitutionalTranslationMap(allBeliefs, translations);
+const beliefById = new Map(allBeliefs.map((belief) => [belief.id, belief]));
+
+const missingBeliefs = PILOT_IDS.filter((id) => !beliefById.has(id));
+if (missingBeliefs.length > 0) {
+  throw new Error(`Institutional v2 preview is missing canonical pilots: ${missingBeliefs.join(', ')}`);
+}
+
+if (locale === 'de') {
+  const missingTranslations = PILOT_IDS.filter((id) => !translationById.has(id));
+  if (missingTranslations.length > 0) {
+    throw new Error(
+      `Institutional v2 preview is missing current German pilots: ${missingTranslations.join(', ')}`,
+    );
+  }
+}
+
+const copy = locale === 'de'
+  ? {
+      eyebrow: 'Zielbild-Vorschau · Institutionelle Überzeugungen v2',
+      title: 'Von einer Quellenliste zu einer Evidenzlandkarte',
+      intro:
+        'Diese vier Pilotfälle zeigen, wie die Rubrik nach der vollständigen Umstellung aussehen könnte: Die historische Überzeugung, ihre heutige Korrektur, der institutionelle Mechanismus und jede einzelne Evidenzbeziehung werden getrennt und nachvollziehbar dargestellt.',
+      previewOnly: 'Nur Vorschau',
+      previewNote:
+        'Diese Seite ist nicht indexiert und verändert die bestehenden Karten nicht. Sie dient dazu, Informationsdichte, Begriffe und Lesefluss vor einer breiteren Migration zu beurteilen.',
+      reviewTitle: 'Worauf Sie achten sollten',
+      reviewQuestions: [
+        'Sind historische Überzeugung und heutige Korrektur klar voneinander getrennt?',
+        'Liefern „Warum sich die Annahme hielt“ und „Wie die Korrektur verlief“ nützlichen Kontext?',
+        'Ist die Evidenz nah genug an der jeweiligen Aussage, ohne die Erzählung zu überladen?',
+        'Sollte ein Abschnitt vor der breiteren Einführung gekürzt, umbenannt oder eingeklappt werden?',
+      ],
+      pilotCases: 'Vier Pilotfälle',
+      pilotIntro:
+        'Die Kurzansichten führen zu vollständigen Vorschauen weiter unten. Gemeinsam decken sie einfache und komplexe Fälle, mehrere Episoden und unterschiedliche Korrekturwege ab.',
+      episodes: (count: number) => `${count} ${count === 1 ? 'Episode' : 'Episoden'}`,
+      evidenceLinks: (count: number) => `${count} Evidenz${count === 1 ? 'beziehung' : 'beziehungen'}`,
+      sources: (count: number) => `${count} ${count === 1 ? 'Quelle' : 'Quellen'}`,
+      openCase: 'Vollständigen Fall ansehen',
+      schema: 'Schema v2',
+      accepted: 'Was Institutionen akzeptierten',
+      current: 'Was die Evidenz heute stützt',
+      beliefEvidence: 'Evidenz zur übergeordneten Überzeugung',
+      impact: 'Auswirkungen',
+      impactContext: 'Einordnung',
+      impactCaution:
+        'Historische Zahlen und Wirkungen werden als kontextgebundene Evidenz dargestellt, nicht als universelle Kausalbehauptung.',
+      episode: 'Institutionelle Episode',
+      institutions: 'Beteiligte Institutionen',
+      institutionalContext: 'Institutioneller Kontext',
+      consequences: 'Folgen',
+      why: 'Warum sich die Annahme hielt',
+      how: 'Wie die institutionelle Korrektur verlief',
+      action: 'Maßnahme',
+      evidenceForEpisode: 'Evidenz für diese Episode',
+      locator: 'Fundstelle',
+      sourceRegistry: 'Quellenregister',
+      sourceRegistryIntro:
+        'Jede Quelle wird einmal geführt und kann mehrere präzise Evidenzbeziehungen tragen.',
+      usedBy: (count: number) => `${count} ${count === 1 ? 'Evidenzbeziehung' : 'Evidenzbeziehungen'}`,
+      reviewed: 'Inhalt geprüft',
+      compareCurrent: 'Mit der aktuellen Karte vergleichen',
+      backToCases: 'Zurück zu den Pilotfällen',
+    }
+  : {
+      eyebrow: 'End-state review · Institutional beliefs v2',
+      title: 'From a source list to an evidence map',
+      intro:
+        'These four pilot cases show what the section could become after full migration: the historical belief, present correction, institutional mechanism, and every individual evidence relationship are separated and traceable.',
+      previewOnly: 'Preview only',
+      previewNote:
+        'This page is not indexed and does not alter the existing cards. It exists to review information density, terminology, and reading flow before any wider migration.',
+      reviewTitle: 'What to assess',
+      reviewQuestions: [
+        'Is the historical belief clearly separated from the present correction?',
+        'Do “Why it persisted” and “How correction happened” add useful context?',
+        'Is evidence attached closely enough without overwhelming the narrative?',
+        'Should any section be shortened, renamed, or collapsed before wider rollout?',
+      ],
+      pilotCases: 'Four pilot cases',
+      pilotIntro:
+        'The compact views jump to complete previews below. Together they cover simple and complex cases, multiple episodes, and different paths to correction.',
+      episodes: (count: number) => `${count} ${count === 1 ? 'episode' : 'episodes'}`,
+      evidenceLinks: (count: number) => `${count} evidence ${count === 1 ? 'link' : 'links'}`,
+      sources: (count: number) => `${count} ${count === 1 ? 'source' : 'sources'}`,
+      openCase: 'Review full case',
+      schema: 'Schema v2',
+      accepted: 'What institutions accepted',
+      current: 'What the evidence supports now',
+      beliefEvidence: 'Evidence for the overall belief',
+      impact: 'Impact',
+      impactContext: 'Context',
+      impactCaution:
+        'Historical totals and effects are presented as contextual evidence, not as universal causal claims.',
+      episode: 'Institutional episode',
+      institutions: 'Institutions involved',
+      institutionalContext: 'Institutional context',
+      consequences: 'Consequences',
+      why: 'Why this persisted',
+      how: 'How correction happened',
+      action: 'Action',
+      evidenceForEpisode: 'Evidence for this episode',
+      locator: 'Where in the source',
+      sourceRegistry: 'Source registry',
+      sourceRegistryIntro:
+        'Each source is registered once and can carry several precise evidence relationships.',
+      usedBy: (count: number) => `${count} evidence ${count === 1 ? 'link' : 'links'}`,
+      reviewed: 'Content reviewed',
+      compareCurrent: 'Compare current production card',
+      backToCases: 'Back to pilot cases',
+    };
+
+const strengthLabels: Record<string, string> = locale === 'de'
+  ? {
+      'institutionally-influential': 'Institutionell einflussreich',
+      'officially-endorsed': 'Offiziell unterstützt',
+      'policy-basis': 'Grundlage staatlicher Praxis',
+      'enforced-doctrine': 'Durchgesetzte Doktrin',
+    }
+  : {
+      'institutionally-influential': 'Institutionally influential',
+      'officially-endorsed': 'Officially endorsed',
+      'policy-basis': 'Policy basis',
+      'enforced-doctrine': 'Enforced doctrine',
+    };
+
+const institutionTypeLabels: Record<string, string> = locale === 'de'
+  ? {
+      government: 'Staat',
+      court: 'Gericht',
+      academy: 'Akademie',
+      university: 'Universität',
+      medical: 'Medizin',
+      professional: 'Fachinstitution',
+      education: 'Bildung',
+      military: 'Militär',
+    }
+  : {
+      government: 'Government',
+      court: 'Court',
+      academy: 'Academy',
+      university: 'University',
+      medical: 'Medical',
+      professional: 'Professional',
+      education: 'Education',
+      military: 'Military',
+    };
+
+const mechanismLabels: Record<string, string> = locale === 'de'
+  ? {
+      endorsement: 'Befürwortung',
+      classification: 'Klassifizierung',
+      'standard-setting': 'Standardsetzung',
+      'administrative-adoption': 'Administrative Übernahme',
+      education: 'Ausbildung',
+      publication: 'Veröffentlichung',
+      funding: 'Finanzierung',
+      credentialing: 'Qualifikationsvergabe',
+      enforcement: 'Durchsetzung',
+      suppression: 'Unterdrückung',
+      other: 'Anderer Mechanismus',
+    }
+  : {
+      endorsement: 'Endorsement',
+      classification: 'Classification',
+      'standard-setting': 'Standard-setting',
+      'administrative-adoption': 'Administrative adoption',
+      education: 'Education',
+      publication: 'Publication',
+      funding: 'Funding',
+      credentialing: 'Credentialing',
+      enforcement: 'Enforcement',
+      suppression: 'Suppression',
+      other: 'Other mechanism',
+    };
+
+const correctionStatusLabels: Record<string, string> = locale === 'de'
+  ? {
+      corrected: 'Korrigiert',
+      partial: 'Teilweise korrigiert',
+      uncorrected: 'Nicht korrigiert',
+      ongoing: 'Laufend',
+      undocumented: 'Nicht dokumentiert',
+    }
+  : {
+      corrected: 'Corrected',
+      partial: 'Partially corrected',
+      uncorrected: 'Uncorrected',
+      ongoing: 'Ongoing',
+      undocumented: 'Undocumented',
+    };
+
+const relationLabels: Record<string, string> = locale === 'de'
+  ? {
+      documents: 'Dokumentiert',
+      supports: 'Stützt',
+      contextualizes: 'Ordnet ein',
+      disputes: 'Widerspricht',
+    }
+  : {
+      documents: 'Documents',
+      supports: 'Supports',
+      contextualizes: 'Contextualizes',
+      disputes: 'Disputes',
+    };
+
+const targetLabels: Record<string, string> = locale === 'de'
+  ? {
+      proposition: 'Historische Überzeugung',
+      correction: 'Heutige Korrektur',
+      impact: 'Auswirkungen',
+      carrier: 'Institutioneller Träger',
+      mechanism: 'Mechanismus',
+      consequences: 'Folgen',
+      'institutional-correction': 'Institutionelle Korrektur',
+      context: 'Kontext',
+    }
+  : {
+      proposition: 'Historical belief',
+      correction: 'Present correction',
+      impact: 'Impact',
+      carrier: 'Institutional carrier',
+      mechanism: 'Mechanism',
+      consequences: 'Consequences',
+      'institutional-correction': 'Institutional correction',
+      context: 'Context',
+    };
+
+const germanCategoryLabels: Record<string, string> = {
+  'Forensic science and fire investigation': 'Forensik und Brandursachenermittlung',
+  'Emergency cardiology and treatment guidelines': 'Notfallkardiologie und Behandlungsleitlinien',
+  'Medicine, nutrition and military health': 'Medizin, Ernährung und Militärgesundheit',
+  'Public health, military medicine and infectious disease':
+    'Öffentliche Gesundheit, Militärmedizin und Infektionskrankheiten',
+};
+
+const categoryLabel = (category: string) =>
+  locale === 'de' ? germanCategoryLabels[category] ?? category : category;
+const targetLabel = (evidence: NormalizedInstitutionalEvidence) =>
+  targetLabels[evidence.target.aspect] ?? evidence.target.aspect;
+const reviewedDate = (date: Date) => date.toLocaleDateString(
+  locale === 'de' ? 'de-DE' : 'en-GB',
+  { dateStyle: 'long' },
+);
+
+const cases = PILOT_IDS.map((id) => {
+  const canonical = beliefById.get(id);
+  if (!canonical) throw new Error(`Institutional v2 preview cannot load canonical pilot: ${id}`);
+  if (canonical.data.schemaVersion !== 2) {
+    throw new Error(`Institutional v2 preview requires schemaVersion 2: ${id}`);
+  }
+
+  const normalized = normalizeInstitutionalBelief(
+    canonical,
+    locale,
+    translationById.get(id),
+  );
+  if (normalized.schemaVersion !== 2) {
+    throw new Error(`Institutional v2 preview normalized an unexpected schema: ${id}`);
+  }
+
+  const sourceById = new Map(normalized.sources.map((source) => [source.id, source]));
+  const missingSourceIds = normalized.evidence
+    .filter((evidence) => !sourceById.has(evidence.sourceId))
+    .map((evidence) => evidence.sourceId);
+  if (missingSourceIds.length > 0) {
+    throw new Error(
+      `Institutional v2 preview has unresolved sources for ${id}: ${missingSourceIds.join(', ')}`,
+    );
+  }
+
+  const enrichEvidence = (items: NormalizedInstitutionalEvidence[]) => items.map((item) => ({
+    ...item,
+    source: sourceById.get(item.sourceId)!,
+  }));
+
+  return {
+    ...normalized,
+    categoryLabel: categoryLabel(normalized.category),
+    productionPath: locale === 'de'
+      ? `/de/institutions/${normalized.id}/`
+      : `/institutions/${normalized.id}/`,
+    beliefEvidence: enrichEvidence(
+      normalized.evidence.filter((evidence) => evidence.target.scope === 'belief'),
+    ),
+    episodes: normalized.episodes.map((episode) => ({
+      ...episode,
+      evidence: enrichEvidence(
+        normalized.evidence.filter(
+          (evidence) =>
+            evidence.target.scope === 'episode' &&
+            evidence.target.episodeId === episode.id,
+        ),
+      ),
+    })),
+    sourceRows: normalized.sources.map((source) => ({
+      source,
+      evidenceCount: normalized.evidence.filter(
+        (evidence) => evidence.sourceId === source.id,
+      ).length,
+    })),
+  };
+});
+---
+
+<div class="v2-preview container">
+  <section class="preview-hero" aria-labelledby="preview-title">
+    <p class="eyebrow">{copy.eyebrow}</p>
+    <h1 id="preview-title">{copy.title}</h1>
+    <p class="preview-intro">{copy.intro}</p>
+
+    <div class="preview-note" role="note">
+      <strong>{copy.previewOnly}</strong>
+      <p>{copy.previewNote}</p>
+    </div>
+
+    <aside class="review-guide" aria-labelledby="review-guide-title">
+      <h2 id="review-guide-title">{copy.reviewTitle}</h2>
+      <ol>
+        {copy.reviewQuestions.map((question) => <li>{question}</li>)}
+      </ol>
+    </aside>
+  </section>
+
+  <section class="pilot-overview" id="pilot-cases" aria-labelledby="pilot-cases-title">
+    <header class="section-heading">
+      <p class="section-kicker">{copy.schema}</p>
+      <h2 id="pilot-cases-title">{copy.pilotCases}</h2>
+      <p>{copy.pilotIntro}</p>
+    </header>
+
+    <div class="pilot-grid">
+      {cases.map((entry, index) => (
+        <a class="pilot-card" href={`#case-${entry.id}`}>
+          <span class="pilot-number" aria-hidden="true">
+            {String(index + 1).padStart(2, '0')}
+          </span>
+          <div>
+            <p class="pilot-category">{entry.categoryLabel}</p>
+            <h3>{entry.title}</h3>
+            <p class="pilot-proposition">{entry.proposition}</p>
+            <div class="pilot-counts" aria-label={`${copy.episodes(entry.episodes.length)}, ${copy.evidenceLinks(entry.evidence.length)}, ${copy.sources(entry.sources.length)}`}>
+              <span>{copy.episodes(entry.episodes.length)}</span>
+              <span>{copy.evidenceLinks(entry.evidence.length)}</span>
+              <span>{copy.sources(entry.sources.length)}</span>
+            </div>
+            <span class="pilot-link">{copy.openCase} ↓</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="case-previews" aria-label={copy.pilotCases}>
+    {cases.map((entry, caseIndex) => (
+      <article
+        class="case-preview"
+        id={`case-${entry.id}`}
+        aria-labelledby={`case-title-${entry.id}`}
+      >
+        <header class="case-header">
+          <div class="case-index" aria-hidden="true">
+            {String(caseIndex + 1).padStart(2, '0')}
+          </div>
+          <div class="case-heading-copy">
+            <div class="case-flags">
+              <span class="schema-badge">{copy.schema}</span>
+              <span>{entry.categoryLabel}</span>
+            </div>
+            <h2 id={`case-title-${entry.id}`}>{entry.title}</h2>
+            <div class="case-actions">
+              <a href={entry.productionPath}>{copy.compareCurrent} ↗</a>
+              <a href="#pilot-cases">{copy.backToCases} ↑</a>
+            </div>
+          </div>
+        </header>
+
+        <div class="narrative-grid">
+          <section class="narrative-panel proposition-panel" aria-labelledby={`proposition-${entry.id}`}>
+            <p class="section-kicker">01</p>
+            <h3 id={`proposition-${entry.id}`}>{copy.accepted}</h3>
+            <p>{entry.proposition}</p>
+          </section>
+          <section class="narrative-panel correction-panel" aria-labelledby={`correction-${entry.id}`}>
+            <p class="section-kicker">02</p>
+            <h3 id={`correction-${entry.id}`}>{copy.current}</h3>
+            <p>{entry.correction}</p>
+          </section>
+        </div>
+
+        {entry.beliefEvidence.length > 0 && (
+          <section class="belief-evidence evidence-section" aria-labelledby={`belief-evidence-${entry.id}`}>
+            <div class="subsection-heading">
+              <p class="section-kicker">03</p>
+              <h3 id={`belief-evidence-${entry.id}`}>{copy.beliefEvidence}</h3>
+              <span>{copy.evidenceLinks(entry.beliefEvidence.length)}</span>
+            </div>
+            <ol class="evidence-list">
+              {entry.beliefEvidence.map((evidence) => (
+                <li class="evidence-item" id={`${entry.id}-${evidence.id}`}>
+                  <div class="evidence-badges">
+                    <span class={`relation-badge relation-${evidence.relation}`}>
+                      {relationLabels[evidence.relation]}
+                    </span>
+                    <span class="target-badge">{targetLabel(evidence)}</span>
+                  </div>
+                  <a class="evidence-source" href={evidence.source.url} target="_blank" rel="noopener noreferrer">
+                    {evidence.source.title}
+                  </a>
+                  <span class="evidence-publisher">{evidence.source.publisher}</span>
+                  {evidence.locator && (
+                    <p class="evidence-locator"><strong>{copy.locator}:</strong> {evidence.locator}</p>
+                  )}
+                  {evidence.note && <p class="evidence-note-copy">{evidence.note}</p>}
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
+
+        {entry.impact && (
+          <section class="impact-section" aria-labelledby={`impact-${entry.id}`}>
+            <div class="subsection-heading">
+              <p class="section-kicker">04</p>
+              <h3 id={`impact-${entry.id}`}>{copy.impact}</h3>
+            </div>
+            <p class="impact-summary">{entry.impact.summary}</p>
+
+            {entry.impact.context.length > 0 && (
+              <div class="impact-context">
+                <h4>{copy.impactContext}</h4>
+                <div>
+                  {entry.impact.context.map((paragraph) => <p>{paragraph}</p>)}
+                </div>
+              </div>
+            )}
+
+            {entry.impact.highlights.length > 0 && (
+              <div class="impact-grid">
+                {entry.impact.highlights.map((highlight) => (
+                  <article class="impact-highlight">
+                    <strong>{highlight.value}</strong>
+                    <h4>{highlight.label}</h4>
+                    {highlight.note && <p>{highlight.note}</p>}
+                  </article>
+                ))}
+              </div>
+            )}
+            <p class="impact-caution">{copy.impactCaution}</p>
+          </section>
+        )}
+
+        <section class="episodes-section" aria-label={copy.episodes(entry.episodes.length)}>
+          {entry.episodes.map((episode, episodeIndex) => (
+            <article class="episode-preview" id={`${entry.id}-${episode.id}`}>
+              <header class="episode-header">
+                <div>
+                  <p class="section-kicker">
+                    {copy.episode} {String(episodeIndex + 1).padStart(2, '0')}
+                  </p>
+                  <h3>{episode.polity}</h3>
+                  <p class="episode-region">{episode.regionLabel}</p>
+                </div>
+                <div class="episode-meta">
+                  <span class="period-badge">{episode.period}</span>
+                  <span class={`strength-badge strength-${episode.strength}`}>
+                    {strengthLabels[episode.strength] ?? episode.strength}
+                  </span>
+                </div>
+              </header>
+
+              <p class="episode-summary">{episode.summary}</p>
+
+              <div class="institution-block">
+                <div>
+                  <h4>{copy.institutions}</h4>
+                  <div class="type-badges">
+                    {episode.institutionTypes.map((type) => (
+                      <span>{institutionTypeLabels[type] ?? type}</span>
+                    ))}
+                  </div>
+                </div>
+                <ul>
+                  {episode.institutions.map((institution) => <li>{institution}</li>)}
+                </ul>
+              </div>
+
+              {episode.institutionalContext && (
+                <section class="context-block">
+                  <h4>{copy.institutionalContext}</h4>
+                  <p>{episode.institutionalContext}</p>
+                </section>
+              )}
+
+              <div class="explanation-grid">
+                {episode.mechanism && (
+                  <section class="explanation-panel mechanism-panel">
+                    <div class="explanation-title">
+                      <h4>{copy.why}</h4>
+                      {episode.mechanism.kind && (
+                        <span>{mechanismLabels[episode.mechanism.kind] ?? episode.mechanism.kind}</span>
+                      )}
+                    </div>
+                    <p>{episode.mechanism.summary}</p>
+                  </section>
+                )}
+
+                {episode.institutionalCorrection && (
+                  <section class="explanation-panel correction-process-panel">
+                    <div class="explanation-title">
+                      <h4>{copy.how}</h4>
+                      <span class={`status-badge status-${episode.institutionalCorrection.status}`}>
+                        {correctionStatusLabels[episode.institutionalCorrection.status]}
+                      </span>
+                    </div>
+                    {episode.institutionalCorrection.periodLabel && (
+                      <p class="correction-period">{episode.institutionalCorrection.periodLabel}</p>
+                    )}
+                    {episode.institutionalCorrection.action && (
+                      <p class="correction-action">
+                        <strong>{copy.action}:</strong> {episode.institutionalCorrection.action}
+                      </p>
+                    )}
+                    <p>{episode.institutionalCorrection.summary}</p>
+                  </section>
+                )}
+              </div>
+
+              <section class="consequences-block">
+                <h4>{copy.consequences}</h4>
+                <ul>
+                  {episode.consequences.map((consequence) => <li>{consequence}</li>)}
+                </ul>
+              </section>
+
+              <section class="evidence-section episode-evidence" aria-labelledby={`episode-evidence-${entry.id}-${episode.id}`}>
+                <div class="subsection-heading">
+                  <h4 id={`episode-evidence-${entry.id}-${episode.id}`}>{copy.evidenceForEpisode}</h4>
+                  <span>{copy.evidenceLinks(episode.evidence.length)}</span>
+                </div>
+                <ol class="evidence-list">
+                  {episode.evidence.map((evidence) => (
+                    <li class="evidence-item" id={`${entry.id}-${evidence.id}`}>
+                      <div class="evidence-badges">
+                        <span class={`relation-badge relation-${evidence.relation}`}>
+                          {relationLabels[evidence.relation]}
+                        </span>
+                        <span class="target-badge">{targetLabel(evidence)}</span>
+                      </div>
+                      <a class="evidence-source" href={evidence.source.url} target="_blank" rel="noopener noreferrer">
+                        {evidence.source.title}
+                      </a>
+                      <span class="evidence-publisher">{evidence.source.publisher}</span>
+                      {evidence.locator && (
+                        <p class="evidence-locator"><strong>{copy.locator}:</strong> {evidence.locator}</p>
+                      )}
+                      {evidence.note && <p class="evidence-note-copy">{evidence.note}</p>}
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            </article>
+          ))}
+        </section>
+
+        <details class="source-registry">
+          <summary>
+            <span>
+              <strong>{copy.sourceRegistry}</strong>
+              <small>{copy.sourceRegistryIntro}</small>
+            </span>
+            <span>{copy.sources(entry.sourceRows.length)}</span>
+          </summary>
+          <ol>
+            {entry.sourceRows.map(({ source, evidenceCount }, sourceIndex) => (
+              <li id={`${entry.id}-source-${source.id}`}>
+                <span class="source-number">{String(sourceIndex + 1).padStart(2, '0')}</span>
+                <div>
+                  <a href={source.url} target="_blank" rel="noopener noreferrer">
+                    {source.title}
+                  </a>
+                  <span>{source.publisher}</span>
+                </div>
+                <small>{copy.usedBy(evidenceCount)}</small>
+              </li>
+            ))}
+          </ol>
+        </details>
+
+        <footer class="case-footer">
+          <span>{copy.reviewed}: {reviewedDate(entry.reviewedAt)}</span>
+          <a href="#pilot-cases">{copy.backToCases} ↑</a>
+        </footer>
+      </article>
+    ))}
+  </section>
+</div>
+
+<style>
+  .v2-preview {
+    max-width: 1180px;
+    padding: 3.5rem 0 6rem;
+  }
+
+  .preview-hero {
+    padding-bottom: 3.5rem;
+    border-bottom: 3px solid var(--ink);
+  }
+
+  .preview-hero h1 {
+    margin: 0.35rem 0 1.25rem;
+    max-width: 980px;
+    font-size: clamp(3rem, 8vw, 6.2rem);
+    line-height: 0.94;
+  }
+
+  .preview-intro {
+    margin: 0;
+    max-width: 850px;
+    color: var(--muted);
+    font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+    line-height: 1.55;
+  }
+
+  .preview-note {
+    margin-top: 2rem;
+    max-width: 900px;
+    padding: 1rem 1.15rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    align-items: start;
+    border: 1px solid var(--accent-dark);
+    border-radius: 0.7rem;
+    background: color-mix(in srgb, var(--accent) 8%, var(--card));
+  }
+
+  .preview-note strong {
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    color: white;
+    background: var(--accent-dark);
+    font-size: 0.72rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .preview-note p {
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.55;
+  }
+
+  .review-guide {
+    margin-top: 1.25rem;
+    max-width: 900px;
+    padding: 1.25rem 1.35rem;
+    border: 1px solid var(--line);
+    border-radius: 0.7rem;
+    background: var(--card);
+  }
+
+  .review-guide h2 {
+    margin: 0;
+    font-size: 1.15rem;
+  }
+
+  .review-guide ol {
+    margin: 0.85rem 0 0;
+    padding-left: 1.4rem;
+    columns: 2;
+    column-gap: 2.5rem;
+  }
+
+  .review-guide li {
+    margin-bottom: 0.55rem;
+    break-inside: avoid;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .pilot-overview {
+    padding: 4.5rem 0 5rem;
+  }
+
+  .section-heading {
+    max-width: 760px;
+    margin-bottom: 1.6rem;
+  }
+
+  .section-heading h2 {
+    margin: 0;
+  }
+
+  .section-heading > p:last-child {
+    margin: 0.7rem 0 0;
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
+
+  .section-kicker {
+    margin: 0 0 0.35rem;
+    color: var(--accent-dark);
+    font-size: 0.72rem;
+    font-weight: 850;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .pilot-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .pilot-card {
+    min-width: 0;
+    padding: 1.25rem;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 0.9rem;
+    background: var(--card);
+    text-decoration: none;
+  }
+
+  .pilot-card:hover,
+  .pilot-card:focus-visible {
+    border-color: var(--accent-dark);
+    box-shadow: 0 12px 30px color-mix(in srgb, var(--ink) 10%, transparent);
+  }
+
+  .pilot-number,
+  .case-index {
+    color: var(--accent-dark);
+    font-size: 0.72rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+  }
+
+  .pilot-category {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 750;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .pilot-card h3 {
+    margin: 0.35rem 0 0;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  }
+
+  .pilot-proposition {
+    margin: 0.7rem 0 0;
+    display: -webkit-box;
+    overflow: hidden;
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.55;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+
+  .pilot-counts {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .pilot-counts span,
+  .case-flags span,
+  .type-badges span,
+  .period-badge,
+  .strength-badge,
+  .relation-badge,
+  .target-badge,
+  .explanation-title span {
+    padding: 0.28rem 0.55rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--muted);
+    background: var(--paper);
+    font-size: 0.7rem;
+    font-weight: 760;
+    line-height: 1.25;
+  }
+
+  .pilot-link {
+    margin-top: 1rem;
+    display: inline-block;
+    color: var(--accent-dark);
+    font-size: 0.82rem;
+    font-weight: 800;
+  }
+
+  .case-previews {
+    display: grid;
+    gap: 7rem;
+  }
+
+  .case-preview {
+    scroll-margin-top: 1rem;
+    padding: 2rem;
+    border: 1px solid var(--line);
+    border-top: 6px solid var(--ink);
+    border-radius: 0.8rem;
+    background: color-mix(in srgb, var(--card) 86%, var(--paper));
+  }
+
+  .case-header {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 1.25rem;
+    align-items: start;
+  }
+
+  .case-index {
+    padding-top: 0.65rem;
+  }
+
+  .case-flags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    align-items: center;
+  }
+
+  .case-flags .schema-badge {
+    border-color: var(--accent-dark);
+    color: white;
+    background: var(--accent-dark);
+  }
+
+  .case-header h2 {
+    margin: 0.75rem 0 0;
+    max-width: 930px;
+    font-size: clamp(2.2rem, 5vw, 4rem);
+  }
+
+  .case-actions {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1rem;
+  }
+
+  .case-actions a,
+  .case-footer a {
+    color: var(--accent-dark);
+    font-size: 0.82rem;
+    font-weight: 780;
+    text-underline-offset: 0.2em;
+  }
+
+  .narrative-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .narrative-panel {
+    padding: 1.35rem;
+    border: 1px solid var(--line);
+    border-radius: 0.75rem;
+    background: var(--card);
+  }
+
+  .narrative-panel h3 {
+    margin: 0;
+    font-size: 1.35rem;
+  }
+
+  .narrative-panel > p:last-child {
+    margin: 0.75rem 0 0;
+    color: var(--muted);
+    line-height: 1.65;
+  }
+
+  .proposition-panel {
+    border-top: 4px solid color-mix(in srgb, var(--ink) 75%, var(--muted));
+  }
+
+  .correction-panel {
+    border-top: 4px solid var(--accent-dark);
+  }
+
+  .belief-evidence,
+  .impact-section {
+    margin-top: 1rem;
+  }
+
+  .subsection-heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 1rem;
+    align-items: baseline;
+  }
+
+  .subsection-heading h3,
+  .subsection-heading h4 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .subsection-heading > span {
+    color: var(--muted);
+    font-size: 0.75rem;
+    font-weight: 760;
+  }
+
+  .impact-section {
+    padding: 1.35rem;
+    border: 1px solid var(--line);
+    border-radius: 0.75rem;
+    background: var(--card);
+  }
+
+  .impact-summary {
+    margin: 0.75rem 0 0;
+    color: var(--muted);
+    line-height: 1.65;
+  }
+
+  .impact-context {
+    margin-top: 1.2rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: minmax(140px, 0.25fr) minmax(0, 1fr);
+    gap: 1.5rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .impact-context h4,
+  .impact-context p {
+    margin: 0;
+  }
+
+  .impact-context p {
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .impact-context p + p {
+    margin-top: 0.75rem;
+  }
+
+  .impact-grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .impact-highlight {
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 0.65rem;
+    background: color-mix(in srgb, var(--paper) 72%, var(--card));
+  }
+
+  .impact-highlight > strong {
+    display: block;
+    font-size: clamp(1.45rem, 3vw, 2.1rem);
+    line-height: 1.05;
+  }
+
+  .impact-highlight h4 {
+    margin: 0.45rem 0 0;
+    font-size: 0.9rem;
+  }
+
+  .impact-highlight p {
+    margin: 0.45rem 0 0;
+    color: var(--muted);
+    font-size: 0.8rem;
+    line-height: 1.45;
+  }
+
+  .impact-caution {
+    margin: 1rem 0 0;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+
+  .episodes-section {
+    margin-top: 3rem;
+    display: grid;
+    gap: 4rem;
+  }
+
+  .episode-preview {
+    scroll-margin-top: 1rem;
+    padding-top: 2rem;
+    border-top: 3px solid var(--ink);
+  }
+
+  .episode-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .episode-header h3 {
+    margin: 0;
+    font-size: clamp(1.75rem, 4vw, 2.65rem);
+  }
+
+  .episode-region {
+    margin: 0.3rem 0 0;
+    color: var(--muted);
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  .episode-meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.45rem;
+  }
+
+  .strength-badge {
+    border-color: color-mix(in srgb, var(--accent-dark) 45%, var(--line));
+    color: var(--accent-dark);
+  }
+
+  .episode-summary {
+    margin: 1.25rem 0 0;
+    max-width: 900px;
+    font-size: 1.08rem;
+    font-weight: 650;
+    line-height: 1.6;
+  }
+
+  .institution-block {
+    margin-top: 1.4rem;
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: minmax(170px, 0.32fr) minmax(0, 1fr);
+    gap: 1.5rem;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .institution-block h4,
+  .context-block h4,
+  .consequences-block h4 {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  .type-badges {
+    margin-top: 0.55rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .institution-block ul,
+  .consequences-block ul {
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+
+  .institution-block li,
+  .consequences-block li {
+    margin-bottom: 0.35rem;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .context-block,
+  .consequences-block {
+    margin-top: 1.25rem;
+  }
+
+  .context-block p {
+    margin: 0.55rem 0 0;
+    color: var(--muted);
+    line-height: 1.65;
+  }
+
+  .explanation-grid {
+    margin-top: 1.4rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem;
+  }
+
+  .explanation-panel {
+    padding: 1.15rem;
+    border: 1px solid var(--line);
+    border-radius: 0.7rem;
+    background: var(--card);
+  }
+
+  .mechanism-panel {
+    border-left: 4px solid color-mix(in srgb, var(--ink) 70%, var(--muted));
+  }
+
+  .correction-process-panel {
+    border-left: 4px solid var(--accent-dark);
+  }
+
+  .explanation-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .explanation-title h4 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .explanation-panel > p:last-child {
+    margin: 0.7rem 0 0;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .correction-period {
+    margin: 0.7rem 0 0;
+    color: var(--accent-dark);
+    font-size: 0.78rem;
+    font-weight: 800;
+  }
+
+  .correction-action {
+    margin: 0.5rem 0 0;
+    font-size: 0.88rem;
+  }
+
+  .status-corrected {
+    border-color: #28755a !important;
+    color: #14543e !important;
+    background: color-mix(in srgb, #5fbd91 18%, var(--card)) !important;
+  }
+
+  .status-partial,
+  .status-ongoing {
+    border-color: #a36c12 !important;
+    color: #7d4f05 !important;
+    background: color-mix(in srgb, #e8ad48 18%, var(--card)) !important;
+  }
+
+  .status-uncorrected,
+  .status-undocumented {
+    border-color: #8a5656 !important;
+    color: #6c3939 !important;
+    background: color-mix(in srgb, #c98686 16%, var(--card)) !important;
+  }
+
+  .evidence-section {
+    padding: 1.15rem;
+    border: 1px solid var(--line);
+    border-radius: 0.7rem;
+    background: color-mix(in srgb, var(--paper) 68%, var(--card));
+  }
+
+  .episode-evidence {
+    margin-top: 1.4rem;
+  }
+
+  .evidence-list {
+    margin: 1rem 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+    list-style: none;
+  }
+
+  .evidence-item {
+    min-width: 0;
+    padding: 0.9rem;
+    border: 1px solid var(--line);
+    border-radius: 0.55rem;
+    background: var(--card);
+  }
+
+  .evidence-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .relation-badge {
+    border-color: var(--accent-dark);
+    color: var(--accent-dark);
+    background: color-mix(in srgb, var(--accent) 8%, var(--card));
+  }
+
+  .relation-disputes {
+    border-color: #8a5656;
+    color: #6c3939;
+    background: color-mix(in srgb, #c98686 14%, var(--card));
+  }
+
+  .evidence-source {
+    margin-top: 0.7rem;
+    display: block;
+    color: var(--ink);
+    font-weight: 800;
+    line-height: 1.35;
+    text-underline-offset: 0.18em;
+  }
+
+  .evidence-publisher {
+    margin-top: 0.25rem;
+    display: block;
+    color: var(--muted);
+    font-size: 0.77rem;
+    line-height: 1.4;
+  }
+
+  .evidence-locator,
+  .evidence-note-copy {
+    margin: 0.7rem 0 0;
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+
+  .evidence-locator {
+    color: var(--muted);
+  }
+
+  .evidence-note-copy {
+    padding-top: 0.65rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .source-registry {
+    margin-top: 3rem;
+    border: 1px solid var(--line);
+    border-radius: 0.7rem;
+    background: var(--card);
+  }
+
+  .source-registry summary {
+    padding: 1rem 1.15rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .source-registry summary > span:first-child {
+    display: grid;
+    gap: 0.15rem;
+  }
+
+  .source-registry summary small,
+  .source-registry summary > span:last-child {
+    color: var(--muted);
+    font-size: 0.75rem;
+  }
+
+  .source-registry ol {
+    margin: 0;
+    padding: 0 1.15rem 1.15rem;
+    list-style: none;
+  }
+
+  .source-registry li {
+    padding: 0.85rem 0;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 0.8rem;
+    align-items: start;
+    border-top: 1px solid var(--line);
+  }
+
+  .source-number {
+    color: var(--accent-dark);
+    font-size: 0.7rem;
+    font-weight: 850;
+  }
+
+  .source-registry li div {
+    display: grid;
+    gap: 0.2rem;
+  }
+
+  .source-registry li a {
+    font-weight: 750;
+    line-height: 1.35;
+    text-underline-offset: 0.18em;
+  }
+
+  .source-registry li div span,
+  .source-registry li small {
+    color: var(--muted);
+    font-size: 0.75rem;
+  }
+
+  .case-footer {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.78rem;
+  }
+
+  @media (max-width: 860px) {
+    .pilot-grid,
+    .narrative-grid,
+    .explanation-grid,
+    .evidence-list {
+      grid-template-columns: 1fr;
+    }
+
+    .review-guide ol {
+      columns: 1;
+    }
+
+    .impact-context,
+    .institution-block {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+  }
+
+  @media (max-width: 620px) {
+    .v2-preview {
+      padding-top: 2.25rem;
+    }
+
+    .preview-note,
+    .case-header {
+      grid-template-columns: 1fr;
+    }
+
+    .preview-note {
+      gap: 0.7rem;
+    }
+
+    .case-preview {
+      padding: 1.1rem;
+    }
+
+    .episode-header,
+    .case-footer,
+    .source-registry summary {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .episode-meta {
+      justify-content: flex-start;
+    }
+
+    .source-registry li {
+      grid-template-columns: auto minmax(0, 1fr);
+    }
+
+    .source-registry li small {
+      grid-column: 2;
+    }
+  }
+</style>

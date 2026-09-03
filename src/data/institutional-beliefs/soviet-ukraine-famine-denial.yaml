@@ -1,111 +1,151 @@
+schemaVersion: 2
 title: Mass famine in Soviet Ukraine as anti-Soviet propaganda
-claim: >-
-  Soviet institutions denied or minimized reports that Soviet Ukraine had suffered a catastrophic famine with mass
-  starvation in 1932–1933, portraying such accounts as lies, exaggerations or anti-Soviet propaganda while suppressing
-  open discussion and later attributing the crisis chiefly to drought and ordinary agricultural difficulties.
-currentUnderstanding: >-
-  A catastrophic famine did occur in Soviet Ukraine in 1932–1933 and killed millions of people. Soviet internal records
-  contemporaneously documented hunger, starvation, mortality and the need for food aid while the public state line
-  denied or minimized the disaster. Forced collectivization, coercive grain procurement and confiscation policies were
-  central causes of the famine; it cannot be adequately explained as an ordinary drought-driven crop failure. Denial of the famine as a factual event is distinct from the separate legal and historical debate over genocide
-  intent.
+proposition:
+  summary: >-
+    Soviet institutions denied or minimized reports that Soviet Ukraine had suffered a catastrophic famine with mass
+    starvation in 1932–1933, portraying such accounts as lies, exaggerations or anti-Soviet propaganda while suppressing
+    open discussion and later attributing the crisis chiefly to drought and ordinary agricultural difficulties.
+correction:
+  summary: >-
+    A catastrophic famine did occur in Soviet Ukraine in 1932–1933 and killed millions of people. Soviet internal records
+    contemporaneously documented hunger, starvation, mortality and the need for food aid while the public state line
+    denied or minimized the disaster. Forced collectivization, coercive grain procurement and confiscation policies were
+    central causes; the famine cannot be adequately explained as an ordinary drought-driven crop failure. Denial of the
+    famine as a factual event is distinct from the separate legal and historical debate over genocide intent.
 category: History, famine and state censorship
 reviewedAt: '2026-08-25'
 impact:
   summary: >-
-    Famine denial operated through foreign-policy statements, embassy propaganda, press controls, archival secrecy and
-    a domestic historical taboo. Soviet diplomats called reports from Ukrainian organizations lies and portrayed claims
-    of mass death as grotesque. Foreign correspondents faced restrictions on travel to affected regions, while internal
-    party and security records documented starvation. The line persisted for decades: in April 1983 the Soviet Embassy
-    in Canada issued a release on the “so-called famine,” describing conditions as less severe than Western accounts and
-    making drought the major cause. In January 1990 the Central Committee of the Communist Party of Ukraine formally
-    acknowledged the famine and stated that the subject had been silenced in Soviet historiography for more than half a century.
+    Famine denial operated through foreign-policy statements, embassy propaganda, press controls, archival secrecy and a
+    domestic historical taboo. Soviet diplomats called reports lies and portrayed claims of mass death as grotesque.
+    Foreign correspondents faced restrictions on travel to affected regions while internal party and security records
+    documented starvation. In April 1983 the Soviet Embassy in Canada was still issuing a release on the “so-called
+    famine,” minimizing its severity and making drought the major cause. On 26 January 1990 the Central Committee of the
+    Communist Party of Ukraine formally acknowledged the famine and stated that the subject had been silenced in Soviet
+    historiography for more than half a century.
   highlights:
-  - value: 50+ years
-    label: period the Communist Party of Ukraine acknowledged in 1990 that the famine had been silenced in Soviet historiography
-  - value: 28 April 1983
-    label: date the USSR Embassy in Canada was still issuing an official release on the “so-called famine”
-  - value: 26 January 1990
-    label: date the Communist Party of Ukraine formally acknowledged the famine and authorized publication of archival records
+    - value: 50+ years
+      label: period the Communist Party of Ukraine acknowledged in 1990 that the famine had been silenced in Soviet historiography
+    - value: 28 April 1983
+      label: date the USSR Embassy in Canada was still issuing an official release on the “so-called famine”
+    - value: 26 January 1990
+      label: date the Communist Party of Ukraine formally acknowledged the famine and authorized publication of archival records
   context:
-  - >-
-    The Soviet public line changed in form over time. Early diplomatic responses directly dismissed famine reports and
-    mass-death allegations as lies; by 1983 an embassy release conceded serious agricultural difficulties while denying
-    the Western account of catastrophic, policy-driven famine and assigning drought the major role. Soviet wording therefore did not remain literally identical for six decades.
-  - >-
-    Internally, Soviet institutions knew that hunger and starvation were occurring. Secret GPU, party and government
-    records documented food shortages, famine conditions, deaths and aid measures. The contradiction between internal
-    knowledge and the public narrative is central to this episode.
-  - >-
-    The term Holodomor is now commonly used for the Ukrainian famine and many states and scholars classify it as
-    genocide. Other scholarship disputes aspects of intent or legal classification. That controversy is separate from the factual correction: the Soviet denial or minimization of the occurrence and
-    scale of catastrophic famine itself is contradicted by the historical record.
+    - >-
+      The Soviet public line changed in form over time. Early diplomatic responses directly dismissed famine reports and
+      mass-death allegations as lies; by 1983 an embassy release conceded serious agricultural difficulties while denying
+      the Western account of catastrophic, policy-driven famine and assigning drought the major role.
+    - >-
+      Internally, Soviet institutions knew that hunger and starvation were occurring. Secret GPU, party and government
+      records documented food shortages, famine conditions, deaths and aid measures.
+    - >-
+      The term Holodomor is now commonly used for the Ukrainian famine and many states and scholars classify it as
+      genocide. Debate over intent or legal classification is separate from the factual correction here.
 episodes:
-- id: soviet-union-1933-1990
-  polity: Soviet Union
-  region: Eurasia
-  startYear: 1933
-  endYear: 1990
-  strength: enforced-doctrine
-  institutionTypes:
-  - government
-  - education
-  institutions:
-  - People's Commissariat for Foreign Affairs of the USSR
-  - Soviet diplomatic and press apparatus
-  - Communist Party of the Soviet Union
-  - Communist Party of Ukraine
-  institutionalContext: >-
-    As reports of famine escaped the Soviet Union, the foreign-policy and press apparatus restricted access to affected
-    regions and rejected outside accounts. Directly preserved Soviet correspondence from early 1934 shows Foreign
-    Commissar Maksim Litvinov calling a Ukrainian famine pamphlet full of lies and instructing embassy counsellor Boris
-    Skvirsky to provide the supposed real situation; Skvirsky replied that mass-death allegations were grotesque and
-    cited press claims that there had been no famine. The denial survived the Stalin era. A Soviet Embassy in Canada
-    press release of 28 April 1983 still framed the subject as the “so-called famine,” minimized its severity and made
-    drought the major explanation. Glasnost finally broke the taboo. On 26 January 1990 the Communist Party of Ukraine
-    adopted a resolution openly acknowledging the famine, stating that the subject had been silenced for more than half
-    a century and authorizing publication of newly declassified party records.
-  consequences:
-  - Official diplomatic denial and minimization of reports of mass starvation in Soviet Ukraine
-  - Restrictions that impeded foreign correspondents' independent reporting from famine-affected regions
-  - Long-term censorship and exclusion of the famine from authorized Soviet historical discussion
-  - Archival secrecy that separated internal documentation of starvation from the public narrative
-  - Continued Soviet diplomatic propaganda minimizing the famine into the 1980s
-  - Delayed public and scholarly access inside Soviet Ukraine to documentary evidence about the catastrophe
-  summary: >-
-    The Soviet state knew internally that severe hunger and mortality were occurring while its public institutions
-    denied or minimized a catastrophic famine. Foreign-policy officials rejected reports as false, access for journalists
-    was constrained and the subject became a domestic historical taboo. Even in 1983 Soviet diplomatic propaganda was
-    still contesting the scale and policy-driven character of the famine. The Communist Party of Ukraine formally broke
-    with that inherited doctrine in January 1990, acknowledging both the famine and the fact that Soviet historiography
-    had suppressed it for more than half a century.
-  sources:
-  - title: Soviet Denials and Related Documents — Holodomor Reader primary-source collection
+  - id: soviet-union-1933-1990
+    polity: Soviet Union
+    region: Eurasia
+    startYear: 1933
+    endYear: 1990
+    strength: enforced-doctrine
+    institutionTypes:
+      - government
+      - education
+    institutions:
+      - People's Commissariat for Foreign Affairs of the USSR
+      - Soviet diplomatic and press apparatus
+      - Communist Party of the Soviet Union
+      - Communist Party of Ukraine
+    institutionalContext: >-
+      As reports of famine escaped the Soviet Union, the foreign-policy and press apparatus restricted access to affected
+      regions and rejected outside accounts. Preserved Soviet correspondence from early 1934 shows Foreign Commissar
+      Maksim Litvinov calling a Ukrainian famine pamphlet full of lies and embassy counsellor Boris Skvirsky rejecting
+      mass-death allegations. The denial survived the Stalin era. A Soviet Embassy in Canada release of 28 April 1983
+      still framed the subject as the “so-called famine,” minimized its severity and made drought the major explanation.
+      On 26 January 1990 the Communist Party of Ukraine adopted a resolution openly acknowledging the famine, stating
+      that the subject had been silenced for more than half a century and authorizing publication of declassified records.
+    consequences:
+      - Official diplomatic denial and minimization of reports of mass starvation in Soviet Ukraine
+      - Restrictions that impeded foreign correspondents' independent reporting from famine-affected regions
+      - Long-term censorship and exclusion of the famine from authorized Soviet historical discussion
+      - Archival secrecy separating internal documentation of starvation from the public narrative
+      - Continued Soviet diplomatic propaganda minimizing the famine into the 1980s
+      - Delayed public and scholarly access inside Soviet Ukraine to documentary evidence about the catastrophe
+    summary: >-
+      The Soviet state knew internally that severe hunger and mortality were occurring while its public institutions
+      denied or minimized a catastrophic famine. The Communist Party of Ukraine formally broke with that inherited
+      doctrine in January 1990, acknowledging both the famine and the fact that Soviet historiography had suppressed it
+      for more than half a century.
+    mechanism:
+      kind: suppression
+      summary: >-
+        Soviet diplomatic, press, party and archival institutions denied or minimized the famine publicly, restricted
+        reporting and maintained a historical taboo while internal records documented starvation and mortality.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 26 January 1990
+      action: The Central Committee of the Communist Party of Ukraine formally acknowledged the famine and authorized publication of declassified archival records.
+      summary: >-
+        A Soviet republican party institution explicitly acknowledged the catastrophe, admitted its long suppression in
+        Soviet historiography and opened documentary material that contradicted the inherited public narrative.
+sources:
+  - id: famine-denials
+    title: Soviet Denials and Related Documents — Holodomor Reader primary-source collection
     url: https://holodomor.ca/wp-content/uploads/2020/05/7_HR_Documents.pdf
     publisher: Holodomor Research and Education Consortium
-    note: >-
-      Primary-source collection reproducing Maksim Litvinov's January 1934 letter dismissing a Ukrainian famine pamphlet
-      as lies and false information, Boris Skvirsky's February 1934 Soviet Embassy reply rejecting mass-death claims,
-      and the USSR Embassy in Canada's 28 April 1983 release on the “so-called famine,” which minimized the crisis and
-      made drought the major cause.
-  - title: Famine of 1932–1933 in Ukraine — documents in Ukrainian archival repositories
+  - id: famine-ukraine-archives
+    title: Famine of 1932–1933 in Ukraine — documents in Ukrainian archival repositories
     url: https://old.archives.gov.ua/Sections/Famine/Documents/Famine_32-33.php
     publisher: State Archival Service of Ukraine
-    note: >-
-      Official archival overview explaining that information about the famine was forbidden and suppressed as state
-      policy while secret party-state records preserved extensive evidence of food shortages, starvation, mortality and
-      government decision-making.
-  - title: The 1932–1933 famine in Ukraine through the eyes of historians and the language of documents
+  - id: famine-history-institute
+    title: The 1932–1933 famine in Ukraine through the eyes of historians and the language of documents
     url: https://holodomor-era.history.org.ua/item/0000021
     publisher: Institute of History of Ukraine, National Academy of Sciences of Ukraine
-    note: >-
-      Catalog and digital edition of the 1990 collection prepared by the Institute of Party History under the Communist
-      Party of Ukraine Central Committee, including the 26 January 1990 Central Committee resolution acknowledging the
-      famine and opening newly declassified archival material.
-  - title: Resolution of the Communist Party of Ukraine on the famine of 1932–1933 and publication of archival materials
+  - id: famine-1990-resolution
+    title: Resolution of the Communist Party of Ukraine on the famine of 1932–1933 and publication of archival materials
     url: https://history.org.ua/LiberUA/5-319-00827-9/5-319-00827-9.pdf
     publisher: Central Committee of the Communist Party of Ukraine
+evidence:
+  - id: famine-denials-proposition
+    sourceId: famine-denials
+    relation: documents
+    target: {scope: belief, aspect: proposition}
     note: >-
-      Primary published text of the 26 January 1990 resolution. It states that the famine had been silenced in domestic
-      historiography for more than half a century and identifies coercive collectivization and destructive grain
-      procurement policies as the direct path from food difficulties to catastrophic famine.
+      Primary-source collection reproduces 1934 Soviet diplomatic denials and the USSR Embassy in Canada's 1983 release
+      on the “so-called famine,” which minimized the crisis and made drought the major cause.
+  - id: famine-archives-correction
+    sourceId: famine-ukraine-archives
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Official archival overview explains that information about the famine was suppressed as state policy while secret
+      party-state records preserved evidence of food shortages, starvation, mortality and government decisions.
+  - id: famine-resolution-impact
+    sourceId: famine-1990-resolution
+    relation: supports
+    target: {scope: belief, aspect: impact}
+  - id: famine-denials-carrier
+    sourceId: famine-denials
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1933-1990, aspect: carrier}
+  - id: famine-denials-mechanism
+    sourceId: famine-denials
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1933-1990, aspect: mechanism}
+  - id: famine-archives-consequences
+    sourceId: famine-ukraine-archives
+    relation: supports
+    target: {scope: episode, episodeId: soviet-union-1933-1990, aspect: consequences}
+  - id: famine-resolution-correction
+    sourceId: famine-1990-resolution
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1933-1990, aspect: institutional-correction}
+    note: >-
+      Primary 26 January 1990 resolution acknowledges the famine, states that it had been silenced for more than half a
+      century and links coercive collectivization and destructive grain procurement to the catastrophe.
+  - id: famine-history-context
+    sourceId: famine-history-institute
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-union-1933-1990, aspect: context}
+    note: >-
+      Catalog and digital edition of the 1990 documentary collection prepared under the Communist Party of Ukraine Central Committee.

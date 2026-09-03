@@ -1,72 +1,93 @@
+schemaVersion: 2
 locale: de
 entryId: sverdlovsk-anthrax-foodborne
 sourceReviewedAt: '2026-08-25'
 title: Der Anthrax-Ausbruch in Swerdlowsk als lebensmittelbedingte Epidemie
-claim: >-
-  Die sowjetischen Behörden hielten daran fest, dass der Anthrax-Ausbruch von 1979 in Swerdlowsk ein gewöhnliches
-  natürliches Seuchengeschehen gewesen sei, bei dem Menschen durch kontaminiertes Fleisch an Darmmilzbrand erkrankten,
-  und nicht die Folge einer Freisetzung über die Luft aus einer militärischen mikrobiologischen Anlage.
-currentUnderstanding: >-
-  Bei den menschlichen Fällen handelte es sich überwiegend um Inhalationsmilzbrand infolge einer Aerosolfreisetzung aus
-  der militärischen mikrobiologischen Anlage „Compound 19“. 1992 räumte der russische Präsident Boris Jelzin öffentlich
-  ein, dass sowjetische militärische Entwicklungen die Ursache gewesen waren. Spätere pathologische Untersuchungen
-  fanden in einer Serie von 42 Obduktionen Befunde, die für Inhalationsmilzbrand diagnostisch waren; eine epidemiologische
-  Rekonstruktion zeigte zudem Erkrankungen und Tierverluste in Windrichtung der Militäranlage und stützte damit eine
-  versehentliche Freisetzung über die Luft statt der amtlichen Lebensmittel-Erklärung.
+proposition:
+  summary: >-
+    Die sowjetischen Behörden hielten daran fest, dass der Anthrax-Ausbruch von 1979 in Swerdlowsk ein gewöhnliches
+    natürliches Seuchengeschehen gewesen sei, bei dem Menschen durch kontaminiertes Fleisch an Darmmilzbrand erkrankten,
+    und nicht die Folge einer Freisetzung über die Luft aus einer militärischen mikrobiologischen Anlage.
+correction:
+  summary: >-
+    Bei den menschlichen Fällen handelte es sich überwiegend um Inhalationsmilzbrand infolge einer Aerosolfreisetzung aus
+    der militärischen mikrobiologischen Anlage „Compound 19“. 1992 räumte der russische Präsident Boris Jelzin öffentlich
+    ein, dass sowjetische militärische Entwicklungen die Ursache gewesen waren. Spätere pathologische Untersuchungen
+    fanden in einer Serie von 42 Obduktionen Befunde, die für Inhalationsmilzbrand diagnostisch waren; eine epidemiologische
+    Rekonstruktion zeigte zudem Erkrankungen und Tierverluste in Windrichtung der Militäranlage.
 impact:
   summary: >-
     Die Erklärung mit kontaminiertem Fleisch wirkte über Gesundheitskommunikation, wissenschaftliche Darstellung und
     internationale Diplomatie. Sowjetische Vertreter wiederholten sie gegenüber den Vereinigten Staaten offiziell,
-    bestritten jeden Zusammenhang mit der Einhaltung der Biowaffenkonvention und lehnten beantragte
-    Expertengespräche nach Artikel V ab. Die Erklärung blieb bis zum Ende der Sowjetzeit die amtliche Linie. 1992
-    erkannte Russlands Präsident den militärischen Ursprung an; anschließend belegten Pathologie und Epidemiologie
-    unabhängig voneinander die Inhalationsexposition und eine von der Militäranlage ausgehende Aerosolwolke.
+    bestritten jeden Zusammenhang mit der Biowaffenkonvention und lehnten beantragte Expertengespräche nach Artikel V
+    ab. Die Darstellung blieb bis zum Ende der Sowjetzeit amtliche Linie. 1992 erkannte Russlands Präsident den
+    militärischen Ursprung an; anschließend belegten Pathologie und Epidemiologie die Inhalationsexposition und eine von
+    der Militäranlage ausgehende Aerosolwolke.
   highlights:
-  - value: '3'
-    label: formelle US-Vorstöße für Konsultationen nach der Biowaffenkonvention bis Mitte 1980
-  - value: '42'
-    label: Obduktionen mit durchgehend für Inhalationsmilzbrand diagnostischen Befunden in der pathologischen Studie von 1993
-  - value: '20'
-    label: Fälle der 42 Obduktionen, in denen Bacillus anthracis kulturell nachgewiesen wurde
+    - value: '3'
+      label: formelle US-Vorstöße für Konsultationen nach der Biowaffenkonvention bis Mitte 1980
+    - value: '42'
+      label: Obduktionen mit für Inhalationsmilzbrand diagnostischen Befunden in der pathologischen Studie von 1993
+    - value: '20'
+      label: Fälle der 42 Obduktionen, in denen Bacillus anthracis kulturell nachgewiesen wurde
   context:
-  - >-
-    Infizierte Nutztiere gab es tatsächlich: Die spätere Epidemiologie dokumentierte Tiermilzbrand entlang derselben
-    Windachse. Korrigiert wird die Ursache und der hauptsächliche Übertragungsweg der menschlichen Epidemie, nicht die
-    Möglichkeit sekundärer Tierinfektionen.
-  - >-
-    Die vorhandenen Belege erlauben keine belastbare Zahl zusätzlicher Todesfälle, die der falschen Erklärung selbst
-    zugerechnet werden könnte. Die lokalen Behörden setzten unter anderem Antibiotika, Impfungen und Dekontamination
-    ein, wodurch sich ein zusätzlicher Mortalitätseffekt nicht zuverlässig quantifizieren lässt.
-  - >-
-    Eine Aerosolfreisetzung aus einer militärischen biologischen Anlage wirft erhebliche Fragen zur Vertragstreue auf.
-    Der Ausbruch allein bestimmt jedoch nicht den vollständigen rechtlichen Umfang eines möglichen Verstoßes gegen die
-    Biowaffenkonvention.
+    - >-
+      Infizierte Nutztiere gab es tatsächlich. Korrigiert wird die Ursache und der hauptsächliche Übertragungsweg der
+      menschlichen Epidemie, nicht die Möglichkeit sekundärer Tierinfektionen.
+    - >-
+      Die vorhandenen Belege erlauben keine belastbare Zahl zusätzlicher Todesfälle, die der falschen Erklärung selbst
+      zugerechnet werden könnte.
+    - >-
+      Eine Aerosolfreisetzung aus einer militärischen biologischen Anlage wirft erhebliche Fragen zur Vertragstreue auf;
+      der Ausbruch allein bestimmt jedoch nicht den vollständigen rechtlichen Umfang eines möglichen Vertragsverstoßes.
 episodes:
-- id: soviet-union-1979-1992
-  polity: Sowjetunion
-  institutions:
-  - Außenministerium der UdSSR
-  - sowjetische Gesundheitsbehörden
-  institutionalContext: >-
-    Während und nach dem Ausbruch von 1979 führte die sowjetische öffentliche Kommunikation das Anthrax-Risiko auf
-    kranke Tiere und nicht kontrolliertes Fleisch zurück. Am 20. März 1980 erklärte das sowjetische Außenministerium
-    gegenüber den Vereinigten Staaten formell, in Swerdlowsk habe es einen gewöhnlichen natürlichen Anthrax-Ausbruch
-    unter Tieren gegeben; die menschlichen Fälle seien Darmmilzbrand nach dem Verzehr von Rindfleisch gewesen, das
-    ohne ordnungsgemäße tierärztliche Kontrolle verkauft worden sei. Einen Zusammenhang mit der Biowaffenkonvention
-    bestritt die Sowjetunion. Als die USA Expertengespräche nach Artikel V verlangten, wiederholte die Regierung die
-    natürliche Erklärung und verweigerte Konsultationen; bis Mitte 1980 hatten die USA drei formelle Vorstöße
-    unternommen. Die amtliche Darstellung bestand bis über das Ende der Sowjetunion hinaus. Im Mai 1992 erklärte
-    Boris Jelzin, der KGB habe später eingeräumt, dass sowjetische militärische Entwicklungen den Ausbruch verursacht hätten.
-  consequences:
-  - Amtliche Zuschreibung der menschlichen Epidemie zu kontaminiertem Fleisch und natürlichem Tiermilzbrand
-  - Vermittlung der Lebensmittel-Erklärung über sowjetische Gesundheits- und epidemiologische Kanäle
-  - Formelle Zurückweisung eines Zusammenhangs mit der Einhaltung der Biowaffenkonvention
-  - Wiederholte Ablehnung beantragter Expertengespräche nach Artikel V der Konvention
-  - Jahrelange Behinderung einer korrekten öffentlichen und internationalen Einordnung des militärischen Aerosolursprungs
-  summary: >-
-    In Swerdlowsk wurde aus einem biologischen Unfall eine langjährig aufrechterhaltene institutionelle Falscherklärung.
-    Sowjetische Vertreter bezeichneten die menschliche Epidemie als Darmmilzbrand durch kontaminiertes Fleisch und
-    trugen diese Position in diplomatische Auseinandersetzungen über die Biowaffenkonvention. Die Regierung lehnte
-    wiederholt Expertengespräche ab und hielt an einem natürlichen Ausbruch fest. 1992 erkannte Jelzin öffentlich
-    eine militärische Ursache an; anschließende pathologische und epidemiologische Untersuchungen zeigten, dass es sich
-    um Inhalationsmilzbrand handelte und die Aerosolwolke in Windrichtung von Compound 19 verlief.
+  - id: soviet-union-1979-1992
+    polity: Sowjetunion
+    institutions:
+      - Außenministerium der UdSSR
+      - sowjetische Gesundheitsbehörden
+    institutionalContext: >-
+      Während und nach dem Ausbruch von 1979 führte die sowjetische öffentliche Kommunikation das Anthrax-Risiko auf
+      kranke Tiere und nicht kontrolliertes Fleisch zurück. Am 20. März 1980 erklärte das sowjetische Außenministerium
+      gegenüber den Vereinigten Staaten formell, die menschlichen Fälle seien Darmmilzbrand nach dem Verzehr nicht
+      ordnungsgemäß kontrollierten Rindfleischs gewesen. Einen Zusammenhang mit der Biowaffenkonvention bestritt die
+      Sowjetunion. Als die USA Expertengespräche nach Artikel V verlangten, wiederholte die Regierung die natürliche
+      Erklärung und verweigerte Konsultationen. Im Mai 1992 erklärte Boris Jelzin, der KGB habe später eingeräumt, dass
+      sowjetische militärische Entwicklungen den Ausbruch verursacht hätten.
+    consequences:
+      - Amtliche Zuschreibung der menschlichen Epidemie zu kontaminiertem Fleisch und natürlichem Tiermilzbrand
+      - Vermittlung der Lebensmittel-Erklärung über sowjetische Gesundheits- und epidemiologische Kanäle
+      - Formelle Zurückweisung eines Zusammenhangs mit der Einhaltung der Biowaffenkonvention
+      - Wiederholte Ablehnung beantragter Expertengespräche nach Artikel V der Konvention
+      - Jahrelange Behinderung einer korrekten öffentlichen und internationalen Einordnung des militärischen Aerosolursprungs
+    summary: >-
+      In Swerdlowsk wurde aus einem biologischen Unfall eine langjährig aufrechterhaltene institutionelle Falscherklärung.
+      Sowjetische Vertreter trugen die Lebensmittel-Erklärung in diplomatische Auseinandersetzungen über die
+      Biowaffenkonvention. 1992 erkannte Jelzin öffentlich eine militärische Ursache an; spätere Untersuchungen belegten den Inhalationsweg.
+    mechanism:
+      summary: >-
+        Sowjetische Außenpolitik und Gesundheitsbehörden veröffentlichten und verteidigten wiederholt eine natürliche,
+        lebensmittelbedingte Erklärung und lehnten zugleich internationale Konsultationen zur militärischen Ursprungsthese ab.
+    institutionalCorrection:
+      periodLabel: Mai 1992
+      action: Der russische Präsident Boris Jelzin erkannte öffentlich an, dass sowjetische militärische Entwicklungen den Ausbruch verursacht hatten.
+      summary: >-
+        Der ursprüngliche sowjetische Träger existierte nicht mehr; sein wichtigster Nachfolgestaat kehrte die ererbte
+        amtliche Erklärung jedoch öffentlich um. Spätere Pathologie und Epidemiologie bestätigten die Aerosolfreisetzung unabhängig.
+evidence:
+  - id: sverdlovsk-reply-proposition
+    note: >-
+      Die zeitgenössische diplomatische Akte gibt die offizielle sowjetische Erklärung eines natürlichen Tierausbruchs mit menschlichen Darmmilzbrandfällen durch Fleisch wieder.
+  - id: sverdlovsk-pathology-correction
+    note: >-
+      Die pathologische Studie von 1993 fand in 42 Obduktionen durchgehend Befunde, die für Inhalationsmilzbrand diagnostisch waren.
+  - id: sverdlovsk-science-correction
+    note: >-
+      Die epidemiologische Rekonstruktion von 1994 fand eine schmale Zone von Menschen- und Tierfällen in Windrichtung und führte den Ausbruch auf eine Aerosolfreisetzung aus der Militäranlage zurück.
+  - id: sverdlovsk-three-overtures-impact
+  - id: sverdlovsk-reply-carrier
+  - id: sverdlovsk-rejection-mechanism
+  - id: sverdlovsk-three-overtures-consequences
+  - id: sverdlovsk-yeltsin-correction
+    note: >-
+      Die Archivchronologie reproduziert Jelzins Aussage von 1992, der KGB habe später eingeräumt, dass sowjetische militärische Entwicklung den Ausbruch verursacht habe.

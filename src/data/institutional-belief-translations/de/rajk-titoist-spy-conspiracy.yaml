@@ -1,75 +1,91 @@
+schemaVersion: 2
 locale: de
 entryId: rajk-titoist-spy-conspiracy
 sourceReviewedAt: '2026-08-25'
 title: Die Rajk-Gruppe als titoistisches Spionagenetz
-claim: >-
-  Ungarns kommunistische Partei, Staatssicherheit und Justiz stellten László Rajk und ein immer weiter ausgedehntes
-  Netzwerk von Funktionären als Mitglieder einer imperialistischen und titoistischen Spionageverschwörung gegen den
-  ungarischen Staat dar. Konstruierte Beschuldigungen und erzwungene Aussagen machten die angebliche Verschwörung zur
-  öffentlichen Tatsache und zur Grundlage weiterer Säuberungen.
-currentUnderstanding: >-
-  Ungarische Archive ordnen die Rajk-Verfahren heute als konstruierte politische Schauprozesse ein und bezeichnen die
-  Vorwürfe gegen Rajk als erfunden. Die ursprünglichen Spionagebeschuldigungen wurden während der Ermittlungen umgebaut,
-  unter anderem zu angeblichen Verbindungen zu Titos Jugoslawien, während Parteiführung und Staatssicherheit einen
-  politisch vorgegebenen Fall vorbereiteten. Rajk und weitere Angeklagte wurden hingerichtet oder inhaftiert; zahlreiche
-  verbundene Verfahren, Verurteilungen und Internierungen folgten. Rajk wurde 1956 rehabilitiert.
+proposition:
+  summary: >-
+    Ungarns kommunistische Partei, Staatssicherheit und Justiz stellten László Rajk und ein immer weiter ausgedehntes
+    Netzwerk von Funktionären als Mitglieder einer imperialistischen und titoistischen Spionageverschwörung gegen den
+    ungarischen Staat dar. Konstruierte Beschuldigungen und erzwungene Aussagen machten die angebliche Verschwörung zur
+    öffentlichen Tatsache und zur Grundlage weiterer Säuberungen.
+correction:
+  summary: >-
+    Ungarische Archive ordnen die Rajk-Verfahren heute als konstruierte politische Schauprozesse ein und bezeichnen die
+    Vorwürfe gegen Rajk als erfunden. Die ursprünglichen Spionagebeschuldigungen wurden während der Ermittlungen umgebaut,
+    unter anderem zu angeblichen Verbindungen zu Titos Jugoslawien. Rajk und weitere Angeklagte wurden hingerichtet oder
+    inhaftiert; zahlreiche verbundene Verfahren, Verurteilungen und Internierungen folgten. Rajk wurde 1956 rehabilitiert.
 impact:
   summary: >-
     Der Rajk-Fall wurde zu einem Säuberungsmechanismus, der weit über den Hauptprozess vom September 1949 hinausging.
     Eine Aufstellung des ungarischen Innenministeriums von 1964 ergab, dass im weiteren Rajk-Komplex gegen 155 Menschen
-    Verfahren eingeleitet worden waren: 97 wurden verurteilt, 50 interniert und 15 hingerichtet. Der öffentliche Prozess
-    institutionalisierte die Behauptung, mit westlichem Imperialismus und Titos Jugoslawien verbundene Feinde hätten den
-    kommunistischen Staat unterwandert. Während der Entstalinisierung wurde der Fall überprüft; Rajk wurde 1956
-    rehabilitiert, und seine öffentliche Wiederbestattung im Oktober wurde zu einer Massendemonstration gegen das
-    Rákosi-System.
+    Verfahren eingeleitet worden waren: 97 wurden verurteilt, 50 interniert und 15 hingerichtet. Während der
+    Entstalinisierung wurde der Fall überprüft; Rajk wurde 1956 rehabilitiert, und seine öffentliche Wiederbestattung im
+    Oktober wurde zu einer Massendemonstration gegen das Rákosi-System.
   highlights:
-  - value: '155'
-    label: Menschen, gegen die laut einer Aufstellung des Innenministeriums von 1964 im weiteren Rajk-Komplex Verfahren eingeleitet wurden
-  - value: '97'
-    label: Verurteilungen in diesen mit dem Rajk-Komplex verbundenen Verfahren
-  - value: '15'
-    label: Hinrichtungen im weiteren Rajk-Komplex laut derselben amtlichen Überprüfung
+    - value: '155'
+      label: Menschen, gegen die laut einer Aufstellung des Innenministeriums von 1964 im weiteren Rajk-Komplex Verfahren eingeleitet wurden
+    - value: '97'
+      label: Verurteilungen in diesen mit dem Rajk-Komplex verbundenen Verfahren
+    - value: '15'
+      label: Hinrichtungen im weiteren Rajk-Komplex laut derselben amtlichen Überprüfung
   context:
-  - >-
-    Die Zahlen 155, 97 und 15 beziehen sich auf den weiteren Komplex von Verfahren, den das Innenministerium später dem
-    „Rajk-Fall“ zuordnete. Sie sind nicht die Zahl der Angeklagten oder Hinrichtungen im öffentlichen Hauptprozess vom
-    September 1949.
-  - >-
-    Die politische Erzählung veränderte sich während der Untersuchung. Rajk wurde zunächst aufgrund erfundener Vorwürfe
-    festgenommen, er habe für imperialistische Mächte spioniert und mit der Geheimpolizei der Horthy-Zeit kooperiert.
-    Nach dem Eingreifen sowjetischer Berater wurden angebliche Verbindungen zu Titos Jugoslawien stärker in die
-    Verschwörung eingebaut. Der Fall entwickelte sich damit zu einer „imperialistischen und titoistischen“ Konstruktion,
-    statt von der ersten Festnahme an auf einer unveränderten Beschuldigung zu beruhen.
-  - >-
-    Der Rajk-Prozess war ein Mechanismus innerhalb des umfassenderen Systems politischer Verfolgung der Rákosi-Zeit.
-    Der ungarische Terror umfasste zahlreiche eigenständige Verfahren und Institutionen. Die genannten Wirkungszahlen
-    beschränken sich auf Personen, die die spätere Innenministeriumsprüfung ausdrücklich dem Rajk-Komplex zuordnete.
+    - >-
+      Die Zahlen 155, 97 und 15 beziehen sich auf den weiteren Komplex von Verfahren, den das Innenministerium später
+      dem Rajk-Fall zuordnete, nicht auf den öffentlichen Hauptprozess allein.
+    - >-
+      Die politische Erzählung veränderte sich während der Untersuchung: Zu frühen erfundenen Spionagevorwürfen traten
+      zunehmend angebliche Verbindungen zu Titos Jugoslawien.
+    - >-
+      Der Rajk-Prozess war ein Mechanismus innerhalb des umfassenderen Systems politischer Verfolgung der Rákosi-Zeit;
+      die genannten Zahlen beschränken sich auf den später amtlich dem Rajk-Komplex zugerechneten Personenkreis.
 episodes:
-- id: hungary-1949-1956
-  polity: Ungarn
-  institutions:
-  - Ungarische Partei der Werktätigen
-  - Staatsschutzbehörde ÁVH
-  - politischer Anklage- und Volksgerichtsapparat
-  institutionalContext: >-
-    Rajk wurde am 30. Mai 1949 aufgrund erfundener Spionagevorwürfe festgenommen. Parteiführung und Staatssicherheit
-    konstruierten daraus einen Fall, der zunehmend um ein angebliches imperialistisch-titoistisches Netzwerk kreiste.
-    Geständnisse und Prozessdarstellung wurden der politischen Konzeption angepasst, und der öffentliche Hauptprozess
-    diente einer umfassenden Propagandakampagne. Rajk, Tibor Szőnyi und András Szalai wurden zum Tode verurteilt und im
-    Oktober 1949 hingerichtet, während sich weitere Verfahren um das angebliche Netz ausbreiteten. 1955–1956 begann die
-    Entstalinisierung mit förmlichen Überprüfungen. Die ungarischen Archivunterlagen führen Rajk als 1956 rehabilitiert;
-    seine Wiederbestattung am 6. Oktober wurde zu einer öffentlichen Absage an den Terror des früheren Schauprozesses.
-  consequences:
-  - Hinrichtungen und langjährige Haftstrafen aufgrund konstruierter politischer Beschuldigungen
-  - Ausdehnung der angeblichen Verschwörung auf zahlreiche verbundene Strafverfahren und Internierungen
-  - Nutzung des Prozesses zur Legitimation antititoistischer und antiimperialistischer Säuberungen im kommunistischen System Ungarns
-  - Propaganda, die einstudierte Geständnisse und Vorwürfe als Beweis eines verborgenen feindlichen Netzes präsentierte
-  - Zerstörung von Biografien und Familien, einschließlich Haft und Überwachung von Menschen aus dem Umfeld der Angeklagten
-  - Politisch explosive Rehabilitation und Wiederbestattung 1956, die den früheren Prozess als Repressionsinstrument bloßlegte
-  summary: >-
-    Der Rajk-Komplex zeigt, wie eine erfundene Verschwörung zu einem wiederverwendbaren institutionellen Objekt werden
-    konnte. Partei und Staatssicherheit machten aus konstruierten Spionagevorwürfen einen öffentlichen Schauprozess und
-    dehnten das angebliche Netz anschließend auf zahlreiche weitere Verfahren aus. Eine spätere Überprüfung des
-    Innenministeriums zählte 155 verfolgte Personen im Rajk-Komplex, darunter 97 Verurteilungen, 50 Internierungen und
-    15 Hinrichtungen. Die Entstalinisierung kehrte das amtliche Urteil um: Rajk wurde 1956 rehabilitiert, und seine
-    Wiederbestattung wurde zur Massendemonstration gegen das System, das ihn verurteilt hatte.
+  - id: hungary-1949-1956
+    polity: Ungarn
+    institutions:
+      - Ungarische Partei der Werktätigen
+      - Staatsschutzbehörde ÁVH
+      - politischer Anklage- und Volksgerichtsapparat
+    institutionalContext: >-
+      Rajk wurde am 30. Mai 1949 aufgrund erfundener Spionagevorwürfe festgenommen. Parteiführung und Staatssicherheit
+      konstruierten daraus einen Fall, der zunehmend um ein angebliches imperialistisch-titoistisches Netzwerk kreiste.
+      Geständnisse und Prozessdarstellung wurden der politischen Konzeption angepasst. Rajk, Tibor Szőnyi und András
+      Szalai wurden zum Tode verurteilt und im Oktober 1949 hingerichtet, während sich weitere Verfahren um das angebliche
+      Netz ausbreiteten. 1955–1956 begannen förmliche Überprüfungen; die ungarischen Archivunterlagen führen Rajk als 1956 rehabilitiert.
+    consequences:
+      - Hinrichtungen und Haftstrafen aufgrund konstruierter politischer Beschuldigungen
+      - Ausdehnung der angeblichen Verschwörung auf zahlreiche verbundene Strafverfahren und Internierungen
+      - Nutzung des Prozesses zur Legitimation antititoistischer und antiimperialistischer Säuberungen
+      - Propaganda, die einstudierte Geständnisse und Vorwürfe als Beweis eines verborgenen feindlichen Netzes präsentierte
+      - Zerstörung von Biografien und Familien, einschließlich Haft und Überwachung von Menschen aus dem Umfeld der Angeklagten
+      - Politisch explosive Rehabilitation und Wiederbestattung 1956
+    summary: >-
+      Partei und Staatssicherheit machten aus konstruierten Spionagevorwürfen einen öffentlichen Schauprozess und dehnten
+      das angebliche Netz auf zahlreiche weitere Verfahren aus. Eine spätere Überprüfung des Innenministeriums zählte
+      155 verfolgte Personen im Rajk-Komplex. Die Entstalinisierung kehrte das amtliche Urteil um und Rajk wurde 1956 rehabilitiert.
+    mechanism:
+      summary: >-
+        Parteiführung, Staatssicherheit und Gerichte konstruierten und verfolgten ein angebliches Spionagenetz, nutzten
+        erzwungene und einstudierte Geständnisse und erweiterten die Verschwörung auf verbundene Säuberungsverfahren.
+    institutionalCorrection:
+      periodLabel: '1956'
+      action: Ungarische Partei- und Justizprüfungen rehabilitierten László Rajk und kehrten das dem Schauprozess zugrunde liegende Urteil um.
+      summary: >-
+        Entstalinisierungsprüfungen rehabilitierten Rajk förmlich und beseitigten das amtliche Strafurteil, das die konstruierte Verschwörung als Tatsache behandelt hatte.
+evidence:
+  - id: rajk-study-proposition
+    note: >-
+      Die amtliche Archivstudie bezeichnet Rajks Festnahme als auf fabrizierten Vorwürfen beruhend und beschreibt die Entwicklung zum Schauprozess.
+  - id: rajk-study-correction
+  - id: rajk-1964-impact
+    note: >-
+      Die Quelle reproduziert die Innenministeriumsaufstellung von 1964: 155 Verfahren, 97 Verurteilungen, 50 Internierungen und 15 Hinrichtungen.
+  - id: rajk-study-carrier
+  - id: rajk-study-mechanism
+  - id: rajk-1964-consequences
+  - id: rajk-chronology-correction
+    note: >-
+      Der Archivführer und Namensindex dokumentieren die Überprüfungen von 1955–1956 und Rajks Rehabilitierung.
+  - id: rajk-1956-context
+    note: >-
+      Die amtliche Archivübersicht beschreibt Rajks Wiederbestattung am 6. Oktober 1956 als Massendemonstration und unmittelbaren Vorläufer der revolutionären Mobilisierung.

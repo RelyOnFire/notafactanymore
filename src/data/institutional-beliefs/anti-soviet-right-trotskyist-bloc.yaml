@@ -1,92 +1,154 @@
+schemaVersion: 2
 title: The anti-Soviet Right-Trotskyist Bloc as an espionage-terror conspiracy
-claim: Soviet party, security, prosecutorial and judicial institutions asserted in the 1938 Third Moscow Trial that Nikolai
-  Bukharin, Alexei Rykov and their co-defendants formed an anti-Soviet Right-Trotskyist Bloc that committed espionage, sabotage,
-  terrorism and treason in concert with foreign intelligence services and sought the overthrow and dismemberment of the Soviet
-  state.
-currentUnderstanding: Later Soviet judicial review found the central criminal-conspiracy case against the rehabilitated defendants
-  unsupported. The USSR Supreme Court found no evidence of links between Bukharin, Rykov and foreign intelligence services,
-  found no support for the alleged network of criminal groups, and determined that major sabotage allegations contradicted
-  the factual record. Twenty of the 21 defendants in the 1938 trial were ultimately rehabilitated; former NKVD chief Genrikh
-  Yagoda was the exception, reflecting separate responsibility for real NKVD crimes independent of the fabricated bloc conspiracy.
+proposition:
+  summary: >-
+    Soviet party, security, prosecutorial and judicial institutions asserted in the 1938 Third Moscow Trial that Nikolai
+    Bukharin, Alexei Rykov and their co-defendants formed an anti-Soviet Right-Trotskyist Bloc that committed espionage,
+    sabotage, terrorism and treason in concert with foreign intelligence services and sought the overthrow and
+    dismemberment of the Soviet state.
+correction:
+  summary: >-
+    Later Soviet judicial review found the central criminal-conspiracy case against the rehabilitated defendants
+    unsupported. The USSR Supreme Court found no evidence of links between Bukharin, Rykov and foreign intelligence
+    services, found no support for the alleged network of criminal groups, and determined that major sabotage
+    allegations contradicted the factual record. Twenty of the 21 defendants were ultimately rehabilitated; former
+    NKVD chief Genrikh Yagoda was the exception because of separate responsibility for real NKVD crimes.
 category: Political repression, show trials and state security
 reviewedAt: '2026-08-25'
 impact:
-  summary: The Third Moscow Trial turned a constructed political conspiracy into a public judicial fact at the height of the
-    Great Terror. Twenty-one defendants were tried before the Military Collegium of the USSR Supreme Court in March 1938.
-    Eighteen received death sentences and three received long prison terms. The trial was accompanied by intensive state propaganda
-    and presented former senior Bolshevik leaders as spies, saboteurs, terrorists and agents of foreign powers. Decades later
-    the Soviet state reversed the legal findings for nearly the entire defendant group.
+  summary: >-
+    The Third Moscow Trial turned a constructed political conspiracy into a public judicial fact at the height of the
+    Great Terror. Twenty-one defendants were tried before the Military Collegium of the USSR Supreme Court in March
+    1938. Eighteen received death sentences and three received long prison terms. State propaganda presented former
+    senior Bolshevik leaders as spies, saboteurs, terrorists and agents of foreign powers. Decades later the Soviet
+    state reversed the legal findings for nearly the entire defendant group.
   highlights:
-  - value: '21'
-    label: defendants in the Third Moscow Trial
-  - value: '18'
-    label: defendants sentenced to death in March 1938
-  - value: 20 of 21
-    label: defendants ultimately rehabilitated; Genrikh Yagoda was the exception
+    - value: '21'
+      label: defendants in the Third Moscow Trial
+    - value: '18'
+      label: defendants sentenced to death in March 1938
+    - value: 20 of 21
+      label: defendants ultimately rehabilitated; Genrikh Yagoda was the exception
   context:
-  - The conspiracy constructed and prosecuted in the Third Moscow Trial was distinct from the allegations in the earlier
-    Zinoviev-Kamenev and Pyatakov-Radek trials, which involved different defendant groups.
-  - Genrikh Yagoda had headed the NKVD and was implicated in real state crimes independent of the fabricated Right-Trotskyist
-    conspiracy. Soviet prosecutors did not seek his rehabilitation when the case was reviewed. Twenty of the 21 trial defendants
-    were ultimately rehabilitated, with Yagoda the exception.
-  - The archival record also shows direct political management of the trial. The modern documentary edition of the proceedings,
-    based on RGASPI, GARF and FSB Central Archive holdings, includes a complete trial transcript containing Stalin's editorial
-    corrections. The later Supreme Court review provided the decisive institutional rejection of the criminal charges.
+    - >-
+      The conspiracy constructed in the Third Moscow Trial was distinct from the allegations in the earlier
+      Zinoviev-Kamenev and Pyatakov-Radek trials, which involved different defendant groups.
+    - >-
+      Genrikh Yagoda had headed the NKVD and was implicated in real state crimes independent of the fabricated
+      Right-Trotskyist conspiracy. Soviet prosecutors did not seek his rehabilitation.
+    - >-
+      The archival record also shows direct political management of the trial. A modern documentary edition based on
+      RGASPI, GARF and FSB Central Archive holdings includes a complete trial transcript containing Stalin's editorial
+      corrections.
 episodes:
-- id: soviet-union-1938-1988
-  polity: Soviet Union
-  region: Eurasia
-  startYear: 1938
-  endYear: 1988
-  strength: officially-endorsed
-  institutionTypes:
-  - government
-  - court
-  institutions:
-  - All-Union Communist Party (Bolsheviks)
-  - People's Commissariat for Internal Affairs
-  - Procuracy of the USSR
-  - Military Collegium of the Supreme Court of the USSR
-  institutionalContext: In March 1938 the Soviet state staged a public trial of 21 defendants around the alleged anti-Soviet
-    Right-Trotskyist Bloc. Prosecutor Andrei Vyshinsky accused the group of espionage for foreign powers, wrecking and sabotage,
-    terrorist murders, preparation of further assassinations and plans to assist foreign intervention and partition Soviet
-    territory. Eighteen defendants were sentenced to death; three received long prison terms. The proceedings were published
-    and amplified as proof that former leaders of the Bolshevik opposition had become agents of fascist and other foreign
-    powers. During later rehabilitation reviews most defendants were cleared in separate stages. On 4 February 1988 the Plenum
-    of the USSR Supreme Court cancelled the convictions of Bukharin, Rykov and other remaining principal defendants and terminated
-    their cases for lack of a criminal offense.
-  consequences:
-  - Execution of 18 defendants after a politically constructed public prosecution
-  - Long prison sentences for the remaining three defendants, who were later caught in further Stalin-era repression
-  - State propaganda presenting former senior Soviet officials as a coordinated network of foreign spies, terrorists and saboteurs
-  - Use of confessions and judicial theater to legitimize the wider Great Terror and suspicion of hidden enemy networks
-  - Decades of official historical treatment of the convictions as proof of treason before rehabilitation dismantled the case
-  - Posthumous rehabilitation of 20 of the 21 defendants, exposing the collapse of the trial's central conspiracy narrative
-  summary: The Third Moscow Trial made an alleged foreign-backed conspiracy into an authoritative court judgment and propaganda
-    event. Bukharin, Rykov and others were accused of belonging to a Right-Trotskyist Bloc responsible for espionage, sabotage,
-    terrorism and plans to destroy the Soviet state. Eighteen defendants were condemned to death. Later Soviet review found
-    core allegations against the rehabilitated defendants unsupported, including supposed foreign-intelligence links and sabotage
-    activities. By 1988, 20 of the trial's 21 defendants had been rehabilitated; Yagoda remained the exception.
-  sources:
-  - title: The Bukharin Trial, 1938 — documentary collection
+  - id: soviet-union-1938-1988
+    polity: Soviet Union
+    region: Eurasia
+    startYear: 1938
+    endYear: 1988
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+      - court
+    institutions:
+      - All-Union Communist Party (Bolsheviks)
+      - People's Commissariat for Internal Affairs
+      - Procuracy of the USSR
+      - Military Collegium of the Supreme Court of the USSR
+    institutionalContext: >-
+      In March 1938 the Soviet state staged a public trial of 21 defendants around the alleged anti-Soviet
+      Right-Trotskyist Bloc. Prosecutor Andrei Vyshinsky accused the group of espionage for foreign powers, wrecking and
+      sabotage, terrorist murders, preparation of further assassinations and plans to assist foreign intervention and
+      partition Soviet territory. Eighteen defendants were sentenced to death; three received long prison terms. During
+      later rehabilitation reviews most defendants were cleared in stages. On 4 February 1988 the Plenum of the USSR
+      Supreme Court cancelled the convictions of Bukharin, Rykov and other remaining principal defendants and terminated
+      their cases for lack of a criminal offense.
+    consequences:
+      - Execution of 18 defendants after a politically constructed public prosecution
+      - Long prison sentences for the remaining three defendants
+      - State propaganda presenting former senior Soviet officials as a coordinated network of foreign spies, terrorists and saboteurs
+      - Use of confessions and judicial theater to legitimize the wider Great Terror and suspicion of hidden enemy networks
+      - Decades of official historical treatment of the convictions as proof of treason before rehabilitation dismantled the case
+      - Posthumous rehabilitation of 20 of the 21 defendants
+    summary: >-
+      The Third Moscow Trial made an alleged foreign-backed conspiracy into an authoritative court judgment and propaganda
+      event. Later Soviet review found core allegations against the rehabilitated defendants unsupported, including
+      supposed foreign-intelligence links and sabotage activities. By 1988, 20 of the trial's 21 defendants had been
+      rehabilitated; Yagoda remained the exception.
+    mechanism:
+      kind: enforcement
+      summary: >-
+        Party, security, prosecutorial and judicial institutions converted a politically constructed conspiracy into a
+        public criminal judgment, executions and propaganda used to legitimize wider repression.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 4 February 1988
+      action: The Plenum of the USSR Supreme Court cancelled the remaining principal convictions and terminated the cases for lack of a criminal offense.
+      summary: >-
+        The Soviet judiciary formally reversed the surviving core convictions and rejected the factual basis of the
+        alleged conspiracy for the rehabilitated defendants.
+sources:
+  - id: right-trotskyist-docs
+    title: The Bukharin Trial, 1938 — documentary collection
     url: https://docs.historyrussia.org/ru/nodes/473265-protsess-buharina-1938-g
     publisher: Electronic Library of Historical Documents
-    note: Documentary collection based on RGASPI, GARF and the FSB Central Archive. It includes the indictment, complete trial
-      transcript with Stalin's editorial corrections, verdict, clemency petitions and contemporary NKVD reports about public
-      reactions to the trial.
-  - title: Judicial report in the case of the anti-Soviet Right-Trotskyist Bloc
+  - id: right-trotskyist-judicial-report
+    title: Judicial report in the case of the anti-Soviet Right-Trotskyist Bloc
     url: https://www.prlib.ru/item/1417253
     publisher: Boris Yeltsin Presidential Library
-    note: Russian state-library catalog and digitized Soviet Supreme Court report for the March 1938 proceedings, identifying
-      the 21 defendants and the criminal articles under which the alleged bloc was prosecuted.
-  - title: Nikolai Ivanovich Bukharin
+  - id: right-trotskyist-bukharin
+    title: Nikolai Ivanovich Bukharin
     url: https://bigenc.ru/c/bukharin-nikolai-ivanovich-550ce1
     publisher: Great Russian Encyclopedia
-    note: Current Russian scholarly reference describing Bukharin's 1938 conviction for participation in a counterrevolutionary
-      espionage-terrorist organization and his rehabilitation by the Plenum of the USSR Supreme Court on 4 February 1988.
-  - title: USSR Supreme Court Plenum resolution of 4 February 1988
+  - id: right-trotskyist-1988-resolution
+    title: USSR Supreme Court Plenum resolution of 4 February 1988
     url: https://www.ussrdoc.narod.ru/ussrdoc_narod/usr_14575.htm
     publisher: USSR legislation database
-    note: Transcription of the Supreme Court resolution reviewing the 1938 case. It states that no information supported links
-      to foreign intelligence, that alleged criminal groups and sabotage were unsubstantiated, and cancels the convictions
-      of the remaining rehabilitated defendants for lack of a criminal offense.
+evidence:
+  - id: right-trotskyist-report-proposition
+    sourceId: right-trotskyist-judicial-report
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Soviet Supreme Court report for the March 1938 proceedings identifies the 21 defendants and the criminal case
+      built around the alleged anti-Soviet Right-Trotskyist Bloc.
+  - id: right-trotskyist-resolution-correction
+    sourceId: right-trotskyist-1988-resolution
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      The 1988 Supreme Court review states that foreign-intelligence links, criminal groups and major sabotage allegations
+      were unsupported and cancels the remaining convictions for lack of a criminal offense.
+  - id: right-trotskyist-docs-impact
+    sourceId: right-trotskyist-docs
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Documentary collection includes the indictment, complete trial transcript, verdict, clemency petitions and NKVD
+      reports concerning public reaction to the trial.
+  - id: right-trotskyist-docs-carrier
+    sourceId: right-trotskyist-docs
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1938-1988, aspect: carrier}
+  - id: right-trotskyist-docs-mechanism
+    sourceId: right-trotskyist-docs
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1938-1988, aspect: mechanism}
+    note: >-
+      The archival edition documents the state-managed indictment, trial proceedings, verdict and propaganda environment,
+      including Stalin's editorial corrections to the trial transcript.
+  - id: right-trotskyist-docs-consequences
+    sourceId: right-trotskyist-docs
+    relation: supports
+    target: {scope: episode, episodeId: soviet-union-1938-1988, aspect: consequences}
+  - id: right-trotskyist-resolution-institutional-correction
+    sourceId: right-trotskyist-1988-resolution
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1938-1988, aspect: institutional-correction}
+  - id: right-trotskyist-bukharin-context
+    sourceId: right-trotskyist-bukharin
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-union-1938-1988, aspect: context}
+    note: >-
+      Current Russian scholarly reference records Bukharin's 1938 conviction and rehabilitation by the USSR Supreme
+      Court Plenum on 4 February 1988.

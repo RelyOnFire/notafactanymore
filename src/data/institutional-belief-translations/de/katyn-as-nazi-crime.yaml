@@ -1,103 +1,127 @@
+schemaVersion: 2
 locale: de
 entryId: katyn-as-nazi-crime
 sourceReviewedAt: '2026-08-25'
 title: Das Massaker von Katyn als NS-Verbrechen
-claim: >-
-  Der sowjetische Staat hielt offiziell daran fest, dass NS-Deutschland und nicht der sowjetische NKWD die polnischen
-  Gefangenen ermordet habe, deren Massengräber in Katyn entdeckt wurden; im kommunistischen Polen wurde diese
-  Zuschreibung als autorisierte Darstellung durchgesetzt.
-currentUnderstanding: >-
-  Die Morde wurden im Frühjahr 1940 vom sowjetischen NKWD auf Grundlage eines Politbüro-Beschlusses verübt, den Stalin
-  und weitere führende sowjetische Funktionäre billigten. Laut einem KGB-Vermerk von 1959 wurden bei der umfassenderen
-  Katyn-Erschießungsaktion 21.857 polnische Gefangene und Häftlinge getötet; 4.421 davon wurden als im Wald von Katyn
-  ermordet erfasst. NS-Deutschland nutzte die Entdeckung der Gräber 1943 propagandistisch, doch dieser Propagandazweck
-  machte die sowjetische Gegenbehauptung nicht wahr. Am 13. April 1990 erkannte die UdSSR die Verantwortung des NKWD
-  offiziell an.
+proposition:
+  summary: >-
+    Der sowjetische Staat hielt offiziell daran fest, dass NS-Deutschland und nicht der sowjetische NKWD die polnischen
+    Gefangenen ermordet habe, deren Massengräber in Katyn entdeckt wurden; im kommunistischen Polen wurde diese
+    Zuschreibung als autorisierte Darstellung durchgesetzt.
+correction:
+  summary: >-
+    Die Morde wurden im Frühjahr 1940 vom sowjetischen NKWD auf Grundlage eines Politbüro-Beschlusses verübt, den Stalin
+    und weitere führende sowjetische Funktionäre billigten. Laut einem KGB-Vermerk von 1959 wurden bei der umfassenderen
+    Katyn-Erschießungsaktion 21.857 polnische Gefangene und Häftlinge getötet; 4.421 davon wurden als im Wald von Katyn
+    ermordet erfasst. NS-Deutschland nutzte die Entdeckung der Gräber propagandistisch, doch dies machte die sowjetische
+    Gegenbehauptung nicht wahr. Am 13. April 1990 erkannte die UdSSR die Verantwortung des NKWD offiziell an.
 impact:
   summary: >-
-    Katyn wurde zu einer jahrzehntelangen staatlichen Geschichtsfälschung statt zu einem vorübergehenden Irrtum in
-    Kriegszeiten. Nachdem Deutschland die Gräber 1943 bekannt gemacht hatte, beschuldigte die sowjetische Regierung
-    deutsche Truppen, schuf eine Kommission, deren Auftrag die deutsche Täterschaft bereits voraussetzte, und versuchte
-    später, diese Anschuldigung vor dem Nürnberger Tribunal vorzubringen. 1959 empfahl ein KGB-Vermerk die Vernichtung
-    der personenbezogenen Akten aller 21.857 Erschossenen. Im kommunistischen Polen wurde die sowjetische Version
-    durch Zensur und Repression als öffentliche Doktrin durchgesetzt. Erst 1990 erkannte die UdSSR die Verantwortung
-    des NKWD an.
+    Katyn wurde zu einer jahrzehntelangen staatlichen Geschichtsfälschung. Nachdem Deutschland die Gräber 1943 bekannt
+    gemacht hatte, beschuldigte die sowjetische Regierung deutsche Truppen, schuf eine Kommission, deren Auftrag die
+    deutsche Täterschaft bereits voraussetzte, und versuchte später, diese Anschuldigung vor dem Nürnberger Tribunal
+    vorzubringen. 1959 empfahl ein KGB-Vermerk die Vernichtung der personenbezogenen Akten aller 21.857 Erschossenen.
+    Im kommunistischen Polen wurde die sowjetische Version durch Zensur und Repression als öffentliche Doktrin durchgesetzt.
   highlights:
-  - value: '21.857'
-    label: Opfer laut KGB-Vermerk von 1959 bei der umfassenderen Katyn-Erschießungsaktion von 1940
-  - value: '4.421'
-    label: davon als im Wald von Katyn ermordete Opfer erfasst
-  - value: 47 Jahre
-    label: von der sowjetischen öffentlichen Zuschreibung an Deutschland 1943 bis zum offiziellen Eingeständnis 1990
-  - value: '1959'
-    label: KGB-Chef Alexander Schelepin empfahl die Vernichtung der personenbezogenen Opferakten
+    - value: '21.857'
+      label: Opfer laut KGB-Vermerk von 1959 bei der umfassenderen Katyn-Erschießungsaktion von 1940
+    - value: '4.421'
+      label: davon als im Wald von Katyn ermordete Opfer erfasst
+    - value: 47 Jahre
+      label: von der sowjetischen öffentlichen Zuschreibung an Deutschland 1943 bis zum offiziellen Eingeständnis 1990
+    - value: '1959'
+      label: KGB-Chef Alexander Schelepin empfahl die Vernichtung der personenbezogenen Opferakten
   context:
-  - >-
-    „Massaker von Katyn“ wird häufig als Bezeichnung für die umfassendere NKWD-Aktion mit Tötungen in Katyn, Charkiw,
-    Twer/Mednoje und weiteren Orten verwendet. Es bedeutet nicht, dass rund 22.000 Leichen im Wald von Katyn gefunden
-    wurden. Zeitgenössische und archivalische Zahlen verorten etwa 4.400 Gefangene aus Koselsk am Tatort Katyn.
-  - >-
-    Deutsche Behörden machten die Gräber aus strategischen Propagandagründen öffentlich und organisierten eine
-    internationale forensische Kommission. Deren Datierung der Todesfälle auf 1940 stimmt mit den später geöffneten
-    sowjetischen Archiven überein; propagandistische Verwendung von Beweisen macht diese nicht automatisch falsch.
-  - >-
-    Die falsche Zuschreibung wurde institutionell aufrechterhalten, unabhängig davon, ob führende Funktionäre
-    selbst aufrichtig an sie glaubten. Entscheidend waren die offizielle Übernahme, Verbreitung und Durchsetzung
-    der Behauptung.
+    - >-
+      „Massaker von Katyn“ wird häufig als Bezeichnung für die umfassendere NKWD-Aktion mit Tötungen in Katyn, Charkiw,
+      Twer/Mednoje und weiteren Orten verwendet; es bedeutet nicht, dass rund 22.000 Leichen im Wald von Katyn gefunden wurden.
+    - >-
+      Deutsche Behörden machten die Gräber aus strategischen Propagandagründen öffentlich. Dieser Propagandazweck machte
+      die forensischen Belege nicht automatisch falsch.
+    - >-
+      Entscheidend ist die institutionelle Übernahme, Verbreitung und Durchsetzung der falschen Zuschreibung, unabhängig
+      davon, ob einzelne Funktionäre sie persönlich glaubten.
 episodes:
-- id: soviet-union-1943-1990
-  polity: Sowjetunion
-  institutions:
-  - Sowjetisches Informationsbüro
-  - Rat der Volkskommissare der UdSSR
-  - Sonderkommission unter Nikolai Burdenko
-  - Kommunistische Partei der Sowjetunion
-  institutionalContext: >-
-    Am 15. April 1943 reagierte das Sowjetische Informationsbüro auf die deutsche Bekanntgabe der Gräber von Katyn,
-    indem es deutsche Truppen beschuldigte. Nach der Rückeroberung der Region Smolensk schufen die sowjetischen
-    Behörden die Burdenko-Kommission, deren offizieller Name bereits von durch „deutsch-faschistische Eindringlinge“
-    erschossenen polnischen Gefangenen ausging; ihr Bericht vom Januar 1944 datierte die Morde auf den Herbst 1941.
-    Sowjetische Ankläger stützten sich später in Nürnberg auf diese Darstellung. Die eigentlichen Akten blieben geheim.
-    1959 teilte KGB-Chef Alexander Schelepin Nikita Chruschtschow mit, dass bei der Aktion von 1940 insgesamt 21.857
-    Menschen erschossen worden waren, und empfahl die Vernichtung ihrer Einzelakten. Erst am 13. April 1990 erkannte
-    die amtliche Nachrichtenagentur TASS die direkte Verantwortung des NKWD an.
-  consequences:
-  - Offizielle sowjetische Zuschreibung der NKWD-Morde an NS-Deutschland
-  - Einrichtung einer staatlichen Untersuchungskommission, deren Auftrag und Bericht deutsche Verantwortung behaupteten
-  - Versuch, die falsche Zuschreibung im Nürnberger Verfahren als Anklagepunkt zu verwenden
-  - Jahrzehntelange Geheimhaltung der Politbüro- und NKWD-Dokumente
-  - Empfehlung des KGB-Chefs von 1959, die personenbezogenen Akten von 21.857 Erschossenen zu vernichten
-  summary: >-
-    Die sowjetische Regierung gab Deutschland im April 1943 offiziell die Schuld an Katyn und schuf nach der
-    Rückeroberung des Gebiets einen staatlichen Beweisrahmen für diese Zuschreibung. Die Burdenko-Kommission behauptete,
-    deutsche Truppen hätten die Gefangenen 1941 ermordet; sowjetische Ankläger brachten diese Version später in
-    Nürnberg vor. Gleichzeitig bewahrte die sowjetische Führung geheime Unterlagen auf, die den Politbüro-Beschluss
-    zur Erschießung vom März 1940 dokumentierten. Ein KGB-Vermerk von 1959 erfasste sogar 21.857 Exekutionen und
-    empfahl die Vernichtung der Opferakten. Erst am 13. April 1990 erkannte die sowjetische Regierung die Verantwortung
-    des NKWD offiziell an.
-- id: polish-peoples-republic-1944-1989
-  polity: Volksrepublik Polen
-  institutions:
-  - Polnische Arbeiterpartei / Polnische Vereinigte Arbeiterpartei
-  - staatlicher Zensurapparat der Volksrepublik Polen
-  institutionalContext: >-
-    Sowjetisch gestützte kommunistische Institutionen in Polen übernahmen die Behauptung deutscher Täterschaft bereits
-    beim Aufbau des neuen Regimes. In der stalinistischen Phase wurde sie offen propagiert; später bevorzugten die
-    Behörden häufig Schweigen, doch Zensurvorgaben untersagten weiterhin, die UdSSR für den Tod der polnischen
-    Offiziere verantwortlich zu machen. Staatliche Geschichtsschreibung, Verlage und Rundfunk bewegten sich innerhalb
-    dieser Grenze. Wer sie öffentlich infrage stellte, konnte Zensur, Schikanen oder andere Repression erfahren.
-    In der zweiten Hälfte des Jahres 1989 ermöglichte der Zerfall kommunistischer Kontrolle die offene Veröffentlichung
-    der sowjetischen Verantwortung ohne die bisherigen Beschränkungen.
-  consequences:
-  - Zensur von Veröffentlichungen, die die Sowjetunion für Katyn verantwortlich machten
-  - Staatlich kontrollierte Geschichts- und Mediennarrative, die die Täterschaft unterdrückten oder verfälschten
-  - Schikanen und Repression gegen Autoren, Journalisten, Familien und Aktivisten, die die autorisierte Darstellung infrage stellten
-  - Verfälschung rechtlicher und öffentlicher Angaben zu Todeszeitpunkt und Todesumständen der Opfer
-  summary: >-
-    Im kommunistischen Polen wurde die sowjetische Katyn-Darstellung mehr als nur die Behauptung einer verbündeten
-    Regierung: Sie bildete eine durchgesetzte Grenze öffentlicher Geschichtsschreibung. Die Behörden wiederholten
-    zunächst offen die deutsche Täterschaft und versuchten später häufig, das Thema ganz aus der Öffentlichkeit zu
-    verdrängen; Zensurvorgaben verboten weiterhin die Zuschreibung an die UdSSR. Dokumentationen des IPN belegen
-    Repression und Schikanen gegen Menschen, die sowjetische Verantwortung öffentlich machten. Während der politischen
-    Transformation 1989 verlor die Doktrin ihre Durchsetzbarkeit, einige Monate bevor die UdSSR selbst die
-    NKWD-Verantwortung offiziell eingestand.
+  - id: soviet-union-1943-1990
+    polity: Sowjetunion
+    institutions:
+      - Sowjetisches Informationsbüro
+      - Rat der Volkskommissare der UdSSR
+      - Sonderkommission unter Nikolai Burdenko
+      - Kommunistische Partei der Sowjetunion
+    institutionalContext: >-
+      Am 15. April 1943 beschuldigte das Sowjetische Informationsbüro deutsche Truppen. Nach der Rückeroberung der Region
+      Smolensk schufen sowjetische Behörden die Burdenko-Kommission, deren Auftrag deutsche Täterschaft bereits voraussetzte;
+      ihr Bericht vom Januar 1944 datierte die Morde auf den Herbst 1941. Sowjetische Ankläger stützten sich später in
+      Nürnberg auf diese Darstellung. 1959 hielt KGB-Chef Alexander Schelepin 21.857 Erschießungen aus dem Jahr 1940 fest
+      und empfahl die Vernichtung der Einzelakten. Am 13. April 1990 erkannte TASS die direkte Verantwortung des NKWD an.
+    consequences:
+      - Offizielle sowjetische Zuschreibung der NKWD-Morde an NS-Deutschland
+      - Einrichtung einer staatlichen Untersuchungskommission, deren Auftrag und Bericht deutsche Verantwortung behaupteten
+      - Versuch, die falsche Zuschreibung im Nürnberger Verfahren als Anklagepunkt zu verwenden
+      - Jahrzehntelange Geheimhaltung der Politbüro- und NKWD-Dokumente
+      - Empfehlung des KGB-Chefs von 1959, die personenbezogenen Akten von 21.857 Erschossenen zu vernichten
+    summary: >-
+      Die sowjetische Regierung gab Deutschland 1943 offiziell die Schuld an Katyn und schuf einen staatlichen
+      Beweisrahmen für diese Zuschreibung. Geheime sowjetische Akten dokumentierten gleichzeitig den Politbüro-Beschluss
+      und die Erschießungszahlen. Erst am 13. April 1990 erkannte die sowjetische Regierung die Verantwortung des NKWD an.
+    mechanism:
+      summary: >-
+        Sowjetische Informations-, Untersuchungs- und Anklageorgane veröffentlichten und verteidigten die deutsche
+        Täterschaft, während die zugrunde liegenden Politbüro- und NKWD-Akten geheim blieben.
+    institutionalCorrection:
+      periodLabel: 13. April 1990
+      action: TASS erkannte die direkte Verantwortung des NKWD für die Morde von Katyn offiziell an.
+      summary: >-
+        Der Sowjetstaat kehrte seine jahrzehntelange Zuschreibung an Deutschland öffentlich um und benannte Beria,
+        Merkulow und ihre NKWD-Untergebenen als verantwortlich.
+  - id: polish-peoples-republic-1944-1989
+    polity: Volksrepublik Polen
+    institutions:
+      - Polnische Arbeiterpartei / Polnische Vereinigte Arbeiterpartei
+      - staatlicher Zensurapparat der Volksrepublik Polen
+    institutionalContext: >-
+      Sowjetisch gestützte kommunistische Institutionen in Polen übernahmen die Behauptung deutscher Täterschaft. Später
+      bevorzugten die Behörden häufig Schweigen, doch Zensurvorgaben untersagten weiterhin, die UdSSR verantwortlich zu
+      machen. Staatliche Geschichtsschreibung, Verlage und Rundfunk bewegten sich innerhalb dieser Grenze. In der zweiten
+      Hälfte des Jahres 1989 ermöglichte der Zerfall kommunistischer Kontrolle die offene Veröffentlichung sowjetischer Verantwortung.
+    consequences:
+      - Zensur von Veröffentlichungen, die die Sowjetunion für Katyn verantwortlich machten
+      - Staatlich kontrollierte Geschichts- und Mediennarrative, die die Täterschaft unterdrückten oder verfälschten
+      - Schikanen und Repression gegen Autoren, Journalisten, Familien und Aktivisten, die die autorisierte Darstellung infrage stellten
+      - Verfälschung rechtlicher und öffentlicher Angaben zu Todeszeitpunkt und Todesumständen der Opfer
+    summary: >-
+      Im kommunistischen Polen wurde die sowjetische Katyn-Darstellung zu einer durchgesetzten Grenze öffentlicher
+      Geschichtsschreibung. Während der politischen Transformation 1989 verlor die Doktrin ihre Durchsetzbarkeit, einige
+      Monate bevor die UdSSR selbst die NKWD-Verantwortung offiziell eingestand.
+    mechanism:
+      summary: >-
+        Partei- und Staatszensur sowie kontrollierte Geschichtsschreibung untersagten die öffentliche Zuschreibung an die
+        Sowjetunion und unterdrückten Widerspruch gegen die autorisierte Darstellung.
+    institutionalCorrection:
+      summary: >-
+        Das Zensurregime zerfiel 1989 und offene Veröffentlichungen wurden möglich. Ein datierter Akt der Volksrepublik
+        Polen, der die frühere Doktrin deutscher Täterschaft förmlich zurücknahm, ist jedoch nicht belegt.
+evidence:
+  - id: katyn-echr-proposition
+    note: >-
+      Die gerichtliche Zusammenfassung behandelt die sowjetische Behauptung deutscher Täterschaft, den Burdenko-Bericht,
+      die Nürnberger Anklage und die geheim gehaltenen Akten von 1940.
+  - id: katyn-decision-correction
+    note: >-
+      Die Archivtranskription dokumentiert Berias Hinrichtungsvorschlag und die von Stalin und weiteren führenden Funktionären gebilligte Politbüro-Entscheidung.
+  - id: katyn-echr-impact
+  - id: katyn-soviet-carrier
+  - id: katyn-soviet-mechanism
+  - id: katyn-soviet-consequences
+  - id: katyn-soviet-correction
+    note: >-
+      Die IPN-Chronologie verzeichnet das TASS-Kommuniqué vom 13. April 1990, das die direkte Verantwortung des NKWD anerkannte.
+  - id: katyn-polish-carrier
+  - id: katyn-polish-mechanism
+    note: >-
+      Die Quelle reproduziert eine Zensuranweisung, die Versuche untersagte, der UdSSR die Verantwortung für den Tod der polnischen Offiziere zuzuschreiben.
+  - id: katyn-polish-consequences
+  - id: katyn-us-archives-context
+    note: >-
+      Die amtliche Archivübersicht beschreibt die deutsch organisierte forensische Kommission von 1943 und spätere Belege für die NKWD-Verantwortung.

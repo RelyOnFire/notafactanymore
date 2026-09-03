@@ -1,59 +1,99 @@
+schemaVersion: 2
 locale: de
 entryId: anti-soviet-right-trotskyist-bloc
 sourceReviewedAt: '2026-08-25'
 title: Der „antisowjetische rechts-trotzkistische Block“ als Spionage- und Terrorverschwörung
-claim: Sowjetische Partei-, Sicherheits-, Anklage- und Justizorgane behaupteten im dritten Moskauer Prozess von 1938, Nikolai
-  Bucharin, Alexei Rykow und ihre Mitangeklagten hätten einen „antisowjetischen rechts-trotzkistischen Block“ gebildet, der
-  gemeinsam mit ausländischen Nachrichtendiensten Spionage, Sabotage, Terror und Verrat betrieben und auf den Sturz sowie
-  die Zerschlagung des Sowjetstaates hingearbeitet habe.
-currentUnderstanding: Spätere sowjetische Justizprüfungen erklärten den Kern der strafrechtlichen Verschwörungsvorwürfe gegen
-  die rehabilitierten Angeklagten für unbelegt. Der Oberste Gerichtshof der UdSSR fand keine Belege für Verbindungen Bucharins
-  und Rykows zu ausländischen Geheimdiensten, keine Grundlage für das behauptete Netz krimineller Gruppen und stellte fest,
-  dass zentrale Sabotagevorwürfe den tatsächlichen Umständen widersprachen. Zwanzig der 21 Angeklagten von 1938 wurden schließlich
-  rehabilitiert. Der frühere NKWD-Chef Genrich Jagoda war die Ausnahme.
+proposition:
+  summary: >-
+    Sowjetische Partei-, Sicherheits-, Anklage- und Justizorgane behaupteten im dritten Moskauer Prozess von 1938,
+    Nikolai Bucharin, Alexei Rykow und ihre Mitangeklagten hätten einen „antisowjetischen rechts-trotzkistischen Block“
+    gebildet, der gemeinsam mit ausländischen Nachrichtendiensten Spionage, Sabotage, Terror und Verrat betrieben und
+    auf den Sturz sowie die Zerschlagung des Sowjetstaates hingearbeitet habe.
+correction:
+  summary: >-
+    Spätere sowjetische Justizprüfungen erklärten den Kern der strafrechtlichen Verschwörungsvorwürfe gegen die
+    rehabilitierten Angeklagten für unbelegt. Der Oberste Gerichtshof der UdSSR fand keine Belege für Verbindungen
+    Bucharins und Rykows zu ausländischen Geheimdiensten, keine Grundlage für das behauptete Netz krimineller Gruppen
+    und stellte fest, dass zentrale Sabotagevorwürfe den tatsächlichen Umständen widersprachen. Zwanzig der 21
+    Angeklagten wurden schließlich rehabilitiert; Genrich Jagoda blieb wegen eigenständiger realer NKWD-Verbrechen die Ausnahme.
 impact:
-  summary: Der dritte Moskauer Prozess machte auf dem Höhepunkt des Großen Terrors aus einer konstruierten politischen Verschwörung
-    eine öffentliche gerichtliche Tatsache. Im März 1938 standen 21 Angeklagte vor dem Militärkollegium des Obersten Gerichts
-    der UdSSR. Achtzehn erhielten Todesurteile, drei langjährige Haftstrafen. Intensive staatliche Propaganda präsentierte
-    ehemalige Spitzenfunktionäre als Spione, Saboteure, Terroristen und Agenten ausländischer Mächte. Jahrzehnte später hob
-    der Sowjetstaat die Urteile für nahezu die gesamte Angeklagtengruppe auf.
+  summary: >-
+    Der dritte Moskauer Prozess machte auf dem Höhepunkt des Großen Terrors aus einer konstruierten politischen
+    Verschwörung eine öffentliche gerichtliche Tatsache. Im März 1938 standen 21 Angeklagte vor dem Militärkollegium des
+    Obersten Gerichts der UdSSR. Achtzehn erhielten Todesurteile, drei langjährige Haftstrafen. Staatliche Propaganda
+    präsentierte ehemalige Spitzenfunktionäre als Spione, Saboteure, Terroristen und Agenten ausländischer Mächte.
+    Jahrzehnte später hob der Sowjetstaat die Urteile für nahezu die gesamte Angeklagtengruppe auf.
   highlights:
-  - value: '21'
-    label: Angeklagte im dritten Moskauer Prozess
-  - value: '18'
-    label: im März 1938 zum Tode verurteilte Angeklagte
-  - value: 20 von 21
-    label: schließlich rehabilitierte Angeklagte; Genrich Jagoda blieb die Ausnahme
+    - value: '21'
+      label: Angeklagte im dritten Moskauer Prozess
+    - value: '18'
+      label: im März 1938 zum Tode verurteilte Angeklagte
+    - value: 20 von 21
+      label: schließlich rehabilitierte Angeklagte; Genrich Jagoda blieb die Ausnahme
   context:
-  - Die im dritten Moskauer Prozess konstruierte und verfolgte Verschwörung war von den Vorwürfen der früheren
-    Sinowjew-Kamenew- und Pjatakow-Radek-Prozesse zu unterscheiden; dort standen andere Angeklagtengruppen im Zentrum.
-  - Genrich Jagoda hatte als NKWD-Chef reale staatliche Verbrechen zu verantworten, die unabhängig von der erfundenen rechts-trotzkistischen
-    Verschwörung standen. Bei der späteren Überprüfung wurde seine Rehabilitierung nicht beantragt.
-  - Die heutige Dokumentenedition auf Grundlage von RGASPI, GARF und dem Zentralarchiv des FSB enthält die vollständige Prozessmitschrift
-    mit redaktionellen Korrekturen Stalins. Die spätere Prüfung durch den Obersten Gerichtshof lieferte die entscheidende
-    institutionelle Zurückweisung der strafrechtlichen Vorwürfe.
+    - >-
+      Die im dritten Moskauer Prozess konstruierte Verschwörung war von den Vorwürfen der früheren
+      Sinowjew-Kamenew- und Pjatakow-Radek-Prozesse zu unterscheiden.
+    - >-
+      Genrich Jagoda hatte als NKWD-Chef reale staatliche Verbrechen zu verantworten, die unabhängig von der erfundenen
+      rechts-trotzkistischen Verschwörung standen; seine Rehabilitierung wurde nicht beantragt.
+    - >-
+      Die heutige Dokumentenedition auf Grundlage von RGASPI, GARF und dem Zentralarchiv des FSB enthält die vollständige
+      Prozessmitschrift mit redaktionellen Korrekturen Stalins.
 episodes:
-- id: soviet-union-1938-1988
-  polity: Sowjetunion
-  institutions:
-  - Kommunistische Allunionspartei (Bolschewiki)
-  - Volkskommissariat für Innere Angelegenheiten
-  - Staatsanwaltschaft der UdSSR
-  - Militärkollegium des Obersten Gerichts der UdSSR
-  institutionalContext: Im März 1938 inszenierte der Sowjetstaat einen öffentlichen Prozess gegen 21 Angeklagte um den angeblichen
-    „antisowjetischen rechts-trotzkistischen Block“. Staatsanwalt Andrei Wyschinski warf der Gruppe Spionage, Schädlingstätigkeit,
-    Sabotage, terroristische Morde und Unterstützung ausländischer Intervention vor. Achtzehn Angeklagte wurden zum Tode verurteilt,
-    drei erhielten langjährige Haftstrafen. Spätere Rehabilitationsverfahren entlasteten die meisten Angeklagten schrittweise.
-    Am 4. Februar 1988 hob das Plenum des Obersten Gerichts der UdSSR die Urteile gegen Bucharin, Rykow und weitere noch nicht
-    rehabilitierte Hauptangeklagte auf und stellte die Verfahren mangels Straftatbestands ein.
-  consequences:
-  - Hinrichtung von 18 Angeklagten nach einem politisch konstruierten öffentlichen Verfahren
-  - Langjährige Haftstrafen für die übrigen drei Angeklagten
-  - Staatliche Propaganda über ehemalige Spitzenfunktionäre als Netz ausländischer Spione, Terroristen und Saboteure
-  - Nutzung von Geständnissen und Justiztheater zur Legitimation des Großen Terrors
-  - Jahrzehntelange amtliche Behandlung der Urteile als Beleg für Verrat
-  - Posthume Rehabilitierung von 20 der 21 Angeklagten
-  summary: Der dritte Moskauer Prozess verwandelte eine angeblich vom Ausland gesteuerte Verschwörung in ein autoritäres Gerichtsurteil
-    und Propagandaereignis. Achtzehn Angeklagte wurden zum Tode verurteilt. Die spätere sowjetische Justizprüfung erklärte
-    zentrale Vorwürfe gegen die rehabilitierten Angeklagten für unbelegt. Bis 1988 waren 20 der 21 Angeklagten rehabilitiert;
-    Jagoda blieb die Ausnahme.
+  - id: soviet-union-1938-1988
+    polity: Sowjetunion
+    institutions:
+      - Kommunistische Allunionspartei (Bolschewiki)
+      - Volkskommissariat für Innere Angelegenheiten
+      - Staatsanwaltschaft der UdSSR
+      - Militärkollegium des Obersten Gerichts der UdSSR
+    institutionalContext: >-
+      Im März 1938 inszenierte der Sowjetstaat einen öffentlichen Prozess gegen 21 Angeklagte um den angeblichen
+      „antisowjetischen rechts-trotzkistischen Block“. Staatsanwalt Andrei Wyschinski warf der Gruppe Spionage,
+      Schädlingstätigkeit, Sabotage, terroristische Morde und Unterstützung ausländischer Intervention vor. Achtzehn
+      Angeklagte wurden zum Tode verurteilt, drei erhielten langjährige Haftstrafen. Am 4. Februar 1988 hob das Plenum
+      des Obersten Gerichts der UdSSR die Urteile gegen Bucharin, Rykow und weitere noch nicht rehabilitierte
+      Hauptangeklagte auf und stellte die Verfahren mangels Straftatbestands ein.
+    consequences:
+      - Hinrichtung von 18 Angeklagten nach einem politisch konstruierten öffentlichen Verfahren
+      - Langjährige Haftstrafen für die übrigen drei Angeklagten
+      - Staatliche Propaganda über ehemalige Spitzenfunktionäre als Netz ausländischer Spione, Terroristen und Saboteure
+      - Nutzung von Geständnissen und Justiztheater zur Legitimation des Großen Terrors
+      - Jahrzehntelange amtliche Behandlung der Urteile als Beleg für Verrat
+      - Posthume Rehabilitierung von 20 der 21 Angeklagten
+    summary: >-
+      Der dritte Moskauer Prozess verwandelte eine angeblich vom Ausland gesteuerte Verschwörung in ein autoritatives
+      Gerichtsurteil und Propagandaereignis. Die spätere sowjetische Justizprüfung erklärte zentrale Vorwürfe gegen die
+      rehabilitierten Angeklagten für unbelegt. Bis 1988 waren 20 der 21 Angeklagten rehabilitiert; Jagoda blieb die Ausnahme.
+    mechanism:
+      summary: >-
+        Partei, Staatssicherheit, Staatsanwaltschaft und Justiz verwandelten eine politisch konstruierte Verschwörung in
+        ein öffentliches Strafurteil, Hinrichtungen und Propaganda zur Legitimation weiterer Repression.
+    institutionalCorrection:
+      periodLabel: 4. Februar 1988
+      action: Das Plenum des Obersten Gerichts der UdSSR hob die verbleibenden Haupturteile auf und stellte die Verfahren mangels Straftatbestands ein.
+      summary: >-
+        Die sowjetische Justiz kehrte die verbliebenen Kernurteile förmlich um und verwarf die Tatsachengrundlage der
+        angeblichen Verschwörung für die rehabilitierten Angeklagten.
+evidence:
+  - id: right-trotskyist-report-proposition
+    note: >-
+      Der sowjetische Gerichtsbericht zu den Verfahren vom März 1938 identifiziert die 21 Angeklagten und den Strafprozess
+      um den angeblichen „antisowjetischen rechts-trotzkistischen Block“.
+  - id: right-trotskyist-resolution-correction
+    note: >-
+      Die Überprüfung von 1988 erklärt Verbindungen zu ausländischen Geheimdiensten, angebliche kriminelle Gruppen und
+      zentrale Sabotagevorwürfe für unbelegt und hebt die verbleibenden Urteile mangels Straftatbestands auf.
+  - id: right-trotskyist-docs-impact
+    note: >-
+      Die Dokumentensammlung enthält Anklage, vollständige Prozessmitschrift, Urteil, Gnadengesuche und NKWD-Berichte zur öffentlichen Reaktion.
+  - id: right-trotskyist-docs-carrier
+  - id: right-trotskyist-docs-mechanism
+    note: >-
+      Die Archivedition dokumentiert den staatlich gesteuerten Prozess samt Anklage, Verhandlung, Urteil und Propagandaumfeld einschließlich Stalins Korrekturen.
+  - id: right-trotskyist-docs-consequences
+  - id: right-trotskyist-resolution-institutional-correction
+  - id: right-trotskyist-bukharin-context
+    note: >-
+      Die aktuelle russische Fachreferenz verzeichnet Bucharins Verurteilung 1938 und seine Rehabilitierung durch das Plenum am 4. Februar 1988.

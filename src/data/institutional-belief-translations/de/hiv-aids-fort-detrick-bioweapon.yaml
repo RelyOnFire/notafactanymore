@@ -1,92 +1,119 @@
+schemaVersion: 2
 locale: de
 entryId: hiv-aids-fort-detrick-bioweapon
 sourceReviewedAt: '2026-08-25'
 title: HIV/AIDS als US-Biowaffe aus Fort Detrick
-claim: >-
-  Sowjetische und ostdeutsche Staatssicherheitsorgane verbreiteten die Behauptung, HIV/AIDS sei aus militärischen
-  US-Biowaffenexperimenten in Fort Detrick hervorgegangen, und ließen einen künstlichen amerikanischen Ursprung durch
-  koordinierte internationale aktive Maßnahmen als Tatsache erscheinen.
-currentUnderstanding: >-
-  HIV-1 der Gruppe M, die Hauptursache der weltweiten AIDS-Pandemie, entstand durch einen natürlichen Artensprung eines
-  Affen-Immundefizienzvirus von Schimpansen auf Menschen in Zentralafrika und diversifizierte sich bereits zu Beginn des
-  20. Jahrhunderts in der menschlichen Bevölkerung. Virengenetische Befunde und Proben aus Kinshasa aus der Zeit lange
-  vor der erkannten AIDS-Epidemie sind mit der Behauptung unvereinbar, HIV sei in Fort Detrick konstruiert worden.
+proposition:
+  summary: >-
+    Sowjetische und ostdeutsche Staatssicherheitsorgane verbreiteten die Behauptung, HIV/AIDS sei aus militärischen
+    US-Biowaffenexperimenten in Fort Detrick hervorgegangen, und ließen einen künstlichen amerikanischen Ursprung durch
+    koordinierte internationale aktive Maßnahmen als Tatsache erscheinen.
+correction:
+  summary: >-
+    HIV-1 der Gruppe M, die Hauptursache der weltweiten AIDS-Pandemie, entstand durch einen natürlichen Artensprung eines
+    Affen-Immundefizienzvirus von Schimpansen auf Menschen in Zentralafrika und diversifizierte sich bereits zu Beginn des
+    20. Jahrhunderts in der menschlichen Bevölkerung. Virengenetische Befunde und Proben aus Kinshasa aus der Zeit lange
+    vor der erkannten AIDS-Epidemie sind mit der Behauptung unvereinbar, HIV sei in Fort Detrick konstruiert worden.
 impact:
   summary: >-
-    Aus der Fort-Detrick-Erzählung wurde eine koordinierte internationale Desinformationskampagne und nicht bloß eine
-    vereinzelte Verschwörungstheorie. Ein Artikel der indischen Zeitung Patriot von 1983 lieferte eine frühe Fort-Detrick-
-    Fassung; spätestens im September 1985 beschrieb eine Mitteilung der I. Hauptverwaltung des KGB ausdrücklich Maßnahmen,
-    die im Ausland den Glauben erzeugen sollten, AIDS sei das Ergebnis geheimer amerikanischer Biowaffenexperimente.
-    Die DDR-Auslandsaufklärung beteiligte sich mit dem OVO „Denver“. Ende 1986 registrierte die US-Diplomatie die
-    Behauptung in mehr als 50 Ländern und Sendungen des Ostblocks in mehr als 20 Sprachen.
+    Aus der Fort-Detrick-Erzählung wurde eine koordinierte internationale Desinformationskampagne. Ein Artikel der
+    indischen Zeitung Patriot von 1983 lieferte eine frühe Fassung; spätestens im September 1985 beschrieb eine Mitteilung
+    der I. Hauptverwaltung des KGB ausdrücklich Maßnahmen, die im Ausland den Glauben erzeugen sollten, AIDS sei das
+    Ergebnis geheimer amerikanischer Biowaffenexperimente. Die DDR-Auslandsaufklärung beteiligte sich mit OVO „Denver“.
+    Ende 1986 registrierte die US-Diplomatie die Behauptung in mehr als 50 Ländern und Sendungen des Ostblocks in mehr als 20 Sprachen.
   highlights:
-  - value: 50+
-    label: Länder, in denen die Fort-Detrick-Behauptung bis Ende 1986 aufgetaucht war
-  - value: 20+
-    label: Sprachen, in denen Ostblocksender AIDS-bezogene Behauptungen verbreiteten
-  - value: '1987'
-    label: Jahr, in dem ein hoher sowjetischer Diplomat die AIDS-Propaganda intern als töricht bezeichnete und Moskau sie zurückfuhr
+    - value: 50+
+      label: Länder, in denen die Fort-Detrick-Behauptung bis Ende 1986 aufgetaucht war
+    - value: 20+
+      label: Sprachen, in denen Ostblocksender AIDS-bezogene Behauptungen verbreiteten
+    - value: '1987'
+      label: Jahr, in dem ein hoher sowjetischer Diplomat die AIDS-Propaganda intern als töricht bezeichnete und Moskau sie zurückfuhr
   context:
-  - >-
-    In späterer Literatur wird die Kampagne häufig „Operation INFEKTION“ genannt. Eine auf Archivakten gestützte Studie
-    des Bundesarchivs kommt jedoch zu dem Ergebnis, dass „Infektion“ nicht der dokumentierte Deckname der AIDS-Kampagne
-    war. Die DDR-Auslandsaufklärung führte ihren Objekt-Vorgang unter dem Namen OVO „Denver“; eine andere gemeinsame
-    Aktion „Infektion“ richtete sich gegen Radio Free Europe und Radio Liberty.
-  - >-
-    Der Patriot-Artikel von 1983 war ein wichtiger Ausgangstext, und die Archivstudie nennt mehrere Hinweise auf eine
-    Inspiration durch den KGB. Der eindeutigste direkte institutionelle Beleg setzt jedoch 1985 mit der KGB-Information
-    Nr. 2955 an die bulgarische Staatssicherheit ein, in der Ziel und gewünschte Beteiligung der Partnerdienste beschrieben werden.
-  - >-
-    Die Aktenlage rechtfertigt nicht die Behauptung, Jakob Segal habe wissentlich als KGB-Agent gehandelt oder der KGB
-    habe sämtliche seiner wissenschaftlichen Argumente heimlich verfasst. Die DDR-Auslandsaufklärung nutzte und förderte
-    die Segal-These; daraus folgt aber keine belastbare Aussage über seine persönliche Absicht.
+    - >-
+      In späterer Literatur wird die Kampagne häufig „Operation INFEKTION“ genannt. Eine Archivstudie des Bundesarchivs
+      kommt jedoch zu dem Ergebnis, dass „Infektion“ nicht der dokumentierte Deckname der AIDS-Kampagne war; die
+      DDR-Auslandsaufklärung führte OVO „Denver“.
+    - >-
+      Der Patriot-Artikel von 1983 war ein wichtiger Ausgangstext; der eindeutigste direkte institutionelle Beleg setzt
+      1985 mit der KGB-Information Nr. 2955 an die bulgarische Staatssicherheit ein.
+    - >-
+      Die Aktenlage rechtfertigt nicht die Behauptung, Jakob Segal habe wissentlich als KGB-Agent gehandelt oder der KGB
+      habe sämtliche seiner wissenschaftlichen Argumente heimlich verfasst.
 episodes:
-- id: soviet-union-1983-1987
-  polity: Sowjetunion
-  institutions:
-  - I. Hauptverwaltung des KGB
-  - sowjetischer Auslandspropaganda- und Medienapparat
-  institutionalContext: >-
-    Der Patriot-Artikel vom 17. Juli 1983 in Indien war die erste nachweisbare Veröffentlichung, die Fort Detrick als
-    angeblichen Ursprungsort von AIDS benannte, und wurde zum Ausgangsmaterial späterer sowjetischer Verstärkung. Direkte
-    Archivbelege sind spätestens am 7. September 1985 eindeutig: Die KGB-Information Nr. 2955 erklärte der bulgarischen
-    Staatssicherheit, die UdSSR führe Maßnahmen durch, um im Ausland die für sie günstige Auffassung zu erzeugen, AIDS
-    sei das Ergebnis unkontrollierter geheimer Experimente amerikanischer Nachrichtendienste und des Pentagons mit neuen
-    biologischen Waffen. Sowjetische Medien und verbündete Dienste verstärkten die These international. Im Juli 1987
-    erklärte der sowjetische Vizeaußenminister Anatoli Adamischin gegenüber einem US-Vertreter, die sowjetische
-    AIDS-Propaganda sei „töricht“ gewesen und entsprechende Beiträge nähmen ab; Archivforschung zeigt, dass Moskau die
-    Kampagne in der zweiten Jahreshälfte deutlich einschränkte.
-  consequences:
-  - Koordinierte internationale Verbreitung einer falschen US-militärischen Herkunft von HIV/AIDS
-  - Einbindung verbündeter Nachrichtendienste und Propagandaapparate zur Verstärkung der Fort-Detrick-Erzählung
-  - Verbreitung der Behauptung in mehr als 50 Ländern und über Ostblocksender in mehr als 20 Sprachen
-  - Beeinträchtigung korrekter Gesundheitsaufklärung durch die Darstellung eines erfundenen Laborursprungs als wissenschaftliche Tatsache
-  - Diplomatische Spannungen und wiederholte Gegenmaßnahmen der US-Regierung gegen die Kampagne
-  summary: >-
-    Sowjetische Institutionen machten aus einer AIDS-Verschwörungstheorie eine organisierte Kampagne aktiver Maßnahmen.
-    Auf die Fort-Detrick-Erzählung von 1983 folgten 1985 ausdrückliche KGB-Anweisungen, international den Glauben an einen
-    US-Biowaffenursprung zu erzeugen und verbündete Dienste einzubinden. Die Kampagne erreichte ein weltweites Publikum,
-    bevor sowjetische Vertreter 1987 davon abrückten. 1992 räumte der russische Auslandsgeheimdienstchef Jewgeni Primakow
-    öffentlich ein, dass der KGB hinter der internationalen Desinformationskampagne gestanden hatte.
-- id: east-germany-1986-1989
-  polity: DDR
-  institutions:
-  - Ministerium für Staatssicherheit
-  - Hauptverwaltung A, Abteilung X
-  institutionalContext: >-
-    Die DDR-Auslandsaufklärung beteiligte sich an der sowjetischen AIDS-Kampagne und eröffnete am 17. Juli 1986 den
-    eigenen Objekt-Vorgang OVO „Denver“. Die HV A/X übergab der bulgarischen Staatssicherheit Material, das AIDS als aus
-    den USA stammend und als Produkt amerikanischer Biowaffenforschung darstellte; Funktionäre beschrieben die
-    Segal-Studie als Material, das bei aktiven Maßnahmen weltweit eingesetzt werde. Die Archivstudie zeigt, dass die
-    HV A/X ihre AIDS-bezogenen Aktivitäten auch dann fortsetzte, als der KGB bereits zur Zurückhaltung riet, unter anderem
-    durch internationale Verbreitungsbemühungen und spätere Arbeit rund um den Film „AIDS – die Afrikalegende“ von 1989.
-  consequences:
-  - Einrichtung des OVO „Denver“ als aktive Maßnahme der DDR-Auslandsaufklärung
-  - Weitergabe von Material an Partnerdienste, das AIDS als Produkt amerikanischer Biowaffenforschung darstellte
-  - Internationale Nutzung der Segal-These als scheinbar wissenschaftliche Stütze der Fort-Detrick-Erzählung
-  - Fortsetzung AIDS-bezogener aktiver Maßnahmen, nachdem der sowjetische KGB bereits von der Kampagne abrückte
-  summary: >-
-    Das Ministerium für Staatssicherheit wiederholte nicht nur sowjetische Medienbehauptungen. Seine Auslandsaufklärung
-    führte mit OVO „Denver“ eine eigene aktive Maßnahme, tauschte Material mit Partnerdiensten aus und setzte die
-    Segal-These zur Verstärkung antiamerikanischer Einstellungen ein. Die dokumentierte DDR-Kampagne lief weiter, nachdem
-    Moskau seine eigene AIDS-Desinformation bereits zurückfuhr, und reichte bis in das letzte volle Jahr des DDR-Regimes.
+  - id: soviet-union-1983-1987
+    polity: Sowjetunion
+    institutions:
+      - I. Hauptverwaltung des KGB
+      - sowjetischer Auslandspropaganda- und Medienapparat
+    institutionalContext: >-
+      Der Patriot-Artikel vom 17. Juli 1983 wurde zum Ausgangsmaterial späterer sowjetischer Verstärkung. Spätestens am
+      7. September 1985 ist die institutionelle Absicht direkt belegt: Die KGB-Information Nr. 2955 erklärte der
+      bulgarischen Staatssicherheit, die UdSSR führe Maßnahmen durch, um im Ausland die Auffassung zu erzeugen, AIDS sei
+      das Ergebnis geheimer Experimente amerikanischer Nachrichtendienste und des Pentagons mit neuen biologischen Waffen.
+      Im Juli 1987 erklärte der sowjetische Vizeaußenminister Anatoli Adamischin gegenüber einem US-Vertreter, die
+      sowjetische AIDS-Propaganda sei „töricht“ gewesen und entsprechende Beiträge nähmen ab.
+    consequences:
+      - Koordinierte internationale Verbreitung einer falschen US-militärischen Herkunft von HIV/AIDS
+      - Einbindung verbündeter Nachrichtendienste und Propagandaapparate zur Verstärkung der Fort-Detrick-Erzählung
+      - Verbreitung der Behauptung in mehr als 50 Ländern und über Ostblocksender in mehr als 20 Sprachen
+      - Beeinträchtigung korrekter Gesundheitsaufklärung durch die Darstellung eines erfundenen Laborursprungs als wissenschaftliche Tatsache
+      - Diplomatische Spannungen und wiederholte Gegenmaßnahmen der US-Regierung gegen die Kampagne
+    summary: >-
+      Sowjetische Institutionen machten aus einer AIDS-Verschwörungstheorie eine organisierte Kampagne aktiver Maßnahmen.
+      1987 begann Moskau davon abzurücken; 1992 räumte der russische Auslandsgeheimdienstchef Jewgeni Primakow öffentlich
+      ein, dass der KGB hinter der internationalen Desinformationskampagne gestanden hatte.
+    mechanism:
+      summary: >-
+        Der KGB koordinierte aktive Maßnahmen mit Partnerdiensten, während sowjetische Medien- und Propagandakanäle einen
+        fabrizierten Ursprung in Fort Detrick als scheinbar wissenschaftliche Tatsache verbreiteten.
+    institutionalCorrection:
+      periodLabel: '1987'
+      action: Sowjetische Stellen fuhren die Kampagne zurück; ein Vizeaußenminister bezeichnete die AIDS-Propaganda intern als töricht.
+      summary: >-
+        Moskau verringerte die Kampagne deutlich und ein hoher sowjetischer Diplomat räumte ihren Propagandacharakter ein.
+        Eine förmliche öffentliche sowjetische Rücknahme vor dem Ende der UdSSR ist jedoch nicht belegt; 1992 bestätigte
+        Russlands Auslandsgeheimdienstchef öffentlich die Verantwortung des KGB.
+  - id: east-germany-1986-1989
+    polity: DDR
+    institutions:
+      - Ministerium für Staatssicherheit
+      - Hauptverwaltung A, Abteilung X
+    institutionalContext: >-
+      Die DDR-Auslandsaufklärung eröffnete am 17. Juli 1986 den Objekt-Vorgang OVO „Denver“, gab Partnerdiensten Material
+      weiter, das AIDS als Produkt amerikanischer Biowaffenforschung darstellte, und nutzte die Segal-These in aktiven
+      Maßnahmen. Die HV A/X setzte AIDS-bezogene Aktivitäten fort, nachdem der KGB bereits zur Zurückhaltung riet.
+    consequences:
+      - Einrichtung des OVO „Denver“ als aktive Maßnahme der DDR-Auslandsaufklärung
+      - Weitergabe von Material an Partnerdienste, das AIDS als Produkt amerikanischer Biowaffenforschung darstellte
+      - Internationale Nutzung der Segal-These als scheinbar wissenschaftliche Stütze der Fort-Detrick-Erzählung
+      - Fortsetzung AIDS-bezogener aktiver Maßnahmen, nachdem der sowjetische KGB bereits von der Kampagne abrückte
+    summary: >-
+      Das Ministerium für Staatssicherheit führte mit OVO „Denver“ eine eigene aktive Maßnahme, tauschte Material mit
+      Partnerdiensten aus und setzte die Segal-These zur Verstärkung antiamerikanischer Einstellungen ein. Die Kampagne
+      reichte bis in das letzte volle Jahr des DDR-Regimes.
+    mechanism:
+      summary: >-
+        Die DDR-Auslandsaufklärung organisierte OVO „Denver“, verbreitete Material über Partnerdienste und förderte die Fort-Detrick-Erzählung international.
+    institutionalCorrection:
+      summary: >-
+        Die dokumentierte DDR-Operation endete mit dem Zusammenbruch des Regimes. Ein datierter Akt des Ministeriums für
+        Staatssicherheit, der die Fort-Detrick-Erzählung zurücknahm oder verwarf, ist nicht belegt.
+evidence:
+  - id: aids-bundesarchiv-proposition
+    note: >-
+      Die Archivstudie reproduziert die KGB-Information Nr. 2955 und dokumentiert die koordinierte sowjetische und ostdeutsche Kampagne.
+  - id: aids-origin-correction
+    note: >-
+      Die wissenschaftliche Übersicht führt HIV-1 Gruppe M auf eine Schimpansen-SIV-Linie in Zentralafrika zurück und datiert die frühe menschliche Diversifizierung in das frühe 20. Jahrhundert.
+  - id: aids-state-impact
+    note: >-
+      Die zeitgenössische Analyse berichtet von mehr als 50 Ländern und mehr als 20 Sendesprachen des Ostblocks.
+  - id: aids-soviet-carrier
+  - id: aids-soviet-mechanism
+  - id: aids-soviet-consequences
+  - id: aids-soviet-partial-correction
+    note: >-
+      Das zeitgenössische Telegramm hält Adamischins Aussage fest, die sowjetische AIDS-Propaganda sei töricht gewesen und entsprechende Beiträge nähmen ab.
+  - id: aids-east-germany-carrier
+  - id: aids-east-germany-mechanism
+  - id: aids-east-germany-consequences

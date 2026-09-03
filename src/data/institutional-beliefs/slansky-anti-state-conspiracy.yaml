@@ -1,95 +1,134 @@
+schemaVersion: 2
 title: Slánský group as an anti-state conspiracy
-claim: >-
-  Czechoslovak communist, state-security and judicial institutions asserted that Rudolf Slánský led an anti-state
-  conspiratorial center engaged in espionage, sabotage and treason on behalf of Western intelligence and related
-  ideological enemies, using coerced confessions and a staged public trial to present the constructed conspiracy as fact.
-currentUnderstanding: >-
-  Czech state historical institutions now describe the Slánský case as a constructed political trial. Defendants were
-  subjected to physical pressure, prolonged interrogation and scripted confessions; the indictment linked them to
-  Western intelligence and a purported anti-state center. Fourteen people were tried in November 1952, 11 were sentenced
-  to death and three to life imprisonment. The convicted defendants received judicial and party rehabilitation in 1963.
+proposition:
+  summary: >-
+    Czechoslovak communist, state-security and judicial institutions asserted that Rudolf Slánský led an anti-state
+    conspiratorial center engaged in espionage, sabotage and treason on behalf of Western intelligence and related
+    ideological enemies, using coerced confessions and a staged public trial to present the constructed conspiracy as fact.
+correction:
+  summary: >-
+    Czech state historical institutions now describe the Slánský case as a constructed political trial. Defendants were
+    subjected to physical pressure, prolonged interrogation and scripted confessions; the indictment linked them to
+    Western intelligence and a purported anti-state center. Fourteen people were tried in November 1952, 11 were sentenced
+    to death and three to life imprisonment. The convicted defendants received judicial and party rehabilitation in 1963.
 category: Political repression, show trials and state security
 reviewedAt: '2026-08-25'
 impact:
   summary: >-
     The Slánský trial was built as a national propaganda event and a warning to elites across the communist bloc. The
     prosecution constructed an “anti-state conspiratorial center” around senior party and government officials and
-    compelled defendants to memorize confessions written for them. The trial was intensively publicized; more than 8,500
-    petitions supported the verdicts and most called for death sentences for every defendant. Eleven of the 14 defendants
-    were executed on 3 December 1952 and the other three received life sentences. In 1963 the defendants were secretly
-    rehabilitated by party and judicial institutions.
+    compelled defendants to memorize confessions written for them. More than 8,500 petitions supported the verdicts and
+    most called for death sentences for every defendant. Eleven of the 14 defendants were executed on 3 December 1952
+    and the other three received life sentences. In 1963 the defendants were secretly rehabilitated by party and judicial institutions.
   highlights:
-  - value: '14'
-    label: defendants in the November 1952 Slánský trial
-  - value: '11'
-    label: defendants sentenced to death and executed
-  - value: '3'
-    label: defendants sentenced to life imprisonment
+    - value: '14'
+      label: defendants in the November 1952 Slánský trial
+    - value: '11'
+      label: defendants sentenced to death and executed
+    - value: '3'
+      label: defendants sentenced to life imprisonment
   context:
-  - >-
-    Eleven of the 14 defendants were identified in the campaign as being of Jewish origin, and the trial had a pronounced
-    antisemitic and anti-Zionist dimension. Three defendants were not identified that way.
-  - >-
-    The arrests began before the November 1952 trial. Slánský himself was arrested in November 1951, while some later
-    co-defendants had already been detained earlier. By then the fabricated conspiracy had been consolidated around
-    Slánský as its alleged leader.
-  - >-
-    Rehabilitation in 1963 was judicial and party rehabilitation but was carried out secretly. Open public reassessment
-    became possible only much later, particularly after the end of communist rule.
+    - >-
+      Eleven of the 14 defendants were identified in the campaign as being of Jewish origin, and the trial had a
+      pronounced antisemitic and anti-Zionist dimension. Three defendants were not identified that way.
+    - >-
+      The arrests began before the November 1952 trial. Slánský himself was arrested in November 1951, while some later
+      co-defendants had already been detained earlier.
+    - >-
+      Rehabilitation in 1963 was judicial and party rehabilitation but was carried out secretly. Open public
+      reassessment became possible only much later.
 episodes:
-- id: czechoslovakia-1951-1963
-  polity: Czechoslovakia
-  region: Europe
-  startYear: 1951
-  endYear: 1963
-  strength: officially-endorsed
-  institutionTypes:
-  - government
-  - court
-  institutions:
-  - Communist Party of Czechoslovakia
-  - State Security
-  - Czechoslovak state prosecution and court apparatus
-  institutionalContext: >-
-    Under pressure from the Stalinist purge model, the Czechoslovak leadership approved Slánský's arrest in November
-    1951 and investigators assembled a diverse group of senior officials into a supposed anti-state conspiratorial
-    center. Soviet advisers and Czechoslovak State Security used physical coercion and prolonged interrogation, while
-    defendants were required to memorize investigator-written testimony for the public trial held from 20 to
-    27 November 1952. The prosecution alleged espionage, sabotage, Titoism and conspiracy against the republic and linked
-    the defendants to Western intelligence. State media amplified the case as proof of a hidden enemy network. Eleven
-    defendants were executed on 3 December. Subsequent de-Stalinization reviews eventually led to secret party and
-    judicial rehabilitation in 1963.
-  consequences:
-  - Execution of 11 senior officials after a constructed political prosecution
-  - Life imprisonment of the remaining three principal defendants
-  - Institutional use of torture, coercive interrogation and scripted confessions to manufacture evidentiary certainty
-  - Large-scale propaganda presenting the supposed conspiratorial center as an internal existential threat
-  - Reinforcement of antisemitic and anti-Zionist political narratives through the composition and language of the trial
-  - A warning effect across the communist political elite against deviation from the Stalinist line
-  summary: >-
-    The Slánský case converted a manufactured conspiracy into a carefully rehearsed public judicial event. Senior
-    officials were grouped into an alleged anti-state center, coerced into scripted confessions and prosecuted before a
-    public audience while state propaganda mobilized support for the sentences. Eleven of 14 defendants were executed
-    and three received life imprisonment. The state's own later rehabilitation process reversed the legal and party
-    judgment in 1963, confirming the collapse of the conspiracy narrative that had justified the trial.
-  sources:
-  - title: Obrana lidu, 20 November 1952 — indictment in the Slánský trial
+  - id: czechoslovakia-1951-1963
+    polity: Czechoslovakia
+    region: Europe
+    startYear: 1951
+    endYear: 1963
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+      - court
+    institutions:
+      - Communist Party of Czechoslovakia
+      - State Security
+      - Czechoslovak state prosecution and court apparatus
+    institutionalContext: >-
+      Under pressure from the Stalinist purge model, the Czechoslovak leadership approved Slánský's arrest in November
+      1951 and investigators assembled a diverse group of senior officials into a supposed anti-state conspiratorial
+      center. Soviet advisers and Czechoslovak State Security used physical coercion and prolonged interrogation, while
+      defendants were required to memorize investigator-written testimony for the public trial held from 20 to 27
+      November 1952. The prosecution alleged espionage, sabotage, Titoism and conspiracy against the republic and linked
+      defendants to Western intelligence. Eleven were executed on 3 December. Subsequent de-Stalinization reviews led
+      to secret party and judicial rehabilitation in 1963.
+    consequences:
+      - Execution of 11 senior officials after a constructed political prosecution
+      - Life imprisonment of the remaining three principal defendants
+      - Institutional use of torture, coercive interrogation and scripted confessions to manufacture evidentiary certainty
+      - Large-scale propaganda presenting the supposed conspiratorial center as an internal existential threat
+      - Reinforcement of antisemitic and anti-Zionist political narratives through the composition and language of the trial
+      - A warning effect across the communist political elite against deviation from the Stalinist line
+    summary: >-
+      Senior officials were grouped into an alleged anti-state center, coerced into scripted confessions and prosecuted
+      before a public audience while state propaganda mobilized support for the sentences. Eleven of 14 defendants were
+      executed and three received life imprisonment. The state's own later rehabilitation process reversed the legal
+      and party judgment in 1963.
+    mechanism:
+      kind: enforcement
+      summary: >-
+        Party, state-security, prosecution and court institutions constructed the alleged anti-state center through
+        coercive interrogation, scripted confessions and a staged public trial amplified by state propaganda.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: '1963'
+      action: Czechoslovak party and judicial institutions rehabilitated the defendants and reversed the political convictions.
+      summary: >-
+        The same party-state system formally rehabilitated the convicted defendants, undoing the legal and party judgment
+        that had treated the constructed conspiracy as fact.
+sources:
+  - id: slansky-vhu-indictment
+    title: Obrana lidu, 20 November 1952 — indictment in the Slánský trial
     url: https://www.vhu.cz/exhibit/obrana-lidu-z-20-11-1952-zaloba-ke-slanskeho-procesu/
     publisher: Military History Institute Prague
-    note: >-
-      Czech state military-historical account describing brutal torture used to force confessions, the espionage,
-      sabotage and conspiracy allegations, the heavy propaganda surrounding the trial, the 11 death sentences and three
-      life sentences, and judicial rehabilitation in 1963.
-  - title: The rise and fall of Bedřich Reicin
+  - id: slansky-vhu-reicin
+    title: The rise and fall of Bedřich Reicin
     url: https://www.vhu.cz/en/vzestup-a-pad-bedricha-reicina/
     publisher: Military History Institute Prague
-    note: >-
-      Detailed institutional history of the arrests and construction of the Slánský group, including Soviet-adviser and
-      State Security involvement, investigator-written testimony, the 14 defendants, more than 8,500 supportive
-      petitions, the executions and secret party and judicial rehabilitation in 1963.
-  - title: Rehabilitation Files Collection
+  - id: slansky-abs-rehab
+    title: Rehabilitation Files Collection
     url: https://www.abscr.cz/pruvodce-po-fondech-sbirkach/pruvodce-po-fondech-a-sbirkach-k/sbirka-rehabilitacni-spisy/
     publisher: Security Services Archive of the Czech Republic
+evidence:
+  - id: slansky-vhu-proposition
+    sourceId: slansky-vhu-indictment
+    relation: documents
+    target: {scope: belief, aspect: proposition}
     note: >-
-      Official archival guide to rehabilitation records created by reviews of communist political trials and Supreme
-      Court proceedings, providing institutional context for the later reversal of unlawful political convictions.
+      Czech state military-historical account documents the espionage, sabotage and conspiracy allegations, coercive
+      treatment and the staged character of the trial.
+  - id: slansky-vhu-correction
+    sourceId: slansky-vhu-reicin
+    relation: supports
+    target: {scope: belief, aspect: correction}
+  - id: slansky-vhu-impact
+    sourceId: slansky-vhu-reicin
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Institutional history records the 14 defendants, more than 8,500 supportive petitions, executions and secret rehabilitation in 1963.
+  - id: slansky-vhu-carrier
+    sourceId: slansky-vhu-reicin
+    relation: documents
+    target: {scope: episode, episodeId: czechoslovakia-1951-1963, aspect: carrier}
+  - id: slansky-vhu-mechanism
+    sourceId: slansky-vhu-reicin
+    relation: documents
+    target: {scope: episode, episodeId: czechoslovakia-1951-1963, aspect: mechanism}
+  - id: slansky-vhu-consequences
+    sourceId: slansky-vhu-indictment
+    relation: supports
+    target: {scope: episode, episodeId: czechoslovakia-1951-1963, aspect: consequences}
+  - id: slansky-abs-correction
+    sourceId: slansky-abs-rehab
+    relation: documents
+    target: {scope: episode, episodeId: czechoslovakia-1951-1963, aspect: institutional-correction}
+    note: >-
+      Official archival guide documents rehabilitation records created by reviews of communist political trials and Supreme Court proceedings.

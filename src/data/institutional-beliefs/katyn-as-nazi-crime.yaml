@@ -1,161 +1,213 @@
+schemaVersion: 2
 title: Katyn massacre as a Nazi crime
-claim: >-
-  The Soviet state officially maintained that Nazi Germany, rather than the Soviet NKVD, had murdered the Polish
-  prisoners whose mass graves were discovered at Katyn, and that attribution was imposed as the authorized account
-  in communist Poland.
-currentUnderstanding: >-
-  The killings were carried out by the Soviet NKVD in spring 1940 under a Politburo decision approved by Stalin
-  and other senior Soviet leaders. The broader Katyn execution operation killed 21,857 Polish prisoners and detainees
-  according to a 1959 KGB memorandum; 4,421 of those victims were recorded as killed in Katyn Forest itself.
-  Nazi Germany exploited the discovery of the graves for propaganda in 1943, but that propaganda motive did not
-  make the Soviet counterclaim true. The USSR formally acknowledged NKVD responsibility on 13 April 1990.
+proposition:
+  summary: >-
+    The Soviet state officially maintained that Nazi Germany, rather than the Soviet NKVD, had murdered the Polish
+    prisoners whose mass graves were discovered at Katyn, and that attribution was imposed as the authorized account
+    in communist Poland.
+correction:
+  summary: >-
+    The killings were carried out by the Soviet NKVD in spring 1940 under a Politburo decision approved by Stalin and
+    other senior Soviet leaders. The broader Katyn execution operation killed 21,857 Polish prisoners and detainees
+    according to a 1959 KGB memorandum; 4,421 of those victims were recorded as killed in Katyn Forest itself. Nazi
+    Germany exploited the discovery of the graves for propaganda in 1943, but that did not make the Soviet counterclaim
+    true. The USSR formally acknowledged NKVD responsibility on 13 April 1990.
 category: History, war crimes and state propaganda
 reviewedAt: '2026-08-25'
 impact:
   summary: >-
     Katyn became a long-running state falsification rather than a transient wartime mistake. After Germany announced
-    the graves in 1943, the Soviet government blamed the killings on German forces, created a commission whose
-    mandate already presupposed German responsibility, and later attempted to place that accusation before the
-    Nuremberg tribunal. A 1959 KGB memorandum recommended destroying the personal records of all 21,857 people shot
-    in the operation. In communist Poland, the Soviet version became an enforced public narrative backed by censorship
-    and repression. The USSR did not acknowledge NKVD responsibility until 1990.
+    the graves in 1943, the Soviet government blamed German forces, created a commission whose mandate already
+    presupposed German responsibility, and later attempted to place that accusation before the Nuremberg tribunal. A
+    1959 KGB memorandum recommended destroying the personal records of all 21,857 people shot in the operation. In
+    communist Poland, the Soviet version became an enforced public narrative backed by censorship and repression.
   highlights:
-  - value: '21,857'
-    label: victims recorded in the 1959 KGB memorandum for the broader 1940 Katyn execution operation
-  - value: '4,421'
-    label: victims recorded as killed in Katyn Forest itself
-  - value: 47 years
-    label: from the Soviet public attribution to Germany in 1943 to the official Soviet admission in 1990
-  - value: '1959'
-    label: KGB chairman Alexander Shelepin recommended destruction of the victims' personal case files
+    - value: '21,857'
+      label: victims recorded in the 1959 KGB memorandum for the broader 1940 Katyn execution operation
+    - value: '4,421'
+      label: victims recorded as killed in Katyn Forest itself
+    - value: 47 years
+      label: from the Soviet public attribution to Germany in 1943 to the official Soviet admission in 1990
+    - value: '1959'
+      label: KGB chairman Alexander Shelepin recommended destruction of the victims' personal case files
   context:
-  - >-
-    “Katyn massacre” is often used for the wider NKVD operation involving killings at Katyn, Kharkiv, Tver/Mednoye
-    and other locations. It does not mean that roughly 22,000 bodies were found in Katyn Forest. Contemporary and
-    archival figures place about 4,400 Kozelsk prisoners at the Katyn Forest killing site.
-  - >-
-    German authorities publicized the graves for strategic propaganda purposes and organized an international
-    forensic commission. The commission's conclusion that the deaths occurred in 1940 is consistent with the later
-    Soviet archival record; a propagandistic use of evidence does not by itself make the evidence false.
-  - >-
-    The false attribution was institutionally maintained regardless of whether senior officials sincerely believed
-    it. The institutional mechanism was the official adoption, propagation and enforcement of the claim.
+    - >-
+      “Katyn massacre” is often used for the wider NKVD operation involving killings at Katyn, Kharkiv, Tver/Mednoye
+      and other locations. It does not mean that roughly 22,000 bodies were found in Katyn Forest.
+    - >-
+      German authorities publicized the graves for strategic propaganda purposes. Their propaganda motive did not
+      itself make the forensic evidence false.
+    - >-
+      The false attribution was institutionally maintained regardless of whether individual officials sincerely
+      believed it; the relevant mechanism was official adoption, propagation and enforcement.
 episodes:
-- id: soviet-union-1943-1990
-  polity: Soviet Union
-  region: Eurasia
-  startYear: 1943
-  endYear: 1990
-  periodLabel: 1943–1990
-  strength: officially-endorsed
-  institutionTypes:
-  - government
-  institutions:
-  - Soviet Information Bureau
-  - Council of People's Commissars of the USSR
-  - Special Commission under Nikolai Burdenko
-  - Communist Party of the Soviet Union
-  institutionalContext: >-
-    On 15 April 1943 the Soviet Information Bureau answered the German announcement of the Katyn graves by blaming
-    German forces. After the Red Army retook the Smolensk region, Soviet authorities created the Burdenko Commission,
-    formally titled as an investigation of Polish prisoners allegedly shot by “German-fascist invaders”; its January
-    1944 report placed the killings in autumn 1941. Soviet prosecutors then relied on that account at Nuremberg.
-    The archival record remained secret. In 1959 KGB chairman Alexander Shelepin told Nikita Khrushchev that 21,857
-    people had been shot in the 1940 operation and recommended destroying their individual records. Only on
-    13 April 1990 did the official Soviet news agency TASS acknowledge direct NKVD responsibility.
-  consequences:
-  - Official Soviet attribution of the NKVD killings to Nazi Germany
-  - Creation of a state investigative commission whose mandate and report asserted German responsibility
-  - Attempted use of the false attribution in the prosecution case at the Nuremberg tribunal
-  - Long-term concealment of the Politburo and NKVD documentary record
-  - A 1959 recommendation by the KGB chairman to destroy the personal records of 21,857 executed people
-  summary: >-
-    The Soviet government publicly blamed Germany for Katyn in April 1943 and constructed an official evidentiary
-    framework around that attribution after retaking the area. The Burdenko Commission reported that German forces
-    had murdered the prisoners in 1941, and Soviet prosecutors later introduced that version at Nuremberg.
-    Yet Soviet leaders retained secret records showing that the Politburo had approved the shootings in March 1940;
-    a 1959 KGB memorandum even recorded 21,857 executions while recommending destruction of the victims' case files.
-    The Soviet government formally acknowledged NKVD responsibility only on 13 April 1990.
-  sources:
-  - title: Decision of 5 March 1940 on the Katyn executions
+  - id: soviet-union-1943-1990
+    polity: Soviet Union
+    region: Eurasia
+    startYear: 1943
+    endYear: 1990
+    periodLabel: 1943–1990
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+    institutions:
+      - Soviet Information Bureau
+      - Council of People's Commissars of the USSR
+      - Special Commission under Nikolai Burdenko
+      - Communist Party of the Soviet Union
+    institutionalContext: >-
+      On 15 April 1943 the Soviet Information Bureau blamed German forces for the Katyn graves. After the Red Army
+      retook the Smolensk region, Soviet authorities created the Burdenko Commission, whose mandate already described
+      Polish prisoners as shot by “German-fascist invaders”; its January 1944 report placed the killings in autumn 1941.
+      Soviet prosecutors later relied on that account at Nuremberg. In 1959 KGB chairman Alexander Shelepin told Nikita
+      Khrushchev that 21,857 people had been shot in the 1940 operation and recommended destroying their individual
+      records. On 13 April 1990 TASS acknowledged direct NKVD responsibility.
+    consequences:
+      - Official Soviet attribution of the NKVD killings to Nazi Germany
+      - Creation of a state investigative commission whose mandate and report asserted German responsibility
+      - Attempted use of the false attribution in the prosecution case at the Nuremberg tribunal
+      - Long-term concealment of the Politburo and NKVD documentary record
+      - A 1959 recommendation by the KGB chairman to destroy the personal records of 21,857 executed people
+    summary: >-
+      The Soviet government publicly blamed Germany for Katyn in 1943 and constructed an official evidentiary framework
+      around that attribution. Secret Soviet records simultaneously preserved the Politburo decision and the execution
+      count. The Soviet government formally acknowledged NKVD responsibility only on 13 April 1990.
+    mechanism:
+      kind: publication
+      summary: >-
+        Soviet information, investigative and prosecutorial institutions published and defended a German-guilt account
+        while the underlying Politburo and NKVD records remained secret.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 13 April 1990
+      action: TASS formally acknowledged direct NKVD responsibility for the Katyn killings.
+      summary: >-
+        The Soviet state publicly reversed its decades-long attribution to Germany and identified Beria, Merkulov and
+        their NKVD subordinates as responsible.
+  - id: polish-peoples-republic-1944-1989
+    polity: Polish People's Republic
+    region: Europe
+    startYear: 1944
+    endYear: 1989
+    periodLabel: 1944–1989
+    strength: enforced-doctrine
+    institutionTypes:
+      - government
+      - education
+    institutions:
+      - Polish Workers' Party / Polish United Workers' Party
+      - state censorship apparatus of the Polish People's Republic
+    institutionalContext: >-
+      Soviet-backed Polish communist institutions adopted the German-guilt account. Later authorities often preferred
+      silence, but censorship rules continued to prohibit attributing the officers' deaths to the USSR. State
+      historiography, publishing and broadcasting operated within that boundary, and people who challenged it could
+      face censorship, harassment or repression. By the second half of 1989, collapsing communist control made open
+      publication of Soviet responsibility possible without the former restrictions.
+    consequences:
+      - Censorship of publications attributing Katyn to the Soviet Union
+      - State-controlled historical and media narratives that suppressed or distorted responsibility
+      - Harassment and repression of writers, journalists, families and activists who challenged the authorized account
+      - Distortion of legal and public records concerning victims' dates and circumstances of death
+    summary: >-
+      In communist Poland the Soviet Katyn account became an enforced boundary on public history. The doctrine lost
+      enforceability during Poland's political transformation in 1989, several months before the USSR formally admitted
+      NKVD responsibility.
+    mechanism:
+      kind: suppression
+      summary: >-
+        Party-state censorship and controlled historiography prohibited public attribution of Katyn to the Soviet Union
+        and suppressed challenges to the authorized account.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        The censorship regime collapsed in 1989 and open publication became possible, but the existing record does not
+        identify a dated Polish People's Republic act formally retracting the earlier German-guilt doctrine.
+sources:
+  - id: katyn-1940-decision
+    title: Decision of 5 March 1940 on the Katyn executions
     url: https://katyn.ipn.gov.pl/kat/bibliografia-i-mediatek/dokumentacja-archiwalna/12378%2CDecyzja-Katynska-z-5-marca-1940-r.html
     publisher: Institute of National Remembrance (Poland)
-    note: >-
-      Archival transcription of Lavrentiy Beria's proposal and the Politburo approval, signed by Stalin and other
-      senior Soviet leaders, ordering execution by shooting under a special procedure.
-  - title: Janowiec and Others v. Russia — decision on admissibility
+  - id: katyn-echr
+    title: Janowiec and Others v. Russia — decision on admissibility
     url: https://hudoc.echr.coe.int/app/conversion/pdf/?filename=001-105727.pdf&id=001-105727&library=ECHR
     publisher: European Court of Human Rights
-    note: >-
-      Judicial summary of the archival record: the 5 March 1940 Politburo decision; the 21,857 total and 4,421 Katyn
-      Forest figure in Shelepin's 1959 memorandum; the Soviet German-guilt claim; the Burdenko report; the Nuremberg
-      allegation; and the recommendation to destroy victims' records.
-  - title: Records Relating to the Katyn Forest Massacre at the National Archives
+  - id: katyn-us-archives
+    title: Records Relating to the Katyn Forest Massacre at the National Archives
     url: https://www.archives.gov/research/foreign-policy/katyn-massacre
     publisher: U.S. National Archives and Records Administration
-    note: >-
-      Official archival overview describing the 1943 German-organized international medical commission, its
-      conclusion that the deaths occurred in 1940, and the later unanimous U.S. congressional finding of NKVD responsibility.
-  - title: The Katyn Massacre timeline — 1943
+  - id: katyn-ipn-1943
+    title: The Katyn Massacre timeline — 1943
     url: https://katyn.ipn.gov.pl/kat/histori/kalendarium-1/3599%2C1943.html
     publisher: Institute of National Remembrance (Poland)
-    note: >-
-      Official historical chronology dating the Soviet Information Bureau response blaming the German side to
-      15 April 1943.
-  - title: 1990–2005 — Katyn chronology
+  - id: katyn-ipn-1990
+    title: 1990–2005 — Katyn chronology
     url: https://katyn.ipn.gov.pl/kat/histori/kalendarium-1/3605%2C19902005.html
     publisher: Institute of National Remembrance (Poland)
-    note: >-
-      Records the 13 April 1990 TASS communiqué acknowledging direct responsibility of Beria, Merkulov and their
-      NKVD subordinates and calling Katyn one of the gravest crimes of Stalinism.
-- id: polish-peoples-republic-1944-1989
-  polity: Polish People's Republic
-  region: Europe
-  startYear: 1944
-  endYear: 1989
-  periodLabel: 1944–1989
-  strength: enforced-doctrine
-  institutionTypes:
-  - government
-  - education
-  institutions:
-  - Polish Workers' Party / Polish United Workers' Party
-  - state censorship apparatus of the Polish People's Republic
-  institutionalContext: >-
-    Soviet-backed Polish communist institutions adopted the German-guilt account while the new regime was being
-    established. In the Stalinist period it was propagated directly; later authorities often preferred silence,
-    but censorship rules continued to prohibit attributing the officers' deaths to the USSR. State historiography,
-    publishing and broadcasting operated within that boundary. People who publicly challenged it could face
-    censorship, harassment or other repression. By the second half of 1989, collapsing communist control made open
-    publication of Soviet responsibility possible without the former restrictions.
-  consequences:
-  - Censorship of publications attributing Katyn to the Soviet Union
-  - State-controlled historical and media narratives that suppressed or distorted responsibility
-  - Harassment and repression of writers, journalists, families and activists who challenged the authorized account
-  - Distortion of legal and public records concerning victims' dates and circumstances of death
-  summary: >-
-    In communist Poland the Soviet Katyn account became more than an allied government's claim: it was an enforced
-    boundary on public history. The authorities initially repeated German responsibility directly and later often
-    tried to erase the subject from public discussion, while censorship instructions prohibited assigning blame
-    to the USSR. IPN documentation records repression and harassment of people who publicized Soviet responsibility.
-    The doctrine lost enforceability during Poland's political transformation in 1989, several months before the
-    USSR itself formally admitted NKVD responsibility.
-  sources:
-  - title: The Katyn lie — its rise and duration
+  - id: katyn-ipn-lie
+    title: The Katyn lie — its rise and duration
     url: https://eng.ipn.gov.pl/en/digital-resources/articles/7303%2CThe-Katyn-lie-Its-rise-and-duration.html
     publisher: Institute of National Remembrance (Poland)
-    note: >-
-      Institutional history of the Soviet and Polish state narrative, including censorship, official historiography,
-      the weakening of restrictions in 1989 and the Soviet admission in 1990.
-  - title: The Katyn case in the activity of the opposition in the Polish People's Republic
+  - id: katyn-ipn-opposition
+    title: The Katyn case in the activity of the opposition in the Polish People's Republic
     url: https://ipn.gov.pl/pl/historia-z-ipn/archiwum/126832%2CEdyta-Krezolek-O-prawde-i-pamiec-Sprawa-Katynia-w-dzialalnosci-opozycji-w-PRL.html
     publisher: Institute of National Remembrance (Poland)
-    note: >-
-      Reproduces a censorship instruction forbidding attempts to assign responsibility for the deaths of the Polish
-      officers at Katyn to the USSR and describes opposition efforts to break the enforced silence.
-  - title: In the Polish People's Republic — Black Book of Censorship
+  - id: katyn-ipn-censorship
+    title: In the Polish People's Republic — Black Book of Censorship
     url: https://katyn.ipn.gov.pl/kat/histori/klamstwo/po-wojnie/12132%2CW-PRL-u-Czarna-Ksiega-cenzury.html
     publisher: Institute of National Remembrance (Poland)
+evidence:
+  - id: katyn-echr-proposition
+    sourceId: katyn-echr
+    relation: documents
+    target: {scope: belief, aspect: proposition}
     note: >-
-      Describes censorship, state historiography, harassment of victims' families, journalists and writers, and
-      repression of attempts to publicize Soviet responsibility.
+      Judicial summary covers the Soviet German-guilt claim, Burdenko report, Nuremberg allegation and concealed 1940 records.
+  - id: katyn-decision-correction
+    sourceId: katyn-1940-decision
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Archival transcription records Beria's execution proposal and Politburo approval signed by Stalin and other senior leaders.
+  - id: katyn-echr-impact
+    sourceId: katyn-echr
+    relation: supports
+    target: {scope: belief, aspect: impact}
+  - id: katyn-soviet-carrier
+    sourceId: katyn-ipn-1943
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1943-1990, aspect: carrier}
+  - id: katyn-soviet-mechanism
+    sourceId: katyn-echr
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1943-1990, aspect: mechanism}
+  - id: katyn-soviet-consequences
+    sourceId: katyn-echr
+    relation: supports
+    target: {scope: episode, episodeId: soviet-union-1943-1990, aspect: consequences}
+  - id: katyn-soviet-correction
+    sourceId: katyn-ipn-1990
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1943-1990, aspect: institutional-correction}
+    note: >-
+      IPN chronology records the 13 April 1990 TASS communiqué acknowledging direct NKVD responsibility and calling
+      Katyn one of the gravest crimes of Stalinism.
+  - id: katyn-polish-carrier
+    sourceId: katyn-ipn-lie
+    relation: documents
+    target: {scope: episode, episodeId: polish-peoples-republic-1944-1989, aspect: carrier}
+  - id: katyn-polish-mechanism
+    sourceId: katyn-ipn-opposition
+    relation: documents
+    target: {scope: episode, episodeId: polish-peoples-republic-1944-1989, aspect: mechanism}
+    note: >-
+      Reproduces a censorship instruction forbidding attempts to assign responsibility for the Polish officers' deaths to the USSR.
+  - id: katyn-polish-consequences
+    sourceId: katyn-ipn-censorship
+    relation: supports
+    target: {scope: episode, episodeId: polish-peoples-republic-1944-1989, aspect: consequences}
+  - id: katyn-us-archives-context
+    sourceId: katyn-us-archives
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-union-1943-1990, aspect: context}
+    note: >-
+      Official archival overview describes the German-organized 1943 forensic commission and later evidence of NKVD responsibility.

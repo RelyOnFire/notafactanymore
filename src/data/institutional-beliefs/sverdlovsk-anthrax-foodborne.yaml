@@ -1,14 +1,17 @@
+schemaVersion: 2
 title: Sverdlovsk anthrax as a foodborne outbreak
-claim: >-
-  Soviet authorities maintained that the 1979 Sverdlovsk anthrax outbreak was an ordinary natural outbreak in which
-  people contracted intestinal anthrax from contaminated meat, rather than an airborne release associated with a
-  military microbiology facility.
-currentUnderstanding: >-
-  The human outbreak was predominantly inhalational anthrax caused by an aerosol release from the military microbiology
-  facility known as Compound 19. In 1992 Russian President Boris Yeltsin publicly acknowledged that Soviet military
-  development had caused the outbreak. Subsequent pathology found lesions diagnostic of inhalational anthrax in a
-  42-necropsy series, and epidemiological reconstruction found victims and livestock deaths aligned downwind from the
-  military facility, supporting an accidental airborne release rather than the official foodborne explanation.
+proposition:
+  summary: >-
+    Soviet authorities maintained that the 1979 Sverdlovsk anthrax outbreak was an ordinary natural outbreak in which
+    people contracted intestinal anthrax from contaminated meat, rather than an airborne release associated with a
+    military microbiology facility.
+correction:
+  summary: >-
+    The human outbreak was predominantly inhalational anthrax caused by an aerosol release from the military microbiology
+    facility known as Compound 19. In 1992 Russian President Boris Yeltsin publicly acknowledged that Soviet military
+    development had caused the outbreak. Subsequent pathology found lesions diagnostic of inhalational anthrax in a
+    42-necropsy series, and epidemiological reconstruction found victims and livestock deaths aligned downwind from the
+    military facility, supporting an accidental airborne release rather than the official foodborne explanation.
 category: Public health, biological weapons and state secrecy
 reviewedAt: '2026-08-25'
 impact:
@@ -20,94 +23,131 @@ impact:
     1992, after which pathological and epidemiological studies independently demonstrated inhalational exposure and a
     plume originating at the military facility.
   highlights:
-  - value: '3'
-    label: formal U.S. overtures seeking Biological Weapons Convention consultation by mid-1980
-  - value: '42'
-    label: outbreak necropsies with lesions consistently diagnostic of inhalational anthrax in the 1993 pathology study
-  - value: '20'
-    label: cases in the 42-necropsy series from which Bacillus anthracis was recovered in culture
+    - value: '3'
+      label: formal U.S. overtures seeking Biological Weapons Convention consultation by mid-1980
+    - value: '42'
+      label: outbreak necropsies with lesions consistently diagnostic of inhalational anthrax in the 1993 pathology study
+    - value: '20'
+      label: cases in the 42-necropsy series from which Bacillus anthracis was recovered in culture
   context:
-  - >-
-    Infected livestock did exist: later epidemiology documented animal anthrax along the same downwind axis. The
-    correction concerns the origin and principal route of the human outbreak, not the possibility of secondary animal
-    infection.
-  - >-
-    The available evidence does not establish a specific number of deaths caused by the false explanation itself.
-    Local authorities used antibiotics, vaccination and decontamination measures, so a quantified additional mortality
-    burden cannot be assigned reliably.
-  - >-
-    An accidental aerosol release from a military biological facility raises serious treaty-compliance questions,
-    but the outbreak alone does not establish the full legal scope of any Biological Weapons Convention violation.
+    - >-
+      Infected livestock did exist: later epidemiology documented animal anthrax along the same downwind axis. The
+      correction concerns the origin and principal route of the human outbreak, not the possibility of secondary animal infection.
+    - >-
+      The available evidence does not establish a specific number of deaths caused by the false explanation itself.
+    - >-
+      An accidental aerosol release from a military biological facility raises serious treaty-compliance questions,
+      but the outbreak alone does not establish the full legal scope of any Biological Weapons Convention violation.
 episodes:
-- id: soviet-union-1979-1992
-  polity: Soviet Union
-  region: Eurasia
-  startYear: 1979
-  endYear: 1992
-  strength: officially-endorsed
-  institutionTypes:
-  - government
-  - medical
-  institutions:
-  - USSR Ministry of Foreign Affairs
-  - Soviet public-health authorities
-  institutionalContext: >-
-    During and after the 1979 outbreak, Soviet public information attributed anthrax risk to diseased animals and
-    uninspected meat. On 20 March 1980 the Soviet Foreign Ministry formally told the United States that Sverdlovsk had
-    experienced an ordinary natural anthrax outbreak among animals and that human cases were intestinal anthrax caused
-    by eating cattle meat sold without proper veterinary supervision. It denied any relevance to the Biological Weapons
-    Convention. When the United States requested expert consultations under Article V, the Soviet government repeated
-    the natural-outbreak explanation and refused consultation; by mid-1980 the United States had made three formal
-    overtures. The official explanation persisted until after the Soviet Union's dissolution. In May 1992 Russian
-    President Boris Yeltsin said that the KGB had admitted Soviet military development caused the outbreak.
-  consequences:
-  - Official attribution of the human epidemic to contaminated meat and natural animal anthrax
-  - Presentation of the foodborne explanation through Soviet public-health and epidemiological channels
-  - Formal denial that the outbreak raised a Biological Weapons Convention compliance issue
-  - Repeated refusal of requested expert consultations under Article V of the convention
-  - Long-term obstruction of accurate public and international understanding of the outbreak's military airborne origin
-  summary: >-
-    Sverdlovsk turned a biological accident into a sustained institutional false explanation. Soviet officials described
-    the human epidemic as intestinal anthrax from contaminated meat and carried that position into diplomatic exchanges
-    over Biological Weapons Convention compliance. The government repeatedly rejected expert consultation while
-    maintaining that the outbreak was natural. In 1992 Yeltsin publicly acknowledged a military cause, and subsequent
-    pathology and epidemiology demonstrated that the human outbreak was inhalational and followed an aerosol plume
-    extending downwind from Compound 19.
-  sources:
-  - title: Soviet reply to U.S. démarche on the Sverdlovsk biological-weapons incident — 20 March 1980
+  - id: soviet-union-1979-1992
+    polity: Soviet Union
+    region: Eurasia
+    startYear: 1979
+    endYear: 1992
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+      - medical
+    institutions:
+      - USSR Ministry of Foreign Affairs
+      - Soviet public-health authorities
+    institutionalContext: >-
+      During and after the 1979 outbreak, Soviet public information attributed anthrax risk to diseased animals and
+      uninspected meat. On 20 March 1980 the Soviet Foreign Ministry formally told the United States that Sverdlovsk had
+      experienced an ordinary natural anthrax outbreak among animals and that human cases were intestinal anthrax caused
+      by eating improperly inspected cattle meat. It denied any relevance to the Biological Weapons Convention. When the
+      United States requested expert consultations under Article V, the Soviet government repeated the natural-outbreak
+      explanation and refused consultation; by mid-1980 the United States had made three formal overtures. In May 1992
+      Russian President Boris Yeltsin said that the KGB had admitted Soviet military development caused the outbreak.
+    consequences:
+      - Official attribution of the human epidemic to contaminated meat and natural animal anthrax
+      - Presentation of the foodborne explanation through Soviet public-health and epidemiological channels
+      - Formal denial that the outbreak raised a Biological Weapons Convention compliance issue
+      - Repeated refusal of requested expert consultations under Article V of the convention
+      - Long-term obstruction of accurate public and international understanding of the outbreak's military airborne origin
+    summary: >-
+      Sverdlovsk turned a biological accident into a sustained institutional false explanation. Soviet officials carried
+      the contaminated-meat account into diplomatic exchanges over Biological Weapons Convention compliance. In 1992
+      Yeltsin publicly acknowledged a military cause, and subsequent pathology and epidemiology demonstrated that the
+      human outbreak was inhalational and followed an aerosol plume extending downwind from Compound 19.
+    mechanism:
+      kind: publication
+      summary: >-
+        Soviet foreign-policy and public-health institutions repeatedly published and diplomatically defended a natural,
+        foodborne explanation while rejecting international consultation over the military-origin allegation.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: May 1992
+      action: Russian President Boris Yeltsin publicly acknowledged that Soviet military development had caused the outbreak.
+      summary: >-
+        The Soviet carrier no longer existed, but its principal successor state publicly reversed the inherited official
+        explanation and acknowledged a Soviet military cause; later pathology and epidemiology independently confirmed
+        the airborne-release account.
+sources:
+  - id: sverdlovsk-soviet-reply
+    title: Soviet reply to U.S. démarche on the Sverdlovsk biological-weapons incident — 20 March 1980
     url: https://history.state.gov/historicaldocuments/frus1977-80v06/d270
     publisher: U.S. Department of State, Office of the Historian
-    note: >-
-      Contemporary diplomatic record reproducing the Soviet Foreign Ministry's official explanation: a natural animal
-      anthrax outbreak with human intestinal cases caused by consumption of improperly inspected cattle meat, and an
-      explicit denial of relevance to Biological Weapons Convention compliance.
-  - title: Soviet response rejecting Biological Weapons Convention consultations — 24 April 1980
+  - id: sverdlovsk-consultation-rejection
+    title: Soviet response rejecting Biological Weapons Convention consultations — 24 April 1980
     url: https://history.state.gov/historicaldocuments/frus1977-80v26/d121
     publisher: U.S. Department of State, Office of the Historian
-    note: >-
-      Contemporary record reproducing the Soviet rejection of Article V consultations and reaffirmation of the natural
-      outbreak explanation.
-  - title: U.S. assessment after three consultation overtures on Sverdlovsk — 1980
+  - id: sverdlovsk-three-overtures
+    title: U.S. assessment after three consultation overtures on Sverdlovsk — 1980
     url: https://history.state.gov/historicaldocuments/frus1977-80v06/d290
     publisher: U.S. Department of State, Office of the Historian
-    note: >-
-      Records that the Soviet government repeated the contaminated-meat explanation and had declined three formal U.S.
-      overtures for consultations under the Biological Weapons Convention by mid-1980.
-  - title: Yeltsin interview acknowledging a military cause of the Sverdlovsk outbreak — 27 May 1992
+  - id: sverdlovsk-yeltsin
+    title: Yeltsin interview acknowledging a military cause of the Sverdlovsk outbreak — 27 May 1992
     url: https://meselsonarchive.hsites.harvard.edu/file_url/3357
     publisher: Matthew Meselson Chemical and Biological Warfare Archive, Harvard University
-    note: >-
-      Archive chronology reproducing the contemporary Komsomolskaya Pravda interview in which Yeltsin said the KGB later
-      admitted that Soviet military development was the cause of the anthrax outbreak.
-  - title: Pathology of inhalational anthrax in 42 cases from the Sverdlovsk outbreak of 1979
+  - id: sverdlovsk-pathology
+    title: Pathology of inhalational anthrax in 42 cases from the Sverdlovsk outbreak of 1979
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC46072/
     publisher: Proceedings of the National Academy of Sciences
-    note: >-
-      1993 pathology study finding lesions consistently diagnostic of inhalational anthrax in 42 necropsies; Bacillus
-      anthracis was cultured in 20 cases and organisms were detected microscopically in nearly all.
-  - title: The Sverdlovsk anthrax outbreak of 1979
+  - id: sverdlovsk-science
+    title: The Sverdlovsk anthrax outbreak of 1979
     url: https://pubmed.ncbi.nlm.nih.gov/7973702/
     publisher: Science
+evidence:
+  - id: sverdlovsk-reply-proposition
+    sourceId: sverdlovsk-soviet-reply
+    relation: documents
+    target: {scope: belief, aspect: proposition}
     note: >-
-      1994 epidemiological reconstruction showing a narrow zone of human cases and animal deaths extending downwind from
-      the military microbiology facility and concluding that an aerosol escape from the facility caused the outbreak.
+      Contemporary diplomatic record reproduces the Soviet Foreign Ministry's official explanation of a natural animal
+      outbreak with human intestinal cases caused by improperly inspected cattle meat.
+  - id: sverdlovsk-pathology-correction
+    sourceId: sverdlovsk-pathology
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      1993 pathology study found lesions consistently diagnostic of inhalational anthrax in 42 necropsies.
+  - id: sverdlovsk-science-correction
+    sourceId: sverdlovsk-science
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      1994 epidemiological reconstruction found a narrow downwind zone of human cases and animal deaths and concluded
+      that an aerosol escape from the military facility caused the outbreak.
+  - id: sverdlovsk-three-overtures-impact
+    sourceId: sverdlovsk-three-overtures
+    relation: supports
+    target: {scope: belief, aspect: impact}
+  - id: sverdlovsk-reply-carrier
+    sourceId: sverdlovsk-soviet-reply
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: carrier}
+  - id: sverdlovsk-rejection-mechanism
+    sourceId: sverdlovsk-consultation-rejection
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: mechanism}
+  - id: sverdlovsk-three-overtures-consequences
+    sourceId: sverdlovsk-three-overtures
+    relation: supports
+    target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: consequences}
+  - id: sverdlovsk-yeltsin-correction
+    sourceId: sverdlovsk-yeltsin
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: institutional-correction}
+    note: >-
+      Archive chronology reproduces Yeltsin's 1992 statement that the KGB later admitted Soviet military development caused the outbreak.

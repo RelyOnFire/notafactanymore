@@ -1,57 +1,102 @@
+schemaVersion: 2
 title: X-ray treatment for ringworm
 entryId: medical-xrays-have-no-cumulative-harm
-claim: Scalp X-ray irradiation was treated as an acceptably safe mass treatment for childhood ringworm, before its
-  long-term radiation risks were recognized.
-currentUnderstanding: X-ray irradiation can eliminate tinea capitis, but it exposes healthy tissue to ionizing radiation
-  and increases the later risk of tumors and other radiation-related disease. Effective antifungal drugs make routine
-  therapeutic irradiation for ringworm unnecessary.
+proposition:
+  summary: >-
+    Scalp X-ray irradiation was treated as an acceptably safe mass treatment for childhood ringworm, before its
+    long-term radiation risks were recognized.
+correction:
+  summary: >-
+    X-ray irradiation can eliminate tinea capitis, but it exposes healthy tissue to ionizing radiation and increases
+    the later risk of tumors and other radiation-related disease. Effective antifungal drugs make routine therapeutic
+    irradiation for ringworm unnecessary.
 category: Medicine and radiation safety
 reviewedAt: '2026-08-23'
 episodes:
-- id: israel-1949-1960
-  polity: Israel
-  region: Middle East
-  startYear: 1949
-  endYear: 1960
-  periodLabel: 1949–1960
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  - education
-  institutions:
-  - Ministry of Health
-  - Hadassah Medical Organization
-  - General Sick Fund (Kupat Holim Clalit)
-  - Shaar HaAliyah Hospital
-  - Tel HaShomer Hospital
-  institutionalContext: The Ministry of Health made ringworm a reportable public-health responsibility and funded
-    treatment; Hadassah was given national organizing and professional-supervision responsibility and issued the
-    treatment protocol; the General Sick Fund, Shaar HaAliyah Hospital, Tel HaShomer Hospital and other authorized
-    centers delivered irradiation and follow-up care. School nurses and local services identified cases and enforced
-    exclusion from school during parts of treatment, but those distributed services are described as implementation
-    machinery rather than listed as one institution.
-  consequences:
-  - Mass irradiation of children
-  - Treatment required for return to school in parts of the programme
-  - Increased long-term risk of brain and nervous-system tumors
-  summary: Israel organized a national campaign in which tens of thousands of children with tinea capitis received
-    scalp X-ray irradiation, then a standard treatment whose delayed cancer risks were not yet understood. The Ministry
-    of Health funded and regulated the programme, Hadassah supervised its treatment protocol, and a network including
-    the General Sick Fund, Shaar HaAliyah and Tel HaShomer delivered irradiation. By 1952 treatment was compulsory
-    in parts of the public-health programme, including as a condition for infected children returning to school.
-    Irradiation ended in 1960 as griseofulvin replaced it; long-term Israeli cohort studies later demonstrated increased
-    tumor risk after childhood exposure.
-  sources:
-  - title: Healing the children and the nation — The campaign to eradicate ringworm in Israel, 1925–1960
+  - id: israel-1949-1960
+    polity: Israel
+    region: Middle East
+    startYear: 1949
+    endYear: 1960
+    periodLabel: 1949–1960
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+      - education
+    institutions:
+      - Ministry of Health
+      - Hadassah Medical Organization
+      - General Sick Fund (Kupat Holim Clalit)
+      - Shaar HaAliyah Hospital
+      - Tel HaShomer Hospital
+    institutionalContext: >-
+      The Ministry of Health made ringworm a reportable public-health responsibility and funded treatment; Hadassah
+      was given national organizing and professional-supervision responsibility and issued the treatment protocol;
+      the General Sick Fund, Shaar HaAliyah Hospital, Tel HaShomer Hospital and other authorized centers delivered
+      irradiation and follow-up care. School nurses and local services identified cases and enforced exclusion from
+      school during parts of treatment, but those distributed services are described as implementation machinery
+      rather than listed as one institution.
+    consequences:
+      - Mass irradiation of children
+      - Treatment required for return to school in parts of the programme
+      - Increased long-term risk of brain and nervous-system tumors
+    summary: >-
+      Israel organized a national campaign in which tens of thousands of children with tinea capitis received scalp
+      X-ray irradiation, then a standard treatment whose delayed cancer risks were not yet understood. The Ministry
+      of Health funded and regulated the programme, Hadassah supervised its treatment protocol, and a network including
+      the General Sick Fund, Shaar HaAliyah and Tel HaShomer delivered irradiation. By 1952 treatment was compulsory
+      in parts of the public-health programme, including as a condition for infected children returning to school.
+      Irradiation ended in 1960 as griseofulvin replaced it; long-term Israeli cohort studies later demonstrated
+      increased tumor risk after childhood exposure.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        The Ministry of Health funded and regulated a national treatment programme, Hadassah supervised the protocol,
+        authorized centers delivered irradiation, and school/public-health services helped identify cases and enforce treatment-related exclusion.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        Irradiation ended in 1960 as griseofulvin replaced it, but the existing record does not identify a dated Israeli
+        institutional act that explicitly repudiated the earlier safety judgment on the basis of long-term radiation risk.
+sources:
+  - id: ringworm-oup-history
+    title: Healing the children and the nation — The campaign to eradicate ringworm in Israel, 1925–1960
     url: https://academic.oup.com/book/38561/chapter/334246679
     publisher: Oxford University Press
-    note: 'Reconstructs the national treatment machinery in detail: Ministry of Health responsibility and funding,
-      Hadassah''s organizing and supervisory role, General Sick Fund treatment centers, Shaar HaAliyah and Tel HaShomer
-      facilities, school-related compulsory treatment, and an estimated 26,000–27,000 children irradiated in Israel
-      from 1948 to 1960.'
-  - title: Tumors of the Brain and Nervous System after Radiotherapy in Childhood
+  - id: ringworm-nejm-cohort
+    title: Tumors of the Brain and Nervous System after Radiotherapy in Childhood
     url: https://www.nejm.org/doi/full/10.1056/NEJM198810203191601
     publisher: New England Journal of Medicine
-    note: Long-term cohort study of 10,834 Israeli children irradiated for tinea capitis between 1948 and 1960,
-      documenting increased risk of brain and nervous-system tumors.
+evidence:
+  - id: ringworm-history-proposition
+    sourceId: ringworm-oup-history
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Reconstructs the national treatment machinery in detail: Ministry of Health responsibility and funding, Hadassah's
+      organizing and supervisory role, General Sick Fund treatment centers, Shaar HaAliyah and Tel HaShomer facilities,
+      school-related compulsory treatment, and an estimated 26,000–27,000 children irradiated in Israel from 1948 to 1960.
+  - id: ringworm-nejm-correction
+    sourceId: ringworm-nejm-cohort
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Long-term cohort study of 10,834 Israeli children irradiated for tinea capitis between 1948 and 1960, documenting
+      increased risk of brain and nervous-system tumors.
+  - id: ringworm-history-correction
+    sourceId: ringworm-oup-history
+    relation: supports
+    target: {scope: belief, aspect: correction}
+  - id: ringworm-history-carrier
+    sourceId: ringworm-oup-history
+    relation: documents
+    target: {scope: episode, episodeId: israel-1949-1960, aspect: carrier}
+  - id: ringworm-history-mechanism
+    sourceId: ringworm-oup-history
+    relation: documents
+    target: {scope: episode, episodeId: israel-1949-1960, aspect: mechanism}
+  - id: ringworm-nejm-consequences
+    sourceId: ringworm-nejm-cohort
+    relation: supports
+    target: {scope: episode, episodeId: israel-1949-1960, aspect: consequences}

@@ -1,80 +1,136 @@
+schemaVersion: 2
 locale: de
 entryId: insulin-coma-schizophrenia
 sourceReviewedAt: '2026-08-24'
 title: Insulinkomatherapie als Behandlung der Schizophrenie
-claim: Wiederholt durch Insulin ausgelöste hypoglykämische Komas wurden als spezifische oder grundlegende Therapie
-  behandelt, die bei Schizophrenie Remission oder Heilung bewirken könne.
-currentUnderstanding: Kontrollierte Vergleiche belegten keinen spezifischen therapeutischen Nutzen des Insulinkomas
-  selbst bei Schizophrenie. Verbesserungen in frühen unkontrollierten Serien konnten unter anderem durch Patientenauswahl,
-  den natürlichen Krankheitsverlauf, intensive Pflege und soziale Betreuung, Begleitbehandlungen und andere unspezifische
-  Effekte entstehen. Die absichtliche schwere Hypoglykämie brachte zudem erhebliche Risiken mit sich, darunter Krampfanfälle,
-  verlängertes Koma, neurologische Schäden und Tod. Die historische Korrektur lautet daher nicht, dass sich während
-  einer solchen Kur niemals ein Patient besserte, sondern dass das insulininduzierte Koma nicht als der behauptete
-  spezifisch antischizophrene Wirkmechanismus belegt wurde.
+proposition:
+  summary: >-
+    Wiederholt durch Insulin ausgelöste hypoglykämische Komas wurden als spezifische oder grundlegende Therapie behandelt,
+    die bei Schizophrenie Remission oder Heilung bewirken könne.
+correction:
+  summary: >-
+    Kontrollierte Vergleiche belegten keinen spezifischen therapeutischen Nutzen des Insulinkomas selbst bei Schizophrenie.
+    Verbesserungen in frühen unkontrollierten Serien konnten unter anderem durch Patientenauswahl, den natürlichen
+    Krankheitsverlauf, intensive Pflege und soziale Betreuung, Begleitbehandlungen und andere unspezifische Effekte
+    entstehen. Die absichtliche schwere Hypoglykämie brachte zudem erhebliche Risiken mit sich, darunter Krampfanfälle,
+    verlängertes Koma, neurologische Schäden und Tod. Die historische Korrektur lautet daher nicht, dass sich während
+    einer solchen Kur niemals ein Patient besserte, sondern dass das insulininduzierte Koma nicht als der behauptete
+    spezifisch antischizophrene Wirkmechanismus belegt wurde.
 impact:
-  summary: Bei der Insulinkomatherapie wurden psychiatrische Patientinnen und Patienten absichtlich in schwere Hypoglykämie
+  summary: >-
+    Bei der Insulinkomatherapie wurden psychiatrische Patientinnen und Patienten absichtlich in schwere Hypoglykämie
     und Bewusstlosigkeit versetzt, häufig wiederholt über mehrere Wochen. Von Wien aus verbreitete sich die Methode
-    rasch international und wurde zu einer personalintensiven institutionellen Behandlung der Schizophrenie. In
-    Wien wurde sie noch um 1970 angewandt, obwohl kontrollierte Studien den behaupteten spezifischen Nutzen bereits
-    untergraben hatten.
+    rasch international und wurde zu einer personalintensiven institutionellen Behandlung der Schizophrenie. In Wien
+    wurde sie noch um 1970 angewandt, obwohl kontrollierte Studien den behaupteten spezifischen Nutzen bereits untergraben hatten.
   highlights:
-  - value: '965'
-    label: Insulinbehandlungsfälle an der Wiener Universitätspsychiatrie 1951–1969, überwiegend Komatherapie
-  - value: 31 Kliniken
-    label: setzten die tiefe Insulinkomatherapie 1938 bereits in England und Wales ein
-  - value: 0,5–4,5 %
-    label: Spanne zeitgenössisch berichteter Mortalitätsschätzungen bei der Insulinkomatherapie
+    - value: '965'
+      label: Insulinbehandlungsfälle an der Wiener Universitätspsychiatrie 1951–1969, überwiegend Komatherapie
+    - value: 31 Kliniken
+      label: setzten die tiefe Insulinkomatherapie 1938 bereits in England und Wales ein
+    - value: 0,5–4,5 %
+      label: Spanne zeitgenössisch berichteter Mortalitätsschätzungen bei der Insulinkomatherapie
   context:
-  - Die Insulinkomatherapie bei Schizophrenie war von der normalen Insulinbehandlung bei Diabetes zu unterscheiden.
-    Die Patientinnen und Patienten wurden absichtlich schwer hypoglykämisch und bewusstlos gemacht und anschließend
-    mit Glukose, in Wien später auch mit Glukagon, wieder aufgeweckt.
-  - Der Niedergang der Methode hatte mehrere Ursachen. Wissenschaftliche Kritik und kontrollierte Studien stellten
-    die Wirksamkeit infrage; zugleich waren neue Antipsychotika einfacher und billiger anzuwenden. Das Verschwinden
-    einer Therapie beweist daher für sich allein nicht, warum Institutionen sie aufgaben.
+    - >-
+      Die Insulinkomatherapie bei Schizophrenie war von der normalen Insulinbehandlung bei Diabetes zu unterscheiden.
+      Die Patientinnen und Patienten wurden absichtlich schwer hypoglykämisch und bewusstlos gemacht und anschließend
+      mit Glukose, in Wien später auch mit Glukagon, wieder aufgeweckt.
+    - >-
+      Der Niedergang der Methode hatte mehrere Ursachen. Wissenschaftliche Kritik und kontrollierte Studien stellten
+      die Wirksamkeit infrage; zugleich waren neue Antipsychotika einfacher und billiger anzuwenden. Das Verschwinden
+      einer Therapie beweist daher für sich allein nicht, warum Institutionen sie aufgaben.
 episodes:
-- id: austria-vienna-1935-1970
-  polity: Österreich — Wien
-  institutions:
-  - Psychiatrisch-Neurologische Universitätsklinik Wien
-  - Universität Wien / spätere Medizinische Universität Wien
-  institutionalContext: Manfred Sakel entwickelte die Insulinkomatherapie für Schizophrenie Mitte der 1930er Jahre
-    an der Wiener Universitätspsychiatrie. Die Methode wurde in die klinische Behandlung übernommen und überdauerte
-    dort auch die Einführung der Neuroleptika. Unter Hans Hoff bezeichneten Wiener Kliniker eine richtig indizierte
-    und durchgeführte volle Insulinschockkur 1960 noch als Grundbehandlung der Schizophrenie. Eine moderne Auswertung
-    der Krankenakten fand für 1951–1969 insgesamt 965 Fälle von Insulinbehandlung, größtenteils Insulinkomatherapie;
-    die historische Studie datiert das endgültige Ende in Wien auf etwa 1970.
-  summary: 'Die Insulinkomatherapie wurde Mitte der 1930er Jahre in Wien entwickelt und etablierte sich an der Universitätspsychiatrie
-    als Behandlung der Schizophrenie. Besonders bei frühen Erkrankungen wurde eine Heilung erwartet, und die Kuren
-    bestanden aus wiederholt ausgelösten Komas. Nach Einführung der Neuroleptika und zunehmender Kritik an der Wirksamkeit
-    ging die Anwendung zurück, hielt sich in Wien aber ungewöhnlich lange: Eine historische Studie von 2025/26 dokumentiert
-    965 Insulinbehandlungsfälle zwischen 1951 und 1969, überwiegend Komatherapie, und ein Ende der Methode erst
-    um 1970.'
-  consequences:
-  - Wiederholte absichtliche Auslösung schwerer Hypoglykämie und von Koma bei psychiatrischen Patientinnen und Patienten
-  - Behandlungskuren mit häufig Dutzenden Komainduktionen über mehrere Wochen
-  - Risiko von Krampfanfällen, verlängertem Koma, neurologischen Schäden und Tod
-  - Fortsetzung einer invasiven Therapie, obwohl ihr spezifischer Nutzen bereits stark umstritten war
-- id: england-wales-1936-1960
-  polity: England und Wales
-  institutions:
-  - Board of Control for England and Wales
-  - Psychiatrische Krankenhäuser in England und Wales
-  - Royal Medico-Psychological Association
-  institutionalContext: 'Der Board of Control, der psychiatrische Krankenhäuser beaufsichtigte, entsandte 1936 eine
-    medizinische Kommissarin nach Wien und veröffentlichte anschließend Hinweise zur hypoglykämischen Schockbehandlung.
-    Die institutionelle Übernahme erfolgte rasch: 1938 war die tiefe Insulinkomatherapie bereits in 31 Krankenhäusern
-    in England und Wales etabliert. Berufsverbände und führende Lehrbücher unterstützten sie bis in die 1940er und
-    1950er Jahre. Eine kontrollierte randomisierte Studie von 1957 fand keinen signifikanten Vorteil des Insulins
-    gegenüber einer nicht durch Insulin ausgelösten Vergleichskomatherapie; die Methode wurde danach in der britischen
-    Praxis rasch verdrängt.'
-  summary: England und Wales institutionalisierten die Insulinkomatherapie rasch, nachdem der Board of Control die
-    Wiener Methode 1936 untersuchen ließ. Bis 1938 war sie in 31 Kliniken etabliert und besaß starke berufliche
-    Unterstützung. In den 1950er Jahren nahm die Kritik zu; eine kontrollierte Studie von 1957 fand keinen signifikanten
-    Unterschied zwischen Insulinkoma und einer Vergleichskomatherapie. Damit brach die Annahme ein, Insulin selbst
-    sei eine spezifische Behandlung der Schizophrenie, und die britische Anwendung ging gegen Ende des Jahrzehnts
-    rasch zurück.
-  consequences:
-  - Staatlich unterstützte Verbreitung von Insulinkoma-Einheiten im psychiatrischen Krankenhaussystem
-  - Wiederholte invasive Behandlung von Menschen mit Schizophreniediagnose
-  - Hoher Personalbedarf und verlängerte Krankenhausaufenthalte
-  - Exposition gegenüber schwerer Hypoglykämie, Krampfanfällen, neurologischen Komplikationen und Mortalitätsrisiko
+  - id: austria-vienna-1935-1970
+    polity: Österreich — Wien
+    institutions:
+      - Psychiatrisch-Neurologische Universitätsklinik Wien
+      - Universität Wien / spätere Medizinische Universität Wien
+    institutionalContext: >-
+      Manfred Sakel entwickelte die Insulinkomatherapie für Schizophrenie Mitte der 1930er Jahre an der Wiener
+      Universitätspsychiatrie. Die Methode wurde in die klinische Behandlung übernommen und überdauerte dort auch die
+      Einführung der Neuroleptika. Unter Hans Hoff bezeichneten Wiener Kliniker eine richtig indizierte und durchgeführte
+      volle Insulinschockkur 1960 noch als Grundbehandlung der Schizophrenie. Eine moderne Auswertung der Krankenakten
+      fand für 1951–1969 insgesamt 965 Fälle von Insulinbehandlung, größtenteils Insulinkomatherapie; die historische
+      Studie datiert das endgültige Ende in Wien auf etwa 1970.
+    summary: >-
+      Die Insulinkomatherapie wurde Mitte der 1930er Jahre in Wien entwickelt und etablierte sich an der Universitätspsychiatrie
+      als Behandlung der Schizophrenie. Besonders bei frühen Erkrankungen wurde eine Heilung erwartet, und die Kuren
+      bestanden aus wiederholt ausgelösten Komas. Nach Einführung der Neuroleptika und zunehmender Kritik an der Wirksamkeit
+      ging die Anwendung zurück, hielt sich in Wien aber ungewöhnlich lange: Eine historische Studie von 2025/26 dokumentiert
+      965 Insulinbehandlungsfälle zwischen 1951 und 1969, überwiegend Komatherapie, und ein Ende der Methode erst um 1970.
+    consequences:
+      - Wiederholte absichtliche Auslösung schwerer Hypoglykämie und von Koma bei psychiatrischen Patientinnen und Patienten
+      - Behandlungskuren mit häufig Dutzenden Komainduktionen über mehrere Wochen
+      - Risiko von Krampfanfällen, verlängertem Koma, neurologischen Schäden und Tod
+      - Fortsetzung einer invasiven Therapie, obwohl ihr spezifischer Nutzen bereits stark umstritten war
+    mechanism:
+      summary: >-
+        Die Wiener Universitätspsychiatrie verankerte wiederholt insulininduzierte Komas in der routinemäßigen
+        Schizophreniebehandlung und setzte das Verfahren auch nach Einführung von Neuroleptika fort.
+    institutionalCorrection:
+      summary: >-
+        Die Behandlung wurde um 1970 nach langjähriger wissenschaftlicher Kritik und therapeutischem Wandel eingestellt;
+        der vorhandene Nachweis zeigt jedoch keinen datierten Wiener Institutionsbeschluss, der die Insulinkomatherapie ausdrücklich widerrief.
+  - id: england-wales-1936-1960
+    polity: England und Wales
+    institutions:
+      - Board of Control for England and Wales
+      - Psychiatrische Krankenhäuser in England und Wales
+      - Royal Medico-Psychological Association
+    institutionalContext: >-
+      Der Board of Control, der psychiatrische Krankenhäuser beaufsichtigte, entsandte 1936 eine medizinische Kommissarin
+      nach Wien und veröffentlichte anschließend Hinweise zur hypoglykämischen Schockbehandlung. Die institutionelle
+      Übernahme erfolgte rasch: 1938 war die tiefe Insulinkomatherapie bereits in 31 Krankenhäusern in England und Wales
+      etabliert. Berufsverbände und führende Lehrbücher unterstützten sie bis in die 1940er und 1950er Jahre. Eine
+      kontrollierte randomisierte Studie von 1957 fand keinen signifikanten Vorteil des Insulins gegenüber einer nicht
+      durch Insulin ausgelösten Vergleichskomatherapie; die Methode wurde danach in der britischen Praxis rasch verdrängt.
+    summary: >-
+      England und Wales institutionalisierten die Insulinkomatherapie rasch, nachdem der Board of Control die Wiener
+      Methode 1936 untersuchen ließ. Bis 1938 war sie in 31 Kliniken etabliert und besaß starke berufliche Unterstützung.
+      In den 1950er Jahren nahm die Kritik zu; eine kontrollierte Studie von 1957 fand keinen signifikanten Unterschied
+      zwischen Insulinkoma und einer Vergleichskomatherapie. Damit brach die Annahme ein, Insulin selbst sei eine
+      spezifische Behandlung der Schizophrenie, und die britische Anwendung ging gegen Ende des Jahrzehnts rasch zurück.
+    consequences:
+      - Staatlich unterstützte Verbreitung von Insulinkoma-Einheiten im psychiatrischen Krankenhaussystem
+      - Wiederholte invasive Behandlung von Menschen mit Schizophreniediagnose
+      - Hoher Personalbedarf und verlängerte Krankenhausaufenthalte
+      - Exposition gegenüber schwerer Hypoglykämie, Krampfanfällen, neurologischen Komplikationen und Mortalitätsrisiko
+    mechanism:
+      summary: >-
+        Untersuchung und Hinweise des Board of Control förderten die Verbreitung eigener Insulinkoma-Einheiten im
+        psychiatrischen Krankenhaussystem; Berufsversammlungen und psychiatrische Lehre verstärkten die Übernahme.
+    institutionalCorrection:
+      summary: >-
+        Die britische Anwendung ging rasch zurück, nachdem kontrollierte Evidenz einen spezifischen Insulineffekt
+        untergraben hatte; ein einzelner datierter Beschluss des Board of Control oder eines Berufsverbands zur formellen
+        Rücknahme der Behandlung ist im vorhandenen Nachweis jedoch nicht dokumentiert.
+evidence:
+  - id: insulin-vienna-proposition
+    note: >-
+      Open-Access-Studie auf Grundlage Wiener Klinikakten. Sie dokumentiert 965 Insulinbehandlungsfälle 1951–1969,
+      überwiegend Insulinkomatherapie, die Erwartung einer Heilung früher Schizophrenie, eine Beschreibung der vollen
+      Insulinschockkur als Grundbehandlung im Jahr 1960 und die Fortsetzung in Wien bis etwa 1970.
+  - id: insulin-lancet-correction
+    note: >-
+      Primäre kontrollierte Studie von Ackner, Harris und Oldham aus dem Jahr 1957, die weithin als entscheidender
+      experimenteller Test galt, ob das Insulinkoma selbst einen spezifischen Nutzen bei Schizophrenie besitzt.
+  - id: insulin-ucl-correction
+    note: >-
+      Moderne fachhistorische Übersicht, wonach Wirksamkeitszweifel den randomisierten Studien vorausgingen und
+      kontrollierte Vergleiche die Insulinkomatherapie nicht als spezifisch wirksame Schizophreniebehandlung bestätigten.
+  - id: insulin-jrsm-impact
+    note: >-
+      Historische Auswertung britischer Unterlagen zu Unterstützung durch den Board of Control, Anwendung in 31 Kliniken
+      bis 1938, dem sehr aufwendigen Behandlungsschema, Mortalitäts- und Hirnschädigungsrisiken, beruflicher Unterstützung
+      und der kontrollierten Studie von 1957 ohne spezifischen Insulinvorteil.
+  - id: insulin-vienna-carrier
+  - id: insulin-vienna-mechanism
+    note: >-
+      Amtliche Darstellung der Medizinischen Universität Wien zur Historischen Kommission, die den parallelen fortgesetzten
+      Einsatz von Insulinkoma- und anderen Schock-/Fiebertherapien während des Übergangs zur Psychopharmakologie bestätigt.
+  - id: insulin-vienna-consequences
+  - id: insulin-britain-carrier
+  - id: insulin-wellcome-mechanism
+    note: >-
+      Archivkatalog, der die Einführung der Insulinkomatherapie im Retreat 1938 nach positiven Berichten auf der
+      Jahrestagung der Medico-Psychological Association dokumentiert.
+  - id: insulin-britain-consequences

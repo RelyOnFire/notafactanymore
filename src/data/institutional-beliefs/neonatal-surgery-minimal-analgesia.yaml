@@ -1,53 +1,133 @@
+schemaVersion: 2
 title: Minimal analgesia for major neonatal surgery
 entryId: newborns-do-not-feel-pain
-claim: Newborns, especially premature infants, could undergo major surgery with little or no potent analgesia because their immature nervous systems were thought unable to process pain in the same meaningful way as older patients and anesthetic drugs were considered unusually hazardous.
-currentUnderstanding: Newborns have functional nociceptive pathways and mount organized physiological, hormonal, behavioral and neurological responses to painful surgery. Adequate anesthesia and analgesia are indicated for neonatal surgical procedures, with drug choice and dosing adapted to the infant's considerable physiological vulnerability.
+proposition:
+  summary: >-
+    Newborns, especially premature infants, could undergo major surgery with little or no potent analgesia because
+    their immature nervous systems were thought unable to process pain in the same meaningful way as older patients
+    and anesthetic drugs were considered unusually hazardous.
+correction:
+  summary: >-
+    Newborns have functional nociceptive pathways and mount organized physiological, hormonal, behavioral and neurological
+    responses to painful surgery. Adequate anesthesia and analgesia are indicated for neonatal surgical procedures,
+    with drug choice and dosing adapted to the infant's considerable physiological vulnerability.
 category: Neonatal medicine and anesthesia
 reviewedAt: '2026-08-27'
 impact:
-  summary: The belief was not confined to theory. It shaped neonatal anesthesia regimens in which paralysis and nitrous oxide could be used without potent analgesia during major surgery. Controlled work in the 1980s showed that untreated surgical stress produced markedly greater hormonal responses and more postoperative circulatory and metabolic complications.
+  summary: >-
+    The belief was not confined to theory. It shaped neonatal anesthesia regimens in which paralysis and nitrous oxide
+    could be used without potent analgesia during major surgery. Controlled work in the 1980s showed that untreated
+    surgical stress produced markedly greater hormonal responses and more postoperative circulatory and metabolic complications.
   highlights:
-  - value: '1987'
-    label: Randomized fentanyl trial showed that deeper analgesia reduced the neonatal surgical stress response
-  - value: 8 + 8 infants
-    label: Preterm infants in the pivotal randomized comparison with and without fentanyl
-  - value: '1987'
-    label: American Academy of Pediatrics policy stated that anesthesia or analgesia was indicated for neonatal surgery
+    - value: '1987'
+      label: Randomized fentanyl trial showed that deeper analgesia reduced the neonatal surgical stress response
+    - value: 8 + 8 infants
+      label: Preterm infants in the pivotal randomized comparison with and without fentanyl
+    - value: '1987'
+      label: American Academy of Pediatrics policy stated that anesthesia or analgesia was indicated for neonatal surgery
   context:
-  - The historical correction is not that neonatal anesthesia had never been used. Clinicians were balancing genuine anesthetic risks in tiny, unstable patients against an incorrect or underestimated model of neonatal pain.
-  - The John Radcliffe episode is a documented institutional practice rather than a claim that every hospital used an identical regimen.
+    - >-
+      The historical correction is not that neonatal anesthesia had never been used. Clinicians were balancing genuine
+      anesthetic risks in tiny, unstable patients against an incorrect or underestimated model of neonatal pain.
+    - >-
+      The John Radcliffe episode is a documented institutional practice rather than a claim that every hospital used an identical regimen.
 episodes:
-- id: united-kingdom-john-radcliffe-1982-1987
-  polity: United Kingdom
-  region: Northern Europe
-  startYear: 1982
-  endYear: 1987
-  strength: institutionally-influential
-  institutionTypes:
-  - medical
-  institutions:
-  - John Radcliffe Hospital, Oxford
-  institutionalContext: Kanwaljeet Anand later described nitrous oxide plus curare, without potent analgesia, as the state-of-the-art neonatal anesthetic practice at John Radcliffe Hospital when he arrived in 1982. The rationale reflected both long-standing doubts that newborns perceived pain normally and legitimate fears about anesthetic toxicity and physiological instability. The hospital then became the setting for the randomized work that directly tested whether adding fentanyl changed the biological response to surgery.
-  consequences:
-  - Preterm infants undergoing patent ductus arteriosus ligation could receive nitrous oxide and neuromuscular paralysis without a potent opioid analgesic
-  - In the randomized comparison, infants without fentanyl showed significantly larger hormonal and metabolic stress responses
-  - The non-fentanyl group also experienced postoperative circulatory and metabolic complications not seen to the same extent in the fentanyl group
-  - The evidence helped force neonatal pain from an assumed limitation of immature physiology into an explicit anesthesia and analgesia requirement
-  summary: At Oxford's John Radcliffe Hospital in the early 1980s, a neonatal anesthetic regimen using nitrous oxide and curare without potent analgesia represented accepted practice for major surgery. Anand and colleagues tested that practice in preterm infants undergoing ductus arteriosus ligation. Adding fentanyl sharply reduced the hormonal and metabolic stress response, while the infants who did not receive fentanyl had more postoperative circulatory and metabolic complications. In the same year, the American Academy of Pediatrics formally stated that available local or systemic agents allowed relatively safe anesthesia or analgesia and that such treatment was indicated for neonatal surgery.
-  sources:
-  - title: Discovering Pain in Newborn Infants
+  - id: united-kingdom-john-radcliffe-1982-1987
+    polity: United Kingdom
+    region: Northern Europe
+    startYear: 1982
+    endYear: 1987
+    strength: institutionally-influential
+    institutionTypes:
+      - medical
+    institutions:
+      - John Radcliffe Hospital, Oxford
+    institutionalContext: >-
+      Kanwaljeet Anand later described nitrous oxide plus curare, without potent analgesia, as the state-of-the-art
+      neonatal anesthetic practice at John Radcliffe Hospital when he arrived in 1982. The rationale reflected both
+      long-standing doubts that newborns perceived pain normally and legitimate fears about anesthetic toxicity and
+      physiological instability. The hospital then became the setting for the randomized work that directly tested
+      whether adding fentanyl changed the biological response to surgery.
+    consequences:
+      - Preterm infants undergoing patent ductus arteriosus ligation could receive nitrous oxide and neuromuscular paralysis without a potent opioid analgesic
+      - In the randomized comparison, infants without fentanyl showed significantly larger hormonal and metabolic stress responses
+      - The non-fentanyl group also experienced postoperative circulatory and metabolic complications not seen to the same extent in the fentanyl group
+      - The evidence helped force neonatal pain from an assumed limitation of immature physiology into an explicit anesthesia and analgesia requirement
+    summary: >-
+      At Oxford's John Radcliffe Hospital in the early 1980s, a neonatal anesthetic regimen using nitrous oxide and
+      curare without potent analgesia represented accepted practice for major surgery. Anand and colleagues tested
+      that practice in preterm infants undergoing ductus arteriosus ligation. Adding fentanyl sharply reduced the
+      hormonal and metabolic stress response, while the infants who did not receive fentanyl had more postoperative
+      circulatory and metabolic complications. In the same year, the American Academy of Pediatrics formally stated
+      that available local or systemic agents allowed relatively safe anesthesia or analgesia and that such treatment
+      was indicated for neonatal surgery.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        A hospital anesthesia regimen combined nitrous oxide and neuromuscular paralysis for major neonatal surgery
+        without potent opioid analgesia, operationalizing contemporary assumptions about neonatal pain and anesthetic risk.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        Research conducted at the hospital directly challenged the regimen and wider professional guidance changed in
+        1987, but the existing record does not identify a dated John Radcliffe institutional act formally withdrawing
+        or repudiating the earlier practice.
+sources:
+  - id: neonatal-anand-history
+    title: Discovering Pain in Newborn Infants
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12051470/
     publisher: Anesthesiology / PubMed Central
-    note: Anand's retrospective account states that nitrous oxide and curare without potent analgesia was state-of-the-art neonatal anesthesia at John Radcliffe Hospital when he arrived in 1982 and describes how the subsequent research challenged the underlying assumptions.
-  - title: 'Randomised trial of fentanyl anaesthesia in preterm babies undergoing surgery: effects on the stress response'
+  - id: neonatal-fentanyl-trial
+    title: 'Randomised trial of fentanyl anaesthesia in preterm babies undergoing surgery: effects on the stress response'
     url: https://pubmed.ncbi.nlm.nih.gov/20928962/
     publisher: The Lancet / PubMed
-    note: Randomized trial of 16 preterm infants showing much larger hormonal and metabolic responses without fentanyl and postoperative circulatory and metabolic complications in the non-fentanyl group.
-  - title: Neonatal Anesthesia
+  - id: neonatal-aap-policy
+    title: Neonatal Anesthesia
     url: https://publications.aap.org/pediatrics/article/80/3/446/54657/Neonatal-Anesthesia
     publisher: American Academy of Pediatrics
-    note: 1987 policy statement from the AAP's fetus/newborn, drugs, anesthesiology and surgery groups concluding that available pharmacologic agents permitted relatively safe neonatal anesthesia or analgesia and that it was indicated for surgical procedures.
-  - title: Pain Management in Newborns
+  - id: neonatal-pain-review
+    title: Pain Management in Newborns
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4254489/
     publisher: Clinics in Perinatology / PubMed Central
-    note: Historical review documenting the broad twentieth-century underestimation of neonatal pain and that infant surgery was routinely conducted with minimal or no anesthesia until the late 1980s.
+evidence:
+  - id: neonatal-anand-proposition
+    sourceId: neonatal-anand-history
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Anand's retrospective account states that nitrous oxide and curare without potent analgesia was state-of-the-art
+      neonatal anesthesia at John Radcliffe Hospital when he arrived in 1982 and describes how the subsequent research
+      challenged the underlying assumptions.
+  - id: neonatal-trial-correction
+    sourceId: neonatal-fentanyl-trial
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Randomized trial of 16 preterm infants showing much larger hormonal and metabolic responses without fentanyl and
+      postoperative circulatory and metabolic complications in the non-fentanyl group.
+  - id: neonatal-aap-correction
+    sourceId: neonatal-aap-policy
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      1987 policy statement from the AAP's fetus/newborn, drugs, anesthesiology and surgery groups concluding that
+      available pharmacologic agents permitted relatively safe neonatal anesthesia or analgesia and that it was indicated for surgical procedures.
+  - id: neonatal-review-impact
+    sourceId: neonatal-pain-review
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Historical review documenting the broad twentieth-century underestimation of neonatal pain and that infant surgery
+      was routinely conducted with minimal or no anesthesia until the late 1980s.
+  - id: neonatal-anand-carrier
+    sourceId: neonatal-anand-history
+    relation: documents
+    target: {scope: episode, episodeId: united-kingdom-john-radcliffe-1982-1987, aspect: carrier}
+  - id: neonatal-anand-mechanism
+    sourceId: neonatal-anand-history
+    relation: documents
+    target: {scope: episode, episodeId: united-kingdom-john-radcliffe-1982-1987, aspect: mechanism}
+  - id: neonatal-trial-consequences
+    sourceId: neonatal-fentanyl-trial
+    relation: supports
+    target: {scope: episode, episodeId: united-kingdom-john-radcliffe-1982-1987, aspect: consequences}

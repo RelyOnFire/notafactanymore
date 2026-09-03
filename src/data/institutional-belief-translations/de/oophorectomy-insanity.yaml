@@ -1,60 +1,96 @@
+schemaVersion: 2
 locale: de
 entryId: oophorectomy-insanity
 sourceReviewedAt: '2026-08-24'
 title: Entfernung der Eierstöcke als Behandlung von Geisteskrankheit
-claim: >-
-  Die Entfernung der Eierstöcke und Eileiter wurde als mögliche Behandlung von Geisteskrankheit eingesetzt, wenn
-  psychische Erkrankungen von Frauen auf Krankheiten oder Funktionsstörungen der Fortpflanzungsorgane zurückgeführt wurden.
-currentUnderstanding: >-
-  Oophorektomie und Salpingo-Oophorektomie haben berechtigte gynäkologische und onkologische Indikationen, doch die
-  Entfernung gesunder Eierstöcke ist keine Behandlung primärer psychischer Erkrankungen. Eine beidseitige Oophorektomie
-  ist irreversibel, führt zu Unfruchtbarkeit und verursacht vor der natürlichen Menopause eine operative Menopause
-  mit erheblichen hormonellen und langfristigen gesundheitlichen Folgen. Eine vermutete reproduktive Ursache
-  psychiatrischer Symptome rechtfertigt einen solchen Eingriff nicht ohne eigenständige chirurgische Indikation.
+proposition:
+  summary: >-
+    Die Entfernung der Eierstöcke und Eileiter wurde als mögliche Behandlung von Geisteskrankheit eingesetzt, wenn
+    psychische Erkrankungen von Frauen auf Krankheiten oder Funktionsstörungen der Fortpflanzungsorgane zurückgeführt wurden.
+correction:
+  summary: >-
+    Oophorektomie und Salpingo-Oophorektomie haben berechtigte gynäkologische und onkologische Indikationen, doch die
+    Entfernung gesunder Eierstöcke ist keine Behandlung primärer psychischer Erkrankungen. Eine beidseitige Oophorektomie
+    ist irreversibel, führt zu Unfruchtbarkeit und verursacht vor der natürlichen Menopause eine operative Menopause
+    mit erheblichen hormonellen und langfristigen gesundheitlichen Folgen. Eine vermutete reproduktive Ursache
+    psychiatrischer Symptome rechtfertigt einen solchen Eingriff nicht ohne eigenständige chirurgische Indikation.
 impact:
   summary: >-
     1892 begann das State Hospital for the Insane in Norristown, Pennsylvania, ein institutionell gebilligtes Programm,
     bei dem Frauen die Eierstöcke entfernt wurden, wenn ihre psychische Erkrankung auf reproduktive Pathologie
-    zurückgeführt wurde. Zeitgenössische Darstellungen zeigen, dass vier Frauen bereits operiert worden waren, als
-    das Programm formell untersucht wurde, und dass ungefähr fünfzig weitere Patientinnen für Eingriffe vorgesehen
-    oder vorgeschlagen waren. 1893 verurteilte Pennsylvanias Committee on Lunacy die Praxis und beendete das Programm.
+    zurückgeführt wurde. Zeitgenössische Darstellungen zeigen, dass vier Frauen bereits operiert worden waren, als das
+    Programm formell untersucht wurde, und dass ungefähr fünfzig weitere Patientinnen für Eingriffe vorgesehen oder
+    vorgeschlagen waren. 1893 verurteilte Pennsylvanias Committee on Lunacy die Praxis und beendete das Programm.
   highlights:
-  - value: '4'
-    label: Frauen waren bereits operiert worden, als das Programm formell untersucht wurde
-  - value: '~50'
-    label: weitere Frauen waren Berichten zufolge für Operationen vorgesehen oder vorgeschlagen
-  - value: '1893'
-    label: Pennsylvanias Committee on Lunacy schritt gegen das Programm ein
+    - value: '4'
+      label: Frauen waren bereits operiert worden, als das Programm formell untersucht wurde
+    - value: '~50'
+      label: weitere Frauen waren Berichten zufolge für Operationen vorgesehen oder vorgeschlagen
+    - value: '1893'
+      label: Pennsylvanias Committee on Lunacy schritt gegen das Programm ein
   context:
-  - >-
-    Historische Darstellungen unterscheiden sich bei der endgültigen Zahl der Operationen; spätere Quellen nennen
-    fünf oder sechs Fälle. Vier abgeschlossene Operationen sind zum Zeitpunkt der Kontroverse zeitgenössisch belegt;
-    die spätere Endzahl und die genaue Todeschronologie bleiben unsicherer.
-  - >-
-    Umstritten war der Einsatz der Operation als psychiatrische Behandlung. Bei einer eigenständig begründeten
-    gynäkologischen oder onkologischen Indikation kann eine Oophorektomie medizinisch angemessen sein.
+    - >-
+      Historische Darstellungen unterscheiden sich bei der endgültigen Zahl der Operationen; spätere Quellen nennen
+      fünf oder sechs Fälle. Vier abgeschlossene Operationen sind zum Zeitpunkt der Kontroverse zeitgenössisch belegt;
+      die spätere Endzahl und die genaue Todeschronologie bleiben unsicherer.
+    - >-
+      Umstritten war der Einsatz der Operation als psychiatrische Behandlung. Bei einer eigenständig begründeten
+      gynäkologischen oder onkologischen Indikation kann eine Oophorektomie medizinisch angemessen sein.
 episodes:
-- id: united-states-pennsylvania-1892-1893
-  polity: Vereinigte Staaten — Pennsylvania
-  institutions:
-  - State Hospital for the Insane at Norristown
-  institutionalContext: >-
-    Alice Bennett, leitende Ärztin der Frauenabteilung des State Hospital for the Insane in Norristown, und der Chirurg
-    Joseph Price verfolgten die Entfernung von Eierstöcken und verwandte reproduktive Eingriffe bei Frauen, deren
-    psychische Erkrankung auf Becken- oder Fortpflanzungspathologie zurückgeführt wurde. Die Trustees des Krankenhauses
-    genehmigten das Programm; es handelte sich daher nicht bloß um ein privates Experiment einzelner Ärzte. Bis Ende
-    1892 waren vier Frauen ovariektomiert worden, während weitere Patientinnen für Eingriffe erwogen wurden.
-    Pennsylvanias Board of Public Charities und dessen Committee on Lunacy untersuchten die Praxis 1893 und lehnten
-    ihre Fortsetzung ab.
-  consequences:
-  - Institutionalisierte Frauen wurden irreversiblen Eingriffen an den Fortpflanzungsorganen als psychiatrischer Behandlung unterzogen
-  - Die Operationen führten zu dauerhafter Unfruchtbarkeit und bei Entfernung beider Eierstöcke zu operativer Menopause
-  - Rund fünfzig weitere Frauen waren Berichten zufolge für Operationen vorgesehen oder vorgeschlagen, bevor das Programm gestoppt wurde
-  - Staatliche Aufsicht griff ein, nachdem medizinische, rechtliche und ethische Grundlagen der Eingriffe infrage gestellt worden waren
-  summary: >-
-    1892 begann die Frauenabteilung des staatlichen Krankenhauses in Norristown, Ovariektomien als Behandlung von
-    Geisteskrankheit einzusetzen, die auf Erkrankungen der Fortpflanzungsorgane zurückgeführt wurde. Das Programm war
-    von den Trustees gebilligt und damit institutionelle Behandlungspolitik statt bloßer Theorie einzelner Ärzte.
-    Vier Frauen waren bereits operiert worden, als die Praxis staatlich untersucht wurde; zeitgenössische Berichte
-    nennen ungefähr fünfzig weitere Patientinnen, die ausgewählt oder vorgeschlagen worden waren. 1893 verurteilte
-    das Pennsylvania Committee on Lunacy die Praxis, woraufhin das Programm eingestellt wurde.
+  - id: united-states-pennsylvania-1892-1893
+    polity: Vereinigte Staaten — Pennsylvania
+    institutions:
+      - State Hospital for the Insane at Norristown
+    institutionalContext: >-
+      Alice Bennett, leitende Ärztin der Frauenabteilung des State Hospital for the Insane in Norristown, und der
+      Chirurg Joseph Price verfolgten die Entfernung von Eierstöcken und verwandte reproduktive Eingriffe bei Frauen,
+      deren psychische Erkrankung auf Becken- oder Fortpflanzungspathologie zurückgeführt wurde. Die Trustees des
+      Krankenhauses genehmigten das Programm; es handelte sich daher nicht bloß um ein privates Experiment einzelner
+      Ärzte. Bis Ende 1892 waren vier Frauen ovariektomiert worden, während weitere Patientinnen für Eingriffe erwogen
+      wurden. Pennsylvanias Board of Public Charities und dessen Committee on Lunacy untersuchten die Praxis 1893 und
+      lehnten ihre Fortsetzung ab.
+    consequences:
+      - Institutionalisierte Frauen wurden irreversiblen Eingriffen an den Fortpflanzungsorganen als psychiatrischer Behandlung unterzogen
+      - Die Operationen führten zu dauerhafter Unfruchtbarkeit und bei Entfernung beider Eierstöcke zu operativer Menopause
+      - Rund fünfzig weitere Frauen waren Berichten zufolge für Operationen vorgesehen oder vorgeschlagen, bevor das Programm gestoppt wurde
+      - Staatliche Aufsicht griff ein, nachdem medizinische, rechtliche und ethische Grundlagen der Eingriffe infrage gestellt worden waren
+    summary: >-
+      1892 begann die Frauenabteilung des staatlichen Krankenhauses in Norristown, Ovariektomien als Behandlung von
+      Geisteskrankheit einzusetzen, die auf Erkrankungen der Fortpflanzungsorgane zurückgeführt wurde. Das Programm war
+      von den Trustees gebilligt und damit institutionelle Behandlungspolitik statt bloßer Theorie einzelner Ärzte.
+      Vier Frauen waren bereits operiert worden, als die Praxis staatlich untersucht wurde; zeitgenössische Berichte
+      nennen ungefähr fünfzig weitere Patientinnen, die ausgewählt oder vorgeschlagen worden waren. 1893 verurteilte
+      das Pennsylvania Committee on Lunacy die Praxis, woraufhin das Programm eingestellt wurde.
+    mechanism:
+      summary: >-
+        Die Trustees des Krankenhauses genehmigten ein Programm, in dem reproduktive Operationen bei institutionalisierten
+        Frauen als psychiatrische Behandlung eingesetzt wurden, wenn deren Erkrankung auf Becken- oder Eierstockpathologie zurückgeführt wurde.
+    institutionalCorrection:
+      periodLabel: '1893'
+      action: Pennsylvanias Board of Public Charities und Committee on Lunacy lehnten die Fortsetzung des Norristown-Programms für Eierstockoperationen ab.
+      summary: >-
+        Die staatliche Aufsicht griff formell gegen das Programm ein; das Krankenhaus stellte den psychiatrischen Einsatz
+        der Ovariektomie unter der beanstandeten Begründung anschließend ein.
+evidence:
+  - id: oophorectomy-ajp-proposition
+    note: >-
+      Zeitgenössischer Beitrag von 1893 des Committee-on-Lunacy-Mitglieds Thomas G. Morton zu den Norristown-Operationen
+      und der Behauptung, die Entfernung der Eierstöcke könne Geisteskrankheit heilen.
+  - id: oophorectomy-acog-correction
+    note: >-
+      Moderne klinische Leitlinie, die berechtigte gynäkologische Indikationen von den erheblichen Folgen einer beidseitigen
+      Salpingo-Oophorektomie unterscheidet, darunter operative Menopause und erhöhte langfristige Gesundheitsrisiken.
+  - id: oophorectomy-jaapl-impact
+    note: >-
+      Fachhistorische Rekonstruktion zu Alice Bennett, dem Norristown-Programm und der Untersuchung durch Pennsylvanias
+      Board of Public Charities 1893; sie verweist auf den primären staatlichen Bericht zu den Operationen.
+  - id: oophorectomy-library-carrier
+    note: >-
+      Historische Ausstellung einer Institution zu Bennetts Experimenten ab 1892, den Operationen an Frauen in Norristown
+      und den Einwänden des Committee on Lunacy.
+  - id: oophorectomy-jaapl-mechanism
+  - id: oophorectomy-ajp-consequences
+  - id: oophorectomy-jama-correction
+    note: >-
+      Zeitgenössischer Bericht von 1893 über Maßnahmen des Pennsylvania State Board of Public Charities und seines
+      Committee on Lunacy gegen Eierstockoperationen in einer staatlichen psychiatrischen Einrichtung.

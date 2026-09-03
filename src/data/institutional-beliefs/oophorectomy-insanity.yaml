@@ -1,13 +1,16 @@
+schemaVersion: 2
 title: Oophorectomy as a cure for insanity
-claim: >-
-  Removal of the ovaries and fallopian tubes was treated as a potential cure for insanity when women's psychiatric
-  illness was attributed to disease or dysfunction of the reproductive organs.
-currentUnderstanding: >-
-  Oophorectomy and salpingo-oophorectomy have legitimate gynecologic and cancer-related indications, but removing
-  healthy ovaries is not a treatment for primary psychiatric illness. Bilateral oophorectomy is irreversible, causes
-  infertility and, before natural menopause, produces surgical menopause with substantial endocrine and long-term
-  health consequences. A presumed reproductive cause of psychiatric symptoms does not justify such surgery without
-  an independently established surgical indication.
+proposition:
+  summary: >-
+    Removal of the ovaries and fallopian tubes was treated as a potential cure for insanity when women's psychiatric
+    illness was attributed to disease or dysfunction of the reproductive organs.
+correction:
+  summary: >-
+    Oophorectomy and salpingo-oophorectomy have legitimate gynecologic and cancer-related indications, but removing
+    healthy ovaries is not a treatment for primary psychiatric illness. Bilateral oophorectomy is irreversible, causes
+    infertility and, before natural menopause, produces surgical menopause with substantial endocrine and long-term
+    health consequences. A presumed reproductive cause of psychiatric symptoms does not justify such surgery without
+    an independently established surgical indication.
 category: Psychiatry and reproductive medicine
 reviewedAt: '2026-08-24'
 impact:
@@ -18,80 +21,126 @@ impact:
     fifty additional patients had been marked or proposed for surgery. In 1893 Pennsylvania's Committee on Lunacy
     condemned the practice and brought the program to an end.
   highlights:
-  - value: '4'
-    label: women had already undergone the operation when the program came under formal scrutiny
-  - value: '~50'
-    label: additional women were reported as marked or proposed for operation
-  - value: '1893'
-    label: Pennsylvania's Committee on Lunacy intervened against the program
+    - value: '4'
+      label: women had already undergone the operation when the program came under formal scrutiny
+    - value: '~50'
+      label: additional women were reported as marked or proposed for operation
+    - value: '1893'
+      label: Pennsylvania's Committee on Lunacy intervened against the program
   context:
-  - >-
-    Historical accounts differ on the eventual total number of operations, with later sources variously describing
-    five or six cases. Four completed operations are contemporaneously documented at the point of controversy; the
-    later final count and precise death chronology remain less certain.
-  - >-
-    The disputed practice was surgery undertaken as psychiatric treatment. Oophorectomy remains medically appropriate
-    when performed for an independently established gynecologic or cancer-related indication.
+    - >-
+      Historical accounts differ on the eventual total number of operations, with later sources variously describing
+      five or six cases. Four completed operations are contemporaneously documented at the point of controversy; the
+      later final count and precise death chronology remain less certain.
+    - >-
+      The disputed practice was surgery undertaken as psychiatric treatment. Oophorectomy remains medically appropriate
+      when performed for an independently established gynecologic or cancer-related indication.
 episodes:
-- id: united-states-pennsylvania-1892-1893
-  polity: United States — Pennsylvania
-  region: North America
-  startYear: 1892
-  endYear: 1893
-  periodLabel: 1892–1893
-  strength: officially-endorsed
-  institutionTypes:
-  - government
-  - medical
-  institutions:
-  - State Hospital for the Insane at Norristown
-  institutionalContext: >-
-    Alice Bennett, physician-in-chief of the women's department at the State Hospital for the Insane at Norristown,
-    and surgeon Joseph Price pursued removal of ovaries and related reproductive surgery in women whose psychiatric
-    illness was attributed to pelvic or reproductive pathology. The hospital's trustees authorized the program rather
-    than the operations occurring solely as a private experiment. By late 1892 four women had undergone ovariectomy,
-    while additional patients were being considered for operation. Pennsylvania's Board of Public Charities and its
-    Committee on Lunacy investigated the practice in 1893 and rejected its continuation.
-  consequences:
-  - Institutionalized women underwent irreversible reproductive surgery as psychiatric treatment
-  - The operations caused permanent loss of fertility and, where both ovaries were removed, surgical menopause
-  - Approximately fifty additional women were reported as marked or proposed for surgery before the program was stopped
-  - State oversight intervened after questioning the medical, legal and ethical basis of the operations
-  summary: >-
-    In 1892 the women's department of Pennsylvania's Norristown state hospital began using ovariectomy as a treatment
-    for insanity attributed to reproductive disease. The program had trustee approval and was therefore an institutional
-    treatment policy rather than merely an individual physician's theory. Four women had undergone the operation
-    when the practice became the subject of state scrutiny, and contemporary accounts reported that roughly fifty
-    additional patients had been selected or proposed. In 1893 the Pennsylvania Committee on Lunacy condemned the
-    practice and the program was discontinued.
-  sources:
-  - title: Removal of the Ovaries as a Cure for Insanity
+  - id: united-states-pennsylvania-1892-1893
+    polity: United States — Pennsylvania
+    region: North America
+    startYear: 1892
+    endYear: 1893
+    periodLabel: 1892–1893
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+      - medical
+    institutions:
+      - State Hospital for the Insane at Norristown
+    institutionalContext: >-
+      Alice Bennett, physician-in-chief of the women's department at the State Hospital for the Insane at Norristown,
+      and surgeon Joseph Price pursued removal of ovaries and related reproductive surgery in women whose psychiatric
+      illness was attributed to pelvic or reproductive pathology. The hospital's trustees authorized the program rather
+      than the operations occurring solely as a private experiment. By late 1892 four women had undergone ovariectomy,
+      while additional patients were being considered for operation. Pennsylvania's Board of Public Charities and its
+      Committee on Lunacy investigated the practice in 1893 and rejected its continuation.
+    consequences:
+      - Institutionalized women underwent irreversible reproductive surgery as psychiatric treatment
+      - The operations caused permanent loss of fertility and, where both ovaries were removed, surgical menopause
+      - Approximately fifty additional women were reported as marked or proposed for surgery before the program was stopped
+      - State oversight intervened after questioning the medical, legal and ethical basis of the operations
+    summary: >-
+      In 1892 the women's department of Pennsylvania's Norristown state hospital began using ovariectomy as a treatment
+      for insanity attributed to reproductive disease. The program had trustee approval and was therefore an institutional
+      treatment policy rather than merely an individual physician's theory. Four women had undergone the operation when
+      the practice became the subject of state scrutiny, and contemporary accounts reported that roughly fifty additional
+      patients had been selected or proposed. In 1893 the Pennsylvania Committee on Lunacy condemned the practice and
+      the program was discontinued.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Hospital trustees authorized a programme in which reproductive surgery was used as psychiatric treatment for
+        institutionalized women whose illness was attributed to pelvic or ovarian pathology.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: '1893'
+      action: Pennsylvania's Board of Public Charities and Committee on Lunacy rejected continuation of the Norristown ovarian-surgery programme.
+      summary: >-
+        State oversight formally intervened against the programme and the hospital discontinued the psychiatric use of
+        ovariectomy under the challenged rationale.
+sources:
+  - id: oophorectomy-ajp-1893
+    title: Removal of the Ovaries as a Cure for Insanity
     url: https://psychiatryonline.org/doi/10.1176/ajp.49.3.397
     publisher: American Journal of Insanity
+  - id: oophorectomy-jama-1893
+    title: Removal of the Ovaries as a Therapeutic Measure in Public Institutions for the Insane
+    url: https://jamanetwork.com/journals/jama/fullarticle/469834
+    publisher: JAMA
+  - id: oophorectomy-jaapl-history
+    title: Arsenic, Familicide, and Female Physiology in Nineteenth-Century America
+    url: https://jaapl.org/content/48/3/384
+    publisher: Journal of the American Academy of Psychiatry and the Law
+  - id: oophorectomy-library-company
+    title: Hearing Voices — Alice Bennett and reproductive surgery at Norristown
+    url: https://librarycompany.org/hearingvoices-online/section1.html
+    publisher: Library Company of Philadelphia
+  - id: oophorectomy-acog
+    title: Opportunistic Salpingectomy as a Strategy for Epithelial Ovarian Cancer Prevention
+    url: https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/04/opportunistic-salpingectomy-as-a-strategy-for-epithelial-ovarian-cancer-prevention
+    publisher: American College of Obstetricians and Gynecologists
+evidence:
+  - id: oophorectomy-ajp-proposition
+    sourceId: oophorectomy-ajp-1893
+    relation: documents
+    target: {scope: belief, aspect: proposition}
     note: >-
       Contemporary 1893 article by Thomas G. Morton, a member of Pennsylvania's Committee on Lunacy, addressing the
       Norristown operations and the claim that removal of the ovaries could cure insanity.
-  - title: Removal of the Ovaries as a Therapeutic Measure in Public Institutions for the Insane
-    url: https://jamanetwork.com/journals/jama/fullarticle/469834
-    publisher: JAMA
-    note: >-
-      Contemporary 1893 report describing action by the Pennsylvania State Board of Public Charities and its Committee
-      on Lunacy concerning ovarian operations carried out in a state institution for the insane.
-  - title: Arsenic, Familicide, and Female Physiology in Nineteenth-Century America
-    url: https://jaapl.org/content/48/3/384
-    publisher: Journal of the American Academy of Psychiatry and the Law
-    note: >-
-      Peer-reviewed historical reconstruction identifying Alice Bennett, the Norristown program and the 1893
-      Pennsylvania Board of Public Charities investigation; cites the primary state report on the surgical operations.
-  - title: Hearing Voices — Alice Bennett and reproductive surgery at Norristown
-    url: https://librarycompany.org/hearingvoices-online/section1.html
-    publisher: Library Company of Philadelphia
-    note: >-
-      Historical institutional exhibition describing Bennett's experiments beginning in 1892, the operations on
-      women at Norristown and the Committee on Lunacy's objections to the practice.
-  - title: Opportunistic Salpingectomy as a Strategy for Epithelial Ovarian Cancer Prevention
-    url: https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/04/opportunistic-salpingectomy-as-a-strategy-for-epithelial-ovarian-cancer-prevention
-    publisher: American College of Obstetricians and Gynecologists
+  - id: oophorectomy-acog-correction
+    sourceId: oophorectomy-acog
+    relation: supports
+    target: {scope: belief, aspect: correction}
     note: >-
       Modern clinical guidance distinguishing legitimate gynecologic indications from the substantial consequences
       of bilateral salpingo-oophorectomy, including surgical menopause and increased long-term health risks.
+  - id: oophorectomy-jaapl-impact
+    sourceId: oophorectomy-jaapl-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Peer-reviewed historical reconstruction identifying Alice Bennett, the Norristown program and the 1893
+      Pennsylvania Board of Public Charities investigation; cites the primary state report on the surgical operations.
+  - id: oophorectomy-library-carrier
+    sourceId: oophorectomy-library-company
+    relation: documents
+    target: {scope: episode, episodeId: united-states-pennsylvania-1892-1893, aspect: carrier}
+    note: >-
+      Historical institutional exhibition describing Bennett's experiments beginning in 1892, the operations on
+      women at Norristown and the Committee on Lunacy's objections to the practice.
+  - id: oophorectomy-jaapl-mechanism
+    sourceId: oophorectomy-jaapl-history
+    relation: documents
+    target: {scope: episode, episodeId: united-states-pennsylvania-1892-1893, aspect: mechanism}
+  - id: oophorectomy-ajp-consequences
+    sourceId: oophorectomy-ajp-1893
+    relation: supports
+    target: {scope: episode, episodeId: united-states-pennsylvania-1892-1893, aspect: consequences}
+  - id: oophorectomy-jama-correction
+    sourceId: oophorectomy-jama-1893
+    relation: documents
+    target: {scope: episode, episodeId: united-states-pennsylvania-1892-1893, aspect: institutional-correction}
+    note: >-
+      Contemporary 1893 report describing action by the Pennsylvania State Board of Public Charities and its Committee
+      on Lunacy concerning ovarian operations carried out in a state institution for the insane.

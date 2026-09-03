@@ -1,53 +1,82 @@
+schemaVersion: 2
 locale: de
 entryId: masturbation-insanity
 sourceReviewedAt: '2026-08-24'
 title: Masturbation als Ursache oder Verstärker von Geisteskrankheit
-claim: >-
-  Masturbation wurde als Ursache oder verschlimmernder Faktor psychischer Erkrankungen behandelt – bis hin dazu,
-  dass psychiatrische Einrichtungen sie ätiologisch erfassten und bei Patienten körperlich zu verhindern versuchten.
-currentUnderstanding: >-
-  Masturbation ist ein normales Sexualverhalten und keine Ursache von Geisteskrankheit oder psychischen Störungen.
-  Masturbatorisches oder anderes Sexualverhalten kann bei psychischen Erkrankungen begleitend auftreten oder
-  zwanghaften Charakter annehmen; daraus folgt jedoch nicht, dass es die zugrunde liegende Erkrankung verursacht
-  oder verschlimmert.
+proposition:
+  summary: >-
+    Masturbation wurde als Ursache oder verschlimmernder Faktor psychischer Erkrankungen behandelt – bis hin dazu,
+    dass psychiatrische Einrichtungen sie ätiologisch erfassten und bei Patienten körperlich zu verhindern versuchten.
+correction:
+  summary: >-
+    Masturbation ist ein normales Sexualverhalten und keine Ursache von Geisteskrankheit oder psychischen Störungen.
+    Masturbatorisches oder anderes Sexualverhalten kann bei psychischen Erkrankungen begleitend auftreten oder
+    zwanghaften Charakter annehmen; daraus folgt jedoch nicht, dass es die zugrunde liegende Erkrankung verursacht oder verschlimmert.
 impact:
   summary: >-
     1877 setzte das staatliche London Asylum for the Insane in Ontario die Annahme unmittelbar in Behandlung um,
-    Masturbation könne psychische Krankheitsanfälle auslösen oder bestehende Geisteskrankheit verschlimmern.
-    Superintendent R. M. Bucke ließ bei 15 männlichen Patienten eine Genital-„Verdrahtung“ einsetzen, die Masturbation
-    erschweren oder schmerzhaft machen sollte. Die Maßnahme scheiterte und wurde aufgegeben.
+    Masturbation könne psychische Krankheitsanfälle auslösen oder bestehende Geisteskrankheit verschlimmern. Superintendent
+    R. M. Bucke ließ bei 15 männlichen Patienten eine Genital-„Verdrahtung“ einsetzen, die Masturbation erschweren oder
+    schmerzhaft machen sollte. Die Maßnahme scheiterte und wurde aufgegeben.
   highlights:
-  - value: '1877'
-    label: Das London Asylum führte die dokumentierte Maßnahme gegen Masturbation durch
-  - value: '15'
-    label: männliche Patienten wurden der Genital-„Verdrahtung“ unterzogen
+    - value: '1877'
+      label: Das London Asylum führte die dokumentierte Maßnahme gegen Masturbation durch
+    - value: '15'
+      label: männliche Patienten wurden der Genital-„Verdrahtung“ unterzogen
   context:
-  - >-
-    Buckes Position war enger als die pauschale Aussage „jede Masturbation verursacht Geisteskrankheit“. Die historische
-    Rekonstruktion seines amtlichen Berichts zeigt, dass er Masturbation als möglichen Auslöser eines Anfalls oder
-    als verschlimmernden Faktor bestehender Krankheit behandelte. Seine Position umfasste damit sowohl Verursachung
-    als auch Verschlimmerung psychischer Erkrankung.
-  - >-
-    Die Zahl 15 bezeichnet Patienten. Einige biografische Darstellungen zählen 21 Eingriffe; daraus folgen jedoch
-    nicht 21 verschiedene Patienten.
+    - >-
+      Buckes Position war enger als die pauschale Aussage „jede Masturbation verursacht Geisteskrankheit“. Die historische
+      Rekonstruktion seines amtlichen Berichts zeigt, dass er Masturbation als möglichen Auslöser eines Anfalls oder als
+      verschlimmernden Faktor bestehender Krankheit behandelte. Seine Position umfasste damit sowohl Verursachung als auch Verschlimmerung psychischer Erkrankung.
+    - >-
+      Die Zahl 15 bezeichnet Patienten. Einige biografische Darstellungen zählen 21 Eingriffe; daraus folgen jedoch nicht 21 verschiedene Patienten.
 episodes:
-- id: canada-ontario-1877
-  polity: Kanada — Ontario
-  institutions:
-  - London Asylum for the Insane
-  institutionalContext: >-
-    In seinem ersten Jahr als medizinischer Superintendent setzte R. M. Bucke eine damals in der Psychiatrie verbreitete
-    Annahme praktisch um: Masturbation könne Geisteskrankheit auslösen oder verschlimmern. Sein Bericht von 1877,
-    überliefert in den Ontario Sessional Papers, dokumentierte einen Eingriff, der männliche Patienten am Masturbieren
-    hindern sollte. Da dies in einer staatlichen psychiatrischen Anstalt unter der Behandlungsautorität ihres
-    Superintendenten geschah, wurde aus einer medizinischen Theorie institutionelle Praxis.
-  summary: >-
-    1877 handelte R. M. Bucke in seinem ersten Jahr als Superintendent nach der Annahme, Masturbation könne
-    Krankheitsanfälle auslösen oder Geisteskrankheit verschlimmern. Die staatliche Anstalt unterzog 15 männliche
-    Patienten einer Genital-„Verdrahtung“, die Erektionen und Masturbation erschweren oder schmerzhaft machen sollte.
-    Das Verfahren verhinderte Masturbation nicht zuverlässig und wurde aufgegeben.
-  consequences:
-  - Fünfzehn männliche Patienten wurden einer Genital-„Verdrahtung“ unterzogen, die Erektionen und Masturbation hemmen sollte
-  - Schmerz und körperliche Einschränkung wurden als psychiatrische Behandlung an institutionalisierten Patienten eingesetzt
-  - Der Eingriff wurde fortgeführt, bis sich zeigte, dass er das Verhalten nicht zuverlässig verhinderte
-  - Die Behandlung verkörperte eine falsche kausale Deutung sexuellen Verhaltens psychisch kranker Patienten
+  - id: canada-ontario-1877
+    polity: Kanada — Ontario
+    institutions:
+      - London Asylum for the Insane
+    institutionalContext: >-
+      In seinem ersten Jahr als medizinischer Superintendent setzte R. M. Bucke eine damals in der Psychiatrie verbreitete
+      Annahme praktisch um: Masturbation könne Geisteskrankheit auslösen oder verschlimmern. Sein Bericht von 1877,
+      überliefert in den Ontario Sessional Papers, dokumentierte einen Eingriff, der männliche Patienten am Masturbieren
+      hindern sollte. Da dies in einer staatlichen psychiatrischen Anstalt unter der Behandlungsautorität ihres Superintendenten
+      geschah, wurde aus einer medizinischen Theorie institutionelle Praxis.
+    summary: >-
+      1877 handelte R. M. Bucke in seinem ersten Jahr als Superintendent nach der Annahme, Masturbation könne Krankheitsanfälle
+      auslösen oder Geisteskrankheit verschlimmern. Die staatliche Anstalt unterzog 15 männliche Patienten einer
+      Genital-„Verdrahtung“, die Erektionen und Masturbation erschweren oder schmerzhaft machen sollte. Das Verfahren
+      verhinderte Masturbation nicht zuverlässig und wurde aufgegeben.
+    consequences:
+      - Fünfzehn männliche Patienten wurden einer Genital-„Verdrahtung“ unterzogen, die Erektionen und Masturbation hemmen sollte
+      - Schmerz und körperliche Einschränkung wurden als psychiatrische Behandlung an institutionalisierten Patienten eingesetzt
+      - Der Eingriff wurde fortgeführt, bis sich zeigte, dass er das Verhalten nicht zuverlässig verhinderte
+      - Die Behandlung verkörperte eine falsche kausale Deutung sexuellen Verhaltens psychisch kranker Patienten
+    mechanism:
+      summary: >-
+        Der Superintendent verwandelte eine ätiologische Annahme über Masturbation in ein körperliches Behandlungsprogramm,
+        bei dem institutionalisierte männliche Patienten durch Genitalverdrahtung am Verhalten gehindert werden sollten.
+    institutionalCorrection:
+      periodLabel: '1877'
+      action: Das London Asylum stellte die Verdrahtungsmaßnahme ein, nachdem sie Masturbation nicht zuverlässig verhindert hatte.
+      summary: >-
+        Die Einrichtung gab den konkreten Zwangseingriff nach seinem Scheitern auf; der erhaltene Nachweis belegt jedoch
+        keine formelle institutionelle Zurückweisung der breiteren Kausaltheorie von Masturbation und Geisteskrankheit.
+evidence:
+  - id: masturbation-history-proposition
+    note: >-
+      Fachhistorische Studie, die Buckes Maßnahme von 1877 aus dem Anstaltsbericht rekonstruiert: 15 männliche Patienten
+      wurden verdrahtet, Masturbation galt als möglicher Auslöser oder Verstärker von Geisteskrankheit, und die Maßnahme
+      scheiterte und wurde eingestellt.
+  - id: masturbation-review-correction
+    note: >-
+      Medizinhistorische Übersicht zur Entstehung und Aufgabe des Glaubens, Masturbation verursache psychische Erkrankungen.
+  - id: masturbation-history-impact
+  - id: masturbation-report-carrier
+    note: >-
+      Primärer provinzieller Jahresbericht mit Buckes London-Asylum-Bericht von 1877. Die betreffende Maßnahme wird in
+      der historischen Forschung auf Ontario Sessional Papers, 1878, Band 10, Teil ii, Nr. 4, S. 280 verortet.
+  - id: masturbation-report-mechanism
+  - id: masturbation-rsc-consequences
+    note: >-
+      Biografische Darstellung der Genitalverdrahtung bei 15 Patienten des London Asylum und des Scheiterns des Experiments.
+  - id: masturbation-history-partial-correction

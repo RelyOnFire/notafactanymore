@@ -1,95 +1,158 @@
+schemaVersion: 2
 title: Cardiazol-induced seizures as a treatment for schizophrenia
-claim: Schizophrenia and epilepsy were treated as biologically antagonistic disorders, so chemically inducing epileptiform
-  seizures with Cardiazol (pentylenetetrazol/Metrazol) was expected to produce remission in schizophrenia.
-currentUnderstanding: 'Schizophrenia and epilepsy are not biologically opposing disease states whose coexistence
-  can be therapeutically reversed by provoking seizures. Early Cardiazol results were distorted by uncontrolled
-  comparisons, changing diagnostic definitions and outcome measures that sometimes equated quieter or more manageable
-  behavior with recovery. Convulsive treatment itself should not be dismissed wholesale: modern electroconvulsive
-  therapy has evidence-based indications, including severe depression, catatonia and selected treatment-resistant
-  conditions. The historical error was the specific antagonism theory and the resulting use of an intensely distressing,
-  poorly controlled chemical convulsant as a routine schizophrenia treatment.'
+proposition:
+  summary: >-
+    Schizophrenia and epilepsy were treated as biologically antagonistic disorders, so chemically inducing epileptiform
+    seizures with Cardiazol (pentylenetetrazol/Metrazol) was expected to produce remission in schizophrenia.
+correction:
+  summary: >-
+    Schizophrenia and epilepsy are not biologically opposing disease states whose coexistence can be therapeutically
+    reversed by provoking seizures. Early Cardiazol results were distorted by uncontrolled comparisons, changing
+    diagnostic definitions and outcome measures that sometimes equated quieter or more manageable behavior with recovery.
+    Convulsive treatment itself should not be dismissed wholesale: modern electroconvulsive therapy has evidence-based
+    indications, including severe depression, catatonia and selected treatment-resistant conditions. The historical
+    error was the specific antagonism theory and the resulting use of an intensely distressing, poorly controlled
+    chemical convulsant as a routine schizophrenia treatment.
 category: Medicine and public health
 reviewedAt: '2026-08-24'
 impact:
-  summary: Cardiazol therapy spread through British public mental hospitals within roughly two years of its introduction.
+  summary: >-
+    Cardiazol therapy spread through British public mental hospitals within roughly two years of its introduction.
     Patients received intravenous convulsant injections that could produce overwhelming pre-seizure terror and violent
     generalized convulsions. The Board of Control investigated and reported on the method as hospitals adopted it,
     but the original theory that induced epilepsy would counteract schizophrenia collapsed quickly.
   highlights:
-  - value: 89 / 92
-    label: British institutions using shock treatments in the 1938 Board of Control survey were using Cardiazol
-  - value: '1938'
-    label: Board of Control issued a national report on Cardiazol treatment in schizophrenia
-  - value: '1941'
-    label: British clinicians were acknowledging that the original schizophrenia indication had been abandoned
+    - value: 89 / 92
+      label: British institutions using shock treatments in the 1938 Board of Control survey were using Cardiazol
+    - value: '1938'
+      label: Board of Control issued a national report on Cardiazol treatment in schizophrenia
+    - value: '1941'
+      label: British clinicians were acknowledging that the original schizophrenia indication had been abandoned
   context:
-  - Cardiazol is also known as pentylenetetrazol or Metrazol. Chemical Cardiazol convulsions for schizophrenia
-    are distinct from modern ECT. ECT replaced Cardiazol partly because an electrical stimulus allowed a more
-    controllable seizure with less pre-convulsive terror and fewer traumatic injuries.
-  - Some later evidence suggested convulsive treatment could benefit affective illness. That does not rescue Meduna's
-    original claim that schizophrenia could be treated because epilepsy and schizophrenia were biologically antagonistic.
+    - >-
+      Cardiazol is also known as pentylenetetrazol or Metrazol. Chemical Cardiazol convulsions for schizophrenia
+      are distinct from modern ECT. ECT replaced Cardiazol partly because an electrical stimulus allowed a more
+      controllable seizure with less pre-convulsive terror and fewer traumatic injuries.
+    - >-
+      Some later evidence suggested convulsive treatment could benefit affective illness. That does not rescue Meduna's
+      original claim that schizophrenia could be treated because epilepsy and schizophrenia were biologically antagonistic.
 episodes:
-- id: england-wales-1937-1941
-  polity: England and Wales
-  region: Europe
-  startYear: 1937
-  endYear: 1941
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  - professional
-  institutions:
-  - Board of Control for England and Wales
-  - British public mental hospitals
-  - Royal Medico-Psychological Association
-  institutionalContext: Cardiazol convulsive treatment reached Britain in 1937 and spread extremely rapidly through
-    the public mental-hospital system. The Board of Control noted its use at several institutions in its 1937 report,
-    sent officials to Hungary to study the method and published a dedicated 1938 report on Cardiazol and shock treatment
-    in schizophrenia. A late-1938 Board survey found shock treatments underway at 92 institutions, 89 of them using
-    Cardiazol. The therapy was originally justified by Ladislas Meduna's hypothesis that epilepsy and schizophrenia
-    were biologically antagonistic and that inducing epileptiform seizures could therefore cause schizophrenic remission.
-    By 1941 British clinicians were acknowledging that this original conception had been abandoned, while electrical
-    convulsive therapy was rapidly supplanting the chemical method.
-  consequences:
-  - Large-scale chemical induction of generalized seizures in psychiatric patients
-  - Extreme anticipatory fear and distress immediately before convulsions
-  - Risk of vertebral and other fractures, memory disturbance and cerebral injury
-  - Behavioral quieting or ward manageability could be misclassified as therapeutic improvement
-  - Rapid national diffusion before the underlying schizophrenia theory had been established
-  summary: Britain rapidly adopted Cardiazol convulsive therapy after its 1937 introduction. The treatment was built
-    on the theory that schizophrenia and epilepsy were biological opposites, so provoking epileptiform seizures
-    should drive schizophrenia into remission. The Board of Control investigated the method and by late 1938 found
-    Cardiazol in use at 89 institutions. Subsequent experience exposed unstable remission claims, serious distress
-    and injuries, and major problems in how 'improvement' was measured. By 1941 British clinicians were explicitly
-    saying that the original conception of convulsive therapy as a schizophrenia treatment had been abandoned, while
-    ECT replaced the less controllable chemical procedure.
-  sources:
-  - title: '''A violent thunderstorm'': Cardiazol treatment in British mental hospitals'
+  - id: england-wales-1937-1941
+    polity: England and Wales
+    region: Europe
+    startYear: 1937
+    endYear: 1941
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+      - professional
+    institutions:
+      - Board of Control for England and Wales
+      - British public mental hospitals
+      - Royal Medico-Psychological Association
+    institutionalContext: >-
+      Cardiazol convulsive treatment reached Britain in 1937 and spread extremely rapidly through the public
+      mental-hospital system. The Board of Control noted its use at several institutions in its 1937 report, sent
+      officials to Hungary to study the method and published a dedicated 1938 report on Cardiazol and shock treatment
+      in schizophrenia. A late-1938 Board survey found shock treatments underway at 92 institutions, 89 of them using
+      Cardiazol. The therapy was originally justified by Ladislas Meduna's hypothesis that epilepsy and schizophrenia
+      were biologically antagonistic and that inducing epileptiform seizures could therefore cause schizophrenic remission.
+      By 1941 British clinicians were acknowledging that this original conception had been abandoned, while electrical
+      convulsive therapy was rapidly supplanting the chemical method.
+    consequences:
+      - Large-scale chemical induction of generalized seizures in psychiatric patients
+      - Extreme anticipatory fear and distress immediately before convulsions
+      - Risk of vertebral and other fractures, memory disturbance and cerebral injury
+      - Behavioral quieting or ward manageability could be misclassified as therapeutic improvement
+      - Rapid national diffusion before the underlying schizophrenia theory had been established
+    summary: >-
+      Britain rapidly adopted Cardiazol convulsive therapy after its 1937 introduction. The treatment was built on
+      the theory that schizophrenia and epilepsy were biological opposites, so provoking epileptiform seizures should
+      drive schizophrenia into remission. The Board of Control investigated the method and by late 1938 found Cardiazol
+      in use at 89 institutions. Subsequent experience exposed unstable remission claims, serious distress and injuries,
+      and major problems in how “improvement” was measured. By 1941 British clinicians were explicitly saying that
+      the original conception of convulsive therapy as a schizophrenia treatment had been abandoned, while ECT replaced
+      the less controllable chemical procedure.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        The Board of Control investigated, reported on and surveyed Cardiazol treatment while public mental hospitals
+        rapidly incorporated the chemical-convulsion regimen into routine schizophrenia care.
+    institutionalCorrection:
+      status: partial
+      periodLabel: '1941'
+      action: British clinicians abandoned the original schizophrenia–epilepsy antagonism rationale as electrical convulsive therapy displaced Cardiazol.
+      summary: >-
+        The original theory and Cardiazol regimen were abandoned in British clinical practice, but the available record
+        does not identify a single formal Board of Control or professional resolution repudiating the earlier programme.
+sources:
+  - id: cardiazol-history
+    title: '“A violent thunderstorm”: Cardiazol treatment in British mental hospitals'
     url: https://pubmed.ncbi.nlm.nih.gov/17153475/
     publisher: History of Psychiatry / PubMed
-    note: Peer-reviewed historical analysis describing Cardiazol as the most widely used major somatic treatment
-      in British public mental hospitals in the late 1930s, tracing the dubious biological-antagonism hypothesis,
-      flawed outcome measurement, severe fear and the transition away from Cardiazol.
-  - title: Report on Cardiazol Treatment and on the Present Application of Hypoglycaemic Shock Treatment in Schizophrenia
+  - id: cardiazol-board-report
+    title: Report on Cardiazol Treatment and on the Present Application of Hypoglycaemic Shock Treatment in Schizophrenia
     url: https://books.google.com/books/about/Report_on_Cardiazol_Treatment_and_on_the.html?id=rdN0l6YuOXcC
     publisher: Board of Control for England and Wales / H.M. Stationery Office
-    note: Bibliographic and digitized record of the Board of Control's 1938 official report specifically evaluating
-      Cardiazol treatment and shock treatment in schizophrenia.
-  - title: Mental Treatment — House of Commons debate, 14 July 1938
+  - id: cardiazol-hansard
+    title: Mental Treatment — House of Commons debate, 14 July 1938
     url: https://api.parliament.uk/historic-hansard/commons/1938/jul/14/mental-treatment
     publisher: UK Parliament — Historic Hansard
-    note: Primary parliamentary record confirming that the Board of Control was preparing a government report on
-      Cardiazol injections for schizophrenia as the new treatment spread through public mental hospitals.
-  - title: The treatment of schizophrenia with Metrazol by the production of convulsions
+  - id: cardiazol-jama
+    title: The treatment of schizophrenia with Metrazol by the production of convulsions
     url: https://jamanetwork.com/journals/jama/article-abstract/280297
     publisher: JAMA
-    note: Contemporary 1938 clinical paper explicitly states Meduna's theory that schizophrenia and epilepsy were
-      biologically antagonistic and describes attempts to cause remission by inducing epileptiform seizures with
-      Metrazol.
-  - title: The Medical Prescription of Patient Occupation
+  - id: cardiazol-ncbi-history
+    title: The Medical Prescription of Patient Occupation
     url: https://www.ncbi.nlm.nih.gov/books/NBK588725/
     publisher: Palgrave Macmillan / NCBI Bookshelf
-    note: Modern historical synthesis identifying Cardiazol as the most widely used somatic treatment for schizophrenia
-      and affective disorders in British public mental hospitals and noting that the Maudsley barred trials because
+evidence:
+  - id: cardiazol-jama-proposition
+    sourceId: cardiazol-jama
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Contemporary 1938 clinical paper explicitly states Meduna's theory that schizophrenia and epilepsy were
+      biologically antagonistic and describes attempts to cause remission by inducing epileptiform seizures with Metrazol.
+  - id: cardiazol-history-correction
+    sourceId: cardiazol-history
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Peer-reviewed historical analysis describes the dubious biological-antagonism hypothesis, flawed outcome measurement,
+      severe fear and the transition away from Cardiazol.
+  - id: cardiazol-history-impact
+    sourceId: cardiazol-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+  - id: cardiazol-board-carrier
+    sourceId: cardiazol-board-report
+    relation: documents
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: carrier}
+    note: >-
+      Bibliographic and digitized record of the Board of Control's 1938 official report specifically evaluating
+      Cardiazol treatment and shock treatment in schizophrenia.
+  - id: cardiazol-hansard-mechanism
+    sourceId: cardiazol-hansard
+    relation: documents
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: mechanism}
+    note: >-
+      Primary parliamentary record confirming that the Board of Control was preparing a government report on
+      Cardiazol injections for schizophrenia as the new treatment spread through public mental hospitals.
+  - id: cardiazol-history-consequences
+    sourceId: cardiazol-history
+    relation: supports
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: consequences}
+  - id: cardiazol-history-partial-correction
+    sourceId: cardiazol-history
+    relation: documents
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: institutional-correction}
+  - id: cardiazol-ncbi-context
+    sourceId: cardiazol-ncbi-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: context}
+    note: >-
+      Modern historical synthesis identifies Cardiazol as the most widely used somatic treatment for schizophrenia
+      and affective disorders in British public mental hospitals and notes that the Maudsley barred trials because
       the induced convulsions caused extreme anxiety and fear.

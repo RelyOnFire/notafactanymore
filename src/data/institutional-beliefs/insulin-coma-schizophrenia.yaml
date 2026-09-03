@@ -1,136 +1,209 @@
+schemaVersion: 2
 title: Insulin coma therapy as a treatment for schizophrenia
 entryId: insulin-coma-therapy-treats-schizophrenia
-claim: Repeated insulin-induced hypoglycaemic coma was treated as a specific or basic therapy capable of producing
-  remission or cure in schizophrenia.
-currentUnderstanding: Controlled comparisons did not establish a specific therapeutic benefit from insulin coma
-  itself in schizophrenia. Apparent improvement in early uncontrolled series could reflect patient selection, the
-  natural course of illness, intensive nursing and social care, concurrent treatments, and other non-specific effects.
-  Deliberately inducing profound hypoglycaemia also carried substantial risks, including convulsions, prolonged
-  coma, neurological injury, and death. The historical correction is therefore not that no patient ever improved
-  during an insulin-coma course, but that the insulin-induced coma was not shown to be the effective antischizophrenic
-  mechanism institutions claimed.
+proposition:
+  summary: >-
+    Repeated insulin-induced hypoglycaemic coma was treated as a specific or basic therapy capable of producing
+    remission or cure in schizophrenia.
+correction:
+  summary: >-
+    Controlled comparisons did not establish a specific therapeutic benefit from insulin coma itself in schizophrenia.
+    Apparent improvement in early uncontrolled series could reflect patient selection, the natural course of illness,
+    intensive nursing and social care, concurrent treatments, and other non-specific effects. Deliberately inducing
+    profound hypoglycaemia also carried substantial risks, including convulsions, prolonged coma, neurological injury,
+    and death. The historical correction is therefore not that no patient ever improved during an insulin-coma course,
+    but that the insulin-induced coma was not shown to be the effective antischizophrenic mechanism institutions claimed.
 category: Medicine and public health
 reviewedAt: '2026-08-24'
 impact:
-  summary: Insulin coma therapy deliberately pushed psychiatric patients into profound hypoglycaemia, often repeatedly
-    over weeks. It spread rapidly from Vienna into psychiatric hospitals internationally and became a highly staffed,
+  summary: >-
+    Insulin coma therapy deliberately pushed psychiatric patients into profound hypoglycaemia, often repeatedly over
+    weeks. It spread rapidly from Vienna into psychiatric hospitals internationally and became a highly staffed,
     institutional treatment for schizophrenia. Vienna continued using it around 1970 even after controlled studies
     had undermined the claim of a specific therapeutic effect.
   highlights:
-  - value: '965'
-    label: insulin-treatment cases recorded at Vienna's university psychiatric clinic from 1951–1969, mostly coma
-      therapy
-  - value: 31 hospitals
-    label: were using deep insulin coma therapy in England and Wales by 1938
-  - value: 0.5–4.5%
-    label: range of mortality estimates reported in contemporary insulin-coma literature
+    - value: '965'
+      label: insulin-treatment cases recorded at Vienna's university psychiatric clinic from 1951–1969, mostly coma therapy
+    - value: 31 hospitals
+      label: were using deep insulin coma therapy in England and Wales by 1938
+    - value: 0.5–4.5%
+      label: range of mortality estimates reported in contemporary insulin-coma literature
   context:
-  - Insulin coma therapy for schizophrenia was distinct from ordinary insulin treatment for diabetes. Patients
-    were intentionally made severely hypoglycaemic and unconscious, then revived with glucose or, later in Vienna,
-    glucagon.
-  - Its decline had more than one cause. Scientific criticism and controlled trials challenged efficacy, while new
-    antipsychotic drugs were also simpler and cheaper to administer. The disappearance of a treatment does not by
-    itself prove why institutions abandoned it.
+    - >-
+      Insulin coma therapy for schizophrenia was distinct from ordinary insulin treatment for diabetes. Patients were
+      intentionally made severely hypoglycaemic and unconscious, then revived with glucose or, later in Vienna, glucagon.
+    - >-
+      Its decline had more than one cause. Scientific criticism and controlled trials challenged efficacy, while new
+      antipsychotic drugs were also simpler and cheaper to administer. The disappearance of a treatment does not by
+      itself prove why institutions abandoned it.
 episodes:
-- id: austria-vienna-1935-1970
-  polity: Austria — Vienna
-  region: Europe
-  startYear: 1935
-  endYear: 1970
-  periodLabel: 1935–c.1970
-  strength: policy-basis
-  institutionTypes:
-  - university
-  - medical
-  institutions:
-  - Psychiatric-Neurological University Clinic, Vienna
-  - University of Vienna / later Medical University of Vienna clinical tradition
-  institutionalContext: Manfred Sakel developed insulin coma therapy for schizophrenia at Vienna's university psychiatric
-    clinic in the mid-1930s. The treatment became embedded in the clinic's therapeutic practice and survived the
-    arrival of neuroleptic drugs. Under Hans Hoff, Vienna clinicians still described correctly indicated full insulin
-    shock treatment in 1960 as the basic treatment for schizophrenia. A modern review of the clinic's records found
-    965 insulin-treatment cases from 1951–1969, the great majority involving insulin coma therapy, and records continued
-    into 1968; the historical study places final discontinuation at about 1970.
-  consequences:
-  - Repeated deliberate induction of profound hypoglycaemia and coma in psychiatric patients
-  - Courses commonly involving dozens of coma inductions over several weeks
-  - Risk of convulsions, prolonged coma, neurological injury and death
-  - Continuation of an invasive treatment after its specific efficacy had become seriously disputed
-  summary: 'Insulin coma therapy was developed in Vienna in the mid-1930s and became an established treatment for
-    schizophrenia at the university psychiatric clinic. Clinicians expected early cases to be curable and prescribed
-    repeated comas as a central treatment. Its use declined after neuroleptics appeared and efficacy was increasingly
-    challenged, but Vienna persisted unusually long: a 2025/26 historical study found 965 insulin-treatment cases
-    between 1951 and 1969, mostly coma therapy, and concluded that insulin coma treatment continued there until
-    about 1970.'
-  sources:
-  - title: 'In the shadow of the “psychopharmacological revolution”: Malaria fever, insulin coma, cardiazol and
-      electroconvulsive therapy at the Vienna Psychiatric University Clinic, 1951–1969'
+  - id: austria-vienna-1935-1970
+    polity: Austria — Vienna
+    region: Europe
+    startYear: 1935
+    endYear: 1970
+    periodLabel: 1935–c.1970
+    strength: policy-basis
+    institutionTypes:
+      - university
+      - medical
+    institutions:
+      - Psychiatric-Neurological University Clinic, Vienna
+      - University of Vienna / later Medical University of Vienna clinical tradition
+    institutionalContext: >-
+      Manfred Sakel developed insulin coma therapy for schizophrenia at Vienna's university psychiatric clinic in the
+      mid-1930s. The treatment became embedded in the clinic's therapeutic practice and survived the arrival of
+      neuroleptic drugs. Under Hans Hoff, Vienna clinicians still described correctly indicated full insulin shock
+      treatment in 1960 as the basic treatment for schizophrenia. A modern review of the clinic's records found 965
+      insulin-treatment cases from 1951–1969, the great majority involving insulin coma therapy, and records continued
+      into 1968; the historical study places final discontinuation at about 1970.
+    consequences:
+      - Repeated deliberate induction of profound hypoglycaemia and coma in psychiatric patients
+      - Courses commonly involving dozens of coma inductions over several weeks
+      - Risk of convulsions, prolonged coma, neurological injury and death
+      - Continuation of an invasive treatment after its specific efficacy had become seriously disputed
+    summary: >-
+      Insulin coma therapy was developed in Vienna in the mid-1930s and became an established treatment for schizophrenia
+      at the university psychiatric clinic. Clinicians expected early cases to be curable and prescribed repeated comas
+      as a central treatment. Its use declined after neuroleptics appeared and efficacy was increasingly challenged,
+      but Vienna persisted unusually long: a 2025/26 historical study found 965 insulin-treatment cases between 1951
+      and 1969, mostly coma therapy, and concluded that insulin coma treatment continued there until about 1970.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Vienna's university psychiatric clinic embedded repeated insulin-induced coma in routine schizophrenia treatment,
+        maintaining dedicated clinical practice and continuing the regimen after neuroleptic drugs became available.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        The treatment was discontinued around 1970 after prolonged scientific criticism and therapeutic change, but
+        the existing record does not identify a dated Vienna institutional act formally repudiating insulin coma therapy.
+  - id: england-wales-1936-1960
+    polity: England and Wales
+    region: Europe
+    startYear: 1936
+    endYear: 1960
+    periodLabel: 1936–c.1960
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+      - professional
+    institutions:
+      - Board of Control for England and Wales
+      - Mental hospitals in England and Wales
+      - Royal Medico-Psychological Association
+    institutionalContext: >-
+      The Board of Control, which inspected and supervised mental hospitals, sent a medical commissioner to Vienna in
+      1936 and then published guidance on hypoglycaemic shock treatment. Institutional adoption was rapid: by 1938 deep
+      insulin coma therapy was established in 31 hospitals in England and Wales. Professional psychiatric bodies and
+      leading textbooks continued to support the treatment through the 1940s and 1950s. A 1957 controlled randomized
+      study found no significant benefit from insulin over a non-insulin coma comparison, and the procedure was soon
+      displaced and abandoned in British practice.
+    consequences:
+      - Government-supported diffusion of insulin coma units through the mental-hospital system
+      - Repeated invasive treatment of people diagnosed with schizophrenia
+      - High staffing and prolonged hospitalization requirements
+      - Exposure to severe hypoglycaemia, convulsions, neurological complications and mortality risk
+    summary: >-
+      England and Wales rapidly institutionalized insulin coma treatment after the Board of Control investigated the
+      Vienna method in 1936. By 1938 it was established in 31 hospitals and had strong professional support. Criticism
+      intensified in the 1950s, and a 1957 controlled trial found no significant difference between insulin coma and
+      a comparison coma treatment, undermining the claim that insulin itself was a specific treatment for schizophrenia.
+      British use then declined rapidly around the end of the decade.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Board of Control investigation and guidance helped diffuse dedicated insulin-coma treatment units through the
+        mental-hospital system, reinforced by professional meetings and psychiatric teaching.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        British use declined rapidly after controlled evidence undermined a specific insulin effect, but the available
+        record does not identify a single dated Board of Control or professional act formally withdrawing the treatment.
+sources:
+  - id: insulin-vienna-study
+    title: 'In the shadow of the “psychopharmacological revolution”: Malaria fever, insulin coma, cardiazol and electroconvulsive therapy at the Vienna Psychiatric University Clinic, 1951–1969'
     url: https://link.springer.com/article/10.1007/s00508-025-02592-w
     publisher: Wiener klinische Wochenschrift / Springer Nature
-    note: Open-access historical study based on Vienna clinic records. It documents 965 insulin-treatment cases
-      in 1951–1969, mostly insulin coma therapy; the expectation of curing early schizophrenia; a 1960 description
-      of full insulin shock as the basic treatment; and continuation in Vienna to about 1970.
-  - title: 'Malaria fever therapy: wide-spread administration in Vienna was an exceptional case — results from the
-      historical commission'
+  - id: insulin-meduni-history
+    title: 'Malaria fever therapy: wide-spread administration in Vienna was an exceptional case — results from the historical commission'
     url: https://www.meduniwien.ac.at/web/en/about-us/news/detailsite/malaria-fever-therapy-wide-spread-administration-in-vienna-was-an-exceptional-case-medical-university-of-vienna-presents-results-from-the-historical-commission/
     publisher: Medical University of Vienna
-    note: Official university account of the historical commission confirming continued parallel use of insulin
-      coma and other shock/fever therapies at the Vienna clinic during the transition to psychopharmacology.
-  - title: ‘A landmark in psychiatric progress’? The role of evidence in the rise and fall of insulin coma therapy
+  - id: insulin-ucl-history
+    title: '‘A landmark in psychiatric progress’? The role of evidence in the rise and fall of insulin coma therapy'
     url: https://discovery.ucl.ac.uk/id/eprint/10141234/
     publisher: History of Psychiatry / University College London
-    note: Peer-reviewed history of the evidence showing long-running scientific doubts, later randomized comparisons,
-      lack of demonstrated specific efficacy, and contemporary mortality estimates.
-- id: england-wales-1936-1960
-  polity: England and Wales
-  region: Europe
-  startYear: 1936
-  endYear: 1960
-  periodLabel: 1936–c.1960
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  - professional
-  institutions:
-  - Board of Control for England and Wales
-  - Mental hospitals in England and Wales
-  - Royal Medico-Psychological Association
-  institutionalContext: 'The Board of Control, which inspected and supervised mental hospitals, sent a medical commissioner
-    to Vienna in 1936 and then published guidance on hypoglycaemic shock treatment. Institutional adoption was rapid:
-    by 1938 deep insulin coma therapy was established in 31 hospitals in England and Wales. Professional psychiatric
-    bodies and leading textbooks continued to support the treatment through the 1940s and 1950s. A 1957 controlled
-    randomized study found no significant benefit from insulin over a non-insulin coma comparison, and the procedure
-    was soon displaced and abandoned in British practice.'
-  consequences:
-  - Government-supported diffusion of insulin coma units through the mental-hospital system
-  - Repeated invasive treatment of people diagnosed with schizophrenia
-  - High staffing and prolonged hospitalization requirements
-  - Exposure to severe hypoglycaemia, convulsions, neurological complications and mortality risk
-  summary: England and Wales rapidly institutionalized insulin coma treatment after the Board of Control investigated
-    the Vienna method in 1936. By 1938 it was established in 31 hospitals and had strong professional support. Criticism
-    intensified in the 1950s, and a 1957 controlled trial found no significant difference between insulin coma and
-    a comparison coma treatment, undermining the claim that insulin itself was a specific treatment for schizophrenia.
-    British use then declined rapidly around the end of the decade.
-  sources:
-  - title: Insulin coma therapy in schizophrenia
+  - id: insulin-jrsm-history
+    title: Insulin coma therapy in schizophrenia
     url: https://journals.sagepub.com/doi/pdf/10.1177/014107680009300313
     publisher: Journal of the Royal Society of Medicine
-    note: Historical review based on British records describing Board of Control sponsorship, use in 31 hospitals
-      by 1938, the highly intensive treatment regimen, mortality and brain-injury risk, professional support, and
-      the 1957 controlled study that found no specific insulin benefit.
-  - title: Insulin treatment of schizophrenia; a controlled study
+  - id: insulin-lancet-trial
+    title: Insulin treatment of schizophrenia; a controlled study
     url: https://pubmed.ncbi.nlm.nih.gov/13407078/
     publisher: The Lancet / PubMed
-    note: Primary 1957 controlled study by Ackner, Harris and Oldham, widely treated as a pivotal experimental test
-      of whether insulin coma itself conferred a specific benefit in schizophrenia.
-  - title: The Retreat Archive — Insulin Coma Therapy
+  - id: insulin-wellcome-retreat
+    title: The Retreat Archive — Insulin Coma Therapy
     url: https://wellcomecollection.org/works/hnjak9c2
     publisher: Wellcome Collection
-    note: Archival catalogue documenting introduction of insulin coma therapy at The Retreat in 1938 after favourable
-      reports at the Medico-Psychological Association's annual meeting.
-  - title: ‘A landmark in psychiatric progress’? The role of evidence in the rise and fall of insulin coma therapy
-    url: https://discovery.ucl.ac.uk/id/eprint/10141234/
-    publisher: History of Psychiatry / University College London
-    note: Modern peer-reviewed review explaining that efficacy doubts predated randomized trials and that controlled
+evidence:
+  - id: insulin-vienna-proposition
+    sourceId: insulin-vienna-study
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Open-access historical study based on Vienna clinic records. It documents 965 insulin-treatment cases in 1951–1969,
+      mostly insulin coma therapy; the expectation of curing early schizophrenia; a 1960 description of full insulin
+      shock as the basic treatment; and continuation in Vienna to about 1970.
+  - id: insulin-lancet-correction
+    sourceId: insulin-lancet-trial
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Primary 1957 controlled study by Ackner, Harris and Oldham, widely treated as a pivotal experimental test of
+      whether insulin coma itself conferred a specific benefit in schizophrenia.
+  - id: insulin-ucl-correction
+    sourceId: insulin-ucl-history
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Modern peer-reviewed review explaining that efficacy doubts predated randomized trials and that controlled
       comparisons failed to establish insulin coma as a specific effective treatment.
+  - id: insulin-jrsm-impact
+    sourceId: insulin-jrsm-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Historical review based on British records describing Board of Control sponsorship, use in 31 hospitals by 1938,
+      the highly intensive treatment regimen, mortality and brain-injury risk, professional support, and the 1957
+      controlled study that found no specific insulin benefit.
+  - id: insulin-vienna-carrier
+    sourceId: insulin-vienna-study
+    relation: documents
+    target: {scope: episode, episodeId: austria-vienna-1935-1970, aspect: carrier}
+  - id: insulin-vienna-mechanism
+    sourceId: insulin-meduni-history
+    relation: documents
+    target: {scope: episode, episodeId: austria-vienna-1935-1970, aspect: mechanism}
+    note: >-
+      Official university account of the historical commission confirming continued parallel use of insulin coma and
+      other shock/fever therapies at the Vienna clinic during the transition to psychopharmacology.
+  - id: insulin-vienna-consequences
+    sourceId: insulin-vienna-study
+    relation: supports
+    target: {scope: episode, episodeId: austria-vienna-1935-1970, aspect: consequences}
+  - id: insulin-britain-carrier
+    sourceId: insulin-jrsm-history
+    relation: documents
+    target: {scope: episode, episodeId: england-wales-1936-1960, aspect: carrier}
+  - id: insulin-wellcome-mechanism
+    sourceId: insulin-wellcome-retreat
+    relation: documents
+    target: {scope: episode, episodeId: england-wales-1936-1960, aspect: mechanism}
+    note: >-
+      Archival catalogue documenting introduction of insulin coma therapy at The Retreat in 1938 after favourable
+      reports at the Medico-Psychological Association's annual meeting.
+  - id: insulin-britain-consequences
+    sourceId: insulin-jrsm-history
+    relation: supports
+    target: {scope: episode, episodeId: england-wales-1936-1960, aspect: consequences}

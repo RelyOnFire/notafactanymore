@@ -1,48 +1,130 @@
+schemaVersion: 2
 title: Radical mastectomy as the best route to breast-cancer survival
 entryId: radical-mastectomy-best-survival
-claim: The most extensive routine removal of the breast, axillary lymph nodes and chest muscles was treated as giving women with operable breast cancer the best chance of survival because the disease was expected to spread outward in an orderly local-to-regional sequence.
-currentUnderstanding: For many patients with early breast cancer, more extensive local surgery does not improve overall survival. Randomized trials showed no survival advantage for Halsted radical mastectomy over less extensive surgery, and breast-conserving surgery followed by radiation can provide survival comparable to mastectomy for appropriately selected patients.
+proposition:
+  summary: >-
+    The most extensive routine removal of the breast, axillary lymph nodes and chest muscles was treated as giving women
+    with operable breast cancer the best chance of survival because the disease was expected to spread outward in an
+    orderly local-to-regional sequence.
+correction:
+  summary: >-
+    For many patients with early breast cancer, more extensive local surgery does not improve overall survival. Randomized
+    trials showed no survival advantage for Halsted radical mastectomy over less extensive surgery, and breast-conserving
+    surgery followed by radiation can provide survival comparable to mastectomy for appropriately selected patients.
 category: Cancer surgery and treatment standards
 reviewedAt: '2026-08-27'
 impact:
-  summary: Halsted radical mastectomy became the dominant U.S. breast-cancer operation for much of the twentieth century. Its local-control logic exposed generations of women to removal of the chest muscles and extensive lymphatic tissue, with substantial disfigurement, arm swelling and functional impairment, before randomized trials showed that greater surgical extent did not improve survival.
+  summary: >-
+    Halsted radical mastectomy became the dominant U.S. breast-cancer operation for much of the twentieth century. Its
+    local-control logic exposed generations of women to removal of the chest muscles and extensive lymphatic tissue,
+    with substantial disfigurement, arm swelling and functional impairment, before randomized trials showed that
+    greater surgical extent did not improve survival.
   context:
-  - Radical mastectomy was an important advance over earlier surgery because it greatly improved local control at a time when anesthesia, antisepsis and cancer surgery were rapidly developing.
-  - The correction does not mean mastectomy itself is obsolete. Mastectomy remains appropriate in many circumstances; what failed was the rule that routinely removing more local tissue necessarily improved survival.
+    - >-
+      Radical mastectomy was an important advance over earlier surgery because it greatly improved local control at a
+      time when anesthesia, antisepsis and cancer surgery were rapidly developing.
+    - >-
+      The correction does not mean mastectomy itself is obsolete. Mastectomy remains appropriate in many circumstances;
+      what failed was the rule that routinely removing more local tissue necessarily improved survival.
 episodes:
-- id: united-states-1894-1977
-  polity: United States
-  region: North America
-  startYear: 1894
-  endYear: 1977
-  strength: institutionally-influential
-  institutionTypes:
-  - medical
-  - professional
-  institutions:
-  - The Johns Hopkins Hospital
-  - American surgical profession
-  institutionalContext: William Halsted developed and reported his radical mastectomy while serving as surgeon-in-chief at The Johns Hopkins Hospital. The operation removed the breast, axillary lymph nodes and pectoral muscles in one block, reflecting the model that breast cancer spread progressively through adjacent tissues and regional lymphatics. The procedure became the prevailing U.S. standard for decades; by the 1970s, surgeons who proposed less extensive operations could still be accused of offering inadequate treatment.
-  consequences:
-  - Radical mastectomy became the prevailing operation for breast cancer in the United States for much of the twentieth century
-  - Women routinely lost the breast, axillary lymph nodes and chest muscles even when less extensive surgery would later prove equally effective for survival
-  - The operation could leave major disfigurement, lymphedema, pain, weakness and restricted arm movement
-  - Randomized trials beginning in the 1970s found that less extensive surgery did not reduce survival, forcing a major change in surgical standards
-  summary: Halsted's Johns Hopkins operation converted a coherent theory of orderly cancer spread into a durable surgical standard. If breast cancer moved outward through contiguous tissues and lymph nodes, the safest operation seemed to be the widest possible en-bloc removal. Radical mastectomy dominated U.S. treatment for decades despite its substantial physical costs. The NSABP B-04 trial, begun in 1971 and reported in 1977, found that women receiving the radical operation did not live longer than women treated with less extensive surgery. European breast-conservation trials and later U.S. trials reinforced the same lesson, replacing routine maximal surgery with treatment tailored to disease extent and biology.
-  sources:
-  - title: Bernard Fisher, M.D. — Breast Cancer Surgery
+  - id: united-states-1894-1977
+    polity: United States
+    region: North America
+    startYear: 1894
+    endYear: 1977
+    strength: institutionally-influential
+    institutionTypes:
+      - medical
+      - professional
+    institutions:
+      - The Johns Hopkins Hospital
+      - American surgical profession
+    institutionalContext: >-
+      William Halsted developed and reported his radical mastectomy while serving as surgeon-in-chief at The Johns
+      Hopkins Hospital. The operation removed the breast, axillary lymph nodes and pectoral muscles in one block,
+      reflecting the model that breast cancer spread progressively through adjacent tissues and regional lymphatics.
+      The procedure became the prevailing U.S. standard for decades; by the 1970s, surgeons who proposed less extensive
+      operations could still be accused of offering inadequate treatment.
+    consequences:
+      - Radical mastectomy became the prevailing operation for breast cancer in the United States for much of the twentieth century
+      - Women routinely lost the breast, axillary lymph nodes and chest muscles even when less extensive surgery would later prove equally effective for survival
+      - The operation could leave major disfigurement, lymphedema, pain, weakness and restricted arm movement
+      - Randomized trials beginning in the 1970s found that less extensive surgery did not reduce survival, forcing a major change in surgical standards
+    summary: >-
+      Halsted's Johns Hopkins operation converted a coherent theory of orderly cancer spread into a durable surgical
+      standard. If breast cancer moved outward through contiguous tissues and lymph nodes, the safest operation seemed
+      to be the widest possible en-bloc removal. Radical mastectomy dominated U.S. treatment for decades despite its
+      substantial physical costs. The NSABP B-04 trial, begun in 1971 and reported in 1977, found that women receiving
+      the radical operation did not live longer than women treated with less extensive surgery. European breast-conservation
+      trials and later U.S. trials reinforced the same lesson, replacing routine maximal surgery with treatment tailored
+      to disease extent and biology.
+    mechanism:
+      kind: standard-setting
+      summary: >-
+        A Johns Hopkins surgical model of orderly local spread became a durable professional standard, making maximal
+        en-bloc removal the expected operation for operable breast cancer across much of U.S. surgery.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 1977 onward
+      action: Randomized trial evidence displaced routine Halsted radical mastectomy as the survival-maximizing surgical standard.
+      summary: >-
+        U.S. and European randomized trials showed that less extensive surgery did not worsen survival, and professional
+        breast-cancer surgery shifted away from routine maximal local removal toward operations matched to disease extent.
+sources:
+  - id: mastectomy-nci-fisher
+    title: Bernard Fisher, M.D. — Breast Cancer Surgery
     url: https://prevention.cancer.gov/about-dcp/history-and-timeline/commemoration-50th/bernard-fisher-part-1
     publisher: U.S. National Cancer Institute
-    note: NCI history describing radical mastectomy as the prevailing surgery of the late 1950s, the strong professional resistance to less radical treatment, and the 1977 B-04 result that radical mastectomy caused disability and disfigurement without extending survival.
-  - title: Umberto Veronesi, M.D.
+  - id: mastectomy-nci-veronesi
+    title: Umberto Veronesi, M.D.
     url: https://prevention.cancer.gov/about-dcp/history-and-timeline/commemoration-50th/umberto-veronesi
     publisher: U.S. National Cancer Institute
-    note: Describes radical mastectomy as the prevailing standard before the first European randomized breast-conservation trials and states that later U.S. trials confirmed no survival advantage for radical surgery in early-stage disease.
-  - title: Mastectomy
+  - id: mastectomy-nci-current
+    title: Mastectomy
     url: https://www.cancer.gov/types/breast/treatment/surgery/mastectomy
     publisher: U.S. National Cancer Institute
-    note: Current NCI guidance explains that radical mastectomy is now rarely performed because removing the chest-wall muscles and all axillary nodes does not improve how long people live.
-  - title: 'The Halsted mastectomy: present illness and past history'
+  - id: mastectomy-halsted-history
+    title: 'The Halsted mastectomy: present illness and past history'
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1272864/
     publisher: Western Journal of Medicine / PubMed Central
-    note: Historical analysis of why Halsted's expansion of mastectomy became lastingly institutionalized in American surgery.
+evidence:
+  - id: mastectomy-halsted-proposition
+    sourceId: mastectomy-halsted-history
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Historical analysis of why Halsted's expansion of mastectomy became lastingly institutionalized in American surgery.
+  - id: mastectomy-nci-current-correction
+    sourceId: mastectomy-nci-current
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Current NCI guidance explains that radical mastectomy is now rarely performed because removing the chest-wall
+      muscles and all axillary nodes does not improve how long people live.
+  - id: mastectomy-fisher-impact
+    sourceId: mastectomy-nci-fisher
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      NCI history describing radical mastectomy as the prevailing surgery of the late 1950s, the strong professional
+      resistance to less radical treatment, and the 1977 B-04 result that radical mastectomy caused disability and
+      disfigurement without extending survival.
+  - id: mastectomy-halsted-carrier
+    sourceId: mastectomy-halsted-history
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: carrier}
+  - id: mastectomy-halsted-mechanism
+    sourceId: mastectomy-halsted-history
+    relation: supports
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: mechanism}
+  - id: mastectomy-fisher-consequences
+    sourceId: mastectomy-nci-fisher
+    relation: supports
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: consequences}
+  - id: mastectomy-veronesi-correction
+    sourceId: mastectomy-nci-veronesi
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: institutional-correction}
+    note: >-
+      Describes radical mastectomy as the prevailing standard before the first European randomized breast-conservation
+      trials and states that later U.S. trials confirmed no survival advantage for radical surgery in early-stage disease.

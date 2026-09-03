@@ -1,36 +1,68 @@
+schemaVersion: 2
 locale: de
 entryId: xray-ringworm-treatment
 sourceReviewedAt: '2026-08-23'
 title: Röntgenbehandlung von Kopfpilz
-claim: Die Bestrahlung der Kopfhaut mit Röntgenstrahlen wurde als ausreichend sichere Massenbehandlung für Tinea
-  capitis bei Kindern eingesetzt, bevor die langfristigen Strahlenrisiken erkannt waren.
-currentUnderstanding: Röntgenbestrahlung kann Tinea capitis beseitigen, setzt dabei aber gesundes Gewebe ionisierender
-  Strahlung aus und erhöht das spätere Risiko für Tumoren und andere strahlenbedingte Erkrankungen. Wirksame Antimykotika
-  machen eine routinemäßige Bestrahlung gegen Kopfpilz unnötig.
+proposition:
+  summary: >-
+    Die Bestrahlung der Kopfhaut mit Röntgenstrahlen wurde als ausreichend sichere Massenbehandlung für Tinea capitis
+    bei Kindern eingesetzt, bevor die langfristigen Strahlenrisiken erkannt waren.
+correction:
+  summary: >-
+    Röntgenbestrahlung kann Tinea capitis beseitigen, setzt dabei aber gesundes Gewebe ionisierender Strahlung aus und
+    erhöht das spätere Risiko für Tumoren und andere strahlenbedingte Erkrankungen. Wirksame Antimykotika machen eine
+    routinemäßige Bestrahlung gegen Kopfpilz unnötig.
 episodes:
-- id: israel-1949-1960
-  polity: Israel
-  institutions:
-  - Gesundheitsministerium
-  - Hadassah Medical Organization
-  - Kupat Holim Clalit (Allgemeine Krankenkasse)
-  - Shaar-HaAliyah-Krankenhaus
-  - Tel-HaShomer-Krankenhaus
-  institutionalContext: Das Gesundheitsministerium machte Ringelflechte zu einer Aufgabe des öffentlichen Gesundheitswesens
-    und finanzierte die Behandlung; Hadassah erhielt die landesweite organisatorische und fachliche Aufsicht und
-    gab das Behandlungsprotokoll vor. Kupat Holim Clalit, das Shaar-HaAliyah-Krankenhaus, das Tel-HaShomer-Krankenhaus
-    und weitere zugelassene Zentren führten Bestrahlung und Nachsorge durch. Schulkrankenschwestern und lokale Dienste
-    erfassten Fälle und setzten zeitweise den Ausschluss vom Schulbesuch durch; diese verteilten Dienste werden
-    als Umsetzungsapparat beschrieben und nicht als eine einzelne Institution ausgegeben.
-  summary: Israel organisierte eine landesweite Kampagne, in der Zehntausende Kinder mit Tinea capitis an der Kopfhaut
-    geröntgt wurden – damals eine Standardbehandlung, deren spätere Krebsrisiken noch nicht verstanden waren. Das
-    Gesundheitsministerium finanzierte und regulierte das Programm, Hadassah beaufsichtigte das Behandlungsprotokoll,
-    und ein Netz unter anderem aus Kupat Holim Clalit, dem Shaar-HaAliyah-Krankenhaus und dem Tel-HaShomer-Krankenhaus
-    führte die Bestrahlungen durch. Ab 1952 war die Behandlung in Teilen des öffentlichen Gesundheitsprogramms verpflichtend,
-    unter anderem als Voraussetzung für die Rückkehr erkrankter Kinder in die Schule. 1960 endete die Bestrahlung,
-    als Griseofulvin sie ersetzte; langfristige israelische Kohortenstudien zeigten später ein erhöhtes Tumorrisiko
-    nach der Strahlenexposition im Kindesalter.
-  consequences:
-  - Massenhafte Bestrahlung von Kindern
-  - Behandlung teilweise Voraussetzung für die Rückkehr in die Schule
-  - Erhöhtes langfristiges Risiko für Hirn- und Nervensystemtumoren
+  - id: israel-1949-1960
+    polity: Israel
+    institutions:
+      - Gesundheitsministerium
+      - Hadassah Medical Organization
+      - Kupat Holim Clalit (Allgemeine Krankenkasse)
+      - Shaar-HaAliyah-Krankenhaus
+      - Tel-HaShomer-Krankenhaus
+    institutionalContext: >-
+      Das Gesundheitsministerium machte Ringelflechte zu einer Aufgabe des öffentlichen Gesundheitswesens und finanzierte
+      die Behandlung; Hadassah erhielt die landesweite organisatorische und fachliche Aufsicht und gab das
+      Behandlungsprotokoll vor. Kupat Holim Clalit, das Shaar-HaAliyah-Krankenhaus, das Tel-HaShomer-Krankenhaus und
+      weitere zugelassene Zentren führten Bestrahlung und Nachsorge durch. Schulkrankenschwestern und lokale Dienste
+      erfassten Fälle und setzten zeitweise den Ausschluss vom Schulbesuch durch; diese verteilten Dienste werden als
+      Umsetzungsapparat beschrieben und nicht als eine einzelne Institution ausgegeben.
+    consequences:
+      - Massenhafte Bestrahlung von Kindern
+      - Behandlung teilweise Voraussetzung für die Rückkehr in die Schule
+      - Erhöhtes langfristiges Risiko für Hirn- und Nervensystemtumoren
+    summary: >-
+      Israel organisierte eine landesweite Kampagne, in der Zehntausende Kinder mit Tinea capitis an der Kopfhaut geröntgt
+      wurden – damals eine Standardbehandlung, deren spätere Krebsrisiken noch nicht verstanden waren. Das
+      Gesundheitsministerium finanzierte und regulierte das Programm, Hadassah beaufsichtigte das Behandlungsprotokoll,
+      und ein Netz unter anderem aus Kupat Holim Clalit, dem Shaar-HaAliyah-Krankenhaus und dem Tel-HaShomer-Krankenhaus
+      führte die Bestrahlungen durch. Ab 1952 war die Behandlung in Teilen des öffentlichen Gesundheitsprogramms
+      verpflichtend, unter anderem als Voraussetzung für die Rückkehr erkrankter Kinder in die Schule. 1960 endete
+      die Bestrahlung, als Griseofulvin sie ersetzte; langfristige israelische Kohortenstudien zeigten später ein
+      erhöhtes Tumorrisiko nach der Strahlenexposition im Kindesalter.
+    mechanism:
+      summary: >-
+        Das Gesundheitsministerium finanzierte und regulierte ein nationales Behandlungsprogramm, Hadassah beaufsichtigte
+        das Protokoll, zugelassene Zentren führten die Bestrahlung durch, und Schul- sowie Gesundheitsdienste halfen bei
+        Fallerfassung und behandlungsbezogenem Ausschluss vom Schulbesuch.
+    institutionalCorrection:
+      summary: >-
+        Die Bestrahlung endete 1960, als Griseofulvin sie ersetzte; im vorhandenen Nachweis findet sich jedoch kein
+        datierter israelischer Institutionsakt, der die frühere Sicherheitsbewertung ausdrücklich wegen langfristiger
+        Strahlenrisiken zurücknahm.
+evidence:
+  - id: ringworm-history-proposition
+    note: >-
+      Rekonstruiert die nationale Behandlungsstruktur im Detail: Verantwortung und Finanzierung durch das
+      Gesundheitsministerium, organisatorische und fachliche Aufsicht Hadassahs, Behandlungszentren der Allgemeinen
+      Krankenkasse, Einrichtungen in Shaar HaAliyah und Tel HaShomer, schulbezogene Behandlungspflichten sowie geschätzte
+      26.000–27.000 in Israel zwischen 1948 und 1960 bestrahlte Kinder.
+  - id: ringworm-nejm-correction
+    note: >-
+      Langzeit-Kohortenstudie mit 10.834 israelischen Kindern, die zwischen 1948 und 1960 wegen Tinea capitis bestrahlt
+      wurden; sie dokumentiert ein erhöhtes Risiko für Tumoren des Gehirns und Nervensystems.
+  - id: ringworm-history-correction
+  - id: ringworm-history-carrier
+  - id: ringworm-history-mechanism
+  - id: ringworm-nejm-consequences

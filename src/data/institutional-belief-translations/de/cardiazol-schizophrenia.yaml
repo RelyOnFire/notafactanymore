@@ -1,61 +1,104 @@
+schemaVersion: 2
 locale: de
 entryId: cardiazol-schizophrenia
 sourceReviewedAt: '2026-08-24'
 title: Cardiazol-Krampfanfälle als Behandlung der Schizophrenie
-claim: Schizophrenie und Epilepsie wurden als biologisch gegensätzliche Erkrankungen behandelt; deshalb sollten
-  chemisch ausgelöste epileptiforme Krampfanfälle mit Cardiazol (Pentylentetrazol/Metrazol) eine Remission der Schizophrenie
-  bewirken.
-currentUnderstanding: 'Schizophrenie und Epilepsie sind keine biologischen Gegensätze, deren Verhältnis sich therapeutisch
-  durch provozierte Anfälle umkehren lässt. Frühe Cardiazol-Ergebnisse wurden durch unkontrollierte Vergleiche,
-  wechselnde Diagnosedefinitionen und Erfolgskriterien verzerrt, die teilweise ruhigeres oder leichter handhabbares
-  Verhalten mit Genesung gleichsetzten. Krampftherapie als solche ist damit nicht pauschal widerlegt: Die moderne
-  Elektrokrampftherapie besitzt evidenzbasierte Indikationen, etwa bei schwerer Depression, Katatonie und ausgewählten
-  therapieresistenten Erkrankungen. Der historische Irrtum lag in der spezifischen Antagonismustheorie und im daraus
-  abgeleiteten routinemäßigen Einsatz eines extrem belastenden chemischen Konvulsivums bei Schizophrenie.'
+proposition:
+  summary: >-
+    Schizophrenie und Epilepsie wurden als biologisch gegensätzliche Erkrankungen behandelt; deshalb sollten chemisch
+    ausgelöste epileptiforme Krampfanfälle mit Cardiazol (Pentylentetrazol/Metrazol) eine Remission der Schizophrenie bewirken.
+correction:
+  summary: >-
+    Schizophrenie und Epilepsie sind keine biologischen Gegensätze, deren Verhältnis sich therapeutisch durch provozierte
+    Anfälle umkehren lässt. Frühe Cardiazol-Ergebnisse wurden durch unkontrollierte Vergleiche, wechselnde Diagnosedefinitionen
+    und Erfolgskriterien verzerrt, die teilweise ruhigeres oder leichter handhabbares Verhalten mit Genesung gleichsetzten.
+    Krampftherapie als solche ist damit nicht pauschal widerlegt: Die moderne Elektrokrampftherapie besitzt evidenzbasierte
+    Indikationen, etwa bei schwerer Depression, Katatonie und ausgewählten therapieresistenten Erkrankungen. Der historische
+    Irrtum lag in der spezifischen Antagonismustheorie und im daraus abgeleiteten routinemäßigen Einsatz eines extrem
+    belastenden chemischen Konvulsivums bei Schizophrenie.
 impact:
-  summary: Die Cardiazoltherapie verbreitete sich innerhalb von etwa zwei Jahren in britischen öffentlichen psychiatrischen
+  summary: >-
+    Die Cardiazoltherapie verbreitete sich innerhalb von etwa zwei Jahren in britischen öffentlichen psychiatrischen
     Kliniken. Intravenöse Injektionen lösten massive Krampfanfälle aus und konnten unmittelbar davor überwältigende
     Angst erzeugen. Der Board of Control untersuchte und begleitete die institutionelle Einführung, doch die ursprüngliche
     Vorstellung, künstlich erzeugte Epilepsie könne Schizophrenie entgegenwirken, brach rasch zusammen.
   highlights:
-  - value: 89 / 92
-    label: britische Einrichtungen mit Schocktherapien nutzten laut Board-of-Control-Erhebung 1938 Cardiazol
-  - value: '1938'
-    label: Board of Control veröffentlichte einen nationalen Bericht über Cardiazol bei Schizophrenie
-  - value: '1941'
-    label: britische Kliniker erklärten die ursprüngliche Schizophrenie-Indikation bereits für aufgegeben
+    - value: 89 / 92
+      label: britische Einrichtungen mit Schocktherapien nutzten laut Board-of-Control-Erhebung 1938 Cardiazol
+    - value: '1938'
+      label: Board of Control veröffentlichte einen nationalen Bericht über Cardiazol bei Schizophrenie
+    - value: '1941'
+      label: britische Kliniker erklärten die ursprüngliche Schizophrenie-Indikation bereits für aufgegeben
   context:
-  - Cardiazol ist auch als Pentylentetrazol oder Metrazol bekannt. Chemisch ausgelöste Cardiazol-Krampfanfälle
-    bei Schizophrenie sind von der modernen Elektrokrampftherapie zu unterscheiden. EKT ersetzte Cardiazol unter
-    anderem deshalb, weil sich der Anfall elektrisch kontrollierter auslösen ließ und weniger präkonvulsive Todesangst
-    sowie weniger traumatische Verletzungen auftraten.
-  - Spätere Befunde deuteten auf einen Nutzen konvulsiver Therapie bei affektiven Erkrankungen hin. Das bestätigt
-    jedoch nicht Medunas ursprüngliche Behauptung eines biologischen Antagonismus zwischen Schizophrenie und Epilepsie.
+    - >-
+      Cardiazol ist auch als Pentylentetrazol oder Metrazol bekannt. Chemisch ausgelöste Cardiazol-Krampfanfälle bei
+      Schizophrenie sind von der modernen Elektrokrampftherapie zu unterscheiden. EKT ersetzte Cardiazol unter anderem
+      deshalb, weil sich der Anfall elektrisch kontrollierter auslösen ließ und weniger präkonvulsive Todesangst sowie
+      weniger traumatische Verletzungen auftraten.
+    - >-
+      Spätere Befunde deuteten auf einen Nutzen konvulsiver Therapie bei affektiven Erkrankungen hin. Das bestätigt
+      jedoch nicht Medunas ursprüngliche Behauptung eines biologischen Antagonismus zwischen Schizophrenie und Epilepsie.
 episodes:
-- id: england-wales-1937-1941
-  polity: England und Wales
-  institutions:
-  - Board of Control for England and Wales
-  - Britische öffentliche psychiatrische Krankenhäuser
-  - Royal Medico-Psychological Association
-  institutionalContext: Die Cardiazol-Krampftherapie erreichte Großbritannien 1937 und verbreitete sich äußerst
-    schnell im öffentlichen Psychiatriesystem. Der Board of Control erwähnte ihre Anwendung bereits in mehreren
-    Einrichtungen, entsandte Beamte nach Ungarn und veröffentlichte 1938 einen eigenen Bericht über Cardiazol und
-    Schockbehandlung bei Schizophrenie. Eine Erhebung Ende 1938 fand Schocktherapien in 92 Einrichtungen; 89 davon
-    verwendeten Cardiazol. Ausgangspunkt war Ladislas Medunas Hypothese, Epilepsie und Schizophrenie seien biologisch
-    antagonistisch und epileptiforme Anfälle könnten daher eine schizophrene Remission auslösen. 1941 räumten britische
-    Kliniker bereits ein, dass diese ursprüngliche Konzeption aufgegeben worden war; zugleich verdrängte die Elektrokrampftherapie
-    die chemische Methode rasch.
-  summary: Großbritannien übernahm die Cardiazol-Krampftherapie nach ihrer Einführung 1937 in kürzester Zeit. Die
-    Methode beruhte auf der Vorstellung, Schizophrenie und Epilepsie seien biologische Gegensätze, weshalb epileptiforme
-    Anfälle eine Remission hervorrufen sollten. Der Board of Control untersuchte die Methode und fand Ende 1938
-    Cardiazol bereits in 89 Einrichtungen. Weitere Erfahrungen zeigten instabile Remissionsangaben, schwere Angst
-    und Verletzungen sowie grundlegende Probleme bei der Bewertung vermeintlicher Besserungen. 1941 wurde die ursprüngliche
-    Schizophrenie-Theorie ausdrücklich als aufgegeben beschrieben; die Elektrokrampftherapie ersetzte das schlechter
-    kontrollierbare chemische Verfahren.
-  consequences:
-  - Großflächige chemische Auslösung generalisierter Krampfanfälle bei psychiatrischen Patientinnen und Patienten
-  - Extreme Erwartungsangst und Belastung unmittelbar vor den Anfällen
-  - Risiko von Wirbel- und anderen Frakturen, Gedächtnisstörungen und Hirnschäden
-  - Ruhigeres Verhalten oder leichtere Stationsführung konnten fälschlich als therapeutische Besserung gelten
-  - Rasche landesweite Verbreitung, bevor die zugrunde liegende Schizophrenie-Theorie belegt war
+  - id: england-wales-1937-1941
+    polity: England und Wales
+    institutions:
+      - Board of Control for England and Wales
+      - Britische öffentliche psychiatrische Krankenhäuser
+      - Royal Medico-Psychological Association
+    institutionalContext: >-
+      Die Cardiazol-Krampftherapie erreichte Großbritannien 1937 und verbreitete sich äußerst schnell im öffentlichen
+      Psychiatriesystem. Der Board of Control erwähnte ihre Anwendung bereits in mehreren Einrichtungen, entsandte Beamte
+      nach Ungarn und veröffentlichte 1938 einen eigenen Bericht über Cardiazol und Schockbehandlung bei Schizophrenie.
+      Eine Erhebung Ende 1938 fand Schocktherapien in 92 Einrichtungen; 89 davon verwendeten Cardiazol. Ausgangspunkt
+      war Ladislas Medunas Hypothese, Epilepsie und Schizophrenie seien biologisch antagonistisch und epileptiforme
+      Anfälle könnten daher eine schizophrene Remission auslösen. 1941 räumten britische Kliniker bereits ein, dass
+      diese ursprüngliche Konzeption aufgegeben worden war; zugleich verdrängte die Elektrokrampftherapie die chemische Methode rasch.
+    summary: >-
+      Großbritannien übernahm die Cardiazol-Krampftherapie nach ihrer Einführung 1937 in kürzester Zeit. Die Methode
+      beruhte auf der Vorstellung, Schizophrenie und Epilepsie seien biologische Gegensätze, weshalb epileptiforme Anfälle
+      eine Remission hervorrufen sollten. Der Board of Control untersuchte die Methode und fand Ende 1938 Cardiazol bereits
+      in 89 Einrichtungen. Weitere Erfahrungen zeigten instabile Remissionsangaben, schwere Angst und Verletzungen sowie
+      grundlegende Probleme bei der Bewertung vermeintlicher Besserungen. 1941 wurde die ursprüngliche Schizophrenie-Theorie
+      ausdrücklich als aufgegeben beschrieben; die Elektrokrampftherapie ersetzte das schlechter kontrollierbare chemische Verfahren.
+    consequences:
+      - Großflächige chemische Auslösung generalisierter Krampfanfälle bei psychiatrischen Patientinnen und Patienten
+      - Extreme Erwartungsangst und Belastung unmittelbar vor den Anfällen
+      - Risiko von Wirbel- und anderen Frakturen, Gedächtnisstörungen und Hirnschäden
+      - Ruhigeres Verhalten oder leichtere Stationsführung konnten fälschlich als therapeutische Besserung gelten
+      - Rasche landesweite Verbreitung, bevor die zugrunde liegende Schizophrenie-Theorie belegt war
+    mechanism:
+      summary: >-
+        Der Board of Control untersuchte, dokumentierte und erhob die Cardiazolbehandlung, während öffentliche
+        psychiatrische Krankenhäuser das chemische Krampfverfahren rasch in die routinemäßige Schizophreniebehandlung übernahmen.
+    institutionalCorrection:
+      periodLabel: '1941'
+      action: Britische Kliniker gaben die ursprüngliche Antagonismustheorie von Schizophrenie und Epilepsie auf, während die Elektrokrampftherapie Cardiazol verdrängte.
+      summary: >-
+        Die ursprüngliche Theorie und das Cardiazolverfahren wurden in der britischen klinischen Praxis aufgegeben;
+        der vorhandene Nachweis zeigt jedoch keinen einzelnen formellen Beschluss des Board of Control oder eines Berufsverbands,
+        der das frühere Programm ausdrücklich widerrief.
+evidence:
+  - id: cardiazol-jama-proposition
+    note: >-
+      Zeitgenössische klinische Arbeit von 1938, die Medunas Theorie eines biologischen Antagonismus zwischen Schizophrenie
+      und Epilepsie ausdrücklich wiedergibt und Versuche beschreibt, durch mit Metrazol ausgelöste epileptiforme Anfälle Remissionen zu erzeugen.
+  - id: cardiazol-history-correction
+    note: >-
+      Fachhistorische Analyse der zweifelhaften biologischen Antagonismustheorie, problematischer Erfolgsmessung,
+      schwerer Angstreaktionen und des Übergangs weg von Cardiazol.
+  - id: cardiazol-history-impact
+  - id: cardiazol-board-carrier
+    note: >-
+      Bibliografischer und digitalisierter Nachweis des amtlichen Berichts des Board of Control von 1938, der Cardiazol-
+      und Schockbehandlung bei Schizophrenie ausdrücklich untersuchte.
+  - id: cardiazol-hansard-mechanism
+    note: >-
+      Primäre Parlamentsquelle, die bestätigt, dass der Board of Control einen Regierungsbericht über Cardiazol-Injektionen
+      bei Schizophrenie vorbereitete, während sich die neue Behandlung in öffentlichen psychiatrischen Krankenhäusern verbreitete.
+  - id: cardiazol-history-consequences
+  - id: cardiazol-history-partial-correction
+  - id: cardiazol-ncbi-context
+    note: >-
+      Moderne historische Synthese, die Cardiazol als häufigste somatische Behandlung von Schizophrenie und affektiven
+      Erkrankungen in britischen öffentlichen psychiatrischen Krankenhäusern beschreibt und festhält, dass das Maudsley
+      Versuche wegen der extremen Angst und Furcht durch die ausgelösten Krampfanfälle ablehnte.

@@ -1,30 +1,91 @@
+schemaVersion: 2
 locale: de
 entryId: neonatal-surgery-minimal-analgesia
 sourceReviewedAt: '2026-08-27'
 title: Große Operationen bei Neugeborenen mit minimaler Analgesie
-claim: Neugeborene, besonders Frühgeborene, konnten große Operationen mit wenig oder ohne starke Analgesie durchlaufen, weil ihr unreifes Nervensystem Schmerz angeblich nicht in derselben bedeutsamen Weise wie bei älteren Patienten verarbeitete und Narkosemittel als außergewöhnlich riskant galten.
-currentUnderstanding: Neugeborene besitzen funktionsfähige nozizeptive Bahnen und zeigen auf schmerzhafte Operationen geordnete physiologische, hormonelle, verhaltensbezogene und neurologische Reaktionen. Für operative Eingriffe bei Neugeborenen sind angemessene Anästhesie und Analgesie erforderlich; Wirkstoffwahl und Dosierung müssen dabei an ihre erhebliche physiologische Vulnerabilität angepasst werden.
+proposition:
+  summary: >-
+    Neugeborene, besonders Frühgeborene, konnten große Operationen mit wenig oder ohne starke Analgesie durchlaufen,
+    weil ihr unreifes Nervensystem Schmerz angeblich nicht in derselben bedeutsamen Weise wie bei älteren Patienten
+    verarbeitete und Narkosemittel als außergewöhnlich riskant galten.
+correction:
+  summary: >-
+    Neugeborene besitzen funktionsfähige nozizeptive Bahnen und zeigen auf schmerzhafte Operationen geordnete
+    physiologische, hormonelle, verhaltensbezogene und neurologische Reaktionen. Für operative Eingriffe bei Neugeborenen
+    sind angemessene Anästhesie und Analgesie erforderlich; Wirkstoffwahl und Dosierung müssen dabei an ihre erhebliche
+    physiologische Vulnerabilität angepasst werden.
 impact:
-  summary: Die Annahme blieb nicht theoretisch. Sie prägte Narkoseverfahren, bei denen Neugeborene bei großen Operationen Muskelrelaxanzien und Lachgas, aber keine starke Analgesie erhielten. Kontrollierte Untersuchungen der 1980er-Jahre zeigten unter unzureichender Schmerzbehandlung deutlich stärkere hormonelle Stressreaktionen sowie mehr postoperative Kreislauf- und Stoffwechselkomplikationen.
+  summary: >-
+    Die Annahme blieb nicht theoretisch. Sie prägte Narkoseverfahren, bei denen Neugeborene bei großen Operationen
+    Muskelrelaxanzien und Lachgas, aber keine starke Analgesie erhielten. Kontrollierte Untersuchungen der 1980er-Jahre
+    zeigten unter unzureichender Schmerzbehandlung deutlich stärkere hormonelle Stressreaktionen sowie mehr postoperative
+    Kreislauf- und Stoffwechselkomplikationen.
   highlights:
-  - value: '1987'
-    label: Eine randomisierte Fentanyl-Studie zeigte, dass stärkere Analgesie die operative Stressreaktion von Neugeborenen verringerte
-  - value: 8 + 8 Säuglinge
-    label: Frühgeborene im entscheidenden randomisierten Vergleich mit und ohne Fentanyl
-  - value: '1987'
-    label: Die American Academy of Pediatrics erklärte Anästhesie oder Analgesie bei Operationen von Neugeborenen ausdrücklich für angezeigt
+    - value: '1987'
+      label: Eine randomisierte Fentanyl-Studie zeigte, dass stärkere Analgesie die operative Stressreaktion von Neugeborenen verringerte
+    - value: 8 + 8 Säuglinge
+      label: Frühgeborene im entscheidenden randomisierten Vergleich mit und ohne Fentanyl
+    - value: '1987'
+      label: Die American Academy of Pediatrics erklärte Anästhesie oder Analgesie bei Operationen von Neugeborenen ausdrücklich für angezeigt
   context:
-  - Korrigiert wird nicht die Behauptung, bei Neugeborenen sei niemals Anästhesie eingesetzt worden. Ärztinnen und Ärzte mussten reale Narkoserisiken bei winzigen, instabilen Patienten gegen ein falsches oder stark unterschätztes Modell neonatalen Schmerzes abwägen.
-  - Die Episode am John Radcliffe Hospital dokumentiert eine konkrete institutionelle Praxis und behauptet nicht, jedes Krankenhaus habe dasselbe Schema verwendet.
+    - >-
+      Korrigiert wird nicht die Behauptung, bei Neugeborenen sei niemals Anästhesie eingesetzt worden. Ärztinnen und
+      Ärzte mussten reale Narkoserisiken bei winzigen, instabilen Patienten gegen ein falsches oder stark unterschätztes
+      Modell neonatalen Schmerzes abwägen.
+    - >-
+      Die Episode am John Radcliffe Hospital dokumentiert eine konkrete institutionelle Praxis und behauptet nicht,
+      jedes Krankenhaus habe dasselbe Schema verwendet.
 episodes:
-- id: united-kingdom-john-radcliffe-1982-1987
-  polity: Vereinigtes Königreich
-  institutions:
-  - John Radcliffe Hospital, Oxford
-  institutionalContext: Kanwaljeet Anand beschrieb später Lachgas plus Curare ohne starke Analgesie als den damaligen Stand der neonatalen Anästhesie am John Radcliffe Hospital, als er 1982 dort eintraf. Hinter diesem Vorgehen standen sowohl langjährige Zweifel daran, dass Neugeborene Schmerz normal wahrnehmen, als auch berechtigte Sorgen über Narkosetoxizität und physiologische Instabilität. Das Krankenhaus wurde anschließend zum Ort der randomisierten Untersuchung, die direkt prüfte, ob Fentanyl die biologische Reaktion auf eine Operation veränderte.
-  consequences:
-  - Frühgeborene konnten bei der operativen Ligatur eines persistierenden Ductus arteriosus Lachgas und neuromuskuläre Blockade ohne starkes Opioidanalgetikum erhalten
-  - Im randomisierten Vergleich zeigten Säuglinge ohne Fentanyl signifikant stärkere hormonelle und metabolische Stressreaktionen
-  - In der Gruppe ohne Fentanyl traten außerdem postoperative Kreislauf- und Stoffwechselkomplikationen häufiger auf
-  - Die Befunde trugen dazu bei, neonatalen Schmerz von einer vermeintlichen Grenze unreifer Physiologie zu einer ausdrücklichen Anforderung an Anästhesie und Analgesie zu machen
-  summary: Am John Radcliffe Hospital in Oxford galt Anfang der 1980er-Jahre bei großen neonatalen Operationen ein Narkoseverfahren mit Lachgas und Curare ohne starke Analgesie als akzeptierte Praxis. Anand und Kollegen prüften dieses Vorgehen bei Frühgeborenen, deren Ductus arteriosus operativ ligiert wurde. Fentanyl verringerte die hormonelle und metabolische Stressreaktion deutlich; bei den Säuglingen ohne Fentanyl traten mehr postoperative Kreislauf- und Stoffwechselkomplikationen auf. Im selben Jahr erklärte die American Academy of Pediatrics ausdrücklich, dass verfügbare lokale und systemische Mittel eine relativ sichere Anästhesie oder Analgesie ermöglichten und diese bei neonatalen Operationen angezeigt sei.
+  - id: united-kingdom-john-radcliffe-1982-1987
+    polity: Vereinigtes Königreich
+    institutions:
+      - John Radcliffe Hospital, Oxford
+    institutionalContext: >-
+      Kanwaljeet Anand beschrieb später Lachgas plus Curare ohne starke Analgesie als den damaligen Stand der neonatalen
+      Anästhesie am John Radcliffe Hospital, als er 1982 dort eintraf. Hinter diesem Vorgehen standen sowohl langjährige
+      Zweifel daran, dass Neugeborene Schmerz normal wahrnehmen, als auch berechtigte Sorgen über Narkosetoxizität und
+      physiologische Instabilität. Das Krankenhaus wurde anschließend zum Ort der randomisierten Untersuchung, die
+      direkt prüfte, ob Fentanyl die biologische Reaktion auf eine Operation veränderte.
+    consequences:
+      - Frühgeborene konnten bei der operativen Ligatur eines persistierenden Ductus arteriosus Lachgas und neuromuskuläre Blockade ohne starkes Opioidanalgetikum erhalten
+      - Im randomisierten Vergleich zeigten Säuglinge ohne Fentanyl signifikant stärkere hormonelle und metabolische Stressreaktionen
+      - In der Gruppe ohne Fentanyl traten außerdem postoperative Kreislauf- und Stoffwechselkomplikationen häufiger auf
+      - Die Befunde trugen dazu bei, neonatalen Schmerz von einer vermeintlichen Grenze unreifer Physiologie zu einer ausdrücklichen Anforderung an Anästhesie und Analgesie zu machen
+    summary: >-
+      Am John Radcliffe Hospital in Oxford galt Anfang der 1980er-Jahre bei großen neonatalen Operationen ein
+      Narkoseverfahren mit Lachgas und Curare ohne starke Analgesie als akzeptierte Praxis. Anand und Kollegen prüften
+      dieses Vorgehen bei Frühgeborenen, deren Ductus arteriosus operativ ligiert wurde. Fentanyl verringerte die hormonelle
+      und metabolische Stressreaktion deutlich; bei den Säuglingen ohne Fentanyl traten mehr postoperative Kreislauf-
+      und Stoffwechselkomplikationen auf. Im selben Jahr erklärte die American Academy of Pediatrics ausdrücklich,
+      dass verfügbare lokale und systemische Mittel eine relativ sichere Anästhesie oder Analgesie ermöglichten und
+      diese bei neonatalen Operationen angezeigt sei.
+    mechanism:
+      summary: >-
+        Ein klinisches Narkoseschema kombinierte bei großen neonatalen Operationen Lachgas und neuromuskuläre Blockade
+        ohne starkes Opioidanalgetikum und setzte damit damalige Annahmen über neonatalen Schmerz und Narkoserisiken praktisch um.
+    institutionalCorrection:
+      summary: >-
+        Forschung am Krankenhaus selbst stellte das Verfahren unmittelbar infrage, und die breitere fachliche Leitlinie
+        änderte sich 1987; ein datierter formeller Beschluss des John Radcliffe Hospital zur ausdrücklichen Rücknahme
+        der früheren Praxis ist im vorhandenen Nachweis jedoch nicht dokumentiert.
+evidence:
+  - id: neonatal-anand-proposition
+    note: >-
+      Anands rückblickende Darstellung bezeichnet Lachgas und Curare ohne starke Analgesie als damaligen Stand der
+      neonatalen Anästhesie am John Radcliffe Hospital bei seiner Ankunft 1982 und beschreibt, wie die folgende Forschung
+      die zugrunde liegenden Annahmen infrage stellte.
+  - id: neonatal-trial-correction
+    note: >-
+      Randomisierte Studie mit 16 Frühgeborenen, die ohne Fentanyl deutlich stärkere hormonelle und metabolische Reaktionen
+      sowie postoperative Kreislauf- und Stoffwechselkomplikationen in der Gruppe ohne Fentanyl zeigte.
+  - id: neonatal-aap-correction
+    note: >-
+      AAP-Stellungnahme von 1987 aus den Bereichen Fetus/Neugeborenes, Arzneimittel, Anästhesiologie und Chirurgie, wonach
+      verfügbare Medikamente relativ sichere neonatale Anästhesie oder Analgesie ermöglichten und diese bei Operationen angezeigt sei.
+  - id: neonatal-review-impact
+    note: >-
+      Historische Übersicht zur breiten Unterschätzung neonatalen Schmerzes im 20. Jahrhundert und dazu, dass Operationen
+      bei Säuglingen bis in die späten 1980er-Jahre routinemäßig mit minimaler oder ohne Anästhesie durchgeführt wurden.
+  - id: neonatal-anand-carrier
+  - id: neonatal-anand-mechanism
+  - id: neonatal-trial-consequences

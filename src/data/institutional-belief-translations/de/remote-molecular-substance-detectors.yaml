@@ -1,17 +1,20 @@
+schemaVersion: 2
 locale: de
 entryId: remote-molecular-substance-detectors
 sourceReviewedAt: 2026-08-23
 title: Fern-„Molekulardetektoren“ für Sprengstoff und Drogen
-claim: >-
-  Handgeräte mit passiver Antenne wie GT200 und ADE 651 wurden als fähig behandelt, versteckten Sprengstoff,
-  Drogen, Waffen oder andere Stoffe über behauptete molekulare oder elektrostatische Mechanismen aus der Ferne
-  zu erkennen – zuverlässig genug, um Durchsuchungen, Kontrollstellen, Festnahmen und andere Sicherheitsentscheidungen zu steuern.
-currentUnderstanding: >-
-  Für diese Geräte existierte kein validierter Mechanismus, der die behaupteten Stoffe aus der Ferne erkennen konnte.
-  Ein kontrollierter Test des GT200 ergab eine mit Zufall vereinbare Leistung; ein britisches Strafgericht bezeichnete
-  die ADE-Geräte als nutzlos und ihre Sprengstofferkennung als nicht besser als Zufall. Verlässliche Sprengstoff- oder
-  Drogenerkennung erfordert validierte physikalische, chemische, biologische, hundegestützte oder bildgebende Verfahren
-  und nicht die Bewegung einer unversorgten passiven Antenne.
+proposition:
+  summary: >-
+    Handgeräte mit passiver Antenne wie GT200 und ADE 651 wurden als fähig behandelt, versteckten Sprengstoff,
+    Drogen, Waffen oder andere Stoffe über behauptete molekulare oder elektrostatische Mechanismen aus der Ferne
+    zu erkennen – zuverlässig genug, um Durchsuchungen, Kontrollstellen, Festnahmen und andere Sicherheitsentscheidungen zu steuern.
+correction:
+  summary: >-
+    Für diese Geräte existierte kein validierter Mechanismus, der die behaupteten Stoffe aus der Ferne erkennen konnte.
+    Ein kontrollierter Test des GT200 ergab eine mit Zufall vereinbare Leistung; ein britisches Strafgericht bezeichnete
+    die ADE-Geräte als nutzlos und ihre Sprengstofferkennung als nicht besser als Zufall. Verlässliche Sprengstoff- oder
+    Drogenerkennung erfordert validierte physikalische, chemische, biologische, hundegestützte oder bildgebende Verfahren
+    und nicht die Bewegung einer unversorgten passiven Antenne.
 impact:
   summary: >-
     Das institutionelle Versagen bestand nicht nur in verschwenderischer Beschaffung. Nicht validierte Anzeigen wurden
@@ -63,6 +66,17 @@ episodes:
       - Gerätesignale trugen zu Durchsuchungen, Hausbetretungen, Festnahmen und Strafverfahren bei
       - Bundesbehörden gaben öffentliche Mittel für mehr als tausend Geräte im mexikanischen Staatsapparat aus
       - Gerichte und Menschenrechtsorgane befassten sich später mit den wissenschaftlichen und verfassungsrechtlichen Folgen der Nutzung
+    mechanism:
+      summary: >-
+        Bundesbehörden beschafften GT200-Geräte und machten deren Anzeigen zu operativen Eingaben für militärische,
+        staatsanwaltschaftliche und infrastrukturelle Durchsuchungen, Festnahmen und Hausbetretungen.
+    institutionalCorrection:
+      periodLabel: 2011–2014
+      action: Gerichte, CNDH, Wissenschaftler und Parlamentarier stellten die GT200-Nutzung infrage; eine einheitliche bundesweite Aussetzung durch die Exekutive ist für den Zeitraum nicht dokumentiert.
+      summary: >-
+        In Mexiko entstand ein erhebliches institutionelles Gegengewicht gegen den GT200 aus menschenrechtlichen,
+        wissenschaftlichen, gerichtlichen und parlamentarischen Einwänden. Da Parlamentsunterlagen bis 2014 weiterhin
+        Bundesnutzung und das Fehlen einer einheitlichen Aussetzung beschrieben, blieb die Korrektur unvollständig.
   - id: iraq-2007-2016
     polity: Irak
     institutions:
@@ -89,3 +103,47 @@ episodes:
       - Große öffentliche Ausgaben flossen in später als nutzlos erkannte Geräte
       - Die Nutzung dauerte noch Jahre nach Warnungen, Ermittlungen und ausländischen Beschränkungen an
       - Die erzeugte Scheinsicherheit stellte an Hochrisiko-Kontrollstellen selbst eine fortdauernde Gefahr dar
+    mechanism:
+      summary: >-
+        Das Innenministerium beschaffte Geräte der ADE-Familie für die Sprengstoffabwehr, und die Polizei integrierte sie
+        in die routinemäßige Kontrolle von Fahrzeugen und Personen an Sicherheitskontrollstellen.
+    institutionalCorrection:
+      periodLabel: Juli 2016
+      action: Premierminister Haider al-Abadi ordnete den Sicherheitsdiensten an, die falschen Bombendetektoren nicht mehr zu verwenden.
+      summary: >-
+        Nach Jahren von Warnungen und der Betrugsverurteilung des Verkäufers erließ die irakische Regierung eine direkte
+        Anweisung zur Einstellung der Nutzung und beendete damit die offizielle Verwendung durch die Sicherheitsdienste.
+evidence:
+  - id: detector-sedena-proposition
+    note: >-
+      Offizielle SEDENA-Mitteilung von 2009, die den operativen Einsatz eines GT200 bei einer Drogenbekämpfungsmaßnahme
+      dokumentiert und zeigt, dass das Gerät als aktives Sicherheitsinstrument verwendet und nicht nur beschafft wurde.
+  - id: detector-ieee-correction
+    note: >-
+      Fachwissenschaftliche Studie über einen Doppelblindtest, bei dem zertifizierte Bediener in 17 von 20 Versuchen
+      Amphetamintabletten und Munition in einem von acht identischen Behältern nicht fanden; das Ergebnis war mit Zufall vereinbar.
+  - id: detector-mccormick-correction
+    note: >-
+      Das Strafgericht hält fest, dass mehr als 7.000 ADE-Geräte an die irakische Regierung und andere internationale
+      Stellen verkauft wurden, bezeichnet sie als nutzlos und bei der Sprengstofferkennung nicht besser als Zufall und beschreibt die erzeugte Scheinsicherheit.
+  - id: detector-diputados-impact
+    note: >-
+      Parlamentsprotokoll mit 742 GT200 für SEDENA, 102 für SEMAR, 54 für PEMEX und sieben für die PGR; dokumentiert
+      Bedenken zu Durchsuchungen, Festnahmen, Strafverfahren und fortgesetztem Betrieb auf Bundesebene.
+  - id: detector-mexico-carrier
+    note: >-
+      Amtliche CNDH-Empfehlung, wonach die mexikanischen Streitkräfte den GT200 bei zahlreichen Maßnahmen gegen organisierte
+      Kriminalität einsetzten und Geräteanzeigen zur Begründung von Hausbetretungen ohne richterlichen Beschluss verwendet wurden.
+  - id: detector-mexico-mechanism
+  - id: detector-mexico-consequences
+  - id: detector-mexico-partial-correction
+  - id: detector-iraq-carrier
+    note: >-
+      Berichtet anhand des zugrunde liegenden Beschaffungsdokuments, dass Vertrag 2/2007 60 ADE-Geräte umfasste, auf einem
+      Bedarf der Sprengstoffbekämpfungsdirektion beruhte, ministerielle Prüfungen durchlief und vom Innenminister genehmigt wurde.
+  - id: detector-iraq-mechanism
+  - id: detector-iraq-consequences
+  - id: detector-iraq-correction
+    note: >-
+      Berichtet über die Anordnung von Premierminister Haider al-Abadi im Juli 2016, die falschen Bombendetektoren nicht
+      mehr zu verwenden, und bestätigt, dass die irakische Polizei sie fünf Jahre nach Bekanntwerden des Verkaufsskandals noch einsetzte.

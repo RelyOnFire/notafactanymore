@@ -1,17 +1,20 @@
+schemaVersion: 2
 locale: de
 entryId: bitemark-source-identification
 sourceReviewedAt: 2026-08-23
 title: Bissspuren als individuelle Herkunftsidentifikation
-claim: >-
-  Von Zähnen auf menschlicher Haut hinterlassene Muster wurden als ausreichend detailgetreue Abbildung individueller
-  Zahnmerkmale behandelt, um eine bestimmte Person als Verursacher des Bisses zu identifizieren oder stark damit zu verbinden.
-currentUnderstanding: >-
-  Die wissenschaftlichen Voraussetzungen für eine individuelle Herkunftszuschreibung anhand von Bissspuren sind nicht
-  belegt. Für diesen Zweck ist weder gezeigt, dass die vorderen Zahnreihen auf Individualebene einzigartig sind, noch
-  dass Haut Zahnmerkmale zuverlässig und unverzerrt abbildet oder Sachverständige Verletzungsmuster zuverlässig genug
-  auswerten können, um eine Quelle zu identifizieren oder verlässlich einzuschließen. Zahnvergleiche können in manchen
-  Situationen begrenzte Ermittlungs- oder Ausschlussfunktionen haben, rechtfertigen aber keine individuelle
-  Herkunftsidentifikation aus einer Hautverletzung.
+proposition:
+  summary: >-
+    Von Zähnen auf menschlicher Haut hinterlassene Muster wurden als ausreichend detailgetreue Abbildung individueller
+    Zahnmerkmale behandelt, um eine bestimmte Person als Verursacher des Bisses zu identifizieren oder stark damit zu verbinden.
+correction:
+  summary: >-
+    Die wissenschaftlichen Voraussetzungen für eine individuelle Herkunftszuschreibung anhand von Bissspuren sind nicht
+    belegt. Für diesen Zweck ist weder gezeigt, dass die vorderen Zahnreihen auf Individualebene einzigartig sind, noch
+    dass Haut Zahnmerkmale zuverlässig und unverzerrt abbildet oder Sachverständige Verletzungsmuster zuverlässig genug
+    auswerten können, um eine Quelle zu identifizieren oder verlässlich einzuschließen. Zahnvergleiche können in manchen
+    Situationen begrenzte Ermittlungs- oder Ausschlussfunktionen haben, rechtfertigen aber keine individuelle
+    Herkunftsidentifikation aus einer Hautverletzung.
 impact:
   summary: >-
     Die Bissspurenanalyse wurde standardisiert und vor Gericht einflussreich, bevor ihre zentralen Annahmen zur
@@ -56,3 +59,38 @@ episodes:
       - Verdächtige konnten anhand gemusterter Hautverletzungen eingeschlossen oder identifiziert werden
       - Herkunftsaussagen konnten ansonsten überwiegend indizienbasierte Strafverfahren erheblich verstärken
       - Mit zunehmender wissenschaftlicher Kritik wurden zulässige professionelle Schlussfolgerungen eingeschränkt
+    mechanism:
+      summary: >-
+        Die ABFO standardisierte Erhebung und Vergleich von Bissspuren durch Berufsrichtlinien und ein Bewertungssystem
+        und schuf damit eine gemeinsame Methodik und Schlussfolgerungssprache für Straf- und Militärgerichte.
+    institutionalCorrection:
+      periodLabel: '2015'
+      action: Die ABFO unterstützte in offenen Populationen keine uneingeschränkte Schlussfolgerung „The Biter“ mehr.
+      summary: >-
+        Die ABFO schränkte die stärkste zulässige Herkunftsaussage ein, ohne die Bissspurenpraxis vollständig aufzugeben.
+        Spätere wissenschaftliche Prüfungen untergruben individuelle Herkunftszuschreibungen weiter; die professionelle
+        Schlussfolgerungssprache ist heute begrenzt statt individualisierend.
+evidence:
+  - id: bitemark-abfo-proposition
+    note: >-
+      Die 1986 veröffentlichten ABFO-Richtlinien halten fest, dass Bissspurenbeweise in vielen Gerichten und in der
+      Militärjustiz verwendet wurden, und legen standardisierte Methoden zur Erhebung und Analyse der Spuren dar.
+  - id: bitemark-nist-correction
+    note: >-
+      Endgültige NIST-Veröffentlichung zur wissenschaftlichen Grundlage der forensischen Bissspurenanalyse und zu der
+      Evidenz, die für Herkunftsvergleichsaussagen erforderlich wäre.
+  - id: bitemark-nist-premises
+    note: >-
+      Erläutert die drei nicht ausreichend belegten Voraussetzungen: individuelle Einzigartigkeit der vorderen Zahnreihen,
+      konsistente Übertragung dieser Muster auf Haut und zuverlässige Auswertung des Verletzungsmusters durch Sachverständige.
+  - id: bitemark-nrc-impact
+    note: >-
+      Rekonstruiert die Einführung des einheitlichen ABFO-Bewertungssystems 1984, frühe Zuverlässigkeitsbehauptungen sowie
+      die fortbestehende Subjektivität und das Fehlen einer anerkannten Mindestzahl übereinstimmender Merkmale zur Individualisierung.
+  - id: bitemark-abfo-carrier
+  - id: bitemark-nrc-mechanism
+  - id: bitemark-abfo-consequences
+  - id: bitemark-nasem-institutional-correction
+    note: >-
+      Dokumentiert, dass das ABFO-Referenzhandbuch von 2015 in offenen Populationen keine Schlussfolgerung „The Biter“
+      unterstützte, und fasst die wissenschaftliche und gerichtliche Geschichte der Bissspuren-Herkunftsaussagen zusammen.

@@ -1,17 +1,20 @@
+schemaVersion: 2
 locale: de
 entryId: dowsing-subsurface-detection
 sourceReviewedAt: 2026-08-23
 title: Wünschelrutengehen als verlässliche Methode zur Untergrunderkundung
-claim: >-
-  Geschulte Personen mit Wünschelrute, Pendel oder ähnlichen radiästhetischen Verfahren galten als fähig, verborgenes
-  Grundwasser oder geologische Strukturen zuverlässig genug aufzuspüren, um technische Entscheidungen daran auszurichten.
-currentUnderstanding: >-
-  Kontrollierte Untersuchungen haben nicht gezeigt, dass Wünschelrutengehen verlässliche Informationen über verborgenes
-  Grundwasser oder geologische Ziele liefert, die über gewöhnliche Umweltinformationen und Zufall hinausgehen. Eine
-  Neuauswertung der großen deutschen Scheunenexperimente fand keine reproduzierbare Wünschelrutenleistung. Gerade bei der
-  Wassersuche lässt sich scheinbarer Erfolg leicht überschätzen, weil unter großen Teilen der Landschaft Grundwasser vorhanden
-  ist. Tiefe, Ergiebigkeit und Qualität lassen sich belastbar nur mit hydrogeologischen, geologischen und geophysikalischen
-  Verfahren bestimmen.
+proposition:
+  summary: >-
+    Geschulte Personen mit Wünschelrute, Pendel oder ähnlichen radiästhetischen Verfahren galten als fähig, verborgenes
+    Grundwasser oder geologische Strukturen zuverlässig genug aufzuspüren, um technische Entscheidungen daran auszurichten.
+correction:
+  summary: >-
+    Kontrollierte Untersuchungen haben nicht gezeigt, dass Wünschelrutengehen verlässliche Informationen über verborgenes
+    Grundwasser oder geologische Ziele liefert, die über gewöhnliche Umweltinformationen und Zufall hinausgehen. Eine
+    Neuauswertung der großen deutschen Scheunenexperimente fand keine reproduzierbare Wünschelrutenleistung. Gerade bei der
+    Wassersuche lässt sich scheinbarer Erfolg leicht überschätzen, weil unter großen Teilen der Landschaft Grundwasser vorhanden
+    ist. Tiefe, Ergiebigkeit und Qualität lassen sich belastbar nur mit hydrogeologischen, geologischen und geophysikalischen
+    Verfahren bestimmen.
 episodes:
   - id: soviet-union-1967-1991
     polity: Sowjetunion
@@ -39,6 +42,14 @@ episodes:
       der das Programm bremste, sowie veröffentlichte geologische Kritik. Trotz dieser internen Gegenbelege bestanden das vom Ministerium
       getragene Forschungsprogramm, die Kommission, die Fachseminare, methodischen Anwendungshinweise und die Unterstützung
       auf Akademieebene fort.
+    mechanism:
+      summary: >-
+        Das Geologieministerium formalisierte ein unionsweites Forschungsprogramm, eine interministerielle Kommission,
+        Fachseminare und methodische Hinweise zur „biophysikalischen Methode“ und hielt damit Forschung und mögliche Anwendung aufrecht.
+    institutionalCorrection:
+      summary: >-
+        Die überlieferten Quellen dokumentieren interne Kritik und erfolglose Tests, aber keinen datierten sowjetischen
+        Institutionsakt, der das Programm vor dem Ende der UdSSR formell verwarf.
   - id: germany-1991-1995
     polity: Deutschland
     summary: >-
@@ -62,6 +73,14 @@ episodes:
       der Wahl von Bohrstellen mitwirkten. Parallel dazu erzeugte staatlich finanzierte deutsche Wünschelrutenforschung umstrittene
       positive Befunde; eine spätere fachwissenschaftliche Neuauswertung der Scheunenexperimente fand jedoch keine reproduzierbare
       Leistung und hielt die Ergebnisse für mit Zufall vereinbar.
+    mechanism:
+      summary: >-
+        Die GTZ band ausgewählte Wünschelrutengänger neben konventionellen Verfahren in internationale Wasserprospektionsprojekte
+        ein und veröffentlichte technisches Material, das die Methode unter schwierigen Feldbedingungen als praktische Option behandelte.
+    institutionalCorrection:
+      summary: >-
+        Eine spätere wissenschaftliche Neuauswertung verwarf reproduzierbare Wünschelrutenleistung, doch die verfügbaren
+        Quellen zeigen keinen datierten GTZ-Beschluss, der die frühere operative Nutzung formell zurücknahm oder verwarf.
   - id: austria-2020-2026
     polity: Österreich
     summary: >-
@@ -87,3 +106,59 @@ episodes:
       technische Methode war. Öffentlich-rechtliche landwirtschaftliche Berufsvertretungen präsentierten die Wünschelrute
       als praktische Hilfestellung, schrieben ihr verlässliche diagnostische Aussagekraft und geschulten Anwendern hohe
       Erfolgschancen zu; die Landwirtschaftskammer Oberösterreich beschrieb zudem eine fortdauernde Vermittlung an einen Rutengänger.
+    mechanism:
+      summary: >-
+        Öffentlich-rechtliche Landwirtschaftskammern veröffentlichten Wünschelrutengehen als praktische Beratung,
+        schrieben geschulten Anwendern verlässliche Diagnosefähigkeit zu und beschrieben in Oberösterreich eine fortdauernde Vermittlung.
+    institutionalCorrection:
+      periodLabel: 2024–2026
+      summary: >-
+        Eine Korrektur ist in den Kammerinformationen nicht dokumentiert. Aktualisierte Landesinformationen von 2024
+        empfahlen Wünschelrutengehen bei Wasserknappheit weiterhin; die Episode bleibt im aktuellen Quellenstand offen.
+evidence:
+  - id: dowsing-usgs-correction
+    note: >-
+      Erläutert, warum scheinbarer Erfolg bei der Grundwassersuche kein Beleg für die Wirksamkeit der Wünschelrute ist,
+      und hält fest, dass Tiefe, Menge und Qualität des Grundwassers mit hydrologischen, geologischen und geophysikalischen Methoden zu bestimmen sind.
+  - id: dowsing-soviet-proposition
+    note: >-
+      Reproduziert die spätsowjetische Institutionsgeschichte des Programms mit der Tagung des Geologieministeriums 1967,
+      beteiligten Instituten, Seminaren, interministerieller Kommission, methodischen Hinweisen, dem gescheiterten Kursk-Versuch,
+      veröffentlichter Kritik und der von den Autoren behaupteten Unterstützung auf Akademieebene.
+  - id: dowsing-soviet-carrier
+    note: >-
+      Verzeichnet eine 2008 erschienene Sammlung aus dem Archiv der Interministeriellen Kommission zum biophysikalischen
+      Effekt und bezeichnet sie als Rückblick auf vierzig Jahre wissenschaftlicher Wünschelrutenforschung in der UdSSR.
+  - id: dowsing-soviet-mechanism
+  - id: dowsing-soviet-consequences
+  - id: dowsing-gtz-carrier
+    note: >-
+      Zeitgenössischer Bericht von 1991 über den operativen Einsatz von Wünschelrutengängern durch die GTZ, die zuständige
+      Leitung des Wasserbereichs und die erklärte pragmatische Kombination mit konventioneller Prospektion unter schwierigen Bedingungen.
+  - id: dowsing-gtz-mechanism
+    note: >-
+      Bibliografischer Nachweis der zweiten Ausgabe der GTZ-Fachpublikation von 1993 über Feldtests der Wünschelrute zur
+      Wassersuche in Trockengebieten; dokumentiert, dass die bundeseigene Organisation die Methode selbst als technisches Thema veröffentlichte.
+  - id: dowsing-gtz-consequences
+  - id: dowsing-scheunen-context
+    note: >-
+      Fachwissenschaftliche Neuauswertung der großen deutschen kontrollierten Wünschelrutenexperimente; vermeintliche
+      Spitzenleistungen ließen sich nicht reproduzieren, und die Ergebnisse waren mit Zufall vereinbar.
+  - id: dowsing-austria-proposition
+    note: >-
+      Stabiles nationales Kammerverzeichnis der Reihe zur Wasserknappheit, das Teil 6 über die Wünschelrute ausdrücklich
+      aufführt und die Reihe als praktische Beratung zu Brunnen und Quellen präsentiert.
+  - id: dowsing-austria-carrier
+    note: >-
+      Die Landesquelle erklärt, Rute und Pendel könnten konkrete Fragen zu Brunnen und Quellen verlässlich klären,
+      schreibt geschulten Rutengängern sehr hohe Erfolgschancen zu und beschreibt die fortdauernde Zusammenarbeit und Vermittlung der Kammer.
+  - id: dowsing-austria-mechanism
+  - id: dowsing-austria-consequences
+    note: >-
+      Kammerinformation vom November 2024, wonach die Wünschelrute bei Wasserknappheit wertvolle Hilfe leisten könne;
+      wiederholt Behauptungen über Wasseradern, sensorische Erkennung, verlässliche Diagnose und hohe Erfolgschancen.
+  - id: dowsing-austria-carinthia-context
+    note: >-
+      Aktualisierte Kammerinformation vom November 2024, wonach Wünschelrutengehen bei Wasserknappheit wertvolle Hilfe
+      leisten könne; wiederholt den behaupteten sensorischen Mechanismus und praktische Empfehlungen.
+  - id: dowsing-austria-uncorrected

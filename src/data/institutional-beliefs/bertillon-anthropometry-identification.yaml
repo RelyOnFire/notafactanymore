@@ -1,13 +1,16 @@
+schemaVersion: 2
 title: Anthropometric measurements as reliable criminal identification
-claim: >-
-  Police systems treated standardized adult body measurements as stable and discriminating enough to serve as a
-  primary method for indexing and identifying habitual offenders.
-currentUnderstanding: >-
-  Body measurements can contribute descriptive information, but a small manually measured set of dimensions is not
-  sufficiently stable or reproducible for reliable stand-alone criminal identification. Measurement technique,
-  instrument calibration, bodily change and overlap between individuals introduce error. In British India, officials
-  replaced the anthropometric indexing system with fingerprint classification after concluding that fingerprints
-  offered a more efficient and reliable system for criminal records.
+proposition:
+  summary: >-
+    Police systems treated standardized adult body measurements as stable and discriminating enough to serve as a
+    primary method for indexing and identifying habitual offenders.
+correction:
+  summary: >-
+    Body measurements can contribute descriptive information, but a small manually measured set of dimensions is not
+    sufficiently stable or reproducible for reliable stand-alone criminal identification. Measurement technique,
+    instrument calibration, bodily change and overlap between individuals introduce error. In British India, officials
+    replaced the anthropometric indexing system with fingerprint classification after concluding that fingerprints
+    offered a more efficient and reliable system for criminal records.
 category: Forensic medicine and identification
 reviewedAt: '2026-08-24'
 impact:
@@ -17,80 +20,130 @@ impact:
     retrieve a person's prior file. Within five years an official review recommended fingerprint classification
     instead, and the Government of India adopted fingerprints throughout the system in June 1897.
   highlights:
-  - value: '1892'
-    label: Government of India formally introduced Bertillon-style anthropometry for habitual offenders
-  - value: 5 years
-    label: Time from formal introduction to government adoption of fingerprint classification
-  - value: 12 June 1897
-    label: Government of India resolution adopted fingerprint identification in place of anthropometry
+    - value: '1892'
+      label: Government of India formally introduced Bertillon-style anthropometry for habitual offenders
+    - value: 5 years
+      label: Time from formal introduction to government adoption of fingerprint classification
+    - value: 12 June 1897
+      label: Government of India resolution adopted fingerprint identification in place of anthropometry
   context:
-  - >-
-    Bertillonage was not simply a claim that measurements were descriptive. Its institutional value depended on
-    standardized measurements being reproducible and discriminating enough to retrieve and verify a previous criminal
-    record. Operator and instrument error undermined that function.
-  - >-
-    The replacement of anthropometry by fingerprints was the historical correction for this administrative system.
-    It did not establish that all fingerprint comparisons are infallible or that body measurements have no legitimate
-    descriptive uses.
+    - >-
+      Bertillonage was not simply a claim that measurements were descriptive. Its institutional value depended on
+      standardized measurements being reproducible and discriminating enough to retrieve and verify a previous criminal
+      record. Operator and instrument error undermined that function.
+    - >-
+      The replacement of anthropometry by fingerprints was the historical correction for this administrative system.
+      It did not establish that all fingerprint comparisons are infallible or that body measurements have no legitimate
+      descriptive uses.
 episodes:
-- id: british-india-1892-1897
-  polity: British India
-  region: South Asia
-  startYear: 1892
-  endYear: 1897
-  strength: policy-basis
-  institutionTypes:
-  - government
-  institutions:
-  - Government of India
-  - Bengal Police
-  institutionalContext: >-
-    Bengal police began using anthropometric roll cards in 1892, and a Government of India instruction of 10 May 1892
-    extended the Bertillon system for habitual-offender identification. The system classified adult prisoners by
-    standardized body measurements so that a suspected repeat offender's prior record could be located and compared.
-    The method required careful instruments and highly reproducible technique. In 1897 an official committee judged
-    fingerprint classification superior for the same record-identification task, and the Government of India adopted
-    the fingerprint system by resolution on 12 June.
-  consequences:
-  - Habitual offenders were measured and indexed through anthropometric criminal records
-  - Police training and record retrieval were organized around standardized body measurements
-  - Identification depended on measurements vulnerable to operator, instrument and classification error
-  - The government replaced the system with fingerprint classification after official review
-  summary: >-
-    Beginning in 1892, British India institutionalized Bertillon-style anthropometry for habitual-offender
-    identification, with the Bengal Police among its key implementing bodies. The system required trained officers
-    to reproduce standardized body measurements closely enough to retrieve prior records. By 1897 an official
-    committee recommended fingerprints as superior for the purpose, and the Government of India adopted fingerprint
-    classification on 12 June 1897.
-  sources:
-  - title: Alphonse Bertillon (1853–1914)
+  - id: british-india-1892-1897
+    polity: British India
+    region: South Asia
+    startYear: 1892
+    endYear: 1897
+    strength: policy-basis
+    institutionTypes:
+      - government
+    institutions:
+      - Government of India
+      - Bengal Police
+    institutionalContext: >-
+      Bengal police began using anthropometric roll cards in 1892, and a Government of India instruction of 10 May 1892
+      extended the Bertillon system for habitual-offender identification. The system classified adult prisoners by
+      standardized body measurements so that a suspected repeat offender's prior record could be located and compared.
+      The method required careful instruments and highly reproducible technique. In 1897 an official committee judged
+      fingerprint classification superior for the same record-identification task, and the Government of India adopted
+      the fingerprint system by resolution on 12 June.
+    consequences:
+      - Habitual offenders were measured and indexed through anthropometric criminal records
+      - Police training and record retrieval were organized around standardized body measurements
+      - Identification depended on measurements vulnerable to operator, instrument and classification error
+      - The government replaced the system with fingerprint classification after official review
+    summary: >-
+      Beginning in 1892, British India institutionalized Bertillon-style anthropometry for habitual-offender
+      identification, with the Bengal Police among its key implementing bodies. The system required trained officers
+      to reproduce standardized body measurements closely enough to retrieve prior records. By 1897 an official
+      committee recommended fingerprints as superior for the purpose, and the Government of India adopted fingerprint
+      classification on 12 June 1897.
+    mechanism:
+      kind: classification
+      summary: >-
+        Government instructions and police record systems classified adult prisoners through standardized body
+        measurements so that suspected repeat offenders could be indexed, retrieved and compared against prior records.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 12 June 1897
+      action: Government of India adopted fingerprint classification in place of anthropometric identification.
+      summary: >-
+        After an official committee judged fingerprints superior for the same record-identification task, the Government
+        of India replaced the anthropometric indexing system with fingerprint classification.
+sources:
+  - id: nlm-bertillon-biography
+    title: Alphonse Bertillon (1853–1914)
     url: https://www.nlm.nih.gov/exhibition/visibleproofs/galleries/biographies/bertillon.html
     publisher: U.S. National Library of Medicine
+  - id: nlm-bertillon-system
+    title: Bertillon system of identification
+    url: https://www.nlm.nih.gov/exhibition/visibleproofs/galleries/technologies/bertillon_image_2.html
+    publisher: U.S. National Library of Medicine
+  - id: settle-colonial-india
+    title: 'Settle, Mobilize, Verify: Identification Practices in Colonial India'
+    url: https://journals.sagepub.com/doi/10.1177/025764300001600201
+    publisher: Studies in History
+  - id: ijhs-fingerprint-colonial-india
+    title: History of fingerprint identification in colonial India
+    url: https://cahc.jainuniversity.ac.in/assets/ijhs/Vol54_2_2019__Art06.pdf
+    publisher: Indian Journal of History of Science
+  - id: ucla-colonial-anthropology
+    title: Criminality and Colonial Anthropology
+    url: https://southasia.ucla.edu/history-politics/british-india/criminality-colonial-anthropology/
+    publisher: UCLA South Asia
+evidence:
+  - id: bertillon-nlm-proposition
+    sourceId: nlm-bertillon-biography
+    relation: supports
+    target: {scope: belief, aspect: proposition}
     note: >-
       Describes the anthropometric system's premise that standardized measurements could form an identifying formula,
       its adoption by Paris police, and practical failures including calibration problems and inability of trained
       officers always to reproduce the same measurements.
-  - title: Bertillon system of identification
-    url: https://www.nlm.nih.gov/exhibition/visibleproofs/galleries/technologies/bertillon_image_2.html
-    publisher: U.S. National Library of Medicine
+  - id: bertillon-nlm-system-correction
+    sourceId: nlm-bertillon-system
+    relation: contextualizes
+    target: {scope: belief, aspect: correction}
     note: >-
       Explains how primary measurements were classified to retrieve candidate records, after which photographs and
       other details were used for final comparison.
-  - title: 'Settle, Mobilize, Verify: Identification Practices in Colonial India'
-    url: https://journals.sagepub.com/doi/10.1177/025764300001600201
-    publisher: Studies in History
+  - id: bertillon-settle-carrier
+    sourceId: settle-colonial-india
+    relation: supports
+    target: {scope: episode, episodeId: british-india-1892-1897, aspect: carrier}
     note: >-
       Peer-reviewed history dating the introduction of anthropometric roll cards in the Bengal police to March 1892
       and the 1897 shift toward criminal identification by fingerprints.
-  - title: History of fingerprint identification in colonial India
-    url: https://cahc.jainuniversity.ac.in/assets/ijhs/Vol54_2_2019__Art06.pdf
-    publisher: Indian Journal of History of Science
+  - id: bertillon-ijhs-mechanism
+    sourceId: ijhs-fingerprint-colonial-india
+    relation: documents
+    target: {scope: episode, episodeId: british-india-1892-1897, aspect: mechanism}
     note: >-
       Historical study citing the Government of India instruction of 10 May 1892 introducing the Bertillon system
       for habitual-offender identification and the subsequent official fingerprint transition.
-  - title: Criminality and Colonial Anthropology
-    url: https://southasia.ucla.edu/history-politics/british-india/criminality-colonial-anthropology/
-    publisher: UCLA South Asia
+  - id: bertillon-settle-consequences
+    sourceId: settle-colonial-india
+    relation: supports
+    target: {scope: episode, episodeId: british-india-1892-1897, aspect: consequences}
+  - id: bertillon-ucla-correction
+    sourceId: ucla-colonial-anthropology
+    relation: documents
+    target: {scope: episode, episodeId: british-india-1892-1897, aspect: institutional-correction}
     note: >-
       Historical overview describing the official committee's judgment that fingerprints were superior to
       anthropometry and the Government of India resolution of 12 June 1897 adopting fingerprint identification.
+  - id: bertillon-ucla-belief-correction
+    sourceId: ucla-colonial-anthropology
+    relation: supports
+    target: {scope: belief, aspect: correction}
+  - id: bertillon-ijhs-impact
+    sourceId: ijhs-fingerprint-colonial-india
+    relation: supports
+    target: {scope: belief, aspect: impact}

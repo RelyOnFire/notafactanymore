@@ -1,17 +1,20 @@
+schemaVersion: 2
 locale: de
 entryId: microscopic-hair-source-attribution
 sourceReviewedAt: 2026-08-23
 title: Mikroskopische Haarähnlichkeit als Herkunftszuschreibung
-claim: >-
-  Ein fragliches Haar, das mikroskopisch nicht von Haaren eines Verdächtigen zu unterscheiden schien, wurde als
-  Beweismittel behandelt, das dieses Haar stark dieser Person zuordnen könne – teilweise mit Zahlenangaben oder
-  nahezu individualisierenden Aussagen darüber, wie unwahrscheinlich eine andere Quelle sei.
-currentUnderstanding: >-
-  Mikroskopische Haarvergleiche können Morphologie beschreiben, manche Proben unterscheiden, unähnliche Haare
-  ausschließen und im Kontext eine begrenzte Assoziation stützen. Sie können jedoch keine Person eindeutig
-  identifizieren. Historisch fehlten validierte Häufigkeitsdaten, mit denen sich mikroskopische Ähnlichkeit in eine
-  individuelle Herkunftswahrscheinlichkeit übersetzen ließe. Geeignetes Material kann mittels mitochondrialer oder
-  nukleärer DNA wesentlich aussagekräftiger untersucht werden.
+proposition:
+  summary: >-
+    Ein fragliches Haar, das mikroskopisch nicht von Haaren eines Verdächtigen zu unterscheiden schien, wurde als
+    Beweismittel behandelt, das dieses Haar stark dieser Person zuordnen könne – teilweise mit Zahlenangaben oder
+    nahezu individualisierenden Aussagen darüber, wie unwahrscheinlich eine andere Quelle sei.
+correction:
+  summary: >-
+    Mikroskopische Haarvergleiche können Morphologie beschreiben, manche Proben unterscheiden, unähnliche Haare
+    ausschließen und im Kontext eine begrenzte Assoziation stützen. Sie können jedoch keine Person eindeutig
+    identifizieren. Historisch fehlten validierte Häufigkeitsdaten, mit denen sich mikroskopische Ähnlichkeit in eine
+    individuelle Herkunftswahrscheinlichkeit übersetzen ließe. Geeignetes Material kann mittels mitochondrialer oder
+    nukleärer DNA wesentlich aussagekräftiger untersucht werden.
 impact:
   summary: >-
     Die spätere FBI-Überprüfung zeigte ein systematisches Problem bei der Kommunikation mikroskopischer Ähnlichkeiten,
@@ -57,3 +60,37 @@ episodes:
       - Laborberichte und Gerichtsaussagen übertrieben teilweise die Herkunftsbedeutung mikroskopischer Ähnlichkeit
       - FBI-Ausbildungen verbreiteten die Haarvergleichspraxis an Hunderte staatliche und lokale Sachverständige
       - Nach Bekanntwerden systematischer Aussagefehler folgten umfangreiche Benachrichtigungs- und Fallüberprüfungen
+    mechanism:
+      summary: >-
+        Das FBI institutionalisierte mikroskopische Haarvergleiche durch Laborfallarbeit, technische Handbücher und
+        Ausbildung für Hunderte staatliche und lokale Sachverständige und verbreitete damit Methode und Berichtspraxis.
+    institutionalCorrection:
+      periodLabel: '2015'
+      action: FBI und DOJ erkannten systematische Aussagefehler öffentlich an, benachrichtigten Betroffene und leiteten Fallüberprüfungen ein.
+      summary: >-
+        Das FBI trennte gültige beschreibende Mikroskopie ausdrücklich von unbelegten Herkunftswahrscheinlichkeiten,
+        erkannte verbreitete historische Übertreibungen an und beteiligte sich an Benachrichtigung, Fallprüfung und Ursachenanalyse.
+evidence:
+  - id: hair-fbi-review-proposition
+    note: >-
+      Trennt mikroskopische Haarvergleiche ausdrücklich als gültige Vergleichstechnik vom Problem überzogener Aussagen,
+      beschreibt mitochondriale DNA als aussagekräftigere Ergänzung und definiert den Prüfungsumfang für Fälle vor 2000.
+  - id: hair-fbi-review-correction
+  - id: hair-fbi-errors-impact
+    note: >-
+      Berichtet über fast 3.000 potenziell überprüfbare Fälle, fehlerhafte Aussagen in 257 von 268 untersuchten belastenden
+      Gerichtsprotokollen, Aussagen der geprüften Sachverständigen in 41 Bundesstaaten und FBI-Ausbildung für Hunderte staatliche Haarprüfer.
+  - id: hair-pulitzer-carrier
+    note: >-
+      Dokumentiert, dass das FBI Laboratory 1973 mit der Ausbildung staatlicher und lokaler Haar-Sachverständiger begann,
+      und beschreibt die landesweite Verbreitung sowie die damaligen Herkunftsannahmen der Praxis.
+  - id: hair-ojp-mechanism
+    note: >-
+      Amtlicher bibliografischer Nachweis des 1977 vom FBI verfassten technischen Handbuchs, das zur Ausbildung in
+      mikroskopischer Haaruntersuchung und Identifikation bei Strafermittlungen verwendet wurde.
+  - id: hair-fbi-errors-consequences
+  - id: hair-fbi-correction
+  - id: hair-root-cause-context
+    note: >-
+      Fasst die unabhängige Ursachenanalyse zusammen, die keine Hinweise auf böswillige Absicht fand und unzureichend konkrete
+      Vorgaben für Berichte und Gerichtsaussagen als wichtigste Ursache der Fehler identifizierte.

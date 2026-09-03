@@ -1,14 +1,17 @@
+schemaVersion: 2
 title: Remote “molecular” detectors for explosives and drugs
-claim: >-
-  Hand-held passive-antenna devices such as the GT200 and ADE 651 were treated as able to remotely identify hidden
-  explosives, drugs, weapons, or other substances through claimed molecular or electrostatic mechanisms, reliably
-  enough to guide searches, checkpoints, arrests, and other security decisions.
-currentUnderstanding: >-
-  These devices had no validated mechanism capable of remotely identifying the claimed substances. Controlled
-  testing of the GT200 found performance compatible with chance, while a British criminal court found the ADE
-  devices useless and their explosive-detection capability no better than random chance. Reliable explosive or drug
-  detection requires validated physical, chemical, biological, canine, or imaging methods rather than the movement
-  of an unpowered passive antenna.
+proposition:
+  summary: >-
+    Hand-held passive-antenna devices such as the GT200 and ADE 651 were treated as able to remotely identify hidden
+    explosives, drugs, weapons, or other substances through claimed molecular or electrostatic mechanisms, reliably
+    enough to guide searches, checkpoints, arrests, and other security decisions.
+correction:
+  summary: >-
+    These devices had no validated mechanism capable of remotely identifying the claimed substances. Controlled
+    testing of the GT200 found performance compatible with chance, while a British criminal court found the ADE
+    devices useless and their explosive-detection capability no better than random chance. Reliable explosive or drug
+    detection requires validated physical, chemical, biological, canine, or imaging methods rather than the movement
+    of an unpowered passive antenna.
 category: Security technology and substance detection
 reviewedAt: 2026-08-23
 impact:
@@ -42,7 +45,9 @@ episodes:
     endYear: 2014
     periodLabel: 2008–at least 2014
     strength: policy-basis
-    institutionTypes: [government, military]
+    institutionTypes:
+      - government
+      - military
     institutions:
       - Secretaría de la Defensa Nacional (SEDENA)
       - Secretaría de Marina (SEMAR)
@@ -67,31 +72,19 @@ episodes:
       test with certified operators later failed in 17 of 20 attempts, a result compatible with chance. Judicial,
       scientific, human-rights, and parliamentary challenges accumulated through 2014, when federal purchase and
       operation of the devices remained the subject of congressional investigation and criticism.
-    sources:
-      - title: Recomendación General No. 19 — Sobre la práctica de cateos ilegales
-        url: https://dof.gob.mx/nota_detalle_popup.php?codigo=5204643
-        publisher: Comisión Nacional de los Derechos Humanos — Diario Oficial de la Federación
-        note: >-
-          Official CNDH recommendation states that Mexican armed forces used the GT200 on numerous occasions in
-          organized-crime operations and warns that device indications were being used to justify warrantless home entries.
-      - title: Personal militar asegura armamento, droga, vehículos y artículos diversos en Michoacán
-        url: https://www.gob.mx/defensa/prensa/personal-militar-asegura-armamento-droga-vehiculos-y-articulos-diversos-en-michoacan
-        publisher: Secretaría de la Defensa Nacional
-        note: >-
-          Official 2009 SEDENA communiqué explicitly records military operational use of a GT200 detector during a
-          counter-narcotics action, illustrating that the device was used as an active security tool rather than merely procured.
-      - title: Compra y operación del detector molecular GT200 en territorio nacional
-        url: https://cronica.diputados.gob.mx/DDebates/62/2do/1P/Ord/oct/01L62A2P128-IV.html
-        publisher: Cámara de Diputados — Diario de los Debates
-        note: >-
-          Congressional record lists 742 GT200 units acquired by SEDENA, 102 by SEMAR, 54 by PEMEX, and seven by PGR,
-          and documents concern over searches, detentions, prosecutions, and continued federal operation of the devices.
-      - title: How a Drug and Explosives Detector Proved Useless — Military Use of the GT200
-        url: https://produccion.siia.unam.mx/Publicaciones/ProdCientif/PublicacionFrw.aspx?id=456200&scopus=0
-        publisher: IEEE Technology and Society Magazine — indexed by Universidad Nacional Autónoma de México
-        note: >-
-          Peer-reviewed study reports a double-blind test in which certified operators failed in 17 of 20 attempts to
-          locate amphetamine pills and bullets hidden in one of eight identical boxes, a result compatible with chance.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Federal agencies procured GT200 devices and converted their indications into operational inputs for military,
+        prosecutorial and infrastructure-security searches, detentions and home entries.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 2011–2014
+      action: Courts, the CNDH, scientists and legislators challenged GT200 use, but no uniform federal executive suspension is documented in the period.
+      summary: >-
+        Mexico developed a substantial institutional counter-record against the GT200, including human-rights,
+        scientific, judicial and parliamentary challenges. Because congressional records still described federal use
+        and the absence of a uniform suspension through 2014, the correction is partial rather than a clean federal endpoint.
   - id: iraq-2007-2016
     polity: Iraq
     region: Middle East
@@ -99,7 +92,8 @@ episodes:
     endYear: 2016
     periodLabel: 2007–2016
     strength: policy-basis
-    institutionTypes: [government]
+    institutionTypes:
+      - government
     institutions:
       - Ministry of Interior of Iraq
       - General Directorate for Combating Explosives, Ministry of Interior
@@ -123,23 +117,115 @@ episodes:
       in all probability materially contributed to death and injury, while cautioning that no specific casualty could
       be attributed to a device. The detectors nevertheless remained in Iraqi police use until July 2016, when Prime
       Minister Haider al-Abadi ordered security services to stop using them.
-    sources:
-      - title: وثيقة — نحو 4 مليارات دينار قيمة أول 60 قطعة من أجهزة كشف المتفجرات
-        url: https://www.alsumaria.tv/news/security/75704/
-        publisher: Alsumaria News
-        note: >-
-          Reports from the underlying procurement document that Iraqi contract 2/2007 covered 60 ADE devices, was based
-          on a stated need from the explosives-combating directorate, passed ministry review, and was approved by the Interior Minister.
-      - title: R v James McCormick — Sentencing Remarks
-        url: https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/r-v-mccormack-sentencing-remarks-20130502.pdf
-        publisher: Judiciary of England and Wales — Central Criminal Court
-        note: >-
-          The sentencing court states that more than 7,000 ADE devices were sold to the Iraqi government and other
-          international agencies, calls the device useless and no better than random chance for explosive detection,
-          and describes the false security created by its operational use.
-      - title: Iraq PM Abadi orders police to stop using fake bomb detectors
-        url: https://news.trust.org/item/20160703200315-ghmqs
-        publisher: Reuters
-        note: >-
-          Reports Prime Minister Haider al-Abadi's July 2016 order for security services to stop using the fake bomb
-          detectors and confirms that Iraqi police were still using them five years after the sales scandal emerged.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        The Interior Ministry procured ADE-family devices for counter-explosives work and police incorporated them into
+        routine checkpoint screening of vehicles and people.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: July 2016
+      action: Prime Minister Haider al-Abadi ordered security services to stop using the fake bomb detectors.
+      summary: >-
+        After years of warnings and the seller's fraud conviction, the Iraqi government issued a direct stop-use order
+        ending official security-service reliance on the devices.
+sources:
+  - id: cndh-gt200-home-searches
+    title: Recomendación General No. 19 — Sobre la práctica de cateos ilegales
+    url: https://dof.gob.mx/nota_detalle_popup.php?codigo=5204643
+    publisher: Comisión Nacional de los Derechos Humanos — Diario Oficial de la Federación
+  - id: sedena-gt200-operation-2009
+    title: Personal militar asegura armamento, droga, vehículos y artículos diversos en Michoacán
+    url: https://www.gob.mx/defensa/prensa/personal-militar-asegura-armamento-droga-vehiculos-y-articulos-diversos-en-michoacan
+    publisher: Secretaría de la Defensa Nacional
+  - id: diputados-gt200-record
+    title: Compra y operación del detector molecular GT200 en territorio nacional
+    url: https://cronica.diputados.gob.mx/DDebates/62/2do/1P/Ord/oct/01L62A2P128-IV.html
+    publisher: Cámara de Diputados — Diario de los Debates
+  - id: ieee-gt200-test
+    title: How a Drug and Explosives Detector Proved Useless — Military Use of the GT200
+    url: https://produccion.siia.unam.mx/Publicaciones/ProdCientif/PublicacionFrw.aspx?id=456200&scopus=0
+    publisher: IEEE Technology and Society Magazine — indexed by Universidad Nacional Autónoma de México
+  - id: alsumaria-ade-contract
+    title: وثيقة — نحو 4 مليارات دينار قيمة أول 60 قطعة من أجهزة كشف المتفجرات
+    url: https://www.alsumaria.tv/news/security/75704/
+    publisher: Alsumaria News
+  - id: mccormick-sentencing
+    title: R v James McCormick — Sentencing Remarks
+    url: https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/r-v-mccormack-sentencing-remarks-20130502.pdf
+    publisher: Judiciary of England and Wales — Central Criminal Court
+  - id: reuters-iraq-stop-detectors
+    title: Iraq PM Abadi orders police to stop using fake bomb detectors
+    url: https://news.trust.org/item/20160703200315-ghmqs
+    publisher: Reuters
+evidence:
+  - id: detector-sedena-proposition
+    sourceId: sedena-gt200-operation-2009
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Official 2009 SEDENA communiqué explicitly records military operational use of a GT200 detector during a
+      counter-narcotics action, illustrating that the device was used as an active security tool rather than merely procured.
+  - id: detector-ieee-correction
+    sourceId: ieee-gt200-test
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Peer-reviewed study reports a double-blind test in which certified operators failed in 17 of 20 attempts to
+      locate amphetamine pills and bullets hidden in one of eight identical boxes, a result compatible with chance.
+  - id: detector-mccormick-correction
+    sourceId: mccormick-sentencing
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      The sentencing court states that more than 7,000 ADE devices were sold to the Iraqi government and other
+      international agencies, calls the device useless and no better than random chance for explosive detection,
+      and describes the false security created by its operational use.
+  - id: detector-diputados-impact
+    sourceId: diputados-gt200-record
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Congressional record lists 742 GT200 units acquired by SEDENA, 102 by SEMAR, 54 by PEMEX, and seven by PGR,
+      and documents concern over searches, detentions, prosecutions, and continued federal operation of the devices.
+  - id: detector-mexico-carrier
+    sourceId: cndh-gt200-home-searches
+    relation: documents
+    target: {scope: episode, episodeId: mexico-2008-2014, aspect: carrier}
+    note: >-
+      Official CNDH recommendation states that Mexican armed forces used the GT200 on numerous occasions in
+      organized-crime operations and warns that device indications were being used to justify warrantless home entries.
+  - id: detector-mexico-mechanism
+    sourceId: sedena-gt200-operation-2009
+    relation: documents
+    target: {scope: episode, episodeId: mexico-2008-2014, aspect: mechanism}
+  - id: detector-mexico-consequences
+    sourceId: diputados-gt200-record
+    relation: supports
+    target: {scope: episode, episodeId: mexico-2008-2014, aspect: consequences}
+  - id: detector-mexico-partial-correction
+    sourceId: diputados-gt200-record
+    relation: documents
+    target: {scope: episode, episodeId: mexico-2008-2014, aspect: institutional-correction}
+  - id: detector-iraq-carrier
+    sourceId: alsumaria-ade-contract
+    relation: documents
+    target: {scope: episode, episodeId: iraq-2007-2016, aspect: carrier}
+    note: >-
+      Reports from the underlying procurement document that Iraqi contract 2/2007 covered 60 ADE devices, was based
+      on a stated need from the explosives-combating directorate, passed ministry review, and was approved by the Interior Minister.
+  - id: detector-iraq-mechanism
+    sourceId: mccormick-sentencing
+    relation: supports
+    target: {scope: episode, episodeId: iraq-2007-2016, aspect: mechanism}
+  - id: detector-iraq-consequences
+    sourceId: mccormick-sentencing
+    relation: supports
+    target: {scope: episode, episodeId: iraq-2007-2016, aspect: consequences}
+  - id: detector-iraq-correction
+    sourceId: reuters-iraq-stop-detectors
+    relation: documents
+    target: {scope: episode, episodeId: iraq-2007-2016, aspect: institutional-correction}
+    note: >-
+      Reports Prime Minister Haider al-Abadi's July 2016 order for security services to stop using the fake bomb
+      detectors and confirms that Iraqi police were still using them five years after the sales scandal emerged.

@@ -1,13 +1,16 @@
+schemaVersion: 2
 title: Bitemarks as individual source identification
-claim: >-
-  Patterns left by teeth on human skin were treated as preserving sufficiently distinctive dental features to identify
-  or strongly associate a particular person as the biter.
-currentUnderstanding: >-
-  The scientific premises required for individual bitemark attribution have not been established. Human anterior
-  dentition has not been shown to be unique at the individual level for this purpose, skin does not consistently
-  preserve dental patterns without distortion, and examiners have not been shown to analyze injury patterns reliably
-  enough to identify or reliably include a source. Dental comparison may have limited investigative or exclusionary
-  uses in some contexts, but it does not support individual source identification from a skin injury.
+proposition:
+  summary: >-
+    Patterns left by teeth on human skin were treated as preserving sufficiently distinctive dental features to identify
+    or strongly associate a particular person as the biter.
+correction:
+  summary: >-
+    The scientific premises required for individual bitemark attribution have not been established. Human anterior
+    dentition has not been shown to be unique at the individual level for this purpose, skin does not consistently
+    preserve dental patterns without distortion, and examiners have not been shown to analyze injury patterns reliably
+    enough to identify or reliably include a source. Dental comparison may have limited investigative or exclusionary
+    uses in some contexts, but it does not support individual source identification from a skin injury.
 category: Forensic medicine and identification
 reviewedAt: 2026-08-23
 impact:
@@ -37,7 +40,10 @@ episodes:
     endYear: 2015
     periodLabel: 1984–2015
     strength: institutionally-influential
-    institutionTypes: [professional, court, medical]
+    institutionTypes:
+      - professional
+      - court
+      - medical
     institutions:
       - American Board of Forensic Odontology (ABFO)
     institutionalContext: >-
@@ -59,34 +65,85 @@ episodes:
       unconditional conclusion of “The Biter” in an open-population case. Subsequent NIST review found that the three
       essential premises for source attribution—individual dental uniqueness, faithful transfer to skin, and reliable
       examiner interpretation—were not supported by sufficient data.
-    sources:
-      - title: Guidelines for bite mark analysis — American Board of Forensic Odontology
-        url: https://pubmed.ncbi.nlm.nih.gov/3457076/
-        publisher: Journal of the American Dental Association — indexed by PubMed
-        note: >-
-          The 1986 published ABFO guidelines state that bitemark evidence was used in many courts and military justice
-          and provide detailed standardized methods for collecting and analyzing the evidence.
-      - title: Reference Manual on Scientific Evidence — Reference Guide on Forensic Identification Expertise
-        url: https://www.nationalacademies.org/read/13163/chapter/5
-        publisher: National Research Council — National Academies Press
-        note: >-
-          Reconstructs ABFO's 1984 promulgation of a uniform scoring system, its early reliability claims, and the
-          persistent subjectivity and lack of an accepted minimum number of matching features for individualization.
-      - title: Reference Guide on Forensic Feature Comparison Evidence
-        url: https://www.ncbi.nlm.nih.gov/books/NBK621601/
-        publisher: National Academies of Sciences, Engineering, and Medicine — NCBI Bookshelf
-        note: >-
-          Records that the 2015 ABFO reference manual did not support a conclusion of “The Biter” in an open-population
-          case and summarizes the scientific and judicial history of bitemark source claims.
-      - title: Bitemark Analysis — A NIST Scientific Foundation Review
-        url: https://www.nist.gov/publications/bitemark-analysis-nist-scientific-foundation-review
-        publisher: National Institute of Standards and Technology
-        note: >-
-          Final NIST publication reviewing the scientific foundations of forensic bitemark analysis and the evidence
-          needed to support source-comparison claims.
-      - title: Forensic Bitemark Analysis Not Supported by Sufficient Data, NIST Draft Review Finds
-        url: https://www.nist.gov/news-events/news/2022/10/forensic-bitemark-analysis-not-supported-sufficient-data-nist-draft-review
-        publisher: National Institute of Standards and Technology
-        note: >-
-          Explains the review's three unsupported premises: individual uniqueness of anterior dental patterns, consistent
-          transfer of those patterns to skin, and reliable examiner analysis of the resulting injury pattern.
+    mechanism:
+      kind: standard-setting
+      summary: >-
+        ABFO standardized bitemark collection and comparison through professional guidelines and a scoring framework,
+        giving practitioners a common methodology and conclusion language that entered criminal and military courts.
+    institutionalCorrection:
+      status: partial
+      periodLabel: '2015'
+      action: ABFO guidance stopped supporting an unconditional “The Biter” conclusion in open-population cases.
+      summary: >-
+        ABFO narrowed the strongest permissible source conclusion rather than abandoning bitemark practice entirely.
+        Later scientific reviews further undermined individual-source attribution, while contemporary professional
+        conclusion language remains limited rather than individualizing.
+sources:
+  - id: abfo-bitemark-guidelines
+    title: Guidelines for bite mark analysis — American Board of Forensic Odontology
+    url: https://pubmed.ncbi.nlm.nih.gov/3457076/
+    publisher: Journal of the American Dental Association — indexed by PubMed
+  - id: nrc-forensic-identification-guide
+    title: Reference Manual on Scientific Evidence — Reference Guide on Forensic Identification Expertise
+    url: https://www.nationalacademies.org/read/13163/chapter/5
+    publisher: National Research Council — National Academies Press
+  - id: nasem-feature-comparison-guide
+    title: Reference Guide on Forensic Feature Comparison Evidence
+    url: https://www.ncbi.nlm.nih.gov/books/NBK621601/
+    publisher: National Academies of Sciences, Engineering, and Medicine — NCBI Bookshelf
+  - id: nist-bitemark-final
+    title: Bitemark Analysis — A NIST Scientific Foundation Review
+    url: https://www.nist.gov/publications/bitemark-analysis-nist-scientific-foundation-review
+    publisher: National Institute of Standards and Technology
+  - id: nist-bitemark-draft-news
+    title: Forensic Bitemark Analysis Not Supported by Sufficient Data, NIST Draft Review Finds
+    url: https://www.nist.gov/news-events/news/2022/10/forensic-bitemark-analysis-not-supported-sufficient-data-nist-draft-review
+    publisher: National Institute of Standards and Technology
+evidence:
+  - id: bitemark-abfo-proposition
+    sourceId: abfo-bitemark-guidelines
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      The 1986 published ABFO guidelines state that bitemark evidence was used in many courts and military justice
+      and provide detailed standardized methods for collecting and analyzing the evidence.
+  - id: bitemark-nist-correction
+    sourceId: nist-bitemark-final
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Final NIST publication reviewing the scientific foundations of forensic bitemark analysis and the evidence
+      needed to support source-comparison claims.
+  - id: bitemark-nist-premises
+    sourceId: nist-bitemark-draft-news
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Explains the review's three unsupported premises: individual uniqueness of anterior dental patterns, consistent
+      transfer of those patterns to skin, and reliable examiner analysis of the resulting injury pattern.
+  - id: bitemark-nrc-impact
+    sourceId: nrc-forensic-identification-guide
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Reconstructs ABFO's 1984 promulgation of a uniform scoring system, its early reliability claims, and the
+      persistent subjectivity and lack of an accepted minimum number of matching features for individualization.
+  - id: bitemark-abfo-carrier
+    sourceId: abfo-bitemark-guidelines
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1984-2015, aspect: carrier}
+  - id: bitemark-nrc-mechanism
+    sourceId: nrc-forensic-identification-guide
+    relation: supports
+    target: {scope: episode, episodeId: united-states-1984-2015, aspect: mechanism}
+  - id: bitemark-abfo-consequences
+    sourceId: abfo-bitemark-guidelines
+    relation: supports
+    target: {scope: episode, episodeId: united-states-1984-2015, aspect: consequences}
+  - id: bitemark-nasem-institutional-correction
+    sourceId: nasem-feature-comparison-guide
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1984-2015, aspect: institutional-correction}
+    note: >-
+      Records that the 2015 ABFO reference manual did not support a conclusion of “The Biter” in an open-population
+      case and summarizes the scientific and judicial history of bitemark source claims.

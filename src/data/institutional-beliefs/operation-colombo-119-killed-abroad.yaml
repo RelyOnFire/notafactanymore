@@ -1,86 +1,146 @@
+schemaVersion: 2
 title: Chile's 119 disappeared detainees as having died abroad
-claim: Chile's DINA and the dictatorship's information network propagated the claim that 119 people reported missing after
-  detention in Chile had actually left the country and died abroad in internal left-wing purges or clashes, rather than having
-  been forcibly disappeared by Chilean state agents.
-currentUnderstanding: Operation Colombo was a DINA-organized international disinformation operation designed to conceal enforced
-  disappearances. The 119 named people had been detained in Chile; Chile's National Commission for Truth and Reconciliation
-  concluded that they were victims of state repression rather than people who had escaped abroad and killed one another. Later
-  criminal proceedings and Chilean judicial institutions have repeatedly treated the Colombo narrative as a communications
-  fabrication used to conceal DINA crimes.
+proposition:
+  summary: >-
+    Chile's DINA and the dictatorship's information network propagated the claim that 119 people reported missing after
+    detention in Chile had actually left the country and died abroad in internal left-wing purges or clashes, rather
+    than having been forcibly disappeared by Chilean state agents.
+correction:
+  summary: >-
+    Operation Colombo was a DINA-organized international disinformation operation designed to conceal enforced
+    disappearances. The 119 named people had been detained in Chile; Chile's National Commission for Truth and
+    Reconciliation concluded that they were victims of state repression rather than people who had escaped abroad and
+    killed one another. Later criminal proceedings and Chilean judicial institutions have repeatedly treated the Colombo
+    narrative as a communications fabrication used to conceal DINA crimes.
 category: Political repression, enforced disappearance and state disinformation
 reviewedAt: '2026-08-25'
 impact:
-  summary: Operation Colombo manufactured an alternative fate for a large group of disappeared prisoners at a moment when
-    the Pinochet dictatorship was under international pressure over human-rights violations. DINA arranged for two foreign
-    publications to report the deaths of people on a 119-name list and Chilean newspapers rapidly amplified the claims, portraying
-    the disappeared as militants killed by their own side or in foreign clashes. The operation discredited habeas-corpus petitions
-    and families' claims that the missing people had been detained by Chilean security forces. The democratic state's truth
-    process formally dismantled that account in 1991, and later courts established criminal responsibility for DINA disappearances
-    connected to the case.
+  summary: >-
+    Operation Colombo manufactured an alternative fate for a large group of disappeared prisoners at a moment when the
+    Pinochet dictatorship was under international pressure over human-rights violations. DINA arranged for two foreign
+    publications to report the deaths of people on a 119-name list and Chilean newspapers rapidly amplified the claims,
+    portraying the disappeared as militants killed by their own side or in foreign clashes. The operation discredited
+    habeas-corpus petitions and families' claims that the missing people had been detained by Chilean security forces.
+    The democratic state's truth process formally dismantled that account in 1991, and later courts established criminal
+    responsibility for DINA disappearances connected to the case.
   highlights:
-  - value: '119'
-    label: disappeared Chileans whose names were used in the fabricated foreign-death lists
-  - value: '2'
-    label: specially created or reactivated foreign publications used to launch the July 1975 death lists
-  - value: '1991'
-    label: year Chile's Truth and Reconciliation Commission formally rejected the fabricated account
+    - value: '119'
+      label: disappeared Chileans whose names were used in the fabricated foreign-death lists
+    - value: '2'
+      label: specially created or reactivated foreign publications used to launch the July 1975 death lists
+    - value: '1991'
+      label: year Chile's Truth and Reconciliation Commission formally rejected the fabricated account
   context:
-  - The 119 were not all shown to have died in one place, at one time or by one identical mechanism. The stable false proposition
-    was that these missing detainees had escaped Chile and died abroad through left-wing infighting or foreign clashes, thereby
-    denying Chilean state responsibility for their disappearance.
-  - Chilean newspapers were crucial amplifiers, while the principal institutional carrier was the dictatorship's security and
-    information apparatus, especially DINA. Repetition of the planted stories did not by itself make every journalist or newspaper
-    employee a state official or conscious participant.
-  - Chile's Truth and Reconciliation Commission formally rejected the fabricated account in 1991. Criminal investigations and
-    convictions continued for decades afterward, so the commission's finding did not end litigation or complete justice for
-    all 119 cases.
+    - >-
+      The 119 were not all shown to have died in one place, at one time or by one identical mechanism. The stable false proposition
+      was that these missing detainees had escaped Chile and died abroad through left-wing infighting or foreign clashes, thereby
+      denying Chilean state responsibility for their disappearance.
+    - >-
+      Chilean newspapers were crucial amplifiers, while the principal institutional carrier was the dictatorship's security and
+      information apparatus, especially DINA. Repetition of the planted stories did not by itself make every journalist or newspaper
+      employee a state official or conscious participant.
+    - >-
+      Chile's Truth and Reconciliation Commission formally rejected the fabricated account in 1991. Criminal investigations and
+      convictions continued for decades afterward, so the commission's finding did not end litigation or complete justice for
+      all 119 cases.
 episodes:
-- id: chile-1975-1991
-  polity: Chile
-  region: South America
-  startYear: 1975
-  endYear: 1991
-  strength: officially-endorsed
-  institutionTypes:
-  - government
-  institutions:
-  - Dirección de Inteligencia Nacional
-  - Chilean military government's information apparatus
-  institutionalContext: During 1975 DINA sought to answer growing domestic and international evidence of enforced disappearance
-    by constructing a story in which missing Chilean opposition members were alive outside Chile or had died in conflicts
-    among left-wing groups. The operation culminated in July with 119 names published through the Argentine magazine Lea and
-    the Brazilian newspaper O Dia/Novo O Dia, publications created or reactivated for the operation. Chilean regime-aligned
-    newspapers then reproduced and sensationalized the supposed foreign deaths. The narrative gave the dictatorship a ready
-    answer to families, courts and international critics asking about detainees whom security agencies officially denied holding.
-    After the transition to democracy, the National Commission for Truth and Reconciliation established that the people on
-    the lists were victims of Chilean state repression and identified Operation Colombo as a DINA disinformation maneuver.
-  consequences:
-  - Concealment of enforced disappearances carried out by Chilean security agents
-  - False public attribution of victims' deaths to internal MIR violence or foreign confrontations
-  - Discrediting of families and human-rights organizations reporting that the 119 had been detained in Chile
-  - International and domestic media amplification of fabricated evidence about the victims' supposed fate
-  - Additional uncertainty and trauma for families denied truthful information about detained relatives
-  - Decades of criminal litigation and demands for correction after democratic institutions rejected the cover story
-  summary: 'Operation Colombo did more than deny that DINA held particular prisoners. It created a coordinated international
-    explanation for 119 disappearances: the missing Chileans had supposedly fled abroad and died in internecine left-wing
-    violence or clashes outside the country. Foreign publications supplied the planted lists and Chilean newspapers amplified
-    them. The democratic truth commission later established that the 119 were victims of state repression in Chile, turning
-    the supposed foreign deaths into one of the dictatorship''s best documented disinformation operations.'
-  sources:
-  - title: Historias con Memoria — Operación Colombo
+  - id: chile-1975-1991
+    polity: Chile
+    region: South America
+    startYear: 1975
+    endYear: 1991
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+    institutions:
+      - Dirección de Inteligencia Nacional
+      - Chilean military government's information apparatus
+    institutionalContext: >-
+      During 1975 DINA sought to answer growing domestic and international evidence of enforced disappearance by
+      constructing a story in which missing Chilean opposition members were alive outside Chile or had died in conflicts
+      among left-wing groups. The operation culminated in July with 119 names published through the Argentine magazine
+      Lea and the Brazilian newspaper O Dia/Novo O Dia, publications created or reactivated for the operation. Chilean
+      regime-aligned newspapers then reproduced and sensationalized the supposed foreign deaths. The narrative gave the
+      dictatorship a ready answer to families, courts and international critics asking about detainees whom security
+      agencies officially denied holding. After the transition to democracy, the National Commission for Truth and
+      Reconciliation established that the people on the lists were victims of Chilean state repression and identified
+      Operation Colombo as a DINA disinformation maneuver.
+    consequences:
+      - Concealment of enforced disappearances carried out by Chilean security agents
+      - False public attribution of victims' deaths to internal MIR violence or foreign confrontations
+      - Discrediting of families and human-rights organizations reporting that the 119 had been detained in Chile
+      - International and domestic media amplification of fabricated evidence about the victims' supposed fate
+      - Additional uncertainty and trauma for families denied truthful information about detained relatives
+      - Decades of criminal litigation and demands for correction after democratic institutions rejected the cover story
+    summary: >-
+      Operation Colombo did more than deny that DINA held particular prisoners. It created a coordinated international
+      explanation for 119 disappearances: the missing Chileans had supposedly fled abroad and died in internecine
+      left-wing violence or clashes outside the country. Foreign publications supplied the planted lists and Chilean
+      newspapers amplified them. The democratic truth commission later established that the 119 were victims of state
+      repression in Chile, turning the supposed foreign deaths into one of the dictatorship's best documented
+      disinformation operations.
+    mechanism:
+      kind: publication
+      summary: >-
+        DINA planted the 119-name death narrative through foreign publications and the dictatorship's information network,
+        after which regime-aligned Chilean media amplified it as an official explanation for disappeared detainees.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: '1991'
+      action: Chile's National Commission for Truth and Reconciliation formally rejected the foreign-death narrative and identified the 119 as victims of state repression.
+      summary: >-
+        The democratic state's truth commission dismantled the dictatorship's account by identifying Operation Colombo
+        as a DINA disinformation maneuver and recognizing the listed detainees as victims of Chilean state repression.
+sources:
+  - id: mmdh-operation-colombo
+    title: Historias con Memoria — Operación Colombo
     url: https://mmdh.cl/noticias/historias-con-memoria/post-noticia-96
     publisher: Museum of Memory and Human Rights, Chile
-    note: Institutional historical account describing Operation Colombo as a dictatorship media fabrication led by DINA, the
-      use of specially created foreign publications, the 119 detainees, the domestic press amplification and the Truth and
-      Reconciliation Commission's rejection of the false account.
-  - title: 'Fallo Histórico — El gran montaje: Operación Colombo'
+  - id: poder-judicial-operation-colombo
+    title: 'Fallo Histórico — El gran montaje: Operación Colombo'
     url: https://www.poderjudicialtv.cl/programas/fallos-historicos/noticiero-judicial-fallo-historico-el-gran-montaje-operacion-colombo/
     publisher: Judicial Branch of Chile
-    note: Chilean judiciary historical program describing the operation as a communications fabrication executed by DINA to
-      conceal forced detention, with the press falsely reporting that political prisoners were underground and had killed
-      one another.
-  - title: Parliamentary record on the 119 disappeared persons and Operation Colombo
+  - id: bcn-operation-colombo
+    title: Parliamentary record on the 119 disappeared persons and Operation Colombo
     url: https://www.bcn.cl/laborparlamentaria/participacion?idParticipacion=2067626
     publisher: Library of the National Congress of Chile
-    note: Official parliamentary record citing the Rettig Report and describing the DINA operation as a fabricated account
+evidence:
+  - id: colombo-mmdh-proposition
+    sourceId: mmdh-operation-colombo
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Institutional historical account describing Operation Colombo as a dictatorship media fabrication led by DINA,
+      the use of specially created foreign publications, the 119 detainees, the domestic press amplification and the
+      Truth and Reconciliation Commission's rejection of the false account.
+  - id: colombo-bcn-correction
+    sourceId: bcn-operation-colombo
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Official parliamentary record citing the Rettig Report and describing the DINA operation as a fabricated account
       in which 119 people detained in Chile were reported killed abroad in clashes or by their own political comrades.
+  - id: colombo-mmdh-impact
+    sourceId: mmdh-operation-colombo
+    relation: supports
+    target: {scope: belief, aspect: impact}
+  - id: colombo-mmdh-carrier
+    sourceId: mmdh-operation-colombo
+    relation: supports
+    target: {scope: episode, episodeId: chile-1975-1991, aspect: carrier}
+  - id: colombo-judiciary-mechanism
+    sourceId: poder-judicial-operation-colombo
+    relation: documents
+    target: {scope: episode, episodeId: chile-1975-1991, aspect: mechanism}
+    note: >-
+      Chilean judiciary historical program describing the operation as a communications fabrication executed by DINA
+      to conceal forced detention, with the press falsely reporting that political prisoners were underground and had
+      killed one another.
+  - id: colombo-judiciary-consequences
+    sourceId: poder-judicial-operation-colombo
+    relation: supports
+    target: {scope: episode, episodeId: chile-1975-1991, aspect: consequences}
+  - id: colombo-bcn-institutional-correction
+    sourceId: bcn-operation-colombo
+    relation: documents
+    target: {scope: episode, episodeId: chile-1975-1991, aspect: institutional-correction}

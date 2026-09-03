@@ -1,12 +1,16 @@
+schemaVersion: 2
 title: Dowsing as a reliable subsurface detection method
-claim: >-
-  A trained operator using a rod, pendulum, or related radiesthetic technique was treated as able to detect hidden groundwater
-  or geological features reliably enough to guide technical decisions.
-currentUnderstanding: >-
-  Controlled evidence has not shown dowsing to provide reliable information about hidden groundwater or geological targets
-  beyond ordinary environmental cues and chance. Reanalysis of the large German Scheunen experiments found no reproducible
-  dowsing performance. Apparent success in water finding is especially easy to overinterpret because groundwater occurs beneath
-  much of the landscape; determining its depth, yield, and quality requires hydrogeological, geological, and geophysical evidence.
+proposition:
+  summary: >-
+    A trained operator using a rod, pendulum, or related radiesthetic technique was treated as able to detect hidden
+    groundwater or geological features reliably enough to guide technical decisions.
+correction:
+  summary: >-
+    Controlled evidence has not shown dowsing to provide reliable information about hidden groundwater or geological
+    targets beyond ordinary environmental cues and chance. Reanalysis of the large German Scheunen experiments found no
+    reproducible dowsing performance. Apparent success in water finding is especially easy to overinterpret because
+    groundwater occurs beneath much of the landscape; determining its depth, yield, and quality requires hydrogeological,
+    geological, and geophysical evidence.
 category: Geology and natural resources
 reviewedAt: 2026-08-23
 episodes:
@@ -16,7 +20,10 @@ episodes:
     startYear: 1967
     endYear: 1991
     strength: officially-endorsed
-    institutionTypes: [government, academy, education]
+    institutionTypes:
+      - government
+      - academy
+      - education
     institutions:
       - USSR Ministry of Geology
       - All-Union Institute of Mineral Raw Materials (VIMS)
@@ -25,8 +32,8 @@ episodes:
     institutionalContext: >-
       This institutional program did not represent unanimous acceptance across Soviet geology. The 1984 participant account
       itself records an unsuccessful controlled experiment at the Kursk Magnetic Anomaly and notes that the result slowed the
-      program, while geological criticism of the method was also published. Despite that internal contrary evidence, the Ministry-sponsored
-      program, commission, seminars, methodological guidance, and Academy-level support continued.
+      program, while geological criticism of the method was also published. Despite that internal contrary evidence, the
+      Ministry-sponsored program, commission, seminars, methodological guidance, and Academy-level support continued.
     consequences:
       - A coordinated research program on the so-called biophysical method was created across multiple institutes
       - All-Union seminars and an interdepartmental commission institutionalized research and professional exchange
@@ -39,33 +46,25 @@ episodes:
       to operators around the USSR. A 1984 account by participants stated that the method's effectiveness was accepted within
       this institutional program and cited support from a vice-president of the USSR Academy of Sciences, even though an
       unsuccessful controlled experiment at the Kursk Magnetic Anomaly had already slowed the program's development.
-    sources:
-      - title: Use of the biolocation method in mineral prospecting and geological mapping
-        url: https://zolotodb.ru/article/10471/?page=all
-        publisher: Zolotodobicha, reprinting a 1984 Soviet technical account
-        note: >-
-          Reproduces the late-Soviet institutional history of the program, including the 1967 Ministry of Geology meeting,
-          participating institutes, seminars, interdepartmental commission, methodological guidance, the failed Kursk
-          experiment, published criticism, and Academy-level endorsement claimed by the authors.
-      - title: Biophysical method — history of research in the USSR
-        url: https://search.rsl.ru/ru/record/01004050034
-        publisher: Russian State Library
-        note: >-
-          Catalogues a 2008 collection of articles and reports drawn from the archive of the Interdepartmental Commission on
-          the Biophysical Effect and identifies the collection as marking forty years of scientific research on dowsing in the USSR.
-      - title: Water Dowsing
-        url: https://www.usgs.gov/water-science-school/science/water-dowsing
-        publisher: U.S. Geological Survey
-        note: >-
-          Explains why apparent groundwater-finding success is not evidence that dowsing works and states that accurate
-          determination of groundwater depth, quantity, and quality requires hydrologic, geologic, and geophysical methods.
+    mechanism:
+      kind: funding
+      summary: >-
+        The Ministry of Geology formalized an All-Union research program, interdepartmental commission, seminars and
+        methodological guidance around the “biophysical method,” sustaining investigation and possible application across institutes.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        The surviving record documents internal criticism and failed testing, but does not identify a dated Soviet institutional
+        act formally repudiating the program before the end of the USSR.
   - id: germany-1991-1995
     polity: Germany
     region: Europe
     startYear: 1991
     endYear: 1995
     strength: policy-basis
-    institutionTypes: [government, professional]
+    institutionTypes:
+      - government
+      - professional
     institutions:
       - Deutsche Gesellschaft für Technische Zusammenarbeit (GTZ)
     institutionalContext: >-
@@ -85,31 +84,16 @@ episodes:
       conditions. GTZ subsequently published Hans-Dieter Betz's technical report on unconventional water prospecting, and a
       1995 article presented a series of GTZ projects as evidence for integrating selected dowsers into groundwater prospecting.
       Controlled evidence has not established that dowsing itself adds reproducible information beyond conventional cues and chance.
-    sources:
-      - title: High-Wünschelruten-Tech
-        url: https://taz.de/%211695324%26s%3D%26SuchRahmen%3DPrint/
-        publisher: Die Tageszeitung (taz)
-        note: >-
-          Contemporary 1991 report documents GTZ's operational use of dowsers, names its water-division leadership, and describes
-          the agency's stated pragmatic strategy of combining the method with conventional prospecting in difficult settings.
-      - title: Unconventional Water Detection — Field Test of the Dowsing Technique in Dry Zones
-        url: https://books.google.com/books/about/Unconventional_Water_Detection.html?id=oW_wvgEACAAJ
-        publisher: Deutsche Gesellschaft für Technische Zusammenarbeit (GTZ)
-        note: >-
-          Bibliographic record for the second edition of GTZ's 1993 technical publication on field testing dowsing for water
-          prospecting in dry zones; it documents that the federally owned agency itself published the method as a technical topic.
-      - title: Water dowsing — The Scheunen experiments
-        url: https://link.springer.com/article/10.1007/BF01134560
-        publisher: Naturwissenschaften
-        note: >-
-          Peer-reviewed reanalysis of the large German controlled dowsing experiments found that apparent high performers did
-          not reproduce their success and concluded that the experimental results could reasonably be attributed to chance.
-      - title: Water Dowsing
-        url: https://www.usgs.gov/water-science-school/science/water-dowsing
-        publisher: U.S. Geological Survey
-        note: >-
-          Provides the modern hydrological correction: apparent success does not validate dowsing, and reliable groundwater
-          characterization requires conventional hydrologic, geologic, and geophysical evidence.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        GTZ incorporated selected dowsers into overseas water-prospecting projects alongside conventional methods and published
+        technical material presenting the technique as a practical option under difficult field conditions.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        Later scientific reanalysis rejected reproducible dowsing performance, but the available record does not identify a
+        dated GTZ act formally withdrawing or repudiating its earlier operational use.
   - id: austria-2020-2026
     polity: Austria
     region: Europe
@@ -117,7 +101,8 @@ episodes:
     endYear: 2026
     endOpen: true
     strength: officially-endorsed
-    institutionTypes: [professional]
+    institutionTypes:
+      - professional
     institutions:
       - Landwirtschaftskammer Österreich
       - Landwirtschaftskammer Oberösterreich
@@ -140,32 +125,147 @@ episodes:
       It also describes a continuing relationship between the Upper Austrian chamber and a dowser first used during a 1994
       landslide-drainage project. The Styrian and Carinthian chambers republished updated guidance in 2024 saying the dowsing
       rod can provide valuable help when spring flow declines.
-    sources:
-      - title: Wasserknappheit bei Brunnen und Quellen — Teil 6 — Die Wünschelrute
-        url: https://www.lko.at/artikelserie-wasserknappheit-bei-brunnen-und-quellen-inhaltsverzeichnis%2B2400%2B3230720
-        publisher: Landwirtschaftskammer Österreich
-        note: >-
-          Stable national chamber index for the water-scarcity guidance series; it explicitly includes Part 6 on dowsing and
-          presents the series as practical guidance for wells and springs.
-      - title: Wasserknappheit bei Brunnen und Quellen — Teil 6 — Die Wünschelrute
-        url: https://ooe.lko.at/wasserknappheit-bei-brunnen-und-quellen-teil-6-die-w%C3%BCnschelrute%2B2400%2B3230694
-        publisher: Landwirtschaftskammer Oberösterreich
-        note: >-
-          Provincial source says rods and pendulums can reliably clarify specific well and spring questions, attributes very
-          high success rates to trained dowsers, and describes the chamber's continuing relationship with and referrals to a dowser.
-      - title: Wassersuche mit Wünschelrute
-        url: https://stmk.lko.at/wassersuche-mit-w%C3%BCnschelrute%2B2400%2B4105212
-        publisher: Landwirtschaftskammer Steiermark
-        note: >-
-          November 2024 chamber guidance says the dowsing rod can provide valuable help during water scarcity and repeats claims
-          about water veins, sensory detection, reliable diagnosis, and high success rates.
-      - title: Wassersuche mit Wünschelrute
-        url: https://ktn.lko.at/wassersuche-mit-w%C3%BCnschelrute%2B2400%2B4105213
-        publisher: Landwirtschaftskammer Kärnten
-        note: >-
-          Updated November 2024 chamber guidance states that dowsing can provide valuable assistance during water scarcity and
-          repeats the claimed sensory mechanism and practical recommendations.
-      - title: Water Dowsing
-        url: https://www.usgs.gov/water-science-school/science/water-dowsing
-        publisher: U.S. Geological Survey
-        note: Provides the modern hydrological correction and explains why apparent water-finding success does not validate dowsing.
+    mechanism:
+      kind: endorsement
+      summary: >-
+        Public-law agricultural chambers published dowsing as practical water-management guidance, attributed reliable
+        diagnostic value to trained practitioners, and in Upper Austria described an ongoing referral relationship with a dowser.
+    institutionalCorrection:
+      status: uncorrected
+      periodLabel: 2024–2026
+      summary: >-
+        No correction is documented in the chamber guidance. Updated provincial material in 2024 continued to recommend
+        dowsing as useful during water scarcity, and the episode remains open in the current record.
+sources:
+  - id: soviet-dowsing-1984
+    title: Use of the biolocation method in mineral prospecting and geological mapping
+    url: https://zolotodb.ru/article/10471/?page=all
+    publisher: Zolotodobicha, reprinting a 1984 Soviet technical account
+  - id: rsl-biophysical-history
+    title: Biophysical method — history of research in the USSR
+    url: https://search.rsl.ru/ru/record/01004050034
+    publisher: Russian State Library
+  - id: usgs-water-dowsing
+    title: Water Dowsing
+    url: https://www.usgs.gov/water-science-school/science/water-dowsing
+    publisher: U.S. Geological Survey
+  - id: taz-gtz-dowsing
+    title: High-Wünschelruten-Tech
+    url: https://taz.de/%211695324%26s%3D%26SuchRahmen%3DPrint/
+    publisher: Die Tageszeitung (taz)
+  - id: gtz-water-detection
+    title: Unconventional Water Detection — Field Test of the Dowsing Technique in Dry Zones
+    url: https://books.google.com/books/about/Unconventional_Water_Detection.html?id=oW_wvgEACAAJ
+    publisher: Deutsche Gesellschaft für Technische Zusammenarbeit (GTZ)
+  - id: scheunen-reanalysis
+    title: Water dowsing — The Scheunen experiments
+    url: https://link.springer.com/article/10.1007/BF01134560
+    publisher: Naturwissenschaften
+  - id: lko-national-dowsing
+    title: Wasserknappheit bei Brunnen und Quellen — Teil 6 — Die Wünschelrute
+    url: https://www.lko.at/artikelserie-wasserknappheit-bei-brunnen-und-quellen-inhaltsverzeichnis%2B2400%2B3230720
+    publisher: Landwirtschaftskammer Österreich
+  - id: lko-upper-austria-dowsing
+    title: Wasserknappheit bei Brunnen und Quellen — Teil 6 — Die Wünschelrute
+    url: https://ooe.lko.at/wasserknappheit-bei-brunnen-und-quellen-teil-6-die-w%C3%BCnschelrute%2B2400%2B3230694
+    publisher: Landwirtschaftskammer Oberösterreich
+  - id: lko-styria-dowsing
+    title: Wassersuche mit Wünschelrute
+    url: https://stmk.lko.at/wassersuche-mit-w%C3%BCnschelrute%2B2400%2B4105212
+    publisher: Landwirtschaftskammer Steiermark
+  - id: lko-carinthia-dowsing
+    title: Wassersuche mit Wünschelrute
+    url: https://ktn.lko.at/wassersuche-mit-w%C3%BCnschelrute%2B2400%2B4105213
+    publisher: Landwirtschaftskammer Kärnten
+evidence:
+  - id: dowsing-usgs-correction
+    sourceId: usgs-water-dowsing
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Explains why apparent groundwater-finding success is not evidence that dowsing works and states that accurate
+      determination of groundwater depth, quantity, and quality requires hydrologic, geologic, and geophysical methods.
+  - id: dowsing-soviet-proposition
+    sourceId: soviet-dowsing-1984
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Reproduces the late-Soviet institutional history of the program, including the 1967 Ministry of Geology meeting,
+      participating institutes, seminars, interdepartmental commission, methodological guidance, the failed Kursk
+      experiment, published criticism, and Academy-level endorsement claimed by the authors.
+  - id: dowsing-soviet-carrier
+    sourceId: rsl-biophysical-history
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1967-1991, aspect: carrier}
+    note: >-
+      Catalogues a 2008 collection of articles and reports drawn from the archive of the Interdepartmental Commission on
+      the Biophysical Effect and identifies the collection as marking forty years of scientific research on dowsing in the USSR.
+  - id: dowsing-soviet-mechanism
+    sourceId: soviet-dowsing-1984
+    relation: supports
+    target: {scope: episode, episodeId: soviet-union-1967-1991, aspect: mechanism}
+  - id: dowsing-soviet-consequences
+    sourceId: soviet-dowsing-1984
+    relation: supports
+    target: {scope: episode, episodeId: soviet-union-1967-1991, aspect: consequences}
+  - id: dowsing-gtz-carrier
+    sourceId: taz-gtz-dowsing
+    relation: documents
+    target: {scope: episode, episodeId: germany-1991-1995, aspect: carrier}
+    note: >-
+      Contemporary 1991 report documents GTZ's operational use of dowsers, names its water-division leadership, and describes
+      the agency's stated pragmatic strategy of combining the method with conventional prospecting in difficult settings.
+  - id: dowsing-gtz-mechanism
+    sourceId: gtz-water-detection
+    relation: documents
+    target: {scope: episode, episodeId: germany-1991-1995, aspect: mechanism}
+    note: >-
+      Bibliographic record for the second edition of GTZ's 1993 technical publication on field testing dowsing for water
+      prospecting in dry zones; it documents that the federally owned agency itself published the method as a technical topic.
+  - id: dowsing-gtz-consequences
+    sourceId: taz-gtz-dowsing
+    relation: supports
+    target: {scope: episode, episodeId: germany-1991-1995, aspect: consequences}
+  - id: dowsing-scheunen-context
+    sourceId: scheunen-reanalysis
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Peer-reviewed reanalysis of the large German controlled dowsing experiments found that apparent high performers did
+      not reproduce their success and concluded that the experimental results could reasonably be attributed to chance.
+  - id: dowsing-austria-proposition
+    sourceId: lko-national-dowsing
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Stable national chamber index for the water-scarcity guidance series; it explicitly includes Part 6 on dowsing and
+      presents the series as practical guidance for wells and springs.
+  - id: dowsing-austria-carrier
+    sourceId: lko-upper-austria-dowsing
+    relation: documents
+    target: {scope: episode, episodeId: austria-2020-2026, aspect: carrier}
+    note: >-
+      Provincial source says rods and pendulums can reliably clarify specific well and spring questions, attributes very
+      high success rates to trained dowsers, and describes the chamber's continuing relationship with and referrals to a dowser.
+  - id: dowsing-austria-mechanism
+    sourceId: lko-upper-austria-dowsing
+    relation: supports
+    target: {scope: episode, episodeId: austria-2020-2026, aspect: mechanism}
+  - id: dowsing-austria-consequences
+    sourceId: lko-styria-dowsing
+    relation: documents
+    target: {scope: episode, episodeId: austria-2020-2026, aspect: consequences}
+    note: >-
+      November 2024 chamber guidance says the dowsing rod can provide valuable help during water scarcity and repeats claims
+      about water veins, sensory detection, reliable diagnosis, and high success rates.
+  - id: dowsing-austria-carinthia-context
+    sourceId: lko-carinthia-dowsing
+    relation: contextualizes
+    target: {scope: episode, episodeId: austria-2020-2026, aspect: context}
+    note: >-
+      Updated November 2024 chamber guidance states that dowsing can provide valuable assistance during water scarcity and
+      repeats the claimed sensory mechanism and practical recommendations.
+  - id: dowsing-austria-uncorrected
+    sourceId: lko-styria-dowsing
+    relation: documents
+    target: {scope: episode, episodeId: austria-2020-2026, aspect: institutional-correction}

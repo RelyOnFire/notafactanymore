@@ -1,31 +1,50 @@
+schemaVersion: 2
 locale: de
 entryId: yellowstone-fire-suppression
 sourceReviewedAt: '2026-08-27'
 title: Generelle Feuerunterdrückung im Yellowstone-Nationalpark
-claim: Natürliche Vegetationsbrände im Yellowstone wurden vor allem als Schaden an den zu schützenden Parkressourcen behandelt und sollten gelöscht werden, statt als wiederkehrender ökologischer Prozess, der für manche der bewahrten Landschaften notwendig sein kann.
-currentUnderstanding: Feuer kann Menschen, Gebäude und bestimmte Schutzgüter gefährden und muss häufig bekämpft werden. In vielen Ökosystemen des Yellowstone ist es zugleich ein natürlicher Prozess, der Vegetation, Verjüngung und Lebensräume prägt. Die heutige Parkpolitik bewertet Brände deshalb nach Bedingungen und Schutzzielen, statt jede Entzündung grundsätzlich als ökologischen Schaden zu behandeln.
+proposition:
+  summary: Natürliche Vegetationsbrände im Yellowstone wurden vor allem als Schaden an den zu schützenden Parkressourcen behandelt und sollten gelöscht werden, statt als wiederkehrender ökologischer Prozess, der für manche der bewahrten Landschaften notwendig sein kann.
+correction:
+  summary: Feuer kann Menschen, Gebäude und bestimmte Schutzgüter gefährden und muss häufig bekämpft werden. In vielen Ökosystemen des Yellowstone ist es zugleich ein natürlicher Prozess, der Vegetation, Verjüngung und Lebensräume prägt. Die heutige Parkpolitik bewertet Brände deshalb nach Bedingungen und Schutzzielen, statt jede Entzündung grundsätzlich als ökologischen Schaden zu behandeln.
 impact:
   summary: Jahrzehntelang setzte das Management des Yellowstone die Vorstellung praktisch um, Naturschutz bedeute Feuerausschluss. Natürliche Brände wurden bekämpft; in gut zugänglichen Bereichen der Northern Range verschwand Feuer über lange Zeit nahezu vollständig. Ökologische Forschung zeigte später, dass auch vollständiger Ausschluss feuerangepasste Landschaften verändert. Der National Park Service gab natürlichem und gezielt eingesetztem Feuer deshalb wieder eine kontrollierte Rolle.
   highlights:
-  - value: '1886'
-    label: Mit der Übernahme der Parkverwaltung durch die US-Armee begann die systematische Feuerbekämpfung
-  - value: '1972'
-    label: Yellowstone ließ in einem Naturfeuerprogramm erstmals wieder ausgewählte Blitzbrände brennen
-  - value: '235'
-    label: Natürliche Brände, die von 1972 bis 1987 im Yellowstone zugelassen wurden
+    - value: '1886'
+      label: Mit der Übernahme der Parkverwaltung durch die US-Armee begann die systematische Feuerbekämpfung
+    - value: '1972'
+      label: Yellowstone ließ in einem Naturfeuerprogramm erstmals wieder ausgewählte Blitzbrände brennen
+    - value: '235'
+      label: Natürliche Brände, die von 1972 bis 1987 im Yellowstone zugelassen wurden
   context:
-  - Die Korrektur lautet nicht, dass Brände grundsätzlich sich selbst überlassen werden sollten. Auch heute werden Feuer bekämpft, wenn Menschen, Gebäude, Kulturgüter oder andere Schutzwerte bedroht sind.
-  - Ein Jahrhundert Feuerunterdrückung erklärt die Großbrände von 1988 nicht für sich allein. Der National Park Service betont, dass die Bekämpfung parkweit keine deutliche Brennstoffzunahme verursachte, abgesehen möglicherweise von Teilen der Northern Range; 1988 kamen außergewöhnliche Dürre und Winde hinzu.
+    - Die Korrektur lautet nicht, dass Brände grundsätzlich sich selbst überlassen werden sollten. Auch heute werden Feuer bekämpft, wenn Menschen, Gebäude, Kulturgüter oder andere Schutzwerte bedroht sind.
+    - Ein Jahrhundert Feuerunterdrückung erklärt die Großbrände von 1988 nicht für sich allein. Der National Park Service betont, dass die Bekämpfung parkweit keine deutliche Brennstoffzunahme verursachte, abgesehen möglicherweise von Teilen der Northern Range; 1988 kamen außergewöhnliche Dürre und Winde hinzu.
 episodes:
-- id: united-states-yellowstone-1886-1972
-  polity: Vereinigte Staaten
-  institutions:
-  - Verwaltung des Yellowstone-Nationalparks durch die US-Armee
-  - U.S. National Park Service
-  institutionalContext: Die Feuerbekämpfung begann, als die US-Armee 1886 die Verantwortung für den Yellowstone übernahm, und setzte sich nach der Gründung des National Park Service 1916 fort. Historische NPS-Darstellungen halten fest, dass die Parkverwaltung während ungefähr des ersten Jahrhunderts davon ausging, Brände müssten gelöscht werden, um die Parkressourcen zu bewahren. Seit den 1940er-Jahren erkannten Ökologen Feuer zunehmend als natürlichen Veränderungsfaktor. 1968 änderte der National Park Service seine landesweite Politik und akzeptierte eine natürlichere Rolle des Feuers; Yellowstone führte 1972 ein eigenes Naturfeuerprogramm ein.
-  consequences:
-  - Natürliche Brände wurden routinemäßig als Schutzmaßnahme gelöscht, statt nach ihrer ökologischen Funktion beurteilt zu werden
-  - Auf der gut zugänglichen Northern Range wurde Feuer laut Aufzeichnungen von 1886 bis 1987 aus Douglasienbeständen, Beifußsteppe und Espenlebensräumen nahezu vollständig ausgeschlossen
-  - Langfristiger Feuerausschluss veränderte natürliche Landschaftsprozesse und konnte nach Darstellung des National Park Service die ökologische Vielfalt verringern
-  - Später musste Feuer durch kontrollierte Brände und das Zulassen natürlicher Feuer wieder in das Management integriert werden, während die Bekämpfung zum Schutz von Menschen und Sachwerten bestehen blieb
-  summary: "Die frühe Parkverwaltung verstand Feuerausschluss als Naturschutz. Seit der US-Armee 1886 und später unter dem National Park Service wurden Brände gelöscht, weil man Schäden an Wald, Futterpflanzen, Böden und Tierlebensräumen erwartete. Ökologische Forschung zeigte schrittweise, dass auch diese Politik ein massiver Eingriff war: Viele Landschaften des Yellowstone hatten sich unter wiederkehrendem Feuer entwickelt. 1968 änderte der National Park Service seine Politik, 1972 startete Yellowstone ein Naturfeuerprogramm. An die Stelle des universellen Löschgebots trat kein universelles Brennenlassen, sondern die Anerkennung von Feuer zugleich als Gefahr und als ökologischer Prozess."
+  - id: united-states-yellowstone-1886-1972
+    polity: Vereinigte Staaten
+    institutions:
+      - Verwaltung des Yellowstone-Nationalparks durch die US-Armee
+      - U.S. National Park Service
+    institutionalContext: Die Feuerbekämpfung begann, als die US-Armee 1886 die Verantwortung für den Yellowstone übernahm, und setzte sich nach der Gründung des National Park Service 1916 fort. Historische NPS-Darstellungen halten fest, dass die Parkverwaltung während ungefähr des ersten Jahrhunderts davon ausging, Brände müssten gelöscht werden, um die Parkressourcen zu bewahren. Seit den 1940er-Jahren erkannten Ökologen Feuer zunehmend als natürlichen Veränderungsfaktor. 1968 änderte der National Park Service seine landesweite Politik und akzeptierte eine natürlichere Rolle des Feuers; Yellowstone führte 1972 ein eigenes Naturfeuerprogramm ein.
+    consequences:
+      - Natürliche Brände wurden routinemäßig als Schutzmaßnahme gelöscht, statt nach ihrer ökologischen Funktion beurteilt zu werden
+      - Auf der gut zugänglichen Northern Range wurde Feuer laut Aufzeichnungen von 1886 bis 1987 aus Douglasienbeständen, Beifußsteppe und Espenlebensräumen nahezu vollständig ausgeschlossen
+      - Langfristiger Feuerausschluss veränderte natürliche Landschaftsprozesse und konnte nach Darstellung des National Park Service die ökologische Vielfalt verringern
+      - Später musste Feuer durch kontrollierte Brände und das Zulassen natürlicher Feuer wieder in das Management integriert werden, während die Bekämpfung zum Schutz von Menschen und Sachwerten bestehen blieb
+    summary: "Die frühe Parkverwaltung verstand Feuerausschluss als Naturschutz. Seit der US-Armee 1886 und später unter dem National Park Service wurden Brände gelöscht, weil man Schäden an Wald, Futterpflanzen, Böden und Tierlebensräumen erwartete. Ökologische Forschung zeigte schrittweise, dass auch diese Politik ein massiver Eingriff war: Viele Landschaften des Yellowstone hatten sich unter wiederkehrendem Feuer entwickelt. 1968 änderte der National Park Service seine Politik, 1972 startete Yellowstone ein Naturfeuerprogramm. An die Stelle des universellen Löschgebots trat kein universelles Brennenlassen, sondern die Anerkennung von Feuer zugleich als Gefahr und als ökologischer Prozess."
+    mechanism:
+      summary: >-
+        Armee und National Park Service setzten Feuerausschluss als Schutzpolitik um, indem natürliche Brände routinemäßig bekämpft wurden.
+    institutionalCorrection:
+      periodLabel: 1968–1972
+      action: Der NPS akzeptierte 1968 eine natürliche Rolle des Feuers; Yellowstone führte 1972 ein Naturfeuerprogramm ein.
+      summary: >-
+        Der National Park Service ersetzte die generelle Feuerunterdrückung durch ein bedingungsabhängiges Management, das natürliche und kontrollierte Feuer ökologisch nutzen kann und zugleich Gefahren weiterhin bekämpft.
+evidence:
+  - id: yellowstone-history-proposition
+  - id: yellowstone-current-correction
+  - id: yellowstone-history-impact
+  - id: yellowstone-history-carrier
+  - id: yellowstone-history-mechanism
+  - id: yellowstone-science-consequences
+  - id: yellowstone-policy-correction

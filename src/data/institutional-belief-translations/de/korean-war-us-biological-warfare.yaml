@@ -1,76 +1,64 @@
+schemaVersion: 2
 locale: de
 entryId: korean-war-us-biological-warfare
 sourceReviewedAt: '2026-08-25'
 title: US-amerikanische biologische Kriegführung im Koreakrieg
-claim: >-
-  Die sowjetische Regierung verbreitete offiziell die Behauptung, US-Streitkräfte betrieben in Korea und China
-  bakteriologische Kriegführung, trug die Anschuldigung in die internationale Diplomatie und stellte sich gegen eine
-  unabhängige Untersuchung, obwohl sowjetisches Personal zugleich an der Fabrikation angeblicher Beweise beteiligt war.
-currentUnderstanding: >-
-  Freigegebene sowjetische interne Unterlagen von 1953 erklären, die Anschuldigungen hätten auf falschen Informationen
-  beruht und seien erfunden gewesen. Die Akten beschreiben die Beteiligung sowjetischer Berater an inszenierten
-  Infektionsgebieten und dokumentieren einen Führungsbeschluss, die Veröffentlichungen einzustellen, das Thema aus
-  internationalen Gremien zurückzuziehen und sowjetisches Personal zu bestrafen, das an der Herstellung angeblicher
-  Beweise beteiligt gewesen war. Die USA unterhielten damals ein Biowaffen-Forschungsprogramm; daraus folgt jedoch nicht,
-  dass sie im Koreakrieg tatsächlich biologische Waffen einsetzten.
+proposition:
+  summary: >-
+    Die sowjetische Regierung verbreitete offiziell die Behauptung, US-Streitkräfte betrieben in Korea und China bakteriologische Kriegführung, trug die Anschuldigung in die internationale Diplomatie und stellte sich gegen eine unabhängige Untersuchung, obwohl sowjetisches Personal zugleich an der Fabrikation angeblicher Beweise beteiligt war.
+correction:
+  summary: >-
+    Freigegebene sowjetische interne Unterlagen von 1953 erklären, die Anschuldigungen hätten auf falschen Informationen beruht und seien erfunden gewesen. Die Akten beschreiben die Beteiligung sowjetischer Berater an inszenierten Infektionsgebieten und dokumentieren einen Führungsbeschluss, die Veröffentlichungen einzustellen, das Thema aus internationalen Gremien zurückzuziehen und sowjetisches Personal zu bestrafen, das an der Herstellung angeblicher Beweise beteiligt gewesen war. Die USA unterhielten damals ein Biowaffen-Forschungsprogramm; daraus folgt jedoch nicht, dass sie im Koreakrieg tatsächlich biologische Waffen einsetzten.
 impact:
   summary: >-
-    Die Behauptung über bakteriologische Kriegführung wurde zu einer formellen sowjetischen internationalen Position.
-    Sowjetische Vertreter brachten sie vor die Vereinten Nationen, und die UdSSR blockierte mit Vetos im Sicherheitsrat
-    Versuche, eine unabhängige Untersuchung zu beschließen. Interne Akten beschrieben später, wie sowjetische Berater in
-    Nordkorea bei der Herstellung angeblicher Beweise halfen, darunter fingierte Infektionsgebiete. Nach Stalins Tod
-    erklärte die sowjetische Führung die Anschuldigungen für erfunden und ordnete ihren Rückzug aus Presse und
-    internationalen Organisationen an.
+    Die Behauptung über bakteriologische Kriegführung wurde zu einer formellen sowjetischen internationalen Position. Sowjetische Vertreter brachten sie vor die Vereinten Nationen, und die UdSSR blockierte mit Vetos im Sicherheitsrat Versuche, eine unabhängige Untersuchung zu beschließen. Interne Akten beschrieben später, wie sowjetische Berater in Nordkorea bei der Herstellung angeblicher Beweise halfen, darunter fingierte Infektionsgebiete. Nach Stalins Tod erklärte die sowjetische Führung die Anschuldigungen für erfunden und ordnete ihren Rückzug aus Presse und internationalen Organisationen an.
   highlights:
-  - value: '2'
-    label: fingierte Infektionsgebiete, die laut einem sowjetischen Vermerk von 1953 zur Beschuldigung der USA inszeniert worden waren
-  - value: '2'
-    label: sowjetische Vetos gegen Untersuchungsinitiativen im UN-Sicherheitsrat im Juli 1952
-  - value: 2. Mai 1953
-    label: Datum, an dem die sowjetische Führung die Anschuldigungen für erfunden erklärte und das Ende der Kampagne anordnete
+    - value: '2'
+      label: fingierte Infektionsgebiete, die laut einem sowjetischen Vermerk von 1953 zur Beschuldigung der USA inszeniert worden waren
+    - value: '2'
+      label: sowjetische Vetos gegen Untersuchungsinitiativen im UN-Sicherheitsrat im Juli 1952
+    - value: 2. Mai 1953
+      label: Datum, an dem die sowjetische Führung die Anschuldigungen für erfunden erklärte und das Ende der Kampagne anordnete
   context:
-  - >-
-    Die sowjetischen Unterlagen wurden in den 1990er Jahren zunächst auf ungewöhnlichem Archivweg bekannt, weshalb ihre
-    Herkunft anfangs angezweifelt wurde. Spätere russische Archivveröffentlichungen und ergänzende sowjetische Akten
-    stärkten ihre Authentifizierung erheblich; die frühe Provenienzdebatte bleibt Teil der Überlieferungsgeschichte.
-  - >-
-    Die Existenz eines US-amerikanischen Biowaffen-Forschungsprogramms ist von der Frage zu unterscheiden, ob
-    US-Streitkräfte die konkret behaupteten biologischen Angriffe in Korea und China tatsächlich durchführten. Die
-    späteren sowjetischen Akten betreffen die zweite Frage.
-  - >-
-    Chinesische und nordkoreanische Behörden waren ebenfalls zentral für die umfassendere Anschuldigung. Ihre
-    institutionellen Akten und späteren Positionen haben eigene Dokumentationsgeschichten. Für die Sowjetunion ist die
-    offizielle Verbreitung der Behauptung und die Beteiligung sowjetischen Personals an der Fabrikation angeblicher
-    Beweise dokumentiert.
+    - >-
+      Die sowjetischen Unterlagen wurden in den 1990er Jahren zunächst auf ungewöhnlichem Archivweg bekannt, weshalb ihre Herkunft anfangs angezweifelt wurde. Spätere russische Archivveröffentlichungen und ergänzende sowjetische Akten stärkten ihre Authentifizierung erheblich; die frühe Provenienzdebatte bleibt Teil der Überlieferungsgeschichte.
+    - >-
+      Die Existenz eines US-amerikanischen Biowaffen-Forschungsprogramms ist von der Frage zu unterscheiden, ob US-Streitkräfte die konkret behaupteten biologischen Angriffe in Korea und China tatsächlich durchführten. Die späteren sowjetischen Akten betreffen die zweite Frage.
+    - >-
+      Chinesische und nordkoreanische Behörden waren ebenfalls zentral für die umfassendere Anschuldigung. Ihre institutionellen Akten und späteren Positionen haben eigene Dokumentationsgeschichten. Für die Sowjetunion ist die offizielle Verbreitung der Behauptung und die Beteiligung sowjetischen Personals an der Fabrikation angeblicher Beweise dokumentiert.
 episodes:
-- id: soviet-union-1952-1953
-  polity: Sowjetunion
-  institutions:
-  - Ministerrat der UdSSR
-  - Zentralkomitee der KPdSU
-  - Außenministerium der UdSSR
-  - sowjetische Delegation bei den Vereinten Nationen
-  - sowjetische Militärmission in Nordkorea
-  institutionalContext: >-
-    1952 verstärkte die sowjetische Regierung chinesische und nordkoreanische Anschuldigungen, wonach US-Streitkräfte
-    bakteriologische Kriegführung betrieben, und trug die Behauptung in die Vereinten Nationen. Die UdSSR wandte sich
-    gegen vorgeschlagene unabhängige Untersuchungen und blockierte entsprechende Initiativen am 3. und 9. Juli 1952 mit
-    ihrem Veto. Nach dem Kalten Krieg zugängliche interne sowjetische Unterlagen zeigen, dass sowjetische Berater in
-    Nordkorea an der Herstellung von Beweismaterial beteiligt gewesen waren. Ein Vermerk vom 21. April 1953 an die
-    sowjetische Führung berichtete, mit Hilfe des Militärberaters General Wladimir Rasuwajew seien zwei falsche
-    Infektionsgebiete inszeniert worden, um die Amerikaner zu beschuldigen. Am 2. Mai 1953 erklärte das Präsidium des
-    Ministerrats der UdSSR, die Vorwürfe hätten auf falschen Informationen beruht und seien erfunden; Presseveröffentlichungen
-    und die Behandlung des Themas in internationalen Organisationen sollten beendet werden.
-  consequences:
-  - Offizielle sowjetische Verstärkung der Biowaffenanschuldigungen gegen die Vereinigten Staaten
-  - Verwendung der Behauptung in der formellen Diplomatie der Vereinten Nationen
-  - Sowjetische Vetos gegen vorgeschlagene internationale Untersuchungen der Anschuldigungen
-  - Beteiligung sowjetischen Personals an der Herstellung angeblicher Beweise in Nordkorea
-  - Anweisung nach Stalins Tod, Veröffentlichungen einzustellen, das Thema international zurückzuziehen und Beteiligte an der Fälschung zu bestrafen
-  summary: >-
-    Die Sowjetunion machte umstrittene Kriegsbehauptungen zu einer offiziellen diplomatischen Kampagne, während Teile
-    ihres eigenen Apparats bei der Herstellung angeblicher Beweise halfen. Die UdSSR nutzte die Vorwürfe bei den Vereinten
-    Nationen und blockierte Untersuchungsinitiativen. Interne Akten beschrieben nach Stalins Tod fingierte
-    Infektionsgebiete; am 2. Mai 1953 erklärte die sowjetische Führung die Anschuldigungen für erfunden, ordnete ihren
-    Rückzug aus Öffentlichkeit und internationalen Gremien an und verlangte die Bestrafung sowjetischer Beteiligter an
-    der Beweisfabrikation.
+  - id: soviet-union-1952-1953
+    polity: Sowjetunion
+    institutions:
+      - Ministerrat der UdSSR
+      - Zentralkomitee der KPdSU
+      - Außenministerium der UdSSR
+      - sowjetische Delegation bei den Vereinten Nationen
+      - sowjetische Militärmission in Nordkorea
+    institutionalContext: >-
+      1952 verstärkte die sowjetische Regierung chinesische und nordkoreanische Anschuldigungen, wonach US-Streitkräfte bakteriologische Kriegführung betrieben, und trug die Behauptung in die Vereinten Nationen. Die UdSSR wandte sich gegen vorgeschlagene unabhängige Untersuchungen und blockierte entsprechende Initiativen am 3. und 9. Juli 1952 mit ihrem Veto. Nach dem Kalten Krieg zugängliche interne sowjetische Unterlagen zeigen, dass sowjetische Berater in Nordkorea an der Herstellung von Beweismaterial beteiligt gewesen waren. Ein Vermerk vom 21. April 1953 an die sowjetische Führung berichtete, mit Hilfe des Militärberaters General Wladimir Rasuwajew seien zwei falsche Infektionsgebiete inszeniert worden, um die Amerikaner zu beschuldigen. Am 2. Mai 1953 erklärte das Präsidium des Ministerrats der UdSSR, die Vorwürfe hätten auf falschen Informationen beruht und seien erfunden; Presseveröffentlichungen und die Behandlung des Themas in internationalen Organisationen sollten beendet werden.
+    consequences:
+      - Offizielle sowjetische Verstärkung der Biowaffenanschuldigungen gegen die Vereinigten Staaten
+      - Verwendung der Behauptung in der formellen Diplomatie der Vereinten Nationen
+      - Sowjetische Vetos gegen vorgeschlagene internationale Untersuchungen der Anschuldigungen
+      - Beteiligung sowjetischen Personals an der Herstellung angeblicher Beweise in Nordkorea
+      - Anweisung nach Stalins Tod, Veröffentlichungen einzustellen, das Thema international zurückzuziehen und Beteiligte an der Fälschung zu bestrafen
+    summary: >-
+      Die Sowjetunion machte umstrittene Kriegsbehauptungen zu einer offiziellen diplomatischen Kampagne, während Teile ihres eigenen Apparats bei der Herstellung angeblicher Beweise halfen. Die UdSSR nutzte die Vorwürfe bei den Vereinten Nationen und blockierte Untersuchungsinitiativen. Interne Akten beschrieben nach Stalins Tod fingierte Infektionsgebiete; am 2. Mai 1953 erklärte die sowjetische Führung die Anschuldigungen für erfunden, ordnete ihren Rückzug aus Öffentlichkeit und internationalen Gremien an und verlangte die Bestrafung sowjetischer Beteiligter an der Beweisfabrikation.
+    mechanism:
+      summary: >-
+        Sowjetische Staats- und Diplomatieorgane verbreiteten die Anschuldigung durch amtliche Veröffentlichungen und UN-Diplomatie, während die sowjetische Delegation unabhängige Untersuchungen blockierte und Militärpersonal an der Inszenierung angeblicher Beweise beteiligt war.
+    institutionalCorrection:
+      periodLabel: 2. Mai 1953
+      action: Die Führung ordnete das Ende der Veröffentlichungen, den Rückzug des Themas aus internationalen Organisationen und die Bestrafung an der Fabrikation Beteiligter an.
+      summary: >-
+        Das Präsidium des Ministerrats erklärte die Anschuldigungen für auf falschen Informationen beruhend und erfunden und ordnete das Ende der Kampagne an.
+evidence:
+  - id: korean-bw-un-proposition
+  - id: korean-bw-un-second-veto
+  - id: korean-bw-russian-carrier
+  - id: korean-bw-russian-mechanism
+  - id: korean-bw-resolution-correction
+  - id: korean-bw-resolution-impact
+  - id: korean-bw-resolution-consequences
+  - id: korean-bw-resolution-institutional-correction

@@ -1,54 +1,100 @@
+schemaVersion: 2
 title: Universal fire suppression in Yellowstone
 entryId: fire-is-always-harmful-to-ecosystems
-claim: Natural wildland fires in Yellowstone were treated primarily as damage to park resources that should be extinguished, rather than as recurring ecological processes that could be necessary to maintain some of the landscapes the park was meant to preserve.
-currentUnderstanding: Fire can threaten lives, structures and particular resources and often must be suppressed, but in many Yellowstone ecosystems it is also a natural ecological process that shapes vegetation, regeneration and habitat. Modern park policy therefore manages fires according to conditions and objectives rather than treating every ignition as ecological damage.
+proposition:
+  summary: Natural wildland fires in Yellowstone were treated primarily as damage to park resources that should be extinguished, rather than as recurring ecological processes that could be necessary to maintain some of the landscapes the park was meant to preserve.
+correction:
+  summary: Fire can threaten lives, structures and particular resources and often must be suppressed, but in many Yellowstone ecosystems it is also a natural ecological process that shapes vegetation, regeneration and habitat. Modern park policy therefore manages fires according to conditions and objectives rather than treating every ignition as ecological damage.
 category: Conservation and fire management
 reviewedAt: '2026-08-27'
 impact:
   summary: For decades, Yellowstone management operationalized the belief that protecting the park meant excluding fire. The policy suppressed natural ignitions and nearly eliminated fire for long periods in accessible northern-range communities. Ecological research later showed that blanket exclusion itself changes fire-adapted landscapes, leading the National Park Service to restore a managed role for natural and prescribed fire.
   highlights:
-  - value: '1886'
-    label: U.S. Army fire suppression began after the Army assumed management of Yellowstone
-  - value: '1972'
-    label: Yellowstone began allowing some lightning-caused fires to burn under a natural-fire program
-  - value: '235'
-    label: Natural fires allowed to burn in Yellowstone from 1972 through 1987
+    - value: '1886'
+      label: U.S. Army fire suppression began after the Army assumed management of Yellowstone
+    - value: '1972'
+      label: Yellowstone began allowing some lightning-caused fires to burn under a natural-fire program
+    - value: '235'
+      label: Natural fires allowed to burn in Yellowstone from 1972 through 1987
   context:
-  - The correction is not that fires should simply be left alone. Modern fire management still suppresses fires that threaten people, structures, cultural resources or other protected values.
-  - A century of suppression does not by itself explain the 1988 Yellowstone fires. The National Park Service notes that suppression did not produce a significant park-wide increase in fuel loads, except perhaps on parts of the northern range; the 1988 season also involved exceptional drought and wind.
+    - The correction is not that fires should simply be left alone. Modern fire management still suppresses fires that threaten people, structures, cultural resources or other protected values.
+    - A century of suppression does not by itself explain the 1988 Yellowstone fires. The National Park Service notes that suppression did not produce a significant park-wide increase in fuel loads, except perhaps on parts of the northern range; the 1988 season also involved exceptional drought and wind.
 episodes:
-- id: united-states-yellowstone-1886-1972
-  polity: United States
-  region: North America
-  startYear: 1886
-  endYear: 1972
-  strength: policy-basis
-  institutionTypes:
-  - government
-  institutions:
-  - U.S. Army administration of Yellowstone National Park
-  - U.S. National Park Service
-  institutionalContext: Fire suppression began when the U.S. Army took responsibility for Yellowstone in 1886 and continued after the National Park Service was created in 1916. NPS historical material states that for roughly the park's first century managers believed fires had to be extinguished to preserve park resources. By the 1940s ecologists increasingly recognized fire as a natural change agent, and in 1968 the National Park Service changed national policy to accept a more natural role for fire. Yellowstone implemented its own natural-fire program in 1972, initially allowing lightning-caused fires to burn in designated backcountry zones.
-  consequences:
-  - Natural fires were routinely suppressed as a resource-protection measure rather than evaluated for their ecological role
-  - Records indicate that fire was almost completely excluded from Douglas-fir, sagebrush-steppe and aspen communities on Yellowstone's accessible northern range from 1886 until 1987
-  - Long-term fire exclusion altered natural landscape processes and, according to the National Park Service, could diminish ecological diversity
-  - Managers later had to reintroduce fire deliberately through prescribed burning and managed natural fire while retaining suppression where human safety and protected resources required it
-  summary: "Yellowstone's early managers treated fire exclusion as conservation. Beginning under U.S. Army administration in 1886 and continuing under the National Park Service, crews extinguished fires because burning was expected to damage forests, forage, soils and wildlife habitat. Ecological research gradually showed that this policy was also an intervention: many Yellowstone communities had evolved with recurring fire. National Park Service policy changed in 1968, and Yellowstone began a natural-fire program in 1972. The modern replacement is not a policy of letting every fire burn, but one that recognizes fire as both a hazard and an ecological process."
-  sources:
-  - title: History of Fire Management
+  - id: united-states-yellowstone-1886-1972
+    polity: United States
+    region: North America
+    startYear: 1886
+    endYear: 1972
+    strength: policy-basis
+    institutionTypes:
+      - government
+    institutions:
+      - U.S. Army administration of Yellowstone National Park
+      - U.S. National Park Service
+    institutionalContext: Fire suppression began when the U.S. Army took responsibility for Yellowstone in 1886 and continued after the National Park Service was created in 1916. NPS historical material states that for roughly the park's first century managers believed fires had to be extinguished to preserve park resources. By the 1940s ecologists increasingly recognized fire as a natural change agent, and in 1968 the National Park Service changed national policy to accept a more natural role for fire. Yellowstone implemented its own natural-fire program in 1972, initially allowing lightning-caused fires to burn in designated backcountry zones.
+    consequences:
+      - Natural fires were routinely suppressed as a resource-protection measure rather than evaluated for their ecological role
+      - Records indicate that fire was almost completely excluded from Douglas-fir, sagebrush-steppe and aspen communities on Yellowstone's accessible northern range from 1886 until 1987
+      - Long-term fire exclusion altered natural landscape processes and, according to the National Park Service, could diminish ecological diversity
+      - Managers later had to reintroduce fire deliberately through prescribed burning and managed natural fire while retaining suppression where human safety and protected resources required it
+    summary: "Yellowstone's early managers treated fire exclusion as conservation. Beginning under U.S. Army administration in 1886 and continuing under the National Park Service, crews extinguished fires because burning was expected to damage forests, forage, soils and wildlife habitat. Ecological research gradually showed that this policy was also an intervention: many Yellowstone communities had evolved with recurring fire. National Park Service policy changed in 1968, and Yellowstone began a natural-fire program in 1972. The modern replacement is not a policy of letting every fire burn, but one that recognizes fire as both a hazard and an ecological process."
+    mechanism:
+      kind: enforcement
+      summary: >-
+        Army and National Park Service management operationalized fire exclusion by routinely suppressing natural ignitions as a resource-protection policy.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 1968–1972
+      action: NPS policy accepted a natural role for fire in 1968; Yellowstone implemented a natural-fire program in 1972.
+      summary: >-
+        The National Park Service replaced blanket suppression with conditional fire management, recognizing ecological roles for natural and prescribed fire while retaining suppression where people or protected resources are threatened.
+sources:
+  - id: yellowstone-fire-history
+    title: History of Fire Management
     url: https://www.nps.gov/yell/learn/historyculture/fire-management.htm
     publisher: U.S. National Park Service
-    note: Yellowstone's official history states that suppression began with U.S. Army management in 1886, that managers believed fires had to be extinguished to preserve park resources, and that subsequent research showed fire to be a natural ecosystem process.
-  - title: Wildland Fire History — The History of National Park Service Fire Policy
+  - id: nps-fire-policy-history
+    title: Wildland Fire History — The History of National Park Service Fire Policy
     url: https://home.nps.gov/articles/the-history-of-national-park-service-fire-policy.htm
     publisher: U.S. National Park Service
-    note: NPS historical review describes the assumptions used to justify total suppression and the 1968 national policy change that allowed natural and prescribed fire under specified conditions.
-  - title: Forest Fires in Yellowstone — the Science of Burning and Regrowth
+  - id: yellowstone-fire-science
+    title: Forest Fires in Yellowstone — the Science of Burning and Regrowth
     url: https://www.nps.gov/articles/fires-yell.htm
     publisher: U.S. National Park Service
-    note: Explains that Yellowstone managers extinguished all fires until the early 1970s because suppression was believed to protect people and wildlife, then adopted a natural-fire program after recognizing fire's ecological role.
-  - title: Fire Management
+  - id: yellowstone-current-fire-management
+    title: Fire Management
     url: https://www.nps.gov/yell/learn/management/fire.htm
     publisher: U.S. National Park Service
+evidence:
+  - id: yellowstone-history-proposition
+    sourceId: yellowstone-fire-history
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: Yellowstone's official history states that suppression began with U.S. Army management in 1886, that managers believed fires had to be extinguished to preserve park resources, and that subsequent research showed fire to be a natural ecosystem process.
+  - id: yellowstone-current-correction
+    sourceId: yellowstone-current-fire-management
+    relation: documents
+    target: {scope: belief, aspect: correction}
     note: Current Yellowstone policy manages wildfire for multiple objectives, protecting people and structures while allowing fire to perform ecological functions where conditions permit.
+  - id: yellowstone-history-impact
+    sourceId: yellowstone-fire-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+  - id: yellowstone-history-carrier
+    sourceId: yellowstone-fire-history
+    relation: documents
+    target: {scope: episode, episodeId: united-states-yellowstone-1886-1972, aspect: carrier}
+  - id: yellowstone-history-mechanism
+    sourceId: yellowstone-fire-history
+    relation: documents
+    target: {scope: episode, episodeId: united-states-yellowstone-1886-1972, aspect: mechanism}
+  - id: yellowstone-science-consequences
+    sourceId: yellowstone-fire-science
+    relation: supports
+    target: {scope: episode, episodeId: united-states-yellowstone-1886-1972, aspect: consequences}
+    note: Explains that Yellowstone managers extinguished all fires until the early 1970s because suppression was believed to protect people and wildlife, then adopted a natural-fire program after recognizing fire's ecological role.
+  - id: yellowstone-policy-correction
+    sourceId: nps-fire-policy-history
+    relation: documents
+    target: {scope: episode, episodeId: united-states-yellowstone-1886-1972, aspect: institutional-correction}
+    note: NPS historical review describes the assumptions used to justify total suppression and the 1968 national policy change that allowed natural and prescribed fire under specified conditions.

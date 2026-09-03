@@ -1,72 +1,63 @@
+schemaVersion: 2
 locale: de
 entryId: doctors-plot-foreign-backed-murderers
 sourceReviewedAt: '2026-08-25'
 title: Kremlärzte als von ausländischen Mächten gesteuerte Mörder
-claim: >-
-  Die sowjetischen Behörden beschuldigten eine Gruppe prominenter Kremlärzte, führende sowjetische Funktionäre durch
-  bewusst schädliche medizinische Behandlung ermordet zu haben und im Auftrag ausländischer Geheimdienste sowie des
-  amerikanisch-jüdischen Joint Distribution Committee weitere Morde zu planen.
-currentUnderstanding: >-
-  Die Vorwürfe waren fabriziert. Nach Stalins Tod ließ die sowjetische Führung den Fall überprüfen, ordnete die
-  Rehabilitierung und Freilassung der Beschuldigten sowie inhaftierter Familienangehöriger an und erklärte, die
-  Anschuldigungen seien falsch gewesen; angeblich belastende Aussagen seien mit nach sowjetischem Recht verbotenen
-  Ermittlungsmethoden erlangt worden. Das Präsidium ordnete außerdem Strafverfahren gegen frühere Mitarbeiter des
-  Staatssicherheitsministeriums an, die sich besonders an der Fabrikation des Falls und groben Gesetzesverstößen
-  beteiligt hatten.
+proposition:
+  summary: >-
+    Die sowjetischen Behörden beschuldigten eine Gruppe prominenter Kremlärzte, führende sowjetische Funktionäre durch bewusst schädliche medizinische Behandlung ermordet zu haben und im Auftrag ausländischer Geheimdienste sowie des amerikanisch-jüdischen Joint Distribution Committee weitere Morde zu planen.
+correction:
+  summary: >-
+    Die Vorwürfe waren fabriziert. Nach Stalins Tod ließ die sowjetische Führung den Fall überprüfen, ordnete die Rehabilitierung und Freilassung der Beschuldigten sowie inhaftierter Familienangehöriger an und erklärte, die Anschuldigungen seien falsch gewesen; angeblich belastende Aussagen seien mit nach sowjetischem Recht verbotenen Ermittlungsmethoden erlangt worden. Das Präsidium ordnete außerdem Strafverfahren gegen frühere Mitarbeiter des Staatssicherheitsministeriums an, die sich besonders an der Fabrikation des Falls und groben Gesetzesverstößen beteiligt hatten.
 impact:
   summary: >-
-    Aus einer Staatssicherheitsermittlung wurde eine ausdrücklich autorisierte landesweite Anschuldigung. Die
-    KPdSU-Führung genehmigte die Veröffentlichung, TASS stellte namentlich genannte Ärzte als Saboteure, Terroristen
-    und ausländische Agenten dar, und die Geschichte wurde über Presse und Parteiapparat verbreitet. Weniger als drei
-    Monate nach der öffentlichen Beschuldigung erklärte derselbe Parteistaat den Fall offiziell für fabriziert und
-    ordnete Rehabilitierung und Freilassung an.
+    Aus einer Staatssicherheitsermittlung wurde eine ausdrücklich autorisierte landesweite Anschuldigung. Die KPdSU-Führung genehmigte die Veröffentlichung, TASS stellte namentlich genannte Ärzte als Saboteure, Terroristen und ausländische Agenten dar, und die Geschichte wurde über Presse und Parteiapparat verbreitet. Weniger als drei Monate nach der öffentlichen Beschuldigung erklärte derselbe Parteistaat den Fall offiziell für fabriziert und ordnete Rehabilitierung und Freilassung an.
   highlights:
-  - value: '9'
-    label: Ärzte, die in der ersten öffentlichen TASS-Anschuldigung im Januar 1953 namentlich genannt wurden
-  - value: '37'
-    label: Ärzte und Familienangehörige, deren vollständige Rehabilitierung und Freilassung am 3. April 1953 angeordnet wurde
-  - value: 3. April 1953
-    label: das Präsidium des ZK der KPdSU bestätigte formell die Fabrikation des Falls
+    - value: '9'
+      label: Ärzte, die in der ersten öffentlichen TASS-Anschuldigung im Januar 1953 namentlich genannt wurden
+    - value: '37'
+      label: Ärzte und Familienangehörige, deren vollständige Rehabilitierung und Freilassung am 3. April 1953 angeordnet wurde
+    - value: 3. April 1953
+      label: das Präsidium des ZK der KPdSU bestätigte formell die Fabrikation des Falls
   context:
-  - >-
-    Viele der beschuldigten Ärzte waren Juden, und die amtliche Darstellung verknüpfte mehrere von ihnen mit dem
-    amerikanisch-jüdischen Joint Distribution Committee. Der Fall war damit Teil einer breiteren antisemitischen
-    Staatskampagne. Nicht alle beschuldigten Ärzte waren jüdisch.
-  - >-
-    Behauptungen, Stalin habe bereits einen Termin für einen Schauprozess festgelegt oder die Massendeportation der
-    sowjetischen Juden definitiv beschlossen, bleiben historisch umstritten. Die dokumentierte Fabrikation der
-    Ärzteverschwörung hängt nicht von der Klärung dieser Fragen ab.
-  - >-
-    Die Zahl 37 bezeichnet Ärzte und ihre im Zusammenhang mit dem Fall inhaftierten Familienangehörigen zusammen,
-    nicht 37 Ärzte.
+    - >-
+      Viele der beschuldigten Ärzte waren Juden, und die amtliche Darstellung verknüpfte mehrere von ihnen mit dem amerikanisch-jüdischen Joint Distribution Committee. Der Fall war damit Teil einer breiteren antisemitischen Staatskampagne. Nicht alle beschuldigten Ärzte waren jüdisch.
+    - >-
+      Behauptungen, Stalin habe bereits einen Termin für einen Schauprozess festgelegt oder die Massendeportation der sowjetischen Juden definitiv beschlossen, bleiben historisch umstritten. Die dokumentierte Fabrikation der Ärzteverschwörung hängt nicht von der Klärung dieser Fragen ab.
+    - >-
+      Die Zahl 37 bezeichnet Ärzte und ihre im Zusammenhang mit dem Fall inhaftierten Familienangehörigen zusammen, nicht 37 Ärzte.
 episodes:
-- id: soviet-union-1953
-  polity: Sowjetunion
-  institutions:
-  - Büro und Präsidium des ZK der KPdSU
-  - Ministerium für Staatssicherheit der UdSSR
-  - TASS
-  - Prawda
-  institutionalContext: >-
-    Am 9. Januar 1953 billigte das Büro des Präsidiums des ZK der KPdSU die Veröffentlichung über die Festnahme der
-    angeblichen „Ärzte-Schädlinge“. Das TASS-Material warf Ärzten vor, durch falsche Diagnosen und schädliche Behandlung
-    bewusst das Leben führender sowjetischer Funktionäre verkürzt zu haben, machte sie für die Todesfälle von Andrei
-    Schdanow und Alexander Schtscherbakow verantwortlich und verband Mitglieder der angeblichen Gruppe mit ausländischen
-    Geheimdiensten und dem Joint. Die Anschuldigung wurde zu einem landesweiten Propagandaereignis. Nach Stalins Tod
-    kam eine Überprüfung des Innenministeriums zu dem Ergebnis, dass die Festnahmen ohne Rechtsgrundlage erfolgt und
-    Anschuldigungen wie Beweismaterial falsch waren. Am 3. April ordnete das KPdSU-Präsidium die vollständige
-    Rehabilitierung und Freilassung von 37 Ärzten und Familienangehörigen sowie Verfahren gegen frühere MGB-Mitarbeiter
-    an, die besonders an der Fabrikation des Falls beteiligt gewesen waren.
-  consequences:
-  - Festnahme und Haft von Ärzten und Familienangehörigen aufgrund fabrizierter Vorwürfe
-  - Einsatz verbotener Ermittlungsmethoden zur Gewinnung vermeintlich belastender Aussagen
-  - Zentral genehmigte Veröffentlichung, die Ärzte als Mörder, Terroristen, Spione und Saboteure darstellte
-  - Verbreitung einer antisemitisch aufgeladenen Auslandverschwörung durch staatliche und parteiliche Informationsapparate
-  - Rehabilitierung, Freilassung und Maßnahmen gegen Ermittler nach dem staatlichen Eingeständnis der Fabrikation
-  summary: >-
-    Die sogenannte Ärzteverschwörung war nicht bloß ein unbewiesener Verdacht innerhalb der Staatssicherheit. Die
-    KPdSU-Führung genehmigte die Veröffentlichung, und TASS stellte prominente Ärzte öffentlich als vorsätzliche Mörder
-    und ausländische Agenten dar. Hinter der Anschuldigung standen Festnahmen und erzwungene Ermittlungen. Im April
-    1953 kehrte das Präsidium die institutionelle Position um: Der Fall wurde als fabriziert bezeichnet, Vorwürfe und
-    Beweismaterial als falsch verworfen, 37 Ärzte und Familienangehörige rehabilitiert und freigelassen und Verfahren
-    gegen an der Herstellung des Falls beteiligte Staatssicherheitsmitarbeiter angeordnet.
+  - id: soviet-union-1953
+    polity: Sowjetunion
+    institutions:
+      - Büro und Präsidium des ZK der KPdSU
+      - Ministerium für Staatssicherheit der UdSSR
+      - TASS
+      - Prawda
+    institutionalContext: >-
+      Am 9. Januar 1953 billigte das Büro des Präsidiums des ZK der KPdSU die Veröffentlichung über die Festnahme der angeblichen „Ärzte-Schädlinge“. Das TASS-Material warf Ärzten vor, durch falsche Diagnosen und schädliche Behandlung bewusst das Leben führender sowjetischer Funktionäre verkürzt zu haben, machte sie für die Todesfälle von Andrei Schdanow und Alexander Schtscherbakow verantwortlich und verband Mitglieder der angeblichen Gruppe mit ausländischen Geheimdiensten und dem Joint. Die Anschuldigung wurde zu einem landesweiten Propagandaereignis. Nach Stalins Tod kam eine Überprüfung des Innenministeriums zu dem Ergebnis, dass die Festnahmen ohne Rechtsgrundlage erfolgt und Anschuldigungen wie Beweismaterial falsch waren. Am 3. April ordnete das KPdSU-Präsidium die vollständige Rehabilitierung und Freilassung von 37 Ärzten und Familienangehörigen sowie Verfahren gegen frühere MGB-Mitarbeiter an, die besonders an der Fabrikation des Falls beteiligt gewesen waren.
+    consequences:
+      - Festnahme und Haft von Ärzten und Familienangehörigen aufgrund fabrizierter Vorwürfe
+      - Einsatz verbotener Ermittlungsmethoden zur Gewinnung vermeintlich belastender Aussagen
+      - Zentral genehmigte Veröffentlichung, die Ärzte als Mörder, Terroristen, Spione und Saboteure darstellte
+      - Verbreitung einer antisemitisch aufgeladenen Auslandverschwörung durch staatliche und parteiliche Informationsapparate
+      - Rehabilitierung, Freilassung und Maßnahmen gegen Ermittler nach dem staatlichen Eingeständnis der Fabrikation
+    summary: >-
+      Die sogenannte Ärzteverschwörung war nicht bloß ein unbewiesener Verdacht innerhalb der Staatssicherheit. Die KPdSU-Führung genehmigte die Veröffentlichung, und TASS stellte prominente Ärzte öffentlich als vorsätzliche Mörder und ausländische Agenten dar. Hinter der Anschuldigung standen Festnahmen und erzwungene Ermittlungen. Im April 1953 kehrte das Präsidium die institutionelle Position um: Der Fall wurde als fabriziert bezeichnet, Vorwürfe und Beweismaterial als falsch verworfen, 37 Ärzte und Familienangehörige rehabilitiert und freigelassen und Verfahren gegen an der Herstellung des Falls beteiligte Staatssicherheitsmitarbeiter angeordnet.
+    mechanism:
+      summary: >-
+        Die KPdSU-Führung genehmigte die Veröffentlichung; TASS und Prawda machten aus einer erzwungenen Staatssicherheitsermittlung eine offizielle landesweite Erzählung über medizinischen Mord und ausländische Verschwörung.
+    institutionalCorrection:
+      periodLabel: 3. April 1953
+      action: Das Präsidium ordnete vollständige Rehabilitierung und Freilassung sowie Verfahren gegen an der Fabrikation beteiligte Staatssicherheitsmitarbeiter an.
+      summary: >-
+        Das KPdSU-Präsidium kehrte die staatliche Position formell um, erklärte den Fall für fabriziert, verwarf Vorwürfe und Beweise als falsch und ordnete Rehabilitierung, Freilassung und Verfahren gegen beteiligte Ermittler an.
+evidence:
+  - id: doctors-plot-publication-proposition
+  - id: doctors-plot-tass-proposition
+  - id: doctors-plot-publication-carrier
+  - id: doctors-plot-publication-mechanism
+  - id: doctors-plot-tass-consequences
+  - id: doctors-plot-resolution-correction
+  - id: doctors-plot-resolution-impact
+  - id: doctors-plot-resolution-institutional-correction

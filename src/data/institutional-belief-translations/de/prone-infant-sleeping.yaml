@@ -1,9 +1,12 @@
+schemaVersion: 2
 locale: de
 entryId: prone-infant-sleeping
 sourceReviewedAt: 2026-08-22
 title: Bauchlage beim Säuglingsschlaf
-claim: Gesunde Säuglinge sollten in Bauchlage schlafen, weil diese Position als sicher oder vorteilhaft galt – unter anderem aus Sorge, dass Babys in Rückenlage Erbrochenes einatmen könnten.
-currentUnderstanding: Bei gesunden Säuglingen erhöht Schlafen in Bauchlage das Risiko für den plötzlichen Kindstod und andere schlafbezogene Todesfälle deutlich. Für den routinemäßigen Säuglingsschlaf wird Rückenlage empfohlen; sie führt bei gesunden Babys nicht zu dem befürchteten Anstieg tödlicher Aspirationen.
+proposition:
+  summary: Gesunde Säuglinge sollten in Bauchlage schlafen, weil diese Position als sicher oder vorteilhaft galt – unter anderem aus Sorge, dass Babys in Rückenlage Erbrochenes einatmen könnten.
+correction:
+  summary: Bei gesunden Säuglingen erhöht Schlafen in Bauchlage das Risiko für den plötzlichen Kindstod und andere schlafbezogene Todesfälle deutlich. Für den routinemäßigen Säuglingsschlaf wird Rückenlage empfohlen; sie führt bei gesunden Babys nicht zu dem befürchteten Anstieg tödlicher Aspirationen.
 episodes:
   - id: australia-1970-1991
     polity: Australien
@@ -12,6 +15,14 @@ episodes:
       - Weite Verbreitung der Bauchlage bei gesunden Säuglingen
       - Erhöhte Exposition gegenüber SIDS-Risiko
       - Verzögerte Korrektur der Schlafempfehlungen
+    mechanism:
+      summary: >-
+        Fachpersonal, Krankenhäuser, Säuglingsbetreuung und Elternratgeber wiederholten die Empfehlung zur Bauchlage und machten eine ungeprüfte Annahme zum routinemäßigen Pflegehinweis.
+    institutionalCorrection:
+      periodLabel: '1991'
+      action: Nationale Gesundheitskampagnen und der NHMRC empfahlen, gesunde Säuglinge grundsätzlich nicht in Bauchlage schlafen zu lassen.
+      summary: >-
+        Australische Forschung führte 1991 zu einer landesweiten Umkehr der Schlafempfehlungen für gesunde Säuglinge.
   - id: east-germany-1971-1972
     polity: DDR
     summary: Kinderärzte in der DDR folgten der internationalen Empfehlung, Säuglinge in Bauchlage schlafen zu lassen; die Praxis wurde auch in staatlichen Kindertagesstätten angewandt. Nachdem 1971 sieben Säuglinge während des Schlafs in Bauchlage in Kindertagesstätten gestorben waren, untersuchte das Gesundheitsministerium die Fälle und erließ im Juni 1972 Richtlinien, die die Bauchlage im Schlaf stark einschränkten und sie im Wesentlichen auf beaufsichtigte Übungen im Wachzustand begrenzten.
@@ -19,3 +30,22 @@ episodes:
       - Bauchlage von Säuglingen in staatlichen Kindertagesstätten
       - Vermeidbare Säuglingstodesfälle
       - Schnelle Umkehr staatlicher Betreuungsempfehlungen
+    mechanism:
+      summary: >-
+        Kinderärztliche Dienste und das staatliche Betreuungssystem übernahmen die Bauchlage als routinemäßige Säuglingspflege innerhalb der staatlichen Gesundheitsverwaltung.
+    institutionalCorrection:
+      periodLabel: Juni 1972
+      action: Das Gesundheitsministerium schränkte die Bauchlage im Schlaf stark ein und begrenzte sie im Wesentlichen auf beaufsichtigte Übungen im Wachzustand.
+      summary: >-
+        Nach der Untersuchung von sieben Todesfällen in Kindertagesstätten änderte das Gesundheitsministerium die offizielle Betreuungsempfehlung rasch.
+evidence:
+  - id: prone-review-proposition
+  - id: prone-review-correction
+  - id: prone-australia-carrier
+  - id: prone-australia-mechanism
+  - id: prone-australia-consequences
+  - id: prone-australia-correction
+  - id: prone-east-germany-carrier
+  - id: prone-east-germany-mechanism
+  - id: prone-east-germany-consequences
+  - id: prone-east-germany-correction

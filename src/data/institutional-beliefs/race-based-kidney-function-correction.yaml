@@ -1,54 +1,82 @@
+schemaVersion: 2
 title: Race-based kidney-function correction
-claim: Black race was treated as a physiological variable that justified automatically increasing estimated kidney function
-  for Black patients with otherwise identical creatinine-based inputs.
-currentUnderstanding: Race is a social rather than biological category and is too imprecise to serve as a blanket physiological
-  correction in kidney-function equations. Current U.S. guidance recommends race-free eGFR equations, with cystatin C or measured
-  GFR used when greater precision is needed.
+proposition:
+  summary: Black race was treated as a physiological variable that justified automatically increasing estimated kidney function for Black patients with otherwise identical creatinine-based inputs.
+correction:
+  summary: Race is a social rather than biological category and is too imprecise to serve as a blanket physiological correction in kidney-function equations. Current U.S. guidance recommends race-free eGFR equations, with cystatin C or measured GFR used when greater precision is needed.
 category: Medicine and clinical algorithms
 reviewedAt: '2026-08-23'
 episodes:
-- id: united-states-2002-2021
-  polity: United States
-  region: North America
-  startYear: 2002
-  endYear: 2021
-  periodLabel: 2002–2021
-  strength: policy-basis
-  institutionTypes:
-  - medical
-  - professional
-  institutions:
-  - National Kidney Foundation — Kidney Disease Outcomes Quality Initiative (KDOQI)
-  - Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI)
-  institutionalContext: The 1999 MDRD equation introduced a Black race coefficient in the research literature. Institutional
-    adoption is dated here from 2002, when the National Kidney Foundation’s KDOQI guideline recommended the MDRD equation
-    and instructed clinical laboratories to report estimated GFR. CKD-EPI later published another widely adopted race-inclusive
-    equation in 2009. Laboratories and electronic health-record systems implemented these equations across many organizations;
-    that distributed implementation is described as machinery rather than listed as a single institution. In 2021, the joint
-    NKF–ASN task force recommended immediate adoption of a race-free equation.
-  consequences:
-  - Race-dependent chronic-kidney-disease staging
-  - Potential delay of nephrology and transplant referral
-  - Race-dependent medication and treatment thresholds
-  summary: The MDRD equation published in 1999 included a higher eGFR coefficient for patients classified as Black. In 2002,
-    National Kidney Foundation KDOQI guidelines recommended the MDRD equation for adults and advised clinical laboratories
-    to report equation-based GFR estimates; the 2009 CKD-EPI equation retained a Black race coefficient and became widely
-    used. In 2021, the National Kidney Foundation and American Society of Nephrology recommended immediate adoption of a new
-    race-free equation, concluding that a uniform approach without a race variable was preferable for U.S. clinical care.
-  sources:
-  - title: KDOQI Clinical Practice Guidelines — Guideline 4, Estimation of GFR
+  - id: united-states-2002-2021
+    polity: United States
+    region: North America
+    startYear: 2002
+    endYear: 2021
+    periodLabel: 2002–2021
+    strength: policy-basis
+    institutionTypes:
+      - medical
+      - professional
+    institutions:
+      - National Kidney Foundation — Kidney Disease Outcomes Quality Initiative (KDOQI)
+      - Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI)
+    institutionalContext: The 1999 MDRD equation introduced a Black race coefficient in the research literature. Institutional adoption is dated here from 2002, when the National Kidney Foundation’s KDOQI guideline recommended the MDRD equation and instructed clinical laboratories to report estimated GFR. CKD-EPI later published another widely adopted race-inclusive equation in 2009. Laboratories and electronic health-record systems implemented these equations across many organizations; that distributed implementation is described as machinery rather than listed as a single institution. In 2021, the joint NKF–ASN task force recommended immediate adoption of a race-free equation.
+    consequences:
+      - Race-dependent chronic-kidney-disease staging
+      - Potential delay of nephrology and transplant referral
+      - Race-dependent medication and treatment thresholds
+    summary: The MDRD equation published in 1999 included a higher eGFR coefficient for patients classified as Black. In 2002, National Kidney Foundation KDOQI guidelines recommended the MDRD equation for adults and advised clinical laboratories to report equation-based GFR estimates; the 2009 CKD-EPI equation retained a Black race coefficient and became widely used. In 2021, the National Kidney Foundation and American Society of Nephrology recommended immediate adoption of a new race-free equation, concluding that a uniform approach without a race variable was preferable for U.S. clinical care.
+    mechanism:
+      kind: standard-setting
+      summary: >-
+        National Kidney Foundation guidance recommended a race-inclusive equation and routine laboratory reporting of
+        equation-based eGFR, while the later CKD-EPI equation retained a Black race coefficient and spread through
+        laboratory and electronic-health-record implementation.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: '2021'
+      action: Joint NKF–ASN guidance recommended immediate implementation of a race-free creatinine equation across U.S. laboratories.
+      summary: >-
+        In 2021 the National Kidney Foundation and American Society of Nephrology recommended replacing race-inclusive
+        eGFR equations with a uniform race-free approach for U.S. clinical care.
+sources:
+  - id: kdoqi-gfr-guideline
+    title: KDOQI Clinical Practice Guidelines — Guideline 4, Estimation of GFR
     url: https://kidneyfoundation.cachefly.net/professionals/KDOQI/guidelines_ckd/p5_lab_g4.htm
     publisher: National Kidney Foundation
-    note: Historical 2002 guideline recommending GFR prediction equations that account for race, specifically endorsing the
-      MDRD Study equation for adults, and recommending that clinical laboratories report estimated GFR.
-  - title: A Unifying Approach for GFR Estimation — Recommendations of the NKF-ASN Task Force
+  - id: nkf-asn-task-force-2021
+    title: A Unifying Approach for GFR Estimation — Recommendations of the NKF-ASN Task Force
     url: https://pubmed.ncbi.nlm.nih.gov/34556489/
     publisher: Journal of the American Society of Nephrology
-    note: Final 2021 joint NKF-ASN task-force recommendation for immediate implementation of a race-free creatinine equation
-      across U.S. laboratories.
-  - title: National Kidney Foundation Laboratory Engagement Working Group Recommendations for Implementing the CKD-EPI 2021
-      Race-Free Equations
+  - id: nkf-lab-implementation-race-free
+    title: National Kidney Foundation Laboratory Engagement Working Group Recommendations for Implementing the CKD-EPI 2021 Race-Free Equations
     url: https://academic.oup.com/clinchem/article/68/4/511/6463626
     publisher: Clinical Chemistry
-    note: Documents widespread U.S. laboratory use of MDRD and CKD-EPI equations containing a Black race coefficient and the
-      rationale and implementation steps for replacing them with race-free equations.
+evidence:
+  - id: kidney-kdoqi-proposition
+    sourceId: kdoqi-gfr-guideline
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: Historical 2002 guideline recommending GFR prediction equations that account for race, specifically endorsing the MDRD Study equation for adults, and recommending that clinical laboratories report estimated GFR.
+  - id: kidney-kdoqi-carrier
+    sourceId: kdoqi-gfr-guideline
+    relation: documents
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: carrier}
+  - id: kidney-kdoqi-mechanism
+    sourceId: kdoqi-gfr-guideline
+    relation: documents
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: mechanism}
+  - id: kidney-lab-consequences
+    sourceId: nkf-lab-implementation-race-free
+    relation: supports
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: consequences}
+    note: Documents widespread U.S. laboratory use of MDRD and CKD-EPI equations containing a Black race coefficient and the rationale and implementation steps for replacing them with race-free equations.
+  - id: kidney-task-force-correction
+    sourceId: nkf-asn-task-force-2021
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: Final 2021 joint NKF-ASN task-force recommendation for immediate implementation of a race-free creatinine equation across U.S. laboratories.
+  - id: kidney-task-force-institutional-correction
+    sourceId: nkf-asn-task-force-2021
+    relation: documents
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: institutional-correction}

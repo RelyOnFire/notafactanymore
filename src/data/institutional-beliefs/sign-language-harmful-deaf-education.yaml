@@ -1,13 +1,16 @@
+schemaVersion: 2
 title: Sign language as harmful to deaf education
-claim: >-
-  Sign language was treated as harmful to deaf children's speech, lip-reading and intellectual development, making
-  pure oral instruction the institutionally preferred method of deaf education.
-currentUnderstanding: >-
-  Natural sign languages are full human languages and can provide deaf children with fully accessible linguistic input.
-  When accessible from infancy, they are acquired on the same broad developmental timetable as spoken languages.
-  Evidence does not support the claim that exposure to a sign language inherently damages spoken-language acquisition;
-  delaying access to an accessible first language can instead produce language deprivation. Educational and
-  communication approaches should be matched to the individual child rather than imposing a single modality.
+proposition:
+  summary: >-
+    Sign language was treated as harmful to deaf children's speech, lip-reading and intellectual development, making
+    pure oral instruction the institutionally preferred method of deaf education.
+correction:
+  summary: >-
+    Natural sign languages are full human languages and can provide deaf children with fully accessible linguistic input.
+    When accessible from infancy, they are acquired on the same broad developmental timetable as spoken languages.
+    Evidence does not support the claim that exposure to a sign language inherently damages spoken-language acquisition;
+    delaying access to an accessible first language can instead produce language deprivation. Educational and
+    communication approaches should be matched to the individual child rather than imposing a single modality.
 category: Education and language
 reviewedAt: '2026-08-24'
 impact:
@@ -17,87 +20,128 @@ impact:
     were influential across deaf-education systems and contributed to the exclusion and devaluation of sign languages
     and deaf teachers. In 2010 the International Congress on the Education of the Deaf formally rejected the Milan resolutions.
   highlights:
-  - value: 160–4
-    label: Vote for the 1880 resolution declaring articulation superior to signs
-  - value: 150–16
-    label: Vote for the resolution preferring pure oralism over simultaneous speech and signs
-  - value: 130 years
-    label: Time between the Milan resolutions and their formal ICED repudiation in 2010
+    - value: 160–4
+      label: Vote for the 1880 resolution declaring articulation superior to signs
+    - value: 150–16
+      label: Vote for the resolution preferring pure oralism over simultaneous speech and signs
+    - value: 130 years
+      label: Time between the Milan resolutions and their formal ICED repudiation in 2010
   context:
-  - >-
-    The Milan Congress did not itself enact a worldwide legal ban on sign language. Its importance was professional
-    and institutional: its resolutions supplied international authority for oralist policies subsequently adopted
-    across many deaf-education systems.
-  - >-
-    The 2010 endpoint marks ICED's formal repudiation of its nineteenth-century resolutions, not the date oralism
-    disappeared from every school or the date sign language became universally available.
-  - >-
-    The correction is not that speech, hearing technology or oral instruction are inherently harmful. The rejected
-    proposition is that sign language itself impedes deaf children's linguistic or intellectual development and
-    should therefore be systematically excluded.
+    - >-
+      The Milan Congress did not itself enact a worldwide legal ban on sign language. Its importance was professional
+      and institutional: its resolutions supplied international authority for oralist policies subsequently adopted
+      across many deaf-education systems.
+    - >-
+      The 2010 endpoint marks ICED's formal repudiation of its nineteenth-century resolutions, not the date oralism
+      disappeared from every school or the date sign language became universally available.
+    - >-
+      The correction is not that speech, hearing technology or oral instruction are inherently harmful. The rejected
+      proposition is that sign language itself impedes deaf children's linguistic or intellectual development and
+      should therefore be systematically excluded.
 episodes:
-- id: international-1880-2010
-  polity: International — International Congress on the Education of the Deaf
-  region: Global
-  startYear: 1880
-  endYear: 2010
-  strength: officially-endorsed
-  institutionTypes:
-  - professional
-  - education
-  institutions:
-  - International Congress on the Education of the Deaf (ICED)
-  institutionalContext: >-
-    At Milan in September 1880, an international congress of educators adopted resolutions declaring the
-    “incontestable superiority” of articulation over signs and arguing that simultaneous speech and signs injured
-    articulation, lip-reading and precision of ideas. The congress therefore preferred the pure oral method.
-    Those resolutions did not possess legislative force by themselves, but they became an influential professional
-    reference point for deaf-education institutions internationally. At the 2010 ICED in Vancouver, the congress
-    formally rejected the Milan resolutions and acknowledged their detrimental effects.
-  consequences:
-  - International professional endorsement of pure oral instruction
-  - Exclusion or devaluation of sign languages in many deaf-education programs
-  - Exclusion or marginalization of deaf teachers in systems organized around oralism
-  - Reduced access to fully accessible language for children who could not adequately access spoken instruction
-  summary: >-
-    In September 1880 the Milan Congress declared articulation superior to signs and said combining speech with signs
-    injured articulation, lip-reading and precision of ideas. Its resolutions gave international professional
-    authority to pure oral education and were subsequently influential across deaf-education systems. In 2010 the
-    21st International Congress on the Education of the Deaf formally rejected the Milan resolutions, acknowledged
-    their detrimental effects and called for respect for all languages and forms of communication.
-  sources:
-  - title: Report of the proceedings of the International Congress on the Education of the Deaf, Milan, 1880
+  - id: international-1880-2010
+    polity: International — International Congress on the Education of the Deaf
+    region: Global
+    startYear: 1880
+    endYear: 2010
+    strength: officially-endorsed
+    institutionTypes:
+      - professional
+      - education
+    institutions:
+      - International Congress on the Education of the Deaf (ICED)
+    institutionalContext: >-
+      At Milan in September 1880, an international congress of educators adopted resolutions declaring the
+      “incontestable superiority” of articulation over signs and arguing that simultaneous speech and signs injured
+      articulation, lip-reading and precision of ideas. The congress therefore preferred the pure oral method.
+      Those resolutions did not possess legislative force by themselves, but they became an influential professional
+      reference point for deaf-education institutions internationally. At the 2010 ICED in Vancouver, the congress
+      formally rejected the Milan resolutions and acknowledged their detrimental effects.
+    consequences:
+      - International professional endorsement of pure oral instruction
+      - Exclusion or devaluation of sign languages in many deaf-education programs
+      - Exclusion or marginalization of deaf teachers in systems organized around oralism
+      - Reduced access to fully accessible language for children who could not adequately access spoken instruction
+    summary: >-
+      In September 1880 the Milan Congress declared articulation superior to signs and said combining speech with signs
+      injured articulation, lip-reading and precision of ideas. Its resolutions gave international professional
+      authority to pure oral education and were subsequently influential across deaf-education systems. In 2010 the
+      21st International Congress on the Education of the Deaf formally rejected the Milan resolutions, acknowledged
+      their detrimental effects and called for respect for all languages and forms of communication.
+    mechanism:
+      kind: endorsement
+      summary: >-
+        The Milan Congress formally endorsed pure oral instruction through international professional resolutions that
+        declared articulation superior to signs and simultaneous signing harmful, giving oralist policies a durable
+        institutional reference point.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: '2010'
+      action: ICED formally rejected the 1880 Milan resolutions and acknowledged their detrimental effects.
+      summary: >-
+        In 2010 the International Congress on the Education of the Deaf formally repudiated its Milan resolutions and
+        called for respect for all languages and forms of communication.
+sources:
+  - id: milan-1880-proceedings
+    title: Report of the proceedings of the International Congress on the Education of the Deaf, Milan, 1880
     url: https://wellcomecollection.org/works/mpqqyktm
     publisher: International Congress on the Education of the Deaf / Wellcome Collection
-    note: >-
-      Preserved official English report of the 1880 Milan proceedings, including the resolutions preferring articulation
-      to signs and the pure oral method.
-  - title: The Milan Congress, 1880 — resolutions
+  - id: milan-1880-resolutions
+    title: The Milan Congress, 1880 — resolutions
     url: https://deafhistory.eu/index.php/component/zoo/item/milan-1880-the-resolutions
     publisher: Deaf History Europe
-    note: >-
-      Transcribes the congress resolutions and recorded votes, including 160–4 for the resolution declaring articulation
-      superior to signs and 150–16 for preferring pure oralism to simultaneous speech and signs.
-  - title: 1880 Milan Congress records — Memory of the World
+  - id: wfd-milan-memory
+    title: 1880 Milan Congress records — Memory of the World
     url: https://wfdeaf.org/unesco-1880/
     publisher: World Federation of the Deaf
-    note: >-
-      Describes the international institutional consequences of the Milan resolutions and their role in suppressing
-      and devaluing signed languages and deaf educators.
-  - title: Rejection of ICED Milan decision embraced by deaf educators and leaders
+  - id: gallaudet-iced-rejection
+    title: Rejection of ICED Milan decision embraced by deaf educators and leaders
     url: https://gallaudet.edu/university-communications/rejection-of-iced-milan-decision-embraced-by-president-hurwitz-other-deaf-educators-and-leaders/
     publisher: Gallaudet University
-    note: >-
-      Records the 19 July 2010 ICED statement formally rejecting the 1880 resolutions, acknowledging their detrimental
-      effects and calling for respect for all languages and forms of communication.
-  - title: Acquisition of Sign Languages
+  - id: sign-language-acquisition-review
+    title: Acquisition of Sign Languages
     url: https://www.annualreviews.org/doi/10.1146/annurev-linguistics-043020-092357
     publisher: Annual Review of Linguistics
-    note: >-
-      Reviews evidence that natural sign languages are acquired on the same developmental timetable as spoken languages
-      when accessible early and explains the risks associated with delayed first-language access.
-  - title: Learning a Sign Language Does Not Hinder Acquisition of a Spoken Language
+  - id: sign-language-spoken-study
+    title: Learning a Sign Language Does Not Hinder Acquisition of a Spoken Language
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10187967/
     publisher: Journal of Speech, Language, and Hearing Research / PubMed Central
-    note: >-
-      Empirical study finding no evidence that early sign-language acquisition inherently impedes spoken-language development.
+evidence:
+  - id: sign-milan-proposition
+    sourceId: milan-1880-proceedings
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: Preserved official English report of the 1880 Milan proceedings, including the resolutions preferring articulation to signs and the pure oral method.
+  - id: sign-acquisition-correction
+    sourceId: sign-language-acquisition-review
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: Reviews evidence that natural sign languages are acquired on the same developmental timetable as spoken languages when accessible early and explains the risks associated with delayed first-language access.
+  - id: sign-spoken-correction
+    sourceId: sign-language-spoken-study
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: Empirical study finding no evidence that early sign-language acquisition inherently impedes spoken-language development.
+  - id: sign-wfd-impact
+    sourceId: wfd-milan-memory
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: Describes the international institutional consequences of the Milan resolutions and their role in suppressing and devaluing signed languages and deaf educators.
+  - id: sign-milan-carrier
+    sourceId: milan-1880-proceedings
+    relation: documents
+    target: {scope: episode, episodeId: international-1880-2010, aspect: carrier}
+  - id: sign-milan-mechanism
+    sourceId: milan-1880-resolutions
+    relation: documents
+    target: {scope: episode, episodeId: international-1880-2010, aspect: mechanism}
+    note: Transcribes the congress resolutions and recorded votes, including 160–4 for the resolution declaring articulation superior to signs and 150–16 for preferring pure oralism to simultaneous speech and signs.
+  - id: sign-wfd-consequences
+    sourceId: wfd-milan-memory
+    relation: supports
+    target: {scope: episode, episodeId: international-1880-2010, aspect: consequences}
+  - id: sign-gallaudet-correction
+    sourceId: gallaudet-iced-rejection
+    relation: documents
+    target: {scope: episode, episodeId: international-1880-2010, aspect: institutional-correction}
+    note: Records the 19 July 2010 ICED statement formally rejecting the 1880 resolutions, acknowledging their detrimental effects and calling for respect for all languages and forms of communication.

@@ -55,13 +55,13 @@ episodes:
       action: NHS England recommended that homeopathy no longer be routinely initiated or prescribed and that existing prescribing be deprescribed where appropriate.
       summary: >-
         NHS England explicitly reduced institutional support because robust clinical-effectiveness evidence was lacking,
-        but the v1 record supports a prescribing and funding retreat rather than a categorical claim that every NHS-linked
-        homeopathic service or use ceased immediately.
-  - id: france-1984-2020
+        but the current evidence record supports a prescribing and funding retreat rather than a categorical claim that
+        every NHS-linked homeopathic service or use ceased immediately.
+  - id: france-1984-2021
     polity: France
     region: Europe
     startYear: 1984
-    endYear: 2020
+    endYear: 2021
     strength: policy-basis
     institutionTypes:
       - government
@@ -131,7 +131,7 @@ episodes:
     institutionalCorrection:
       status: ongoing
       periodLabel: 2006–present
-      action: No institutional correction is documented in the v1 record; current Ministry of Health materials continue to list homeopathy within the PNPIC framework.
+      action: No institutional correction is documented in the current evidence record; current Ministry of Health materials continue to list homeopathy within the PNPIC framework.
       summary: >-
         The same federal policy framework continues to include homeopathy in the public health system, so the institutional
         endorsement remains current despite external evidence reviews rejecting specific efficacy beyond placebo.
@@ -302,28 +302,28 @@ evidence:
   - id: homeopathy-fr-carrier
     sourceId: homeopathy-fr-has-assessment
     relation: documents
-    target: {scope: episode, episodeId: france-1984-2020, aspect: carrier}
+    target: {scope: episode, episodeId: france-1984-2021, aspect: carrier}
   - id: homeopathy-fr-mechanism
     sourceId: homeopathy-fr-has-assessment
     relation: documents
-    target: {scope: episode, episodeId: france-1984-2020, aspect: mechanism}
+    target: {scope: episode, episodeId: france-1984-2021, aspect: mechanism}
   - id: homeopathy-fr-consequences
     sourceId: homeopathy-fr-has-page
     relation: supports
-    target: {scope: episode, episodeId: france-1984-2020, aspect: consequences}
+    target: {scope: episode, episodeId: france-1984-2021, aspect: consequences}
     note: >-
       States that homeopathic medicines had not previously undergone a scientific assessment for reimbursement and that
       the 2019 review found insufficient evidence of efficacy.
   - id: homeopathy-fr-order-correction
     sourceId: homeopathy-fr-order
     relation: documents
-    target: {scope: episode, episodeId: france-1984-2020, aspect: institutional-correction}
+    target: {scope: episode, episodeId: france-1984-2021, aspect: institutional-correction}
     note: >-
       Ends reimbursement from 1 January 2021 and repeals the 12 September 1984 reimbursement order.
   - id: homeopathy-fr-ministry-correction
     sourceId: homeopathy-fr-ministry
     relation: supports
-    target: {scope: episode, episodeId: france-1984-2020, aspect: institutional-correction}
+    target: {scope: episode, episodeId: france-1984-2021, aspect: institutional-correction}
     note: >-
       Explains the 2020 transitional reduction in reimbursement and the end of compulsory-insurance reimbursement on 1 January 2021.
   - id: homeopathy-br-proposition

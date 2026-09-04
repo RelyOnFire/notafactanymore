@@ -6,9 +6,8 @@ proposition:
     descended language families, making conventional comparative linguistics “bourgeois” or scientifically obsolete.
 correction:
   summary: >-
-    Languages change through historically traceable descent, contact, borrowing, innovation, and social use. Comparative
-    linguistics can reconstruct genealogical relationships among language families; languages do not pass through a
-    universal sequence of class-defined developmental stages.
+    Marr’s universal class-stage theory was abandoned in 1950, and comparative-historical linguistics was restored rather
+    than rendered obsolete. The historical record does not support a universal sequence of class-defined linguistic stages.
 category: Linguistics
 reviewedAt: '2026-08-23'
 episodes:
@@ -26,16 +25,16 @@ episodes:
     institutions:
       - Institute of Language and Thought of the Academy of Sciences of the USSR
       - Academy of Sciences of the USSR
-      - Section of Materialist Linguistics of the Communist Academy
     institutionalContext: >-
       The Institute of Language and Thought was the principal institutional centre of Marrism. The doctrine's authority
-      extended far beyond that institute through Academy structures, universities, journals, publishing and education,
+      extended beyond that institute through Academy structures, universities, journals, publishing and education,
       creating a distributed institutional network rather than a single body that could accurately be called “Soviet
-      linguistic institutes.”
+      linguistic institutes.” The current evidence does not independently establish the Section of Materialist Linguistics
+      of the Communist Academy as a carrier of this exact proposition, so it is not listed as one here.
     consequences:
       - Competing comparative-historical linguistic schools were suppressed or marginalized
       - Research and teaching were reorganized around Marrist categories
-      - Academic careers became vulnerable to accusations of “bourgeois” or anti-Marxist linguistics
+      - Scholars who departed substantially from Marrist foundations could be institutionally marginalized or suppressed
     summary: >-
       From about 1930, Nikolai Marr's “New Theory of Language” became the officially recognized framework dominating
       Soviet linguistics. Traditional comparative and Indo-European linguistics were attacked as bourgeois, and substantial
@@ -45,8 +44,8 @@ episodes:
     mechanism:
       kind: suppression
       summary: >-
-        Academy and university institutions elevated Marrism as the officially recognized framework while marginalizing
-        competing comparative-historical linguistics through research, teaching, publication and career controls.
+        Academy structures elevated Marrism as the officially recognized framework while marginalizing competing
+        comparative-historical linguistics through research, teaching and publication controls.
     institutionalCorrection:
       status: corrected
       periodLabel: '1950'
@@ -79,6 +78,9 @@ evidence:
     sourceId: marr-school-notes
     relation: supports
     target: {scope: belief, aspect: correction}
+    note: >-
+      Documents the 1950 abandonment of the officially recognized Marrist framework and the return of non-Marrist
+      comparative-historical linguistics.
   - id: marr-institute-carrier
     sourceId: marr-institute-history
     relation: documents

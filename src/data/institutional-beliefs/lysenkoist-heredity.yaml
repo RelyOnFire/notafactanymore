@@ -5,9 +5,9 @@ proposition:
     Environmental treatment can reliably reshape heredity across generations, making Mendelian genetics unnecessary or false.
 correction:
   summary: >-
-    Heredity is transmitted primarily through genetic information. Environmental effects can influence development and
-    sometimes persist across generations, but they do not support the broad Lysenkoist claim that directed environmental
-    treatment routinely rewrites inherited traits.
+    The anti-Mendelian doctrine imposed under Lysenko was later abandoned, and Mendelian genetics was restored to research
+    and teaching. The historical record does not support the broad Lysenkoist claim that directed environmental treatment
+    can routinely produce inherited transformation.
 category: Genetics
 entryId: acquired-traits-drive-evolution
 reviewedAt: '2026-08-23'
@@ -71,13 +71,12 @@ episodes:
     institutions:
       - Lenin All-Union Academy of Agricultural Sciences (VASKhNIL)
       - USSR Ministry of Higher Education
-      - USSR Academy of Sciences
-      - Moscow State University
-      - Leningrad State University
     institutionalContext: >-
       The 1948 VASKhNIL session and subsequent Ministry of Higher Education order converted Lysenko's position into an
       administrative scientific orthodoxy: university staffing, curricula, departments, textbooks and research were
-      reorganized around Michurinist biology while Mendelian genetics was suppressed.
+      reorganized around Michurinist biology while Mendelian genetics was suppressed. The broader Soviet scientific and
+      university system implemented the campaign, but the current carrier edges most directly identify VASKhNIL and the
+      Ministry rather than each individual academy or university previously listed.
     consequences:
       - Geneticists were dismissed, demoted, or removed from scientific leadership
       - Genetics laboratories and departments were closed or reorganized
@@ -110,25 +109,24 @@ episodes:
       - academy
       - university
     institutions:
-      - Chinese Academy of Sciences
-      - Ministry of Higher Education of the People’s Republic of China
+      - Chinese scientific and higher-education institutions
     consequences:
       - Classical genetics was displaced in research and higher education
       - Scientific careers and curricula were shaped by political orthodoxy
       - Lysenko-influenced agronomic ideas later entered Great Leap Forward agricultural campaigns
     summary: >-
       In the early People's Republic, Soviet scientific organization was copied and classical genetics was displaced by
-      Lysenkoist biology. The 1956 Qingdao genetics meeting marked official rehabilitation of Mendelian genetics, although
-      political pressure on scientists did not disappear.
+      Lysenkoist biology. Mendelian genetics was officially rehabilitated in 1956, although political pressure on scientists
+      did not disappear.
     mechanism:
       kind: administrative-adoption
       summary: >-
-        Academy and higher-education institutions copied the Soviet scientific model and displaced classical genetics in
-        research and university teaching in favor of Lysenkoist biology.
+        Scientific and higher-education institutions copied the Soviet scientific model and displaced classical genetics
+        in research and university teaching in favor of Lysenkoist biology.
     institutionalCorrection:
       status: corrected
       periodLabel: '1956'
-      action: The Qingdao genetics meeting marked the official rehabilitation of Mendelian genetics in China.
+      action: Mendelian genetics was officially rehabilitated in China in 1956.
       summary: >-
         Chinese scientific institutions formally reopened space for Mendelian genetics in 1956, reversing the earlier
         official displacement of classical genetics even though broader political pressures on researchers persisted.
@@ -144,8 +142,7 @@ episodes:
       - university
       - education
     institutions:
-      - Koło Przyrodników Marksistów (Association of Marxist Naturalists)
-      - Polska Akademia Nauk (from 1952)
+      - Polish scientific and educational institutions
     consequences:
       - Removal of genetics from teaching
       - Suppression of competing biological research
@@ -164,7 +161,7 @@ episodes:
     institutionalCorrection:
       status: undocumented
       summary: >-
-        The existing v1 evidence shows the official system unraveling during the 1956 political thaw and Lysenkoism
+        The current evidence record shows the official system unraveling during the 1956 political thaw and Lysenkoism
         disappearing from official mass discourse, but it does not identify a dated Polish institutional act explicitly
         repudiating the doctrine.
 sources:
@@ -279,7 +276,9 @@ evidence:
     relation: supports
     target: {scope: episode, episodeId: china-1949-1956, aspect: carrier}
     note: >-
-      Describes China's post-1949 Soviet scientific model and the abandonment of classical genetics in favor of Lysenkoism.
+      Describes China's post-1949 Soviet scientific model and the abandonment of classical genetics in favor of Lysenkoism;
+      the episode therefore uses an institutional aggregate rather than attributing the proposition to individual named
+      bodies not independently identified by this edge.
   - id: lysenko-china-biotech-mechanism
     sourceId: lysenko-china-biotech
     relation: supports
@@ -303,7 +302,8 @@ evidence:
     target: {scope: episode, episodeId: poland-1949-1956, aspect: carrier}
     note: >-
       Documents the March 1949 proclamation of the New Biology as Poland's official paradigm, curriculum changes,
-      suppression of genetics, and the collapse of the doctrine in 1956.
+      suppression of genetics, and the collapse of the doctrine in 1956; the episode therefore uses a supported
+      institutional aggregate rather than naming individual bodies beyond this edge.
   - id: lysenko-poland-mechanism
     sourceId: lysenko-poland-history
     relation: supports

@@ -12,7 +12,7 @@ correction:
 category: Forensic medicine and sexuality
 reviewedAt: '2026-08-24'
 episodes:
-  - id: egypt-2001-2017
+  - id: egypt-2001-2026
     polity: Egypt
     region: Middle East
     startYear: 2001
@@ -57,7 +57,7 @@ episodes:
       action: No institutional correction is documented; prosecution referrals and forensic examinations remained in use into the 2020s.
       summary: >-
         The medico-legal chain remains active despite international medical rejection of the inference, so the carrier has
-        not institutionally corrected the proposition in the existing v1 record.
+        not institutionally corrected the proposition in the current evidence record.
   - id: lebanon-2012-2015
     polity: Lebanon
     region: Middle East
@@ -302,25 +302,25 @@ evidence:
   - id: anal-egypt-state-carrier
     sourceId: anal-egypt-state-2023
     relation: documents
-    target: {scope: episode, episodeId: egypt-2001-2017, aspect: carrier}
+    target: {scope: episode, episodeId: egypt-2001-2026, aspect: carrier}
     note: >-
       Reports that the Public Prosecutor’s Office ordered forced anal examinations, authorities regularly used the results
       against defendants, and the Forensic Medical Authority conducted them in debauchery cases.
   - id: anal-egypt-hrw-mechanism
     sourceId: anal-hrw-dignity
     relation: supports
-    target: {scope: episode, episodeId: egypt-2001-2017, aspect: mechanism}
+    target: {scope: episode, episodeId: egypt-2001-2026, aspect: mechanism}
   - id: anal-egypt-eipr-consequences
     sourceId: anal-egypt-eipr
     relation: supports
-    target: {scope: episode, episodeId: egypt-2001-2017, aspect: consequences}
+    target: {scope: episode, episodeId: egypt-2001-2026, aspect: consequences}
     note: >-
       Documents 93 habitual-debauchery cases involving 181 people between July 2019 and June 2024 and records 45 referrals
       by prosecutors to the Justice Ministry’s Forensic Medicine Authority for forced anal examinations.
   - id: anal-egypt-eipr-ongoing
     sourceId: anal-egypt-eipr
     relation: documents
-    target: {scope: episode, episodeId: egypt-2001-2017, aspect: institutional-correction}
+    target: {scope: episode, episodeId: egypt-2001-2026, aspect: institutional-correction}
   - id: anal-lebanon-carrier
     sourceId: anal-lebanon-hrw-2012
     relation: documents

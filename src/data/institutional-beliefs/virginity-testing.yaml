@@ -46,8 +46,8 @@ episodes:
       periodLabel: late 1998
       action: A Turkish government regulation prohibited virginity testing unless requested by the woman.
       summary: >-
-        The regulation restricted compulsory state use but, on the v1 evidence, did not itself repudiate the underlying
-        proposition that an examination could determine virginity; the correction was therefore incomplete.
+        The regulation restricted compulsory state use but, on the currently attached evidence, did not itself repudiate
+        the underlying proposition that an examination could determine virginity; the correction was therefore incomplete.
   - id: iran-2002-2026
     polity: Iran
     region: Middle East
@@ -89,7 +89,7 @@ episodes:
       periodLabel: 2002–present
       action: No nationwide institutional abolition is documented; recent country evidence still reports that authorities may attempt virginity testing in some cases.
       summary: >-
-        The existing v1 record continues to document official medico-legal use and does not identify a carrier-level
+        The current evidence record continues to document official medico-legal use and does not identify a carrier-level
         scientific or legal repudiation of the practice.
   - id: india-2005-2013
     polity: India
@@ -173,9 +173,9 @@ episodes:
       periodLabel: 2021–2022
       action: The Army began ending virginity testing in 2021, and in April 2022 the armed forces announced that Army, Navy and Air Force had effectively ended it for recruitment.
       summary: >-
-        The military carriers corrected their recruitment practice, but the v1 record does not establish an equivalent
-        institutional reversal by the National Police, so the episode as a whole is only partially corrected.
-  - id: kazakhstan-2025-2026
+        The military carriers corrected their recruitment practice, but the current evidence record does not establish an
+        equivalent institutional reversal by the National Police, so the episode as a whole is only partially corrected.
+  - id: kazakhstan-2016-2026
     polity: Kazakhstan
     region: Central Asia
     startYear: 2016
@@ -594,21 +594,21 @@ evidence:
   - id: virginity-kazakhstan-carrier
     sourceId: virginity-kazakhstan-methodology
     relation: documents
-    target: {scope: episode, episodeId: kazakhstan-2025-2026, aspect: carrier}
+    target: {scope: episode, episodeId: kazakhstan-2016-2026, aspect: carrier}
     note: >-
       Official forensic methodology approved on 5 December 2016; it lists determination of sexual inviolability and prior intercourse among expert tasks, prescribes genital and hymenal examination, and acknowledges that intercourse can occur without hymenal rupture.
   - id: virginity-kazakhstan-mechanism
     sourceId: virginity-kazakhstan-methodology
     relation: documents
-    target: {scope: episode, episodeId: kazakhstan-2025-2026, aspect: mechanism}
+    target: {scope: episode, episodeId: kazakhstan-2016-2026, aspect: mechanism}
   - id: virginity-kazakhstan-consequences
     sourceId: virginity-kazakhstan-methodology
     relation: supports
-    target: {scope: episode, episodeId: kazakhstan-2025-2026, aspect: consequences}
+    target: {scope: episode, episodeId: kazakhstan-2016-2026, aspect: consequences}
   - id: virginity-kazakhstan-ongoing
     sourceId: virginity-kazakhstan-methodology
     relation: documents
-    target: {scope: episode, episodeId: kazakhstan-2025-2026, aspect: institutional-correction}
+    target: {scope: episode, episodeId: kazakhstan-2016-2026, aspect: institutional-correction}
   - id: virginity-bangladesh-carrier
     sourceId: virginity-bangladesh-blast
     relation: supports

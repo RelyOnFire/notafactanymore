@@ -9,9 +9,9 @@ proposition:
     überflüssig oder falsch machen.
 correction:
   summary: >-
-    Vererbung wird hauptsächlich durch genetische Information vermittelt. Umweltbedingungen beeinflussen Entwicklung und
-    können in einzelnen Fällen über Generationen nachwirken, stützen aber nicht die breite lyssenkistische Behauptung,
-    dass gezielte Umweltbehandlung erbliche Merkmale routinemäßig umschreibt.
+    Die unter Lyssenko durchgesetzte anti-mendelsche Doktrin wurde später aufgegeben, und die mendelsche Genetik kehrte in
+    Forschung und Lehre zurück. Die historische Evidenz stützt nicht die breite lyssenkistische Behauptung, dass gezielte
+    Umweltbehandlung routinemäßig erbliche Veränderungen hervorbringt.
 impact:
   summary: >-
     Die am besten belegten direkten Folgen des Lyssenkoismus waren institutioneller Art: Die Genetik wurde unterdrückt,
@@ -68,13 +68,13 @@ episodes:
     institutions:
       - Lenin-Allunionsakademie der Landwirtschaftswissenschaften (VASKhNIL)
       - Ministerium für Hochschulbildung der UdSSR
-      - Akademie der Wissenschaften der UdSSR
-      - Moskauer Staatliche Universität
-      - Staatliche Universität Leningrad
     institutionalContext: >-
       Die VASKhNIL-Tagung von 1948 und die anschließende Anordnung des Ministeriums für Hochschulbildung verwandelten
       Lyssenkos Position in eine administrative wissenschaftliche Orthodoxie: Personal, Lehrpläne, Lehrstühle, Lehrbücher
       und Forschung wurden an der mitschurinschen Biologie ausgerichtet, während die mendelsche Genetik unterdrückt wurde.
+      Das breitere sowjetische Wissenschafts- und Hochschulsystem setzte die Kampagne um; die derzeitigen Trägerbelege
+      identifizieren jedoch am unmittelbarsten VASKhNIL und das Ministerium und nicht jede zuvor einzeln aufgeführte
+      Akademie oder Universität.
     summary: >-
       Nach der VASKhNIL-Tagung von 1948 erhielt Lyssenkos anti-mendelsche Biologie staatliche Rückendeckung. Genetiker
       verloren Stellen, Labore wurden geschlossen und Lehre sowie Forschung zur klassischen Genetik eingeschränkt. Das
@@ -97,31 +97,29 @@ episodes:
   - id: china-1949-1956
     polity: Volksrepublik China
     institutions:
-      - Chinesische Akademie der Wissenschaften
-      - Ministerium für Hochschulbildung der Volksrepublik China
+      - Chinesische Wissenschafts- und Hochschulinstitutionen
     summary: >-
       In der frühen Volksrepublik wurde die sowjetische Wissenschaftsorganisation übernommen und die klassische Genetik
-      zugunsten lyssenkistischer Biologie zurückgedrängt. Die Genetiktagung von Qingdao 1956 markierte die offizielle
-      Rehabilitierung der mendelschen Genetik, auch wenn politischer Druck auf Forschende fortbestand.
+      zugunsten lyssenkistischer Biologie zurückgedrängt. Die mendelsche Genetik wurde 1956 offiziell rehabilitiert, auch
+      wenn politischer Druck auf Forschende fortbestand.
     consequences:
       - Klassische Genetik wurde aus Forschung und Hochschullehre verdrängt
       - Wissenschaftliche Laufbahnen und Lehrpläne wurden durch politische Orthodoxie geprägt
       - Lyssenkistisch beeinflusste Agrarideen flossen später in Kampagnen des Großen Sprungs nach vorn ein
     mechanism:
       summary: >-
-        Akademie- und Hochschulinstitutionen übernahmen das sowjetische Wissenschaftsmodell und verdrängten die klassische
-        Genetik in Forschung und Hochschullehre zugunsten lyssenkistischer Biologie.
+        Wissenschafts- und Hochschulinstitutionen übernahmen das sowjetische Wissenschaftsmodell und verdrängten die
+        klassische Genetik in Forschung und Hochschullehre zugunsten lyssenkistischer Biologie.
     institutionalCorrection:
       periodLabel: '1956'
-      action: Die Genetiktagung von Qingdao markierte die offizielle Rehabilitierung der mendelschen Genetik in China.
+      action: Die mendelsche Genetik wurde 1956 in China offiziell rehabilitiert.
       summary: >-
         Chinesische Wissenschaftsinstitutionen öffneten 1956 offiziell wieder Raum für die mendelsche Genetik und kehrten
         damit die frühere Verdrängung der klassischen Genetik um, auch wenn breiterer politischer Druck fortbestand.
   - id: poland-1949-1956
     polity: Polen
     institutions:
-      - Koło Przyrodników Marksistów
-      - Polska Akademia Nauk (ab 1952)
+      - Polnische Wissenschafts- und Bildungsinstitutionen
     summary: >-
       Eine Warschauer Konferenz erklärte die lyssenkistische „Neue Biologie“ im März 1949 zum offiziellen Paradigma der
       polnischen Wissenschaft. Genetik und Kritik an der Doktrin wurden aktiv bekämpft, Genetikkurse verschwanden aus den
@@ -138,8 +136,8 @@ episodes:
         Lehrpläne um und marginalisierten oder unterdrückten Genetik und Forschende mit politisch unerwünschten Begriffen.
     institutionalCorrection:
       summary: >-
-        Die vorhandenen v1-Belege zeigen, dass das offizielle System im politischen Tauwetter von 1956 zerfiel und der
-        Lyssenkoismus aus dem offiziellen Massendiskurs verschwand; sie benennen jedoch keinen datierten polnischen
+        Die derzeitige Beleglage zeigt, dass das offizielle System im politischen Tauwetter von 1956 zerfiel und der
+        Lyssenkoismus aus dem offiziellen Massendiskurs verschwand; sie benennt jedoch keinen datierten polnischen
         Institutionsakt, der die Doktrin ausdrücklich verworfen hätte.
 evidence:
   - id: lysenko-history-proposition
@@ -178,7 +176,9 @@ evidence:
   - id: lysenko-pushback-ussr-correction
   - id: lysenko-china-biotech-carrier
     note: >-
-      Beschreibt Chinas sowjetisches Wissenschaftsmodell nach 1949 und die Aufgabe der klassischen Genetik zugunsten des Lyssenkoismus.
+      Beschreibt Chinas sowjetisches Wissenschaftsmodell nach 1949 und die Aufgabe der klassischen Genetik zugunsten des
+      Lyssenkoismus; die Episode verwendet deshalb eine institutionelle Sammelbezeichnung, statt einzelne Institutionen
+      ohne eigenständigen Trägerbeleg zu benennen.
   - id: lysenko-china-biotech-mechanism
   - id: lysenko-china-monograph-consequences
     note: >-
@@ -190,7 +190,8 @@ evidence:
   - id: lysenko-poland-carrier
     note: >-
       Dokumentiert die Erklärung der „Neuen Biologie“ zum offiziellen Paradigma Polens im März 1949, Lehrplanänderungen,
-      die Unterdrückung der Genetik und den Zusammenbruch der Doktrin 1956.
+      die Unterdrückung der Genetik und den Zusammenbruch der Doktrin 1956; die Episode verwendet deshalb eine belegte
+      institutionelle Sammelbezeichnung statt einzelner Institutionen, die durch diesen Trägerbeleg nicht separat ausgewiesen werden.
   - id: lysenko-poland-mechanism
   - id: lysenko-poland-consequences
   - id: lysenko-history-poland-context

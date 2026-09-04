@@ -6,10 +6,10 @@ proposition:
     impairing drivers and contributing to accident blackspots, with energetic interventions able to neutralize the hazard.
 correction:
   summary: >-
-    No reproducible evidence establishes the localized radiesthetic force fields invoked in these interventions,
-    a dowsing or pendulum method that reliably detects them, or an energetic treatment that neutralizes them. A fall in crashes
-    after an intervention does not by itself establish that the intervention caused the change, particularly when conventional
-    road-safety measures and normal statistical variation are also present.
+    Scientific testing has not shown dowsing to be a reliable method for detecting the supposed hazard. Reported falls in
+    crashes after an intervention do not by themselves establish that the energetic intervention caused the change,
+    particularly when conventional road-safety measures, conflicting crash counts, and normal statistical variation are
+    also possible explanations.
 category: Transport and infrastructure
 reviewedAt: 2026-08-23
 episodes:
@@ -18,6 +18,7 @@ episodes:
     region: Europe
     startYear: 2003
     endYear: 2008
+    periodLabel: documented 2003–2008
     strength: policy-basis
     institutionTypes:
       - government
@@ -82,6 +83,20 @@ evidence:
     note: >-
       Summarizes the failure of dowsing claims under scientific examination and the need for ordinary geological and
       hydrological methods rather than radiesthetic inference.
+  - id: geopathic-zeit-correction
+    sourceId: zeit-asfinag-geopathic
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Documents conflicting police crash counts and simultaneous conventional safety changes, showing why post-intervention
+      crash reductions do not by themselves establish an effect of the energetic intervention.
+  - id: geopathic-diepresse-correction
+    sourceId: diepresse-asfinag-dowsing
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Records ASFINAG's own acknowledgment that conventional changes such as new road surfacing could explain apparent
+      improvements attributed to the esoteric interventions.
   - id: geopathic-standard-carrier
     sourceId: standard-asfinag-dowsing-2003
     relation: documents

@@ -10,21 +10,21 @@ proposition:
     oder wissenschaftlich überholt.
 correction:
   summary: >-
-    Sprachen verändern sich durch historisch nachvollziehbare Abstammung, Sprachkontakt, Entlehnung, Innovation und
-    gesellschaftlichen Gebrauch. Die vergleichende Linguistik kann genealogische Beziehungen zwischen Sprachfamilien
-    rekonstruieren; Sprachen durchlaufen keine universelle Abfolge klassenbestimmter Entwicklungsstufen.
+    Marrs universale Theorie klassenbestimmter Sprachstufen wurde 1950 aufgegeben; die historisch-vergleichende
+    Sprachwissenschaft wurde wiederhergestellt, statt sich als wissenschaftlich überholt zu erweisen. Die historische
+    Evidenz stützt keine universale Abfolge klassenbestimmter Sprachentwicklungsstufen.
 episodes:
   - id: soviet-union-1930-1950
     polity: Sowjetunion
     institutions:
       - Institut für Sprache und Denken der Akademie der Wissenschaften der UdSSR
       - Akademie der Wissenschaften der UdSSR
-      - Sektion für materialistische Linguistik der Kommunistischen Akademie
     institutionalContext: >-
       Das Institut für Sprache und Denken war das wichtigste institutionelle Zentrum des Marrismus. Seine Autorität reichte
       jedoch über Akademiestrukturen, Universitäten, Fachzeitschriften, Verlage und das Bildungswesen weit über dieses
-      Institut hinaus und bildete ein verteiltes institutionelles Netz statt einer einzigen Körperschaft, die sich treffend
-      als „sowjetische sprachwissenschaftliche Institute“ bezeichnen ließe.
+      Institut hinaus und bildete ein verteiltes institutionelles Netz. Die derzeitige Beleglage weist die Sektion für
+      materialistische Linguistik der Kommunistischen Akademie nicht eigenständig als Träger dieser konkreten Behauptung
+      aus; sie wird deshalb hier nicht als solcher geführt.
     summary: >-
       Ab etwa 1930 wurde Nikolai Marrs „Neue Lehre von der Sprache“ zum offiziell anerkannten Rahmen, der die sowjetische
       Linguistik dominierte. Traditionelle vergleichende und indogermanische Sprachwissenschaft wurde als „bürgerlich“
@@ -34,11 +34,11 @@ episodes:
     consequences:
       - Konkurrierende historisch-vergleichende Schulen wurden unterdrückt oder marginalisiert
       - Forschung und Lehre wurden nach marristischen Kategorien umorganisiert
-      - Wissenschaftliche Laufbahnen wurden durch Vorwürfe „bürgerlicher“ oder antimarxistischer Linguistik gefährdet
+      - Forschende, die erheblich von marristischen Grundlagen abwichen, konnten institutionell marginalisiert oder unterdrückt werden
     mechanism:
       summary: >-
-        Akademie- und Hochschulinstitutionen erhoben den Marrismus zum offiziell anerkannten Rahmen und marginalisierten
-        konkurrierende historisch-vergleichende Linguistik über Forschung, Lehre, Publikation und Laufbahnkontrolle.
+        Akademiestrukturen erhoben den Marrismus zum offiziell anerkannten Rahmen und marginalisierten konkurrierende
+        historisch-vergleichende Linguistik über Forschung, Lehre und Publikationskontrolle.
     institutionalCorrection:
       periodLabel: '1950'
       action: Stalin verwarf den Marrismus öffentlich; anschließend baute die Akademiestruktur die Doktrin ab und löste das Institut für Sprache und Denken in einer neu organisierten Linguistikinstitution auf.
@@ -52,6 +52,9 @@ evidence:
       Zeitgenössische fachwissenschaftliche Darstellung, wonach die sowjetische Linguistik von etwa 1930 bis 1950 von der
       offiziell anerkannten marristischen Theorie beherrscht wurde und erhebliche Abweichungen stark unterdrückt wurden.
   - id: marr-school-correction
+    note: >-
+      Dokumentiert die Aufgabe des offiziell anerkannten marristischen Rahmens im Jahr 1950 und die Rückkehr nichtmarristischer
+      historisch-vergleichender Sprachwissenschaft.
   - id: marr-institute-carrier
   - id: marr-politics-mechanism
     note: >-

@@ -1,92 +1,152 @@
+schemaVersion: 2
 title: North Africans as biologically primitive in psychiatric practice
-claim: The French colonial psychiatric School of Algiers taught that North African Muslims possessed a biologically
-  grounded 'primitivism' marked by underdeveloped higher mental functions, weak abstract or moral capacities and
-  innate impulsivity, and used that racialised model in psychiatric teaching and interpretation of patients.
-currentUnderstanding: There is no biological North African psychiatric type defined by primitive brain organisation,
-  deficient higher mental function or innate racial impulsivity. Historians of psychiatry describe the School of
-  Algiers' evolutionist theory as a pseudoscientific racial ideology that converted colonial stereotypes into purported
-  neuropsychiatric facts. Frantz Fanon and later psychiatry instead emphasised the effects of social context, culture,
-  colonial violence and individual clinical circumstances.
+proposition:
+  summary: >-
+    The French colonial psychiatric School of Algiers taught that North African Muslims possessed a biologically
+    grounded 'primitivism' marked by underdeveloped higher mental functions, weak abstract or moral capacities and
+    innate impulsivity, and used that racialised model in psychiatric teaching and interpretation of patients.
+correction:
+  summary: >-
+    There is no biological North African psychiatric type defined by primitive brain organisation, deficient higher
+    mental function or innate racial impulsivity. Historians of psychiatry describe the School of Algiers' evolutionist
+    theory as a pseudoscientific racial ideology that converted colonial stereotypes into purported neuropsychiatric
+    facts. Frantz Fanon and later psychiatry instead emphasised the effects of social context, culture, colonial violence
+    and individual clinical circumstances.
 category: Colonial psychiatry, race and medical education
 reviewedAt: '2026-08-25'
 impact:
-  summary: 'The theory had institutional reach because Antoine Porot was not merely a polemicist: he taught neuropsychiatry
-    at the Faculty of Medicine in Algiers, helped establish the School of Algiers and shaped the colonial psychiatric
-    system that included Blida-Joinville hospital. His 1918 article became a founding text, and the 1939 Porot-Sutter
-    paper made ''primitivism'' an explicit explanatory model for North African psychopathology. Students and colleagues
-    reproduced the framework in clinical and forensic writing. Fanon''s work at Blida in the 1950s became an important
-    institutional and intellectual challenge to this racialised psychiatry.'
+  summary: >-
+    The theory had institutional reach because Antoine Porot was not merely a polemicist: he taught neuropsychiatry at
+    the Faculty of Medicine in Algiers, helped establish the School of Algiers and shaped the colonial psychiatric system
+    that included Blida-Joinville hospital. His 1918 article became a founding text, and the 1939 Porot-Sutter paper made
+    'primitivism' an explicit explanatory model for North African psychopathology. Students and colleagues reproduced
+    the framework in clinical and forensic writing. Fanon's work at Blida in the 1950s became an important institutional
+    and intellectual challenge to this racialised psychiatry.
   highlights:
-  - value: '1918'
-    label: year of Porot's foundational Notes de psychiatrie musulmane
-  - value: '1939'
-    label: year Porot and Sutter published their explicit theory of North African 'primitivism'
-  - value: 44 years
-    label: from the 1918 founding text to the end of French colonial rule in Algeria in 1962
+    - value: '1918'
+      label: year of Porot's foundational Notes de psychiatrie musulmane
+    - value: '1939'
+      label: year Porot and Sutter published their explicit theory of North African 'primitivism'
+    - value: 44 years
+      label: from the 1918 founding text to the end of French colonial rule in Algeria in 1962
   context:
-  - Not every aspect of Porot's clinical work was scientifically worthless. Later historical review notes genuine
-    innovations in service organisation and treatment. The correction concerns the racial-evolutionist theory that
-    treated a colonised population as innately primitive.
-  - The terms 'Muslim' and 'North African native' reproduce the population categories used by the historical authors;
-    they are not presented as valid biological classifications.
-  - French colonial rule in Algeria ended in 1962, but the theory did not disappear instantly. Elements of the School's
-    vocabulary persisted in metropolitan psychiatric literature after Algerian independence.
+    - >-
+      Not every aspect of Porot's clinical work was scientifically worthless. Later historical review notes genuine
+      innovations in service organisation and treatment. The correction concerns the racial-evolutionist theory that
+      treated a colonised population as innately primitive.
+    - >-
+      The terms 'Muslim' and 'North African native' reproduce the population categories used by the historical authors;
+      they are not presented as valid biological classifications.
+    - >-
+      French colonial rule in Algeria ended in 1962, but the theory did not disappear instantly. Elements of the School's
+      vocabulary persisted in metropolitan psychiatric literature after Algerian independence.
 episodes:
-- id: french-algeria-1918-1962
-  polity: French Algeria
-  region: North Africa
-  startYear: 1918
-  endYear: 1962
-  strength: institutionally-influential
-  institutionTypes:
-  - medical
-  - university
-  institutions:
-  - Faculty of Medicine of Algiers
-  - School of Algiers psychiatry
-  - Blida-Joinville psychiatric hospital
-  institutionalContext: Porot's 1918 Notes de psychiatrie musulmane, written after wartime neuropsychiatric work
-    and while he was associated with the Algiers medical faculty, portrayed the colonised Muslim population through
-    a hierarchy of supposedly primitive mental development. As psychiatric institutions were established in Algeria
-    in the 1930s, the School of Algiers became a durable teaching and clinical network. Porot and Jean Sutter's
-    1939 paper explicitly theorised the 'primitivism' of North Africans as relevant to mental pathology. The framework
-    circulated through psychiatric education, textbooks, hospital practice and medico-legal interpretation until
-    French colonial institutions were transformed by Algerian independence.
-  consequences:
-  - Medical teaching that presented racial and colonial stereotypes as characteristics of North African psychology
-  - Clinical interpretation of patients through assumptions of primitive mentality and innate impulsivity
-  - Medico-legal writing that racialised explanations of violence and criminal behaviour
-  - Scientific legitimation for a colonial hierarchy that treated the colonised population as developmentally inferior
-  - Institutional resistance by Frantz Fanon and later psychiatrists seeking more social, cultural and humanistic
-    approaches
-  summary: The School of Algiers made colonial hierarchy part of psychiatric explanation. A population-level stereotype
-    of biological and psychological 'primitivism' was taught and applied through a medical faculty and psychiatric
-    institutions rather than remaining a casual prejudice. Fanon's critique and subsequent historical psychiatry
-    rejected the supposed racial neuropsychology as pseudoscientific and redirected attention toward social, cultural
-    and individual determinants of mental illness.
-  sources:
-  - title: Notes de psychiatrie musulmane — Annales médico-psychologiques, 1918
+  - id: french-algeria-1918-1962
+    polity: French Algeria
+    region: North Africa
+    startYear: 1918
+    endYear: 1962
+    strength: institutionally-influential
+    institutionTypes:
+      - medical
+      - university
+    institutions:
+      - Faculty of Medicine of Algiers
+      - School of Algiers psychiatry
+      - Blida-Joinville psychiatric hospital
+    institutionalContext: >-
+      Porot's 1918 Notes de psychiatrie musulmane, written after wartime neuropsychiatric work and while he was associated
+      with the Algiers medical faculty, portrayed the colonised Muslim population through a hierarchy of supposedly
+      primitive mental development. As psychiatric institutions were established in Algeria in the 1930s, the School of
+      Algiers became a durable teaching and clinical network. Porot and Jean Sutter's 1939 paper explicitly theorised the
+      'primitivism' of North Africans as relevant to mental pathology. The framework circulated through psychiatric
+      education, textbooks, hospital practice and medico-legal interpretation until French colonial institutions were
+      transformed by Algerian independence.
+    consequences:
+      - Medical teaching that presented racial and colonial stereotypes as characteristics of North African psychology
+      - Clinical interpretation of patients through assumptions of primitive mentality and innate impulsivity
+      - Medico-legal writing that racialised explanations of violence and criminal behaviour
+      - Scientific legitimation for a colonial hierarchy that treated the colonised population as developmentally inferior
+      - Institutional resistance by Frantz Fanon and later psychiatrists seeking more social, cultural and humanistic approaches
+    summary: >-
+      The School of Algiers made colonial hierarchy part of psychiatric explanation. A population-level stereotype of
+      biological and psychological 'primitivism' was taught and applied through a medical faculty and psychiatric
+      institutions rather than remaining a casual prejudice. Fanon's critique and subsequent historical psychiatry
+      rejected the supposed racial neuropsychology as pseudoscientific and redirected attention toward social, cultural
+      and individual determinants of mental illness.
+    mechanism:
+      kind: education
+      summary: >-
+        A medical faculty and affiliated colonial psychiatric network taught and applied a racial-evolutionist model of
+        North African mentality through professional education, clinical interpretation and medico-legal practice.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        Fanon and later psychiatry challenged the doctrine, and the French colonial institutional network ended with
+        Algerian independence, but the existing record does not identify a dated School of Algiers or French institutional
+        act formally repudiating the racial-evolutionist theory.
+sources:
+  - id: algiers-porot-1918
+    title: Notes de psychiatrie musulmane — Annales médico-psychologiques, 1918
     url: https://archive.org/details/BIUSante_90152x1918x09/mode/2up
     publisher: Annales médico-psychologiques / Bibliothèque interuniversitaire de Santé scan
-    note: Primary 1918 publication commonly treated as the founding text of the School of Algiers, presenting North
-      African Muslim patients through a hierarchy of purportedly primitive psychological characteristics.
-  - title: Le 'primitivisme' des indigènes nord-africains — bibliographic record
+  - id: algiers-porot-sutter-1939
+    title: Le 'primitivisme' des indigènes nord-africains — bibliographic record
     url: https://catalogue.bnf.fr/ark:/12148/cb314225621
     publisher: Bibliothèque nationale de France
-    note: French national-library record for Porot and Sutter's 1939 publication explicitly devoted to the supposed
-      'primitivism' of North Africans and its claimed psychiatric consequences.
-  - title: 'La théorie évolutionniste de l''École d''Alger : une idéologie scientifique exemplaire'
+  - id: algiers-evolutionism
+    title: "La théorie évolutionniste de l'École d'Alger : une idéologie scientifique exemplaire"
     url: https://stm.cairn.info/revue-l-information-psychiatrique-2015-2-page-163
     publisher: L'Information psychiatrique
-    note: Peer-reviewed history of psychiatry characterising the School's evolutionism as a pseudoscientific racial
-      ideology that gave scientific cover to colonial hierarchy and discussing Fanon's critique.
-  - title: Alcohol, psychiatry and society — Colonial Algeria chapter
+  - id: algiers-mup-history
+    title: Alcohol, psychiatry and society — Colonial Algeria chapter
     url: https://uplopen.com/books/694/files/d080ebe3-c877-4458-8945-d6e716d411af.pdf
     publisher: Manchester University Press
-    note: Modern scholarly history placing the 1918 text within the later institutional formation of the School
-      of Algiers and the psychiatric institutions built in North Africa in the 1930s.
-  - title: 'French psychiatry in Algeria (1830–1962): from colonial to transcultural'
+  - id: algiers-history-psychiatry
+    title: 'French psychiatry in Algeria (1830–1962): from colonial to transcultural'
     url: https://journals.sagepub.com/doi/10.1177/0957154X9600702805
     publisher: History of Psychiatry
-    note: Scholarly history of French psychiatric institutions and doctrine in Algeria, including Porot, the School
-      of Algiers and the transition away from colonial psychiatry.
+evidence:
+  - id: algiers-porot-proposition
+    sourceId: algiers-porot-1918
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Primary 1918 publication commonly treated as the founding text of the School of Algiers, presenting North African
+      Muslim patients through a hierarchy of purportedly primitive psychological characteristics.
+  - id: algiers-evolutionism-correction
+    sourceId: algiers-evolutionism
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Peer-reviewed history of psychiatry characterising the School's evolutionism as a pseudoscientific racial ideology
+      that gave scientific cover to colonial hierarchy and discussing Fanon's critique.
+  - id: algiers-mup-impact
+    sourceId: algiers-mup-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Modern scholarly history placing the 1918 text within the later institutional formation of the School of Algiers
+      and the psychiatric institutions built in North Africa in the 1930s.
+  - id: algiers-mup-carrier
+    sourceId: algiers-mup-history
+    relation: documents
+    target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: carrier}
+  - id: algiers-porot-sutter-mechanism
+    sourceId: algiers-porot-sutter-1939
+    relation: documents
+    target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: mechanism}
+    note: >-
+      French national-library record for Porot and Sutter's 1939 publication explicitly devoted to the supposed
+      'primitivism' of North Africans and its claimed psychiatric consequences.
+  - id: algiers-evolutionism-consequences
+    sourceId: algiers-evolutionism
+    relation: supports
+    target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: consequences}
+  - id: algiers-history-context
+    sourceId: algiers-history-psychiatry
+    relation: contextualizes
+    target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: context}
+    note: >-
+      Scholarly history of French psychiatric institutions and doctrine in Algeria, including Porot, the School of Algiers
+      and the transition away from colonial psychiatry.

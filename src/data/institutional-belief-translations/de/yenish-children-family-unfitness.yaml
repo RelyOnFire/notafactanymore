@@ -1,57 +1,94 @@
+schemaVersion: 2
 locale: de
 entryId: yenish-children-family-unfitness
 sourceReviewedAt: '2026-08-25'
 title: Jenische Familienzugehörigkeit als Grund für Kindswegnahme und Umerziehung
-claim: Schweizer Fürsorgeinstitutionen und mitwirkende Behörden behandelten die Zugehörigkeit zu einer jenischen
-  Familie als ausreichenden Hinweis darauf, dass Kinder ihren Familien entzogen und außerhalb ihrer Kultur umerzogen
-  werden müssten. Grundlage waren rassenbiologische und sozialhygienische Vorstellungen statt eines individuellen
-  Nachweises elterlicher Untauglichkeit.
-currentUnderstanding: 'Jenische Identität oder eine reisende Lebensweise belegen keine elterliche Untauglichkeit.
-  Schweizer Bundesinstitutionen beschreiben die Aktion Kinder der Landstrasse heute als systematische Verfolgung:
-  Auch sesshafte Familien wurden erfasst, ein jenischer Familienname konnte genügen, und das Programm sollte Kinder
-  von ihren Familien entfremden, um die jenische Kultur zu beseitigen. Der Bundesrat entschuldigte sich für die
-  Unterstützung und anerkannte 2025 die Verfolgung im damaligen Kontext nach heutigem Völkerrecht als Verbrechen
-  gegen die Menschlichkeit.'
+proposition:
+  summary: >-
+    Schweizer Fürsorgeinstitutionen und mitwirkende Behörden behandelten die Zugehörigkeit zu einer jenischen Familie als
+    ausreichenden Hinweis darauf, dass Kinder ihren Familien entzogen und außerhalb ihrer Kultur umerzogen werden müssten.
+    Grundlage waren rassenbiologische und sozialhygienische Vorstellungen statt eines individuellen Nachweises elterlicher Untauglichkeit.
+correction:
+  summary: >-
+    Jenische Identität oder eine reisende Lebensweise belegen keine elterliche Untauglichkeit. Schweizer Bundesinstitutionen
+    beschreiben die Aktion Kinder der Landstrasse heute als systematische Verfolgung: Auch sesshafte Familien wurden erfasst,
+    ein jenischer Familienname konnte genügen, und das Programm sollte Kinder von ihren Familien entfremden, um die jenische
+    Kultur zu beseitigen. Der Bundesrat entschuldigte sich für die Unterstützung und anerkannte 2025 die Verfolgung im
+    damaligen Kontext nach heutigem Völkerrecht als Verbrechen gegen die Menschlichkeit.
 impact:
-  summary: Von 1926 bis 1973 nahm Pro Juventute mit dem Hilfswerk für die Kinder der Landstrasse Hunderte Kinder
-    aus jenischen Familien, häufig mit Unterstützung kantonaler, kommunaler und eidgenössischer Stellen. Kinder
-    kamen in Pflegefamilien, Heime, Anstalten und psychiatrische Einrichtungen; Kontakte zur Herkunftsfamilie wurden
-    gezielt unterbrochen. Bundesquellen nennen mehr als 600 direkt Betroffene des Programms und schätzen die Zahl
-    ähnlicher Fremdplatzierungen durch weitere Stellen auf insgesamt bis zu etwa 2.000.
+  summary: >-
+    Von 1926 bis 1973 nahm Pro Juventute mit dem Hilfswerk für die Kinder der Landstrasse Hunderte Kinder aus jenischen
+    Familien, häufig mit Unterstützung kantonaler, kommunaler und eidgenössischer Stellen. Kinder kamen in Pflegefamilien,
+    Heime, Anstalten und psychiatrische Einrichtungen; Kontakte zur Herkunftsfamilie wurden gezielt unterbrochen.
+    Bundesquellen nennen mehr als 600 direkt Betroffene des Programms und schätzen die Zahl ähnlicher Fremdplatzierungen
+    durch weitere Stellen auf insgesamt bis zu etwa 2.000.
   highlights:
-  - value: 600+
-    label: durch das Pro-Juventute-Programm aus Familien entfernte Kinder
-  - value: bis zu 2.000
-    label: geschätzte Fremdplatzierungen durch Pro Juventute, weitere Organisationen und Behörden
-  - value: 47 Jahre
-    label: vom Beginn des Programms 1926 bis zu seiner Einstellung 1973
+    - value: 600+
+      label: durch das Pro-Juventute-Programm aus Familien entfernte Kinder
+    - value: bis zu 2.000
+      label: geschätzte Fremdplatzierungen durch Pro Juventute, weitere Organisationen und Behörden
+    - value: 47 Jahre
+      label: vom Beginn des Programms 1926 bis zu seiner Einstellung 1973
   context:
-  - Das Programm zielte auf Jenische als Gruppe, nicht nur auf aktuell reisende Familien. Bundesdokumentation hält
-    fest, dass auch sesshafte Familien verfolgt wurden und ein jenischer Familienname genügen konnte.
-  - Nicht jede Fürsorgemaßnahme gegenüber einer jenischen Familie wird als identisch motiviert behandelt. Pro Juventute
-    war eine private Stiftung, doch Behörden duldeten, finanzierten und unterstützten das Programm.
-  - 1973 bezeichnet die Einstellung des zentralen Programms, nicht die vollständige institutionelle Korrektur. Entschuldigung,
-    Aktenzugang, Entschädigung und Anerkennung entwickelten sich erst in den folgenden Jahrzehnten.
+    - >-
+      Das Programm zielte auf Jenische als Gruppe, nicht nur auf aktuell reisende Familien. Bundesdokumentation hält fest,
+      dass auch sesshafte Familien verfolgt wurden und ein jenischer Familienname genügen konnte.
+    - >-
+      Nicht jede Fürsorgemaßnahme gegenüber einer jenischen Familie wird als identisch motiviert behandelt. Pro Juventute
+      war eine private Stiftung, doch Behörden duldeten, finanzierten und unterstützten das Programm.
+    - >-
+      1973 bezeichnet die Einstellung des zentralen Programms, nicht die vollständige institutionelle Korrektur.
+      Entschuldigung, Aktenzugang, Entschädigung und Anerkennung entwickelten sich erst in den folgenden Jahrzehnten.
 episodes:
-- id: switzerland-1926-1973
-  polity: Schweiz
-  institutions:
-  - Pro Juventute — Hilfswerk für die Kinder der Landstrasse
-  - eidgenössische, kantonale und kommunale Fürsorgebehörden
-  - Vormundschafts- und Platzierungsbehörden
-  institutionalContext: Pro Juventute gründete 1926 die Aktion Kinder der Landstrasse, um Kinder aus jenischen Familien
-    zu entfernen und ihre familiären und kulturellen Bindungen zu brechen. Schweizer Bundesquellen beschreiben die
-    Aktion als auf rassenbiologischen Theorien beruhend und auf die Auflösung der jenischen Gemeinschaft gerichtet.
-    Behörden wirkten bei Entzug elterlicher Rechte, Vormundschaften und Fremdplatzierungen mit. Erst die öffentliche
-    Aufdeckung führte 1973 zur Einstellung des Programms.
-  consequences:
-  - Entzug von mehr als 600 Kindern aus jenischen Familien durch das zentrale Pro-Juventute-Programm
-  - Unterbringung in Pflegefamilien, Heimen, Erziehungsanstalten und psychiatrischen Einrichtungen
-  - Systematische Behinderung des Kontakts zwischen weggenommenen Kindern und Herkunftsfamilien
-  - Verlust von Sprache, Familienwissen und kultureller Identität bei vielen Betroffenen
-  - Bevormundung, Internierung und in Einzelfällen Zwangssterilisation von Angehörigen der verfolgten Minderheit
-  - Jahrzehntelange Kämpfe um Aktenzugang, Entschädigung und Anerkennung
-  summary: Das Schweizer Programm machte Gruppenzugehörigkeit zu einem Fürsorgeurteil. Statt für jede Familie individuell
-    eine konkrete Gefährdung nachzuweisen, behandelten Pro Juventute und mitwirkende Behörden jenischen Hintergrund
-    selbst als Grund für Trennung und Assimilation. Der Schweizer Staat beschreibt diese Praxis heute als systematische
-    Verfolgung und nicht als legitimen Kinderschutz.
+  - id: switzerland-1926-1973
+    polity: Schweiz
+    institutions:
+      - Pro Juventute — Hilfswerk für die Kinder der Landstrasse
+      - eidgenössische, kantonale und kommunale Fürsorgebehörden
+      - Vormundschafts- und Platzierungsbehörden
+    institutionalContext: >-
+      Pro Juventute gründete 1926 die Aktion Kinder der Landstrasse, um Kinder aus jenischen Familien zu entfernen und
+      ihre familiären und kulturellen Bindungen zu brechen. Schweizer Bundesquellen beschreiben die Aktion als auf
+      rassenbiologischen Theorien beruhend und auf die Auflösung der jenischen Gemeinschaft gerichtet. Behörden wirkten
+      bei Entzug elterlicher Rechte, Vormundschaften und Fremdplatzierungen mit. Erst die öffentliche Aufdeckung führte
+      1973 zur Einstellung des Programms.
+    consequences:
+      - Entzug von mehr als 600 Kindern aus jenischen Familien durch das zentrale Pro-Juventute-Programm
+      - Unterbringung in Pflegefamilien, Heimen, Erziehungsanstalten und psychiatrischen Einrichtungen
+      - Systematische Behinderung des Kontakts zwischen weggenommenen Kindern und Herkunftsfamilien
+      - Verlust von Sprache, Familienwissen und kultureller Identität bei vielen Betroffenen
+      - Bevormundung, Internierung und in Einzelfällen Zwangssterilisation von Angehörigen der verfolgten Minderheit
+      - Jahrzehntelange Kämpfe um Aktenzugang, Entschädigung und Anerkennung
+    summary: >-
+      Das Schweizer Programm machte Gruppenzugehörigkeit zu einem Fürsorgeurteil. Statt für jede Familie individuell eine
+      konkrete Gefährdung nachzuweisen, behandelten Pro Juventute und mitwirkende Behörden jenischen Hintergrund selbst
+      als Grund für Trennung und Assimilation. Der Schweizer Staat beschreibt diese Praxis heute als systematische
+      Verfolgung und nicht als legitimen Kinderschutz.
+    mechanism:
+      summary: >-
+        Pro Juventute und mitwirkende Vormundschafts- und Fürsorgebehörden nutzten Kindswegnahme, Vormundschaft und
+        Fremdplatzierung, um jenische Kinder aufgrund ihrer Gruppenzugehörigkeit von ihren Familien zu trennen und zu assimilieren.
+    institutionalCorrection:
+      periodLabel: 1973–1986 und danach
+      action: Das zentrale Programm wurde 1973 eingestellt; später entschuldigte sich der Bundesrat für die eidgenössische Unterstützung, und Bundesinstitutionen entwickelten Maßnahmen zu Aktenzugang, Entschädigung und Anerkennung.
+      summary: >-
+        Die Schweiz verwarf die Politik später als Verfolgung und erkannte staatliche Mitverantwortung an. Die Korrektur
+        entfaltete sich jedoch über Jahrzehnte in einem gemischten Netz aus privater Stiftung sowie eidgenössischen,
+        kantonalen und kommunalen Behörden statt durch einen einheitlichen Akt sämtlicher Träger.
+evidence:
+  - id: yenish-ekr-proposition
+    note: >-
+      Bundesdossier gegen Rassismus zur rassenbiologischen Ideologie, zur Verfolgung von Familien unabhängig von ihrer
+      tatsächlichen Lebensweise und zum Ziel des Programms, Kinder zu trennen und die jenische Kultur aufzulösen.
+  - id: yenish-bak-correction
+    note: >-
+      Bundesgeschichtliche Darstellung des Programms, der Wegnahme von rund 600 Kindern, weiterer Fremdplatzierungen,
+      amtlicher Mitwirkung, der Einstellung 1973 sowie der späteren Anerkennung und Entschuldigung des Bundesrats.
+  - id: yenish-bak-impact
+  - id: yenish-federal-archives-carrier
+    note: >-
+      Bundesarchivische Darstellung der systematischen Wegnahme und Umerziehung jenischer Kinder, der Unterstützung durch
+      eidgenössische, kantonale und kommunale Stellen und der eidgenössischen Entschuldigung von 1986.
+  - id: yenish-federal-archives-mechanism
+  - id: yenish-bak-consequences
+  - id: yenish-federal-archives-partial-correction

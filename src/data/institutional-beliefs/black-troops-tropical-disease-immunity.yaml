@@ -1,110 +1,155 @@
+schemaVersion: 2
 title: Black troops as naturally resistant to tropical disease
-claim: >-
-  U.S. military authorities treated Black soldiers as naturally more resistant to yellow fever and other tropical
-  disease, influencing recruitment and assignments for service in Cuba during the Spanish-American War.
-currentUnderstanding: >-
-  Yellow fever is a viral disease transmitted by infected mosquitoes, and immunity follows vaccination or recovery
-  from prior infection rather than racial ancestry. Malaria is caused by Plasmodium parasites transmitted by
-  Anopheles mosquitoes; population differences in particular inherited traits do not make Black people generally
-  immune to malaria or tropical disease. Black U.S. soldiers in Cuba contracted malaria and yellow fever in large
-  numbers, directly contradicting the assumption of broad natural racial protection.
+proposition:
+  summary: >-
+    U.S. military authorities treated Black soldiers as naturally more resistant to yellow fever and other tropical
+    disease, influencing recruitment and assignments for service in Cuba during the Spanish-American War.
+correction:
+  summary: >-
+    Yellow fever is a viral disease transmitted by infected mosquitoes, and immunity follows vaccination or recovery
+    from prior infection rather than racial ancestry. Malaria is caused by Plasmodium parasites transmitted by Anopheles
+    mosquitoes; population differences in particular inherited traits do not make Black people generally immune to
+    malaria or tropical disease. Black U.S. soldiers in Cuba contracted malaria and yellow fever in large numbers,
+    directly contradicting the assumption of broad natural racial protection.
 category: Race, military medicine and public health
 reviewedAt: '2026-08-24'
 impact:
   summary: >-
     During the Spanish-American War, U.S. military planning drew on the racial belief that Black soldiers were better
     adapted or naturally more resistant to tropical disease. The assumption affected both the organization of Black
-    “Immune” volunteer regiments and assignments of Black regular troops to disease-stricken areas and hospital work
-    in Cuba. Army experience quickly contradicted the theory: an official Army history records that half of 471 men
-    of the 24th Infantry reporting for duty at Siboney contracted malaria or yellow fever.
+    “Immune” volunteer regiments and assignments of Black regular troops to disease-stricken areas and hospital work in
+    Cuba. Army experience quickly contradicted the theory: an official Army history records that half of 471 men of the
+    24th Infantry reporting for duty at Siboney contracted malaria or yellow fever.
   highlights:
-  - value: '4'
-    label: Black U.S. Volunteer Infantry regiments organized among the 1898 “Immune” regiments
-  - value: 50% of 471
-    label: men of the 24th Infantry at Siboney who contracted malaria or yellow fever according to official Army history
-  - value: '1898'
-    label: racial disease-resistance assumptions shaped U.S. tropical-service decisions during the war
+    - value: '4'
+      label: Black U.S. Volunteer Infantry regiments organized among the 1898 “Immune” regiments
+    - value: 50% of 471
+      label: men of the 24th Infantry at Siboney who contracted malaria or yellow fever according to official Army history
+    - value: '1898'
+      label: racial disease-resistance assumptions shaped U.S. tropical-service decisions during the war
   context:
-  - >-
-    The federal authorization for “Immune” troops did not itself state that Black people were racially immune to
-    yellow fever. The racial proposition is documented instead in War Department and Army thinking and in how Black
-    troops were recruited and assigned; the statute itself did not contain that racial claim.
-  - >-
-    The reported 50-percent figure combines malaria and yellow fever; it is not a yellow-fever-only infection rate.
-  - >-
-    Prior yellow-fever infection can create genuine lifelong immunity, and military planners also sought men thought
-    to possess acquired immunity. That valid concept became entangled with the false assumption of broad innate
-    racial resistance.
+    - >-
+      The federal authorization for “Immune” troops did not itself state that Black people were racially immune to yellow
+      fever. The racial proposition is documented instead in War Department and Army thinking and in how Black troops were
+      recruited and assigned; the statute itself did not contain that racial claim.
+    - >-
+      The reported 50-percent figure combines malaria and yellow fever; it is not a yellow-fever-only infection rate.
+    - >-
+      Prior yellow-fever infection can create genuine lifelong immunity, and military planners also sought men thought to
+      possess acquired immunity. That valid concept became entangled with the false assumption of broad innate racial resistance.
 episodes:
-- id: united-states-1898
-  polity: United States
-  region: North America
-  startYear: 1898
-  endYear: 1898
-  periodLabel: '1898'
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - military
-  - medical
-  institutions:
-  - United States War Department
-  - United States Army
-  institutionalContext: >-
-    War Department and Army officials operated in a medical culture that often treated Black ancestry as conferring
-    natural resistance to yellow fever and other tropical diseases. Four of the volunteer “Immune” regiments were
-    organized as Black units, while Black regulars already serving in Cuba were also assigned duties on the assumption
-    that they could withstand tropical disease better than white soldiers. The 24th Infantry, for example, was ordered
-    to hospital duty at Siboney as yellow fever spread. Disease rates among the soldiers themselves soon undermined
-    the supposed racial protection.
-  consequences:
-  - Racial assumptions influenced recruitment and organization of Black “Immune” volunteer regiments
-  - Black regular troops were assigned to disease-stricken duties partly because of supposed natural resistance
-  - Soldiers were exposed to tropical disease without the protection the racial theory implied
-  - High malaria and yellow-fever morbidity among Black troops contradicted the institutional assumption
-  summary: >-
-    In 1898 U.S. military authorities treated Black soldiers as especially suited to tropical service because they
-    were believed to possess greater natural resistance to yellow fever and related diseases. The belief shaped the
-    organization of Black “Immune” regiments and the assignment of Black regulars to sick-duty roles in Cuba.
-    Official Army history records that 50 percent of 471 men of the 24th Infantry reporting at Siboney nevertheless
-    contracted malaria or yellow fever, helping expose the supposed racial immunity as false.
-  sources:
-  - title: Black Soldier, White Army — The 24th Infantry Regiment in Korea
+  - id: united-states-1898
+    polity: United States
+    region: North America
+    startYear: 1898
+    endYear: 1898
+    periodLabel: '1898'
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - military
+      - medical
+    institutions:
+      - United States War Department
+      - United States Army
+    institutionalContext: >-
+      War Department and Army officials operated in a medical culture that often treated Black ancestry as conferring
+      natural resistance to yellow fever and other tropical diseases. Four of the volunteer “Immune” regiments were
+      organized as Black units, while Black regulars already serving in Cuba were also assigned duties on the assumption
+      that they could withstand tropical disease better than white soldiers. The 24th Infantry, for example, was ordered
+      to hospital duty at Siboney as yellow fever spread. Disease rates among the soldiers themselves soon undermined
+      the supposed racial protection.
+    consequences:
+      - Racial assumptions influenced recruitment and organization of Black “Immune” volunteer regiments
+      - Black regular troops were assigned to disease-stricken duties partly because of supposed natural resistance
+      - Soldiers were exposed to tropical disease without the protection the racial theory implied
+      - High malaria and yellow-fever morbidity among Black troops contradicted the institutional assumption
+    summary: >-
+      In 1898 U.S. military authorities treated Black soldiers as especially suited to tropical service because they were
+      believed to possess greater natural resistance to yellow fever and related diseases. The belief shaped the
+      organization of Black “Immune” regiments and the assignment of Black regulars to sick-duty roles in Cuba. Official
+      Army history records that 50 percent of 471 men of the 24th Infantry reporting at Siboney nevertheless contracted
+      malaria or yellow fever, helping expose the supposed racial immunity as false.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        War Department and Army recruitment and assignment decisions operationalized the belief that Black troops were
+        naturally better suited to tropical service, including “Immune” regiments and disease-stricken hospital duty.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        The soldiers' own disease experience contradicted the racial assumption during the war, but the existing record
+        does not identify a dated War Department or Army act formally repudiating the broader theory of innate racial resistance.
+sources:
+  - id: black-troops-army-history
+    title: Black Soldier, White Army — The 24th Infantry Regiment in Korea
     url: https://history.army.mil/Portals/143/Images/Publications/Publication%20By%20Title%20Images/B%20pdf/CMH_Pub_70-65.pdf
     publisher: U.S. Army Center of Military History
-    note: >-
-      Official Army history recounting the 1898 belief that Black soldiers were naturally more immune to tropical
-      disease, the 24th Infantry's assignment to Siboney hospital duty, and the finding that 50 percent of 471 men
-      there contracted malaria or yellow fever.
-  - title: Buffalo Soldiers and the Spanish-American War
+  - id: black-troops-nps-buffalo
+    title: Buffalo Soldiers and the Spanish-American War
     url: https://www.nps.gov/prsf/learn/historyculture/buffalo-soldiers-and-the-spanish-american-war.htm
     publisher: National Park Service
-    note: >-
-      Official NPS history stating that Black soldiers of the 24th Infantry served as nurses and hospital orderlies
-      during the yellow-fever outbreak because of the stereotype that Black troops were physically better able to
-      endure tropical conditions.
-  - title: From Buffalo Soldier to Bath Attendant — Hugh Hayes
+  - id: black-troops-nps-hayes
+    title: From Buffalo Soldier to Bath Attendant — Hugh Hayes
     url: https://www.nps.gov/articles/000/from-buffalo-soldier-to-bath-attendant-the-story-of-hugh-hayes-and-hot-springs-national-park.htm
     publisher: National Park Service
-    note: >-
-      Official NPS account noting that people inside and outside the War Department believed African American soldiers
-      could handle Cuba's tropical climate better than white soldiers.
-  - title: African American Dental Surgeons and the Spanish-American War
+  - id: black-troops-army-medical
+    title: African American Dental Surgeons and the Spanish-American War
     url: https://achh.army.mil/history/corps-dental-general-african-american/
     publisher: U.S. Army Medical Department
-    note: >-
-      Official Army medical history describing War Department thinking that African American troops had greater
-      immunity to yellow fever and could therefore be advantageous in tropical service.
-  - title: The Black “Immune” Regiments in the Spanish-American War
+  - id: black-troops-army-foundation
+    title: The Black “Immune” Regiments in the Spanish-American War
     url: https://armyhistory.org/the-black-immune-regiments-in-the-spanish-american-war/
     publisher: Army Historical Foundation
-    note: >-
-      Historical synthesis documenting General Orders No. 55 and No. 60, the four Black U.S. Volunteer Infantry
-      “Immune” regiments and the erroneous belief that African Americans were naturally immune or especially suited
-      to tropical disease environments.
-  - title: Yellow fever
+  - id: black-troops-who-yellow-fever
+    title: Yellow fever
     url: https://www.who.int/news-room/fact-sheets/detail/yellow-fever
     publisher: World Health Organization
+evidence:
+  - id: black-troops-army-medical-proposition
+    sourceId: black-troops-army-medical
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Official Army medical history describing War Department thinking that African American troops had greater immunity
+      to yellow fever and could therefore be advantageous in tropical service.
+  - id: black-troops-who-correction
+    sourceId: black-troops-who-yellow-fever
+    relation: supports
+    target: {scope: belief, aspect: correction}
     note: >-
       Current medical evidence identifying yellow fever as a mosquito-borne viral disease and explaining that immunity
       follows vaccination or recovery from infection rather than racial ancestry.
+  - id: black-troops-army-history-impact
+    sourceId: black-troops-army-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Official Army history recounting the 1898 belief that Black soldiers were naturally more immune to tropical disease,
+      the 24th Infantry's assignment to Siboney hospital duty, and the finding that 50 percent of 471 men there contracted
+      malaria or yellow fever.
+  - id: black-troops-army-history-carrier
+    sourceId: black-troops-army-history
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1898, aspect: carrier}
+  - id: black-troops-nps-hayes-mechanism
+    sourceId: black-troops-nps-hayes
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1898, aspect: mechanism}
+    note: >-
+      Official NPS account noting that people inside and outside the War Department believed African American soldiers
+      could handle Cuba's tropical climate better than white soldiers.
+  - id: black-troops-nps-buffalo-consequences
+    sourceId: black-troops-nps-buffalo
+    relation: supports
+    target: {scope: episode, episodeId: united-states-1898, aspect: consequences}
+    note: >-
+      Official NPS history stating that Black soldiers of the 24th Infantry served as nurses and hospital orderlies during
+      the yellow-fever outbreak because of the stereotype that Black troops were physically better able to endure tropical conditions.
+  - id: black-troops-army-foundation-context
+    sourceId: black-troops-army-foundation
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-1898, aspect: context}
+    note: >-
+      Historical synthesis documenting General Orders No. 55 and No. 60, the four Black U.S. Volunteer Infantry “Immune”
+      regiments and the erroneous belief that African Americans were naturally immune or especially suited to tropical disease environments.

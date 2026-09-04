@@ -1,97 +1,155 @@
+schemaVersion: 2
 title: Anthropometric and degenerative traits as a scientific basis for prisoner classification
-claim: Belgian prison anthropology treated bodily measurements, morphology, hereditary and acquired 'degeneration,'
-  mental traits and family history as scientifically meaningful indicators for diagnosing and classifying offenders,
-  and institutionalised those observations in prison files and decisions about treatment and regime.
-currentUnderstanding: There is no scientifically valid criminal body type or set of hereditary degenerative stigmata
-  from which criminality can be diagnosed. Belgium's own prison service gradually moved away from the original anthropometric
-  model. After the Second World War, psychological and sociological factors gained priority; in a 1952 penitentiary
-  report, prison psychiatrist Étienne De Greeff judged anthropometric measurements minimally useful and considered
-  temperament classifications, biological properties and hormonal theories superfluous.
+proposition:
+  summary: >-
+    Belgian prison anthropology treated bodily measurements, morphology, hereditary and acquired 'degeneration', mental
+    traits and family history as scientifically meaningful indicators for diagnosing and classifying offenders, and
+    institutionalised those observations in prison files and decisions about treatment and regime.
+correction:
+  summary: >-
+    There is no scientifically valid criminal body type or set of hereditary degenerative stigmata from which criminality
+    can be diagnosed. Belgium's own prison service gradually moved away from the original anthropometric model. After the
+    Second World War, psychological and sociological factors gained priority; in a 1952 penitentiary report, prison
+    psychiatrist Étienne De Greeff judged anthropometric measurements minimally useful and considered temperament
+    classifications, biological properties and hormonal theories superfluous.
 category: Criminology, prisons and medical classification
 reviewedAt: '2026-08-25'
 impact:
-  summary: Louis Vervaeck opened Belgium's first prison anthropology laboratory in Brussels in 1907. With Ministry
-    of Justice support, anthropological laboratories were extended to major prisons in 1920 and prisoners received
-    standardised files containing bodily measurements, family hereditary history, malformations, education, mental
-    resistance and a final diagnosis. The system was intended to individualise prison classification and treatment.
-    At Saint-Gilles alone, the anthropological service created more than 9,000 individual files between 1920 and
-    1957. The postwar service retained systematic assessment but progressively replaced the old biological and morphological
-    emphasis with psychological and sociological observation.
+  summary: >-
+    Louis Vervaeck opened Belgium's first prison anthropology laboratory in Brussels in 1907. With Ministry of Justice
+    support, anthropological laboratories were extended to major prisons in 1920 and prisoners received standardised
+    files containing bodily measurements, family hereditary history, malformations, education, mental resistance and a
+    final diagnosis. The system was intended to individualise prison classification and treatment. At Saint-Gilles alone,
+    the anthropological service created more than 9,000 individual files between 1920 and 1957. The postwar service
+    retained systematic assessment but progressively replaced the old biological and morphological emphasis with
+    psychological and sociological observation.
   highlights:
-  - value: '1907'
-    label: year Vervaeck opened Belgium's first prison anthropology laboratory
-  - value: 9,000+
-    label: anthropological prisoner files preserved from the Saint-Gilles service
-  - value: '1952'
-    label: year De Greeff explicitly called anthropometric measures minimally useful in penitentiary assessment
+    - value: '1907'
+      label: year Vervaeck opened Belgium's first prison anthropology laboratory
+    - value: 9,000+
+      label: anthropological prisoner files preserved from the Saint-Gilles service
+    - value: '1952'
+      label: year De Greeff explicitly called anthropometric measures minimally useful in penitentiary assessment
   context:
-  - Vervaeck was not a simple copy of Cesare Lombroso. His model increasingly combined biological, psychological
-    and environmental factors and he rejected crude single-cause determinism. The institutionalized error was the
-    confidence placed in anthropometry and hereditary-degeneration markers, not every element of early Belgian
-    rehabilitative criminology.
-  - Modern prisons still use psychological and social assessment. That continuity does not validate the old claims
-    about skull, body form or hereditary 'degeneration'; it illustrates how an institution can retain an assessment
-    function while replacing the factual theory used to perform it.
-  - De Greeff's 1952 report provides an explicit postwar methodological rejection of anthropometry. Belgian prison
-    services continued to use anthropological dossiers for decades, but their content increasingly shifted toward
-    modern psychological and sociological assessment.
+    - >-
+      Vervaeck was not a simple copy of Cesare Lombroso. His model increasingly combined biological, psychological and
+      environmental factors and he rejected crude single-cause determinism. The institutionalized error was the
+      confidence placed in anthropometry and hereditary-degeneration markers, not every element of early Belgian
+      rehabilitative criminology.
+    - >-
+      Modern prisons still use psychological and social assessment. That continuity does not validate the old claims
+      about skull, body form or hereditary 'degeneration'; it illustrates how an institution can retain an assessment
+      function while replacing the factual theory used to perform it.
+    - >-
+      De Greeff's 1952 report provides an explicit postwar methodological rejection of anthropometry. Belgian prison
+      services continued to use anthropological dossiers for decades, but their content increasingly shifted toward
+      modern psychological and sociological assessment.
 episodes:
-- id: belgium-1907-1952
-  polity: Belgium
-  region: Western Europe
-  startYear: 1907
-  endYear: 1952
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  - professional
-  institutions:
-  - Belgian Ministry of Justice
-  - Penitentiary Anthropology Service
-  - Anthropological laboratories of Belgian prisons
-  institutionalContext: 'Vervaeck''s 1907 Brussels prison laboratory used systematic anthropometry and searches
-    for physical signs of degeneration as part of the scientific study of offenders. In 1920 the Ministry of Justice
-    expanded the model through anthropological laboratories in major prisons and standardised prisoner dossiers.
-    These records combined body measurements and morphology with health, hereditary family conditions, education,
-    psychological observations and a concluding diagnosis, and were used in an institutional programme of prisoner
-    classification and individualised treatment. After the war, practitioners inside the system increasingly rejected
-    the biological core: De Greeff''s 1952 report to the Benelux penitentiary commission described anthropometric
-    measures as of minimal utility and biological and temperament classifications as superfluous.'
-  consequences:
-  - Routine collection of detailed bodily, hereditary and psychological data from prisoners
-  - Institutional classification of offenders using concepts of degeneration now regarded as scientifically obsolete
-  - Use of medical-anthropological diagnoses to inform prison regime, treatment and assessment
-  - Expansion of medical authority within Belgian prison administration
-  - Creation of thousands of lasting individual records encoding scientific assumptions about prisoners and their
-    families
-  - Postwar replacement of the original anthropometric emphasis by more psychological and sociological assessment
-  summary: Belgium turned criminal anthropology into prison administration. The state-backed service did not merely
-    study offenders for academic purposes; it built standardised diagnostic files intended to classify prisoners
-    and guide their treatment. The oldest model searched bodies and family histories for signs of inherited or acquired
-    degeneration. The prison service's own postwar evolution supplied the correction, explicitly reducing the value
-    of anthropometry and abandoning biological classification in favour of psychological and social evidence.
-  sources:
-  - title: Inventory of the archive of Saint-Gilles Prison, 1885–1991
+  - id: belgium-1907-1952
+    polity: Belgium
+    region: Western Europe
+    startYear: 1907
+    endYear: 1952
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+      - professional
+    institutions:
+      - Belgian Ministry of Justice
+      - Penitentiary Anthropology Service
+      - Anthropological laboratories of Belgian prisons
+    institutionalContext: >-
+      Vervaeck's 1907 Brussels prison laboratory used systematic anthropometry and searches for physical signs of
+      degeneration as part of the scientific study of offenders. In 1920 the Ministry of Justice expanded the model
+      through anthropological laboratories in major prisons and standardised prisoner dossiers. These records combined
+      body measurements and morphology with health, hereditary family conditions, education, psychological observations
+      and a concluding diagnosis, and were used in an institutional programme of prisoner classification and
+      individualised treatment. After the war, practitioners inside the system increasingly rejected the biological
+      core: De Greeff's 1952 report to the Benelux penitentiary commission described anthropometric measures as of
+      minimal utility and biological and temperament classifications as superfluous.
+    consequences:
+      - Routine collection of detailed bodily, hereditary and psychological data from prisoners
+      - Institutional classification of offenders using concepts of degeneration now regarded as scientifically obsolete
+      - Use of medical-anthropological diagnoses to inform prison regime, treatment and assessment
+      - Expansion of medical authority within Belgian prison administration
+      - Creation of thousands of lasting individual records encoding scientific assumptions about prisoners and their families
+      - Postwar replacement of the original anthropometric emphasis by more psychological and sociological assessment
+    summary: >-
+      Belgium turned criminal anthropology into prison administration. The state-backed service did not merely study
+      offenders for academic purposes; it built standardised diagnostic files intended to classify prisoners and guide
+      their treatment. The oldest model searched bodies and family histories for signs of inherited or acquired
+      degeneration. The prison service's own postwar evolution supplied the correction, explicitly reducing the value
+      of anthropometry and abandoning biological classification in favour of psychological and social evidence.
+    mechanism:
+      kind: classification
+      summary: >-
+        Ministry-backed prison laboratories created standardised anthropological dossiers and used bodily, hereditary,
+        psychological and social observations to classify prisoners and guide institutional treatment and regime.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: '1952 onward'
+      action: An internal penitentiary report by Étienne De Greeff explicitly reduced anthropometry to minimal utility and rejected biological and temperament classifications as superfluous.
+      summary: >-
+        The Belgian prison service retained systematic assessment but replaced the old biological and morphological core
+        with psychological and sociological evidence; the 1952 report provides a specific internal methodological rejection.
+sources:
+  - id: belgian-anthropology-saint-gilles
+    title: Inventory of the archive of Saint-Gilles Prison, 1885–1991
     url: https://agatha.arch.be/nl/data/ead/BE-A0541_006202_801310/
     publisher: State Archives of Belgium
-    note: Official archival description of Vervaeck's prison laboratories and more than 9,000 Saint-Gilles anthropological
-      files; it states that their concepts are now scientifically obsolete.
-  - title: Archives of the external services of the Directorate-General of Penitentiary Institutions — archival
-      study
+  - id: belgian-anthropology-external-services
+    title: Archives of the external services of the Directorate-General of Penitentiary Institutions — archival study
     url: https://www.arch.be/docs/surv-toe/TT-SL/fed/Prisons_EP_partiel_2009_DEF.pdf
     publisher: State Archives of Belgium
-    note: Official archival history explaining the 1920 anthropological dossier, its measurements, hereditary family
-      information and diagnoses, and the postwar shift. It records De Greeff's 1952 judgment that anthropometric
-      measures had minimal utility and biological and temperament classifications were superfluous.
-  - title: Meten en verzoenen — Louis Vervaeck en de Belgische criminele antropologie, circa 1900–1940
+  - id: belgian-anthropology-debont
+    title: Meten en verzoenen — Louis Vervaeck en de Belgische criminele antropologie, circa 1900–1940
     url: https://www.cegesoma.be/docs/media/chtp_beg/chtp_09/chtp9_02_DeBont.pdf
     publisher: Centre for Historical Research and Documentation on War and Contemporary Society
-    note: Scholarly institutional history showing how Vervaeck combined hereditarian, biological and environmental
-      ideas and built criminal anthropology into Belgian prison practice, avoiding a simplistic claim that his model
-      was pure Lombrosian biological determinism.
-  - title: Le tatouage en Belgique — Louis Vervaeck, 1907
+  - id: belgian-anthropology-vervaeck-1907
+    title: Le tatouage en Belgique — Louis Vervaeck, 1907
     url: https://criminocorpus.org/media/filer_public/2012/12/08/1907.pdf
     publisher: Criminocorpus
-    note: Digitized primary research illustrating Vervaeck's early prison-anthropology method and its systematic
-      recording of heredity, degeneration, mental state, criminality, recidivism and bodily characteristics.
+evidence:
+  - id: belgian-anthropology-vervaeck-proposition
+    sourceId: belgian-anthropology-vervaeck-1907
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Digitized primary research illustrating Vervaeck's early prison-anthropology method and its systematic recording
+      of heredity, degeneration, mental state, criminality, recidivism and bodily characteristics.
+  - id: belgian-anthropology-external-correction
+    sourceId: belgian-anthropology-external-services
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Official archival history explaining the 1920 anthropological dossier, its measurements, hereditary family
+      information and diagnoses, and the postwar shift. It records De Greeff's 1952 judgment that anthropometric measures
+      had minimal utility and biological and temperament classifications were superfluous.
+  - id: belgian-anthropology-saint-gilles-impact
+    sourceId: belgian-anthropology-saint-gilles
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Official archival description of Vervaeck's prison laboratories and more than 9,000 Saint-Gilles anthropological
+      files; it states that their concepts are now scientifically obsolete.
+  - id: belgian-anthropology-saint-gilles-carrier
+    sourceId: belgian-anthropology-saint-gilles
+    relation: documents
+    target: {scope: episode, episodeId: belgium-1907-1952, aspect: carrier}
+  - id: belgian-anthropology-debont-mechanism
+    sourceId: belgian-anthropology-debont
+    relation: supports
+    target: {scope: episode, episodeId: belgium-1907-1952, aspect: mechanism}
+    note: >-
+      Scholarly institutional history showing how Vervaeck combined hereditarian, biological and environmental ideas
+      and built criminal anthropology into Belgian prison practice, avoiding a simplistic claim that his model was pure
+      Lombrosian biological determinism.
+  - id: belgian-anthropology-saint-gilles-consequences
+    sourceId: belgian-anthropology-saint-gilles
+    relation: supports
+    target: {scope: episode, episodeId: belgium-1907-1952, aspect: consequences}
+  - id: belgian-anthropology-external-institutional-correction
+    sourceId: belgian-anthropology-external-services
+    relation: documents
+    target: {scope: episode, episodeId: belgium-1907-1952, aspect: institutional-correction}

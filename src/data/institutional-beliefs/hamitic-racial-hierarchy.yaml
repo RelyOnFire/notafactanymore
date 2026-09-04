@@ -1,8 +1,15 @@
+schemaVersion: 2
 title: Hamitic racial hierarchy
-claim: Tutsi were treated as a foreign “Hamitic” race naturally superior to Hutu in intelligence, political ability, and civilization.
-currentUnderstanding: The colonial Hamitic hierarchy was scientific racism, not a valid account of human populations. Hutu and Tutsi share language, culture, and a deeply intertwined regional history; neither group constitutes a biologically superior or inferior race.
+proposition:
+  summary: >-
+    Tutsi were treated as a foreign “Hamitic” race naturally superior to Hutu in intelligence, political ability, and civilization.
+correction:
+  summary: >-
+    The colonial Hamitic hierarchy was scientific racism, not a valid account of human populations. Hutu and Tutsi
+    share language, culture, and a deeply intertwined regional history; neither group constitutes a biologically
+    superior or inferior race.
 category: Race and anthropology
-reviewedAt: 2026-08-23
+reviewedAt: '2026-08-23'
 episodes:
   - id: belgian-rwanda-1920-1959
     polity: Belgian Rwanda
@@ -10,32 +17,86 @@ episodes:
     startYear: 1920
     endYear: 1959
     strength: policy-basis
-    institutionTypes: [government, education]
+    institutionTypes:
+      - government
+      - education
     institutions:
       - Résidence du Ruanda
       - Vice-Gouvernement général du Ruanda-Urundi
       - Groupe Scolaire d'Astrida
       - Vicariat apostolique du Rwanda
-    institutionalContext: Belgian rule operated Rwanda through the Ruanda residency within the Vice-Government-General of Ruanda-Urundi. Catholic missions supplied much of the formal education; the Groupe Scolaire d'Astrida trained future administrative elites, while Vicar Apostolic Léon Classe publicly defended the Hamitic hierarchy and influenced colonial appointments. The wider identity-card, chiefly, schooling, and administrative system was therefore a network of named colonial and church institutions rather than a single generic “colonial administration.”
+    institutionalContext: >-
+      Belgian rule operated Rwanda through the Ruanda residency within the Vice-Government-General of Ruanda-Urundi.
+      Catholic missions supplied much of the formal education; the Groupe Scolaire d'Astrida trained future administrative
+      elites, while Vicar Apostolic Léon Classe publicly defended the Hamitic hierarchy and influenced colonial
+      appointments. The wider identity-card, chiefly, schooling, and administrative system was therefore a network of
+      named colonial and church institutions rather than a single generic “colonial administration.”
     consequences:
       - Ethnic classification fixed on official identity cards
       - Preferential access to elite education and administrative office for Tutsi
       - Administrative reorganization around a racialized Hutu–Tutsi hierarchy
-    summary: Belgian rule reinforced a racialized hierarchy portraying Tutsi as foreign, more intelligent, and naturally suited to rule. The belief was embedded through the Ruanda residency, the Ruanda-Urundi colonial administration, Catholic educational institutions, and elite training at Astrida; official identity documents and administrative practice made Hutu, Tutsi, and Twa categories increasingly rigid.
-    sources:
-      - title: Ethnicity and Genocide — The Case of Rwanda
-        url: https://www.un.org/sites/un2.un.org/files/preventing_ethnic_genocide_nov2024.pdf
-        publisher: United Nations
-        note: Describes Belgian adoption of the fictitious Hamitic hypothesis, the claim of Tutsi superiority, discriminatory education and administration, and the fixing of ethnicity on identity cards.
-      - title: UNAMIR — Historical Background
-        url: https://peacekeeping.un.org/sites/default/files/past/unamirFT.htm
-        publisher: United Nations Peacekeeping
-        note: Explains how Belgian authorities rigidified ethnic categories through identity cards and systematically favored Tutsi in education and civil administration.
-      - title: Chronologie du Rwanda (1867–1994)
-        url: https://www.sciencespo.fr/mass-violence-war-massacre-resistance/fr/document/chronologie-du-rwanda-1867-1994.html
-        publisher: Sciences Po — Violence de masse et Résistance
-        note: Identifies the Groupe Scolaire d'Astrida, the Catholic educational role, Vicar Apostolic Léon Classe's defense of the Hamitic hypothesis, and his influence on colonial personnel policy.
-      - title: Colonial administration reports for Rwanda and Burundi opened for research
-        url: https://www.arch.be/index.php?a=2024-01-15-les-rapports-de-l-administration-coloniale-au-rwanda-et-burundi-sont-ouverts-a-la-recherche&l=fr&m=actualites&r=toutes-les-actualites
-        publisher: State Archives of Belgium
-        note: Establishes the formal Vice-Government-General of Ruanda-Urundi and the surviving Belgian colonial administrative record for 1916–1962.
+    summary: >-
+      Belgian rule reinforced a racialized hierarchy portraying Tutsi as foreign, more intelligent, and naturally suited
+      to rule. The belief was embedded through the Ruanda residency, the Ruanda-Urundi colonial administration, Catholic
+      educational institutions, and elite training at Astrida; official identity documents and administrative practice
+      made Hutu, Tutsi, and Twa categories increasingly rigid.
+    mechanism:
+      kind: classification
+      summary: >-
+        Colonial and church institutions embedded the Hamitic hierarchy through identity classification, preferential
+        education and administrative selection, converting a racial theory into routine governance and elite formation.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        Belgian political alignments and the colonial order changed sharply from 1959 onward, but the existing record
+        does not identify a dated colonial or church institutional act formally repudiating the Hamitic racial theory itself.
+sources:
+  - id: hamitic-un-ethnicity-genocide
+    title: Ethnicity and Genocide — The Case of Rwanda
+    url: https://www.un.org/sites/un2.un.org/files/preventing_ethnic_genocide_nov2024.pdf
+    publisher: United Nations
+  - id: hamitic-unamir-history
+    title: UNAMIR — Historical Background
+    url: https://peacekeeping.un.org/sites/default/files/past/unamirFT.htm
+    publisher: United Nations Peacekeeping
+  - id: hamitic-sciencespo
+    title: Chronologie du Rwanda (1867–1994)
+    url: https://www.sciencespo.fr/mass-violence-war-massacre-resistance/fr/document/chronologie-du-rwanda-1867-1994.html
+    publisher: Sciences Po — Violence de masse et Résistance
+  - id: hamitic-belgian-archives
+    title: Colonial administration reports for Rwanda and Burundi opened for research
+    url: https://www.arch.be/index.php?a=2024-01-15-les-rapports-de-l-administration-coloniale-au-rwanda-et-burundi-sont-ouverts-a-la-recherche&l=fr&m=actualites&r=toutes-les-actualites
+    publisher: State Archives of Belgium
+evidence:
+  - id: hamitic-un-proposition
+    sourceId: hamitic-un-ethnicity-genocide
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Describes Belgian adoption of the fictitious Hamitic hypothesis, the claim of Tutsi superiority, discriminatory
+      education and administration, and the fixing of ethnicity on identity cards.
+  - id: hamitic-un-correction
+    sourceId: hamitic-un-ethnicity-genocide
+    relation: supports
+    target: {scope: belief, aspect: correction}
+  - id: hamitic-belgian-archives-carrier
+    sourceId: hamitic-belgian-archives
+    relation: documents
+    target: {scope: episode, episodeId: belgian-rwanda-1920-1959, aspect: carrier}
+    note: >-
+      Establishes the formal Vice-Government-General of Ruanda-Urundi and the surviving Belgian colonial administrative
+      record for 1916–1962.
+  - id: hamitic-sciencespo-mechanism
+    sourceId: hamitic-sciencespo
+    relation: documents
+    target: {scope: episode, episodeId: belgian-rwanda-1920-1959, aspect: mechanism}
+    note: >-
+      Identifies the Groupe Scolaire d'Astrida, the Catholic educational role, Vicar Apostolic Léon Classe's defense of
+      the Hamitic hypothesis, and his influence on colonial personnel policy.
+  - id: hamitic-unamir-consequences
+    sourceId: hamitic-unamir-history
+    relation: supports
+    target: {scope: episode, episodeId: belgian-rwanda-1920-1959, aspect: consequences}
+    note: >-
+      Explains how Belgian authorities rigidified ethnic categories through identity cards and systematically favored
+      Tutsi in education and civil administration.

@@ -1,62 +1,102 @@
+schemaVersion: 2
 locale: de
 entryId: belgian-criminal-anthropology-degeneration
 sourceReviewedAt: '2026-08-25'
 title: Anthropometrie und „Degeneration“ als wissenschaftliche Grundlage der Gefangenenklassifikation
-claim: Die belgische Gefängnisanthropologie behandelte Körpermaße, Morphologie, erbliche und erworbene „Degeneration“,
-  psychische Merkmale und Familiengeschichte als wissenschaftlich aussagekräftige Kennzeichen zur Diagnose und Klassifikation
-  von Straftätern und institutionalisierte diese Beobachtungen in Gefangenenakten und Vollzugsentscheidungen.
-currentUnderstanding: Es gibt keinen wissenschaftlich gültigen kriminellen Körpertyp und keine erblichen Degenerationsstigmata,
-  aus denen Kriminalität diagnostiziert werden könnte. Der belgische Strafvollzug entfernte sich selbst schrittweise
-  vom ursprünglichen anthropometrischen Modell. Nach dem Zweiten Weltkrieg gewannen psychologische und soziologische
-  Faktoren Vorrang; 1952 bezeichnete der Gefängnispsychiater Étienne De Greeff anthropometrische Messungen als kaum
-  nützlich und hielt Temperamentsklassifikationen, biologische Eigenschaften und Hormontheorien für überflüssig.
+proposition:
+  summary: >-
+    Die belgische Gefängnisanthropologie behandelte Körpermaße, Morphologie, erbliche und erworbene „Degeneration“,
+    psychische Merkmale und Familiengeschichte als wissenschaftlich aussagekräftige Kennzeichen zur Diagnose und
+    Klassifikation von Straftätern und institutionalisierte diese Beobachtungen in Gefangenenakten und Vollzugsentscheidungen.
+correction:
+  summary: >-
+    Es gibt keinen wissenschaftlich gültigen kriminellen Körpertyp und keine erblichen Degenerationsstigmata, aus denen
+    Kriminalität diagnostiziert werden könnte. Der belgische Strafvollzug entfernte sich selbst schrittweise vom
+    ursprünglichen anthropometrischen Modell. Nach dem Zweiten Weltkrieg gewannen psychologische und soziologische
+    Faktoren Vorrang; 1952 bezeichnete der Gefängnispsychiater Étienne De Greeff anthropometrische Messungen als kaum
+    nützlich und hielt Temperamentsklassifikationen, biologische Eigenschaften und Hormontheorien für überflüssig.
 impact:
-  summary: Louis Vervaeck eröffnete 1907 in Brüssel Belgiens erstes gefängnisanthropologisches Labor. Mit Unterstützung
-    des Justizministeriums wurde das Modell 1920 auf größere Gefängnisse ausgeweitet. Standardisierte Akten erfassten
-    Körpermaße, erbliche Krankheiten in der Familie, mögliche Fehlbildungen, Schulbildung, psychische Belastbarkeit
-    und eine abschließende Diagnose. Allein der Dienst in Saint-Gilles erstellte mehr als 9.000 individuelle Akten.
-    Nach dem Krieg blieb die systematische Begutachtung bestehen, während der biologische und morphologische Schwerpunkt
-    zunehmend durch psychologische und soziologische Beobachtung ersetzt wurde.
+  summary: >-
+    Louis Vervaeck eröffnete 1907 in Brüssel Belgiens erstes gefängnisanthropologisches Labor. Mit Unterstützung des
+    Justizministeriums wurde das Modell 1920 auf größere Gefängnisse ausgeweitet. Standardisierte Akten erfassten
+    Körpermaße, erbliche Krankheiten in der Familie, mögliche Fehlbildungen, Schulbildung, psychische Belastbarkeit und
+    eine abschließende Diagnose. Allein der Dienst in Saint-Gilles erstellte mehr als 9.000 individuelle Akten. Nach dem
+    Krieg blieb die systematische Begutachtung bestehen, während der biologische und morphologische Schwerpunkt zunehmend
+    durch psychologische und soziologische Beobachtung ersetzt wurde.
   highlights:
-  - value: '1907'
-    label: Jahr der Eröffnung des ersten belgischen Gefängnisanthropologie-Labors
-  - value: 9.000+
-    label: erhaltene anthropologische Gefangenenakten des Dienstes in Saint-Gilles
-  - value: '1952'
-    label: Jahr von De Greeffs ausdrücklicher Abwertung anthropometrischer Messungen im Strafvollzug
+    - value: '1907'
+      label: Jahr der Eröffnung des ersten belgischen Gefängnisanthropologie-Labors
+    - value: 9.000+
+      label: erhaltene anthropologische Gefangenenakten des Dienstes in Saint-Gilles
+    - value: '1952'
+      label: Jahr von De Greeffs ausdrücklicher Abwertung anthropometrischer Messungen im Strafvollzug
   context:
-  - Vervaeck war keine bloße Kopie Cesare Lombrosos. Sein Modell verband zunehmend biologische, psychologische und
-    soziale Faktoren und vermied einen simplen Ein-Ursachen-Determinismus. Der institutionelle Irrtum lag im Vertrauen
-    in Anthropometrie und Degenerationsmerkmale, nicht in jeder frühen belgischen Idee der Rehabilitation.
-  - Auch heutige Gefängnisse nutzen psychologische und soziale Begutachtung. Diese Kontinuität bestätigt nicht die
-    alten Annahmen über Schädel, Körperform oder erbliche „Degeneration“, sondern zeigt, wie eine Institution eine
-    Begutachtungsfunktion behalten und zugleich ihre Tatsachentheorie austauschen kann.
-  - De Greeffs Bericht von 1952 formulierte eine ausdrückliche methodische Abkehr von der Anthropometrie. Der Begriff
-    „anthropologischer Dienst“ und entsprechende Akten bestanden noch länger, während sich ihr Inhalt bereits in
-    Richtung psychologischer und sozialer Begutachtung verschob.
+    - >-
+      Vervaeck war keine bloße Kopie Cesare Lombrosos. Sein Modell verband zunehmend biologische, psychologische und
+      soziale Faktoren und vermied einen simplen Ein-Ursachen-Determinismus. Der institutionelle Irrtum lag im Vertrauen
+      in Anthropometrie und Degenerationsmerkmale, nicht in jeder frühen belgischen Idee der Rehabilitation.
+    - >-
+      Auch heutige Gefängnisse nutzen psychologische und soziale Begutachtung. Diese Kontinuität bestätigt nicht die alten
+      Annahmen über Schädel, Körperform oder erbliche „Degeneration“, sondern zeigt, wie eine Institution eine
+      Begutachtungsfunktion behalten und zugleich ihre Tatsachentheorie austauschen kann.
+    - >-
+      De Greeffs Bericht von 1952 formulierte eine ausdrückliche methodische Abkehr von der Anthropometrie. Der Begriff
+      „anthropologischer Dienst“ und entsprechende Akten bestanden noch länger, während sich ihr Inhalt bereits in
+      Richtung psychologischer und sozialer Begutachtung verschob.
 episodes:
-- id: belgium-1907-1952
-  polity: Belgien
-  institutions:
-  - Belgisches Justizministerium
-  - Gefängnisanthropologischer Dienst
-  - anthropologische Labore belgischer Gefängnisse
-  institutionalContext: Vervaecks Brüsseler Gefängnislabor von 1907 nutzte systematische Anthropometrie und die
-    Suche nach körperlichen Degenerationszeichen zur wissenschaftlichen Untersuchung von Straftätern. 1920 weitete
-    das Justizministerium das Modell durch Labore in großen Gefängnissen und standardisierte Akten aus. Körpermessungen
-    und Morphologie standen neben Gesundheit, erblichen Familienbelastungen, Bildung, psychischen Beobachtungen
-    und einer Diagnose. Nach dem Krieg verwarfen Fachleute innerhalb des Systems zunehmend den biologischen Kern;
-    De Greeffs Bericht von 1952 erklärte Anthropometrie für kaum nützlich und biologische Klassifikationen für überflüssig.
-  consequences:
-  - Routinemäßige Sammlung detaillierter körperlicher, erblicher und psychischer Daten von Gefangenen
-  - Institutionelle Klassifikation von Straftätern anhand heute wissenschaftlich überholter Degenerationsvorstellungen
-  - Nutzung medizinisch-anthropologischer Diagnosen für Vollzugsregime, Behandlung und Begutachtung
-  - Ausweitung medizinischer Autorität innerhalb der belgischen Gefängnisverwaltung
-  - Tausende dauerhafte Personenakten, in denen wissenschaftliche Annahmen über Gefangene und ihre Familien festgeschrieben
-    wurden
-  - Nachkriegszeitliche Ablösung des anthropometrischen Schwerpunkts durch psychologische und soziologische Begutachtung
-  summary: Belgien machte Kriminalanthropologie zu Gefängnisverwaltung. Der staatlich gestützte Dienst erforschte
-    Gefangene nicht nur akademisch, sondern führte standardisierte Diagnoseakten zur Klassifikation und Behandlung.
-    Das frühe Modell suchte in Körpern und Familiengeschichten nach Zeichen erblicher oder erworbener „Degeneration“.
-    Die interne Nachkriegsentwicklung lieferte die Korrektur und reduzierte Anthropometrie zugunsten psychologischer
-    und sozialer Evidenz.
+  - id: belgium-1907-1952
+    polity: Belgien
+    institutions:
+      - Belgisches Justizministerium
+      - Gefängnisanthropologischer Dienst
+      - anthropologische Labore belgischer Gefängnisse
+    institutionalContext: >-
+      Vervaecks Brüsseler Gefängnislabor von 1907 nutzte systematische Anthropometrie und die Suche nach körperlichen
+      Degenerationszeichen zur wissenschaftlichen Untersuchung von Straftätern. 1920 weitete das Justizministerium das
+      Modell durch Labore in großen Gefängnissen und standardisierte Akten aus. Körpermessungen und Morphologie standen
+      neben Gesundheit, erblichen Familienbelastungen, Bildung, psychischen Beobachtungen und einer Diagnose. Nach dem
+      Krieg verwarfen Fachleute innerhalb des Systems zunehmend den biologischen Kern; De Greeffs Bericht von 1952
+      erklärte Anthropometrie für kaum nützlich und biologische Klassifikationen für überflüssig.
+    consequences:
+      - Routinemäßige Sammlung detaillierter körperlicher, erblicher und psychischer Daten von Gefangenen
+      - Institutionelle Klassifikation von Straftätern anhand heute wissenschaftlich überholter Degenerationsvorstellungen
+      - Nutzung medizinisch-anthropologischer Diagnosen für Vollzugsregime, Behandlung und Begutachtung
+      - Ausweitung medizinischer Autorität innerhalb der belgischen Gefängnisverwaltung
+      - Tausende dauerhafte Personenakten, in denen wissenschaftliche Annahmen über Gefangene und ihre Familien festgeschrieben wurden
+      - Nachkriegszeitliche Ablösung des anthropometrischen Schwerpunkts durch psychologische und soziologische Begutachtung
+    summary: >-
+      Belgien machte Kriminalanthropologie zu Gefängnisverwaltung. Der staatlich gestützte Dienst erforschte Gefangene
+      nicht nur akademisch, sondern führte standardisierte Diagnoseakten zur Klassifikation und Behandlung. Das frühe
+      Modell suchte in Körpern und Familiengeschichten nach Zeichen erblicher oder erworbener „Degeneration“. Die interne
+      Nachkriegsentwicklung lieferte die Korrektur und reduzierte Anthropometrie zugunsten psychologischer und sozialer Evidenz.
+    mechanism:
+      summary: >-
+        Vom Justizministerium gestützte Gefängnislabore führten standardisierte anthropologische Akten und nutzten
+        körperliche, erbliche, psychologische und soziale Beobachtungen zur Klassifikation von Gefangenen und zur Steuerung des Vollzugs.
+    institutionalCorrection:
+      periodLabel: ab 1952
+      action: Ein interner Strafvollzugsbericht Étienne De Greeffs erklärte Anthropometrie für kaum nützlich und biologische sowie Temperamentsklassifikationen für überflüssig.
+      summary: >-
+        Die systematische Begutachtung blieb bestehen, doch der belgische Strafvollzug ersetzte den alten biologischen
+        und morphologischen Kern durch psychologische und soziologische Evidenz; der Bericht von 1952 liefert eine konkrete interne methodische Zurückweisung.
+evidence:
+  - id: belgian-anthropology-vervaeck-proposition
+    note: >-
+      Digitalisierte Primärstudie, die Vervaecks frühe Gefängnisanthropologie mit systematischer Erfassung von Vererbung,
+      Degeneration, Geisteszustand, Kriminalität, Rückfälligkeit und Körpermerkmalen veranschaulicht.
+  - id: belgian-anthropology-external-correction
+    note: >-
+      Amtliche Archivgeschichte zum anthropologischen Dossier von 1920, seinen Körpermessungen, erblichen Familienangaben
+      und Diagnosen sowie zum Nachkriegswandel. Sie dokumentiert De Greeffs Urteil von 1952, Anthropometrie habe nur
+      minimalen Nutzen und biologische sowie Temperamentsklassifikationen seien überflüssig.
+  - id: belgian-anthropology-saint-gilles-impact
+    note: >-
+      Amtliche Archivbeschreibung von Vervaecks Gefängnislaboren und mehr als 9.000 anthropologischen Akten aus
+      Saint-Gilles; sie bezeichnet die zugrunde liegenden Konzepte heute als wissenschaftlich überholt.
+  - id: belgian-anthropology-saint-gilles-carrier
+  - id: belgian-anthropology-debont-mechanism
+    note: >-
+      Fachhistorische Studie darüber, wie Vervaeck erbliche, biologische und Umweltfaktoren verband und Kriminalanthropologie
+      in die belgische Gefängnispraxis einbaute, ohne sein Modell vereinfachend als rein lombrosianischen Biologismus darzustellen.
+  - id: belgian-anthropology-saint-gilles-consequences
+  - id: belgian-anthropology-external-institutional-correction

@@ -1,81 +1,137 @@
+schemaVersion: 2
 title: Yenish family membership as grounds for child removal and re-education
-claim: Swiss welfare institutions and cooperating authorities treated belonging to a Yenish family as sufficient
-  evidence that children required removal and re-education away from their families and culture, drawing on racial-biological
-  and social-degeneracy theories rather than individual evidence of parental unfitness.
-currentUnderstanding: 'Yenish identity or an itinerant way of life does not establish parental unfitness. Swiss
-  federal institutions now describe the Kinder der Landstrasse program as systematic persecution: even settled families
-  were targeted, a Yenish family name could be enough, and the program sought to estrange children from their families
-  in order to eliminate Yenish culture. The Federal Council has apologised for federal support and in 2025 recognised
-  the persecution of Yenish and Sinti in this context as crimes against humanity under contemporary international
-  law.'
+proposition:
+  summary: >-
+    Swiss welfare institutions and cooperating authorities treated belonging to a Yenish family as sufficient evidence
+    that children required removal and re-education away from their families and culture, drawing on racial-biological
+    and social-degeneracy theories rather than individual evidence of parental unfitness.
+correction:
+  summary: >-
+    Yenish identity or an itinerant way of life does not establish parental unfitness. Swiss federal institutions now
+    describe the Kinder der Landstrasse program as systematic persecution: even settled families were targeted, a Yenish
+    family name could be enough, and the program sought to estrange children from their families in order to eliminate
+    Yenish culture. The Federal Council has apologised for federal support and in 2025 recognised the persecution of
+    Yenish and Sinti in this context as crimes against humanity under contemporary international law.
 category: Child welfare, racial theory and forced assimilation
 reviewedAt: '2026-08-25'
 impact:
-  summary: From 1926 to 1973 Pro Juventute's Hilfswerk für die Kinder der Landstrasse removed hundreds of children
-    from Yenish families, often with support from cantonal, municipal and federal authorities. Children were placed
-    with foster families, homes, institutions and psychiatric facilities; family contact was deliberately broken.
-    Federal sources state that more than 600 children were taken through the program itself and estimate that similar
-    removals by other organisations and authorities brought the broader total to around 2,000.
+  summary: >-
+    From 1926 to 1973 Pro Juventute's Hilfswerk für die Kinder der Landstrasse removed hundreds of children from Yenish
+    families, often with support from cantonal, municipal and federal authorities. Children were placed with foster
+    families, homes, institutions and psychiatric facilities; family contact was deliberately broken. Federal sources
+    state that more than 600 children were taken through the program itself and estimate that similar removals by other
+    organisations and authorities brought the broader total to around 2,000.
   highlights:
-  - value: 600+
-    label: children removed through Pro Juventute's Kinder der Landstrasse program
-  - value: up to 2,000
-    label: estimated wider removals by Pro Juventute, other organisations and authorities
-  - value: 47 years
-    label: from the program's launch in 1926 to its closure in 1973
+    - value: 600+
+      label: children removed through Pro Juventute's Kinder der Landstrasse program
+    - value: up to 2,000
+      label: estimated wider removals by Pro Juventute, other organisations and authorities
+    - value: 47 years
+      label: from the program's launch in 1926 to its closure in 1973
   context:
-  - The program targeted Yenish families as a group, not only families travelling at the time. Swiss federal anti-racism
-    documentation states that even a Yenish surname could be sufficient and that settled families were also pursued.
-  - The card does not claim that every child-welfare intervention involving a Yenish family was motivated by exactly
-    the same ideology or that every placement was administered directly by the federal government. Pro Juventute
-    was a private foundation, but authorities tolerated, financed and cooperated with the program.
-  - The 1973 endpoint marks closure of the central program, not full institutional correction. Federal apology,
-    archival access, compensation and recognition of the persecution developed over subsequent decades.
+    - >-
+      The program targeted Yenish families as a group, not only families travelling at the time. Swiss federal
+      anti-racism documentation states that even a Yenish surname could be sufficient and that settled families were also pursued.
+    - >-
+      The card does not claim that every child-welfare intervention involving a Yenish family was motivated by exactly
+      the same ideology or that every placement was administered directly by the federal government. Pro Juventute was a
+      private foundation, but authorities tolerated, financed and cooperated with the program.
+    - >-
+      The 1973 endpoint marks closure of the central program, not full institutional correction. Federal apology,
+      archival access, compensation and recognition of the persecution developed over subsequent decades.
 episodes:
-- id: switzerland-1926-1973
-  polity: Switzerland
-  region: Western Europe
-  startYear: 1926
-  endYear: 1973
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - professional
-  institutions:
-  - Pro Juventute — Hilfswerk für die Kinder der Landstrasse
-  - Swiss federal, cantonal and municipal welfare authorities
-  - Guardianship and placement authorities
-  institutionalContext: Pro Juventute created the Kinder der Landstrasse program in 1926 to remove children from
-    Yenish families and break their cultural and family ties. Swiss federal historical and anti-racism sources describe
-    the program as based on racial-biological theories and aimed at dissolving the Yenish community. Authorities
-    helped remove children, withdraw parental rights, appoint guardians and place minors in foster homes, institutions
-    and psychiatric facilities. Media exposure finally forced the program's closure in 1973.
-  consequences:
-  - Removal of more than 600 children from Yenish families through the central Pro Juventute program
-  - Placement of children in foster homes, children's homes, educational institutions and psychiatric facilities
-  - Systematic obstruction of contact between removed children and their families of origin
-  - Loss of language, family knowledge and cultural identity among many removed children
-  - Guardianship, institutional confinement and in some cases forced sterilisation affecting members of the targeted
-    minority
-  - Decades of later archival, compensation and recognition efforts by survivors and Yenish organisations
-  summary: The Swiss program converted group identity into a welfare judgment. Rather than requiring individual
-    proof that a particular family was unsafe, Pro Juventute and cooperating authorities treated Yenish background
-    itself as evidence that children should be separated and assimilated. The program lasted nearly half a century
-    and affected hundreds directly; the Swiss state now describes the policy as systematic persecution rather than
-    child protection.
-  sources:
-  - title: Aktion Kinder der Landstrasse der Pro Juventute
+  - id: switzerland-1926-1973
+    polity: Switzerland
+    region: Western Europe
+    startYear: 1926
+    endYear: 1973
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - professional
+    institutions:
+      - Pro Juventute — Hilfswerk für die Kinder der Landstrasse
+      - Swiss federal, cantonal and municipal welfare authorities
+      - Guardianship and placement authorities
+    institutionalContext: >-
+      Pro Juventute created the Kinder der Landstrasse program in 1926 to remove children from Yenish families and break
+      their cultural and family ties. Swiss federal historical and anti-racism sources describe the program as based on
+      racial-biological theories and aimed at dissolving the Yenish community. Authorities helped remove children,
+      withdraw parental rights, appoint guardians and place minors in foster homes, institutions and psychiatric
+      facilities. Media exposure finally forced the program's closure in 1973.
+    consequences:
+      - Removal of more than 600 children from Yenish families through the central Pro Juventute program
+      - Placement of children in foster homes, children's homes, educational institutions and psychiatric facilities
+      - Systematic obstruction of contact between removed children and their families of origin
+      - Loss of language, family knowledge and cultural identity among many removed children
+      - Guardianship, institutional confinement and in some cases forced sterilisation affecting members of the targeted minority
+      - Decades of later archival, compensation and recognition efforts by survivors and Yenish organisations
+    summary: >-
+      The Swiss program converted group identity into a welfare judgment. Rather than requiring individual proof that a
+      particular family was unsafe, Pro Juventute and cooperating authorities treated Yenish background itself as evidence
+      that children should be separated and assimilated. The program lasted nearly half a century and affected hundreds
+      directly; the Swiss state now describes the policy as systematic persecution rather than child protection.
+    mechanism:
+      kind: enforcement
+      summary: >-
+        Pro Juventute and cooperating guardianship and welfare authorities used child-removal, guardianship and placement
+        powers to separate Yenish children from their families and assimilate them on the basis of group identity.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 1973–1986 onward
+      action: The central program closed in 1973; the Federal Council later apologised for federal support and Swiss federal institutions developed archival, compensation and recognition measures.
+      summary: >-
+        Switzerland later repudiated the policy as persecution and acknowledged state support, but correction unfolded
+        over decades across a mixed network of a private foundation and federal, cantonal and municipal authorities rather
+        than through one uniform institutional act by every carrier.
+sources:
+  - id: yenish-bak
+    title: Aktion Kinder der Landstrasse der Pro Juventute
     url: https://www.bak.admin.ch/de/aktion-kinder-der-landstrasse-der-pro-juventute
     publisher: Swiss Federal Office of Culture
-    note: Federal historical account of the program, the removal of roughly 600 children, wider removals, official
-      cooperation, the 1973 closure and the Federal Council's later recognition and apology.
-  - title: Problematic treatment of the non-sedentary population
+  - id: yenish-federal-archives
+    title: Problematic treatment of the non-sedentary population
     url: https://www.bar.admin.ch/de/problematischer-umgang-mit-der-nicht-sesshaften-bevoelkerung
     publisher: Swiss Federal Archives
-    note: Federal archival account describing systematic removal and re-education of Yenish children, support by
-      federal, cantonal and municipal bodies and the 1986 federal apology.
-  - title: Rassismus gegen Jenische, Sinti/Manouches oder Roma
+  - id: yenish-ekr
+    title: Rassismus gegen Jenische, Sinti/Manouches oder Roma
     url: https://www.ekr.admin.ch/publikationen/d958.html
     publisher: Swiss Federal Commission against Racism
-    note: Federal anti-racism dossier explaining the racial-biological ideology, the targeting of families regardless
-      of actual lifestyle and the program's goal of separating children to dissolve Yenish culture.
+evidence:
+  - id: yenish-ekr-proposition
+    sourceId: yenish-ekr
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Federal anti-racism dossier explaining the racial-biological ideology, the targeting of families regardless of
+      actual lifestyle and the program's goal of separating children to dissolve Yenish culture.
+  - id: yenish-bak-correction
+    sourceId: yenish-bak
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Federal historical account of the program, the removal of roughly 600 children, wider removals, official
+      cooperation, the 1973 closure and the Federal Council's later recognition and apology.
+  - id: yenish-bak-impact
+    sourceId: yenish-bak
+    relation: supports
+    target: {scope: belief, aspect: impact}
+  - id: yenish-federal-archives-carrier
+    sourceId: yenish-federal-archives
+    relation: documents
+    target: {scope: episode, episodeId: switzerland-1926-1973, aspect: carrier}
+    note: >-
+      Federal archival account describing systematic removal and re-education of Yenish children, support by federal,
+      cantonal and municipal bodies and the 1986 federal apology.
+  - id: yenish-federal-archives-mechanism
+    sourceId: yenish-federal-archives
+    relation: documents
+    target: {scope: episode, episodeId: switzerland-1926-1973, aspect: mechanism}
+  - id: yenish-bak-consequences
+    sourceId: yenish-bak
+    relation: supports
+    target: {scope: episode, episodeId: switzerland-1926-1973, aspect: consequences}
+  - id: yenish-federal-archives-partial-correction
+    sourceId: yenish-federal-archives
+    relation: documents
+    target: {scope: episode, episodeId: switzerland-1926-1973, aspect: institutional-correction}

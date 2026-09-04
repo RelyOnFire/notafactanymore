@@ -1,16 +1,69 @@
+schemaVersion: 2
 locale: de
 entryId: race-based-pulmonary-function-reference-values
 sourceReviewedAt: '2026-08-26'
 title: „Rassen“-basierte Referenzwerte der Lungenfunktion
-claim: „Rasse“ oder Ethnizität wurden als Patientenmerkmale behandelt, die bestimmen sollten, welche Referenzgleichungen oder Korrekturfaktoren für die erwarteten Normalwerte der Lungenfunktion verwendet werden.
-currentUnderstanding: „Rasse“ und Ethnizität sind soziale Klassifikationen und keine festen biologischen Variablen, die sich für pauschale physiologische Korrekturen eignen. Die aktuelle ATS-Empfehlung, die von der ERS unterstützt wird, sieht für die Interpretation von Lungenfunktionstests rassenunabhängige durchschnittliche Referenzgleichungen vor und fordert zugleich weitere Forschung zu den Folgen der Umstellung.
+proposition:
+  summary: >-
+    „Rasse“ oder Ethnizität wurden als Patientenmerkmale behandelt, die bestimmen sollten, welche Referenzgleichungen oder
+    Korrekturfaktoren für die erwarteten Normalwerte der Lungenfunktion verwendet werden.
+correction:
+  summary: >-
+    „Rasse“ und Ethnizität sind soziale Klassifikationen und keine festen biologischen Variablen, die sich für pauschale
+    physiologische Korrekturen eignen. Die aktuelle ATS-Empfehlung, die von der ERS unterstützt wird, sieht für die
+    Interpretation von Lungenfunktionstests rassenunabhängige durchschnittliche Referenzgleichungen vor und fordert zugleich
+    weitere Forschung zu den Folgen der Umstellung.
 episodes:
-- id: ats-ers-2005-2023
-  polity: Vereinigte Staaten und Europa
-  institutionalContext: Der gemeinsame ATS/ERS-Standard von 2005 wies darauf hin, dass Patienten ihre „Rasse“ beziehungsweise ethnische Zugehörigkeit angeben sollten, und empfahl nach Möglichkeit gruppenspezifische Referenzgleichungen; Korrekturfaktoren dienten als Ersatzlösung. Diese Referenzwerte beeinflussten, ob gemessene Lungenfunktionswerte als normal oder auffällig eingestuft wurden. Die rassenbezogene Interpretation blieb bis in die frühen 2020er-Jahre Teil fachlicher Standards. 2023 empfahl eine offizielle ATS-Stellungnahme, die von der ERS unterstützt wurde, rassen- und ethniespezifische Gleichungen durch rassenunabhängige durchschnittliche Referenzgleichungen zu ersetzen und zugleich die Verwendung von PFT-Schwellenwerten bei klinischen, arbeitsmedizinischen und versicherungsbezogenen Entscheidungen grundlegend zu überprüfen.
-  summary: ATS/ERS-Standards beschrieben Bevölkerungsunterschiede nicht nur, sondern machten „Rasse“ und Ethnizität zu operativen Variablen der Referenzwerte, anhand derer Lungenfunktionstests interpretiert wurden. Der Standard von 2005 bevorzugte ausdrücklich rassen- beziehungsweise ethniespezifische Gleichungen und erlaubte numerische Korrekturfaktoren, wenn solche Gleichungen fehlten. 2023 kehrte die ATS diesen Ansatz mit Unterstützung der ERS um und empfahl rassenunabhängige Durchschnittsgleichungen, weil neuere Evidenz den angenommenen klinischen Nutzen der rassenbezogenen Interpretation nicht bestätigte und auf mögliche Ungleichbehandlungen hinwies.
-  consequences:
-  - Rassenabhängige Schwellenwerte für die Einstufung von Lungenfunktionswerten als normal oder auffällig
-  - Mögliche verzögerte Erkennung oder geringer eingeschätzte Schwere von Atemwegserkrankungen bei Personen, deren Gruppe niedrigere Referenzwerte erhielt
-  - Rassenabhängige Auswirkungen auf Entscheidungen zu Behandlung, Erwerbsunfähigkeit, Beschäftigung, Versicherung und Transplantationspriorisierung
-  - Notwendige Umstellung von Laborberichten und klinischer Interpretation nach der Empfehlung von 2023
+  - id: ats-ers-2005-2023
+    polity: Vereinigte Staaten und Europa
+    periodLabel: 2005–2023
+    institutions:
+      - American Thoracic Society (ATS)
+      - European Respiratory Society (ERS)
+    institutionalContext: >-
+      Der gemeinsame ATS/ERS-Standard von 2005 wies darauf hin, dass Patienten ihre „Rasse“ beziehungsweise ethnische
+      Zugehörigkeit angeben sollten, und empfahl nach Möglichkeit gruppenspezifische Referenzgleichungen;
+      Korrekturfaktoren dienten als Ersatzlösung. Diese Referenzwerte beeinflussten, ob gemessene Lungenfunktionswerte als
+      normal oder auffällig eingestuft wurden. Die rassenbezogene Interpretation blieb bis in die frühen 2020er-Jahre Teil
+      fachlicher Standards. 2023 empfahl eine offizielle ATS-Stellungnahme, die von der ERS unterstützt wurde,
+      rassen- und ethniespezifische Gleichungen durch rassenunabhängige durchschnittliche Referenzgleichungen zu ersetzen.
+    summary: >-
+      ATS/ERS-Standards beschrieben Bevölkerungsunterschiede nicht nur, sondern machten „Rasse“ und Ethnizität zu
+      operativen Variablen der Referenzwerte, anhand derer Lungenfunktionstests interpretiert wurden. 2023 kehrte die ATS
+      diesen Ansatz mit Unterstützung der ERS um und empfahl rassenunabhängige Durchschnittsgleichungen.
+    consequences:
+      - Rassenabhängige Schwellenwerte für die Einstufung von Lungenfunktionswerten als normal oder auffällig
+      - Mögliche verzögerte Erkennung oder geringer eingeschätzte Schwere von Atemwegserkrankungen bei Personen, deren Gruppe niedrigere Referenzwerte erhielt
+      - Rassenabhängige Auswirkungen auf Entscheidungen zu Behandlung, Erwerbsunfähigkeit, Beschäftigung, Versicherung und Transplantationspriorisierung
+      - Notwendige Umstellung von Laborberichten und klinischer Interpretation nach der Empfehlung von 2023
+    mechanism:
+      summary: >-
+        Gemeinsame Fachstandards wiesen Labore und Kliniker an, rassen- oder ethniespezifische Referenzgleichungen oder
+        numerische Korrekturfaktoren zur Bestimmung erwarteter Normalwerte zu verwenden.
+    institutionalCorrection:
+      periodLabel: '2023'
+      action: Die ATS empfahl in einer von der ERS unterstützten offiziellen Stellungnahme rassenunabhängige durchschnittliche Referenzgleichungen statt rassen- und ethniespezifischer Gleichungen.
+      summary: >-
+        Die Fachgesellschaften kehrten den früheren rassenbezogenen Interpretationsstandard um und empfahlen ausdrücklich
+        einen rassenunabhängigen Rahmen für die Interpretation von Lungenfunktionstests.
+evidence:
+  - id: pft-2005-proposition
+    note: >-
+      Gemeinsamer Interpretationsstandard von 2005, der die Angabe von „Rasse“ oder ethnischer Zugehörigkeit vorsah und
+      nach Möglichkeit gruppenspezifische Referenzgleichungen sowie ersatzweise Korrekturfaktoren empfahl.
+  - id: pft-2023-correction
+    note: >-
+      Offizielle ATS-Stellungnahme von 2023, von der ERS unterstützt, die rassen- und ethniespezifische Gleichungen durch
+      rassenunabhängige Durchschnittsgleichungen ersetzen will und eine Neubewertung klinischer, arbeitsmedizinischer und
+      versicherungsbezogener PFT-Entscheidungen fordert.
+  - id: pft-2005-carrier
+  - id: pft-2005-mechanism
+  - id: pft-ats-consequences
+    note: >-
+      ATS-Zusammenfassung der Korrektur von 2023, einschließlich der Gründe für die Abkehr von rassenbezogenen Gleichungen
+      und möglicher Folgen für Diagnose, Behandlung und andere folgenreiche Entscheidungen.
+  - id: pft-2022-context
+    note: >-
+      Gemeinsamer technischer Standard von 2022, der den ATS/ERS-Rahmen von 2005 und den fachlichen Kontext unmittelbar vor
+      der Empfehlung für rassenunabhängige Gleichungen dokumentiert.
+  - id: pft-2023-institutional-correction

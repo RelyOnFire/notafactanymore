@@ -1,120 +1,218 @@
+schemaVersion: 2
 locale: de
 entryId: anal-examinations-same-sex-conduct
 sourceReviewedAt: '2026-08-24'
 title: Analuntersuchungen als „Beweis“ gleichgeschlechtlichen Verkehrs
-claim: Form, Spannung oder Zustand von Anus und Schließmuskel wurden als körperlicher Nachweis dafür behandelt,
-  dass eine Person rezeptiven Analverkehr gehabt habe.
-currentUnderstanding: Analuntersuchungen können nicht zuverlässig feststellen, ob jemand zuvor einvernehmlichen
-  rezeptiven Analverkehr hatte. Die vermeintlichen forensischen Merkmale gehen auf widerlegte Theorien des 19. Jahrhunderts
-  zurück und besitzen keine wissenschaftlich tragfähige Beweiskraft.
+proposition:
+  summary: >-
+    Form, Spannung oder Zustand von Anus und Schließmuskel wurden als körperlicher Nachweis dafür behandelt, dass eine
+    Person rezeptiven Analverkehr gehabt habe.
+correction:
+  summary: >-
+    Analuntersuchungen können nicht zuverlässig feststellen, ob jemand zuvor einvernehmlichen rezeptiven Analverkehr hatte.
+    Die vermeintlichen forensischen Merkmale gehen auf widerlegte Theorien des 19. Jahrhunderts zurück und besitzen keine
+    wissenschaftlich tragfähige Beweiskraft.
 episodes:
-- id: egypt-2001-2017
-  polity: Ägypten
-  institutions:
-  - Forensic Medicine Authority (مصلحة الطب الشرعي)
-  - Egyptian Public Prosecution (النيابة العامة)
-  - Ministry of Justice (وزارة العدل)
-  institutionalContext: Staatsanwälte überweisen Beschuldigte wegen „Ausschweifung“ zur Untersuchung; die dem Justizministerium
-    unterstehende Forensic Medicine Authority führt die Untersuchungen durch und erstellt Berichte, die vor Gericht
-    als Beweismittel dienen. Die Polizei nimmt Betroffene fest und begleitet sie, doch die entscheidende medizinisch-juristische
-    Kette verläuft von der staatsanwaltlichen Überweisung über die Untersuchung bis zur Verwendung des Berichts im
-    Verfahren. Neuere Belege zeigen, dass diese Praxis weit über 2017 hinaus fortbestand und bis in die
-    2020er-Jahre dokumentiert ist.
-  summary: Ägyptische Staatsanwälte überweisen Männer und trans Frauen, denen „Ausschweifung“ vorgeworfen wird,
-    seit Jahren an die dem Justizministerium unterstehende Forensic Medicine Authority. Dort sollen Analuntersuchungen
-    vermeintliche Beweise für rezeptiven Analverkehr liefern. Die Praxis ist von den Queen-Boat-Verfahren 2001 bis
-    in die 2020er-Jahre dokumentiert. Eine Eingabe aus dem Jahr 2024 erfasste allein zwischen Juli 2019 und Juni 2024
-    45 staatsanwaltliche Überweisungen zu erzwungenen Analuntersuchungen; die daraus entstandenen Gutachten werden
-    trotz fehlender wissenschaftlicher Aussagekraft weiterhin gegen Beschuldigte verwendet.
-  consequences:
-  - Erzwungene Analuntersuchungen
-  - Medizinische Berichte als Beweismittel in Strafverfahren
-  - Verurteilung und Haft wegen einvernehmlicher gleichgeschlechtlicher Handlungen
-  - Grausame, erniedrigende und potenziell folterähnliche Behandlung
-- id: lebanon-2012-2015
-  polity: Libanon
-  institutions:
-  - Staatsanwaltschaft beim Kassationsgericht
-  - Internal Security Forces (ISF)
-  - Libanesischer Ärzteorden
-  institutionalContext: Festnahmen durch die Internal Security Forces führten Verdächtige in ein medizinisch-juristisches
-    Verfahren, in dem Staatsanwälte forensische Analuntersuchungen anordnen konnten. An der Spitze der landesweiten
-    staatsanwaltlichen Hierarchie stand die Staatsanwaltschaft beim Kassationsgericht; ihre Anweisung von 2012 schuf
-    kein vollständiges Verbot, sondern ließ Untersuchungen bei angeblicher Zustimmung zu und wertete eine Verweigerung
-    als belastend. Der libanesische Ärzteorden wies Ärzte dagegen an, solche Tests nicht durchzuführen. Human Rights
-    Watch dokumentierte Untersuchungen oder deren Androhung noch 2014 und 2015.
-  summary: '2012 ordneten libanesische Staatsanwälte bei Männern, die wegen des Verdachts auf homosexuelle Handlungen
-    festgenommen worden waren, forensische Analuntersuchungen an; Untersuchungsergebnisse flossen in Strafverfahren
-    ein. Der libanesische Ärzteorden verurteilte die Tests als medizinisch und wissenschaftlich nutzlos sowie als
-    Form von Folter. Die Praxis endete jedoch nicht sofort: Die staatsanwaltliche Anweisung von 2012 ließ Untersuchungen
-    bei angeblicher Zustimmung weiterhin zu und wertete eine Verweigerung als Beweisanzeichen; Berichte belegen
-    Untersuchungen oder deren Androhung noch bis 2015.'
-  consequences:
-  - Erzwungene Analuntersuchungen
-  - Medizinische Befunde als Grundlage strafrechtlicher Vorwürfe
-  - Grausame und erniedrigende Behandlung
-- id: kenya-2015-2018
-  polity: Kenia
-  institutions:
-  - Chief Magistrate Ukunda Law Courts
-  - DCIO, Msambweni Police Station
-  - Makadara General Hospital, Kwale
-  institutionalContext: In einem Strafverfahren von 2015 beantragte die Staatsanwaltschaft medizinische Untersuchungen,
-    die gleichgeschlechtliche Handlungen belegen sollten; ein Magistratsgericht genehmigte das Vorgehen und ein
-    öffentliches Krankenhaus untersuchte die beiden Männer. Der kenianische Court of Appeal rekonstruierte diese
-    institutionelle Kette und entschied 2018, dass die erzwungenen Analuntersuchungen Grundrechte verletzten und
-    das behauptete Verhalten wissenschaftlich nicht feststellen konnten.
-  summary: Nach der Festnahme zweier Männer in Kwale 2015 erlangten staatliche Ermittler eine richterliche Anordnung
-    und brachten sie zu erzwungenen Untersuchungen in das Makadara General Hospital, die Beweise für gleichgeschlechtliche
-    Handlungen liefern sollten. 2018 entschied der Court of Appeal, dass die Untersuchungen ihre Rechte verletzt
-    hatten. Das Urteil dokumentierte zugleich den medizinischen Einwand, dass Analuntersuchungen das behauptete
-    Verhalten nicht feststellen können – entsprechend dem internationalen medizinischen Konsens.
-  consequences:
-  - Gerichtlich angeordnete erzwungene Analuntersuchungen
-  - Polizeilicher Transport und erzwungene medizinische Untersuchung der Beschuldigten
-  - Verwendung vermeintlicher anatomischer Beweise in einem Strafverfahren
-  - Verletzung von Privatsphäre, Würde und Schutz vor erniedrigender Behandlung
-- id: kazakhstan-2016-2026
-  polity: Kasachstan
-  institutions:
-  - Zentrum für forensische Untersuchungen des Justizministeriums der Republik Kasachstan
-  institutionalContext: Einvernehmliche gleichgeschlechtliche Beziehungen sind in Kasachstan nicht strafbar; die
-    betreffende Methodik ist für Ermittlungen bei Sexualstraftaten vorgesehen. Dennoch weist die forensische Methodik
-    des Justizministeriums Sachverständige an, Anus und Rektum auf vermeintliche Merkmale eines „passiven Partners“
-    zu untersuchen, darunter den Tonus des Schließmuskels, eine trichterförmige oder klaffende Öffnung und geglättete
-    radiäre Falten. Die Methodik wurde im Dezember 2016 vom Wissenschaftlichen Rat des staatlichen forensischen Zentrums
-    genehmigt und wird weiterhin im forensischen System des Justizministeriums veröffentlicht.
-  summary: Das forensische System des kasachischen Justizministeriums führt für Sexualstrafverfahren eine Untersuchungsmethodik,
-    nach der mehrere chronische Veränderungen im Anal- und Rektalbereich als charakteristisch für systematischen
-    rezeptiven Verkehr zwischen Männern gelten sollen. Sachverständige sollen unter anderem den Schließmuskel digital
-    prüfen; als vermeintliche Merkmale werden eine trichterförmige oder klaffende Analöffnung, geglättete Falten,
-    verminderter Schließmuskeltonus und bestimmte Schleimhautfärbungen genannt. Nach heutigem forensischem Konsens
-    lassen sich frühere einvernehmliche rezeptive Analkontakte aus solchen Befunden nicht zuverlässig ableiten.
-  consequences:
-  - Invasive forensische Untersuchung von Anus und Rektum
-  - Wissenschaftlich nicht tragfähige Rückschlüsse auf wiederholten rezeptiven Analverkehr
-  - Potenziell irreführende Sachverständigenbeweise in Strafverfahren
-- id: uzbekistan-2017-2026
-  polity: Usbekistan
-  institutions:
-  - Innenministerium der Republik Usbekistan
-  - Staatliche rechtsmedizinische Sachverständige
-  - Strafgerichte bei Verfahren nach Artikel 120 des Strafgesetzbuchs
-  institutionalContext: Ermittlungsbehörden ordnen bei Männern, die nach Artikel 120 wegen einvernehmlicher gleichgeschlechtlicher
-    Beziehungen verfolgt werden, forensische Analuntersuchungen an. Die dabei erstellten medizinischen Gutachten
-    werden als Beweismittel in Strafverfahren eingebracht; Gerichte stützten sich auf vermeintliche anatomische Zeichen
-    wie geglättete radiäre Falten und verminderten Schließmuskeltonus. Berichte über 2025 sowie eine gemeinsame Erklärung
-    vom Juni 2026 dokumentieren die Praxis weiterhin vor dem Hintergrund einer verschärften Anwendung von Artikel
-    120.
-  summary: Usbekische Ermittlungsbehörden ordnen erzwungene Analuntersuchungen an, um vermeintliche Beweise für Strafverfahren
-    nach Artikel 120 des Strafgesetzbuchs zu gewinnen. In einem dokumentierten Verfahren von 2021 stützte sich ein
-    Taschkenter Gericht unter anderem auf ein rechtsmedizinisches Gutachten, das oberflächliche Verletzungen, geglättete
-    radiäre Falten und verminderten Schließmuskeltonus als Hinweise auf Analverkehr wertete. Die Praxis bestand 2025
-    fort, als zwei Männer in Taschkent gegen ihren Willen forensischen Analuntersuchungen unterzogen worden sein sollen;
-    eine gemeinsame Erklärung mehrerer Organisationen vom Juni 2026 beschreibt unfreiwillige invasive Untersuchungen
-    weiterhin als Teil der Durchsetzung von Artikel 120.
-  consequences:
-  - Erzwungene Analuntersuchungen in Haft
-  - Medizinische Gutachten als Beweismittel für einvernehmliche gleichgeschlechtliche Handlungen
-  - Strafrechtliche Verurteilungen, Hausarrest und Haft
-  - Grausame, erniedrigende und potenziell folterähnliche Behandlung
+  - id: egypt-2001-2017
+    polity: Ägypten
+    periodLabel: 2001–heute
+    institutions:
+      - Forensic Medicine Authority (مصلحة الطب الشرعي)
+      - Egyptian Public Prosecution (النيابة العامة)
+      - Ministry of Justice (وزارة العدل)
+    institutionalContext: >-
+      Staatsanwälte überweisen Beschuldigte wegen „Ausschweifung“ zur Untersuchung; die dem Justizministerium unterstehende
+      Forensic Medicine Authority führt die Untersuchungen durch und erstellt Berichte, die vor Gericht als Beweismittel
+      dienen. Neuere Belege zeigen, dass diese Praxis bis in die 2020er-Jahre fortbestand.
+    summary: >-
+      Ägyptische Staatsanwälte überweisen Männer und trans Frauen wegen „Ausschweifung“ an die Forensic Medicine Authority,
+      wo Analuntersuchungen vermeintliche Beweise für rezeptiven Analverkehr liefern sollen. Die Praxis ist von 2001 bis in
+      die 2020er-Jahre dokumentiert.
+    consequences:
+      - Erzwungene Analuntersuchungen
+      - Medizinische Berichte als Beweismittel in Strafverfahren
+      - Verurteilung und Haft wegen einvernehmlicher gleichgeschlechtlicher Handlungen
+      - Grausame, erniedrigende und potenziell folterähnliche Behandlung
+    mechanism:
+      summary: >-
+        Staatsanwälte überweisen Beschuldigte formell an die Forensik des Justizministeriums, die Untersuchungen zur
+        Ableitung rezeptiven Analverkehrs durchführt und Berichte für Strafverfahren erstellt.
+    institutionalCorrection:
+      periodLabel: 2001–heute
+      action: Eine institutionelle Korrektur ist nicht dokumentiert; Überweisungen und forensische Untersuchungen blieben bis in die 2020er-Jahre in Gebrauch.
+      summary: >-
+        Die medizinisch-juristische Kette bleibt trotz internationaler medizinischer Ablehnung der Methode aktiv.
+  - id: lebanon-2012-2015
+    polity: Libanon
+    periodLabel: 2012–2015
+    institutions:
+      - Staatsanwaltschaft beim Kassationsgericht
+      - Internal Security Forces (ISF)
+      - Libanesischer Ärzteorden
+    institutionalContext: >-
+      Staatsanwälte konnten nach Festnahmen forensische Analuntersuchungen anordnen. Der Ärzteorden wies Ärzte an, solche
+      Tests nicht durchzuführen; die staatsanwaltliche Anweisung von 2012 ließ sie bei angeblicher Zustimmung dennoch zu
+      und wertete Verweigerung als belastend. Untersuchungen oder Drohungen damit wurden noch 2014 und 2015 dokumentiert.
+    summary: >-
+      2012 ordneten libanesische Staatsanwälte Analuntersuchungen an; Ergebnisse flossen in Strafverfahren ein. Der
+      Ärzteorden verwarf die Tests als medizinisch nutzlos und als Folter, doch die Praxis endete nicht sofort.
+    consequences:
+      - Erzwungene Analuntersuchungen
+      - Medizinische Befunde als Grundlage strafrechtlicher Vorwürfe
+      - Grausame und erniedrigende Behandlung
+    mechanism:
+      summary: >-
+        Polizeiliche Festnahmen und staatsanwaltliche Überweisungen führten Verdächtige in forensische Untersuchungen,
+        während medizinische und staatsanwaltliche Institutionen gegensätzliche Regeln zu deren Fortbestand erließen.
+    institutionalCorrection:
+      periodLabel: 2012–2015
+      action: Der libanesische Ärzteorden untersagte Ärzten die Untersuchungen; die Staatsanwaltschaft begrenzte sie, verbot sie aber nicht vollständig.
+      summary: >-
+        Ein institutioneller Träger verwarf die Tests ausdrücklich, doch die staatsanwaltliche Ausnahme und spätere Nutzung
+        machten die Korrektur unvollständig.
+  - id: kenya-2015-2018
+    polity: Kenia
+    periodLabel: 2015–2018
+    institutions:
+      - Chief Magistrate Ukunda Law Courts
+      - DCIO, Msambweni Police Station
+      - Makadara General Hospital, Kwale
+    institutionalContext: >-
+      2015 genehmigte ein Magistratsgericht Untersuchungen, die gleichgeschlechtliche Handlungen belegen sollten; Polizei
+      und öffentliches Krankenhaus setzten sie um. 2018 erklärte der Court of Appeal sie für grundrechtswidrig und
+      wissenschaftlich ungeeignet, das behauptete Verhalten festzustellen.
+    summary: >-
+      Nach der Festnahme zweier Männer in Kwale 2015 brachten Ermittler sie auf richterliche Anordnung zu erzwungenen
+      Untersuchungen. 2018 verwarf der Court of Appeal die Praxis und ihre behauptete Beweiskraft.
+    consequences:
+      - Gerichtlich angeordnete erzwungene Analuntersuchungen
+      - Polizeilicher Transport und erzwungene medizinische Untersuchung der Beschuldigten
+      - Verwendung vermeintlicher anatomischer Beweise in einem Strafverfahren
+      - Verletzung von Privatsphäre, Würde und Schutz vor erniedrigender Behandlung
+    mechanism:
+      summary: >-
+        Polizei und Staatsanwaltschaft erlangten richterliche Genehmigung für erzwungene medizinische Untersuchungen, die
+        ein öffentliches Krankenhaus zur Erzeugung von Strafverfahrensbeweisen durchführte.
+    institutionalCorrection:
+      periodLabel: '2018'
+      action: Der kenianische Court of Appeal entschied, dass erzwungene Analuntersuchungen Grundrechte verletzen und das behauptete gleichgeschlechtliche Verhalten wissenschaftlich nicht feststellen können.
+      summary: >-
+        Die Berufungsjustiz hob die institutionelle Billigung der Zwangsuntersuchung und ihrer behaupteten Beweisgrundlage auf.
+  - id: kazakhstan-2016-2026
+    polity: Kasachstan
+    periodLabel: 2016–heute
+    institutions:
+      - Zentrum für forensische Untersuchungen des Justizministeriums der Republik Kasachstan
+    institutionalContext: >-
+      Die Methodik des Justizministeriums weist Sachverständige an, Anus und Rektum auf vermeintliche Merkmale eines
+      „passiven Partners“ zu untersuchen, darunter Schließmuskeltonus und anatomische Form. Sie wurde 2016 genehmigt und
+      bleibt im staatlichen Forensiksystem veröffentlicht.
+    summary: >-
+      Das forensische System hält eine Methodik aufrecht, die chronische anorektale Merkmale als charakteristisch für
+      systematischen rezeptiven Verkehr zwischen Männern behandelt, obwohl der moderne forensische Konsens diese
+      Rückschlüsse verwirft.
+    consequences:
+      - Invasive forensische Untersuchung von Anus und Rektum
+      - Wissenschaftlich nicht tragfähige Rückschlüsse auf wiederholten rezeptiven Analverkehr
+      - Potenziell irreführende Sachverständigenbeweise in Strafverfahren
+    mechanism:
+      summary: >-
+        Das staatliche Forensikzentrum kodifizierte Untersuchung und Bewertung anorektaler Merkmale in einer amtlichen
+        Methodik zur Schlussfolgerung auf wiederholten rezeptiven Verkehr.
+    institutionalCorrection:
+      periodLabel: 2016–heute
+      action: Eine Korrektur ist nicht dokumentiert; die Methodik bleibt veröffentlicht und aktuelle Handbücher führen entsprechende Sexualforensik weiterhin.
+      summary: >-
+        Der staatliche Forensikrahmen setzt die umstrittene anatomische Inferenz weiterhin operativ ein.
+  - id: uzbekistan-2017-2026
+    polity: Usbekistan
+    periodLabel: 2017–heute
+    institutions:
+      - Innenministerium der Republik Usbekistan
+      - Staatliche rechtsmedizinische Sachverständige
+      - Strafgerichte bei Verfahren nach Artikel 120 des Strafgesetzbuchs
+    institutionalContext: >-
+      Ermittlungsbehörden ordnen bei Männern nach Artikel 120 forensische Analuntersuchungen an. Gutachten werden als
+      Beweismittel verwendet; Berichte für 2025 und 2026 dokumentieren die Praxis weiterhin.
+    summary: >-
+      Usbekische Ermittlungsbehörden ordnen erzwungene Analuntersuchungen an, um vermeintliche Beweise für Verfahren nach
+      Artikel 120 zu gewinnen. Dokumentierte Fälle zeigen, dass anatomische Merkmale als Hinweise auf Analverkehr behandelt
+      und in Strafverfahren genutzt wurden; die Praxis bestand 2025–2026 fort.
+    consequences:
+      - Erzwungene Analuntersuchungen in Haft
+      - Medizinische Gutachten als Beweismittel für einvernehmliche gleichgeschlechtliche Handlungen
+      - Strafrechtliche Verurteilungen, Hausarrest und Haft
+      - Grausame, erniedrigende und potenziell folterähnliche Behandlung
+    mechanism:
+      summary: >-
+        Ermittlungsbehörden ordnen unfreiwillige Untersuchungen an, Sachverständige übersetzen anatomische Befunde in
+        Aussagen über gleichgeschlechtlichen Verkehr, und Gerichte können die Berichte nach Artikel 120 verwerten.
+    institutionalCorrection:
+      periodLabel: 2017–heute
+      action: Eine Korrektur ist nicht dokumentiert; Berichte bis 2026 beschreiben unfreiwillige forensische Untersuchungen weiterhin als Bestandteil der Durchsetzung von Artikel 120.
+      summary: >-
+        Das Strafverfolgungssystem verwendet die wissenschaftlich ungültige Inferenz weiterhin, statt sie formell aufzugeben.
+evidence:
+  - id: anal-hrw-proposition
+    note: >-
+      Dokumentiert Ägyptens langjährige Praxis, staatsanwaltliche Überweisungen an die Forensic Medicine Authority, die
+      Wurzeln der behaupteten Merkmale im 19. Jahrhundert und die Nutzung der Gutachten als Beweismittel.
+  - id: anal-wma-correction
+    note: >-
+      Die WMA erklärt erzwungene Analuntersuchungen unmittelbar für medizinisch ungültig, unwissenschaftlich und nutzlos
+      und fordert Ärzte und Ärzteorganisationen auf, sich nicht daran zu beteiligen.
+  - id: anal-egypt-state-carrier
+    note: >-
+      Berichtet, dass die Staatsanwaltschaft erzwungene Analuntersuchungen anordnete, Behörden Ergebnisse gegen Beschuldigte
+      nutzten und die Forensic Medical Authority die Untersuchungen durchführte.
+  - id: anal-egypt-hrw-mechanism
+  - id: anal-egypt-eipr-consequences
+    note: >-
+      Dokumentiert 93 „debauchery“-Verfahren mit 181 Personen zwischen Juli 2019 und Juni 2024 sowie 45
+      staatsanwaltliche Überweisungen zu erzwungenen Analuntersuchungen.
+  - id: anal-egypt-eipr-ongoing
+  - id: anal-lebanon-carrier
+    note: >-
+      Dokumentiert Festnahmen, staatsanwaltlich angeordnete Untersuchungen, die Verwendung der Ergebnisse, das Verbot des
+      Ärzteordens und die staatsanwaltliche Regelung, die Untersuchungen bei angeblicher Zustimmung weiter zuließ.
+  - id: anal-lebanon-mechanism
+  - id: anal-lebanon-consequences
+    note: >-
+      Dokumentiert, dass Analuntersuchungen oder deren Androhung trotz der medizinischen und menschenrechtlichen Kampagne
+      noch 2014 und 2015 im Libanon eingesetzt wurden.
+  - id: anal-lebanon-context
+    note: >-
+      Überblick über die fehlende wissenschaftliche Aussagekraft sowie die medizinischen und rechtlichen Versuche im Libanon, die Praxis zu beenden.
+  - id: anal-lebanon-partial-correction
+  - id: anal-kenya-carrier
+    note: >-
+      Primäres Berufungsurteil zur Kette aus Magistratsgericht, Polizei und öffentlichem Krankenhaus; es erklärt die
+      erzwungenen Untersuchungen für grundrechtswidrig und dokumentiert den wissenschaftlichen Einwand gegen ihre Beweiskraft.
+  - id: anal-kenya-mechanism
+  - id: anal-kenya-consequences
+  - id: anal-kenya-correction
+  - id: anal-kazakhstan-carrier
+    note: >-
+      Offizielle, 2016 genehmigte Methodik, die Schließmuskeltonus und anorektale Form prüfen lässt und bestimmte chronische
+      Merkmale als charakteristisch für systematisch rezeptive Partner bei männlich-männlichem Verkehr bezeichnet.
+  - id: anal-kazakhstan-mechanism
+  - id: anal-kazakhstan-consequences
+  - id: anal-kazakhstan-ongoing
+    note: >-
+      Aktuelles staatliches Forensikhandbuch für Strafverfolgung und Gerichte, das Untersuchungen männlicher und weiblicher
+      Sexualzustände sowie auf Spuren sexueller Handlungen weiterhin im operativen Forensiksystem führt.
+  - id: anal-uzbekistan-carrier
+    note: >-
+      Dokumentiert mindestens sechs erzwungene Analuntersuchungen 2017–2021 und ein Taschkenter Verfahren von 2021, in dem
+      ein Gutachten mit anatomischen „Zeichen“ zu zweijährigem Hausarrest beitrug.
+  - id: anal-uzbekistan-mechanism
+  - id: anal-uzbekistan-consequences
+    note: >-
+      Berichtet über erzwungene Analuntersuchungen bei nach Artikel 120 Inhaftierten als Beweismittel für gleichgeschlechtliche Handlungen.
+  - id: anal-uzbekistan-2025-context
+    note: >-
+      Berichtet für 2025, dass zwei junge Männer in Taschkent gegen ihren Willen forensischen Analuntersuchungen unterzogen wurden.
+  - id: anal-uzbekistan-ongoing
+    note: >-
+      Gemeinsame Erklärung vom Juni 2026 zur verschärften Anwendung von Artikel 120 und zu unfreiwilligen invasiven
+      Untersuchungen ohne freie und informierte Zustimmung.

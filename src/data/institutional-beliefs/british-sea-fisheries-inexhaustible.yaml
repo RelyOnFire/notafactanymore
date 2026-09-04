@@ -1,63 +1,162 @@
+schemaVersion: 2
 title: British policy and the inexhaustible-sea-fisheries assumption
-entryId: ocean-fisheries-are-inexhaustible
-claim: Britain's major offshore food fisheries were treated as effectively resistant to depletion by contemporary fishing, so broad restrictions on open-sea fishing were considered scientifically unnecessary and economically harmful.
-currentUnderstanding: Marine fish populations can be depleted by fishing when mortality exceeds reproduction, including across very large offshore grounds. Modern fisheries management therefore uses stock assessment, catch limits, gear rules, protected areas and other controls to prevent overfishing and rebuild depleted stocks.
+proposition:
+  summary: >-
+    Britain's major offshore food fisheries were treated as effectively resistant to depletion by contemporary fishing,
+    so broad restrictions on open-sea fishing were considered scientifically unnecessary and economically harmful.
+correction:
+  summary: >-
+    Marine fish populations can be depleted by fishing when mortality exceeds reproduction, including across very large
+    offshore grounds. Modern fisheries management therefore uses stock assessment, catch limits, gear rules, protected
+    areas and other controls to prevent overfishing and rebuild depleted stocks.
 category: Fisheries science and regulation
+entryId: ocean-fisheries-are-inexhaustible
 reviewedAt: '2026-08-27'
 impact:
-  summary: In nineteenth-century Britain, the apparent immensity and fecundity of marine fish became part of government reasoning about regulation. A Royal Commission rejected broad claims that open-sea fishing was causing persistent depletion and recommended repealing many restrictions. That official position remained influential in parliamentary decisions even as fishermen reported local declines.
+  summary: >-
+    In nineteenth-century Britain, the apparent immensity and fecundity of marine fish became part of government reasoning
+    about regulation. A Royal Commission rejected broad claims that open-sea fishing was causing persistent depletion and
+    recommended repealing many restrictions. That official position remained influential in parliamentary decisions even
+    as fishermen reported local declines.
   highlights:
-  - value: '1866'
-    label: Royal Commission recommended repeal of broad restrictions on open-sea fishing
-  - value: '1883'
-    label: Fisheries official T. H. Huxley publicly argued that the great cod, herring and mackerel fisheries were effectively inexhaustible
-  - value: '1885'
-    label: A later commission accepted that trawling could sensibly diminish fish on particular grounds
+    - value: '1866'
+      label: Royal Commission recommended repeal of broad restrictions on open-sea fishing
+    - value: '1883'
+      label: Fisheries official T. H. Huxley publicly argued that the great cod, herring and mackerel fisheries were effectively inexhaustible
+    - value: '1885'
+      label: A later commission accepted that trawling could sensibly diminish fish on particular grounds
   context:
-  - Huxley did not claim that every fishery was inexhaustible. He explicitly accepted that river salmon, oysters and some localized fisheries could be depleted; the institutional proposition concerns the great offshore food fisheries under contemporary methods.
-  - "The evidence establishes a regulatory consequence rather than a direct causal chain to later twentieth-century fishery collapses: because offshore depletion was treated as unproven, the 1866 finding supported deregulation and resistance to proposed restrictions."
+    - >-
+      Huxley did not claim that every fishery was inexhaustible. He explicitly accepted that river salmon, oysters and some
+      localized fisheries could be depleted; the institutional proposition concerns the great offshore food fisheries
+      under contemporary methods.
+    - >-
+      The evidence establishes a regulatory consequence rather than a direct causal chain to later twentieth-century
+      fishery collapses: because offshore depletion was treated as unproven, the 1866 finding supported deregulation and
+      resistance to proposed restrictions.
 episodes:
-- id: united-kingdom-1866-1885
-  polity: United Kingdom
-  region: Northern Europe
-  startYear: 1866
-  endYear: 1885
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - professional
-  institutions:
-  - Royal Commission on the Sea Fisheries of the United Kingdom
-  - British Board of Trade
-  institutionalContext: "The Royal Commission appointed in 1863 and reporting in 1866 investigated whether fish supplies were diminishing, whether fishing methods damaged stocks and whether existing restrictions were justified. It heard reports of local decline but did not regard them as proof of general persistent depletion of the major offshore fisheries and recommended repealing many open-sea restrictions. The conclusion remained operationally important: in 1883 Board of Trade president Joseph Chamberlain cited the 1866 commission when refusing another inquiry and rejecting proposals to prohibit more efficient fishing gear. That same year Thomas Henry Huxley, a commissioner and then Inspector of Fisheries, stated publicly that the great cod, herring, pilchard and mackerel fisheries were effectively inexhaustible under existing fishing methods and that attempts to regulate them were therefore useless."
-  consequences:
-  - Official scientific advice supported repeal of many restrictions governing open-sea fishing
-  - The 1866 findings were later invoked in Parliament to resist renewed restrictions and further inquiry into alleged trawling damage
-  - Fishermen's reports of local depletion and gear conflict were discounted when they did not demonstrate a general decline at the scale demanded by the commission
-  - The episode helped institutionalize a high evidentiary threshold for recognizing fishing-driven depletion before modern stock-assessment methods existed
-  summary: "Britain's nineteenth-century sea-fishery debate became an unusually clear example of a factual proposition entering regulation. The 1866 Royal Commission concluded that reported local deterioration did not establish persistent depletion of the great offshore fisheries and recommended removing many fishing restrictions. Huxley later gave the reasoning its famous form: cod, herring, pilchard, mackerel and probably all the great sea fisheries were effectively inexhaustible under contemporary methods, making regulation scientifically pointless. The position was not irrational for the evidence and technology of the time, but it proved too confident. By 1885 a later commission conceded that trawling could measurably reduce fish on particular grounds, and twentieth-century stock assessment ultimately established that fishing mortality can collapse even enormous marine populations."
-  sources:
-  - title: Report of the Commissioners Appointed to Inquire Into the Sea Fisheries of the United Kingdom
+  - id: united-kingdom-1866-1885
+    polity: United Kingdom
+    region: Northern Europe
+    startYear: 1866
+    endYear: 1885
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - professional
+    institutions:
+      - Royal Commission on the Sea Fisheries of the United Kingdom
+      - British Board of Trade
+    institutionalContext: >-
+      The Royal Commission appointed in 1863 and reporting in 1866 investigated whether fish supplies were diminishing,
+      whether fishing methods damaged stocks and whether existing restrictions were justified. It heard reports of local
+      decline but did not regard them as proof of general persistent depletion of the major offshore fisheries and
+      recommended repealing many open-sea restrictions. The conclusion remained operationally important: in 1883 Board of
+      Trade president Joseph Chamberlain cited the 1866 commission when refusing another inquiry and rejecting proposals to
+      prohibit more efficient fishing gear. That same year Thomas Henry Huxley, a commissioner and then Inspector of
+      Fisheries, stated publicly that the great cod, herring, pilchard and mackerel fisheries were effectively inexhaustible
+      under existing fishing methods and that attempts to regulate them were therefore useless.
+    consequences:
+      - Official scientific advice supported repeal of many restrictions governing open-sea fishing
+      - The 1866 findings were later invoked in Parliament to resist renewed restrictions and further inquiry into alleged trawling damage
+      - Fishermen's reports of local depletion and gear conflict were discounted when they did not demonstrate a general decline at the scale demanded by the commission
+      - The episode helped institutionalize a high evidentiary threshold for recognizing fishing-driven depletion before modern stock-assessment methods existed
+    summary: >-
+      Britain's nineteenth-century sea-fishery debate became an unusually clear example of a factual proposition entering
+      regulation. The 1866 Royal Commission concluded that reported local deterioration did not establish persistent
+      depletion of the great offshore fisheries and recommended removing many fishing restrictions. Huxley later gave the
+      reasoning its famous form: cod, herring, pilchard, mackerel and probably all the great sea fisheries were effectively
+      inexhaustible under contemporary methods, making regulation scientifically pointless. The position was not irrational
+      for the evidence and technology of the time, but it proved too confident. By 1885 a later commission conceded that
+      trawling could measurably reduce fish on particular grounds, and twentieth-century stock assessment ultimately
+      established that fishing mortality can collapse even enormous marine populations.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        A Royal Commission converted its scientific assessment of depletion risk into deregulatory recommendations, and the
+        Board of Trade later relied on those findings when resisting renewed inquiry and restrictions on fishing methods.
+    institutionalCorrection:
+      status: partial
+      periodLabel: '1885'
+      action: A later Royal Commission accepted that beam trawling could sensibly diminish fish on particular fishing grounds.
+      summary: >-
+        British official inquiry retreated from the strongest depletion-resistant premise by 1885, acknowledging that
+        fishing could reduce stocks on particular grounds, but the existing v1 evidence does not show a complete
+        institutional replacement of the broader offshore-fisheries worldview at that date.
+sources:
+  - id: fisheries-1866-report
+    title: Report of the Commissioners Appointed to Inquire Into the Sea Fisheries of the United Kingdom
     url: https://books.google.com/books/about/Report_of_the_Commissioners_Appointed_to.html?id=L2rM0AEACAAJ
     publisher: Great Britain, 1866
-    note: Bibliographic record for the official Royal Commission report that investigated whether sea-fish supplies were declining, whether fishing methods were harmful and whether regulatory restrictions were justified.
-  - title: The rise and fall of inexhaustible seas
+  - id: fisheries-inexhaustible-history
+    title: The rise and fall of inexhaustible seas
     url: https://link.springer.com/article/10.1007/s40152-026-00512-w
     publisher: Maritime Studies
-    note: Recent historical analysis of the 1866 commission showing that it heard evidence of local decline but did not treat it as proof of general offshore depletion and recommended repeal of many restrictions.
-  - title: Inaugural Address, Fisheries Exhibition, London
+  - id: fisheries-huxley-1883
+    title: Inaugural Address, Fisheries Exhibition, London
     url: https://mathcs.clarku.edu/huxley/SM5/fish.html
     publisher: Thomas Henry Huxley archive, Clark University
-    note: Huxley's 1883 primary text carefully distinguishes exhaustible salmon and oyster fisheries from major offshore fisheries, then argues that cod, herring, pilchard and mackerel fisheries were effectively inexhaustible and that regulation was therefore useless.
-  - title: Fisheries — Trawlers, House of Commons, 30 April 1883
+  - id: fisheries-hansard-1883
+    title: Fisheries — Trawlers, House of Commons, 30 April 1883
     url: https://api.parliament.uk/historic-hansard/commons/1883/apr/30/fisheries-trawlers
     publisher: UK Parliament, Hansard
-    note: Board of Trade president Joseph Chamberlain explicitly invoked the 1866 Royal Commission when rejecting renewed inquiry and saying government could not prohibit more efficient fishing machinery on behalf of older methods.
-  - title: Sea Fisheries Bill — Second Reading, House of Lords, 21 May 1885
+  - id: fisheries-hansard-1885
+    title: Sea Fisheries Bill — Second Reading, House of Lords, 21 May 1885
     url: https://api.parliament.uk/historic-hansard/lords/1885/may/21/second-reading
     publisher: UK Parliament, Hansard
-    note: Parliamentary summary contrasts the 1866 conclusion with the 1885 commission, which accepted that fish on particular grounds could be sensibly diminished by beam trawling.
-  - title: Status of Stocks
+  - id: fisheries-noaa
+    title: Status of Stocks
     url: https://www.fisheries.noaa.gov/national/sustainable-fisheries/status-stocks-reports
     publisher: NOAA Fisheries
-    note: Modern stock-management framework documenting that fishing can cause overfishing and depleted stocks and that management measures can rebuild them.
+evidence:
+  - id: fisheries-huxley-proposition
+    sourceId: fisheries-huxley-1883
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Huxley's 1883 primary text carefully distinguishes exhaustible salmon and oyster fisheries from major offshore
+      fisheries, then argues that cod, herring, pilchard and mackerel fisheries were effectively inexhaustible and that
+      regulation was therefore useless.
+  - id: fisheries-noaa-correction
+    sourceId: fisheries-noaa
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Modern stock-management framework documenting that fishing can cause overfishing and depleted stocks and that
+      management measures can rebuild them.
+  - id: fisheries-history-impact
+    sourceId: fisheries-inexhaustible-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Recent historical analysis of the 1866 commission showing that it heard evidence of local decline but did not treat
+      it as proof of general offshore depletion and recommended repeal of many restrictions.
+  - id: fisheries-1866-carrier
+    sourceId: fisheries-1866-report
+    relation: documents
+    target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: carrier}
+    note: >-
+      Bibliographic record for the official Royal Commission report that investigated whether sea-fish supplies were
+      declining, whether fishing methods were harmful and whether regulatory restrictions were justified.
+  - id: fisheries-hansard-mechanism
+    sourceId: fisheries-hansard-1883
+    relation: documents
+    target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: mechanism}
+    note: >-
+      Board of Trade president Joseph Chamberlain explicitly invoked the 1866 Royal Commission when rejecting renewed
+      inquiry and saying government could not prohibit more efficient fishing machinery on behalf of older methods.
+  - id: fisheries-history-consequences
+    sourceId: fisheries-inexhaustible-history
+    relation: supports
+    target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: consequences}
+  - id: fisheries-huxley-context
+    sourceId: fisheries-huxley-1883
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: context}
+  - id: fisheries-1885-institutional-correction
+    sourceId: fisheries-hansard-1885
+    relation: documents
+    target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: institutional-correction}
+    note: >-
+      Parliamentary summary contrasts the 1866 conclusion with the 1885 commission, which accepted that fish on
+      particular grounds could be sensibly diminished by beam trawling.

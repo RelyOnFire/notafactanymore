@@ -1,428 +1,703 @@
+schemaVersion: 2
 title: Virginity testing
-claim: Examination of the hymen or vagina was treated as capable of determining whether a woman or girl had previously
-  had vaginal intercourse.
-currentUnderstanding: No physical examination can establish whether a woman or girl has previously had vaginal intercourse.
-  Hymenal appearance varies normally and is not a reliable record of sexual activity; so-called virginity or two-finger
-  tests have no scientific or clinical validity.
+proposition:
+  summary: >-
+    Examination of the hymen or vagina was treated as capable of determining whether a woman or girl had previously had vaginal intercourse.
+correction:
+  summary: >-
+    No physical examination can establish whether a woman or girl has previously had vaginal intercourse. Hymenal appearance
+    varies normally and is not a reliable record of sexual activity; so-called virginity or two-finger tests have no
+    scientific or clinical validity.
 category: Forensic medicine and sexuality
 reviewedAt: '2026-08-24'
 episodes:
-- id: turkey-1986-1998
-  polity: Turkey
-  region: Middle East
-  startYear: 1986
-  endYear: 1998
-  periodLabel: 1986–1998
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  - education
-  institutions:
-  - Police and gendarmerie
-  - State forensic-medicine services and hospitals
-  - State schools and dormitories
-  consequences:
-  - Forced genital examinations
-  - Use of supposed “virginity” as evidence in policing
-  - Surveillance and punishment of women and girls
-  - Psychological and physical harm
-  summary: Turkish police, gendarmes, schools, dormitories, and other state institutions ordered or facilitated
-    examinations intended to determine women's and girls' “virginity.” State forensic doctors performed such examinations
-    in cases involving detainees, suspected prostitution, school discipline, and public morality. A government regulation
-    in late 1998 prohibited virginity testing unless requested by the woman.
-  sources:
-  - title: A Matter of Power — State Control of Women's Virginity in Turkey
-    url: https://www.hrw.org/report/1994/06/01/matter-power/state-control-womens-virginity-turkey
-    publisher: Human Rights Watch
-    note: Documents state-ordered virginity examinations from the 1980s and early 1990s involving police, forensic
-      doctors, schools, dormitories, hospitals, and detainees.
-  - title: 1999 Country Report on Human Rights Practices — Turkey
-    url: https://www.refworld.org/reference/annualreport/usdos/2000/en/39698
-    publisher: U.S. Department of State, via UNHCR Refworld
-    note: Records that a late-1998 Turkish government regulation prohibited the traditional practice of virginity
-      testing unless requested by a woman. This healthy Refworld copy replaces the now-broken legacy State Department
-      URL.
-  - &id001
+  - id: turkey-1986-1998
+    polity: Turkey
+    region: Middle East
+    startYear: 1986
+    endYear: 1998
+    periodLabel: 1986–1998
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+      - education
+    institutions:
+      - Police and gendarmerie
+      - State forensic-medicine services and hospitals
+      - State schools and dormitories
+    consequences:
+      - Forced genital examinations
+      - Use of supposed “virginity” as evidence in policing
+      - Surveillance and punishment of women and girls
+      - Psychological and physical harm
+    summary: >-
+      Turkish police, gendarmes, schools, dormitories, and other state institutions ordered or facilitated examinations
+      intended to determine women's and girls' “virginity.” State forensic doctors performed such examinations in cases
+      involving detainees, suspected prostitution, school discipline, and public morality. A government regulation in late
+      1998 prohibited virginity testing unless requested by the woman.
+    mechanism:
+      kind: enforcement
+      summary: >-
+        Police, schools, dormitories and other state bodies ordered or facilitated genital examinations, while state
+        forensic doctors performed them to generate official judgments about “virginity.”
+    institutionalCorrection:
+      status: partial
+      periodLabel: late 1998
+      action: A Turkish government regulation prohibited virginity testing unless requested by the woman.
+      summary: >-
+        The regulation restricted compulsory state use but, on the v1 evidence, did not itself repudiate the underlying
+        proposition that an examination could determine virginity; the correction was therefore incomplete.
+  - id: iran-2002-2026
+    polity: Iran
+    region: Middle East
+    startYear: 2002
+    endYear: 2026
+    endOpen: true
+    periodLabel: 2002–present
+    strength: policy-basis
+    institutionTypes:
+      - court
+      - medical
+    institutions:
+      - Legal Medicine Organization of Iran (LMOI)
+      - Judiciary of the Islamic Republic of Iran
+    institutionalContext: >-
+      The Legal Medicine Organization is an official body of Iran's judiciary and its medico-legal centers provide expert
+      reports when requested by courts and judges. Research conducted inside Iranian forensic centers describes virginity
+      examinations as being performed on civil and criminal court orders as well as for other formal medico-legal purposes.
+      A 2026 country review still reports that authorities may attempt virginity testing in some cases; no nationwide
+      abolition is documented.
+    consequences:
+      - Court-ordered hymenal examinations
+      - Forensic certificates and reports used in civil and criminal matters
+      - Decisions concerning marriage, divorce, welfare placement, and alleged sexual activity
+      - Psychological and social harm, including risk of violence and self-harm
+    summary: >-
+      Iranian medico-legal centers have performed hymenal examinations intended to determine “virginity” for formal legal
+      purposes. A study involving experienced examiners from Tehran forensic centers states that the tests are performed on
+      civil and criminal court orders and documents applications involving marriage, divorce, welfare placement, alleged
+      sexual assault, and certificates of virginity. Modern evidence establishes that hymenal appearance cannot determine a
+      history of intercourse, but the accessible record does not show a nationwide Iranian abolition of the practice.
+    mechanism:
+      kind: enforcement
+      summary: >-
+        Courts and judges request medico-legal examinations from the judiciary's forensic system, which examines hymenal
+        condition and issues expert reports for civil and criminal legal purposes.
+    institutionalCorrection:
+      status: ongoing
+      periodLabel: 2002–present
+      action: No nationwide institutional abolition is documented; recent country evidence still reports that authorities may attempt virginity testing in some cases.
+      summary: >-
+        The existing v1 record continues to document official medico-legal use and does not identify a carrier-level
+        scientific or legal repudiation of the practice.
+  - id: india-2005-2013
+    polity: India
+    region: South Asia
+    startYear: 2005
+    endYear: 2013
+    periodLabel: 2005–2013
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - court
+      - medical
+      - education
+    institutions:
+      - Government hospitals and medico-legal services
+      - Forensic-medicine training and textbooks
+      - Criminal courts using medico-legal reports
+    consequences:
+      - Invasive examinations of rape survivors
+      - Sexual-history judgments in medico-legal reports
+      - Evidence used to challenge credibility or imply consent
+      - Re-traumatization of survivors
+    summary: >-
+      Indian forensic-medicine teaching and public hospitals continued to use the two-finger test to judge whether rape
+      survivors were “habituated to sexual intercourse.” Medical findings about hymenal condition and vaginal laxity entered
+      medico-legal reports and could be used in court to attack a survivor's credibility or imply consent. The Supreme Court
+      rejected the practice in 2013, and national health guidelines subsequently instructed examiners not to perform it or
+      comment on past sexual experience.
+    mechanism:
+      kind: standard-setting
+      summary: >-
+        Forensic-medicine teaching, examination forms and public-hospital practice standardized digital and hymenal
+        examinations and converted their results into medico-legal statements about sexual history.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 2013 onward
+      action: The Supreme Court rejected the two-finger test in 2013, and national health guidelines prohibited it and stated that hymenal status cannot prove previous intercourse.
+      summary: >-
+        India’s judicial and health institutions explicitly rejected both the invasive procedure and its claimed
+        evidentiary inference about prior sexual activity.
+  - id: indonesia-2014-2022
+    polity: Indonesia
+    region: Southeast Asia
+    startYear: 2014
+    endYear: 2022
+    periodLabel: 2014–2022
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+      - military
+    institutions:
+      - Indonesian National Police (Polri)
+      - Police Medical and Health Center (Pusdokkes Polri)
+      - Indonesian National Armed Forces (TNI)
+      - Indonesian Army (TNI AD)
+      - Indonesian Navy (TNI AL)
+      - Indonesian Air Force (TNI AU)
+    institutionalContext: >-
+      In the police recruitment system, Human Rights Watch identified the National Police regulation and Pusdokkes Polri
+      personnel as part of the testing machinery. In the military, all three service branches had used the practice. The
+      Army began ending it in 2021; in 2022 the military announced that the Army, Navy, and Air Force had all effectively
+      ended the tests for recruitment.
+    consequences:
+      - Invasive examinations of female recruits
+      - Sex discrimination in public employment
+      - Psychological and physical harm
+    summary: >-
+      In 2014, Indonesia's police recruitment system still subjected female applicants to “virginity tests,” including the
+      discredited two-finger examination; Pusdokkes Polri personnel conducted the examinations in police medical facilities.
+      Human Rights Watch also documented the practice across all three armed-forces branches. The Army began ending the
+      practice in 2021, and in April 2022 an armed-forces spokesperson announced that all three military branches had
+      effectively ended virginity testing for recruitment.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Police and military recruitment systems incorporated invasive “virginity” examinations into medical screening of
+        female applicants and recruits.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 2021–2022
+      action: The Army began ending virginity testing in 2021, and in April 2022 the armed forces announced that Army, Navy and Air Force had effectively ended it for recruitment.
+      summary: >-
+        The military carriers corrected their recruitment practice, but the v1 record does not establish an equivalent
+        institutional reversal by the National Police, so the episode as a whole is only partially corrected.
+  - id: kazakhstan-2025-2026
+    polity: Kazakhstan
+    region: Central Asia
+    startYear: 2016
+    endYear: 2026
+    endOpen: true
+    periodLabel: 2016–present
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+    institutions:
+      - Center for Forensic Examinations, Ministry of Justice of the Republic of Kazakhstan
+    institutionalContext: >-
+      A Ministry of Justice forensic methodology approved in December 2016 and later published by the state forensic centre
+      defines examinations of female “sexual states” as including determination of sexual inviolability and whether previous
+      sexual intercourse occurred. The same methodology acknowledges that intercourse can occur without disruption of the
+      hymen, yet retains hymenal and genital examination within an expert task aimed at inferring prior intercourse. The
+      methodology remains published by the state forensic centre as part of its current methodological materials.
+    consequences:
+      - Forensic genital examinations intended to infer prior sexual intercourse
+      - Use of hymenal condition and injuries within a state evidentiary methodology
+      - Potential influence on criminal and civil proceedings through medico-legal conclusions
+      - Continuation of a scientifically invalid virginity inference in an official forensic framework
+    summary: >-
+      Kazakhstan's Ministry of Justice forensic centre uses a methodology approved in 2016 for examining female sexual
+      states that includes determining “sexual inviolability” and establishing whether previous intercourse occurred. The
+      document instructs direct genital and hymenal examination while also acknowledging that intercourse may occur without
+      hymenal rupture. WHO states that hymenal appearance cannot establish prior vaginal intercourse and that no examination
+      can prove a history of intercourse.
+    mechanism:
+      kind: standard-setting
+      summary: >-
+        The state forensic centre codified genital and hymenal examination in an official methodology whose expert tasks
+        include determining sexual inviolability and whether previous intercourse occurred.
+    institutionalCorrection:
+      status: ongoing
+      periodLabel: 2016–present
+      action: No correction is documented; the 2016 methodology remains published within the state forensic centre's current methodological materials.
+      summary: >-
+        The carrier continues to maintain an official framework for inferring prior intercourse from genital and hymenal examination.
+  - id: bangladesh-2013-2018
+    polity: Bangladesh
+    region: South Asia
+    startYear: 2013
+    endYear: 2018
+    periodLabel: 2013–2018
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - court
+      - medical
+    institutions:
+      - Ministry of Health and Family Welfare
+      - Directorate General of Health Services
+      - Dhaka Medical College Hospital, Department of Forensic Medicine
+      - Bangabandhu Sheikh Mujib Medical University, Department of Forensic Medicine
+      - Sir Salimullah Medical College & Hospital, Department of Forensic Medicine
+      - Shaheed Suhrawardy Medical College & Hospital, Department of Forensic Medicine
+      - Chittagong Medical College, Department of Forensic Medicine
+    institutionalContext: >-
+      The 2013 High Court litigation documented physicians in medical colleges across Bangladesh using the two-finger test
+      on women and girls reporting rape. In November 2017, heads of five forensic-medicine departments told the court the
+      test was necessary. In March 2018 the Ministry of Health and Family Welfare itself stated that finger testing and
+      assessment of the hymen were regularly used to determine whether a sexual act had occurred. The ministry withdrew
+      that position the following month, and the High Court prohibited the practice.
+    consequences:
+      - Invasive genital examinations of rape survivors
+      - Medico-legal conclusions about prior sexual activity
+      - Evidence capable of affecting rape investigations and trials
+      - Humiliation, re-traumatization and violation of bodily dignity
+    summary: >-
+      Bangladesh's medico-legal system used the two-finger test and hymenal examination on women and girls who reported
+      rape. In March 2018 the Health Ministry told the High Court that the tests were regularly used to determine whether
+      sexual intercourse had occurred. In April the ministry withdrew that position, and on 12 April 2018 the High Court
+      declared the two-finger test unscientific, unreliable and invalid and prohibited it in examinations of rape victims.
+    mechanism:
+      kind: standard-setting
+      summary: >-
+        Forensic-medicine departments and the health system used finger and hymenal examinations as standard medico-legal
+        tools for deciding whether sexual intercourse had occurred.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: April 2018
+      action: The Health Ministry withdrew its defence of the tests and the High Court declared the two-finger test unscientific, unreliable and invalid and prohibited it in examinations of rape victims.
+      summary: >-
+        The health and judicial system explicitly reversed the claimed evidentiary validity and prohibited the practice.
+  - id: pakistan-2015-2021
+    polity: Pakistan
+    region: South Asia
+    startYear: 2015
+    endYear: 2021
+    periodLabel: 2015–2021
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - court
+      - medical
+    institutions:
+      - Surgeon Medico Legal Punjab
+      - Punjab Health Department
+      - Lahore High Court
+      - Ministry of Law and Justice, Government of Pakistan
+    institutionalContext: >-
+      Punjab's 2015 medico-legal instructions mandated digital and hymenal examination in rape and sexual-abuse cases for
+      purposes that included ascertaining virginity. The federal government formally rejected the test in 2020. In January
+      2021 the Lahore High Court declared two-finger and hymen tests for determining virginity illegal and unconstitutional
+      and invalidated the relevant portions of the 2015 instructions and later guidelines. Parliament's Anti-Rape
+      (Investigation and Trial) Act 2021 then prohibited two-finger virginity testing and removed its probative value.
+    consequences:
+      - Invasive genital examinations of sexual-violence survivors
+      - Official medico-legal judgments about virginity and sexual history
+      - Potential use of those conclusions in criminal proceedings
+      - Violation of dignity, privacy and bodily integrity
+    summary: >-
+      Official medico-legal instructions in Punjab incorporated digital and hymenal examinations intended to ascertain the
+      virginity of rape and sexual-abuse victims. By 2020 the federal government had formally rejected the practice as
+      inconclusive and incompatible with dignity. In January 2021 the Lahore High Court struck down the tests, and the
+      Anti-Rape (Investigation and Trial) Act 2021 subsequently prohibited two-finger virginity testing and removed its
+      probative value nationwide.
+    mechanism:
+      kind: standard-setting
+      summary: >-
+        Provincial medico-legal instructions made digital and hymenal examination part of official sexual-violence
+        examination practice and allowed conclusions about virginity to enter criminal proceedings.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 2020–2021
+      action: The federal government rejected the test, the Lahore High Court struck down the relevant medico-legal rules, and the Anti-Rape Act 2021 prohibited two-finger virginity testing and removed its probative value.
+      summary: >-
+        Pakistan's executive, judicial and legislative institutions expressly rejected the practice and its evidentiary value.
+  - id: georgia-2018-2026
+    polity: Georgia
+    region: Caucasus
+    startYear: 2018
+    endYear: 2026
+    endOpen: true
+    periodLabel: 2018–present
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - court
+      - medical
+    institutions:
+      - Levan Samkharauli National Forensics Bureau
+      - Ministry of Internal Affairs of Georgia
+      - Prosecutor's Office of Georgia
+      - Common Courts of Georgia
+    institutionalContext: >-
+      The Public Defender's review of criminal cases from 2018–2020 found investigators repeatedly ordering state forensic
+      examinations focused on hymenal integrity, including cases in which the child's allegation did not involve
+      penetration. Georgia's 2025 government report to GREVIO confirms that the current state forensic procedure for sexual
+      acts, defined by Government Resolution No. 14 of 16 January 2023, still includes determining hymenal integrity and the
+      age of any disruption.
+    consequences:
+      - Forensic genital examinations of sexual-violence victims, including children
+      - Scientifically invalid inferences from hymenal condition
+      - Medical reports used as important evidence in criminal investigations and trials
+      - Secondary victimization and potential distortion of credibility or penetration findings
+    summary: >-
+      Georgian investigators and courts have treated hymenal condition as significant forensic evidence in sexual-violence
+      cases. A Public Defender study documented repeated orders to examine hymenal integrity and showed that such findings
+      could affect credibility and case assessment. The government reported in 2025 that the formal state forensic
+      procedure still includes determining hymenal integrity; no subsequent institutional abolition is documented.
+    mechanism:
+      kind: standard-setting
+      summary: >-
+        State investigation and forensic rules direct experts to determine hymenal integrity and the age of disruption and
+        feed those findings into sexual-violence investigations and court proceedings.
+    institutionalCorrection:
+      status: ongoing
+      periodLabel: 2018–present
+      action: No abolition is documented; Georgia's 2025 state report confirms that the formal forensic procedure still includes determining hymenal integrity.
+      summary: >-
+        The current state forensic framework continues to assign evidentiary significance to hymenal integrity despite the
+        documented absence of scientific validity for virginity inference.
+  - id: tajikistan-2016-2026
+    polity: Tajikistan
+    region: Central Asia
+    startYear: 2016
+    endYear: 2026
+    endOpen: true
+    periodLabel: 2016–present
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+    institutions:
+      - National Centre of Forensic Medicine
+      - Ministry of Health and Social Protection of the Population of Tajikistan
+    institutionalContext: >-
+      Tajikistan's 2016 Family Code amendments established mandatory pre-marital medical examinations, and the United
+      Nations Common Country Analysis records cases in which those examinations were used for virginity testing; it also
+      reports that the state forensic centre checks the virginity of about 600 girls annually. Tajikistan later prohibited
+      ordinary virginity tests in medical facilities, but during the country's 2024 CEDAW review its own delegation stated
+      that authorities including the National Centre of Forensic Medicine remain authorized to conduct the checks in criminal investigations.
+    consequences:
+      - State forensic genital examinations intended to determine virginity
+      - Use in criminal investigations despite absence of scientific validity
+      - Potential legal and social consequences from forensic certificates
+      - Psychological, reputational and family harm
+    summary: >-
+      Tajikistan has restricted ordinary medical virginity testing but retains an explicit forensic exception. A current UN
+      country analysis reports substantial state-forensic use, while Tajikistan's own delegation told CEDAW in 2024 that
+      the National Centre of Forensic Medicine remains authorized to perform the checks in criminal investigations. This
+      preserves an official forensic use of an examination that cannot establish whether vaginal intercourse has occurred.
+    mechanism:
+      kind: enforcement
+      summary: >-
+        State medico-legal institutions perform genital examinations intended to determine virginity, including within
+        criminal investigations where the forensic exception remains authorized.
+    institutionalCorrection:
+      status: partial
+      periodLabel: by 2024
+      action: Tajikistan prohibited ordinary virginity tests in medical facilities but retained authorization for the National Centre of Forensic Medicine and other authorities to conduct them in criminal investigations.
+      summary: >-
+        The state restricted the practice in ordinary medical settings while preserving an official forensic exception,
+        so the underlying institutional inference remains only partially corrected.
+sources:
+  - id: virginity-who
     title: Eliminating virginity testing — an interagency statement
     url: https://www.who.int/publications/i/item/WHO-RHR-18.15
     publisher: World Health Organization
-    note: States that hymenal appearance is not a reliable indication of intercourse and that no known examination
-      can prove a history of vaginal intercourse.
-- id: iran-2002-2026
-  polity: Iran
-  region: Middle East
-  startYear: 2002
-  endYear: 2026
-  endOpen: true
-  periodLabel: 2002–present
-  strength: policy-basis
-  institutionTypes:
-  - court
-  - medical
-  institutions:
-  - Legal Medicine Organization of Iran (LMOI)
-  - Judiciary of the Islamic Republic of Iran
-  institutionalContext: The Legal Medicine Organization is an official body of Iran's judiciary and its medico-legal
-    centers provide expert reports when requested by courts and judges. Research conducted inside Iranian forensic
-    centers describes virginity examinations as being performed on civil and criminal court orders as well as for
-    other formal medico-legal purposes. A 2026 country review still reports that authorities may attempt virginity testing in some cases; no
-    nationwide abolition is documented.
-  consequences:
-  - Court-ordered hymenal examinations
-  - Forensic certificates and reports used in civil and criminal matters
-  - Decisions concerning marriage, divorce, welfare placement, and alleged sexual activity
-  - Psychological and social harm, including risk of violence and self-harm
-  summary: Iranian medico-legal centers have performed hymenal examinations intended to determine “virginity” for
-    formal legal purposes. A study involving experienced examiners from Tehran forensic centers, including researchers
-    affiliated with the Legal Medicine Organization of Iran, states that the tests are performed on civil and criminal
-    court orders and documents applications involving marriage, divorce, welfare placement, alleged sexual assault,
-    and certificates of virginity. The same examiners expressed uncertainty about the accuracy and certainty of
-    the diagnosis. Modern evidence establishes that hymenal appearance cannot determine a history of intercourse,
-    but the accessible record does not show a nationwide Iranian abolition of the practice.
-  sources:
-  - title: Virginity Testing Beyond a Medical Examination
+  - id: virginity-turkey-hrw
+    title: A Matter of Power — State Control of Women's Virginity in Turkey
+    url: https://www.hrw.org/report/1994/06/01/matter-power/state-control-womens-virginity-turkey
+    publisher: Human Rights Watch
+  - id: virginity-turkey-1999
+    title: 1999 Country Report on Human Rights Practices — Turkey
+    url: https://www.refworld.org/reference/annualreport/usdos/2000/en/39698
+    publisher: U.S. Department of State, via UNHCR Refworld
+  - id: virginity-iran-study
+    title: Virginity Testing Beyond a Medical Examination
     url: https://www.ccsenet.org/journal/index.php/gjhs/article/view/52613
     publisher: Global Journal of Health Science
-    note: Publisher-hosted article replacing the intermittently blocked PMC rendering. The Iranian study was conducted
-      in forensic medical centers and governmental gynecology clinics in Tehran and states that forensic centers
-      perform virginity testing on civil and criminal court orders.
-  - title: Modern forensic medicine and the medico-legal system in Iran
+  - id: virginity-iran-system
+    title: Modern forensic medicine and the medico-legal system in Iran
     url: https://pubmed.ncbi.nlm.nih.gov/15274958/
     publisher: Journal of Clinical Forensic Medicine
-    note: Describes the Legal Medicine Organization as an official body of Iran's judiciary whose medico-legal centers
-      provide expert forensic reports when requested by courts, judges, and administrative authorities.
-  - title: Country policy and information note — Zina, Iran, April 2026
+  - id: virginity-iran-2026
+    title: Country policy and information note — Zina, Iran, April 2026
     url: https://www.gov.uk/government/publications/iran-country-policy-and-information-notes/country-policy-and-information-note-zina-sex-outside-of-marriage-and-adultery-iran-april-2026-accessible
     publisher: UK Home Office
-    note: Recent country review reports that Iranian authorities may attempt virginity tests on young women arrested
-      in some circumstances, while noting that the available evidence does not show the practice to be prevalent.
-  - *id001
-- id: india-2005-2013
-  polity: India
-  region: South Asia
-  startYear: 2005
-  endYear: 2013
-  periodLabel: 2005–2013
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - court
-  - medical
-  - education
-  institutions:
-  - Government hospitals and medico-legal services
-  - Forensic-medicine training and textbooks
-  - Criminal courts using medico-legal reports
-  consequences:
-  - Invasive examinations of rape survivors
-  - Sexual-history judgments in medico-legal reports
-  - Evidence used to challenge credibility or imply consent
-  - Re-traumatization of survivors
-  summary: Indian forensic-medicine teaching and public hospitals continued to use the two-finger test to judge
-    whether rape survivors were “habituated to sexual intercourse.” Medical findings about hymenal condition and
-    vaginal laxity entered medico-legal reports and could be used in court to attack a survivor's credibility or
-    imply consent. The Supreme Court rejected the practice in 2013, and national health guidelines subsequently
-    instructed examiners not to perform it or comment on past sexual experience.
-  sources:
-  - title: Dignity on Trial — India's Need for Sound Standards for Conducting and Interpreting Forensic Examinations
-      of Rape Survivors
+  - id: virginity-india-hrw
+    title: Dignity on Trial — India's Need for Sound Standards for Conducting and Interpreting Forensic Examinations of Rape Survivors
     url: https://www.hrw.org/report/2010/09/06/dignity-trial/indias-need-sound-standards-conducting-and-interpreting-forensic
     publisher: Human Rights Watch
-    note: Documents widespread institutional use of the test, its prescription in 2005 and 2007 forensic-medicine
-      textbooks, public-hospital examination forms, and court reliance on supposed signs of sexual habituation.
-  - title: State of Jharkhand v. Shailendra Kumar Rai @ Pandav Rai
+  - id: virginity-india-2022
+    title: State of Jharkhand v. Shailendra Kumar Rai @ Pandav Rai
     url: https://api.sci.gov.in/supremecourt/2018/36909/36909_2018_2_1501_39222_Judgement_31-Oct-2022.pdf
     publisher: Supreme Court of India
-    note: Primary 2022 judgment quoting the Ministry of Health and Family Welfare guidelines that prohibit the two-finger
-      test and state that hymenal status cannot prove previous intercourse; the Court ordered the guidelines circulated
-      to all government and private hospitals.
-  - title: Supreme Court of India — Lillu @ Rajesh and Anr. v. State of Haryana
+  - id: virginity-india-2013
+    title: Supreme Court of India — Lillu @ Rajesh and Anr. v. State of Haryana
     url: https://api.sci.gov.in/jonew/judis/40308.pdf
     publisher: Supreme Court of India
-    note: 2013 judgment rejecting the two-finger test as violating survivors' privacy, physical and mental integrity,
-      and dignity.
-- id: indonesia-2014-2022
-  polity: Indonesia
-  region: Southeast Asia
-  startYear: 2014
-  endYear: 2022
-  periodLabel: 2014–2022
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  - military
-  institutions:
-  - Indonesian National Police (Polri)
-  - Police Medical and Health Center (Pusdokkes Polri)
-  - Indonesian National Armed Forces (TNI)
-  - Indonesian Army (TNI AD)
-  - Indonesian Navy (TNI AL)
-  - Indonesian Air Force (TNI AU)
-  institutionalContext: In the police recruitment system, Human Rights Watch identified the National Police regulation
-    and Pusdokkes Polri personnel as part of the testing machinery. In the military, all three service branches
-    had used the practice. The Army began ending it in 2021; in 2022 the military announced that the Army, Navy, and Air Force
-    had all effectively ended the tests for recruitment.
-  consequences:
-  - Invasive examinations of female recruits
-  - Sex discrimination in public employment
-  - Psychological and physical harm
-  summary: In 2014, Indonesia's police recruitment system still subjected female applicants to “virginity tests,”
-    including the discredited two-finger examination; Pusdokkes Polri personnel conducted the examinations in police
-    medical facilities. Human Rights Watch also documented the practice across all three armed-forces branches.
-    The Army began ending the practice in 2021, but the Navy and Air Force had not yet fully followed; in April
-    2022 an armed-forces spokesperson announced that the Army, Navy, and Air Force had all effectively ended virginity
-    testing for recruitment.
-  sources:
-  - title: Indonesia — “Virginity Tests” for Female Police
+  - id: virginity-indonesia-police
+    title: Indonesia — “Virginity Tests” for Female Police
     url: https://www.hrw.org/news/2014/11/17/indonesia-virginity-tests-female-police
     publisher: Human Rights Watch
-    note: Documents the official police recruitment context, Chief Police Regulation No. 5/2009, the continuing
-      two-finger examination in 2014, and Pusdokkes Polri personnel conducting the tests in police-operated hospitals.
-  - title: Indonesia Army Chief to Terminate Unscientific “Virginity Test”
+  - id: virginity-indonesia-army
+    title: Indonesia Army Chief to Terminate Unscientific “Virginity Test”
     url: https://www.hrw.org/news/2021/08/03/indonesia-army-chief-terminate-unscientific-virginity-test
     publisher: Human Rights Watch
-    note: Documents the 2021 Army order ending medically irrelevant virginity testing for female recruits while
-      noting the practice's long use across the security forces.
-  - title: Indonesia Military Finally Ends Abusive “Virginity Test”
+  - id: virginity-indonesia-military
+    title: Indonesia Military Finally Ends Abusive “Virginity Test”
     url: https://www.hrw.org/news/2022/04/20/indonesia-military-finally-ends-abusive-virginity-test
     publisher: Human Rights Watch
-    note: Records the armed forces' April 2022 announcement that all three branches — Army, Navy, and Air Force
-      — had effectively ended virginity testing for recruitment, establishing the later military-wide endpoint.
-  - *id001
-- id: kazakhstan-2025-2026
-  polity: Kazakhstan
-  region: Central Asia
-  startYear: 2016
-  endYear: 2026
-  endOpen: true
-  periodLabel: 2016–present
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  institutions:
-  - Center for Forensic Examinations, Ministry of Justice of the Republic of Kazakhstan
-  institutionalContext: A Ministry of Justice forensic methodology approved in December 2016 and later published
-    by the state forensic centre defines examinations of female “sexual states” as including determination of sexual
-    inviolability and whether previous sexual intercourse occurred. The same methodology acknowledges that intercourse
-    can occur without disruption of the hymen, yet retains hymenal and genital examination within an expert task
-    aimed at inferring prior intercourse. The methodology remains published by the state forensic centre as part of its current methodological
-    materials.
-  consequences:
-  - Forensic genital examinations intended to infer prior sexual intercourse
-  - Use of hymenal condition and injuries within a state evidentiary methodology
-  - Potential influence on criminal and civil proceedings through medico-legal conclusions
-  - Continuation of a scientifically invalid virginity inference in an official forensic framework
-  summary: Kazakhstan's Ministry of Justice forensic centre uses a methodology approved in 2016 for examining female
-    sexual states that includes determining “sexual inviolability” and establishing whether previous intercourse
-    occurred. The document instructs direct genital and hymenal examination while also acknowledging that intercourse
-    may occur without hymenal rupture. WHO states that hymenal appearance cannot establish prior vaginal intercourse
-    and that no examination can prove a history of intercourse.
-  sources:
-  - title: Methodology for examination of a female person to determine signs of sexual inviolability
+  - id: virginity-kazakhstan-methodology
+    title: Methodology for examination of a female person to determine signs of sexual inviolability
     url: https://forensic.gov.kz/wp-content/uploads/2025/09/23.124-1.pdf
     publisher: Center for Forensic Examinations, Ministry of Justice of the Republic of Kazakhstan
-    note: Official forensic methodology approved by the centre's Scientific Council on 5 December 2016; it lists
-      determination of sexual inviolability and prior intercourse among expert tasks, prescribes genital and hymenal
-      examination, and acknowledges that intercourse can occur without hymenal rupture.
-  - *id001
-- id: bangladesh-2013-2018
-  polity: Bangladesh
-  region: South Asia
-  startYear: 2013
-  endYear: 2018
-  periodLabel: 2013–2018
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - court
-  - medical
-  institutions:
-  - Ministry of Health and Family Welfare
-  - Directorate General of Health Services
-  - Dhaka Medical College Hospital, Department of Forensic Medicine
-  - Bangabandhu Sheikh Mujib Medical University, Department of Forensic Medicine
-  - Sir Salimullah Medical College & Hospital, Department of Forensic Medicine
-  - Shaheed Suhrawardy Medical College & Hospital, Department of Forensic Medicine
-  - Chittagong Medical College, Department of Forensic Medicine
-  institutionalContext: The 2013 High Court litigation documented physicians in medical colleges across Bangladesh
-    using the two-finger test on women and girls reporting rape. In November 2017, heads of five forensic-medicine
-    departments told the court the test was necessary. In March 2018 the Ministry of Health and Family Welfare itself
-    stated that finger testing and assessment of the hymen were regularly used to determine whether a sexual act
-    had occurred and that doctors depended on the finger test when opining on intercourse. The ministry withdrew
-    that position the following month after filing a newer health-care protocol, and the High Court prohibited the
-    practice.
-  consequences:
-  - Invasive genital examinations of rape survivors
-  - Medico-legal conclusions about prior sexual activity
-  - Evidence capable of affecting rape investigations and trials
-  - Humiliation, re-traumatization and violation of bodily dignity
-  summary: Bangladesh's medico-legal system used the two-finger test and hymenal examination on women and girls
-    who reported rape. The institutional proposition became unusually explicit during litigation. In March 2018
-    the Health Ministry told the High Court that the tests were regularly used to determine whether sexual intercourse
-    had occurred. In April the ministry withdrew that position, and on 12 April 2018 the High Court declared the
-    two-finger test unscientific, unreliable and invalid and prohibited it in examinations of rape victims.
-  sources:
-  - title: Bangladesh Legal Aid and Services Trust & Ors v. Secretary, Ministry of Health and Family Welfare & Ors
-      — Writ Petition No. 10663 of 2013
+  - id: virginity-bangladesh-blast
+    title: Bangladesh Legal Aid and Services Trust & Ors v. Secretary, Ministry of Health and Family Welfare & Ors — Writ Petition No. 10663 of 2013
     url: https://bdpil.org/2013/10/08/25/
     publisher: Bangladesh Public Interest Litigation / BLAST
-    note: Detailed litigation chronology documenting countrywide medico-legal use, the 2017 opinions of heads of
-      forensic-medicine departments, the Health Ministry's March 2018 defence of finger and hymen testing as methods
-      for determining whether a sexual act occurred, its subsequent withdrawal, and the High Court's April 2018
-      prohibition.
-  - title: HC bans use of “two-finger test”, “bio-manual test” during examinations of rape victims
+  - id: virginity-bangladesh-news
+    title: HC bans use of “two-finger test”, “bio-manual test” during examinations of rape victims
     url: https://bdnews24.com/bangladesh/hc-bans-use-of-two-finger-test-bio-manual-test-during-examinations-of-rape-victims
     publisher: bdnews24.com
-    note: Reports the High Court's 12 April 2018 ruling that the tests lacked legal or scientific basis and records
-      the requirement to follow the Health Ministry's health-care protocol.
-  - *id001
-- id: pakistan-2015-2021
-  polity: Pakistan
-  region: South Asia
-  startYear: 2015
-  endYear: 2021
-  periodLabel: 2015–2021
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - court
-  - medical
-  institutions:
-  - Surgeon Medico Legal Punjab
-  - Punjab Health Department
-  - Lahore High Court
-  - Ministry of Law and Justice, Government of Pakistan
-  institutionalContext: Punjab's 2015 medico-legal instructions mandated digital and hymenal examination in rape
-    and sexual-abuse cases for purposes that included ascertaining virginity. The federal government formally rejected
-    the test in 2020. In January 2021 the Lahore High Court declared two-finger and hymen tests for determining
-    virginity illegal and unconstitutional and invalidated the relevant portions of the 2015 instructions and later
-    guidelines. Parliament's Anti-Rape (Investigation and Trial) Act 2021 then prohibited two-finger virginity testing
-    and removed its probative value.
-  consequences:
-  - Invasive genital examinations of sexual-violence survivors
-  - Official medico-legal judgments about virginity and sexual history
-  - Potential use of those conclusions in criminal proceedings
-  - Violation of dignity, privacy and bodily integrity
-  summary: Official medico-legal instructions in Punjab incorporated digital and hymenal examinations intended to
-    ascertain the virginity of rape and sexual-abuse victims. By 2020 the federal government had formally rejected
-    the practice as inconclusive and incompatible with dignity. In January 2021 the Lahore High Court struck down
-    the two-finger and hymen tests for ascertaining virginity, and the Anti-Rape (Investigation and Trial) Act 2021
-    subsequently prohibited two-finger virginity testing and removed its probative value nationwide.
-  sources:
-  - title: Virginity test in abuse cases illegal, declares LHC
+  - id: virginity-pakistan-dawn
+    title: Virginity test in abuse cases illegal, declares LHC
     url: https://www.dawn.com/news/amp/1599760
     publisher: Dawn
-    note: Detailed legal report on the Lahore High Court judgment, including the finding that the Punjab health
-      department and medico-legal 2015 instructions were unlawful insofar as they mandated two-finger or hymen testing
-      to ascertain virginity.
-  - title: Government's stance on two finger test
+  - id: virginity-pakistan-government
+    title: Government's stance on two finger test
     url: https://pid.gov.pk/site/press_detail/14894
     publisher: Press Information Department, Government of Pakistan
-    note: Official October 2020 statement that the test is inconclusive, violates dignity and should not form part
-      of medico-legal reports in rape or sexual-assault cases.
-  - title: Overview of the Anti-Rape Act
+  - id: virginity-pakistan-law
+    title: Overview of the Anti-Rape Act
     url: https://www.molaw.gov.pk/Detail/NjYzNjFiOTQtMDI1YS00YjcyLTk4YmEtMjExNjUxODlmNWEz
     publisher: Ministry of Law and Justice, Government of Pakistan
-    note: Current ministry overview confirming that the Anti-Rape (Investigation and Trial) Act 2021 bans the two-finger
-      test previously used to assess victims.
-  - *id001
-- id: georgia-2018-2026
-  polity: Georgia
-  region: Caucasus
-  startYear: 2018
-  endYear: 2026
-  endOpen: true
-  periodLabel: 2018–present
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - court
-  - medical
-  institutions:
-  - Levan Samkharauli National Forensics Bureau
-  - Ministry of Internal Affairs of Georgia
-  - Prosecutor's Office of Georgia
-  - Common Courts of Georgia
-  institutionalContext: The Public Defender's review of criminal cases from 2018–2020 found investigators repeatedly
-    ordering state forensic examinations focused on hymenal integrity, including cases in which the child's allegation
-    did not involve penetration. The report identified the Levan Samkharauli National Forensics Bureau as the state
-    forensic carrier and explained that hymenal condition cannot scientifically establish vaginal penetration. Georgia's
-    2025 government report to GREVIO confirms that the current state forensic procedure for sexual acts, defined
-    by Government Resolution No. 14 of 16 January 2023, still includes determining hymenal integrity and the age
-    of any disruption, with questions in the appointment decision mandatory for experts to address.
-  consequences:
-  - Forensic genital examinations of sexual-violence victims, including children
-  - Scientifically invalid inferences from hymenal condition
-  - Medical reports used as important evidence in criminal investigations and trials
-  - Secondary victimization and potential distortion of credibility or penetration findings
-  summary: Georgian investigators and courts have treated hymenal condition as significant forensic evidence in
-    sexual-violence cases. A Public Defender study of cases from 2018 onward documented repeated orders to examine
-    hymenal integrity, sometimes even when the alleged conduct did not involve penetration, and showed that hymenal
-    findings could affect credibility and case assessment. The government reported in 2025 that the formal state
-    forensic procedure still includes determining hymenal integrity; no subsequent institutional abolition is documented.
-  sources:
-  - title: The administration of justice on crimes of sexual abuse and sexual exploitation of children
+  - id: virginity-georgia-public-defender
+    title: The administration of justice on crimes of sexual abuse and sexual exploitation of children
     url: https://www.unicef.org/georgia/media/6446/file/Special%20Report%20on%20Child%20Abuse%20and%20Exploitation.pdf
     publisher: Public Defender of Georgia; hosted by UNICEF Georgia
-    note: Stable UNICEF-hosted copy of the Public Defender's report. It documents 2018–2020 cases in which investigators
-      ordered forensic examinations to determine hymenal integrity, including where no penetration was alleged,
-      and explains that the inference lacks factual, scientific and medical validity.
-  - title: Report submitted by Georgia to GREVIO — first thematic evaluation round
+  - id: virginity-georgia-grevio
+    title: Report submitted by Georgia to GREVIO — first thematic evaluation round
     url: https://rm.coe.int/grevio-inf-2025-12-state-report-first-thematic-evaluation-georgia/4880289a47
     publisher: Government of Georgia, via Council of Europe
-    note: Georgia's 2025 state report says Government Resolution No. 14 of 16 January 2023 defines forensic medical
-      examination in cases of sexual acts as including determination of hymenal integrity and the age of disruption,
-      and that questions specified in the appointment decision are mandatory for the expert to address.
-  - title: Levan Samkharauli National Forensics Bureau — Medical Experts Participate in Training
+  - id: virginity-georgia-bureau
+    title: Levan Samkharauli National Forensics Bureau — Medical Experts Participate in Training
     url: https://www.expertiza.gov.ge/ArchivePost.aspx?i=6273&ln=en
     publisher: Levan Samkharauli National Forensics Bureau
-    note: Official Bureau page confirming its medical forensic role in sexual-violence criminal cases and its cooperation
-      with the Public Defender and Council of Europe on forensic examination standards.
-  - *id001
-- id: tajikistan-2016-2026
-  polity: Tajikistan
-  region: Central Asia
-  startYear: 2016
-  endYear: 2026
-  endOpen: true
-  periodLabel: 2016–present
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  institutions:
-  - National Centre of Forensic Medicine
-  - Ministry of Health and Social Protection of the Population of Tajikistan
-  institutionalContext: Tajikistan's 2016 Family Code amendments established mandatory pre-marital medical examinations,
-    and the United Nations Common Country Analysis records cases in which those examinations were used for virginity
-    testing; it also reports that the state forensic centre checks the virginity of about 600 girls annually. Tajikistan
-    later prohibited ordinary virginity tests in medical facilities, but during the country's 2024 CEDAW review
-    its own delegation stated that authorities including the National Centre of Forensic Medicine remain authorized
-    to conduct the checks in criminal investigations.
-  consequences:
-  - State forensic genital examinations intended to determine virginity
-  - Use in criminal investigations despite absence of scientific validity
-  - Potential legal and social consequences from forensic certificates
-  - Psychological, reputational and family harm
-  summary: Tajikistan has restricted ordinary medical virginity testing but retains an explicit forensic exception.
-    A current UN country analysis reports substantial state-forensic use, while Tajikistan's own delegation told
-    the UN Committee on the Elimination of Discrimination against Women in 2024 that the National Centre of Forensic
-    Medicine remains authorized to perform the checks in criminal investigations. This preserves an official forensic
-    use of an examination that cannot establish whether vaginal intercourse has occurred.
-  sources:
-  - title: Committee on the Elimination of Discrimination against Women — summary record of the 2034th meeting
+  - id: virginity-tajikistan-cedaw
+    title: Committee on the Elimination of Discrimination against Women — summary record of the 2034th meeting
     url: https://documents.un.org/api/symbol/access?l=en&s=CEDAW%2FC%2FSR.2034&t=pdf
     publisher: United Nations
-    note: Official 2024 UN meeting record. Tajikistan's delegation states that virginity tests are prohibited in
-      medical facilities but that authorities including the National Centre of Forensic Medicine remain authorized
-      to conduct the checks in criminal investigations.
-  - title: Tajikistan Common Country Analysis — Annual Update 2024
+  - id: virginity-tajikistan-cca
+    title: Tajikistan Common Country Analysis — Annual Update 2024
     url: https://tajikistan.un.org/en/download/162748/271513
     publisher: United Nations in Tajikistan
-    note: Records that mandatory pre-marital medical examinations were established through 2016 Family Code amendments,
-      that such examinations have been used for virginity testing, and that the National Centre of forensic examination
-      checks the virginity of about 600 girls annually.
-  - *id001
+evidence:
+  - id: virginity-who-correction
+    sourceId: virginity-who
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      States that hymenal appearance is not a reliable indication of intercourse and that no known examination can prove a history of vaginal intercourse.
+  - id: virginity-turkey-proposition
+    sourceId: virginity-turkey-hrw
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Documents state-ordered virginity examinations from the 1980s and early 1990s involving police, forensic doctors, schools, dormitories, hospitals, and detainees.
+  - id: virginity-turkey-carrier
+    sourceId: virginity-turkey-hrw
+    relation: documents
+    target: {scope: episode, episodeId: turkey-1986-1998, aspect: carrier}
+  - id: virginity-turkey-mechanism
+    sourceId: virginity-turkey-hrw
+    relation: supports
+    target: {scope: episode, episodeId: turkey-1986-1998, aspect: mechanism}
+  - id: virginity-turkey-consequences
+    sourceId: virginity-turkey-hrw
+    relation: supports
+    target: {scope: episode, episodeId: turkey-1986-1998, aspect: consequences}
+  - id: virginity-turkey-correction
+    sourceId: virginity-turkey-1999
+    relation: documents
+    target: {scope: episode, episodeId: turkey-1986-1998, aspect: institutional-correction}
+    note: >-
+      Records that a late-1998 Turkish government regulation prohibited the traditional practice of virginity testing unless requested by a woman.
+  - id: virginity-iran-carrier
+    sourceId: virginity-iran-system
+    relation: supports
+    target: {scope: episode, episodeId: iran-2002-2026, aspect: carrier}
+    note: >-
+      Describes the Legal Medicine Organization as an official body of Iran's judiciary whose medico-legal centers provide expert forensic reports when requested by courts, judges, and administrative authorities.
+  - id: virginity-iran-mechanism
+    sourceId: virginity-iran-study
+    relation: supports
+    target: {scope: episode, episodeId: iran-2002-2026, aspect: mechanism}
+    note: >-
+      Publisher-hosted Iranian study conducted in forensic medical centers and governmental gynecology clinics in Tehran; it states that forensic centers perform virginity testing on civil and criminal court orders.
+  - id: virginity-iran-consequences
+    sourceId: virginity-iran-study
+    relation: supports
+    target: {scope: episode, episodeId: iran-2002-2026, aspect: consequences}
+  - id: virginity-iran-ongoing
+    sourceId: virginity-iran-2026
+    relation: supports
+    target: {scope: episode, episodeId: iran-2002-2026, aspect: institutional-correction}
+    note: >-
+      Recent country review reports that Iranian authorities may attempt virginity tests on young women arrested in some circumstances, while noting that the available evidence does not show the practice to be prevalent.
+  - id: virginity-india-carrier
+    sourceId: virginity-india-hrw
+    relation: supports
+    target: {scope: episode, episodeId: india-2005-2013, aspect: carrier}
+    note: >-
+      Documents widespread institutional use of the test, its prescription in 2005 and 2007 forensic-medicine textbooks, public-hospital examination forms, and court reliance on supposed signs of sexual habituation.
+  - id: virginity-india-mechanism
+    sourceId: virginity-india-hrw
+    relation: supports
+    target: {scope: episode, episodeId: india-2005-2013, aspect: mechanism}
+  - id: virginity-india-consequences
+    sourceId: virginity-india-hrw
+    relation: supports
+    target: {scope: episode, episodeId: india-2005-2013, aspect: consequences}
+  - id: virginity-india-2013-correction
+    sourceId: virginity-india-2013
+    relation: documents
+    target: {scope: episode, episodeId: india-2005-2013, aspect: institutional-correction}
+    note: >-
+      2013 judgment rejecting the two-finger test as violating survivors' privacy, physical and mental integrity, and dignity.
+  - id: virginity-india-2022-correction
+    sourceId: virginity-india-2022
+    relation: documents
+    target: {scope: episode, episodeId: india-2005-2013, aspect: institutional-correction}
+    note: >-
+      Primary 2022 judgment quoting national health guidelines that prohibit the two-finger test and state that hymenal status cannot prove previous intercourse; the Court ordered the guidelines circulated to all government and private hospitals.
+  - id: virginity-indonesia-carrier
+    sourceId: virginity-indonesia-police
+    relation: supports
+    target: {scope: episode, episodeId: indonesia-2014-2022, aspect: carrier}
+    note: >-
+      Documents the official police recruitment context, Chief Police Regulation No. 5/2009, the continuing two-finger examination in 2014, and Pusdokkes Polri personnel conducting the tests in police-operated hospitals.
+  - id: virginity-indonesia-mechanism
+    sourceId: virginity-indonesia-police
+    relation: supports
+    target: {scope: episode, episodeId: indonesia-2014-2022, aspect: mechanism}
+  - id: virginity-indonesia-consequences
+    sourceId: virginity-indonesia-police
+    relation: supports
+    target: {scope: episode, episodeId: indonesia-2014-2022, aspect: consequences}
+  - id: virginity-indonesia-army-correction
+    sourceId: virginity-indonesia-army
+    relation: documents
+    target: {scope: episode, episodeId: indonesia-2014-2022, aspect: institutional-correction}
+    note: >-
+      Documents the 2021 Army order ending medically irrelevant virginity testing for female recruits while noting the practice's long use across the security forces.
+  - id: virginity-indonesia-military-correction
+    sourceId: virginity-indonesia-military
+    relation: documents
+    target: {scope: episode, episodeId: indonesia-2014-2022, aspect: institutional-correction}
+    note: >-
+      Records the armed forces' April 2022 announcement that all three branches — Army, Navy, and Air Force — had effectively ended virginity testing for recruitment.
+  - id: virginity-kazakhstan-carrier
+    sourceId: virginity-kazakhstan-methodology
+    relation: documents
+    target: {scope: episode, episodeId: kazakhstan-2025-2026, aspect: carrier}
+    note: >-
+      Official forensic methodology approved on 5 December 2016; it lists determination of sexual inviolability and prior intercourse among expert tasks, prescribes genital and hymenal examination, and acknowledges that intercourse can occur without hymenal rupture.
+  - id: virginity-kazakhstan-mechanism
+    sourceId: virginity-kazakhstan-methodology
+    relation: documents
+    target: {scope: episode, episodeId: kazakhstan-2025-2026, aspect: mechanism}
+  - id: virginity-kazakhstan-consequences
+    sourceId: virginity-kazakhstan-methodology
+    relation: supports
+    target: {scope: episode, episodeId: kazakhstan-2025-2026, aspect: consequences}
+  - id: virginity-kazakhstan-ongoing
+    sourceId: virginity-kazakhstan-methodology
+    relation: documents
+    target: {scope: episode, episodeId: kazakhstan-2025-2026, aspect: institutional-correction}
+  - id: virginity-bangladesh-carrier
+    sourceId: virginity-bangladesh-blast
+    relation: supports
+    target: {scope: episode, episodeId: bangladesh-2013-2018, aspect: carrier}
+    note: >-
+      Detailed litigation chronology documenting countrywide medico-legal use, the 2017 opinions of forensic-medicine department heads, the Health Ministry's March 2018 defence of finger and hymen testing, its withdrawal, and the High Court's April 2018 prohibition.
+  - id: virginity-bangladesh-mechanism
+    sourceId: virginity-bangladesh-blast
+    relation: supports
+    target: {scope: episode, episodeId: bangladesh-2013-2018, aspect: mechanism}
+  - id: virginity-bangladesh-consequences
+    sourceId: virginity-bangladesh-blast
+    relation: supports
+    target: {scope: episode, episodeId: bangladesh-2013-2018, aspect: consequences}
+  - id: virginity-bangladesh-correction
+    sourceId: virginity-bangladesh-news
+    relation: documents
+    target: {scope: episode, episodeId: bangladesh-2013-2018, aspect: institutional-correction}
+    note: >-
+      Reports the High Court's 12 April 2018 ruling that the tests lacked legal or scientific basis and records the requirement to follow the Health Ministry's health-care protocol.
+  - id: virginity-pakistan-carrier
+    sourceId: virginity-pakistan-dawn
+    relation: supports
+    target: {scope: episode, episodeId: pakistan-2015-2021, aspect: carrier}
+    note: >-
+      Detailed legal report on the Lahore High Court judgment, including the finding that Punjab health department and medico-legal 2015 instructions were unlawful insofar as they mandated two-finger or hymen testing to ascertain virginity.
+  - id: virginity-pakistan-mechanism
+    sourceId: virginity-pakistan-dawn
+    relation: supports
+    target: {scope: episode, episodeId: pakistan-2015-2021, aspect: mechanism}
+  - id: virginity-pakistan-consequences
+    sourceId: virginity-pakistan-dawn
+    relation: supports
+    target: {scope: episode, episodeId: pakistan-2015-2021, aspect: consequences}
+  - id: virginity-pakistan-government-correction
+    sourceId: virginity-pakistan-government
+    relation: documents
+    target: {scope: episode, episodeId: pakistan-2015-2021, aspect: institutional-correction}
+    note: >-
+      Official October 2020 statement that the test is inconclusive, violates dignity and should not form part of medico-legal reports in rape or sexual-assault cases.
+  - id: virginity-pakistan-law-correction
+    sourceId: virginity-pakistan-law
+    relation: documents
+    target: {scope: episode, episodeId: pakistan-2015-2021, aspect: institutional-correction}
+    note: >-
+      Current ministry overview confirming that the Anti-Rape (Investigation and Trial) Act 2021 bans the two-finger test previously used to assess victims.
+  - id: virginity-georgia-carrier
+    sourceId: virginity-georgia-public-defender
+    relation: supports
+    target: {scope: episode, episodeId: georgia-2018-2026, aspect: carrier}
+    note: >-
+      Stable UNICEF-hosted Public Defender report documenting 2018–2020 cases in which investigators ordered forensic examinations to determine hymenal integrity, including where no penetration was alleged, and explaining that the inference lacks factual, scientific and medical validity.
+  - id: virginity-georgia-mechanism
+    sourceId: virginity-georgia-grevio
+    relation: documents
+    target: {scope: episode, episodeId: georgia-2018-2026, aspect: mechanism}
+    note: >-
+      Georgia's 2025 state report says Government Resolution No. 14 of 16 January 2023 defines forensic medical examination in sexual-act cases as including determination of hymenal integrity and age of disruption, with appointment questions mandatory for the expert to address.
+  - id: virginity-georgia-consequences
+    sourceId: virginity-georgia-public-defender
+    relation: supports
+    target: {scope: episode, episodeId: georgia-2018-2026, aspect: consequences}
+  - id: virginity-georgia-context
+    sourceId: virginity-georgia-bureau
+    relation: contextualizes
+    target: {scope: episode, episodeId: georgia-2018-2026, aspect: context}
+    note: >-
+      Official Bureau page confirming its medical forensic role in sexual-violence criminal cases and cooperation with the Public Defender and Council of Europe on forensic examination standards.
+  - id: virginity-georgia-ongoing
+    sourceId: virginity-georgia-grevio
+    relation: documents
+    target: {scope: episode, episodeId: georgia-2018-2026, aspect: institutional-correction}
+  - id: virginity-tajikistan-carrier
+    sourceId: virginity-tajikistan-cca
+    relation: supports
+    target: {scope: episode, episodeId: tajikistan-2016-2026, aspect: carrier}
+    note: >-
+      Records that mandatory pre-marital medical examinations were established through 2016 Family Code amendments, that such examinations have been used for virginity testing, and that the National Centre of forensic examination checks the virginity of about 600 girls annually.
+  - id: virginity-tajikistan-mechanism
+    sourceId: virginity-tajikistan-cca
+    relation: supports
+    target: {scope: episode, episodeId: tajikistan-2016-2026, aspect: mechanism}
+  - id: virginity-tajikistan-consequences
+    sourceId: virginity-tajikistan-cca
+    relation: supports
+    target: {scope: episode, episodeId: tajikistan-2016-2026, aspect: consequences}
+  - id: virginity-tajikistan-partial-correction
+    sourceId: virginity-tajikistan-cedaw
+    relation: documents
+    target: {scope: episode, episodeId: tajikistan-2016-2026, aspect: institutional-correction}
+    note: >-
+      Official 2024 UN meeting record in which Tajikistan's delegation states that virginity tests are prohibited in medical facilities but authorities including the National Centre of Forensic Medicine remain authorized to conduct the checks in criminal investigations.

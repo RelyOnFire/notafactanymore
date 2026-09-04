@@ -1,43 +1,116 @@
+schemaVersion: 2
 title: Race-based pulmonary-function reference values
-claim: Race or ethnicity was treated as a patient characteristic that should determine which reference equations or adjustment factors were used to define expected normal pulmonary-function values.
-currentUnderstanding: Race and ethnicity are social classifications rather than fixed biological variables suitable for blanket physiological correction. Current ATS guidance, endorsed by the ERS, recommends race-neutral average reference equations for pulmonary-function-test interpretation while calling for continued study of the effects of the transition.
+proposition:
+  summary: >-
+    Race or ethnicity was treated as a patient characteristic that should determine which reference equations or
+    adjustment factors were used to define expected normal pulmonary-function values.
+correction:
+  summary: >-
+    Race and ethnicity are social classifications rather than fixed biological variables suitable for blanket
+    physiological correction. Current ATS guidance, endorsed by the ERS, recommends race-neutral average reference
+    equations for pulmonary-function-test interpretation while calling for continued study of the effects of the transition.
 category: Pulmonary medicine and clinical standards
 reviewedAt: '2026-08-26'
 episodes:
-- id: ats-ers-2005-2023
-  polity: United States and Europe
-  region: Cross-regional
-  startYear: 2005
-  endYear: 2023
-  periodLabel: 2005–2023
-  strength: officially-endorsed
-  institutionTypes:
-  - medical
-  - professional
-  institutions:
-  - American Thoracic Society (ATS)
-  - European Respiratory Society (ERS)
-  institutionalContext: The joint ATS/ERS 2005 interpretive standard instructed patients to identify their race or ethnic group and recommended race/ethnic-specific reference equations whenever possible, with adjustment factors as a fallback. Such reference values affected whether measured lung function was classified as normal or abnormal. Race-specific interpretation remained part of professional guidance into the early 2020s. In 2023 an official ATS statement, endorsed by the ERS, recommended replacing race- and ethnicity-specific equations with race-neutral average reference equations and urged a wider reassessment of how PFT thresholds are used in clinical, employment and insurance decisions.
-  consequences:
-  - Race-dependent thresholds for classifying pulmonary-function results as normal or abnormal
-  - Potential delayed recognition or lower assessed severity of respiratory impairment for people assigned to groups with lower predicted reference values
-  - Race-dependent effects on decisions involving treatment, disability, employment, insurance and transplant prioritization
-  - Need to revise laboratory reporting systems and clinical interpretation after the 2023 recommendation
-  summary: ATS/ERS standards did not merely note population differences; they operationalized race and ethnicity in the reference values used to interpret pulmonary-function tests. The 2005 standard explicitly preferred race/ethnic-specific equations and allowed numerical adjustment factors when such equations were unavailable. In 2023 the ATS, with ERS endorsement, reversed that approach and recommended race-neutral average equations, citing evidence that race-specific interpretation did not provide the assumed clinical advantage and could contribute to inequitable decisions.
-  sources:
-  - title: Interpretative strategies for lung function tests
+  - id: ats-ers-2005-2023
+    polity: United States and Europe
+    region: Cross-regional
+    startYear: 2005
+    endYear: 2023
+    periodLabel: 2005–2023
+    strength: officially-endorsed
+    institutionTypes:
+      - medical
+      - professional
+    institutions:
+      - American Thoracic Society (ATS)
+      - European Respiratory Society (ERS)
+    institutionalContext: >-
+      The joint ATS/ERS 2005 interpretive standard instructed patients to identify their race or ethnic group and
+      recommended race/ethnic-specific reference equations whenever possible, with adjustment factors as a fallback. Such
+      reference values affected whether measured lung function was classified as normal or abnormal. Race-specific
+      interpretation remained part of professional guidance into the early 2020s. In 2023 an official ATS statement,
+      endorsed by the ERS, recommended replacing race- and ethnicity-specific equations with race-neutral average reference
+      equations and urged a wider reassessment of how PFT thresholds are used in clinical, employment and insurance decisions.
+    consequences:
+      - Race-dependent thresholds for classifying pulmonary-function results as normal or abnormal
+      - Potential delayed recognition or lower assessed severity of respiratory impairment for people assigned to groups with lower predicted reference values
+      - Race-dependent effects on decisions involving treatment, disability, employment, insurance and transplant prioritization
+      - Need to revise laboratory reporting systems and clinical interpretation after the 2023 recommendation
+    summary: >-
+      ATS/ERS standards did not merely note population differences; they operationalized race and ethnicity in the reference
+      values used to interpret pulmonary-function tests. The 2005 standard explicitly preferred race/ethnic-specific
+      equations and allowed numerical adjustment factors when such equations were unavailable. In 2023 the ATS, with ERS
+      endorsement, reversed that approach and recommended race-neutral average equations, citing evidence that race-specific
+      interpretation did not provide the assumed clinical advantage and could contribute to inequitable decisions.
+    mechanism:
+      kind: standard-setting
+      summary: >-
+        Joint professional standards directed pulmonary-function laboratories and clinicians to use race- or
+        ethnicity-specific reference equations, or numerical adjustment factors, when determining expected normal values.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: '2023'
+      action: The ATS issued an official statement, endorsed by the ERS, recommending race-neutral average reference equations instead of race- and ethnicity-specific equations.
+      summary: >-
+        The professional bodies reversed the earlier race-based interpretive standard and explicitly recommended a
+        race-neutral framework for pulmonary-function-test interpretation.
+sources:
+  - id: pft-2005-standard
+    title: Interpretative strategies for lung function tests
     url: https://publications.ersnet.org/content/erj/26/5/948
     publisher: European Respiratory Journal / ATS–ERS Task Force
-    note: Joint 2005 interpretive standard instructing patients to identify their race or ethnic group and recommending race/ethnic-specific reference equations whenever possible, with adjustment factors as a fallback.
-  - title: ERS/ATS technical standard on interpretive strategies for routine lung function tests
+  - id: pft-2022-standard
+    title: ERS/ATS technical standard on interpretive strategies for routine lung function tests
     url: https://publications.ersnet.org/content/erj/60/1/2101499
     publisher: European Respiratory Journal / ERS–ATS Task Force
-    note: 2022 joint technical standard documenting the 2005 ATS/ERS framework and the continuing professional-standard context immediately before the 2023 race-neutral recommendation.
-  - title: Race and Ethnicity in Pulmonary Function Test Interpretation — An Official American Thoracic Society Statement
+  - id: pft-2023-statement
+    title: Race and Ethnicity in Pulmonary Function Test Interpretation — An Official American Thoracic Society Statement
     url: https://www.atsjournals.org/doi/10.1164/rccm.202302-0310ST
     publisher: American Thoracic Society / American Journal of Respiratory and Critical Care Medicine
-    note: Official 2023 ATS statement, endorsed by the ERS, recommending replacement of race- and ethnicity-specific equations with race-neutral average reference equations and calling for reassessment of PFT-based clinical, employment and insurance decisions.
-  - title: ATS Publishes Official Statement on Race, Ethnicity and Pulmonary Function Test Interpretation
+  - id: pft-ats-summary
+    title: ATS Publishes Official Statement on Race, Ethnicity and Pulmonary Function Test Interpretation
     url: https://site.thoracic.org/about-us/news/ats-publishes-official-statement-on-race-ethnicity-and-pulmonary-function-test-interpretation
     publisher: American Thoracic Society
-    note: ATS summary of the 2023 correction, including the rationale for abandoning race-specific equations and the potential effects of race-based interpretation on diagnosis, treatment and other consequential decisions.
+evidence:
+  - id: pft-2005-proposition
+    sourceId: pft-2005-standard
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Joint 2005 interpretive standard instructing patients to identify their race or ethnic group and recommending
+      race/ethnic-specific reference equations whenever possible, with adjustment factors as a fallback.
+  - id: pft-2023-correction
+    sourceId: pft-2023-statement
+    relation: documents
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Official 2023 ATS statement, endorsed by the ERS, recommending replacement of race- and ethnicity-specific equations
+      with race-neutral average reference equations and calling for reassessment of PFT-based clinical, employment and
+      insurance decisions.
+  - id: pft-2005-carrier
+    sourceId: pft-2005-standard
+    relation: documents
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: carrier}
+  - id: pft-2005-mechanism
+    sourceId: pft-2005-standard
+    relation: documents
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: mechanism}
+  - id: pft-ats-consequences
+    sourceId: pft-ats-summary
+    relation: supports
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: consequences}
+    note: >-
+      ATS summary of the 2023 correction, including the rationale for abandoning race-specific equations and the potential
+      effects of race-based interpretation on diagnosis, treatment and other consequential decisions.
+  - id: pft-2022-context
+    sourceId: pft-2022-standard
+    relation: contextualizes
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: context}
+    note: >-
+      2022 joint technical standard documenting the 2005 ATS/ERS framework and the continuing professional-standard
+      context immediately before the 2023 race-neutral recommendation.
+  - id: pft-2023-institutional-correction
+    sourceId: pft-2023-statement
+    relation: documents
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: institutional-correction}

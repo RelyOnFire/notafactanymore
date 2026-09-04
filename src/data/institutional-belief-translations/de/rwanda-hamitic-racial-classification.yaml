@@ -1,55 +1,94 @@
+schemaVersion: 2
 locale: de
 entryId: rwanda-hamitic-racial-classification
 sourceReviewedAt: '2026-08-25'
 title: Hutu, Tutsi und Twa als feste Rassen nach der hamitischen Hypothese
-claim: Belgische Kolonialinstitutionen in Ruanda behandelten Hutu, Tutsi und Twa als feste Rassen und nutzten die
-  hamitische Hypothese, um Tutsi als rassisch verschiedene, von außen zugewanderte und höherwertige Gruppe darzustellen.
-  Diese Hierarchie wurde in Verwaltung, Identitätsdokumente und Bildung eingebaut.
-currentUnderstanding: Die Kategorien Hutu, Tutsi und Twa existierten bereits vor der europäischen Herrschaft, waren
-  jedoch keine drei biologisch getrennten Rassen. Die heutige Geschichtsforschung beschreibt sie als politisch und
-  sozial bedeutsame, aber beweglichere Identitäten mit gemeinsamer Sprache, Kultur und verflochtener Geschichte.
-  Aktuelle Populationsgenetik findet ebenfalls keine wissenschaftliche Grundlage für die koloniale Rassenklassifikation.
-  Die belgische Verwaltung verhärtete und rassifizierte bestehende Unterschiede, statt die Bezeichnungen einfach
-  zu erfinden.
+proposition:
+  summary: >-
+    Belgische Kolonialinstitutionen in Ruanda behandelten Hutu, Tutsi und Twa als feste Rassen und nutzten die hamitische
+    Hypothese, um Tutsi als rassisch verschiedene, von außen zugewanderte und höherwertige Gruppe darzustellen. Diese
+    Hierarchie wurde in Verwaltung, Identitätsdokumente und Bildung eingebaut.
+correction:
+  summary: >-
+    Die Kategorien Hutu, Tutsi und Twa existierten bereits vor der europäischen Herrschaft, waren jedoch keine drei
+    biologisch getrennten Rassen. Die heutige Geschichtsforschung beschreibt sie als politisch und sozial bedeutsame,
+    aber beweglichere Identitäten mit gemeinsamer Sprache, Kultur und verflochtener Geschichte. Aktuelle
+    Populationsgenetik findet ebenfalls keine wissenschaftliche Grundlage für die koloniale Rassenklassifikation. Die
+    belgische Verwaltung verhärtete und rassifizierte bestehende Unterschiede, statt die Bezeichnungen einfach zu erfinden.
 impact:
-  summary: Die hamitische These wurde zu Verwaltungspraxis. Belgische Stellen ordneten politische Macht nach einer
-    Rassenhierarchie, vermittelten sie im kolonialen Bildungswesen und erfassten Hutu, Tutsi und Twa ab etwa 1930–31
-    zunehmend in Zensus- und Identitätsunterlagen. Damit erhielten zuvor stärker kontextabhängige Unterscheidungen
-    bürokratische Dauerhaftigkeit.
+  summary: >-
+    Die hamitische These wurde zu Verwaltungspraxis. Belgische Stellen ordneten politische Macht nach einer Rassenhierarchie,
+    vermittelten sie im kolonialen Bildungswesen und erfassten Hutu, Tutsi und Twa ab etwa 1930–31 zunehmend in Zensus- und
+    Identitätsunterlagen. Damit erhielten zuvor stärker kontextabhängige Unterscheidungen bürokratische Dauerhaftigkeit.
   highlights:
-  - value: '3'
-    label: in der Kolonialverwaltung rassifizierte Kategorien Hutu, Tutsi und Twa
-  - value: ca. 1930–31
-    label: Beginn der systematischen Erfassung in Zensus und Identitätsbüchern
-  - value: '1962'
-    label: Ende der belgischen Kolonialherrschaft in Ruanda
+    - value: '3'
+      label: in der Kolonialverwaltung rassifizierte Kategorien Hutu, Tutsi und Twa
+    - value: ca. 1930–31
+      label: Beginn der systematischen Erfassung in Zensus und Identitätsbüchern
+    - value: '1962'
+      label: Ende der belgischen Kolonialherrschaft in Ruanda
   context:
-  - Europäer erfanden die Begriffe Hutu, Tutsi und Twa nicht; diese Kategorien bestanden bereits vor der Kolonialherrschaft.
-    Korrigiert wird ihre Umdeutung zu festen biologischen Rassen und die hamitische Vorstellung eines fremden,
-    höherwertigen Tutsi-Volkes.
-  - Die populäre Formel, ein einziger Erlass von 1931 habe die Ethnie jedes Menschen für immer festgeschrieben,
-    ist zu simpel. Archivforschung zeigt Identitätsbücher ab etwa 1930 und einzelne spätere Wechsel der Zuordnung.
-  - Die koloniale Rassifizierung war ein wichtiger historischer Vorläufer späterer Konflikte, aber nicht die alleinige
-    Ursache des Genozids von 1994. Auch politische Bewegungen und staatliche Institutionen nach der Unabhängigkeit,
-    Krieg, Propaganda und weitere Faktoren waren entscheidend.
+    - >-
+      Europäer erfanden die Begriffe Hutu, Tutsi und Twa nicht; diese Kategorien bestanden bereits vor der
+      Kolonialherrschaft. Korrigiert wird ihre Umdeutung zu festen biologischen Rassen und die hamitische Vorstellung eines
+      fremden, höherwertigen Tutsi-Volkes.
+    - >-
+      Die populäre Formel, ein einziger Erlass von 1931 habe die Ethnie jedes Menschen für immer festgeschrieben, ist zu
+      simpel. Archivforschung zeigt Identitätsbücher ab etwa 1930 und einzelne spätere Wechsel der Zuordnung.
+    - >-
+      Die koloniale Rassifizierung war ein wichtiger historischer Vorläufer späterer Konflikte, aber nicht die alleinige
+      Ursache des Genozids von 1994. Auch politische Bewegungen und staatliche Institutionen nach der Unabhängigkeit,
+      Krieg, Propaganda und weitere Faktoren waren entscheidend.
 episodes:
-- id: belgian-rwanda-1930-1962
-  polity: Belgisches Ruanda
-  institutions:
-  - belgische Kolonialverwaltung von Ruanda-Urundi
-  - Residency of Rwanda
-  - koloniales Bildungssystem
-  institutionalContext: Belgische Administratoren übernahmen bestehende Hutu-, Tutsi- und Twa-Unterscheidungen,
-    deuteten sie aber durch europäische Rassentheorien neu. Die hamitische Hypothese stellte Tutsi als fremde und
-    angeblich höherwertige Gruppe dar. Zensus und Identitätsbücher erfassten die Kategorien ab etwa 1930 zunehmend
-    administrativ, während Schule und Verwaltung die Rassenhierarchie normalisierten.
-  consequences:
-  - Rassifizierung bereits bestehender sozialer und politischer Identitäten
-  - Koloniale Bevorzugung beim Zugang zu Macht und Bildung entlang einer angeblichen Rassenhierarchie
-  - Erfassung von Hutu-, Tutsi- und Twa-Zugehörigkeit in Zensus- und Identitätsdokumenten
-  - Vermittlung der hamitischen Theorie im kolonialen Bildungswesen
-  - Langfristige Verhärtung politisch mobilisierbarer Identitätsgrenzen
-  summary: Die belgische Herrschaft machte eine Rassentheorie zu Verwaltungspraxis. Bestehende soziale Kategorien
-    wurden als feste Rassen gedeutet, und die hamitische Hypothese stellte Tutsi als fremd und biologisch höherwertig
-    dar. Geschichts- und Genetikforschung verwerfen dieses Rassenmodell, ohne in den umgekehrten Fehler zu verfallen,
-    die vorkolonialen Kategorien als vollständig europäische Erfindung zu behandeln.
+  - id: belgian-rwanda-1930-1962
+    polity: Belgisches Ruanda
+    institutions:
+      - belgische Kolonialverwaltung von Ruanda-Urundi
+      - Residency of Rwanda
+      - koloniales Bildungssystem
+    institutionalContext: >-
+      Belgische Administratoren übernahmen bestehende Hutu-, Tutsi- und Twa-Unterscheidungen, deuteten sie aber durch
+      europäische Rassentheorien neu. Die hamitische Hypothese stellte Tutsi als fremde und angeblich höherwertige Gruppe
+      dar. Zensus und Identitätsbücher erfassten die Kategorien ab etwa 1930 zunehmend administrativ, während Schule und
+      Verwaltung die Rassenhierarchie normalisierten.
+    summary: >-
+      Die belgische Herrschaft machte eine Rassentheorie zu Verwaltungspraxis. Bestehende soziale Kategorien wurden als
+      feste Rassen gedeutet, und die hamitische Hypothese stellte Tutsi als fremd und biologisch höherwertig dar.
+      Geschichts- und Genetikforschung verwerfen dieses Rassenmodell, ohne in den umgekehrten Fehler zu verfallen, die
+      vorkolonialen Kategorien als vollständig europäische Erfindung zu behandeln.
+    consequences:
+      - Rassifizierung bereits bestehender sozialer und politischer Identitäten
+      - Koloniale Bevorzugung beim Zugang zu Macht und Bildung entlang einer angeblichen Rassenhierarchie
+      - Erfassung von Hutu-, Tutsi- und Twa-Zugehörigkeit in Zensus- und Identitätsdokumenten
+      - Vermittlung der hamitischen Theorie im kolonialen Bildungswesen
+      - Langfristige Verhärtung politisch mobilisierbarer Identitätsgrenzen
+    mechanism:
+      summary: >-
+        Kolonialverwaltung und Bildungswesen machten die Rassenhierarchie zur Routine, indem sie Hutu, Tutsi und Twa in
+        Zensus- und Identitätsunterlagen erfassten und die hamitische Theorie als Herkunfts- und Rangordnung vermittelten.
+    institutionalCorrection:
+      summary: >-
+        Die belgische Kolonialherrschaft endete 1962, und spätere ruandische Institutionen sowie die Forschung verwarfen
+        das hamitische Rassenmodell. Die vorhandenen v1-Belege nennen jedoch keinen datierten Akt der belgischen
+        Kolonialträger oder einer klar identifizierten belgischen Nachfolgeinstitution, der die Behauptung formell verwarf.
+evidence:
+  - id: rwanda-unity-proposition
+    note: >-
+      Offizielle ruandische historische Darstellung der belgischen Institutionalisierung ethnischer Teilung,
+      administrativer Identitätsklassifikation und der falschen hamitischen Theorie.
+  - id: rwanda-history-correction
+    note: >-
+      Wissenschaftliche Synthese, wonach Hutu- und Tutsi-Kategorien vor der europäischen Herrschaft bestanden, aber keine
+      festen Rassenidentitäten waren und besser als historisch wandelbare politische Identitäten verstanden werden.
+  - id: rwanda-genetics-correction
+    note: >-
+      Populationsgenetische Studie von 2024, die keine wissenschaftliche Grundlage für die kolonial etablierte
+      Rassenklassifikation findet und Ruander in eng verwandte regionale afrikanische Populationen einordnet.
+  - id: rwanda-unity-impact
+  - id: rwanda-un-carrier
+    note: >-
+      UN-Studie zur fiktiven hamitischen Hypothese, kolonialen Rassenhierarchie, schulischen Vermittlung und
+      Identitätskartenklassifikation unter belgischer Herrschaft.
+  - id: rwanda-un-mechanism
+  - id: rwanda-unity-consequences
+  - id: rwanda-history-context

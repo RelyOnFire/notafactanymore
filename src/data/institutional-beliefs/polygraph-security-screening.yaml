@@ -1,297 +1,444 @@
+schemaVersion: 2
 title: Polygraph screening as reliable detection of deception and personnel risk
-claim: Polygraph screening was treated as accurate enough to infer deception, concealed misconduct, or personnel
-  risk from physiological responses, justifying mandatory personnel screening and consequential security, integrity,
-  hiring, or appointment decisions.
-currentUnderstanding: Polygraph responses measure physiological arousal, not deception, integrity, or corruption
-  propensity itself. Specific-incident testing can perform above chance under some conditions, but it is far from
-  infallible, and evidence for broad personnel-screening accuracy is much weaker. Screening and high-stakes appointment
-  decisions amplify false-positive and false-negative risks, especially when the targeted misconduct is rare. Polygraphs
-  may still have investigative, deterrent or admission-eliciting utility, but those functions are distinct from
-  reliable individual truthfulness, integrity or future-misconduct determination.
+proposition:
+  summary: >-
+    Polygraph screening was treated as accurate enough to infer deception, concealed misconduct, or personnel risk from
+    physiological responses, justifying mandatory personnel screening and consequential security, integrity, hiring, or
+    appointment decisions.
+correction:
+  summary: >-
+    Polygraph responses measure physiological arousal, not deception, integrity, or corruption propensity itself.
+    Specific-incident testing can perform above chance under some conditions, but it is far from infallible, and evidence
+    for broad personnel-screening accuracy is much weaker. Screening and high-stakes appointment decisions amplify
+    false-positive and false-negative risks, especially when the targeted misconduct is rare. Polygraphs may still have
+    investigative, deterrent or admission-eliciting utility, but those functions are distinct from reliable individual
+    truthfulness, integrity or future-misconduct determination.
 category: Security screening and behavioral detection
 reviewedAt: '2026-08-24'
 impact:
-  summary: The documented footprint now includes both corrected systems and current ones. The U.S. Department of
-    Energy reduced the evidentiary weight of mandatory security screening after a National Academies review; Moldova
-    removed a dispositive positive-result gate after constitutional review. Kyrgyzstan, Kazakhstan and Uzbekistan,
-    however, continue to embed polygraph results in public-service, law-enforcement or judicial personnel systems.
-    The institutional error is not the use of physiological data itself, but treating those responses as sufficiently
-    diagnostic of truthfulness, concealed misconduct or integrity risk to influence consequential personnel decisions.
+  summary: >-
+    The documented footprint now includes both corrected systems and current ones. The U.S. Department of Energy reduced
+    the evidentiary weight of mandatory security screening after a National Academies review; Moldova removed a dispositive
+    positive-result gate after constitutional review. Kyrgyzstan, Kazakhstan and Uzbekistan, however, continue to embed
+    polygraph results in public-service, law-enforcement or judicial personnel systems. The institutional error is not the
+    use of physiological data itself, but treating those responses as sufficiently diagnostic of truthfulness, concealed
+    misconduct or integrity risk to influence consequential personnel decisions.
   highlights:
-  - value: '2002'
-    label: National Academies found screening accuracy insufficient to justify reliance on polygraphs for detecting
-      security violators
-  - value: 2010–present
-    label: Kyrgyzstan retains polygraph testing in its state-service personnel framework, including corruption-risk
-      posts
-  - value: 2014–present
-    label: Kazakhstan requires polygraph conclusions on answer truthfulness in law-enforcement screening and later
-      extended testing to judge candidates
-  - value: 2023–present
-    label: Uzbekistan made polygraph examination part of Interior Ministry recruitment and trains specialists to
-      assess corruption and misconduct risk
+    - value: '2002'
+      label: National Academies found screening accuracy insufficient to justify reliance on polygraphs for detecting security violators
+    - value: 2010–present
+      label: Kyrgyzstan retains polygraph testing in its state-service personnel framework, including corruption-risk posts
+    - value: 2014–present
+      label: Kazakhstan requires polygraph conclusions on answer truthfulness in law-enforcement screening and later extended testing to judge candidates
+    - value: 2023–present
+      label: Uzbekistan made polygraph examination part of Interior Ministry recruitment and trains specialists to assess corruption and misconduct risk
   context:
-  - The correction is narrower than “polygraphs never work.” The strongest evidentiary problem concerns broad screening
-    and consequential personnel decisions, where physiological arousal is treated as if it uniquely identified deception,
-    concealed misconduct or future institutional risk.
-  - Several current systems formally describe polygraph conclusions as advisory, probabilistic or one component
-    of a wider assessment. They still qualify here when the test is institutionally required and its inferred truthfulness
-    or risk findings are expressly fed into hiring, appointment, attestation or internal-investigation decisions.
+    - >-
+      The correction is narrower than “polygraphs never work.” The strongest evidentiary problem concerns broad screening
+      and consequential personnel decisions, where physiological arousal is treated as if it uniquely identified deception,
+      concealed misconduct or future institutional risk.
+    - >-
+      Several current systems formally describe polygraph conclusions as advisory, probabilistic or one component of a wider
+      assessment. They still qualify here when the test is institutionally required and its inferred truthfulness or risk
+      findings are expressly fed into hiring, appointment, attestation or internal-investigation decisions.
 episodes:
-- id: united-states-doe-1999-2006
-  polity: United States
-  region: North America
-  startYear: 1999
-  endYear: 2006
-  periodLabel: 1999–2006
-  strength: policy-basis
-  institutionTypes:
-  - government
-  institutions:
-  - United States Department of Energy (DOE)
-  - National Nuclear Security Administration (NNSA)
-  - DOE Office of Counterintelligence
-  institutionalContext: DOE’s 1999 rule made counterintelligence polygraph screening part of the access regime for
-    categories of federal and contractor personnel handling highly sensitive nuclear and classified information.
-    Congress then required DOE to take account of a National Academy of Sciences review. After the 2002 report found
-    the test insufficiently accurate for employee security screening, DOE initially proposed continuing the existing
-    program, then revised the system in 2006 so that polygraph findings were only one component of a broader counterintelligence
-    evaluation and could not alone support adverse personnel or access action.
-  consequences:
-  - Employees and contractors in sensitive positions were subjected to mandatory counterintelligence polygraph screening
-  - Refusal could prevent initial access to sensitive positions or result in loss of classified access
-  - Polygraph results generated follow-up interviews and counterintelligence investigation
-  - Screening created predictable risks of false suspicion and false reassurance in a very low-base-rate security
-    population
-  summary: In 1999 the U.S. Department of Energy created a formal counterintelligence polygraph screening program
-    for employees, contractors and applicants with access to especially sensitive classified information and nuclear-security
-    programs. DOE then commissioned the National Academies to review the science. The 2002 review concluded that
-    polygraph accuracy was insufficient for employee security screening because the rarity of actual spies and saboteurs
-    makes damaging false positives and false negatives unavoidable. DOE’s 2006 replacement rule retained polygraphs
-    for defined high-risk evaluations but formally limited their evidentiary role.
-  sources:
-  - title: Polygraph Examination Regulation — Final Rule, 1999
+  - id: united-states-doe-1999-2006
+    polity: United States
+    region: North America
+    startYear: 1999
+    endYear: 2006
+    periodLabel: 1999–2006
+    strength: policy-basis
+    institutionTypes:
+      - government
+    institutions:
+      - United States Department of Energy (DOE)
+      - National Nuclear Security Administration (NNSA)
+      - DOE Office of Counterintelligence
+    institutionalContext: >-
+      DOE’s 1999 rule made counterintelligence polygraph screening part of the access regime for categories of federal and
+      contractor personnel handling highly sensitive nuclear and classified information. Congress then required DOE to take
+      account of a National Academy of Sciences review. After the 2002 report found the test insufficiently accurate for
+      employee security screening, DOE initially proposed continuing the existing program, then revised the system in 2006
+      so that polygraph findings were only one component of a broader counterintelligence evaluation and could not alone
+      support adverse personnel or access action.
+    consequences:
+      - Employees and contractors in sensitive positions were subjected to mandatory counterintelligence polygraph screening
+      - Refusal could prevent initial access to sensitive positions or result in loss of classified access
+      - Polygraph results generated follow-up interviews and counterintelligence investigation
+      - Screening created predictable risks of false suspicion and false reassurance in a very low-base-rate security population
+    summary: >-
+      In 1999 the U.S. Department of Energy created a formal counterintelligence polygraph screening program for employees,
+      contractors and applicants with access to especially sensitive classified information and nuclear-security programs.
+      DOE then commissioned the National Academies to review the science. The 2002 review concluded that polygraph accuracy
+      was insufficient for employee security screening because the rarity of actual spies and saboteurs makes damaging false
+      positives and false negatives unavoidable. DOE’s 2006 replacement rule retained polygraphs for defined high-risk
+      evaluations but formally limited their evidentiary role.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        DOE made polygraph examination a formal personnel-access screening requirement and used results to trigger further
+        counterintelligence evaluation for employees, contractors and applicants in sensitive positions.
+    institutionalCorrection:
+      status: partial
+      periodLabel: '2006'
+      action: DOE replaced the earlier screening rule so polygraph findings became only one component of a broader counterintelligence evaluation and could not alone support adverse personnel or access action.
+      summary: >-
+        DOE reduced the test’s evidentiary authority after the scientific review but retained polygraph use in defined
+        evaluations, making this a limitation rather than a complete institutional abandonment.
+  - id: moldova-2016-2018
+    polity: Moldova
+    region: Eastern Europe
+    startYear: 2016
+    endYear: 2018
+    periodLabel: 2016–2018
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - court
+    institutions:
+      - National Integrity Authority (Autoritatea Națională de Integritate)
+      - Integrity Council (Consiliul de Integritate)
+    institutionalContext: >-
+      Moldova’s integrity-law framework made a positive polygraph result a practical condition for appointment to senior
+      leadership of the National Integrity Authority. In 2017 candidate Teodor Cârnaț passed the written examination and
+      interview but was excluded because his polygraph was not positive. In 2018 the Constitutional Court emphasized that
+      polygraph results are presumptive and orientative, reviewed the test’s low scientific certainty, and invalidated the
+      requirement that a candidate obtain a positive result.
+    consequences:
+      - A candidate for a senior public integrity office was excluded solely because he did not obtain a positive polygraph result
+      - A physiologically based test became an eliminatory gate for public appointment
+      - The system risked treating uncertain deception inference as a definitive integrity judgment
+      - Constitutional litigation was required to reduce the test from dispositive gate to non-conclusive information
+    summary: >-
+      Moldova’s 2016 National Integrity Authority framework required leadership candidates to undergo polygraph testing in
+      a way that made a positive result eliminatory. In 2017 Teodor Cârnaț was excluded after passing the written and
+      interview stages because he did not obtain a positive polygraph result. The Constitutional Court held in 2018 that the
+      test has low scientific certainty and is presumptive and orientative rather than exact; it removed the positive-result
+      requirement as an unjustified dispositive barrier.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        The integrity-law appointment framework converted a polygraph outcome into an eliminatory gate for senior public
+        appointment, allowing a non-positive result to override otherwise successful selection stages.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 10 April 2018
+      action: Moldova's Constitutional Court struck down the requirement that a candidate obtain a positive polygraph result and characterized the test as presumptive and orientative rather than exact.
+      summary: >-
+        The court removed the dispositive gate and reduced the institutional authority of the test, but the v1 record
+        describes a demotion to non-conclusive information rather than complete abolition of polygraph use.
+  - id: kyrgyzstan-2010-2026
+    polity: Kyrgyzstan
+    region: Central Asia
+    startYear: 2010
+    endYear: 2026
+    endOpen: true
+    periodLabel: 2010–present
+    strength: policy-basis
+    institutionTypes:
+      - government
+    institutions:
+      - State Personnel Service of the Kyrgyz Republic
+      - State Agency for Civil Service and Local Government under the Cabinet of Ministers of the Kyrgyz Republic
+    institutionalContext: >-
+      A 2010 presidential decree introduced polygraph testing into Kyrgyzstan’s state-service personnel system. The
+      implementing regulation defined testing as an assessment of the reliability of information supplied by the examinee
+      and set goals including detecting official abuse, identifying commitment or susceptibility to corrupt conduct,
+      verifying education and qualifications, and assessing suitability for a post. Amendments in 2018 expressly included
+      government positions most exposed to corruption risk. The present State Agency for Civil Service and Local Government
+      still lists the decree in its normative legal base, and the agency’s current governing regulation assigns it
+      responsibility for organizing polygraph testing where legislation provides.
+    consequences:
+      - State-service applicants in covered posts can be subjected to polygraph screening
+      - Physiological responses are used to assess the reliability of information supplied by candidates and officials
+      - Testing is directed at corruption susceptibility, official misconduct and suitability for public service
+      - Polygraph information can enter recruitment, rotation and internal-investigation processes
+    summary: >-
+      Kyrgyzstan formally introduced polygraph testing into state-service personnel policy in 2010 as an anti-corruption and
+      integrity-screening tool. The governing framework treats the examination as capable of assessing whether information
+      supplied by an applicant or official is reliable and uses it to probe corruption-related risk, hidden misconduct,
+      qualifications and job suitability. The regime was amended in 2018 to include posts considered particularly exposed
+      to corruption, and the current civil-service agency still lists the decree among its operative legal foundations.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        State-service rules made polygraph testing a personnel-screening instrument for judging the reliability of supplied
+        information, corruption susceptibility, hidden misconduct, qualifications and suitability for public office.
+    institutionalCorrection:
+      status: ongoing
+      periodLabel: 2010–present
+      action: No institutional correction is documented; the current civil-service agency still lists the polygraph decree among its operative legal foundations.
+      summary: >-
+        The personnel framework remains institutionally current and continues to treat polygraph-derived information as
+        relevant to state-service screening.
+  - id: kazakhstan-2014-2026
+    polity: Kazakhstan
+    region: Central Asia
+    startYear: 2014
+    endYear: 2026
+    endOpen: true
+    periodLabel: 2014–present
+    strength: policy-basis
+    institutionTypes:
+      - government
+    institutions:
+      - Government of the Republic of Kazakhstan
+      - Ministry of Internal Affairs of the Republic of Kazakhstan
+      - High Judicial Council of the Republic of Kazakhstan
+      - National Security Committee of the Republic of Kazakhstan
+    institutionalContext: >-
+      Government rules adopted in 2014 require polygraph examinations for defined applicants and personnel in law
+      enforcement, civil protection and state courier bodies. Their stated purpose is to obtain additional information and
+      check the reliability of information supplied by the examinee; the polygraphist issues a formal conclusion about the
+      truthfulness of answers. The rules expressly say the result is probabilistic, advisory and auxiliary, yet require
+      personnel and internal-security bodies to use it in hiring, attestation, competition and service-investigation
+      decisions. Separate rules adopted in 2016 require successful judicial-exam candidates to undergo testing at the
+      National Security Committee. Both frameworks remain current.
+    consequences:
+      - Applicants and serving personnel in covered security and law-enforcement bodies undergo polygraph screening
+      - Formal conclusions classify the truthfulness of answers given during the examination
+      - Results feed hiring, attestation, promotion competition, education admission and service-investigation processes
+      - Judge candidates who pass the qualification examination undergo polygraph testing before further consideration
+      - Information suggesting involvement in offences is forwarded for further official verification
+    summary: >-
+      Kazakhstan has embedded polygraph screening in consequential public-personnel decisions since 2014. Current rules
+      require a polygraphist to issue a conclusion on the truthfulness of an examinee’s answers and direct personnel and
+      internal-security bodies to use the resulting information in recruitment, attestation, competitions and service
+      investigations, while formally describing it as probabilistic and advisory. A parallel system has applied to judge
+      candidates since 2016; both frameworks remained current through 2026.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Government personnel rules require polygraph examinations and formal truthfulness conclusions and feed the
+        resulting information into recruitment, attestation, competitions, service investigations and judge-candidate review.
+    institutionalCorrection:
+      status: ongoing
+      periodLabel: 2014–present
+      action: No correction is documented; the law-enforcement rules remained current with 2025 amendments and the judge-candidate framework was amended again in July 2026.
+      summary: >-
+        Kazakhstan continues to institutionalize polygraph-derived truthfulness judgments in consequential personnel
+        systems despite formally describing results as probabilistic and advisory.
+  - id: uzbekistan-2023-2026
+    polity: Uzbekistan
+    region: Central Asia
+    startYear: 2023
+    endYear: 2026
+    endOpen: true
+    periodLabel: 2023–present
+    strength: policy-basis
+    institutionTypes:
+      - government
+    institutions:
+      - Ministry of Internal Affairs of the Republic of Uzbekistan
+      - Academy of the Ministry of Internal Affairs of the Republic of Uzbekistan
+    institutionalContext: >-
+      Uzbekistan’s current Interior Ministry service rules make a psychophysiological polygraph examination part of the
+      investigative stage for candidates entering the internal-affairs bodies from 1 September 2023, specifically to
+      identify negative factors that can prevent service. The results of the selection and investigation stages feed an
+      official conclusion on the candidate’s moral-professional and health suitability. In August 2026 the Interior
+      Ministry Academy trained psychologists to use polygraph testing to assess applicant risk factors and identify an
+      employee’s propensity toward corruption and other misconduct.
+    consequences:
+      - Police-service candidates undergo polygraph examination as part of the formal recruitment investigation stage
+      - Polygraph-derived risk findings contribute to assessment of suitability for service
+      - Personnel specialists are trained to infer propensity toward corruption and other misconduct from psychophysiological testing
+      - The method is being institutionalized through certified specialist training inside the Interior Ministry system
+    summary: >-
+      Since September 2023, Uzbekistan has required a psychophysiological polygraph examination within the selection
+      process for candidates entering the internal-affairs service, with the stated purpose of identifying negative factors
+      that may bar service. This remains an active personnel practice. In August 2026 the Interior Ministry Academy trained
+      specialists to use polygraph examinations to evaluate candidate risk factors and identify corruption and other
+      misconduct propensity when making personnel decisions.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Interior Ministry service rules made polygraph testing part of recruitment screening, while the ministry academy
+        trains specialists to infer applicant risk and propensity toward corruption or misconduct from psychophysiological responses.
+    institutionalCorrection:
+      status: ongoing
+      periodLabel: 2023–present
+      action: No correction is documented; the Interior Ministry continued the recruitment requirement and expanded specialist training in August 2026.
+      summary: >-
+        The current personnel system continues to operationalize polygraph-derived risk judgments rather than formally
+        retreating from them.
+sources:
+  - id: polygraph-doe-1999
+    title: Polygraph Examination Regulation — Final Rule, 1999
     url: https://www.govinfo.gov/content/pkg/FR-1999-12-17/pdf/99-32721.pdf
     publisher: United States Department of Energy / Federal Register
-    note: Primary federal rule establishing DOE counterintelligence polygraph screening for specified employees,
-      contractors, applicants and other personnel with access to sensitive information and programs.
-  - title: The Polygraph and Lie Detection — Executive Summary
+  - id: polygraph-nas
+    title: The Polygraph and Lie Detection — Executive Summary
     url: https://www.nationalacademies.org/read/10420/chapter/2
     publisher: National Research Council / National Academies Press
-    note: Scientific review finding that physiological responses measured by polygraphs are not unique to deception,
-      that evidence for screening accuracy is extremely limited, and that employee screening creates serious false-positive
-      and false-negative problems; it distinguishes these limitations from the above-chance performance sometimes
-      seen in specific-incident testing.
-  - title: Counterintelligence Evaluation Regulations — 2006 final rule
+  - id: polygraph-doe-2006
+    title: Counterintelligence Evaluation Regulations — 2006 final rule
     url: https://sgp.fas.org/news/2006/09/fr092906.html
     publisher: United States Department of Energy / Federal Register text mirrored by Federation of American Scientists
-    note: Reconstructs DOE’s policy history and establishes the 2006 framework treating polygraph results as one
-      component of a broader counterintelligence evaluation.
-  - title: 10 CFR § 709.25 — Limits on use of polygraph examination results
+  - id: polygraph-doe-current-limit
+    title: 10 CFR § 709.25 — Limits on use of polygraph examination results
     url: https://www.law.cornell.edu/cfr/text/10/709.25
     publisher: Electronic Code of Federal Regulations via Legal Information Institute
-    note: Current codified rule prohibits DOE or its contractors from taking adverse personnel or access action
-      solely on a significant-response or no-opinion polygraph result and bars substituting the polygraph for required
-      investigation.
-- id: moldova-2016-2018
-  polity: Moldova
-  region: Eastern Europe
-  startYear: 2016
-  endYear: 2018
-  periodLabel: 2016–2018
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - court
-  institutions:
-  - National Integrity Authority (Autoritatea Națională de Integritate)
-  - Integrity Council (Consiliul de Integritate)
-  institutionalContext: Moldova’s integrity-law framework made a positive polygraph result a practical condition
-    for appointment to senior leadership of the National Integrity Authority. In 2017 candidate Teodor Cârnaț passed
-    the written examination and interview but was excluded because his polygraph was not positive. In 2018 the Constitutional
-    Court emphasized that polygraph results are presumptive and orientative, reviewed the test’s low scientific
-    certainty, and invalidated the requirement that a candidate obtain a positive result.
-  consequences:
-  - A candidate for a senior public integrity office was excluded solely because he did not obtain a positive polygraph
-    result
-  - A physiologically based test became an eliminatory gate for public appointment
-  - The system risked treating uncertain deception inference as a definitive integrity judgment
-  - Constitutional litigation was required to reduce the test from dispositive gate to non-conclusive information
-  summary: Moldova’s 2016 National Integrity Authority framework required leadership candidates to undergo polygraph
-    testing in a way that made a positive result eliminatory. In 2017 Teodor Cârnaț was excluded after passing the
-    written and interview stages because he did not obtain a positive polygraph result. The Constitutional Court
-    held in 2018 that the test has low scientific certainty and is presumptive and orientative rather than exact;
-    it removed the positive-result requirement as an unjustified dispositive barrier.
-  sources:
-  - title: Hotărârea nr. 6 din 10.04.2018 privind testul poligraf
+  - id: polygraph-moldova-court
+    title: Hotărârea nr. 6 din 10.04.2018 privind testul poligraf
     url: https://constcourt.md/public/ccdoc/hotariri/ro-h62018147g2017-roc51cd.pdf
     publisher: Constitutional Court of the Republic of Moldova
-    note: Primary judgment reproducing the statutory purpose of polygraph testing as assessment of the truthfulness
-      of supplied information, documenting the 2017 exclusion of a National Integrity Authority candidate for a
-      non-positive result, and striking the positive-result requirement after emphasizing the test’s presumptive
-      character and low scientific certainty.
-- id: kyrgyzstan-2010-2026
-  polity: Kyrgyzstan
-  region: Central Asia
-  startYear: 2010
-  endYear: 2026
-  endOpen: true
-  periodLabel: 2010–present
-  strength: policy-basis
-  institutionTypes:
-  - government
-  institutions:
-  - State Personnel Service of the Kyrgyz Republic
-  - State Agency for Civil Service and Local Government under the Cabinet of Ministers of the Kyrgyz Republic
-  institutionalContext: A 2010 presidential decree introduced polygraph testing into Kyrgyzstan’s state-service
-    personnel system. The implementing regulation defined testing as an assessment of the reliability of information
-    supplied by the examinee and set goals including detecting official abuse, identifying commitment or susceptibility
-    to corrupt conduct, verifying education and qualifications, and assessing suitability for a post. Amendments
-    in 2018 expressly included government positions most exposed to corruption risk. The present State Agency for
-    Civil Service and Local Government still lists the decree in its normative legal base, and the agency’s current
-    governing regulation assigns it responsibility for organizing polygraph testing where legislation provides.
-  consequences:
-  - State-service applicants in covered posts can be subjected to polygraph screening
-  - Physiological responses are used to assess the reliability of information supplied by candidates and officials
-  - Testing is directed at corruption susceptibility, official misconduct and suitability for public service
-  - Polygraph information can enter recruitment, rotation and internal-investigation processes
-  summary: Kyrgyzstan formally introduced polygraph testing into state-service personnel policy in 2010 as an anti-corruption
-    and integrity-screening tool. The governing framework treats the examination as capable of assessing whether
-    information supplied by an applicant or official is reliable and uses it to probe corruption-related risk, hidden
-    misconduct, qualifications and job suitability. The regime was amended in 2018 to include posts considered particularly
-    exposed to corruption, and the current civil-service agency still lists the decree among its operative legal
-    foundations and retains a statutory function to organize polygraph testing.
-  sources:
-  - title: Указ Президента КР от 27 августа 2010 года УП № 146 — О первоочередных мерах по внедрению системы тестирования
-      на полиграфе в сфере государственной службы
+  - id: polygraph-kyrgyz-decree
+    title: Указ Президента КР от 27 августа 2010 года УП № 146 — О первоочередных мерах по внедрению системы тестирования на полиграфе в сфере государственной службы
     url: https://cbd.minjust.gov.kg/60672/edition/882044/ru
     publisher: Ministry of Justice of the Kyrgyz Republic — Centralized Legal Information Bank
-    note: Official legal-bank record for the polygraph decree and its amended framework. The decree introduced polygraph
-      testing into state service; the implementing rules define the examination as assessment of the reliability
-      of supplied information and target official abuse, corruption-related risk, qualifications and job suitability.
-  - title: Нормативно правовая база
+  - id: polygraph-kyrgyz-current
+    title: Нормативно правовая база
     url: https://mkk.gov.kg/ru/normativno-pravovaya-baza/
-    publisher: State Agency for Civil Service and Local Government under the Cabinet of Ministers of the Kyrgyz
-      Republic
-    note: Current civil-service agency page listing Presidential Decree No. 146 on state-service polygraph testing
-      among the agency’s normative legal base, supporting that the regime remains institutionally current.
-  - title: The Polygraph and Lie Detection — Executive Summary
-    url: https://www.nationalacademies.org/read/10420/chapter/2
-    publisher: National Research Council / National Academies Press
-    note: Scientific review finding that physiological responses measured by polygraphs are not unique to deception,
-      that evidence for screening accuracy is extremely limited, and that employee screening creates serious false-positive
-      and false-negative problems; it distinguishes these limitations from the above-chance performance sometimes
-      seen in specific-incident testing.
-- id: kazakhstan-2014-2026
-  polity: Kazakhstan
-  region: Central Asia
-  startYear: 2014
-  endYear: 2026
-  endOpen: true
-  periodLabel: 2014–present
-  strength: policy-basis
-  institutionTypes:
-  - government
-  institutions:
-  - Government of the Republic of Kazakhstan
-  - Ministry of Internal Affairs of the Republic of Kazakhstan
-  - High Judicial Council of the Republic of Kazakhstan
-  - National Security Committee of the Republic of Kazakhstan
-  institutionalContext: Government rules adopted in 2014 require polygraph examinations for defined applicants and
-    personnel in law-enforcement, civil-protection and state courier bodies. Their stated purpose is to obtain additional
-    information and check the reliability of information supplied by the examinee; the polygraphist issues a formal
-    conclusion about the truthfulness of answers. The rules expressly say the result is probabilistic, advisory
-    and auxiliary, yet require personnel, attestation, competition, admissions and internal-security bodies to use
-    it in hiring, attestation, competition and service-investigation decisions. Separate rules adopted in 2016 require
-    successful judicial-exam candidates to undergo testing at the National Security Committee, again producing a
-    conclusion on answer truthfulness. Both frameworks remain current, with law-enforcement rules amended in 2025
-    and judge-candidate forms amended in July 2026.
-  consequences:
-  - Applicants and serving personnel in covered security and law-enforcement bodies undergo polygraph screening
-  - Formal conclusions classify the truthfulness of answers given during the examination
-  - Results feed hiring, attestation, promotion competition, education admission and service-investigation processes
-  - Judge candidates who pass the qualification examination undergo polygraph testing before further consideration
-  - Information suggesting involvement in offences is forwarded for further official verification
-  summary: 'Kazakhstan has embedded polygraph screening in consequential public-personnel decisions since 2014.
-    Current rules require a polygraphist to issue a conclusion on the truthfulness of an examinee’s answers and
-    direct personnel and internal-security bodies to use the resulting information in recruitment, attestation,
-    competitions and service investigations, while formally describing it as probabilistic and advisory. A parallel
-    system has applied to judge candidates since 2016. The regime is still active: the law-enforcement rules were
-    amended in 2025 and the judge-candidate polygraph forms again in July 2026.'
-  sources:
-  - title: Об утверждении Правил прохождения полиграфологического исследования в правоохранительных органах, органах
-      гражданской защиты, государственной фельдъегерской службе Республики Казахстан
+    publisher: State Agency for Civil Service and Local Government under the Cabinet of Ministers of the Kyrgyz Republic
+  - id: polygraph-kazakh-law-enforcement
+    title: Об утверждении Правил прохождения полиграфологического исследования в правоохранительных органах, органах гражданской защиты, государственной фельдъегерской службе Республики Казахстан
     url: https://adilet.zan.kz/rus/docs/P1400000683
     publisher: Әділет — Legal Information System of the Republic of Kazakhstan
-    note: Current government rules, originally adopted in 2014, defining the purpose as checking reliability of
-      supplied information, requiring a conclusion on the truthfulness of answers, and directing that the probabilistic/advisory
-      result be used in recruitment, attestation, competitions and service investigations. The text incorporates
-      2025 amendments.
-  - title: Об утверждении Правил прохождения полиграфологического исследования кандидатами в судьи
+  - id: polygraph-kazakh-judges
+    title: Об утверждении Правил прохождения полиграфологического исследования кандидатами в судьи
     url: https://adilet.zan.kz/rus/docs/P1600000191
     publisher: Әділет — Legal Information System of the Republic of Kazakhstan
-    note: Current 2016 rules requiring successful judge candidates to undergo polygraph examination through the
-      National Security Committee, with a formal conclusion on the truthfulness of answers. The current text records
-      amendments to the declaration form adopted on 14 July 2026.
-  - title: The Polygraph and Lie Detection — Executive Summary
-    url: https://www.nationalacademies.org/read/10420/chapter/2
-    publisher: National Research Council / National Academies Press
-    note: Scientific review finding that physiological responses measured by polygraphs are not unique to deception,
-      that evidence for screening accuracy is extremely limited, and that employee screening creates serious false-positive
-      and false-negative problems; it distinguishes these limitations from the above-chance performance sometimes
-      seen in specific-incident testing.
-- id: uzbekistan-2023-2026
-  polity: Uzbekistan
-  region: Central Asia
-  startYear: 2023
-  endYear: 2026
-  endOpen: true
-  periodLabel: 2023–present
-  strength: policy-basis
-  institutionTypes:
-  - government
-  institutions:
-  - Ministry of Internal Affairs of the Republic of Uzbekistan
-  - Academy of the Ministry of Internal Affairs of the Republic of Uzbekistan
-  institutionalContext: 'Uzbekistan’s current Interior Ministry service rules make a psychophysiological polygraph
-    examination part of the investigative stage for candidates entering the internal-affairs bodies from 1 September
-    2023, specifically to identify negative factors that can prevent service. The results of the selection and investigation
-    stages feed an official conclusion on the candidate’s moral-professional and health suitability. The institutional
-    interpretation is explicit in current practice: in August 2026 the Interior Ministry Academy trained ministry
-    and partner-law-enforcement psychologists to use polygraph testing to assess applicant risk factors and identify
-    an employee’s propensity toward corruption and other misconduct, including analysis of recorded psychophysiological
-    reactions.'
-  consequences:
-  - Police-service candidates undergo polygraph examination as part of the formal recruitment investigation stage
-  - Polygraph-derived risk findings contribute to assessment of suitability for service
-  - Personnel specialists are trained to infer propensity toward corruption and other misconduct from psychophysiological
-    testing
-  - The method is being institutionalized through certified specialist training inside the Interior Ministry system
-  summary: 'Since September 2023, Uzbekistan has required a psychophysiological polygraph examination within the
-    selection process for candidates entering the internal-affairs service, with the stated purpose of identifying
-    negative factors that may bar service. This remains an active personnel practice. In August 2026 the Interior
-    Ministry Academy trained specialists to use polygraph examinations to evaluate candidate risk factors and to
-    identify corruption and other misconduct propensity when making personnel decisions. The policy therefore goes
-    beyond possession of a “lie detector”: physiological responses are formally used as information about hidden
-    personnel risk in consequential state employment screening.'
-  sources:
-  - title: Xizmatni o'tash tartibi — Ichki ishlar organlarida xizmatni o’tash tartibi to’g’risidagi nizom
+  - id: polygraph-uzbek-service
+    title: Xizmatni o'tash tartibi — Ichki ishlar organlarida xizmatni o’tash tartibi to’g’risidagi nizom
     url: https://digital.gov.uz/oz/iiv/pages/xizmatni-o-tash-tartibi
     publisher: Government of the Republic of Uzbekistan / Ministry of Internal Affairs
-    note: Current government service rules stating that from 1 September 2023 a psychophysiological polygraph examination
-      forms part of the candidate investigation stage to identify negative factors preventing service; the selection
-      and investigation stages lead to an official suitability conclusion.
-  - title: IIV akademiyasida ichki ishlar va hamkor huquqni muhofaza qiluvchi tuzilmalarning psixolog-mutaxassislari
-      uchun 2 bosqichdan iborat o‘quv kursi tashkil qilindi
+  - id: polygraph-uzbek-training
+    title: IIV akademiyasida ichki ishlar va hamkor huquqni muhofaza qiluvchi tuzilmalarning psixolog-mutaxassislari uchun 2 bosqichdan iborat o‘quv kursi tashkil qilindi
     url: https://gov.uz/oz/iiv/news/view/206693
     publisher: Ministry of Internal Affairs of the Republic of Uzbekistan
-    note: Official 16 August 2026 report on specialist polygraph training. It states that training addressed assessment
-      of applicant risk factors and identification of employees’ propensity toward corruption and other misconduct,
-      alongside practical interpretation of psychophysiological reactions.
-  - title: The Polygraph and Lie Detection — Executive Summary
-    url: https://www.nationalacademies.org/read/10420/chapter/2
-    publisher: National Research Council / National Academies Press
-    note: Scientific review finding that physiological responses measured by polygraphs are not unique to deception,
-      that evidence for screening accuracy is extremely limited, and that employee screening creates serious false-positive
-      and false-negative problems; it distinguishes these limitations from the above-chance performance sometimes
-      seen in specific-incident testing.
+evidence:
+  - id: polygraph-doe-proposition
+    sourceId: polygraph-doe-1999
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Primary federal rule establishing DOE counterintelligence polygraph screening for specified employees, contractors,
+      applicants and other personnel with access to sensitive information and programs.
+  - id: polygraph-nas-correction
+    sourceId: polygraph-nas
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Scientific review finding that physiological responses measured by polygraphs are not unique to deception, evidence
+      for screening accuracy is extremely limited, and employee screening creates serious false-positive and false-negative
+      problems; it distinguishes these limitations from above-chance performance sometimes seen in specific-incident testing.
+  - id: polygraph-nas-impact
+    sourceId: polygraph-nas
+    relation: supports
+    target: {scope: belief, aspect: impact}
+  - id: polygraph-doe-carrier
+    sourceId: polygraph-doe-1999
+    relation: documents
+    target: {scope: episode, episodeId: united-states-doe-1999-2006, aspect: carrier}
+  - id: polygraph-doe-mechanism
+    sourceId: polygraph-doe-1999
+    relation: documents
+    target: {scope: episode, episodeId: united-states-doe-1999-2006, aspect: mechanism}
+  - id: polygraph-doe-consequences
+    sourceId: polygraph-nas
+    relation: supports
+    target: {scope: episode, episodeId: united-states-doe-1999-2006, aspect: consequences}
+  - id: polygraph-doe-2006-correction
+    sourceId: polygraph-doe-2006
+    relation: documents
+    target: {scope: episode, episodeId: united-states-doe-1999-2006, aspect: institutional-correction}
+    note: >-
+      Reconstructs DOE’s policy history and establishes the 2006 framework treating polygraph results as one component of a
+      broader counterintelligence evaluation.
+  - id: polygraph-doe-current-limit-correction
+    sourceId: polygraph-doe-current-limit
+    relation: documents
+    target: {scope: episode, episodeId: united-states-doe-1999-2006, aspect: institutional-correction}
+    note: >-
+      Current codified rule prohibits DOE or its contractors from taking adverse personnel or access action solely on a
+      significant-response or no-opinion polygraph result and bars substituting the polygraph for required investigation.
+  - id: polygraph-moldova-carrier
+    sourceId: polygraph-moldova-court
+    relation: documents
+    target: {scope: episode, episodeId: moldova-2016-2018, aspect: carrier}
+    note: >-
+      Primary judgment reproducing the statutory purpose of polygraph testing as assessment of supplied-information
+      truthfulness, documenting the 2017 exclusion of a candidate for a non-positive result, and striking the positive-result
+      requirement after emphasizing the test’s presumptive character and low scientific certainty.
+  - id: polygraph-moldova-mechanism
+    sourceId: polygraph-moldova-court
+    relation: documents
+    target: {scope: episode, episodeId: moldova-2016-2018, aspect: mechanism}
+  - id: polygraph-moldova-consequences
+    sourceId: polygraph-moldova-court
+    relation: supports
+    target: {scope: episode, episodeId: moldova-2016-2018, aspect: consequences}
+  - id: polygraph-moldova-correction
+    sourceId: polygraph-moldova-court
+    relation: documents
+    target: {scope: episode, episodeId: moldova-2016-2018, aspect: institutional-correction}
+  - id: polygraph-kyrgyz-carrier
+    sourceId: polygraph-kyrgyz-decree
+    relation: documents
+    target: {scope: episode, episodeId: kyrgyzstan-2010-2026, aspect: carrier}
+    note: >-
+      Official legal-bank record for the polygraph decree and amended framework. The decree introduced testing into state
+      service; the implementing rules define it as assessing the reliability of supplied information and target official
+      abuse, corruption-related risk, qualifications and job suitability.
+  - id: polygraph-kyrgyz-mechanism
+    sourceId: polygraph-kyrgyz-decree
+    relation: documents
+    target: {scope: episode, episodeId: kyrgyzstan-2010-2026, aspect: mechanism}
+  - id: polygraph-kyrgyz-consequences
+    sourceId: polygraph-kyrgyz-decree
+    relation: supports
+    target: {scope: episode, episodeId: kyrgyzstan-2010-2026, aspect: consequences}
+  - id: polygraph-kyrgyz-ongoing
+    sourceId: polygraph-kyrgyz-current
+    relation: documents
+    target: {scope: episode, episodeId: kyrgyzstan-2010-2026, aspect: institutional-correction}
+    note: >-
+      Current civil-service agency page listing Presidential Decree No. 146 on state-service polygraph testing among the
+      agency’s normative legal base, supporting that the regime remains institutionally current.
+  - id: polygraph-kazakh-carrier
+    sourceId: polygraph-kazakh-law-enforcement
+    relation: documents
+    target: {scope: episode, episodeId: kazakhstan-2014-2026, aspect: carrier}
+    note: >-
+      Current government rules defining the purpose as checking reliability of supplied information, requiring a conclusion
+      on answer truthfulness, and directing that the probabilistic/advisory result be used in recruitment, attestation,
+      competitions and service investigations; the text incorporates 2025 amendments.
+  - id: polygraph-kazakh-mechanism
+    sourceId: polygraph-kazakh-law-enforcement
+    relation: documents
+    target: {scope: episode, episodeId: kazakhstan-2014-2026, aspect: mechanism}
+  - id: polygraph-kazakh-consequences
+    sourceId: polygraph-kazakh-judges
+    relation: supports
+    target: {scope: episode, episodeId: kazakhstan-2014-2026, aspect: consequences}
+    note: >-
+      Current 2016 rules requiring successful judge candidates to undergo polygraph examination through the National
+      Security Committee, with a formal conclusion on the truthfulness of answers; the current text records July 2026 amendments.
+  - id: polygraph-kazakh-ongoing
+    sourceId: polygraph-kazakh-law-enforcement
+    relation: documents
+    target: {scope: episode, episodeId: kazakhstan-2014-2026, aspect: institutional-correction}
+  - id: polygraph-uzbek-carrier
+    sourceId: polygraph-uzbek-service
+    relation: documents
+    target: {scope: episode, episodeId: uzbekistan-2023-2026, aspect: carrier}
+    note: >-
+      Current government service rules stating that from 1 September 2023 a psychophysiological polygraph examination forms
+      part of the candidate investigation stage to identify negative factors preventing service; the stages lead to an
+      official suitability conclusion.
+  - id: polygraph-uzbek-mechanism
+    sourceId: polygraph-uzbek-service
+    relation: documents
+    target: {scope: episode, episodeId: uzbekistan-2023-2026, aspect: mechanism}
+  - id: polygraph-uzbek-consequences
+    sourceId: polygraph-uzbek-training
+    relation: supports
+    target: {scope: episode, episodeId: uzbekistan-2023-2026, aspect: consequences}
+    note: >-
+      Official 16 August 2026 report on specialist polygraph training addressing applicant risk factors, employees’
+      propensity toward corruption and other misconduct, and practical interpretation of psychophysiological reactions.
+  - id: polygraph-uzbek-ongoing
+    sourceId: polygraph-uzbek-training
+    relation: documents
+    target: {scope: episode, episodeId: uzbekistan-2023-2026, aspect: institutional-correction}

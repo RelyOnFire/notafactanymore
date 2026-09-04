@@ -1,261 +1,429 @@
+schemaVersion: 2
 title: Anal examinations as proof of same-sex conduct
-claim: The shape, tone, or condition of the anus and anal sphincter was treated as physical evidence that a person
-  had engaged in receptive anal intercourse.
-currentUnderstanding: Anal examinations cannot reliably determine whether someone has previously engaged in consensual
-  receptive anal intercourse. The supposed forensic signs descend from discredited nineteenth-century theories and
-  have no scientifically valid evidentiary value.
+proposition:
+  summary: >-
+    The shape, tone, or condition of the anus and anal sphincter was treated as physical evidence that a person had
+    engaged in receptive anal intercourse.
+correction:
+  summary: >-
+    Anal examinations cannot reliably determine whether someone has previously engaged in consensual receptive anal
+    intercourse. The supposed forensic signs descend from discredited nineteenth-century theories and have no
+    scientifically valid evidentiary value.
 category: Forensic medicine and sexuality
 reviewedAt: '2026-08-24'
 episodes:
-- id: egypt-2001-2017
-  polity: Egypt
-  region: Middle East
-  startYear: 2001
-  endYear: 2026
-  endOpen: true
-  periodLabel: 2001–present
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - court
-  - medical
-  institutions:
-  - Forensic Medicine Authority (مصلحة الطب الشرعي)
-  - Egyptian Public Prosecution (النيابة العامة)
-  - Ministry of Justice (وزارة العدل)
-  institutionalContext: Public prosecutors refer defendants accused of “debauchery” for examination; the Ministry
-    of Justice’s Forensic Medicine Authority performs the examinations and produces reports used as evidence. Police
-    make arrests and escort detainees, but the decisive medico-legal chain is prosecution referral → Forensic Medicine
-    Authority examination → court use of the report. Recent documentation shows that this chain continued well beyond
-    2017 and remained in operation into the 2020s.
-  consequences:
-  - Forced anal examinations
-  - Medical reports used in prosecutions
-  - Conviction and imprisonment for consensual same-sex conduct
-  - Cruel, degrading and potentially torturous treatment
-  summary: Egyptian prosecutors have repeatedly referred men and transgender women accused of “debauchery” to the
-    Justice Ministry’s Forensic Medicine Authority for anal examinations intended to produce evidence of receptive
-    anal sex. The practice is documented from the 2001 Queen Boat prosecutions into the 2020s. A 2024 civil-society
-    submission documented 45 prosecution referrals for forced anal examinations between July 2019 and June 2024,
-    while recent human-rights reporting states that the resulting forensic reports continue to be used against defendants
-    despite the absence of scientific validity.
-  sources:
-  - title: Dignity Debased — Forced Anal Examinations in Homosexuality Prosecutions
+  - id: egypt-2001-2017
+    polity: Egypt
+    region: Middle East
+    startYear: 2001
+    endYear: 2026
+    endOpen: true
+    periodLabel: 2001–present
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - court
+      - medical
+    institutions:
+      - Forensic Medicine Authority (مصلحة الطب الشرعي)
+      - Egyptian Public Prosecution (النيابة العامة)
+      - Ministry of Justice (وزارة العدل)
+    institutionalContext: >-
+      Public prosecutors refer defendants accused of “debauchery” for examination; the Ministry of Justice’s Forensic
+      Medicine Authority performs the examinations and produces reports used as evidence. Police make arrests and escort
+      detainees, but the decisive medico-legal chain is prosecution referral → Forensic Medicine Authority examination →
+      court use of the report. Recent documentation shows that this chain continued well beyond 2017 and remained in
+      operation into the 2020s.
+    consequences:
+      - Forced anal examinations
+      - Medical reports used in prosecutions
+      - Conviction and imprisonment for consensual same-sex conduct
+      - Cruel, degrading and potentially torturous treatment
+    summary: >-
+      Egyptian prosecutors have repeatedly referred men and transgender women accused of “debauchery” to the Justice
+      Ministry’s Forensic Medicine Authority for anal examinations intended to produce evidence of receptive anal sex. The
+      practice is documented from the 2001 Queen Boat prosecutions into the 2020s. A 2024 civil-society submission
+      documented 45 prosecution referrals for forced anal examinations between July 2019 and June 2024, while recent
+      human-rights reporting states that the resulting forensic reports continue to be used against defendants despite the
+      absence of scientific validity.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Prosecutors formally refer defendants to the Justice Ministry’s forensic authority, which performs examinations
+        intended to infer receptive anal intercourse and returns reports for use in criminal proceedings.
+    institutionalCorrection:
+      status: ongoing
+      periodLabel: 2001–present
+      action: No institutional correction is documented; prosecution referrals and forensic examinations remained in use into the 2020s.
+      summary: >-
+        The medico-legal chain remains active despite international medical rejection of the inference, so the carrier has
+        not institutionally corrected the proposition in the existing v1 record.
+  - id: lebanon-2012-2015
+    polity: Lebanon
+    region: Middle East
+    startYear: 2012
+    endYear: 2015
+    periodLabel: 2012–2015
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - court
+      - medical
+    institutions:
+      - Cassation Public Prosecution
+      - Internal Security Forces
+      - Lebanese Order of Physicians
+    institutionalContext: >-
+      Internal Security Forces arrests fed suspects into a medico-legal process in which public prosecutors could order
+      forensic anal examinations. The Cassation Public Prosecution sat at the top of the national prosecutorial hierarchy;
+      its 2012 directive did not impose a categorical ban, but permitted examinations with purported consent and treated
+      refusal as incriminating. The Lebanese Order of Physicians separately instructed doctors not to perform the tests.
+      Human Rights Watch documented continued examinations or threats of examination in 2014 and 2015.
+    consequences:
+      - Forced anal examinations
+      - Medical evidence used in criminal charges
+      - Cruel and degrading treatment
+    summary: >-
+      In 2012, Lebanese public prosecutors ordered forensic anal examinations of men arrested on suspicion of homosexual
+      conduct, and examination results contributed to criminal charges. The Lebanese Order of Physicians condemned the
+      tests as medically and scientifically useless and a form of torture. The practice did not end immediately: the public
+      prosecutor’s 2012 directive still allowed examinations under purported consent and treated refusal as evidence, and
+      later reporting documented continued use or threats of use through 2015.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Police arrests and prosecutorial referrals fed suspects into forensic examinations whose results could be used in
+        criminal charges, while medical and prosecutorial institutions adopted conflicting policies over whether the tests should continue.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 2012–2015
+      action: The Lebanese Order of Physicians instructed doctors not to perform the examinations, while the Cassation Public Prosecution limited but did not categorically prohibit them.
+      summary: >-
+        One institutional carrier explicitly rejected the tests as medically useless and abusive, but the prosecutorial
+        directive preserved a purported-consent route and later use or threats continued, so the correction was incomplete.
+  - id: kenya-2015-2018
+    polity: Kenya
+    region: East Africa
+    startYear: 2015
+    endYear: 2018
+    periodLabel: 2015–2018
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+      - court
+      - medical
+    institutions:
+      - Chief Magistrate Ukunda Law Courts
+      - DCIO, Msambweni Police Station
+      - Makadara General Hospital, Kwale
+    institutionalContext: >-
+      In a 2015 criminal investigation, the prosecution sought medical examinations intended to establish same-sex conduct,
+      a magistrate authorized the process, and a public hospital examined the two men. The Kenyan Court of Appeal later
+      reconstructed that institutional chain and held in 2018 that the forced anal examinations violated constitutional
+      rights and could not scientifically establish the alleged conduct.
+    consequences:
+      - Court-authorized forced anal examinations
+      - Police transport and coercive medical examination of accused men
+      - Use of supposed anatomical evidence in a criminal prosecution
+      - Violation of privacy, dignity and protection from degrading treatment
+    summary: >-
+      After two men were arrested in Kwale in 2015, state investigators obtained a magistrate’s order and took them to
+      Makadara General Hospital for forced examinations intended to provide evidence of same-sex conduct. In 2018 the Court
+      of Appeal held that the examinations violated their rights. The judgment recorded the medical objection that anal
+      examination cannot establish whether a person had engaged in the alleged conduct, matching international medical
+      consensus that such tests are scientifically invalid.
+    mechanism:
+      kind: enforcement
+      summary: >-
+        Police and prosecutors obtained judicial authorization for coercive medical examinations, and a public hospital
+        performed them to generate evidence for a criminal prosecution.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: '2018'
+      action: The Court of Appeal of Kenya held that forced anal examinations violated constitutional rights and could not scientifically establish the alleged same-sex conduct.
+      summary: >-
+        Kenya’s appellate judiciary reversed the lower-court authorization and rejected both the coercive procedure and its
+        claimed evidentiary basis.
+  - id: kazakhstan-2016-2026
+    polity: Kazakhstan
+    region: Central Asia
+    startYear: 2016
+    endYear: 2026
+    endOpen: true
+    periodLabel: 2016–present
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+    institutions:
+      - Center for Forensic Examinations, Ministry of Justice of the Republic of Kazakhstan
+    institutionalContext: >-
+      Kazakhstan does not criminalize consensual same-sex relations; this methodology is framed for investigations of
+      sexual crimes. Even so, the Ministry of Justice forensic methodology directs experts to examine the anus and rectum
+      for supposed signs characteristic of a “passive partner,” including sphincter tone, funnel-shaped or gaping appearance
+      and smoothed radial folds. The methodology was approved by the state forensic centre’s Scientific Council in December
+      2016 and remains published by the Ministry of Justice forensic system.
+    consequences:
+      - Invasive forensic examination of the anus and rectum
+      - Anatomically unsupported inference about repeated receptive anal intercourse
+      - Potentially misleading expert evidence in criminal investigations
+    summary: >-
+      Kazakhstan’s Ministry of Justice forensic system maintains a methodology for examining men in sexual-crime
+      investigations that treats several chronic anorectal features as characteristic of systematic receptive male-male
+      intercourse. It instructs examiners to assess sphincter tone by digital examination and lists funnel-shaped or gaping
+      appearance, smoothed folds, sphincter relaxation and mucosal coloration as characteristic changes in “systematic”
+      passive partners. Modern forensic consensus rejects those features as reliable evidence that a person has previously
+      engaged in consensual receptive anal intercourse.
+    mechanism:
+      kind: standard-setting
+      summary: >-
+        The Ministry of Justice forensic centre codified anorectal inspection and sphincter examination in an official
+        methodology that assigns evidentiary meaning to features said to characterize repeated receptive intercourse.
+    institutionalCorrection:
+      status: ongoing
+      periodLabel: 2016–present
+      action: No correction is documented; the methodology remains published within the state forensic system and current forensic handbooks retain examinations for signs of sexual acts.
+      summary: >-
+        The state forensic framework continues to operationalize the disputed anatomical inference rather than replacing it
+        with a scientifically valid method.
+  - id: uzbekistan-2017-2026
+    polity: Uzbekistan
+    region: Central Asia
+    startYear: 2017
+    endYear: 2026
+    endOpen: true
+    periodLabel: 2017–present
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - court
+      - medical
+    institutions:
+      - Ministry of Internal Affairs of the Republic of Uzbekistan
+      - State forensic medical examiners
+      - Criminal courts applying Article 120 of the Criminal Code
+    institutionalContext: >-
+      Law-enforcement officials order forensic anal examinations of men detained under Article 120, which criminalizes
+      consensual same-sex relations between men. Medical reports have been introduced as evidence in prosecutions, and
+      courts have relied on supposed anatomical signs such as smoothed radial folds and weakened sphincter tone. Reporting
+      in 2025 and a June 2026 joint statement document the practice as continuing alongside intensified Article 120 enforcement.
+    consequences:
+      - Forced anal examinations in detention
+      - Medical reports used as evidence of consensual same-sex conduct
+      - Criminal convictions, house arrest and imprisonment
+      - Cruel, degrading and potentially torturous treatment
+    summary: >-
+      Uzbek law-enforcement authorities have ordered forced anal examinations to obtain supposed evidence for prosecutions
+      under Article 120 of the Criminal Code. A documented 2021 case shows a Tashkent court relying in part on a forensic
+      report that treated superficial tears, smoothed radial folds and weakened sphincter tone as evidence of anal sex. The
+      practice remained current in 2025, when two men in Tashkent were reportedly subjected to non-consensual forensic anal
+      examinations, and a June 2026 multi-organization statement describes involuntary invasive examinations as an ongoing
+      enforcement practice associated with Article 120.
+    mechanism:
+      kind: enforcement
+      summary: >-
+        Law-enforcement authorities order involuntary forensic examinations, examiners convert anatomical observations into
+        reports about same-sex conduct, and criminal courts may use those reports as evidence under Article 120.
+    institutionalCorrection:
+      status: ongoing
+      periodLabel: 2017–present
+      action: No correction is documented; current reporting through 2026 describes involuntary forensic examinations as continuing within Article 120 enforcement.
+      summary: >-
+        The enforcement system continues to use the scientifically invalid inference in prosecutions rather than formally
+        abandoning it.
+sources:
+  - id: anal-hrw-dignity
+    title: Dignity Debased — Forced Anal Examinations in Homosexuality Prosecutions
     url: https://www.hrw.org/report/2016/07/12/dignity-debased/forced-anal-examinations-homosexuality-prosecutions
     publisher: Human Rights Watch
-    note: Documents Egypt’s long-running practice, including prosecutor-ordered referrals to the Ministry of Justice’s
-      Forensic Medicine Authority, the nineteenth-century roots of the claimed signs, and use of examination reports
-      as evidence.
-  - title: 2023 Country Reports on Human Rights Practices — Egypt
+  - id: anal-egypt-state-2023
+    title: 2023 Country Reports on Human Rights Practices — Egypt
     url: https://2021-2025.state.gov/reports/2023-country-reports-on-human-rights-practices/egypt/
     publisher: U.S. Department of State
-    note: Reports that the Public Prosecutor’s Office ordered forced anal examinations, that authorities regularly
-      used the results against defendants, and that the Forensic Medical Authority conducted them in debauchery cases;
-      it also documents a December 2023 prosecution in which forensic examination was used to seek traces of supposed
-      “deviant activities.”
-  - title: 'Joint stakeholders’ submission on Criminal justice: Egypt’s 4th cycle Universal Periodic Review'
+  - id: anal-egypt-eipr
+    title: 'Joint stakeholders’ submission on Criminal justice: Egypt’s 4th cycle Universal Periodic Review'
     url: https://www.eipr.org/en/publications/joint-stakeholders%E2%80%99-submission-criminal-justice-egypt%E2%80%99s-4th-cycle-universal-periodic
     publisher: Egyptian Initiative for Personal Rights
-    note: Documents 93 habitual-debauchery cases involving 181 people between July 2019 and June 2024 and records
-      that prosecutors referred 45 of those individuals to the Justice Ministry’s Forensic Medicine Authority for
-      forced anal examinations.
-  - title: WMA Resolution on Prohibition of Forced Anal Examinations to Substantiate Same-Sex Sexual Activity
+  - id: anal-wma
+    title: WMA Resolution on Prohibition of Forced Anal Examinations to Substantiate Same-Sex Sexual Activity
     url: https://www.wma.net/policies-post/wma-resolution-on-prohibition-of-forced-anal-examinations-to-substantiate-same-sex-sexual-activity/
     publisher: World Medical Association
-    note: Direct WMA policy states that forced anal examinations are medically invalid, unscientific and futile,
-      and calls on physicians and medical associations not to participate in them.
-- id: lebanon-2012-2015
-  polity: Lebanon
-  region: Middle East
-  startYear: 2012
-  endYear: 2015
-  periodLabel: 2012–2015
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - court
-  - medical
-  institutions:
-  - Cassation Public Prosecution
-  - Internal Security Forces
-  - Lebanese Order of Physicians
-  institutionalContext: Internal Security Forces arrests fed suspects into a medico-legal process in which public
-    prosecutors could order forensic anal examinations. The Cassation Public Prosecution sat at the top of the national
-    prosecutorial hierarchy; its 2012 directive did not impose a categorical ban, but permitted examinations with
-    purported consent and treated refusal as incriminating. The Lebanese Order of Physicians separately instructed
-    doctors not to perform the tests. Human Rights Watch documented continued examinations or threats of examination
-    in 2014 and 2015.
-  consequences:
-  - Forced anal examinations
-  - Medical evidence used in criminal charges
-  - Cruel and degrading treatment
-  summary: 'In 2012, Lebanese public prosecutors ordered forensic anal examinations of men arrested on suspicion
-    of homosexual conduct, and examination results contributed to criminal charges. The Lebanese Order of Physicians
-    condemned the tests as medically and scientifically useless and a form of torture. The practice did not end
-    immediately: the public prosecutor’s 2012 directive still allowed examinations under purported consent and treated
-    refusal as evidence, and later reporting documented continued use or threats of use through 2015.'
-  sources:
-  - title: Lebanon — Stop “Tests of Shame”
+  - id: anal-lebanon-hrw-2012
+    title: Lebanon — Stop “Tests of Shame”
     url: https://www.hrw.org/news/2012/08/10/lebanon-stop-tests-shame
     publisher: Human Rights Watch
-    note: Documents the Internal Security Forces arrests, prosecutor-ordered examinations, use of results in criminal
-      charges, the Lebanese Order of Physicians’ prohibition, and the 2012 public-prosecutor directive that still
-      allowed the examinations under purported consent.
-  - title: Dignity Debased — Forced Anal Examinations in Homosexuality Prosecutions
-    url: https://www.hrw.org/report/2016/07/12/dignity-debased/forced-anal-examinations-homosexuality-prosecutions
-    publisher: Human Rights Watch
-    note: Documents that anal examinations or threats of them continued to be used in Lebanon during 2014 and 2015
-      despite the medical and human-rights campaign against the practice.
-  - title: Forced anal examinations to ascertain sexual orientation and sexual behavior — an abusive and medically
-      unsound practice
+  - id: anal-plos-review
+    title: Forced anal examinations to ascertain sexual orientation and sexual behavior — an abusive and medically unsound practice
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5856262/
     publisher: PLOS Medicine
-    note: Reviews the absence of scientific validity and describes Lebanon’s medical and legal efforts to end the
-      practice.
-- id: kenya-2015-2018
-  polity: Kenya
-  region: East Africa
-  startYear: 2015
-  endYear: 2018
-  periodLabel: 2015–2018
-  strength: officially-endorsed
-  institutionTypes:
-  - government
-  - court
-  - medical
-  institutions:
-  - Chief Magistrate Ukunda Law Courts
-  - DCIO, Msambweni Police Station
-  - Makadara General Hospital, Kwale
-  institutionalContext: In a 2015 criminal investigation, the prosecution sought medical examinations intended to
-    establish same-sex conduct, a magistrate authorized the process, and a public hospital examined the two men.
-    The Kenyan Court of Appeal later reconstructed that institutional chain and held in 2018 that the forced anal
-    examinations violated constitutional rights and could not scientifically establish the alleged conduct.
-  consequences:
-  - Court-authorized forced anal examinations
-  - Police transport and coercive medical examination of accused men
-  - Use of supposed anatomical evidence in a criminal prosecution
-  - Violation of privacy, dignity and protection from degrading treatment
-  summary: After two men were arrested in Kwale in 2015, state investigators obtained a magistrate’s order and took
-    them to Makadara General Hospital for forced examinations intended to provide evidence of same-sex conduct.
-    In 2018 the Court of Appeal held that the examinations violated their rights. The judgment recorded the medical
-    objection that anal examination cannot establish whether a person had engaged in the alleged conduct, matching
-    international medical consensus that such tests are scientifically invalid.
-  sources:
-  - title: COI & another v Chief Magistrate Ukunda Law Courts & 4 others [2018] KECA 15 (KLR)
+  - id: anal-kenya-court
+    title: COI & another v Chief Magistrate Ukunda Law Courts & 4 others [2018] KECA 15 (KLR)
     url: https://new.kenyalaw.org/akn/ke/judgment/keca/2018/15
     publisher: Kenya Law / Court of Appeal of Kenya
-    note: Primary appellate judgment reconstructing the magistrate, police and public-hospital examination chain
-      and holding that the forced examinations violated constitutional rights; it records the scientific objection
-      that anal examination cannot establish the alleged same-sex conduct.
-  - title: WMA Resolution on Prohibition of Forced Anal Examinations to Substantiate Same-Sex Sexual Activity
-    url: https://www.wma.net/policies-post/wma-resolution-on-prohibition-of-forced-anal-examinations-to-substantiate-same-sex-sexual-activity/
-    publisher: World Medical Association
-    note: Medical correction stating that forced anal examinations have no scientific basis for substantiating same-sex
-      sexual activity and are medically invalid and futile.
-- id: kazakhstan-2016-2026
-  polity: Kazakhstan
-  region: Central Asia
-  startYear: 2016
-  endYear: 2026
-  endOpen: true
-  periodLabel: 2016–present
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  institutions:
-  - Center for Forensic Examinations, Ministry of Justice of the Republic of Kazakhstan
-  institutionalContext: Kazakhstan does not criminalize consensual same-sex relations; this methodology is framed
-    for investigations of sexual crimes. Even so, the Ministry of Justice forensic methodology directs experts to
-    examine the anus and rectum for supposed signs characteristic of a “passive partner,” including sphincter tone,
-    funnel-shaped or gaping appearance and smoothed radial folds. The methodology was approved by the state forensic
-    centre’s Scientific Council in December 2016 and remains published by the Ministry of Justice forensic system.
-  consequences:
-  - Invasive forensic examination of the anus and rectum
-  - Anatomically unsupported inference about repeated receptive anal intercourse
-  - Potentially misleading expert evidence in criminal investigations
-  summary: Kazakhstan’s Ministry of Justice forensic system maintains a methodology for examining men in sexual-crime
-    investigations that treats several chronic anorectal features as characteristic of systematic receptive male-male
-    intercourse. It instructs examiners to assess sphincter tone by digital examination and lists funnel-shaped or
-    gaping appearance, smoothed folds, sphincter relaxation and mucosal coloration as characteristic changes in
-    “systematic” passive partners. Modern forensic consensus rejects those features as reliable evidence that a person
-    has previously engaged in consensual receptive anal intercourse.
-  sources:
-  - title: Методика экспертного исследования лица мужского пола для определения признаков мужеложства при половых преступлениях
+  - id: anal-kazakhstan-methodology
+    title: Методика экспертного исследования лица мужского пола для определения признаков мужеложства при половых преступлениях
     url: https://forensic.gov.kz/wp-content/uploads/2025/09/23.130-1.pdf
     publisher: Center for Forensic Examinations, Ministry of Justice of the Republic of Kazakhstan
-    note: Official forensic methodology approved by the state forensic centre’s Scientific Council on 5 December
-      2016. It instructs experts to assess sphincter tone and anorectal appearance and states that specified chronic
-      features are characteristic of people who systematically act as receptive partners in male-male intercourse.
-  - title: Справочник по назначению судебных экспертиз
+  - id: anal-kazakhstan-handbook
+    title: Справочник по назначению судебных экспертиз
     url: https://forensic.gov.kz/wp-content/uploads/2026/02/spravochnik-2025-itogovyi-1.pdf
     publisher: Center for Forensic Examinations, Ministry of Justice of the Republic of Kazakhstan
-    note: Current 2025 state forensic handbook, published for law-enforcement agencies and courts, confirms that
-      examinations of male and female sexual states and examinations for signs of sexual acts remain part of Kazakhstan’s
-      operational forensic-examination system.
-  - title: WMA Resolution on Prohibition of Forced Anal Examinations to Substantiate Same-Sex Sexual Activity
-    url: https://www.wma.net/policies-post/wma-resolution-on-prohibition-of-forced-anal-examinations-to-substantiate-same-sex-sexual-activity/
-    publisher: World Medical Association
-    note: Medical correction stating that anal examinations cannot reliably establish a history of consensual receptive
-      anal intercourse and that forced use of such examinations is medically invalid and unethical.
-- id: uzbekistan-2017-2026
-  polity: Uzbekistan
-  region: Central Asia
-  startYear: 2017
-  endYear: 2026
-  endOpen: true
-  periodLabel: 2017–present
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - court
-  - medical
-  institutions:
-  - Ministry of Internal Affairs of the Republic of Uzbekistan
-  - State forensic medical examiners
-  - Criminal courts applying Article 120 of the Criminal Code
-  institutionalContext: Law-enforcement officials order forensic anal examinations of men detained under Article
-    120, which criminalizes consensual same-sex relations between men. Medical reports have been introduced as evidence
-    in prosecutions, and courts have relied on supposed anatomical signs such as smoothed radial folds and weakened
-    sphincter tone. Reporting in 2025 and a June 2026 joint statement document the practice as continuing alongside
-    intensified Article 120 enforcement.
-  consequences:
-  - Forced anal examinations in detention
-  - Medical reports used as evidence of consensual same-sex conduct
-  - Criminal convictions, house arrest and imprisonment
-  - Cruel, degrading and potentially torturous treatment
-  summary: Uzbek law-enforcement authorities have ordered forced anal examinations to obtain supposed evidence for
-    prosecutions under Article 120 of the Criminal Code. A documented 2021 case shows a Tashkent court relying in
-    part on a forensic report that treated superficial tears, smoothed radial folds and weakened sphincter tone as
-    evidence of anal sex. The practice remained current in 2025, when two men in Tashkent were reportedly subjected
-    to non-consensual forensic anal examinations, and a June 2026 multi-organization statement describes involuntary
-    invasive examinations as an ongoing enforcement practice associated with Article 120.
-  sources:
-  - title: Uzbekistan — Forced Anal Testing in Homosexuality Prosecutions
+  - id: anal-uzbekistan-hrw
+    title: Uzbekistan — Forced Anal Testing in Homosexuality Prosecutions
     url: https://www.hrw.org/news/2021/08/05/uzbekistan-forced-anal-testing-homosexuality-prosecutions
     publisher: Human Rights Watch
-    note: Documents at least six forced anal examinations between 2017 and 2021 and a 2021 Tashkent prosecution in
-      which a forensic report treating tears, smoothed radial folds and weakened sphincter tone as evidence of anal
-      sex contributed to two men receiving two-year sentences of house arrest.
-  - title: 2023 Country Reports on Human Rights Practices — Uzbekistan
+  - id: anal-uzbekistan-state-2023
+    title: 2023 Country Reports on Human Rights Practices — Uzbekistan
     url: https://2021-2025.state.gov/reports/2023-country-reports-on-human-rights-practices/uzbekistan/
     publisher: U.S. Department of State
-    note: Reports that people detained under Article 120 were subjected to forced anal examinations by law-enforcement
-      or judicial officials as evidence of same-sex conduct and records continued criminal enforcement of Article
-      120.
-  - title: Annual Review of the Human Rights Situation of LGBTI People in Europe and Central Asia 2026
+  - id: anal-uzbekistan-ilga-2026
+    title: Annual Review of the Human Rights Situation of LGBTI People in Europe and Central Asia 2026
     url: https://www.ilga-europe.org/report/annual-review-2026/
     publisher: ILGA-Europe
-    note: Covering January–December 2025, reports that two young men detained in Tashkent in February were subjected
-      to non-consensual forensic anal examinations despite their objections.
-  - title: Joint Statement — On increased application of Article 120 of the Criminal Code of Uzbekistan
+  - id: anal-uzbekistan-joint-2026
+    title: Joint Statement — On increased application of Article 120 of the Criminal Code of Uzbekistan
     url: https://www.ilga-europe.org/news/joint-statement-on-increased-application-of-article-120-of-the-criminal-code-of-uzbekistan/
     publisher: ILGA-Europe and partner organizations
-    note: June 2026 statement documents intensified Article 120 enforcement and states that detainees are subjected
-      to involuntary invasive examinations without free and informed consent; it calls for the practice to end.
-  - title: WMA Resolution on Prohibition of Forced Anal Examinations to Substantiate Same-Sex Sexual Activity
-    url: https://www.wma.net/policies-post/wma-resolution-on-prohibition-of-forced-anal-examinations-to-substantiate-same-sex-sexual-activity/
-    publisher: World Medical Association
-    note: Medical correction stating that forced anal examinations have no scientific basis for substantiating same-sex
-      sexual activity and are medically invalid and futile.
+evidence:
+  - id: anal-hrw-proposition
+    sourceId: anal-hrw-dignity
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Documents Egypt’s long-running practice, prosecutor-ordered referrals to the Ministry of Justice’s Forensic Medicine
+      Authority, the nineteenth-century roots of the claimed signs, and use of examination reports as evidence.
+  - id: anal-wma-correction
+    sourceId: anal-wma
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Direct WMA policy states that forced anal examinations are medically invalid, unscientific and futile, and calls on
+      physicians and medical associations not to participate in them.
+  - id: anal-egypt-state-carrier
+    sourceId: anal-egypt-state-2023
+    relation: documents
+    target: {scope: episode, episodeId: egypt-2001-2017, aspect: carrier}
+    note: >-
+      Reports that the Public Prosecutor’s Office ordered forced anal examinations, authorities regularly used the results
+      against defendants, and the Forensic Medical Authority conducted them in debauchery cases.
+  - id: anal-egypt-hrw-mechanism
+    sourceId: anal-hrw-dignity
+    relation: supports
+    target: {scope: episode, episodeId: egypt-2001-2017, aspect: mechanism}
+  - id: anal-egypt-eipr-consequences
+    sourceId: anal-egypt-eipr
+    relation: supports
+    target: {scope: episode, episodeId: egypt-2001-2017, aspect: consequences}
+    note: >-
+      Documents 93 habitual-debauchery cases involving 181 people between July 2019 and June 2024 and records 45 referrals
+      by prosecutors to the Justice Ministry’s Forensic Medicine Authority for forced anal examinations.
+  - id: anal-egypt-eipr-ongoing
+    sourceId: anal-egypt-eipr
+    relation: documents
+    target: {scope: episode, episodeId: egypt-2001-2017, aspect: institutional-correction}
+  - id: anal-lebanon-carrier
+    sourceId: anal-lebanon-hrw-2012
+    relation: documents
+    target: {scope: episode, episodeId: lebanon-2012-2015, aspect: carrier}
+    note: >-
+      Documents Internal Security Forces arrests, prosecutor-ordered examinations, use of results in criminal charges, the
+      Lebanese Order of Physicians’ prohibition, and the 2012 public-prosecutor directive that still allowed examinations
+      under purported consent.
+  - id: anal-lebanon-mechanism
+    sourceId: anal-lebanon-hrw-2012
+    relation: documents
+    target: {scope: episode, episodeId: lebanon-2012-2015, aspect: mechanism}
+  - id: anal-lebanon-consequences
+    sourceId: anal-hrw-dignity
+    relation: supports
+    target: {scope: episode, episodeId: lebanon-2012-2015, aspect: consequences}
+    note: >-
+      Documents that anal examinations or threats of them continued to be used in Lebanon during 2014 and 2015 despite the
+      medical and human-rights campaign against the practice.
+  - id: anal-lebanon-context
+    sourceId: anal-plos-review
+    relation: contextualizes
+    target: {scope: episode, episodeId: lebanon-2012-2015, aspect: context}
+    note: >-
+      Reviews the absence of scientific validity and describes Lebanon’s medical and legal efforts to end the practice.
+  - id: anal-lebanon-partial-correction
+    sourceId: anal-lebanon-hrw-2012
+    relation: documents
+    target: {scope: episode, episodeId: lebanon-2012-2015, aspect: institutional-correction}
+  - id: anal-kenya-carrier
+    sourceId: anal-kenya-court
+    relation: documents
+    target: {scope: episode, episodeId: kenya-2015-2018, aspect: carrier}
+    note: >-
+      Primary appellate judgment reconstructing the magistrate, police and public-hospital examination chain and holding
+      that the forced examinations violated constitutional rights; it records the scientific objection that anal
+      examination cannot establish the alleged same-sex conduct.
+  - id: anal-kenya-mechanism
+    sourceId: anal-kenya-court
+    relation: documents
+    target: {scope: episode, episodeId: kenya-2015-2018, aspect: mechanism}
+  - id: anal-kenya-consequences
+    sourceId: anal-kenya-court
+    relation: supports
+    target: {scope: episode, episodeId: kenya-2015-2018, aspect: consequences}
+  - id: anal-kenya-correction
+    sourceId: anal-kenya-court
+    relation: documents
+    target: {scope: episode, episodeId: kenya-2015-2018, aspect: institutional-correction}
+  - id: anal-kazakhstan-carrier
+    sourceId: anal-kazakhstan-methodology
+    relation: documents
+    target: {scope: episode, episodeId: kazakhstan-2016-2026, aspect: carrier}
+    note: >-
+      Official forensic methodology approved by the state forensic centre’s Scientific Council on 5 December 2016. It
+      instructs experts to assess sphincter tone and anorectal appearance and states that specified chronic features are
+      characteristic of people who systematically act as receptive partners in male-male intercourse.
+  - id: anal-kazakhstan-mechanism
+    sourceId: anal-kazakhstan-methodology
+    relation: documents
+    target: {scope: episode, episodeId: kazakhstan-2016-2026, aspect: mechanism}
+  - id: anal-kazakhstan-consequences
+    sourceId: anal-kazakhstan-methodology
+    relation: supports
+    target: {scope: episode, episodeId: kazakhstan-2016-2026, aspect: consequences}
+  - id: anal-kazakhstan-ongoing
+    sourceId: anal-kazakhstan-handbook
+    relation: documents
+    target: {scope: episode, episodeId: kazakhstan-2016-2026, aspect: institutional-correction}
+    note: >-
+      Current 2025 state forensic handbook, published for law-enforcement agencies and courts, confirms that examinations
+      of male and female sexual states and examinations for signs of sexual acts remain part of Kazakhstan’s operational
+      forensic-examination system.
+  - id: anal-uzbekistan-carrier
+    sourceId: anal-uzbekistan-hrw
+    relation: supports
+    target: {scope: episode, episodeId: uzbekistan-2017-2026, aspect: carrier}
+    note: >-
+      Documents at least six forced anal examinations between 2017 and 2021 and a 2021 Tashkent prosecution in which a
+      forensic report treating tears, smoothed radial folds and weakened sphincter tone as evidence of anal sex contributed
+      to two men receiving two-year sentences of house arrest.
+  - id: anal-uzbekistan-mechanism
+    sourceId: anal-uzbekistan-hrw
+    relation: supports
+    target: {scope: episode, episodeId: uzbekistan-2017-2026, aspect: mechanism}
+  - id: anal-uzbekistan-consequences
+    sourceId: anal-uzbekistan-state-2023
+    relation: supports
+    target: {scope: episode, episodeId: uzbekistan-2017-2026, aspect: consequences}
+    note: >-
+      Reports that people detained under Article 120 were subjected to forced anal examinations by law-enforcement or
+      judicial officials as evidence of same-sex conduct and records continued criminal enforcement of Article 120.
+  - id: anal-uzbekistan-2025-context
+    sourceId: anal-uzbekistan-ilga-2026
+    relation: contextualizes
+    target: {scope: episode, episodeId: uzbekistan-2017-2026, aspect: context}
+    note: >-
+      Covering January–December 2025, reports that two young men detained in Tashkent in February were subjected to
+      non-consensual forensic anal examinations despite their objections.
+  - id: anal-uzbekistan-ongoing
+    sourceId: anal-uzbekistan-joint-2026
+    relation: documents
+    target: {scope: episode, episodeId: uzbekistan-2017-2026, aspect: institutional-correction}
+    note: >-
+      June 2026 statement documents intensified Article 120 enforcement and states that detainees are subjected to
+      involuntary invasive examinations without free and informed consent; it calls for the practice to end.

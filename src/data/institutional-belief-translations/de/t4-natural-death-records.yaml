@@ -1,16 +1,19 @@
+schemaVersion: 2
 locale: de
 entryId: t4-natural-death-records
 sourceReviewedAt: '2026-08-25'
 title: Die Opfer der Aktion T4 als natürliche Todesfälle
-claim: >-
-  Der Apparat der Aktion T4 stellte amtliche Unterlagen und Mitteilungen an Angehörige aus, nach denen die von ihm
-  ermordeten Anstaltspatientinnen und -patienten an natürlichen Krankheiten gestorben seien – häufig mit erfundenem
-  Todesdatum oder Sterbeort – statt durch vorsätzliche Tötung.
-currentUnderstanding: >-
-  Die für die zentral organisierte Aktion T4 ausgewählten Menschen wurden in sechs Tötungsanstalten gebracht und dort
-  vor allem in Kohlenmonoxid-Gaskammern ermordet. Ärzte und Verwaltungsmitarbeiter des T4-Apparats fälschten systematisch
-  amtliche Unterlagen, um diese Morde zu verschleiern. Nach der internen T4-Statistik wurden zwischen Januar 1940 und
-  August 1941 in den sechs zentralen Tötungsanstalten 70.273 psychisch kranke und behinderte Menschen ermordet.
+proposition:
+  summary: >-
+    Der Apparat der Aktion T4 stellte amtliche Unterlagen und Mitteilungen an Angehörige aus, nach denen die von ihm
+    ermordeten Anstaltspatientinnen und -patienten an natürlichen Krankheiten gestorben seien – häufig mit erfundenem
+    Todesdatum oder Sterbeort – statt durch vorsätzliche Tötung.
+correction:
+  summary: >-
+    Die für die zentral organisierte Aktion T4 ausgewählten Menschen wurden in sechs Tötungsanstalten gebracht und dort
+    vor allem in Kohlenmonoxid-Gaskammern ermordet. Ärzte und Verwaltungsmitarbeiter des T4-Apparats fälschten systematisch
+    amtliche Unterlagen, um diese Morde zu verschleiern. Nach der internen T4-Statistik wurden zwischen Januar 1940 und
+    August 1941 in den sechs zentralen Tötungsanstalten 70.273 psychisch kranke und behinderte Menschen ermordet.
 impact:
   summary: >-
     Die Darstellung eines natürlichen Todes war kein gelegentlicher Betrug gegenüber einzelnen Familien, sondern ein
@@ -20,49 +23,79 @@ impact:
     erfundenen Ursachen, Daten und Orten. Auf Wunsch versandte Urnen enthielten nicht die Asche der namentlich genannten
     Person. So entstanden für zehntausende Morde falsche amtliche Lebens- und Sterbedaten.
   highlights:
-  - value: '70.273'
-    label: Opfer laut interner T4-Statistik in den sechs zentralen Tötungsanstalten von Januar 1940 bis August 1941
-  - value: '6'
-    label: zentrale T4-Tötungsanstalten, jeweils mit eigenem Standesamt zur Beurkundung der Todesfälle
-  - value: 24. August 1941
-    label: Datum des angeordneten Stopps der zentralen Vergasungsaktion T4
+    - value: '70.273'
+      label: Opfer laut interner T4-Statistik in den sechs zentralen Tötungsanstalten von Januar 1940 bis August 1941
+    - value: '6'
+      label: zentrale T4-Tötungsanstalten, jeweils mit eigenem Standesamt zur Beurkundung der Todesfälle
+    - value: 24. August 1941
+      label: Datum des angeordneten Stopps der zentralen Vergasungsaktion T4
   context:
-  - >-
-    Die Täuschung bestand nicht aus einer einzigen, stets gleichen falschen Diagnose. T4-Ärzte wählten für einzelne
-    Opfer scheinbar plausible natürliche Todesursachen aus; die Verwaltung fälschte zusätzlich Todesdaten und teilweise
-    Sterbeorte. Die übergreifende institutionelle Behauptung lautete, die verlegten Patientinnen und Patienten seien
-    eines natürlichen Todes gestorben und nicht ermordet worden.
-  - >-
-    Die Verschleierung war nicht vollständig erfolgreich. Die Morde wurden zunehmend vermutet, Angehörige hinterfragten
-    unplausible Mitteilungen und es kam zu privaten wie öffentlichen Protesten. Dieses wachsende Wissen ändert nichts
-    daran, dass der T4-Apparat weiterhin falsche Personenstandsunterlagen und amtliche Familienmitteilungen produzierte.
-  - >-
-    Die zentrale Phase der Aktion T4 mit Gasmorden lief von 1940 bis 1941. Nach August 1941 wurden Patientinnen und
-    Patienten dezentral durch Medikamente, Nahrungsentzug und Vernachlässigung weiter ermordet; diese späteren Tötungen
-    gehörten jedoch nicht zum zentralisierten Programm der sechs Tötungsanstalten, auch wenn ähnliche
-    Verschleierungspraktiken vorkamen.
+    - >-
+      Die Täuschung bestand nicht aus einer einzigen, stets gleichen falschen Diagnose. T4-Ärzte wählten für einzelne
+      Opfer scheinbar plausible natürliche Todesursachen aus; die Verwaltung fälschte zusätzlich Todesdaten und teilweise
+      Sterbeorte. Die übergreifende institutionelle Behauptung lautete, die verlegten Patientinnen und Patienten seien
+      eines natürlichen Todes gestorben und nicht ermordet worden.
+    - >-
+      Die Verschleierung war nicht vollständig erfolgreich. Die Morde wurden zunehmend vermutet, Angehörige hinterfragten
+      unplausible Mitteilungen und es kam zu privaten wie öffentlichen Protesten. Dieses wachsende Wissen ändert nichts
+      daran, dass der T4-Apparat weiterhin falsche Personenstandsunterlagen und amtliche Familienmitteilungen produzierte.
+    - >-
+      Die zentrale Phase der Aktion T4 mit Gasmorden lief von 1940 bis 1941. Nach August 1941 wurden Patientinnen und
+      Patienten dezentral durch Medikamente, Nahrungsentzug und Vernachlässigung weiter ermordet; diese späteren Tötungen
+      gehörten jedoch nicht zum zentralisierten Programm der sechs Tötungsanstalten, auch wenn ähnliche
+      Verschleierungspraktiken vorkamen.
 episodes:
-- id: nazi-germany-1940-1941
-  polity: NS-Deutschland
-  institutions:
-  - T4-Zentrale in der Tiergartenstraße 4
-  - T4-Tötungsanstalten und ihre Sonderstandesämter
-  institutionalContext: >-
-    Die zentrale Aktion T4 verband medizinische Auswahl, Transport, Tötung und Aktenfälschung. Nach der Ankunft in einer
-    Tötungsanstalt prüfte Verwaltungspersonal die Personalien; ein Arzt bestimmte die Todesursache, die später in den
-    gefälschten Unterlagen erscheinen sollte. Eigene Standesämter stellten amtliche Sterbeurkunden aus. T4-Mitarbeiter
-    erfassten die Herkunftsorte der Opfer, um auffällige örtliche und zeitliche Häufungen zu vermeiden, verschoben
-    Todesdaten und tauschten Akten zwischen den Tötungsanstalten, um falsche Sterbeorte zu erzeugen. Angehörige erhielten
-    standardisierte „Trostbriefe“ über angeblich natürliche Todesfälle und auf Wunsch Urnen mit fremder Asche.
-  consequences:
-  - Falsche standesamtliche Erfassung vorsätzlicher Tötungen als krankheitsbedingte oder natürliche Todesfälle
-  - Täuschung der Angehörigen über Umstände, Datum und teilweise Ort des Todes
-  - Gezielte Veränderung von Todesdaten und Sterbeorten zur Verschleierung auffälliger Muster
-  - Versand von Urnen, die nicht die Asche der jeweils genannten Opfer enthielten
-  - Bürokratisches Verschleierungssystem, das den Massenmord unter Geheimhaltung absichern sollte
-  summary: >-
-    Die Aktion T4 hielt ihre Morde nicht lediglich geheim, sondern erzeugte eine alternative amtliche Wirklichkeit über
-    den Tod ihrer Opfer. Ärzte lieferten fingierte Todesursachen, Standesämter erstellten falsche Urkunden, die Verwaltung
-    verschob Daten und Orte, und standardisierte Schreiben stellten Mord als natürlichen Tod dar. Diese Dokumentation
-    deckte eine zentrale Tötungsaktion, deren eigene Statistik bis zum Stopp der Vergasungen im August 1941 insgesamt
-    70.273 Opfer verzeichnete.
+  - id: nazi-germany-1940-1941
+    polity: NS-Deutschland
+    institutions:
+      - T4-Zentrale in der Tiergartenstraße 4
+      - T4-Tötungsanstalten und ihre Sonderstandesämter
+    institutionalContext: >-
+      Die zentrale Aktion T4 verband medizinische Auswahl, Transport, Tötung und Aktenfälschung. Nach der Ankunft in einer
+      Tötungsanstalt prüfte Verwaltungspersonal die Personalien; ein Arzt bestimmte die Todesursache, die später in den
+      gefälschten Unterlagen erscheinen sollte. Eigene Standesämter stellten amtliche Sterbeurkunden aus. T4-Mitarbeiter
+      erfassten die Herkunftsorte der Opfer, um auffällige örtliche und zeitliche Häufungen zu vermeiden, verschoben
+      Todesdaten und tauschten Akten zwischen den Tötungsanstalten, um falsche Sterbeorte zu erzeugen. Angehörige erhielten
+      standardisierte „Trostbriefe“ über angeblich natürliche Todesfälle und auf Wunsch Urnen mit fremder Asche.
+    summary: >-
+      Die Aktion T4 hielt ihre Morde nicht lediglich geheim, sondern erzeugte eine alternative amtliche Wirklichkeit über
+      den Tod ihrer Opfer. Ärzte lieferten fingierte Todesursachen, Standesämter erstellten falsche Urkunden, die Verwaltung
+      verschob Daten und Orte, und standardisierte Schreiben stellten Mord als natürlichen Tod dar. Diese Dokumentation
+      deckte eine zentrale Tötungsaktion, deren eigene Statistik bis zum Stopp der Vergasungen im August 1941 insgesamt
+      70.273 Opfer verzeichnete.
+    consequences:
+      - Falsche standesamtliche Erfassung vorsätzlicher Tötungen als krankheitsbedingte oder natürliche Todesfälle
+      - Täuschung der Angehörigen über Umstände, Datum und teilweise Ort des Todes
+      - Gezielte Veränderung von Todesdaten und Sterbeorten zur Verschleierung auffälliger Muster
+      - Versand von Urnen, die nicht die Asche der jeweils genannten Opfer enthielten
+      - Bürokratisches Verschleierungssystem, das den Massenmord unter Geheimhaltung absichern sollte
+    mechanism:
+      summary: >-
+        T4-Ärzte, Verwaltungsmitarbeiter und Sonderstandesämter verwandelten Morde systematisch in falsche natürliche
+        Todesfälle, indem sie Ursachen, Daten und Orte erfanden und standardisierte Urkunden sowie Familienmitteilungen
+        ausstellten.
+    institutionalCorrection:
+      summary: >-
+        Der T4-Apparat wurde mit dem NS-Regime zerschlagen und seine Verbrechen später von Nachfolgeinstitutionen,
+        Gedenkstätten und der Forschung dokumentiert. Die vorhandenen v1-Belege zeigen jedoch keinen Akt der T4 selbst, mit
+        dem sie ihre falschen Todesunterlagen zurückgenommen oder die Morde anerkannt hätte.
+evidence:
+  - id: t4-ushmm-proposition
+    note: >-
+      Maßgebliche Übersicht, wonach Ärzte und Verwaltungsmitarbeiter in jedem Fall amtliche Unterlagen fälschten, um die
+      Opfer als natürlich verstorben erscheinen zu lassen; sie nennt zudem die interne T4-Zahl von 70.273 Opfern in den
+      sechs Gasmordanstalten zwischen Januar 1940 und August 1941.
+  - id: t4-ushmm-correction
+  - id: t4-bureaucracy-impact
+    note: >-
+      Dokumentation der Gedenkstätte, wonach jede T4-Tötungsanstalt ein eigenes Standesamt hatte; Daten wurden zur
+      Vermeidung auffälliger Häufungen verschoben, Akten zur Fälschung von Sterbeorten ausgetauscht, Urkunden mit falscher
+      Ursache, falschem Ort und falschem Datum ausgestellt und Urnen mit beliebiger Asche versandt.
+  - id: t4-bureaucracy-carrier
+  - id: t4-hadamar-mechanism
+    note: >-
+      Institutionsgeschichte von Hadamar: Ein Tötungsarzt bestimmte die später in den gefälschten Unterlagen erscheinende
+      Todesursache; Angehörige erhielten falsche Angaben zu Umständen, Datum und teilweise Sterbeort, und versandte Urnen
+      enthielten nicht die Asche des jeweiligen Opfers.
+  - id: t4-bureaucracy-consequences
+  - id: t4-hadamar-context

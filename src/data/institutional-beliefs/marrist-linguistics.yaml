@@ -1,8 +1,16 @@
+schemaVersion: 2
 title: Marrist linguistics
-claim: Languages were treated as products of universal class-driven stages rather than primarily as members of historically descended language families, making conventional comparative linguistics “bourgeois” or scientifically obsolete.
-currentUnderstanding: Languages change through historically traceable descent, contact, borrowing, innovation, and social use. Comparative linguistics can reconstruct genealogical relationships among language families; languages do not pass through a universal sequence of class-defined developmental stages.
+proposition:
+  summary: >-
+    Languages were treated as products of universal class-driven stages rather than primarily as members of historically
+    descended language families, making conventional comparative linguistics “bourgeois” or scientifically obsolete.
+correction:
+  summary: >-
+    Languages change through historically traceable descent, contact, borrowing, innovation, and social use. Comparative
+    linguistics can reconstruct genealogical relationships among language families; languages do not pass through a
+    universal sequence of class-defined developmental stages.
 category: Linguistics
-reviewedAt: 2026-08-23
+reviewedAt: '2026-08-23'
 episodes:
   - id: soviet-union-1930-1950
     polity: Soviet Union
@@ -10,27 +18,91 @@ episodes:
     startYear: 1930
     endYear: 1950
     strength: enforced-doctrine
-    institutionTypes: [government, academy, university, education]
+    institutionTypes:
+      - government
+      - academy
+      - university
+      - education
     institutions:
       - Institute of Language and Thought of the Academy of Sciences of the USSR
       - Academy of Sciences of the USSR
       - Section of Materialist Linguistics of the Communist Academy
-    institutionalContext: The Institute of Language and Thought was the principal institutional centre of Marrism. The doctrine's authority extended far beyond that institute through Academy structures, universities, journals, publishing and education, creating a distributed institutional network rather than a single body that could accurately be called “Soviet linguistic institutes.”
+    institutionalContext: >-
+      The Institute of Language and Thought was the principal institutional centre of Marrism. The doctrine's authority
+      extended far beyond that institute through Academy structures, universities, journals, publishing and education,
+      creating a distributed institutional network rather than a single body that could accurately be called “Soviet
+      linguistic institutes.”
     consequences:
       - Competing comparative-historical linguistic schools were suppressed or marginalized
       - Research and teaching were reorganized around Marrist categories
       - Academic careers became vulnerable to accusations of “bourgeois” or anti-Marxist linguistics
-    summary: From about 1930, Nikolai Marr's “New Theory of Language” became the officially recognized framework dominating Soviet linguistics. Traditional comparative and Indo-European linguistics were attacked as bourgeois, and substantial deviations from Marrist foundations were severely suppressed. In 1950 Stalin abruptly repudiated Marrism, after which the Institute of Language and Thought was dissolved and the doctrine was dismantled just as administratively as it had been elevated.
-    sources:
-      - title: Some Notes on the Marr School
-        url: https://www.cambridge.org/core/journals/american-slavic-and-east-european-review/article/abs/some-notes-on-the-marr-school/37CCB9E1D9C61BBE175F953491E46BB7
-        publisher: American Slavic and East European Review
-        note: Contemporary scholarly review stating that Soviet linguistics was dominated from about 1930 to 1950 by officially recognized Marrist theory and that substantial deviations were severely suppressed.
-      - title: Politics and the Theory of Language in the USSR 1917–1938
-        url: https://www.cambridge.org/core/books/politics-and-the-theory-of-language-in-the-ussr-19171938/19FE73FCCDCA006737B8BEBD5A52AB85/listing
-        publisher: Cambridge University Press
-        note: Historical study of the political and institutional rise of Marr's supposedly Marxian linguistics against traditional comparative linguistics.
-      - title: Institute of Language and Thought of the Academy of Sciences of the USSR
-        url: https://www.encspb.ru/object/2804011211?lc=en
-        publisher: Saint Petersburg Encyclopaedia
-        note: Institutional history of the institute founded by Marr, renamed the Institute of Language and Thought in 1931, led by Marr and then Ivan Meshchaninov, and merged into the new Institute of Linguistics after the 1950 repudiation of Marrism.
+    summary: >-
+      From about 1930, Nikolai Marr's “New Theory of Language” became the officially recognized framework dominating
+      Soviet linguistics. Traditional comparative and Indo-European linguistics were attacked as bourgeois, and substantial
+      deviations from Marrist foundations were severely suppressed. In 1950 Stalin abruptly repudiated Marrism, after
+      which the Institute of Language and Thought was dissolved and the doctrine was dismantled just as administratively
+      as it had been elevated.
+    mechanism:
+      kind: suppression
+      summary: >-
+        Academy and university institutions elevated Marrism as the officially recognized framework while marginalizing
+        competing comparative-historical linguistics through research, teaching, publication and career controls.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: '1950'
+      action: Stalin publicly repudiated Marrism, after which the Academy structure dismantled the doctrine and dissolved the Institute of Language and Thought into a reorganized linguistics institute.
+      summary: >-
+        The same Soviet institutional system that had elevated Marrism reversed course in 1950: the doctrine lost official
+        authority and its principal institutional centre was dissolved in the ensuing reorganization.
+sources:
+  - id: marr-school-notes
+    title: Some Notes on the Marr School
+    url: https://www.cambridge.org/core/journals/american-slavic-and-east-european-review/article/abs/some-notes-on-the-marr-school/37CCB9E1D9C61BBE175F953491E46BB7
+    publisher: American Slavic and East European Review
+  - id: marr-politics-language
+    title: Politics and the Theory of Language in the USSR 1917–1938
+    url: https://www.cambridge.org/core/books/politics-and-the-theory-of-language-in-the-ussr-19171938/19FE73FCCDCA006737B8BEBD5A52AB85/listing
+    publisher: Cambridge University Press
+  - id: marr-institute-history
+    title: Institute of Language and Thought of the Academy of Sciences of the USSR
+    url: https://www.encspb.ru/object/2804011211?lc=en
+    publisher: Saint Petersburg Encyclopaedia
+evidence:
+  - id: marr-school-proposition
+    sourceId: marr-school-notes
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Contemporary scholarly review stating that Soviet linguistics was dominated from about 1930 to 1950 by officially
+      recognized Marrist theory and that substantial deviations were severely suppressed.
+  - id: marr-school-correction
+    sourceId: marr-school-notes
+    relation: supports
+    target: {scope: belief, aspect: correction}
+  - id: marr-institute-carrier
+    sourceId: marr-institute-history
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: carrier}
+  - id: marr-politics-mechanism
+    sourceId: marr-politics-language
+    relation: supports
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: mechanism}
+    note: >-
+      Historical study of the political and institutional rise of Marr's supposedly Marxian linguistics against
+      traditional comparative linguistics.
+  - id: marr-school-consequences
+    sourceId: marr-school-notes
+    relation: supports
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: consequences}
+  - id: marr-institute-context
+    sourceId: marr-institute-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: context}
+  - id: marr-institute-correction
+    sourceId: marr-institute-history
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: institutional-correction}
+    note: >-
+      Institutional history of the institute founded by Marr, renamed the Institute of Language and Thought in 1931, led
+      by Marr and then Ivan Meshchaninov, and merged into the new Institute of Linguistics after the 1950 repudiation of
+      Marrism.

@@ -1,59 +1,113 @@
+schemaVersion: 2
 title: Ainu as a “primitive” race
-claim: Ainu were treated as a primitive, backward, or vanishing people whose survival and modernization required assimilation
-  into settled Japanese agricultural life.
-currentUnderstanding: The Ainu are an Indigenous people with their own histories, languages, cultural traditions, and political
-  communities. Differences between Ainu and Japanese lifeways were not evidence of biological backwardness; colonial dispossession,
-  forced relocation, resource restrictions, disease, and assimilation policies themselves contributed substantially to Ainu
-  impoverishment and demographic decline.
+proposition:
+  summary: >-
+    Ainu were treated as a primitive, backward, or vanishing people whose survival and modernization required assimilation
+    into settled Japanese agricultural life.
+correction:
+  summary: >-
+    The Ainu are an Indigenous people with their own histories, languages, cultural traditions, and political communities.
+    Differences between Ainu and Japanese lifeways were not evidence of biological backwardness; colonial dispossession,
+    forced relocation, resource restrictions, disease, and assimilation policies themselves contributed substantially to
+    Ainu impoverishment and demographic decline.
 category: Race and colonial anthropology
 reviewedAt: '2026-08-23'
 episodes:
-- id: japan-1899-1939
-  polity: Japan
-  region: East Asia
-  startYear: 1899
-  endYear: 1939
-  periodLabel: 1899–late 1930s
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - university
-  - professional
-  - education
-  institutions:
-  - 内務省 (Ministry of Home Affairs)
-  - 北海道庁 (Hokkaido Government)
-  - 東京帝国大学 (Tokyo Imperial University)
-  - 東京人類学会 (Anthropological Society of Tokyo)
-  institutionalContext: 'The 1899 Hokkaido Former Aborigines Protection Act gave the Home Minister rule-making authority and
-    the Hokkaido Government’s governor direct powers over Ainu land, communal property and policing while promoting settlement
-    through agriculture and state schooling. The racial-anthropological side had its own identifiable carriers: Tokyo Imperial
-    University became a major center for physical anthropology, and the Anthropological Society of Tokyo published extensive
-    Ainu research. Together, the administrative, educational and scientific institutions formed a wider colonial network
-    rather than a single unified “imperial Japanese state” or “anthropological establishment.”'
-  consequences:
-  - Forced agriculturalization
-  - Suppression of Indigenous lifeways
-  - Land and resource dispossession
-  - Cultural assimilation
-  summary: Japanese colonial administration and physical anthropology repeatedly represented Ainu as a primitive or dying
-    race. The 1899 Hokkaido Former Aborigines Protection Act sought to transform Ainu livelihoods through agriculture and
-    assimilation, while restrictions on hunting, fishing, landholding, language, and custom worked to absorb Ainu into a supposedly
-    more advanced Japanese society. At the same time, Tokyo Imperial University and the Anthropological Society of Tokyo helped
-    institutionalize physical-anthropological study of the Ainu.
-  sources:
-  - title: 北海道旧土人保護法・御署名原本・明治三十二年・法律第二十七号
+  - id: japan-1899-1939
+    polity: Japan
+    region: East Asia
+    startYear: 1899
+    endYear: 1939
+    periodLabel: 1899–late 1930s
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - university
+      - professional
+      - education
+    institutions:
+      - 内務省 (Ministry of Home Affairs)
+      - 北海道庁 (Hokkaido Government)
+      - 東京帝国大学 (Tokyo Imperial University)
+      - 東京人類学会 (Anthropological Society of Tokyo)
+    institutionalContext: >-
+      The 1899 Hokkaido Former Aborigines Protection Act gave the Home Minister rule-making authority and the Hokkaido
+      Government’s governor direct powers over Ainu land, communal property and policing while promoting settlement
+      through agriculture and state schooling. The racial-anthropological side had its own identifiable carriers: Tokyo
+      Imperial University became a major center for physical anthropology, and the Anthropological Society of Tokyo
+      published extensive Ainu research. Together, the administrative, educational and scientific institutions formed a
+      wider colonial network rather than a single unified “imperial Japanese state” or “anthropological establishment.”
+    consequences:
+      - Forced agriculturalization
+      - Suppression of Indigenous lifeways
+      - Land and resource dispossession
+      - Cultural assimilation
+    summary: >-
+      Japanese colonial administration and physical anthropology repeatedly represented Ainu as a primitive or dying race.
+      The 1899 Hokkaido Former Aborigines Protection Act sought to transform Ainu livelihoods through agriculture and
+      assimilation, while restrictions on hunting, fishing, landholding, language, and custom worked to absorb Ainu into a
+      supposedly more advanced Japanese society. At the same time, Tokyo Imperial University and the Anthropological
+      Society of Tokyo helped institutionalize physical-anthropological study of the Ainu.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Colonial administrators used land, agricultural and schooling powers to push assimilation while university and
+        professional anthropology institutionalized racial study of the Ainu within the same wider colonial order.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        The existing v1 evidence documents later historical rejection of the primitive-race framing, but it does not
+        identify a dated act by the listed Japanese administrative or anthropological carriers formally repudiating that
+        institutional proposition.
+sources:
+  - id: ainu-protection-act
+    title: 北海道旧土人保護法・御署名原本・明治三十二年・法律第二十七号
     url: https://www.digital.archives.go.jp/file/156970.html
     publisher: National Archives of Japan Digital Archive
-    note: Primary 1899 law. It grants land to Ainu who engage or wish to engage in agriculture, assigns land and communal-property
-      powers to the Hokkaido Government’s governor, and gives the Home Minister authority to issue implementing regulations.
-  - title: Physical Anthropology in Japan — The Ainu and the Search for the Origins of the Japanese
+  - id: ainu-physical-anthropology
+    title: Physical Anthropology in Japan — The Ainu and the Search for the Origins of the Japanese
     url: https://www.journals.uchicago.edu/doi/10.1086/662334
     publisher: Current Anthropology
-    note: Documents Tokyo Imperial University and the Anthropological Society of Tokyo as major institutional centers of early
-      Japanese anthropology and describes extensive physical-anthropological research on the Ainu.
-  - title: The Politics of Colonial Translation — On the Narrative of the Ainu as a “Vanishing Ethnicity”
+  - id: ainu-colonial-translation
+    title: The Politics of Colonial Translation — On the Narrative of the Ainu as a “Vanishing Ethnicity”
     url: https://www.cambridge.org/core/journals/asia-pacific-journal/article/politics-of-colonial-translation-on-the-narrative-of-the-ainu-as-a-vanishing-ethnicity/3A810C9ACC686D632DA4E3F073C07A8E
     publisher: Asia-Pacific Journal
-    note: Explains how depictions of Ainu as primitive were institutionalized to justify colonial rule and how the 1899 Protection
-      Act attempted to turn Ainu into farmers while land and subsistence rights were curtailed.
+evidence:
+  - id: ainu-colonial-proposition
+    sourceId: ainu-colonial-translation
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Explains how depictions of Ainu as primitive were institutionalized to justify colonial rule and how the 1899
+      Protection Act attempted to turn Ainu into farmers while land and subsistence rights were curtailed.
+  - id: ainu-colonial-correction
+    sourceId: ainu-colonial-translation
+    relation: supports
+    target: {scope: belief, aspect: correction}
+  - id: ainu-law-carrier
+    sourceId: ainu-protection-act
+    relation: documents
+    target: {scope: episode, episodeId: japan-1899-1939, aspect: carrier}
+    note: >-
+      Primary 1899 law. It grants land to Ainu who engage or wish to engage in agriculture, assigns land and
+      communal-property powers to the Hokkaido Government’s governor, and gives the Home Minister authority to issue
+      implementing regulations.
+  - id: ainu-anthropology-carrier
+    sourceId: ainu-physical-anthropology
+    relation: supports
+    target: {scope: episode, episodeId: japan-1899-1939, aspect: carrier}
+    note: >-
+      Documents Tokyo Imperial University and the Anthropological Society of Tokyo as major institutional centers of early
+      Japanese anthropology and describes extensive physical-anthropological research on the Ainu.
+  - id: ainu-law-mechanism
+    sourceId: ainu-protection-act
+    relation: documents
+    target: {scope: episode, episodeId: japan-1899-1939, aspect: mechanism}
+  - id: ainu-colonial-consequences
+    sourceId: ainu-colonial-translation
+    relation: supports
+    target: {scope: episode, episodeId: japan-1899-1939, aspect: consequences}
+  - id: ainu-anthropology-context
+    sourceId: ainu-physical-anthropology
+    relation: contextualizes
+    target: {scope: episode, episodeId: japan-1899-1939, aspect: context}

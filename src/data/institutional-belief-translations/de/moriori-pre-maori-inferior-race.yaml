@@ -1,50 +1,91 @@
+schemaVersion: 2
 locale: de
 entryId: moriori-pre-maori-inferior-race
 sourceReviewedAt: '2026-08-25'
 title: Moriori als minderwertige vormāorische Rasse, die ausgestorben sei
-claim: Das neuseeländische Bildungsministerium lehrte Schulkinder, Moriori seien ein rassisch minderwertiges Volk
-  gewesen, das Neuseeland bereits vor Māori bewohnt habe, von später angekommenen Māori auf die Chatham-Inseln verdrängt
-  worden und schließlich ausgestorben sei.
-currentUnderstanding: Moriori sind ein lebendes polynesisches Volk mit ihrer Heimat auf Rēkohu und benachbarten
-  Inseln. Sie waren keine vormāorische melanesische Rasse des neuseeländischen Festlands und starben nicht aus.
-  Die Theorie wurde seit den 1920er-Jahren wissenschaftlich angegriffen. 2010 veröffentlichte der School Journal
-  gemeinsam mit Moriori entwickelte Sonderausgaben zur Korrektur der früheren Fehlinformationen; später erkannte
-  die Krone ihre Rolle an und entschuldigte sich.
+proposition:
+  summary: >-
+    Das neuseeländische Bildungsministerium lehrte Schulkinder, Moriori seien ein rassisch minderwertiges Volk gewesen,
+    das Neuseeland bereits vor Māori bewohnt habe, von später angekommenen Māori auf die Chatham-Inseln verdrängt worden
+    und schließlich ausgestorben sei.
+correction:
+  summary: >-
+    Moriori sind ein lebendes polynesisches Volk mit ihrer Heimat auf Rēkohu und benachbarten Inseln. Sie waren keine
+    vormāorische melanesische Rasse des neuseeländischen Festlands und starben nicht aus. Die Theorie wurde seit den
+    1920er-Jahren wissenschaftlich angegriffen. 2010 veröffentlichte der School Journal gemeinsam mit Moriori entwickelte
+    Sonderausgaben zur Korrektur der früheren Fehlinformationen; später erkannte die Krone ihre Rolle an und entschuldigte sich.
 impact:
-  summary: Die falsche Darstellung gelangte über den School Journal, eine an staatliche Schulen verteilte Publikation
-    des Bildungsministeriums, direkt in den Unterricht. Ausgaben von 1916 und 1946 verbreiteten Rassenminderwertigkeit,
-    vormāorische Besiedlung und Aussterben. Die spätere staatliche Aufarbeitung erkannte an, dass dies Generationen
-    von Kindern prägte und die Moriori-Identität beschädigte. 2010 erschienen ausdrücklich korrigierende Sonderausgaben.
+  summary: >-
+    Die falsche Darstellung gelangte über den School Journal, eine an staatliche Schulen verteilte Publikation des
+    Bildungsministeriums, direkt in den Unterricht. Ausgaben von 1916 und 1946 verbreiteten Rassenminderwertigkeit,
+    vormāorische Besiedlung und Aussterben. Die spätere staatliche Aufarbeitung erkannte an, dass dies Generationen von
+    Kindern prägte und die Moriori-Identität beschädigte. 2010 erschienen ausdrücklich korrigierende Sonderausgaben.
   highlights:
-  - value: '1916'
-    label: erste von der Krone ausdrücklich anerkannte School-Journal-Ausgabe mit dem Mythos
-  - value: '1946'
-    label: spätere Ausgabe, die die falsche Rassengeschichte erneut lehrte
-  - value: 94 Jahre
-    label: von der Fehlinformation 1916 bis zu den korrigierenden Sonderausgaben 2010
+    - value: '1916'
+      label: erste von der Krone ausdrücklich anerkannte School-Journal-Ausgabe mit dem Mythos
+    - value: '1946'
+      label: spätere Ausgabe, die die falsche Rassengeschichte erneut lehrte
+    - value: 94 Jahre
+      label: von der Fehlinformation 1916 bis zu den korrigierenden Sonderausgaben 2010
   context:
-  - Moriori und Māori sind unterschiedliche Völker mit unterschiedlichen Geschichten. Die Korrektur macht Moriori
-    nicht einfach zu Māori und leugnet auch nicht die Invasion Rēkohus von 1835.
-  - 'Die staatliche Erzählung verband mehrere Aussagen: eine vormāorische Besiedlung des Festlands durch eine andere
-    Rasse, deren Minderwertigkeit, Vertreibung und angebliches Aussterben.'
-  - Wissenschaftliche Gegenargumente existierten lange vor 2010. Der Endpunkt bezeichnet die ausdrückliche Korrektur
-    durch dieselbe staatliche Publikationsreihe, nicht den ersten wissenschaftlichen Widerspruch.
+    - >-
+      Moriori und Māori sind unterschiedliche Völker mit unterschiedlichen Geschichten. Die Korrektur macht Moriori nicht
+      einfach zu Māori und leugnet auch nicht die Invasion Rēkohus von 1835.
+    - >-
+      Die staatliche Erzählung verband mehrere Aussagen: eine vormāorische Besiedlung des Festlands durch eine andere
+      Rasse, deren Minderwertigkeit, Vertreibung und angebliches Aussterben.
+    - >-
+      Wissenschaftliche Gegenargumente existierten lange vor 2010. Der Endpunkt bezeichnet die ausdrückliche Korrektur
+      durch dieselbe staatliche Publikationsreihe, nicht den ersten wissenschaftlichen Widerspruch.
 episodes:
-- id: new-zealand-1916-2010
-  polity: Neuseeland
-  institutions:
-  - neuseeländisches Department of Education
-  - The School Journal
-  institutionalContext: Der School Journal war eine amtliche Unterrichtspublikation für staatliche Schulen. Die
-    Krone nennt die Ausgaben von 1916 und 1946 ausdrücklich als Quellen der falschen Lehre, Moriori seien eine minderwertige
-    vormāorische Rasse und ausgestorben. 2010 veröffentlichte das Bildungssystem drei gemeinsam mit Moriori entwickelte
-    Sonderausgaben über Rēkohu und die Moriori, um die früheren Darstellungen zu korrigieren.
-  consequences:
-  - Vermittlung einer falschen Rassengeschichte an Generationen neuseeländischer Schulkinder
-  - Stigmatisierung der Moriori als minderwertig, primitiv oder ausgestorben
-  - Scham und Verwirrung bei Teilen der Moriori-Nachkommen über Identität und Herkunft
-  - Fortbestehen des Mythos außerhalb der Schule in Medien und politischer Argumentation
-  - Verzögerte Anerkennung des Fortbestehens und der kulturellen Eigenständigkeit der Moriori im Mainstream-Unterricht
-  summary: Der Moriori-Mythos wurde institutionell folgenreich, weil das staatliche Bildungssystem ihn in die Klassenzimmer
-    trug. Heute erkennt die Krone an, dass der School Journal Generationen eine falsche Geschichte über Rassenminderwertigkeit
-    und Aussterben vermittelte. 2010 wurde dieselbe Publikationsreihe zum Instrument der Korrektur.
+  - id: new-zealand-1916-2010
+    polity: Neuseeland
+    institutions:
+      - neuseeländisches Department of Education
+      - The School Journal
+    institutionalContext: >-
+      Der School Journal war eine amtliche Unterrichtspublikation für staatliche Schulen. Die Krone nennt die Ausgaben von
+      1916 und 1946 ausdrücklich als Quellen der falschen Lehre, Moriori seien eine minderwertige vormāorische Rasse und
+      ausgestorben. 2010 veröffentlichte das Bildungssystem drei gemeinsam mit Moriori entwickelte Sonderausgaben über
+      Rēkohu und die Moriori, um die früheren Darstellungen zu korrigieren.
+    consequences:
+      - Vermittlung einer falschen Rassengeschichte an Generationen neuseeländischer Schulkinder
+      - Stigmatisierung der Moriori als minderwertig, primitiv oder ausgestorben
+      - Scham und Verwirrung bei Teilen der Moriori-Nachkommen über Identität und Herkunft
+      - Fortbestehen des Mythos außerhalb der Schule in Medien und politischer Argumentation
+      - Verzögerte Anerkennung des Fortbestehens und der kulturellen Eigenständigkeit der Moriori im Mainstream-Unterricht
+    summary: >-
+      Der Moriori-Mythos wurde institutionell folgenreich, weil das staatliche Bildungssystem ihn in die Klassenzimmer
+      trug. Heute erkennt die Krone an, dass der School Journal Generationen eine falsche Geschichte über
+      Rassenminderwertigkeit und Aussterben vermittelte. 2010 wurde dieselbe Publikationsreihe zum Instrument der Korrektur.
+    mechanism:
+      summary: >-
+        Das Bildungsministerium verbreitete den School Journal an staatliche Schulen und nutzte damit eine amtliche
+        Unterrichtspublikation, um die rassifizierte Erzählung an Generationen von Kindern weiterzugeben.
+    institutionalCorrection:
+      periodLabel: '2010'
+      action: Der School Journal veröffentlichte drei gemeinsam mit Moriori entwickelte Sonderausgaben über Rēkohu und Moriori, ausdrücklich auch zur Berichtigung der früheren Fehlinformationen.
+      summary: >-
+        Dieselbe staatliche Publikationsreihe, die den Mythos verbreitet hatte, wurde 2010 ausdrücklich zum Instrument der
+        Korrektur; später erkannte die Krone ihre Rolle bei der früheren Fehlinformation formell an und entschuldigte sich.
+evidence:
+  - id: moriori-settlement-proposition
+    note: >-
+      Primäre gesetzliche Anerkennung der Krone, dass die School-Journal-Ausgaben von 1916 und 1946 Generationen lehrten,
+      Moriori seien eine minderwertige vormāorische Rasse, und dass die Rolle der Krone dauerhaften Schaden verursachte.
+  - id: moriori-origins-correction
+    note: >-
+      Historische Darstellung der wissenschaftlichen Gegenargumente seit den 1920er- und 1940er-Jahren, die die Theorie
+      einer vormāorischen Rasse widerlegten und polynesische Besiedlung als richtigen Rahmen etablierten.
+  - id: moriori-settlement-impact
+  - id: moriori-school-carrier
+    note: >-
+      Darstellung der staatlichen Enzyklopädie, wonach das Moriori-Material von 1916 schwer fehlerhaft und so einflussreich
+      war, dass mehrere Generationen mit der Fehlinformation aufwuchsen.
+  - id: moriori-school-mechanism
+  - id: moriori-settlement-consequences
+  - id: moriori-origins-context
+  - id: moriori-school-2010-correction
+    note: >-
+      Aktuelle Bildungsressource, die erklärt, dass die School-Journal-Sonderausgaben von 2010 mit Moriori entwickelt wurden,
+      auch um das Unrecht der Fehldarstellung von 1916 zu berichtigen.

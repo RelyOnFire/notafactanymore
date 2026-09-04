@@ -1,102 +1,199 @@
+schemaVersion: 2
 locale: de
 entryId: lysenkoist-heredity
 sourceReviewedAt: '2026-08-23'
 title: Lyssenkistische Vererbungslehre
-claim: Umweltbehandlungen können die Vererbung über Generationen gezielt umformen und die mendelsche Genetik damit
-  überflüssig oder falsch machen.
-currentUnderstanding: Vererbung wird hauptsächlich durch genetische Information vermittelt. Umweltbedingungen beeinflussen
-  Entwicklung und können in einzelnen Fällen über Generationen nachwirken, stützen aber nicht die breite lyssenkistische
-  Behauptung, dass gezielte Umweltbehandlung erbliche Merkmale routinemäßig umschreibt.
+proposition:
+  summary: >-
+    Umweltbehandlungen können die Vererbung über Generationen gezielt umformen und die mendelsche Genetik damit
+    überflüssig oder falsch machen.
+correction:
+  summary: >-
+    Vererbung wird hauptsächlich durch genetische Information vermittelt. Umweltbedingungen beeinflussen Entwicklung und
+    können in einzelnen Fällen über Generationen nachwirken, stützen aber nicht die breite lyssenkistische Behauptung,
+    dass gezielte Umweltbehandlung erbliche Merkmale routinemäßig umschreibt.
 impact:
-  summary: 'Die am besten belegten direkten Folgen des Lyssenkoismus waren institutioneller Art: Die Genetik wurde
-    unterdrückt, Wissenschaftler wurden entlassen oder degradiert, Lehre und Forschung auf eine politisch geschützte
-    Doktrin ausgerichtet und die normale wissenschaftliche Korrektur über Jahrzehnte beschädigt. In China flossen
-    lyssenkistisch beeinflusste agronomische Vorstellungen zudem in den Großen Sprung nach vorn ein; die folgende
-    Hungersnot entstand jedoch aus mehreren zusammenwirkenden Politiken und Fehlmechanismen und nicht aus dem Lyssenkoismus
-    allein.'
+  summary: >-
+    Die am besten belegten direkten Folgen des Lyssenkoismus waren institutioneller Art: Die Genetik wurde unterdrückt,
+    Wissenschaftler wurden entlassen oder degradiert, Lehre und Forschung auf eine politisch geschützte Doktrin
+    ausgerichtet und die normale wissenschaftliche Korrektur über Jahrzehnte beschädigt. In China flossen lyssenkistisch
+    beeinflusste agronomische Vorstellungen zudem in den Großen Sprung nach vorn ein; die folgende Hungersnot entstand
+    jedoch aus mehreren zusammenwirkenden Politiken und Fehlmechanismen und nicht aus dem Lyssenkoismus allein.
   context:
-  - 'In der Sowjetunion war die VASKhNIL-Tagung von 1948 der entscheidende Wendepunkt. Sie wurde unter Lyssenko
-    organisiert und von Stalin gebilligt. Damit wurde nicht bloß eine Theorie unterstützt: Der institutionelle Wettbewerb
-    mit der mendelschen Genetik wurde beendet. Eine Anordnung des sowjetischen Ministeriums für Hochschulbildung
-    vom August 1948 verlangte, biologische Lehrpläne und Personalpolitik an der „mitschurinschen Biologie“ auszurichten.
-    Genetiker verloren Stellen, Lehrstühle wurden umgebaut, Lehrbücher und Forschungsmaterialien entfernt und die
-    Mechanismen, durch die eine wissenschaftliche Behauptung normalerweise widerlegt werden kann, gezielt geschwächt.'
-  - 'Eine frühere Phase überschneidet sich zeitlich mit dem Holodomor. Die sowjetischen Behörden ordneten 1931 die
-    sofortige Anwendung von Lyssenkos Vernalisationsprogramm an, und die behandelte Anbaufläche nahm rasch zu. Seine
-    agronomischen Methoden wurden also bereits gefördert, als die ukrainische Hungersnot von 1932–1933 einsetzte.
-    Die Belege tragen jedoch nicht die Aussage, der Lyssenkoismus sei eine bedeutende nachgewiesene Ursache des
-    Holodomor gewesen. Die historische Forschung stellt vielmehr Kollektivierung und staatliche Getreideentnahme
-    beziehungsweise -beschaffung in den Mittelpunkt; neuere quantitative Forschung zeigt zusätzlich, dass Ausreise-
-    und Wanderungsbeschränkungen sowie eine antiukrainische Verzerrung der sowjetischen Beschaffungs- und Getreiderückhaltungspolitik
-    zur Sterblichkeit beitrugen. Die Hungersnot schwächte Lyssenkos Stellung zudem nicht, sondern stärkte sie: Danach
-    wies der Volkskommissar für Landwirtschaft Wawilow an, Lyssenkos Arbeit zu unterstützen.'
-  - China übernahm nach 1949 lyssenkistische Biologie. Während des Großen Sprungs nach vorn gehörten später auch
-    agronomische Vorstellungen aus diesem Umfeld zu den propagierten Methoden, besonders extreme Dichtpflanzung
-    und Tiefpflügen. Solche Verfahren konnten Erträge schädigen, waren aber nur ein Teil der Katastrophe. Die Kollektivierung
-    veränderte Anreize und den Zugang der Haushalte zu Nahrung; Arbeitskräfte wurden aus der Landwirtschaft abgezogen;
-    Funktionäre meldeten unter politischem Druck überhöhte Ernten; auf dieser fehlerhaften Grundlage wurden hohe
-    Ablieferungsquoten festgesetzt; Getreideexporte und eine zunehmend starre Beschaffung reduzierten die ländlichen
-    Vorräte weiter; und Repression machte es gefährlich, Misserfolge offen zu melden.
-  - Für die Zuschreibung ist diese Unterscheidung entscheidend. Ökonomische Untersuchungen zeigen, dass sinkende
-    Produktion, höhere und unflexiblere staatliche Getreidebeschaffung sowie Exporte gemeinsam zur Übersterblichkeit
-    beitrugen und kein einzelner Mechanismus die gesamte Hungersnot erklärt. Die häufig genannte Größenordnung von
-    15–30 Millionen bezeichnet daher die Hungersnot von 1959–1961 insgesamt. Sie zeigt, in welchem historischen
-    Umfeld fehlgeleitete Agrardoktrinen wirkten, ist aber keine belastbare Zahl der speziell durch Lyssenkoismus
-    verursachten Todesfälle.
+    - >-
+      In der Sowjetunion war die VASKhNIL-Tagung von 1948 der entscheidende Wendepunkt. Sie wurde unter Lyssenko organisiert
+      und von Stalin gebilligt. Damit wurde nicht bloß eine Theorie unterstützt: Der institutionelle Wettbewerb mit der
+      mendelschen Genetik wurde beendet. Eine Anordnung des sowjetischen Ministeriums für Hochschulbildung vom August 1948
+      verlangte, biologische Lehrpläne und Personalpolitik an der „mitschurinschen Biologie“ auszurichten. Genetiker
+      verloren Stellen, Lehrstühle wurden umgebaut, Lehrbücher und Forschungsmaterialien entfernt und die Mechanismen,
+      durch die eine wissenschaftliche Behauptung normalerweise widerlegt werden kann, gezielt geschwächt.
+    - >-
+      Eine frühere Phase überschneidet sich zeitlich mit dem Holodomor. Die sowjetischen Behörden ordneten 1931 die
+      sofortige Anwendung von Lyssenkos Vernalisationsprogramm an, und die behandelte Anbaufläche nahm rasch zu. Seine
+      agronomischen Methoden wurden also bereits gefördert, als die ukrainische Hungersnot von 1932–1933 einsetzte. Die
+      Belege tragen jedoch nicht die Aussage, der Lyssenkoismus sei eine bedeutende nachgewiesene Ursache des Holodomor
+      gewesen. Die historische Forschung stellt vielmehr Kollektivierung und staatliche Getreideentnahme beziehungsweise
+      -beschaffung in den Mittelpunkt; neuere quantitative Forschung zeigt zusätzlich, dass Ausreise- und
+      Wanderungsbeschränkungen sowie eine antiukrainische Verzerrung der sowjetischen Beschaffungs- und
+      Getreiderückhaltungspolitik zur Sterblichkeit beitrugen. Die Hungersnot schwächte Lyssenkos Stellung zudem nicht,
+      sondern stärkte sie: Danach wies der Volkskommissar für Landwirtschaft Wawilow an, Lyssenkos Arbeit zu unterstützen.
+    - >-
+      China übernahm nach 1949 lyssenkistische Biologie. Während des Großen Sprungs nach vorn gehörten später auch
+      agronomische Vorstellungen aus diesem Umfeld zu den propagierten Methoden, besonders extreme Dichtpflanzung und
+      Tiefpflügen. Solche Verfahren konnten Erträge schädigen, waren aber nur ein Teil der Katastrophe. Die Kollektivierung
+      veränderte Anreize und den Zugang der Haushalte zu Nahrung; Arbeitskräfte wurden aus der Landwirtschaft abgezogen;
+      Funktionäre meldeten unter politischem Druck überhöhte Ernten; auf dieser fehlerhaften Grundlage wurden hohe
+      Ablieferungsquoten festgesetzt; Getreideexporte und eine zunehmend starre Beschaffung reduzierten die ländlichen
+      Vorräte weiter; und Repression machte es gefährlich, Misserfolge offen zu melden.
+    - >-
+      Für die Zuschreibung ist diese Unterscheidung entscheidend. Ökonomische Untersuchungen zeigen, dass sinkende
+      Produktion, höhere und unflexiblere staatliche Getreidebeschaffung sowie Exporte gemeinsam zur Übersterblichkeit
+      beitrugen und kein einzelner Mechanismus die gesamte Hungersnot erklärt. Die häufig genannte Größenordnung von
+      15–30 Millionen bezeichnet daher die Hungersnot von 1959–1961 insgesamt. Sie zeigt, in welchem historischen Umfeld
+      fehlgeleitete Agrardoktrinen wirkten, ist aber keine belastbare Zahl der speziell durch Lyssenkoismus verursachten
+      Todesfälle.
   highlights:
-  - value: '127'
-    label: Im Herbst 1948 entlassene Hochschullehrkräfte in einer historischen Aufstellung
-    note: Darunter waren 66 Professoren; spätere Entlassungen, Degradierungen und Entzüge von Leitungsfunktionen
-      gingen deutlich darüber hinaus.
-  - value: Mehrere Tausend
-    label: Nach 1948 entlassene, degradierte oder aus Leitungsfunktionen entfernte Wissenschaftler und Lehrkräfte
-      laut historischer Forschung
-    note: Dies ist eine Größenordnung institutioneller Repression, keine Zahl von Todesopfern.
-  - value: 15–30 Millionen
-    label: Geschätzte Übersterblichkeit während der chinesischen Hungersnot 1959–1961
-    note: Gesamtsterblichkeit der Hungersnot, nicht dem Lyssenkoismus allein zurechenbare Todesfälle. Produktionsrückgang,
-      Beschaffung, Exporte, Kollektivierung und weitere politische und wirtschaftliche Mechanismen wirkten zusammen.
+    - value: '127'
+      label: Im Herbst 1948 entlassene Hochschullehrkräfte in einer historischen Aufstellung
+      note: Darunter waren 66 Professoren; spätere Entlassungen, Degradierungen und Entzüge von Leitungsfunktionen gingen deutlich darüber hinaus.
+    - value: Mehrere Tausend
+      label: Nach 1948 entlassene, degradierte oder aus Leitungsfunktionen entfernte Wissenschaftler und Lehrkräfte laut historischer Forschung
+      note: Dies ist eine Größenordnung institutioneller Repression, keine Zahl von Todesopfern.
+    - value: 15–30 Millionen
+      label: Geschätzte Übersterblichkeit während der chinesischen Hungersnot 1959–1961
+      note: Gesamtsterblichkeit der Hungersnot, nicht dem Lyssenkoismus allein zurechenbare Todesfälle. Produktionsrückgang, Beschaffung, Exporte, Kollektivierung und weitere politische und wirtschaftliche Mechanismen wirkten zusammen.
 episodes:
-- id: ussr-1948-1964
-  polity: Sowjetunion
-  summary: Nach der VASKhNIL-Tagung von 1948 erhielt Lyssenkos anti-mendelsche Biologie staatliche Rückendeckung.
-    Genetiker verloren Stellen, Labore wurden geschlossen und Lehre sowie Forschung zur klassischen Genetik eingeschränkt.
-    Das landesweite Verbot zerfiel erst nach Chruschtschows Sturz 1964.
-  consequences:
-  - Genetiker wurden entlassen, degradiert oder aus wissenschaftlichen Leitungsfunktionen entfernt
-  - Genetische Labore und Lehrstühle wurden geschlossen oder umorganisiert
-  - Mendelsche Genetik wurde aus Lehre und Lehrbüchern entfernt
-  - Agrar- und Biowissenschaften verloren normale Mechanismen wissenschaftlicher Korrektur
-  institutions:
-  - Lenin-Allunionsakademie der Landwirtschaftswissenschaften (VASKhNIL)
-  - Ministerium für Hochschulbildung der UdSSR
-  - Akademie der Wissenschaften der UdSSR
-  - Moskauer Staatliche Universität
-  - Staatliche Universität Leningrad
-- id: china-1949-1956
-  polity: Volksrepublik China
-  summary: In der frühen Volksrepublik wurde die sowjetische Wissenschaftsorganisation übernommen und die klassische
-    Genetik zugunsten lyssenkistischer Biologie zurückgedrängt. Die Genetiktagung von Qingdao 1956 markierte die
-    offizielle Rehabilitierung der mendelschen Genetik, auch wenn politischer Druck auf Forschende fortbestand.
-  consequences:
-  - Klassische Genetik wurde aus Forschung und Hochschullehre verdrängt
-  - Wissenschaftliche Laufbahnen und Lehrpläne wurden durch politische Orthodoxie geprägt
-  - Lyssenkistisch beeinflusste Agrarideen flossen später in Kampagnen des Großen Sprungs nach vorn ein
-  institutions:
-  - Chinesische Akademie der Wissenschaften
-  - Ministerium für Hochschulbildung der Volksrepublik China
-- id: poland-1949-1956
-  polity: Polen
-  summary: Eine Warschauer Konferenz erklärte die lyssenkistische „Neue Biologie“ im März 1949 zum offiziellen Paradigma
-    der polnischen Wissenschaft. Genetik und Kritik an der Doktrin wurden aktiv bekämpft, Genetikkurse verschwanden
-    aus den Universitäten, Lehrpläne wurden umgeschrieben und Wissenschaftler konnten wegen politisch unerwünschter
-    Begriffe zum Schweigen gebracht oder öffentlich stigmatisiert werden. Mit dem politischen Tauwetter von 1956
-    brach das System zusammen.
-  consequences:
-  - Entfernung der Genetik aus dem Unterricht
-  - Unterdrückung konkurrierender biologischer Forschung
-  - Politischer Druck auf Wissenschaftler
-  - Versuche zur Umgestaltung der Agrarwissenschaft
-  institutions:
-  - Koło Przyrodników Marksistów
-  - Polska Akademia Nauk (ab 1952)
+  - id: ussr-1948-1964
+    polity: Sowjetunion
+    institutions:
+      - Lenin-Allunionsakademie der Landwirtschaftswissenschaften (VASKhNIL)
+      - Ministerium für Hochschulbildung der UdSSR
+      - Akademie der Wissenschaften der UdSSR
+      - Moskauer Staatliche Universität
+      - Staatliche Universität Leningrad
+    institutionalContext: >-
+      Die VASKhNIL-Tagung von 1948 und die anschließende Anordnung des Ministeriums für Hochschulbildung verwandelten
+      Lyssenkos Position in eine administrative wissenschaftliche Orthodoxie: Personal, Lehrpläne, Lehrstühle, Lehrbücher
+      und Forschung wurden an der mitschurinschen Biologie ausgerichtet, während die mendelsche Genetik unterdrückt wurde.
+    summary: >-
+      Nach der VASKhNIL-Tagung von 1948 erhielt Lyssenkos anti-mendelsche Biologie staatliche Rückendeckung. Genetiker
+      verloren Stellen, Labore wurden geschlossen und Lehre sowie Forschung zur klassischen Genetik eingeschränkt. Das
+      landesweite Verbot zerfiel erst nach Chruschtschows Sturz 1964.
+    consequences:
+      - Genetiker wurden entlassen, degradiert oder aus wissenschaftlichen Leitungsfunktionen entfernt
+      - Genetische Labore und Lehrstühle wurden geschlossen oder umorganisiert
+      - Mendelsche Genetik wurde aus Lehre und Lehrbüchern entfernt
+      - Agrar- und Biowissenschaften verloren normale Mechanismen wissenschaftlicher Korrektur
+    mechanism:
+      summary: >-
+        Staatlich gestützte Akademie- und Bildungsbehörden setzten mitschurinsche Biologie über Personal-, Lehrplan- und
+        Forschungssteuerung durch und unterdrückten zugleich die mendelsche Genetik und ihre Verteidiger.
+    institutionalCorrection:
+      periodLabel: ab 1964
+      action: Nach Chruschtschows Sturz stellten sowjetische Wissenschaftsinstitutionen die Genetik wieder her und bauten Lyssenkos geschütztes institutionelles Monopol ab.
+      summary: >-
+        Das Wissenschaftssystem nach Chruschtschow kehrte die administrative Unterdrückung der Genetik um und stellte das
+        Fach in Forschung und Lehre wieder her; damit endete der Status des Lyssenkoismus als geschützte landesweite Orthodoxie.
+  - id: china-1949-1956
+    polity: Volksrepublik China
+    institutions:
+      - Chinesische Akademie der Wissenschaften
+      - Ministerium für Hochschulbildung der Volksrepublik China
+    summary: >-
+      In der frühen Volksrepublik wurde die sowjetische Wissenschaftsorganisation übernommen und die klassische Genetik
+      zugunsten lyssenkistischer Biologie zurückgedrängt. Die Genetiktagung von Qingdao 1956 markierte die offizielle
+      Rehabilitierung der mendelschen Genetik, auch wenn politischer Druck auf Forschende fortbestand.
+    consequences:
+      - Klassische Genetik wurde aus Forschung und Hochschullehre verdrängt
+      - Wissenschaftliche Laufbahnen und Lehrpläne wurden durch politische Orthodoxie geprägt
+      - Lyssenkistisch beeinflusste Agrarideen flossen später in Kampagnen des Großen Sprungs nach vorn ein
+    mechanism:
+      summary: >-
+        Akademie- und Hochschulinstitutionen übernahmen das sowjetische Wissenschaftsmodell und verdrängten die klassische
+        Genetik in Forschung und Hochschullehre zugunsten lyssenkistischer Biologie.
+    institutionalCorrection:
+      periodLabel: '1956'
+      action: Die Genetiktagung von Qingdao markierte die offizielle Rehabilitierung der mendelschen Genetik in China.
+      summary: >-
+        Chinesische Wissenschaftsinstitutionen öffneten 1956 offiziell wieder Raum für die mendelsche Genetik und kehrten
+        damit die frühere Verdrängung der klassischen Genetik um, auch wenn breiterer politischer Druck fortbestand.
+  - id: poland-1949-1956
+    polity: Polen
+    institutions:
+      - Koło Przyrodników Marksistów
+      - Polska Akademia Nauk (ab 1952)
+    summary: >-
+      Eine Warschauer Konferenz erklärte die lyssenkistische „Neue Biologie“ im März 1949 zum offiziellen Paradigma der
+      polnischen Wissenschaft. Genetik und Kritik an der Doktrin wurden aktiv bekämpft, Genetikkurse verschwanden aus den
+      Universitäten, Lehrpläne wurden umgeschrieben und Wissenschaftler konnten wegen politisch unerwünschter Begriffe zum
+      Schweigen gebracht oder öffentlich stigmatisiert werden. Mit dem politischen Tauwetter von 1956 brach das System zusammen.
+    consequences:
+      - Entfernung der Genetik aus dem Unterricht
+      - Unterdrückung konkurrierender biologischer Forschung
+      - Politischer Druck auf Wissenschaftler
+      - Versuche zur Umgestaltung der Agrarwissenschaft
+    mechanism:
+      summary: >-
+        Wissenschafts- und Bildungsinstitutionen machten die „Neue Biologie“ zum offiziellen Paradigma, schrieben
+        Lehrpläne um und marginalisierten oder unterdrückten Genetik und Forschende mit politisch unerwünschten Begriffen.
+    institutionalCorrection:
+      summary: >-
+        Die vorhandenen v1-Belege zeigen, dass das offizielle System im politischen Tauwetter von 1956 zerfiel und der
+        Lyssenkoismus aus dem offiziellen Massendiskurs verschwand; sie benennen jedoch keinen datierten polnischen
+        Institutionsakt, der die Doktrin ausdrücklich verworfen hätte.
+evidence:
+  - id: lysenko-history-proposition
+    note: >-
+      Untersucht die institutionelle Übernahme von 1948 und kommt zu dem Schluss, dass der Lyssenkoismus erhebliche
+      Verluste in sowjetischer Landwirtschaft, Genetik, Evolutionstheorie, Molekularbiologie und wissenschaftlicher
+      Kontinuität zwischen Generationen verursachte.
+  - id: lysenko-pushback-correction
+    note: >-
+      Historischer Überblick über staatliche Unterstützung des Lyssenkoismus, die Unterdrückung der Genetik und ihre
+      Rehabilitierung nach der Chruschtschow-Ära.
+  - id: lysenko-pushback-impact
+  - id: lysenko-holodomor-impact
+    note: >-
+      Quantitative Studie zum Holodomor, die zeigt, dass Wanderungsbeschränkungen und eine antiukrainische Verzerrung der
+      sowjetischen Getreidebeschaffungs- und Rückhaltungspolitik zur hohen ukrainischen Sterblichkeit beitrugen; hier zur
+      Abgrenzung dieser belegten Mechanismen von Lyssenkos gleichzeitigem Agrarprogramm verwendet.
+  - id: lysenko-china-famine-impact
+    note: >-
+      Gibt eine Schätzung von etwa 15–30 Millionen zusätzlichen Todesfällen während der Großen Chinesischen Hungersnot und
+      betont, dass die Hungersnot aus mehreren zusammenwirkenden Faktoren entstand.
+  - id: lysenko-great-leap-impact
+    note: >-
+      Modelliert, wie optimistische Produktivitätserwartungen, die Verlagerung landwirtschaftlicher Arbeitskräfte und
+      erhöhte Getreidebeschaffung mit sinkender Produktion zusammenwirkten und den Nahrungsmittelkonsum einbrechen ließen.
+  - id: lysenko-grain-exports-impact
+    note: >-
+      Zeigt, dass sinkende Agrarproduktion, höhere Beschaffung, Getreideexporte und zunehmend starre Beschaffung gemeinsam
+      die Übersterblichkeit erhöhten; kein einzelner Faktor erklärt die Hungersnot insgesamt.
+  - id: lysenko-nature-ussr-carrier
+    note: >-
+      Zeitgenössischer Bericht von 1948 über Entlassungen, Laborschließungen und die Entfernung orthodoxer Genetiker nach
+      dem Akademiebeschluss.
+  - id: lysenko-history-ussr-mechanism
+  - id: lysenko-nature-ussr-consequences
+  - id: lysenko-pushback-ussr-correction
+  - id: lysenko-china-biotech-carrier
+    note: >-
+      Beschreibt Chinas sowjetisches Wissenschaftsmodell nach 1949 und die Aufgabe der klassischen Genetik zugunsten des Lyssenkoismus.
+  - id: lysenko-china-biotech-mechanism
+  - id: lysenko-china-monograph-consequences
+    note: >-
+      Historische Monografie auf Grundlage von Archivmaterial und Interviews, die den staatlich geförderten Lyssenkoismus
+      in China nachzeichnet und seine Geschichte mit dem Großen Sprung nach vorn verbindet.
+  - id: lysenko-history-china-correction
+    note: >-
+      Untersucht die internationale Ausbreitung des Lyssenkoismus und hält fest, dass die Genetik in China 1956 offiziell rehabilitiert wurde.
+  - id: lysenko-poland-carrier
+    note: >-
+      Dokumentiert die Erklärung der „Neuen Biologie“ zum offiziellen Paradigma Polens im März 1949, Lehrplanänderungen,
+      die Unterdrückung der Genetik und den Zusammenbruch der Doktrin 1956.
+  - id: lysenko-poland-mechanism
+  - id: lysenko-poland-consequences
+  - id: lysenko-history-poland-context
+    note: >-
+      Untersucht die administrative Einführung der mitschurinschen Biologie in Polen und ihr Verschwinden aus dem
+      offiziellen Massendiskurs nach 1956.

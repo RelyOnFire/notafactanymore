@@ -1,99 +1,167 @@
+schemaVersion: 2
 title: Women as cerebrally unfit for regular university study
-claim: Austrian higher-education policy excluded women from regular university matriculation while academic opponents
-  invoked women's supposed low cerebral capacity, smaller brains and female 'nature' as scientific reasons why women
-  as a group were generally unfit for serious university study.
-currentUnderstanding: Women are not subject to a sex-wide cerebral incapacity that prevents successful university
-  study. The claim was already contradicted by women who completed demanding degrees abroad and, once Austrian barriers
-  began to fall, by students at the University of Vienna itself. In 1897 the Ministry of Culture and Education admitted
-  women as regular or extraordinary students to philosophical faculties; Medicine followed in 1900. Women later
-  completed university degrees across the disciplines that had been closed to them.
+proposition:
+  summary: >-
+    Austrian higher-education policy excluded women from regular university matriculation while academic opponents invoked
+    women's supposed low cerebral capacity, smaller brains and female 'nature' as scientific reasons why women as a group
+    were generally unfit for serious university study.
+correction:
+  summary: >-
+    Women are not subject to a sex-wide cerebral incapacity that prevents successful university study. The claim was
+    already contradicted by women who completed demanding degrees abroad and, once Austrian barriers began to fall, by
+    students at the University of Vienna itself. In 1897 the Ministry of Culture and Education admitted women as regular
+    or extraordinary students to philosophical faculties; Medicine followed in 1900. Women later completed university
+    degrees across the disciplines that had been closed to them.
 category: Higher education, sex and scientific exclusion
 reviewedAt: '2026-08-25'
 impact:
-  summary: In May 1878 Austria's Ministry of Culture and Education explicitly prohibited women from matriculating
-    at universities, while allowing exceptional attendance as guest auditors only with approval from the lecturer,
-    faculty and ministry and without a route to a degree. University of Vienna histories record that supposed 'low
-    cerebral capacity' was still presented in the 1880s as scientifically established evidence against women's admission,
-    alongside arguments about smaller brains, female nature and family roles. A ministerial decree reversed the
-    general barrier for philosophical faculties in 1897. Only three women enrolled at Vienna in the first semester,
-    but the institutional claim of general incapacity was no longer sustainable.
+  summary: >-
+    In May 1878 Austria's Ministry of Culture and Education explicitly prohibited women from matriculating at universities,
+    while allowing exceptional attendance as guest auditors only with approval from the lecturer, faculty and ministry and
+    without a route to a degree. University of Vienna histories record that supposed 'low cerebral capacity' was still
+    presented in the 1880s as scientifically established evidence against women's admission, alongside arguments about
+    smaller brains, female nature and family roles. A ministerial decree reversed the general barrier for philosophical
+    faculties in 1897. Only three women enrolled at Vienna in the first semester, but the institutional claim of general
+    incapacity was no longer sustainable.
   highlights:
-  - value: 19 years
-    label: from the explicit 1878 matriculation prohibition to the 1897 opening of philosophical faculties
-  - value: '3'
-    label: women who enrolled at the University of Vienna in the first 1897/98 semester
-  - value: 1:183
-    label: initial ratio of women to men at the University of Vienna after regular admission began
+    - value: 19 years
+      label: from the explicit 1878 matriculation prohibition to the 1897 opening of philosophical faculties
+    - value: '3'
+      label: women who enrolled at the University of Vienna in the first 1897/98 semester
+    - value: 1:183
+      label: initial ratio of women to men at the University of Vienna after regular admission began
   context:
-  - The 1878 ministerial prohibition did not contain one single scientific rationale. Opposition combined biological
-    claims, conventional gender roles and fear of competition in academic professions. For that reason the episode
-    is classified as institutionally influential rather than claiming that 'low cerebral capacity' was the sole
-    legal basis for exclusion.
-  - 'The 1897 endpoint marks the first decisive breach of the general ban, when women gained regular admission to
-    philosophical faculties. Equality did not arrive at once: Medicine opened in 1900, Law and Political Science
-    in 1919, Protestant Theology in 1928 and Catholic Theology only in 1945.'
-  - The historical Philosophical Faculty included fields that would now be separated into humanities and natural
-    sciences. The card therefore uses 'university study' in the historical institutional sense and does not imply
-    that every modern faculty opened in 1897.
+    - >-
+      The 1878 ministerial prohibition did not contain one single scientific rationale. Opposition combined biological
+      claims, conventional gender roles and fear of competition in academic professions. For that reason the episode is
+      classified as institutionally influential rather than claiming that 'low cerebral capacity' was the sole legal basis
+      for exclusion.
+    - >-
+      The 1897 endpoint marks the first decisive breach of the general ban, when women gained regular admission to
+      philosophical faculties. Equality did not arrive at once: Medicine opened in 1900, Law and Political Science in 1919,
+      Protestant Theology in 1928 and Catholic Theology only in 1945.
+    - >-
+      The historical Philosophical Faculty included fields that would now be separated into humanities and natural
+      sciences. The card therefore uses 'university study' in the historical institutional sense and does not imply that
+      every modern faculty opened in 1897.
 episodes:
-- id: austria-1878-1897
-  polity: Austria
-  region: Western Europe
-  startYear: 1878
-  endYear: 1897
-  strength: institutionally-influential
-  institutionTypes:
-  - government
-  - university
-  - education
-  institutions:
-  - Imperial-Royal Ministry of Culture and Education
-  - University of Vienna
-  - Philosophical Faculty of the University of Vienna
-  institutionalContext: A ministerial order of 6 May 1878 made the previously tacit exclusion explicit by barring
-    women from university matriculation. Exceptional guest attendance was possible only under special circumstances
-    and with approval from the lecturer, faculty and ministry; it did not lead to a degree. During the following
-    debate, the University of Vienna records biologically framed expert opinions that portrayed women as incapable
-    of academic study because of supposed female nature, smaller brains or 'low cerebral capacity.' On 23 March
-    1897 the Ministry issued a regulation allowing women to enrol as regular or extraordinary students at the philosophical
-    faculties of the imperial-royal universities, and Vienna enrolled its first three regular women students in
-    1897/98.
-  consequences:
-  - Exclusion of women from regular matriculation and degree completion at Austrian universities
-  - Guest attendance limited to exceptional cases requiring approval from lecturer, faculty and ministry
-  - Pressure on ambitious women to study abroad and later seek recognition of foreign qualifications
-  - Delayed entry of women into professions whose credentials depended on university degrees
-  - Scientific language about brain capacity and sex used to lend institutional legitimacy to an exclusion also
-    driven by social and professional interests
-  summary: Austria's university exclusion shows how a social barrier could be reinforced by purported science. Women
-    were formally denied matriculation in 1878, while opponents presented supposed female cerebral limitations as
-    evidence that exceptional successful women should not be taken as proof of general ability. The 1897 decree
-    admitting women to philosophical faculties broke that institutional premise in practice; the remaining faculty
-    barriers fell in stages over the following decades.
-  sources:
-  - title: Female enrolment — 'Scientifically certified'
+  - id: austria-1878-1897
+    polity: Austria
+    region: Western Europe
+    startYear: 1878
+    endYear: 1897
+    strength: institutionally-influential
+    institutionTypes:
+      - government
+      - university
+      - education
+    institutions:
+      - Imperial-Royal Ministry of Culture and Education
+      - University of Vienna
+      - Philosophical Faculty of the University of Vienna
+    institutionalContext: >-
+      A ministerial order of 6 May 1878 made the previously tacit exclusion explicit by barring women from university
+      matriculation. Exceptional guest attendance was possible only under special circumstances and with approval from the
+      lecturer, faculty and ministry; it did not lead to a degree. During the following debate, the University of Vienna
+      records biologically framed expert opinions that portrayed women as incapable of academic study because of supposed
+      female nature, smaller brains or 'low cerebral capacity.' On 23 March 1897 the Ministry issued a regulation allowing
+      women to enrol as regular or extraordinary students at the philosophical faculties of the imperial-royal
+      universities, and Vienna enrolled its first three regular women students in 1897/98.
+    consequences:
+      - Exclusion of women from regular matriculation and degree completion at Austrian universities
+      - Guest attendance limited to exceptional cases requiring approval from lecturer, faculty and ministry
+      - Pressure on ambitious women to study abroad and later seek recognition of foreign qualifications
+      - Delayed entry of women into professions whose credentials depended on university degrees
+      - Scientific language about brain capacity and sex used to lend institutional legitimacy to an exclusion also driven by social and professional interests
+    summary: >-
+      Austria's university exclusion shows how a social barrier could be reinforced by purported science. Women were
+      formally denied matriculation in 1878, while opponents presented supposed female cerebral limitations as evidence
+      that exceptional successful women should not be taken as proof of general ability. The 1897 decree admitting women to
+      philosophical faculties broke that institutional premise in practice; the remaining faculty barriers fell in stages
+      over the following decades.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        The ministry barred regular matriculation and universities implemented the exclusion while biologically framed
+        academic arguments helped legitimize the policy; exceptional attendance required multiple institutional approvals.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 23 March 1897 onward
+      action: The Ministry of Culture and Education admitted women as regular or extraordinary students to philosophical faculties; other faculty exclusions were removed in later stages.
+      summary: >-
+        The 1897 regulation directly reversed the general exclusion for philosophical faculties and made successful regular
+        study by women an institutional reality, but Medicine and other faculties remained closed until later reforms.
+sources:
+  - id: women-vienna-certified
+    title: Female enrolment — 'Scientifically certified'
     url: https://geschichte.univie.ac.at/en/articles/female-enrolment
     publisher: University of Vienna
-    note: University history explicitly stating that women's supposed 'low cerebral capacity' was still used in
-      the 1880s as a scientifically presented argument against admission, and recording the first three women students
-      and the initial 1:183 ratio.
-  - title: '1878: First official steps to make it possible for women to study'
+  - id: women-vienna-1878
+    title: '1878: First official steps to make it possible for women to study'
     url: https://kein-spaziergang.univie.ac.at/en/no-walk-in-the-park-a-scroll-stroll/1878-first-official-steps/
     publisher: University of Vienna
-    note: 'Institutional history of the 1878 ministry order: women could not matriculate and only exceptional guest
-      attendance was possible with lecturer, faculty and ministry approval and no possibility of a degree.'
-  - title: Women at the University of Vienna
+  - id: women-vienna-history
+    title: Women at the University of Vienna
     url: https://vcm2015.univie.ac.at/uniview/studium-lehre/detailansicht/artikel/frauen-an-der-universitaet-wien/?no_cache=1
     publisher: University of Vienna
-    note: University account of the nineteenth-century debate, including biologically framed expert opinions about
-      female nature and smaller brains, the 1897 opening of Philosophy and the 1900 opening of Medicine.
-  - title: Regulation No. 84/1897 — admission of women to philosophical faculties
+  - id: women-regulation-1897
+    title: Regulation No. 84/1897 — admission of women to philosophical faculties
     url: https://www.ris.bka.gv.at/Ergebnis.wxe?Abfrage=BgblAlt&Bgblnummer=84%2F1897
     publisher: Austrian Legal Information System
-    note: Official legal record of the Ministry of Culture and Education regulation admitting women as regular or
-      extraordinary students to the philosophical faculties of the imperial-royal universities.
-  - title: '1897: First Female Students'
+  - id: women-vienna-1897
+    title: '1897: First Female Students'
     url: https://kein-spaziergang.univie.ac.at/en/no-walk-in-the-park-a-scroll-stroll/1897-first-female-students/
     publisher: University of Vienna
-    note: University account of the 1897 ministerial change, its Matura requirement and the first three women enrolling
-      in the winter semester 1897/98.
+evidence:
+  - id: women-certified-proposition
+    sourceId: women-vienna-certified
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      University history explicitly stating that women's supposed 'low cerebral capacity' was still used in the 1880s as
+      a scientifically presented argument against admission, and recording the first three women students and the initial
+      1:183 ratio.
+  - id: women-vienna-correction
+    sourceId: women-vienna-history
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      University account of the nineteenth-century debate, including biologically framed expert opinions about female
+      nature and smaller brains, the 1897 opening of Philosophy and the 1900 opening of Medicine.
+  - id: women-1878-impact
+    sourceId: women-vienna-1878
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Institutional history of the 1878 ministry order: women could not matriculate and only exceptional guest attendance
+      was possible with lecturer, faculty and ministry approval and no possibility of a degree.
+  - id: women-1878-carrier
+    sourceId: women-vienna-1878
+    relation: documents
+    target: {scope: episode, episodeId: austria-1878-1897, aspect: carrier}
+  - id: women-1878-mechanism
+    sourceId: women-vienna-1878
+    relation: supports
+    target: {scope: episode, episodeId: austria-1878-1897, aspect: mechanism}
+  - id: women-certified-consequences
+    sourceId: women-vienna-certified
+    relation: supports
+    target: {scope: episode, episodeId: austria-1878-1897, aspect: consequences}
+  - id: women-vienna-context
+    sourceId: women-vienna-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: austria-1878-1897, aspect: context}
+  - id: women-regulation-correction
+    sourceId: women-regulation-1897
+    relation: documents
+    target: {scope: episode, episodeId: austria-1878-1897, aspect: institutional-correction}
+    note: >-
+      Official legal record of the Ministry of Culture and Education regulation admitting women as regular or
+      extraordinary students to the philosophical faculties of the imperial-royal universities.
+  - id: women-first-students-correction
+    sourceId: women-vienna-1897
+    relation: supports
+    target: {scope: episode, episodeId: austria-1878-1897, aspect: institutional-correction}
+    note: >-
+      University account of the 1897 ministerial change, its Matura requirement and the first three women enrolling in the
+      winter semester 1897/98.

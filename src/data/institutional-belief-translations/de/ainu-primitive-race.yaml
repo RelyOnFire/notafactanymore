@@ -1,34 +1,74 @@
+schemaVersion: 2
 locale: de
 entryId: ainu-primitive-race
 sourceReviewedAt: '2026-08-23'
 title: Ainu als „primitive Rasse“
-claim: Ainu wurden als „primitives“, rückständiges oder verschwindendes Volk behandelt, dessen Überleben und Modernisierung
-  die Assimilation an eine sesshafte japanische Agrargesellschaft erfordere.
-currentUnderstanding: Die Ainu sind ein indigenes Volk mit eigenen Geschichten, Sprachen, kulturellen Traditionen und politischen
-  Gemeinschaften. Unterschiede zwischen Ainu und japanischen Lebensweisen waren kein Beleg biologischer Rückständigkeit; koloniale
-  Enteignung, Zwangsumsiedlung, Einschränkungen des Ressourcenzugangs, Krankheiten und Assimilationspolitik trugen selbst
-  wesentlich zu Verarmung und Bevölkerungsrückgang bei.
+proposition:
+  summary: >-
+    Ainu wurden als „primitives“, rückständiges oder verschwindendes Volk behandelt, dessen Überleben und Modernisierung
+    die Assimilation an eine sesshafte japanische Agrargesellschaft erfordere.
+correction:
+  summary: >-
+    Die Ainu sind ein indigenes Volk mit eigenen Geschichten, Sprachen, kulturellen Traditionen und politischen
+    Gemeinschaften. Unterschiede zwischen Ainu und japanischen Lebensweisen waren kein Beleg biologischer Rückständigkeit;
+    koloniale Enteignung, Zwangsumsiedlung, Einschränkungen des Ressourcenzugangs, Krankheiten und Assimilationspolitik
+    trugen selbst wesentlich zu Verarmung und Bevölkerungsrückgang bei.
 episodes:
-- id: japan-1899-1939
-  polity: Japan
-  institutions:
-  - 内務省 (Innenministerium)
-  - 北海道庁 (Hokkaidō-Verwaltung)
-  - 東京帝国大学 (Kaiserliche Universität Tokio)
-  - 東京人類学会 (Anthropologische Gesellschaft Tokio)
-  institutionalContext: 'Das Hokkaidō Former Aborigines Protection Act von 1899 übertrug dem Innenminister Durchführungskompetenzen
-    und dem Gouverneur der Hokkaidō-Verwaltung unmittelbare Befugnisse über Land, Gemeinschaftsvermögen und Polizeiverordnungen,
-    während Landwirtschaft und staatliche Schulbildung gefördert wurden. Die rassenanthropologische Seite hatte eigene identifizierbare
-    Träger: Die Kaiserliche Universität Tokio wurde zu einem Zentrum der physischen Anthropologie, und die Anthropologische
-    Gesellschaft Tokio veröffentlichte umfangreiche Ainu-Forschung. Verwaltung, Bildungswesen und Wissenschaft bildeten
-    zusammen einen breiteren kolonialen Apparat und keine einzelne einheitliche Institution.'
-  summary: Japanische Kolonialverwaltung und physische Anthropologie stellten Ainu wiederholt als „primitive“ oder aussterbende
-    „Rasse“ dar. Das Hokkaidō Former Aborigines Protection Act von 1899 sollte ihre Lebensweise durch Landwirtschaft und Assimilation
-    umformen; zugleich zielten Einschränkungen bei Jagd, Fischerei, Landbesitz, Sprache und Bräuchen auf die Eingliederung
-    in eine vermeintlich fortgeschrittenere japanische Gesellschaft. Parallel institutionalisierten die Kaiserliche Universität
-    Tokio und die Anthropologische Gesellschaft Tokio die physisch-anthropologische Erforschung der Ainu.
-  consequences:
-  - Erzwungene Agrarisierung
-  - Unterdrückung indigener Lebensweisen
-  - Enteignung von Land und Ressourcen
-  - Kulturelle Assimilation
+  - id: japan-1899-1939
+    polity: Japan
+    periodLabel: 1899–späte 1930er-Jahre
+    institutions:
+      - 内務省 (Innenministerium)
+      - 北海道庁 (Hokkaidō-Verwaltung)
+      - 東京帝国大学 (Kaiserliche Universität Tokio)
+      - 東京人類学会 (Anthropologische Gesellschaft Tokio)
+    institutionalContext: >-
+      Das Hokkaidō Former Aborigines Protection Act von 1899 übertrug dem Innenminister Durchführungskompetenzen und dem
+      Gouverneur der Hokkaidō-Verwaltung unmittelbare Befugnisse über Land, Gemeinschaftsvermögen und
+      Polizeiverordnungen, während Landwirtschaft und staatliche Schulbildung gefördert wurden. Die
+      rassenanthropologische Seite hatte eigene identifizierbare Träger: Die Kaiserliche Universität Tokio wurde zu einem
+      Zentrum der physischen Anthropologie, und die Anthropologische Gesellschaft Tokio veröffentlichte umfangreiche
+      Ainu-Forschung. Verwaltung, Bildungswesen und Wissenschaft bildeten zusammen einen breiteren kolonialen Apparat und
+      keine einzelne einheitliche Institution.
+    summary: >-
+      Japanische Kolonialverwaltung und physische Anthropologie stellten Ainu wiederholt als „primitive“ oder aussterbende
+      „Rasse“ dar. Das Hokkaidō Former Aborigines Protection Act von 1899 sollte ihre Lebensweise durch Landwirtschaft und
+      Assimilation umformen; zugleich zielten Einschränkungen bei Jagd, Fischerei, Landbesitz, Sprache und Bräuchen auf die
+      Eingliederung in eine vermeintlich fortgeschrittenere japanische Gesellschaft. Parallel institutionalisierten die
+      Kaiserliche Universität Tokio und die Anthropologische Gesellschaft Tokio die physisch-anthropologische Erforschung
+      der Ainu.
+    consequences:
+      - Erzwungene Agrarisierung
+      - Unterdrückung indigener Lebensweisen
+      - Enteignung von Land und Ressourcen
+      - Kulturelle Assimilation
+    mechanism:
+      summary: >-
+        Die Kolonialverwaltung nutzte Land-, Landwirtschafts- und Schulbefugnisse zur Assimilation, während Universität und
+        Fachgesellschaft die rassifizierte Erforschung der Ainu innerhalb derselben breiteren Kolonialordnung
+        institutionalisierten.
+    institutionalCorrection:
+      summary: >-
+        Die vorhandenen v1-Belege dokumentieren die spätere historische Zurückweisung der Vorstellung einer „primitiven
+        Rasse“, weisen aber keinen datierten Akt der genannten japanischen Verwaltungs- oder Anthropologieinstitutionen
+        nach, der diese institutionelle Behauptung ausdrücklich verworfen hätte.
+evidence:
+  - id: ainu-colonial-proposition
+    note: >-
+      Erläutert, wie Darstellungen der Ainu als „primitiv“ zur Rechtfertigung kolonialer Herrschaft institutionalisiert
+      wurden und wie das Schutzgesetz von 1899 Ainu zu Bauern machen sollte, während Land- und Subsistenzrechte beschnitten
+      wurden.
+  - id: ainu-colonial-correction
+  - id: ainu-law-carrier
+    note: >-
+      Primärgesetz von 1899. Es weist Ainu, die Landwirtschaft betreiben oder betreiben wollen, Land zu, überträgt dem
+      Gouverneur der Hokkaidō-Verwaltung Befugnisse über Land und Gemeinschaftsvermögen und ermächtigt den Innenminister zu
+      Durchführungsvorschriften.
+  - id: ainu-anthropology-carrier
+    note: >-
+      Dokumentiert die Kaiserliche Universität Tokio und die Anthropologische Gesellschaft Tokio als bedeutende
+      institutionelle Zentren der frühen japanischen Anthropologie und beschreibt umfangreiche physisch-anthropologische
+      Forschung an den Ainu.
+  - id: ainu-law-mechanism
+  - id: ainu-colonial-consequences
+  - id: ainu-anthropology-context

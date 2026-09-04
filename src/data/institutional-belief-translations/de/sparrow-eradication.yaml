@@ -1,19 +1,64 @@
+schemaVersion: 2
 locale: de
 entryId: sparrow-eradication
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: '2026-08-23'
 title: Ausrottung der Spatzen
-claim: Spatzen wurden als insgesamt schädliche Agrarfeinde behandelt, deren massenhafte Ausrottung die Getreideproduktion erhöhen würde.
-currentUnderstanding: Spatzen fressen zwar Getreide, ernähren sich aber auch von Insekten und sind Teil von Nahrungsnetzen. Die großflächige Entfernung von Fressfeinden kann ökologische Kettenreaktionen auslösen, an denen die einfache Gleichung „Schädling gleich Nettoschaden“ scheitert.
+proposition:
+  summary: Spatzen wurden als insgesamt schädliche Agrarfeinde behandelt, deren massenhafte Ausrottung die Getreideproduktion erhöhen würde.
+correction:
+  summary: >-
+    Spatzen fressen zwar Getreide, ernähren sich aber auch von Insekten und sind Teil von Nahrungsnetzen. Die großflächige
+    Entfernung von Fressfeinden kann ökologische Kettenreaktionen auslösen, an denen die einfache Gleichung „Schädling
+    gleich Nettoschaden“ scheitert.
 episodes:
   - id: china-1958-1959
     polity: Volksrepublik China
+    periodLabel: 1958–1959
     institutions:
       - Zentralkomitee der Kommunistischen Partei Chinas
       - Staatsrat der Volksrepublik China
     institutionalContext: >-
-      Die institutionelle Behauptung ist hier ungewöhnlich ausdrücklich belegt. Am 12. Februar 1958 erließen das Zentralkomitee der KPCh und der Staatsrat gemeinsam die Anweisung 关于除四害讲卫生的指示, in der Ratten und Spatzen als große Feinde bezeichnet wurden, die Getreide schädigten und die Produktion behinderten. Die landesweite Umsetzung lief anschließend über den breiteren Apparat der Vier-Schädlinge- und patriotischen Gesundheitskampagne; diese regionalen und lokalen Strukturen werden als Umsetzungsapparat beschrieben und nicht als einzelne Institution ausgegeben.
-    summary: Während der Vier-Schädlinge-Kampagne stuften das Zentralkomitee der KPCh und der Staatsrat Spatzen in einer Anweisung vom Februar 1958 ausdrücklich als große Feinde ein, die Getreide schädigten und die Produktion behinderten. Die Massentötung reduzierte ihre Population stark; historische und ökologische Untersuchungen beschreiben anschließend Insektenausbrüche, ökologische Störungen und negative Ernteeffekte. Bis Juni 1959 waren Spatzen aus der offiziellen Liste der Vier Schädlinge gestrichen worden. Der Eintrag führt die Große Hungersnot ausdrücklich nicht allein auf die Spatzenkampagne zurück.
+      Die institutionelle Behauptung ist hier ungewöhnlich ausdrücklich belegt. Am 12. Februar 1958 erließen das
+      Zentralkomitee der KPCh und der Staatsrat gemeinsam die Anweisung 关于除四害讲卫生的指示, in der Ratten und Spatzen als
+      große Feinde bezeichnet wurden, die Getreide schädigten und die Produktion behinderten. Die landesweite Umsetzung
+      lief anschließend über den breiteren Apparat der Vier-Schädlinge- und patriotischen Gesundheitskampagne; diese
+      regionalen und lokalen Strukturen werden als Umsetzungsapparat beschrieben und nicht als einzelne Institution
+      ausgegeben.
+    summary: >-
+      Während der Vier-Schädlinge-Kampagne stuften das Zentralkomitee der KPCh und der Staatsrat Spatzen in einer Anweisung
+      vom Februar 1958 ausdrücklich als große Feinde ein, die Getreide schädigten und die Produktion behinderten. Die
+      Massentötung reduzierte ihre Population stark; historische und ökologische Untersuchungen beschreiben anschließend
+      Insektenausbrüche, ökologische Störungen und negative Ernteeffekte. Bis Juni 1959 waren Spatzen aus der offiziellen
+      Liste der Vier Schädlinge gestrichen worden. Der Eintrag führt die Große Hungersnot ausdrücklich nicht allein auf die
+      Spatzenkampagne zurück.
     consequences:
       - Wildtierausrottung
       - Agrarpolitik
       - Ökologische Störung
+    mechanism:
+      summary: >-
+        Das Zentralkomitee der KPCh und der Staatsrat verwandelten die Schädlingsbehauptung in eine landesweite
+        Ausrottungsanweisung und setzten sie über den Apparat der Vier-Schädlinge- und patriotischen Gesundheitskampagne um.
+    institutionalCorrection:
+      periodLabel: Juni 1959
+      action: Die offizielle Liste der Vier Schädlinge wurde geändert und Spatzen wurden daraus gestrichen.
+      summary: >-
+        Dasselbe zentrale Politiksystem, das Spatzen als bedeutenden Agrarfeind eingestuft hatte, gab diese Klassifikation
+        innerhalb der Kampagne auf, indem es Spatzen aus der offiziellen Liste entfernte.
+evidence:
+  - id: sparrow-directive-proposition
+    note: >-
+      Amtliche Wiedergabe der gemeinsamen Anweisung von Zentralkomitee und Staatsrat, die Ratten und Spatzen als große
+      Feinde bezeichnet, welche Getreide schädigten und die Produktion behinderten; dieselbe amtliche historische
+      Darstellung vermerkt, dass Spatzen bis Juni 1959 aus der Liste der Vier Schädlinge entfernt wurden.
+  - id: sparrow-ecology-correction
+    note: >-
+      Bespricht die Spatzenvernichtung von 1958, das Ausmaß der Tötung und die anschließenden Insektenausbrüche.
+  - id: sparrow-directive-carrier
+  - id: sparrow-directive-mechanism
+  - id: sparrow-guangzhou-consequences
+    note: >-
+      Historische Untersuchung der Radikalisierung der Kampagne 1958 sowie ökologischer Schäden und Ernteschäden durch
+      übermäßige Maßnahmen wie die Spatzenvernichtung.
+  - id: sparrow-ecology-context
+  - id: sparrow-directive-correction

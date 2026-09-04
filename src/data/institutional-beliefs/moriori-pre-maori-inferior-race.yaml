@@ -1,83 +1,146 @@
+schemaVersion: 2
 title: Moriori as an inferior pre-Māori race that became extinct
-claim: New Zealand's Department of Education taught schoolchildren that Moriori were a racially inferior people
-  who had occupied mainland New Zealand before Māori, were displaced to the Chatham Islands by later Māori arrivals,
-  and had become extinct.
-currentUnderstanding: Moriori are a living Polynesian people whose homeland is Rēkohu and nearby islands. They are
-  not a pre-Polynesian or Melanesian race that occupied mainland New Zealand before Māori, and they did not become
-  extinct. The pre-Māori race theory was challenged by New Zealand scholars from the 1920s onward. In 2010 the School
-  Journal published special issues developed with Moriori specifically to correct earlier misinformation; the Crown
-  later formally acknowledged and apologised for its role in spreading the myth.
+proposition:
+  summary: >-
+    New Zealand's Department of Education taught schoolchildren that Moriori were a racially inferior people who had
+    occupied mainland New Zealand before Māori, were displaced to the Chatham Islands by later Māori arrivals, and had
+    become extinct.
+correction:
+  summary: >-
+    Moriori are a living Polynesian people whose homeland is Rēkohu and nearby islands. They are not a pre-Polynesian or
+    Melanesian race that occupied mainland New Zealand before Māori, and they did not become extinct. The pre-Māori race
+    theory was challenged by New Zealand scholars from the 1920s onward. In 2010 the School Journal published special
+    issues developed with Moriori specifically to correct earlier misinformation; the Crown later formally acknowledged
+    and apologised for its role in spreading the myth.
 category: Education, race and Indigenous history
 reviewedAt: '2026-08-25'
 impact:
-  summary: The false account entered state education through the School Journal, a Department of Education publication
-    circulated to state schools. Editions in 1916 and 1946 taught racial inferiority, pre-Māori occupation and extinction.
-    The Crown's later settlement legislation acknowledged that generations of schoolchildren learned these claims
-    and that the resulting stigma damaged Moriori identity and knowledge of ancestry. In 2010, 94 years after the
-    first cited issue, the School Journal published a set of corrective issues developed in collaboration with Moriori.
+  summary: >-
+    The false account entered state education through the School Journal, a Department of Education publication circulated
+    to state schools. Editions in 1916 and 1946 taught racial inferiority, pre-Māori occupation and extinction. The Crown's
+    later settlement legislation acknowledged that generations of schoolchildren learned these claims and that the
+    resulting stigma damaged Moriori identity and knowledge of ancestry. In 2010, 94 years after the first cited issue,
+    the School Journal published a set of corrective issues developed in collaboration with Moriori.
   highlights:
-  - value: '1916'
-    label: first School Journal issue specifically acknowledged by the Crown as spreading the myth
-  - value: '1946'
-    label: later School Journal edition that again taught the false racial history
-  - value: 94 years
-    label: from the 1916 misinformation to corrective School Journal special issues in 2010
+    - value: '1916'
+      label: first School Journal issue specifically acknowledged by the Crown as spreading the myth
+    - value: '1946'
+      label: later School Journal edition that again taught the false racial history
+    - value: 94 years
+      label: from the 1916 misinformation to corrective School Journal special issues in 2010
   context:
-  - Moriori and Māori are distinct peoples with distinct histories. Correcting the myth does not mean describing
-    Moriori simply as Māori or denying the 1835 invasion of Rēkohu by Ngāti Mutunga and Ngāti Tama.
-  - 'The false story had several linked parts: supposed pre-Māori occupation of mainland New Zealand by a racially
-    different people, racial inferiority, displacement by Māori and extinction. The Department of Education propagated
-    these ideas together, so the card treats them as one educational racial narrative.'
-  - Scholars had challenged important parts of the myth decades before the state educational correction. The long
-    endpoint to 2010 reflects the School Journal's own explicit corrective publication, not the date at which historians
-    first had evidence against the story.
+    - >-
+      Moriori and Māori are distinct peoples with distinct histories. Correcting the myth does not mean describing
+      Moriori simply as Māori or denying the 1835 invasion of Rēkohu by Ngāti Mutunga and Ngāti Tama.
+    - >-
+      The false story had several linked parts: supposed pre-Māori occupation of mainland New Zealand by a racially
+      different people, racial inferiority, displacement by Māori and extinction. The Department of Education propagated
+      these ideas together, so the card treats them as one educational racial narrative.
+    - >-
+      Scholars had challenged important parts of the myth decades before the state educational correction. The long
+      endpoint to 2010 reflects the School Journal's own explicit corrective publication, not the date at which historians
+      first had evidence against the story.
 episodes:
-- id: new-zealand-1916-2010
-  polity: New Zealand
-  region: Oceania
-  startYear: 1916
-  endYear: 2010
-  strength: officially-endorsed
-  institutionTypes:
-  - government
-  - education
-  institutions:
-  - New Zealand Department of Education
-  - The School Journal
-  institutionalContext: The School Journal was an official educational publication circulated to New Zealand state
-    schools. Crown historical acknowledgements identify its 1916 and 1946 editions as teaching that Moriori were
-    an inferior race, had preceded Māori on mainland New Zealand and had become extinct. These claims persisted
-    in classroom culture despite scholarly challenges. In 2010 the education system issued three School Journal
-    special issues on Rēkohu and Moriori, developed in collaboration with Moriori in part to rectify the earlier
-    publications.
-  consequences:
-  - State-school transmission of a false racial history to generations of New Zealand children
-  - Stigmatisation of Moriori as inferior, primitive or extinct
-  - Confusion and shame among some children of Moriori descent about their own identity and ancestry
-  - Wider public persistence of the myth outside schools, including in media and political argument
-  - Delayed recognition in mainstream education of Moriori survival, history and cultural distinctiveness
-  summary: 'The Moriori myth became institutionally consequential because the state education system carried it
-    into classrooms. The Crown now acknowledges that its School Journal helped teach generations that Moriori were
-    an inferior pre-Māori race that disappeared. The same publication series later became a vehicle of correction:
-    in 2010 it issued Moriori-developed material explicitly intended to repair the earlier misinformation.'
-  sources:
-  - title: Moriori Claims Settlement Act 2021
+  - id: new-zealand-1916-2010
+    polity: New Zealand
+    region: Oceania
+    startYear: 1916
+    endYear: 2010
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+      - education
+    institutions:
+      - New Zealand Department of Education
+      - The School Journal
+    institutionalContext: >-
+      The School Journal was an official educational publication circulated to New Zealand state schools. Crown historical
+      acknowledgements identify its 1916 and 1946 editions as teaching that Moriori were an inferior race, had preceded
+      Māori on mainland New Zealand and had become extinct. These claims persisted in classroom culture despite scholarly
+      challenges. In 2010 the education system issued three School Journal special issues on Rēkohu and Moriori, developed
+      in collaboration with Moriori in part to rectify the earlier publications.
+    consequences:
+      - State-school transmission of a false racial history to generations of New Zealand children
+      - Stigmatisation of Moriori as inferior, primitive or extinct
+      - Confusion and shame among some children of Moriori descent about their own identity and ancestry
+      - Wider public persistence of the myth outside schools, including in media and political argument
+      - Delayed recognition in mainstream education of Moriori survival, history and cultural distinctiveness
+    summary: >-
+      The Moriori myth became institutionally consequential because the state education system carried it into classrooms.
+      The Crown now acknowledges that its School Journal helped teach generations that Moriori were an inferior pre-Māori
+      race that disappeared. The same publication series later became a vehicle of correction: in 2010 it issued
+      Moriori-developed material explicitly intended to repair the earlier misinformation.
+    mechanism:
+      kind: education
+      summary: >-
+        The Department of Education circulated the School Journal to state schools, using an official educational
+        publication to transmit the racial narrative to generations of children.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: '2010'
+      action: The School Journal published three special issues on Rēkohu and Moriori developed with Moriori in part to rectify its earlier misinformation.
+      summary: >-
+        The same state education publication series that had spread the myth became an explicit vehicle of correction in
+        2010; the Crown later formally acknowledged and apologised for its role in the earlier misinformation.
+sources:
+  - id: moriori-settlement-act
+    title: Moriori Claims Settlement Act 2021
     url: https://www.legislation.govt.nz/act/public/2021/0049/latest/whole.html
     publisher: New Zealand Legislation
-    note: Primary statutory Crown acknowledgement that the 1916 and 1946 School Journal editions taught generations
-      that Moriori were an inferior pre-Māori race and that the Crown's role caused lasting harm.
-  - title: 'School Journal special issues: Rēkohu and the Moriori'
+  - id: moriori-school-journal-2010
+    title: 'School Journal special issues: Rēkohu and the Moriori'
     url: https://aotearoahistories.education.govt.nz/custom-resource/school-journal-special-issues-rekohu-and-moriori
     publisher: New Zealand Ministry of Education
-    note: Current education resource explaining that the 2010 School Journal special issues were developed with
-      Moriori in part to rectify the wrongs of the 1916 misrepresentation.
-  - title: 'School Journal: cover, 1916'
+  - id: moriori-school-journal-1916
+    title: 'School Journal: cover, 1916'
     url: https://teara.govt.nz/en/document/36646/school-journal-cover-1916
     publisher: Te Ara — The Encyclopedia of New Zealand
-    note: Crown encyclopedia account stating that the 1916 Moriori material was seriously flawed and influential
-      enough that several generations grew up misinformed.
-  - title: '1920s–2000s: new understandings of Māori and Moriori origins'
+  - id: moriori-origins-history
+    title: '1920s–2000s: new understandings of Māori and Moriori origins'
     url: https://teara.govt.nz/en/ideas-about-maori-origins/page-5
     publisher: Te Ara — The Encyclopedia of New Zealand
-    note: Historical account of scholarly challenges from the 1920s and 1940s that dismantled the pre-Māori race
-      theory and established Polynesian settlement as the correct framework.
+evidence:
+  - id: moriori-settlement-proposition
+    sourceId: moriori-settlement-act
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Primary statutory Crown acknowledgement that the 1916 and 1946 School Journal editions taught generations that
+      Moriori were an inferior pre-Māori race and that the Crown's role caused lasting harm.
+  - id: moriori-origins-correction
+    sourceId: moriori-origins-history
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Historical account of scholarly challenges from the 1920s and 1940s that dismantled the pre-Māori race theory and
+      established Polynesian settlement as the correct framework.
+  - id: moriori-settlement-impact
+    sourceId: moriori-settlement-act
+    relation: supports
+    target: {scope: belief, aspect: impact}
+  - id: moriori-school-carrier
+    sourceId: moriori-school-journal-1916
+    relation: supports
+    target: {scope: episode, episodeId: new-zealand-1916-2010, aspect: carrier}
+    note: >-
+      Crown encyclopedia account stating that the 1916 Moriori material was seriously flawed and influential enough that
+      several generations grew up misinformed.
+  - id: moriori-school-mechanism
+    sourceId: moriori-settlement-act
+    relation: supports
+    target: {scope: episode, episodeId: new-zealand-1916-2010, aspect: mechanism}
+  - id: moriori-settlement-consequences
+    sourceId: moriori-settlement-act
+    relation: supports
+    target: {scope: episode, episodeId: new-zealand-1916-2010, aspect: consequences}
+  - id: moriori-origins-context
+    sourceId: moriori-origins-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: new-zealand-1916-2010, aspect: context}
+  - id: moriori-school-2010-correction
+    sourceId: moriori-school-journal-2010
+    relation: documents
+    target: {scope: episode, episodeId: new-zealand-1916-2010, aspect: institutional-correction}
+    note: >-
+      Current education resource explaining that the 2010 School Journal special issues were developed with Moriori in
+      part to rectify the wrongs of the 1916 misrepresentation.

@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: british-sea-fisheries-inexhaustible
-sourceReviewedAt: '2026-08-27'
+sourceReviewedAt: '2026-09-06'
 title: Britische Fischereipolitik und die Annahme unerschöpflicher Hochseebestände
 proposition:
   summary: >-
@@ -25,7 +25,7 @@ impact:
     - value: '1883'
       label: Fischereibeamter T. H. Huxley bezeichnete die großen Kabeljau-, Hering- und Makrelenfischereien öffentlich als praktisch unerschöpflich
     - value: '1885'
-      label: Eine spätere Kommission akzeptierte, dass Schleppnetzfischerei Bestände auf einzelnen Fanggründen spürbar verringern konnte
+      label: Eine spätere Kommission akzeptierte mögliche Bestandsrückgänge durch Baumkurren auf einzelnen Fanggründen, besonders in engen Gewässern
   context:
     - >-
       Huxley behauptete nicht, jede Fischerei sei unerschöpflich. Er akzeptierte ausdrücklich, dass Flusslachs, Austern und
@@ -42,34 +42,44 @@ episodes:
       - Royal Commission on the Sea Fisheries of the United Kingdom
       - British Board of Trade
     institutionalContext: >-
-      Die 1863 eingesetzte und 1866 berichtende Royal Commission untersuchte, ob Fischbestände abnahmen, ob Fangmethoden die
-      Bestände schädigten und ob bestehende Beschränkungen gerechtfertigt waren. Sie hörte Berichte über lokale Rückgänge,
-      wertete diese aber nicht als Beleg für eine allgemeine dauerhafte Erschöpfung der großen Hochseefischereien und
-      empfahl die Aufhebung vieler Beschränkungen. 1883 berief sich Board-of-Trade-Präsident Joseph Chamberlain auf die
-      Kommission von 1866, als er eine neue Untersuchung und Verbote effizienterer Fanggeräte ablehnte.
+      Die 1863 eingesetzte und 1866 berichtende Royal Commission untersuchte, ob Fischbestände abnahmen, ob
+      Fangmethoden die Bestände schädigten und ob bestehende Beschränkungen gerechtfertigt waren. Sie hörte Berichte
+      über lokale Rückgänge, wertete diese aber nicht als Beleg für eine allgemeine dauerhafte Erschöpfung der
+      großen Hochseefischereien und empfahl die Aufhebung vieler Beschränkungen. Die Schlussfolgerung blieb
+      praktisch wirksam: 1883 berief sich Board-of-Trade-Präsident Joseph Chamberlain auf die Kommission von 1866,
+      als er eine neue Untersuchung und Verbote effizienterer Fanggeräte ablehnte. Im selben Jahr erklärte Thomas
+      Henry Huxley, ehemaliges Kommissionsmitglied und damaliger Inspector of Fisheries, Kabeljau-, Hering-,
+      Sardinen- und Makrelenfischerei unter den damaligen Methoden für praktisch unerschöpflich und Regulierung
+      deshalb für nutzlos.
     summary: >-
-      Die britische Fischereidebatte des 19. Jahrhunderts zeigt ungewöhnlich klar, wie eine Tatsachenannahme in Regulierung
-      einging. Die Royal Commission von 1866 entschied, dass lokale Verschlechterungen keine dauerhafte Erschöpfung der
-      großen Hochseefischereien belegten, und empfahl die Aufhebung zahlreicher Fangbeschränkungen. Huxley gab der
-      zugrunde liegenden Logik 1883 ihre berühmteste Form. 1885 räumte eine spätere Kommission bereits ein, dass
-      Schleppnetzfischerei Bestände auf einzelnen Fanggründen messbar verringern konnte.
+      Die britische Fischereidebatte des 19. Jahrhunderts zeigt ungewöhnlich klar, wie eine Tatsachenannahme in
+      Regulierung einging. Die Royal Commission von 1866 entschied, dass lokale Verschlechterungen keine dauerhafte
+      Erschöpfung der großen Hochseefischereien belegten, und empfahl die Aufhebung zahlreicher Fangbeschränkungen.
+      Huxley gab der zugrunde liegenden Logik später ihre berühmteste Form: Kabeljau, Hering, Sardine, Makrele und
+      wahrscheinlich alle großen Meeresfischereien seien unter den damaligen Methoden praktisch unerschöpflich,
+      weshalb Regulierung wissenschaftlich sinnlos sei. Für die damalige Datenlage und Technik war das nicht
+      irrational, erwies sich aber als zu selbstsicher. 1885 räumte eine spätere Kommission bereits ein, dass
+      Baumkurrenfischerei Bestände auf einzelnen Fanggründen, besonders in engen Küstengewässern, möglicherweise verringern konnte; die moderne
+      Bestandsforschung zeigte schließlich, dass Fischereidruck selbst riesige Meeresbestände zum Kollaps bringen
+      kann.
     consequences:
       - Offizielle wissenschaftliche Beratung stützte die Aufhebung zahlreicher Beschränkungen der offenen Meeresfischerei
       - Die Ergebnisse von 1866 wurden später im Parlament herangezogen, um neue Beschränkungen und weitere Untersuchungen behaupteter Schleppnetzschäden abzuwehren
       - Berichte von Fischern über lokale Rückgänge und Konflikte zwischen Fangmethoden wurden zurückgestellt, wenn sie keinen allgemeinen Bestandsrückgang auf der von der Kommission verlangten Größenordnung belegten
-      - Die Episode institutionalisierte einen hohen Beweismaßstab für fischereibedingte Bestandsrückgänge, noch bevor moderne Methoden der Bestandsabschätzung existierten
+      - Die Episode trug zu einem hohen Beweismaßstab für fischereibedingte Bestandsrückgänge bei, noch bevor moderne Methoden der Bestandsabschätzung existierten
     mechanism:
       summary: >-
-        Eine Royal Commission übersetzte ihre wissenschaftliche Einschätzung des Erschöpfungsrisikos in Empfehlungen zur
-        Deregulierung; der Board of Trade berief sich später auf diese Ergebnisse, um neue Untersuchungen und
+        Eine Royal Commission übersetzte ihre wissenschaftliche Einschätzung des Erschöpfungsrisikos in Empfehlungen
+        zur Deregulierung; der Board of Trade berief sich später auf diese Ergebnisse, um neue Untersuchungen und
         Beschränkungen von Fangmethoden abzuwehren.
     institutionalCorrection:
       periodLabel: '1885'
-      action: Eine spätere Royal Commission akzeptierte, dass Baumkurrenfischerei Fischbestände auf einzelnen Fanggründen spürbar verringern konnte.
+      action: Eine spätere Royal Commission akzeptierte, dass Baumkurrenfischerei Fischbestände auf einzelnen Fanggründen, besonders in engen Gewässern, möglicherweise spürbar verringern konnte.
       summary: >-
-        Die britische amtliche Untersuchung rückte 1885 von der stärksten Annahme einer Depletionsresistenz ab und erkannte
-        lokale fischereibedingte Bestandsrückgänge an; die derzeitige Beleglage zeigt zu diesem Zeitpunkt jedoch noch
-        keinen vollständigen institutionellen Ersatz der breiteren Hochseevorstellung.
+        Die Kommission von 1885 erkannte mögliche Bestandsrückgänge auf einzelnen Fanggründen an, besonders in engen
+        Küstengewässern, berichtete aber weiterhin keinen Rückgang des gesamten Hochseefangs in der Nordsee. Dies
+        war eine begrenzte Einschränkung, keine Abkehr von der Hochseeannahme oder ein Beleg für deren vollständige
+        institutionelle Korrektur.
 evidence:
   - id: fisheries-huxley-proposition
     note: >-
@@ -84,10 +94,10 @@ evidence:
     note: >-
       Neuere historische Analyse der Kommission von 1866: Sie hörte Belege lokaler Rückgänge, wertete sie aber nicht als
       Nachweis allgemeiner Hochseedepletion und empfahl die Aufhebung vieler Beschränkungen.
-  - id: fisheries-1866-carrier
+  - id: fisheries-1866-report-context
     note: >-
-      Bibliografischer Nachweis des offiziellen Kommissionsberichts zur Frage, ob Meeresfischbestände zurückgingen,
-      Fangmethoden schädlich waren und regulatorische Beschränkungen gerechtfertigt seien.
+      Bibliografischer Nachweis des offiziellen Kommissionsberichts über Fischbestände, Fangmethoden und Beschränkungen.
+      Der Katalog identifiziert den Bericht; seine Ergebnisse und institutionelle Verwendung werden gesondert durch Hansard belegt.
   - id: fisheries-hansard-mechanism
     note: >-
       Board-of-Trade-Präsident Joseph Chamberlain berief sich ausdrücklich auf die Royal Commission von 1866, als er eine
@@ -97,4 +107,21 @@ evidence:
   - id: fisheries-1885-institutional-correction
     note: >-
       Parlamentarische Zusammenfassung, die den Befund von 1866 der Kommission von 1885 gegenüberstellt; diese akzeptierte,
-      dass Baumkurrenfischerei Fischbestände auf bestimmten Fanggründen spürbar verringern konnte.
+      dass Baumkurren Fischbestände auf einzelnen Fanggründen, besonders in engen Gewässern, möglicherweise verringern
+      konnten, während für den gesamten Hochseefang der Nordsee kein Rückgang berichtet wurde.
+  - id: fisheries-hansard-proposition
+  - id: fisheries-hansard-carrier
+  - id: fisheries-1866-mechanism
+  - id: fisheries-hansard-consequences
+  - id: fisheries-huxley-impact
+  - id: fisheries-1885-impact
+  - id: fisheries-noaa-stock-correction
+    note: >-
+      Erklärt fischereibedingte Bestandsrückgänge, Bestandsabschätzung und Wiederaufbau durch geringere Befischung.
+      Auch Umweltveränderungen können Bestände verringern; ein geschwächter Bestand allein beweist daher keine
+      Überfischung.
+  - id: fisheries-noaa-management-correction
+    note: >-
+      Konkretes Beispiel einer Hochseefischerei mit Bestandsabschätzung, Wiederaufbau, Fangbegrenzungen,
+      Gerätevorschriften und Schutzgebieten. Das moderne US-Beispiel belegt Managementpraxis, nicht die britische
+      Korrekturgeschichte des 19. Jahrhunderts.

@@ -11,7 +11,7 @@ correction:
     areas and other controls to prevent overfishing and rebuild depleted stocks.
 category: Fisheries science and regulation
 entryId: ocean-fisheries-are-inexhaustible
-reviewedAt: '2026-08-27'
+reviewedAt: '2026-09-06'
 impact:
   summary: >-
     In nineteenth-century Britain, the apparent immensity and fecundity of marine fish became part of government reasoning
@@ -24,7 +24,7 @@ impact:
     - value: '1883'
       label: Fisheries official T. H. Huxley publicly argued that the great cod, herring and mackerel fisheries were effectively inexhaustible
     - value: '1885'
-      label: A later commission accepted that trawling could sensibly diminish fish on particular grounds
+      label: A later commission accepted possible depletion by beam trawling on particular grounds, especially in narrow waters
   context:
     - >-
       Huxley did not claim that every fishery was inexhaustible. He explicitly accepted that river salmon, oysters and some
@@ -67,22 +67,24 @@ episodes:
       depletion of the great offshore fisheries and recommended removing many fishing restrictions. Huxley later gave the
       reasoning its famous form: cod, herring, pilchard, mackerel and probably all the great sea fisheries were effectively
       inexhaustible under contemporary methods, making regulation scientifically pointless. The position was not irrational
-      for the evidence and technology of the time, but it proved too confident. By 1885 a later commission conceded that
-      trawling could measurably reduce fish on particular grounds, and twentieth-century stock assessment ultimately
+      for the evidence and technology of the time, but it proved too confident. By 1885 a later commission accepted that
+      beam trawling might reduce fish on particular grounds, especially in narrow inshore waters, and twentieth-century stock assessment ultimately
       established that fishing mortality can collapse even enormous marine populations.
     mechanism:
       kind: administrative-adoption
       summary: >-
-        A Royal Commission converted its scientific assessment of depletion risk into deregulatory recommendations, and the
-        Board of Trade later relied on those findings when resisting renewed inquiry and restrictions on fishing methods.
+        A Royal Commission converted its scientific assessment of depletion risk into deregulatory recommendations,
+        and the Board of Trade later relied on those findings when resisting renewed inquiry and restrictions on
+        fishing methods.
     institutionalCorrection:
       status: partial
       periodLabel: '1885'
-      action: A later Royal Commission accepted that beam trawling could sensibly diminish fish on particular fishing grounds.
+      action: A later Royal Commission accepted that beam trawling might sensibly diminish fish on particular grounds, especially in narrow waters.
       summary: >-
-        British official inquiry retreated from the strongest depletion-resistant premise by 1885, acknowledging that
-        fishing could reduce stocks on particular grounds, but the current evidence record does not show a complete
-        institutional replacement of the broader offshore-fisheries worldview at that date.
+        The 1885 commission acknowledged possible depletion on particular grounds, especially in narrow inshore
+        waters, while still reporting no decrease in the total offshore North Sea catch. This was a limited
+        qualification, not a repudiation of the offshore-fisheries proposition or proof of its complete
+        institutional correction.
 sources:
   - id: fisheries-1866-report
     title: Report of the Commissioners Appointed to Inquire Into the Sea Fisheries of the United Kingdom
@@ -108,8 +110,17 @@ sources:
     title: Status of Stocks
     url: https://www.fisheries.noaa.gov/national/sustainable-fisheries/status-stocks-reports
     publisher: NOAA Fisheries
+  - id: fisheries-noaa-2024
+    title: Status of Stocks 2024
+    url: https://www.fisheries.noaa.gov/national/sustainable-fisheries/status-stocks-2024
+    publisher: NOAA Fisheries
+  - id: fisheries-noaa-mackerel
+    title: Atlantic Mackerel
+    url: https://www.fisheries.noaa.gov/species/atlantic-mackerel
+    publisher: NOAA Fisheries
 evidence:
   - id: fisheries-huxley-proposition
+    locator: "Address: paragraphs beginning “Are fisheries exhaustible?”, “I believe, then” and “There are other sea fisheries”"
     sourceId: fisheries-huxley-1883
     relation: documents
     target: {scope: belief, aspect: proposition}
@@ -118,6 +129,7 @@ evidence:
       fisheries, then argues that cod, herring, pilchard and mackerel fisheries were effectively inexhaustible and that
       regulation was therefore useless.
   - id: fisheries-noaa-correction
+    locator: "Introduction to Status of Stocks Reports"
     sourceId: fisheries-noaa
     relation: supports
     target: {scope: belief, aspect: correction}
@@ -125,20 +137,23 @@ evidence:
       Modern stock-management framework documenting that fishing can cause overfishing and depleted stocks and that
       management measures can rebuild them.
   - id: fisheries-history-impact
+    locator: "Industrial expansion and the British evidentiary conflict, c. 1850–1883"
     sourceId: fisheries-inexhaustible-history
     relation: supports
     target: {scope: belief, aspect: impact}
     note: >-
       Recent historical analysis of the 1866 commission showing that it heard evidence of local decline but did not treat
       it as proof of general offshore depletion and recommended repeal of many restrictions.
-  - id: fisheries-1866-carrier
+  - id: fisheries-1866-report-context
+    locator: "Bibliographic information: title, author and publication year"
     sourceId: fisheries-1866-report
-    relation: documents
-    target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: carrier}
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: context}
     note: >-
-      Bibliographic record for the official Royal Commission report that investigated whether sea-fish supplies were
-      declining, whether fishing methods were harmful and whether regulatory restrictions were justified.
+      Bibliographic record for the official Royal Commission report on fish supplies, fishing methods and restrictions.
+      The catalogue identifies the report; its findings and institutional use are evidenced separately through Hansard.
   - id: fisheries-hansard-mechanism
+    locator: "HC Deb 30 April 1883, vol. 278, cols. 1421–1422: both answers by Mr. Chamberlain"
     sourceId: fisheries-hansard-1883
     relation: documents
     target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: mechanism}
@@ -146,17 +161,68 @@ evidence:
       Board of Trade president Joseph Chamberlain explicitly invoked the 1866 Royal Commission when rejecting renewed
       inquiry and saying government could not prohibit more efficient fishing machinery on behalf of older methods.
   - id: fisheries-history-consequences
+    locator: "Industrial expansion and the British evidentiary conflict, c. 1850–1883; Discussion: paragraphs on the 1866 evidentiary threshold"
     sourceId: fisheries-inexhaustible-history
     relation: supports
     target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: consequences}
   - id: fisheries-huxley-context
+    locator: "Address: discussion of salmon, offshore fisheries and oyster beds"
     sourceId: fisheries-huxley-1883
     relation: contextualizes
     target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: context}
   - id: fisheries-1885-institutional-correction
+    locator: "HL Deb 21 May 1885, vol. 298, cols. 990–992: Earl of Dalhousie on the 1866 and 1885 commissions"
     sourceId: fisheries-hansard-1885
     relation: documents
     target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: institutional-correction}
     note: >-
       Parliamentary summary contrasts the 1866 conclusion with the 1885 commission, which accepted that fish on
-      particular grounds could be sensibly diminished by beam trawling.
+      particular grounds, especially in narrow waters, might be diminished by beam trawling, while offshore North Sea
+      total catches were not reported to have decreased.
+  - id: fisheries-hansard-proposition
+    sourceId: fisheries-hansard-1885
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: "HL Deb 21 May 1885, vol. 298, cols. 990–991: summary of the 1866 recommendation"
+  - id: fisheries-hansard-carrier
+    sourceId: fisheries-hansard-1883
+    relation: documents
+    target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: carrier}
+    locator: "HC Deb 30 April 1883, vol. 278, cols. 1421–1422: Board of Trade president invoking the Royal Commission"
+  - id: fisheries-1866-mechanism
+    sourceId: fisheries-hansard-1885
+    relation: documents
+    target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: mechanism}
+    locator: "HL Deb 21 May 1885, vol. 298, col. 990: recommendation to repeal open-sea restrictions"
+  - id: fisheries-hansard-consequences
+    sourceId: fisheries-hansard-1883
+    relation: documents
+    target: {scope: episode, episodeId: united-kingdom-1866-1885, aspect: consequences}
+    locator: "HC Deb 30 April 1883, vol. 278, cols. 1421–1422: rejection of gear prohibition and further inquiry"
+  - id: fisheries-huxley-impact
+    sourceId: fisheries-huxley-1883
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: "Address: paragraph beginning “I believe, then”"
+  - id: fisheries-1885-impact
+    sourceId: fisheries-hansard-1885
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: "HL Deb 21 May 1885, vol. 298, cols. 990–992: comparison of commission findings"
+  - id: fisheries-noaa-stock-correction
+    sourceId: fisheries-noaa-2024
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: "Phrases to Know; The Science Behind Stock Status; Successes and Challenges in Rebuilding Fisheries"
+    note: >-
+      Explains fishing-driven depletion, stock assessment and rebuilding through reduced fishing. Environmental
+      changes can also reduce stocks, so depleted status alone is not proof of overfishing.
+  - id: fisheries-noaa-management-correction
+    sourceId: fisheries-noaa-mackerel
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: "Population Status; Closed and Restricted Areas; How is this fishery managed?"
+    note: >-
+      A concrete offshore-fishery example of stock assessment, rebuilding, catch limits, gear restrictions and
+      protected areas. This modern U.S. example supports management practice, not nineteenth-century British
+      correction history.

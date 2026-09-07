@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: polygraph-security-screening
-sourceReviewedAt: '2026-08-24'
+sourceReviewedAt: '2026-09-07'
 title: Polygraph-Screening als verlässliche Erkennung von Täuschung und Personalrisiken
 proposition:
   summary: >-
@@ -10,33 +10,44 @@ proposition:
     Sicherheits-, Integritäts-, Einstellungs- oder Ernennungsentscheidungen zu rechtfertigen.
 correction:
   summary: >-
-    Polygraphen messen physiologische Erregung und nicht Täuschung, Integrität oder Korruptionsneigung selbst. Tests zu
-    konkreten Einzelvorfällen können unter bestimmten Bedingungen besser als der Zufall unterscheiden, sind aber keineswegs
-    unfehlbar; die Evidenz für breite Personal-Screenings ist deutlich schwächer. Screenings und folgenreiche Entscheidungen
-    verstärken Fehlalarm- und Übersehensrisiken, besonders bei seltenem Fehlverhalten.
+    Polygraphen messen physiologische Erregung und nicht Täuschung, Integrität oder Korruptionsneigung selbst.
+    Tests zu konkreten Einzelvorfällen können unter bestimmten Bedingungen besser als der Zufall unterscheiden,
+    sind aber keineswegs unfehlbar; die Evidenz für breite Personal-Screenings ist deutlich schwächer.
+    Screenings und folgenreiche Ernennungsentscheidungen verstärken Fehlalarm- und Übersehensrisiken,
+    insbesondere wenn das gesuchte Fehlverhalten selten ist. Polygraphen können Ermittlungen, Abschreckung oder
+    Eingeständnisse unterstützen; das ist jedoch etwas anderes als eine verlässliche individuelle Bestimmung von
+    Wahrhaftigkeit, Integrität oder künftigem Fehlverhalten.
 impact:
   summary: >-
-    Die dokumentierte Verbreitung umfasst sowohl korrigierte als auch fortbestehende Systeme. Das US-Energieministerium
-    begrenzte nach einer Prüfung der National Academies das Gewicht verpflichtender Sicherheits-Screenings; Moldau
-    beseitigte eine dispositive Zugangsschranke. Kirgisistan, Kasachstan und Usbekistan binden Polygraphen dagegen weiterhin
-    in staatliche Personalsysteme ein.
+    Die dokumentierte Verbreitung umfasst Beschränkungen von Polygraphen-Screenings und deren fortgesetzte Nutzung
+    in folgenreichen Personalverfahren. Das
+    US-Energieministerium beschränkte nach einer Prüfung der National Academies den routinemäßigen Einsatz von
+    Polygraphen; Moldau beseitigte nach verfassungsgerichtlicher Prüfung eine ausschließende Zugangsschranke.
+    Kirgisistan, Kasachstan und Usbekistan binden Polygraphen dagegen weiterhin in Systeme für Staatsdienst,
+    Strafverfolgung oder Richterauswahl ein. Der institutionelle Fehler besteht nicht in der Messung
+    physiologischer Daten an sich, sondern darin, diese Reaktionen als hinreichend diagnostisch für
+    Wahrhaftigkeit, verborgenes Fehlverhalten oder Integritätsrisiken zu behandeln, um folgenreiche
+    Personalentscheidungen zu beeinflussen.
   highlights:
     - value: '2002'
       label: Die National Academies hielten die Screening-Genauigkeit für die Erkennung seltener Sicherheitsverletzer für unzureichend
-    - value: 2010–heute
+    - value: '2010–heute'
       label: Kirgisistan hält Polygraphentests im staatlichen Personalrahmen aufrecht, einschließlich besonders korruptionsgefährdeter Stellen
-    - value: 2014–heute
-      label: Kasachstan verlangt Aussagen zur Wahrhaftigkeit in Polygraphenberichten und testet später auch Richterkandidaten
-    - value: 2023–heute
-      label: Usbekistan machte Polygraphenprüfungen zum Teil der Personalauswahl des Innenministeriums
+    - value: '2014–heute'
+      label: Kasachstan verlangt Wahrhaftigkeitsgutachten für das Screening von Strafverfolgungspersonal und bezog später auch Richterkandidaten ein
+    - value: '2023–heute'
+      label: Usbekistan machte Polygraphenprüfungen zum Teil der Personalauswahl des Innenministeriums und schult Fachkräfte zur Bewertung von Korruptions- und Fehlverhaltensrisiken
   context:
     - >-
-      Die Korrektur ist enger als „Polygraphen funktionieren nie“. Besonders problematisch sind breite Screenings und
-      folgenreiche Personalentscheidungen, bei denen physiologische Erregung wie ein eindeutiger Marker für Täuschung oder
-      künftiges institutionelles Risiko behandelt wird.
+      Die Korrektur ist enger als „Polygraphen funktionieren nie“. Besonders problematisch sind breite
+      Screenings und folgenreiche Personalentscheidungen, bei denen physiologische Erregung wie ein eindeutiger
+      Marker für Täuschung, verborgenes Fehlverhalten oder künftiges institutionelles Risiko behandelt wird.
     - >-
-      Mehrere aktuelle Systeme bezeichnen Befunde als beratend oder probabilistisch. Sie gehören dennoch hierher, wenn der
-      Test vorgeschrieben ist und daraus abgeleitete Wahrhaftigkeits- oder Risikobewertungen in Personalentscheidungen einfließen.
+      Mehrere aktuelle Systeme bezeichnen Polygraphenbefunde ausdrücklich als beratend, probabilistisch oder nur
+      als einen Bestandteil einer umfassenderen Bewertung. Sie gehören dennoch hierher, wenn der Test
+      institutionell vorgeschrieben ist und die daraus abgeleitete Wahrhaftigkeits- oder Risikobewertung
+      ausdrücklich in Einstellungs-, Ernennungs-, Beurteilungs- oder interne Ermittlungsentscheidungen
+      einfließt.
 episodes:
   - id: united-states-doe-1999-2006
     polity: Vereinigte Staaten
@@ -46,26 +57,57 @@ episodes:
       - National Nuclear Security Administration (NNSA)
       - DOE Office of Counterintelligence
     institutionalContext: >-
-      Die DOE-Regel von 1999 machte Gegenspionage-Polygraphentests zum Bestandteil des Zugangsregimes für bestimmte
-      Beschäftigte. Nach der Kritik der National Academies überarbeitete DOE 2006 das System so, dass Befunde nur noch ein
-      Bestandteil einer umfassenderen Bewertung waren und allein keine nachteilige Personal- oder Zugangsentscheidung tragen durften.
+      Die DOE-Regel von 1999 machte Gegenspionage-Polygraphentests für bestimmte Bundes- und
+      Vertragsbeschäftigte mit Zugang zu hochsensiblen nuklearen und als geheim eingestuften Informationen zu
+      einem Bestandteil des Zugangsregimes. Bereits diese Regel untersagte nachteilige Personalmaßnahmen allein
+      aufgrund eines nachteiligen oder uneindeutigen Polygraphenbefunds und verlangte weitere Ermittlungen bei
+      ungeklärten Fragen. Im November 2000 beauftragte DOE die National Academy of Sciences mit einer
+      Untersuchung; anschließend verpflichtete der Kongress DOE, deren Ergebnisse zu berücksichtigen. Nach
+      Veröffentlichung des Berichts im Oktober 2002 schlug DOE 2003 zunächst die Fortführung des bestehenden
+      Programms vor. Die Ersatzregel von 2006 beseitigte Polygraphentests als automatischen Bestandteil
+      routinemäßiger Gegenspionagebewertungen, behielt Untersuchungen unter festgelegten Umständen
+      einschließlich zufälliger Auswahl jedoch bei. Sie hielt an den bestehenden Schutzvorschriften gegen
+      nachteilige Personal- oder Zugangsentscheidungen allein aufgrund von Testergebnissen fest.
     summary: >-
-      1999 führte DOE ein formelles Polygraphen-Screening für besonders sensible Positionen ein. 2002 bewerteten die
-      National Academies die Genauigkeit für Mitarbeiter-Sicherheitsüberprüfungen als unzureichend. 2006 behielt DOE
-      Polygraphen in definierten Bewertungen bei, begrenzte ihre Beweiskraft aber ausdrücklich.
+      1999 führte das US-Energieministerium ein formelles Gegenspionage-Polygraphenprogramm für Beschäftigte,
+      Auftragnehmer und Bewerber mit Zugang zu besonders sensiblen, als geheim eingestuften Informationen und
+      Nuklearsicherheitsprogrammen ein. Die endgültige Regel vom Dezember 1999 trat am 18. Januar 2000 in Kraft.
+      Anschließend beauftragte DOE die National Academies mit einer wissenschaftlichen Prüfung. Der 2002
+      veröffentlichte Bericht kam zu dem Schluss, dass Screenings auf seltene Fälle von Spionage und Sabotage
+      einen unvertretbaren Zielkonflikt zwischen falscher Verdächtigung unbescholtener Beschäftigter und
+      übersehenen Sicherheitsbedrohungen erzeugen. Die Ersatzregel von 2006 beschränkte routinemäßige
+      Polygraphentests, behielt Untersuchungen unter festgelegten Umständen bei und hielt an bereits bestehenden
+      Schutzvorschriften fest.
     consequences:
-      - Verpflichtende Gegenspionage-Polygraphentests für Beschäftigte und Auftragnehmer in sensiblen Positionen
-      - Mögliche Verhinderung oder Entziehung des Zugangs bei Verweigerung
-      - Folgeinterviews und Gegenspionageprüfungen aufgrund von Polygraphenbefunden
-      - Risiken falscher Verdächtigung und falscher Entwarnung bei niedriger Grundrate tatsächlicher Sicherheitsverletzer
+      - >-
+        Vorgeschriebene Gegenspionage-Polygraphentests für erfasste Beschäftigte und Vertragspersonal mit
+        festgelegten Ausnahmeregelungen
+      - >-
+        Bei Verweigerung möglicher Ausschluss von erfassten Stellen oder Entzug des Zugangs zu den betreffenden
+        sensiblen Informationen und Tätigkeiten
+      - >-
+        Bei ungeklärten Befunden vorgeschriebene Folgeinterviews, mögliche Wiederholungstests und bei weiter
+        offenen Fragen umfassende Ermittlungen
+      - >-
+        Vorhersehbare Risiken falscher Verdächtigung und falscher Entwarnung bei sehr niedriger Grundrate
+        tatsächlicher Sicherheitsverletzer
     mechanism:
       summary: >-
-        DOE machte Polygraphen zu einem formellen Zugangsscreening und nutzte Befunde für weitere Gegenspionagebewertungen.
+        DOE machte Polygraphenuntersuchungen zur formellen Voraussetzung im Zugangsscreening und nutzte Befunde
+        als Auslöser weiterer Gegenspionagebewertungen für Beschäftigte, Auftragnehmer und Bewerber in sensiblen
+        Positionen.
     institutionalCorrection:
       periodLabel: '2006'
-      action: DOE ersetzte die frühere Regel so, dass Polygraphenbefunde nur noch ein Bestandteil umfassenderer Bewertungen waren und allein keine nachteilige Entscheidung tragen durften.
+      action: >-
+        DOE beendete automatische Polygraphentests bei routinemäßigen Gegenspionagebewertungen, behielt
+        Untersuchungen unter festgelegten Umständen einschließlich zufälliger Auswahl bei und hielt an
+        bestehenden Schutzvorschriften gegen nachteilige Entscheidungen allein aufgrund von Testergebnissen
+        fest.
       summary: >-
-        DOE verringerte die Beweisautorität des Tests, behielt ihn aber in definierten Bewertungen bei.
+        Die Ersatzregel beschränkte routinemäßige Screenings, ohne Polygraphen aufzugeben. Das Verbot
+        nachteiliger Personalmaßnahmen allein aufgrund eines nachteiligen oder uneindeutigen Tests bestand
+        bereits seit der Regel von 1999; die Regel von 2006 behielt diesen Schutz und die bestehende
+        Schutzvorschrift für Zugangsentscheidungen bei.
   - id: moldova-2016-2018
     polity: Moldau
     periodLabel: 2016–2018
@@ -73,24 +115,44 @@ episodes:
       - National Integrity Authority (Autoritatea Națională de Integritate)
       - Integrity Council (Consiliul de Integritate)
     institutionalContext: >-
-      Ein positives Polygraphenergebnis wurde praktisch zur Voraussetzung für leitende Funktionen. 2018 betonte das
-      Verfassungsgericht die geringe wissenschaftliche Gewissheit und den nur vermutenden und orientierenden Charakter des Tests.
+      Moldaus Integritätsrecht von 2016 machte einen positiven Polygraphenbefund praktisch zur Voraussetzung für
+      leitende Funktionen der National Integrity Authority. 2017 bestand der Bewerber Teodor Cârnaț die
+      schriftliche Prüfung und das Interview, wurde aber vom Integrity Council ausgeschlossen, weil sein
+      Polygraphentest nicht positiv ausfiel. 2018 betonte das Verfassungsgericht den lediglich vermutenden und
+      orientierenden Charakter des Tests, prüfte dessen geringe wissenschaftliche Gewissheit und beseitigte die
+      Pflicht zu einem positiven Ergebnis.
     summary: >-
-      2017 wurde Teodor Cârnaț trotz bestandener schriftlicher Prüfung und Interview wegen eines nicht positiven
-      Polygraphenbefunds ausgeschlossen. 2018 hob das Verfassungsgericht die Pflicht zu einem positiven Ergebnis auf.
+      Moldaus Rahmen von 2016 für die National Integrity Authority verpflichtete Bewerber für Führungspositionen
+      zu Polygraphentests, wobei ein positives Ergebnis als ausschließende Zugangsvoraussetzung behandelt wurde.
+      2017 wurde Teodor Cârnaț trotz bestandener schriftlicher Prüfung und bestandenem Interview ausgeschlossen,
+      weil sein Polygraphentest nicht positiv war. 2018 stellte das Verfassungsgericht fest, dass der Test nur
+      geringe wissenschaftliche Gewissheit bietet und lediglich vermutenden und orientierenden Charakter hat,
+      statt exakte Ergebnisse zu liefern; es hob die Pflicht zu einem positiven Ergebnis als ungerechtfertigte
+      ausschließende Schranke auf.
     consequences:
-      - Ausschluss eines Bewerbers allein wegen eines nicht positiven Polygraphenbefunds
-      - Physiologischer Test als ausschließende Zugangsschranke für ein öffentliches Amt
-      - Risiko eines endgültigen Integritätsurteils aus unsicherer Täuschungsinferenz
-      - Verfassungsgerichtliche Herabstufung zu nicht abschließender Information
+      - >-
+        Ausschluss eines Bewerbers für eine leitende öffentliche Integritätsfunktion allein wegen eines nicht
+        positiven Polygraphenbefunds
+      - Einsatz eines physiologischen Tests als ausschließende Zugangsschranke für ein öffentliches Amt
+      - Risiko, unsichere Täuschungsinferenz als endgültiges Integritätsurteil zu behandeln
+      - >-
+        Ein verfassungsgerichtliches Verfahren führte zur Beseitigung der Pflicht zu einem positiven Ergebnis;
+        die Testpflicht blieb bestehen
     mechanism:
       summary: >-
-        Der Ernennungsrahmen machte ein Polygraphenergebnis zu einer ausschließenden Zugangsschranke für ein leitendes öffentliches Amt.
+        Der Integrity Council wandte den gesetzlichen Ernennungsrahmen als ausschließende Zugangsschranke für
+        ein leitendes öffentliches Amt an: Ein nicht positiver Polygraphenbefund konnte ansonsten erfolgreich
+        absolvierte Auswahlstufen überstimmen.
     institutionalCorrection:
-      periodLabel: 10. April 2018
-      action: Das Verfassungsgericht strich die Pflicht zu einem positiven Ergebnis und bezeichnete den Test als vermutend und orientierend statt exakt.
+      periodLabel: '10. April 2018'
+      action: >-
+        Das Verfassungsgericht Moldaus hob die Pflicht zu einem positiven Polygraphenergebnis auf und
+        bezeichnete den Test als vermutend und orientierend statt exakt.
       summary: >-
-        Das Gericht beseitigte die dispositive Schranke, schaffte die Polygraphennutzung aber nach der derzeitigen Beleglage nicht vollständig ab.
+        Das Gericht bestätigte die Testpflicht für Führungsbewerber, beseitigte jedoch ein positives Ergebnis
+        als Voraussetzung für den Gewinn des Auswahlverfahrens. Schlussfolgerungen durften zusammen mit anderen
+        belegten Tatsachen berücksichtigt werden; damit begrenzte es die Autorität des Tests, ohne seine
+        Anwendung abzuschaffen.
   - id: kyrgyzstan-2010-2026
     polity: Kirgisistan
     periodLabel: 2010–heute
@@ -98,26 +160,43 @@ episodes:
       - State Personnel Service of the Kyrgyz Republic
       - Staatliche Agentur für Staatsdienst und lokale Selbstverwaltung beim Ministerkabinett der Kirgisischen Republik
     institutionalContext: >-
-      Ein Präsidialerlass von 2010 führte Polygraphentests in das Personalwesen des Staatsdienstes ein. Die Regeln zielen
-      unter anderem auf Zuverlässigkeit von Angaben, Korruptionsrisiken, Fehlverhalten, Qualifikation und Eignung. Die
-      heutige Staatsdienstagentur führt den Erlass weiterhin als Rechtsgrundlage.
+      Ein Präsidialerlass von 2010 führte Polygraphentests in das Personalwesen des kirgisischen Staatsdienstes
+      ein und übertrug der Staatlichen Personalverwaltung die zentrale Umsetzung. Die 2011 neu gefasste
+      Durchführungsregelung definiert den Test als Bewertung der Zuverlässigkeit der Angaben der untersuchten
+      Person. Als Ziele nennt sie die Aufdeckung dienstlichen Missbrauchs, die Erkennung einer Neigung zu
+      Korruptionshandlungen, die Überprüfung von Ausbildung und Qualifikation sowie die Beurteilung der Eignung
+      für eine Stelle. Die untersuchte Person wird als jemand definiert, der freiwillig schriftlich zustimmt.
+      Änderungen von 2018 bezogen ausdrücklich besonders korruptionsgefährdete staatliche Stellen ein und
+      strichen Verweise auf Beurteilungsverfahren. Die heutige Staatliche Agentur für Staatsdienst und lokale
+      Selbstverwaltung führt den Erlass weiterhin in ihrer Rechtsgrundlage; ihre Organisationsregelung weist ihr
+      die Durchführung gesetzlich vorgesehener Polygraphentests zu.
     summary: >-
-      Kirgisistan verankerte Polygraphen 2010 als Instrument der Korruptions- und Integritätsprüfung im staatlichen
-      Personalwesen; der Rahmen bleibt aktuell.
+      Kirgisistan verankerte Polygraphentests 2010 formell als Instrument der Korruptions- und
+      Integritätsprüfung im staatlichen Personalwesen. Das 2011 neu gefasste Durchführungsrecht behandelt die
+      Untersuchung als geeignet, die Zuverlässigkeit von Angaben eines Bewerbers oder Beamten zu bewerten, und
+      nutzt sie bei freiwilliger schriftlicher Zustimmung zur Prüfung von Korruptionsrisiken, verborgenem
+      Fehlverhalten, Qualifikationen und beruflicher Eignung. 2018 wurde der Rahmen um besonders
+      korruptionsgefährdete Stellen erweitert; zugleich wurden Verweise auf Beurteilungsverfahren gestrichen.
+      Die heutige Staatsdienstagentur führt den Erlass weiterhin als Rechtsgrundlage und besitzt nach wie vor
+      eine gesetzliche Zuständigkeit für die Durchführung von Polygraphentests.
     consequences:
-      - Polygraphen-Screening von Bewerbern für erfasste Stellen des Staatsdienstes
-      - Nutzung physiologischer Reaktionen zur Bewertung der Zuverlässigkeit von Angaben
-      - Prüfung von Korruptionsneigung, dienstlichem Fehlverhalten und Eignung
-      - Einfluss von Polygrapheninformationen auf Personalprozesse
+      - Bewerber für erfasste Stellen des Staatsdienstes können Polygraphen-Screenings unterzogen werden
+      - >-
+        Nutzung physiologischer Reaktionen zur Bewertung der Zuverlässigkeit von Angaben von Bewerbern und
+        Bediensteten
+      - Ausrichtung der Tests auf Korruptionsneigung, dienstliches Fehlverhalten und Eignung für den Staatsdienst
+      - Möglicher Einfluss von Polygrapheninformationen auf Einstellung, Rotation und interne Untersuchungen
     mechanism:
       summary: >-
-        Staatsdienstregeln nutzen Polygraphen zur Bewertung von Angaben, Korruptionsrisiken, verborgenem Fehlverhalten,
-        Qualifikation und Eignung für öffentliche Stellen.
+        In erfassten Verfahren des Staatsdienstes und bei schriftlicher Zustimmung nutzt der Personalrahmen
+        Polygraphentests zur Beurteilung der Zuverlässigkeit von Angaben, der Korruptionsneigung, verborgenen
+        Fehlverhaltens, der Qualifikation und der Eignung für öffentliche Stellen.
     institutionalCorrection:
-      periodLabel: 2010–heute
-      action: Eine institutionelle Korrektur ist nicht dokumentiert; die heutige Staatsdienstagentur führt den Polygraphenerlass weiterhin als geltende Rechtsgrundlage.
       summary: >-
-        Der Personalrahmen bleibt aktuell und behandelt Polygrapheninformationen weiterhin als relevant für staatliche Auswahlverfahren.
+        Eine institutionelle Korrektur der behaupteten Screening-Fähigkeit ist nicht dokumentiert. Die
+        Staatsdienstagentur führt den Erlass weiterhin und behält ihre Zuständigkeit für Polygraphentests in
+        gesetzlich bestimmten Fällen; diese Vorschriften belegen die fortbestehende institutionelle Anwendung,
+        jedoch keine Reaktion auf die wissenschaftliche Kritik.
   - id: kazakhstan-2014-2026
     polity: Kasachstan
     periodLabel: 2014–heute
@@ -127,26 +206,52 @@ episodes:
       - Hoher Justizrat der Republik Kasachstan
       - Nationales Sicherheitskomitee der Republik Kasachstan
     institutionalContext: >-
-      Seit 2014 schreiben Regeln Polygraphenuntersuchungen für bestimmte Staatsbedienstete vor; sie verlangen Gutachten zur
-      Wahrhaftigkeit und führen die Ergebnisse trotz beratender Einordnung Personalentscheidungen zu. Seit 2016 gilt ein
-      paralleles System für Richterkandidaten.
+      Ursprünglich 2014 erlassene und später erweiterte Regierungsregeln schreiben Polygraphenuntersuchungen für
+      bestimmte Bewerber und Personalverfahren in Strafverfolgung, Zivilschutz und staatlichem Kurierdienst vor.
+      Ihr erklärtes Ziel ist es, zusätzliche Informationen zu gewinnen und die Zuverlässigkeit der Angaben der
+      untersuchten Person zu prüfen; der Polygraphologe erstellt ein formelles Gutachten zur Wahrhaftigkeit der
+      Antworten. Die Regeln bezeichnen die Ergebnisse ausdrücklich als probabilistisch, beratend und ergänzend,
+      sehen jedoch ihre Nutzung durch Personal-, Beurteilungs-, Auswahl-, Aufnahme- und interne
+      Sicherheitsstellen bei Einstellung, Beurteilung, Auswahlverfahren und dienstlichen Untersuchungen vor.
+      Tests im Rahmen dienstlicher Untersuchungen erfordern die Zustimmung des Beschäftigten. Die
+      Einstellungsregel des Innenministeriums von 2023 verpflichtet dessen Personalstellen ausdrücklich,
+      Bewerber zu Tests zu überweisen. Seit 2016 verlangen gesonderte Regeln, dass erfolgreiche Teilnehmer an
+      der Qualifikationsprüfung für das Richteramt auf Überweisung des Hohen Justizrats beim Nationalen
+      Sicherheitskomitee getestet werden; daraus entsteht ein beratendes Wahrhaftigkeitsgutachten. Beide
+      Regelwerke sind weiterhin aktuell: Die Strafverfolgungsregeln wurden im Mai 2025 und die
+      Erklärungsformulare für Richterkandidaten im Juli 2026 geändert.
     summary: >-
-      Kasachstan bindet Polygraphen seit 2014 in folgenreiche staatliche Personalentscheidungen ein. Beide Regelwerke blieben
-      bis 2026 aktuell.
+      Kasachstan bindet Polygraphen seit 2014 in folgenreiche Personalentscheidungen des Staates ein. Die
+      geltenden Regeln verlangen ein Gutachten zur Wahrhaftigkeit der Antworten und sehen die Nutzung der
+      Ergebnisse durch Personal- und interne Sicherheitsstellen bei Einstellung, Beurteilung, Auswahlverfahren
+      und dienstlichen Untersuchungen vor, obwohl sie zugleich als probabilistisch und beratend bezeichnet
+      werden. Seit 2016 gilt ein paralleles System für Richterkandidaten. Der Rahmen ist weiterhin aktiv: Die
+      Strafverfolgungsregeln wurden 2025 und die Polygraphenformulare für Richterkandidaten im Juli 2026 erneut
+      geändert.
     consequences:
-      - Polygraphen-Screening in Sicherheits- und Strafverfolgungsbehörden
-      - Formelle Schlussfolgerungen zur Wahrhaftigkeit von Antworten
-      - Verwendung bei Einstellung, Beurteilung, Auswahl und dienstlichen Untersuchungen
-      - Polygraphenprüfung von Richterkandidaten
-      - Weiterleitung möglicher Straftatshinweise zur amtlichen Überprüfung
+      - >-
+        Vorgeschriebene Polygraphen-Screenings für bestimmte Bewerber und Personalverfahren in erfassten
+        Strafverfolgungs-, Zivilschutz- und staatlichen Kurierdienstbehörden
+      - Formelle Schlussfolgerungen zur Wahrhaftigkeit der im Test gegebenen Antworten
+      - >-
+        Verwendung der Ergebnisse bei Einstellung, Beurteilung, Auswahl für höhere Stellen, Ausbildungszulassung
+        und dienstlichen Untersuchungen
+      - >-
+        Polygraphenprüfung von Richterkandidaten nach bestandener Qualifikationsprüfung vor weiterer
+        Berücksichtigung im Auswahlverfahren
+      - Weiterleitung von Hinweisen auf mögliche Rechtsverstöße zur amtlichen Überprüfung
     mechanism:
       summary: >-
-        Regierungsregeln verlangen Polygraphen und Wahrhaftigkeitsgutachten und speisen die Informationen in Personal- und Richterauswahl ein.
+        Regierungsregeln verlangen in bestimmten Personalverfahren Polygraphenuntersuchungen und formelle
+        Wahrhaftigkeitsgutachten. Die Ergebnisse fließen in Einstellung, Beurteilung, Auswahlverfahren und
+        dienstliche Untersuchungen ein; gesonderte Regeln für Richterkandidaten sehen vor, dass nach Tests beim
+        Nationalen Sicherheitskomitee beratende Gutachten an den Hohen Justizrat gehen.
     institutionalCorrection:
-      periodLabel: 2014–heute
-      action: Eine Korrektur ist nicht dokumentiert; die Strafverfolgungsregeln wurden 2025 und der Rahmen für Richterkandidaten 2026 erneut geändert.
       summary: >-
-        Kasachstan institutionalisiert polygraphisch abgeleitete Wahrhaftigkeitsurteile weiterhin in folgenreichen Personalsystemen.
+        Eine institutionelle Korrektur der behaupteten Screening-Fähigkeit ist nicht dokumentiert. Die
+        Regelwerke für Strafverfolgung und Richterauswahl verlangen weiterhin Wahrhaftigkeitsbewertungen und
+        bezeichnen die Ergebnisse zugleich als beratend; die Änderungen von 2025 und Juli 2026 belegen keine
+        korrigierende Reaktion auf die wissenschaftlichen Grenzen.
   - id: uzbekistan-2023-2026
     polity: Usbekistan
     periodLabel: 2023–heute
@@ -154,75 +259,308 @@ episodes:
       - Innenministerium der Republik Usbekistan
       - Akademie des Innenministeriums der Republik Usbekistan
     institutionalContext: >-
-      Seit September 2023 gehört eine psychophysiologische Polygraphenuntersuchung zur Bewerberprüfung des inneren Dienstes.
-      Im August 2026 schulte die Akademie Fachkräfte zur Bewertung von Bewerberrisiken sowie Korruptions- und Fehlverhaltensneigung.
+      Die geltenden Dienstvorschriften des usbekischen Innenministeriums machen seit dem 1. September 2023 eine
+      psychophysiologische Polygraphenuntersuchung zum Bestandteil der Überprüfungsphase für Bewerber in den
+      Innenbehörden, ausdrücklich um negative Faktoren zu ermitteln, die einer Einstellung entgegenstehen
+      können. Aus Auswahl und Überprüfung wird anschließend eine amtliche Beurteilung der moralisch-beruflichen
+      und gesundheitlichen Eignung abgeleitet. Wie die Ergebnisse institutionell interpretiert werden, zeigt die
+      aktuelle Praxis: Im August 2026 schulte die Akademie des Innenministeriums Fachpsychologen des
+      Ministeriums und kooperierender Strafverfolgungsbehörden darin, mit Polygraphentests Risikofaktoren bei
+      Bewerbern sowie die Neigung von Beschäftigten zu Korruption und anderem Fehlverhalten zu beurteilen und
+      dabei aufgezeichnete psychophysiologische Reaktionen auszuwerten.
     summary: >-
-      Usbekistan nutzt Polygraphen im Einstellungsverfahren des Innenministeriums und institutionalisiert die Methode durch
-      aktuelle Fachausbildung weiter.
+      Seit September 2023 ist in Usbekistan eine psychophysiologische Polygraphenuntersuchung innerhalb des
+      Auswahlverfahrens für Bewerber in den Innenbehörden vorgeschrieben; ihr erklärter Zweck ist die Ermittlung
+      negativer Faktoren, die einer Einstellung entgegenstehen können. Die Personalpraxis ist weiterhin aktiv.
+      Im August 2026 schulte die Akademie des Innenministeriums Fachkräfte darin, bei Personalentscheidungen
+      Polygraphenuntersuchungen zur Bewertung von Bewerberrisiken und zur Erkennung einer Neigung zu Korruption
+      und anderem Fehlverhalten einzusetzen. Damit geht die Regelung über den bloßen Besitz eines
+      „Lügendetektors“ hinaus: Physiologische Reaktionen werden in folgenreichen staatlichen
+      Einstellungsverfahren formell als Informationen über verborgene Personalrisiken verwendet.
     consequences:
       - Polygraphenuntersuchung von Polizeibewerbern als formeller Bestandteil der Einstellungsprüfung
-      - Einfluss polygraphisch abgeleiteter Risikobefunde auf die Diensttauglichkeit
-      - Schulung zur Ableitung von Korruptions- und Fehlverhaltensneigung
-      - Institutionalisierung durch Fachausbildung im Innenministerium
+      - Einfluss polygraphisch abgeleiteter Risikobefunde auf die Beurteilung der Eignung für den Dienst
+      - >-
+        Schulung von Personalfachkräften zur Ableitung von Korruptions- und Fehlverhaltensneigung aus
+        psychophysiologischen Tests
+      - >-
+        Institutionalisierung der Methode durch zertifizierte Fachausbildung innerhalb des
+        Innenministeriumssystems
     mechanism:
       summary: >-
-        Dienstregeln machen Polygraphen zum Rekrutierungsscreening; die Akademie schult Fachkräfte zur Ableitung von Risiko- und Fehlverhaltensneigung.
+        Die Dienstregeln des Innenministeriums machen Polygraphentests zum Bestandteil des
+        Einstellungsscreenings; die Akademie des Ministeriums schult Fachkräfte darin, aus psychophysiologischen
+        Reaktionen Bewerberrisiken und die Neigung zu Korruption oder Fehlverhalten abzuleiten.
     institutionalCorrection:
-      periodLabel: 2023–heute
-      action: Eine Korrektur ist nicht dokumentiert; das Innenministerium hielt die Rekrutierungsregel aufrecht und erweiterte 2026 die Fachausbildung.
       summary: >-
-        Das aktuelle Personalsystem operationalisiert polygraphisch abgeleitete Risikourteile weiterhin.
+        Eine institutionelle Korrektur der behaupteten Screening-Fähigkeit ist nicht dokumentiert. Die
+        Einstellungsregel und die Akademieschulung vom August 2026 belegen die fortgesetzte Nutzung von
+        Polygraphen für Urteile über Personalrisiken; eine Abkehr von diesen Behauptungen ist nicht
+        dokumentiert.
 evidence:
   - id: polygraph-doe-proposition
     note: >-
-      Primäre Bundesregel zur Einführung von Gegenspionage-Polygraphenscreening für Beschäftigte, Auftragnehmer und Bewerber mit Zugang zu sensiblen Programmen.
+      Primäre Bundesregel zur Einführung von Gegenspionage-Polygraphenscreenings für bestimmte Beschäftigte,
+      Auftragnehmer, Bewerber und weitere Personen mit Zugang zu sensiblen Informationen und Programmen.
   - id: polygraph-nas-correction
     note: >-
-      Wissenschaftliche Prüfung: physiologische Reaktionen sind nicht täuschungsspezifisch, die Evidenz für Screening ist
-      äußerst begrenzt und Fehlalarme sowie übersehene Fälle sind ernsthafte Probleme.
+      Wissenschaftliche Prüfung, nach der die von Polygraphen gemessenen physiologischen Reaktionen nicht
+      ausschließlich bei Täuschung auftreten, die Evidenz zur Screening-Genauigkeit äußerst begrenzt ist und
+      Mitarbeiter-Screenings erhebliche Probleme durch falsch positive und falsch negative Ergebnisse erzeugen;
+      sie unterscheidet diese Grenzen von der über dem Zufallsniveau liegenden Leistung, die bei Tests zu
+      konkreten Einzelvorfällen teilweise beobachtet wird.
   - id: polygraph-nas-impact
+    note: >-
+      Belegt die wissenschaftliche Einordnung der Screening-Risiken und den Unterschied zwischen diagnostischer
+      Genauigkeit und einem Nutzen für Abschreckung oder die Erlangung von Eingeständnissen. Die späteren
+      länderspezifischen Regelungen werden darin nicht dokumentiert.
   - id: polygraph-doe-carrier
+    note: >-
+      Primäre Bundesregel zur Einführung von Gegenspionage-Polygraphenscreenings für bestimmte Beschäftigte,
+      Auftragnehmer, Bewerber und weitere Personen mit Zugang zu sensiblen Informationen und Programmen.
   - id: polygraph-doe-mechanism
+    note: >-
+      Die Regel bestimmt die erfassten Zugangskategorien, knüpft den Zugang an Tests und sieht bei ungeklärten
+      Befunden Interviews, mögliche Wiederholungstests und weitere Gegenspionagebewertungen vor.
   - id: polygraph-doe-consequences
+    note: >-
+      Wissenschaftliche Prüfung, nach der die von Polygraphen gemessenen physiologischen Reaktionen nicht
+      ausschließlich bei Täuschung auftreten, die Evidenz zur Screening-Genauigkeit äußerst begrenzt ist und
+      Mitarbeiter-Screenings erhebliche Probleme durch falsch positive und falsch negative Ergebnisse erzeugen;
+      sie unterscheidet diese Grenzen von der über dem Zufallsniveau liegenden Leistung, die bei Tests zu
+      konkreten Einzelvorfällen teilweise beobachtet wird. Diese Beziehung belegt die vorhergesagten Risiken
+      falscher Verdächtigung und falscher Entwarnung in der vierten Folge; die Beispiele sind hypothetisch und
+      keine beobachteten Zahlen betroffener DOE-Beschäftigter.
   - id: polygraph-doe-2006-correction
     note: >-
-      Rekonstruiert die DOE-Politik und etabliert 2006 Polygraphen als nur einen Bestandteil einer umfassenderen Gegenspionagebewertung.
+      Rekonstruiert die DOE-Politikgeschichte und legt den Rahmen von 2006 fest, in dem Polygraphenbefunde einen
+      Bestandteil einer umfassenderen Gegenspionagebewertung bilden. Abschnitt III.A beschreibt das Ende
+      automatischer allgemeiner Screenings und behält die bisherigen Schutzvorschriften gegen nachteilige
+      Maßnahmen ausdrücklich bei; festgelegte Testanlässe und Zufallstests bleiben bestehen.
   - id: polygraph-doe-current-limit-correction
     note: >-
-      Aktuelle Regel verbietet nachteilige Entscheidungen allein aufgrund bestimmter Polygraphenbefunde und untersagt den Ersatz vorgeschriebener Ermittlungen durch den Test.
+      Die aktuell kodifizierte Regel untersagt DOE und seinen Auftragnehmern nachteilige Personalmaßnahmen oder
+      nachteilige Zugangsempfehlungen allein aufgrund eines Polygraphenbefunds mit signifikanter Reaktion oder
+      ohne eindeutiges Urteil. Ein solcher Befund darf vorgeschriebene Ermittlungen nicht ersetzen. Die
+      endgültige Regel von 2006 belegt die zeitliche Einordnung und die Fortführung dieser Schutzvorschriften.
   - id: polygraph-moldova-carrier
     note: >-
-      Primärurteil zur gesetzlichen Wahrhaftigkeitsfunktion, zum Ausschluss eines Bewerbers 2017 und zur Aufhebung der
-      Positivpflicht wegen des nur vermutenden Charakters und der geringen wissenschaftlichen Gewissheit.
+      Primärurteil, das den gesetzlichen Testzweck der Prüfung der Wahrhaftigkeit mitgeteilter Informationen
+      wiedergibt, den Ausschluss eines Bewerbers für die National Integrity Authority 2017 wegen eines nicht
+      positiven Ergebnisses dokumentiert und die Pflicht zu einem positiven Ergebnis nach Betonung des
+      vermutenden Testcharakters und der geringen wissenschaftlichen Gewissheit aufhebt. Der Integrity Council
+      traf die Ausschlussentscheidung; die National Integrity Authority war die betroffene Behörde und
+      gesetzlich zur Veranlassung von Tests ermächtigt.
   - id: polygraph-moldova-mechanism
+    note: >-
+      Dokumentiert die Auslegung der Führungskräfteauswahl durch den Rat: Cârnațs bestandene schriftliche
+      Prüfung und das bestandene Interview konnten die Pflicht zu einem positiven Polygraphenergebnis nicht
+      aufwiegen.
   - id: polygraph-moldova-consequences
+    note: >-
+      Die Randnummern 7–12 dokumentieren Ausschluss und Rechtsstreit; die Randnummern 77–78 und 86–93 erläutern
+      die Unsicherheit, den Test als ausschließendes Integritätskriterium zu behandeln. Der Urteilsspruch
+      beseitigte die Pflicht zu einem positiven Ergebnis und bestätigte zugleich die Testpflicht.
   - id: polygraph-moldova-correction
+    note: >-
+      Hebt die Pflicht zu einem positiven Ergebnis nach Artikel 11 Absatz 12 auf, bestätigt aber Artikel 4
+      Buchstabe a² und Artikel 11 Absätze 10–11. Die Korrektur betrifft die Besetzung leitender Ämter der
+      National Integrity Authority und schafft Polygraphentests nicht allgemein ab.
   - id: polygraph-kyrgyz-carrier
     note: >-
-      Offizieller Rechtsbankeintrag zum Erlass und seinen Änderungen; definiert den Test als Prüfung der Zuverlässigkeit von
-      Angaben und zielt auf Amtsmissbrauch, Korruptionsrisiko, Qualifikation und Eignung.
+      Offizieller Rechtsbankeintrag zum Polygraphenerlass und seinem geänderten Regelungsrahmen. Der Erlass
+      führte Polygraphentests in den Staatsdienst ein; die Durchführungsvorschriften definieren die Untersuchung
+      als Bewertung der Zuverlässigkeit von Angaben und richten sie auf Amtsmissbrauch, Korruptionsrisiken,
+      Qualifikation und berufliche Eignung. Die Durchführungsregelung wurde durch Erlass Nr. 9/2011 neu gefasst;
+      die gesondert registrierten Texte von 2011 und 2018 verorten die inhaltlichen Vorschriften.
   - id: polygraph-kyrgyz-mechanism
+    note: >-
+      Der öffentliche Auszug definiert die Aufzeichnung physiologischer Reaktionen, die Bewertung der
+      Zuverlässigkeit mitgeteilter Informationen und die freiwillige schriftliche Zustimmung; seine Präambel
+      nennt Korruptionsbekämpfung, Fehlverhalten, Qualifikation und berufliche Eignung als Prüfzwecke.
   - id: polygraph-kyrgyz-consequences
+    note: >-
+      Dokumentiert erfasste Einstellungs- und Ernennungsverfahren sowie Tests bei Rotation und internen
+      Untersuchungen nach Ermessen der Behördenleitung und belegt damit die erste und vierte Folge. Der Text
+      enthält keine Messung der Zahl getesteter Personen.
   - id: polygraph-kyrgyz-ongoing
     note: >-
-      Aktuelle Seite der Staatsdienstagentur, die Präsidialerlass Nr. 146 weiterhin als Rechtsgrundlage für Polygraphentests führt.
+      Aktuelle Seite der Staatsdienstagentur, die Präsidialerlass Nr. 146 über Polygraphentests im Staatsdienst
+      in ihrer normativen Rechtsgrundlage aufführt und damit den fortbestehenden institutionellen Rahmen belegt.
   - id: polygraph-kazakh-carrier
     note: >-
-      Geltende Regierungsregeln zur Prüfung der Zuverlässigkeit von Angaben, formellen Wahrhaftigkeitsgutachten und Nutzung
-      der beratenden Ergebnisse in Einstellung, Beurteilung, Auswahl und dienstlichen Untersuchungen; einschließlich Änderungen von 2025.
+      Geltende, ursprünglich 2014 erlassene Regierungsregeln: Sie definieren den Zweck als Prüfung der
+      Zuverlässigkeit mitgeteilter Informationen, verlangen ein Gutachten zur Wahrhaftigkeit der Antworten und
+      sehen die Nutzung der probabilistischen und beratenden Ergebnisse bei Einstellung, Beurteilung,
+      Auswahlverfahren und dienstlichen Untersuchungen vor. Der Text enthält Änderungen von 2025.
   - id: polygraph-kazakh-mechanism
+    note: >-
+      Die Regeln bestimmen die Personalverfahren, verlangen Wahrhaftigkeitsgutachten zu den Antworten und
+      benennen die Stellen, die die Informationen verwenden. Das Verfahren für Richterkandidaten ist gesondert
+      durch Beschluss Nr. 191 belegt.
   - id: polygraph-kazakh-consequences
     note: >-
-      Geltende Regeln von 2016 zur Polygraphenprüfung erfolgreicher Richterkandidaten beim Nationalen Sicherheitskomitee,
-      mit formellem Wahrhaftigkeitsgutachten und Änderungen von Juli 2026.
+      Geltende Regeln von 2016, die nach bestandener Qualifikationsprüfung Polygraphenuntersuchungen für
+      Richterkandidaten beim Nationalen Sicherheitskomitee mit einem formellen Wahrhaftigkeitsgutachten
+      verlangen. Der aktuelle Text verzeichnet Änderungen des Erklärungsformulars vom 14. Juli 2026. Diese
+      Quelle belegt die Folge zur Richterauswahl und die dortigen Wahrhaftigkeitsgutachten; die übrigen
+      Personalfolgen erfordern die Regeln für Strafverfolgungsbehörden.
   - id: polygraph-kazakh-ongoing
+    note: >-
+      Die geänderten Regeln behalten die Verwendung probabilistischer, beratender Polygrapheninformationen in
+      Personalverfahren bei. Diese Beziehung dokumentiert den fortbestehenden Rahmen; die gesonderte Quelle zur
+      Richterauswahl belegt die Formularänderung vom Juli 2026.
   - id: polygraph-uzbek-carrier
     note: >-
-      Geltende Dienstregeln: Seit 1. September 2023 gehört eine psychophysiologische Polygraphenprüfung zur Bewerberprüfung,
-      um negative Einstellungsfaktoren zu erkennen; daraus entsteht eine amtliche Eignungsbeurteilung.
+      Geltende staatliche Dienstregeln, nach denen seit dem 1. September 2023 eine psychophysiologische
+      Polygraphenuntersuchung zur Überprüfungsphase für Bewerber gehört, um negative Faktoren zu erkennen, die
+      einer Einstellung entgegenstehen. Auswahl und Überprüfung führen zu einer amtlichen Eignungsbeurteilung.
   - id: polygraph-uzbek-mechanism
+    note: >-
+      Die Überprüfungsphase bei der Einstellung umfasst Polygraphentests zur Ermittlung von Faktoren, die den
+      Dienst ausschließen können; die abschließende Beurteilung verbindet Auswahl- und Überprüfungsergebnisse.
+      Die Ausbildungsfunktion der Akademie ist durch deren gesonderten Bericht belegt.
   - id: polygraph-uzbek-consequences
     note: >-
-      Offizieller Bericht vom 16. August 2026 zur Fachausbildung über Bewerberrisiken, Korruptions- und Fehlverhaltensneigung
-      sowie die praktische Interpretation psychophysiologischer Reaktionen.
+      Offizieller Bericht vom 16. August 2026 über die Polygraphen-Fachausbildung. Er beschreibt die Bewertung
+      von Bewerberrisiken und die Erkennung einer Neigung von Beschäftigten zu Korruption und anderem
+      Fehlverhalten sowie die praktische Interpretation psychophysiologischer Reaktionen. Der Schlussabsatz
+      dokumentiert Prüfungen und Zertifikate für erfolgreiche Teilnehmer. Dies belegt die Ausbildungs- und
+      Zertifizierungsfolgen; die Dienstregel dokumentiert die Einstellung.
   - id: polygraph-uzbek-ongoing
+    note: >-
+      Die Akademie berichtet über die aktuelle Fachausbildung in Polygraphenuntersuchungen und der Bewertung von
+      Personalrisiken und dokumentiert damit die fortgesetzte institutionelle Anwendung.
+  - id: polygraph-kazakh-proposition
+    note: >-
+      Definiert die institutionelle Ableitung von Wahrhaftigkeit und verborgenem Fehlverhalten aus
+      physiologischen Tests und sieht trotz der beratenden Einordnung ihre Verwendung in folgenreichen
+      Personalverfahren vor.
+  - id: polygraph-uzbek-proposition
+    note: >-
+      Die erklärten Ausbildungsziele der Akademie verbinden Polygraphenuntersuchungen ausdrücklich mit
+      Bewerberrisiken und der Neigung von Beschäftigten zu Korruption oder anderem Fehlverhalten.
+  - id: polygraph-doe-2006-impact
+    note: >-
+      Dokumentiert die Veröffentlichung der wissenschaftlichen Prüfung im Oktober 2002 und die Einschränkung
+      automatischer allgemeiner Screenings 2006 bei fortgesetzten Tests und bereits zuvor bestehenden
+      Schutzvorschriften gegen nachteilige Maßnahmen.
+  - id: polygraph-moldova-impact
+    note: >-
+      Dokumentiert die Beseitigung der Pflicht zu einem positiven Ergebnis bei der Besetzung leitender Ämter der
+      National Integrity Authority bei fortbestehender Testpflicht.
+  - id: polygraph-kyrgyz-current-impact
+    note: >-
+      Die heutige Agentur besitzt weiterhin die Aufgabe, Polygraphenuntersuchungen für Bewerber auf staatliche
+      und kommunale Stellen in gesetzlich bestimmten Fällen durchzuführen; dies belegt den fortbestehenden
+      Personalrahmen.
+  - id: polygraph-kyrgyz-2018-impact
+    note: >-
+      Dokumentiert die ausdrückliche Aufnahme besonders korruptionsgefährdeter staatlicher Stellen und belegt
+      damit diese Angabe im hervorgehobenen Punkt zu Kirgisistan.
+  - id: polygraph-kazakh-law-enforcement-impact
+    note: >-
+      Dokumentiert den fortbestehenden Personalrahmen der Strafverfolgungsbehörden, formelle
+      Wahrhaftigkeitsgutachten und festgelegte Verwendungen beratender Ergebnisse.
+  - id: polygraph-kazakh-judges-impact
+    note: >-
+      Dokumentiert das gesonderte System für Richterkandidaten und dessen Fortbestand als Regelungsrahmen; die
+      Änderung vom Juli 2026 betrifft das Erklärungsformular.
+  - id: polygraph-uzbek-service-impact
+    note: >-
+      Dokumentiert die seit dem 1. September 2023 geltende Einstellungsanforderung und die Verwendung der
+      Überprüfungsergebnisse in der Gesamtbeurteilung der Eignung.
+  - id: polygraph-uzbek-training-impact
+    note: >-
+      Dokumentiert die aktuelle Fachausbildung zu Bewerberrisiken, Korruptionsneigung und der Interpretation
+      psychophysiologischer Reaktionen.
+  - id: polygraph-doe-nnsa-carrier
+    note: >-
+      Die Ersatzregel schließt NNSA ausdrücklich in DOE ein und nennt NNSA im Rahmen der
+      Gegenspionagebewertungen. Dies belegt ihre Rolle innerhalb der Episode, ohne die Regel von 1999 einer
+      damals bereits tätigen NNSA zuzuschreiben.
+  - id: polygraph-doe-rules-consequences
+    note: >-
+      Belegt die ersten drei Folgen: vorgeschriebene Screenings in erfassten Zugangskategorien, Folgen einer
+      Verweigerung und festgelegte Nachprüfungen bei ungeklärten Befunden. Dies sind rechtliche Vorgaben, keine
+      Zahlen tatsächlich durchgeführter Tests oder nachteiliger Entscheidungen.
+  - id: polygraph-kyrgyz-decree-text-carrier
+    note: >-
+      Bestätigt den Erlasseintrag des Justizministeriums durch lesbaren Text zur zentralen Umsetzungsaufgabe der
+      Staatlichen Personalverwaltung und zu den erfassten Einstellungs-, Rotations- und internen
+      Untersuchungsverfahren.
+  - id: polygraph-kyrgyz-agency-carrier
+    note: >-
+      Die Organisationsregelung benennt die Nachfolgebehörde der Staatlichen Personalverwaltung und weist ihr
+      die Zuständigkeit für Polygraphentests von Bewerbern in gesetzlich bestimmten Fällen zu.
+  - id: polygraph-kyrgyz-regulation-consequences
+    note: >-
+      Belegt die zweite und dritte Folge: Physiologische Aufzeichnungen dienen der Bewertung der Zuverlässigkeit
+      von Angaben; zu den erklärten Zwecken gehören Korruptionsrisiken, Amtsmissbrauch, Qualifikation und
+      berufliche Eignung. Die Definition verlangt freiwillige schriftliche Zustimmung.
+  - id: polygraph-kyrgyz-2018-context
+    note: >-
+      Ergänzt besonders korruptionsgefährdete Stellen in der Liste und streicht Verweise auf
+      Beurteilungsverfahren aus Erlass und Durchführungsregelung. Diese Änderungen des Anwendungsbereichs
+      erklären die Screening-Schlussfolgerung nicht für wissenschaftlich korrigiert.
+  - id: polygraph-kyrgyz-nas-context
+    note: >-
+      Wissenschaftliche Prüfung, nach der die von Polygraphen gemessenen physiologischen Reaktionen nicht
+      ausschließlich bei Täuschung auftreten, die Evidenz zur Screening-Genauigkeit äußerst begrenzt ist und
+      Mitarbeiter-Screenings erhebliche Probleme durch falsch positive und falsch negative Ergebnisse erzeugen;
+      sie unterscheidet diese Grenzen von der über dem Zufallsniveau liegenden Leistung, die bei Tests zu
+      konkreten Einzelvorfällen teilweise beobachtet wird. Liefert wissenschaftlichen Kontext zur
+      Screening-Schlussfolgerung, jedoch keinen Beleg für die örtliche Umsetzung, gemessene Schäden oder eine
+      institutionelle Reaktion.
+  - id: polygraph-kazakh-nas-context
+    note: >-
+      Wissenschaftliche Prüfung, nach der die von Polygraphen gemessenen physiologischen Reaktionen nicht
+      ausschließlich bei Täuschung auftreten, die Evidenz zur Screening-Genauigkeit äußerst begrenzt ist und
+      Mitarbeiter-Screenings erhebliche Probleme durch falsch positive und falsch negative Ergebnisse erzeugen;
+      sie unterscheidet diese Grenzen von der über dem Zufallsniveau liegenden Leistung, die bei Tests zu
+      konkreten Einzelvorfällen teilweise beobachtet wird. Liefert wissenschaftlichen Kontext zur
+      Screening-Schlussfolgerung, jedoch keinen Beleg für die örtliche Umsetzung, gemessene Schäden oder eine
+      institutionelle Reaktion.
+  - id: polygraph-uzbek-nas-context
+    note: >-
+      Wissenschaftliche Prüfung, nach der die von Polygraphen gemessenen physiologischen Reaktionen nicht
+      ausschließlich bei Täuschung auftreten, die Evidenz zur Screening-Genauigkeit äußerst begrenzt ist und
+      Mitarbeiter-Screenings erhebliche Probleme durch falsch positive und falsch negative Ergebnisse erzeugen;
+      sie unterscheidet diese Grenzen von der über dem Zufallsniveau liegenden Leistung, die bei Tests zu
+      konkreten Einzelvorfällen teilweise beobachtet wird. Liefert wissenschaftlichen Kontext zur
+      Screening-Schlussfolgerung, jedoch keinen Beleg für die örtliche Umsetzung, gemessene Schäden oder eine
+      institutionelle Reaktion.
+  - id: polygraph-kazakh-mia-carrier
+    note: >-
+      Die Einstellungsregel des Innenministers selbst weist die Auswahl den Personalstellen des Ministeriums zu
+      und verlangt ausdrücklich die Überweisung von Bewerbern zu Polygraphenuntersuchungen.
+  - id: polygraph-kazakh-judges-carrier
+    note: >-
+      Benennt den Hohen Justizrat als überweisende und empfangende Stelle und das Nationale Sicherheitskomitee
+      als untersuchende Institution.
+  - id: polygraph-kazakh-judges-mechanism
+    note: >-
+      Verlangt Tests nach der Qualifikationsprüfung für das Richteramt und die Übermittlung eines beratenden
+      Wahrhaftigkeitsgutachtens an den Hohen Justizrat.
+  - id: polygraph-kazakh-law-enforcement-consequences
+    note: >-
+      Belegt die erste, zweite, dritte und fünfte Folge: festgelegte Personal-Screenings,
+      Wahrhaftigkeitsgutachten, bestimmte Verwendungen in Personalverfahren und die Weiterleitung möglicher
+      Rechtsverstöße zur Überprüfung. Tests bei dienstlichen Untersuchungen verlangen die Zustimmung des
+      Beschäftigten.
+  - id: polygraph-uzbek-academy-carrier
+    note: >-
+      Benennt die Akademie des Innenministeriums als Veranstalterin des Kurses für Psychologen des Ministeriums
+      und kooperierender Strafverfolgungsbehörden und belegt ihre Rolle als vermittelnde Institution innerhalb
+      des Ministeriumssystems.
+  - id: polygraph-uzbek-service-consequences
+    note: >-
+      Belegt die ersten beiden Folgen: Polygraphenuntersuchungen als Teil der Einstellungsprüfung und die
+      Einbeziehung der Überprüfungsergebnisse in die Gesamtbeurteilung der moralisch-beruflichen und
+      gesundheitlichen Eignung. Eine alleinige Einstellungsentscheidung anhand physiologischer Reaktionen wird
+      damit nicht belegt.
+  - id: polygraph-uzbek-training-mechanism
+    note: >-
+      Die Akademie schult Fachkräfte darin, Bewerberrisiken sowie Korruptions- und Fehlverhaltensneigung zu
+      bewerten und aufgezeichnete psychophysiologische Reaktionen zu interpretieren; dies dokumentiert den
+      Ausbildungsbestandteil des Mechanismus.

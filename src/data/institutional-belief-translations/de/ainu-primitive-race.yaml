@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: ainu-primitive-race
-sourceReviewedAt: '2026-08-23'
+sourceReviewedAt: '2026-09-07'
 title: Ainu als „primitive Rasse“
 proposition:
   summary: >-
@@ -10,45 +10,61 @@ proposition:
 correction:
   summary: >-
     Die Ainu sind ein indigenes Volk mit eigenen Geschichten, Sprachen, kulturellen Traditionen und politischen
-    Gemeinschaften. Unterschiede zwischen Ainu und japanischen Lebensweisen waren kein Beleg biologischer Rückständigkeit;
-    koloniale Enteignung, Einschränkungen von Land- und Subsistenzrechten sowie Assimilationspolitik trugen selbst
-    wesentlich zu Verarmung und Bevölkerungsrückgang bei.
+    Gemeinschaften. Unterschiede zwischen Ainu und japanischen Lebensweisen waren kein Beleg biologischer Rückständigkeit.
+    Koloniale Enteignung, Einschränkungen von Land- und Subsistenzrechten sowie Assimilationspolitik trugen wesentlich zu
+    Verarmung und Bevölkerungsrückgang bei. Auch Zwangsumsiedlungen und Krankheiten verursachten schwere Verluste: Ainu von
+    Sachalin, die 1875 nach Japan gekommen waren, wurden anschließend zwangsweise in Tsuishikari angesiedelt. Dort starben
+    viele an Epidemien, deren Folgen durch beengte und ungewohnte Lebensbedingungen verschärft wurden.
 episodes:
-  - id: japan-1899-1939
+  - id: japan-1899-1937
     polity: Japan
-    periodLabel: belegt 1899–späte 1930er-Jahre
+    periodLabel: belegt 1899–1937
     institutions:
       - 内務省 (Innenministerium)
       - 北海道庁 (Hokkaidō-Verwaltung)
     institutionalContext: >-
-      Das Hokkaidō Former Aborigines Protection Act von 1899 übertrug dem Innenminister Durchführungskompetenzen und dem
-      Gouverneur der Hokkaidō-Verwaltung unmittelbare Befugnisse über Land, Gemeinschaftsvermögen und Polizeiverordnungen,
-      während Landwirtschaft und staatliche Schulbildung gefördert wurden. Im breiteren kolonialen intellektuellen Umfeld
-      wurde die Kaiserliche Universität Tokio zu einem Zentrum der physischen Anthropologie, und die Anthropologische
-      Gesellschaft Tokio veröffentlichte umfangreiche Ainu-Forschung. Die derzeitige Beleglage weist diese Einrichtungen
-      als wichtige Zentren anthropologischer Forschung aus, aber nicht eigenständig als Träger dieser konkreten
-      administrativen Behauptung.
+      Das Gesetz zum Schutz der „ehemaligen Ureinwohner“ Hokkaidōs von 1899 übertrug dem Innenminister
+      Durchführungskompetenzen und dem Gouverneur der Hokkaidō-Verwaltung unmittelbare Befugnisse über Land,
+      Gemeinschaftsvermögen und Polizeiverordnungen. Die Gesetzesänderung von 1937 erweiterte die Hilfen zum Lebensunterhalt
+      und strich die Bestimmung über gesonderte Schulen, erlaubte aber deren vorübergehenden Fortbestand. Frühere
+      koloniale Enteignungen, Einschränkungen von Jagd und Fischfang sowie Zwangsumsiedlungen bilden den Hintergrund dieser
+      Episode. Die von der Hokkaidō-Verwaltung 1918 und 1937 veröffentlichten Geschichtswerke stellten die Gesellschaft der
+      Ainu innerhalb einer rassischen Hierarchie dar, die Assimilation rechtfertigte. Die Kaiserliche Universität Tokio
+      und die Anthropologische Gesellschaft Tokio waren in diesem breiteren intellektuellen Umfeld bedeutende Zentren der
+      physisch-anthropologischen Ainu-Forschung; ihre Forschung bildet den Kontext der rassischen Deutung.
     summary: >-
-      Die japanische Kolonialverwaltung behandelte Lebensweisen der Ainu wiederholt als etwas, das durch Landwirtschaft und
-      Assimilation umgeformt werden müsse. Das Hokkaidō Former Aborigines Protection Act von 1899 förderte agrarische
-      Ansiedlung, während Einschränkungen von Land- und Subsistenzrechten auf die Eingliederung in eine vermeintlich
-      fortgeschrittenere japanische Gesellschaft hinwirkten. Die physisch-anthropologische Erforschung der Ainu an der
-      Kaiserlichen Universität Tokio und durch die Anthropologische Gesellschaft Tokio bleibt hier als breiterer
-      intellektueller Kontext erhalten, nicht als eigenständig belegte Trägerschaft dieser konkreten Verwaltungsannahme.
+      Das Innenministerium und die Hokkaidō-Verwaltung behandelten die Assimilation an die japanische Gesellschaft als
+      Antwort auf die vermeintliche Rückständigkeit der Ainu. Das Gesetz von 1899 förderte Landwirtschaft durch an
+      Bedingungen geknüpfte Landzuteilungen; hinzu kamen Einschränkungen der traditionellen Subsistenz durch die breitere
+      Kolonialpolitik. Auch japanischsprachige Schulbildung diente der Assimilation. In der Parlamentsdebatte vom 6. März
+      1937 verteidigten Vertreter des Innenministeriums ausdrücklich den Übergang von Jagd und Fischfang zur Landwirtschaft
+      und die weitere Assimilation. Der belegte Zeitraum endet mit dieser Bekräftigung und der folgenden
+      Gesetzesänderung; die Assimilation endete 1937 nicht, und das Gesetz bestand bis zu seiner Aufhebung 1997 fort.
     consequences:
-      - Erzwungene Agrarisierung
-      - Unterdrückung indigener Lebensweisen
-      - Enteignung von Land und Ressourcen
-      - Kulturelle Assimilation
+      - Druck zur Landwirtschaft durch bedingte Landzuteilungen und Einschränkungen der traditionellen Subsistenz
+      - Unterdrückung indigener Jagd, Fischerei und Bräuche
+      - Verlust von Land und Zugang zu Ressourcen im Rahmen der breiteren Kolonialpolitik
+      - Kulturelle Assimilation durch japanischsprachige Schulbildung
     mechanism:
       summary: >-
-        Die Kolonialverwaltung nutzte Land-, Landwirtschafts- und Schulbefugnisse zur Assimilation und zur Umgestaltung der
-        Lebensgrundlagen der Ainu in Richtung sesshafter Landwirtschaft.
+        Das Gesetz verband landwirtschaftliche Landzuteilungen mit dem Einzug nach fünfzehn Jahren noch nicht
+        bewirtschafteter Flächen, Verfügungsbeschränkungen und öffentlicher Finanzierung von Schulbildung für Ainu.
+        Vertreter des Innenministeriums verteidigten diesen Rahmen als Mittel der Assimilation; der Gouverneur von
+        Hokkaidō verwaltete Land und Gemeinschaftsvermögen. Diese Maßnahmen drängten Ainu zur Landwirtschaft, ohne allen
+        Ainu eine gesetzliche Pflicht aufzuerlegen, Bauern zu werden.
     institutionalCorrection:
+      periodLabel: 1997–2019
+      action: Ablösung des gesetzlichen Rahmens von 1899 und offizielle Anerkennung der Ainu als indigenes Volk
       summary: >-
-        Die derzeitige Beleglage dokumentiert die spätere historische Zurückweisung der Vorstellung einer „primitiven
-        Rasse“, weist aber keinen datierten Akt der aufgeführten japanischen Verwaltungsträger nach, der diese
-        institutionelle Behauptung ausdrücklich verworfen hätte.
+        Die Korrektur betrifft Japans späteren gesetzlichen Rahmen und die staatliche Politik auf nationaler Ebene. Das
+        Ainu-Kulturförderungsgesetz von 1997 hob das Gesetz von 1899 auf und verankerte den Schutz der Kultur als politisches
+        Ziel. Am 14. März 2008 erkannte das Kabinett an, dass Einschränkungen von Lebensgrundlagen, Kultur und Sprache der
+        Gesellschaft der Ainu geschadet und frühere Maßnahmen ihre Lage nicht ausreichend verbessert hatten. Am 6. Juni
+        2008 verabschiedete das Abgeordnetenhaus eine Entschließung zur Anerkennung als indigenes Volk; die Regierung
+        bestätigte diese Anerkennung in ihrer Antwort. Das Ainu-Maßnahmengesetz von 2019 erkennt die Ainu ausdrücklich als
+        indigenes Volk an, verlangt die Achtung ihres freien Willens und verbietet Diskriminierung. Diese Maßnahmen lösen
+        den auf Assimilation ausgerichteten gesetzlichen Rahmen ab; sie belegen keine Wiedergutmachung sämtlicher
+        historischer Verluste.
 evidence:
   - id: ainu-colonial-proposition
     note: >-
@@ -56,16 +72,90 @@ evidence:
       wurden und wie das Schutzgesetz von 1899 Ainu zu Bauern machen sollte, während Land- und Subsistenzrechte beschnitten
       wurden.
   - id: ainu-colonial-correction
+    note: >-
+      Erläutert die koloniale Konstruktion rassischer Minderwertigkeit und der Erzählung vom „Verschwinden“ durch
+      Enteignung und die Deutung kultureller Unterschiede als Rückständigkeit; behandelt auch Kritik und Widerstand der Ainu.
   - id: ainu-law-carrier
     note: >-
       Primärgesetz von 1899. Es weist Ainu, die Landwirtschaft betreiben oder betreiben wollen, Land zu, überträgt dem
       Gouverneur der Hokkaidō-Verwaltung Befugnisse über Land und Gemeinschaftsvermögen und ermächtigt den Innenminister zu
       Durchführungsvorschriften.
   - id: ainu-law-mechanism
+    note: >-
+      Verknüpft landwirtschaftliche Landzuteilungen und die fünfzehnjährige Bewirtschaftungsfrist mit
+      Verfügungsbeschränkungen, Bildungsbeihilfen und Schulfinanzierung. Artikel 13 ermächtigt den Innenminister zu
+      Durchführungsvorschriften.
   - id: ainu-colonial-consequences
+    note: >-
+      Erläutert, wie Darstellungen der Ainu als „primitiv“ zur Rechtfertigung kolonialer Herrschaft institutionalisiert
+      wurden und wie das Schutzgesetz von 1899 Ainu zu Bauern machen sollte, während Land- und Subsistenzrechte beschnitten
+      wurden. Die Darstellung japanischsprachiger Schulbildung belegt kulturelle Assimilation; einige Land- und
+      Fischereibeschränkungen gingen dem Gesetz voraus.
   - id: ainu-anthropology-context
     note: >-
       Dokumentiert die Kaiserliche Universität Tokio und die Anthropologische Gesellschaft Tokio als bedeutende
       institutionelle Zentren der frühen japanischen Anthropologie und umfangreicher physisch-anthropologischer Forschung
       an den Ainu; hier als breiterer intellektueller Kontext verwendet, nicht als Beleg für die Trägerschaft der konkreten
       administrativen Behauptung.
+  - id: ainu-colonial-carrier
+    note: >-
+      Zitiert von der Hokkaidō-Verwaltung 1918 und 1937 veröffentlichte Geschichtswerke, die die Gesellschaft der Ainu als
+      rückständig einordnen und Assimilation rechtfertigen. Damit ist neben den gesetzlichen Befugnissen auch die Deutung
+      durch die Verwaltung belegt.
+  - id: ainu-debate-carrier
+    note: >-
+      Vizeinnenminister Shinohara erläutert die landwirtschaftlichen und auf Assimilation gerichteten Ziele des Gesetzes
+      von 1899; Regierungsvertreter Ikeda bekräftigt Assimilation als Richtung der Politik. Die Debatte belegt deren
+      fortgesetzte Befürwortung 1937, keine Zurückweisung der zugrunde liegenden Behauptung.
+  - id: ainu-debate-mechanism
+    note: >-
+      Verbindet den Übergang von Jagd und Fischfang zur Landwirtschaft mit Schulbildung und Assimilation. Die vorgeschlagene
+      Erweiterung der Hilfen zum Lebensunterhalt und die Abschaffung gesonderter Schulbildung werden im Rahmen dieser
+      fortgesetzten Politik begründet.
+  - id: ainu-law-consequences
+    note: >-
+      Die landwirtschaftliche Zugangsvoraussetzung, Verfügungsbeschränkungen und der Einzug unbewirtschafteter Flächen
+      stützen die Beschreibung eines Drucks zur Landwirtschaft. Das Gesetz bietet bedingte Landzuteilungen; es verpflichtet
+      nicht jede Ainu-Person zur Landwirtschaft.
+  - id: ainu-amendment-context
+    note: >-
+      Erweitert landwirtschaftliche Hilfen auf Hilfen zum Lebensunterhalt und streicht Artikel 9 über gesonderte Schulen,
+      erlaubt aber den vorübergehenden Fortbestand bestehender Schulen, soweit erforderlich. Damit ist eine Überarbeitung
+      des Rahmens datiert, nicht das Ende der Assimilation oder die Aufhebung des Gesetzes.
+  - id: ainu-relocation-correction
+    note: >-
+      Beschreibt die Zwangsansiedlung von Ainu aus Sachalin in Tsuishikari nach ihrer Übersiedlung nach Japan 1875 sowie
+      Todesfälle durch Epidemien, deren Folgen beengte und ungewohnte Lebensbedingungen verschärften. Stützt die
+      historische Bedeutung von Umsiedlung und Krankheiten.
+  - id: ainu-relocation-context
+    note: >-
+      Beschreibt koloniale Vertreibung, Einschränkungen von Jagd und Fischfang sowie die Zwangsansiedlung und Todesfälle
+      durch Epidemien unter Ainu aus Sachalin in Tsuishikari. Diese Umsiedlungsgeschichte liegt vor dem Gesetz von 1899 und
+      liefert den breiteren historischen Kontext.
+  - id: ainu-cabinet-historical-correction
+    note: >-
+      Bestätigt den historischen Befund, dass Einschränkungen von Jagd, Fischfang, Bräuchen und Sprache schwere Schäden und
+      Armut verursachten und Maßnahmen einschließlich des Gesetzes von 1899 die Lage nicht ausreichend verbesserten.
+  - id: ainu-cabinet-consequences
+    note: >-
+      Das Kabinett erkennt Schäden durch Einschränkungen traditioneller Lebensgrundlagen, Bräuche und Sprache sowie das
+      Ungenügen des Rahmens von 1899 an. Dies stützt Unterdrückung und Verarmung als Folgen der breiteren Politik, ohne jede
+      Einschränkung dem Wortlaut des Gesetzes von 1899 zuzuschreiben.
+  - id: ainu-culture-law-institutional-correction
+    note: >-
+      Verankert Kulturförderung und die Achtung des freien Willens der Ainu und hebt das Gesetz von 1899 ausdrücklich auf.
+      Dies ändert den nationalen gesetzlichen Rahmen; die Aufhebung allein belegt keine Wiedergutmachung historischer Verluste.
+  - id: ainu-cabinet-institutional-correction
+    note: >-
+      Belegt ein datiertes Eingeständnis der Regierung zu Schäden durch frühere Politik. Diese Antwort vom März dokumentiert
+      das Eingeständnis; die Anerkennung als indigenes Volk wurde gesondert im Juni 2008 bestätigt.
+  - id: ainu-recognition-institutional-correction
+    note: >-
+      Dokumentiert die Annahme der Entschließung des Abgeordnetenhauses und die Anerkennung der Ainu als indigenes Volk mit
+      eigener Sprache, Religion und Kultur durch die Regierung. Machimura erkennt auch historische Diskriminierung und
+      Verarmung an.
+  - id: ainu-policy-law-institutional-correction
+    note: >-
+      Verankert die Anerkennung als indigenes Volk, die Achtung des freien Willens der Ainu, ein Diskriminierungsverbot und
+      Pflichten nationaler sowie lokaler Behörden. Dies stützt die Korrektur des offiziellen politischen Rahmens, ohne eine
+      Wiedergutmachung sämtlicher historischer Enteignungen oder Diskriminierungen zu belegen.

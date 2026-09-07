@@ -7,18 +7,20 @@ proposition:
 correction:
   summary: >-
     The Ainu are an Indigenous people with their own histories, languages, cultural traditions, and political communities.
-    Differences between Ainu and Japanese lifeways were not evidence of biological backwardness; colonial dispossession,
-    restrictions on land and subsistence, and assimilation policies themselves contributed substantially to Ainu
-    impoverishment and demographic decline.
+    Differences between Ainu and Japanese lifeways were not evidence of biological backwardness. Colonial dispossession,
+    restrictions on land and subsistence, and assimilation policies contributed substantially to Ainu impoverishment and
+    demographic decline. Forced relocation and disease also caused severe losses: Sakhalin Ainu moved to Japan in 1875
+    were subsequently forcibly resettled at Tsuishikari, where many died in epidemics aggravated by crowded and unfamiliar
+    living conditions.
 category: Race and colonial anthropology
-reviewedAt: '2026-08-23'
+reviewedAt: '2026-09-07'
 episodes:
-  - id: japan-1899-1939
+  - id: japan-1899-1937
     polity: Japan
     region: East Asia
     startYear: 1899
-    endYear: 1939
-    periodLabel: documented 1899–late 1930s
+    endYear: 1937
+    periodLabel: documented 1899–1937
     strength: policy-basis
     institutionTypes:
       - government
@@ -27,34 +29,45 @@ episodes:
       - 北海道庁 (Hokkaido Government)
     institutionalContext: >-
       The 1899 Hokkaido Former Aborigines Protection Act gave the Home Minister rule-making authority and the Hokkaido
-      Government’s governor direct powers over Ainu land, communal property and policing while promoting settlement
-      through agriculture and state schooling. In the broader colonial intellectual setting, Tokyo Imperial University
-      became a major center for physical anthropology and the Anthropological Society of Tokyo published extensive Ainu
-      research. The current evidence establishes those bodies as important centers of anthropological study, but does not
-      independently establish them as carriers of this exact administrative proposition.
+      Government’s governor direct powers over Ainu land, communal property and policing. The 1937 amendment broadened
+      livelihood assistance and removed the separate-school provision, while allowing existing schools to continue
+      temporarily. Earlier colonial dispossession,
+      restrictions on hunting and fishing, and forced relocation form the background to this episode. Hokkaido Government
+      histories published in 1918 and 1937 presented Ainu society through a racial hierarchy that justified assimilation.
+      Tokyo Imperial University and the Anthropological Society of Tokyo were major centers of physical-anthropological
+      research on the Ainu within this wider intellectual setting; their research provides context for the racial framing.
     consequences:
-      - Forced agriculturalization
-      - Suppression of Indigenous lifeways
-      - Land and resource dispossession
-      - Cultural assimilation
+      - Pressure to adopt farming through conditional land grants and restrictions on traditional subsistence
+      - Suppression of Indigenous hunting, fishing and customs
+      - Loss of land and access to resources under the wider colonial policies
+      - Cultural assimilation through Japanese-language schooling
     summary: >-
-      Japanese colonial administration repeatedly treated Ainu lifeways as something to be transformed through agriculture
-      and assimilation. The 1899 Hokkaido Former Aborigines Protection Act promoted agricultural settlement while land and
-      subsistence restrictions worked to absorb Ainu into a supposedly more advanced Japanese society. Physical-
-      anthropological study of the Ainu at Tokyo Imperial University and the Anthropological Society of Tokyo formed part
-      of the wider colonial intellectual setting, but those institutions are retained here as context rather than as
-      independently evidenced carriers of this specific administrative proposition.
+      The Ministry of Home Affairs and Hokkaido Government treated assimilation into Japanese society as the answer to
+      supposed Ainu backwardness. The 1899 law promoted farming through conditional land grants, alongside restrictions
+      on traditional subsistence under wider colonial policies. Japanese-language schooling also served assimilation.
+      In the parliamentary debate of 6 March 1937, Home Affairs officials explicitly defended the move from hunting and
+      fishing to farming and continued assimilation. The documented period ends at this reaffirmation and the statutory
+      revision that followed; assimilation did not end in 1937, and the law remained until its repeal in 1997.
     mechanism:
       kind: administrative-adoption
       summary: >-
-        Colonial administrators used land, agricultural and schooling powers to push assimilation and to reorganize Ainu
-        livelihoods around settled agricultural life.
+        The law coupled agricultural land grants with forfeiture of uncultivated portions after fifteen years,
+        restrictions on disposal, and public funding for Ainu schooling. Home Affairs officials defended this framework
+        as a means of assimilation, while Hokkaido’s governor administered land and communal property. These measures
+        pressured Ainu toward farming without imposing a universal statutory duty to become farmers.
     institutionalCorrection:
-      status: undocumented
+      status: corrected
+      periodLabel: 1997–2019
+      action: Replacement of the 1899 statutory framework and official recognition of the Ainu as an Indigenous people
       summary: >-
-        The current evidence record documents later historical rejection of the primitive-race framing, but it does not
-        identify a dated act by the listed Japanese administrative carriers formally repudiating this institutional
-        proposition.
+        The correction concerns Japan’s later statutory and national-policy framework. The 1997 Ainu Culture Promotion
+        Act repealed the 1899 law and established cultural protection as a policy objective. On 14 March 2008 the Cabinet
+        acknowledged that restrictions on livelihoods, culture and language had harmed Ainu society and that earlier
+        measures had failed to improve conditions sufficiently. On 6 June 2008 the House of Representatives adopted a
+        resolution calling for Indigenous recognition, which the government affirmed in its response. The 2019 Ainu
+        policy act explicitly recognizes the Ainu as an Indigenous people, requires respect for their voluntary intent,
+        and prohibits discrimination. These measures replace the assimilationist statutory framing; they do not establish
+        that all historical losses have been remedied.
 sources:
   - id: ainu-protection-act
     title: 北海道旧土人保護法・御署名原本・明治三十二年・法律第二十七号
@@ -68,11 +81,40 @@ sources:
     title: The Politics of Colonial Translation — On the Narrative of the Ainu as a “Vanishing Ethnicity”
     url: https://www.cambridge.org/core/journals/asia-pacific-journal/article/politics-of-colonial-translation-on-the-narrative-of-the-ainu-as-a-vanishing-ethnicity/3A810C9ACC686D632DA4E3F073C07A8E
     publisher: Asia-Pacific Journal
+  - id: ainu-home-affairs-debate-1937
+    title: 第70回帝国議会 貴族院 北海道旧土人保護法中改正法律案特別委員会 第1号（昭和12年3月6日）
+    url: https://teikokugikai-i.ndl.go.jp/simple/detail?minId=007003187X00119370306&spkNum=3
+    publisher: National Diet Library, Imperial Diet Proceedings
+  - id: ainu-protection-act-amendment-1937
+    title: 北海道旧土人保護法中改正法律（昭和12年法律第21号）
+    url: https://jahis.law.nagoya-u.ac.jp/lawdb/l/312a0021
+    publisher: Nagoya University, Database of Japanese Laws and Regulations
+  - id: ainu-relocation-history
+    title: Performing Ethnic Harmony — The Japanese Government’s Plans for a New Ainu Law
+    url: https://www.cambridge.org/core/journals/asia-pacific-journal/article/performing-ethnic-harmony-the-japanese-governments-plans-for-a-new-ainu-law/7F66920A55CF6C724037DB38BC8B3200
+    publisher: Asia-Pacific Journal
+  - id: ainu-culture-promotion-act-1997
+    title: アイヌ文化の振興並びにアイヌの伝統等に関する知識の普及及び啓発に関する法律（平成9年法律第52号）
+    url: https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/houritsu/14019970514052.htm
+    publisher: House of Representatives, Japan
+  - id: ainu-cabinet-answer-2008
+    title: 衆議院議員鈴木宗男君提出先住民族の定義及びアイヌ民族の先住民族としての権利確立に向けた政府の取り組みに関する質問に対する答弁書
+    url: https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/b169138.htm
+    publisher: Cabinet of Japan, published by the House of Representatives
+  - id: ainu-recognition-proceedings-2008
+    title: 第169回国会 本会議 第37号（平成20年6月6日）
+    url: https://www.shugiin.go.jp/internet/itdb_kaigirokua.nsf/html/kaigirokua/000116920080606037.htm
+    publisher: House of Representatives, Japan
+  - id: ainu-policy-act-2019
+    title: Act on Promoting Measures to Achieve a Society in which the Pride of Ainu People is Respected
+    url: https://www.japaneselawtranslation.go.jp/en/laws/view/4538/en
+    publisher: Ministry of Justice, Japanese Law Translation
 evidence:
   - id: ainu-colonial-proposition
     sourceId: ainu-colonial-translation
     relation: supports
     target: {scope: belief, aspect: proposition}
+    locator: Reader PDF, printed pp. 86–87; Hokkaido Government histories cited in notes 2–3 on p. 105
     note: >-
       Explains how depictions of Ainu as primitive were institutionalized to justify colonial rule and how the 1899
       Protection Act attempted to turn Ainu into farmers while land and subsistence rights were curtailed.
@@ -80,10 +122,15 @@ evidence:
     sourceId: ainu-colonial-translation
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: Reader PDF, printed pp. 90–92 and 103–104
+    note: >-
+      Explains the colonial construction of racial inferiority and the “vanishing” narrative through dispossession and
+      the treatment of cultural difference as backwardness; also discusses Ainu criticism and resistance.
   - id: ainu-law-carrier
     sourceId: ainu-protection-act
     relation: documents
-    target: {scope: episode, episodeId: japan-1899-1939, aspect: carrier}
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: carrier}
+    locator: Articles 1–3, 10–11 and 13; archive images 3–7 of 8
     note: >-
       Primary 1899 law. It grants land to Ainu who engage or wish to engage in agriculture, assigns land and
       communal-property powers to the Hokkaido Government’s governor, and gives the Home Minister authority to issue
@@ -91,16 +138,135 @@ evidence:
   - id: ainu-law-mechanism
     sourceId: ainu-protection-act
     relation: documents
-    target: {scope: episode, episodeId: japan-1899-1939, aspect: mechanism}
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: mechanism}
+    locator: Articles 1–3, 7–10 and 13; archive images 3–7 of 8
+    note: >-
+      Links agricultural grants and the fifteen-year cultivation condition to restrictions on land disposal, educational
+      assistance and school funding. Article 13 authorizes the Home Minister’s implementing regulations.
   - id: ainu-colonial-consequences
     sourceId: ainu-colonial-translation
     relation: supports
-    target: {scope: episode, episodeId: japan-1899-1939, aspect: consequences}
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: consequences}
+    locator: Reader PDF, printed p. 86, pp. 90–92 and p. 96
+    note: >-
+      Explains how depictions of Ainu as primitive were institutionalized to justify colonial rule and how the 1899
+      Protection Act attempted to turn Ainu into farmers while land and subsistence rights were curtailed. The discussion
+      of Japanese-language schooling supports cultural assimilation; some land and fishing restrictions predated the Act.
   - id: ainu-anthropology-context
     sourceId: ainu-physical-anthropology
     relation: contextualizes
-    target: {scope: episode, episodeId: japan-1899-1939, aspect: context}
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: context}
+    locator: “Ainu Studies” and the preceding discussion of Tsuboi, Tokyo Imperial University and the Anthropological Society of Tokyo
     note: >-
       Documents Tokyo Imperial University and the Anthropological Society of Tokyo as major institutional centers of early
       Japanese anthropology and extensive physical-anthropological research on the Ainu; used here as broader intellectual
       context rather than as evidence that either body carried the exact administrative proposition.
+  - id: ainu-colonial-carrier
+    sourceId: ainu-colonial-translation
+    relation: supports
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: carrier}
+    locator: Reader PDF, printed p. 87; notes 2–3 on p. 105 (Hokkaidoshi, 1918, pp. 3–5; Shinsen Hokkaidoshi, 1937, p. 47)
+    note: >-
+      Quotes histories published by the Hokkaido Government in 1918 and 1937 that rank Ainu society as backward and justify
+      assimilation. This supplies evidence of the administration’s framing in addition to its legal powers.
+  - id: ainu-debate-carrier
+    sourceId: ainu-home-affairs-debate-1937
+    relation: documents
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: carrier}
+    locator: 6 March 1937, statements 002 (Shinohara Eitarō) and 005 (Ikeda Kiyoshi)
+    note: >-
+      Vice-Minister of Home Affairs Shinohara explains the agricultural and assimilationist aims of the 1899 law; government
+      representative Ikeda reaffirms assimilation as the direction of policy. The debate documents continued advocacy in
+      1937, not a repudiation of the underlying proposition.
+  - id: ainu-debate-mechanism
+    sourceId: ainu-home-affairs-debate-1937
+    relation: documents
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: mechanism}
+    locator: 6 March 1937, statement 002, explanation of the original law and proposed changes to Articles 4, 7 and 9
+    note: >-
+      Connects the move from hunting and fishing to agriculture with schooling and assimilation. The proposed broadening
+      of livelihood assistance and removal of separate schooling are defended within that continuing policy.
+  - id: ainu-law-consequences
+    sourceId: ainu-protection-act
+    relation: supports
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: consequences}
+    locator: Articles 1–3; archive images 3–6 of 8
+    note: >-
+      The agricultural eligibility requirement, land restrictions and forfeiture of uncultivated portions support the
+      description of pressure toward farming. The law offers conditional grants; it does not require every Ainu person to farm.
+  - id: ainu-amendment-context
+    sourceId: ainu-protection-act-amendment-1937
+    relation: documents
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: context}
+    locator: Act No. 21 of 31 March 1937, amendments to Articles 4 and 9 and supplementary provisions
+    note: >-
+      Broadens agricultural assistance to assistance for livelihoods and deletes Article 9 on separate schools, while
+      permitting existing schools to continue temporarily where necessary. This dates a revision of the framework, not
+      the end of assimilation or the repeal of the law.
+  - id: ainu-relocation-correction
+    sourceId: ainu-relocation-history
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: 2018 article, pp. 8–9; note 34 on p. 15
+    note: >-
+      Describes the forced resettlement at Tsuishikari of Sakhalin Ainu moved to Japan in 1875 and deaths from epidemics
+      aggravated by crowded, unfamiliar living conditions. It supports the historical role of relocation and disease.
+  - id: ainu-relocation-context
+    sourceId: ainu-relocation-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: context}
+    locator: 2018 article, pp. 8–9; note 34 on p. 15
+    note: >-
+      Describes colonial displacement, restrictions on hunting and fishing, and the forced resettlement and epidemic
+      deaths of Sakhalin Ainu at Tsuishikari. The relocation history predates the 1899 law and supplies wider historical context.
+  - id: ainu-cabinet-historical-correction
+    sourceId: ainu-cabinet-answer-2008
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Cabinet answer No. 138, 14 March 2008, section 4 (四について)
+    note: >-
+      Endorses the historical finding that restrictions on hunting, fishing, customs and language caused severe harm and
+      poverty, and that measures including the 1899 law failed to improve conditions sufficiently.
+  - id: ainu-cabinet-consequences
+    sourceId: ainu-cabinet-answer-2008
+    relation: supports
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: consequences}
+    locator: Cabinet answer No. 138, 14 March 2008, section 4 (四について)
+    note: >-
+      The Cabinet acknowledges damage from restrictions on traditional livelihoods, customs and language and the
+      inadequacy of the 1899 framework. This supports suppression and impoverishment under the broader policies, without
+      attributing every restriction to the text of the 1899 law.
+  - id: ainu-culture-law-institutional-correction
+    sourceId: ainu-culture-promotion-act-1997
+    relation: documents
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: institutional-correction}
+    locator: Act No. 52 of 14 May 1997, Articles 1–4 and supplementary Article 2(1)
+    note: >-
+      Establishes cultural promotion and respect for Ainu people’s voluntary intent, and expressly repeals the 1899 law.
+      This is a change in the national statutory framework; repeal alone does not demonstrate redress for historical losses.
+  - id: ainu-cabinet-institutional-correction
+    sourceId: ainu-cabinet-answer-2008
+    relation: documents
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: institutional-correction}
+    locator: Cabinet answer No. 138, 14 March 2008, section 4 (四について)
+    note: >-
+      Records a dated government acknowledgment of harm caused by earlier policies. This March answer documents that
+      acknowledgment; Indigenous recognition was affirmed separately in June 2008.
+  - id: ainu-recognition-institutional-correction
+    sourceId: ainu-recognition-proceedings-2008
+    relation: documents
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: institutional-correction}
+    locator: 6 June 2008 plenary, Ainu resolution, Kōno Yōhei’s announcement of adoption and Machimura Nobutaka’s government response
+    note: >-
+      Records adoption of the House of Representatives’ resolution and the government’s recognition of the Ainu as an
+      Indigenous people with distinctive language, religion and culture. Machimura also acknowledges historical
+      discrimination and impoverishment.
+  - id: ainu-policy-law-institutional-correction
+    sourceId: ainu-policy-act-2019
+    relation: documents
+    target: {scope: episode, episodeId: japan-1899-1937, aspect: institutional-correction}
+    locator: Act No. 16 of 2019, Articles 1, 3(2), 4 and 5 (English translation of the consolidated law)
+    note: >-
+      Provides statutory Indigenous recognition, respect for Ainu people’s voluntary intent, a prohibition on
+      discrimination, and duties for national and local authorities. This supports correction of the official policy
+      framing, without establishing that all historical dispossession or discrimination has been remedied.

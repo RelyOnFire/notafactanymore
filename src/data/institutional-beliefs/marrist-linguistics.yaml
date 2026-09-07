@@ -6,53 +6,61 @@ proposition:
     descended language families, making conventional comparative linguistics “bourgeois” or scientifically obsolete.
 correction:
   summary: >-
-    Marr’s universal class-stage theory was abandoned in 1950, and comparative-historical linguistics was restored rather
-    than rendered obsolete. The historical record does not support a universal sequence of class-defined linguistic stages.
+    Languages change through historically traceable descent, contact, borrowing, innovation, and social use. Comparative
+    linguistics can reconstruct genealogical relationships among related languages; languages do not pass through a
+    universal sequence of class-defined developmental stages.
 category: Linguistics
-reviewedAt: '2026-08-23'
+reviewedAt: '2026-09-07'
 episodes:
   - id: soviet-union-1930-1950
     polity: Soviet Union
     region: Eurasia
     startYear: 1930
     endYear: 1950
+    periodLabel: c. 1930–1950
     strength: enforced-doctrine
     institutionTypes:
       - government
       - academy
-      - university
       - education
     institutions:
       - Institute of Language and Thought of the Academy of Sciences of the USSR
       - Academy of Sciences of the USSR
     institutionalContext: >-
-      The Institute of Language and Thought was the principal institutional centre of Marrism. The doctrine's authority
-      extended beyond that institute through Academy structures, universities, journals, publishing and education,
-      creating a distributed institutional network rather than a single body that could accurately be called “Soviet
-      linguistic institutes.” The current evidence does not independently establish the Section of Materialist Linguistics
-      of the Communist Academy as a carrier of this exact proposition, so it is not listed as one here.
+      The Institute of Language and Thought, renamed from the Japhetic Institute in 1931, was the principal institutional
+      centre of Marrism within the Academy of Sciences. Its departments included research, education and propaganda, and
+      it published Proceedings in 1932–1949. The Academy's 21 July 1949 resolution criticized comparative and proto-language
+      research and named linguists accused of bourgeois influence. The doctrine's authority operated through Academy
+      research, teaching and publication structures. Soviet approaches to language and society were more diverse than
+      Marrism alone.
     consequences:
       - Competing comparative-historical linguistic schools were suppressed or marginalized
-      - Research and teaching were reorganized around Marrist categories
+      - Academy research directives and recommended teaching texts promoted Marrism
       - Scholars who departed substantially from Marrist foundations could be institutionally marginalized or suppressed
     summary: >-
       From about 1930, Nikolai Marr's “New Theory of Language” became the officially recognized framework dominating
       Soviet linguistics. Traditional comparative and Indo-European linguistics were attacked as bourgeois, and substantial
-      deviations from Marrist foundations were severely suppressed. In 1950 Stalin abruptly repudiated Marrism, after
-      which the Institute of Language and Thought was dissolved and the doctrine was dismantled just as administratively
-      as it had been elevated.
+      deviations from Marrist foundations were severely suppressed. On 20 June 1950 Stalin publicly repudiated Marrism.
+      The Academy subsequently removed the institute's leadership and merged it with the Institute of the Russian Language
+      into the Institute of Linguistics. The doctrine's official standing was reversed through political and administrative
+      intervention.
     mechanism:
       kind: suppression
       summary: >-
-        Academy structures elevated Marrism as the officially recognized framework while marginalizing competing
-        comparative-historical linguistics through research, teaching and publication controls.
+        Academy resolutions gave Marrist positions institutional authority over research while marginalizing competing
+        comparative-historical work. Research leadership, appointments and recommended teaching texts helped sustain the
+        doctrine; the Academy's own 1950 reversal described suppression of criticism and removal of critics from posts.
     institutionalCorrection:
       status: corrected
-      periodLabel: '1950'
-      action: Stalin publicly repudiated Marrism, after which the Academy structure dismantled the doctrine and dissolved the Institute of Language and Thought into a reorganized linguistics institute.
+      periodLabel: June–October 1950
+      action: >-
+        After Stalin's public repudiation on 20 June, the Academy Presidium removed the institute's leaders and requested
+        a merger on 1 July. The government authorized the reorganization on 3 July; on 6 October the Presidium confirmed
+        that the Institute of Linguistics had been formed from the merged institutes.
       summary: >-
-        The same Soviet institutional system that had elevated Marrism reversed course in 1950: the doctrine lost official
-        authority and its principal institutional centre was dissolved in the ensuing reorganization.
+        The same Academy that had attacked comparative and proto-language research in 1949 removed Marrist leaders and
+        reorganized its linguistics institutes in 1950. This ended Marrism's privileged institutional position through a
+        change of official doctrine.
 sources:
   - id: marr-school-notes
     title: Some Notes on the Marr School
@@ -61,50 +69,185 @@ sources:
   - id: marr-politics-language
     title: Politics and the Theory of Language in the USSR 1917–1938
     url: https://www.cambridge.org/core/books/politics-and-the-theory-of-language-in-the-ussr-19171938/19FE73FCCDCA006737B8BEBD5A52AB85/listing
-    publisher: Cambridge University Press
+    publisher: Anthem Press
   - id: marr-institute-history
     title: Institute of Language and Thought of the Academy of Sciences of the USSR
     url: https://www.encspb.ru/object/2804011211?lc=en
     publisher: Saint Petersburg Encyclopaedia
+  - id: marr-yakubovich-analysis
+    title: MARR, NIKOLAĭ YAKOVLEVICH
+    url: https://www.iranicaonline.org/articles/marr-nikolai-yakovlevich-1/
+    publisher: Encyclopaedia Iranica
+  - id: marr-language-change
+    title: Is English Changing?
+    url: https://files.eric.ed.gov/fulltext/ED426607.pdf
+    publisher: Linguistic Society of America
+  - id: marr-comparative-linguistics
+    title: Essentials of Linguistics, 2nd edition
+    url: https://files.znu.edu.ua/files/Bibliobooks/Inshi85/0064870.pdf
+    publisher: eCampusOntario
+  - id: marr-stalin-1950
+    title: Marxism and Problems of Linguistics
+    url: https://www.marxists.org/reference/archive/stalin/works/1950/jun/20.htm
+    publisher: Pravda / Marxists Internet Archive
+  - id: marr-academy-chronicle
+    title: 'Летопись Российской академии наук. Том VII: 1946–1953'
+    url: https://www.arran.ru/sites/default/files/books/2022/1582/book-1582.pdf
+    publisher: Archive of the Russian Academy of Sciences
 evidence:
   - id: marr-school-proposition
     sourceId: marr-school-notes
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: 'Public extract, opening paragraph; October 1957 article'
     note: >-
       Contemporary scholarly review stating that Soviet linguistics was dominated from about 1930 to 1950 by officially
-      recognized Marrist theory and that substantial deviations were severely suppressed.
-  - id: marr-school-correction
-    sourceId: marr-school-notes
+      recognized Marrist theory and that substantial deviations were severely suppressed. The public extract establishes
+      official acceptance; the content of the class-stage theory is detailed in Yakubovich's analysis.
+  - id: marr-analysis-proposition
+    sourceId: marr-yakubovich-analysis
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: 'Paragraphs beginning “Since the existence” and “The official name”, and the following paragraphs on stages'
+    note: >-
+      Yakubovich describes Marr's replacement of genealogical families with stages of a single linguistic process and his
+      inconsistent linking of those stages to socioeconomic formations. He also explains the presentation of the doctrine
+      as the Marxist alternative to supposedly bourgeois comparative linguistics.
+  - id: marr-language-change-correction
+    sourceId: marr-language-change
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: '“Is the English language changing?” and “Why does language change?”, PDF p. 3'
     note: >-
-      Documents the 1950 abandonment of the officially recognized Marrist framework and the return of non-Marrist
-      comparative-historical linguistics.
+      The LSA explanation describes change through speakers' changing needs, social interaction, innovation, borrowing,
+      and changes in word order and pronunciation. It supports the account of language change and social use without
+      equating those processes with a universal sequence of class-defined stages.
+  - id: marr-comparative-correction
+    sourceId: marr-comparative-linguistics
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: '§14.8, “Reconstructing the past”, printed pp. 825–826: “Direct evidence”, “Comparing cognates”, and borrowing cautions'
+    note: >-
+      Explains historical evidence and reconstruction of common ancestors from related languages, with cautions about
+      distinguishing inherited cognates from borrowings. This supports genealogical relationships among related languages,
+      rather than assuming that relationships between separate language families have all been demonstrated.
+  - id: marr-analysis-correction
+    sourceId: marr-yakubovich-analysis
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: 'Paragraph beginning “Marr did not attempt”, with the preceding account of his stage model'
+    note: >-
+      Explains that Marr neither refuted the comparative method nor formally justified a replacement. This supports
+      rejection of his stage scheme as an established account of language history. The entry's 20 July date for Stalin's
+      intervention conflicts with the primary text's 20 June 1950 date; the latter is used for the institutional chronology.
+  - id: marr-school-correction
+    sourceId: marr-school-notes
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: institutional-correction}
+    locator: 'Public extract, opening paragraph; October 1957 article'
+    note: >-
+      Contemporary scholarly review stating that Soviet linguistics was dominated from about 1930 to 1950 by officially
+      recognized Marrist theory and that substantial deviations were severely suppressed. Its final sentence records
+      Stalin's 1950 repudiation and the disbanding of Marr's followers. This is evidence of the official reversal.
   - id: marr-institute-carrier
     sourceId: marr-institute-history
     relation: documents
     target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: carrier}
-  - id: marr-politics-mechanism
+    locator: 'Main entry, paragraphs 1–2'
+    note: >-
+      Institutional history of the institute founded by Marr, renamed the Institute of Language and Thought in 1931, led
+      by Marr and then Ivan Meshchaninov, and merged into the new Institute of Linguistics after the 1950 repudiation of
+      Marrism. The entry establishes the institutional succession and merger; the repudiation is documented separately.
+  - id: marr-academy-carrier
+    sourceId: marr-academy-chronicle
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: carrier}
+    locator: '21 July 1949 entry, pp. 291–292; ARAN, fond 2, opis 6 (1949), delo 74, fols. 126–167'
+    note: >-
+      Reproduces the Presidium's criticism of attempts to rehabilitate comparative methods and proto-language research,
+      names linguists accused of bourgeois influence, and records instructions to change the Academy's linguistic work.
+      This establishes Academy action in support of the doctrine, beyond merely naming the institute's parent body.
+  - id: marr-politics-context
     sourceId: marr-politics-language
-    relation: supports
-    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: mechanism}
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: context}
+    locator: 'Public chapter extracts: chapter 6, Fedorova, Introduction, paragraphs 1–2; chapter 3, Lähteenmäki, opening paragraphs'
     note: >-
       Historical study of the political and institutional rise of Marr's supposedly Marxian linguistics against
-      traditional comparative linguistics.
+      traditional comparative linguistics. The inspected public extracts also distinguish Marrism from other Soviet
+      approaches to language and society. They provide political and intellectual context; detailed institutional controls
+      are documented by the Academy resolutions.
+  - id: marr-academy-mechanism
+    sourceId: marr-academy-chronicle
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: mechanism}
+    locator: '21 July 1949 entry, pp. 291–292; 1 July 1950 entry, p. 374'
+    note: >-
+      The 1949 resolution directed criticism of comparative and proto-language research. In July 1950 the Presidium
+      described appointments conditioned by adherence to Marr's school and removal of critics from posts. These records
+      document the use of administrative authority to constrain linguistic work, including the Academy's account during
+      its own reversal.
   - id: marr-school-consequences
     sourceId: marr-school-notes
-    relation: supports
+    relation: documents
     target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: consequences}
+    locator: 'Public extract, opening paragraph, sentences 1–2'
+    note: >-
+      The extract documents suppression of substantial departures from Marrist foundations, supporting the first and
+      third consequences at that general level. The more specific research and teaching provisions are evidenced by the
+      Academy resolutions and the contemporary repudiation text.
+  - id: marr-academy-consequences
+    sourceId: marr-academy-chronicle
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: consequences}
+    locator: '21 July 1949 entry, pp. 291–292; 1 July 1950 entry, p. 374'
+    note: >-
+      The 1949 resolution named linguists for ideological criticism and called for changes in the Academy's research.
+      The 1950 resolution described recommended Marrist teaching texts and removal of critics. These passages support
+      the documented research and teaching promotion in the second consequence, as well as institutional pressure on
+      competing work and scholars.
+  - id: marr-stalin-teaching-consequences
+    sourceId: marr-stalin-1950
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: consequences}
+    locator: '20 June 1950 article, fourth question (“Did Pravda act rightly”), paragraph beginning “To give one example”'
+    note: >-
+      In the political repudiation, Stalin described the republication of Marr's Baku Course and its listing as a
+      recommended student textbook. This is a contemporary account of the teaching promotion in the second consequence,
+      attributed to the intervention that ended the doctrine's official standing.
   - id: marr-institute-context
     sourceId: marr-institute-history
     relation: contextualizes
     target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: context}
+    locator: 'Main entry, paragraphs 1–3'
+    note: >-
+      Dates the institute's origins to 1921 and its name change to 1931, describes its research, education and propaganda
+      departments, and records its Proceedings in 1932–1949. The episode's approximate 1930 start concerns Marrist
+      dominance, not the first use of the later institute name.
   - id: marr-institute-correction
     sourceId: marr-institute-history
     relation: documents
     target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: institutional-correction}
+    locator: 'Main entry, paragraph 2, final sentence'
     note: >-
-      Institutional history of the institute founded by Marr, renamed the Institute of Language and Thought in 1931, led
-      by Marr and then Ivan Meshchaninov, and merged into the new Institute of Linguistics after the 1950 repudiation of
-      Marrism.
+      Records the 1950 union of the Institute of Language and Thought with the Institute of the Russian Language into
+      the Academy's Institute of Linguistics. This supports the institutional merger; the dated leadership and government
+      decisions are documented in the Academy archive chronology.
+  - id: marr-stalin-correction
+    sourceId: marr-stalin-1950
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: institutional-correction}
+    locator: '20 June 1950 article, fourth question (“Did Pravda act rightly”), final paragraphs and publication date'
+    note: >-
+      Stalin explicitly called for rejection of Marr's theories and criticized his dismissal of comparative-historical
+      work. The text documents the public political repudiation on 20 June 1950; it is not used as the scientific basis
+      of the present linguistic correction.
+  - id: marr-academy-correction
+    sourceId: marr-academy-chronicle
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: institutional-correction}
+    locator: '1 July 1950 entry, p. 374; 6 October 1950 entry, p. 384, citing the 3 July government order'
+    note: >-
+      Records the Presidium's removal of Meshchaninov and Serdyuchenko from institute leadership, its merger request,
+      and its October confirmation of the reorganization under the July government order. These are concrete actions by
+      the institutional system that had upheld Marrism and support withdrawal of its privileged official position.

@@ -9,15 +9,19 @@ correction:
     Homeopathy has not shown robust, reproducible therapeutic effects beyond placebo for any known disease. Its central
     claims, including effects from extreme dilutions that may contain none of the starting substance, are not compatible
     with established chemistry and pharmacology. Clinical attention and placebo effects can still influence how patients
-    feel, but they do not establish a specific effect of the homeopathic preparation.
+    feel, but they do not establish a specific effect of the homeopathic preparation. An Australian evidence evaluation
+    completed in 2024 found low-certainty evidence of possible benefits over placebo for reducing medication use in
+    allergic rhinitis and disease severity in atopic dermatitis. Many other outcomes showed little to no benefit or
+    remained uncertain or unknown.
 category: Medicine and public health
-reviewedAt: '2026-08-24'
+reviewedAt: '2026-09-07'
 episodes:
   - id: united-kingdom-1948-2017
     polity: United Kingdom
     region: Europe
     startYear: 1948
     endYear: 2017
+    periodLabel: 1948–2017 (through prescribing guidance in England)
     strength: policy-basis
     institutionTypes:
       - government
@@ -31,9 +35,10 @@ episodes:
       - Glasgow Homoeopathic Hospital
     institutionalContext: >-
       Homeopathy was embedded in the NHS through a mixture of specialist hospitals, general-practice prescribing and local
-      commissioning rather than through a single national homeopathy agency. The named hospitals provided specialist NHS
-      services, while local Primary Care Trusts and later commissioning bodies determined much of the referral and funding
-      machinery. NHS England supplied the national 2017 reversal in prescribing guidance.
+      commissioning rather than through a single national homeopathy agency. The 2010 Commons report identified
+      homeopathic hospital services in London, Bristol, Liverpool and Glasgow. In England, local Primary Care Trusts and
+      later commissioning bodies determined much of the referral and funding machinery. NHS England issued prescribing
+      guidance in 2017 for England's primary care.
     consequences:
       - Public funding of homeopathic treatment
       - NHS prescribing and referrals
@@ -41,9 +46,10 @@ episodes:
     summary: >-
       Homeopathy was funded and provided within the NHS from its creation in 1948, including through specialist homeopathic
       hospitals and primary-care prescribing. A 2010 House of Commons evidence review concluded that the evidence did not
-      support efficacy beyond placebo and recommended that the NHS stop funding homeopathy. NHS England adopted national
-      guidance in 2017 stating that homeopathy should no longer be routinely prescribed because there was no clear or
-      robust evidence of clinical effectiveness.
+      support efficacy beyond placebo and recommended that the NHS stop funding homeopathy. NHS England adopted guidance
+      in 2017 advising against initiating homeopathic items in primary care and supporting deprescribing for existing
+      patients because there was no clear or robust evidence of clinical effectiveness. This prescribing response applied
+      to England.
     mechanism:
       kind: administrative-adoption
       summary: >-
@@ -52,11 +58,11 @@ episodes:
     institutionalCorrection:
       status: partial
       periodLabel: '2017'
-      action: NHS England recommended that homeopathy no longer be routinely initiated or prescribed and that existing prescribing be deprescribed where appropriate.
+      action: NHS England advised commissioners that primary-care prescribers should not initiate homeopathic items for new patients and should be supported in deprescribing them for all existing patients, with supporting services where appropriate.
       summary: >-
-        NHS England explicitly reduced institutional support because robust clinical-effectiveness evidence was lacking,
-        but the current evidence record supports a prescribing and funding retreat rather than a categorical claim that
-        every NHS-linked homeopathic service or use ceased immediately.
+        NHS England reduced institutional support through primary-care prescribing guidance because robust
+        clinical-effectiveness evidence was lacking. The 2017 endpoint marks that policy response in England; the sources
+        do not establish a simultaneous end to all NHS-linked hospital services or homeopathic use across the United Kingdom.
   - id: france-1984-2021
     polity: France
     region: Europe
@@ -72,22 +78,24 @@ episodes:
     institutionalContext: >-
       The 1984 reimbursement list was issued by the Ministère des Affaires sociales et de la Solidarité nationale and
       operated through compulsory health insurance, prescribing physicians and pharmacies. These distributed professional
-      channels formed the reimbursement machinery rather than a single national prescribing and pharmacy system. In 2019
-      the Haute Autorité de Santé performed the scientific reassessment that led to withdrawal of reimbursement.
+      channels formed the reimbursement machinery rather than a single national prescribing and pharmacy system. The
+      arrangement covered listed homeopathic medicines supplied on prescription; branded homeopathic products were not
+      reimbursed under it. In 2019 the Haute Autorité de Santé performed the scientific reassessment that led to withdrawal
+      of reimbursement.
     consequences:
-      - Public reimbursement of homeopathic medicines
+      - Public reimbursement of listed homeopathic medicines
       - Routine prescribing within insured health care
-      - Institutional medical legitimacy without prior efficacy assessment
+      - Public coverage before a scientific assessment for reimbursement
     summary: >-
-      Homeopathic medicines were reimbursable through France's compulsory health-insurance system under a framework dating
-      from 1984. In 2019, the Haute Autorité de Santé carried out France's first scientific assessment specifically for
+      Listed homeopathic medicines were reimbursable through France's compulsory health-insurance system under a framework
+      dating from 1984. In 2019, the Haute Autorité de Santé carried out France's first scientific assessment specifically for
       reimbursement and found that efficacy had not been demonstrated sufficiently to justify public coverage.
       Reimbursement was reduced in 2020 and ended on 1 January 2021.
     mechanism:
       kind: administrative-adoption
       summary: >-
-        A ministerial reimbursement list and compulsory health insurance made homeopathic medicines publicly reimbursable
-        through ordinary prescribing and pharmacy channels.
+        A ministerial reimbursement list and compulsory health insurance made listed homeopathic medicines publicly
+        reimbursable through ordinary prescribing and pharmacy channels.
     institutionalCorrection:
       status: corrected
       periodLabel: 2019–1 January 2021
@@ -111,30 +119,32 @@ episodes:
       - Sistema Único de Saúde (SUS)
     institutionalContext: >-
       PNPIC is a federal Ministry of Health policy implemented through Brazil's decentralized SUS. State and municipal
-      health secretariats and services provide much of the actual care. These bodies vary by jurisdiction and together form
-      decentralized implementation machinery rather than a single institution.
+      health secretariats and services carry local implementation responsibilities. These bodies vary by jurisdiction and
+      together form decentralized implementation machinery rather than a single institution. Homeopathic care already
+      existed in some public services before 2006; this episode concerns its inclusion in the national PNPIC framework.
+      EASAC's assessment of therapeutic efficacy is an external scientific assessment, separate from Brazilian policy decisions.
     consequences:
-      - Public provision of homeopathic care
-      - Incorporation into primary and specialist care
-      - Public provision of homeopathic medicines
-      - Training and dissemination within the health system
+      - National policy provision for public homeopathic care
+      - Policy support for incorporation into primary and specialist care
+      - Policy provision for expanding public access to prescribed homeopathic medicines
+      - Policy support for training and dissemination within the health system
     summary: >-
-      Brazil's 2006 National Policy on Integrative and Complementary Practices formally incorporated homeopathy into the
-      public SUS system and directed governments to expand homeopathic consultations, medicines, professional training, and
-      services. The policy described homeopathy as contributing to prevention and recovery and to reduced demand for
-      conventional interventions. Homeopathy remains listed within the national PNPIC framework as of 2026.
+      Brazil's 2006 National Policy on Integrative and Complementary Practices formally included homeopathy in its
+      framework for the public SUS system and called on health authorities to expand homeopathic consultations, medicines,
+      professional training, and services. The policy described homeopathy as contributing to prevention and recovery and
+      to reduced demand for hospital and emergency interventions. These were the policy's therapeutic claims.
+      Homeopathy remains listed within the national PNPIC framework as of 2026.
     mechanism:
       kind: administrative-adoption
       summary: >-
-        Federal health policy incorporated homeopathy into SUS and directed decentralized public-health institutions to
-        expand consultations, medicines, training and service provision.
+        Federal health policy incorporated homeopathy into PNPIC/SUS and set out provisions for decentralized public-health
+        institutions to expand consultations, medicines, training and service provision.
     institutionalCorrection:
-      status: ongoing
-      periodLabel: 2006–present
-      action: No institutional correction is documented in the current evidence record; current Ministry of Health materials continue to list homeopathy within the PNPIC framework.
+      status: undocumented
       summary: >-
-        The same federal policy framework continues to include homeopathy in the public health system, so the institutional
-        endorsement remains current despite external evidence reviews rejecting specific efficacy beyond placebo.
+        The reviewed sources do not document a corrective withdrawal or efficacy-based restriction by the Ministry of
+        Health or SUS. Official policy materials continue to include homeopathy. External scientific assessments do not
+        establish a corrective response by these institutional carriers.
   - id: austria-1994-2026
     polity: Austria
     region: Europe
@@ -154,32 +164,37 @@ episodes:
       remedies tested on healthy people, potentiation and the similarity principle; it states that graduates may treat
       acute and chronic illnesses according to homeopathic rules. The Austrian Academy of Physicians administers the
       diploma on behalf of the Medical Chamber. This is professional credentialing rather than national insurance coverage:
-      Austrian social-insurance authorities have separately stated that homeopathy is not a scientifically established
-      healing method and that homeopathic medicines generally lack the evidence required for reimbursement.
+      in an April 2017 statement, the Hauptverband der österreichischen Sozialversicherungsträger reported that the Supreme
+      Health Council had not recognized homeopathy as scientifically established and that homeopathic medicines generally
+      lacked sufficient evidence for reimbursement. The external scientific assessments by EASAC and the Australian
+      evidence reviewers concern therapeutic efficacy, separately from the Chamber's credentialing decisions.
     consequences:
       - Formal physician credential in homeopathic diagnosis and treatment
-      - Three-year, 350-unit postgraduate training pathway recognized by the Austrian Medical Chamber
-      - Professional legitimacy for treating acute and chronic disease according to homeopathic principles
-      - Hundreds of currently credentialed physicians despite lack of robust evidence for specific therapeutic efficacy
+      - Training pathway of at least three years and 350 units recognized by the Austrian Medical Chamber
+      - A curriculum presenting homeopathy as a way to treat acute and chronic disease
+      - 675 homeopathy diploma holders recorded at 31 December 2024
     summary: >-
       Austria's Medical Chamber has formally credentialed physicians in homeopathy since 1994. Its current ÖÄK diploma
       curriculum defines homeopathy as a medical therapy, teaches potentiation and the similarity principle, and says
-      qualified physicians can use the method to treat acute and chronic illnesses. The credential remains active: the
-      Chamber's 2025 training report counted 675 diploma holders at the end of 2024. This endorsement coexists with an
-      explicitly different Austrian health-policy judgment: social-insurance authorities have stated that homeopathy is
-      not scientifically established and that homeopathic medicines generally do not meet the evidentiary threshold for reimbursement.
+      qualified physicians can use the method to treat acute and chronic illnesses. Following a review, the Chamber's board
+      decided in April 2018 to retain its existing complementary-medicine diplomas as qualifications for structured training.
+      The credential remains active: the Chamber's 2025 training report counted 675 diploma holders at the end of 2024.
+      This endorsement coexists with a separate Austrian health-policy judgment: the social-insurance umbrella body's
+      April 2017 statement reported that homeopathy was not scientifically established and that homeopathic medicines
+      generally did not meet the evidentiary threshold for reimbursement.
     mechanism:
       kind: credentialing
       summary: >-
         The Medical Chamber and Academy of Physicians maintain a formal postgraduate diploma that trains and credentials
         physicians to diagnose and treat acute and chronic illnesses according to homeopathic principles.
     institutionalCorrection:
-      status: ongoing
-      periodLabel: 1994–present
-      action: No correction by the credentialing carriers is documented; the ÖÄK homeopathy diploma and curriculum remain active.
+      status: uncorrected
+      periodLabel: April 2018 review decision
+      action: Following a review, the Austrian Medical Chamber's board retained the existing complementary-medicine diplomas as qualifications for structured continuing education.
       summary: >-
-        The Austrian Medical Chamber continues to recognize homeopathic treatment through a formal physician diploma even
-        though other Austrian health institutions have separately rejected homeopathy as scientifically established for reimbursement.
+        The Chamber's reported April 2018 decision maintained the diplomas, including homeopathy. Its homeopathy diploma
+        and therapeutic curriculum remain active in the materials reviewed in 2026. The social-insurance body's separate
+        criticism does not constitute a withdrawal of the credential by the Chamber or Academy.
 sources:
   - id: homeopathy-uk-evidence
     title: 'Evidence Check 2: Homeopathy'
@@ -249,153 +264,359 @@ sources:
     title: 'Homeopathy: harmful or helpful? European scientists recommend an evidence-based approach'
     url: https://easac.eu/media-room/press-releases/details/homeopathy-harmful-or-helpful-european-scientists-recommend-an-evidence-based-approach
     publisher: European Academies Science Advisory Council
+  - id: homeopathy-br-policy
+    title: Política Nacional de Práticas Integrativas e Complementares no SUS — PNPIC (2006)
+    url: https://bibliotecadigital.gestao.gov.br/bitstream/123456789/958/3/PNPIC.pdf
+    publisher: Brazilian Ministry of Health — Secretaria de Atenção à Saúde, Departamento de Atenção Básica
+  - id: homeopathy-br-current-policy
+    title: Práticas Integrativas e Complementares em Saúde
+    url: https://www.ba.gov.br/saude/atencao-a-saude/saude-de-todos-nos/praticas-integrativas-complementares
+    publisher: Secretaria da Saúde do Estado da Bahia
+  - id: homeopathy-nhmrc-2024
+    title: Homeopathy for preventing and treating health conditions — Evidence evaluation report
+    url: https://www.health.gov.au/sites/default/files/2025-03/natural-therapies-review-2024-homeopathy-evidence-evaluation.pdf
+    publisher: National Health and Medical Research Council / HTANALYSTS
 evidence:
   - id: homeopathy-easac-correction
     sourceId: homeopathy-easac-report
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: 'Summary, p. 1; §§3.1–3.2, pp. 6–7'
     note: >-
-      Concludes that there is no robust, reproducible evidence that homeopathy is effective beyond placebo for any known
-      disease and that its scientific claims are inconsistent with established chemistry and physics.
+      Concludes that there is no robust, reproducible evidence that homeopathy is effective beyond placebo for
+      any known disease and that its scientific claims are inconsistent with established chemistry and physics.
   - id: homeopathy-easac-press-correction
     sourceId: homeopathy-easac-press
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: '20 September 2017; opening paragraphs before ''EASAC recommends that'''
     note: >-
-      Summarizes EASAC's evidence review: no known disease has robust, reproducible evidence of homeopathic efficacy beyond
-      placebo, and the central scientific claims are inconsistent with established chemistry and physics.
+      Summarizes EASAC's evidence review: no known disease has robust, reproducible evidence of homeopathic
+      efficacy beyond placebo, and the central scientific claims are inconsistent with established chemistry and
+      physics.
+  - id: homeopathy-nhmrc-correction
+    sourceId: homeopathy-nhmrc-2024
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: 'Executive summary, pp. xviii–xx; §6.1, p. 173'
+    note: >-
+      The 2024 evaluation reports low-certainty possible benefits over placebo for medication use in allergic
+      rhinitis and disease severity in atopic dermatitis, with little to no benefit or uncertain or unknown
+      effects for many other outcomes. It distinguishes placebo comparisons from no-intervention comparisons;
+      the latter do not establish efficacy beyond placebo.
   - id: homeopathy-uk-proposition
     sourceId: homeopathy-uk-evidence
-    relation: supports
+    relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: '§2, ''The policy'', paragraphs 11–15'
     note: >-
-      Records that homeopathy had been funded and provided through the NHS since 1948, identifies the homeopathic hospitals
-      and their NHS commissioning arrangements, and explains that funding decisions were made within the NHS.
+      Records that homeopathy had been funded and provided through the NHS since 1948, identifies the
+      homeopathic hospitals and their NHS commissioning arrangements, and explains that funding decisions were
+      made within the NHS.
   - id: homeopathy-uk-carrier
     sourceId: homeopathy-uk-evidence
-    relation: supports
+    relation: documents
     target: {scope: episode, episodeId: united-kingdom-1948-2017, aspect: carrier}
+    locator: '§2, ''The policy'', paragraphs 11–14'
+    note: >-
+      Records that homeopathy had been funded and provided through the NHS since 1948, identifies the
+      homeopathic hospitals and their NHS commissioning arrangements, and explains that funding decisions were
+      made within the NHS.
   - id: homeopathy-uk-mechanism
     sourceId: homeopathy-uk-evidence
-    relation: supports
+    relation: documents
     target: {scope: episode, episodeId: united-kingdom-1948-2017, aspect: mechanism}
-  - id: homeopathy-uk-consequences
-    sourceId: homeopathy-uk-conclusions
-    relation: supports
-    target: {scope: episode, episodeId: united-kingdom-1948-2017, aspect: consequences}
+    locator: '§2, ''The policy'', paragraphs 11–15'
     note: >-
-      Concludes that there was no credible evidence of efficacy and recommends that homeopathy should not be funded on the NHS.
+      Describes NHS commissioning, spending on homeopathic products and NHS support for specialist hospitals.
+      These arrangements document the funding and service mechanism, without establishing therapeutic efficacy.
+  - id: homeopathy-uk-consequences
+    sourceId: homeopathy-uk-evidence
+    relation: documents
+    target: {scope: episode, episodeId: united-kingdom-1948-2017, aspect: consequences}
+    locator: '§2, ''The policy'', paragraphs 12–15'
+    note: >-
+      Documents funded hospital services, prescribing expenditure and referrals, including the Tunbridge Wells
+      closure after falling referrals and a commissioning review. These passages support all three consequences;
+      they do not establish identical provision throughout the UK or until a common closing date.
+  - id: homeopathy-uk-review-context
+    sourceId: homeopathy-uk-conclusions
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-kingdom-1948-2017, aspect: context}
+    locator: '§4, ''Conclusions'', paragraphs 154–157'
+    note: >-
+      Concludes that there was no credible evidence of efficacy and recommends that homeopathy should not be
+      funded on the NHS. This is the committee's assessment and recommendation, not evidence that its proposed
+      withdrawal had already occurred.
   - id: homeopathy-uk-institutional-correction
     sourceId: homeopathy-uk-nhs-2017
     relation: documents
     target: {scope: episode, episodeId: united-kingdom-1948-2017, aspect: institutional-correction}
+    locator: 'Appendix, ''Homeopathy (2017)''; ''Policy recommendations'' (guidance updated in 2023/2025)'
     note: >-
-      Records the 2017 recommendation not to initiate homeopathy and to deprescribe it because no clear or robust evidence
-      supported its use on the NHS.
+      Records the 2017 recommendation not to initiate homeopathy and to deprescribe it because no clear or
+      robust evidence supported its use on the NHS. The updated guidance retains the entry labelled 2017 and
+      directs primary-care prescribing in England; it does not document closure of every UK homeopathic hospital
+      service.
   - id: homeopathy-fr-proposition
     sourceId: homeopathy-fr-has-assessment
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: '§1.3.3, p. 9; Annex 2, p. 87, 1984 order, articles 1–2'
     note: >-
-      Official HAS assessment reproduces the 12 September 1984 reimbursement order in its annex; that order names the
-      Ministère des Affaires sociales et de la Solidarité nationale and established the reimbursable homeopathic list later withdrawn.
+      Official HAS assessment reproduces the 12 September 1984 reimbursement order in its annex; that order
+      names the Ministère des Affaires sociales et de la Solidarité nationale and established the reimbursable
+      homeopathic list later withdrawn.
   - id: homeopathy-fr-carrier
     sourceId: homeopathy-fr-has-assessment
     relation: documents
     target: {scope: episode, episodeId: france-1984-2021, aspect: carrier}
+    locator: '§1.3.3, p. 9; Annex 2, p. 87, 1984 order, articles 1–2'
+    note: >-
+      Official HAS assessment reproduces the 12 September 1984 reimbursement order in its annex; that order
+      names the Ministère des Affaires sociales et de la Solidarité nationale and established the reimbursable
+      homeopathic list later withdrawn.
   - id: homeopathy-fr-mechanism
     sourceId: homeopathy-fr-has-assessment
     relation: documents
     target: {scope: episode, episodeId: france-1984-2021, aspect: mechanism}
+    locator: '§§1.3.3–1.4.1, pp. 9–10'
+    note: >-
+      Explains reimbursement for listed homeopathic medicines dispensed on prescription and distinguishes them
+      from unreimbursed branded products. This establishes the insurance and pharmacy pathway, not universal
+      coverage of all homeopathic products.
   - id: homeopathy-fr-consequences
     sourceId: homeopathy-fr-has-page
-    relation: supports
+    relation: documents
     target: {scope: episode, episodeId: france-1984-2021, aspect: consequences}
+    locator: '''Première évaluation scientifique en vue du remboursement en France'' and preceding paragraph'
     note: >-
-      States that homeopathic medicines had not previously undergone a scientific assessment for reimbursement and that
-      the 2019 review found insufficient evidence of efficacy.
+      States that homeopathic medicines had not previously undergone a scientific assessment for reimbursement
+      and that the 2019 review found insufficient evidence of efficacy. This supports the
+      coverage-before-assessment consequence, not a claim that no scientific research had previously examined
+      homeopathy.
+  - id: homeopathy-fr-prescribing-consequences
+    sourceId: homeopathy-fr-has-assessment
+    relation: documents
+    target: {scope: episode, episodeId: france-1984-2021, aspect: consequences}
+    locator: '§§1.3.3–1.4.2, pp. 9–11'
+    note: >-
+      Describes prescription-based reimbursement and reports pharmacy dispensing and insurance claims data.
+      These document actual prescribing and reimbursement, supporting the first two consequences.
   - id: homeopathy-fr-order-correction
     sourceId: homeopathy-fr-order
     relation: documents
     target: {scope: episode, episodeId: france-1984-2021, aspect: institutional-correction}
+    locator: 'Articles 1–2; JORF of 8 October 2019, text 7, NOR SSAS1925246A'
     note: >-
       Ends reimbursement from 1 January 2021 and repeals the 12 September 1984 reimbursement order.
   - id: homeopathy-fr-ministry-correction
     sourceId: homeopathy-fr-ministry
-    relation: supports
+    relation: documents
     target: {scope: episode, episodeId: france-1984-2021, aspect: institutional-correction}
+    locator: '''Quel remboursement pour les médicaments homéopathiques ?'''
     note: >-
-      Explains the 2020 transitional reduction in reimbursement and the end of compulsory-insurance reimbursement on 1 January 2021.
+      Explains the 2020 transitional reduction in reimbursement and the end of compulsory-insurance
+      reimbursement on 1 January 2021.
   - id: homeopathy-br-proposition
     sourceId: homeopathy-br-portaria
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: 'Library record: issue date, abstract and linked policy documents'
     note: >-
-      Stable government-library record and downloadable text of Portaria 971, which approved PNPIC and explicitly included
-      homeopathy among the practices to be implemented in SUS.
-  - id: homeopathy-br-carrier
-    sourceId: homeopathy-br-pnpic
-    relation: supports
-    target: {scope: episode, episodeId: brazil-2006-2026, aspect: carrier}
-    note: >-
-      Ministry publication states that Portaria 971 incorporated homeopathy into PNPIC/SUS, describes expansion of access
-      to integrative services, and identifies homeopathy as one of the policy's therapeutic systems.
-  - id: homeopathy-br-mechanism
+      Government-library record for Portaria 971, which approved PNPIC and explicitly included homeopathy among
+      the practices to be implemented in SUS. The record links the order and the full PNPIC policy; the latter
+      was inspected and is registered separately for its detailed provisions.
+  - id: homeopathy-br-adoption-carrier
     sourceId: homeopathy-br-portaria
     relation: documents
-    target: {scope: episode, episodeId: brazil-2006-2026, aspect: mechanism}
-  - id: homeopathy-br-consequences
-    sourceId: homeopathy-br-pnpic
-    relation: supports
-    target: {scope: episode, episodeId: brazil-2006-2026, aspect: consequences}
-  - id: homeopathy-br-ongoing
-    sourceId: homeopathy-br-legislation
-    relation: documents
-    target: {scope: episode, episodeId: brazil-2006-2026, aspect: institutional-correction}
+    target: {scope: episode, episodeId: brazil-2006-2026, aspect: carrier}
+    locator: 'Library record: author, issue date and abstract'
     note: >-
-      Current Ministry legislation index for the PNPIC framework and its subsequent consolidations and expansions.
+      Government-library record for Portaria 971, which approved PNPIC and explicitly included homeopathy among
+      the practices to be implemented in SUS. The record links the order and the full PNPIC policy; the latter
+      was inspected and is registered separately for its detailed provisions.
+  - id: homeopathy-br-carrier
+    sourceId: homeopathy-br-pnpic
+    relation: documents
+    target: {scope: episode, episodeId: brazil-2006-2026, aspect: carrier}
+    locator: '2018 leaflet, p. 2: PNPIC introduction and ''Homeopatia'''
+    note: >-
+      Ministry publication states that Portaria 971 incorporated homeopathy into PNPIC/SUS, describes expansion
+      of access to integrative services, and identifies homeopathy as one of the policy's therapeutic systems.
+  - id: homeopathy-br-mechanism
+    sourceId: homeopathy-br-policy
+    relation: documents
+    target: {scope: episode, episodeId: brazil-2006-2026, aspect: mechanism}
+    locator: '§4.2, H1–H4/H6, pp. 35–43; §5, pp. 57–59'
+    note: >-
+      Sets out service, funding, medicine-access, training and communication provisions and allocates federal,
+      state and municipal responsibilities. These establish the administrative mechanism specified by the
+      policy.
+  - id: homeopathy-br-consequences
+    sourceId: homeopathy-br-policy
+    relation: documents
+    target: {scope: episode, episodeId: brazil-2006-2026, aspect: consequences}
+    locator: '§4.2, H1, pp. 35–36'
+    note: >-
+      Provides for homeopathic care in primary and specialist services, supporting the first two policy
+      consequences. The provision does not measure how fully those services were delivered.
+  - id: homeopathy-br-medicines-consequences
+    sourceId: homeopathy-br-policy
+    relation: documents
+    target: {scope: episode, episodeId: brazil-2006-2026, aspect: consequences}
+    locator: '§4.2, H3, pp. 38–39'
+    note: >-
+      Provides for expanded public production and access to prescribed homeopathic medicines, supporting the
+      third consequence as a policy provision.
+  - id: homeopathy-br-training-consequences
+    sourceId: homeopathy-br-policy
+    relation: documents
+    target: {scope: episode, episodeId: brazil-2006-2026, aspect: consequences}
+    locator: '§4.2, H4, pp. 39–41, and H6, pp. 42–43'
+    note: >-
+      Specifies support for professional education and dissemination of homeopathic information, supporting the
+      fourth consequence as a policy provision.
+  - id: homeopathy-br-policy-context
+    sourceId: homeopathy-br-legislation
+    relation: contextualizes
+    target: {scope: episode, episodeId: brazil-2006-2026, aspect: context}
+    locator: 'Entry ''Portaria de Consolidação nº 2, de 28 de setembro de 2017, anexo XXV''; index reviewed in September 2026'
+    note: >-
+      Current Ministry legislation index for the PNPIC framework and its subsequent consolidations and
+      expansions. The index supplies legislative context; it does not itself establish an efficacy-based
+      correction or the extent of delivered homeopathic care.
+  - id: homeopathy-br-implementation-context
+    sourceId: homeopathy-br-policy
+    relation: contextualizes
+    target: {scope: episode, episodeId: brazil-2006-2026, aspect: context}
+    locator: '§1.2, pp. 16–18; §5.1–5.3, pp. 57–59'
+    note: >-
+      Records local public homeopathic services before PNPIC, unequal medicine access, and the policy's division
+      of implementation responsibilities. Its claims of reduced hospital and emergency interventions are policy
+      assertions, not demonstrated effects.
+  - id: homeopathy-br-current-policy-context
+    sourceId: homeopathy-br-current-policy
+    relation: documents
+    target: {scope: episode, episodeId: brazil-2006-2026, aspect: context}
+    locator: '''Política Nacional de Práticas Integrativas e Complementares em Saúde'', opening three paragraphs; updated 30 October 2025, reviewed September 2026'
+    note: >-
+      Bahia's Health Secretariat describes PNPIC as in force nationally and includes homeopathy among its
+      current practices. This supports continued inclusion in the policy framework alongside the Ministry's
+      legislation index, without establishing uniform delivery across Brazil.
+  - id: homeopathy-br-easac-context
+    sourceId: homeopathy-easac-report
+    relation: contextualizes
+    target: {scope: episode, episodeId: brazil-2006-2026, aspect: context}
+    locator: 'Summary, p. 1; §§3.1–3.2, pp. 6–7'
+    note: >-
+      Concludes that there is no robust, reproducible evidence that homeopathy is effective beyond placebo for
+      any known disease and that its scientific claims are inconsistent with established chemistry and physics.
+      This is an external scientific assessment, not a Brazilian policy withdrawal.
   - id: homeopathy-at-proposition
     sourceId: homeopathy-at-curriculum
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: '§1, ''Ziel'', p. 1'
     note: >-
       Official curriculum defines homeopathy as a medical therapy involving remedies tested on healthy people,
-      potentiation and the similarity principle, and states that diploma holders may treat acute and chronic illnesses
-      according to the rules of homeopathic healing.
+      potentiation and the similarity principle, and states that diploma holders may treat acute and chronic
+      illnesses according to the rules of homeopathic healing.
   - id: homeopathy-at-carrier
     sourceId: homeopathy-at-diploma
     relation: documents
     target: {scope: episode, episodeId: austria-1994-2026, aspect: carrier}
+    locator: '''Grundlagen'', ''Ziel'', ''Weiterbildungsdauer'' and ''Verleihung des ÖÄK-Diploms'''
     note: >-
-      Current official diploma page. It states that the diploma is based on the Medical Chamber's physician-training
-      regulation, defines the objective as learning indications and conducting homeopathic therapy, and requires at least
-      three years and 350 teaching units.
+      Current official diploma page. It states that the diploma is based on the Medical Chamber's
+      physician-training regulation, defines the objective as learning indications and conducting homeopathic
+      therapy, and requires at least three years and 350 teaching units.
   - id: homeopathy-at-mechanism
     sourceId: homeopathy-at-curriculum
     relation: documents
     target: {scope: episode, episodeId: austria-1994-2026, aspect: mechanism}
+    locator: '§1, p. 1; §§3–4, pp. 2–3'
+    note: >-
+      Official curriculum defines homeopathy as a medical therapy involving remedies tested on healthy people,
+      potentiation and the similarity principle, and states that diploma holders may treat acute and chronic
+      illnesses according to the rules of homeopathic healing. The training contents include diagnostic
+      assessment, remedy selection and treatment monitoring.
   - id: homeopathy-at-consequences
     sourceId: homeopathy-at-report
-    relation: supports
+    relation: documents
     target: {scope: episode, episodeId: austria-1994-2026, aspect: consequences}
+    locator: 'Printed p. 36 (PDF p. 39), diploma holders by federal state, row ''Diplom Homöopathie'', reference date 31 December 2024'
     note: >-
-      Official training report counts 675 holders of the ÖÄK homeopathy diploma as of 31 December 2024, including 148 in Vienna.
+      Official training report counts 675 holders of the ÖÄK homeopathy diploma as of 31 December 2024,
+      including 148 in Vienna. This supports the dated count, not a 2026 headcount or therapeutic efficacy.
+  - id: homeopathy-at-curriculum-consequences
+    sourceId: homeopathy-at-curriculum
+    relation: documents
+    target: {scope: episode, episodeId: austria-1994-2026, aspect: consequences}
+    locator: '§1, p. 1; §§3–4, p. 2'
+    note: >-
+      The diploma curriculum specifies diagnosis and treatment training, a minimum of three years with 350
+      units, and its stated aim of treating acute and chronic illnesses. These provisions support the first
+      three credentialing consequences.
+  - id: homeopathy-at-training-consequences
+    sourceId: homeopathy-at-diploma
+    relation: documents
+    target: {scope: episode, episodeId: austria-1994-2026, aspect: consequences}
+    locator: '''Weiterbildungsdauer''; ''Grundlagen'', specialty restrictions'
+    note: >-
+      Confirms the minimum three-year, 350-unit training pathway. The page also states that the diploma does not
+      remove or extend a physician's statutory specialty restrictions.
   - id: homeopathy-at-history-context
     sourceId: homeopathy-at-history
     relation: contextualizes
     target: {scope: episode, episodeId: austria-1994-2026, aspect: context}
+    locator: 'Arzt im Ländle 09/2018, p. 14, opening diploma chronology'
     note: >-
-      Regional Austrian Medical Chamber publication listing the chronology of ÖÄK complementary-medicine special diplomas
-      and dating the homeopathy diploma to 1994.
+      Regional Austrian Medical Chamber publication listing the chronology of ÖÄK complementary-medicine special
+      diplomas and dating the homeopathy diploma to 1994.
+  - id: homeopathy-at-history-carrier
+    sourceId: homeopathy-at-history
+    relation: documents
+    target: {scope: episode, episodeId: austria-1994-2026, aspect: carrier}
+    locator: 'Arzt im Ländle 09/2018, p. 14, opening diploma chronology'
+    note: >-
+      Dates the ÖÄK homeopathy diploma to 1994, documenting the start of the credentialing episode rather than
+      the beginning of homeopathic practice in Austria.
   - id: homeopathy-at-parliament-context
     sourceId: homeopathy-at-parliament
     relation: contextualizes
     target: {scope: episode, episodeId: austria-1994-2026, aspect: context}
+    locator: 'Hauptverband statement of 11 April 2017, pp. 1 and 10–11; ''Rechtliche Grundlagen zur Kostentragung'''
     note: >-
-      Official parliamentary attachment states that homeopathy is a physician service in Austria and that the Medical
-      Chamber awards homeopathy diplomas, while also stating that the Supreme Health Council did not recognize homeopathy
-      as a scientifically established healing method and that homeopathic medicines generally lacked sufficient evidence for reimbursement.
-  - id: homeopathy-at-ongoing
-    sourceId: homeopathy-at-diploma
+      Official parliamentary attachment states that homeopathy is a physician service in Austria and that the
+      Medical Chamber awards homeopathy diplomas, while also stating that the Supreme Health Council did not
+      recognize homeopathy as a scientifically established healing method and that homeopathic medicines
+      generally lacked sufficient evidence for reimbursement. This is the social-insurance body's 2017 position,
+      not a withdrawal by the credentialing carriers.
+  - id: homeopathy-at-retention-response
+    sourceId: homeopathy-at-history
     relation: documents
     target: {scope: episode, episodeId: austria-1994-2026, aspect: institutional-correction}
+    locator: 'Arzt im Ländle 09/2018, p. 14, review working group and ''Beschlüsse des ÖÄK Vorstandes im April 2018'', first bullet'
+    note: >-
+      Reports a review of complementary-medicine diplomas followed by the April 2018 board decision to retain
+      the existing diplomas as qualifications for structured training. The article includes homeopathy in that
+      diploma group. This documents retention after review and supports uncorrected status.
+  - id: homeopathy-at-easac-context
+    sourceId: homeopathy-easac-press
+    relation: contextualizes
+    target: {scope: episode, episodeId: austria-1994-2026, aspect: context}
+    locator: '20 September 2017; opening paragraphs before ''EASAC recommends that'''
+    note: >-
+      Summarizes EASAC's evidence review: no known disease has robust, reproducible evidence of homeopathic
+      efficacy beyond placebo, and the central scientific claims are inconsistent with established chemistry and
+      physics. This scientific assessment is separate from the Austrian credentialing carriers' decisions.
+  - id: homeopathy-at-nhmrc-context
+    sourceId: homeopathy-nhmrc-2024
+    relation: contextualizes
+    target: {scope: episode, episodeId: austria-1994-2026, aspect: context}
+    locator: 'Executive summary, pp. xviii–xx; §6.1, p. 173'
+    note: >-
+      Provides a newer external scientific assessment, including low-certainty possible benefits for specific
+      outcomes and substantial uncertainty elsewhere. It evaluates clinical effectiveness for Australian
+      health-policy purposes and does not document a change to Austrian physician credentials.

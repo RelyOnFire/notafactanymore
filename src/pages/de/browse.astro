@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CompactClaim from '../../components/CompactClaim.astro';
 import FactCard from '../../components/FactCard.astro';
+import YoungerReadersNote from '../../components/YoungerReadersNote.astro';
 import {
   categoryLabel,
   statusLabel,
@@ -62,6 +63,8 @@ const statuses = [...new Set(items.map(({ entry }) => entry.data.status))]
       ändere die Sortierung und wechsle zwischen ausführlichen Karten und einer kompakten Liste.
     </p>
   </header>
+
+  <YoungerReadersNote locale="de" />
 
   <section class="filter-region" aria-label="Katalogsteuerung">
     <div class="container filter-inner">

@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import ExplorerStoryPage from '../../../../components/ExplorerStory.astro';
+import { explorerPath, getReviewedExplorerStories } from '../../../../lib/young-explorers';
+export async function getStaticPaths() {
+  return (await getReviewedExplorerStories()).map(({ story, entry }) => ({ params: { slug: story.id }, props: { story, entry } }));
+}
+const { story, entry } = Astro.props;
+---
+<BaseLayout locale="de" title={story.de.title} description={story.de.summary} audience="explorers" type="article" alternatePath={explorerPath(story.id, 'en')}>
+  <ExplorerStoryPage story={story} entry={entry} locale="de" />
+</BaseLayout>

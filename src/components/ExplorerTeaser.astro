@@ -1,0 +1,20 @@
+---
+import { localizedPath, type SiteLocale } from '../lib/i18n';
+const { locale = 'en' } = Astro.props as { locale?: SiteLocale };
+const de = locale === 'de';
+---
+<aside class="explorer-teaser container" aria-label={de ? 'Für junge Leserinnen und Leser' : 'For younger readers'}>
+  <span class="teaser-mark" aria-hidden="true">↗</span>
+  <div>
+    <p class="eyebrow">{de ? 'Für Kinder' : 'For kids'}</p>
+    <p><strong>{de ? 'Junge Entdecker' : 'Young Explorers'}</strong> — {de ? 'Ausgewählte Geschichten, einfache Zeichnungen und große Fragen. Für etwa 9–12 Jahre.' : 'Selected stories, simple diagrams and big questions. Written for roughly ages 9–12.'}</p>
+  </div>
+  <a href={localizedPath('/kids/', locale)}>{de ? 'Geschichten entdecken' : 'Explore the stories'} <span aria-hidden="true">→</span></a>
+</aside>
+<style>
+  .explorer-teaser { display: flex; align-items: center; gap: 1.25rem; padding: 1.25rem 1.5rem; margin-bottom: 2rem; background: #e5ece5; border: 1px solid #a6b9a9; border-radius: 12px; }
+  .teaser-mark { font-size: 2rem; color: #315f53; }
+  p { margin: 0; } .eyebrow { color: #315f53; margin-bottom: .3rem; }
+  a { flex-shrink: 0; font-weight: 750; text-underline-offset: .25rem; padding: .5rem 0; }
+  @media (max-width: 760px) { .explorer-teaser { flex-wrap: wrap; gap: .5rem; } .teaser-mark { display: none; } }
+</style>

@@ -202,3 +202,5 @@ if (errors.length) fail(errors);
 console.log(
   `Build output parity OK: ${enSlugs.length} English entry pages, ${deSlugs.length} German entry pages, ${institutionalSlugs.length} English Institutional pages, and ${institutionalDeSlugs.length} German Institutional pages.`
 );
+
+await import('./check-young-explorers.mjs');

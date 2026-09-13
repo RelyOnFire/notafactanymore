@@ -1,0 +1,113 @@
+---
+import type { ExplorerStory } from '../lib/young-explorers';
+import type { SiteLocale } from '../lib/i18n';
+interface Props { story: ExplorerStory; locale: SiteLocale; decorative?: boolean; }
+const { story, locale, decorative = false } = Astro.props;
+const de = locale === 'de';
+const kind = story.visual;
+---
+<svg class={`explorer-visual visual-${kind}`} viewBox="0 0 600 320" role={decorative ? undefined : 'img'} aria-hidden={decorative ? 'true' : undefined} aria-label={decorative ? undefined : story[locale].caption} xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="320" fill="#e5ece5" />
+  <g fill="none" stroke="#214b43" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    {kind === 'branches' && <>
+      <rect x="38" y="25" width="524" height="269" rx="18" fill="#f8f8ec" stroke="#9caf9f" stroke-dasharray="7 9" />
+      <path d="M105 226H210V110H352M210 182H354M210 226H354" />
+      <path d="M368 116Q409 38 462 73Q436 111 368 116ZM378 107L445 76" fill="#d6b96f" />
+      <circle cx="365" cy="182" r="7" fill="#214b43" /><circle cx="365" cy="226" r="7" fill="#214b43" />
+    </>}
+    {kind === 'crystal' && <>
+      <ellipse cx="153" cy="256" rx="104" ry="13" fill="#cfdfdf" stroke="none" />
+      <ellipse cx="444" cy="256" rx="91" ry="13" fill="#cfdfdf" stroke="none" />
+      <path d="M80 114L171 88L224 122V218L133 243L80 204Z" fill="#d0e9ef" />
+      <path d="M80 114L133 149L224 122M133 149V243" />
+      <path d="M387 221V109L442 54L493 108V221L442 248Z" fill="#fffdf7" />
+      <path d="M387 109L442 133L493 108M442 54V133V248" stroke="#79a8a9" />
+    </>}
+    {kind === 'stone' && <>
+      <path d="M49 125L90 75L238 98L218 245L59 226Z" fill="#cec8ae" />
+      <circle cx="109" cy="138" r="9" fill="#d8482f" /><circle cx="176" cy="166" r="11" fill="#e5b656" /><circle cx="118" cy="203" r="7" fill="#7598b2" />
+      <path d="M251 179H286M275 168L286 179L275 190" />
+      <rect x="315" y="64" width="239" height="68" rx="12" fill="#f3efdf" stroke="#a8ada0" />
+      <rect x="315" y="176" width="239" height="90" rx="12" fill="#fffdf7" />
+      <path d="M434 144V161M426 153L434 161L442 153" />
+    </>}
+    {kind === 'paint' && <>
+      <path d="M69 177L436 145L525 184V266L166 286L69 257Z" fill="#c5b99c" />
+      <path d="M69 177L436 145L525 184L166 217Z" fill="#263e38" />
+      <path d="M166 217V286M223 172L281 93H386" />
+      <path d="M231 252H273M341 227H371M98 236L112 240" stroke="#a09277" />
+    </>}
+    {kind === 'prism' && <>
+      <path d="M265 62L355 249H175Z" fill="#f4f7ed" />
+      <path d="M45 151H220" stroke="#214b43" stroke-width="12" />
+      <path d="M45 151H220" stroke="#fffdf7" stroke-width="7" />
+      {['#bd3431','#ca692c','#d6a529','#538146','#367b90','#546994','#805d92'].map((color, i) => <path d={`M305 ${144 + i * 3}L548 ${112 + i * 24}`} stroke={color} stroke-width="6" />)}
+    </>}
+    {kind === 'rings' && <>
+      {[{x:80,r:30,c:'#cca77f'},{x:230,r:43,c:'#d9be7f'},{x:380,r:30,c:'#9fc5c4'},{x:530,r:29,c:'#809db9'}].map(({x,r,c}) => <>
+        <circle cx={x} cy="147" r={r} fill={c} />
+        <ellipse cx={x} cy="147" rx={r + 22} ry="13" transform={`rotate(-22 ${x} 147)`} stroke="#6f837a" />
+      </>)}
+    </>}
+    {kind === 'plates' && <>
+      <rect x="0" y="0" width="600" height="145" fill="#d3e7e8" stroke="none" />
+      <path d="M0 172H222L300 141L378 172H600V272H0Z" fill="#d4c5a4" stroke="none" />
+      {[0,1,2,3].map(i => <>
+        <rect x={66 + i * 45} y="175" width="20" height="78" fill="#96ab98" stroke="none" />
+        <rect x={514 - i * 45} y="175" width="20" height="78" fill="#96ab98" stroke="none" />
+      </>)}
+      <path d="M260 289L300 154L340 289" fill="#d98755" stroke="#d98755" />
+      <path d="M238 116H145L158 103M145 116L158 129M362 116H455L442 103M455 116L442 129" />
+    </>}
+    {kind === 'barnacle' && <>
+      <ellipse cx="151" cy="153" rx="34" ry="49" fill="#d9be7f" />
+      <path d="M128 138L81 101M174 138L221 101M128 167L82 191M174 167L221 191M151 203V231" />
+      <path d="M269 165H311M300 154L311 165L300 176" />
+      <path d="M341 246L382 154L444 132L491 173L523 246Z" fill="#fffdf7" />
+      <path d="M341 246H533M382 154L404 246M444 132L452 246M491 173L471 246" />
+      <path d="M405 157Q396 88 357 78M418 151Q423 82 395 61M431 150Q451 92 437 67M443 151Q485 103 482 74" />
+    </>}
+    {kind === 'coral' && <>
+      <path d="M245 141Q250 208 227 256H373Q350 208 355 141Z" fill="#d8aa91" />
+      <ellipse cx="300" cy="146" rx="55" ry="20" fill="#fff1d8" />
+      <ellipse cx="300" cy="146" rx="11" ry="5" fill="#214b43" />
+      {[0,1,2,3,4,5,6,7].map(i => <path d={`M${249 + i * 14} 142Q${197 + i * 30} ${84 + (i % 2) * 12} ${150 + i * 43} ${85 - (i % 3) * 20}`} stroke="#a56850" stroke-width="7" />)}
+      <path d="M180 260H420" />
+    </>}
+    {kind === 'fish' && <>
+      <path d="M95 157L53 105L59 218L99 182Q197 254 369 204Q432 184 475 162Q408 117 320 108Q182 76 95 157Z" fill="#88aaa9" />
+      <path d="M176 116L204 57L288 107M191 211L222 264L264 204M334 194L356 249L378 187" fill="#b8c8ae" />
+      <circle cx="416" cy="153" r="5" fill="#214b43" /><path d="M384 134Q365 161 389 181" />
+      {[0,1,2,3,4].map(i => <path d={`M${139 + i * 40} 140Q${158 + i * 40} 158 ${139 + i * 40} 178`} stroke="#618c8a" stroke-width="3" />)}
+    </>}
+    {kind === 'cobra' && <>
+      <rect x="47" y="92" width="129" height="139" rx="24" fill="#d1bd85" />
+      <path d="M199 159H258M246 147L258 159L246 171" />
+      {[{x:301,y:46,c:'#91aaa1'},{x:443,y:46,c:'#c9b680'},{x:301,y:185,c:'#bca491'},{x:443,y:185,c:'#8aa6b6'}].map(({x,y,c}) => <rect x={x} y={y} width="104" height="95" rx="22" fill={c} />)}
+    </>}
+    {kind === 'plant' && <>
+      <path d="M0 242H600V320H0Z" fill="#d9ccab" stroke="none" />
+      <path d="M300 279V108M300 260L269 291M300 260L334 290" />
+      <path d="M298 185Q218 187 220 121Q284 114 298 185ZM302 148Q372 151 382 80Q317 75 302 148Z" fill="#91b298" />
+      <circle cx="490" cy="65" r="28" fill="#dbb65d" stroke="none" />
+      <path d="M443 87L399 116M164 146H200M188 135L200 146L188 157M399 274H348M360 263L348 274L360 285" />
+    </>}
+  </g>
+  <g fill="#214b43" font-family="system-ui, sans-serif" font-size="20" font-weight="650" text-anchor="middle">
+    {kind === 'branches' && <><text x="206" y="62">{de ? 'Dinosaurier' : 'Dinosaurs'}</text><text x="442" y="145">{de ? 'Vögel' : 'Birds'}</text><text x="440" y="211">{de ? 'Weitere Äste' : 'Other branches'}</text></>}
+    {kind === 'crystal' && <><text x="153" y="291">{de ? 'Eis' : 'Ice'} · H₂O</text><text x="444" y="291">{de ? 'Quarz' : 'Quartz'} · SiO₂</text></>}
+    {kind === 'stone' && <><text x="434" y="106">Wales</text><text x="434" y="209">{de ? 'Nordostschottland' : 'Northeast Scotland'}</text><text x="434" y="245">2024</text><text x="147" y="283">{de ? 'Altarstein' : 'Altar Stone'}</text></>}
+    {kind === 'paint' && <><text x="436" y="99">{de ? 'Farbe' : 'Paint'}</text><text x="443" y="241">{de ? 'Gestein' : 'Rock'}</text></>}
+    {kind === 'prism' && <><text x="119" y="119">{de ? 'Weißes Licht' : 'White light'}</text><text x="265" y="289">{de ? 'Prisma' : 'Prism'}</text></>}
+    {kind === 'rings' && <>{['Jupiter','Saturn','Uranus',de ? 'Neptun' : 'Neptune'].map((name,i) => <text x={80 + i * 150} y="236">{name}</text>)}</>}
+    {kind === 'plates' && <text x="300" y="59">{de ? 'Meeresboden' : 'Ocean floor'}</text>}
+    {kind === 'barnacle' && <><text x="151" y="287">{de ? 'Larve' : 'Larva'}</text><text x="434" y="287">{de ? 'Erwachsenes Tier' : 'Adult'}</text></>}
+    {kind === 'coral' && <text x="300" y="295">{de ? 'Ein Polyp' : 'One polyp'}</text>}
+    {kind === 'fish' && <text x="300" y="300">{de ? 'Ein lebender Verwandter' : 'A living relative'}</text>}
+    {kind === 'cobra' && <><text x="111" y="172" font-size="36">1</text><text x="353" y="105">1</text><text x="495" y="105">2</text><text x="353" y="244">3</text><text x="495" y="244">4</text></>}
+    {kind === 'plant' && <><text x="111" y="152">CO₂</text><text x="490" y="124">{de ? 'Licht' : 'Light'}</text><text x="490" y="266">{de ? 'Wasser +' : 'Water +'}</text><text x="490" y="292">{de ? 'Mineralstoffe' : 'minerals'}</text></>}
+  </g>
+</svg>
+<style>
+  .explorer-visual { display: block; width: 100%; height: auto; }
+</style>

@@ -10,7 +10,7 @@ correction:
     intercourse. The supposed forensic signs descend from discredited nineteenth-century theories and have no
     scientifically valid evidentiary value.
 category: Forensic medicine and sexuality
-reviewedAt: '2026-09-07'
+reviewedAt: '2026-09-15'
 episodes:
   - id: egypt-2001-2024
     polity: Egypt
@@ -97,7 +97,7 @@ episodes:
       status: partial
       periodLabel: 2012–2015
       action: >-
-        The Lebanese Order of Physicians prohibited doctors from performing the examinations on 7 August 2012; on
+        The Lebanese Order of Physicians prohibited doctors from performing the examinations in August 2012; on
         11 August the justice minister asked the public prosecutor to order a complete end to them.
       summary: >-
         The medical authority rejected the tests as useless and abusive. The new public prosecutor forwarded the
@@ -381,7 +381,9 @@ evidence:
     note: >-
       Documents Internal Security Forces arrests, prosecutor-ordered examinations, use of results in criminal charges, the
       Lebanese Order of Physicians’ prohibition, and the 2012 public-prosecutor directive that still allowed examinations
-      under purported consent. The medical order appears as a correcting authority, not a carrier.
+      under purported consent. The medical order appears as a correcting authority, not a carrier. This 2012 report dates
+      the medical directive to 8 August; the 2016 Dignity Debased report gives 7 August. Both accounts place the
+      prohibition in August 2012, but they differ on the precise day.
   - id: anal-lebanon-mechanism
     sourceId: anal-lebanon-hrw-2012
     relation: documents
@@ -406,12 +408,12 @@ evidence:
     sourceId: anal-lebanon-hrw-2012
     relation: documents
     target: {scope: episode, episodeId: lebanon-2012-2015, aspect: institutional-correction}
-    locator: August 7 Order of Physicians circular and the Cassation Public Prosecution consent directive
+    locator: Medical directive described in this report as issued on 8 August 2012; Cassation Public Prosecution consent directive
   - id: anal-lebanon-2012-consequences
     sourceId: anal-lebanon-hrw-2012
     relation: documents
     target: {scope: episode, episodeId: lebanon-2012-2015, aspect: consequences}
-    locator: July 28 arrests, examination results used in criminal charges, and the August 7 medical circular’s account of humiliation and torture
+    locator: July 28 arrests, examination results used in criminal charges, and the medical directive described here as issued on 8 August 2012
     note: >-
       Records forced examinations and use of their results in criminal charges; the medical circular describes the
       examinations as humiliating and a form of torture.
@@ -542,7 +544,7 @@ evidence:
     sourceId: anal-uzbekistan-ilga-2026
     relation: documents
     target: {scope: episode, episodeId: uzbekistan-2017-2026, aspect: consequences}
-    locator: 'Uzbekistan chapter, p. 3, Police and Law Enforcement, February case; chapter PDF: https://www.ilga-europe.org/files/uploads/2026/02/Annual-Review-2026-Uzbekistan.pdf'
+    locator: 'Police and Law Enforcement thematic extract, PDF p. 8, Uzbekistan, paragraph beginning “In February”; https://www.ilga-europe.org/files/uploads/2026/02/Annual-Review-2026-Police-and-Law-Enforcement.pdf'
     note: >-
       Covering January–December 2025, reports that two young men detained in Tashkent in February were subjected to
       non-consensual forensic anal examinations despite their objections.

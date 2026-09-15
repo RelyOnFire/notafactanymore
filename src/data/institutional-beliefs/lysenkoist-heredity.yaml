@@ -2,61 +2,70 @@ schemaVersion: 2
 title: Lysenkoist heredity
 proposition:
   summary: >-
-    Environmental treatment can reliably reshape heredity across generations, making Mendelian genetics unnecessary or false.
+    Environmental treatment can reliably reshape heredity across generations, making Mendelian genetics unnecessary
+    or false.
 correction:
   summary: >-
-    The anti-Mendelian doctrine imposed under Lysenko was later abandoned, and Mendelian genetics was restored to research
-    and teaching. The historical record does not support the broad Lysenkoist claim that directed environmental treatment
-    can routinely produce inherited transformation.
+    Heredity is transmitted primarily through genetic information. Environmental effects can influence development
+    and sometimes persist across generations, but they do not support the broad Lysenkoist claim that directed environmental
+    treatment routinely rewrites inherited traits. Modern studies distinguish DNA sequence inheritance from changes
+    in gene regulation: in one Arabidopsis experiment, stress-associated epigenetic effects passed mainly through
+    the maternal line and were extensively reset when the stress was removed.
 category: Genetics
 entryId: acquired-traits-drive-evolution
-reviewedAt: '2026-08-23'
+reviewedAt: '2026-09-13'
 impact:
   summary: >-
     Lysenkoism's best-supported direct consequences were institutional: genetics was suppressed, scientists were dismissed
     or demoted, teaching and research were reorganized around a politically protected doctrine, and agricultural science
-    lost decades of normal scientific correction. In China, Lysenko-influenced agronomic ideas also entered the Great Leap
-    Forward, but the famine that followed was produced by several interacting policies and failures rather than by
-    Lysenkoism alone.
+    lost decades of normal scientific correction. In China, the campaign interrupted genetics teaching and breeding
+    research. The later Great Leap Forward famine belongs to the wider history of state-directed agriculture; its
+    mortality arose from interacting policies and failures and cannot be assigned to Lysenkoism as a single cause.
   highlights:
     - value: '127'
       label: University teachers dismissed in autumn 1948 in one historical accounting
-      note: The same historical review reports that 66 of the 127 were professors; subsequent dismissals, demotions and removals from leadership were much broader.
+      note: >-
+        The same historical review reports that 66 of the 127 were professors; subsequent dismissals, demotions and
+        removals from leadership were much broader.
     - value: Several thousand
-      label: Scientists and teachers described as dismissed, demoted or removed from leadership after the 1948 Soviet campaign
+      label: Scientists and teachers described as dismissed, demoted or removed from leadership after the 1948 Soviet
+        campaign
       note: This is an institutional-repression estimate reported in the historical literature, not a death toll.
     - value: 15–30 million
-      label: Estimated excess deaths in China's 1959–1961 Great Leap Forward famine
-      note: Overall famine mortality, not deaths attributable specifically to Lysenkoism. Production losses, procurement, exports, collectivization and other political-economic mechanisms interacted.
+      label: Range of estimated excess deaths in China's 1959–1961 famine reported by Chen and Zhou (2007)
+      note: >-
+        Overall famine mortality, not deaths attributable specifically to Lysenkoism. Production losses, procurement,
+        exports, collectivization and other political-economic mechanisms interacted.
   context:
     - >-
-      In the Soviet Union, the turning point was the 1948 VASKhNIL session, organized under Lysenko and approved by Stalin.
-      The session did more than endorse a theory: it ended open institutional competition with Mendelian genetics. An
-      August 1948 Ministry of Higher Education order directed universities to revise biological teaching and staffing
+      In the Soviet Union, the turning point was the 1948 VASKhNIL session, organized under Lysenko and approved by
+      Stalin. The session did more than endorse a theory: it ended open institutional competition with Mendelian genetics.
+      An August 1948 Ministry of Higher Education order directed universities to revise biological teaching and staffing
       around Michurinist biology. Geneticists lost posts, departments were reorganized, textbooks and research materials
-      were withdrawn, and the normal mechanisms by which a scientific claim could be challenged were deliberately weakened.
+      were withdrawn, and the normal mechanisms by which a scientific claim could be challenged were deliberately
+      weakened.
     - >-
       An earlier phase overlaps chronologically with the Holodomor. Soviet authorities ordered immediate implementation
-      of Lysenko's vernalization program in 1931 and the treated acreage expanded rapidly, so his agricultural methods were
-      already being promoted when the 1932–1933 Ukrainian famine occurred. But the evidence does not support presenting
-      Lysenkoism as an important established cause of the Holodomor. Historical work instead places collectivization and
-      grain seizure or procurement at the center, while recent quantitative work finds that migration restrictions and
-      anti-Ukrainian bias in Soviet procurement and grain-retention policy contributed to mortality. The famine also
-      strengthened rather than discredited Lysenko: afterward, the People's Commissar for Agriculture instructed Vavilov
-      to assist his work.
+      of Lysenko's vernalization program in 1931 and the treated acreage expanded rapidly, so his agricultural methods
+      were already being promoted when the 1932–1933 Ukrainian famine occurred. But the evidence does not support
+      presenting Lysenkoism as an important established cause of the Holodomor. Historical work instead places collectivization
+      and grain seizure or procurement at the center, while recent quantitative work finds that migration restrictions
+      and anti-Ukrainian bias in Soviet procurement and grain-retention policy contributed to mortality. The famine
+      also strengthened rather than discredited Lysenko: afterward, the People's Commissar for Agriculture instructed
+      Vavilov to assist his work.
     - >-
-      China imported Lysenkoist biology after 1949, and Great Leap Forward agriculture later included ideas associated
-      with that intellectual lineage, most visibly extreme close planting and deep plowing. Those practices could damage
-      yields, but they were only one part of the disaster. Communalization altered incentives and household food access;
-      large numbers of workers were diverted from farming; officials under political pressure reported inflated harvests;
-      procurement targets were then imposed on a shrinking and badly measured crop; grain exports and increasingly rigid
-      procurement reduced what remained for rural consumption; and political repression made reporting failure dangerous.
+      The Great Leap Forward followed the early campaign against genetics. Its agricultural crisis involved several
+      interacting policies and failures. Communalization altered incentives and household food access; large numbers
+      of workers were diverted from farming; officials reported inflated harvests; procurement targets were then imposed
+      on a shrinking and badly measured crop; and grain exports and increasingly rigid procurement reduced what remained
+      for rural consumption. Li and Yang's central-planning study and Kasahara and Li's county-level analysis examine
+      these economic mechanisms. They do not estimate a death toll caused specifically by Lysenkoist heredity.
     - >-
-      That distinction matters for attribution. Economic studies find that falling agricultural production, higher and
-      more inflexible procurement, and grain exports all raised excess mortality, with no single mechanism accounting for
-      the whole famine. The often-cited 15–30 million figure therefore describes the scale of the 1959–1961 famine as a
-      whole. It is useful context for understanding the stakes of failed agricultural doctrine, but it is not a defensible
-      count of people killed specifically by Lysenkoism.
+      That distinction matters for attribution. Economic studies find that falling agricultural production, higher
+      and more inflexible procurement, and grain exports all raised excess mortality, with no single mechanism accounting
+      for the whole famine. The 15–30 million range reported by Chen and Zhou (2007) therefore describes the scale
+      of the 1959–1961 famine as a whole. It is useful context for understanding the stakes of failed agricultural
+      doctrine, but it is not a defensible count of people killed specifically by Lysenkoism.
 episodes:
   - id: ussr-1948-1964
     polity: Soviet Union
@@ -71,12 +80,17 @@ episodes:
     institutions:
       - Lenin All-Union Academy of Agricultural Sciences (VASKhNIL)
       - USSR Ministry of Higher Education
+      - USSR Academy of Sciences
+      - Moscow State University
+      - Leningrad State University
     institutionalContext: >-
-      The 1948 VASKhNIL session and subsequent Ministry of Higher Education order converted Lysenko's position into an
-      administrative scientific orthodoxy: university staffing, curricula, departments, textbooks and research were
-      reorganized around Michurinist biology while Mendelian genetics was suppressed. The broader Soviet scientific and
-      university system implemented the campaign, but the current carrier edges most directly identify VASKhNIL and the
-      Ministry rather than each individual academy or university previously listed.
+      The 1948 VASKhNIL session gave Lysenko's position state-backed authority. Higher education minister Sergei Kaftanov's
+      order of 23 August directed dismissals and the restructuring of teaching and research. The USSR Academy of Sciences
+      then adopted its own measures against genetics. At Moscow and Leningrad State Universities, departments were
+      reorganized and opponents were dismissed or replaced. These were actions of institutional authorities; individual
+      scientists within the same institutions resisted, and some later helped genetics recover. Lysenko's earlier
+      vernalization campaign overlapped with the Holodomor, whose documented procurement and migration policies are
+      discussed separately in the impact section.
     consequences:
       - Geneticists were dismissed, demoted, or removed from scientific leadership
       - Genetics laboratories and departments were closed or reorganized
@@ -84,8 +98,10 @@ episodes:
       - Agricultural and biological research lost normal mechanisms of scientific correction
     summary: >-
       After the 1948 VASKhNIL session, Lysenko's anti-Mendelian biology received state backing while orthodox geneticists
-      were dismissed, laboratories were closed, and genetics teaching and research were restricted. The national
-      prohibition unraveled only after Khrushchev's removal in 1964.
+      were dismissed, laboratories were closed, and genetics teaching and research were restricted. Recovery began
+      in protected settings during the 1950s. Khrushchev's removal in 1964 opened the way to the Academy of Sciences'
+      explicit repudiation of the 1948 decisions in 1965 and new plans for genetics research and teaching. Lysenkoists
+      nevertheless retained posts and influence in agricultural institutions.
     mechanism:
       kind: suppression
       summary: >-
@@ -93,11 +109,15 @@ episodes:
         research controls while suppressing Mendelian genetics and scientists who defended it.
     institutionalCorrection:
       status: corrected
-      periodLabel: 1964 onward
-      action: Soviet scientific institutions restored genetics after Khrushchev's removal and dismantled Lysenko's protected institutional monopoly.
+      periodLabel: 1964–1966
+      action: >-
+        In 1965 the USSR Academy of Sciences rejected the 1948 decisions, declined to reelect Lysenko as director
+        of its Institute of Genetics, and announced new genetics institutions and teaching plans.
       summary: >-
-        The post-Khrushchev scientific system reversed the administrative suppression of genetics and restored the field
-        to research and teaching, ending Lysenkoism's status as a protected national orthodoxy.
+        The Academy officially rehabilitated genetics within its scientific framework. In January–February 1965 it
+        repudiated the imposed doctrine and planned renewed research and curricula; the Institute of General Genetics
+        followed. Implementation was gradual, and the continued influence of Lysenkoists in VASKhNIL and agricultural
+        education prevents treating 1964 as a universal endpoint for every institution or career.
   - id: china-1949-1956
     polity: People's Republic of China
     region: East Asia
@@ -107,29 +127,47 @@ episodes:
     institutionTypes:
       - government
       - academy
-      - university
     institutions:
-      - Chinese scientific and higher-education institutions
+      - Chinese Academy of Sciences, Planning Bureau
+      - >-
+        Science and Health Office of the Planning Bureau, Cultural and Educational Affairs Committee of the Government
+        Administration Council
     consequences:
       - Classical genetics was displaced in research and higher education
       - Scientific careers and curricula were shaped by political orthodoxy
-      - Lysenko-influenced agronomic ideas later entered Great Leap Forward agricultural campaigns
+      - Successful hybrid-breeding research was interrupted when classified as Morganist
     summary: >-
-      In the early People's Republic, Soviet scientific organization was copied and classical genetics was displaced by
-      Lysenkoist biology. Mendelian genetics was officially rehabilitated in 1956, although political pressure on scientists
-      did not disappear.
+      In the early People's Republic, Soviet scientific organization was copied and classical genetics was displaced
+      by Lysenkoist biology. The 1952 campaign reached courses, research and publishing. At the Qingdao genetics meeting
+      of 10–25 August 1956, organized by the Chinese Academy of Sciences and the Ministry of Higher Education, both
+      schools could present their views. Teaching, research and publishing rules subsequently reopened space for classical
+      genetics. This was a substantial retreat from one-sided suppression, with coexistence of schools rather than
+      a blanket repudiation of Lysenkoism.
     mechanism:
       kind: administrative-adoption
       summary: >-
-        Scientific and higher-education institutions copied the Soviet scientific model and displaced classical genetics
-        in research and university teaching in favor of Lysenkoist biology.
+        Government and Academy bureaus promoted a prescribed Michurinist direction through meetings and party-press
+        publication; university courses, research projects and academic publishing then excluded classical genetics.
     institutionalCorrection:
-      status: corrected
-      periodLabel: '1956'
-      action: Mendelian genetics was officially rehabilitated in China in 1956.
+      status: partial
+      periodLabel: August 1956 onward
+      action: >-
+        The Academy and Ministry of Higher Education convened the Qingdao genetics meeting; research, education and
+        publishing authorities subsequently changed the rules that had supported one school and suppressed the other.
       summary: >-
-        Chinese scientific institutions formally reopened space for Mendelian genetics in 1956, reversing the earlier
-        official displacement of classical genetics even though broader political pressures on researchers persisted.
+        The official chronology records removal of political labels from classical geneticists and a gradual return
+        of their courses and research. Both schools were allowed to argue their positions. The response corrected
+        exclusion and restored scientific discussion, but does not establish a general institutional rejection of
+        every Lysenkoist heredity claim.
+    institutionalContext: >-
+      China reorganized science along Soviet lines after 1949. In April–June 1952, the Academy's Planning Bureau and
+      the government's Science and Health Office convened meetings that led to a 29 June People's Daily article requiring
+      biology to follow the Michurinist direction. The Academy's chronology records the subsequent suspension of classical-genetics
+      courses and research, interruption of successful hybrid-breeding work, and pressure on geneticists to publish
+      statements they did not believe. The Ministry of Higher Education later joined the Academy in organizing the
+      1956 Qingdao meeting that reopened discussion. The Great Leap Forward and its famine came later, amid wider
+      changes in state-directed agriculture. The famine involved production losses, labour diversion, procurement
+      and exports; its total mortality cannot be attributed to this genetics campaign.
   - id: poland-1949-1956
     polity: Poland
     region: Eastern Europe
@@ -139,10 +177,12 @@ episodes:
     institutionTypes:
       - government
       - academy
-      - university
       - education
     institutions:
-      - Polish scientific and educational institutions
+      - Koło Przyrodników Marksistów / Zrzeszenie Przyrodników-Marksistów (renamed 1950; merged in 1952)
+      - Polska Akademia Nauk, Division II and Commission of Evolutionism (from 1952)
+      - Polish Ministry of Higher Education
+      - Polskie Towarzystwo Przyrodników im. Kopernika (from 1952)
     consequences:
       - Removal of genetics from teaching
       - Suppression of competing biological research
@@ -151,30 +191,50 @@ episodes:
     summary: >-
       A Warsaw conference in March 1949 proclaimed the Lysenkoist “New Biology” an official paradigm in Polish science.
       Genetics and criticism of the doctrine were actively confronted, genetics courses disappeared from universities,
-      school curricula were rewritten, and scientists who used politically unacceptable concepts could be silenced or
-      publicly stigmatized. The system unraveled with the political thaw of 1956.
+      school curricula were rewritten, and scientists who used politically unacceptable concepts could be silenced
+      or publicly stigmatized. During the Academy's General Assembly of 11–12 June 1956, its imposition of Lysenkoism
+      came under open criticism. Genetics returned to school and university curricula in 1957–1958. The 1956 episode
+      endpoint marks the political and institutional turn, not the completion of every teaching reform.
     mechanism:
       kind: education
       summary: >-
         Scientific and educational institutions made the “New Biology” an official paradigm, rewrote curricula and
         marginalized or suppressed genetics and researchers who used politically unacceptable concepts.
     institutionalCorrection:
-      status: undocumented
+      status: corrected
+      periodLabel: 1956–1958
+      action: >-
+        The Polish Academy's June 1956 General Assembly criticized the imposed doctrine; genetics returned to school
+        and university curricula in 1957–1958.
       summary: >-
-        The current evidence record shows the official system unraveling during the 1956 political thaw and Lysenkoism
-        disappearing from official mass discourse, but it does not identify a dated Polish institutional act explicitly
-        repudiating the doctrine.
+        Genetics regained its place in official teaching, and the imposed doctrine lost its protected position. The
+        Academy's institutional turn in 1956 was followed by curricular restoration in 1957–1958. The sources establish
+        this reversal in education and scientific administration; they do not establish that every earlier advocate
+        recanted or that all the damage was repaired.
+    institutionalContext: >-
+      The Association of Marxist Naturalists promoted the new doctrine as Koło Przyrodników Marksistów and, after
+      its 1950 renaming, as Zrzeszenie Przyrodników-Marksistów. It merged with the Copernican Society of Polish Naturalists
+      in 1952. The Polish Academy of Sciences, established in 1952, gave its biological division a role in promoting
+      Lysenkoism; its Commission of Evolutionism and the Ministry of Higher Education organized a month-long training
+      course at Dziwnów that year. The Copernican Society became a major public advocate. Administrative pressure,
+      publishing controls and teaching requirements restricted competing biology. Much of the botanical community
+      nevertheless resisted or avoided the doctrine, so institutional enforcement should not be read as unanimous
+      scientific acceptance.
 sources:
   - id: lysenko-nature-1948
     title: Genetics in the Soviet Union
     url: https://www.nature.com/articles/162912a0
     publisher: Nature
   - id: lysenko-pushback-review
-    title: 'The pushback against state interference in science: how Lysenkoism tried to suppress Genetics and how it was eventually defeated'
+    title: >-
+      The pushback against state interference in science: how Lysenkoism tried to suppress Genetics and how it was
+      eventually defeated
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8664584/
     publisher: Genetics
   - id: lysenko-1948-history
-    title: 'Lysenkoism Against Genetics: The Meeting of the Lenin All-Union Academy of Agricultural Sciences of August 1948, Its Background, Causes, and Aftermath'
+    title: >-
+      Lysenkoism Against Genetics: The Meeting of the Lenin All-Union Academy of Agricultural Sciences of August 1948,
+      Its Background, Causes, and Aftermath
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6499510/
     publisher: Genetics
   - id: lysenko-holodomor-study
@@ -204,118 +264,560 @@ sources:
   - id: lysenko-poland-history
     title: 'The New Biology as an Example of Newspeak: The Case of Polish Zoology, 1948–1956'
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7110946/
-    publisher: History and Philosophy of the Life Sciences
+    publisher: Journal of the History of Biology
+  - id: lysenko-dna-nhgri
+    title: Deoxyribonucleic Acid (DNA) Fact Sheet
+    url: https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet
+    publisher: National Human Genome Research Institute
+  - id: lysenko-stress-memory
+    title: >-
+      Hyperosmotic stress memory in Arabidopsis is mediated by distinct epigenetically labile sites in the genome
+      and is restricted in the male germline by DNA glycosylase activity
+    url: https://elifesciences.org/articles/13546
+    publisher: eLife
+  - id: lysenko-cas-1952
+    title: 1952 — 召开生物科学工作座谈会 (Meetings on biological science)
+    url: https://www.cas.cn/zj/ys1/bn/200909/t20090928_2529070.shtml
+    publisher: Chinese Academy of Sciences
+  - id: lysenko-cas-1956
+    title: 1956 — 遗传学座谈会在青岛召开 (Qingdao genetics meeting)
+    url: https://www.cas.cn/zj/ys1/bn/200909/t20090928_2529096.shtml
+    publisher: Chinese Academy of Sciences
+  - id: lysenko-poland-botany
+    title: Botany and Lysenkoism in Poland
+    url: https://ruj.uj.edu.pl/entities/publication/835ef8f1-f909-4bdf-89e2-51806f4efb3c
+    publisher: Studies in the History of Biology / Jagiellonian University repository
 evidence:
   - id: lysenko-history-proposition
     sourceId: lysenko-1948-history
     relation: supports
-    target: {scope: belief, aspect: proposition}
+    target:
+      scope: belief
+      aspect: proposition
     note: >-
       Reviews the 1948 institutional takeover and concludes that Lysenkoism caused substantial losses in Soviet agriculture,
-      genetics, evolutionary theory, molecular biology, and intergenerational scientific continuity.
+      genetics, evolutionary theory, molecular biology, and intergenerational scientific continuity. The account also
+      identifies the inherited-trait doctrine, rejection of a hereditary substance and official approval of Lysenko’s
+      address.
+    locator: >-
+      The August 1948 VASKhNIL Session and its Aftermath: discussion of Lysenko’s address and closing statement; paragraphs
+      beginning “In his speech, Lysenko rejected” and “In Lysenko’s closing statement”.
   - id: lysenko-pushback-correction
     sourceId: lysenko-pushback-review
     relation: supports
-    target: {scope: belief, aspect: correction}
+    target:
+      scope: belief
+      aspect: correction
     note: >-
-      Historical review of state support for Lysenkoism, suppression of genetics, and rehabilitation after the Khrushchev era.
+      Historical review of state support for Lysenkoism, suppression of genetics, and rehabilitation after the Khrushchev
+      era. Its account of the doctrine distinguishes denial of DNA/chromosomal heredity from later institutional rehabilitation;
+      modern genetic and epigenetic evidence is cited separately.
+    locator: >-
+      The arrival of Lysenkoism: numbered list of theoretical ideas, especially acquired-trait inheritance and denial
+      of chromosomes and DNA; paragraphs on agricultural claims and suppression.
   - id: lysenko-pushback-impact
     sourceId: lysenko-pushback-review
     relation: supports
-    target: {scope: belief, aspect: impact}
+    target:
+      scope: belief
+      aspect: impact
+    locator: >-
+      Abstract; Revival of a full-fledged biological education; The attempts of nationwide rehabilitation of genetics;
+      Conclusions. These distinguish protected 1950s work from later official rehabilitation.
+    note: >-
+      Documents suppression and the difficult recovery of biological research and teaching, including protected work
+      before 1964.
   - id: lysenko-holodomor-impact
     sourceId: lysenko-holodomor-study
     relation: contextualizes
-    target: {scope: belief, aspect: impact}
+    target:
+      scope: belief
+      aspect: impact
     note: >-
       Quantitative study of the Holodomor finding that migration restrictions and anti-Ukrainian bias in Soviet grain
       procurement and retention policy contributed to high Ukrainian famine mortality; used here to distinguish the
       famine’s documented policy mechanisms from Lysenko’s contemporaneous agricultural program.
+    locator: >-
+      Publisher abstract: mortality differences, anti-Ukrainian bias in grain procurement/retention and restrictions
+      on migration. Full article not inspected.
   - id: lysenko-china-famine-impact
     sourceId: lysenko-china-famine
     relation: contextualizes
-    target: {scope: belief, aspect: impact}
+    target:
+      scope: belief
+      aspect: impact
     note: >-
-      Gives an estimated range of about 15–30 million excess deaths for the Great Chinese Famine and emphasizes that the
-      famine arose from multiple interacting factors.
+      Gives an estimated range of about 15–30 million excess deaths for the Great Chinese Famine and emphasizes that
+      the famine arose from multiple interacting factors.
+    locator: >-
+      Publisher abstract and opening Introduction: estimated 15–30 million excess deaths during 1959–1961 and study
+      of survivors’ later health and economic outcomes. Full article not inspected.
   - id: lysenko-great-leap-impact
     sourceId: lysenko-great-leap-jpe
     relation: contextualizes
-    target: {scope: belief, aspect: impact}
+    target:
+      scope: belief
+      aspect: impact
     note: >-
       Models how optimistic productivity expectations, diversion of agricultural labor, and increased grain procurement
       interacted with falling output to produce a collapse in food consumption.
+    locator: >-
+      Abstract, printed p. 840; Introduction, pp. 841–844; Development Strategy and Rural Institutions and account
+      of the Great Leap policies. Parsed university-hosted PDF text; facsimile rendering failed.
   - id: lysenko-grain-exports-impact
     sourceId: lysenko-grain-exports
     relation: contextualizes
-    target: {scope: belief, aspect: impact}
+    target:
+      scope: belief
+      aspect: impact
     note: >-
       Finds that falling agricultural production, increased procurement, grain exports, and increasingly rigid procurement
       jointly raised excess mortality; no single factor explains the famine as a whole.
+    locator: >-
+      Publisher abstract, Highlights and accessible Introduction: county-level analysis and counterfactual decomposition
+      of production, procurement, grain exports and procurement rigidity. Full article not inspected.
   - id: lysenko-nature-ussr-carrier
     sourceId: lysenko-nature-1948
     relation: documents
-    target: {scope: episode, episodeId: ussr-1948-1964, aspect: carrier}
+    target:
+      scope: episode
+      episodeId: ussr-1948-1964
+      aspect: carrier
     note: >-
-      Contemporary 1948 account describing dismissals, laboratory closures, and removal of orthodox geneticists after the
-      Academy decree.
+      Contemporary 1948 account describing dismissals, laboratory closures, and removal of orthodox geneticists after
+      the Academy decree. The inspected preview identifies the USSR Academy of Sciences and its decree, rather than
+      the separate Ministry order or VASKhNIL session.
+    locator: >-
+      Publisher preview/Extract, opening paragraph: Academy of Sciences Presidium decree published 27 August 1948;
+      dismissals, two laboratory closures and removal from committees and editorial boards. Full article not inspected.
   - id: lysenko-history-ussr-mechanism
     sourceId: lysenko-1948-history
     relation: supports
-    target: {scope: episode, episodeId: ussr-1948-1964, aspect: mechanism}
+    target:
+      scope: episode
+      episodeId: ussr-1948-1964
+      aspect: mechanism
+    locator: >-
+      The August 1948 VASKhNIL Session and its Aftermath: paragraphs on the 9 August intervention, Moscow University,
+      Kaftanov’s 23 August order, and textbook and genetic-material destruction.
+    note: >-
+      Reviews the 1948 institutional takeover and concludes that Lysenkoism caused substantial losses in Soviet agriculture,
+      genetics, evolutionary theory, molecular biology, and intergenerational scientific continuity. The cited passages
+      specify the teaching, staffing and research orders through which the campaign operated.
   - id: lysenko-nature-ussr-consequences
     sourceId: lysenko-nature-1948
     relation: supports
-    target: {scope: episode, episodeId: ussr-1948-1964, aspect: consequences}
+    target:
+      scope: episode
+      episodeId: ussr-1948-1964
+      aspect: consequences
+    locator: >-
+      Publisher preview/Extract, opening paragraph: Academy of Sciences Presidium decree published 27 August 1948;
+      dismissals, two laboratory closures and removal from committees and editorial boards. Full article not inspected.
+    note: >-
+      The contemporary preview supports dismissals, laboratory closures and removal from academic bodies. Ministry
+      and university teaching consequences have separate evidence below.
   - id: lysenko-pushback-ussr-correction
     sourceId: lysenko-pushback-review
     relation: supports
-    target: {scope: episode, episodeId: ussr-1948-1964, aspect: institutional-correction}
+    target:
+      scope: episode
+      episodeId: ussr-1948-1964
+      aspect: institutional-correction
+    locator: >-
+      The Academy of Sciences 1965 General Assembly and the official rehabilitation of genetics in the USSR: January
+      1965 director election, February statements by Keldysh, new institutions and curriculum plans; following limitations
+      on publication.
+    note: >-
+      Historical review of state support for Lysenkoism, suppression of genetics, and rehabilitation after the Khrushchev
+      era. Its archival analysis details the 1965 Academy proceedings and subsequent research and teaching plans,
+      without claiming an immediate end to all Lysenkoist influence.
   - id: lysenko-china-biotech-carrier
     sourceId: lysenko-china-biotech
-    relation: supports
-    target: {scope: episode, episodeId: china-1949-1956, aspect: carrier}
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: china-1949-1956
+      aspect: context
     note: >-
-      Describes China's post-1949 Soviet scientific model and the abandonment of classical genetics in favor of Lysenkoism;
-      the episode therefore uses an institutional aggregate rather than attributing the proposition to individual named
-      bodies not independently identified by this edge.
+      Describes China's post-1949 Soviet scientific model and the abandonment of classical genetics in favor of Lysenkoism.
+      This provides national context; the named 1952 bureaus are documented by the Academy’s chronology.
+    locator: >-
+      China’s Long History of Biotechnology: paragraphs on the post-1949 Soviet organization of basic research, applied
+      research and higher education, and abandonment of classical genetics.
   - id: lysenko-china-biotech-mechanism
     sourceId: lysenko-china-biotech
     relation: supports
-    target: {scope: episode, episodeId: china-1949-1956, aspect: mechanism}
+    target:
+      scope: episode
+      episodeId: china-1949-1956
+      aspect: mechanism
+    locator: >-
+      China’s Long History of Biotechnology: paragraphs on the post-1949 Soviet organization of basic research, applied
+      research and higher education, and abandonment of classical genetics.
+    note: >-
+      Explains the Soviet-model institutional reorganization and displacement of classical genetics; the concrete
+      1952 enforcement process is separately sourced.
   - id: lysenko-china-monograph-consequences
     sourceId: lysenko-china-monograph
-    relation: supports
-    target: {scope: episode, episodeId: china-1949-1956, aspect: consequences}
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: china-1949-1956
+      aspect: context
     note: >-
-      Historical monograph based on archival material and interviews that traces state-sponsored Lysenkoism in China and
-      connects its history to the Great Leap Forward.
+      Schneider’s history covers genetics under party doctrine, the 1956 reopening and subsequent reversals. The accessible
+      contents and description establish this scope; the uninspected chapter text is not used as direct evidence for
+      particular agricultural practices or famine consequences.
+    locator: >-
+      Accessible Google Books contents and description: chapters on suppression (1949–1951), official doctrine (1952–1956),
+      restoration (1956–1961) and subsequent reversals. Relevant chapter text not inspected.
   - id: lysenko-history-china-correction
     sourceId: lysenko-1948-history
     relation: supports
-    target: {scope: episode, episodeId: china-1949-1956, aspect: institutional-correction}
+    target:
+      scope: episode
+      episodeId: china-1949-1956
+      aspect: institutional-correction
     note: >-
-      Reviews the international spread of Lysenkoism and states that genetics was officially rehabilitated in China in 1956.
+      Reviews the international spread of Lysenkoism and states that genetics was officially rehabilitated in China
+      in 1956. The Academy’s more specific chronology shows that rehabilitation meant reopening discussion and work
+      by both schools, which is the basis for the partial classification.
+    locator: >-
+      International Effect of the VASKhNIL Session: China’s 1956 rehabilitation and Poland’s administrative introduction
+      and post-1956 change.
   - id: lysenko-poland-carrier
     sourceId: lysenko-poland-history
-    relation: documents
-    target: {scope: episode, episodeId: poland-1949-1956, aspect: carrier}
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: poland-1949-1956
+      aspect: context
     note: >-
-      Documents the March 1949 proclamation of the New Biology as Poland's official paradigm, curriculum changes,
-      suppression of genetics, and the collapse of the doctrine in 1956; the episode therefore uses a supported
-      institutional aggregate rather than naming individual bodies beyond this edge.
+      Documents the March 1949 proclamation, curriculum changes, suppression and the end of the official campaign.
+      Köhler’s organizational account identifies the individual institutional carriers used here.
+    locator: >-
+      Introduction and discussion of Polish zoology: 30 March 1949 conference, teaching exclusion and return of genetics
+      courses in 1957; passages on pressure, resistance and avoidance of official language.
   - id: lysenko-poland-mechanism
     sourceId: lysenko-poland-history
     relation: supports
-    target: {scope: episode, episodeId: poland-1949-1956, aspect: mechanism}
+    target:
+      scope: episode
+      episodeId: poland-1949-1956
+      aspect: mechanism
+    locator: >-
+      Introduction and discussion of Polish zoology: 30 March 1949 conference, teaching exclusion and return of genetics
+      courses in 1957; passages on pressure, resistance and avoidance of official language.
+    note: >-
+      Documents ideological language and administrative pressure in teaching and publication; it also records resistance
+      and differences between public statements and scientific work.
   - id: lysenko-poland-consequences
     sourceId: lysenko-poland-history
     relation: supports
-    target: {scope: episode, episodeId: poland-1949-1956, aspect: consequences}
+    target:
+      scope: episode
+      episodeId: poland-1949-1956
+      aspect: consequences
+    locator: >-
+      Introduction and discussion of Polish zoology: 30 March 1949 conference, teaching exclusion and return of genetics
+      courses in 1957; passages on pressure, resistance and avoidance of official language.
+    note: >-
+      Supports the teaching and professional-pressure consequences, including removal of genetics courses and their
+      return in 1957; it does not establish unanimous acceptance by Polish biologists.
   - id: lysenko-history-poland-context
     sourceId: lysenko-1948-history
     relation: contextualizes
-    target: {scope: episode, episodeId: poland-1949-1956, aspect: consequences}
+    target:
+      scope: episode
+      episodeId: poland-1949-1956
+      aspect: context
     note: >-
-      Reviews the administrative introduction of Michurinist biology in Poland and its disappearance from official mass
-      discourse after 1956.
+      Reviews the administrative introduction of Michurinist biology in Poland and its disappearance from official
+      mass discourse after 1956.
+    locator: >-
+      International Effect of the VASKhNIL Session: China’s 1956 rehabilitation and Poland’s administrative introduction
+      and post-1956 change.
+  - id: lysenko-holodomor-ussr-context
+    sourceId: lysenko-holodomor-study
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: ussr-1948-1964
+      aspect: context
+    locator: >-
+      Publisher abstract: mortality differences, anti-Ukrainian bias in grain procurement/retention and restrictions
+      on migration. Full article not inspected.
+    note: >-
+      Quantitative study of the Holodomor finding that migration restrictions and anti-Ukrainian bias in Soviet grain
+      procurement and retention policy contributed to high Ukrainian famine mortality; used here to distinguish the
+      famine’s documented policy mechanisms from Lysenko’s contemporaneous agricultural program.
+  - id: lysenko-china-famine-context
+    sourceId: lysenko-china-famine
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: china-1949-1956
+      aspect: context
+    locator: >-
+      Publisher abstract and opening Introduction: estimated 15–30 million excess deaths during 1959–1961 and study
+      of survivors’ later health and economic outcomes. Full article not inspected.
+    note: >-
+      Gives an estimated range of about 15–30 million excess deaths for the Great Chinese Famine and emphasizes that
+      the famine arose from multiple interacting factors.
+  - id: lysenko-great-leap-china-context
+    sourceId: lysenko-great-leap-jpe
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: china-1949-1956
+      aspect: context
+    locator: >-
+      Abstract, printed p. 840; Introduction, pp. 841–844; Development Strategy and Rural Institutions and account
+      of the Great Leap policies. Parsed university-hosted PDF text; facsimile rendering failed.
+    note: >-
+      Models how optimistic productivity expectations, diversion of agricultural labor, and increased grain procurement
+      interacted with falling output to produce a collapse in food consumption.
+  - id: lysenko-grain-exports-china-context
+    sourceId: lysenko-grain-exports
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: china-1949-1956
+      aspect: context
+    locator: >-
+      Publisher abstract, Highlights and accessible Introduction: county-level analysis and counterfactual decomposition
+      of production, procurement, grain exports and procurement rigidity. Full article not inspected.
+    note: >-
+      Finds that falling agricultural production, increased procurement, grain exports, and increasingly rigid procurement
+      jointly raised excess mortality; no single factor explains the famine as a whole.
+  - id: lysenko-dna-correction
+    sourceId: lysenko-dna-nhgri
+    relation: supports
+    target:
+      scope: belief
+      aspect: correction
+    locator: What is DNA?; What does DNA do?; How are DNA sequences used to make proteins?
+    note: Explains DNA as the biological instruction material and how its sequence carries genetic information.
+  - id: lysenko-stress-memory-correction
+    sourceId: lysenko-stress-memory
+    relation: supports
+    target:
+      scope: belief
+      aspect: correction
+    locator: >-
+      Abstract and eLife digest; Introduction: conditional inheritance of stress-associated DNA methylation, maternal
+      bias and resetting without renewed stress. Corrected article version linked.
+    note: >-
+      A specific plant experiment supports the limited environmental-inheritance qualification: stress-associated
+      epigenetic effects were conditionally inherited and reset without stress. It does not validate the Lysenkoist
+      generalization.
+  - id: lysenko-dna-ussr-context
+    sourceId: lysenko-dna-nhgri
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: ussr-1948-1964
+      aspect: context
+    locator: What is DNA?; What does DNA do?; How are DNA sequences used to make proteins?
+    note: >-
+      Scientific background for the heredity claim and its correction; this is not a historical source for Soviet
+      institutional actions.
+  - id: lysenko-stress-ussr-context
+    sourceId: lysenko-stress-memory
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: ussr-1948-1964
+      aspect: context
+    locator: >-
+      Abstract and eLife digest; Introduction: conditional inheritance of stress-associated DNA methylation, maternal
+      bias and resetting without renewed stress. Corrected article version linked.
+    note: >-
+      Modern experimental context for the limited epigenetic qualification in the scientific correction; no support
+      for the historical administrative claims is implied.
+  - id: lysenko-history-ussr-carrier
+    sourceId: lysenko-1948-history
+    relation: supports
+    target:
+      scope: episode
+      episodeId: ussr-1948-1964
+      aspect: carrier
+    locator: >-
+      The August 1948 VASKhNIL Session and its Aftermath: VASKhNIL closing statement; 23 August Ministry order; Moscow
+      and Leningrad reorganizations; extended Academy Presidium meeting of 24–26 August.
+    note: >-
+      Identifies VASKhNIL, the higher-education minister, the Academy and the two universities in the implementation
+      of the 1948 campaign.
+  - id: lysenko-history-ussr-consequences
+    sourceId: lysenko-1948-history
+    relation: supports
+    target:
+      scope: episode
+      episodeId: ussr-1948-1964
+      aspect: consequences
+    locator: >-
+      The August 1948 VASKhNIL Session and its Aftermath: paragraphs on the 9 August intervention, Moscow University,
+      Kaftanov’s 23 August order, and textbook and genetic-material destruction.
+    note: >-
+      Supports all four consequence themes through dismissals, departmental restructuring, withdrawn textbooks and
+      destruction of genetic materials.
+  - id: lysenko-history-numeric-impact
+    sourceId: lysenko-1948-history
+    relation: supports
+    target:
+      scope: belief
+      aspect: impact
+    locator: >-
+      The August 1948 VASKhNIL Session and its Aftermath: paragraph beginning “Academician Vladimir Strunnikov”, citing
+      Strunnikov (2004); subsequent Moscow and Leningrad dismissal paragraphs.
+    note: >-
+      Reports Strunnikov’s historical accounting of 127 teachers, including 66 professors, and several thousand later
+      personnel actions. These are literature estimates, not a new count performed for this catalogue.
+  - id: lysenko-history-early-impact
+    sourceId: lysenko-1948-history
+    relation: contextualizes
+    target:
+      scope: belief
+      aspect: impact
+    locator: >-
+      Background and Secret Preparation of the August 1948 VASKhNIL Session: paragraphs on the 1931 vernalization
+      programme, the 1932–1933 famine and Iakovlev’s instruction to Vavilov.
+    note: >-
+      Supports the chronology of the early vernalization campaign and Vavilov’s required assistance, not attribution
+      of Holodomor mortality to that programme.
+  - id: lysenko-history-residual-context
+    sourceId: lysenko-1948-history
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: ussr-1948-1964
+      aspect: context
+    locator: >-
+      The August 1948 VASKhNIL Session and its Aftermath: paragraphs on Leningrad in 1953–1955, renewed genetics laboratories
+      in 1956–1957, and continuing Michurinist leadership after October 1964.
+    note: >-
+      Records recovery before 1964 and continued Michurinist leadership afterward, qualifying the representative episode
+      endpoint.
+  - id: lysenko-cas-1952-carrier
+    sourceId: lysenko-cas-1952
+    relation: documents
+    target:
+      scope: episode
+      episodeId: china-1949-1956
+      aspect: carrier
+    locator: >-
+      Chronology 1952, section 召开生物科学工作座谈会: April–June meetings, 29 June People’s Daily article and following paragraph
+      on courses, research, journals and forced statements.
+    note: >-
+      Names the Academy Planning Bureau and the government Science and Health Office as the conveners of the 1952
+      meetings.
+  - id: lysenko-cas-1952-mechanism
+    sourceId: lysenko-cas-1952
+    relation: documents
+    target:
+      scope: episode
+      episodeId: china-1949-1956
+      aspect: mechanism
+    locator: >-
+      Chronology 1952, section 召开生物科学工作座谈会: April–June meetings, 29 June People’s Daily article and following paragraph
+      on courses, research, journals and forced statements.
+    note: Connects the meetings and party-press intervention to prescribed scientific direction and exclusion.
+  - id: lysenko-cas-1952-consequences
+    sourceId: lysenko-cas-1952
+    relation: documents
+    target:
+      scope: episode
+      episodeId: china-1949-1956
+      aspect: consequences
+    locator: >-
+      Chronology 1952, section 召开生物科学工作座谈会: April–June meetings, 29 June People’s Daily article and following paragraph
+      on courses, research, journals and forced statements.
+    note: >-
+      Explicitly records interrupted courses, research and hybrid breeding, restricted publications and coerced declarations.
+  - id: lysenko-cas-1952-impact
+    sourceId: lysenko-cas-1952
+    relation: supports
+    target:
+      scope: belief
+      aspect: impact
+    locator: >-
+      Chronology 1952, section 召开生物科学工作座谈会: April–June meetings, 29 June People’s Daily article and following paragraph
+      on courses, research, journals and forced statements.
+    note: Direct support for the Chinese educational and breeding-research losses described in the impact summary.
+  - id: lysenko-cas-1956-correction
+    sourceId: lysenko-cas-1956
+    relation: documents
+    target:
+      scope: episode
+      episodeId: china-1949-1956
+      aspect: institutional-correction
+    locator: >-
+      Chronology 1956, section 遗传学座谈会在青岛召开: 10–25 August meeting, political labels, discussion by both schools and
+      post-meeting research/education/publishing rules.
+    note: >-
+      Records the Academy/Ministry meeting, removal of political labels and subsequent changes in research, teaching
+      and publishing; both schools were permitted to participate.
+  - id: lysenko-kohler-poland-carrier
+    sourceId: lysenko-poland-botany
+    relation: supports
+    target:
+      scope: episode
+      episodeId: poland-1949-1956
+      aspect: carrier
+    locator: >-
+      Botany and Lysenkoism in Poland (2011), article text: paragraphs on the 2 March 1952 organizational merger,
+      24 May Academy Presidium meeting and 7 July–7 August Dziwnów course. Full indexed article accessed through the
+      mirror linked by the author’s university repository.
+    note: >-
+      Identifies the Marxist naturalists’ association and its merger, the Academy biological division and Evolutionism
+      Commission, the higher-education ministry and the Copernican Society.
+  - id: lysenko-kohler-poland-mechanism
+    sourceId: lysenko-poland-botany
+    relation: supports
+    target:
+      scope: episode
+      episodeId: poland-1949-1956
+      aspect: mechanism
+    locator: >-
+      Botany and Lysenkoism in Poland (2011), article text: paragraphs on the 2 March 1952 organizational merger,
+      24 May Academy Presidium meeting and 7 July–7 August Dziwnów course. Full indexed article accessed through the
+      mirror linked by the author’s university repository.
+    note: Documents organizational advocacy and the 1952 Dziwnów course run by the Ministry and Academy commission.
+  - id: lysenko-kohler-poland-consequences
+    sourceId: lysenko-poland-botany
+    relation: supports
+    target:
+      scope: episode
+      episodeId: poland-1949-1956
+      aspect: consequences
+    locator: >-
+      Same article, passages on passive resistance, Polish Botanical Society publications, administrative pressure
+      and teaching restrictions; distinguishes botanical research from official advocacy.
+    note: >-
+      Supports administrative and teaching pressure and attempts to redirect botanical research, while finding limited
+      uptake in much actual research.
+  - id: lysenko-kohler-poland-correction
+    sourceId: lysenko-poland-botany
+    relation: supports
+    target:
+      scope: episode
+      episodeId: poland-1949-1956
+      aspect: institutional-correction
+    locator: >-
+      Same article, paragraphs beginning “On the 9th of May 1955” and “During the 6th Session of the General Assembly”:
+      continued enforcement in 1955; 11–12 June 1956 criticism and 1957–1958 curriculum restoration.
+    note: >-
+      Distinguishes the still pro-Lysenko resolution of May 1955 from the Academy criticism in June 1956 and the subsequent
+      restoration of genetics curricula.
+  - id: lysenko-strzadala-poland-correction
+    sourceId: lysenko-poland-history
+    relation: supports
+    target:
+      scope: episode
+      episodeId: poland-1949-1956
+      aspect: institutional-correction
+    locator: >-
+      Introduction and discussion of Polish zoology: 30 March 1949 conference, teaching exclusion and return of genetics
+      courses in 1957; passages on pressure, resistance and avoidance of official language.
+    note: Independently records the return of genetics courses in 1957 after their removal in 1949.

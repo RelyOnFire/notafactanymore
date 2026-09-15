@@ -1,312 +1,778 @@
 schemaVersion: 2
 locale: de
 entryId: virginity-testing
-sourceReviewedAt: '2026-08-24'
+sourceReviewedAt: '2026-09-13'
 title: „Jungfräulichkeitstests“
 proposition:
   summary: >-
-    Untersuchungen des Hymens oder der Vagina wurden als geeignet behandelt, festzustellen, ob eine Frau oder ein Mädchen bereits vaginalen Geschlechtsverkehr hatte.
+    Untersuchungen des Hymens oder der Vagina wurden als geeignet behandelt, festzustellen, ob eine Frau oder
+    ein Mädchen bereits vaginalen Geschlechtsverkehr hatte.
 correction:
   summary: >-
-    Keine körperliche Untersuchung kann feststellen, ob eine Frau oder ein Mädchen zuvor vaginalen Geschlechtsverkehr hatte.
-    Das Erscheinungsbild des Hymens variiert natürlicherweise und ist kein verlässlicher Nachweis sexueller Aktivität;
-    sogenannte Jungfräulichkeits- oder Zwei-Finger-Tests besitzen keine wissenschaftliche oder klinische Aussagekraft.
+    Keine körperliche Untersuchung kann feststellen, ob eine Frau oder ein Mädchen zuvor vaginalen Geschlechtsverkehr
+    hatte. Das Erscheinungsbild des Hymens variiert natürlicherweise und ist kein verlässlicher Nachweis sexueller
+    Aktivität; sogenannte Jungfräulichkeits- oder Zwei-Finger-Tests besitzen keine wissenschaftliche oder klinische
+    Aussagekraft.
 episodes:
-  - id: turkey-1986-1998
-    polity: Türkei
-    periodLabel: 1986–1998
+- id: turkey-1986-1998
+  polity: Türkei
+  periodLabel: 1986–1998; dokumentierte Praxis und berichtete Einschränkung
+  institutions:
+  - Polizei und Gendarmerie
+  - Staatliche gerichtsmedizinische Dienste und Krankenhäuser
+  - Staatliche Schulen und Wohnheime
+  institutionalContext: >-
+    Human Rights Watch dokumentierte Untersuchungen, die Polizei, Gendarmerie, Schulen, Wohnheime und andere staatliche
+    Einrichtungen anordneten oder ermöglichten. Staatliche Gerichtsmediziner untersuchten Inhaftierte, Frauen
+    unter Prostitutionsverdacht und Schülerinnen, denen Verstöße gegen Schuldisziplin oder öffentliche Moral vorgeworfen
+    wurden. Manche polizeilichen Anordnungen umgingen die im Bericht beschriebene Genehmigung durch Gericht oder
+    Staatsanwaltschaft. Das Anfangsjahr 1986 bezeichnet einen dokumentierten Fall, nicht die erstmalige Anwendung.
+  consequences:
+  - Erzwungene Genitaluntersuchungen
+  - Verwendung vermeintlicher „Jungfräulichkeit“ als polizeiliches Beweismittel
+  - Überwachung und Bestrafung von Frauen und Mädchen
+  - Psychische und körperliche Schäden
+  summary: >-
+    Türkische Polizei, Gendarmerie, Schulen, Wohnheime und andere staatliche Einrichtungen ordneten Untersuchungen
+    an oder ermöglichten sie, mit denen die „Jungfräulichkeit“ von Frauen und Mädchen festgestellt werden sollte.
+    Staatliche Gerichtsmediziner führten sie bei Inhaftierten, bei Prostitutionsverdacht, zur schulischen Disziplinierung
+    und wegen vermeintlicher Verstöße gegen die öffentliche Moral durch. Der US-Länderbericht für 1999 beschreibt
+    eine Regierungsregelung von Ende 1998, die solche Tests untersagte, sofern die Frau sie nicht selbst verlangte.
+    Er berichtet von einem offenbar rückläufigen Einsatz, zugleich aber von Vollzugsproblemen und fehlenden Sanktionen
+    gegen Verstöße. Die Ausnahme auf Verlangen blieb bestehen; eine vollständige Zurückweisung der vermeintlichen
+    diagnostischen Aussagekraft ist damit nicht belegt.
+  mechanism:
     summary: >-
-      Polizei, Gendarmerie, Schulen, Wohnheime und andere staatliche Einrichtungen ordneten Untersuchungen zur Feststellung
-      angeblicher „Jungfräulichkeit“ an. Ende 1998 untersagte eine staatliche Regelung die Tests, sofern die Frau sie nicht selbst verlangte.
-    consequences:
-      - Erzwungene Genitaluntersuchungen
-      - Verwendung vermeintlicher „Jungfräulichkeit“ als polizeiliches Beweismittel
-      - Überwachung und Bestrafung von Frauen und Mädchen
-      - Psychische und körperliche Schäden
-    mechanism:
-      summary: >-
-        Polizei, Schulen, Wohnheime und andere staatliche Stellen ordneten oder ermöglichten Genitaluntersuchungen; staatliche Forensiker stellten daraus amtliche Urteile über „Jungfräulichkeit“ her.
-    institutionalCorrection:
-      periodLabel: Ende 1998
-      action: Eine türkische Regierungsregelung untersagte Jungfräulichkeitstests, sofern die Frau sie nicht selbst verlangte.
-      summary: >-
-        Die Regelung beschränkte den staatlichen Zwang, verwarf nach den derzeitigen Belegen aber nicht die zugrunde liegende Behauptung, dass die Untersuchung Jungfräulichkeit bestimmen könne.
-  - id: iran-2002-2026
-    polity: Iran
-    periodLabel: 2002–heute
-    institutions:
-      - Legal Medicine Organization of Iran (LMOI)
-      - Justiz der Islamischen Republik Iran
-    institutionalContext: >-
-      Die Legal Medicine Organization ist Teil der iranischen Justiz; ihre Zentren erstellen Gutachten auf Anforderung von Gerichten und Richtern. Eine landesweite Abschaffung ist nicht dokumentiert.
+      Staatliche Stellen ordneten Genitaluntersuchungen an oder ermöglichten sie; Gerichtsmediziner lieferten
+      Befunde über angebliche „Jungfräulichkeit“ für polizeiliche, disziplinarische und moralbezogene Entscheidungen.
+      Die dokumentierte Praxis umfasste auch Anordnungen ohne die erforderliche Genehmigung.
+  institutionalCorrection:
+    periodLabel: Ende 1998
+    action: Eine Regierungsregelung untersagte die Tests dem Länderbericht zufolge, sofern die Frau sie nicht
+      selbst verlangte.
     summary: >-
-      Iranische gerichtsmedizinische Zentren führten Hymenuntersuchungen zur Bestimmung angeblicher „Jungfräulichkeit“ für formelle rechtliche Zwecke durch; aktuelle Belege zeigen keine landesweite Abschaffung.
-    consequences:
-      - Gerichtlich angeordnete Hymenuntersuchungen
-      - Gerichtsmedizinische Bescheinigungen und Gutachten in Zivil- und Strafsachen
-      - Entscheidungen zu Ehe, Scheidung, Unterbringung und mutmaßlicher sexueller Aktivität
-      - Psychische und soziale Schäden
-    mechanism:
-      summary: >-
-        Gerichte fordern Untersuchungen des forensischen Systems der Justiz an, das Hymenbefunde erhebt und Gutachten für rechtliche Zwecke erstellt.
-    institutionalCorrection:
-      periodLabel: 2002–heute
-      action: Eine landesweite institutionelle Abschaffung ist nicht dokumentiert; aktuelle Länderbelege berichten weiterhin über mögliche staatlich veranlasste Tests.
-      summary: >-
-        Die derzeitige Beleglage zeigt weiterhin amtliche gerichtsmedizinische Nutzung ohne institutionelle wissenschaftliche oder rechtliche Zurückweisung.
-  - id: india-2005-2013
-    polity: Indien
-    periodLabel: 2005–2013
+      Die berichtete Einschränkung begrenzte zwangsweise Tests, ließ jedoch eine Ausnahme auf Verlangen zu. Der
+      spätere Länderbericht beschreibt Vollzugsdefizite; er belegt weder ein allgemeines Ende der Praxis noch
+      eine wissenschaftliche Zurückweisung der zugrunde liegenden Schlussfolgerung.
+- id: iran-2014-2026
+  polity: Iran
+  periodLabel: Feldforschung 2014; spätere Berichte im April 2026 bewertet
+  institutions:
+  - Legal Medicine Organization of Iran (LMOI)
+  - Justiz der Islamischen Republik Iran
+  institutionalContext: >-
+    Die Legal Medicine Organization ist eine offizielle Einrichtung der iranischen Justiz; ihre gerichtsmedizinischen
+    Zentren erstellen Gutachten auf Anforderung von Gerichten, Richtern und Verwaltungsbehörden. Eine qualitative
+    Studie mit Feldforschung in Teheran im Jahr 2014 befragte Fachkräfte aus gerichtsmedizinischen Zentren und
+    staatlichen gynäkologischen Kliniken. Sie beschrieben Untersuchungen auf Anordnung von Zivil- und Strafgerichten
+    sowie weitere formelle gerichtsmedizinische Anwendungen. Eine im April 2026 veröffentlichte Bewertung des
+    britischen Innenministeriums berichtet, Behörden könnten in bestimmten Situationen solche Tests veranlassen,
+    weist aber darauf hin, dass die Belege keine Aussage über deren Verbreitung erlauben. Dies ist eine spätere
+    Berichterstattung, kein Nachweis einer durchgängigen Praxis von 2014 bis 2026.
+  consequences:
+  - Gerichtlich angeordnete Hymenuntersuchungen
+  - Gerichtsmedizinische Bescheinigungen und Gutachten in Zivil- und Strafsachen
+  - Berichtete Anwendungen bei Ehe, Scheidung, Unterbringung und mutmaßlicher sexueller Aktivität
+  - In Interviews geschilderte psychische und soziale Risiken einschließlich Gewalt und Selbstverletzung
+  summary: >-
+    Iranische gerichtsmedizinische Zentren führten Hymenuntersuchungen durch, mit denen für formelle rechtliche
+    Zwecke eine angebliche „Jungfräulichkeit“ festgestellt werden sollte. In Teheran befragte Fachkräfte beschrieben
+    gerichtlich angeordnete Untersuchungen und Anwendungen bei Ehe, Scheidung, Unterbringung, mutmaßlicher sexueller
+    Gewalt und Jungfräulichkeitsbescheinigungen. Dieselben Befragten äußerten Unsicherheit über die diagnostische
+    Genauigkeit und schilderten Konflikte um Einwilligung und mögliche Folgen einer Bescheinigung für die untersuchte
+    Person. Die Interviews belegen institutionelle Praxis und berichtete Erfahrungen; sie messen keine landesweite
+    Verbreitung. Die britische Länderbewertung vom April 2026 beschreibt mögliche Tests in bestimmten Situationen.
+    Die angeführten Quellen benennen keine landesweite institutionelle Zurückweisung der Praxis.
+  mechanism:
     summary: >-
-      Gerichtsmedizin und öffentliche Krankenhäuser nutzten den Zwei-Finger-Test zur Beurteilung angeblicher sexueller Gewöhnung. Der Supreme Court verwarf die Praxis 2013; nationale Gesundheitsrichtlinien untersagten sie anschließend.
-    consequences:
-      - Invasive Untersuchungen von Vergewaltigungsbetroffenen
-      - Beurteilung der Sexualgeschichte in gerichtsmedizinischen Berichten
-      - Verwendung zur Infragestellung von Glaubwürdigkeit oder Zustimmung
-      - Erneute Traumatisierung der Betroffenen
-    mechanism:
-      summary: >-
-        Lehre, Untersuchungsformulare und Krankenhauspraxis standardisierten digitale und Hymenuntersuchungen und übersetzten Befunde in Aussagen über Sexualgeschichte.
-    institutionalCorrection:
-      periodLabel: ab 2013
-      action: Der Supreme Court verwarf 2013 den Zwei-Finger-Test; nationale Gesundheitsrichtlinien untersagten ihn und erklärten, der Hymenstatus könne früheren Geschlechtsverkehr nicht beweisen.
-      summary: >-
-        Justiz und Gesundheitswesen verwarfen sowohl das invasive Verfahren als auch seine behauptete Beweiskraft.
-  - id: indonesia-2014-2022
-    polity: Indonesien
-    periodLabel: 2014–2022
-    institutions:
-      - Kepolisian Negara Republik Indonesia (Polri)
-      - Pusat Kedokteran dan Kesehatan Polri (Pusdokkes Polri)
-      - Tentara Nasional Indonesia (TNI)
-      - Tentara Nasional Indonesia Angkatan Darat (TNI AD)
-      - Tentara Nasional Indonesia Angkatan Laut (TNI AL)
-      - Tentara Nasional Indonesia Angkatan Udara (TNI AU)
-    institutionalContext: >-
-      Polizei und alle drei Teilstreitkräfte hatten die Praxis genutzt. Das Heer begann 2021 mit der Abschaffung; 2022 meldeten die Streitkräfte das Ende der Tests in Heer, Marine und Luftwaffe.
+      Gerichte und Richter fordern gerichtsmedizinische Untersuchungen beim Forensiksystem der Justiz an, das
+      den Hymenzustand untersucht und Gutachten oder Bescheinigungen für zivil- und strafrechtliche Zwecke ausstellt.
+      Den konkreten Praxisbeleg liefert die Teheraner Interviewstudie.
+  institutionalCorrection:
     summary: >-
-      Noch 2014 mussten sich Polizeibewerberinnen sogenannten Jungfräulichkeitstests unterziehen. 2022 meldeten die Streitkräfte das Ende der Praxis in allen drei Teilstreitkräften.
-    consequences:
-      - Invasive Untersuchungen von Bewerberinnen
-      - Geschlechterdiskriminierung im öffentlichen Dienst
-      - Psychische und körperliche Schäden
-    mechanism:
-      summary: >-
-        Polizei- und Militärrekrutierung integrierten invasive Jungfräulichkeitsuntersuchungen in die medizinische Auswahl weiblicher Bewerberinnen.
-    institutionalCorrection:
-      periodLabel: 2021–2022
-      action: Das Heer begann 2021 mit der Abschaffung; im April 2022 meldeten die Streitkräfte das Ende der Tests in Heer, Marine und Luftwaffe.
-      summary: >-
-        Die militärischen Träger korrigierten ihre Rekrutierungspraxis; eine entsprechende Kehrtwende der Nationalpolizei ist in der derzeitigen Beleglage nicht nachgewiesen.
-  - id: kazakhstan-2016-2026
-    polity: Kasachstan
-    periodLabel: 2016–heute
-    institutions:
-      - Center for Forensic Examinations, Ministry of Justice of the Republic of Kazakhstan
-    institutionalContext: >-
-      Eine 2016 genehmigte Methodik zählt die Bestimmung sexueller Unversehrtheit und früheren Geschlechtsverkehrs zu den Sachverständigenaufgaben und verlangt Genital- und Hymenuntersuchungen.
+      Die angeführten Quellen dokumentieren gerichtsmedizinische Anwendung und eingeschränkte spätere Berichte,
+      benennen aber keinen Korrekturakt der Justiz- oder Forensikträger. Aus fortgesetzter Nutzung oder einem
+      fehlenden Abschaffungsbericht wird weder ein Korrekturdatum noch eine Korrekturmaßnahme abgeleitet.
+- id: india-2005-2013
+  polity: Indien
+  periodLabel: 2005–2013; erneute gerichtliche Anordnungen 2022
+  institutions:
+  - Staatliche Krankenhäuser und gerichtsmedizinische Dienste
+  - Gerichtsmedizinische Ausbildung und Lehrbücher
+  - Strafgerichte, die gerichtsmedizinische Berichte verwendeten
+  institutionalContext: >-
+    Human Rights Watch dokumentierte den Fingertest in gerichtsmedizinischen Lehrbüchern von 2005 und 2007, Formularen
+    öffentlicher Krankenhäuser und vor Gericht verwendeten Gutachten. Befunde zu Hymen und vaginaler Weite dienten
+    dazu, Betroffene als an Geschlechtsverkehr „gewöhnt“ zu beschreiben. Der Supreme Court verwarf im Fall Lillu
+    2013 den Eingriff in Privatsphäre und Würde sowie die Verwendung solcher Befunde zur Schlussfolgerung auf
+    Einwilligung. 2022 griff er das Thema erneut auf, zitierte nationale Gesundheitsrichtlinien mit einem Verbot
+    des Tests und stellte fest, dass die Praxis dennoch fortbestand.
+  consequences:
+  - Invasive Untersuchungen von Vergewaltigungsbetroffenen
+  - Beurteilung der Sexualgeschichte in gerichtsmedizinischen Berichten
+  - Verwendung zur Infragestellung von Glaubwürdigkeit oder zur Unterstellung einer Einwilligung
+  - Erneute Traumatisierung der Betroffenen
+  summary: >-
+    In der indischen Gerichtsmedizin und in öffentlichen Krankenhäusern wurde der Zwei-Finger-Test eingesetzt,
+    um zu beurteilen, ob Vergewaltigungsbetroffene an Geschlechtsverkehr „gewöhnt“ seien. Befunde zu Hymen und
+    vaginaler Weite gelangten in gerichtsmedizinische Berichte und konnten vor Gericht zur Infragestellung der
+    Glaubwürdigkeit oder zur Unterstellung einer Einwilligung dienen. Der Supreme Court verwarf die Praxis 2013.
+    Nationale Gesundheitsrichtlinien untersagten anschließend den Test und Schlussfolgerungen auf früheren Geschlechtsverkehr
+    aus dem Hymenstatus. 2022 verurteilte das Gericht den Einsatz erneut, ordnete die Verbreitung der Richtlinien
+    an staatliche und private Krankenhäuser an und verlangte Fortbildung und Änderungen medizinischer Lehrpläne.
+    Die formelle Beweisbewertung hatte sich geändert; die erneuten Anordnungen reagierten jedoch auf fortbestehende
+    Verstöße. Medizinisch erforderliche Untersuchungen zur Feststellung von Verletzungen und zur Versorgung sind
+    davon zu unterscheiden.
+  mechanism:
     summary: >-
-      Das staatliche Forensikzentrum hält eine Methodik aufrecht, die Genital- und Hymenbefunde zur Schlussfolgerung auf früheren Geschlechtsverkehr verwendet.
-    consequences:
-      - Forensische Genitaluntersuchungen zur Schlussfolgerung auf früheren Geschlechtsverkehr
-      - Verwendung von Hymenzustand und Verletzungen innerhalb einer staatlichen Beweismethodik
-      - Möglicher Einfluss medizinisch-forensischer Schlussfolgerungen auf Straf- und Zivilverfahren
-      - Fortführung einer wissenschaftlich ungültigen Jungfräulichkeitsinferenz im amtlichen Forensikrahmen
-    mechanism:
-      summary: >-
-        Das Forensikzentrum kodifizierte Genital- und Hymenuntersuchungen in einer amtlichen Methodik zur Bestimmung sexueller Unversehrtheit und früheren Geschlechtsverkehrs.
-    institutionalCorrection:
-      periodLabel: 2016–heute
-      action: Eine Korrektur ist nicht dokumentiert; die Methodik bleibt Teil der aktuellen Materialien des staatlichen Forensikzentrums.
-      summary: >-
-        Der Träger hält die amtliche Inferenz aus Genital- und Hymenbefunden weiterhin aufrecht.
-  - id: bangladesh-2013-2018
-    polity: Bangladesch
-    periodLabel: 2013–2018
-    institutions:
-      - Ministry of Health and Family Welfare
-      - Directorate General of Health Services
-      - Dhaka Medical College Hospital, Department of Forensic Medicine
-      - Bangabandhu Sheikh Mujib Medical University, Department of Forensic Medicine
-      - Sir Salimullah Medical College & Hospital, Department of Forensic Medicine
-      - Shaheed Suhrawardy Medical College & Hospital, Department of Forensic Medicine
-      - Chittagong Medical College, Department of Forensic Medicine
-    institutionalContext: >-
-      Gerichtsmedizinische Abteilungen und das Gesundheitsministerium verteidigten den Test bis März 2018; im April zog das Ministerium die Position zurück und der High Court untersagte die Praxis.
+      Gerichtsmedizinische Lehre, Untersuchungsformulare und Krankenhauspraxis standardisierten Untersuchungen
+      mit den Fingern sowie Hymenuntersuchungen und übersetzten deren Befunde in Aussagen über die Sexualgeschichte,
+      die in Strafverfahren eingehen konnten.
+  institutionalCorrection:
+    periodLabel: ab 2013; erneute Umsetzungsanordnungen 2022
+    action: >-
+      Der Supreme Court verwarf den Test 2013 im Fall Lillu; nationale Gesundheitsrichtlinien untersagten ihn,
+      und 2022 erneuerte das Gericht Anordnungen zu Umsetzung und Fortbildung.
     summary: >-
-      Das gerichtsmedizinische System nutzte Zwei-Finger- und Hymenuntersuchungen. Am 12. April 2018 erklärte der High Court den Test für unwissenschaftlich, unzuverlässig und ungültig und verbot ihn.
-    consequences:
-      - Invasive Genitaluntersuchungen von Vergewaltigungsbetroffenen
-      - Gerichtsmedizinische Schlussfolgerungen über frühere sexuelle Aktivität
-      - Potenzieller Einfluss solcher Befunde auf Ermittlungen und Strafverfahren
-      - Erniedrigung, erneute Traumatisierung und Verletzung körperlicher Würde
-    mechanism:
-      summary: >-
-        Gerichtsmedizinische Abteilungen und das Gesundheitswesen nutzten Finger- und Hymenuntersuchungen als Standardinstrumente zur Feststellung eines angeblichen Geschlechtsakts.
-    institutionalCorrection:
-      periodLabel: April 2018
-      action: Das Gesundheitsministerium zog seine Verteidigung zurück; der High Court erklärte den Test für unwissenschaftlich, unzuverlässig und ungültig und verbot ihn.
-      summary: >-
-        Gesundheitswesen und Justiz kehrten die behauptete Beweiskraft ausdrücklich um und untersagten die Praxis.
-  - id: pakistan-2015-2021
-    polity: Pakistan
-    periodLabel: 2015–2021
-    institutions:
-      - Surgeon Medico Legal Punjab
-      - Punjab Health Department
-      - Lahore High Court
-      - Ministry of Law and Justice, Government of Pakistan
-    institutionalContext: >-
-      Punjabs Anweisungen von 2015 verlangten digitale und Hymenuntersuchungen. 2020 verwarf die Bundesregierung den Test, 2021 folgten Lahore High Court und Anti-Rape-Gesetz.
+      Die Korrektur betrifft die formelle Zurückweisung des Tests und seiner behaupteten Aussagekraft für Sexualgeschichte
+      oder Einwilligung durch Justiz und Gesundheitsstandards. Das Urteil von 2022 dokumentiert selbst die fortgesetzte
+      Anwendung; die Einordnung bestätigt daher keine allgemeine Befolgung.
+- id: indonesia-2014-2022
+  polity: Indonesien
+  periodLabel: 2014–2022; berichtete Reformen der Rekrutierung
+  institutions:
+  - Kepolisian Negara Republik Indonesia (Polri)
+  - Pusat Kedokteran dan Kesehatan Polri (Pusdokkes Polri)
+  - Tentara Nasional Indonesia (TNI)
+  - Tentara Nasional Indonesia Angkatan Darat (TNI AD)
+  - Tentara Nasional Indonesia Angkatan Laut (TNI AL)
+  - Tentara Nasional Indonesia Angkatan Udara (TNI AU)
+  institutionalContext: >-
+    Die Untersuchung von Human Rights Watch aus dem Jahr 2014 benannte die polizeiliche Bewerberauswahl und Personal
+    von Pusdokkes Polri, das Untersuchungen in Polizeikrankenhäusern durchführte. Artikel 36 der Polizeiverordnung
+    Nr. 5/2009 verlangte eine geburtshilflich-gynäkologische Untersuchung. Der Bericht dokumentierte „Jungfräulichkeitstests“
+    innerhalb dieser Auswahlpraxis; die Verordnung schrieb einen solchen Test nicht ausdrücklich vor. Gesonderte
+    Berichte von Human Rights Watch beschreiben den früheren Einsatz in den Teilstreitkräften. Spätere Berichte
+    nennen die Beendigung bei der Polizei und die Änderung im Heer 2021, gefolgt von einer Mitteilung zu allen
+    drei Teilstreitkräften im April 2022.
+  consequences:
+  - Invasive Untersuchungen von Bewerberinnen
+  - Geschlechterdiskriminierung im öffentlichen Dienst
+  - Psychische und körperliche Schäden
+  summary: >-
+    Noch 2014 mussten sich Bewerberinnen für die indonesische Polizei sogenannten „Jungfräulichkeitstests“ einschließlich
+    des widerlegten Zwei-Finger-Tests unterziehen; Personal von Pusdokkes Polri führte sie in polizeilichen medizinischen
+    Einrichtungen durch. Human Rights Watch dokumentierte belastende Erfahrungen bei der Rekrutierung, wies aber
+    darauf hin, dass ein Nichtbestehen nicht zwangsläufig zum automatischen Ausschluss führte. Auch Heer, Marine
+    und Luftwaffe verwendeten die Praxis. Das Heer leitete 2021 ihre Beendigung ein; im April 2022 erklärte ein
+    Sprecher der Streitkräfte, alle drei Teilstreitkräfte hätten sie bei der Rekrutierung tatsächlich eingestellt.
+    Dieselbe Berichterstattung hält fest, dass die Polizei bereits zuvor aufgehört hatte. Das dokumentiert Berichte
+    über eine institutionelle Abkehr, jedoch keine unabhängige Überprüfung jeder einzelnen Rekrutierungsstelle.
+  mechanism:
     summary: >-
-      Offizielle Anweisungen sahen Untersuchungen zur Bestimmung angeblicher Jungfräulichkeit vor. 2020–2021 verwarfen Bundesregierung, Gericht und Gesetzgebung die Praxis und ihren Beweiswert.
-    consequences:
-      - Invasive Genitaluntersuchungen von Betroffenen sexueller Gewalt
-      - Amtliche gerichtsmedizinische Urteile über Jungfräulichkeit und Sexualgeschichte
-      - Potenzielle Verwendung dieser Schlussfolgerungen in Strafverfahren
-      - Verletzung von Würde, Privatsphäre und körperlicher Integrität
-    mechanism:
-      summary: >-
-        Provinzielle gerichtsmedizinische Anweisungen machten digitale und Hymenuntersuchungen zum Bestandteil amtlicher Sexualgewaltuntersuchungen.
-    institutionalCorrection:
-      periodLabel: 2020–2021
-      action: Bundesregierung, Lahore High Court und Anti-Rape Act verwarfen beziehungsweise untersagten den Test und entzogen ihm Beweiswert.
-      summary: >-
-        Exekutive, Justiz und Gesetzgebung verwarfen die Praxis und ihre behauptete Beweiskraft ausdrücklich.
-  - id: georgia-2018-2026
-    polity: Georgien
-    periodLabel: 2018–heute
-    institutions:
-      - Levan Samkharauli National Forensics Bureau
-      - Innenministerium Georgiens
-      - Staatsanwaltschaft Georgiens
-      - Ordentliche Gerichte Georgiens
-    institutionalContext: >-
-      Ermittlungen ordneten wiederholt Hymenintegritätsprüfungen an; der staatliche GREVIO-Bericht 2025 bestätigt, dass das formelle Verfahren diese Bestimmung weiterhin umfasst.
+      Polizei und Militär integrierten invasive „Jungfräulichkeitsuntersuchungen“ in die medizinische Bewerberauswahl.
+      Die Berichterstattung belegt die Umsetzung; die polizeiliche Gesundheitsverordnung selbst nannte einen Jungfräulichkeitstest
+      nicht ausdrücklich.
+  institutionalCorrection:
+    periodLabel: berichtete Beendigung bei der Polizei; Heeresreform 2021; Mitteilung zu allen Teilstreitkräften
+      im April 2022
+    action: >-
+      Human Rights Watch berichtete vom Ende bei der Polizei, der eingeleiteten Beendigung im Heer 2021 und der
+      Mitteilung vom April 2022 zu Heer, Marine und Luftwaffe.
     summary: >-
-      Georgische Ermittlungsbehörden und Gerichte behandeln Hymenbefunde weiterhin als forensisch relevant; eine institutionelle Abschaffung ist nicht dokumentiert.
-    consequences:
-      - Gerichtsmedizinische Genitaluntersuchungen von Betroffenen sexueller Gewalt, darunter Kinder
-      - Wissenschaftlich ungültige Schlussfolgerungen aus dem Hymenzustand
-      - Medizinische Gutachten als wichtiges Beweismittel
-      - Sekundäre Viktimisierung und mögliche Verzerrung von Glaubwürdigkeitsbewertungen
-    mechanism:
-      summary: >-
-        Staatliche Ermittlungs- und Forensikregeln lassen Hymenintegrität und Alter von Verletzungen bestimmen und führen die Befunde Strafverfahren zu.
-    institutionalCorrection:
-      periodLabel: 2018–heute
-      action: Eine Abschaffung ist nicht dokumentiert; der staatliche Bericht von 2025 bestätigt, dass das Verfahren Hymenintegrität weiterhin umfasst.
-      summary: >-
-        Der aktuelle staatliche Forensikrahmen weist Hymenbefunden weiterhin Beweisbedeutung zu.
-  - id: tajikistan-2016-2026
-    polity: Tadschikistan
-    periodLabel: 2016–heute
-    institutions:
-      - National Centre of Forensic Medicine
-      - Ministerium für Gesundheit und sozialen Schutz der Bevölkerung Tadschikistans
-    institutionalContext: >-
-      Nach 2016 wurden voreheliche Untersuchungen teils für Jungfräulichkeitstests genutzt. Später wurden gewöhnliche Tests in medizinischen Einrichtungen verboten, doch die staatliche Delegation bestätigte 2024 eine forensische Ausnahme für Strafverfahren.
+      Die Quellen berichten über die Abkehr in der polizeilichen und militärischen Rekrutierung, einschließlich
+      der Reaktion der Polizei. Die Einordnung beschränkt sich auf diese berichtete institutionelle Veränderung
+      und bestätigt kein unabhängig überprüftes Ende jeder Untersuchung in jedem Umfeld.
+- id: kazakhstan-2016
+  polity: Kasachstan
+  periodLabel: Methodik am 5. Dezember 2016 genehmigt
+  institutions:
+  - Zentrum für Rechtsmedizin des Justizministeriums der Republik Kasachstan
+  institutionalContext: >-
+    Der Methodenpass verzeichnet die Genehmigung durch den Wissenschaftlichen Rat des Zentrums für Rechtsmedizin
+    des Justizministeriums, Protokoll Nr. 2 vom 5. Dezember 2016. Das heutige Zentrum für forensische Untersuchungen
+    stellt das Dokument auf seiner Website bereit. Die Methodik zählt die Feststellung früheren Geschlechtsverkehrs
+    zu den Sachverständigenaufgaben und bezeichnet das Hymen als hauptsächlichen Untersuchungsgegenstand bei der
+    Bewertung „sexueller Unversehrtheit (Jungfräulichkeit)“. Sie schreibt Genital- und Hymenuntersuchungen vor,
+    räumt aber ein, dass Geschlechtsverkehr ohne Hymenruptur möglich ist. Die Verfügbarkeit auf der Website belegt
+    die Veröffentlichung, nicht die Anwendungshäufigkeit oder bestimmte Gerichtsentscheidungen.
+  consequences:
+  - Amtlicher Untersuchungsrahmen zur Schlussfolgerung auf früheren Geschlechtsverkehr
+  - Vorgeschriebene Berücksichtigung von Hymenzustand und Verletzungen in Gutachten
+  - Möglicher Einfluss daraus entstehender Gutachten auf Straf- und Zivilverfahren
+  - Aufnahme einer Aufgabe zur Bewertung von Jungfräulichkeit neben Verfahren zur Verletzungsdokumentation
+  summary: >-
+    Kasachstans Zentrum für Rechtsmedizin genehmigte 2016 eine Methodik, die die Feststellung früheren Geschlechtsverkehrs
+    zu ihren Sachverständigenaufgaben zählt. Im Abschnitt zur „sexuellen Unversehrtheit (Jungfräulichkeit)“ steht
+    das Hymen im Mittelpunkt der Untersuchung. Zugleich erkennen die Anweisungen an, dass Geschlechtsverkehr ohne
+    Hymenruptur stattfinden kann. Das dokumentiert einen institutionellen Rahmen für die strittige Schlussfolgerung
+    einschließlich der darin enthaltenen Einschränkungen. Eine durchgängige Anwendung bis 2026, Untersuchungszahlen
+    oder konkrete Verfahrensergebnisse sind damit nicht belegt. Die Kritik betrifft die Bestimmung der Sexualgeschichte
+    anhand körperlicher Merkmale; Verletzungsdokumentation und andere forensische Beweise erfüllen andere Aufgaben.
+  mechanism:
     summary: >-
-      Tadschikistan hat gewöhnliche medizinische Jungfräulichkeitstests eingeschränkt, behält aber eine ausdrückliche forensische Ausnahme bei.
-    consequences:
-      - Staatliche forensische Genitaluntersuchungen zur Bestimmung von Jungfräulichkeit
-      - Einsatz in Strafverfahren trotz fehlender wissenschaftlicher Aussagekraft
-      - Potenzielle rechtliche und soziale Folgen aus forensischen Bescheinigungen
-      - Psychische, reputative und familiäre Schäden
-    mechanism:
-      summary: >-
-        Staatliche gerichtsmedizinische Stellen führen Genitaluntersuchungen zur Bestimmung angeblicher Jungfräulichkeit durch, insbesondere innerhalb der weiter erlaubten forensischen Ausnahme.
-    institutionalCorrection:
-      periodLabel: bis 2024
-      action: Tadschikistan verbot gewöhnliche Jungfräulichkeitstests in medizinischen Einrichtungen, behielt sie aber für das National Centre of Forensic Medicine und andere Behörden in Strafverfahren bei.
-      summary: >-
-        Die Praxis wurde in gewöhnlichen medizinischen Situationen eingeschränkt, die amtliche forensische Ausnahme blieb jedoch bestehen.
+      Der Wissenschaftliche Rat des Zentrums genehmigte eine forensische Methodik mit Untersuchungsaufgaben und
+      Genital- beziehungsweise Hymenbefunden für Gutachten über sexuelle Unversehrtheit und früheren Geschlechtsverkehr.
+  institutionalCorrection:
+    summary: >-
+      Die zitierte Methodik dokumentiert keine institutionelle Entscheidung, die Bewertung von Jungfräulichkeit
+      aufzugeben. Ihre spätere Veröffentlichung belegt keine Korrektur und lässt für sich allein auch den Umfang
+      einer fortgesetzten Anwendung offen.
+- id: bangladesh-2013-2018
+  polity: Bangladesch
+  periodLabel: 2013–2018
+  institutions:
+  - Ministerium für Gesundheit und Familienwohlfahrt
+  - Dhaka Medical College Hospital, Abteilung für Rechtsmedizin
+  - Bangabandhu Sheikh Mujib Medical University, Abteilung für Rechtsmedizin
+  - Sir Salimullah Medical College & Hospital, Abteilung für Rechtsmedizin
+  - Shaheed Suhrawardy Medical College & Hospital, Abteilung für Rechtsmedizin
+  - Chittagong Medical College, Abteilung für Rechtsmedizin
+  institutionalContext: >-
+    Die BLAST-Chronologie zum Verfahren Nr. 10663 von 2013 dokumentiert den gerichtsmedizinischen Einsatz des
+    Tests und die Institutionen, die ihn verteidigten. Am 6. November 2017 erklärten die Leiter von fünf rechtsmedizinischen
+    Abteilungen vor dem High Court, der Test sei notwendig; im Dezember folgten schriftliche Stellungnahmen. Das
+    Gesundheitsministerium verteidigte in seiner Erklärung vom 11. März 2018 Fingertest und Hymenbewertung als
+    Methoden zur Feststellung eines Geschlechtsakts. Am 10. April legte es ein neueres Versorgungsprotokoll vor
+    und zog diese Verteidigung zurück. Der High Court untersagte den Test am 12. April. Die Generaldirektion für
+    Gesundheitsdienste war Verfahrensgegnerin; diese Stellung allein belegt keine eigenständige Übernahme der
+    strittigen Behauptung.
+  consequences:
+  - Invasive Genitaluntersuchungen von Vergewaltigungsbetroffenen
+  - Gerichtsmedizinische Schlussfolgerungen über frühere sexuelle Aktivität
+  - Potenzieller Einfluss solcher Befunde auf Ermittlungen und Strafverfahren
+  - Erniedrigung, erneute Traumatisierung und Verletzung körperlicher Würde
+  summary: >-
+    Im gerichtsmedizinischen System Bangladeschs wurden Frauen und Mädchen nach Vergewaltigungsanzeigen dem Zwei-Finger-Test
+    und Hymenuntersuchungen unterzogen. Die institutionelle Annahme wurde im Rechtsstreit ausdrücklich sichtbar:
+    Fünf Leiter rechtsmedizinischer Abteilungen verteidigten den Test im November 2017; im März 2018 argumentierte
+    das Gesundheitsministerium, Ärzte seien darauf angewiesen, um früheren Geschlechtsverkehr festzustellen. Im
+    April zog es diese Position nach Vorlage eines neueren Versorgungsprotokolls zurück. Nach der BLAST-Prozesschronologie
+    untersagte der High Court den Test am 12. April 2018, verwarf die Beschreibung von Betroffenen als an Geschlechtsverkehr
+    „gewöhnt“ und ordnete die Verbreitung des Protokolls an. Die Anordnungen unterschieden den widerlegten Test
+    von fachärztlichen Untersuchungen zur Feststellung von Verletzungen oder zur Versorgung. Urteil und Protokoll
+    änderten den formellen Standard; die Quellen messen keine spätere Befolgung in jeder Einrichtung.
+  mechanism:
+    summary: >-
+      Rechtsmedizinische Abteilungen und Gesundheitsverwaltung nutzten und verteidigten Finger- und Hymenuntersuchungen
+      als gerichtsmedizinische Instrumente zur Feststellung eines Geschlechtsakts. Daraus entstanden medizinische
+      Aussagen, die in Vergewaltigungsverfahren eingehen konnten.
+  institutionalCorrection:
+    periodLabel: April 2018
+    action: >-
+      Das Gesundheitsministerium zog seine Verteidigung am 10. April zurück; der High Court untersagte den Test
+      am 12. April und ordnete die Verbreitung des Versorgungsprotokolls an.
+    summary: >-
+      Die berichteten gerichtlichen Anordnungen und die geänderte Position des Ministeriums verwarfen den Test
+      und seinen behaupteten Beweiswert ausdrücklich. Das korrigierte den formellen institutionellen Standard,
+      ohne dass die Quellen eine allgemeine Umsetzung belegen.
+- id: pakistan-2015-2021
+  polity: Pakistan
+  periodLabel: Anweisungen 2015; exekutive und rechtliche Reaktionen 2020–2021
+  institutions:
+  - Surgeon Medico Legal Punjab
+  - Gesundheitsbehörde Punjab
+  institutionalContext: >-
+    Punjabs gerichtsmedizinische Anweisungen von 2015 umfassten Untersuchungen mit den Fingern und Hymenuntersuchungen
+    unter anderem zur Feststellung angeblicher Jungfräulichkeit. Das Urteil des Lahore High Court dokumentiert
+    die Anweisungen und Erläuterungen der Gesundheitsbehörden und des Surgeon Medico Legal Punjab. Es hält gesondert
+    fest, dass die Punjab Forensic Science Agency nach eigener Aussage keine Jungfräulichkeitstests verwendete.
+    Die Bundesregierung verwarf den Test in einer Erklärung vom Oktober 2020. Das Urteil des High Court von 2021
+    erklärte die entsprechenden Anweisungen und Richtlinien für ungültig. Der Anti-Rape (Investigation and Trial)
+    Act 2021 enthielt anschließend ein ausdrückliches Verbot und den Ausschluss des Beweiswerts für Zwei-Finger-Jungfräulichkeitstests
+    bei gerichtsmedizinischen Untersuchungen zu den im Gesetz aufgeführten Straftaten. Gericht und Justizministerium
+    werden hier für ihre korrigierende Rolle benannt.
+  consequences:
+  - Invasive Genitaluntersuchungen von Betroffenen sexueller Gewalt
+  - Amtliche gerichtsmedizinische Urteile über Jungfräulichkeit und Sexualgeschichte
+  - Potenzielle Verwendung dieser Schlussfolgerungen in Strafverfahren
+  - Verletzung von Würde, Privatsphäre und körperlicher Integrität
+  summary: >-
+    Offizielle gerichtsmedizinische Anweisungen in Punjab sahen Untersuchungen mit den Fingern und Hymenuntersuchungen
+    zur Feststellung angeblicher Jungfräulichkeit von Vergewaltigungs- und Missbrauchsbetroffenen vor. Die Bundesregierung
+    verwarf den Test im Oktober 2020 als nicht schlüssig und mit der Menschenwürde unvereinbar. 2021 erklärte
+    der Lahore High Court Zwei-Finger- und Hymentests zu diesem Zweck sowie die entsprechenden Anweisungen und
+    Richtlinien für ungültig. Auch § 13 Absatz 1 des Anti-Rape (Investigation and Trial) Act 2021 sieht für gerichtsmedizinische
+    Untersuchungen zu den dort aufgeführten Straftaten ein Verbot des Zwei-Finger-Jungfräulichkeitstests vor und
+    schließt dessen Beweiswert aus. Das Gesetz erstreckt sich auf ganz Pakistan, sieht aber eine gesonderte Bekanntmachung
+    der Bundesregierung zum Inkrafttreten vor; ein genaues Inkrafttretensdatum wird hier nicht festgestellt. Die
+    gerichtlichen und gesetzlichen Änderungen betreffen den ungültigen Rückschluss auf Jungfräulichkeit. Medizinisch
+    begründete Untersuchungen sind davon zu unterscheiden.
+  mechanism:
+    summary: >-
+      Gesundheits- und gerichtsmedizinische Behörden Punjabs nahmen Untersuchungen mit den Fingern sowie Hymenuntersuchungen
+      in die Anweisungen zur Begutachtung sexueller Gewalt auf. Dadurch konnten Urteile über Jungfräulichkeit
+      und Sexualgeschichte in gerichtsmedizinische Berichte eingehen.
+  institutionalCorrection:
+    periodLabel: exekutive, gerichtliche und gesetzliche Reaktionen 2020–2021
+    action: >-
+      Die Bundesregierung verwarf den Test im Oktober 2020; der Lahore High Court erklärte die Testanweisungen
+      2021 für ungültig. § 13 Absatz 1 des Anti-Rape Act 2021 sieht ein Verbot und den Ausschluss des Beweiswerts
+      für die genannten Untersuchungen vor.
+    summary: >-
+      Die dokumentierte Regierungserklärung, das Urteil und die verabschiedete Gesetzesbestimmung verwerfen die
+      Praxis oder deren Beweiswert innerhalb ihres jeweiligen Geltungsbereichs. Die Einordnung behauptet weder
+      allgemeine Befolgung noch ein ungeprüftes Inkrafttretensdatum oder ein Verbot aller medizinisch erforderlichen
+      Genitaluntersuchungen.
+- id: georgia-2018-2020
+  polity: Georgien
+  periodLabel: Verfahrensmaterial 2018–2020; späterer Verfahrenskontext 2025
+  institutions:
+  - Levan Samkharauli National Forensics Bureau
+  - Innenministerium Georgiens
+  - Staatsanwaltschaft Georgiens
+  - Ordentliche Gerichte Georgiens
+  institutionalContext: >-
+    Der Bericht der Ombudsstelle von 2021 untersuchte hauptsächlich Urteile und Einstellungsentscheidungen aus
+    2018–2019; einige zitierte Fälle stammen aus 2020. Er beschreibt, wie Ermittler und Staatsanwälte aus Hymenbefunden
+    auf vaginale Penetration schließen wollten, einschließlich wiederholter Untersuchungen ohne entsprechende
+    Schilderung des Kindes. Die Mitteilung des Forensikbüros vom 26. Oktober 2021 dokumentiert eine Fortbildung
+    mit Ombudsstelle und Europarat zu gerichtsmedizinischer Untersuchung und Vermeidung sekundärer Viktimisierung.
+    Georgiens GREVIO-Bericht von 2025 beschreibt einen späteren Verfahrensrahmen nach Regierungsbeschluss Nr.
+    14 vom 16. Januar 2023: Hymenintegrität, Verletzungsmerkmale und Fragen innerhalb der sachverständigen Zuständigkeit.
+    Er beschreibt auch die Einwilligung Erwachsener und zusätzliche Schutzvorkehrungen für Minderjährige. Diese
+    Verfahrensbeschreibung allein belegt keine fortgesetzte ungültige Schlussfolgerung auf die Sexualgeschichte.
+  consequences:
+  - Gerichtsmedizinische Genitaluntersuchungen von Betroffenen sexueller Gewalt, darunter Kinder
+  - Wissenschaftlich ungültige Schlussfolgerungen auf Penetration aus dem Hymenzustand in untersuchten Fällen
+  - Medizinische Gutachten in strafrechtlichen Ermittlungen und Gerichtsverfahren
+  - Risiko sekundärer Viktimisierung und verzerrter Glaubwürdigkeits- oder Penetrationsbewertungen
+  summary: >-
+    Georgische Ermittler und Staatsanwälte versuchten anhand von Hymenbefunden festzustellen, ob sexuelle Penetration
+    stattgefunden hatte. Die Untersuchung der Ombudsstelle dokumentierte wiederholte Anordnungen gerichtsmedizinischer
+    Untersuchungen, teilweise ohne dass die Schilderungen der Kinder eine Penetration enthielten. In einem Fall
+    wurde nach einem ersten Gutachten ohne Verletzungsbefund eine weitere Untersuchung angeordnet, obwohl keine
+    neuen Hinweise auf Penetration vorlagen. Der Bericht benennt das staatliche Forensikbüro und untersucht, wie
+    medizinische Befunde in Ermittlungen und Verfahren eingingen. Spätere Fortbildung und der Regierungsbericht
+    von 2025 beschreiben forensische Standards, Verletzungsbewertung und Schutzvorkehrungen. Sie belegen weder
+    eine konkrete Aufgabe der ungültigen Schlussfolgerung noch rechtfertigen sie, das dokumentierte Fallmuster
+    bis 2026 fortzuschreiben. Die Episode ist auf das frühere Verfahrensmaterial begrenzt.
+  mechanism:
+    summary: >-
+      In den untersuchten Fällen verlangten Ermittlungsanordnungen die Bewertung des Hymenzustands durch Sachverständige.
+      Ermittler oder Staatsanwälte versuchten daraus vaginale Penetration festzustellen. Diese Schlussfolgerung
+      dokumentiert die Ombudsstelle; der spätere Regierungsbericht beschreibt einen Verfahrensrahmen mit engerem
+      Belegwert.
+  institutionalCorrection:
+    summary: >-
+      Die Ombudsstelle kritisierte die Schlussfolgerung; das Forensikbüro berichtete später über Fortbildung zu
+      betroffenenorientierten Standards. Die hier geprüften Quellen benennen keine ausdrückliche Entscheidung
+      der anwendenden Institutionen, die Schlussfolgerung aufzugeben. Die Beschreibung von Verletzungsuntersuchungen
+      aus dem Jahr 2025 belegt für sich allein weder eine solche Korrektur noch fortgesetzte Jungfräulichkeitstests.
+- id: tajikistan-2016-2024
+  polity: Tadschikistan
+  periodLabel: Medizinische Untersuchungspflicht 2016; forensische Ausnahme im Januar 2024 berichtet
+  institutions:
+  - National Centre of Forensic Medicine
+  institutionalContext: >-
+    Die UN-Länderanalyse in ihrer Aktualisierung von 2024 beschreibt verpflichtende voreheliche medizinische Untersuchungen
+    nach Änderungen des Familiengesetzbuchs von 2016 und berichtet von Fällen, in denen diese für Jungfräulichkeitstests
+    genutzt wurden. Die Pflicht zur medizinischen Untersuchung ist für sich genommen keine Pflicht zum Jungfräulichkeitstest.
+    Die Analyse zitiert außerdem ältere Berichte über jährlich rund 600 Untersuchungen im National Centre of forensic
+    examination. Dies ist eine zugeschriebene Zahl, keine neue Zählung für 2024 oder 2026. Bei der CEDAW-Sitzung
+    vom 31. Januar 2024 erklärte Tadschikistans Delegation, Jungfräulichkeitstests seien in medizinischen Einrichtungen
+    verboten; Behörden wie das National Centre of Forensic Medicine dürften sie jedoch weiterhin in strafrechtlichen
+    Ermittlungen durchführen.
+  consequences:
+  - Staatliche forensische Untersuchungen zur Bestimmung angeblicher Jungfräulichkeit
+  - Befugnis zu solchen Untersuchungen in Strafverfahren nach der Delegationserklärung von 2024
+  - Mögliche rechtliche und soziale Folgen gerichtsmedizinischer Befunde über angebliche Jungfräulichkeit
+  - Mögliche psychische, rufschädigende und familiäre Folgen der Praxis
+  summary: >-
+    Bei der CEDAW-Prüfung im Januar 2024 erklärte die Delegation, Jungfräulichkeitstests seien in medizinischen
+    Einrichtungen verboten. Bestimmte Behörden einschließlich des National Centre of Forensic Medicine dürften
+    sie jedoch in Strafverfahren durchführen. Die UN-Länderanalyse beschreibt gesondert berichtete voreheliche
+    Tests und wiederholt eine ältere Zahl von rund 600 Untersuchungen jährlich im staatlichen Forensikzentrum.
+    Diese Quellen belegen eine berichtete Einschränkung mit fortbestehender amtlicher Ausnahme; sie nennen weder
+    das ursprüngliche Erlassdatum des Verbots noch beweisen sie eine landesweite Befolgung. Das Endjahr 2024 markiert
+    die dokumentierte Erklärung, nicht das Ende der Tests. Der forensische Rahmen begründet keine wissenschaftliche
+    Aussagekraft des behaupteten Rückschlusses auf die Sexualgeschichte.
+  mechanism:
+    summary: >-
+      Staatliche Forensikbehörden führen Untersuchungen zur Feststellung angeblicher Jungfräulichkeit in Strafverfahren
+      durch oder sind hierzu befugt. Die Länderanalyse berichtet auch von Tests im Rahmen vorehelicher medizinischer
+      Untersuchungen, ohne zu belegen, dass das Familiengesetzbuch selbst einen Jungfräulichkeitstest verlangte.
+  institutionalCorrection:
+    periodLabel: Einschränkung und forensische Ausnahme am 31. Januar 2024 berichtet
+    action: >-
+      Tadschikistans Delegation erklärte vor CEDAW, die Tests seien in medizinischen Einrichtungen verboten, blieben
+      jedoch bestimmten Behörden einschließlich des National Centre of Forensic Medicine in Strafverfahren erlaubt.
+    summary: >-
+      Die amtliche Erklärung beschreibt eine Einschränkung in medizinischen Einrichtungen bei fortbestehender
+      forensischer Ausnahme. Das stützt eine teilweise Korrektur innerhalb dieses Geltungsbereichs. Wann das zugrunde
+      liegende Verbot erlassen wurde und wie weit es durchgesetzt wurde, geht daraus nicht hervor.
 evidence:
-  - id: virginity-who-correction
-    note: >-
-      Stellt fest, dass das Erscheinungsbild des Hymens kein verlässlicher Hinweis auf Geschlechtsverkehr ist und keine bekannte Untersuchung eine Vorgeschichte vaginalen Geschlechtsverkehrs beweisen kann.
-  - id: virginity-turkey-proposition
-    note: >-
-      Dokumentiert staatlich angeordnete Jungfräulichkeitsuntersuchungen seit den 1980er-Jahren unter Beteiligung von Polizei, Forensik, Schulen, Wohnheimen, Krankenhäusern und Inhaftierten.
-  - id: virginity-turkey-carrier
-  - id: virginity-turkey-mechanism
-  - id: virginity-turkey-consequences
-  - id: virginity-turkey-correction
-    note: >-
-      Berichtet, dass eine türkische Regierungsregelung Ende 1998 Jungfräulichkeitstests untersagte, sofern die Frau sie nicht selbst verlangte.
-  - id: virginity-iran-carrier
-    note: >-
-      Beschreibt die Legal Medicine Organization als offizielle Einrichtung der Justiz, deren Zentren auf Anforderung von Gerichten und Behörden Gutachten erstellen.
-  - id: virginity-iran-mechanism
-    note: >-
-      Iranische Studie aus forensischen Zentren und staatlichen gynäkologischen Kliniken in Teheran; sie beschreibt Tests auf Anordnung von Zivil- und Strafgerichten.
-  - id: virginity-iran-consequences
-  - id: virginity-iran-ongoing
-    note: >-
-      Aktueller Länderbericht, wonach Behörden in einzelnen Fällen weiterhin Jungfräulichkeitstests bei jungen Frauen versuchen können, ohne dass die Praxis als verbreitet beschrieben wird.
-  - id: virginity-india-carrier
-    note: >-
-      Dokumentiert breite institutionelle Nutzung, gerichtsmedizinische Lehrbücher von 2005/2007, Krankenhausformulare und gerichtliche Nutzung angeblicher Zeichen sexueller Gewöhnung.
-  - id: virginity-india-mechanism
-  - id: virginity-india-consequences
-  - id: virginity-india-2013-correction
-    note: >-
-      Urteil von 2013, das den Zwei-Finger-Test wegen Verletzung von Privatsphäre, körperlicher und psychischer Integrität und Würde verwirft.
-  - id: virginity-india-2022-correction
-    note: >-
-      Urteil von 2022 mit den nationalen Richtlinien, die den Test verbieten und erklären, der Hymenstatus könne früheren Geschlechtsverkehr nicht beweisen.
-  - id: virginity-indonesia-carrier
-    note: >-
-      Dokumentiert Polizeirekrutierung, Regulation Nr. 5/2009, fortgesetzte Zwei-Finger-Tests 2014 und Durchführung durch Pusdokkes Polri.
-  - id: virginity-indonesia-mechanism
-  - id: virginity-indonesia-consequences
-  - id: virginity-indonesia-army-correction
-    note: >-
-      Dokumentiert die Heeresanordnung von 2021 zur Beendigung medizinisch irrelevanter Jungfräulichkeitstests.
-  - id: virginity-indonesia-military-correction
-    note: >-
-      Dokumentiert die Mitteilung von April 2022, dass Heer, Marine und Luftwaffe die Tests bei der Rekrutierung effektiv beendet hatten.
-  - id: virginity-kazakhstan-carrier
-    note: >-
-      Offizielle, 2016 genehmigte Methodik zur Bestimmung sexueller Unversehrtheit und früheren Geschlechtsverkehrs mit Genital- und Hymenuntersuchung; sie räumt ein, dass Verkehr ohne Hymenruptur möglich ist.
-  - id: virginity-kazakhstan-mechanism
-  - id: virginity-kazakhstan-consequences
-  - id: virginity-kazakhstan-ongoing
-  - id: virginity-bangladesh-carrier
-    note: >-
-      Detaillierte Prozesschronologie zur landesweiten Nutzung, zu Aussagen von Gerichtsmedizinern 2017, zur Verteidigung durch das Gesundheitsministerium im März 2018, dessen Rückzug und zum Verbot durch den High Court.
-  - id: virginity-bangladesh-mechanism
-  - id: virginity-bangladesh-consequences
-  - id: virginity-bangladesh-correction
-    note: >-
-      Berichtet über das Urteil vom 12. April 2018, wonach die Tests keine gesetzliche oder wissenschaftliche Grundlage hatten und das Gesundheitsprotokoll einzuhalten ist.
-  - id: virginity-pakistan-carrier
-    note: >-
-      Rechtsbericht zum Lahore High Court und zur Unrechtmäßigkeit der Gesundheits- und Gerichtsmedizinanweisungen, soweit sie Zwei-Finger- oder Hymentests zur Bestimmung von Jungfräulichkeit verlangten.
-  - id: virginity-pakistan-mechanism
-  - id: virginity-pakistan-consequences
-  - id: virginity-pakistan-government-correction
-    note: >-
-      Offizielle Erklärung von Oktober 2020: Der Test ist nicht schlüssig, verletzt die Würde und soll nicht Teil gerichtsmedizinischer Berichte zu Vergewaltigung oder sexueller Gewalt sein.
-  - id: virginity-pakistan-law-correction
-    note: >-
-      Aktuelle Ministeriumsübersicht, wonach der Anti-Rape Act 2021 den früher zur Bewertung von Betroffenen genutzten Zwei-Finger-Test verbietet.
-  - id: virginity-georgia-carrier
-    note: >-
-      UNICEF-gehosteter Bericht der Ombudsstelle mit Fällen 2018–2020, in denen Hymenintegrität untersucht wurde, teils ohne behauptete Penetration; erklärt die Inferenz für wissenschaftlich unbegründet.
-  - id: virginity-georgia-mechanism
-    note: >-
-      Staatlicher Bericht von 2025: Regierungsbeschluss Nr. 14/2023 definiert die forensische Untersuchung bei Sexualdelikten einschließlich Hymenintegrität und Alter einer Verletzung.
-  - id: virginity-georgia-consequences
-  - id: virginity-georgia-context
-    note: >-
-      Offizielle Seite des National Forensics Bureau zu seiner rechtsmedizinischen Rolle in Sexualstrafverfahren und Zusammenarbeit bei Forensikstandards.
-  - id: virginity-georgia-ongoing
-  - id: virginity-tajikistan-carrier
-    note: >-
-      Dokumentiert verpflichtende voreheliche Untersuchungen seit 2016, ihre Nutzung für Jungfräulichkeitstests und rund 600 entsprechende Untersuchungen pro Jahr durch das staatliche Forensikzentrum.
-  - id: virginity-tajikistan-mechanism
-  - id: virginity-tajikistan-consequences
-  - id: virginity-tajikistan-partial-correction
-    note: >-
-      Offizielles UN-Protokoll von 2024, in dem Tadschikistans Delegation erklärt, Jungfräulichkeitstests seien in medizinischen Einrichtungen verboten, blieben aber für Behörden einschließlich des National Centre of Forensic Medicine in Strafverfahren erlaubt.
+- id: virginity-who-correction
+  note: >-
+    Die WHO erklärt, dass das Erscheinungsbild des Hymens kein verlässlicher Hinweis auf Geschlechtsverkehr ist
+    und keine bekannte Untersuchung eine Vorgeschichte vaginalen Geschlechtsverkehrs beweisen kann. Die Übersicht
+    beschreibt auch körperliche, psychische und soziale Schäden. Sie belegt die wissenschaftliche Bewertung und
+    allgemeine Risiken, nicht die Anwendung oder Korrektur durch einen bestimmten Staat.
+- id: virginity-turkey-proposition
+  note: >-
+    Human Rights Watch dokumentiert staatlich angeordnete Untersuchungen zur Feststellung angeblicher „Jungfräulichkeit“
+    unter Beteiligung von Polizei, Gendarmerie, Gerichtsmedizin, Schulen, Wohnheimen, Krankenhäusern und Inhaftierten.
+    Der Bericht enthält einen Fall von 1986 und unterscheidet tatsächlich erteilte Anordnungen von der für bestimmte
+    Untersuchungen erforderlichen gerichtlichen oder staatsanwaltlichen Genehmigung.
+- id: virginity-turkey-carrier
+  note: >-
+    Dokumentiert staatlich angeordnete Jungfräulichkeitsuntersuchungen in den 1980er- und frühen 1990er-Jahren
+    unter Beteiligung von Polizei, Gendarmerie, Gerichtsmedizin, Schulen, Wohnheimen, Krankenhäusern und Inhaftierten.
+    Die Abschnitte über Gewahrsam, Schülerinnen und Ärzte benennen institutionelle Rollen sowie berichteten Zwang
+    und Schäden. Manche polizeilichen Anordnungen umgingen die erforderliche Genehmigung; der Bericht belegt institutionelles
+    Handeln, nicht die Rechtmäßigkeit sämtlicher Anordnungen.
+- id: virginity-turkey-mechanism
+  note: >-
+    Die Abschnitte zu Gewahrsam, Schulen und Medizin beschreiben, wie Einrichtungen Untersuchungen anordneten
+    oder ermöglichten und Ärzte Befunde für polizeiliche oder disziplinarische Zwecke erstellten. Die Erörterung
+    der Genehmigung trennt diese Praxis von den rechtlichen Voraussetzungen einer Untersuchung.
+- id: virginity-turkey-consequences
+  note: >-
+    Der Bericht beschreibt erzwungene Untersuchungen, disziplinarische und polizeiliche Verwendung, Bestrafung
+    oder Überwachung von Frauen und Mädchen sowie berichtete körperliche und psychische Schäden. Es handelt sich
+    um dokumentierte Fälle und Muster der Untersuchung, nicht um eine landesweite Zählung aller Betroffenen.
+- id: virginity-turkey-correction
+  note: >-
+    Der Länderbericht für 1999 beschreibt eine Regierungsregelung von Ende 1998, die die traditionelle Praxis
+    untersagte, sofern die Frau sie nicht selbst verlangte. Er berichtet von einem offenbar rückläufigen Einsatz
+    sowie Vollzugsproblemen einschließlich fehlender Sanktionen gegen Verstöße. Das belegt eine begrenzte institutionelle
+    Reaktion mit fortbestehender Ausnahme auf Verlangen, keine allgemeine Abschaffung.
+- id: virginity-iran-carrier
+  note: >-
+    Der Abstract beschreibt die Legal Medicine Organization als offizielle Einrichtung der iranischen Justiz,
+    deren gerichtsmedizinische Zentren Gutachten auf Anforderung von Gerichten, Richtern und Verwaltungsbehörden
+    erstellen. Das belegt den institutionellen Hintergrund. Der geprüfte Abstract belegt keine Einführung von
+    Jungfräulichkeitstests im Jahr 2002; die praxisbezogenen Belege stammen aus der gesonderten Teheraner Interviewstudie.
+- id: virginity-iran-mechanism
+  note: >-
+    Die Primärstudie berichtet über Feldforschung von 2014 in gerichtsmedizinischen Zentren und staatlichen gynäkologischen
+    Kliniken in Teheran. Befragte beschreiben Jungfräulichkeitsuntersuchungen auf Anordnung von Zivil- und Strafgerichten
+    sowie Anwendungen bei Ehe, Scheidung, Unterbringung, mutmaßlicher Gewalt und Bescheinigungen. Sie schildern
+    auch diagnostische Unsicherheit, Konflikte um Einwilligung und mögliche psychische oder soziale Folgen. Die
+    qualitativen Aussagen dokumentieren Praxis und berichtete Erfahrungen; sie validieren die Untersuchung nicht
+    und belegen keine landesweite Häufigkeit.
+- id: virginity-iran-consequences
+  note: >-
+    Die Ergebnisse beschreiben gerichtlich angeordnete Untersuchungen, Bescheinigungen und rechtliche Anwendungen
+    sowie Aussagen der Befragten über psychische und soziale Risiken einschließlich Gewalt und Selbstverletzung.
+    Diese Erfahrungen und Befürchtungen bleiben den Interviews zugeschrieben; die Studie schätzt weder die landesweite
+    Häufigkeit noch den kausalen Effekt jedes Schadens.
+- id: virginity-iran-ongoing
+  note: >-
+    Die Länderbewertung vom April 2026 berichtet, Behörden könnten bei jungen Frauen unter bestimmten Umständen
+    Jungfräulichkeitstests versuchen, weist aber darauf hin, dass die verfügbaren Belege keine Verbreitung nachweisen.
+    Die zugrunde liegenden Beobachtungen haben eigene Datierungen. Die Quelle liefert eingeschränkten späteren
+    Kontext, keinen Beleg für einen Korrekturprozess oder einen ununterbrochenen jährlichen Einsatz seit der Feldforschung.
+- id: virginity-india-carrier
+  note: >-
+    Dokumentiert institutionelle Anwendung über gerichtsmedizinische Lehrbücher von 2005 und 2007, Formulare und
+    Untersuchungspraxis öffentlicher Krankenhäuser sowie die gerichtliche Verwendung vermeintlicher Zeichen sexueller
+    Gewöhnung. Der Bericht beschreibt, wie Befunde gegen die Glaubwürdigkeit Betroffener oder zur Unterstellung
+    von Zustimmung eingesetzt werden konnten, und dokumentiert Belastungen durch Untersuchungen. Die Beispiele
+    und untersuchten Urteile belegen kein identisches Verhalten sämtlicher Einrichtungen.
+- id: virginity-india-mechanism
+  note: >-
+    Lehrbuchvorgaben, Untersuchungsformulare und die Erörterung gerichtlicher Verwendung zeigen, wie Fingeruntersuchungen
+    und Beobachtungen von Hymen oder vaginaler Weite in gerichtsmedizinische Urteile über frühere sexuelle Aktivität
+    übersetzt wurden.
+- id: virginity-india-consequences
+  note: >-
+    Der Bericht verbindet invasive Untersuchungen und Aussagen zur Sexualgeschichte in medizinischen Gutachten
+    mit Angriffen auf die Glaubwürdigkeit Betroffener, Unterstellungen von Zustimmung und zusätzlicher Belastung.
+    Diese dokumentierten Verwendungen stützen die genannten Folgen, ohne dass frühere sexuelle Erfahrung Zustimmung
+    zu einer bestimmten Handlung belegen würde.
+- id: virginity-india-2013-correction
+  note: >-
+    Die wiedergegebene Lillu-Entscheidung verwirft den Eingriff des Zwei-Finger-Tests in Privatsphäre, körperliche
+    und psychische Integrität sowie Würde. Das amtliche Urteil von 2022 zitiert die maßgebliche Begründung unabhängig
+    davon. Die Quelle belegt die gerichtliche Reaktion von 2013, nicht eine allgemeine spätere Befolgung. Kopf
+    und Schluss der Wiedergabe nennen unterschiedliche Apriltage; hier wird nur das Jahr verwendet.
+- id: virginity-india-2022-correction
+  note: >-
+    Das amtliche Urteil zitiert die Richtlinien des Gesundheitsministeriums, die den Zwei-Finger-Test untersagen
+    und erklären, dass der Hymenstatus früheren Geschlechtsverkehr nicht beweisen kann. Es dokumentiert fortgesetzte
+    Anwendung nach der früheren Zurückweisung und ordnet die Verbreitung an öffentliche und private Krankenhäuser,
+    Schulung und Lehrplanüberprüfung an. Klinisch notwendige Untersuchungen bleiben von Tests auf angebliche Jungfräulichkeit
+    zu unterscheiden.
+- id: virginity-indonesia-carrier
+  note: >-
+    Die Untersuchung von 2014 benennt Polizeirekrutierung, Polizeiverordnung 5/2009, Personal von Pusdokkes Polri
+    und polizeiliche Krankenhäuser. Artikel 36 verlangt eine geburtshilflich-gynäkologische Untersuchung; er schreibt
+    keinen Jungfräulichkeitstest ausdrücklich vor. Interviews dokumentieren die dennoch durchgeführten Tests,
+    berichtete Schmerzen oder Erniedrigung und den Rekrutierungskontext. Ein negatives Ergebnis bedeutete nicht
+    zwangsläufig einen automatischen Ausschluss.
+- id: virginity-indonesia-mechanism
+  note: >-
+    Interviews beschreiben die Zwei-Finger-Untersuchung als Teil der medizinischen Auswahl von Polizeibewerberinnen
+    und benennen das ausführende Personal und die Einrichtungen. Die Darstellung der Umsetzung, nicht allein die
+    allgemeine gynäkologische Vorgabe, belegt den Mechanismus der Jungfräulichkeitstests.
+- id: virginity-indonesia-consequences
+  note: >-
+    Berichte von Bewerberinnen dokumentieren invasive Untersuchungen und Schmerzen oder Erniedrigung im Rahmen
+    einer geschlechtsspezifischen Rekrutierungsvorgabe. Sie stützen die Darstellung von Diskriminierung und Schäden,
+    belegen jedoch keine automatische Ablehnung sämtlicher als nicht jungfräulich beurteilter Bewerberinnen.
+- id: virginity-indonesia-army-correction
+  note: >-
+    Berichtet über die Anweisung des Heereschefs von 2021, medizinisch bedeutungslose Jungfräulichkeitstests aus
+    Rekrutierungsuntersuchungen zu entfernen, und beschreibt ihren früheren Einsatz in den Sicherheitskräften.
+    Derselbe Artikel erklärt, die Polizei habe die Praxis bereits beendet. Dies sind Berichte über institutionelle
+    Rücknahme, keine unabhängige Überprüfung sämtlicher Rekrutierungseinrichtungen.
+- id: virginity-indonesia-military-correction
+  note: >-
+    Dokumentiert die Mitteilung der Streitkräfte vom April 2022, dass Heer, Marine und Luftwaffe Jungfräulichkeitstests
+    bei der Rekrutierung effektiv beendet hatten. Der Artikel berichtet auch von der früheren Einstellung bei
+    Polizei und Innenverwaltung. Die Reaktion ist auf die berichteten Rekrutierungspraktiken begrenzt, nicht auf
+    jeden denkbaren Einsatz von Genitaluntersuchungen.
+- id: virginity-kazakhstan-carrier
+  note: >-
+    Der lesbare Methodenpass nennt die Genehmigung durch den Wissenschaftlichen Rat des Zentrums für Rechtsmedizin
+    des Justizministeriums, Protokoll 2 vom 5. Dezember 2016. Die Methodik zählt früheren Geschlechtsverkehr zu
+    den Sachverständigenfragen, sieht Genital- und Hymenuntersuchungen vor und räumt Geschlechtsverkehr ohne Hymenruptur
+    ein. Die heutige Website des Zentrums für forensische Untersuchungen stellt das Dokument bereit; das allein
+    belegt weder kontinuierliche Anwendung noch Ergebnisse konkreter Verfahren.
+- id: virginity-kazakhstan-mechanism
+  note: >-
+    Aufgabenliste und Verfahren verbinden die Hymenuntersuchung ausdrücklich mit der Feststellung von Zeichen
+    verletzter sexueller Unversehrtheit; „Jungfräulichkeit“ steht dabei in Klammern. Die Einschränkung, dass Geschlechtsverkehr
+    ohne Ruptur möglich ist, bleibt erhalten. Der Beleg für diese vorgeschriebene Schlussfolgerung ist von anderen
+    Aufgaben des Dokuments zu Verletzungen oder biologischen Spuren zu trennen.
+- id: virginity-kazakhstan-consequences
+  note: >-
+    Belegt, welche Bewertungen die Methodik Sachverständigen vorgibt und wie entsprechende Schlussfolgerungen
+    potenziell als Beweismittel wirken können. Das stützt Folgen, die als vorgeschriebene Verfahren und Risiken
+    formuliert sind. Das Dokument liefert keine Untersuchungszahlen, dokumentierten Urteile, gemessenen Schäden
+    oder Belege einer kontinuierlichen Anwendung bis 2026.
+- id: virginity-kazakhstan-ongoing
+  note: >-
+    Der amtliche Anbieter stellt die genehmigte Methodik bereit. Ihre fortbestehende Verfügbarkeit liefert dokumentarischen
+    Kontext, keinen Beleg für eine laufende Korrektur oder für ununterbrochene Anwendung. Die Genehmigung wird
+    anhand des lesbaren Methodenpasses datiert, nicht anhand des Uploadpfads der Website.
+- id: virginity-bangladesh-carrier
+  note: >-
+    Die ausführliche Chronologie der klagenden Organisation dokumentiert landesweite gerichtsmedizinische Anwendung,
+    die Stellungnahmen von fünf gerichtsmedizinischen Abteilungsleitern im November und Dezember 2017 und die
+    Verteidigung von Finger- und Hymentests zur Feststellung vorausgegangenen Geschlechtsverkehrs durch das Gesundheitsministerium
+    im März 2018. Sie verzeichnet den Rückzug des Ministeriums im April sowie Verbot und Anordnungen des High
+    Court vom 12. April. Die bloße Beteiligung eines benannten Antragsgegners am Verfahren belegt keine Übernahme
+    der Behauptung. Die Chronologie ist die Darstellung der klagenden Organisation, nicht das vollständige Urteil.
+- id: virginity-bangladesh-mechanism
+  note: >-
+    Die datierten Stellungnahmen der Abteilungsleiter und die Erklärungen des Ministeriums beschreiben ausdrücklich,
+    wie Fingeruntersuchungen und Hymenbefunde zur gerichtsmedizinischen Beurteilung eines vorausgegangenen Geschlechtsakts
+    verwendet wurden. Sie dokumentieren die umstrittene Berufspraxis genauer als die bloße Nennung von Einrichtungen
+    im Rechtsstreit.
+- id: virginity-bangladesh-consequences
+  note: >-
+    Die Falldarstellung beschreibt invasive Untersuchungen und Befunde zur Sexualgeschichte, die in Vergewaltigungsermittlungen
+    und Strafverfahren eingehen konnten. Die abschließenden Anordnungen betreffen entwürdigende Untersuchungen,
+    Bezeichnungen wie „an Geschlechtsverkehr gewöhnt“, Privatsphäre und Schutzvorkehrungen. Sie beziffert weder
+    die spätere Befolgung noch eine landesweite Schadenshäufigkeit.
+- id: virginity-bangladesh-correction
+  note: >-
+    Der zeitgenössische Bericht bestätigt die Entscheidung des High Court vom 12. April 2018, wonach den Tests
+    eine rechtliche oder wissenschaftliche Grundlage fehlte, sowie die Anordnung zur Anwendung des Gesundheitsprotokolls.
+    Die Chronologie der klagenden Organisation liefert unabhängig davon Ablauf und Anordnungen. Keine der Quellen
+    beweist eine allgemeine spätere Befolgung.
+- id: virginity-pakistan-carrier
+  note: >-
+    Der Bericht beschreibt die Feststellungen des Lahore High Court zu Punjabs Gesundheits- und Gerichtsmedizinanweisungen
+    von 2015, soweit sie Finger- oder Hymentests zur Feststellung der Jungfräulichkeit verlangten. Er bestätigt
+    die ausführenden institutionellen Rollen und die gerichtliche Zurückweisung. Das gesondert erfasste Urteil
+    liefert die genauen Primärbelege; das korrigierende Gericht wird nicht allein wegen seiner Entscheidung als
+    anwendender Träger behandelt.
+- id: virginity-pakistan-mechanism
+  note: >-
+    Bestätigt die Darstellung des Urteils, wonach amtliche Anweisungen Untersuchungsbefunde in Aussagen über angebliche
+    Jungfräulichkeit bei sexueller Gewalt überführten. Wortlaut und Geltungsbereich der angegriffenen Vorgaben
+    werden durch das Primärurteil belegt, nicht allein durch diesen Nachrichtenbericht.
+- id: virginity-pakistan-consequences
+  note: >-
+    Bestätigt die im Urteil erörterten invasiven Untersuchungen, Aussagen zur Sexualgeschichte und Würdeverletzungen.
+    Die Darstellung stützt die potenzielle Beweisfunktion solcher Aussagen; sie nennt keine Zahl dadurch verursachter
+    Verurteilungen oder anderer Verfahrensausgänge.
+- id: virginity-pakistan-government-correction
+  note: >-
+    Die amtliche Mitteilung vom 9. Oktober 2020 erklärt, der Test sei nicht schlüssig, verletze die Würde und
+    solle nicht Teil gerichtsmedizinischer Berichte bei Vergewaltigung oder sexueller Gewalt sein. Das dokumentiert
+    die erklärte Regierungsposition und die Vorgabe für Gutachten, ohne die Befolgung durch sämtliche Untersuchenden
+    zu beweisen.
+- id: virginity-pakistan-law-correction
+  note: >-
+    Die amtliche Ministeriumsübersicht bestätigt, dass der Anti-Rape (Investigation and Trial) Act 2021 den zuvor
+    zur Beurteilung Betroffener verwendeten Zwei-Finger-Test untersagt. Das gesondert erfasste Gesetz liefert
+    Paragraf 13 Absatz 1, den Geltungsbereich für die erfassten Straftaten und den Ausschluss des Beweiswerts.
+    Die Übersicht wird nicht zur Festlegung eines Inkrafttretensdatums verwendet.
+- id: virginity-georgia-carrier
+  note: >-
+    Der von UNICEF bereitgestellte Bericht der Ombudsstelle dokumentiert Anordnungen von Ermittlern und Staatsanwälten
+    zu staatlichen gerichtsmedizinischen Untersuchungen der Hymenintegrität, auch ohne behauptete Penetration,
+    und ihre Verwendung bei der Bewertung von Vorwürfen sexueller Gewalt. Er benennt das National Forensics Bureau
+    über Schriftwechsel und Fälle und erläutert die fehlende Aussagekraft solcher Befunde für die Sexualgeschichte.
+    Die Hauptstichprobe umfasst 2018–2019 mit einzelnen Aktenverweisen aus 2020; das spätere Regierungsverfahren
+    ist ein gesonderter Beleg.
+- id: virginity-georgia-mechanism
+  note: >-
+    Georgiens Staatsbericht von 2025 beschreibt den Leistungsrahmen nach Beschluss 14 vom 16. Januar 2023 einschließlich
+    Hymenintegrität, Verletzungsalter und Fragen innerhalb der Sachverständigenkompetenz. Er beschreibt auch Einwilligung
+    und Schutzvorkehrungen. Das ist späterer Verfahrenskontext; die aufgeführte Verletzungsuntersuchung belegt
+    für sich allein keine Methode zum Nachweis früheren Geschlechtsverkehrs oder fortgesetzte Jungfräulichkeitstests.
+- id: virginity-georgia-consequences
+  note: >-
+    Die Abschnitte 3.5–3.6 beschreiben eingreifende oder wiederholte Untersuchungen, auf den Hymenzustand beschränkte
+    Fragen, die Verwendung vermeintlicher Penetrationszeichen sowie Risiken sekundärer Viktimisierung oder verzerrter
+    Fallbewertung. Diese Feststellungen betreffen die geprüften Fälle und sind nicht auf jede gerichtsmedizinische
+    Verletzungsuntersuchung zu verallgemeinern.
+- id: virginity-georgia-context
+  note: >-
+    Die Mitteilung des Büros vom 26. Oktober 2021 beschreibt eine Fortbildung vom 21.–26. Oktober mit Ombudsstelle
+    und Europarat zur gerichtsmedizinischen Untersuchung Betroffener sexueller Gewalt, zu Rechten, psychischen
+    Bedürfnissen und zur Vermeidung sekundärer Viktimisierung. Sie belegt institutionelle Teilnahme an Fortbildung.
+    Ein Verbot von Jungfräulichkeitstests oder eine ausdrückliche Aufgabe der Schlussfolgerung auf die Sexualgeschichte
+    wird nicht verkündet.
+- id: virginity-georgia-ongoing
+  note: >-
+    Die Verfahrensbeschreibung von 2025 belegt keine laufende Korrektur. Dass sie Hymen- oder Verletzungsbewertungen
+    enthält, beweist für sich genommen ebenso wenig die fortgesetzte Verwendung der ungültigen Schlussfolgerung.
+    Sie bleibt als späterer Kontext neben den früheren Fallbelegen und der Fortbildungsmitteilung des Büros erhalten.
+- id: virginity-tajikistan-carrier
+  note: >-
+    Die UN-Länderanalyse beschreibt verpflichtende voreheliche medizinische Untersuchungen nach Änderungen des
+    Familiengesetzbuchs von 2016 und berichtet, dass manche für Jungfräulichkeitstests genutzt wurden. Sie wiederholt
+    ältere Berichte über jährlich rund 600 Untersuchungen im National Centre of forensic examination; die zugrunde
+    liegenden Verweise stehen in den Anmerkungen 292–294. Das ist eine zugeschriebene historische Zahl, keine
+    neue Zählung für 2024 oder 2026. Die medizinische Untersuchungspflicht belegt für sich allein keine gesetzliche
+    Pflicht zum Jungfräulichkeitstest.
+- id: virginity-tajikistan-mechanism
+  note: >-
+    Beschreibt berichtete Jungfräulichkeitstests bei vorehelichen Untersuchungen und Untersuchungstätigkeit im
+    staatlichen Forensikzentrum. Die medizinische Untersuchungspflicht wird von berichteten Tests unterschieden.
+    Das gesonderte CEDAW-Protokoll liefert die ausdrückliche Erklärung von 2024 zur fortbestehenden Befugnis in
+    Strafverfahren.
+- id: virginity-tajikistan-consequences
+  note: >-
+    Die Analyse stützt berichtete Untersuchungen und den sozial folgenreichen Kontext vorehelicher Tests; ihre
+    Jahreszahl wird älteren Berichten zugeschrieben. Sie liefert keine einzelnen rechtlichen Verfahrensausgänge
+    und misst nicht jeden psychischen oder familiären Schaden. Allgemeine Schadensrisiken erläutert gesondert
+    die WHO; sie werden hier als mögliche Folgen bezeichnet.
+- id: virginity-tajikistan-partial-correction
+  note: >-
+    Im amtlichen Kurzprotokoll der Sitzung vom 31. Januar 2024 erklärt Tadschikistans Delegation, Jungfräulichkeitstests
+    seien in medizinischen Einrichtungen verboten; Behörden wie das National Centre of Forensic Medicine dürften
+    solche Untersuchungen jedoch in Strafverfahren durchführen. Die Erklärung stützt eine berichtete Einschränkung
+    bei fortbestehender forensischer Ausnahme. Sie nennt weder das ursprüngliche Erlassdatum des Verbots noch
+    belegt sie eine landesweite Durchsetzung.
+- id: virginity-turkey-who-context
+  note: >-
+    Die WHO erläutert die fehlende wissenschaftliche Aussagekraft und die allgemeinen körperlichen, psychischen
+    und sozialen Risiken von Jungfräulichkeitstests. Dies stellt den wissenschaftlichen Kontext der Episode wieder
+    her; es belegt keine lokale Einführung, Häufigkeit, einzelnen Verfahrensausgänge oder institutionelle Reaktion.
+- id: virginity-iran-who-context
+  note: >-
+    Die WHO erläutert die fehlende wissenschaftliche Aussagekraft und die allgemeinen körperlichen, psychischen
+    und sozialen Risiken von Jungfräulichkeitstests. Dies stellt den wissenschaftlichen Kontext der Episode wieder
+    her; es belegt keine lokale Einführung, Häufigkeit, einzelnen Verfahrensausgänge oder institutionelle Reaktion.
+- id: virginity-indonesia-who-context
+  note: >-
+    Die WHO erläutert die fehlende wissenschaftliche Aussagekraft und die allgemeinen körperlichen, psychischen
+    und sozialen Risiken von Jungfräulichkeitstests. Dies stellt den wissenschaftlichen Kontext der Episode wieder
+    her; es belegt keine lokale Einführung, Häufigkeit, einzelnen Verfahrensausgänge oder institutionelle Reaktion.
+- id: virginity-kazakhstan-who-context
+  note: >-
+    Die WHO erläutert die fehlende wissenschaftliche Aussagekraft und die allgemeinen körperlichen, psychischen
+    und sozialen Risiken von Jungfräulichkeitstests. Dies stellt den wissenschaftlichen Kontext der Episode wieder
+    her; es belegt keine lokale Einführung, Häufigkeit, einzelnen Verfahrensausgänge oder institutionelle Reaktion.
+- id: virginity-bangladesh-who-context
+  note: >-
+    Die WHO erläutert die fehlende wissenschaftliche Aussagekraft und die allgemeinen körperlichen, psychischen
+    und sozialen Risiken von Jungfräulichkeitstests. Dies stellt den wissenschaftlichen Kontext der Episode wieder
+    her; es belegt keine lokale Einführung, Häufigkeit, einzelnen Verfahrensausgänge oder institutionelle Reaktion.
+- id: virginity-pakistan-who-context
+  note: >-
+    Die WHO erläutert die fehlende wissenschaftliche Aussagekraft und die allgemeinen körperlichen, psychischen
+    und sozialen Risiken von Jungfräulichkeitstests. Dies stellt den wissenschaftlichen Kontext der Episode wieder
+    her; es belegt keine lokale Einführung, Häufigkeit, einzelnen Verfahrensausgänge oder institutionelle Reaktion.
+- id: virginity-georgia-who-context
+  note: >-
+    Die WHO erläutert die fehlende wissenschaftliche Aussagekraft und die allgemeinen körperlichen, psychischen
+    und sozialen Risiken von Jungfräulichkeitstests. Dies stellt den wissenschaftlichen Kontext der Episode wieder
+    her; es belegt keine lokale Einführung, Häufigkeit, einzelnen Verfahrensausgänge oder institutionelle Reaktion.
+- id: virginity-tajikistan-who-context
+  note: >-
+    Die WHO erläutert die fehlende wissenschaftliche Aussagekraft und die allgemeinen körperlichen, psychischen
+    und sozialen Risiken von Jungfräulichkeitstests. Dies stellt den wissenschaftlichen Kontext der Episode wieder
+    her; es belegt keine lokale Einführung, Häufigkeit, einzelnen Verfahrensausgänge oder institutionelle Reaktion.
+- id: virginity-iran-study-carrier
+  note: >-
+    Die Methodik verortet die Interviews von 2014 in Teheraner Forensikzentren und staatlichen Kliniken. Die Schilderungen
+    gerichtlicher Anordnungen und Bescheinigungen liefern den praxisbezogenen institutionellen Beleg, den der
+    allgemeine Abstract zur LMO nicht enthält.
+- id: virginity-indonesia-police-correction
+  note: >-
+    Der Artikel von 2021 erklärt ausdrücklich, die Polizei habe Jungfräulichkeitstests eingestellt; der Artikel
+    von 2022 wiederholt diese Darstellung. Das stützt eine berichtete Rücknahme der polizeilichen Rekrutierungspraxis,
+    ohne eine Überprüfung der Befolgung an jedem Standort zu behaupten.
+- id: virginity-indonesia-military-carrier
+  note: >-
+    Der Bericht nennt alle drei Teilstreitkräfte und beschreibt ihre frühere Rekrutierungspraxis sowie die streitkräfteweite
+    Mitteilung. Er stützt die militärischen Träger unabhängig von der polizeispezifischen Untersuchung von 2014.
+- id: virginity-indonesia-military-mechanism
+  note: >-
+    Die Heeresanweisung wird im Kontext früherer Untersuchungen weiblicher Rekrutinnen in den Sicherheitskräften
+    erörtert. Das stützt den militärischen Rekrutierungsmechanismus und den beabsichtigten Änderungsumfang, statt
+    militärische Verfahren einer Polizeiverordnung zuzuschreiben.
+- id: virginity-bangladesh-blast-correction
+  note: >-
+    Die Chronologie der klagenden Organisation verzeichnet das ergänzende Gesundheitsprotokoll und den Rückzug
+    der früheren Verteidigung durch das Ministerium am 10. April 2018. Am 12. April folgten acht Anordnungen des
+    High Court, darunter das Verbot des Zwei-Finger-Tests und Einschränkungen von Aussagen über die Sexualgeschichte.
+    Das dokumentiert eine formelle Reaktion im bezeichneten Untersuchungskontext.
+- id: virginity-georgia-pdo-mechanism
+  note: >-
+    Die Abschnitte 3.5–3.6 dokumentieren Untersuchungsanordnungen und Versuche von Ermittlern oder Staatsanwälten,
+    aus Hymenbefunden auf Penetration zu schließen, auch bei Anordnungen ohne entsprechenden Vorwurf. Sie belegen
+    die ungültige beweisbezogene Schlussfolgerung getrennt von einer späteren Leistungsbeschreibung zu Verletzungsuntersuchungen.
+- id: virginity-pakistan-lhc-carrier
+  note: >-
+    Das Primärurteil benennt Punjabs Gesundheits- und Gerichtsmedizinanweisungen einschließlich der Vorgaben des
+    Surgeon Medico Legal von 2015 als operative Grundlage der Tests auf angebliche Jungfräulichkeit. Es unterscheidet
+    die Nichtverwendung durch die Punjab Forensic Science Agency und die korrigierende Rolle des Gerichts. Die
+    Schlussabsätze erklären die einschlägigen Vorgaben für unwirksam und trennen notwendige medizinische Beurteilung
+    von der widerlegten Schlussfolgerung.
+- id: virginity-pakistan-lhc-mechanism
+  note: >-
+    Die Absätze 6–7 beschreiben die gerichtsmedizinischen Anweisungen und Formulare für Untersuchungen; die spätere
+    Analyse erläutert ihre Verwendung zur Beurteilung vermeintlicher Jungfräulichkeit. Der maßgebliche Verwaltungsmechanismus
+    besteht in der Vorgabe und ihrem beweisbezogenen Rückschluss, nicht in jeder klinisch notwendigen Untersuchung
+    einer betroffenen Person.
+- id: virginity-pakistan-lhc-consequences
+  note: >-
+    Das Urteil erörtert invasive Tests, Aussagen zur Sexualgeschichte und ihre Unvereinbarkeit mit Würde, Privatsphäre
+    und körperlicher Integrität. Es stützt das dokumentierte Verfahren und das Beweisrisiko, liefert aber keine
+    gemessene Zahl von Urteilen oder anderen rechtlichen Folgen, die durch diese Tests verursacht wurden.
+- id: virginity-pakistan-lhc-correction
+  note: >-
+    Die Schlussabsätze, insbesondere 32–33, erklären Jungfräulichkeitstests durch Zwei-Finger- oder Hymenuntersuchung
+    für rechtswidrig und verfassungswidrig und beseitigen die einschlägigen Teile der gerichtsmedizinischen Anweisungen
+    und Richtlinien. Die Entscheidung betrifft die Feststellung angeblicher Jungfräulichkeit; sie verbietet keine
+    medizinisch notwendige Beurteilung.
+- id: virginity-pakistan-act-correction
+  note: >-
+    Paragraf 13 Absatz 1 untersagt Zwei-Finger-Jungfräulichkeitstests bei gerichtsmedizinischen Untersuchungen
+    von Opfern der erfassten Straftaten und entzieht ihnen Beweiswert. Paragraf 1 bestimmt die landesweite räumliche
+    Geltung und einen gesonderten Mechanismus für das Inkrafttreten. Das Gesetz liefert die genaue Regel; daraus
+    wird weder ein ungeprüftes Inkrafttretensdatum noch eine pauschale spätere Befolgung abgeleitet.
+- id: virginity-tajikistan-cedaw-carrier
+  note: >-
+    Die Delegation nennt das National Centre of Forensic Medicine ausdrücklich unter den Behörden, die solche
+    Untersuchungen in Strafverfahren durchführen dürfen. Das ist ein direkter Beleg für den benannten forensischen
+    Träger, keine Schlussfolgerung, sämtliche Gesundheitsbehörden hätten die Praxis übernommen.
+- id: virginity-tajikistan-cedaw-mechanism
+  note: >-
+    Die Erklärung benennt die Befugnis in strafrechtlichen Ermittlungen als fortbestehenden amtlichen Weg für
+    die Untersuchungen trotz des Verbots in medizinischen Einrichtungen. Sie belegt die erklärte Ermächtigung,
+    nicht deren Nutzungshäufigkeit oder die wissenschaftliche Aussagekraft der daraus gezogenen Schlussfolgerung.
+- id: virginity-tajikistan-cedaw-consequences
+  note: >-
+    Stützt die eng formulierte Folge, dass nach der Delegationserklärung im Januar 2024 ein forensischer Weg weiterhin
+    erlaubt war. Das Protokoll beschreibt keine einzelnen Verurteilungen, Bescheinigungen oder bezifferten Schäden
+    infolge dieser Ausnahme.

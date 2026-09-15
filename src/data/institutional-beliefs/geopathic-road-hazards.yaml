@@ -12,7 +12,7 @@ correction:
     particularly when conventional road-safety measures, conflicting crash counts, and normal statistical variation are
     also possible explanations.
 category: Transport and infrastructure
-reviewedAt: '2026-09-06'
+reviewedAt: '2026-09-15'
 episodes:
   - id: austria-2003-2008
     polity: Austria
@@ -107,6 +107,9 @@ evidence:
     sourceId: standard-asfinag-dowsing-2003
     relation: documents
     target: {scope: episode, episodeId: austria-2003-2008, aspect: carrier}
+    note: >-
+      Contemporary 2003 report quotes ASFINAG's spokesperson describing existing use of dowsers, quartz stones
+      and magnetic-field discs, the claimed driver mechanism, and plans to apply the approach on the S16.
   - id: geopathic-zeit-mechanism
     locator: "S16 intervention account and paragraphs quoting ASFINAG on its website and continued use"
     sourceId: zeit-asfinag-geopathic

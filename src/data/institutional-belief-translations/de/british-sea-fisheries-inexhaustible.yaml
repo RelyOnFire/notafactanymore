@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: british-sea-fisheries-inexhaustible
-sourceReviewedAt: '2026-09-06'
+sourceReviewedAt: '2026-09-15'
 title: Britische Fischereipolitik und die Annahme unerschöpflicher Hochseebestände
 proposition:
   summary: >-
@@ -103,7 +103,14 @@ evidence:
       Board-of-Trade-Präsident Joseph Chamberlain berief sich ausdrücklich auf die Royal Commission von 1866, als er eine
       neue Untersuchung ablehnte und erklärte, die Regierung könne effizientere Fangtechnik nicht zugunsten älterer Methoden verbieten.
   - id: fisheries-history-consequences
+    note: >-
+      Neuere historische Analyse der Kommission von 1866: Sie hörte Belege lokaler Rückgänge, wertete sie aber
+      nicht als Nachweis allgemeiner Hochseedepletion und empfahl die Aufhebung vieler Beschränkungen.
   - id: fisheries-huxley-context
+    note: >-
+      Huxleys Primärtext von 1883 unterscheidet erschöpfbare Lachs- und Austernfischereien von den großen
+      Hochseefischereien und erklärt Kabeljau-, Hering-, Sardinen- und Makrelenfischerei für praktisch
+      unerschöpflich, weshalb Regulierung nutzlos sei.
   - id: fisheries-1885-institutional-correction
     note: >-
       Parlamentarische Zusammenfassung, die den Befund von 1866 der Kommission von 1885 gegenüberstellt; diese akzeptierte,
@@ -125,3 +132,20 @@ evidence:
       Konkretes Beispiel einer Hochseefischerei mit Bestandsabschätzung, Wiederaufbau, Fangbegrenzungen,
       Gerätevorschriften und Schutzgebieten. Das moderne US-Beispiel belegt Managementpraxis, nicht die britische
       Korrekturgeschichte des 19. Jahrhunderts.
+  - id: fisheries-noaa-episode-context
+    note: >-
+      Moderner Bestandsmanagement-Rahmen, der dokumentiert, dass Fischerei Überfischung und geschwächte Bestände
+      verursachen kann und Managementmaßnahmen Bestände wiederaufbauen können. Moderner US-amerikanischer
+      Vergleichshintergrund zu dieser historischen Episode; die britische institutionelle Reaktion ist gesondert
+      durch Hansard belegt.
+  - id: fisheries-noaa-2024-episode-context
+    note: >-
+      Erklärt fischereibedingte Bestandsrückgänge, Bestandsabschätzung und Wiederaufbau durch geringere
+      Befischung. Auch Umweltveränderungen können Bestände verringern; ein geschwächter Bestand allein beweist
+      daher keine Überfischung. Moderner wissenschaftlicher Kontext, kein Beleg für eine britische
+      institutionelle Kehrtwende im Jahr 1885.
+  - id: fisheries-noaa-mackerel-episode-context
+    note: >-
+      Konkretes Beispiel einer Hochseefischerei mit Bestandsabschätzung, Wiederaufbau, Fangbegrenzungen,
+      Gerätevorschriften und Schutzgebieten. Das moderne US-Beispiel belegt Managementpraxis, nicht die
+      britische Korrekturgeschichte des 19. Jahrhunderts.

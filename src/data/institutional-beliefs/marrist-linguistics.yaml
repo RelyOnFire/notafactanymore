@@ -10,7 +10,7 @@ correction:
     linguistics can reconstruct genealogical relationships among related languages; languages do not pass through a
     universal sequence of class-defined developmental stages.
 category: Linguistics
-reviewedAt: '2026-09-07'
+reviewedAt: '2026-09-15'
 episodes:
   - id: soviet-union-1930-1950
     polity: Soviet Union
@@ -251,3 +251,30 @@ evidence:
       Records the Presidium's removal of Meshchaninov and Serdyuchenko from institute leadership, its merger request,
       and its October confirmation of the reorganization under the July government order. These are concrete actions by
       the institutional system that had upheld Marrism and support withdrawal of its privileged official position.
+  - id: marr-analysis-episode-context
+    sourceId: marr-yakubovich-analysis
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: context}
+    locator: 'Paragraphs beginning “Since the existence”, “The official name” and “Marr did not attempt”; closing paragraph on the 1950 intervention'
+    note: >-
+      Yakubovich explains Marr's replacement of language families with developmental stages and his failure to justify
+      a replacement for the comparative method. This is scholarly context for the doctrine and its scientific assessment.
+      The entry dates Stalin's intervention to 20 July 1950; the primary text gives 20 June, which is the date used here.
+  - id: marr-language-change-context
+    sourceId: marr-language-change
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: context}
+    locator: '“Is the English language changing?” and “Why does language change?”, PDF p. 3'
+    note: >-
+      The Linguistic Society of America describes language change through speakers' needs, social interaction,
+      innovation, borrowing, and changes in word order and pronunciation. This supplies the modern linguistic context;
+      it does not document the Soviet authorities' 1950 decisions.
+  - id: marr-comparative-context
+    sourceId: marr-comparative-linguistics
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-union-1930-1950, aspect: context}
+    locator: 'Chapter 14.8, “Reconstructing the past”: “Direct evidence”, “Comparing cognates” and “Pitfalls when searching for cognates”; publisher-hosted chapter: https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/chapter/14-8-reconstructing-the-past/'
+    note: >-
+      Explains reconstruction of common ancestors from related languages and the need to distinguish inherited
+      cognates from borrowings. The same edition's publisher-hosted chapter supplies this scientific context separately
+      from the political repudiation of Marrism.

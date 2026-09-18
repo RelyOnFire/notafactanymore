@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: remote-molecular-substance-detectors
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: 2026-09-18
 title: Fern-„Molekulardetektoren“ für Sprengstoff und Drogen
 proposition:
   summary: >-
@@ -25,7 +25,11 @@ impact:
     - value: '742'
       label: Von Mexikos SEDENA beschaffte GT200-Geräte laut Parlamentsunterlagen
     - value: 17 von 20
-      label: Fehlversuche des GT200 in einem Doppelblindtest mit zertifizierten Bedienern
+      label: Fehlversuche des GT200 in einem kontrollierten Test mit zertifizierten Bedienern
+      note: >-
+        Der Test vom Oktober 2011 war als Doppelblindversuch angelegt. Die Autoren legen offen, dass Bedienerwechsel
+        Zwischenergebnisse bekannt machten und die strikte Verblindung beeinträchtigten; der jeweils aktuelle Ort
+        der Probe blieb den Suchenden unbekannt.
     - value: 7.000+
       label: ADE-Geräte, die James McCormicks Unternehmen an die irakische Regierung und andere internationale Stellen verkaufte
   context:
@@ -35,68 +39,87 @@ impact:
       dass kein konkreter Todes- oder Verletzungsfall einem Gerät bewiesen zugerechnet werden könne, sah die erzeugte
       Scheinsicherheit aber mit hoher Wahrscheinlichkeit als materiellen Beitrag zu Tod und Verletzungen an.
     - >-
-      Betrieb und institutionelle Verteidigung des GT200 auf Bundesebene waren bis 2014 noch Gegenstand
-      parlamentarischer Auseinandersetzung. Daraus folgt nicht, dass an einem bestimmten Tag jedes GT200 aus jeder
-      bundesstaatlichen oder kommunalen Behörde verschwand.
+      2013 wurde die Einstellung der Nutzung auf Bundesebene angekündigt; ein parlamentarischer Antrag vom März
+      2014 forderte eine Untersuchung der früheren Beschaffung und Nutzung. Diese Ankündigungen belegen keinen
+      abgeschlossenen Rückzug der Geräte: Die Testautoren beschreiben widersprüchliche amtliche Aussagen und spätere
+      Einsätze in einzelnen mexikanischen Bundesstaaten bis 2015. Diese lokalen Berichte belegen keine fortgesetzte
+      Nutzung durch die hier aufgeführten Bundesinstitutionen bis 2014.
 episodes:
   - id: mexico-2008-2014
     polity: Mexiko
+    periodLabel: 2008–mindestens 2013
     institutions:
       - Secretaría de la Defensa Nacional (SEDENA)
       - Secretaría de Marina (SEMAR)
       - Procuraduría General de la República (PGR)
       - Petróleos Mexicanos (PEMEX)
     institutionalContext: >-
-      Die mexikanische Bundesregierung beschaffte GT200-Geräte für militärische, sicherheitsbehördliche,
-      staatsanwaltschaftliche und infrastrukturelle Aufgaben. SEDENA dokumentierte Einsätze öffentlich; die nationale
-      Menschenrechtskommission berichtete zugleich über militärische Nutzung von Geräteanzeigen bei Einsätzen gegen
-      organisierte Kriminalität und Hausbetretungen. Zwischen 2011 und 2014 stellten Wissenschaftler, Gerichte, CNDH und
-      Parlamentarier die Validität zunehmend infrage, während Parlamentsunterlagen weiterhin Betrieb und fehlende
-      einheitliche Aussetzung auf Bundesebene thematisierten.
+      Parlamentsunterlagen nennen SEDENA, SEMAR, PGR und PEMEX als Käufer von GT200-Geräten auf Bundesebene. SEDENA
+      dokumentierte Einsätze öffentlich; die nationale Menschenrechtskommission berichtete zugleich, dass die
+      Streitkräfte Geräteanzeigen bei Einsätzen gegen organisierte Kriminalität und Hausbetretungen heranzogen.
+      Die Beschaffungsliste belegt nicht, dass PEMEX Festnahmen oder Hausdurchsuchungen durchführte. Die CNDH empfahl
+      2011, auf den militärischen Einsatz zu verzichten; 2013 folgten Ankündigungen zur Einstellung der Nutzung auf
+      Bundesebene. Der Zeitraum umfasst die belegte institutionelle Übernahme auf Bundesebene, ohne festzustellen,
+      wann sämtliche Bundesbehörden die Nutzung beendeten.
     summary: >-
-      Ab 2008 beschafften mexikanische Bundesbehörden GT200-„Molekulardetektoren“ zur Suche nach Drogen, Sprengstoff,
-      Waffen und ähnlichen Zielen. Parlamentsunterlagen nennen 742 Geräte für SEDENA, 102 für SEMAR, 54 für PEMEX und
-      sieben für die PGR. SEDENA-Pressemitteilungen dokumentieren ihren operativen Einsatz; die CNDH berichtete, dass
-      Streitkräfte GT200-Anzeigen in Ermittlungen gegen organisierte Kriminalität nutzten und darauf teilweise
-      Hausbetretungen stützten. Ein späterer Doppelblindtest mit zertifizierten Bedienern scheiterte in 17 von 20 Versuchen,
-      was mit Zufall vereinbar war. Bis 2014 hatten sich gerichtliche, wissenschaftliche, menschenrechtliche und
-      parlamentarische Einwände zu einer offenen institutionellen Auseinandersetzung entwickelt.
+      Parlamentarische Darstellungen datieren die GT200-Beschaffung auf Bundesebene auf 2008 und nennen 742 Geräte
+      für SEDENA, 102 für SEMAR, 54 für PEMEX und sieben für die PGR. Die Geräte wurden zur Suche nach Drogen,
+      Sprengstoff und Waffen sowie für verwandte Sicherheitsaufgaben erworben. SEDENA dokumentierte ihren operativen
+      Einsatz; die CNDH berichtete, dass Streitkräfte GT200-Anzeigen in Ermittlungen gegen organisierte Kriminalität
+      nutzten und darauf teilweise Hausbetretungen stützten. Im Oktober 2011 scheiterten zertifizierte Bediener in
+      einem kontrollierten Test in 17 von 20 Versuchen. Das Ergebnis war mit Zufall vereinbar; dabei bestand die oben
+      erläuterte Einschränkung der Verblindung. Gerichte und CNDH stellten die Verlässlichkeit beziehungsweise
+      Zulässigkeit der Nutzung infrage. Ein Sprecher auf Bundesebene kündigte 2013 an, die Geräte nicht mehr zu
+      verwenden; Parlamentarier forderten 2014 weitere Untersuchungen. Weder die Ankündigung noch diese Anträge
+      belegen eine vollständige Einstellung der Nutzung oder eine abgeschlossene Beschaffungsuntersuchung.
     consequences:
       - GT200-Anzeigen wurden bei militärischen Einsätzen und Maßnahmen gegen organisierte Kriminalität verwendet
       - Gerätesignale trugen zu Durchsuchungen, Hausbetretungen, Festnahmen und Strafverfahren bei
-      - Bundesbehörden gaben öffentliche Mittel für mehr als tausend Geräte im mexikanischen Staatsapparat aus
+      - Ein parlamentarischer Antrag vom März 2014 berichtete von 1.112 Geräten, die Stellen des Bundes, der Bundesstaaten und der Kommunen zusammen erworben hatten, nicht allein die Bundesbehörden
       - Gerichte und Menschenrechtsorgane befassten sich später mit den wissenschaftlichen und verfassungsrechtlichen Folgen der Nutzung
     mechanism:
       summary: >-
-        Bundesbehörden beschafften GT200-Geräte und machten deren Anzeigen zu operativen Eingaben für militärische,
-        staatsanwaltschaftliche und infrastrukturelle Durchsuchungen, Festnahmen und Hausbetretungen.
+        Die Beschaffung auf Bundesebene verlieh dem GT200 institutionelle Autorität. SEDENA setzte ihn bei
+        militärischen Einsätzen ein; die CNDH dokumentierte, dass Streitkräfte seine Anzeigen als Grundlage für
+        Hausbetretungen ohne richterlichen Beschluss behandelten. Auf Geräteanzeigen gestützte Vorwürfe gelangten
+        auch in Strafverfahren, darunter von der PGR betriebene Verfahren. PEMEX ist hier als Käufer belegt, ohne
+        dass dem Unternehmen diese Zwangsmaßnahmen zugeschrieben werden.
     institutionalCorrection:
       periodLabel: 2011–2014
-      action: Gerichte, CNDH, Wissenschaftler und Parlamentarier stellten die GT200-Nutzung infrage; eine einheitliche bundesweite Aussetzung durch die Exekutive ist für den Zeitraum nicht dokumentiert.
+      action: Die CNDH empfahl 2011, auf den militärischen Einsatz zu verzichten; Gerichte stellten Geräteanzeigen als Beweismittel infrage, ein Bundessprecher kündigte 2013 die Nichtverwendung an, und Parlamentarier beantragten 2014 weitere Untersuchungen.
       summary: >-
-        In Mexiko entstand ein erhebliches institutionelles Gegengewicht gegen den GT200 aus menschenrechtlichen,
-        wissenschaftlichen, gerichtlichen und parlamentarischen Einwänden. Da Parlamentsunterlagen bis 2014 weiterhin
-        Bundesnutzung und das Fehlen einer einheitlichen Aussetzung beschrieben, blieb die Korrektur unvollständig.
+        Die CNDH-Empfehlung von 2011 beanstandete Hausdurchsuchungen ohne richterlichen Beschluss unabhängig von der
+        Wirksamkeit des Geräts. Ein gerichtlich angeordneter Test floss in ein Verfahren ein, das im Mai 2013 mit einer
+        Freilassung endete; die PGR gab ein anderes Verfahren auf, bevor der Oberste Gerichtshof einen Präzedenzfall
+        schaffen konnte. Ein Sicherheitssprecher kündigte im August 2013 die Nichtverwendung an; ein parlamentarischer
+        Antrag vom März 2014 hielt eine angekündigte Einstellung auf Bundesebene fest. Die Testautoren fanden jedoch
+        keine anschließende amtliche Erklärung und berichteten über widersprüchliche Aussagen sowie spätere lokale
+        Einsätze. Parlamentarische Forderungen nach Untersuchungen und Fallprüfungen waren Anträge und belegen keine
+        abgeschlossenen Abhilfemaßnahmen. Die dokumentierten Reaktionen tragen die Einstufung als teilweise Korrektur,
+        ohne eine vollständige Einstellung der Nutzung auf Bundesebene oder im ganzen Land zu belegen.
   - id: iraq-2007-2016
     polity: Irak
+    periodLabel: 2007–mindestens Juli 2016
     institutions:
       - Ministry of Interior of Iraq
-      - General Directorate for Combating Explosives, Ministry of Interior
-      - Iraqi Police Service
+      - Directorate for Combating Explosives, Ministry of Interior
     institutionalContext: >-
       Die Beschaffung durch das Innenministerium begann mit Vertrag 2/2007 nach einem Bedarf aus der für
       Sprengstoffbekämpfung zuständigen Direktion. Geräte der ADE-Familie wurden anschließend an irakischen Kontrollstellen
       eingesetzt und blieben trotz internationaler Warnungen, Korruptionsermittlungen und der britischen Betrugsverurteilung
-      des Verkäufers von 2013 im Polizeieinsatz. Premierminister Haider al-Abadi ordnete erst im Juli 2016 an, die
-      Scheindetektoren nicht mehr zu verwenden.
+      des Verkäufers von 2013 im Polizeieinsatz. Premierminister Haider al-Abadi ordnete am 3. Juli 2016 an, die
+      Scheindetektoren nicht mehr zu verwenden. Spätere Berichte und der Sprecher des Innenministeriums bestätigten,
+      dass die Rücknahme der Geräte im weiteren Verlauf dieses Monats noch unvollständig war.
     summary: >-
       Das irakische Innenministerium begann 2007 mit der Beschaffung von ADE-Geräten für die Sprengstoffabwehr; die
       Geräte wurden anschließend zum vertrauten Bestandteil von Polizei- und Sicherheitskontrollstellen. 2013 verurteilte
       das Central Criminal Court in London den Verkäufer James McCormick wegen Betrugs. Der Richter bezeichnete die
       Geräte als nutzlos und ihre Sprengstofferkennung als nicht besser als Zufall; die erzeugte Scheinsicherheit habe
       mit hoher Wahrscheinlichkeit zu Tod und Verletzungen beigetragen, ohne dass ein konkretes Opfer einem Gerät sicher
-      zugerechnet werden könne. Trotzdem blieben die Geräte bis Juli 2016 im irakischen Polizeieinsatz, als Premierminister
-      Haider al-Abadi den Sicherheitsdiensten ihre weitere Nutzung untersagte.
+      zugerechnet werden könne. Die Geräte waren trotzdem noch im irakischen Polizeieinsatz, als Premierminister
+      Haider al-Abadi den Sicherheitsdiensten am 3. Juli 2016 ihre weitere Nutzung untersagte. Das Innenministerium
+      räumte anschließend ein, dass sie während der Rücknahme teilweise weiter verwendet wurden. Die Anordnung
+      belegt daher kein sofortiges Ende der Nutzung.
     consequences:
       - ADE-Geräte wurden zur Kontrolle von Fahrzeugen und Personen an Sicherheitskontrollstellen eingesetzt
       - Sicherheitskräfte vertrauten Geräteanzeigen bei der Bewertung von Sprengstoffgefahr
@@ -111,8 +134,10 @@ episodes:
       periodLabel: Juli 2016
       action: Premierminister Haider al-Abadi ordnete den Sicherheitsdiensten an, die falschen Bombendetektoren nicht mehr zu verwenden.
       summary: >-
-        Nach Jahren von Warnungen und der Betrugsverurteilung des Verkäufers erließ die irakische Regierung eine direkte
-        Anweisung zur Einstellung der Nutzung und beendete damit die offizielle Verwendung durch die Sicherheitsdienste.
+        Die Anordnung vom 3. Juli 2016 zur Einstellung der Nutzung war eine ausdrückliche politische Kehrtwende.
+        Später im selben Monat räumte das Innenministerium ein, dass die Rücknahme unvollständig war und manche
+        Kontrollstellen die Geräte weiterhin einsetzten. Die Einstufung beschreibt den belegten Umsetzungsstand vom
+        Juli 2016; sie behauptet weder eine abgeschlossene Rücknahme noch eine bis heute fortgesetzte Nutzung.
 evidence:
   - id: detector-sedena-proposition
     note: >-
@@ -120,22 +145,34 @@ evidence:
       dokumentiert und zeigt, dass das Gerät als aktives Sicherheitsinstrument verwendet und nicht nur beschafft wurde.
   - id: detector-ieee-correction
     note: >-
-      Fachwissenschaftliche Studie über einen Doppelblindtest, bei dem zertifizierte Bediener in 17 von 20 Versuchen
-      Amphetamintabletten und Munition in einem von acht identischen Behältern nicht fanden; das Ergebnis war mit Zufall vereinbar.
+      Fachwissenschaftliche Studie über einen kontrollierten Test, bei dem zertifizierte Bediener in 17 von 20
+      Versuchen Clorobenzorex-Kapseln und Munition in einem von acht identischen Behältern nicht fanden; das Ergebnis
+      war mit Zufall vereinbar. Bedienerwechsel machten Zwischenergebnisse bekannt und beeinträchtigten das vorgesehene
+      Doppelblindprotokoll; der jeweils aktuelle Ort der Probe blieb den Suchenden unbekannt.
   - id: detector-mccormick-correction
     note: >-
       Das Strafgericht hält fest, dass mehr als 7.000 ADE-Geräte an die irakische Regierung und andere internationale
       Stellen verkauft wurden, bezeichnet sie als nutzlos und bei der Sprengstofferkennung nicht besser als Zufall und beschreibt die erzeugte Scheinsicherheit.
   - id: detector-diputados-impact
     note: >-
-      Parlamentsprotokoll mit 742 GT200 für SEDENA, 102 für SEMAR, 54 für PEMEX und sieben für die PGR; dokumentiert
-      Bedenken zu Durchsuchungen, Festnahmen, Strafverfahren und fortgesetztem Betrieb auf Bundesebene.
+      Der am 31. Oktober 2013 im Parlamentsprotokoll verzeichnete Antrag nennt 742 GT200 für SEDENA, 102 für SEMAR,
+      54 für PEMEX und sieben für die PGR. Seine Autoren äußerten Bedenken zu Durchsuchungen, Festnahmen,
+      Strafverfahren und fortgesetzter Bundesnutzung. Der Eintrag dokumentiert ihre Aussagen sowie die beantragte
+      Untersuchung und Fallprüfung, keine abgeschlossenen Abhilfemaßnahmen oder belegte Bundesnutzung bis 2014.
   - id: detector-mexico-carrier
     note: >-
       Amtliche CNDH-Empfehlung, wonach die mexikanischen Streitkräfte den GT200 bei zahlreichen Maßnahmen gegen organisierte
       Kriminalität einsetzten und Geräteanzeigen zur Begründung von Hausbetretungen ohne richterlichen Beschluss verwendet wurden.
   - id: detector-mexico-mechanism
+    note: >-
+      Offizielle SEDENA-Mitteilung von 2009, die den operativen Einsatz eines GT200 bei einer Drogenbekämpfungsmaßnahme
+      dokumentiert und zeigt, dass das Gerät als aktives Sicherheitsinstrument verwendet und nicht nur beschafft wurde.
   - id: detector-mexico-consequences
+    note: >-
+      Der am 31. Oktober 2013 im Parlamentsprotokoll verzeichnete Antrag nennt 742 GT200 für SEDENA, 102 für SEMAR,
+      54 für PEMEX und sieben für die PGR. Seine Autoren äußerten Bedenken zu Durchsuchungen, Festnahmen,
+      Strafverfahren und fortgesetzter Bundesnutzung. Der Eintrag dokumentiert ihre Aussagen sowie die beantragte
+      Untersuchung und Fallprüfung, keine abgeschlossenen Abhilfemaßnahmen oder belegte Bundesnutzung bis 2014.
   - id: detector-mexico-partial-correction
   - id: detector-iraq-carrier
     note: >-
@@ -143,7 +180,48 @@ evidence:
       Bedarf der Sprengstoffbekämpfungsdirektion beruhte, ministerielle Prüfungen durchlief und vom Innenminister genehmigt wurde.
   - id: detector-iraq-mechanism
   - id: detector-iraq-consequences
+    note: >-
+      Das Strafgericht hält fest, dass mehr als 7.000 ADE-Geräte an die irakische Regierung und andere internationale
+      Stellen verkauft wurden, bezeichnet sie als nutzlos und bei der Sprengstofferkennung nicht besser als Zufall und beschreibt die erzeugte Scheinsicherheit.
   - id: detector-iraq-correction
     note: >-
       Berichtet über die Anordnung von Premierminister Haider al-Abadi im Juli 2016, die falschen Bombendetektoren nicht
       mehr zu verwenden, und bestätigt, dass die irakische Polizei sie fünf Jahre nach Bekanntwerden des Verkaufsskandals noch einsetzte.
+  - id: detector-mexico-procurement-carriers
+  - id: detector-mexico-procurement-context
+    note: >-
+      Der Antrag des Senators datiert die Beschaffung auf Bundesebene auf 2008 und fordert Schritte zur Erlangung
+      von Entschädigung. Er liefert die parlamentarische Darstellung des Beschaffungsdatums; der Antrag belegt
+      nicht, dass eine Entschädigung erfolgte.
+  - id: detector-cndh-mexico-mechanism
+  - id: detector-cndh-mexico-consequences
+  - id: detector-cndh-mexico-correction
+  - id: detector-ieee-mexico-test
+    note: >-
+      Fachwissenschaftliche Studie über einen kontrollierten Test, bei dem zertifizierte Bediener in 17 von 20
+      Versuchen Clorobenzorex-Kapseln und Munition in einem von acht identischen Behältern nicht fanden; das Ergebnis
+      war mit Zufall vereinbar. Bedienerwechsel machten Zwischenergebnisse bekannt und beeinträchtigten das vorgesehene
+      Doppelblindprotokoll; der jeweils aktuelle Ort der Probe blieb den Suchenden unbekannt.
+  - id: detector-ieee-mexico-correction
+  - id: detector-ieee-mexico-consequences
+  - id: detector-mexico-2014-procurement-scope
+    note: >-
+      Marino Miranda Salgados Antrag unterscheidet bei der genannten Gesamtzahl von 1.112 Geräten zwischen Käufen
+      durch Bund, Bundesstaaten und Kommunen. Er hält eine nach der Verurteilung vom August 2013 angekündigte
+      Einstellung auf Bundesebene fest und fordert eine Untersuchung der Beschaffung und früheren Nutzung. Seine
+      Überweisung an einen Ausschuss belegt keine abgeschlossenen Untersuchungen.
+  - id: detector-mexico-2014-withdrawal-announcement
+  - id: detector-alsumaria-proposition
+  - id: detector-iraq-procurement-consequences
+  - id: detector-iraq-continued-use
+  - id: detector-iraq-withdrawal-incomplete
+    note: >-
+      Folgeberichte dokumentieren Einsätze nach dem Verbot vom Juli und das Eingeständnis des Innenministeriums,
+      dass die Rücknahme unvollständig war. Das belegt eine damals teilweise umgesetzte Reaktion, ohne das Datum
+      der endgültigen Rücknahme zu klären.
+  - id: detector-iraq-warnings-and-investigation
+  - id: detector-iraq-export-restrictions
+    note: >-
+      In ihrer Erörterung des mexikanischen GT200 verzeichnet die CNDH auch das britische Verbot von ADE651-Exporten
+      nach Irak und Afghanistan wegen Zweifeln an der Wirksamkeit. Die spätere irakische Nutzung ist durch die Berichte
+      von Reuters und Associated Press belegt.

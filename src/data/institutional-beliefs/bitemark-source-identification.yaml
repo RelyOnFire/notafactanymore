@@ -6,18 +6,19 @@ proposition:
     or strongly associate a particular person as the biter.
 correction:
   summary: >-
-    The scientific premises required for individual bitemark attribution have not been established. Human anterior
-    dentition has not been shown to be unique at the individual level for this purpose, skin does not consistently
-    preserve dental patterns without distortion, and examiners have not been shown to analyze injury patterns reliably
-    enough to identify or reliably include a source. Dental comparison may have limited investigative or exclusionary
-    uses in some contexts, but it does not support individual source identification from a skin injury.
+    The scientific premises required for individual bitemark attribution have not been established. Human
+    anterior dentition has not been shown to be unique at the individual level for this purpose, skin does not
+    consistently preserve dental patterns without distortion, and examiners have not been shown to analyze
+    injury patterns reliably enough to identify a source. NIST’s 2023 review also found insufficient data to
+    establish accurate exclusion or non-exclusion of a person from a skin-bitemark comparison. Restricting
+    conclusions to those terms does not establish the method’s validity.
 category: Forensic medicine and identification
-reviewedAt: 2026-08-23
+reviewedAt: 2026-09-18
 impact:
   summary: >-
-    Bitemark analysis became standardized and courtroom-influential before its core source-identification assumptions
-    had been validated. Later professional restrictions and scientific reviews progressively narrowed what an examiner
-    could responsibly claim from a patterned injury on skin.
+    Bitemark analysis acquired professional guidelines and courtroom influence before its core
+    source-identification assumptions had been validated. Later professional restrictions and scientific reviews
+    progressively narrowed what an examiner could responsibly claim from a patterned injury on skin.
   highlights:
     - value: '1984'
       label: ABFO promulgated guidelines and a uniform scoring system for bitemark analysis
@@ -30,8 +31,10 @@ impact:
       The disputed source-attribution claim concerns matching a skin injury to a living person's teeth. Forensic
       identification of human remains from dental records and radiographs is a separate, well-established practice.
     - >-
-      Professional practice did not disappear in 2015. That date marks a significant narrowing of the strongest source
-      conclusion within ABFO guidance; current ABFO-style conclusions are limited to exclude, not exclude, or inconclusive.
+      Professional practice did not disappear in 2015. That date marks a significant narrowing of the strongest
+      source conclusion within ABFO guidance. Its 2018 standards limited linkage conclusions to excluded, not
+      excluded, or inconclusive; NIST’s subsequent review did not establish the scientific reliability of those
+      conclusions.
 episodes:
   - id: united-states-1984-2015
     polity: United States
@@ -53,7 +56,7 @@ episodes:
       but published decisions repeatedly treated bitemark comparison as an accepted means of identification.
     consequences:
       - Bitemark comparison testimony was admitted and used in criminal courts
-      - Suspects could be included or identified from patterned injuries on skin
+      - "Examiners claimed to include or identify suspects from patterned injuries on skin"
       - Source opinions could materially strengthen otherwise circumstantial prosecutions
       - Professional conclusion language was later restricted as the scientific foundation came under sustained review
     summary: >-
@@ -68,16 +71,19 @@ episodes:
     mechanism:
       kind: standard-setting
       summary: >-
-        ABFO standardized bitemark collection and comparison through professional guidelines and a scoring framework,
-        giving practitioners a common methodology and conclusion language that entered criminal and military courts.
+        ABFO issued collection guidelines and a scoring system intended to standardize bitemark comparison. Its
+        drafting committee warned in 1988 against relying on precise point counts, while source judgments
+        continued to depend on examiner interpretation.
     institutionalCorrection:
       status: partial
-      periodLabel: '2015'
-      action: ABFO guidance stopped supporting an unconditional “The Biter” conclusion in open-population cases.
+      periodLabel: "2015–2018"
+      action: "ABFO restricted open-population identification in its 2015 manual and limited linkage conclusions to three categories in its 2018 standards."
       summary: >-
-        ABFO narrowed the strongest permissible source conclusion rather than abandoning bitemark practice entirely.
-        Later scientific reviews further undermined individual-source attribution, while contemporary professional
-        conclusion language remains limited rather than individualizing.
+        The 2015 manual did not support an unconditional “The Biter” conclusion in an open-population case. The
+        2018 standards prohibited unconditional linkage and permitted excluded, not excluded, or inconclusive
+        conclusions. These documented restrictions changed professional conclusion language without abandoning
+        skin-bitemark comparison. NIST’s later scientific review found insufficient data to establish accurate
+        exclusion or non-exclusion.
 sources:
   - id: abfo-bitemark-guidelines
     title: Guidelines for bite mark analysis — American Board of Forensic Odontology
@@ -99,51 +105,158 @@ sources:
     title: Forensic Bitemark Analysis Not Supported by Sufficient Data, NIST Draft Review Finds
     url: https://www.nist.gov/news-events/news/2022/10/forensic-bitemark-analysis-not-supported-sufficient-data-nist-draft-review
     publisher: National Institute of Standards and Technology
+  - id: abfo-manual-2015
+    title: ABFO Reference Manual — March 2015
+    url: https://www.abfo.org/wp-content/uploads/2012/08/ABFO-Reference-Manual-March-2015.pdf
+    publisher: American Board of Forensic Odontology
+  - id: abfo-bitemark-standards-2018
+    title: ABFO Standards & Guidelines for Evaluating Bitemarks — February 2018
+    url: https://abfo.org/wp-content/uploads/2012/08/ABFO-Standards-Guidelines-for-Evaluating-Bitemarks-Feb-2018.pdf
+    publisher: American Board of Forensic Odontology
 evidence:
   - id: bitemark-abfo-proposition
     sourceId: abfo-bitemark-guidelines
-    relation: documents
+    relation: contextualizes
     target: {scope: belief, aspect: proposition}
+    locator: "PubMed PMID 3457076, abstract (1986); full article not inspected."
     note: >-
-      The 1986 published ABFO guidelines state that bitemark evidence was used in many courts and military justice
-      and provide detailed standardized methods for collecting and analyzing the evidence.
+      The inspected abstract of the 1986 ABFO guidelines records use of bitemark evidence in courts and military
+      justice and describes methods for collecting it. The full article was not inspected; this abstract does
+      not establish the scientific validity of source identification.
   - id: bitemark-nist-correction
     sourceId: nist-bitemark-final
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: "Linked final report NIST IR 8352 (March 2023), Executive Summary p. 2 and Introduction p. 4, Key Takeaway #1.1 (printed pagination)."
     note: >-
       Final NIST publication reviewing the scientific foundations of forensic bitemark analysis and the evidence
-      needed to support source-comparison claims.
+      needed to support source-comparison claims. Its finding of insufficient data extends to accurate exclusion
+      and non-exclusion from skin-bitemark comparisons.
   - id: bitemark-nist-premises
     sourceId: nist-bitemark-draft-news
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: "October 2022 draft-review news release, paragraphs listing the three premises and discussing ABFO conclusion categories."
     note: >-
-      Explains the review's three unsupported premises: individual uniqueness of anterior dental patterns, consistent
-      transfer of those patterns to skin, and reliable examiner analysis of the resulting injury pattern.
+      Explains the review's three unsupported premises: individual uniqueness of anterior dental patterns,
+      consistent transfer of those patterns to skin, and reliable examiner analysis of the resulting injury
+      pattern.
   - id: bitemark-nrc-impact
     sourceId: nrc-forensic-identification-guide
-    relation: supports
+    relation: documents
     target: {scope: belief, aspect: impact}
+    locator: "Reference Manual on Scientific Evidence, 3rd ed. (2011), pp. 106–111, discussion of bitemark evidence."
     note: >-
       Reconstructs ABFO's 1984 promulgation of a uniform scoring system, its early reliability claims, and the
       persistent subjectivity and lack of an accepted minimum number of matching features for individualization.
+      This source covers the earlier professional and courtroom history; later milestones have separate evidence
+      links.
   - id: bitemark-abfo-carrier
     sourceId: abfo-bitemark-guidelines
     relation: documents
     target: {scope: episode, episodeId: united-states-1984-2015, aspect: carrier}
+    locator: "PubMed PMID 3457076, ABFO attribution and abstract (1986)."
+    note: >-
+      The inspected abstract of the 1986 ABFO guidelines records use of bitemark evidence in courts and military
+      justice and describes methods for collecting it. The full article was not inspected; this abstract does
+      not establish the scientific validity of source identification.
   - id: bitemark-nrc-mechanism
     sourceId: nrc-forensic-identification-guide
-    relation: supports
+    relation: documents
     target: {scope: episode, episodeId: united-states-1984-2015, aspect: mechanism}
+    locator: "Reference Manual on Scientific Evidence, 3rd ed. (2011), p. 107, discussion of the ABFO scoring system, including the 1988 committee letter and note 325."
+    note: >-
+      Reconstructs ABFO's 1984 promulgation of a uniform scoring system, its early reliability claims, and the
+      persistent subjectivity and lack of an accepted minimum number of matching features for individualization.
+      It also records the drafting committee’s 1988 warning against reliance on precise point counts; issuing
+      guidance did not establish a reliable identification method.
   - id: bitemark-abfo-consequences
     sourceId: abfo-bitemark-guidelines
-    relation: supports
+    relation: documents
     target: {scope: episode, episodeId: united-states-1984-2015, aspect: consequences}
+    locator: "PubMed PMID 3457076, abstract, opening sentence on courts and military justice."
+    note: >-
+      Documents courtroom and military-justice use, the first consequence. It does not document later
+      exonerations or restrictions on conclusion language.
   - id: bitemark-nasem-institutional-correction
     sourceId: nasem-feature-comparison-guide
     relation: documents
     target: {scope: episode, episodeId: united-states-1984-2015, aspect: institutional-correction}
+    locator: "Bitemark Identification, The Technique, footnote 377 citing the March 2015 ABFO Reference Manual, p. 102."
     note: >-
-      Records that the 2015 ABFO reference manual did not support a conclusion of “The Biter” in an open-population
-      case and summarizes the scientific and judicial history of bitemark source claims.
+      Records that the 2015 ABFO reference manual did not support a conclusion of “The Biter” in an
+      open-population case and summarizes the scientific and judicial history of bitemark source claims.
+  - id: bitemark-nrc-proposition
+    sourceId: nrc-forensic-identification-guide
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: "Reference Manual on Scientific Evidence, 3rd ed. (2011), pp. 105–107 and 110–111, technique and case-law discussions."
+    note: >-
+      Records claims of identifying particular biters and court decisions accepting such testimony; it does not
+      validate those claims.
+  - id: bitemark-nrc-consequences
+    sourceId: nrc-forensic-identification-guide
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1984-2015, aspect: consequences}
+    locator: "Reference Manual on Scientific Evidence, 3rd ed. (2011), pp. 109–111, DNA exonerations (especially note 336 on Krone) and Case Law Development."
+    note: >-
+      Documents court use and individualizing testimony. Note 336 describes bitemark evidence as crucial in the
+      Krone prosecution because little other evidence suggested guilt, supporting the consequence about the
+      weight given to source opinions.
+  - id: bitemark-nist-impact
+    sourceId: nist-bitemark-final
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: "Publication record dated March 7, 2023; linked final report NIST IR 8352, Executive Summary."
+    note: >-
+      Establishes the 2023 final-review milestone and its finding that the scientific foundation was
+      insufficient.
+  - id: bitemark-nist-episode-context
+    sourceId: nist-bitemark-final
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-1984-2015, aspect: context}
+    locator: "Linked final report NIST IR 8352 (March 2023), Executive Summary p. 2 and Introduction p. 4, Key Takeaway #1.1 (printed pagination)."
+    note: >-
+      Final NIST publication reviewing the scientific foundations of forensic bitemark analysis and the evidence
+      needed to support source-comparison claims. Its finding of insufficient data extends to accurate exclusion
+      and non-exclusion from skin-bitemark comparisons.
+  - id: bitemark-nist-premises-context
+    sourceId: nist-bitemark-draft-news
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-1984-2015, aspect: context}
+    locator: "October 2022 draft-review news release, paragraphs listing the three premises and discussing ABFO conclusion categories."
+    note: >-
+      Explains the review's three unsupported premises: individual uniqueness of anterior dental patterns,
+      consistent transfer of those patterns to skin, and reliable examiner analysis of the resulting injury
+      pattern.
+  - id: bitemark-abfo-2015-impact
+    sourceId: abfo-manual-2015
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: "March 2015 ABFO Reference Manual, p. 102, Bitemark Terminology, The Biter (printed pagination)."
+    note: >-
+      The manual explicitly withholds support for an unconditional “The Biter” conclusion in an open population,
+      establishing the 2015 highlight.
+  - id: bitemark-abfo-2015-correction
+    sourceId: abfo-manual-2015
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1984-2015, aspect: institutional-correction}
+    locator: "March 2015 ABFO Reference Manual, p. 102, Bitemark Terminology, The Biter (printed pagination)."
+    note: >-
+      Primary documentation of the 2015 open-population restriction. The manual still lists other attribution
+      categories; this was a partial change in professional guidance.
+  - id: bitemark-abfo-2018-correction
+    sourceId: abfo-bitemark-standards-2018
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1984-2015, aspect: institutional-correction}
+    locator: "February 2018 standards, sections 1(f), 2(c), and 3, Bitemark Linkage Conclusions (printed p. 6)."
+    note: >-
+      Prohibits unconditional linkage to a dentition and limits linkage conclusions to excluded, not excluded,
+      or inconclusive. Permitting these terms does not establish their scientific reliability.
+  - id: bitemark-abfo-2018-consequences
+    sourceId: abfo-bitemark-standards-2018
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1984-2015, aspect: consequences}
+    locator: "February 2018 standards, sections 1(f), 2(c), and 3, Bitemark Linkage Conclusions (printed p. 6)."
+    note: >-
+      Documents the later restriction of professional conclusion language, the fourth consequence.

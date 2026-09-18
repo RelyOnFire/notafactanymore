@@ -13,7 +13,7 @@ correction:
     probability. Mitochondrial or nuclear DNA testing can provide more meaningful source information when suitable
     biological material is available.
 category: Forensic science and criminal evidence
-reviewedAt: 2026-08-23
+reviewedAt: 2026-09-18
 impact:
   summary: >-
     The FBI's later review identified a systemic problem in how microscopic similarities were communicated, not a
@@ -21,16 +21,18 @@ impact:
     language made a limited association sound far more source-specific than the underlying method allowed.
   highlights:
     - value: '96%'
-      label: 257 of 268 reviewed inculpatory trial transcripts contained erroneous examiner statements
+      label: "257 of 268 cases with reviewed inculpatory trial testimony contained erroneous statements, in the March 2015 interim results"
     - value: Nearly 3,000
       label: Cases identified by the government for potential FBI review
     - value: '41'
       label: States in which the reviewed FBI examiners had testified
   context:
     - >-
-      These figures measure flawed examiner statements or reports, not a count of wrongful convictions. The FBI's
-      review explicitly distinguishes the validity of microscopic comparison as a descriptive technique from the
-      unsupported significance that examiners sometimes assigned to a similarity.
+      These are interim review figures reported in April 2015 for the review’s progress as of March 2015. They
+      measure flawed examiner statements or reports, not a count of wrongful convictions. The review covered FBI
+      examinations used in federal and state courts, but excluded examinations performed by state and local
+      laboratories. It distinguished microscopic comparison as a descriptive technique from unsupported claims
+      about the significance of a similarity.
     - >-
       The FBI also trained hundreds of state and local hair examiners. Its later root-cause analysis found no evidence
       of malicious intent and identified insufficiently specific guidance for reports and testimony as the most
@@ -52,35 +54,44 @@ episodes:
       - Federal Bureau of Investigation Laboratory
       - FBI Academy
     institutionalContext: >-
-      FBI hair microscopy predated 1973, but that year marks the documented beginning of FBI training for state and
-      local hair examiners, making the method an institutionalized national forensic practice rather than only an
-      internal federal examination. The FBI later limited its formal retrospective review to cases analyzed before
-      31 December 1999; by then mitochondrial-DNA analysis had been introduced as a more meaningful complementary source test.
+      FBI hair microscopy predated 1973, but that year marks the documented beginning of FBI training for state
+      and local hair examiners, extending the Bureau’s role in disseminating the practice. The FBI later limited
+      its formal retrospective review to analyses before 31 December 1999; mitochondrial-DNA analysis had been
+      introduced in 1996 as a more meaningful complementary source test. The episode’s end year marks that
+      review boundary, not the end of microscopic hair comparison.
     consequences:
       - Hair evidence was used to associate defendants with crime scenes, victims, weapons, or other objects
       - Laboratory reports and sworn testimony sometimes overstated the source significance of microscopic similarity
       - FBI training propagated hair-comparison practice to hundreds of state and local examiners
       - A large federal and state notification and case-review effort followed the discovery of systematic testimony errors
     summary: >-
-      The FBI Laboratory used microscopic hair comparison to evaluate whether questioned and known hairs shared the
-      same observable characteristics, and beginning in 1973 the FBI trained state and local analysts in the method.
-      Similarity could legitimately support a limited association, but examiners sometimes went much further by using
-      probabilities or individualizing language that had no validated population-frequency basis. In the FBI/DOJ
-      review of pre-2000 cases, erroneous statements appeared in 257 of 268 reviewed inculpatory trial transcripts.
-      The FBI later stressed that microscopy itself remained a valid comparative technique while acknowledging that
-      historical reports and testimony had overstated what a match could mean.
+      The FBI Laboratory used microscopic hair comparison to evaluate whether questioned and known hairs shared
+      the same observable characteristics, and beginning in 1973 the FBI trained state and local analysts in the
+      method. Similarity could legitimately support a limited association, but examiners sometimes went much
+      further by using probabilities or individualizing language that had no validated population-frequency
+      basis. In the March 2015 interim results of the FBI/DOJ review of pre-2000 cases, erroneous statements
+      appeared in 257 of 268 cases with reviewed inculpatory trial testimony. The FBI later stressed that
+      microscopy itself remained a valid comparative technique while acknowledging that historical reports and
+      testimony had overstated what a match could mean.
     mechanism:
       kind: education
       summary: >-
-        The FBI institutionalized microscopic hair comparison through laboratory casework, technical manuals and training
-        for hundreds of state and local examiners, diffusing both the comparative method and its reporting conventions.
+        The FBI disseminated microscopic hair comparison through laboratory casework, technical manuals and
+        courses for hundreds of state and local examiners. Its 1977 manual expressly limited individual
+        identification, but the 2015 joint statement documented that training courses also incorporated
+        scientifically flawed language used in reports and testimony.
     institutionalCorrection:
       status: corrected
-      periodLabel: '2015'
-      action: FBI and DOJ publicly acknowledged systematic testimony errors, notified affected parties and undertook case review.
+      periodLabel: "2012–2019"
+      action: "FBI/DOJ reviewed historical testimony, acknowledged errors, notified affected parties and investigated their causes; the FBI reported reforms and concluded its review in 2019."
       summary: >-
-        The FBI formally distinguished valid descriptive microscopy from unsupported source-probability claims, acknowledged
-        widespread historical overstatement and participated in notification, review and root-cause analysis.
+        The review began in 2012. In 2015 the FBI acknowledged widespread overstatement, said it no longer made
+        the faulty claims and committed to independent investigation. It commissioned the root-cause study in
+        2017; the study was completed in 2018. In 2019 the FBI reported changes to training, supervision and
+        testimony monitoring and announced that its review had concluded, while retaining provision for later
+        qualifying transcripts. These actions document a change in the FBI’s reporting position and the
+        completion of its defined review project; they do not establish that every affected conviction or state
+        and local laboratory practice was corrected.
 sources:
   - id: fbi-hair-errors-2015
     title: FBI Testimony on Microscopic Hair Analysis Contained Errors in at Least 90 Percent of Cases in Ongoing Review
@@ -102,29 +113,47 @@ sources:
     title: Microscopy of Hairs — A Practical Guide and Manual
     url: https://www.ojp.gov/ncjrs/virtual-library/abstracts/microscopy-hairs-practical-guide-and-manual
     publisher: U.S. Department of Justice — Office of Justice Programs
+  - id: joint-hair-review-2015
+    title: FBI Testimony on Microscopic Hair Analysis Contained Errors in at least 90% of Cases in Ongoing Review
+    url: https://innocenceproject.org/news/fbi-testimony-on-microscopic-hair-analysis-contained-errors-in-at-least-90-of-cases-in-ongoing-review/
+    publisher: Innocence Project — joint statement with the U.S. Department of Justice, FBI and NACDL
+  - id: nrc-forensic-science-2009
+    title: 'Strengthening Forensic Science in the United States: A Path Forward'
+    url: https://www.ojp.gov/pdffiles1/nij/grants/228091.pdf
+    publisher: National Research Council — National Academies Press; OJP-hosted copy
 evidence:
   - id: hair-fbi-review-proposition
     sourceId: fbi-doj-hair-review
-    relation: supports
+    relation: contextualizes
     target: {scope: belief, aspect: proposition}
+    locator: "Review overview, paragraphs on microscopic comparison and 1996 mtDNA introduction; four numbered case-selection criteria."
     note: >-
-      Explicitly distinguishes microscopic hair comparison as a valid comparative technique from the overstatement
-      problem, describes the use of mitochondrial DNA for more meaningful association, and defines the pre-2000 review scope.
+      Explicitly distinguishes microscopic hair comparison as a valid comparative technique from the
+      overstatement problem, describes the use of mitochondrial DNA for more meaningful association, and defines
+      the pre-2000 review scope.
   - id: hair-fbi-review-correction
     sourceId: fbi-doj-hair-review
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: "Review overview, paragraphs on microscopic comparison and 1996 mtDNA introduction; four numbered case-selection criteria."
+    note: >-
+      States the FBI’s distinction between descriptive comparison and overstated testimony and its rationale for
+      complementary mtDNA testing. The independent scientific limits are supported separately by the NRC
+      assessment.
   - id: hair-fbi-errors-impact
-    sourceId: fbi-hair-errors-2015
+    sourceId: joint-hair-review-2015
     relation: documents
     target: {scope: belief, aspect: impact}
+    locator: "April 20, 2015 joint statement, paragraphs beginning The government identified nearly 3,000 cases and In the 268 cases; following paragraph on 41 states."
     note: >-
-      Reports nearly 3,000 potentially reviewable cases, erroneous statements in 257 of 268 reviewed inculpatory
-      trial transcripts, testimony by reviewed examiners in 41 states, and FBI training of hundreds of state hair examiners.
+      Reports nearly 3,000 potentially reviewable cases, erroneous statements in 257 of 268 cases with reviewed
+      inculpatory trial testimony, testimony by reviewed examiners in 41 states, and FBI training of hundreds of
+      state hair examiners. These are interim results as of March 2015, published in April 2015.
   - id: hair-pulitzer-carrier
     sourceId: pulitzer-wapo-hair
-    relation: supports
+    relation: documents
     target: {scope: episode, episodeId: united-states-1973-1999, aspect: carrier}
+    locator: "Spencer S. Hsu, FBI lab’s woes cast growing shadow (December 23, 2012), sections on state/local hair matches and federal training; paragraphs on 1973, Hal Deadman and the FBI Academy in Quantico."
     note: >-
       Documents that the FBI Laboratory began training state and local hair examiners in 1973 and describes the
       national diffusion and source-attribution assumptions surrounding the practice.
@@ -132,21 +161,113 @@ evidence:
     sourceId: ojp-hair-manual
     relation: documents
     target: {scope: episode, episodeId: united-states-1973-1999, aspect: mechanism}
+    locator: "Linked 1977 manual, foreword; printed p. 24, Conclusions; pp. 41–42, Report Writing and Testimony (OJP digitization NCJ 78957)."
     note: >-
       Official bibliographic record for the FBI-authored 1977 technical manual used to teach microscopic hair
-      examination and identification in criminal investigation.
+      examination and identification in criminal investigation. The linked manual’s foreword presents
+      individualization as an aim, but pp. 24 and 41 expressly deny certain individual identification and p. 41
+      gives an optional disclaimer. It does not uniformly teach that microscopy can identify one person with
+      certainty.
   - id: hair-fbi-errors-consequences
-    sourceId: fbi-hair-errors-2015
-    relation: supports
+    sourceId: joint-hair-review-2015
+    relation: documents
     target: {scope: episode, episodeId: united-states-1973-1999, aspect: consequences}
+    locator: "April 20, 2015 joint statement, review scope and March 2015 results; notification paragraphs and final paragraph on training courses."
+    note: >-
+      Documents erroneous reports and testimony, training of state and local examiners, and notifications about
+      FBI work in federal and state courts. The review excluded examinations performed by state and local
+      laboratories.
   - id: hair-fbi-correction
-    sourceId: fbi-hair-errors-2015
+    sourceId: joint-hair-review-2015
     relation: documents
     target: {scope: episode, episodeId: united-states-1973-1999, aspect: institutional-correction}
+    locator: "April 20, 2015 joint statement, Amy Hess’s statement; joint commitments and paragraphs on notifying defense counsel."
+    note: >-
+      Documents the 2015 acknowledgment, the FBI’s statement that faulty claims were no longer being made, and
+      review and notification measures. The later root-cause work and review endpoint are documented separately.
   - id: hair-root-cause-context
     sourceId: fbi-hair-root-cause
     relation: contextualizes
     target: {scope: episode, episodeId: united-states-1973-1999, aspect: context}
+    locator: "August 14, 2019 announcement, paragraphs on the ABS Group’s findings and FBI training, supervision and testimony monitoring."
     note: >-
       Summarizes the independent root-cause review, which found no evidence of malicious intent and identified
       insufficiently specific guidance for examiner reports and testimony as the most important cause of errors.
+  - id: hair-joint-proposition
+    sourceId: joint-hair-review-2015
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: "April 20, 2015 joint statement, opening findings and statements on exaggeration of the significance of microscopic comparisons."
+    note: >-
+      Documents historical source claims that exceeded the scientific limits of microscopic comparison; it does
+      not support those claims as true.
+  - id: hair-joint-mechanism
+    sourceId: joint-hair-review-2015
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1973-1999, aspect: mechanism}
+    locator: "April 20, 2015 joint statement, final substantive paragraph on 25 years of two-week training courses."
+    note: >-
+      Documents that FBI courses reached hundreds of state and local examiners and incorporated flawed language
+      also used in FBI reports and testimony.
+  - id: hair-fbi-original-reference
+    sourceId: fbi-hair-errors-2015
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-1973-1999, aspect: context}
+    note: >-
+      The original FBI release URL is retained as a historical reference; its page could not be retrieved during
+      this review. The full coissued statement was inspected on the Innocence Project website and supplies the
+      evidence for the figures: Reports nearly 3,000 potentially reviewable cases, erroneous statements in 257
+      of 268 cases with reviewed inculpatory trial testimony, testimony by reviewed examiners in 41 states, and
+      FBI training of hundreds of state hair examiners. These are interim results as of March 2015, published in
+      April 2015.
+  - id: hair-review-context
+    sourceId: fbi-doj-hair-review
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-1973-1999, aspect: context}
+    locator: "Review overview, paragraphs on microscopic comparison and 1996 mtDNA introduction; four numbered case-selection criteria."
+    note: >-
+      Explicitly distinguishes microscopic hair comparison as a valid comparative technique from the
+      overstatement problem, describes the use of mitochondrial DNA for more meaningful association, and defines
+      the pre-2000 review scope. The cutoff is a review boundary, not the end of microscopy.
+  - id: hair-review-consequences
+    sourceId: fbi-doj-hair-review
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1973-1999, aspect: consequences}
+    locator: "Review overview, paragraphs on probative associations involving crime-scene hairs, suspects, victims and weapons; paragraph on DOJ notification of completed reviews."
+    note: >-
+      Describes the use of hair comparisons to associate people and objects and the delivery of review results
+      to prosecutors and defense counsel, supporting the first and fourth consequences.
+  - id: hair-root-cause-correction
+    sourceId: fbi-hair-root-cause
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1973-1999, aspect: institutional-correction}
+    locator: "August 14, 2019 announcement, opening chronology (2012, 2015, July 2017, August 2018), reforms, and final paragraph announcing the review’s conclusion with provision for later transcripts."
+    note: >-
+      Documents the review and root-cause chronology, reported institutional reforms and the 2019 conclusion of
+      the FBI project. Its provision for later transcripts and its FBI scope prevent treating this as resolution
+      of all affected convictions or state laboratory practices.
+  - id: hair-root-cause-impact
+    sourceId: fbi-hair-root-cause
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: "August 14, 2019 announcement, paragraphs on the ABS Group’s findings and FBI training, supervision and testimony monitoring."
+    note: >-
+      Summarizes the independent root-cause review, which found no evidence of malicious intent and identified
+      insufficiently specific guidance for examiner reports and testimony as the most important cause of errors.
+  - id: hair-nrc-correction
+    sourceId: nrc-forensic-science-2009
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: "2009 report, printed pp. 160–161, Analysis of Hair Evidence: Scientific Interpretation and Reporting of Results; Summary Assessment (PDF pp. 182–183)."
+    note: >-
+      Finds no accepted population-frequency statistics or scientific support for individualization by
+      microscopy alone, while recognizing limited investigative and exclusionary uses and the greater
+      specificity of DNA analysis.
+  - id: hair-nrc-episode-context
+    sourceId: nrc-forensic-science-2009
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-1973-1999, aspect: context}
+    locator: "2009 report, printed pp. 160–161, Analysis of Hair Evidence: Scientific Interpretation and Reporting of Results; Summary Assessment (PDF pp. 182–183)."
+    note: >-
+      Provides an independent scientific assessment of the limits of the method. The report was authored by the
+      National Research Council; hosting by OJP does not make it a DOJ policy statement.

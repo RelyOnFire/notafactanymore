@@ -1,14 +1,14 @@
 schemaVersion: 2
 locale: de
 entryId: motherisk-hair-testing
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: 2026-09-18
 title: Motherisk-Haaranalysen als forensischer Beweis
 proposition:
   summary: Haarstrangtests des Motherisk-Labors galten als zuverlässig genug, um Drogen- oder Alkoholkonsum beziehungsweise entsprechende Expositionen in Kinderschutz- und Strafverfahren festzustellen.
 correction:
   summary: Haaranalysen können in der Toxikologie aussagekräftig sein, wenn validierte forensische Verfahren, Bestätigungstests, Kontaminationskontrollen und eine entsprechend vorsichtige Interpretation eingesetzt werden. Die Methoden und Auswertungen des Motherisk Drug Testing Laboratory zwischen 2005 und 2015 erfüllten jedoch international anerkannte forensische Standards nicht und wurden für die Verwendung als Beweismittel als unzureichend und unzuverlässig beurteilt.
 impact:
-  summary: Motherisk war kein isolierter Laborfehler. Zwischen 2005 und 2015 untersuchte das Labor für Kinderschutzzwecke mehr als 24.000 Haarproben von über 16.000 Personen. Nachdem die Tests als Beweismittel für unzureichend und unzuverlässig beurteilt worden waren, richtete Ontario eine Kommission ein, die 1.271 Fälle von Kinderschutzorganisationen prüfte, um möglicherweise Betroffene zu identifizieren.
+  summary: Motherisk war kein isolierter Laborfehler. Zwischen 2005 und 2015 untersuchte das Labor für Kinderschutzzwecke mehr als 24.000 Haarproben von über 16.000 Personen. Nachdem die Tests als Beweismittel für unzureichend und unzuverlässig beurteilt worden waren, richtete Ontario eine Kommission ein, die nach ihrem Bericht ungefähr 1.271 Fälle von Kinderschutzorganisationen prüfte, um möglicherweise Betroffene zu identifizieren.
   highlights:
     - value: Mehr als 24.000
       label: Für Kinderschutzzwecke untersuchte Haarproben, 2005–2015
@@ -16,19 +16,28 @@ impact:
       label: In diesen Tests erfasste Personen
     - value: '1.271'
       label: Von der Motherisk-Kommission geprüfte Kinderschutzfälle
-      note: Ein geprüfter Fall ist nicht gleichbedeutend mit einem Fall, in dem der Test das Ergebnis bestimmt hat.
+      note: Ein geprüfter Fall ist nicht gleichbedeutend mit einem Fall, in dem der Test das Ergebnis bestimmt hat. Der Bericht nennt eine ungefähre Zahl; bei seiner Abfassung wurden noch Fälle geprüft.
   context:
     - Das Problem war nicht, dass Haaranalytik als toxikologisches Verfahren grundsätzlich bedeutungslos wäre. Entscheidend war vielmehr, dass sich ein Krankenhauslabor von klinischer Diagnostik zu Untersuchungen entwickelte, die für rechtliche Tatsachenfeststellungen verwendet wurden, ohne die Validierung, Bestätigungstests, Qualitätskontrollen, Ringversuche und zurückhaltende Interpretation, die von einem forensischen Labor erwartet werden.
     - Sobald ein Laborbefund in ein Kinderschutzverfahren einging, konnte er beeinflussen, wie Behörden und Gerichte Drogen- oder Alkoholkonsum von Eltern bewerteten. Ein technischer Messwert erhielt dadurch institutionelle Folgen weit außerhalb des Labors. Ontario musste deshalb nicht nur die Analytik, sondern auch nachgelagerte Entscheidungen überprüfen, die sich auf diese Ergebnisse gestützt haben könnten.
 episodes:
   - id: ontario-2005-2015
     polity: Ontario, Kanada
+    periodLabel: 2005–2015 (von der Überprüfung erfasste Tests)
     institutions:
       - Motherisk Drug Testing Laboratory am Hospital for Sick Children (SickKids)
-      - Ontario Ministry of Children and Youth Services
     institutionalContext: >-
-      Motherisk-Ergebnisse liefen durch das gesamte Kinderschutzsystem Ontarios: Children’s Aid Societies beauftragten oder nutzten die Tests, und Ergebnisse gelangten in Verfahren vor Gerichten in Ontario. Die zahlreichen nachgelagerten Stellen bildeten einen verteilten institutionellen Apparat aus Kinderschutzorganisationen und Gerichten in Ontario, nicht eine einzelne Institution.
-    summary: Zwischen 2005 und 2015 untersuchte das Motherisk Drug Testing Laboratory am Hospital for Sick Children in Toronto Tausende Haarproben auf Drogen- und Alkoholkonsum oder entsprechende Expositionen. Die Ergebnisse wurden vor allem in Kinderschutzverfahren und in einzelnen Strafverfahren verwendet. Eine unabhängige Untersuchung der Provinz kam zu dem Schluss, dass die Haarstrangtests dieses Zeitraums als Beweismittel unzureichend und unzuverlässig waren und der Laborbetrieb international anerkannte forensische Standards nicht erfüllte. Ontario wies die Kinderschutzbehörden daraufhin an, die Tests nicht mehr zu verwenden, und richtete ein weiteres Verfahren zur Überprüfung möglicherweise betroffener Kinderschutzfälle ein.
+      Motherisk-Ergebnisse liefen durch das gesamte Kinderschutzsystem Ontarios: Children’s Aid Societies beauftragten oder nutzten die Tests, und Ergebnisse gelangten in Verfahren vor Gerichten in Ontario. Die zahlreichen nachgelagerten Stellen bildeten einen verteilten institutionellen Apparat aus Kinderschutzorganisationen und Gerichten in Ontario, nicht eine einzelne Institution. Das Labor warb bereits 2001 bei Children’s Aid Societies für seine Leistungen. Die Jahre 2005–2015 bezeichnen den von der Lang-Untersuchung erfassten Testzeitraum, nicht den Beginn der institutionellen Nutzung.
+    summary: >-
+      Zwischen 2005 und 2015 untersuchte das Motherisk Drug Testing Laboratory am Hospital for Sick Children in
+      Toronto Tausende Haarproben auf Drogen- und Alkoholkonsum oder entsprechende Expositionen. Die Ergebnisse
+      wurden vor allem in Kinderschutzverfahren und in einzelnen Strafverfahren verwendet. SickKids schloss das
+      Labor im April 2015 dauerhaft. Am 22. April, während die unabhängige Untersuchung noch lief, wies Ontario die
+      Children’s Aid Societies an, Haarstrangtests auf Drogen und Alkohol nicht mehr zu verwenden oder sich darauf
+      zu stützen. Der am 17. Dezember 2015 veröffentlichte Bericht der Lang-Untersuchung bewertete die Motherisk-Tests
+      des überprüften Zeitraums als unzureichend und unzuverlässig für die Verwendung als Beweismittel und stellte fest,
+      dass international anerkannte forensische Standards nicht erfüllt waren. Eine weitere Kommission nahm im Januar
+      2016 ihre Tätigkeit auf, um möglicherweise betroffene Kinderschutzfälle zu überprüfen.
     consequences:
       - Haaranalysen wurden in Kinderschutzverfahren in ganz Ontario verwendet
       - Laborbefunde galten als Beleg für Drogen- oder Alkoholkonsum beziehungsweise entsprechende Expositionen
@@ -38,10 +47,15 @@ episodes:
       summary: >-
         Ergebnisse eines Krankenhauslabors wurden in Kinderschutzermittlungen und Gerichtsverfahren Ontarios übernommen, sodass klinisch geprägte Tests als forensische Beweismittel in einem verteilten öffentlichen System wirkten.
     institutionalCorrection:
-      periodLabel: '2015'
-      action: Ontario wies Kinderschutzorganisationen an, Motherisk-Haaranalysen nicht mehr zu verwenden oder sich darauf zu stützen, und richtete unabhängige Überprüfungsverfahren ein.
+      periodLabel: 2014–2018 Überprüfung und Einstellung der Nutzung
+      action: SickKids schloss das Labor; Ontario untersagte die Nutzung von Haaranalysen im Kinderschutz und richtete Überprüfungsverfahren ein.
       summary: >-
-        Ontario erklärte die Motherisk-Tests von 2005 bis 2015 für als Beweismittel unzureichend und unzuverlässig, beendete die institutionelle Nutzung und schuf Verfahren zur Überprüfung möglicherweise betroffener Fälle.
+        Ontario setzte die unabhängige Untersuchung im November 2014 ein. Die Laborschließung und die Anweisung
+        vom 22. April 2015 gingen den abschließenden Feststellungen im Dezember voraus. Die anschließende Kommission
+        wurde mit Wirkung vom 15. Januar 2016 eingesetzt und legte im Februar 2018 ihren Bericht vor. Das Labor stellte
+        die Tests ein; die Anweisung untersagte die Nutzung von Haaranalysen im Kinderschutz. Die Kommission befasste
+        sich mit möglichen Auswirkungen auf frühere Kinderschutzentscheidungen. Diese Korrektur belegt nicht, dass
+        jede betroffene Entscheidung aufgehoben wurde oder jede Familie Abhilfe erhielt.
 evidence:
   - id: motherisk-ppsc-proposition
     note: >-
@@ -52,13 +66,20 @@ evidence:
   - id: motherisk-impact
     note: >-
       Dokumentiert mehr als 24.000 Haarproben von über 16.000 Personen, die zwischen 2005 und 2015 für Kinderschutzzwecke
-      untersucht wurden, und hält fest, dass die spätere Motherisk-Kommission 1.271 Fälle von Children’s Aid Societies überprüfte.
+      untersucht wurden, und hält fest, dass die spätere Motherisk-Kommission ungefähr 1.271 Fälle von Children’s Aid Societies überprüfte.
   - id: motherisk-order-carrier
     note: >-
       Dokumentiert die amtliche Feststellung, dass die Motherisk-Haarstrangtests von 2005 bis 2015 als Beweismittel in
       Kinderschutz- und Strafverfahren unzureichend und unzuverlässig waren.
   - id: motherisk-ppsc-mechanism
+    note: >-
+      Fasst die Lang-Untersuchung zusammen, einschließlich der Entwicklung des Labors von klinischen zu forensisch genutzten
+      Tests, seiner Verwendung bei Tausenden Proben von 2005 bis 2015 und der Feststellung, dass die Tests für Kinderschutz-
+      und Strafverfahren unzureichend und unzuverlässig waren.
   - id: motherisk-impact-consequences
+    note: >-
+      Dokumentiert mehr als 24.000 Haarproben von über 16.000 Personen, die zwischen 2005 und 2015 für Kinderschutzzwecke
+      untersucht wurden, und hält fest, dass die spätere Motherisk-Kommission ungefähr 1.271 Fälle von Children’s Aid Societies überprüfte.
   - id: motherisk-ontario-correction
     note: >-
       Dokumentiert die Überprüfung der Motherisk-Methoden anhand international anerkannter forensischer Standards und die
@@ -66,3 +87,13 @@ evidence:
   - id: motherisk-sickkids-context
     note: >-
       Bestätigt, dass SickKids das Motherisk Drug Testing Laboratory im April 2015 nach aufgekommenen Bedenken dauerhaft schloss.
+  - id: motherisk-report-carrier
+    note: >-
+      Benennt das Labor von SickKids und dokumentiert, dass es bereits 2001 bei Children’s Aid Societies für Haaranalysen
+      warb, also vor dem von der Lang-Untersuchung erfassten Testzeitraum.
+  - id: motherisk-report-correction
+    note: >-
+      Unterscheidet die unabhängige Untersuchung von 2014, die Schließung und Anweisung vom April 2015, die Feststellungen
+      im Dezember und die anschließende Kommission von 2016–2018.
+  - id: motherisk-sickkids-closure
+    note: Das Krankenhaus bestätigt die dauerhafte Schließung seines Drogentestlabors im April 2015.

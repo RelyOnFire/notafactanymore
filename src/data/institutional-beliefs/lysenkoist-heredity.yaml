@@ -13,7 +13,7 @@ correction:
     the maternal line and were extensively reset when the stress was removed.
 category: Genetics
 entryId: acquired-traits-drive-evolution
-reviewedAt: '2026-09-13'
+reviewedAt: '2026-09-18'
 impact:
   summary: >-
     Lysenkoism's best-supported direct consequences were institutional: genetics was suppressed, scientists were dismissed
@@ -212,14 +212,14 @@ episodes:
         this reversal in education and scientific administration; they do not establish that every earlier advocate
         recanted or that all the damage was repaired.
     institutionalContext: >-
-      The Association of Marxist Naturalists promoted the new doctrine as Koło Przyrodników Marksistów and, after
-      its 1950 renaming, as Zrzeszenie Przyrodników-Marksistów. It merged with the Copernican Society of Polish Naturalists
-      in 1952. The Polish Academy of Sciences, established in 1952, gave its biological division a role in promoting
-      Lysenkoism; its Commission of Evolutionism and the Ministry of Higher Education organized a month-long training
-      course at Dziwnów that year. The Copernican Society became a major public advocate. Administrative pressure,
-      publishing controls and teaching requirements restricted competing biology. Much of the botanical community
-      nevertheless resisted or avoided the doctrine, so institutional enforcement should not be read as unanimous
-      scientific acceptance.
+      The Association of Marxist Naturalists promoted the new doctrine as Koło Przyrodników Marksistów and,
+      after its 1950 renaming, as Zrzeszenie Przyrodników-Marksistów. It merged with the Copernican Society of
+      Polish Naturalists in 1952. The Polish Academy of Sciences, created by an Act of 30 October 1951, gave its
+      biological division a role in promoting Lysenkoism. Its Commission of Evolutionism and the Ministry of
+      Higher Education organized a month-long training course at Dziwnów in 1952. The Copernican Society became
+      a major public advocate. Administrative pressure, publishing controls and teaching requirements restricted
+      competing biology. Much of the botanical community nevertheless resisted or avoided the doctrine, so
+      institutional enforcement should not be read as unanimous scientific acceptance.
 sources:
   - id: lysenko-nature-1948
     title: Genetics in the Soviet Union
@@ -255,7 +255,7 @@ sources:
     publisher: Journal of Health Economics
   - id: lysenko-great-leap-jpe
     title: The Great Leap Forward — Anatomy of a Central Planning Disaster
-    url: https://www3.nd.edu/~nmark/ChinaCourse/TheWeeks/Li_Yang_GLF_JPE.pdf
+    url: https://doi.org/10.1086/430804
     publisher: Journal of Political Economy
   - id: lysenko-grain-exports
     title: Grain exports and the causes of China's Great Famine, 1959–1961 — County-level evidence
@@ -350,8 +350,9 @@ evidence:
       Gives an estimated range of about 15–30 million excess deaths for the Great Chinese Famine and emphasizes that
       the famine arose from multiple interacting factors.
     locator: >-
-      Publisher abstract and opening Introduction: estimated 15–30 million excess deaths during 1959–1961 and study
-      of survivors’ later health and economic outcomes. Full article not inspected.
+      Introduction, opening paragraph and footnote 1 (p. 659): the 15–30 million range; section 2, The 1959–1961
+      famine in China, opening two paragraphs: interacting causes. Relevant introduction and background passages
+      inspected; no full-article review.
   - id: lysenko-great-leap-impact
     sourceId: lysenko-great-leap-jpe
     relation: contextualizes
@@ -362,8 +363,9 @@ evidence:
       Models how optimistic productivity expectations, diversion of agricultural labor, and increased grain procurement
       interacted with falling output to produce a collapse in food consumption.
     locator: >-
-      Abstract, printed p. 840; Introduction, pp. 841–844; Development Strategy and Rural Institutions and account
-      of the Great Leap policies. Parsed university-hosted PDF text; facsimile rendering failed.
+      Abstract, p. 840; Introduction, pp. 841–844; II. Development Strategy and Rural Institutions, pp. 844–845:
+      productivity expectations, collectivization, inflated output claims, diversion of farm labour and
+      excessive procurement.
   - id: lysenko-grain-exports-impact
     sourceId: lysenko-grain-exports
     relation: contextualizes
@@ -466,12 +468,12 @@ evidence:
       episodeId: china-1949-1956
       aspect: context
     note: >-
-      Schneider’s history covers genetics under party doctrine, the 1956 reopening and subsequent reversals. The accessible
-      contents and description establish this scope; the uninspected chapter text is not used as direct evidence for
-      particular agricultural practices or famine consequences.
+      Schneider’s history covers genetics under party doctrine, the 1956 reopening and subsequent reversals. The
+      publisher’s description and contents establish this scope; the uninspected chapter text is not used as
+      direct evidence for particular agricultural practices or famine consequences.
     locator: >-
-      Accessible Google Books contents and description: chapters on suppression (1949–1951), official doctrine (1952–1956),
-      restoration (1956–1961) and subsequent reversals. Relevant chapter text not inspected.
+      Publisher Description and Table of Contents, chapters 4–7: suppression of genetics, official party
+      doctrine, the Double Hundred opening and subsequent reversals. Relevant chapter text not inspected.
   - id: lysenko-history-china-correction
     sourceId: lysenko-1948-history
     relation: supports
@@ -560,8 +562,9 @@ evidence:
       episodeId: china-1949-1956
       aspect: context
     locator: >-
-      Publisher abstract and opening Introduction: estimated 15–30 million excess deaths during 1959–1961 and study
-      of survivors’ later health and economic outcomes. Full article not inspected.
+      Introduction, opening paragraph and footnote 1 (p. 659): the 15–30 million range; section 2, The 1959–1961
+      famine in China, opening two paragraphs: interacting causes. Relevant introduction and background passages
+      inspected; no full-article review.
     note: >-
       Gives an estimated range of about 15–30 million excess deaths for the Great Chinese Famine and emphasizes that
       the famine arose from multiple interacting factors.
@@ -573,8 +576,9 @@ evidence:
       episodeId: china-1949-1956
       aspect: context
     locator: >-
-      Abstract, printed p. 840; Introduction, pp. 841–844; Development Strategy and Rural Institutions and account
-      of the Great Leap policies. Parsed university-hosted PDF text; facsimile rendering failed.
+      Abstract, p. 840; Introduction, pp. 841–844; II. Development Strategy and Rural Institutions, pp. 844–845:
+      productivity expectations, collectivization, inflated output claims, diversion of farm labour and
+      excessive procurement.
     note: >-
       Models how optimistic productivity expectations, diversion of agricultural labor, and increased grain procurement
       interacted with falling output to produce a collapse in food consumption.
@@ -766,9 +770,9 @@ evidence:
       episodeId: poland-1949-1956
       aspect: carrier
     locator: >-
-      Botany and Lysenkoism in Poland (2011), article text: paragraphs on the 2 March 1952 organizational merger,
-      24 May Academy Presidium meeting and 7 July–7 August Dziwnów course. Full indexed article accessed through the
-      mirror linked by the author’s university repository.
+      The implementation of Lysenkoism and the collapse of its propaganda in Poland: the 30 October 1951 Act and
+      Division II; the 2 March 1952 organizational merger, 24 May Academy Presidium meeting and 7 July–7 August
+      Dziwnów course. Article text accessed through the mirror linked by the author’s university repository.
     note: >-
       Identifies the Marxist naturalists’ association and its merger, the Academy biological division and Evolutionism
       Commission, the higher-education ministry and the Copernican Society.
@@ -780,9 +784,9 @@ evidence:
       episodeId: poland-1949-1956
       aspect: mechanism
     locator: >-
-      Botany and Lysenkoism in Poland (2011), article text: paragraphs on the 2 March 1952 organizational merger,
-      24 May Academy Presidium meeting and 7 July–7 August Dziwnów course. Full indexed article accessed through the
-      mirror linked by the author’s university repository.
+      The implementation of Lysenkoism and the collapse of its propaganda in Poland: the 30 October 1951 Act and
+      Division II; the 2 March 1952 organizational merger, 24 May Academy Presidium meeting and 7 July–7 August
+      Dziwnów course. Article text accessed through the mirror linked by the author’s university repository.
     note: Documents organizational advocacy and the 1952 Dziwnów course run by the Ministry and Academy commission.
   - id: lysenko-kohler-poland-consequences
     sourceId: lysenko-poland-botany

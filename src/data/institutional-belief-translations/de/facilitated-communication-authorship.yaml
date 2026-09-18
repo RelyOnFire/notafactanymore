@@ -1,10 +1,10 @@
 schemaVersion: 2
 locale: de
 entryId: facilitated-communication-authorship
-sourceReviewedAt: '2026-08-27'
+sourceReviewedAt: '2026-09-19'
 title: Gestützte Kommunikation als authentisch verfasste Kommunikation
 proposition:
-  summary: Institutionen behandelten Mitteilungen aus der Gestützten Kommunikation als authentische Kommunikation nichtsprechender Menschen mit Autismus oder anderen Entwicklungsbeeinträchtigungen, obwohl eine stützende Person Hand oder Arm körperlich führte und den Inhalt unbewusst bestimmen konnte.
+  summary: Institutionen behandelten Mitteilungen aus der Gestützten Kommunikation als authentische Kommunikation von Menschen mit Autismus oder anderen Entwicklungsbeeinträchtigungen, die Schwierigkeiten mit der Kommunikation hatten, darunter nichtsprechende Menschen. Dabei stützte eine andere Person körperlich ihre Hand oder ihren Arm und konnte den Inhalt unbewusst bestimmen.
 correction:
   summary: >-
     Gestützte Kommunikation ist eine widerlegte, von einer stützenden Person abhängige Technik. Kontrollierte Autorschaftstests zeigten wiederholt, dass die Mitteilungen Informationen folgten, die der stützenden Person bekannt waren, statt Informationen, die nur die behinderte Person kannte. Davon zu unterscheiden ist unabhängige Unterstützte Kommunikation: Problematisch ist die Zuschreibung der Autorschaft, wenn die Nachricht nur mit einer Person entsteht, die die Auswahl beeinflussen kann.
@@ -24,15 +24,17 @@ impact:
 episodes:
   - id: united-states-syracuse-university-1992-2020
     polity: Vereinigte Staaten
+    periodLabel: 1992–2020 (belegte institutionelle Förderung)
     institutions:
       - Syracuse University School of Education
-      - Facilitated Communication Institute / Institute on Communication and Inclusion
-    institutionalContext: Die School of Education der Syracuse University eröffnete 1992 das Facilitated Communication Institute ausdrücklich, um Kommunikation von Menschen mit Autismus und anderen Entwicklungsbeeinträchtigungen zu erforschen und zu fördern. Die Universität benannte die Einrichtung später um; noch 2020 beschrieb eigenes Material die Nachfolgeinitiative als national und international führend in Forschung und Ausbildung zum Tippen als Kommunikationsform und verwies auf Training und technische Unterstützung für tippende Personen und ihre Unterstützer.
+      - Facilitated Communication Institute / Institute for Communication and Inclusion
+      - Inclusion and Communication Initiatives
+    institutionalContext: Die School of Education der Syracuse University eröffnete 1992 das Facilitated Communication Institute ausdrücklich, um Kommunikation von Menschen mit Autismus und anderen Entwicklungsbeeinträchtigungen zu erforschen und zu fördern. Ihre Geschichte nennt die späteren Namen Institute for Communication and Inclusion und Inclusion and Communication Initiatives. Die Universitätszeitschrift von 2020 bezeichnet das frühere Institut als Institute on Communication and Inclusion und beschreibt die Nachfolgeinitiative als national und international führend in Forschung und Ausbildung zum Tippen als Kommunikationsform, mit Training und technischer Unterstützung für tippende Personen und ihre Unterstützer. Diese fortgesetzte Förderung bestand neben gegenteiliger Evidenz aus kontrollierten Autorschaftstests. Eine gesonderte, undatierte Erklärung des Department of Communication Sciences and Disorders bekräftigt die ASHA-Position und lehnt von Unterstützern abhängige Methoden mit unklarer Autorschaft ab; sie dokumentiert einen inneruniversitären Dissens, keinen datierten Rückzug der School of Education oder ihres Instituts.
     consequences:
       - Eine Forschungsuniversität schuf ein eigenes Institut und verlieh Gestützter Kommunikation damit dauerhafte akademische und professionelle Legitimität
-      - Das Institut bildete Unterstützer aus, begleitete Nutzer und verbreitete die Methode über Forschung, Workshops und technische Unterstützung
+      - Das Institut und seine Nachfolgeeinrichtungen bildeten Unterstützer aus, begleiteten Nutzer und verbreiteten die Methode über Forschung, Ausbildung und technische Unterstützung
       - Die institutionelle Förderung setzte sich fort, nachdem kontrollierte Studien Anfang der 1990er-Jahre unter verblindeten Bedingungen bereits die Steuerung durch Unterstützer gezeigt hatten
-      - Die Universitätsgeschichte führt das Institut weiterhin als Teil ihrer Tradition in der Behindertenpädagogik; zugleich bekräftigt das Department of Communication Sciences and Disorders heute gesondert die ASHA-Position und lehnt Methoden mit unklarer Autorschaft ab
+      - Die Universitätsgeschichte führt das Institut weiterhin als Teil ihrer Tradition in der Behindertenpädagogik
     summary: >-
       Die Syracuse University gab der Gestützten Kommunikation eine ungewöhnlich dauerhafte universitäre Heimat. Ihre School of Education eröffnete 1992 das Facilitated Communication Institute zur Erforschung und Förderung der Methode; Nachfolgeprogramme boten noch Jahre später Ausbildung und Unterstützung rund um begleitetes Tippen an. Diese institutionelle Befürwortung überschnitt sich mit einer rasch wachsenden kontrollierten Literatur: In verblindeten Tests konnten vermeintliche Kommunikatoren keine Informationen übermitteln, die der stützenden Person unbekannt waren, während Antworten häufig dem entsprachen, was diese gesehen hatte. Der spätere fachliche Konsens verwarf nicht das Ziel eines besseren Kommunikationszugangs, sondern die Annahme, von Unterstützern abhängige Ausgaben ohne unabhängigen Nachweis der behinderten Person zuzuschreiben.
     mechanism:
@@ -40,62 +42,117 @@ episodes:
         Syracuse schuf ein eigenes Universitätsinstitut, bildete Unterstützer aus, bot technische Hilfe an und verbreitete
         begleitetes Tippen über Forschung und professionelle Ausbildung.
     institutionalCorrection:
-      periodLabel: 2018–2020
-      action: Das Department of Communication Sciences and Disorders der Syracuse University schloss sich der ASHA-Ablehnung von Methoden mit unklarer facilitatorabhängiger Autorschaft an.
       summary: >-
-        Ein Syracuse-Fachbereich bekräftigt heute ausdrücklich die ASHA-Position gegen Gestützte Kommunikation bei unklarer
-        Autorschaft. Gleichzeitig dokumentierte die School of Education noch 2020 Ausbildung und technische Unterstützung;
-        die Quellen zeigen daher eine interne und teilweise Korrektur statt einer einheitlichen universitätsweiten Kehrtwende.
+        Die zitierten Quellen belegen keine Korrekturhandlung der School of Education oder ihres Instituts für
+        Gestützte Kommunikation und seiner Nachfolgeeinrichtungen. Die gesonderte Erklärung des Department of
+        Communication Sciences and Disorders lehnt unklare Autorschaft ab, nennt aber kein Datum ihrer Annahme und
+        dokumentiert keinen Rückzug der School of Education. Deren eigenes Material beschrieb noch 2020 Ausbildung
+        und Unterstützung.
   - id: united-states-onteora-1992-1994
     polity: Vereinigte Staaten
+    periodLabel: 1991–1993/94 (Schulpraxis und Streit um den Bildungsplan)
     institutions:
       - Onteora Central School District
       - The Children's Annex
-    institutionalContext: Eine Prüfung des New York State Education Department von 1993 dokumentierte, dass der individuelle Bildungsplan des Kindes für 1992/93 Gestützte Kommunikation als notwendig für eine wirksame Teilnahme am Bildungsprogramm bezeichnete und als Ziel eine Verbesserung dieser Kommunikationsform enthielt. Berichte des Children's Annex verwendeten anschließend Gestützte Kommunikation bei der Beschreibung von rezeptivem Wortschatz, Lesen und Mathematik.
+    institutionalContext: Eine Prüfung des New York State Education Department von 1993 dokumentierte, dass der individuelle Bildungsplan des Kindes für 1992/93 Gestützte Kommunikation als notwendig für eine wirksame Teilnahme am Bildungsprogramm bezeichnete und als Ziel eine Verbesserung dieser Kommunikationsform enthielt. Berichte des Children's Annex verwendeten anschließend Gestützte Kommunikation bei der Beschreibung von rezeptivem Wortschatz, Lesen und Mathematik. Dieselbe Prüfung datiert den ersten FC-Einsatz der Schule auf Mai 1991 und einen Verweis im Bildungsplan 1991/92 auf Oktober 1991. Die Entscheidung vom Dezember 1993 betrifft den Bildungsplan 1993/94; sie belegt nicht, wann der Einsatz endete. Gesonderte kontrollierte Forschung und eine spätere systematische Übersichtsarbeit liefern den wissenschaftlichen Kontext, keinen Nachweis der Autorschaft bei diesem Kind.
     consequences:
       - Gestützte Kommunikation wurde im individuellen Bildungsplan als Voraussetzung für wirksame Teilnahme festgeschrieben
       - Schulberichte schrieben dem Kind mit Gestützter Kommunikation altersgemäße beziehungsweise siebtklassige Leistungen zu
       - Dieselbe staatliche Prüfung dokumentierte ohne Unterstützung deutlich niedrigere Ergebnisse, darunter einen rezeptiven Wortschatz ungefähr fünf Jahre unter dem chronologischen Alter und mathematische Fähigkeiten auf dem Niveau einer Eins-zu-eins-Zuordnung
       - Von einer stützenden Person abhängige Ausgaben beeinflussten damit die formale Beschreibung der Fähigkeiten und des Bildungsprogramms des Kindes
-    summary: Der Onteora-Fall zeigt, wie Gestützte Kommunikation von der Fürsprache in die formalen Abläufe der Sonderpädagogik gelangte. Der Bildungsplan 1992/93 erklärte FC ausdrücklich für notwendig, und Schulberichte schrieben dem Kind mit Unterstützung deutlich höhere schulische Leistungen zu. Zugleich verzeichnete derselbe Akt starke Unterschiede ohne Unterstützung. Die staatliche Prüfung führte selbst keinen Autorschaftstest durch und verbot die Methode nicht; ihre Unterlagen zeigen jedoch ungewöhnlich konkret, dass von Unterstützern abhängige Ausgaben in die formale schulische Beurteilung eingingen, während kontrollierte Studien andernorts bereits die Steuerung durch die unterstützende Person nachwiesen.
+    summary: Der Onteora-Fall zeigt, wie Gestützte Kommunikation von der Fürsprache in die formalen Abläufe der Sonderpädagogik gelangte. Der Bildungsplan 1992/93 erklärte FC ausdrücklich für notwendig, und Schulberichte schrieben dem Kind mit Unterstützung deutlich höhere schulische Leistungen zu. Zugleich verzeichnete derselbe Akt starke Unterschiede ohne Unterstützung. Die staatliche Prüfung führte selbst keinen Autorschaftstest durch und verbot die Methode nicht; ihre Unterlagen zeigen jedoch ungewöhnlich konkret, dass von Unterstützern abhängige Ausgaben in die formale schulische Beurteilung eingingen, während kontrollierte Studien andernorts bereits die Steuerung durch die unterstützende Person nachwiesen. Für den Bildungsplan 1993/94 strich der Schulbezirk die FC-Vorgabe. Ein Anhörungsbeauftragter ordnete eine erneute Beurteilung ohne FC an; der staatliche Prüfer verlangte, im Plan die relevanten Leistungen mit und ohne Unterstützung sowie die Bewertungsverfahren und deren Zeitplan auszuweisen. Der Einsatz im Unterricht blieb erlaubt; es handelte sich um begrenzte Schutzvorkehrungen, nicht um ein FC-Verbot.
     mechanism:
       summary: >-
-        Der Schulbezirk schrieb Gestützte Kommunikation in einen individuellen Bildungsplan und verwendete
-        facilitatorabhängige Ausgaben in formalen Schulberichten über die akademischen Fähigkeiten des Kindes.
+        Der Schulbezirk schrieb Gestützte Kommunikation in einen individuellen Bildungsplan; das Children's Annex
+        verwendete von Unterstützern abhängige Ausgaben in formalen Schulberichten über die schulischen Fähigkeiten des Kindes.
     institutionalCorrection:
+      periodLabel: April–Dezember 1993
+      action: Der Schulbezirk strich die FC-Vorgabe; Entscheidungen im Anhörungs- und Überprüfungsverfahren verlangten eine erneute Beurteilung ohne FC sowie klarere Angaben zu Leistungen und Bewertungsverfahren.
       summary: >-
-        Die staatliche Überprüfung dokumentierte große Unterschiede mit und ohne Unterstützung, doch die verfügbaren
-        Quellen zeigen keinen datierten Onteora-Beschluss, der die Methode formell verwarf.
+        Nach der Prüfung durch den sonderpädagogischen Ausschuss (CSE) im April 1993 enthielt der Bildungsplan 1993/94
+        keine FC-Verweise mehr. Die Vorsitzende verwies auf Forschungszweifel und Bedenken gegen die verbindliche Vorgabe einer einzigen Methode. Am 24. September ordnete der
+        Anhörungsbeauftragte eine erneute Beurteilung ohne FC an. Am 10. Dezember verlangte der staatliche Prüfer Angaben zu
+        relevanten Leistungen mit und ohne FC sowie zu Bewertungsverfahren und deren Zeitplan im Bildungsplan. Der Einsatz
+        im Unterricht blieb erlaubt, und der Prüfer entschied nicht über die Gültigkeit von FC. Belegt sind Anordnungen,
+        nicht die Durchführung der erneuten Beurteilung oder eine Verwerfung der Methode.
 evidence:
   - id: fc-syracuse-proposition
     note: >-
       Die Institutionsgeschichte von Syracuse dokumentiert, dass das Facilitated Communication Institute 1992 eröffnet
-      wurde, um Kommunikation von Menschen mit Autismus und anderen Entwicklungsbeeinträchtigungen zu erforschen und zu fördern, und später umbenannt wurde.
+      wurde, um Kommunikation von Menschen mit Autismus und anderen Entwicklungsbeeinträchtigungen zu erforschen und
+      zu fördern, und später umbenannt wurde.
   - id: fc-experiment-correction
     note: >-
       Eine kontrollierte Studie von 1993 ergab, dass bei unterschiedlichen Bildern für Teilnehmer und Unterstützer die
-      getippten Antworten den Bildern der Unterstützer entsprachen und diese den Inhalt unbewusst bestimmten.
+      einzigen zutreffenden Bildbezeichnungen den Bildern der Unterstützer entsprachen; dies zeigte, dass die
+      Unterstützer den Inhalt unbewusst bestimmten.
   - id: fc-asha-correction
     note: >-
-      Die ASHA-Position von 2018 bezeichnet Gestützte Kommunikation als widerlegt, verweist auf umfangreiche Evidenz für
-      Autorschaft durch Unterstützer und erklärt, FC-Ausgaben dürften nicht als Kommunikation der behinderten Person gelten.
+      Die ASHA-Position von 2018 bezeichnet Gestützte Kommunikation als widerlegt, verweist auf umfangreiche Evidenz
+      für Autorschaft durch Unterstützer und erklärt, FC-Ausgaben dürften nicht als Kommunikation der behinderten
+      Person gelten.
   - id: fc-systematic-correction
     note: >-
-      Systematische Übersichtsarbeit mit eindeutigem experimentellem Nachweis der Steuerung von Mitteilungen aus Gestützter Kommunikation durch Unterstützer.
+      Systematische Übersichtsarbeit mit eindeutigem experimentellem Nachweis der Steuerung von Mitteilungen aus
+      Gestützter Kommunikation durch Unterstützer.
   - id: fc-syracuse-impact
     note: >-
-      Die Publikation der School of Education von 2020 beschreibt die Nachfolgeinitiative als national und international
-      führend in Forschung und Ausbildung zum Tippen als Kommunikation und nennt Training sowie technische Unterstützung für Tippende und Unterstützer.
+      Die Publikation der School of Education von 2020 beschreibt die Nachfolgeinitiative als national und
+      international führend in Forschung und Ausbildung zum Tippen als Kommunikation und nennt Training sowie
+      technische Unterstützung für Tippende und Unterstützer.
+  - id: fc-onteora-proposition
+  - id: fc-onteora-impact
+  - id: fc-asha-impact
   - id: fc-syracuse-carrier
-  - id: fc-syracuse-mechanism
-  - id: fc-syracuse-consequences
-  - id: fc-syracuse-partial-correction
     note: >-
-      Das Department of Communication Sciences and Disorders der Syracuse University bekräftigt heute die ASHA-Position
-      und erklärt, Ansätze wie Gestützte Kommunikation nicht zu befürworten, wenn die Autorschaft unklar ist.
+      Die Institutionsgeschichte von Syracuse dokumentiert, dass das Facilitated Communication Institute 1992 eröffnet
+      wurde, um Kommunikation von Menschen mit Autismus und anderen Entwicklungsbeeinträchtigungen zu erforschen und
+      zu fördern, und später umbenannt wurde.
+  - id: fc-syracuse-mechanism
+    note: >-
+      Die Publikation der School of Education von 2020 beschreibt die Nachfolgeinitiative als national und
+      international führend in Forschung und Ausbildung zum Tippen als Kommunikation und nennt Training sowie
+      technische Unterstützung für Tippende und Unterstützer.
+  - id: fc-syracuse-consequences
+  - id: fc-syracuse-history-consequences
+  - id: fc-syracuse-experiment-context
+    note: >-
+      Eine kontrollierte Studie von 1993 ergab, dass bei unterschiedlichen Bildern für Teilnehmer und Unterstützer die
+      einzigen zutreffenden Bildbezeichnungen den Bildern der Unterstützer entsprachen; dies zeigte, dass die
+      Unterstützer den Inhalt unbewusst bestimmten. Dies liefert die experimentelle Evidenz für den Vergleich mit der
+      späteren Förderung in Syracuse; die Autorschaft im dortigen Programm wird damit nicht nachgewiesen.
+  - id: fc-syracuse-asha-context
+    note: >-
+      Die ASHA-Position von 2018 bezeichnet Gestützte Kommunikation als widerlegt, verweist auf umfangreiche Evidenz
+      für Autorschaft durch Unterstützer und erklärt, FC-Ausgaben dürften nicht als Kommunikation der behinderten
+      Person gelten. Sie grenzt unabhängiges Tippen ab und beschreibt allgemeine Schäden; sie belegt weder diese
+      Schäden noch einen Rückzug in Syracuse.
+  - id: fc-syracuse-csd-context
+    note: >-
+      Das Department of Communication Sciences and Disorders der Syracuse University bekräftigt heute die
+      ASHA-Position und erklärt, Ansätze wie Gestützte Kommunikation nicht zu befürworten, wenn die Autorschaft unklar
+      ist. Die undatierte Erklärung stammt aus einem anderen Fachbereich und belegt keine datierte Korrektur der
+      School of Education oder ihres Instituts.
   - id: fc-onteora-carrier
     note: >-
       Amtliche Entscheidung, die die FC-Vorgabe im individuellen Bildungsplan 1992/93, entsprechende Ziele und große
-      Unterschiede zwischen den mit und ohne Unterstützung berichteten schulischen Leistungen dokumentiert.
+      Unterschiede zwischen den mit und ohne Unterstützung berichteten schulischen Leistungen dokumentiert. Sie
+      dokumentiert außerdem die Streichung der FC-Vorgabe und Anordnungen zur erneuten Beurteilung und
+      Leistungsdarstellung im Jahr 1993; der Einsatz im Unterricht blieb erlaubt.
   - id: fc-onteora-mechanism
   - id: fc-onteora-consequences
+  - id: fc-onteora-correction
+    note: >-
+      Dokumentiert eine teilweise Reaktion: Der nächste Bildungsplan schrieb FC nicht mehr vor, der
+      Anhörungsbeauftragte ordnete eine erneute Beurteilung ohne FC an, und die staatliche Überprüfung verlangte
+      klarere Leistungs- und Bewertungsangaben. FC blieb erlaubt; der Prüfer entschied weder über die Gültigkeit noch
+      dokumentierte er die Durchführung der erneuten Beurteilung.
+  - id: fc-onteora-experiment-context
+    note: >-
+      Zeitgenössische kontrollierte Evidenz von 1993 dafür, dass Unterstützer getippte Antworten unbewusst bestimmen
+      konnten. Der Abstract enthält keinen Autorschaftsbefund zum Kind im Onteora-Fall.
+  - id: fc-onteora-systematic-context
+    note: >-
+      Systematische Übersichtsarbeit mit eindeutigem experimentellem Nachweis der Steuerung von Mitteilungen aus
+      Gestützter Kommunikation durch Unterstützer. Diese spätere Synthese liefert den wissenschaftlichen Kontext,
+      keinen Autorschaftsnachweis für das Kind im Onteora-Fall und keinen Beleg für einen Rückzug des Schulbezirks.

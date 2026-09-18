@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: bitemark-source-identification
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: 2026-09-18
 title: Bissspuren als individuelle Herkunftsidentifikation
 proposition:
   summary: >-
@@ -9,17 +9,19 @@ proposition:
     Zahnmerkmale behandelt, um eine bestimmte Person als Verursacher des Bisses zu identifizieren oder stark damit zu verbinden.
 correction:
   summary: >-
-    Die wissenschaftlichen Voraussetzungen für eine individuelle Herkunftszuschreibung anhand von Bissspuren sind nicht
-    belegt. Für diesen Zweck ist weder gezeigt, dass die vorderen Zahnreihen auf Individualebene einzigartig sind, noch
-    dass Haut Zahnmerkmale zuverlässig und unverzerrt abbildet oder Sachverständige Verletzungsmuster zuverlässig genug
-    auswerten können, um eine Quelle zu identifizieren oder verlässlich einzuschließen. Zahnvergleiche können in manchen
-    Situationen begrenzte Ermittlungs- oder Ausschlussfunktionen haben, rechtfertigen aber keine individuelle
-    Herkunftsidentifikation aus einer Hautverletzung.
+    Die wissenschaftlichen Voraussetzungen für eine individuelle Herkunftszuschreibung anhand von Bissspuren
+    sind nicht belegt. Für diesen Zweck ist weder gezeigt, dass die vorderen Zahnreihen auf Individualebene
+    einzigartig sind, noch dass Haut Zahnmerkmale zuverlässig und unverzerrt abbildet oder Sachverständige
+    Verletzungsmuster zuverlässig genug auswerten können, um eine Quelle zu identifizieren. Die NIST-Prüfung von
+    2023 fand auch keine ausreichende Datengrundlage für einen verlässlichen Ausschluss oder Nicht-Ausschluss
+    einer Person anhand eines Bissspurenvergleichs auf Haut. Eine Beschränkung auf diese Schlussfolgerungen
+    belegt nicht die Gültigkeit der Methode.
 impact:
   summary: >-
-    Die Bissspurenanalyse wurde standardisiert und vor Gericht einflussreich, bevor ihre zentralen Annahmen zur
-    Herkunftsidentifikation validiert waren. Spätere Berufsrichtlinien und wissenschaftliche Prüfungen schränkten
-    zunehmend ein, welche Aussagen sich aus einem Verletzungsmuster auf Haut verantwortbar ableiten lassen.
+    Die Bissspurenanalyse erhielt Berufsrichtlinien und wurde vor Gericht einflussreich, bevor ihre zentralen
+    Annahmen zur Herkunftsidentifikation validiert waren. Spätere Berufsrichtlinien und wissenschaftliche
+    Prüfungen schränkten zunehmend ein, welche Aussagen sich aus einem Verletzungsmuster auf Haut verantwortbar
+    ableiten lassen.
   highlights:
     - value: '1984'
       label: ABFO führte Richtlinien und ein einheitliches Bewertungssystem für Bissspurenanalysen ein
@@ -33,8 +35,10 @@ impact:
       Person. Die forensische Identifizierung menschlicher Überreste anhand von Zahnunterlagen und Röntgenbildern ist
       davon zu unterscheiden und wissenschaftlich etabliert.
     - >-
-      Die Praxis verschwand 2015 nicht. Das Jahr markiert eine wesentliche Einschränkung der stärksten Herkunftsaussage
-      innerhalb der ABFO-Leitlinien; aktuelle Schlussfolgerungen sind auf Ausschluss, Nicht-Ausschluss oder Unentschiedenheit begrenzt.
+      Die Praxis verschwand 2015 nicht. Das Jahr markiert eine wesentliche Einschränkung der stärksten
+      Herkunftsaussage innerhalb der ABFO-Leitlinien. Die Standards von 2018 begrenzten Zuordnungsaussagen auf
+      Ausschluss, Nicht-Ausschluss oder ein nicht eindeutiges Ergebnis; die spätere NIST-Prüfung belegte deren
+      wissenschaftliche Zuverlässigkeit nicht.
 episodes:
   - id: united-states-1984-2015
     polity: Vereinigte Staaten
@@ -56,41 +60,104 @@ episodes:
       NIST-Prüfung kam zu dem Ergebnis, dass die drei Grundannahmen der Herkunftszuschreibung nicht ausreichend belegt sind.
     consequences:
       - Bissspuren-Sachverständigenaussagen wurden in Strafgerichten zugelassen und verwendet
-      - Verdächtige konnten anhand gemusterter Hautverletzungen eingeschlossen oder identifiziert werden
+      - "Sachverständige behaupteten, Verdächtige anhand gemusterter Hautverletzungen einschließen oder identifizieren zu können"
       - Herkunftsaussagen konnten ansonsten überwiegend indizienbasierte Strafverfahren erheblich verstärken
       - Mit zunehmender wissenschaftlicher Kritik wurden zulässige professionelle Schlussfolgerungen eingeschränkt
     mechanism:
       summary: >-
-        Die ABFO standardisierte Erhebung und Vergleich von Bissspuren durch Berufsrichtlinien und ein Bewertungssystem
-        und schuf damit eine gemeinsame Methodik und Schlussfolgerungssprache für Straf- und Militärgerichte.
+        Die ABFO veröffentlichte Erhebungsrichtlinien und ein Punktesystem, die Bissspurenvergleiche
+        vereinheitlichen sollten. Der zuständige Ausschuss warnte 1988 davor, sich auf präzise Punktzahlen zu
+        stützen; Herkunftsentscheidungen blieben von der Interpretation durch Sachverständige abhängig.
     institutionalCorrection:
-      periodLabel: '2015'
-      action: Die ABFO unterstützte in offenen Populationen keine uneingeschränkte Schlussfolgerung „The Biter“ mehr.
+      periodLabel: "2015–2018"
+      action: "Die ABFO beschränkte im Handbuch von 2015 Identifikationen in offenen Populationen und begrenzte Zuordnungsaussagen in den Standards von 2018 auf drei Kategorien."
       summary: >-
-        Die ABFO schränkte die stärkste zulässige Herkunftsaussage ein, ohne die Bissspurenpraxis vollständig aufzugeben.
-        Spätere wissenschaftliche Prüfungen untergruben individuelle Herkunftszuschreibungen weiter; die professionelle
-        Schlussfolgerungssprache ist heute begrenzt statt individualisierend.
+        Das Handbuch von 2015 unterstützte in einer offenen Population keine uneingeschränkte Schlussfolgerung
+        „The Biter“. Die Standards von 2018 untersagten eine uneingeschränkte Zuordnung und erlaubten
+        Ausschluss, Nicht-Ausschluss oder ein nicht eindeutiges Ergebnis. Diese belegten Beschränkungen änderten
+        die professionelle Schlussfolgerungssprache, ohne den Vergleich von Bissspuren auf Haut aufzugeben. Die
+        spätere wissenschaftliche NIST-Prüfung fand keine ausreichenden Daten für einen verlässlichen Ausschluss
+        oder Nicht-Ausschluss.
 evidence:
   - id: bitemark-abfo-proposition
     note: >-
-      Die 1986 veröffentlichten ABFO-Richtlinien halten fest, dass Bissspurenbeweise in vielen Gerichten und in der
-      Militärjustiz verwendet wurden, und legen standardisierte Methoden zur Erhebung und Analyse der Spuren dar.
+      Die eingesehene Zusammenfassung der ABFO-Richtlinien von 1986 dokumentiert die Verwendung von
+      Bissspurenbeweisen vor Gerichten und in der Militärjustiz sowie Methoden ihrer Erhebung. Der vollständige
+      Artikel wurde nicht eingesehen; die Zusammenfassung belegt nicht die wissenschaftliche Gültigkeit einer
+      Herkunftsidentifikation.
   - id: bitemark-nist-correction
     note: >-
-      Endgültige NIST-Veröffentlichung zur wissenschaftlichen Grundlage der forensischen Bissspurenanalyse und zu der
-      Evidenz, die für Herkunftsvergleichsaussagen erforderlich wäre.
+      Endgültige NIST-Veröffentlichung zur wissenschaftlichen Grundlage der forensischen Bissspurenanalyse und
+      zu der Evidenz, die für Herkunftsvergleichsaussagen erforderlich wäre. Der Befund unzureichender Daten
+      betrifft auch den verlässlichen Ausschluss und Nicht-Ausschluss anhand von Bissspurenvergleichen auf Haut.
   - id: bitemark-nist-premises
     note: >-
-      Erläutert die drei nicht ausreichend belegten Voraussetzungen: individuelle Einzigartigkeit der vorderen Zahnreihen,
-      konsistente Übertragung dieser Muster auf Haut und zuverlässige Auswertung des Verletzungsmusters durch Sachverständige.
+      Erläutert die drei nicht ausreichend belegten Voraussetzungen: individuelle Einzigartigkeit der vorderen
+      Zahnreihen, konsistente Übertragung dieser Muster auf Haut und zuverlässige Auswertung des
+      Verletzungsmusters durch Sachverständige.
   - id: bitemark-nrc-impact
     note: >-
-      Rekonstruiert die Einführung des einheitlichen ABFO-Bewertungssystems 1984, frühe Zuverlässigkeitsbehauptungen sowie
-      die fortbestehende Subjektivität und das Fehlen einer anerkannten Mindestzahl übereinstimmender Merkmale zur Individualisierung.
+      Rekonstruiert die Einführung des einheitlichen ABFO-Bewertungssystems 1984, frühe
+      Zuverlässigkeitsbehauptungen sowie die fortbestehende Subjektivität und das Fehlen einer anerkannten
+      Mindestzahl übereinstimmender Merkmale zur Individualisierung. Die Quelle behandelt die frühere Fach- und
+      Gerichtsgeschichte; spätere Eckdaten sind gesondert belegt.
   - id: bitemark-abfo-carrier
+    note: >-
+      Die eingesehene Zusammenfassung der ABFO-Richtlinien von 1986 dokumentiert die Verwendung von
+      Bissspurenbeweisen vor Gerichten und in der Militärjustiz sowie Methoden ihrer Erhebung. Der vollständige
+      Artikel wurde nicht eingesehen; die Zusammenfassung belegt nicht die wissenschaftliche Gültigkeit einer
+      Herkunftsidentifikation.
   - id: bitemark-nrc-mechanism
+    note: >-
+      Rekonstruiert die Einführung des einheitlichen ABFO-Bewertungssystems 1984, frühe
+      Zuverlässigkeitsbehauptungen sowie die fortbestehende Subjektivität und das Fehlen einer anerkannten
+      Mindestzahl übereinstimmender Merkmale zur Individualisierung. Die Quelle dokumentiert außerdem die
+      Warnung des zuständigen Ausschusses von 1988 vor der Verwendung präziser Punktzahlen; die Veröffentlichung
+      von Richtlinien begründete kein zuverlässiges Identifikationsverfahren.
   - id: bitemark-abfo-consequences
+    note: >-
+      Belegt die Verwendung vor Gerichten und in der Militärjustiz als erste Folge. Spätere Entlastungen oder
+      Einschränkungen der Schlussfolgerungssprache werden damit nicht belegt.
   - id: bitemark-nasem-institutional-correction
     note: >-
-      Dokumentiert, dass das ABFO-Referenzhandbuch von 2015 in offenen Populationen keine Schlussfolgerung „The Biter“
-      unterstützte, und fasst die wissenschaftliche und gerichtliche Geschichte der Bissspuren-Herkunftsaussagen zusammen.
+      Dokumentiert, dass das ABFO-Referenzhandbuch von 2015 in offenen Populationen keine Schlussfolgerung „The
+      Biter“ unterstützte, und fasst die wissenschaftliche und gerichtliche Geschichte der
+      Bissspuren-Herkunftsaussagen zusammen.
+  - id: bitemark-nrc-proposition
+    note: >-
+      Dokumentiert Behauptungen, bestimmte Personen als Beißende identifizieren zu können, sowie
+      Gerichtsentscheidungen, die solche Aussagen zuließen; die Behauptungen werden dadurch nicht validiert.
+  - id: bitemark-nrc-consequences
+    note: >-
+      Dokumentiert die gerichtliche Verwendung und individualisierende Aussagen. Anmerkung 336 beschreibt
+      Bissspurenbeweise im Verfahren Krone als entscheidend, weil kaum andere Beweise auf seine Schuld
+      hindeuteten; dies stützt die Folge zum Gewicht von Herkunftsaussagen.
+  - id: bitemark-nist-impact
+    note: >-
+      Belegt die endgültige Prüfung von 2023 und deren Befund einer unzureichenden wissenschaftlichen Grundlage.
+  - id: bitemark-nist-episode-context
+    note: >-
+      Endgültige NIST-Veröffentlichung zur wissenschaftlichen Grundlage der forensischen Bissspurenanalyse und
+      zu der Evidenz, die für Herkunftsvergleichsaussagen erforderlich wäre. Der Befund unzureichender Daten
+      betrifft auch den verlässlichen Ausschluss und Nicht-Ausschluss anhand von Bissspurenvergleichen auf Haut.
+  - id: bitemark-nist-premises-context
+    note: >-
+      Erläutert die drei nicht ausreichend belegten Voraussetzungen: individuelle Einzigartigkeit der vorderen
+      Zahnreihen, konsistente Übertragung dieser Muster auf Haut und zuverlässige Auswertung des
+      Verletzungsmusters durch Sachverständige.
+  - id: bitemark-abfo-2015-impact
+    note: >-
+      Das Handbuch unterstützt ausdrücklich keine uneingeschränkte Schlussfolgerung „The Biter“ in einer offenen
+      Population und belegt damit die Hervorhebung für 2015.
+  - id: bitemark-abfo-2015-correction
+    note: >-
+      Primärbeleg für die Beschränkung bei offenen Populationen von 2015. Das Handbuch führt weiterhin andere
+      Zuordnungskategorien auf; es handelt sich um eine teilweise Änderung der Berufsrichtlinien.
+  - id: bitemark-abfo-2018-correction
+    note: >-
+      Untersagt eine uneingeschränkte Zuordnung zu einem Gebiss und begrenzt Zuordnungsaussagen auf Ausschluss,
+      Nicht-Ausschluss oder ein nicht eindeutiges Ergebnis. Die Zulassung dieser Begriffe belegt nicht ihre
+      wissenschaftliche Zuverlässigkeit.
+  - id: bitemark-abfo-2018-consequences
+    note: >-
+      Belegt die spätere Beschränkung professioneller Schlussfolgerungen als vierte Folge.

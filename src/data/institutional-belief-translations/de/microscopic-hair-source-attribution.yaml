@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: microscopic-hair-source-attribution
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: 2026-09-18
 title: Mikroskopische Haarähnlichkeit als Herkunftszuschreibung
 proposition:
   summary: >-
@@ -22,16 +22,18 @@ impact:
     Individualisierungsaussagen ließen eine begrenzte Assoziation wesentlich spezifischer erscheinen, als die Methode erlaubte.
   highlights:
     - value: '96%'
-      label: 257 von 268 überprüften belastenden Gerichtsaussagen enthielten fehlerhafte Angaben von Sachverständigen
+      label: "257 von 268 Fällen mit überprüften belastenden Gerichtsaussagen enthielten fehlerhafte Angaben, nach dem Zwischenstand vom März 2015"
     - value: Fast 3.000
       label: Von der US-Regierung identifizierte Fälle für eine mögliche FBI-Überprüfung
     - value: '41'
       label: Bundesstaaten, in denen die überprüften FBI-Sachverständigen ausgesagt hatten
   context:
     - >-
-      Diese Zahlen erfassen fehlerhafte Sachverständigenaussagen oder Berichte, nicht die Zahl von Fehlverurteilungen.
-      Die FBI-Überprüfung trennt ausdrücklich die mikroskopische Vergleichsmethode von den unbelegten Aussagen über die
-      Bedeutung einer festgestellten Ähnlichkeit.
+      Dies sind im April 2015 veröffentlichte Zwischenzahlen zum Prüfungsstand vom März 2015. Sie erfassen
+      fehlerhafte Sachverständigenaussagen oder Berichte, nicht die Zahl von Fehlverurteilungen. Die Prüfung
+      erfasste FBI-Untersuchungen, die in Bundes- und einzelstaatlichen Gerichten verwendet wurden, jedoch keine
+      Untersuchungen einzelstaatlicher oder lokaler Labore. Sie unterschied die mikroskopische Vergleichsmethode
+      von unbelegten Aussagen über die Bedeutung einer festgestellten Ähnlichkeit.
     - >-
       Das FBI bildete außerdem Hunderte staatliche und lokale Haar-Sachverständige aus. Eine spätere Ursachenanalyse
       fand keine Hinweise auf böswillige Absicht und identifizierte unzureichend konkrete Vorgaben für Berichte und
@@ -43,18 +45,21 @@ episodes:
       - Federal Bureau of Investigation Laboratory
       - FBI Academy
     institutionalContext: >-
-      Die mikroskopische Haaranalyse des FBI begann vor 1973; dieses Jahr markiert jedoch den belegten Beginn der
-      FBI-Ausbildung staatlicher und lokaler Haar-Sachverständiger und damit die breitere institutionelle Verbreitung.
-      Die spätere formelle Rückschau des FBI erfasste Analysen vor dem 31. Dezember 1999. Zu diesem Zeitpunkt war die
-      mitochondriale DNA-Analyse bereits als aussagekräftiger ergänzender Herkunftstest eingeführt worden.
+      Die mikroskopische Haaranalyse des FBI begann vor 1973; dieses Jahr markiert jedoch den belegten Beginn
+      der FBI-Ausbildung einzelstaatlicher und lokaler Haar-Sachverständiger und damit eine Ausweitung seiner
+      Rolle bei der Verbreitung der Praxis. Die spätere formelle Rückschau des FBI erfasste Analysen vor dem 31.
+      Dezember 1999; die mitochondriale DNA-Analyse war 1996 als aussagekräftiger ergänzender Herkunftstest
+      eingeführt worden. Das Endjahr der Episode bezeichnet diese Prüfungsgrenze, nicht das Ende mikroskopischer
+      Haarvergleiche.
     summary: >-
-      Das FBI Laboratory verglich fragliche und bekannte Haare anhand ihrer mikroskopisch sichtbaren Merkmale und
-      begann 1973 damit, Sachverständige aus einzelstaatlichen und lokalen Laboren in dieser Methode auszubilden.
-      Ähnlichkeit konnte eine begrenzte Assoziation begründen, doch Sachverständige gingen teilweise wesentlich weiter
-      und verwendeten Wahrscheinlichkeits- oder Individualisierungsaussagen ohne validierte Populationsdaten. In der
-      FBI/DOJ-Überprüfung von Fällen vor 2000 fanden sich in 257 von 268 untersuchten belastenden Gerichtsaussagen
-      fehlerhafte Angaben. Das FBI betonte später, die Mikroskopie bleibe als Vergleichstechnik grundsätzlich gültig,
-      räumte aber ein, dass historische Berichte und Aussagen die Bedeutung einer Übereinstimmung überzogen hatten.
+      Das FBI Laboratory verglich fragliche und bekannte Haare anhand ihrer mikroskopisch sichtbaren Merkmale
+      und begann 1973 damit, Sachverständige aus einzelstaatlichen und lokalen Laboren in dieser Methode
+      auszubilden. Ähnlichkeit konnte eine begrenzte Assoziation begründen, doch Sachverständige gingen
+      teilweise wesentlich weiter und verwendeten Wahrscheinlichkeits- oder Individualisierungsaussagen ohne
+      validierte Populationsdaten. Nach dem Zwischenstand vom März 2015 der FBI/DOJ-Überprüfung von Fällen vor
+      2000 fanden sich in 257 von 268 Fällen mit überprüften belastenden Gerichtsaussagen fehlerhafte Angaben.
+      Das FBI betonte später, die Mikroskopie bleibe als Vergleichstechnik grundsätzlich gültig, räumte aber
+      ein, dass historische Berichte und Aussagen die Bedeutung einer Übereinstimmung überzogen hatten.
     consequences:
       - Haarspuren wurden verwendet, um Angeklagte mit Tatorten, Opfern, Waffen oder anderen Gegenständen zu verbinden
       - Laborberichte und Gerichtsaussagen übertrieben teilweise die Herkunftsbedeutung mikroskopischer Ähnlichkeit
@@ -62,35 +67,109 @@ episodes:
       - Nach Bekanntwerden systematischer Aussagefehler folgten umfangreiche Benachrichtigungs- und Fallüberprüfungen
     mechanism:
       summary: >-
-        Das FBI institutionalisierte mikroskopische Haarvergleiche durch Laborfallarbeit, technische Handbücher und
-        Ausbildung für Hunderte staatliche und lokale Sachverständige und verbreitete damit Methode und Berichtspraxis.
+        Das FBI verbreitete mikroskopische Haarvergleiche durch Laborfallarbeit, technische Handbücher und Kurse
+        für Hunderte einzelstaatliche und lokale Sachverständige. Das Handbuch von 1977 begrenzte individuelle
+        Identifikationsaussagen ausdrücklich; die gemeinsame Erklärung von 2015 dokumentierte jedoch, dass
+        Schulungen auch wissenschaftlich fehlerhafte Formulierungen aus Berichten und Gerichtsaussagen
+        vermittelten.
     institutionalCorrection:
-      periodLabel: '2015'
-      action: FBI und DOJ erkannten systematische Aussagefehler öffentlich an, benachrichtigten Betroffene und leiteten Fallüberprüfungen ein.
+      periodLabel: "2012–2019"
+      action: "FBI und DOJ prüften historische Aussagen, erkannten Fehler an, benachrichtigten Betroffene und untersuchten die Ursachen; 2019 berichtete das FBI über Reformen und beendete seine Überprüfung."
       summary: >-
-        Das FBI trennte gültige beschreibende Mikroskopie ausdrücklich von unbelegten Herkunftswahrscheinlichkeiten,
-        erkannte verbreitete historische Übertreibungen an und beteiligte sich an Benachrichtigung, Fallprüfung und Ursachenanalyse.
+        Die Überprüfung begann 2012. 2015 räumte das FBI verbreitete Übertreibungen ein, erklärte, die
+        fehlerhaften Aussagen nicht mehr zu verwenden, und sagte eine unabhängige Untersuchung zu. Es
+        beauftragte die Ursachenanalyse 2017; sie wurde 2018 abgeschlossen. 2019 berichtete das FBI über
+        Änderungen bei Ausbildung, Aufsicht und Kontrolle von Gerichtsaussagen und erklärte seine Überprüfung
+        für beendet; später eingehende geeignete Protokolle konnten weiterhin geprüft werden. Diese Maßnahmen
+        belegen eine Änderung der FBI-Berichtspraxis und den Abschluss des abgegrenzten Prüfprojekts; sie
+        belegen nicht, dass jede betroffene Verurteilung oder Praxis einzelstaatlicher und lokaler Labore
+        korrigiert wurde.
 evidence:
   - id: hair-fbi-review-proposition
     note: >-
-      Trennt mikroskopische Haarvergleiche ausdrücklich als gültige Vergleichstechnik vom Problem überzogener Aussagen,
-      beschreibt mitochondriale DNA als aussagekräftigere Ergänzung und definiert den Prüfungsumfang für Fälle vor 2000.
+      Trennt mikroskopische Haarvergleiche ausdrücklich als gültige Vergleichstechnik vom Problem überzogener
+      Aussagen, beschreibt mitochondriale DNA als aussagekräftigere Ergänzung und definiert den Prüfungsumfang
+      für Fälle vor 2000.
   - id: hair-fbi-review-correction
+    note: >-
+      Erläutert die Unterscheidung des FBI zwischen beschreibendem Vergleich und überzogenen Aussagen sowie
+      seine Begründung für ergänzende mtDNA-Tests. Die unabhängige wissenschaftliche Bewertung der Grenzen wird
+      gesondert durch den NRC-Bericht belegt.
   - id: hair-fbi-errors-impact
     note: >-
-      Berichtet über fast 3.000 potenziell überprüfbare Fälle, fehlerhafte Aussagen in 257 von 268 untersuchten belastenden
-      Gerichtsprotokollen, Aussagen der geprüften Sachverständigen in 41 Bundesstaaten und FBI-Ausbildung für Hunderte staatliche Haarprüfer.
+      Berichtet über fast 3.000 potenziell überprüfbare Fälle, fehlerhafte Angaben in 257 von 268 Fällen mit
+      überprüften belastenden Gerichtsaussagen, Aussagen der geprüften Sachverständigen in 41 Bundesstaaten und
+      FBI-Ausbildung für Hunderte einzelstaatliche Haarprüfer. Es handelt sich um im April 2015 veröffentlichte
+      Zwischenzahlen zum Stand vom März 2015.
   - id: hair-pulitzer-carrier
     note: >-
-      Dokumentiert, dass das FBI Laboratory 1973 mit der Ausbildung staatlicher und lokaler Haar-Sachverständiger begann,
-      und beschreibt die landesweite Verbreitung sowie die damaligen Herkunftsannahmen der Praxis.
+      Dokumentiert, dass das FBI Laboratory 1973 mit der Ausbildung staatlicher und lokaler
+      Haar-Sachverständiger begann, und beschreibt die landesweite Verbreitung sowie die damaligen
+      Herkunftsannahmen der Praxis.
   - id: hair-ojp-mechanism
     note: >-
-      Amtlicher bibliografischer Nachweis des 1977 vom FBI verfassten technischen Handbuchs, das zur Ausbildung in
-      mikroskopischer Haaruntersuchung und Identifikation bei Strafermittlungen verwendet wurde.
+      Amtlicher bibliografischer Nachweis des 1977 vom FBI verfassten technischen Handbuchs, das zur Ausbildung
+      in mikroskopischer Haaruntersuchung und Identifikation bei Strafermittlungen verwendet wurde. Das Vorwort
+      des verlinkten Handbuchs nennt Individualisierung als Ziel, doch S. 24 und 41 verneinen ausdrücklich eine
+      sichere individuelle Identifikation; S. 41 enthält einen optionalen Vorbehalt. Das Handbuch lehrt nicht
+      durchgehend, dass Mikroskopie eine Person mit Sicherheit identifizieren könne.
   - id: hair-fbi-errors-consequences
+    note: >-
+      Dokumentiert fehlerhafte Berichte und Gerichtsaussagen, die Ausbildung einzelstaatlicher und lokaler
+      Sachverständiger sowie Benachrichtigungen zu FBI-Arbeit in Bundes- und einzelstaatlichen Gerichten. Die
+      Überprüfung schloss Untersuchungen einzelstaatlicher und lokaler Labore aus.
   - id: hair-fbi-correction
+    note: >-
+      Belegt das Eingeständnis von 2015, die Erklärung des FBI, fehlerhafte Aussagen nicht mehr zu verwenden,
+      sowie Prüfungs- und Benachrichtigungsmaßnahmen. Die spätere Ursachenanalyse und das Ende der Überprüfung
+      sind gesondert belegt.
   - id: hair-root-cause-context
     note: >-
-      Fasst die unabhängige Ursachenanalyse zusammen, die keine Hinweise auf böswillige Absicht fand und unzureichend konkrete
-      Vorgaben für Berichte und Gerichtsaussagen als wichtigste Ursache der Fehler identifizierte.
+      Fasst die unabhängige Ursachenanalyse zusammen, die keine Hinweise auf böswillige Absicht fand und
+      unzureichend konkrete Vorgaben für Berichte und Gerichtsaussagen als wichtigste Ursache der Fehler
+      identifizierte.
+  - id: hair-joint-proposition
+    note: >-
+      Dokumentiert historische Herkunftsaussagen, die die wissenschaftlichen Grenzen mikroskopischer Vergleiche
+      überschritten; ihre Richtigkeit wird dadurch nicht gestützt.
+  - id: hair-joint-mechanism
+    note: >-
+      Belegt, dass FBI-Kurse Hunderte einzelstaatliche und lokale Sachverständige erreichten und fehlerhafte
+      Formulierungen vermittelten, die auch in FBI-Berichten und Gerichtsaussagen vorkamen.
+  - id: hair-fbi-original-reference
+    note: >-
+      Die ursprüngliche FBI-Pressemitteilung bleibt als historischer Verweis erhalten; ihre Seite war bei dieser
+      Prüfung nicht abrufbar. Die vollständige gemeinsam veröffentlichte Erklärung wurde auf der Website des
+      Innocence Project eingesehen und belegt die Zahlen: Berichtet über fast 3.000 potenziell überprüfbare
+      Fälle, fehlerhafte Angaben in 257 von 268 Fällen mit überprüften belastenden Gerichtsaussagen, Aussagen
+      der geprüften Sachverständigen in 41 Bundesstaaten und FBI-Ausbildung für Hunderte einzelstaatliche
+      Haarprüfer. Es handelt sich um im April 2015 veröffentlichte Zwischenzahlen zum Stand vom März 2015.
+  - id: hair-review-context
+    note: >-
+      Trennt mikroskopische Haarvergleiche ausdrücklich als gültige Vergleichstechnik vom Problem überzogener
+      Aussagen, beschreibt mitochondriale DNA als aussagekräftigere Ergänzung und definiert den Prüfungsumfang
+      für Fälle vor 2000. Die zeitliche Grenze bezeichnet den Prüfungsumfang, nicht das Ende der Mikroskopie.
+  - id: hair-review-consequences
+    note: >-
+      Beschreibt Haarvergleiche zur Verbindung von Personen und Gegenständen sowie die Übermittlung von
+      Prüfergebnissen an Staatsanwaltschaften und Verteidigung und belegt damit die erste und vierte Folge.
+  - id: hair-root-cause-correction
+    note: >-
+      Belegt die Chronologie von Überprüfung und Ursachenanalyse, berichtete institutionelle Reformen sowie das
+      Ende des FBI-Projekts 2019. Die Möglichkeit späterer Protokollprüfungen und die Beschränkung auf das FBI
+      erlauben keine Gleichsetzung mit der Klärung aller betroffenen Verurteilungen oder einzelstaatlichen
+      Laborpraktiken.
+  - id: hair-root-cause-impact
+    note: >-
+      Fasst die unabhängige Ursachenanalyse zusammen, die keine Hinweise auf böswillige Absicht fand und
+      unzureichend konkrete Vorgaben für Berichte und Gerichtsaussagen als wichtigste Ursache der Fehler
+      identifizierte.
+  - id: hair-nrc-correction
+    note: >-
+      Stellt fest, dass anerkannte Populationshäufigkeiten und wissenschaftliche Belege für eine
+      Individualisierung allein durch Mikroskopie fehlen, erkennt aber begrenzte Ermittlungs- und
+      Ausschlussfunktionen sowie die höhere Spezifität von DNA-Analysen an.
+  - id: hair-nrc-episode-context
+    note: >-
+      Liefert eine unabhängige wissenschaftliche Bewertung der methodischen Grenzen. Der Bericht stammt vom
+      National Research Council; seine Bereitstellung durch OJP macht ihn nicht zu einer DOJ-Grundsatzerklärung.

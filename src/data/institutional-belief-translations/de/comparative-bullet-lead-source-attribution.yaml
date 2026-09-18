@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: comparative-bullet-lead-source-attribution
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: 2026-09-18
 title: Vergleichende Geschossbleianalyse als Herkunftszuschreibung
 proposition:
   summary: >-
@@ -33,9 +33,10 @@ impact:
       manche Proben unterscheidbar sind, zugleich aber zufällig nicht unterscheidbare Bleizusammensetzungen vorkommen
       und die vor Gericht verwendete Schlussfolgerung deutlich begrenzt werden muss.
     - >-
-      Das FBI erklärte später gegenüber dem Kongress, der analytische Laborteil sei grundsätzlich tragfähig gewesen,
-      während die statistische Interpretation überzogen werden konnte. 2005 stellte das Bureau die Untersuchung ein
-      und leitete Benachrichtigungs- und Überprüfungsmaßnahmen ein.
+      Das FBI erklärte später gegenüber dem Kongress, der analytische Laborteil sei grundsätzlich tragfähig
+      gewesen, während die statistische Interpretation überzogen werden konnte. 2005 stellte das Bureau die
+      Untersuchung ein und versandte Benachrichtigungen; im März 2008 beschrieb es eine weitere Überprüfung von
+      Fallunterlagen und Gerichtsaussagen.
 episodes:
   - id: united-states-1960-2005
     polity: Vereinigte Staaten
@@ -61,28 +62,65 @@ episodes:
       - Nach Einstellung der Methode leitete das FBI Benachrichtigungs- und Fallüberprüfungen ein
     mechanism:
       summary: >-
-        Das FBI Laboratory integrierte die vergleichende Geschossbleianalyse in Fallarbeit und Sachverständigenaussagen und machte chemische Ähnlichkeiten zu Herkunftsassoziationen in Strafverfahren.
+        Das FBI Laboratory integrierte die vergleichende Geschossbleianalyse in Fallarbeit und
+        Sachverständigenaussagen und machte chemische Ähnlichkeiten zu Herkunftsassoziationen für Ermittlungen
+        auf Bundes-, einzelstaatlicher und lokaler Ebene.
     institutionalCorrection:
-      periodLabel: '2005'
-      action: Das FBI stellte die vergleichende Geschossbleianalyse ein und begann mit Benachrichtigungs- und Fallüberprüfungen.
+      periodLabel: "2005–2008"
+      action: "Das FBI stellte die Untersuchungen 2005 ein und versandte Benachrichtigungen; 2008 berichtete es dem Kongress über weitere Fall- und Aussageprüfungen."
       summary: >-
-        Nach der deutlichen Begrenzung zulässiger Schlussfolgerungen durch den National Research Council stellte das FBI die Untersuchung 2005 ein und leitete Überprüfungsmaßnahmen ein.
+        Nach der deutlichen Begrenzung zulässiger Schlussfolgerungen durch den National Research Council kam das
+        FBI zu dem Ergebnis, dass die statistische Interpretation überzogen werden konnte, und stellte die
+        Untersuchung 2005 ein. In der Anhörung vom März 2008 beschrieb Direktor Mueller Benachrichtigungen aus
+        dem Jahr 2005 sowie weitere Bemühungen, Fallunterlagen und Gerichtsaussagen zu sammeln und zu prüfen.
+        Die belegte Korrektur besteht in der Einstellung dieser FBI-Untersuchung; die Anhörung belegt nicht,
+        dass alle betroffenen Fälle geklärt waren.
 evidence:
   - id: bullet-nrc-proposition
     note: >-
-      Der Konsensbericht hält fest, dass sich FBI-Sachverständige seit den 1960er-Jahren in Tausenden Strafverfahren auf
-      die vergleichende Geschossbleianalyse stützten, und betont, dass die Ergebnisse nur sehr begrenzte Schlussfolgerungen zulassen.
+      Der Konsensbericht hält fest, dass sich FBI-Sachverständige seit den 1960er-Jahren in Tausenden
+      Strafverfahren auf die vergleichende Geschossbleianalyse stützten, und betont, dass die Ergebnisse nur
+      sehr begrenzte Schlussfolgerungen zulassen.
   - id: bullet-nrc-impact
+    note: >-
+      Belegt den historischen Umfang der FBI-Nutzung und den Unterschied zwischen chemischer Messung und
+      Herkunftsschluss. Die spätere Einstellung im Jahr 2005 wird gesondert durch die Anhörung von 2008 belegt.
   - id: bullet-nrc-carrier
+    note: >-
+      Der Konsensbericht hält fest, dass sich FBI-Sachverständige seit den 1960er-Jahren in Tausenden
+      Strafverfahren auf die vergleichende Geschossbleianalyse stützten, und betont, dass die Ergebnisse nur
+      sehr begrenzte Schlussfolgerungen zulassen.
   - id: bullet-nrc-mechanism
+    note: >-
+      Beschreibt Untersuchungen des FBI Laboratory für Bundesbehörden und andere Strafverfolgungsstellen sowie
+      die Verwendung der Ergebnisse in Berichten und Gerichtsaussagen.
   - id: bullet-nrc-consequences
+    note: >-
+      Belegt die ersten beiden Folgen: Verknüpfungen von Tatgeschossen mit der Munition Verdächtiger sowie die
+      Verwendung in Fallarbeit und Gerichtsaussagen. Der Bericht erschien vor der Einstellung und kann die
+      späteren Überprüfungen nicht belegen.
   - id: bullet-interpretation-correction
     note: >-
-      Der Bericht stellt fest, dass die verfügbaren Daten keine Zuordnung zu einer bestimmten Munitionsschachtel stützen,
-      bezeichnet entsprechende Schachtelbezüge als erheblich irreführend und erklärt, dass sich aus Zusammensetzungsdaten
-      allein kein Herstellungsdatum bestimmen lässt.
+      Der Bericht stellt fest, dass die verfügbaren Daten keine Zuordnung zu einer bestimmten Munitionsschachtel
+      stützen, bezeichnet entsprechende Schachtelbezüge als erheblich irreführend und erklärt, dass sich aus
+      Zusammensetzungsdaten allein kein Herstellungsdatum bestimmen lässt.
   - id: bullet-senate-institutional-correction
     note: >-
-      FBI-Direktor Robert Mueller beschrieb die Reaktion des Bureau auf die Prüfung der National Academies: Die Laboranalyse
-      sei grundsätzlich angemessen gewesen, die statistische Interpretation habe jedoch überzogen werden können. Das FBI
-      stellte die Untersuchung 2005 ein und leitete Benachrichtigungs- und Fallüberprüfungen ein.
+      FBI-Direktor Robert Mueller beschrieb die Reaktion des Bureau auf die Prüfung der National Academies: Die
+      Laboranalyse sei grundsätzlich angemessen gewesen, die statistische Interpretation habe jedoch überzogen
+      werden können. Er datierte die Einstellung und Benachrichtigungen auf 2005 und berichtete im März 2008
+      über weitere Prüfungen von Fallunterlagen und Gerichtsaussagen.
+  - id: bullet-interpretation-consequences
+    note: >-
+      Der Bericht stellt fest, dass die verfügbaren Daten keine Zuordnung zu einer bestimmten Munitionsschachtel
+      stützen, bezeichnet entsprechende Schachtelbezüge als erheblich irreführend und erklärt, dass sich aus
+      Zusammensetzungsdaten allein kein Herstellungsdatum bestimmen lässt. Diese Befunde stützen die dritte
+      Folge zum überhöhten Gewicht von Schachtel- oder Datumszuordnungen.
+  - id: bullet-senate-impact
+    note: >-
+      Dokumentiert die Einstellung und Benachrichtigungen durch das FBI von 2005 sowie die 2008 beschriebenen
+      weiteren Prüfungen und belegt damit die spätere Folgenchronologie.
+  - id: bullet-senate-consequences
+    note: >-
+      Belegt Benachrichtigungs- und Fallprüfungsmaßnahmen nach der Einstellung als vierte Folge; eine
+      abgeschlossene Überprüfung oder Abhilfe in allen betroffenen Fällen wird damit nicht belegt.

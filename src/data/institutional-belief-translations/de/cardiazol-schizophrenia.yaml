@@ -1,34 +1,42 @@
 schemaVersion: 2
 locale: de
 entryId: cardiazol-schizophrenia
-sourceReviewedAt: '2026-08-24'
+sourceReviewedAt: '2026-09-19'
 title: Cardiazol-Krampfanfälle als Behandlung der Schizophrenie
 proposition:
   summary: >-
-    Schizophrenie und Epilepsie wurden als biologisch gegensätzliche Erkrankungen behandelt; deshalb sollten chemisch
-    ausgelöste epileptiforme Krampfanfälle mit Cardiazol (Pentylentetrazol/Metrazol) eine Remission der Schizophrenie bewirken.
+    Cardiazol (Pentylentetrazol/Metrazol) wurde als Mittel propagiert, durch epileptiforme Krampfanfälle eine Remission
+    der Schizophrenie herbeizuführen. Ladislas Medunas ursprüngliche Erklärung war ein biologischer Antagonismus zwischen Epilepsie
+    und Schizophrenie; britische Anwender konnten die Behandlung befürworten und diese Erklärung dennoch bezweifeln.
 correction:
   summary: >-
     Schizophrenie und Epilepsie sind keine biologischen Gegensätze, deren Verhältnis sich therapeutisch durch provozierte
     Anfälle umkehren lässt. Frühe Cardiazol-Ergebnisse wurden durch unkontrollierte Vergleiche, wechselnde Diagnosedefinitionen
     und Erfolgskriterien verzerrt, die teilweise ruhigeres oder leichter handhabbares Verhalten mit Genesung gleichsetzten.
-    Krampftherapie als solche ist damit nicht pauschal widerlegt: Die moderne Elektrokrampftherapie besitzt evidenzbasierte
-    Indikationen, etwa bei schwerer Depression, Katatonie und ausgewählten therapieresistenten Erkrankungen. Der historische
-    Irrtum lag in der spezifischen Antagonismustheorie und im daraus abgeleiteten routinemäßigen Einsatz eines extrem
-    belastenden chemischen Konvulsivums bei Schizophrenie.
+    Krampftherapie als solche ist damit nicht pauschal widerlegt: NICE empfiehlt, moderne EKT bei schwerer Depression
+    unter bestimmten Voraussetzungen in Betracht zu ziehen, darunter die Notwendigkeit einer raschen Wirkung oder
+    erfolglose andere Behandlungen, sowie bei Katatonie, wenn angemessene andere Behandlungsversuche erfolglos geblieben
+    sind und/oder der Zustand potenziell lebensbedrohlich ist. Für die allgemeine Behandlung der Schizophrenie empfiehlt
+    NICE EKT nicht. Diese Indikationen bestätigen weder Medunas Antagonismustheorie noch den routinemäßigen Einsatz
+    eines extrem belastenden, schlecht kontrollierbaren chemischen Konvulsivums bei Schizophrenie.
 impact:
   summary: >-
     Die Cardiazoltherapie verbreitete sich innerhalb von etwa zwei Jahren in britischen öffentlichen psychiatrischen
     Kliniken. Intravenöse Injektionen lösten massive Krampfanfälle aus und konnten unmittelbar davor überwältigende
-    Angst erzeugen. Der Board of Control untersuchte und begleitete die institutionelle Einführung, doch die ursprüngliche
-    Vorstellung, künstlich erzeugte Epilepsie könne Schizophrenie entgegenwirken, brach rasch zusammen.
+    Angst erzeugen. Der Board of Control untersuchte die Methode und berichtete darüber, während Kliniken sie einführten;
+    klinische Begeisterung konnte trotz Zweifeln an der ursprünglichen Theorie fortbestehen.
   highlights:
     - value: 89 / 92
-      label: britische Einrichtungen mit Schocktherapien nutzten laut Board-of-Control-Erhebung 1938 Cardiazol
+      label: Einrichtungen mit Cardiazol unter 92 Anwendern von Schocktherapien in der Board-Erhebung Ende 1938
+      note: >-
+        Die Erhebung wurde 1939 veröffentlicht; 92 ist nicht die Gesamtzahl britischer psychiatrischer Krankenhäuser.
     - value: '1938'
-      label: Board of Control veröffentlichte einen nationalen Bericht über Cardiazol bei Schizophrenie
+      label: Board of Control for England and Wales veröffentlichte seinen Bericht über die Cardiazolbehandlung
     - value: '1941'
-      label: britische Kliniker erklärten die ursprüngliche Schizophrenie-Indikation bereits für aufgegeben
+      label: >-
+        Hemphill und Walter bezeichneten die ursprüngliche, auf Schizophrenie ausgerichtete Konzeption als aufgegeben
+      note: >-
+        McCrae ordnet diese Einschätzung ihrer Arbeit von 1941 zu; sie war kein landesweiter Rückzug der Cardiazolbehandlung.
   context:
     - >-
       Cardiazol ist auch als Pentylentetrazol oder Metrazol bekannt. Chemisch ausgelöste Cardiazol-Krampfanfälle bei
@@ -38,67 +46,177 @@ impact:
     - >-
       Spätere Befunde deuteten auf einen Nutzen konvulsiver Therapie bei affektiven Erkrankungen hin. Das bestätigt
       jedoch nicht Medunas ursprüngliche Behauptung eines biologischen Antagonismus zwischen Schizophrenie und Epilepsie.
+    - >-
+      Die Ablösung durch EKT verlief uneinheitlich. McCrae dokumentiert die weitere Anwendung von Cardiazol in Graylingwell
+      und Runwell in den 1940er Jahren sowie in Netherne 1950; die Aussage von 1941 datiert nicht das Ende der Behandlung.
 episodes:
   - id: england-wales-1937-1941
     polity: England und Wales
+    periodLabel: 1937–1939 (belegte Einführung und Befürwortung)
     institutions:
       - Board of Control for England and Wales
-      - Britische öffentliche psychiatrische Krankenhäuser
-      - Royal Medico-Psychological Association
+      - Bexley Hospital
     institutionalContext: >-
-      Die Cardiazol-Krampftherapie erreichte Großbritannien 1937 und verbreitete sich äußerst schnell im öffentlichen
-      Psychiatriesystem. Der Board of Control erwähnte ihre Anwendung bereits in mehreren Einrichtungen, entsandte Beamte
-      nach Ungarn und veröffentlichte 1938 einen eigenen Bericht über Cardiazol und Schockbehandlung bei Schizophrenie.
-      Eine Erhebung Ende 1938 fand Schocktherapien in 92 Einrichtungen; 89 davon verwendeten Cardiazol. Ausgangspunkt
-      war Ladislas Medunas Hypothese, Epilepsie und Schizophrenie seien biologisch antagonistisch und epileptiforme
-      Anfälle könnten daher eine schizophrene Remission auslösen. 1941 räumten britische Kliniker bereits ein, dass
-      diese ursprüngliche Konzeption aufgegeben worden war; zugleich verdrängte die Elektrokrampftherapie die chemische Methode rasch.
+      Das Bexley Hospital begann im Juni 1937 mit der Cardiazolbehandlung und richtete eine eigene Station ein, nachdem
+      der London County Council Leslie Cooks Reise nach Budapest unterstützt hatte. Cook beschrieb 1938 die Erfahrungen
+      in Bexley und das Vertrauen in die Behandlung, bezeichnete Medunas Antagonismushypothese aber ausdrücklich als
+      fraglich. Der Board of Control entsandte im Herbst 1937 Beamte nach Ungarn. Sein 1938 veröffentlichter Jahresbericht
+      für 1937 erwähnte die Anwendung in mehreren Einrichtungen. Er veröffentlichte 1938 auch einen eigenen Bericht
+      und erhob Ende desselben Jahres die Anwendung von Schocktherapien: 89 von 92 Einrichtungen mit solchen
+      Behandlungen nutzten Cardiazol. In seinem 1939 veröffentlichten Bericht hielt der Board die Fortsetzung der
+      verfügbaren Schockverfahren für gerechtfertigt, solange bessere Behandlungen fehlten. Diese Schritte belegen
+      klinische Anwendung und behördliche Befürwortung, keine einheitliche Zustimmung zu Medunas biologischer Erklärung.
+      In der Diskussion der Royal Medico-Psychological Association (RMPA) von 1938 gab es Widerspruch; das Maudsley
+      untersagte Cardiazolversuche wegen der Angst und Belastung der Patienten. Der Episodenzeitraum umfasst diese
+      Einführung und Befürwortung, nicht das Ende der Anwendung. Spätere Belege für das gemeinsame Auftreten von Epilepsie
+      und Schizophrenie sowie heutige Leitlinien zu ausgewählten EKT-Indikationen sind getrennt von den historischen
+      Behandlungsbehauptungen zu beurteilen.
     summary: >-
-      Großbritannien übernahm die Cardiazol-Krampftherapie nach ihrer Einführung 1937 in kürzester Zeit. Die Methode
-      beruhte auf der Vorstellung, Schizophrenie und Epilepsie seien biologische Gegensätze, weshalb epileptiforme Anfälle
-      eine Remission hervorrufen sollten. Der Board of Control untersuchte die Methode und fand Ende 1938 Cardiazol bereits
-      in 89 Einrichtungen. Weitere Erfahrungen zeigten instabile Remissionsangaben, schwere Angst und Verletzungen sowie
-      grundlegende Probleme bei der Bewertung vermeintlicher Besserungen. 1941 wurde die ursprüngliche Schizophrenie-Theorie
-      ausdrücklich als aufgegeben beschrieben; die Elektrokrampftherapie ersetzte das schlechter kontrollierbare chemische Verfahren.
+      Cardiazol wurde 1937 in englischen psychiatrischen Krankenhäusern eingeführt, um Remissionen der Schizophrenie
+      herbeizuführen. In Bexley befürwortete Cook den klinischen Nutzen trotz Zweifeln an Medunas Erklärung eines
+      biologischen Antagonismus. Der Board of Control untersuchte die Methode, fand sie Ende 1938 in 89 erfassten
+      Einrichtungen und hielt anschließend die Fortsetzung der verfügbaren Schockbehandlungen für gerechtfertigt.
+      Die Erfahrungen zeigten instabile Remissionsangaben, schwere Angst und Verletzungen sowie Probleme bei der Bewertung
+      von Besserung. Hemphills und Walters von McCrae wiedergegebene Aussage von 1941 über die ursprüngliche Konzeption
+      belegt keinen Rückzug durch den Board oder Bexley; einige andere Kliniken verwendeten Cardiazol weiter, nachdem
+      EKT verfügbar geworden war.
     consequences:
-      - Großflächige chemische Auslösung generalisierter Krampfanfälle bei psychiatrischen Patientinnen und Patienten
+      - >-
+        Großflächige chemische Auslösung generalisierter Krampfanfälle bei psychiatrischen Patientinnen und Patienten
       - Extreme Erwartungsangst und Belastung unmittelbar vor den Anfällen
-      - Risiko von Wirbel- und anderen Frakturen, Gedächtnisstörungen und Hirnschäden
-      - Ruhigeres Verhalten oder leichtere Stationsführung konnten fälschlich als therapeutische Besserung gelten
-      - Rasche landesweite Verbreitung, bevor die zugrunde liegende Schizophrenie-Theorie belegt war
+      - >-
+        Berichtete Risiken von Wirbel- und anderen Frakturen sowie teils monatelang anhaltenden Gedächtnisstörungen
+      - >-
+        Ruhigeres Verhalten oder leichtere Stationsführung konnten fälschlich als therapeutische Besserung gelten
+      - >-
+        Rasche Verbreitung in den erfassten Einrichtungen, bevor die zugrunde liegende Schizophrenie-Theorie belegt
+        war
     mechanism:
       summary: >-
-        Der Board of Control untersuchte, dokumentierte und erhob die Cardiazolbehandlung, während öffentliche
-        psychiatrische Krankenhäuser das chemische Krampfverfahren rasch in die routinemäßige Schizophreniebehandlung übernahmen.
+        Bexley richtete eine eigene Behandlungsstation ein und führte wiederholte Serien künstlich ausgelöster Anfälle
+        durch, die Cook als klinisch wertvoll darstellte. Der Board of Control untersuchte die Verfahren, veröffentlichte
+        Befunde, erhob ihre Anwendung und hielt die Fortsetzung der verfügbaren Schockmethoden für gerechtfertigt.
+        Diese klinischen und behördlichen Wege stützten die Behandlungsbehauptungen, ohne Einigkeit über Medunas angenommenen
+        Wirkmechanismus vorauszusetzen.
     institutionalCorrection:
-      periodLabel: '1941'
-      action: Britische Kliniker gaben die ursprüngliche Antagonismustheorie von Schizophrenie und Epilepsie auf, während die Elektrokrampftherapie Cardiazol verdrängte.
       summary: >-
-        Die ursprüngliche Theorie und das Cardiazolverfahren wurden in der britischen klinischen Praxis aufgegeben;
-        der vorhandene Nachweis zeigt jedoch keinen einzelnen formellen Beschluss des Board of Control oder eines Berufsverbands,
-        der das frühere Programm ausdrücklich widerrief.
+        Die geprüften Quellen belegen keinen datierten Rückzug und keine ausdrückliche Zurückweisung durch den Board
+        of Control oder das Bexley Hospital. Klinische Kritik an der ursprünglichen Begründung und die schrittweise
+        Ablösung durch EKT sind dokumentiert, ersetzen aber diesen fehlenden institutionellen Akt nicht. McCrae ordnet
+        die Einschätzung von 1941 Hemphill und Walter zu und dokumentiert die weitere Anwendung von Cardiazol andernorts
+        in den 1940er Jahren und danach.
 evidence:
   - id: cardiazol-jama-proposition
     note: >-
       Zeitgenössische klinische Arbeit von 1938, die Medunas Theorie eines biologischen Antagonismus zwischen Schizophrenie
-      und Epilepsie ausdrücklich wiedergibt und Versuche beschreibt, durch mit Metrazol ausgelöste epileptiforme Anfälle Remissionen zu erzeugen.
+      und Epilepsie ausdrücklich wiedergibt und Versuche beschreibt, durch mit Metrazol ausgelöste epileptiforme Anfälle
+      Remissionen zu erzeugen. Der eingesehene Abstract beschreibt eine amerikanische Fallserie, keine britische institutionelle
+      Befürwortung.
   - id: cardiazol-history-correction
     note: >-
       Fachhistorische Analyse der zweifelhaften biologischen Antagonismustheorie, problematischer Erfolgsmessung,
-      schwerer Angstreaktionen und des Übergangs weg von Cardiazol.
+      schwerer Angstreaktionen und des Übergangs weg von Cardiazol. Diese historischen Passagen belegen keine heutigen
+      EKT-Indikationen; dafür werden eigene Quellen verwendet.
   - id: cardiazol-history-impact
+    note: >-
+      Seiten 70–71 belegen die Ende 1938 durchgeführte und 1939 veröffentlichte Erhebung. Seiten 83–84 ordnen die
+      Einschätzung von 1941 Hemphill und Walter zu und zeigen die fortgesetzte chemische Behandlung, darunter in Netherne
+      1950.
   - id: cardiazol-board-carrier
     note: >-
-      Bibliografischer und digitalisierter Nachweis des amtlichen Berichts des Board of Control von 1938, der Cardiazol-
-      und Schockbehandlung bei Schizophrenie ausdrücklich untersuchte.
+      Bibliografischer Nachweis des amtlichen Berichts des Board of Control von 1938 über Cardiazol und hypoglykämische
+      Schockbehandlung. Der Katalog belegt die Veröffentlichungsdaten; der vollständige Bericht wurde nicht eingesehen,
+      und dieser Nachweis belegt keine klinische Einführung.
   - id: cardiazol-hansard-mechanism
     note: >-
-      Primäre Parlamentsquelle, die bestätigt, dass der Board of Control einen Regierungsbericht über Cardiazol-Injektionen
-      bei Schizophrenie vorbereitete, während sich die neue Behandlung in öffentlichen psychiatrischen Krankenhäusern verbreitete.
+      Primäre Parlamentsquelle, die bestätigt, dass der Board of Control einen Bericht über die Cardiazolbehandlung
+      vorbereitete. Der Minister kündigte dessen baldige Veröffentlichung an; diese Ankündigung belegt weder Behandlungsergebnisse
+      noch die Einführung in Kliniken.
+  - id: cardiazol-history-context
+    note: >-
+      Fachhistorische Analyse, die Cardiazol als das in britischen öffentlichen psychiatrischen Kliniken der späten
+      1930er Jahre am weitesten verbreitete größere somatische Behandlungsverfahren beschreibt und die zweifelhafte
+      biologische Antagonismushypothese, problematische Erfolgsmessung, schwere Angst und den Übergang weg von Cardiazol
+      nachzeichnet. Der Volltext ist als HAL-Dokument hal-00570852 verfügbar; heutige EKT-Indikationen werden gesondert
+      belegt.
   - id: cardiazol-history-consequences
+    note: >-
+      Der Artikel dokumentiert Verbreitung, Angst, Frakturen und Gedächtnisstörungen, darunter Berichte über noch
+      Monate später bestehende Amnesie. Das sind einrichtungsübergreifend berichtete Behandlungsrisiken, keine Häufigkeitsangaben
+      für Bexley. Zeitgenössische Behauptungen über strukturelle Hirnschäden waren umstritten; der Eintrag nennt deshalb
+      die berichteten Gedächtnisfolgen.
   - id: cardiazol-history-partial-correction
+    note: >-
+      Die zugeordnete Aussage über einen Konzeptionswechsel von 1941 und die spätere Ablösung durch EKT beschreiben
+      klinischen Wandel. Die weitere Anwendung in benannten Kliniken schließt aus, 1941 als allgemeines Ende zu behandeln;
+      diese Passagen dokumentieren keinen Korrekturakt des Board oder von Bexley.
   - id: cardiazol-ncbi-context
     note: >-
       Moderne historische Synthese, die Cardiazol als häufigste somatische Behandlung von Schizophrenie und affektiven
       Erkrankungen in britischen öffentlichen psychiatrischen Krankenhäusern beschreibt und festhält, dass das Maudsley
       Versuche wegen der extremen Angst und Furcht durch die ausgelösten Krampfanfälle ablehnte.
+  - id: cardiazol-cook-proposition
+    note: >-
+      Cook erläutert Medunas Hypothese, stellt sie aber ausdrücklich infrage, während er die klinische Behandlung
+      befürwortet und Bexleys Vertrauen beschreibt. Sein Bericht unterscheidet die Förderung der Behandlung von der
+      Zustimmung zu ihrer ursprünglichen biologischen Begründung.
+  - id: cardiazol-qin-correction
+    note: >-
+      Die dänische Registerkohorte dokumentiert Schizophrenie nach Epilepsie und ein damit verbundenes erhöhtes Risiko.
+      Das widerspricht einem gegenseitigen Ausschluss; die Beobachtungsstudie prüft jedoch weder Cardiazol noch beweist
+      sie Kausalität und verwendet stationäre Diagnosen.
+  - id: cardiazol-nice-depression-correction
+    note: >-
+      NICE nennt bestimmte Voraussetzungen, um EKT bei schwerer Depression in Betracht zu ziehen, darunter rasch erforderliche
+      Wirkung und erfolglose andere Behandlungen, sowie Anforderungen an Risikoabwägung und Einwilligung. Das ist
+      eine heutige EKT-Leitlinie, kein Beleg für historische chemische Krampfbehandlungen.
+  - id: cardiazol-nice-ect-correction
+    note: >-
+      Die endgültige Leitlinie begrenzt EKT bei Katatonie auf bestimmte schwere Situationen und empfiehlt sie nicht
+      für die allgemeine Schizophreniebehandlung. Die Depressionsleitlinie in TA59 wurde durch NG222 ersetzt; beide
+      Quellen haben unterschiedliche Geltungsbereiche.
+  - id: cardiazol-history-carrier
+    note: >-
+      Bexleys eigene Station und der Beginn im Juni 1937 werden benannt. Die veröffentlichte Rechtfertigung des Board
+      für die Fortsetzung verfügbarer Schockmethoden wird über diese historische Arbeit wiedergegeben, nicht aus einem
+      direkt eingesehenen Jahresbericht; sie beweist keine amtliche Befürwortung des Antagonismus.
+  - id: cardiazol-cook-carrier
+    note: >-
+      Bexleys eigener klinischer Bericht beschreibt abgeschlossene Behandlungsserien und das Vertrauen des Personals
+      in Cardiazol. Die Originalarbeit hält auf Seite 567 auch die Zweifel des Autors am Antagonismus fest.
+  - id: cardiazol-history-mechanism
+    note: >-
+      Die eigene Station, die amtliche Untersuchung, Veröffentlichung, Erhebung und Empfehlung zur Fortsetzung verfügbarer
+      Methoden belegen unterschiedliche klinische und behördliche Wege. In der RMPA-Diskussion gab es Widerspruch;
+      sie wird daher nicht als Befürwortung durch den Verband behandelt.
+  - id: cardiazol-cook-mechanism
+    note: >-
+      Cook beschreibt wiederholte Behandlungsserien, die Patientenauswahl und die klinischen Behauptungen zur Rechtfertigung
+      der Praxis in Bexley. Das belegt die Einführung in dieser Klinik, ohne allen erfassten Einrichtungen dasselbe
+      Behandlungsschema zuzuschreiben.
+  - id: cardiazol-cook-consequences
+    note: >-
+      Der Originalbericht beschreibt unmittelbar künstlich ausgelöste generalisierte Anfälle, die Angst der Patienten
+      und Probleme beim Vergleich von Remissionsangaben. Beobachtete Ergebnisse und zuversichtliche Deutungen sind
+      von einem kontrollierten Wirksamkeitsnachweis zu unterscheiden. Seite 567 stellt die Theorie trotz klinischer Anwendung ausdrücklich infrage.
+  - id: cardiazol-jama-context
+    note: >-
+      Zeitgenössische klinische Arbeit von 1938, die Medunas Theorie eines biologischen Antagonismus zwischen Schizophrenie
+      und Epilepsie ausdrücklich wiedergibt und Versuche beschreibt, durch mit Metrazol ausgelöste epileptiforme Anfälle
+      Remissionen zu erzeugen. Der eingesehene Abstract beschreibt eine amerikanische Fallserie, keine britische institutionelle
+      Befürwortung.
+  - id: cardiazol-qin-context
+    note: >-
+      Die dänische Registerkohorte dokumentiert Schizophrenie nach Epilepsie und ein damit verbundenes erhöhtes Risiko.
+      Das widerspricht einem gegenseitigen Ausschluss; die Beobachtungsstudie prüft jedoch weder Cardiazol noch beweist
+      sie Kausalität und verwendet stationäre Diagnosen.
+  - id: cardiazol-nice-depression-context
+    note: >-
+      NICE nennt bestimmte Voraussetzungen, um EKT bei schwerer Depression in Betracht zu ziehen, darunter rasch erforderliche
+      Wirkung und erfolglose andere Behandlungen, sowie Anforderungen an Risikoabwägung und Einwilligung. Das ist
+      eine heutige EKT-Leitlinie, kein Beleg für historische chemische Krampfbehandlungen.
+  - id: cardiazol-nice-ect-context
+    note: >-
+      Die endgültige Leitlinie begrenzt EKT bei Katatonie auf bestimmte schwere Situationen und empfiehlt sie nicht
+      für die allgemeine Schizophreniebehandlung. Die Depressionsleitlinie in TA59 wurde durch NG222 ersetzt; beide
+      Quellen haben unterschiedliche Geltungsbereiche.

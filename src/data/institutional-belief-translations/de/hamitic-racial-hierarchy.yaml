@@ -1,61 +1,128 @@
 schemaVersion: 2
 locale: de
 entryId: hamitic-racial-hierarchy
-sourceReviewedAt: '2026-08-23'
-title: Hamitische Rassenhierarchie
+sourceReviewedAt: '2026-09-19'
+title: Hamitische Rassenhierarchie in Elitenbildung und Ämtervergabe
 proposition:
   summary: >-
-    Tutsi wurden als fremde „hamitische Rasse“ behandelt, die Hutu von Natur aus an Intelligenz, politischer Befähigung
-    und Zivilisationsgrad überlegen sei.
+    Belgische Kolonialbeamte und katholische Bildungsträger behandelten Tutsi als eine fremde „hamitische Rasse“, die
+    Hutu von Natur aus an Intelligenz, politischer Befähigung und Zivilisationsgrad überlegen sei, und rechtfertigten mit
+    dieser Hierarchie bevorzugte Elitenbildung und Ämtervergabe.
 correction:
   summary: >-
     Die koloniale hamitische Hierarchie war wissenschaftlicher Rassismus und keine gültige Beschreibung menschlicher
     Populationen. Hutu und Tutsi teilen Sprache, Kultur und eine eng verflochtene regionale Geschichte; keine der beiden
     Gruppen bildet eine biologisch über- oder unterlegene „Rasse“.
+impact:
+  summary: >-
+    Die Hierarchie wirkte über ein schrittweise entstandenes Netzwerk aus Staat und Kirche. Belgien erhielt 1922 sein
+    Völkerbundmandat, und Léon Classe übernahm im selben Jahr die Leitung des neuen Apostolischen Vikariats; 1925 wurde
+    Ruanda-Urundi ein Vice-Gouvernement général. Classe widersetzte sich 1927 einer begrenzten Neuverteilung der Häuptlings-
+    und Unterhäuptlingsämter, und ab 1932 bildete das kirchlich geführte Groupe Scolaire d'Astrida künftige Eliten aus.
+    Für 1959 verzeichnet die zitierte Chronologie unter 82 Häuptlingen nur einen Hutu und unter 1.050 Unterhäuptlingen
+    nur 50. Diese Zahlen zeigen die entstandene institutionelle Hierarchie, ohne jede einzelne Ernennung einer einzigen Ursache zuzuschreiben.
+  highlights:
+    - value: '1922'
+      label: Völkerbundmandat und Classes Ernennung zum Leiter des neuen Apostolischen Vikariats
+    - value: '1927'
+      label: Jahr, in dem Classe einer vorgeschlagenen Neuverteilung der Häuptlings- und Unterhäuptlingsämter widersprach
+    - value: '1932'
+      label: Jahr, in dem das kirchlich geführte Groupe Scolaire d'Astrida die frühere Schule für Häuptlingssöhne ersetzte
+  context:
+    - >-
+      Ein verwandter Datensatz untersucht die breitere rassische Klassifizierung von Hutu, Tutsi und Twa und ihre
+      Eintragung in Ausweisdokumente. Dieser Datensatz ist enger gefasst: Er verfolgt benannte koloniale, katholische und
+      schulische Träger in Elitenausbildung und Ämtervergabe.
+    - >-
+      Die belgische Besetzung begann 1916, die Zivilverwaltung folgte 1919. Der hier verwendete Beginn 1922 bezeichnet
+      das Völkerbundmandat und Classes neues Vikariat; das Vice-Gouvernement général und Astrida kamen später zum Netzwerk hinzu.
+    - >-
+      Der Endpunkt 1959 bezeichnet die politische Umkehr und Revolution, nicht das Ende der belgischen Herrschaft, die
+      bis zur Unabhängigkeit 1962 fortbestand. Er belegt auch keinen formellen Widerruf der Rassentheorie durch die benannten Träger.
 episodes:
-  - id: belgian-rwanda-1920-1959
+  - id: belgian-rwanda-1922-1959
     polity: Belgisch-Ruanda
+    periodLabel: '1922 Mandat und Vikariat–1959 Beginn der Umkehr; belgische Herrschaft endete 1962'
     institutions:
       - Résidence du Ruanda
       - Vice-Gouvernement général du Ruanda-Urundi
       - Groupe Scolaire d'Astrida
       - Vicariat apostolique du Rwanda
     institutionalContext: >-
-      Belgien verwaltete Ruanda über die Résidence du Ruanda innerhalb des Vice-Gouvernement général du Ruanda-Urundi.
-      Katholische Missionen trugen einen großen Teil des formalen Bildungswesens; das Groupe Scolaire d'Astrida bildete
-      künftige Verwaltungseliten aus. Apostolischer Vikar Léon Classe verteidigte die hamitische Hierarchie öffentlich
-      und nahm Einfluss auf koloniale Personalentscheidungen. Hinter der Politik standen damit benennbare staatliche und
-      kirchliche Institutionen – nicht bloß eine abstrakte „Kolonialverwaltung“.
-    summary: >-
-      Die belgische Kolonialherrschaft verstärkte eine rassifizierte Hierarchie, in der Tutsi als fremd, intelligenter
-      und von Natur aus zum Herrschen geeignet dargestellt wurden. Über die Résidence du Ruanda, die Verwaltung
-      Ruanda-Urundis, katholische Bildungseinrichtungen und die Elitenausbildung in Astrida wurde diese Vorstellung
-      institutionell verankert; amtliche Ausweise und Verwaltungspraxis machten die Kategorien Hutu, Tutsi und Twa zunehmend starr.
+      Belgien erhielt 1922 das Völkerbundmandat für Ruanda-Urundi; im selben Jahr wurde Léon Classe zum Leiter des neuen
+      Apostolischen Vikariats Ruanda ernannt. Ab 1925 bildete Ruanda-Urundi ein Vice-Gouvernement général in
+      Verwaltungsgemeinschaft mit Belgisch-Kongo, während die Résidence du Ruanda eigene Verwaltungsberichte erstellte.
+      Die katholische Kirche nahm im Bildungswesen eine beherrschende Stellung ein. Classe verteidigte die hamitische
+      Theorie von Tutsi als geborenen Herrschern und widersetzte sich 1927 einer vorgeschlagenen Neuverteilung der
+      Häuptlings- und Unterhäuptlingsämter. 1932 ersetzte das kirchlich geführte Groupe Scolaire d'Astrida die frühere
+      Schule für Häuptlingssöhne und bildete künftige Eliten aus. Dieses schrittweise entstandene Netzwerk verband
+      staatliche Verwaltung, kirchliche politische Einflussnahme und Elitenbildung bis zu der 1959 kulminierenden Neuorientierung.
     consequences:
-      - Ethnische Klassifizierung in amtlichen Ausweisen
-      - Bevorzugter Zugang von Tutsi zu Elitenbildung und Verwaltungsämtern
-      - Administrative Neuordnung entlang einer rassifizierten Hutu-Tutsi-Hierarchie
+      - Koloniales und kirchliches Bildungswesen festigten eine Hierarchie, die Tutsi als von Natur aus zur Führung geeignet darstellte
+      - Classe berief sich auf die hamitische Theorie, als er sich 1927 einer Neuverteilung von Häuptlings- und Unterhäuptlingsämtern widersetzte
+      - Kirchlich kontrollierte Elitenausbildung, darunter Astrida ab 1932, reproduzierte die Hierarchie unter künftigen Amtsträgern
+      - 1959 waren laut der zitierten Chronologie nur einer von 82 Häuptlingen und 50 von 1.050 Unterhäuptlingen Hutu
+    summary: >-
+      Belgische Kolonialverwaltung und katholisches Bildungswesen verliehen einer Hierarchie institutionelle Form, die
+      Tutsi als fremd, intelligenter und von Natur aus zum Herrschen geeignet darstellte. Die Résidence du Ruanda und das
+      Vice-Gouvernement général stellten die staatliche Struktur; Classe setzte kirchlichen Einfluss bei politischen
+      Ernennungen ein; Astrida bildete künftige Eliten aus. Die Identitätsdokumentation gehörte zum breiteren kolonialen
+      Umfeld, doch diese Episode behandelt bevorzugte Bildungs- und Ernennungspraktiken der benannten Institutionen.
     mechanism:
       summary: >-
-        Koloniale und kirchliche Institutionen verankerten die hamitische Hierarchie durch Identitätsklassifikation,
-        bevorzugte Bildung und administrative Auswahl und machten damit eine Rassentheorie zu Verwaltungspraxis und Elitenbildung.
+        Die Kolonialverwaltung ordnete Ämter innerhalb der Hierarchie, während das Apostolische Vikariat seine
+        Bildungsmacht und seinen politischen Einfluss zur Verteidigung der Tutsi-Führungsrolle nutzte. Astrida übertrug
+        diese Hierarchie anschließend in die Elitenbildung.
     institutionalCorrection:
       summary: >-
-        Politische Ausrichtung und Kolonialordnung änderten sich ab 1959 grundlegend. Ein datierter formeller Widerruf der
-        hamitischen Rassentheorie selbst durch die belgische Kolonialverwaltung oder kirchliche Träger ist im vorhandenen Nachweis jedoch nicht belegt.
+        Unter dem Druck des Treuhandrats der Vereinten Nationen eröffnete die belgische Regierung Hutu vor der
+        politischen Umkehr von 1959 mehr Möglichkeiten in Verwaltung und Bildung. Die belgische Herrschaft dauerte bis
+        1962 fort; im vorhandenen Nachweis findet sich jedoch kein datierter Akt, mit dem die benannten kolonialen oder
+        kirchlichen Träger die hamitische Rassentheorie formell widerriefen.
 evidence:
   - id: hamitic-un-proposition
     note: >-
-      Beschreibt die belgische Übernahme der fiktiven hamitischen Hypothese, die Behauptung einer Tutsi-Überlegenheit,
-      diskriminierende Bildung und Verwaltung sowie die Fixierung ethnischer Zugehörigkeit in Ausweisdokumenten.
+      Die UN-Fallstudie beschreibt eine belgische Kolonialideologie, die Tutsi als den Hutu intellektuell, politisch und
+      kulturell überlegen darstellte; sie verbindet diese Hierarchie mit dem Ausschluss von Macht und ihrer Festigung durch koloniale Bildung.
   - id: hamitic-un-correction
+    note: >-
+      Die Studie bezeichnet die hamitische Hypothese als fiktiven wissenschaftlichen Rassismus des 19. Jahrhunderts und
+      hält fest, dass Hutu, Tutsi und Twa trotz kolonialer Differenzierung Kinyarwanda sowie ähnliche historische und kulturelle Erfahrungen teilten.
   - id: hamitic-belgian-archives-carrier
     note: >-
-      Belegt das formelle Vice-Gouvernement général du Ruanda-Urundi und den erhaltenen belgischen kolonialen Verwaltungsbestand für 1916–1962.
+      Das Belgische Staatsarchiv datiert die belgische Kolonialherrschaft auf 1916–1962 und das Vice-Gouvernement général
+      du Ruanda-Urundi auf 1925. Die gesonderte Angabe 1916–1964 auf der Seite bezeichnet die archivalische Berichtsserie,
+      nicht diese Verwaltungsform.
   - id: hamitic-sciencespo-mechanism
     note: >-
-      Identifiziert das Groupe Scolaire d'Astrida, die katholische Bildungsrolle, die Verteidigung der hamitischen
-      Hypothese durch den Apostolischen Vikar Léon Classe und seinen Einfluss auf koloniale Personalpolitik.
+      Die Chronologie nennt das kirchliche Bildungsmonopol, Astridas Elitenausbildung, Classes Verteidigung der Tutsi als
+      geborene Herrscher und seinen Widerstand von 1927 gegen eine Neuverteilung der Häuptlings- und Unterhäuptlingsämter.
   - id: hamitic-unamir-consequences
     note: >-
-      Erklärt, wie belgische Behörden ethnische Kategorien durch Ausweise verhärteten und Tutsi systematisch in Bildung und Zivilverwaltung bevorzugten.
+      Die UNAMIR-Geschichte stützt die gemeinsame Sprache und Kultur, die administrative Verhärtung durch Ausweise, die
+      politische und wirtschaftliche Vorherrschaft der Tutsi bis 1959 und die Umkehr von 1959. Sie belegt keine konkreten Bildungs- oder Ernennungspraktiken.
+  - id: hamitic-sciencespo-carrier
+    note: >-
+      Die Chronologie datiert das Völkerbundmandat und Classes Ernennung zum Leiter des neuen Apostolischen Vikariats auf
+      1922, beschreibt das kirchliche Bildungsmonopol und datiert das Groupe Scolaire d'Astrida auf 1932.
+  - id: hamitic-sciencespo-impact
+    note: >-
+      Die Chronologie liefert die institutionellen Stationen von 1922, 1927 und 1932 und nennt für 1959 einen Hutu unter
+      82 Häuptlingen sowie 50 unter 1.050 Unterhäuptlingen.
+  - id: hamitic-un-consequences
+    note: >-
+      Die UN-Studie erklärt, die Hierarchie habe Hutu von Macht und Autorität ausgeschlossen und sei durch das koloniale
+      Bildungswesen sowie europäische Beamte, Priester und Lehrer gefestigt worden.
+  - id: hamitic-sciencespo-consequences
+    note: >-
+      Die Chronologie dokumentiert unmittelbar Astridas Rolle in der Elitenbildung, Classes Eingreifen von 1927 gegen
+      eine Neuverteilung von Ämtern und die Zahlen zu Häuptlingen und Unterhäuptlingen für 1959.
+  - id: hamitic-belgian-archives-context
+    note: >-
+      Das Staatsarchiv unterscheidet die belgische Herrschaft ab 1916, das Vice-Gouvernement général ab 1925 und das Ende
+      der belgischen Verwaltung mit der Unabhängigkeit am 1. Juli 1962. Diese Daten erklären die abgestuften Episodengrenzen.
+  - id: hamitic-un-policy-reversal
+    note: >-
+      Die UN-Studie verzeichnet den Druck des Treuhandrats, erweiterte Möglichkeiten für Hutu in Verwaltung und Bildung,
+      die Rebellion von 1959 und die Unabhängigkeit 1962. Diese politischen Änderungen gelten hier nicht als belegter
+      formeller Widerruf durch sämtliche benannten Träger.

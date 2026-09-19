@@ -1,21 +1,48 @@
 schemaVersion: 2
-title: Hamitic racial hierarchy
+title: Hamitic racial hierarchy in elite education and appointments
 proposition:
   summary: >-
-    Tutsi were treated as a foreign “Hamitic” race naturally superior to Hutu in intelligence, political ability, and civilization.
+    Belgian colonial administrators and Catholic educational authorities treated Tutsi as a foreign “Hamitic” race
+    naturally superior to Hutu in intelligence, political ability and civilization, and used that hierarchy to justify
+    preferential elite education and appointments.
 correction:
   summary: >-
     The colonial Hamitic hierarchy was scientific racism, not a valid account of human populations. Hutu and Tutsi
     share language, culture, and a deeply intertwined regional history; neither group constitutes a biologically
     superior or inferior race.
 category: Race and anthropology
-reviewedAt: '2026-08-23'
+reviewedAt: '2026-09-19'
+impact:
+  summary: >-
+    The hierarchy operated through a staged state-and-church network. Belgium received its League mandate and Léon Classe
+    became head of the new apostolic vicariate in 1922; Ruanda-Urundi became a vice-government-general in 1925; Classe
+    opposed a modest rebalancing of chief and subchief posts in 1927; and the church-run Groupe Scolaire d'Astrida trained
+    future elites from 1932. By 1959, the cited chronology records only one Hutu among 82 chiefs and 50 among 1,050
+    subchiefs. These figures show the resulting institutional hierarchy without assigning every appointment to one cause.
+  highlights:
+    - value: '1922'
+      label: League mandate and Classe's appointment to the new apostolic vicariate
+    - value: '1927'
+      label: year Classe opposed a proposed rebalancing of chief and subchief posts
+    - value: '1932'
+      label: year the church-run Groupe Scolaire d'Astrida replaced the earlier school for chiefs' sons
+  context:
+    - >-
+      A related record examines the broader racial classification of Hutu, Tutsi and Twa and its recording in identity
+      documents. This record is narrower: it follows named colonial, Catholic and educational carriers in elite training and appointments.
+    - >-
+      Belgian occupation began in 1916 and civil administration followed in 1919. The 1922 start used here marks the
+      League mandate and Classe's new vicariate; the vice-government-general and Astrida entered the network later.
+    - >-
+      The 1959 endpoint marks the political reversal and revolution, not the end of Belgian rule, which continued to
+      independence in 1962. It also does not establish a formal repudiation of the racial theory by the named carriers.
 episodes:
-  - id: belgian-rwanda-1920-1959
+  - id: belgian-rwanda-1922-1959
     polity: Belgian Rwanda
     region: Africa
-    startYear: 1920
+    startYear: 1922
     endYear: 1959
+    periodLabel: '1922 mandate and vicariate–1959 reversal onset; Belgian rule ended in 1962'
     strength: policy-basis
     institutionTypes:
       - government
@@ -26,30 +53,35 @@ episodes:
       - Groupe Scolaire d'Astrida
       - Vicariat apostolique du Rwanda
     institutionalContext: >-
-      Belgian rule operated Rwanda through the Ruanda residency within the Vice-Government-General of Ruanda-Urundi.
-      Catholic missions supplied much of the formal education; the Groupe Scolaire d'Astrida trained future administrative
-      elites, while Vicar Apostolic Léon Classe publicly defended the Hamitic hierarchy and influenced colonial
-      appointments. The wider identity-card, chiefly, schooling, and administrative system was therefore a network of
-      named colonial and church institutions rather than a single generic “colonial administration.”
+      Belgium received the League of Nations mandate for Ruanda-Urundi in 1922, the same year Léon Classe was appointed
+      to the new apostolic vicariate of Rwanda. From 1925, Ruanda-Urundi formed a vice-government-general in administrative
+      union with the Belgian Congo, while the Ruanda residency generated its own administrative reports. The Catholic
+      Church held a dominant role in education. Classe defended the Hamitic theory of Tutsi as born rulers and opposed a
+      proposed rebalancing of chief and subchief posts in 1927. In 1932, the church-run Groupe Scolaire d'Astrida replaced
+      the earlier school for chiefs' sons and trained future elites. This staged network linked state administration,
+      church political intervention and elite formation until the realignment culminating in 1959.
     consequences:
-      - Ethnic classification fixed on official identity cards
-      - Preferential access to elite education and administrative office for Tutsi
-      - Administrative reorganization around a racialized Hutu–Tutsi hierarchy
+      - Colonial and church education reinforced a hierarchy that presented Tutsi as naturally fitted for leadership
+      - Classe invoked the Hamitic theory while opposing a proposed 1927 rebalancing of chief and subchief appointments
+      - Church-controlled elite training, including Astrida from 1932, reproduced the hierarchy among future officeholders
+      - By 1959, only one of 82 chiefs and 50 of 1,050 subchiefs in the cited chronology were Hutu
     summary: >-
-      Belgian rule reinforced a racialized hierarchy portraying Tutsi as foreign, more intelligent, and naturally suited
-      to rule. The belief was embedded through the Ruanda residency, the Ruanda-Urundi colonial administration, Catholic
-      educational institutions, and elite training at Astrida; official identity documents and administrative practice
-      made Hutu, Tutsi, and Twa categories increasingly rigid.
+      Belgian colonial administration and Catholic education gave institutional form to a hierarchy portraying Tutsi as
+      foreign, more intelligent and naturally suited to rule. The Ruanda residency and vice-government-general supplied
+      the state structure; Classe used church influence in political appointments; and Astrida trained future elites.
+      Identity documentation formed part of the wider colonial setting, but this episode concerns preferential education
+      and appointment practices carried by these named institutions.
     mechanism:
-      kind: classification
+      kind: administrative-adoption
       summary: >-
-        Colonial and church institutions embedded the Hamitic hierarchy through identity classification, preferential
-        education and administrative selection, converting a racial theory into routine governance and elite formation.
+        Colonial administration organized offices within the hierarchy, while the apostolic vicariate used its educational
+        power and political influence to defend Tutsi leadership. Astrida then carried that hierarchy into elite formation.
     institutionalCorrection:
       status: undocumented
       summary: >-
-        Belgian political alignments and the colonial order changed sharply from 1959 onward, but the existing record
-        does not identify a dated colonial or church institutional act formally repudiating the Hamitic racial theory itself.
+        Under United Nations Trusteeship Council pressure, the Belgian government opened more opportunities to Hutu in
+        government and education before the 1959 political reversal. Belgian rule continued until 1962, but the existing
+        record does not identify a dated act by the named colonial or church carriers formally repudiating the Hamitic racial theory itself.
 sources:
   - id: hamitic-un-ethnicity-genocide
     title: Ethnicity and Genocide — The Case of Rwanda
@@ -60,8 +92,8 @@ sources:
     url: https://peacekeeping.un.org/sites/default/files/past/unamirFT.htm
     publisher: United Nations Peacekeeping
   - id: hamitic-sciencespo
-    title: Chronologie du Rwanda (1867–1994)
-    url: https://www.sciencespo.fr/mass-violence-war-massacre-resistance/fr/document/chronologie-du-rwanda-1867-1994.html
+    title: Rwanda — A Chronology (1867–1994)
+    url: https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/rwanda-chronology-1867-1994
     publisher: Sciences Po — Violence de masse et Résistance
   - id: hamitic-belgian-archives
     title: Colonial administration reports for Rwanda and Burundi opened for research
@@ -72,31 +104,87 @@ evidence:
     sourceId: hamitic-un-ethnicity-genocide
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: 'Printed pp. 21–22, “The Case of Rwanda”'
     note: >-
-      Describes Belgian adoption of the fictitious Hamitic hypothesis, the claim of Tutsi superiority, discriminatory
-      education and administration, and the fixing of ethnicity on identity cards.
+      The UN case study describes Belgian colonial ideology as presenting Tutsi as superior to Hutu intellectually,
+      politically and culturally; it links that hierarchy to exclusion from power and reinforcement through colonial education.
   - id: hamitic-un-correction
     sourceId: hamitic-un-ethnicity-genocide
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: 'Printed pp. 21–22, “The Case of Rwanda”'
+    note: >-
+      The study calls the Hamitic hypothesis fictitious nineteenth-century scientific racism and notes that Hutu, Tutsi
+      and Twa shared Kinyarwanda and similar historical and cultural experience despite colonial differentiation.
   - id: hamitic-belgian-archives-carrier
     sourceId: hamitic-belgian-archives
     relation: documents
-    target: {scope: episode, episodeId: belgian-rwanda-1920-1959, aspect: carrier}
+    target: {scope: episode, episodeId: belgian-rwanda-1922-1959, aspect: carrier}
+    locator: 'Paragraphs beginning “Entre 1916 et 1962” and “Pendant la Première Guerre mondiale”'
     note: >-
-      Establishes the formal Vice-Government-General of Ruanda-Urundi and the surviving Belgian colonial administrative
-      record for 1916–1962.
+      The State Archives dates Belgian imperial control to 1916–1962 and the Vice-Government-General of Ruanda-Urundi to
+      1925. The separate 1916–1964 date on the page describes the archival report series, not that administrative form.
   - id: hamitic-sciencespo-mechanism
     sourceId: hamitic-sciencespo
     relation: documents
-    target: {scope: episode, episodeId: belgian-rwanda-1920-1959, aspect: mechanism}
+    target: {scope: episode, episodeId: belgian-rwanda-1922-1959, aspect: mechanism}
+    locator: '“The Belgian Mandate and Trusteeship (1916–1959),” paragraphs 1–3'
     note: >-
-      Identifies the Groupe Scolaire d'Astrida, the Catholic educational role, Vicar Apostolic Léon Classe's defense of
-      the Hamitic hypothesis, and his influence on colonial personnel policy.
+      The chronology identifies the church's educational monopoly, Astrida's elite training, Classe's defence of Tutsi as
+      born rulers and his 1927 opposition to rebalancing chief and subchief posts.
   - id: hamitic-unamir-consequences
     sourceId: hamitic-unamir-history
-    relation: supports
-    target: {scope: episode, episodeId: belgian-rwanda-1920-1959, aspect: consequences}
+    relation: contextualizes
+    target: {scope: episode, episodeId: belgian-rwanda-1922-1959, aspect: consequences}
+    locator: '“Historical Background,” paragraph beginning “Its population of over 7 million”'
     note: >-
-      Explains how Belgian authorities rigidified ethnic categories through identity cards and systematically favored
-      Tutsi in education and civil administration.
+      The UNAMIR history supports shared language and culture, administrative hardening through identity cards, Tutsi
+      political and economic predominance until 1959, and the 1959 reversal. It does not establish specific education or appointment practices.
+  - id: hamitic-sciencespo-carrier
+    sourceId: hamitic-sciencespo
+    relation: documents
+    target: {scope: episode, episodeId: belgian-rwanda-1922-1959, aspect: carrier}
+    locator: '“The Belgian Mandate and Trusteeship (1916–1959),” paragraphs 1–3; 1922 entry'
+    note: >-
+      The chronology dates the League mandate and Classe's appointment to the new apostolic vicariate to 1922, describes
+      the church's educational monopoly and dates the Groupe Scolaire d'Astrida to 1932.
+  - id: hamitic-sciencespo-impact
+    sourceId: hamitic-sciencespo
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: '“The Belgian Mandate and Trusteeship (1916–1959),” paragraphs 1–3'
+    note: >-
+      The chronology supplies the staged 1922, 1927 and 1932 institutional milestones and reports the 1959 distribution
+      of one Hutu among 82 chiefs and 50 among 1,050 subchiefs.
+  - id: hamitic-un-consequences
+    sourceId: hamitic-un-ethnicity-genocide
+    relation: supports
+    target: {scope: episode, episodeId: belgian-rwanda-1922-1959, aspect: consequences}
+    locator: 'Printed pp. 21–22, “The Case of Rwanda”'
+    note: >-
+      The UN study says the hierarchy excluded Hutu from power and authority and was reinforced through the colonial
+      educational system, European civil servants, priests and teachers.
+  - id: hamitic-sciencespo-consequences
+    sourceId: hamitic-sciencespo
+    relation: documents
+    target: {scope: episode, episodeId: belgian-rwanda-1922-1959, aspect: consequences}
+    locator: '“The Belgian Mandate and Trusteeship (1916–1959),” paragraph 3'
+    note: >-
+      The chronology directly documents Astrida's role in elite education, Classe's 1927 intervention against rebalancing
+      appointments and the 1959 chief and subchief figures.
+  - id: hamitic-belgian-archives-context
+    sourceId: hamitic-belgian-archives
+    relation: contextualizes
+    target: {scope: episode, episodeId: belgian-rwanda-1922-1959, aspect: context}
+    locator: 'Paragraphs beginning “Entre 1916 et 1962” and “Pendant la Première Guerre mondiale”'
+    note: >-
+      The State Archives distinguishes Belgian control from 1916, the vice-government-general from 1925 and the end of
+      Belgian administration at independence on 1 July 1962. Those dates explain the staged episode boundaries.
+  - id: hamitic-un-policy-reversal
+    sourceId: hamitic-un-ethnicity-genocide
+    relation: contextualizes
+    target: {scope: episode, episodeId: belgian-rwanda-1922-1959, aspect: institutional-correction}
+    locator: 'Printed p. 22, “The Case of Rwanda”'
+    note: >-
+      The UN study records Trusteeship Council pressure, wider Hutu opportunities in government and education, the 1959
+      rebellion and 1962 independence. These policy changes are not treated as a documented formal repudiation by every named carrier.

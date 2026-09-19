@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: algiers-school-north-african-primitivism
-sourceReviewedAt: '2026-08-25'
+sourceReviewedAt: '2026-09-19'
 title: Nordafrikaner als biologisch „primitiv“ in der kolonialen Psychiatrie
 proposition:
   summary: >-
@@ -18,17 +18,19 @@ correction:
 impact:
   summary: >-
     Die Theorie hatte institutionelle Reichweite, weil Antoine Porot nicht nur publizierte: Er lehrte Neuropsychiatrie
-    an der medizinischen Fakultät von Algier, prägte die Schule von Algier und wirkte am Aufbau des kolonialen psychiatrischen
-    Systems einschließlich Blida-Joinville mit. Sein Artikel von 1918 wurde zum Gründungstext; 1939 machten Porot und
-    Sutter „Primitivismus“ ausdrücklich zum Erklärungsmodell nordafrikanischer Psychopathologie. Fanons Arbeit in Blida
-    in den 1950er-Jahren wurde zu einem wichtigen Gegenmodell.
+    ab 1925 an der medizinischen Fakultät von Algier, bildete Schüler aus, die die Schule von Algier entwickelten, und
+    prägte das koloniale psychiatrische Netz, zu dem ab 1933 Blida-Joinville gehörte. Sein Artikel von 1918 war ein früher
+    programmatischer Text; 1939 verknüpften Porot und Sutter den nordafrikanischen „Primitivismus“ ausdrücklich mit
+    psychischer Pathologie. Schüler und Kollegen übernahmen das Modell in klinische und forensische Schriften. Fanons
+    Arbeit in Blida wurde in den 1950er-Jahren innerhalb desselben Krankenhaussystems zu einer wichtigen klinischen und
+    intellektuellen Herausforderung.
   highlights:
     - value: '1918'
       label: Jahr von Porots grundlegendem Artikel „Notes de psychiatrie musulmane“
     - value: '1939'
       label: Jahr der ausdrücklichen Porot-Sutter-Theorie des nordafrikanischen „Primitivismus“
-    - value: 44 Jahre
-      label: vom Gründungstext 1918 bis zum Ende der französischen Kolonialherrschaft 1962
+    - value: '1933'
+      label: Jahr der ersten Patientenaufnahme in Blida-Joinville innerhalb des kolonialen Psychiatrienetzes
   context:
     - >-
       Nicht jede klinische Arbeit Porots war wissenschaftlich wertlos. Die spätere Forschung erkennt echte Innovationen
@@ -38,27 +40,34 @@ impact:
       Die historischen Begriffe „Muslim“ und „nordafrikanischer Eingeborener“ geben die damaligen Kategorien wieder und
       werden nicht als gültige biologische Klassifikationen übernommen.
     - >-
-      1962 markiert das Ende der französisch-kolonialen institutionellen Episode in Algerien, nicht das augenblickliche
-      Verschwinden der Theorie. Elemente ihres Vokabulars blieben auch nach der Unabhängigkeit in französischer psychiatrischer Literatur erhalten.
+      1962 markiert das Ende der französisch-kolonialen institutionellen Episode in Algerien. Diese Datierung belegt
+      keinen formellen Widerruf der Lehre durch die genannten Träger.
+    - >-
+      Der Zeitraum 1918–1962 beschreibt eine schrittweise institutionelle Entwicklung und nicht drei 44 Jahre lang
+      unverändert tätige Träger: Der Vorläufertext erschien 1918, Porot übernahm 1925 den Lehrstuhl in Algier und Blida
+      nahm 1933 den Betrieb auf.
 episodes:
   - id: french-algeria-1918-1962
     polity: Französisch-Algerien
+    periodLabel: '1918–1962; das Institutionennetz entwickelte sich ab 1925 schrittweise'
     institutions:
       - Medizinische Fakultät von Algier
       - Psychiatrische Schule von Algier
       - Psychiatrisches Krankenhaus Blida-Joinville
     institutionalContext: >-
-      Porots „Notes de psychiatrie musulmane“ von 1918 stellte die kolonisierte muslimische Bevölkerung in eine Hierarchie
-      angeblich primitiver geistiger Entwicklung. Mit dem Aufbau psychiatrischer Einrichtungen in Algerien in den
-      1930er-Jahren wurde die Schule von Algier zu einem dauerhaften Lehr- und Kliniknetz. Der Artikel von Porot und Jean
-      Sutter von 1939 erklärte den „Primitivismus“ Nordafrikas ausdrücklich für psychiatrisch relevant. Das Modell
-      zirkulierte in Lehre, Fachliteratur, Klinik und forensischer Interpretation.
+      Porots „Notes de psychiatrie musulmane“ von 1918, verfasst an seiner neuropsychiatrischen Militärstelle in Algier,
+      stellte die kolonisierte muslimische Bevölkerung in eine Hierarchie angeblich primitiver geistiger Entwicklung.
+      Nachdem Porot 1925 den Psychiatrielehrstuhl an der medizinischen Fakultät von Algier übernommen hatte, entwickelten
+      seine Schüler die Schule von Algier weiter. Blida-Joinville nahm 1933 Patienten auf und erweiterte das Netz um ein
+      großes psychiatrisches Krankenhaus. Porot und Jean Sutter verknüpften 1939 den angeblichen „Primitivismus“
+      nordafrikanischer Menschen ausdrücklich mit psychischer Pathologie. Das Modell zirkulierte bis zur Umgestaltung
+      der französischen Kolonialinstitutionen durch die algerische Unabhängigkeit 1962 in Ausbildung, Fachliteratur,
+      klinischer Deutung und forensischen Darstellungen.
     consequences:
       - Medizinische Lehre, die rassische und koloniale Stereotype als Eigenschaften nordafrikanischer Psychologie präsentierte
       - Interpretation psychiatrischer Patienten unter Annahmen primitiver Mentalität und angeborener Impulsivität
       - Forensisch-psychiatrische Deutungen, die Gewalt und Kriminalität rassifizierten
       - Wissenschaftliche Legitimation einer kolonialen Hierarchie vermeintlicher geistiger Entwicklungsstufen
-      - Institutioneller und intellektueller Widerspruch durch Frantz Fanon und spätere sozial und kulturell orientierte Psychiatrie
     summary: >-
       Die Schule von Algier machte koloniale Hierarchie zu psychiatrischer Erklärung. Ein bevölkerungsweites Stereotyp
       biologischer und psychischer „Primitivität“ wurde über Fakultät und Kliniken gelehrt und angewandt. Fanon und die
@@ -66,33 +75,61 @@ episodes:
       richteten den Blick stärker auf soziale, kulturelle und individuelle Faktoren.
     mechanism:
       summary: >-
-        Eine medizinische Fakultät und das verbundene koloniale Psychiatrienetz lehrten und verwendeten ein rassisch-
-        evolutionistisches Modell nordafrikanischer Mentalität in Ausbildung, klinischer Deutung und forensischer Praxis.
+        Eine medizinische Fakultät und das verbundene koloniale Psychiatrienetz lehrten und verwendeten ein
+        rassisch-evolutionistisches Modell nordafrikanischer Mentalität in Ausbildung, klinischer Deutung und forensischer Praxis.
     institutionalCorrection:
       summary: >-
-        Fanon und die spätere Psychiatrie stellten die Lehre infrage, und mit der algerischen Unabhängigkeit endete das
-        französisch-koloniale Institutionennetz. Ein datierter formeller Widerruf der Rassentheorie durch die Schule von
-        Algier oder eine französische Trägerinstitution ist im vorhandenen Nachweis jedoch nicht belegt.
+        Fanons veröffentlichte Kritik und seine klinische Arbeit in Blida stellten die Lehre infrage; mit der algerischen
+        Unabhängigkeit endete das französisch-koloniale Netz. Ein datierter formeller Widerruf der Rassentheorie durch
+        die Schule von Algier oder eine französische Trägerinstitution ist im vorhandenen Nachweis jedoch nicht belegt.
 evidence:
   - id: algiers-porot-proposition
     note: >-
-      Primärveröffentlichung von 1918, die gemeinhin als Gründungstext der Schule von Algier gilt und nordafrikanische
-      muslimische Patienten in einer Hierarchie vermeintlich primitiver psychologischer Merkmale darstellt.
+      Der Primärartikel beschreibt nordafrikanische muslimische Soldaten als eine Bevölkerung von „Primitiven“ und
+      schreibt ihnen geistige Schwäche, elementare Instinkte, Leichtgläubigkeit, Suggestibilität und impulsive Reaktionen
+      zu. Er belegt den Vorläufer von 1918, nicht die spätere Kortexlehre oder das gesamte Institutionennetz.
   - id: algiers-evolutionism-correction
     note: >-
-      Fachhistorische Analyse, die den Evolutionismus der Schule als pseudowissenschaftliche Rassenideologie einordnet,
-      welche kolonialer Hierarchie wissenschaftlichen Anschein verlieh, und Fanons Kritik behandelt.
+      Der Autor ordnet den Evolutionismus der Schule als pseudowissenschaftliche Ideologie ein, die koloniale Hierarchie
+      legitimierte, unterscheidet diese Lehre aber von Porots Innovationen in der Versorgung und benennt Fanons Kritik.
   - id: algiers-mup-impact
     note: >-
-      Moderne historische Studie, die den Text von 1918 in die spätere institutionelle Ausbildung der Schule von Algier
-      und den Aufbau psychiatrischer Einrichtungen in Nordafrika in den 1930er-Jahren einordnet.
+      Das Fachkapitel ordnet den frühen Text in die spätere Schule, Blida-Joinville und die Veröffentlichungen ihrer
+      Krankenhauspsychiater ein und belegt die dauerhafte Verwendung des „nordafrikanischen Primitivismus“.
   - id: algiers-mup-carrier
+    note: >-
+      Das Kapitel beschreibt die École d’Alger als einflussreiche Schule seit den 1920er-Jahren und verbindet ihre
+      Psychiater mit Blida-Joinville, das ab 1933 Patienten aufnahm und 1938 offiziell eröffnet wurde. Der Lehrstuhl wird gesondert belegt.
   - id: algiers-porot-sutter-mechanism
     note: >-
-      Katalogeintrag der französischen Nationalbibliothek zu Porot und Sutters Veröffentlichung von 1939, die ausdrücklich
-      dem angeblichen „Primitivismus“ nordafrikanischer Menschen und seinen behaupteten psychiatrischen Folgen gewidmet war.
+      Der Katalogeintrag der Nationalbibliothek belegt Autoren, Erscheinungsjahr, Umfang von 18 Seiten und den Titel, der
+      nordafrikanischen „Primitivismus“ ausdrücklich mit psychischer Pathologie verknüpft. Er ist ein bibliografischer
+      Nachweis und kein Beleg für den detaillierten Inhalt der Schrift.
   - id: algiers-evolutionism-consequences
+    note: >-
+      Die Zusammenfassung stützt die Folge der wissenschaftlichen Legitimation kolonialer Hierarchie. Gesonderte Quellen
+      belegen Lehre, klinische Deutung sowie kriminalistische und forensische Rahmung.
   - id: algiers-history-context
     note: >-
-      Fachhistorische Darstellung der französischen Psychiatrieinstitutionen und -lehren in Algerien, einschließlich Porot,
-      der Schule von Algier und des Übergangs weg von kolonialer Psychiatrie.
+      Der zugängliche bibliografische Datensatz belegt einen historischen Fachartikel zur französischen Psychiatrie in
+      Algerien bis 1962. Keine detaillierte Aussage des Datensatzes hängt vom beschränkt zugänglichen Artikeltext ab.
+  - id: algiers-collignon-carrier
+    note: >-
+      Collignon datiert Porots Lehrstuhl an der Fakultät von Algier auf 1925, nennt seine ausgebildeten Schüler und die
+      Entwicklung der Schule und dokumentiert die Patientenaufnahme in Blida 1933 sowie die offizielle Eröffnung 1938.
+  - id: algiers-fanon-proposition
+    note: >-
+      Die Übersicht beschreibt Porots Lehre von primitiver Gehirnentwicklung, instinktgeleitetem Leben und fehlenden
+      höheren Hirnfunktionen sowie die damalige Lehre vom Araber als angeborenem Primitiven und beginnendem Kriminellen.
+  - id: algiers-mup-mechanism
+    note: >-
+      Das Kapitel verfolgt die krankenhausbasierten Veröffentlichungen der Schule und die Verwendung einer angeblich
+      primitiven Mentalität zur Deutung muslimischer Patienten, von Alkoholkonsum, Maßlosigkeit und Gewalt.
+  - id: algiers-collignon-consequences
+    note: >-
+      Die historische Übersicht verbindet Lehre und Schriften der Schule mit rassistischen Bildern des Maghrebiners,
+      angeblich biologischen Grundlagen, „Primitivismus“, krimineller Impulsivität und der wissenschaftlichen Legitimation kolonialer Vorurteile.
+  - id: algiers-fanon-response
+    note: >-
+      Die Übersicht belegt Fanons Zurückweisung von Porots These während seiner Arbeit in Blida und seine soziale und
+      kulturelle Deutung der Lebensumstände von Patienten. Diese klinische und intellektuelle Herausforderung gilt nicht als formeller institutioneller Widerruf.

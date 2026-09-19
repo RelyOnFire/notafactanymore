@@ -13,22 +13,22 @@ correction:
     facts. Frantz Fanon and later psychiatry instead emphasised the effects of social context, culture, colonial violence
     and individual clinical circumstances.
 category: Colonial psychiatry, race and medical education
-reviewedAt: '2026-08-25'
+reviewedAt: '2026-09-19'
 impact:
   summary: >-
     The theory had institutional reach because Antoine Porot was not merely a polemicist: he taught neuropsychiatry at
-    the Faculty of Medicine in Algiers, helped establish the School of Algiers and shaped the colonial psychiatric system
-    that included Blida-Joinville hospital. His 1918 article became a founding text, and the 1939 Porot-Sutter paper made
-    'primitivism' an explicit explanatory model for North African psychopathology. Students and colleagues reproduced
-    the framework in clinical and forensic writing. Fanon's work at Blida in the 1950s became an important institutional
-    and intellectual challenge to this racialised psychiatry.
+    the Faculty of Medicine in Algiers from 1925, trained students who developed the School of Algiers and helped shape
+    the colonial psychiatric network that included Blida-Joinville hospital from 1933. His 1918 article was an early
+    programmatic text, and the 1939 Porot-Sutter publication explicitly joined North African 'primitivism' to mental
+    pathology. Students and colleagues reproduced the framework in clinical and forensic writing. Fanon's work at Blida
+    in the 1950s became an important clinical and intellectual challenge within the same hospital system.
   highlights:
     - value: '1918'
       label: year of Porot's foundational Notes de psychiatrie musulmane
     - value: '1939'
       label: year Porot and Sutter published their explicit theory of North African 'primitivism'
-    - value: 44 years
-      label: from the 1918 founding text to the end of French colonial rule in Algeria in 1962
+    - value: '1933'
+      label: year Blida-Joinville began receiving patients within the colonial psychiatric network
   context:
     - >-
       Not every aspect of Porot's clinical work was scientifically worthless. Later historical review notes genuine
@@ -38,14 +38,18 @@ impact:
       The terms 'Muslim' and 'North African native' reproduce the population categories used by the historical authors;
       they are not presented as valid biological classifications.
     - >-
-      French colonial rule in Algeria ended in 1962, but the theory did not disappear instantly. Elements of the School's
-      vocabulary persisted in metropolitan psychiatric literature after Algerian independence.
+      French colonial rule in Algeria ended in 1962. That date closes this institutional episode; it is not evidence that
+      the named carriers formally repudiated the doctrine.
+    - >-
+      The 1918–1962 span describes a developing institutional sequence, not three carriers operating unchanged for 44
+      years: the precursor article appeared in 1918, Porot took the Algiers chair in 1925 and Blida opened in 1933.
 episodes:
   - id: french-algeria-1918-1962
     polity: French Algeria
     region: North Africa
     startYear: 1918
     endYear: 1962
+    periodLabel: '1918–1962; institutional network developed in stages from 1925'
     strength: institutionally-influential
     institutionTypes:
       - medical
@@ -55,19 +59,18 @@ episodes:
       - School of Algiers psychiatry
       - Blida-Joinville psychiatric hospital
     institutionalContext: >-
-      Porot's 1918 Notes de psychiatrie musulmane, written after wartime neuropsychiatric work and while he was associated
-      with the Algiers medical faculty, portrayed the colonised Muslim population through a hierarchy of supposedly
-      primitive mental development. As psychiatric institutions were established in Algeria in the 1930s, the School of
-      Algiers became a durable teaching and clinical network. Porot and Jean Sutter's 1939 paper explicitly theorised the
-      'primitivism' of North Africans as relevant to mental pathology. The framework circulated through psychiatric
-      education, textbooks, hospital practice and medico-legal interpretation until French colonial institutions were
-      transformed by Algerian independence.
+      Porot's 1918 Notes de psychiatrie musulmane, written from his wartime neuropsychiatric post in Algiers, portrayed
+      the colonised Muslim population through a hierarchy of supposedly primitive mental development. After Porot took
+      the psychiatry chair at the Algiers medical faculty in 1925, his students helped develop the School of Algiers.
+      Blida-Joinville began receiving patients in 1933, extending that network into a major psychiatric hospital. Porot
+      and Jean Sutter's 1939 publication explicitly linked the supposed 'primitivism' of North Africans to mental
+      pathology. The framework circulated through education, professional writing, clinical interpretation and
+      medico-legal accounts until French colonial institutions were transformed by Algerian independence in 1962.
     consequences:
       - Medical teaching that presented racial and colonial stereotypes as characteristics of North African psychology
       - Clinical interpretation of patients through assumptions of primitive mentality and innate impulsivity
       - Medico-legal writing that racialised explanations of violence and criminal behaviour
       - Scientific legitimation for a colonial hierarchy that treated the colonised population as developmentally inferior
-      - Institutional resistance by Frantz Fanon and later psychiatrists seeking more social, cultural and humanistic approaches
     summary: >-
       The School of Algiers made colonial hierarchy part of psychiatric explanation. A population-level stereotype of
       biological and psychological 'primitivism' was taught and applied through a medical faculty and psychiatric
@@ -82,9 +85,9 @@ episodes:
     institutionalCorrection:
       status: undocumented
       summary: >-
-        Fanon and later psychiatry challenged the doctrine, and the French colonial institutional network ended with
-        Algerian independence, but the existing record does not identify a dated School of Algiers or French institutional
-        act formally repudiating the racial-evolutionist theory.
+        Fanon's published critique and clinical work at Blida challenged the doctrine, and the French colonial network
+        ended with Algerian independence, but the existing record does not identify a dated School of Algiers or French
+        institutional act formally repudiating the racial-evolutionist theory.
 sources:
   - id: algiers-porot-1918
     title: Notes de psychiatrie musulmane — Annales médico-psychologiques, 1918
@@ -106,47 +109,109 @@ sources:
     title: 'French psychiatry in Algeria (1830–1962): from colonial to transcultural'
     url: https://journals.sagepub.com/doi/10.1177/0957154X9600702805
     publisher: History of Psychiatry
+  - id: algiers-collignon-history
+    title: 'La psychiatrie coloniale française en Algérie et au Sénégal : esquisse d’une historisation comparative'
+    url: https://shs.cairn.info/revue-tiers-monde-2006-3-page-527?lang=fr
+    publisher: Revue Tiers Monde / Armand Colin
+  - id: algiers-fanon-review
+    title: 'Fifty years after Frantz Fanon: beyond diversity'
+    url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AEB106DAB48F03DDBCBB22DB28AA20E2/S1355514600016151a.pdf/fifty-years-after-frantz-fanon-beyond-diversity.pdf
+    publisher: Advances in Psychiatric Treatment / Royal College of Psychiatrists
 evidence:
   - id: algiers-porot-proposition
     sourceId: algiers-porot-1918
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: Printed pp. 377–384
     note: >-
-      Primary 1918 publication commonly treated as the founding text of the School of Algiers, presenting North African
-      Muslim patients through a hierarchy of purportedly primitive psychological characteristics.
+      The primary article describes North African Muslim soldiers as a population of “primitives” and attributes mental
+      debility, elementary instincts, credulity, suggestibility and impulsive reactions to them. It establishes the 1918
+      precursor, not the later cortical theory or the full institutional network.
   - id: algiers-evolutionism-correction
     sourceId: algiers-evolutionism
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: Abstract; article pp. 163–168
     note: >-
-      Peer-reviewed history of psychiatry characterising the School's evolutionism as a pseudoscientific racial ideology
-      that gave scientific cover to colonial hierarchy and discussing Fanon's critique.
+      The author characterises the School's evolutionism as pseudoscientific ideology that legitimated colonial
+      hierarchy, while distinguishing that doctrine from Porot's service innovations and identifying Fanon's critique.
   - id: algiers-mup-impact
     sourceId: algiers-mup-history
     relation: supports
     target: {scope: belief, aspect: impact}
+    locator: Chapter 8, pp. 248–263
     note: >-
-      Modern scholarly history placing the 1918 text within the later institutional formation of the School of Algiers
-      and the psychiatric institutions built in North Africa in the 1930s.
+      This scholarly chapter places the early text within the later School, Blida-Joinville and the publications of its
+      hospital psychiatrists, and documents the School's durable use of North African “primitivism.”
   - id: algiers-mup-carrier
     sourceId: algiers-mup-history
     relation: documents
     target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: carrier}
+    locator: Chapter 8, pp. 251–253
+    note: >-
+      The chapter identifies the École d'Alger as an influential school from the 1920s and connects its psychiatrists to
+      Blida-Joinville, which received patients from 1933 and officially opened in 1938. The faculty chair is documented separately.
   - id: algiers-porot-sutter-mechanism
     sourceId: algiers-porot-sutter-1939
-    relation: documents
+    relation: contextualizes
     target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: mechanism}
+    locator: Catalogue description; publication note
     note: >-
-      French national-library record for Porot and Sutter's 1939 publication explicitly devoted to the supposed
-      'primitivism' of North Africans and its claimed psychiatric consequences.
+      The national-library record establishes the authors, 1939 date, eighteen-page extent and title explicitly linking
+      North African “primitivism” to mental pathology. It is bibliographic evidence and is not used as proof of the work's detailed contents.
   - id: algiers-evolutionism-consequences
     sourceId: algiers-evolutionism
     relation: supports
     target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: consequences}
+    locator: Abstract; article pp. 163–168
+    note: >-
+      The abstract supports the consequence concerning scientific legitimation of colonial hierarchy. Separate sources
+      document teaching, clinical interpretation and criminal or medico-legal framing.
   - id: algiers-history-context
     sourceId: algiers-history-psychiatry
     relation: contextualizes
     target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: context}
+    locator: Bibliographic record; article pp. 533–548
     note: >-
-      Scholarly history of French psychiatric institutions and doctrine in Algeria, including Porot, the School of Algiers
-      and the transition away from colonial psychiatry.
+      The accessible bibliographic record establishes a historical article spanning French psychiatry in Algeria through
+      1962. No detailed narrative claim depends on the restricted article text.
+  - id: algiers-collignon-carrier
+    sourceId: algiers-collignon-history
+    relation: documents
+    target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: carrier}
+    locator: pp. 532–534
+    note: >-
+      Collignon dates Porot's Algiers faculty chair to 1925, identifies the students he trained and the development of the
+      School, and records Blida's opening to patients in 1933 and formal inauguration in 1938.
+  - id: algiers-fanon-proposition
+    sourceId: algiers-fanon-review
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    locator: pp. 27–28, “The ‘Algiers School of Psychiatry’”
+    note: >-
+      The review describes Porot's doctrine of primitive brain development, instinctive life and absent higher brain
+      functions, and reports the contemporary teaching that the Arab was an inherent primitive and incipient criminal.
+  - id: algiers-mup-mechanism
+    sourceId: algiers-mup-history
+    relation: documents
+    target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: mechanism}
+    locator: Chapter 8, pp. 251–263
+    note: >-
+      The chapter traces the School's hospital-based publications and its use of a purported primitive mentality to
+      interpret Muslim patients, alcohol consumption, immoderation and violence.
+  - id: algiers-collignon-consequences
+    sourceId: algiers-collignon-history
+    relation: supports
+    target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: consequences}
+    locator: pp. 537–539
+    note: >-
+      The historical review connects the School's teaching and writing to racist images of Maghrebi people, supposed
+      biological foundations, “primitivism,” criminal impulsivity and scientific legitimation of colonial prejudice.
+  - id: algiers-fanon-response
+    sourceId: algiers-fanon-review
+    relation: contextualizes
+    target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: institutional-correction}
+    locator: pp. 27–28, “The ‘Algiers School of Psychiatry’”
+    note: >-
+      The review documents Fanon's rejection of Porot's thesis while working at Blida and his social and cultural account
+      of patients' circumstances. That clinical and intellectual challenge is not treated as a formal institutional repudiation.

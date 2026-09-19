@@ -1,17 +1,18 @@
 schemaVersion: 2
 locale: de
 entryId: xray-ringworm-treatment
-sourceReviewedAt: '2026-08-23'
+sourceReviewedAt: '2026-09-19'
 title: Röntgenbehandlung von Kopfpilz
 proposition:
   summary: >-
     Die Bestrahlung der Kopfhaut mit Röntgenstrahlen wurde als ausreichend sichere Massenbehandlung für Tinea capitis
-    bei Kindern eingesetzt, bevor die langfristigen Strahlenrisiken erkannt waren.
+    bei Kindern eingesetzt.
 correction:
   summary: >-
-    Röntgenbestrahlung kann Tinea capitis beseitigen, setzt dabei aber gesundes Gewebe ionisierender Strahlung aus und
-    erhöht das spätere Risiko für Tumoren und andere strahlenbedingte Erkrankungen. Wirksame Antimykotika machen eine
-    routinemäßige Bestrahlung gegen Kopfpilz unnötig.
+    Die Bestrahlung der Kopfhaut löste als Teil der Behandlung von Tinea capitis Haarausfall aus und wurde mit der
+    Entfernung verbliebener Haare und einer örtlichen Behandlung der Kopfhaut kombiniert. Sie setzt gesundes Gewebe
+    ionisierender Strahlung aus; eine Exposition im Kindesalter erhöht das spätere Risiko für Hirn- und Nervensystemtumoren.
+    Wirksame Antimykotika machen eine routinemäßige Bestrahlung gegen Kopfpilz unnötig.
 episodes:
   - id: israel-1949-1960
     polity: Israel
@@ -22,10 +23,10 @@ episodes:
       - Shaar-HaAliyah-Krankenhaus
       - Tel-HaShomer-Krankenhaus
     institutionalContext: >-
-      Das Gesundheitsministerium machte Ringelflechte zu einer Aufgabe des öffentlichen Gesundheitswesens und finanzierte
-      die Behandlung; Hadassah erhielt die landesweite organisatorische und fachliche Aufsicht und gab das
-      Behandlungsprotokoll vor. Kupat Holim Clalit, das Shaar-HaAliyah-Krankenhaus, das Tel-HaShomer-Krankenhaus und
-      weitere zugelassene Zentren führten Bestrahlung und Nachsorge durch. Schulkrankenschwestern und lokale Dienste
+      Das Gesundheitsministerium machte Ringelflechte im Februar 1950 meldepflichtig und finanzierte die Behandlung;
+      Hadassah erhielt auf einer Ministeriumssitzung im Dezember 1949 die landesweite organisatorische und fachliche
+      Aufsicht und gab das Behandlungsprotokoll vor. Kupat Holim Clalit, das Shaar-HaAliyah-Krankenhaus, das
+      Tel-HaShomer-Krankenhaus und weitere zugelassene Zentren führten Bestrahlung und Nachsorge durch. Schulkrankenschwestern und lokale Dienste
       erfassten Fälle und setzten zeitweise den Ausschluss vom Schulbesuch durch; diese verteilten Dienste werden als
       Umsetzungsapparat beschrieben und nicht als eine einzelne Institution ausgegeben.
     consequences:
@@ -34,23 +35,29 @@ episodes:
       - Erhöhtes langfristiges Risiko für Hirn- und Nervensystemtumoren
     summary: >-
       Israel organisierte eine landesweite Kampagne, in der Zehntausende Kinder mit Tinea capitis an der Kopfhaut geröntgt
-      wurden – damals eine Standardbehandlung, deren spätere Krebsrisiken noch nicht verstanden waren. Das
+      wurden – damals eine Standardbehandlung. Drukmann von Hadassah berichtete von Hautschäden durch überhöhte
+      Strahlendosen bei Kindern, die zuvor im Ausland behandelt worden waren. Das
       Gesundheitsministerium finanzierte und regulierte das Programm, Hadassah beaufsichtigte das Behandlungsprotokoll,
       und ein Netz unter anderem aus Kupat Holim Clalit, dem Shaar-HaAliyah-Krankenhaus und dem Tel-HaShomer-Krankenhaus
-      führte die Bestrahlungen durch. Ab 1952 war die Behandlung in Teilen des öffentlichen Gesundheitsprogramms
+      führte die Bestrahlungen durch. Spätestens 1952 war die Behandlung in Teilen des öffentlichen Gesundheitsprogramms
       verpflichtend, unter anderem als Voraussetzung für die Rückkehr erkrankter Kinder in die Schule. 1960 endete
-      die Bestrahlung, als Griseofulvin sie ersetzte; langfristige israelische Kohortenstudien zeigten später ein
-      erhöhtes Tumorrisiko nach der Strahlenexposition im Kindesalter.
+      die Bestrahlung in diesem Programm, als Griseofulvin sie ersetzte; langfristige israelische Kohortenstudien zeigten
+      später ein erhöhtes Tumorrisiko nach der Strahlenexposition im Kindesalter.
     mechanism:
       summary: >-
         Das Gesundheitsministerium finanzierte und regulierte ein nationales Behandlungsprogramm, Hadassah beaufsichtigte
         das Protokoll, zugelassene Zentren führten die Bestrahlung durch, und Schul- sowie Gesundheitsdienste halfen bei
         Fallerfassung und behandlungsbezogenem Ausschluss vom Schulbesuch.
     institutionalCorrection:
+      periodLabel: 1960; Entschädigung ab 1995
+      action: Das nationale Programm ersetzte die routinemäßige Bestrahlung durch Griseofulvin; ein späteres Gesetz sah Entschädigung für bestimmte Strahlenschäden vor.
       summary: >-
-        Die Bestrahlung endete 1960, als Griseofulvin sie ersetzte; im vorhandenen Nachweis findet sich jedoch kein
-        datierter israelischer Institutionsakt, der die frühere Sicherheitsbewertung ausdrücklich wegen langfristiger
-        Strahlenrisiken zurücknahm.
+        Das nationale Programm beendete 1960 die routinemäßige Bestrahlung und stellte auf Griseofulvin um. Damit ist
+        die Aufgabe der Praxis belegt; die Darstellung dieses Wechsels belegt jedoch keine damalige Rücknahme der
+        früheren Sicherheitsbewertung aufgrund erkannter Risiken. Ab dem 1. Januar 1995 sah ein Entschädigungsgesetz
+        Zahlungen an anspruchsberechtigte Patienten oder deren Hinterbliebene für bestimmte Erkrankungen nach einer
+        gesetzlich erfassten Behandlung im Zeitraum 1946–1960 vor. Das Gesundheitsministerium entscheidet über den
+        Anspruch, und das National Insurance Institute zahlt die Entschädigung aus.
 evidence:
   - id: ringworm-history-proposition
     note: >-
@@ -63,6 +70,43 @@ evidence:
       Langzeit-Kohortenstudie mit 10.834 israelischen Kindern, die zwischen 1948 und 1960 wegen Tinea capitis bestrahlt
       wurden; sie dokumentiert ein erhöhtes Risiko für Tumoren des Gehirns und Nervensystems.
   - id: ringworm-history-correction
+    note: >-
+      Beschreibt die Bestrahlung als Mittel zur Auslösung von Haarausfall innerhalb einer Behandlung mit Haarentfernung
+      und örtlicher Versorgung der Kopfhaut sowie die spätere Ablösung der Bestrahlung durch orales Griseofulvin.
+  - id: ringworm-history-context
+    note: >-
+      Rekonstruiert die nationale Behandlungsstruktur im Detail: Verantwortung und Finanzierung durch das
+      Gesundheitsministerium, organisatorische und fachliche Aufsicht Hadassahs, Behandlungszentren der Allgemeinen
+      Krankenkasse, Einrichtungen in Shaar HaAliyah und Tel HaShomer, schulbezogene Behandlungspflichten sowie geschätzte
+      26.000–27.000 in Israel zwischen 1948 und 1960 bestrahlte Kinder.
   - id: ringworm-history-carrier
+    note: >-
+      Benennt das Gesundheitsministerium und Hadassah als Organisatoren und Aufsichtsinstanzen, die Behandlungszentren
+      der Allgemeinen Krankenkasse sowie das Krankenhausnetz mit Shaar HaAliyah und ab 1953 Tel HaShomer.
   - id: ringworm-history-mechanism
+    note: >-
+      Dokumentiert gesetzliche Melde- und Behandlungspflichten, Finanzierung und Vereinbarungen mit Leistungserbringern
+      durch das Ministerium, Hadassahs Aufsicht über das Behandlungsprotokoll sowie die Umsetzung durch Schul- und
+      Gesundheitsdienste. Die Einschränkungen des Schulbesuchs änderten sich mit der Verlagerung der Nachsorge in die Gemeinden.
   - id: ringworm-nejm-consequences
+    note: >-
+      Langzeit-Kohortenstudie mit 10.834 israelischen Kindern, die zwischen 1948 und 1960 wegen Tinea capitis bestrahlt
+      wurden; sie dokumentiert ein erhöhtes Risiko für Tumoren des Gehirns und Nervensystems. Das geprüfte Abstract
+      stützt die Aussage zum Tumorrisiko; es dokumentiert weder schulische Auflagen noch die Organisation der Behandlung.
+  - id: ringworm-history-consequences
+    note: >-
+      Dokumentiert Massenbehandlung und Bedingungen für die Rückkehr in die Schule und belegt damit die ersten beiden
+      Folgen. Die spätere Nachsorge in den Gemeinden erlaubte die Rückkehr mit einer Kopfbedeckung; ein Ausschluss
+      während der gesamten Behandlung galt daher nicht einheitlich.
+  - id: ringworm-history-institutional-correction
+    note: >-
+      Dokumentiert das Ende der routinemäßigen Bestrahlung und die staatliche Kampagne zur Behandlung mit Medikamenten.
+      Damit ist ein Wechsel der Behandlungspolitik belegt; die Quelle belegt nicht, dass die Erkenntnis langfristiger
+      Tumorrisiken den Wechsel von 1960 auslöste.
+  - id: ringworm-nii-institutional-correction
+    note: >-
+      Die amtliche Leistungsbeschreibung nennt Entschädigungen ab dem 1. Januar 1995 für anspruchsberechtigte Patienten
+      oder deren Hinterbliebene mit bestimmten Erkrankungen nach gesetzlich erfasster Bestrahlung. Das
+      Gesundheitsministerium entscheidet über den Anspruch, das National Insurance Institute zahlt. Dies belegt die
+      Anerkennung bestimmter Strahlenschäden unter gesetzlichen Voraussetzungen, aber weder eine allgemeine
+      Wiedergutmachung für alle Betroffenen noch ein Eingeständnis von Fahrlässigkeit.

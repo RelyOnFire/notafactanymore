@@ -3,15 +3,15 @@ title: X-ray treatment for ringworm
 entryId: medical-xrays-have-no-cumulative-harm
 proposition:
   summary: >-
-    Scalp X-ray irradiation was treated as an acceptably safe mass treatment for childhood ringworm, before its
-    long-term radiation risks were recognized.
+    Scalp X-ray irradiation was treated as an acceptably safe mass treatment for childhood ringworm.
 correction:
   summary: >-
-    X-ray irradiation can eliminate tinea capitis, but it exposes healthy tissue to ionizing radiation and increases
-    the later risk of tumors and other radiation-related disease. Effective antifungal drugs make routine therapeutic
-    irradiation for ringworm unnecessary.
+    Scalp irradiation induced hair loss as part of treatment for tinea capitis, together with removal of remaining
+    hair and topical care. It exposes healthy tissue to ionizing radiation, and childhood exposure increases the
+    later risk of brain and nervous-system tumors. Effective antifungal drugs make routine therapeutic irradiation
+    for ringworm unnecessary.
 category: Medicine and radiation safety
-reviewedAt: '2026-08-23'
+reviewedAt: '2026-09-19'
 episodes:
   - id: israel-1949-1960
     polity: Israel
@@ -31,8 +31,9 @@ episodes:
       - Shaar HaAliyah Hospital
       - Tel HaShomer Hospital
     institutionalContext: >-
-      The Ministry of Health made ringworm a reportable public-health responsibility and funded treatment; Hadassah
-      was given national organizing and professional-supervision responsibility and issued the treatment protocol;
+      The Ministry of Health made ringworm reportable in February 1950 and funded treatment; Hadassah was given
+      national organizing and professional-supervision responsibility at a December 1949 ministry meeting and issued
+      the treatment protocol;
       the General Sick Fund, Shaar HaAliyah Hospital, Tel HaShomer Hospital and other authorized centers delivered
       irradiation and follow-up care. School nurses and local services identified cases and enforced exclusion from
       school during parts of treatment, but those distributed services are described as implementation machinery
@@ -43,22 +44,28 @@ episodes:
       - Increased long-term risk of brain and nervous-system tumors
     summary: >-
       Israel organized a national campaign in which tens of thousands of children with tinea capitis received scalp
-      X-ray irradiation, then a standard treatment whose delayed cancer risks were not yet understood. The Ministry
+      X-ray irradiation, then a standard treatment. Hadassah's Drukmann reported skin damage from excessive
+      irradiation in children previously treated abroad. The Ministry
       of Health funded and regulated the programme, Hadassah supervised its treatment protocol, and a network including
       the General Sick Fund, Shaar HaAliyah and Tel HaShomer delivered irradiation. By 1952 treatment was compulsory
       in parts of the public-health programme, including as a condition for infected children returning to school.
-      Irradiation ended in 1960 as griseofulvin replaced it; long-term Israeli cohort studies later demonstrated
-      increased tumor risk after childhood exposure.
+      Irradiation in this programme ended in 1960 as griseofulvin replaced it; long-term Israeli cohort studies later
+      demonstrated increased tumor risk after childhood exposure.
     mechanism:
       kind: administrative-adoption
       summary: >-
         The Ministry of Health funded and regulated a national treatment programme, Hadassah supervised the protocol,
         authorized centers delivered irradiation, and school/public-health services helped identify cases and enforce treatment-related exclusion.
     institutionalCorrection:
-      status: undocumented
+      status: corrected
+      periodLabel: 1960; compensation from 1995
+      action: The national programme replaced routine irradiation with griseofulvin; a later law provided compensation for specified radiation injuries.
       summary: >-
-        Irradiation ended in 1960 as griseofulvin replaced it, but the existing record does not identify a dated Israeli
-        institutional act that explicitly repudiated the earlier safety judgment on the basis of long-term radiation risk.
+        The national programme stopped routine irradiation in 1960 and shifted to griseofulvin. This establishes
+        withdrawal of the practice, while the account of that change does not establish a contemporaneous risk-based
+        repudiation of the earlier safety judgment. From 1 January 1995, a compensation law provided payments to eligible
+        patients or their survivors for specified illnesses following treatment covered by the law in 1946–1960.
+        The Ministry of Health determines entitlement and the National Insurance Institute makes payments.
 sources:
   - id: ringworm-oup-history
     title: Healing the children and the nation — The campaign to eradicate ringworm in Israel, 1925–1960
@@ -68,11 +75,18 @@ sources:
     title: Tumors of the Brain and Nervous System after Radiotherapy in Childhood
     url: https://www.nejm.org/doi/full/10.1056/NEJM198810203191601
     publisher: New England Journal of Medicine
+  - id: ringworm-nii-compensation
+    title: Compensation for Scalp Ringworm Victims
+    url: https://www.btl.gov.il/English%20Homepage/Benefits/radiation%20victims/Pages/default.aspx
+    publisher: National Insurance Institute of Israel
 evidence:
   - id: ringworm-history-proposition
     sourceId: ringworm-oup-history
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: >-
+      Chapter 9, "Where is the ringworm?" (December 1949 treatment decision and Drukmann's warning about excessive
+      irradiation); concluding "Summary" (1948–1960 estimate).
     note: >-
       Reconstructs the national treatment machinery in detail: Ministry of Health responsibility and funding, Hadassah's
       organizing and supervisory role, General Sick Fund treatment centers, Shaar HaAliyah and Tel HaShomer facilities,
@@ -81,6 +95,9 @@ evidence:
     sourceId: ringworm-nejm-cohort
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: >-
+      Abstract, cohort and neural-tumor results; PMID 3173432, available at https://europepmc.org/article/MED/3173432.
+      Full article not inspected.
     note: >-
       Long-term cohort study of 10,834 Israeli children irradiated for tinea capitis between 1948 and 1960, documenting
       increased risk of brain and nervous-system tumors.
@@ -88,15 +105,87 @@ evidence:
     sourceId: ringworm-oup-history
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: >-
+      Chapter 9, "Where is the ringworm?" (irradiation-induced epilation and complementary treatment);
+      "Closure of the camp for treatment of ringworm" and concluding "Summary" (griseofulvin replacement).
+    note: >-
+      Describes irradiation as a means of inducing hair loss within a regimen of hair removal and scalp care,
+      and the subsequent replacement of irradiation by oral griseofulvin.
+  - id: ringworm-history-context
+    sourceId: ringworm-oup-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: israel-1949-1960, aspect: context}
+    locator: >-
+      Chapter 9, "Ringworm in the State of Israel"; "Treatment with irradiation for ringworm by the GSF";
+      concluding "Summary", estimate immediately before Table 9.1.
+    note: >-
+      Reconstructs the national treatment machinery in detail: Ministry of Health responsibility and funding, Hadassah's
+      organizing and supervisory role, General Sick Fund treatment centers, Shaar HaAliyah and Tel HaShomer facilities,
+      school-related compulsory treatment, and an estimated 26,000–27,000 children irradiated in Israel from 1948 to 1960.
   - id: ringworm-history-carrier
     sourceId: ringworm-oup-history
     relation: documents
     target: {scope: episode, episodeId: israel-1949-1960, aspect: carrier}
+    locator: >-
+      Chapter 9, "Where is the ringworm?" (December 1949 allocation of responsibility);
+      "Establishment of a hospital for trachoma and ringworm in the Shaar HaAliyah immigrant intake camp"
+      (Hadassah supervision and 1953 Tel HaShomer transfer); "Treatment with irradiation for ringworm by the GSF".
+    note: >-
+      Identifies the Ministry of Health and Hadassah as organizers and supervisors, the General Sick Fund's treatment
+      centers, and the hospital network that included Shaar HaAliyah and, from 1953, Tel HaShomer.
   - id: ringworm-history-mechanism
     sourceId: ringworm-oup-history
     relation: documents
     target: {scope: episode, episodeId: israel-1949-1960, aspect: mechanism}
+    locator: >-
+      Chapter 9, "Where is the ringworm?" (February 1950 reporting and treatment requirements);
+      Shaar HaAliyah hospital section (Hadassah supervision, treatment protocol and school-exclusion rule);
+      "Treatment with irradiation for ringworm by the GSF" (Ministry arrangements).
+    note: >-
+      Documents statutory reporting and treatment duties, Ministry funding and provider arrangements, Hadassah's
+      supervision of the treatment protocol, and school/public-health implementation. School restrictions varied
+      as follow-up care moved into the community.
   - id: ringworm-nejm-consequences
     sourceId: ringworm-nejm-cohort
     relation: supports
     target: {scope: episode, episodeId: israel-1949-1960, aspect: consequences}
+    locator: >-
+      Abstract, cohort and neural-tumor results; PMID 3173432, available at https://europepmc.org/article/MED/3173432.
+      Full article not inspected.
+    note: >-
+      Long-term cohort study of 10,834 Israeli children irradiated for tinea capitis between 1948 and 1960, documenting
+      increased risk of brain and nervous-system tumors. The inspected abstract supports the tumor-risk consequence;
+      it does not document school requirements or treatment administration.
+  - id: ringworm-history-consequences
+    sourceId: ringworm-oup-history
+    relation: documents
+    target: {scope: episode, episodeId: israel-1949-1960, aspect: consequences}
+    locator: >-
+      Chapter 9, Shaar HaAliyah treatment protocol, Remarks (b), and the subsequent paragraph on return to school
+      with a head covering; "Treatment with irradiation for ringworm by the GSF" (February 1950 requirements);
+      concluding "Summary", estimate before Table 9.1.
+    note: >-
+      Documents mass treatment and school-return conditions, supporting the first two consequences. Later community
+      follow-up allowed children to return with a head covering, so exclusion throughout treatment was not uniform.
+  - id: ringworm-history-institutional-correction
+    sourceId: ringworm-oup-history
+    relation: documents
+    target: {scope: episode, episodeId: israel-1949-1960, aspect: institutional-correction}
+    locator: >-
+      Chapter 9, "Closure of the camp for treatment of ringworm" (government griseofulvin campaign);
+      concluding "Summary" (irradiation given until 1960, when griseofulvin replaced it).
+    note: >-
+      Documents the end of routine irradiation and the government's replacement medication campaign. This establishes
+      a treatment-policy change; it does not establish that recognition of long-term tumor risk motivated the 1960 change.
+  - id: ringworm-nii-institutional-correction
+    sourceId: ringworm-nii-compensation
+    relation: documents
+    target: {scope: episode, episodeId: israel-1949-1960, aspect: institutional-correction}
+    locator: >-
+      Opening eligibility paragraph (effective 1 January 1995; covered treatment in 1946–1960), followed by the
+      Ministry of Health entitlement and National Insurance Institute payment paragraphs.
+    note: >-
+      The official service records compensation from 1 January 1995 for eligible patients or their survivors with
+      specified illnesses following covered irradiation. The Ministry of Health determines entitlement and the
+      National Insurance Institute pays. This documents recognition of defined radiation injuries under statutory
+      conditions, without establishing universal redress or an admission of negligence.

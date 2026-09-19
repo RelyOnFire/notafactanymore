@@ -3,22 +3,22 @@ title: Radical mastectomy as the best route to breast-cancer survival
 entryId: radical-mastectomy-best-survival
 proposition:
   summary: >-
-    The most extensive routine removal of the breast, axillary lymph nodes and chest muscles was treated as giving women
-    with operable breast cancer the best chance of survival because the disease was expected to spread outward in an
-    orderly local-to-regional sequence.
+    Routine radical mastectomy, removing the breast, axillary lymph nodes and chest-muscle tissue, was treated as giving
+    women with operable breast cancer the best chance of survival. Its rationale emphasized local and regional spread
+    and the removal of suspected tissue in one piece.
 correction:
   summary: >-
     For many patients with early breast cancer, more extensive local surgery does not improve overall survival. Randomized
     trials showed no survival advantage for Halsted radical mastectomy over less extensive surgery, and breast-conserving
     surgery followed by radiation can provide survival comparable to mastectomy for appropriately selected patients.
 category: Cancer surgery and treatment standards
-reviewedAt: '2026-08-27'
+reviewedAt: '2026-09-19'
 impact:
   summary: >-
     Halsted radical mastectomy became the dominant U.S. breast-cancer operation for much of the twentieth century. Its
-    local-control logic exposed generations of women to removal of the chest muscles and extensive lymphatic tissue,
-    with substantial disfigurement, arm swelling and functional impairment, before randomized trials showed that
-    greater surgical extent did not improve survival.
+    routine use exposed generations of women to removal of chest-muscle and extensive lymphatic tissue, with substantial
+    disfigurement, arm swelling and functional impairment, before randomized trials showed that greater surgical extent
+    did not improve survival.
   context:
     - >-
       Radical mastectomy was an important advance over earlier surgery because it greatly improved local control at a
@@ -30,46 +30,53 @@ episodes:
   - id: united-states-1894-1977
     polity: United States
     region: North America
-    startYear: 1894
-    endYear: 1977
+    startYear: 1889
+    endYear: 1972
+    periodLabel: Johns Hopkins, 1889–1972 (documented practice)
     strength: institutionally-influential
     institutionTypes:
       - medical
-      - professional
     institutions:
       - The Johns Hopkins Hospital
-      - American surgical profession
     institutionalContext: >-
-      William Halsted developed and reported his radical mastectomy while serving as surgeon-in-chief at The Johns
-      Hopkins Hospital. The operation removed the breast, axillary lymph nodes and pectoral muscles in one block,
-      reflecting the model that breast cancer spread progressively through adjacent tissues and regional lymphatics.
-      The procedure became the prevailing U.S. standard for decades; by the 1970s, surgeons who proposed less extensive
-      operations could still be accused of offering inadequate treatment.
+      William Halsted's 1894 report described radical operations performed at The Johns Hopkins Hospital from June 1889
+      through January 1894. It prescribed wide one-piece removal of the breast, axillary tissue and most of the pectoralis
+      major, combining a local-regional account of cancer spread with concern that divided or residual tissue could leave
+      disease behind. A later Johns Hopkins study of patients treated from 1969 through 1972 documented both radical and
+      modified radical operations, chosen according to the treating surgeon's conviction. The displayed interval follows
+      those two documented practice cohorts; 1972 is not a claimed withdrawal date. Beyond Hopkins, the radical operation
+      became a prevailing U.S. standard, and proposals for less extensive surgery still met strong resistance in the 1970s.
     consequences:
       - Radical mastectomy became the prevailing operation for breast cancer in the United States for much of the twentieth century
-      - Women routinely lost the breast, axillary lymph nodes and chest muscles even when less extensive surgery would later prove equally effective for survival
+      - Women undergoing the radical operation lost the breast, axillary nodes and chest-muscle tissue; in the later Hopkins comparison, this greater extent produced no five-year survival advantage over modified radical mastectomy at any clinical stage
       - The operation could leave major disfigurement, lymphedema, pain, weakness and restricted arm movement
-      - Randomized trials beginning in the 1970s found that less extensive surgery did not reduce survival, forcing a major change in surgical standards
+      - Randomized trials beginning in the 1970s found no survival loss with less extensive approaches and contributed to a gradual change in surgical standards
     summary: >-
-      Halsted's Johns Hopkins operation converted a coherent theory of orderly cancer spread into a durable surgical
-      standard. If breast cancer moved outward through contiguous tissues and lymph nodes, the safest operation seemed
-      to be the widest possible en-bloc removal. Radical mastectomy dominated U.S. treatment for decades despite its
-      substantial physical costs. The NSABP B-04 trial, begun in 1971 and reported in 1977, found that women receiving
-      the radical operation did not live longer than women treated with less extensive surgery. European breast-conservation
-      trials and later U.S. trials reinforced the same lesson, replacing routine maximal surgery with treatment tailored
-      to disease extent and biology.
+      Halsted's Johns Hopkins operation joined a local-regional account of cancer spread to a published expectation of
+      wide one-piece removal. Institutional authority and surgical training helped make radical mastectomy a durable U.S.
+      standard despite its physical costs. Johns Hopkins records show radical and modified radical operations coexisting
+      in a 1969–1972 patient cohort; the authors' 1979 retrospective comparison recommended the modified operation for
+      stages I and II. Separately, the NSABP B-04 trial, begun in 1971 and reported in 1977, found no survival advantage
+      for the radical operation. European breast-conservation trials and later U.S. trials extended the evidence, and
+      recommendations and practice moved gradually toward surgery matched to disease extent and biology.
     mechanism:
       kind: standard-setting
       summary: >-
-        A Johns Hopkins surgical model of orderly local spread became a durable professional standard, making maximal
-        en-bloc removal the expected operation for operable breast cancer across much of U.S. surgery.
+        Halsted's published technique set expectations for wide en-bloc excision and urged surgeons to train for the
+        demanding operation. The authority of Johns Hopkins and its surgical tradition helped stabilize those expectations
+        as a broader professional standard alongside the operation's local-control rationale.
     institutionalCorrection:
       status: corrected
-      periodLabel: 1977 onward
-      action: Randomized trial evidence displaced routine Halsted radical mastectomy as the survival-maximizing surgical standard.
+      periodLabel: 1979 recommendations; current Johns Hopkins guidance
+      action: >-
+        Johns Hopkins surgeons recommended modified radical mastectomy for stages I and II in 1979; an NIH panel named a
+        muscle-preserving operation the current standard, and Johns Hopkins now describes radical mastectomy as rarely used.
       summary: >-
-        U.S. and European randomized trials showed that less extensive surgery did not worsen survival, and professional
-        breast-cancer surgery shifted away from routine maximal local removal toward operations matched to disease extent.
+        The 1979 Johns Hopkins comparison recommended modified radical mastectomy for stages I and II while retaining a
+        local-control role for radical surgery in selected stage III cases. That year an NIH consensus panel recommended
+        muscle-preserving total mastectomy with axillary dissection for localized disease. Johns Hopkins now describes
+        radical mastectomy as rare and reserves it for possible chest-muscle involvement. These sources document a change
+        in institutional recommendations and present guidance, but not a precise date when Hopkins ended routine use.
 sources:
   - id: mastectomy-nci-fisher
     title: Bernard Fisher, M.D. — Breast Cancer Surgery
@@ -87,17 +94,44 @@ sources:
     title: 'The Halsted mastectomy: present illness and past history'
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1272864/
     publisher: Western Journal of Medicine / PubMed Central
+  - id: mastectomy-halsted-1894
+    title: The Results of Operations for the Cure of Cancer of the Breast Performed at the Johns Hopkins Hospital
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1493925/
+    publisher: Annals of Surgery / PubMed Central
+  - id: mastectomy-hopkins-comparison-1979
+    title: A Comparison of Modified Radical Mastectomy to Radical Mastectomy in the Treatment of Operable Breast Cancer
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1397173/
+    publisher: Annals of Surgery / PubMed Central
+  - id: mastectomy-halsted-patient-narratives
+    title: "William Halsted's Radical Mastectomy Patients: A Historical Analysis Through Patient Narratives"
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13016173/
+    publisher: Annals of Surgery Open / PubMed Central
+  - id: mastectomy-hopkins-current
+    title: Mastectomy
+    url: https://www.hopkinsmedicine.org/health/conditions-and-diseases/breast-cancer/mastectomy
+    publisher: Johns Hopkins Medicine
+  - id: mastectomy-nci-decade-discovery
+    title: 'Decade of Discovery: Advances in Cancer Research 1971–1981'
+    url: https://upload.wikimedia.org/wikipedia/commons/f/f8/Decade_of_discovery_-_advances_in_cancer_research_1971-1981_%28IA_decadeofdiscover00nati%29.pdf
+    publisher: U.S. National Cancer Institute
+  - id: mastectomy-acr-conservation-2015
+    title: Conservative Surgery and Radiation—Stage I and II Breast Cancer
+    url: https://acsearch.acr.org/docs/69351/Narrative
+    publisher: American College of Radiology
 evidence:
   - id: mastectomy-halsted-proposition
     sourceId: mastectomy-halsted-history
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: pp. 549–550, 552–553
     note: >-
       Historical analysis of why Halsted's expansion of mastectomy became lastingly institutionalized in American surgery.
+      It distinguishes the operation's stated rationale from the institutional forces that helped it persist.
   - id: mastectomy-nci-current-correction
     sourceId: mastectomy-nci-current
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: Types of mastectomy, “Radical mastectomy”
     note: >-
       Current NCI guidance explains that radical mastectomy is now rarely performed because removing the chest-wall
       muscles and all axillary nodes does not improve how long people live.
@@ -105,6 +139,7 @@ evidence:
     sourceId: mastectomy-nci-fisher
     relation: supports
     target: {scope: belief, aspect: impact}
+    locator: Transforming Breast Cancer Surgery, paragraphs 2–4
     note: >-
       NCI history describing radical mastectomy as the prevailing surgery of the late 1950s, the strong professional
       resistance to less radical treatment, and the 1977 B-04 result that radical mastectomy caused disability and
@@ -113,18 +148,168 @@ evidence:
     sourceId: mastectomy-halsted-history
     relation: documents
     target: {scope: episode, episodeId: united-states-1894-1977, aspect: carrier}
+    locator: pp. 551–552
+    note: >-
+      Historical analysis of why Halsted's expansion of mastectomy at Johns Hopkins became lastingly institutionalized
+      in American surgery; the later hospital cohort supplies the other boundary of the displayed practice interval.
   - id: mastectomy-halsted-mechanism
     sourceId: mastectomy-halsted-history
     relation: supports
     target: {scope: episode, episodeId: united-states-1894-1977, aspect: mechanism}
+    locator: pp. 550–554
+    note: >-
+      The historian identifies professional authority, institutional prestige and other forces in the operation's
+      persistence; this is an attributed historical interpretation, not a claim about every surgeon's motive.
   - id: mastectomy-fisher-consequences
     sourceId: mastectomy-nci-fisher
     relation: supports
     target: {scope: episode, episodeId: united-states-1894-1977, aspect: consequences}
+    locator: Transforming Breast Cancer Surgery, paragraphs 2–4
+    note: >-
+      NCI history describing radical mastectomy as the prevailing surgery of the late 1950s, the strong professional
+      resistance to less radical treatment, and the 1977 B-04 result that radical mastectomy caused disability and
+      disfigurement without extending survival.
   - id: mastectomy-veronesi-correction
     sourceId: mastectomy-nci-veronesi
-    relation: documents
-    target: {scope: episode, episodeId: united-states-1894-1977, aspect: institutional-correction}
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Interventions to Prevent Cancer and Improve Life, paragraph 2
     note: >-
       Describes radical mastectomy as the prevailing standard before the first European randomized breast-conservation
       trials and states that later U.S. trials confirmed no survival advantage for radical surgery in early-stage disease.
+  - id: mastectomy-halsted-1894-proposition
+    sourceId: mastectomy-halsted-1894
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: pp. 507, 513
+    note: >-
+      Halsted prescribed routine excision of most of the pectoralis major so suspected tissue could be removed in one
+      piece, while treating disability as secondary to the expected chance of saving life.
+  - id: mastectomy-halsted-1894-carrier
+    sourceId: mastectomy-halsted-1894
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: carrier}
+    locator: pp. 497, 512–514
+    note: >-
+      The original report documents operations performed at The Johns Hopkins Hospital from June 1889 through January
+      1894; it establishes the early practice boundary without implying uninterrupted or uniform later use.
+  - id: mastectomy-halsted-1894-mechanism
+    sourceId: mastectomy-halsted-1894
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: mechanism}
+    locator: pp. 507, 513–514
+    note: >-
+      Halsted published a prescriptive operative technique and told surgeons to practise it on cadavers, documenting
+      how the procedure was presented as an expected, specialized method rather than proving why every adopter used it.
+  - id: mastectomy-baker-carrier
+    sourceId: mastectomy-hopkins-comparison-1979
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: carrier}
+    locator: pp. 553–554, “Operative Procedures”
+    note: >-
+      The Johns Hopkins retrospective study documents 188 radical and 144 modified radical operations in patients treated
+      from 1969 through 1972, with procedure choice based on the treating surgeon's conviction rather than disease stage.
+  - id: mastectomy-baker-correction
+    sourceId: mastectomy-hopkins-comparison-1979
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: institutional-correction}
+    locator: pp. 556–557, “Discussion”
+    note: >-
+      Hopkins authors recommended modified radical mastectomy for stages I and II after finding no five-year survival
+      advantage for the radical operation; this was a retrospective departmental publication, not a hospital directive.
+  - id: mastectomy-halsted-impact
+    sourceId: mastectomy-halsted-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: pp. 549–554
+    note: >-
+      Supports the operation's historical reach, its local-control context and its persistence; the proposed social and
+      institutional explanations remain the historian's interpretation.
+  - id: mastectomy-halsted-consequences
+    sourceId: mastectomy-halsted-history
+    relation: supports
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: consequences}
+    locator: pp. 549–551
+    note: >-
+      Supports the operation's long U.S. predominance and continuing use around 1980, not every clinical harm or a single
+      date on which professional practice changed.
+  - id: mastectomy-patient-consequences
+    sourceId: mastectomy-halsted-patient-narratives
+    relation: supports
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: consequences}
+    locator: Restrictions in Arm Motion; Arm Swelling; Long-Term Pain
+    note: >-
+      Archival research on correspondence from Halsted's patients documents restricted motion, arm swelling and pain as
+      lived postoperative experiences; it does not estimate their frequency among all patients.
+  - id: mastectomy-nci-current-context
+    sourceId: mastectomy-nci-current
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: context}
+    locator: Types of mastectomy, “Radical mastectomy”
+    note: >-
+      Current NCI guidance explains that radical mastectomy is now rarely performed because removing the chest-wall
+      muscles and all axillary nodes does not improve how long people live; it does not date Hopkins' practice change.
+  - id: mastectomy-veronesi-context
+    sourceId: mastectomy-nci-veronesi
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: context}
+    locator: Interventions to Prevent Cancer and Improve Life, paragraph 2
+    note: >-
+      Describes radical mastectomy as the prevailing standard before the first European randomized breast-conservation
+      trials and states that later U.S. trials confirmed no survival advantage for radical surgery in early-stage disease.
+  - id: mastectomy-hopkins-current-correction
+    sourceId: mastectomy-hopkins-current
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: institutional-correction}
+    locator: Types of mastectomy procedures, “Radical mastectomy”
+    note: >-
+      Johns Hopkins presently describes radical mastectomy as rarely done while retaining possible use when cancer has
+      spread to chest muscles; the page supplies no historical date for withdrawal from routine use.
+  - id: mastectomy-nci-panel-correction
+    sourceId: mastectomy-nci-decade-discovery
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: institutional-correction}
+    locator: printed pp. 19–20; PDF pp. 43–44
+    note: >-
+      NCI's contemporary account reports that a 1979 NIH panel recommended setting aside Halsted radical mastectomy for
+      localized disease in favor of muscle-preserving surgery; breast-conserving treatment was still under study.
+  - id: mastectomy-acr-correction
+    sourceId: mastectomy-acr-conservation-2015
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: pp. 1–2, “Introduction/Background” and “Results of Prospective Randomized Clinical Trials”
+    note: >-
+      The 2015 ACR review describes breast-conserving surgery followed by radiation and summarizes mature trials finding
+      no overall-survival difference from mastectomy in eligible patients with stage I or II disease.
+  - id: mastectomy-acr-context
+    sourceId: mastectomy-acr-conservation-2015
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: context}
+    locator: pp. 1–2, “Introduction/Background” and “Results of Prospective Randomized Clinical Trials”
+    note: >-
+      Dated clinical guidance contextualizes the later trial evidence and combined treatment; it does not establish when
+      Johns Hopkins or other institutions adopted breast conservation.
+  - id: mastectomy-halsted-1894-consequences
+    sourceId: mastectomy-halsted-1894
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1894-1977, aspect: consequences}
+    locator: pp. 507–508, 512–513
+    note: >-
+      The original report documents extensive tissue removal and acknowledges restrictions in raising the arm. Halsted's
+      own minimization of disability is not treated as an independent assessment of its severity.
+  - id: mastectomy-patient-impact
+    sourceId: mastectomy-halsted-patient-narratives
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Restrictions in Arm Motion; Arm Swelling; Long-Term Pain
+    note: >-
+      Patient correspondence supports the harms component through historical experiences of restricted motion, swelling
+      and pain; it does not quantify a national burden.
+  - id: mastectomy-nci-current-impact
+    sourceId: mastectomy-nci-current
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Opening indications; Types of mastectomy
+    note: >-
+      Current NCI information supports the qualification that mastectomy remains appropriate in defined circumstances
+      even though routine radical removal is now rare.

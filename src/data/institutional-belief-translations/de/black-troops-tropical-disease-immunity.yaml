@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: black-troops-tropical-disease-immunity
-sourceReviewedAt: '2026-08-24'
+sourceReviewedAt: '2026-09-19'
 title: Schwarze Soldaten als von Natur aus resistent gegen Tropenkrankheiten
 proposition:
   summary: >-
@@ -10,22 +10,25 @@ proposition:
     Spanisch-Amerikanischen Krieg.
 correction:
   summary: >-
-    Gelbfieber ist eine durch infizierte Mücken übertragene Viruserkrankung; Immunität entsteht durch Impfung oder nach
-    überstandener Infektion und nicht durch rassische Abstammung. Malaria wird durch Plasmodium-Parasiten verursacht, die
-    von Anopheles-Mücken übertragen werden; populationsabhängige Unterschiede einzelner erblicher Merkmale machen Schwarze
-    Menschen nicht generell immun gegen Malaria oder Tropenkrankheiten. Schwarze US-Soldaten erkrankten auf Kuba in großer
-    Zahl an Malaria und Gelbfieber und widerlegten damit unmittelbar die Annahme eines allgemeinen angeborenen rassischen Schutzes.
+    Gelbfieber ist eine durch infizierte Mücken übertragene Viruserkrankung; laut Weltgesundheitsorganisation bietet eine
+    einzelne Impfdosis lebenslangen Schutz. Malaria wird durch Plasmodium-Parasiten verursacht, die von Anopheles-Mücken
+    übertragen werden. Langjährige Exposition kann eine partielle Malariaimmunität erzeugen, die laut WHO niemals
+    vollständigen Schutz bietet. Keine der beiden Krankheiten verleiht durch rassische Abstammung einen allgemeinen
+    Schutz. Eine amtliche Armeegeschichte berichtet, dass die Hälfte von 471 Männern des 24th Infantry in Siboney an
+    Malaria oder Gelbfieber erkrankte; sie schlüsselt die Fälle nicht nach Krankheit auf.
 impact:
   summary: >-
-    Im Spanisch-Amerikanischen Krieg griff die US-Militärplanung auf die rassistische Annahme zurück, Schwarze Soldaten
-    seien an Tropenkrankheiten besser angepasst oder von Natur aus widerstandsfähiger. Die Vorstellung beeinflusste sowohl
-    die Organisation Schwarzer „Immune“-Freiwilligenregimenter als auch den Einsatz Schwarzer regulärer Truppen in
-    krankheitsbelasteten Gebieten und im Lazarettdienst auf Kuba. Die Erfahrung der Armee widersprach der Theorie rasch:
-    Eine amtliche Armeegeschichte berichtet, dass die Hälfte von 471 Männern des 24th Infantry, die in Siboney Dienst
-    antraten, an Malaria oder Gelbfieber erkrankte.
+    Eine medizinhistorische Darstellung der Army dokumentiert, dass das War Department afroamerikanische Truppen wegen
+    ihrer vermeintlich größeren Gelbfieberimmunität als vorteilhaft für Kuba und die Philippinen ansah. Auf Kuba wiesen
+    Kommandeure das 24th Infantry unter einer umfassenderen Theorie natürlicher Schwarzer Immunität gegen Malaria und
+    Gelbfieber dem Lazarettdienst in Siboney zu. Rassistische Vorstellungen trugen auch dazu bei, vier von zehn
+    „Immune“-Regimentern der US-Freiwilligenarmee für Schwarze Mannschaften und Leutnants zu bestimmen; daneben standen
+    die Anwerbung von Menschen mit vermeintlich erworbener Immunität oder Tropenerfahrung sowie politische Bemühungen um
+    mehr Möglichkeiten für Schwarze im Militärdienst. Eine amtliche Armeegeschichte berichtet, dass die Hälfte von 471 Männern des 24th in Siboney
+    an der einen oder anderen Krankheit erkrankte.
   highlights:
     - value: '4'
-      label: Schwarze US Volunteer Infantry Regiments unter den 1898 aufgestellten „Immune“-Regimentern
+      label: von zehn „Immune“-Regimentern der US-Freiwilligenarmee für Schwarze Mannschaften und Leutnants bestimmt, aus mehreren belegten Gründen
     - value: 50 % von 471
       label: Männer des 24th Infantry in Siboney, die laut amtlicher Armeegeschichte an Malaria oder Gelbfieber erkrankten
     - value: '1898'
@@ -38,9 +41,14 @@ impact:
     - >-
       Die berichtete 50-Prozent-Zahl fasst Malaria und Gelbfieber zusammen; sie ist keine reine Gelbfieber-Infektionsrate.
     - >-
-      Eine frühere Gelbfieberinfektion kann tatsächlich lebenslange Immunität erzeugen, und Militärplaner suchten auch
-      Männer mit vermuteter erworbener Immunität. Dieses richtige Konzept wurde mit der falschen Annahme einer allgemeinen
-      angeborenen rassischen Widerstandsfähigkeit vermischt.
+      Das „Immune“-Programm verband unterschiedliche Vorstellungen: Anwerber suchten Menschen, die Gelbfieber vermeintlich
+      überstanden hatten oder an heißes Klima gewöhnt waren, während die Rassenlehre tropische Eignung pauschal Schwarzen
+      Menschen zuschrieb. Auch Schwarze Lobbyarbeit, der Ausschluss aus vielen staatlichen Einheiten und politische
+      Anerkennung beeinflussten die Bestimmung der vier Regimenter. Die rassistische Annahme war ein Faktor, nicht die einzige Ursache.
+    - >-
+      Laut Armeemonografie brachte der Lazarettdienst wenig zusätzliches Kontaktrisiko mit sich, weil Malaria und
+      Gelbfieber durch Mücken übertragen werden. Die belegte Folge ist die rassifizierte Begründung des Einsatzes, nicht
+      die Behauptung, die Pflegetätigkeit selbst habe die Infektionen verursacht.
 episodes:
   - id: united-states-1898
     polity: Vereinigte Staaten
@@ -48,46 +56,56 @@ episodes:
       - United States War Department
       - United States Army
     institutionalContext: >-
-      War Department und Army agierten in einer medizinischen Kultur, die Schwarzer Abstammung häufig eine natürliche
-      Widerstandsfähigkeit gegen Gelbfieber und andere Tropenkrankheiten zuschrieb. Vier der Freiwilligen-„Immune“-
-      Regimenter wurden als Schwarze Einheiten organisiert; bereits auf Kuba eingesetzte Schwarze reguläre Soldaten
-      erhielten ebenfalls Aufgaben unter der Annahme, sie könnten Tropenkrankheiten besser standhalten als weiße Soldaten.
-      Das 24th Infantry wurde beispielsweise während der Ausbreitung des Gelbfiebers zum Lazarettdienst in Siboney
-      eingesetzt. Die Erkrankungsraten der Soldaten selbst widerlegten den angenommenen rassischen Schutz.
+      Planer des War Department und Kommandeure der Army nutzten eine medizinische Theorie, die Schwarzer Abstammung
+      natürliche Widerstandsfähigkeit gegen Gelbfieber, Malaria oder tropisches Klima zuschrieb. Das War Department sah
+      Schwarze Truppen als vorteilhaft für den Tropendienst in Übersee an; Kommandeure wiesen das 24th Infantry in Siboney
+      dem Lazarettdienst zu, weil seine Soldaten angeblich immuner als weiße Truppen seien. Davon getrennt wurden vier der
+      zehn „Immune“-Regimenter der US-Freiwilligenarmee für Schwarze Mannschaften und Leutnants bestimmt. Rassifizierte
+      Vorstellungen tropischer Eignung trugen dazu bei; ebenso wirkten die Anwerbung vermeintlich erworbener Immunität,
+      Akklimatisierung, Lobbyarbeit, Zugang zum Freiwilligendienst und Parteipolitik. Erkrankungen im 24th widersprachen
+      bald einem allgemeinen rassischen Schutz.
     consequences:
-      - Rassistische Annahmen beeinflussten Rekrutierung und Organisation Schwarzer „Immune“-Freiwilligenregimenter
-      - Schwarze reguläre Truppen wurden auch wegen ihrer vermeintlichen natürlichen Widerstandsfähigkeit zu krankheitsbelasteten Aufgaben eingesetzt
-      - Soldaten wurden Tropenkrankheiten ausgesetzt, ohne den Schutz, den die rassistische Theorie unterstellte
-      - Hohe Malaria- und Gelbfiebererkrankungsraten unter Schwarzen Soldaten widersprachen der institutionellen Annahme
+      - Das War Department behandelte die vermeintliche Gelbfieberimmunität Schwarzer Soldaten in seiner Einsatzplanung als Vorteil für den Tropendienst
+      - Das 24th Infantry wurde unter einer Theorie größerer natürlicher Resistenz dem Lazarettdienst in Siboney zugewiesen
+      - Rassistische Vorstellungen trugen innerhalb eines Programms mit mehreren Ursachen zur Bestimmung von vier Schwarzen „Immune“-Regimentern bei
+      - Eine zusammengefasste Erkrankungsrate von 50 Prozent für Malaria oder Gelbfieber bei 471 Männern des 24th widersprach der Vorstellung allgemeiner rassischer Immunität
     summary: >-
-      1898 behandelten US-Militärbehörden Schwarze Soldaten als besonders für den Tropendienst geeignet, weil ihnen
-      größere natürliche Widerstandsfähigkeit gegen Gelbfieber und verwandte Krankheiten zugeschrieben wurde. Die Annahme
-      beeinflusste die Organisation Schwarzer „Immune“-Regimenter und den Einsatz Schwarzer regulärer Soldaten im
-      Krankendienst auf Kuba. Eine amtliche Armeegeschichte berichtet dennoch, dass 50 Prozent von 471 Männern des 24th
-      Infantry in Siboney an Malaria oder Gelbfieber erkrankten und damit die vermeintliche rassische Immunität unmittelbar infrage stellten.
+      1898 behandelten das Denken im War Department und Entscheidungen der Army Schwarze Soldaten als besonders für den
+      Tropendienst geeignet, weil ihnen größere natürliche Widerstandsfähigkeit zugeschrieben wurde. Die Behauptung
+      bestimmte unmittelbar den Lazaretteinsatz des 24th Infantry und trug zur Bestimmung Schwarzer Mannschaften und
+      Leutnants für vier Regimenter im umfassenderen „Immune“-Programm bei. Eine amtliche Armeegeschichte berichtet dennoch, dass 50 Prozent von 471
+      Männern in Siboney an Malaria oder Gelbfieber erkrankten; dieser zusammengefasste Befund widersprach der vermeintlichen rassischen Immunität.
     mechanism:
       summary: >-
-        Rekrutierungs- und Einsatzentscheidungen von War Department und Army setzten die Vorstellung um, Schwarze Truppen
-        seien von Natur aus besser für den Tropendienst geeignet, unter anderem bei „Immune“-Regimentern und im Lazarettdienst.
+        Einsatzplanung des War Department und die Lazarettzuweisung der Army in Siboney setzten die Vorstellung um,
+        Schwarze Truppen seien von Natur aus besser für den Tropendienst geeignet. Auch die vier Schwarzen
+        „Immune“-Regimenter spiegelten diese Annahme wider, jedoch innerhalb eines Programms, das von der Anwerbung
+        erworbener Immunität, Akklimatisierung, Lobbyarbeit und Politik geprägt war.
     institutionalCorrection:
       summary: >-
-        Die tatsächlichen Erkrankungsraten widersprachen der rassistischen Annahme noch während des Krieges. Ein datierter
-        formeller Widerruf der allgemeinen Theorie angeborener rassischer Resistenz durch War Department oder Army ist im
-        vorhandenen Nachweis jedoch nicht belegt.
+        Die Erkrankungen im 24th Infantry widersprachen der rassistischen Annahme noch während des Krieges; weder Schwarze
+        noch weiße „Immune“-Regimenter zeigten die versprochene Immunität. Eine historische Darstellung belegt, dass die
+        Vorstellung Schwarzer Tropeneignung die Organisation der Army 1899 noch beeinflusste. Ein datierter formeller
+        Widerruf der umfassenderen Rassentheorie durch War Department oder Army ist im vorhandenen Nachweis nicht belegt.
 evidence:
   - id: black-troops-army-medical-proposition
     note: >-
-      Amtliche medizinhistorische Darstellung der US Army, die das Denken im War Department dokumentiert, wonach
-      afroamerikanische Truppen größere Gelbfieberimmunität besäßen und deshalb für den Tropendienst vorteilhaft seien.
+      Die medizinhistorische Darstellung der Army hält fest, das War Department habe im Einsatz afroamerikanischer
+      Truppen auf Kuba und den Philippinen einen Vorteil gesehen, weil ihnen größere Gelbfieberimmunität als weißen
+      Truppen zugeschrieben wurde.
   - id: black-troops-who-correction
     note: >-
-      Aktuelle medizinische Evidenz, die Gelbfieber als durch Mücken übertragene Viruserkrankung beschreibt und erklärt,
-      dass Immunität durch Impfung oder überstandene Infektion entsteht und nicht durch rassische Abstammung.
+      Die WHO beschreibt Gelbfieber als durch infizierte Mücken übertragenes Virus und erklärt, eine Impfdosis biete
+      lebenslangen Schutz. Die Seite wird nicht als Beleg für Immunität nach überstandener natürlicher Infektion verwendet.
   - id: black-troops-army-history-impact
     note: >-
       Amtliche Armeegeschichte zur Annahme natürlicher Tropenkrankheitsresistenz, zum Lazaretteinsatz des 24th Infantry
-      in Siboney und zur Feststellung, dass 50 Prozent von 471 Männern dort an Malaria oder Gelbfieber erkrankten.
+      in Siboney und zur Feststellung, dass 50 Prozent von 471 Männern dort an der „einen oder anderen“ Krankheit, Malaria
+      oder Gelbfieber, erkrankten.
   - id: black-troops-army-history-carrier
+    note: >-
+      Die amtliche Armeemonografie nennt Kommandeure als diejenigen, die das 24th Infantry unter der damaligen Theorie,
+      Schwarze Soldaten seien gegen Malaria und Gelbfieber immuner als weiße, zum Lazarettdienst in Siboney einsetzten.
   - id: black-troops-nps-hayes-mechanism
     note: >-
       Amtliche NPS-Darstellung, wonach Menschen innerhalb und außerhalb des War Department glaubten, afroamerikanische
@@ -98,5 +116,40 @@ evidence:
       Pfleger und Lazarettordonnanzen dienten, weil das Stereotyp ihnen größere Widerstandsfähigkeit gegen Tropenbedingungen zuschrieb.
   - id: black-troops-army-foundation-context
     note: >-
-      Historische Synthese zu General Orders Nr. 55 und 60, den vier Schwarzen „Immune“-Regimentern der US Volunteer
-      Infantry und der falschen Annahme natürlicher Immunität oder besonderer Eignung für tropische Krankheitsumgebungen.
+      Die Synthese trennt die gesetzliche Immunitätsanforderung und die Anwerbung vermeintlich vorexponierter oder
+      akklimatisierter Menschen vom rassistischen Glauben an natürliche Schwarze Tropeneignung. Sie dokumentiert auch
+      Schwarze Lobbyarbeit, politische Anerkennung, fünf zunächst geplante Schwarze Regimenter und die Reduzierung auf vier.
+  - id: black-troops-who-malaria-correction
+    note: >-
+      Die WHO erklärt, dass Malaria durch Plasmodium-Parasiten verursacht und durch infizierte Anopheles-Mücken übertragen
+      wird. Langjährige Exposition kann partielle Immunität erzeugen; sie bietet niemals vollständigen Schutz und kann
+      Infektionen weiterhin zulassen.
+  - id: black-troops-army-medical-carrier
+    note: >-
+      Die medizinhistorische Darstellung nennt das War Department als Planer des überseeischen Einsatzes
+      afroamerikanischer Truppen unter dem vermeintlichen Gelbfiebervorteil und zählt die nach Kuba entsandten Schwarzen
+      regulären und National-Guard-Regimenter auf.
+  - id: black-troops-army-medical-consequences
+    note: >-
+      Die Passage stützt die Folge zur Einsatzplanung des War Department. Sie belegt für sich weder die „Immune“-Regimenter
+      noch die Lazarettzuweisung des 24th Infantry.
+  - id: black-troops-army-history-consequences
+    note: >-
+      Die Armeemonografie verbindet die Rassentheorie unmittelbar mit dem Lazaretteinsatz des 24th Infantry in Siboney
+      und berichtet, dass 50 Prozent von 471 Männern an Malaria oder Gelbfieber erkrankten, ohne die Krankheiten aufzuschlüsseln.
+  - id: black-troops-army-foundation-consequences
+    note: >-
+      Die Synthese dokumentiert rassistische Argumente über Tropeneignung im Umfeld der Schwarzen „Immune“-Regimenter,
+      die zunächst fünf Regimenter umfassende Festlegung in General Orders Nr. 55 und die spätere Reduzierung auf vier;
+      zugleich hält sie weitere Motive fest.
+  - id: black-troops-army-foundation-mechanism
+    note: >-
+      Der Artikel zeigt, wie gesetzliche Immunitätssprache, Anwerbung nach Vorexposition und Akklimatisierung,
+      rassistischer Glaube, Lobbyarbeit, Zugang zum Militärdienst und Parteipolitik im „Immune“-Programm zusammenwirkten;
+      er stützt keine monokausale Darstellung.
+  - id: black-troops-army-foundation-correction
+    note: >-
+      Der Bericht hält fest, dass weder Schwarze noch weiße „Immune“-Regimenter Immunität zeigten und sieben Offiziere
+      sowie 241 Mannschaften an Krankheiten starben. Dennoch habe die Vorstellung Schwarzer Tropeneignung noch zwei
+      Freiwilligenregimenter von 1899 beeinflusst. Das spricht gegen einen sofortigen formellen Widerruf und ist selbst
+      kein dokumentierter Korrekturakt.

@@ -2,97 +2,113 @@ schemaVersion: 2
 title: Cardiazol-induced seizures as a treatment for schizophrenia
 proposition:
   summary: >-
-    Schizophrenia and epilepsy were treated as biologically antagonistic disorders, so chemically inducing epileptiform
-    seizures with Cardiazol (pentylenetetrazol/Metrazol) was expected to produce remission in schizophrenia.
+    Cardiazol (pentylenetetrazol/Metrazol) was promoted as a means of inducing remission in schizophrenia by provoking
+    epileptiform seizures. Ladislas Meduna's founding explanation was a biological antagonism between epilepsy and schizophrenia;
+    British adopters could endorse the treatment while doubting that explanation.
 correction:
   summary: >-
     Schizophrenia and epilepsy are not biologically opposing disease states whose coexistence can be therapeutically
-    reversed by provoking seizures. Early Cardiazol results were distorted by uncontrolled comparisons, changing
-    diagnostic definitions and outcome measures that sometimes equated quieter or more manageable behavior with recovery.
-    Convulsive treatment itself should not be dismissed wholesale: modern electroconvulsive therapy has evidence-based
-    indications, including severe depression, catatonia and selected treatment-resistant conditions. The historical
-    error was the specific antagonism theory and the resulting use of an intensely distressing, poorly controlled
-    chemical convulsant as a routine schizophrenia treatment.
+    reversed by provoking seizures. Early Cardiazol results were distorted by uncontrolled comparisons, changing diagnostic
+    definitions and outcome measures that sometimes equated quieter or more manageable behavior with recovery. Convulsive
+    treatment itself should not be dismissed wholesale: NICE recommends considering modern ECT for severe depression
+    in specified circumstances, including a need for rapid response or unsuccessful other treatments, and for catatonia
+    after adequate trials of other treatments have failed and/or the condition is potentially life-threatening. NICE
+    does not recommend ECT for the general management of schizophrenia. These indications do not validate Meduna's
+    antagonism theory or the routine use of an intensely distressing, poorly controlled chemical convulsant for schizophrenia.
 category: Medicine and public health
-reviewedAt: '2026-08-24'
+reviewedAt: '2026-09-19'
 impact:
   summary: >-
     Cardiazol therapy spread through British public mental hospitals within roughly two years of its introduction.
     Patients received intravenous convulsant injections that could produce overwhelming pre-seizure terror and violent
-    generalized convulsions. The Board of Control investigated and reported on the method as hospitals adopted it,
-    but the original theory that induced epilepsy would counteract schizophrenia collapsed quickly.
+    generalized convulsions. The Board of Control investigated and reported on the method as hospitals adopted it;
+    clinical enthusiasm could persist despite doubts about its original theory.
   highlights:
     - value: 89 / 92
-      label: British institutions using shock treatments in the 1938 Board of Control survey were using Cardiazol
+      label: Institutions using Cardiazol among 92 using shock treatments in the Board's late-1938 survey
+      note: The survey was published in 1939; 92 is not the total number of British mental hospitals.
     - value: '1938'
-      label: Board of Control issued a national report on Cardiazol treatment in schizophrenia
+      label: Board of Control for England and Wales published its report on Cardiazol treatment
     - value: '1941'
-      label: British clinicians were acknowledging that the original schizophrenia indication had been abandoned
+      label: Hemphill and Walter described the original schizophrenia-specific conception as abandoned
+      note: >-
+        McCrae attributes this assessment to their 1941 paper; it was not a national withdrawal of Cardiazol.
   context:
     - >-
-      Cardiazol is also known as pentylenetetrazol or Metrazol. Chemical Cardiazol convulsions for schizophrenia
-      are distinct from modern ECT. ECT replaced Cardiazol partly because an electrical stimulus allowed a more
-      controllable seizure with less pre-convulsive terror and fewer traumatic injuries.
+      Cardiazol is also known as pentylenetetrazol or Metrazol. Chemical Cardiazol convulsions for schizophrenia are
+      distinct from modern ECT. ECT replaced Cardiazol partly because an electrical stimulus allowed a more controllable
+      seizure with less pre-convulsive terror and fewer traumatic injuries.
     - >-
       Some later evidence suggested convulsive treatment could benefit affective illness. That does not rescue Meduna's
       original claim that schizophrenia could be treated because epilepsy and schizophrenia were biologically antagonistic.
+    - >-
+      Replacement by ECT was uneven. McCrae documents continued Cardiazol use at Graylingwell and Runwell in the 1940s
+      and at Netherne in 1950; the 1941 statement does not date the end of treatment.
 episodes:
   - id: england-wales-1937-1941
     polity: England and Wales
     region: Europe
     startYear: 1937
-    endYear: 1941
-    strength: policy-basis
+    endYear: 1939
+    periodLabel: 1937–1939 (documented adoption)
+    strength: institutionally-influential
     institutionTypes:
       - government
       - medical
-      - professional
     institutions:
       - Board of Control for England and Wales
-      - British public mental hospitals
-      - Royal Medico-Psychological Association
+      - Bexley Hospital
     institutionalContext: >-
-      Cardiazol convulsive treatment reached Britain in 1937 and spread extremely rapidly through the public
-      mental-hospital system. The Board of Control noted its use at several institutions in its 1937 report, sent
-      officials to Hungary to study the method and published a dedicated 1938 report on Cardiazol and shock treatment
-      in schizophrenia. A late-1938 Board survey found shock treatments underway at 92 institutions, 89 of them using
-      Cardiazol. The therapy was originally justified by Ladislas Meduna's hypothesis that epilepsy and schizophrenia
-      were biologically antagonistic and that inducing epileptiform seizures could therefore cause schizophrenic remission.
-      By 1941 British clinicians were acknowledging that this original conception had been abandoned, while electrical
-      convulsive therapy was rapidly supplanting the chemical method.
+      Bexley Hospital began Cardiazol treatment in June 1937 and established a dedicated ward after London County
+      Council supported Leslie Cook's visit to Budapest. In 1938 Cook described Bexley's experience and confidence
+      in the treatment, while explicitly calling Meduna's antagonism hypothesis debatable. The Board of Control sent
+      officials to Hungary in autumn 1937. Its annual report for 1937, published in 1938, noted use at several institutions.
+      It also published a dedicated report in 1938 and surveyed shock treatments late that year: 89 of 92 institutions
+      using shock treatments used Cardiazol. In its report published in 1939, the
+      Board justified continuing the available shock methods pending better treatments. These acts establish clinical
+      adoption and administrative encouragement, not uniform acceptance of Meduna's biological explanation. Discussion
+      at the Royal Medico-Psychological Association (RMPA) in 1938 included dissent; the Maudsley barred Cardiazol
+      trials because of patients' fear and distress. The episode dates cover this adoption sequence, not cessation.
+      Later evidence that epilepsy and schizophrenia can coexist, and current guidance on selected ECT indications,
+      require separate evaluation from the historical treatment claims.
     consequences:
       - Large-scale chemical induction of generalized seizures in psychiatric patients
       - Extreme anticipatory fear and distress immediately before convulsions
-      - Risk of vertebral and other fractures, memory disturbance and cerebral injury
+      - >-
+        Reported risks of vertebral and other fractures and memory disturbance, sometimes persisting for months
       - Behavioral quieting or ward manageability could be misclassified as therapeutic improvement
-      - Rapid national diffusion before the underlying schizophrenia theory had been established
+      - >-
+        Rapid diffusion through surveyed institutions before the underlying schizophrenia theory had been established
     summary: >-
-      Britain rapidly adopted Cardiazol convulsive therapy after its 1937 introduction. The treatment was built on
-      the theory that schizophrenia and epilepsy were biological opposites, so provoking epileptiform seizures should
-      drive schizophrenia into remission. The Board of Control investigated the method and by late 1938 found Cardiazol
-      in use at 89 institutions. Subsequent experience exposed unstable remission claims, serious distress and injuries,
-      and major problems in how “improvement” was measured. By 1941 British clinicians were explicitly saying that
-      the original conception of convulsive therapy as a schizophrenia treatment had been abandoned, while ECT replaced
-      the less controllable chemical procedure.
+      Cardiazol entered English mental hospitals in 1937 as a treatment intended to induce remission in schizophrenia.
+      At Bexley, Cook promoted its clinical value despite doubts about Meduna's biological-antagonism explanation.
+      The Board of Control investigated the method, found it in use at 89 surveyed institutions in late 1938, and
+      subsequently justified continuing the available shock treatments. Experience exposed unstable remission claims,
+      severe distress and injuries, and problems in judging improvement. Hemphill and Walter's 1941 statement about
+      the original conception, reported by McCrae, does not establish withdrawal by the Board or Bexley; Cardiazol
+      continued in some other hospitals after ECT became available.
     mechanism:
       kind: administrative-adoption
       summary: >-
-        The Board of Control investigated, reported on and surveyed Cardiazol treatment while public mental hospitals
-        rapidly incorporated the chemical-convulsion regimen into routine schizophrenia care.
+        Bexley organized a dedicated treatment ward and repeated courses of induced seizures, which Cook presented
+        as clinically valuable. The Board of Control investigated and circulated findings, surveyed use and justified
+        continuing available shock methods. These clinical and administrative channels sustained treatment claims
+        without requiring agreement on Meduna's proposed mechanism.
     institutionalCorrection:
-      status: partial
-      periodLabel: '1941'
-      action: British clinicians abandoned the original schizophrenia–epilepsy antagonism rationale as electrical convulsive therapy displaced Cardiazol.
+      status: undocumented
       summary: >-
-        The original theory and Cardiazol regimen were abandoned in British clinical practice, but the available record
-        does not identify a single formal Board of Control or professional resolution repudiating the earlier programme.
+        The checked sources do not establish a dated withdrawal or repudiation by the Board of Control or Bexley Hospital.
+        Clinical criticism of the original rationale and gradual replacement by ECT are documented, but cannot supply
+        that missing institutional act. McCrae attributes the 1941 assessment to Hemphill and Walter and documents
+        continuing Cardiazol use elsewhere in the 1940s and later.
 sources:
   - id: cardiazol-history
     title: '“A violent thunderstorm”: Cardiazol treatment in British mental hospitals'
     url: https://pubmed.ncbi.nlm.nih.gov/17153475/
     publisher: History of Psychiatry / PubMed
   - id: cardiazol-board-report
-    title: Report on Cardiazol Treatment and on the Present Application of Hypoglycaemic Shock Treatment in Schizophrenia
+    title: >-
+      Report on Cardiazol Treatment and on the Present Application of Hypoglycaemic Shock Treatment in Schizophrenia
     url: https://books.google.com/books/about/Report_on_Cardiazol_Treatment_and_on_the.html?id=rdN0l6YuOXcC
     publisher: Board of Control for England and Wales / H.M. Stationery Office
   - id: cardiazol-hansard
@@ -107,52 +123,220 @@ sources:
     title: The Medical Prescription of Patient Occupation
     url: https://www.ncbi.nlm.nih.gov/books/NBK588725/
     publisher: Palgrave Macmillan / NCBI Bookshelf
+  - id: cardiazol-cook
+    title: Cardiazol Convulsion Therapy in Schizophrenia
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2076844/
+    publisher: Proceedings of the Royal Society of Medicine / PMC
+  - id: cardiazol-qin
+    title: >-
+      Risk for schizophrenia and schizophrenia-like psychosis among patients with epilepsy: population based cohort
+      study
+    url: https://www.bmj.com/content/331/7507/23
+    publisher: BMJ
+  - id: cardiazol-nice-depression
+    title: 'Depression in adults: treatment and management — NG222, recommendations 1.13'
+    url: https://www.nice.org.uk/guidance/ng222/chapter/Recommendations
+    publisher: National Institute for Health and Care Excellence
+  - id: cardiazol-nice-ect
+    title: Guidance on the use of electroconvulsive therapy — TA59, guidance
+    url: https://www.nice.org.uk/guidance/ta59/chapter/1-Guidance
+    publisher: National Institute for Health and Care Excellence
 evidence:
   - id: cardiazol-jama-proposition
     sourceId: cardiazol-jama
     relation: documents
     target: {scope: belief, aspect: proposition}
     note: >-
-      Contemporary 1938 clinical paper explicitly states Meduna's theory that schizophrenia and epilepsy were
-      biologically antagonistic and describes attempts to cause remission by inducing epileptiform seizures with Metrazol.
+      Contemporary 1938 clinical paper explicitly states Meduna's theory that schizophrenia and epilepsy were biologically
+      antagonistic and describes attempts to cause remission by inducing epileptiform seizures with Metrazol. The
+      inspected abstract describes an American series, not British institutional endorsement.
+    locator: Finkelman, Steinberg and Liebert (1938), JAMA 110(10):706–709, abstract, opening paragraphs
   - id: cardiazol-history-correction
     sourceId: cardiazol-history
     relation: supports
     target: {scope: belief, aspect: correction}
     note: >-
       Peer-reviewed historical analysis describes the dubious biological-antagonism hypothesis, flawed outcome measurement,
-      severe fear and the transition away from Cardiazol.
+      severe fear and the transition away from Cardiazol. These historical passages do not establish current ECT indications,
+      which are sourced separately.
+    locator: McCrae (2006), pp. 72–78, 83–86; HAL deposited full text, hal-00570852
   - id: cardiazol-history-impact
     sourceId: cardiazol-history
     relation: supports
     target: {scope: belief, aspect: impact}
+    locator: McCrae (2006), pp. 70–71, 78–79, 83–84
+    note: >-
+      Pages 70–71 establish the late-1938 survey, published in 1939. Pages 83–84 attribute the 1941 assessment to
+      Hemphill and Walter and show continued chemical treatment, including Netherne in 1950.
   - id: cardiazol-board-carrier
     sourceId: cardiazol-board-report
-    relation: documents
-    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: carrier}
+    relation: contextualizes
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: context}
     note: >-
-      Bibliographic and digitized record of the Board of Control's 1938 official report specifically evaluating
-      Cardiazol treatment and shock treatment in schizophrenia.
+      Bibliographic record of the Board of Control’s official 1938 report on Cardiazol and hypoglycaemic shock treatment.
+      The catalogue establishes publication details; the full report was not inspected and this record does not prove
+      hospital adoption.
+    locator: 'Google Books, bibliographic information: Board of Control report, H.M. Stationery Office, 1938'
   - id: cardiazol-hansard-mechanism
     sourceId: cardiazol-hansard
     relation: documents
     target: {scope: episode, episodeId: england-wales-1937-1941, aspect: mechanism}
     note: >-
-      Primary parliamentary record confirming that the Board of Control was preparing a government report on
-      Cardiazol injections for schizophrenia as the new treatment spread through public mental hospitals.
+      Primary parliamentary record confirming that the Board of Control was preparing a report on Cardiazol treatment.
+      The minister said publication was imminent; this announcement does not establish treatment outcomes or hospital
+      adoption.
+    locator: HC Deb, 14 July 1938, vol. 338, cols. 1515–1516, question 62 and Mr Elliot’s reply
+  - id: cardiazol-history-context
+    sourceId: cardiazol-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: context}
+    locator: McCrae (2006), pp. 72–78, 83–86; full text deposited as HAL hal-00570852
+    note: >-
+      Peer-reviewed historical analysis describing Cardiazol as the most widely used major somatic treatment in British
+      public mental hospitals in the late 1930s, tracing the dubious biological-antagonism hypothesis, flawed outcome
+      measurement, severe fear and the transition away from Cardiazol. Full text is available as HAL deposit hal-00570852;
+      modern ECT indications are sourced separately.
   - id: cardiazol-history-consequences
     sourceId: cardiazol-history
     relation: supports
     target: {scope: episode, episodeId: england-wales-1937-1941, aspect: consequences}
+    locator: >-
+      McCrae (2006), pp. 70–71 (diffusion), 75 (behavioral outcomes), 77–78 (fractures and memory), 78–79 (fear)
+    note: >-
+      The article documents diffusion, fear, fractures and memory disturbance, including reports of amnesia months
+      later. These are treatment risks reported across institutions, not Bexley-specific incidence figures. Contemporary
+      claims about structural brain injury were contested; the record therefore states the reported memory effects.
   - id: cardiazol-history-partial-correction
     sourceId: cardiazol-history
-    relation: documents
+    relation: contextualizes
     target: {scope: episode, episodeId: england-wales-1937-1941, aspect: institutional-correction}
+    locator: McCrae (2006), pp. 83–84, Electroshock
+    note: >-
+      The attributed 1941 change in conception and later replacement by ECT provide a history of clinical change.
+      Continued use in named hospitals rules out treating 1941 as general cessation; these passages do not document
+      a corrective act by the Board or Bexley.
   - id: cardiazol-ncbi-context
     sourceId: cardiazol-ncbi-history
     relation: contextualizes
     target: {scope: episode, episodeId: england-wales-1937-1941, aspect: context}
     note: >-
-      Modern historical synthesis identifies Cardiazol as the most widely used somatic treatment for schizophrenia
-      and affective disorders in British public mental hospitals and notes that the Maudsley barred trials because
+      Modern historical synthesis identifying Cardiazol as the most widely used somatic treatment for schizophrenia
+      and affective disorders in British public mental hospitals and noting that the Maudsley barred trials because
       the induced convulsions caused extreme anxiety and fear.
+    locator: Freebody, chapter 6, The Views of Psychiatrists in Paris and London, paragraph with notes 63–66
+  - id: cardiazol-cook-proposition
+    sourceId: cardiazol-cook
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Cook (1938), pp. 567, 573–574
+    note: >-
+      Cook explains Meduna’s hypothesis but explicitly questions it, while endorsing the clinical treatment and describing
+      Bexley’s confidence. His account distinguishes treatment promotion from acceptance of its original biological
+      rationale.
+  - id: cardiazol-qin-correction
+    sourceId: cardiazol-qin
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: 'Qin et al. (2005), Results: Main effect of epilepsy; Discussion: Strengths and weaknesses'
+    note: >-
+      The Danish register cohort documents schizophrenia following epilepsy and an increased associated risk. This
+      contradicts mutual exclusion, but the observational study neither tests Cardiazol nor proves causation; its
+      analyses use inpatient diagnoses.
+  - id: cardiazol-nice-depression-correction
+    sourceId: cardiazol-nice-depression
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: NG222, final recommendations 1.13.1–1.13.4
+    note: >-
+      NICE gives specified circumstances for considering ECT in severe depression, including rapid response and failed
+      other treatments, together with risk and consent requirements. This is modern ECT guidance, not evidence for
+      historical chemical convulsions.
+  - id: cardiazol-nice-ect-correction
+    sourceId: cardiazol-nice-ect
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: TA59, final recommendations 1.1–1.4 and 1.9
+    note: >-
+      Final guidance restricts ECT for catatonia to specified severe circumstances and does not recommend it for general
+      schizophrenia management. TA59’s depression guidance has been superseded by NG222; the two sources have distinct
+      scopes.
+  - id: cardiazol-history-carrier
+    sourceId: cardiazol-history
+    relation: documents
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: carrier}
+    locator: McCrae (2006), pp. 70–71, 74 (quoting Board of Control, 1939, p. 38), 86 note 1
+    note: >-
+      Bexley’s dedicated ward and June 1937 start are identified. The Board’s published justification for continuing
+      available shock methods is quoted through this history, not from a directly inspected annual report; it does
+      not prove official endorsement of antagonism.
+  - id: cardiazol-cook-carrier
+    sourceId: cardiazol-cook
+    relation: documents
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: carrier}
+    locator: Cook (1938), pp. 570, 573–574, especially Table III and its discussion
+    note: >-
+      Bexley’s own clinical report describes completed courses and the staff’s confidence in Cardiazol. The original
+      paper also records the author’s doubt about antagonism on p. 567.
+  - id: cardiazol-history-mechanism
+    sourceId: cardiazol-history
+    relation: documents
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: mechanism}
+    locator: McCrae (2006), pp. 70–71, 74
+    note: >-
+      The dedicated ward, official investigation, publication, survey and recommendation to continue available methods
+      establish distinct clinical and administrative channels. RMPA discussion included opposition, so it is not treated
+      as association endorsement.
+  - id: cardiazol-cook-mechanism
+    sourceId: cardiazol-cook
+    relation: documents
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: mechanism}
+    locator: Cook (1938), pp. 568 (Course), 573–574 (Bexley practice and results)
+    note: >-
+      Cook describes repeated treatment courses, selection of patients and the clinical claims used to justify Bexley’s
+      practice. This establishes hospital adoption without assigning the same regimen to every surveyed institution.
+  - id: cardiazol-cook-consequences
+    sourceId: cardiazol-cook
+    relation: supports
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: consequences}
+    locator: >-
+      Cook (1938), p. 567 (doubt about theory), pp. 568–571 (procedure, risks and distress), 572–574 (evaluation and Bexley series)
+    note: >-
+      The original report directly describes induced generalized seizures, patients’ fear and problems in comparing
+      remission figures. Its observed outcomes and confident interpretations must be distinguished from controlled
+      proof of efficacy. Page 567 explicitly questions the theory despite clinical adoption.
+  - id: cardiazol-jama-context
+    sourceId: cardiazol-jama
+    relation: contextualizes
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: context}
+    locator: Finkelman, Steinberg and Liebert (1938), JAMA 110(10):706–709, abstract
+    note: >-
+      Contemporary 1938 clinical paper explicitly states Meduna's theory that schizophrenia and epilepsy were biologically
+      antagonistic and describes attempts to cause remission by inducing epileptiform seizures with Metrazol. The
+      inspected abstract describes an American series, not British institutional endorsement.
+  - id: cardiazol-qin-context
+    sourceId: cardiazol-qin
+    relation: contextualizes
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: context}
+    locator: Qin et al. (2005), Results and Discussion
+    note: >-
+      The Danish register cohort documents schizophrenia following epilepsy and an increased associated risk. This
+      contradicts mutual exclusion, but the observational study neither tests Cardiazol nor proves causation; its
+      analyses use inpatient diagnoses.
+  - id: cardiazol-nice-depression-context
+    sourceId: cardiazol-nice-depression
+    relation: contextualizes
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: context}
+    locator: NG222, final recommendations 1.13.1–1.13.4
+    note: >-
+      NICE gives specified circumstances for considering ECT in severe depression, including rapid response and failed
+      other treatments, together with risk and consent requirements. This is modern ECT guidance, not evidence for
+      historical chemical convulsions.
+  - id: cardiazol-nice-ect-context
+    sourceId: cardiazol-nice-ect
+    relation: contextualizes
+    target: {scope: episode, episodeId: england-wales-1937-1941, aspect: context}
+    locator: TA59, final recommendations 1.1–1.4 and 1.9
+    note: >-
+      Final guidance restricts ECT for catatonia to specified severe circumstances and does not recommend it for general
+      schizophrenia management. TA59’s depression guidance has been superseded by NG222; the two sources have distinct
+      scopes.

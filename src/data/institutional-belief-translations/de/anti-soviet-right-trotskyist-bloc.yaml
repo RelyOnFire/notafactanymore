@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: anti-soviet-right-trotskyist-bloc
-sourceReviewedAt: '2026-08-25'
+sourceReviewedAt: '2026-09-20'
 title: Der „antisowjetische rechts-trotzkistische Block“ als Spionage- und Terrorverschwörung
 proposition:
   summary: >-
@@ -11,89 +11,152 @@ proposition:
     auf den Sturz sowie die Zerschlagung des Sowjetstaates hingearbeitet habe.
 correction:
   summary: >-
-    Spätere sowjetische Justizprüfungen erklärten den Kern der strafrechtlichen Verschwörungsvorwürfe gegen die
-    rehabilitierten Angeklagten für unbelegt. Der Oberste Gerichtshof der UdSSR fand keine Belege für Verbindungen
-    Bucharins und Rykows zu ausländischen Geheimdiensten, keine Grundlage für das behauptete Netz krimineller Gruppen
-    und stellte fest, dass zentrale Sabotagevorwürfe den tatsächlichen Umständen widersprachen. Zwanzig der 21
-    Angeklagten wurden schließlich rehabilitiert; Genrich Jagoda blieb wegen eigenständiger realer NKWD-Verbrechen die Ausnahme.
+    Spätere sowjetische Überprüfungen erklärten den Kern der Verschwörungsvorwürfe gegen die rehabilitierten Angeklagten
+    für unbelegt. Eine Überprüfung des KGB bezeichnete 1956 den angeblichen Block und die organisierte antisowjetische
+    Tätigkeit als erfunden. 1988 fanden der Generalstaatsanwalt und das Oberste Gericht der UdSSR in den damals geprüften
+    Fällen keine verlässlichen Belege für Geheimdienstverbindungen, ein Netz krimineller Gruppen, Sabotage oder Terror.
+    Zwanzig der 21 Angeklagten wurden zwischen 1957 und 1988 schrittweise rehabilitiert. Die Dokumentenedition nennt
+    Genrich Jagoda als Ausnahme und hält lediglich fest, dass gegen sein Urteil kein Protest eingelegt wurde; sie belegt
+    nicht, dass eigenständige NKWD-Verbrechen der Grund für seinen Ausschluss waren.
 impact:
   summary: >-
-    Der dritte Moskauer Prozess machte auf dem Höhepunkt des Großen Terrors aus einer konstruierten politischen
-    Verschwörung eine öffentliche gerichtliche Tatsache. Im März 1938 standen 21 Angeklagte vor dem Militärkollegium des
-    Obersten Gerichts der UdSSR. Achtzehn erhielten Todesurteile, drei langjährige Haftstrafen. Staatliche Propaganda
-    präsentierte ehemalige Spitzenfunktionäre als Spione, Saboteure, Terroristen und Agenten ausländischer Mächte.
-    Jahrzehnte später hob der Sowjetstaat die Urteile für nahezu die gesamte Angeklagtengruppe auf.
+    Der dritte Moskauer Prozess machte während des Großen Terrors aus einer angeblichen politischen Verschwörung ein
+    öffentliches Gerichtsurteil. Im März 1938 standen 21 Angeklagte vor dem Militärkollegium des Obersten Gerichts der
+    UdSSR. Achtzehn erhielten Todesurteile; Dmitri Pletnjow erhielt 25 Jahre, Christian Rakowski 20 Jahre und Sergei
+    Bessonow 15 Jahre Haft. Die Verhandlung wurde publiziert, Presseberichte und organisierte Versammlungen verbreiteten
+    die Vorwürfe, und der verbindliche Kurze Lehrgang von 1938 nahm die Moskauer Prozessdarstellung in die amtliche
+    Parteigeschichte auf. Zehn Angeklagte wurden vor 1988 in getrennten Schritten rehabilitiert; zehn weitere rehabilitierte
+    das Oberste Gericht am 4. Februar 1988.
   highlights:
     - value: '21'
       label: Angeklagte im dritten Moskauer Prozess
     - value: '18'
-      label: im März 1938 zum Tode verurteilte Angeklagte
+      label: am 13. März 1938 zum Tode verurteilte Angeklagte
     - value: 20 von 21
-      label: schließlich rehabilitierte Angeklagte; Genrich Jagoda blieb die Ausnahme
+      label: zwischen 1957 und 1988 schrittweise rehabilitierte Angeklagte
   context:
     - >-
-      Die im dritten Moskauer Prozess konstruierte Verschwörung war von den Vorwürfen der früheren
-      Sinowjew-Kamenew- und Pjatakow-Radek-Prozesse zu unterscheiden.
+      Die im dritten Moskauer Prozess verfolgte Verschwörung war von den Vorwürfen der früheren Sinowjew-Kamenew- und
+      Pjatakow-Radek-Prozesse zu unterscheiden; dort standen andere Angeklagtengruppen im Zentrum.
     - >-
-      Genrich Jagoda hatte als NKWD-Chef reale staatliche Verbrechen zu verantworten, die unabhängig von der erfundenen
-      rechts-trotzkistischen Verschwörung standen; seine Rehabilitierung wurde nicht beantragt.
+      Jagodas Urteil gehörte nicht zum Protest des Generalstaatsanwalts von 1988. Die Dokumentenedition von 2013 nennt dies
+      als Grund dafür, dass er der einzige nicht rehabilitierte Angeklagte blieb, erklärt aber nicht, warum kein Protest
+      eingelegt wurde. Sein Ausschluss lässt sich daher nicht als gerichtliche Feststellung zu anderen NKWD-Verbrechen darstellen.
     - >-
-      Die heutige Dokumentenedition auf Grundlage von RGASPI, GARF und dem Zentralarchiv des FSB enthält die vollständige
-      Prozessmitschrift mit redaktionellen Korrekturen Stalins.
+      Die Dokumentenedition beruht auf Beständen von RGASPI, GARF und dem Zentralarchiv des FSB. Sie enthält die vollständige
+      Prozessmitschrift, die vor der Veröffentlichung der Parteiführung zur Bearbeitung vorgelegt wurde; die Herausgeber
+      weisen letzte, überwiegend inhaltliche Korrekturen Stalins nach.
 episodes:
   - id: soviet-union-1938-1988
     polity: Sowjetunion
+    periodLabel: 'Prozess 1938–schrittweise Rehabilitierung 1957–1988'
     institutions:
       - Kommunistische Allunionspartei (Bolschewiki)
       - Volkskommissariat für Innere Angelegenheiten
       - Staatsanwaltschaft der UdSSR
       - Militärkollegium des Obersten Gerichts der UdSSR
     institutionalContext: >-
-      Im März 1938 inszenierte der Sowjetstaat einen öffentlichen Prozess gegen 21 Angeklagte um den angeblichen
-      „antisowjetischen rechts-trotzkistischen Block“. Staatsanwalt Andrei Wyschinski warf der Gruppe Spionage,
-      Schädlingstätigkeit, Sabotage, terroristische Morde und Unterstützung ausländischer Intervention vor. Achtzehn
-      Angeklagte wurden zum Tode verurteilt, drei erhielten langjährige Haftstrafen. Am 4. Februar 1988 hob das Plenum
-      des Obersten Gerichts der UdSSR die Urteile gegen Bucharin, Rykow und weitere noch nicht rehabilitierte
-      Hauptangeklagte auf und stellte die Verfahren mangels Straftatbestands ein.
+      Im März 1938 stellte der Sowjetstaat 21 Personen wegen ihrer angeblichen Zugehörigkeit zu einem „antisowjetischen
+      rechts-trotzkistischen Block“ vor Gericht. Staatsanwalt Andrei Wyschinski und das Militärkollegium schrieben der
+      Gruppe Spionage für ausländische Mächte, Schädlingstätigkeit und Sabotage, terroristische Morde und Vorbereitungen
+      sowie Pläne zur Unterstützung einer ausländischen Intervention und Aufteilung sowjetischen Territoriums zu. Das
+      Kollegium verurteilte 18 Angeklagte zum Tode und drei zu langen Haftstrafen. Der von der Partei beaufsichtigte
+      Publikationsprozess und die spätere amtliche Geschichtsschreibung stellten die Vorwürfe als erwiesene Tatsachen dar.
+      Die Rehabilitierung erfolgte ab 1957 Angeklagter für Angeklagten, bis das Oberste Gericht 1988 zehn Verbliebene entlastete.
     consequences:
-      - Hinrichtung von 18 Angeklagten nach einem politisch konstruierten öffentlichen Verfahren
-      - Langjährige Haftstrafen für die übrigen drei Angeklagten
-      - Staatliche Propaganda über ehemalige Spitzenfunktionäre als Netz ausländischer Spione, Terroristen und Saboteure
-      - Nutzung von Geständnissen und Justiztheater zur Legitimation des Großen Terrors
-      - Jahrzehntelange amtliche Behandlung der Urteile als Beleg für Verrat
-      - Posthume Rehabilitierung von 20 der 21 Angeklagten
+      - Achtzehn Angeklagte wurden nach dem öffentlichen Verfahren zum Tode verurteilt
+      - Pletnjow erhielt 25 Jahre Haft, Rakowski 20 Jahre und Bessonow 15 Jahre
+      - Presseberichte, betriebliche Zeitungslesungen und Versammlungen verbreiteten das Bild ehemaliger Führer als ausländische Spione, Terroristen und Saboteure
+      - Die Überprüfung von 1988 stellte in den untersuchten Fällen gefälschte Akten sowie durch Drohungen, Täuschung und Gewalt erzwungene Falschaussagen fest
+      - Der Kurze Lehrgang von 1938 machte die Moskauer Prozessdarstellung zur verbindlichen amtlichen Parteigeschichte, die bis Mitte der 1950er-Jahre unverändert blieb
+      - >-
+        Zwanzig Angeklagte wurden schrittweise rehabilitiert, zehn vor 1988 und zehn durch das Oberste Gericht am 4. Februar 1988
     summary: >-
-      Der dritte Moskauer Prozess verwandelte eine angeblich vom Ausland gesteuerte Verschwörung in ein autoritatives
-      Gerichtsurteil und Propagandaereignis. Die spätere sowjetische Justizprüfung erklärte zentrale Vorwürfe gegen die
-      rehabilitierten Angeklagten für unbelegt. Bis 1988 waren 20 der 21 Angeklagten rehabilitiert; Jagoda blieb die Ausnahme.
+      Partei, Staatssicherheit, Staatsanwaltschaft und Justiz machten den angeblich auslandsgestützten Block zu einem
+      autoritativen Urteil und einer öffentlichen Erzählung. Die Todesurteile und langen Haftstrafen beruhten auf einem Fall,
+      den spätere sowjetische Überprüfungen für die jeweils untersuchten Angeklagten als unbelegt und verfahrensmäßig
+      gefälscht erkannten. Auch die Korrektur war institutionell: Sowjetische Stellen rehabilitierten 20 Angeklagte in
+      getrennten Schritten zwischen 1957 und 1988.
     mechanism:
       summary: >-
-        Partei, Staatssicherheit, Staatsanwaltschaft und Justiz verwandelten eine politisch konstruierte Verschwörung in
-        ein öffentliches Strafurteil, Hinrichtungen und Propaganda zur Legitimation weiterer Repression.
+        NKWD-Ermittlung, Staatsanwaltschaft und Militärkollegium verwandelten Anschuldigungen und selbstbelastende Aussagen
+        in Verurteilungen; die Aufsicht der Partei über Publikation und amtliche Geschichtsschreibung verbreitete sie als
+        Tatsachen. Der Protest von 1988, der zehn Angeklagte betraf, dokumentierte fehlende Bestätigung, unterdrückte
+        Leugnungen, gefälschte Akten und durch Drohungen, Täuschung und Gewalt erlangte Aussagen in den Ermittlungsakten.
     institutionalCorrection:
-      periodLabel: 4. Februar 1988
-      action: Das Plenum des Obersten Gerichts der UdSSR hob die verbleibenden Haupturteile auf und stellte die Verfahren mangels Straftatbestands ein.
+      periodLabel: '1957–1988'
+      action: >-
+        Sowjetische Justizorgane rehabilitierten vor 1988 zehn Angeklagte in einzelnen Schritten; am 4. Februar 1988 hob das
+        Plenum des Obersten Gerichts der UdSSR die Urteile gegen Bucharin, Rykow und acht weitere Personen auf und stellte
+        ihre Verfahren mangels Straftatbestands ein.
       summary: >-
-        Die sowjetische Justiz kehrte die verbliebenen Kernurteile förmlich um und verwarf die Tatsachengrundlage der
-        angeblichen Verschwörung für die rehabilitierten Angeklagten.
+        Der zentrale Block-Fall wurde für 20 Angeklagte über drei Jahrzehnte förmlich aufgehoben. Das Urteil von 1988
+        betraf zehn namentlich genannte Personen und nicht alle 20 auf einmal. Jagodas Urteil lag außerhalb dieses Protests;
+        die geprüften Quellen belegen nicht, warum für ihn kein Protest eingelegt wurde.
 evidence:
-  - id: right-trotskyist-report-proposition
+  - id: right-trotskyist-docs-proposition
     note: >-
-      Der sowjetische Gerichtsbericht zu den Verfahren vom März 1938 identifiziert die 21 Angeklagten und den Strafprozess
-      um den angeblichen „antisowjetischen rechts-trotzkistischen Block“.
+      Anklageschrift und Urteil dokumentieren die Behauptungen der sowjetischen Institutionen über einen Block, der
+      Spionage, Sabotage, Terror und Verrat betrieben sowie ausländische Intervention und die Aufteilung sowjetischen
+      Territoriums vorbereitet habe. Der Beleg dokumentiert die Behauptungen, ohne sie als wahr zu bestätigen.
   - id: right-trotskyist-resolution-correction
     note: >-
-      Die Überprüfung von 1988 erklärt Verbindungen zu ausländischen Geheimdiensten, angebliche kriminelle Gruppen und
-      zentrale Sabotagevorwürfe für unbelegt und hebt die verbleibenden Urteile mangels Straftatbestands auf.
+      Der Protest des Generalstaatsanwalts findet keine verlässliche Bestätigung für Geheimdienstverbindungen, kriminelle
+      Gruppen, Sabotage oder Terror, beschreibt Aktenfälschung und Zwang und beantragt die Einstellung des Verfahrens gegen
+      zehn Angeklagte. Die Entscheidung des Obersten Gerichts nennt diese Personen und stellt das Verfahren gegen sie
+      mangels Straftatbestands ein.
+  - id: right-trotskyist-docs-correction-history
+    note: >-
+      Die Einleitung gibt den Befund des KGB von 1956 wieder, wonach der angebliche Block und die organisierte
+      antisowjetische Tätigkeit erfunden waren. Sie nennt zehn Rehabilitierungen vor 1988 und zehn weitere im Jahr 1988.
+      Für Jagoda sei kein Protest eingelegt worden; einen Grund dafür nennt sie nicht.
   - id: right-trotskyist-docs-impact
     note: >-
-      Die Dokumentensammlung enthält Anklage, vollständige Prozessmitschrift, Urteil, Gnadengesuche und NKWD-Berichte zur öffentlichen Reaktion.
+      Die Einleitung dokumentiert Publikation, organisierte Presserezeption, den Kurzen Lehrgang und die schrittweise
+      Rehabilitierung. Das Urteil verzeichnet 21 Angeklagte, 18 Todesurteile und die drei Haftstrafen von 25, 20 und 15 Jahren.
   - id: right-trotskyist-docs-carrier
+    note: >-
+      Die Anklageschrift trägt Wyschinskijs Autorschaft und Stalins Anmerkungen, die Prozessmitschrift ging vor der
+      Publikation zur Bearbeitung an die Parteiführung, und das Militärkollegium erließ das Urteil. Damit sind Partei,
+      Staatsanwaltschaft und Gericht als Träger belegt; die Prozessakte weist die NKWD-Ermittlung als Grundlage aus.
   - id: right-trotskyist-docs-mechanism
     note: >-
-      Die Archivedition dokumentiert den staatlich gesteuerten Prozess samt Anklage, Verhandlung, Urteil und Propagandaumfeld einschließlich Stalins Korrekturen.
-  - id: right-trotskyist-docs-consequences
+      Die Abschnitte dokumentieren die Bearbeitung durch die Partei vor der Publikation und die Umwandlung der Vorwürfe der
+      Staatsanwaltschaft in Urteile des Militärkollegiums. Sie belegen den institutionellen Weg von Ermittlung und Anklage
+      zu Urteil und öffentlicher Verbreitung.
+  - id: right-trotskyist-resolution-mechanism
+    note: >-
+      Der Protest dokumentiert unterdrückte anfängliche Leugnungen, vorgefertigte und veränderte Vernehmungsprotokolle,
+      Drohungen, Täuschung, Gewalt und unbestätigte Geständnisse in den zehn geprüften Fällen. Dieser Befund wird nicht auf
+      sämtliche Angeklagte ausgedehnt.
+  - id: right-trotskyist-docs-sentences
+    note: >-
+      Das Urteil belegt die ersten beiden Folgen: 18 Todesurteile sowie 25 Jahre Haft für Pletnjow, 20 Jahre für Rakowski
+      und 15 Jahre für Bessonow.
+  - id: right-trotskyist-docs-propaganda
+    note: >-
+      Die Herausgeber beschreiben umfangreiche Zeitungsberichte, kollektive Lesungen und Versammlungen. Sie erklären zudem,
+      wie der Kurze Lehrgang vom Oktober 1938 die Moskauer Prozessdarstellung bis Mitte der 1950er-Jahre zur verbindlichen
+      amtlichen Geschichte machte. Dies belegt die dritte und fünfte Folge.
+  - id: right-trotskyist-resolution-coercion
+    note: >-
+      Der Protest belegt die vierte Folge für die untersuchten Fälle, indem er gefälschte Verfahrensakten sowie durch
+      Drohungen, Gewalt und Täuschung erlangte Aussagen dokumentiert.
+  - id: right-trotskyist-docs-rehabilitation
+    note: >-
+      Die Einleitung nennt zehn vor 1988 schrittweise rehabilitierte Angeklagte und zehn weitere, die am 4. Februar 1988
+      rehabilitiert wurden. Damit belegt sie die letzte Folge, ohne die Korrekturen in einem einzigen Ereignis zusammenzufassen.
   - id: right-trotskyist-resolution-institutional-correction
+    note: >-
+      Die veröffentlichte Entscheidung nennt die zehn am 4. Februar 1988 erfassten Angeklagten, hebt ihre Urteile von 1938
+      auf und stellt die Verfahren mangels Straftatbestands ein. Sie belegt die letzte Stufe, nicht die zehn früheren Rehabilitierungen.
+  - id: right-trotskyist-report-context
+    note: >-
+      Der Katalog der Präsidentenbibliothek identifiziert den amtlichen sowjetischen Gerichtsbericht von 1938, das
+      herausgebende Gericht, den Erscheinungsort und die 21 Angeklagten. Die Katalogdaten dienen nur dem bibliografischen
+      Kontext und nicht als Beleg für Einzelheiten der Anklage oder Korrektur.
   - id: right-trotskyist-bukharin-context
     note: >-
-      Die aktuelle russische Fachreferenz verzeichnet Bucharins Verurteilung 1938 und seine Rehabilitierung durch das Plenum am 4. Februar 1988.
+      Das wissenschaftliche Nachschlagewerk verzeichnet Bucharins Verurteilung von 1938 und seine Rehabilitierung durch das
+      Plenum des Obersten Gerichts der UdSSR am 4. Februar 1988. Es bestätigt nur Bucharins Chronologie, nicht die Behandlung
+      sämtlicher 21 Angeklagten.

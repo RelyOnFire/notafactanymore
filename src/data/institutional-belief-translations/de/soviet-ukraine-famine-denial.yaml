@@ -1,30 +1,41 @@
 schemaVersion: 2
 locale: de
 entryId: soviet-ukraine-famine-denial
-sourceReviewedAt: '2026-08-25'
+sourceReviewedAt: '2026-09-24'
 title: Die Massenhungersnot in der Sowjetukraine als antisowjetische Propaganda
 proposition:
   summary: >-
     Sowjetische Institutionen bestritten oder verharmlosten Berichte, wonach die Sowjetukraine 1932–1933 eine
     katastrophale Hungersnot mit massenhaftem Verhungern erlebt habe. Solche Darstellungen wurden als Lügen,
-    Übertreibungen oder antisowjetische Propaganda behandelt, während offene Diskussion unterdrückt und die Krise später
-    vor allem mit Dürre und gewöhnlichen landwirtschaftlichen Schwierigkeiten erklärt wurde.
+    Übertreibungen oder antisowjetische Propaganda behandelt, während eine offene Diskussion unterdrückt und die Krise
+    später vor allem mit Dürre und gewöhnlichen landwirtschaftlichen Schwierigkeiten erklärt wurde.
 correction:
   summary: >-
     In der Sowjetukraine ereignete sich 1932–1933 tatsächlich eine katastrophale Hungersnot, der Millionen Menschen zum
-    Opfer fielen. Zeitgenössische interne sowjetische Akten dokumentierten Hunger, Verhungern, Sterblichkeit und den Bedarf
-    an Lebensmittelhilfe, während die öffentliche Staatsdarstellung die Katastrophe bestritt oder verharmloste.
-    Zwangskollektivierung, gewaltsame Getreidebeschaffung und Konfiskationspolitik gehörten zu den zentralen Ursachen; die
-    Hungersnot lässt sich nicht angemessen als gewöhnliche Folge einer Dürre erklären. Die Genozidfrage ist von dieser Tatsachenkorrektur zu trennen.
+    Opfer fielen. Eine demografische Rekonstruktion schätzt für 1932–1934 3,9 Millionen zusätzliche
+    Todesfälle, den Großteil davon im Jahr 1933. Zeitgenössische interne sowjetische Akten dokumentierten Hunger,
+    Verhungern, Sterblichkeit und den Bedarf an Lebensmittelhilfe, während die öffentliche Staatsdarstellung die
+    Katastrophe bestritt oder verharmloste. Zwangskollektivierung, gewaltsame Getreidebeschaffung, die Konfiskation von
+    Nahrungsmitteln und Einschränkungen der Bewegungsfreiheit gehörten zu den zentralen Ursachen. Ungünstige Witterung mag
+    die Erträge in einigen Gebieten vermindert haben; Ausmaß und geografische Verteilung der Hungersnot lassen sich jedoch
+    nicht angemessen als gewöhnliche Folge einer Dürre erklären. Die Leugnung der Hungersnot als Tatsachenereignis ist von
+    der getrennten juristischen und historischen Debatte über einen Genozidvorsatz zu unterscheiden.
 impact:
   summary: >-
-    Die Leugnung wirkte über Außenpolitik, Botschaftspropaganda, Pressekontrolle, Archivgeheimhaltung und ein
-    geschichtspolitisches Tabu. Sowjetische Diplomaten bezeichneten Berichte als Lügen, während interne Partei- und
-    Sicherheitsakten das Verhungern dokumentierten. Noch im April 1983 veröffentlichte die sowjetische Botschaft in
-    Kanada eine Erklärung über die „sogenannte Hungersnot“, verharmloste die Lage und erklärte Dürre zum Hauptgrund. Am
-    26. Januar 1990 erkannte das Zentralkomitee der Kommunistischen Partei der Ukraine die Hungersnot förmlich an und
-    erklärte, das Thema sei in der sowjetischen Geschichtsschreibung mehr als ein halbes Jahrhundert verschwiegen worden.
+    Der institutionelle Vorgang begann vor dem Sterblichkeitshöhepunkt von 1933. Im Juni 1932 schloss ein Poltawaer
+    Parteigremium ein Mitglied sowohl aus der Partei als auch aus seinem Institut aus, nachdem es von einer Hungersnot in
+    der Ukraine gesprochen hatte. Im Juni 1933 berichtete ein Korrespondent der Polnischen Telegrafenagentur, die
+    Presseabteilung des Narkomindel habe ihm aufgrund einer vertraulichen, für alle Korrespondenten geltenden GPU-Anweisung
+    die Einreise in die Ukraine untersagt. 1934 wiesen sowjetische Diplomaten Berichte über Hungersnot und Massentod
+    zurück. Noch am 28. April 1983 veröffentlichte die sowjetische Botschaft in Kanada eine Erklärung über die „sogenannte
+    Hungersnot“, verharmloste deren Schwere und erklärte Dürre zum Hauptgrund. Am 26. Januar 1990 erkannte das
+    Zentralkomitee der Kommunistischen Partei der Ukraine die Hungersnot förmlich an, verurteilte die dafür
+    verantwortliche Politik, ordnete die Veröffentlichung von Archivakten an und wies die sowjetukrainischen Medien zu
+    wahrheitsgemäßer Berichterstattung an.
   highlights:
+    - value: 3,9 Millionen
+      label: geschätzte zusätzliche Todesfälle in der Sowjetukraine im Untersuchungszeitraum 1932–1934
+      note: Die Schätzung betrifft zusätzliche Todesfälle, nicht den gesamten demografischen Verlust; die meisten traten 1933 ein.
     - value: 50+ Jahre
       label: Zeitraum, für den die KP der Ukraine 1990 das Verschweigen der Hungersnot in der sowjetischen Geschichtsschreibung einräumte
     - value: 28. April 1983
@@ -34,65 +45,146 @@ impact:
   context:
     - >-
       Die öffentliche sowjetische Linie veränderte ihre Form. Frühe diplomatische Antworten wiesen Berichte über
-      Hungersnot und massenhaften Tod als Lügen zurück; 1983 räumte eine Botschaftserklärung ernste landwirtschaftliche
-      Schwierigkeiten ein, bestritt aber die westliche Darstellung einer katastrophalen, politikbedingten Hungersnot.
+      Hungersnot und massenhaften Tod unmittelbar als Lügen zurück. 1983 räumte eine Botschaftserklärung ernste
+      landwirtschaftliche Schwierigkeiten ein, bestritt aber die westliche Darstellung einer katastrophalen,
+      politikbedingten Hungersnot und schrieb der Dürre die Hauptrolle zu. Die sowjetische Wortwahl blieb also nicht sechs
+      Jahrzehnte lang unverändert.
     - >-
       Intern wussten sowjetische Institutionen, dass Hunger und Verhungern auftraten. Geheime GPU-, Partei- und
-      Regierungsakten dokumentierten Nahrungsmangel, Hungersnot, Todesfälle und Hilfsmaßnahmen.
+      Regierungsakten dokumentierten Nahrungsmangel, Hungersnot, Todesfälle und Hilfsmaßnahmen. Der Widerspruch zwischen
+      diesem internen Wissen und der öffentlichen Darstellung ist ein Kern des institutionellen Vorgangs.
     - >-
-      Die Bezeichnung Holodomor ist heute gebräuchlich; die Debatte über Vorsatz und rechtliche Genozid-Einordnung ist von
-      der hier behandelten Tatsachenkorrektur zu unterscheiden.
+      Die Öffnung verlief schrittweise. Laut der 1990 erschienenen Dokumentensammlung wurde in der Sowjetukraine im
+      Dezember 1987 erstmals amtlich eingeräumt, dass in einigen ländlichen Gebieten eine Hungersnot geherrscht hatte. Der
+      Beschluss des Zentralkomitees vom Januar 1990 lieferte die förmliche politische Bewertung, den Publikationsauftrag
+      für die Archivalien und die Medienanweisung, die hier als Endpunkt dienen.
+    - >-
+      Für die ukrainische Hungersnot ist heute die Bezeichnung Holodomor gebräuchlich; zahlreiche Staaten und
+      Wissenschaftler stufen sie als Genozid ein, während Aspekte von Vorsatz und rechtlicher Einordnung weiterhin
+      diskutiert werden. Diese Kontroverse ist von der Tatsachenkorrektur zu trennen: Die sowjetische Leugnung
+      beziehungsweise Verharmlosung des tatsächlichen Ausmaßes einer katastrophalen Hungersnot widerspricht der Quellenlage.
 episodes:
-  - id: soviet-union-1933-1990
+  - id: soviet-union-1932-1990
     polity: Sowjetunion
     institutions:
-      - Volkskommissariat für Auswärtige Angelegenheiten der UdSSR
-      - sowjetischer Diplomatie- und Presseapparat
-      - Kommunistische Partei der Sowjetunion
-      - Kommunistische Partei der Ukraine
+      - Volkskommissariat für Auswärtige Angelegenheiten der UdSSR (Narkomindel)
+      - Pressestellen sowjetischer Botschaften
+      - Kommunistische Allunionspartei (Bolschewiki) / Kommunistische Partei der Sowjetunion
+      - Kommunistische Partei (Bolschewiki) der Ukraine / Kommunistische Partei der Ukraine
+      - sowjetische politische Polizei (GPU/OGPU)
     institutionalContext: >-
-      Als Berichte über die Hungersnot ins Ausland gelangten, beschränkten Außenpolitik und Presseapparat den Zugang zu
-      betroffenen Regionen und wiesen ausländische Darstellungen zurück. Überlieferte Korrespondenz von Anfang 1934 zeigt,
-      wie Außenkommissar Maxim Litwinow eine ukrainische Broschüre als voller Lügen bezeichnete und Botschaftsrat Boris
-      Skwirski Behauptungen über massenhaftes Sterben zurückwies. Noch am 28. April 1983 sprach eine sowjetische
-      Botschaftsmitteilung in Kanada von der „sogenannten Hungersnot“. Am 26. Januar 1990 verabschiedete das ZK der KP der
-      Ukraine einen Beschluss, der die Hungersnot offen anerkannte, das mehr als fünfzigjährige Verschweigen einräumte
-      und die Veröffentlichung neu freigegebener Parteiakten anordnete.
+      Ein nichtöffentlicher Poltawaer Parteibeschluss vom 11. Juni 1932 behandelte die Aussage eines Mitglieds, in der
+      Ukraine herrsche Hungersnot, als partei- und sowjetfeindliche Verleumdung und schloss es aus der Partei und seinem
+      Institut aus. Mit der Verschärfung der Katastrophe wurde auch der Zugang beschränkt: Ein polnischer Korrespondent
+      schrieb am 1. Juni 1933, die Presseabteilung des Narkomindel habe ihm aufgrund einer für alle Korrespondenten
+      geltenden GPU-Anweisung die Einreise in die Ukraine untersagt. Überlieferte sowjetische Korrespondenz von Anfang 1934
+      zeigt, wie Außenkommissar Maxim Litwinow eine ukrainische Broschüre zur Hungersnot als voller Lügen bezeichnete und
+      Botschaftsrat Boris Skwirski die Behauptung einer vorsätzlichen Massentötung für grotesk erklärte, wobei er sich auf
+      Meldungen berief, denen zufolge es keine Hungersnot gegeben habe. Noch am 28. April 1983 sprach eine
+      Pressemitteilung der sowjetischen Botschaft in Kanada von der „sogenannten Hungersnot“, verharmloste deren Schwere
+      und erklärte Dürre zum Hauptgrund. Am 26. Januar 1990 erkannte die KP der Ukraine die Hungersnot förmlich als
+      wirkliche Volkstragödie an, verurteilte die dafür verantwortliche Führungspolitik, ordnete die Veröffentlichung von
+      Archivalien an und wies die republikanischen Medien zu wahrheitsgemäßer Berichterstattung an.
     consequences:
+      - Parteidisziplin und Ausschluss wegen der Benennung von Hungerzuständen in der Ukraine
       - Amtliche diplomatische Leugnung und Verharmlosung von Berichten über massenhaftes Verhungern in der Sowjetukraine
       - Einschränkungen, die unabhängige Berichterstattung ausländischer Korrespondenten aus den Hungergebieten behinderten
       - Langjährige Zensur und Ausschluss der Hungersnot aus der autorisierten sowjetischen Geschichtsdarstellung
       - Archivgeheimhaltung, die interne Dokumentation des Verhungerns von der öffentlichen Darstellung trennte
       - Fortgesetzte sowjetische diplomatische Propaganda zur Verharmlosung der Hungersnot bis in die 1980er Jahre
-      - Verzögerter öffentlicher und wissenschaftlicher Zugang zu den dokumentarischen Belegen der Katastrophe
+      - Verzögerter öffentlicher und wissenschaftlicher Zugang in der Sowjetukraine zu den dokumentarischen Belegen der Katastrophe
     summary: >-
-      Der sowjetische Staat wusste intern von schwerem Hunger und hoher Sterblichkeit, während seine öffentlichen
-      Institutionen eine katastrophale Hungersnot bestritten oder verharmlosten. Im Januar 1990 brach die Kommunistische
-      Partei der Ukraine förmlich mit dieser Doktrin, erkannte die Hungersnot an und räumte das jahrzehntelange Verschweigen ein.
+      Sowjetische Partei-, Sicherheits- und Außenpolitikorgane erzwangen Schweigen, beschränkten den Zugang und bestritten
+      oder verharmlosten eine Katastrophe, die ihre internen Akten dokumentierten. Die öffentliche Formulierung wechselte
+      zwischen direkter Zurückweisung und späterer dürrebezogener Verharmlosung, doch das Tabu bestand bis in die
+      Glasnost-Ära fort. Im Januar 1990 kehrte die Kommunistische Partei der Ukraine die Doktrin förmlich um: Sie erkannte
+      die Hungersnot an, verurteilte die verantwortliche Politik und ordnete die Veröffentlichung von Archivalien sowie
+      wahrheitsgemäße Medienberichterstattung an.
     mechanism:
       summary: >-
-        Sowjetische Diplomatie-, Presse-, Partei- und Archivorgane bestritten oder verharmlosten die Hungersnot öffentlich,
-        beschränkten Berichterstattung und hielten ein historisches Tabu aufrecht, während interne Akten Hunger und Sterblichkeit dokumentierten.
+        Parteisanktionen, vertrauliche Reisebeschränkungen, diplomatische Leugnungen, Botschaftspropaganda, kontrollierte
+        Geschichtsschreibung und Archivgeheimhaltung hielten die Hungersnot aus der autorisierten öffentlichen Darstellung
+        heraus, während interne Akten Verhungern und Sterblichkeit dokumentierten.
     institutionalCorrection:
       periodLabel: 26. Januar 1990
-      action: Das Zentralkomitee der Kommunistischen Partei der Ukraine erkannte die Hungersnot förmlich an und genehmigte die Veröffentlichung freigegebener Archivakten.
+      action: >-
+        Das Zentralkomitee der Kommunistischen Partei der Ukraine erkannte die Hungersnot an, verurteilte die
+        verantwortliche Politik, ordnete die Veröffentlichung von Archivdokumenten an und wies die republikanischen Medien
+        zu wahrheitsgemäßer und objektiver Berichterstattung an.
       summary: >-
-        Eine sowjetische republikanische Parteiinstitution erkannte die Katastrophe ausdrücklich an, räumte ihre
-        jahrzehntelange Unterdrückung in der Historiografie ein und öffnete Dokumente, die der bisherigen öffentlichen Darstellung widersprachen.
+        Dies war eine ausdrückliche institutionelle Umkehr durch die sowjetukrainische republikanische Parteiführung und
+        eine Anweisung zur Änderung der öffentlichen Darstellung. Sie erfolgte nicht als gesonderter Widerruf jeder
+        diplomatischen oder sicherheitsdienstlichen Stelle, die die frühere Linie vertreten oder durchgesetzt hatte.
 evidence:
   - id: famine-denials-proposition
     note: >-
-      Die Primärquellensammlung reproduziert sowjetische diplomatische Leugnungen von 1934 und die Botschaftserklärung von 1983 über die „sogenannte Hungersnot“.
+      Reproduziert Litwinows Beschreibung einer Hungersnotbroschüre als Lügen im Januar 1934, Skwirskis Zurückweisung einer
+      vorsätzlichen Massentötung und seinen Verweis auf Meldungen, es habe keine Hungersnot gegeben, sowie die kanadische
+      Botschaftserklärung von 1983, die die Krise verharmloste und Dürre zum Hauptgrund erklärte.
+  - id: famine-internal-records-correction
+    note: >-
+      Reproduziert Schreiben sowjetukrainischer Führungspersonen vom Juni 1932 über Hungersnot, Verhungern, Konfiskation
+      und Hilfsbedarf sowie GPU- und Parteiberichte vom März 1933 über betroffene Bezirke, Hunger und Todesfälle.
+  - id: famine-demography-correction
+    note: >-
+      Schätzt für 1932–1934 3,9 Millionen zusätzliche Todesfälle und 0,6 Millionen ausgebliebene Geburten, wobei die
+      meisten zusätzlichen Todesfälle 1933 eintraten, und beschreibt Zwangskollektivierung, Konfiskation und
+      Bewegungsbeschränkungen hinter dem Sterblichkeitsmuster.
+  - id: famine-regional-correction
+    note: >-
+      Prüft Umwelterklärungen, statt sie lediglich zurückzuweisen. Die Studie räumt Witterungseinflüsse auf regionale
+      Erträge ein, hält Dürre jedoch für unzureichend zur Erklärung der Verluste und bezieht Lebensmittelkonfiskation,
+      Grenzschließung, Schwarze Listen und ungleich verteilte Hilfe zwingend in die Erklärung ein.
   - id: famine-archives-correction
     note: >-
-      Die amtliche Archivübersicht erklärt, dass Informationen staatlich unterdrückt wurden, während geheime Partei- und Staatsakten Hunger, Sterblichkeit und Entscheidungen dokumentierten.
+      Die amtliche Archivübersicht beschreibt die parteistaatliche Unterdrückung von Informationen und nennt geheime
+      Partei-, Staats- und GPU-Akten, die Nahrungsmangel, Hunger, Sterblichkeit, Hilfsgesuche und Entscheidungen
+      dokumentieren.
+  - id: famine-denials-impact
+    note: >-
+      Dokumentiert den Parteiausschluss von 1932 wegen des Sprechens über die Hungersnot, den Bericht eines Korrespondenten
+      von 1933 über eine allgemeine GPU-gestützte Einreisesperre für die Ukraine, die diplomatischen Leugnungen von 1934
+      und die Botschaftserklärung von 1983.
+  - id: famine-demography-impact
+    note: >-
+      Stützt den hervorgehobenen Schätzwert von 3,9 Millionen zusätzlichen Todesfällen, den Untersuchungszeitraum
+      1932–1934 und die Aussage, dass die meisten direkten Verluste 1933 eintraten. Zusätzliche Todesfälle werden vom
+      höheren Gesamtverlust einschließlich ausgebliebener Geburten unterschieden.
   - id: famine-resolution-impact
+    note: >-
+      Erklärt, dass das Thema in der einheimischen Historiografie mehr als ein halbes Jahrhundert verschwiegen worden war,
+      erkennt die Hungersnot als wirkliche Volkstragödie an und hält Publikationsauftrag und Medienanweisung fest.
   - id: famine-denials-carrier
+    note: >-
+      Benennt ein ukrainisches Parteigremium, die Presseabteilung des Narkomindel, die GPU, den Außenkommissar,
+      Botschaftsrat Boris Skwirski und die Pressestelle der UdSSR-Botschaft in Kanada als konkrete institutionelle Träger.
   - id: famine-denials-mechanism
+    note: >-
+      Zeigt einander ergänzende Mechanismen: Parteiausschluss, beschränkten journalistischen Zugang, unmittelbare
+      diplomatische Zurückweisung von Berichten und spätere Botschaftspropaganda, die Schwierigkeiten einräumte, die
+      Katastrophe aber als Folge von Dürre und Fehlern umdeutete.
+  - id: famine-demography-context
+    note: >-
+      Liefert Größenordnung und zeitlichen Verlauf, vor denen die institutionelle Leugnung wirkte: geschätzte 3,9
+      Millionen zusätzliche Todesfälle im Zeitraum 1932–1934, konzentriert auf 1933, mit relativ weit höheren Verlusten
+      in der ländlichen als in der städtischen Ukraine.
+  - id: famine-regional-context
+    note: >-
+      Stellt die Dürrebehauptung vergleichenden Regionaldaten gegenüber und dokumentiert die zur Erklärung des Musters
+      erforderlichen politischen Maßnahmen, darunter Konfiskation, Schwarze Listen, Grenzschließung und selektive,
+      unzureichende Hilfe.
   - id: famine-archives-consequences
+    note: >-
+      Erklärt, dass Schweigen und Informationsverbot amtliche Parteipolitik waren, die Hungersnot selbst in
+      Parteiberatungen zum geschlossenen Thema machten und detaillierte Belege für Hunger und Todesfälle jahrzehntelang
+      auf geheime Akten beschränkten.
   - id: famine-resolution-correction
     note: >-
-      Der Primärbeschluss vom 26. Januar 1990 erkennt die Hungersnot an, nennt das mehr als fünfzigjährige Verschweigen und verbindet Zwangskollektivierung und zerstörerische Getreidebeschaffung mit der Katastrophe.
+      Der Beschluss vom 26. Januar 1990 erkennt die Hungersnot an, bezeichnet erzwungene und repressive
+      Getreidebeschaffung als unmittelbare Ursache, verurteilt die verantwortliche Führung, ordnet die Dokumentensammlung
+      an und weist die republikanischen Medien zu wahrheitsgemäßer, quellengestützter Berichterstattung an.
   - id: famine-history-context
     note: >-
-      Katalog und Digitalausgabe der 1990 unter dem ZK der KP der Ukraine vorbereiteten Dokumentensammlung.
+      Katalogisiert die 1990 vom Institut für Parteigeschichte beim ZK der KP der Ukraine vorbereitete Sammlung. Deren
+      Einleitung beschreibt das frühere Tabu, die erste amtliche Öffnung im Dezember 1987 und den Beschluss vom Januar
+      1990 zur Veröffentlichung freigegebener Parteiakten.

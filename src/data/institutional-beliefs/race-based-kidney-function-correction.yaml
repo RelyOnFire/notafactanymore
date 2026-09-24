@@ -1,11 +1,50 @@
 schemaVersion: 2
 title: Race-based kidney-function correction
 proposition:
-  summary: Black race was treated as a physiological variable that justified automatically increasing estimated kidney function for Black patients with otherwise identical creatinine-based inputs.
+  summary: >-
+    U.S. kidney-function guidance and laboratory systems treated classification as Black as an input that should raise a
+    creatinine-based estimated glomerular filtration rate (eGFR) relative to otherwise identical inputs. The MDRD and 2009
+    CKD-EPI equations operationalized group-level statistical associations as Black-race multipliers of about 1.20 and 1.16.
 correction:
-  summary: Race is a social rather than biological category and is too imprecise to serve as a blanket physiological correction in kidney-function equations. Current U.S. guidance recommends race-free eGFR equations, with cystatin C or measured GFR used when greater precision is needed.
+  summary: >-
+    Race is a social classification, not a direct physiological measurement, and current NKF-ASN and KDIGO guidance says
+    it should not be used to compute eGFR. The recommended 2021 CKD-EPI creatinine equation was refitted without race rather
+    than created by simply deleting the old multiplier. Every eGFR remains an estimate: combining creatinine with cystatin C
+    is generally more accurate, and measured GFR may be needed when an especially accurate value would change care.
 category: Medicine and clinical algorithms
-reviewedAt: '2026-08-23'
+reviewedAt: '2026-09-24'
+impact:
+  summary: >-
+    For the same age, sex and serum creatinine, the historical equations returned a higher eGFR when a patient was classified
+    as Black. Because eGFR categories and thresholds inform chronic-kidney-disease staging, medication decisions, specialist
+    referral, clinical-trial eligibility and transplant waiting time, that difference could change when a patient crossed a
+    consequential threshold. Much of the task force's pre-implementation evidence about clinical effects came from simulations,
+    and it did not attribute broad racial disparities in kidney care conclusively to the coefficient. A documented direct
+    effect nevertheless appeared in transplantation: OPTN later restored waiting time to registrations for Black candidates
+    who met its criteria for disadvantage from earlier race-inclusive calculations.
+  highlights:
+    - value: 1.20 / 1.16
+      label: Black-race multipliers reported for the MDRD and 2009 CKD-EPI creatinine equations
+      note: The task force reports 1.20 relative to White people for MDRD and 1.16 relative to non-Black people for CKD-EPI; these were group-level regression coefficients.
+    - value: 65.8%
+      label: of 3,542 U.S. respondent laboratories reported adopting the 2021 creatinine equation by March 2023
+      note: This College of American Pathologists questionnaire result describes participating laboratories and reported adoption, not a census of every U.S. laboratory.
+    - value: '14,701'
+      label: OPTN waiting-time modifications processed by 4 January 2024 under the remediation policy
+      note: Modified registrations received a median 1.7 years; the count is a policy outcome, not an estimate of every person affected by race-inclusive eGFR.
+  context:
+    - >-
+      The historical coefficients were derived from average prediction differences in particular study datasets and were
+      intended to improve statistical fit. That empirical origin did not make self-identified race a measurement of an
+      individual patient's muscle mass, creatinine generation, ancestry or kidney physiology.
+    - >-
+      Racial disparities in kidney disease and care predated routine race-inclusive eGFR. The NKF-ASN interim report described
+      those disparities as multifactorial and not conclusively attributable to the coefficient, so replacing the equation is
+      one correction within a much larger equity problem.
+    - >-
+      The 2021 refit changes estimates for both Black and non-Black patients and does not make an individual estimate exact.
+      Near important decision thresholds, guidance favors confirmation with creatinine plus cystatin C or, when necessary,
+      measured GFR rather than treating any single calculated value as ground truth.
 episodes:
   - id: united-states-2002-2021
     polity: United States
@@ -20,25 +59,47 @@ episodes:
     institutions:
       - National Kidney Foundation — Kidney Disease Outcomes Quality Initiative (KDOQI)
       - Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI)
-    institutionalContext: The 1999 MDRD equation introduced a Black race coefficient in the research literature. Institutional adoption is dated here from 2002, when the National Kidney Foundation’s KDOQI guideline recommended the MDRD equation and instructed clinical laboratories to report estimated GFR. CKD-EPI later published another widely adopted race-inclusive equation in 2009. Laboratories and electronic health-record systems implemented these equations across many organizations; that distributed implementation is described as machinery rather than listed as a single institution. In 2021, the joint NKF–ASN task force recommended immediate adoption of a race-free equation.
+      - U.S. clinical laboratories and health systems
+    institutionalContext: >-
+      The 1999 MDRD research equation used self-identified African American race as a predictor and multiplied the resulting
+      estimate by about 1.20 relative to its White comparison group. Institutional adoption is dated here from 2002, when the
+      National Kidney Foundation's KDOQI guideline recommended the MDRD equation for adults, told laboratories to report eGFR
+      and explained race differences through asserted average differences in creatinine generation and muscle mass. The 2009
+      CKD-EPI equation retained a smaller multiplier of about 1.16 relative to its non-Black comparison group. Laboratories and
+      electronic health-record systems then automated the equations across many institutions. In 2021 the joint NKF-ASN task
+      force recommended a newly refitted equation without race; laboratory conversion remained incomplete in a March 2023 survey.
     consequences:
-      - Race-dependent chronic-kidney-disease staging
-      - Potential delay of nephrology and transplant referral
-      - Race-dependent medication and treatment thresholds
-    summary: The MDRD equation published in 1999 included a higher eGFR coefficient for patients classified as Black. In 2002, National Kidney Foundation KDOQI guidelines recommended the MDRD equation for adults and advised clinical laboratories to report equation-based GFR estimates; the 2009 CKD-EPI equation retained a Black race coefficient and became widely used. In 2021, the National Kidney Foundation and American Society of Nephrology recommended immediate adoption of a new race-free equation, concluding that a uniform approach without a race variable was preferable for U.S. clinical care.
+      - Patients with otherwise identical equation inputs received different creatinine-based eGFR values according to Black or non-Black classification
+      - Race-dependent estimates could move patients across thresholds used for CKD staging, medication decisions, specialist referral, clinical trials and transplant evaluation
+      - Most early estimates of downstream effects came from population or institutional simulations rather than observed care after an equation change
+      - Race-inclusive calculation delayed transplant-waiting-time qualification for some Black candidates, later prompting case review and OPTN waiting-time restoration
+      - Transition between equations could itself alter longitudinal eGFR trends and clinical categories even when measured kidney function had not changed
+    summary: >-
+      KDOQI converted the MDRD equation from a research result into a U.S. clinical recommendation in 2002, including routine
+      laboratory reporting. Its rationale treated race as a proxy for average non-GFR determinants of serum creatinine, especially
+      creatinine generation and muscle mass, although the coefficient itself came from regression in selected datasets rather
+      than direct measurement of those traits in each patient. The widely used 2009 CKD-EPI equation retained a Black-race term.
+      In 2021 CKD-EPI evaluated both simple omission of the term and full refitting without race; the NKF-ASN task force selected
+      the refitted equation and also urged wider cystatin C use. OPTN subsequently required race-neutral eGFR for transplant
+      policy and created a process to restore waiting time, while broader laboratory adoption continued unevenly.
     mechanism:
       kind: standard-setting
       summary: >-
-        National Kidney Foundation guidance recommended a race-inclusive equation and routine laboratory reporting of
-        equation-based eGFR, while the later CKD-EPI equation retained a Black race coefficient and spread through
-        laboratory and electronic-health-record implementation.
+        National guidance endorsed race-inclusive equations and routine eGFR reporting; CKD-EPI supplied the later equation;
+        and laboratory and electronic-record systems automatically converted a Black/non-Black classification into different
+        kidney-function estimates used in clinical workflows.
     institutionalCorrection:
-      status: corrected
-      periodLabel: '2021'
-      action: Joint NKF–ASN guidance recommended immediate implementation of a race-free creatinine equation across U.S. laboratories.
+      status: partial
+      periodLabel: 2021 onward
+      action: >-
+        NKF-ASN recommended immediate use of the refitted 2021 race-free equation; implementation guidance followed, and OPTN
+        required race-neutral transplant calculations in 2022 and retrospective waiting-time review in 2023.
       summary: >-
-        In 2021 the National Kidney Foundation and American Society of Nephrology recommended replacing race-inclusive
-        eGFR equations with a uniform race-free approach for U.S. clinical care.
+        Professional guidance removed race from the recommended eGFR calculation, transplant policy prohibited its use and
+        OPTN created a concrete remediation process. The broader correction remained incomplete in the latest national
+        laboratory survey used here: in March 2023,
+        65.8% of 3,542 U.S. respondents reported adopting the 2021 creatinine equation, while 19.0% reported that they had not
+        and 15.1% were unsure.
 sources:
   - id: kdoqi-gfr-guideline
     title: KDOQI Clinical Practice Guidelines — Guideline 4, Estimation of GFR
@@ -52,31 +113,220 @@ sources:
     title: National Kidney Foundation Laboratory Engagement Working Group Recommendations for Implementing the CKD-EPI 2021 Race-Free Equations
     url: https://academic.oup.com/clinchem/article/68/4/511/6463626
     publisher: Clinical Chemistry
+  - id: nkf-asn-interim-2021
+    title: 'Reassessing the Inclusion of Race in Diagnosing Kidney Diseases: An Interim Report From the NKF-ASN Task Force'
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8238889/
+    publisher: American Journal of Kidney Diseases / PubMed Central
+  - id: ckd-epi-2021-race-free
+    title: New Creatinine- and Cystatin C–Based Equations to Estimate GFR without Race
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8822996/
+    publisher: New England Journal of Medicine / PubMed Central
+  - id: kdigo-2024-ckd-guideline
+    title: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease
+    url: https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf
+    publisher: Kidney Disease — Improving Global Outcomes (KDIGO)
+  - id: us-lab-adoption-2023
+    title: Update on Reported Adoption of 2021 CKD-EPI Estimated Glomerular Filtration Rate Equations
+    url: https://academic.oup.com/clinchem/article/69/10/1197/7240172
+    publisher: Clinical Chemistry
+  - id: optn-egfr-wait-time-remediation
+    title: Waiting Time Modifications for Candidates Affected by Race-Inclusive eGFR Calculations
+    url: https://www.hrsa.gov/optn/policies-bylaws/policy-issues/waiting-time-modifications-race-inclusive-egfr-calculations
+    publisher: Organ Procurement and Transplantation Network / Health Resources and Services Administration
+  - id: optn-egfr-remediation-results
+    title: Over 14,700 Waiting Time Modifications Completed for Black Kidney Patients One Year After Policy Implementation
+    url: https://www.hrsa.gov/optn/news-events/news/over-14700-waiting-time-modifications-completed-black-kidney-patients-one-year-after-policy-implementation
+    publisher: Organ Procurement and Transplantation Network / Health Resources and Services Administration
 evidence:
   - id: kidney-kdoqi-proposition
     sourceId: kdoqi-gfr-guideline
     relation: documents
     target: {scope: belief, aspect: proposition}
-    note: Historical 2002 guideline recommending GFR prediction equations that account for race, specifically endorsing the MDRD Study equation for adults, and recommending that clinical laboratories report estimated GFR.
-  - id: kidney-kdoqi-carrier
-    sourceId: kdoqi-gfr-guideline
-    relation: documents
-    target: {scope: episode, episodeId: united-states-2002-2021, aspect: carrier}
-  - id: kidney-kdoqi-mechanism
-    sourceId: kdoqi-gfr-guideline
-    relation: documents
-    target: {scope: episode, episodeId: united-states-2002-2021, aspect: mechanism}
-  - id: kidney-lab-consequences
-    sourceId: nkf-lab-implementation-race-free
+    locator: Guideline 4; Rationale — Prediction Equations Based on Serum Creatinine
+    note: >-
+      The 2002 guideline says GFR equations should account for variables including race, recommends the MDRD equation for
+      adults and explains higher mean creatinine generation in Black than White people through asserted muscle-mass differences.
+  - id: kidney-interim-proposition
+    sourceId: nkf-asn-interim-2021
     relation: supports
-    target: {scope: episode, episodeId: united-states-2002-2021, aspect: consequences}
-    note: Documents widespread U.S. laboratory use of MDRD and CKD-EPI equations containing a Black race coefficient and the rationale and implementation steps for replacing them with race-free equations.
+    target: {scope: belief, aspect: proposition}
+    locator: Race in Estimated GFR Assessment in the United States
+    note: >-
+      Reconstructs the empirical derivation of the self-identified African American term and reports multipliers of 1.20
+      relative to White people in MDRD and 1.16 relative to non-Black people in the 2009 CKD-EPI equation.
+  - id: kidney-inker-correction
+    sourceId: ckd-epi-2021-race-free
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Methods — Development and Validation of New Equations; Results — Description of Current and New Equations
+    note: >-
+      The 2021 equation-development study separately tested simple omission of the old race coefficient and refitting all
+      coefficients without race; the recommended creatinine equation is the refitted model, not the old equation with one term deleted.
+  - id: kidney-kdigo-correction
+    sourceId: kdigo-2024-ckd-guideline
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Chapter 1, Practice Points 1.2.2.1 and 1.2.4.2
+    note: >-
+      Current international guidance says race should be avoided in eGFR computation, favors creatinine-cystatin C estimates
+      when greater accuracy is needed and directs clinicians to measured GFR when an even more accurate assessment would affect care.
   - id: kidney-task-force-correction
     sourceId: nkf-asn-task-force-2021
     relation: supports
     target: {scope: belief, aspect: correction}
-    note: Final 2021 joint NKF-ASN task-force recommendation for immediate implementation of a race-free creatinine equation across U.S. laboratories.
+    locator: Recommendations 1–3 and Implementation
+    note: >-
+      The final joint task-force report recommends immediate U.S. implementation of the refitted race-free creatinine equation
+      and greater routine, timely use of cystatin C, especially for confirmation in clinical decision-making.
+  - id: kidney-optn-impact
+    sourceId: optn-egfr-remediation-results
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: First-year implementation results, data through 4 January 2024
+    note: >-
+      Reports 14,701 processed waiting-time modifications, a median 1.7 years restored to modified registrations and attestations
+      from all 230 active kidney programs; these figures document remediation outcomes rather than every person ever affected.
+  - id: kidney-adoption-impact
+    sourceId: us-lab-adoption-2023
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: Results; Table 1
+    note: >-
+      In the March 2023 CAP questionnaire, 65.8% of 3,542 U.S. respondent laboratories reported adoption, 19.0% reported no
+      adoption and 15.1% were unsure, showing substantial but incomplete conversion in this surveyed laboratory population.
+  - id: kidney-kdoqi-carrier
+    sourceId: kdoqi-gfr-guideline
+    relation: documents
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: carrier}
+    locator: Guideline 4 — Estimation of GFR
+    note: >-
+      Direct National Kidney Foundation guideline showing KDOQI as the recommending institution and the MDRD equation as its
+      preferred adult estimation method.
+  - id: kidney-interim-carrier
+    sourceId: nkf-asn-interim-2021
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: carrier}
+    locator: Evolution of Kidney Function Estimating Equations; Race in Estimated GFR Assessment in the United States
+    note: >-
+      Traces MDRD, CKD-EPI, clinical guidelines and near-universal U.S. laboratory eGFR reporting as the linked research,
+      professional and technical carriers of the race-inclusive calculation.
+  - id: kidney-kdoqi-context
+    sourceId: kdoqi-gfr-guideline
+    relation: documents
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: context}
+    locator: Rationale — Creatinine Metabolism; Prediction Equations Based on Serum Creatinine
+    note: >-
+      Records the contemporary rationale that mean creatinine generation varied by race and its acknowledgement that
+      creatinine equations were estimates with limited precision and exceptions requiring clearance measurement.
+  - id: kidney-interim-context
+    sourceId: nkf-asn-interim-2021
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: context}
+    locator: Probing the Rationale for a Race Coefficient; Disparities in Health and Health Care
+    note: >-
+      Calls the biological rationale for the race coefficient questionable, describes race as social rather than biological
+      and cautions that broad kidney-care disparities predated the coefficients and had not been conclusively attributed to them.
+  - id: kidney-kdoqi-mechanism
+    sourceId: kdoqi-gfr-guideline
+    relation: documents
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: mechanism}
+    locator: Guideline 4 — Estimation of GFR
+    note: >-
+      Recommends routine equation-based estimation and laboratory reporting, the standard-setting step that placed a
+      race-inclusive research equation into ordinary clinical workflows.
+  - id: kidney-lab-mechanism
+    sourceId: nkf-lab-implementation-race-free
+    relation: supports
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: mechanism}
+    locator: Introduction; Recommendations for Implementation
+    note: >-
+      Describes the laboratory information-system changes, reporting conventions and coordination required to replace the
+      older MDRD and 2009 CKD-EPI equations, documenting how the equations were operationalized at scale.
+  - id: kidney-interim-consequences
+    sourceId: nkf-asn-interim-2021
+    relation: supports
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: consequences}
+    locator: Introduction; Probing the Rationale for a Race Coefficient
+    note: >-
+      Identifies eGFR-dependent decisions including medication use and dosing, contrast procedures, nephrology referral and
+      transplant referral while presenting competing concerns about harms from retaining or removing the coefficient.
+  - id: kidney-task-force-consequences
+    sourceId: nkf-asn-task-force-2021
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: consequences}
+    locator: Potential Consequences; Tables 3–5
+    note: >-
+      Explains that most available estimates of threshold effects were simulations rather than observations of clinical
+      practice after implementation and that consequences for care, medications and trial eligibility were complex.
+  - id: kidney-inker-context
+    sourceId: ckd-epi-2021-race-free
+    relation: supports
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: context}
+    locator: Results — Description of Current and New Equations; Table 3; Discussion
+    note: >-
+      Shows that refitting changes estimates for Black and non-Black groups, reports remaining individual-level error and
+      finds the combined creatinine-cystatin C equation more accurate than the creatinine-only alternatives.
   - id: kidney-task-force-institutional-correction
     sourceId: nkf-asn-task-force-2021
     relation: documents
     target: {scope: episode, episodeId: united-states-2002-2021, aspect: institutional-correction}
+    locator: Recommendations 1–3 and Implementation
+    note: >-
+      Documents the 2021 professional reversal: immediate use of the refitted equation without race and a national effort
+      to increase access to cystatin C for confirmation.
+  - id: kidney-lab-institutional-correction
+    sourceId: nkf-lab-implementation-race-free
+    relation: documents
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: institutional-correction}
+    locator: Recommendations for Implementing the CKD-EPI 2021 Race-Free Equations
+    note: >-
+      Converts the task-force recommendation into detailed guidance for clinical laboratories, including simultaneous
+      equation replacement, equation identification and coordination with clinicians and information-system teams.
+  - id: kidney-kdigo-institutional-correction
+    sourceId: kdigo-2024-ckd-guideline
+    relation: documents
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: institutional-correction}
+    locator: Chapter 1, Practice Point 1.2.4.2
+    note: >-
+      Extends the correction beyond the U.S. task force through a current international practice point that says use of
+      race in eGFR computation should be avoided.
+  - id: kidney-adoption-institutional-correction
+    sourceId: us-lab-adoption-2023
+    relation: documents
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: institutional-correction}
+    locator: March 2023 CAP questionnaire; Table 1
+    note: >-
+      Provides the basis for rating correction partial: about two-thirds of U.S. respondent laboratories reported adoption,
+      while the remainder reported non-adoption or uncertainty in this survey.
+  - id: kidney-optn-policy-consequences
+    sourceId: optn-egfr-wait-time-remediation
+    relation: documents
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: consequences}
+    locator: Background
+    note: >-
+      OPTN states that race-inclusive calculations made kidney function appear better for some Black candidates and could
+      delay listing or the date on which transplant waiting time began to accrue.
+  - id: kidney-optn-policy-institutional-correction
+    sourceId: optn-egfr-wait-time-remediation
+    relation: documents
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: institutional-correction}
+    locator: Background; Policy
+    note: >-
+      Documents the 27 July 2022 race-neutral eGFR requirement and the policy effective 5 January 2023 requiring hospitals
+      to review eligible Black candidates and request retrospective waiting-time modifications.
+  - id: kidney-optn-results-consequences
+    sourceId: optn-egfr-remediation-results
+    relation: supports
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: consequences}
+    locator: First-year implementation results, data through 4 January 2024
+    note: >-
+      The number and size of completed modifications provide observed evidence that the earlier equation affected a concrete
+      transplant threshold for qualifying registrations, without establishing the coefficient as the cause of every wider disparity.
+  - id: kidney-optn-results-institutional-correction
+    sourceId: optn-egfr-remediation-results
+    relation: documents
+    target: {scope: episode, episodeId: united-states-2002-2021, aspect: institutional-correction}
+    locator: First-year implementation results, data through 4 January 2024
+    note: >-
+      Reports that all 230 active kidney programs attested to reviewing their lists and that 14,701 waiting-time modifications
+      had been processed, while the remediation pathway remained available for later documentation.

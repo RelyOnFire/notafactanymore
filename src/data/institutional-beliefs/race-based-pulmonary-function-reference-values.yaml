@@ -2,15 +2,58 @@ schemaVersion: 2
 title: Race-based pulmonary-function reference values
 proposition:
   summary: >-
-    Race or ethnicity was treated as a patient characteristic that should determine which reference equations or
-    adjustment factors were used to define expected normal pulmonary-function values.
+    Professional pulmonary-function standards treated race or ethnicity as an input for choosing expected values. They
+    preferred group-specific reference equations and, when those were unavailable, allowed numerical factors that lowered
+    reference values derived from White populations for some patients classified as Black or Asian.
 correction:
   summary: >-
-    Race and ethnicity are social classifications rather than fixed biological variables suitable for blanket
-    physiological correction. Current ATS guidance, endorsed by the ERS, recommends race-neutral average reference
-    equations for pulmonary-function-test interpretation while calling for continued study of the effects of the transition.
+    Race and ethnicity are social classifications, not direct measurements of an individual's lung physiology. Current ATS
+    guidance, endorsed by the ERS, recommends the race-neutral GLI Global average equation for spirometry and rejects race
+    adjustment factors for lung volumes and diffusing capacity. These statistical references remain imperfect: they do not
+    define ideal health or diagnose disease by themselves, and results near thresholds require clinical context, prior tests
+    and other evidence.
 category: Pulmonary medicine and clinical standards
-reviewedAt: '2026-08-26'
+reviewedAt: '2026-09-24'
+impact:
+  summary: >-
+    Reference equations do not alter the air a person exhales; they alter the predicted value, lower limit of normal and
+    severity label against which that measurement is compared. The historical approach could therefore give otherwise
+    identical measurements different interpretations according to racial or ethnic classification. Studies document large
+    reclassification effects when equations change, but reclassification alone does not establish a new diagnosis or prove
+    benefit or harm. Its consequences depend on how clinical, employment, disability, insurance and transplant systems use
+    the resulting thresholds.
+  highlights:
+    - value: ≈12%
+      label: 2005 example reduction for predicted TLC, FEV1 and FVC in Black subjects
+      note: The joint standard presented this as an average adjustment when suitable group-specific equations were unavailable, not as an individual physiological measurement; it gave about 7% for FRC and RV.
+    - value: 12.5 million
+      label: U.S. residents projected to change ventilatory-impairment classification under GLI Global
+      note: A 2024 modeling study projected this among 249 million people aged 6–79 able to produce high-quality spirometry; it was not a count of observed diagnoses or injuries.
+    - value: 54%
+      label: of 66 surveyed pulmonologists reported a race-neutral equation in their PFT laboratory in 2026
+      note: The survey had a 29% response rate and 95% of respondents worked in academic settings, so it documents incomplete transition in this sample rather than national prevalence.
+  context:
+    - >-
+      The 2005 standard preferred race- or ethnicity-specific equations. Its fallback examples reduced White-derived expected
+      TLC, FEV1 and FVC values by about 12% for Black subjects, reduced FRC and RV by about 7%, and used a factor of 0.94 for
+      Asian Americans. A 2014 official ATS occupational standard continued to call correction factors appropriate when a
+      suitable equation was unavailable but changed its Asian-American example to 0.88. These were population-level rules,
+      not measurements of the individual characteristics thought to explain average differences.
+    - >-
+      In one academic-center study, applying GLI Global rather than GLI 2012 to 2,722 Black and 5,709 White patients changed
+      the modeled prevalence of a restrictive pattern from 26.8% to 37.5% in the Black group and from 22.6% to 18.0% in the
+      White group. Those are reinterpretations of recorded tests, not observed changes in lungs, confirmed diagnoses or
+      patient outcomes.
+    - >-
+      A 2024 study projected U.S. changes across disease classification, occupational eligibility, impairment ratings and
+      disability compensation. The race-based and race-neutral equations had similar discrimination for the studied
+      respiratory outcomes while assigning different classifications to millions. The authors stressed that threshold
+      changes can exchange sensitivity and specificity and that their national estimates model potential reclassification,
+      not automatically beneficial or harmful outcomes.
+    - >-
+      Changing equations can create an apparent break in a patient's longitudinal results even when the measured volumes are
+      unchanged. The 2023 statement therefore calls for explicit reporting and education, review of prior measurements and
+      reassessment of policies that turn statistical reference values into hard clinical or administrative thresholds.
 episodes:
   - id: ats-ers-2005-2023
     polity: United States and Europe
@@ -25,36 +68,47 @@ episodes:
     institutions:
       - American Thoracic Society (ATS)
       - European Respiratory Society (ERS)
+      - Global Lung Function Initiative (GLI)
     institutionalContext: >-
-      The joint ATS/ERS 2005 interpretive standard instructed patients to identify their race or ethnic group and
-      recommended race/ethnic-specific reference equations whenever possible, with adjustment factors as a fallback. Such
-      reference values affected whether measured lung function was classified as normal or abnormal. Race-specific
-      interpretation remained part of professional guidance into the early 2020s. In 2023 an official ATS statement,
-      endorsed by the ERS, recommended replacing race- and ethnicity-specific equations with race-neutral average reference
-      equations and urged a wider reassessment of how PFT thresholds are used in clinical, employment and insurance decisions.
+      This episode begins with the joint 2005 ATS/ERS interpretation standard, not with the much older origins of racialized
+      spirometry. The standard instructed patients to identify their race or ethnic group, preferred matching group-specific
+      equations and allowed fixed adjustment factors as a fallback. GLI 2012 then supplied equations labeled Caucasian,
+      African American, North East Asian and South East Asian, plus an averaged “Other” category, and urged widespread
+      implementation in equipment. An official 2014 ATS occupational standard still endorsed group-specific equations or a
+      fallback factor. The 2022 joint standard unequivocally rejected fixed race factors but remained transitional: it
+      recommended GLI equations while saying either a similar ancestral grouping or the whole population might be the relevant
+      comparator depending on context. The explicit recommendation to replace race- and ethnicity-specific interpretation
+      with a race-neutral average equation came in the 2023 ATS statement endorsed by the ERS.
     consequences:
-      - Race-dependent thresholds for classifying pulmonary-function results as normal or abnormal
-      - Potential delayed recognition or lower assessed severity of respiratory impairment for people assigned to groups with lower predicted reference values
-      - Race-dependent effects on decisions involving treatment, disability, employment, insurance and transplant prioritization
-      - Need to revise laboratory reporting systems and clinical interpretation after the 2023 recommendation
+      - Identical measured volumes could receive different predicted values, lower limits of normal and severity scores according to racial or ethnic classification
+      - Race-specific reference values could delay recognition of impairment or access to evaluation and therapy for people compared with a lower expected value
+      - Equation-dependent thresholds affected clinical evaluation, surgery and transplant referral as well as employment, disability and insurance decisions
+      - Switching equations reclassified results in both directions and could change true-positive and false-positive rates without changing the underlying measurement
+      - Laboratories, device software and downstream policies required coordinated changes so longitudinal reports would not imply a physiological change caused only by a new equation
     summary: >-
-      ATS/ERS standards did not merely note population differences; they operationalized race and ethnicity in the reference
-      values used to interpret pulmonary-function tests. The 2005 standard explicitly preferred race/ethnic-specific
-      equations and allowed numerical adjustment factors when such equations were unavailable. In 2023 the ATS, with ERS
-      endorsement, reversed that approach and recommended race-neutral average equations, citing evidence that race-specific
-      interpretation did not provide the assumed clinical advantage and could contribute to inequitable decisions.
+      ATS/ERS guidance operationalized race and ethnicity in pulmonary-function interpretation rather than merely describing
+      population averages. Laboratories used a patient's category to select an equation or adjustment factor, and GLI 2012
+      gave this approach an all-age, multi-group reference system. By 2022 the joint technical standard rejected fixed factors
+      and acknowledged uncertain genetic, social and environmental explanations, yet it did not fully abandon ancestry-linked
+      comparison. The 2023 ATS statement, endorsed by the ERS, supplied the formal reversal and recommended GLI Global while
+      warning that reference equations remain uncertain and that the many threshold-based uses of PFTs also need review.
     mechanism:
       kind: standard-setting
       summary: >-
-        Joint professional standards directed pulmonary-function laboratories and clinicians to use race- or
-        ethnicity-specific reference equations, or numerical adjustment factors, when determining expected normal values.
+        Professional standards told laboratories which reference populations or numerical factors to use; GLI encoded the
+        categories in equations; and manufacturers and laboratory information systems turned the selected category into
+        predicted values, limits of normal and severity classifications on reports.
     institutionalCorrection:
-      status: corrected
-      periodLabel: '2023'
-      action: The ATS issued an official statement, endorsed by the ERS, recommending race-neutral average reference equations instead of race- and ethnicity-specific equations.
+      status: partial
+      periodLabel: 2023 onward
+      action: >-
+        The ATS issued an official statement, endorsed by the ERS, recommending GLI Global for race-neutral spirometry
+        interpretation, rejecting race adjustment factors for other PFTs and calling for review of threshold-based decisions.
       summary: >-
-        The professional bodies reversed the earlier race-based interpretive standard and explicitly recommended a
-        race-neutral framework for pulmonary-function-test interpretation.
+        The professional recommendation was reversed, but correction is incomplete in practice and in the underlying evidence.
+        The 2023 panel emphasized limited data for lung volumes and diffusing capacity, underrepresentation in GLI Global,
+        uncertain effects near decision thresholds and the need to change policies outside PFT laboratories. In a small 2026
+        survey dominated by academic pulmonologists, 54% reported that their laboratory used a race-neutral equation.
 sources:
   - id: pft-2005-standard
     title: Interpretative strategies for lung function tests
@@ -72,45 +126,226 @@ sources:
     title: ATS Publishes Official Statement on Race, Ethnicity and Pulmonary Function Test Interpretation
     url: https://site.thoracic.org/about-us/news/ats-publishes-official-statement-on-race-ethnicity-and-pulmonary-function-test-interpretation
     publisher: American Thoracic Society
+  - id: pft-gli-2012
+    title: 'Multi-ethnic reference values for spirometry for the 3–95-yr age range: the global lung function 2012 equations'
+    url: https://publications.ersnet.org/content/erj/40/6/1324
+    publisher: European Respiratory Journal / ERS Global Lung Function Initiative
+  - id: pft-ats-occupational-2014
+    title: 'Official American Thoracic Society Technical Standards: Spirometry in the Occupational Setting'
+    url: https://academic.oup.com/ajrccm/article/189/8/983/8506256
+    publisher: American Thoracic Society / American Journal of Respiratory and Critical Care Medicine
+  - id: pft-gli-global-2022
+    title: A Race-neutral Approach to the Interpretation of Lung Function Measurements
+    url: https://pubmed.ncbi.nlm.nih.gov/36383197/
+    publisher: American Journal of Respiratory and Critical Care Medicine / PubMed
+  - id: pft-reclassification-2023
+    title: Global, Race-Neutral Reference Equations and Pulmonary Function Test Interpretation
+    url: https://pubmed.ncbi.nlm.nih.gov/37261830/
+    publisher: JAMA Network Open / PubMed
+  - id: pft-implications-2024
+    title: Implications of Race Adjustment in Lung-Function Equations
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11305821/
+    publisher: New England Journal of Medicine / PubMed Central
+  - id: pft-implementation-survey-2026
+    title: 'Current Practices and Preferences Regarding Race and Spirometry Interpretation: A National Survey'
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13418350/
+    publisher: CHEST Pulmonary / PubMed Central
 evidence:
   - id: pft-2005-proposition
     sourceId: pft-2005-standard
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: Reference Equations — General issues, p. 949
     note: >-
-      Joint 2005 interpretive standard instructing patients to identify their race or ethnic group and recommending
-      race/ethnic-specific reference equations whenever possible, with adjustment factors as a fallback.
+      The joint standard directs patients to identify their race or ethnic group, prefers group-specific reference equations
+      and permits published adjustment factors when suitable equations are unavailable.
+  - id: pft-gli-2012-proposition
+    sourceId: pft-gli-2012
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Abstract; Conclusions; Recommendations
+    note: >-
+      The ERS task force derived separate Caucasian, African-American, North East Asian and South East Asian equations and an
+      averaged “Other” equation, then recommended widespread implementation of the reference system.
   - id: pft-2023-correction
     sourceId: pft-2023-statement
     relation: documents
     target: {scope: belief, aspect: correction}
+    locator: Overview; Key Conclusions and Recommendations
     note: >-
-      Official 2023 ATS statement, endorsed by the ERS, recommending replacement of race- and ethnicity-specific equations
-      with race-neutral average reference equations and calling for reassessment of PFT-based clinical, employment and
-      insurance decisions.
+      The official ATS statement describes race as a social construct, recommends race-neutral average reference equations
+      and says results near the lower limit require history, testing, imaging and other clinical evidence.
+  - id: pft-gli-global-correction
+    sourceId: pft-gli-global-2022
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Abstract; Discussion
+    note: >-
+      Derives GLI Global from the original data without requiring race or ethnicity at application, reports wider limits of
+      normal and cautions that any reference equation must be used with symptoms and medical history.
+  - id: pft-reclassification-impact
+    sourceId: pft-reclassification-2023
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: Abstract, Results and Conclusions
+    note: >-
+      Reinterprets 8,431 tests from one academic center and quantifies opposite changes in restrictive-pattern prevalence and
+      severity among Black and White patients; it does not measure diagnoses, treatment changes or outcomes after implementation.
+  - id: pft-implications-impact
+    sourceId: pft-implications-2024
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Abstract; Results; Discussion; Limitations
+    note: >-
+      Projects U.S. clinical, occupational and financial reclassification from multiple cohorts, including 12.5 million
+      ventilatory-impairment classifications, while distinguishing modeled threshold effects from observed patient outcomes.
+  - id: pft-implementation-impact
+    sourceId: pft-implementation-survey-2026
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: Abstract; Current Practices; Discussion and Limitations
+    note: >-
+      Of 66 respondents, 54% reported a race-neutral equation in their laboratory; the 29% response rate and predominantly
+      academic sample sharply limit any inference about national adoption.
   - id: pft-2005-carrier
     sourceId: pft-2005-standard
     relation: documents
     target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: carrier}
+    locator: Title page; Reference Equations — General issues, pp. 948–949
+    note: >-
+      Direct joint ATS/ERS task-force standard identifying the societies that issued the interpretive guidance.
+  - id: pft-gli-2012-carrier
+    sourceId: pft-gli-2012
+    relation: documents
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: carrier}
+    locator: Title and author group; Recommendations
+    note: >-
+      Identifies the ERS Global Lung Function Initiative as the task force that assembled the multi-group equations and urged
+      respiratory societies and device users to implement them.
+  - id: pft-occupational-carrier
+    sourceId: pft-ats-occupational-2014
+    relation: documents
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: carrier}
+    locator: Reference Values for Asian Americans; Recommendation
+    note: >-
+      An official ATS standard showing that race- or ethnicity-specific equations and fallback correction factors remained
+      endorsed in occupational spirometry in 2014.
+  - id: pft-2023-carrier
+    sourceId: pft-2023-statement
+    relation: documents
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: carrier}
+    locator: Footnote on approval and endorsement
+    note: >-
+      Records ATS approval in February 2023 and ERS endorsement in March 2023, establishing the institutional status of the reversal.
   - id: pft-2005-mechanism
     sourceId: pft-2005-standard
     relation: documents
     target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: mechanism}
-  - id: pft-ats-consequences
-    sourceId: pft-ats-summary
+    locator: Reference Equations — General issues, p. 949
+    note: >-
+      Specifies self-identification, selection of a group-specific equation and fallback adjustments of about 12%, 7% or
+      0.94 for named measurements and groups, with the selected factor recorded on the report.
+  - id: pft-gli-2012-mechanism
+    sourceId: pft-gli-2012
+    relation: documents
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: mechanism}
+    locator: Results; Conclusions; Recommendations
+    note: >-
+      Encodes four named racial or geographic groups and an averaged “Other” category in continuous all-age reference equations
+      intended for implementation in spirometry equipment.
+  - id: pft-2022-mechanism
+    sourceId: pft-2022-standard
+    relation: contextualizes
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: mechanism}
+    locator: Table 1; Comparison of measured values to a healthy population
+    note: >-
+      Unequivocally rejects fixed race factors but still says either a similar ancestral grouping or a whole-population
+      comparison may be appropriate, documenting a transitional position before the 2023 recommendation.
+  - id: pft-occupational-mechanism
+    sourceId: pft-ats-occupational-2014
+    relation: documents
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: mechanism}
+    locator: Reference Values for Asian Americans; Recommendation
+    note: >-
+      Prefers population-specific equations but calls a factor an appropriate interim solution and recommends multiplying
+      White FEV1 and FVC reference values by 0.88 for Asian populations in North America.
+  - id: pft-2005-consequences
+    sourceId: pft-2005-standard
     relation: supports
     target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: consequences}
+    locator: Reference Equations — General issues, pp. 949–950
     note: >-
-      ATS summary of the 2023 correction, including the rationale for abandoning race-specific equations and the potential
-      effects of race-based interpretation on diagnosis, treatment and other consequential decisions.
+      Explains that reference choice affects classification against the lower limit of normal and warns that changing equations
+      can alter interpretation, especially for results near an abnormality threshold.
+  - id: pft-2023-consequences
+    sourceId: pft-2023-statement
+    relation: supports
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: consequences}
+    locator: Clinical Implications of Race-Specific Pulmonary Function Prediction Equations; Table 1
+    note: >-
+      Shows how reference choice can cross thresholds used for insurance, ventilatory support, transplant referral and surgery,
+      while discussing potential harms from either retaining or changing the equations.
+  - id: pft-reclassification-consequences
+    sourceId: pft-reclassification-2023
+    relation: supports
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: consequences}
+    locator: Abstract, Results and Conclusions
+    note: >-
+      Documents that changing equations alone altered physiological pattern and severity labels in opposite directions across
+      the two studied groups and calls for further work on effects on diagnosis, referral and treatment.
+  - id: pft-implications-consequences
+    sourceId: pft-implications-2024
+    relation: contextualizes
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: consequences}
+    locator: Abstract; Lung-Transplant Priority; Discussion; Limitations
+    note: >-
+      Finds similar discrimination for studied respiratory outcomes but major modeled differences in threshold-defined
+      classifications, eligibility and payments; limitations include U.S.-only projections and applications a person might never face.
   - id: pft-2022-context
     sourceId: pft-2022-standard
     relation: contextualizes
     target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: context}
+    locator: Table 1; Comparison of measured values to a healthy population
     note: >-
-      2022 joint technical standard documenting the 2005 ATS/ERS framework and the continuing professional-standard
-      context immediately before the 2023 race-neutral recommendation.
+      Contrasts the 2005 preference for group-specific equations with the update's rejection of fixed factors, uncertainty
+      about genetic, social and environmental causes, and continued caution over the appropriate comparison population.
+  - id: pft-2023-context
+    sourceId: pft-2023-statement
+    relation: contextualizes
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: context}
+    locator: History and Methodology of Race-Specific Reference Equations; Key Conclusions and Recommendations
+    note: >-
+      Distinguishes group-specific equations from fixed adjustments, explains GLI Global as a weighted race composite with
+      wider uncertainty and notes that many world populations remain absent from the source data.
+  - id: pft-gli-global-context
+    sourceId: pft-gli-global-2022
+    relation: supports
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: context}
+    locator: Abstract; Discussion
+    note: >-
+      Documents the available race-neutral comparator adopted in 2023: a weighted reanalysis of the GLI 2012 data that omits
+      race at application but has wider normal limits and does not represent every population or ideal individual health.
   - id: pft-2023-institutional-correction
     sourceId: pft-2023-statement
     relation: documents
     target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: institutional-correction}
+    locator: Overview; Key Conclusions and Recommendations; Conclusions
+    note: >-
+      Recommends race-neutral average equations, identifies GLI Global for spirometry, rejects adjustment factors for lung
+      volumes and diffusing capacity and calls for broader review of PFT-based decisions.
+  - id: pft-ats-summary-institutional-correction
+    sourceId: pft-ats-summary
+    relation: documents
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: institutional-correction}
+    locator: Page body, paragraphs on the new recommendation and continued research
+    note: >-
+      The ATS public announcement presents the move to GLI Global as an institutional change, confirms ERS endorsement and
+      emphasizes continuing research and reassessment of threshold-based decisions.
+  - id: pft-implementation-institutional-correction
+    sourceId: pft-implementation-survey-2026
+    relation: documents
+    target: {scope: episode, episodeId: ats-ers-2005-2023, aspect: institutional-correction}
+    locator: Abstract; Current Practices; Discussion and Limitations
+    note: >-
+      Supports a partial rather than complete correction rating: just over half of this small, mostly academic respondent
+      sample reported laboratory use of a race-neutral equation three years after the recommendation.

@@ -12,7 +12,7 @@ correction:
     Poland the following morning, but the invasion had already been planned; Gleiwitz was a manufactured pretext within
     the aggression narrative, not the event that caused the decision to invade.
 category: War, fabricated incidents and state propaganda
-reviewedAt: '2026-08-25'
+reviewedAt: '2026-09-24'
 impact:
   summary: >-
     Gleiwitz illustrates a deliberately manufactured factual episode being fed into state justification for military
@@ -32,10 +32,12 @@ impact:
       Hitler did not name Gleiwitz in his 1 September Reichstag speech. He made the broader claim that Polish regular
       soldiers had fired on German territory and that Germany was returning fire.
     - >-
-      The Reich Security Main Office did not yet formally exist in August 1939; it was created on 27 September 1939.
+      The Reich Security Main Office (RSHA) did not yet formally exist in August 1939; it was created
+      only on 27 September 1939. The strongest primary evidence identifies Heydrich as chief of the Security Police and SD.
     - >-
-      Popular retellings often add details beyond what Naujocks's sworn statement directly establishes; those details
-      are not necessary to demonstrate the staged attack and its propaganda purpose.
+      Popular retellings often add details about Polish uniforms or identify the unconscious man delivered to Naujocks
+      as a particular victim. Those details go beyond what Naujocks's sworn statement directly establishes and are not
+      necessary to demonstrate the staged attack and its propaganda purpose.
 episodes:
   - id: nazi-germany-1939
     polity: Nazi Germany
@@ -52,9 +54,11 @@ episodes:
       Naujocks stated that around 10 August 1939 Heydrich personally ordered him to simulate an attack on the Gleiwitz
       radio station so that the attackers would appear Polish, explaining that practical proof was needed for the foreign
       press and German propaganda. Naujocks went to Gleiwitz with five or six other SD men and carried out the operation
-      on the evening of 31 August. On 1 September, as German forces invaded Poland, Hitler told the Reichstag that Polish
-      regular soldiers had fired on German territory. German Federal Archives material identifies Gleiwitz and other
-      border incidents as Nazi fabrications used as ostensible justification for an invasion that had already been planned.
+      on the evening of 31 August. His team seized the station, used an emergency transmitter for a short Polish-language
+      broadcast, fired pistol shots and left. On 1 September, as German forces invaded Poland, Hitler told the Reichstag
+      that Polish regular soldiers had fired on German territory and presented German military action as a response.
+      German Federal Archives material identifies Gleiwitz and other border incidents as Nazi fabrications used as
+      ostensible justification for an invasion that had already been planned.
     consequences:
       - Creation of fabricated evidence intended for foreign press and German propaganda
       - Incorporation of staged border incidents into the official narrative that Poland had attacked German territory
@@ -62,8 +66,10 @@ episodes:
       - Use of a manufactured incident as one element of the propaganda justification surrounding the invasion of Poland
     summary: >-
       Gleiwitz was not a mistaken border report. Heydrich ordered a German security-service team to create an apparent
-      Polish attack and explicitly linked the operation to press and propaganda needs. The incident furnished apparent
-      evidence for an aggression narrative rather than determining the decision to invade Poland.
+      Polish attack and explicitly linked the operation to press and propaganda needs. The staged broadcast occurred on
+      31 August 1939; the next day Hitler publicly claimed that Polish forces had fired on German territory while Germany
+      invaded Poland. The incident therefore qualifies as institutionally adopted fabrication, but its causal role must
+      remain narrow: it furnished apparent evidence for an aggression narrative rather than determining the invasion.
     mechanism:
       kind: publication
       summary: >-
@@ -72,9 +78,9 @@ episodes:
     institutionalCorrection:
       status: undocumented
       summary: >-
-        Nazi Germany did not institutionally retract the fabricated aggression narrative before the regime's collapse.
-        The operation was later established through sworn testimony and postwar German archival institutions, but those
-        later findings are not treated as a self-correction by the original carrier.
+        The reviewed evidence does not document an institutional retraction by Nazi Germany before the regime's collapse.
+        Sworn postwar testimony and the German Federal Archives later identified the operation as fabricated; those are
+        external findings, not a self-correction by the original carriers.
 sources:
   - id: gleiwitz-naujocks
     title: Affidavit of Alfred Helmut Naujocks — PS-2751
@@ -88,41 +94,128 @@ sources:
     title: The German invasion of Poland in 1939
     url: https://www.bundesarchiv.de/im-archiv-recherchieren/archivgut-recherchieren/nach-themen/der-deutsche-ueberfall-auf-polen-1939/
     publisher: German Federal Archives
+  - id: gleiwitz-rsha
+    title: The Reich Security Main Office (RSHA)
+    url: https://encyclopedia.ushmm.org/content/en/article/reich-security-main-office-rsha
+    publisher: United States Holocaust Memorial Museum
 evidence:
   - id: gleiwitz-naujocks-proposition
     sourceId: gleiwitz-naujocks
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: 'PS-2751, affidavit §§ 2–6, especially §§ 2 and 6 (printed pp. 390–391)'
     note: >-
-      Naujocks's sworn statement says Heydrich personally ordered a simulated Polish attack at Gleiwitz for foreign-press
-      and propaganda purposes and describes the team and staged broadcast.
+      In his sworn statement dated 20 November 1945, Naujocks says Heydrich personally ordered him to simulate a Polish
+      attack at Gleiwitz, make the attackers appear Polish and produce practical evidence for the foreign press and German
+      propaganda. It documents the accusation's manufacture; it does not support the truth of the alleged Polish attack.
   - id: gleiwitz-bundesarchiv-correction
     sourceId: gleiwitz-bundesarchiv
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: '“Einführende Informationen,” second paragraph'
     note: >-
-      The German Federal Archives identifies Gleiwitz and related border incidents as Nazi fabrications and states that
-      the invasion of Poland had already been planned.
+      The German Federal Archives calls Hitler's retaliation claim a lie, identifies Gleiwitz and other border incidents
+      as Nazi fabrications used as pretexts, and states that the invasion of Poland had long been planned.
   - id: gleiwitz-naujocks-impact
     sourceId: gleiwitz-naujocks
     relation: supports
     target: {scope: belief, aspect: impact}
+    locator: 'PS-2751, affidavit §§ 2, 5–6 (printed pp. 390–391)'
+    note: >-
+      The affidavit supports the impact details attributed to Naujocks: five or six accompanying SD men, an operation on
+      the evening before the German attack, a three-to-four-minute Polish-language broadcast, pistol shots and departure.
+  - id: gleiwitz-bundesarchiv-impact
+    sourceId: gleiwitz-bundesarchiv
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: '“Einführende Informationen,” first two paragraphs'
+    note: >-
+      The archive dates the invasion to the morning of 1 September, characterizes Gleiwitz as a fabricated pretext and
+      states that the invasion was already planned. This supports the one-day sequence without treating it as causation.
   - id: gleiwitz-naujocks-carrier
     sourceId: gleiwitz-naujocks
     relation: documents
     target: {scope: episode, episodeId: nazi-germany-1939, aspect: carrier}
+    locator: 'PS-2751, affidavit §§ 1–2 (printed p. 390)'
+    note: >-
+      Naujocks identifies himself as an SD member and Heydrich as chief of the Security Police and SD, then attributes the
+      order and the assignment of five or six SD men directly to Heydrich. The record therefore names the contemporary
+      office rather than the not-yet-created RSHA.
+  - id: gleiwitz-hitler-carrier
+    sourceId: gleiwitz-hitler
+    relation: documents
+    target: {scope: episode, episodeId: nazi-germany-1939, aspect: carrier}
+    locator: 'PS-2322, speech heading and printed p. 1030, paragraph beginning “Last night”'
+    note: >-
+      The public Reichstag address by Hitler as Reich Chancellor supplies direct evidence for the Reich government's role
+      in presenting German military action as a response to alleged Polish fire. The speech does not name Gleiwitz.
   - id: gleiwitz-naujocks-mechanism
     sourceId: gleiwitz-naujocks
     relation: documents
     target: {scope: episode, episodeId: nazi-germany-1939, aspect: mechanism}
+    locator: 'PS-2751, affidavit §§ 2 and 5–6 (printed pp. 390–391)'
+    note: >-
+      The affidavit documents the fabrication side of the mechanism: Heydrich's order, the stated press and propaganda
+      purpose, the seizure of the station, the Polish-language broadcast and the staged gunfire.
+  - id: gleiwitz-hitler-mechanism
+    sourceId: gleiwitz-hitler
+    relation: documents
+    target: {scope: episode, episodeId: nazi-germany-1939, aspect: mechanism}
+    locator: 'PS-2322, printed pp. 1028 and 1030, especially the “Last night” paragraph on p. 1030'
+    note: >-
+      Hitler's speech documents the publication side of the mechanism by turning alleged Polish frontier incidents and
+      gunfire into a public claim of defensive German retaliation. It supports the broader narrative, not a claim that
+      Hitler mentioned Gleiwitz by name.
   - id: gleiwitz-hitler-consequences
     sourceId: gleiwitz-hitler
     relation: documents
     target: {scope: episode, episodeId: nazi-germany-1939, aspect: consequences}
+    locator: 'PS-2322, printed p. 1030, paragraph beginning “Last night”'
     note: >-
       Hitler's 1 September speech publicly asserted that regular Polish soldiers had fired on German territory and
-      presented German action as returning fire.
+      presented German action as returning fire. This directly documents the official defensive-retaliation narrative,
+      while the separate Bundesarchiv source establishes that the claim was false.
+  - id: gleiwitz-bundesarchiv-consequences
+    sourceId: gleiwitz-bundesarchiv
+    relation: supports
+    target: {scope: episode, episodeId: nazi-germany-1939, aspect: consequences}
+    locator: '“Einführende Informationen,” second paragraph'
+    note: >-
+      The archive links the fabricated border incidents, including Gleiwitz, to their use as pretexts for the invasion and
+      contrasts Hitler's public retaliation claim with the longer-standing invasion plan. This supports the causal scope
+      stated in the record: propaganda justification, not the decision to invade.
   - id: gleiwitz-bundesarchiv-context
     sourceId: gleiwitz-bundesarchiv
     relation: contextualizes
     target: {scope: episode, episodeId: nazi-germany-1939, aspect: context}
+    locator: '“Einführende Informationen,” first two paragraphs; “Primäre Überlieferung,” opening paragraph'
+    note: >-
+      The guide dates the opening attack to about 4:47 a.m. on 1 September and identifies the prewar “Case White” planning
+      record. It provides chronology and planning context rather than evidence for Naujocks's detailed operational account.
+  - id: gleiwitz-naujocks-context-limitations
+    sourceId: gleiwitz-naujocks
+    relation: contextualizes
+    target: {scope: episode, episodeId: nazi-germany-1939, aspect: context}
+    locator: 'PS-2751, affidavit §§ 5–6 (printed p. 391)'
+    note: >-
+      For the Gleiwitz operation, Naujocks describes an unconscious, unidentified man in civilian clothes and does not
+      identify him by name. Keeping the record to what the affidavit states avoids importing details from other staged
+      border incidents or later popular retellings.
+  - id: gleiwitz-rsha-context
+    sourceId: gleiwitz-rsha
+    relation: contextualizes
+    target: {scope: episode, episodeId: nazi-germany-1939, aspect: context}
+    locator: 'Opening paragraphs and “Formation of the Reich Security Main Office (RSHA)”'
+    note: >-
+      The US Holocaust Memorial Museum dates the RSHA's creation to 27 September 1939 and explains that it formally linked
+      the Security Police and SD under Heydrich. This supports the record's refusal to retroactively name the RSHA as the
+      August carrier.
+  - id: gleiwitz-bundesarchiv-institutional-correction
+    sourceId: gleiwitz-bundesarchiv
+    relation: contextualizes
+    target: {scope: episode, episodeId: nazi-germany-1939, aspect: institutional-correction}
+    locator: '“Einführende Informationen,” second paragraph'
+    note: >-
+      The Federal Archives' later identification of the lie and fabrication is an external postwar finding. It does not
+      document a retraction by the Nazi institutions that carried the narrative, so the correction status remains
+      “undocumented” rather than converting the archival account into a self-correction.

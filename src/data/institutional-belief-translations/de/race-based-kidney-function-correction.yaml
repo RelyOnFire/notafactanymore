@@ -1,45 +1,195 @@
 schemaVersion: 2
 locale: de
 entryId: race-based-kidney-function-correction
-sourceReviewedAt: '2026-08-23'
+sourceReviewedAt: '2026-09-24'
 title: „Rassenkorrektur“ der Nierenfunktion
 proposition:
-  summary: Die Einstufung als schwarz wurde als physiologische Variable behandelt, die bei ansonsten gleichen kreatininbasierten Ausgangswerten automatisch zu einer höheren geschätzten Nierenfunktion führen sollte.
+  summary: >-
+    US-amerikanische Leitlinien und Laborsysteme behandelten die Einstufung als Schwarz als Eingangsgröße, die eine
+    kreatininbasierte geschätzte glomeruläre Filtrationsrate (eGFR) gegenüber ansonsten gleichen Werten erhöhen sollte.
+    Die MDRD- und die CKD-EPI-Gleichung von 2009 setzten statistische Gruppenunterschiede als Multiplikatoren von ungefähr
+    1,20 beziehungsweise 1,16 für als Schwarz eingestufte Menschen um.
 correction:
-  summary: „Rasse“ ist eine soziale und keine biologische Kategorie und zu ungenau, um als pauschaler physiologischer Korrekturfaktor in Gleichungen zur Nierenfunktion zu dienen. Aktuelle US-Empfehlungen verwenden rassenunabhängige eGFR-Gleichungen und greifen bei Bedarf an höherer Genauigkeit auf Cystatin C oder eine direkte GFR-Messung zurück.
+  summary: >-
+    „Rasse“ ist eine soziale Klassifikation und keine direkte physiologische Messgröße. Aktuelle Empfehlungen von NKF-ASN
+    und KDIGO lehnen ihre Verwendung zur Berechnung der eGFR ab. Die empfohlene CKD-EPI-Kreatinin-Gleichung von 2021 wurde
+    ohne „Rasse“ neu angepasst; sie entstand nicht durch bloßes Streichen des alten Multiplikators. Jede eGFR bleibt eine
+    Schätzung: Die Kombination von Kreatinin und Cystatin C ist im Allgemeinen genauer, und bei besonders folgenreichen
+    Entscheidungen kann eine gemessene GFR erforderlich sein.
+impact:
+  summary: >-
+    Bei gleichem Alter, Geschlecht und Serumkreatinin ergaben die historischen Gleichungen eine höhere eGFR, wenn ein Mensch
+    als Schwarz eingestuft wurde. Da eGFR-Kategorien und Schwellenwerte die Stadieneinteilung chronischer Nierenerkrankungen,
+    Medikamentenentscheidungen, fachärztliche Überweisungen, die Teilnahme an klinischen Studien und Transplantationswartezeit
+    beeinflussen, konnte dieser Unterschied darüber entscheiden, wann eine Schwelle überschritten wurde. Ein großer Teil der
+    vor Einführung untersuchten klinischen Folgen beruhte auf Simulationen; die NKF-ASN-Arbeitsgruppe führte umfassende
+    Ungleichheiten zwischen rassifizierten Gruppen in der Nierenversorgung nicht abschließend auf den Koeffizienten zurück. Eine direkte Wirkung
+    ist dennoch für die Transplantation dokumentiert: OPTN schrieb später Registrierungen Schwarzer Kandidatinnen und Kandidaten,
+    die seine Kriterien für eine Benachteiligung erfüllten, zusätzliche Wartezeit gut.
+  highlights:
+    - value: 1,20 / 1,16
+      label: Multiplikatoren für als Schwarz eingestufte Menschen in den Kreatinin-Gleichungen MDRD und CKD-EPI 2009
+      note: Die Arbeitsgruppe nennt für MDRD 1,20 gegenüber Weißen und für CKD-EPI 1,16 gegenüber Nicht-Schwarzen; es handelte sich um Regressionskoeffizienten auf Gruppenebene.
+    - value: 65,8 %
+      label: von 3.542 befragten US-Laboren meldeten bis März 2023 die Einführung der Kreatinin-Gleichung von 2021
+      note: Das Ergebnis des CAP-Fragebogens beschreibt teilnehmende Labore und gemeldete Einführung, keine Vollerhebung aller US-Labore.
+    - value: '14.701'
+      label: bis 4. Januar 2024 im OPTN-Ausgleichsverfahren bearbeitete Änderungen der Wartezeit
+      note: Geänderten Registrierungen wurden im Median 1,7 Jahre gutgeschrieben; die Zahl ist ein Verfahrensergebnis und keine Schätzung aller durch rassenabhängige eGFR betroffenen Menschen.
+  context:
+    - >-
+      Die historischen Koeffizienten stammten aus durchschnittlichen Vorhersageunterschieden bestimmter Studiendatensätze
+      und sollten die statistische Anpassung verbessern. Dieser empirische Ursprung machte die selbst angegebene „Rasse“
+      nicht zu einer Messung von Muskelmasse, Kreatininbildung, Abstammung oder Nierenphysiologie einer einzelnen Person.
+    - >-
+      Ungleichheiten zwischen rassifizierten Gruppen bei Nierenerkrankungen und ihrer Versorgung bestanden schon vor der routinemäßigen
+      rassenabhängigen eGFR. Der NKF-ASN-Zwischenbericht beschreibt sie als multifaktoriell und nicht abschließend dem
+      Koeffizienten zurechenbar. Der Gleichungswechsel ist daher eine Korrektur innerhalb eines sehr viel größeren Problems.
+    - >-
+      Die Neuanpassung von 2021 verändert Schätzwerte für Schwarze und nicht-Schwarze Menschen und macht den Einzelwert
+      nicht exakt. In der Nähe wichtiger Entscheidungsschwellen empfehlen Leitlinien eine Bestätigung mit Kreatinin plus
+      Cystatin C oder nötigenfalls eine gemessene GFR, statt einen einzelnen Rechenwert als sicheren Befund zu behandeln.
 episodes:
   - id: united-states-2002-2021
     polity: Vereinigte Staaten
+    periodLabel: 2002–2021
     institutions:
       - National Kidney Foundation — Kidney Disease Outcomes Quality Initiative (KDOQI)
       - Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI)
-    institutionalContext: Die 1999 veröffentlichte MDRD-Gleichung führte einen Korrekturfaktor für als schwarz klassifizierte Patienten in die Forschungsliteratur ein. Der institutionelle Beginn wird hier auf 2002 datiert, als die KDOQI-Leitlinie der National Kidney Foundation die MDRD-Gleichung empfahl und klinische Labore zur Angabe einer geschätzten GFR anhielt. CKD-EPI veröffentlichte 2009 eine weitere weit verbreitete Gleichung mit „Rassen“-Koeffizient. Die verteilte Umsetzung in Laboren und elektronischen Gesundheitssystemen wird als institutioneller Apparat beschrieben und nicht als einzelne Institution ausgegeben. 2021 empfahl die gemeinsame NKF-ASN-Arbeitsgruppe die sofortige Umstellung auf eine rassenunabhängige Gleichung.
-    summary: Die 1999 veröffentlichte MDRD-Gleichung enthielt einen höheren eGFR-Koeffizienten für als schwarz klassifizierte Patienten. 2002 empfahlen die KDOQI-Leitlinien der National Kidney Foundation die MDRD-Gleichung für Erwachsene und die routinemäßige Angabe geschätzter GFR-Werte durch klinische Labore; die 2009 veröffentlichte CKD-EPI-Gleichung behielt einen „Rassen“-Koeffizienten bei und wurde breit eingesetzt. 2021 empfahlen National Kidney Foundation und American Society of Nephrology die sofortige Umstellung auf eine neue rassenunabhängige Gleichung.
+      - US-amerikanische klinische Labore und Gesundheitssysteme
+    institutionalContext: >-
+      Die 1999 veröffentlichte MDRD-Forschungsgleichung verwendete die selbst angegebene Einstufung als „African American“ als
+      Prädiktor und multiplizierte den Schätzwert gegenüber ihrer weißen Vergleichsgruppe mit ungefähr 1,20. Der institutionelle
+      Zeitraum beginnt hier 2002: Damals empfahl die KDOQI-Leitlinie der National Kidney Foundation die MDRD-Gleichung für
+      Erwachsene, forderte Labore zur Angabe der eGFR auf und erklärte die „Rassen“-Unterschiede mit behaupteten durchschnittlichen
+      Unterschieden in Kreatininbildung und Muskelmasse. Die CKD-EPI-Gleichung von 2009 behielt gegenüber ihrer nicht-Schwarzen
+      Vergleichsgruppe einen kleineren Multiplikator von ungefähr 1,16 bei. Labore und elektronische Gesundheitssysteme
+      automatisierten diese Gleichungen institutionsübergreifend. 2021 empfahl die gemeinsame NKF-ASN-Arbeitsgruppe eine ohne
+      „Rasse“ neu angepasste Gleichung; in einer Erhebung vom März 2023 war die Umstellung der Labore noch unvollständig.
     consequences:
-      - Rassenabhängige Einstufung chronischer Nierenerkrankungen
-      - Mögliche Verzögerung nephrologischer Betreuung und Transplantationsüberweisung
-      - Rassenabhängige Schwellenwerte für Medikamente und Behandlungen
+      - Bei ansonsten gleichen Eingangsgrößen erhielten Menschen je nach Einstufung als Schwarz oder nicht-Schwarz unterschiedliche kreatininbasierte eGFR-Werte
+      - Rassenabhängige Schätzwerte konnten Schwellen für CKD-Stadien, Medikamente, Fachüberweisung, klinische Studien und Transplantationsabklärung verschieben
+      - Die meisten frühen Schätzungen der Folgeeffekte beruhten auf Simulationen in Populationen oder Institutionen und nicht auf beobachteter Versorgung nach einem Gleichungswechsel
+      - Rassenabhängige Berechnung verzögerte bei manchen Schwarzen Kandidatinnen und Kandidaten den Beginn anrechenbarer Transplantationswartezeit und führte später zu Einzelfallprüfung und Gutschriften durch OPTN
+      - Der Wechsel zwischen Gleichungen konnte Längsverläufe und klinische Kategorien verändern, obwohl sich die gemessene Nierenfunktion nicht geändert hatte
+    summary: >-
+      KDOQI machte die MDRD-Gleichung 2002 von einem Forschungsergebnis zu einer US-amerikanischen klinischen Empfehlung,
+      einschließlich routinemäßiger Laborangabe. Die Begründung behandelte „Rasse“ als Ersatzgröße für durchschnittliche,
+      nicht durch die GFR bedingte Einflüsse auf Serumkreatinin, besonders Kreatininbildung und Muskelmasse. Der Koeffizient
+      selbst stammte jedoch aus einer Regression in ausgewählten Datensätzen und nicht aus der Messung dieser Merkmale bei
+      jeder Person. Die breit eingesetzte CKD-EPI-Gleichung von 2009 behielt einen „Rassen“-Term bei. 2021 prüfte CKD-EPI
+      sowohl das bloße Weglassen als auch eine vollständige Neuanpassung ohne „Rasse“; die NKF-ASN-Arbeitsgruppe wählte die
+      neu angepasste Gleichung und forderte zugleich einen breiteren Einsatz von Cystatin C. OPTN verlangte anschließend
+      eine rassenneutrale eGFR in der Transplantationspolitik und schuf ein Verfahren zur Gutschrift von Wartezeit, während
+      die allgemeine Umstellung der Labore uneinheitlich fortschritt.
     mechanism:
       summary: >-
-        Leitlinien der National Kidney Foundation empfahlen eine rassenabhängige Gleichung und die routinemäßige Laborangabe der eGFR; die spätere CKD-EPI-Gleichung behielt den Koeffizienten bei und verbreitete sich über Labore und elektronische Gesundheitssysteme.
+        Nationale Leitlinien empfahlen rassenabhängige Gleichungen und die routinemäßige Angabe der eGFR; CKD-EPI lieferte
+        die spätere Gleichung; Labor- und elektronische Gesundheitssysteme verwandelten die Einstufung als Schwarz oder
+        nicht-Schwarz automatisch in unterschiedliche Nierenfunktionsschätzungen für klinische Arbeitsabläufe.
     institutionalCorrection:
-      periodLabel: '2021'
-      action: Die gemeinsame NKF-ASN-Arbeitsgruppe empfahl die sofortige Einführung einer rassenunabhängigen Kreatinin-Gleichung in US-Laboren.
+      periodLabel: ab 2021
+      action: >-
+        NKF-ASN empfahl die sofortige Verwendung der ohne „Rasse“ neu angepassten Gleichung von 2021; Umsetzungshinweise
+        folgten, und OPTN verlangte 2022 rassenneutrale Transplantationsberechnungen sowie 2023 die rückwirkende Prüfung der Wartezeit.
       summary: >-
-        2021 empfahlen National Kidney Foundation und American Society of Nephrology, rassenabhängige eGFR-Gleichungen durch einen einheitlichen rassenunabhängigen Ansatz zu ersetzen.
+        Fachliche Leitlinien entfernten „Rasse“ aus der empfohlenen eGFR-Berechnung, Transplantationsregeln untersagten ihre
+        Verwendung, und OPTN schuf ein konkretes Ausgleichsverfahren. Die breitere Korrektur war in der hier verwendeten jüngsten nationalen Laborerhebung noch
+        unvollständig: Im März 2023 meldeten 65,8 % von 3.542 US-Befragten die Einführung der Kreatinin-Gleichung von 2021;
+        19,0 % verneinten sie und 15,1 % waren unsicher.
 evidence:
   - id: kidney-kdoqi-proposition
     note: >-
-      Historische KDOQI-Leitlinie von 2002, die GFR-Schätzgleichungen unter Einbeziehung von „Rasse“ empfiehlt, insbesondere
-      die MDRD-Studiengleichung für Erwachsene, und klinischen Laboren die routinemäßige Angabe der geschätzten GFR nahelegt.
-  - id: kidney-kdoqi-carrier
-  - id: kidney-kdoqi-mechanism
-  - id: kidney-lab-consequences
+      Die Leitlinie von 2002 verlangt, bei GFR-Schätzgleichungen unter anderem „Rasse“ zu berücksichtigen, empfiehlt die
+      MDRD-Gleichung für Erwachsene und erklärt eine im Mittel höhere Kreatininbildung Schwarzer gegenüber weißen Menschen mit Muskelmasse.
+  - id: kidney-interim-proposition
     note: >-
-      Dokumentiert die breite Verwendung von MDRD- und CKD-EPI-Gleichungen mit einem Koeffizienten für als schwarz
-      klassifizierte Patienten in US-Laboren sowie Begründung und Umsetzungsschritte für ihre Ablösung durch rassenunabhängige Gleichungen.
+      Rekonstruiert die empirische Ableitung des Terms für die selbst angegebene Einstufung als „African American“ und nennt
+      Multiplikatoren von 1,20 gegenüber Weißen bei MDRD und 1,16 gegenüber Nicht-Schwarzen bei CKD-EPI 2009.
+  - id: kidney-inker-correction
+    note: >-
+      Die Gleichungsstudie von 2021 prüfte getrennt das bloße Weglassen des alten Koeffizienten und die Neuanpassung aller
+      Koeffizienten ohne „Rasse“; empfohlen wurde das neu angepasste Modell und nicht die alte Gleichung ohne einen einzelnen Term.
+  - id: kidney-kdigo-correction
+    note: >-
+      Aktuelle internationale Leitlinien lehnen „Rasse“ in der eGFR-Berechnung ab, bevorzugen bei höherem Genauigkeitsbedarf
+      Schätzungen aus Kreatinin und Cystatin C und verweisen bei besonders folgenreichen Entscheidungen auf eine gemessene GFR.
   - id: kidney-task-force-correction
     note: >-
-      Abschließende gemeinsame Empfehlung der NKF-ASN-Arbeitsgruppe von 2021 zur sofortigen Einführung einer
-      rassenunabhängigen Kreatinin-Gleichung in US-Laboren.
+      Der Abschlussbericht der gemeinsamen Arbeitsgruppe empfiehlt die sofortige US-weite Einführung der ohne „Rasse“ neu
+      angepassten Kreatinin-Gleichung sowie häufigere und zeitnahe Cystatin-C-Messungen, besonders zur Bestätigung klinischer Entscheidungen.
+  - id: kidney-optn-impact
+    note: >-
+      Meldet 14.701 bearbeitete Änderungen, im Median 1,7 gutgeschriebene Jahre je geänderter Registrierung und Bestätigungen
+      aller 230 aktiven Nierenprogramme; die Zahlen belegen Ausgleichsergebnisse und nicht alle jemals betroffenen Personen.
+  - id: kidney-adoption-impact
+    note: >-
+      Im CAP-Fragebogen vom März 2023 meldeten 65,8 % von 3.542 US-Laboren eine Einführung, 19,0 % keine Einführung und 15,1 %
+      Unsicherheit. Das zeigt eine erhebliche, aber unvollständige Umstellung in dieser befragten Laborpopulation.
+  - id: kidney-kdoqi-carrier
+    note: >-
+      Direkte Leitlinie der National Kidney Foundation, die KDOQI als empfehlende Institution und die MDRD-Gleichung als bevorzugte Schätzmethode für Erwachsene ausweist.
+  - id: kidney-interim-carrier
+    note: >-
+      Verbindet MDRD, CKD-EPI, klinische Leitlinien und die nahezu flächendeckende eGFR-Angabe durch US-Labore als wissenschaftliche,
+      fachliche und technische Träger der rassenabhängigen Berechnung.
+  - id: kidney-kdoqi-context
+    note: >-
+      Dokumentiert die damalige Begründung, wonach sich die mittlere Kreatininbildung nach „Rasse“ unterscheide, sowie den
+      Hinweis, dass Kreatinin-Gleichungen begrenzt genaue Schätzungen mit Ausnahmen waren, die eine Clearance-Messung erforderten.
+  - id: kidney-interim-context
+    note: >-
+      Bezeichnet die biologische Begründung des Koeffizienten als fragwürdig, beschreibt „Rasse“ als soziale statt biologische
+      Kategorie und warnt, dass umfassende Versorgungsungleichheiten früher bestanden und nicht abschließend dem Koeffizienten zugerechnet waren.
+  - id: kidney-kdoqi-mechanism
+    note: >-
+      Empfiehlt routinemäßige gleichungsbasierte Schätzung und Laborangabe und dokumentiert so den Standardisierungsschritt,
+      durch den eine rassenabhängige Forschungsgleichung in alltägliche klinische Abläufe gelangte.
+  - id: kidney-lab-mechanism
+    note: >-
+      Beschreibt Änderungen an Laborinformationssystemen, Berichtsregeln und Abstimmungsschritte zur Ablösung älterer MDRD-
+      und CKD-EPI-Gleichungen und belegt damit ihre technische Umsetzung im großen Maßstab.
+  - id: kidney-interim-consequences
+    note: >-
+      Nennt eGFR-abhängige Entscheidungen zu Medikamenteneinsatz und Dosierung, Kontrastmittelverfahren, nephrologischer
+      Überweisung und Transplantationsüberweisung und stellt gegensätzliche Bedenken zu Beibehaltung und Entfernung gegenüber.
+  - id: kidney-task-force-consequences
+    note: >-
+      Erläutert, dass die meisten verfügbaren Schätzungen zu Schwellenwerteffekten Simulationen und keine Beobachtungen nach
+      der praktischen Umstellung waren und dass Folgen für Versorgung, Medikamente und Studienteilnahme komplex ausfielen.
+  - id: kidney-inker-context
+    note: >-
+      Zeigt, dass die Neuanpassung Werte Schwarzer und nicht-Schwarzer Gruppen verändert, dokumentiert verbleibende Fehler auf
+      Individualebene und findet für die kombinierte Kreatinin-Cystatin-C-Gleichung eine höhere Genauigkeit als für reine Kreatininmodelle.
   - id: kidney-task-force-institutional-correction
+    note: >-
+      Dokumentiert die fachliche Umkehr von 2021: sofortige Verwendung der ohne „Rasse“ neu angepassten Gleichung und eine
+      nationale Initiative für besseren Zugang zu Cystatin C als Bestätigungstest.
+  - id: kidney-lab-institutional-correction
+    note: >-
+      Übersetzt die Empfehlung in konkrete Laborpraxis, darunter gleichzeitiger Gleichungswechsel, Kennzeichnung der verwendeten
+      Gleichung und Abstimmung mit klinischen sowie informationstechnischen Teams.
+  - id: kidney-kdigo-institutional-correction
+    note: >-
+      Erweitert die Korrektur über die US-Arbeitsgruppe hinaus durch einen aktuellen internationalen Praxispunkt, der von „Rasse“
+      in der eGFR-Berechnung abrät.
+  - id: kidney-adoption-institutional-correction
+    note: >-
+      Begründet die Einstufung als teilweise korrigiert: Rund zwei Drittel der befragten US-Labore meldeten die Einführung,
+      während die übrigen eine Nichteinführung oder Unsicherheit angaben.
+  - id: kidney-optn-policy-consequences
+    note: >-
+      OPTN hält fest, dass rassenabhängige Berechnungen die Nierenfunktion mancher Schwarzer Kandidatinnen und Kandidaten besser
+      erscheinen ließen und die Aufnahme auf die Warteliste oder den Beginn der anrechenbaren Wartezeit verzögern konnten.
+  - id: kidney-optn-policy-institutional-correction
+    note: >-
+      Dokumentiert die seit 27. Juli 2022 geltende Pflicht zu rassenneutraler eGFR und die am 5. Januar 2023 wirksam gewordene
+      Regel, nach der Kliniken geeignete Schwarze Kandidatinnen und Kandidaten prüfen und rückwirkende Wartezeitänderungen beantragen mussten.
+  - id: kidney-optn-results-consequences
+    note: >-
+      Anzahl und Umfang der Änderungen belegen beobachtete Auswirkungen der früheren Gleichung auf eine konkrete Schwelle der
+      Transplantationsregistrierung, ohne den Koeffizienten zur Ursache sämtlicher weiter reichender Ungleichheiten zu erklären.
+  - id: kidney-optn-results-institutional-correction
+    note: >-
+      Meldet, dass alle 230 aktiven Nierenprogramme die Listenprüfung bestätigten und 14.701 Wartezeitänderungen bearbeitet waren,
+      während das Ausgleichsverfahren für später eingereichte Nachweise offen blieb.

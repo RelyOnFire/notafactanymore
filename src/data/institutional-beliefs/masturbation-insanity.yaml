@@ -1,75 +1,89 @@
 schemaVersion: 2
-title: Masturbation as causing or worsening insanity
+title: Masturbation as a cause or aggravating factor in insanity
 proposition:
   summary: >-
-    Masturbation was treated as a cause or aggravating factor in mental illness strongly enough for psychiatric
-    institutions to classify it etiologically and, in some cases, physically prevent patients from engaging in it.
+    At Ontario's London Asylum for the Insane in 1877, medical superintendent R. M. Bucke treated masturbation as
+    capable, in selected patients, of helping to bring on an attack of insanity or aggravating an illness caused by
+    something else. Although he classified other cases as symptoms only and doubted that masturbation was ever the
+    sole cause, he acted on the causal category through genital wiring and circumcision.
 correction:
   summary: >-
-    Masturbation is a normal sexual behavior and is not a cause of insanity or mental disorder. Sexual or masturbatory
-    behavior can occur alongside psychiatric illness or become compulsive, but observing it in a patient does not
-    establish that it caused or worsened the underlying disorder.
+    Contemporary clinical standards recognize masturbation as normal sexual activity and do not classify it as a
+    cause of mental disorder. ICD-11 defines compulsive sexual behaviour disorder by persistent failure to control
+    repetitive sexual impulses or behaviour that causes marked distress or impairment; high sexual interest or
+    distress based only on moral disapproval does not qualify. Sexual behaviour that occurs with another condition
+    is not evidence that it caused that condition.
 category: Psychiatry and sexuality
-reviewedAt: '2026-08-24'
+reviewedAt: '2026-09-24'
 impact:
   summary: >-
-    In 1877 the provincial London Asylum for the Insane in Ontario acted directly on the belief that masturbation
-    could precipitate attacks or aggravate insanity. Superintendent R. M. Bucke used genital “wiring” on 15 male
-    patients to make masturbation difficult or painful. The intervention failed and was discontinued.
+    Bucke's 1877 official report documented genital wiring in 15 male patients. In several cases, inflammation and
+    swelling forced removal and later replacement of the wire; some patients received more than one wire and had
+    their hands restrained in a muff. Four patients were also circumcised in an attempt to arrest or reduce
+    masturbation. All four resumed after healing, and none showed even temporary mental improvement. A later
+    historical review found that wiring failed to arrest the behaviour in 7 of the 15 cases and was not continued.
   highlights:
-    - value: '1877'
-      label: London Asylum carried out the documented anti-masturbation intervention
     - value: '15'
-      label: male patients subjected to genital wiring in the asylum
+      label: male patients subjected to genital wiring
+    - value: '4'
+      label: patients circumcised; all resumed masturbation after healing
+    - value: 7 of 15
+      label: cases in which wiring did not arrest the behaviour
   context:
     - >-
-      Bucke's position was narrower than the blanket slogan “all masturbation causes insanity.” Contemporary historical
-      reconstruction of his official report shows that he treated masturbation as capable of precipitating an attack
-      or aggravating existing insanity. His position therefore included both causing and worsening mental illness.
+      Bucke did not claim that every instance of masturbation caused insanity. He distinguished three possibilities:
+      it could contribute to an attack in a predisposed person, aggravate an illness with another cause, or be only a
+      symptom. The interventions were directed at patients whom he placed in the first two categories.
     - >-
-      The figure of 15 refers to patients. Some biographical accounts count 21 procedures, but that does not mean
-      21 separate patients.
+      Bucke selected the cases himself and interpreted changes recorded after treatment as evidence of a connection.
+      The resulting uncontrolled table cannot determine whether masturbation caused mental illness or whether any
+      mental change resulted from suppressing it.
+    - >-
+      “Insanity” is retained here as the historical term used in the report. It covered varied conditions and does not
+      map to a single modern diagnosis.
 episodes:
   - id: canada-ontario-1877
     polity: Canada — Ontario
     region: North America
     startYear: 1877
     endYear: 1877
-    periodLabel: '1877'
-    strength: officially-endorsed
+    periodLabel: 1877 intervention and report
+    strength: policy-basis
     institutionTypes:
       - government
       - medical
     institutions:
       - London Asylum for the Insane
     institutionalContext: >-
-      During his first year as medical superintendent, R. M. Bucke acted on a psychiatric belief then common enough
-      to appear in asylum etiologies: masturbation could precipitate or aggravate insanity. His 1877 superintendent's
-      report, preserved in the Ontario Sessional Papers, documented an intervention intended to prevent male patients
-      from masturbating. Because this occurred inside a provincial public asylum under its superintendent's treatment
-      authority, the belief became an institutional medical practice rather than merely a private theory.
+      The London Asylum was a provincial public institution, and Bucke introduced the interventions during his first
+      year as its medical superintendent. In the asylum's official report he separated patients whose masturbation he
+      regarded as causal or aggravating from those for whom he regarded it as a symptom, then presented a selected
+      15-patient treatment table. The belief therefore functioned as a basis for medical practice under institutional
+      authority, rather than remaining a private opinion.
     consequences:
-      - Fifteen male patients were subjected to genital wiring intended to inhibit erections and masturbation
-      - Pain and physical restraint were used as psychiatric treatment on institutionalized patients
-      - The intervention continued until experience showed it did not reliably prevent the behavior
-      - The treatment embodied a false causal interpretation of sexual behavior in mentally ill patients
+      - Fifteen male patients underwent genital wiring intended to prevent masturbation
+      - Several developed inflammation and swelling that required removal and later replacement of the wire
+      - Some received multiple wires and had their hands restrained in a muff to stop the behaviour
+      - Four patients were circumcised; all resumed masturbation after healing and none showed even temporary mental improvement
+      - Seven of the 15 wiring cases were recorded as non-preventive, and the procedure was not continued
     summary: >-
-      During his first year as superintendent in 1877, R. M. Bucke acted on the belief that masturbation could
-      precipitate attacks or aggravate insanity. The provincial public asylum subjected 15 male patients to genital
-      “wiring” intended to make erections and masturbation difficult or painful. The procedure failed to stop
-      masturbation reliably and was abandoned.
+      In 1877 Bucke converted a qualified causal theory into physical interventions at a provincial asylum. His report
+      recorded complications, repeated wiring, hand restraint and four circumcisions. The results did not establish
+      the theory: wiring failed to arrest masturbation in 7 of 15 cases, and all four circumcised patients resumed it
+      without mental improvement.
     mechanism:
       kind: administrative-adoption
       summary: >-
-        The asylum superintendent converted an etiological belief about masturbation into a physical treatment programme,
-        subjecting institutionalized male patients to genital wiring intended to prevent the behavior.
+        Acting as medical superintendent, Bucke classified selected patients' masturbation as causal or aggravating
+        and used that classification to authorize wiring, restraint and circumcision as psychiatric treatment.
     institutionalCorrection:
       status: partial
-      periodLabel: '1877'
-      action: The London Asylum discontinued the wiring intervention after it failed to prevent masturbation reliably.
+      periodLabel: After 1877; broader shift by the 1890s
+      action: The asylum did not continue genital wiring, and Ontario asylum reporting later treated masturbation as a symptom rather than a cause.
       summary: >-
-        The institution abandoned the specific coercive intervention after failure, but the surviving record does not
-        establish a formal institutional repudiation of the broader masturbation-insanity causal theory.
+        The failed wiring programme was abandoned. Historical research finds that by the 1890s Ontario asylums
+        described masturbation as a symptom rather than a cause, but no formal London Asylum repudiation of the
+        broader causal theory has been identified.
 sources:
   - id: masturbation-ontario-report
     title: London Asylum — Report of the Medical Superintendent and Statistical Information, 1876–77
@@ -87,43 +101,143 @@ sources:
     title: 'The solitary vice: the superstition that masturbation could cause mental illness'
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1071473/
     publisher: Western Journal of Medicine / PubMed Central
+  - id: masturbation-mitchinson-archivaria
+    title: Gynecological Operations on the Insane
+    url: https://archivaria.ca/index.php/archivaria/article/download/10814/11718
+    publisher: Archivaria
+  - id: masturbation-uwo-self-abuse
+    title: The Evils of “Self-Abuse”
+    url: https://www.lib.uwo.ca/archives/virtualexhibits/londonasylum/selfabuse.html
+    publisher: Western University Archives and Special Collections
+  - id: masturbation-zachar-kendler-history
+    title: 'Masturbatory insanity: the history of an idea, revisited'
+    url: https://www.cambridge.org/core/journals/psychological-medicine/article/abs/masturbatory-insanity-the-history-of-an-idea-revisited/6AD148436974F5E4313F5F0D091B546A
+    publisher: Psychological Medicine / Cambridge University Press
+  - id: masturbation-msd-sexuality
+    title: Overview of Sexuality
+    url: https://www.msdmanuals.com/professional/special-subjects/sexuality/sexuality
+    publisher: MSD Manual Professional Edition
+  - id: masturbation-who-icd11-cddr
+    title: Clinical descriptions and diagnostic requirements for ICD-11 mental, behavioural and neurodevelopmental disorders
+    url: https://www.who.int/publications/i/item/9789240077263
+    publisher: World Health Organization
 evidence:
-  - id: masturbation-history-proposition
-    sourceId: masturbation-social-history
+  - id: masturbation-report-proposition
+    sourceId: masturbation-ontario-report
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: 'Ontario Sessional Papers (1878), no. 4, pp. 279–280, “Treatment” section'
     note: >-
-      Peer-reviewed historical study reconstructing Bucke's earlier 1877 anti-masturbation intervention from the
-      asylum report: 15 male patients were wired, the belief was that masturbation could precipitate or aggravate
-      insanity, and the intervention was unsuccessful and discontinued.
-  - id: masturbation-review-correction
+      Bucke distinguishes masturbation as a contributing cause, an aggravating factor or a symptom only, doubts that
+      it is ever the sole cause, and says only a small proportion of patients could benefit from stopping it.
+  - id: masturbation-wjm-correction
     sourceId: masturbation-wjm-review
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: 'Western Journal of Medicine 175(1) (2001), pp. 66–68'
     note: >-
-      Historical medical review documenting the rise and abandonment of the belief that masturbation causes mental illness.
-  - id: masturbation-history-impact
-    sourceId: masturbation-social-history
+      Medical-historical review identifies the claimed causal link between masturbation and mental illness as a
+      superstition and traces its rise and decline.
+  - id: masturbation-who-correction
+    sourceId: masturbation-who-icd11-cddr
     relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: 'ICD-11 CDDR, code 6C72, printed pp. 526–531, especially pp. 527–530'
+    note: >-
+      WHO criteria require persistent impaired control plus marked distress or functional impairment, exclude distress
+      based entirely on moral disapproval, and require differentiation from mania, dementia, medical conditions and substances.
+  - id: masturbation-report-impact
+    sourceId: masturbation-ontario-report
+    relation: documents
     target: {scope: belief, aspect: impact}
+    locator: 'Ontario Sessional Papers (1878), no. 4, p. 280, patient table and paragraphs below it'
+    note: >-
+      The official report records 15 wired patients, complications requiring removal and rewiring, additional restraint
+      and four circumcisions, followed by resumption of masturbation and no mental improvement in the four cases.
   - id: masturbation-report-carrier
     sourceId: masturbation-ontario-report
     relation: documents
     target: {scope: episode, episodeId: canada-ontario-1877, aspect: carrier}
+    locator: 'Ontario Sessional Papers (1878), no. 4, pp. 279–280, “Treatment” section'
     note: >-
-      Primary provincial annual-report volume containing Bucke's 1877 London Asylum report. The relevant intervention
-      is cited in historical scholarship to Ontario Sessional Papers, 1878, vol. 10, part ii, no. 4, p. 280.
+      Primary provincial report issued under the London Asylum medical superintendent's authority and published in
+      the official Ontario Sessional Papers.
   - id: masturbation-report-mechanism
     sourceId: masturbation-ontario-report
     relation: documents
     target: {scope: episode, episodeId: canada-ontario-1877, aspect: mechanism}
+    locator: 'Ontario Sessional Papers (1878), no. 4, p. 280, patient table and explanatory text'
+    note: >-
+      Bucke explains the diagnostic sorting used to select cases and reports wiring, repeat wiring, hand restraint and circumcision.
+  - id: masturbation-report-consequences
+    sourceId: masturbation-ontario-report
+    relation: documents
+    target: {scope: episode, episodeId: canada-ontario-1877, aspect: consequences}
+    locator: 'Ontario Sessional Papers (1878), no. 4, p. 280, note and final paragraph under the table'
+    note: >-
+      Records inflammation and swelling, removal and replacement of wires, multiple wires, restrained hands, four
+      circumcisions and the absence of even temporary mental improvement after those operations.
+  - id: masturbation-social-history-context
+    sourceId: masturbation-social-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: canada-ontario-1877, aspect: context}
+    locator: 'Journal of Social History 15(3) (Spring 1982), pp. 467–484'
+    note: >-
+      Peer-reviewed history of later gynecological operations at the same asylum places Bucke's interventions within
+      the institution's longer treatment history; exact 1877 claims are independently tied to the primary report.
   - id: masturbation-rsc-consequences
     sourceId: masturbation-rsc-bucke
     relation: supports
     target: {scope: episode, episodeId: canada-ontario-1877, aspect: consequences}
+    locator: 'Paragraphs beginning “He focused upon the ‘great sympathetic nervous system’” and “Unlike other Canadian asylum superintendents”'
     note: >-
-      Biographical account describing the use of penile wiring on 15 London Asylum patients and the failure of the experiment.
-  - id: masturbation-history-partial-correction
-    sourceId: masturbation-social-history
+      Historian-authored biographical account describes Bucke's theory, penile wiring of 15 patients and the
+      experiment's failure; the page notes that contributor views are not necessarily those of the Royal Society.
+  - id: masturbation-wjm-episode-context
+    sourceId: masturbation-wjm-review
+    relation: contextualizes
+    target: {scope: episode, episodeId: canada-ontario-1877, aspect: context}
+    locator: 'Western Journal of Medicine 175(1) (2001), pp. 66–68'
+    note: >-
+      Places the London intervention within the longer medical history of the belief that masturbation caused mental illness.
+  - id: masturbation-mitchinson-correction
+    sourceId: masturbation-mitchinson-archivaria
     relation: documents
     target: {scope: episode, episodeId: canada-ontario-1877, aspect: institutional-correction}
+    locator: 'Archivaria 10 (Summer 1980), p. 135'
+    note: >-
+      Finds that the habit was not arrested in 7 of 15 wired patients, that Bucke did not continue the procedure and
+      that by the 1890s Ontario asylum physicians treated masturbation as a symptom rather than a cause.
+  - id: masturbation-uwo-mechanism
+    sourceId: masturbation-uwo-self-abuse
+    relation: supports
+    target: {scope: episode, episodeId: canada-ontario-1877, aspect: mechanism}
+    locator: 'Page body under “The Evils of ‘Self-Abuse’”'
+    note: >-
+      University archival exhibit describes the nineteenth-century causal belief and the painful mechanical method
+      Bucke used at the London asylum.
+  - id: masturbation-zachar-context
+    sourceId: masturbation-zachar-kendler-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: canada-ontario-1877, aspect: context}
+    locator: 'Psychological Medicine 53(9) (2023), pp. 3777–3782, abstract'
+    note: >-
+      Peer-reviewed reassessment explains that nineteenth-century psychiatrists could regard uncontrolled masturbation
+      both as a feature of mental disorder and as a cause of a proposed form of insanity, while ordinary masturbation
+      was not necessarily treated as disease.
+  - id: masturbation-msd-modern-context
+    sourceId: masturbation-msd-sexuality
+    relation: contextualizes
+    target: {scope: episode, episodeId: canada-ontario-1877, aspect: context}
+    locator: 'Section “Masturbation”'
+    note: >-
+      Current professional reference describes masturbation as normal sexual activity and limits clinical concern to
+      circumstances such as compulsivity, public behaviour or interference with relationships and functioning.
+  - id: masturbation-who-modern-context
+    sourceId: masturbation-who-icd11-cddr
+    relation: contextualizes
+    target: {scope: episode, episodeId: canada-ontario-1877, aspect: context}
+    locator: 'ICD-11 CDDR, code 6C72, printed pp. 526–531, especially pp. 527–530'
+    note: >-
+      Supplies the modern diagnostic distinction between a sexual act and a persistent pattern of impaired control
+      causing distress or impairment, including the required exclusions and differential diagnosis.

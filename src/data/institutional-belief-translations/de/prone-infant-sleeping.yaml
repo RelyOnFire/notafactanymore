@@ -1,60 +1,256 @@
 schemaVersion: 2
 locale: de
 entryId: prone-infant-sleeping
-sourceReviewedAt: 2026-08-22
-title: Bauchlage beim Säuglingsschlaf
+sourceReviewedAt: '2026-09-24'
+title: Gesunde Säuglinge sollten in Bauchlage schlafen
 proposition:
-  summary: Gesunde Säuglinge sollten in Bauchlage schlafen, weil diese Position als sicher oder vorteilhaft galt – unter anderem aus Sorge, dass Babys in Rückenlage Erbrochenes einatmen könnten.
+  summary: >-
+    Über weite Teile der zweiten Hälfte des 20. Jahrhunderts stellten einflussreiche Säuglingsratgeber und medizinische
+    Empfehlungen die Bauchlage als sichere oder vorzuziehende Schlafposition für gesunde Säuglinge dar. Begründet wurde
+    dies unter anderem mit der Sorge, ein auf dem Rücken liegendes Baby könne Erbrochenes einatmen, sowie mit angeblichen
+    Vorteilen für Atmung, Verdauung oder ungestörten Schlaf. Die Empfehlung galt nie ausnahmslos: Manche damaligen
+    Fachautoritäten bevorzugten weiterhin die Rücken- oder Seitenlage.
 correction:
-  summary: Bei gesunden Säuglingen erhöht Schlafen in Bauchlage das Risiko für den plötzlichen Kindstod und andere schlafbezogene Todesfälle deutlich. Für den routinemäßigen Säuglingsschlaf wird Rückenlage empfohlen; sie führt bei gesunden Babys nicht zu dem befürchteten Anstieg tödlicher Aspirationen.
+  summary: >-
+    Gesunde Säuglinge sollten bis zum Alter von einem Jahr bei jedem routinemäßigen Schlaf in Rückenlage auf eine feste,
+    ebene und nicht geneigte Unterlage gelegt werden. Bauch- und Seitenlage sind mit einem höheren Risiko für den
+    plötzlichen Säuglingstod und andere schlafbezogene Säuglingstodesfälle verbunden. Rückenlage erhöht auch bei Säuglingen
+    mit Reflux nicht das Risiko des Verschluckens oder Einatmens von Mageninhalt. Beaufsichtigte Bauchlage im Wachzustand
+    erfüllt einen anderen, entwicklungsbezogenen Zweck.
+impact:
+  summary: >-
+    Die Empfehlung zur Bauchlage veränderte in mehreren wohlhabenden Ländern, wie Säuglinge zum Schlafen gelegt wurden.
+    Eine spätere kumulative Metaanalyse ergab, dass die bis 1970 verfügbare Beobachtungsevidenz bereits höhere SIDS-Chancen
+    für Bauch- als für Rückenlage zeigte; eine breite fachliche Übereinstimmung bestand damals jedoch nicht. In Australien
+    gingen Bauchlage und SIDS-Todesfälle rund um die Forschungs-, Politik- und Aufklärungsänderungen von 1990 und 1991
+    stark zurück. Die DDR reagierte wesentlich früher, nachdem 1971 sieben Säuglinge in Kindertagesstätten in Bauchlage
+    gestorben waren. Diese Verläufe belegen Risiken und Wirkungen auf Bevölkerungsebene; sie beweisen weder, dass die
+    Bauchlage jeden einzelnen Todesfall verursachte, noch dass sie einen gesamten nationalen Mortalitätstrend erklärt.
+  highlights:
+    - value: '2.93'
+      label: gepoolte Odds Ratio für Bauch- gegenüber Rückenlage in der bis 1970 verfügbaren Evidenz
+      note: Retrospektive kumulative Metaanalyse; 95-%-Konfidenzintervall 1,15–7,47.
+    - value: '7'
+      label: Säuglinge, die 1971 in DDR-Kindertagesstätten in Bauchlage schlafend starben und eine amtliche Überprüfung auslösten
+      note: Die historische Studie weist nicht nach, dass die Bauchlage jeden einzelnen Todesfall verursachte.
+    - value: 522 → 73
+      label: erfasste australische SIDS-Todesfälle 1985 und 2003, ein Rückgang um 86 % während der Ära der Schlafsicherheitskampagnen
+      note: Ein nationaler Zeittrend während einer Kampagne mit mehreren Maßnahmen, keine allein der Schlafposition zurechenbare Opferzahl.
+  context:
+    - >-
+      Die historische Übersicht von 2005 untersuchte Säuglingsratgeber und Broschüren aus britischen Bibliotheken. Ihr
+      Befund, dass die gepoolte Evidenz bis 1970 statistisch signifikant war, ist eine nachträgliche Rekonstruktion und
+      kein Beleg für einen damaligen gefestigten Konsens oder eine einheitliche Empfehlung.
+    - >-
+      Eine systematische Übersicht von 2022 fasste 26 Beobachtungsstudien mit 59.332 Säuglingen zusammen und fand bei
+      Rückenlage geringere SIDS-Chancen als bei anderen Schlafpositionen. Wegen erheblicher Verzerrungsrisiken, Heterogenität
+      und des Fehlens interventioneller Mortalitätsstudien bewerteten die Autoren die Evidenz als sehr unsicher. Heutige
+      Empfehlungen stützen sich zusätzlich auf physiologische Befunde, die
+      Übereinstimmung verschiedener Untersuchungsorte und Mortalitätsänderungen nach Aufklärungskampagnen.
+    - >-
+      SIDS bezeichnet einen nach gründlicher Untersuchung ungeklärten Todesfall. Der plötzliche unerwartete Tod im
+      Säuglingsalter ist ein weiterer Begriff, der auch erklärte Todesfälle umfasst. Veränderungen bei Untersuchung und
+      Klassifikation erschweren Vergleiche über längere Zeiträume.
+    - >-
+      Dieser Eintrag betrifft routinemäßigen Schlaf gesunder Säuglinge. Medizinisch begründete und überwachte Lagerung im
+      Krankenhaus ist damit nicht gleichzusetzen; ebenso wird Schlaf von beaufsichtigter Bauchlage im Wachzustand getrennt.
 episodes:
   - id: australia-1970-1991
     polity: Australien
-    summary: In den 1970er- und 1980er-Jahren wurde die Bauchlage unter gesunden australischen Säuglingen immer verbreiteter, weil Fachpersonal und Ratgeber nicht wissenschaftlich geprüfte Empfehlungen weitergaben. Hinweise auf einen Zusammenhang mit dem plötzlichen Kindstod häuften sich, wurden aber zunächst nicht als kausaler Risikofaktor akzeptiert. Australische Forschung führte 1991 zu einer landesweiten Kehrtwende; Gesundheitskampagnen und der NHMRC empfahlen, gesunde Babys grundsätzlich nicht in Bauchlage schlafen zu lassen.
+    periodLabel: Späte 1960er-Jahre bis Oktober 1991; Anfangsjahr angenähert
+    institutions:
+      - Australische Netzwerke medizinischer Beratung und Säuglingspflege
+      - Mütter- und Kindergesundheitsdienst von Community Services Victoria
+      - National SIDS Council of Australia
+      - National Health and Medical Research Council
+    institutionalContext: >-
+      Die retrospektive NHMRC-Fallstudie ordnet Australien in einen breiteren westlichen Anstieg der Bauchlage von den
+      späten 1960er-Jahren bis in die 1980er-Jahre ein, den sie auf wissenschaftlich ungeprüfte Ratschläge zurückführt.
+      Trotz zunehmender retrospektiver Hinweise habe die medizinische Fachwelt die Schlafposition nicht als ursächlichen
+      Risikofaktor anerkannt. Dokumentiert ist damit ein breites professionelles Beratungsmuster, keine einzelne
+      australische Vorschrift und kein identisches Verhalten aller Fachleute, Krankenhäuser oder Eltern. Prospektive und
+      fallkontrollierte Forschung in Tasmanien lieferte 1991 überzeugendere Evidenz. Die erste dokumentierte australische
+      Politikkorrektur begann schon im Juli 1990, als Community Services Victoria seine Mütter- und
+      Kindergesundheitspflegekräfte anwies, Rücken- oder Seitenlage zu empfehlen; 1991 folgten nationale Organisationen.
     consequences:
-      - Weite Verbreitung der Bauchlage bei gesunden Säuglingen
-      - Erhöhte Exposition gegenüber SIDS-Risiko
-      - Verzögerte Korrektur der Schlafempfehlungen
+      - Ungeprüfte Begründungen für Bauchlage gingen in routinemäßige Elternberatung ein, während die medizinische Bedeutung der Schlafposition umstritten blieb
+      - In der tasmanischen Kohorte schliefen vor Veröffentlichung und Kampagne 29,9 % der Säuglinge gewöhnlich in Bauchlage, im folgenden Jahr 5,4 %
+      - Die prospektiven Kohorten- und Fallkontrollbefunde aus Tasmanien verbanden Bauchlage mit deutlich höheren SIDS-Chancen und lösten rasches gesundheitspolitisches Handeln aus
+      - Australiens erfasste SIDS-Todesfälle sanken während einer breiteren Ära der Risikoreduktion von 522 im Jahr 1985 auf 73 im Jahr 2003; der nationale Trend ist nicht allein der Schlafposition zuzuschreiben
+      - Die Empfehlungen von 1990 und 1991 erlaubten anfangs Seiten- oder Rückenlage; spätere Leitlinien gingen zur ausschließlichen Rückenlage über, weil die Seitenlage instabil und unsicher ist
+    summary: >-
+      Institutioneller Träger war in Australien ein diffuses Netzwerk medizinischer Beratung und Säuglingspflege, keine
+      einzelne nationale Vorschrift. Die Bauchlage wurde verbreitet, während retrospektive Evidenz zunahm, aber umstritten
+      blieb. Prospektive Forschung aus Tasmanien trug entscheidend dazu bei, den Zusammenhang überzeugend zu machen.
+      Community Services Victoria änderte die Beratung im Juli 1990; der National SIDS Council begann im Juni 1991 eine
+      nationale Kampagne; ein Treffen im Juli riet von Bauchlage bei gesunden Säuglingen ab; und der NHMRC empfahl im
+      Oktober Seiten- oder Rückenlage. Danach gingen Bauchlage und SIDS-Todesfälle zusammen mit weiteren Botschaften zu
+      sicherem Schlaf und Risikoreduktion stark zurück. Spätere Empfehlungen wurden von Seiten- oder Rückenlage auf
+      ausschließliche Rückenlage eingeengt.
     mechanism:
       summary: >-
-        Fachpersonal, Krankenhäuser, Säuglingsbetreuung und Elternratgeber wiederholten die Empfehlung zur Bauchlage und machten eine ungeprüfte Annahme zum routinemäßigen Pflegehinweis.
+        Medizinische und pflegerische Beratung wiederholte plausible, aber unzureichend geprüfte Gründe für die Bauchlage;
+        professionelle Alltagsberatung übertrug sie in die häusliche Praxis. Die Quellen belegen ein breites
+        Beratungsumfeld und beobachtete Verbreitung, aber keine einzelne australische Stelle, die Bauchlage vorschrieb.
     institutionalCorrection:
-      periodLabel: '1991'
-      action: Nationale Gesundheitskampagnen und der NHMRC empfahlen, gesunde Säuglinge grundsätzlich nicht in Bauchlage schlafen zu lassen.
+      periodLabel: Juli 1990 bis Oktober 1991; später auf Rückenlage eingeengt
+      action: >-
+        Community Services Victoria, der National SIDS Council of Australia und der NHMRC ersetzten routinemäßige
+        Bauchlagenberatung durch Empfehlungen gegen die Bauchlage und öffentliche Aufklärung; spätere Leitlinien strichen
+        die zunächst noch zugelassene Seitenlage.
       summary: >-
-        Australische Forschung führte 1991 zu einer landesweiten Umkehr der Schlafempfehlungen für gesunde Säuglinge.
+        Die australische Korrektur erfolgte durch Pflegeberatung eines Bundesstaats, eine nationale Kampagne einer
+        Elternorganisation, Forschungstransfer und eine NHMRC-Stellungnahme. Die Stellungnahme vom Oktober 1991 empfahl
+        Seiten- oder Rückenlage und noch nicht den heutigen Standard der ausschließlichen Rückenlage. Der Eintrag trennt
+        deshalb die entscheidende Abkehr von der Bauchlage von der späteren Präzisierung sicherer Schlafempfehlungen.
   - id: east-germany-1971-1972
     polity: DDR
-    summary: Kinderärzte in der DDR folgten der internationalen Empfehlung, Säuglinge in Bauchlage schlafen zu lassen; die Praxis wurde auch in staatlichen Kindertagesstätten angewandt. Nachdem 1971 sieben Säuglinge während des Schlafs in Bauchlage in Kindertagesstätten gestorben waren, untersuchte das Gesundheitsministerium die Fälle und erließ im Juni 1972 Richtlinien, die die Bauchlage im Schlaf stark einschränkten und sie im Wesentlichen auf beaufsichtigte Übungen im Wachzustand begrenzten.
+    periodLabel: 1971 bis 8. Juni 1972
+    institutions:
+      - Kinderärztinnen und Kinderärzte in der DDR
+      - Staatliche Kindertagesstätten
+      - Bezirks- und zentrale Ausschüsse für Kindersterblichkeit
+      - Ministerium für Gesundheitswesen
+    institutionalContext: >-
+      Eine retrospektive Studie auf Grundlage von Mortalitätsstatistiken, Archivmaterial und Zeitzeugeninterviews berichtet,
+      dass Kinderärzte in der DDR der internationalen Empfehlung zur Bauchlage folgten und staatliche Kindertagesstätten
+      sie anwandten. Eine ministerielle Anordnung der Bauchlage weist die Quelle nicht nach; deshalb gilt die Episode als
+      institutionell einflussreich und nicht als offiziell unterstützt. Pflichtobduktionen und bezirkliche Ausschüsse für
+      Kindersterblichkeit ermöglichten eine schnelle Untersuchung der Todesfälle in Kindertagesstätten und die Meldung an
+      einen zentralen Ausschuss in Berlin.
     consequences:
-      - Bauchlage von Säuglingen in staatlichen Kindertagesstätten
-      - Vermeidbare Säuglingstodesfälle
-      - Schnelle Umkehr staatlicher Betreuungsempfehlungen
+      - Sieben Säuglinge starben 1971 in DDR-Kindertagesstätten schlafend in Bauchlage; die Evidenz schreibt nicht jeden Todesfall schlüssig der Position zu
+      - Die Häufung führte zu Expertensitzungen und einer Untersuchung durch das staatliche Überwachungssystem für Kindersterblichkeit
+      - Das Gesundheitsministerium schränkte die unbeaufsichtigte Bauchlage beim Schlafen in Kindertagesstätten innerhalb des folgenden Jahres ein
+      - Eine Erhebung von 1991 fand bei Säuglingen in Ost-Berlin weiterhin deutlich weniger Bauchlage als in West-Berlin; der Vergleich kann die Wirkung der Richtlinie von 1972 jedoch nicht isolieren
+    summary: >-
+      Die Bauchlage ging 1971 in kinderärztliche Empfehlungen und die Praxis staatlicher Kindertagesstätten der DDR ein.
+      Danach starben sieben Säuglinge in Kindertagesstätten schlafend in dieser Position. Das System zur Überwachung der
+      Kindersterblichkeit leitete die Fälle weiter; am 8. Juni 1972 erließ das Ministerium für Gesundheitswesen eine
+      Richtlinie. Sie untersagte die Bauchlage ohne ständige Aufsicht beim Schlafen und unter mehreren weiteren Umständen.
+      Empfohlen blieb sie nur als eng beaufsichtigtes Muskeltraining im Wachzustand. Die Reaktion war früh und amtlich;
+      die historische Evidenz beweist aber weder, dass die Bauchlage jeden auslösenden Todesfall verursachte, noch dass die
+      vorausgehende Praxis ministeriell angeordnet worden war.
     mechanism:
       summary: >-
-        Kinderärztliche Dienste und das staatliche Betreuungssystem übernahmen die Bauchlage als routinemäßige Säuglingspflege innerhalb der staatlichen Gesundheitsverwaltung.
+        Kinderärztliche Empfehlung wurde als routinemäßige Lagerung in einem staatlichen Betreuungssystem übernommen.
+        Anschließend nutzte die zentrale Todesfallprüfung dasselbe Verwaltungsnetz, um die Häufung zu erkennen und die
+        Praxis rasch zu ändern.
     institutionalCorrection:
       periodLabel: Juni 1972
-      action: Das Gesundheitsministerium schränkte die Bauchlage im Schlaf stark ein und begrenzte sie im Wesentlichen auf beaufsichtigte Übungen im Wachzustand.
+      action: >-
+        Das Gesundheitsministerium untersagte die unbeaufsichtigte Bauchlage beim Schlafen und legte fest, dass sie als
+        Muskeltraining nur im Wachzustand und unter enger Aufsicht eingesetzt werden sollte.
       summary: >-
-        Nach der Untersuchung von sieben Todesfällen in Kindertagesstätten änderte das Gesundheitsministerium die offizielle Betreuungsempfehlung rasch.
+        Die Richtlinie vom Juni 1972 schränkte die Bauchlage in Kindertagesstätten stark ein. Sie war nicht als absolutes
+        Verbot in jeder Lage formuliert, sondern nannte verbotene Umstände und ließ eng beaufsichtigte Bauchlage als Übung
+        im Wachzustand bestehen.
 evidence:
   - id: prone-review-proposition
     note: >-
-      Die systematische historische Übersicht stellt fest, dass die Bauchlage jahrzehntelang auf Grundlage einer ungeprüften
-      Theorie empfohlen wurde, obwohl zusammengefasste Evidenz bereits 1970 ein deutlich erhöhtes SIDS-Risiko zeigte.
-  - id: prone-review-correction
+      Die Übersicht stellte fest, dass Säuglingsratgeber und Broschüren zwischen 1943 und 1988 die Bauchlage auf Grundlage
+      ungeprüfter Theorien empfahlen, darunter die Angst vor dem Einatmen von Erbrochenem. Die historische Stichprobe
+      stammte aus britischen Bibliotheken und enthielt unterschiedliche Empfehlungen; eine universelle Praxis belegt sie nicht.
+  - id: prone-nhmrc-proposition
+    note: >-
+      Der NHMRC beschreibt einen Anstieg der Bauchlage bei gesunden Säuglingen in vielen westlichen Ländern von den späten
+      1960er-Jahren bis in die 1980er, führt ihn auf wissenschaftlich ungeprüfte Beratung zurück und dokumentiert die
+      verzögerte Anerkennung des Risikos durch die medizinische Fachwelt.
+  - id: prone-east-germany-proposition
+    note: >-
+      Die Archiv- und Interviewstudie berichtet, dass Kinderärzte der DDR der internationalen Empfehlung zur Bauchlage
+      folgten und 1971 sieben Säuglinge in Kindertagesstätten schlafend in dieser Position starben.
+  - id: prone-modern-review-correction
+    note: >-
+      Die Übersicht von 2022 fasste 26 Beobachtungsstudien mit 59.332 Säuglingen zusammen. Rückenlage war gegenüber anderen
+      Positionen mit geringeren SIDS-Chancen verbunden (OR 0,51; 95-%-KI 0,42–0,61). Wegen meist erheblicher
+      Verzerrungsrisiken und deutlicher Heterogenität bewerteten die Autoren die Evidenz jedoch als sehr unsicher.
+  - id: prone-aap-correction
+    note: >-
+      Die AAP empfiehlt bis zum Alter von einem Jahr Rückenlage bei jedem Schlaf, bewertet Seitenlage als unsicher und
+      erklärt, dass eine flache Rückenlage auch bei gastroösophagealem Reflux weder Verschlucken noch Aspiration erhöht.
+      Beaufsichtigte Bauchlage im Wachzustand empfiehlt sie davon getrennt.
+  - id: prone-awmf-correction
+    note: >-
+      Die deutsche multidisziplinäre Leitlinie empfiehlt für alle Neugeborenen Rückenlage auf einer festen horizontalen
+      Unterlage und unterscheidet davon kurze, beobachtete Phasen in Bauchlage im Wachzustand.
+  - id: prone-review-impact
+    note: >-
+      Die retrospektive kumulative Analyse ergab bis 1970 einen statistisch signifikanten Zusammenhang für Bauch- gegenüber
+      Rückenlage (gepoolte OR 2,93; 95-%-KI 1,15–7,47). Sie datiert die gepoolte Evidenz im Rückblick, nicht den damaligen Konsens.
+  - id: prone-nhmrc-impact
+    note: >-
+      Der NHMRC dokumentiert die Abfolge von Forschung und Kampagne 1991, den schnellen Rückgang in Tasmanien und den
+      australischen Rückgang von 522 erfassten SIDS-Todesfällen 1985 auf 73 im Jahr 2003. Die nationalen Zahlen umfassen
+      eine Ära mehrerer Interventionen und sind keine allein der Schlafposition zurechenbare Opferzahl.
+  - id: prone-east-germany-impact
+    note: >-
+      Die Studie berichtet über die sieben Todesfälle in Kindertagesstätten 1971, die Reaktion 1972 und später geringere
+      Bauchlagenprävalenz und Mortalität in Ost- als in Westdeutschland. Die historischen und ökologischen Vergleiche
+      liefern Kontext, aber keine individuelle Kausalität.
+  - id: prone-australia-history-impact
+    note: >-
+      Die australische Darstellung beschreibt den großen Mortalitätsrückgang nach Risikoreduktionskampagnen und erklärt
+      zugleich, dass sich die Botschaften änderten, einschließlich der späteren Streichung der Seitenlage.
   - id: prone-australia-carrier
     note: >-
-      Beschreibt die zunehmende Verbreitung der Bauchlage seit den späten 1960er- und 1970er-Jahren aufgrund ungeprüfter
-      Empfehlungen, die verzögerte Anerkennung des Risikos durch die medizinische Fachwelt und Australiens nationale Empfehlung von 1991 gegen die Bauchlage.
+      Der NHMRC dokumentiert einen breiten westlichen Anstieg der Bauchlage infolge ungeprüfter Beratung und die verzögerte
+      medizinische Anerkennung des Zusammenhangs. Dies stützt einen diffusen australischen Fachkontext, keine nationale
+      Vorschrift oder einheitliche Übernahme durch alle Fachleute und Krankenhäuser.
   - id: prone-australia-mechanism
-  - id: prone-australia-consequences
-  - id: prone-australia-correction
+    note: >-
+      Die Fallstudie nennt Elternberatung als Weg, über den die Bauchlage häufiger wurde, und stellt diese Beratung der
+      späteren prospektiven Evidenz und organisierten Gesundheitsaufklärung gegenüber.
+  - id: prone-tasmania-consequences
+    note: >-
+      Die Kohortenstudie berichtet, dass die gewöhnliche Bauchlage von 29,9 % vor Veröffentlichung und Kampagne auf 5,4 %
+      im folgenden Kohortenjahr sank (relatives Risiko 0,18; 95-%-KI 0,15–0,22).
+  - id: prone-nhmrc-australia-consequences
+    note: >-
+      Der NHMRC verbindet die prospektiven Befunde aus Tasmanien mit der Reaktion von 1991 und dem anschließenden Rückgang,
+      beschreibt die Bauchlage jedoch als einen von mehreren umweltbezogenen SIDS-Risikofaktoren.
+  - id: prone-australia-history-correction
+    note: >-
+      Die Darstellung datiert die erste dokumentierte Politikänderung auf Community Services Victoria im Juli 1990, die
+      nationale Kampagne auf Juni 1991 und die spätere Entwicklung von Seiten- oder Rückenlage zu ausschließlicher Rückenlage.
+  - id: prone-nhmrc-australia-correction
+    note: >-
+      Der NHMRC datiert nationale Kampagne, Juli-Empfehlung und Oktober-Stellungnahme. Die wiedergegebene Stellungnahme
+      empfahl Seiten- oder Rückenlage; sie dokumentiert die Abkehr von der Bauchlage, ohne nachträglich zum heutigen
+      Standard der ausschließlichen Rückenlage umgeschrieben zu werden.
+  - id: prone-review-australia-context
+    note: >-
+      Die Übersicht erklärt die in Säuglingsratgebern zirkulierenden Begründungen über Aspiration und Komfort und
+      rekonstruiert die im Zeitverlauf verfügbare Evidenz. Da ihre historische Empfehlungsstichprobe britisch war,
+      kontextualisiert sie den australischen Träger, statt ihn eigenständig zu belegen.
+  - id: prone-modern-review-australia-context
+    note: >-
+      Die moderne Übersicht zeigt, warum die Korrektur weitgehend auf übereinstimmender Beobachtungsevidenz und
+      Leitlinienbewertung beruht, und benennt zugleich geringe Evidenzsicherheit und Heterogenität.
+  - id: prone-aap-australia-context
+    note: >-
+      Die heutige AAP-Empfehlung ausschließlich zur Rückenlage bietet einen datierten Vergleich mit Australiens erster
+      Korrektur zur Seiten- oder Rückenlage. Wann einzelne australische Institutionen die spätere Präzisierung übernahmen,
+      belegt sie nicht.
   - id: prone-east-germany-carrier
     note: >-
-      Rekonstruiert die Empfehlung zur Bauchlage in der DDR, die sieben Todesfälle in Kindertagesstätten im Jahr 1971 und
-      die Kehrtwende des Gesundheitsministeriums im Juni 1972.
+      Die Studie berichtet, dass Kinderärzte der DDR die internationale Bauchlagenpraxis empfahlen und sie in
+      Kindertagesstätten angewandt wurde. Eine Anordnung des Gesundheitsministeriums zur Bauchlage vor der Einschränkung
+      von 1972 weist sie nicht nach.
   - id: prone-east-germany-mechanism
+    note: >-
+      Der Beitrag beschreibt sowohl die Übernahme durch Kinderheilkunde und Betreuungspraxis als auch Pflichtobduktion,
+      bezirkliche Prüfung und zentrale Berichterstattung, durch die die Häufung erkannt und die Korrektur verbreitet wurde.
   - id: prone-east-germany-consequences
+    note: >-
+      Sieben Säuglinge starben 1971 in Kindertagesstätten schlafend in Bauchlage; dies führte zu Expertensitzungen. Spätere
+      Ost-West-Unterschiede sind ökologische Evidenz und belegen weder die Ursache jedes Todesfalls noch isoliert die
+      Wirkung der Richtlinie.
   - id: prone-east-germany-correction
+    note: >-
+      Der Beitrag datiert die ministerielle Richtlinie auf Juni 1972 und beschreibt ihre Einschränkungen, darunter keine
+      unbeaufsichtigte Bauchlage beim Schlafen sowie Bauchlage als Muskeltraining nur wach und unter enger Aufsicht.
+  - id: prone-awmf-east-germany-context
+    note: >-
+      Die heutige deutsche multidisziplinäre Leitlinie empfiehlt Rückenlage auf fester horizontaler Unterlage und Bauchlage
+      nur beaufsichtigt im Wachzustand. Sie dokumentiert den heutigen Standard, keine ununterbrochene Fortgeltung der DDR-Regel.

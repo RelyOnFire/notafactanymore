@@ -13,19 +13,19 @@ correction:
     ordered criminal proceedings against former state-security personnel who had been particularly involved in fabricating
     the case and grossly violating Soviet law.
 category: Political repression, medicine and state propaganda
-reviewedAt: '2026-08-25'
+reviewedAt: '2026-09-24'
 impact:
   summary: >-
     The Doctors' Plot moved from a state-security investigation into an explicitly authorized national accusation.
-    The CPSU leadership approved publication, TASS presented named physicians as saboteurs, terrorists and foreign
-    agents, and the story was amplified through the Soviet press and party apparatus. Less than three months after
-    the public accusation, the same party-state formally declared the case fabricated and ordered the detainees
-    rehabilitated and released.
+    The CPSU leadership approved publication, and the TASS notice printed by Pravda named nine physicians while
+    presenting the alleged group as saboteurs, terrorists and foreign agents. The story was amplified through the
+    Soviet press and party apparatus. Less than three months after the public accusation, the same party-state formally
+    declared the case fabricated and ordered the detainees rehabilitated and released.
   highlights:
     - value: '9'
-      label: physicians publicly named in the initial January 1953 TASS accusation
+      label: physicians publicly named in the TASS notice printed by Pravda on 13 January 1953
     - value: '37'
-      label: doctors and family members ordered fully rehabilitated and released on 3 April 1953
+      label: people—doctors and detained family members—covered by the rehabilitation and release order
     - value: 3 April 1953
       label: CPSU Presidium formally approved the finding that the case had been fabricated
   context:
@@ -34,9 +34,9 @@ impact:
       Jewish Joint Distribution Committee, embedding the case in a broader antisemitic state campaign. Not every accused
       physician was Jewish.
     - >-
-      Claims that Stalin had fixed a date for a show trial or definitively ordered a mass deportation of Soviet Jews
-      remain historically disputed. The documented fabrication of the doctors' case does not depend on resolving those
-      questions.
+      Stalin's intended next steps remain historically disputed. No available evidence establishes the legendary fixed
+      "Day X" for mass deportations, and this record does not treat a fixed show-trial date or a definitive deportation
+      order as documented. The fabrication of the doctors' case does not depend on resolving those questions.
     - >-
       The figure of 37 refers to doctors and members of their families detained in connection with the case, not 37 doctors.
 episodes:
@@ -55,13 +55,14 @@ episodes:
       - Pravda
     institutionalContext: >-
       On 9 January 1953 the Bureau of the Presidium of the CPSU Central Committee approved publication of the arrest of
-      the alleged doctors-saboteurs. The TASS material accused physicians of deliberately shortening the lives of senior
-      Soviet leaders through false diagnoses and harmful treatment, alleged responsibility for the deaths of Andrei
-      Zhdanov and Alexander Shcherbakov, and linked members of the supposed group to foreign intelligence and the Joint.
-      The accusation became a national propaganda event. After Stalin's death, a review by the Ministry of Internal
-      Affairs concluded that the arrests lacked legal grounds and that the accusations and documentary basis were false.
-      On 3 April the CPSU Presidium ordered full rehabilitation and release of 37 doctors and family members and proceedings
-      against former MGB personnel especially involved in fabricating the case.
+      the alleged doctors-saboteurs. On 13 January the TASS notice printed by Pravda named nine physicians. It accused
+      members of the supposed group of deliberately shortening senior Soviet leaders' lives through false diagnoses and
+      harmful treatment, blamed them for the deaths of Andrei Zhdanov and Alexander Shcherbakov, and linked several to
+      foreign intelligence and the Joint. The accusation became a national propaganda event. After Stalin's death, a
+      review by the Ministry of Internal Affairs concluded that the arrests lacked legal grounds and that the accusations
+      and documentary basis were false. On 3 April the CPSU Presidium ordered full rehabilitation and release of 37
+      people—doctors and members of their families—and proceedings against former MGB personnel especially involved in
+      fabricating the case.
     consequences:
       - Arrest and detention of physicians and members of their families on fabricated charges
       - Use of prohibited investigative methods to obtain testimony presented as support for the accusations
@@ -73,8 +74,8 @@ episodes:
       publication of the allegation, and TASS publicly described prominent physicians as deliberate killers and foreign
       agents. The accusation was backed by arrests and coercive investigation. In April 1953 the Presidium reversed the
       institutional position: the case was described as fabricated, the evidence and accusations were declared false,
-      37 detained doctors and family members were ordered rehabilitated and released, and proceedings were ordered
-      against state-security personnel involved in manufacturing the case.
+      37 detained people—doctors and members of their families—were ordered rehabilitated and released, and proceedings
+      were ordered against state-security personnel involved in manufacturing the case.
     mechanism:
       kind: publication
       summary: >-
@@ -96,10 +97,18 @@ sources:
     title: Draft TASS announcement on the arrest of a group of doctors-saboteurs — before 13 January 1953
     url: https://docs.historyrussia.org/ru/nodes/363271
     publisher: Electronic Library of Historical Documents
+  - id: doctors-plot-pravda-announcement
+    title: Arrest of a group of doctors-saboteurs — TASS announcement printed by Pravda, 13 January 1953
+    url: https://docs.historyrussia.org/ru/nodes/489997
+    publisher: Electronic Library of Historical Documents
   - id: doctors-plot-rehabilitation-resolution
     title: CPSU Presidium resolution on the fabrication of the so-called doctors-saboteurs case — 3 April 1953
     url: https://docs.historyrussia.org/ru/nodes/438986
     publisher: Electronic Library of Historical Documents
+  - id: doctors-plot-yivo
+    title: Doctors’ Plot
+    url: https://encyclopedia.yivo.org/article.aspx/Doctors_plot
+    publisher: YIVO Encyclopedia of Jews in Eastern Europe
 evidence:
   - id: doctors-plot-publication-proposition
     sourceId: doctors-plot-publication-decision
@@ -107,18 +116,32 @@ evidence:
     target:
       scope: belief
       aspect: proposition
+    locator: 'Document no. 4-169, printed pp. 464–465, especially the decision text on p. 464'
     note: >-
-      Archival copy from the Presidential Archive of the Russian Federation documenting the party leadership's decision
-      to publish the arrest announcement; the archival record includes the TASS/Pravda publication material.
+      The Bureau decision approves the arrest announcement and orders it published with a Pravda article. It documents
+      official adoption and publication of the accusation, not the truth of the allegation.
   - id: doctors-plot-tass-proposition
     sourceId: doctors-plot-tass-draft
     relation: documents
     target:
       scope: belief
       aspect: proposition
+    locator: 'Document no. 298, printed pp. 396–397; RGASPI f. 558, op. 11, d. 157, ll. 29–33'
     note: >-
-      Archival TASS draft from RGASPI, fond 558, opis 11, delo 157, sheets 29–33, preserving the allegations of deliberate
-      harmful treatment, murder, terrorism and connections to foreign intelligence and the Joint.
+      The archival TASS draft preserves the allegations of deliberate harmful treatment, murder and terrorism and the
+      supposed connections to foreign intelligence and the Joint. The draft names ten physicians; an editorial note says
+      Iakov Temkin was omitted from the version published in the newspapers.
+  - id: doctors-plot-pravda-proposition
+    sourceId: doctors-plot-pravda-announcement
+    relation: documents
+    target:
+      scope: belief
+      aspect: proposition
+    locator: 'Document no. 262, printed pp. 651–652 (Pravda, 13 January 1953)'
+    note: >-
+      The published TASS notice names nine physicians and presents the alleged group as murderers, terrorists and agents
+      of foreign intelligence. It attributes the deaths of Zhdanov and Shcherbakov to harmful treatment and links several
+      of the accused to the Joint. This evidence records the public accusation; it does not validate it.
   - id: doctors-plot-publication-carrier
     sourceId: doctors-plot-publication-decision
     relation: documents
@@ -126,6 +149,10 @@ evidence:
       scope: episode
       episodeId: soviet-union-1953
       aspect: carrier
+    locator: 'Document no. 4-169, printed pp. 464–465; decision text and editorial note 3'
+    note: >-
+      The decision identifies the Bureau of the Presidium as the body that approved publication. Its attachment and
+      editorial note identify the TASS notice, the accompanying Pravda article and Stalin's direction of publication.
   - id: doctors-plot-publication-mechanism
     sourceId: doctors-plot-publication-decision
     relation: documents
@@ -133,6 +160,10 @@ evidence:
       scope: episode
       episodeId: soviet-union-1953
       aspect: mechanism
+    locator: 'Document no. 4-169, printed p. 464'
+    note: >-
+      The operative text orders approval of the draft announcement and its publication together with a Pravda article,
+      documenting the institutional path from a security case to an authorized press accusation.
   - id: doctors-plot-tass-consequences
     sourceId: doctors-plot-tass-draft
     relation: documents
@@ -140,21 +171,65 @@ evidence:
       scope: episode
       episodeId: soviet-union-1953
       aspect: consequences
+    locator: 'Document no. 298, printed pp. 396–397; RGASPI f. 558, op. 11, d. 157, ll. 29–33'
+    note: >-
+      The draft displays the stigmatizing narrative prepared for publication: doctors as deliberate killers, terrorists,
+      foreign agents and participants in a Jewish organization falsely described as an American intelligence instrument.
+  - id: doctors-plot-pravda-impact
+    sourceId: doctors-plot-pravda-announcement
+    relation: documents
+    target:
+      scope: belief
+      aspect: impact
+    locator: 'Document no. 262, printed pp. 651–654, especially pp. 651–652 and editorial note 2 on p. 654'
+    note: >-
+      The published notice supports the count of nine publicly named physicians and documents Pravda's dissemination of
+      the TASS accusation. The edition's accompanying pages place it within the continuing campaign against cosmopolitanism
+      and reproduce the public April retraction.
+  - id: doctors-plot-pravda-consequences
+    sourceId: doctors-plot-pravda-announcement
+    relation: documents
+    target:
+      scope: episode
+      episodeId: soviet-union-1953
+      aspect: consequences
+    locator: 'Document no. 262, printed pp. 651–653'
+    note: >-
+      The published text portrays the named physicians as killers, saboteurs, spies and foreign-directed terrorists,
+      explicitly associating several Jewish defendants and the Joint with American intelligence. Editorial context on
+      p. 653 describes the case as intensifying the campaign against cosmopolitanism.
   - id: doctors-plot-resolution-correction
     sourceId: doctors-plot-rehabilitation-resolution
     relation: documents
     target:
       scope: belief
       aspect: correction
+    locator: 'Document no. 6, printed pp. 23–25, especially pp. 24–25; AP RF f. 3, op. 58, d. 423, ll. 1–4'
     note: >-
-      Archival copy from the Presidential Archive. It records full rehabilitation and release of 37 doctors and family
-      members, describes the case as fabricated and orders proceedings against former MGB personnel involved in it.
+      The resolution and attached public statement say the arrests lacked legal grounds, the accusations and documentary
+      basis were false, and supposed supporting testimony was obtained through methods prohibited by Soviet law. They
+      record rehabilitation and release and action against investigators.
   - id: doctors-plot-resolution-impact
     sourceId: doctors-plot-rehabilitation-resolution
     relation: documents
     target:
       scope: belief
       aspect: impact
+    locator: 'Document no. 6, printed pp. 23–25, especially resolution point 1(a) on p. 23'
+    note: >-
+      Point 1(a) gives one combined total of 37 people: doctors and members of their families arrested in the case. It does
+      not say that 37 doctors, plus an additional number of relatives, were released.
+  - id: doctors-plot-resolution-consequences
+    sourceId: doctors-plot-rehabilitation-resolution
+    relation: documents
+    target:
+      scope: episode
+      episodeId: soviet-union-1953
+      aspect: consequences
+    locator: 'Document no. 6, printed pp. 23–25, especially the public statement on pp. 24–25'
+    note: >-
+      The statement documents unlawful arrests, false accusations and documentary material, testimony obtained by
+      impermissible methods, release of the detainees and criminal proceedings against those responsible for the inquiry.
   - id: doctors-plot-resolution-institutional-correction
     sourceId: doctors-plot-rehabilitation-resolution
     relation: documents
@@ -162,3 +237,32 @@ evidence:
       scope: episode
       episodeId: soviet-union-1953
       aspect: institutional-correction
+    locator: 'Document no. 6, printed pp. 23–25, especially resolution points 1–3 on pp. 23–24'
+    note: >-
+      The Presidium accepts the MVD proposal, orders rehabilitation and release of 37 people, authorizes criminal
+      proceedings against former MGB personnel and approves a public statement. This directly documents the institutional
+      reversal on 3 April 1953.
+  - id: doctors-plot-yivo-context
+    sourceId: doctors-plot-yivo
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: soviet-union-1953
+      aspect: context
+    locator: 'Paragraphs beginning “Antisemitic campaign,” “The plot assumed a Jewish character,” and “The core group”'
+    note: >-
+      Jonathan Brent's scholarly overview places the case within Stalin's antisemitic campaign while stressing its wider
+      political purposes. It reports that only 17 people in the core arrested group were Jewish and describes torture aimed
+      at constructing a Jewish, American and internal-security conspiracy. The resolution, rather than YIVO's differently
+      phrased group description, is the source used for the 37-person release total.
+  - id: doctors-plot-yivo-disputed-next-steps
+    sourceId: doctors-plot-yivo
+    relation: contextualizes
+    target:
+      scope: belief
+      aspect: impact
+    locator: 'Opening paragraph and paragraph beginning “Although some new evidence supports”'
+    note: >-
+      The overview treats Stalin's intended final stage as a matter of speculation. It says the mass-deportation question
+      remains open and that no available evidence supports the legendary fixed “Day X,” so those disputed scenarios are
+      not used as proof of the documented Doctors' Plot or its impact.

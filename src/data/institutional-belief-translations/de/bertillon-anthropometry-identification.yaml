@@ -1,40 +1,53 @@
 schemaVersion: 2
 locale: de
 entryId: bertillon-anthropometry-identification
-sourceReviewedAt: '2026-08-24'
-title: Anthropometrische Körpermaße als zuverlässige Personenidentifikation
+sourceReviewedAt: '2026-09-24'
+title: Bertillon-Körpermaße als zuverlässiger Index für Strafakten
 proposition:
   summary: >-
-    Polizeibehörden behandelten standardisierte Körpermaße Erwachsener als stabil und trennscharf genug, um
-    Gewohnheitstäter primär zu erfassen, wiederzufinden und zu identifizieren.
+    In Britisch-Indien behandelten Kolonialbehörden einen standardisierten Satz von Körpermaßen Erwachsener als stabil
+    und reproduzierbar genug, um frühere Akten von Gewohnheitstätern primär aufzufinden; Fotografien, Narben und weitere
+    Beschreibungsmerkmale konnten anschließend zur Identitätsprüfung beitragen.
 correction:
   summary: >-
-    Körpermaße können zur Personenbeschreibung beitragen, doch ein kleiner Satz manuell erhobener Maße ist für eine
-    eigenständige verlässliche Identifikation nicht stabil und reproduzierbar genug. Messmethode, Gerätekalibrierung,
-    körperliche Veränderungen und Überschneidungen zwischen Personen erzeugen Fehler. In Britisch-Indien ersetzten
-    Behörden die anthropometrische Kartei durch Fingerabdruckklassifikation, nachdem diese für Strafregister als
-    effizienter und zuverlässiger bewertet worden war.
+    Das Bertillon-System war eine mehrteilige Kartei und keine Identifikation allein durch Körpermaße. Sein
+    anthropometrischer Index führte durchaus zu Wiedererkennungen, hing aber von geschulten Vermessern, empfindlichen
+    Instrumenten und fehlerfreier Übertragung ab. Die Untersuchung der Government of India von 1897 dokumentierte
+    Messabweichungen, langsame Recherchen und Fehler, durch die eine frühere Akte unauffindbar werden konnte, und bewertete
+    die bengalische Zehnfinger-Klassifikation als betrieblich überlegen. Die anschließende Resolution änderte die amtliche
+    Identifikationspolitik; sie bewies weder, dass Körpermaße keinen beschreibenden Wert haben, noch dass
+    Fingerabdruckvergleiche unfehlbar sind.
 impact:
   summary: >-
-    Britisch-Indien führte 1892 die Bertillon-Anthropometrie formell zur Identifikation von Gewohnheitstätern ein.
-    Polizeiliche Karteien waren darauf angewiesen, dass Beamte standardisierte Körpermaße genau genug reproduzierten,
-    um frühere Akten einer Person wiederzufinden. Bereits fünf Jahre später empfahl eine amtliche Prüfung stattdessen
-    die Fingerabdruckklassifikation; im Juni 1897 führte die Government of India sie systemweit ein.
+    Die Bengal Police führte im März 1892 eine modifizierte Bertillon-Anthropometrie ein; mit Schreiben vom 10. Mai wies
+    die Government of India den Chief Secretary von Bengalen und andere Provinzen an, das System zur Identifikation von
+    Gewohnheitstätern einzuführen. Laut einem amtlichen Bericht waren bis Ende 1898 in den Provinzen nahezu 200.000
+    anthropometrische Karten angelegt worden. Nachdem ein zweiköpfiges Komitee die Systeme im März 1897 verglichen hatte,
+    verfügte der Governor-General in Council am 12. Juni die allgemeine Einführung der Fingerabdruckidentifikation in
+    Britisch-Indien. Die Umstellung erfolgte schrittweise: Derselbe, 1900 veröffentlichte Bericht hielt fest, dass
+    bestehende anthropometrische Karten weiterhin ersetzt wurden.
   highlights:
     - value: '1892'
-      label: Die Government of India führte die Bertillon-Anthropometrie für Gewohnheitstäter formell ein
+      label: Die Government of India weitete die Bertillon-Anthropometrie für die Erfassung von Gewohnheitstätern formell aus
     - value: 5 Jahre
-      label: Zeitraum von der formellen Einführung bis zur staatlichen Einführung der Fingerabdruckklassifikation
+      label: Zeitraum von der Anweisung von 1892 bis zur Grundsatzentscheidung für die allgemeine Fingerabdruckerfassung
     - value: 12. Juni 1897
-      label: Eine Resolution der Government of India ersetzte die Anthropometrie durch Fingerabdruckidentifikation
+      label: Eine Resolution verfügte die allgemeine Einführung der Fingerabdruckidentifikation in Britisch-Indien
+      note: An diesem Tag änderte sich die Politik; die Umstellung bestehender anthropometrischer Karteien dauerte an.
   context:
     - >-
-      Beim Bertillon-System ging es nicht nur darum, Körpermaße beschreibend zu verwenden. Sein institutioneller Nutzen
-      setzte voraus, dass standardisierte Maße reproduzierbar und trennscharf genug waren, um eine frühere Strafakte
-      wiederzufinden und die Identität zu prüfen. Mess- und Gerätefehler untergruben genau diese Funktion.
+      Die strittige Annahme betrifft Körpermaße als primären Schlüssel der Kartei und Aktenrecherche. Eine Bertillon-Karte
+      verband Maße mit Fotografien und Beschreibungsmerkmalen; eine gefundene mögliche Akte musste weiterhin mit der
+      Person verglichen werden. Die Bezeichnung als eigenständige Identifikation verschleiert die tatsächliche Funktion.
     - >-
-      Die Ablösung durch Fingerabdrücke ist die historische Korrektur dieses Verwaltungssystems. Daraus folgt weder,
-      dass jede Fingerabdruckanalyse unfehlbar ist, noch dass Körpermaße keinerlei legitime beschreibende Funktion haben.
+      Das Komitee von 1897 erkannte an, dass die Anthropometrie zunehmend bessere Ergebnisse erbracht hatte, bevor es ihre
+      Schwächen benannte. Die historische Korrektur war somit das Verwaltungsurteil, Fingerabdrücke seien für diese
+      Karteiaufgabe einfacher, billiger, schneller und sicherer, gefolgt von einer schrittweisen Ablösung.
+    - >-
+      Es handelte sich um ein koloniales Überwachungssystem für Menschen, die amtlich als Gewohnheitsverbrecher
+      klassifiziert wurden. Die Fingerabdruckklassifikation der Bengal Police entstand durch die Arbeit Edward Henrys und
+      der indischen Polizeibeamten Azizul Haq und Hem Chandra Bose; spätere Darstellungen hoben oft Henry hervor und
+      spielten die Beiträge dieser Beamten herunter.
 episodes:
   - id: british-india-1892-1897
     polity: Britisch-Indien
@@ -42,54 +55,116 @@ episodes:
       - Government of India
       - Bengal Police
     institutionalContext: >-
-      Die Bengal Police begann 1892 mit anthropometrischen Karteikarten; eine Anweisung der Government of India vom
-      10. Mai 1892 weitete das Bertillon-System zur Identifikation von Gewohnheitstätern aus. Erwachsene Gefangene wurden
-      anhand standardisierter Körpermaße klassifiziert, damit bei mutmaßlichen Wiederholungstätern frühere Akten
-      gefunden und verglichen werden konnten. Das Verfahren erforderte präzise Instrumente und sehr reproduzierbare
-      Messtechnik. 1897 bewertete ein amtliches Komitee die Fingerabdruckklassifikation für dieselbe Aufgabe als überlegen;
-      am 12. Juni führte die Government of India das Fingerabdrucksystem per Resolution ein.
-    summary: >-
-      Ab 1892 institutionalisierte Britisch-Indien die Bertillon-Anthropometrie zur Identifikation von Gewohnheitstätern,
-      wobei die Bengal Police zu den zentralen Anwendern gehörte. Das System verlangte von geschulten Beamten, standardisierte
-      Körpermaße so genau zu reproduzieren, dass frühere Akten wiedergefunden werden konnten. 1897 empfahl ein amtliches
-      Komitee Fingerabdrücke als überlegen; am 12. Juni 1897 führte die Government of India die Fingerabdruckklassifikation ein.
+      Die Bengal Police führte im März 1892 ein modifiziertes Formular mit sechs Körpermaßen ein. Mit Schreiben vom
+      10. Mai 1892 wies die Government of India den Chief Secretary von Bengalen und andere Provinzen an, die
+      Bertillon-Anthropometrie zur Identifikation von Gewohnheitstätern einzuführen. Die Maße ordneten Karten in Klassen,
+      damit Beamte die frühere Akte eines mutmaßlichen Wiederholungstäters auffinden und deren Fotografien, Merkmale und
+      weitere Angaben vergleichen konnten. Am 29. März 1897 untersuchte ein Komitee der Government of India das
+      anthropometrische und das bengalische Fingerabdrucksystem. Sein Bericht vom 31. März bewertete Fingerabdrücke wegen
+      der einfacheren Anwendung, geringeren Gerätekosten, Bündelung der Facharbeit, höheren Geschwindigkeit und größeren
+      Ergebnissicherheit als überlegen. Der Governor-General in Council verfügte am 12. Juni ihre allgemeine Einführung;
+      bestehende anthropometrische Akten wurden anschließend schrittweise umgestellt.
     consequences:
-      - Gewohnheitstäter wurden über anthropometrische Strafregister vermessen und erfasst
-      - Polizeiliche Ausbildung und Aktenrecherche wurden um standardisierte Körpermaße organisiert
-      - Die Identifikation hing von Maßen ab, die für Bedienungs-, Geräte- und Klassifikationsfehler anfällig waren
-      - Nach amtlicher Prüfung ersetzte die Regierung das System durch Fingerabdruckklassifikation
+      - Als Gewohnheitstäter klassifizierte Menschen wurden vermessen und in anthropometrischen Strafkarteien erfasst
+      - Polizei- und Gefängnispersonal benötigte Schulung, präzise Instrumente und wiederholte Messungen zur Kartenerstellung
+      - Mess- und Übertragungsabweichungen erzwangen die Suche in mehreren Ablageklassen und konnten das Auffinden verhindern
+      - Ende der 1890er Jahre mussten etwa 150.000 bis 200.000 anthropometrische Karten schrittweise umgestellt werden
+      - Nach einer amtlichen Vergleichsprüfung ersetzte die Regierung die Anthropometrie als primären Index für Strafakten
+    summary: >-
+      Ab 1892 machten Government of India und Bengal Police die modifizierte Bertillon-Anthropometrie zur politischen
+      Grundlage für das Auffinden früherer Akten von Gewohnheitstätern. Das System konnte Wiedererkennungen liefern, hing
+      in der Praxis aber davon ab, wiederholte Messungen fehlerfrei zu erheben, abzulesen und abzulegen. Das Komitee von
+      1897 dokumentierte Verwaltungsaufwand und Fehlerrisiken, empfahl die bengalische Fingerabdruckklassifikation, und der
+      Governor-General in Council verfügte am 12. Juni ihre allgemeine Einführung. Damit endete der politische Vorrang der
+      Anthropometrie; die physische Umstellung der angelegten Karteien dauerte über 1897 hinaus an.
     mechanism:
       summary: >-
-        Staatliche Anweisungen und polizeiliche Karteisysteme klassifizierten erwachsene Gefangene anhand standardisierter
-        Körpermaße, um mutmaßliche Wiederholungstäter zu erfassen, frühere Akten zu finden und zu vergleichen.
+        Staatliche Anweisungen und polizeiliche Karteien sortierten Gefangenenkarten nach standardisierten Körpermaßen.
+        Beamte erhoben jedes Maß wiederholt, legten die daraus gebildeten Kategorien zentral ab und durchsuchten wegen
+        möglicher Messfehler benachbarte Kategorien, bevor sie weitere Identitätsmerkmale einer möglichen Akte verglichen.
     institutionalCorrection:
-      periodLabel: 12. Juni 1897
-      action: Die Government of India ersetzte die anthropometrische Identifikation durch Fingerabdruckklassifikation.
+      periodLabel: Grundsatzentscheidung am 12. Juni 1897
+      action: >-
+        Der Governor-General in Council verfügte die allgemeine Einführung der Identifikation durch Fingerabdrücke in
+        Britisch-Indien und leitete damit die Ablösung anthropometrischer Strafkarteien ein.
       summary: >-
-        Nachdem ein amtliches Komitee Fingerabdrücke für dieselbe Identifikationsaufgabe als überlegen bewertet hatte,
-        ersetzte die Government of India die anthropometrische Kartei durch Fingerabdruckklassifikation.
+        Der Resolution ging die Feststellung eines Komitees der Government of India voraus, dass das bengalische
+        Fingerabdrucksystem der Anthropometrie für dieselbe Verwaltungsaufgabe überlegen sei. Der Status „korrigiert“
+        bezieht sich auf diese förmliche Umkehr der primären Identifikationspolitik; zeitgenössische Unterlagen zeigen,
+        dass die Umstellung der bestehenden Karteien zusätzliche Zeit beanspruchte.
 evidence:
   - id: bertillon-nlm-proposition
     note: >-
-      Beschreibt die Grundannahme des anthropometrischen Systems, wonach standardisierte Maße eine Identifikationsformel
-      bilden könnten, seine Übernahme durch die Pariser Polizei sowie praktische Probleme wie Kalibrierungsfehler und
-      Schwierigkeiten selbst geschulter Beamter, dieselben Maße zuverlässig zu reproduzieren.
+      Beschreibt die aus standardisierten Maßen, Fotografien und Beschreibungsmerkmalen gebildete Identifikationsformel,
+      die kartenbasierte Recherche und ihre polizeiliche Übernahme und belegt damit, dass das Bertillon-System über
+      Körpermaße allein hinausging.
+  - id: bertillon-nlm-biography-correction
+    note: >-
+      Benennt wiederkehrenden Kalibrierungs- und Wartungsbedarf, Arbeits- und Schulungsaufwand, voneinander abweichende
+      Wiederholungsmessungen selbst bei geschulten Beamten und altersbedingte Veränderungen der Maße.
   - id: bertillon-nlm-system-correction
     note: >-
-      Erläutert, wie anhand primärer Körpermaße mögliche Karteieinträge ausgewählt wurden, die anschließend mit Fotografien
-      und weiteren Merkmalen verglichen wurden.
+      Erläutert die fünf primären Messklassen und das querverwiesene Ablagesystem und verdeutlicht, dass die Maße mögliche
+      Karten mit Fotografien und weiteren Identitätsangaben auffindbar machten.
+  - id: bertillon-henry-proposition
+    note: >-
+      Das im Auftrag der Government of India erstellte Handbuch legt die Annahme stabiler ausgewählter Knochenmaße bei
+      Erwachsenen dar, beschreibt ihre Nutzung als Karteischlüssel und verzeichnet die Einführung des modifizierten
+      Systems in Bengalen im März 1892.
+  - id: bertillon-henry-correction
+    note: >-
+      Verzeichnet teure Instrumente, Fachschulung, Wiederholungsmessungen, Übertragungsrisiken, Suchspielräume für
+      Bedienungsabweichungen und wegen unterschiedlicher Wiederholungsmessungen verfehlte Fälle; der abgedruckte
+      Komiteebericht dokumentiert dieselben betrieblichen Schwächen und erkennt zugleich erzielte Wiedererkennungen an.
+  - id: bertillon-ijhs-impact
+    note: >-
+      Belegt das Schreiben Nr. 263 der Government of India vom 10. Mai 1892, das Anthropometric Bureau in Kalkutta und
+      die Resolution vom 12. Juni 1897 zur Einführung der Fingerabdruckerfassung in ganz Britisch-Indien.
+  - id: bertillon-henry-impact
+    note: >-
+      Verzeichnet die Einführung in Bengalen im März 1892, nahezu 200.000 Karten bis Ende 1898, Komitee und Resolution
+      von 1897 sowie die andauernde Ersetzung angelegter anthropometrischer Karten durch Fingerabdruckakten.
   - id: bertillon-settle-carrier
     note: >-
-      Fachhistorische Studie, die anthropometrische Karteikarten bei der Bengal Police auf März 1892 datiert und den
-      Übergang zur kriminalistischen Identifikation mittels Fingerabdrücken im Jahr 1897 beschreibt.
+      Die fachhistorische Studie datiert die versuchsweise anthropometrische Identifikation in bengalischen
+      Zentralgefängnissen und Henrys Einführung anthropometrischer Karteikarten in der Bengal Police auf 1892 und
+      verfolgt anschließend den amtlichen Übergang zu Fingerabdrücken.
+  - id: bertillon-henry-carrier
+    note: >-
+      Ein im Auftrag der Government of India erstelltes Handbuch bezeichnet Bengalen als erste Provinz mit dem
+      modifizierten System und gibt den Bericht des von der Government of India eingesetzten Komitees wieder.
   - id: bertillon-ijhs-mechanism
     note: >-
-      Historische Studie, die die Anweisung der Government of India vom 10. Mai 1892 zur Einführung des Bertillon-Systems
-      für Gewohnheitstäter und den anschließenden amtlichen Übergang zu Fingerabdrücken dokumentiert.
+      Beschreibt die sechs Körpermaße in Bengalen, den ergänzten Daumenabdruck und das dauerhafte Merkmal, die Anweisung
+      der Government of India zur Einführung sowie das Büro zur Führung der Karteien für Gewohnheitstäter.
+  - id: bertillon-henry-mechanism
+    note: >-
+      Erläutert, wie Maße Karten auf Ablageklassen verteilten, wie Dimensionen wiederholt erhoben und gemittelt wurden und
+      wie Fehlerspielräume die Recherche wegen möglicher Bedienungsabweichungen auf benachbarte Klassen ausdehnten.
   - id: bertillon-settle-consequences
+    note: >-
+      Verfolgt das Anthropometry Bureau, das polizeiliche Karteikartensystem, den Übergang zu Fingerabdrücken sowie den
+      Unterricht in Anthropometrie und Daktyloskopie an Polizeischulen und stützt damit die Folgen für Kartei und Schulung.
+  - id: bertillon-henry-consequences
+    note: >-
+      Beziffert die angelegten Akten und zeigt, wie Messfehler die Zahl zu durchsuchender Ablagefächer erhöhten, die
+      Recherche verlängerten und dazu führten, dass einige frühere Akten nicht gefunden wurden.
+  - id: bertillon-settle-context
+    note: >-
+      Benennt Azizul Haq und Hem Chandra Bose als Angehörige der Bengal Police, die zur Fingerabdruckklassifikation
+      beitrugen, und erörtert, wie ihre Arbeit in auf Inspector-General Edward Henry konzentrierten Darstellungen
+      unsichtbar gemacht wurde.
+  - id: bertillon-henry-institutional-correction
+    note: >-
+      Gibt das Ergebnis des Komitees vom 31. März 1897 wieder und verzeichnet die Weisung des Governor-General in Council
+      vom 12. Juni zur allgemeinen Einführung von Fingerabdrücken; der anschließende Text zeigt, dass die Umstellung
+      bestehender Karten weiterhin lief.
   - id: bertillon-ucla-correction
     note: >-
-      Historischer Überblick über die Bewertung eines amtlichen Komitees, dass Fingerabdrücke der Anthropometrie überlegen
-      seien, sowie über die Resolution der Government of India vom 12. Juni 1897 zur Einführung der Fingerabdruckidentifikation.
+      Der historische Überblick beschreibt unabhängig die Untersuchung der Government of India, deren Feststellung der
+      Überlegenheit von Fingerabdrücken und die Resolution zur Einführung der Fingerabdruckidentifikation in ganz Indien.
   - id: bertillon-ucla-belief-correction
-  - id: bertillon-ijhs-impact
+    note: >-
+      Ordnet die Unzufriedenheit mit der anthropometrischen Genauigkeit und deren Ablösung durch Fingerabdrücke in das
+      größere koloniale Identifikationssystem ein und weist zugleich auf die spätere Unterbewertung indischer
+      Polizeibeamter hin.

@@ -1,18 +1,62 @@
 schemaVersion: 2
 locale: de
 entryId: race-based-pulmonary-function-reference-values
-sourceReviewedAt: '2026-08-26'
-title: „Rassen“-basierte Referenzwerte der Lungenfunktion
+sourceReviewedAt: '2026-09-24'
+title: „Rassen“-abhängige Referenzwerte für Lungenfunktionstests
 proposition:
   summary: >-
-    „Rasse“ oder Ethnizität wurden als Patientenmerkmale behandelt, die bestimmen sollten, welche Referenzgleichungen oder
-    Korrekturfaktoren für die erwarteten Normalwerte der Lungenfunktion verwendet werden.
+    Fachliche Standards für Lungenfunktionstests behandelten „Rasse“ oder Ethnizität als Eingangsgröße für die Auswahl
+    erwarteter Werte. Sie bevorzugten gruppenspezifische Referenzgleichungen und erlaubten ersatzweise Zahlenfaktoren, die
+    aus weißen Bevölkerungen abgeleitete Referenzwerte für manche als Schwarz oder asiatisch eingestufte Menschen absenkten.
 correction:
   summary: >-
-    „Rasse“ und Ethnizität sind soziale Klassifikationen und keine festen biologischen Variablen, die sich für pauschale
-    physiologische Korrekturen eignen. Die aktuelle ATS-Empfehlung, die von der ERS unterstützt wird, sieht für die
-    Interpretation von Lungenfunktionstests rassenunabhängige durchschnittliche Referenzgleichungen vor und fordert zugleich
-    weitere Forschung zu den Folgen der Umstellung.
+    „Rasse“ und Ethnizität sind soziale Klassifikationen und keine direkten Messgrößen der individuellen Lungenphysiologie.
+    Die aktuelle ATS-Empfehlung, die von der ERS unterstützt wird, sieht für die Spirometrie die rassenunabhängige
+    Durchschnittsgleichung GLI Global vor und lehnt „Rassenkorrekturfaktoren“ für Lungenvolumina und Diffusionskapazität ab.
+    Auch diese statistischen Referenzen bleiben unvollkommen: Sie definieren weder ideale Gesundheit noch stellen sie allein
+    eine Diagnose; Werte nahe einer Schwelle erfordern klinischen Kontext, frühere Tests und weitere Befunde.
+impact:
+  summary: >-
+    Referenzgleichungen verändern nicht die ausgeatmete Luftmenge, sondern den Sollwert, die untere Normgrenze und den
+    Schweregrad, mit denen die Messung verglichen wird. Derselbe Messwert konnte deshalb im historischen System je nach
+    rassischer oder ethnischer Einstufung unterschiedlich interpretiert werden. Studien dokumentieren umfangreiche
+    Neueinstufungen beim Gleichungswechsel; eine Neueinstufung allein begründet jedoch weder eine neue Diagnose noch beweist
+    sie Nutzen oder Schaden. Ihre Folgen hängen davon ab, wie klinische Versorgung, Beschäftigung, Erwerbsminderung,
+    Versicherung und Transplantationswesen die resultierenden Schwellenwerte verwenden.
+  highlights:
+    - value: ≈12 %
+      label: Beispiel von 2005 für die Absenkung der erwarteten TLC, FEV1 und FVC bei Schwarzen Probandinnen und Probanden
+      note: Der gemeinsame Standard stellte dies als durchschnittliche Anpassung bei fehlender geeigneter gruppenspezifischer Gleichung dar, nicht als individuelle physiologische Messung; für FRC und RV nannte er ungefähr 7 %.
+    - value: 12,5 Millionen
+      label: US-Einwohner mit modelliertem Wechsel der Einstufung einer Ventilationsstörung unter GLI Global
+      note: Eine Modellstudie von 2024 projizierte dies für 249 Millionen Menschen im Alter von 6 bis 79 Jahren, die hochwertige Spirometrie leisten können; es war keine Zählung beobachteter Diagnosen oder Schädigungen.
+    - value: 54 %
+      label: von 66 befragten Pneumologinnen und Pneumologen meldeten 2026 eine rassenunabhängige Gleichung in ihrem PFT-Labor
+      note: Die Rücklaufquote betrug 29 %, und 95 % der Befragten arbeiteten im akademischen Bereich; die Erhebung belegt daher eine unvollständige Umstellung in dieser Stichprobe und keine nationale Prävalenz.
+  context:
+    - >-
+      Der Standard von 2005 bevorzugte rassen- oder ethniespezifische Gleichungen. Seine Ersatzbeispiele senkten aus weißen
+      Referenzpopulationen abgeleitete Sollwerte für TLC, FEV1 und FVC bei Schwarzen Probandinnen und Probanden um ungefähr
+      12 %, für FRC und RV um ungefähr 7 % und verwendeten für Asian Americans den Faktor 0,94. Ein offizieller arbeitsmedizinischer
+      ATS-Standard von 2014 bezeichnete Faktoren bei fehlender geeigneter Gleichung weiterhin als angemessen, änderte sein
+      Beispiel für Asian Americans aber auf 0,88. Es waren Regeln für Bevölkerungsgruppen und keine Messungen jener individuellen
+      Eigenschaften, mit denen durchschnittliche Unterschiede erklärt wurden.
+    - >-
+      In einer Studie aus einem akademischen Zentrum veränderte die Anwendung von GLI Global statt GLI 2012 auf 2.722 Schwarze
+      und 5.709 weiße Patientinnen und Patienten die modellierte Häufigkeit eines restriktiven Musters in der Schwarzen Gruppe
+      von 26,8 % auf 37,5 % und in der weißen Gruppe von 22,6 % auf 18,0 %. Das sind Neuinterpretationen gespeicherter Tests,
+      keine beobachteten Veränderungen der Lunge, gesicherten Diagnosen oder Behandlungsergebnisse.
+    - >-
+      Eine Studie von 2024 projizierte US-weite Änderungen bei Krankheitsklassifikation, beruflicher Eignung,
+      Beeinträchtigungsgraden und Entschädigungszahlungen. Rassenabhängige und rassenunabhängige Gleichungen unterschieden
+      die untersuchten respiratorischen Ergebnisse ähnlich gut, ordneten aber Millionen Menschen unterschiedlich ein. Die
+      Autoren betonten, dass Schwellenänderungen Sensitivität gegen Spezifität austauschen können und ihre nationalen Zahlen
+      potenzielle Neueinstufungen modellieren, nicht automatisch nützliche oder schädliche Ergebnisse.
+    - >-
+      Ein Gleichungswechsel kann in einem Längsverlauf einen scheinbaren Bruch erzeugen, obwohl die gemessenen Volumina
+      unverändert sind. Die Stellungnahme von 2023 fordert deshalb eine klare Kennzeichnung und Aufklärung, die Prüfung
+      früherer Messungen und eine Neubewertung von Regeln, die statistische Referenzwerte in harte klinische oder
+      administrative Schwellen verwandeln.
 episodes:
   - id: ats-ers-2005-2023
     polity: Vereinigte Staaten und Europa
@@ -20,50 +64,147 @@ episodes:
     institutions:
       - American Thoracic Society (ATS)
       - European Respiratory Society (ERS)
+      - Global Lung Function Initiative (GLI)
     institutionalContext: >-
-      Der gemeinsame ATS/ERS-Standard von 2005 wies darauf hin, dass Patienten ihre „Rasse“ beziehungsweise ethnische
-      Zugehörigkeit angeben sollten, und empfahl nach Möglichkeit gruppenspezifische Referenzgleichungen;
-      Korrekturfaktoren dienten als Ersatzlösung. Diese Referenzwerte beeinflussten, ob gemessene Lungenfunktionswerte als
-      normal oder auffällig eingestuft wurden. Die rassenbezogene Interpretation blieb bis in die frühen 2020er-Jahre Teil
-      fachlicher Standards. 2023 empfahl eine offizielle ATS-Stellungnahme, die von der ERS unterstützt wurde,
-      rassen- und ethniespezifische Gleichungen durch rassenunabhängige durchschnittliche Referenzgleichungen zu ersetzen.
-    summary: >-
-      ATS/ERS-Standards beschrieben Bevölkerungsunterschiede nicht nur, sondern machten „Rasse“ und Ethnizität zu
-      operativen Variablen der Referenzwerte, anhand derer Lungenfunktionstests interpretiert wurden. 2023 kehrte die ATS
-      diesen Ansatz mit Unterstützung der ERS um und empfahl rassenunabhängige Durchschnittsgleichungen.
+      Diese Episode beginnt mit dem gemeinsamen ATS/ERS-Interpretationsstandard von 2005 und nicht mit den wesentlich älteren
+      Ursprüngen rassisierter Spirometrie. Der Standard forderte Patientinnen und Patienten auf, ihre „Rasse“ oder ethnische
+      Gruppe anzugeben, bevorzugte dazu passende gruppenspezifische Gleichungen und erlaubte ersatzweise feste Faktoren.
+      GLI 2012 lieferte anschließend Gleichungen mit den Bezeichnungen Caucasian, African American, North East Asian und
+      South East Asian sowie eine gemittelte Kategorie „Other“ und drängte auf die breite Umsetzung in Geräten. Ein offizieller
+      arbeitsmedizinischer ATS-Standard befürwortete 2014 weiterhin gruppenspezifische Gleichungen oder einen Ersatzfaktor.
+      Der gemeinsame Standard von 2022 verwarf feste „Rassenfaktoren“ eindeutig, blieb aber eine Übergangsposition: Er empfahl
+      GLI-Gleichungen und hielt je nach Kontext entweder eine ähnliche Abstammungsgruppe oder die Gesamtbevölkerung für eine
+      mögliche Vergleichsgruppe. Erst die von der ERS unterstützte ATS-Stellungnahme von 2023 empfahl ausdrücklich, die
+      rassen- und ethniespezifische Interpretation durch eine rassenunabhängige Durchschnittsgleichung zu ersetzen.
     consequences:
-      - Rassenabhängige Schwellenwerte für die Einstufung von Lungenfunktionswerten als normal oder auffällig
-      - Mögliche verzögerte Erkennung oder geringer eingeschätzte Schwere von Atemwegserkrankungen bei Personen, deren Gruppe niedrigere Referenzwerte erhielt
-      - Rassenabhängige Auswirkungen auf Entscheidungen zu Behandlung, Erwerbsunfähigkeit, Beschäftigung, Versicherung und Transplantationspriorisierung
-      - Notwendige Umstellung von Laborberichten und klinischer Interpretation nach der Empfehlung von 2023
+      - Derselbe Messwert konnte je nach rassischer oder ethnischer Einstufung andere Sollwerte, untere Normgrenzen und Schweregrade erhalten
+      - Gruppenspezifische Referenzen konnten die Erkennung einer Beeinträchtigung oder den Zugang zu Abklärung und Therapie bei Menschen verzögern, die mit einem niedrigeren Sollwert verglichen wurden
+      - Gleichungsabhängige Schwellen beeinflussten klinische Abklärung, Operation und Transplantationsüberweisung sowie Entscheidungen über Beschäftigung, Erwerbsminderung und Versicherung
+      - Der Gleichungswechsel stufte Ergebnisse in beide Richtungen neu ein und konnte bei unveränderter Messung die Raten richtig- und falsch-positiver Ergebnisse verändern
+      - Labore, Gerätesoftware und nachgelagerte Regeln mussten abgestimmt geändert werden, damit Längsberichte keinen allein durch eine neue Gleichung verursachten physiologischen Wandel vortäuschten
+    summary: >-
+      ATS/ERS-Empfehlungen machten „Rasse“ und Ethnizität zu operativen Größen der Interpretation und beschrieben nicht nur
+      Mittelwerte von Populationen. Labore wählten anhand der Kategorie eines Menschen eine Gleichung oder einen Faktor;
+      GLI 2012 gab diesem Ansatz ein altersübergreifendes Referenzsystem mit mehreren Gruppen. Der gemeinsame Standard von 2022
+      lehnte feste Faktoren ab und räumte unsichere genetische, soziale und umweltbedingte Erklärungen ein, gab den Bezug auf
+      Abstammungsgruppen aber noch nicht vollständig auf. Die von der ERS unterstützte ATS-Stellungnahme von 2023 vollzog die
+      formale Umkehr und empfahl GLI Global. Zugleich warnte sie vor der Unsicherheit von Referenzgleichungen und forderte eine
+      Prüfung der zahlreichen schwellenbasierten Verwendungen von PFTs.
     mechanism:
       summary: >-
-        Gemeinsame Fachstandards wiesen Labore und Kliniker an, rassen- oder ethniespezifische Referenzgleichungen oder
-        numerische Korrekturfaktoren zur Bestimmung erwarteter Normalwerte zu verwenden.
+        Fachstandards gaben Laboren Referenzpopulationen oder Zahlenfaktoren vor; GLI kodierte die Kategorien in Gleichungen;
+        Hersteller und Laborinformationssysteme wandelten die ausgewählte Kategorie in Sollwerte, Normgrenzen und
+        Schweregrade auf Befundberichten um.
     institutionalCorrection:
-      periodLabel: '2023'
-      action: Die ATS empfahl in einer von der ERS unterstützten offiziellen Stellungnahme rassenunabhängige durchschnittliche Referenzgleichungen statt rassen- und ethniespezifischer Gleichungen.
+      periodLabel: ab 2023
+      action: >-
+        Die ATS empfahl in einer von der ERS unterstützten offiziellen Stellungnahme GLI Global für eine rassenunabhängige
+        Spirometrie, lehnte „Rassenkorrekturfaktoren“ für andere PFTs ab und forderte die Prüfung schwellenbasierter Entscheidungen.
       summary: >-
-        Die Fachgesellschaften kehrten den früheren rassenbezogenen Interpretationsstandard um und empfahlen ausdrücklich
-        einen rassenunabhängigen Rahmen für die Interpretation von Lungenfunktionstests.
+        Die fachliche Empfehlung wurde umgekehrt, doch die Korrektur ist in der Praxis und in der Evidenz unvollständig. Das
+        Gremium von 2023 betonte begrenzte Daten zu Lungenvolumina und Diffusionskapazität, unterrepräsentierte Populationen in
+        GLI Global, unsichere Folgen nahe Entscheidungsschwellen und den Änderungsbedarf außerhalb der PFT-Labore. In einer
+        kleinen, von akademisch tätigen Pneumologinnen und Pneumologen geprägten Erhebung von 2026 berichteten 54 %, ihr
+        Labor verwende eine rassenunabhängige Gleichung.
 evidence:
   - id: pft-2005-proposition
     note: >-
-      Gemeinsamer Interpretationsstandard von 2005, der die Angabe von „Rasse“ oder ethnischer Zugehörigkeit vorsah und
-      nach Möglichkeit gruppenspezifische Referenzgleichungen sowie ersatzweise Korrekturfaktoren empfahl.
+      Der gemeinsame Standard fordert die Selbsteinstufung nach „Rasse“ oder ethnischer Gruppe, bevorzugt gruppenspezifische
+      Referenzgleichungen und erlaubt bei fehlenden geeigneten Gleichungen veröffentlichte Anpassungsfaktoren.
+  - id: pft-gli-2012-proposition
+    note: >-
+      Die ERS-Arbeitsgruppe leitete getrennte Gleichungen für Caucasian, African-American, North East Asian und South East
+      Asian sowie eine gemittelte Gleichung „Other“ ab und empfahl die breite Umsetzung des Referenzsystems.
   - id: pft-2023-correction
     note: >-
-      Offizielle ATS-Stellungnahme von 2023, von der ERS unterstützt, die rassen- und ethniespezifische Gleichungen durch
-      rassenunabhängige Durchschnittsgleichungen ersetzen will und eine Neubewertung klinischer, arbeitsmedizinischer und
-      versicherungsbezogener PFT-Entscheidungen fordert.
-  - id: pft-2005-carrier
-  - id: pft-2005-mechanism
-  - id: pft-ats-consequences
+      Die offizielle ATS-Stellungnahme beschreibt „Rasse“ als soziales Konstrukt, empfiehlt rassenunabhängige
+      Durchschnittsgleichungen und verlangt bei Werten nahe der Normgrenze Anamnese, weitere Tests, Bildgebung und andere Befunde.
+  - id: pft-gli-global-correction
     note: >-
-      ATS-Zusammenfassung der Korrektur von 2023, einschließlich der Gründe für die Abkehr von rassenbezogenen Gleichungen
-      und möglicher Folgen für Diagnose, Behandlung und andere folgenreiche Entscheidungen.
+      Leitet GLI Global aus den ursprünglichen Daten ab, ohne „Rasse“ oder Ethnizität bei der Anwendung zu verlangen, berichtet
+      breitere Normgrenzen und mahnt, jede Referenzgleichung zusammen mit Symptomen und Krankengeschichte zu verwenden.
+  - id: pft-reclassification-impact
+    note: >-
+      Interpretiert 8.431 Tests aus einem akademischen Zentrum neu und quantifiziert entgegengesetzte Änderungen bei
+      restriktiven Mustern und Schweregraden Schwarzer und weißer Patientinnen und Patienten; Diagnosen, Behandlungsänderungen
+      oder Ergebnisse nach einer praktischen Umstellung wurden nicht gemessen.
+  - id: pft-implications-impact
+    note: >-
+      Projiziert anhand mehrerer Kohorten US-weite klinische, berufliche und finanzielle Neueinstufungen, darunter 12,5 Millionen
+      Einstufungen von Ventilationsstörungen, und trennt modellierte Schwellenfolgen von beobachteten Behandlungsergebnissen.
+  - id: pft-implementation-impact
+    note: >-
+      Von 66 Befragten meldeten 54 % eine rassenunabhängige Gleichung im eigenen Labor; die Rücklaufquote von 29 % und die
+      überwiegend akademische Stichprobe begrenzen jeden Schluss auf die nationale Verbreitung erheblich.
+  - id: pft-2005-carrier
+    note: >-
+      Direkter gemeinsamer ATS/ERS-Standard, der die beiden Fachgesellschaften als Herausgeber der Interpretationsregeln belegt.
+  - id: pft-gli-2012-carrier
+    note: >-
+      Weist die ERS Global Lung Function Initiative als Arbeitsgruppe aus, die Gleichungen für mehrere Gruppen erstellte und
+      Fachgesellschaften sowie Geräteanwender zu ihrer Einführung aufforderte.
+  - id: pft-occupational-carrier
+    note: >-
+      Offizieller ATS-Standard, der zeigt, dass gruppenspezifische Gleichungen oder ersatzweise Korrekturfaktoren 2014 in der
+      arbeitsmedizinischen Spirometrie weiterhin empfohlen wurden.
+  - id: pft-2023-carrier
+    note: >-
+      Dokumentiert die ATS-Genehmigung im Februar 2023 und die ERS-Unterstützung im März 2023 und damit den institutionellen Status der Umkehr.
+  - id: pft-2005-mechanism
+    note: >-
+      Legt Selbsteinstufung, Auswahl einer gruppenspezifischen Gleichung und ersatzweise Anpassungen von ungefähr 12 %, 7 %
+      oder 0,94 für bestimmte Messgrößen und Gruppen fest; der verwendete Faktor sollte auf dem Befund stehen.
+  - id: pft-gli-2012-mechanism
+    note: >-
+      Kodiert vier benannte rassische oder geografische Gruppen und eine gemittelte Kategorie „Other“ in kontinuierlichen,
+      altersübergreifenden Referenzgleichungen zur Umsetzung in Spirometriegeräten.
+  - id: pft-2022-mechanism
+    note: >-
+      Verwirft feste „Rassenfaktoren“ eindeutig, hält aber je nach Kontext eine ähnliche Abstammungsgruppe oder die
+      Gesamtbevölkerung als Vergleich für möglich und dokumentiert damit eine Übergangsposition vor der Empfehlung von 2023.
+  - id: pft-occupational-mechanism
+    note: >-
+      Bevorzugt populationsspezifische Gleichungen, bezeichnet einen Faktor jedoch als angemessene Übergangslösung und
+      empfiehlt für asiatische Populationen in Nordamerika, weiße FEV1- und FVC-Referenzwerte mit 0,88 zu multiplizieren.
+  - id: pft-2005-consequences
+    note: >-
+      Erläutert den Einfluss der Referenzwahl auf die Einordnung gegenüber der unteren Normgrenze und warnt, dass ein
+      Gleichungswechsel besonders bei Werten nahe einer Auffälligkeitsschwelle die Interpretation verändern kann.
+  - id: pft-2023-consequences
+    note: >-
+      Zeigt, wie die Referenzwahl Schwellen für Versicherung, Beatmungsunterstützung, Transplantationsüberweisung und Operation
+      überschreiten kann, und erörtert mögliche Schäden sowohl der Beibehaltung als auch des Gleichungswechsels.
+  - id: pft-reclassification-consequences
+    note: >-
+      Dokumentiert, dass allein der Gleichungswechsel physiologische Muster und Schweregrade in den beiden untersuchten Gruppen
+      gegensätzlich veränderte, und fordert weitere Forschung zu Diagnose, Überweisung und Behandlung.
+  - id: pft-implications-consequences
+    note: >-
+      Findet eine ähnliche Trennschärfe für untersuchte respiratorische Ergebnisse, aber große modellierte Unterschiede bei
+      schwellenabhängigen Einstufungen, Eignungen und Zahlungen; zu den Grenzen gehören reine US-Projektionen und Anwendungen,
+      denen eine Person womöglich nie begegnet.
   - id: pft-2022-context
     note: >-
-      Gemeinsamer technischer Standard von 2022, der den ATS/ERS-Rahmen von 2005 und den fachlichen Kontext unmittelbar vor
-      der Empfehlung für rassenunabhängige Gleichungen dokumentiert.
+      Stellt der Präferenz für gruppenspezifische Gleichungen von 2005 die Ablehnung fester Faktoren, die Unsicherheit über
+      genetische, soziale und umweltbedingte Ursachen und fortbestehende Vorsicht bei der Vergleichspopulation gegenüber.
+  - id: pft-2023-context
+    note: >-
+      Unterscheidet gruppenspezifische Gleichungen von festen Faktoren, erklärt GLI Global als gewichtetes „Rassen“-Komposit
+      mit größerer Unsicherheit und weist auf viele weiterhin fehlende Weltbevölkerungen in den Ausgangsdaten hin.
+  - id: pft-gli-global-context
+    note: >-
+      Dokumentiert die 2023 übernommene rassenunabhängige Vergleichsgleichung: eine gewichtete Neuauswertung der GLI-2012-Daten,
+      die bei der Anwendung keine „Rasse“ verlangt, aber breitere Normgrenzen hat und weder jede Population noch ideale
+      individuelle Gesundheit abbildet.
   - id: pft-2023-institutional-correction
+    note: >-
+      Empfiehlt rassenunabhängige Durchschnittsgleichungen, benennt GLI Global für Spirometrie, lehnt Faktoren für
+      Lungenvolumina und Diffusionskapazität ab und fordert eine breitere Prüfung PFT-abhängiger Entscheidungen.
+  - id: pft-ats-summary-institutional-correction
+    note: >-
+      Die öffentliche ATS-Mitteilung stellt GLI Global als institutionellen Kurswechsel vor, bestätigt die ERS-Unterstützung
+      und betont weitere Forschung sowie die Neubewertung schwellenbasierter Entscheidungen.
+  - id: pft-implementation-institutional-correction
+    note: >-
+      Begründet die Einstufung als teilweise statt vollständig korrigiert: Drei Jahre nach der Empfehlung meldete nur etwas
+      mehr als die Hälfte dieser kleinen, überwiegend akademischen Stichprobe eine rassenunabhängige Gleichung im Labor.

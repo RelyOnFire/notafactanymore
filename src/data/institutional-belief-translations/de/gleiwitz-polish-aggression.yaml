@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: gleiwitz-polish-aggression
-sourceReviewedAt: '2026-08-25'
+sourceReviewedAt: '2026-09-24'
 title: Der Überfall auf den Sender Gleiwitz als polnische Aggression
 proposition:
   summary: >-
@@ -12,32 +12,37 @@ correction:
   summary: >-
     Der Vorfall vom 31. August 1939 war kein polnischer Angriff, sondern eine von Reinhard Heydrich angeordnete Operation
     des deutschen Sicherheitsapparats. Alfred Naujocks erklärte später unter Eid, Heydrich habe ihm befohlen, einen
-    Angriff vorzutäuschen, die Angreifer als Polen erscheinen zu lassen und damit Beweise für die ausländische Presse
-    und deutsche Propaganda zu schaffen. Am nächsten Morgen überfiel Deutschland Polen; der Angriffskrieg war jedoch
-    bereits geplant. Gleiwitz war ein fabrizierter Vorwand innerhalb der Aggressionserzählung, nicht der Auslöser der Invasionsentscheidung.
+    Angriff vorzutäuschen, die Angreifer als Polen erscheinen zu lassen und damit verwertbare Beweise für die ausländische
+    Presse und die deutsche Propaganda zu schaffen. Am nächsten Morgen überfiel Deutschland Polen. Der Angriffskrieg
+    war jedoch bereits geplant; Gleiwitz war ein fabrizierter Vorwand innerhalb der Aggressionserzählung, nicht der
+    Auslöser der Invasionsentscheidung.
 impact:
   summary: >-
-    Gleiwitz zeigt, wie ein Staat einen vermeintlichen Tatsachenbeleg gezielt herstellen und zur Rechtfertigung
-    militärischer Aggression einsetzen kann. Eine kleine deutsche Sicherheitsdienstgruppe besetzte den Sender, sendete
-    kurz auf Polnisch und gab Schüsse ab. Am 1. September stellte Hitler Deutschland öffentlich als Opfer polnischer
-    Angriffe dar. Die Aktion lieferte inszeniertes Beweismaterial für eine bereits beschlossene Politik.
+    Gleiwitz zeigt, wie ein Staat einen vermeintlichen Tatsachenbeleg gezielt herstellen und anschließend zur
+    Rechtfertigung militärischer Aggression einsetzen kann. Eine kleine deutsche SD-Gruppe besetzte den Sender,
+    sendete kurz auf Polnisch und gab Schüsse ab. Am 1. September stellte Hitler Deutschland öffentlich als Opfer
+    polnischer Angriffe dar. Die Aktion lieferte inszeniertes Beweismaterial für eine bereits beschlossene Politik;
+    sie brachte diese Politik nicht erst hervor.
   highlights:
     - value: 5–6
-      label: weitere SD-Männer, die Naujocks nach eigener Aussage auf Heydrichs Befehl begleiteten
+      label: weitere SD-Männer, die Naujocks nach eigener Aussage auf Heydrichs Befehl nach Gleiwitz begleiteten
     - value: 3–4 Minuten
       label: ungefähre Dauer der polnischsprachigen Sendung laut Naujocks' eidesstattlicher Erklärung
     - value: 1 Tag
-      label: vom inszenierten Vorfall bis zum deutschen Überfall auf Polen am folgenden Morgen
+      label: vom inszenierten Vorfall in Gleiwitz bis zum deutschen Überfall auf Polen am folgenden Morgen
       note: Die zeitliche Abfolge bedeutet nicht, dass Gleiwitz den Überfall verursachte; der Angriff auf Polen war bereits geplant.
   context:
     - >-
-      Hitler nannte Gleiwitz in seiner Reichstagsrede vom 1. September nicht beim Namen, sondern behauptete allgemeiner,
-      reguläre polnische Soldaten hätten auf deutsches Gebiet geschossen.
+      Hitler nannte Gleiwitz in seiner Reichstagsrede vom 1. September nicht beim Namen. Er behauptete allgemeiner,
+      reguläre polnische Soldaten hätten auf deutsches Gebiet geschossen und Deutschland schieße nun zurück.
     - >-
-      Das Reichssicherheitshauptamt bestand im August 1939 noch nicht formell; es wurde erst am 27. September 1939 geschaffen.
+      Das Reichssicherheitshauptamt bestand im August 1939 noch nicht formell; es wurde erst am 27. September
+      1939 geschaffen. Die stärkste Primärquelle bezeichnet Heydrich zu diesem Zeitpunkt als Chef der
+      Sicherheitspolizei und des SD.
     - >-
-      Populäre Darstellungen ergänzen häufig Details, die über Naujocks' eidesstattliche Aussage hinausgehen und für den
-      Nachweis der inszenierten Aktion nicht erforderlich sind.
+      Populäre Darstellungen ergänzen häufig Details zu polnischen Uniformen oder identifizieren den Naujocks übergebenen
+      bewusstlosen Mann mit einem bestimmten Opfer. Solche Details gehen über den unmittelbar belegten Inhalt von Naujocks' Aussage hinaus und sind
+      für den Nachweis der inszenierten Aktion und ihres Propagandazwecks nicht erforderlich.
 episodes:
   - id: nazi-germany-1939
     polity: NS-Deutschland
@@ -47,10 +52,12 @@ episodes:
     institutionalContext: >-
       Naujocks sagte aus, Heydrich habe ihm um den 10. August 1939 persönlich befohlen, einen Angriff auf den Sender
       Gleiwitz zu simulieren und die Angreifer als Polen erscheinen zu lassen. Als Zweck habe Heydrich verwertbare
-      Beweise für die ausländische Presse und deutsche Propaganda genannt. Naujocks führte die Aktion am Abend des
-      31. August mit fünf oder sechs weiteren SD-Männern aus. Am 1. September behauptete Hitler im Reichstag, reguläre
-      polnische Soldaten hätten auf deutsches Gebiet geschossen. Das Bundesarchiv ordnet Gleiwitz und weitere
-      Grenzzwischenfälle ausdrücklich als nationalsozialistische Inszenierungen ein.
+      Beweise für die ausländische Presse und die deutsche Propaganda genannt. Naujocks fuhr mit fünf oder sechs weiteren
+      SD-Männern nach Gleiwitz und führte die Aktion am Abend des 31. August aus. Die Gruppe besetzte den Sender, nutzte
+      einen Notsender für eine kurze polnischsprachige Durchsage, gab Pistolenschüsse ab und zog sich zurück. Am
+      1. September, während deutsche Truppen Polen angriffen, behauptete Hitler im Reichstag, reguläre polnische Soldaten
+      hätten auf deutsches Gebiet geschossen. Das Bundesarchiv ordnet Gleiwitz und weitere Grenzzwischenfälle ausdrücklich
+      als nationalsozialistische Inszenierungen ein, die einen bereits geplanten Angriff rechtfertigen sollten.
     consequences:
       - Herstellung fingierter Beweise für ausländische Presse und deutsche Propaganda
       - Einbindung inszenierter Grenzzwischenfälle in die offizielle Behauptung polnischer Angriffe auf deutsches Gebiet
@@ -58,29 +65,88 @@ episodes:
       - Nutzung eines fabrizierten Vorfalls als Bestandteil der propagandistischen Rechtfertigung des Überfalls auf Polen
     summary: >-
       Gleiwitz war keine irrtümliche Grenzmeldung. Heydrich beauftragte eine deutsche Sicherheitsdienstgruppe damit,
-      einen scheinbar polnischen Angriff zu produzieren und verknüpfte die Aktion ausdrücklich mit Presse- und
-      Propagandazwecken. Die Rolle des Vorfalls bleibt eng: Er lieferte scheinbare Belege für die Aggressionserzählung,
-      nicht die Entscheidung zum Krieg.
+      einen scheinbar polnischen Angriff zu produzieren, und verknüpfte die Aktion ausdrücklich mit Presse- und
+      Propagandazwecken. Die inszenierte Sendung fand am 31. August 1939 statt; am nächsten Tag behauptete Hitler öffentlich,
+      polnische Kräfte hätten deutsches Gebiet beschossen, während Deutschland Polen überfiel. Damit handelt es sich um
+      eine institutionell eingesetzte Fabrikation. Ihre Rolle bleibt jedoch eng zu formulieren: Sie lieferte scheinbare
+      Belege für die Aggressionserzählung, nicht die Entscheidung zum Krieg.
     mechanism:
       summary: >-
         Deutsche Sicherheitsdienste fabrizierten einen Grenzzwischenfall und die Reichsregierung band angebliche
         polnische Angriffe in eine öffentliche Propaganda ein, die deutsches Militärhandeln als defensive Reaktion darstellte.
     institutionalCorrection:
       summary: >-
-        NS-Deutschland nahm die fabrizierte Aggressionserzählung vor dem Zusammenbruch des Regimes institutionell nicht
-        zurück. Spätere Aussagen und deutsche Archivinstitutionen belegten die Inszenierung, werden hier aber nicht als
-        Selbstkorrektur des ursprünglichen Trägers gewertet.
+        Die geprüften Quellen dokumentieren keine institutionelle Rücknahme der fabrizierten Aggressionserzählung durch
+        NS-Deutschland vor dem Zusammenbruch des Regimes. Eidesstattliche Nachkriegsaussagen und das Bundesarchiv
+        identifizierten die Aktion später als Inszenierung; dabei handelt es sich um externe Befunde und nicht um eine
+        Selbstkorrektur der ursprünglichen Träger.
 evidence:
   - id: gleiwitz-naujocks-proposition
     note: >-
-      Naujocks' eidesstattliche Erklärung sagt aus, Heydrich habe einen simulierten polnischen Angriff für Presse- und Propagandazwecke angeordnet.
+      In seiner eidesstattlichen Erklärung vom 20. November 1945 sagt Naujocks, Heydrich habe ihm persönlich befohlen,
+      in Gleiwitz einen polnischen Angriff zu simulieren, die Angreifer als Polen erscheinen zu lassen und verwertbare
+      Beweise für die ausländische Presse und deutsche Propaganda zu schaffen. Sie dokumentiert die Herstellung der
+      Anschuldigung und bestätigt nicht die Wahrheit des angeblichen polnischen Angriffs.
   - id: gleiwitz-bundesarchiv-correction
     note: >-
-      Das Bundesarchiv bezeichnet Gleiwitz und verwandte Grenzzwischenfälle als NS-Fabrikationen und stellt fest, dass der Überfall auf Polen bereits geplant war.
+      Das Bundesarchiv bezeichnet Hitlers Vergeltungsbehauptung als Lüge, ordnet Gleiwitz und weitere Grenzzwischenfälle
+      als nationalsozialistische Fabrikationen und Vorwände ein und stellt fest, dass der Überfall auf Polen bereits seit
+      längerer Zeit geplant war.
   - id: gleiwitz-naujocks-impact
+    note: >-
+      Die eidesstattliche Erklärung belegt die Naujocks zugeschriebenen Wirkungsdetails: fünf oder sechs weitere SD-Männer,
+      die Aktion am Vorabend des deutschen Angriffs, eine drei bis vier Minuten lange polnischsprachige Sendung,
+      Pistolenschüsse und den anschließenden Rückzug.
+  - id: gleiwitz-bundesarchiv-impact
+    note: >-
+      Das Bundesarchiv datiert den Überfall auf den Morgen des 1. September, bezeichnet Gleiwitz als fabrizierten Vorwand
+      und hält fest, dass die Invasion bereits geplant war. Dies stützt die eintägige Abfolge, ohne daraus Kausalität abzuleiten.
   - id: gleiwitz-naujocks-carrier
+    note: >-
+      Naujocks bezeichnet sich als Angehörigen des SD und Heydrich als Chef der Sicherheitspolizei und des SD; anschließend
+      schreibt er Heydrich den Befehl und die Zuweisung von fünf oder sechs SD-Männern unmittelbar zu. Der Eintrag nennt
+      deshalb die damalige Dienststelle und nicht das noch nicht gegründete RSHA.
+  - id: gleiwitz-hitler-carrier
+    note: >-
+      Hitlers öffentliche Reichstagsrede als Reichskanzler belegt unmittelbar die Rolle der Reichsregierung bei der
+      Darstellung deutschen Militärhandelns als Reaktion auf angeblichen polnischen Beschuss. Gleiwitz nennt die Rede
+      nicht beim Namen.
   - id: gleiwitz-naujocks-mechanism
+    note: >-
+      Die Erklärung dokumentiert die Fabrikationsseite des Mechanismus: Heydrichs Befehl, den erklärten Presse- und
+      Propagandazweck, die Besetzung des Senders, die polnischsprachige Durchsage und die inszenierten Schüsse.
+  - id: gleiwitz-hitler-mechanism
+    note: >-
+      Hitlers Rede dokumentiert die Veröffentlichungsseite des Mechanismus, indem sie angebliche polnische Grenzvorfälle
+      und Schüsse in die öffentliche Behauptung einer defensiven deutschen Vergeltung überführte. Sie belegt die breitere
+      Erzählung, nicht eine namentliche Erwähnung von Gleiwitz durch Hitler.
   - id: gleiwitz-hitler-consequences
     note: >-
-      Hitlers Rede vom 1. September behauptete öffentlich, reguläre polnische Soldaten hätten deutsches Gebiet beschossen, und stellte deutsches Handeln als Gegenfeuer dar.
+      Hitlers Rede vom 1. September behauptete öffentlich, reguläre polnische Soldaten hätten deutsches Gebiet beschossen,
+      und stellte deutsches Handeln als Gegenfeuer dar. Damit dokumentiert sie unmittelbar die amtliche Erzählung einer
+      defensiven Vergeltung; dass die Behauptung falsch war, belegt die getrennte Quelle des Bundesarchivs.
+  - id: gleiwitz-bundesarchiv-consequences
+    note: >-
+      Das Bundesarchiv verbindet die fingierten Grenzzwischenfälle einschließlich Gleiwitz mit ihrer Nutzung als Vorwände
+      für den Überfall und stellt Hitlers öffentliche Vergeltungsbehauptung dem länger bestehenden Invasionsplan gegenüber.
+      Dies stützt die eng gefasste Kausalität des Eintrags: propagandistische Rechtfertigung, nicht Invasionsentscheidung.
   - id: gleiwitz-bundesarchiv-context
+    note: >-
+      Der Leitfaden datiert den Angriffsbeginn auf etwa 4:47 Uhr am 1. September und verweist auf die unter dem Decknamen
+      „Fall Weiß“ überlieferte Vorkriegsplanung. Er liefert Chronologie und Planungskontext, nicht die Einzelheiten von
+      Naujocks' Operationsbericht.
+  - id: gleiwitz-naujocks-context-limitations
+    note: >-
+      Für die Gleiwitz-Aktion beschreibt Naujocks einen bewusstlosen, nicht identifizierten Mann in Zivilkleidung und nennt
+      keinen Namen. Die Beschränkung auf den Inhalt der eidesstattlichen Erklärung verhindert, dass Einzelheiten aus
+      anderen inszenierten Grenzzwischenfällen oder späteren populären Darstellungen übernommen werden.
+  - id: gleiwitz-rsha-context
+    note: >-
+      Das United States Holocaust Memorial Museum datiert die Gründung des RSHA auf den 27. September 1939 und erklärt,
+      dass es Sicherheitspolizei und SD unter Heydrich formell verband. Dies stützt den Verzicht darauf, das RSHA
+      rückwirkend als Träger der August-Aktion zu bezeichnen.
+  - id: gleiwitz-bundesarchiv-institutional-correction
+    note: >-
+      Die spätere Einordnung als Lüge und Fabrikation durch das Bundesarchiv ist ein externer Nachkriegsbefund. Sie
+      dokumentiert keine Rücknahme durch die nationalsozialistischen Institutionen, die die Erzählung trugen; deshalb
+      bleibt der Korrekturstatus „nicht dokumentiert“, statt den Archivbefund in eine Selbstkorrektur umzudeuten.

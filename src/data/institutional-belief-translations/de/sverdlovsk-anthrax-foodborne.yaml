@@ -1,93 +1,209 @@
 schemaVersion: 2
 locale: de
 entryId: sverdlovsk-anthrax-foodborne
-sourceReviewedAt: '2026-08-25'
-title: Der Anthrax-Ausbruch in Swerdlowsk als lebensmittelbedingte Epidemie
+sourceReviewedAt: '2026-09-25'
+title: Der Anthrax-Ausbruch in Swerdlowsk als natürliche, lebensmittelbedingte Epidemie
 proposition:
   summary: >-
-    Die sowjetischen Behörden hielten daran fest, dass der Anthrax-Ausbruch von 1979 in Swerdlowsk ein gewöhnliches
-    natürliches Seuchengeschehen gewesen sei, bei dem Menschen durch kontaminiertes Fleisch an Darmmilzbrand erkrankten,
-    und nicht die Folge einer Freisetzung über die Luft aus einer militärischen mikrobiologischen Anlage.
+    Nach der Anthrax-Epidemie von 1979 in Swerdlowsk erklärten sowjetische Gesundheits-, Wissenschafts- und
+    Diplomatieinstitutionen, eine natürliche Tierseuche habe durch nicht kontrolliertes infiziertes Fleisch und Kontakt
+    mit kranken Tieren Darm- und Hautmilzbrand bei Menschen verursacht. Sie bestritten eine Beteiligung der militärischen
+    mikrobiologischen Anlage der Stadt und jeden Zusammenhang mit der Einhaltung der Biowaffenkonvention.
 correction:
   summary: >-
-    Bei den menschlichen Fällen handelte es sich überwiegend um Inhalationsmilzbrand infolge einer Aerosolfreisetzung aus
-    der militärischen mikrobiologischen Anlage „Compound 19“. 1992 räumte der russische Präsident Boris Jelzin öffentlich
-    ein, dass sowjetische militärische Entwicklungen die Ursache gewesen waren. Spätere pathologische Untersuchungen
-    fanden in einer Serie von 42 Obduktionen Befunde, die für Inhalationsmilzbrand diagnostisch waren; eine epidemiologische
-    Rekonstruktion zeigte zudem Erkrankungen und Tierverluste in Windrichtung der Militäranlage.
+    Bei der tödlichen menschlichen Epidemie handelte es sich hauptsächlich um Inhalationsmilzbrand durch ein von der
+    militärischen mikrobiologischen Anlage „Compound 19“ ausgehendes Aerosol. Alle 42 Fälle einer erhaltenen
+    Obduktionsserie zeigten die für eine Inhalationsinfektion diagnostische Nekrose der Brustlymphknoten und hämorrhagische
+    Mediastinitis; die meisten Darmbefunde entstanden durch Ausbreitung über das Blut, nicht durch Nahrungsaufnahme. Eine
+    spätere Feldstudie ordnete die Betroffenen einer schmalen Zone südlich der Anlage zu; Tierverluste lagen auf derselben
+    Achse, passend zum Wind am 2. April 1979. Präsident Boris Jelzin berichtete 1992 öffentlich, der KGB habe eingeräumt,
+    sowjetische militärische Entwicklungen hätten den Ausbruch verursacht. Der genaue Freisetzungsmechanismus und die
+    vollständige Opferzahl bleiben unsicher.
 impact:
   summary: >-
-    Die Erklärung mit kontaminiertem Fleisch wirkte über Gesundheitskommunikation, wissenschaftliche Darstellung und
-    internationale Diplomatie. Sowjetische Vertreter wiederholten sie gegenüber den Vereinigten Staaten offiziell,
-    bestritten jeden Zusammenhang mit der Biowaffenkonvention und lehnten beantragte Expertengespräche nach Artikel V
-    ab. Die Darstellung blieb bis zum Ende der Sowjetzeit amtliche Linie. 1992 erkannte Russlands Präsident den
-    militärischen Ursprung an; anschließend belegten Pathologie und Epidemiologie die Inhalationsexposition und eine von
-    der Militäranlage ausgehende Aerosolwolke.
+    Die Lebensmittel-Erklärung prägte die örtliche Gesundheitskommunikation und wirkte über Wissenschaft und Diplomatie
+    fort. Während des Ausbruchs warnten Zeitungen und Plakate vor nicht kontrolliertem Fleisch und Kontakt mit kranken
+    Tieren; Teams untersuchten Fleisch, desinfizierten Küchen und Krankenzimmer, und Kontrollstellen beschlagnahmten
+    eingeführtes Fleisch. Zugleich wurden Tetrazyklin und Anthrax-Impfstoff eingesetzt, deren möglicher Nutzen nicht der
+    falschen Erklärung des Infektionswegs zugerechnet werden darf. Ein sowjetischer Epidemiologieartikel vom Mai 1980 und
+    spätere amtliche Präsentationen stützten die Fleischthese, während das Außenministerium US-Vertragsbedenken und drei
+    US-Anläufe einschließlich Anträgen auf Fachkonsultationen formell zurückwies. Krankenhaus- und Gesundheitsakten wurden
+    Berichten zufolge vom KGB
+    beschlagnahmt; spätere Forschende mussten die Epidemie aus erhaltenem Gewebe, privaten Notizen, Verwaltungslisten und
+    Interviews rekonstruieren. Ihre Serie von 1994 umfasste 77 vermutete oder bestätigte Inhalationsfälle, davon 66
+    tödlich, war aber keine vollständige Erhebung.
   highlights:
-    - value: '3'
-      label: formelle US-Vorstöße für Konsultationen nach der Biowaffenkonvention bis Mitte 1980
+    - value: 66 von 77
+      label: Todesfälle in der rekonstruierten Serie von 1994; die lückenhafte Aktenlage erlaubt keine endgültige Opferzahl
     - value: '42'
-      label: Obduktionen mit für Inhalationsmilzbrand diagnostischen Befunden in der pathologischen Studie von 1993
-    - value: '20'
-      label: Fälle der 42 Obduktionen, in denen Bacillus anthracis kulturell nachgewiesen wurde
+      label: Erhaltene Obduktionen mit durchgehend für Inhalationsmilzbrand diagnostischen Befunden
+    - value: 13 Jahre
+      label: Ungefährer Zeitraum vom Ausbruch im April 1979 bis zu Jelzins öffentlichem Eingeständnis im Mai 1992
   context:
     - >-
-      Infizierte Nutztiere gab es tatsächlich. Korrigiert wird die Ursache und der hauptsächliche Übertragungsweg der
-      menschlichen Epidemie, nicht die Möglichkeit sekundärer Tierinfektionen.
+      Veröffentlichte Zahlen betreffen verschiedene Datensätze. Sowjetische Fachleute nannten 96 Fälle—79
+      gastrointestinale und 17 kutane—mit 64 Todesfällen. Das spätere Feldteam erfasste 77 vermutete oder bestätigte
+      Inhalationsfälle mit 66 Todesfällen; eine Entschädigungsliste enthielt 68 Namen, bevor mehrere Diagnosen neu bewertet
+      wurden. Geheimhaltung und fehlende Akten verhindern eine einzige definitive Fall- oder Todeszahl.
     - >-
-      Die vorhandenen Belege erlauben keine belastbare Zahl zusätzlicher Todesfälle, die der falschen Erklärung selbst
-      zugerechnet werden könnte.
+      Südlich der Stadt trat tatsächlich Tiermilzbrand auf. Seine Geografie bestätigte die Fleischthese nicht: Betroffene
+      Dörfer lagen bis zu 50 Kilometer entfernt auf derselben schmalen Achse wie die menschlichen Fälle und der Nordwind
+      vom 2. April, was zur Exposition durch dieselbe Aerosolwolke passt.
     - >-
-      Eine Aerosolfreisetzung aus einer militärischen biologischen Anlage wirft erhebliche Fragen zur Vertragstreue auf;
-      der Ausbruch allein bestimmt jedoch nicht den vollständigen rechtlichen Umfang eines möglichen Vertragsverstoßes.
+      Gastrointestinale Blutungen weisen für sich allein nicht auf Nahrungsaufnahme als Eintrittsweg hin. In der Serie von
+      42 Obduktionen lagen die diagnostischen Schäden an Brustlymphknoten und Mediastinum; die meisten Darmläsionen waren
+      submukös und mit einer hämatogenen Streuung nach einer Lungeninfektion vereinbar.
+    - >-
+      Die amtliche Erklärung bestimmte nicht jede Gegenmaßnahme. Antibiotikagabe und Impfung konnten Menschen auch nach
+      Aerosolexposition schützen; Warnungen und Ermittlungen konzentrierten sich dagegen auf Fleisch und Tiere. Die
+      erhaltenen Belege erlauben keine Zahl von Erkrankungen oder Todesfällen, die speziell durch Fehlklassifikation oder
+      Verzögerung verursacht wurden.
+    - >-
+      Die Epidemiologie stützt stark ein von Compound 19 ausgehendes Aerosol und macht den 2. April zum am besten belegten
+      Freisetzungsdatum. Sie klärt nicht unabhängig den genauen technischen Fehler, die freigesetzte Menge, alle
+      Tätigkeiten in der Anlage oder den vollständigen rechtlichen Umfang eines Verstoßes gegen die Biowaffenkonvention.
+    - >-
+      Jelzins Eingeständnis, sein Vertragstreue-Dekret und die Erlaubnis externer Feldarbeit kehrten die präsidiale Linie
+      um, ergaben aber keine umfassende amtliche Darstellung. Teile des russischen Verteidigungsapparats vertraten noch
+      Ende der 1990er Jahre Varianten der Natur- oder Fleischthese; die institutionelle Korrektur war daher wesentlich,
+      aber nur teilweise.
 episodes:
   - id: soviet-union-1979-1992
     polity: Sowjetunion
+    periodLabel: April 1979–27. Mai 1992
     institutions:
+      - Gesundheitsbehörden von Swerdlowsk
       - Außenministerium der UdSSR
-      - sowjetische Gesundheitsbehörden
+      - sowjetische medizinische und veterinärmedizinische Fachleute
+      - Komitee für Staatssicherheit (KGB)
+      - Verteidigungsministerium der UdSSR
     institutionalContext: >-
-      Während und nach dem Ausbruch von 1979 führte die sowjetische öffentliche Kommunikation das Anthrax-Risiko auf
-      kranke Tiere und nicht kontrolliertes Fleisch zurück. Am 20. März 1980 erklärte das sowjetische Außenministerium
-      gegenüber den Vereinigten Staaten formell, die menschlichen Fälle seien Darmmilzbrand nach dem Verzehr nicht
-      ordnungsgemäß kontrollierten Rindfleischs gewesen. Einen Zusammenhang mit der Biowaffenkonvention bestritt die
-      Sowjetunion. Als die USA Expertengespräche nach Artikel V verlangten, wiederholte die Regierung die natürliche
-      Erklärung und verweigerte Konsultationen. Im Mai 1992 erklärte Boris Jelzin, der KGB habe später eingeräumt, dass
-      sowjetische militärische Entwicklungen den Ausbruch verursacht hätten.
+      Die Behauptung zum Infektionsweg verband mehrere Institutionen. Lokale Behörden warnten vor nicht kontrolliertem
+      Fleisch, untersuchten und beschlagnahmten Fleisch, desinfizierten Wohnungen und warben für Impfungen. Sowjetische
+      Epidemiologen veröffentlichten die natürliche, lebensmittelbedingte Darstellung im Mai 1980; in den 1980er Jahren
+      stellten Amtsträger ausländischen Wissenschaftlern eine erweiterte Version vor. Das Außenministerium nutzte dieselbe
+      Erklärung am 20. März 1980, um jeden Bezug zur Biowaffenkonvention zu bestreiten, wiederholte sie am 24. April bei
+      der Ablehnung von Konsultationen nach Artikel V und hielt diese Weigerung nach drei US-Anläufen aufrecht.
+      Gleichzeitig wurden Krankenhaus- und Gesundheitsakten entfernt; Pathologen bewahrten Notizen, Objektträger und
+      Gewebe privat auf. Diese Informationskontrolle verzögerte eine überprüfbare Rekonstruktion bis zum Ende des
+      sowjetischen Systems und zur russischen Erlaubnis von Feldforschung.
     consequences:
-      - Amtliche Zuschreibung der menschlichen Epidemie zu kontaminiertem Fleisch und natürlichem Tiermilzbrand
-      - Vermittlung der Lebensmittel-Erklärung über sowjetische Gesundheits- und epidemiologische Kanäle
+      - Öffentliche Warnungen und Ermittlungen zu nicht kontrolliertem Fleisch, kranken Tieren und Haushaltskontamination statt zu einer industriellen Aerosolquelle
+      - Veröffentlichung und internationale Präsentation einer epidemiologischen Darstellung, die 79 von 96 gemeldeten Fällen als gastrointestinal einstufte
       - Formelle Zurückweisung eines Zusammenhangs mit der Einhaltung der Biowaffenkonvention
-      - Wiederholte Ablehnung beantragter Expertengespräche nach Artikel V der Konvention
-      - Jahrelange Behinderung einer korrekten öffentlichen und internationalen Einordnung des militärischen Aerosolursprungs
+      - Ablehnung von Fachkonsultationen trotz drei US-Anläufen bis Juli 1980
+      - Entfernung oder Beschlagnahme klinischer und epidemiologischer Akten zur Bestimmung von Infektionswegen und Behandlungseffekten
+      - Dreizehn Jahre amtlicher Falschzuschreibung bis zur Anerkennung einer militärischen Ursache durch den Präsidenten des Nachfolgestaats
     summary: >-
-      In Swerdlowsk wurde aus einem biologischen Unfall eine langjährig aufrechterhaltene institutionelle Falscherklärung.
-      Sowjetische Vertreter trugen die Lebensmittel-Erklärung in diplomatische Auseinandersetzungen über die
-      Biowaffenkonvention. 1992 erkannte Jelzin öffentlich eine militärische Ursache an; spätere Untersuchungen belegten den Inhalationsweg.
+      Swerdlowsk verwandelte einen biologischen Unfall in eine beständige gesundheitsamtliche und diplomatische Erklärung.
+      Behörden ließen reale Tierinfektionen und gastrointestinale Pathologie eine Schlussfolgerung tragen, die sie nicht
+      belegten: dass infiziertes Fleisch die tödliche menschliche Epidemie verursacht habe. Veröffentlichung, kontrollierte
+      Offenlegung und die Ablehnung von Vertragskonsultationen hielten die Darstellung aufrecht, bis sich erhaltene
+      Pathologie, Haushaltsinterviews, Arbeitsplatzkarten, Tiergeografie und Winddaten nach 1991 zusammenführen ließen.
     mechanism:
       summary: >-
-        Sowjetische Außenpolitik und Gesundheitsbehörden veröffentlichten und verteidigten wiederholt eine natürliche,
-        lebensmittelbedingte Erklärung und lehnten zugleich internationale Konsultationen zur militärischen Ursprungsthese ab.
+        Öffentliche Warnungen lieferten sofort eine natürliche Quelle; sowjetische epidemiologische Veröffentlichungen und
+        kuratierte Fachpräsentationen verliehen scheinbare technische Autorität; die Entfernung von Akten begrenzte
+        unabhängige Prüfungen; und das Außenministerium machte dieselbe Darstellung bei gleichzeitiger Ablehnung von
+        Fachkonsultationen zur formellen Vertragsverteidigung.
     institutionalCorrection:
-      periodLabel: Mai 1992
-      action: Der russische Präsident Boris Jelzin erkannte öffentlich an, dass sowjetische militärische Entwicklungen den Ausbruch verursacht hatten.
+      periodLabel: 11. April–27. Mai 1992
+      action: >-
+        Präsident Boris Jelzin ordnete das Ende offensiver Biowaffenarbeit an und berichtete öffentlich über das
+        Eingeständnis des KGB, sowjetische militärische Entwicklungen hätten den Swerdlowsker Ausbruch verursacht.
       summary: >-
-        Der ursprüngliche sowjetische Träger existierte nicht mehr; sein wichtigster Nachfolgestaat kehrte die ererbte
-        amtliche Erklärung jedoch öffentlich um. Spätere Pathologie und Epidemiologie bestätigten die Aerosolfreisetzung unabhängig.
+        Die russische Präsidentschaft kehrte die ererbte sowjetische Position um und ließ externe Forschende im Juni 1992
+        sowie im August 1993 in Swerdlowsk arbeiten. Deren Pathologie und Epidemiologie ermöglichten unabhängige Prüfungen
+        der Aerosolthese. Fortgesetzte Ablehnung durch Teile des Verteidigungsapparats und das Fehlen einer vollständigen
+        amtlichen Freisetzungsakte machen die Korrektur wesentlich, aber nicht umfassend.
 evidence:
   - id: sverdlovsk-reply-proposition
     note: >-
-      Die zeitgenössische diplomatische Akte gibt die offizielle sowjetische Erklärung eines natürlichen Tierausbruchs mit menschlichen Darmmilzbrandfällen durch Fleisch wieder.
+      Die diplomatische Akte vom 20. März 1980 gibt die Behauptung des sowjetischen Außenministeriums wieder, eine
+      natürliche Tierseuche habe durch außerhalb der Veterinärkontrolle verkauftes Rindfleisch Darmmilzbrand bei Menschen
+      verursacht, und bestreitet jeden Bezug zur Biowaffenkonvention.
+  - id: sverdlovsk-journal-proposition
+    note: >-
+      Erfasst die zeitgenössische sowjetische Epidemiologieveröffentlichung, die die Swerdlowsker Erklärung in einer
+      medizinischen Fachzeitschrift institutionalisierte; die bibliografische Verschlagwortung umfasst
+      Lebensmittelkontamination, Fleisch, Rinder und veterinärmedizinische Übertragung.
   - id: sverdlovsk-pathology-correction
     note: >-
-      Die pathologische Studie von 1993 fand in 42 Obduktionen durchgehend Befunde, die für Inhalationsmilzbrand diagnostisch waren.
+      Alle 42 Obduktionen zeigten hämorrhagische Brustlymphadenitis und Mediastinitis als diagnostische Zeichen von
+      Inhalationsmilzbrand. Die Autoren erklärten die meisten Darmbefunde als hämatogene Streuung und schlossen, dass die
+      Betroffenen Aerosole mit B. anthracis eingeatmet hatten.
   - id: sverdlovsk-science-correction
     note: >-
-      Die epidemiologische Rekonstruktion von 1994 fand eine schmale Zone von Menschen- und Tierfällen in Windrichtung und führte den Ausbruch auf eine Aerosolfreisetzung aus der Militäranlage zurück.
+      Die Feldrekonstruktion fand eine schmale Zone menschlicher Fälle ab der Militäranlage, Tierverluste auf ihrer
+      verlängerten Achse und den passenden Nordwind am 2. April. Sie führte den Ausbruch auf ein Aerosol aus der Anlage
+      zurück, ließ aber genaue Tätigkeit und Freisetzungsmechanismus offen.
+  - id: sverdlovsk-academies-correction
+    note: >-
+      Die Übersicht der National Academies behandelt den 2. April als am besten belegtes Freisetzungsdatum, hält aber
+      Unsicherheiten zu Zeitpunkt und möglicher mehrfacher oder längerer Freisetzung fest. Sie trennt die Obduktionsserie
+      von größeren rekonstruierten Datensätzen, deren Fälle nicht alle pathologisch oder mikrobiologisch bestätigt waren.
+  - id: sverdlovsk-science-impact
+    note: >-
+      Dokumentiert die amtliche Zahl von 96 Fällen und 64 Todesfällen, die spätere Serie von 77 Patienten mit 66
+      Todesfällen, öffentliche Fleischwarnungen und Maßnahmen sowie die Beschlagnahme von Krankenhaus- und
+      Gesundheitsakten. Dies sind unterschiedliche unvollständige Datensätze, keine austauschbaren Endzahlen.
   - id: sverdlovsk-three-overtures-impact
+    note: >-
+      Das Papier vom Juli 1980 erfasst die Anläufe im März, Ende März und Juni, die wiederholte sowjetische Naturerklärung
+      und Ablehnung von Fachkonsultationen sowie die US-Einschätzung, dass die Belege eine Prüfung nach Artikel V
+      rechtfertigten.
+  - id: sverdlovsk-academies-impact
+    note: >-
+      Erläutert, warum genaue umfassende klinische und epidemiologische Daten nicht mehr überprüfbar sind, und warnt,
+      dass in der größeren Rekonstruktion nur die erhaltenen Obduktionsfälle mikrobiologisch oder histopathologisch
+      bestätigt waren.
   - id: sverdlovsk-reply-carrier
+    note: >-
+      Identifiziert das Außenministerium der UdSSR und den Leiter seiner USA-Abteilung, Viktor Komplektow, als Institution
+      und Amtsträger, die die Lebensmittel-Erklärung als formelle sowjetische Antwort übermittelten.
+  - id: sverdlovsk-journal-carrier
+    note: >-
+      Zeigt, dass die Erklärung unter namentlich genannten medizinischen Autoren auch in eine sowjetische Fachzeitschrift
+      für Epidemiologie und Mikrobiologie einging und nicht nur eine anonyme diplomatische Behauptung blieb.
+  - id: sverdlovsk-science-context
+    note: >-
+      Rekonstruiert beide Seiten der Episode: lokale Plakate, Fleischkontrollen, Haushaltsdesinfektion, Antibiotika und
+      Impfungen sowie anschließend die Kartierung von Betroffenen, Tieren und Wind, die zeigte, warum infizierte Nutztiere
+      keinen lebensmittelbedingten Ursprung der tödlichen menschlichen Fälle belegten.
+  - id: sverdlovsk-pathology-context
+    note: >-
+      Klärt eine wichtige Quelle der Verwechslung in der amtlichen Darstellung: Darmblutungen waren häufig, ihre
+      submuköse Verteilung zeigte jedoch hämatogene Streuung nach pulmonalem Eintritt statt primärer gastrointestinaler
+      Infektion durch Nahrung.
   - id: sverdlovsk-rejection-mechanism
+    note: >-
+      Dokumentiert die Wiederholung der Naturseuchen-Erklärung durch das Außenministerium am 24. April und ihre Nutzung
+      als angegebene Begründung für die Ablehnung von Fachkonsultationen nach Artikel V.
+  - id: sverdlovsk-archive-mechanism
+    note: >-
+      Die Chronologie freigegebener Dokumente zeigt, wie Zugangsbeschränkung, amtliche Fachpräsentationen und lückenhafte
+      Belege die Lebensmittel-Erklärung für einige externe Fachleute plausibel hielten, bis Berichte der Glasnost-Zeit und
+      Feldzugang eine Prüfung der Gegenhypothese ermöglichten.
   - id: sverdlovsk-three-overtures-consequences
+    note: >-
+      Erfasst drei formelle US-Anläufe bis Juni 1980 und das Ausbleiben von Vertragskonsultationen. Das Dokument gibt die
+      damalige US-Einschätzung wieder und ist für sich allein kein endgültiger Beweis der späteren Aerosolrekonstruktion.
+  - id: sverdlovsk-pathology-consequences
+    note: >-
+      Berichtet, dass Krankenhaus- und Obduktionsakten entfernt wurden, während zwei Pathologen Notizen und Präparate
+      privat bewahrten. Laut den Autoren behinderte die Geheimhaltung Erkenntnisse für Diagnose, Behandlung und
+      klinisch-pathologische Vergleiche.
+  - id: sverdlovsk-academies-consequences
+    note: >-
+      Bestätigt die dauerhaften Belegverluste durch beschlagnahmte Akten und erläutert, warum spätere Fall-, Todes- und
+      Inkubationsschätzungen auf teilweise überlappenden rekonstruierten Serien beruhen.
   - id: sverdlovsk-yeltsin-correction
     note: >-
-      Die Archivchronologie reproduziert Jelzins Aussage von 1992, der KGB habe später eingeräumt, dass sowjetische militärische Entwicklung den Ausbruch verursacht habe.
+      Gibt Jelzins Aussage wieder, der KGB habe eingeräumt, sowjetische militärische Entwicklungen hätten den Ausbruch
+      verursacht, die Waffenentwicklung sei nach Verlegung der Labore fortgeführt worden und er habe ein Verbotsdekret
+      unterzeichnet.
+  - id: sverdlovsk-archive-correction
+    note: >-
+      Stellt das Interview neben Jelzins Dekrete vom April 1992 und die späteren Ortsbesuche, dokumentiert aber auch die
+      erneute Verteidigung einer natürlichen Ursache durch einen hohen russischen Verteidigungsvertreter von 1998. Dies
+      stützt die Einstufung der Korrektur als teilweise.

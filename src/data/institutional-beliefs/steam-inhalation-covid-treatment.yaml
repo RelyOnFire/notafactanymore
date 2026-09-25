@@ -1,53 +1,74 @@
 schemaVersion: 2
-title: Steam inhalation as an effective COVID-19 remedy
+title: Herbal steam inhalation as a COVID-19 treatment or preventive
 proposition:
   summary: >-
-    Tanzania treated steam inhalation and related traditional preparations as successful COVID-era remedies, publicly
-    attributing recovery and broad therapeutic success to them and building official access around approved preparations
-    before adequate evidence had established a COVID-19 treatment or preventive effect.
+    Tanzania's presidency and, later, senior government ministries promoted herbal steam inhalation—kujifukiza or
+    nyungu—as a scientifically effective way to reduce, treat or help prevent COVID-19. Presidential anecdotes,
+    government campaign weeks and ministry claims about traditional-medicine use gave the practice official therapeutic
+    legitimacy before controlled evidence had established an effect on SARS-CoV-2 infection or clinical outcomes.
 correction:
   summary: >-
-    Steam inhalation can humidify the upper airway and may provide temporary symptomatic comfort, but that is different
-    from preventing SARS-CoV-2 infection or treating the underlying viral disease. Robust evidence did not establish
-    steam inhalation as an effective COVID-19 treatment or prevention method. Reviews during and after the pandemic
-    described the evidence as insufficient or scientifically unsettled, while burns literature documented a real risk
-    of serious scald injury. Traditional preparations likewise require product-specific evidence of safety and efficacy
-    rather than inference from traditional use or anecdotal recovery.
+    Heating SARS-CoV-2 in a laboratory sample is not evidence that inhaled steam can safely heat virus inside infected
+    human cells. Steam may feel soothing or moisten a dry upper airway, but a Cochrane review of common-cold trials found
+    inconsistent symptom effects and no reduction in viral shedding. The COVID-19 literature consisted largely of small,
+    uncontrolled or heterogeneous studies; a later systematic review found too little evidence to conclude that steam
+    prevents or treats COVID-19. Steam hot enough to approach the president's claimed temperature would injure tissue,
+    and bowls of hot water cause serious scalds. Herbal additives and commercial preparations require their own evidence
+    of composition, dose, safety and efficacy; a safety or registration check is not proof of COVID-19 benefit.
 category: Medicine and public health
-reviewedAt: 2026-08-24
+reviewedAt: 2026-09-25
 impact:
   summary: >-
-    Tanzania's COVID-era endorsement went beyond private folk practice. In May 2020 the presidency publicized the
-    president's account that his son recovered from COVID-19 while using lemon, ginger and steam inhalation. In August
-    the Health Ministry said traditional remedies had helped the country substantially during the coronavirus outbreak
-    and reported more than 100,018 users of traditional remedies, explicitly including nyungu steam inhalation, with
-    substantial success. By February 2021 the ministry was pursuing wider availability of approved traditional
-    preparations through health facilities and pharmacies, including volatile-oil products for steaming. Under the
-    succeeding administration, a government expert committee called for traditional medicines to be used only when
-    scientifically proven and the country shifted toward vaccination and internationally aligned COVID-19 control.
+    On 22 April 2020 President John Magufuli called steam inhalation a “scientific treatment,” said heat above 100°C would
+    disintegrate the virus's fatty covering, and asked the Health Ministry to emphasize the practice. A 17 May State
+    House release then publicized his account that his son recovered while eating lemon and ginger and steaming. On 31
+    August the Health Ministry claimed major success for traditional remedies during the outbreak and
+    reported approximately “more than 100,018” users, including nyungu users; it supplied no diagnosis, comparison group
+    or outcome data, so the figure is not a treatment trial or a count of proven COVID-19 recoveries. In early 2021 the
+    Health Minister presented steaming among preventive measures while saying the ministry had no current vaccine plan,
+    a regional-government minister announced a third national week of nyungu, and health officials planned wider access
+    to safety-screened traditional products. After the presidency changed, an expert committee recommended scientific
+    proof for traditional medicines and vaccination; Tanzania began its COVID-19 vaccine rollout on 28 July 2021.
   highlights:
-    - value: May 2020
-      label: The presidency publicized recovery from COVID-19 alongside lemon, ginger and steam inhalation
-    - value: '>100,018'
-      label: The Health Ministry reported traditional-remedy users, including nyungu steam inhalation, and described substantial success
-    - value: '2021'
-      label: A presidential expert committee called for traditional medicines to be used only when scientifically proven
+    - value: 22 April 2020
+      label: Magufuli called steam inhalation a scientific treatment and asked the Health Ministry to promote it
+    - value: '>100,018 claimed'
+      label: Ministry estimate for traditional-remedy users, including nyungu—not verified COVID-19 cases or recoveries
+    - value: 1–7 February 2021
+      label: Dates announced for a third national week of nyungu, fruit consumption and prayer
   context:
     - >-
-      Steam may provide subjective symptom relief, and the traditional preparations promoted in Tanzania were not all
-      chemically identical. The unsupported institutional step was from anecdotes, use and safety-oriented approval to
-      claims or policy implying meaningful COVID-19 therapeutic benefit.
+      Kujifukiza or nyungu covered related but non-identical practices: people inhaled vapour from hot water, often under
+      a cloth, and sometimes added herbs or volatile oils. The physical claim that heat would destroy virus, the possible
+      short-lived sensation of humidification and pharmacological claims about particular plant ingredients are separate
+      questions and should not be treated as one intervention.
     - >-
-      In 2021 national COVID-19 policy shifted toward expert scientific review, vaccination and the principle that
-      traditional medicines should be used only when scientifically proven. This policy change did not amount to a
-      formal legal ban on steam inhalation.
+      Government Chemist and traditional-medicine registration checks described in February 2021 addressed safety and
+      suitability for human use. The ministry article did not report randomized efficacy trials, did not establish that
+      every named product treated COVID-19, and inconsistently said four volatile-oil products were approved while naming
+      only BUPIJI and UZIMA. Registration and access planning therefore cannot be read as clinical proof.
+    - >-
+      Tanzania's medical establishment was not unanimous. Before Magufuli's April speech, Deputy Health Minister Faustine
+      Ndugulile publicly said steaming did not treat COVID-19 or kill the virus. The later presidential, ministerial and
+      campaign messages nevertheless became the dominant official public line.
+    - >-
+      The May recovery story cannot establish causation. Lemon, ginger and steam were used together, no untreated
+      comparison existed, and many COVID-19 infections resolve without a specific treatment.
+    - >-
+      Available sources document endorsement, campaigns, an uptake claim and product-access planning. They do not measure
+      how many Tanzanian infections, hospitalizations, deaths, delayed consultations or scald injuries resulted from the
+      policy. Burn evidence establishes a known hazard of the practice, not a Tanzania-specific injury count.
+    - >-
+      The 2021 change was broader than steam inhalation. The expert committee advised evidence-based use of traditional
+      medicine, data reporting, internationally aligned prevention and vaccination. No steam-specific ban or full
+      retraction of the earlier claims was located.
 episodes:
   - id: tanzania-2020-2021
     polity: Tanzania
     region: East Africa
     startYear: 2020
     endYear: 2021
-    periodLabel: 2020–2021
+    periodLabel: 22 April 2020–28 July 2021
     strength: policy-basis
     institutionTypes:
       - government
@@ -55,45 +76,52 @@ episodes:
     institutions:
       - Office of the President of Tanzania
       - Ministry of Health, Community Development, Gender, Elderly and Children
+      - President's Office – Regional Administration and Local Government (TAMISEMI)
       - Traditional and Alternative Health Practice Council
     institutionalContext: >-
-      During the first pandemic year, presidential and Health Ministry communications gave steam inhalation and
-      traditional remedies official therapeutic legitimacy. The presidency published President John Magufuli's
-      account that his son had COVID-19 and recovered while taking lemon and ginger and using steam inhalation. In
-      August 2020 the Health Ministry said traditional therapies had helped Tanzania substantially during the coronavirus
-      outbreak and reported more than 100,018 people using traditional remedies, including nyungu steam inhalation,
-      with substantial success. In February 2021 the ministry announced a strategy to improve access to approved
-      traditional medicines through health facilities and pharmacies and identified both oral products and volatile-oil
-      preparations for steaming. The policy environment changed after President Samia Suluhu Hassan appointed an expert
-      committee that recommended traditional medicines be used only when scientifically proven and urged vaccination
-      and internationally aligned COVID-19 measures.
+      Magufuli supplied both an explicit causal mechanism and an instruction to the Health Ministry: in a nationally
+      broadcast address he said steam above 100°C would break apart coronavirus because of its lipid covering, called the
+      practice scientific treatment and asked officials to explain and promote it. State House then circulated his son's
+      recovery anecdote. Health Ministry officials later attributed broad success to traditional remedies including
+      nyungu, and the minister included steaming among COVID-19 precautions in February 2021. TAMISEMI minister Selemani
+      Jafo announced a third one-week national nyungu campaign. A separate ministry access plan relied on safety screening
+      and registration of oral and volatile-oil preparations, not demonstrated COVID-19 efficacy. These messages were
+      institutionally contested: the deputy health minister had warned that steaming was not a treatment, while later
+      officials promoted it alongside hygiene, nutrition and other advice.
     consequences:
-      - Presidential amplification of steam inhalation as part of an apparent COVID-19 recovery
-      - Health-ministry attribution of substantial pandemic success to traditional remedies including nyungu steam inhalation
-      - Government approval and access planning for traditional oral and steaming preparations through health facilities and pharmacies
-      - Public exposure to an inadequately established COVID-19 remedy with documented scald risks from steam inhalation
+      - Repeated presidential presentation of steam as a treatment with a simple but invalid heat-and-lipid mechanism
+      - State House amplification of an uncontrolled family recovery anecdote as evidence for lemon, ginger and steaming
+      - Health Ministry claims of major success based on an undifferentiated uptake figure rather than clinical outcomes
+      - A third government campaign week directing the public to use nyungu while continuing ordinary work
+      - Administrative support for distributing safety-screened traditional oral and steaming products through health facilities and pharmacies
+      - Promotion to the general public of a practice with a documented risk of severe scalding from hot-water containers
+      - A policy environment in which steaming was promoted while the ministry had no current vaccine-procurement plan; rollout began under the succeeding administration
     summary: >-
-      Tanzania gave steam inhalation and related traditional remedies unusual state legitimacy during the COVID-19
-      pandemic. President John Magufuli publicly linked his son's recovery to lemon, ginger and steaming; the Health
-      Ministry later said traditional remedies had helped the country substantially during the outbreak and reported
-      more than 100,018 users, including people using nyungu steam inhalation. In early 2021 the ministry was developing
-      wider access to approved traditional preparations, including volatile-oil products for steaming. The succeeding
-      administration changed course: a presidential expert committee urged scientific proof for traditional medicines
-      and supported vaccination and internationally aligned controls. Scientific reviews did not establish steam
-      inhalation as an effective COVID-19 treatment or preventive measure, while clinical reports documented serious scald hazards.
+      A presidential assertion moved through State House communication, ministry messaging, regional-government
+      mobilization and product-access planning. The result was more than a private home remedy: steam inhalation received
+      a mechanistic explanation from the head of state, repeated claims of success, national campaign dates and support
+      from senior health officials. The evidence offered for benefit remained anecdotes, reported use and administrative
+      safety checks. None supplied a controlled estimate of prevention, viral clearance, hospitalization or mortality,
+      and the available sources cannot quantify the policy's health effects within Tanzania.
     mechanism:
       kind: endorsement
       summary: >-
-        Presidential and Health Ministry communications publicly attributed therapeutic success to steam inhalation and
-        related traditional remedies, while the ministry planned wider access to approved oral and steaming preparations.
+        The president framed steaming as settled science and instructed the Health Ministry to emphasize it. State House
+        added a recovery story; ministries repeated preventive and therapeutic claims, organized a campaign week and
+        planned retail and facility access for registered traditional preparations. This chain converted a familiar
+        practice into official advice while blurring anecdote, popularity, safety screening and clinical efficacy.
     institutionalCorrection:
       status: partial
-      periodLabel: '2021'
-      action: A presidential expert committee required scientific proof for traditional medicines and the government shifted toward vaccination and internationally aligned COVID-19 measures.
+      periodLabel: 6 April–28 July 2021
+      action: >-
+        President Samia Suluhu Hassan commissioned an expert review, accepted an evidence requirement for traditional
+        medicines and moved Tanzania into vaccination and internationally aligned COVID-19 control.
       summary: >-
-        The succeeding administration replaced the earlier permissive therapeutic framing with a science-evidence
-        requirement and broader orthodox COVID-19 policy, but the record does not show a formal steam-specific legal ban
-        or a comprehensive retraction of every earlier claim.
+        The expert committee formed on 6 April reported on 17 May and recommended that traditional medicines be used only
+        when scientifically proven, that Tanzania share accurate data and that it join vaccination efforts. An official
+        29 June account cautioned that committee recommendations had not yet all become policy. Tanzania received its
+        first COVAX-facilitated vaccines on 24 July and launched vaccination on 28 July. This was a material reversal of
+        the earlier policy environment, but no formal steam-specific ban or comprehensive retraction is documented.
 sources:
   - id: steam-tanzania-presidency
     title: Taarifa kwa Vyombo vya Habari — 17 Mei 2020
@@ -119,59 +147,287 @@ sources:
     title: Steam inhalation and paediatric burns during the COVID-19 pandemic
     url: https://pubmed.ncbi.nlm.nih.gov/32422125/
     publisher: The Lancet / PubMed
+  - id: steam-magufuli-speech
+    title: President Magufuli’s speech on steam inhalation, steam therapy
+    url: https://africacheck.org/sites/default/files/Magufuli-steam-therapy.pdf
+    publisher: Africa Check
+  - id: steam-nyungu-week
+    title: Jafo asema awamu ya 3 ya Nyungu na kujifukiza inaanza Februari 01.
+    url: https://www.itv.co.tz/news/jafo-asema-awamu-ya-3-ya-nyungu-na-kujifukiza-inaanza-february-0
+    publisher: ITV Tanzania
+  - id: steam-health-minister-2021
+    title: Tanzania does not have plans to procure Covid-19 vaccine
+    url: https://www.thecitizen.co.tz/tanzania/news/national/tanzania-does-not-have-plans-to-procure-covid-19-vaccine-3276326
+    publisher: The Citizen
+  - id: steam-contested-truths
+    title: 'Contested Truths Over COVID-19 in East Africa: Examining Opposition to Public Health Measures in Tanzania and Uganda'
+    url: https://www.cambridge.org/core/journals/african-studies-review/article/contested-truths-over-covid19-in-east-africa-examining-opposition-to-public-health-measures-in-tanzania-and-uganda/4BB490BFEC7C8F49337F058D94D01046
+    publisher: African Studies Review / Cambridge University Press
+  - id: steam-cochrane-common-cold
+    title: Heated, humidified air for the common cold
+    url: https://pubmed.ncbi.nlm.nih.gov/28849871/
+    publisher: Cochrane Database of Systematic Reviews / PubMed
+  - id: steam-covid-systematic-review
+    title: Data on steam inhalation in combating CoVid-19
+    url: https://pubmed.ncbi.nlm.nih.gov/37426512/
+    publisher: Bioinformation / PubMed
+  - id: steam-vaccine-arrival
+    title: The first COVID-19 vaccines have arrived in Tanzania
+    url: https://www.unicef.org/tanzania/stories/first-covid-19-vaccines-have-arrived-tanzania
+    publisher: UNICEF United Republic of Tanzania
+  - id: steam-vaccine-rollout
+    title: WHO urges renewed commitment to interrupt COVID-19 in Tanzania
+    url: https://www.afro.who.int/countries/united-republic-tanzania/news/who-urges-renewed-commitment-interrupt-covid-19-tanzania
+    publisher: WHO Regional Office for Africa
 evidence:
+  - id: steam-april-speech-proposition
+    sourceId: steam-magufuli-speech
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: full one-page transcript and English translation
+    note: >-
+      Records Magufuli's 22 April 2020 statement that steam above 100°C would break apart coronavirus because it was
+      fatty, his description of steaming as a scientific treatment and his request that the Health Ministry emphasize
+      and explain it to Tanzanians.
   - id: steam-presidency-proposition
     sourceId: steam-tanzania-presidency
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: 17 May 2020 release, paragraph beginning “Hata mimi mtoto wangu”
     note: >-
-      Official State House release recording President John Magufuli's statement that his son had COVID-19 and recovered
-      while consuming lemon and ginger and using steam inhalation. It documents presidential endorsement of the practice
-      but does not by itself establish causation.
+      The official State House release quotes Magufuli saying his son had COVID-19 and recovered while using lemon,
+      ginger and steam inhalation. It documents presidential endorsement, not which part of a combined regimen caused
+      recovery.
+  - id: steam-health-proposition
+    sourceId: steam-tanzania-health-2020
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: 31 August 2020 item, paragraphs quoting Dr Grace Magembe
+    note: >-
+      The ministry's Director of Medical Services said traditional remedies had substantially carried Tanzania through
+      the coronavirus outbreak and described major success among users including people who practised nyungu.
+  - id: steam-minister-2021-proposition
+    sourceId: steam-health-minister-2021
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: paragraphs reporting Health Minister Dorothy Gwajima's 1 February 2021 press conference
+    note: >-
+      Reports the Health Minister listing herbal steaming and traditional medicines among ways citizens should protect
+      themselves from coronavirus while saying the ministry had no current plan to procure COVID-19 vaccine.
   - id: steam-review-correction
     sourceId: steam-review-2022
+    relation: contextualizes
+    target: {scope: belief, aspect: correction}
+    locator: abstract; sections 3.4, 4, 6 and 8
+    note: >-
+      This favorably framed narrative review still says no study had established the in-vivo temperature, humidity and
+      exposure needed to deactivate SARS-CoV-2 and calls the intervention theoretical pending large randomized trials.
+      Its clinical section relies on small uncontrolled studies, while its safety section records scald and airway risks.
+  - id: steam-systematic-review-correction
+    sourceId: steam-covid-systematic-review
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: abstract and conclusion; PMID 37426512
     note: >-
-      2022 review concludes that steam inhalation lacked the scientific backing needed to establish it as an appropriate
-      COVID-19 practice and describes the clinical evidence as scientifically unsettled.
+      The review found only three eligible studies and concluded that there was too little evidence to determine a role
+      in COVID-19 treatment and insufficient evidence for prevention, despite reports of symptom relief.
+  - id: steam-cochrane-correction
+    sourceId: steam-cochrane-common-cold
+    relation: contextualizes
+    target: {scope: belief, aspect: correction}
+    locator: abstract, main results and authors' conclusions; PMID 28849871
+    note: >-
+      Six trials involving 387 participants with common colds produced inconsistent low-quality symptom findings and no
+      significant reduction in viral shedding. Even evidence for a different, milder viral illness did not validate an
+      antiviral effect, and the review did not study COVID-19.
   - id: steam-burns-correction
     sourceId: steam-burns-lancet
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: full correspondence, Lancet 395 (2020), p. 1690; PMID 32422125
     note: >-
-      2020 clinical report describes the evidence base for steam inhalation as weak and documents a 30-fold increase in
-      steam-inhalation scald admissions at one children's burns centre during the first lockdown month, illustrating
-      the physical risk of promoting the practice.
+      The Birmingham Children's Hospital burns centre reported a 30-fold increase in scalds directly caused by steam
+      inhalation after lockdown began. This is a one-centre hazard signal, not an estimate of Tanzanian injuries.
   - id: steam-health-impact
     sourceId: steam-tanzania-health-2020
     relation: supports
     target: {scope: belief, aspect: impact}
+    locator: 31 August 2020 item, final paragraphs before the acting registrar's statement
     note: >-
-      Official ministry report from 31 August 2020 says traditional remedies had helped Tanzania substantially during
-      the coronavirus outbreak and reports more than 100,018 people using traditional medicines, including nyungu steam
-      inhalation, with substantial success.
+      The ministry article gives the awkward approximate figure “more than 100,018” for traditional-remedy users and
+      includes nyungu among the methods. It supplies no case definition, denominator, comparison group or measured
+      endpoint, so it documents reach and an official success claim rather than effectiveness.
+  - id: steam-campaign-impact
+    sourceId: steam-nyungu-week
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: entire 30 January 2021 report and embedded statement by TAMISEMI minister Selemani Jafo
+    note: >-
+      Documents the minister's announcement that a third “season” of nyungu, fruit consumption and prayer would run from
+      1 to 7 February, with Tanzanians expected to keep working rather than isolate.
+  - id: steam-access-impact
+    sourceId: steam-tanzania-health-2021
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: paragraphs 1–14 of the 6 February 2021 item
+    note: >-
+      Describes plans to make accepted traditional medicines available through health facilities and pharmacies. The
+      cited checks concerned safety and human-use criteria; the article reports no controlled proof of COVID-19 efficacy.
+  - id: steam-vaccine-impact
+    sourceId: steam-vaccine-arrival
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: opening text and captions for the 24 July 2021 shipment
+    note: >-
+      Records arrival of 1,058,450 Janssen doses through COVAX and the planned priority groups, supplying concrete
+      evidence that the succeeding government's vaccine policy moved beyond committee recommendations.
   - id: steam-presidency-carrier
     sourceId: steam-tanzania-presidency
     relation: documents
     target: {scope: episode, episodeId: tanzania-2020-2021, aspect: carrier}
+    locator: heading, signature block and paragraph beginning “Hata mimi mtoto wangu”
+    note: >-
+      Identifies the Office of Presidential Communications as publisher of Magufuli's recovery anecdote and therefore as
+      an institutional carrier rather than merely a venue reporting an unofficial remark.
+  - id: steam-speech-carrier
+    sourceId: steam-magufuli-speech
+    relation: documents
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: carrier}
+    locator: full one-page transcript and English translation
+    note: >-
+      The nationally delivered presidential statement expressly tasked the Health Ministry with emphasizing and
+      explaining steam inhalation, linking the head of state to subsequent administrative messaging.
+  - id: steam-health-carrier
+    sourceId: steam-tanzania-health-2020
+    relation: documents
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: carrier}
+    locator: heading and statements attributed to ministry officials on 31 August 2020
+    note: >-
+      Names the ministry's permanent secretary, Director of Medical Services and Traditional and Alternative Health
+      Practice Council as officials promoting registration, research and use of traditional remedies.
+  - id: steam-campaign-carrier
+    sourceId: steam-nyungu-week
+    relation: documents
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: carrier}
+    locator: opening paragraph and quoted statement
+    note: >-
+      Identifies TAMISEMI minister Selemani Jafo as the official announcing the February 2021 national campaign week in
+      the president's presence.
+  - id: steam-minister-carrier
+    sourceId: steam-health-minister-2021
+    relation: documents
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: carrier}
+    locator: 1 February 2021 press-conference report
+    note: >-
+      Attributes the advice to Health Minister Dorothy Gwajima and records that it was delivered as ministry guidance in
+      response to questions about COVID-19 vaccination and prevention.
+  - id: steam-contested-context
+    sourceId: steam-contested-truths
+    relation: contextualizes
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: context}
+    locator: section “Steam Inhalation as Alternative Therapeutic for COVID-19”
+    note: >-
+      The peer-reviewed analysis documents internal disagreement: Deputy Health Minister Faustine Ndugulile warned that
+      steaming did not treat COVID-19 before the president promoted it. It also describes the customary herb-infused form
+      and the polarized public debate that followed state endorsement.
+  - id: steam-review-episode-context
+    sourceId: steam-review-2022
+    relation: contextualizes
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: context}
+    locator: abstract; sections 3.4, 4, 6 and 8
+    note: >-
+      Places the official claims against the intervention's clinical record. Even this favorably framed narrative review
+      found no established in-vivo temperature, humidity or exposure parameters and called for large randomized trials;
+      it therefore does not support treating the government's therapeutic claims as established science.
+  - id: steam-systematic-review-episode-context
+    sourceId: steam-covid-systematic-review
+    relation: contextualizes
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: context}
+    locator: abstract and conclusion; PMID 37426512
+    note: >-
+      The later systematic review found only three eligible steam-inhalation studies and insufficient evidence for
+      prevention, with too little evidence to determine a treatment role. It supplies no clinical basis for the earlier
+      nationwide promotion.
+  - id: steam-cochrane-episode-context
+    sourceId: steam-cochrane-common-cold
+    relation: contextualizes
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: context}
+    locator: abstract, main results and authors' conclusions; PMID 28849871
+    note: >-
+      This pre-pandemic review of heated, humidified air for the common cold found inconsistent low-quality symptom
+      effects and no significant reduction in viral shedding. It shows why possible comfort from humidification could
+      not validate the claimed antiviral mechanism against SARS-CoV-2.
+  - id: steam-speech-mechanism
+    sourceId: steam-magufuli-speech
+    relation: documents
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: mechanism}
+    locator: full one-page transcript and English translation
+    note: >-
+      Captures the simple explanatory device used to authorize the treatment: boiling-water temperature plus the viral
+      lipid envelope supposedly meant the virus would melt or disintegrate in the nose and mouth.
   - id: steam-health-mechanism
     sourceId: steam-tanzania-health-2021
     relation: documents
     target: {scope: episode, episodeId: tanzania-2020-2021, aspect: mechanism}
+    locator: paragraphs on safety review, distribution strategy and listed oral and volatile-oil products
     note: >-
-      Official 6 February 2021 ministry report describes a government strategy to make accepted traditional medicines
-      more accessible through health facilities and pharmacies and identifies approved oral preparations and volatile-oil
-      products intended for steam inhalation.
+      Shows how government safety testing and registration were converted into a plan for wider availability through
+      agents, pharmacies and health facilities. It says five oral and four volatile-oil products were approved but names
+      only two oils, underscoring that the announcement was not a clinical efficacy report.
+  - id: steam-campaign-mechanism
+    sourceId: steam-nyungu-week
+    relation: documents
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: mechanism}
+    locator: minister's quoted announcement of “Season Three”
+    note: >-
+      Demonstrates mass-mobilization mechanics: a senior regional-government minister set common dates for a countrywide
+      week and bundled steaming with fruit, prayer and continued work.
   - id: steam-health-consequences
     sourceId: steam-tanzania-health-2020
     relation: supports
     target: {scope: episode, episodeId: tanzania-2020-2021, aspect: consequences}
+    locator: 31 August 2020 item, paragraphs quoting Dr Grace Magembe
+    note: >-
+      Documents claimed large-scale uptake and official attribution of success. Because the ministry provides no outcome
+      design or disaggregated COVID-19 data, the figure cannot show recovery, prevention or population benefit.
+  - id: steam-burns-consequences
+    sourceId: steam-burns-lancet
+    relation: contextualizes
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: consequences}
+    locator: full correspondence, Lancet 395 (2020), p. 1690; PMID 32422125
+    note: >-
+      Establishes that promotion of bowl-based steaming carries a concrete paediatric scald hazard. The evidence supports
+      exposure to risk in Tanzania, but it does not document a Tanzanian injury total.
+  - id: steam-contested-consequences
+    sourceId: steam-contested-truths
+    relation: contextualizes
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: consequences}
+    locator: section “Steam Inhalation as Alternative Therapeutic for COVID-19” and Figure 1 discussion
+    note: >-
+      Describes the sharp rise in Swahili social-media discussion after the 22 April address and the conflict between
+      professional warning and presidential authority. This supports public amplification, not a quantified health effect.
   - id: steam-policy-partial-correction
     sourceId: steam-tanzania-policy-shift
     relation: documents
     target: {scope: episode, episodeId: tanzania-2020-2021, aspect: institutional-correction}
+    locator: paragraphs 2–20, especially the 6 April appointment and 17 May recommendations
     note: >-
-      Official government account of the 2021 policy shift. It reports President Samia Suluhu Hassan's insistence on
-      professional research and the expert committee's recommendation that traditional medicines be used only when
-      scientifically proven, alongside vaccination, data reporting and internationally aligned prevention measures.
+      The official account records the expert committee's call for science-proven traditional medicines, accurate data,
+      international prevention standards and vaccination. It also says on 29 June that not all recommendations had yet
+      produced new policy, supporting a partial rather than immediate or steam-specific correction.
+  - id: steam-vaccine-correction
+    sourceId: steam-vaccine-arrival
+    relation: documents
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: institutional-correction}
+    locator: 24 July 2021 photo essay, opening four sections
+    note: >-
+      Documents receipt of the first vaccine shipment and the planned national campaign. It is the material prerequisite
+      for implementation of the broader policy reversal, without showing a specific withdrawal of steam advice.
+  - id: steam-rollout-correction
+    sourceId: steam-vaccine-rollout
+    relation: documents
+    target: {scope: episode, episodeId: tanzania-2020-2021, aspect: institutional-correction}
+    locator: paragraph beginning “On 28 July 2021”
+    note: >-
+      WHO records that Tanzania launched its COVID-19 vaccination programme on 28 July 2021, supplying the implementation
+      date that marks the end of this episode's policy-reversal period.

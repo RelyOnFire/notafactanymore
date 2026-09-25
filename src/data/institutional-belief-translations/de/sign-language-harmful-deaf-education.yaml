@@ -1,76 +1,201 @@
 schemaVersion: 2
 locale: de
 entryId: sign-language-harmful-deaf-education
-sourceReviewedAt: '2026-08-24'
+sourceReviewedAt: '2026-09-25'
 title: Gebärdensprache als schädlich für die Bildung gehörloser Kinder
 proposition:
   summary: >-
-    Gebärdensprache wurde als schädlich für Sprechentwicklung, Lippenlesen und geistige Entwicklung gehörloser Kinder behandelt; dadurch wurde reine Lautspracherziehung institutionell zur bevorzugten Unterrichtsmethode.
+    Der Mailänder Kongress gehörlosenpädagogischer Fachleute stellte 1880 Lautsprache über Gebärden und behauptete,
+    die gleichzeitige Verwendung von Lautsprache und Gebärden beeinträchtige Sprechen, Lippenlesen und die „Präzision
+    der Vorstellungen“. Darauf stützte er die Bevorzugung der oralen und anschließend der reinen Lautsprachmethode
+    gegenüber gebärdenbasierter Bildung.
 correction:
   summary: >-
-    Natürliche Gebärdensprachen sind vollwertige menschliche Sprachen und können gehörlosen Kindern vollständig zugänglichen sprachlichen Input bieten. Bei frühem Zugang werden sie in denselben grundlegenden Entwicklungsschritten wie Lautsprachen erworben. Die Evidenz stützt nicht die Annahme, dass Gebärdenspracherwerb die Entwicklung gesprochener Sprache grundsätzlich behindert; ein verzögerter Zugang zu einer zugänglichen Erstsprache kann dagegen Sprachdeprivation verursachen. Bildungs- und Kommunikationswege sollten am einzelnen Kind ausgerichtet sein, statt eine einzige Modalität vorzuschreiben.
+    Natürliche Gebärdensprachen sind vollwertige, regelgeleitete menschliche Sprachen. Bei von Geburt an verfügbarem
+    Input fließend Gebärdender erwerben Kinder sie im selben allgemeinen Zeitrahmen wie Lautsprachen; verzögerter
+    Zugang zu jeder vollständig zugänglichen Erstsprache birgt das Risiko von Sprachdeprivation. Eine Querschnittsstudie
+    von 2023 mit 56 gehörlosen und schwerhörigen Kindern hörender Eltern ergab einen positiven Zusammenhang zwischen
+    ASL-Wortschatz und lautsprachlichem englischem Wortschatz. Dieses Muster widerspricht einer inhärenten Schädigung,
+    erlaubt aber keine kausale Aussage. Ein systematischer Review von 2016 fand keine ausreichende hochwertige Evidenz,
+    um zu entscheiden, ob kombinierte Gebärden- und Lautsprachinterventionen bessere lautsprachliche Ergebnisse erzielen als rein
+    lautsprachliche Interventionen. Die Evidenz widerlegt daher den kategorischen Ausschluss von Gebärdensprache, ohne
+    eine einzige beste Bildungsmethode für jedes Kind festzulegen. Angebote sollten direkten Zugang zu einer oder
+    mehreren vollständig zugänglichen natürlichen Sprachen sichern und auf die individuellen Bedürfnisse des Kindes eingehen.
 impact:
   summary: >-
-    Der Mailänder Kongress von 1880 verlieh der reinen Lautspracherziehung internationale fachliche Autorität, indem er Artikulation gegenüber Gebärden für überlegen erklärte und die gleichzeitige Verwendung von Gebärden als schädlich für Sprechen, Lippenlesen und die „Präzision der Vorstellungen“ darstellte. Die Resolutionen wirkten auf Bildungssysteme für Gehörlose ein und trugen zur Verdrängung und Abwertung von Gebärdensprachen und gehörlosen Lehrkräften bei. 2010 wies der International Congress on the Education of the Deaf die Mailänder Resolutionen formell zurück.
+    Auf dem Mailänder Kongress vom 6. bis 11. September 1880 bevorzugte die erste Resolution Lautsprache gegenüber
+    Gebärden mit etwa 160 zu 4 Stimmen; die zweite bevorzugte die reine Lautsprachmethode mit etwa 150 zu 16. Eine achte
+    Resolution empfahl die stufenweise Umstellung von Schulen: Neue Schülerinnen und Schüler sollten durch Lautsprache
+    unterrichtet und von den älteren, ihre Bildung mit Gebärden abschließenden Lernenden getrennt werden; jährlich sollte
+    eine weitere Sprechklasse entstehen. Der Kongress erließ kein weltweites Verbot. Der Oralismus bestand bereits vor
+    Mailand; der Gebrauch von Gebärden und der Widerstand gehörloser Menschen setzten sich danach fort. Seine
+    Resolutionen machten Mailand dennoch zu einem einflussreichen internationalen fachlichen Bezugspunkt des Oralismus.
+    UNESCO verzeichnet negative Folgen für Sprachzugang und
+    Bildung in vielen Ländern, den Ausschluss gehörloser Lehrkräfte und die breitere Abwertung von Gebärdensprachen.
+    Am 19. Juli 2010 legten das Organisationskomitee des Vancouver-Kongresses und die British Columbia Deaf Community
+    eine Erklärung vor, die die gebärdensprachenausschließenden Resolutionen von 1880 zurückwies.
   highlights:
-    - value: 160–4
-      label: Abstimmung für die Resolution von 1880, die Artikulation gegenüber Gebärden für überlegen erklärte
-    - value: 150–16
-      label: Abstimmung für reine Lautspracherziehung statt gleichzeitiger Verwendung von Sprache und Gebärden
+    - value: etwa 160–4
+      label: Überlieferte Abstimmung für Lautsprache gegenüber Gebärden in der ersten Resolution von 1880
+    - value: etwa 150–16
+      label: Überlieferte Abstimmung für reinen Oralismus gegenüber gleichzeitiger Lautsprache und Gebärden
     - value: 130 Jahre
-      label: Zeitraum bis zur formellen Zurückweisung der Mailänder Resolutionen durch ICED im Jahr 2010
+      label: Zeitraum von den Mailänder Resolutionen bis zur Vancouver-Erklärung gegen ihre ausschließenden Bestimmungen
   context:
     - >-
-      Der Mailänder Kongress erließ selbst kein weltweites gesetzliches Verbot von Gebärdensprache. Seine Bedeutung lag in der fachlichen und institutionellen Autorität seiner Resolutionen, auf die sich später zahlreiche Bildungssysteme für Gehörlose stützten.
+      Der Mailänder Kongress war eine internationale Fachtagung und kein Gesetzgeber. Seine Resolutionen verhängten
+      kein weltweites gesetzliches Verbot; Übernahme und Durchsetzung unterschieden sich zwischen Ländern und Schulen.
     - >-
-      Das Endjahr 2010 bezeichnet die formelle Zurückweisung der Resolutionen durch ICED, nicht das Verschwinden des Oralismus aus allen Schulen oder einen weltweit einheitlichen Zugang zu Gebärdensprache.
+      Organisierte Werbung für den Oralismus ging Mailand voraus. Neuere Geschichtsforschung warnt außerdem davor, den Kongress zur
+      einzigen Ursache eines einheitlichen 80-jährigen Verschwindens der Gebärdensprache zu machen: Die Abstimmungen
+      waren nicht einstimmig, Gebärdengebrauch bestand fort und gehörlose Menschen widersetzten sich oralistischen
+      Maßnahmen.
     - >-
-      Korrigiert wird nicht die Behauptung, Lautsprache, Hörtechnik oder lautsprachlicher Unterricht seien grundsätzlich schädlich. Korrigiert wird die Annahme, Gebärdensprache selbst behindere die sprachliche oder geistige Entwicklung gehörloser Kinder und müsse deshalb systematisch ausgeschlossen werden.
+      Die Dokumente von 1880 verwendeten Begriffe wie „Gebärden“, „gleichzeitige Verwendung“ und „rein oral“.
+      Natürliche Gebärdensprachen, manuell kodierte Formen von Lautsprachen, Hausgebärdensysteme und Simultankommunikation
+      sind linguistisch nicht austauschbar; moderne Studien müssen danach gelesen werden, was sie tatsächlich untersuchten.
+    - >-
+      Die Erklärung von 2010 war eine fachliche und symbolische Umkehr, die das Organisationskomitee ICED Vancouver
+      2010 gemeinsam mit der British Columbia Deaf Community vorlegte. Sie änderte selbst kein nationales Recht,
+      beendete nicht überall rein lautsprachliche Praxis und garantierte keinen allgemeinen Gebärdensprachzugang.
+    - >-
+      Die Widerlegung einer inhärenten Schädigung macht Lautsprache, Hörtechnik oder lautsprachlichen Unterricht nicht
+      grundsätzlich schädlich. Sie beweist auch nicht, dass eine kombinierte Methode bei jedem Kind überlegene
+      lautsprachliche Ergebnisse erzielt. Vertretbar ist die Forderung nach rechtzeitigem Zugang zu einer Sprache,
+      die das Kind vollständig wahrnehmen kann, und nach Angeboten, die auf seine Umstände eingehen.
 episodes:
   - id: international-1880-2010
-    polity: International — Internationaler Kongress zur Bildung Gehörloser
+    polity: International — Kongresse Mailand 1880 und Vancouver 2010
     institutions:
-      - International Congress on the Education of the Deaf (ICED)
+      - Zweiter Internationaler Kongress zur Bildung Gehörloser (Mailand, 1880)
+      - Organisationskomitee ICED Vancouver 2010
+      - British Columbia Deaf Community
     institutionalContext: >-
-      Im September 1880 verabschiedete ein internationaler Pädagogenkongress in Mailand Resolutionen, die die „unbestreitbare Überlegenheit“ der Artikulation gegenüber Gebärden behaupteten und erklärten, die gleichzeitige Verwendung von Sprache und Gebärden beeinträchtige Artikulation, Lippenlesen und die Präzision der Vorstellungen. Der Kongress bevorzugte deshalb die reine Lautsprachmethode. Die Resolutionen hatten für sich genommen keine Gesetzeskraft, wurden aber zu einem einflussreichen fachlichen Bezugspunkt für Bildungseinrichtungen weltweit. Auf dem ICED 2010 in Vancouver wurden die Mailänder Resolutionen formell zurückgewiesen und ihre schädlichen Folgen anerkannt.
+      Der vom 6. bis 11. September 1880 in Mailand tagende internationale Kongress verabschiedete eine erste Resolution,
+      die Lautsprache über Gebärden stellte, und eine zweite, laut der die gleichzeitige Verwendung von Lautsprache und
+      Gebärden Sprechen, Lippenlesen und die Präzision der Vorstellungen beeinträchtige. Der amtliche englische Bericht
+      beschrieb die Abstimmungen als etwa 160–4 und etwa 150–16. Die achte Resolution empfahl die schrittweise
+      institutionelle Umstellung durch rein lautsprachliche Eingangsklassen, Trennung von älteren gebärdenunterrichteten
+      Lernenden und jährlich eine neue Sprechklasse. Diese fachlichen Resolutionen waren nicht bindend, boten aber einer
+      bereits laufenden oralistischen Bewegung einen internationalen Bezugspunkt. Am 19. Juli 2010 legten das
+      Vancouver-Organisationskomitee und die British Columbia Deaf Community „A New Era: Deaf Participation and
+      Collaboration“ vor. Die Erklärung wies die gebärdensprachenausschließenden Mailänder Resolutionen zurück,
+      bedauerte ihre Folgen und forderte Bildungsprogramme auf, alle Sprachen und Kommunikationsformen zu respektieren.
     summary: >-
-      Der Mailänder Kongress erklärte 1880 Artikulation gegenüber Gebärden für überlegen und behauptete, die Verbindung von Sprache und Gebärden schade Artikulation, Lippenlesen und der Präzision der Vorstellungen. Seine Resolutionen verliehen reiner Lautspracherziehung internationale fachliche Autorität und wirkten auf zahlreiche Bildungssysteme für Gehörlose ein. 2010 wies der 21. International Congress on the Education of the Deaf die Mailänder Resolutionen formell zurück, erkannte ihre schädlichen Folgen an und forderte Respekt für alle Sprachen und Kommunikationsformen.
+      Die Mailänder Delegierten stellten Lautsprache über Gebärden, bezeichneten gleichzeitiges Gebärden als schädlich
+      und empfahlen eine schrittweise Umstellung von Schulen auf reine Lautspracherziehung. Die Resolutionen besaßen
+      fachliche, keine gesetzgeberische Autorität, wurden aber innerhalb einer breiteren oralistischen Bewegung zu einem
+      einflussreichen internationalen Bezugspunkt. 2010 wiesen die Organisatoren des Vancouver-Kongresses und die
+      British Columbia Deaf Community die gebärdensprachenausschließenden Bestimmungen zurück und erkannten ihre
+      schädlichen Folgen an.
     consequences:
-      - Internationale fachliche Legitimation reiner Lautspracherziehung
-      - Ausschluss oder Abwertung von Gebärdensprachen in vielen Bildungseinrichtungen für Gehörlose
-      - Ausschluss oder Marginalisierung gehörloser Lehrkräfte in oralistisch organisierten Systemen
-      - Eingeschränkter Zugang zu vollständig zugänglicher Sprache für Kinder, die lautsprachlichen Unterricht nicht ausreichend wahrnehmen konnten
+      - Internationale fachliche Legitimation lautsprachlicher gegenüber gebärdenbasierter Bildung
+      - Vorgeschlagene schulweise Abschaffung des Gebärdenunterrichts durch getrennte Eingangsklassen und jährlichen Ausbau des Sprechunterrichts
+      - Nutzung der Mailänder Resolutionen als institutioneller Bezugspunkt oralistischer Politik in mehreren Ländern
+      - Verringerter Zugang zu Gebärdensprachen im Unterricht und Ausschluss oder Marginalisierung gehörloser Lehrkräfte
+      - Breitere Abwertung von Gebärdensprachen, während ihr Gebrauch und der Widerstand gehörloser Menschen fortbestanden
+      - Nicht bindende fachliche Umkehr von 2010, die Schäden anerkannte und sprachliche sowie kommunikative Vielfalt befürwortete
     mechanism:
       summary: >-
-        Der Mailänder Kongress legitimierte reine Lautspracherziehung durch internationale Fachresolutionen, die Artikulation gegenüber Gebärden für überlegen und die gleichzeitige Verwendung von Gebärden für schädlich erklärten.
+        Überlieferte Kongressabstimmungen machten oralistische Behauptungen zu formellen Fachresolutionen. Die ersten
+        beiden lieferten Rangordnung und Schadensbegründung; die achte übersetzte sie in eine stufenweise Schulpolitik,
+        welche gebärdenunterrichtete Jahrgänge durch rein lautsprachliche Eingangsklassen ersetzen sollte.
     institutionalCorrection:
-      periodLabel: '2010'
-      action: ICED wies die Mailänder Resolutionen von 1880 formell zurück und erkannte ihre schädlichen Folgen an.
+      periodLabel: 19. Juli 2010
+      action: >-
+        Das Organisationskomitee ICED Vancouver 2010 und die British Columbia Deaf Community wiesen jene Resolutionen
+        von 1880 zurück, die Gebärdensprachen aus der Bildung gehörloser Menschen ausgeschlossen hatten.
       summary: >-
-        2010 verwarf der International Congress on the Education of the Deaf seine Mailänder Resolutionen formell und forderte Respekt für alle Sprachen und Kommunikationsformen.
+        Ihre Erklärung „A New Era“ erkannte und bedauerte ausdrücklich die schädlichen Folgen des Mailänder Kongresses
+        und forderte Bildungsprogramme auf, alle Sprachen und Kommunikationsformen zu akzeptieren und zu respektieren.
+        Dies war eine formelle Umkehr innerhalb der Kongresstradition, aber kein bindendes Gesetz.
 evidence:
   - id: sign-milan-proposition
     note: >-
-      Erhaltener amtlicher englischer Bericht über die Mailänder Verhandlungen von 1880, einschließlich der Resolutionen,
-      die Artikulation gegenüber Gebärden und die reine Lautsprachmethode bevorzugten.
+      Der amtliche englische Bericht überliefert die Resolutionen, die Lautsprache gegenüber Gebärden bevorzugten und
+      behaupteten, gleichzeitige Lautsprache und Gebärden beeinträchtigten Sprechen, Lippenlesen und Präzision der Vorstellungen.
   - id: sign-acquisition-correction
     note: >-
-      Überblick über Evidenz, dass natürliche Gebärdensprachen bei frühem Zugang auf demselben grundlegenden Entwicklungszeitplan
-      wie Lautsprachen erworben werden, sowie über Risiken eines verzögerten Zugangs zu einer Erstsprache.
+      Der Review zeigt, dass natürliche Gebärdensprachen bei flüssigem Input ab Geburt im selben Zeitrahmen wie
+      Lautsprachen erworben werden und verzögerter Erstsprachzugang sprachliche und schulische Nachteile mit sich bringt.
   - id: sign-spoken-correction
     note: >-
-      Empirische Studie, die keine Evidenz dafür findet, dass früher Gebärdenspracherwerb die Entwicklung gesprochener Sprache grundsätzlich behindert.
+      In einer Querschnittsstichprobe von 56 ASL-Englisch-bilingualen gehörlosen und schwerhörigen Kindern hörender
+      Eltern im Alter von 8 bis 60 Monaten hingen ASL- und lautsprachlicher englischer Wortschatz positiv zusammen.
+      Die Autoren betonen, dass das retrospektive Korrelationsdesign keine Kausalität belegt.
+  - id: sign-asha-language-correction
+    note: >-
+      Die amtliche ASHA-Position bezeichnet ASL als eigenständige, regelgeleitete Sprache mit Phonologie, Morphologie,
+      Semantik, Syntax und Pragmatik und fasst ihre sprachliche, entwicklungsbezogene und neurobiologische Gleichwertigkeit zusammen.
+  - id: sign-systematic-review-correction
+    note: >-
+      Der Review fand elf Kohortenstudien und bewertete die hochwertige Vergleichsevidenz als unzureichend, um bessere
+      lautsprachliche Ergebnisse kombinierter Gebärden- und Lautsprachinterventionen gegenüber rein lautsprachlichen festzustellen.
+  - id: sign-access-correction
+    note: >-
+      Gemeinsame Leitlinien von ASHA und Council on Education of the Deaf verlangen direkte Kommunikation über eine
+      oder mehrere vollständig zugängliche natürliche Sprachen und Planung nach den individuellen Sprach- und Kommunikationsbedürfnissen.
   - id: sign-wfd-impact
     note: >-
-      Beschreibt die internationalen institutionellen Folgen der Mailänder Resolutionen und ihre Rolle bei der Unterdrückung
-      und Abwertung von Gebärdensprachen und gehörlosen Lehrkräften.
+      Beschreibt die Resolutionen als Markierung der langjährigen Abwertung von Gebärdensprachen und die Erklärung
+      „A New Era“ von 2010 als Zurückweisung der schädlichen Mailänder Ideologie.
+  - id: sign-unesco-impact
+    note: >-
+      UNESCO beschreibt negative Folgen für Sprachzugang und Bildung in vielen Ländern, den Ausschluss gehörloser
+      Lehrkräfte und die breite Abwertung von Gebärdensprachen und bezeichnet Mailand als Wendepunkt, nicht als Gesetz.
+  - id: sign-historiography-impact
+    note: >-
+      Die wissenschaftliche Neubewertung verwirft eine einfache Erzählung von einstimmigem Verbot, völligem Verschwinden
+      von Gebärdensprachen und passiven gehörlosen Gemeinschaften und ordnet Mailand in frühere Organisierung und Widerstand ein.
   - id: sign-milan-carrier
+    note: >-
+      Identifiziert den Kongress und überliefert seine angenommenen Resolutionen, ungefähren Abstimmungsergebnisse und
+      den Vorschlag zur institutionellen Umsetzung.
   - id: sign-milan-mechanism
     note: >-
-      Transkribiert die Kongressresolutionen und Abstimmungsergebnisse, darunter 160–4 für die Erklärung der Überlegenheit
-      der Artikulation gegenüber Gebärden und 150–16 für reine Lautspracherziehung gegenüber gleichzeitiger Verwendung von Sprache und Gebärden.
+      Liefert eine lesbare Transkription und Gegenprüfung der Stimmenzahlen für die beiden Resolutionen, die Lautsprache
+      über Gebärden und reinen Oralismus über gleichzeitige Lautsprache und Gebärden stellten.
+  - id: sign-milan-phaseout
+    note: >-
+      Dokumentiert die empfohlene schrittweise Umstellung: Trennung neuer lautsprachlich unterrichteter von älteren
+      gebärdenunterrichteten Lernenden und jährlich eine weitere Sprechklasse bis zu deren Schulabschluss.
   - id: sign-wfd-consequences
+    note: >-
+      Gibt die Darstellung des Weltverbands der Gehörlosen zu Sprachdeprivation und sozialer Marginalisierung im
+      Zusammenhang mit dem Erbe der Mailänder Resolutionen wieder.
+  - id: sign-unesco-consequences
+    note: >-
+      Verbindet die Resolutionen mit Schäden in vielen Ländern und nennt ausdrücklich den Ausschluss gehörloser
+      Lehrkräfte und die Abwertung von Gebärdensprachen.
+  - id: sign-historiography-context
+    note: >-
+      Zeigt, dass organisierte Werbung für Oralismus Mailand vorausging, und warnt davor, den Kongress als alleinige,
+      überall durchgesetzte Ursache späterer gehörlosenpädagogischer Politik zu behandeln.
+  - id: sign-iced-accord-correction
+    note: >-
+      Die Primärerklärung nennt ihre gemeinsamen Urheber, weist die gebärdensprachenausschließenden Resolutionen von
+      1880 zurück, bedauert ihre Folgen und fordert Respekt für alle Sprachen und Kommunikationsformen im Unterricht.
   - id: sign-gallaudet-correction
     note: >-
-      Dokumentiert die ICED-Erklärung vom 19. Juli 2010, die die Resolutionen von 1880 formell zurückwies, ihre schädlichen
-      Folgen anerkannte und Respekt für alle Sprachen und Kommunikationsformen forderte.
+      Datiert die Vorlage der Erklärung zeitgenössisch auf den 19. Juli 2010 beim 21. ICED und dokumentiert die
+      Reaktionen gehörloser Fachleute und Organisationen.
+  - id: sign-acquisition-context
+    note: >-
+      Liefert die entwicklungswissenschaftliche Evidenz gegen die Einordnung einer natürlichen Gebärdensprache als
+      grundsätzlich minderwertig oder sprachlich schädlich.
+  - id: sign-spoken-context
+    note: >-
+      Prüft einen Schaden am lautsprachlichen Wortschatz direkt, begrenzt die Aussage aber auf einen Zusammenhang bei
+      jungen ASL-englisch-bilingualen Kindern statt auf einen allgemeinen kausalen Behandlungseffekt.
+  - id: sign-asha-context
+    note: >-
+      Belegt die heutige fachliche Anerkennung von ASL als Sprache mit denselben Organisationsebenen wie andere
+      menschliche Sprachen.
+  - id: sign-systematic-review-context
+    note: >-
+      Verhindert eine gegenteilige Übertreibung: Die verfügbare vergleichende Interventionsliteratur belegt nicht, dass
+      eine kombinierte Gebärden- und Lautsprachmethode bei jedem lautsprachlichen Ergebnis einer rein oralen Intervention überlegen ist.
+  - id: sign-access-context
+    note: >-
+      Begründet die heutige Alternative zu einer einzigen vorgeschriebenen Modalität mit zugänglicher Sprache,
+      direkter Kommunikation und individueller Bildungsplanung.

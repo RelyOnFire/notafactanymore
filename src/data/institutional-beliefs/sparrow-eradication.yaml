@@ -1,55 +1,126 @@
 schemaVersion: 2
-title: Sparrow eradication
+title: Sparrow eradication as an agricultural remedy
 proposition:
-  summary: Sparrows were treated as net agricultural enemies whose mass eradication would increase grain production.
+  summary: >-
+    China's party-state treated Eurasian tree sparrows as harmful birds whose elimination across every feasible area
+    would prevent grain losses and support higher agricultural production. A central agricultural program made
+    eradication an official target, and the Great Leap Forward converted it into a nationwide mass campaign.
 correction:
   summary: >-
-    Sparrows can consume grain, but they also eat insects and participate in food webs. Large-scale predator removal can
-    trigger ecological effects that make simple “pest equals net harm” assumptions fail.
+    Eurasian tree sparrows do consume grain, so limited crop protection can be warranted in particular places and
+    seasons. Their net effect cannot be inferred from grain consumption alone: their diet varies by habitat, season and
+    life stage, and they consume many insects, especially while feeding young. Blanket eradication removed biological
+    pest control. Contemporary researchers linked sparrow depletion to the insect outbreaks of 1959 while cautioning
+    that weather and other factors also mattered. A 2025 NBER working paper supplies new quantitative evidence that
+    sparrow eradication contributed to crop losses and famine mortality; it does not make the campaign the sole cause of
+    the Great Famine.
 category: Ecology and agriculture
-reviewedAt: '2026-08-23'
+reviewedAt: '2026-09-25'
+impact:
+  summary: >-
+    The policy began in late 1955, entered the national agricultural outline in January 1956 and was qualified in 1957
+    to exempt sparrows in cities and forests. That qualification had little practical effect when the campaign escalated
+    in 1958. Local party-government bodies organized special teams and mobilized workers, officials, soldiers, students
+    and residents to destroy nests, eggs and chicks and to kill adult birds. Sparrow populations were severely depleted
+    and locally extirpated. Insect outbreaks and harvest damage followed, although their causes were not singular. The
+    central leadership reversed course in March 1960, and the National People's Congress formally replaced sparrows with
+    bedbugs in the Four Pests list on 10 April.
+  highlights:
+    - value: 1955–1960
+      label: span from adoption of the central anti-sparrow policy to its formal reversal
+    - value: 5.3% / 8.7%
+      label: >-
+        larger rice and wheat declines per one-standard-deviation increase in sparrow habitat suitability, estimated by
+        a 2025 NBER working paper
+    - value: nearly 2 million
+      label: >-
+        excess deaths attributed to sparrow eradication by the same working paper; an author estimate, not a total famine
+        death count
+  context:
+    - >-
+      The Four Pests program combined unlike targets. Flies, mosquitoes and rats were targeted chiefly as disease
+      vectors; sparrows were included chiefly because they ate grain. The failure of sparrow eradication does not by
+      itself negate the public-health value of every sanitation or vector-control measure carried out under the broader
+      patriotic-health campaign.
+    - >-
+      Scientific opinion was more complex than a simple conflict between rulers and a unanimous expert community. Some
+      ornithologists initially supported control, while other biologists urged delay; continued research showed strong
+      seasonal and geographic variation. By November 1959, the Chinese Academy of Sciences reported a broad preference
+      for controlling specific crop damage rather than eliminating the species.
+    - >-
+      Published national kill totals differ by roughly an order of magnitude, and campaign reporting rewarded inflated
+      achievements. This entry therefore describes severe depletion and local extirpation without adopting a precise
+      nationwide bird-death total.
+    - >-
+      Reports of insect outbreaks in 1959 were real, but researchers at the time warned that infestation had multiple
+      causes. The 2025 NBER study uses habitat suitability and county records to estimate a causal contribution; it is a
+      discussion paper that has not undergone peer review, so its yield and mortality figures are presented as the
+      authors' estimates.
+    - >-
+      A short official forestry-history page says sparrows had left the Four Pests list by June 1959. The detailed
+      archival chronology instead records scientific reports in September and November 1959, a central stop order in
+      March 1960 and formal replacement by the National People's Congress on 10 April 1960. This entry follows the dated
+      directive and enacted text while preserving the conflicting official page in the evidence record.
 episodes:
-  - id: china-1958-1959
+  - id: china-1955-1960
     polity: People's Republic of China
     region: East Asia
-    startYear: 1958
-    endYear: 1959
-    periodLabel: 1958–1959
+    startYear: 1955
+    endYear: 1960
+    periodLabel: Late 1955–10 April 1960
     strength: policy-basis
     institutionTypes:
       - government
+      - academy
       - education
     institutions:
-      - Central Committee of the Communist Party of China
+      - Mao Zedong and the Central Committee of the Communist Party of China
       - State Council of the People's Republic of China
+      - Supreme State Conference and Second National People's Congress
+      - Chinese Academy of Sciences and its Party Group
+      - People's Daily and provincial and municipal party-state media
     institutionalContext: >-
-      The national institutional proposition is unusually explicit. On 12 February 1958, the CCP Central Committee and
-      State Council jointly issued the directive 关于除四害讲卫生的指示, describing rats and sparrows as major enemies that
-      damaged grain and obstructed production. Mass implementation then ran through the wider Four Pests and
-      patriotic-health mobilization apparatus; those provincial and local implementation networks are described as
-      machinery rather than listed as if they were single institutions.
+      Mao placed sparrows among four pests in agricultural proposals drafted in November 1955. After Politburo and
+      Supreme State Conference review, Article 27 of the January 1956 national agricultural outline draft called for
+      rats, sparrows, flies and mosquitoes to be basically eliminated wherever possible. Research and objections led the
+      October 1957 revision to say that sparrows in cities and forests need not be killed, but a joint Central Committee–
+      State Council directive of 12 February 1958 again called rats and sparrows major enemies that damaged grain and
+      obstructed production. Repeated leadership exhortations, party-state media, local command organizations, schools
+      and work units turned the proposition into mass killing during 1958. In 1959 the Chinese Academy of Sciences
+      assembled evidence on the birds' mixed ecological role. The central leadership ordered sparrow killing stopped in
+      March 1960, and the legislature formalized the substitution of bedbugs on 10 April.
     consequences:
-      - Wildlife eradication
-      - Agricultural policy
-      - Ecological disruption
+      - Organized destruction of adult sparrows, nests, eggs and chicks across urban and rural China
+      - Severe population depletion and local extirpation in heavily mobilized areas
+      - Loss of insect predation followed by reported outbreaks that damaged urban trees and agricultural crops
+      - A measurable contribution to rice and wheat losses and famine mortality in a 2025 working-paper estimate
+      - Displacement of qualified scientific warnings and context-specific pest-management advice during the 1958 peak
+      - Reversal of the target in 1960 after renewed scientific review and evidence of ecological harm
     summary: >-
-      During the Four Pests campaign, a February 1958 directive from the CCP Central Committee and State Council explicitly
-      classified sparrows as major enemies that damaged grain and obstructed production. Mass killing sharply reduced
-      sparrow populations. Historical and ecological reviews describe subsequent insect outbreaks, ecological disruption,
-      and poor harvest effects; by June 1959 sparrows had been removed from the official Four Pests list. This card does
-      not attribute the Great Famine to the sparrow campaign alone.
+      A crop-loss complaint became central policy before the Great Leap Forward and then a nationwide mobilization.
+      Administrative targets and campaign media compressed a variable ecological relationship into the category of a
+      species-wide enemy. The killing badly depleted sparrows, reduced natural insect control and contributed to crop
+      losses amid the wider Great Leap Forward crisis. Scientific review helped produce a central reversal in March 1960
+      and a formal legislative change in April.
     mechanism:
       kind: administrative-adoption
       summary: >-
-        The CCP Central Committee and State Council turned the pest proposition into a national eradication directive and
-        implemented it through the Four Pests and patriotic-health mobilization apparatus.
+        The party leadership embedded eradication in a national agricultural program, the Central Committee and State
+        Council issued a joint directive, and provincial and local bodies translated it into command organizations,
+        publicity, collective drives and reported performance totals. Schools, work units, officials and residents were
+        mobilized to destroy birds and nests. The same centralized chain later transmitted the stop order.
     institutionalCorrection:
       status: corrected
-      periodLabel: June 1959
-      action: The official Four Pests list was revised to remove sparrows.
+      periodLabel: September 1959–10 April 1960
+      action: >-
+        The Central Committee ordered that sparrows no longer be killed, and the National People's Congress replaced
+        sparrows with bedbugs in Article 27 of the national agricultural outline.
       summary: >-
-        The same central policy system that had designated sparrows as a major agricultural enemy abandoned that
-        classification within the campaign by removing sparrows from the official list.
+        Chinese Academy of Sciences reports in September and November 1959 emphasized context-dependent benefits and
+        harms and urged control of damage rather than elimination of the species. Mao circulated the November report,
+        the Academy organized further review, and a Central Committee health directive drafted on 16 March and issued
+        on 18 March 1960 said to stop killing sparrows. On 10 April the Second National People's Congress adopted the
+        revised Four Pests list of rats, bedbugs, flies and mosquitoes.
 sources:
   - id: sparrow-1958-directive
     title: 中共中央、国务院关于除四害讲卫生的指示 — 12 February 1958
@@ -63,41 +134,219 @@ sources:
     title: The “elimination of the four pests” movement in Guangzhou from 1949 to 1959
     url: https://pubmed.ncbi.nlm.nih.gov/31137157/
     publisher: Chinese Journal of Medical History / PubMed
+  - id: sparrow-outline-1957
+    title: 1956年到1967年全国农业发展纲要（修正草案）
+    url: https://agri-history.ihns.ac.cn/reading/56agri.htm
+    publisher: Institute for the History of Natural Sciences, Chinese Academy of Sciences
+  - id: sparrow-policy-science-1
+    title: 新中国公共政策中的“科学”实践——以麻雀科研为中心（1955—1960）, part 1
+    url: https://www.dswxyjy.org.cn/n1/2018/0507/c218998-29968978.html
+    publisher: Institute of Party History and Literature of the CPC Central Committee
+  - id: sparrow-policy-science-2
+    title: 新中国公共政策中的“科学”实践——以麻雀科研为中心（1955—1960）, part 2
+    url: https://www.dswxyjy.org.cn/n1/2018/0507/c218998-29968978-2.html
+    publisher: Institute of Party History and Literature of the CPC Central Committee
+  - id: sparrow-npc-gazette-1960
+    title: 中华人民共和国全国人民代表大会常务委员会公报 — 1960年第4号
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d1/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%85%A8%E5%9B%BD%E4%BA%BA%E6%B0%91%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A%E5%B8%B8%E5%8A%A1%E5%A7%94%E5%91%98%E4%BC%9A%E5%85%AC%E6%8A%A51960%E5%B9%B4%E7%AC%AC4%E5%8F%B7.pdf
+    publisher: Standing Committee of the National People's Congress
+  - id: sparrow-nber-2025
+    title: 'Campaigning for Extinction: Eradication of Sparrows and the Great Famine in China'
+    url: https://www.nber.org/papers/w34087
+    publisher: National Bureau of Economic Research
+  - id: sparrow-cornell-diet
+    title: Eurasian Tree Sparrow Life History
+    url: https://www.allaboutbirds.org/guide/Eurasian_Tree_Sparrow/lifehistory
+    publisher: Cornell Lab of Ornithology
 evidence:
   - id: sparrow-directive-proposition
     sourceId: sparrow-1958-directive
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: single substantive paragraph beginning “1958年2月12日”
     note: >-
-      Official government reproduction of the CCP Central Committee and State Council directive stating that rats and
-      sparrows were major enemies that damaged grain and obstructed production; the same official historical record notes
-      that sparrows were removed from the Four Pests list by June 1959.
-  - id: sparrow-ecology-correction
-    sourceId: sparrow-biodiversity-review
+      The official retrospective identifies the 12 February 1958 joint Central Committee–State Council directive and
+      reproduces its classification of rats and sparrows as major enemies that damaged grain and obstructed production.
+  - id: sparrow-outline-proposition
+    sourceId: sparrow-outline-1957
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Article 27, “除四害”
+    note: >-
+      The October 1957 revised national agricultural outline retained the goal of basically eliminating sparrows wherever
+      possible, while adding that killing was for crop protection and sparrows in cities and forests need not be killed.
+  - id: sparrow-policy-proposition
+    sourceId: sparrow-policy-science-1
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    locator: section I, paragraphs beginning “1955年11月” and “1955年底至1956年初”
+    note: >-
+      Archival policy history traces the target from Mao's November 1955 agricultural proposals to Article 27 of the
+      January 1956 outline draft, after Politburo and Supreme State Conference consideration.
+  - id: sparrow-cornell-correction
+    sourceId: sparrow-cornell-diet
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: “Food” section
     note: >-
-      Reviews the 1958 sparrow extermination campaign, the scale of killing, and subsequent insect outbreaks.
+      The species account records a mixed diet of grain, seeds, fruit, flowers and invertebrates and notes that Eurasian
+      tree sparrows eat large quantities of insects and other arthropods in spring, especially when feeding young.
+  - id: sparrow-policy-correction
+    sourceId: sparrow-policy-science-2
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: section III, paragraphs on the September and 27 November 1959 Academy reports
+    note: >-
+      The archival reconstruction records scientists' conclusion that benefits and harms varied by place and season and
+      that policy should control specific sparrow damage rather than eliminate the species.
+  - id: sparrow-nber-correction
+    sourceId: sparrow-nber-2025
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: abstract; pp. 2–5 and 27–40
+    note: >-
+      The working paper combines habitat-suitability models with historical county production and demographic records to
+      estimate that eradication reduced natural pest control, lowered rice and wheat output and raised famine mortality.
+      Its title page states that NBER working papers are circulated for discussion and have not been peer reviewed.
+  - id: sparrow-biodiversity-impact
+    sourceId: sparrow-biodiversity-review
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: >-
+      section “Unintended Consequences of Centralized Conservation Planning,” subsection “Internal Risks,” first two
+      paragraphs and Fig. 2
+    note: >-
+      Reviews the top-down campaign, mass participation, severe sparrow depletion and the 1959 insect outbreak as an
+      example of ecological harm from a one-size-fits-all policy. Its numerical kill estimate is not adopted here because
+      national totals conflict across sources.
+  - id: sparrow-guangzhou-impact
+    sourceId: sparrow-guangzhou-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: abstract; PMID 31137157
+    note: >-
+      The historical review distinguishes public-health gains from the wider Guangzhou sanitation campaign from the
+      serious ecological and harvest damage associated with excessive measures such as sparrow eradication.
+  - id: sparrow-nber-impact
+    sourceId: sparrow-nber-2025
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: abstract; pp. 27–40 and 45–49
+    note: >-
+      Reports the authors' estimates of 5.3% larger rice and 8.7% larger wheat declines per standard-deviation increase in
+      sparrow suitability, a 9.6% mortality increase in high-suitability counties and nearly two million excess deaths.
   - id: sparrow-directive-carrier
     sourceId: sparrow-1958-directive
     relation: documents
-    target: {scope: episode, episodeId: china-1958-1959, aspect: carrier}
-  - id: sparrow-directive-mechanism
-    sourceId: sparrow-1958-directive
+    target: {scope: episode, episodeId: china-1955-1960, aspect: carrier}
+    locator: single substantive paragraph beginning “1958年2月12日”
+    note: >-
+      Identifies the CCP Central Committee and State Council as joint issuers of the February 1958 directive and describes
+      the nationwide Four Pests upsurge that followed.
+  - id: sparrow-outline-carrier
+    sourceId: sparrow-outline-1957
     relation: documents
-    target: {scope: episode, episodeId: china-1958-1959, aspect: mechanism}
+    target: {scope: episode, episodeId: china-1955-1960, aspect: carrier}
+    locator: prefatory Central Committee note and Article 27
+    note: >-
+      Documents that the CCP Central Committee issued the revised draft for nationwide discussion and retained sparrow
+      elimination as an agricultural target, subject to the city-and-forest qualification.
+  - id: sparrow-policy-carrier
+    sourceId: sparrow-policy-science-1
+    relation: documents
+    target: {scope: episode, episodeId: china-1955-1960, aspect: carrier}
+    locator: sections I–II, especially paragraphs on the 1956 outline, 1957 revision and 1958 peak
+    note: >-
+      Traces the roles of Mao, the Politburo, Supreme State Conference, Chinese Academy of Sciences, mass media and local
+      authorities across adoption, scientific debate and nationwide escalation.
+  - id: sparrow-policy-mechanism
+    sourceId: sparrow-policy-science-1
+    relation: documents
+    target: {scope: episode, episodeId: china-1955-1960, aspect: mechanism}
+    locator: section II, final paragraphs on the revised outline and 1958 campaigns
+    note: >-
+      Describes how the 1957 exemption was overwhelmed by Great Leap mobilization and records organized citywide drives
+      in Beijing, Shanxi, Sichuan and Shanghai; it cautions that reported achievement totals may have been inflated.
+  - id: sparrow-nber-mechanism
+    sourceId: sparrow-nber-2025
+    relation: contextualizes
+    target: {scope: episode, episodeId: china-1955-1960, aspect: mechanism}
+    locator: pp. 7–10; pp. 17–19
+    note: >-
+      Synthesizes evidence on local special teams, mass mobilization, nest and egg destruction, shooting and noise used to
+      exhaust birds, while explicitly warning that bureaucratic incentives could inflate reported kill totals.
+  - id: sparrow-outline-context
+    sourceId: sparrow-outline-1957
+    relation: contextualizes
+    target: {scope: episode, episodeId: china-1955-1960, aspect: context}
+    locator: Article 27, final sentence
+    note: >-
+      Shows that the central text had already recognized a spatial distinction in 1957: crop protection was the stated
+      object, and sparrows in cities and forests could be spared. The 1958 urban drives exceeded that qualification.
+  - id: sparrow-cornell-context
+    sourceId: sparrow-cornell-diet
+    relation: contextualizes
+    target: {scope: episode, episodeId: china-1955-1960, aspect: context}
+    locator: “Food” section
+    note: >-
+      Supplies modern species-level context for why neither “pure grain thief” nor “pure insect predator” is adequate:
+      Eurasian tree sparrows consume both crops and invertebrates, with marked seasonal and reproductive variation.
+  - id: sparrow-biodiversity-consequences
+    sourceId: sparrow-biodiversity-review
+    relation: supports
+    target: {scope: episode, episodeId: china-1955-1960, aspect: consequences}
+    locator: >-
+      section “Unintended Consequences of Centralized Conservation Planning,” subsection “Internal Risks,” first two
+      paragraphs and Fig. 2
+    note: >-
+      Connects the centralized campaign and participation by officials, police, soldiers and the public with severe bird
+      depletion and loss of insect control.
   - id: sparrow-guangzhou-consequences
     sourceId: sparrow-guangzhou-history
     relation: supports
-    target: {scope: episode, episodeId: china-1958-1959, aspect: consequences}
+    target: {scope: episode, episodeId: china-1955-1960, aspect: consequences}
+    locator: abstract; PMID 31137157
     note: >-
-      Historical review describing the 1958 radicalization of the campaign and ecological and harvest damage from
-      excessive measures such as sparrow eradication.
-  - id: sparrow-ecology-context
-    sourceId: sparrow-biodiversity-review
+      Uses Guangzhou newspaper coverage to distinguish the broader campaign's sanitation benefits from ecological and
+      harvest damage caused by radical excesses including sparrow eradication.
+  - id: sparrow-policy-consequences
+    sourceId: sparrow-policy-science-2
     relation: contextualizes
-    target: {scope: episode, episodeId: china-1958-1959, aspect: context}
-  - id: sparrow-directive-correction
-    sourceId: sparrow-1958-directive
+    target: {scope: episode, episodeId: china-1955-1960, aspect: consequences}
+    locator: section III, opening three paragraphs
+    note: >-
+      Records widespread insect outbreaks and poor harvests in 1959, scientists' concern about a link to sparrow removal,
+      and Zheng Zuoxin's warning that weather and other causes prevented a single-factor explanation.
+  - id: sparrow-nber-consequences
+    sourceId: sparrow-nber-2025
+    relation: supports
+    target: {scope: episode, episodeId: china-1955-1960, aspect: consequences}
+    locator: abstract; pp. 27–40 and 45–49
+    note: >-
+      Provides a modern quantitative estimate of the campaign's contribution to crop decline and mortality while
+      analyzing procurement as an amplifying institution. The findings are working-paper estimates, not proof that the
+      sparrow campaign alone caused the famine.
+  - id: sparrow-policy-correction-process
+    sourceId: sparrow-policy-science-2
     relation: documents
-    target: {scope: episode, episodeId: china-1958-1959, aspect: institutional-correction}
+    target: {scope: episode, episodeId: china-1955-1960, aspect: institutional-correction}
+    locator: section III, paragraphs on 27–29 November 1959, 15–16 March 1960 and 6–10 April 1960
+    note: >-
+      Reconstructs the Academy report and meetings, Mao's circulation of the evidence, the mid-March central stop order,
+      Tan Zhenlin's 6 April report and the National People's Congress vote on 10 April.
+  - id: sparrow-npc-correction
+    sourceId: sparrow-npc-gazette-1960
+    relation: documents
+    target: {scope: episode, episodeId: china-1955-1960, aspect: institutional-correction}
+    locator: PDF pp. 53–54 and 72 (gazette pp. 75–76 and 94)
+    note: >-
+      The official gazette records Tan Zhenlin's instruction that sparrows no longer be killed and reproduces enacted
+      Article 27 naming rats, bedbugs, flies and mosquitoes, with sparrows absent.
+  - id: sparrow-forestry-date-dispute
+    sourceId: sparrow-1958-directive
+    relation: disputes
+    target: {scope: episode, episodeId: china-1955-1960, aspect: institutional-correction}
+    locator: single substantive paragraph, final sentence
+    note: >-
+      This short retrospective dates removal of sparrows to June 1959. It gives no underlying act, and its date conflicts
+      with the detailed Academy chronology, the March 1960 central directive and the enacted 10 April 1960 outline.

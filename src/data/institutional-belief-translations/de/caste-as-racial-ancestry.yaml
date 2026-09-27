@@ -1,31 +1,173 @@
+schemaVersion: 2
 locale: de
 entryId: caste-as-racial-ancestry
-sourceReviewedAt: '2026-08-23'
+sourceReviewedAt: '2026-09-27'
 title: Kaste als rassische Abstammung
-claim: Der Rang einer Kaste wurde als Ausdruck messbarer rassischer Abstammung behandelt; Körpermaße wie der Nasenindex dienten
-  dazu, Menschen in Indien verschiedenen „Rassentypen“ zuzuordnen.
-currentUnderstanding: Kaste ist ein historisches und soziales System, keine biologische Hierarchie von „Rassen“. Langjährige
-  Endogamie hat zwar gewisse genetische Strukturen zwischen südasiatischen Bevölkerungsgruppen erzeugt, doch Schädel- oder
-  Nasenmaße definieren keine diskreten menschlichen Rassen und bestätigen weder Kastenrang noch menschlichen Wert als biologisches
-  Maß.
+proposition:
+  summary: >-
+    Der Zensus von 1901 behandelte den relativen Rang einer Kaste als Ausdruck unterschiedlicher Anteile rassischer
+    Abstammung. Anthropometrische Maße, vor allem der Nasenindex, sollten Bevölkerungsgruppen „Rassentypen“ zuordnen und
+    die soziale Hierarchie als messbare biologische Ordnung darstellen.
+correction:
+  summary: >-
+    Kastenränge entsprechen keinen diskreten biologischen „Rassen“, und Nasenmaße können weder den Platz einer Gruppe in
+    einer festen Rassenhierarchie noch ihren menschlichen Wert bestimmen. Genomweite Studien finden in Südasien durchaus
+    Populationsstrukturen, unterschiedliche Abstammungsanteile und Folgen langfristiger Endogamie; eine Studie fand in
+    ihren Stichproben auch einen statistischen Zusammenhang zwischen traditioneller Kastenstufe und einer modellierten
+    Abstammungskomponente. Diese Befunde beschreiben Vermischung, Isolation und soziale Praxis, nicht Risleys feste
+    „Rassentypen“ und keine biologische Rechtfertigung der Kastenhierarchie.
+impact:
+  summary: >-
+    Die Government of India verband einen gesamtindischen Ethnographic Survey mit dem Zensus von 1901 und übertrug
+    Census Commissioner Herbert Risley die Leitung beider Projekte. Der amtliche Bericht von 1903 behauptete, ein
+    „Rassegefühl“ habe das Grundprinzip der Kaste geliefert und werde durch wissenschaftliche Methoden bestätigt; die
+    ethnografischen Anhänge veröffentlichten das anthropometrische Material des Kastenkapitels. Die Einteilung nach
+    sozialem Rang gab Kastengruppen zugleich ein staatliches Forum, in dem sie Namen und Rang mit organisierten Petitionen
+    bestritten. Der Zensus schuf die Kaste nicht, machte aber eine umstrittene rassische und hierarchische Deutung zu
+    amtlichem, vergleichbarem Kolonialwissen.
+  highlights:
+    - value: 23. Mai 1901
+      label: Datum der Home-Department-Akten zum zensusgebundenen Ethnographic Survey
+    - value: 69 Seiten
+      label: Umfang des amtlichen Kapitels „Caste, Tribe and Race“ von 1903 auf den Seiten 489–557
+    - value: '1911'
+      label: nächstes Zensusjahr; die belegte Gwalior-Reihe ersetzte sozialen Rang durch Berufsgruppen
+  context:
+    - >-
+      Kaste, Jati, Varna und Formen erblicher Hierarchie bestanden lange vor dem kolonialen Zensus. Gegenstand der Karte
+      ist die Vereinheitlichung, Rangordnung und rassische Deutung vielfältiger Identitäten durch den Zensus, nicht die
+      Behauptung, britische Beamte hätten die Kaste erfunden.
+    - >-
+      Die anthropometrischen Anhänge enthielten Stichprobendaten des Zensusprojekts und keine Messungen aller gezählten
+      Personen. Risleys Schluss wechselte zudem zwischen Körpermaßen und einem von Beamten getrennt ermittelten sozialen
+      Rang; eine scheinbare Übereinstimmung konnte daher keine der beiden Hierarchien unabhängig bestätigen.
+    - >-
+      Die moderne Populationsgenetik verlangt eine genauere Korrektur als die Aussage, Kaste habe keinerlei Beziehung zu
+      Abstammung. Auf frühere breite Vermischung folgte Endogamie, die erhebliche Strukturen erzeugte; Abstammungsanteile
+      können mit Sprache, Geografie und traditioneller Kastenstufe korrelieren. Diese überlappenden Geschichten bilden
+      keine reinen, diskreten „Rassen“ und machen sozialen Rang nicht zu einer biologischen Skala.
+    - >-
+      Die institutionelle Korrektur erfolgte spät und stufenweise. Der Gwalior-Bericht von 1911 verwarf die Einteilung
+      nach sozialem Rang als unbefriedigend, führte die Kastenerfassung aber fort. Erst viel später bezeichnete eine
+      amtliche Monografie des Census of India Risleys Rassenklassifikation ausdrücklich als methodisch mangelhaft und
+      verwarf die Annahme reiner „Rassen“.
 episodes:
-- id: british-india-1901-1903
-  polity: Britisch-Indien
-  institutions:
-  - Home Department, Government of India
-  - Office of the Census Commissioner for India
-  institutionalContext: Risleys frühere anthropometrische Arbeiten in Bengalen lieferten den intellektuellen Rahmen; die gesamtindische
-    institutionelle Episode beginnt hier jedoch 1901. Das Home Department der Government of India genehmigte formell einen
-    Ethnographic Survey im Zusammenhang mit dem Zensus, während Census Commissioner Herbert Risley den Zensus leitete und
-    zugleich als Honorary Director of Ethnography fungierte. Provinzielle Superintendenten und Erhebungspersonal sammelten
-    und standardisierten Kasten- und anthropometrische Daten; diese verteilte Feldorganisation wird als Apparat beschrieben
-    und nicht als einzelne Institution ausgegeben.
-  summary: Herbert Risleys frühere anthropometrische Arbeiten ordneten Bevölkerungen Indiens anhand von Messgrößen wie dem
-    Nasenindex verschiedenen „Rassentypen“ zu. 1901 genehmigte die Government of India einen gesamtindischen Ethnographic
-    Survey im Zusammenhang mit dem Zensus; Risley war Census Commissioner und leitete zugleich die ethnografischen Arbeiten.
-    Der Bericht zum Zensus von 1901 und die 1903 veröffentlichten ethnografischen Anhänge behandelten Körpermaße als Evidenz
-    für „Rasse“ und Kastenhierarchie.
-  consequences:
-  - Rassische Klassifizierung von Kastengruppen
-  - Anthropometrische Datenerhebung
-  - Amtliche ethnografische Kategorien
+  - id: british-india-1901-1903
+    polity: Britisch-Indien
+    institutions:
+      - Home Department, Government of India
+      - Office of the Census Commissioner for India
+    institutionalContext: >-
+      Das Home Department dokumentierte formell einen Ethnographic Survey im Zusammenhang mit dem Zensus von 1901.
+      Risley, dessen Arbeiten in Bengalen Kastenbeschreibung bereits mit anthropometrischer Vermessung verbunden hatten,
+      war Census Commissioner und Honorary Director des umfassenderen Surveys. Provinzielle Zensus- und
+      Erhebungsmitarbeiter sammelten, ordneten und veröffentlichten Material zu Kaste, sozialem Rang und Körpermaßen. Die
+      zentralen Ämter stellten Genehmigung, Leitung und einen gemeinsamen Publikationsrahmen bereit; das verteilte
+      Provinzpersonal bildete den Erhebungsapparat.
+    consequences:
+      - Als Kasten- oder Stammesvertreter ausgewählte Menschen wurden vermessen und in anthropometrischen Tabellen erfasst
+      - Bevölkerungsgruppen erschienen in amtlichen Berichten und Karten als „Rassentypen“
+      - Kastenangaben wurden anhand einer umstrittenen Skala des sozialen Rangs geordnet
+      - Kastenverbände organisierten Petitionen für andere Namen oder eine höhere Stellung in der Zensushierarchie
+      - Eine koloniale Rassentheorie erhielt Autorität und Reichweite einer gesamtindischen Regierungspublikation
+    summary: >-
+      Zwischen der Zensuserhebung von 1901 und der Veröffentlichung von Bericht und Anhängen 1903 machte die Government of
+      India Risleys rassische Kastentheorie zu einem amtlichen Klassifikationsprojekt. Anthropometrische Stichproben,
+      besonders Nasenindizes, wurden zusammen mit Kastenangaben und sozialem Rang gelesen, um schmalere Nasen und einen
+      vermeintlich höheren „arischen“ Abstammungsanteil mit höherem Status zu verbinden. Nur ausgewählte Personen wurden
+      vermessen; zugleich entstand die Hierarchie aus sozialen Urteilen und Petitionen. Sie war daher keine unabhängige
+      biologische Entdeckung.
+    mechanism:
+      summary: >-
+        Der Zensus und der verbundene Ethnographic Survey überführten ausgewählte Körpermaße, Kastenangaben und Urteile
+        über sozialen Rang in standardisierte Tabellen, „Rassentypen“, Karten und ein amtliches Erklärungskapitel.
+    institutionalCorrection:
+      periodLabel: 1911–1969
+      action: Die Gwalior-Zensusreihe von 1911 ersetzte die Rangordnung nach sozialem Status durch Berufsgruppen; eine spätere Monografie des Census of India verwarf Risleys Rassenklassifikation ausdrücklich als methodisch mangelhaft.
+      summary: >-
+        Die Korrektur verlief stufenweise. Der belegte Nachfolgebericht von 1911 nannte die Methode des sozialen Rangs
+        unbefriedigend und änderte die Grundlage der Gruppierung, behielt die Kastenerfassung jedoch bei. In einer 1969
+        veröffentlichten Monografie zum Census of India 1961 erklärte das Office of the Registrar General, Risleys
+        Klassifikation beruhe auf unbefriedigenden Verfahren, verwechsle Sprache mit „Rasse“ und könne weder reine
+        „Rassen“ in Indien noch eine flächige Rasseneinteilung der Provinzen begründen.
+evidence:
+  - id: caste-guha-proposition
+    note: >-
+      Seite 16 erläutert, wie Risley mit dem Nasenindex messbare, der Kastenhierarchie entsprechende Rassenunterschiede
+      behauptete. Widersprechende Kopfformen konnten unterschiedlichen Ursprüngen zugeschrieben werden, sodass sich die
+      Theorie einer Widerlegung entzog.
+  - id: caste-guha-episode-context
+    note: >-
+      Seite 16 verbindet den behaupteten politischen Nutzen der Ethnografie für die Government of India mit der
+      ethnografischen Ausrichtung des Zensus von 1901 und den dadurch ausgelösten Statusansprüchen gesellschaftlicher Gruppen.
+  - id: caste-appendices-mechanism
+    note: >-
+      Amtlicher Band von 1903, dessen Titel ihn ausdrücklich als Datengrundlage des Kastenkapitels ausweist; der Inhalt
+      umfasst Messwertübersichten, Nasenindizes und Karten vermeintlicher „Rassentypen“.
+  - id: caste-home-carrier
+    note: >-
+      Die Katalogdaten nennen ein neunseitiges Verfahren der Government of India, Home Department (Public), Nr.
+      3219–3232, vom 23. Mai 1901 zum Ethnographic Survey im Zusammenhang mit dem Zensus. Der Nachweis belegt Identität und
+      Herkunft des Vorgangs, enthält aber keinen Scan seines Textes.
+  - id: caste-rai-carrier
+    note: >-
+      Der institutionelle Nachruf dokumentiert Risleys frühere Aufgabe in Bengalen, Curzons Unterstützung eines
+      landesweiten Surveys, Risleys ehrenamtliche Leitung dieses Surveys und seine Auswahl zur Durchführung des Zensus von
+      1901 gemeinsam mit E. A. Gait.
+  - id: caste-report-proposition
+    note: >-
+      Kapitel XI, Seiten 489–557, kündigt einleitend den Nachweis an, „Rassegefühl“ sei das Grundprinzip der Kaste und
+      werde durch wissenschaftliche Methoden bestätigt; anschließend gelten Körpermaße als bevorzugte „Rassentests“.
+  - id: caste-report-mechanism
+    note: >-
+      Der amtliche gesamtindische Bericht verbindet Anthropometrie, vermeintliche „Rassentypen“ und die Einteilung nach
+      sozialem Rang im Regierungskapitel „Caste, Tribe, and Race“.
+  - id: caste-lee-impact
+    note: >-
+      Das moderne Fachkapitel erläutert, dass Risley Angaben nach hierarchischem Kastenstatus ordnete, um seine Theorie
+      rassischer Ursprünge zu stützen, und dass der Zensus zum Forum für Statusforderungen von Kastenaktivisten wurde.
+  - id: caste-lee-consequences
+    note: >-
+      Seiten 83–110 beschreiben Petitionen für höheren Status oder andere Kastennamen. Vereinfachte Zensuskategorien
+      konnten Kaste stärker hervorheben und mehrdeutige Identitäten verdrängen; zugleich betont der Autor Unterschiede in
+      ihrer Nutzung durch Aktivisten.
+  - id: caste-1911-correction
+    note: >-
+      Gedruckte Seite 75 erklärt, die Gwalior-Reihe von 1911 habe traditionelle Berufe statt der unbefriedigenden
+      Einteilung von 1901 nach sozialem Rang verwendet, die korrekte Angaben im Erhebungsbogen beeinträchtigt habe.
+  - id: caste-census1961-belief-correction
+    note: >-
+      Seite 25 nennt Risleys Rassenklassifikation verfahrensmäßig unbefriedigend und fragwürdig, verweist auf die
+      Verwechslung von Sprache und „Rasse“ und verwirft sowohl reine „Rassen“ in Indien als auch eine flächige rassische
+      Einteilung der Provinzen.
+  - id: caste-census1961-episode-correction
+    note: >-
+      Die Korrektur steht in einer amtlichen Monografie des unabhängigen indischen Census of India und stammt damit von
+      einer Nachfolgeinstitution, nicht nur aus externer Kritik.
+  - id: caste-aaba-belief-correction
+    note: >-
+      Die Erklärung des Fachverbands für biologische Anthropologie von 2019 erläutert, dass menschliche Variation keine
+      diskreten, reinen oder festen Rassengruppen bildet und sichtbare Merkmale nicht den Grenzen sozial definierter
+      „Rassen“ folgen.
+  - id: caste-aaba-episode-context
+    note: >-
+      Liefert die moderne fachliche Grundlage, messbare menschliche Variation von der diskreten Rassentaxonomie und den
+      Überlegenheitsbehauptungen der Zensusdeutung zu unterscheiden.
+  - id: caste-reich-belief-correction
+    note: >-
+      Die genomweite Analyse fand gemischte Abstammung und ausgeprägte Populationsstrukturen; in ihren Stichproben bestand
+      auch nach Kontrolle der Sprache ein signifikanter Zusammenhang zwischen traditioneller Kastenstufe und ANI-Anteil.
+  - id: caste-reich-episode-context
+    note: >-
+      Zeigt, weshalb eine Korrektur Risleys reale Abstammungsvariation nicht ausblenden darf: Korrelationen in Stichproben
+      passen zu komplexer Populationsgeschichte, belegen aber weder reine „Rassen“ anhand von Nasenmaßen noch eine
+      biologische Gültigkeit des Rangs.
+  - id: caste-moorjani-belief-correction
+    note: >-
+      Die Analyse von 73 Gruppen datiert eine starke Vermischung auf etwa 1.900–4.200 Jahre vor heute und den späteren
+      Übergang zu Endogamie; alle untersuchten Festlandgruppen werden als gemischt statt als fortbestehende unvermischte
+      „Rassentypen“ beschrieben.
+  - id: caste-moorjani-episode-context
+    note: >-
+      Liefert eine populationsgeschichtliche Erklärung für genetische Strukturen, die der Kolonialbericht stattdessen in
+      wenige feste und nach sozialem Status geordnete „Rassen“ presste.

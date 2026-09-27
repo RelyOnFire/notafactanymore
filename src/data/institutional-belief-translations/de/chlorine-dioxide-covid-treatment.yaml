@@ -1,38 +1,178 @@
+schemaVersion: 2
 locale: de
 entryId: chlorine-dioxide-covid-treatment
-sourceReviewedAt: 2026-08-24
+sourceReviewedAt: 2026-09-27
 title: Chlordioxid als COVID-19-Prävention und -Behandlung
-claim: >-
-  Chlordioxidlösung wurde als medizinisch einsetzbares Mittel zur Vorbeugung oder Behandlung von COVID-19 behandelt, das gesetzlichen Zugang, Versorgung im öffentlichen Gesundheitswesen und amtliche Informationskampagnen rechtfertige.
-currentUnderstanding: >-
-  Chlordioxid ist ein Oxidationsmittel für Desinfektions- und Industrieanwendungen und kein nachgewiesen wirksames COVID-19-Medikament. Es gibt keine ausreichende wissenschaftliche Evidenz dafür, dass die Einnahme von Chlordioxid COVID-19 verhindert oder behandelt; die Exposition kann schwere toxische Wirkungen verursachen. Aus desinfizierenden Eigenschaften lässt sich keine therapeutische Wirksamkeit im menschlichen Körper ableiten.
+proposition:
+  summary: >-
+    Chlordioxidlösung wurde als medizinisch einsetzbare Alternative zur Vorbeugung oder Behandlung von COVID-19
+    behandelt, die gesetzlichen Apothekenzugang, Versorgung im öffentlichen Gesundheitswesen, amtliche
+    Informationskampagnen und gerichtlich durchsetzbaren Patientenzugang rechtfertige.
+correction:
+  summary: >-
+    Chlordioxid ist ein reaktionsfreudiges Oxidationsmittel für Desinfektions- und Industrieanwendungen. Die Wirkung
+    gegen Mikroorganismen außerhalb des Körpers belegt keine sichere oder wirksame systemische Behandlung. Eine
+    systematische Übersichtsarbeit von 2020 fand keine Humanstudien, die eine inhalative, orale oder parenterale Anwendung
+    gegen COVID-19 stützten. Eine spätere randomisierte Studie zur viel engeren Anwendung als verdünnte Mundspülung fand
+    gegenüber Wasser keine Verringerung des SARS-CoV-2-Titers im Speichel. Die OPS riet von oraler oder parenteraler
+    Anwendung ab, weil die Wirksamkeit unbelegt war und schwere Nebenwirkungen möglich waren; Daten von Giftzentralen
+    dokumentieren akute gastrointestinale, elektrolytische und weitere Schäden nach Exposition.
 impact:
   summary: >-
-    Bolivien zeigt einen besonders scharfen institutionellen Widerspruch. Die nationale Arzneimittelbehörde und das Gesundheitsministerium erklärten öffentlich, Chlordioxid habe keine wissenschaftliche Evidenz, keine entsprechende Zulassung und keine tragfähige Grundlage als COVID-19-Behandlung. Das Parlament verabschiedete dennoch ein nationales Gesetz, das Versorgung und Informationsmaßnahmen für die Anwendung als Prävention oder alternative Behandlung vorsah; später machte ein verfassungsgerichtliches Verfahren diesen gesetzlichen Zugang in einem Krankenhausfall praktisch wirksam.
+    Boliviens staatliche Institutionen vertraten widersprüchliche Positionen. AGEMED und das Gesundheitsministerium
+    erklärten, Chlordioxid sei kein zugelassenes Arzneimittel, habe keine Evidenz gegen COVID-19 und könne schwere Schäden
+    verursachen. Das Parlament promulgierte dennoch Gesetz 1351, das die rezeptfreie Abgabe erlaubte und Behörden Aufgaben
+    bei Versorgung, Beschaffung, kostenloser Verteilung und Information übertrug. 2022 bestätigte das Verfassungsgericht
+    in einem Krankenhausfall Rechtsschutz, der externem medizinischem Personal Untersuchung und beantragte Behandlung
+    ermöglichte; 2023 wies eine andere Kammer in einem weiteren Fall den Rechtsschutz mangels Nachweis und Kausalität ab.
+    Keines der Urteile bestätigte die Wirksamkeit eigenständig.
   highlights:
-    - value: "Jun–Jul 2020"
-      label: AGEMED und Gesundheitsministerium erklärten, es gebe keine wissenschaftliche Evidenz, und warnten vor der Anwendung
-    - value: "Okt 2020"
-      label: Gesetz 1351 erkannte Chlordioxid rechtlich als Möglichkeit zur COVID-19-Prävention und -Behandlung an
-    - value: "2022"
-      label: Verfassungsgericht bestätigte Rechtsschutz, der unter dem Gesetz den Zugang eines externen Arztes zur Chlordioxidbehandlung ermöglichte
+    - value: Jun–Jul 2020
+      label: AGEMED und Gesundheitsministerium wiesen die behauptete Behandlungsgrundlage vor der Promulgation des Gesetzes zurück
+    - value: 14. Okt. 2020
+      label: Gesetz 1351 erkannte Chlordioxid rechtlich als Möglichkeit zur COVID-19-Prävention und alternativen Behandlung an
+    - value: 2022–2023
+      label: Verfassungsgerichtliche Entscheidungen führten zu unterschiedlichen Einzelfallergebnissen, ohne die wissenschaftliche Wirksamkeit zu klären
   context:
     - >-
-      Gesundheitsministerium und AGEMED waren in dieser Episode Korrekturinstanzen und keine Träger der umstrittenen medizinischen Annahme. Bereits vor Verabschiedung des Gesetzes 1351 hatten sie erklärt, Chlordioxid sei kein zugelassenes Medikament, besitze keine Evidenz gegen COVID-19 und könne die Gesundheit gefährden. Das Gesetz übertrug dem Gesundheitsministerium und Gebietskörperschaften dennoch Umsetzungsaufgaben.
+      Gesundheitsministerium und AGEMED waren in dieser Episode widersprechende Gesundheitsinstitutionen und keine Träger
+      der umstrittenen medizinischen Annahme. Gesetz 1351 übertrug dem Ministerium sowie den Departements- und
+      Kommunalregierungen dennoch Umsetzungsaufgaben.
     - >-
-      Bolivien beendete 2023 den nationalen COVID-19-Gesundheitsnotstand. Eine förmliche Aufhebung von Gesetz 1351 an diesem Datum ist nicht dokumentiert; das Ende des Notstands und der Rechtsstatus des Gesetzes sind daher getrennte Fragen.
+      Bolivien beendete am 31. Juli 2023 den nationalen COVID-19-Gesundheitsnotstand. Dieser administrative Endpunkt hob
+      Gesetz 1351 nicht von sich aus auf. In den geprüften amtlichen Unterlagen wurde keine förmliche gesetzliche Aufhebung
+      gefunden; eine bolivianische Rechtsdatenbank führte das Gesetz am Prüfdatum weiterhin als in Kraft.
 episodes:
   - id: bolivia-2020-2023
     polity: Bolivien
+    periodLabel: COVID-19-Notstandszeit 2020–2023
     institutions:
       - Asamblea Legislativa Plurinacional
       - Tribunal Constitucional Plurinacional
     institutionalContext: >-
-      Gesetz 1351 verpflichtete Departements- und Kommunalregierungen, die Versorgung mit Chlordioxid im öffentlichen Gesundheitssektor sicherzustellen, erlaubte die Nutzung als alternative Prävention oder Behandlung, verlangte Informationskampagnen und übertrug Behörden Aufgaben bei Beschaffung und kostenloser Verteilung. Die Rolle des Tribunal Constitucional Plurinacional bestand in der rechtlichen Durchsetzung des gesetzlichen Patientenzugangs und nicht in einer eigenständigen wissenschaftlichen Bestätigung: In SCP 0052/2022-S2 bestätigte es Rechtsschutz, nachdem ein Krankenhaus die beantragte Behandlung verweigert hatte, und stützte sich dabei auf das nationale Gesetz. Gesundheitsministerium und AGEMED hatten die medizinische Prämisse bereits vor der Verabschiedung zurückgewiesen, obwohl das Gesetz öffentlichen Gesundheitsstellen später Umsetzungsaufgaben übertrug.
-    summary: >-
-      Im Juni und Juli 2020 warnten Boliviens Arzneimittelbehörde AGEMED und das Gesundheitsministerium, Chlordioxid sei kein zugelassenes Arzneimittel, für seine Anwendung gegen COVID-19 gebe es keine wissenschaftliche Evidenz und vorgeschlagene Behandlungsprotokolle hätten keine wissenschaftliche Grundlage. Das Parlament verabschiedete dennoch im Oktober 2020 Gesetz 1351, das Chlordioxid ausdrücklich als COVID-19-Prävention und -Behandlung regelte und Behörden Aufgaben bei Versorgung, Beschaffung, kostenloser Verteilung und Information übertrug. 2022 bestätigte das Verfassungsgericht in einem Krankenhausfall Rechtsschutz und leitete aus Gesetz 1351 ab, dass der Patientin der Zugang zur beantragten Behandlung über externes spezialisiertes medizinisches Personal hätte ermöglicht werden müssen. Am 31. Juli 2023 beendete Bolivien den nationalen COVID-19-Gesundheitsnotstand.
+      Gesetz 1351 wurde vom Parlament beschlossen und am 14. Oktober 2020 von dessen amtierender Präsidentin promulgiert,
+      nachdem AGEMED und das Gesundheitsministerium die medizinische Prämisse bereits zurückgewiesen hatten. Artikel 4
+      bis 10 erlaubten die Abgabe in Apotheken ohne Rezept, verpflichteten Departements- und Kommunalregierungen zur
+      Sicherstellung der Versorgung im öffentlichen Gesundheitssektor, erlaubten die einvernehmliche Nutzung zur
+      Prävention oder als alternative Behandlung und übertrugen Aufgaben bei Information, Beschaffung und kostenloser
+      Verteilung. In SCP 0052/2022-S2 stützte sich das Verfassungsgericht auf Artikel 5 und 6, als es Rechtsschutz bestätigte,
+      der einem Krankenhaus aufgab, externes spezialisiertes medizinisches Personal zur Untersuchung und beantragten
+      Behandlung zuzulassen; es verpflichtete weder die eigenen Ärzte des Krankenhauses zur Verabreichung von Chlordioxid
+      noch prüfte es die wissenschaftliche Wirksamkeit. SCP 0052/2023-S4 wies später in einem anderen Krankenhausfall den
+      Rechtsschutz ab, weil die Antragstellerin weder eine rechtzeitige Verweigerung noch eine Verursachung der
+      Verschlechterung und des Todes durch das Krankenhaus nachgewiesen hatte. Das zweite Urteil setzte Gesetz 1351 nicht
+      außer Kraft und entschied nicht, Chlordioxid sei wirksam.
     consequences:
-      - Gesetzliche Anerkennung von Chlordioxid als alternative Möglichkeit zur COVID-19-Prävention und -Behandlung
+      - Rechtliche Anerkennung von Chlordioxid als alternative Möglichkeit zur COVID-19-Prävention und -Behandlung
       - Gesetzliche Aufgaben für Versorgung, Beschaffung, kostenlose Verteilung und Informationskampagnen im öffentlichen Bereich
-      - Abgabe ohne Rezept im gesetzlichen Rahmen
-      - Verfassungsgerichtliches Verfahren, das einem Krankenhaus den Zugang zur gewünschten Chlordioxidbehandlung über externes Fachpersonal auferlegte
+      - Abgabe in Apotheken ohne Rezept innerhalb des gesetzlichen Rahmens
+      - Konflikt zwischen dem Gesetz und der evidenzbasierten Position von Arzneimittelbehörde und Gesundheitsministerium
+      - Verfassungsgerichtliche Verfahren mit gewährtem Zugang in einem Fall und Abweisung mangels Nachweis in einem anderen
+    summary: >-
+      Boliviens Arzneimittelbehörde und Gesundheitsministerium warnten im Juni und Juli 2020, Chlordioxid sei kein
+      zugelassenes Arzneimittel, besitze keine wissenschaftliche Grundlage als COVID-19-Behandlung und berge schwere
+      Risiken. Die Asamblea Legislativa Plurinacional setzte die Annahme im Oktober 2020 dennoch mit Gesetz 1351 praktisch
+      um. Das Gesetz schuf Zugangs- und öffentliche Versorgungsaufgaben, die ein Urteil des Verfassungsgerichts von 2022 in
+      einem Krankenhausfall anwandte, indem es den Zugang externen medizinischen Personals anordnete. Ein Urteil von 2023
+      wies einen anderen Antrag ab, weil die behauptete Verweigerung und der ursächliche Schaden nicht nachgewiesen waren;
+      damit wird deutlich, dass das Ergebnis von 2022 einzelfallbezogen und keine allgemeine wissenschaftliche Bestätigung
+      war. Der nationale Gesundheitsnotstand endete im Juli 2023, doch in den geprüften amtlichen Unterlagen wurde keine
+      förmliche Aufhebung von Gesetz 1351 gefunden.
+    mechanism:
+      summary: >-
+        Das Parlament überführte eine unbelegte therapeutische Annahme in einen nationalen gesetzlichen Rahmen für Verkauf,
+        Versorgung, Verteilung und öffentliche Kommunikation; ein verfassungsgerichtliches Verfahren machte die
+        Zugangsbestimmungen anschließend in einem Krankenhausfall durchsetzbar.
+    institutionalCorrection:
+      periodLabel: 2020–2023
+      action: >-
+        Gesundheitsbehörden wiesen die medizinische Prämisse zurück, ein späteres Verfassungsurteil lehnte einen gesonderten
+        Zugangsantrag mangels Nachweis ab und der nationale COVID-19-Notstand endete; das Parlament dokumentierte weder
+        Aufhebung noch Rücknahme.
+      summary: >-
+        Die Korrektur war institutionell geteilt und keine eindeutige Umkehr. AGEMED und Gesundheitsministerium wiesen die
+        Annahme von Beginn an zurück; das Urteil von 2023 wiederholte das Zugangsergebnis von 2022 in einem sachlich anderen
+        Fall nicht. Das Ende des Notstands schloss den hier verwendeten operativen Zeitraum, hob das Gesetz aber nicht
+        ausdrücklich auf. Die geprüften Belege tragen daher nur eine teilweise Korrektur und keine parlamentarische
+        Zurückweisung von Gesetz 1351.
+evidence:
+  - id: chlorine-law-proposition
+    note: >-
+      Das Gesetz bezeichnet Chlordioxid ausdrücklich als Prävention und Behandlung, erlaubt die Abgabe in Apotheken ohne
+      Rezept, verlangt die Versorgung im öffentlichen Gesundheitswesen und überträgt Aufgaben bei Kommunikation,
+      Beschaffung und kostenloser Verteilung.
+  - id: chlorine-review-correction
+    note: >-
+      Die PRISMA-basierte Übersichtsarbeit fand zum Suchzeitpunkt keine veröffentlichte Humanstudie und keinen Preprint zur
+      inhalativen, oralen oder parenteralen Anwendung von Chlordioxid oder Derivaten gegen COVID-19 oder andere
+      Coronavirusinfektionen; eine registrierte Beobachtungsstudie hatte keine Ergebnisse.
+  - id: chlorine-paho-correction
+    note: >-
+      Die OPS rät bei vermutetem oder bestätigtem COVID-19 und auch in anderen Fällen von oraler oder parenteraler Anwendung
+      ab, da Wirksamkeitsbelege fehlen und Einnahme oder Inhalation schwere Nebenwirkungen verursachen können.
+  - id: chlorine-rct-correction
+    note: >-
+      In einer randomisierten Studie verringerte eine 0,01-prozentige wässrige Chlordioxid-Mundspülung den SARS-CoV-2-Titer
+      im Speichel nach 10, 30 oder 60 Minuten gegenüber gereinigtem Wasser nicht. Dieses enge Mundspülergebnis liefert
+      keinen Beleg für eine innere Anwendung.
+  - id: chlorine-toxicity-correction
+    note: >-
+      Die Auswertung von 53 Expositionen, die US-Giftzentralen gemeldet wurden, ergab die Einnahme als häufigsten Weg;
+      Erbrechen, Übelkeit, Bauchschmerzen und Durchfall waren häufig, 13 Patienten wurden stationär und zwei auf einer
+      Intensivstation behandelt.
+  - id: chlorine-law-impact
+    note: >-
+      Dokumentiert die Reichweite des gesetzlichen Rahmens: rezeptfreie Abgabe, öffentliche Versorgung, Information,
+      Beschaffung, kostenlose Verteilung und Finanzierungsaufgaben.
+  - id: chlorine-law-carrier
+    note: >-
+      Benennt die Asamblea Legislativa Plurinacional als gesetzgebende Institution und ihre amtierende Präsidentin als
+      die Amtsträgerin, die das Gesetz am 14. Oktober 2020 promulgierte.
+  - id: chlorine-law-mechanism
+  - id: chlorine-agemed-60-context
+    note: >-
+      AGEMED erklärte vor der Promulgation, die vermarkteten Produkte seien keine zugelassenen Arzneimittel, besäßen keine
+      Registrierung zum Nachweis von Sicherheit, Qualität oder Wirksamkeit, hätten keine Evidenz gegen COVID-19 und
+      gefährdeten die Gesundheit erheblich.
+  - id: chlorine-agemed-67-context
+    note: >-
+      AGEMED erklärte erneut, es gebe keine wissenschaftliche Evidenz für eine Behandlung, und forderte Befürworter auf,
+      ordnungsgemäß genehmigte klinische Studienprotokolle einzureichen, wenn sie Evidenz gewinnen wollten.
+  - id: chlorine-ministry-context
+    note: >-
+      Das Gesundheitsministerium verweigerte dem selbsternannten Chlordioxid-Komitee institutionelle Anerkennung und
+      erklärte, dessen vorgeschlagene Protokolle hätten keine wissenschaftliche Grundlage und gefährdeten Menschenleben.
+  - id: chlorine-tcp-2022-mechanism
+    note: >-
+      Das Gericht stützte sich auf Gesetz 1351, besonders Artikel 5 und 6, und bestätigte Rechtsschutz, der dem Krankenhaus
+      aufgab, externes spezialisiertes medizinisches Personal zur Untersuchung und beantragten Behandlung zuzulassen.
+  - id: chlorine-tcp-2022-consequences
+    note: >-
+      Die Entscheidung machte den gesetzlichen Zugang im konkreten Krankenhausfall wirksam. Sie verpflichtete nicht die
+      Ärzte des Krankenhauses selbst zur Verabreichung und bestimmte die klinische Wirksamkeit nicht eigenständig.
+  - id: chlorine-emergency-endpoint
+    note: >-
+      Beendet den nationalen COVID-19-Gesundheitsnotstand zum 31. Juli 2023. Dies trägt den hier verwendeten operativen
+      Endpunkt, nicht die Behauptung, Gesetz 1351 sei ausdrücklich aufgehoben worden.
+  - id: chlorine-paho-episode-context
+  - id: chlorine-review-episode-context
+    note: >-
+      Zeigt den Evidenzstand zur Zeit des Gesetzes: Die systematische Suche fand keine Humanstudie mit Ergebnissen, welche
+      die präventive oder therapeutische Annahme stützten.
+  - id: chlorine-poison-consequences
+    note: >-
+      Liefert empirischen Toxizitätskontext für das Expositionsrisiko, wenn Institutionen die Chlordioxidanwendung
+      normalisieren; die Quelle schätzt nicht, wie viele Menschen in Bolivien das Produkt unter Gesetz 1351 verwendeten.
+  - id: chlorine-rct-episode-context
+    note: >-
+      Spätere randomisierte Evidenz zu einer verdünnten Mundspülung fand gegenüber Wasser keinen Vorteil beim Virustiter
+      und lässt sich nicht als Unterstützung der oralen oder parenteralen Anwendung in Pandemie-Heilversprechen verallgemeinern.
+  - id: chlorine-tcp-2023-limitation
+    note: >-
+      In einem gesonderten Fall bestätigte das Gericht die Abweisung, weil die Antragstellerin weder eine rechtzeitige
+      Verweigerung noch Kausalität nachwies. Die Entscheidung begrenzte den verlangten Rechtsschutz anhand der vorliegenden
+      Akten; sie setzte das Gesetz nicht außer Kraft und bestätigte Chlordioxid nicht wissenschaftlich.
+  - id: chlorine-infoleyes-status-context
+    note: >-
+      Die Rechtsdatenbank führte Gesetz 1351 am Prüfdatum weiterhin als in Kraft. Deshalb darf das Ende des
+      Gesundheitsnotstands nicht als ausdrückliche gesetzliche Aufhebung behandelt werden.

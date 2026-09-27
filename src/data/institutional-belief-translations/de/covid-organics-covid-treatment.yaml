@@ -1,46 +1,198 @@
+schemaVersion: 2
 locale: de
 entryId: covid-organics-covid-treatment
-sourceReviewedAt: '2026-08-24'
+sourceReviewedAt: '2026-09-27'
 title: Covid-Organics als etablierte COVID-19-Prävention und -Behandlung
-claim: Madagaskar behandelte Covid-Organics als präventives und therapeutisches Mittel gegen COVID-19 und verteilte
-  es im Rahmen staatlicher Politik, bevor randomisierte Studien gezeigt hatten, dass es die Krankheit verhindert
-  oder behandelt.
-currentUnderstanding: Ein plausibler Pflanzeninhaltsstoff oder traditionelle Nutzung belegt keine klinische Wirksamkeit
-  gegen COVID-19. Als Covid-Organics beworben und verteilt wurde, war in ausreichend kontrollierten randomisierten
-  Studien nicht gezeigt worden, dass es COVID-19 verhindert oder behandelt. Die spätere klinische Prüfung war daher
-  ein Evidenzschritt, der Behauptungen eines etablierten therapeutischen Nutzens hätte vorausgehen müssen.
+proposition:
+  summary: >-
+    Madagaskar behandelte das ursprüngliche Covid-Organics-Getränk als etabliertes präventives und kuratives Mittel
+    gegen COVID-19, verteilte es im Rahmen nationaler Politik und registrierte später CVO- und CVO+-Produkte, bevor
+    produktspezifische randomisierte Evidenz die ganze Breite der Präventions- und Behandlungsbehauptungen stützte.
+correction:
+  summary: >-
+    Eine Hemmung im Labor kann klinische Forschung begründen, belegt aber nicht, dass ein Getränk Infektionen verhindert
+    oder Erkrankungen beim Menschen bessert. Eine CVO-spezifische Zellkulturstudie fand antivirale Aktivität, bezeichnete
+    den Selektivitätsindex jedoch als wenig vielversprechend und verlangte Tier- und Humanstudien vor einer
+    Anwendungsempfehlung. Eine spätere randomisierte Studie liefert relevante, aber wesentlich engere Evidenz für CVO+
+    Curatif: Sie prüfte standardisierte Kapseln mit Artemisinin und 1,8-Cineol bei Erwachsenen mit leichter oder
+    mittelschwerer COVID-19, nicht das ursprüngliche Getränk oder ein Präventionsschema, und meldete 87,1 % gegenüber
+    75,0 % Erfolg beim kombinierten Endpunkt. Der Bericht wertete 276 von 339 randomisierten Teilnehmern per protocol
+    aus, verwendete einseitige Tests, begann die Rekrutierung vor der Registergenehmigung und endete unterhalb der
+    geplanten Auswertungszahl. Dieses Ergebnis kann weder die Einführung von 2020 rückwirkend validieren noch Prävention
+    durch CVO-Produkte belegen; solche weiterreichenden Aussagen benötigen produktspezifische, unabhängig reproduzierbare
+    klinische Evidenz und patientenrelevante Endpunkte.
 impact:
-  summary: Madagaskar überführte Covid-Organics von einem lokal entwickelten Präparat in die nationale Pandemiepolitik.
-    Regierungspläne und Rechnungsprüfungen dokumentieren Massenverteilung, Einsatz an Schulen und in der Verwaltung
-    sowie die Einbindung in die COVID-Reaktion, bevor die Wirksamkeit randomisiert belegt war. Die WHO behandelte
-    das verwandte CVO+-Produkt später als Prüfpräparat, das eine Phase-III-Studie benötigte.
+  summary: >-
+    Covid-Organics gelangte rasch von einer präsidialen Ankündigung in Madagaskars nationale Pandemiepolitik. Der
+    Notfallplan vom Juli 2020 nannte es präventiv und kurativ, dokumentierte die Verteilung von Masken und CVO an 270.000
+    Schüler, plante CVO für 660.600 Schüler in Prüfungsklassen und schlug präventive Familienpackungen für vier Millionen
+    Haushalte vor. Der Rechnungshof dokumentierte später Massenverteilung über Fokontany, öffentliche Selbstbedienung,
+    Schulen, Behörden und Krankenhäuser, fand jedoch keine wissenschaftliche Studie, die das beobachtete Mortalitätsmuster
+    CVO zuschreiben konnte. Die Produktregistrierung überdauerte die akute Einführung: Amtliche Register von 2025 führten
+    vier Darreichungsformen des ursprünglichen CVO sowie Kapseln CVO+ Curatif und CVO+ Préventif.
   highlights:
-  - value: '2020'
-    label: Covid-Organics wurde Teil der nationalen Pandemiepolitik und massenhaft verteilt
-  - value: 270.000 Schüler
-    label: Der nationale Notfallplan dokumentierte die Verteilung von Masken und Covid-Organics an Prüfungsklassen
-  - value: '2021'
-    label: Die WHO beschrieb CVO+ als Gegenstand einer Phase-III-Prüfung statt als etablierte Behandlung
+    - value: 270.000 Schüler
+      label: Der Notfallplan dokumentierte die Verteilung von Masken und Covid-Organics an Prüfungsklassen
+    - value: 4 Millionen Haushalte
+      label: Geplante Reichweite präventiver CVO-Familienpackungen, keine Zahl abgeschlossener Verteilungen
+    - value: '2025'
+      label: Amtliche Arzneimittelregister führten weiterhin ursprüngliches CVO sowie kurative und präventive CVO+-Produkte
   context:
-  - Artemisia und andere Pflanzen können medizinisch nützliche Wirkstoffe enthalten. Der strittige Sprung führte
-    von Zusammensetzung und Vorbeobachtungen zur Behandlung einer COVID-19-Wirkung als bereits etabliert.
+    - >-
+      Artemisia und andere Pflanzen können medizinisch nützliche Stoffe enthalten. Der umstrittene institutionelle Schritt
+      bestand darin, Zusammensetzung, traditionelle Nutzung, frühe Beobachtungen oder Zellkulturaktivität als Beleg für
+      Prävention und Behandlung beim Menschen zu behandeln, bevor geeignete Studien vorlagen.
+    - >-
+      CVO, CVO+ Curatif und CVO+ Préventif waren keine austauschbaren Produkte. Die veröffentlichte randomisierte Studie
+      prüfte eine höher konzentrierte Kapselformulierung zur Behandlung leichter oder mittelschwerer Erkrankungen; sie
+      untersuchte weder den ursprünglichen Tee noch Prävention.
+    - >-
+      Die Aufnahme in Madagaskars Listen registrierter Arzneimittel dokumentiert den nationalen regulatorischen Status.
+      Die Listen allein geben keine klinische Indikation an, belegen keine Wirksamkeit und stellen keine WHO-Empfehlung dar.
 episodes:
-- id: madagascar-2020-2021
-  polity: Madagaskar
-  institutions:
-  - Presidency of the Republic of Madagascar
-  - Prime Minister’s Office (Primature de Madagascar)
-  institutionalContext: Covid-Organics wurde Teil der nationalen COVID-Reaktion und blieb kein rein privates Prüfpräparat.
-    Regierungsdokumente belegen Verteilung an Bevölkerung und Schulen; der Rechnungshof dokumentierte die Massenverteilung
-    und zugleich das Fehlen wissenschaftlicher Belege für einen kausalen Zusammenhang mit den beobachteten Ergebnissen.
-    Der Übergang zu einer formellen Phase-III-Prüfung 2021 bedeutete keinen vollständigen staatlichen Widerruf.
-  summary: 2020 band Madagaskar Covid-Organics in seine COVID-19-Reaktion ein und verteilte es breit als Schutz-
-    und Behandlungsmittel. Offizielle Notfall- und Prüfberichte dokumentieren die Verteilung an Schulen und Bevölkerung
-    sowie seine politische Einbindung. Kontrollierte Evidenz für eine präventive oder therapeutische Wirkung fehlte.
-    2021 beschrieb die WHO das verwandte CVO+-Präparat als Mittel, dessen Sicherheit und Wirksamkeit erst in einer
-    Phase-III-Studie geprüft werden mussten.
-  consequences:
-  - Massenhafte präventive Verteilung über lokale Verwaltungsstrukturen
-  - Verteilung an Schüler und öffentliche Dienste
-  - Einbindung eines unbewiesenen Mittels in die nationale COVID-Reaktion
-  - Öffentliche therapeutische Legitimation vor Vorliegen randomisierter Wirksamkeitsdaten
+  - id: madagascar-2020-2025
+    polity: Madagaskar
+    periodLabel: 2020–2025
+    institutions:
+      - Presidency of the Republic of Madagascar
+      - Prime Minister’s Office (Primature de Madagascar)
+      - Ministry of Public Health of Madagascar
+      - Agency of Medicine of Madagascar
+      - Pharmalagasy
+    institutionalContext: >-
+      Das Präsidialamt lieferte die ursprüngliche Behauptung und Verteilungsanordnung. Präsident Andry Rajoelina kündigte
+      am 19. April 2020 ein Artemisia-basiertes Mittel an, erklärte Tests des IMRA an Infizierten für positiv, versprach
+      klinische Studien für die folgende Woche und ordnete die Verteilung von Covid-Organics bei der Rückkehr der
+      Prüfungsklassen an. Der nationale Notfallplan beschrieb CVO danach als präventiv und kurativ, band bereits erfolgte
+      und geplante Verteilung in Bildungs- und Massenschutzprogramme ein und plante Familienpackungen für zwei Drittel
+      der madagassischen Haushalte. Der Rechnungshof stellte fest, dass strategische Gesundheitsentscheidungen beim
+      Präsidialamt zentralisiert worden waren, der Staat sich das Mittel zu eigen gemacht hatte und die vollständig
+      staatseigene Pharmalagasy-Fabrik zu seiner Herstellung außergewöhnliche Unterstützung erhielt. Eine formelle
+      Prüfung folgte: 2021 veröffentlichte die Regierung Ergebnisse einer Phase-III-Studie zu CVO+, 2022 publizierten
+      ihre Forscher die Ergebnisse. Amtliche Arzneimittelregister führten dennoch im Mai 2025 die ursprünglichen
+      CVO-Darreichungsformen und im Juli 2025 sowohl kurative als auch präventive CVO+-Kapseln.
+    consequences:
+      - Als abgeschlossene Maßnahme dokumentierte Verteilung von Masken und Covid-Organics an 270.000 Schüler in Prüfungsklassen
+      - Massenverteilung über Fokontany, öffentliche Selbstbedienung, Schulen, Verwaltung und Krankenhäuser
+      - Pläne für präventives CVO für 660.600 Schüler in Prüfungsklassen und vier Millionen Haushalte
+      - Staatliche Investitionen in die vollständig staatseigene Pharmalagasy-Fabrik und fortgesetzte nationale Produktregistrierung
+      - Beibehaltung des traditionellen Mittels, als das Gesundheitsministerium im Juli 2020 den Beitritt zu COVAX vorschlug
+      - Öffentliche präventive und therapeutische Legitimität über die randomisiert geprüften Produkte und Anwendungen hinaus
+    summary: >-
+      Madagaskar machte Covid-Organics wenige Tage nach seiner präsidialen Einführung zum Bestandteil staatlicher
+      Pandemiepolitik. Es wurde über Schulen und lokale Verwaltung verteilt, in das nationale Behandlungsumfeld
+      aufgenommen und für eine haushaltsweite Prävention vorgesehen, bevor kontrollierte klinische Evidenz bestand.
+      Eine spätere staatlich unterstützte Studie bedeutete einen relevanten Wechsel der Evidenzmethode, untersuchte aber
+      nur eine eigenständige standardisierte CVO+-Curatif-Kapsel zur Behandlung leichter oder mittelschwerer Erkrankungen.
+      Ihr positives Ergebnis prüfte weder den ursprünglichen Tee noch Prävention; Schwund, Per-Protocol-Auswertung,
+      einseitige Tests, eine erst nach Rekrutierungsbeginn erteilte Registergenehmigung und weniger auswertbare Teilnehmer
+      als geplant begrenzen die Schlussfolgerung. Der Rechnungshof wies kausale Behauptungen aus der beobachteten
+      Mortalität zurück und verlangte systematische Prüfung; trotzdem
+      führten nationale Register 2025 ursprüngliche, kurative und präventive CVO-Produkte.
+    mechanism:
+      summary: >-
+        Präsidiale Förderung wurde in administrative Verteilung, nationale Notfallplanung, ein staatseigenes
+        Herstellungsprogramm, staatlich unterstützte klinische Forschung und Arzneimittelregistrierung überführt. Diese
+        Kanäle verliehen den Produkten präventive und therapeutische Autorität weit über ein Forschungsumfeld hinaus.
+    institutionalCorrection:
+      periodLabel: 2021–2022
+      action: Der Rechnungshof verwarf eine kausale Wirksamkeitsableitung und verlangte systematische Prüfung; zugleich überführte die Regierung die eigenständige CVO+-Curatif-Kapsel in eine randomisierte Studie.
+      summary: >-
+        Audit und randomisierte Studie korrigierten einen Teil des ursprünglichen Evidenzverfahrens: Ein Kontrollorgan
+        erklärte ausdrücklich, keine wissenschaftliche Studie könne das Mortalitätsmuster mit CVO verknüpfen, und die
+        spätere Kapsel wurde kontrolliert geprüft. Die Korrektur blieb unvollständig, weil keiner der Schritte die
+        Präventions- und Behandlungsbehauptungen für das ursprüngliche Getränk zurücknahm, die Studie weder Prävention
+        noch die ursprüngliche Formulierung prüfte und amtliche Register 2025 weiterhin ursprüngliches CVO sowie
+        ausdrücklich Curatif und Préventif genannte Produkte führten.
+evidence:
+  - id: cvo-plan-proposition
+    note: >-
+      Das Vorwort des Präsidenten nennt Covid-Organics ein präventives und kuratives Mittel. Der Plan dokumentiert
+      Schulverteilung, bezeichnet Familienpackungen als präventiv und behandelt CVO als Massenschutzmaßnahme, obwohl er
+      zugleich einräumt, dass die wissenschaftliche Basis traditioneller Arzneien noch schwach dokumentiert sei.
+  - id: cvo-in-vitro-correction
+    note: >-
+      Das ursprüngliche Covid-Organics-Getränk hemmte SARS-CoV-2 in VeroE6-Zellkultur mit einer EC50 von 7,73 % des
+      unverdünnten Getränks und einem Selektivitätsindex von 5,28. Die Autoren bezeichneten diesen Index als wenig
+      vielversprechend, erklärten erreichbare Konzentrationen beim Menschen für ungeklärt und verlangten Tier- und
+      Humanstudien vor einer Anwendungsempfehlung.
+  - id: cvo-trial-correction
+    note: >-
+      Die CVO+-Curatif-Studie meldete 87,1 % Erfolg gegenüber 75,0 % unter Placebo (OR 2,25; p=0,011). Sie prüfte eine
+      standardisierte, wirkstoffreichere Kapsel statt Prävention oder des ursprünglichen Tees, wertete 276 von 339
+      randomisierten Teilnehmern per protocol aus, verwendete einseitige Tests, begann am 18. Januar vor der
+      Registergenehmigung am 24. März 2021 und endete bei Schwund, dringlichen Umständen und Finanzierungsmangel unter
+      der geplanten Auswertungszahl.
+  - id: cvo-who-contemporaneous-correction
+    note: >-
+      Die zeitgenössische WHO-Bewertung erklärte, die Evidenz stütze Artemisia-Produkte oder -Extrakte nicht als
+      COVID-19-Virostatika, und es gebe keinen Beleg für Prävention oder Behandlung durch Artemisia-Pflanzenmaterial.
+      Die Seite wird nicht mehr aktualisiert und dient hier als Nachweis des Wissensstands während der Einführung.
+  - id: cvo-policy-impact
+    note: >-
+      Der amtliche Plan liefert die Größenangaben der Karte: 270.000 Schüler in einer abgeschlossenen Verteilungsmaßnahme
+      sowie getrennte Programmziele von 660.600 Schülern und vier Millionen Haushalten. Die Zielwerte werden als Pläne
+      und nicht als gemeldete abgeschlossene Verteilungen ausgewiesen.
+  - id: cvo-president-carrier
+    note: >-
+      Amtliches diplomatisches Archiv der Ansprache vom 19. April: Der Präsident erklärte IMRA-Tests an Infizierten für
+      positiv, kündigte klinische Studien für die folgende Woche an und nahm die Verteilung von Covid-Organics-Tee in
+      die Begleitmaßnahmen zur Rückkehr der Prüfungsklassen auf.
+  - id: cvo-plan-carrier
+    note: >-
+      Der nationale Notfallplan bindet CVO in Bildungs- und Massenschutzprogramme ein und weist die Umsetzung zentralen
+      Regierungssektoren zu, statt ein privates oder bloß experimentelles Produkt zu beschreiben.
+  - id: cvo-plan-impact
+    note: >-
+      Dokumentiert die Verteilung von Masken und CVO an 270.000 Schüler in Prüfungsklassen als umgesetzte Maßnahme;
+      getrennt davon sind CVO für 660.600 solche Schüler außerhalb der Sperrgebiete und präventive Familienpackungen für
+      vier Millionen Haushalte geplant. Die beiden letzten Werte sind Programmziele, keine bestätigten Abschlusszahlen.
+  - id: cvo-audit-carrier
+    note: >-
+      Der Rechnungshof stellte fest, dass strategische Gesundheitsentscheidungen auf höchster Ebene getroffen wurden,
+      das Präsidialamt die technische Zuständigkeit des Gesundheitsministeriums verdrängte und die vollständig
+      staatseigene Pharmalagasy für CVO eine neue Fabrik, importierte Maschinen, geschultes Personal und exklusive
+      Rohstoffversorgung erhielt.
+  - id: cvo-audit-consequences
+    note: >-
+      Das Audit dokumentiert Massenverteilung von Beuteln über Fokontany, öffentliche Selbstbedienung, verpflichtende
+      Verabreichung in Schulen mit Süßigkeiten, kostenlose Abgabe in Behörden, präsidial gelieferte Krankenhausausstattung
+      und eine Option im nationalen Behandlungsprotokoll. Es erklärt außerdem, das traditionelle Mittel sei statt des
+      COVAX-Vorschlags des Gesundheitsministeriums vom Juli 2020 beibehalten und andere traditionelle Medizin außer CVO
+      aus der Kommunikation ausgeschlossen worden.
+  - id: cvo-audit-partial-correction
+    note: >-
+      Der Rechnungshof erklärte, keine wissenschaftliche Studie könne einen direkten und überwiegenden Zusammenhang
+      zwischen der niedrigen beobachteten Mortalität und dem traditionellen Mittel bestätigen, da es andere Behandlungen
+      ergänzte. Er verlangte systematische Protokollprüfung, stärkere Einbindung wissenschaftlicher Institutionen und
+      klinische Forschung.
+  - id: cvo-who-trial-transition
+    note: >-
+      Die WHO beschrieb die abgeschlossene Untersuchung als Phase-III-Studie von CVO+-Kapseln bei leichter und
+      mittelschwerer Erkrankung, knüpfte Empfehlungen an randomisiert belegte Sicherheit, Wirksamkeit und Qualität und
+      kündigte eine unabhängige regionale Expertenprüfung der madagassischen Daten an. Die Erklärung selbst bestätigte
+      keine Wirksamkeit.
+  - id: cvo-trial-transition
+    note: >-
+      Dokumentiert den Wechsel von Beobachtung und Verteilung zu einer randomisierten, doppelblinden,
+      placebokontrollierten Studie und definiert zugleich die engere Kapselformulierung, Behandlungspopulation, den
+      gemeldeten Nutzen und die methodischen Grenzen, die keine Übertragung auf den ursprünglichen Tee oder Prävention erlauben.
+  - id: cvo-in-vitro-context
+    note: >-
+      Belegt ein antivirales Laborsignal des ursprünglichen Getränks und vermeidet damit die Übertreibung, es habe
+      keinerlei stützende Daten gegeben; zugleich zieht die Quelle die entscheidende Grenze zwischen In-vitro-Aktivität
+      und nachgewiesenem Nutzen oder Prävention beim Menschen.
+  - id: cvo-who-rollout-context
+    note: >-
+      Liefert die datierte WHO-Evidenzbewertung während der nationalen Einführung; sie wird nicht als nachträgliche
+      Begutachtung der späteren CVO-spezifischen Zellstudie oder der CVO+-Kapselstudie behandelt.
+  - id: cvo-original-registration
+    note: >-
+      Das amtliche Register vom 2. Mai 2025 führt ursprüngliches CovidOrganics/Tambavy als Lösungen zu 33 cl und einem
+      Liter, als Teebeutel sowie als Pulverbeutel zu 16,5 g des IMRA. Die Registrierung dokumentiert regulatorische
+      Kontinuität, belegt für sich aber weder klinische Indikation noch Wirksamkeit.
+  - id: cvo-plus-registration
+    note: >-
+      Das amtliche Register vom 14. Juli 2025 führt CVO Plus Curatif und CVO Plus Préventif als Kapseln von CNARP und
+      Pharmalagasy. Die präventiv bezeichnete Registrierung ist besonders relevant, weil die veröffentlichte randomisierte
+      Studie Behandlung leichter oder mittelschwerer Erkrankungen und keine Prävention untersuchte.

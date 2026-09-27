@@ -1,59 +1,274 @@
+schemaVersion: 2
 title: Hereditary criminality
-claim: Membership in certain castes or tribes was treated as evidence of a hereditary disposition to crime.
-currentUnderstanding: Criminal behavior is not an inherited property of a caste, tribe, or ethnic community. Crime
-  is shaped by individual circumstances, institutions, opportunity, social conditions, and many other factors; collective
-  ancestry does not establish criminal propensity.
-category: Criminology and anthropology
-reviewedAt: 2026-08-23
+proposition:
+  summary: >-
+    British Indian authorities treated membership in notified tribes, castes, gangs or classes as sufficient grounds
+    for a collective criminal status that passed to people by birth. Colonial accounts often described crime as a
+    hereditary occupation or caste practice, while the Criminal Tribes Acts converted that ancestry-based category
+    into registration, surveillance, movement controls and compulsory settlement without requiring an individual
+    conviction.
+correction:
+  summary: >-
+    Community ancestry does not establish that an individual is criminal or destined to offend. The colonial category
+    confused membership in a socially defined group with evidence about a person's conduct: it reached people never
+    convicted or even suspected of an offence, and children acquired the status by birth. Modern research describes
+    antisocial behaviour as heterogeneous and shaped by interacting genetic and environmental influences; it does not
+    support assigning criminal propensity to a caste, tribe or ethnic community. India's 1949–1950 enquiry likewise
+    rejected the premise that criminality was hereditary and found birth-based branding incompatible with constitutional
+    equality.
+category: Colonial criminology and policing
+reviewedAt: '2026-09-27'
+impact:
+  summary: >-
+    From 1871 until nationwide repeal took effect in 1952, successive Criminal Tribes Acts enabled governments to
+    notify communities or parts of communities as “criminal tribes.” Around 150 tribes and castes were notified across
+    India; one scholarly estimate places the notified population of Punjab alone at about 150,000 before 1947. District
+    authorities registered members and fingerprints, police monitored movement and reporting, and governments could
+    confine people in industrial, agricultural or reformatory settlements. Children could be separated into reformatory
+    schools. The system disrupted livelihoods, subjected families to coercive labour and punishment, and attached a
+    criminal stigma to descendants who had committed no offence.
+  highlights:
+    - value: ≈150
+      label: tribes and castes the Supreme Court records as having been notified across India
+    - value: ≈150,000
+      label: people estimated to belong to notified communities in Punjab before 1947
+    - value: 31 Aug 1952
+      label: date nationwide statutory repeal took effect
+  context:
+    - >-
+      “Hereditary” did not carry one stable meaning in this system. Officials and writers variously described criminality
+      as a caste occupation transmitted across generations, a social way of life and, at times, an innate disposition.
+      The legal wrong did not depend on choosing among those theories: notification made descent and community membership
+      a proxy for individual guilt.
+    - >-
+      The legal regime changed over time. The 1871 Act initially applied in parts of northern India; later amendments
+      and the 1911 and 1924 Acts expanded and consolidated it. Application varied by province and notification, and the
+      statutory category could cover whole communities, sections of communities, gangs or other classes rather than one
+      fixed ethnographic population.
+    - >-
+      Repeal removed the formal category but did not erase its institutional afterlife. States enacted habitual-offender
+      laws, some officials and prison rules continued to associate denotified or wandering communities with habitual
+      crime, and stigma persisted. In 2024 the Supreme Court invalidated discriminatory prison-manual provisions and
+      directed revisions, while noting that the validity of state habitual-offender statutes was not before it.
 episodes:
-- id: british-india-1871-1947
-  polity: British India
-  region: South Asia
-  startYear: 1871
-  endYear: 1947
-  periodLabel: 1871–1947
-  strength: enforced-doctrine
-  institutionTypes:
-  - government
-  - court
-  institutions:
-  - Governor-General of India in Council
-  - Punjab Criminal Tribes Department
-  - District Magistrates
-  - District Superintendents of Police
-  consequences:
-  - Collective registration and surveillance
-  - Restrictions on movement
-  - Forced settlement and “reclamation”
-  summary: 'The Criminal Tribes Acts allowed colonial authorities to notify entire communities as groups whose criminality
-    was treated as hereditary. The statutory machinery was explicit: provincial “Local Governments” proposed or
-    administered notifications, district magistrates maintained registers and movement controls, police enforced
-    them, and in Punjab a dedicated Criminal Tribes Department supervised the system. People could be registered,
-    watched, restricted in movement, and confined or resettled because of group membership rather than an individual
-    criminal conviction.'
-  sources:
-  - title: Criminal Tribes Act, 1871
+  - id: india-1871-1952
+    polity: British India and India
+    region: South Asia
+    startYear: 1871
+    endYear: 1952
+    periodLabel: 1871–1952
+    strength: enforced-doctrine
+    institutionTypes:
+      - government
+      - court
+    institutions:
+      - Governor-General of India in Council and provincial or local governments
+      - District magistrates and police superintendents
+      - Punjab Criminal Tribes Department (1917–1952)
+    institutionalContext: >-
+      Under the 1871 Act, a local government could ask the Governor-General in Council to declare a tribe, gang or class
+      “criminal” when it claimed the group was addicted to systematically committing non-bailable offences. Later Acts
+      gave provincial governments broader notification powers. District magistrates compiled registers, superintendents
+      of police kept them and reported changes, and police and village officials enforced reporting and movement rules.
+      Punjab centralized much of this work in a dedicated Criminal Tribes Department from 1917. Statutory clauses also
+      prevented courts from questioning the validity of notification decisions.
+    consequences:
+      - Collective notification and registration based on community membership, including the automatic branding of children born into notified groups
+      - Fingerprinting, roll calls, passes, surveillance and restrictions on residence and movement
+      - Confinement in industrial, agricultural or reformatory settlements and coercive use of residents' labour
+      - Separation of children from parents for placement in industrial, agricultural or reformatory schools
+      - Penal sanctions for breaching controls and heightened exposure to police suspicion irrespective of individual conduct
+      - Long-lived stigma and disruption of livelihoods that continued after formal denotification
+    summary: >-
+      The Criminal Tribes regime turned a flexible colonial stereotype into an enforceable status. Governments notified
+      groups; magistrates and police identified and registered their members; and a distributed administrative apparatus
+      controlled movement, residence, labour and family life. Because the trigger was group membership, the machinery
+      reached people without an individual finding of criminal conduct and reproduced the label across generations.
+    mechanism:
+      kind: enforcement
+      summary: >-
+        Legislation authorized executive notification of an entire tribe, gang, class or part thereof. Notification then
+        activated registers, fingerprinting, police reporting, movement restrictions, passes and settlement powers,
+        turning ancestry or community membership into a state-enforced criminal classification.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 1951–2024
+      action: >-
+        A government enquiry rejected hereditary criminality, Parliament repealed the Criminal Tribes laws effective
+        31 August 1952, and the Supreme Court later invalidated discriminatory prison-rule uses of the inherited stereotype.
+      summary: >-
+        The Criminal Tribes Act Enquiry Committee found that birth-based criminal status violated the constitutional
+        commitment to equality, and Parliament's 1952 Act ended the Criminal Tribes laws nationwide. Correction remains
+        partial because successor habitual-offender laws and administrative practices preserved parts of the surveillance
+        framework and continued to target denotified communities. In 2024 the Supreme Court ordered prison-rule reforms,
+        directed police to avoid arbitrary arrests of denotified people and urged states to reconsider whether habitual-
+        offender laws belong in a constitutional system; it did not decide those statutes' validity.
+sources:
+  - id: criminal-tribes-act-1871
+    title: Criminal Tribes Act, 1871
     url: https://www.indiacode.nic.in/repealedfileopen?rfilename=A1871-27.pdf
     publisher: India Code / Government of India
-    note: Primary statutory text naming the Governor-General in Council, Local Governments, magistrates, District
-      Superintendents of Police, registration, movement restrictions, settlement powers, and police enforcement.
-  - title: State and Criminal Tribes in Colonial Punjab — Surveillance, Control and Reclamation of the “Dangerous
-      Classes”
+  - id: major-punjab-criminal-tribes
+    title: State and Criminal Tribes in Colonial Punjab — Surveillance, Control and Reclamation of the “Dangerous Classes”
     url: https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/state-and-criminal-tribes-in-colonial-punjab-surveillance-control-and-reclamation-of-the-dangerous-classes/5156F74993B1B1BDE0187A004B445AAD
     publisher: Modern Asian Studies
-    note: Describes roughly 150,000 Punjabis notified under the Criminal Tribes Act as members of tribes and castes
-      whose hereditary occupation was deemed to be crime.
-  - title: The Criminal Tribe in India before 1947
+  - id: gandee-criminal-tribe
+    title: The Criminal Tribe in India before 1947
     url: https://etheses.whiterose.ac.uk/id/eprint/22408/1/Gandee_SE_History_PhD_2018.pdf
     publisher: University of Leeds
-    note: Reconstructs the implementing administration, including Punjab's Deputy Commissioner for Criminal Tribes,
-      the Criminal Tribes Department, settlement staff, and police officers who operationalized the category.
-  - title: The Moghia Menace, or the Watch Over Watchmen In British India
+  - id: piliavsky-moghia-menace
+    title: The Moghia Menace, or the Watch Over Watchmen In British India
     url: https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/moghia-menace-or-the-watch-over-watchmen-in-british-india/6725830A5EAF6DD17E566627E020FF19
     publisher: Modern Asian Studies
-    note: Examines the colonial classification of Moghias as hereditary professional robbers and its connection
-      to the first Criminal Tribes Act of 1871.
-  institutionalContext: The Criminal Tribes Acts delegated implementation to provincial 'Local Governments' and
-    district officials. Registration, surveillance, settlement restrictions and enforcement therefore operated through
-    a distributed colonial administrative and police system; Punjab later maintained a dedicated Criminal Tribes
-    Department.
+  - id: criminal-tribes-repeal-1952
+    title: Criminal Tribes Laws (Repeal) Act, 1952
+    url: https://www.indiacode.nic.in/repealedfileopen?rfilename=A1952-24.pdf
+    publisher: India Code / Government of India
+  - id: sukanya-shantha-2024
+    title: Sukanya Shantha v. Union of India — judgment of 3 October 2024
+    url: https://api.sci.gov.in/supremecourt/2023/51059/51059_2023_1_1502_56228_Judgement_03-Oct-2024.pdf
+    publisher: Supreme Court of India
+  - id: gard-genetic-influences-antisocial-behavior
+    title: Genetic influences on antisocial behavior — recent advances and future directions
+    url: https://pubmed.ncbi.nlm.nih.gov/30145531/
+    publisher: Current Opinion in Psychology / PubMed
+evidence:
+  - id: criminal-tribes-act-proposition
+    sourceId: criminal-tribes-act-1871
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: §§ 2–7
+    note: >-
+      The primary statute authorized officials to declare a tribe, gang or class “criminal” and then register its
+      members; it made collective status, rather than an individual conviction, the legal trigger.
+  - id: major-hereditary-occupation-proposition
+    sourceId: major-punjab-criminal-tribes
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    locator: Abstract; pp. 657–688
+    note: >-
+      The historical study describes about 150,000 Punjabis as notified members of tribes and castes whose hereditary
+      occupation authorities deemed to be crime, and traces the policy of control, punishment and “reclamation.”
+  - id: piliavsky-hereditary-profession-context
+    sourceId: piliavsky-moghia-menace
+    relation: contextualizes
+    target: {scope: belief, aspect: proposition}
+    locator: Abstract; pp. 751–779
+    note: >-
+      The case study documents officials' description of Moghias as robbers by hereditary profession and shows how the
+      campaign immediately preceded the 1871 Act, while disputing a simple crime-control explanation for the policy.
+  - id: sukanya-shantha-correction
+    sourceId: sukanya-shantha-2024
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: paras. 112–125
+    note: >-
+      The Supreme Court recounts the official enquiry's conclusion that criminality is not hereditary and explains how
+      notification branded unconvicted adults and newborn children through group membership, contrary to equality.
+  - id: gard-antisocial-behavior-context
+    sourceId: gard-genetic-influences-antisocial-behavior
+    relation: contextualizes
+    target: {scope: belief, aspect: correction}
+    locator: Abstract
+    note: >-
+      This genetics review emphasizes heterogeneous antisocial outcomes and environmental moderation of genetic effects,
+      guarding against both group determinism and the opposite claim that biology never contributes to individual variation.
+  - id: sukanya-shantha-impact
+    sourceId: sukanya-shantha-2024
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: paras. 99–114
+    note: >-
+      The judgment documents registration, movement controls, passes, settlement, child separation, labour exploitation,
+      punishment and the approximate number of tribes and castes notified across India.
+  - id: major-punjab-impact
+    sourceId: major-punjab-criminal-tribes
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Abstract
+    note: Supports the approximate Punjab population and the characterization of the system's punitive effects.
+  - id: major-punjab-episode-context
+    sourceId: major-punjab-criminal-tribes
+    relation: contextualizes
+    target: {scope: episode, episodeId: india-1871-1952, aspect: context}
+    locator: pp. 657–688
+    note: Traces the changing Punjab policy and the colonial administration's attempt to control, punish and reform notified communities.
+  - id: piliavsky-episode-context
+    sourceId: piliavsky-moghia-menace
+    relation: contextualizes
+    target: {scope: episode, episodeId: india-1871-1952, aspect: context}
+    locator: pp. 751–779
+    note: Connects the pre-1871 Moghia policing campaign to the Act and shows that colonial classification served broader changes in governance.
+  - id: criminal-tribes-act-carrier
+    sourceId: criminal-tribes-act-1871
+    relation: documents
+    target: {scope: episode, episodeId: india-1871-1952, aspect: carrier}
+    locator: §§ 2–7
+    note: Names the Governor-General in Council, local governments and district magistrates in the notification and registration chain.
+  - id: gandee-punjab-carrier
+    sourceId: gandee-criminal-tribe
+    relation: supports
+    target: {scope: episode, episodeId: india-1871-1952, aspect: carrier}
+    locator: pp. 31–81
+    note: >-
+      Reconstructs the Punjab Criminal Tribes Department, established in 1917, and the officials, police and documentary
+      practices through which the provincial regime operated.
+  - id: criminal-tribes-act-mechanism
+    sourceId: criminal-tribes-act-1871
+    relation: documents
+    target: {scope: episode, episodeId: india-1871-1952, aspect: mechanism}
+    locator: §§ 5–18
+    note: Documents notification, registration, surveillance, residence, movement and settlement powers in the original Act.
+  - id: sukanya-shantha-mechanism
+    sourceId: sukanya-shantha-2024
+    relation: supports
+    target: {scope: episode, episodeId: india-1871-1952, aspect: mechanism}
+    locator: paras. 99–111
+    note: Traces how the 1871, 1911 and 1924 laws expanded and consolidated the enforcement machinery.
+  - id: sukanya-shantha-consequences
+    sourceId: sukanya-shantha-2024
+    relation: supports
+    target: {scope: episode, episodeId: india-1871-1952, aspect: consequences}
+    locator: paras. 107–114
+    note: >-
+      Documents child separation, compulsory settlements, intensive reporting, disrupted nomadic livelihoods, labour
+      exploitation, punishment and inherited stigma.
+  - id: gandee-consequences
+    sourceId: gandee-criminal-tribe
+    relation: supports
+    target: {scope: episode, episodeId: india-1871-1952, aspect: consequences}
+    locator: pp. 1–31, 49–81
+    note: >-
+      Shows how registration, roll calls, identification documents, movement restriction and internment became material
+      experiences, while emphasizing uneven application and the category's administrative construction.
+  - id: gandee-episode-context
+    sourceId: gandee-criminal-tribe
+    relation: contextualizes
+    target: {scope: episode, episodeId: india-1871-1952, aspect: context}
+    locator: pp. 31–81, 143–180
+    note: >-
+      Establishes the changing and contested scope of notification, the Act's survival after independence and the
+      continuity between repeal and state habitual-offender regimes.
+  - id: criminal-tribes-repeal-correction
+    sourceId: criminal-tribes-repeal-1952
+    relation: documents
+    target: {scope: episode, episodeId: india-1871-1952, aspect: institutional-correction}
+    locator: § 2
+    note: >-
+      The repeal statute ended the 1924 Act and corresponding state laws on 31 August 1952, unless an earlier date was notified.
+  - id: gard-institutional-correction-context
+    sourceId: gard-genetic-influences-antisocial-behavior
+    relation: contextualizes
+    target: {scope: episode, episodeId: india-1871-1952, aspect: institutional-correction}
+    locator: Abstract
+    note: >-
+      Modern evidence on heterogeneous outcomes and gene–environment interplay provides scientific context for rejecting
+      the old categorical claim while avoiding a claim that every individual difference is purely environmental.
+  - id: sukanya-shantha-institutional-correction
+    sourceId: sukanya-shantha-2024
+    relation: documents
+    target: {scope: episode, episodeId: india-1871-1952, aspect: institutional-correction}
+    locator: paras. 213–219, 231
+    note: >-
+      The Court records the successor laws' continuing use against denotified communities, urges states to reconsider
+      them, invalidates discriminatory prison-manual provisions and orders rule changes and safeguards against arbitrary arrest.

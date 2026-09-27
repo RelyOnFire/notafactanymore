@@ -1,31 +1,175 @@
+schemaVersion: 2
 locale: de
 entryId: hereditary-criminality
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: '2026-09-27'
 title: Erbliche Kriminalität
-claim: Die Zugehörigkeit zu bestimmten Kasten oder „Stämmen“ wurde als Hinweis auf eine erbliche Neigung zu Kriminalität
-  behandelt.
-currentUnderstanding: Kriminelles Verhalten ist keine erbliche Eigenschaft einer Kaste, eines „Stammes“ oder einer
-  ethnischen Gemeinschaft. Es wird von individuellen Umständen, Institutionen, Gelegenheiten, sozialen Bedingungen
-  und vielen weiteren Faktoren geprägt; Abstammung begründet keine kollektive kriminelle Veranlagung.
+proposition:
+  summary: >-
+    Die Kolonialbehörden Britisch-Indiens behandelten die Zugehörigkeit zu bestimmten „Stämmen“, Kasten, Banden oder
+    Klassen als ausreichenden Grund für einen kollektiven, durch Geburt weitergegebenen Kriminalstatus. Koloniale Texte
+    beschrieben Kriminalität häufig als erblichen Beruf oder Kastenpraxis; die Criminal Tribes Acts machten daraus
+    Registrierung, Überwachung, Bewegungsbeschränkungen und Zwangsansiedlung, ohne eine individuelle Verurteilung zu verlangen.
+correction:
+  summary: >-
+    Die Abstammung aus einer Gemeinschaft belegt weder, dass eine Person kriminell ist, noch dass sie zwangsläufig
+    Straftaten begehen wird. Die koloniale Kategorie verwechselte die Zugehörigkeit zu einer gesellschaftlich definierten
+    Gruppe mit Belegen über individuelles Verhalten: Sie erfasste Menschen, die nie verurteilt oder auch nur verdächtigt
+    worden waren, und Kinder erhielten den Status durch Geburt. Die heutige Forschung beschreibt antisoziales Verhalten
+    als uneinheitliches Ergebnis zusammenwirkender genetischer und umweltbedingter Einflüsse; sie rechtfertigt keine
+    Zuschreibung krimineller Neigung an eine Kaste, einen „Stamm“ oder eine ethnische Gemeinschaft. Auch die indische
+    Untersuchung von 1949–1950 verwarf die Annahme erblicher Kriminalität und erklärte die Brandmarkung durch Geburt
+    für unvereinbar mit der verfassungsrechtlichen Gleichheit.
+impact:
+  summary: >-
+    Von 1871 bis zum landesweiten Inkrafttreten der Aufhebung 1952 ermöglichten aufeinanderfolgende Criminal Tribes Acts,
+    ganze Gemeinschaften oder Teile davon als „criminal tribes“ einzustufen. In Indien wurden ungefähr 150 „Stämme“
+    und Kasten erfasst; allein für den Punjab nennt eine wissenschaftliche Schätzung vor 1947 etwa 150.000 Angehörige
+    eingestufter Gemeinschaften. Distriktbehörden registrierten Personen und Fingerabdrücke, die Polizei überwachte
+    Bewegungen und Meldepflichten, und Regierungen konnten Menschen in Industrie-, Landwirtschafts- oder Reformsiedlungen
+    festhalten. Kinder konnten in Reformschulen von ihren Familien getrennt werden. Das System zerstörte Lebensgrundlagen,
+    setzte Familien Arbeitszwang und Strafmaßnahmen aus und vererbte zugleich ein kriminelles Stigma an Nachkommen, die
+    keine Straftat begangen hatten.
+  highlights:
+    - value: ≈150
+      label: laut Supreme Court in ganz Indien eingestufte „Stämme“ und Kasten
+    - value: ≈150.000
+      label: geschätzte Angehörige eingestufter Gemeinschaften im Punjab vor 1947
+    - value: 31. Aug. 1952
+      label: Datum, an dem die gesetzliche Aufhebung landesweit wirksam wurde
+  context:
+    - >-
+      „Erblich“ hatte in diesem System keine einheitliche Bedeutung. Beamte und Autoren beschrieben Kriminalität
+      abwechselnd als über Generationen weitergegebenen Kastenberuf, als gesellschaftliche Lebensweise und gelegentlich
+      als angeborene Veranlagung. Für das rechtliche Unrecht war keine dieser Deutungen entscheidend: Die Einstufung machte
+      Abstammung und Gemeinschaftszugehörigkeit zum Ersatz für individuelle Schuld.
+    - >-
+      Das Rechtssystem wandelte sich. Der Act von 1871 galt zunächst in Teilen Nordindiens; spätere Änderungen sowie
+      die Acts von 1911 und 1924 weiteten und bündelten es. Die Anwendung unterschied sich je nach Provinz und
+      Bekanntmachung. Die gesetzliche Kategorie konnte ganze Gemeinschaften, Teile davon, Banden oder andere Klassen
+      umfassen und bezeichnete keine unveränderliche ethnografische Gruppe.
+    - >-
+      Die Aufhebung beseitigte die formale Kategorie, aber nicht ihr institutionelles Nachleben. Bundesstaaten erließen
+      Gesetze gegen „Gewohnheitsstraftäter“; manche Behörden und Gefängnisregeln verbanden denotifizierte oder wandernde
+      Gemeinschaften weiterhin mit gewohnheitsmäßiger Kriminalität. 2024 hob der Supreme Court diskriminierende Regeln
+      in Gefängnishandbüchern auf und ordnete Änderungen an, entschied aber nicht über die Gültigkeit der bundesstaatlichen
+      Habitual-Offenders-Gesetze.
 episodes:
-- id: british-india-1871-1947
-  polity: Britisch-Indien
-  institutions:
-  - Governor-General of India in Council
-  - Punjab Criminal Tribes Department
-  - District Magistrates
-  - District Superintendents of Police
-  summary: 'Die Criminal Tribes Acts ermöglichten es den Kolonialbehörden, ganze Gemeinschaften als Gruppen einzustufen,
-    deren Kriminalität als erblich galt. Der Verwaltungsapparat war im Gesetz konkret benannt: Provinzregierungen
-    beziehungsweise „Local Governments“ betrieben die Einstufung und Umsetzung, District Magistrates führten Register
-    und Bewegungsauflagen, die Polizei setzte sie durch, und im Punjab überwachte ab 1917 ein eigenes Criminal Tribes
-    Department das System. Menschen konnten allein aufgrund ihrer Gruppenzugehörigkeit registriert, überwacht, in
-    ihrer Bewegungsfreiheit eingeschränkt und in Siedlungen gezwungen werden.'
-  consequences:
-  - Kollektive Registrierung und Überwachung
-  - Einschränkung der Bewegungsfreiheit
-  - Zwangsansiedlung und „Reform“
-  institutionalContext: Die Criminal Tribes Acts übertrugen die Durchführung den provinziellen „Local Governments“
-    und Distriktbeamten. Registrierung, Überwachung, Aufenthaltsbeschränkungen und Vollzug liefen daher über einen
-    verteilten kolonialen Verwaltungs- und Polizeiapparat; im Punjab bestand später mit dem Punjab Criminal Tribes
-    Department eine eigene Fachbehörde.
+  - id: india-1871-1952
+    polity: Britisch-Indien und Indien
+    periodLabel: 1871–1952
+    institutions:
+      - Governor-General of India in Council sowie Provinz- beziehungsweise „Local Governments“
+      - District Magistrates und Superintendents of Police
+      - Punjab Criminal Tribes Department (1917–1952)
+    institutionalContext: >-
+      Nach dem Act von 1871 konnte eine „Local Government“ beim Governor-General in Council die Einstufung eines
+      „Stammes“, einer Bande oder Klasse als „criminal“ beantragen, wenn sie behauptete, die Gruppe begehe systematisch
+      nicht kautionsfähige Delikte. Spätere Acts gaben den Provinzregierungen weitergehende Einstufungsbefugnisse.
+      District Magistrates erstellten Register, Superintendents of Police führten sie weiter und meldeten Änderungen;
+      Polizei und Dorfbeamte vollzogen Melde- und Bewegungsvorschriften. Im Punjab bündelte ab 1917 ein eigenes Criminal
+      Tribes Department einen großen Teil dieser Arbeit. Gesetzliche Klauseln hinderten Gerichte zudem daran, die
+      Gültigkeit von Einstufungen zu prüfen.
+    consequences:
+      - Kollektive Einstufung und Registrierung nach Gemeinschaftszugehörigkeit, einschließlich der automatischen Brandmarkung hineingeborener Kinder
+      - Fingerabdrücke, Meldeappelle, Passierscheine, Überwachung sowie Beschränkungen von Wohnort und Bewegungsfreiheit
+      - Festhalten in Industrie-, Landwirtschafts- oder Reformsiedlungen und zwangsweise Nutzung der Arbeitskraft
+      - Trennung von Kindern und Eltern zur Unterbringung in Industrie-, Landwirtschafts- oder Reformschulen
+      - Strafen bei Verstößen gegen Auflagen und verstärkter Polizeiverdacht unabhängig vom individuellen Verhalten
+      - Dauerhaftes Stigma und zerstörte Lebensgrundlagen über die formale Denotifizierung hinaus
+    summary: >-
+      Das Criminal-Tribes-System verwandelte ein wandelbares koloniales Stereotyp in einen durchsetzbaren Status.
+      Regierungen stuften Gruppen ein, Magistrate und Polizei identifizierten und registrierten ihre Angehörigen, und
+      ein verteilter Verwaltungsapparat kontrollierte Bewegung, Wohnort, Arbeit und Familienleben. Weil die
+      Gruppenzugehörigkeit den Mechanismus auslöste, erfasste er Menschen ohne individuelle Feststellung strafbaren
+      Verhaltens und schrieb die Kennzeichnung über Generationen fort.
+    mechanism:
+      summary: >-
+        Gesetze erlaubten die behördliche Einstufung eines ganzen „Stammes“, einer Bande, Klasse oder eines Teils davon.
+        Danach griffen Register, Fingerabdrücke, polizeiliche Meldepflichten, Bewegungsbeschränkungen, Passierscheine und
+        Siedlungszwang; Abstammung oder Gemeinschaftszugehörigkeit wurden so zu einer staatlich vollstreckten Kriminalkategorie.
+    institutionalCorrection:
+      periodLabel: 1951–2024
+      action: >-
+        Eine staatliche Untersuchung verwarf die erbliche Kriminalität, das Parlament hob die Criminal-Tribes-Gesetze
+        zum 31. August 1952 auf, und der Supreme Court erklärte später diskriminierende Gefängnisregeln aus diesem Erbe für nichtig.
+      summary: >-
+        Das Criminal Tribes Act Enquiry Committee erklärte einen durch Geburt erworbenen Kriminalstatus für unvereinbar
+        mit dem Verfassungsversprechen der Gleichheit; das Aufhebungsgesetz von 1952 beendete die Criminal-Tribes-Gesetze
+        landesweit. Die Korrektur bleibt unvollständig, weil nachfolgende Habitual-Offenders-Gesetze und Verwaltungspraxis
+        Teile der Überwachungsstruktur erhielten und denotifizierte Gemeinschaften weiter trafen. 2024 ordnete der Supreme
+        Court Änderungen von Gefängnisregeln an, verlangte Schutz vor willkürlichen Festnahmen und forderte die Bundesstaaten
+        auf, die Vereinbarkeit der Habitual-Offenders-Gesetze mit der Verfassungsordnung zu überdenken; über deren
+        Gültigkeit entschied er nicht.
+evidence:
+  - id: criminal-tribes-act-proposition
+    note: >-
+      Der Primärtext erlaubte die Erklärung eines „Stammes“, einer Bande oder Klasse zur kriminellen Gruppe und danach
+      die Registrierung ihrer Angehörigen; rechtlicher Auslöser war der Kollektivstatus statt einer individuellen Verurteilung.
+  - id: major-hereditary-occupation-proposition
+    note: >-
+      Die historische Studie beschreibt etwa 150.000 Menschen im Punjab als registrierte Angehörige von „Stämmen“ und
+      Kasten, deren erblichen Beruf die Behörden in Kriminalität sahen, und zeichnet die Politik von Kontrolle, Strafe
+      und „Reform“ nach.
+  - id: piliavsky-hereditary-profession-context
+    note: >-
+      Die Fallstudie dokumentiert die behördliche Bezeichnung der Moghias als Räuber von erblichem Beruf und zeigt, wie
+      diese Kampagne dem Act von 1871 unmittelbar vorausging; zugleich widerspricht sie einer einfachen Deutung als Verbrechensbekämpfung.
+  - id: sukanya-shantha-correction
+    note: >-
+      Der Supreme Court gibt die Feststellung der staatlichen Untersuchung wieder, Kriminalität sei nicht erblich, und
+      zeigt, wie die Gruppeneinstufung unverurteilte Erwachsene und neugeborene Kinder entgegen dem Gleichheitsgrundsatz brandmarkte.
+  - id: gard-antisocial-behavior-context
+    note: >-
+      Der genetische Forschungsüberblick betont unterschiedliche Formen antisozialen Verhaltens und die Moderation
+      genetischer Einflüsse durch Umweltbedingungen. Damit vermeidet die Karte sowohl Gruppendeterminismus als auch die
+      umgekehrte Behauptung, Biologie trage nie zu individuellen Unterschieden bei.
+  - id: sukanya-shantha-impact
+    note: >-
+      Das Urteil dokumentiert Registrierung, Bewegungskontrollen, Passierscheine, Siedlungszwang, Trennung von Kindern,
+      Ausbeutung der Arbeitskraft, Strafen und die ungefähre Zahl der in Indien eingestuften „Stämme“ und Kasten.
+  - id: major-punjab-impact
+    note: Belegt die ungefähre Zahl im Punjab und die Beschreibung der strafenden Folgen des Systems.
+  - id: major-punjab-episode-context
+    note: >-
+      Zeichnet die wechselnde Politik im Punjab und den kolonialen Versuch nach, eingestufte Gemeinschaften zu
+      kontrollieren, zu bestrafen und zu „reformieren“.
+  - id: piliavsky-episode-context
+    note: >-
+      Verbindet die Moghia-Polizeikampagne vor 1871 mit dem Act und zeigt, dass die koloniale Klassifikation umfassenderen
+      Veränderungen der Herrschaft diente.
+  - id: criminal-tribes-act-carrier
+    note: >-
+      Benennt den Governor-General in Council, die „Local Governments“ und District Magistrates in der Kette aus Einstufung und Registrierung.
+  - id: gandee-punjab-carrier
+    note: >-
+      Rekonstruiert das 1917 eingerichtete Punjab Criminal Tribes Department sowie Beamte, Polizei und Schriftpraktiken,
+      durch die das Provinzsystem funktionierte.
+  - id: criminal-tribes-act-mechanism
+    note: Dokumentiert Einstufung, Registrierung, Überwachung, Wohnort-, Bewegungs- und Siedlungsbefugnisse des ursprünglichen Acts.
+  - id: sukanya-shantha-mechanism
+    note: Zeigt, wie die Gesetze von 1871, 1911 und 1924 den Vollzugsapparat ausweiteten und bündelten.
+  - id: sukanya-shantha-consequences
+    note: >-
+      Dokumentiert die Trennung von Kindern, Zwangssiedlungen, intensive Meldepflichten, den Verlust nomadischer
+      Lebensgrundlagen, Ausbeutung der Arbeitskraft, Strafen und ein durch Geburt weitergegebenes Stigma.
+  - id: gandee-consequences
+    note: >-
+      Zeigt, wie Registrierung, Meldeappelle, Ausweispapiere, Bewegungseinschränkungen und Internierung den Alltag prägten,
+      und betont zugleich die ungleichmäßige Anwendung und verwaltungsseitige Konstruktion der Kategorie.
+  - id: gandee-episode-context
+    note: >-
+      Belegt den wechselnden und umstrittenen Anwendungsbereich, das Fortbestehen des Acts nach der Unabhängigkeit und
+      die Kontinuität zwischen Aufhebung und bundesstaatlichen Habitual-Offenders-Regimen.
+  - id: criminal-tribes-repeal-correction
+    note: >-
+      Das Aufhebungsgesetz beendete den Act von 1924 und entsprechende Gesetze der Bundesstaaten am 31. August 1952,
+      soweit kein früheres Datum bekannt gemacht worden war.
+  - id: gard-institutional-correction-context
+    note: >-
+      Heutige Erkenntnisse über uneinheitliche Ergebnisse und das Zusammenspiel von Genen und Umwelt liefern den
+      wissenschaftlichen Kontext für die Zurückweisung der alten Kollektivbehauptung, ohne alle individuellen
+      Unterschiede für rein umweltbedingt zu erklären.
+  - id: sukanya-shantha-institutional-correction
+    note: >-
+      Das Gericht dokumentiert die fortdauernde Anwendung der Nachfolgegesetze gegen denotifizierte Gemeinschaften,
+      fordert ihre Überprüfung, hebt diskriminierende Gefängnisregeln auf und ordnet Regeländerungen sowie Schutz vor willkürlicher Festnahme an.

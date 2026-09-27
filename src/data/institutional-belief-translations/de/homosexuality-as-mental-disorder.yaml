@@ -1,128 +1,329 @@
+schemaVersion: 2
 locale: de
 entryId: homosexuality-as-mental-disorder
-sourceReviewedAt: '2026-08-24'
+sourceReviewedAt: '2026-09-27'
 title: Homosexualität als psychische Störung
-claim: Homosexualität wurde in offiziellen oder fachlich maßgeblichen medizinischen Klassifikationssystemen als
-  diagnostizierbare psychische, Persönlichkeits- oder Sexualstörung behandelt.
-currentUnderstanding: Homosexualität ist weder Krankheit noch psychische oder sexuelle Störung und keine „Perversion“.
-  Gleichgeschlechtliche Anziehung gehört zur normalen Vielfalt menschlicher Sexualität. Belastungen lesbischer,
-  schwuler oder bisexueller Menschen können eine angemessene psychische Versorgung erfordern; durch Stigma, Konflikte
-  oder Diskriminierung verursachter Leidensdruck macht die sexuelle Orientierung selbst jedoch nicht pathologisch
-  und begründet keine medizinische Notwendigkeit, sie zu verändern.
+proposition:
+  summary: >-
+    Maßgebliche medizinische Klassifikationen und staatliche medizinische Systeme behandelten Homosexualität als
+    diagnostizierbare psychische, Persönlichkeits- oder Sexualstörung. Die Form unterschied sich: Manche Klassifikationen
+    pathologisierten die gleichgeschlechtliche Orientierung selbst, während spätere Restkategorien die Diagnose an
+    Leidensdruck wegen der Orientierung oder den Wunsch nach ihrer Veränderung knüpften.
+correction:
+  summary: >-
+    Homosexualität und Bisexualität sind normale Varianten menschlicher Sexualität und weder psychische Störungen noch
+    Sexualstörungen oder „Perversionen“. Lesbische, schwule und bisexuelle Menschen können an Depressionen, Angststörungen
+    oder anderen behandlungsbedürftigen Erkrankungen leiden; durch Stigmatisierung verursachter Leidensdruck macht ihre
+    Orientierung jedoch nicht pathologisch. Die Versorgung soll die tatsächlichen Bedürfnisse der Person behandeln,
+    ohne Heterosexualität zum Therapieziel zu machen. Die ICD-11 enthält daher keine Diagnosekategorie auf Grundlage der
+    sexuellen Orientierung.
 impact:
-  summary: 'Die Pathologisierung von Homosexualität war mehr als ein falsches Diagnoseetikett. Internationale und
-    nationale Klassifikationen verliehen Stigma, Behandlungsversuchen und institutionellen Entscheidungen medizinische
-    Autorität. Die WHO korrigierte die pauschale Einstufung 1990, doch nationale Systeme folgten unterschiedlich
-    schnell: Brasilien änderte seine Kodierung 1985, Chinas CCMD-System bleibt ungewöhnlich widersprüchlich und
-    wird weiterhin in aktuellen forensischen Standards zitiert, während Iran Homosexualität im militärischen Befreiungssystem
-    weiterhin mit psychischer Krankheit verknüpft.'
+  summary: >-
+    Diagnostische Klassifikationen entfalten Autorität durch klinische Kodierung, Gesundheitsstatistik, fachliche
+    Ausbildung und Verwaltung. Die WHO-Klassifikation verschaffte der These internationale Reichweite; nationale Träger
+    änderten ihren Kurs zu unterschiedlichen Zeiten. Brasilien stellte die Kodierung 1985 um, Chinas CCMD-3 normalisierte
+    Homosexualität teilweise und behielt zugleich eine widersprüchliche benannte Diagnose, während Irans
+    Wehrdienstbefreiungssystem schwule Männer laut aktuellen Länderberichten weiterhin einem medizinischen oder
+    psychiatrischen Verfahren unterwirft.
   highlights:
-  - value: '1948'
-    label: Die WHO-ICD-6 klassifizierte Homosexualität als psychische Störung
-  - value: 17. Mai 1990
-    label: Die Weltgesundheitsversammlung beendete die Einstufung von Homosexualität selbst als psychische Störung
-  - value: 2025–26
-    label: Chinesische Forensikstandards verweisen weiter auf CCMD-3; Irans Militärsystem nutzt weiter eine psychiatrische
-      Einordnung
+    - value: '1948'
+      label: Die ICD-6 klassifizierte Homosexualität als psychische Störung
+    - value: 17. Mai 1990
+      label: Die Weltgesundheitsversammlung beschloss die Revision, die Homosexualität selbst als Diagnose strich
+    - value: 2019–22
+      label: Die ICD-11 wurde ohne die verbliebenen orientierungsbezogenen Kategorien beschlossen und trat in Kraft
   context:
-  - Die Episoden verwenden nicht überall dieselbe Diagnosesprache. Manche Systeme pathologisierten Homosexualität
-    selbst; spätere Klassifikationen beschränkten Diagnosen teilweise auf Menschen mit Leidensdruck wegen ihrer
-    Orientierung. Diese Unterschiede bleiben sichtbar, weil eine Einengung nicht dasselbe ist wie vollständige Entpathologisierung.
-  - Die Klassifikation von Homosexualität als psychische Störung betrifft die sexuelle Orientierung. Transidentität
-    ist davon zu unterscheiden und besitzt eine eigenständige Geschichte medizinischer und psychiatrischer Klassifikation.
+    - >-
+      Eine pauschale Diagnose von Homosexualität ist nicht dasselbe wie eine Diagnose aufgrund von Leidensdruck wegen der
+      Orientierung. Beide erscheinen hier, weil die zweite Form weiterhin eine speziell auf sexueller Orientierung
+      beruhende diagnostische Begründung bot; die Episoden unterscheiden jedoch Teilkorrektur und vollständige
+      Entpathologisierung.
+    - >-
+      Beschluss und Inkrafttreten liegen zeitlich auseinander. Die Weltgesundheitsversammlung beschloss die ICD-10 im Mai
+      1990, wirksam wurde sie 1993; die ICD-11 wurde im Mai 2019 beschlossen und trat 2022 in Kraft.
+    - >-
+      Die Verfügbarkeit einer Klassifikation belegt nicht, wie oft eine bestimmte Diagnose vergeben wurde. In China
+      nennt ein aktueller forensischer Standard die CCMD-3 als allgemeine diagnostische Referenz; die hier ausgewerteten
+      Belege zeigen jedoch keine heutige forensische Verwendung ihrer Homosexualitätsdiagnose.
+    - >-
+      Sexuelle Orientierung und Geschlechtsidentität sind verschieden. Einige Iran-Quellen behandeln schwule Männer und
+      trans Menschen gemeinsam, weil das Befreiungssystem beide medizinischen Kategorien zuordnet. Dieser Eintrag nutzt
+      die Quellen nur für ihre Aussagen über Homosexualität und behandelt Transidentität weder als sexuelle Orientierung
+      noch als psychische Störung.
 episodes:
-- id: who-1948-1990
-  polity: International — Weltgesundheitsorganisation
-  institutions:
-  - World Health Organization (WHO)
-  - World Health Assembly
-  institutionalContext: Unter Verantwortung der WHO ordnete die ICD-6 Homosexualität 1948 den psychischen Störungen
-    zu. Weitere ICD-Fassungen behielten pathologisierende Kategorien zur sexuellen Orientierung bei. Weil die ICD
-    weltweit als Standard für Gesundheitsstatistik und als Grundlage klinischer, administrativer und versicherungstechnischer
-    Systeme dient, wirkte diese Einordnung weit über die WHO selbst hinaus. Im Mai 1990 verabschiedete die Weltgesundheitsversammlung
-    die ICD-10 und beendete die Klassifikation von Homosexualität selbst als psychische Störung. Orientierungsspezifische
-    F66-Kategorien wie die „ichdystone Sexualorientierung“ blieben zunächst bestehen; die Korrektur erfolgte also
-    schrittweise.
-  summary: Die sechste Internationale Klassifikation der Krankheiten der WHO von 1948 führte Homosexualität als
-    psychische Störung. Aufgrund der weltweiten Rolle der ICD erhielt diese Einordnung außergewöhnliche institutionelle
-    Reichweite. Am 17. Mai 1990 verabschiedete die Weltgesundheitsversammlung die ICD-10 und beendete die Einstufung
-    von Homosexualität selbst als psychische Störung. Die Korrektur war zunächst nicht vollständig, weil ICD-10
-    noch orientierungsbezogene F66-Diagnosen enthielt, doch die pauschale Pathologisierung durch die WHO endete
-    1990.
-  consequences:
-  - Internationale diagnostische Einordnung von Homosexualität als psychische Pathologie
-  - Medizinische Legitimation nationaler und fachlicher Pathologisierung
-  - Weitergabe über Gesundheitsstatistik, klinische Kodierung, Ausbildung und Verwaltung
-  - Verstärkung von Stigma und Behandlungsversuchen gegen die sexuelle Orientierung selbst
-- id: china-1989-2026
-  polity: China
-  institutions:
-  - Chinese Society of Psychiatry / Chinese Medical Association
-  - Forensisches Begutachtungssystem des chinesischen Justizministeriums
-  institutionalContext: 'CCMD-2 von 1989 und CCMD-2-R von 1994 hielten Homosexualität ausdrücklich in der chinesischen
-    psychiatrischen Klassifikation, obwohl international bereits eine Entpathologisierung eingesetzt hatte. CCMD-3
-    wurde 2001 weithin als Abschaffung dargestellt, weil der Text betonte, gleichgeschlechtliche Sexualität sei
-    nicht zwangsläufig abnormal. Tatsächlich blieb jedoch eine Diagnose mit dem Namen „Homosexualität“ (62.31) unter
-    den „Störungen der sexuellen Orientierung“ bestehen, neben Bisexualität. Die Einleitung verbindet die Aufnahme
-    mit Leidensdruck und dem Wunsch, die Orientierung zu verändern, löscht Homosexualität aber nicht als Diagnosekategorie.
-    Das ist nicht nur historisch: Ein 2024 erlassener und seit Juni 2025 geltender forensischer Standard des Justizministeriums
-    führt CCMD-3 weiterhin als normative diagnostische Referenz neben der ICD.'
-  summary: 'Chinas CCMD-2 und CCMD-2-R klassifizierten Homosexualität als psychiatrische beziehungsweise sexuelle
-    Störung. CCMD-3 engte diese Position 2001 erheblich ein, und führende chinesische Psychiater erklärten öffentlich,
-    homosexuelle Menschen seien nicht psychisch krank. Eine wörtliche Streichung erfolgte jedoch nicht: CCMD-3 behielt
-    „Homosexualität“ als Diagnose 62.31 unter den Störungen der sexuellen Orientierung. Eine Neubewertung von 2026
-    zeigt, warum die verbreitete Formel einer vollständigen Streichung 2001 zu weit geht. Zudem nennt der aktuelle
-    forensische Standard SF/T 0184-2024 des Justizministeriums CCMD-3 weiterhin als diagnostische Referenz. Die
-    Episode bleibt daher offen.'
-  consequences:
-  - Fachpsychiatrische Einordnung von Homosexualität als Störung der sexuellen Orientierung
-  - Fortbestand einer Diagnosekategorie trotz der öffentlich kommunizierten „Entpathologisierung“ von 2001
-  - Fortdauernde Verfügbarkeit von CCMD-3 als Referenz in staatlicher forensischer Psychiatrie
-  - Medizinische und institutionelle Legitimation pathologisierender Deutungen und von Versuchen zur Orientierungsänderung
-- id: brazil-1979-1985
-  polity: Brasilien
-  institutions:
-  - Ministério da Saúde
-  - Conselho Federal de Medicina (CFM)
-  - Centro Brasileiro de Classificação de Doenças (CBCD)
-  institutionalContext: Die pathologisierende Kategorie stammte aus der ICD-9, die Homosexualität unter 302.0 den
-    „sexuellen Abweichungen und Störungen“ im Kapitel der psychischen Störungen zuordnete. Als die Forderung nach
-    einer anderen brasilianischen Kodierung die Bundesgesundheitsverwaltung erreichte, schlug das Centro Brasileiro
-    de Classificação de Doenças für Konsultationen wegen Homosexualität V62 vor; das Gesundheitsministerium legte
-    die Frage dem Conselho Federal de Medicina vor, der diese Orientierung 1985 billigte.
-  summary: Das brasilianische medizinische Klassifikationssystem verwendete den ICD-9-Code 302.0, der Homosexualität
-    im Kapitel der psychischen Störungen unter „sexuelle Abweichungen und Störungen“ einordnete. 1985 billigte der
-    Conselho Federal de Medicina nach einer Überprüfung durch die Bundesgesundheitsverwaltung die Orientierung,
-    Konsultationen, deren Anlass Homosexualität war, stattdessen unter V62 („andere psychosoziale Umstände“) zu
-    kodieren. Lag eine andere Erkrankung vor, sollte diese als Grunderkrankung kodiert werden. Die Entscheidung
-    lockerte damit die pathologisierende Einstufung in der brasilianischen Praxis, ohne die internationale ICD-9-Kategorie
-    302.0 wörtlich zu löschen.
-  consequences:
-  - Diagnostische Kodierung als psychische oder sexuelle Störung
-  - Medizinische Pathologisierung von Homosexualität
-  - Institutionelle Stigmatisierung im Gesundheitswesen
-- id: iran-2017-2026
-  polity: Iran
-  institutions:
-  - Iranisches medizinisches Befreiungssystem der allgemeinen Wehrpflicht
-  - Medizinische Untersuchungs- und Befreiungsgremien der Streitkräfte
-  institutionalContext: Das iranische Wehrpflichtsystem behandelt Homosexualität als medizinischen beziehungsweise
-    psychiatrischen Grund für eine Befreiung. Amtliche Berichte ausländischer Regierungen dokumentieren dies mindestens
-    seit 2017 fortlaufend. Aktuelle Berichte beschreiben medizinische Begutachtungen nach den iranischen Befreiungsvorschriften,
-    wobei schwule Männer als psychisch krank eingestuft oder psychiatrischen beziehungsweise verhaltensbezogenen
-    Kategorien zugeordnet werden. Auf Befreiungskarten erscheint der einschlägige Rechtsunterabschnitt und kann
-    damit die sexuelle Orientierung indirekt offenlegen. Die Einordnung bleibt also nicht symbolisch, sondern wird
-    durch medizinische Prüfung und ein folgenreiches staatliches Dokument umgesetzt.
-  summary: Iran verknüpft Homosexualität im System der verpflichtenden Wehrdienstbefreiung weiterhin mit psychiatrischer
-    oder verhaltensbezogener Pathologie. Schwule Männer können über eine medizinische Begutachtung eine Befreiung
-    beantragen, weil das System sie als psychisch krank behandelt oder entsprechenden Kategorien zuordnet. Die militärische
-    Dokumentation kann den Rechtsgrund der Befreiung erkennen lassen und dadurch die sexuelle Orientierung indirekt
-    offenlegen. Berichte des US-Außenministeriums dokumentierten die Einordnung 2017–2023; die britische Regierung
-    beschreibt denselben Mechanismus noch im Dezember 2025. Die Episode bleibt daher offen.
-  consequences:
-  - Medizinische und psychiatrische Untersuchung im Zusammenhang mit sexueller Orientierung
-  - Wehrdienstbefreiung auf psychischer oder verhaltensbezogener Grundlage
-  - Offenlegung des Befreiungsgrundes in militärischen Unterlagen
-  - Risiko von Diskriminierung am Arbeitsplatz, familiärer Gewalt, körperlicher Gewalt oder Festnahme nach unfreiwilligem
-    Outing
-  - Staatliche Verstärkung der Behauptung, Homosexualität sei Krankheit oder Psychopathologie
+  - id: who-1948-1990
+    polity: International — WHO
+    periodLabel: 1948–1990
+    institutions:
+      - World Health Organization (WHO)
+      - World Health Assembly
+    institutionalContext: >-
+      Die ICD-6 ordnete Homosexualität 1948 den psychischen Störungen zu; auch die ICD-9 führte sie noch unter „sexuellen
+      Abweichungen und Störungen“. Da die ICD der WHO eine gemeinsame Sprache für Morbiditätsstatistik liefert und
+      klinische sowie administrative Systeme prägt, handelte es sich um mehr als die Aussage eines einzelnen
+      Berufsverbands. Am 17. Mai 1990 beschloss die Weltgesundheitsversammlung die ICD-10, die Homosexualität selbst
+      strich und festhielt, dass sexuelle Orientierung allein keine Störung sei. Die ICD-10 behielt jedoch F66-Diagnosen
+      wie die ichdystone sexuelle Orientierung, bis die ICD-11 alle auf sexueller Orientierung beruhenden Kategorien strich.
+    consequences:
+      - Internationale Klassifikation von Homosexualität als psychische Pathologie
+      - Medizinische Legitimation nationaler und fachlicher Pathologisierung
+      - Verbreitung über Gesundheitsstatistik, klinische Kodierung, Ausbildung und Verwaltung
+      - In verengter Form in der ICD-10 fortbestehende diagnostische Grundlage für Behandlungen an der Orientierung
+    summary: >-
+      Die sechste Internationale Klassifikation der Krankheiten der WHO führte Homosexualität 1948 als psychische
+      Störung; spätere Revisionen trugen diese These im internationalen Klassifikationssystem weiter. Mit dem Beschluss
+      der ICD-10 von 1990 endete die Diagnose von Homosexualität selbst, orientierungsbezogene F66-Diagnosen blieben aber
+      bestehen. Der Beschluss der ICD-11 im Jahr 2019 vollendete die Korrektur auf Klassifikationsebene, indem auch diese
+      Restkategorien entfielen.
+    mechanism:
+      summary: >-
+        Die WHO kodierte die These in aufeinanderfolgenden Ausgaben der internationalen Krankheitsklassifikation; so
+        gelangte die Kategorie in nationale Kodierung, Klinik, Statistik, Ausbildung und Verwaltung.
+    institutionalCorrection:
+      periodLabel: 1990–2019
+      action: >-
+        Die Weltgesundheitsversammlung beschloss 1990 die ICD-10 ohne eine Diagnose von Homosexualität selbst und 2019
+        die ICD-11 ohne die verbliebenen orientierungsbezogenen F66-Diagnosen.
+      summary: >-
+        Die WHO korrigierte die Klassifikation in zwei Schritten. Die ICD-10 erklärte sexuelle Orientierung allein
+        ausdrücklich für nicht krankhaft, behielt jedoch Diagnosen für Konflikt oder Leidensdruck wegen der Orientierung.
+        Die ICD-11 strich diese Kategorien, nachdem eine WHO-Arbeitsgruppe dafür keine hinreichende klinische,
+        bevölkerungsmedizinische oder wissenschaftliche Rechtfertigung gefunden hatte.
+  - id: china-1989-2026
+    polity: China
+    periodLabel: 1989–heute
+    institutions:
+      - Chinese Society of Psychiatry / Chinese Medical Association
+      - Forensisches Begutachtungssystem des chinesischen Justizministeriums
+    institutionalContext: >-
+      CCMD-2 von 1989 und die 1995 veröffentlichte CCMD-2-R behielten Homosexualität in der chinesischen psychiatrischen
+      Klassifikation. CCMD-3 nahm 2001 eine wesentliche Änderung vor: Die Erläuterung erklärte gleichgeschlechtliche
+      Sexualität für nicht zwangsläufig abnormal, und zeitgenössische Berichte behandelten nur Fälle mit schwerem Konflikt
+      oder Leidensdruck als psychosexuelle Störung. Dennoch führte die veröffentlichte Klassifikation weiterhin Diagnosen
+      namens „Homosexualität“ (62.31) und „Bisexualität“ (62.32) unter „Störungen der sexuellen Orientierung“; ihre
+      aufgelisteten Kriterien nannten Leidensdruck nicht als eigenständige zwingende Voraussetzung. China geht zur
+      ICD-11 über, doch ein 2024 erlassener und 2025 wirksam gewordener Standard des Justizministeriums lässt forensische
+      Diagnosen weiterhin nach ICD oder CCMD-3 zu.
+    consequences:
+      - Fachliche Klassifikation von Homosexualität in CCMD-2 und CCMD-2-R
+      - Fortbestand einer Diagnose namens Homosexualität nach der 2001 angekündigten Teilnormalisierung
+      - Klassifikatorische Begründung für Behandlungen mit dem Ziel, die sexuelle Orientierung zu verändern
+      - Fortdauernde Verfügbarkeit von CCMD-3 als allgemeine Referenz in der staatlichen forensischen Psychiatrie
+    summary: >-
+      Chinas Revision von 2001 war weder bedeutungslos noch eine uneingeschränkte Streichung. Sie verwarf die Annahme,
+      jeder homosexuelle Mensch sei psychisch krank, und rückte begleitenden Konflikt oder Leidensdruck in den
+      Vordergrund. Im Handbuch selbst blieb jedoch eine Homosexualitätsdiagnose in einem Störungskapitel bestehen. Der
+      Einfluss von CCMD-3 nimmt beim Übergang zu internationalen Klassifikationen ab, sie bleibt aber eine zulässige
+      forensische Referenz. Deshalb bleibt die Episode auf Klassifikationsebene offen, während eine heutige tatsächliche
+      Verwendung der Diagnose 62.31 nicht belegt ist.
+    mechanism:
+      summary: >-
+        Ein nationaler psychiatrischer Fachverband kodierte Homosexualität in mehreren CCMD-Ausgaben; spätere Standards
+        des Justizministeriums bezogen CCMD-3 als eine der zulässigen Klassifikationen für forensische Diagnosen des
+        psychischen Zustands ein.
+    institutionalCorrection:
+      periodLabel: 2001–heute
+      action: >-
+        CCMD-3 erklärte gleichgeschlechtliche Sexualität für nicht zwangsläufig abnormal; später begann China mit der
+        Einführung der ICD-11, die keine Diagnose auf Grundlage der sexuellen Orientierung enthält.
+      summary: >-
+        Die Revision von 2001 war eine bedeutsame, aber in sich widersprüchliche Teilkorrektur. Erläuterung und öffentliche
+        Darstellung verwarfen die automatische Pathologisierung, während Hierarchie und Kriterien Homosexualität als
+        benannte Störung behielten. Eine vollständige Ablösung von CCMD-3 in den hier untersuchten Systemen ist nicht
+        dokumentiert; der seit 2025 geltende forensische Standard nennt sie weiterhin neben der ICD.
+  - id: brazil-1979-1985
+    polity: Brasilien
+    periodLabel: 1979–1985
+    institutions:
+      - Ministério da Saúde
+      - Conselho Federal de Medicina (CFM)
+      - Centro Brasileiro de Classificação de Doenças (CBCD)
+    institutionalContext: >-
+      Die seit 1979 geltende ICD-9 führte Homosexualität unter 302.0 als „sexuelle Abweichung und Störung“ im Kapitel der
+      psychischen Störungen. Nachdem Grupo Gay da Bahia beantragt hatte, die Diagnose in Brasilien außer Kraft zu setzen,
+      durchlief die Forderung die Bundesgesundheitsverwaltung. Das CBCD schlug V62 für Konsultationen wegen
+      Homosexualität vor, das Gesundheitsministerium legte die Frage dem CFM vor, und dieser billigte 1985 den Vorschlag.
+    consequences:
+      - Diagnostische Kodierung von Homosexualität im Kapitel der psychischen Störungen
+      - Medizinische Autorität für die Behandlung von Homosexualität als sexuelle Abweichung oder Störung
+      - Institutionelle Stigmatisierung im Gesundheitswesen
+    summary: >-
+      Brasilien verwendete den ICD-9-Code 302.0, der Homosexualität den sexuellen Abweichungen und Störungen zuordnete.
+      1985 gestattete der CFM, Konsultationen wegen Homosexualität stattdessen unter V62 („andere psychosoziale Umstände“)
+      zu kodieren. Lag eine andere Erkrankung vor, sollte diese Grunderkrankung kodiert werden. Das Gutachten änderte die
+      brasilianische Kodierungspraxis, ohne den internationalen ICD-9-Text förmlich umzuschreiben oder jede im Gutachten
+      erwähnte medizinische Meinungsverschiedenheit eindeutig aufzulösen.
+    mechanism:
+      summary: >-
+        Das brasilianische Gesundheitssystem verwendete den ICD-9-Krankheitscode, bis Bundesstellen für Klassifikation
+        und Medizin für Konsultationen wegen Homosexualität einen alternativen Nicht-Krankheitscode billigten.
+    institutionalCorrection:
+      periodLabel: 1985–1999
+      action: >-
+        Der CFM gestattete 1985 V62 anstelle von 302.0; 1999 untersagte der Bundesrat für Psychologie Fachkräften
+        Praktiken, die homoerotisches Verhalten pathologisieren oder eine „Heilung“ versprechen.
+      summary: >-
+        Das Gutachten von 1985 beendete den Zwang zur Verwendung des Codes für psychische Störungen in der
+        brasilianischen Praxis, formulierte jedoch nur eine Möglichkeit und strich den ICD-9-Text nicht. Die Berufsregel
+        für Psychologie von 1999 setzte einen klareren Standard gegen Pathologisierung; die institutionelle Korrektur
+        entwickelte sich somit in mehreren Schritten.
+  - id: iran-2017-2026
+    polity: Iran
+    periodLabel: 2017–heute
+    institutions:
+      - Iranisches medizinisches Befreiungssystem der allgemeinen Wehrpflicht
+      - Medizinische Untersuchungs- und Befreiungsgremien der Streitkräfte
+    institutionalContext: >-
+      Länderberichte der US-amerikanischen und britischen Regierung melden, dass schwule Männer im iranischen
+      Wehrpflichtsystem über eine psychische oder verhaltensbezogene Kategorie von der Dienstpflicht befreit werden
+      können. Der zitierte übersetzte Wortlaut der medizinischen Befreiungsvorschriften von 2020 ist weiter gefasst als
+      „Homosexualität“: Artikel 33 Absatz 8 nennt Verhaltensstörungen sowie moralische oder sexuelle „Abweichungen“.
+      Berichte beschreiben medizinische Untersuchungen, in denen schwule Antragsteller ihre Berechtigung nachweisen
+      müssen; die Befreiungsunterlagen nennen den einschlägigen Unterabschnitt. Die Belege dokumentieren damit die
+      berichtete Verwaltungspraxis, sind aber keine direkte Veröffentlichung der vollständigen aktuellen persischen Vorschrift.
+    consequences:
+      - Medizinische oder psychiatrische Untersuchung im Zusammenhang mit sexueller Orientierung
+      - Wehrdienstbefreiung über eine psychische oder verhaltensbezogene Kategorie
+      - Angabe des Befreiungsunterabschnitts in militärischen Unterlagen
+      - Risiko von Benachteiligung im Beruf, familiärer Gewalt, körperlicher Gewalt oder Festnahme nach unfreiwilligem Outing
+      - Staatliche Verstärkung einer pathologisierenden Darstellung von Homosexualität
+    summary: >-
+      Irans militärisches Befreiungssystem setzt die Pathologisierung von Homosexualität weiterhin durch medizinische und
+      psychiatrische Kategorien um. Aktuelle Länderberichte melden, dass schwule Männer eine Befreiung nur über eine
+      medizinische Prüfung beantragen können und die Unterlagen den verwendeten Unterabschnitt erkennen lassen. Da
+      einvernehmliche gleichgeschlechtliche Handlungen strafbar sind, kann das Verfahren Antragsteller weit über die
+      Befreiung hinaus gefährden. Amtliche Länderberichte bis August 2026 dokumentieren keine institutionelle Korrektur.
+    mechanism:
+      summary: >-
+        Die Wehrpflichtbehörden führen schwule Befreiungsantragsteller durch medizinische Untersuchungen und
+        verhaltensbezogene oder psychiatrische Vorschriften und vermerken anschließend den einschlägigen Unterabschnitt
+        in militärischen Unterlagen.
+    institutionalCorrection:
+      periodLabel: 2017–heute
+      action: Bis August 2026 ist keine institutionelle Korrektur dokumentiert.
+      summary: >-
+        Neuere britische Länderberichte beschreiben die Befreiung auf dieser Grundlage und die damit verbundene
+        Kennzeichnung als psychische Störung weiterhin. Die Belege erwähnen Änderungen des verwendeten
+        Vorschriftenabschnitts, aber keine Abkehr von der pathologisierenden Prämisse für schwule Antragsteller.
+evidence:
+  - id: who-icd6-proposition
+    note: >-
+      Der historische Überblick der WHO hält fest, dass die 1948 veröffentlichte ICD-6 Homosexualität als psychische
+      Störung klassifizierte.
+  - id: ccmd2r-proposition
+    note: >-
+      Die fachbegutachtete Übersicht nennt Homosexualität unter den Diagnosen, die CCMD-2-R trotz der Unterschiede zur
+      ICD-10 bewusst beibehielt, und beschreibt die breite vorgesehene Anwendung des Systems.
+  - id: cfm-proposition
+    note: >-
+      Das Primärdokument hält fest, dass die in Brasilien geltende ICD-9 Homosexualität unter 302.0 den sexuellen
+      Abweichungen und Störungen im Kapitel der psychischen Störungen zuordnete.
+  - id: iran-proposition
+    note: >-
+      Der amtliche Länderbericht erklärt, dass das iranische Recht schwule Männer über eine Einstufung als psychisch krank
+      vom Wehrdienst befreite.
+  - id: who-f66-correction
+    note: >-
+      Die Untersuchung der WHO-Arbeitsgruppe findet keine klinische, bevölkerungsmedizinische oder wissenschaftliche
+      Rechtfertigung für Diagnosekategorien nach sexueller Orientierung und empfiehlt die Streichung aller F66-Kategorien.
+  - id: who-system-impact
+    note: >-
+      Erläutert die Reichweite der ICD in Gesundheitsdaten, Klinik, Finanzierung und Verwaltung und nennt die frühere
+      Homosexualitätsdiagnose als Beispiel für medizinisch unbelegte kulturelle Annahmen.
+  - id: who-icd6-carrier
+    note: Benennt die ICD-6 der WHO als internationale Klassifikation, die 1948 die Diagnose trug.
+  - id: who-classification-mechanism
+    note: Beschreibt, wie ICD-Codes Krankenakten, Statistik, Finanzierung und Entscheidungen im Gesundheitswesen strukturieren.
+  - id: who-classification-consequences
+    note: >-
+      Verknüpft die Klassifikation mit einer unbelegten Annahme einer Persönlichkeitsstörung und erläutert die Wirkung von
+      Klassifikationsänderungen in Gesundheitssystemen.
+  - id: who-icd-history-context
+    note: >-
+      Verzeichnet Beschluss- und Wirksamkeitsdaten von ICD-6, ICD-9, ICD-10 und ICD-11 und unterscheidet den Beschluss der
+      Versammlung vom späteren Inkrafttreten.
+  - id: who-1990-correction
+    note: >-
+      Die WHO nennt den 17. Mai 1990 als Datum, an dem die Weltgesundheitsversammlung die Einstufung von Homosexualität
+      als psychische Störung beendete.
+  - id: who-f66-final-correction
+    note: >-
+      Dokumentiert die verbliebenen F66-Kategorien der ICD-10, prüft ihre fehlende Validität und Brauchbarkeit und
+      empfiehlt ihre vollständige Streichung in der ICD-11.
+  - id: china-ccmd2r-carrier
+    note: >-
+      Beschreibt CCMD-2-R als psychiatrische Fachklassifikation für den breiten Einsatz in China und belegt die
+      Beibehaltung von Homosexualität.
+  - id: china-ccmd3-mechanism
+    note: >-
+      Bewahrt Hierarchie und Kriterien, die benannte Diagnosen von Homosexualität und Bisexualität den
+      Orientierungsstörungen zuordnen und zugleich sexuelles Verhalten selbst für nicht zwangsläufig abnormal erklären.
+  - id: china-ccmd3-consequences
+    note: >-
+      Zeigt, dass das Handbuch einen speziell an gleichgeschlechtliche Orientierung geknüpften Diagnoseweg behielt und
+      den Wunsch mancher Menschen nach einer Behandlung zur Veränderung erwähnte.
+  - id: china-2001-context
+    note: >-
+      Der zeitgenössische Bericht zitiert einen leitenden Autor mit der Aussage, homosexuelle Menschen seien nicht
+      psychisch krank, und stellt schweren Konflikt, Angst und Beeinträchtigung statt der Orientierung selbst als
+      beabsichtigte Störungsschwelle dar.
+  - id: china-forensic-carrier
+    note: >-
+      Der aktuelle Standard des Justizministeriums nennt CCMD-3 und ICD als normative Referenzen und lässt beide für die
+      Diagnose des psychischen Zustands zu; Diagnose 62.31 nennt er nicht und ihre Verwendung belegt er nicht.
+  - id: china-preprint-context
+    note: >-
+      Dieses nicht fachbegutachtete medizinrechtliche Preprint vergleicht die öffentliche Darstellung der
+      Entpathologisierung mit Hierarchie und Kriterien von CCMD-3 und plädiert für „Teilnormalisierung“ statt „Streichung“.
+  - id: china-2001-partial-correction
+    note: >-
+      Dokumentiert die 2001 beabsichtigte Abkehr von pauschaler Pathologisierung und die öffentliche Aussage,
+      gleichgeschlechtliche Sexualität sei nicht zwangsläufig psychisch abnormal.
+  - id: china-current-partial-correction
+    note: >-
+      Belegt, dass der Übergang von CCMD-3 auf Ebene der Klassifikationsreferenzen 2025 unvollständig war, ohne eine
+      heutige Verwendung der Homosexualitätskategorie in forensischen Fällen nachzuweisen.
+  - id: brazil-cfm-carrier
+    note: >-
+      Benennt die Vorlage des Gesundheitsministeriums, die Empfehlung des CBCD und die Zuständigkeit des CFM für Hinweise
+      an Ärzte zur Anwendung der ICD.
+  - id: brazil-cfm-mechanism
+    note: >-
+      Dokumentiert den geltenden ICD-9-Code 302.0 und den Verwaltungsweg, über den brasilianische Behörden seine
+      Verwendung neu prüften.
+  - id: brazil-cfm-consequences
+    note: >-
+      Zeigt den Kodierungszwang für Konsultationen und die Einordnung von Homosexualität in das Kapitel der psychischen
+      Störungen, auch bei sozialer Diskriminierung oder dem Behandlungswunsch eines Angehörigen.
+  - id: brazil-cfm-correction
+    note: >-
+      Gestattet V62 für Konsultationen wegen Homosexualität und weist Ärzte an, eine etwaige eigenständige Erkrankung
+      anstelle der Homosexualität zu kodieren.
+  - id: brazil-cfp-correction
+    note: >-
+      Der Bundesrat für Psychologie benennt die medizinische Änderung von 1985 und erläutert, dass seine Resolution von
+      1999 Pathologisierung homoerotischen Verhaltens und Angebote einer „Heilung“ untersagte.
+  - id: iran-2017-carrier
+    note: >-
+      Berichtet, dass Irans Wehrpflichtrecht schwule Männer über eine Einstufung als psychisch krank befreite, und belegt
+      damit das staatliche Militärsystem als hier beschriebenen Träger.
+  - id: iran-2023-mechanism
+    note: >-
+      Berichtet über eine Befreiung wegen psychischer Störung und darüber, dass Militärausweise den für die Befreiung
+      maßgeblichen Rechtsunterabschnitt nannten.
+  - id: iran-2023-consequences
+    note: >-
+      Berichtet, dass der eingetragene Unterabschnitt schwule oder trans Menschen identifizieren und sie Misshandlung,
+      Diskriminierung und Festnahme aussetzen konnte.
+  - id: iran-2025-context
+    note: >-
+      Fasst das berichtete Befreiungsverfahren zusammen, zitiert den weit gefassten Wortlaut von Artikel 33 Absatz 8 und
+      trennt den Vorschriftentext von Berichten über seine Anwendung auf schwule Männer.
+  - id: iran-2025-uncorrected
+    note: >-
+      Die Einschätzung vom Dezember 2025 meldet weiterhin die psychiatrische Bearbeitung schwuler Antragsteller sowie
+      Stigmatisierungs- und Offenlegungsrisiken, ohne institutionelle Abkehr von der Klassifikation.
+  - id: iran-2026-uncorrected
+    note: >-
+      Die Einschätzung vom August 2026 beschreibt schwule Männer weiterhin als aufgrund einer Einstufung als psychisch
+      krank vom Wehrdienst befreit und ist die jüngste Quelle für den offenen Status der Episode.

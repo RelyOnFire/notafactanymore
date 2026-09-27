@@ -1,235 +1,538 @@
+schemaVersion: 2
 title: Homosexuality as a mental disorder
-claim: Homosexuality was treated as a diagnosable mental, personality, or sexual disorder within official or professionally
-  authoritative medical classification systems.
-currentUnderstanding: Homosexuality is not a disease, mental disorder, sexual disorder, or perversion. Same-sex
-  attraction is part of normal variation in human sexuality. Distress experienced by lesbian, gay, or bisexual people
-  can require appropriate mental-health care, but distress caused by stigma, conflict, or discrimination does not
-  make the underlying sexual orientation pathological or establish a medical basis for changing it.
-category: Psychiatry and sexuality
-reviewedAt: '2026-08-24'
+proposition:
+  summary: >-
+    Authoritative medical classifications and state medical systems treated homosexuality as a diagnosable mental,
+    personality or sexual disorder. The form varied: some classifications pathologized same-sex orientation itself,
+    while later residual categories linked diagnosis to distress about orientation or a wish to change it.
+correction:
+  summary: >-
+    Homosexuality and bisexuality are normal variations in human sexuality, not mental disorders, sexual disorders or
+    perversions. Lesbian, gay and bisexual people can experience depression, anxiety or other conditions that merit care,
+    but stigma-related distress does not make their orientation pathological. Care should address the person's actual
+    needs without treating a heterosexual outcome as the clinical goal; the ICD-11 therefore contains no diagnostic
+    category based on sexual orientation.
+category: Psychiatry, classification and sexuality
+reviewedAt: '2026-09-27'
 impact:
-  summary: 'Pathologizing homosexuality did more than attach an inaccurate diagnostic label. International and national
-    classification systems gave medical authority to stigma, treatment-seeking and institutional decisions. The
-    World Health Organization corrected the blanket classification in 1990, but national systems changed at different
-    speeds: Brazil narrowed its coding in 1985, China''s CCMD system remains unusually ambiguous and is still referenced
-    in current forensic standards, while Iran continues to connect homosexuality to mental-health grounds in its
-    military-exemption system.'
+  summary: >-
+    Diagnostic classifications carry authority through clinical coding, health statistics, professional training and
+    administration. WHO's classification gave the proposition international reach; national carriers then changed on
+    different schedules. Brazil redirected coding in 1985, China's CCMD-3 partially normalized homosexuality while
+    retaining an ambiguous named diagnosis, and Iran's military-exemption system still processes gay men through a
+    medical or psychiatric route according to current government country assessments.
   highlights:
-  - value: '1948'
-    label: WHO's ICD-6 classified homosexuality as a mental disorder
-  - value: 17 May 1990
-    label: World Health Assembly stopped classifying homosexuality itself as a mental disorder
-  - value: 2025–26
-    label: current Chinese forensic standards still reference CCMD-3, while Iran's military system still applies
-      a mental-health classification
+    - value: '1948'
+      label: ICD-6 classified homosexuality as a mental disorder
+    - value: 17 May 1990
+      label: World Health Assembly adopted the revision that removed homosexuality itself as a diagnosis
+    - value: 2019–22
+      label: ICD-11 was adopted and took effect without the remaining sexual-orientation-based categories
   context:
-  - The episodes do not all represent identical diagnostic language. Some systems classified homosexuality itself;
-    later systems sometimes narrowed the diagnosis to people distressed about their orientation. Those distinctions
-    are retained because a partial narrowing is not the same as full depathologization.
-  - The classification of homosexuality as a mental disorder concerns sexual orientation. Transgender identity is
-    distinct from homosexuality and has a separate history of medical and psychiatric classification.
+    - >-
+      A blanket diagnosis of homosexuality and a diagnosis tied to distress about orientation are not identical. Both
+      appear here because the latter preserved a diagnostic rationale based specifically on sexual orientation, but the
+      episode text distinguishes each step rather than treating partial and full depathologization as the same event.
+    - >-
+      Adoption and operational dates differ. The World Health Assembly adopted ICD-10 in May 1990 and it took effect in
+      1993; it adopted ICD-11 in May 2019 and that revision took effect in 2022.
+    - >-
+      A classification's availability does not establish how often a particular diagnosis was assigned. In China, a
+      current forensic standard cites CCMD-3 as a general diagnostic reference, but the evidence assembled here does not
+      show present-day forensic use of its homosexuality category.
+    - >-
+      Sexual orientation and gender identity are distinct. Some Iran sources discuss gay men and transgender people
+      together because the exemption system routes both through medical categories; this entry uses those sources only
+      for what they establish about homosexuality and does not treat transgender identity as a sexual orientation or a
+      mental disorder.
 episodes:
-- id: who-1948-1990
-  polity: International — World Health Organization
-  region: Global
-  startYear: 1948
-  endYear: 1990
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  institutions:
-  - World Health Organization (WHO)
-  - World Health Assembly
-  institutionalContext: Under WHO stewardship, ICD-6 in 1948 placed homosexuality within the international mental-disorder
-    classification. Subsequent ICD revisions continued pathological sexual-orientation categories. Because the ICD
-    functions as a global standard for health statistics and influences clinical, reimbursement, administrative
-    and research systems, the classification propagated far beyond WHO itself. In May 1990 the World Health Assembly
-    adopted ICD-10 and stopped classifying homosexuality itself as a mental disorder. ICD-10 nevertheless retained
-    'ego-dystonic sexual orientation' and related F66 categories, illustrating that the correction occurred in stages
-    rather than in a single conceptual leap.
-  consequences:
-  - International diagnostic classification of homosexuality as mental pathology
-  - Medical legitimacy for national and professional pathologization
-  - Propagation through health statistics, clinical coding, teaching and administrative systems
-  - Reinforcement of stigma and treatment-seeking directed at sexual orientation itself
-  summary: WHO's sixth International Classification of Diseases, issued in 1948, classified homosexuality as a mental
-    disorder. The classification carried exceptional institutional reach because national health systems use the
-    ICD as a common diagnostic and statistical framework. On 17 May 1990 the World Health Assembly adopted ICD-10
-    and ended the classification of homosexuality itself as a mental disorder. The correction was incomplete at
-    first—ICD-10 still contained orientation-related F66 diagnoses—but the 1990 decision ended WHO's blanket pathological
-    classification of homosexuality.
-  sources:
-  - title: International Classification of Diseases — Small code, big impact
+  - id: who-1948-1990
+    polity: International — World Health Organization
+    region: Global
+    startYear: 1948
+    endYear: 1990
+    periodLabel: 1948–1990
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+    institutions:
+      - World Health Organization (WHO)
+      - World Health Assembly
+    institutionalContext: >-
+      ICD-6 placed homosexuality within the mental-disorder classification in 1948, and the ICD-9 still listed it under
+      sexual deviations and disorders. Because WHO's ICD supplies a shared language for morbidity statistics and informs
+      clinical and administrative systems, this was more than a statement by one professional association. On 17 May
+      1990 the World Health Assembly adopted ICD-10, which removed homosexuality itself and stated that sexual orientation
+      alone was not a disorder. ICD-10 nevertheless retained F66 diagnoses, including egodystonic sexual orientation,
+      until ICD-11 removed all categories based on sexual orientation.
+    consequences:
+      - International classification of homosexuality as mental pathology
+      - Medical legitimacy for national and professional pathologization
+      - Propagation through health statistics, clinical coding, teaching and administration
+      - A diagnostic rationale for treatment directed at sexual orientation, retained in narrower form under ICD-10
+    summary: >-
+      WHO's sixth International Classification of Diseases classified homosexuality as a mental disorder in 1948, and
+      later revisions carried the proposition through the international classification system. The 1990 adoption of
+      ICD-10 ended the diagnosis of homosexuality itself, although orientation-based F66 diagnoses remained. Adoption of
+      ICD-11 in 2019 completed the classification-level correction by omitting those residual categories as well.
+    mechanism:
+      kind: classification
+      summary: >-
+        WHO encoded the proposition in successive editions of the international disease classification, allowing the
+        category to travel through national coding, clinical, statistical, educational and administrative systems.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 1990–2019
+      action: >-
+        The World Health Assembly adopted ICD-10 without a diagnosis of homosexuality itself in 1990, then adopted
+        ICD-11 without the residual sexual-orientation-based F66 diagnoses in 2019.
+      summary: >-
+        WHO corrected the classification in two stages. ICD-10 explicitly said that orientation alone was not a disorder
+        but retained diagnoses defined around conflict or distress about orientation. The ICD-11 revision removed those
+        categories after a WHO working group found no adequate clinical, public-health or research justification for
+        them.
+  - id: china-1989-2026
+    polity: China
+    region: East Asia
+    startYear: 1989
+    endYear: 2026
+    endOpen: true
+    periodLabel: 1989–present
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+      - professional
+    institutions:
+      - Chinese Society of Psychiatry / Chinese Medical Association
+      - Ministry of Justice forensic-identification system
+    institutionalContext: >-
+      CCMD-2 (1989) and CCMD-2-R (published in 1995) retained homosexuality in China's psychiatric nosology. CCMD-3
+      made a substantive change in 2001: its accompanying explanation said same-sex sexuality was not necessarily
+      abnormal and contemporary reporting said only cases involving serious conflict or distress should be treated as a
+      psychosexual disorder. Yet the published classification still placed diagnoses named “homosexuality” (62.31) and
+      “bisexuality” (62.32) under “sexual orientation disorders,” and its listed criteria did not state distress as a
+      discrete mandatory element. China has begun moving toward ICD-11, but a Ministry of Justice standard issued in
+      2024 and effective in 2025 still permits forensic diagnosis under either ICD or CCMD-3.
+    consequences:
+      - Professional classification of homosexuality in CCMD-2 and CCMD-2-R
+      - Continued presence of a diagnosis named homosexuality after the partial normalization announced in 2001
+      - A classification rationale that could direct treatment toward changing sexual orientation
+      - Continued availability of CCMD-3 as a general reference in state forensic psychiatry
+    summary: >-
+      China's 2001 revision should not be described either as no change or as an unqualified deletion. It rejected the
+      premise that every homosexual person was mentally ill and framed pathology around associated conflict or distress,
+      while the manual itself retained a named homosexuality diagnosis inside a disorder chapter. CCMD-3's influence is
+      waning as China adopts international classifications, but it remains an authorized forensic reference. That keeps
+      the classification-level episode open while leaving actual current use of diagnosis 62.31 unproven.
+    mechanism:
+      kind: classification
+      summary: >-
+        A national professional body encoded homosexuality in successive CCMD manuals; later Justice Ministry standards
+        incorporated CCMD-3 by reference as one of the classifications available for forensic mental-state diagnosis.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 2001–present
+      action: >-
+        CCMD-3 stated that same-sex sexuality was not necessarily abnormal, and China later began implementing ICD-11,
+        which contains no diagnosis based on sexual orientation.
+      summary: >-
+        The 2001 revision was a meaningful but internally inconsistent correction. Its explanatory text and public
+        presentation rejected automatic pathologization, while its hierarchy and criteria retained homosexuality as a
+        named disorder. China has not yet documented a complete replacement of CCMD-3 across the systems examined here;
+        the 2025 forensic standard still names it alongside ICD.
+  - id: brazil-1979-1985
+    polity: Brazil
+    region: Latin America
+    startYear: 1979
+    endYear: 1985
+    periodLabel: 1979–1985
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+      - professional
+    institutions:
+      - Ministério da Saúde
+      - Conselho Federal de Medicina (CFM)
+      - Centro Brasileiro de Classificação de Doenças (CBCD)
+    institutionalContext: >-
+      The ICD-9, in effect from 1979, placed homosexuality at 302.0 under “sexual deviations and disorders” in the
+      mental-disorders chapter. After Grupo Gay da Bahia asked that the diagnosis be made ineffective in Brazil, the
+      request moved through the federal health administration. The CBCD proposed V62 for consultations whose reason was
+      homosexuality, the Ministry of Health referred the question to the CFM, and the CFM approved that approach in 1985.
+    consequences:
+      - Diagnostic coding of homosexuality within the mental-disorders chapter
+      - Medical authority for treating homosexuality as a sexual deviation or disorder
+      - Institutional stigma in health care
+    summary: >-
+      Brazil used ICD-9 code 302.0, which classified homosexuality under sexual deviations and disorders. In 1985 the
+      CFM authorized physicians to code consultations prompted by homosexuality under V62, “other psychosocial
+      circumstances,” instead. If a separate illness was present, that underlying condition was to be coded. The opinion
+      changed Brazilian coding practice without formally rewriting the international ICD-9 category or unequivocally
+      resolving every medical disagreement recorded in the opinion.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Brazil's health system applied the ICD-9 disease code until federal classification and medical authorities
+        approved an alternative non-disease code for consultations concerning homosexuality.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 1985–1999
+      action: >-
+        The CFM authorized V62 rather than 302.0 in 1985; in 1999 the Federal Council of Psychology barred psychologists
+        from practices that pathologize homoerotic behavior or promise a cure.
+      summary: >-
+        The 1985 opinion removed compelled use of the mental-disorder code in Brazilian medical practice, but used
+        permissive language and did not delete ICD-9's text. The psychology profession's 1999 rule supplied a clearer
+        anti-pathologization standard, so the institutional correction developed in stages.
+  - id: iran-2017-2026
+    polity: Iran
+    region: Middle East
+    startYear: 2017
+    endYear: 2026
+    endOpen: true
+    periodLabel: 2017–present
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+      - military
+    institutions:
+      - Iranian compulsory military-service medical exemption system
+      - Armed Forces medical examination and exemption boards
+    institutionalContext: >-
+      U.S. and UK government country assessments report that Iran's compulsory-service system treats gay men as eligible
+      for exemption through a mental-health or behavioral category. The translated wording quoted for the 2020 medical
+      exemption regulations is broader than “homosexuality”: Article 33, paragraph 8 covers behavioral disorders and
+      moral or sexual “deviancies.” Reports describe gay applicants undergoing medical examination to prove eligibility,
+      while exemption records identify the applicable subsection. The available evidence therefore establishes the
+      reported administrative practice, but it is not a direct publication of the full current Persian regulation.
+    consequences:
+      - Medical or psychiatric examination connected to sexual orientation
+      - Military exemption through a mental-health or behavioral category
+      - Disclosure of the exemption subsection in military records
+      - Risk of employment discrimination, familial abuse, violence or arrest after involuntary outing
+      - State reinforcement of a pathological account of homosexuality
+    summary: >-
+      Iran's military-exemption system continues to operationalize homosexuality through medical and psychiatric
+      categories. Current assessments report that gay men may seek exemption only by submitting to medical review and
+      that the resulting record can disclose the subsection used. Because consensual same-sex conduct is criminalized,
+      the process can expose applicants to risks well beyond the exemption itself. Government country reporting through
+      August 2026 documents no institutional correction.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Compulsory-service authorities route gay exemption applicants through medical examination and behavioral or
+        psychiatric provisions, then record the governing subsection in military documentation.
+    institutionalCorrection:
+      status: uncorrected
+      periodLabel: 2017–present
+      action: No institutional correction is documented through August 2026.
+      summary: >-
+        Recent UK assessments continue to report exemption on this basis and the associated mental-disorder label. The
+        evidence describes some changes in which regulatory subsection is used, but no rejection of the pathological
+        premise for gay applicants.
+sources:
+  - id: who-icd-small-code
+    title: International Classification of Diseases — Small code, big impact
     url: https://www.who.int/news-room/spotlight/international-classification-of-diseases
     publisher: World Health Organization
-    note: WHO's historical overview states that ICD-6, published in 1948, classified homosexuality as a mental disorder
-      and explains the broad clinical, financing and administrative significance of ICD coding.
-  - title: Moving one step closer to better health and rights for transgender people
+  - id: who-europe-17-may
+    title: Moving one step closer to better health and rights for transgender people
     url: https://www.who.int/europe/news/item/17-05-2019-moving-one-step-closer-to-better-health-and-rights-for-transgender-people
     publisher: World Health Organization Regional Office for Europe
-    note: Official WHO account identifying 17 May 1990 as the date on which the World Health Assembly stopped classifying
-      homosexuality as a mental disorder.
-  - title: International Classification of Diseases — ICD history
+  - id: who-icd-history
+    title: International Classification of Diseases — ICD history
     url: https://www.who.int/standards/classifications/classification-of-diseases
     publisher: World Health Organization
-    note: Current official ICD history records ICD-10 adoption by the World Health Assembly in May 1990 and its
-      international entry into effect on 1 January 1993.
-- id: china-1989-2026
-  polity: China
-  region: East Asia
-  startYear: 1989
-  endYear: 2026
-  endOpen: true
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  - professional
-  institutions:
-  - Chinese Society of Psychiatry / Chinese Medical Association
-  - Ministry of Justice forensic-identification system
-  institutionalContext: 'CCMD-2 (1989) and CCMD-2-R (1994) explicitly retained homosexuality within China''s psychiatric
-    classification despite international moves toward depathologization. CCMD-3 in 2001 was widely announced as
-    a declassification because it stated that same-sex sexuality was not necessarily abnormal. However, the standard
-    retained a diagnosis literally named ''homosexuality'' (62.31) under ''sexual orientation disorders'', alongside
-    bisexuality. The diagnostic text links inclusion to distress and desire to change orientation but does not cleanly
-    remove homosexuality as a diagnostic category. This remains institutionally relevant rather than purely archival:
-    a Ministry of Justice forensic standard issued in 2024 and effective from June 2025 still lists CCMD-3 as a
-    normative diagnostic reference alongside the ICD.'
-  consequences:
-  - Professional psychiatric classification of homosexuality as a sexual-orientation disorder
-  - Persistence of a diagnostic category after the widely publicized 2001 'declassification'
-  - Continued availability of CCMD-3 as a reference in state forensic psychiatry
-  - Medical and institutional legitimacy for pathologizing interpretations and orientation-change treatment
-  summary: 'China''s CCMD-2 and CCMD-2-R classified homosexuality as a psychiatric or sexual disorder. The 2001
-    CCMD-3 significantly narrowed that position and senior Chinese psychiatrists publicly stated that homosexual
-    people were not mentally ill. But the change was not a literal deletion: CCMD-3 retained ''homosexuality'' as
-    diagnosis 62.31 under sexual-orientation disorders. A 2026 reanalysis of the text shows why the familiar claim
-    that China simply removed homosexuality in 2001 is too strong. The classification also remains institutionally
-    consequential: China''s current Ministry of Justice forensic standard SF/T 0184-2024, effective in 2025, still
-    names CCMD-3 as a diagnostic reference. The episode is therefore kept open while China''s diagnostic framework
-    remains in transition.'
-  sources:
-  - title: 'Cultures in psychiatric nosology: the CCMD-2-R and international classification of mental disorders'
+  - id: lee-ccmd2r
+    title: 'Cultures in psychiatric nosology: the CCMD-2-R and international classification of mental disorders'
     url: https://pubmed.ncbi.nlm.nih.gov/8989986/
     publisher: Culture, Medicine and Psychiatry / PubMed
-    note: Peer-reviewed 1996 analysis describing CCMD-2-R as a widely used Chinese psychiatric classification and
-      identifying homosexuality among diagnoses deliberately retained despite differences from ICD-10.
-  - title: China redefines diagnostic standard; mental illness no longer automatically includes homosexuality
+  - id: china-news-2001
+    title: China redefines diagnostic standard; mental illness no longer automatically includes homosexuality
     url: https://www.chinanews.com.cn/2001-03-12/26/77677.html
     publisher: China News Service
-    note: 'Contemporary March 2001 report quoting a senior CCMD-3 drafter: homosexuality was no longer to be treated
-      as automatically pathological, while distress associated with homosexual orientation could still be classified
-      as a psychosexual disorder.'
-  - title: Chinese Classification and Diagnostic Criteria of Mental Disorders, Third Edition — preserved text
+  - id: ccmd3-preserved-text
+    title: Chinese Classification and Diagnostic Criteria of Mental Disorders, Third Edition — preserved text
     url: https://digital.transchinese.org/%E6%94%BF%E5%BA%9C%E5%8F%8A%E5%AE%98%E6%96%B9%E7%BB%84%E7%BB%87%E6%96%87%E4%BB%B6/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86/%E4%B8%AD%E5%9B%BD%E7%B2%BE%E7%A5%9E%E9%9A%9C%E7%A2%8D%E5%88%86%E7%B1%BB%E5%8F%8A%E8%AF%8A%E6%96%AD%E6%A0%87%E5%87%86_%E7%AC%AC%E4%B8%89%E7%89%88/
     publisher: Trans & Gender Diverse Archive — preservation copy of CCMD-3
-    note: Preserved text of CCMD-3 showing section 62.3 'sexual orientation disorders' and diagnosis 62.31 'homosexuality',
-      while stating that sexuality itself is not necessarily abnormal.
-  - title: SF/T 0184-2024 — Assessment of capacity for serving a sentence in the mentally disordered
+  - id: moj-sft-0184-2024
+    title: SF/T 0184-2024 — Assessment of capacity for serving a sentence in the mentally disordered
     url: https://www.moj.gov.cn/pub/sfbgwapp/zwgk/zwgksfbhybz/202501/W020250106772950639912.pdf
     publisher: Ministry of Justice of the People's Republic of China
-    note: Current forensic industry standard, issued 30 December 2024 and effective 1 June 2025, lists CCMD-3 and
-      the ICD as normative diagnostic references and instructs forensic evaluators to diagnose mental state according
-      to ICD or CCMD-3.
-  - title: China Did Not 'Remove' Homosexuality from Its Official List of Mental Disorders
+  - id: wang-longarino-2026
+    title: China Did Not 'Remove' Homosexuality from Its Official List of Mental Disorders
     url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6653080
     publisher: Suisui Wang and Darius Longarino, SSRN
-    note: '2026 legal-medical reanalysis of CCMD-3 arguing that the common ''removed in 2001'' narrative overstates
-      the change: the diagnosis name remained, and self-distress was not written as a clean standalone criterion.
-      Used here as interpretive scholarship alongside the classification text and current state standards.'
-- id: brazil-1979-1985
-  polity: Brazil
-  region: Latin America
-  startYear: 1979
-  endYear: 1985
-  periodLabel: 1979–1985
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  - professional
-  institutions:
-  - Ministério da Saúde
-  - Conselho Federal de Medicina (CFM)
-  - Centro Brasileiro de Classificação de Doenças (CBCD)
-  institutionalContext: The pathological category came from ICD-9, which placed homosexuality at 302.0 under 'sexual
-    deviations and disorders' in the mental-disorders chapter. When the requested Brazilian reclassification reached
-    the federal health administration, the Centro Brasileiro de Classificação de Doenças proposed use of V62 for
-    consultations in which homosexuality itself was the reason for contact, the Ministry of Health referred the
-    matter to the Conselho Federal de Medicina, and the CFM approved that guidance in 1985.
-  consequences:
-  - Diagnostic coding as a mental or sexual disorder
-  - Medical pathologization of homosexuality
-  - Institutional stigma in health care
-  summary: Brazil's medical classification system used ICD-9 code 302.0, which placed homosexuality under 'sexual
-    deviations and disorders' in the mental-disorders chapter. In 1985, after a request passed through the federal
-    health administration, the Conselho Federal de Medicina approved guidance that consultations whose reason was
-    homosexuality could instead be coded under V62, 'other psychosocial circumstances.' Where another pathological
-    condition was present, the underlying diagnosis was to be coded separately. The decision therefore loosened
-    the pathological classification in Brazilian medical practice without literally deleting ICD-9's international
-    302.0 category.
-  sources:
-  - title: Parecer CFM nº 05/1985
+  - id: cfm-parecer-05-1985
+    title: Parecer CFM nº 05/1985
     url: https://sistemas.cfm.org.br/normas/arquivos/pareceres/BR/1985/5_1985.pdf
     publisher: Conselho Federal de Medicina
-    note: Primary three-page 1985 opinion documenting ICD-9 code 302.0, the CBCD proposal, the Ministry of Health
-      referral, and the CFM conclusion that relevant consultations could be coded under V62 while separate pathological
-      conditions should be coded by their underlying diagnosis.
-  - title: Histórico — Resolução nº 01/1999
+  - id: cfp-resolution-history
+    title: Histórico — Resolução nº 01/1999
     url: https://site.cfp.org.br/resolucao-01-99/historico/
     publisher: Conselho Federal de Psicologia
-    note: Historical overview identifying the 1985 CFM decision as Brazil's key medical-classification change concerning
-      homosexuality.
-- id: iran-2017-2026
-  polity: Iran
-  region: Middle East
-  startYear: 2017
-  endYear: 2026
-  endOpen: true
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  - military
-  institutions:
-  - Iranian compulsory military-service medical exemption system
-  - Armed Forces medical examination and exemption boards
-  institutionalContext: 'Iran''s compulsory military-service system has treated homosexuality as a medical or psychiatric
-    basis for exemption. Official foreign-government reporting has documented this continuously since at least 2017.
-    Current reporting describes medical examination under Iranian military exemption regulations, with gay men deemed
-    mentally ill or processed under psychiatric/behavioral categories. Exemption cards record the legal subsection
-    used, indirectly revealing sexual orientation. The classification is therefore not merely symbolic: it is operationalized
-    through medical assessment and a consequential state document.'
-  consequences:
-  - Medical and psychiatric examination connected to sexual orientation
-  - Military exemption on a mental-health or behavioral-disorder basis
-  - Disclosure of the exemption basis on military documentation
-  - Risk of employment discrimination, familial abuse, physical violence or arrest after involuntary outing
-  - State reinforcement of the claim that homosexuality is illness or psychopathology
-  summary: Iran continues to connect homosexuality to psychiatric or behavioral pathology in its compulsory military-service
-    exemption system. Gay men may seek exemption through medical evaluation because the system treats them as mentally
-    ill or places them within psychiatric and sexual-deviance categories. The resulting military documentation can
-    expose the legal basis for exemption and therefore indirectly disclose sexual orientation. U.S. State Department
-    reporting documented the classification in 2017–2023, and the UK government's December 2025 country assessment
-    still describes the mechanism and its associated risks. The episode is therefore open.
-  sources:
-  - title: Iran — 2017 Country Reports on Human Rights Practices
+  - id: state-iran-2017
+    title: Iran — 2017 Country Reports on Human Rights Practices
     url: https://2017-2021.state.gov/reports/2017-country-reports-on-human-rights-practices/iran/
     publisher: United States Department of State
-    note: Official report states that Iranian law requires military service for adult men but exempts gay men and
-      transgender women, who were classified as having mental disorders.
-  - title: Iran — 2023 Country Reports on Human Rights Practices
+  - id: state-iran-2023
+    title: Iran — 2023 Country Reports on Human Rights Practices
     url: https://2021-2025.state.gov/reports/2023-country-reports-on-human-rights-practices/iran/
     publisher: United States Department of State
-    note: Official report states that law classified gay men and transgender women as having mental disorders for
-      military-service exemption and that identity cards listed the exemption subsection, creating risk of abuse,
-      discrimination and arrest.
-  - title: 'Country policy and information note: sexual orientation and gender identity or expression, Iran, December
-      2025'
+  - id: uk-iran-sogie-2025
+    title: 'Country policy and information note: sexual orientation and gender identity or expression, Iran, December 2025'
     url: https://www.gov.uk/government/publications/iran-country-policy-and-information-notes/country-policy-and-information-note-sexual-orientation-and-gender-identity-or-expression-iran-june-2022-accessible
     publisher: UK Home Office
-    note: Current December 2025 official country assessment describes gay men as eligible for military exemption
-      because they are deemed mentally ill, summarizes the Iranian medical-exemption regulations, and documents
-      the discriminatory and safety consequences of exemption records that reveal sexual orientation.
+  - id: who-f66-review-2014
+    title: Proposed declassification of disease categories related to sexual orientation in the International Statistical Classification of Diseases and Related Health Problems (ICD-11)
+    url: https://iris.who.int/handle/10665/271595
+    publisher: Bulletin of the World Health Organization
+  - id: uk-iran-military-2026
+    title: 'Country policy and information note: military service, Iran, August 2026'
+    url: https://www.gov.uk/government/publications/iran-country-policy-and-information-notes/country-policy-and-information-note-military-service-iran-august-2026-accessible
+    publisher: UK Home Office
+evidence:
+  - id: who-icd6-proposition
+    sourceId: who-icd-small-code
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    locator: Sexual health conditions section
+    note: >-
+      WHO's historical overview states that ICD-6, published in 1948, classified homosexuality as a mental disorder.
+  - id: ccmd2r-proposition
+    sourceId: lee-ccmd2r
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    locator: Abstract
+    note: >-
+      The peer-reviewed review identifies homosexuality among the diagnoses deliberately retained in the widely used
+      CCMD-2-R despite differences from ICD-10.
+  - id: cfm-proposition
+    sourceId: cfm-parecer-05-1985
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: pp. 1–3
+    note: >-
+      The primary opinion records that Brazil's operative ICD-9 placed homosexuality at 302.0 under sexual deviations
+      and disorders in the mental-disorders chapter.
+  - id: iran-proposition
+    sourceId: state-iran-2017
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Acts of Violence, Discrimination, and Other Abuses Based on Sexual Orientation and Gender Identity
+    note: >-
+      The official country report states that Iranian law exempted gay men through a classification of mental disorder.
+  - id: who-f66-correction
+    sourceId: who-f66-review-2014
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: pp. 672–679
+    note: >-
+      The WHO working-group review finds no clinical, public-health or research justification for diagnostic categories
+      based on sexual orientation and recommends deleting all F66 categories from ICD-11.
+  - id: who-system-impact
+    sourceId: who-icd-small-code
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: ICD uses and sexual health conditions sections
+    note: >-
+      Explains the ICD's reach across health data, clinical care, financing and administration and identifies the earlier
+      homosexuality classification as an example of cultural assumptions unsupported by medical evidence.
+  - id: who-icd6-carrier
+    sourceId: who-icd-small-code
+    relation: documents
+    target: {scope: episode, episodeId: who-1948-1990, aspect: carrier}
+    locator: Sexual health conditions section
+    note: Identifies WHO's ICD-6 as the international classification carrying the diagnosis in 1948.
+  - id: who-classification-mechanism
+    sourceId: who-icd-small-code
+    relation: supports
+    target: {scope: episode, episodeId: who-1948-1990, aspect: mechanism}
+    locator: ICD uses section
+    note: Describes how ICD codes structure clinical records, statistics, financing and health-system decisions.
+  - id: who-classification-consequences
+    sourceId: who-icd-small-code
+    relation: supports
+    target: {scope: episode, episodeId: who-1948-1990, aspect: consequences}
+    locator: Sexual health conditions section
+    note: >-
+      Connects the classification to an unsupported personality-disorder assumption and explains why classification
+      changes matter across health systems.
+  - id: who-icd-history-context
+    sourceId: who-icd-history
+    relation: documents
+    target: {scope: episode, episodeId: who-1948-1990, aspect: context}
+    locator: ICD revisions under the auspices of WHO
+    note: >-
+      Records the adoption and effective dates of ICD-6, ICD-9, ICD-10 and ICD-11, distinguishing Assembly action from
+      the later dates on which revisions took effect.
+  - id: who-1990-correction
+    sourceId: who-europe-17-may
+    relation: documents
+    target: {scope: episode, episodeId: who-1948-1990, aspect: institutional-correction}
+    locator: 17 May 2019 news release
+    note: >-
+      WHO identifies 17 May 1990 as the date the World Health Assembly stopped classifying homosexuality as a mental disorder.
+  - id: who-f66-final-correction
+    sourceId: who-f66-review-2014
+    relation: supports
+    target: {scope: episode, episodeId: who-1948-1990, aspect: institutional-correction}
+    locator: pp. 674–677
+    note: >-
+      Documents the residual ICD-10 F66 categories, evaluates their lack of validity and utility, and recommends their
+      complete removal in ICD-11.
+  - id: china-ccmd2r-carrier
+    sourceId: lee-ccmd2r
+    relation: supports
+    target: {scope: episode, episodeId: china-1989-2026, aspect: carrier}
+    locator: Abstract
+    note: >-
+      Describes CCMD-2-R as a professional psychiatric classification intended for wide use in China and identifies its
+      retention of homosexuality.
+  - id: china-ccmd3-mechanism
+    sourceId: ccmd3-preserved-text
+    relation: documents
+    target: {scope: episode, episodeId: china-1989-2026, aspect: mechanism}
+    locator: §§ 62.3, 62.31 and 62.32
+    note: >-
+      Preserves the classification hierarchy and criteria that place named homosexuality and bisexuality diagnoses under
+      sexual-orientation disorders while saying sexual behavior itself is not necessarily abnormal.
+  - id: china-ccmd3-consequences
+    sourceId: ccmd3-preserved-text
+    relation: documents
+    target: {scope: episode, episodeId: china-1989-2026, aspect: consequences}
+    locator: §§ 62.3 and 62.31
+    note: >-
+      Shows that the manual retained a diagnostic route tied specifically to same-sex orientation and described some
+      people as seeking treatment to change it.
+  - id: china-2001-context
+    sourceId: china-news-2001
+    relation: contextualizes
+    target: {scope: episode, episodeId: china-1989-2026, aspect: context}
+    locator: 12 March 2001 report
+    note: >-
+      Contemporary reporting quotes a lead drafter saying homosexual people were not mentally ill and presents serious
+      conflict, anxiety and impairment—not orientation alone—as the intended threshold for disorder.
+  - id: china-forensic-carrier
+    sourceId: moj-sft-0184-2024
+    relation: documents
+    target: {scope: episode, episodeId: china-1989-2026, aspect: carrier}
+    locator: §§ 2 and 4.4
+    note: >-
+      The current Ministry of Justice standard lists CCMD-3 and ICD as normative references and directs evaluators to use
+      either for mental-state diagnosis; it does not name or demonstrate use of diagnosis 62.31.
+  - id: china-preprint-context
+    sourceId: wang-longarino-2026
+    relation: contextualizes
+    target: {scope: episode, episodeId: china-1989-2026, aspect: context}
+    locator: pp. 1–14
+    note: >-
+      This unreviewed legal-medical preprint compares the public declassification account with CCMD-3's hierarchy and
+      criteria and argues for describing the 2001 change as partial normalization rather than literal removal.
+  - id: china-2001-partial-correction
+    sourceId: china-news-2001
+    relation: documents
+    target: {scope: episode, episodeId: china-1989-2026, aspect: institutional-correction}
+    locator: 12 March 2001 report
+    note: >-
+      Documents the intended 2001 break with automatic pathologization and the public claim that same-sex activity was not
+      necessarily psychologically abnormal.
+  - id: china-current-partial-correction
+    sourceId: moj-sft-0184-2024
+    relation: documents
+    target: {scope: episode, episodeId: china-1989-2026, aspect: institutional-correction}
+    locator: §§ 2 and 4.4
+    note: >-
+      Demonstrates that transition away from CCMD-3 was incomplete at the classification-reference level in 2025, without
+      establishing that the homosexuality category is used in current forensic cases.
+  - id: brazil-cfm-carrier
+    sourceId: cfm-parecer-05-1985
+    relation: documents
+    target: {scope: episode, episodeId: brazil-1979-1985, aspect: carrier}
+    locator: pp. 1–3
+    note: >-
+      Identifies the Ministry of Health referral, the CBCD recommendation and the CFM's authority to guide physicians in
+      applying the ICD.
+  - id: brazil-cfm-mechanism
+    sourceId: cfm-parecer-05-1985
+    relation: documents
+    target: {scope: episode, episodeId: brazil-1979-1985, aspect: mechanism}
+    locator: pp. 1–2
+    note: >-
+      Records the operative ICD-9 code 302.0 and the administrative route by which Brazilian authorities reconsidered its use.
+  - id: brazil-cfm-consequences
+    sourceId: cfm-parecer-05-1985
+    relation: documents
+    target: {scope: episode, episodeId: brazil-1979-1985, aspect: consequences}
+    locator: pp. 1–3
+    note: >-
+      Shows that consultations had to be coded and that 302.0 located homosexuality inside the mental-disorders chapter,
+      including cases driven by social discrimination or a relative seeking treatment.
+  - id: brazil-cfm-correction
+    sourceId: cfm-parecer-05-1985
+    relation: documents
+    target: {scope: episode, episodeId: brazil-1979-1985, aspect: institutional-correction}
+    locator: Conclusion, p. 3
+    note: >-
+      Authorizes V62 for consultations concerning homosexuality and directs physicians to code any separate underlying
+      illness rather than homosexuality itself.
+  - id: brazil-cfp-correction
+    sourceId: cfp-resolution-history
+    relation: documents
+    target: {scope: episode, episodeId: brazil-1979-1985, aspect: institutional-correction}
+    locator: Histórico and Homossexualidade não é doença sections
+    note: >-
+      The federal psychology council identifies the 1985 medical change and explains that its 1999 resolution prohibited
+      psychologists from pathologizing homoerotic behavior or offering a “cure.”
+  - id: iran-2017-carrier
+    sourceId: state-iran-2017
+    relation: documents
+    target: {scope: episode, episodeId: iran-2017-2026, aspect: carrier}
+    locator: Acts of Violence, Discrimination, and Other Abuses Based on Sexual Orientation and Gender Identity
+    note: >-
+      Reports that Iran's compulsory-service law exempted gay men through a mental-disorder classification, establishing
+      the state military system as the carrier described here.
+  - id: iran-2023-mechanism
+    sourceId: state-iran-2023
+    relation: documents
+    target: {scope: episode, episodeId: iran-2017-2026, aspect: mechanism}
+    locator: Acts of Violence, Criminalization, and Other Abuses Based on Sexual Orientation, Gender Identity or Expression, or Sex Characteristics
+    note: >-
+      Reports exemption on mental-disorder grounds and states that military identity cards listed the legal subsection
+      supporting the exemption.
+  - id: iran-2023-consequences
+    sourceId: state-iran-2023
+    relation: documents
+    target: {scope: episode, episodeId: iran-2017-2026, aspect: consequences}
+    locator: Acts of Violence, Criminalization, and Other Abuses Based on Sexual Orientation, Gender Identity or Expression, or Sex Characteristics
+    note: >-
+      Reports that the recorded subsection could identify gay or transgender people and expose them to abuse,
+      discrimination and arrest.
+  - id: iran-2025-context
+    sourceId: uk-iran-sogie-2025
+    relation: contextualizes
+    target: {scope: episode, episodeId: iran-2017-2026, aspect: context}
+    locator: § 7.8.1–7.8.5
+    note: >-
+      Synthesizes the reported exemption process, quotes the broad Article 33 paragraph 8 wording, and separates what the
+      regulation says from reports about its application to gay men.
+  - id: iran-2025-uncorrected
+    sourceId: uk-iran-sogie-2025
+    relation: supports
+    target: {scope: episode, episodeId: iran-2017-2026, aspect: institutional-correction}
+    locator: § 7.8.1–7.8.5
+    note: >-
+      The December 2025 assessment still reports mental-health processing of gay exemption applicants and continuing
+      stigma and disclosure risks, with no institutional repudiation of the classification.
+  - id: iran-2026-uncorrected
+    sourceId: uk-iran-military-2026
+    relation: supports
+    target: {scope: episode, episodeId: iran-2017-2026, aspect: institutional-correction}
+    locator: §§ 2.4 and 11.2
+    note: >-
+      The August 2026 assessment continues to describe gay men as exempt from compulsory service through a mental-disorder
+      classification, providing the latest source used to keep the episode open.

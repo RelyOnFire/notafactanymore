@@ -1,50 +1,60 @@
+schemaVersion: 2
 title: Chlorella algolization for water-body rehabilitation
-claim: >-
-  Introducing selected planktonic Chlorella strains into natural water bodies was treated as a reliable way to suppress
-  cyanobacterial blooms and improve water quality through the claimed ecological mechanisms.
-currentUnderstanding: >-
-  Chlorella has legitimate uses in biotechnology and wastewater research, but evidence does not establish that inoculating
-  natural reservoirs with selected Chlorella strains reliably suppresses cyanobacterial blooms or produces the broad
-  rehabilitation effects claimed for algolization. Russian state testing in 2007 did not establish efficacy; a 2009 scientific
-  council of the Federal Water Resources Agency concluded that the proposed use of Chlorella to suppress blooms was not
-  scientifically substantiated or confirmed by practice; and in 2014 the Hydrobiological Society at the Russian Academy of
-  Sciences called the so-called algolization method false and damaging to Russian hydrobiology.
+proposition:
+  summary: >-
+    Russian national standards treated inoculating water bodies with cultivated planktonic Chlorella strains—a method
+    called algolization—as a way to suppress cyanobacterial blooms and produce broad chemical, microbiological and
+    ecological improvements.
+correction:
+  summary: >-
+    The field evidence reviewed by Russian water researchers does not establish that seeding open reservoirs with
+    selected Chlorella strains reliably suppresses cyanobacterial blooms or causes the broad improvements attributed to
+    algolization. A federal trial was inconclusive, repeated applications lacked suitable controls or consistent effects,
+    and later experimental work did not support the proposed competitive mechanism. Research on microalgae in engineered
+    wastewater systems does not validate this open-water method: performance depends on the organism, culture mode,
+    reactor design, wastewater and operating conditions.
 category: Environment
-reviewedAt: 2026-08-23
+reviewedAt: '2026-09-27'
 impact:
   summary: >-
-    The significance of this episode is the institutional contradiction itself. Russian water authorities generated negative
-    or inconclusive evidence, a federal scientific council rejected the claimed bloom-suppression method as unsubstantiated,
-    and a 2014 congress of the Hydrobiological Society at the Russian Academy of Sciences formally rejected the method. Yet
-    algolization later acquired formal status and official technical legitimacy in Russian national standards.
+    Russian standards bodies gave a scientifically contested intervention official technical form after federal water
+    authorities and a national hydrobiological society had rejected its evidentiary basis. The standards specify strains,
+    doses, repeated inoculation and monitoring, and attribute effects ranging from bloom suppression and higher dissolved
+    oxygen to fewer pathogens and improved water clarity. The dedicated 2025 standard covers drinking-water sources,
+    recreational waters, fisheries waters and biological-treatment waters. That is consequential official endorsement,
+    although Russian law generally makes national standards voluntary unless legislation or a public conformity claim
+    gives them binding effect.
   highlights:
     - value: '2009'
-      label: Federal scientific council rejected the claimed bloom-suppression method as scientifically unsubstantiated and unconfirmed in practice
+      label: federal scientific council found the bloom-suppression proposal unsubstantiated and unconfirmed in practice
     - value: '2014'
-      label: Hydrobiological Society at the Russian Academy of Sciences called the so-called algolization method false and damaging to Russian hydrobiology
+      label: Hydrobiological Society congress called the method false and damaging to Russian hydrobiology
     - value: '2022'
-      label: Algolization was codified in a Russian national standard
-    - value: '2025'
-      label: A dedicated national Chlorella-algolization standard entered the standards system
+      label: first Russian national standard codified algolization as water-body rehabilitation
+    - value: 1 June 2025
+      label: dedicated national Chlorella-algolization standard entered into force
   context:
     - >-
-      The sequence matters. The first large Penza Reservoir application in 1998 is described in the later 2025 standard itself
-      as ineffective. A Federal Water Resources Agency trial at the Tsimlyansk Reservoir in 2007 produced results too ambiguous
-      to establish effectiveness, and in 2009 the agency's scientific-technical council concluded that the proposed use of
-      Chlorella against blooms was not scientifically substantiated or confirmed by practice and that further R&D in that
-      direction was inadvisable.
+      The 2023 Water Resources review quotes a 2014 Federal Water Resources Agency letter reporting that its 2007 trial at
+      the Tsimlyansk Reservoir produced ambiguous results and could not establish efficacy. The same letter reported that
+      the agency's 2009 scientific-technical council found the proposal to use Chlorella against blooms scientifically
+      unsubstantiated and unconfirmed by practice, and judged further research and development in that direction
+      inadvisable.
     - >-
-      The contradiction deepened in 2014. The XI Congress of the Hydrobiological Society at the Russian Academy of Sciences
-      adopted a decision calling the so-called algolization method false and damaging to Russian hydrobiology. Later Russian
-      water-research work likewise reported that the claimed competitive mechanism was not supported and described the method
-      as ineffective and potentially carrying sanitary risks.
+      The XI Congress of the Hydrobiological Society at the Russian Academy of Sciences adopted a 2014 decision calling
+      the so-called algolization method false and damaging to Russian hydrobiology. The 2023 review also found no regular
+      effect on phytoplankton across repeated reservoir applications, criticized the absence of suitable comparison
+      waters, and reported later research that did not support the claimed mechanism.
     - >-
-      The technique nevertheless acquired national-standard status. GOST R 59977-2022 included algolization within a water-body
-      rehabilitation standard, and GOST R 71946-2025 created a dedicated standard for applying planktonic Chlorella strains.
-      This is formal technical endorsement rather than proof of a universal legal mandate: Article 26 of Federal Law 162-FZ
-      provides that documents of Russia's national standardization system are generally applied voluntarily unless legislation
-      provides otherwise, with additional binding effects when a producer or performer publicly declares conformity to a
-      national standard.
+      GOST R 59977-2022 nevertheless prescribed algolization within a section on water-body rehabilitation and listed
+      wide expected effects. GOST R 71946-2025 then created a dedicated 16-page standard. Its introduction acknowledges
+      that the first large Penza Reservoir attempt in 1998 was ineffective, while section 4 still states that Chlorella
+      inoculation reduces cyanobacteria, raises oxygen, removes odors, increases clarity and produces other benefits.
+    - >-
+      The correction is method-specific. Chlorella and other microalgae are studied in engineered wastewater systems,
+      including ponds and photobioreactors, where performance varies with treatment design and operating conditions.
+      Those systems are not evidence that small inoculations into complex natural reservoirs will establish themselves,
+      outcompete cyanobacteria or deliver the standards' full set of claimed effects.
 episodes:
   - id: russia-2022-2026
     polity: Russia
@@ -52,68 +62,215 @@ episodes:
     startYear: 2022
     endYear: 2026
     endOpen: true
+    periodLabel: 2022–2026
     strength: officially-endorsed
-    institutionTypes: [government, professional]
+    institutionTypes:
+      - government
+      - professional
     institutions:
       - Rosstandart (Federal Agency for Technical Regulation and Metrology)
       - Russian Institute for Standardization
       - Technical Committee 409 — Environmental Protection
     institutionalContext: >-
-      National technical standardization supplied the institutional endorsement; it did not impose a blanket statutory
-      order requiring every Russian water manager to use algolization. Under Article 26 of Federal Law 162-FZ, national standardization documents are generally
-      voluntary unless legislation provides otherwise; application also becomes binding for a producer or performer that
-      publicly declares conformity to the national standard. GOST R 71946-2025 was developed by the private Innovative
-      Environmental Fund (INEKO), submitted through Technical Committee 409, and approved within the Rosstandart standards
-      system. The resulting status was official technical endorsement rather than mandatory nationwide deployment.
+      National technical standardization supplied the endorsement. Rosstandart approved GOST R 59977-2022, whose section
+      5 codified algolization within water-body rehabilitation. The private Innovative Environmental Fund (INEKO)
+      developed the dedicated GOST R 71946-2025; Technical Committee 409 submitted it, and Rosstandart approved it by
+      Order 59-st. The Russian Institute for Standardization published and catalogued the standard as active. Under
+      Article 26 of Federal Law 162-FZ, this status does not by itself require every water manager to use the method.
     consequences:
-      - National standards formally codified algolization as a water-body rehabilitation method
-      - The standardized method specified Chlorella strains, application quantities, repeated inoculation, and monitoring requirements
-      - A dedicated 2025 standard covered drinking-water sources, recreational waters, fisheries waters, and biological-treatment water bodies
+      - A national standard formally defined algolization as water-body rehabilitation and bloom prevention
+      - The 2022 standard specified a Chlorella strain, application rates, repeated seasonal inoculation and monitoring
+      - The standards attributed broad chemical, microbiological and ecological benefits to the method
+      - The dedicated 2025 standard covered drinking-water, recreational, fisheries and biological-treatment waters
+      - The standards system retained and expanded the method after documented scientific and agency rejection
     summary: >-
-      Russia gave Chlorella-based algolization formal national-standard status in GOST R 59977-2022 and then in the dedicated
-      GOST R 71946-2025. The standards specify how the method is to be performed and attribute water-quality benefits to it.
-      This formal endorsement came after a 2007 Federal Water Resources Agency trial failed to establish efficacy, after the
-      agency's scientific-technical council concluded in 2009 that the bloom-suppression proposal was scientifically
-      unsubstantiated and unconfirmed by practice, and after the Hydrobiological Society at the Russian Academy of Sciences
-      formally rejected the method in 2014. The 2025 standard remains active in 2026, but Russian national standards are
-      generally voluntary unless a separate legal or conformity mechanism makes their application binding.
-    sources:
-      - title: On the question of algolization of water bodies
-        url: https://sciencejournals.ru/view-article/?a=VodRes2303009Pavlyuk&j=vodres&n=3&v=50&y=2023
-        publisher: Water Resources / Russian Academy of Sciences journal platform
-        note: >-
-          Reviews Russian field and laboratory evidence, reproduces the Federal Water Resources Agency record that its 2007
-          trial did not establish efficacy and its 2009 scientific council found the bloom-suppression proposal scientifically
-          unsubstantiated and unconfirmed in practice, quotes the 2014 Hydrobiological Society congress decision rejecting the
-          method, and summarizes later research that did not support the claimed mechanism.
-      - title: Decision of the XI Congress of the Hydrobiological Society — 22–26 September 2014
-        url: https://ibiw.ru/gbo/upload/Congress_GBO_Resheniye_XI.pdf
-        publisher: Hydrobiological Society at the Russian Academy of Sciences / I.D. Papanin Institute for Biology of Inland Waters RAS
-        note: >-
-          Official congress decision hosted by an institute of the Russian Academy of Sciences. The institute's Hydrobiological
-          Society page links this document; the 2023 Water Resources review above reproduces its finding that the so-called
-          algolization method should be regarded as false and damaging to Russian hydrobiology.
-      - title: GOST R 59977-2022 — Biological safety. Neutralization and disposal of biological and organic materials
-        url: https://meganorm.ru/mega_doc/norm/gost-r_gosudarstvennyj-standart/9/gost_r_59977-2022_natsionalnyy_standart_rossiyskoy.html
-        publisher: GOST R 59977-2022 text — publication source identified as the Russian Institute for Standardization
-        note: >-
-          Searchable reproduction of the published 2022 national standard. Section 5 codifies algolization within water-body
-          rehabilitation and specifies claimed effects, the Chlorella strain, application rates, repeated treatment, and monitoring.
-      - title: GOST R 71946-2025 — General requirements for the use of planktonic Chlorella strains for algolization of water bodies
-        url: https://gostinfo.ru/catalog/Details/?id=7778365
-        publisher: Russian Institute for Standardization
-        note: >-
-          Official standards catalogue records the active 2025 standard, its 1 June 2025 effective date, Technical Committee
-          409, Rosstandart order 59-st, its private developer INEKO, and application to drinking, recreational, fisheries, and
-          biological-treatment waters.
-      - title: Notification of approval of GOST R 71946-2025
-        url: https://uvedns.gostinfo.ru/uveddetails?id=179826
-        publisher: Russian Institute for Standardization
-        note: Official notification records Rosstandart registration of the dedicated national algolization standard.
-      - title: Federal Law No. 162-FZ — Article 26, General rules for applying national standardization documents
-        url: https://www.consultant.ru/document/cons_doc_LAW_181810/0b41c80a4b380c5845a29b37afa6f49390738b18/
-        publisher: ConsultantPlus — text of Federal Law No. 162-FZ on Standardization in the Russian Federation
-        note: >-
-          Article 26 states that documents of the national standardization system are generally applied voluntarily unless
-          Russian legislation provides otherwise, and specifies when a public declaration of conformity makes a national
-          standard binding on the producer or performer.
+      Russia gave Chlorella-based algolization national-standard status in GOST R 59977-2022 and then issued the dedicated
+      GOST R 71946-2025. The documents specify how cultivated strains are to be introduced and describe the method as
+      suppressing cyanobacteria and improving multiple water-quality measures. This endorsement followed an inconclusive
+      federal trial, a negative federal scientific-council assessment and the Hydrobiological Society's formal rejection.
+      The 2025 standard remained active at review, but national standards are generally voluntary unless another legal or
+      conformity mechanism makes their application binding.
+    mechanism:
+      kind: standard-setting
+      summary: >-
+        Rosstandart's standards process converted a disputed commercial and technical practice into national
+        specifications: approved organisms, production and safety requirements, application schedules, doses, monitoring
+        and asserted outcomes.
+    institutionalCorrection:
+      status: uncorrected
+      periodLabel: 2022–2026
+      summary: >-
+        No withdrawal or scientific correction by the issuing standards system is documented. Instead, the dedicated
+        2025 standard reaffirmed and broadened the method after the earlier adverse assessments, and the official catalogue
+        still listed it as active at review. Rejection by federal water scientists and the Hydrobiological Society shows
+        institutional conflict, not correction by the standard-setting institutions in this episode.
+sources:
+  - id: chlorella-water-resources-2023
+    title: On the question of algolization of water bodies
+    url: https://sciencejournals.ru/view-article/?a=VodRes2303009Pavlyuk&j=vodres&n=3&v=50&y=2023
+    publisher: Water Resources / Russian Academy of Sciences journal platform
+  - id: chlorella-congress-2014
+    title: Decision of the XI Congress of the Hydrobiological Society — 22–26 September 2014
+    url: https://ibiw.ru/gbo/upload/Congress_GBO_Resheniye_XI.pdf
+    publisher: Hydrobiological Society at the Russian Academy of Sciences / I.D. Papanin Institute for Biology of Inland Waters RAS
+  - id: chlorella-gost-59977
+    title: GOST R 59977-2022 — Biological safety. Neutralization and disposal of biological and organic materials
+    url: https://meganorm.ru/mega_doc/norm/gost-r_gosudarstvennyj-standart/9/gost_r_59977-2022_natsionalnyy_standart_rossiyskoy.html
+    publisher: GOST R 59977-2022 text — publication source identified as the Russian Institute for Standardization
+  - id: chlorella-gost-71946-catalog
+    title: GOST R 71946-2025 — General requirements for the use of planktonic Chlorella strains for algolization of water bodies
+    url: https://gostinfo.ru/catalog/Details/?id=7778365
+    publisher: Russian Institute for Standardization
+  - id: chlorella-gost-71946-notification
+    title: Notification of approval of GOST R 71946-2025
+    url: https://uvedns.gostinfo.ru/uveddetails?id=179826
+    publisher: Russian Institute for Standardization
+  - id: chlorella-law-162
+    title: Federal Law No. 162-FZ — Article 26, General rules for applying national standardization documents
+    url: https://www.consultant.ru/document/cons_doc_LAW_181810/0b41c80a4b380c5845a29b37afa6f49390738b18/
+    publisher: ConsultantPlus — text of Federal Law No. 162-FZ on Standardization in the Russian Federation
+  - id: chlorella-gbo-index
+    title: Hydrobiological Society at the Russian Academy of Sciences — official page
+    url: https://ibiw.ru/index.php?p=gbo
+    publisher: I.D. Papanin Institute for Biology of Inland Waters, Russian Academy of Sciences
+  - id: chlorella-gost-71946-text
+    title: GOST R 71946-2025 — published text
+    url: https://meganorm.ru/mega_doc/norm_update_26042025/gost-r_gosudarstvennyj-standart/0/gost_r_71946-2025_natsionalnyy_standart_rossiyskoy.html
+    publisher: MegaNorm reproduction of the Russian Institute for Standardization text
+  - id: chlorella-wastewater-review
+    title: 'Microalgae wastewater treatment: Biological and technological approaches'
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6999062/
+    publisher: Engineering in Life Sciences / PubMed Central
+evidence:
+  - id: chlorella-review-belief-correction
+    sourceId: chlorella-water-resources-2023
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: pp. 329–333, especially pp. 331–332
+    note: >-
+      The review finds no regular effect across repeated applications, identifies missing comparison waters and other
+      methodological defects, rejects several proposed mechanisms, and concludes that later research did not support
+      Chlorella as a natural-water bloom-control biomanipulation.
+  - id: chlorella-review-impact
+    sourceId: chlorella-water-resources-2023
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: pp. 331–332
+    note: >-
+      It reproduces the adverse 2008 scientific assessment, the 2014 society resolution and the Federal Water Resources
+      Agency letter reporting the inconclusive 2007 trial and negative 2009 council conclusion.
+  - id: chlorella-review-episode-context
+    sourceId: chlorella-water-resources-2023
+    relation: contextualizes
+    target: {scope: episode, episodeId: russia-2022-2026, aspect: context}
+    locator: pp. 331–333
+    note: >-
+      The peer-reviewed review documents that major Russian scientific and water-management objections predated the 2022
+      and 2025 standards, establishing the contradiction central to the episode.
+  - id: chlorella-congress-episode-context
+    sourceId: chlorella-congress-2014
+    relation: documents
+    target: {scope: episode, episodeId: russia-2022-2026, aspect: context}
+    locator: p. 2
+    note: >-
+      The congress decision calls the so-called algolization method false and damaging to Russian hydrobiology and calls
+      for modern scientific methods against eutrophication. The institute's live society page identifies and links this
+      decision, although the legacy PDF link was unavailable at the latest review.
+  - id: chlorella-gost59977-proposition
+    sourceId: chlorella-gost-59977
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: §§5.1.1–5.1.5
+    note: >-
+      The 2022 national standard defines algolization as bloom prevention and water-body rehabilitation and says the
+      technology should improve oxygen, oxygen-demand measures, pathogens, petroleum products, metals, nutrients and
+      organoleptic properties.
+  - id: chlorella-gost59977-mechanism
+    sourceId: chlorella-gost-59977
+    relation: documents
+    target: {scope: episode, episodeId: russia-2022-2026, aspect: mechanism}
+    locator: §§5.1.6–5.2.3
+    note: >-
+      It specifies preliminary study, strain testing, a rehabilitation plan, cultivation, at least three inoculations per
+      growing season, monitoring and a minimum single-dose volume for the named Chlorella strain.
+  - id: chlorella-gost71946-catalog-carrier
+    sourceId: chlorella-gost-71946-catalog
+    relation: documents
+    target: {scope: episode, episodeId: russia-2022-2026, aspect: carrier}
+    locator: official catalogue record, status and scope fields
+    note: >-
+      The official catalogue lists the 16-page standard as active from 1 June 2025, identifies Technical Committee 409,
+      INEKO as developer and Order 59-st, and states its coverage of drinking, recreational, fisheries and biological-
+      treatment waters.
+  - id: chlorella-gost71946-catalog-consequences
+    sourceId: chlorella-gost-71946-catalog
+    relation: documents
+    target: {scope: episode, episodeId: russia-2022-2026, aspect: consequences}
+    locator: scope abstract and status fields
+    note: >-
+      The catalogue confirms that algolization received a dedicated, currently active national standard across several
+      consequential water-use categories.
+  - id: chlorella-notification-carrier
+    sourceId: chlorella-gost-71946-notification
+    relation: documents
+    target: {scope: episode, episodeId: russia-2022-2026, aspect: carrier}
+    locator: approval-notification record 179826
+    note: >-
+      The standards institute's notification records Rosstandart registration of GOST R 71946-2025, corroborating the
+      formal approval route independently of the catalogue description.
+  - id: chlorella-law-episode-context
+    sourceId: chlorella-law-162
+    relation: contextualizes
+    target: {scope: episode, episodeId: russia-2022-2026, aspect: context}
+    locator: Article 26(1) and 26(3)
+    note: >-
+      Article 26 says national standardization documents are generally voluntary unless legislation provides otherwise;
+      it also makes a standard binding on a producer or performer that publicly claims conformity.
+  - id: chlorella-gbo-index-context
+    sourceId: chlorella-gbo-index
+    relation: documents
+    target: {scope: episode, episodeId: russia-2022-2026, aspect: context}
+    locator: society page entry dated 2 February 2015
+    note: >-
+      The institute-hosted official society page identifies the decision of the XI Congress held on 22–26 September 2014
+      and supplies the institutional provenance for the separately listed resolution.
+  - id: chlorella-gost71946-text-proposition
+    sourceId: chlorella-gost-71946-text
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: introduction and §4
+    note: >-
+      The standard acknowledges that the first 1998 Penza Reservoir attempt was ineffective, then attributes bloom
+      suppression, higher oxygen, odor removal, greater clarity, ecological stability and other benefits to the method.
+  - id: chlorella-gost71946-text-mechanism
+    sourceId: chlorella-gost-71946-text
+    relation: documents
+    target: {scope: episode, episodeId: russia-2022-2026, aspect: mechanism}
+    locator: preface and §§4–10
+    note: >-
+      The published text identifies INEKO, Technical Committee 409 and Rosstandart's Order 59-st and standardizes strains,
+      suspension production, packaging, storage, transport, application and monitoring.
+  - id: chlorella-gost71946-text-correction
+    sourceId: chlorella-gost-71946-text
+    relation: documents
+    target: {scope: episode, episodeId: russia-2022-2026, aspect: institutional-correction}
+    locator: preface, introduction and §4
+    note: >-
+      Issued after the documented adverse assessments, the dedicated standard continues to state the disputed benefits;
+      its acknowledgment of one failed early attempt does not withdraw or qualify those general claims.
+  - id: chlorella-wastewater-belief-correction
+    sourceId: chlorella-wastewater-review
+    relation: contextualizes
+    target: {scope: belief, aspect: correction}
+    locator: §§1 and 4.1
+    note: >-
+      The review documents legitimate microalgae and Chlorella research in designed wastewater-treatment systems while
+      stressing that results vary widely with culture mode, tank size, wastewater, strain and technical conditions.
+  - id: chlorella-wastewater-episode-context
+    sourceId: chlorella-wastewater-review
+    relation: contextualizes
+    target: {scope: episode, episodeId: russia-2022-2026, aspect: context}
+    locator: §4, especially §4.1
+    note: >-
+      Its engineered ponds, suspended cultures, immobilized systems and photobioreactors provide a boundary condition:
+      evidence from designed treatment systems cannot simply be transferred to low-dose inoculation of natural reservoirs.

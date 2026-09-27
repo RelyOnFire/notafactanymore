@@ -1,78 +1,174 @@
+schemaVersion: 2
 locale: de
 entryId: chlorella-algolization
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: '2026-09-27'
 title: Chlorella-„Algolisierung“ zur Sanierung von Gewässern
-claim: >-
-  Das Einbringen ausgewählter planktonischer Chlorella-Stämme in natürliche Gewässer wurde als verlässliche Methode
-  behandelt, um Cyanobakterienblüten zu unterdrücken und die Wasserqualität über die behaupteten ökologischen Mechanismen
-  zu verbessern.
-currentUnderstanding: >-
-  Chlorella hat legitime Anwendungen in Biotechnologie und Abwasserforschung. Die Evidenz belegt jedoch nicht, dass das
-  Beimpfen natürlicher Stauseen mit ausgewählten Chlorella-Stämmen Cyanobakterienblüten zuverlässig unterdrückt oder die
-  weitreichenden Sanierungseffekte der sogenannten Algolisierung erzielt. Russische staatliche Versuche von 2007 konnten
-  die Wirksamkeit nicht nachweisen; 2009 kam ein wissenschaftlich-technischer Beirat der Föderalen Wasseragentur zu dem
-  Schluss, dass der vorgeschlagene Einsatz von Chlorella gegen Algenblüten wissenschaftlich nicht begründet und durch die
-  Praxis nicht bestätigt sei; 2014 bezeichnete die Hydrobiologische Gesellschaft bei der Russischen Akademie der Wissenschaften
-  die sogenannte Algolisierung als falsche Methode, die der russischen Hydrobiologie erheblichen Schaden zufüge.
+proposition:
+  summary: >-
+    Russische nationale Normen behandelten das Beimpfen von Gewässern mit kultivierten planktonischen
+    Chlorella-Stämmen – die sogenannte Algolisierung – als Methode, um Cyanobakterienblüten zu unterdrücken und
+    weitreichende chemische, mikrobiologische und ökologische Verbesserungen zu bewirken.
+correction:
+  summary: >-
+    Die von russischen Gewässerforschern ausgewertete Feldevidenz belegt nicht, dass ausgewählte Chlorella-Stämme in
+    offenen Stauseen Cyanobakterienblüten zuverlässig unterdrücken oder die der Algolisierung zugeschriebenen breiten
+    Verbesserungen bewirken. Ein föderaler Versuch blieb uneindeutig, wiederholten Einsätzen fehlten geeignete Kontrollen
+    oder konsistente Wirkungen, und spätere Experimente bestätigten den behaupteten Konkurrenzmechanismus nicht. Forschung
+    zu Mikroalgen in technischen Abwassersystemen belegt diese Freiwassermethode nicht: Die Leistung hängt von Organismus,
+    Kulturverfahren, Reaktorauslegung, Abwasser und Betriebsbedingungen ab.
 impact:
   summary: >-
-    Das Bemerkenswerte an diesem Fall ist der institutionelle Widerspruch selbst. Russische Wasserbehörden erzeugten negative
-    oder nicht eindeutige Evidenz, ein föderaler wissenschaftlicher Beirat verwarf die behauptete Methode zur Unterdrückung
-    von Algenblüten als unbelegt, und 2014 lehnte ein Kongress der Hydrobiologischen Gesellschaft bei der Russischen Akademie
-    der Wissenschaften das Verfahren ausdrücklich ab. Später erhielt die Algolisierung dennoch formalen Status und amtliche
-    technische Legitimität in russischen nationalen Normen.
+    Russische Normungsinstitutionen gaben einem wissenschaftlich umstrittenen Verfahren eine amtliche technische Form,
+    nachdem föderale Wasserbehörden und eine nationale hydrobiologische Fachgesellschaft seine Evidenzgrundlage verworfen
+    hatten. Die Normen legen Stämme, Dosierungen, wiederholte Beimpfung und Überwachung fest und schreiben dem Verfahren
+    Wirkungen von der Blütenunterdrückung und mehr gelöstem Sauerstoff bis zu weniger Krankheitserregern und klarerem
+    Wasser zu. Die eigene Norm von 2025 erfasst Trinkwasserquellen, Freizeitgewässer, Fischereigewässer und Gewässer der
+    biologischen Reinigung. Das ist eine folgenreiche amtliche Billigung, obwohl nationale Normen nach russischem Recht
+    grundsätzlich freiwillig sind, sofern Gesetzgebung oder eine öffentliche Konformitätserklärung sie nicht verbindlich
+    machen.
   highlights:
     - value: '2009'
-      label: Ein föderaler wissenschaftlicher Beirat erklärte die Methode zur Blütenunterdrückung für wissenschaftlich unbegründet und praktisch nicht bestätigt
+      label: föderaler Wissenschaftsrat erklärte den Vorschlag zur Blütenunterdrückung für unbelegt und praktisch unbestätigt
     - value: '2014'
-      label: Die Hydrobiologische Gesellschaft bei der Russischen Akademie der Wissenschaften bezeichnete die sogenannte Algolisierung als falsche und schädliche Methode
+      label: Kongress der Hydrobiologischen Gesellschaft nannte die Methode falsch und schädlich für die russische Hydrobiologie
     - value: '2022'
-      label: Algolisierung wurde in einer russischen nationalen Norm festgeschrieben
-    - value: '2025'
-      label: Eine eigene nationale Norm für Chlorella-Algolisierung wurde eingeführt
+      label: erste russische nationale Norm schrieb Algolisierung als Gewässersanierung fest
+    - value: 1. Juni 2025
+      label: eigene nationale Norm für Chlorella-Algolisierung trat in Kraft
   context:
     - >-
-      Die zeitliche Abfolge ist entscheidend. Der erste großflächige Einsatz im Pensa-Stausee 1998 wird in der späteren Norm
-      von 2025 selbst als wirkungslos beschrieben. Ein Versuch der Föderalen Wasseragentur am Zimljansker Stausee 2007 lieferte
-      keine eindeutigen Wirksamkeitsnachweise; 2009 kam ihr wissenschaftlich-technischer Beirat zu dem Schluss, der vorgeschlagene
-      Chlorella-Einsatz gegen Algenblüten sei wissenschaftlich nicht begründet und praktisch nicht bestätigt, und weitere
-      Forschungs- und Entwicklungsarbeiten in diese Richtung seien nicht zweckmäßig.
+      Der Beitrag in Water Resources von 2023 zitiert ein Schreiben der Föderalen Agentur für Wasserressourcen von 2014.
+      Danach lieferte ihr Versuch am Zimljansker Stausee 2007 uneindeutige Ergebnisse und konnte keine Wirksamkeit
+      nachweisen. Dem Schreiben zufolge befand ihr wissenschaftlich-technischer Rat 2009 den Einsatz von Chlorella gegen
+      Blüten für wissenschaftlich unbegründet und praktisch unbestätigt; weitere Forschung und Entwicklung in diese
+      Richtung seien nicht zweckmäßig.
     - >-
-      2014 verschärfte sich der Widerspruch. Der XI. Kongress der Hydrobiologischen Gesellschaft bei der Russischen Akademie
-      der Wissenschaften beschloss, die sogenannte Algolisierung als falsche Methode anzusehen, die der russischen Hydrobiologie
-      erheblichen Schaden zufüge. Spätere russische Gewässerforschung berichtete ebenfalls, dass der behauptete Konkurrenzmechanismus
-      nicht belegt sei, und bezeichnete die Methode als unwirksam und mit möglichen hygienischen Risiken verbunden.
+      Der XI. Kongress der Hydrobiologischen Gesellschaft bei der Russischen Akademie der Wissenschaften beschloss 2014,
+      die sogenannte Algolisierung als falsche und für die russische Hydrobiologie schädliche Methode zu bezeichnen. Die
+      Untersuchung von 2023 fand zudem keine regelmäßige Wirkung wiederholter Stausee-Einsätze, kritisierte fehlende
+      Vergleichsgewässer und berichtete von späteren Arbeiten, die den behaupteten Mechanismus nicht bestätigten.
     - >-
-      Dennoch erhielt das Verfahren nationalen Normstatus. GOST R 59977-2022 nahm Algolisierung in eine Norm zur Gewässersanierung
-      auf, und GOST R 71946-2025 schuf einen eigenen Standard für planktonische Chlorella-Stämme. Das ist eine formale technische
-      Billigung, aber kein Beleg für eine allgemeine gesetzliche Pflicht: Artikel 26 des Föderalen Gesetzes 162-FZ sieht für
-      Dokumente des nationalen Normungssystems grundsätzlich freiwillige Anwendung vor, sofern die Gesetzgebung nichts anderes
-      bestimmt; zusätzliche Bindungswirkung entsteht unter anderem bei einer öffentlichen Konformitätserklärung.
+      GOST R 59977-2022 schrieb Algolisierung dennoch in einem Abschnitt zur Gewässersanierung fest und führte zahlreiche
+      erwartete Wirkungen auf. GOST R 71946-2025 schuf anschließend eine eigene 16-seitige Norm. Ihre Einleitung räumt ein,
+      dass der erste große Versuch am Pensa-Stausee 1998 wirkungslos blieb; Abschnitt 4 behauptet dennoch, die Beimpfung
+      senke Cyanobakterien, erhöhe den Sauerstoffgehalt, beseitige Gerüche, steigere die Sichttiefe und bewirke weitere
+      Verbesserungen.
+    - >-
+      Die Korrektur gilt für diese konkrete Methode. Chlorella und andere Mikroalgen werden in technischen
+      Abwassersystemen wie Teichen und Photobioreaktoren erforscht, deren Leistung je nach Verfahrensauslegung und
+      Betriebsbedingungen variiert. Diese Systeme belegen nicht, dass geringe Einbringungsmengen sich in komplexen
+      natürlichen Stauseen etablieren, Cyanobakterien verdrängen oder sämtliche von den Normen behaupteten Wirkungen
+      erzielen.
 episodes:
   - id: russia-2022-2026
     polity: Russland
-    summary: >-
-      Russland verlieh der Chlorella-basierten Algolisierung mit GOST R 59977-2022 und anschließend mit dem eigens dafür
-      geschaffenen GOST R 71946-2025 formalen Status als nationale Norm. Die Standards legen die Durchführung des Verfahrens
-      fest und schreiben ihm Verbesserungen der Wasserqualität zu. Diese amtliche technische Billigung erfolgte, nachdem ein
-      Versuch der Föderalen Wasseragentur 2007 keine Wirksamkeit belegt hatte, ihr wissenschaftlich-technischer Beirat 2009
-      den Einsatz gegen Algenblüten als wissenschaftlich unbegründet und praktisch nicht bestätigt bewertet hatte und die
-      Hydrobiologische Gesellschaft bei der Russischen Akademie der Wissenschaften das Verfahren 2014 ausdrücklich abgelehnt
-      hatte. Der Standard von 2025 gilt 2026 weiterhin; nationale Normen werden in Russland jedoch grundsätzlich freiwillig
-      angewandt, sofern kein gesonderter rechtlicher oder konformitätsbezogener Mechanismus sie verbindlich macht.
-    consequences:
-      - Nationale Normen kodifizierten die Algolisierung formal als Verfahren zur Sanierung von Gewässern
-      - Das normierte Verfahren legte Chlorella-Stämme, Einsatzmengen, wiederholte Behandlungen und Überwachungsanforderungen fest
-      - Ein eigener Standard von 2025 erfasste Trinkwasserquellen, Freizeitgewässer, Fischereigewässer und Gewässer der biologischen Reinigung
     institutions:
       - Rosstandart (Föderale Agentur für technische Regulierung und Metrologie)
       - Russisches Institut für Standardisierung
       - Technisches Komitee 409 „Umweltschutz“
     institutionalContext: >-
-      Die institutionelle Billigung erfolgte durch nationale technische Normung; eine pauschale gesetzliche Anordnung an alle
-      russischen Gewässerbetreiber, Algolisierung einzusetzen, bestand nicht. Nach Artikel 26 des Föderalen Gesetzes 162-FZ werden nationale
-      Normungsdokumente grundsätzlich freiwillig angewandt, sofern die Gesetzgebung nichts anderes bestimmt; für Hersteller
-      oder Leistungserbringer wird eine Norm außerdem verbindlich, wenn sie ihre Konformität damit öffentlich erklären.
-      GOST R 71946-2025 wurde vom privaten „Innovativen Umweltfonds“ (INEKO) entwickelt, über das Technische Komitee 409
-      eingebracht und im Rosstandart-Normungssystem genehmigt. Damit bestand eine amtliche technische Billigung,
-      nicht eine verpflichtende landesweite Anwendung.
+      Die amtliche Billigung erfolgte durch nationale technische Normung. Rosstandart genehmigte GOST R 59977-2022, deren
+      Abschnitt 5 Algolisierung als Gewässersanierung festschrieb. Der private „Innovative Umweltfonds“ (INEKO) entwickelte
+      die eigene GOST R 71946-2025; das Technische Komitee 409 brachte sie ein, und Rosstandart genehmigte sie mit Erlass
+      59-st. Das Russische Institut für Standardisierung veröffentlichte und katalogisierte die Norm als gültig. Nach
+      Artikel 26 des Föderalen Gesetzes 162-FZ verpflichtet dieser Status allein nicht alle Gewässerbetreiber zur Anwendung.
+    consequences:
+      - Eine nationale Norm definierte Algolisierung formal als Gewässersanierung und Blütenprävention
+      - Die Norm von 2022 legte Chlorella-Stamm, Einsatzmengen, wiederholte saisonale Beimpfung und Überwachung fest
+      - Die Normen schrieben dem Verfahren breite chemische, mikrobiologische und ökologische Wirkungen zu
+      - Die eigene Norm von 2025 erfasste Trinkwasser-, Freizeit-, Fischerei- und biologische Reinigungsgewässer
+      - Das Normungssystem behielt die Methode trotz dokumentierter wissenschaftlicher und behördlicher Ablehnung bei und baute sie aus
+    summary: >-
+      Russland verlieh der Chlorella-basierten Algolisierung mit GOST R 59977-2022 nationalen Normstatus und erließ danach
+      die eigene GOST R 71946-2025. Die Dokumente legen die Einbringung kultivierter Stämme fest und beschreiben das
+      Verfahren als Unterdrückung von Cyanobakterien und Verbesserung zahlreicher Wasserqualitätswerte. Diese Billigung
+      folgte auf einen uneindeutigen föderalen Versuch, eine negative Bewertung des föderalen Wissenschaftsrats und die
+      ausdrückliche Ablehnung der Hydrobiologischen Gesellschaft. Die Norm von 2025 war bei der Prüfung weiterhin gültig;
+      nationale Normen sind jedoch grundsätzlich freiwillig, solange kein anderer Rechts- oder Konformitätsmechanismus
+      ihre Anwendung verbindlich macht.
+    mechanism:
+      summary: >-
+        Rosstandarts Normungsverfahren überführte eine umstrittene kommerzielle und technische Praxis in nationale
+        Spezifikationen: zugelassene Organismen, Herstellungs- und Sicherheitsanforderungen, Anwendungspläne, Dosierungen,
+        Überwachung und behauptete Wirkungen.
+    institutionalCorrection:
+      periodLabel: 2022–2026
+      summary: >-
+        Eine Rücknahme oder wissenschaftliche Korrektur durch das ausstellende Normungssystem ist nicht dokumentiert.
+        Stattdessen bestätigte und erweiterte die eigene Norm von 2025 das Verfahren nach den früheren negativen
+        Bewertungen; der amtliche Katalog führte sie bei der Prüfung weiterhin als gültig. Die Ablehnung durch föderale
+        Wasserforscher und die Hydrobiologische Gesellschaft belegt institutionellen Widerspruch, aber keine Korrektur
+        durch die normsetzenden Institutionen dieser Episode.
+evidence:
+  - id: chlorella-review-belief-correction
+    note: >-
+      Die Untersuchung findet keine regelmäßige Wirkung bei wiederholten Einsätzen, benennt fehlende Vergleichsgewässer
+      und weitere methodische Mängel, verwirft mehrere behauptete Mechanismen und kommt zu dem Schluss, dass spätere
+      Forschung Chlorella nicht als Biomanipulation gegen Blüten in natürlichen Gewässern bestätigt habe.
+  - id: chlorella-review-impact
+    note: >-
+      Sie gibt die negative wissenschaftliche Bewertung von 2008, den Beschluss der Fachgesellschaft von 2014 und das
+      Schreiben der Föderalen Wasseragentur mit dem uneindeutigen Versuch von 2007 und dem negativen Ratsbeschluss von
+      2009 wieder.
+  - id: chlorella-review-episode-context
+    note: >-
+      Die begutachtete Untersuchung dokumentiert, dass maßgebliche russische wissenschaftliche und wasserwirtschaftliche
+      Einwände den Normen von 2022 und 2025 vorausgingen, und belegt damit den zentralen Widerspruch der Episode.
+  - id: chlorella-congress-episode-context
+    note: >-
+      Der Kongressbeschluss nennt die sogenannte Algolisierung falsch und schädlich für die russische Hydrobiologie und
+      fordert moderne wissenschaftliche Verfahren gegen Eutrophierung. Die aktuelle Institutsseite identifiziert und
+      verlinkt den Beschluss, obwohl der alte PDF-Link bei der jüngsten Prüfung nicht erreichbar war.
+  - id: chlorella-gost59977-proposition
+    note: >-
+      Die nationale Norm von 2022 definiert Algolisierung als Blütenprävention und Gewässersanierung und verlangt
+      Verbesserungen bei Sauerstoff, Sauerstoffbedarfswerten, Krankheitserregern, Erdölprodukten, Metallen, Nährstoffen
+      und organoleptischen Eigenschaften.
+  - id: chlorella-gost59977-mechanism
+    note: >-
+      Sie legt Voruntersuchung, Stammeignungstest, Sanierungsplan, Kultivierung, mindestens drei Beimpfungen je
+      Vegetationsperiode, Überwachung und ein Mindestvolumen je Einzeldosis des benannten Chlorella-Stamms fest.
+  - id: chlorella-gost71946-catalog-carrier
+    note: >-
+      Der amtliche Katalog führt die 16-seitige Norm seit 1. Juni 2025 als gültig, nennt das Technische Komitee 409, INEKO
+      als Entwickler und Erlass 59-st sowie den Geltungsbereich für Trinkwasser-, Freizeit-, Fischerei- und biologische
+      Reinigungsgewässer.
+  - id: chlorella-gost71946-catalog-consequences
+    note: >-
+      Der Katalog bestätigt, dass die Algolisierung für mehrere folgenreiche Kategorien der Gewässernutzung eine eigene,
+      derzeit gültige nationale Norm erhielt.
+  - id: chlorella-notification-carrier
+    note: >-
+      Die Mitteilung des Normungsinstituts dokumentiert Rosstandarts Registrierung von GOST R 71946-2025 und bestätigt den
+      formalen Genehmigungsweg unabhängig von der Katalogbeschreibung.
+  - id: chlorella-law-episode-context
+    note: >-
+      Artikel 26 erklärt nationale Normungsdokumente grundsätzlich für freiwillig, sofern die Gesetzgebung nichts anderes
+      bestimmt; für Hersteller oder Leistungserbringer wird eine Norm bei einer öffentlichen Konformitätserklärung bindend.
+  - id: chlorella-gbo-index-context
+    note: >-
+      Die amtliche, vom Institut betriebene Seite der Fachgesellschaft nennt den Beschluss des XI. Kongresses vom
+      22.–26. September 2014 und belegt die institutionelle Herkunft der separat aufgeführten Resolution.
+  - id: chlorella-gost71946-text-proposition
+    note: >-
+      Die Norm räumt ein, dass der erste Versuch am Pensa-Stausee 1998 wirkungslos war, schreibt dem Verfahren danach aber
+      Blütenunterdrückung, mehr Sauerstoff, Geruchsbeseitigung, höhere Sichttiefe, ökologische Stabilität und weitere
+      Vorteile zu.
+  - id: chlorella-gost71946-text-mechanism
+    note: >-
+      Der veröffentlichte Text nennt INEKO, das Technische Komitee 409 und Rosstandarts Erlass 59-st und normiert Stämme,
+      Herstellung der Suspension, Verpackung, Lagerung, Transport, Anwendung und Überwachung.
+  - id: chlorella-gost71946-text-correction
+    note: >-
+      Die nach den dokumentierten negativen Bewertungen erlassene eigene Norm hält an den umstrittenen Wirkungen fest;
+      das Eingeständnis eines frühen Fehlschlags nimmt diese allgemeinen Behauptungen weder zurück noch schränkt es sie ein.
+  - id: chlorella-wastewater-belief-correction
+    note: >-
+      Die Übersicht dokumentiert legitime Forschung zu Mikroalgen und Chlorella in geplanten Abwasserbehandlungssystemen
+      und betont zugleich, wie stark die Ergebnisse von Kulturverfahren, Beckengröße, Abwasser, Stamm und technischen
+      Bedingungen abhängen.
+  - id: chlorella-wastewater-episode-context
+    note: >-
+      Ihre technischen Teiche, Suspensionskulturen, immobilisierten Systeme und Photobioreaktoren bilden eine wichtige
+      Grenze: Evidenz aus geplanten Behandlungssystemen lässt sich nicht einfach auf niedrig dosierte Beimpfung natürlicher
+      Stauseen übertragen.

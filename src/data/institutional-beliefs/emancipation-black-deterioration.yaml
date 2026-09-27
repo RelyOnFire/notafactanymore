@@ -1,111 +1,321 @@
+schemaVersion: 2
 title: Emancipation as a cause of Black mental and social deterioration
-claim: >-
-  Emancipation was treated as a cause of Black mental and social deterioration, with defective federal census
-  disability statistics cited as quantitative evidence that Black people fared better under slavery.
-currentUnderstanding: >-
-  The 1840 census returns could not support that causal inference. Their disability statistics contained severe
-  enumeration and tabulation errors, and the columns for Black disability did not themselves distinguish free from
-  enslaved people. Towns were reported as containing insane Black residents despite reporting no Black residents at
-  all. Sectional differences constructed from these defective returns were not evidence that emancipation caused
-  mental illness, disability or social deterioration.
+proposition:
+  summary: >-
+    The United States Department of State treated sectional disability and social-welfare figures derived from the
+    1840 census as evidence that changing the relation of slavery, especially through emancipation, caused Black
+    people's physical, mental, moral, and social condition to deteriorate.
+correction:
+  summary: >-
+    The 1840 returns could not sustain that causal inference. The population schedule counted free Black people and
+    enslaved people separately, but its disability columns grouped all “colored persons”; the free-versus-enslaved
+    contrast was therefore a sectional proxy constructed from states with different slavery regimes. The published
+    tables also contained impossible entries and major misclassifications, including disability cases assigned to
+    towns reporting no Black inhabitants. Even accurate aggregate counts would not isolate emancipation from regional
+    differences in enumeration, diagnosis, institutional access, living conditions, and reporting. The historical
+    categories themselves bundled distinct disabilities and are not modern diagnoses. These data supplied no valid
+    basis for concluding that freedom caused disability or social deterioration.
 category: Race, statistics and public policy
-reviewedAt: '2026-08-24'
+reviewedAt: '2026-09-27'
 impact:
   summary: >-
-    Defective statistics in the 1840 United States census were transformed into an official pro-slavery argument by
-    Secretary of State John C. Calhoun. In April 1844 he used sectional comparisons of disability returns in diplomatic
-    correspondence to argue that changing the relation between Black and white people had worsened Black people's
-    condition. Contemporary statisticians and asylum physicians exposed gross errors in the returns, and Congress
-    investigated the census, yet the Department of State defended the general conclusion again in 1845.
+    Secretary of State John C. Calhoun inserted the defective returns into an official diplomatic case for Texas
+    annexation and the preservation of slavery. His 18 April 1844 letter to British minister Richard Pakenham presented
+    a seven-to-one sectional disability ratio as evidence that changing slavery's racial relation harmed Black people.
+    Physicians and statisticians demonstrated gross errors, and one House report and a Senate committee accepted major
+    parts of that criticism. Calhoun nevertheless commissioned a defense by the official who had supervised preparation
+    of the census and told the House in February 1845 that the sectional result stood unimpeached. The returns were never
+    subjected to the requested general revision or formally disowned; although the 1850 census was redesigned, an
+    official 1854 compendium still reproduced the departmental defense and calculated new sectional disability ratios.
   highlights:
-  - value: 1 in 96 vs 1 in 672
-    label: Calhoun's composite disability ratio for states without and with slavery; it was not an insanity-only statistic
-  - value: 56 of 94
-    label: alleged Black insanity cases in Maine assigned to towns that the same census reported as having no Black residents
-  - value: '1844'
-    label: congressional reports documented major errors in the sixth census
+    - value: 1 in 96 vs 1 in 672
+      label: Calhoun's composite ratio for five disability categories in states without and with slavery, not an insanity-only statistic
+    - value: 56 of 94
+      label: Maine cases labeled as Black insanity that a state hospital report located in towns with no Black inhabitants in the same census
+    - value: 1844–1850
+      label: Federal criticism led to a redesigned census, while Congress declined a general revision or withdrawal of sanction for the 1840 returns
   context:
-  - >-
-    The 1840 census supplied the defective numerical evidence, but the causal proposition became an official
-    federal position in 1844, when Secretary of State John C. Calhoun used the census in State Department diplomacy
-    to argue that emancipation or altered racial relations produced deterioration.
-  - >-
-    The census separately counted free Black people and enslaved people in its population columns, but its disability
-    section grouped “colored persons” together. Calhoun's 1-in-96 versus 1-in-672 comparison therefore relied on
-    sectional state categories rather than a direct census comparison of free and enslaved Black insanity rates.
-  - >-
-    Calhoun's ratio combined deafness, muteness, blindness, idiocy and insanity. It was not a statistic
-    showing that free Black people were seven times more likely to be insane.
+    - >-
+      The sixth census supplied the numerical material, but the federal causal endorsement came from the Department of
+      State in 1844 and 1845. The card does not attribute Calhoun's interpretation to every census enumerator or every
+      member of Congress.
+    - >-
+      The census separated free Black people and enslaved people in its population columns but used combined disability
+      columns for “colored persons.” Calhoun's comparison therefore sorted states by slavery regime rather than directly
+      comparing otherwise similar free and enslaved people.
+    - >-
+      Calhoun's 1-in-96 and 1-in-672 figures combined deafness, muteness, blindness, idiocy, and insanity. A separate
+      ratio in the same letter added pauperism and imprisonment; neither figure was an insanity-only rate.
+    - >-
+      Contemporary critics established decisive internal contradictions in the census, but that does not make all of
+      their wider racial or medical assumptions sound. Their audits are used here for the documented errors, not as
+      present-day authority on race, disability, or mental health.
 episodes:
-- id: united-states-1844-1845
-  polity: United States
-  region: North America
-  startYear: 1844
-  endYear: 1845
-  periodLabel: 1844–1845
-  strength: officially-endorsed
-  institutionTypes:
-  - government
-  institutions:
-  - United States Department of State
-  institutionalContext: >-
-    The federal census of 1840 supplied the defective numerical material, but the Department of State supplied the
-    causal institutional endorsement. In an official letter to British minister Richard Pakenham dated 18 April 1844,
-    Secretary of State John C. Calhoun argued from census and other official statistics that Black people's condition
-    deteriorated where states had changed the racial “relation” associated with slavery. He cited sharply different
-    sectional disability ratios as evidence. After statistical and congressional challenges exposed major defects in
-    the census, the State Department nevertheless defended the general comparison in 1845.
-  consequences:
-  - Defective federal statistics were incorporated into an official United States diplomatic argument defending slavery
-  - Numerical authority gave a racial and medical claim the appearance of quantitative federal validation
-  - The Department of State continued to defend the comparison after formal statistical challenges
-  - The episode demonstrated how census errors could be converted into institutional racial policy arguments
-  summary: >-
-    In 1844 Secretary of State John C. Calhoun used the defective sixth-census disability returns in official
-    correspondence to argue that Black people suffered greater physical, mental and social deterioration where
-    slavery had been abolished or racial relations altered. The census did not directly report the free-versus-enslaved
-    insanity comparison often attributed to it: disability columns grouped Black people together, and Calhoun built
-    a sectional proxy from states with different slavery regimes. Contemporary investigators found impossible entries
-    and gross tabulation errors. Congress investigated the census, but the Department of State continued to defend
-    the broad conclusion into 1845.
-  sources:
-  - title: 1840 Census — questionnaire and schedules
+  - id: united-states-1844-1845
+    polity: United States
+    region: North America
+    startYear: 1844
+    endYear: 1845
+    periodLabel: 1844–1845
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+    institutions:
+      - United States Department of State
+    institutionalContext: >-
+      On 18 April 1844, Secretary of State John C. Calhoun used the 1840 census in formal correspondence with British
+      minister Richard Pakenham. In arguing for the annexation of Texas against British antislavery policy, he claimed
+      that states which had changed the “ancient relation” of slavery had driven Black people into vice, pauperism,
+      disability, and mental illness. After medical, statistical, and congressional challenges exposed major defects,
+      Calhoun assigned William A. Weaver, who had supervised preparation and correction of the 1840 returns, to review
+      the accusations. Calhoun transmitted Weaver's rebuttal to the House in February 1845 and declared the sectional
+      disability result unimpeached and a change from slavery a curse rather than a benefit for Black people.
+    consequences:
+      - Defective federal statistics became part of an official diplomatic argument for Texas annexation and the preservation of slavery
+      - A composite disability ratio was presented as quantitative proof of a broad racial, moral, and social causal claim
+      - The Department of State reaffirmed the conclusion after documented errors had prompted congressional scrutiny
+      - Congress declined a general revision and did not formally withdraw its sanction, even while redesigning the next census
+      - An official 1854 census compendium continued to circulate the departmental defense and sectional comparison
+    summary: >-
+      Calhoun converted the 1840 census's defective disability returns into an official proslavery causal argument. His
+      1844 letter used a sectional proxy and a composite of five disability categories to claim that emancipation or a
+      changed racial relation produced physical, mental, and social decline. Contemporary investigators found impossible
+      entries and documented how white patients and other counts had been placed in Black disability columns. Federal
+      responses then split: a House report and a Senate committee accepted serious defects and the next census was
+      redesigned, while the Department of State defended the result and Congress declined a general revision or formal
+      disavowal. The episode therefore ended with a partial procedural correction, not a clear retraction by the adopting
+      institution.
+    mechanism:
+      kind: endorsement
+      summary: >-
+        The Department of State turned an error-ridden census table into an official causal proposition through
+        diplomatic correspondence, congressional publication, and a departmental review that defended the result after
+        formal challenges.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 1844–1850
+      action: House and Senate reviewers acknowledged major defects and Congress redesigned the 1850 census, but it ordered no general revision and did not formally withdraw its sanction from the 1840 returns.
+      summary: >-
+        House Report 580 accepted that the census was inaccurate, whereas the separate Report 579 did not establish the
+        alleged errors in the petition before it. In 1845 the Joint Committee on the Library found the Statistical
+        Association's criticisms generally correct and the errors serious enough to undermine confidence, yet declined
+        both a costly revision and a formal withdrawal of congressional sanction. Congress created a Census Board in
+        1849, and the 1850 enumeration replaced the cramped household-summary form with individual-level schedules.
+        The correction remained partial because the Department of State rejected the central criticism, the sectional
+        result remained officially defended, and the 1854 census compendium still reproduced the defense and
+        sectional comparisons.
+sources:
+  - id: emancipation-1840-questionnaire
+    title: 1840 Census — questionnaire and schedules
     url: https://www.census.gov/programs-surveys/decennial-census/technical-documentation/questionnaires.1840_Census.html
     publisher: United States Census Bureau
-    note: >-
-      Official census documentation showing that population schedules separately counted free colored persons and
-      slaves, while the disability section used combined categories for “colored persons,” an important limitation
-      on later free-versus-enslaved comparisons.
-  - title: Message of the President transmitting correspondence concerning Texas — Senate Document 341
+  - id: emancipation-senate-doc-341
+    title: Message of the President transmitting correspondence concerning Texas — Senate Document 341
     url: https://texashistory.unt.edu/ark:/67531/metapth2363/
     publisher: United States Senate / Portal to Texas History
-    note: >-
-      Primary congressional publication containing Secretary of State John C. Calhoun's 18 April 1844 letter to
-      Richard Pakenham, in which census-based sectional disability comparisons were used to argue that altered racial
-      relations worsened Black people's condition.
-  - title: Fifth Annual Report of the Maine Insane Hospital, 1844
+  - id: emancipation-maine-hospital-report
+    title: Fifth Annual Report of the Maine Insane Hospital, 1844
     url: https://digitalmaine.com/amhi_reports/11/
     publisher: State of Maine / Digital Maine
-    note: >-
-      Primary state asylum report in which Isaac Ray exposed impossible census returns for Black insanity in Maine,
-      including alleged cases assigned to towns that the same census reported as containing no Black inhabitants.
-  - title: House Reports 579 and 580, 28th Congress, 1st session — catalogue record
+  - id: emancipation-house-reports-catalogue
+    title: House Reports 579 and 580, 28th Congress, 1st session — catalogue record
     url: https://digital.library.unt.edu/ark:/67531/metadc9165/m1/502/
     publisher: United States Government Printing Office / UNT Digital Library
-    note: >-
-      Official descriptive catalogue distinguishing the two congressional reports issued 17 June 1844: Report 579
-      addressed sectional statistics and slavery, while Report 580 addressed census inaccuracies and the memorial
-      of the American Statistical Association.
-  - title: Census Technology, Politics, and Institutional Change, 1790–2020
+  - id: emancipation-census-history
+    title: Census Technology, Politics, and Institutional Change, 1790–2020
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8415740/
     publisher: Journal of American History / PubMed Central
-    note: >-
-      Peer-reviewed institutional history documenting Edward Jarvis, William Brigham and J. Wingate Thornton's
-      American Statistical Association memorial challenging gross errors in the sixth census.
-  - title: Statistical View of the United States — 1850 Census
+  - id: emancipation-1850-statistical-view
+    title: Statistical View of the United States — 1850 Census
     url: https://www.census.gov/library/publications/1854/dec/1850c.html
     publisher: United States Census Bureau
+  - id: emancipation-jarvis-1844
+    title: Insanity among the Coloured Population of the Free States
+    url: https://zenodo.org/record/1979444/files/article.pdf
+    publisher: The American Journal of the Medical Sciences
+  - id: emancipation-asa-memorial
+    title: Memorial of the American Statistical Association, praying the adoption of measures for the correction of errors in the returns of the sixth census
+    url: https://www.govinfo.gov/content/pkg/SERIALSET-00449_00_00-007-0005-0000/pdf/SERIALSET-00449_00_00-007-0005-0000.pdf
+    publisher: United States Senate / U.S. Government Publishing Office
+  - id: emancipation-senate-report-146
+    title: Report on the memorial of the American Statistical Association concerning errors in the sixth census
+    url: https://www.govinfo.gov/content/pkg/SERIALSET-00457_00_00-013-0146-0000/pdf/SERIALSET-00457_00_00-013-0146-0000.pdf
+    publisher: United States Senate / U.S. Government Publishing Office
+  - id: emancipation-state-department-116
+    title: Errors in sixth census. Letter from the Secretary of State, relative to alleged errors of the sixth census
+    url: https://www.govinfo.gov/content/pkg/SERIALSET-00465_00_00-045-0116-0000/pdf/SERIALSET-00465_00_00-045-0116-0000.pdf
+    publisher: United States House of Representatives / U.S. Government Publishing Office
+evidence:
+  - id: emancipation-calhoun-proposition
+    sourceId: emancipation-senate-doc-341
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: S. Doc. 341, pp. 50–53, especially pp. 52–53
     note: >-
-      Official 1850 census publication representing the later federal statistical framework in which free Black and
-      enslaved populations were treated separately; the accompanying 1850 abstract acknowledged serious deficiencies
-      or tabulation errors in the 1840 insanity and idiocy returns.
+      Calhoun's official 18 April 1844 letter says states that changed the relation of slavery made Black people's
+      condition worse and uses census-derived disability, pauperism, and prison ratios to defend that conclusion. The
+      1-in-96 and 1-in-672 comparison on page 52 combines deafness, muteness, blindness, idiocy, and insanity.
+  - id: emancipation-census-structure
+    sourceId: emancipation-1840-questionnaire
+    relation: documents
+    target: {scope: belief, aspect: correction}
+    locator: Index of Questions, “Free Colored Persons,” “Slaves,” and “Deaf, Dumb, Blind, and Insane Colored Persons”
+    note: >-
+      The official question index shows separate age-and-sex population columns for free Black people and enslaved
+      people, followed by one combined set of disability columns for “colored persons.” It therefore did not directly
+      tabulate disability by free or enslaved status.
+  - id: emancipation-ray-correction
+    sourceId: emancipation-maine-hospital-report
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Superintendent's report, printed pp. 26–28, especially p. 27
+    note: >-
+      Isaac Ray reports 94 Black insanity cases in Maine and identifies 56 of them in towns that the same census listed
+      with no Black inhabitants. He says some listed towns were personally known to contain no such patient and concludes
+      that the returns were extremely inaccurate.
+  - id: emancipation-jarvis-correction
+    sourceId: emancipation-jarvis-1844
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: pp. 74–83, especially pp. 75–78 and 82–83
+    note: >-
+      Jarvis traces the inflated rates to town-level entries, including 133 white patients at the Worcester state
+      hospital placed in the Black column, and lists numerous disability counts where no Black population was recorded.
+      He concludes that the published census cannot support claims about Black insanity in the free states.
+  - id: emancipation-asa-correction
+    sourceId: emancipation-asa-memorial
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: S. Doc. 5, pp. 9–18, especially pp. 9–12 and 17–18
+    note: >-
+      The memorial compares manuscript returns, printed tables, state inquiries, and local population totals. It
+      documents misclassification and internal contradiction, then asks Congress to correct the census or withdraw its
+      sanction if correction is impossible.
+  - id: emancipation-calhoun-impact
+    sourceId: emancipation-senate-doc-341
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: S. Doc. 341, pp. 50–53
+    note: >-
+      The statistics appear inside Calhoun's reply to the British minister about abolition in Texas and the treaty of
+      annexation, establishing their use in official diplomacy rather than only in private commentary.
+  - id: emancipation-census-context
+    sourceId: emancipation-1840-questionnaire
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: context}
+    locator: “About the 1840 Questionnaires,” “Enumeration,” and “Index of Questions”
+    note: >-
+      The Census Bureau identifies the form as a two-page federal schedule, describes State Department supervision and
+      enumeration by federal marshals, and reproduces the population and disability headings needed to understand how
+      the later sectional proxy was constructed.
+  - id: emancipation-calhoun-carrier
+    sourceId: emancipation-senate-doc-341
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: carrier}
+    locator: S. Doc. 341, pp. 50–53
+    note: >-
+      The Senate publication identifies the text as a Department of State letter from Calhoun to Pakenham and places the
+      census claim within the executive branch's official correspondence over Texas annexation.
+  - id: emancipation-calhoun-mechanism
+    sourceId: emancipation-senate-doc-341
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: mechanism}
+    locator: S. Doc. 341, pp. 50–53
+    note: >-
+      The letter shows the mechanism directly: census figures were selected, combined into sectional ratios, assigned a
+      causal meaning, and published as the State Department's answer to a foreign government.
+  - id: emancipation-calhoun-consequences
+    sourceId: emancipation-senate-doc-341
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: consequences}
+    locator: S. Doc. 341, pp. 50–53
+    note: >-
+      Calhoun placed the statistical claim inside the argument that British antislavery policy in Texas endangered the
+      United States and that annexation was an act of federal self-defense, documenting its immediate policy use.
+  - id: emancipation-ray-episode-correction
+    sourceId: emancipation-maine-hospital-report
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: institutional-correction}
+    locator: Superintendent's report, printed pp. 26–28
+    note: >-
+      A state institution's own superintendent publicly challenged the federal returns in 1844 and supplied the exact
+      Maine audit behind the card's 56-of-94 figure.
+  - id: emancipation-house-reports-correction
+    sourceId: emancipation-house-reports-catalogue
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: institutional-correction}
+    locator: Catalogue p. 498, entries for House Reports 579 and 580
+    note: >-
+      The official catalogue prevents two same-day reports from being conflated: Report 579 concerned Thomas Earle's
+      petition and said the alleged errors had not been ascertained, while Report 580 concerned the Statistical
+      Association's memorial and described the census as inaccurate.
+  - id: emancipation-history-context
+    sourceId: emancipation-census-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: context}
+    locator: Section “Paper, Pencil, and the Early Census,” paragraphs on the 1840 error and 1850 redesign
+    note: >-
+      This peer-reviewed institutional history connects the eighty-column 1840 form to column-placement errors, recounts
+      Jarvis's audit and Calhoun's refusal to change the results, and explains the Census Board and individual-level
+      redesign adopted for 1850.
+  - id: emancipation-1854-aftermath
+    sourceId: emancipation-1850-statistical-view
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: context}
+    locator: “Free Colored Population,” printed pp. 75–78, especially pp. 76–77
+    note: >-
+      The 1854 federal compendium revisits the objections, reproduces the State Department's “unimpeachable” defense,
+      concedes that the 1830 and 1840 northern ratios probably suffered from error, and nevertheless calculates fresh
+      sectional disability ratios from the 1850 returns. It is evidence of an unresolved official aftermath, not a
+      direct retraction or a new causal test.
+  - id: emancipation-jarvis-episode-correction
+    sourceId: emancipation-jarvis-1844
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: institutional-correction}
+    locator: pp. 75–83
+    note: >-
+      The contemporary journal article supplies a reproducible town-by-town challenge to the census and identifies a
+      concrete mechanism—white cases entered in Black columns—for part of the sectional disparity.
+  - id: emancipation-asa-memorial-action
+    sourceId: emancipation-asa-memorial
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: institutional-correction}
+    locator: S. Doc. 5, pp. 9–18
+    note: >-
+      The Statistical Association formally carried the documented errors to Congress and requested correction or
+      disavowal, turning external criticism into an institutional review question.
+  - id: emancipation-senate-response
+    sourceId: emancipation-senate-report-146
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: institutional-correction}
+    locator: S. Rep. 146, pp. 1–2
+    note: >-
+      The Joint Committee on the Library found the memorial's criticisms generally correct and the census errors
+      capable of destroying confidence. It recommended safeguards for 1850 but declined revision, formal withdrawal of
+      Congress's sanction, and further consideration of the memorial.
+  - id: emancipation-state-department-defense
+    sourceId: emancipation-state-department-116
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: carrier}
+    locator: H. Doc. 116, pp. 1–4, especially pp. 2–3
+    note: >-
+      Calhoun's February 1845 transmittal identifies Weaver's departmental review, says the sectional disability result
+      stands unimpeached, and concludes that changing slavery's racial relation would be a curse rather than a blessing
+      for Black people.
+  - id: emancipation-state-department-resistance
+    sourceId: emancipation-state-department-116
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: institutional-correction}
+    locator: H. Doc. 116, pp. 1–4; Weaver report, pp. 4–30
+    note: >-
+      The document also marks the limit of correction inside the adopting institution: Weaver rejects the House
+      committee's conclusion, treats most objections as mistaken or immaterial, and defends the census's general result.
+  - id: emancipation-history-redesign
+    sourceId: emancipation-census-history
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1844-1845, aspect: institutional-correction}
+    locator: Section “The Tabulation Bottleneck, 1850–1880,” opening paragraphs
+    note: >-
+      The article documents Congress's 1849 Census Board and the 1850 shift from an eighty-column household summary to
+      individual rows and separate schedules, a procedural response that prevented recurrence without a general revision
+      of the 1840 publication.

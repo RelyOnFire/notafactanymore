@@ -1,44 +1,62 @@
 schemaVersion: 2
-title: Predator eradication in Yellowstone
+title: Wolf extirpation and predator control in Yellowstone
+entryId: predators-only-harm-prey-populations
 proposition:
   summary: >-
-    Wolves and other large predators in Yellowstone were treated as destructive competitors whose removal would protect
-    desirable game animals such as deer and elk and improve wildlife management.
+    Yellowstone managers treated wolves and other carnivores as destructive competitors: killing them was expected to
+    protect livestock and favored wildlife, especially deer and elk. From 1914 through 1926, this premise supported an
+    intensive campaign that killed at least 136 wolves inside the park and eliminated its last known pack.
 correction:
   summary: >-
-    Predators can reduce prey populations and create conflicts with livestock or human objectives, but native apex
-    predators are also components of functioning ecosystems. Their removal can reorganize predator-prey relationships,
-    scavenger food supplies, herbivore abundance and behavior, and vegetation. Yellowstone now manages wolves as a
-    restored native species and an important part of the park's food web.
+    Wolves kill prey and can cause livestock conflicts; their effects depend on prey density, weather, other predators,
+    hunting and place. A native apex predator cannot, however, be reduced to those costs. Wolves shape predator-prey
+    relationships and scavenger food supplies, and removing them is itself a food-web intervention. Yellowstone ended
+    general predator control in 1935 and ultimately restored wolves, but the evidence does not support attributing every
+    later change in vegetation or streams to wolves alone.
 category: Wildlife management and ecology
-entryId: predators-only-harm-prey-populations
-reviewedAt: '2026-08-27'
+reviewedAt: '2026-09-27'
 impact:
   summary: >-
-    Predator control in Yellowstone converted a simple management proposition into direct eradication. Park authorities
-    killed wolves and other carnivores to protect animals regarded as more desirable. Wolves disappeared as a breeding
-    population, and restoring the missing predator later required federal protection, decades of planning and active
-    reintroduction.
+    The predator-as-competitor premise became a lethal federal campaign. National Park Service records count at least
+    136 wolves killed inside Yellowstone from 1914 through 1926. The last known den was destroyed in 1923 and the last
+    known pack was killed in 1926; scattered sightings followed, but the 1994 federal environmental review found no
+    known pack or breeding pair in the Greater Yellowstone Area. Repair required federal protection, recovery planning,
+    an environmental review and the active relocation of 31 Canadian wolves to Yellowstone in 1995 and 1996.
   highlights:
     - value: '136+'
-      label: Wolves killed inside Yellowstone from 1914 through 1926 according to National Park Service records
+      label: minimum number of wolves killed inside Yellowstone from 1914 through 1926
     - value: '1926'
-      label: The last known Yellowstone wolf pack was killed
-    - value: '1995'
-      label: Federal wolf reintroduction began after nearly seven decades without a resident pack
+      label: year the last known Yellowstone wolf pack was killed
+    - value: '31 wolves'
+      label: relocated from western Canada to Yellowstone in 1995 and 1996
   context:
     - >-
-      The famous claim that wolves alone transformed Yellowstone's rivers and vegetation is too simple. Researchers
-      continue to debate the magnitude of wolf-driven trophic cascades because climate, hunting, bears, cougars,
-      groundwater and other factors also changed.
+      Predator control in Yellowstone predates 1914, but the surviving National Park Service count begins in that year.
+      The Army's arrival in 1886 does not by itself establish that a continuous wolf-eradication campaign began then, so
+      this episode uses the documented 1914–1926 campaign as its auditable boundary.
     - >-
-      The corrected proposition is narrower and better supported: treating predators only as destructive competitors
-      missed important ecological functions and made their deliberate elimination itself a major ecosystem intervention.
+      “Eradication” accurately describes the loss of Yellowstone's breeding wolf population, not the fate of every
+      targeted carnivore. Cougar policy changed repeatedly: Theodore Roosevelt ordered cougar killing stopped in 1908,
+      it resumed in 1914, and the last reported official cougar killing occurred in 1925. Coyote killing continued after
+      the last known wolf pack was destroyed.
+    - >-
+      Wolves are one influence among many. Elk abundance and behavior also reflect other predators, human hunting,
+      drought, winter severity and changing prey communities. Groundwater, climate and the loss of beaver engineering
+      also affect willow and aspen, so the popular story that wolves alone transformed Yellowstone's vegetation and rivers
+      is not supported.
+    - >-
+      A 20-year field experiment found that returning large carnivores did not by itself restore northern-range willow
+      communities: continued browsing and altered hydrology kept many willows short. Restoration of a missing predator
+      therefore does not automatically or quickly reverse every ecological effect of its earlier removal.
+    - >-
+      Yellowstone now lets the in-park wolf population be shaped primarily by natural processes while monitoring packs,
+      prey, disease and genetics. Wolves that cross park boundaries encounter different state and Tribal rules, so the
+      park's correction should not be mistaken for one uniform policy across the Greater Yellowstone Ecosystem.
 episodes:
-  - id: united-states-yellowstone-1886-1926
+  - id: united-states-yellowstone-1914-1926
     polity: United States
     region: North America
-    startYear: 1886
+    startYear: 1914
     endYear: 1926
     strength: policy-basis
     institutionTypes:
@@ -47,36 +65,40 @@ episodes:
       - U.S. Army administration of Yellowstone National Park
       - U.S. National Park Service
     institutionalContext: >-
-      In the late nineteenth and early twentieth centuries, Yellowstone managers participated in the wider North American
-      campaign against large predators. The National Park Service's own history says early managers, lacking a modern
-      understanding of ecosystems, viewed wolves as destructive and targeted wolves, bears, cougars and coyotes to protect
-      livestock and 'desirable' wildlife such as deer and elk. Federal park management continued this logic after the
-      National Park Service was established in 1916.
+      The U.S. Army administered Yellowstone through 1918 and the National Park Service thereafter. Predator control had
+      begun earlier, but 1914 marks the start of the park's documented minimum count for the intensive wolf campaign.
+      Managers divided wildlife into favored species and carnivores treated as destructive competitors, then killed
+      wolves and other predators to protect livestock and “desirable” deer and elk. The premise was influential but never
+      perfectly uniform across species or officials, as the earlier reversal over cougar killing demonstrates.
     consequences:
-      - At least 136 wolves were killed inside Yellowstone between 1914 and 1926
-      - The last known wolf pack in the park was killed in 1926, and later surveys found no resident breeding population
-      - Removing wolves changed the park's predator-prey system and eliminated ecological interactions associated with a native apex predator
-      - Restoring wolves ultimately required Endangered Species Act protection, an environmental impact process and active translocation beginning in 1995
+      - At least 136 wolves were killed inside Yellowstone from 1914 through 1926
+      - The last known den was destroyed in 1923 and the last known pack was killed in 1926
+      - Later reports involved scattered individuals or small groups; no persistent breeding population was confirmed before reintroduction
+      - Pack-level predation and the associated supply of carcasses to scavengers were removed from the park's food web
+      - Restoring wolves required federal protection, recovery planning, environmental review and active translocation beginning in 1995
     summary: >-
-      Yellowstone's early predator policy divided wildlife into animals worth protecting and predators that competed with
-      those preferred species. Wolves were therefore not merely tolerated at low numbers; they were deliberately removed.
-      At least 136 were killed in the park from 1914 through 1926, when the last known pack was eliminated. By the 1960s
-      National Park Service thinking had shifted toward maintaining natural ecological processes, and later federal
-      conservation law supported recovery. Wolves were reintroduced in 1995–1997. Their exact contribution to every
-      subsequent vegetation change remains scientifically debated, but the old premise that their ecological role amounted
-      only to killing desirable prey did not survive.
+      Yellowstone's wolf campaign converted a simplified wildlife hierarchy into direct removal. At least 136 wolves were
+      killed from 1914 through 1926, when the park's last known pack was eliminated. Ending organized predator control in
+      1935 did not restore the missing breeding population. The National Park Service later adopted ecological management,
+      federal law enabled recovery, and a 1994 decision approved active reintroduction. Wolves returned in 1995 and 1996.
+      Their restoration reinstated a native predator and its interactions, while research continues to reject a single-cause
+      account of every subsequent change in elk, vegetation or streams.
     mechanism:
       kind: enforcement
       summary: >-
-        Federal park managers operationalized the predator-as-competitor premise through direct predator-control killing,
-        systematically removing wolves and other carnivores to protect species considered more desirable.
+        Federal park personnel carried out organized predator control, directly killed wolves and other selected
+        carnivores, recorded the removals and treated fewer predators as protection for livestock and favored wildlife.
     institutionalCorrection:
       status: corrected
-      periodLabel: 1960s–1995
-      action: National Park Service management shifted toward maintaining natural ecological processes and later participated in restoring wolves to Yellowstone, with reintroduction beginning in 1995.
+      periodLabel: 1935–1995
+      action: >-
+        The National Park Service ended general predator control in Yellowstone in 1935; the 1963 Leopold Report urged
+        protection of natural predation, and federal recovery planning and a 1994 Record of Decision led to wolf releases
+        beginning in 1995.
       summary: >-
-        The successor federal park-management system reversed the eradication premise by recognizing wolves as a native
-        ecological component and actively restoring them to the park rather than treating their absence as a management success.
+        Correction came in stages. The park stopped routine predator killing, national policy recognized predators as
+        components of native biotic communities, and the federal government protected and then actively restored wolves.
+        Current Yellowstone management monitors wolves within a food web instead of treating their absence as a success.
 sources:
   - id: yellowstone-wolf-history
     title: History of Wolf Management
@@ -94,52 +116,146 @@ sources:
     title: The Big Scientific Debate — Trophic Cascades
     url: https://home.nps.gov/articles/the-big-scientific-debate-trophic-cascades.htm
     publisher: U.S. National Park Service
+  - id: johnston-predator-control-2002
+    title: 'Preserving the Beasts of Waste and Desolation: Theodore Roosevelt and Predator Control in Yellowstone'
+    url: https://npshistory.com/publications/yell/beasts.pdf
+    publisher: Yellowstone Science
+  - id: leopold-report-1963
+    title: Wildlife Management in the National Parks
+    url: https://npshistory.com/publications/leopold_report.pdf
+    publisher: U.S. Department of the Interior
+  - id: wolf-reintroduction-feis-1994
+    title: 'The Reintroduction of Gray Wolves to Yellowstone National Park and Central Idaho: Final Environmental Impact Statement'
+    url: https://npshistory.com/publications/yell/gray-wolf-reintro-eis-1994.pdf
+    publisher: U.S. Fish and Wildlife Service
+  - id: hobbs-carnivore-restoration-2024
+    title: Does restoring apex predators to food webs restore ecosystems? Large carnivores in Yellowstone as a model system
+    url: https://doi.org/10.1002/ecm.1598
+    publisher: Ecological Monographs
 evidence:
   - id: yellowstone-history-proposition
     sourceId: yellowstone-wolf-history
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: Early Wolf Management; last updated September 9, 2025
     note: >-
-      Official history stating that early Yellowstone managers viewed wolves as destructive predators, that at least 136
-      were killed in the park from 1914 through 1926, and that the last pack was eliminated in 1926 before later restoration efforts.
+      The official history says early managers viewed wolves as destructive and targeted wolves, bears, cougars and
+      coyotes to protect livestock and favored wildlife; it records at least 136 wolf kills from 1914 through 1926.
   - id: yellowstone-management-correction
     sourceId: yellowstone-wolf-management
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: FAQ sections on lessons since reintroduction and effects on prey; last updated April 3, 2026
     note: >-
-      Current Yellowstone management describes wolves as apex predators that influence the food web and explains that
-      reintroduction sought to restore a native species and the ecological role of predation.
+      Current management describes wolves within a multi-predator food web and explains that effects on elk vary over
+      time alongside hunting, weather, bears, cougars and other influences.
   - id: yellowstone-history-impact
     sourceId: yellowstone-wolf-history
     relation: supports
     target: {scope: belief, aspect: impact}
+    locator: Early Wolf Management; Wolf Management Timeline; Relocation and Release
+    note: >-
+      Provides the 136-wolf minimum, the 1926 loss of the last known pack and the relocation of 14 wolves in 1995 and 17
+      in 1996.
   - id: yellowstone-history-carrier
     sourceId: yellowstone-wolf-history
     relation: documents
-    target: {scope: episode, episodeId: united-states-yellowstone-1886-1926, aspect: carrier}
+    target: {scope: episode, episodeId: united-states-yellowstone-1914-1926, aspect: carrier}
+    locator: Early Wolf Management
+    note: >-
+      Identifies early Yellowstone managers as participants in predator control inside the park, names the targeted
+      carnivores and rationale, and records the 1914–1926 wolf-kill minimum.
   - id: yellowstone-history-mechanism
     sourceId: yellowstone-wolf-history
     relation: documents
-    target: {scope: episode, episodeId: united-states-yellowstone-1886-1926, aspect: mechanism}
+    target: {scope: episode, episodeId: united-states-yellowstone-1914-1926, aspect: mechanism}
+    locator: Early Wolf Management
+    note: >-
+      Documents direct killing as a management response intended to protect livestock and “desirable” wildlife.
   - id: yellowstone-history-consequences
     sourceId: yellowstone-wolf-history
     relation: supports
-    target: {scope: episode, episodeId: united-states-yellowstone-1886-1926, aspect: consequences}
+    target: {scope: episode, episodeId: united-states-yellowstone-1914-1926, aspect: consequences}
+    locator: Early Wolf Management; Wolf Management Timeline
+    note: >-
+      Records the kill total, loss of the last known pack and absence of a confirmed resident population in later surveys.
+  - id: yellowstone-management-institutional-correction
+    sourceId: yellowstone-wolf-management
+    relation: documents
+    target: {scope: episode, episodeId: united-states-yellowstone-1914-1926, aspect: institutional-correction}
+    locator: FAQ sections on population management and reasons for reintroduction; last updated April 3, 2026
+    note: >-
+      Explains the present natural-process approach and identifies the 1963 Leopold Report, ecological restoration and
+      reestablishment of predation as foundations of the institutional reversal.
   - id: yellowstone-lamar-context
     sourceId: yellowstone-lamar-cascades
     relation: contextualizes
-    target: {scope: episode, episodeId: united-states-yellowstone-1886-1926, aspect: context}
+    target: {scope: episode, episodeId: united-states-yellowstone-1914-1926, aspect: context}
+    locator: Effects of Wolves; last updated November 27, 2024
     note: >-
-      NPS explanation of predator effects on elk and vegetation that also explicitly cautions that the magnitude and
-      causation of Yellowstone trophic cascades remain scientifically contested.
+      Summarizes observed links among wolves, elk and woody plants while noting disagreement over causation and the role
+      of groundwater.
   - id: yellowstone-debate-context
     sourceId: yellowstone-cascade-debate
     relation: contextualizes
-    target: {scope: episode, episodeId: united-states-yellowstone-1886-1926, aspect: context}
+    target: {scope: episode, episodeId: united-states-yellowstone-1914-1926, aspect: context}
+    locator: Main text, paragraphs 1–7; last updated May 16, 2019
     note: >-
-      Yellowstone scientists explain why the ecological consequences of wolf restoration are real but more complex than
-      the popular single-cause trophic-cascade story.
-  - id: yellowstone-history-institutional-correction
-    sourceId: yellowstone-wolf-history
+      Explains the uncontrolled before-and-after comparison and the competing effects of predator numbers, elk behavior,
+      hunting, water, climate and beavers; it explicitly rejects crediting wolves as the only agent.
+  - id: johnston-predator-policy-context
+    sourceId: johnston-predator-control-2002
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-yellowstone-1914-1926, aspect: context}
+    locator: Spring 2002, pp. 14–21, especially pp. 18–20
+    note: >-
+      Reconstructs the nonuniform policy: Roosevelt halted cougar killing in 1908 after recognizing a regulatory role,
+      cougar control resumed in 1914, and species-specific killing continued on different timelines.
+  - id: johnston-institutional-correction
+    sourceId: johnston-predator-control-2002
+    relation: documents
+    target: {scope: episode, episodeId: united-states-yellowstone-1914-1926, aspect: institutional-correction}
+    locator: Spring 2002, pp. 19–20
+    note: >-
+      Dates the end of general National Park Service predator control in Yellowstone to 1935 and describes the later
+      move toward natural regulation.
+  - id: leopold-report-correction
+    sourceId: leopold-report-1963
+    relation: documents
+    target: {scope: belief, aspect: correction}
+    locator: Historical, pp. 1–2; Control of Animal Populations, pp. 9–10
+    note: >-
+      The advisory board explicitly describes the old division between “good” animals and “bad” predators, calls for
+      native biotic associations and says natural predation should be encouraged wherever possible.
+  - id: leopold-report-institutional-correction
+    sourceId: leopold-report-1963
+    relation: documents
+    target: {scope: episode, episodeId: united-states-yellowstone-1914-1926, aspect: institutional-correction}
+    locator: The Goal of Park Management, pp. 3–4; Control of Animal Populations, pp. 9–10
+    note: >-
+      Primary policy advice urging the National Park Service to protect large predators and recreate native ecological
+      associations where feasible.
+  - id: wolf-feis-consequences
+    sourceId: wolf-reintroduction-feis-1994
     relation: supports
-    target: {scope: episode, episodeId: united-states-yellowstone-1886-1926, aspect: institutional-correction}
+    target: {scope: episode, episodeId: united-states-yellowstone-1914-1926, aspect: consequences}
+    locator: Final EIS, volume 1, pp. 3-8–3-10
+    note: >-
+      Records the 1914–1926 minimum of 136 kills, destruction of the last known den in 1923 and the later absence of any
+      known pack or breeding pair in the Greater Yellowstone Area.
+  - id: wolf-feis-institutional-correction
+    sourceId: wolf-reintroduction-feis-1994
+    relation: documents
+    target: {scope: episode, episodeId: united-states-yellowstone-1914-1926, aspect: institutional-correction}
+    locator: Record of Decision, Background and Selected Alternative
+    note: >-
+      The federal decision selects reintroduction, explains that wolves had been treated as conflicting with human
+      activity when their ecology was poorly understood, and recognizes them as a potentially important ecosystem part.
+  - id: hobbs-restoration-context
+    sourceId: hobbs-carnivore-restoration-2024
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-yellowstone-1914-1926, aspect: context}
+    locator: Ecological Monographs e1598, pp. 1–2 and 25–28
+    note: >-
+      A 20-year factorial experiment finds that carnivore restoration alone did not return northern-range willows to the
+      earlier state because browsing, lost beaver engineering and altered hydrology continued to constrain recovery.

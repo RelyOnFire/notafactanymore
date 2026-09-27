@@ -1,90 +1,169 @@
 schemaVersion: 2
 locale: de
 entryId: yellowstone-predator-eradication
-sourceReviewedAt: '2026-08-27'
-title: Ausrottung großer Beutegreifer im Yellowstone
+sourceReviewedAt: '2026-09-27'
+title: Ausrottung der Wölfe und Bekämpfung von Raubtieren im Yellowstone
 proposition:
   summary: >-
-    Wölfe und andere große Beutegreifer im Yellowstone wurden als schädliche Konkurrenten behandelt, deren Entfernung
-    erwünschte Wildarten wie Hirsche und Wapitis schützen und das Wildtiermanagement verbessern sollte.
+    Die Yellowstone-Verwaltung behandelte Wölfe und andere Beutegreifer als schädliche Konkurrenten: Ihre Tötung sollte
+    Vieh und bevorzugte Wildtiere, besonders Hirsche und Wapitis, schützen. Von 1914 bis 1926 trug diese Annahme eine
+    intensive Kampagne, die im Park mindestens 136 Wölfe tötete und das letzte bekannte Rudel beseitigte.
 correction:
   summary: >-
-    Beutegreifer können Beutebestände verringern und mit Viehhaltung oder menschlichen Zielen in Konflikt geraten.
-    Einheimische Spitzenprädatoren sind jedoch zugleich Bestandteile funktionierender Ökosysteme. Ihre Entfernung kann
-    Räuber-Beute-Beziehungen, das Nahrungsangebot für Aasfresser, Zahl und Verhalten von Pflanzenfressern sowie die
-    Vegetation verändern. Yellowstone behandelt Wölfe heute als wiederhergestellte einheimische Art und wichtigen
-    Bestandteil des Nahrungsnetzes.
+    Wölfe erbeuten Wildtiere und können Konflikte mit der Viehhaltung verursachen; ihre Wirkung hängt von Beutedichte,
+    Wetter, anderen Beutegreifern, Jagd und Ort ab. Ein einheimischer Spitzenprädator lässt sich jedoch nicht auf diese
+    Kosten reduzieren. Wölfe prägen Räuber-Beute-Beziehungen und das Nahrungsangebot für Aasfresser; ihre Entfernung ist
+    selbst ein Eingriff in das Nahrungsnetz. Yellowstone beendete 1935 die allgemeine Raubtierbekämpfung und stellte
+    Wölfe schließlich wieder her. Dennoch lässt sich nicht jede spätere Veränderung von Vegetation oder Gewässern allein
+    auf Wölfe zurückführen.
 impact:
   summary: >-
-    Die Raubtierbekämpfung im Yellowstone setzte eine vereinfachte Managementannahme unmittelbar in Ausrottung um.
-    Parkbehörden töteten Wölfe und andere Karnivoren, um als wertvoller betrachtete Arten zu schützen. Wölfe verschwanden
-    als reproduzierende Population; ihre spätere Rückkehr erforderte bundesrechtlichen Schutz, jahrzehntelange Planung und
-    aktive Wiederansiedlung.
+    Die Vorstellung vom Beutegreifer als Konkurrenten wurde zu einer tödlichen Kampagne der Bundesbehörden. Aufzeichnungen des
+    National Park Service zählen von 1914 bis 1926 mindestens 136 im Yellowstone getötete Wölfe. 1923 wurde der letzte
+    bekannte Bau zerstört, 1926 das letzte bekannte Rudel getötet. Danach gab es vereinzelte Sichtungen, doch die
+    Umweltprüfung des Bundes von 1994 fand im Greater Yellowstone Ecosystem weder Rudel noch fortpflanzungsfähige Paare.
+    Die Wiederherstellung erforderte Schutz nach Bundesrecht, Bestandserholungsplanung, eine Umweltprüfung und die aktive Umsiedlung von 31
+    kanadischen Wölfen in den Jahren 1995 und 1996.
   highlights:
     - value: 136+
-      label: Von 1914 bis 1926 im Yellowstone getötete Wölfe laut National Park Service
+      label: Mindestzahl der von 1914 bis 1926 im Yellowstone getöteten Wölfe
     - value: '1926'
-      label: Das letzte bekannte Wolfsrudel im Yellowstone wurde getötet
-    - value: '1995'
-      label: Nach fast sieben Jahrzehnten ohne ansässiges Rudel begann die staatliche Wiederansiedlung
+      label: Jahr der Tötung des letzten bekannten Wolfsrudels im Yellowstone
+    - value: 31 Wölfe
+      label: 1995 und 1996 aus Westkanada in den Yellowstone umgesiedelt
   context:
     - >-
-      Die populäre Erzählung, Wölfe allein hätten Flüsse und Vegetation des Yellowstone grundlegend verändert, ist zu
-      simpel. Über Stärke und Ursache trophischer Kaskaden wird weiter geforscht, weil gleichzeitig Klima, Jagd, Bären,
-      Pumas, Grundwasser und andere Faktoren wirkten.
+      Raubtierbekämpfung gab es im Yellowstone schon vor 1914, doch die erhaltene Zählung des National Park Service setzt
+      in diesem Jahr ein. Die Übernahme durch die US-Armee 1886 belegt für sich allein keine damals beginnende,
+      ununterbrochene Kampagne zur Ausrottung der Wölfe. Die Episode verwendet daher die dokumentierte Kampagne von 1914
+      bis 1926 als überprüfbare Grenze.
     - >-
-      Die belastbare Korrektur ist enger: Wer große Beutegreifer nur als schädliche Konkurrenten betrachtete, übersah
-      wichtige ökologische Funktionen und machte ihre gezielte Entfernung selbst zu einem tiefen Eingriff in das Ökosystem.
+      „Ausrottung“ beschreibt zutreffend den Verlust der reproduzierenden Wolfspopulation, nicht das Schicksal jedes
+      bekämpften Beutegreifers. Die Puma-Politik wechselte mehrfach: Theodore Roosevelt ließ die Tötung 1908 einstellen,
+      ab 1914 wurde sie wieder aufgenommen, und die letzte amtlich gemeldete Pumatötung erfolgte 1925. Kojoten wurden
+      auch nach der Vernichtung des letzten bekannten Wolfsrudels weiter getötet.
+    - >-
+      Wölfe sind einer von vielen Einflüssen. Zahl und Verhalten der Wapitis hängen auch von anderen Beutegreifern,
+      menschlicher Jagd, Dürre, Winterhärte und veränderten Beutetiergemeinschaften ab. Grundwasser, Klima und der Verlust
+      der Landschaftsgestaltung durch Biber beeinflussen ebenfalls Weiden und Espen; die populäre Geschichte, Wölfe allein
+      hätten Vegetation und Flüsse des Yellowstone verwandelt, ist daher nicht belegt.
+    - >-
+      Ein 20-jähriges Feldexperiment ergab, dass die Rückkehr großer Beutegreifer allein die Weidenbestände der Northern
+      Range nicht wiederherstellte: fortgesetzter Verbiss und veränderte Hydrologie hielten viele Weiden niedrig. Die
+      Wiederherstellung eines fehlenden Prädators kehrt daher nicht automatisch oder rasch jede ökologische Folge seiner
+      früheren Entfernung um.
+    - >-
+      Yellowstone lässt die Wolfspopulation im Park heute vorwiegend durch natürliche Prozesse bestimmen und überwacht
+      Rudel, Beutetiere, Krankheiten und Genetik. Außerhalb der Parkgrenzen gelten andere Regeln der Bundesstaaten und
+      indigenen Nationen; die Korrektur des Parks ist daher keine einheitliche Politik für das gesamte Greater Yellowstone
+      Ecosystem.
 episodes:
-  - id: united-states-yellowstone-1886-1926
+  - id: united-states-yellowstone-1914-1926
     polity: Vereinigte Staaten
     institutions:
       - Verwaltung des Yellowstone-Nationalparks durch die US-Armee
       - U.S. National Park Service
     institutionalContext: >-
-      Im späten 19. und frühen 20. Jahrhundert beteiligte sich die Yellowstone-Verwaltung an der nordamerikanischen
-      Bekämpfung großer Beutegreifer. Nach eigener Darstellung des National Park Service betrachteten frühe Parkmanager
-      Wölfe mangels eines modernen Ökosystemverständnisses als schädlich und gingen gegen Wölfe, Bären, Pumas und Kojoten
-      vor, um Vieh und „erwünschte“ Wildtiere wie Hirsche und Wapitis zu schützen.
-    summary: >-
-      Die frühe Raubtierpolitik des Yellowstone teilte Wildtiere in schützenswerte Arten und Räuber ein, die mit ihnen
-      konkurrierten. Von 1914 bis 1926 wurden mindestens 136 Wölfe im Park getötet; 1926 verschwand das letzte bekannte
-      Rudel. In den 1960er-Jahren verschob sich die Denkweise des National Park Service hin zum Erhalt natürlicher Prozesse,
-      und ab 1995 wurden Wölfe wiederangesiedelt.
+      Bis 1918 verwaltete die US-Armee den Yellowstone, danach der National Park Service. Raubtierbekämpfung hatte früher
+      begonnen; 1914 markiert jedoch den Beginn der dokumentierten Mindestzählung für die intensive Wolfskampagne des
+      Parks. Manager teilten Wildtiere in bevorzugte Arten und als schädliche Konkurrenten behandelte Karnivoren ein. Sie
+      töteten Wölfe und andere Beutegreifer zum Schutz von Vieh und „erwünschten“ Hirschen und Wapitis. Die Annahme war
+      einflussreich, galt aber weder für alle Arten noch bei allen Amtsträgern gleich, wie die frühere Kehrtwende bei der
+      Pumatötung zeigt.
     consequences:
-      - Zwischen 1914 und 1926 wurden im Yellowstone mindestens 136 Wölfe getötet
-      - 1926 wurde das letzte bekannte Wolfsrudel des Parks getötet; spätere Untersuchungen fanden keine ansässige reproduzierende Population mehr
-      - Mit den Wölfen verschwanden ökologische Wechselwirkungen eines einheimischen Spitzenprädators aus dem Räuber-Beute-System des Parks
-      - Die Wiederherstellung erforderte später Schutz nach dem Endangered Species Act, ein Umweltprüfungsverfahren und aktive Umsiedlungen ab 1995
+      - Von 1914 bis 1926 wurden im Yellowstone mindestens 136 Wölfe getötet
+      - 1923 wurde der letzte bekannte Bau zerstört und 1926 das letzte bekannte Rudel getötet
+      - Spätere Berichte betrafen vereinzelte Tiere oder kleine Gruppen; vor der Wiederansiedlung wurde keine dauerhafte reproduzierende Population bestätigt
+      - Rudelbasierte Prädation und die damit verbundene Versorgung von Aasfressern mit Kadavern verschwanden aus dem Nahrungsnetz des Parks
+      - Die Wiederherstellung erforderte Schutz nach Bundesrecht, Bestandserholungsplanung, Umweltprüfung und aktive Umsiedlung ab 1995
+    summary: >-
+      Yellowstones Wolfskampagne verwandelte eine vereinfachte Hierarchie der Wildtiere in direkte Beseitigung. Von 1914
+      bis 1926 wurden mindestens 136 Wölfe getötet; 1926 verschwand das letzte bekannte Rudel. Das Ende der organisierten
+      Raubtierbekämpfung im Jahr 1935 stellte die fehlende Fortpflanzungspopulation nicht wieder her. Später übernahm der
+      National Park Service ökologisches Management, Bundesrecht ermöglichte die Bestandserholung, und 1994 wurde die aktive
+      Wiederansiedlung genehmigt. 1995 und 1996 kehrten Wölfe zurück. Damit wurden ein einheimischer Beutegreifer und seine
+      Wechselwirkungen wiederhergestellt; die Forschung verwirft zugleich monokausale Erklärungen jeder späteren Änderung
+      bei Wapitis, Vegetation oder Gewässern.
     mechanism:
       summary: >-
-        Die Bundesparkverwaltung setzte die Vorstellung vom Räuber als Konkurrenten durch direkte Bekämpfung um und tötete
-        Wölfe sowie andere Karnivoren gezielt zum Schutz als erwünschter betrachteter Arten.
+        Bundesbedienstete des Parks betrieben organisierte Raubtierbekämpfung, töteten Wölfe und andere ausgewählte
+        Karnivoren direkt, erfassten die Beseitigungen und behandelten weniger Beutegreifer als Schutz für Vieh und
+        bevorzugte Wildtiere.
     institutionalCorrection:
-      periodLabel: 1960er-Jahre–1995
-      action: Der National Park Service wandte sich stärker dem Erhalt natürlicher ökologischer Prozesse zu und beteiligte sich später an der Wiederherstellung der Wölfe im Yellowstone; die Wiederansiedlung begann 1995.
+      periodLabel: 1935–1995
+      action: >-
+        Der National Park Service beendete 1935 die allgemeine Raubtierbekämpfung im Yellowstone; der Leopold-Bericht von
+        1963 forderte den Schutz natürlicher Prädation, und Bestandserholungsplanung des Bundes samt Beschluss von 1994
+        führte ab 1995 zur Freilassung von Wölfen.
       summary: >-
-        Das nachfolgende Bundesparkmanagement kehrte die Ausrottungslogik um, erkannte Wölfe als einheimischen Bestandteil
-        des Ökosystems an und stellte sie aktiv wieder her, statt ihre Abwesenheit als Managementerfolg zu behandeln.
+        Die Korrektur verlief in Stufen. Der Park stellte die routinemäßige Tötung von Beutegreifern ein, die nationale Politik erkannte
+        Beutegreifer als Bestandteile einheimischer Lebensgemeinschaften an, und der Bund schützte Wölfe und stellte sie
+        anschließend aktiv wieder her. Das heutige Yellowstone-Management beobachtet Wölfe innerhalb eines Nahrungsnetzes,
+        statt ihre Abwesenheit als Erfolg zu behandeln.
 evidence:
   - id: yellowstone-history-proposition
     note: >-
-      Offizielle Geschichte, wonach frühe Yellowstone-Manager Wölfe als schädliche Räuber betrachteten, zwischen 1914 und
-      1926 mindestens 136 Wölfe im Park töteten und 1926 das letzte Rudel beseitigten, bevor später die Wiederherstellung begann.
+      Die offizielle Geschichte erklärt, dass frühe Manager Wölfe als schädlich ansahen und Wölfe, Bären, Pumas und
+      Kojoten zum Schutz von Vieh und bevorzugten Wildtieren bekämpften; sie verzeichnet von 1914 bis 1926 mindestens 136
+      getötete Wölfe.
   - id: yellowstone-management-correction
     note: >-
-      Die heutige Yellowstone-Verwaltung beschreibt Wölfe als Spitzenprädatoren mit Einfluss auf das Nahrungsnetz und
-      erklärt, dass die Wiederansiedlung eine einheimische Art und die ökologische Rolle der Prädation wiederherstellen sollte.
+      Das heutige Management beschreibt Wölfe in einem Nahrungsnetz mit mehreren Beutegreifern und erläutert, dass ihre
+      Wirkung auf Wapitis im Zusammenspiel mit Jagd, Wetter, Bären, Pumas und weiteren Einflüssen zeitlich variiert.
   - id: yellowstone-history-impact
+    note: >-
+      Belegt die Mindestzahl von 136, den Verlust des letzten bekannten Rudels 1926 und die Umsiedlung von 14 Wölfen 1995
+      sowie 17 weiteren im Jahr 1996.
   - id: yellowstone-history-carrier
+    note: >-
+      Benennt frühe Yellowstone-Manager als Träger der Raubtierbekämpfung im Park, nennt die betroffenen Karnivoren und
+      die Begründung und verzeichnet die Mindestzahl der von 1914 bis 1926 getöteten Wölfe.
   - id: yellowstone-history-mechanism
+    note: >-
+      Dokumentiert direkte Tötungen als Managementmaßnahme zum Schutz von Vieh und „erwünschten“ Wildtieren.
   - id: yellowstone-history-consequences
+    note: >-
+      Belegt die Zahl der Tötungen, den Verlust des letzten bekannten Rudels und das Fehlen einer bestätigten ansässigen
+      Population bei späteren Untersuchungen.
+  - id: yellowstone-management-institutional-correction
+    note: >-
+      Erläutert den heutigen Ansatz natürlicher Prozesse und nennt den Leopold-Bericht von 1963, ökologische
+      Wiederherstellung und die Wiederherstellung der Prädation als Grundlagen der institutionellen Umkehr.
   - id: yellowstone-lamar-context
     note: >-
-      NPS-Darstellung der Wirkungen von Beutegreifern auf Wapitis und Vegetation, die zugleich ausdrücklich darauf hinweist,
-      dass Stärke und Kausalität der trophischen Kaskaden im Yellowstone wissenschaftlich umstritten bleiben.
+      Fasst beobachtete Zusammenhänge zwischen Wölfen, Wapitis und Gehölzen zusammen und weist zugleich auf den Streit um
+      Kausalität sowie die Rolle des Grundwassers hin.
   - id: yellowstone-debate-context
     note: >-
-      Yellowstone-Forschende erläutern, warum die ökologischen Folgen der Wolfsrückkehr real, aber komplexer als die
-      populäre monokausale Trophiekaskaden-Erzählung sind.
-  - id: yellowstone-history-institutional-correction
+      Erläutert den unkontrollierten Vorher-nachher-Vergleich und die konkurrierenden Einflüsse von Prädatorenzahl,
+      Wapitiverhalten, Jagd, Wasser, Klima und Bibern; Wölfe ausdrücklich als einzigen Auslöser anzusehen, wird verworfen.
+  - id: johnston-predator-policy-context
+    note: >-
+      Rekonstruiert die uneinheitliche Politik: Roosevelt stoppte die Pumatötung 1908, nachdem er eine regulierende Rolle
+      erkannt hatte; 1914 begann sie erneut, und artspezifische Tötungen liefen zu unterschiedlichen Zeiten weiter.
+  - id: johnston-institutional-correction
+    note: >-
+      Datiert das Ende der allgemeinen Raubtierbekämpfung des National Park Service im Yellowstone auf 1935 und beschreibt
+      den späteren Übergang zur natürlichen Regulation.
+  - id: leopold-report-correction
+    note: >-
+      Der Beirat benennt ausdrücklich die alte Trennung zwischen „guten“ Tieren und „schlechten“ Beutegreifern, fordert
+      einheimische Lebensgemeinschaften und empfiehlt, natürliche Prädation soweit wie möglich zu fördern.
+  - id: leopold-report-institutional-correction
+    note: >-
+      Primäre Politikempfehlung an den National Park Service, große Beutegreifer zu schützen und einheimische ökologische
+      Lebensgemeinschaften soweit möglich wiederherzustellen.
+  - id: wolf-feis-consequences
+    note: >-
+      Verzeichnet für 1914 bis 1926 mindestens 136 Tötungen, die Zerstörung des letzten bekannten Baus im Jahr 1923 und
+      das spätere Fehlen jedes bekannten Rudels oder fortpflanzungsfähigen Paars im Greater Yellowstone Ecosystem.
+  - id: wolf-feis-institutional-correction
+    note: >-
+      Der Bundesbeschluss wählt die Wiederansiedlung, erläutert die frühere Behandlung von Wölfen als Konflikt mit
+      menschlichen Tätigkeiten bei mangelndem ökologischem Wissen und erkennt sie als potenziell wichtigen Teil des
+      Ökosystems an.
+  - id: hobbs-restoration-context
+    note: >-
+      Ein 20-jähriges faktorielles Experiment zeigt, dass die Rückkehr großer Beutegreifer allein die Weiden der Northern
+      Range nicht in den früheren Zustand versetzte, weil Verbiss, verlorene Biberdämme und veränderte Hydrologie die
+      Erholung weiterhin begrenzten.

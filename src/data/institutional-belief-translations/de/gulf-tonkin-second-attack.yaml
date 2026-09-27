@@ -1,72 +1,185 @@
+schemaVersion: 2
 locale: de
 entryId: gulf-tonkin-second-attack
-sourceReviewedAt: '2026-08-25'
-title: Ein zweiter Angriff im Golf von Tonkin
-claim: >-
-  US-Regierung, Militär und Nachrichtendienste behandelten Meldungen, wonach nordvietnamesische Seestreitkräfte am
-  4. August 1964 einen zweiten gezielten Angriff auf die USS Maddox und die USS Turner Joy geführt hätten, als
-  bestätigte Tatsache; der Kongress übernahm die Annahme wiederholter Angriffe in die Golf-von-Tonkin-Resolution.
-currentUnderstanding: >-
-  Am 2. August 1964 griffen nordvietnamesische Torpedoboote die USS Maddox tatsächlich an. Der behauptete zweite Angriff
-  am 4. August fand dagegen nicht statt. Radar-, Sonar- und Augenzeugenmeldungen waren in jener Nacht widersprüchlich,
-  während fehlgedeutete Fernmeldeaufklärung die Angriffsthese verstärkte. Eine spätere historische Untersuchung der NSA
-  kam zu dem Ergebnis, dass die nordvietnamesische Marine lediglich am 2. August beschädigte Boote barg und am
-  4. August keinen Angriff führte.
+sourceReviewedAt: '2026-09-27'
+title: Der gemeldete zweite Angriff im Golf von Tonkin
+proposition:
+  summary: >-
+    Am 4. August 1964 behandelten US-Regierung, Militär und Nachrichtendienste widersprüchliche Meldungen und ausgewählte
+    Fernmeldeaufklärung als Bestätigung, dass nordvietnamesische Seestreitkräfte einen zweiten gezielten Angriff auf USS
+    Maddox und USS Turner Joy geführt hätten. Die Regierung sprach öffentlich von einem weiteren unprovozierten Angriff;
+    der Kongress übernahm die Behauptung, nordvietnamesische Marineeinheiten hätten US-Schiffe „vorsätzlich und wiederholt“
+    angegriffen, in die Golf-von-Tonkin-Resolution.
+correction:
+  summary: >-
+    Nordvietnamesische Torpedoboote griffen die USS Maddox am 2. August 1964 tatsächlich an; korrigiert wird die
+    Behauptung zum 4. August. Die Belege stützen den Schluss, dass kein zweiter Angriff stattfand. Die Zerstörer operierten
+    nachts bei schwieriger Witterung und erzeugten widersprüchliche Radar-, Sonar- und Augenzeugenmeldungen. Ihr
+    Einsatzgruppenkommandeur warnte, viele gemeldete Kontakte und Torpedos erschienen zweifelhaft, und verlangte eine
+    vollständige Auswertung. Eine spätere Studie eines NSA-Historikers stellte fest, dass eine fehlerhafte Warnung,
+    Analyse- und Übersetzungsfehler sowie das Ausblenden widersprechender Funksprüche dazu führten, dass Bergungsverkehr
+    und Meldungen zum 2. August als Vorbereitung und nachträglicher Beleg eines neuen Angriffs gelesen wurden. Zugleich
+    hielt die Studie fest, dass die meisten beteiligten NSA-Mitarbeiter offenbar an einen Angriff glaubten; Belege dafür,
+    dass Regierungsvertreter Druck ausübten, ein solches Ergebnis zu fabrizieren, fand sie nicht.
 impact:
   summary: >-
-    Aus unsicheren Einsatzmeldungen wurde innerhalb weniger Stunden eine folgenreiche staatliche Tatsachenbehauptung.
-    Präsident Lyndon Johnson ordnete Vergeltungsangriffe gegen Ziele in Nordvietnam an und verlangte vom Kongress weit
-    reichende Vollmachten für Südostasien. Die daraufhin verabschiedete Golf-von-Tonkin-Resolution erklärte, nordvietnamesische
-    Marineeinheiten hätten US-Schiffe vorsätzlich und wiederholt angegriffen, und ermächtigte den Präsidenten zu allen
-    notwendigen Maßnahmen gegen Angriffe und weitere Aggression. Johnson und später Nixon stützten ihre Militärpolitik
-    auf diese Resolution, bis der Kongress sie im Januar 1971 aufhob.
+    Unsichere Einsatzmeldungen wurden innerhalb weniger Stunden zu folgenreichem staatlichem Handeln. Noch während die
+    Belege ausgewertet wurden, genehmigte Präsident Lyndon Johnson Vergeltungsangriffe gegen nordvietnamesische
+    Marineanlagen und ein Öllager, stellte sie öffentlich als Reaktion auf erneute Aggression dar und verlangte vom
+    Kongress weitreichende Vollmachten für Südostasien. Das Repräsentantenhaus stimmte am 7. August mit 416 zu 0, der
+    Senat mit 88 zu 2; Johnson unterzeichnete die Resolution am 10. August. Die Resolution verursachte nicht allein jede
+    spätere Eskalation, und ein Entwurf war vor dem Zwischenfall vorbereitet worden. Sie bildete dennoch eine breite
+    rechtliche und politische Grundlage, auf die sich Johnson und später Richard Nixon bis zur Aufhebung 1971 beriefen.
   highlights:
-  - value: 88–2
-    label: Abstimmung im US-Senat für die Golf-von-Tonkin-Resolution
-  - value: 416–0
-    label: Abstimmung im US-Repräsentantenhaus für die Golf-von-Tonkin-Resolution
-  - value: '1971'
-    label: Jahr der Aufhebung der Resolution, die weitreichende Vollmachten für die US-Militärpolitik in Vietnam geschaffen hatte
+    - value: 416–0
+      label: Abstimmung im Repräsentantenhaus für die Golf-von-Tonkin-Resolution
+    - value: 88–2
+      label: Abstimmung im Senat für die Golf-von-Tonkin-Resolution
+    - value: '1971'
+      label: Jahr, in dem der Kongress die gesetzliche Ermächtigung der Resolution beendete
   context:
-  - >-
-    Der Angriff vom 2. August 1964 war real. Korrigiert wird die Behauptung eines zweiten Angriffs am 4. August; nicht der
-    gesamte Golf-von-Tonkin-Zwischenfall war erfunden.
-  - >-
-    Die Belege erfordern nicht die Behauptung, Präsident Johnson habe wissentlich einen nicht stattgefundenen Angriff
-    erfunden. Die Einsatzlage war in Echtzeit tatsächlich unübersichtlich. Das institutionelle Versagen bestand darin,
-    unsichere und fehlgedeutete Hinweise zu einem bestätigten zweiten Angriff zu verdichten und darauf militärisch und
-    gesetzgeberisch zu handeln.
-  - >-
-    Mit der Aufhebung der Golf-von-Tonkin-Resolution 1971 endete diese gesetzliche Politikgrundlage. Die offizielle
-    Darstellung der NSA zum zweiten Zwischenfall bestand länger fort: Robert Hanyoks spätere NSA-Studie hielt fest, dass
-    die Behörde den Angriff vom 4. August offiziell vertreten hatte, bevor eine wesentlich breitere Auswertung der
-    Fernmeldeaufklärung zu dem Schluss kam, dass kein Angriff stattgefunden hatte.
+    - >-
+      Der Angriff vom 2. August war real. Die Korrektur betrifft den behaupteten zweiten Angriff vom 4. August; sie macht
+      nicht die gesamte Abfolge im Golf von Tonkin zu einem erfundenen Ereignis.
+    - >-
+      Die überlieferten Akten erzwingen nicht die Behauptung, Präsident Johnson oder jeder beteiligte Amtsträger habe
+      wissentlich einen Angriff erfunden. Führende Beamte erhielten tatsächlich widersprüchliche Meldungen, und manche
+      suchten nach Bestätigung. Das institutionelle Versagen bestand darin, gewichtige zeitgenössische Zweifel weder
+      gleichrangig zu berücksichtigen noch dem Kongress mitzuteilen, während spätere NSA-Zusammenfassungen Informationen
+      so auswählten und umformten, dass sie eine Schlussfolgerung stützten, an die ihre Verfasser offenbar glaubten.
+    - >-
+      Die DESOTO-Aufklärungsfahrt und südvietnamesische OPLAN-34A-Angriffe zur See waren getrennte Operationen, überschnitten
+      sich jedoch zeitlich und räumlich. Die spätere NSA-Studie kam zu dem Schluss, dass Washington das Risiko unterschätzte,
+      Nordvietnam könne sie miteinander verbinden; dieser Kontext erschwert die damalige Darstellung völlig unprovozierter Angriffe.
+    - >-
+      Der gemeldete zweite Angriff schuf eine unmittelbare Krisenlage und floss in die Tatsachenpräambel der Resolution
+      ein; die Regierung hatte eine weitreichende Südostasien-Ermächtigung jedoch schon zuvor entworfen. Die spätere
+      Kriegsausweitung beruhte zusätzlich auf eigenen Regierungsentscheidungen, Bewilligungen und militärischen Maßnahmen
+      und darf daher nicht allein der Falschmeldung zugerechnet werden.
+    - >-
+      Die institutionelle Korrektur war verteilt und unvollständig. Der Kongress untersuchte den Vorgang und beendete die
+      Resolution; amtliche historische Veröffentlichungen bezeichnen die Meldung vom 4. August heute als falsch; und die
+      NSA veröffentlichte die Studie und die zugrunde liegenden Akten. Ihre Freigabemitteilung übernahm jedoch ausdrücklich
+      keine Schlussfolgerung der Dokumente als amtliche Position der Behörde.
 episodes:
-- id: united-states-1964-1971
-  polity: Vereinigte Staaten
-  institutions:
-  - Exekutivbüro des Präsidenten
-  - US-Verteidigungsministerium
-  - National Security Agency
-  - US-Kongress
-  institutionalContext: >-
-    Nach widersprüchlichen Meldungen der USS Maddox und USS Turner Joy in der Nacht des 4. August 1964 übernahm die
-    Johnson-Regierung die Deutung eines zweiten Angriffs und ordnete unter dem Namen Operation Pierce Arrow
-    Vergeltungsschläge an. Am 7. August verabschiedete der Kongress die Golf-von-Tonkin-Resolution. In ihrer Präambel
-    hieß es, nordvietnamesische Marineeinheiten hätten US-Schiffe vorsätzlich und wiederholt angegriffen; zugleich erhielt
-    der Präsident die Vollmacht, alle notwendigen Maßnahmen zur Abwehr bewaffneter Angriffe und zur Verhinderung weiterer
-    Aggression zu ergreifen. Die Resolution wurde zu einer zentralen Rechtsgrundlage für die Ausweitung des US-Einsatzes,
-    bis sie im Januar 1971 aufgehoben wurde. Die NSA hielt noch Jahre an einer offiziellen Darstellung fest, nach der
-    der zweite Zwischenfall stattgefunden hatte; eine spätere interne historische Rekonstruktion verwarf diese Version.
-  consequences:
-  - US-Vergeltungsangriffe auf nordvietnamesische Marineanlagen und weitere Ziele
-  - Verabschiedung einer Kongressresolution, deren Tatsachengrundlage vorsätzliche und wiederholte Angriffe behauptete
-  - Weitreichende Vollmacht des Präsidenten zum Einsatz militärischer Gewalt in Südostasien
-  - Nutzung der Golf-von-Tonkin-Resolution als Rechtsgrundlage für die massive Ausweitung des US-Einsatzes in Vietnam
-  - Langjähriges institutionelles Fortbestehen einer Angriffsdarstellung, die spätere Nachrichtendienstanalysen verwarfen
-  summary: >-
-    Der falsche Angriff vom 4. August blieb nicht bei einer fehlerhaften Einsatzmeldung. Die US-Regierung übernahm ihn
-    auf höchster Ebene, er trug zu unmittelbaren Vergeltungsschlägen bei und floss in die Tatsachenbegründung eines
-    Gesetzes mit weitreichenden militärischen Vollmachten ein. 1971 hob der Kongress diese Ermächtigung auf. Eine spätere
-    NSA-Auswertung, die auf erheblich mehr Fernmeldeaufklärung beruhte als die ursprüngliche Angriffsthese, kam zu dem
-    Schluss, dass nordvietnamesische Kräfte die Zerstörer am 4. August nicht angegriffen hatten.
+  - id: united-states-1964-1971
+    polity: Vereinigte Staaten
+    periodLabel: August 1964–Januar 1971
+    institutions:
+      - Exekutivbüro des Präsidenten
+      - US-Verteidigungsministerium und Vereinigter Generalstab
+      - United States Navy
+      - National Security Agency
+      - US-Kongress
+    institutionalContext: >-
+      Meldungen von Maddox und Turner Joy liefen über das Pazifikkommando und das Pentagon, während sich die Darstellung
+      der Schiffe noch veränderte. NSA-Berichte schienen eine unabhängige Bestätigung zu liefern. Trotz der Forderung des
+      Einsatzgruppenkommandeurs nach vollständiger Auswertung entschied die Führung des Verteidigungsministeriums, ein
+      Angriff habe stattgefunden; der Nationale Sicherheitsrat behandelte ihn als Tatsache; Johnson ordnete Operation
+      Pierce Arrow an und wandte sich an die Nation. Führende Kongressmitglieder wurden über einen zweiten Angriff
+      unterrichtet, ohne von den Einsatz-Zweifeln zu erfahren. Der Kongress verabschiedete darauf eine Resolution, deren
+      Präambel vorsätzliche und wiederholte Angriffe behauptete und die zu allen notwendigen Maßnahmen gegen Angriffe und
+      zur Verhinderung weiterer Aggression ermächtigte.
+    consequences:
+      - Operation Pierce Arrow griff am 5. August 1964 nordvietnamesische Marineanlagen und Öllager an
+      - Der Präsident stellte den gemeldeten zweiten Zwischenfall öffentlich als erneute offene Aggression gegen US-Streitkräfte dar
+      - Der Kongress schrieb vorsätzliche und wiederholte Angriffe in die Tatsachenpräambel von Public Law 88-408
+      - Das Repräsentantenhaus stimmte einstimmig zu; nach stark verkürzter Beratung votierten nur zwei Senatoren dagegen
+      - Die Resolution gab dem Präsidenten weitreichende Vollmacht zum Einsatz militärischer Gewalt in Südostasien und wurde zur angeführten Rechtsgrundlage der Eskalation
+      - Die selektive amtliche Chronologie der NSA begrenzte spätere Kongressuntersuchungen und verlängerte die bestätigende Nachrichtendienstversion
+    summary: >-
+      Die Meldung vom 4. August durchlief eine institutionelle Kette, die mehrdeutige Sensorkontakte und fehlerhafte
+      Aufklärung in einen behaupteten Angriff, unmittelbare Bombardierung und ein Gesetz mit weitreichender militärischer
+      Ermächtigung verwandelte. Die Regierung handelte trotz zeitgenössischer Zweifel und legte sie dem Kongress nicht
+      offen. Spätere Untersuchung, Aufhebung, Aktenfreigabe und Geschichtsschreibung korrigierten große Teile der
+      öffentlichen Darstellung; eine einheitliche Tatsachenrücknahme der gesamten Regierung gab es jedoch nie.
+    mechanism:
+      summary: >-
+        Einsatzmeldungen, Kommandobewertungen und Fernmeldeaufklärung wurden als wechselseitige Bestätigung behandelt;
+        Gegenmeldungen und Zweifel wurden nicht mit gleichem Gewicht weitergegeben. Regierungsbriefings, eine
+        Präsidentenansprache und die Präambel der Resolution verwandelten das weiterhin unsichere Ereignis anschließend
+        in eine autoritative öffentliche und gesetzliche Tatsachengrundlage.
+    institutionalCorrection:
+      periodLabel: 1968–2006
+      action: >-
+        Senatsuntersuchungen legten Widersprüche offen, der Kongress beendete die Resolution 1971, und Bundesinstitutionen
+        veröffentlichten später Akten und Geschichtsdarstellungen, die den Schluss stützen, dass der Angriff vom 4. August nicht stattfand.
+      summary: >-
+        Die gesetzliche Ermächtigung wurde beseitigt, und spätere amtliche historische Veröffentlichungen bezeichnen den
+        zweiten Angriff als falsch. Die NSA gab 2005–2006 auch die Studie ihres Historikers und die zugrunde liegenden
+        Akten frei, erklärte jedoch ausdrücklich, die Ansichten der veröffentlichten Verfasser seien nicht notwendig
+        Behördenposition und die Freigabe solle keine Schlussfolgerung beweisen oder widerlegen. Die Aufhebung entschied
+        weder selbst die historische Frage noch beendete sie den Krieg; die Gesamtreaktion bleibt daher teilweise.
+evidence:
+  - id: tonkin-nara-proposition
+    note: >-
+      Der primäre Gesetzestext behauptet, nordvietnamesische Marineeinheiten hätten US-Schiffe vorsätzlich und wiederholt
+      angegriffen, und machte den strittigen zweiten Zwischenfall damit zur Tatsachengrundlage des Kongresses.
+  - id: tonkin-hanyok-correction
+    note: >-
+      Die historische NSA-Studie hält fest, dass die Behörde den zweiten Zwischenfall amtlich vertreten hatte. Ihre
+      erweiterte Auswertung von 122 einschlägigen SIGINT-Produkten und weiteren Akten kam dagegen zu dem Ergebnis, dass am
+      4. August kein Angriff stattfand und die nordvietnamesische Marine am 2. August beschädigte Boote barg.
+  - id: tonkin-nara-impact
+    note: >-
+      Enthält den primären Text von Public Law 88-408 und erläutert den realen Angriff vom 2. August, den strittigen
+      zweiten Zwischenfall, die Nutzung der Resolution als Rechtsgrundlage durch die Präsidenten und ihre Aufhebung im Januar 1971.
+  - id: tonkin-senate-impact
+    note: >-
+      Die amtliche Senatsgeschichte dokumentiert die rasche Kongressberatung, die Abstimmungen von 416 zu 0 und 88 zu 2,
+      die spätere Untersuchung, Fulbrights Bedauern und die Rolle der Resolution bei der Eskalation von 1965.
+  - id: tonkin-nara-consequences
+    note: >-
+      Die verabschiedete Resolution hält wiederholte Angriffe als Prämisse fest und ermächtigt den Präsidenten zu allen
+      notwendigen Maßnahmen gegen Angriffe sowie zu allen notwendigen Schritten einschließlich Waffengewalt zur Verteidigung erfasster südostasiatischer Staaten.
+  - id: tonkin-hanyok-mechanism
+    note: >-
+      Die Studie stellt fest, dass widersprechende Fernmeldeaufklärung ausgelassen, Fragmente aus ihrem Zusammenhang
+      gelöst und Analyse- oder Übersetzungsfehler in Zusammenfassungen und amtlicher Chronologie zur Stützung der Angriffsthese verwendet wurden.
+  - id: tonkin-hanyok-context
+    note: >-
+      Unterscheidet das reale Gefecht vom 2. August und den 4. August, erklärt die Überschneidung von DESOTO und OPLAN 34A
+      und führt die verzerrte Berichterstattung weder auf belegten Druck des Weißen Hauses noch auf eine umfassende Verschwörung zurück.
+  - id: tonkin-senate-carrier
+    note: >-
+      Verfolgt das Briefing im Weißen Haus, Johnsons Ersuchen, Fulbrights Einbringung, die kurze Ausschuss- und
+      Plenarberatung sowie die Annahme durch beide Kammern.
+  - id: tonkin-senate-consequences
+    note: >-
+      Dokumentiert die begrenzte Befragung, die Vereinbarung einer dreistündigen Senatsdebatte, die Abstimmungen und die
+      spätere Berufung auf die Resolution bei der Ausweitung von Bombardierung und US-Kampfeinsatz 1965.
+  - id: tonkin-senate-correction
+    note: >-
+      Hält die Senatsuntersuchung, dem Kongress vorenthaltene zeitgenössische Zweifel, Fulbrights Bedauern von 1968 und die
+      Aufhebung von 1971 fest; zugleich finanzierte der Kongress den Krieg bis zum Abzug der US-Streitkräfte weiter.
+  - id: tonkin-frus-decision-context
+    note: >-
+      Gibt die Warnung des Einsatzgruppenkommandeurs wieder, Kontakte und Torpedos erschienen zweifelhaft, Sichtungen habe
+      es nicht gegeben und vor weiteren Maßnahmen sei eine vollständige Auswertung nötig.
+  - id: tonkin-frus-decision-mechanism
+    note: >-
+      Die amtliche Chronologie vermerkt eine Sitzung der Verteidigungsführung, um trotz fehlenden klaren und überzeugenden
+      Nachweises Belege zusammenzutragen; sie entschied auf Angriff und übermittelte noch am Nachmittag den Angriffsbefehl.
+  - id: tonkin-frus-decision-consequences
+    note: >-
+      Dokumentiert Planung und Ausführungsbefehle für Angriffe auf nordvietnamesische Torpedobootstützpunkte,
+      Versorgungseinrichtungen und das Öllager von Vinh.
+  - id: tonkin-frus-nsc-carrier
+    note: >-
+      Die Protokollnotizen des Nationalen Sicherheitsrats zeigen, wie McNamara und Rusk einen fortgesetzten, gezielten
+      Angriff als Tatsache darstellten, während Angriffsplan und Resolutionsentwurf festgelegt wurden.
+  - id: tonkin-frus-nsc-mechanism
+    note: >-
+      Auf die Frage, ob die Provokation sicher belegt sei, erklärte McNamara, geheime Erkenntnisse bestätigten sie; der
+      beigefügte Entwurf machte dann eine Angriffsserie zur Grundlage weitreichender Vollmachten.
+  - id: tonkin-frus-address-consequences
+    note: >-
+      Hält den Start der Vergeltungsflugzeuge und Johnsons Fernsehansprache fest, die einen neuen Aggressionsakt behauptete
+      und bereits laufende Luftangriffe bekanntgab.
+  - id: tonkin-repeal-correction
+    note: >-
+      Das am 12. Januar 1971 gebilligte Primärgesetz beendete Public Law 88-408 mit Wirkung zum letzten Sitzungstag des 91. Kongresses.
+  - id: tonkin-nsa-release-correction
+    note: >-
+      Die NSA dokumentiert ihre beiden Aktenfreigaben, erklärt aber, die Ansichten der Verfasser seien nicht notwendig
+      amtliche Behördenpositionen und die Veröffentlichung solle eine Schlussfolgerung weder beweisen noch widerlegen.

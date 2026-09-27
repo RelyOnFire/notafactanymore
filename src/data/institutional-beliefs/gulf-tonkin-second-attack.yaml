@@ -1,96 +1,292 @@
-title: A second attack in the Gulf of Tonkin
-claim: >-
-  U.S. executive, military and intelligence institutions treated reports that North Vietnamese naval forces had
-  launched a second deliberate attack on USS Maddox and USS Turner Joy on 4 August 1964 as confirmed fact, and
-  Congress incorporated the premise of repeated attacks into the Gulf of Tonkin Resolution.
-currentUnderstanding: >-
-  North Vietnamese torpedo boats did attack USS Maddox on 2 August 1964, but the alleged second attack on 4 August
-  did not occur. Contemporary radar, sonar and eyewitness reporting was confused, while signals intelligence was
-  misinterpreted in ways that reinforced the attack narrative. A later NSA historical reconstruction concluded that
-  Hanoi's navy was salvaging boats damaged on 2 August and that no attack took place on the night of 4 August.
+schemaVersion: 2
+title: A reported second attack in the Gulf of Tonkin
+proposition:
+  summary: >-
+    On 4 August 1964, United States executive, military and intelligence institutions treated confused reports and
+    selected signals intelligence as confirmation that North Vietnamese naval forces had launched a second deliberate
+    attack on USS Maddox and USS Turner Joy. The administration publicly described another unprovoked attack, and
+    Congress embedded the premise that North Vietnamese naval units had “deliberately and repeatedly” attacked U.S.
+    vessels in the Gulf of Tonkin Resolution.
+correction:
+  summary: >-
+    North Vietnamese torpedo boats did attack USS Maddox on 2 August 1964; the corrected claim concerns 4 August.
+    Evidence now supports the conclusion that no second attack occurred. The destroyers operated at night in difficult
+    weather and generated conflicting radar, sonar and eyewitness reports. Their task-force commander warned that many
+    reported contacts and torpedoes appeared doubtful and requested a complete evaluation. A later study by an NSA
+    historian found that an erroneous warning, analytic and translation errors, and the exclusion of contradictory
+    intercepts caused salvage traffic and reports about 2 August to be read as preparations for and after-action evidence
+    of a new attack. The study
+    also found that most participating NSA personnel apparently believed an attack had occurred and found no evidence
+    that administration officials pressured them to manufacture that conclusion.
 category: War, intelligence and executive power
-reviewedAt: '2026-08-25'
+reviewedAt: '2026-09-27'
 impact:
   summary: >-
-    The alleged second attack moved rapidly from uncertain operational reporting into consequential state action.
-    President Lyndon Johnson ordered retaliatory air strikes against North Vietnamese targets and asked Congress for
-    broad authority in Southeast Asia. The resulting Gulf of Tonkin Resolution stated that North Vietnamese naval units
-    had deliberately and repeatedly attacked U.S. vessels and authorized the president to take all necessary measures
-    to repel attacks and prevent further aggression. Johnson and later Nixon relied on the resolution as a legal basis
-    for military policy until Congress repealed it in January 1971.
+    Uncertain operational reporting became consequential state action within hours. While the evidence was still being
+    evaluated, President Lyndon Johnson approved retaliatory strikes against North Vietnamese naval facilities and an oil
+    depot, publicly announced them as a response to renewed aggression, and asked Congress for broad authority in
+    Southeast Asia. The House approved the resolution 416–0 and the Senate 88–2 on 7 August; Johnson signed it on 10
+    August. The resolution did not by itself cause every later escalation, and the administration had prepared a draft
+    before the incident. It nevertheless supplied a broad legal and political basis invoked by Johnson and later Richard
+    Nixon until Congress terminated it in 1971.
   highlights:
-  - value: 88–2
-    label: U.S. Senate vote approving the Gulf of Tonkin Resolution
-  - value: 416–0
-    label: U.S. House vote approving the Gulf of Tonkin Resolution
-  - value: '1971'
-    label: year Congress repealed the resolution that had provided broad authority for U.S. military policy in Vietnam
+    - value: 416–0
+      label: House vote approving the Gulf of Tonkin Resolution
+    - value: 88–2
+      label: Senate vote approving the Gulf of Tonkin Resolution
+    - value: '1971'
+      label: year Congress terminated the resolution's statutory authorization
   context:
-  - >-
-    The 2 August 1964 attack was real. The corrected proposition concerns the alleged second attack on 4 August; the
-    entire Gulf of Tonkin sequence was not invented.
-  - >-
-    The evidence does not require a claim that President Johnson personally fabricated an attack he knew had not
-    occurred. Operational reporting was genuinely confused in real time. The institutional failure was the elevation of
-    uncertain and misread evidence into an asserted second attack, followed by military and legislative action.
-  - >-
-    Congress repealed the Gulf of Tonkin Resolution in 1971, ending that statutory policy basis. NSA's institutional
-    account of the second incident persisted longer: Robert Hanyok's later NSA historical study noted that the agency had
-    officially maintained the 4 August attack occurred before concluding from a much larger SIGINT record that no attack happened.
+    - >-
+      The 2 August attack was real. The correction concerns the alleged second attack on 4 August; it does not turn the
+      entire Gulf of Tonkin sequence into an invented event.
+    - >-
+      The surviving record does not require a claim that President Johnson or every official knowingly fabricated an
+      attack. Senior officials received genuinely confused reports and some sought confirmation. The institutional failure
+      was that serious contemporaneous doubts were not given equal weight or shared with Congress, while later NSA
+      summaries selected and reshaped intelligence to sustain a conclusion their compilers appear to have believed.
+    - >-
+      The DESOTO intelligence patrol and South Vietnamese OPLAN 34A maritime raids were separate operations, but they
+      overlapped in time and place. The later NSA study concluded that Washington decision-makers underestimated the risk
+      that North Vietnam would associate them; this context complicates the contemporary description of wholly unprovoked attacks.
+    - >-
+      The reported second attack supplied an immediate crisis and entered the resolution's factual preamble, but the
+      administration had drafted broad Southeast Asia authority earlier. Later expansion of the war also required separate
+      executive choices, appropriations and military decisions, so it should not be attributed to the false report alone.
+    - >-
+      Institutional correction was distributed and incomplete. Congress investigated and terminated the resolution;
+      federal historical publications now describe the 4 August report as false; and NSA released the underlying study and
+      records. NSA's release notice, however, expressly declined to adopt any document's conclusions as its official view.
 episodes:
-- id: united-states-1964-1971
-  polity: United States
-  region: North America
-  startYear: 1964
-  endYear: 1971
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - military
-  institutions:
-  - Executive Office of the President
-  - United States Department of Defense
-  - National Security Agency
-  - United States Congress
-  institutionalContext: >-
-    After confused reports from USS Maddox and USS Turner Joy on the night of 4 August 1964, the Johnson administration
-    accepted the second-attack interpretation and ordered retaliatory strikes under Operation Pierce Arrow. Congress then
-    enacted the Gulf of Tonkin Resolution on 7 August. Its preamble stated that North Vietnamese naval units had
-    deliberately and repeatedly attacked U.S. naval vessels, and it authorized the president to take all necessary
-    measures to repel armed attacks and prevent further aggression. The resolution became a central legal basis invoked
-    for expanded U.S. military involvement until its repeal in January 1971. NSA itself continued for years to maintain
-    an official account in which the second incident had occurred; a later internal historical reconstruction found that
-    the SIGINT evidence had been misread and that there was no attack on 4 August.
-  consequences:
-  - Retaliatory U.S. air strikes against North Vietnamese naval installations and related targets
-  - Congressional adoption of a resolution premised on deliberate and repeated attacks on U.S. vessels
-  - Broad authorization for presidential use of military force in Southeast Asia
-  - Reliance on the Gulf of Tonkin Resolution as a legal basis for major escalation of U.S. involvement in Vietnam
-  - Long-term institutional persistence of an attack narrative that later intelligence reconstruction rejected
-  summary: >-
-    The false 4 August attack was not an isolated mistaken report. It was accepted at the highest levels of the U.S.
-    government, helped trigger immediate retaliatory strikes and entered the factual preamble of legislation granting
-    sweeping military authority. Congress repealed that authority in 1971. Later NSA historical analysis, drawing on a
-    far larger signals-intelligence record than the material originally used to support the attack, concluded that North
-    Vietnamese forces had not attacked the destroyers on 4 August.
-  sources:
-  - title: Tonkin Gulf Resolution
+  - id: united-states-1964-1971
+    polity: United States
+    region: North America
+    startYear: 1964
+    endYear: 1971
+    periodLabel: August 1964–January 1971
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - military
+    institutions:
+      - Executive Office of the President
+      - United States Department of Defense and Joint Chiefs of Staff
+      - United States Navy
+      - National Security Agency
+      - United States Congress
+    institutionalContext: >-
+      Reports from Maddox and Turner Joy moved through Pacific command and the Pentagon while the ships' own account was
+      changing. NSA reporting appeared to supply independent confirmation. Despite the task-force commander's request for
+      a full evaluation, Defense Department leaders concluded that an attack had occurred, the National Security Council
+      treated it as fact, and Johnson ordered Operation Pierce Arrow and addressed the nation. Congressional leaders were
+      briefed on a second attack without receiving the operational doubts. Congress then passed a resolution whose
+      preamble stated that North Vietnamese naval units had deliberately and repeatedly attacked U.S. vessels and whose
+      operative clauses authorized all necessary measures to repel attacks and prevent further aggression.
+    consequences:
+      - Operation Pierce Arrow struck North Vietnamese naval facilities and petroleum storage on 5 August 1964
+      - The president publicly presented the reported second incident as renewed open aggression against U.S. forces
+      - Congress put deliberate and repeated attacks into the factual preamble of Public Law 88-408
+      - The House approved the resolution unanimously and only two senators voted against it after compressed deliberation
+      - The resolution gave the president broad authority to use armed force in Southeast Asia and became a cited legal basis for escalation
+      - NSA's selective official chronology constrained later congressional inquiries and prolonged the confirming intelligence narrative
+    summary: >-
+      The 4 August report passed through an institutional chain that converted ambiguous sensor contacts and mistaken
+      intelligence into an asserted attack, immediate bombing and a statute granting broad military authority. The
+      administration acted despite contemporaneous doubts and did not provide those doubts to Congress. Subsequent
+      investigation, repeal, declassification and historical work corrected much of the public record, but the correction
+      came in stages and was never issued as one government-wide factual retraction.
+    mechanism:
+      kind: endorsement
+      summary: >-
+        Operational reports, command judgments and signals intelligence were treated as mutually confirming; contrary
+        messages and doubts were not carried forward with equal force. Executive briefings, a presidential address and
+        the resolution's preamble then converted the still-uncertain event into an authoritative public and legal premise.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 1968–2006
+      action: >-
+        Senate inquiries exposed contradictions, Congress terminated the resolution in 1971, and federal institutions
+        later published records and histories supporting the conclusion that the 4 August attack did not occur.
+      summary: >-
+        The statutory authority was removed, and later official historical publications state that the second attack was
+        false. NSA also declassified the historian's no-attack study and its supporting record in 2005–2006, but explicitly
+        said the released authors' opinions were not necessarily agency views and that the release was not intended to
+        prove or disprove a conclusion. Repeal did not itself resolve the historical claim or end the war, so the combined
+        institutional response is best described as partial rather than a single formal reversal.
+sources:
+  - id: tonkin-nara-resolution
+    title: Tonkin Gulf Resolution
     url: https://www.archives.gov/milestone-documents/tonkin-gulf-resolution
     publisher: U.S. National Archives and Records Administration
-    note: >-
-      Provides the primary text of Public Law 88-408, including the assertion that North Vietnamese naval units had
-      deliberately and repeatedly attacked U.S. vessels; explains the resolution's use as a legal basis for U.S.
-      military policy, the real 2 August attack, the disputed second incident and the resolution's January 1971 repeal.
-  - title: Skunks, Bogies, Silent Hounds, and the Flying Fish — The Gulf of Tonkin Mystery, 2–4 August 1964
+  - id: tonkin-hanyok
+    title: Skunks, Bogies, Silent Hounds, and the Flying Fish — The Gulf of Tonkin Mystery, 2–4 August 1964
     url: https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/gulf-of-tonkin/articles/release-1/rel1_skunks_bogies.pdf
     publisher: National Security Agency, Center for Cryptologic History
-    note: >-
-      NSA historical reconstruction stating that the agency had officially maintained that the second incident occurred,
-      while its expanded review of 122 relevant SIGINT products and other records concluded that no attack happened on
-      the night of 4 August and that North Vietnamese naval activity concerned salvage of boats damaged on 2 August.
-  - title: Chairman Fulbright and the Tonkin Gulf Resolution
+  - id: tonkin-senate-history
+    title: Chairman Fulbright and the Tonkin Gulf Resolution
     url: https://www.senate.gov/artandhistory/senate-stories/chairman-fulbright-and-the-tonkin-gulf-resolution.htm
     publisher: United States Senate
+  - id: tonkin-frus-decision
+    title: Editorial Note on the 4 August operational doubts and strike decision — FRUS 1964–1968, Volume I, Document 276
+    url: https://history.state.gov/historicaldocuments/frus1964-68v01/d276
+    publisher: U.S. Department of State, Office of the Historian
+  - id: tonkin-frus-nsc
+    title: Summary Notes of the 538th National Security Council Meeting — 4 August 1964
+    url: https://history.state.gov/historicaldocuments/frus1964-68v01/d278
+    publisher: U.S. Department of State, Office of the Historian
+  - id: tonkin-frus-address
+    title: President Johnson's address announcing the North Vietnam air strikes — FRUS 1964–1968, Volume I, Document 286
+    url: https://history.state.gov/historicaldocuments/frus1964-68v01/d286
+    publisher: U.S. Department of State, Office of the Historian
+  - id: tonkin-repeal-law
+    title: Public Law 91-672 — termination of the Gulf of Tonkin Resolution
+    url: https://www.govinfo.gov/content/pkg/STATUTE-84/pdf/STATUTE-84-Pg2053.pdf
+    publisher: United States Statutes at Large / GovInfo
+  - id: tonkin-nsa-release
+    title: Gulf of Tonkin — 2005 and 2006 historical releases
+    url: https://www.nsa.gov/Helpful-Links/NSA-FOIA/Declassification-Transparency-Initiatives/Historical-Releases/Gulf-of-Tonkin/smdpage14697/4/
+    publisher: National Security Agency
+evidence:
+  - id: tonkin-nara-proposition
+    sourceId: tonkin-nara-resolution
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: transcript, first whereas clause
     note: >-
-      Official Senate history of the rapid congressional consideration of the resolution and its overwhelming approval,
-      including the 88–2 Senate vote and unanimous 416–0 House vote.
+      The primary statutory text says North Vietnamese naval units had deliberately and repeatedly attacked U.S. vessels,
+      placing the disputed second incident inside Congress's factual premise.
+  - id: tonkin-hanyok-correction
+    sourceId: tonkin-hanyok
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: pp. 1–3, 40 and 47–49
+    note: >-
+      NSA historical reconstruction states that the agency had officially maintained the second incident occurred, but
+      its expanded review of 122 relevant SIGINT products and other records concluded that no attack happened on 4 August
+      and that the North Vietnamese navy was salvaging boats damaged on 2 August.
+  - id: tonkin-nara-impact
+    sourceId: tonkin-nara-resolution
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: historical note, paras. 1–9; transcript, §§1–3
+    note: >-
+      Provides the primary text of Public Law 88-408 and explains the real 2 August attack, disputed second incident,
+      presidential reliance on the resolution as a legal basis and its January 1971 repeal.
+  - id: tonkin-senate-impact
+    sourceId: tonkin-senate-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: paras. 23–27 and 61–101
+    note: >-
+      Official Senate history documents rapid congressional consideration, the 416–0 House and 88–2 Senate votes, later
+      investigation, Fulbright's regret and the resolution's role in the 1965 escalation.
+  - id: tonkin-nara-consequences
+    sourceId: tonkin-nara-resolution
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: consequences}
+    locator: transcript, preamble and §§1–3
+    note: >-
+      The enacted resolution records the repeated-attack premise and grants the president authority to take all necessary
+      measures against attacks and all necessary steps, including armed force, in defense of covered Southeast Asian states.
+  - id: tonkin-hanyok-mechanism
+    sourceId: tonkin-hanyok
+    relation: supports
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: mechanism}
+    locator: pp. 2–3 and 47–49
+    note: >-
+      Finds that contrary SIGINT was omitted, fragments were removed from context and analytic or translation errors were
+      used in summaries and the official chronology to sustain the attack interpretation.
+  - id: tonkin-hanyok-context
+    sourceId: tonkin-hanyok
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: context}
+    locator: pp. 4–12 and 47–49
+    note: >-
+      Distinguishes the real 2 August engagement from 4 August, explains the overlap between DESOTO and OPLAN 34A
+      operations, and says the skewed reporting cannot be attributed to demonstrated White House pressure or a broad conspiracy.
+  - id: tonkin-senate-carrier
+    sourceId: tonkin-senate-history
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: carrier}
+    locator: paras. 23–27 and 48–78
+    note: >-
+      Traces the White House briefing, Johnson's request, Fulbright's sponsorship, the short committee and floor process,
+      and passage by both chambers.
+  - id: tonkin-senate-consequences
+    sourceId: tonkin-senate-history
+    relation: supports
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: consequences}
+    locator: paras. 61–80
+    note: >-
+      Documents the limited questioning, three-hour Senate debate agreement, votes and later reliance on the resolution
+      when bombing and U.S. combat deployments expanded in 1965.
+  - id: tonkin-senate-correction
+    sourceId: tonkin-senate-history
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: institutional-correction}
+    locator: paras. 81–103
+    note: >-
+      Records the Senate investigation, contemporaneous doubts withheld from Congress, Fulbright's 1968 regret and the
+      1971 rescission, while noting that Congress continued funding the war until U.S. withdrawal.
+  - id: tonkin-frus-decision-context
+    sourceId: tonkin-frus-decision
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: context}
+    locator: Document 276, pp. 608–610
+    note: >-
+      Reproduces the task-force commander's warning that contacts and torpedoes appeared doubtful, that there had been no
+      visual sightings, and that a complete evaluation should precede further action.
+  - id: tonkin-frus-decision-mechanism
+    sourceId: tonkin-frus-decision
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: mechanism}
+    locator: Document 276, p. 609
+    note: >-
+      The official chronology records Defense leaders meeting to marshal evidence despite the lack of a clear and
+      convincing showing, concluding that an attack occurred and transmitting the strike order that afternoon.
+  - id: tonkin-frus-decision-consequences
+    sourceId: tonkin-frus-decision
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: consequences}
+    locator: Document 276, pp. 608–610
+    note: >-
+      Documents planning and execution orders for strikes on North Vietnamese boat bases, supporting facilities and the Vinh oil depot.
+  - id: tonkin-frus-nsc-carrier
+    sourceId: tonkin-frus-nsc
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: carrier}
+    locator: Document 278, pp. 612–613
+    note: >-
+      National Security Council notes show McNamara and Rusk presenting a continued, deliberate attack as fact while the
+      strike plan and draft congressional resolution were being settled.
+  - id: tonkin-frus-nsc-mechanism
+    sourceId: tonkin-frus-nsc
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: mechanism}
+    locator: Document 278, pp. 612–613
+    note: >-
+      When asked whether the provocation could be established, McNamara said classified information confirmed it; the
+      attached draft then converted a series of supposed attacks into the premise for broad authority.
+  - id: tonkin-frus-address-consequences
+    sourceId: tonkin-frus-address
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: consequences}
+    locator: Document 286, p. 622
+    note: >-
+      Records the launch of the retaliatory aircraft and Johnson's televised statement presenting a new act of aggression
+      and announcing strikes already in execution.
+  - id: tonkin-repeal-correction
+    sourceId: tonkin-repeal-law
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: institutional-correction}
+    locator: 84 Stat. 2055, §12
+    note: >-
+      Primary statute approved 12 January 1971 terminating Public Law 88-408, effective on the final adjournment day of the 91st Congress.
+  - id: tonkin-nsa-release-correction
+    sourceId: tonkin-nsa-release
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1964-1971, aspect: institutional-correction}
+    locator: release notice for 30 November 2005 and 30 May 2006
+    note: >-
+      NSA documents its two public releases but states that authors' opinions are not necessarily official agency views
+      and that declassification was intended to enable analysis rather than prove or disprove a conclusion.

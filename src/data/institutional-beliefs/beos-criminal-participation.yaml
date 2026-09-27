@@ -1,100 +1,230 @@
+schemaVersion: 2
 title: BEOS brain profiling as evidence of criminal participation
-claim: Brain Electrical Oscillation Signature (BEOS) profiling was treated as capable of distinguishing experiential
-  memory acquired through personal participation in a crime from knowledge acquired by learning about, witnessing,
-  or otherwise becoming familiar with the event, thereby indicating a suspect's involvement.
-currentUnderstanding: EEG-based experiments can reveal aspects of recognition and memory under controlled conditions,
-  but BEOS's stronger forensic inference—from a pattern of brain activity to whether a person personally participated
-  in a specific crime—has not been established as a reliably validated case-level test. Memory can be misattributed,
-  suggested, rehearsed, contaminated, or sincerely false, and current science cannot reliably infer from a detected
-  memory that the subject actually performed the remembered act. Supportive BEOS studies exist, but they do not
-  establish a known real-world error rate or robust independent validation for determining criminal participation.
+proposition:
+  summary: >-
+    Brain Electrical Oscillation Signature (BEOS) profiling was treated as capable of distinguishing experiential
+    memory acquired through personal participation in a crime from knowledge acquired by learning about, witnessing
+    or otherwise becoming familiar with the event, and therefore as indicating whether a suspect participated.
+correction:
+  summary: >-
+    EEG research can detect some forms of recognition and memory under controlled conditions, but that does not
+    validate BEOS's stronger case-level inference from a brain response to personal participation in a particular
+    crime. Innocent people can know crime details, memories can be suggested, distorted or assigned to the wrong
+    source, and a remembered event does not by itself establish that the subject performed it. Publicly available
+    evidence does not establish a known real-world error rate or robust independent validation for BEOS participation
+    determinations; a recent scholarly review says the method has not undergone sufficiently rigorous peer review for
+    its claims to be independently evaluated.
 category: Forensic psychology and criminal evidence
-reviewedAt: '2026-08-24'
+reviewedAt: '2026-09-27'
 impact:
-  summary: Indian forensic institutions used BEOS on criminal suspects and witnesses as an investigative aid and,
-    in early cases, courts considered its claimed experiential-memory findings alongside other evidence. The Supreme
-    Court later prohibited involuntary brain-mapping-type testing and barred direct admission of the test result
-    itself even when voluntarily obtained, but state forensic and national training institutions continue to maintain
-    and describe BEOS as a tool for inferring participation in crime.
+  summary: >-
+    Maharashtra's forensic laboratory administered BEOS to criminal suspects and witnesses, and in 2008 a Pune
+    Sessions Court relied in part on a BEOS opinion in a murder conviction. By then, one laboratory reportedly had
+    tested more than 75 people in less than two years. The Supreme Court later barred involuntary BEAP and related
+    tests and direct admission of voluntarily obtained test results, but it did not specifically decide BEOS. The
+    Maharashtra laboratory still presents BEOS as an available investigative technique and still describes it as
+    detecting experiential knowledge gained by participating in a crime.
   highlights:
-  - value: '2008'
-    label: Maharashtra courts considered BEOS findings in murder prosecutions
-  - value: 75+
-    label: suspects and witnesses had reportedly undergone BEOS at one Maharashtra laboratory by 2008
-  - value: '2026'
-    label: Maharashtra's state forensic laboratory still describes BEOS as detecting experiential knowledge from
-      crime participation
+    - value: '2008'
+      label: Pune Sessions Court relied in part on BEOS in the Sharma murder conviction
+    - value: 75+
+      label: suspects and witnesses reportedly tested at one Maharashtra laboratory in less than two years
+    - value: '2026'
+      label: Maharashtra's state forensic laboratory still presents BEOS as an available technique
   context:
-  - The disputed BEOS inference is specifically from brain responses to personal participation in an event. EEG
-    can measure brain activity, recognition-memory paradigms are not all invalid, and a detected memory can still
-    have investigative value; none of those narrower points establishes that BEOS can reliably prove participation.
-  - Selvi v. State of Karnataka did not scientifically abolish BEOS. The Supreme Court addressed BEAP and related
-    deception-detection techniques, prohibited involuntary administration, required safeguards for voluntary testing,
-    and held that the test results themselves are not directly admissible as evidence. The continuing institutional
-    issue is therefore investigative use and the factual inference attached to it.
+    - >-
+      The disputed claim is the inference from a measured response to personal participation in a crime. EEG can
+      measure brain activity, and some research can distinguish recognition or types of memory under constrained
+      conditions; neither point establishes that BEOS can reliably determine who committed a real-world act.
+    - >-
+      Selvi v. State of Karnataka concerned narcoanalysis, polygraph examination and the Brain Electrical Activation
+      Profile (BEAP), not BEOS by name. A peer-reviewed legal and scientific analysis concludes that the Court's
+      description and reasoning would likely apply to BEOS, but that is the authors' inference rather than an express
+      Supreme Court holding about this method.
+    - >-
+      NFSU Delhi's listing of BEOS equipment documents teaching and research infrastructure. It does not itself claim
+      that BEOS reliably determines criminal participation, so the university is treated as context rather than as a
+      carrier of the proposition.
 episodes:
-- id: india-2008-2026
-  polity: India
-  region: South Asia
-  startYear: 2008
-  endYear: 2026
-  endOpen: true
-  periodLabel: 2008–present
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - court
-  - university
-  institutions:
-  - Directorate of Forensic Science Laboratories, Maharashtra
-  - Pune Sessions Court
-  - National Forensic Sciences University (NFSU)
-  institutionalContext: 'By 2008 Maharashtra''s state forensic laboratory was administering BEOS in criminal investigations,
-    and sessions courts considered expert testimony interpreting the resulting brain responses as evidence of experiential
-    knowledge connected to alleged crimes. In 2010 the Supreme Court prohibited involuntary BEAP and related testing
-    and held that even voluntarily obtained test results are not themselves admissible, while leaving room for voluntary
-    investigative use under safeguards. The institutional proposition nevertheless remains active: Maharashtra''s
-    current Directorate of Forensic Science Laboratories describes BEOS as revealing experiential knowledge acquired
-    through participation in criminal activity, and NFSU''s Delhi forensic-psychology laboratory continues to maintain
-    BEOS equipment for training and research.'
-  consequences:
-  - Criminal suspects and witnesses subjected to brain-based forensic testing
-  - Investigative conclusions about whether a person participated in a crime
-  - BEOS findings used to guide interrogation, corroboration and evidentiary development
-  - Early courtroom reliance on claimed experiential-memory signatures
-  - Risk of false implication when remembered, learned, suggested or contaminated information is misclassified as
-    participation
-  summary: 'Indian forensic institutions adopted BEOS as a way to infer whether crime-related information in a person''s
-    brain came from direct experience. In 2008 Maharashtra courts considered BEOS findings in murder prosecutions,
-    while a state laboratory had already tested dozens of suspects and witnesses. Scientific reviewers challenged
-    the method''s ability to distinguish first-person participation from other sources of memory, and the Supreme
-    Court subsequently imposed constitutional limits on involuntary brain-mapping-type tests and on direct evidentiary
-    use. Yet the core factual proposition remains institutionally active: in 2026 Maharashtra''s forensic laboratory
-    still describes BEOS as detecting experiential knowledge acquired through participation in criminal activity,
-    and a national forensic university continues to train and research with the technology.'
-  sources:
-  - title: Psychology — Brain Electrical Oscillation Signature Profiling
+  - id: india-2008-2026
+    polity: India
+    region: South Asia
+    startYear: 2008
+    endYear: 2026
+    endOpen: true
+    periodLabel: 2008–present
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - court
+    institutions:
+      - Directorate of Forensic Science Laboratories, Maharashtra
+      - Pune Sessions Court
+    institutionalContext: >-
+      By 2008 Maharashtra's state forensic laboratory was administering BEOS in criminal investigations and reporting
+      whether subjects showed experiential knowledge of crime details. A Pune Sessions Court relied in part on such an
+      opinion in Aditi Sharma's murder conviction. A government peer-review committee criticized BEOS, but the
+      Directorate of Forensic Science dissolved it before a final report and rejected the interim findings. The Supreme
+      Court then restricted compulsory brain-based testing and evidentiary use through a judgment about BEAP and other
+      named techniques. Maharashtra's current laboratory page nevertheless continues to offer BEOS and repeats the
+      disputed participation inference, while describing consent and admissibility limits.
+    consequences:
+      - Criminal suspects and witnesses underwent brain-based forensic examinations
+      - Investigators received opinions about whether subjects possessed experiential knowledge of crime details
+      - A trial court relied in part on a BEOS opinion when convicting Aditi Sharma of murder
+      - BEOS findings could direct questioning, corroboration efforts and the search for further evidence
+      - Consent, self-incrimination and admissibility disputes prompted later judicial safeguards
+    summary: >-
+      Indian forensic practice converted patterns in EEG data into opinions about the source of a person's knowledge.
+      Maharashtra's laboratory used those opinions in investigations, and a trial court treated one as incriminating
+      evidence. Scientific criticism and constitutional litigation produced meaningful limits, but neither process
+      resulted in a completed institutional scientific repudiation of BEOS. The laboratory still describes the method
+      as detecting experiential knowledge acquired through participation, so the proposition remains institutionally
+      active under tighter legal constraints.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        A state forensic laboratory administered a proprietary EEG protocol, interpreted its computed signatures as
+        experiential knowledge of a crime and supplied those opinions to investigators and courts; a Sessions Court
+        then used the expert result alongside other evidence.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 2007–2010 and continuing
+      action: >-
+        A scientific review committee issued critical interim findings but was dissolved before a final report; in 2010
+        the Supreme Court barred compelled narcoanalysis, polygraph and BEAP testing and direct admission of voluntarily
+        obtained test results.
+      summary: >-
+        The two corrective processes stopped short of an institutional scientific withdrawal of BEOS. The government
+        did not adopt the review committee's criticism as a final report, and Selvi did not specifically analyze BEOS.
+        Later scholarship considers the judgment's reasoning applicable, while the current Maharashtra laboratory
+        requires consent and frames BEOS as complementary to conventional investigation but continues to offer it and
+        endorse the participation inference.
+sources:
+  - id: beos-dfsl-maharashtra
+    title: Psychology — Brain Electrical Oscillation Signature Profiling
     url: https://dfsl.maharashtra.gov.in/en/psychology
     publisher: Directorate of Forensic Science Laboratories, Home Department, Government of Maharashtra
-    note: Current official state-forensic page describing BEOS as based on experiential knowledge acquired through
-      participation in criminal activity and as revealing the presence or absence of such crime-related experiential
-      knowledge in investigated individuals.
-  - title: School of Forensic Psychology — Delhi Campus
+  - id: beos-nfsu-delhi
+    title: School of Forensic Psychology — Delhi Campus
     url: https://delhi.nfsu.ac.in/department/details/59
     publisher: National Forensic Sciences University
-    note: Current page from India's national forensic university listing BEOS Profiling among the advanced tools
-      in its Neurocognitive-Electrophysiology laboratory for forensic-psychology training and research.
-  - title: Evidence of memory from brain data
+  - id: beos-murphy-rissman-2020
+    title: Evidence of memory from brain data
     url: https://academic.oup.com/jlb/article/7/1/lsaa078/6041176
     publisher: Journal of Law and the Biosciences, Oxford University Press
-    note: Peer-reviewed interdisciplinary review describing the 2008 Maharashtra BEOS case, state-laboratory use
-      on more than 75 suspects and witnesses at the time, the Indian scientific review committee's rejection of
-      BEOS as unscientific, and the biological and methodological limits on inferring real-world participation from
-      detected memory.
-  - title: Selvi & Ors. v. State of Karnataka
+  - id: beos-selvi
+    title: Selvi & Ors. v. State of Karnataka
     url: https://api.sci.gov.in/jonew/judis/36303.pdf
     publisher: Supreme Court of India
-    note: Primary 2010 judgment prohibiting involuntary narcoanalysis, polygraph and BEAP testing; leaving room
-      for voluntary use under safeguards; and holding that the test results themselves cannot be admitted as evidence
-      even when the subject consents. The judgment also discusses reliability concerns surrounding brain-based investigative
-      techniques.
+  - id: beos-dfsl-current
+    title: Psychology — Techniques Available in This Department
+    url: https://dfsl.maharashtra.gov.in/psychology
+    publisher: Directorate of Forensic Science Laboratories, Home Department, Government of Maharashtra
+  - id: beos-lok-sabha-2010
+    title: Lok Sabha Unstarred Question No. 6169 — Brain Mapping
+    url: https://eparlib.sansad.in/bitstream/123456789/583429/1/87741.pdf
+    publisher: Ministry of Home Affairs, Government of India
+  - id: beos-rissman-murphy-2024
+    title: Brain-Based Memory Detection and the New Science of Mind Reading
+    url: https://academic.oup.com/edited-volume/57928/chapter-abstract/475483392
+    publisher: The Oxford Handbook of Human Memory, Oxford University Press
+evidence:
+  - id: beos-dfsl-proposition
+    sourceId: beos-dfsl-current
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Sections “Techniques Available in This Department” and “Legal & Ethical Considerations”
+    note: >-
+      The current official page calls BEOS an EEG-based method designed to detect experiential knowledge gained by
+      participating in a crime and lists it among techniques available in the department.
+  - id: beos-murphy-rissman-correction
+    sourceId: beos-murphy-rissman-2020
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: §§ II.A, III.A.2 and V.C.2
+    note: >-
+      Peer-reviewed analysis explains source confusion, false or distorted memory, innocent-but-informed false
+      positives and the gap between detecting a memory and proving the truth or origin of that memory.
+  - id: beos-rissman-murphy-correction
+    sourceId: beos-rissman-murphy-2024
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Chapter 81, pp. 2338–2339 and 2346–2348
+    note: >-
+      The updated scholarly review says BEOS methods have not undergone rigorous peer review and cannot be critically
+      evaluated without disclosure of the precise methods and validation conditions; it also reviews broader limits on
+      translating memory detection to individual forensic conclusions.
+  - id: beos-murphy-rissman-impact
+    sourceId: beos-murphy-rissman-2020
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Introduction and § V.C.2
+    note: >-
+      Reconstructs the Sharma prosecution, the trial court's partial reliance on BEOS and the report that more than 75
+      suspects and witnesses had undergone the test at one Maharashtra laboratory in less than two years.
+  - id: beos-dfsl-maharashtra-carrier
+    sourceId: beos-dfsl-maharashtra
+    relation: documents
+    target: {scope: episode, episodeId: india-2008-2026, aspect: carrier}
+    locator: Brain Electrical Oscillation Signature Profiling and FAQ sections
+    note: >-
+      Inherited official source documenting the Maharashtra laboratory's presentation of BEOS as a forensic psychology technique.
+  - id: beos-nfsu-context
+    sourceId: beos-nfsu-delhi
+    relation: contextualizes
+    target: {scope: episode, episodeId: india-2008-2026, aspect: context}
+    locator: About section, paragraphs 2–3
+    note: >-
+      Lists BEOS equipment in a neurocognitive-electrophysiology laboratory used for student and professional training;
+      it documents institutional infrastructure, not independent validation of the participation inference.
+  - id: beos-murphy-rissman-mechanism
+    sourceId: beos-murphy-rissman-2020
+    relation: documents
+    target: {scope: episode, episodeId: india-2008-2026, aspect: mechanism}
+    locator: Introduction; § V.C.2; nn. 225–237
+    note: >-
+      Describes the proprietary EEG signatures, laboratory use, expert interpretation and the court's reliance on a
+      finding of experiential knowledge in the 2008 Sharma prosecution.
+  - id: beos-murphy-rissman-consequences
+    sourceId: beos-murphy-rissman-2020
+    relation: documents
+    target: {scope: episode, episodeId: india-2008-2026, aspect: consequences}
+    locator: Introduction and § V.C.2
+    note: >-
+      Documents testing of suspects and witnesses, reported confessions following tests and the use of a BEOS opinion
+      as part of the evidence supporting a murder conviction.
+  - id: beos-selvi-partial-correction
+    sourceId: beos-selvi
+    relation: documents
+    target: {scope: episode, episodeId: india-2008-2026, aspect: institutional-correction}
+    locator: Paragraphs 160–161, 217 and 221–223
+    note: >-
+      Primary judgment addressing narcoanalysis, polygraph and BEAP: compulsory testing is prohibited, voluntary tests
+      require safeguards, the result itself is inadmissible and subsequently discovered material may be admitted under
+      Evidence Act section 27. The judgment does not name BEOS.
+  - id: beos-dfsl-current-carrier
+    sourceId: beos-dfsl-current
+    relation: documents
+    target: {scope: episode, episodeId: india-2008-2026, aspect: carrier}
+    locator: Sections “Techniques Available in This Department,” “Legal & Ethical Considerations” and FAQ
+    note: >-
+      Current primary institutional page presenting BEOS as available for registered police or investigating-agency
+      cases, requiring consent and describing the technique as complementary to conventional investigation.
+  - id: beos-lok-sabha-review-context
+    sourceId: beos-lok-sabha-2010
+    relation: documents
+    target: {scope: episode, episodeId: india-2008-2026, aspect: institutional-correction}
+    locator: Answer to parts (a)–(e), 4 May 2010
+    note: >-
+      The Home Ministry stated that the 2007 committee was created to peer-review brain mapping and BEOS but was
+      dissolved before a final report; the Directorate objected to its interim report and cited its own reasons for
+      ending the review.
+  - id: beos-rissman-murphy-current-context
+    sourceId: beos-rissman-murphy-2024
+    relation: contextualizes
+    target: {scope: episode, episodeId: india-2008-2026, aspect: context}
+    locator: Chapter 81, pp. 2338–2339
+    note: >-
+      The 2024 review reports that BEOS use in India appears ongoing as forensic assessment rather than legal evidence
+      of guilt and explains why the unpublished details prevent independent evaluation of its claims.

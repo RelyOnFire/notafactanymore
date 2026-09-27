@@ -1,32 +1,148 @@
+schemaVersion: 2
 locale: de
 entryId: close-planting-deep-plowing
-sourceReviewedAt: '2026-08-23'
+sourceReviewedAt: '2026-09-27'
 title: Dichte Aussaat und tiefes Pflügen
-claim: Sehr dichte Aussaat und ungewöhnlich tiefes Pflügen wurden als breit anwendbare Methoden behandelt, die landwirtschaftliche
-  Erträge stark steigern würden.
-currentUnderstanding: Pflanzdichte und Bodenbearbeitung haben je nach Kulturpflanze, Boden und Klima unterschiedliche Optima.
-  Mehr Pflanzen pro Fläche oder tieferes Pflügen erhöhen den Ertrag nicht automatisch; übermäßige Dichte verschärft die Konkurrenz
-  um Licht, Wasser und Nährstoffe, während zu tiefe oder unpassende Bodenbearbeitung die Bodenstruktur schädigen und Arbeitskraft
-  verschwenden kann.
+proposition:
+  summary: >-
+    Ungewöhnlich dichte Aussaat und tiefes Pflügen galten als allgemein einsetzbare Wege zu höheren Ernteerträgen: Eine
+    tiefere Bearbeitung sollte die Bodenbedingungen für dichten Pflanzenstand schaffen, während mehr Pflanzen pro Fläche
+    diese Bedingungen in stark steigende Produktion umsetzen sollten.
+correction:
+  summary: >-
+    Pflanzdichte und Bearbeitungstiefe haben je nach Kulturpflanze, Boden, Klima und Bewirtschaftung unterschiedliche
+    Optima. Dichtere Bestände können den Flächenertrag bis zu einem Optimum erhöhen, doch Überbelegung verschärft die
+    Konkurrenz und kann den reproduktiven Ertrag senken. Tiefe Bodenbearbeitung kann eine verdichtete Sperrschicht lockern,
+    doch größere Tiefe bringt nicht automatisch zusätzlichen Nutzen und kann bei fehlender Anpassung an die Bedingungen
+    den Ertrag verringern. Keine der Methoden rechtfertigt eine allgemeine Regel „mehr ist besser“.
+impact:
+  summary: >-
+    Die Weisung des Zentralkomitees vom 29. August 1958 machte tiefes Pflügen zu einer landesweiten Produktionskampagne,
+    schrieb für nahezu alle dafür geeignet erklärten Flächen Tiefe und Zeitplan vor und bezeichnete tiefes Pflügen als
+    Grundlage dichter Aussaat. Historische Forschung zeigt den hohen Arbeitsaufwand der Kampagne und stellenweise
+    verringerte Bodenfruchtbarkeit durch übermäßiges oder unsachgemäßes Tiefpflügen; wirtschaftshistorische Forschung
+    zählt tiefes Pflügen und dichte Aussaat jenseits vernünftiger Grenzen zu den Ursachen geringerer Produktion. Für diese
+    beiden Methoden allein lässt sich weder ein belastbarer landesweiter Verlust noch eine Zahl von Hungertoten angeben.
+  highlights:
+    - value: 2–3 Jahre
+      label: Zeitplan der Weisung von 1958 für einmaliges Tiefpflügen aller dafür geeignet erklärten Ackerflächen
+    - value: mehr als 1 Chi
+      label: allgemeine Tiefenvorgabe der Weisung; für Hochertragsfelder wurden mehr als 2 Chi vorgeschrieben
+    - value: 29. Apr. 1959
+      label: Datum, an dem die zentrale Führung starre Vorgaben zur Pflanzdichte als nutzlos und schädlich bezeichnete
+  context:
+    - >-
+      Dichte Aussaat und tiefe Bodenbearbeitung sind nicht an sich unwirksam. Der Fehler lag darin, bedingte agronomische
+      Verfahren in steigerbare, weithin verordnete Rezepte zu verwandeln, die von Kulturpflanze, Boden, Wasser, Düngung und
+      lokaler Erfahrung abgelöst waren.
+    - >-
+      Die Große Hungersnot und die umfassendere Produktionskrise hatten viele Ursachen. Die angeführte
+      wirtschaftshistorische Untersuchung nennt außerdem übermäßige Getreideablieferung, Abzug von Arbeitskräften,
+      verfälschte Berichte, Organisation der Kommunen, verlorene Anreize, schädliche Wasserbauprojekte und natürliche
+      Bedingungen. Der Eintrag führt weder die Krise noch ihre Todesopfer allein auf diese Methoden zurück.
+    - >-
+      Die Weisung selbst warnte davor, rohen Unterboden an die Oberfläche zu bringen. Diese Einschränkung machte weder die
+      landesweiten Tiefenvorgaben noch ihre Umsetzung als Massenkampagne agronomisch selbstbegründend; historische
+      Forschung dokumentiert Überdehnung und unsachgemäße Ausführung in der Praxis.
 episodes:
-- id: china-1958-1961
-  polity: Volksrepublik China
-  institutions:
-  - 中共中央 (Zentralkomitee der Kommunistischen Partei Chinas)
-  - 中华人民共和国农业部 (Landwirtschaftsministerium der Volksrepublik China)
-  institutionalContext: Der klarste nationale institutionelle Träger war das Zentralkomitee der Kommunistischen Partei Chinas.
-    Seine Weisung vom 29. August 1958 erklärte tiefes Pflügen zur zentralen agrartechnischen Maßnahme zur Ertragssteigerung
-    und ordnete eine parteiweite Massenkampagne an; die Volkszeitung berichtete, dass die Weisung auf einer erweiterten Sitzung
-    des Politbüros beschlossen worden war. Das Landwirtschaftsministerium wirkte an der zentralen Agrarpolitik und der landesweiten
-    technischen Propagierung mit. Provinzparteien, lokale Behörden und Volkskommunen setzten die Kampagnen um; diese verteilte
-    Umsetzung wird als Apparat beschrieben und nicht als einzelne Institution ausgegeben.
-  summary: Während des Großen Sprungs nach vorn wurden tiefes Pflügen und dichte Aussaat zu landesweit propagierten Agrarmethoden
-    erhoben und in Maos landwirtschaftliche „Acht-Punkte-Charta“ aufgenommen. Eine Weisung des Zentralkomitees vom 29. August
-    1958 erklärte tiefes Pflügen zur zentralen Maßnahme zur Ertragssteigerung und rief zu einer Massenkampagne auf. Behörden
-    trieben die Methoden weit über lokal sinnvolle Bedingungen hinaus. Wirtschaftshistorische Forschung zählt die zentral
-    geförderten Techniken zu den Maßnahmen, die – neben mehreren anderen wesentlichen Ursachen – die landwirtschaftliche Produktion
-    verringerten.
-  consequences:
-  - Verordnete oder stark erzwungene Anbaukampagnen
-  - Ertragsverluste in einzelnen Regionen
-  - Fehlallokation landwirtschaftlicher Arbeitskraft
+  - id: china-1958-1961
+    polity: Volksrepublik China
+    periodLabel: 1958–1961
+    institutions:
+      - Zentralkomitee der Kommunistischen Partei Chinas
+      - Landwirtschaftsministerium der Volksrepublik China
+    institutionalContext: >-
+      Der klarste nationale Träger war das Zentralkomitee der KPCh. Seine Weisung vom 29. August 1958 erklärte tiefes
+      Pflügen zur zentralen ertragssteigernden Technik und zur Grundlage dichter Aussaat. Sie ordnete an, alle geeigneten
+      Ackerflächen binnen zwei oder drei Jahren und danach alle drei Jahre tief zu pflügen, setzte landesweite Tiefenvorgaben
+      und verlangte die Mobilisierung der gesamten Partei und Bevölkerung. Das Landwirtschaftsministerium war der zentrale
+      Verwaltungsträger der Agrarpolitik: Alfred L. Chans Institutionengeschichte beschreibt seine Umwandlung in einen
+      Mobilisierungsapparat unter rasch wechselnden Initiativen und unerreichbaren Zielvorgaben. Provinzkomitees, Kommunen
+      und Produktionseinheiten setzten die Kampagne um, werden hier aber als Apparat und nicht als eine Institution erfasst.
+    consequences:
+      - Landesweite, arbeitsintensive Kampagne für Tiefpflügen und Bodenverbesserung
+      - Vorgaben für Pflanzdichte und Bearbeitungstiefe jenseits lokal geeigneter Bedingungen
+      - Geringere Bodenfruchtbarkeit und Ernteerträge an Orten mit übermäßiger oder unsachgemäßer Bearbeitung und Überbelegung
+      - Verdrängung des agronomischen Urteils von Bauern und Produktionsteams durch Kampagnenbefehle von oben
+      - Beitrag zu landwirtschaftlichen Verlusten innerhalb der umfassenderen, multikausalen Produktionskrise des Großen Sprungs
+    summary: >-
+      Während des Großen Sprungs nach vorn verwandelte das Zentralkomitee tiefes Pflügen und dichte Aussaat von bedingten
+      Verfahren in Bestandteile einer landesweiten Ertragskampagne. Seine Weisung vom August 1958 schrieb ungewöhnlich
+      tiefe, wiederholte Bodenbearbeitung auf fast allen dafür geeignet erklärten Ackerflächen vor und mobilisierte Partei
+      und Bevölkerung zur Umsetzung. Landwirtschaftsministerium und lokaler Kampagnenapparat überführten zentrale
+      Initiativen in die Praxis. Historische Forschung dokumentiert umfassende Arbeitsmobilisierung, unsachgemäße und
+      übermäßige Bearbeitung, stellenweise Schäden an der Bodenfruchtbarkeit sowie Ertragsverluste durch tiefes Pflügen und
+      dichte Aussaat jenseits vernünftiger Grenzen.
+    mechanism:
+      summary: >-
+        Das Zentralkomitee erließ quantifizierte landesweite Bearbeitungsvorgaben und einen Massenmobilisierungsbefehl;
+        Agrarverwaltung sowie lokaler Partei- und Kommunenapparat organisierten Arbeitskräfte, propagierten Geräte und
+        machten die Methoden zu Kampagnenanforderungen.
+    institutionalCorrection:
+      periodLabel: April–Juli 1959
+      action: >-
+        Die zentrale Führung wies Produktionsteams an, eine geeignete Pflanzdichte festzulegen, und untersagte starre
+        Dichtebefehle von oben.
+      summary: >-
+        Maos innerparteilicher Brief vom 29. April 1959 verwarf ausdrücklich die Behauptung, dichtere Aussaat sei stets
+        besser, bezeichnete starre Befehle von oben als nutzlos und äußerst schädlich und machte eine geeignete Dichte von
+        Klima, Ort, Boden, Dünger, Wasser, Saatgut, Kulturpflanze und Feldbewirtschaftung abhängig. Die Korrektur blieb
+        unvollständig: Die amtliche Parteigeschichte erklärt, der umfassendere Versuch zur Korrektur der Exzesse des Großen
+        Sprungs sei nach der Lushan-Konferenz abrupt abgebrochen; für die Weisung zum Tiefpflügen ließ sich im geprüften
+        Zeitraum keine vergleichbar ausdrückliche institutionelle Rücknahme feststellen.
+evidence:
+  - id: close-planting-directive-proposition
+    note: >-
+      Die Weisung bezeichnet tiefes Pflügen als zentrale ertragssteigernde Technik und Grundlage dichter Aussaat, schreibt
+      wiederkehrende landesweite Tiefenvorgaben vor und ordnet zu ihrer Umsetzung eine Massenkampagne an.
+  - id: close-planting-density-correction
+    note: >-
+      Die Metaanalyse von 334 Experimenten mit 163 Arten zeigt, dass steigende Dichte individuelles Wachstum und Samenzahl
+      verringert. Der reproduktive Flächenertrag besitzt häufig ein Optimum; in 60 % der Versuche mit reproduktiver Biomasse
+      war die höchste geprüfte Dichte bereits zu hoch.
+  - id: close-planting-tillage-correction
+    note: >-
+      Die globale Metaanalyse zeigt zunächst steigende und dann sinkende Ertragswirkungen mit zunehmender
+      Bearbeitungstiefe. Das Optimum hing von Klima, Bodentextur, Lagerungsdichte und Bewirtschaftung ab; jenseits von 40 cm
+      zeigten die Daten Ertragsrückgänge.
+  - id: close-planting-riskin-impact
+    note: >-
+      Nennt zentral propagiertes Tiefpflügen und dichte Aussaat jenseits vernünftiger Grenzen als ertragsmindernde Maßnahmen,
+      ordnet sie jedoch unter zahlreichen natürlichen, politischen und wirtschaftlichen Ursachen der Hungerkrise ein.
+  - id: close-planting-history-impact
+    note: >-
+      Die historische Untersuchung beschreibt landesweite Mobilisierung, besondere Geräte und wissenschaftliche
+      Befürwortung. Sie kommt zu dem Ergebnis, dass Überdehnung oder unsachgemäße Ausführung stellenweise die
+      Bodenfruchtbarkeit minderten und die Ziele der Kampagne verfehlt wurden.
+  - id: close-planting-directive-carrier
+  - id: close-planting-directive-mechanism
+    note: >-
+      Ordnet politische Führung, Mobilisierung der gesamten Partei und Bevölkerung, einen Kampagnenhöhepunkt vor der
+      Herbstaussaat sowie über Winter und Frühjahr, einheitliche Arbeitskräfteplanung und Verbesserung der Geräte an.
+  - id: close-planting-chan-carrier
+    note: >-
+      Die Institutionengeschichte erläutert die erweiterten Aufgaben des Landwirtschaftsministeriums und seine Umwandlung
+      in einen Mobilisierungsapparat, der 1958 unter den wechselnden Initiativen und Produktionszielen der Zentrale
+      improvisieren musste.
+  - id: close-planting-history-consequences
+  - id: close-planting-riskin-consequences
+    note: >-
+      Belegt einen Beitrag zum Produktionsrückgang und ordnet die Methoden ausdrücklich unter mehreren anderen Ursachen
+      ein; die Quelle liefert weder eine methodenspezifische Zahl von Todesopfern noch einen landesweiten Verlustwert.
+  - id: close-planting-mao-correction
+    note: >-
+      Der Brief vom 29. April 1959 erklärt, die Aussaat dürfe weder zu dünn noch zu dicht sein, verwirft „je dichter, desto
+      besser“, untersagt starre Befehle von oben und macht die geeignete Dichte von lokalen agronomischen Faktoren abhängig.
+  - id: close-planting-party-history-correction
+    note: >-
+      Die amtliche historische Analyse bezeichnet den April-Brief als Versuch, fehlerhafte Agrarpraktiken zu korrigieren,
+      erklärt jedoch, die umfassendere Korrektur sei durch die fortdauernde Zustimmung zum Großen Sprung begrenzt gewesen
+      und nach der Lushan-Konferenz abrupt abgebrochen.
+  - id: close-planting-density-context
+    note: >-
+      Moderne Evidenz erklärt, weshalb eine allgemeine Steigerung der Pflanzdichte sachlich unbegründet war, ohne daraus
+      abzuleiten, jede Erhöhung der Pflanzdichte sei schädlich.
+  - id: close-planting-tillage-context
+    note: >-
+      Moderne Evidenz stützt bedingungsabhängige tiefe Bodenbearbeitung gegen Verdichtung, widerlegt aber die allgemeine
+      Regel, immer tiefere Bearbeitung erzeuge immer höhere Erträge.

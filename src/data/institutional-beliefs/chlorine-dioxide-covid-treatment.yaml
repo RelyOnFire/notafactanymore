@@ -1,74 +1,304 @@
+schemaVersion: 2
 title: Chlorine dioxide as COVID-19 prevention and treatment
-claim: >-
-  Chlorine dioxide solution was treated as a medically usable means of preventing or treating COVID-19, warranting legal access, public-health supply, and official information campaigns.
-currentUnderstanding: >-
-  Chlorine dioxide is an oxidizing chemical used in disinfection and industrial applications, not a proven medicine for COVID-19. There is no adequate scientific evidence that ingesting chlorine dioxide prevents or treats COVID-19, and exposure can cause serious toxic effects. Public-health policy should not infer therapeutic efficacy from its disinfectant properties.
+proposition:
+  summary: >-
+    Chlorine dioxide solution was treated as a medically usable alternative for preventing or treating COVID-19, making
+    statutory pharmacy access, public-health supply, official information campaigns and judicially enforceable patient
+    access appropriate.
+correction:
+  summary: >-
+    Chlorine dioxide is a reactive oxidizing chemical used for disinfection and industrial purposes. Activity against
+    microbes outside the body does not establish a safe or effective systemic treatment. A 2020 systematic review found
+    no human studies supporting inhaled, oral or parenteral use against COVID-19, and a later randomized trial of the much
+    narrower practice of dilute chlorine-dioxide mouth rinsing found no reduction in salivary SARS-CoV-2 viral titer versus
+    water. PAHO advised against oral or parenteral use because efficacy was unproved and serious adverse effects were
+    possible; poison-centre data document acute gastrointestinal, electrolyte and other harms after exposure.
 category: Medicine and public health
-reviewedAt: 2026-08-24
+reviewedAt: 2026-09-27
 impact:
   summary: >-
-    Bolivia presents a particularly sharp institutional contradiction. The national medicines regulator and Ministry of Health publicly stated that chlorine dioxide lacked scientific evidence, authorization, and a valid COVID-19 treatment basis. The legislature nevertheless enacted a national law requiring public-sector supply and information measures for its use as prevention or alternative treatment, and constitutional litigation later made that statutory access operational in a hospital case.
+    Bolivia's national institutions took conflicting positions. AGEMED and the Ministry of Health said chlorine dioxide
+    was not an authorized medicine, lacked evidence against COVID-19 and could cause serious harm. The legislature
+    nevertheless promulgated Law 1351, which authorized non-prescription sale and assigned public bodies supply,
+    acquisition, free-distribution and information duties. In 2022 the Constitutional Tribunal upheld relief allowing
+    outside medical personnel to assess and provide the requested treatment in one hospital case; in 2023 a different
+    chamber denied relief in another case on proof and causation grounds. Neither judgment independently validated efficacy.
   highlights:
-    - value: "Jun–Jul 2020"
-      label: AGEMED and the Ministry of Health said there was no scientific evidence and warned against use
-    - value: "Oct 2020"
-      label: Law 1351 made chlorine dioxide a legally recognized COVID-19 prevention and treatment option
-    - value: "2022"
-      label: Constitutional court confirmed relief requiring hospital access to an outside doctor for chlorine-dioxide treatment under the law
+    - value: Jun–Jul 2020
+      label: AGEMED and the Health Ministry rejected the claimed treatment basis before the law was promulgated
+    - value: 14 Oct 2020
+      label: Law 1351 made chlorine dioxide a legally recognized COVID-19 prevention and alternative-treatment option
+    - value: 2022–2023
+      label: Constitutional rulings produced different case-specific access outcomes without resolving scientific efficacy
   context:
     - >-
-      The Ministry of Health and AGEMED were correcting institutions in this episode, not carriers of the disputed medical belief. Before Law 1351 was enacted, they had already said chlorine dioxide was not an authorized medicine, lacked evidence for COVID-19, and could endanger health. The law nevertheless assigned the health ministry and territorial governments implementation duties.
+      The Ministry of Health and AGEMED were dissenting public-health institutions in this episode, rather than carriers
+      of the disputed medical proposition. Law 1351 nevertheless assigned implementation duties to the ministry and to
+      departmental and municipal governments.
     - >-
-      Bolivia ended its national COVID-19 health emergency in 2023. Law 1351 was not documented as formally repealed on that date, so the end of the emergency and the legal status of the statute are distinct questions.
+      Bolivia ended its national COVID-19 health emergency on 31 July 2023. That administrative endpoint did not itself
+      repeal Law 1351. No formal legislative repeal was located in the reviewed official record, and a Bolivian legal
+      database still labelled the statute in force at the review date.
 episodes:
   - id: bolivia-2020-2023
     polity: Bolivia
     region: Latin America
     startYear: 2020
     endYear: 2023
-    periodLabel: 2020–COVID-19 emergency period
+    periodLabel: 2020–2023 COVID-19 emergency period
     strength: policy-basis
-    institutionTypes: [government, court]
+    institutionTypes:
+      - government
+      - court
     institutions:
       - Asamblea Legislativa Plurinacional
       - Tribunal Constitucional Plurinacional
     institutionalContext: >-
-      Law 1351 required departmental and municipal governments to guarantee chlorine-dioxide supply in the public health subsector, authorized its use as an alternative prevention or treatment, required information campaigns, and assigned acquisition and free distribution responsibilities. The Tribunal Constitucional Plurinacional's role was judicial enforcement of statutory patient access rather than an independent scientific validation: in SCP 0052/2022-S2 it upheld relief after a hospital refused requested chlorine-dioxide treatment and relied on the national law. The Ministry of Health and AGEMED had opposed the medical premise before enactment even though the law later assigned public-health bodies implementation duties.
+      Law 1351 was passed by the legislature and promulgated by its acting president on 14 October 2020 after AGEMED and
+      the Health Ministry had already rejected the medical premise. Articles 4 through 10 allowed pharmacy sale without
+      prescription, required departmental and municipal governments to guarantee supply in the public-health subsector,
+      permitted consented use as prevention or alternative treatment, and assigned information, acquisition and
+      free-distribution duties. In SCP 0052/2022-S2, the Constitutional Tribunal reasoned from Articles 5 and 6 when it upheld
+      relief requiring a hospital to admit outside specialized medical personnel to assess and provide the requested
+      treatment; it did not order the hospital's own clinicians to administer chlorine dioxide or conduct a scientific
+      efficacy review. SCP 0052/2023-S4 later denied relief in a different hospital case because the claimant had not
+      proved a timely refusal or that the hospital caused the patient's deterioration and death. The second judgment did
+      not invalidate Law 1351 or decide that chlorine dioxide was effective.
     consequences:
       - Legal recognition of chlorine dioxide as an alternative COVID-19 prevention and treatment option
-      - Statutory duties for public-sector supply, acquisition, free distribution, and information campaigns
-      - Availability without a prescription under the statutory framework
-      - Constitutional litigation requiring a hospital to permit access to requested chlorine-dioxide treatment through specialized outside medical personnel
+      - Statutory duties for public-sector supply, acquisition, free distribution and information campaigns
+      - Pharmacy sale without a prescription under the statutory framework
+      - Conflict between the statute and the evidence-based position of the national medicines regulator and Health Ministry
+      - Constitutional litigation that granted access in one hospital case and denied relief on proof grounds in another
     summary: >-
-      In June and July 2020, Bolivia's medicines regulator AGEMED and Ministry of Health warned that chlorine dioxide was not an authorized medicine, that no scientific evidence supported its use against COVID-19, and that proposed treatment protocols lacked scientific basis. The legislature nevertheless enacted Law 1351 in October 2020, explicitly regulating chlorine dioxide as COVID-19 prevention and treatment and imposing supply, acquisition, free-distribution, and information duties on public authorities. In 2022 the Constitutional Tribunal upheld relief in a hospital case, reasoning from Law 1351 that a patient should have been allowed access to the requested treatment through specialized outside medical personnel. Bolivia lifted the national COVID-19 health emergency on 31 July 2023.
-    sources:
-      - title: Ley Nº 1351 — Solución de Dióxido de Cloro como prevención y tratamiento ante la pandemia del COVID-19
-        url: https://www.udape.gob.bo/wp-content/uploads/2024/09/LEY_1351.pdf
-        publisher: Unidad de Análisis de Políticas Sociales y Económicas (UDAPE), Estado Plurinacional de Bolivia
-        note: >-
-          National law enacted 14 October 2020. It regulates chlorine dioxide as prevention and treatment, requires departmental and municipal governments to guarantee public-health supply, allows use without prescription through pharmacies, requires information campaigns, and assigns acquisition and free-distribution responsibilities.
-      - title: Circular MS/AGEMED/CR/60/2020 — comunicado sobre dióxido de cloro y clorito de sodio
-        url: https://www.agemed.gob.bo/circulares/2020/CIRCULAR-60-2020.pdf
-        publisher: Agencia Estatal de Medicamentos y Tecnologías en Salud (AGEMED), Ministry of Health
-        note: >-
-          Official 26 June 2020 regulator warning states that chlorine dioxide was not an authorized medicine, lacked evidence supporting use against COVID-19, had no sanitary registration establishing safety, quality, or efficacy, and posed serious health risks.
-      - title: Circular MS/AGEMED/CR/67/2020 — Estudios Clínicos con Dióxido de Cloro
-        url: https://www.agemed.gob.bo/circulares/2020/CIRCULAR-67-2020.pdf
-        publisher: Agencia Estatal de Medicamentos y Tecnologías en Salud (AGEMED), Ministry of Health
-        note: >-
-          Official 8 July 2020 circular reiterates that no scientific evidence supported chlorine dioxide for treatment of COVID-19 and directs proponents toward properly approved clinical studies if they wished to generate evidence.
-      - title: Comunicado del Ministerio de Salud sobre el denominado Comité Boliviano de Solución de Dióxido de Cloro
-        url: https://www.minsalud.gob.bo/component/jdownloads/?Itemid=1118&catid=27&id=496%3Acomunicado20julio2020a&task=download.send
-        publisher: Ministry of Health, Bolivia
-        note: >-
-          Official 20 July 2020 statement says proposed chlorine-dioxide treatment protocols had no scientific basis, put lives at high risk, and had no institutional recognition from the Ministry.
-      - title: Sentencia Constitucional Plurinacional 0052/2022-S2
-        url: https://tcpbolivia.bo/wp-content/uploads/2025/03/TomoIIs12022.pdf
-        publisher: Tribunal Constitucional Plurinacional de Bolivia
-        note: >-
-          The Constitutional Tribunal confirmed relief in a 2021 hospital case and relied on Law 1351 when holding that refusal to permit requested chlorine-dioxide treatment through specialized outside medical personnel infringed the patient's protected rights in the circumstances.
-      - title: Resolución Ministerial Nº 0461 — Se levanta la emergencia sanitaria nacional contra la COVID-19
-        url: https://www.minsalud.gob.bo/normativa/resoluciones/resoluciones-ministeriales
-        publisher: Ministry of Health and Sports, Bolivia
-        note: >-
-          Official ministry index reproduces the resolution ending Bolivia's national COVID-19 health emergency from 31 July 2023; this is used as the operational endpoint for the exceptional pandemic episode, not as evidence of formal repeal of Law 1351.
+      Bolivia's medicines regulator and Health Ministry warned in June and July 2020 that chlorine dioxide was not an
+      authorized medicine, had no scientific basis as a COVID-19 treatment and posed serious risks. The Asamblea
+      Legislativa Plurinacional nevertheless made the proposition operational through Law 1351 in October 2020. The law
+      created access and public-supply duties that a 2022 Constitutional Tribunal judgment applied in a hospital case by
+      requiring access for outside medical personnel. A 2023 judgment denied a different claim because the alleged refusal
+      and causal harm had not been proved, illustrating that the 2022 outcome was case-specific rather than a general
+      scientific endorsement. The national health emergency ended in July 2023, but no formal repeal of Law 1351 was
+      identified in the reviewed official material.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        The legislature converted an unsupported therapeutic proposition into a national statutory framework for sale,
+        supply, distribution and public communication; constitutional litigation then made the access provisions
+        enforceable in one hospital case.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 2020–2023
+      action: >-
+        Health agencies rejected the medical premise, a later constitutional judgment denied a separate access claim on
+        proof grounds, and the national COVID-19 emergency ended; the legislature did not document a repeal or retraction.
+      summary: >-
+        Correction was institutionally split rather than a clean reversal. AGEMED and the Health Ministry rejected the
+        proposition from the outset, and the 2023 judgment did not repeat the 2022 access result in a factually different
+        case. Ending the emergency closed the operational period used for this episode, but it did not expressly repeal the
+        statute. The reviewed record therefore supports only a partial correction, not a legislative repudiation of Law 1351.
+sources:
+  - id: chlorine-law-1351
+    title: Ley Nº 1351 — Solución de Dióxido de Cloro como prevención y tratamiento ante la pandemia del COVID-19
+    url: https://www.udape.gob.bo/wp-content/uploads/2024/09/LEY_1351.pdf
+    publisher: Unidad de Análisis de Políticas Sociales y Económicas (UDAPE), Estado Plurinacional de Bolivia
+  - id: chlorine-agemed-60
+    title: Circular MS/AGEMED/CR/60/2020 — comunicado sobre dióxido de cloro y clorito de sodio
+    url: https://www.agemed.gob.bo/circulares/2020/CIRCULAR-60-2020.pdf
+    publisher: Agencia Estatal de Medicamentos y Tecnologías en Salud (AGEMED), Ministry of Health
+  - id: chlorine-agemed-67
+    title: Circular MS/AGEMED/CR/67/2020 — Estudios Clínicos con Dióxido de Cloro
+    url: https://www.agemed.gob.bo/circulares/2020/CIRCULAR-67-2020.pdf
+    publisher: Agencia Estatal de Medicamentos y Tecnologías en Salud (AGEMED), Ministry of Health
+  - id: chlorine-ministry-committee
+    title: Comunicado del Ministerio de Salud sobre el denominado Comité Boliviano de Solución de Dióxido de Cloro
+    url: https://www.minsalud.gob.bo/component/jdownloads/?Itemid=1118&catid=27&id=496%3Acomunicado20julio2020a&task=download.send
+    publisher: Ministry of Health, Bolivia
+  - id: chlorine-tcp-2022
+    title: Sentencia Constitucional Plurinacional 0052/2022-S2
+    url: https://tcpbolivia.bo/wp-content/uploads/2025/03/TomoIIs12022.pdf
+    publisher: Tribunal Constitucional Plurinacional de Bolivia
+  - id: chlorine-emergency-2023
+    title: Resolución Ministerial Nº 0461 — Se levanta la emergencia sanitaria nacional contra la COVID-19
+    url: https://www.minsalud.gob.bo/normativa/resoluciones/resoluciones-ministeriales
+    publisher: Ministry of Health and Sports, Bolivia
+  - id: chlorine-paho-2020
+    title: PAHO Does Not Recommend Taking Products that Contain Chlorine Dioxide, Sodium Chlorite, Sodium Hypochlorite, or Derivatives, 16 July 2020
+    url: https://iris.paho.org/bitstream/handle/10665.2/52515/PAHOMSPHECOVID-19200040_eng.pdf
+    publisher: Pan American Health Organization
+  - id: chlorine-systematic-review
+    title: Chlorine dioxide and chlorine derivatives for the prevention or treatment of COVID-19 — a systematic review
+    url: https://www.scielo.org.pe/scielo.php?pid=S1726-46342020000400605&script=sci_abstract&tlng=en
+    publisher: Revista Peruana de Medicina Experimental y Salud Pública / SciELO
+  - id: chlorine-poison-centres
+    title: Harmful effects of chlorine dioxide exposure
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7982344/
+    publisher: Clinical Toxicology / PubMed Central
+  - id: chlorine-mouthwash-rct
+    title: A multicenter, randomized, open-label, placebo-controlled clinical trial of the effect of cetylpyridinium chloride (CPC) mouthwash and on-demand aqueous chlorine dioxide mouthwash on SARS-CoV-2 viral titer in patients with mild COVID-19
+    url: https://pubmed.ncbi.nlm.nih.gov/39631972/
+    publisher: Journal of Evidence-Based Dental Practice / PubMed
+  - id: chlorine-tcp-2023
+    title: Sentencia Constitucional Plurinacional 0052/2023-S4
+    url: https://jurisprudenciaconstitucional.com/resolucion/122472-sentencia-constitucional-plurinacional-0052-2023-s4
+    publisher: Tribunal Constitucional Plurinacional de Bolivia, reproduced by Jurisprudencia Constitucional
+  - id: chlorine-infoleyes-status
+    title: Ley 1351 — texto y estado de vigencia
+    url: https://bolivia.infoleyes.com/norma/7536/ley-que-regula-la-elaboraci%C3%B3n-comercializaci%C3%B3n-suministro-y-uso-consentido-de-la-soluci%C3%B3n-de-di%C3%B3xido-de-cloro-sdc-como-prevenci%C3%B3n-y-tratamiento-ante-la-pandemia-del-coronavirus-covid-19-1351
+    publisher: Infoleyes Bolivia
+evidence:
+  - id: chlorine-law-proposition
+    sourceId: chlorine-law-1351
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Arts. 1, 4(b), 5–10; pp. 1–3
+    note: >-
+      The statute expressly frames chlorine dioxide as prevention and treatment, permits pharmacy sale without a
+      prescription, requires public-health supply and assigns communication, acquisition and free-distribution duties.
+  - id: chlorine-review-correction
+    sourceId: chlorine-systematic-review
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Abstract and Results; pp. 605–610
+    note: >-
+      PRISMA-based review found no published or preprint human study of inhaled, oral or parenteral chlorine dioxide or
+      derivatives for COVID-19 or other coronavirus infections at the search date; one registered observational study had
+      no results.
+  - id: chlorine-paho-correction
+    sourceId: chlorine-paho-2020
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Key messages, p. 1; Toxicity, pp. 2–3
+    note: >-
+      PAHO advises against oral or parenteral use for suspected or diagnosed COVID-19 or any other case, citing no evidence
+      of effectiveness and the possibility of serious adverse effects from ingestion or inhalation.
+  - id: chlorine-rct-correction
+    sourceId: chlorine-mouthwash-rct
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Abstract, Methods and Results
+    note: >-
+      In a randomized trial, 0.01% aqueous chlorine-dioxide mouthwash did not reduce salivary SARS-CoV-2 viral titer versus
+      purified water at 10, 30 or 60 minutes. This narrow mouth-rinse result supplies no evidence for internal administration.
+  - id: chlorine-toxicity-correction
+    sourceId: chlorine-poison-centres
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: pp. 448–449 and Table 1
+    note: >-
+      Analysis of 53 U.S. poison-centre exposures found ingestion was the most common route; vomiting, nausea, abdominal
+      pain and diarrhea were frequent, 13 patients were hospitalized, and two required critical care.
+  - id: chlorine-law-impact
+    sourceId: chlorine-law-1351
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: Arts. 4–11; pp. 1–3
+    note: >-
+      Documents the scale of the legal framework: non-prescription sale, public-sector supply, information, acquisition,
+      free distribution and financing responsibilities.
+  - id: chlorine-law-carrier
+    sourceId: chlorine-law-1351
+    relation: documents
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: carrier}
+    locator: Heading and promulgation clause, pp. 1 and 4
+    note: >-
+      Identifies the Asamblea Legislativa Plurinacional as the enacting institution and its acting president as the official
+      who promulgated the law on 14 October 2020.
+  - id: chlorine-law-mechanism
+    sourceId: chlorine-law-1351
+    relation: documents
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: mechanism}
+    locator: Arts. 3–11; pp. 1–3
+  - id: chlorine-agemed-60-context
+    sourceId: chlorine-agemed-60
+    relation: contextualizes
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: context}
+    locator: Circular dated 26 June 2020, p. 1
+    note: >-
+      AGEMED stated before promulgation that the marketed products were not authorized medicines, had no registration
+      supporting safety, quality or efficacy, lacked evidence against COVID-19 and posed serious health risks.
+  - id: chlorine-agemed-67-context
+    sourceId: chlorine-agemed-67
+    relation: contextualizes
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: context}
+    locator: Circular dated 8 July 2020, p. 1
+    note: >-
+      AGEMED again stated that no scientific evidence supported treatment and directed proponents to submit properly
+      approved clinical-study protocols if they wished to generate evidence.
+  - id: chlorine-ministry-context
+    sourceId: chlorine-ministry-committee
+    relation: contextualizes
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: context}
+    locator: Communiqué dated 20 July 2020
+    note: >-
+      The Health Ministry denied institutional recognition to the self-described committee promoting chlorine dioxide and
+      said its proposed protocols lacked a scientific basis and put lives at risk.
+  - id: chlorine-tcp-2022-mechanism
+    sourceId: chlorine-tcp-2022
+    relation: documents
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: mechanism}
+    locator: SCP 0052/2022-S2, judgment pp. 19–21
+    note: >-
+      The Tribunal relied on Law 1351, especially Articles 5 and 6, and confirmed relief requiring the hospital to allow
+      outside specialized medical personnel to assess and provide the requested treatment.
+  - id: chlorine-tcp-2022-consequences
+    sourceId: chlorine-tcp-2022
+    relation: documents
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: consequences}
+    locator: SCP 0052/2022-S2, judgment pp. 20–21
+    note: >-
+      The holding made statutory access effective in the particular hospital case. It did not require the hospital's own
+      doctors to administer the product and did not independently determine clinical efficacy.
+  - id: chlorine-emergency-endpoint
+    sourceId: chlorine-emergency-2023
+    relation: documents
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: institutional-correction}
+    locator: Resolución Ministerial 0461, Art. 1
+    note: >-
+      Ends the national COVID-19 health emergency from 31 July 2023. It supports the operational endpoint used here, not a
+      claim that Law 1351 was expressly repealed.
+  - id: chlorine-paho-episode-context
+    sourceId: chlorine-paho-2020
+    relation: contextualizes
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: context}
+    locator: Key messages, p. 1
+  - id: chlorine-review-episode-context
+    sourceId: chlorine-systematic-review
+    relation: contextualizes
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: context}
+    locator: Search completed 10 August 2020; Results, pp. 607–608
+    note: >-
+      Shows the evidentiary state contemporaneous with the statute: the systematic search located no human outcome study
+      supporting the preventive or therapeutic proposition.
+  - id: chlorine-poison-consequences
+    sourceId: chlorine-poison-centres
+    relation: supports
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: consequences}
+    locator: Table 1 and discussion, pp. 448–449
+    note: >-
+      Provides empirical toxicity context for the exposure risk created when institutions normalize chlorine-dioxide use;
+      it does not estimate how many Bolivians used the product under Law 1351.
+  - id: chlorine-rct-episode-context
+    sourceId: chlorine-mouthwash-rct
+    relation: contextualizes
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: context}
+    locator: Abstract and trial registration jRCTs031230566
+    note: >-
+      Later randomized evidence on a dilute mouth rinse found no viral-titer benefit over water and cannot be generalized
+      into support for the oral or parenteral administration contemplated by pandemic cure claims.
+  - id: chlorine-tcp-2023-limitation
+    sourceId: chlorine-tcp-2023
+    relation: documents
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: institutional-correction}
+    locator: Sections III.4 and Por Tanto
+    note: >-
+      In a separate case, the Tribunal confirmed denial of relief because the claimant did not prove a timely refusal or
+      causation. The ruling limited the requested remedy on the record before it; it did not invalidate the statute or
+      scientifically validate chlorine dioxide.
+  - id: chlorine-infoleyes-status-context
+    sourceId: chlorine-infoleyes-status
+    relation: contextualizes
+    target: {scope: episode, episodeId: bolivia-2020-2023, aspect: institutional-correction}
+    locator: Status header “Vigente”; reviewed 27 September 2026
+    note: >-
+      The legal database continued to label Law 1351 in force at the review date. This supports caution against treating the
+      end of the health emergency as an express legislative repeal.

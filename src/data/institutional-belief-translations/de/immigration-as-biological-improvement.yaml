@@ -1,32 +1,150 @@
+schemaVersion: 2
 locale: de
 entryId: immigration-as-biological-improvement
-sourceReviewedAt: '2026-08-23'
+sourceReviewedAt: '2026-09-28'
 title: Einwanderung als biologische Verbesserung
-claim: Einwanderer wurden anhand rassischer, erblicher und nationaler Merkmale danach eingestuft, ob sie den biologischen
-  und „ethnischen“ Zustand der Nation verbessern oder gefährden würden.
-currentUnderstanding: Nationale Herkunft, Ethnizität und gesellschaftlich definierte „Rasse“ bestimmen weder den
-  erblichen Wert eines Menschen noch, ob seine Nachkommen ein Land biologisch „verbessern“. Genetische Variation
-  teilt Bevölkerungen nicht in höher- und minderwertige nationale Bestände ein; soziale, intellektuelle oder moralische
-  Eigenschaften lassen sich nicht mit den eugenischen Kategorien solcher Einwanderungspolitik bewerten.
+proposition:
+  summary: >-
+    Der kolumbianische Staat behandelte vermeintliche rassische, ethnische, organische und herkunftsbezogene Merkmale
+    von Einwanderern als Anzeichen dafür, ob sie die körperlichen und moralischen „ethnischen Bedingungen“, die
+    rassische Entwicklung und das biologische Erbe des Landes verbessern oder gefährden würden.
+correction:
+  summary: >-
+    „Rasse“ und Ethnizität sind gesellschaftliche Klassifikationen; weder sie noch Nationalität bilden die genetische
+    Abstammung zuverlässig ab. Menschliche genetische Variation besteht nicht aus abgegrenzten, stabilen und von minder-
+    bis höherwertig geordneten Populationen. Nationale Herkunft bestimmt weder intellektuellen oder moralischen noch
+    erblichen Wert. Eine Auswahl von Einwanderern anhand solcher Etiketten kann eine Nation daher nicht biologisch verbessern.
+impact:
+  summary: >-
+    Die Ley 114 von 1922 überführte die eugenische Prämisse sowohl in Anwerbung als auch in Ausschluss. Artikel 1 wies
+    die Exekutive an, als rassisch geeignet beurteilte Einwanderer zur Verbesserung der körperlichen und moralischen
+    „ethnischen Bedingungen“ Kolumbiens zu fördern. Artikel 11 schloss dagegen Menschen aus, die für die Nationalität
+    oder die „bessere Entwicklung der Rasse“ als nachteilig galten. Der offene Wortlaut gab Konsuln,
+    Einwanderungsbeamten sowie Hafen- und Grenzbehörden weiten Spielraum. Diplomatische Unterlagen belegen seine
+    Anwendung bei der Zurückweisung schwarzer karibischer Reisender 1923; Ende der 1930er-Jahre nutzte das
+    Außenministerium denselben, durch das Decreto 1723 verstärkten Rahmen, um jüdische Flüchtlinge vor der
+    nationalsozialistischen Verfolgung abzuweisen.
+  highlights:
+    - value: '1922'
+      label: Jahr, in dem rassische und „ethnische“ Verbesserung ausdrückliches Ziel des kolumbianischen Einwanderungsrechts wurde
+    - value: '27'
+      label: Reisende aus Martinique, denen bei einer belegten Anwendung der Ley 114 im Jahr 1923 die Landung verweigert wurde
+    - value: 1938–40
+      label: Zeitraum, in dem Unterlagen des Außenministeriums Hürden für jüdische Flüchtlinge mit dem älteren Auswahlgesetz verbanden
+  context:
+    - >-
+      Die Ley 114 nannte weder afrokaribische Menschen noch Juden ausdrücklich. Die betroffenen Gruppen ergeben sich aus
+      der belegten Anwendung ihrer weiten Begriffe in konsularischer Korrespondenz, Exekutivmaßnahmen und einem Bericht
+      des Außenministeriums.
+    - >-
+      Jüdische Identität ist weder eine biologische „Rasse“ noch eine Nationalität. Beamte rassifizierten jüdische
+      Flüchtlinge und behandelten ihre vermeintliche Assimilierbarkeit als biologische und nationale Frage. Diese Karte
+      beschreibt jene amtliche Logik, ohne deren Kategorien zu übernehmen.
+    - >-
+      Der Zeitraum 1922–1940 bezeichnet die im maßgeblichen historischen Aufsatz belegte Durchsetzung. Er bedeutet weder,
+      dass das Gesetz 1940 aufgehoben wurde, noch dass das ausschließende Denken damals endete; die Studie belegt
+      vergleichbare Rhetorik noch 1945.
+    - >-
+      Die aktuelle amtliche Zusammenstellung der Ley 114 weist darauf hin, dass sie keine Gesamtprüfung der Geltung
+      enthält. Artikel 10 ist dort als 1927 aufgehoben markiert, für die rassische Sprache der Artikel 1 und 11 jedoch
+      keine unmittelbare Aufhebung genannt. Der spätere Antidiskriminierungsrahmen gilt deshalb als wesentliche, formal
+      aber unvollständige Korrektur; damit ist keine Rechtsmeinung zur heutigen Anwendbarkeit der Klauseln verbunden.
 episodes:
-- id: colombia-1922-1940
-  polity: Kolumbien
-  institutions:
-  - Congreso de Colombia
-  - Oficina de Información y Propaganda del Ministerio de Agricultura y Comercio
-  - Juntas de Inmigración
-  - Ministerio de Relaciones Exteriores
-  institutionalContext: Die Ley 114 von 1922 übertrug die Einwanderungsverwaltung der Oficina de Información y Propaganda
-    im Landwirtschafts- und Handelsministerium, die mit Einwanderungsagenten im Ausland sowie Juntas de Inmigración
-    in Häfen, Grenzorten und größeren Städten zusammenarbeitete. Ende der 1930er-Jahre wurden das Außenministerium
-    und das kolumbianische Konsularnetz zu zentralen Trägern einer zunehmend restriktiven Visapolitik, die auch
-    gegen jüdische Flüchtlinge angewandt wurde.
-  summary: Das kolumbianische Einwanderungsgesetz von 1922 verknüpfte Einwanderung ausdrücklich mit der Verbesserung
-    der körperlichen und moralischen „ethnischen Bedingungen“ des Landes und schuf einen Verwaltungsapparat zur
-    Auswahl und zum Ausschluss von Migranten. In den 1920er- und 1930er-Jahren nutzten Behörden diesen eugenischen
-    und rassistischen Rahmen unter anderem gegen afrokaribische Migranten und – im Rahmen einer zunehmend restriktiven
-    Visapolitik des Außenministeriums – gegen jüdische Flüchtlinge.
-  consequences:
-  - Rassische Auswahl von Einwanderern
-  - Ausschluss afrokaribischer Migranten
-  - Beschränkung jüdischer Flüchtlinge
+  - id: colombia-1922-1940
+    polity: Kolumbien
+    periodLabel: 1922–1940 (belegter Zeitraum)
+    institutions:
+      - Congreso de Colombia
+      - Oficina de Información y Propaganda del Ministerio de Agricultura y Comercio
+      - Juntas de Inmigración
+      - Ministerio de Relaciones Exteriores
+    institutionalContext: >-
+      Die Ley 114 übertrug die Einwanderungsverwaltung der Oficina de Información y Propaganda im Landwirtschafts- und
+      Handelsministerium, die mit Einwanderungsagenten im Ausland und örtlichen Einwanderungsausschüssen arbeitete.
+      Kolumbianische Konsuln handelten als Einwanderungsagenten; Hafen- und Grenzbehörden vollzogen Ausschlüsse. Ende der
+      1930er-Jahre kontrollierten das Außenministerium und das Konsularnetz ein restriktiveres Visasystem. Das Decreto
+      1723 von 1938 verlangte eine besondere Genehmigung des Ministeriums für Staatenlose, Menschen mit eingeschränktem
+      Rückkehrrecht und alle, die nach Artikel 11 der Ley 114 als besonderer Anlass zur Vorsicht galten.
+    summary: >-
+      Kolumbiens Einwanderungsgesetz von 1922 machte die Verbesserung der körperlichen und moralischen „ethnischen
+      Bedingungen“ der Nation zum Staatsziel und ermächtigte Beamte, Menschen auszuschließen, die als schädlich für die
+      Nationalität oder rassische Entwicklung des Landes galten. Beamte wandten diesen Spielraum gegen schwarze
+      karibische Migranten an und integrierten das Gesetz später in die restriktive Visamaschinerie gegen jüdische
+      Flüchtlinge. Die Episode endet 1940 als belegter Forschungszeitraum, nicht als nachgewiesenes Aufhebungsdatum.
+    consequences:
+      - Visa- und Landeentscheidungen anhand rassifizierter Urteile über Herkunft und vermeintliche Erbanlagen von Einwanderern
+      - Einreiseverweigerung für afrokaribische Reisende, darunter 27 Menschen aus Martinique in einem belegten Fall von 1923
+      - Quoten, höhere finanzielle Hürden und besondere Genehmigungspflichten für missliebige Herkunftsgruppen
+      - Beschränkungen für jüdische Flüchtlinge auf der Suche nach Schutz vor nationalsozialistischer Verfolgung in Europa
+      - Administrative Normalisierung von Einwanderern als biologische Bereicherung oder Bedrohung der Nation
+    mechanism:
+      summary: >-
+        Der Kongress schrieb die rassische Auswahl gesetzlich fest; eine Ministerialstelle, Einwanderungsausschüsse,
+        Konsularagenten sowie Hafen- und Grenzbehörden setzten sie in Pass-, Visa- und Landeentscheidungen um. Das
+        Außenministerium ergänzte 1938 Einzelfallgenehmigungen und finanzielle Hürden.
+    institutionalCorrection:
+      periodLabel: 1981 und 2021
+      action: >-
+        Der Kongress billigte 1981 das internationale Übereinkommen gegen Rassendiskriminierung und verabschiedete 2021
+        ein nationales Gesetz zur Migrationspolitik, das die Verhinderung von Rassismus und Fremdenfeindlichkeit verlangt
+        und Diskriminierung wegen „Rasse“, Hautfarbe, Nationalität oder nationaler Abstammung untersagt.
+      summary: >-
+        Diese späteren Gesetze verwerfen die Prämisse rassischer Auswahl und binden die heutige Migrationspolitik an
+        Menschenrechte und Nichtdiskriminierung. Die Korrektur gilt als teilweise, weil die amtliche Zusammenstellung
+        keine Gesamtprüfung der Geltung der Ley 114 enthält und bei dieser Prüfung keine Quelle für eine ausdrückliche
+        Aufhebung oder Nichtigerklärung ihrer Artikel 1 und 11 gefunden wurde.
+evidence:
+  - id: colombia-law-proposition
+    note: >-
+      Das Primärgesetz macht die Verbesserung der körperlichen und moralischen „ethnischen Bedingungen“ Kolumbiens zum
+      Einwanderungsziel und untersagt Menschen die Einreise, die für die Nationalität oder die „bessere Entwicklung der
+      Rasse“ als nachteilig galten.
+  - id: nasem-genetics-correction
+    note: >-
+      Der Konsensbericht definiert „Rasse“ als gesellschaftspolitische Klassifikation und fordert, sie weder als Ersatz
+      für genetische Variation zu verwenden noch Hierarchie, Homogenität oder stabile, abgegrenzte Populationen anzunehmen.
+  - id: colombia-law-impact
+    note: >-
+      Belegt die miteinander verbundenen Anwerbungs- und Ausschlussregeln sowie die Ämter, Agenten, Ausschüsse und
+      Grenzbehörden, die sie umsetzen konnten.
+  - id: colombia-study-impact
+    note: >-
+      Verfolgt anhand diplomatischer und amtlicher Korrespondenz die Anwendung des eugenischen Rahmens auf
+      afrokaribische Reisende und jüdische Flüchtlinge, darunter die Landeverweigerung von 1923 und die Akten des
+      Außenministeriums von 1938 bis 1940.
+  - id: colombia-law-carrier
+    note: >-
+      Benennt die zuständige Ministerialstelle, Einwanderungsagenten und -ausschüsse, Konsularbeamten sowie Hafen- und
+      Grenzbehörden im gesetzlichen System.
+  - id: colombia-decree-carrier
+    note: >-
+      Überträgt die besondere Visagenehmigung dem Außenministerium und legt kolumbianischen Konsuln Berichts- und
+      Befolgungspflichten auf.
+  - id: colombia-law-mechanism
+    note: >-
+      Zeigt, wie die rassische Prämisse in Einwanderungsförderung, Passprüfung, Landeentscheidungen und Grenzvollzug einging.
+  - id: colombia-decree-mechanism
+    note: >-
+      Ergänzt die restriktive Verwaltungsmaschinerie um Einzelgenehmigungen des Außenministeriums, verdoppelte
+      Einwanderungskautionen und konsularische Berichtspflichten.
+  - id: colombia-study-consequences
+    note: >-
+      Belegt den Ausschluss schwarzer karibischer Reisender und die späteren bürokratischen und finanziellen Hürden für
+      jüdische Flüchtlinge und unterscheidet dabei den allgemeinen Gesetzeswortlaut von seiner diskriminierenden Anwendung.
+  - id: colombia-study-context
+    note: >-
+      Belegt den Untersuchungszeitraum 1920–1940, ordnet die Regeln in transnationale eugenische Politik ein und erwähnt
+      fortdauernde antijüdische Assimilationsrhetorik von 1945; eine Aufhebung im Jahr 1940 belegt die Studie nicht.
+  - id: colombia-icered-correction
+    note: >-
+      Dokumentiert Kolumbiens Zustimmung zu Pflichten, staatliche Rassendiskriminierung zu beseitigen,
+      diskriminierende Gesetze zu überprüfen und Gleichheit ohne Unterscheidung nach „Rasse“, Hautfarbe oder nationaler
+      beziehungsweise ethnischer Herkunft zu gewährleisten.
+  - id: colombia-pim-correction
+    note: >-
+      Das heutige Gesetz zur Migrationspolitik verlangt die Beseitigung von Rassismus und Fremdenfeindlichkeit und gilt
+      ohne Diskriminierung wegen „Rasse“, Hautfarbe, Nationalität oder nationaler Abstammung.
+  - id: colombia-law-correction-boundary
+    note: >-
+      Die amtliche Zusammenstellung schließt eine Gesamtprüfung der Geltung aus und markiert Artikel 10 ausdrücklich als
+      aufgehoben, enthält aber keinen entsprechenden Aufhebungsvermerk für die rassische Sprache der Artikel 1 und 11.

@@ -1,139 +1,527 @@
+schemaVersion: 2
 title: Iraq as possessing active WMD stockpiles and programs
-claim: U.S. intelligence institutions assessed in 2002 that Iraq possessed chemical and biological weapons and was
-  reconstituting its nuclear-weapons program; the executive branch and Congress treated those judgments as part
-  of the factual basis for coercive disarmament and authorization to use military force against Iraq.
-currentUnderstanding: 'Postwar investigations found the central 2002 WMD judgments wrong. The Iraq Survey Group
-  found no evidence that Iraq had reconstituted a nuclear-weapons production capability after 1991, no biological-agent
-  stockpiles or mobile biological-weapons production facilities, and no substantial chemical-warfare stockpiles
-  or credible indications that chemical-weapons production had resumed. Iraq had possessed and used chemical weapons
-  historically, retained relevant expertise and intentions, and violated some missile restrictions. Official reviews
-  also drew an important distinction between intelligence production and political presentation: they did not find
-  that the Intelligence Community as a whole knowingly fabricated the WMD judgments under political pressure, but
-  later Senate review found that senior administration officials sometimes presented claims more categorically than
-  the intelligence supported and made some assertions that were unsupported or contradicted by available intelligence.'
+proposition:
+  summary: >-
+    In 2002 and early 2003, a coordinated U.S. Intelligence Community estimate treated Iraq as possessing chemical
+    and biological weapons and, in most agencies' view, as reconstituting its nuclear-weapons program. The George W.
+    Bush administration used those judgments in its public and diplomatic case, at times expressing greater certainty
+    or adding threat claims that the intelligence did not support. Congress then wrote continuing chemical and
+    biological capability and active pursuit of nuclear capability into the findings of Public Law 107-243 and
+    authorized the use of military force.
+correction:
+  summary: >-
+    Postwar investigations found no evidence that Iraq had reconstituted a nuclear-weapons production capability after
+    1991, no biological-agent stockpiles or mobile biological-weapons production facilities, and no substantial
+    chemical-warfare stockpiles or credible indications that chemical-weapons production had resumed. Iraq retained
+    expertise, dual-use capacity and an intention to restart some programs if sanctions ended; it also violated missile
+    restrictions, and a small number of old, abandoned chemical munitions were later found. Those facts did not confirm
+    the active stockpiles and renewed programs assessed in 2002. Official reviews attributed the core estimate to severe
+    collection, sourcing, tradecraft and management failures and found no evidence that analysts changed their judgments
+    because of political pressure. A separate review found that senior officials' possession claims generally reflected
+    the intelligence then available, while some claims about ongoing production, transfer to terrorists and underground
+    facilities conveyed greater certainty or went beyond that intelligence.
 category: War, intelligence and weapons of mass destruction
-reviewedAt: '2026-08-25'
+reviewedAt: '2026-09-29'
 impact:
-  summary: 'The WMD assessments moved through the full machinery of national-security policy. The October 2002 National
-    Intelligence Estimate judged that Iraq had chemical and biological weapons and, in the view of most agencies,
-    had reconstituted its nuclear-weapons program. Congress then enacted Public Law 107-243, whose findings stated
-    that Iraq continued to possess and develop a significant chemical and biological weapons capability and was
-    actively seeking a nuclear capability. The resolution authorized the president to use U.S. armed forces against
-    Iraq. After the invasion, the Iraq Survey Group failed to confirm the central stockpile and program judgments,
-    and official reviews identified both a major intelligence failure and a separate problem in the public presentation
-    of intelligence: some senior administration statements overstated certainty or went beyond what the available
-    intelligence supported.'
+  summary: >-
+    The error moved through three distinct institutional steps: a classified National Intelligence Estimate and public
+    intelligence white paper, executive speeches and diplomacy, and congressional findings backed by legal authority.
+    The House approved the authorization 296–133 and the Senate 77–23. On 19 March 2003 U.S. time, President Bush
+    announced that coalition military operations had begun and described disarming Iraq as their first purpose. The
+    postwar search overturned the principal stockpile and program judgments; Senate reviews in 2004 and 2008 and a
+    presidential commission in 2005 placed different parts of the failure on the official record. The force authorization
+    itself remained law until Congress repealed it in December 2025.
   highlights:
-  - value: 100–500 metric tons
-    label: chemical-warfare agent stockpile range assessed in the 2002 NIE; postwar investigation found no such
-      active stockpile
-    note: A small number of old, degraded chemical munitions from earlier Iraqi programs were later recovered; they
-      were not the active 100–500 metric-ton stockpile assessed before the war.
-  - value: 77–23
-    label: U.S. Senate vote approving the 2002 authorization to use military force against Iraq
-  - value: 296–133
-    label: U.S. House vote approving the 2002 authorization to use military force against Iraq
+    - value: 100–500 metric tons
+      label: chemical-warfare agent stockpile range assessed in the 2002 NIE; the postwar survey found no such active stockpile
+      note: >-
+        Old, abandoned chemical munitions from earlier Iraqi programs were later recovered. They were not the active
+        100–500 metric-ton stockpile assessed before the war.
+    - value: 296–133 / 77–23
+      label: House and Senate votes approving the 2002 authorization to use military force against Iraq
+    - value: 2002–2025
+      label: period from enactment of Public Law 107-243 to its statutory repeal
   context:
-  - Iraq's earlier weapons history was real. It had produced and used chemical weapons, operated an offensive biological
-    program and pursued nuclear weapons before 1991. Analysts also faced Iraqi concealment and incomplete declarations.
-    The false institutional belief concerned the active stockpiles and renewed programs assessed in 2002, not Iraq's
-    entire historical WMD record.
-  - Postwar investigations distinguished between production of the intelligence and its political presentation.
-    The 2004 Senate Intelligence Committee review and 2005 WMD Commission found no evidence that policymakers pressured
-    Intelligence Community analysts to alter their WMD judgments; analysts largely reported conclusions they themselves
-    believed. Those reviews nevertheless documented severe failures of sourcing, tradecraft, management and treatment
-    of dissent, including reliance on fabricated or unreliable reporting. A separate 2008 Senate review found that
-    senior administration officials sometimes presented claims more categorically than the intelligence warranted
-    and made several public assertions that were unsupported or contradicted by available intelligence. The evidence
-    therefore does not support treating the entire WMD assessment as a knowingly fabricated Intelligence Community
-    product, nor does it justify treating every element of the administration's public case as a neutral restatement
-    of intelligence.
-  - Weapons of mass destruction were not the only justification stated in Public Law 107-243 or in the broader case
-    for war. Incorrect WMD judgments nevertheless became an explicit part of the statutory and executive policy basis
-    for the invasion.
+    - >-
+      Iraq's earlier weapons history was real. It had produced and used chemical weapons, operated an offensive
+      biological program and pursued nuclear weapons before 1991. Analysts also faced Iraqi concealment, incomplete
+      declarations and the intelligence failure to detect the scale of Iraq's pre-1991 nuclear work. The corrected claim
+      concerns active stockpiles and renewed programs in 2002, not Iraq's entire WMD history.
+    - >-
+      The October 2002 estimate was coordinated but not unanimous. The State Department's Bureau of Intelligence and
+      Research rejected the conclusion that the nuclear program had been reconstituted; the Department of Energy also
+      disputed the principal interpretation of the aluminum tubes, and the Air Force judged a biological-weapons mission
+      for the small UAVs less likely than other missions. The public intelligence white paper then omitted several
+      caveats and alternative views found in the classified estimate.
+    - >-
+      Intelligence production and political presentation require separate findings. The 2004 Senate review and 2005
+      WMD Commission found no evidence that policymakers caused analysts to alter their WMD judgments. The 2008 Senate
+      review found that statements about possession were generally substantiated by contemporaneous intelligence, while
+      several production and threat claims used greater certainty or were unsupported or contradicted. The record
+      therefore supports neither a wholly fabricated Intelligence Community product nor a claim that every public
+      statement neutrally reproduced the underlying intelligence.
+    - >-
+      Weapons of mass destruction were not the only ground stated in Public Law 107-243 or in the administration's case
+      for war. The false WMD judgments nevertheless became an explicit statutory, executive and diplomatic premise. This
+      record documents that institutional path; it does not attribute every decision or consequence of the Iraq War to a
+      single intelligence error.
 episodes:
-- id: united-states-2002-2005
-  polity: United States
-  region: North America
-  startYear: 2002
-  endYear: 2005
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - military
-  institutions:
-  - United States Intelligence Community
-  - Central Intelligence Agency
-  - Defense Intelligence Agency
-  - Executive Office of the President
-  - United States Congress
-  institutionalContext: At Congress's request, the National Intelligence Council produced the October 2002 NIE Iraq's
-    Continuing Programs for Weapons of Mass Destruction. Its central judgments included that Baghdad had chemical
-    and biological weapons, that its biological capability was larger and more advanced than before the Gulf War,
-    that it possessed mobile biological production facilities, that chemical-weapons production had resumed with
-    a stockpile estimated at 100–500 metric tons, and that most agencies judged Iraq was reconstituting its nuclear-weapons
-    program. Public Law 107-243 then incorporated continuing Iraqi chemical, biological and nuclear capability into
-    its congressional findings and authorized the use of force. U.S.-led military operations began in March 2003.
-    Postwar investigations contradicted the central WMD judgments, culminating in the 2005 presidential commission's
-    official assessment of a major intelligence failure.
-  consequences:
-  - Incorporation of incorrect active-WMD judgments into the congressional findings supporting Public Law 107-243
-  - Broad statutory authorization for the president to use U.S. armed forces against Iraq
-  - Use of the WMD assessments in executive and diplomatic arguments for Iraqi disarmament
-  - Public presentation by senior administration officials that sometimes overstated certainty or exceeded what
-    intelligence reporting supported
-  - Use in the intelligence process of fabricated or unreliable source reporting that analysts and managers failed
-    to vet or qualify adequately
-  - March 2003 U.S.-led invasion after the assessed active stockpiles and programs became part of the policy case
-  - Major postwar intelligence reviews and reforms after the central assessments proved wrong
-  - Long-term damage to the credibility of U.S. intelligence and public claims about weapons programs
-  summary: Iraq's suspected WMD capabilities became an institutional belief with exceptionally high consequences.
-    The 2002 NIE converted fragmentary and sometimes unreliable evidence into confident judgments about chemical
-    and biological weapons and a renewed nuclear program. Congress wrote comparable WMD claims into the findings
-    of the authorization for military force. The postwar search instead found that the main active-program and stockpile
-    assessments were wrong. Official investigations found no evidence that Intelligence Community analysts had been
-    ordered to falsify their judgments, but they documented major failures of sourcing, analysis and management;
-    a later Senate review also found that some senior administration public statements overstated or exceeded what
-    the intelligence supported.
-  sources:
-  - title: Iraq's Continuing Programs for Weapons of Mass Destruction — October 2002 National Intelligence Estimate
+  - id: us-intelligence-estimate-2002-2005
+    polity: United States
+    region: North America
+    startYear: 2002
+    endYear: 2005
+    periodLabel: October 2002 assessment; official reviews in 2004–2005
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+      - military
+    institutions:
+      - United States Intelligence Community
+      - National Intelligence Council
+      - Central Intelligence Agency
+      - Defense Intelligence Agency
+    institutionalContext: >-
+      Members of the Senate Intelligence Committee requested a coordinated estimate while Congress was considering Iraq.
+      The National Intelligence Council produced the NIE on a compressed schedule, and the National Foreign Intelligence
+      Board approved it on 1 October 2002. Its key judgments said Iraq had chemical and biological weapons, described the
+      biological program as larger and more advanced than before 1991, identified mobile biological-production
+      facilities, estimated 100–500 metric tons of chemical agent and said most agencies judged that the nuclear program
+      was being reconstituted. Agency dissents appeared in the classified document, but the public white paper released
+      on 4 October removed important caveats and some alternative views.
+    consequences:
+      - An authoritative national estimate presented central chemical, biological and nuclear judgments with more confidence than the underlying reporting justified
+      - The public intelligence white paper restated the case while omitting important caveats and some agency disagreements
+      - Fabricated or unreliable human-source reporting entered finished intelligence and senior-level presentations
+      - Assumptions formed from Iraq's history and concealment hardened into a presumption that discounted contrary evidence
+      - Uncertainties about sources, collection gaps and alternative technical interpretations were inadequately conveyed to policymakers
+      - The estimate supplied an official evidentiary premise for executive advocacy and congressional deliberation
+    summary: >-
+      A rapid, formally coordinated estimate converted sparse and sometimes unreliable reporting into confident judgments
+      about active weapons and renewed programs. The process did retain dissents, but the main text and later public white
+      paper did not communicate the evidentiary weakness adequately. Postwar access showed that nearly all of the central
+      WMD judgments, apart from prohibited missile development, were wrong.
+    mechanism:
+      kind: publication
+      summary: >-
+        National-level coordination, approval of the NIE and release of a substantively similar public white paper gave
+        the judgments the authority of the Intelligence Community and made them available for policy and public use.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 2004–2005
+      action: >-
+        The Iraq Survey Group published contrary ground findings, the Senate Intelligence Committee audited the estimate
+        and its sources, and the presidential WMD Commission formally described the result as a major intelligence failure.
+      summary: >-
+        These official reviews rejected the principal stockpile and program judgments and documented failures in source
+        validation, information sharing, analysis, management and communication of uncertainty. They also recorded that
+        the analysts generally believed their conclusions and found no evidence that political pressure made them change
+        those judgments.
+  - id: us-executive-public-case-2002-2003
+    polity: United States
+    region: North America
+    startYear: 2002
+    endYear: 2003
+    periodLabel: October 2002–March 2003; acknowledgement in 2005 and Senate review in 2008
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - military
+    institutions:
+      - Executive Office of the President
+      - United States Department of State
+      - United States Department of Defense
+    institutionalContext: >-
+      President Bush's 7 October 2002 Cincinnati address presented Iraqi chemical and biological possession and production
+      as facts while urging Congress to authorize force. Secretary of State Colin Powell's 5 February 2003 presentation
+      carried the WMD case to the United Nations Security Council, including claims about mobile biological laboratories,
+      chemical stocks and nuclear procurement. On 19 March, Bush announced that military operations had begun to disarm
+      Iraq, free its people and defend the world from danger. The later Senate comparison found a mixed record: many
+      possession statements tracked the flawed intelligence, while some production and threat claims exceeded it.
+    consequences:
+      - National speeches presented the disputed active-stockpile and production judgments to the public as an urgent security threat
+      - The United States used the intelligence in its diplomatic effort to persuade the United Nations Security Council
+      - Some statements collapsed estimates and uncertainty into categorical claims of fact
+      - Some claims about Iraqi transfer of WMD to terrorists or deeply buried facilities were unsupported or contradicted by available intelligence
+      - The president identified disarmament as a purpose when announcing the start of coalition military operations
+      - The failure of the public case became a separate subject of congressional oversight from the quality of the estimate itself
+    summary: >-
+      The administration transformed intelligence judgments into a public and diplomatic argument for urgent coercion and
+      force. Much of that argument reflected what intelligence agencies then assessed, so the evidentiary record does not
+      support treating every statement as a knowing invention. It does show that officials sometimes erased uncertainty or
+      went beyond the intelligence, making political presentation a distinct institutional failure.
+    mechanism:
+      kind: endorsement
+      summary: >-
+        Presidential speeches, cabinet-level briefings and the Secretary of State's United Nations presentation repeated
+        and amplified the WMD judgments as the executive branch's factual case for disarmament and possible military action.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 2005–2008
+      action: >-
+        President Bush acknowledged in December 2005 that much of the intelligence had been wrong, and the Senate
+        Intelligence Committee issued its claim-by-claim review of senior officials' public statements in June 2008.
+      summary: >-
+        The executive acknowledgement corrected the central factual premise while continuing to defend the decision to
+        invade. The later Senate report distinguished statements supported by the intelligence from those that overstated
+        or exceeded it. Because much of that detailed correction came from congressional oversight rather than a
+        comprehensive executive retraction, the correction is classified as partial.
+  - id: us-congressional-authorization-2002
+    polity: United States
+    region: North America
+    startYear: 2002
+    endYear: 2002
+    periodLabel: October 2002 adoption; authorization remained in force until December 2025
+    strength: policy-basis
+    institutionTypes:
+      - government
+    institutions:
+      - United States Congress
+    institutionalContext: >-
+      Public Law 107-243 stated among its findings that Iraq continued to possess and develop a significant chemical and
+      biological weapons capability and was actively seeking a nuclear-weapons capability. The law also recited other
+      grounds, including Iraq's earlier aggression, noncompliance with United Nations resolutions, repression and alleged
+      support for terrorism. Section 3 authorized the president to use the armed forces against the continuing threat and
+      to enforce relevant Security Council resolutions. Congress later produced major corrective oversight reports, but
+      the authorization remained legally available until its repeal on 18 December 2025.
+    consequences:
+      - Incorrect active-WMD claims became formal findings in an enacted joint resolution
+      - The House approved the resolution 296–133 and the Senate approved it 77–23
+      - Section 3 supplied specific statutory authorization for the president to use United States armed forces against Iraq
+      - The March 2003 invasion followed after the president made the statutory determination and invoked the authorization
+      - Corrective congressional investigations did not themselves remove the force authority from the statute
+      - Public Law 119-60 finally repealed the 2002 authorization in December 2025
+    summary: >-
+      Congress did more than receive or repeat the intelligence. It enacted comparable WMD propositions as findings and
+      connected them to broad force authority. Senate oversight began correcting the evidentiary record in 2004, but the
+      operative authorization survived for another two decades before Congress removed it in 2025.
+    mechanism:
+      kind: endorsement
+      summary: >-
+        Bicameral passage and presidential approval converted active-WMD propositions from intelligence and policy claims
+        into statutory findings attached to an authorization for military force.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 2004–2025
+      action: >-
+        Senate Intelligence Committee reports in 2004 and 2008 corrected the intelligence and public-statement records;
+        Congress then repealed Public Law 107-243 through section 8370 of Public Law 119-60 in December 2025.
+      summary: >-
+        Oversight corrected the central factual record years before repeal. The 2025 law closed the remaining statutory
+        authority; it did not itself adjudicate each 2002 finding, but it completed the institutional withdrawal of the
+        legal instrument to which those findings had been attached.
+sources:
+  - id: iraq-nie-2002
+    title: Iraq's Continuing Programs for Weapons of Mass Destruction — October 2002 National Intelligence Estimate
     url: https://www.cia.gov/readingroom/docs/DOC_0001075566.pdf
     publisher: Central Intelligence Agency
-    note: Declassified National Intelligence Estimate containing the prewar Intelligence Community judgments about
-      Iraqi chemical and biological weapons and, for most agencies, reconstitution of the nuclear-weapons program.
-  - title: Authorization for Use of Military Force Against Iraq Resolution of 2002 — Public Law 107-243
+  - id: iraq-aumf-2002
+    title: Authorization for Use of Military Force Against Iraq Resolution of 2002 — Public Law 107-243
     url: https://www.govinfo.gov/app/details/PLAW-107publ243
     publisher: U.S. Government Publishing Office
-    note: Primary statutory record. Its findings state that Iraq continued to possess and develop significant chemical
-      and biological weapons capability and was actively seeking a nuclear capability; section 3 authorized the
-      president to use U.S. armed forces against Iraq.
-  - title: Report of the Commission on the Intelligence Capabilities of the United States Regarding Weapons of Mass
-      Destruction
+  - id: wmd-commission-2005
+    title: Report of the Commission on the Intelligence Capabilities of the United States Regarding Weapons of Mass Destruction
     url: https://www.govinfo.gov/content/pkg/GPO-WMD/pdf/GPO-WMD.pdf
     publisher: U.S. Government Publishing Office
-    note: Official 2005 presidential commission report. It calls the Intelligence Community's prewar Iraq WMD judgments
-      a major intelligence failure, finds no indication analysts distorted the evidence, and details the incorrect
-      nuclear, biological and chemical assessments and the Iraq Survey Group's contrary postwar findings.
-  - title: Senate Roll Call Vote 237 — H.J.Res. 114
+  - id: senate-vote-237
+    title: Senate Roll Call Vote 237 — H.J.Res. 114
     url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1072/vote_107_2_00237.htm
     publisher: United States Senate
-    note: Official roll call recording Senate passage of the Iraq authorization by 77 votes to 23 on 11 October
-      2002.
-  - title: House Roll Call 455 — H.J.Res. 114
+  - id: house-vote-455
+    title: House Roll Call 455 — H.J.Res. 114
     url: https://clerk.house.gov/Votes/2002455
     publisher: Office of the Clerk, U.S. House of Representatives
-    note: Official roll call recording House passage of the Iraq authorization by 296 votes to 133 on 10 October
-      2002.
-  - title: Report on the U.S. Intelligence Community's Prewar Intelligence Assessments on Iraq — 2004
+  - id: ssci-phase-i-2004
+    title: Report on the U.S. Intelligence Community's Prewar Intelligence Assessments on Iraq — 2004
     url: https://www.intelligence.senate.gov/sites/default/files/publications/108301.pdf
     publisher: U.S. Senate Select Committee on Intelligence
-    note: Bipartisan Phase I review concluding that many key prewar Iraq WMD judgments were overstated or unsupported
-      by the underlying intelligence, documenting groupthink and tradecraft failures, while finding no evidence
-      that administration officials pressured analysts to alter their judgments.
-  - title: Whether Public Statements Regarding Iraq by U.S. Government Officials Were Substantiated by Intelligence
-      Information — 2008
+  - id: ssci-phase-ii-2008
+    title: Whether Public Statements Regarding Iraq by U.S. Government Officials Were Substantiated by Intelligence Information — 2008
     url: https://www.intelligence.senate.gov/sites/default/files/publications/110345.pdf
     publisher: U.S. Senate Select Committee on Intelligence
-    note: Phase II review comparing senior officials' public claims with the intelligence available to them. It
-      found that several statements overstated certainty or were unsupported or contradicted by available intelligence,
-      including some claims about Iraq's links to al-Qaeda and transfer of WMD to terrorists.
+  - id: duelfer-report-2004
+    title: Comprehensive Report of the Special Advisor to the Director of Central Intelligence on Iraq's WMD — Key Findings
+    url: https://www.govinfo.gov/content/pkg/GPO-DUELFERREPORT/pdf/GPO-DUELFERREPORT-1.pdf
+    publisher: Iraq Survey Group / U.S. Government Publishing Office
+  - id: bush-iraq-threat-2002
+    title: President Bush Outlines Iraqi Threat
+    url: https://georgewbush-whitehouse.archives.gov/news/releases/2002/10/20021007-8.html
+    publisher: White House Office of the Press Secretary
+  - id: powell-un-2003
+    title: Remarks to the United Nations Security Council
+    url: https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm
+    publisher: U.S. Department of State
+  - id: bush-military-operations-2003
+    title: President Bush Addresses the Nation
+    url: https://georgewbush-whitehouse.archives.gov/news/releases/2003/03/20030319-17.html
+    publisher: White House Office of the Press Secretary
+  - id: bush-intelligence-acknowledgment-2005
+    title: President Discusses Iraqi Elections, Victory in the War on Terror
+    url: https://georgewbush-whitehouse.archives.gov/news/releases/2005/12/20051214-1.html
+    publisher: White House Office of the Press Secretary
+  - id: iraq-aumf-repeal-2025
+    title: National Defense Authorization Act for Fiscal Year 2026 — Public Law 119-60
+    url: https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf
+    publisher: U.S. Government Publishing Office
+evidence:
+  - id: nie-proposition
+    sourceId: iraq-nie-2002
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Key Judgments and agency alternative views
+    note: >-
+      The coordinated estimate states that Iraq had chemical and biological weapons and that most agencies judged its
+      nuclear-weapons program was being reconstituted, while recording narrower dissents by INR, DOE and the Air Force.
+  - id: aumf-proposition
+    sourceId: iraq-aumf-2002
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: 116 Stat. 1498–1501, preamble and §3
+    note: >-
+      The enacted preamble attributes continuing chemical and biological capability and active pursuit of nuclear
+      capability to Iraq; section 3 grants the president authority to use force.
+  - id: bush-threat-proposition
+    sourceId: bush-iraq-threat-2002
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: 7 October 2002 remarks, opening and WMD sections
+    note: >-
+      Bush publicly said Iraq possessed and produced chemical and biological weapons and was seeking nuclear weapons
+      while asking Congress to authorize military force.
+  - id: wmd-commission-correction
+    sourceId: wmd-commission-2005
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: ch. 1, pp. 45–51 and 188–190
+    note: >-
+      The presidential commission compares the NIE with the Iraq Survey Group's results, calls the outcome a major
+      intelligence failure and finds no evidence that political pressure changed analytic judgments.
+  - id: duelfer-correction
+    sourceId: duelfer-report-2004
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Key Findings; nuclear, biological and chemical sections
+    note: >-
+      The postwar survey documents the end of the nuclear and large-scale biological programs, destruction of the
+      undeclared chemical stockpile in 1991, absence of resumed chemical production and retained intentions and expertise.
+  - id: phase-i-correction
+    sourceId: ssci-phase-i-2004
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Overall Conclusions — WMD, pp. 13–15; Conclusions 83–84, pp. 283–284
+    note: >-
+      The bipartisan review finds most major NIE judgments overstated or unsupported, explains the analytic failures and
+      finds no evidence that officials pressured analysts to change WMD judgments.
+  - id: phase-ii-correction
+    sourceId: ssci-phase-ii-2008
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Conclusions on WMD possession and production, pp. 49–50, and related threat claims
+    note: >-
+      The report finds that possession statements generally reflected available intelligence, while many statements
+      about ongoing production conveyed greater certainty and some related threat claims lacked intelligence support.
+  - id: nie-impact
+    sourceId: iraq-nie-2002
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: Key Judgments
+    note: >-
+      Supplies the 100–500 metric-ton chemical-agent estimate and the other central judgments that entered the policy process.
+  - id: aumf-impact
+    sourceId: iraq-aumf-2002
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: 116 Stat. 1498–1502, preamble and §§2–4
+    note: >-
+      Shows how active-WMD findings sat alongside other grounds and were attached to broad statutory force authority.
+  - id: house-vote-impact
+    sourceId: house-vote-455
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: Roll Call 455, 10 October 2002
+    note: Records House passage by 296 votes to 133, with three members not voting.
+  - id: senate-vote-impact
+    sourceId: senate-vote-237
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: Roll Call Vote 237, 11 October 2002
+    note: Records Senate passage by 77 votes to 23.
+  - id: operations-impact
+    sourceId: bush-military-operations-2003
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: 19 March 2003 address, opening paragraphs
+    note: >-
+      The president announces that coalition strikes have begun and names disarming Iraq as the operation's first stated purpose.
+  - id: repeal-impact
+    sourceId: iraq-aumf-repeal-2025
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: §8370(2), 139 Stat. 1907
+    note: Records the repeal of Public Law 107-243 on 18 December 2025.
+  - id: nie-intelligence-carrier
+    sourceId: iraq-nie-2002
+    relation: documents
+    target: {scope: episode, episodeId: us-intelligence-estimate-2002-2005, aspect: carrier}
+    locator: cover, Key Judgments and agency alternative views
+    note: >-
+      The official coordinated estimate identifies the Intelligence Community judgments and the component-agency dissents.
+  - id: phase-i-intelligence-mechanism
+    sourceId: ssci-phase-i-2004
+    relation: supports
+    target: {scope: episode, episodeId: us-intelligence-estimate-2002-2005, aspect: mechanism}
+    locator: pp. 11–15 and 285–296
+    note: >-
+      Reconstructs the senators' requests, compressed NIE production and approval, and the public white paper's removal of
+      caveats and alternative views.
+  - id: wmd-commission-intelligence-consequences
+    sourceId: wmd-commission-2005
+    relation: supports
+    target: {scope: episode, episodeId: us-intelligence-estimate-2002-2005, aspect: consequences}
+    locator: ch. 1, pp. 45–190
+    note: >-
+      Documents reliance on Curveball and other defective reporting, the presumption created by Iraq's history and
+      concealment, poor communication of uncertainty and the erroneous chemical, biological and nuclear judgments.
+  - id: phase-i-intelligence-context
+    sourceId: ssci-phase-i-2004
+    relation: contextualizes
+    target: {scope: episode, episodeId: us-intelligence-estimate-2002-2005, aspect: context}
+    locator: pp. 13–27 and relevant weapons-program conclusions
+    note: >-
+      Distinguishes the estimate's majority judgments from INR, DOE and Air Force alternatives and identifies the one
+      major area the postwar record largely confirmed: prohibited missile development.
+  - id: phase-i-intelligence-correction
+    sourceId: ssci-phase-i-2004
+    relation: supports
+    target: {scope: episode, episodeId: us-intelligence-estimate-2002-2005, aspect: institutional-correction}
+    locator: Overall Conclusions — WMD, pp. 13–27
+    note: >-
+      The Senate committee formally rejects or narrows the major estimate judgments and identifies systemic analytic,
+      collection, sharing and management failures.
+  - id: wmd-commission-intelligence-correction
+    sourceId: wmd-commission-2005
+    relation: supports
+    target: {scope: episode, episodeId: us-intelligence-estimate-2002-2005, aspect: institutional-correction}
+    locator: ch. 1, pp. 45–51 and 188–190
+    note: >-
+      The presidential commission incorporates the postwar findings, declares a major intelligence failure and separates
+      bad analysis and management from an unsupported claim of politically ordered falsification.
+  - id: duelfer-intelligence-correction
+    sourceId: duelfer-report-2004
+    relation: supports
+    target: {scope: episode, episodeId: us-intelligence-estimate-2002-2005, aspect: institutional-correction}
+    locator: Key Findings, nuclear, biological and chemical sections
+    note: >-
+      The Iraq Survey Group's primary ground findings show no concerted nuclear restart, no biological stockpile or mobile
+      production system and no resumed chemical-weapons production or substantial active chemical stockpile.
+  - id: bush-executive-carrier
+    sourceId: bush-iraq-threat-2002
+    relation: documents
+    target: {scope: episode, episodeId: us-executive-public-case-2002-2003, aspect: carrier}
+    locator: 7 October 2002 remarks
+    note: >-
+      Primary presidential address presenting active possession and production claims immediately before the congressional vote.
+  - id: powell-executive-carrier
+    sourceId: powell-un-2003
+    relation: documents
+    target: {scope: episode, episodeId: us-executive-public-case-2002-2003, aspect: carrier}
+    locator: 5 February 2003 remarks
+    note: >-
+      Primary State Department record of the Secretary of State presenting the WMD case to the Security Council.
+  - id: bush-executive-mechanism
+    sourceId: bush-iraq-threat-2002
+    relation: documents
+    target: {scope: episode, episodeId: us-executive-public-case-2002-2003, aspect: mechanism}
+    locator: sections on chemical, biological and nuclear claims and the request for force authorization
+    note: >-
+      Shows executive endorsement joining categorical WMD claims, urgency and the request for congressional authority.
+  - id: powell-executive-consequences
+    sourceId: powell-un-2003
+    relation: documents
+    target: {scope: episode, episodeId: us-executive-public-case-2002-2003, aspect: consequences}
+    locator: biological, chemical and nuclear portions of the 5 February presentation
+    note: >-
+      Documents the international presentation of source reporting, imagery and technical interpretations later found unreliable or wrong.
+  - id: operations-executive-consequences
+    sourceId: bush-military-operations-2003
+    relation: documents
+    target: {scope: episode, episodeId: us-executive-public-case-2002-2003, aspect: consequences}
+    locator: 19 March 2003 address, opening paragraphs
+    note: >-
+      Connects the completed public case to the president's announcement that military operations had begun to disarm Iraq.
+  - id: phase-ii-executive-context
+    sourceId: ssci-phase-ii-2008
+    relation: contextualizes
+    target: {scope: episode, episodeId: us-executive-public-case-2002-2003, aspect: context}
+    locator: WMD conclusions, including Conclusion 5, pp. 49–50
+    note: >-
+      Provides the necessary claim-by-claim distinction: much possession language tracked the flawed intelligence, while
+      production certainty and several related threat claims did not.
+  - id: bush-executive-correction
+    sourceId: bush-intelligence-acknowledgment-2005
+    relation: documents
+    target: {scope: episode, episodeId: us-executive-public-case-2002-2003, aspect: institutional-correction}
+    locator: 14 December 2005 remarks, paragraphs on the decision to invade
+    note: >-
+      Bush acknowledges that much of the intelligence was wrong and accepts responsibility for the decision while continuing to defend it.
+  - id: phase-ii-executive-correction
+    sourceId: ssci-phase-ii-2008
+    relation: supports
+    target: {scope: episode, episodeId: us-executive-public-case-2002-2003, aspect: institutional-correction}
+    locator: findings and conclusions on senior officials' public statements
+    note: >-
+      The Senate's institutional review identifies which statements were substantiated, overstated, unsupported or contradicted.
+  - id: aumf-congress-carrier
+    sourceId: iraq-aumf-2002
+    relation: documents
+    target: {scope: episode, episodeId: us-congressional-authorization-2002, aspect: carrier}
+    locator: 116 Stat. 1498–1502
+    note: >-
+      The enacted joint resolution is the primary record of Congress as carrier of the WMD findings and force authorization.
+  - id: aumf-congress-mechanism
+    sourceId: iraq-aumf-2002
+    relation: documents
+    target: {scope: episode, episodeId: us-congressional-authorization-2002, aspect: mechanism}
+    locator: preamble and §3
+    note: >-
+      Shows the legislative mechanism that joined factual findings about active capabilities to specific statutory authority for force.
+  - id: senate-vote-congress-consequences
+    sourceId: senate-vote-237
+    relation: documents
+    target: {scope: episode, episodeId: us-congressional-authorization-2002, aspect: consequences}
+    locator: Roll Call Vote 237
+    note: Documents the 77–23 Senate vote and each senator's position.
+  - id: house-vote-congress-consequences
+    sourceId: house-vote-455
+    relation: documents
+    target: {scope: episode, episodeId: us-congressional-authorization-2002, aspect: consequences}
+    locator: Roll Call 455
+    note: Documents the 296–133 House vote, with three members not voting.
+  - id: aumf-congress-context
+    sourceId: iraq-aumf-2002
+    relation: contextualizes
+    target: {scope: episode, episodeId: us-congressional-authorization-2002, aspect: context}
+    locator: complete preamble and §§2–3
+    note: >-
+      Establishes that WMD claims were explicit but not the statute's only findings or legal-policy grounds.
+  - id: phase-i-congress-correction
+    sourceId: ssci-phase-i-2004
+    relation: supports
+    target: {scope: episode, episodeId: us-congressional-authorization-2002, aspect: institutional-correction}
+    locator: Overall Conclusions — WMD, pp. 13–27
+    note: >-
+      Congress's intelligence oversight committee formally found that most major NIE judgments were overstated or unsupported.
+  - id: phase-ii-congress-correction
+    sourceId: ssci-phase-ii-2008
+    relation: supports
+    target: {scope: episode, episodeId: us-congressional-authorization-2002, aspect: institutional-correction}
+    locator: findings and conclusions on senior officials' public statements
+    note: >-
+      The second oversight phase corrected the public record by comparing executive statements with the intelligence then available.
+  - id: repeal-congress-correction
+    sourceId: iraq-aumf-repeal-2025
+    relation: documents
+    target: {scope: episode, episodeId: us-congressional-authorization-2002, aspect: institutional-correction}
+    locator: §8370(2), 139 Stat. 1907
+    note: >-
+      The 2025 law expressly repeals the 2002 Iraq authorization, ending the statutory instrument after the factual record had long been corrected.

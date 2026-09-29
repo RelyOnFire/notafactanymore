@@ -1,16 +1,283 @@
+schemaVersion: 2
 locale: de
 entryId: leaded-gasoline-public-health-risk
-sourceReviewedAt: '2026-08-26'
+sourceReviewedAt: '2026-09-29'
 title: Verbleites Benzin als vertretbares Gesundheitsrisiko
-claim: Die Verwendung von Tetraethylblei in handelsüblichem Benzin galt bei den damals vorgesehenen Konzentrationen als kein hinreichender Grund für ein Verbot, sofern Herstellung, Vertrieb und Verwendung angemessen kontrolliert würden.
-currentUnderstanding: Blei ist ein kumulatives Gift, und seine Verbreitung über Autoabgase schuf einen bedeutenden Expositionsweg für die gesamte Bevölkerung. Für Kinder wurde kein sicherer Blutbleispiegel festgestellt; die US-Behörden schrieben schließlich aus Gründen des Gesundheitsschutzes eine schrittweise Verringerung des Bleigehalts im Benzin vor.
+proposition:
+  summary: >-
+    1926 erklärte ein vom U.S. Surgeon General eingesetzter Ausschuss, es gebe keinen ausreichenden Grund, Ethylbenzin
+    der untersuchten Zusammensetzung zu verbieten, sofern geeignete Vorschriften Vertrieb und Verwendung regelten. 1959
+    befand ein zweiter Ausschuss des Surgeon General, eine Anhebung der freiwilligen Höchstkonzentration von Tetraethylblei
+    in der Industrie von 3 auf 4 Kubikzentimeter je Gallone werde das Gesundheitsrisiko durch Luftverschmutzung nach den
+    verfügbaren Daten nicht wesentlich erhöhen. Beide Urteile waren ausdrücklich bedingt und räumten erhebliche
+    Evidenzlücken ein; dennoch gaben sie der weiteren Verwendung im Einzelhandel unter freiwilliger Kontrolle eine
+    bundesbehördliche gesundheitspolitische Billigung.
+correction:
+  summary: >-
+    Die frühen Entscheidungen belegten nicht, dass verbleites Benzin harmlos war. Die Untersuchung von 1926 war klein und
+    kurz und warnte, eine breite, langfristige Verwendung könne unerkannte Gefahren erzeugen; 1959 erklärte der Ausschuss,
+    wegen unzureichender medizinischer Daten sei keine abschließende Antwort möglich. 1973 stellte die EPA fest, dass
+    Autoblei wesentlich zur Belastung städtischer Luft, von Staub und Böden beitrug, mit übermäßiger
+    Bevölkerungsbelastung zusammenhing und die wichtigste verbliebene kontrollierbare Quelle von Umweltblei war. Deshalb
+    schrieb sie gesundheitsbezogene Reduktionen vor. Nationale Erhebungsdaten zeigten anschließend zwischen Februar 1976
+    und Februar 1980 einen Rückgang des mittleren Blutbleiwerts in den USA um 37%, der stark mit der Abnahme von Blei im
+    Benzin korrelierte. Laut heutiger CDC-Leitlinie wurde kein sicherer Blutbleiwert für Kinder identifiziert. Seit dem
+    1. Januar 1996 verbietet Bundesrecht den Verkauf verbleiten Benzins für Straßenfahrzeuge; bestimmte Nutzungen abseits
+    der Straße blieben zulässig.
+impact:
+  summary: >-
+    Die bedingte bundesbehördliche Freigabe ermöglichte die Rückkehr und den Verbleib von Tetraethylblei in einem
+    Massenmarkt, während die Grenzwerte des Bundes freiwillig blieben. Nach Schätzung der EPA wurden 1971 in den USA
+    264.000 Tonnen Blei in Benzinzusätzen verwendet, von denen mehr als zwei Drittel in die Umwelt gelangten; Autoabgase
+    galten als wichtige Quelle in städtischer Luft, Staub und Böden. Die Vorschrift von 1973 behauptete nicht, Benzin
+    allein habe jeden erhöhten Blutbleiwert verursacht: Auch Nahrung, Farbe, Wasser und andere Quellen trugen kumulativ
+    bei. Nach Beginn der Reduktion zeigten nationale Erhebungen einen starken Rückgang der Blutbleiwerte, dessen
+    wahrscheinlichste Erklärung laut den Forschenden die Verringerung des Benzinbleis war. Dieser Eintrag leitet aus der
+    Bevölkerungsbelastung keine unbelegte Zahl individueller Todesfälle oder Behinderungen ab.
+  highlights:
+    - value: 264.000 Tonnen
+      label: 1971 in US-Benzinzusätzen verwendetes Blei; laut EPA gelangten mehr als zwei Drittel in die Umwelt
+    - value: 37%
+      label: Rückgang des mittleren Blutbleiwerts in den USA von Februar 1976 bis Februar 1980 in der NHANES-Analyse
+      note: >-
+        Die Korrelation mit Benzinblei war hochsignifikant. Die Forschenden nannten dessen Verringerung die
+        wahrscheinlichste Erklärung, erklärten aber, Korrelation allein beweise keine Kausalität.
+    - value: 1. Jan. 1996
+      label: Inkrafttreten des Bundesverbots für den Verkauf verbleiten Benzins für Straßenfahrzeuge
+      note: Verbleiter Kraftstoff blieb für bestimmte Nutzungen wie Luftfahrt und Rennfahrzeuge zulässig.
+  context:
+    - >-
+      Die institutionelle Behauptung lautete nie, konzentriertes Tetraethylblei sei ungiftig. Tödliche berufsbedingte
+      Vergiftungen bei Herstellung und Mischung lösten 1925 die Bundesuntersuchung aus. Der Ausschuss von 1926 sollte die
+      davon verschiedene Frage nach den Gefahren von Vertrieb und allgemeiner Verwendung des verdünnten Ethylbenzins
+      beantworten.
+    - >-
+      Die Schlussfolgerung von 1926 galt nur für die geprüfte Zusammensetzung und setzte geeignete Vorschriften voraus.
+      Der Bericht warnte zudem, die Zahl der Untersuchten sei klein und die Expositionsdauer kurz gewesen; eine breite
+      Nutzung könne andere Bedingungen schaffen und längere Erfahrung chronische Erkrankungen sichtbar machen. Die
+      Forderung nach weiterer Forschung gehört zum damaligen Urteil und ist keine nachträgliche Einschränkung.
+    - >-
+      Auch die Empfehlung von 1959 war eng begrenzt. Die Ethyl Corporation hatte den Public Health Service 1958 um eine
+      Einschätzung zur Anhebung der freiwilligen Höchstmenge gebeten. Der Ausschuss erklärte nicht, verbleites Benzin sei
+      ungefährlich, sondern nur, die geplante Erhöhung sei nicht als wesentliche zusätzliche Gefahr belegt. Er verlangte
+      ein vorsichtiges Vorgehen und sofortige Überwachung, weil die nötigen medizinischen Ausgangsdaten fehlten.
+    - >-
+      Die Vorgabe vom Januar 1973, bleifreies Benzin verfügbar zu machen, diente Katalysatoren. Die gesonderte
+      Gesundheitsbewertung vom November und die endgültige Vorschrift vom Dezember verringerten den Bleigehalt des
+      gesamten Benzinpools zum Schutz der Gesundheit. Gerichtliche Bestätigung, strengere Grenzwerte und das Verbot von
+      1996 vollendeten einen schrittweisen Regulierungswechsel, kein sofortiges Verbot jeder Verwendung.
 episodes:
-- id: united-states-1926-1973
-  polity: Vereinigte Staaten
-  institutionalContext: Nach tödlichen Vergiftungen bei der frühen Herstellung von Tetraethylblei ließ der Surgeon General die Gefahren des Vertriebs und der allgemeinen Verwendung untersuchen. Public Health Bulletin No. 163 kam 1926 zu dem Schluss, dass es nach damaligem Kenntnisstand keinen ausreichenden Grund gebe, Ethylbenzin zu verbieten, sofern Vertrieb und Verwendung durch geeignete Vorschriften kontrolliert würden. Zugleich betonte der Ausschuss, dass die Untersuchung kurz gewesen sei, eine massenhafte Verwendung andere Bedingungen schaffen könne und weitere Forschung unverzichtbar sei. Die bundesweiten Vorgaben blieben dennoch jahrzehntelang weitgehend freiwillig. Laut der historischen Darstellung der EPA hob der Surgeon General 1958 sogar den freiwilligen Konzentrationsgrenzwert an und erklärte erneut, dies stelle für den durchschnittlichen Amerikaner keine Gefahr dar. Erst 1973 verfügte die EPA aus Gründen des Gesundheitsschutzes verbindliche Reduktionen des Bleigehalts im Benzin.
-  summary: Das Bundesurteil von 1926 war enger als die Behauptung, Tetraethylblei sei harmlos. Der vom Surgeon General eingesetzte Ausschuss sah auf Grundlage der damals verfügbaren Daten keinen ausreichenden Grund für ein Verbot unter kontrollierten Bedingungen, warnte jedoch ausdrücklich, dass längere und breitere Exposition Gefahren sichtbar machen könne, die in der kurzen Untersuchung nicht erfasst wurden. Diese bedingte Entwarnung bildete dennoch den institutionellen Rahmen für die weitere Nutzung unter überwiegend freiwilligen Kontrollen. 1973 bewertete die EPA Blei aus Benzin als bedeutende und kontrollierbare Quelle übermäßiger Bevölkerungsbelastung und ordnete zum Schutz der öffentlichen Gesundheit verbindliche Reduktionen an.
-  consequences:
-  - Landesweite weitere Verwendung von Tetraethylblei in Kraftstoffen unter einem weitgehend freiwilligen bundesweiten Kontrollsystem
-  - Jahrzehntelange Bleiemissionen in städtische Luft, Staub und Böden vor verbindlichen gesundheitsbasierten Reduktionen
-  - Bleibelastung der Bevölkerung, wobei Kinder besonders anfällig für neurologische Schäden sind
-  - Verzögerte bundesweite Reduktion trotz der Forderung des Ausschusses von 1926 nach fortlaufender Langzeituntersuchung
+  - id: usphs-conditional-clearance-1926-1958
+    polity: Vereinigte Staaten
+    periodLabel: Bedingte Freigabe 1926; freiwilliger Bundesgrenzwert ab 1927
+    institutions:
+      - United States Public Health Service
+      - Amt des U.S. Surgeon General
+    institutionalContext: >-
+      Nach tödlichen Vergiftungen von Beschäftigten in Herstellung und Mischung berief der Surgeon General eine öffentliche
+      Konferenz ein und setzte einen öffentlich finanzierten Ausschuss zur Untersuchung von Vertrieb und allgemeiner
+      Verwendung ein. Public Health Bulletin No. 163 berichtete über mehr als 250 exponierte Personen und
+      Vergleichspersonen. 1926 sah der Ausschuss keinen ausreichenden Grund für ein Verbot des geprüften Ethylbenzins unter
+      geeigneten Vorschriften, betonte aber die kurze Dauer, die kleine untersuchte Gruppe und die ungeklärten
+      Langzeitrisiken. 1927 gab der Surgeon General einen freiwilligen Höchstwert von 3 Kubikzentimetern Tetraethylblei je
+      Gallone heraus; ein verbindlicher bundesweiter Grenzwert folgte in dieser Episode nicht.
+    consequences:
+      - Bundesbehördliche Feststellung, die unter geeigneten Kontrollen kein Verbot des geprüften verbleiten Benzins im Einzelhandel empfahl
+      - Wiederaufnahme und Ausweitung eines nationalen Massenmarkts für verbleiten Kraftstoff nach der vorübergehenden Aussetzung von 1925
+      - Abstützung auf einen freiwilligen Höchstwert von 3 Kubikzentimetern je Gallone statt eines verbindlichen Bundesgrenzwerts
+      - Fortgesetzte Emission von Autoblei in städtische Luft, Staub und Böden bei wachsendem Verkehr und Benzinverbrauch
+      - Ausbleiben der dauerhaften Langzeituntersuchung, die der Ausschuss von 1926 ausdrücklich verlangt hatte
+    summary: >-
+      Der Public Health Service verlieh einer zeitlich und methodisch begrenzten Untersuchung die Wirkung einer
+      bundesbehördlichen gesundheitspolitischen Freigabe. Der Bericht nannte verbleites Benzin nicht harmlos und hielt
+      ausdrücklich für möglich, dass breite, langfristige Nutzung chronische Gefahren zeigen würde. Seine wirksame
+      Empfehlung lautete dennoch, unter geeigneten Kontrollen auf ein Verbot zu verzichten; der folgende Bundesgrenzwert
+      blieb freiwillig, während die Verwendung drei Jahrzehnte lang zunahm.
+    mechanism:
+      summary: >-
+        Ein vom Surgeon General eingesetzter Sachverständigenausschuss machte aus einer kurzen Bundesuntersuchung eine
+        amtliche Empfehlung gegen ein Verbot; darauf folgte ein freiwilliger Konzentrationsgrenzwert, den die Industrie
+        einzuhalten zusagte.
+    institutionalCorrection:
+      periodLabel: Bundesbehördliche Umkehr 1971–1973; anschließende Reduktion und Verbot für Straßenfahrzeuge 1996
+      action: >-
+        Die EPA stufte Bleiemissionen von Kraftfahrzeugen als Gesundheitsgefahr ein, veröffentlichte 1973 eine ausführliche
+        Gesundheitsbewertung und schrieb die Verringerung des Bleigehalts im gesamten Benzinpool verbindlich vor.
+      summary: >-
+        Der Bund zog Public Health Bulletin No. 163 nicht formell zurück. Er ersetzte dessen wirksamen Rahmen aus
+        Nichtverbot und freiwilliger Kontrolle durch eine verbindliche gesundheitsbezogene Vorschrift nach dem Clean Air
+        Act. Sinkende Blutbleiwerte, strengere Grenzwerte und das spätere Verkaufsverbot für Straßenfahrzeuge vollendeten
+        diese institutionelle Korrektur.
+  - id: usphs-higher-voluntary-limit-1959-1973
+    polity: Vereinigte Staaten
+    periodLabel: Industrieanfrage 1958; Empfehlung des Bundesausschusses 1959; verbindliche EPA-Regel 1973
+    institutions:
+      - United States Public Health Service
+      - Amt des U.S. Surgeon General
+    institutionalContext: >-
+      Die Ethyl Corporation bat den Public Health Service 1958 um eine Einschätzung zur Erhöhung des freiwilligen
+      Höchstwerts von 3 auf 4 Kubikzentimeter Tetraethylblei je Gallone. Ein Ad-hoc-Ausschuss des Surgeon General tagte im
+      Januar 1959 und berichtete, die verfügbaren Daten deuteten nicht auf eine wesentliche Erhöhung des Gesundheitsrisikos
+      durch Luftverschmutzung hin. Zugleich erklärte er eine abschließende Antwort für unmöglich, bedauerte das Ausbleiben
+      der 1926 empfohlenen Studien und verlangte vorsichtige jährliche Erhöhungen, Verbrauchsmeldungen sowie sofortige
+      Untersuchungen der Luftbelastung und Bleikörperlast. Die Empfehlung blieb freiwillig, weil der Service die
+      Benzinzusammensetzung nicht gesetzlich regeln konnte.
+    consequences:
+      - Bundesbehördliche Empfehlung, den freiwilligen Industriehöchstwert von 3 auf 4 Kubikzentimeter je Gallone anheben zu dürfen
+      - Weitere Abstützung auf freiwillige Einhaltung, Jahresmeldungen und gemeinsame Forschung statt eines vollziehbaren Bundesgrenzwerts
+      - Erneute Beruhigung über das zusätzliche Risiko trotz des Eingeständnisses, die medizinische Evidenz erlaube keine abschließende Antwort
+      - Fortgesetzte Bevölkerungsbelastung, während Benzinblei eine der größten und am leichtesten kontrollierbaren Umweltbleiquellen blieb
+      - Späterer bundesrechtlicher Regulierungsstreit, in dem die EPA eine kumulative Risikobetrachtung und verbindliche Kontrollen durchsetzte
+    summary: >-
+      Die zweite Entscheidung bewertete das zusätzliche Risiko; sie erklärte verbleites Benzin nicht für sicher. Der
+      Ausschuss billigte einen höheren freiwilligen Höchstwert und dokumentierte zugleich, dass die vom Vorgängerausschuss
+      geforderten Ausgangsstudien fehlten. Diese Verbindung aus bedingter Beruhigung und unverbindlicher Kontrolle bestand,
+      bis die EPA 1973 einen anderen Risikomaßstab und verbindliche Reduktionen einführte.
+    mechanism:
+      summary: >-
+        Ein Beratungsausschuss des Surgeon General prüfte Unterlagen des Public Health Service und der Industrie und
+        billigte eine vorsichtig gestufte Anhebung des freiwilligen Höchstwerts. Damit erhielt die Industrie eine
+        bundesbehördliche gesundheitspolitische Grundlage für einen höheren zulässigen TEL-Gehalt.
+    institutionalCorrection:
+      periodLabel: EPA-Gesundheitsbewertung und verbindliche Regel 1973; Verkaufsverbot für Straßenfahrzeuge ab 1996
+      action: >-
+        Die EPA stellte fest, dass Benzinblei wesentlich und kontrollierbar zur kumulativen Bevölkerungsbelastung beitrug,
+        und schrieb eine stufenweise Verringerung in den Benzinpools der Raffinerien vor.
+      summary: >-
+        Die EPA ersetzte die frühere Frage, ob eine geplante Konzentrationserhöhung nachweislich zusätzliche Gefahr
+        verursache, durch eine vorsorgende kumulative Risikobewertung nach dem Clean Air Act. Die Regel bestand die
+        gerichtliche Prüfung, wurde mit wachsender Bevölkerungsevidenz verschärft und mündete im Verkaufsverbot für
+        Straßenfahrzeuge.
+evidence:
+  - id: phb163-proposition
+    note: >-
+      Der Ausschuss sah damals keinen ausreichenden Grund, das geprüfte Ethylbenzin zu verbieten, sofern geeignete
+      Vorschriften Vertrieb und Verwendung regelten.
+  - id: ad-hoc-1959-proposition
+    note: >-
+      Der Ausschuss erklärte, eine Anhebung des freiwilligen Höchstwerts von 3 auf 4 Kubikzentimeter je Gallone sei nicht
+      als wesentliche Erhöhung des Gesundheitsrisikos durch Luftverschmutzung belegt.
+  - id: phb163-proposition-scope
+    note: >-
+      Der Bericht begrenzt seine Aussage selbst: Die Gruppe war klein, die Exposition kurz, und eine breite Nutzung konnte
+      andere Bedingungen und chronische Gefahren schaffen.
+  - id: ad-hoc-1959-proposition-scope
+    note: >-
+      Der Ausschuss nannte eine abschließende Antwort unmöglich, verwies auf unzureichende medizinische Daten und empfahl
+      vorsichtige Erhöhungen sowie sofortige Überwachung und Forschung zur Körperlast.
+  - id: epa-position-correction
+    note: >-
+      Die EPA identifizierte Autoblei als wichtigen Beitrag zu städtischem Staub und zur Bevölkerungsbelastung und
+      Benzinblei als wichtigste verbliebene kontrollierbare Umweltquelle.
+  - id: federal-register-correction
+    note: >-
+      Die endgültige Vorschrift stellte ein erhebliches Schadensrisiko für die städtische Bevölkerung, besonders für
+      Kinder, fest und ordnete eine stufenweise Verringerung im Benzinpool der Raffinerien an.
+  - id: ethyl-v-epa-correction
+    note: >-
+      Das Plenum des Berufungsgerichts bestätigte, dass die EPA bereits bei einem erheblichen Schadensrisiko handeln durfte,
+      bevor vermeidbare Belastung einen abschließenden Nachweis tatsächlicher Schäden lieferte, und bestätigte die Regel.
+  - id: cdc-current-correction
+    note: >-
+      Die CDC erklärt, für Kinder sei kein sicherer Blutbleiwert identifiziert worden und ein Referenzwert sei keine
+      Sicherheitsschwelle.
+  - id: annest-correction
+    note: >-
+      Die nationale Analyse fand von Februar 1976 bis Februar 1980 einen Rückgang des mittleren Blutbleiwerts um 37% und
+      eine hochsignifikante Korrelation mit sinkendem Benzinblei.
+  - id: epa-1996-correction
+    note: >-
+      Die EPA dokumentiert das Inkrafttreten des Verkaufsverbots für verbleiten Kraftstoff für Straßenfahrzeuge am
+      1. Januar 1996 und die fortbestehende Zulässigkeit bestimmter Nutzungen abseits der Straße.
+  - id: epa-position-impact
+    note: >-
+      Die EPA meldete 264.000 Tonnen Blei in Benzinzusätzen im Jahr 1971, davon mehr als zwei Drittel in der Umwelt, und
+      dokumentierte Beiträge des Autoverkehrs zu Luft, Boden, Straßen- und Hausstaub.
+  - id: epa-phaseout-impact
+    note: >-
+      Die damalige Mitteilung nennt mehr als 200.000 Tonnen Benzinblei pro Jahr, bezeichnet es als allgegenwärtige,
+      kontrollierbare städtische Quelle und erläutert die geplante Verringerung um 60–65%.
+  - id: annest-impact
+    note: >-
+      Belegt den Bevölkerungsrückgang um 37% und die begrenzte Folgerung, die Benzinbleireduktion sei die
+      wahrscheinlichste Erklärung, wobei Korrelation allein keine Kausalität beweise.
+  - id: epa-1996-impact
+    note: >-
+      Dokumentiert das endgültige Verbot für Straßenfahrzeuge und die EPA-Angabe, der jährliche Benzinbleiverbrauch sei
+      von etwa 200.000 Tonnen 1973 auf weniger als 2.000 Tonnen 1995 gefallen.
+  - id: phb163-carrier
+    note: >-
+      Identifiziert die Untersuchung des Public Health Service, die Einsetzung durch den Surgeon General und den Ausschuss,
+      der die Bundesempfehlung abgab.
+  - id: phb163-mechanism
+    note: >-
+      Zeigt, wie ein Sachverständigenbericht eine Empfehlung gegen ein Verbot mit vorgeschlagenen Kontrollen für die
+      Bundesstaaten verband und so einen amtlichen Freigabe- und freiwilligen Normsetzungsrahmen schuf.
+  - id: phb163-consequences
+    note: >-
+      Dokumentiert die vorübergehende Verkaufsaussetzung, die Bedingungen der Wiederaufnahme und die Warnung, dauerhafte
+      Forschung sei bei breiter Nutzung unverzichtbar.
+  - id: epa-history-first-episode-consequences
+    note: >-
+      Die rückblickende EPA-Darstellung dokumentiert die Wiederaufnahme breiter Nutzung, den freiwilligen Höchstwert von
+      1927 und das Fehlen verbindlicher Bundesstandards bis Anfang der 1970er-Jahre.
+  - id: california-first-episode-context
+    note: >-
+      Die amtliche Untersuchung des Bundesstaats bestätigt, dass die vorgeschlagenen Kontrollen von 1926 nie Gesetz
+      wurden und die Industrie den Konzentrationsgrenzwert freiwillig beachtete.
+  - id: epa-position-first-episode-correction
+    note: >-
+      Liefert die Bundesbewertung, die das bedingte Nichtverbot durch die Feststellung ersetzte, vermeidbare Belastung aus
+      Autoblei müsse verringert werden.
+  - id: federal-register-first-episode-correction
+    note: >-
+      Überführt die revidierte Bundesbewertung nach dem Clean Air Act in vollziehbare Verringerungen des Benzinbleis.
+  - id: annest-first-episode-correction
+    note: >-
+      Liefert Bevölkerungsevidenz nach der Regulierung, die mit dem Expositionsweg vereinbar ist, den die kurze frühe
+      Untersuchung nicht messen konnte.
+  - id: ad-hoc-1959-carrier
+    note: >-
+      Identifiziert den Ad-hoc-Ausschuss des Surgeon General, seinen Vorsitz und Berichterstatter aus dem Public Health
+      Service sowie die dem Surgeon General übermittelte Empfehlung.
+  - id: ad-hoc-1959-mechanism
+    note: >-
+      Dokumentiert die Prüfung von Bundes- und Industrieunterlagen und die folgende Billigung einer vorsichtig gestuften
+      Erhöhung des freiwilligen Höchstwerts.
+  - id: ad-hoc-1959-consequences
+    note: >-
+      Hält sowohl die zulassende Schlussfolgerung als auch das ungelöste Evidenzproblem fest: keine abschließende Antwort,
+      keine Ausgangsdaten von 1926 und erneute Forderung nach Luft- und Körperlaststudien.
+  - id: epa-history-second-episode-consequences
+    note: >-
+      Die rückblickende EPA-Darstellung belegt die Industrieanfrage von 1958 und die Kontinuität freiwilliger Standards;
+      der Primärbericht datiert die Bundesentscheidung auf 1959 und grenzt ihre Aussage enger ein.
+  - id: california-second-episode-context
+    note: >-
+      1967 berichteten kalifornische Gesundheitsbehörden, dass kein vollziehbarer Kraftstoffgrenzwert bestand,
+      dokumentierten die Luftbelastung durch Fahrzeuge und empfahlen, keine weitere Erhöhung zuzulassen sowie Reduktion
+      oder Abschaffung zu prüfen.
+  - id: epa-position-second-episode-correction
+    note: >-
+      Die EPA wandte ausdrücklich eine kumulative Expositionsanalyse an und kam zu dem Schluss, Benzinblei sei ein
+      wichtiger, leicht kontrollierbarer Beitrag, obwohl sich einzelne Quellenanteile nicht genau trennen ließen.
+  - id: federal-register-second-episode-correction
+    note: >-
+      Ersetzt den freiwilligen Höchstwert durch eine verbindliche stufenweise Verringerung aufgrund erheblicher Risiken für
+      städtische Bevölkerungen und besonders Kinder.
+  - id: ethyl-v-epa-second-episode-correction
+    note: >-
+      Bestätigt, dass die gesundheitsbezogene kumulative Risikoregel der Klage der Industrie standhielt und der Clean Air
+      Act vorsorgende Regulierung erlaubte, ohne erst einen nachträglichen Schadensnachweis abzuwarten.
+  - id: epa-phaseout-second-episode-correction
+    note: >-
+      Erklärt zeitgenössisch, dass die Vorschrift zum Schutz der Gesundheit erlassen wurde, und grenzt ihren Umfang und
+      Zeitplan von der Katalysatorregel ab.
+  - id: cdc-second-episode-context
+    note: >-
+      Stellt die frühere Suche nach einer tolerierbaren Belastungsgrenze der heutigen Leitlinie gegenüber, nach der ein
+      Blutblei-Referenzwert für Kinder keine Sicherheitsschwelle ist.
+  - id: epa-1996-second-episode-correction
+    note: >-
+      Dokumentiert den Abschluss der Bundesreduktion durch das Verkaufsverbot für Straßenfahrzeuge und bewahrt die
+      Einschränkung für Nutzungen abseits der Straße.

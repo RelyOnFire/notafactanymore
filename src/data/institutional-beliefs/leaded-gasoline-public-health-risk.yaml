@@ -1,44 +1,470 @@
+schemaVersion: 2
 title: Leaded gasoline as an acceptable public-health risk
 entryId: low-level-lead-exposure-is-harmless
-claim: Retail use of tetraethyl-lead gasoline was treated as posing no sufficient public-health hazard to prohibit at the concentrations then contemplated, provided that manufacture, distribution and use were properly controlled.
-currentUnderstanding: Lead is a cumulative toxicant, and dispersing it through automobile exhaust created a major population-exposure pathway. No safe blood lead level in children has been identified, and U.S. regulators ultimately required the lead content of gasoline to be reduced on public-health grounds.
+proposition:
+  summary: >-
+    In 1926, a committee appointed by the U.S. Surgeon General advised that there were no good grounds to prohibit
+    ethyl gasoline of the composition it had studied, provided that distribution and use were governed by proper
+    regulations. In 1959, a second Surgeon General's committee advised that raising the industry's voluntary maximum
+    tetraethyl-lead concentration from 3 to 4 cubic centimetres per gallon was not shown to increase the air-pollution
+    hazard to public health significantly. Both judgments were expressly conditional and acknowledged serious gaps in
+    the evidence, but they gave federal public-health approval to continued retail use under a voluntary control regime.
+correction:
+  summary: >-
+    The early decisions did not establish that leaded gasoline was harmless. The 1926 study was small and brief and
+    warned that widespread, prolonged use could produce hazards it had not detected; the 1959 committee said that a
+    conclusive answer was impossible because medical data were inadequate. By 1973, EPA found that automotive lead was
+    a major contributor to urban air, dust and dirt contamination, related it to excessive population exposure, and
+    identified gasoline lead as the most important remaining controllable source of environmental lead. EPA therefore
+    imposed mandatory health-based reductions. National survey data subsequently showed a 37% fall in mean U.S. blood
+    lead between February 1976 and February 1980, strongly correlated with the decline in gasoline lead. Current CDC
+    guidance says that no safe blood-lead level in children has been identified. Federal law barred sales of leaded
+    gasoline for on-road vehicles from 1 January 1996, although leaded fuels remained lawful for specified off-road uses.
 category: Public health and environmental regulation
-reviewedAt: '2026-08-26'
+reviewedAt: '2026-09-29'
+impact:
+  summary: >-
+    Conditional federal clearance allowed tetraethyl lead to return to, and remain in, a mass retail fuel market while
+    federal limits were voluntary. EPA estimated that 264,000 tons of lead were used in U.S. gasoline additives in 1971
+    and that more than two-thirds entered the environment; it described automotive exhaust as a major contributor to
+    lead in urban air, dust and soil. The 1973 regulation did not claim that gasoline alone caused every elevated blood
+    lead level: food, paint, water and other sources also mattered, and their contributions were cumulative. After the
+    phase-down began, national survey data recorded a steep population blood-lead decline whose most likely explanation,
+    according to the investigators, was the reduction of lead in gasoline. This record does not convert population
+    exposure into an unsupported individual death or disability count.
+  highlights:
+    - value: 264,000 tons
+      label: lead used in U.S. gasoline additives in 1971; EPA estimated that more than two-thirds entered the environment
+    - value: 37%
+      label: decline in mean U.S. blood-lead levels from February 1976 through February 1980 in the NHANES analysis
+      note: >-
+        The correlation with gasoline lead was highly significant. The authors called gasoline-lead reduction the most
+        likely explanation while stating that correlation alone did not prove causation.
+    - value: 1 Jan. 1996
+      label: effective date of the federal ban on sales of leaded gasoline for on-road vehicles
+      note: Leaded fuel could still be sold for specified off-road uses, including aircraft and racing vehicles.
+  context:
+    - >-
+      The institutional claim was never that concentrated tetraethyl lead was nontoxic. Fatal occupational poisonings
+      during manufacture and blending prompted the 1925 federal inquiry. The question put to the 1926 committee was the
+      different one of hazard from retail distribution and general use of diluted ethyl gasoline.
+    - >-
+      The 1926 report's conclusion was bounded by the tested composition and by an assumption of proper regulation. It
+      also warned that its subjects were few, exposure was brief, widespread use could create different conditions and
+      longer experience might reveal chronic disease. Its call for continuing investigation is part of the historical
+      judgment, not hindsight added to it.
+    - >-
+      The 1959 advice was similarly narrow. Ethyl Corporation had asked the Public Health Service in 1958 about increasing
+      the voluntary maximum. The committee did not find that leaded gasoline posed no public-health hazard; it advised
+      only that the proposed increase was not shown to add significantly to that hazard, required cautious implementation
+      and urged immediate monitoring because the necessary medical baseline did not exist.
+    - >-
+      The January 1973 requirement that unleaded gasoline be available served catalytic converters. The separate November
+      health finding and December final rule reduced lead across the gasoline pool to protect public health. Later court
+      review, tighter limits and the 1996 on-road ban completed a regulatory transition that began with phase-down rather
+      than an instantaneous prohibition of every use.
 episodes:
-- id: united-states-1926-1973
-  polity: United States
-  region: North America
-  startYear: 1926
-  endYear: 1973
-  periodLabel: 1926–1973
-  strength: officially-endorsed
-  institutionTypes:
-  - government
-  - medical
-  institutions:
-  - United States Public Health Service
-  - Office of the Surgeon General
-  institutionalContext: After lethal occupational poisonings during early tetraethyl-lead production, the Surgeon General convened an expert investigation of the hazards of retail distribution and general use. Public Health Bulletin No. 163 concluded in 1926 that there were not then good grounds to prohibit ethyl gasoline if its distribution and use were controlled by proper regulations. The committee simultaneously stressed that its study was short, that widespread use might create different conditions, and that continued investigation was essential. Federal controls remained largely voluntary for decades. EPA's historical review records that in 1958 the Surgeon General raised the voluntary concentration standard and again concluded that the change posed no threat to the average American. In 1973, EPA adopted mandatory reductions in gasoline lead specifically to protect public health.
-  consequences:
-  - Continued nationwide use of tetraethyl lead in motor gasoline under a largely voluntary federal control regime
-  - Decades of lead emissions into urban air, dust and soil before mandatory health-based reductions
-  - Population lead exposure, with children particularly vulnerable to neurological harm
-  - Delayed federal phase-down despite the 1926 committee's call for continued long-term investigation
-  summary: The federal judgment in 1926 was narrower than a declaration that tetraethyl lead was harmless. The Surgeon General's committee found no adequate grounds, on the evidence then available, to prohibit leaded gasoline under controlled conditions, while explicitly warning that longer and more widespread exposure could reveal hazards the short investigation could not detect. That conditional acceptance nonetheless became the institutional basis for continued use under voluntary controls. By 1973, EPA concluded that gasoline lead was a significant and controllable source of excessive population exposure and issued mandatory reductions to protect public health.
-  sources:
-  - title: The use of tetraethyl lead gasoline in its relation to public health — Public Health Bulletin No. 163
+  - id: usphs-conditional-clearance-1926-1958
+    polity: United States
+    region: North America
+    startYear: 1926
+    endYear: 1958
+    periodLabel: 1926 conditional clearance; voluntary federal limit from 1927
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+      - medical
+    institutions:
+      - United States Public Health Service
+      - Office of the U.S. Surgeon General
+    institutionalContext: >-
+      After production and blending workers were fatally poisoned, the Surgeon General convened a public conference and
+      appointed a publicly funded committee to examine retail distribution and general use. Public Health Bulletin No.
+      163 reported studies of more than 250 exposed and comparison subjects. In 1926 the committee found no good grounds
+      to prohibit the specified ethyl gasoline if proper regulations controlled it, but emphasized the investigation's
+      short duration, small population and inability to resolve long-term risk. The Surgeon General issued a voluntary
+      maximum of 3 cubic centimetres of tetraethyl lead per gallon in 1927; no compulsory federal gasoline-lead standard
+      followed during this episode.
+    consequences:
+      - A federal public-health finding that did not recommend prohibiting retail use of the specified leaded gasoline under proper controls
+      - Resumption and expansion of a national mass market for leaded motor fuel after the temporary 1925 suspension
+      - Reliance on a voluntary 3-cubic-centimetre-per-gallon ceiling rather than a binding federal gasoline-lead limit
+      - Continued emissions of automotive lead into urban air, dust and soil as vehicle use and gasoline consumption expanded
+      - Failure to sustain the long-term investigation that the 1926 committee said must not be allowed to lapse
+    summary: >-
+      The Public Health Service gave a conditional, time-limited body of evidence the force of a federal public-health
+      clearance. The report did not say leaded gasoline was harmless: it expressly preserved the possibility that mass,
+      prolonged use would reveal chronic hazards. Yet its operative recommendation was nonprohibition under proper
+      controls, and the ensuing federal ceiling remained voluntary while retail use expanded for three decades.
+    mechanism:
+      kind: endorsement
+      summary: >-
+        A Surgeon General-appointed expert committee converted a short federal investigation into an official
+        nonprohibition recommendation, followed by a voluntary concentration ceiling that industry agreed to observe.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: Federal reversal in 1971–1973; subsequent phase-down and 1996 on-road ban
+      action: >-
+        EPA identified automotive lead emissions as a public-health threat, issued a detailed health assessment in 1973
+        and promulgated mandatory reductions in the lead content of the total gasoline pool.
+      summary: >-
+        The federal government did not formally retract Public Health Bulletin No. 163. It replaced the bulletin's
+        operative nonprohibition and voluntary-control framework with a health-based mandatory rule under the Clean Air
+        Act. Later evidence of falling blood-lead levels, tighter limits and the on-road sales ban completed that
+        institutional correction.
+  - id: usphs-higher-voluntary-limit-1959-1973
+    polity: United States
+    region: North America
+    startYear: 1959
+    endYear: 1973
+    periodLabel: 1958 industry request; 1959 federal committee advice; mandatory EPA rule in 1973
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+      - medical
+    institutions:
+      - United States Public Health Service
+      - Office of the U.S. Surgeon General
+    institutionalContext: >-
+      Ethyl Corporation asked the Public Health Service in 1958 for guidance on increasing the voluntary maximum from 3
+      to 4 cubic centimetres of tetraethyl lead per gallon. A Surgeon General's ad hoc committee met in January 1959 and
+      reported that available data did not indicate the change would significantly increase the public-health hazard from
+      air pollution. It simultaneously said a conclusive answer was impossible, regretted that the studies recommended in
+      1926 had not been carried out and called for cautious annual increases, consumption reporting and immediate studies
+      of atmospheric contamination and human lead burdens. The advice remained voluntary because the Service lacked
+      authority to regulate gasoline composition.
+    consequences:
+      - Federal public-health advice permitting industry to raise its voluntary maximum from 3 to 4 cubic centimetres per gallon
+      - Continued reliance on voluntary industry compliance, annual reporting and cooperative research rather than an enforceable federal limit
+      - A renewed assurance about incremental risk despite the committee's admission that the medical evidence could not support a conclusive answer
+      - Continued population exposure while gasoline lead remained one of the country's largest and most readily controlled environmental lead sources
+      - A later federal regulatory dispute in which EPA adopted cumulative-risk reasoning and mandatory controls
+    summary: >-
+      The second decision was an incremental-risk judgment, not a finding that leaded gasoline was safe. The committee
+      accepted a higher voluntary maximum while documenting the absence of the baseline studies that its predecessor had
+      requested. That combination of qualified reassurance and nonbinding controls lasted until EPA adopted a different
+      risk standard and mandatory reductions in 1973.
+    mechanism:
+      kind: standard-setting
+      summary: >-
+        A Surgeon General's advisory committee reviewed Public Health Service and industry submissions and authorized a
+        higher voluntary ceiling, giving industry a federal public-health basis for increasing permissible TEL content.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: EPA health finding and mandatory rule in 1973; on-road sales ban effective 1996
+      action: >-
+        EPA concluded that gasoline lead made a significant, controllable contribution to cumulative population exposure
+        and required a staged reduction across refinery gasoline pools.
+      summary: >-
+        EPA replaced the earlier question—whether a proposed concentration increase had been conclusively shown to add
+        hazard—with a preventive cumulative-risk judgment under the Clean Air Act. The rule survived judicial review,
+        was tightened as population evidence accumulated and culminated in the federal ban on sales for on-road vehicles.
+sources:
+  - id: usphs-tetraethyl-lead-1926
+    title: The use of tetraethyl lead gasoline in its relation to public health — Public Health Bulletin No. 163
     url: https://www.toxicdocs.org/d/KGgEXbRbo6zY4yJKO70E915Qx?lightbox=1
     publisher: United States Public Health Service / Government Printing Office, scan via Toxic Docs
-    note: Official 1926 report prepared by direction of the Surgeon General. It concluded that there were not then good grounds to prohibit ethyl gasoline under proper controls, while warning that widespread or prolonged use might reveal hazards not detected by the short investigation and calling for continued study.
-  - title: Lead Poisoning — A Historical Perspective
+  - id: epa-lead-historical-perspective
+    title: Lead Poisoning — A Historical Perspective
     url: https://www.epa.gov/archive/epa/aboutepa/lead-poisoning-historical-perspective.html
     publisher: U.S. Environmental Protection Agency
-    note: EPA historical review reconstructing the 1925–1926 federal investigation, the conditional committee finding, the later voluntary standard, the 1958 Surgeon General conclusion, and the absence of compulsory industry standards until the early 1970s.
-  - title: EPA Requires Phase-Out of Lead in All Grades of Gasoline
+  - id: epa-phaseout-1973
+    title: EPA Requires Phase-Out of Lead in All Grades of Gasoline
     url: https://www.epa.gov/archive/epa/aboutepa/epa-requires-phase-out-lead-all-grades-gasoline.html
     publisher: U.S. Environmental Protection Agency
-    note: Primary November 1973 EPA press release announcing mandatory gasoline-lead reductions to protect public health and describing leaded gasoline as a significant controllable source of exposure, especially in urban environments.
-  - title: CDC's Recommended Terminology When Discussing Children's Blood Lead Levels
+  - id: cdc-blood-lead-terminology
+    title: CDC's Recommended Terminology When Discussing Children's Blood Lead Levels
     url: https://www.cdc.gov/lead-prevention/media/pdfs/2025/03/cdc_122750_DS1.pdf
     publisher: U.S. Centers for Disease Control and Prevention
-    note: Current public-health guidance stating that no safe level of lead in children's blood has been identified and that action should not depend on treating a threshold as safe.
+  - id: usphs-tetraethyl-lead-1959
+    title: Report of the Surgeon General's Ad Hoc Committee on Tetraethyl Lead
+    url: https://www.toxicdocs.org/d/1Jm8p53VYRkJjVENMrZ89r0Z
+    publisher: U.S. Public Health Service, scan via Toxic Docs
+  - id: california-lead-environment-1967
+    title: Lead in the Environment and Its Effects on Humans
+    url: https://files.eric.ed.gov/fulltext/ED080338.pdf
+    publisher: California Department of Public Health / Air Resources Board
+  - id: epa-airborne-lead-position-1973
+    title: EPA's Position on the Health Implications of Airborne Lead
+    url: https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=20013RSD.TXT
+    publisher: U.S. Environmental Protection Agency
+  - id: federal-register-lead-rule-1973
+    title: Control of Lead Additives in Gasoline — 38 Fed. Reg. 33734
+    url: https://www.govinfo.gov/content/pkg/FR-1973-12-06/pdf/FR-1973-12-06.pdf
+    publisher: U.S. Environmental Protection Agency / Federal Register
+  - id: ethyl-v-epa-1976
+    title: Ethyl Corporation v. Environmental Protection Agency — 541 F.2d 1
+    url: https://law.justia.com/cases/federal/appellate-courts/F2/541/1/139255/
+    publisher: U.S. Court of Appeals for the District of Columbia Circuit / Justia
+  - id: annest-blood-lead-trend-1983
+    title: Chronological trend in blood lead levels between 1976 and 1980
+    url: https://pubmed.ncbi.nlm.nih.gov/6188954/
+    publisher: New England Journal of Medicine / PubMed
+  - id: epa-final-leaded-gasoline-phaseout-1996
+    title: EPA Takes Final Step in Phaseout of Leaded Gasoline
+    url: https://www.epa.gov/archive/epa/aboutepa/epa-takes-final-step-phaseout-leaded-gasoline.html
+    publisher: U.S. Environmental Protection Agency
+evidence:
+  - id: phb163-proposition
+    sourceId: usphs-tetraethyl-lead-1926
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: committee report, pp. 109–110
+    note: >-
+      The committee found no good grounds at that time to prohibit the specified ethyl gasoline if proper regulations
+      controlled distribution and use.
+  - id: ad-hoc-1959-proposition
+    sourceId: usphs-tetraethyl-lead-1959
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: committee letter, pp. 1–4, especially conclusions and recommendations
+    note: >-
+      The committee advised that moving the voluntary maximum from 3 to 4 cubic centimetres per gallon was not shown to
+      increase the public-health hazard from air pollution significantly.
+  - id: phb163-proposition-scope
+    sourceId: usphs-tetraethyl-lead-1926
+    relation: contextualizes
+    target: {scope: belief, aspect: proposition}
+    locator: committee report, p. 110
+    note: >-
+      The report itself limits the claim: its sample was small, exposure brief, and widespread use might create different
+      conditions and chronic hazards.
+  - id: ad-hoc-1959-proposition-scope
+    sourceId: usphs-tetraethyl-lead-1959
+    relation: contextualizes
+    target: {scope: belief, aspect: proposition}
+    locator: committee letter, pp. 2–4
+    note: >-
+      The committee said a conclusive answer was impossible, identified inadequate medical data and recommended cautious
+      increases plus immediate monitoring and body-burden research.
+  - id: epa-position-correction
+    sourceId: epa-airborne-lead-position-1973
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Summary and Conclusions, pp. VIII-1–VIII-8
+    note: >-
+      EPA identified automotive lead as a major contributor to urban dust and population exposure and gasoline lead as
+      the most important remaining controllable environmental source.
+  - id: federal-register-correction
+    sourceId: federal-register-lead-rule-1973
+    relation: documents
+    target: {scope: belief, aspect: correction}
+    locator: 38 Fed. Reg. 33734–33741, 6 December 1973
+    note: >-
+      The final rule found a significant risk of harm to urban populations, particularly children, and imposed a staged
+      reduction in refinery gasoline-pool lead.
+  - id: ethyl-v-epa-correction
+    sourceId: ethyl-v-epa-1976
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: 541 F.2d 1, 7–10 and 28–29 (D.C. Cir. 1976) (en banc)
+    note: >-
+      The en banc court upheld EPA's authority to act on a significant risk of harm before preventable exposure produced
+      conclusive proof of actual injury and affirmed the lead-reduction rule.
+  - id: cdc-current-correction
+    sourceId: cdc-blood-lead-terminology
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: p. 1, “Interpreting Children's Blood Lead Levels”
+    note: >-
+      CDC states that no safe blood-lead level in children has been identified and that a reference value is not a safe
+      threshold.
+  - id: annest-correction
+    sourceId: annest-blood-lead-trend-1983
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: abstract; New England Journal of Medicine 1983;308:1373–1377
+    note: >-
+      The national analysis found a 37% mean blood-lead decline from February 1976 to February 1980 and a highly
+      significant correlation with falling gasoline lead.
+  - id: epa-1996-correction
+    sourceId: epa-final-leaded-gasoline-phaseout-1996
+    relation: documents
+    target: {scope: belief, aspect: correction}
+    locator: press release, paras. 1–8
+    note: >-
+      EPA records that the Clean Air Act ban on sales of leaded fuel for on-road vehicles took effect on 1 January 1996
+      while specified off-road uses remained lawful.
+  - id: epa-position-impact
+    sourceId: epa-airborne-lead-position-1973
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: pp. II-4 and VIII-1–VIII-8
+    note: >-
+      EPA reported 264,000 tons of lead used in gasoline additives in 1971, more than two-thirds entering the environment,
+      and documented automotive contributions to air, soil, street dirt and house dust.
+  - id: epa-phaseout-impact
+    sourceId: epa-phaseout-1973
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: press release, paras. 1–9
+    note: >-
+      The contemporaneous announcement describes more than 200,000 tons of gasoline lead per year, identifies it as a
+      ubiquitous controllable urban source and sets out the planned 60–65% reduction.
+  - id: annest-impact
+    sourceId: annest-blood-lead-trend-1983
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: abstract
+    note: >-
+      Provides the 37% population decline and the authors' bounded inference that gasoline-lead reduction was the most
+      likely explanation, while acknowledging that correlation did not itself prove causation.
+  - id: epa-1996-impact
+    sourceId: epa-final-leaded-gasoline-phaseout-1996
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: press release, paras. 3–8
+    note: >-
+      Documents the final on-road sales ban and EPA's report that gasoline lead use had fallen from roughly 200,000 tons
+      per year in 1973 to less than 2,000 tons in 1995.
+  - id: phb163-carrier
+    sourceId: usphs-tetraethyl-lead-1926
+    relation: documents
+    target: {scope: episode, episodeId: usphs-conditional-clearance-1926-1958, aspect: carrier}
+    locator: title page, introduction and committee report, pp. 103–110
+    note: >-
+      Identifies the Public Health Service investigation, the Surgeon General's appointment and the committee that issued
+      the federal recommendation.
+  - id: phb163-mechanism
+    sourceId: usphs-tetraethyl-lead-1926
+    relation: documents
+    target: {scope: episode, episodeId: usphs-conditional-clearance-1926-1958, aspect: mechanism}
+    locator: committee report, pp. 109–110; proposed regulations, pp. 113–115
+    note: >-
+      Shows how an expert report paired a nonprohibition finding with proposed controls for state adoption, creating an
+      official clearance and voluntary standard-setting framework.
+  - id: phb163-consequences
+    sourceId: usphs-tetraethyl-lead-1926
+    relation: documents
+    target: {scope: episode, episodeId: usphs-conditional-clearance-1926-1958, aspect: consequences}
+    locator: introduction and committee report, pp. vi–viii and 103–110
+    note: >-
+      Records the temporary sales suspension, the conditions for resumed use and the committee's warning that continuing
+      investigation was essential as use became widespread.
+  - id: epa-history-first-episode-consequences
+    sourceId: epa-lead-historical-perspective
+    relation: supports
+    target: {scope: episode, episodeId: usphs-conditional-clearance-1926-1958, aspect: consequences}
+    locator: “Running on Lead” and “Voluntary Standard” sections
+    note: >-
+      EPA's retrospective history records resumption of extensive use, the 1927 voluntary ceiling and the absence of a
+      compulsory federal industry standard until the early 1970s.
+  - id: california-first-episode-context
+    sourceId: california-lead-environment-1967
+    relation: contextualizes
+    target: {scope: episode, episodeId: usphs-conditional-clearance-1926-1958, aspect: context}
+    locator: pp. 11–13, “Current Status of Administrative and Legal Control”
+    note: >-
+      The official state review confirms that the 1926 proposed controls never became law and that industry observed the
+      concentration ceiling voluntarily.
+  - id: epa-position-first-episode-correction
+    sourceId: epa-airborne-lead-position-1973
+    relation: supports
+    target: {scope: episode, episodeId: usphs-conditional-clearance-1926-1958, aspect: institutional-correction}
+    locator: Summary and Conclusions, pp. VIII-1–VIII-8
+    note: >-
+      Supplies the federal health finding that replaced conditional nonprohibition with a judgment that preventable
+      automotive lead exposure should be reduced.
+  - id: federal-register-first-episode-correction
+    sourceId: federal-register-lead-rule-1973
+    relation: documents
+    target: {scope: episode, episodeId: usphs-conditional-clearance-1926-1958, aspect: institutional-correction}
+    locator: 38 Fed. Reg. 33734–33741
+    note: >-
+      Converts the revised federal health assessment into enforceable gasoline-pool reductions under the Clean Air Act.
+  - id: annest-first-episode-correction
+    sourceId: annest-blood-lead-trend-1983
+    relation: supports
+    target: {scope: episode, episodeId: usphs-conditional-clearance-1926-1958, aspect: institutional-correction}
+    locator: abstract
+    note: >-
+      Provides population evidence after regulation consistent with the exposure pathway the early short study could not
+      measure.
+  - id: ad-hoc-1959-carrier
+    sourceId: usphs-tetraethyl-lead-1959
+    relation: documents
+    target: {scope: episode, episodeId: usphs-higher-voluntary-limit-1959-1973, aspect: carrier}
+    locator: cover, contents and committee letter, pp. 1–4
+    note: >-
+      Identifies the Surgeon General's ad hoc committee, its Public Health Service chair and recorder, and the advice
+      transmitted to the Surgeon General.
+  - id: ad-hoc-1959-mechanism
+    sourceId: usphs-tetraethyl-lead-1959
+    relation: documents
+    target: {scope: episode, episodeId: usphs-higher-voluntary-limit-1959-1973, aspect: mechanism}
+    locator: committee letter, pp. 1–4
+    note: >-
+      Documents review of federal and industry materials followed by approval of a cautiously staged increase in the
+      voluntary maximum.
+  - id: ad-hoc-1959-consequences
+    sourceId: usphs-tetraethyl-lead-1959
+    relation: documents
+    target: {scope: episode, episodeId: usphs-higher-voluntary-limit-1959-1973, aspect: consequences}
+    locator: committee letter, pp. 2–4
+    note: >-
+      Records both the permissive conclusion and the unresolved evidence problem: no conclusive answer, no 1926 baseline,
+      and a renewed demand for atmospheric and body-burden studies.
+  - id: epa-history-second-episode-consequences
+    sourceId: epa-lead-historical-perspective
+    relation: contextualizes
+    target: {scope: episode, episodeId: usphs-higher-voluntary-limit-1959-1973, aspect: consequences}
+    locator: “Voluntary Standard” section
+    note: >-
+      EPA's retrospective account supplies the 1958 industry request and voluntary-standard continuity; the primary
+      committee report fixes the federal decision itself in 1959 and defines its narrower conclusion.
+  - id: california-second-episode-context
+    sourceId: california-lead-environment-1967
+    relation: contextualizes
+    target: {scope: episode, episodeId: usphs-higher-voluntary-limit-1959-1973, aspect: context}
+    locator: pp. 4–6 and 11–13
+    note: >-
+      By 1967 California public-health authorities reported that no enforceable fuel-lead limit existed, documented
+      automotive atmospheric contamination and recommended no further increase plus study of reduction or elimination.
+  - id: epa-position-second-episode-correction
+    sourceId: epa-airborne-lead-position-1973
+    relation: supports
+    target: {scope: episode, episodeId: usphs-higher-voluntary-limit-1959-1973, aspect: institutional-correction}
+    locator: Introduction and Summary and Conclusions, pp. I-1–I-5 and VIII-1–VIII-8
+    note: >-
+      EPA explicitly adopted a cumulative-exposure analysis and concluded that gasoline lead was a major, readily
+      controllable contributor even though individual source shares could not be isolated precisely.
+  - id: federal-register-second-episode-correction
+    sourceId: federal-register-lead-rule-1973
+    relation: documents
+    target: {scope: episode, episodeId: usphs-higher-voluntary-limit-1959-1973, aspect: institutional-correction}
+    locator: 38 Fed. Reg. 33734–33741
+    note: >-
+      Replaces the voluntary ceiling with a mandatory, staged reduction based on significant risk to urban populations
+      and especially children.
+  - id: ethyl-v-epa-second-episode-correction
+    sourceId: ethyl-v-epa-1976
+    relation: supports
+    target: {scope: episode, episodeId: usphs-higher-voluntary-limit-1959-1973, aspect: institutional-correction}
+    locator: 541 F.2d 1, 7–10 and 28–29 (D.C. Cir. 1976) (en banc)
+    note: >-
+      Confirms that the health-based cumulative-risk rule survived industry challenge and that the Clean Air Act allowed
+      preventive regulation without waiting for proof of injury after the fact.
+  - id: epa-phaseout-second-episode-correction
+    sourceId: epa-phaseout-1973
+    relation: documents
+    target: {scope: episode, episodeId: usphs-higher-voluntary-limit-1959-1973, aspect: institutional-correction}
+    locator: press release, paras. 1–9
+    note: >-
+      Contemporaneously states that the regulations were promulgated to protect public health and explains their scope,
+      schedule and distinction from the catalytic-converter rule.
+  - id: cdc-second-episode-context
+    sourceId: cdc-blood-lead-terminology
+    relation: contextualizes
+    target: {scope: episode, episodeId: usphs-higher-voluntary-limit-1959-1973, aspect: institutional-correction}
+    locator: p. 1
+    note: >-
+      Places the earlier search for a tolerable exposure boundary against current guidance that a blood-lead reference
+      value is not a safe threshold for children.
+  - id: epa-1996-second-episode-correction
+    sourceId: epa-final-leaded-gasoline-phaseout-1996
+    relation: supports
+    target: {scope: episode, episodeId: usphs-higher-voluntary-limit-1959-1973, aspect: institutional-correction}
+    locator: press release, paras. 1–8
+    note: >-
+      Documents the culmination of the federal phase-down in the on-road sales ban and preserves the off-road-use
+      qualification.

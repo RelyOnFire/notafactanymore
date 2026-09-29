@@ -1,72 +1,266 @@
+schemaVersion: 2
 locale: de
 entryId: liutiaohu-chinese-sabotage
-sourceReviewedAt: '2026-08-25'
+sourceReviewedAt: '2026-09-29'
 title: Der Eisenbahnanschlag von Liutiaohu als chinesische Sabotage
-claim: >-
-  Die Kwantung-Armee und die japanische Regierung stellten die Explosion an der Südmandschurischen Eisenbahn bei Mukden
-  am 18. September 1931 als Sabotage chinesischer Truppen mit anschließendem Angriff auf japanische Bahnwachen dar und
-  nutzten die behauptete chinesische Aggression zur Rechtfertigung rascher japanischer Militäroperationen in der Mandschurei.
-currentUnderstanding: >-
-  Die Explosion bei Liutiaohu wurde von der japanischen Kwantung-Armee inszeniert und anschließend der chinesischen Seite
-  zugeschrieben. Japans eigenes historisches Archiv erklärt heute ausdrücklich, die Kwantung-Armee habe die
-  Südmandschurische Eisenbahn gesprengt und den Vorfall als chinesische Tat erscheinen lassen, um militärische Aktionen
-  in den drei nordöstlichen Provinzen einzuleiten. Die zivile Regierung unter Wakatsuki hatte den Anschlag nicht geplant
-  und verlangte zunächst eine Begrenzung des Konflikts; kurz darauf übernahm sie jedoch die falsche Darstellung von
-  chinesischer Sabotage in amtlichen Erklärungen.
+proposition:
+  summary: >-
+    Am 18. September 1931 meldete die japanische Kwantung-Armee, chinesische Truppen hätten bei Mukden die
+    Südmandschurische Eisenbahn gesprengt und japanische Bahnwachen angegriffen. Die behauptete chinesische Aggression
+    wurde damit zur Grundlage sofortiger Militäroperationen. Innerhalb von sechs Tagen übernahm Japans zivile Regierung
+    dieselbe Darstellung in einer amtlichen Kabinettserklärung; ihre Vertreter trugen sie als Rechtfertigung für das
+    Vorgehen der Armee in der Mandschurei in die internationale Diplomatie.
+correction:
+  summary: >-
+    Die Explosion bei Liutiaohu wurde von Offizieren der Kwantung-Armee inszeniert und chinesischen Kräften zugeschrieben.
+    Die chinesische Garnison plante keinen koordinierten Angriff, und die kleine Sprengung hielt den nächsten Zug nicht
+    auf. Die Lytton-Kommission verwarf 1932 die Behauptung, die anschließenden japanischen Operationen seien legitime
+    Selbstverteidigung, traf aber keine abschließende Feststellung dazu, wer den Sprengsatz gelegt hatte. Das
+    Mehrheitsurteil des Internationalen Militärgerichtshofs für den Fernen Osten stellte 1948 ausdrücklich fest, der
+    Zwischenfall sei von japanischer Seite geplant und ausgeführt worden. Japans heutiger amtlicher Archivdienst erklärt,
+    die Kwantung-Armee habe die Bahn gesprengt und den Vorfall als chinesische Tat erscheinen lassen. Das
+    Wakatsuki-Kabinett hatte das Komplott nicht initiiert und ordnete zunächst eine Nichtausweitung an, wiederholte danach
+    jedoch die falsche Sabotagebehauptung als Position der japanischen Regierung.
 impact:
   summary: >-
-    Die erfundene Sabotagebehauptung wurde zur unmittelbaren Selbstverteidigungsbegründung für die Offensive der
-    Kwantung-Armee und anschließend von der japanischen Regierung in die internationale Diplomatie übernommen. Innerhalb
-    weniger Tage gingen japanische Operationen weit über den Ort der Eisenbahnexplosion hinaus. Japans Archivdienst
-    beschreibt das Vorgehen ausdrücklich als Versuch, den China zugeschriebenen Vorfall für Militäroperationen in
-    Fengtian, Jilin und Heilongjiang zu nutzen. Der Mandschurei-Zwischenfall mündete im März 1932 in die Gründung
-    Mandschukuos, das Japan im September desselben Jahres anerkannte.
+    Die erfundene Darstellung wurde nahezu unmittelbar in Militär- und Staatspolitik umgesetzt. Einheiten der
+    Kwantung-Armee griffen die Nordkaserne und Mukden an, entwaffneten chinesische Truppen an weiteren Punkten entlang der
+    Eisenbahn und weiteten die Operationen über den Explosionsort hinaus aus. Die japanische Regierung verlieh dem
+    behaupteten chinesischen Angriff anschließend die Billigung des Kabinetts und vertrat ihn vor dem Völkerbund, während
+    sie eine militärische Besetzung und territoriale Absichten bestritt. Die Operationen erfassten die drei nordöstlichen
+    Provinzen; im März 1932 wurde Mandschukuo gegründet und im September von Japan anerkannt. Der Zwischenfall war damit
+    ein operativer Vorwand und eine diplomatische Rechtfertigung, erklärt aber nicht allein sämtliche Opfer und Ursachen
+    des gesamten Zweiten Japanisch-Chinesischen Krieges oder des Zweiten Weltkriegs.
   highlights:
-  - value: 18. September 1931
-    label: Datum der von der Kwantung-Armee inszenierten Eisenbahnexplosion bei Liutiaohu
-  - value: '3'
-    label: nordöstliche Provinzen, in die die Kwantung-Armee laut JACAR mit Hilfe des Zwischenfalls militärisch vorstoßen wollte
-  - value: März 1932
-    label: Gründung Mandschukuos nach der japanischen Besetzung der Mandschurei
+    - value: 18. September 1931
+      label: Datum der inszenierten Eisenbahnexplosion und der ersten japanischen Angriffe im Raum Mukden
+    - value: 24. September 1931
+      label: Datum der amtlichen Wiederholung der Sabotage- und Selbstverteidigungsdarstellung durch das japanische Kabinett
+    - value: 3 Provinzen
+      label: Fengtian, Jilin und Heilongjiang, in die die Kwantung-Armee laut JACAR militärisch vorstoßen wollte
   context:
-  - >-
-    Die Kwantung-Armee und das zivile Kabinett in Tokio waren unterschiedliche Akteure. Die
-    Wakatsuki-Regierung verfolgte zunächst eine Politik der Nichtausweitung und plante die inszenierte Explosion nicht.
-    Die falsche Darstellung erhielt breitere staatliche Trägerschaft, als die japanische Regierung selbst öffentlich behauptete,
-    chinesische Truppen hätten die Eisenbahn zerstört und japanische Wachen angegriffen.
-  - >-
-    „Mukden-Zwischenfall“ bezeichnet häufig die gesamte Krise und militärische Expansion, die am 18. September 1931
-    begann. Liutiaohu bei Mukden benennt präziser die Eisenbahnexplosion, und damit präziser die konkrete falsche Zuschreibung des Anschlags an chinesische Kräfte.
-  - >-
-    Die inszenierte Explosion diente als Vorwand und politische Grundlage für die Operationen der Kwantung-Armee.
-    Dieser einzelne Vorfall verursachte jedoch nicht allein den gesamten Zweiten Japanisch-Chinesischen Krieg oder
-    den Zweiten Weltkrieg; spätere Kriegsopferzahlen lassen sich der falschen Sabotagebehauptung nicht allein zurechnen.
+    - >-
+      Kwantung-Armee, Kriegsministerium und ziviles Kabinett waren verbundene, aber unterschiedliche institutionelle
+      Akteure. Die Quellen tragen nicht die Behauptung, Premier Wakatsuki oder sein Kabinett hätten die Explosion geplant.
+      Das Kabinett beschloss am 19. September eine Politik der Nichtausweitung, während Kriegsminister Minami die Armee
+      abschirmte und die Feldführung Versuche japanischer Diplomaten, die Kämpfe zu stoppen, ignorierte.
+    - >-
+      Die Korrektur erfolgte in Etappen. Die Lytton-Kommission stellte 1932 fest, dass chinesische Truppen keinen
+      koordinierten oder autorisierten Angriff unternommen hatten und die kleine Explosion die japanischen Operationen
+      nicht rechtfertigte. Sie benannte die Täter nicht. Das Mehrheitsurteil des Tokioter Tribunals traf später die
+      ausdrückliche Feststellung japanischer Planung und Ausführung; der heutige japanische Archivdienst nennt diese
+      Zuschreibung nun direkt.
+    - >-
+      Liutiaohu, auch als Liutiao Lake wiedergegeben, bezeichnet den Eisenbahnort bei Mukden, dem heutigen Shenyang.
+      „Mukden-Zwischenfall“ kann sowohl die Explosion als auch die viel weitere militärische Expansion bezeichnen;
+      „Mandschurei-Zwischenfall“ meint meist den anschließenden Feldzug und die politische Krise.
+    - >-
+      Diese Karte isoliert die falsche Tatsachengrundlage und ihre institutionelle Verwendung. Langjährige
+      chinesisch-japanische Konflikte, militärische Planung, die politische Schwäche in Tokio und weiter gehende
+      imperialistische Ziele prägten die Besetzung ebenfalls; die Explosion war ein gewählter Auslöser und keine
+      hinreichende Erklärung für jedes spätere Ereignis.
 episodes:
-- id: japan-1931-1932
-  polity: Japan
-  institutions:
-  - Kwantung-Armee
-  - japanische Regierung
-  institutionalContext: >-
-    In der Nacht des 18. September 1931 inszenierte die Kwantung-Armee bei Liutiaohu eine Explosion an der
-    Südmandschurischen Eisenbahn und gab chinesischen Kräften die Schuld. Die Behauptung diente unmittelbar als
-    Rechtfertigung für Angriffe im Raum Mukden und die Ausweitung der Operationen in der Mandschurei. Obwohl das
-    Wakatsuki-Kabinett zunächst anwies, den Konflikt nicht auszuweiten, erklärte die japanische Regierung nach einer
-    außerordentlichen Kabinettssitzung am 24. September offiziell, eine Abteilung chinesischer Truppen habe die Gleise
-    bei Mukden zerstört und japanische Bahnwachen angegriffen, weshalb die Armee schnell habe handeln müssen. Japan
-    vertrat dieselbe Darstellung international, auch vor dem Völkerbund. Die militärische Expansion setzte sich fort;
-    im März 1932 wurde Mandschukuo gegründet und im September von Japan anerkannt.
-  consequences:
-  - Unmittelbare japanische Angriffe und Besetzung im Raum Mukden unter Berufung auf Selbstverteidigung
-  - Ausweitung der Operationen der Kwantung-Armee auf die drei nordöstlichen Provinzen Fengtian, Jilin und Heilongjiang
-  - Amtliche diplomatische Darstellung des inszenierten Zwischenfalls als chinesische Aggression
-  - Japanische Besetzung der Mandschurei und Gründung Mandschukuos im März 1932
-  - Verwandlung eines militärischen Täuschungsmanövers in einen internationalen Konflikt über Japans Expansion in China
-  summary: >-
-    Liutiaohu ist ein besonders klarer Fall einer institutionell inszenierten Falschbehauptung, weil die erfundene
-    Tatsachengrundlage nahezu unmittelbar in militärisches Handeln umgesetzt wurde. Die Kwantung-Armee erzeugte die
-    Eisenbahnexplosion, beschuldigte chinesische Truppen und nutzte den angeblichen Angriff zur Ausweitung ihrer
-    Operationen. Tokio hatte die Aktion nicht geplant und versuchte zunächst, den Konflikt zu begrenzen; innerhalb
-    weniger Tage wiederholte jedoch auch die japanische Regierung die falsche Sabotagegeschichte offiziell als
-    Rechtfertigung japanischen Handelns. Japans heutiger Archivdienst bezeichnet die Explosion ausdrücklich als Tat der
-    Kwantung-Armee, die China zugeschrieben werden sollte.
+  - id: kwantung-army-1931-1932
+    polity: Japan
+    periodLabel: 18. September 1931–März 1932
+    institutions:
+      - Kwantung-Armee
+    institutionalContext: >-
+      Offiziere der Kwantung-Armee hatten bereits vor dem 18. September Pläne für eine schnelle Einnahme im Raum Mukden
+      vorbereitet. In jener Nacht explodierte bei Liutiaohu ein Sprengsatz neben der Südmandschurischen Eisenbahn. Die
+      Armee beschuldigte eine chinesische Abteilung, behauptete, deren Männer hätten auf eine japanische Patrouille
+      geschossen, und behandelte den angeblichen Angriff als Auslöser für Selbstverteidigung. Japanische Einheiten griffen
+      die nahe Nordkaserne und die ummauerte Stadt Mukden an; entlang der Bahn wurden Kräfte nahezu gleichzeitig aktiv.
+      Chinesische Truppen hatten den Befehl, keinen Widerstand zu leisten, und leisteten vielerorts wenig oder gar keinen
+      Widerstand. Die Feldführung wies Bitten japanischer Konsularbeamter um Einstellung der Kämpfe und Verhandlungen
+      zurück, weitete die Operation aus und nutzte den Vorfall zur Besetzung der Mandschurei und zur Gründung Mandschukuos.
+    consequences:
+      - Sofortige Angriffe auf die Nordkaserne und Mukden unter Berufung auf Selbstverteidigung
+      - Nahezu gleichzeitige Bewegungs-, Angriffs- und Entwaffnungsoperationen entlang der Südmandschurischen Eisenbahn
+      - Ausweitung der Operationen der Kwantung-Armee auf Fengtian, Jilin und Heilongjiang
+      - Japanische Besetzung der Mandschurei und Gründung Mandschukuos im März 1932
+      - Schaffung eines militärischen fait accompli, das die zivile Regierung zunächst einzudämmen versuchte und später öffentlich verteidigte
+    summary: >-
+      Die Kwantung-Armee wiederholte nicht bloß eine unzutreffende Gefechtsmeldung. Ihre Offiziere erzeugten den physischen
+      Vorfall, schrieben ihn chinesischen Truppen zu und aktivierten auf dieser Grundlage vorbereitete Operationen.
+      Zeitgenössische Beobachter bezweifelten die Geschichte rasch; die Lytton-Kommission verwarf die
+      Selbstverteidigungsbegründung. Das Nachkriegstribunal und Japans heutiger Archivdienst formulierten die zentrale
+      Korrektur später ausdrücklich: Der Zwischenfall war von japanischer Seite geplant und ausgeführt worden.
+    mechanism:
+      summary: >-
+        Offiziere inszenierten eine kleine Explosion, verbreiteten eine falsche Feindzuschreibung und nutzten diese
+        Darstellung als operatives Signal und Selbstverteidigungsbegründung für koordinierte Angriffe und territoriale
+        Expansion.
+    institutionalCorrection:
+      periodLabel: Internationale Feststellungen 1932 und 1948; amtliche japanische Archivanerkennung bis 2025
+      action: >-
+        Die Lytton-Kommission verwarf die Selbstverteidigungsdarstellung, das Mehrheitsurteil des Tokioter Tribunals stellte
+        japanische Planung und Ausführung fest, und das von Japans Nationalarchiv betriebene JACAR schreibt die Sprengung
+        heute der Kwantung-Armee zu.
+      summary: >-
+        Solange die Kwantung-Armee bestand, kam die Korrektur von außen; im Urteil des Nachkriegstribunals wurde sie
+        ausdrücklich. Die Armee wurde nach Japans Niederlage aufgelöst, weshalb es keinen späteren Selbstwiderruf desselben
+        Kommandos gab. Der amtliche Archivdienst des Nachfolgestaates stellt heute die inszenierte Explosion ohne die
+        frühere Zuschreibung an China dar.
+  - id: japanese-government-1931-1932
+    polity: Japan
+    periodLabel: 24. September 1931–September 1932
+    institutions:
+      - Wakatsuki-Kabinett
+      - japanisches Außenministerium
+      - japanische Delegation beim Völkerbund
+    institutionalContext: >-
+      Premier Wakatsukis Kabinett erfuhr erst nach Beginn der Kämpfe davon und beschloss am 19. September, der Zwischenfall
+      dürfe nicht ausgeweitet werden. Die Armee umging diese Weisung. Am 23. September übermittelte Japans Vertreter beim
+      Völkerbund eine amtliche Darstellung, nach der etwa 350 chinesische Soldaten die Bahn gesprengt und japanische
+      Wachen zum Schießen gezwungen hätten. Eine Kabinettserklärung vom 24. September wiederholte, chinesische Truppen
+      hätten die Gleise zerstört und die Wachen angegriffen, weshalb die Armee schnell habe handeln müssen; zugleich
+      bestritt sie eine militärische Besetzung und territoriale Absichten. Die Regierung übernahm damit die falsche
+      Ursache der Armee, obwohl sie die Explosion nicht geplant hatte. Japan verteidigte die entstandene Ordnung weiter
+      und erkannte Mandschukuo im September 1932 an.
+    consequences:
+      - Billigung der falschen Zuschreibung an chinesische Truppen auf Kabinettsebene
+      - Übermittlung des angeblichen chinesischen Angriffs an den Völkerbund und ausländische Regierungen
+      - Staatliche Selbstverteidigungsbegründung für bereits über den Explosionsort hinausreichende Militäroperationen
+      - Diplomatische Leugnung von Besetzung und territorialer Absicht bei wachsender japanischer Kontrolle
+      - Anerkennung Mandschukuos und anhaltender Konflikt mit dem Völkerbund über die Rechtmäßigkeit der Besetzung
+    summary: >-
+      Tokios Verantwortung unterschied sich von derjenigen der Feldarmee. Das zivile Kabinett entwarf die Inszenierung
+      nicht und versuchte zunächst, den Konflikt zu begrenzen. Dennoch machte es die Geschichte der Armee zur amtlichen
+      Staatsbehauptung, verteidigte damit den japanischen Gewalteinsatz international und akzeptierte später das von der
+      Armee geschaffene politische Ergebnis. Diese Unterscheidung verhindert eine pauschale Zuschreibung des Komplotts und
+      hält zugleich die belegte Rolle der Regierung bei der Institutionalisierung der Falschdarstellung fest.
+    mechanism:
+      summary: >-
+        Kabinettserklärungen und diplomatische Mitteilungen übernahmen die Sabotagedarstellung der Kwantung-Armee und
+        machten sie zur öffentlichen Erklärung des japanischen Staates für das militärische Vorgehen.
+    institutionalCorrection:
+      periodLabel: Zurückweisung durch den Völkerbund 1932–1933; Tribunal 1948; amtliche Archivanerkennung bis 2025
+      action: >-
+        Das Völkerbundverfahren verwarf Japans Selbstverteidigungsargument, das Tokioter Tribunal stellte japanische
+        Planung fest, und JACAR erklärt heute, die Kwantung-Armee habe die Explosion inszeniert und China beschuldigt.
+      summary: >-
+        Ein gesonderter formeller Widerruf des Kabinetts ist nicht belegt. Die amtliche Darstellung wurde dennoch durch
+        internationale Feststellungen verdrängt und wird heute von einer Einrichtung im japanischen Nationalarchiv
+        ausdrücklich umgekehrt. Diese heutige Darstellung wahrt zugleich die wichtige Einschränkung, dass das zivile
+        Kabinett zunächst Nichtausweitung anstrebte und das Komplott nicht initiierte.
+evidence:
+  - id: cabinet-statement-proposition
+    note: >-
+      Die Kabinettserklärung behauptet, chinesische Truppen hätten die Gleise zerstört und japanische Wachen angegriffen,
+      sodass die Armee schnell habe handeln müssen; damit dokumentiert sie die Übernahme der falschen Prämisse durch die
+      zivile Regierung.
+  - id: league-letter-proposition
+    note: >-
+      Japans Vertreter beim Völkerbund schrieb die Sprengung einer etwa 350 Mann starken chinesischen Abteilung zu und
+      stellte die anschließenden Besetzungen als unerlässliche Vorsichtsmaßnahmen dar.
+  - id: league-journal-proposition
+    note: >-
+      Die erhaltenen Völkerbundakten zeigen, wie die falsche Zuschreibung an China in die förmliche internationale
+      Diplomatie gelangte.
+  - id: jacar-correction
+    note: >-
+      Japans amtlicher Archivdienst erklärt, die Kwantung-Armee habe die Bahn gesprengt, den Vorfall als chinesische Tat
+      erscheinen lassen und ihn für Militäroperationen in den drei nordöstlichen Provinzen genutzt.
+  - id: imtfe-correction
+    note: >-
+      Das Mehrheitsurteil verwirft die japanische Darstellung und hält fest, der Zwischenfall vom 18. September sei von
+      japanischer Seite geplant und ausgeführt worden.
+  - id: lytton-correction-scope
+    note: >-
+      Die Kommission stellte keinen koordinierten oder autorisierten chinesischen Angriff fest und verwarf legitime
+      Selbstverteidigung, ließ aber die Urheberschaft der Explosion offen. Die Quelle trägt daher die begrenzte
+      Feststellung von 1932 und nicht die spätere ausdrückliche Täterzuschreibung.
+  - id: jacar-impact
+    note: >-
+      Verbindet den inszenierten Zwischenfall mit Operationen in Fengtian, Jilin und Heilongjiang, der Besetzung der
+      Mandschurei sowie der Gründung und japanischen Anerkennung Mandschukuos.
+  - id: consul-impact
+    note: >-
+      Die zeitgenössische Berichterstattung dokumentiert die schnelle Besetzung Mukdens und weiterer Eisenbahnstädte und
+      bezeichnet die Sprengung als japanischen Vorwand für diese Besetzung.
+  - id: lytton-impact
+    note: >-
+      Die internationale Untersuchung rekonstruiert Ausmaß und Abfolge der japanischen Operationen nach der kleinen Explosion.
+  - id: league-assembly-impact
+    note: >-
+      Dokumentiert die Annahme des Berichts nach Artikel 15 und die Einsetzung eines Ausschusses für die weitere
+      koordinierte Reaktion des Völkerbunds auf die Lage in der Mandschurei.
+  - id: jacar-military-carrier
+    note: Benennt die Kwantung-Armee als Institution, die die Explosion von Liutiaohu auslöste und China beschuldigte.
+  - id: imtfe-military-carrier
+    note: >-
+      Benennt an der Vorplanung beteiligte Offiziere von Generalstab und Kwantung-Armee und beschreibt die Führung der
+      Angriffe nach der Explosion.
+  - id: imtfe-military-mechanism
+    note: >-
+      Rekonstruiert Explosionsmeldung, sofortige falsche Zuschreibung, vorbereitete Operationspläne, Angriffe und die
+      nahezu gleichzeitige Aktivierung japanischer Kräfte entlang der Eisenbahn.
+  - id: consul-military-mechanism
+    note: >-
+      Eine zeitgenössische Besichtigung fand verdächtige physische und operative Details und hielt die Schaffung eines
+      Vorwands durch die japanische Armee für die plausibelste Erklärung, räumte aber ein, die Verantwortung nicht
+      beweisen zu können.
+  - id: jacar-military-consequences
+    note: >-
+      Fasst die Expansion in die drei nordöstlichen Provinzen, die Besetzung der Mandschurei und die Gründung
+      Mandschukuos zusammen.
+  - id: consul-military-consequences
+    note: >-
+      Listet in der Nacht des 18. September und den folgenden Tagen besetzte Städte auf und hält den geringen oder
+      fehlenden organisierten chinesischen Widerstand an wichtigen Orten fest.
+  - id: lytton-military-consequences
+    note: >-
+      Liefert die Darstellung der Untersuchung zu japanischen Truppenbewegungen und territorialer Expansion nach dem
+      Zwischenfall.
+  - id: imtfe-military-institutional-correction
+    note: >-
+      Liefert die ausdrückliche gerichtliche Feststellung von 1948, welche die chinesische Angriffsdarstellung der
+      Kwantung-Armee ersetzte.
+  - id: jacar-military-institutional-correction
+    note: >-
+      Belegt die Übernahme der korrigierten Zuschreibung in eine heutige amtliche japanische Archivpublikation.
+  - id: jacar-learning-military-context
+    note: >-
+      Unterscheidet Planung und Expansion der Kwantung-Armee von der anfänglichen Nichtausweitungspolitik des zivilen Kabinetts.
+  - id: lytton-military-context
+    note: >-
+      Grenzt die Behauptung ein, indem die Quelle eine tatsächliche Explosion feststellt, den angeblichen chinesischen
+      Angriff und den Umfang der japanischen Reaktion als legitime Selbstverteidigung jedoch verwirft.
+  - id: cabinet-government-carrier
+    note: Benennt japanische Regierung und Kabinett als Herausgeber der amtlichen öffentlichen Darstellung.
+  - id: league-letter-government-carrier
+    note: >-
+      Dokumentiert die Übermittlung von als amtlich bezeichneten Informationen durch Japans Vertreter beim Völkerbund.
+  - id: cabinet-government-mechanism
+    note: >-
+      Zeigt, wie die Zuschreibung der Armee in eine Kabinettserklärung überging, die den angeblichen chinesischen Angriff
+      mit Selbstverteidigungs-, Schutz- und Nichtbesetzungsbehauptungen verband.
+  - id: league-journal-government-mechanism
+    note: >-
+      Dokumentiert Veröffentlichung und Wiederholung der amtlichen japanischen Position in den Völkerbundverhandlungen.
+  - id: jacar-government-consequences
+    note: >-
+      Dokumentiert den Fortgang der Besetzung bis zu Mandschukuo und dessen Anerkennung durch Japan im September 1932.
+  - id: lytton-government-consequences
+    note: >-
+      Zeigt, wie die behauptete Selbstverteidigung zum Teil des internationalen Streits über Besetzung und Mandschukuo wurde.
+  - id: imtfe-government-context
+    note: >-
+      Hält fest, dass der Außenminister ein erwartetes Komplott zu stoppen versuchte, Wakatsuki erst nach Beginn der
+      Kämpfe davon erfuhr und das Kabinett zunächst Nichtausweitung beschloss.
+  - id: jacar-learning-government-context
+    note: >-
+      Stützt die Trennung zwischen dem Komplott der Feldarmee und dem anfänglichen Eindämmungsversuch der zivilen Regierung.
+  - id: league-assembly-government-correction
+    note: >-
+      Dokumentiert die förmliche Annahme eines Berichts durch die Völkerbundversammlung, der Japans Darstellung der
+      mandschurischen Ordnung zurückwies.
+  - id: imtfe-government-institutional-correction
+    note: >-
+      Die Feststellung des Tribunals widerspricht unmittelbar der Regierungsbehauptung von 1931, chinesische Kräfte hätten
+      den Zwischenfall verursacht.
+  - id: jacar-government-institutional-correction
+    note: >-
+      Liefert die heutige amtliche japanische Archivdarstellung, welche die Tat der Kwantung-Armee und deren Versuch,
+      China verantwortlich erscheinen zu lassen, zuschreibt.

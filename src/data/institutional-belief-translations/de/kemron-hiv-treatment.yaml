@@ -1,47 +1,186 @@
+schemaVersion: 2
 locale: de
 entryId: kemron-hiv-treatment
-sourceReviewedAt: '2026-08-24'
+sourceReviewedAt: '2026-09-29'
 title: KEMRON als HIV/AIDS-Heilung und dramatisch wirksame Behandlung
-claim: Extrem niedrig dosiertes oral verabreichtes Interferon-alpha wurde als Durchbruch bei HIV/AIDS behandelt,
-  der Symptome rasch zurückbilden und sogar eine HIV-Seropositivität umkehren könne – stark genug für öffentliche
-  Ankündigung und Kommerzialisierung durch Kenias nationales medizinisches Forschungsinstitut.
-currentUnderstanding: Kontrollierte Studien reproduzierten die dramatischen KEMRON-Ergebnisse nicht. Niedrig dosiertes
-  orales Interferon-alpha verbesserte HIV-bezogene klinische Verläufe nicht zuverlässig und machte Patienten nicht
-  verlässlich HIV-seronegativ. Die ursprünglichen unkontrollierten Beobachtungen konnten nicht zeigen, dass KEMRON
-  die berichteten Verbesserungen verursachte.
+proposition:
+  summary: >-
+    Im Jahr 1990 berichteten Forscher des Kenya Medical Research Institute (KEMRI), KEMRON, ein extrem niedrig dosiertes
+    oral verabreichtes Präparat aus natürlichem humanem Interferon alpha, habe HIV-bedingte Erkrankungen rasch
+    zurückgebildet. Ihr Bericht beschrieb eine nahezu vollständige Beseitigung der Symptome und meldete, dass 18 von 204
+    Teilnehmenden mit positivem HIV-Antikörpertest antikörpernegativ geworden seien. KEMRI, ein staatlich gegründetes nationales
+    Forschungsinstitut, kündigte anschließend an, eine HIV/AIDS-Heilung entdeckt zu haben, und verfolgte die
+    Kommerzialisierung des Produkts.
+correction:
+  summary: >-
+    Die unkontrollierten Vorher-nachher-Beobachtungen belegten weder, dass KEMRON die berichteten Veränderungen verursacht
+    hatte, noch dass HIV beseitigt worden war. Im September 1990 erklärte der Regionalausschuss der Weltgesundheitsorganisation
+    für Afrika, KEMRON müsse experimentell bleiben, bis gut konzipierte kontrollierte Studien seine Wirksamkeit belegten.
+    Zwei 1992 veröffentlichte randomisierte Doppelblindstudien fanden keinen bedeutsamen klinischen Nutzen: Eine kleine
+    Crossover-Studie fand keine anhaltende Wirkung und keine Antikörper-Seroreversion; eine Studie mit 149 Personen fand
+    weder einen kurzfristigen Nutzen noch Nebenwirkungen. Eine spätere randomisierte Studie mit 559 Teilnehmenden in
+    Uganda fand bei 150 IE oralem Interferon alpha und Placebo vergleichbare Sterblichkeit, Krankheitsprogression,
+    CD4-Abnahme, Leistungswerte und Symptome; niemand erhielt einen negativen HIV-Antikörperbefund. Diese Befunde widerlegen die
+    ursprünglichen Heilungs- und Wirkungsbehauptungen für das KEMRON-Regime. Sie besagen nicht, dass jede Dosis,
+    Verabreichungsform oder medizinische Anwendung von Interferon alpha unwirksam ist.
 impact:
-  summary: KEMRON war ein Fehler staatlicher Wissenschaft und nicht nur ein kommerzieller Hype. KEMRI-Forscher veröffentlichten
-    spektakuläre klinische Befunde und das Institut kündigte eine Heilung an; randomisierte kontrollierte Studien
-    konnten die Effekte später nicht bestätigen. KEMRIs eigene Institutionengeschichte behandelt KEMRON rückblickend
-    als bedeutende Kommerzialisierungskontroverse.
+  summary: >-
+    Ein staatliches medizinisches Forschungsinstitut machte aus einer unkontrollierten Beobachtung einen Fachartikel,
+    eine institutionelle Heilungsankündigung und einen Kommerzialisierungsversuch. Der ursprüngliche Bericht meldete einen
+    Anstieg des mittleren Karnofsky-Leistungswerts von 60,5 auf 100 bis Woche 10 und 18 angebliche
+    Antikörper-Seroreversionen unter 204 behandelten Personen. Die WHO beließ die Therapie öffentlich in der
+    experimentellen Kategorie und verlangte kontrollierte Prüfungen. Die folgenden Studien reproduzierten die
+    Kernaussagen nicht; in einer afrikanischen Studie mit 559 Teilnehmenden schritt die Erkrankung in beiden Gruppen
+    unvermindert fort. Eine spätere Fallstudie über KEMRI, deren Fakten Institutsvertreter prüften, hielt KEMRON als
+    Kommerzialisierungskontroverse fest, die das weitere Interesse des Instituts an kommerzieller Forschung verringerte.
   highlights:
-  - value: '1990'
-    label: KEMRI kündigte KEMRON als HIV/AIDS-Heilung an und veröffentlichte spektakuläre klinische Ergebnisse
-  - value: 18 Patienten
-    label: Der ursprüngliche KEMRI-Bericht meldete bei 18 HIV-positiven Teilnehmern eine Antikörper-Seroreversion
-  - value: Kontrollierte Studien
-    label: Randomisierte Doppelblindstudien reproduzierten die behaupteten klinischen und serologischen Effekte
-      nicht
+    - value: 24. Aug. 1990
+      label: später dokumentiertes Datum der KEMRI-Ankündigung von KEMRON als HIV/AIDS-Heilung
+    - value: 18 von 204
+      label: in der ursprünglichen unkontrollierten Studie als HIV-Antikörper-negativ gemeldete Teilnehmende
+    - value: 559 Teilnehmende
+      label: Umfang der späteren afrikanischen randomisierten Studie ohne Nutzen und Antikörper-Seroreversion
   context:
-  - Die Korrektur betrifft das extrem niedrig dosierte orale KEMRON-Regime und seine außergewöhnlichen HIV-Behauptungen,
-    nicht jede medizinische Verwendung von Interferon.
+    - >-
+      KEMRI wurde von der kenianischen Regierung als staatliche Einrichtung gegründet. Seine Veröffentlichung und
+      institutionelle Ankündigung gelten deshalb als amtliche wissenschaftliche Billigung. Die hier geprüften Belege
+      zeigen nicht, dass KEMRON zu einer nationalen kenianischen Behandlungsleitlinie wurde oder eine gesonderte Zulassung
+      des Gesundheitsministeriums beziehungsweise der Arzneimittelbehörde erhielt.
+    - >-
+      Im Bericht von 1990 erhielten alle 204 Teilnehmenden KEMRON; Veränderungen im Zeitverlauf wurden ohne randomisierte
+      Placebogruppe beschrieben. Die Besserung von Symptomen konnte bei einem solchen Design auch durch den Krankheitsverlauf,
+      Messung, Auswahl, gleichzeitige Versorgung oder andere Faktoren entstehen. Eine Veränderung des Antikörpertests
+      allein bewies ebenfalls keine Beseitigung von HIV.
+    - >-
+      Internationale Wissenschaftsinstitutionen übernahmen die Behauptung nicht einheitlich. Auf ihrer afrikanischen
+      Regionaltagung im September 1990 bezeichnete die WHO KEMRON als potenzielles, weiterhin experimentelles Mittel und
+      erklärte, Schlussfolgerungen müssten gut konzipierte klinische Studien abwarten.
+    - >-
+      Diese Korrektur betrifft das extrem niedrig dosierte orale KEMRON-Regime und seine Behauptungen rascher
+      Symptomrückbildung und Heilung. Interferon alpha wurde für andere Erkrankungen in anderen Dosen und
+      Verabreichungsformen untersucht oder eingesetzt; diese Fragen sind nicht Gegenstand dieses Eintrags.
 episodes:
-- id: kenya-1990-1992
-  polity: Kenia
-  institutions:
-  - Kenya Medical Research Institute (KEMRI)
-  institutionalContext: KEMRI ist Kenias staatlich gegründetes nationales medizinisches Forschungsinstitut. Seine
-    Forscher veröffentlichten die ursprüngliche KEMRON-Studie; die spätere Institutionengeschichte hält fest, dass
-    KEMRI KEMRON als HIV/AIDS-Heilung ankündigte und zu kommerzialisieren versuchte. 1992 markiert hier das Auftreten
-    kontrollierter negativer Replikationsdaten und keinen einzelnen formellen Widerruf.
-  summary: 1990 berichteten KEMRI-Forscher von auffälligen Verbesserungen bei Menschen mit HIV nach extrem niedrig
-    dosiertem oralem Interferon-alpha und meldeten 18 Fälle, in denen HIV-Antikörpertests negativ geworden seien.
-    KEMRIs spätere Institutionengeschichte hält fest, dass das Institut KEMRON als HIV/AIDS-Heilung ankündigte.
-    Randomisierte Doppelblindstudien reproduzierten weder die behaupteten klinischen Verbesserungen noch die Seroreversion;
-    auch eine größere afrikanische Studie fand keinen bedeutsamen Nutzen.
-  consequences:
-  - Nationale wissenschaftliche Ankündigung und Kommerzialisierung einer unzureichend validierten HIV-Behandlung
-  - Hohe öffentliche und patientenseitige Erwartungen an dramatische Heilungseffekte
-  - Behauptete HIV-Seroreversion auf Grundlage unkontrollierter Beobachtungen
-  - Forschungs- und Politikaufmerksamkeit für eine Behandlung, deren Kerneffekte in kontrollierten Studien nicht
-    bestätigt wurden
+  - id: kemri-publication-and-announcement-1990
+    polity: Kenia
+    periodLabel: Veröffentlichung und institutionelle Heilungsankündigung 1990; Rücknahmedatum nicht dokumentiert
+    institutions:
+      - Kenya Medical Research Institute (KEMRI)
+    institutionalContext: >-
+      KEMRI ist Kenias staatlich gegründetes nationales medizinisches Forschungsinstitut. Sein Direktor Davy Koech und
+      Arthur Obel veröffentlichten den ursprünglichen Bericht unter KEMRI-Zugehörigkeit, nachdem sie 199 symptomatische
+      und fünf asymptomatische Personen mit positivem HIV-Antikörpertest mindestens zehn Wochen lang behandelt hatten. Eine
+      spätere Fallstudie über das Institut hält fest, dass KEMRI am 24. August 1990 die Entdeckung einer HIV/AIDS-Heilung namens
+      KEMRON verkündete. Sie führt auch KEMRIs früheste Kommerzialisierungsaktivität auf diese Ankündigung zurück und
+      beschreibt Streit über Eigentums- und Vertriebsrechte.
+    consequences:
+      - Veröffentlichung dramatischer Wirksamkeits- und Antikörper-Seroreversionsbehauptungen aus einer unkontrollierten Behandlungsserie
+      - Eine Heilungsankündigung mit der Autorität von Kenias staatlich gegründetem nationalem medizinischem Forschungsinstitut
+      - Kommerzialisierungsaktivität und Streit über Eigentums- und Vertriebsrechte vor dem Nachweis kontrollierter Wirksamkeit
+      - Eine öffentliche WHO-Einordnung von KEMRON als weiterhin experimentell und die Forderung nach gut konzipierten kontrollierten Studien
+      - Spätere randomisierte Studien in Europa, Kanada und Uganda, die die Kernaussagen prüften und nicht reproduzierten
+      - Eine Kommerzialisierungskontroverse, die laut späterer Fallstudie das weitere institutionelle Interesse an kommerzieller Forschung bei KEMRI hemmte
+    summary: >-
+      KEMRI machte aus einer unkontrollierten klinischen Serie eine offiziell gebilligte Behandlungsaussage. Der
+      ursprüngliche Artikel meldete außergewöhnliche Veränderungen, darunter vollständige Symptomrückbildung und 18
+      angebliche Antikörper-Seroreversionen; das Institut kündigte KEMRON als Heilung an und verfolgte seine
+      Kommerzialisierung. Die WHO beließ KEMRON noch im selben Jahr ausdrücklich im experimentellen Stadium; kontrollierte Studien
+      reproduzierten später weder die klinischen noch die serologischen Aussagen.
+    mechanism:
+      summary: >-
+        Ein Fachartikel von KEMRI-Forschern, gefolgt von einer Heilungsankündigung des Instituts und einem Kommerzialisierungsversuch,
+        verlieh den unkontrollierten Befunden wissenschaftliche und staatliche Autorität über eine gewöhnliche private
+        Behandlungsbehauptung hinaus.
+    institutionalCorrection:
+      periodLabel: WHO-Einordnung 1990; kontrollierte Studien 1992 und 1998; rückblickende Fallstudie 2010
+      action: >-
+        Die WHO beließ KEMRON öffentlich im experimentellen Stadium und forderte kontrollierte Studien. Randomisierte
+        Doppelblindstudien fanden anschließend keinen anhaltenden oder bedeutsamen Nutzen und keine
+        Antikörper-Seroreversion. Eine Fallstudie von 2010, die auf KEMRI-Interviews und einer Faktenprüfung durch
+        Institutsvertreter beruhte, hielt die Episode als KEMRON-Kontroverse fest.
+      summary: >-
+        Die wissenschaftliche Behauptung wurde von außen stark korrigiert, zuletzt durch die große afrikanische
+        placebokontrollierte Studie. Die spätere Fallstudie über das Institut erkannte die Kontroverse und ihre
+        organisatorischen Folgen an; die geprüften Quellen dokumentieren jedoch keine formelle Rücknahme der
+        Heilungsankündigung durch KEMRI und kein genaues Rücknahmedatum. Die institutionelle Korrektur gilt deshalb als teilweise.
+evidence:
+  - id: kemri-case-proposition
+    note: >-
+      Die Fallstudie bezeichnet KEMRI als kenianische staatliche Einrichtung und dokumentiert die Ankündigung vom 24.
+      August 1990, das Institut habe eine HIV/AIDS-Heilung namens KEMRON entdeckt, gefolgt von Kommerzialisierungs- und Eigentumsstreit.
+  - id: original-study-proposition
+    note: >-
+      Der KEMRI-Bericht beschreibt 204 behandelte Personen, nahezu vollständige Symptomrückbildung, einen Anstieg des
+      mittleren Karnofsky-Werts auf 100 und 18 antikörpernegativ gewordene Teilnehmende.
+  - id: who-correction
+    note: >-
+      WHO-Vertreter erklärten den Delegierten afrikanischer Mitgliedstaaten, KEMRON bleibe experimentell; Folgerungen
+      verlangten weitere gut konzipierte klinische Studien.
+  - id: kaiser-correction
+    note: >-
+      Die randomisierte Doppelblind-Crossover-Studie fand nur eine vorübergehende Veränderung in einer Untergruppe, keine
+      anhaltende klinische Wirkung und keine Antikörper-Seroreversion; alle Teilnehmenden blieben HIV-Antikörper-positiv.
+  - id: hulton-correction
+    note: >-
+      Die randomisierte Doppelblindstudie mit 149 Personen fand gegenüber Placebo weder einen kurzfristigen Nutzen noch
+      Nebenwirkungen von 50 oder 100 Einheiten oralem Interferon alpha.
+  - id: katabira-correction
+    note: >-
+      Die randomisierte Doppelblindstudie mit 559 Personen in Uganda fand gegenüber Placebo keinen Unterschied bei
+      Sterblichkeit, Progression, CD4-Abnahme, Leistungswerten oder Symptomen; niemand wurde antikörpernegativ.
+  - id: original-study-impact
+    note: >-
+      Liefert die Gesamtzahl von 204 Teilnehmenden, die 18 gemeldeten Antikörper-Seroreversionen und die klinischen
+      Kernaussagen, die KEMRI zu einer Behandlungsaussage erhob.
+  - id: kemri-case-impact
+    note: >-
+      Dokumentiert die institutionelle Ankündigung, Streit über Eigentum und Vertrieb sowie die spätere Einschätzung, die
+      Kontroverse habe das weitere Interesse KEMRIs an Forschungskommerzialisierung gehemmt.
+  - id: katabira-impact
+    note: >-
+      Dokumentiert Umfang und Ergebnis der großen afrikanischen Replikation: 559 randomisierte Teilnehmende,
+      unverminderte Krankheitsprogression in beiden Gruppen und keine Seroreversion.
+  - id: kemri-case-carrier
+    note: >-
+      Belegt KEMRIs Stellung als staatlich gegründete Einrichtung und identifiziert das Institut selbst als Träger der
+      Ankündigung und Kommerzialisierung.
+  - id: original-study-mechanism
+    note: >-
+      Der Fachzeitschrifteneintrag zeigt die formale Veröffentlichung der Behandlungs- und Seroreversionsbehauptungen
+      durch KEMRI-Forscher.
+  - id: kemri-case-mechanism
+    note: >-
+      Dokumentiert die Heilungsankündigung des Instituts sowie Kommerzialisierungs- und Vertriebsaktivitäten, die die
+      veröffentlichte Behauptung verstärkten.
+  - id: original-study-consequences
+    note: >-
+      Dokumentiert die außergewöhnlichen klinischen und Antikörperbehauptungen, die ohne randomisierte Kontrollgruppe in
+      die wissenschaftliche Literatur gelangten.
+  - id: who-consequences
+    note: >-
+      Zeigt, dass die Behauptung vor afrikanischen Gesundheitsdelegierten umgehend öffentlich eingeordnet und eine
+      kontrollierte Prüfung verlangt wurde.
+  - id: kemri-case-consequences
+    note: >-
+      Die rückblickende Fallstudie verbindet den Eigentums- und Kommerzialisierungsstreit mit geringerem institutionellem
+      Interesse an späterer Kommerzialisierungsarbeit.
+  - id: who-episode-context
+    note: >-
+      Belegt, dass die WHO die Heilungsbehauptung nicht übernahm, sondern das Produkt bis zur Durchführung von Studien als
+      experimentell einstufte.
+  - id: who-institutional-correction
+    note: >-
+      Liefert die erste hochrangige externe Korrektur im selben Jahr wie KEMRIs Ankündigung.
+  - id: kaiser-institutional-correction
+    note: >-
+      Liefert kontrollierte Belege gegen einen anhaltenden klinischen Nutzen und gegen die behauptete Antikörper-Seroreversion.
+  - id: hulton-institutional-correction
+    note: >-
+      Findet in einer größeren randomisierten Studie mit zwei oralen Dosierungen unabhängig keinen kurzfristigen Nutzen.
+  - id: katabira-institutional-correction
+    note: >-
+      Liefert die größte direkte Korrektur mit afrikanischen Teilnehmenden, längerer Nachbeobachtung, geprüftem Wirkstoff
+      und keinem bedeutsamen Vorteil gegenüber Placebo.
+  - id: kemri-case-institutional-correction
+    note: >-
+      Die spätere, von KEMRI-Vertretern auf Fakten geprüfte Fallstudie bezeichnet 1990 als KEMRON-Kontroverse und
+      dokumentiert organisatorische Folgen, aber keine formelle Rücknahme.

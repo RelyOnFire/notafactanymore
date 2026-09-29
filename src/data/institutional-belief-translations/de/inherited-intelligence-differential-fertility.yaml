@@ -1,21 +1,247 @@
+schemaVersion: 2
 locale: de
 entryId: inherited-intelligence-differential-fertility
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: '2026-09-29'
 title: Vererbte Intelligenz und unterschiedliche Geburtenraten
-claim: Bildungsabschlüsse wurden als Ersatzmaß für vererbte Intelligenz behandelt; besser ausgebildete Frauen sollten daher mehr und schlechter ausgebildete Frauen weniger Kinder bekommen, um die künftige „Qualität“ der Bevölkerung zu sichern.
-currentUnderstanding: Intelligenz und Bildungserfolg sind komplexe Merkmale, die von zahlreichen genetischen, entwicklungsbezogenen, familiären, schulischen, wirtschaftlichen und sozialen Einflüssen geprägt werden. Der Bildungsabschluss eines Elternteils bestimmt keinen erblichen menschlichen Wert und bietet keine wissenschaftliche Grundlage dafür, verschiedenen sozialen Gruppen unterschiedliche Anreize zur Fortpflanzung oder Sterilisation zu geben.
+proposition:
+  summary: >-
+    Die Regierung Singapurs behandelte formale Bildungsabschlüsse von Müttern als verwaltungstaugliches Ersatzmaß für
+    vererbte Fähigkeiten und den künftigen Talentbestand der Nation. Auf dieser Grundlage förderte sie mehr Geburten
+    unter besser ausgebildeten Frauen und weniger Geburten unter einkommensschwachen Paaren ohne bestandene O-Level-Fächer.
+correction:
+  summary: >-
+    Intelligenz und Bildungserfolg sind miteinander korrelierte, komplexe Merkmale; genetische Variation trägt zu
+    beiden bei. Heritabilität beschreibt jedoch Unterschiede in einer untersuchten Population zu einem bestimmten
+    Zeitpunkt. Sie ist weder ein fester Anteil an den Fähigkeiten eines Menschen noch eine Rangordnung von Familien.
+    Genomische Zusammenhänge mit Bildungsdauer sind hochgradig polygen, kontextabhängig und bilden teilweise indirekte,
+    über die Umwelt vermittelte Effekte ab. Der Bildungsabschluss eines Elternteils bestimmt daher nicht die Fähigkeiten
+    eines Kindes und kann Eltern wissenschaftlich nicht in höher- und minderwertige Fortpflanzungsgruppen einteilen.
+impact:
+  summary: >-
+    Aus der Annahme entstand keine einzelne Maßnahme mit einem gemeinsamen Enddatum. Sie floss 1984 in drei
+    Verwaltungswege ein: Vorrang bei der Grundschulanmeldung für Kinder bestimmter Akademikerinnen, einen von den
+    Bildungsabschlüssen der Mutter abhängigen höheren Steuerfreibetrag und eine an Sterilisation gebundene Zahlung von
+    10.000 Singapur-Dollar für ausgewählte einkommensschwache Paare ohne bestandene O-Level-Fächer. 157 Kinder profitierten im
+    einzigen allgemeinen Anmeldedurchgang von der Schulbevorzugung, bevor das Kabinett sie beendete. Die
+    Bildungsvoraussetzung im Steuerrecht galt bis zum Veranlagungsjahr 2005. Acht Monate nach Beginn des
+    Sterilisationszuschusses hatten sich 57 Paare beworben und 47 qualifiziert; bei der breiteren pronatalistischen
+    Wende von 1987 hielt die Regierung ausdrücklich an ihm fest.
+  highlights:
+    - value: '157'
+      label: Kinder mit Akademikerinnen-Vorrang bei der Schulanmeldung 1984
+    - value: 47 von 57
+      label: nach acht Monaten als berechtigt gemeldete Bewerberpaare beim Sterilisationszuschuss
+    - value: '2005'
+      label: Veranlagungsjahr, in dem die Bildungsvoraussetzung für den erhöhten Kinderfreibetrag entfiel
+  context:
+    - >-
+      „Graduate Mothers' Scheme“ bezeichnet häufig die gesamte Kontroverse. Die Schulzulassungsregel, der
+      Steuerfreibetrag und der Sterilisationszuschuss waren jedoch eigenständige Maßnahmen. Ihre getrennte Darstellung
+      verhindert, dass die Aufhebung der Schulbevorzugung 1985 fälschlich als Ende des gesamten Pakets erscheint.
+    - >-
+      Die Zahlen von 157 Kindern und 47 qualifizierten Paaren betreffen einen einzigen Anmeldedurchgang und einen frühen
+      Verwaltungsbericht nach acht Monaten. Sie sind keine Gesamtsummen und belegen nicht, wie stark eine Maßnahme die
+      Geburtenrate veränderte.
+    - >-
+      Der Sterilisationszuschuss war rechtlich freiwillig, verband für eine nach niedrigem Einkommen und geringer Bildung
+      ausgewählte Gruppe jedoch eine große wohnungsbezogene Leistung mit einem irreversiblen Eingriff. Diese Karte
+      beschreibt die belegten Anreize und Voraussetzungen; sie stellt das Programm nicht als Zwangssterilisation dar.
+    - >-
+      Die heutige Evidenz stützt auch nicht die gegenteilige Behauptung, Intelligenz oder Bildungserfolg hätten keine
+      genetische Komponente. Korrigiert wird der Schluss von Zusammenhängen auf Populationsebene zu deterministischen
+      Urteilen über einzelne Eltern, Kinder und soziale Gruppen.
 episodes:
-  - id: singapore-1983-1985
+  - id: singapore-school-priority-1983-1985
     polity: Singapur
+    periodLabel: '1983–1985: Einführung und Aufhebung; frühere Zusagen blieben bestehen'
     institutions:
+      - Prime Minister's Office
       - Kabinett von Singapur
       - Ministry of Education
+    institutionalContext: >-
+      Premierminister Lee Kuan Yews National-Day-Rally-Rede von 1983 machte unterschiedliche Geburtenraten nach
+      Bildungsstand zu einem nationalen „Talentproblem“ und verlangte politische Änderungen. Das Kabinett gab die
+      Richtung vor; das Bildungsministerium änderte die Anmeldephasen für Vorschule und Primary One. Diese Schulregel
+      war ein Teil des größeren Pakets, keine Dachregelung für Steuer- und Sterilisationsmaßnahmen.
+    summary: >-
+      Nachdem die Rede von 1983 den Bildungsstand von Müttern und unterschiedliche Geburtenraten mit dem künftigen
+      Talentbestand verknüpft hatte, bevorzugte das Bildungsministerium 1984 bei der Anmeldung Kinder von
+      Akademikerinnen, die bestimmte Vorgaben zur Familiengröße erfüllten. Der Abschluss eines Elternteils wurde so zum
+      Vorteil im Wettbewerb um Schulplätze. Nach einem allgemeinen Anmeldedurchgang endete die Regel 1985 wegen geringer
+      Reichweite, öffentlichen Unmuts und der Einschätzung des Ministeriums, sie werde die Kinderzahl kaum verändern.
+    consequences:
+      - Kinder bestimmter Akademikerinnen erhielten früheren Zugang zu bevorzugten Grundschulen
+      - Der Anmeldevorrang eines Kindes hing vom Abschluss der Mutter, der Familiengröße und Sterilisationsregeln ab
+      - 157 Kinder erhielten den besonderen Vorrang im Anmeldedurchgang von 1984
+      - Familien mit und ohne akademische Abschlüsse wandten sich öffentlich gegen die Ungleichbehandlung
+      - Bestimmte Zusagen an Mütter, die vor der Aufhebung reagiert hatten, wurden weiter erfüllt
+    mechanism:
+      summary: >-
+        Kabinettsbeschluss und Anmeldephasen des Bildungsministeriums überführten die erbbiologische
+        Bevölkerungsannahme in einen früheren Zugang zur Schulwahl für eine abgegrenzte Gruppe von Akademikerinnenkindern.
+    institutionalCorrection:
+      periodLabel: März–Juli 1985
+      action: >-
+        Das Kabinett beendete den Akademikerinnen-Vorrang, und das Bildungsministerium stellte die früheren
+        Anmelderichtlinien wieder her; Zusagen an eine festgelegte Gruppe bereits reagierender Mütter blieben bestehen.
+      summary: >-
+        Die Regierung beendete diese Zulassungsbevorzugung ausdrücklich, nachdem sie sie als wirkungslos und
+        gesellschaftlich spaltend bewertet hatte. Damit wurde der Schulmechanismus korrigiert. Der gesonderte
+        bildungsabhängige Steuerfreibetrag und der Sterilisationszuschuss blieben jedoch bestehen; eine wissenschaftliche
+        Zurücknahme der Annahme über vererbtes Talent ist nicht dokumentiert.
+  - id: singapore-enhanced-child-relief-1984-2004
+    polity: Singapur
+    periodLabel: 1984–2004; Bildungsvoraussetzung ab Veranlagungsjahr 2005 aufgehoben
+    institutions:
+      - Ministry of Finance
+    institutionalContext: >-
+      Der erhöhte Kinderfreibetrag sollte qualifizierte Frauen bereits zum Verbleib im oder zur Rückkehr ins Erwerbsleben
+      bewegen. Im Haushalt 1984 staffelte das Finanzministerium ihn großzügiger nach Geburtenfolge und weitete den
+      Zugang auf Mütter mit mindestens fünf bestandenen O-Level-Fächern aus. Ausdrücklich kam das Ziel hinzu, besser ausgebildete
+      Frauen zu einem zweiten oder dritten Kind zu bewegen. Später sank die Schwelle auf drei bestandene O-Level-Fächer, doch die
+      Bildungsvoraussetzung blieb bis 2004 bestehen.
+    summary: >-
+      Die Änderung von 1984 ergänzte einen bestehenden beschäftigungsbezogenen Steuerfreibetrag um ein
+      pronatalistisches Ziel. Mütter mit den verlangten Bildungsabschlüssen konnten für spätere Kinder zunehmend höhere
+      Beträge abziehen; Mütter unterhalb der Schwelle hatten keinen Anspruch auf den erhöhten Freibetrag. Die Maßnahme
+      bestand in veränderter Form fort, bis sie die Regierung für das Veranlagungsjahr 2005 ersetzte und die
+      Bildungsvoraussetzung ausdrücklich strich.
+    consequences:
+      - Bildung wurde zur Voraussetzung für einen zusätzlichen Steuerfreibetrag für erwerbstätige Mütter
+      - Der Freibetrag stieg von 5 Prozent des Erwerbseinkommens beim ersten auf 10 beim zweiten und 15 beim dritten Kind
+      - Die Konstruktion bevorzugte Mütter mit verlangten Abschlüssen und genügend steuerpflichtigem Einkommen
+      - Die Bildungsvoraussetzung überdauerte die Aufhebung des Schulvorrangs von 1985 um fast zwei Jahrzehnte
+    mechanism:
+      summary: >-
+        Das Finanzministerium lenkte über Zugangsvoraussetzungen und nach Geburtenfolge gestaffelte Prozentsätze im
+        Einkommensteuerrecht größere Fortpflanzungsanreize an formal besser ausgebildete erwerbstätige Mütter.
+    institutionalCorrection:
+      periodLabel: '2005'
+      action: >-
+        Ab dem Veranlagungsjahr 2005 ersetzte der Working Mother's Child Relief den Enhanced Child Relief; die Regierung
+        strich ausdrücklich die Voraussetzung von drei bestandenen GCE-O-Level-Fächern oder gleichwertigen Abschlüssen.
+      summary: >-
+        Die Nachfolgeregelung unterstützte weiterhin erwerbstätige Mütter, beendete Bildung aber als Zugangstest. Damit
+        entfiel das für diese Episode maßgebliche Klassifikationsmerkmal unmittelbar, auch wenn die Ankündigung nicht als
+        wissenschaftlicher Widerruf des erbbiologischen Arguments von 1983 formuliert war.
+  - id: singapore-sterilization-grant-1984-1987
+    polity: Singapur
+    periodLabel: 1984–mindestens 1987; Jahr der Aufhebung nicht belegt
+    institutions:
+      - Prime Minister's Office
+      - National Registration Department
       - Central Provident Fund Board
       - Housing & Development Board (HDB)
-    institutionalContext: Das Maßnahmenpaket verlief durch mehrere Regierungsbereiche und gehörte nicht zu einer einzigen „Bevölkerungsbehörde“. Das Kabinett gab die politische Richtung vor; die Bildungspolitik trug das Graduate Mothers' Priority Scheme, während Steuer-, Wohnungs- und Sterilisationsanreize über die jeweils zuständigen Finanz-, Wohnungs- und Sozialstrukturen umgesetzt wurden.
-    summary: Nachdem der Zensus von 1980 niedrigere Geburtenraten unter Akademikerinnen gezeigt hatte, argumentierte Premierminister Lee Kuan Yew, Intelligenz sei zu einem großen Teil erblich und die ungleiche Fortpflanzung gefährde Singapurs künftigen Talentpool. 1984 führte die Regierung Vorteile für besser ausgebildete Mütter ein und bot zugleich bestimmten einkommensschwachen Frauen ohne O-Level-Abschluss 10.000 Singapur-Dollar für eine Sterilisation nach dem ersten oder zweiten Kind. Die ausdrücklich eugenischen Maßnahmen wurden 1985 wieder aufgehoben oder deutlich verändert.
+    institutionalContext: >-
+      Das Büro des Premierministers verkündete Zuschuss und Zugangsregeln. Das National Registration Department
+      bearbeitete die Anträge; die 10.000 Singapur-Dollar gingen auf das Central-Provident-Fund-Konto der Frau und
+      konnten unter den festgelegten Eigentumsbedingungen für eine HDB-Wohnung verwendet werden. CPF und HDB waren
+      Auszahlungswege, nicht Belege dafür, dass eine dieser Stellen die erbbiologische Prämisse entwickelte.
+    summary: >-
+      Ab 1. Juni 1984 konnten ausgewählte einkommensschwache Paare, bei denen kein Elternteil ein O-Level-Fach bestanden hatte,
+      10.000 Singapur-Dollar erhalten, wenn sich die Mutter nach dem ersten oder zweiten Kind sterilisieren ließ. Der
+      Zuschuss ging für Altersvorsorge oder Wohnungskauf auf ihr CPF-Konto und musste samt Zinseszins zurückgezahlt
+      werden, falls sie später ein weiteres Kind bekam. Das Programm steuerte Geburten nach Bildung und Einkommen und
+      bestand 1987 weiter, zwei Jahre nach Ende der Schulbevorzugung.
     consequences:
-      - Graduate Mothers' Priority Scheme
-      - Bevorzugung bei Schulaufnahme und Steuern
-      - Geldanreize zur Sterilisation einkommensschwacher, geringer ausgebildeter Frauen
-      - Reproduktive Diskriminierung nach Bildung und Einkommen
+      - 10.000 Singapur-Dollar wurden an Sterilisation nach dem ersten oder zweiten Kind und vor dem 30. Lebensjahr geknüpft
+      - Kein Elternteil durfte ein O-Level-Fach bestanden haben; zusätzlich galten individuelle und gemeinsame Einkommensgrenzen
+      - Ein weiteres Kind löste die Rückzahlung des Zuschusses zuzüglich jährlich 10 Prozent Zinseszins aus
+      - In den ersten dokumentierten acht Monaten bewarben sich 57 Paare und 47 qualifizierten sich
+      - Bei der breiteren pronatalistischen Wende 1987 hielt die Regierung an dem Zuschuss fest
+    mechanism:
+      summary: >-
+        Die Zugangsprüfung verband Bildungs- und Einkommensgrenzen mit einer hohen CPF- oder Wohnungsleistung unter der
+        Bedingung einer Sterilisation und mit einer finanziellen Rückforderung bei einem späteren weiteren Kind.
+    institutionalCorrection:
+      periodLabel: Nach 1987; genaues Datum nicht dokumentiert
+      summary: >-
+        Eine parlamentarische Erklärung von 1987 bestätigt den Fortbestand des Zuschusses. Die historische Darstellung
+        von 2016 sagt lediglich, die Maßnahme sei „vor einigen Jahren“ eingestellt worden. Die geprüften Quellen belegen
+        weder das Jahr der Aufhebung noch eine offizielle Zurückweisung ihrer klassenbezogenen Begründung; 1985 wird
+        deshalb nicht als Korrekturjahr angesetzt.
+evidence:
+  - id: singapore-chapter-proposition
+    note: >-
+      Rekonstruiert das erbbiologische Argument von 1983 und die Maßnahmen von 1984 für mehr Geburten unter besser
+      ausgebildeten sowie weniger Geburten unter ärmeren, geringer ausgebildeten Frauen.
+  - id: singapore-speech-proposition
+    note: >-
+      Der vorbereitete Redetext führt von einem behaupteten Übergewicht der Natur bei der Leistungsfähigkeit zur Warnung,
+      unterschiedliche Geburtenraten nach Bildung würden den Talentbestand mindern, und zum Ruf nach Politikänderungen.
+  - id: singapore-grant-proposition
+    note: >-
+      Die Primärquelle benennt einen „Kreislauf aus niedriger Bildung und großer Familie“ und macht fehlende
+      bestandene O-Level-Fächer zur Voraussetzung eines an Sterilisation gebundenen Zuschusses.
+  - id: deary-science-correction
+    note: >-
+      Erklärt, dass Intelligenz erblich beeinflusst und polygen ist, definiert Heritabilität aber als Variation in einer
+      bestimmten Stichprobe und Zeit und unterscheidet direkte genetische von indirekten, umweltvermittelten Effekten.
+  - id: okbay-science-correction
+    note: >-
+      In einer GWAS mit rund drei Millionen Menschen erklärte der polygenische Index für Bildungsdauer 12 bis 16 Prozent
+      der Variation; die Kontrolle elterlicher Indizes halbierte den Zusammenhang ungefähr. Das zeigt begrenzte
+      Vorhersagekraft und einen erheblichen indirekten beziehungsweise kontextuellen Anteil.
+  - id: singapore-chapter-impact
+    note: >-
+      Belegt die getrennten Schul-, Steuer- und Sterilisationsmaßnahmen, die 157 Fälle beim Schulvorrang sowie den frühen
+      Bericht über 57 Anträge und 47 qualifizierte Paare.
+  - id: singapore-grant-impact
+    note: >-
+      Legt Zuschusshöhe, Bildungs- und Einkommensgrenzen, Auszahlung über CPF und HDB sowie die Rückzahlung mit jährlich
+      10 Prozent Zinseszins nach einer späteren Geburt fest.
+  - id: school-priority-carrier
+    note: >-
+      Benennt das Anmeldesystem des Bildungsministeriums, die ministerielle Überprüfung, den Kabinettsbeschluss und die
+      Umsetzungsdaten des Akademikerinnen-Vorrangs.
+  - id: school-priority-mechanism
+    note: >-
+      Zeigt die Anmeldephasen und die Bedingungen nach Abschluss, Geburtenfolge und Sterilisation für den früheren Zugang.
+  - id: school-priority-consequences
+    note: >-
+      Meldet 157 Begünstigte im Durchgang von 1984, öffentlichen Unmut, die Aufhebung nach einem allgemeinen Durchgang
+      und die weitere Erfüllung früherer Zusagen.
+  - id: school-priority-correction
+    note: >-
+      Der zeitgenössische Bericht dokumentiert die Mitteilung des Bildungsministers, das Kabinett habe den Vorrang von
+      Akademikerinnenkindern bei Vor- und Grundschulaufnahme einstimmig beendet.
+  - id: school-priority-correction-context
+    note: >-
+      Nennt Überprüfungs-, Aufhebungs- und Wiederherstellungsdaten, die angegebenen Gründe und die begrenzten Zusagen,
+      die geschützt blieben.
+  - id: tax-relief-carrier
+    note: >-
+      Ordnet die Haushaltsmaßnahme von 1984 und ihr ausgesprochen pronatalistisches Ziel dem Minister und
+      Finanzministerium zu.
+  - id: tax-relief-mechanism
+    note: >-
+      Beschreibt Bildungsschwelle, nach Geburtenfolge gestaffelte Prozentsätze und die Obergrenze von 10.000
+      Singapur-Dollar je Kind im Einkommensteuerfreibetrag.
+  - id: tax-relief-consequences
+    note: >-
+      Zeigt, wie der geänderte Freibetrag erwerbstätige Mütter mit Abschlüssen bevorzugte, später seine Schwelle senkte
+      und bis zur Ersetzung fortbestand.
+  - id: tax-relief-correction
+    note: >-
+      Die amtliche Rede zum Gesetzentwurf hält fest, dass der Working Mother's Child Relief 2005 den Enhanced Child
+      Relief ersetzt und die Voraussetzung von drei bestandenen O-Level-Fächern ausdrücklich entfällt.
+  - id: grant-carrier
+    note: >-
+      Benennt das National Registration Department als Verwaltungsstelle und beschreibt CPF-Konto und HDB-Wohnungskauf
+      als Auszahlungswege.
+  - id: grant-mechanism
+    note: >-
+      Die Primärquelle verknüpft Alter, Geburtenfolge, Bildung, Einkommen und Sterilisation mit der Leistung von 10.000
+      Singapur-Dollar und ihrer Rückzahlungsklausel.
+  - id: grant-consequences
+    note: >-
+      Beschreibt den Wohnungswert des Zuschusses, frühe Bewerbungs- und Bewilligungszahlen und das gezielte Ziel, Geburten
+      unter einkommensschwachen, geringer ausgebildeten Müttern zu verhindern.
+  - id: grant-continued-1987
+    note: >-
+      Die Regierung verteidigte den Zuschuss als vereinbar mit ihrer neuen Bevölkerungspolitik. Damit ist belegt, dass
+      er nicht 1985 zusammen mit der Schulbevorzugung endete.
+  - id: grant-correction-boundary
+    note: >-
+      Die Darstellung von 2016 sagt, die Politik sei „vor einigen Jahren“ beendet worden, nennt aber kein Datum und
+      trägt daher kein genaues Korrekturjahr.

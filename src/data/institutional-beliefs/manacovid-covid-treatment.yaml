@@ -1,65 +1,269 @@
+schemaVersion: 2
 title: Manacovid as an established effective COVID-19 treatment
-claim: >-
-  The Democratic Republic of the Congo authorized and promoted Manacovid as an effective and safe COVID-19 treatment on the basis of preliminary clinical results presented as 100% recovery, before robust randomized evidence had established that therapeutic effect.
-currentUnderstanding: >-
-  Authorization and uncontrolled or insufficiently documented clinical results do not establish treatment efficacy. In 2022, a joint WHO, Africa CDC and African Union expert mission reviewing Congolese traditional COVID-19 therapeutics including Manacovid concluded that the way the available data had been analysed and presented had not generated the evidence needed to establish efficacy and recommended stronger observational and randomized clinical-trial designs. That finding does not prove that every component of Manacovid is pharmacologically inactive; it means the claimed COVID-19 benefit had been treated as established before adequate evidence supported it.
+proposition:
+  summary: >-
+    The Democratic Republic of the Congo authorized Manacovid for market release and publicly treated reported results
+    in 300 symptomatic SARS-CoV-2-positive patients as sufficient to present it as an effective, safe, and 100% curative
+    COVID-19 treatment before publicly documented randomized evidence had established a treatment effect.
+correction:
+  summary: >-
+    Becoming test-negative and experiencing symptom resolution in a treated patient series do not by themselves show
+    that a medicine caused recovery. The public reports of the 300 patients do not describe a randomized comparator,
+    baseline severity, prespecified outcomes, or a transparent statistical analysis, leaving natural recovery, timing
+    of testing, supportive treatment, and other differences as alternative explanations. A 2022 joint WHO, Africa CDC,
+    and African Union mission that reviewed Manacovid among several Congolese traditional therapeutics concluded that
+    the way the available data had been analyzed and presented had not generated the evidence needed to establish
+    efficacy and recommended stronger observational and randomized trials. That was a portfolio-level assessment, not
+    a negative product-specific randomized trial: it did not prove that Manacovid had no active ingredients or that it
+    was unsafe, but it did mean the advertised therapeutic effect remained unestablished.
 category: Medicine and public health
-reviewedAt: 2026-08-24
+reviewedAt: '2026-09-30'
 impact:
   summary: >-
-    The Democratic Republic of the Congo moved Manacovid beyond experimental investigation into authorized and publicly legitimized treatment. The product received market authorization in November 2020, state reporting publicized claims of 100% recovery among 300 treated patients, and the health minister described the reported results as conclusive and significant while promising ministry support so patients could obtain an effective and safe remedy. Yet in September 2021 the Council of Ministers was still calling for randomization of Manacovid, and a 2022 joint WHO/Africa CDC/African Union mission concluded that the existing data analysis had not generated evidence of efficacy.
+    Manacovid moved beyond an experimental candidate into authorized sale and official promotion. State reports said it
+    received market authorization on 24 November 2020, repeated a claim that all 300 treated symptomatic patients became
+    test-negative, and presented it as the first 100%-effective curative COVID-19 medicine. In January 2021 the health
+    minister called the reported results conclusive and significant and promised ministry support toward an effective
+    and safe remedy. Yet the Council of Ministers was still calling for randomization in September 2021, the joint expert
+    mission found the presented evidence insufficient in March 2022, and a government research bulletin said in 2023
+    that Manacovid was still awaiting scientific proof at the University of Kinshasa Faculty of Medicine.
   highlights:
-    - value: "24 Nov 2020"
-      label: Manacovid received authorization for market release as a COVID-19 treatment
-    - value: "300 patients"
-      label: Preliminary results were publicly presented as 100% recovery after treatment
-    - value: "2022"
-      label: WHO, Africa CDC and African Union experts said the analysed data had not generated evidence of efficacy
+    - value: 24 Nov 2020
+      label: Reported date of authorization for market release as a COVID-19 treatment
+    - value: 300 patients
+      label: Treated symptomatic patients publicly reported as all becoming test-negative
+      note: The public reports do not provide a comparator group or enough trial detail to attribute that outcome to Manacovid.
+    - value: '2023'
+      label: A government research bulletin said Manacovid was still awaiting scientific proof
   context:
     - >-
-      The evidentiary problem is the leap from promising or preliminary observations to an authorized treatment presented as effective. Medicinal plants can yield useful drugs, and the available evidence did not conclusively prove every component of Manacovid ineffective; it did show that efficacy had not been established at the level claimed.
+      The two authorization accounts are state-news reports, not the authorization certificate or a public clinical-study
+      report. They document what the ministry, developer, and national press agency represented publicly; they do not
+      independently verify the study design, individual outcomes, safety profile, or regulatory dossier.
     - >-
-      The 2022 joint expert review provided a high-authority external scientific correction to the efficacy claim. It did not document a formal withdrawal of Manacovid's Congolese market authorization.
+      The 2022 mission assessed a group of Congolese traditional COVID-19 therapeutics that included Manacovid. Its
+      evidence finding should not be misrepresented as the result of a Manacovid-only randomized trial or as proof that
+      every ingredient was inactive.
+    - >-
+      Manacovid does not appear by product or applicant name in ACOREP's public authorization register released in
+      February 2026, although that register lists five later CRPL products. Absence from this register does not establish
+      when or why the reported 2020 authorization expired, was withdrawn, or otherwise ceased to appear; no formal
+      Manacovid withdrawal decision was located.
 episodes:
-  - id: drc-2020-2022
+  - id: drc-2020-2023
     polity: Democratic Republic of the Congo
     region: Central Africa
     startYear: 2020
-    endYear: 2022
-    periodLabel: 2020–2022
+    endYear: 2023
+    periodLabel: 2020–2023
     strength: policy-basis
-    institutionTypes: [government, medical]
+    institutionTypes:
+      - government
+      - medical
     institutions:
-      - Ministry of Public Health, Hygiene and Prevention
-      - Direction de la Pharmacie et du Médicament
+      - Ministry of Public Health (later Ministry of Public Health, Hygiene and Prevention)
+      - Directorate of Pharmacy and Medicine
       - Council of Ministers of the Democratic Republic of the Congo
+      - Ministry of Scientific Research and Technological Innovation
+      - Congolese Press Agency (ACP)
     institutionalContext: >-
-      Manacovid received authorization for market release on 24 November 2020 after clinical work on 300 symptomatic SARS-CoV-2-positive patients was presented as yielding 100% recovery. In January 2021 the health minister, through the medicines directorate, characterized the reported results as conclusive and significant and promised support so COVID-19 patients could obtain an effective and safe remedy. The treatment nevertheless remained evidentially unsettled: in September 2021 the Council of Ministers called for continued randomization of Manacovid to support recognition as a COVID-19 treatment, and in March 2022 a joint WHO/Africa CDC/African Union expert mission found that the available analyses had not generated evidence of efficacy.
+      A December 2020 ACP report, relaying a communiqué from the private Luozi Pharmaceutical Research Centre, said that
+      Manacovid had been approved on 24 November after work in 300 symptomatic patients and that its protocol had ethics
+      approval. A January 2021 ACP report then quoted a health-minister letter calling the investigators' results
+      conclusive and significant, promising support through the medicines directorate, and looking to Manacovid as an
+      effective and safe remedy; the agency separately headlined it as the first 100%-effective curative medicine. In
+      September 2021 the cabinet called for continued randomization of Manacovid toward international recognition. The
+      health minister and other Congolese stakeholders received the joint expert mission's contrary evidentiary finding
+      in March 2022. A July 2023 bulletin of the National Scientific Council and research ministry reported the research
+      minister saying that Manacovid still awaited scientific proof at the University of Kinshasa.
     consequences:
-      - Market authorization for Manacovid as a COVID-19 treatment before randomized efficacy evidence was established
-      - State amplification of a 100% recovery claim from preliminary clinical results
-      - Health-ministry support that publicly framed the product as an effective and safe remedy
-      - Continued government pursuit of randomization after authorization and public promotion
+      - Authorization for market release and entry into the official pharmaceutical distribution environment
+      - State-news amplification of a 100% cure claim drawn from a reported 300-patient series
+      - Health-ministry support that publicly framed Manacovid as a prospective effective and safe remedy
+      - Cabinet-level pursuit of further randomization and international recognition after domestic authorization
+      - Continued evidentiary uncertainty acknowledged by government and international reviewers through 2023
     summary: >-
-      In late 2020 the Democratic Republic of the Congo authorized Manacovid for the market as a COVID-19 treatment after preliminary results involving 300 patients were presented as showing 100% recovery. The health minister subsequently described the findings as conclusive and significant and pledged institutional support. The government's own September 2021 cabinet minutes, however, still called for randomization of Manacovid. In March 2022 a joint WHO, Africa CDC and African Union expert mission reviewing Manacovid and other Congolese traditional therapeutics concluded that the data as analysed and presented had not generated evidence of efficacy and recommended stronger randomized-trial methods.
-    sources:
-      - title: Le ministre de la santé promet d’accompagner le pharmacien congolais géniteur du produit Manacovid lancé sur le marché
-        url: https://acp.cd/science-sante-environnement/le-ministre-de-la-sante-promet-daccompagner-le-pharmacien-congolais-geniteur-du-produit-manacovid-lance-sur-le-marche/
-        publisher: Agence Congolaise de Presse
-        note: >-
-          State news agency report reproducing the health minister's position that the reported clinical results were conclusive and significant, stating that Manacovid had been authorized for market release on 24 November 2020, and recording ministry support so patients could obtain an effective and safe remedy.
-      - title: Le MANACOVID, premier médicament curatif 100% efficace contre la COVID-19
-        url: https://acp.cd/nation/le-manacovid-premier-medicament-curatif-100-efficace-contre-la-covid-19/
-        publisher: Agence Congolaise de Presse
-        note: >-
-          State news agency report documenting the public claim of 100% recovery among 300 treated patients and the 24 November 2020 market authorization while presenting Manacovid as a fully effective curative medicine.
-      - title: Compte rendu de la vingtième réunion du Conseil des Ministres du 17 septembre 2021
-        url: https://www.primature.gouv.cd/wp-content/uploads/2021/09/COMPTE-RENDU-DE-LA-VINGTIEME-REUNION-DU-CONSEIL-DES-MINISTRES-du-17-septembre-2021.docx..pdf
-        publisher: Primature de la République Démocratique du Congo
-        note: >-
-          Official cabinet minutes state that efforts should continue in the randomization of Doubase C and Manacovid with a view to their international recognition as COVID-19 treatments, showing that randomized confirmation was still being pursued after Manacovid had already been authorized and publicly promoted.
-      - title: L’équipe conjointe d’experts (OMS, UA, CDC Afrique) salue les efforts de la République Démocratique du Congo en matière de recherche sur les traitements traditionnels de COVID19
-        url: https://www.afro.who.int/node/16000
-        publisher: World Health Organization Regional Office for Africa
-        note: >-
-          March 2022 report of the joint WHO, Africa CDC and African Union expert mission. It explicitly identifies Manacovid among the products reviewed, states that the way the data were analysed and presented had not generated evidence of efficacy, and recommends stronger observational and randomized clinical-trial designs.
+      The Democratic Republic of the Congo gave Manacovid regulatory and political legitimacy before its claimed benefit
+      had been demonstrated in a publicly documented randomized comparison. Authorization, a supportive ministerial
+      letter, and emphatic reporting by the national press agency turned an incompletely reported 300-patient result into
+      a marketable claim of safe and complete efficacy. Subsequent official actions reveal that the evidence remained
+      unsettled: the cabinet sought randomization, an invited international mission found that the data presentation for
+      the reviewed traditional therapeutics had not generated efficacy evidence, and the research minister later said
+      Manacovid was still awaiting scientific proof.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Reported health-ministry authorization, support through the medicines directorate, national-press promotion, and
+        cabinet sponsorship moved Manacovid from a privately developed candidate into the country's official treatment
+        environment while confirmatory randomization was still being pursued.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 2021–2023
+      action: The cabinet called for randomization, the government received a joint expert review that found the presented data insufficient, and the research minister later said Manacovid still awaited scientific proof.
+      summary: >-
+        Congolese institutions participated in a meaningful evidentiary correction by pursuing randomized evaluation,
+        hosting and receiving the 2022 expert mission, and later acknowledging that proof was still pending. The record
+        does not show a product-specific randomized result, a retraction of the ministerial efficacy framing, a formal
+        withdrawal decision, or an official account of how the reported 2020 authorization ended.
+sources:
+  - id: manacovid-acp-minister
+    title: Le ministre de la santé promet d’accompagner le pharmacien congolais géniteur du produit Manacovid lancé sur le marché
+    url: https://acp.cd/science-sante-environnement/le-ministre-de-la-sante-promet-daccompagner-le-pharmacien-congolais-geniteur-du-produit-manacovid-lance-sur-le-marche/
+    publisher: Agence Congolaise de Presse
+  - id: manacovid-acp-100-percent
+    title: Le MANACOVID, premier médicament curatif 100% efficace contre la COVID-19
+    url: https://acp.cd/nation/le-manacovid-premier-medicament-curatif-100-efficace-contre-la-covid-19/
+    publisher: Agence Congolaise de Presse
+  - id: manacovid-cabinet-2021
+    title: Compte rendu de la vingtième réunion du Conseil des Ministres du 17 septembre 2021
+    url: https://www.primature.gouv.cd/wp-content/uploads/2021/09/COMPTE-RENDU-DE-LA-VINGTIEME-REUNION-DU-CONSEIL-DES-MINISTRES-du-17-septembre-2021.docx..pdf
+    publisher: Primature de la République Démocratique du Congo
+  - id: manacovid-cabinet-2021-current
+    title: Compte rendu de la 20e réunion du Conseil des ministres du 17 septembre 2021
+    url: https://www.primature.gouv.cd/document/compte-rendu-de-la-20e-reunion-du-conseil-des-ministres-du-17-septembre-2021/
+    publisher: Primature de la République Démocratique du Congo
+  - id: manacovid-who-mission-2022
+    title: L’équipe conjointe d’experts (OMS, UA, CDC Afrique) salue les efforts de la République Démocratique du Congo en matière de recherche sur les traitements traditionnels de COVID19
+    url: https://www.afro.who.int/node/16000
+    publisher: World Health Organization Regional Office for Africa
+  - id: manacovid-acp-homologation
+    title: Homologation en RDC d’un médicament anticovid dénommé « Manacovid »
+    url: https://acp.cd/a-la-une/homologation-en-rdc-dun-medicament-anticovid-denomme-manacovid/
+    publisher: Agence Congolaise de Presse
+  - id: manacovid-who-phase-three-protocol
+    title: Expert panel endorses protocol for COVID-19 herbal medicine clinical trials
+    url: https://www.afro.who.int/news/expert-panel-endorses-protocol-covid-19-herbal-medicine-clinical-trials
+    publisher: World Health Organization Regional Office for Africa
+  - id: manacovid-csn-bulletin-2023
+    title: Bulletin Sciences et Innovations Technologiques — N°009, juillet 2023
+    url: https://csnrdc.net/wp-content/uploads/2023/08/BULLETIN-Juillet-9e-Edition-Light-02-08-2023-1.pdf
+    publisher: National Scientific Council, Ministry of Scientific Research and Technological Innovation
+  - id: manacovid-acorep-register-2026
+    title: Répertoire des Autorisations de Mise sur le Marché
+    url: https://acorep.gouv.cd/download/292/repectoire_amm/4294/repectoire-des-autorisations-de-mise-sur-le-marche.pdf
+    publisher: Congolese Pharmaceutical Regulatory Authority (ACOREP)
+evidence:
+  - id: manacovid-minister-proposition
+    sourceId: manacovid-acp-minister
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: 12 January 2021 report, paras. 1–6
+    note: >-
+      The state news agency quotes the health minister's letter describing the investigators' results as conclusive and
+      significant, promising directorate support so patients could find an effective and safe remedy, and stating that
+      the ministry had authorized market release on 24 November 2020.
+  - id: manacovid-claim-proposition
+    sourceId: manacovid-acp-100-percent
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Headline and opening three paragraphs
+    note: >-
+      ACP called Manacovid the first 100%-effective curative COVID-19 medicine, said it had been launched on the market,
+      and attributed a 100% recovery result in 300 patients to the principal investigator.
+  - id: manacovid-homologation-impact
+    sourceId: manacovid-acp-homologation
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: 15 December 2020 report, paras. 1–6
+    note: >-
+      Relaying a CRPL communiqué, ACP reports approval on 24 November 2020, 300 symptomatic positive cases becoming
+      negative with symptom disappearance within five days, protocol approval by the national ethics committee, and
+      clinical work conducted from June through October. It is evidence of the public account, not an independent audit
+      of the study or the underlying authorization certificate.
+  - id: manacovid-mission-correction
+    sourceId: manacovid-who-mission-2022
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: 31 March 2022 statement, paras. 2–13
+    note: >-
+      The mission explicitly includes Manacovid among several products reviewed and says the way the data were analyzed
+      and presented did not generate evidence of efficacy. Because the finding covers the reviewed portfolio, it is not
+      treated here as a product-specific negative trial.
+  - id: manacovid-trial-standard-correction
+    sourceId: manacovid-who-phase-three-protocol
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: 19 September 2020 release, paras. 1–8
+    note: >-
+      The contemporaneous regional expert committee describes Phase III trials and independent data-safety monitoring
+      as pivotal to establishing the quality, safety, and efficacy of herbal medical products before recommendation.
+  - id: manacovid-minister-impact
+    sourceId: manacovid-acp-minister
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: 12 January 2021 report, quoted ministerial letter and final three paragraphs
+    note: >-
+      Records both the ministry's supportive framing and the public account that all 300 symptomatic positive patients
+      became test-negative after Manacovid, while mentioning antitussive or antipyretic treatment for residual symptoms.
+  - id: manacovid-ministry-carrier
+    sourceId: manacovid-acp-minister
+    relation: documents
+    target: {scope: episode, episodeId: drc-2020-2023, aspect: carrier}
+    locator: Quoted letter from Health Minister Eteni Longondo
+    note: >-
+      Connects the efficacy framing to the health minister and Directorate of Pharmacy and Medicine rather than only to
+      the private product developer.
+  - id: manacovid-acp-carrier
+    sourceId: manacovid-acp-100-percent
+    relation: documents
+    target: {scope: episode, episodeId: drc-2020-2023, aspect: carrier}
+    locator: Headline and opening paragraphs
+    note: >-
+      Documents amplification by the national press agency through an unqualified 100%-effective cure headline and
+      announcement that the product had entered the market.
+  - id: manacovid-homologation-mechanism
+    sourceId: manacovid-acp-homologation
+    relation: documents
+    target: {scope: episode, episodeId: drc-2020-2023, aspect: mechanism}
+    locator: 15 December 2020 report, paras. 1–6
+    note: >-
+      Describes the reported authorization and the sequence from government selection for trials through ethics approval,
+      clinical work, and entry into the pharmaceutical market.
+  - id: manacovid-cabinet-mechanism
+    sourceId: manacovid-cabinet-2021
+    relation: documents
+    target: {scope: episode, episodeId: drc-2020-2023, aspect: mechanism}
+    locator: Section II.3, p. 6
+    note: >-
+      Official cabinet minutes place Manacovid on the national research agenda by calling for continued randomization
+      toward international recognition as a COVID-19 treatment.
+  - id: manacovid-public-consequences
+    sourceId: manacovid-acp-100-percent
+    relation: documents
+    target: {scope: episode, episodeId: drc-2020-2023, aspect: consequences}
+    locator: Headline and opening three paragraphs
+  - id: manacovid-cabinet-partial-correction
+    sourceId: manacovid-cabinet-2021-current
+    relation: documents
+    target: {scope: episode, episodeId: drc-2020-2023, aspect: institutional-correction}
+    locator: Section II.3, p. 6
+    note: >-
+      The current official archive page supplies an accessible copy of the minutes. Their call for randomization shows
+      that confirmatory evidence was still being pursued after domestic authorization; the minutes frame that work as a
+      route to international recognition rather than retracting the domestic claims.
+  - id: manacovid-mission-partial-correction
+    sourceId: manacovid-who-mission-2022
+    relation: documents
+    target: {scope: episode, episodeId: drc-2020-2023, aspect: institutional-correction}
+    locator: 31 March 2022 statement, paras. 2–13
+    note: >-
+      Records restitution of the mission's findings to the health minister and other stakeholders, continued technical
+      assistance, and recommendations for stronger observational and randomized protocols and regulatory oversight.
+  - id: manacovid-research-ministry-correction
+    sourceId: manacovid-csn-bulletin-2023
+    relation: documents
+    target: {scope: episode, episodeId: drc-2020-2023, aspect: institutional-correction}
+    locator: Bulletin p. 3, report of the research minister's June 2023 press conference
+    note: >-
+      The ministry and National Scientific Council bulletin reports Research Minister Gilbert Kabanda saying Manacovid
+      was awaiting scientific proof at the University of Kinshasa Faculty of Medicine, an official acknowledgment that
+      the efficacy question remained unresolved.
+  - id: manacovid-register-context
+    sourceId: manacovid-acorep-register-2026
+    relation: contextualizes
+    target: {scope: episode, episodeId: drc-2020-2023, aspect: context}
+    locator: Entire register; CRPL entries 5358–5361 and 5469
+    note: >-
+      The register released on 4 February 2026 contains no Manacovid or COVID treatment entry under CRPL, while listing
+      five CRPL registrations issued in 2025 for Manalaria, Manadiar, and EVA. A missing entry cannot establish the legal
+      route or date by which the reported 2020 authorization ended, so it is not treated as proof of formal withdrawal.

@@ -1,111 +1,357 @@
+schemaVersion: 2
 locale: de
 entryId: lobotomy-psychiatric-treatment
-sourceReviewedAt: '2026-08-24'
+sourceReviewedAt: '2026-09-29'
 title: Lobotomie als wirksame psychiatrische Behandlung
-claim: Das Durchtrennen oder Zerstören von Verbindungen im Frontallappen wurde als therapeutisch wirksam genug behandelt,
-  um die Lobotomie als reguläre institutionelle Therapie bei Schizophrenie und anderen schweren psychiatrischen
-  oder verhaltensbezogenen Zuständen zu rechtfertigen.
-currentUnderstanding: Die großflächigen präfrontalen und transorbitalen Lobotomien des 20. Jahrhunderts waren durch
-  die Evidenz nicht ausreichend gerechtfertigt, um ihren breiten und irreversiblen Einsatz zu tragen. Frühe Erfolgsangaben
-  beruhten stark auf unkontrollierten Fallserien und auf Kriterien wie geringerer Unruhe oder leichterer institutioneller
-  Betreuung. Die Ergebnisse waren uneinheitlich; zu den schweren Schäden gehörten Persönlichkeits- und kognitive
-  Veränderungen, Apathie oder Enthemmung, Krampfanfälle, neurologische Schäden und Tod. Manche Patientinnen und
-  Patienten wurden als gebessert beschrieben, doch dies belegte nicht, dass große destruktive Frontallappenläsionen
-  eine spezifische oder verhältnismäßige Therapie waren. Moderne psychiatrische Neurochirurgie arbeitet wesentlich
-  gezielter bei seltenen, streng ausgewählten therapieresistenten Erkrankungen und ist nicht mit der historischen
-  Lobotomie gleichzusetzen.
+proposition:
+  summary: >-
+    Großflächige präfrontale oder transorbitale Eingriffe, die Verbindungen der Frontallappen durchtrennten, galten als
+    therapeutisch wirksam genug, um ihren institutionellen Einsatz bei Schizophrenie, schweren Psychosen und schwierigem
+    Verhalten in psychiatrischen Kliniken zu rechtfertigen. Staatliche Gesundheitssysteme genehmigten und vollzogen die
+    Eingriffe; der Nobelpreis von 1949 verlieh dem behaupteten therapeutischen Wert der Leukotomie eine besonders
+    prominente fachliche Anerkennung.
+correction:
+  summary: >-
+    Die Evidenz trägt die klassische präfrontale oder transorbitale Lobotomie nicht als allgemein wirksame und vertretbar
+    sichere psychiatrische Routinebehandlung. Historische Bewertungen stützten sich stark auf Fallberichte und
+    unkontrollierte Serien, verwendeten Kriterien wie geringere Unruhe oder leichtere Stationsführung und trennten
+    Symptomlinderung, Entlassung und selbstständige Lebensführung nicht durchgängig. Die ungewöhnlich systematische
+    Vergleichsstudie der Veterans Administration fand im Durchschnitt gewisse Besserungen und nach drei und vier Jahren
+    höhere Entlassungsraten. Die Zuteilung war jedoch nicht streng randomisiert, die Operationsmethoden unterschieden
+    sich, spätere Arzneibehandlung verzerrte die Nachbeobachtung, und nach fünf Jahren waren die Gruppenunterschiede
+    geschrumpft. Solche begrenzten Befunde konnten kein günstiges Nutzen-Schaden-Verhältnis für große irreversible
+    Hirnläsionen belegen, die mit Apathie, Enthemmung, kognitiven und Persönlichkeitsveränderungen, Krampfanfällen,
+    Blutungen, Pflegeabhängigkeit und Tod verbunden waren. Moderne psychiatrische Neurochirurgie nutzt kleine
+    stereotaktische Läsionen oder Neuromodulation nur bei seltenen, streng ausgewählten therapieresistenten Erkrankungen
+    unter Einwilligung und fachlicher Kontrolle. Sie ist nicht mit der klassischen Lobotomie gleichzusetzen; die Evidenz
+    unterscheidet sich je nach Diagnose und Verfahren.
 impact:
-  summary: Die Lobotomie entwickelte sich von einem experimentellen Eingriff zu einer Behandlung in staatlichen
-    Krankenhäusern und nationalen Psychiatriesystemen, obwohl die Wirksamkeit unsicher und die neurologischen Schäden
-    irreversibel waren. Die institutionelle Anerkennung reichte von staatlichen Kliniken und der US-Veteranenverwaltung
-    bis zum Nobelpreis von 1949 für den behaupteten therapeutischen Wert der Leukotomie. In mehreren Systemen galt
-    auch eine bessere Beherrschbarkeit schwer gestörter Anstaltspatienten als Erfolg.
+  summary: >-
+    Die Lobotomie gelangte aus dem Versuchsstadium in bundesstaatliche und staatliche Kliniksysteme, obwohl ihr
+    tatsächlicher Nutzen weiter unsicher war. Bis Juni 1950 waren 47 Kliniken der US-Veteranenverwaltung für
+    Lobotomieprogramme zugelassen, und mehr als 1.400 VA-Patienten waren operiert worden. Schwedische Unterlagen weisen
+    landesweit rund 4.500 Eingriffe aus; allein das staatliche psychiatrische Krankenhaus Umedalen führte 771 durch, nach
+    denen 57 Menschen starben. Norwegen dokumentierte später irreversible Persönlichkeitsveränderungen, Epilepsie und
+    Todesfälle, als es eine allgemeine Entschädigungsregelung schuf. Der Nobelpreis verstärkte während dieser Ausweitung
+    das wissenschaftliche Ansehen der Behandlung.
   highlights:
-  - value: '1949'
-    label: Nobelpreis für den behaupteten therapeutischen Wert der Leukotomie bei bestimmten Psychosen
-  - value: 47 VA-Kliniken
-    label: waren bis Juni 1950 in den USA für Lobotomieprogramme zugelassen
-  - value: ≈4.500
-    label: Menschen wurden während der schwedischen Lobotomieära operiert
+    - value: '1949'
+      label: Nobelpreis für den behaupteten therapeutischen Wert der Leukotomie bei bestimmten Psychosen
+    - value: 47 VA-Kliniken
+      label: waren bis zum 30. Juni 1950 für Lobotomieprogramme zugelassen
+    - value: ≈4.500
+      label: dokumentierte Lobotomien in Schweden während der Psychosurgieära des 20. Jahrhunderts
   context:
-  - Der historische Irrtum betrifft die großflächigen destruktiven Lobotomieverfahren der 1930er bis 1970er Jahre.
-    Moderne stereotaktische und neuromodulatorische psychiatrische Neurochirurgie verwendet andere Techniken,
-    Indikationen und Evidenz und ist nicht mit der historischen Lobotomie gleichzusetzen.
-  - Berichte über Besserungen einzelner lobotomierter Patientinnen und Patienten belegen keine allgemeine Wirksamkeit.
-    Institutionen werteten geringere Unruhe, Aggression, Entlassung oder leichtere Stationsführung häufig als
-    therapeutischen Erfolg. Diese Ergebnisse müssen gegen irreversible Veränderungen von Kognition, Antrieb und
-    Persönlichkeit sowie gegen die schwache Kontrolle vieler damaliger Studien abgewogen werden.
+    - >-
+      Die Korrektur betrifft die großflächigen destruktiven Eingriffe, die gewöhnlich präfrontale oder transorbitale
+      Lobotomie genannt werden. Heutige stereotaktische Ablation und tiefe Hirnstimulation verwenden andere Zielgebiete,
+      Techniken, Auswahlregeln und Kontrollen. Ihre engen modernen Indikationen rehabilitieren die klassische Lobotomie
+      nicht; zugleich dürfen diese Verfahren nicht allein wegen der historischen Verbindung verworfen werden.
+    - >-
+      Bei manchen Patientinnen und Patienten wurden Besserungen berichtet, und der VA-Vergleich fand vorübergehend einen
+      durchschnittlichen Vorteil. Der historische Fehler bestand darin, solche Befunde trotz schwacher Zuteilung,
+      verschiedener Operationsmethoden, uneinheitlicher Ergebnisse und schwerer Schäden als hinreichende Grundlage für
+      breiten irreversiblen Einsatz zu behandeln. Weniger Unruhe oder leichtere Betreuung bedeuteten nicht notwendig eine
+      Genesung der behandelten Person.
+    - >-
+      Schwere psychische Erkrankungen waren belastend, Kliniken überfüllt und wirksame Alternativen knapp, als sich die
+      Lobotomie verbreitete. Diese Umstände erklären die Suche nach drastischen Therapien, belegen für sich aber weder
+      Wirksamkeit und verhältnismäßiges Risiko noch eine gültige Einwilligung.
+    - >-
+      Der Frauenanteil von 61,2 % in der Umeå-Dissertation bezieht sich auf die 771 über Umedalen operierten Personen; die
+      landesweite Schätzung beträgt rund 4.500 Eingriffe. Ein Abgeordnetenantrag von 2006 wiederholte weiter reichende
+      Prozentangaben zu Geschlecht und Diagnose. Das Parlament lehnte jedoch alle drei Forderungen nach Untersuchung,
+      Folgenbewertung und Entschädigungsprüfung ab; sie werden hier nicht als beschlossene Parlamentsfeststellungen
+      behandelt.
 episodes:
-- id: united-states-va-1944-1960
-  polity: Vereinigte Staaten — Veterans Administration
-  institutions:
-  - United States Veterans Administration
-  - Neuropsychiatrische Kliniken der Veterans Administration
-  institutionalContext: Die Veterans Administration institutionalisierte die Frontallobotomie in ihrem psychiatrischen
-    System während und nach dem Zweiten Weltkrieg. Der Jahresbericht 1944 dokumentierte spezielle ärztliche Ausbildung
-    und die Einführung der präfrontalen Lobotomie an mehreren Kliniken. Bis Juni 1950 waren 47 VA-Kliniken für Lobotomieprogramme
-    zugelassen und mehr als 1.400 psychiatrische VA-Patienten operiert worden, überwiegend Menschen mit chronischer
-    Schizophreniediagnose. Gleichzeitig startete die Behörde eine kooperative Studie, weil die tatsächliche Wirksamkeit
-    weiterhin unsicher war. Das Forschungsprogramm lief in den 1950er Jahren weiter, während Psychopharmaka die
-    Lobotomie zunehmend verdrängten.
-  summary: Die US-Veteranenverwaltung übernahm die präfrontale Lobotomie während und nach dem Zweiten Weltkrieg
-    als Behandlung schwerer psychischer Erkrankungen. 1950 waren Programme an 47 Kliniken zugelassen und mehr als
-    1.400 Veteranen operiert worden. Die Behörde bezeichnete den Eingriff als geeignete Behandlung ausgewählter
-    Fälle, obwohl eigene Forschende bereits festgestellt hatten, dass behauptete Vorteile sich nicht klar in Entlassung
-    oder selbstständigem Leben widerspiegelten. Deshalb wurde eine vergleichende Mehrklinikstudie durchgeführt.
-    Gegen Ende der 1950er Jahre verlor das Massenprogramm mit dem Aufstieg der Psychopharmakologie und strengeren
-    Kontrollen seine Grundlage.
-  consequences:
-  - Irreversible Hirnoperationen an hospitalisierten Veteranen mit psychiatrischen Diagnosen
-  - Großflächige institutionelle Anwendung in Dutzenden Bundeskliniken
-  - Persönlichkeits- und Verhaltensänderungen teilweise als therapeutischer Erfolg bewertet
-  - Risiko von Krampfanfällen, neurologischen Schäden, Abhängigkeit und Tod
-  - Fortgesetzte klinische Nutzung, während das System noch untersuchte, welche Patienten überhaupt profitierten
-- id: sweden-1944-1964
-  polity: Schweden
-  institutions:
-  - Medicinalstyrelsen (Schwedische Gesundheitsbehörde)
-  - Umedalens sjukhus
-  - Sidsjöns sjukhus
-  - Schwedisches System staatlicher psychiatrischer Krankenhäuser
-  institutionalContext: Schwedische Neurochirurgen und Psychiater begannen 1944 mit präfrontalen Lobotomien. Die
-    staatlichen psychiatrischen Kliniken Umedalen und Sidsjön führten die Methode 1946–1947 in großem Umfang ein;
-    anschließend verbreitete sie sich landesweit, wobei ärztliche Klinikleiter von der staatlichen Gesundheitsverwaltung
-    weitgehende Autonomie erhielten. Historische Forschung schätzt rund 4.500 schwedische Lobotomien. Frauen stellten
-    die Mehrheit, Schizophrenie war die häufigste Diagnose. In Umedalen wurden 1947–1958 insgesamt 771 Lobotomien
-    mit einer postoperativen Mortalität von 7,4 % durchgeführt. 1949 verstärkte der Nobelpreis an Egas Moniz für
-    den therapeutischen Wert der Leukotomie die internationale fachliche Anerkennung.
-  summary: Schweden übernahm die Lobotomie nach ihrer Einführung 1944 rasch, darunter große Programme in den staatlichen
-    psychiatrischen Kliniken Umedalen und Sidsjön. Insgesamt wurden ungefähr 4.500 Menschen lobotomiert, am häufigsten
-    wegen Schizophrenie, während die staatliche Gesundheitsbehörde die konkrete Durchführung weitgehend den Klinikleitern
-    überließ – auch dort, wo die Mortalität hoch war. Allein Umedalen führte 771 Eingriffe mit 7,4 % postoperativer
-    Mortalität durch. In den 1950er Jahren ging die Nutzung zurück, hielt sich jedoch bis in die frühen 1960er Jahre.
-  consequences:
-  - Tausende irreversible psychoschirurgische Eingriffe in psychiatrischen Einrichtungen
-  - Überproportional hoher Anteil von Frauen unter den Operierten
-  - Erhebliche postoperative Mortalität in einzelnen staatlichen Kliniken
-  - Lobotomien durch Allgemeinchirurgen auch in Häusern ohne spezialisierte Neurochirurgie
-  - Persönlichkeitsveränderung und Verhaltensberuhigung konnten als Behandlungserfolg gewertet werden
-- id: norway-1941-1974
-  polity: Norwegen
-  institutions:
-  - Norwegische psychiatrische Krankenhäuser
-  - Gaustad sykehus
-  - Norwegische Gesundheitsbehörden
-  institutionalContext: 'Norwegische psychiatrische Kliniken begannen 1941 am Gaustad-Krankenhaus mit Lobotomien;
-    in den folgenden Jahren verbreitete sich die Methode auf die meisten Krankenhäuser und blieb bis in die 1970er
-    Jahre in Gebrauch. Die späteren staatlichen Entschädigungsakten zeigen auch den damaligen Einwilligungsrahmen
-    ungewöhnlich klar: Eine ausdrückliche Zustimmung des Patienten, Vormunds oder der Angehörigen war nach den damaligen
-    Regeln nicht zwingend erforderlich. In den 1990er Jahren untersuchte Norwegen die Praxis landesweit und richtete
-    eine allgemeine Entschädigungsregelung für alle nachweislich zwischen 1941 und 1974 lobotomierten Personen ein.'
-  summary: Norwegen setzte Lobotomien in psychiatrischen Krankenhäusern von 1941 bis 1974 ein. Spätere staatliche
-    Untersuchungen hielten fest, dass der Eingriff damals vom Fach als vertretbar angesehen worden war, obwohl er
-    irreversible Folgen, Persönlichkeitsveränderungen, Epilepsie und Todesfälle verursachte und ohne heutige Einwilligungsstandards
-    vorgenommen werden konnte. Nach einer nationalen Untersuchung schuf die Regierung eine allgemeine Entschädigungsregelung
-    für Betroffene.
-  consequences:
-  - Irreversible Psychoschirurgie ohne heutigen Einwilligungsstandard
-  - Persönlichkeitsveränderungen sowie kognitive oder funktionelle Beeinträchtigungen
-  - Erhöhtes Risiko für Epilepsie und andere neurologische Folgeschäden
-  - Mit dem Eingriff verbundene Todesfälle
-  - Spätere landesweite staatliche Entschädigung für überlebende Betroffene
+  - id: united-states-va-1944-1960
+    polity: Vereinigte Staaten — Veterans Administration
+    periodLabel: Zweiter Weltkrieg–ca. 1960
+    institutions:
+      - United States Veterans Administration
+      - Neuropsychiatrische Kliniken der Veterans Administration
+    institutionalContext: >-
+      Die Veterans Administration integrierte die Frontallobotomie in ihr psychiatrisches System während und nach dem
+      Zweiten Weltkrieg. Ihr Bericht für das Haushaltsjahr 1950 bezeichnete den Eingriff in ausgewählten Fällen als
+      geeignete Behandlung, nannte mehr als 1.400 operierte Patienten – überwiegend Menschen mit der Diagnose chronische
+      Schizophrenie – und führte 47 für Programme zugelassene Kliniken auf. Eine interne Auswertung von rund 1.500 Fällen
+      hatte 1949 jedoch ergeben, dass angenommene Vorteile sich bei Entlassung sowie sozialer und wirtschaftlicher
+      Selbstständigkeit nicht ebenso deutlich zeigten. Die VA organisierte deshalb einen Vergleich an sechs Kliniken mit
+      188 Operierten und 185 Kontrollen. Viele Kontrollen kamen zustande, weil Familien den Eingriff ablehnten; die
+      Operateure wählten zwischen vier Verfahren, und der zunehmende Einsatz von Psychopharmaka erschwerte spätere
+      Vergleiche.
+    consequences:
+      - Irreversible Eingriffe am Frontalhirn hospitalisierter Veteranen mit psychiatrischen Diagnosen
+      - Programmzulassung an 47 Bundeskliniken und mehr als 1.400 Operationen bis Juni 1950
+      - Verhaltensberuhigung und leichtere institutionelle Betreuung als angenommene Behandlungsvorteile
+      - Risiko von Blutungen, Krampfanfällen, kognitiven und Persönlichkeitsveränderungen, Abhängigkeit und Tod
+      - Fortgesetzte Operationen, während das Bundessystem noch zu klären versuchte, wer davon profitierte
+    summary: >-
+      Die VA gab der Lobotomie in Dutzenden Bundeskliniken eine administrative Grundlage, bevor verlässliche
+      Vergleichsevidenz vorlag. Ihre eigenen Forschenden bauten danach eine der systematischeren Studien jener Zeit auf.
+      Sie fand im Durchschnitt eine gewisse Besserung und zwischenzeitlich höhere Entlassungsraten; die nicht strenge
+      Zuteilung, gemischte Operationsverfahren und zunehmende Arzneibehandlung begrenzten jedoch die Aussagekraft. Die
+      spätere VA-Geschichte nennt die Schlussfolgerungen wenig eindrucksvoll. Mit Antipsychotika und besseren
+      Bewertungsmethoden verlor das Programm an Bedeutung, ohne dass ein einzelnes VA-Verbot oder ein formeller Widerruf
+      dokumentiert ist.
+    mechanism:
+      summary: >-
+        Das Bundessystem genehmigte Klinikprogramme, wählte Patienten aus, bildete und koordinierte Personal und behandelte
+        die Lobotomie in ausgewählten Fällen als geeignet, während es eine Mehrklinikenstudie zu den Ergebnissen
+        durchführte.
+    institutionalCorrection:
+      periodLabel: 1949–1960er Jahre
+      action: >-
+        Die VA unterzog ihr Programm einem Vergleich an sechs Kliniken und verlagerte den Schwerpunkt auf evaluierte
+        Psychopharmakologie, als sich die Lobotomiebefunde als begrenzt und schwer deutbar erwiesen.
+      summary: >-
+        Die VA erzeugte eine kritische interne Evidenzgrundlage und bezeichnete die Ergebnisse später als wenig
+        eindrucksvoll sowie den Eingriff als weniger wirksam als ursprünglich angenommen. Die klinische Anwendung ging
+        zurück; die geprüften Quellen zeigen jedoch keinen formellen VA-Widerruf, keine Entschuldigung und kein
+        Entschädigungsprogramm für operierte Veteranen.
+  - id: sweden-1944-1964
+    polity: Schweden
+    periodLabel: 1944–1964
+    institutions:
+      - Medicinalstyrelsen (Schwedische Gesundheitsbehörde)
+      - Umedalens sjukhus
+      - Sidsjöns sjukhus
+      - Schwedisches System staatlicher psychiatrischer Krankenhäuser
+    institutionalContext: >-
+      Schwedische Neurochirurgen und Psychiater begannen 1944 mit präfrontalen Lobotomien. Die staatlichen psychiatrischen
+      Kliniken Sidsjön und Umedalen führten sie 1946 und 1947 in großem Umfang ein; danach verbreitete sich die Praxis im
+      Kliniksystem. Die Medicinalstyrelsen beaufsichtigte die Psychiatrie und erhielt Jahresberichte, ließ den ärztlichen
+      Klinikleitern aber weitgehende Autonomie. Die historische Untersuchung fand keinen erheblichen zentralen Eingriff
+      zur Begrenzung der Lobotomie. Viele Kliniken beschäftigten Allgemeinchirurgen statt Neurochirurgen. Bis 1964 wurden
+      mehr als 4.000 Eingriffe erfasst; für 1944 bis 1960 liegt die landesweite Schätzung bei etwa 4.500.
+    consequences:
+      - Tausende irreversible psychoschirurgische Eingriffe an Menschen in psychiatrischen Einrichtungen
+      - In Umedalen 771 Operationen von 1947 bis 1958 und 57 postoperative Todesfälle, insgesamt etwa 7,4 % Mortalität
+      - Frauen stellten 61,2 % der in Umedalen Operierten; Schizophrenie war dort die vorherrschende Diagnose
+      - Operationen durch Allgemeinchirurgen in Kliniken ohne spezialisierte neurochirurgische Ausstattung
+      - Schwache Patientenautonomie; in der detailliert untersuchten Umedalen-Stichprobe fehlten bei der Mehrheit Einwilligungsformulare
+    summary: >-
+      Schwedens staatliche Psychiatrie übernahm die Lobotomie rasch und überließ die Ausgestaltung lokalen Klinikleitern,
+      auch bei schwacher fachlicher Ausstattung und hoher früher Mortalität. Umedalen und Sidsjön stellten zusammen 28 %
+      der landesweiten Eingriffe. Noch vor 1950 begann die Verdrängung des Verfahrens durch gezieltere Methoden; in
+      peripheren Kliniken hielten sich präfrontale Eingriffe jedoch weiter, und Psychosurgie wurde bis in die 1960er Jahre
+      eingesetzt.
+    mechanism:
+      summary: >-
+        Klinikleiter nutzten ihre delegierte klinische Autonomie, um Patientinnen und Patienten zur Lobotomie zuzuweisen
+        und lokale Allgemeinchirurgen einzusetzen, während die nationale Aufsichtsbehörde die Kliniken kontrollierte, ohne
+        das Programm wesentlich zu begrenzen.
+    institutionalCorrection:
+      periodLabel: 1950er Jahre–1964; Parlamentsantrag 2007 abgelehnt
+      action: >-
+        Die klassische präfrontale Lobotomie wurde schrittweise aufgegeben und beendet; später lehnte das Parlament einen
+        Abgeordnetenantrag auf landesweite Erfassung, Folgenbewertung und Entschädigungsprüfung ab.
+      summary: >-
+        Die Aufgabe des Eingriffs korrigierte die klinische Praxis, und universitäre Forschung dokumentierte später
+        Ausmaß, Mortalität, Einwilligungsdefizite und schwache Aufsicht. Die geprüften Quellen zeigen keine landesweite
+        institutionelle Zurückweisung oder Entschädigungsregelung nach norwegischem Vorbild. Sowohl Ausschuss als auch
+        Kammer lehnten alle drei Forderungen des Antrags 2006/07 ab.
+  - id: karolinska-nobel-1949-2026
+    polity: Schweden — Karolinska-Institut und Nobelpreis
+    periodLabel: 1949–heute
+    institutions:
+      - Professorenkollegium des Karolinska-Instituts (preisverleihendes Organ 1949)
+      - Nobel Committee for Physiology or Medicine
+      - Nobel Assembly at Karolinska Institutet (seit 1977)
+      - Nobelpreis für Physiologie oder Medizin
+    institutionalContext: >-
+      1949 verlieh das Professorenkollegium des Karolinska-Instituts Egas Moniz die Hälfte des Nobelpreises für
+      Physiologie oder Medizin für das, was die Preisbegründung den „therapeutischen Wert der Leukotomie bei bestimmten
+      Psychosen“ nannte. Das Nobelkomitee erledigte die Auswahlarbeit; die eigenständige Nobelversammlung wurde erst 1977
+      eingerichtet. Der Preis schuf keine Klinikpolitik, verlieh der Wirksamkeitsbehauptung aber außergewöhnliches
+      wissenschaftliches Ansehen, während sich die Lobotomie in psychiatrischen Systemen ausbreitete. Der amtliche
+      Preiseintrag gibt diese Begründung bis heute wieder. Heutiges historisches Nobel-Material führt die Auszeichnung für
+      Moniz außerdem als Beispiel in Debatten über Fehlentscheidungen an, beschreibt die Lobotomie als überholt und heute
+      offenbar unethisch und erkennt schwere Persönlichkeitsveränderungen an.
+    consequences:
+      - Internationales wissenschaftliches Ansehen für den behaupteten therapeutischen Wert der Leukotomie
+      - Stärkung des fachlichen Vertrauens während der raschen Ausweitung des Verfahrens
+      - Dauerhafter amtlicher Preiseintrag, der die ursprüngliche Wirksamkeitsformulierung weiterhin wiedergibt
+      - Spätere Notwendigkeit, die Auszeichnung angesichts schwerer Schäden und veränderter Evidenz einzuordnen
+    summary: >-
+      Der Nobelpreis war eine eigenständige fachliche Anerkennung durch das Karolinska-Institut und kein Bestandteil der
+      schwedischen Krankenhausverwaltung. Seine Begründung von 1949 formulierte die strittige therapeutische Behauptung
+      direkt und verlieh ihr weltweite Autorität. Heutige Nobel-Seiten erkennen schwere Persönlichkeitsveränderungen, das
+      Ende der Methode und ihre grundlegend veränderte Bewertung an, behalten aber die historische Auszeichnung und ihre
+      ursprüngliche Begründung bei.
+    mechanism:
+      summary: >-
+        Der Preis ehrte Moniz ausdrücklich für den behaupteten therapeutischen Wert der Leukotomie und verband damit
+        Autorität und Sichtbarkeit der Nobel-Institution mit der Wirksamkeitsbehauptung.
+    institutionalCorrection:
+      periodLabel: 2000–heute
+      action: >-
+        Amtliche historische und biografische Nobel-Seiten behandeln die Auszeichnung heute kritisch, erkennen schwere
+        Persönlichkeitsveränderungen an und beschreiben die Lobotomie als überholt und nach heutigen Maßstäben offenbar
+        unethisch.
+      summary: >-
+        Das heutige Nobel-Bildungsmaterial liefert eine ausdrückliche kritische Einordnung. Die Preisseite dokumentiert
+        die Auszeichnung jedoch weiterhin und wiederholt die ursprüngliche Begründung des „therapeutischen Werts“. Die
+        institutionelle Korrektur besteht daher in Kontextualisierung und nicht in einem Widerruf der Anerkennung.
+  - id: norway-1941-1974
+    polity: Norwegen
+    periodLabel: 1941–1974
+    institutions:
+      - Norwegische psychiatrische Krankenhäuser
+      - Gaustad sykehus
+      - Norwegische Gesundheitsbehörden
+    institutionalContext: >-
+      Die Lobotomie begann 1941 am Gaustad-Krankenhaus und verbreitete sich in den folgenden Jahren auf die meisten
+      norwegischen psychiatrischen Kliniken. Nach Einführung von Antipsychotika nahm die Nutzung ab und endete in den
+      1970er Jahren; der spätere Entschädigungsrahmen verwendete 1941 bis 1974 als Zeitraum. Staatliche Fallakten halten
+      außerdem fest, dass nach dem damaligen Rahmen weder die Zustimmung der behandelten Person noch eine ausdrückliche
+      Zustimmung von Vormund oder Angehörigen zwingend erforderlich war. Ein 1991 eingesetzter Untersuchungsausschuss
+      prüfte die Praxis; anschließend schufen Regierung und Parlament sowohl individuelle Entschädigungswege als auch
+      eine allgemeine Zahlung für nachweislich Betroffene.
+    consequences:
+      - Irreversible Psychosurgie ohne modernen Standard der informierten Einwilligung
+      - Allgemeine Persönlichkeitsveränderungen sowie kognitive oder funktionelle Beeinträchtigungen
+      - Erhöhtes Risiko für Epilepsie und andere neurologische Folgeschäden
+      - Mit dem Eingriff verbundene Todesfälle
+      - Allgemeine Entschädigung von 100.000 NOK an 447 nachweislich Betroffene bis Ende 1997
+    summary: >-
+      Norwegen setzte Lobotomien von 1941 bis in die 1970er Jahre im psychiatrischen Kliniksystem ein. Die Untersuchung
+      von 1992 kam zunächst zu dem Schluss, das Fach habe die Methode nach damaligen Maßstäben für vertretbar gehalten;
+      eine allgemeine rechtliche Schadenersatzgrundlage sah sie nicht. Das Parlament verlangte dennoch eine weiter
+      gehende Antwort. 1996 genehmigte es wegen Irreversibilität, Persönlichkeitsveränderungen, hohem Folgeschadenrisiko
+      und Todesfällen eine standardisierte Zahlung an alle nachweislich überlebenden Betroffenen, zusätzlich zu
+      fallbezogenen Entschädigungen.
+    mechanism:
+      summary: >-
+        Psychiatrische Kliniken nahmen die Lobotomie unter damaligen fachlichen Maßstäben in ihre Behandlungspraxis auf;
+        diese verlangten nicht in jedem Fall eine ausdrückliche Zustimmung der behandelten Person oder ihrer Angehörigen.
+    institutionalCorrection:
+      periodLabel: 1991–1997
+      action: >-
+        Norwegen führte eine landesweite Untersuchung durch, entwickelte Kriterien für fallbezogene Entschädigungen und
+        beschloss eine allgemeine Zahlung von 100.000 NOK für jede nachweislich überlebende lobotomierte Person.
+      summary: >-
+        Der Staat untersuchte die Praxis formell und entschädigte Überlebende, wobei er irreversible Folgen,
+        Persönlichkeitsveränderungen, Epilepsie und Todesfälle dokumentierte. Die Regelung beruhte auf Billigkeit und nicht
+        auf einem Eingeständnis allgemeiner rechtlicher Haftung; Hinterbliebene erhielten keine Zahlung. Dennoch war sie
+        eine landesweite institutionelle Antwort.
+evidence:
+  - id: lobotomy-va-proposition
+    note: >-
+      Die VA bezeichnet die Frontallobotomie nach der Darstellung von Verhaltensbesserung und Rückkehr in die Gemeinschaft
+      als in ausgewählten Fällen geeignete Behandlung.
+  - id: lobotomy-nobel-proposition
+    note: >-
+      Der amtliche Preiseintrag formuliert die bestätigte Behauptung direkt als „therapeutischen Wert der Leukotomie bei
+      bestimmten Psychosen“.
+  - id: lobotomy-sweden-proposition
+    note: >-
+      Dokumentiert schnelle klinische Einführung, positiven fachlichen Diskurs und umfangreichen Einsatz in Schwedens
+      staatlichen psychiatrischen Kliniken.
+  - id: lobotomy-historical-correction
+    note: >-
+      Fachhistorischer Überblick, der den Niedergang der Lobotomie mit schlechten Ergebnissen, ethischen Problemen,
+      stärkerer Kontrolle und Antipsychotika verbindet.
+  - id: lobotomy-schizophrenia-correction
+    note: >-
+      Behandelt die umfangreichen Verletzungen und Komplikationen der klassischen Lobotomie und findet keine
+      Evidenzgrundlage selbst für gezielte stereotaktische Verfahren bei Schizophrenie.
+  - id: lobotomy-modern-scope
+    note: >-
+      Unterscheidet moderne stereotaktische Verfahren von klassischer Lobotomie und verlangt Therapieresistenz,
+      multidisziplinäre Fachprüfung, wirksame Einwilligung, langfristige Nachbeobachtung und stärkere Evidenz.
+  - id: lobotomy-va-study-correction
+    note: >-
+      Beschreibt Grenzen und eingegrenzte Ergebnisse des VA-Vergleichs: zwischenzeitliche Besserung, nicht strenge
+      Zuteilung, gemischte Eingriffe, Arzneimittelkonfundierung und geschrumpfte Unterschiede nach fünf Jahren.
+  - id: lobotomy-va-impact
+    note: Dokumentiert 47 zugelassene Kliniken und mehr als 1.400 operierte VA-Patienten bis zum 30. Juni 1950.
+  - id: lobotomy-sweden-impact
+    note: >-
+      Belegt das landesweite Ausmaß, 771 Operationen und 7,4 % Mortalität in Umedalen, die schwache Einwilligungslage und
+      die Rolle institutioneller Beherrschbarkeit bei der Bewertung des Nutzens.
+  - id: lobotomy-norway-impact
+    note: >-
+      Der Regierungsbericht nennt Irreversibilität, Persönlichkeitsveränderungen, Epilepsie, Todesfälle und 447
+      allgemeine Entschädigungszahlungen.
+  - id: va-carrier
+    note: Benennt Veterans Administration und zugelassene Kliniken als Träger des Programms.
+  - id: va-mechanism
+    note: >-
+      Dokumentiert Programmzulassung, Patientenauswahl und Organisation eines Mehrklinikenvergleichs, während der
+      Eingriff weiterhin als Behandlung anerkannt war.
+  - id: va-study-publication
+    note: >-
+      Belegt Autorenschaft und Veröffentlichung der kooperativen VA-Studie. Sachangaben zu Aufbau und Ergebnissen stammen
+      aus der späteren amtlichen VA-Geschichte, weil PubMed keine Zusammenfassung bereitstellt.
+  - id: va-consequences
+    note: >-
+      Beschreibt das Durchtrennen frontaler Nervenbahnen und nennt Zahl der Kliniken und der dem Eingriff ausgesetzten
+      Patienten.
+  - id: va-harms-context
+    note: >-
+      Überblick über schlechte Ergebnisse und ethische Probleme der US-Lobotomiebewegung sowie ihren späteren Niedergang.
+  - id: va-institutional-correction
+    note: >-
+      Die rückblickende VA-Geschichte nennt die Studienergebnisse wenig eindrucksvoll, erklärt ihre Grenzen und
+      dokumentiert den Übergang zur kontrollierten Psychopharmakologieforschung.
+  - id: sweden-carrier
+    note: >-
+      Benennt staatliche Kliniken, Medicinalstyrelsen, Klinikleiter und Chirurgen, die die Praxis einführten und
+      beaufsichtigten.
+  - id: sweden-mechanism
+    note: >-
+      Stellt delegierte Autonomie der Klinikleiter, häufigen Einsatz von Allgemeinchirurgen und das Ausbleiben wesentlicher
+      Einschränkungen durch die zentrale Gesundheitsbehörde fest.
+  - id: sweden-consequences
+    note: >-
+      Dokumentiert Umfang, Geschlechterverteilung, postoperative Mortalität und Einwilligungslage in Umedalen sowie die
+      Schwierigkeit, Patientennutzen vom Nutzen für Personal und überfüllte Kliniken zu trennen.
+  - id: sweden-motion-context
+    note: >-
+      Es handelt sich um einen Abgeordnetenantrag und nicht um eine beschlossene Parlamentsfeststellung. Er fasst
+      historische Angaben zusammen und verlangt Erfassung, Bewertung und Entschädigung; Ausschuss und Kammer lehnten alle
+      drei Forderungen ab.
+  - id: sweden-phaseout-correction
+    note: Dokumentiert die schrittweise Aufgabe der klassischen präfrontalen Lobotomie und ihre Verdrängung durch andere Verfahren.
+  - id: sweden-rejected-correction
+    note: >-
+      Zeigt, weshalb der spätere Antrag nicht als schwedische Parlamentskorrektur dargestellt werden kann: Alle
+      verlangten Maßnahmen wurden abgelehnt.
+  - id: nobel-carrier
+    note: >-
+      Erläutert, dass 1949 das Professorenkollegium des Karolinska-Instituts für die Verleihung zuständig war und die
+      eigenständige Nobelversammlung erst 1977 eingerichtet wurde; der Beitrag benennt auch die Moniz-Auszeichnung.
+  - id: nobel-mechanism
+    note: Dokumentiert die formelle Auszeichnung des behaupteten therapeutischen Werts der Leukotomie.
+  - id: nobel-consequences
+    note: >-
+      Belegt die außergewöhnliche fachliche Anerkennung und die fortdauernde öffentliche Wiedergabe der
+      Wirksamkeitsformulierung.
+  - id: nobel-facts-correction
+    note: >-
+      Die heutige amtliche Biografie erkennt schwere Persönlichkeitsveränderungen und den drastischen Rückgang der
+      Lobotomie nach Einführung psychiatrischer Medikamente an.
+  - id: nobel-history-correction
+    note: >-
+      Der amtliche historische Nobel-Beitrag führt die Moniz-Auszeichnung unter Beispielen möglicher Fehlentscheidungen,
+      nennt die Lobotomie überholt und heute offenbar unethisch und erläutert zugleich den damaligen Behandlungskontext.
+  - id: norway-carrier
+    note: >-
+      Der amtliche historische Überblick hält fest, dass die Lobotomie 1941 in Gaustad begann, sich auf die meisten
+      Kliniken ausbreitete und in den 1970er Jahren endete.
+  - id: norway-mechanism
+    note: >-
+      Gibt die historische Feststellung der Gesundheitsbehörde wieder, dass weder Patienteneinwilligung noch ausdrückliche
+      Zustimmung von Vormund oder Angehörigen zwingend erforderlich war.
+  - id: norway-consequences
+    note: >-
+      Die Regierung nennt Irreversibilität, allgemeine Persönlichkeitsveränderungen, Epilepsie und andere Folgeschäden
+      sowie Todesfälle als Gründe für die allgemeine Entschädigung.
+  - id: norway-case-consequences
+    note: >-
+      Dokumentiert strittige Indikationen, junge Betroffene, Epilepsie, Lähmung und weitere individuelle Folgeschäden.
+  - id: norway-institutional-correction
+    note: >-
+      Dokumentiert die Untersuchung von 1991, die spätere ressortübergreifende Prüfung, den Parlamentsbeschluss vom 17.
+      Juni 1996 und 447 allgemeine Zahlungen von je 100.000 NOK bis Ende 1997.

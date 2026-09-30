@@ -1,39 +1,171 @@
+schemaVersion: 2
 locale: de
 entryId: manacovid-covid-treatment
-sourceReviewedAt: 2026-08-24
+sourceReviewedAt: '2026-09-30'
 title: Manacovid als etablierte wirksame COVID-19-Behandlung
-claim: >-
-  Die Demokratische Republik Kongo ließ Manacovid als COVID-19-Behandlung zu und förderte das Präparat als wirksam und sicher, nachdem vorläufige klinische Ergebnisse als 100-prozentige Genesung dargestellt worden waren, obwohl belastbare randomisierte Evidenz diesen therapeutischen Nutzen noch nicht belegt hatte.
-currentUnderstanding: >-
-  Eine Zulassung sowie unkontrollierte oder unzureichend dokumentierte klinische Ergebnisse belegen keine therapeutische Wirksamkeit. 2022 kam eine gemeinsame Expertenmission von WHO, Africa CDC und Afrikanischer Union bei der Prüfung kongolesischer traditioneller COVID-19-Therapeutika einschließlich Manacovid zu dem Schluss, dass die vorhandenen Daten in der vorgelegten Auswertung keinen Wirksamkeitsnachweis erbracht hatten, und empfahl robustere Beobachtungs- und randomisierte klinische Studien. Das beweist nicht, dass jeder Bestandteil von Manacovid pharmakologisch unwirksam ist; korrigiert wird die Behandlung des behaupteten COVID-19-Nutzens als bereits belegt, bevor hinreichende Evidenz vorlag.
+proposition:
+  summary: >-
+    Die Demokratische Republik Kongo ließ Manacovid für den Markt zu und behandelte öffentlich gemeldete Ergebnisse bei
+    300 symptomatischen SARS-CoV-2-positiven Patienten als hinreichend, um das Präparat als wirksame, sichere und zu 100 %
+    kurative COVID-19-Behandlung darzustellen, bevor öffentlich dokumentierte randomisierte Evidenz einen Behandlungseffekt
+    belegt hatte.
+correction:
+  summary: >-
+    Ein negatives Testergebnis und das Abklingen von Symptomen in einer behandelten Patientenserie zeigen für sich allein
+    nicht, dass ein Arzneimittel die Genesung verursacht hat. Die öffentlichen Berichte zu den 300 Patienten beschreiben
+    weder einen randomisierten Vergleich noch Ausgangsschweregrade, vorab festgelegte Endpunkte oder eine transparente
+    statistische Auswertung. Damit bleiben natürliche Genesung, Testzeitpunkt, unterstützende Behandlungen und andere
+    Unterschiede als Erklärungen offen. Eine gemeinsame Mission von WHO, Africa CDC und Afrikanischer Union, die 2022
+    Manacovid zusammen mit mehreren kongolesischen traditionellen Therapeutika prüfte, kam zu dem Schluss, dass die
+    vorhandenen Daten in der vorgelegten Auswertung keinen Wirksamkeitsnachweis erbracht hatten, und empfahl bessere
+    Beobachtungs- und randomisierte Studien. Dies war eine Bewertung mehrerer Produkte und keine negative randomisierte
+    Studie allein zu Manacovid. Sie bewies weder das Fehlen aktiver Bestandteile noch, dass das Präparat unsicher war,
+    bedeutete aber, dass der beworbene therapeutische Effekt unbelegt blieb.
 impact:
   summary: >-
-    Die Demokratische Republik Kongo überführte Manacovid aus der experimentellen Prüfung in eine zugelassene und öffentlich legitimierte Behandlung. Im November 2020 erhielt das Präparat eine Marktzulassung, staatliche Berichte verbreiteten die Behauptung einer 100-prozentigen Genesung bei 300 behandelten Personen, und der Gesundheitsminister bezeichnete die gemeldeten Ergebnisse als schlüssig und bedeutsam und sagte Unterstützung zu, damit Erkrankte ein wirksames und sicheres Mittel erhalten könnten. Dennoch forderte der Ministerrat im September 2021 weiterhin eine Randomisierung von Manacovid; 2022 stellte eine gemeinsame Mission von WHO, Africa CDC und Afrikanischer Union fest, dass die vorhandene Datenauswertung keinen Wirksamkeitsnachweis erbracht hatte.
+    Manacovid gelangte über den Status eines experimentellen Kandidaten hinaus zum zugelassenen Verkauf und in die amtliche
+    Förderung. Staatliche Berichte nannten den 24. November 2020 als Datum der Marktzulassung, wiederholten die Behauptung,
+    alle 300 behandelten symptomatischen Patienten seien testnegativ geworden, und präsentierten Manacovid als erstes zu
+    100 % wirksames kuratives COVID-19-Arzneimittel. Im Januar 2021 nannte der Gesundheitsminister die gemeldeten Ergebnisse
+    schlüssig und bedeutsam und sagte Unterstützung für ein wirksames und sicheres Mittel zu. Dennoch forderte der
+    Ministerrat im September 2021 weiterhin Randomisierung, die gemeinsame Expertenmission befand die vorgelegte Evidenz
+    im März 2022 für unzureichend, und ein staatliches Forschungsbulletin erklärte 2023, Manacovid warte weiterhin auf
+    wissenschaftliche Belege der medizinischen Fakultät der Universität Kinshasa.
   highlights:
-    - value: "24. Nov. 2020"
-      label: Manacovid erhielt eine Marktzulassung als COVID-19-Behandlung
-    - value: "300 Patienten"
-      label: Vorläufige Ergebnisse wurden öffentlich als 100-prozentige Genesung dargestellt
-    - value: "2022"
-      label: Experten von WHO, Africa CDC und Afrikanischer Union sahen in der Datenauswertung keinen Wirksamkeitsnachweis
+    - value: 24. Nov. 2020
+      label: Gemeldetes Datum der Marktzulassung als COVID-19-Behandlung
+    - value: 300 Patienten
+      label: Behandelte symptomatische Patienten, die laut öffentlicher Darstellung alle testnegativ wurden
+      note: Die öffentlichen Berichte nennen keine Vergleichsgruppe und zu wenige Studiendetails, um das Ergebnis Manacovid zuzuschreiben.
+    - value: '2023'
+      label: Ein staatliches Forschungsbulletin erklärte, Manacovid warte weiterhin auf wissenschaftliche Belege
   context:
     - >-
-      Das Evidenzproblem liegt im Sprung von vielversprechenden oder vorläufigen Beobachtungen zu einer zugelassenen, als wirksam dargestellten Behandlung. Heilpflanzen können nützliche Arzneistoffe liefern, und die vorhandene Evidenz bewies nicht abschließend, dass jeder Bestandteil von Manacovid unwirksam ist; sie zeigte jedoch, dass die behauptete Wirksamkeit nicht ausreichend belegt war.
+      Die beiden Zulassungsdarstellungen sind Berichte der staatlichen Nachrichtenagentur, nicht die Zulassungsurkunde
+      oder ein öffentlicher klinischer Studienbericht. Sie dokumentieren, was Ministerium, Entwickler und Agentur
+      öffentlich darstellten; Studiendesign, Einzelergebnisse, Sicherheitsprofil und Zulassungsdossier bestätigen sie
+      nicht unabhängig.
     - >-
-      Die gemeinsame Expertenprüfung von 2022 lieferte eine hochrangige externe wissenschaftliche Korrektur der Wirksamkeitsbehauptung. Eine formale Aufhebung der kongolesischen Marktzulassung dokumentierte sie nicht.
+      Die Mission von 2022 bewertete mehrere kongolesische traditionelle COVID-19-Therapeutika, darunter Manacovid. Ihre
+      Evidenzfeststellung darf weder als Ergebnis einer alleinigen randomisierten Manacovid-Studie noch als Beweis dafür
+      dargestellt werden, dass jeder Bestandteil inaktiv war.
+    - >-
+      Im öffentlichen ACOREP-Zulassungsregister vom Februar 2026 erscheint Manacovid weder als Produkt noch unter dem
+      Antragsteller, obwohl das Register fünf spätere CRPL-Produkte aufführt. Daraus folgt nicht, wann oder warum die
+      gemeldete Zulassung von 2020 auslief, zurückgenommen wurde oder auf andere Weise nicht mehr erschien; eine formale
+      Rücknahmeentscheidung zu Manacovid wurde nicht gefunden.
 episodes:
-  - id: drc-2020-2022
+  - id: drc-2020-2023
     polity: Demokratische Republik Kongo
+    periodLabel: 2020–2023
     institutions:
-      - Ministry of Public Health, Hygiene and Prevention
-      - Direction de la Pharmacie et du Médicament
-      - Council of Ministers of the Democratic Republic of the Congo
+      - Gesundheitsministerium (später Ministerium für öffentliche Gesundheit, Hygiene und Prävention)
+      - Direktion für Pharmazie und Arzneimittel
+      - Ministerrat der Demokratischen Republik Kongo
+      - Ministerium für wissenschaftliche Forschung und technologische Innovation
+      - Kongolesische Presseagentur (ACP)
     institutionalContext: >-
-      Manacovid erhielt am 24. November 2020 eine Marktzulassung, nachdem klinische Arbeiten mit 300 symptomatischen SARS-CoV-2-positiven Patienten als 100-prozentige Genesung dargestellt worden waren. Im Januar 2021 bezeichnete der Gesundheitsminister über die Arzneimitteldirektion die berichteten Ergebnisse als schlüssig und bedeutsam und versprach Unterstützung, damit COVID-19-Erkrankte ein wirksames und sicheres Mittel erhalten könnten. Die Evidenzlage blieb jedoch ungeklärt: Im September 2021 forderte der Ministerrat eine weitere Randomisierung von Manacovid zur Anerkennung als COVID-19-Behandlung, und im März 2022 stellte eine gemeinsame Expertenmission von WHO, Africa CDC und Afrikanischer Union fest, dass die vorhandenen Auswertungen keinen Wirksamkeitsnachweis erbracht hatten.
-    summary: >-
-      Ende 2020 ließ die Demokratische Republik Kongo Manacovid als COVID-19-Behandlung für den Markt zu, nachdem vorläufige Ergebnisse mit 300 Patienten als 100-prozentige Genesung dargestellt worden waren. Der Gesundheitsminister bezeichnete die Befunde anschließend als schlüssig und bedeutsam und sagte institutionelle Unterstützung zu. Die eigenen Kabinettsprotokolle vom September 2021 forderten jedoch weiterhin eine Randomisierung von Manacovid. Im März 2022 kam eine gemeinsame Expertenmission von WHO, Africa CDC und Afrikanischer Union zu dem Schluss, dass die Daten in der vorgelegten Auswertung keinen Wirksamkeitsnachweis erbracht hatten, und empfahl robustere randomisierte Studien.
+      Ein ACP-Bericht vom Dezember 2020, der eine Mitteilung des privaten Pharmazeutischen Forschungszentrums Luozi
+      wiedergab, erklärte, Manacovid sei am 24. November nach Arbeiten mit 300 symptomatischen Patienten zugelassen worden
+      und das Protokoll habe eine Ethikgenehmigung erhalten. Im Januar 2021 zitierte ACP anschließend ein Schreiben des
+      Gesundheitsministers, das die Ergebnisse der Prüfer als schlüssig und bedeutsam bezeichnete, Unterstützung durch
+      die Arzneimitteldirektion zusagte und Manacovid als wirksames und sicheres Mittel in Aussicht stellte; die Agentur
+      überschrieb einen weiteren Bericht mit dem ersten zu 100 % wirksamen kurativen Arzneimittel. Im September 2021
+      forderte das Kabinett weitere Randomisierung zur internationalen Anerkennung. Der Gesundheitsminister und andere
+      kongolesische Beteiligte erhielten im März 2022 die gegenteilige Evidenzbewertung der gemeinsamen Expertenmission.
+      Ein Bulletin des Nationalen Wissenschaftsrats und Forschungsministeriums berichtete im Juli 2023, der
+      Forschungsminister habe erklärt, Manacovid warte noch auf wissenschaftliche Belege der Universität Kinshasa.
     consequences:
-      - Marktzulassung von Manacovid als COVID-19-Behandlung, bevor randomisierte Wirksamkeitsevidenz vorlag
-      - Staatliche Verstärkung einer Behauptung von 100-prozentiger Genesung aus vorläufigen klinischen Ergebnissen
-      - Unterstützung des Gesundheitsministeriums mit öffentlicher Darstellung des Präparats als wirksames und sicheres Mittel
-      - Fortgesetztes staatliches Bemühen um Randomisierung erst nach Zulassung und öffentlicher Förderung
+      - Marktzulassung und Aufnahme in das offizielle pharmazeutische Vertriebsumfeld
+      - Verstärkung einer 100-prozentigen Heilungsbehauptung aus einer gemeldeten 300-Patienten-Serie durch die staatliche Presseagentur
+      - Unterstützung des Gesundheitsministeriums mit öffentlicher Darstellung Manacovids als künftig wirksames und sicheres Mittel
+      - Bemühen auf Kabinettsebene um weitere Randomisierung und internationale Anerkennung nach der inländischen Zulassung
+      - Bis 2023 von Regierung und internationalen Prüfern anerkannte fortbestehende Evidenzunsicherheit
+    summary: >-
+      Die Demokratische Republik Kongo verlieh Manacovid regulatorische und politische Legitimität, bevor der behauptete
+      Nutzen in einem öffentlich dokumentierten randomisierten Vergleich gezeigt worden war. Zulassung, ein unterstützendes
+      Ministerschreiben und zugespitzte Berichte der nationalen Presseagentur machten aus einem unvollständig beschriebenen
+      Ergebnis bei 300 Patienten die marktfähige Behauptung sicherer und vollständiger Wirksamkeit. Spätere amtliche
+      Schritte zeigen die ungeklärte Evidenzlage: Das Kabinett strebte Randomisierung an, eine eingeladene internationale
+      Mission sah in der Datendarstellung zu den geprüften traditionellen Therapeutika keinen Wirksamkeitsnachweis, und
+      der Forschungsminister erklärte später, Manacovid warte weiterhin auf wissenschaftliche Belege.
+    mechanism:
+      summary: >-
+        Gemeldete Zulassung durch das Gesundheitsministerium, Unterstützung über die Arzneimitteldirektion, Förderung
+        durch die nationale Presseagentur und Unterstützung des Kabinetts überführten Manacovid aus privater Entwicklung
+        in das offizielle Behandlungsumfeld, während Bestätigung durch Randomisierung noch angestrebt wurde.
+    institutionalCorrection:
+      periodLabel: 2021–2023
+      action: Das Kabinett forderte Randomisierung, die Regierung erhielt eine gemeinsame Expertenbewertung unzureichender Daten, und der Forschungsminister erklärte später, Manacovid warte noch auf wissenschaftliche Belege.
+      summary: >-
+        Kongolesische Institutionen wirkten an einer bedeutsamen teilweisen Evidenzkorrektur mit, indem sie randomisierte
+        Prüfung anstrebten, die Expertenmission von 2022 empfingen und später einräumten, dass Belege noch ausstanden.
+        Dokumentiert sind weder ein produktspezifisches randomisiertes Ergebnis noch eine Rücknahme der ministeriellen
+        Wirksamkeitsdarstellung, eine formale Aufhebungsentscheidung oder eine amtliche Erklärung zum Ende der gemeldeten
+        Zulassung von 2020.
+evidence:
+  - id: manacovid-minister-proposition
+    note: >-
+      Die staatliche Nachrichtenagentur zitiert das Schreiben des Gesundheitsministers, das die Ergebnisse der Prüfer als
+      schlüssig und bedeutsam bezeichnet, Unterstützung durch die Direktion zusagt, damit Patienten ein wirksames und
+      sicheres Mittel erhalten könnten, und den 24. November 2020 als Datum der ministeriellen Marktzulassung nennt.
+  - id: manacovid-claim-proposition
+    note: >-
+      ACP nannte Manacovid das erste zu 100 % wirksame kurative COVID-19-Arzneimittel, berichtete von seiner Markteinführung
+      und schrieb dem Hauptprüfer ein Ergebnis von 100 % Genesung bei 300 Patienten zu.
+  - id: manacovid-homologation-impact
+    note: >-
+      Unter Wiedergabe einer CRPL-Mitteilung berichtet ACP von der Zulassung am 24. November 2020, 300 symptomatischen
+      positiven Fällen mit negativen Tests und Symptomrückgang innerhalb von fünf Tagen, einer Protokollgenehmigung durch
+      das nationale Ethikkomitee und klinischen Arbeiten von Juni bis Oktober. Dies belegt die öffentliche Darstellung,
+      nicht eine unabhängige Prüfung der Studie oder der zugrunde liegenden Zulassungsurkunde.
+  - id: manacovid-mission-correction
+    note: >-
+      Die Mission nennt Manacovid ausdrücklich unter mehreren geprüften Produkten und erklärt, die Daten hätten in der
+      vorgelegten Auswertung keinen Wirksamkeitsnachweis erbracht. Da die Feststellung das geprüfte Portfolio betrifft,
+      wird sie hier nicht als negative produktspezifische Studie behandelt.
+  - id: manacovid-trial-standard-correction
+    note: >-
+      Das damalige regionale Expertengremium bezeichnet Phase-III-Studien und unabhängige Datensicherheitsüberwachung als
+      entscheidend, um Qualität, Sicherheit und Wirksamkeit pflanzlicher Arzneimittel vor einer Empfehlung festzustellen.
+  - id: manacovid-minister-impact
+    note: >-
+      Dokumentiert sowohl die unterstützende ministerielle Darstellung als auch die öffentliche Angabe, alle 300
+      symptomatischen positiven Patienten seien nach Manacovid testnegativ geworden; bei Restsymptomen werden zusätzlich
+      Husten- oder Fiebermittel erwähnt.
+  - id: manacovid-ministry-carrier
+    note: >-
+      Verbindet die Wirksamkeitsdarstellung mit dem Gesundheitsminister und der Direktion für Pharmazie und Arzneimittel,
+      nicht nur mit dem privaten Produktentwickler.
+  - id: manacovid-acp-carrier
+    note: >-
+      Dokumentiert die Verstärkung durch die nationale Presseagentur mit einer uneingeschränkten Schlagzeile von 100 %
+      Wirksamkeit und der Meldung, das Produkt sei auf den Markt gelangt.
+  - id: manacovid-homologation-mechanism
+    note: >-
+      Beschreibt die gemeldete Zulassung und den Weg von der staatlichen Auswahl für Versuche über Ethikgenehmigung und
+      klinische Arbeiten bis zum Eintritt in den Arzneimittelmarkt.
+  - id: manacovid-cabinet-mechanism
+    note: >-
+      Das amtliche Kabinettsprotokoll setzt Manacovid auf die nationale Forschungsagenda, indem es weitere Randomisierung
+      zur internationalen Anerkennung als COVID-19-Behandlung verlangt.
+  - id: manacovid-public-consequences
+  - id: manacovid-cabinet-partial-correction
+    note: >-
+      Die aktuelle amtliche Archivseite stellt eine erreichbare Fassung des Protokolls bereit. Die Forderung nach
+      Randomisierung zeigt, dass Bestätigungsevidenz nach der inländischen Zulassung weiterhin gesucht wurde; das
+      Protokoll stellt dies als Weg zur internationalen Anerkennung dar und nimmt die inländischen Behauptungen nicht zurück.
+  - id: manacovid-mission-partial-correction
+    note: >-
+      Dokumentiert die Übergabe der Missionsergebnisse an Gesundheitsminister und weitere Beteiligte, fortgesetzte
+      technische Hilfe sowie Empfehlungen für bessere Beobachtungs- und randomisierte Protokolle und Aufsicht.
+  - id: manacovid-research-ministry-correction
+    note: >-
+      Das Bulletin von Ministerium und Nationalem Wissenschaftsrat berichtet, Forschungsminister Gilbert Kabanda habe
+      erklärt, Manacovid warte an der medizinischen Fakultät der Universität Kinshasa auf wissenschaftliche Belege, und
+      erkennt damit amtlich die ungeklärte Wirksamkeitsfrage an.
+  - id: manacovid-register-context
+    note: >-
+      Das am 4. Februar 2026 veröffentlichte Register enthält weder Manacovid noch eine COVID-Behandlung des CRPL, führt
+      aber fünf 2025 erteilte CRPL-Zulassungen für Manalaria, Manadiar und EVA. Ein fehlender Eintrag belegt weder
+      Rechtsweg noch Datum des Endes der gemeldeten Zulassung von 2020 und wird daher nicht als formale Rücknahme behandelt.

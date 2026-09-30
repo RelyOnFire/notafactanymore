@@ -1,20 +1,170 @@
+schemaVersion: 2
 locale: de
 entryId: nomadic-pastoralism-backward
-sourceReviewedAt: 2026-08-23
-title: Nomadische Viehwirtschaft als rückständige Wirtschaftsform
-claim: Die nomadische Viehwirtschaft der Kasachen wurde als von Natur aus rückständig und ineffizient behandelt; erzwungene Sesshaftmachung und Kollektivierung sollten Produktivität und sozialistische Modernisierung steigern.
-currentUnderstanding: Mobile Viehwirtschaft kann eine sehr gut angepasste Nutzung trockener und schwankender Graslandschaften sein, weil saisonale Wanderungen Viehbestände an wechselndes Wasser- und Futterangebot anpassen. Landwirtschaftliche Systeme müssen zur lokalen Ökologie passen; die erzwungene Sesshaftmachung mobiler Hirten in ungeeigneten Produktions- und Abgabesystemen kann Produktivität vernichten statt erhöhen.
+sourceReviewedAt: '2026-09-30'
+title: Kasachischer Weidenomadismus als rückständige Wirtschaftsform
+proposition:
+  summary: >-
+    Sowjetische Partei- und Staatsorgane behandelten den kasachischen Weidenomadismus als rückständige, instabile Stufe
+    gesellschaftlicher und wirtschaftlicher Entwicklung. Planmäßige Sesshaftmachung, Kollektivierung und eine stärkere
+    Ausrichtung auf ortsfesten Ackerbau galten ihnen als rationaler und produktiver Weg zur sozialistischen Modernisierung.
+correction:
+  summary: >-
+    Mobile Viehwirtschaft ist weder von Natur aus rückständig noch automatisch überall geeignet. In Trockengebieten kann
+    sie ein spezialisiertes Produktions- und Landnutzungssystem sein: Mobilität und gemeinschaftlicher Ressourcenzugang
+    ermöglichen es, Herden dem räumlich und saisonal wechselnden Wasser- und Futterangebot anzupassen. Ihre Leistung hängt
+    von Ökologie, Landzugang, Verwaltung, Märkten und Dienstleistungen ab. Sesshaftigkeit kann freiwillig und gut
+    unterstützt tragfähig sein; erzwungene Immobilität, Viehkonfiskation und staatliche Abschöpfung können dagegen
+    Produktionsfähigkeit vernichten, statt sie zu erhöhen.
+impact:
+  summary: >-
+    Die sowjetischen Behörden verbanden die geplante Sesshaftmachung mit Kollektivierung, Angriffen auf pastorale Eliten,
+    Getreide- und Viehbeschaffung sowie Zwangsmaßnahmen. Die folgende Krise verwüstete die Viehwirtschaft: Ein Bericht der
+    Geheimpolizei errechnete gegenüber 1929 einen Rückgang der Tierbestände um 90,8 Prozent, mehr als 1,1 Millionen Menschen
+    verließen Kasachstan 1931–33, und etwa 1,5 Millionen Menschen starben, darunter ungefähr 1,3 Millionen ethnische
+    Kasachen. Mehr als ein Drittel aller Kasachen kam ums Leben. Ein großer Teil des dauerhaften Übergangs zur
+    Sesshaftigkeit entstand, weil Überlebende die für mobile Viehwirtschaft nötigen Herden verloren hatten, und nicht
+    allein durch das eigenständige Sesshaftmachungsprogramm.
+  highlights:
+    - value: 90,8 %
+      label: Rückgang der Tierbestände Kasachstans gegenüber 1929 laut Berechnung eines Geheimpolizeiberichts vom Oktober 1932
+    - value: über 1,1 Mio.
+      label: Menschen, die Kasachstan auf dem Höhepunkt der Hungersnot 1931–33 verließen
+    - value: ca. 1,3 Mio.
+      label: Geschätzte Zahl getöteter ethnischer Kasachen bei insgesamt etwa 1,5 Millionen Toten
+  context:
+    - >-
+      Diese Verluste gehören zur zusammengesetzten Kollektivierungs- und Hungerkrise. Sie lassen sich weder der Vorstellung
+      pastoraler „Rückständigkeit“ noch dem formellen Sesshaftmachungsprogramm für sich allein zahlenmäßig zurechnen.
+    - >-
+      Historiker unterscheiden die geplante Sesshaftmachung von den weit größeren Folgen der Kollektivierung und
+      außerordentlichen Viehbeschaffung. Das ausdrückliche Siedlungsprogramm verlor bald an Gewicht; Herdenverlust, Hunger,
+      Flucht und Abhängigkeit von staatlicher Hilfe zwangen dagegen viele Überlebende in ein sesshaftes Leben.
+    - >-
+      Die Schätzungen der Opferzahlen bleiben umstritten, weil Todesfälle, Seuchen und Massenmigration schwer voneinander
+      zu trennen sind. Die hier genannten Werte folgen Sarah Camerons Forschungsüberblick und sind Schätzungen, keine
+      genaue Zählung der Opfer.
 episodes:
   - id: soviet-kazakhstan-1928-1933
     polity: Sowjetisches Kasachstan
+    periodLabel: 1928–1933
     institutions:
-      - Zentralkomitee der Allunions-Kommunistischen Partei (Bolschewiki)
-      - Kasachisches Regionalkomitee (Kazkraikom) der Allunions-Kommunistischen Partei (Bolschewiki)
-      - Rat der Volkskommissare der Kasachischen ASSR
-    institutionalContext: Moskaus Vorgaben zur Kollektivierung und Beschaffung wurden über das Kazkraikom unter Filipp Goloschtschokin und die Sowjetregierung der Republik in kasachische Politik übersetzt und anschließend durch Distriktparteiorgane, Beschaffungsstellen und Kolchosstrukturen durchgesetzt. Da dieses Umsetzungsnetz weit verzweigt war, nennt die Institutionsliste die zentralen Entscheidungsgremien statt sie pauschal als „Kollektivisierungsbehörden“ zu bezeichnen.
-    summary: Ab 1928 behandelte die sowjetische Politik die kasachische Weidenomadenwirtschaft zunehmend als unvereinbar mit schneller landwirtschaftlicher Modernisierung und sozialistischer Organisation. 1929 verband das Kazkraikom in einem Programm Sesshaftmachung mit wirtschaftlichem Umbau; Pläne zur massenhaften Sesshaftmachung wurden danach trotz Warnungen vor den Bedingungen der Steppe mit Zwangskollektivierung und hohen Viehabgaben verschmolzen. Die folgende Katastrophe hatte mehrere Ursachen, doch diese Maßnahmen zerstörten große Teile der pastoralen Wirtschaft und machten aus einer Versorgungskrise eine Massenhungersnot.
+      - Zentralkomitee der Kommunistischen Allunionspartei (Bolschewiki)
+      - Kasachisches Regionalkomitee (Kazkraikom) der Kommunistischen Allunionspartei (Bolschewiki)
+      - Zentralexekutivkomitee der Kasachischen ASSR
+      - Republikanisches Sesshaftmachungskomitee
+    institutionalContext: >-
+      Moskau gab die zentralen Prioritäten für Kollektivierung und Beschaffung vor. Das Kazkraikom unter Filipp
+      Goloschtschokin verknüpfte Sesshaftmachung mit dem wirtschaftlichen und sozialen Umbau des kasachischen Auls; das
+      Zentralexekutivkomitee der Republik und das Sesshaftmachungskomitee planten und verwalteten die Ansiedlung. Bezirks-
+      und Kreisparteiorgane, Exekutivkomitees, Beschaffungsstellen, Polizei und Kolchosstrukturen setzten die breitere
+      Kampagne um. Die Liste nennt daher die wichtigsten politischen und für die Ansiedlung zuständigen Organe, nicht das
+      gesamte Umsetzungsnetz als eine einzige Institution.
     consequences:
-      - Erzwungene Sesshaftmachung mobiler Viehhalter
-      - Beschlagnahmung, Schlachtung und Zusammenbruch der Viehbestände
-      - Zerstörung pastoraler Lebensgrundlagen und Massenflucht
-      - Hungersnot, bei der ungefähr ein Drittel der kasachischen Bevölkerung starb
+      - Siedlungsorte wurden ohne ausreichend Wasser, Nahrung, Wohnraum, Weideland, Geräte oder Baumaterial durchgesetzt
+      - Kollektivierung und Beschaffung trugen zum katastrophalen Zusammenbruch der Viehbestände und pastoralen Ernährungssicherheit bei
+      - Mehr als 1,1 Millionen Menschen flohen 1931–33 aus Kasachstan; viele kehrten nie zurück
+      - Die breitere Hungersnot tötete etwa 1,5 Millionen Menschen, darunter ungefähr 1,3 Millionen ethnische Kasachen
+      - Herdenverlust und die Ansiedlung von Flüchtlingen machten einen großen Teil der Sesshaftmachung praktisch unumkehrbar
+    summary: >-
+      Ab 1928 griffen sowjetische Behörden pastorale Eliten an und beschleunigten die sozialistische Umgestaltung der
+      Steppe. Ende 1929 verband das Kazkraikom die Sesshaftmachung formell mit dem Umbau der Produktion; republikanische
+      Organe begannen ein ehrgeiziges Programm planmäßiger Ansiedlung. Die Kampagne ging rasch in der
+      Zwangskollektivierung auf. Ab 1930 verschärfte die außerordentliche Viehbeschaffung eine bestehende Versorgungskrise,
+      während Warnungen vor den Bedingungen der Steppe und dem wachsenden Hunger keine rechtzeitige Umkehr bewirkten. Die
+      Sesshaftmachungspolitik war Teil der erzwungenen Transformation, verursachte aber nicht allein die gesamte Zahl der
+      Toten: Beschaffung, Kollektivierung, Schlachtung und Konfiskation von Vieh, Flucht, Krankheit und Verwaltungsgewalt
+      wirkten in der Hungersnot zusammen.
+    mechanism:
+      summary: >-
+        Zentrale und republikanische Organe übersetzten das Modernisierungsurteil in Ansiedlungsziele, die Eingliederung in
+        Kolchosen, ortsfeste Siedlungspunkte und landwirtschaftlichen Umbau. Beschaffungs- und Zwangsapparate wirkten neben
+        diesem Programm und zerstörten Mobilität, Herden und Ressourcenzugang, auf denen die pastorale Produktion beruhte.
+    institutionalCorrection:
+      periodLabel: 17. September 1932–1933
+      action: >-
+        Das Zentralkomitee bewilligte Nahrungs- und Saatguthilfe sowie privaten Viehbesitz, befreite nomadische und
+        halbnomadische Betriebe zwei Jahre lang von zentraler Getreide- und Viehbeschaffung sowie staatlichen Steuern,
+        senkte Kasachstans Getreidequote und setzte Goloschtschokin Anfang 1933 ab.
+      summary: >-
+        Die Maßnahmen nahmen die zerstörerischste Abschöpfung zurück und schufen begrenzten Raum für private Herden und
+        pastorale Mobilität. Die Korrektur blieb unvollständig: Der Beschluss vom September bekräftigte weiterhin die
+        schrittweise Sesshaftmachung, Kollektivierung, Ausweitung des Ackerbaus und Dörfer europäischen Typs. Er widerrief
+        auch nicht die zugrunde liegende Hierarchie, die sesshafte sozialistische Produktion als Entwicklungsziel setzte.
+evidence:
+  - id: kazakh-pastoralism-cameron-proposition
+    note: >-
+      Zeigt, dass die sowjetische Führung Zwangskollektivierung und Sesshaftmachung zur Steigerung der Produktivität der
+      Steppe betrieb und wiederholte Warnungen vor den Risiken ignorierte.
+  - id: kazakh-pastoralism-ohayon-proposition
+    note: >-
+      Beschreibt die Sesshaftmachung als Teil eines ideologischen Projekts zur Kontrolle und Umgestaltung der nomadischen
+      Gesellschaft und dokumentiert Goloschtschokins Geringschätzung einer Bevölkerung, deren vermeintliche Rückständigkeit
+      seine Politik überwinden sollte.
+  - id: kazakh-pastoralism-fao-correction
+    note: >-
+      Bezeichnet Mobilität und gemeinsame Ressourcennutzung als zentrale Strategien im Umgang mit Schwankungen und Schocks
+      in Trockengebieten und erklärt, dass pastorale Systeme flexible Verwaltung und gesicherten Ressourcenzugang benötigen.
+  - id: kazakh-pastoralism-davis-correction
+    note: >-
+      Erklärt den kasachischen Weidenomadismus als hochentwickelte Anpassung an die Trockenheit der Steppe und den Mangel an
+      Wasser und gutem Weideland; Moskau erhielt zudem klare Warnungen vor den Gefahren einer schnellen Sesshaftmachung.
+  - id: kazakh-pastoralism-cameron-impact
+    note: >-
+      Berichtet von mehr als 1,1 Millionen Fortzügen 1931–33, einer Berechnung vom Oktober 1932 über den Rückgang der
+      Tierbestände um 90,8 Prozent und geschätzten 1,5 Millionen Toten, darunter etwa 1,3 Millionen ethnische Kasachen.
+  - id: kazakh-pastoralism-pianciola-impact-context
+    note: >-
+      Führt die Hungersnot auf Störungen durch Kollektivierung sowie Getreide- und Viehrequisitionen zurück und zeigt, dass
+      Hunger und Herdenverlust selbst einen großen Teil der späteren Sesshaftmachung verursachten. Damit wird die
+      Katastrophe nicht allein dem formellen Sesshaftmachungsprogramm zugerechnet.
+  - id: kazakh-pastoralism-cameron-carrier
+    note: >-
+      Rekonstruiert die Entscheidungen Moskaus und der kasachischen Parteiführung beim Beginn der Zwangskollektivierung und
+      Sesshaftmachung.
+  - id: kazakh-pastoralism-kazkraikom-carrier
+    note: >-
+      Identifiziert das Kasachische Regionalkomitee als zentralen institutionellen Träger und dokumentiert seine Vorgaben
+      zur beschleunigten Kollektivierung in Viehzuchtgebieten.
+  - id: kazakh-pastoralism-regional-carrier
+    note: >-
+      Rekonstruiert anhand von Unterlagen des Zentralexekutivkomitees der Kasachischen ASSR, des
+      Sesshaftmachungskomitees, regionaler Exekutivorgane und der politischen Polizei die Verwaltungskette und lokale Umsetzung.
+  - id: kazakh-pastoralism-encyclopedia-mechanism
+    note: >-
+      Dokumentiert den plötzlich verkündeten Plan von 1929 zur vollständigen Sesshaftmachung, seine Verschmelzung mit der
+      Kollektivierung und die späteren Viehrequisitionen, die eine bestehende Hungerkrise in eine Katastrophe verwandelten.
+  - id: kazakh-pastoralism-regional-mechanism
+    note: >-
+      Beschreibt Ansiedlungsziele, Verwaltungsanweisungen und mangelhaft versorgte Orte in Zentralkasachstan, darunter
+      fehlendes Wasser, Wohnraum, Weideland, Geräte und Baumaterial.
+  - id: kazakh-pastoralism-collectivization-context
+    note: >-
+      Verknüpft die beschleunigte Sesshaftmachung mit veränderten Produktionsmustern und Weidedruck und ordnet sie zugleich
+      in die breitere Kollektivierungs- und Beschaffungskrise ein.
+  - id: kazakh-pastoralism-cameron-consequences
+    note: >-
+      Dokumentiert Massenflucht, Zusammenbruch der Herden, Hungertote und den Viehverlust, der viele Kasachen zur Aufgabe
+      mobiler Viehwirtschaft zwang.
+  - id: kazakh-pastoralism-ohayon-consequences
+    note: >-
+      Beschreibt die gemeinsamen Folgen von Vieh- und Getreiderequisitionen, Hungersnot, Flucht, Herdenverlust und
+      Flüchtlingsansiedlung und erklärt, warum der daraus folgende Niedergang nomadischen Lebens schwer umkehrbar wurde.
+  - id: kazakh-pastoralism-pianciola-context
+    note: >-
+      Identifiziert die außerordentliche Viehbeschaffung als entscheidende Eskalation und grenzt sie von der formellen
+      Sesshaftmachungskampagne ab, die gegenüber Kollektivierung und Abschöpfung an Bedeutung verlor.
+  - id: kazakh-pastoralism-resolution-correction
+    note: >-
+      Der Originalbeschluss bewilligt Nahrungs- und Saatguthilfe, privaten Viehbesitz, zweijährige Beschaffungs- und
+      Steuerbefreiungen sowie eine niedrigere Getreidequote, bekräftigt aber weiterhin Sesshaftmachung, Kollektivierung,
+      Ackerbau und Dörfer europäischen Typs.
+  - id: kazakh-pastoralism-cameron-correction
+    note: >-
+      Datiert die begrenzten Zugeständnisse einschließlich privater Tierhaltung und Nahrungsmittelhilfe auf den 17.
+      September 1932, dokumentiert Goloschtschokins Absetzung Anfang 1933 und eine begrenzte Wiederbelebung nomadischer
+      Praxis zum Wiederaufbau der Herden nach der Hungersnot.
+  - id: kazakh-pastoralism-encyclopedia-correction
+    note: >-
+      Hält fest, dass privater Tierbesitz und pastorale Lebensweisen nach dem Ende der Requisitionen wieder ausdrücklich
+      zugelassen wurden, obwohl die Routen kürzer wurden und die Arbeit in Staats- und Kollektivbetrieben organisiert blieb.

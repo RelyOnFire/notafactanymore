@@ -1,37 +1,283 @@
-title: Nomadic pastoralism as a backward economy
-claim: Kazakh nomadic pastoralism was treated as inherently backward and inefficient, and forced settlement into collectivized agriculture as a route to greater productivity and socialist modernization.
-currentUnderstanding: Mobile pastoralism can be a highly adapted way of using dry and variable grasslands, where seasonal movement helps match livestock to shifting water and forage. Agricultural systems must fit local ecology; forcing mobile herders into unsuitable settlement and procurement systems can destroy rather than increase productive capacity.
+schemaVersion: 2
+title: Kazakh pastoral nomadism as a backward economy
+proposition:
+  summary: >-
+    Soviet party and state authorities treated Kazakh pastoral nomadism as a backward, unstable stage of social and
+    economic development and presented planned settlement, collectivization and greater reliance on fixed agriculture
+    as a rational, productive route to socialist modernization.
+correction:
+  summary: >-
+    Mobile pastoralism is neither inherently backward nor automatically suitable everywhere. In drylands it can be a
+    specialized production and land-use system: mobility and shared access let herds track water and forage that vary
+    across seasons and places. Its performance depends on ecology, land access, governance, markets and services.
+    Settlement can be viable when chosen and properly supported, but coercively severing mobility, confiscating herds
+    and imposing extraction can destroy productive capacity rather than improve it.
 category: Agriculture and political economy
-reviewedAt: 2026-08-23
+reviewedAt: '2026-09-30'
+impact:
+  summary: >-
+    Soviet authorities combined planned settlement with collectivization, attacks on pastoral elites, grain and
+    livestock procurement and coercive enforcement. The resulting crisis devastated the herd economy: a secret-police
+    report calculated a 90.8 percent fall in animal numbers from 1929, more than 1.1 million people left Kazakhstan in
+    1931–33, and about 1.5 million people died, including approximately 1.3 million ethnic Kazakhs. More than one-third
+    of all Kazakhs perished. Much of the lasting shift to settled life occurred because famine survivors had lost the
+    herds needed to resume mobile pastoralism, rather than through the stand-alone settlement program alone.
+  highlights:
+    - value: 90.8%
+      label: Decline in Kazakhstan’s animal numbers from 1929, calculated in an October 1932 secret-police report
+    - value: 1.1 million+
+      label: People who left Kazakhstan during the height of the famine in 1931–33
+    - value: ~1.3 million
+      label: Ethnic Kazakhs estimated to have died within an overall death toll of about 1.5 million
+  context:
+    - >-
+      These losses belong to the compound collectivization and famine crisis. They cannot be assigned quantitatively to
+      the belief in pastoral “backwardness” or to the formal sedentarization program in isolation.
+    - >-
+      Historians distinguish the planned campaign to settle nomads from the much larger effects of collectivization and
+      extraordinary livestock procurement. The explicit settlement program soon became secondary, while herd loss,
+      hunger, flight and dependence on state aid forced many survivors into settled life.
+    - >-
+      Mortality estimates remain contested because deaths, epidemic disease and mass migration were difficult to
+      separate. The figures shown here follow Sarah Cameron’s synthesis and are presented as estimates, not a precise
+      census of victims.
 episodes:
   - id: soviet-kazakhstan-1928-1933
     polity: Soviet Kazakhstan
     region: Central Asia
     startYear: 1928
     endYear: 1933
+    periodLabel: 1928–1933
     strength: policy-basis
-    institutionTypes: [government]
+    institutionTypes:
+      - government
     institutions:
       - Central Committee of the All-Union Communist Party (Bolsheviks)
       - Kazakh Regional Committee (Kazkraikom) of the All-Union Communist Party (Bolsheviks)
-      - Council of People's Commissars of the Kazakh ASSR
-    institutionalContext: Moscow's collectivization and procurement directives were translated into Kazakh policy through Kazkraikom under Filipp Goloshchekin and the republic's Soviet government, then enforced through district party, procurement and collective-farm structures. Those implementation networks were extensive, so the list names the principal decision-making bodies rather than calling them simply “collectivization authorities.”
+      - Central Executive Committee of the Kazakh ASSR
+      - Republican Sedentarization Committee
+    institutionalContext: >-
+      Moscow set the central collectivization and procurement priorities. Kazkraikom under Filipp Goloshchekin linked
+      settlement to the economic and social reconstruction of the Kazakh aul, while the republic’s Central Executive
+      Committee and Sedentarization Committee planned and administered settlement. District party bodies, executive
+      committees, procurement officials, police and collective-farm structures carried out the wider campaign. The list
+      therefore names the principal policy and settlement bodies rather than presenting that implementation network as
+      one institution.
     consequences:
-      - Forced sedentarization of mobile pastoralists
-      - Livestock confiscation, slaughter and collapse of herds
-      - Destruction of pastoral livelihoods and mass flight
-      - Famine in which roughly one-third of the Kazakh population died
-    summary: From 1928, Soviet policy increasingly treated Kazakh pastoral nomadism as incompatible with rapid agricultural modernization and socialist organization. In 1929 Kazkraikom adopted a program linking settlement to economic reconstruction; plans for mass sedentarization were then merged with forced collectivization and heavy livestock procurement despite warnings about steppe conditions. The resulting catastrophe had multiple causes, but these policies destroyed much of the pastoral economy and turned an ongoing food crisis into mass famine.
-    sources:
-      - title: Nomads under Siege — Kazakhstan and the Launch of Forced Collectivization
-        url: https://academic.oup.com/cornell-scholarship-online/book/15707/chapter-abstract/170494941
-        publisher: Cornell University Press / Oxford Academic
-        note: Shows that Soviet leaders pursued forced collectivization and sedentarization to increase steppe productivity while repeatedly ignoring warnings about the risks.
-      - title: Nomads and the State in Soviet Kazakhstan
-        url: https://academic.oup.com/edited-volume/61799/chapter-abstract/546311768
-        publisher: Oxford Research Encyclopedia of Asian History
-        note: Documents the sudden 1929 plan for total sedentarization, its merger with collectivization, livestock procurement, and the famine that killed about one-third of Kazakhs.
-      - title: From the history of collectivization of agriculture in Kazakhstan
-        url: https://e-history.kz/en/history-of-kazakhstan/show/9610
-        publisher: Qazaqstan Tarihy / Institute of History and Ethnology
-        note: Identifies the Kazakh Regional Committee (Kazkraikom) as a central institutional driver of collectivization and records its directives for livestock regions.
+      - Settlement sites were imposed without adequate water, food, housing, pasture, tools or building materials
+      - Collectivization and procurement contributed to a catastrophic collapse of livestock and pastoral food security
+      - More than 1.1 million people fled Kazakhstan during 1931–33, and many never returned
+      - The wider famine killed about 1.5 million people, including roughly 1.3 million ethnic Kazakhs
+      - Herd loss and refugee resettlement made much of the resulting sedentarization effectively irreversible
+    summary: >-
+      From 1928, Soviet authorities attacked pastoral elites and accelerated the socialist transformation of the steppe.
+      In late 1929, Kazkraikom formally tied settlement to the reconstruction of production, and republic institutions
+      began an ambitious program of settlement points. The campaign was rapidly merged with forced collectivization.
+      From 1930, extraordinary livestock procurement intensified an existing food crisis, while warnings about steppe
+      conditions and mounting hunger failed to produce a timely reversal. Settlement policy formed part of the coercive
+      transformation, but the formal program alone did not cause the full death toll: procurement, collectivization,
+      herd slaughter and confiscation, flight, disease and administrative violence interacted in the famine.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Central and republic bodies converted the modernization judgment into settlement targets, collective-farm
+        enrollment, fixed settlement points and agricultural reorganization. Procurement and enforcement agencies then
+        operated alongside this program, destroying the mobility, herds and resource access on which pastoral production
+        depended.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 17 September 1932–1933
+      action: >-
+        The Central Committee authorized food and seed aid and private livestock holdings, exempted nomadic and
+        semi-nomadic farms from centralized grain and livestock procurement and state taxes for two years, reduced
+        Kazakhstan’s grain quota, and removed Goloshchekin in early 1933.
+      summary: >-
+        The measures retreated from the most destructive extraction and restored limited room for private herds and
+        pastoral mobility. They were only a partial correction: the September resolution still endorsed gradual
+        settlement, collectivization, expanded agriculture and European-style villages, and it did not repudiate the
+        underlying hierarchy that cast settled socialist production as the destination of development.
+sources:
+  - id: kazakh-pastoralism-cameron-chapter
+    title: Nomads under Siege — Kazakhstan and the Launch of Forced Collectivization
+    url: https://academic.oup.com/cornell-scholarship-online/book/15707/chapter-abstract/170494941
+    publisher: Cornell University Press / Oxford Academic
+  - id: kazakh-pastoralism-pianciola-encyclopedia
+    title: Nomads and the State in Soviet Kazakhstan
+    url: https://academic.oup.com/edited-volume/61799/chapter-abstract/546311768
+    publisher: Oxford Research Encyclopedia of Asian History
+  - id: kazakh-pastoralism-collectivization-history
+    title: From the history of collectivization of agriculture in Kazakhstan
+    url: https://e-history.kz/en/history-of-kazakhstan/show/9610
+    publisher: Qazaqstan Tarihy / Institute of History and Ethnology
+  - id: kazakh-pastoralism-fao
+    title: Pastoralism
+    url: https://www.fao.org/policy-support/policy-themes/pastoralism/en
+    publisher: Food and Agriculture Organization of the United Nations
+  - id: kazakh-pastoralism-davis-center
+    title: Remembering the Kazakh Famine
+    url: https://daviscenter.fas.harvard.edu/insights/remembering-kazakh-famine
+    publisher: Davis Center for Russian and Eurasian Studies, Harvard University
+  - id: kazakh-pastoralism-cameron-review
+    title: 'The Kazakh Famine of 1930–33: Current Research and New Directions'
+    url: https://journals.library.ualberta.ca/www.ewjus.com/index.php/ewjus/article/download/220/88/525
+    publisher: 'East/West: Journal of Ukrainian Studies'
+  - id: kazakh-pastoralism-pianciola-comparison
+    title: 'Ukraine and Kazakhstan: Comparing the Famines'
+    url: https://www.cambridge.org/core/journals/contemporary-european-history/article/ukraine-and-kazakhstan-comparing-the-famines/D1D006A6A53BFD27F68E43CB8D91C6AA
+    publisher: Contemporary European History
+  - id: kazakh-pastoralism-ohayon
+    title: 'The Kazakh Famine: The Beginnings of Sedentarization'
+    url: https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/kazakh-famine-beginnings-sedentarization.html
+    publisher: Sciences Po Mass Violence and Resistance Research Network
+  - id: kazakh-pastoralism-regional-study
+    title: The Problem of Sedentarization of the Kazakhs of Central Kazakhstan in the 1930s
+    url: https://doi.org/10.31489/2025hph4/141-149
+    publisher: Bulletin of the Karaganda University — History and Philosophy Series
+  - id: kazakh-pastoralism-1932-resolution
+    title: 'Politburo resolution “On Agriculture and, in Particular, Livestock Farming in Kazakhstan,” 17 September 1932'
+    url: https://istmat.org/node/37815
+    publisher: Central Committee of the All-Union Communist Party (Bolsheviks) / Historical Materials
+evidence:
+  - id: kazakh-pastoralism-cameron-proposition
+    sourceId: kazakh-pastoralism-cameron-chapter
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Chapter 4, pp. 97–121
+    note: >-
+      Shows that Soviet leaders pursued forced collectivization and sedentarization to increase steppe productivity while
+      repeatedly ignoring warnings about the risks.
+  - id: kazakh-pastoralism-ohayon-proposition
+    sourceId: kazakh-pastoralism-ohayon
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: The beginnings of collectivization; The leaders
+    note: >-
+      Describes settlement as part of an ideological project for controlling and transforming nomadic society and records
+      Goloshchekin’s contempt for a population whose supposed backwardness his policies sought to overcome.
+  - id: kazakh-pastoralism-fao-correction
+    sourceId: kazakh-pastoralism-fao
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Overview; Key messages
+    note: >-
+      Identifies mobility and shared resource use as key strategies for managing dryland variability and shocks, and
+      explains that pastoral systems require flexible governance and secure access to resources.
+  - id: kazakh-pastoralism-davis-correction
+    sourceId: kazakh-pastoralism-davis-center
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Sarah Cameron’s remarks on pastoral nomadism and steppe ecology
+    note: >-
+      Explains that Kazakh pastoral nomadism was a sophisticated adaptation to the steppe’s aridity and scarcity of water
+      and good pasture, and that Moscow received clear warnings about the hazards of rapid settlement.
+  - id: kazakh-pastoralism-cameron-impact
+    sourceId: kazakh-pastoralism-cameron-review
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: pp. 119–121, 127
+    note: >-
+      Reports more than 1.1 million departures in 1931–33, an October 1932 calculation of a 90.8 percent decline in animal
+      numbers, and an estimated 1.5 million deaths, approximately 1.3 million of them ethnic Kazakhs.
+  - id: kazakh-pastoralism-pianciola-impact-context
+    sourceId: kazakh-pastoralism-pianciola-comparison
+    relation: contextualizes
+    target: {scope: belief, aspect: impact}
+    locator: Kazakhstan comparison
+    note: >-
+      Argues that collectivization disruption and grain and livestock requisitions drove the famine, while famine and herd
+      loss themselves produced much of the eventual settlement. This guards against assigning the whole catastrophe to
+      the formal sedentarization program alone.
+  - id: kazakh-pastoralism-cameron-carrier
+    sourceId: kazakh-pastoralism-cameron-chapter
+    relation: documents
+    target: {scope: episode, episodeId: soviet-kazakhstan-1928-1933, aspect: carrier}
+    locator: Chapter 4, pp. 97–121
+    note: >-
+      Reconstructs decision-making by Moscow and the Kazakhstan party leadership during the launch of forced
+      collectivization and settlement.
+  - id: kazakh-pastoralism-kazkraikom-carrier
+    sourceId: kazakh-pastoralism-collectivization-history
+    relation: documents
+    target: {scope: episode, episodeId: soviet-kazakhstan-1928-1933, aspect: carrier}
+    note: >-
+      Identifies the Kazakh Regional Committee as a central institutional driver and records its directives to accelerate
+      collectivization in livestock regions.
+  - id: kazakh-pastoralism-regional-carrier
+    sourceId: kazakh-pastoralism-regional-study
+    relation: documents
+    target: {scope: episode, episodeId: soviet-kazakhstan-1928-1933, aspect: carrier}
+    locator: pp. 142–144
+    note: >-
+      Uses records of the Kazakh ASSR Central Executive Committee, Sedentarization Committee, regional executive bodies
+      and political police to reconstruct the administrative chain and local implementation.
+  - id: kazakh-pastoralism-encyclopedia-mechanism
+    sourceId: kazakh-pastoralism-pianciola-encyclopedia
+    relation: documents
+    target: {scope: episode, episodeId: soviet-kazakhstan-1928-1933, aspect: mechanism}
+    locator: Abstract
+    note: >-
+      Documents the sudden 1929 plan for total sedentarization, its merger with collectivization, and the later livestock
+      requisitions that turned an existing starvation crisis into catastrophic famine.
+  - id: kazakh-pastoralism-regional-mechanism
+    sourceId: kazakh-pastoralism-regional-study
+    relation: supports
+    target: {scope: episode, episodeId: soviet-kazakhstan-1928-1933, aspect: mechanism}
+    locator: pp. 141–146
+    note: >-
+      Describes settlement targets, administrative orders and poorly supplied sites in Central Kazakhstan, including
+      inadequate water, housing, pasture, tools and building materials.
+  - id: kazakh-pastoralism-collectivization-context
+    sourceId: kazakh-pastoralism-collectivization-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-kazakhstan-1928-1933, aspect: context}
+    note: >-
+      Connects accelerated settlement to changed production patterns and pasture pressure while situating it within the
+      wider collectivization and procurement crisis.
+  - id: kazakh-pastoralism-cameron-consequences
+    sourceId: kazakh-pastoralism-cameron-review
+    relation: supports
+    target: {scope: episode, episodeId: soviet-kazakhstan-1928-1933, aspect: consequences}
+    locator: pp. 119–121
+    note: >-
+      Documents mass departure, herd collapse, famine mortality and the loss of livestock that forced many Kazakhs to
+      abandon mobile pastoralism.
+  - id: kazakh-pastoralism-ohayon-consequences
+    sourceId: kazakh-pastoralism-ohayon
+    relation: supports
+    target: {scope: episode, episodeId: soviet-kazakhstan-1928-1933, aspect: consequences}
+    locator: The beginnings of collectivization; The victims
+    note: >-
+      Describes the combined effects of livestock and grain requisitions, famine, flight, herd loss and refugee
+      resettlement, and explains why the resulting decline of nomadic life became difficult to reverse.
+  - id: kazakh-pastoralism-pianciola-context
+    sourceId: kazakh-pastoralism-pianciola-comparison
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-kazakhstan-1928-1933, aspect: context}
+    locator: Kazakhstan comparison
+    note: >-
+      Identifies extraordinary livestock procurement as the crucial escalation and distinguishes it from the formal
+      settlement campaign, which became secondary to collectivization and extraction.
+  - id: kazakh-pastoralism-resolution-correction
+    sourceId: kazakh-pastoralism-1932-resolution
+    relation: documents
+    target: {scope: episode, episodeId: soviet-kazakhstan-1928-1933, aspect: institutional-correction}
+    locator: Sections 1–3
+    note: >-
+      The primary resolution authorizes food and seed aid, private animals, two-year procurement and tax exemptions and a
+      lower grain quota, while still affirming gradual settlement, collectivization, agriculture and European-style villages.
+  - id: kazakh-pastoralism-cameron-correction
+    sourceId: kazakh-pastoralism-cameron-review
+    relation: supports
+    target: {scope: episode, episodeId: soviet-kazakhstan-1928-1933, aspect: institutional-correction}
+    locator: pp. 119–121
+    note: >-
+      Dates the limited concessions to 17 September 1932, including private livestock and food aid, records
+      Goloshchekin’s removal in early 1933, and notes a limited post-famine revival of nomadism to rebuild herds.
+  - id: kazakh-pastoralism-encyclopedia-correction
+    sourceId: kazakh-pastoralism-pianciola-encyclopedia
+    relation: supports
+    target: {scope: episode, episodeId: soviet-kazakhstan-1928-1933, aspect: institutional-correction}
+    locator: Abstract
+    note: >-
+      Records that private ownership of animals and pastoral ways were explicitly permitted again after procurement ended,
+      although routes were shortened and pastoral work remained organized through state and collective farms.

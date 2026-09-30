@@ -1,46 +1,204 @@
+schemaVersion: 2
 locale: de
 entryId: martial-races
-sourceReviewedAt: 2026-08-23
-title: „Kriegerrassen“
-claim: Bestimmten südasiatischen Gemeinschaften wurden angeborene rassische oder erbliche Eigenschaften zugeschrieben,
-  die sie von Natur aus zu besseren Soldaten machen sollten als andere.
-currentUnderstanding: Militärische Leistungsfähigkeit ist keine erbliche Eigenschaft einer „Rasse“, Ethnie oder
-  Kaste. Ausbildung, Auswahl, Ernährung, Organisation, Erfahrung, Anreize, Technologie und soziale Bedingungen beeinflussen
-  militärische Effektivität; breite Abstammungsgruppen begründen keine angeborene Eignung zum Soldaten.
+sourceReviewedAt: '2026-09-30'
+title: „Kriegerrassen“ als angeborene militärische Typen
+proposition:
+  summary: >-
+    Britisch-indische und später pakistanische Militärbehörden behandelten ausgewählte südasiatische ethnische, nach
+    Kaste, Religion oder Region definierte Gemeinschaften als Träger wesenseigener, erblicher oder umweltbedingt
+    festgelegter soldatischer Eigenschaften und richteten Rekrutierung und Truppenzusammensetzung nach diesen
+    Klassifikationen aus.
+correction:
+  summary: >-
+    Breite rassische, ethnische, kastenbezogene oder regionale Kategorien belegen keine angeborene militärische Eignung
+    eines Menschen oder einer Bevölkerung. Die kolonialen Kategorien bildeten keine klar abgegrenzten biologischen
+    Einheiten ab und verschoben sich wiederholt mit politischen Loyalitätsurteilen, Rekrutierungsbeziehungen und dem
+    Personalbedarf im Krieg. Ausbildung, Gesundheit, Ernährung, Organisation, Erfahrung, Zugang, Anreize, Technologie
+    und soziale Bedingungen beeinflussen militärische Teilhabe und Leistung. Auch die moderne biologische Anthropologie
+    stellt fest, dass sozial definierte „Rassen“ die kontinuierlichen und überlappenden Muster menschlicher biologischer
+    Variation nicht angemessen abbilden.
+impact:
+  summary: >-
+    Die Doktrin wirkte durch die Rekrutierungsverwaltung und blieb nicht bloß ein allgemeines Stereotyp. Hauptquartier
+    und Rekrutierungshandbücher der Britisch-Indischen Armee teilten Gemeinschaften in bevorzugte und ausgeschlossene
+    Gruppen ein; der Anteil Punjabs und der North-West Frontier an den Rekruten der indischen Infanterie stieg dadurch
+    von 28 Prozent im Jahr 1862 auf 57 Prozent im Jahr 1914. In beiden Weltkriegen zwang der Personalbedarf die Behörden,
+    auch außerhalb vermeintlich feststehender „Kriegerrassen“ zu rekrutieren. Dies machte die Abhängigkeit der Kategorien
+    von äußeren Umständen sichtbar, ohne zu einer klaren institutionellen Absage zu führen. Pakistan übernahm 1947 diese
+    Truppenstruktur und das System der „class composition“. Obwohl Ostpakistan die Bevölkerungsmehrheit stellte, entfielen
+    1955/56 nur 1,6 Prozent der Offiziersposten des Heeres auf Ostpakistan; begrenzte Reformen beseitigten das Ungleichgewicht
+    bis 1971 nicht.
+  highlights:
+    - value: 28 % → 57 %
+      label: Anteil Punjabs und der North-West Frontier an den Rekruten der indischen Infanterie, 1862 bis 1914
+    - value: 1,6 %
+      label: Anteil Ostpakistans an den Offiziersposten des pakistanischen Heeres 1955/56
+    - value: unter 8 %
+      label: berichtete Höchstquote für Bengalen nach der Heeresregelung zur „class composition“ von 1960
+  context:
+    - >-
+      Die Lehre von den „martial races“ war keine in sich geschlossene genetische Theorie. Behörden verbanden Aussagen
+      über Abstammung, Kaste, Religion, Region, Klima, Ernährung, Beruf, Männlichkeit und politische Loyalität und passten
+      die daraus gewonnenen Klassifikationen anschließend an Verwaltungs- und Militärbedürfnisse an.
+    - >-
+      Rekrutierungsanteile belegen institutionelle Auswahl und den Zugang zu militärischer Beschäftigung. Für sich allein
+      messen sie nicht die Gefechtsleistung einzelner Soldaten oder Gemeinschaften.
+    - >-
+      Die Ausweitung der Rekrutierung über zuvor bevorzugte Gruppen hinaus war eine praktische Korrektur der exklusiven
+      Auswahl, keine dokumentierte wissenschaftliche Abkehr von der Doktrin. Auch Pakistan nahm mit ostbengalischen
+      Einheiten und geänderten Zugangsregeln reale, aber begrenzte Änderungen vor, während Bengalen stark unterrepräsentiert blieben.
 episodes:
-- id: british-india-1880-1947
-  polity: Britisch-Indien
-  institutions:
-  - Britisch-Indische Armee
-  - Army Headquarters, India
-  - Adjutant-General’s Branch, Recruiting Directorate
-  summary: 'Seit dem späten 19. Jahrhundert bevorzugte die Rekrutierung der britisch-indischen Armee zunehmend Gemeinschaften,
-    die als „martial races“ eingestuft wurden, darunter Sikhs, Gurkhas sowie Teile der punjabischen muslimischen
-    und nordwestlichen Bevölkerung. Dabei handelte es sich nicht nur um ein diffuses koloniales Vorurteil: Die Rekrutierungspolitik
-    und ihr Verwaltungsapparat klassifizierten Gemeinschaften nach vermeintlich angeborenen oder durch Herkunft
-    und Umwelt festgelegten soldatischen Eigenschaften und konzentrierten die Rekrutierung auf ausgewählte Regionen
-    und Gruppen.'
-  consequences:
-  - Selektive Militärrekrutierung
-  - Ungleicher Zugang zu militärischer Beschäftigung
-  - Rassifizierte Einteilung von Gemeinschaften
-  institutionalContext: Die Rekrutierungspolitik wurde über Army Headquarters und den Rekrutierungsapparat der Adjutant-General’s
-    Branch zentralisiert und anschließend durch Regimenter und regionale Rekrutierungsstellen umgesetzt. Die Autorität
-    verlief damit von klar identifizierbaren Hauptquartieren und Rekrutierungsstellen in einen breiteren dezentralen Apparat.
-- id: pakistan-1947-1971
-  polity: Pakistan
-  institutions:
-  - Pakistan Army
-  - General Headquarters (GHQ), Pakistan Army
-  summary: Nach der Unabhängigkeit entfernte sich Pakistan formal von der britischen Rassenterminologie, übernahm
-    jedoch eine Armee, deren Rekrutierungsgeografie und „class composition“ vom kolonialen System der „martial races“
-    geprägt worden waren. Führende Offiziere hielten Bengalen weiterhin für wenig geeignetes militärisches Personal,
-    und die Rekrutierung aus Ostpakistan wuchs nur langsam. Bengalen blieben bis in die 1960er-Jahre stark unterrepräsentiert;
-    die übernommene Doktrin wurde damit Teil des größeren institutionellen Ungleichgewichts zwischen Ost- und Westpakistan.
-  consequences:
-  - Starke Unterrepräsentation von Bengalen in den Streitkräften
-  - Regionale Konzentration der Rekrutierung auf Punjab und den Nordwesten
-  - Politische Spannungen in Ostpakistan
-  institutionalContext: Nach 1947 übernahm die Pakistan Army große Teile der Regiments- und Rekrutierungsstruktur
-    der British Indian Army. Das General Headquarters prägte die Zusammensetzung der Streitkräfte, während die Regimentsrekrutierung
-    Präferenzen für Punjabis und Paschtunen aus dem älteren „martial races“-Rahmen fortführte.
+  - id: british-india-1880-1947
+    polity: Britisch-Indien
+    periodLabel: 1880er-Jahre–1947
+    institutions:
+      - Britisch-Indische Armee
+      - Army Headquarters, India
+      - Adjutant-General’s Branch, Recruiting Directorate
+    institutionalContext: >-
+      Seit dem späten 19. Jahrhundert konzentrierten Army Headquarters und der Rekrutierungsapparat der Adjutant-General’s
+      Branch die Anwerbung zunehmend auf Gemeinschaften, die als „martial“ eingestuft wurden. Amtliche Berichte und eine
+      Reihe von Rekrutierungshandbüchern der Indian Army machten daraus Verwaltungsvorgaben für bestimmte Kasten,
+      Religionen und Regionen. Die Kriterien waren nie stabil: Politische Loyalität nach 1857, Rekrutierungsnetzwerke und
+      vermeintlicher Nutzen an der Nordwestgrenze wirkten neben rassifizierten Behauptungen über erbliche oder durch die
+      Umwelt festgelegte Eigenschaften.
+    consequences:
+      - Selektive Rekrutierung konzentrierte militärische Beschäftigung auf bevorzugte Gemeinschaften und Regionen
+      - Als nicht kriegerisch eingestuften Gemeinschaften wurde der Zugang zum Heeresdienst und zum Aufstieg erschwert
+      - Amtliche Handbücher und Rekrutierungsstellen institutionalisierten rassifizierte, kastenbezogene und regionale Kategorien
+      - Militärische Beschäftigung und Patronage festigten ungleiche Beziehungen zwischen Kolonialstaat und Rekrutierungsgebieten
+    summary: >-
+      Die Rekrutierungspolitik der Britisch-Indischen Armee bevorzugte zunehmend Sikhs, Gurkhas, punjabische Muslime,
+      Paschtunen und weitere ausgewählte Gruppen als „martial“, während sie als ungeeignet bewertete Gemeinschaften
+      ausschloss oder begrenzte. Dahinter stand eine widersprüchliche Mischung aus Rassentheorie, Kasten- und
+      Religionsethnografie, Umweltbehauptungen, politischer Loyalität und praktischen Bündnissen. Im Krieg wurde die
+      Instabilität sichtbar: Für die Massenmobilisierung ließ die Armee auch zuvor als nicht kriegerisch eingestufte
+      Gruppen zu, hielt jedoch an bevorzugten Rekrutierungsregionen und der Sprache militärischer Typen fest.
+    mechanism:
+      summary: >-
+        Hauptquartier, Rekrutierungsdirektionen, Regimenter und regionale Anwerbestellen klassifizierten Gemeinschaften
+        durch Berichte, Handbücher und Regeln zur „class composition“. So wurde die Doktrin in Entscheidungen darüber
+        übersetzt, wer sich melden konnte und welche Gruppen bestimmte Einheiten stellen sollten.
+    institutionalCorrection:
+      periodLabel: 1914–1945
+      action: Der Personalbedarf der Weltkriege weitete die Rekrutierung über zuvor als kriegerisch eingestufte Gemeinschaften hinaus aus.
+      summary: >-
+        Im Ersten Weltkrieg wurden zusätzliche Gemeinschaften in den Rekrutierungspool aufgenommen; Zahlen des Zweiten
+        Weltkriegs zeigen zudem umfangreiche Anwerbung in Regionen, die das ältere System benachteiligt hatte, darunter
+        Madras und Bengalen. Diese Änderungen schwächten die exklusive Anwendung in der Praxis, bedeuteten vor dem Ende
+        der britischen Herrschaft 1947 aber keine dokumentierte institutionelle Absage.
+  - id: pakistan-1947-1971
+    polity: Pakistan
+    periodLabel: 1947–1971
+    institutions:
+      - Pakistan Army
+      - General Headquarters (GHQ), Pakistan Army
+    institutionalContext: >-
+      Pakistan übernahm Regimenter, Rekrutierungsgeografie und ein von punjabischen und paschtunischen Soldaten dominiertes
+      System der „class composition“. Eine Regimentsdarstellung von 1950 beschrieb nach der Teilung eine nominelle Änderung
+      zu gleichen Anteilen punjabischer Muslime und Paschtunen, ließ aber die bengalische Bevölkerungsmehrheit und andere
+      Gruppen unerwähnt. Eine spätere BIISS-Studie berichtet, dass die Heeresregelung zur „class composition“ von 1960 den
+      bengalischen Anteil auf weniger als 8 Prozent begrenzte. Zugangsvoraussetzungen, Standorte der Rekrutierung und die
+      Offiziersauswahl reproduzierten das Ungleichgewicht, obwohl die offizielle Politik als allen Pakistanern offen
+      dargestellt wurde.
+    consequences:
+      - Starke Unterrepräsentation von Bengalen in den Offiziers- und Mannschaftsrängen des Heeres
+      - Konzentration militärischer Beschäftigung, höherer Kommandos und institutioneller Macht in Westpakistan
+      - Eingeschränkter Zugang Ostpakistanis zu militärischer Ausbildung, Beförderung und Verteidigungsressourcen
+      - Sichtbare regionale Ungleichheit, die politische Spannungen und bengalische Entfremdung vertiefte
+    summary: >-
+      Pakistan übernahm 1947 nicht nur eine demografisch ungleich zusammengesetzte Armee. Die Regeln zu „class composition“
+      und Rekrutierung bevorzugten weiterhin Punjabis und Paschtunen; Militärbehörden beriefen sich auf die vermeintlich
+      fehlenden kriegerischen Eigenschaften der Bengalen und hielten Zugangsregeln und Quoten aufrecht, die ihre Teilhabe
+      begrenzten. Das East Bengal Regiment und spätere Rekrutierungsreformen erweiterten den Zugang, doch bis 1971 blieb
+      der bengalische Anteil am Heer weit unter dem Bevölkerungsanteil des östlichen Landesteils.
+    mechanism:
+      summary: >-
+        Das General Headquarters sowie die Rekrutierungs- und Zusammensetzungsregeln des Heeres überführten ererbte
+        Präferenzen in Truppenstruktur, Zugangsvoraussetzungen, Quoten, Einheitenorganisation und Offiziersauswahl. So
+        entstand dauerhafte regionale Ausgrenzung, ohne dass ein einzelnes öffentliches Gesetz Bengalen ausdrücklich als
+        nicht kriegerisch bezeichnen musste.
+    institutionalCorrection:
+      periodLabel: 1948–1965
+      action: Pakistan gründete 1948 das East Bengal Regiment, senkte nach dem Krieg von 1965 die Mindestgröße und verdoppelte die Rekrutierungsquote für Bengalen.
+      summary: >-
+        Das East Bengal Regiment wurde 1948 gegründet; in der frühen Zeit nach der Unabhängigkeit entstanden zwei
+        Bataillone, in den folgenden zwei Jahrzehnten kamen sechs weitere hinzu. Nach 1965 kündigte das Heer niedrigere
+        Größenvorgaben und eine verdoppelte bengalische Quote an. Diese Maßnahmen erkannten das Problem an und erweiterten
+        den Zugang geringfügig, doch die verfügbaren Repräsentationszahlen zeigen bis zur Entstehung Bangladeschs 1971
+        keine grundlegende Umkehr des Ungleichgewichts.
+evidence:
+  - id: martial-races-roy-proposition
+    note: >-
+      Die Studie stellt fest, dass die Lehre von den „martial races“ seit dem späten 19. Jahrhundert die Rekrutierungspolitik
+      der Indian Army prägte, im Ersten Weltkrieg mit Änderungen in Kraft blieb und der Kolonialmacht erlaubte,
+      Gemeinschaften durch Rekrutierung zu teilen und zu steuern.
+  - id: martial-races-aaba-correction
+    note: >-
+      Der Fachverband für biologische Anthropologie erklärt, dass sozial definierte „Rassen“ menschliche biologische
+      Variation nicht angemessen abbilden: Bevölkerungen sind weder klar getrennt noch unveränderlich, Variation verläuft
+      weitgehend kontinuierlich und Gruppengrenzen sind historisch und politisch konstruiert.
+  - id: martial-races-encyclopedia-impact
+    note: >-
+      Der Anteil Punjabs und der North-West Frontier an den Rekruten der indischen Infanterie stieg demnach von 28 Prozent
+      im Jahr 1862 auf 57 Prozent im Jahr 1914; der Personalbedarf des Ersten Weltkriegs führte zugleich zur Aufnahme von
+      Gemeinschaften, die zuvor als nicht kriegerisch ausgeschlossen worden waren.
+  - id: martial-races-biiss-impact
+    note: >-
+      Die historische und statistische Studie kommt zu dem Schluss, dass die anhaltende Unterrepräsentation von Bengalen
+      in Pakistans Streitkräften die Entfremdung vertiefte und militärische Ausgrenzung zum Teil des umfassenderen
+      Scheiterns nationaler Integration machte.
+  - id: martial-races-bl-report-carrier
+    note: >-
+      Katalogeintrag zum Bericht von Army Headquarters aus dem Jahr 1919 über die Rekrutierung vor und während des Ersten
+      Weltkriegs; er identifiziert den amtlichen institutionellen Träger und dessen Dokumentation.
+  - id: martial-races-bl-handbooks-mechanism
+    note: >-
+      Katalogserie der British Library zu amtlichen Rekrutierungshandbüchern der Indian Army für Brahmanen, Dogras,
+      Garhwalis, Gurkhas, Muslime, Jats und weitere klassifizierte Gemeinschaften; sie zeigt die administrative Form der Doktrin.
+  - id: martial-races-rand-wagner-mechanism
+    note: >-
+      Erläutert die Rassifizierung der Rekrutierung seit dem späten 19. Jahrhundert, betont zugleich die Widersprüche und
+      praktische Komplexität der Politik sowie die für Kolonialstaat und ausgewählte Verbündete vorteilhaften Beziehungen.
+  - id: martial-races-oup-context
+    note: >-
+      Verknüpft koloniale Ethnografie, das Bestreben nach 1857, neue Bündnisse gegen die britische Herrschaft zu verhindern,
+      und die überproportionale Rekrutierung von Sikhs, weiteren Punjabis und Gurkhas, weist aber auch auf praktische und
+      politische Grenzen der Doktrin hin.
+  - id: martial-races-tna-consequences
+    note: >-
+      Die amtliche Rekrutierungskarte für 1939 bis 1944 weist 25,5 Prozent der Einstellungen Punjab zu, zugleich aber 18,4
+      Prozent Madras und 6,8 Prozent Bengalen. Sie dokumentiert sowohl die fortbestehende geografische Schieflage als auch
+      die kriegsbedingte Ausweitung über ältere Präferenzen hinaus.
+  - id: martial-races-encyclopedia-correction
+    note: >-
+      Zeigt, dass der Personalbedarf im Ersten Weltkrieg vermeintlich feste Klassifikationen veränderte, während die
+      Theorie und ihre politischen Funktionen die Ausweitung überdauerten.
+  - id: martial-races-mcu-carrier
+    note: >-
+      Beschreibt, wie ranghohe britische Offiziere und das überwiegend punjabische und paschtunische Offizierskorps die
+      Präferenzen der „martial races“ in die frühe Pakistan Army und deren Offiziersausbildung übertrugen.
+  - id: martial-races-mcu-mechanism
+    note: >-
+      Dokumentiert General Douglas Graceys Beschreibung von 1950, wonach die Zusammensetzung nach der Teilung zu 50 Prozent
+      aus punjabischen Muslimen und zu 50 Prozent aus Paschtunen bestand. Die Reform blieb damit auf bevorzugte westliche
+      Gruppen beschränkt und ließ Bengalen unberücksichtigt.
+  - id: martial-races-biiss-carrier
+    note: >-
+      Rekonstruiert Rekrutierungspolitik, Zusammensetzung und amtliche Begründungen für die geringe bengalische Beteiligung,
+      darunter die Behauptung, Bengalen seien nicht kriegerisch und für das Militärleben ungeeignet.
+  - id: martial-races-biiss-mechanism
+    note: >-
+      Berichtet über Zugangsvoraussetzungen, Rekrutierungsstrukturen und eine Heeresregelung von 1960, die für Bengalen
+      eine Höchstquote unter 8 Prozent festlegte und so die Doktrin mit administrativer Ausgrenzung verband.
+  - id: martial-races-biiss-consequences
+    note: >-
+      Beziffert Ostpakistans Anteil an den Offiziersposten des Heeres 1955/56 auf 1,6 Prozent und an den patentierten
+      Heeresoffizieren 1963 auf 5 Prozent und verbindet die fortgesetzte Ausgrenzung mit politischer Entfremdung und dem
+      Scheitern nationaler Integration.
+  - id: martial-races-biiss-correction
+    note: >-
+      Dokumentiert die Gründung des East Bengal Regiment 1948, zwei Bataillone in seiner frühen Entwicklung, sechs weitere
+      in den folgenden zwanzig Jahren sowie nach 1965 eine gesenkte Mindestgröße und eine verdoppelte Quote, stellt aber
+      weiterhin nur eine marginale bengalische Beteiligung fest.

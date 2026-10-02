@@ -1,18 +1,180 @@
+schemaVersion: 2
 locale: de
 entryId: phrenology
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: '2026-10-03'
 title: Phrenologie
-claim: Geistige Fähigkeiten und Charakter lassen sich aus der Schädelform ableiten, weil verschiedene „Organe“ des Gehirns den darüberliegenden Schädel unterschiedlich ausformen.
-currentUnderstanding: Hirnfunktionen beruhen auf Nervengewebe und verteilten Netzwerken. Unebenheiten des Schädels liefern keine gültige Karte von Persönlichkeit, Intelligenz, Moral oder geistigen Fähigkeiten.
+proposition:
+  summary: >-
+    Man nahm an, dass die unterschiedliche Ausbildung vermeintlicher geistiger „Organe“ im Gehirn den darüberliegenden
+    Schädel forme. Aus der Kontur eines Kopfes sollten sich deshalb angeborene Fähigkeiten, Charakter, Intelligenz und
+    moralische Anlagen ablesen lassen.
+correction:
+  summary: >-
+    Das Gehirn weist funktionelle Spezialisierungen auf, doch Kognition und Persönlichkeit entstehen aus dem
+    Zusammenwirken neuronaler Systeme und nicht aus einer phrenologischen Karte fester Fähigkeitsorgane. Weder die
+    Faltung der Hirnrinde noch geistige Eigenschaften lassen sich an Erhebungen des Schädels oder der Kopfhaut ablesen.
+    Eine MRT-Analyse von 5.724 Teilnehmenden der UK Biobank fand 2018 keine statistisch signifikanten oder inhaltlich
+    bedeutsamen Zusammenhänge zwischen lokaler Kopfhautkrümmung und den untersuchten Ersatzmaßen phrenologischer
+    Fähigkeiten; auch die Hirnwindungen erklärten nur einen sehr kleinen Teil der Unterschiede in der Kopfhautkrümmung.
+impact:
+  summary: >-
+    George Combe und seine Mitstreiter gründeten am 22. Februar 1820 die Edinburgh Phrenological Society, die erste
+    derartige Gesellschaft auf den Britischen Inseln. London folgte; eine zeitgenössische Erhebung zählte 1836 bereits
+    30 phrenologische Gesellschaften. Versammlungen, Vorträge, Zeitschriften, Bücher, Museen und Sammlungen machten die
+    Lehre zu einer organisierten öffentlichen Wissenschaft; einige Psychiater verwendeten ihre Begriffe zur Deutung
+    psychischer Erkrankungen. Im Royal Edinburgh Asylum richtete der Arzt und Leiter William Mackinnon ein Museum mit
+    phrenologischen Abgüssen von Patientenköpfen ein. Um 1850 befanden sich die wissenschaftlichen Ansprüche der
+    Phrenologie im endgültigen Niedergang. Die Akten der Edinburgher Gesellschaft reichen jedoch bis zu ihrer letzten
+    dokumentierten Sitzung im Jahr 1870, und ihre materielle Sammlung überdauerte sie noch lange.
+  highlights:
+    - value: 22. Februar 1820
+      label: Gründungsdatum der Edinburgh Phrenological Society
+    - value: '30'
+      label: Zahl der 1836 auf den Britischen Inseln erfassten phrenologischen Gesellschaften
+    - value: '1870'
+      label: Jahr der letzten dokumentierten Sitzung der Edinburgher Gesellschaft
+  context:
+    - >-
+      Die klarsten institutionellen Träger waren spezialisierte phrenologische Gesellschaften und für einen engeren
+      Zeitraum eine konkret belegte Praxis in einer psychiatrischen Anstalt. Einige Ärzte, Psychiater, Pädagogen und
+      Sozialreformer übernahmen phrenologische Vorstellungen; diese verteilten Netzwerke werden hier jedoch nicht als
+      Zustimmung der britischen Medizin, der Universitäten oder des Staates behandelt. Wissenschaftliche und medizinische
+      Kritiker widersprachen der Phrenologie während ihres gesamten Aufstiegs.
+    - >-
+      Die Phrenologie trug dazu bei, die allgemeine Vorstellung zu verbreiten, dass geistige Vorgänge vom Gehirn abhängen
+      und funktionelle Spezialisierung aufweisen können. Dieser begrenzte historische Beitrag bestätigt weder ihren festen
+      Katalog von Fähigkeiten noch deren behauptete Orte oder den Schluss von der äußeren Kopfform auf Persönlichkeit und
+      Begabung.
+    - >-
+      Der Verlust wissenschaftlichen Ansehens und die Auflösung einer Organisation sind nicht dasselbe wie eine belegte
+      institutionelle Korrektur. Die erhaltenen Quellen weisen keine formelle Widerrufserklärung der genannten
+      phrenologischen Gesellschaften nach.
 episodes:
-  - id: britain-1820-1850
+  - id: britain-phrenological-societies-1820-1870
     polity: Vereinigtes Königreich
     institutions:
       - Edinburgh Phrenological Society
       - London Phrenological Society
-    institutionalContext: Phrenologische Vorstellungen zirkulierten darüber hinaus unter Ärzten, Psychiatern, Pädagogen und Sozialreformern. Diese verteilten Fachnetzwerke werden hier jedoch nicht so behandelt, als seien sie eine einzelne Institution. Die beiden genannten Gesellschaften sind die klarsten identifizierbaren institutionellen Träger dieser Episode.
-    summary: Die Phrenologie bildete organisierte wissenschaftliche Gesellschaften und beeinflusste einige britische Ärzte, Psychiater, Pädagogen und Sozialreformer. Ihre institutionellen Ambitionen gingen um die Mitte des Jahrhunderts zurück, auch wenn populäre Praxis wesentlich länger fortbestand.
+    institutionalContext: >-
+      Die Edinburgh Phrenological Society wurde 1820 gegründet und unterhielt Versammlungen, Vorträge, Akten sowie ein
+      Museum mit Schädeln, Abgüssen und Masken. Die Londoner Gesellschaft war ein weiterer klar identifizierbarer Träger;
+      die breitere Bewegung umfasste 1836 bereits 30 Gesellschaften. Diese freiwilligen Fachvereinigungen belegen keinen
+      Konsens der britischen Wissenschaft oder Medizin. Mit organisiertem Publizieren, Lehren und Sammeln gaben sie der
+      Phrenologie dennoch dauerhaft den Anschein wissenschaftlicher und fachlicher Seriosität. Um die Mitte des
+      Jahrhunderts gingen ihre institutionellen Ambitionen stark zurück; die letzte dokumentierte Edinburgher Sitzung
+      im Jahr 1870 beendete diese Gesellschaft.
     consequences:
-      - Phrenologische Vorstellungen flossen in psychiatrische und neurologische Deutungen ein
-      - Bildungs- und Sozialreformargumente wurden mit vermeintlich schädelbasierten Fähigkeiten begründet
-      - Organisierte Gesellschaften verliehen der Lehre wissenschaftliche und fachliche Legitimität
+      - Gesellschaften organisierten Versammlungen, Vorträge, Zeitschriften und Bücher rund um die phrenologische Lehre
+      - Museen sammelten und zeigten Schädel, Büsten und Masken als vermeintliche Belege für einen Zusammenhang zwischen Kopfform und Charakter
+      - George Combes Schriften übertrugen phrenologische Behauptungen auf Vererbung, Bildung und Programme gesellschaftlicher Verbesserung
+      - Organisierte Gesellschaften verliehen der Lehre trotz anhaltender Kritik einen wissenschaftlichen und fachlichen Anschein
+      - Phrenologische Begriffe beeinflussten einige britische Psychiater, ohne medizinischer Konsens zu werden
+    summary: >-
+      Die britische Phrenologie erhielt ihre dauerhafte institutionelle Form durch benannte Gesellschaften, nicht durch
+      eine allgemeine Übernahme seitens Staat oder Universitäten. Die Gesellschaften in Edinburgh und London lehrten,
+      publizierten, sammelten Anschauungsobjekte und verbanden die Lehre mit Programmen individueller und
+      gesellschaftlicher Verbesserung. Wissenschaftliche Glaubwürdigkeit und institutioneller Anspruch brachen um die
+      Mitte des Jahrhunderts ein. Die Edinburgher Organisation bestand dennoch bis zu ihrer letzten dokumentierten
+      Sitzung 1870 fort, und ihre Sammlung überdauerte die Gesellschaft.
+    mechanism:
+      summary: >-
+        Die Gesellschaften nutzten Versammlungen, öffentliche Vorträge, Zeitschriften, Bücher, Museen und
+        Objektsammlungen, um die Lehre zu vermitteln, die Beobachtung von Köpfen einzuüben und ihre Behauptungen als
+        organisierte empirische Wissenschaft darzustellen.
+    institutionalCorrection:
+      periodLabel: ca. 1842–1870
+      summary: >-
+        Wissenschaftliche Kritik, interne Spaltung und schwindende Glaubwürdigkeit beendeten die institutionellen
+        Ambitionen der Bewegung; nach ihrer letzten dokumentierten Sitzung im Jahr 1870 stellte die Edinburgher
+        Gesellschaft ihre Tätigkeit ein. Die derzeitigen Belege weisen keine formelle Widerrufserklärung einer der beiden
+        genannten Gesellschaften nach.
+  - id: royal-edinburgh-asylum-1839-1850
+    polity: Vereinigtes Königreich
+    institutions:
+      - Royal Edinburgh Asylum
+    institutionalContext: >-
+      Während William Mackinnons 1839 beginnender Amtszeit als Arzt und Leiter richtete die Anstalt ein Museum mit
+      phrenologischen Gipsabgüssen von Patientenköpfen ein. Damit ist der Eingang der Phrenologie in eine benannte
+      medizinische Institution direkt belegt und nicht nur ihre Verbreitung unter einzelnen Psychiatern. Nachdem David
+      Skae 1846 leitender Arzt geworden war, konfrontierte er phrenologische Behauptungen und ihre Vertreter mit
+      Schädelmessungen. Die Abgüsse blieben nach 1850 dennoch im Anstaltsmuseum zugänglich; ihre Bedeutung verschob sich
+      allmählich von vermeintlich wissenschaftlichen Belegen zu historischen oder kuriosen Objekten.
+    consequences:
+      - Köpfe von Patienten wurden abgeformt und als Objekte psychiatrischer und kraniologischer Untersuchung aufbewahrt
+      - Das Anstaltsmuseum bot phrenologischen Vergleichen einen klinischen und didaktischen Rahmen
+      - Institutionelle Sammlungen überdauerten den Verlust des wissenschaftlichen Ansehens der Lehre
+      - Ein nachfolgender Arzt nutzte Schädelmessungen, um phrenologische Behauptungen innerhalb der Institution anzufechten
+    summary: >-
+      Das Royal Edinburgh Asylum machte die Phrenologie durch ein Museum mit Abgüssen von Patientenköpfen materiell zum
+      Bestandteil medizinischer Praxis. Ende der 1840er-Jahre prüfte und bestritt ihr neuer leitender Arzt David Skae die
+      kraniologischen Behauptungen der Lehre. Das war eine bedeutsame interne Korrektur; die Sammlung blieb jedoch
+      ausgestellt und wuchs weiter. Der Übergang erfolgte daher weder sofort noch als eindeutige formelle Kehrtwende.
+    mechanism:
+      summary: >-
+        Mitarbeiter der Anstalt fertigten Abgüsse von Patientenköpfen an, bewahrten sie auf und stellten sie als Objekte
+        klinischer Vergleiche und medizinischer Lehre aus. So wurden phrenologische Annahmen in der materiellen
+        Forschungskultur der Institution verankert.
+    institutionalCorrection:
+      periodLabel: 1846–1850
+      action: Nach seiner Ernennung zum leitenden Arzt prüfte David Skae kraniologische Behauptungen und widersprach führenden Vertretern der Phrenologie öffentlich.
+      summary: >-
+        Skaes Messungen stellten die Lehre innerhalb der Institution empirisch infrage. Die Anstalt behielt und erweiterte
+        ihre Abgusssammlung jedoch auch nach dem Niedergang der Phrenologie. Die Belege sprechen deshalb für eine teilweise
+        methodische Korrektur und nicht für eine datierte, institutionsweite Widerrufserklärung.
+evidence:
+  - id: phrenology-cortex-proposition
+    note: >-
+      Beschreibt die grundlegende Schlusskette der Phrenologie: Lokale Hirnorgane sollten Schädel und Kopfhaut formen,
+      sodass sich geistige Fähigkeiten mittelbar an der äußeren Oberfläche des Kopfes ablesen ließen.
+  - id: phrenology-cortex-correction
+    note: >-
+      Berichtet über eine MRT-Analyse mit der ersten Bildgebungsstichprobe der UK Biobank von 5.724 Personen. Sie fand
+      keinen statistisch signifikanten oder inhaltlich bedeutsamen Zusammenhang zwischen lokaler Kopfhautkrümmung und den
+      untersuchten Ersatzmaßen phrenologischer Fähigkeiten; die Hirnwindungen erklärten ebenfalls nur einen sehr kleinen
+      Teil der Unterschiede in der Kopfhautkrümmung.
+  - id: phrenology-ulster-impact
+    note: Beschreibt die Gründung und Verbreitung britischer phrenologischer Gesellschaften sowie den Niedergang der wissenschaftlichen Phrenologie bis etwa 1850.
+  - id: phrenology-bjhs-impact
+    note: Untersucht George Combe, die Edinburgh Phrenological Society und die gesellschaftlichen und bildungspolitischen Ambitionen der Phrenologie.
+  - id: phrenology-archives-impact
+    note: >-
+      Der amtliche Archivkatalog datiert die Gründung der Gesellschaft auf den 22. Februar 1820 und beschreibt
+      Sitzungsprotokolle bis 1870, Vortrags- und Besucherverzeichnisse, Kataloge von Abgüssen und Schädeln, Korrespondenz
+      sowie Drucksachen.
+  - id: phrenology-museum-impact
+    note: >-
+      Beschreibt das Museum der Gesellschaft und den erhaltenen Bestand von rund 1.000 Büsten, Masken, Schädeln, Modellen
+      und Kunstwerken, der schätzungsweise weniger als die Hälfte der ursprünglichen Sammlung ausmacht.
+  - id: phrenology-societies-carrier
+  - id: phrenology-societies-mechanism
+    note: >-
+      Erläutert, dass phrenologische Gesellschaften Büsten sammelten und Totenmasken anfertigten, um die Theorie zu
+      beweisen, und dass die Edinburgher Sammlung im eigenen Museum der Gesellschaft ausgestellt wurde.
+  - id: phrenology-societies-consequences
+    note: >-
+      Zeigt, dass der Gesellschaftsgründer George Combe die Phrenologie in ein einflussreiches Programm zu Vererbung,
+      Bildung und allgemeinem menschlichem Fortschritt einband, das besonders durch The Constitution of Man verbreitet
+      wurde.
+  - id: phrenology-alienists-context
+    note: >-
+      Die historische Studie dokumentiert die Übernahme phrenologischer Begriffe durch einige britische Psychiater
+      zwischen etwa 1825 und 1845 und unterscheidet eine teilweise begriffliche Anleihe von der vollständigen Zustimmung
+      zur kraniologischen Organlehre.
+  - id: phrenology-societies-correction
+    note: >-
+      Beschreibt die materialistische Spaltung von 1842 und den folgenden Zusammenbruch institutioneller Ambitionen sowie
+      den endgültigen Niedergang der wissenschaftlichen Phrenologie in Großbritannien bis etwa 1850; eine formelle
+      Widerrufserklärung einer Gesellschaft wird nicht dokumentiert.
+  - id: phrenology-asylum-carrier
+    note: >-
+      Dokumentiert, dass William Mackinnon, Arzt und Leiter des Royal Edinburgh Asylum, ein Museum mit phrenologischen
+      Gipsabgüssen von Patientenköpfen einrichtete.
+  - id: phrenology-asylum-mechanism
+  - id: phrenology-asylum-consequences
+    note: >-
+      Beschreibt die Herstellung und Ausstellung von Abgüssen der Patientenköpfe, ihren Umzug in erneuerte Museumsräume
+      und die weitere Zugänglichkeit der Sammlung nach 1850, obwohl sich ihre wissenschaftliche Bedeutung wandelte.
+  - id: phrenology-asylum-correction
+    note: >-
+      Hält fest, dass David Skae nach seiner Ernennung 1846 die phrenologischen Lehren und ihre führenden Vertreter mit
+      detaillierten Schädelmessungen konfrontierte, während die Abgusssammlung institutionell weiter genutzt wurde.

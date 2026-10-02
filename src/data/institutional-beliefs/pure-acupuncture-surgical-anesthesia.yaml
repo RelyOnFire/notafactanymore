@@ -1,71 +1,249 @@
+schemaVersion: 2
 title: Pure acupuncture as sufficient surgical anesthesia
-claim: >-
-  Acupuncture stimulation alone was treated as sufficiently reliable anesthesia for a broad range of major operations, including chest and abdominal surgery, and as capable of replacing drug anesthesia in settings where anesthetic medicines or equipment were limited.
-currentUnderstanding: >-
-  Acupuncture can contribute analgesic effects and may reduce anesthetic-drug requirements in selected perioperative settings, but conscious "pure acupuncture anesthesia" does not reliably provide the complete analgesia, sedation, muscle relaxation, and physiological control required across major surgery. Modern Chinese acupuncture-anesthesia practice uses selected indications and commonly combines acupuncture with anesthetic or analgesic drugs rather than treating acupuncture alone as a universal substitute.
+proposition:
+  summary: >-
+    From 1966 through the technique's broad retreat in the 1990s, Chinese science and health authorities treated
+    acupuncture stimulation—sometimes alone and sometimes with only small amounts of auxiliary medication—as sufficiently
+    reliable anesthesia for a wide range of major operations. Official promotion presented it as usable for chest,
+    abdominal, cranial, and other surgery and as a substitute where anesthetic drugs or equipment were scarce.
+correction:
+  summary: >-
+    Acupuncture can produce analgesia, but it does not by itself provide true general anesthesia or reliably supply the
+    unconsciousness, complete pain control, muscle relaxation, and suppression of visceral and autonomic responses needed
+    across major surgery. Conventional anesthetic techniques therefore remain necessary. Trials of acupuncture used
+    alongside general anesthesia suggest that some methods may reduce anesthetic-drug requirements, but heterogeneous,
+    low- to moderate-certainty adjunct evidence does not validate pure acupuncture as a broad replacement for anesthesia.
 category: Anesthesiology and integrative medicine
-reviewedAt: 2026-08-24
+reviewedAt: '2026-08-24'
 impact:
   summary: >-
-    China did not merely investigate acupuncture anesthesia in isolated experiments. National science and health authorities organized a research program and broad rollout, while hospitals and the People's Liberation Army used it clinically on a large scale. Later Chinese medical accounts describe the indiscriminate expansion of pure acupuncture anesthesia as an overreach and modern practice as a narrower acupuncture-drug combination.
+    This was a national medical program rather than a collection of isolated demonstrations. State science and health
+    authorities organized research, hospitals and People's Liberation Army units carried it into practice, and state
+    media promoted it for major surgery and austere settings. Later Chinese medical accounts describe indiscriminate
+    expansion beyond suitable cases, followed by a gradual hospital retreat and a narrower turn toward selected
+    indications and acupuncture-drug combinations.
   highlights:
-    - value: "1966"
+    - value: '1966'
       label: State Science Commission and Ministry of Health established a national research plan
-    - value: "400,000+"
+    - value: '400,000+'
       label: Patients reported by People's Daily as having undergone acupuncture-anesthesia operations by July 1971
-    - value: "1990s"
-      label: Most hospitals had stopped the old pure-acupuncture operations as limitations became clearer
+    - value: '1990s'
+      label: Most hospitals had stopped the old pure-acupuncture operations as their limitations became clearer
   context:
     - >-
-      The disputed overreach was pure or near-pure acupuncture as the principal anesthetic for a broad range of major surgery, not the claim that acupuncture has no analgesic effect. Modern Chinese teams continue to study and use acupuncture as an adjunct that can reduce anesthetic-drug doses.
+      The disputed overreach is pure or near-pure acupuncture as the principal anesthetic for a broad range of major
+      operations. It is not a denial that acupuncture can affect pain or that it may have a useful adjunctive perioperative
+      role.
     - >-
-      Contemporary and retrospective Chinese sources also show that practice was heterogeneous: some teams used small amounts of local or auxiliary medication, and the technique itself acknowledged incomplete analgesia and visceral discomfort. The institutional overreach was the broad promotion of acupuncture as sufficient anesthesia across poorly selected operations and austere settings, not every individual acupuncture-assisted procedure.
+      “Pure acupuncture” is a retrospective boundary rather than a uniform historical protocol. Contemporary accounts
+      acknowledged pain and visceral discomfort, and some procedures used local or auxiliary drugs; a 1971 Guangdong
+      operation, for example, required lidocaine when acupuncture analgesia was incomplete.
+    - >-
+      The figures of more than 400,000 operations and approximately 90 percent success were claims published by People's
+      Daily during the national campaign. They document official scale and confidence, but they are not controlled outcome
+      evidence and the source did not define a modern, procedure-specific success measure.
+    - >-
+      James Reston's widely publicized 1971 appendectomy did not use acupuncture as the surgical anesthetic. He received
+      conventional anesthesia for the operation and acupuncture afterward for abdominal distension; the episode helped
+      stimulate foreign interest but did not demonstrate acupuncture-only major surgery.
 episodes:
-  - id: china-1966-1989
+  - id: china-1966-1999
     polity: People's Republic of China
     region: East Asia
     startYear: 1966
-    endYear: 1989
-    periodLabel: 1966–1980s
+    endYear: 1999
+    periodLabel: 1966–1990s
     strength: policy-basis
-    institutionTypes: [government, medical, military, education]
+    institutionTypes:
+      - government
+      - medical
+      - military
+      - education
     institutions:
       - State Science and Technology Commission (国家科学技术委员会)
       - Ministry of Health of the People's Republic of China (卫生部)
       - Military Control Commission of the Ministry of Health (卫生部军管会)
       - Chinese People's Liberation Army General Hospital (中国人民解放军总医院)
     institutionalContext: >-
-      In February 1966 the State Science Commission and Ministry of Health convened a national acupuncture-anesthesia research meeting in Shanghai and formulated a 1966–1968 research plan, after which the technique expanded nationally. In September 1969 the Ministry of Health's military control commission made acupuncture anesthesia an important national wartime-health task. Hospitals, local health systems, research institutes, and PLA medical units then carried out the practice at large scale. Doubts grew during the 1980s, and Chinese retrospective accounts say most hospitals stopped the old pure-acupuncture operations during the 1990s; 1989 therefore marks the close of the broad 1960s–1980s model rather than a single scientific reversal on that date.
+      On 28 February 1966 the State Science Commission and Ministry of Health convened a national research meeting in
+      Shanghai and established a 1966–1968 acupuncture-anesthesia research plan, accelerating nationwide expansion. In
+      September 1969 the Ministry of Health's Military Control Commission made the method an important wartime-health
+      task. Hospitals, local health systems, research institutes, and PLA medical units then used it at large scale.
+      Doubts and narrower case selection grew during the 1980s, and retrospective Chinese accounts say most hospitals
+      stopped the old pure-acupuncture operations during the 1990s. The end year 1999 represents that gradual decade-long
+      retreat; it is not the date of a national rescission.
     consequences:
       - National research planning and large-scale clinical rollout
-      - Use of pure acupuncture anesthesia in major chest, abdominal, cranial, and other operations
-      - Promotion for rural, mountain, and wartime settings as an alternative where drug anesthesia was constrained
-      - Training and diffusion through hospitals, local health services, and People's Liberation Army medical units
+      - Use of pure or near-pure acupuncture anesthesia in major chest, abdominal, cranial, and other operations
+      - Promotion for rural, mountain, and wartime settings as an alternative where drugs or equipment were constrained
+      - Training and diffusion through hospitals, local health services, research institutes, and PLA medical units
     summary: >-
-      Beginning with a national research plan in 1966, Chinese science and health authorities promoted acupuncture anesthesia across hospitals and military medicine. In 1971 People's Daily reported that more than 400,000 patients had undergone operations under acupuncture anesthesia, claimed a success rate around 90 percent, and highlighted its usefulness where anesthetic drugs or equipment were scarce. The technique was subsequently applied across a very wide range of operations. Chinese retrospective accounts now describe that period as one in which acupuncture anesthesia was promoted too indiscriminately: pure acupuncture could not provide complete analgesia, sedation, or muscle relaxation for many procedures, and most hospitals abandoned the old model during the 1990s. Modern Chinese practice instead emphasizes selected indications and acupuncture-drug combined anesthesia.
-    sources:
-      - title: 1971年7月26日《纽约时报》：现在，让我告诉你们我在北京的手术
-        url: https://www.shobserver.com/wx/detail.do?id=919410
-        publisher: Shanghai Observer / Jiefang Daily
-        note: >-
-          Domestic historical reconstruction records Ministry of Health funding in 1961, State Science Commission recognition in 1965, and the joint State Science Commission–Ministry of Health national research meeting of 28 February 1966 that established the 1966–1968 acupuncture-anesthesia research plan and drove nationwide expansion.
-      - title: 我国医务工作者和科学工作者创造成功针刺麻醉 — People's Daily, 19 July 1971
-        url: https://cn.govopendata.com/renminribao/1971/7/19/1/
-        publisher: People's Daily historical archive reproduction
-        note: >-
-          Contemporary state press states that urban, rural, and PLA medical units were using acupuncture anesthesia, reports more than 400,000 operated patients and an approximately 90 percent success rate, and promotes the method for major surgery and for rural, mountain, and wartime settings where conventional anesthesia equipment was limited.
-      - title: 周恩来观看针灸麻醉 频频点头连声说“好”
-        url: https://www.gdghospital.org.cn/ComprehensiveNews/info_itemid_1774.html
-        publisher: Guangdong Provincial People's Hospital
-        note: >-
-          Hospital history records that the Ministry of Health Military Control Commission made acupuncture anesthesia an important national wartime-health task at a September 1969 national meeting. It also documents a 1971 operation that still required a small amount of lidocaine because analgesia from acupuncture was incomplete.
-      - title: 曾轰动世界，为何走向沉默？
-        url: https://wenhui.whb.cn/third/baidu/201903/27/252257.html
-        publisher: Wenhui Daily
-        note: >-
-          Interviews modern acupuncture-anesthesia leader Zhou Jia and describes the earlier indiscriminate expansion to more than 90 types of disease or operation and roughly two million procedures, notes that pure acupuncture was ineffective or inadequate for some surgery, and explains the later shift toward acupuncture-drug combined anesthesia.
-      - title: 我校系统5项成果荣获2022年度上海市科学技术奖
-        url: https://wmzx.shutcm.edu.cn/2023/0527/c1262a153168/page.htm
-        publisher: Shanghai University of Traditional Chinese Medicine
-        note: >-
-          Official university account says the modern team changed the old awake pure-acupuncture technique into shallow-sleep, spontaneous-breathing acupuncture-drug combined anesthesia, redefined advantageous indications, produced clinical guidelines, and thereby returned acupuncture anesthesia to a more appropriate developmental path.
+      National science and health authorities turned acupuncture anesthesia into an organized research and clinical
+      program in 1966. In 1971 People's Daily reported more than 400,000 operated patients, claimed approximately 90
+      percent success, and promoted the method across major operations and resource-constrained settings. Practice was
+      heterogeneous and sometimes included auxiliary medication, but the official message treated acupuncture as capable
+      of replacing drug anesthesia far beyond carefully selected cases. As limitations became harder to ignore, hospitals
+      gradually abandoned the old awake, pure-acupuncture model and later programs retained acupuncture chiefly in
+      combination with conventional drugs.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Central science and health bodies set a national research plan and wartime-health task, while state media,
+        civilian hospitals, local health systems, research institutes, and military medical units supplied publicity,
+        training, research, and clinical adoption.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 1980s–2001 onward
+      action: >-
+        Hospitals gradually discontinued broad pure-acupuncture surgery, and from 2001 a Shanghai clinical program
+        replaced the old awake technique with shallow-sleep, spontaneous-breathing acupuncture-drug combined anesthesia,
+        selected narrower indications, and developed clinical guidance.
+      summary: >-
+        The professional retreat and explicit redesign corrected the claim in practice by treating acupuncture as an
+        adjunct for selected cases rather than a universal substitute. The evidence reviewed does not identify a dated
+        nationwide retraction by the State Science Commission or Ministry of Health, and the label “acupuncture anesthesia”
+        remains in use for combined techniques, so the institutional correction is partial and distributed.
+sources:
+  - id: acupuncture-shanghai-observer-history
+    title: 1971年7月26日《纽约时报》：现在，让我告诉你们我在北京的手术
+    url: https://www.shobserver.com/wx/detail.do?id=919410
+    publisher: Shanghai Observer / Jiefang Daily
+  - id: acupuncture-peoples-daily-1971
+    title: 我国医务工作者和科学工作者创造成功针刺麻醉 — People's Daily, 19 July 1971
+    url: https://cn.govopendata.com/renminribao/1971/7/19/1/
+    publisher: People's Daily historical archive reproduction
+  - id: acupuncture-guangdong-history
+    title: 周恩来观看针灸麻醉 频频点头连声说“好”
+    url: https://www.gdghospital.org.cn/ComprehensiveNews/info_itemid_1774.html
+    publisher: Guangdong Provincial People's Hospital
+  - id: acupuncture-wenhui-retrospective
+    title: 曾轰动世界，为何走向沉默？
+    url: https://wenhui.whb.cn/third/baidu/201903/27/252257.html
+    publisher: Wenhui Daily
+  - id: acupuncture-shutcm-combined
+    title: 我校系统5项成果荣获2022年度上海市科学技术奖
+    url: https://wmzx.shutcm.edu.cn/2023/0527/c1262a153168/page.htm
+    publisher: Shanghai University of Traditional Chinese Medicine
+  - id: acupuncture-perioperative-review
+    title: Perioperative Acupuncture and Related Techniques
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1475803/
+    publisher: Anesthesiology / PubMed Central
+  - id: acupuncture-network-meta-analysis
+    title: 'Effect of perioperative acupuncture-assisted general anesthesia on the anesthetic dosage required in adult surgical patients: a network meta-analysis of randomized controlled trials'
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10206013/
+    publisher: Frontiers in Medicine / PubMed Central
+  - id: acupuncture-history-dilemma-review
+    title: 'Acupuncture anesthesia: history, dilemma and future'
+    url: https://link.springer.com/article/10.1007/s44254-025-00153-y
+    publisher: Anesthesiology and Perioperative Science / Springer Nature
+evidence:
+  - id: acupuncture-shanghai-proposition
+    sourceId: acupuncture-shanghai-observer-history
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Domestic historical reconstruction records Ministry of Health funding in 1961, State Science Commission recognition in 1965, and the joint State Science Commission–Ministry of Health national research meeting of 28 February 1966 that established the 1966–1968 acupuncture-anesthesia research plan and drove nationwide expansion.
+  - id: acupuncture-peoples-daily-proposition
+    sourceId: acupuncture-peoples-daily-1971
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Contemporary state press states that urban, rural, and PLA medical units were using acupuncture anesthesia, reports more than 400,000 operated patients and an approximately 90 percent success rate, and promotes the method for major surgery and for rural, mountain, and wartime settings where conventional anesthesia equipment was limited.
+  - id: acupuncture-perioperative-correction
+    sourceId: acupuncture-perioperative-review
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      An anesthesiology review explains that acupuncture does not provide true anesthesia or unconsciousness, adequate
+      muscle relaxation, or suppression of autonomic reflexes from visceral pain, while distinguishing possible analgesic
+      and perioperative uses in combination with conventional techniques.
+  - id: acupuncture-network-correction
+    sourceId: acupuncture-network-meta-analysis
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Network meta-analysis of 76 randomized trials concerns acupuncture techniques added to general anesthesia, reports
+      possible reductions in propofol or remifentanil use, grades comparisons low to moderate, and identifies moderate risk
+      of bias and substantial heterogeneity.
+  - id: acupuncture-current-boundary
+    sourceId: acupuncture-history-dilemma-review
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      A contemporary specialty review describes acupuncture anesthesia as predominantly adjunctive, says standalone use is
+      difficult and usually requires pharmacological anesthesia, and warns that the term itself can falsely suggest that
+      acupuncture is a form of anesthesia.
+  - id: acupuncture-wenhui-impact
+    sourceId: acupuncture-wenhui-retrospective
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Interviews modern acupuncture-anesthesia leader Zhou Jia and describes the earlier indiscriminate expansion to more than 90 types of disease or operation and roughly two million procedures, notes that pure acupuncture was ineffective or inadequate for some surgery, and explains the later shift toward acupuncture-drug combined anesthesia.
+  - id: acupuncture-shanghai-carrier
+    sourceId: acupuncture-shanghai-observer-history
+    relation: documents
+    target: {scope: episode, episodeId: china-1966-1999, aspect: carrier}
+    note: >-
+      Identifies the State Science Commission and Ministry of Health as the organizers of the 1966 national meeting and
+      plan and traces implementation through regional authorities, hospitals, research bodies, and military units.
+  - id: acupuncture-guangdong-mechanism
+    sourceId: acupuncture-guangdong-history
+    relation: documents
+    target: {scope: episode, episodeId: china-1966-1999, aspect: mechanism}
+    note: >-
+      Hospital history records that the Ministry of Health Military Control Commission made acupuncture anesthesia an important national wartime-health task at a September 1969 national meeting. It also documents a 1971 operation that still required a small amount of lidocaine because analgesia from acupuncture was incomplete.
+  - id: acupuncture-peoples-daily-consequences
+    sourceId: acupuncture-peoples-daily-1971
+    relation: documents
+    target: {scope: episode, episodeId: china-1966-1999, aspect: consequences}
+    note: >-
+      The state article promotes use in head, chest, abdominal, and limb operations, in rural and mountain areas, and under
+      wartime constraints; it also describes a PLA General Hospital team conducting thousands of operations in rural Shanxi.
+  - id: acupuncture-guangdong-context
+    sourceId: acupuncture-guangdong-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: china-1966-1999, aspect: context}
+    note: >-
+      The documented use of lidocaine when analgesia proved incomplete shows why “pure” acupuncture cannot be assumed for
+      every operation counted under the historical acupuncture-anesthesia label.
+  - id: acupuncture-reston-context
+    sourceId: acupuncture-shanghai-observer-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: china-1966-1999, aspect: context}
+    note: >-
+      Reconstructs Reston's 1971 case as a conventionally anesthetized appendectomy followed by acupuncture for
+      postoperative abdominal distension, separating the episode's publicity effect from evidence for surgical anesthesia.
+  - id: acupuncture-perioperative-episode-context
+    sourceId: acupuncture-perioperative-review
+    relation: contextualizes
+    target: {scope: episode, episodeId: china-1966-1999, aspect: context}
+    note: >-
+      Provides the modern anesthesiology boundary for evaluating the historical program: acupuncture can contribute
+      analgesia or sedation but cannot alone supply the full conditions required for major surgery.
+  - id: acupuncture-network-institutional-context
+    sourceId: acupuncture-network-meta-analysis
+    relation: contextualizes
+    target: {scope: episode, episodeId: china-1966-1999, aspect: institutional-correction}
+    note: >-
+      Shows that the contemporary trial literature evaluates acupuncture as an addition to general anesthesia rather than
+      as the broad standalone replacement promoted during the historical episode.
+  - id: acupuncture-current-institutional-context
+    sourceId: acupuncture-history-dilemma-review
+    relation: contextualizes
+    target: {scope: episode, episodeId: china-1966-1999, aspect: institutional-correction}
+    note: >-
+      Places current practice predominantly in an adjunctive role and calls for clearer professional boundaries, supporting
+      the classification of the later institutional shift as real but incomplete.
+  - id: acupuncture-wenhui-correction
+    sourceId: acupuncture-wenhui-retrospective
+    relation: documents
+    target: {scope: episode, episodeId: china-1966-1999, aspect: institutional-correction}
+    note: >-
+      Reports that hospitals gradually abandoned the old pure-acupuncture model after the 1980s as its limitations became
+      apparent and describes the subsequent move toward combined acupuncture-drug anesthesia and selected indications.
+  - id: acupuncture-shutcm-correction
+    sourceId: acupuncture-shutcm-combined
+    relation: documents
+    target: {scope: episode, episodeId: china-1966-1999, aspect: institutional-correction}
+    note: >-
+      Official university account says the modern team changed the old awake pure-acupuncture technique into shallow-sleep, spontaneous-breathing acupuncture-drug combined anesthesia, redefined advantageous indications, produced clinical guidelines, and thereby returned acupuncture anesthesia to a more appropriate developmental path.

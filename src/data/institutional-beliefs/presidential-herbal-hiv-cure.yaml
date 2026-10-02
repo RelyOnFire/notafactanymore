@@ -1,67 +1,206 @@
+schemaVersion: 2
 title: Presidential herbal treatment as an HIV/AIDS cure
-claim: A presidential herbal preparation was treated as capable of curing HIV/AIDS rapidly enough to replace antiretroviral
-  therapy for people enrolled in a state treatment programme.
-currentUnderstanding: There is no evidence that the herbal preparation used by the Gambian President’s Alternative
-  Treatment Programme cured HIV. Effective antiretroviral therapy suppresses HIV replication and must not be discontinued
-  in favour of unvalidated herbal remedies; interruption can allow viral rebound and disease progression.
+proposition:
+  summary: >-
+    President Yahya Jammeh's herbal preparations were treated by The Gambia's state-run President's Alternative
+    Treatment Programme as capable of eliminating HIV within days, justifying the withdrawal of antiretroviral therapy
+    and official declarations that enrolled people had been cured.
+correction:
+  summary: >-
+    No clinical trials, regulatory review or reliable diagnostic evidence established that Jammeh's preparations
+    eliminated HIV. A rise in CD4 cells or a low or undetectable viral load does not demonstrate eradication. Current
+    antiretroviral therapy suppresses HIV replication but does not cure the infection, and interrupting treatment can
+    cause viral rebound, immune decompensation and clinical progression. WHO warned in February 2007 that herbal
+    remedies must not replace comprehensive HIV care or cause antiretroviral therapy to be discontinued.
 category: Medicine and public health
-reviewedAt: '2026-08-24'
+reviewedAt: '2026-10-03'
 impact:
-  summary: The Gambia converted a personal cure claim into a coercive state treatment programme. The presidency
-    organized the programme, health personnel and laboratories supported it, state broadcasting publicized it, and
-    participants were required to stop standard antiretroviral treatment. A later Gambian truth commission reconstructed
-    the programme and found serious human-rights and health harms.
+  summary: >-
+    The Gambia converted a president's personal cure claim into a coercive state programme. The presidency, health
+    officials, public hospitals and laboratories, security personnel and the state broadcaster helped operate or
+    legitimize PATP. The first group was enrolled without consent; later participants who entered willingly were not
+    adequately informed of the risks. Participants were ordered to stop antiretroviral treatment, some were confined
+    under guard, and identifying medical information was broadcast without consent. The later truth commission found
+    deterioration, deaths and extensive human-rights violations. Its 2021 report and the government's 2022 White Paper
+    supplied a formal institutional repudiation.
   highlights:
-  - value: '2007'
-    label: President Yahya Jammeh publicly proclaimed an HIV/AIDS cure and created the state treatment programme
-  - value: ART stopped
-    label: Programme participants were taken off standard antiretroviral therapy while receiving the presidential
-      treatment
-  - value: 2020s review
-    label: The Gambian truth commission reconstructed the programme and its harms from state and participant evidence
+    - value: '2007'
+      label: year Jammeh proclaimed a rapid HIV/AIDS cure and established PATP
+    - value: 3 days
+      label: duration initially claimed for eliminating HIV from participants
+    - value: 25 May 2022
+      label: date the government White Paper accepted central PATP accountability and health-system recommendations
   context:
-  - The disputed claim was that this specific presidential preparation, administered through the state programme,
-    cured HIV/AIDS. That history does not imply that traditional or herbal medicines are ineffective for every condition.
+    - >-
+      The disputed proposition concerns Jammeh's undisclosed preparations and the state programme's HIV-cure claim. It
+      does not imply that every traditional or plant-derived medicine is ineffective; individual products still require
+      evidence of safety, quality and efficacy for the use claimed.
+    - >-
+      Coercion was not identical for every participant. The truth commission found that the first group was forced into
+      PATP without consent, while later groups included people who joined willingly but were not adequately informed of
+      the risks and could then face compulsory treatment, isolation and restrictions on leaving.
+    - >-
+      The programme ended amid Jammeh's December 2016 election defeat. That political endpoint was followed by national
+      ART guidance and, later, an explicit truth-commission and government correction; it was not the date of a new
+      experiment disproving the preparations.
 episodes:
-- id: gambia-2007-2016
-  polity: The Gambia
-  region: West Africa
-  startYear: 2007
-  endYear: 2016
-  strength: enforced-doctrine
-  institutionTypes:
-  - government
-  - medical
-  institutions:
-  - Office of the President of The Gambia
-  - President’s Alternative Treatment Programme (PATP)
-  - Ministry of Health and Social Welfare
-  institutionalContext: The cure claim was operationalized through a programme centered in the presidency rather
-    than left as a private statement. Patients living with HIV were enrolled in PATP, state health personnel and
-    laboratory services participated, and the programme was publicly legitimized through government media. The programme's
-    political operating environment ended with the Jammeh administration in 2016; that date reflects regime change,
-    not a scientific discovery.
-  consequences:
-  - People living with HIV were enrolled in an unvalidated state treatment programme
-  - Participants were required to discontinue standard antiretroviral treatment
-  - State medical and laboratory resources were used to support the programme
-  - Public broadcasting gave institutional legitimacy to the claimed cure
-  - Participants experienced medical deterioration and deaths documented by the later truth commission
-  summary: Beginning in 2007, President Yahya Jammeh claimed that his herbal treatment could cure HIV/AIDS and established
-    the President’s Alternative Treatment Programme to administer it. The later Gambian truth commission found that
-    the programme used state structures, required participants to stop antiretroviral therapy, and exposed them
-    to serious health and rights violations. WHO had warned contemporaneously that no HIV cure existed and that
-    herbal remedies must not replace antiretroviral treatment.
-  sources:
-  - title: Report Volume 9 — President’s Alternative Treatment Programme
+  - id: gambia-2007-2016
+    polity: The Gambia
+    region: West Africa
+    startYear: 2007
+    endYear: 2016
+    strength: enforced-doctrine
+    institutionTypes:
+      - government
+      - medical
+    institutions:
+      - Office of the President of The Gambia
+      - President’s Alternative Treatment Programme (PATP)
+      - Ministry of Health and Social Welfare
+      - Gambia Radio and Television Services (GRTS)
+    institutionalContext: >-
+      Jammeh announced the cure as head of state and created PATP around the presidency. The programme used public
+      hospitals, clinicians, nurses and laboratory personnel; Dr Tamsir Mbowe directed its clinical work and endorsed
+      the cure. State security guarded participants, while GRTS aired promotional programmes and participant testimony
+      on television and radio. The programme operated from 2007 until Jammeh lost the December 2016 election.
+    consequences:
+      - Compulsory enrolment of the first participant group and inadequate informed consent for later groups
+      - Withdrawal of life-preserving antiretroviral therapy, followed by deterioration and deaths documented by the truth commission
+      - Guarded confinement, restricted movement and separation from family and friends
+      - Disclosure of participants' identities, HIV status and test results on national television without consent
+      - Cruel and degrading treatment, including sexual abuse of some participants, forced labour and the admission of children
+      - Diversion of public-health resources and use of hospitals, laboratories and medical authority to validate an untested treatment
+    summary: >-
+      From 2007 to 2016, Jammeh used presidential authority to turn an untested and undisclosed set of herbal preparations
+      into a state HIV programme. PATP ordered participants off ART, used conventional medical settings and staff to make
+      the treatment appear valid, restricted participants' liberty and promoted cure declarations through state media.
+      The TRRC later found that no clinical trials or approval supported the three-, five- or ten-day cure claims and
+      documented grave health and human-rights harms.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        The presidency created a treatment programme, enlisted health personnel and laboratories, enforced its rules
+        through state officials and security personnel, and used the national broadcaster to present the cure as a
+        medically validated state service.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 2021–2022
+      action: >-
+        The TRRC formally found the cure claim fraudulent and the programme abusive; the government White Paper accepted
+        the central recommendations on accountability, professional discipline, herbal-product regulation and access to HIV care.
+      summary: >-
+        Evidence-based ART had again become the stated national standard before the formal reckoning. In 2021 the TRRC
+        documented the false claim, state machinery and harms in a dedicated report. In 2022 the government adopted that
+        account and accepted the principal PATP recommendations, while requesting further investigation rather than
+        immediately accepting the commission's proposed murder charge. Implementation and individual prosecutions are
+        separate from the completed institutional correction of the cure claim.
+sources:
+  - id: trrc-patp-volume-9
+    title: Report Volume 9 — President’s Alternative Treatment Programme
     url: https://moj.gov.gm/wp-content/uploads/2024/12/Volume-9-President-s-Alternative-Treatment-Program.pdf
     publisher: Truth, Reconciliation and Reparations Commission / Ministry of Justice, The Gambia
-    note: Official Gambian truth-commission report reconstructing Jammeh’s HIV/AIDS cure proclamation, creation
-      and operation of PATP, participation of state personnel, withdrawal of standard treatment, participant testimony,
-      and resulting harms.
-  - title: WHO Statement on Treatment of HIV/AIDS
+  - id: who-africa-2007-treatment-statement
+    title: WHO Statement on Treatment of HIV/AIDS
     url: https://www.afro.who.int/news/who-statement-treatment-hivaids
     publisher: World Health Organization Regional Office for Africa
-    note: Contemporaneous February 2007 WHO statement says there was no cure for HIV/AIDS, identifies continuous
-      antiretroviral therapy as effective treatment, and warns that herbal remedies must not replace comprehensive
-      HIV care or cause antiretroviral therapy to be discontinued.
+  - id: gambia-2022-trrc-white-paper
+    title: Government White Paper on the Report of the Truth, Reconciliation and Reparations Commission
+    url: https://moj.gov.gm/wp-content/uploads/2024/12/White-Paper-on-TRRC-Report.pdf
+    publisher: Government of The Gambia
+  - id: gambia-2019-art-guidelines
+    title: Guidelines for Antiretroviral Therapy and Prevention for HIV in The Gambia
+    url: https://nas.gm/wp-content/uploads/2025/05/Final-Guidelines-for-Antiretroviral-Therapy-and-Prevention-for-HIV-in-The-Gambia-sait21-7-2020.pdf
+    publisher: National AIDS Secretariat / Ministry of Health, The Gambia
+  - id: who-2026-hiv-fact-sheet
+    title: HIV and AIDS
+    url: https://www.who.int/en/news-room/fact-sheets/detail/hiv-aids
+    publisher: World Health Organization
+  - id: nih-2026-art-interruption
+    title: Interruption of Antiretroviral Therapy
+    url: https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/interruption-antiretroviral-therapy
+    publisher: National Institutes of Health ClinicalInfo
+evidence:
+  - id: patp-trrc-proposition
+    sourceId: trrc-patp-volume-9
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Declaration of mandate and Analysis of Evidence, especially pp. 9–11 and 61–73
+    note: >-
+      Official Gambian truth-commission report reconstructing Jammeh’s HIV/AIDS cure proclamation, creation and operation of PATP, participation of state personnel, withdrawal of standard treatment, participant testimony, and resulting harms.
+  - id: patp-who-2007-proposition
+    sourceId: who-africa-2007-treatment-statement
+    relation: disputes
+    target: {scope: belief, aspect: proposition}
+    locator: Statement points 1–4, 27 February 2007
+    note: >-
+      Contemporaneous February 2007 WHO statement says there was no cure for HIV/AIDS, identifies continuous antiretroviral therapy as effective treatment, and warns that herbal remedies must not replace comprehensive HIV care or cause antiretroviral therapy to be discontinued.
+  - id: patp-who-current-correction
+    sourceId: who-2026-hiv-fact-sheet
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Key facts and Treatment sections, 27 July 2026
+    note: >-
+      WHO states that current ART stops HIV from replicating and enables long, healthy lives but does not cure the infection.
+  - id: patp-nih-interruption-correction
+    sourceId: nih-2026-art-interruption
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Opening recommendation and Analytical Treatment Interruption section, reviewed 24 September 2026
+    note: >-
+      NIH guidance links ART interruption to viral rebound, increased transmission risk, immune decompensation and clinical progression and advises against discontinuation outside a clinical trial.
+  - id: patp-trrc-impact
+    sourceId: trrc-patp-volume-9
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Participant testimony and Findings 2, 7–22, pp. 9–61 and 73–75
+    note: >-
+      The commission synthesized protected and public testimony, clinical and laboratory evidence, and institutional testimony to document the programme's operation, coercion, medical deterioration, deaths and rights violations.
+  - id: patp-trrc-carrier
+    sourceId: trrc-patp-volume-9
+    relation: documents
+    target: {scope: episode, episodeId: gambia-2007-2016, aspect: carrier}
+    locator: Investigation background, Role of Persons Involved and Findings 11–16
+    note: >-
+      The report identifies the presidency and PATP, participating ministers and clinicians, public hospitals and laboratories, state security and GRTS as operational or promotional carriers.
+  - id: patp-trrc-mechanism
+    sourceId: trrc-patp-volume-9
+    relation: documents
+    target: {scope: episode, episodeId: gambia-2007-2016, aspect: mechanism}
+    locator: Analysis of Evidence, pp. 61–73; Findings 2, 7–17
+    note: >-
+      The report traces how presidential orders became enrolment, compulsory ART withdrawal, guarded treatment, clinical monitoring, laboratory claims and state-broadcast cure testimony.
+  - id: patp-trrc-consequences
+    sourceId: trrc-patp-volume-9
+    relation: supports
+    target: {scope: episode, episodeId: gambia-2007-2016, aspect: consequences}
+    locator: The Impact of the Presidential Treatment Programme, pp. 69–73; Findings 9–22, pp. 73–75
+    note: >-
+      The findings cover confinement, privacy violations, degrading and sexual abuse, forced labour, ART withdrawal, worsened health, deaths and the admission of children.
+  - id: patp-trrc-context
+    sourceId: trrc-patp-volume-9
+    relation: contextualizes
+    target: {scope: episode, episodeId: gambia-2007-2016, aspect: context}
+    locator: Findings 7–9, pp. 73–74
+    note: >-
+      The commission distinguished the first batch, whose participation was forced and unconsented, from later participants who could enter willingly but lacked adequate disclosure of risks.
+  - id: patp-trrc-institutional-correction
+    sourceId: trrc-patp-volume-9
+    relation: documents
+    target: {scope: episode, episodeId: gambia-2007-2016, aspect: institutional-correction}
+    locator: Findings and Recommendations, pp. 73–76
+    note: >-
+      The TRRC formally characterized the treatment as unproven, fraudulent and unlicensed and recommended accountability, professional discipline, regulation and comprehensive HIV care.
+  - id: patp-white-paper-institutional-correction
+    sourceId: gambia-2022-trrc-white-paper
+    relation: documents
+    target: {scope: episode, episodeId: gambia-2007-2016, aspect: institutional-correction}
+    locator: Theme 10, paragraphs 268–290, pp. 73–79
+    note: >-
+      The government adopted the TRRC's account of PATP and accepted the recommendations on negligence and degrading treatment prosecutions, children, professional discipline, herbal-product regulation, HIV care, privacy and ethics; it sought further evidence before accepting a murder charge.
+  - id: patp-gambia-guidelines-institutional-correction
+    sourceId: gambia-2019-art-guidelines
+    relation: documents
+    target: {scope: episode, episodeId: gambia-2007-2016, aspect: institutional-correction}
+    locator: Foreword, p. ii; definition of ART, p. xi
+    note: >-
+      The post-Jammeh national guideline commits the government to free ARVs at public facilities and defines ART as viral-suppressing treatment usually given for life.

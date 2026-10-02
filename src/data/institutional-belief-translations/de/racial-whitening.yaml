@@ -1,18 +1,221 @@
+schemaVersion: 2
 locale: de
 entryId: racial-whitening
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: '2026-08-23'
 title: Rassische „Aufhellung“
-claim: Ein höherer Anteil europäischer Abstammung durch Einwanderung und Eheschließungen wurde als biologischer Weg behandelt, die Nation „weißer“ zu machen und zu verbessern.
-currentUnderstanding: Menschliche Populationen bilden keine biologische Hierarchie von minder- zu höherwertigen „Rassen“, und ein größerer Anteil einer gesellschaftlich als „weiß“ definierten Abstammung verbessert eine Bevölkerung nicht biologisch. „Rasse“ ist eine soziale Einteilung, die genetische Abstammungsmuster nur unvollkommen abbildet.
+proposition:
+  summary: >-
+    In Brasilien behandelten einflussreiche staatliche und wissenschaftliche Akteure die massenhafte Einwanderung aus
+    Europa und die Fortpflanzung über rassifizierte Gruppengrenzen hinweg als Weg, die Bevölkerung schrittweise „weißer“
+    zu machen und die Nation dadurch biologisch wie kulturell zu „verbessern“ oder zu „zivilisieren“. Die staatliche
+    Einwanderungspolitik setzte diese rassifizierte Auswahl durch Subventionen, Ausschlüsse, Quoten und Kriterien zu
+    Abstammung oder ethnischer Zusammensetzung in Verwaltungshandeln um.
+correction:
+  summary: >-
+    Menschen haben genetische Abstammung und geografisch strukturierte Variation, bilden jedoch keine diskreten,
+    biologisch von minder- bis höherwertig geordneten „Rassen“. Gesellschaftlich definierte Rassenkategorien bilden
+    genetische Muster nur ungenau ab. Ein höherer Anteil europäischer Abstammung verändert die Häufigkeit bestimmter
+    Abstammungslinien in einer Bevölkerung; er macht sie weder biologisch besser noch gesünder, intelligenter oder
+    entwickelter. Demografischer Wandel ist kein biologischer Fortschritt.
+impact:
+  summary: >-
+    Die Lehre gab einer Rassenhierarchie konkrete demografische Verwaltungsinstrumente. 1890 beschränkte der Bund die
+    Einreise von Menschen, die das Dekret als in Asien oder Afrika indigene Personen bezeichnete, sofern der Kongress sie
+    nicht zuließ, übertrug Diplomaten, Konsuln und Hafenpolizei den Vollzug und bot Zuschüsse für aus Europa beförderte
+    Einwanderer. Einwanderungs- und Kolonisationsbehörden übernahmen anschließend Aufnahme, Registrierung, Vermittlung und
+    Anwerbung. Amtliche wissenschaftliche Sichtbarkeit erhielt die Theorie zudem, als der Direktor des Nationalmuseums
+    João Batista de Lacerda Brasilien 1911 auf dem Universal Races Congress vertrat. Spätere Bundesnormen erlaubten
+    Begrenzungen nach „Rasse“ oder Herkunft, wiesen einem Einwanderungsrat Forschungen zu Rassenbiologie und Eugenik zu,
+    bevorzugten europäische Abstammung und machten die Bewahrung der ethnischen Zusammensetzung Brasiliens zum Verwaltungsziel.
+  highlights:
+    - value: 120 Francs
+      label: Bundeszuschuss von 1890 je erwachsenem, aus Europa befördertem Einwanderer
+    - value: '1911'
+      label: Nationalmuseumsdirektor Lacerda vertrat die Aufhellungstheorie als offizieller brasilianischer Delegierter auf dem Universal Races Congress
+    - value: '1980'
+      label: das neue Ausländerstatut hob die Einwanderungsnormen von 1938 und 1945 ausdrücklich auf
+  context:
+    - >-
+      In der Ersten Republik gab es keine einzelne Behörde mit einer amtlichen Bezeichnung wie „Whitening Office“, und die
+      wichtigsten Einwanderungsgesetze nannten Aufhellung meist nicht als Zweck. Der historische Zusammenhang ergibt sich
+      aus dem Zusammenspiel von Rassentheorie, amtlicher Wissenschaftsrepräsentation und selektiver Einwanderungs- und Ansiedlungspolitik.
+    - >-
+      Der Wortlaut des Dekrets 528 von 1890 erfasste in Asien wie Afrika indigene Menschen. 1892 erlaubte der Kongress
+      ausdrücklich die freie Einreise chinesischer und japanischer Einwanderer. Die ursprüngliche Beschränkung asiatischer
+      Einwanderung wird daher nicht als bis 1930 unverändert dargestellt; eine entsprechende Öffnung für afrikanische
+      Einwanderer enthält das Gesetz von 1892 nicht.
+    - >-
+      Arbeitskräftebedarf, landwirtschaftliche Ansiedlung, Assimilation und nationale Sicherheit prägten diese Gesetze
+      ebenfalls. Aufhellung war ein belegter rassifizierter Deutungsrahmen und ein Auswahlgrund, aber nicht die einzige
+      Ursache jeder brasilianischen Einwanderungsmaßnahme oder Migrationsbewegung.
+    - >-
+      Die Aufhebung rassifizierter Zulassungsregeln beseitigte weder ihre demografischen und sozialen Folgen noch den
+      strukturellen Rassismus. Die formelle institutionelle Korrektur und die wissenschaftliche Verwerfung biologischer
+      Rassenhierarchien sind getrennte Entwicklungen.
 episodes:
-  - id: brazil-1890-1930
+  - id: brazil-first-republic-1890-1930
     polity: Brasilien
     institutions:
-      - Ministério da Agricultura, Comércio e Obras Públicas
+      - Provisorische Regierung der Republik der Vereinigten Staaten von Brasilien
+      - Ministerium für Landwirtschaft, Handel und öffentliche Arbeiten
+      - Inspectoria Geral das Terras e Colonisação
+      - Ministerium für Industrie, Verkehr und öffentliche Arbeiten
       - Directoria Geral do Serviço de Povoamento
-    institutionalContext: In der Ersten Republik gab es keine einzelne Behörde namens etwa „Whitening Office“. Die Einwanderungs- und Kolonisationspolitik lief über konkrete Ministerien und ab 1907 über die Directoria Geral do Serviço de Povoamento, die zentrale Bundesstelle für staatlich geförderte Einwanderung und Ansiedlung. Das Dekret von 1890 wies außerdem Diplomaten, Konsuln und Hafenpolizei Vollzugsaufgaben zu; diese verteilte Verwaltung wird hier erläutert, statt als erfundene Institution bezeichnet zu werden.
-    summary: In der Ersten Brasilianischen Republik war die Vorstellung politisch einflussreich, europäische Einwanderung und rassische Vermischung könnten Brasilien schrittweise „weißer“ machen. Bundesrecht und Ansiedlungsprogramme schufen konkrete Verwaltungsstrukturen, um ausgewählte Einwanderung anzuziehen und zu subventionieren, während die Regelung von 1890 die Einreise aus Afrika und Asien beschränkte.
+      - Museu Nacional do Rio de Janeiro
+    institutionalContext: >-
+      Träger war ein Netzwerk und kein einzelnes Aufhellungsamt. Die provisorische Regierung erließ das Einwanderungsdekret
+      von 1890; die dem Landwirtschaftsministerium unterstellte Inspectoria Geral das Terras e Colonisação verwaltete die
+      Einwanderungs- und Ansiedlungsarbeit des Bundes. Ab 1907 war die einem anderen Ministerium unterstellte Directoria
+      Geral do Serviço de Povoamento die zentrale Bundesbehörde für staatlich geförderte Einwanderung und Kolonisation.
+      Diplomaten, Konsuln und Hafenpolizei vollzogen Einreiseregeln. Einen zusätzlichen wissenschaftlichen Träger stellte
+      das Nationalmuseum mit seinem Direktor João Batista de Lacerda, den die Regierung 1911 zum Universal Races Congress
+      entsandte. Die Gesetze nannten dieses verteilte System nicht offen „Aufhellung“; die Forschung belegt den Zusammenhang
+      zwischen seinen Stellvertreterkategorien und dem rassischen Projekt.
     consequences:
-      - Staatliche Subventionen und Verwaltungsstrukturen zugunsten europäischer Einwanderung
-      - Formale Beschränkungen afrikanischer und asiatischer Einwanderung im Regelwerk von 1890
-      - Rassifizierte Bevölkerungspolitik im Namen nationaler „Verbesserung“
+      - Bundeszuschüsse für Überfahrten sowie Aufnahme, Registrierung, Vermittlung und Ansiedlung zugunsten europäischer Einwanderung
+      - Vollzug der Beschränkung von 1890 für in Asien oder Afrika indigene Personen durch Diplomaten, Konsuln und Hafenpolizei
+      - Rassifizierte Arbeitskräfte- und Bevölkerungspolitik unmittelbar nach Abschaffung der Sklaverei
+      - Amtliche internationale Sichtbarkeit der Aufhellungstheorie durch die Regierungsdelegation des Nationalmuseumsdirektors 1911
+    summary: >-
+      Die Aufhellungstheorie der Ersten Republik verband einen vermeintlich biologischen Vorgang – europäische Einwanderung
+      und Fortpflanzung über rassifizierte Gruppen hinweg – mit kultureller Assimilation und dem Verschwinden von
+      Schwarzsein. Dekret 528 schuf selektive Einreise, Zuschüsse für Überfahrten aus Europa und Ansiedlungsstrukturen;
+      spätere Behörden machten Einwanderung und Kolonisation zu einem dauerhaften Verwaltungsfeld des Bundes. Lacerdas
+      amtliche Delegation von 1911 verband die wissenschaftliche Theorie mit staatlicher Repräsentation. Das Endjahr 1930
+      markiert das Ende der Ersten Republik und den Zuschnitt dieser Episode, keine belegte Abkehr.
+    mechanism:
+      summary: >-
+        Bundesbehörden verbanden Ausschluss nach Kontinent, Zuschüsse für europäische Überfahrten, diplomatischen und
+        polizeilichen Vollzug, Registrierung und Vermittlung, Kolonisationsämter, Auslandswerbung und amtliche
+        Wissenschaftsrepräsentation. So wurde ein rassisch-demografisches Projekt zur Verwaltungspraxis, ohne dass eine
+        Behörde offiziell nach der Aufhellung benannt sein musste.
+    institutionalCorrection:
+      periodLabel: Systemgrenze 1930
+      summary: >-
+        Die Erste Republik endete 1930, doch die Quellen belegen an dieser Grenze keine formelle Abkehr von Aufhellung oder
+        rassischer Auswahl. Einwanderungsnormen von 1938, 1945 und 1970 führten unter späteren Regimen stattdessen
+        ausdrückliche Kriterien zu „Rasse“, Abstammung oder ethnischer Zusammensetzung fort.
+  - id: brazil-federal-immigration-1938-1980
+    polity: Brasilien
+    institutions:
+      - Präsidentschaft der Republik
+      - Conselho de Imigração e Colonização
+      - Departamento de Imigração
+      - Außenministerium
+      - Justizministerium
+      - Departamento de Polícia Federal
+    institutionalContext: >-
+      Diese Episode umfasst die Vargas-Diktatur, die Nachkriegszeit und die Militärherrschaft; sie war kein einziges
+      unverändertes Programm und keine unveränderte Bürokratie. Der gemeinsame institutionelle Faden ist die ausdrückliche
+      rassische oder ethnische Auswahl im Einwanderungsrecht des Bundes. Der Rahmen von 1938 erlaubte Begrenzungen nach
+      „Rasse“ oder Herkunft und beauftragte den Conselho de Imigração e Colonização mit Studien zu ethnischer und sozialer
+      Anthropologie, Rassenbiologie und Eugenik. 1945 richtete ein Gesetz die Zulassung auf die als am günstigsten
+      betrachteten Merkmale europäischer Abstammung aus. 1970 verlangte eine Verordnung erneut die Berücksichtigung der
+      ethnischen Zusammensetzung Brasiliens. Das Endjahr 1980 markiert die Ablösung dieses Rechtsrahmens.
+    consequences:
+      - Bundeskompetenz zur Begrenzung oder Aussetzung der Einreise nach bestimmter „Rasse“ oder Herkunft
+      - Forschungen des Einwanderungsrats zu Rassenbiologie und Eugenik als Grundlage für Auswahl und mögliche Verbote
+      - Gesetzliche Bevorzugung von mit europäischer Abstammung verbundenen Merkmalen bei der Einwandererzulassung
+      - Bewahrung der ethnischen Zusammensetzung Brasiliens noch 1970 als Ziel der Einwanderungsverwaltung
+    summary: >-
+      Ausdrückliche rassische Auswahl überdauerte die Erste Republik unter mehreren späteren politischen Regimen. Der
+      Gesetzeswortlaut wechselte von „Rasse“ und Herkunft 1938 über bevorzugte europäische Abstammung 1945 zur ethnischen
+      Zusammensetzung 1970. In allen Fällen durfte die Einwanderungsverwaltung des Bundes die Zusammensetzung der Bevölkerung
+      als Kriterium staatlicher Politik behandeln.
+    mechanism:
+      summary: >-
+        Gesetzesdekrete und Verordnungen wiesen Präsidentschaft, Einwanderungsrat sowie Konsular-, Justiz- und
+        Polizeibehörden an, Zulassung, Quoten, Auswahl und Ansiedlung anhand von Kriterien zu „Rasse“, nationaler Herkunft,
+        Abstammung oder ethnischer Zusammensetzung zu verwalten.
+    institutionalCorrection:
+      periodLabel: 1980, 1988 und 2017
+      action: >-
+        Das Ausländerstatut von 1980 ersetzte den Rechtsrahmen und hob die Normen von 1938 und 1945 sowie das durch die
+        Verordnung von 1970 umgesetzte Gesetzesdekret von 1969 ausdrücklich auf. Die Verfassung von 1988 verankerte
+        Gleichheit und die Zurückweisung von Rassismus; das Migrationsgesetz von 2017 machte die Zurückweisung und
+        Verhütung von Rassismus und Diskriminierung zu Leitprinzipien.
+      summary: >-
+        Die Korrektur erfolgte stufenweise. Das Statut von 1980 übernahm die genannten Klauseln zu „Rasse“, europäischer
+        Abstammung und ethnischer Zusammensetzung nicht, blieb jedoch an nationaler Sicherheit orientiert. Die
+        Verfassungsordnung von 1988 und das Migrationsgesetz von 2017 schufen eine deutlichere menschenrechtliche und
+        ausdrücklich antirassistische institutionelle Nachfolgeregelung.
+evidence:
+  - id: racial-whitening-barros-proposition
+  - id: racial-whitening-aaba-correction
+    note: >-
+      Fachliche wissenschaftliche Erklärung, dass gesellschaftlich anerkannte Rassenkategorien keine diskreten biologischen
+      Gruppen sind und menschliche genetische Variation nicht zutreffend abbilden, während Rassismus gesellschaftlich und
+      biologisch folgenreich bleibt.
+  - id: racial-whitening-migration-impact
+  - id: racial-whitening-barros-carrier
+    note: >-
+      Die Studie zeigt, dass rassische Aufhellung in der Ersten Republik breite politische Resonanz besaß und
+      diskriminierende Einwanderungsstrukturen zur Umgestaltung der nationalen Bevölkerung ausrichtete.
+  - id: racial-whitening-barros-context
+  - id: racial-whitening-decree-528-mechanism
+    note: >-
+      Primäres Einwanderungsdekret des Bundes; es beschränkte ohne Genehmigung des Kongresses die Einreise indigener
+      Menschen aus Asien oder Afrika und bezuschusste die Überfahrten berechtigter Einwanderer.
+  - id: racial-whitening-decree-528-consequences
+  - id: racial-whitening-decree-603-carrier
+    note: >-
+      Das Dekret ordnete die Inspectoria Geral das Terras e Colonisação neu, unterstellte sie unmittelbar dem
+      Landwirtschaftsministerium und übertrug ihr Aufgaben zu Einwanderung, Kolonisation, Ansiedlung und Einwandererunterkünften.
+  - id: racial-whitening-decree-6479-carrier
+    note: >-
+      Das Dekret schuf die Directoria Geral do Serviço de Povoamento als zentrale Bundesstelle für staatlich geförderte
+      Einwanderungs- und Kolonisationsarbeit.
+  - id: racial-whitening-decree-6479-mechanism
+  - id: racial-whitening-law-97-context
+    note: >-
+      Das Gesetz von 1892 erlaubte ausdrücklich die freie Einreise chinesischer und japanischer Einwanderer. Daher darf
+      die ursprüngliche Beschränkung des Dekrets 528 für Einwanderung aus Asien nicht als während der gesamten Ersten
+      Republik unverändert dargestellt werden.
+  - id: racial-whitening-lacerda-context
+    note: >-
+      Offener UFRJ-Nachweis für Lacerdas Kongressschrift von 1911, eine Primärdarstellung der Aufhellungsprognose durch den
+      Nationalmuseumsdirektor, den Brasilien als offiziellen Delegierten entsandte.
+  - id: racial-whitening-migration-first-republic-correction
+    note: >-
+      Die rechtshistorische Synthese verfolgt rassische Auswahl über den Regimewechsel von 1930 hinaus anhand ausdrücklicher
+      Bestimmungen zu „Rasse“, europäischer Abstammung und ethnischer Zusammensetzung von 1938, 1945 und 1970.
+  - id: racial-whitening-aaba-first-republic-context
+    note: >-
+      Liefert den heutigen biologischen Maßstab zur Beurteilung der Rassenhierarchie; die Datierung oder Verwaltung der
+      brasilianischen Politikepisode belegt die Erklärung selbst nicht.
+  - id: racial-whitening-decree-law-406-carrier
+    note: >-
+      Das primäre Gesetzesdekret von 1938 ermächtigte die Bundesregierung nach Anhörung des Einwanderungsrats, die Einreise
+      von Angehörigen bestimmter „Rassen“ oder Herkünfte zu begrenzen oder auszusetzen.
+  - id: racial-whitening-decree-law-406-mechanism
+  - id: racial-whitening-decree-3010-carrier
+    note: >-
+      Die Durchführungsverordnung setzte den Conselho de Imigração e Colonização ein und regelte seine Ernennung und Befugnisse auf Bundesebene.
+  - id: racial-whitening-decree-3010-consequences
+    note: >-
+      Artikel 226 beauftragte den Rat mit Forschungen zu Einwandererauswahl, ethnischer und sozialer Anthropologie,
+      Rassenbiologie und Eugenik sowie mit Vorschlägen für vollständige oder teilweise Einwanderungsverbote.
+  - id: racial-whitening-decree-law-7967-consequences
+    note: >-
+      Artikel 2 richtete die Einwandererzulassung auf die Bewahrung und Entwicklung der ethnischen Zusammensetzung und der
+      als am günstigsten betrachteten Merkmale ihrer europäischen Abstammung aus.
+  - id: racial-whitening-decree-66689-consequences
+    note: >-
+      Artikel 1 verlangte, die Ausländerverordnung von 1970 unter anderem mit den Zielen nationaler Sicherheit und der
+      Bewahrung der ethnischen Zusammensetzung Brasiliens anzuwenden.
+  - id: racial-whitening-migration-later-context
+    note: >-
+      Fachbegutachtete Rechtsgeschichte, die die Klauseln von 1938, 1945 und 1970 in ein längeres Muster rassifizierter
+      Einwanderungspolitik des Bundes unter verschiedenen politischen Regimen einordnet.
+  - id: racial-whitening-law-6815-correction
+    note: >-
+      Artikel 141 hob die Einwanderungsnormen von 1938 und 1945 sowie das 1970 geregelte Gesetzesdekret von 1969 ausdrücklich
+      auf; das Nachfolgestatut wiederholte deren genannte Klauseln zu „Rasse“, Abstammung oder ethnischer Zusammensetzung nicht.
+  - id: racial-whitening-constitution-correction
+    note: >-
+      Die demokratische Verfassung machte Wohlergehen ohne Vorurteile wegen Herkunft, „Rasse“ oder Hautfarbe zum
+      Staatsziel, verwarf Rassismus in den internationalen Beziehungen und garantierte Gleichheit vor dem Gesetz.
+  - id: racial-whitening-migration-law-2017-correction
+    note: >-
+      Artikel 3 machte die Zurückweisung und Verhütung von Fremdenfeindlichkeit, Rassismus und jeder Diskriminierung sowie
+      Gleichbehandlung und Chancengleichheit zu ausdrücklichen Grundsätzen der brasilianischen Migrationspolitik.

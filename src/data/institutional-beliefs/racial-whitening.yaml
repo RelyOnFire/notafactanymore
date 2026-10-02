@@ -1,35 +1,352 @@
+schemaVersion: 2
 title: Racial whitening
-claim: Increasing European ancestry through immigration and intermarriage was treated as a biological route to “whiten” and improve the nation.
-currentUnderstanding: Human populations do not form a biological hierarchy from inferior to superior races, and increasing ancestry associated with socially defined “whiteness” does not biologically improve a population. Race is a social classification that only imperfectly tracks patterns of genetic ancestry.
+proposition:
+  summary: >-
+    In Brazil, influential state and scientific actors treated mass European immigration and interracial reproduction
+    as a route to make the population progressively whiter and thereby biologically and culturally improve or
+    “civilize” the nation. Federal immigration policy operationalized that racialized selection through subsidies,
+    exclusions, quotas, and criteria concerning ancestry or ethnic composition.
+correction:
+  summary: >-
+    Humans have genetic ancestry and geographically patterned variation, but they do not form discrete biological races
+    ranked from inferior to superior. Socially defined racial categories map only imprecisely onto genetic patterns.
+    Increasing European ancestry changes a population's ancestry frequencies; it does not make the population
+    biologically better, healthier, more intelligent, or more developed. Demographic change is not biological progress.
 category: Race and demography
-reviewedAt: 2026-08-23
+reviewedAt: '2026-08-23'
+impact:
+  summary: >-
+    The doctrine gave racial hierarchy concrete demographic machinery. In 1890 the federal government restricted entry
+    by people described as indigenous to Asia or Africa unless Congress authorized it, assigned enforcement to diplomats,
+    consuls, and port police, and offered passage subsidies for immigrants transported from Europe. Immigration and
+    colonization offices then received, registered, placed, and promoted immigrants. The theory also gained official
+    scientific visibility when National Museum director João Batista de Lacerda represented Brazil at the 1911 Universal
+    Races Congress. Later federal rules authorized limits by race or origin, assigned an immigration council to study
+    racial biology and eugenics, preferred European ancestry, and made preservation of Brazil's ethnic composition an
+    administrative objective.
+  highlights:
+    - value: 120 francs
+      label: federal subsidy in 1890 for each adult immigrant transported from Europe
+    - value: '1911'
+      label: National Museum director Lacerda presented whitening theory as Brazil's official delegate to the Universal Races Congress
+    - value: '1980'
+      label: new Foreigners Statute expressly repealed the 1938 and 1945 immigration instruments
+  context:
+    - >-
+      The First Republic had no single agency officially named a “whitening office,” and its principal immigration laws
+      usually did not state whitening as their purpose. The historical connection rests on the interaction between the
+      period's racial theory, official scientific representation, and the selective design of immigration and settlement policy.
+    - >-
+      Decree 528's 1890 wording covered people indigenous to both Asia and Africa. In 1892, Congress expressly permitted
+      free entry by Chinese and Japanese immigrants. The record therefore does not present the original restriction on
+      Asian immigration as unchanged through 1930; no equivalent relief for African immigrants appears in the 1892 law.
+    - >-
+      Labor demand, agricultural settlement, assimilation, and national security also shaped these laws. Whitening was a
+      documented racial frame and basis of selection, not the sole cause of every Brazilian migration measure or migration flow.
+    - >-
+      Repeal of racialized admission rules did not undo their demographic and social consequences or end structural racism.
+      Formal institutional correction and the scientific rejection of biological racial hierarchy are separate developments.
 episodes:
-  - id: brazil-1890-1930
+  - id: brazil-first-republic-1890-1930
     polity: Brazil
     region: Latin America
     startYear: 1890
     endYear: 1930
     strength: policy-basis
-    institutionTypes: [government]
+    institutionTypes:
+      - government
+      - academy
     institutions:
-      - Ministério da Agricultura, Comércio e Obras Públicas
+      - Governo Provisório da República dos Estados Unidos do Brasil
+      - Ministério dos Negócios da Agricultura, Comércio e Obras Públicas
+      - Inspectoria Geral das Terras e Colonisação
+      - Ministério da Indústria, Viação e Obras Públicas
       - Directoria Geral do Serviço de Povoamento
-    institutionalContext: The First Republic did not operate a single agency called a “whitening office.” Federal immigration and colonization policy moved through named ministries and, from 1907, the Directoria Geral do Serviço de Povoamento, the central office charged with federally promoted immigration and settlement. The 1890 immigration decree also assigned enforcement roles to Brazilian diplomatic and consular agents and port police; those distributed functions are described here rather than being presented as invented institution names.
+      - Museu Nacional do Rio de Janeiro
+    institutionalContext: >-
+      The carrier was a network, not a single whitening bureau. The provisional government issued the 1890 immigration
+      decree, while the Inspectoria Geral das Terras e Colonisação, subordinate to the agriculture ministry, administered
+      federal immigration and settlement work. From 1907 the Directoria Geral do Serviço de Povoamento, under a different
+      ministry, became the central federal office for promoted or subsidized immigration and colonization. Diplomats,
+      consuls, and port police enforced entry rules. The National Museum supplied an additional scientific carrier through
+      director João Batista de Lacerda, whom the government sent to the 1911 Universal Races Congress. The statutes did not
+      openly label this distributed system “whitening”; contemporary scholarship establishes the relationship between its
+      proxy categories and the racial project.
     consequences:
-      - Federal subsidies and administrative machinery favoring European immigration
-      - Formal restrictions on immigrants from Africa and Asia in the 1890 framework
-      - Population policy shaped by racialized ideas of national improvement
-    summary: During the First Brazilian Republic, influential racial theory held that European immigration and interracial marriage could make Brazil progressively whiter. Federal immigration rules and settlement programs supplied concrete machinery for attracting and subsidizing selected immigrants, while the 1890 framework restricted entry from Africa and Asia.
-    sources:
-      - title: Racial Whitening as a Global “Innovation” — Race in the First Brazilian Republic, 1889–1930
-        url: https://www.cambridge.org/core/journals/du-bois-review-social-science-research-on-race/article/racial-whitening-as-a-global-innovation/2675EBB583BEE2C057ED301018F153D2
-        publisher: Du Bois Review
-        note: Argues that racial whitening had wide political resonance in the First Republic and oriented discriminatory immigration structures intended to reshape the national population.
-      - title: Decreto nº 528, de 28 de Junho de 1890
-        url: https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-528-28-junho-1890-506935-publicacaooriginal-1-pe.html
-        publisher: Câmara dos Deputados
-        note: Primary federal decree regulating immigration; restricted entry of Indigenous people from Asia or Africa without congressional authorization and subsidized eligible immigrant passages.
-      - title: Decreto nº 6.479, de 16 de Maio de 1907
-        url: https://www2.camara.leg.br/legin/fed/decret/1900-1909/decreto-6479-16-maio-1907-527639-publicacaooriginal-1-pe.html
-        publisher: Câmara dos Deputados
-        note: Creates the Directoria Geral do Serviço de Povoamento as the central federal office for immigration and colonization work promoted or subsidized by the federal government.
+      - Federal passage subsidies, reception, registration, placement, and settlement machinery directed toward European immigration
+      - Diplomatic, consular, and port-police enforcement of the 1890 restriction on people indigenous to Asia or Africa
+      - Racially selective labor and population policy in the immediate post-abolition period
+      - Official international visibility for whitening theory through the National Museum director's 1911 government delegation
+    summary: >-
+      First Republic whitening theory joined a supposed biological process—European immigration and reproduction across
+      racialized groups—with cultural assimilation and the disappearance of Blackness. Decree 528 supplied selective
+      entry, European transport subsidies, and settlement machinery; later offices made immigration and colonization a
+      standing federal administrative field. Lacerda's official 1911 delegation connected the scientific theory to state
+      representation. The 1930 endpoint marks the end of the First Republic and the scope of this episode, not a documented repudiation.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Federal authorities combined continent-based exclusion, European passage subsidies, diplomatic and port
+        enforcement, immigrant registration and placement, colonization offices, overseas promotion, and official
+        scientific representation. Those mechanisms converted a racial-demographic project into routine administration
+        without requiring an agency formally named for whitening.
+    institutionalCorrection:
+      status: uncorrected
+      periodLabel: 1930 regime boundary
+      summary: >-
+        The First Republic ended in 1930, but the sources do not document a formal repudiation of whitening or racial
+        selection at that boundary. Federal immigration rules in 1938, 1945, and 1970 instead continued explicit racial,
+        ancestry, or ethnic-composition criteria under later regimes.
+  - id: brazil-federal-immigration-1938-1980
+    polity: Brazil
+    region: Latin America
+    startYear: 1938
+    endYear: 1980
+    strength: policy-basis
+    institutionTypes:
+      - government
+    institutions:
+      - Presidência da República
+      - Conselho de Imigração e Colonização
+      - Departamento de Imigração
+      - Ministério das Relações Exteriores
+      - Ministério da Justiça
+      - Departamento de Polícia Federal
+    institutionalContext: >-
+      This episode spans the Vargas dictatorship, the postwar period, and military rule; it was not one unchanged program
+      or bureaucracy. The common institutional thread is federal migration law's express use of racial or ethnic selection.
+      The 1938 framework allowed entry to be limited by race or origin and charged the Conselho de Imigração e Colonização
+      with studying ethnic and social anthropology, racial biology, and eugenics. A 1945 law directed admission toward the
+      most convenient characteristics of European ancestry. A 1970 regulation again required administrators to consider
+      Brazil's ethnic composition. The 1980 endpoint marks replacement of that legal framework.
+    consequences:
+      - Federal authority to limit or suspend entry by specified race or origin
+      - Immigration-council study of racial biology and eugenics as grounds for selection and possible prohibition
+      - Statutory preference for characteristics associated with European ancestry in immigrant admission
+      - Preservation of Brazil's ethnic composition retained as an objective of immigration administration in 1970
+    summary: >-
+      Explicit racial selection survived the First Republic under several later political regimes. The legal wording
+      shifted from race and origin in 1938, to preferred European ancestry in 1945, to ethnic composition in 1970, but in
+      each case federal immigration administration was authorized to treat population composition as a criterion of state policy.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Decree-laws and regulations instructed the presidency, immigration council, consular, justice, and police
+        authorities to administer admission, quotas, selection, and settlement through racial, national-origin, ancestry,
+        or ethnic-composition criteria.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 1980, 1988, and 2017
+      action: >-
+        The 1980 Foreigners Statute replaced the framework and expressly repealed the 1938 and 1945 instruments and the
+        1969 decree-law implemented by the 1970 regulation. The 1988 Constitution established equality and repudiation of
+        racism, and the 2017 Migration Law made rejection and prevention of racism and discrimination governing principles.
+      summary: >-
+        Correction occurred in stages. The 1980 statute did not carry forward the cited race, European-ancestry, or
+        ethnic-composition clauses, although it retained a national-security orientation. The 1988 constitutional order
+        and 2017 Migration Law supplied a clearer rights-based and explicitly anti-racist institutional replacement.
+sources:
+  - id: racial-whitening-barros
+    title: Racial Whitening as a Global “Innovation” — Race in the First Brazilian Republic, 1889–1930
+    url: https://www.cambridge.org/core/journals/du-bois-review-social-science-research-on-race/article/racial-whitening-as-a-global-innovation/2675EBB583BEE2C057ED301018F153D2
+    publisher: Du Bois Review
+  - id: racial-whitening-decree-528
+    title: Decreto nº 528, de 28 de Junho de 1890
+    url: https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-528-28-junho-1890-506935-publicacaooriginal-1-pe.html
+    publisher: Câmara dos Deputados
+  - id: racial-whitening-decree-6479
+    title: Decreto nº 6.479, de 16 de Maio de 1907
+    url: https://www2.camara.leg.br/legin/fed/decret/1900-1909/decreto-6479-16-maio-1907-527639-publicacaooriginal-1-pe.html
+    publisher: Câmara dos Deputados
+  - id: racial-whitening-decree-603
+    title: Decreto nº 603, de 26 de Julho de 1890
+    url: https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-603-26-julho-1890-520634-publicacaooriginal-1-pe.html
+    publisher: Câmara dos Deputados
+  - id: racial-whitening-law-97
+    title: Lei nº 97, de 5 de Outubro de 1892
+    url: https://www2.camara.leg.br/legin/fed/lei/1824-1899/lei-97-5-outubro-1892-541345-norma-pl.html
+    publisher: Câmara dos Deputados
+  - id: racial-whitening-lacerda-1911
+    title: Sur le métis au Brésil
+    url: https://bdor.sibi.ufrj.br/handle/doc/35?locale=pt_BR
+    publisher: Biblioteca Digital de Obras Raras, UFRJ
+  - id: racial-whitening-migration-law-study
+    title: 'Migration Law in Brazil Across Regime Change (1889–2023): Selective Liberalism Under Rule by Decree?'
+    url: https://link.springer.com/article/10.1007/s40803-026-00271-0
+    publisher: Hague Journal on the Rule of Law
+  - id: racial-whitening-decree-law-406
+    title: Decreto-Lei nº 406, de 4 de Maio de 1938
+    url: https://www2.camara.leg.br/legin/fed/declei/1930-1939/decreto-lei-406-4-maio-1938-348724-publicacaooriginal-1-pe.html
+    publisher: Câmara dos Deputados
+  - id: racial-whitening-decree-3010
+    title: Decreto nº 3.010, de 20 de Agosto de 1938
+    url: https://www2.camara.leg.br/legin/fed/decret/1930-1939/decreto-3010-20-agosto-1938-348850-publicacaooriginal-1-pe.html
+    publisher: Câmara dos Deputados
+  - id: racial-whitening-decree-law-7967
+    title: Decreto-Lei nº 7.967, de 18 de Setembro de 1945
+    url: https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-7967-18-setembro-1945-416614-publicacaooriginal-1-pe.html
+    publisher: Câmara dos Deputados
+  - id: racial-whitening-decree-66689
+    title: Decreto nº 66.689, de 11 de Junho de 1970
+    url: https://www2.camara.leg.br/legin/fed/decret/1970-1979/decreto-66689-11-junho-1970-408279-publicacaooriginal-1-pe.html
+    publisher: Câmara dos Deputados
+  - id: racial-whitening-law-6815
+    title: Lei nº 6.815, de 19 de Agosto de 1980
+    url: https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-6815-19-agosto-1980-366138-republicacaoatualizada-34210-pl.html
+    publisher: Câmara dos Deputados
+  - id: racial-whitening-constitution-1988
+    title: Constituição da República Federativa do Brasil de 1988
+    url: https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-publicacaooriginal-1-pl.html
+    publisher: Câmara dos Deputados
+  - id: racial-whitening-migration-law-2017
+    title: Lei nº 13.445, de 24 de Maio de 2017 — Lei de Migração
+    url: https://www2.camara.leg.br/legin/fed/lei/2017/lei-13445-24-maio-2017-784925-publicacaooriginal-152812-pl.html
+    publisher: Câmara dos Deputados
+  - id: racial-whitening-aaba
+    title: AABA Statement on Race & Racism
+    url: https://bioanth.org/about/aaba-statement-on-race-racism/
+    publisher: American Association of Biological Anthropologists
+evidence:
+  - id: racial-whitening-barros-proposition
+    sourceId: racial-whitening-barros
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+  - id: racial-whitening-aaba-correction
+    sourceId: racial-whitening-aaba
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Professional scientific statement explaining that socially recognized racial categories are not discrete biological
+      groups and do not accurately map human genetic variation, while racism remains socially and biologically consequential.
+  - id: racial-whitening-migration-impact
+    sourceId: racial-whitening-migration-law-study
+    relation: supports
+    target: {scope: belief, aspect: impact}
+  - id: racial-whitening-barros-carrier
+    sourceId: racial-whitening-barros
+    relation: supports
+    target: {scope: episode, episodeId: brazil-first-republic-1890-1930, aspect: carrier}
+    note: Argues that racial whitening had wide political resonance in the First Republic and oriented discriminatory immigration structures intended to reshape the national population.
+  - id: racial-whitening-barros-context
+    sourceId: racial-whitening-barros
+    relation: contextualizes
+    target: {scope: episode, episodeId: brazil-first-republic-1890-1930, aspect: context}
+  - id: racial-whitening-decree-528-mechanism
+    sourceId: racial-whitening-decree-528
+    relation: documents
+    target: {scope: episode, episodeId: brazil-first-republic-1890-1930, aspect: mechanism}
+    note: Primary federal decree regulating immigration; restricted entry of Indigenous people from Asia or Africa without congressional authorization and subsidized eligible immigrant passages.
+  - id: racial-whitening-decree-528-consequences
+    sourceId: racial-whitening-decree-528
+    relation: documents
+    target: {scope: episode, episodeId: brazil-first-republic-1890-1930, aspect: consequences}
+  - id: racial-whitening-decree-603-carrier
+    sourceId: racial-whitening-decree-603
+    relation: documents
+    target: {scope: episode, episodeId: brazil-first-republic-1890-1930, aspect: carrier}
+    note: >-
+      Reorganized the Inspectoria Geral das Terras e Colonisação, placed it directly under the agriculture ministry, and
+      assigned it federal immigration, colonization, immigrant-establishment, and hostel functions.
+  - id: racial-whitening-decree-6479-carrier
+    sourceId: racial-whitening-decree-6479
+    relation: documents
+    target: {scope: episode, episodeId: brazil-first-republic-1890-1930, aspect: carrier}
+    note: Creates the Directoria Geral do Serviço de Povoamento as the central federal office for immigration and colonization work promoted or subsidized by the federal government.
+  - id: racial-whitening-decree-6479-mechanism
+    sourceId: racial-whitening-decree-6479
+    relation: documents
+    target: {scope: episode, episodeId: brazil-first-republic-1890-1930, aspect: mechanism}
+  - id: racial-whitening-law-97-context
+    sourceId: racial-whitening-law-97
+    relation: documents
+    target: {scope: episode, episodeId: brazil-first-republic-1890-1930, aspect: context}
+    note: >-
+      The 1892 law expressly allowed free entry by Chinese and Japanese immigrants, qualifying any claim that Decree 528's
+      original restriction on immigration from Asia remained unchanged for the whole First Republic.
+  - id: racial-whitening-lacerda-context
+    sourceId: racial-whitening-lacerda-1911
+    relation: documents
+    target: {scope: episode, episodeId: brazil-first-republic-1890-1930, aspect: context}
+    note: >-
+      UFRJ's open rare-book record for Lacerda's 1911 congress paper, a primary presentation of the whitening prediction
+      by the National Museum director whom Brazil sent as its official delegate.
+  - id: racial-whitening-migration-first-republic-correction
+    sourceId: racial-whitening-migration-law-study
+    relation: supports
+    target: {scope: episode, episodeId: brazil-first-republic-1890-1930, aspect: institutional-correction}
+    note: >-
+      A legal-history synthesis traces racial selection beyond the 1930 regime change through express race, European-ancestry,
+      and ethnic-composition provisions in 1938, 1945, and 1970.
+  - id: racial-whitening-aaba-first-republic-context
+    sourceId: racial-whitening-aaba
+    relation: contextualizes
+    target: {scope: episode, episodeId: brazil-first-republic-1890-1930, aspect: context}
+    note: >-
+      Supplies the modern biological baseline for evaluating the racial hierarchy; it does not itself establish the dates
+      or administration of the Brazilian policy episode.
+  - id: racial-whitening-decree-law-406-carrier
+    sourceId: racial-whitening-decree-law-406
+    relation: documents
+    target: {scope: episode, episodeId: brazil-federal-immigration-1938-1980, aspect: carrier}
+    note: >-
+      The primary 1938 decree-law authorized the federal government, after hearing the immigration council, to limit or
+      suspend entry by individuals of specified races or origins.
+  - id: racial-whitening-decree-law-406-mechanism
+    sourceId: racial-whitening-decree-law-406
+    relation: documents
+    target: {scope: episode, episodeId: brazil-federal-immigration-1938-1980, aspect: mechanism}
+  - id: racial-whitening-decree-3010-carrier
+    sourceId: racial-whitening-decree-3010
+    relation: documents
+    target: {scope: episode, episodeId: brazil-federal-immigration-1938-1980, aspect: carrier}
+    note: >-
+      The implementing regulation constituted the Conselho de Imigração e Colonização and specified its federal appointment and powers.
+  - id: racial-whitening-decree-3010-consequences
+    sourceId: racial-whitening-decree-3010
+    relation: documents
+    target: {scope: episode, episodeId: brazil-federal-immigration-1938-1980, aspect: consequences}
+    note: >-
+      Article 226 charged the council with studying immigrant selection, ethnic and social anthropology, racial biology,
+      and eugenics and with proposing total or partial immigration prohibitions.
+  - id: racial-whitening-decree-law-7967-consequences
+    sourceId: racial-whitening-decree-law-7967
+    relation: documents
+    target: {scope: episode, episodeId: brazil-federal-immigration-1938-1980, aspect: consequences}
+    note: >-
+      Article 2 directed immigrant admission toward preserving and developing the population's ethnic composition and the
+      characteristics considered most convenient in its European ancestry.
+  - id: racial-whitening-decree-66689-consequences
+    sourceId: racial-whitening-decree-66689
+    relation: documents
+    target: {scope: episode, episodeId: brazil-federal-immigration-1938-1980, aspect: consequences}
+    note: >-
+      Article 1 required the 1970 foreigner regulation to be applied with preservation of national security and Brazil's
+      ethnic composition among its objectives.
+  - id: racial-whitening-migration-later-context
+    sourceId: racial-whitening-migration-law-study
+    relation: supports
+    target: {scope: episode, episodeId: brazil-federal-immigration-1938-1980, aspect: context}
+    note: >-
+      Peer-reviewed legal history situating the 1938, 1945, and 1970 clauses within a longer pattern of racialized federal
+      migration policy across different political regimes.
+  - id: racial-whitening-law-6815-correction
+    sourceId: racial-whitening-law-6815
+    relation: documents
+    target: {scope: episode, episodeId: brazil-federal-immigration-1938-1980, aspect: institutional-correction}
+    note: >-
+      Article 141 expressly repealed the 1938 and 1945 immigration instruments and the 1969 decree-law regulated in 1970;
+      the replacement statute did not reproduce their cited race, ancestry, or ethnic-composition clauses.
+  - id: racial-whitening-constitution-correction
+    sourceId: racial-whitening-constitution-1988
+    relation: documents
+    target: {scope: episode, episodeId: brazil-federal-immigration-1938-1980, aspect: institutional-correction}
+    note: >-
+      The democratic Constitution made well-being without prejudice of origin, race, or color a fundamental objective,
+      repudiated racism in international relations, and guaranteed equality before the law.
+  - id: racial-whitening-migration-law-2017-correction
+    sourceId: racial-whitening-migration-law-2017
+    relation: documents
+    target: {scope: episode, episodeId: brazil-federal-immigration-1938-1980, aspect: institutional-correction}
+    note: >-
+      Article 3 made repudiation and prevention of xenophobia, racism, and all discrimination, together with equal
+      treatment and opportunity, express principles of Brazilian migration policy.

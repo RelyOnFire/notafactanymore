@@ -1,60 +1,296 @@
-title: The “primitive African mind”
-claim: Colonial psychiatric authorities treated Africans as psychologically primitive, governed more by instinct or “magical” thinking and less by higher reasoning than Europeans.
-currentUnderstanding: There is no scientifically valid unitary “African mind,” and racial ancestry does not place populations on a hierarchy of cognitive development. Human cognition and mental health vary among individuals and are shaped by biology, development, culture, environment, education, and social conditions.
-category: Colonial psychiatry
-reviewedAt: 2026-08-23
+schemaVersion: 2
+title: Colonial theory of the “primitive African mind”
+proposition:
+  summary: >-
+    Colonial psychiatric and administrative authorities in French Algeria and British Kenya treated colonized African
+    populations as psychologically less developed than Europeans. The School of Algiers attributed North African
+    behavior to deficient higher brain functions and instinct, while J. C. Carothers described an “African mind” shaped
+    by underused frontal functions, external or magical modes of thought, and an unstable transition to European
+    modernity; Kenya officials applied that framework to Mau Mau.
+correction:
+  summary: >-
+    There is no unitary biological “African mind” or racial ladder of cognitive development. Continental and colonial
+    categories do not define fixed brain organization, intelligence, personality, or psychiatric capacity. Human
+    psychological variation is individual and develops through interacting biological, social, cultural, educational,
+    environmental, and political conditions. The colonial theories converted selected observations and stereotypes into
+    racial essences while discounting dispossession, coercion, violence, and the specific histories of the people studied.
+category: Colonial psychiatry and racial psychology
+reviewedAt: '2026-08-23'
+impact:
+  summary: >-
+    Two distinct colonial networks gave racial hierarchy professional and administrative force. In Algeria, a medical
+    faculty and hospital network taught and applied the School of Algiers model in psychiatric and medico-legal work. In
+    Kenya, the colonial government commissioned Carothers during the Emergency, and his account supplied an expert
+    rationale for officials already constructing a detention and “rehabilitation” system. The comparison shows how broad
+    claims about an “African mind” could move between medicine, education, and government without implying that all
+    colonial psychiatrists or all African societies shared one doctrine.
+  highlights:
+    - value: '1918'
+      label: Porot's founding School of Algiers text cast North African psychology in an evolutionary racial hierarchy
+    - value: '1954'
+      label: Kenya commissioned Carothers to investigate Mau Mau psychology and published his policy-facing report
+    - value: '2013'
+      label: Britain formally recognized torture and ill-treatment in Kenya's colonial detention and rehabilitation system
+  context:
+    - >-
+      This record compares two documented institutional episodes: colonial psychiatry concerning North African Muslims
+      in Algeria and the British administration's account of Gikuyu participation in Mau Mau. It does not treat Africa or
+      Africans as a homogeneous population, and it does not claim that the two networks taught an identical theory.
+    - >-
+      Carothers emphasized culture, environment, and disruptive social transition more than a simple hereditary theory.
+      That qualification does not rescue his model: it still generalized an “African” developmental hierarchy, measured
+      colonized people against a European norm, and turned an anticolonial conflict into a problem of psychic maladaptation.
+    - >-
+      Frantz Fanon's appointment at Blida-Joinville in 1953 began an important challenge from within the Algerian hospital
+      system; it did not end the School of Algiers' institutional episode. French colonial rule ended in 1962, and elements
+      of the school's vocabulary survived beyond independence.
+    - >-
+      The Algeria episode overlaps with the more detailed record “North Africans as biologically primitive in psychiatric
+      practice.” It is retained here to show the narrower doctrine's place in a wider comparative claim about colonial
+      constructions of an “African mind.”
 episodes:
-  - id: french-algeria-1918-1953
+  - id: french-algeria-1918-1962
     polity: French Algeria
-    region: Africa
+    region: North Africa
     startYear: 1918
-    endYear: 1953
-    strength: officially-endorsed
-    institutionTypes: [medical, university]
+    endYear: 1962
+    strength: institutionally-influential
+    institutionTypes:
+      - medical
+      - university
     institutions:
       - Faculté de médecine d'Alger
+      - École d'Alger psychiatric network
       - Hôpital psychiatrique de Blida-Joinville
-    institutionalContext: The “Algiers School” was an intellectual and professional network centered on Antoine Porot rather than a single ministry or statutory body. Its institutional weight came through the University of Algiers medical faculty, psychiatric teaching, and the Blida-Joinville hospital, where the framework shaped training and clinical interpretation.
+    institutionalContext: >-
+      The School of Algiers was a professional network centered on Antoine Porot rather than a ministry with a single
+      doctrine. Porot's 1918 article became a founding text, and Porot and Jean Sutter's 1939 paper made North African
+      “primitivism” an explicit psychiatric explanation. The network gained authority through the Algiers medical faculty,
+      specialist teaching, publications, medico-legal work, and Blida-Joinville hospital. Fanon contested its racial model
+      while working at Blida from 1953, but the colonial institutions carrying it were not transformed until independence.
     consequences:
-      - Racialized psychiatric teaching and theory
-      - Clinical interpretation of North African patients through racial hierarchy
-      - Training of colonial psychiatric personnel in a primitivist framework
-    summary: Antoine Porot and the influential Algiers School described North Africans as having primitive brain development, weak higher cortical function, and behavior governed largely by instinct. These ideas became part of psychiatric teaching and clinical interpretation in French North Africa through identifiable university and hospital institutions.
-    sources:
-      - title: Fifty years after Frantz Fanon — beyond diversity
-        url: https://www.cambridge.org/core/journals/advances-in-psychiatric-treatment/article/fifty-years-after-frantz-fanon-beyond-diversity/AEB106DAB48F03DDBCBB22DB28AA20E2
-        publisher: Advances in Psychiatric Treatment
-        note: Describes the Algiers School as dominant in colonial psychiatry and summarizes Porot's claim that North Africans had primitive brain development and lacked higher brain functions.
-      - title: Cultural Psychiatry in Historical Perspective
-        url: https://www.cambridge.org/core/books/textbook-of-cultural-psychiatry/cultural-psychiatry-in-historical-perspective/DA97BD4EC2B3AF43A7F3A668A7610486
-        publisher: Cambridge University Press
-        note: Reviews racial essentialism in colonial psychiatry and Porot's theory that the native Algerian mind was structurally different from that of the European.
-  - id: british-kenya-1954-1959
+      - Psychiatric teaching that presented colonial stereotypes as population-level psychological characteristics
+      - Clinical interpretation of North African patients through assumptions of primitive mentality and innate impulsivity
+      - Medico-legal explanations of violence and criminal behavior through a racial hierarchy
+      - Training of colonial psychiatric personnel within the School of Algiers framework
+    summary: >-
+      Porot and the influential School of Algiers described North African Muslims as lacking higher cortical functions and
+      as governed more by instinct, emotion, and suggestion. These claims acquired institutional reach through psychiatric
+      education, hospital practice, and professional writing. Fanon's work at Blida challenged the doctrine after 1953,
+      but no evidence shows that his arrival ended its carriage or produced a formal institutional retraction.
+    mechanism:
+      kind: education
+      summary: >-
+        The Algiers medical faculty and its associated psychiatric network reproduced a racial-evolutionist model through
+        professional education, clinical interpretation, publication, and medico-legal practice.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        Fanon and later psychiatry rejected the racial doctrine, and Algerian independence ended the French colonial
+        institutional setting in 1962. The current evidence does not identify a dated act by the School of Algiers, the
+        medical faculty, or a French state medical authority formally retracting the theory.
+  - id: british-kenya-1954-1960
     polity: British Kenya
-    region: Africa
+    region: East Africa
     startYear: 1954
-    endYear: 1959
+    endYear: 1960
     strength: policy-basis
-    institutionTypes: [government, medical]
+    institutionTypes:
+      - government
+      - medical
     institutions:
+      - Government of the Colony and Protectorate of Kenya
       - Department of Community Development and Rehabilitation, Colony and Protectorate of Kenya
       - Office of the Commissioner for Community Development and Rehabilitation
-    institutionalContext: The Kenya Government commissioned J. C. Carothers in 1954, but the relevant implementing machinery was more specific than “the colonial government.” The Department of Community Development and Rehabilitation and its commissioner organized the rehabilitation system for detainees and convicts, while Carothers' psychological account was used to rationalize how that system understood oath-taking, “deconditioning,” and re-education.
+    institutionalContext: >-
+      The Kenya Government commissioned psychiatrist J. C. Carothers in February 1954 to investigate Mau Mau psychology.
+      Rehabilitation commissioner Thomas Askwith's approach was already emerging, so Carothers did not invent the system;
+      his report theorized and reassured officials that its emphasis on confession, work, instruction, family order, and
+      guided transition was sound. The department and commissioner administered rehabilitation for detainees, convicts,
+      and work-camp populations, while the wider detention pipeline continued through the Emergency's end in 1960.
     consequences:
-      - Psychiatric framing of Mau Mau as maladaptation rather than primarily political conflict
-      - Use of ethnopsychological theory in detention and rehabilitation policy
-      - Institutional reinforcement of racialized explanations of African political behavior
-    summary: In 1954 the Kenya government commissioned psychiatrist J. C. Carothers to explain Mau Mau psychologically. His account depicted the Gikuyu as caught between “primitive” forms of thought and disruptive modernization; officials responsible for community development and rehabilitation used related assumptions while constructing detention and re-education programs.
-    sources:
-      - title: Mau Mau Psychology — Investigation
-        url: https://hansard.parliament.uk/Commons/1954-05-19/debates/c20401a7-68c8-4710-b627-3dff78e9f0d7/MauMauPsychology%28Investigation%29
-        publisher: UK Parliament
-        note: Records that the Kenya Government invited J. C. Carothers in February 1954 to conduct a special investigation into the psychology of Mau Mau.
-      - title: Mau Maus of the Mind — Making Mau Mau and Remaking Kenya
-        url: https://www.cambridge.org/core/journals/journal-of-african-history/article/mau-maus-of-the-mind-making-mau-mau-and-remaking-kenya1/5037F098EF5C5E2AF11E7C4837EAD118
-        publisher: Journal of African History
-        note: Identifies the Colony and Protectorate of Kenya's Department of Community Development and Rehabilitation and traces the role of Carothers' analysis in the rehabilitation framework.
-      - title: A Guide to the Contents of the Kenya National Archives and Documentation Service — Part I
-        url: https://www.archives.go.ke/sites/default/files/2023-07/A%20Guide%20to%20the%20Contents%20of%20the%20KNADS%20Part%201.pdf
-        publisher: Kenya National Archives and Documentation Service
-        note: Describes the Commissioner for Community Development and Rehabilitation's responsibility from 1953 for rehabilitation of Mau Mau detainees, convicts, and work-camp populations.
+      - Psychiatric framing of an anticolonial conflict as African maladaptation to social transition
+      - Expert legitimation for detention, confession, “deconditioning,” labor, instruction, and re-education policies
+      - Administrative displacement of land, power, coercion, and political grievance by racialized psychological explanation
+      - Circulation of the Gikuyu case as evidence for a generalized colonial category of the “African in transition”
+    summary: >-
+      Carothers portrayed Mau Mau partly as a psychic crisis among Gikuyu people supposedly caught between externally
+      regulated “tribal” life and European modernity while retaining magical modes of thought. Officials used this expert
+      account to rationalize an existing rehabilitation strategy rather than treating the movement primarily as a political
+      struggle over land, power, and colonial rule. The system encompassed coercive detention and re-education; later
+      scholarship distinguishes Carothers' environmental emphasis from a purely hereditary account without accepting its
+      racial and developmental hierarchy.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        The colonial government commissioned and published a psychiatric explanation, while the department responsible
+        for detainee rehabilitation incorporated related ideas about confession, “deconditioning,” disciplined work, and
+        guided modernization into administrative practice.
+    institutionalCorrection:
+      status: partial
+      periodLabel: '2013'
+      action: >-
+        The British government recognized torture, ill-treatment, and harsh colonial “rehabilitation” regimes, expressed
+        sincere regret, settled 5,228 claims, and supported a memorial in Nairobi.
+      summary: >-
+        The 2013 statement formally recognized suffering and injustice within the detention system and condemned torture
+        and ill-treatment. It did not specifically retract Carothers' racial psychology, and the government continued to
+        deny present-day legal liability, so it constitutes a correction of documented institutional harms rather than a
+        complete correction of the underlying doctrine.
+sources:
+  - id: primitive-fanon-beyond-diversity
+    title: Fifty years after Frantz Fanon — beyond diversity
+    url: https://www.cambridge.org/core/journals/advances-in-psychiatric-treatment/article/fifty-years-after-frantz-fanon-beyond-diversity/AEB106DAB48F03DDBCBB22DB28AA20E2
+    publisher: Advances in Psychiatric Treatment
+  - id: primitive-cultural-psychiatry-history
+    title: Cultural Psychiatry in Historical Perspective
+    url: https://www.cambridge.org/core/books/textbook-of-cultural-psychiatry/cultural-psychiatry-in-historical-perspective/DA97BD4EC2B3AF43A7F3A668A7610486
+    publisher: Cambridge University Press
+  - id: primitive-porot-1918
+    title: Notes de psychiatrie musulmane — Annales médico-psychologiques, 1918
+    url: https://archive.org/details/BIUSante_90152x1918x09/mode/2up
+    publisher: Annales médico-psychologiques / Bibliothèque interuniversitaire de Santé scan
+  - id: primitive-porot-sutter-1939
+    title: Le 'primitivisme' des indigènes nord-africains — bibliographic record
+    url: https://catalogue.bnf.fr/ark:/12148/cb314225621
+    publisher: Bibliothèque nationale de France
+  - id: primitive-hansard-carothers
+    title: Mau Mau Psychology — Investigation
+    url: https://hansard.parliament.uk/Commons/1954-05-19/debates/c20401a7-68c8-4710-b627-3dff78e9f0d7/MauMauPsychology%28Investigation%29
+    publisher: UK Parliament
+  - id: primitive-lonsdale-mau-mind
+    title: Mau Maus of the Mind — Making Mau Mau and Remaking Kenya
+    url: https://www.cambridge.org/core/journals/journal-of-african-history/article/mau-maus-of-the-mind-making-mau-mau-and-remaking-kenya1/5037F098EF5C5E2AF11E7C4837EAD118
+    publisher: Journal of African History
+  - id: primitive-knads-guide
+    title: A Guide to the Contents of the Kenya National Archives and Documentation Service — Part I
+    url: https://www.archives.go.ke/sites/default/files/2023-07/A%20Guide%20to%20the%20Contents%20of%20the%20KNADS%20Part%201.pdf
+    publisher: Kenya National Archives and Documentation Service
+  - id: primitive-mau-mau-method
+    title: Mau Mau as Method
+    url: https://www.cambridge.org/core/journals/history-in-africa/article/mau-mau-as-method/EE4D6C160ED24967F91D92EB10DAA640
+    publisher: History in Africa
+  - id: primitive-aaba-race
+    title: AABA Statement on Race & Racism
+    url: https://bioanth.org/about/aaba-statement-on-race-racism/
+    publisher: American Association of Biological Anthropologists
+  - id: primitive-uk-mau-mau-settlement
+    title: Statement to Parliament on settlement of Mau Mau claims
+    url: https://www.gov.uk/government/news/statement-to-parliament-on-settlement-of-mau-mau-claims
+    publisher: UK Foreign & Commonwealth Office
+evidence:
+  - id: primitive-fanon-proposition
+    sourceId: primitive-fanon-beyond-diversity
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: Describes the Algiers School as dominant in colonial psychiatry and summarizes Porot's claim that North Africans had primitive brain development and lacked higher brain functions.
+  - id: primitive-cultural-proposition
+    sourceId: primitive-cultural-psychiatry-history
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: Reviews racial essentialism in colonial psychiatry and Porot's theory that the native Algerian mind was structurally different from that of the European.
+  - id: primitive-aaba-correction
+    sourceId: primitive-aaba-race
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      The professional association's 2019 scientific statement explains that continental races are not discrete biological
+      types, do not map human genetic or phenotypic variation, and arose with colonial systems of hierarchy.
+  - id: primitive-cultural-correction
+    sourceId: primitive-cultural-psychiatry-history
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Historical review contrasts colonial racial typology with cultural psychiatry's attention to social, cultural, and
+      political context and describes later epidemiological evidence that refuted a Carothers psychiatric generalization.
+  - id: primitive-lonsdale-impact
+    sourceId: primitive-lonsdale-mau-mind
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Traces how colonial stereotypes, psychiatric expertise, and administrative practice converged in the official
+      construction of Mau Mau and in the detention rehabilitation program.
+  - id: primitive-porot-primary
+    sourceId: primitive-porot-1918
+    relation: documents
+    target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: context}
+    note: >-
+      Primary 1918 publication commonly treated as a founding text of the School of Algiers and its hierarchy of purported
+      North African psychological primitivism.
+  - id: primitive-porot-sutter-mechanism
+    sourceId: primitive-porot-sutter-1939
+    relation: documents
+    target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: mechanism}
+    note: >-
+      French national-library record for the School's 1939 publication explicitly devoted to the supposed “primitivism”
+      of North Africans and its claimed role in mental pathology.
+  - id: primitive-fanon-carrier
+    sourceId: primitive-fanon-beyond-diversity
+    relation: supports
+    target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: carrier}
+    note: >-
+      Identifies the School of Algiers' dominance in colonial psychiatry, Porot's institutional position, and Fanon's work
+      at Blida-Joinville from 1953 to 1956.
+  - id: primitive-cultural-algeria-consequences
+    sourceId: primitive-cultural-psychiatry-history
+    relation: supports
+    target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: consequences}
+    note: >-
+      Explains how racial images of North Africans rationalized colonial domination and made European norms the standard
+      for psychiatric comparison.
+  - id: primitive-fanon-algeria-context
+    sourceId: primitive-fanon-beyond-diversity
+    relation: contextualizes
+    target: {scope: episode, episodeId: french-algeria-1918-1962, aspect: context}
+    note: >-
+      Documents Fanon's internal challenge after his 1953 appointment; it does not identify that date as a formal endpoint
+      or institutional retraction of the Algiers School doctrine.
+  - id: primitive-hansard-commission
+    sourceId: primitive-hansard-carothers
+    relation: documents
+    target: {scope: episode, episodeId: british-kenya-1954-1960, aspect: mechanism}
+    note: Records that the Kenya Government invited J. C. Carothers in February 1954 to conduct a special investigation into the psychology of Mau Mau.
+  - id: primitive-lonsdale-rehabilitation
+    sourceId: primitive-lonsdale-mau-mind
+    relation: supports
+    target: {scope: episode, episodeId: british-kenya-1954-1960, aspect: mechanism}
+    note: Identifies the Colony and Protectorate of Kenya's Department of Community Development and Rehabilitation and traces the role of Carothers' analysis in the rehabilitation framework.
+  - id: primitive-knads-carrier
+    sourceId: primitive-knads-guide
+    relation: documents
+    target: {scope: episode, episodeId: british-kenya-1954-1960, aspect: carrier}
+    note: Describes the Commissioner for Community Development and Rehabilitation's responsibility from 1953 for rehabilitation of Mau Mau detainees, convicts, and work-camp populations.
+  - id: primitive-cultural-kenya-proposition
+    sourceId: primitive-cultural-psychiatry-history
+    relation: documents
+    target: {scope: episode, episodeId: british-kenya-1954-1960, aspect: context}
+    note: >-
+      Summarizes Carothers' depiction of Africans as developmentally child-like because of underused frontal functions and
+      places it within the racial typology of colonial comparative psychiatry.
+  - id: primitive-mau-mau-context
+    sourceId: primitive-mau-mau-method
+    relation: contextualizes
+    target: {scope: episode, episodeId: british-kenya-1954-1960, aspect: context}
+    note: >-
+      Shows that Carothers generalized the “African in transition” beyond the particular Gikuyu case and explains how the
+      psychologization of Mau Mau served broader colonial knowledge and government.
+  - id: primitive-lonsdale-consequences
+    sourceId: primitive-lonsdale-mau-mind
+    relation: supports
+    target: {scope: episode, episodeId: british-kenya-1954-1960, aspect: consequences}
+    note: >-
+      Describes confession, paid labor, literacy, colonial-history instruction, and optional Christian witness in the
+      official rehabilitation model, while stressing that Carothers theorized an approach already developed by officials.
+  - id: primitive-lonsdale-end-date
+    sourceId: primitive-lonsdale-mau-mind
+    relation: contextualizes
+    target: {scope: episode, episodeId: british-kenya-1954-1960, aspect: context}
+    note: >-
+      Dates the end of the Kenya Emergency to January 1960, correcting the unsupported 1959 endpoint in the previous record.
+  - id: primitive-uk-correction
+    sourceId: primitive-uk-mau-mau-settlement
+    relation: documents
+    target: {scope: episode, episodeId: british-kenya-1954-1960, aspect: institutional-correction}
+    note: >-
+      Official 2013 statement recognizes harsh colonial rehabilitation regimes, torture, and ill-treatment; records regret,
+      settlement, and memorial support; and also states that the government continued to deny legal liability.

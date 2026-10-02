@@ -1,32 +1,134 @@
+schemaVersion: 2
 locale: de
 entryId: paraffin-test-firearm-discharge
-sourceReviewedAt: 2026-08-24
+sourceReviewedAt: 2026-10-03
 title: Paraffin-Nitrattest als Nachweis eines Schusswaffengebrauchs
-claim: Ein positiver Paraffin- beziehungsweise Dermal-Nitrattest an den Händen einer Person wurde als Hinweis darauf behandelt, dass sie kurz zuvor eine Schusswaffe abgefeuert habe, weil die nachgewiesenen Nitrate als Schießpulverrückstände gedeutet wurden.
-currentUnderstanding: Der klassische Paraffintest ist chemisch unspezifisch. Er weist Nitrate oder Nitrite nach, die neben Schussabgabe aus vielen anderen Quellen stammen können, etwa Düngemitteln, Tabakrauch, Arzneimitteln, Feuerwerkskörpern und weiteren Stoffen. Tatsächliche Schützen können nach Waschen, durch Umweltverlust oder abhängig von Waffe und Munition ebenfalls negativ testen. Moderne Schussrückstandsanalyse nutzt spezifischere Partikel- und Elementmethoden; auch valide GSR-Befunde sind Kontextbeweise und kein Beweis dafür, dass eine bestimmte Person eine Waffe abgefeuert hat.
+proposition:
+  summary: >-
+    Ein Paraffin- beziehungsweise Dermal-Nitrattest an den Händen einer Person wurde als verlässlicher Hinweis darauf
+    behandelt, ob diese kurz zuvor eine Schusswaffe abgefeuert hatte: Eine positive Reaktion wurde Schießpulverrückständen
+    zugeschrieben, während ein negatives Ergebnis als Hinweis gegen eine Schussabgabe gelten konnte.
+correction:
+  summary: >-
+    Der klassische Paraffintest ist chemisch unspezifisch. Er weist Nitrate oder Nitrite nach, die neben einer
+    Schussabgabe aus vielen anderen Quellen stammen können, darunter Düngemittel, Tabakrauch, Arzneimittel und
+    Feuerwerkskörper. Tatsächliche Schützen können nach dem Waschen, durch normale Tätigkeiten, bei verzögerter
+    Probenahme oder abhängig von Waffe und Munition ebenfalls negativ testen. Moderne Analysen von Zündsatzrückständen
+    untersuchen Partikelform und Elementzusammensetzung, meist mittels SEM/EDS. Doch auch dann kann ein positiver Befund
+    auf Schussabgabe, Nähe oder Übertragung beruhen, während ein negativer Befund eine Schussabgabe nicht ausschließt.
+    Die Ergebnisse brauchen daher Fallkontext und können für sich allein keinen Schützen identifizieren.
 impact:
-  summary: Bemerkenswert ist, dass die institutionelle Nutzung auf den Philippinen die wissenschaftliche und gerichtliche Korrektur um Jahrzehnte überdauerte. Gerichte bezeichneten den Paraffintest wiederholt als äußerst unzuverlässig und nicht schlüssig, während Polizei und forensische Labore ihn weiterhin einsetzten – bis hin zu Untersuchungen von Polizeischüssen in den 2020er-Jahren.
+  summary: >-
+    Philippinische Gerichte und Forensikbehörden bieten einen ungewöhnlich langen, intern dokumentierten Verlauf. Der
+    Supreme Court zählte 1944 einen positiven Paraffinbefund zu den Schuldindizien und erklärte 1981, ein solcher Test
+    habe eine kurz zuvor erfolgte Schussabgabe bewiesen. 1994 bezeichnete er die Methode ausdrücklich als äußerst
+    unzuverlässig und verwarf positive wie negative Ergebnisse als herkunftsspezifischen Beweis. Die operative Nutzung
+    und entsprechende öffentliche Schlussfolgerungen hielten dennoch an: 2021 verwiesen Polizeifunktionäre auf einen
+    positiven Befund; 2026 deutete eine Sprecherin der Philippine Navy negative Ergebnisse als Entlastung von Marines
+    hinsichtlich einer direkten Beteiligung an einer Schießerei.
   highlights:
     - value: '1941'
-      label: Chemiker der Philippine Constabulary nutzten Paraffin-Nitrattests bereits in Strafverfahren
-    - value: '1990er'
-      label: Der Supreme Court bezeichnete den Test wiederholt als äußerst unzuverlässig und unspezifisch
-    - value: '2023'
-      label: Eine Untersuchung des philippinischen Senats behandelte das Unterlassen von Paraffintests nach einem Polizeischuss weiterhin als Ermittlungsfehler
+      label: Chemiker der Philippine Constabulary nutzten den Test; der Supreme Court wertete den positiven Befund 1944 als Schuldindiz
+    - value: '1994'
+      label: Der Supreme Court erklärte den Test ausdrücklich für äußerst unzuverlässig und verneinte, dass er Schussabgabe als Nitratquelle bestimmen könne
+    - value: '2026'
+      label: Eine Sprecherin der Navy deutete negative PNP-Paraffinbefunde öffentlich als Beleg dafür, dass Marines nicht geschossen hatten
   context:
-    - Das Problem besteht nicht darin, dass jedes philippinische Gericht den Test für beweiskräftig hielt. Im Gegenteil warnte der Supreme Court wiederholt, dass Nitratbefunde ihre Quelle nicht erkennen lassen und negative Ergebnisse einen Schusswaffengebrauch nicht ausschließen. Der institutionelle Widerspruch liegt darin, dass die operative Polizeipraxis den Test noch lange danach als bedeutsames Verfahren nach Schusswaffeneinsätzen behandelte.
+    - >-
+      Die angeführten Verurteilungen stützten sich zusätzlich auf Augenzeugen, Geständnisse oder andere Beweise. Dieser
+      Eintrag führt keine Verurteilung allein auf einen Paraffinbefund zurück, sondern dokumentiert die herkunftsspezifische
+      Bedeutung, die Institutionen diesem Ergebnis beimaßen.
+    - >-
+      Die bloße Durchführung eines Tests zeigt noch nicht, dass eine Institution ihn für schlüssig hielt. Die späteren
+      Beispiele sind aufgenommen, weil Funktionsträger aus positiven oder negativen Befunden öffentlich gerade den
+      umstrittenen Schluss zogen. Die Senatsnotizen von 2023 belegen unabhängig davon, dass Paraffintests weiterhin zu
+      einer Untersuchung von Polizeischüssen gehörten.
+    - >-
+      Die Korrektur betrifft den nitratbasierten Paraffintest. Sie bedeutet nicht, dass jede moderne Analyse von
+      Schussrückständen ungültig wäre. Moderne Partikelanalysen sind spezifischer, ihre Ergebnisse bleiben jedoch Indizien.
 episodes:
-  - id: philippines-1941-2023
+  - id: philippines-1941-present
     polity: Philippinen
+    periodLabel: 1941–heute (bis 2026 belegt)
     institutions:
       - Philippine Constabulary
       - National Bureau of Investigation (NBI), Forensic Chemistry Division
       - Philippine National Police (PNP), Crime Laboratory / Forensic Group
+      - Supreme Court der Philippinen
+      - Philippine Navy
     institutionalContext: >-
-      Aufeinanderfolgende philippinische Polizeibehörden und forensische Dienste verwendeten Paraffinabdrücke und Diphenylamin-Nitrattests bei Schusswaffenermittlungen. Der Supreme Court bewertete die Ergebnisse zunehmend als rechtlich nicht schlüssig; die operative Verwendung hielt jedoch an. PNP-Labore führten den Test weiter durch, leitende Polizeibeamte verwiesen in Ermittlungen auf positive Ergebnisse, und 2023 dokumentierte eine Senatsanhörung die Aussage eines Polizeichefs, nach einer tödlichen Schussabgabe hätten die beteiligten Beamten paraffiniert werden sollen.
-    summary: >-
-      Philippinische Ermittler nutzten den Paraffin-Diphenylamin-Test über Jahrzehnte, um Nitrate an den Händen Verdächtiger nachzuweisen, und deuteten positive Ergebnisse häufig als Beleg für einen kürzlich abgegebenen Schuss. Bereits 1941 verwendeten Chemiker der Philippine Constabulary das Verfahren; später wurde es Bestandteil der forensischen Arbeit von NBI und PNP. Der Supreme Court erklärte wiederholt, dass der Test als Nachweis eines Schusswaffengebrauchs äußerst unzuverlässig ist, weil Nitrate unspezifisch sind und tatsächliche Schützen ebenfalls negativ testen können. Trotzdem blieb das Verfahren bis weit ins 21. Jahrhundert in Gebrauch: 2021 verwies die PNP öffentlich auf einen positiven Paraffintest, und 2023 behandelte eine Untersuchung des Senats das Ausbleiben solcher Tests nach einem tödlichen Polizeieinsatz als erheblichen Ermittlungsfehler.
+      Aufeinanderfolgende philippinische Polizeilabore nahmen Paraffinabdrücke und nutzten Diphenylamin-Reaktionen zum
+      Nachweis von Nitraten an den Händen Verdächtiger und von Beamten. Gerichte ließen die Befunde zu; frühe Urteile
+      des Supreme Court maßen positiven Ergebnissen selbst herkunftsspezifisches Gewicht bei. Später verwarf das Gericht
+      diesen Schluss, doch PNP-Tests und amtliche Deutungen blieben in Disziplinar-, Straf- und Polizeischussermittlungen
+      bestehen. Die Erklärung der Navy von 2026 belegt auch den umgekehrten Schluss: Ein negatives Ergebnis sollte
+      bedeuten, dass das Personal nicht geschossen habe.
     consequences:
-      - Verdächtige und Polizeibeamte wurden nach Schussereignissen Paraffintests unterzogen
-      - Positive Nitratbefunde beeinflussten Festnahmen, Haft, Anklageentscheidungen und Beweiserhebung vor Gericht
-      - Verfahren zur Aufklärung von Polizeischüssen erwarteten den Test trotz langjähriger Warnungen vor seiner Unzuverlässigkeit weiterhin
+      - Verdächtige, Opfer und Polizeibeamte wurden bei Ermittlungen zu Schussereignissen Paraffintests unterzogen
+      - Positive Nitratbefunde gelangten in Strafprozesse und wurden in Polizeidisziplinarverfahren angeführt
+      - Negative Befunde wurden trotz des bekannten Risikos falsch-negativer Ergebnisse öffentlich zur Entlastung von Personal genutzt
+      - Verfahren zur Aufklärung von Polizeischüssen erwarteten den Test auch nach der gerichtlichen Zuverlässigkeitswarnung
+    summary: >-
+      Die institutionelle Nutzung auf den Philippinen ist von einer Untersuchung der Philippine Constabulary im Jahr
+      1941 bis zu PNP-Tests 2026 belegt. Chemiker von Constabulary und NBI berichteten Nitratreaktionen als
+      Schießpulverbeweis, und der Supreme Court wertete solche Ergebnisse einst als Nachweis einer kurz zuvor erfolgten
+      Schussabgabe. Bis 1994 hatte das Gericht diese Beweisannahme verworfen: Nitrate seien unspezifisch, und auch
+      tatsächliche Schützen könnten negativ testen. Dennoch behielten spätere Polizeiermittlungen das Verfahren bei,
+      und Funktionsträger gaben seinen Ergebnissen weiterhin eine herkunftsspezifische Bedeutung.
+    mechanism:
+      summary: >-
+        Polizeibehörden verankerten Paraffinabdrücke in Untersuchungen nach Schussereignissen, forensische Labore
+        meldeten Nitratbefunde, und Ermittler, Disziplinarbehörden sowie Gerichte nutzten diese als Hinweis darauf,
+        wer eine Waffe abgefeuert hatte oder nicht.
+    institutionalCorrection:
+      periodLabel: 1994–heute
+      action: Der Supreme Court verwarf Paraffinbefunde als schlüssigen Nachweis einer Schussabgabe; operative Tests und herkunftsspezifische öffentliche Deutungen hielten jedoch an.
+      summary: >-
+        Die Rechtsprechung korrigierte den zentralen Schluss und bekräftigte wiederholt, dass weder ein positiver noch
+        ein negativer Befund einen Schützen identifiziert. Institutionell blieb die Korrektur unvollständig, weil
+        Polizeibehörden den Test weiter durchführten und Funktionsträger Ergebnisse weiterhin als belastend oder entlastend beschrieben.
+evidence:
+  - id: paraffin-guinoban-proposition
+    note: Dokumentiert den Einsatz des Paraffin-Diphenylamin-Tests durch die Philippine Constabulary im Jahr 1941 und eine Sachverständigenaussage, die die Verteilung von Nitraten als starkes Indiz für eine Schussabgabe deutete.
+  - id: paraffin-esteban-proposition
+    note: Der Supreme Court erklärte, der NBI-Paraffintest habe „bewiesen“, dass Esteban kurz vor seiner Festnahme eine Waffe abgefeuert hatte.
+  - id: paraffin-nist-correction
+    note: >-
+      Erläutert die Probleme falsch-positiver und falsch-negativer Befunde des Paraffintests, bezeichnet SEM/EDS als bevorzugte
+      moderne Methode und stellt klar, dass auch moderne positive oder negative GSR-Befunde für sich allein keine
+      Schussabgabe durch eine Person belegen.
+  - id: paraffin-ojp-correction
+    note: Beschreibt den Paraffintest wegen seiner Unspezifität als diskreditiert und stellt ihm spezifischere moderne Methoden zur Analyse von Schussrückständen gegenüber.
+  - id: paraffin-guinoban-impact
+    note: Das Urteil von 1944 zählte den positiven Befund zu drei genannten Gründen für Guinobans Schuld, stützte sich daneben aber auch auf ein Geständnis und eine Sterbeerklärung.
+  - id: paraffin-barte-impact
+    note: Markiert eine ausdrückliche Zurückweisung sowohl des positiven Herkunftsschlusses als auch der Behauptung durch den Supreme Court, ein negativer Test schließe eine Schussabgabe aus.
+  - id: paraffin-pna-2026-impact
+    note: Dokumentiert, dass eine Sprecherin der Philippine Navy negative PNP-Paraffinbefunde als Beleg dafür behandelte, Marines seien an einer Schießerei 2026 nicht direkt beteiligt gewesen und hätten den Test „sauber“ bestanden.
+  - id: paraffin-guinoban-carrier
+    note: Benennt den Chemiker der Philippine Constabulary, der die Tests durchführte, sowie das Urteil des Supreme Court, das den positiven Befund würdigte.
+  - id: paraffin-esteban-carrier
+    note: Belegt Tests der Forensic Chemistry Division des NBI und die herkunftsspezifische Deutung durch den Supreme Court in einem späteren Fall.
+  - id: paraffin-pna-2021-carrier
+    note: Ein amtlicher philippinischer Nachrichtenbericht von 2021 dokumentiert, dass der PNP-Chef einen positiven Paraffintest als Beweismittel in einer Untersuchung wegen mutmaßlicher Schussabgabe anführte.
+  - id: paraffin-pna-2026-carrier
+    note: Benennt die PNP als prüfende Stelle und die Sprecherin der Philippine Navy als institutionelle Akteurin, die daraus einen entlastenden Schluss zog.
+  - id: paraffin-guinoban-mechanism
+    note: Beschreibt Paraffinabdrücke, Diphenylamin-Tests, den Vergleich des Chemikers mit Versuchsschüssen und die Vorlage des Ergebnisses vor Gericht.
+  - id: paraffin-pna-2021-mechanism
+    note: Zeigt, wie ein positiver Befund neben einer waffentechnischen Untersuchung in ein beschleunigtes Entlassungs- und Strafverfahren einging.
+  - id: paraffin-senate-mechanism
+    note: Die Senatsnotizen dokumentieren die Aussage des Polizeichefs von Navotas, er habe Paraffintests für das als schießend identifizierte Personal angeordnet; dies belegt die fortbestehende institutionelle Erwartung des Verfahrens im Jahr 2023.
+  - id: paraffin-esteban-consequences
+    note: Zeigt, wie ein NBI-Nitratbefund in ein Mordberufungsverfahren einging und vom Supreme Court als Beweis einer kurz zuvor erfolgten Schussabgabe bezeichnet wurde.
+  - id: paraffin-pna-2021-consequences
+    note: Der PNP-Chef bezeichnete den positiven Befund als Teil eines „sehr starken Falls“ in einem beschleunigten Entlassungsverfahren.
+  - id: paraffin-barte-institutional-correction
+    note: Erklärt den Test für äußerst unzuverlässig, benennt verbreitete Nitratquellen außerhalb von Schusswaffen und erläutert, weshalb ein Schütze negativ testen kann.
+  - id: paraffin-galvez-institutional-correction
+    note: Fasst die langjährige Rechtsprechung des Supreme Court zusammen, wonach der Paraffintest äußerst unzuverlässig ist und nicht belegen kann, dass nachgewiesene Nitrate aus einer Schussabgabe stammen.
+  - id: paraffin-senate-context
+    note: >-
+      Die Notizen dokumentieren widersprüchliche Angaben der Polizei dazu, ob Tests angeordnet worden waren. Sie
+      belegen die fortbestehende erwartete Rolle des Verfahrens, sagen aber nicht, dass der Senat selbst einen fehlenden
+      Test für wissenschaftlich beweiskräftig hielt.

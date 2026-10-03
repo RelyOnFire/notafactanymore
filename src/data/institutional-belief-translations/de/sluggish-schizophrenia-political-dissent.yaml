@@ -1,33 +1,150 @@
+schemaVersion: 2
 locale: de
 entryId: sluggish-schizophrenia-political-dissent
 sourceReviewedAt: '2026-08-23'
 title: „Schleichende Schizophrenie“ und politischer Widerspruch
-claim: Beharrlicher Reformwille oder politische Opposition konnten als Anzeichen einer milden Schizophrenie behandelt
-  werden, selbst wenn keine offene Psychose vorlag.
-currentUnderstanding: Politischer Widerspruch ist kein Symptom einer Schizophrenie. Eine psychiatrische Diagnose
-  erfordert klinisch belastbare Hinweise auf eine psychische Erkrankung und darf nicht aus Opposition gegen eine
-  Regierung, Reformforderungen oder dem Festhalten an politischen Überzeugungen abgeleitet werden.
+proposition:
+  summary: >-
+    Im Zusammenspiel sowjetischer forensischer Psychiatrie und Staatssicherheit konnten beharrliche Reformforderungen,
+    religiöser oder politischer Widerspruch und ein „Kampf um die Wahrheit“ als Symptome innerhalb eines ungewöhnlich
+    weit gefassten Konzepts der schleichenden Schizophrenie behandelt werden, selbst wenn keine offene Psychose vorlag.
+    Die Diagnose konnte dann eine medizinische Grundlage für Zwangsbegutachtung, psychiatrische Internierung und
+    Behandlung von Dissidenten liefern.
+correction:
+  summary: >-
+    Politischer oder religiöser Widerspruch ist für sich genommen kein Beleg für Schizophrenie. Aus Reformforderungen,
+    Konflikten mit Behörden oder dem Festhalten an politischen Überzeugungen darf ohne klinisch festgestellte Erkrankung
+    keine Schizophrenie abgeleitet werden. Der dokumentierte Missbrauch bedeutet weder, dass jeder sowjetische
+    Psychiatriepatient gesund war, noch dass jeder Psychiater wissentlich mitwirkte. Er zeigt, dass ein weit gefasster
+    und schwach reproduzierbarer diagnostischer Rahmen ideologische Nonkonformität zu klinischer Evidenz machen konnte
+    und systematisch mit staatlichen Zwangsstrukturen verbunden wurde.
+impact:
+  summary: >-
+    Die psychiatrische Klassifikation erlaubte es dem Staat, ein gewöhnliches öffentliches Strafverfahren zu umgehen,
+    Opposition als Krankheit zu diskreditieren und Menschen für Zeiträume einzusperren, die dem medizinischen statt dem
+    strafrechtlichen Verfahren unterlagen. Dissidenten wurden zwangsweise hospitalisiert und behandelt; eine
+    Schizophreniediagnose konnte die Internierung überdauern und Arbeit sowie soziale Wiedereingliederung beschränken.
+    Die institutionelle Kette reichte von der dominierenden Moskauer Schule und den forensischen Gutachten des
+    Serbski-Instituts über Überweisungen der Sicherheitsorgane bis zu Sonderpsychiatrien. Der daraus entstandene
+    internationale Skandal veränderte die psychiatrische Ethik und das Verhältnis des sowjetischen Berufsverbands zum
+    Weltverband für Psychiatrie.
+  highlights:
+    - value: '≈1 von 3'
+      label: rückblickende Schätzung des Anteils sowjetischer politischer Gefangener in psychiatrischer Internierung
+      note: >-
+        Dies ist eine Schätzung für den politischen Missbrauch der Psychiatrie insgesamt und keine Zahl der Menschen,
+        bei denen speziell schleichende Schizophrenie diagnostiziert wurde.
+    - value: '13 von 15'
+      label: Sonderpsychiatrien, in denen die Geneva Initiative eindeutige Missbrauchsfälle dokumentierte
+      note: >-
+        Auch diese Zahl beschreibt das umfassendere System politischen Missbrauchs der Psychiatrie und ist keine Zahl der
+        Kliniken, die in jedem Fall eine bestimmte Diagnose verwendeten.
+    - value: '1983–1989'
+      label: Zeitraum zwischen Austritt und bedingter Rückkehr des offiziellen sowjetischen Psychiatrieverbands in den Weltverband
+  context:
+    - >-
+      Langsam verlaufende Erkrankungen hatten eine längere Geschichte in der sowjetischen Psychiatrie. Die Kategorie
+      wurde nicht in einem einzigen Moment ausschließlich für Dissidenten erfunden, und manche Psychiater akzeptierten
+      ihre weit gefassten Kriterien aufrichtig. Das dokumentierte institutionelle Versagen bestand in den schwachen
+      diagnostischen Grenzen und der Nutzung des Rahmens in einem System, das politische Nonkonformität in forensischen
+      Psychiatriezwang überführte.
+    - >-
+      Die politische Psychiatrie der Sowjetunion verwendete mehr als eine Diagnose, und auch Menschen mit tatsächlichen
+      psychischen Erkrankungen durchliefen dieselben Einrichtungen. Breite Schätzungen der psychiatrischen Repression
+      sind daher keine exakten Zahlen gesunder Dissidenten, von Diagnosen der schleichenden Schizophrenie oder wissentlich
+      missbräuchlich handelnder Ärzte.
+    - >-
+      Das Jahr 1969 bildet eine begründete Grenze für die ausgereifte Doktrin und das Sicherheitsnetz, nicht den Beginn
+      sämtlicher sowjetischer psychiatrischer Repression. Die politische Nutzung psychiatrischer Einrichtungen und weiter
+      gefasste Konzepte langsam verlaufender Erkrankungen bestanden schon vorher.
+    - >-
+      Die Übertragung der Sonderpsychiatrien 1988 und das Eingeständnis der Allunionsgesellschaft 1989 waren echte
+      institutionelle Veränderungen. Zeitgenössische Berichte beschrieben jedoch weiterhin Missbrauch in geringerem
+      Umfang und personelle Kontinuität in der psychiatrischen Führung. Spätere postsowjetische Missbrauchsfälle liegen
+      außerhalb dieser Episode und schließen ebenfalls aus, 1989 als dauerhafte Behebung zu behandeln.
 episodes:
-- id: soviet-union-1969-1989
-  polity: Sowjetunion
-  institutions:
-  - Institut für Psychiatrie der Akademie der Medizinischen Wissenschaften der UdSSR
-  - Serbski-Zentralinstitut für forensische Psychiatrie
-  - Komitee für Staatssicherheit (KGB)
-  - Innenministerium der UdSSR (MWD)
-  institutionalContext: Die von Andrei Sneschnewski geprägte Moskauer psychiatrische Schule am Institut für Psychiatrie
-    der Akademie der Medizinischen Wissenschaften lieferte den ungewöhnlich weit gefassten diagnostischen Rahmen.
-    Das Serbski-Institut erstellte forensisch-psychiatrische Gutachten in politischen Verfahren; der KGB und der
-    Ermittlungsapparat führten Dissidenten diesem System zu; spezielle psychiatrische Krankenhäuser für Zwangsunterbringung
-    unterstanden bis zu ihrer Übertragung an das Gesundheitswesen 1988 dem Innenministerium. Daraus folgt nicht,
-    dass jeder sowjetische Psychiater bewusst an politischer Repression beteiligt war.
-  summary: Die ungewöhnlich weit gefasste sowjetische Diagnose der „schleichenden Schizophrenie“ erlaubte es, Schizophrenie
-    auch bei Menschen festzustellen, die im Alltag funktionierten und keine offene Psychose zeigten. In der Breschnew-Ära
-    wurde sie wiederholt auf Dissidenten angewandt; Reformbestrebungen und politische Opposition konnten als krankhaft
-    gedeutet werden. Die Doktrin entstand im dominierenden Moskauer psychiatrischen Umfeld, wurde unter anderem
-    durch forensische Begutachtung am Serbski-Institut operationalisiert und mit dem staatlichen Sicherheits- und
-    Internierungsapparat verknüpft.
-  consequences:
-  - Psychiatrische Internierung von Dissidenten
-  - Erzwungene psychiatrische Behandlung
-  - Unterdrückung politischen und religiösen Widerspruchs
+  - id: soviet-union-1969-1989
+    polity: Sowjetunion
+    periodLabel: Prüfzeitraum 1969–1989
+    institutions:
+      - Institut für Psychiatrie der Akademie der Medizinischen Wissenschaften der UdSSR
+      - Serbski-Zentralinstitut für forensische Psychiatrie
+      - Komitee für Staatssicherheit (KGB)
+      - Innenministerium der UdSSR (MWD)
+      - Gesundheitsministerium der UdSSR
+      - Allunionsgesellschaft der Psychiater und Narkologen
+    institutionalContext: >-
+      Die mit Andrei Sneschnewski verbundene Moskauer psychiatrische Schule lieferte eine ungewöhnlich weit gefasste
+      Klassifikation der Schizophrenie. Das Serbski-Institut erstellte forensische Gutachten in politischen Verfahren;
+      der KGB und die Ermittlungsbehörden führten Dissidenten diesem Prozess zu; Sonderpsychiatrien des MWD vollzogen die
+      Zwangsinternierung. Bis 1969 war die weit gefasste diagnostische Doktrin etabliert, während Juri Andropow den
+      Ausbau eines Psychiatrienetzes zur Verteidigung des Staates anstieß. Ende der 1980er-Jahre wurden das
+      Gesundheitsministerium und die Allunionsgesellschaft zentral für die unvollständige Reform und das Eingeständnis
+      des Missbrauchs. Diese Kette bedeutet weder, dass jeder sowjetische Psychiater wissentlich mitwirkte, noch dass
+      jeder untersuchte Mensch frei von psychischen Erkrankungen war.
+    consequences:
+      - Forensische Zwangsbegutachtung und psychiatrische Internierung politischer und religiöser Dissidenten
+      - Erzwungene oder medizinisch unnötige Behandlung einschließlich antipsychotischer Medikamente
+      - Umgehung gewöhnlicher öffentlicher Strafprozesse und unbefristete Internierung unter medizinischer Autorität
+      - Stigmatisierung und dauerhafte Einschränkungen qualifizierter Arbeit und sozialer Wiedereingliederung nach einer Schizophreniediagnose
+      - Unterdrückung und Delegitimierung von Reformforderungen, Menschenrechtsarbeit, religiöser Praxis und Opposition
+    summary: >-
+      Die Doktrin verband eine dehnbare diagnostische Kategorie mit einem Zwangsweg durch mehrere Institutionen.
+      Verhaltensweisen wie Reformstreben, Kampf um die Wahrheit, Beharrlichkeit, Konflikte mit Autoritäten oder religiöse
+      Überzeugungen konnten auch ohne offene Psychose zu Krankheitszeichen gemacht werden. Die forensische Diagnose
+      verwandelte dann einen politischen Fall in einen Fall medizinischer Schuldunfähigkeit und Zwangsbehandlung.
+      Derselbe Rahmen konnte von manchen Ärzten aufrichtig akzeptiert und von anderen bewusst ausgenutzt werden; seine
+      Gefahr lag gerade darin, dass professioneller Glaube und staatliche Repression zum selben Ergebnis führen konnten.
+      Die Reformen der Perestroika verringerten den Missbrauch und führten 1989 zu einem amtlichen Eingeständnis, aber
+      nicht zu einer klaren Abschaffung der Diagnose oder vollständiger institutioneller Rechenschaft.
+    mechanism:
+      summary: >-
+        Ein weit gefasster diagnostischer Rahmen klassifizierte Reformstreben und beharrlichen Widerspruch als mögliche
+        Symptome; Sicherheits- und Ermittlungsorgane überwiesen Dissidenten zur forensischen Begutachtung; Kommissionen
+        des Serbski-Instituts konnten sie für strafrechtlich nicht verantwortlich erklären; Sonderpsychiatrien des MWD
+        verwandelten diesen Befund in Zwangsinternierung und Behandlung.
+    institutionalCorrection:
+      periodLabel: 1988–1989
+      action: >-
+        Die UdSSR übertrug die Sonderpsychiatrien vom MWD an das Gesundheitsministerium. Vor dem Weltverband erkannte
+        die Allunionsgesellschaft an, dass politische Bedingungen psychiatrischen Missbrauch aus nichtmedizinischen,
+        darunter politischen, Gründen ermöglicht hatten; sie akzeptierte Fallprüfungen und bedingte internationale Aufsicht.
+      summary: >-
+        Dies waren formale Reformen und das erste öffentliche Eingeständnis politischen Missbrauchs durch den offiziellen
+        Berufsverband. Sie blieben unvollständig: Die Erklärung wies keine individuelle Verantwortung zu, die hier
+        vorliegenden Belege dokumentieren keine Abschaffung der schleichenden Schizophrenie im Jahr 1989, zeitgenössische
+        Beobachter berichteten von fortgesetztem Missbrauch in geringerem Umfang, und ein großer Teil der alten
+        psychiatrischen Führung blieb im Amt.
+evidence:
+  - id: sluggish-schizophrenia-proposition
+  - id: sluggish-schizophrenia-correction
+  - id: sluggish-schizophrenia-impact
+  - id: sluggish-schizophrenia-van-voren-carrier
+    note: >-
+      Überblick über den systematischen politischen Missbrauch der Psychiatrie in der Sowjetunion, die Moskauer Schule
+      und Sneschnewskis weit gefasstes Konzept der schleichenden Schizophrenie; beschreibt „Reformwahn“, „Kampf um die
+      Wahrheit“ und „Beharrlichkeit“ als gegen Dissidenten einsetzbare Symptome sowie die Beteiligung des KGB und
+      unterscheidet bewussten Missbrauch von Psychiatern, die den diagnostischen Rahmen akzeptierten.
+  - id: sluggish-schizophrenia-ips-mechanism
+    note: >-
+      Untersucht den sowjetischen Rahmen der schleichenden Schizophrenie, seine Anwendung auf Reformer und politische
+      Dissidenten sowie das institutionelle Zusammenspiel zwischen Staatsmacht und psychiatrischem Fachwissen.
+  - id: sluggish-schizophrenia-observatory-consequences
+    note: >-
+      Bezeichnet das Serbski-Institut als dominierende, eng mit dem KGB verbundene Einrichtung bei der psychiatrischen
+      Repression politischer Dissidenten und erläutert, wie die schleichende Schizophrenie nach Sneschnewski zu einer
+      bevorzugten Diagnose für politischen Widerspruch wurde.
+  - id: sluggish-schizophrenia-editorial-context
+    note: >-
+      Überblick über die Beziehung zwischen Serbski-Institut und KGB; hält fest, dass die sowjetischen forensischen
+      Sonderpsychiatrien 1988 vom Innenministerium an das Gesundheitsministerium übertragen wurden.
+  - id: sluggish-schizophrenia-editorial-correction
+  - id: sluggish-schizophrenia-1969-boundary
+    note: >-
+      Stützt die Grenze von 1969 durch Andropows Initiative für ein Psychiatrienetz und beschreibt Reformvorstellungen,
+      religiöse Überzeugungen und Konfrontation mit Autoritäten als mögliche diagnostische Merkmale.
+  - id: sluggish-schizophrenia-athens-correction
+    note: >-
+      Zeitgenössischer Bericht, der das Fünf-Punkte-Eingeständnis der Allunionsgesellschaft und die Bedingungen ihrer
+      Rückkehr in den Weltverband 1989 wiedergibt und zugleich festhält, dass Missbrauch in geringerem Umfang fortbestand
+      und ein großer Teil der alten Führung im Amt blieb.

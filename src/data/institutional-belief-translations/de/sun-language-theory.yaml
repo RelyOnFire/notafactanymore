@@ -1,19 +1,126 @@
+schemaVersion: 2
 locale: de
 entryId: sun-language-theory
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: '2026-08-23'
 title: Sonnensprachtheorie
-claim: Türkisch wurde als Ursprache behandelt, aus der sich letztlich die übrigen Sprachen der Welt entwickelt hätten.
-currentUnderstanding: Türkisch gehört zur Familie der Turksprachen und ist nicht die Vorfahrin aller menschlichen Sprachen. Die historische Linguistik rekonstruiert verschiedene Sprachfamilien und ältere Sprachstufen anhand systematischer Lautwandel, Grammatik und belegbarer Abstammungsverhältnisse; für die Sonnensprachtheorie gibt es keine belastbare Evidenz.
+proposition:
+  summary: >-
+    Das Türkische wurde als ursprüngliche „Muttersprache“ der Menschheit und als Quelle der Wörter sämtlicher anderer
+    Sprachen dargestellt; etablierte Sprachfamilien und die historisch-vergleichende Sprachwissenschaft galten innerhalb
+    der Theorie als wissenschaftlich überholt.
+correction:
+  summary: >-
+    Türkisch gehört zum oghusischen Zweig der Familie der Turksprachen. Ähnlich klingende Wörter oder frei veränderte
+    Lautfolgen belegen keine Abstammung: Die vergleichende Rekonstruktion erfordert wiederkehrende lautliche und
+    grammatische Entsprechungen. Nichts belegt, dass sämtliche menschlichen Sprachen auf das Türkische zurückgehen; der
+    universale Ursprungsanspruch der Theorie reicht weit über das hinaus, was sich sprachgeschichtlich rekonstruieren lässt.
+impact:
+  summary: >-
+    Rund drei Jahre lang machte das staatlich gestützte sprachpolitische Gefüge aus der Theorie ein institutionelles
+    Programm. Sie wurde offiziell verkündet, ins Zentrum des Sprachkongresses von 1936 gestellt, erhielt dort eine eigene
+    Kommission sowie eine eigene Professur im Hochschulbereich und wurde zwischen 1935 und 1938 in 25 Bänden
+    ausgearbeitet.
+  highlights:
+    - value: '25'
+      label: zwischen 1935 und 1938 veröffentlichte Bände zur Theorie
+    - value: '1'
+      label: eigens für die Theorie eingerichtete Hochschulprofessur
+  context:
+    - >-
+      Die Zahl der Veröffentlichungen und die formalen Lehrstrukturen belegen institutionelle Reichweite. Sie messen
+      nicht, wie viele Amtsträger, Forschende, Studierende oder Angehörige der Öffentlichkeit die Behauptung persönlich
+      akzeptierten.
+    - >-
+      Die Theorie gehörte zu einem größeren Programm der Sprachreform und Nationsbildung. Quellen verbinden ihre
+      Anziehungskraft mit einer Reaktion auf europäische Hierarchien von Sprachen und Zivilisationen; dieser politische
+      Rahmen belegt jedoch nicht, dass alle Beteiligten dasselbe Motiv teilten.
 episodes:
-  - id: turkey-1936-1938
+  - id: turkey-1935-1938
     polity: Türkei
+    periodLabel: 1935–1938
     institutions:
-      - Türk Dil Kurumu
-      - Üçüncü Türk Dil Kurultayı
+      - Gesellschaft zur Erforschung der türkischen Sprache / Türkischer Sprachverein (Türk Dili Tetkik Cemiyeti / Türk Dil Kurumu)
+      - Dritter Türkischer Sprachkongress und seine Kommission für Sonnensprachtheorie und Sprachvergleiche
+      - Fakultät für Sprache, Geschichte und Geografie in Ankara (damals dem Bildungsministerium unterstellt)
     institutionalContext: >-
-      Hauptträger der Theorie war der Türk Dil Kurumu. Auf dem Dritten Türkischen Sprachkongress von 1936 wurde die Sonnensprachtheorie zum Gegenstand institutioneller Spracharbeit; eigens dafür bestand die Güneş-Dil Teorisi ve Dil Karşılaştırmaları Komisyonu. Das weitere staatlich gestützte Umfeld der Sprachreform wird hier als institutioneller Zusammenhang beschrieben und nicht als eigene Behörde ausgegeben.
-    summary: Die Sonnensprachtheorie wurde über den staatlich gestützten Türk Dil Kurumu gefördert und 1936 zu einem zentralen Thema des Dritten Türkischen Sprachkongresses. Die Kongressakten behandelten sie als neue sprachwissenschaftliche Schule und sahen eine eigene Kommission für die Theorie vor. Sie schrieb dem Türkischen eine ursprüngliche Rolle bei der Entstehung menschlicher Sprache zu und wurde aus politischen sowie national-kulturellen Gründen unterstützt, bevor man sie wieder aufgab.
+      Mustafa Kemal Atatürk beauftragte Sprachreformer, Hermann Kvergićs Manuskript von 1935 weiterzuentwickeln, und
+      verfolgte die Arbeit aufmerksam. Hauptträger war die staatlich gestützte Türkische Sprachgesellschaft: Sie verkündete
+      die Theorie im Herbst 1935 offiziell und machte sie 1936 zu einem zentralen Programm ihres Dritten Kongresses. Der
+      Kongress richtete eine eigene Güneş-Dil Teorisi ve Dil Karşılaştırmaları Komisyonu ein; zugleich schuf die neu
+      gegründete Fakultät in Ankara eine Professur und Lehrveranstaltungen zur Theorie. Diese konkret benannten Organe
+      begrenzen die institutionelle Episode; Atatürks Patronage wird als Förderung beschrieben, ohne ihn selbst zu einer
+      Institution zu erklären.
+    summary: >-
+      Vom Herbst 1935 bis 1938 erhoben präsidiale Patronage und die Türkische Sprachgesellschaft die Sonnensprachtheorie
+      zum Gegenstand offizieller Spracharbeit. Ihre Behauptung, alle Sprachen gingen letztlich auf das Türkische zurück,
+      prägte Kongressakten, Veröffentlichungen und die universitäre Lehre. Es war eine kurze, intensive institutionelle
+      Episode; die Mitwirkung in diesen Strukturen belegt nicht, dass alle beteiligten Forschenden die Theorie persönlich
+      akzeptierten.
     consequences:
-      - Staatlich geförderte Sprachforschung
-      - Sprachpolitik
-      - Nationale Geschichtserzählung
+      - Offizielle Sprachforschung und Publikationen wurden auf freie türkische Herleitungen von Wörtern anderer Sprachen ausgerichtet
+      - Eine eigene Professur an der Fakultät und Lehrveranstaltungen vermittelten die Theorie
+      - Die Theorie erklärte etablierte Sprachfamilien und die vergleichende Etymologie für überholt
+      - Der Sprachkongress von 1936 gab der Theorie eine eigene Kommission und einen zentralen Platz im Programm
+      - Die Theorie stärkte eine nationale Erzählung, die das Türkische an den Ursprung von Sprache und Zivilisation stellte
+    mechanism:
+      summary: >-
+        Präsidiale Förderung und die offizielle Übernahme durch die Türkische Sprachgesellschaft machten aus einem
+        eingereichten Manuskript ein Forschungs-, Publikations- und Lehrprogramm. Eine eigene Kongresskommission,
+        offizielle Akten und eine Hochschulprofessur schufen anschließend Wege zu seiner Verbreitung.
+    institutionalCorrection:
+      periodLabel: ab 1938
+      action: Nach Atatürks Tod im November 1938 endete die Lehrveranstaltung in Ankara; auch institutionelle Publikation und Förderung der Theorie wurden eingestellt.
+      summary: >-
+        Die Theorie wurde stillschweigend institutionell aufgegeben; mindestens ein früher prominenter Befürworter stellte
+        sich später gegen sie. Die verfügbare Überlieferung dokumentiert weder einen förmlichen Widerruf sämtlicher Träger
+        noch eine offizielle Erklärung zum Scheitern ihrer sprachwissenschaftlichen Methode. Der praktische Rückzug gilt
+        deshalb als teilweise institutionelle Korrektur.
+evidence:
+  - id: sun-maarif-proposition
+    note: >-
+      Dokumentiert die Behauptung, Türkisch sei die Mutter aller Sprachen, und zeichnet die Entwicklung von Kvergićs
+      Manuskript von 1935 bis zu Atatürks Auftrag an die Sprachreformer nach.
+  - id: sun-cambridge-correction
+    note: Ordnet das moderne Türkisch dem südwestlichen beziehungsweise oghusischen Zweig der Familie der Turksprachen zu.
+  - id: sun-bls-method-correction
+    note: >-
+      Erklärt, dass Wortähnlichkeiten allein keine Abstammung belegen und dass die vergleichende Methode regelmäßige
+      Lautentsprechungen in morphologischen Systemen voraussetzt.
+  - id: sun-ataturk-context
+    note: Beschreibt die Theorie, Atatürks Unterstützung, ihre politischen statt wissenschaftlichen Grundlagen und ihre Behandlung auf dem Dritten Türkischen Sprachkongress.
+  - id: sun-ankara-faculty-context
+    note: >-
+      Die offizielle Geschichte der Fakultät belegt, dass sie 1935 unter dem Bildungsministerium eröffnet und erst 1946
+      Teil der Universität Ankara wurde.
+  - id: sun-tdk-report-carrier
+    note: Die Archivseite des TDK gibt den Bericht und die vollständige Mitgliederliste der Güneş-Dil Teorisi ve Dil Karşılaştırmaları Komisyonu des Dritten Türkischen Sprachkongresses wieder.
+  - id: sun-tdk-proceedings-mechanism
+    note: Die direkte, 451 Seiten umfassende TDK-Ausgabe der Kongressakten von 1936 stellt die Sonnensprachtheorie in Tagesordnung und Beiträgen ins Zentrum des formalen sprachwissenschaftlichen Programms.
+  - id: sun-tetik-carrier
+    note: >-
+      Dokumentiert die offizielle Verkündung im Herbst 1935, die Einrichtung einer Professur für Sonnensprachtheorie an
+      der Fakultät in Ankara im Januar 1936 sowie Lehrbücher und Unterricht durch den Lehrstuhlinhaber.
+  - id: sun-tetik-mechanism
+    note: >-
+      Zeigt, wie offizielle Verkündung, universitäre Lehre und der Kongress von 1936 die Theorie in ein koordiniertes
+      institutionelles Programm überführten.
+  - id: sun-maarif-consequences
+    note: >-
+      Beschreibt die Kongresskommission, den nationalistischen und zivilisationspolitischen Rahmen, die erzwungenen
+      Etymologien, die ihre Glaubwürdigkeit beschädigten, und das spätere Ende der universitären Lehre.
+  - id: sun-tetik-consequences
+    note: >-
+      Dokumentiert Professur und Lehrbücher und gibt wieder, wie die Theorie selbst Sprachfamilien und die vergleichende,
+      formbezogene Etymologie für wissenschaftlich überholt erklärte.
+  - id: sun-maarif-impact
+    note: Berichtet von 25 zwischen 1935 und 1938 veröffentlichten Bänden zur Theorie.
+  - id: sun-tetik-impact
+    note: Dokumentiert die eigene Professur in Ankara und beschreibt die Theorie als dreijährige Episode der türkischen Sprachwissenschaft.
+  - id: sun-maarif-partial-correction
+    note: >-
+      Berichtet, dass die Theorie von der Tagesordnung verschwand, der Unterricht nach Atatürks Tod endete und sich ein
+      führendes früheres Kommissionsmitglied von seinen Behauptungen abwandte und gegen die Theorie stellte.
+  - id: sun-tetik-partial-correction
+    note: >-
+      Beschreibt das stille Ende der Theorie nach November 1938 und die Einstellung des Kurses in Ankara; dies belegt die
+      Aufgabe, dokumentiert jedoch keinen förmlichen institutionellen Widerruf.

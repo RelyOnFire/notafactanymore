@@ -1,33 +1,168 @@
+schemaVersion: 2
 locale: de
 entryId: virgin-lands-extensive-plowing
 sourceReviewedAt: '2026-08-23'
-title: Großflächiges Pflügen der Neulandgebiete
-claim: Das rasche Umpflügen riesiger semiarider Steppengebiete und die Maximierung der Getreideanbaufläche wurden als nachhaltiger
-  Weg zu dauerhaft stark höheren sowjetischen Nahrungsmittelerträgen behandelt.
-currentUnderstanding: Landwirtschaft in semiariden Steppen wird durch Niederschlag, Winderosion, Bodenfruchtbarkeit sowie
-  den Bedarf an lokal angepassten Fruchtfolgen und Brache begrenzt. Eine Ausweitung des Anbaus kann Erträge vorübergehend
-  steigern; dauerhaftes Pflügen und zu wenig Brache auf empfindlichen Trockenböden können jedoch die Fruchtbarkeit abbauen
-  und den Oberboden schwerer Erosion aussetzen.
+title: Großflächiges Pflügen auf Neuland
+proposition:
+  summary: >-
+    Der sowjetische Partei- und Staatsapparat behandelte die rasche Ausweitung der Getreidefläche auf unerschlossene und
+    brachliegende, vielfach semiaride Steppen als verlässlichen Weg zu großen und anhaltenden Produktionssteigerungen.
+    Flächenziele erhielten dabei Vorrang vor einer langsameren Strategie, die auf höheren Erträgen bestehender Ackerflächen beruhte.
+correction:
+  summary: >-
+    Die Umwandlung geeigneter Flächen kann die Produktion steigern; die Kampagne machte Nordkasachstan dauerhaft zu einer
+    bedeutenden Getreideregion. Landwirtschaft in semiariden Trockengebieten bleibt jedoch stark wetterabhängig und
+    erfordert Standortwahl, Bodenbedeckung, Wasserrückhalt, Erosionsschutz und lokal angepasste Fruchtfolgen. Eine
+    gleichförmige Ausweitung auf marginale Steppe kann keine anhaltenden Zuwächse garantieren. Heutige Evidenz spricht für
+    höhere Erträge auf bestehendem Ackerland und für Weidenutzung sowie den Schutz von Ökosystemen auf weniger geeigneten Flächen.
+impact:
+  summary: >-
+    Von 1954 bis 1964 wandelte die Kampagne mehr als 43 Millionen Hektar überwiegend unberührter eurasischer Steppe in
+    Kasachstan und mehreren russischen Regionen um. Sie brachte große frühe Ernten, neue Siedlungen und Infrastruktur sowie
+    eine dauerhafte Getreidewirtschaft in Nordkasachstan hervor. Die Produktion blieb stark dürreabhängig; rasches Pflügen
+    ohne ausreichenden Bodenschutz trug zugleich zu Winderosion, Versalzung, dem Verlust organischer Bodensubstanz und der
+    Zerschneidung von Lebensräumen bei. Die Dürre von 1963 traf sowohl die Neulandgebiete als auch ältere sowjetische
+    Kornkammern; wegen der resultierenden Knappheit musste die Sowjetunion rund zehn Millionen Tonnen Getreide im Ausland kaufen.
+  highlights:
+    - value: '>43 Millionen ha'
+      label: 1954–1964 in Russland und Kasachstan umgewandeltes, überwiegend unberührtes Grasland
+      note: Diese kampagnenweite Schätzung umfasst den russischen wie den kasachischen Teil der Neulandregion.
+    - value: '64 Millionen Tonnen'
+      label: Getreideernte der Neulandregion im Spitzenjahr der Kampagne 1956
+      note: Trotz weiterer Flächenausweitung übertraf keine spätere Ernte während der Kampagne den Gesamtwert von 1956.
+    - value: '~10 Millionen Tonnen'
+      label: nach der sowjetischen Versorgungskrise von 1963 im Ausland gekauftes Getreide
+      note: Die Dürre traf Neulandgebiete und traditionelle Getreideregionen; die Menge lässt sich nicht dem Pflügen allein zurechnen.
+  context:
+    - >-
+      Flächenangaben unterscheiden sich je nach räumlicher Abgrenzung und Endjahr. Eine kampagnenweite Auswertung nennt
+      mehr als 43 Millionen Hektar in Russland und Kasachstan von 1954 bis 1964; eine Fernerkundungsstudie schätzt für
+      Nordkasachstan von 1954 bis 1963 rund 23 Millionen Hektar umgewandeltes Steppengrasland.
+    - >-
+      Die Kampagne war kein sofortiger oder vollständiger Produktionsfehlschlag. Die frühen Erntezuwächse waren erheblich,
+      dauerhafte Siedlungen und Infrastruktur entstanden, und Nordkasachstan blieb eine wichtige Getreideregion. Widerlegt
+      wurde die Annahme, eine rasche und fortgesetzte Flächenausweitung könne agrarökologische Anpassung und
+      ertragsorientierte Investitionen verlässlich ersetzen.
+    - >-
+      Die Erntekrise von 1963 fiel mit extremer Dürre in den Neulandgebieten, an der Wolga, in den Schwarzerdegebieten und
+      in der Ukraine zusammen. Die Kampagne verursachte dieses Wetterereignis nicht; die Krise zeigte, dass die neuen
+      Flächen nicht zu dem von der Politik erwarteten stabilen Puffer gegen Missernten geworden waren.
+    - >-
+      Nach Chruschtschows Absetzung betonte die sowjetische Regierung Investitionen, höhere Erträge und Schutz vor
+      Winderosion. Den Großteil der umgewandelten Steppe stellte sie nicht wieder her; die Ackerfläche der früheren
+      Kampagnenregionen erreichte ihren Höchststand erst Ende der 1970er-Jahre. Die institutionelle Korrektur blieb daher unvollständig.
 episodes:
-- id: soviet-kazakhstan-1954-1963
-  polity: Sowjetisches Kasachstan
-  institutions:
-  - Центральный Комитет КПСС (Zentralkomitee der KPdSU)
-  - Совет Министров СССР (Ministerrat der UdSSR)
-  institutionalContext: Die Neulandkampagne wurde durch formelle Beschlüsse der zentralen Staats- und Parteiführung geschaffen
-    und wiederholt ausgeweitet, nicht durch eine einzelne Institution namens „Neuland-Sowchossystem“. Das Plenum des Zentralkomitees
-    der KPdSU beschloss am 2. März 1954 die grundlegende Resolution; später im selben Jahr erweiterten das Zentralkomitee
-    und der Ministerrat der UdSSR das Programm durch gemeinsame Beschlüsse. Die Umsetzung lief anschließend über Partei- und
-    Republikverwaltung in Kasachstan, Sowchosen, Maschinen-Traktoren-Stationen und lokale Agrarorganisationen; diese operativen
-    Ebenen werden hier als Apparat beschrieben.
-  summary: Chruschtschows Neulandkampagne wurde durch eine Resolution des ZK-Plenums vom März 1954 begonnen und durch gemeinsame
-    Beschlüsse des Zentralkomitees der KPdSU und des Ministerrats der UdSSR ausgeweitet. Riesige Flächen der kasachischen
-    Steppe wurden in kurzer Zeit in Getreideland umgewandelt. Frühe Ernteerfolge förderten die weitere Expansion, doch politischer
-    Druck zur Maximierung der Anbaufläche verringerte die Brache und übertrug Landwirtschaftsmethoden auf trockene, empfindliche
-    Böden, für die sie schlecht geeignet waren. Anfang der 1960er-Jahre sank die Bodenfruchtbarkeit, Winderosion nahm stark
-    zu und der Ernteausfall von 1963 machte die Grenzen der Strategie sichtbar.
-  consequences:
-  - Großflächige Umwandlung von Steppe in Ackerland
-  - Sinkende Bodenfruchtbarkeit
-  - Winderosion und Staubstürme
-  - Stark schwankende Getreideproduktion
+  - id: soviet-union-1954-1964
+    polity: Sowjetunion
+    periodLabel: 1954–1964
+    institutions:
+      - Zentralkomitee der Kommunistischen Partei der Sowjetunion (KPdSU)
+      - Ministerrat der UdSSR
+    institutionalContext: >-
+      Formelle Zentralbeschlüsse begründeten die Kampagne, nicht eine einzelne Institution namens
+      „Neuland-Sowchossystem“. Das Plenum des Zentralkomitees der KPdSU fasste am 2. März 1954 den grundlegenden Beschluss;
+      am 13. August ordneten Zentralkomitee und Ministerrat der UdSSR gemeinsam die weitere Ausweitung an. Das Programm
+      umfasste Nordkasachstan sowie russische Gebiete an der Wolga, im Ural, in Sibirien und im Nordkaukasus. Sowjetische
+      Landwirtschafts- und Sowchosministerien, Partei- und Staatsorgane der Republiken und Regionen,
+      Maschinen-Traktoren-Stationen, Kolchosen, Sowchosen und der Komsomol setzten die Zentralbeschlüsse um.
+    consequences:
+      - Mehr als 43 Millionen Hektar überwiegend unberührter Steppe in Russland und Kasachstan wurden in Ackerland umgewandelt
+      - Große frühe Ernten und eine dauerhafte Getreidewirtschaft in Nordkasachstan gingen mit schwankenden Erträgen und wiederholten Dürreverlusten einher
+      - Rasches Pflügen ohne ausreichenden Schutz setzte Böden Winderosion, Staubstürmen, Versalzung und dem Verlust organischer Substanz aus
+      - Die Umwandlung von Grasland verkleinerte und zerschnitt Steppenlebensräume und entzog der Weidenutzung Flächen
+      - Die Massenmobilisierung schuf neue Landwirtschaftsbetriebe, Siedlungen und öffentliche Infrastruktur in den Kampagnenregionen
+      - Nach der Dürre von 1963 führten die ausgebliebene Pufferwirkung der Neulandregion und Verluste in anderen Gebieten zu großen Getreidekäufen
+    summary: >-
+      Zentrale Partei- und Regierungsbeschlüsse machten Chruschtschows Strategie der Flächenausweitung zu einem
+      unionsweiten Programm. Sie wiesen Ministerien, Republiken, Regionen, Maschinen-Traktoren-Stationen und Betrieben
+      bezifferte Aussaatziele zu und mobilisierten Arbeitskräfte, Maschinen und Siedlungsbau in Kasachstan und Russland.
+      Frühe Zuwächse, besonders die Ernte von 1956, stärkten die Bindung an das Programm. Spätere Dürren und Bodenschäden
+      zeigten die Grenzen marginaler Trockenlandflächen als verlässlicher Produktionsmotor. Gleichwohl hinterließ die
+      Kampagne eine dauerhafte Getreidewirtschaft und Infrastruktur und verschwand nicht einfach mit Chruschtschows Sturz.
+    mechanism:
+      summary: >-
+        Partei- und Regierungsbeschlüsse legten zentral messbare Flächen- und Ablieferungsziele fest, verteilten sie auf
+        Ministerien sowie Republik- und Regionalbehörden und setzten sie durch Kolchosen und Sowchosen,
+        Maschinen-Traktoren-Stationen, Komsomol-Anwerbung, Maschinenverlagerungen und Investitionen in neue Siedlungen um.
+    institutionalCorrection:
+      periodLabel: ab 1965
+      action: >-
+        Die Führung nach Chruschtschow verlagerte die Agrarpolitik auf Investitionen und Intensivierung; ein gemeinsamer
+        Beschluss von Zentralkomitee und Ministerrat ordnete 1967 Bodenschutzfruchtfolgen, Streifenanbau, Schutzwaldstreifen,
+        wendelose Bodenbearbeitung, Stoppelrückhalt und weitere Maßnahmen gegen Wind- und Wassererosion an.
+      summary: >-
+        Das ZK-Plenum vom März 1965 verwarf wichtige Teile von Chruschtschows Agrarpolitik; der Erosionsschutzbeschluss von
+        1967 reagierte formell auf Schäden ungeeigneter Bodenbearbeitung. Die spätere Politik betonte höhere Erträge,
+        Maschinen, Dünger, zeitweilige Flächenstilllegung und Windschutz. Da der sowjetische Staat den Großteil des
+        umgewandelten Ackerlands behielt und weiterhin einzelne marginale Flächen pflügte, änderten sich Strategie und
+        Praxis, ohne dass die Neulandkampagne vollständig rückgängig gemacht wurde.
+evidence:
+  - id: virgin-lands-sixty-years-proposition
+    note: >-
+      Stellt Chruschtschows Strategie der raschen Flächenausweitung der verworfenen Alternative höherer Erträge auf
+      bestehendem Ackerland gegenüber und dokumentiert eine erwartete Produktionssteigerung von 35 bis 40 Prozent durch
+      bis zu 30, später 40 Millionen Hektar neue Anbaufläche.
+  - id: virgin-lands-land-cover-correction
+    note: >-
+      Die Fernerkundungs- und Archivstudie ermittelt ein begrenztes Produktionspotenzial derzeit ungenutzter marginaler
+      Flächen und empfiehlt höhere Erträge auf bestehendem Ackerland sowie Weidenutzung, Ökosystemleistungen und
+      Biodiversität als Vorrang auf weniger geeigneten Flächen.
+  - id: virgin-lands-fao-correction
+    note: >-
+      Beschreibt, wie Direktsaat, Ernterückstände und Fruchtfolgen unter den niederschlagsarmen Bedingungen Nordkasachstans
+      Wasser im Boden halten und Erosion verringern; zugleich nennt die Quelle Investitionskosten und anfänglich höheren Herbizideinsatz.
+  - id: virgin-lands-sixty-years-impact
+    note: >-
+      Liefert die kampagnenweite Umwandlungsschätzung, Erntedaten, den Dürrekontext und die Getreidekäufe von 1963 sowie
+      Belege zu Besiedlung, späteren Ertragssteigerungen, Lebensraumverlust und Bodenschäden.
+  - id: virgin-lands-land-cover-impact
+    note: >-
+      Schätzt die von 1954 bis 1963 in Nordkasachstan umgewandelte Steppengrasfläche auf rund 23 Millionen Hektar und
+      dokumentiert Kasachstans daraus entstandene Rolle als wichtige sowjetische Getreideregion.
+  - id: virgin-lands-march-carrier
+    note: >-
+      Katalog- und Vollzugangsdatensatz zum grundlegenden Beschluss des ZK-Plenums vom 2. März 1954 über die Steigerung der
+      Getreideproduktion und Erschließung von Neu- und Brachland; der Datensatz weist das ZK-Plenum als Herausgeber aus und
+      bewahrt mehrere Signaturen der Russischen Staatsbibliothek.
+  - id: virgin-lands-august-carrier
+    note: >-
+      Historischer Dokumentdatensatz, der die Maßnahme vom 13. August 1954 als gemeinsamen Beschluss des Zentralkomitees
+      der KPdSU und des Ministerrats der UdSSR zur weiteren Ausweitung der Getreideproduktion auf Neuland ausweist.
+  - id: virgin-lands-march-mechanism
+    note: >-
+      Der Primärbeschluss setzte neue Aussaatziele von 2,3 Millionen Hektar 1954 und mindestens weiteren 10,7 Millionen
+      1955. Er wies die Umsetzung sowjetischen Ministerien, Republikregierungen, regionalen Partei- und Staatsorganen,
+      Maschinen-Traktoren-Stationen sowie Sowchosen und Kolchosen in Kasachstan und mehreren russischen Regionen zu.
+  - id: virgin-lands-sixty-years-mechanism
+    note: >-
+      Beschreibt die Weisung des Zentralkomitees, die vom Komsomol geleitete Anwerbung, massenhafte Umsiedlung sowie den
+      Transfer von Maschinen und Investitionen zum Aufbau von Betrieben und Siedlungen in zunächst kaum erschlossenen Gebieten.
+  - id: virgin-lands-building-authority-consequences
+    note: >-
+      Historische Untersuchung der Neulandpolitik zu politischem Druck auf die Pflugfläche, abnehmender Brache,
+      Bodenfruchtbarkeitsverlust, Staubstürmen und dem Fehlschlag von 1963.
+  - id: virgin-lands-fate-earth-consequences
+    note: >-
+      Umweltgeschichtliche Darstellung der Umwandlung semiariden Graslands und der durch großflächiges Pflügen geschaffenen Erosionsrisiken.
+  - id: virgin-lands-sixty-years-consequences
+    note: >-
+      Dokumentiert frühe Produktionszuwächse neben späteren wetterabhängigen Ernten, Erosion, Versalzung,
+      Lebensraumzerschneidung und den langlebigen Siedlungen und Infrastrukturen der Kampagne.
+  - id: virgin-lands-building-authority-correction
+    note: >-
+      Datiert das offizielle Agrarprogramm nach Chruschtschow auf das ZK-Plenum vom März 1965, auf dem Redner seine
+      Agrarpolitik verwarfen und die Politik auf Wiederaufbau und Modernisierung umlenkten.
+  - id: virgin-lands-1967-correction
+    note: >-
+      Gemeinsamer Primärbeschluss von Partei und Regierung zum dringenden Schutz vor Wind- und Wassererosion durch unter
+      anderem Bodenschutzfruchtfolgen, Streifenanbau, Schutzwaldstreifen, wendelose Bearbeitung und Stoppelrückhalt.
+  - id: virgin-lands-institute-correction
+    note: >-
+      Archivgestützte historische Studie, die das Pflügen und den Verlust schützender Stoppeln während der Kampagne mit
+      Erosion in Nordkasachstan verbindet und die Entwicklung neuer Bodenbearbeitungsgeräte sowie eines
+      bodenschützenden Anbausystems durch das Allunions-Institut für Getreidewirtschaft in den 1960er- und 1970er-Jahren dokumentiert.
+  - id: virgin-lands-sixty-years-correction-context
+    note: >-
+      Stellt fest, dass die spätere sowjetische Politik Intensivierung, Maschinen und Windschutz betonte, aber die
+      umgewandelten Regionen behielt, weiterhin marginales Land pflügte und die größte Ackerfläche der früheren
+      Kampagnenregionen erst 1975 bis 1980 erreichte.

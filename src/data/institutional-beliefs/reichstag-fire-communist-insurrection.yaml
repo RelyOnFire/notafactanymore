@@ -1,91 +1,156 @@
+schemaVersion: 2
 title: Reichstag fire as evidence of a Communist insurrection
-claim: >-
-  Nazi German authorities treated the Reichstag fire as evidence of a Communist insurrectionary conspiracy
-  threatening the state and used that alleged threat to justify extraordinary emergency powers and political repression.
-currentUnderstanding: >-
-  The Reichstag burned on 27 February 1933 and Marinus van der Lubbe was convicted of setting the fire, but the
-  government's alleged wider Communist conspiracy was not substantiated. Four other defendants accused of taking
-  part in a plot to trigger a Communist uprising were acquitted for lack of evidence, although the regime continued
-  to maintain the conspiracy thesis. Modern scholarship still disputes whether van der Lubbe acted entirely alone
-  or had accomplices, so the correction does not depend on resolving the ultimate authorship of the fire.
+proposition:
+  summary: >-
+    Nazi German executive authorities and prosecutors treated the Reichstag fire of 27 February 1933 as evidence of a
+    Communist insurrectionary conspiracy threatening the state. They wrote that alleged threat into the next day's
+    emergency decree, used it to suppress political opposition, and prosecuted five men on a theory of joint arson and
+    high treason intended to trigger an uprising.
+correction:
+  summary: >-
+    The Reichstag burned and Marinus van der Lubbe was convicted of setting the fire, but the 1933 trial did not
+    substantiate the alleged wider Communist conspiracy: the Reichsgericht acquitted the other four defendants for lack
+    of evidence. Nazi authorities nevertheless retained them in custody and maintained the conspiracy thesis. Historians
+    still dispute whether van der Lubbe acted entirely alone or had accomplices, so rejection of the government's wider
+    insurrection claim does not require a final answer about every participant in the fire itself.
 category: Political repression, emergency law and state propaganda
 reviewedAt: '2026-08-25'
 impact:
   summary: >-
-    The alleged Communist revolutionary threat was written directly into the legal justification for the Reichstag
-    Fire Decree of 28 February 1933. The decree suspended central constitutional protections and enabled sweeping
-    restrictions on liberty, speech, press, assembly, association, communications privacy, searches and property.
-    It became a durable legal foundation for political repression and the Nazi police state even after the criminal
-    prosecution failed to establish the broader conspiracy against four of the five defendants.
+    The alleged Communist revolutionary threat became the stated legal premise of the Reichstag Fire Decree of 28
+    February 1933. The decree suspended seven constitutional articles and permitted sweeping restrictions on liberty,
+    expression, press, assembly, association, communications privacy, searches, confiscation, and property. It supported
+    mass arrests and the suppression of Communist and Social Democratic organizations and publications, and it remained
+    a legal foundation of the Nazi police state even after the criminal prosecution failed to prove the broader
+    conspiracy against four of the five defendants.
   highlights:
-  - value: '7'
-    label: Weimar constitutional articles suspended by the Reichstag Fire Decree
-  - value: 4 of 5
-    label: defendants in the Reichstag fire trial acquitted for lack of evidence
-  - value: 1933–1945
-    label: state of emergency created by the decree remained formally in force under the Nazi regime
+    - value: '7'
+      label: Weimar constitutional articles suspended by the Reichstag Fire Decree
+    - value: 4 of 5
+      label: defendants in the Reichstag fire trial acquitted for lack of evidence
+    - value: 1933–1945
+      label: state of emergency created by the decree remained formally in force under the Nazi regime
   context:
-  - >-
-    Whether Nazi officials themselves participated in setting the Reichstag fire remains historically disputed. The
-    documented institutional falsehood is narrower: authorities treated the fire as evidence of a Communist
-    insurrectionary conspiracy and used that alleged threat to justify emergency measures.
-  - >-
-    Van der Lubbe was convicted and executed. The evidentiary failure concerned the wider prosecution theory that
-    he and four Communist defendants had jointly committed arson and high treason in order to trigger an uprising.
-  - >-
-    The decree was consequential beyond the fire investigation itself: its emergency powers remained part of the
-    legal machinery of Nazi rule until the regime's collapse in 1945.
+    - >-
+      Whether Nazi officials themselves participated in setting the Reichstag fire remains historically disputed. The
+      documented institutional falsehood is narrower: authorities treated the fire as evidence of a Communist
+      insurrectionary conspiracy and used that alleged threat to justify emergency measures.
+    - >-
+      Van der Lubbe was convicted and executed. The evidentiary failure concerned the wider prosecution theory that he
+      and four Communist defendants had jointly committed arson and high treason to trigger an uprising. The 2007 legal
+      annulment of van der Lubbe's judgment was based on legislation voiding Nazi injustice judgments and was not a factual acquittal.
+    - >-
+      The decree mattered far beyond the arson investigation. Its exceptional powers became ordinary machinery of Nazi
+      repression, and the state of emergency it created was not lifted during the regime's twelve years in power.
 episodes:
-- id: nazi-germany-1933-1945
-  polity: Nazi Germany
-  region: Europe
-  startYear: 1933
-  endYear: 1945
-  strength: policy-basis
-  institutionTypes:
-  - government
-  institutions:
-  - Reich government
-  - Reich Ministry of the Interior
-  institutionalContext: >-
-    On 28 February 1933, the day after the fire, President Paul von Hindenburg issued the Decree of the Reich President
-    for the Protection of the People and State on the advice of Adolf Hitler's government. Its preamble expressly
-    presented the measure as a defense against Communist acts of violence endangering the state. The decree suspended
-    seven constitutional articles and authorized exceptional restrictions on civil liberties and state intervention.
-    Nazi authorities simultaneously accused Communists of planning an overthrow and prosecuted five men on a theory
-    of joint arson and high treason intended to trigger a Communist uprising. In December 1933 the Reichsgericht
-    convicted van der Lubbe but acquitted the other four defendants for lack of evidence. The regime nevertheless
-    maintained the conspiracy thesis, and the emergency decree remained formally operative through 1945.
-  consequences:
-  - Suspension of constitutional protections for personal liberty, expression, press, assembly and association
-  - Authorization of expanded searches, confiscations, communications interception and central intervention in the Länder
-  - Mass political repression, including detention of opponents and suppression of organizations and publications
-  - Continued use of an emergency legal framework after the wider Communist conspiracy case failed in court
-  summary: >-
-    The Reichstag fire became the factual premise for an emergency-law regime rather than merely the subject of an
-    arson prosecution. The decree of 28 February explicitly invoked Communist violence threatening the state and
-    suspended seven constitutional guarantees. Nazi authorities then pursued a criminal case alleging that five men
-    had acted together to provoke a Communist uprising. Four were acquitted for lack of evidence, but the government
-    did not abandon the conspiracy narrative or the emergency powers attached to it. The decree's state of emergency
-    survived for the remainder of Nazi rule.
-  sources:
-  - title: Decree of the Reich President for the Protection of the People and State — 28 February 1933
+  - id: nazi-germany-1933-1945
+    polity: Nazi Germany
+    region: Europe
+    startYear: 1933
+    endYear: 1945
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - court
+    institutions:
+      - Reich President Paul von Hindenburg
+      - Reich government under Adolf Hitler
+      - Reich Ministry of the Interior
+      - Reich Ministry of Justice
+      - Chief Reich Prosecutor at the Reichsgericht
+      - Reichsgericht
+    institutionalContext: >-
+      On 28 February 1933, the day after the fire, President Paul von Hindenburg issued the Decree of the Reich President
+      for the Protection of the People and State on the advice of Adolf Hitler's government. Its preamble expressly cast
+      the measure as defense against Communist acts of violence endangering the state. Hindenburg, Hitler, Interior
+      Minister Wilhelm Frick, and Justice Minister Franz Gürtner signed it; Reich, state, and local authorities enforced
+      it. The Chief Reich Prosecutor then charged van der Lubbe, KPD parliamentary leader Ernst Torgler, and Bulgarian
+      Communists Georgi Dimitroff, Blagoi Popov, and Vasil Tanev with high treason and joint arson intended to provoke a
+      Communist uprising. The Reichsgericht convicted van der Lubbe but acquitted the other four for lack of evidence.
+    consequences:
+      - Suspension of constitutional protections for personal liberty, expression, press, assembly, and association
+      - Expanded searches, confiscation, communications interception, and central intervention in the German states
+      - Mass detention of political opponents and suppression of Communist and Social Democratic organizations and publications
+      - Continued emergency government after the prosecution failed to prove the wider Communist conspiracy against four defendants
+    summary: >-
+      The fire became the factual premise for an emergency-law regime rather than merely the subject of an arson
+      investigation. The decree explicitly invoked Communist violence threatening the state and suspended seven
+      constitutional guarantees. Authorities then tried to convert the same insurrection claim into a criminal judgment.
+      The court's four acquittals exposed the prosecution's evidentiary failure, but the government kept the conspiracy
+      narrative and the emergency powers attached to it. The state of emergency lasted through the end of Nazi rule.
+    mechanism:
+      kind: enforcement
+      summary: >-
+        The executive translated the conspiracy allegation into an emergency decree; interior, justice, police, state,
+        and local authorities used the decree for arrests, censorship, searches, confiscation, and suppression; and the
+        Chief Reich Prosecutor pursued a joint-arson and high-treason case before the Reichsgericht.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 23 December 1933
+      action: >-
+        The Reichsgericht acquitted Torgler, Dimitroff, Popov, and Tanev for lack of evidence while convicting van der Lubbe.
+      summary: >-
+        The acquittals were an official evidentiary defeat for the alleged five-person Communist plot, but not a government
+        retraction. The four men remained in custody, Nazi authorities maintained the conspiracy thesis, and the emergency
+        decree stayed in force until the regime ended in 1945.
+sources:
+  - id: reichstag-fire-decree
+    title: Decree of the Reich President for the Protection of the People and State — 28 February 1933
     url: https://germanhistorydocs.org/en/nazi-germany-1933-1945/ghdi%3Adocument-2325
     publisher: German History in Documents and Images
+  - id: reichstag-fire-bundesarchiv-trial
+    title: '23 December 1933: Judgment of the Reich Court in the Reichstag fire trial'
+    url: https://www.bundesarchiv.de/themen-entdecken/online-entdecken/geschichtsgalerien/23-dezember-1933-urteil-des-reichsgerichts-im-reichstagsbrandprozess/
+    publisher: German Federal Archives
+  - id: reichstag-fire-bundestag-history
+    title: '27 February 1933: Reichstag fire in Berlin'
+    url: https://www.bundestag.de/dokumente/textarchiv/1933-02-27-reichstagsbrand-934664
+    publisher: German Bundestag
+evidence:
+  - id: reichstag-fire-decree-proposition
+    sourceId: reichstag-fire-decree
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+  - id: reichstag-fire-trial-correction
+    sourceId: reichstag-fire-bundesarchiv-trial
+    relation: supports
+    target: {scope: belief, aspect: correction}
+  - id: reichstag-fire-bundestag-impact
+    sourceId: reichstag-fire-bundestag-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+  - id: reichstag-fire-decree-carrier
+    sourceId: reichstag-fire-decree
+    relation: documents
+    target: {scope: episode, episodeId: nazi-germany-1933-1945, aspect: carrier}
     note: >-
       English translation and German-source citation for the Reichstag Fire Decree. The preamble describes the decree
       as a defensive measure against Communist acts of violence endangering the state and Section 1 suspends seven
       named constitutional articles.
-  - title: '23 December 1933: Judgment of the Reich Court in the Reichstag fire trial'
-    url: https://www.bundesarchiv.de/themen-entdecken/online-entdecken/geschichtsgalerien/23-dezember-1933-urteil-des-reichsgerichts-im-reichstagsbrandprozess/
-    publisher: German Federal Archives
+  - id: reichstag-fire-decree-mechanism
+    sourceId: reichstag-fire-decree
+    relation: documents
+    target: {scope: episode, episodeId: nazi-germany-1933-1945, aspect: mechanism}
+  - id: reichstag-fire-trial-carrier
+    sourceId: reichstag-fire-bundesarchiv-trial
+    relation: documents
+    target: {scope: episode, episodeId: nazi-germany-1933-1945, aspect: carrier}
+  - id: reichstag-fire-trial-institutional-correction
+    sourceId: reichstag-fire-bundesarchiv-trial
+    relation: documents
+    target: {scope: episode, episodeId: nazi-germany-1933-1945, aspect: institutional-correction}
     note: >-
       Official archival history describing the accusation of a Communist overthrow plot, the prosecution theory of
       joint arson to trigger an uprising, the acquittal of four defendants for lack of evidence and the regime's
       continued maintenance of the Communist-conspiracy thesis; it also notes that authorship of the fire remains disputed.
-  - title: '27 February 1933: Reichstag fire in Berlin'
-    url: https://www.bundestag.de/dokumente/textarchiv/1933-02-27-reichstagsbrand-934664
-    publisher: German Bundestag
+  - id: reichstag-fire-trial-context
+    sourceId: reichstag-fire-bundesarchiv-trial
+    relation: contextualizes
+    target: {scope: episode, episodeId: nazi-germany-1933-1945, aspect: context}
+  - id: reichstag-fire-bundestag-consequences
+    sourceId: reichstag-fire-bundestag-history
+    relation: supports
+    target: {scope: episode, episodeId: nazi-germany-1933-1945, aspect: consequences}
     note: >-
       Official parliamentary history explaining the decree's suppression of political rights and that the emergency
       condition it created was not lifted before 1945.

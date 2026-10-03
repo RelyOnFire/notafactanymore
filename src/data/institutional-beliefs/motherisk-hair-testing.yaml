@@ -5,9 +5,9 @@ proposition:
 correction:
   summary: Hair toxicology can be informative when validated forensic methods, confirmation testing, contamination controls, and appropriately cautious interpretation are used. The Motherisk Drug Testing Laboratory's methods and interpretation from 2005 to 2015 did not meet internationally recognized forensic standards and were found inadequate and unreliable for evidentiary use.
 category: Medicine and public health
-reviewedAt: 2026-08-23
+reviewedAt: 2026-09-18
 impact:
-  summary: Motherisk was not an isolated laboratory error. Between 2005 and 2015 the laboratory tested more than 24,000 hair samples from over 16,000 individuals for child-protection purposes. After the testing was found inadequate and unreliable for evidentiary use, Ontario created a commission that reviewed 1,271 children's-aid-society cases to identify people who might have been affected.
+  summary: Motherisk was not an isolated laboratory error. Between 2005 and 2015 the laboratory tested more than 24,000 hair samples from over 16,000 individuals for child-protection purposes. After the testing was found inadequate and unreliable for evidentiary use, Ontario created a commission that reported reviewing approximately 1,271 children's-aid-society cases to identify people who might have been affected.
   highlights:
     - value: More than 24,000
       label: Hair samples tested for child-protection purposes, 2005–2015
@@ -15,7 +15,7 @@ impact:
       label: Individuals represented in those tests
     - value: 1,271
       label: Children's-aid-society cases reviewed by the Motherisk Commission
-      note: A reviewed case is not the same thing as a case in which the test determined the outcome.
+      note: A reviewed case is not the same thing as a case in which the test determined the outcome. The report calls this an approximate count because case reviews were still in progress when it was written.
   context:
     - The problem was not that hair toxicology as a field was inherently meaningless. The problem was that a hospital laboratory evolved from clinical testing into work used for legal fact-finding without the validation, confirmation procedures, quality controls, proficiency standards, and interpretive restraint expected of a forensic laboratory.
     - Once a laboratory result entered a child-protection file, it could influence how agencies and courts interpreted parental drug or alcohol use. That gave a technical result institutional consequences far beyond the laboratory itself. Ontario therefore had to review not just the analytical method but the downstream decisions that may have relied on it.
@@ -25,25 +25,32 @@ episodes:
     region: North America
     startYear: 2005
     endYear: 2015
+    periodLabel: 2005–2015 (testing covered by the review)
     strength: policy-basis
     institutionTypes:
       - medical
-      - government
-      - court
     institutions:
       - Motherisk Drug Testing Laboratory, The Hospital for Sick Children (SickKids)
-      - Ontario Ministry of Children and Youth Services
     institutionalContext: >-
       Motherisk results travelled through Ontario's child-protection system: children's aid societies requested or
       relied on testing, and results entered proceedings before Ontario courts. Those downstream bodies formed a
       distributed institutional network of children's aid societies and Ontario courts rather than a single named
-      institution.
+      institution. The laboratory promoted its services to children's aid societies by 2001; the 2005–2015 bounds
+      identify the testing period examined by the Lang Review, not the beginning of institutional use.
     consequences:
       - Hair-test results were used in child-protection proceedings across Ontario
       - Laboratory results were treated as evidence of drug or alcohol consumption or exposure
       - Ontario directed children's aid societies to stop using or relying on Motherisk hair testing
       - An independent provincial review and subsequent commission were created to examine the consequences of the testing
-    summary: Between 2005 and 2015, the Motherisk Drug Testing Laboratory at Toronto's Hospital for Sick Children tested thousands of hair samples for drug and alcohol consumption or exposure. Its results were used primarily in child-protection proceedings and also in some criminal proceedings. Ontario's independent review concluded that the laboratory's hair-strand testing during this period was inadequate and unreliable for use as evidence and that its operation did not meet internationally recognized forensic standards. The province instructed children's aid societies to stop using the tests and created a further process to review potentially affected child-protection matters.
+    summary: >-
+      Between 2005 and 2015, the Motherisk Drug Testing Laboratory at Toronto's Hospital for Sick Children tested
+      thousands of hair samples for drug and alcohol consumption or exposure. Its results were used primarily in
+      child-protection proceedings and also in some criminal proceedings. SickKids permanently closed the laboratory
+      in April 2015. On April 22, while the independent review was still under way, Ontario directed children's aid
+      societies to stop using or relying on hair-strand drug and alcohol testing. The Lang Review's report, made public
+      on December 17, 2015, concluded that Motherisk testing in the reviewed period was inadequate and unreliable for
+      evidentiary use and did not meet internationally recognized forensic standards. A further commission began in
+      January 2016 to review potentially affected child-protection matters.
     mechanism:
       kind: administrative-adoption
       summary: >-
@@ -51,11 +58,14 @@ episodes:
         court proceedings, allowing clinical-style testing to function as forensic evidence across a distributed public system.
     institutionalCorrection:
       status: corrected
-      periodLabel: '2015'
-      action: Directed children's aid societies to stop using or relying on Motherisk hair testing and established independent review processes.
+      periodLabel: 2014–2018 review and withdrawal
+      action: SickKids closed the laboratory; Ontario prohibited reliance on hair testing in child-protection services and established review processes.
       summary: >-
-        Ontario concluded that Motherisk testing from 2005 to 2015 was inadequate and unreliable for evidentiary use,
-        stopped reliance on the tests and created review mechanisms for potentially affected child-protection cases.
+        Ontario appointed the independent review in November 2014. The laboratory closure and April 22, 2015
+        directive preceded the final findings in December. The subsequent commission took effect on January 15,
+        2016 and reported in February 2018. The laboratory stopped testing, and the directive prohibited reliance in
+        child-protection services; the commission addressed possible effects on past decisions. This correction does
+        not establish that every affected decision was reversed or every family received a remedy.
 sources:
   - id: motherisk-ppsc-review
     title: Innocence at Stake — Motherisk Hair Analysis Independent Review
@@ -67,7 +77,7 @@ sources:
     publisher: Government of Ontario
   - id: motherisk-harmful-impacts
     title: 'Harmful impacts: The reliance on hair testing in child protection'
-    url: https://www.ontario.ca/page/harmful-impacts-reliance-hair-testing-child-protection
+    url: https://files.ontario.ca/mag-motherisk-commission-report-en-2021-02-04.pdf
     publisher: Government of Ontario
   - id: motherisk-order-in-council
     title: Order in Council — Motherisk Commission
@@ -80,38 +90,66 @@ sources:
 evidence:
   - id: motherisk-ppsc-proposition
     sourceId: motherisk-ppsc-review
-    relation: supports
+    relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: 'Chapter 6, section IV(a), laboratory history and Lang Review findings (footnotes 194–200)'
     note: Summarizes the Lang Review, the laboratory's evolution into clinical and forensic testing, its use in thousands of samples from 2005 to 2015, and the conclusion that the testing was inadequate and unreliable for child-protection and criminal proceedings.
   - id: motherisk-ppsc-correction
     sourceId: motherisk-ppsc-review
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: 'Chapter 6, section IV(a), Lang Review findings on unconfirmed ELISA results, forensic standards and interpretation (footnotes 197–199)'
   - id: motherisk-impact
     sourceId: motherisk-harmful-impacts
     relation: documents
     target: {scope: belief, aspect: impact}
-    note: Records more than 24,000 hair samples from over 16,000 individuals tested for child-protection purposes between 2005 and 2015 and states that the subsequent Motherisk Commission reviewed 1,271 children's-aid-society cases.
+    locator: 'Executive summary p. v and notes 1–4; chapter 4, p. 42 and note 155'
+    note: Records more than 24,000 hair samples from over 16,000 individuals tested for child-protection purposes between 2005 and 2015 and states that the subsequent Motherisk Commission reviewed approximately 1,271 children's-aid-society cases.
   - id: motherisk-order-carrier
     sourceId: motherisk-order-in-council
     relation: documents
-    target: {scope: episode, episodeId: ontario-2005-2015, aspect: carrier}
+    target: {scope: episode, episodeId: ontario-2005-2015, aspect: institutional-correction}
+    locator: 'Order in Council 4/2016, January 13, 2016, preamble and paragraphs 1–3; reproduced in the commission report, appendix 2a, appendix pp. 25–26'
     note: Records the official finding that Motherisk hair-strand testing from 2005 to 2015 was inadequate and unreliable for evidence in child-protection and criminal proceedings.
   - id: motherisk-ppsc-mechanism
     sourceId: motherisk-ppsc-review
-    relation: supports
+    relation: documents
     target: {scope: episode, episodeId: ontario-2005-2015, aspect: mechanism}
+    locator: 'Chapter 6, section IV(a), laboratory history and use in child-protection and criminal proceedings; Lang Review findings (footnotes 194–200)'
+    note: Summarizes the Lang Review, the laboratory's evolution into clinical and forensic testing, its use in thousands of samples from 2005 to 2015, and the conclusion that the testing was inadequate and unreliable for child-protection and criminal proceedings.
   - id: motherisk-impact-consequences
     sourceId: motherisk-harmful-impacts
     relation: documents
     target: {scope: episode, episodeId: ontario-2005-2015, aspect: consequences}
+    locator: 'Report of the Motherisk Commission, executive summary p. v and notes 1–4; chapter 1, pp. 3–8; chapter 2, p. 9; chapter 4, p. 42 and note 155'
+    note: Records more than 24,000 hair samples from over 16,000 individuals tested for child-protection purposes between 2005 and 2015 and states that the subsequent Motherisk Commission reviewed approximately 1,271 children's-aid-society cases.
   - id: motherisk-ontario-correction
     sourceId: motherisk-ontario-expanding-review
     relation: documents
     target: {scope: episode, episodeId: ontario-2005-2015, aspect: institutional-correction}
+    locator: 'April 22, 2015 release, expanded-mandate bullets and paragraph beginning "In addition"; directive reproduced in the commission report, appendix 1a, appendix p. 15'
     note: Records the province's review of Motherisk methods against internationally recognized forensic standards and its direction that children's aid societies immediately stop using or relying on the hair tests.
   - id: motherisk-sickkids-context
     sourceId: motherisk-sickkids-update
     relation: contextualizes
     target: {scope: episode, episodeId: ontario-2005-2015, aspect: context}
+    locator: 'September 29, 2017 update, first body paragraph beginning "TORONTO, ON"'
     note: Confirms that SickKids permanently closed the Motherisk Drug Testing Laboratory in April 2015 after concerns about the laboratory emerged.
+  - id: motherisk-report-carrier
+    sourceId: motherisk-harmful-impacts
+    relation: documents
+    target: {scope: episode, episodeId: ontario-2005-2015, aspect: carrier}
+    locator: 'Chapter 1, p. 3, "The Motherisk Drug Testing Laboratory" and notes 20–23'
+    note: Identifies the SickKids laboratory and its promotion of hair testing to children's aid societies by 2001, before the testing period examined by the Lang Review.
+  - id: motherisk-report-correction
+    sourceId: motherisk-harmful-impacts
+    relation: documents
+    target: {scope: episode, episodeId: ontario-2005-2015, aspect: institutional-correction}
+    locator: 'Chapter 1, pp. 4–8; appendix 1a, appendix p. 15; appendix 2a, appendix pp. 25–26; letter of transmittal dated February 26, 2018'
+    note: Distinguishes the 2014 independent review, April 2015 closure and directive, December findings, and the subsequent 2016–2018 commission.
+  - id: motherisk-sickkids-closure
+    sourceId: motherisk-sickkids-update
+    relation: documents
+    target: {scope: episode, episodeId: ontario-2005-2015, aspect: institutional-correction}
+    locator: 'September 29, 2017 update, first body paragraph beginning "TORONTO, ON"'
+    note: The hospital confirms permanent closure of its drug testing laboratory in April 2015.

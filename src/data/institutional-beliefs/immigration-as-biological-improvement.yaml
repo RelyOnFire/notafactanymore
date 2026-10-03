@@ -1,58 +1,226 @@
+schemaVersion: 2
 title: Immigration as biological improvement
-claim: Immigrants were classified by racial, hereditary, and national-origin traits as either improving or threatening
-  the nation's biological and “ethnic” condition.
-currentUnderstanding: National origin, ethnicity, and socially defined race do not determine a person's hereditary
-  worth or whether their descendants biologically improve a country. Human genetic variation does not divide populations
-  into superior and inferior national stocks, and social, intellectual, or moral traits cannot be ranked through
-  the eugenic categories used by these immigration policies.
+proposition:
+  summary: >-
+    The Colombian state treated immigrants' supposed racial, ethnic, organic and national-origin traits as signs of
+    whether they would improve or endanger the country's physical and moral “ethnic conditions,” racial development
+    and biological patrimony.
+correction:
+  summary: >-
+    Race and ethnicity are social classifications, and neither they nor nationality are reliable proxies for genetic
+    ancestry. Human genetic variation does not form discrete, stable populations ranked from inferior to superior, and
+    national origin does not determine intellectual, moral or hereditary worth. Selecting immigrants through those
+    labels therefore cannot biologically improve a nation.
 category: Eugenics and immigration
-reviewedAt: '2026-08-23'
+reviewedAt: '2026-09-28'
+impact:
+  summary: >-
+    Law 114 of 1922 converted the eugenic premise into both recruitment and exclusion. Article 1 directed the executive
+    to foster immigrants judged racially suitable for improving Colombia's physical and moral “ethnic conditions,”
+    while Article 11 barred people deemed inconvenient to the nationality or the “better development of the race.” Its
+    open-ended language gave consuls, immigration agents and port or border authorities wide discretion. Diplomatic
+    records document its use to deny landing to Black Caribbean travelers in 1923; in the late 1930s the Foreign
+    Ministry used the same framework, reinforced by Decree 1723, to obstruct Jewish refugees fleeing Nazi persecution.
+  highlights:
+    - value: '1922'
+      label: year racial and “ethnic” improvement became an express object of Colombian immigration law
+    - value: '27'
+      label: Martinican passengers denied landing in one documented 1923 application of Law 114
+    - value: 1938–40
+      label: period in which Foreign Ministry records tied barriers for Jewish refugees to the older selection law
+  context:
+    - >-
+      Law 114 did not name Afro-Caribbean people or Jews. The affected groups are identified from documented
+      applications of its broad terms in consular correspondence, executive measures and a Foreign Ministry report.
+    - >-
+      Jewish identity is not a biological race or nationality. Officials racialized Jewish refugees and treated their
+      presumed ability to assimilate as a biological and national concern; this card describes that official logic
+      without accepting its categories.
+    - >-
+      The 1922–1940 range marks the enforcement period documented by the principal historical study. It is not a claim
+      that the statute was repealed or that exclusionary thinking ended in 1940; the study records similar rhetoric in 1945.
+    - >-
+      Colombia's current official compilation of Law 114 says that it provides no overall analysis of the law's
+      validity. It marks Article 10 as repealed in 1927 but does not identify a direct repeal of the racial language in
+      Articles 1 and 11. The later anti-discrimination framework is therefore treated as a substantial but formally
+      incomplete correction, without offering a legal opinion on the clauses' present enforceability.
 episodes:
-- id: colombia-1922-1940
-  polity: Colombia
-  region: Latin America
-  startYear: 1922
-  endYear: 1940
-  periodLabel: 1922–1940
-  strength: policy-basis
-  institutionTypes:
-  - government
-  institutions:
-  - Congreso de Colombia
-  - Oficina de Información y Propaganda del Ministerio de Agricultura y Comercio
-  - Juntas de Inmigración
-  - Ministerio de Relaciones Exteriores
-  institutionalContext: Ley 114 de 1922 assigned immigration administration to the Oficina de Información y Propaganda
-    del Ministerio de Agricultura y Comercio, working through immigration agents abroad and Juntas de Inmigración
-    at ports, border towns and major cities. During the late 1930s, the Ministerio de Relaciones Exteriores and
-    Colombian consular network became central to increasingly restrictive visa policy, including measures applied
-    to Jewish refugees.
-  consequences:
-  - Racial selection of immigrants
-  - Exclusion of Afro-Caribbean migrants
-  - Restrictions on Jewish refugees
-  summary: Colombia's 1922 immigration law explicitly linked immigration to improving the country's physical and
-    moral “ethnic conditions” and built an administrative system for selecting and excluding migrants. The law placed
-    immigration work in a named ministry office, consular agents and local immigration boards. During the 1920s
-    and 1930s, officials applied this eugenic and racial framework to restrict migrants including Afro-Caribbeans
-    and, under increasingly restrictive Foreign Ministry visa policy, Jewish refugees.
-  sources:
-  - title: Ley 114 de 1922 — Sobre inmigración y colonias agrícolas
+  - id: colombia-1922-1940
+    polity: Colombia
+    region: Latin America
+    startYear: 1922
+    endYear: 1940
+    periodLabel: 1922–1940 documented
+    strength: policy-basis
+    institutionTypes:
+      - government
+    institutions:
+      - Congreso de Colombia
+      - Oficina de Información y Propaganda del Ministerio de Agricultura y Comercio
+      - Juntas de Inmigración
+      - Ministerio de Relaciones Exteriores
+    institutionalContext: >-
+      Law 114 assigned immigration administration to the Oficina de Información y Propaganda in the Ministry of
+      Agriculture and Commerce, working with immigration agents abroad and local immigration boards. Colombian consuls
+      acted as immigration agents, while port and border authorities enforced exclusions. By the late 1930s, the
+      Ministry of Foreign Affairs and the consular network controlled a more restrictive visa system. Decree 1723 of
+      1938 required specific ministry authorization for stateless people, people whose return rights had been limited,
+      and anyone treated as a special concern under Article 11 of Law 114.
+    consequences:
+      - Visa and landing decisions based on racialized judgments about immigrants' origin and presumed heredity
+      - Denial of entry to Afro-Caribbean travelers, including 27 Martinican passengers in a documented 1923 case
+      - Quotas, higher financial barriers and special-authorization requirements applied to disfavored origins
+      - Restrictions on Jewish refugees seeking safety from Nazi persecution in Europe
+      - Administrative normalization of immigrants as biological assets or threats to the nation
+    summary: >-
+      Colombia's 1922 immigration law made improvement of the nation's physical and moral “ethnic conditions” a state
+      objective and empowered officials to exclude people considered harmful to the country's nationality or racial
+      development. Officials applied that discretion against Black Caribbean migrants and later folded the statute into
+      the restrictive visa machinery used against Jewish refugees. The episode ends in 1940 as a documented research
+      window, not as a proven date of statutory repeal.
+    mechanism:
+      kind: enforcement
+      summary: >-
+        Congress encoded racial selection in law; a ministry office, immigration boards, consular agents and port or
+        border authorities translated it into passport, visa and landing decisions. The Foreign Ministry later added
+        case-by-case authorization and financial barriers through the 1938 decree.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 1981 and 2021
+      action: >-
+        Congress approved the international convention against racial discrimination in 1981 and enacted a national
+        migration-policy law in 2021 that requires the prevention of racism and xenophobia and bars discrimination by
+        race, color, nationality or national ancestry.
+      summary: >-
+        These later statutes reject the racial-selection premise and bind current migration policy to human rights and
+        non-discrimination. The correction is classified as partial because the official compilation supplies no
+        overall validity analysis for Law 114 and this audit found no source documenting a direct repeal or annulment of
+        its Articles 1 and 11.
+sources:
+  - id: colombia-law-114-1922
+    title: Ley 114 de 1922 — Sobre inmigración y colonias agrícolas
     url: https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes%2F1644783
     publisher: Government of Colombia — SUIN-Juriscol
-    note: Primary law linking immigration to improvement of Colombia's physical and moral ethnic conditions; names
-      the immigration office within the Ministry of Agriculture and Commerce, immigration agents abroad, Juntas
-      de Inmigración, consular officials and port authorities that implemented the system.
-  - title: El discurso eugenésico y las teorías racistas en las políticas migratorias colombianas — el rechazo de
-      migrantes afroantillanos y judíos (1920–1940)
+  - id: colombia-eugenic-migration-study
+    title: El discurso eugenésico y las teorías racistas en las políticas migratorias colombianas — el rechazo de migrantes afroantillanos y judíos (1920–1940)
     url: https://historiayespacio.univalle.edu.co/index.php/historia_y_espacio/article/view/11495
     publisher: Historia y Espacio — Universidad del Valle
-    note: Uses diplomatic correspondence and executive decrees to document how eugenic and racist migration policy
-      was applied to Afro-Caribbean migrants and Jewish refugees from 1920 to 1940, including the Foreign Ministry
-      and consular machinery.
-  - title: Decreto 1723 de 1938 — disposiciones sobre inmigración y extranjería
+  - id: colombia-decree-1723-1938
+    title: Decreto 1723 de 1938 — disposiciones sobre inmigración y extranjería
     url: https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/decreto_1723_1938.htm
     publisher: Ministerio de Relaciones Exteriores de Colombia — Normograma
-    note: Primary 1938 decree tightening visa and immigration requirements and assigning discretionary exceptions
-      to the Ministry of Foreign Affairs; the contemporary policy operated through Colombian consulates and was
-      used within the restrictive framework applied to Jewish refugees.
+  - id: nasem-population-descriptors-2023
+    title: 'Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field'
+    url: https://nap.nationalacademies.org/resource/26902/interactive/
+    publisher: National Academies of Sciences, Engineering, and Medicine
+  - id: colombia-law-22-1981
+    title: Ley 22 de 1981 — Convención Internacional sobre la Eliminación de todas las Formas de Discriminación Racial
+    url: https://www.cancilleria.gov.co/normograma/compilacion/docs/ley_0022_1981.htm
+    publisher: Ministerio de Relaciones Exteriores de Colombia — Normograma
+  - id: colombia-law-2136-2021
+    title: Ley 2136 de 2021 — Política Integral Migratoria
+    url: https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/ley_2136_2021.htm
+    publisher: Ministerio de Relaciones Exteriores de Colombia — Normograma
+evidence:
+  - id: colombia-law-proposition
+    sourceId: colombia-law-114-1922
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Articles 1 and 11
+    note: >-
+      The primary law makes improvement of Colombia's physical and moral “ethnic conditions” an immigration objective
+      and prohibits entry by people deemed inconvenient to the nationality or the “better development of the race.”
+  - id: nasem-genetics-correction
+    sourceId: nasem-population-descriptors-2023
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Guiding principles and Recommendations 1–3
+    note: >-
+      The consensus report defines race as a sociopolitical classification and directs researchers not to use race as a
+      proxy for genetic variation or assume hierarchy, homogeneity or stable, discrete population categories.
+  - id: colombia-law-impact
+    sourceId: colombia-law-114-1922
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: Articles 1–7 and 11
+    note: >-
+      Documents the paired recruitment and exclusion rules and the offices, agents, boards and border authorities that
+      could put them into practice.
+  - id: colombia-study-impact
+    sourceId: colombia-eugenic-migration-study
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: pp. 127–142
+    note: >-
+      Uses diplomatic and official correspondence to trace application of the eugenic framework to Afro-Caribbean
+      travelers and Jewish refugees, including the 1923 landing denial and the 1938–1940 Foreign Ministry record.
+  - id: colombia-law-carrier
+    sourceId: colombia-law-114-1922
+    relation: documents
+    target: {scope: episode, episodeId: colombia-1922-1940, aspect: carrier}
+    locator: Articles 2–7 and 11
+    note: >-
+      Names the responsible ministry office, immigration agents and boards, consular officials and port or border
+      authorities within the statutory system.
+  - id: colombia-decree-carrier
+    sourceId: colombia-decree-1723-1938
+    relation: documents
+    target: {scope: episode, episodeId: colombia-1922-1940, aspect: carrier}
+    locator: Articles 1 and 6–8
+    note: >-
+      Assigns special visa authorization to the Foreign Ministry and reporting and compliance duties to Colombian consuls.
+  - id: colombia-law-mechanism
+    sourceId: colombia-law-114-1922
+    relation: documents
+    target: {scope: episode, episodeId: colombia-1922-1940, aspect: mechanism}
+    locator: Articles 1, 3, 7 and 11
+    note: >-
+      Shows how the racial premise entered immigration promotion, passport review, landing decisions and border enforcement.
+  - id: colombia-decree-mechanism
+    sourceId: colombia-decree-1723-1938
+    relation: documents
+    target: {scope: episode, episodeId: colombia-1922-1940, aspect: mechanism}
+    locator: Articles 1, 3 and 6–8
+    note: >-
+      Adds individual Foreign Ministry authorization, doubled immigration deposits and consular reporting to the
+      restrictive administrative machinery.
+  - id: colombia-study-consequences
+    sourceId: colombia-eugenic-migration-study
+    relation: supports
+    target: {scope: episode, episodeId: colombia-1922-1940, aspect: consequences}
+    locator: pp. 127–142
+    note: >-
+      Documents exclusion of Black Caribbean passengers and the later bureaucratic and financial barriers applied to
+      Jewish refugees, while distinguishing the statute's general wording from its discriminatory application.
+  - id: colombia-study-context
+    sourceId: colombia-eugenic-migration-study
+    relation: contextualizes
+    target: {scope: episode, episodeId: colombia-1922-1940, aspect: context}
+    locator: pp. 117–148
+    note: >-
+      Establishes the study's 1920–1940 scope, situates the rules in transnational eugenic politics and notes continuing
+      anti-Jewish assimilation rhetoric in 1945; it does not establish a 1940 repeal.
+  - id: colombia-icered-correction
+    sourceId: colombia-law-22-1981
+    relation: documents
+    target: {scope: episode, episodeId: colombia-1922-1940, aspect: institutional-correction}
+    locator: Convention Articles 2 and 5
+    note: >-
+      Records Colombia's approval of obligations to eliminate state racial discrimination, review discriminatory laws
+      and guarantee equality without distinction by race, color or national or ethnic origin.
+  - id: colombia-pim-correction
+    sourceId: colombia-law-2136-2021
+    relation: documents
+    target: {scope: episode, episodeId: colombia-1922-1940, aspect: institutional-correction}
+    locator: Articles 3 and 4
+    note: >-
+      The current migration-policy statute calls for eliminating racism and xenophobia and applies its provisions
+      without discrimination by race, color, nationality or national ancestry.
+  - id: colombia-law-correction-boundary
+    sourceId: colombia-law-114-1922
+    relation: contextualizes
+    target: {scope: episode, episodeId: colombia-1922-1940, aspect: institutional-correction}
+    locator: Validity note and Articles 1, 10 and 11
+    note: >-
+      The official compilation disclaims an overall validity analysis and expressly marks Article 10 as repealed, while
+      providing no comparable repeal annotation for the racial language in Articles 1 and 11.

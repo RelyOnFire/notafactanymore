@@ -1,124 +1,266 @@
 schemaVersion: 2
 locale: de
 entryId: steam-inhalation-covid-treatment
-sourceReviewedAt: 2026-08-24
-title: Dampfinhalation als wirksames Mittel gegen COVID-19
+sourceReviewedAt: 2026-09-25
+title: Kräuterdampfinhalation als COVID-19-Behandlung oder Schutzmaßnahme
 proposition:
   summary: >-
-    Tansania behandelte Dampfinhalation und verwandte traditionelle Präparate während der COVID-19-Pandemie als
-    erfolgreiche Heil- und Schutzmittel, schrieb ihnen öffentlich Genesungen und breiten therapeutischen Erfolg zu
-    und schuf offiziellen Zugang zu zugelassenen Präparaten, bevor hinreichende Evidenz eine Wirkung gegen COVID-19
-    als Behandlung oder Prävention belegt hatte.
+    Das tansanische Präsidialamt und später leitende Regierungsministerien förderten Kräuterdampfinhalation—kujifukiza
+    oder nyungu—als wissenschaftlich wirksame Methode, COVID-19 zu lindern, zu behandeln oder zu verhindern. Anekdoten des
+    Präsidenten, staatliche Kampagnenwochen und ministerielle Angaben zur Nutzung traditioneller Medizin verliehen der
+    Praxis offizielle therapeutische Legitimität, bevor kontrollierte Evidenz eine Wirkung auf SARS-CoV-2-Infektionen oder
+    klinische Verläufe belegt hatte.
 correction:
   summary: >-
-    Dampfinhalation kann die oberen Atemwege befeuchten und vorübergehend subjektive Beschwerden lindern. Das ist jedoch
-    etwas anderes als eine SARS-CoV-2-Infektion zu verhindern oder die zugrunde liegende Viruserkrankung zu behandeln.
-    Belastbare Evidenz etablierte Dampfinhalation nicht als wirksame COVID-19-Behandlung oder Präventionsmethode.
-    Übersichtsarbeiten während und nach der Pandemie beschrieben die Evidenz als unzureichend beziehungsweise
-    wissenschaftlich ungeklärt; zugleich dokumentierte die Verbrennungsmedizin ein reales Risiko schwerer Verbrühungen.
-    Auch traditionelle Präparate benötigen produktspezifische Belege für Sicherheit und Wirksamkeit, statt diese aus
-    traditioneller Nutzung oder anekdotischer Genesung abzuleiten.
+    Die Erhitzung von SARS-CoV-2 in einer Laborprobe belegt nicht, dass eingeatmeter Dampf Viren in infizierten
+    menschlichen Zellen gefahrlos auf dieselbe Temperatur bringen kann. Dampf kann als angenehm empfunden werden oder
+    trockene obere Atemwege befeuchten; eine Cochrane-Übersicht zu Erkältungen fand jedoch widersprüchliche
+    Symptomwirkungen und keine verminderte Virusausscheidung. Die COVID-19-Literatur bestand überwiegend aus kleinen,
+    unkontrollierten oder heterogenen Studien; eine spätere systematische Übersicht fand zu wenig Evidenz, um einen Nutzen
+    zur Prävention oder Behandlung festzustellen. Dampf nahe der vom Präsidenten genannten Temperatur würde Gewebe
+    verletzen, und Behälter mit heißem Wasser verursachen schwere Verbrühungen. Kräuterzusätze und kommerzielle Präparate
+    brauchen eigene Belege zu Zusammensetzung, Dosis, Sicherheit und Wirksamkeit; eine Sicherheits- oder
+    Registrierungsprüfung ist kein Nachweis eines COVID-19-Nutzens.
 impact:
   summary: >-
-    Tansanias COVID-19-zeitliche Förderung ging über private Volksmedizin hinaus. Im Mai 2020 veröffentlichte das
-    Präsidialamt die Schilderung des Präsidenten, sein Sohn sei von COVID-19 genesen, während er Zitrone und Ingwer
-    konsumiert und Dampfinhalationen angewandt habe. Im August erklärte das Gesundheitsministerium, traditionelle
-    Therapien hätten dem Land während des Corona-Ausbruchs erheblich geholfen, und berichtete von mehr als 100.018
-    Nutzern traditioneller Mittel, ausdrücklich einschließlich der Nyungu-Dampfinhalation, mit beträchtlichem Erfolg.
-    Im Februar 2021 verfolgte das Ministerium eine breitere Verfügbarkeit zugelassener traditioneller Präparate über
-    Gesundheitseinrichtungen und Apotheken, darunter flüchtige Öle zur Dampfinhalation. Unter der folgenden Regierung
-    verlangte ein staatliches Expertengremium, traditionelle Arzneimittel nur bei wissenschaftlichem Wirksamkeitsnachweis
-    einzusetzen; zugleich schwenkte das Land auf Impfungen und international abgestimmte COVID-19-Maßnahmen um.
+    Am 22. April 2020 nannte Präsident John Magufuli Dampfinhalation eine „wissenschaftliche Behandlung“, erklärte, Hitze
+    über 100 °C werde die fetthaltige Hülle des Virus auflösen, und forderte das Gesundheitsministerium auf, die Praxis zu
+    betonen. Am 17. Mai verbreitete das Präsidialamt seine Schilderung, sein Sohn sei genesen, während er Zitrone und
+    Ingwer gegessen und Dampf inhaliert habe. Am 31. August beanspruchte das Gesundheitsministerium große
+    Erfolge traditioneller Mittel während des Ausbruchs und nannte ungefähr „mehr als 100.018“ Nutzer einschließlich
+    nyungu-Anwendern; Diagnosen, Vergleichsgruppe und Ergebnisdaten fehlten, sodass die Zahl weder eine Therapiestudie noch
+    eine Zahl belegter COVID-19-Genesungen ist. Anfang 2021 nannte die Gesundheitsministerin Dampfinhalation als
+    Schutzmaßnahme, während sie erklärte, es gebe derzeit keinen Impfstoffbeschaffungsplan; ein Minister der regionalen
+    Verwaltung kündigte eine dritte landesweite nyungu-Woche an, und Gesundheitsbehörden planten breiteren Zugang zu
+    sicherheitsgeprüften traditionellen Präparaten. Nach dem Wechsel im Präsidentenamt empfahl ein Expertengremium
+    wissenschaftliche Nachweise und Impfungen; Tansania begann am 28. Juli 2021 mit COVID-19-Impfungen.
   highlights:
-    - value: Mai 2020
-      label: Das Präsidialamt veröffentlichte eine COVID-19-Genesung im Zusammenhang mit Zitrone, Ingwer und Dampfinhalation
-    - value: '>100.018'
-      label: Das Gesundheitsministerium meldete Nutzer traditioneller Mittel einschließlich Nyungu-Dampfinhalation und sprach von beträchtlichem Erfolg
-    - value: '2021'
-      label: Ein präsidiales Expertengremium verlangte wissenschaftliche Belege für traditionelle Arzneimittel
+    - value: 22. April 2020
+      label: Magufuli nannte Dampfinhalation wissenschaftliche Behandlung und forderte ihre Förderung durch das Gesundheitsministerium
+    - value: '>100.018 behauptet'
+      label: Ministerielle Schätzung aller Nutzer traditioneller Mittel einschließlich nyungu—keine verifizierten COVID-19-Fälle oder Genesungen
+    - value: 1.–7. Februar 2021
+      label: Angekündigter Zeitraum einer dritten landesweiten Woche für nyungu, Obstverzehr und Gebet
   context:
     - >-
-      Dampf kann subjektive Beschwerden lindern, und die in Tansania geförderten traditionellen Präparate waren nicht
-      sämtlich chemisch identisch. Der unbelegte institutionelle Schritt bestand darin, aus Anekdoten, Nutzung und
-      sicherheitsbezogener Zulassung Aussagen und Politik abzuleiten, die einen relevanten therapeutischen Nutzen gegen COVID-19 nahelegten.
+      Kujifukiza oder nyungu umfasste verwandte, aber nicht identische Praktiken: Menschen inhalierten Dampf aus heißem
+      Wasser, oft unter einem Tuch, und fügten mitunter Kräuter oder flüchtige Öle hinzu. Die physikalische Behauptung, Hitze
+      zerstöre das Virus, eine mögliche kurzzeitige Befeuchtung und pharmakologische Aussagen zu einzelnen Pflanzenstoffen
+      sind getrennte Fragen und dürfen nicht als eine einzige Intervention behandelt werden.
     - >-
-      2021 verlagerte sich die nationale COVID-19-Politik hin zu wissenschaftlicher Expertenprüfung, Impfungen und dem
-      Grundsatz, traditionelle Arzneimittel nur bei wissenschaftlichem Nachweis einzusetzen. Dieser Kurswechsel war
-      kein formales gesetzliches Verbot der Dampfinhalation.
+      Die im Februar 2021 beschriebenen Prüfungen durch das staatliche Chemielabor und die Registrierung traditioneller
+      Arzneimittel betrafen Sicherheit und Eignung für den menschlichen Gebrauch. Der Ministeriumsartikel berichtete keine
+      randomisierten Wirksamkeitsstudien, belegte nicht, dass jedes genannte Präparat COVID-19 behandelte, und behauptete
+      widersprüchlich vier zugelassene Präparate mit flüchtigen Ölen, nannte aber nur BUPIJI und UZIMA. Registrierung und
+      Zugangsplanung sind daher keine klinischen Wirksamkeitsnachweise.
+    - >-
+      Tansanias medizinische Institutionen waren nicht einig. Vor Magufulis April-Rede erklärte der stellvertretende
+      Gesundheitsminister Faustine Ndugulile öffentlich, Dampfinhalation behandle COVID-19 nicht und töte das Virus nicht.
+      Die späteren Botschaften von Präsident, Ministerien und Kampagnen wurden dennoch zur dominierenden öffentlichen Regierungslinie.
+    - >-
+      Die Genesungsgeschichte vom Mai belegt keine Kausalität. Zitrone, Ingwer und Dampf wurden gemeinsam eingesetzt, eine
+      unbehandelte Vergleichsgruppe fehlte, und viele COVID-19-Infektionen heilen ohne spezifische Behandlung aus.
+    - >-
+      Die verfügbaren Quellen dokumentieren Förderung, Kampagnen, eine Nutzungsbehauptung und Zugangsplanung. Sie messen
+      nicht, wie viele Infektionen, Krankenhauseinweisungen, Todesfälle, verspätete Arztkontakte oder Verbrühungen in
+      Tansania daraus folgten. Die Verbrennungsliteratur belegt ein bekanntes Risiko der Praxis, keine tansanische Fallzahl.
+    - >-
+      Der Kurswechsel 2021 ging über Dampfinhalation hinaus. Das Expertengremium empfahl evidenzbasierte traditionelle
+      Medizin, Datenaustausch, international abgestimmte Prävention und Impfungen. Ein dampfspezifisches Verbot oder eine
+      vollständige Rücknahme der früheren Aussagen wurde nicht gefunden.
 episodes:
   - id: tanzania-2020-2021
     polity: Tansania
+    periodLabel: 22. April 2020–28. Juli 2021
     institutions:
-      - Office of the President of Tanzania
-      - Ministry of Health, Community Development, Gender, Elderly and Children
-      - Traditional and Alternative Health Practice Council
+      - Präsidialamt von Tansania
+      - Ministerium für Gesundheit, Gemeindeentwicklung, Geschlechterfragen, ältere Menschen und Kinder
+      - Präsidialamt – Regionalverwaltung und Kommunalregierung (TAMISEMI)
+      - Rat für traditionelle und alternative Heilpraxis
     institutionalContext: >-
-      Im ersten Pandemiejahr verliehen Mitteilungen des Präsidialamts und des Gesundheitsministeriums Dampfinhalation
-      und traditionellen Mitteln offizielle therapeutische Legitimität. Das Präsidialamt veröffentlichte Präsident
-      John Magufulis Aussage, sein Sohn habe COVID-19 gehabt und sei genesen, während er Zitrone und Ingwer zu sich genommen
-      und Dampfinhalationen angewandt habe. Im August 2020 erklärte das Gesundheitsministerium, traditionelle Therapien
-      hätten Tansania während des Corona-Ausbruchs erheblich geholfen, und meldete mehr als 100.018 Nutzer traditioneller
-      Mittel einschließlich Nyungu-Dampfinhalation mit beträchtlichem Erfolg. Im Februar 2021 kündigte das Ministerium
-      eine Strategie an, zugelassene traditionelle Arzneimittel über Gesundheitseinrichtungen und Apotheken leichter
-      verfügbar zu machen, und nannte sowohl orale Präparate als auch flüchtige Öle zur Dampfinhalation. Nach dem
-      Amtsantritt von Präsidentin Samia Suluhu Hassan änderte sich das politische Umfeld: Ein von ihr eingesetztes
-      Expertengremium empfahl traditionelle Arzneimittel nur bei wissenschaftlichem Nachweis und sprach sich für
-      Impfungen sowie international abgestimmte COVID-19-Maßnahmen aus.
+      Magufuli lieferte eine ausdrückliche Kausalerklärung und eine Anweisung an das Gesundheitsministerium: In einer
+      landesweit übertragenen Ansprache sagte er, Dampf über 100 °C werde das Coronavirus wegen seiner Lipidhülle
+      aufbrechen, nannte die Praxis wissenschaftliche Behandlung und forderte Behörden auf, sie zu erklären und zu fördern.
+      Das Präsidialamt verbreitete anschließend die Genesungsanekdote seines Sohnes. Gesundheitsbeamte schrieben
+      traditionellen Mitteln einschließlich nyungu später breite Erfolge zu, und die Ministerin nannte Dampfinhalation im
+      Februar 2021 als COVID-19-Schutzmaßnahme. TAMISEMI-Minister Selemani Jafo kündigte eine dritte einwöchige landesweite
+      nyungu-Kampagne an. Ein getrenntes ministerielles Zugangsprogramm beruhte auf Sicherheitsprüfung und Registrierung
+      oraler Präparate und flüchtiger Öle, nicht auf belegter COVID-19-Wirksamkeit. Diese Botschaften waren institutionell
+      umstritten: Der stellvertretende Gesundheitsminister hatte gewarnt, Dampfinhalation sei keine Behandlung, während
+      spätere Amtsträger sie neben Hygiene, Ernährung und anderen Ratschlägen förderten.
     consequences:
-      - Präsidiale Verstärkung von Dampfinhalation als Bestandteil einer vermeintlichen COVID-19-Genesung
-      - Zuschreibung beträchtlicher Pandemieerfolge an traditionelle Mittel einschließlich Nyungu-Dampfinhalation durch das Gesundheitsministerium
-      - Staatliche Zulassung und Zugangsplanung für traditionelle orale und zur Dampfinhalation bestimmte Präparate über Gesundheitseinrichtungen und Apotheken
-      - Öffentliche Exposition gegenüber einem für COVID-19 unzureichend belegten Mittel mit dokumentiertem Verbrühungsrisiko
+      - Wiederholte präsidiale Darstellung von Dampf als Behandlung mit einem einfachen, aber falschen Hitze-Lipid-Mechanismus
+      - Verbreitung einer unkontrollierten familiären Genesungsanekdote als Beleg für Zitrone, Ingwer und Dampfinhalation durch das Präsidialamt
+      - Behauptungen großer Erfolge durch das Gesundheitsministerium anhand einer undifferenzierten Nutzungszahl statt klinischer Ergebnisse
+      - Eine dritte staatliche Kampagnenwoche, die die Bevölkerung zu nyungu bei gleichzeitiger Fortsetzung der Arbeit aufrief
+      - Administrative Unterstützung für die Verteilung sicherheitsgeprüfter traditioneller oraler und inhalierbarer Präparate über Gesundheitseinrichtungen und Apotheken
+      - Förderung einer Praxis mit dokumentiertem Risiko schwerer Verbrühungen durch Heißwasserbehälter in der allgemeinen Bevölkerung
+      - Ein politisches Umfeld, in dem Dampfinhalation gefördert wurde, während das Ministerium keinen aktuellen Impfstoffbeschaffungsplan hatte; die folgende Regierung begann mit Impfungen
     summary: >-
-      Tansania verlieh Dampfinhalation und verwandten traditionellen Mitteln während der COVID-19-Pandemie ungewöhnlich
-      starke staatliche Legitimität. Präsident John Magufuli verband die Genesung seines Sohnes öffentlich mit Zitrone,
-      Ingwer und Dampfinhalation; später erklärte das Gesundheitsministerium, traditionelle Mittel hätten dem Land
-      während des Ausbruchs erheblich geholfen, und berichtete von mehr als 100.018 Nutzern einschließlich Nyungu-Anwendern.
-      Anfang 2021 plante das Ministerium eine breitere Verfügbarkeit zugelassener traditioneller Präparate, darunter
-      flüchtige Öle zur Dampfinhalation. Die folgende Regierung änderte den Kurs: Ein präsidiales Expertengremium verlangte
-      wissenschaftliche Belege für traditionelle Arzneimittel und unterstützte Impfungen und international abgestimmte
-      Maßnahmen. Wissenschaftliche Übersichtsarbeiten etablierten Dampfinhalation nicht als wirksame COVID-19-Behandlung
-      oder Prävention; klinische Berichte dokumentierten zugleich erhebliche Verbrühungsrisiken.
+      Eine Behauptung des Präsidenten durchlief Mitteilungen des Präsidialamts, ministerielle Kommunikation,
+      Mobilisierung durch die Regionalverwaltung und eine Zugangsplanung für Präparate. Dampfinhalation war damit mehr als
+      ein privates Hausmittel: Sie erhielt eine mechanistische Erklärung des Staatsoberhaupts, wiederholte
+      Erfolgsbehauptungen, nationale Kampagnentermine und Unterstützung leitender Gesundheitsbeamter. Als Nutzenbelege
+      dienten weiterhin Anekdoten, gemeldete Nutzung und administrative Sicherheitsprüfungen. Nichts davon lieferte eine
+      kontrollierte Schätzung zu Prävention, Virusbeseitigung, Krankenhauseinweisung oder Sterblichkeit; die verfügbaren
+      Quellen erlauben keine Quantifizierung der gesundheitlichen Folgen in Tansania.
     mechanism:
       summary: >-
-        Präsidialamt und Gesundheitsministerium schrieben Dampfinhalation und verwandten traditionellen Mitteln öffentlich
-        therapeutischen Erfolg zu; zugleich plante das Ministerium eine breitere Verfügbarkeit zugelassener oraler und
-        zur Dampfinhalation bestimmter Präparate.
+        Der Präsident stellte Dampfinhalation als gesicherte Wissenschaft dar und wies das Gesundheitsministerium an, sie
+        zu betonen. Das Präsidialamt ergänzte eine Genesungsgeschichte; Ministerien wiederholten Schutz- und
+        Heilbehauptungen, organisierten eine Kampagnenwoche und planten den Verkauf registrierter traditioneller Präparate
+        sowie ihre Verfügbarkeit in Gesundheitseinrichtungen. So wurde eine vertraute Praxis zum amtlichen Rat, während
+        Anekdote, Popularität, Sicherheitsprüfung und klinische Wirksamkeit miteinander vermischt wurden.
     institutionalCorrection:
-      periodLabel: '2021'
-      action: Ein präsidiales Expertengremium verlangte wissenschaftliche Belege für traditionelle Arzneimittel; die Regierung schwenkte zugleich auf Impfungen und international abgestimmte COVID-19-Maßnahmen um.
+      periodLabel: 6. April–28. Juli 2021
+      action: >-
+        Präsidentin Samia Suluhu Hassan setzte eine Expertenprüfung ein, übernahm den Grundsatz wissenschaftlicher
+        Nachweise für traditionelle Arzneimittel und führte Tansania zu Impfungen und international abgestimmter
+        COVID-19-Bekämpfung.
       summary: >-
-        Die folgende Regierung ersetzte die frühere permissive therapeutische Rahmung durch einen Evidenzgrundsatz und
-        eine stärker wissenschaftlich ausgerichtete COVID-19-Politik; ein formales dampfspezifisches Verbot oder eine
-        vollständige Rücknahme sämtlicher früherer Aussagen ist jedoch nicht dokumentiert.
+        Das am 6. April eingesetzte Expertengremium berichtete am 17. Mai und empfahl, traditionelle Arzneimittel nur bei
+        wissenschaftlichem Nachweis zu verwenden, korrekte Daten zu melden und sich an Impfmaßnahmen zu beteiligen. Eine
+        amtliche Darstellung vom 29. Juni warnte, dass noch nicht alle Empfehlungen in Politik umgesetzt waren. Tansania
+        erhielt am 24. Juli die ersten über COVAX vermittelten Impfstoffe und begann am 28. Juli mit der Impfung. Dies war
+        eine materielle Umkehr des früheren politischen Umfelds; ein formales dampfspezifisches Verbot oder eine
+        umfassende Rücknahme ist jedoch nicht dokumentiert.
 evidence:
+  - id: steam-april-speech-proposition
+    note: >-
+      Dokumentiert Magufulis Aussage vom 22. April 2020, Dampf über 100 °C werde das Coronavirus wegen seiner Fetthülle
+      aufbrechen, seine Bezeichnung als wissenschaftliche Behandlung und seine Aufforderung an das Gesundheitsministerium,
+      die Praxis zu betonen und zu erklären.
   - id: steam-presidency-proposition
     note: >-
-      Amtliche Mitteilung des Präsidialamts über Präsident John Magufulis Aussage, sein Sohn habe COVID-19 gehabt und sei
-      genesen, während er Zitrone und Ingwer konsumiert und Dampfinhalationen angewandt habe. Sie dokumentiert die
-      präsidiale Förderung der Praxis, belegt aber für sich keine Kausalität.
+      Die amtliche Mitteilung des Präsidialamts zitiert Magufulis Aussage, sein Sohn habe COVID-19 gehabt und sei genesen,
+      während er Zitrone, Ingwer und Dampfinhalation verwendete. Sie dokumentiert präsidiale Förderung, nicht welcher Teil
+      des kombinierten Vorgehens die Genesung verursachte.
+  - id: steam-health-proposition
+    note: >-
+      Die Direktorin der medizinischen Dienste erklärte, traditionelle Mittel hätten Tansania maßgeblich durch den
+      Corona-Ausbruch getragen, und beschrieb große Erfolge bei Nutzern einschließlich Menschen, die nyungu anwandten.
+  - id: steam-minister-2021-proposition
+    note: >-
+      Berichtet, dass Gesundheitsministerin Dorothy Gwajima Kräuterdampfinhalation und traditionelle Arzneimittel als
+      Schutzmaßnahmen gegen das Coronavirus nannte und zugleich erklärte, das Ministerium plane derzeit keine
+      COVID-19-Impfstoffbeschaffung.
   - id: steam-review-correction
     note: >-
-      Übersichtsarbeit von 2022, die zu dem Ergebnis kommt, Dampfinhalation verfüge nicht über die wissenschaftliche
-      Grundlage, um als angemessene COVID-19-Praxis etabliert zu werden, und die klinische Evidenz sei wissenschaftlich ungeklärt.
+      Selbst diese wohlwollend formulierte narrative Übersicht erklärt, keine Studie habe Temperatur, Feuchtigkeit und
+      Einwirkzeit zur Inaktivierung von SARS-CoV-2 im Körper bestimmt, und bezeichnet die Intervention bis zu großen
+      randomisierten Studien als theoretisch. Der klinische Teil stützt sich auf kleine unkontrollierte Studien; der
+      Sicherheitsteil dokumentiert Verbrühungs- und Atemwegsrisiken.
+  - id: steam-systematic-review-correction
+    note: >-
+      Die Übersicht fand nur drei geeignete Studien und schloss, trotz Berichten über Symptomlinderung gebe es zu wenig
+      Evidenz für eine Rolle in der COVID-19-Behandlung und unzureichende Evidenz für Prävention.
+  - id: steam-cochrane-correction
+    note: >-
+      Sechs Studien mit 387 Erkältungspatienten ergaben widersprüchliche Evidenz niedriger Qualität zur Symptomwirkung und
+      keine signifikante Verringerung der Virusausscheidung. Selbst die Evidenz für eine andere, mildere Viruserkrankung
+      belegte keine antivirale Wirkung; COVID-19 wurde nicht untersucht.
   - id: steam-burns-correction
     note: >-
-      Klinischer Bericht von 2020, der die Evidenzbasis der Dampfinhalation als schwach beschreibt und in einem
-      Kinderverbrennungszentrum im ersten Lockdown-Monat einen 30-fachen Anstieg von Verbrühungen durch Dampfinhalation dokumentiert.
+      Das Verbrennungszentrum des Birmingham Children's Hospital meldete nach Beginn des Lockdowns einen 30-fachen Anstieg
+      von Verbrühungen unmittelbar durch Dampfinhalation. Dies ist ein Gefahrensignal eines Zentrums, keine Schätzung für
+      Tansania.
   - id: steam-health-impact
     note: >-
-      Amtlicher Bericht des Gesundheitsministeriums vom 31. August 2020, wonach traditionelle Mittel Tansania während
-      des Corona-Ausbruchs erheblich geholfen hätten; genannt werden mehr als 100.018 Nutzer traditioneller Arzneien
-      einschließlich Nyungu-Dampfinhalation mit beträchtlichem Erfolg.
+      Der Ministeriumsartikel nennt die sprachlich unklare Näherungszahl „mehr als 100.018“ für Nutzer traditioneller
+      Mittel und schließt nyungu ein. Falldefinition, Nenner, Vergleichsgruppe und Messendpunkt fehlen; die Zahl belegt
+      Reichweite und eine amtliche Erfolgsbehauptung, nicht Wirksamkeit.
+  - id: steam-campaign-impact
+    note: >-
+      Dokumentiert die Ankündigung des Ministers, eine dritte „Saison“ aus nyungu, Obstverzehr und Gebet werde vom 1. bis
+      7. Februar laufen; die Bevölkerung solle weiterarbeiten statt sich zu isolieren.
+  - id: steam-access-impact
+    note: >-
+      Beschreibt Pläne, akzeptierte traditionelle Arzneimittel über Gesundheitseinrichtungen und Apotheken bereitzustellen.
+      Die genannten Prüfungen betrafen Sicherheit und Eignung für Menschen; kontrollierte Belege zur COVID-19-Wirksamkeit
+      enthält der Artikel nicht.
+  - id: steam-vaccine-impact
+    note: >-
+      Dokumentiert die Ankunft von 1.058.450 Janssen-Dosen über COVAX und die vorgesehenen Prioritätsgruppen und belegt
+      damit konkret, dass die Impfpolitik der folgenden Regierung über Empfehlungen eines Gremiums hinausging.
   - id: steam-presidency-carrier
+    note: >-
+      Identifiziert das Präsidialamt als Herausgeber der Genesungsanekdote Magufulis und damit als institutionellen Träger,
+      nicht lediglich als Ort, der eine inoffizielle Äußerung berichtete.
+  - id: steam-speech-carrier
+    note: >-
+      Die landesweit verbreitete Präsidentenaussage beauftragte das Gesundheitsministerium ausdrücklich, Dampfinhalation
+      zu betonen und zu erklären, und verbindet so das Staatsoberhaupt mit der späteren Verwaltungskommunikation.
+  - id: steam-health-carrier
+    note: >-
+      Nennt den Staatssekretär, die Direktorin der medizinischen Dienste und den Rat für traditionelle und alternative
+      Heilpraxis als Amtsträger, die Registrierung, Forschung und Nutzung traditioneller Mittel förderten.
+  - id: steam-campaign-carrier
+    note: >-
+      Identifiziert TAMISEMI-Minister Selemani Jafo als den Amtsträger, der die landesweite Kampagnenwoche im Februar 2021
+      in Anwesenheit des Präsidenten ankündigte.
+  - id: steam-minister-carrier
+    note: >-
+      Schreibt den Rat Gesundheitsministerin Dorothy Gwajima zu und dokumentiert, dass er als ministerielle Orientierung
+      auf Fragen zu COVID-19-Impfung und -Prävention gegeben wurde.
+  - id: steam-contested-context
+    note: >-
+      Die begutachtete Analyse dokumentiert internen Widerspruch: Der stellvertretende Gesundheitsminister Faustine
+      Ndugulile warnte vor der Förderung durch den Präsidenten, Dampfinhalation behandle COVID-19 nicht. Sie beschreibt
+      außerdem die gebräuchliche Form mit Kräutern und die polarisierte öffentliche Debatte nach der staatlichen Befürwortung.
+  - id: steam-review-episode-context
+    note: >-
+      Ordnet die amtlichen Behauptungen in die klinische Evidenz zur Intervention ein. Selbst diese wohlwollend
+      formulierte narrative Übersicht fand keine etablierten Parameter für Temperatur, Feuchtigkeit oder Einwirkzeit im
+      Körper und verlangte große randomisierte Studien; sie stützt daher keine Darstellung der staatlichen
+      Therapieversprechen als gesicherte Wissenschaft.
+  - id: steam-systematic-review-episode-context
+    note: >-
+      Die spätere systematische Übersicht fand nur drei geeignete Studien zur Dampfinhalation und unzureichende Evidenz
+      für Prävention sowie zu wenig Evidenz, um eine Behandlungswirkung festzustellen. Sie liefert keine klinische
+      Grundlage für die frühere landesweite Förderung.
+  - id: steam-cochrane-episode-context
+    note: >-
+      Diese vor der Pandemie veröffentlichte Übersicht zu erhitzter, befeuchteter Luft bei Erkältungen fand
+      widersprüchliche Symptomwirkungen niedriger Qualität und keine signifikante Verringerung der Virusausscheidung. Sie
+      zeigt, warum ein möglicher Komfort durch Befeuchtung den behaupteten antiviralen Mechanismus gegen SARS-CoV-2 nicht
+      belegen konnte.
+  - id: steam-speech-mechanism
+    note: >-
+      Erfasst die einfache Erklärung zur Autorisierung der Behandlung: Kochwassertemperatur plus Lipidhülle des Virus
+      sollten bedeuten, dass das Virus in Nase und Mund schmilzt oder zerfällt.
   - id: steam-health-mechanism
     note: >-
-      Amtlicher Ministeriumsbericht vom 6. Februar 2021 über eine Regierungsstrategie, akzeptierte traditionelle
-      Arzneimittel über Gesundheitseinrichtungen und Apotheken leichter verfügbar zu machen; genannt werden orale
-      Präparate und flüchtige Öle zur Dampfinhalation.
+      Zeigt, wie staatliche Sicherheitsprüfung und Registrierung in einen Plan für breitere Verfügbarkeit über Händler,
+      Apotheken und Gesundheitseinrichtungen umgewandelt wurden. Der Text behauptet fünf orale und vier Präparate mit
+      flüchtigen Ölen, nennt aber nur zwei Öle und ist kein klinischer Wirksamkeitsbericht.
+  - id: steam-campaign-mechanism
+    note: >-
+      Belegt die Massenmobilisierung: Ein leitender Minister der Regionalverwaltung legte gemeinsame Termine für eine
+      landesweite Woche fest und verband Dampfinhalation mit Obst, Gebet und fortgesetzter Arbeit.
   - id: steam-health-consequences
+    note: >-
+      Dokumentiert behauptete breite Nutzung und amtliche Erfolgszuschreibung. Ohne Studiendesign oder aufgeschlüsselte
+      COVID-19-Daten kann die Zahl weder Genesung noch Prävention oder Bevölkerungsnutzen belegen.
+  - id: steam-burns-consequences
+    note: >-
+      Belegt, dass die Förderung von Dampfinhalation über Schüsseln ein konkretes Verbrühungsrisiko für Kinder trägt. Die
+      Evidenz stützt eine Risikoexposition in Tansania, dokumentiert jedoch keine tansanische Verletztenzahl.
+  - id: steam-contested-consequences
+    note: >-
+      Beschreibt den starken Anstieg swahilischer Diskussionen in sozialen Medien nach der Ansprache vom 22. April und den
+      Konflikt zwischen fachlicher Warnung und präsidialer Autorität. Dies stützt öffentliche Verstärkung, keine
+      quantifizierte Gesundheitswirkung.
   - id: steam-policy-partial-correction
     note: >-
-      Amtliche Regierungsdarstellung des Politikwechsels 2021: Präsidentin Samia Suluhu Hassan verlangte professionelle
-      Forschung; das Expertengremium empfahl traditionelle Arzneimittel nur bei wissenschaftlichem Nachweis sowie
-      Impfungen, Datenerfassung und international abgestimmte Präventionsmaßnahmen.
+      Die amtliche Darstellung dokumentiert die Forderung des Expertengremiums nach wissenschaftlich belegten
+      traditionellen Arzneimitteln, korrekten Daten, internationalen Präventionsstandards und Impfungen. Sie erklärt am
+      29. Juni zugleich, noch hätten nicht alle Empfehlungen neue Politik hervorgebracht, weshalb die Korrektur partiell
+      und weder sofortig noch dampfspezifisch war.
+  - id: steam-vaccine-correction
+    note: >-
+      Dokumentiert den Eingang der ersten Impfstofflieferung und die geplante nationale Kampagne als materielle
+      Voraussetzung für die Umsetzung des breiteren Kurswechsels, aber keine ausdrückliche Rücknahme des Dampfratschlags.
+  - id: steam-rollout-correction
+    note: >-
+      Die WHO dokumentiert den Beginn des tansanischen COVID-19-Impfprogramms am 28. Juli 2021 und liefert damit das
+      Umsetzungsdatum, das den Korrekturzeitraum dieser Episode abschließt.

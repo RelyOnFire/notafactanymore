@@ -1,99 +1,318 @@
+schemaVersion: 2
 locale: de
 entryId: iraq-active-wmd-programs
-sourceReviewedAt: '2026-08-25'
+sourceReviewedAt: '2026-09-29'
 title: Irak als Staat mit aktiven Massenvernichtungswaffen und -programmen
-claim: US-Nachrichtendienste kamen 2002 zu dem Schluss, der Irak verfüge über chemische und biologische Waffen und
-  baue sein Kernwaffenprogramm wieder auf. Exekutive und Kongress behandelten diese Einschätzungen als Teil der
-  Tatsachengrundlage für erzwungene Abrüstung und die Ermächtigung zum Einsatz militärischer Gewalt gegen den Irak.
-currentUnderstanding: 'Die Untersuchungen nach dem Krieg ergaben, dass die zentralen WMD-Einschätzungen von 2002
-  falsch waren. Die Iraq Survey Group fand keine Belege dafür, dass der Irak nach 1991 eine Fähigkeit zur Herstellung
-  von Kernwaffen wieder aufgebaut hatte, keine Bestände biologischer Kampfstoffe oder mobilen Produktionsanlagen
-  dafür und weder erhebliche Chemiewaffenbestände noch glaubhafte Hinweise auf eine wiederaufgenommene Chemiewaffenproduktion.
-  Der Irak hatte früher tatsächlich Chemiewaffen besessen und eingesetzt, verfügte weiterhin über einschlägiges
-  Fachwissen und Absichten und verletzte einzelne Raketenbeschränkungen. Amtliche Nachprüfungen unterschieden zugleich
-  zwischen der Erstellung der Nachrichtendienstanalyse und ihrer politischen Darstellung: Sie fanden nicht, dass
-  die Intelligence Community ihre WMD-Urteile insgesamt auf politischen Druck hin wissentlich erfunden hatte; eine
-  spätere Senatsuntersuchung stellte jedoch fest, dass führende Regierungsvertreter manche Aussagen kategorischer
-  darstellten als es die Nachrichtendienstlage rechtfertigte und teils Behauptungen äußerten, die nicht gestützt
-  oder sogar durch vorliegende Erkenntnisse widersprochen wurden.'
+proposition:
+  summary: >-
+    Im Jahr 2002 und Anfang 2003 behandelte eine koordinierte Einschätzung der US-Nachrichtendienste den Irak als
+    Besitzer chemischer und biologischer Waffen und nach Auffassung der meisten beteiligten Behörden als Staat, der sein
+    Kernwaffenprogramm wieder aufbaute. Die Regierung George W. Bush verwendete diese Urteile in ihrer öffentlichen und
+    diplomatischen Argumentation, wobei sie teils größere Gewissheit ausdrückte oder Bedrohungsbehauptungen ergänzte, die
+    von den Nachrichtendiensten nicht gestützt wurden. Der Kongress schrieb anschließend fortbestehende chemische und
+    biologische Fähigkeiten sowie das aktive Streben nach nuklearen Fähigkeiten in die Feststellungen von Public Law
+    107-243 und ermächtigte zum Einsatz militärischer Gewalt.
+correction:
+  summary: >-
+    Die Untersuchungen nach dem Krieg fanden keine Belege dafür, dass der Irak nach 1991 eine Fähigkeit zur Herstellung
+    von Kernwaffen wieder aufgebaut hatte, keine Bestände biologischer Kampfstoffe oder mobilen Produktionsanlagen dafür
+    und weder erhebliche Chemiewaffenbestände noch glaubhafte Hinweise auf eine wiederaufgenommene
+    Chemiewaffenproduktion. Der Irak bewahrte Fachwissen, doppelt verwendbare Kapazitäten und die Absicht, einige
+    Programme nach einem Ende der Sanktionen wieder aufzunehmen; er verletzte zudem Raketenbeschränkungen, und später
+    wurden einzelne alte, aufgegebene chemische Kampfmittel gefunden. Diese Tatsachen bestätigten nicht die 2002
+    angenommenen aktiven Bestände und erneuerten Programme. Amtliche Untersuchungen führten die zentralen
+    Fehleinschätzungen auf schwere Mängel bei Informationsgewinnung, Quellen, Analysehandwerk und Führung zurück und
+    fanden keinen Beleg dafür, dass Analysten ihre Urteile wegen politischen Drucks änderten. Eine gesonderte Prüfung
+    ergab, dass Aussagen führender Regierungsvertreter über den Waffenbesitz die damalige Nachrichtendienstlage im
+    Allgemeinen wiedergaben, während einzelne Aussagen über laufende Produktion, Weitergabe an Terroristen und
+    unterirdische Anlagen größere Gewissheit vermittelten oder über diese Erkenntnisse hinausgingen.
 impact:
-  summary: 'Die WMD-Einschätzungen durchliefen die gesamte Maschinerie der nationalen Sicherheitspolitik. Das National
-    Intelligence Estimate vom Oktober 2002 urteilte, der Irak besitze chemische und biologische Waffen und habe
-    nach Auffassung der meisten Behörden sein Kernwaffenprogramm wieder aufgenommen. Der Kongress verabschiedete
-    anschließend Public Law 107-243, dessen Feststellungen dem Irak weiterhin erhebliche chemische und biologische
-    Fähigkeiten sowie das aktive Streben nach einer nuklearen Fähigkeit zuschrieben. Die Resolution ermächtigte
-    den Präsidenten zum Einsatz der US-Streitkräfte gegen den Irak. Nach der Invasion bestätigte die Iraq Survey
-    Group die zentralen Bestands- und Programmaussagen nicht. Amtliche Untersuchungen identifizierten sowohl ein
-    schweres Versagen der Nachrichtendienste als auch ein davon getrenntes Problem der öffentlichen Darstellung:
-    Manche Äußerungen führender Regierungsvertreter übertrieben die Gewissheit oder gingen über das hinaus, was
-    die vorhandenen Erkenntnisse stützten.'
+  summary: >-
+    Der Irrtum durchlief drei getrennte institutionelle Schritte: ein geheimes National Intelligence Estimate samt
+    öffentlichem Nachrichtendienstpapier, Reden und Diplomatie der Exekutive sowie Feststellungen des Kongresses mit
+    gesetzlicher Ermächtigung. Das Repräsentantenhaus stimmte der Ermächtigung mit 296 zu 133 Stimmen zu, der Senat mit
+    77 zu 23. Am 19. März 2003 nach US-Zeit verkündete Präsident Bush den Beginn der militärischen Operationen der
+    Koalition und nannte die Entwaffnung des Irak als deren ersten Zweck. Die Suche nach dem Krieg widerlegte die
+    wichtigsten Bestands- und Programmaussagen; Senatsuntersuchungen von 2004 und 2008 sowie eine präsidiale Kommission
+    von 2005 hielten unterschiedliche Teile des Versagens amtlich fest. Die Gewaltenermächtigung selbst blieb bis zu
+    ihrer Aufhebung durch den Kongress im Dezember 2025 in Kraft.
   highlights:
-  - value: 100–500 Tonnen
-    label: im NIE von 2002 geschätzter Bestand chemischer Kampfstoffe; die Nachkriegsuntersuchung fand keinen solchen
-      aktiven Bestand
-    note: Später wurden einzelne alte und stark degradierte chemische Kampfmittel aus früheren irakischen Programmen
-      geborgen. Sie entsprachen nicht dem vor dem Krieg angenommenen aktiven Bestand von 100–500 Tonnen.
-  - value: 77–23
-    label: Abstimmung im US-Senat für die Ermächtigung zum Einsatz militärischer Gewalt gegen den Irak
-  - value: 296–133
-    label: Abstimmung im US-Repräsentantenhaus für die Ermächtigung zum Einsatz militärischer Gewalt gegen den Irak
+    - value: 100–500 Tonnen
+      label: im NIE von 2002 angenommener Bestand chemischer Kampfstoffe; die Nachkriegsuntersuchung fand keinen solchen aktiven Bestand
+      note: >-
+        Später wurden alte, aufgegebene chemische Kampfmittel aus früheren irakischen Programmen geborgen. Sie waren
+        nicht der vor dem Krieg angenommene aktive Bestand von 100–500 Tonnen.
+    - value: 296–133 / 77–23
+      label: Abstimmungen in Repräsentantenhaus und Senat für die Ermächtigung zum Einsatz militärischer Gewalt gegen den Irak
+    - value: 2002–2025
+      label: Zeitraum von der Verabschiedung von Public Law 107-243 bis zu seiner gesetzlichen Aufhebung
   context:
-  - Die frühere irakische Waffengeschichte war real. Der Irak hatte Chemiewaffen hergestellt und eingesetzt, ein
-    offensives Biowaffenprogramm betrieben und vor 1991 Kernwaffen angestrebt. Hinzu kamen irakische Verschleierung
-    und unvollständige Erklärungen. Der institutionelle Irrtum betraf die für 2002 angenommenen aktiven Bestände
-    und neu aufgebauten Programme, nicht die gesamte historische WMD-Bilanz des Irak.
-  - Die Nachkriegsuntersuchungen unterschieden zwischen der Entstehung der Nachrichtendiensturteile und ihrer politischen
-    Darstellung. Der Geheimdienstausschuss des Senats 2004 und die WMD-Kommission 2005 fanden keinen Beleg dafür,
-    dass politische Entscheidungsträger Analysten dazu gedrängt hatten, ihre WMD-Urteile zu verändern; die Fachleute
-    berichteten im Wesentlichen Schlussfolgerungen, die sie selbst für richtig hielten. Zugleich dokumentierten
-    diese Untersuchungen schwere Fehler bei Quellenprüfung, Analyse, Führung und Umgang mit abweichenden Einschätzungen,
-    darunter die Nutzung erfundener oder unzuverlässiger Quellenberichte. Eine gesonderte Senatsuntersuchung von
-    2008 stellte fest, dass führende Regierungsvertreter manche Behauptungen kategorischer präsentierten als es
-    die Nachrichtendienstlage rechtfertigte und mehrere öffentliche Aussagen nicht gestützt oder durch vorhandene
-    Erkenntnisse sogar widersprochen wurden. Die Belege tragen daher weder die Darstellung eines insgesamt wissentlich
-    erfundenen Produkts der Intelligence Community noch die Vorstellung, die öffentliche Argumentation der Regierung
-    habe lediglich neutral die Nachrichtendienstlage wiedergegeben.
-  - Massenvernichtungswaffen waren weder in Public Law 107-243 noch in der umfassenderen Kriegsbegründung das einzige
-    Argument. Falsche WMD-Einschätzungen wurden dennoch ausdrücklich Teil der gesetzlichen und exekutiven Politikgrundlage
-    für die Invasion.
+    - >-
+      Die frühere irakische Waffengeschichte war real. Der Irak hatte Chemiewaffen hergestellt und eingesetzt, ein
+      offensives Biowaffenprogramm betrieben und vor 1991 Kernwaffen angestrebt. Hinzu kamen irakische Verschleierung,
+      unvollständige Erklärungen und das frühere Versagen der Nachrichtendienste, den Umfang der irakischen Nukleararbeit
+      vor 1991 zu erkennen. Korrigiert wird die Annahme aktiver Bestände und erneuerter Programme im Jahr 2002, nicht die
+      gesamte WMD-Geschichte des Irak.
+    - >-
+      Das Estimate vom Oktober 2002 war koordiniert, aber nicht einstimmig. Das Bureau of Intelligence and Research des
+      Außenministeriums widersprach der Aussage, das Kernwaffenprogramm sei wieder aufgebaut worden; auch das
+      Energieministerium bestritt die maßgebliche Deutung der Aluminiumrohre, und die Luftwaffe hielt einen
+      Biowaffeneinsatz der kleinen unbemannten Fluggeräte für weniger wahrscheinlich als andere Aufgaben. Im öffentlichen
+      Nachrichtendienstpapier fehlten anschließend mehrere Vorbehalte und abweichende Auffassungen des geheimen Estimates.
+    - >-
+      Entstehung und politische Darstellung der Nachrichtendiensturteile verlangen getrennte Befunde. Die
+      Senatsuntersuchung von 2004 und die WMD-Kommission von 2005 fanden keinen Beleg dafür, dass politische
+      Entscheidungsträger Analysten zur Änderung ihrer WMD-Urteile veranlassten. Die Senatsprüfung von 2008 stellte fest,
+      dass Besitzbehauptungen im Allgemeinen durch die damalige Nachrichtendienstlage gedeckt waren, während mehrere
+      Produktions- und Bedrohungsbehauptungen größere Gewissheit ausdrückten oder nicht gestützt beziehungsweise
+      widersprochen wurden. Die Belege tragen daher weder die Darstellung eines vollständig erfundenen Produkts der
+      Nachrichtendienste noch die Behauptung, jede öffentliche Aussage habe die zugrunde liegenden Erkenntnisse neutral wiedergegeben.
+    - >-
+      Massenvernichtungswaffen waren weder in Public Law 107-243 noch in der Argumentation der Regierung das einzige
+      Kriegsargument. Die falschen WMD-Urteile wurden dennoch ausdrücklich zu einer gesetzlichen, exekutiven und
+      diplomatischen Prämisse. Dieser Eintrag dokumentiert diesen institutionellen Weg; er führt nicht jede Entscheidung
+      oder Folge des Irakkriegs auf einen einzigen Nachrichtendienstfehler zurück.
 episodes:
-- id: united-states-2002-2005
-  polity: Vereinigte Staaten
-  institutions:
-  - US Intelligence Community
-  - Central Intelligence Agency
-  - Defense Intelligence Agency
-  - Exekutivbüro des Präsidenten
-  - US-Kongress
-  institutionalContext: Auf Bitte von Mitgliedern des Kongresses erstellte der National Intelligence Council im
-    Oktober 2002 das NIE „Iraq's Continuing Programs for Weapons of Mass Destruction“. Zu den zentralen Aussagen
-    gehörte, Bagdad besitze chemische und biologische Waffen; sein biologisches Potential sei größer und weiter
-    entwickelt als vor dem Golfkrieg; es verfüge über mobile Produktionsanlagen für biologische Kampfstoffe; die
-    Chemiewaffenproduktion sei wieder aufgenommen worden und der Bestand liege bei 100–500 Tonnen; außerdem gingen
-    die meisten Behörden davon aus, dass der Irak sein Kernwaffenprogramm wieder aufbaue. Public Law 107-243 übernahm
-    fortbestehende chemische, biologische und nukleare Fähigkeiten in seine Feststellungen und ermächtigte zum Einsatz
-    militärischer Gewalt. Im März 2003 begannen die US-geführten Kampfhandlungen. Die Nachkriegsuntersuchungen widersprachen
-    den zentralen WMD-Einschätzungen; 2005 stellte die präsidiale Kommission offiziell ein schweres Nachrichtendienstversagen
-    fest.
-  consequences:
-  - Aufnahme falscher Aussagen zu aktiven Massenvernichtungswaffen in die Feststellungen von Public Law 107-243
-  - Weitreichende gesetzliche Ermächtigung des Präsidenten zum Einsatz der US-Streitkräfte gegen den Irak
-  - Verwendung der WMD-Einschätzungen in exekutiven und diplomatischen Argumenten für die Abrüstung des Irak
-  - Öffentliche Aussagen führender Regierungsvertreter, die teilweise größere Gewissheit vermittelten oder über
-    die vorhandene Nachrichtendienstlage hinausgingen
-  - Verwendung erfundener oder unzuverlässiger Quellenberichte, die in Analyse und Führung nicht ausreichend geprüft
-    oder relativiert wurden
-  - US-geführte Invasion im März 2003, nachdem die angenommenen aktiven Bestände und Programme Teil der politischen
-    Begründung geworden waren
-  - Umfassende nachträgliche Untersuchungen und Reformen der Nachrichtendienste nach dem Scheitern der zentralen
-    Einschätzungen
-  - Langfristiger Glaubwürdigkeitsverlust für US-Nachrichtendienste und amtliche Aussagen über Waffenprogramme
-  summary: Die angenommenen irakischen Massenvernichtungswaffen wurden zu einem institutionellen Glauben mit außergewöhnlich
-    hohen Folgen. Das NIE von 2002 verdichtete bruchstückhafte und teilweise unzuverlässige Hinweise zu selbstbewussten
-    Urteilen über chemische und biologische Waffen sowie ein erneuertes Kernwaffenprogramm. Der Kongress übernahm
-    vergleichbare WMD-Behauptungen in die Tatsachenfeststellungen der Kriegsermächtigung. Die Suche nach der Invasion
-    ergab dagegen, dass die wichtigsten Aussagen über aktive Programme und Bestände falsch waren. Amtliche Untersuchungen
-    fanden keinen Beleg dafür, dass Analysten der Intelligence Community angewiesen worden waren, ihre Urteile zu
-    fälschen; sie dokumentierten jedoch schwere Fehler bei Quellen, Analyse und Führung. Eine spätere Senatsprüfung
-    stellte zusätzlich fest, dass manche öffentlichen Aussagen führender Regierungsvertreter die vorhandene Nachrichtendienstlage
-    übertrieben oder überschritten.
+  - id: us-intelligence-estimate-2002-2005
+    polity: Vereinigte Staaten
+    periodLabel: Einschätzung vom Oktober 2002; amtliche Prüfungen 2004–2005
+    institutions:
+      - US Intelligence Community
+      - National Intelligence Council
+      - Central Intelligence Agency
+      - Defense Intelligence Agency
+    institutionalContext: >-
+      Mitglieder des Geheimdienstausschusses des Senats verlangten eine koordinierte Einschätzung, während der Kongress
+      über den Irak beriet. Der National Intelligence Council erstellte das NIE unter starkem Zeitdruck, und das National
+      Foreign Intelligence Board billigte es am 1. Oktober 2002. Seine zentralen Urteile besagten, der Irak besitze
+      chemische und biologische Waffen, sein Biowaffenprogramm sei größer und weiter entwickelt als vor 1991, er verfüge
+      über mobile Produktionsanlagen für biologische Kampfstoffe und über 100–500 Tonnen chemischer Kampfstoffe; zudem
+      gingen die meisten Behörden von einem Wiederaufbau des Kernwaffenprogramms aus. Abweichende Behördenmeinungen
+      standen im geheimen Dokument, doch im öffentlichen Papier vom 4. Oktober fehlten wichtige Vorbehalte und einige Gegenpositionen.
+    consequences:
+      - Eine maßgebliche nationale Einschätzung stellte zentrale chemische, biologische und nukleare Urteile selbstbewusster dar, als es die zugrunde liegenden Berichte rechtfertigten
+      - Das öffentliche Nachrichtendienstpapier wiederholte die Argumentation, ließ aber wichtige Vorbehalte und einige Behördenwidersprüche weg
+      - Erfundenes oder unzuverlässiges Quellenmaterial gelangte in fertige Analysen und Vorlagen für die Führungsebene
+      - Annahmen aus der irakischen Vorgeschichte und Verschleierung verhärteten sich zu einer Prämisse, die widersprechende Hinweise abwertete
+      - Unsicherheiten über Quellen, Erfassungslücken und alternative technische Deutungen wurden politischen Entscheidungsträgern unzureichend vermittelt
+      - Das Estimate lieferte eine amtliche Tatsachengrundlage für die öffentliche Argumentation der Exekutive und die Beratungen des Kongresses
+    summary: >-
+      Eine eilig erstellte, formal koordinierte Einschätzung verdichtete dünne und teilweise unzuverlässige Berichte zu
+      selbstbewussten Urteilen über aktive Waffen und erneuerte Programme. Abweichende Meinungen blieben im Verfahren
+      erhalten, doch Haupttext und späteres öffentliches Papier vermittelten die schwache Beleglage unzureichend. Der
+      Zugang nach dem Krieg zeigte, dass fast alle zentralen WMD-Urteile mit Ausnahme der verbotenen Raketenentwicklung falsch waren.
+    mechanism:
+      summary: >-
+        Die nationale Koordination, Billigung des NIE und Veröffentlichung eines inhaltlich ähnlichen Papiers verliehen
+        den Urteilen die Autorität der Intelligence Community und machten sie für Politik und Öffentlichkeit nutzbar.
+    institutionalCorrection:
+      periodLabel: 2004–2005
+      action: >-
+        Die Iraq Survey Group veröffentlichte widersprechende Befunde vor Ort, der Geheimdienstausschuss des Senats prüfte
+        das Estimate und dessen Quellen; die präsidiale WMD-Kommission bezeichnete das Ergebnis amtlich als schweres Nachrichtendienstversagen.
+      summary: >-
+        Diese amtlichen Prüfungen verwarfen die wichtigsten Bestands- und Programmaussagen und dokumentierten Fehler bei
+        Quellenprüfung, Informationsaustausch, Analyse, Führung und Vermittlung von Unsicherheit. Sie hielten zugleich
+        fest, dass die Analysten ihre Schlussfolgerungen im Allgemeinen selbst glaubten, und fanden keinen Beleg dafür,
+        dass politischer Druck sie zur Änderung ihrer Urteile brachte.
+  - id: us-executive-public-case-2002-2003
+    polity: Vereinigte Staaten
+    periodLabel: Oktober 2002–März 2003; Eingeständnis 2005 und Senatsprüfung 2008
+    institutions:
+      - Exekutivbüro des Präsidenten
+      - US-Außenministerium
+      - US-Verteidigungsministerium
+    institutionalContext: >-
+      Präsident Bushs Rede in Cincinnati vom 7. Oktober 2002 stellte irakischen Besitz und Produktion chemischer und
+      biologischer Waffen als Tatsachen dar und warb für die Gewaltenermächtigung durch den Kongress. Außenminister Colin
+      Powells Präsentation vom 5. Februar 2003 trug die WMD-Argumentation in den Sicherheitsrat der Vereinten Nationen,
+      darunter Aussagen über mobile Biowaffenlabore, Chemiewaffenbestände und nukleare Beschaffung. Am 19. März verkündete
+      Bush den Beginn militärischer Operationen zur Entwaffnung des Irak, Befreiung seiner Bevölkerung und Abwehr einer
+      Gefahr für die Welt. Der spätere Senatsvergleich ergab ein gemischtes Bild: Viele Besitzbehauptungen folgten den
+      fehlerhaften Nachrichtendiensturteilen, einige Produktions- und Bedrohungsbehauptungen gingen darüber hinaus.
+    consequences:
+      - Nationale Reden stellten die umstrittenen Aussagen über aktive Bestände und Produktion öffentlich als dringende Sicherheitsbedrohung dar
+      - Die Vereinigten Staaten verwendeten die Nachrichtendiensturteile in ihrer diplomatischen Argumentation vor dem Sicherheitsrat der Vereinten Nationen
+      - Einige Äußerungen machten aus Einschätzungen und Unsicherheit kategorische Tatsachenbehauptungen
+      - Einige Aussagen über die Weitergabe irakischer WMD an Terroristen oder tief unterirdische Anlagen waren nicht gestützt oder wurden von verfügbaren Erkenntnissen widersprochen
+      - Der Präsident nannte Entwaffnung als Zweck, als er den Beginn der militärischen Operationen der Koalition verkündete
+      - Das Scheitern der öffentlichen Argumentation wurde getrennt von der Qualität des Estimates Gegenstand parlamentarischer Kontrolle
+    summary: >-
+      Die Regierung verwandelte Nachrichtendiensturteile in ein öffentliches und diplomatisches Argument für dringenden
+      Zwang und militärische Gewalt. Ein großer Teil gab die damaligen Einschätzungen der Nachrichtendienste wieder; die
+      Belege tragen daher nicht die Einordnung jeder Äußerung als bewusste Erfindung. Sie zeigen jedoch, dass Amtsträger
+      teils Unsicherheit tilgten oder über die Erkenntnisse hinausgingen. Damit war die politische Darstellung ein eigenes institutionelles Versagen.
+    mechanism:
+      summary: >-
+        Präsidentenreden, Briefings auf Kabinettsebene und die UN-Präsentation des Außenministers wiederholten und
+        verstärkten die WMD-Urteile als Tatsachenargument der Exekutive für Entwaffnung und möglichen Militäreinsatz.
+    institutionalCorrection:
+      periodLabel: 2005–2008
+      action: >-
+        Präsident Bush räumte im Dezember 2005 ein, dass ein großer Teil der Nachrichtendienstinformationen falsch gewesen
+        war; der Geheimdienstausschuss des Senats veröffentlichte im Juni 2008 seine Prüfung einzelner öffentlicher Aussagen führender Amtsträger.
+      summary: >-
+        Das Eingeständnis der Exekutive korrigierte die zentrale Tatsachenprämisse, während Bush die Entscheidung zur
+        Invasion weiterhin verteidigte. Der spätere Senatsbericht unterschied zwischen gestützten, übertriebenen und über
+        die Erkenntnisse hinausgehenden Aussagen. Da ein großer Teil dieser genauen Korrektur aus parlamentarischer
+        Kontrolle und nicht aus einer umfassenden Rücknahme der Exekutive stammte, gilt die Korrektur als teilweise.
+  - id: us-congressional-authorization-2002
+    polity: Vereinigte Staaten
+    periodLabel: Verabschiedung im Oktober 2002; Ermächtigung blieb bis Dezember 2025 in Kraft
+    institutions:
+      - US-Kongress
+    institutionalContext: >-
+      Public Law 107-243 stellte unter anderem fest, der Irak verfüge weiterhin über eine erhebliche chemische und
+      biologische Waffenfähigkeit und entwickle sie fort, während er aktiv nach einer Kernwaffenfähigkeit strebe. Das
+      Gesetz nannte auch andere Gründe, darunter frühere irakische Aggression, Verstöße gegen Resolutionen der Vereinten
+      Nationen, Unterdrückung und angebliche Unterstützung des Terrorismus. Abschnitt 3 ermächtigte den Präsidenten, die
+      Streitkräfte gegen die fortbestehende Bedrohung einzusetzen und einschlägige Resolutionen des Sicherheitsrats
+      durchzusetzen. Der Kongress erstellte später wichtige korrigierende Kontrollberichte, doch die Ermächtigung blieb
+      bis zu ihrer Aufhebung am 18. Dezember 2025 rechtlich verfügbar.
+    consequences:
+      - Falsche Aussagen über aktive WMD wurden zu formalen Feststellungen einer verabschiedeten gemeinsamen Resolution
+      - Das Repräsentantenhaus billigte die Resolution mit 296 zu 133 Stimmen, der Senat mit 77 zu 23
+      - Abschnitt 3 erteilte dem Präsidenten eine ausdrückliche gesetzliche Ermächtigung zum Einsatz der US-Streitkräfte gegen den Irak
+      - Die Invasion im März 2003 folgte, nachdem der Präsident die gesetzlich verlangte Feststellung getroffen und die Ermächtigung in Anspruch genommen hatte
+      - Korrigierende Untersuchungen des Kongresses beseitigten die Gewaltenermächtigung nicht selbst aus dem Gesetz
+      - Public Law 119-60 hob die Ermächtigung von 2002 im Dezember 2025 schließlich auf
+    summary: >-
+      Der Kongress empfing oder wiederholte die Nachrichtendiensturteile nicht nur. Er machte vergleichbare WMD-Aussagen
+      zu gesetzlichen Feststellungen und verband sie mit einer weitreichenden Gewaltenermächtigung. Die parlamentarische
+      Kontrolle begann 2004 mit der Korrektur der Beleglage, doch die operative Ermächtigung bestand noch zwei Jahrzehnte,
+      bis der Kongress sie 2025 aufhob.
+    mechanism:
+      summary: >-
+        Die Verabschiedung durch beide Kammern und die Zustimmung des Präsidenten machten aus Aussagen über aktive WMD
+        gesetzliche Feststellungen, die mit einer Ermächtigung zum Einsatz militärischer Gewalt verbunden waren.
+    institutionalCorrection:
+      periodLabel: 2004–2025
+      action: >-
+        Berichte des Geheimdienstausschusses des Senats korrigierten 2004 und 2008 die Nachrichtendienst- und
+        Darstellungsgeschichte; anschließend hob der Kongress Public Law 107-243 im Dezember 2025 durch Abschnitt 8370
+        von Public Law 119-60 auf.
+      summary: >-
+        Die parlamentarische Kontrolle korrigierte die zentralen Tatsachen lange vor der gesetzlichen Aufhebung. Das
+        Gesetz von 2025 beendete die verbliebene Ermächtigung; es entschied nicht selbst über jede Feststellung von 2002,
+        schloss aber die institutionelle Rücknahme des damit verbundenen Rechtsinstruments ab.
+evidence:
+  - id: nie-proposition
+    note: >-
+      Das koordinierte Estimate besagt, der Irak besitze chemische und biologische Waffen und baue nach Auffassung der
+      meisten Behörden sein Kernwaffenprogramm wieder auf; zugleich hält es engere Gegenpositionen von INR, DOE und Luftwaffe fest.
+  - id: aumf-proposition
+    note: >-
+      Die Präambel des verabschiedeten Gesetzes schreibt dem Irak fortbestehende chemische und biologische Fähigkeiten
+      sowie aktives Streben nach nuklearer Fähigkeit zu; Abschnitt 3 ermächtigt den Präsidenten zum Gewalteinsatz.
+  - id: bush-threat-proposition
+    note: >-
+      Bush erklärte öffentlich, der Irak besitze und produziere chemische und biologische Waffen und strebe nach
+      Kernwaffen, während er den Kongress zur Ermächtigung militärischer Gewalt aufforderte.
+  - id: wmd-commission-correction
+    note: >-
+      Die präsidiale Kommission vergleicht das NIE mit den Ergebnissen der Iraq Survey Group, bezeichnet den Ausgang als
+      schweres Nachrichtendienstversagen und findet keinen Beleg dafür, dass politischer Druck analytische Urteile änderte.
+  - id: duelfer-correction
+    note: >-
+      Die Nachkriegsuntersuchung dokumentiert das Ende der Nuklear- und großen Biowaffenprogramme, die Vernichtung des
+      nicht deklarierten Chemiewaffenbestands 1991, das Ausbleiben erneuter Chemiewaffenproduktion sowie fortbestehende Absichten und Fachkenntnisse.
+  - id: phase-i-correction
+    note: >-
+      Die parteiübergreifende Prüfung stellt fest, dass die meisten wichtigen NIE-Urteile übertrieben oder nicht gestützt
+      waren, erläutert die Analysefehler und findet keinen Beleg für Druck auf Analysten zur Änderung ihrer WMD-Urteile.
+  - id: phase-ii-correction
+    note: >-
+      Der Bericht stellt fest, dass Besitzbehauptungen im Allgemeinen die verfügbaren Erkenntnisse wiedergaben, während
+      viele Aussagen über laufende Produktion größere Gewissheit vermittelten und manche verbundenen Bedrohungsbehauptungen nicht gestützt waren.
+  - id: nie-impact
+    note: >-
+      Liefert die Schätzung von 100–500 Tonnen chemischer Kampfstoffe und die weiteren zentralen Urteile, die in den politischen Prozess eingingen.
+  - id: aumf-impact
+    note: >-
+      Zeigt, wie Aussagen über aktive WMD neben anderen Gründen standen und mit einer weitreichenden gesetzlichen Gewaltenermächtigung verbunden wurden.
+  - id: house-vote-impact
+    note: >-
+      Dokumentiert die Verabschiedung im Repräsentantenhaus mit 296 zu 133 Stimmen bei drei nicht abstimmenden Mitgliedern.
+  - id: senate-vote-impact
+    note: Dokumentiert die Verabschiedung im Senat mit 77 zu 23 Stimmen.
+  - id: operations-impact
+    note: >-
+      Der Präsident verkündet den Beginn der Koalitionsangriffe und nennt die Entwaffnung des Irak als ersten erklärten Zweck der Operation.
+  - id: repeal-impact
+    note: Dokumentiert die Aufhebung von Public Law 107-243 am 18. Dezember 2025.
+  - id: nie-intelligence-carrier
+    note: >-
+      Das amtliche koordinierte Estimate benennt die Urteile der Intelligence Community und die abweichenden Auffassungen einzelner Behörden.
+  - id: phase-i-intelligence-mechanism
+    note: >-
+      Rekonstruiert die Forderungen der Senatoren, die eilige Erstellung und Billigung des NIE sowie die Entfernung von
+      Vorbehalten und Gegenpositionen aus dem öffentlichen Nachrichtendienstpapier.
+  - id: wmd-commission-intelligence-consequences
+    note: >-
+      Dokumentiert die Abhängigkeit von Curveball und weiteren mangelhaften Berichten, die aus irakischer Vorgeschichte
+      und Verschleierung entstandene Prämisse, die schlechte Vermittlung von Unsicherheit sowie die falschen chemischen,
+      biologischen und nuklearen Urteile.
+  - id: phase-i-intelligence-context
+    note: >-
+      Unterscheidet die Mehrheitsurteile des Estimates von den Gegenpositionen von INR, DOE und Luftwaffe und benennt den
+      einen großen Bereich, den die Nachkriegsbefunde weitgehend bestätigten: die verbotene Raketenentwicklung.
+  - id: phase-i-intelligence-correction
+    note: >-
+      Der Senatsausschuss verwirft oder begrenzt die wichtigsten Urteile des Estimates und identifiziert systemische Fehler
+      bei Analyse, Informationsgewinnung, Austausch und Führung.
+  - id: wmd-commission-intelligence-correction
+    note: >-
+      Die präsidiale Kommission übernimmt die Nachkriegsbefunde, stellt ein schweres Nachrichtendienstversagen fest und
+      trennt schlechte Analyse und Führung von der unbelegten Behauptung politisch angeordneter Verfälschung.
+  - id: duelfer-intelligence-correction
+    note: >-
+      Die primären Befunde der Iraq Survey Group zeigen keinen koordinierten Neustart des Nuklearprogramms, keine
+      Biowaffenbestände oder mobilen Produktionsanlagen und weder erneute Chemiewaffenproduktion noch einen erheblichen
+      aktiven Chemiewaffenbestand.
+  - id: bush-executive-carrier
+    note: >-
+      Primärquelle einer Präsidentenrede, die unmittelbar vor der Kongressabstimmung aktive Besitz- und Produktionsbehauptungen vortrug.
+  - id: powell-executive-carrier
+    note: >-
+      Primärquelle des Außenministeriums zur Präsentation der WMD-Argumentation durch den Außenminister vor dem Sicherheitsrat.
+  - id: bush-executive-mechanism
+    note: >-
+      Zeigt die exekutive Billigung, die kategorische WMD-Aussagen, Dringlichkeit und die Forderung nach parlamentarischer Ermächtigung verband.
+  - id: powell-executive-consequences
+    note: >-
+      Dokumentiert die internationale Präsentation von Quellenberichten, Bildmaterial und technischen Deutungen, die später als unzuverlässig oder falsch erkannt wurden.
+  - id: operations-executive-consequences
+    note: >-
+      Verbindet die abgeschlossene öffentliche Argumentation mit der Mitteilung des Präsidenten, die militärischen Operationen zur Entwaffnung des Irak hätten begonnen.
+  - id: phase-ii-executive-context
+    note: >-
+      Liefert die notwendige Einzelunterscheidung: Viele Besitzformulierungen folgten den fehlerhaften Erkenntnissen,
+      während die Gewissheit über Produktion und mehrere verbundene Bedrohungsbehauptungen darüber hinausgingen.
+  - id: bush-executive-correction
+    note: >-
+      Bush räumt ein, dass ein großer Teil der Nachrichtendienstinformationen falsch war, und übernimmt Verantwortung für die Entscheidung, während er sie weiter verteidigt.
+  - id: phase-ii-executive-correction
+    note: >-
+      Die institutionelle Prüfung des Senats kennzeichnet, welche Äußerungen gestützt, übertrieben, unbelegt oder widersprochen waren.
+  - id: aumf-congress-carrier
+    note: >-
+      Die verabschiedete gemeinsame Resolution ist die Primärquelle für den Kongress als Träger der WMD-Feststellungen und Gewaltenermächtigung.
+  - id: aumf-congress-mechanism
+    note: >-
+      Zeigt den Gesetzgebungsmechanismus, der Tatsachenfeststellungen zu aktiven Fähigkeiten mit einer ausdrücklichen Gewaltenermächtigung verband.
+  - id: senate-vote-congress-consequences
+    note: Dokumentiert die Senatsabstimmung von 77 zu 23 und die Position jedes Senators.
+  - id: house-vote-congress-consequences
+    note: Dokumentiert die Abstimmung im Repräsentantenhaus von 296 zu 133 bei drei nicht abstimmenden Mitgliedern.
+  - id: aumf-congress-context
+    note: >-
+      Belegt, dass WMD-Aussagen ausdrücklich enthalten waren, aber nicht die einzigen Feststellungen oder rechtspolitischen Gründe des Gesetzes bildeten.
+  - id: phase-i-congress-correction
+    note: >-
+      Der Geheimdienstkontrollausschuss des Kongresses stellte amtlich fest, dass die meisten wichtigen NIE-Urteile übertrieben oder nicht gestützt waren.
+  - id: phase-ii-congress-correction
+    note: >-
+      Die zweite Kontrollphase korrigierte die öffentliche Darstellung, indem sie Äußerungen der Exekutive mit den damals verfügbaren Erkenntnissen verglich.
+  - id: repeal-congress-correction
+    note: >-
+      Das Gesetz von 2025 hebt die Irak-Ermächtigung von 2002 ausdrücklich auf und beendet das Rechtsinstrument, nachdem die Tatsachengrundlage längst korrigiert war.

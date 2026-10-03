@@ -10,27 +10,24 @@ export type InstitutionalBeliefTranslationEntry =
   CollectionEntry<'institutionalBeliefTranslations'>;
 
 type InstitutionalBeliefData = InstitutionalBeliefEntry['data'];
-type InstitutionalBeliefV1Data = Extract<InstitutionalBeliefData, { schemaVersion: 1 }>;
-type InstitutionalBeliefV2Data = Extract<InstitutionalBeliefData, { schemaVersion: 2 }>;
 type InstitutionalEpisode = InstitutionalBeliefData['episodes'][number];
-type InstitutionalEpisodeV2 = InstitutionalBeliefV2Data['episodes'][number];
-type InstitutionalEvidenceV2 = InstitutionalBeliefV2Data['evidence'][number];
-type InstitutionalSourceV2 = InstitutionalBeliefV2Data['sources'][number];
+type InstitutionalEvidence = InstitutionalBeliefData['evidence'][number];
+type InstitutionalSource = InstitutionalBeliefData['sources'][number];
 type InstitutionalImpact = NonNullable<InstitutionalBeliefData['impact']>;
 
 export interface NormalizedInstitutionalSource {
-  id?: string;
-  evidenceId?: string;
+  id: string;
+  evidenceId: string;
   title: string;
   url: string;
   publisher: string;
   note?: string;
-  relation?: InstitutionalEvidenceV2['relation'];
-  target?: InstitutionalEvidenceV2['target'];
+  relation: InstitutionalEvidence['relation'];
+  target: InstitutionalEvidence['target'];
   locator?: string;
 }
 
-export type NormalizedInstitutionalEvidence = Omit<InstitutionalEvidenceV2, 'note'> & {
+export type NormalizedInstitutionalEvidence = Omit<InstitutionalEvidence, 'note'> & {
   note?: string;
 };
 
@@ -50,14 +47,13 @@ export interface NormalizedInstitutionalEpisode {
   institutionalContext?: string;
   consequences: string[];
   summary: string;
-  mechanism?: InstitutionalEpisodeV2['mechanism'];
-  institutionalCorrection?: InstitutionalEpisodeV2['institutionalCorrection'];
+  mechanism: InstitutionalEpisode['mechanism'];
+  institutionalCorrection: InstitutionalEpisode['institutionalCorrection'];
   sources: NormalizedInstitutionalSource[];
 }
 
 export interface NormalizedInstitutionalBelief {
   id: string;
-  schemaVersion: 1 | 2;
   title: string;
   proposition: string;
   correction: string;
@@ -66,7 +62,7 @@ export interface NormalizedInstitutionalBelief {
   reviewedAt: Date;
   impact?: InstitutionalImpact;
   episodes: NormalizedInstitutionalEpisode[];
-  sources: InstitutionalSourceV2[];
+  sources: InstitutionalSource[];
   evidence: NormalizedInstitutionalEvidence[];
 }
 
@@ -90,12 +86,7 @@ export const institutionalTranslationMatchesBelief = (
     return false;
   }
 
-  if (belief.data.schemaVersion === 2) {
-    return translation.data.schemaVersion === 2 &&
-      idsMatchInOrder(belief.data.evidence, translation.data.evidence);
-  }
-
-  return translation.data.schemaVersion === 1;
+  return idsMatchInOrder(belief.data.evidence, translation.data.evidence);
 };
 
 export const currentInstitutionalTranslationMap = (
@@ -157,43 +148,12 @@ const normalizeEpisodeBase = (
   summary: translatedEpisode?.summary ?? episode.summary,
 });
 
-const normalizeV1 = (
-  belief: InstitutionalBeliefEntry & { data: InstitutionalBeliefV1Data },
+const normalizeBelief = (
+  belief: InstitutionalBeliefEntry,
   locale: SiteLocale,
   translation?: InstitutionalBeliefTranslationEntry,
 ): NormalizedInstitutionalBelief => {
-  const localized = locale === 'de' && translation?.data.schemaVersion === 1
-    ? translation
-    : undefined;
-  const translatedEpisodes = new Map(
-    localized?.data.episodes.map((episode) => [episode.id, episode]) ?? [],
-  );
-
-  return {
-    id: belief.id,
-    schemaVersion: 1,
-    title: localized?.data.title ?? belief.data.title,
-    proposition: localized?.data.claim ?? belief.data.claim,
-    correction: localized?.data.currentUnderstanding ?? belief.data.currentUnderstanding,
-    category: belief.data.category,
-    entryId: belief.data.entryId,
-    reviewedAt: belief.data.reviewedAt,
-    impact: locale === 'de' ? localized?.data.impact : belief.data.impact,
-    episodes: belief.data.episodes.map((episode) => ({
-      ...normalizeEpisodeBase(episode, locale, translatedEpisodes.get(episode.id)),
-      sources: episode.sources,
-    })),
-    sources: [],
-    evidence: [],
-  };
-};
-
-const normalizeV2 = (
-  belief: InstitutionalBeliefEntry & { data: InstitutionalBeliefV2Data },
-  locale: SiteLocale,
-  translation?: InstitutionalBeliefTranslationEntry,
-): NormalizedInstitutionalBelief => {
-  const localized = locale === 'de' && translation?.data.schemaVersion === 2
+  const localized = locale === 'de' && translation
     ? translation
     : undefined;
   const translatedEpisodes = new Map(
@@ -212,7 +172,6 @@ const normalizeV2 = (
 
   return {
     id: belief.id,
-    schemaVersion: 2,
     title: localized?.data.title ?? belief.data.title,
     proposition: localized?.data.proposition.summary ?? belief.data.proposition.summary,
     correction: localized?.data.correction.summary ?? belief.data.correction.summary,
@@ -285,17 +244,5 @@ export const normalizeInstitutionalBelief = (
     ? translation
     : undefined;
 
-  if (belief.data.schemaVersion === 1) {
-    return normalizeV1(
-      belief as InstitutionalBeliefEntry & { data: InstitutionalBeliefV1Data },
-      locale,
-      localized,
-    );
-  }
-
-  return normalizeV2(
-    belief as InstitutionalBeliefEntry & { data: InstitutionalBeliefV2Data },
-    locale,
-    localized,
-  );
+  return normalizeBelief(belief, locale, localized);
 };

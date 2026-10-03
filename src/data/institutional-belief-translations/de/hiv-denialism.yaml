@@ -1,14 +1,182 @@
+schemaVersion: 2
 locale: de
 entryId: hiv-denialism
-sourceReviewedAt: 2026-08-22
-title: HIV-Leugnung
-claim: Führende staatliche Entscheidungsträger behandelten die ursächliche Rolle von HIV bei AIDS als zweifelhaft oder unbewiesen und antiretrovirale Medikamente als gefährlich toxisch oder von fraglichem Nutzen.
-currentUnderstanding: HIV verursacht AIDS. Eine wirksame antiretrovirale Therapie unterdrückt die Virusvermehrung, erhält die Immunfunktion, verhindert Erkrankungen und vorzeitige Todesfälle und senkt die Übertragung stark – auch von der Mutter auf das Kind. Wie alle Medikamente können antiretrovirale Mittel Nebenwirkungen haben; ihr Nutzen bei der Behandlung von HIV ist jedoch eindeutig und sehr groß.
+sourceReviewedAt: '2026-09-27'
+title: HIV/AIDS-Leugnung
+proposition:
+  summary: >-
+    Von 1999 bis 2008 verliehen Südafrikas Präsident und Gesundheitsministerin Behauptungen staatliche Autorität, nach
+    denen die ursächliche Rolle von HIV bei AIDS weiterhin zweifelhaft sei, HIV allein das Syndrom nicht erklären könne
+    und antiretrovirale Medikamente gefährlich toxisch, unwirksam oder weniger wichtig als Armutsbekämpfung, Ernährung und alternative
+    Heilmittel seien. Das Präsidialamt berief ein Beratungsgremium, das gesicherte HIV-Forschung und Leugnungsthesen in
+    derselben staatlichen Untersuchung behandelte, während gesundheitspolitische Entscheidungen nachweislich wirksame
+    Prävention und Behandlung einschränkten oder verzögerten.
+correction:
+  summary: >-
+    Eine HIV-Infektion verursacht AIDS. Armut, Mangelernährung und weitere Infektionen können Exposition, Gesundheit und
+    Krankheitsverlauf beeinflussen, ersetzen HIV aber nicht als Ursache von AIDS. Eine antiretrovirale Kombinationstherapie
+    unterdrückt die HIV-Vermehrung, erhält die Immunfunktion oder stellt sie wieder her, verringert Erkrankungen und vorzeitige Todesfälle
+    und verhindert sexuelle sowie perinatale Übertragungen. Nebenwirkungen, Wechselwirkungen und Resistenzen sind reale
+    klinische Risiken, die eine geeignete Auswahl und Überwachung der Therapie erfordern; sie rechtfertigen nicht, eine
+    wirksame Behandlung vorzuenthalten.
+impact:
+  summary: >-
+    Die nationale Politik beschränkte Nevirapin zur Verhinderung der Mutter-Kind-Übertragung zunächst auf 18 Forschungs-
+    und Schulungsstandorte. 2002 erklärte das Verfassungsgericht diese starre Beschränkung für unangemessen und ordnete
+    ihre Aufhebung an. Im November 2003 beschloss das Kabinett einen Plan für antiretrovirale Behandlung im öffentlichen
+    Gesundheitssystem, doch die Umsetzung blieb deutlich hinter den Zielen zurück. Rückblickende Modelle schätzten die
+    Folgen verzögerter, durchführbarer Programme: Eine Studie errechnete für 2000–2005 mehr als 330.000 vorzeitige
+    Todesfälle und 35.000 HIV-Infektionen bei Säuglingen; eine andere für 1999–2007 343.000 Todesfälle und 171.000 Infektionen.
+  highlights:
+    - value: '18'
+      label: Forschungs- und Schulungsstandorte, auf die der nationale Zugang zu Nevirapin zunächst beschränkt war
+    - value: '>330.000'
+      label: modellierte vorzeitige Todesfälle in einem Szenario durchführbarer Behandlung für 2000–2005
+    - value: '35.000'
+      label: modellierte HIV-Infektionen bei Säuglingen durch das fehlende nationale Nevirapin-Programm in derselben Studie
+  context:
+    - >-
+      Die Zahlen zu Todesfällen und Infektionen sind kontrafaktische Modellschätzungen und keine direkt gezählten Fälle.
+      Die beiden Studien verwendeten unterschiedliche Vergleichsprogramme, Endpunkte und Zeiträume; ihre Ergebnisse dürfen
+      daher weder addiert noch als eine einzige exakte Opferzahl dargestellt werden.
+    - >-
+      Der südafrikanische Staat sprach nicht mit einer Stimme. Wissenschaft, Ärzteschaft, Aktivisten, Gerichte und einige
+      Provinzen widersprachen den nationalen Einschränkungen; im April 2002 erklärte das Kabinett ausdrücklich, die
+      Regierungspolitik gehe von der Prämisse aus, dass HIV AIDS verursacht, und 2003 beschloss es einen nationalen
+      Behandlungsplan. Die Führung von Präsidialamt und Gesundheitsministerium schwächte dennoch bis 2008 die Kommunikation
+      und Umsetzung der Behandlungspolitik.
+    - >-
+      Die Leugnung durch die Führungsspitze war nicht das einzige Behandlungshindernis. Hohe frühe Medikamentenpreise, Personalmangel,
+      ungleiche Kapazitäten der Provinzen und schwache Datenerfassung erschwerten ebenfalls die Versorgung. Die
+      Wirkungsstudien vergleichen die tatsächliche Abdeckung deshalb mit Programmen, die ihre Autoren für durchführbar
+      hielten, statt jeden unbehandelten Fall einer einzigen Überzeugung zuzuschreiben.
 episodes:
   - id: south-africa-1999-2008
     polity: Südafrika
-    summary: Unter Präsident Thabo Mbeki stellte die nationale Führung die ursächliche Rolle von HIV bei AIDS infrage und stellte antiretrovirale Medikamente als gefährlich toxisch dar. Diese Positionen trugen dazu bei, Behandlung und die Prävention der Mutter-Kind-Übertragung im öffentlichen Gesundheitssystem zu verzögern und einzuschränken. Spätere Modellstudien mit unterschiedlichen Methoden schätzten die Zahl vermeidbarer Todesfälle während der verzögerten Versorgung auf mehrere Hunderttausend.
+    institutions:
+      - Präsidialamt Südafrikas unter Thabo Mbeki
+      - Nationales Gesundheitsministerium unter Ministerin Manto Tshabalala-Msimang
+      - Beratendes AIDS-Panel des Präsidenten
+    institutionalContext: >-
+      1999 bezeichnete Präsident Mbeki AZT öffentlich als toxisch und gefährlich und stellte dessen Bereitstellung durch
+      den Staat infrage. 2000 berief das Präsidialamt ein Beratungsgremium mit anerkannten HIV-Forschenden und Vertretern
+      von Leugnungsthesen; der Bericht von 2001 hielt unvereinbare Empfehlungen nebeneinander fest, darunter Vorschläge
+      von Mitgliedern, die einen ursächlichen Zusammenhang zwischen HIV und AIDS zurückwiesen. Das nationale
+      Gesundheitsministerium beschränkte Nevirapin auf ausgewählte Standorte und widersetzte sich einer breiteren Abgabe.
+      Ab 2002 änderte sich die formale Politik, 2003 folgte ein nationaler ART-Plan. Präsident und Gesundheitsministerin
+      stellten antiretrovirale Medikamente jedoch weiter infrage und hoben Ernährung oder alternative Mittel hervor;
+      dadurch gerieten beschlossene Politik und politische Führung in Konflikt.
     consequences:
-      - Verzögerter landesweiter Zugang zu antiretroviraler Therapie
-      - Eingeschränkte Prävention der Mutter-Kind-Übertragung
-      - Große Zahl vermeidbarer Todesfälle und HIV-Infektionen
+      - Staatliche Aufwertung und Verstärkung von Zweifeln am ursächlichen Zusammenhang zwischen HIV und AIDS
+      - Anfängliche Beschränkung von Nevirapin im öffentlichen Gesundheitssystem auf 18 Forschungs- und Schulungsstandorte
+      - Verzögerung eines nationalen ART-Programms und langsamere Umsetzung nach dessen Beschluss
+      - Öffentliche Förderung von Ernährung und alternativen Mitteln bei anhaltenden Zweifeln führender Politiker an der ART
+      - Durch unabhängige kontrafaktische Modelle geschätzte vermeidbare vorzeitige Todesfälle und HIV-Infektionen bei Säuglingen
+      - Anhaltender Konflikt mit Ärzteschaft, Wissenschaft, Provinzprogrammen, Zivilgesellschaft und Gerichten über den Behandlungszugang
+    summary: >-
+      Führende Vertreter von Exekutive und Gesundheitsministerium machten randständige Zweifel während einer schweren
+      Epidemie zu einem institutionellen Hindernis. Die Förderung durch den Präsidenten verschaffte Leugnungsthesen
+      Geltung, während Verwaltungsbeschränkungen den Zugang zu Nevirapin begrenzten und eine breite Behandlung verzögerten.
+      Gerichte, Zivilgesellschaft, Gesundheitsfachleute, Provinzen und Teile des Kabinetts widersprachen diesem Kurs;
+      daraus entstand vor dem Führungswechsel 2008 eine schrittweise und widersprüchliche Umkehr.
+    mechanism:
+      summary: >-
+        Die Unterstützung durch den Präsidenten und ein staatlich eingesetztes Beratungsgremium legitimierten
+        Leugnungsthesen. Gesundheitsbehörden nutzten Bedenken zu Toxizität, Evidenz und Leistungsfähigkeit des Systems,
+        um den Zugang zu antiretroviralen Medikamenten zu beschränken; zugleich stellte die offizielle Kommunikation
+        Ernährung, Armut und alternative Mittel über eine klare, behandlungsorientierte Antwort.
+    institutionalCorrection:
+      periodLabel: 2002–2010
+      action: >-
+        Das Kabinett bestätigte, dass HIV AIDS verursacht, das Verfassungsgericht ordnete die Aufhebung der
+        Nevirapin-Beschränkungen an, ein nationaler ART-Plan wurde beschlossen und die nachfolgende Führung weitete
+        evidenzbasierte Tests und Behandlungen öffentlich aus.
+      summary: >-
+        Die Korrektur erfolgte schrittweise. Die Kabinettserklärung vom April 2002 erkannte HIV formell als Ursache an;
+        das Urteil im Verfahren der Treatment Action Campaign vom Juli 2002 verlangte einen breiteren Zugang zu
+        Nevirapin. Im November 2003 beschloss das Kabinett ein nationales ART-Programm für den öffentlichen Sektor,
+        während Widerstand auf höchster Ebene und Umsetzungsprobleme fortbestanden. Nach dem Führungswechsel 2008 wies
+        die Regierung die Leugnung öffentlich zurück, kündigte 2009 erweiterte Behandlungsregeln an und startete im April
+        2010 das ausgeweitete Programm. Diese politische Korrektur beseitigte weder die früheren Schäden noch schloss sie
+        die Versorgungslücke sofort.
+evidence:
+  - id: policy-responses-proposition
+    note: >-
+      Untersucht Mbekis Aussagen zu AZT und HIV-Ursächlichkeit, die Behandlungskommunikation der Gesundheitsministerin und
+      den Einfluss der politischen Führung auf die nationale Politik zu antiretroviralen Medikamenten.
+  - id: panel-report-proposition
+    note: >-
+      Der offizielle Bericht dokumentiert das staatlich eingesetzte Panel, dessen Spaltung über die Frage, ob HIV AIDS
+      verursacht, und die getrennten Empfehlungen jener Mitglieder, die Ursächlichkeit, HIV-Tests und ART zurückwiesen.
+  - id: durban-declaration-correction
+    note: >-
+      Die zeitgenössische wissenschaftliche Erklärung fasste virologische, epidemiologische und therapeutische Belege
+      dafür zusammen, dass HIV AIDS verursacht, und warnte vor den Folgen von Zweifeln für Prävention und Versorgung.
+  - id: nih-treatment-goals-correction
+    note: >-
+      Die aktuellen klinischen Leitlinien halten fest, dass ART HIV-bedingte Erkrankungen und Sterblichkeit verringert,
+      die Immunfunktion erhält oder verbessert und durch dauerhafte Virussuppression sexuelle und perinatale Übertragung verhindert.
+  - id: chigwedere-impact
+    note: >-
+      Modelliert eine durchführbare Alternative für 2000–2005 und schätzt mehr als 330.000 vorzeitige Todesfälle,
+      35.000 Infektionen bei Säuglingen und 3,8 Millionen verlorene Lebensjahre durch verzögerte ART und Prävention der Mutter-Kind-Übertragung.
+  - id: model-review-impact
+    note: >-
+      Vergleicht die unabhängigen Modelle von Nattrass und Chigwedere, ihre unterschiedlichen Zeiträume und
+      kontrafaktischen Annahmen sowie die ähnlich hohe Größenordnung ihrer Ergebnisse.
+  - id: policy-responses-carrier
+    note: >-
+      Benennt Präsidialamt und Gesundheitsministerin als zentrale politische Träger und dokumentiert zugleich das
+      breitere öffentliche Gesundheitssystem.
+  - id: panel-report-carrier
+    note: >-
+      Listet die vom Präsidenten eingeladenen Fachleute auf und dokumentiert die Zustimmung des Kabinetts zum
+      Beratungsprozess im April 2000.
+  - id: panel-report-mechanism
+    note: >-
+      Zeigt, wie eine offizielle Synthese unvereinbare Positionen zu Ursache, Tests, Prävention und Behandlung als
+      parallele Empfehlungen zur Prüfung durch die Regierung darstellte.
+  - id: tac-judgment-mechanism
+    note: >-
+      Dokumentiert die nationale Beschränkung von Nevirapin auf Forschungs- und Schulungsstandorte sowie die dafür
+      angeführten administrativen Begründungen.
+  - id: tac-judgment-consequences
+    note: >-
+      Stellt fest, dass die starre Politik Müttern und Neugeborenen außerhalb der ausgewählten Standorte eine potenziell
+      lebensrettende Behandlung vorenthielt, und ordnet breiteren Zugang, Beratung und Tests an.
+  - id: chigwedere-consequences
+    note: Liefert die kontrafaktischen Schätzungen für 2000–2005, die in Zusammenfassung und Kennzahlen verwendet werden.
+  - id: model-review-consequences
+    note: >-
+      Berichtet über beide großen Modellstudien und macht deutlich, dass ihre Todes- und Infektionsschätzungen verschiedene
+      Vergleichsprogramme und Zeiträume abdecken.
+  - id: policy-responses-context
+    note: >-
+      Dokumentiert den Plan von 2003, spätere Ausgaben und Behandlungszahlen sowie Kosten, Personalmangel, Kapazitäten der
+      Provinzen und Datenprobleme, die eine monokausale Zuschreibung verbieten.
+  - id: durban-declaration-context
+    note: >-
+      Belegt, dass Tausende Wissenschaftlerinnen und Wissenschaftler die Erkenntnisse zu Ursache und Prävention bereits
+      während dieser Episode öffentlich zusammenfassten.
+  - id: cabinet-2002-context
+    note: >-
+      Zeigt die innerstaatlichen Gegensätze: Das Kabinett erkannte HIV als Ursache an, blieb bei ART vorsichtig und bereitete
+      zugleich umfassendere Präventions- und Behandlungsmaßnahmen vor.
+  - id: cabinet-2002-correction
+    note: >-
+      Hält die ausdrückliche Prämisse des Kabinetts vom April 2002 fest, dass HIV AIDS verursacht, sowie die Verpflichtung
+      zu einem flächendeckenden Programm gegen Mutter-Kind-Übertragung.
+  - id: tac-judgment-correction
+    note: >-
+      Dokumentiert die Anordnung des Verfassungsgerichts vom Juli 2002, Standortbeschränkungen aufzuheben und den Zugang
+      in angemessener Weise auszuweiten.
+  - id: operational-plan-correction
+    note: >-
+      Dokumentiert das nationale ART-Programm für den öffentlichen Sektor, seine Umsetzungsstruktur, die klinische
+      Überwachung und die Anerkennung der lebensverlängernden Wirkung antiretroviraler Medikamente.
+  - id: nih-treatment-goals-institutional-correction
+    note: Liefert den evidenzbasierten klinischen Standard, an den sich die korrigierte Behandlungspolitik schließlich anglich.
+  - id: zuma-policy-correction
+    note: >-
+      Kündigt erweiterte Behandlung für Säuglinge, Menschen mit HIV und Tuberkulose sowie Schwangere, mehr bereite
+      Einrichtungen und ein Ende politisierter Debatten an; die Umsetzung sollte im April 2010 beginnen.

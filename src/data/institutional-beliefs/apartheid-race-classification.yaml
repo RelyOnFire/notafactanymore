@@ -8,89 +8,102 @@ proposition:
 correction:
   summary: >-
     The apartheid categories were legal and social constructions, not discrete biological divisions of humanity. The
-    statutory criteria were themselves ambiguous and changed over time; appearance, descent and social acceptance could
-    conflict, classifications could be challenged or altered, and members of the same family could receive different
-    classifications. Biological anthropology likewise finds that socially recognised races do not map onto discrete,
-    fixed human biological groups. Race remains a powerful social reality because institutions and racism give categories
-    real consequences, not because apartheid classifications discovered natural biological boundaries.
+    statutory criteria were ambiguous and changed over time: appearance, descent and social acceptance could conflict,
+    classifications could be challenged or altered, and members of one family could be classified differently. Biological
+    anthropology likewise finds that socially recognised races do not map onto discrete, fixed or homogeneous biological
+    groups. Act 114 of 1991 repealed the Population Registration Act and specified related provisions, ending that
+    compulsory classification machinery, while temporarily preserving the existing Identification Act register. Race
+    remains socially consequential because institutions and racism give categories real effects, not because apartheid
+    officials discovered natural biological boundaries.
 category: Apartheid, racial classification and state administration
-reviewedAt: '2026-08-25'
+reviewedAt: '2026-09-20'
 impact:
   summary: >-
-    The Population Registration Act of 1950 made racial classification the administrative foundation of apartheid.
-    Every person entered in the population register had to receive an official classification, supported by identity
-    documents and a bureaucracy of officials, classification boards and courts. The Truth and Reconciliation Commission
-    later called the Act the bedrock of apartheid and described its racial definitions as crude and hopelessly imprecise.
-    Classification determined where people could live, study and work, which facilities they could use, whom they could
-    marry or have sexual relations with under related laws, and sometimes divided families. Parliament repealed the
-    system in 1991.
+    The Population Registration Act of 1950 made racial classification an administrative foundation of apartheid. Its
+    original text required the Director of Census to classify everyone in the register as white, coloured or native; the
+    later operational system separated Indian from Coloured and used four basic categories. Identity numbers, cards and a
+    bureaucracy of census and Interior officials made those classifications portable through the state. The Truth and
+    Reconciliation Commission called population registration the bedrock of apartheid and linked classification to where
+    people could live and work and to divisions within families. Historical research documents humiliating examinations,
+    contested classifications and a later shift toward descent derived from official records. Act 114 repealed the
+    classification statute on 28 June 1991, subject to a transitional savings clause for the existing register.
   highlights:
     - value: 41 years
       label: from the Population Registration Act in 1950 to its repeal in 1991
     - value: '3'
-      label: 'primary racial categories in the original 1950 Act: white, coloured and native'
+      label: 'headline classifications in the original 1950 Act: white, coloured and native'
+    - value: '4'
+      label: 'basic categories in the later operational system: Coloured, Indian, White and Black'
     - value: 28 June 1991
-      label: date the repeal took effect and statutory population-race registration was abolished
+      label: commencement of Act 114; the existing Identification Act register was temporarily preserved
   context:
     - >-
-      The statute did not rely only on genetics or a single physical test. Its instability is part of the historical
-      record: the law mixed appearance with social acceptance and later increasingly with descent, while providing
-      objections, appeals and reclassification procedures.
+      The original Act's three headline classifications and the later administration's four basic categories describe
+      different stages. The later system treated Indian as a category separate from Coloured; neither count should be
+      projected unchanged across the entire 1950–1991 period.
     - >-
-      The correction is not that race became socially irrelevant after 1991. Racial categories created through
-      colonialism and apartheid continue to structure inequality and identity. The corrected proposition is that the
-      apartheid bureaucracy was identifying fixed natural kinds when it assigned every person to a race.
+      The statute did not rely only on genetics or a single physical test. It combined appearance and social acceptance,
+      later amendments and practice gave greater weight to descent, and objections and appeals repeatedly exposed the
+      criteria's ambiguity.
     - >-
-      Repeal in 1991 ended the population-registration machinery before the 1994 democratic transition. The later
-      Constitution's commitment to non-racial equality deepened the political repudiation after the legal classification
-      regime itself had already been abolished.
+      Act 114 repealed the Population Registration Act and altered the laws listed in its two schedules. It did not claim
+      to remove every racial distinction from South African law on that date, and section 1(3) temporarily kept the
+      existing Identification Act population register in force.
 episodes:
   - id: south-africa-1950-1991
     polity: South Africa
     region: Southern Africa
     startYear: 1950
     endYear: 1991
+    periodLabel: '1950 Population Registration Act–1991 repeal'
     strength: enforced-doctrine
     institutionTypes:
       - government
       - court
     institutions:
-      - Department of the Interior and population-registration administration
-      - Race-classification boards
-      - South African courts administering classification appeals
+      - Director of Census and population-registration officials
+      - Department of the Interior and Bureau of Census
+      - Minister-constituted classification boards, later attested as the Race Classification Appeal Board
+      - Provincial and local divisions, and Appellate Division, of the Supreme Court of South Africa
     institutionalContext: >-
-      Act No. 30 of 1950 required the state to compile a population register and classify every person in it. The original
-      statute defined a white person principally through obvious appearance or general social acceptance, defined a native
-      through membership or accepted membership in an African race or tribe, and made 'coloured' a residual category.
-      Amendments added and reshaped tests involving descent, family classifications and social acceptance. Officials
-      recorded the result in the population register and identity system, while boards and courts heard objections. The
-      classification then served as the key used by the wider apartheid legal order.
+      Sections 2, 4 and 5 of Act 30 of 1950 created a population register, defined who belonged in it and directed the
+      Director of Census to classify everyone registered. Sections 6, 7 and 13 tied classifications to identity numbers,
+      register entries and identity cards. Under section 11, written objections went to a board of at least three people
+      constituted by the Minister. A person contesting the board's decision could apply to a provincial or local division
+      of the Supreme Court and then appeal to its Appellate Division. In later administration, the Department of the
+      Interior and Bureau of Census used census forms, photographs, examinations and existing family records; from 1967
+      the system increasingly treated descent recorded in state paperwork as determinative.
     consequences:
-      - Official racial classification of the population from birth or registration into legally consequential groups
-      - Use of classification to govern residence, schooling, university access, employment and public facilities
-      - Interaction with marriage, sexual, voting, mobility and homeland laws built around the same racial categories
-      - Humiliation, uncertainty and litigation for people whose appearance, descent and social acceptance did not yield the same answer
-      - Different classifications within families, sometimes producing legal and social separation
-      - A large bureaucracy devoted to maintaining, contesting and revising racial identity as an official state fact
+      - Racial classifications were entered in the population register and linked to identity numbers and identity documents
+      - Population registration supplied classifications used by residence controls, work controls and the pass system
+      - Officials subjected many people with disputed classifications to humiliating examinations and life-altering decisions
+      - Written objections, classification-board hearings, court appeals and administrative alterations could revise an official classification
+      - Members of the same family could receive different classifications, producing legal and social separation
+      - Census and Interior bureaucracies maintained, contested and revised racial identity as an official state record
     summary: >-
-      The Population Registration Act made a disputed social classification look like an administratively ascertainable
-      fact. The state required every person to be sorted, recorded and governed through a racial category even though its
-      own criteria were unstable enough to generate objections, reclassifications and family divisions. South Africa's
-      Truth and Reconciliation Commission later described the definitions as bizarre and hopelessly imprecise, while
-      modern biological anthropology rejects the idea that socially recognised races are discrete biological groups.
+      The Population Registration Act made a disputed social classification appear administratively ascertainable. The
+      state required people to be sorted and documented through racial categories, even though the criteria shifted and
+      generated examinations, objections, appeals, reclassifications and family divisions. The original three headline
+      classifications became four basic operational categories. The TRC later described the definitions as bizarre, crude
+      and hopelessly imprecise; biological anthropology rejects socially recognised races as discrete biological groups.
     mechanism:
       kind: classification
       summary: >-
-        Population-registration officials, classification boards and courts assigned legally binding racial identities
-        through statutory tests of appearance, descent and social acceptance, and the wider apartheid system used those
-        classifications to allocate rights and restrictions.
+        Census and Interior officials assigned racial identities and recorded them in population registers, identity
+        numbers and documents. Minister-constituted boards and successive levels of the Supreme Court decided objections
+        and appeals using appearance, descent and social acceptance. Other apartheid controls then consumed the recorded
+        classification, including residence, work and pass administration.
     institutionalCorrection:
       status: corrected
-      periodLabel: 28 June 1991
-      action: The Population Registration Act Repeal Act abolished statutory distinctions and the compulsory population-race registration system.
+      periodLabel: '28 June 1991, with transitional savings'
+      action: >-
+        Act 114 of 1991 repealed the Population Registration Act and the listed amending acts and amended or repealed
+        provisions in its schedules to remove their specified racial distinctions. Section 1(3) temporarily preserved the
+        existing Identification Act population register until repeal of the 1983 Constitution Act.
       summary: >-
-        Parliament dismantled the legal machinery that treated racial classification as a determinate personal fact;
-        subsequent democratic constitutional commitments deepened the institutional rejection of the apartheid racial order.
+        Parliament dismantled the compulsory legal machinery for assigning every person a population-race classification.
+        The savings clause means the transition was not an instantaneous deletion of every existing register entry, and
+        the schedules do not support a claim that every racial distinction in South African law ended on 28 June 1991.
 sources:
   - id: apartheid-population-act
     title: Population Registration Act, Act No. 30 of 1950
@@ -121,49 +134,147 @@ evidence:
     sourceId: apartheid-population-act
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: 'Sections 1–7 and 13–15; printed Government Gazette pp. 277–291'
     note: >-
-      Digitised archival copy of the primary statute establishing the population register, racial definitions and
-      official classification system.
+      The primary statute defines its original categories, creates and populates the register, requires the Director to
+      classify every registered person, assigns identity numbers and records classifications in the register and identity
+      cards. It documents the state claim that officials could determine and record each person's category.
+  - id: apartheid-reclassification-proposition
+    sourceId: apartheid-reclassification-study
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    locator: Printed pp. 450–452
+    note: >-
+      The study identifies appearance, descent and acceptance as the three statutory criteria considered across 69 Supreme
+      Court cases and shows how classifiers, the Race Classification Appeal Board and courts operationalised them.
   - id: apartheid-aaba-correction
     sourceId: apartheid-aaba
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: '“Executive Summary”, paragraphs 1–5; “What race is and what it is not”, paragraphs 1–6'
     note: >-
-      Professional scientific statement explaining that socially recognised racial categories do not represent discrete
-      or fixed human biological groups, while emphasising that race remains socially real through racism and institutions.
+      The professional statement explains that socially recognised racial categories do not describe discrete, isolated,
+      fixed or homogeneous biological groups while racism and institutions make race socially and biologically consequential.
+  - id: apartheid-reclassification-correction
+    sourceId: apartheid-reclassification-study
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Printed pp. 450–452
+    note: >-
+      The analysis finds all three criteria ambiguous, complex and contested, records conflicting board and court
+      interpretations, and concludes that no single concrete working definition of race existed in the system.
+  - id: apartheid-repeal-belief-correction
+    sourceId: apartheid-repeal
+    relation: documents
+    target: {scope: belief, aspect: correction}
+    locator: 'Government landing page, “Commencement”; Act section 1(1)–(3), Schedules I–II; Gazette pp. 2–8'
+    note: >-
+      The Act repeals the Population Registration Act and specified related provisions. Its savings clause preserves the
+      existing Identification Act register temporarily, so the correction is framed as dismantling compulsory
+      classification machinery rather than immediate deletion of every record or racial distinction.
   - id: apartheid-trc-impact
     sourceId: apartheid-trc
     relation: supports
     target: {scope: belief, aspect: impact}
+    locator: 'Volume 1, chapter 2, subsection 3, paragraphs 26–29'
     note: >-
-      The Commission calls population registration the bedrock of apartheid, reproduces the racial definitions, describes
-      them as crude and hopelessly imprecise and records the human consequences of family classification.
+      The Commission calls population registration the bedrock of apartheid, describes the operational four-category
+      definitions as bizarre, crude and hopelessly imprecise, and links classification to residence, work and family division.
+  - id: apartheid-kronos-impact
+    sourceId: apartheid-kronos
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Printed pp. 225–231
+    note: >-
+      Breckenridge describes the register as apartheid's bureaucratic cornerstone, distinguishes four later operational
+      categories, documents identity cards and examinations, and traces the shift from acceptance and appearance toward
+      bureaucratically recorded descent.
   - id: apartheid-act-carrier
     sourceId: apartheid-population-act
     relation: documents
     target: {scope: episode, episodeId: south-africa-1950-1991, aspect: carrier}
+    locator: 'Sections 1–7 and 11; printed Government Gazette pp. 277–287'
+    note: >-
+      The Act assigns compilation and classification to the Director of Census, places the Minister over the statutory
+      boards, and gives provincial or local Supreme Court divisions and the Appellate Division authority over appeals.
+  - id: apartheid-reclassification-carrier
+    sourceId: apartheid-reclassification-study
+    relation: contextualizes
+    target: {scope: episode, episodeId: south-africa-1950-1991, aspect: carrier}
+    locator: Printed p. 450
+    note: >-
+      The study supplies the later attested name Race Classification Appeal Board and distinguishes that first appeal body
+      from subsequent Supreme Court review. The original 1950 Act itself calls the ministerially constituted body a board.
+  - id: apartheid-act-mechanism
+    sourceId: apartheid-population-act
+    relation: documents
+    target: {scope: episode, episodeId: south-africa-1950-1991, aspect: mechanism}
+    locator: 'Sections 5–7, 11 and 13–15; printed Government Gazette pp. 279–291'
+    note: >-
+      The statute documents classification and alteration by the Director, record and identity-document fields, written
+      objections, board hearings, court appeals and replacement cards after a classification changed.
   - id: apartheid-kronos-mechanism
     sourceId: apartheid-kronos
     relation: supports
     target: {scope: episode, episodeId: south-africa-1950-1991, aspect: mechanism}
+    locator: Printed pp. 225–232
     note: >-
-      Peer-reviewed history of the population-register bureaucracy, changing classificatory rules and the state's
-      increasingly complex effort to assign every South African to a racial category.
+      The institutional history documents the Bureau of Census and Department of the Interior, census-derived records,
+      photographs, identity cards, appearance and acceptance tests, and the 1967 move toward descent derived from paperwork.
+  - id: apartheid-act-registration-consequences
+    sourceId: apartheid-population-act
+    relation: documents
+    target: {scope: episode, episodeId: south-africa-1950-1991, aspect: consequences}
+    locator: 'Sections 5–7 and 11–15; printed Government Gazette pp. 279–291'
+    note: >-
+      Supports the consequences concerning classification in registers and identity documents and the formal path for
+      objections, board decisions, court appeals, administrative alteration and replacement documents.
   - id: apartheid-trc-consequences
     sourceId: apartheid-trc
     relation: supports
     target: {scope: episode, episodeId: south-africa-1950-1991, aspect: consequences}
+    locator: 'Volume 1, chapter 2, subsection 3, paragraphs 26–29'
+    note: >-
+      Supports the residence-and-work consequence and the family-division consequence. This short subsection is not used
+      to claim detailed effects in every legal domain governed by the wider apartheid order.
+  - id: apartheid-kronos-consequences
+    sourceId: apartheid-kronos
+    relation: supports
+    target: {scope: episode, episodeId: south-africa-1950-1991, aspect: consequences}
+    locator: Printed pp. 225–232
+    note: >-
+      Supports the links to Group Areas and pass administration, the identity-record system, humiliating examinations,
+      officials' life-altering decisions, and the Census and Interior bureaucracy that maintained racial records.
+  - id: apartheid-reclassification-consequences
+    sourceId: apartheid-reclassification-study
+    relation: supports
+    target: {scope: episode, episodeId: south-africa-1950-1991, aspect: consequences}
+    locator: Printed pp. 450–452
+    note: >-
+      Supports the objection and appeal consequence through 69 reported Supreme Court cases and documents the ambiguity
+      that exposed people to changing board and court interpretations.
   - id: apartheid-reclassification-context
     sourceId: apartheid-reclassification-study
     relation: contextualizes
     target: {scope: episode, episodeId: south-africa-1950-1991, aspect: context}
+    locator: Printed pp. 450–452
     note: >-
-      Research based on apartheid reclassification appeals showing that appearance, descent and acceptance were ambiguous,
-      contested and repeatedly reinterpreted by courts.
+      Supports the three statutory criteria and their ambiguity. It also distinguishes the original Act's three main
+      groups from later subdivisions; Breckenridge supplies the later four-category operational account.
+  - id: apartheid-aaba-context
+    sourceId: apartheid-aaba
+    relation: contextualizes
+    target: {scope: episode, episodeId: south-africa-1950-1991, aspect: context}
+    locator: '“Executive Summary”, paragraphs 1–5; “What race is and what it is not”, paragraphs 1–6'
+    note: >-
+      Provides the scientific scope for the episode summary: socially recognised races are not discrete biological groups,
+      while racial categories remain consequential through social, political and legal construction and racism.
   - id: apartheid-repeal-correction
     sourceId: apartheid-repeal
     relation: documents
     target: {scope: episode, episodeId: south-africa-1950-1991, aspect: institutional-correction}
+    locator: 'Government landing page, “Commencement”; Act section 1(1)–(3), Schedules I–II; Gazette pp. 2–8'
     note: >-
-      Primary government record of the 1991 repeal, expressly abolishing statutory distinctions between persons belonging
-      to different races or population groups.
+      The repeal took effect on 28 June 1991. It repeals Act 30 of 1950 and listed amending acts, changes specified laws
+      in its schedules, and temporarily preserves the existing Identification Act register. The edge does not support a
+      claim that every statutory racial distinction disappeared immediately.

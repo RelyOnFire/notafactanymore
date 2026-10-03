@@ -1,69 +1,159 @@
 schemaVersion: 2
-title: Prone infant sleeping
+title: Healthy infants should sleep prone
 entryId: babies-should-sleep-face-down
 proposition:
-  summary: Healthy infants were advised to sleep prone, or on their stomachs, because the position was treated as safe or preferable, including from concern that babies sleeping on their backs might aspirate vomit.
+  summary: >-
+    During much of the second half of the twentieth century, influential infant-care texts and medical advice presented
+    prone, or stomach-down, sleep as safe or preferable for healthy infants. Rationales included fears that a baby lying
+    supine might aspirate vomit and claims that prone sleep aided breathing, digestion or uninterrupted sleep. The advice
+    was never universal: some contemporary authorities continued to favor the back or side.
 correction:
-  summary: For healthy infants, prone sleep substantially increases the risk of sudden infant death syndrome and other sleep-related infant deaths. Supine sleep is recommended for routine infant sleep; placing healthy infants on their backs does not produce the feared increase in fatal aspiration.
+  summary: >-
+    Healthy infants should be placed supine on a firm, flat, noninclined surface for every routine sleep until age one.
+    Prone and side sleeping are associated with greater risk of sudden infant death syndrome and other sleep-related
+    infant deaths. Supine sleep does not increase choking or aspiration risk, including for infants with reflux.
+    Supervised prone time while the infant is awake serves a different developmental purpose.
 category: Pediatrics and public health
-reviewedAt: 2026-08-22
+reviewedAt: '2026-09-24'
+impact:
+  summary: >-
+    Prone-sleep advice changed how infants were placed to sleep across several high-income countries. A later cumulative
+    meta-analysis found that the observational evidence available by 1970 already showed higher SIDS odds for prone than
+    supine sleep, but clinicians did not reach broad agreement then. In Australia, prone sleeping and SIDS deaths fell
+    sharply around the 1990–1991 research, policy and education changes. East Germany reacted much earlier after seven
+    infants died while sleeping prone in day care in 1971. These histories show population-level risk and policy effects;
+    they do not establish that prone position caused every individual death or the entirety of a national mortality trend.
+  highlights:
+    - value: '2.93'
+      label: pooled odds ratio for prone versus supine sleep in evidence available by 1970
+      note: Retrospective cumulative meta-analysis; 95% confidence interval 1.15–7.47.
+    - value: '7'
+      label: infants who died while sleeping prone in East German day care in 1971, prompting official review
+      note: The historical study does not establish that prone position caused each death.
+    - value: 522 → 73
+      label: recorded Australian SIDS deaths in 1985 and 2003, an 86% decline across the safe-sleep campaign era
+      note: A national time trend during a multifactor campaign, not a count attributable solely to sleep position.
+  context:
+    - >-
+      The 2005 historical review sampled infant-care books and pamphlets available in the United Kingdom. Its finding that
+      pooled evidence was statistically significant by 1970 is a retrospective reconstruction, not proof that a settled
+      medical consensus or a uniform recommendation existed in 1970.
+    - >-
+      A 2022 systematic review pooled 26 observational studies involving 59,332 infants and found lower SIDS odds with
+      supine than nonsupine sleep. It rated the evidence very low certainty because of serious bias, heterogeneity and the
+      absence of interventional mortality studies. Current recommendations also draw on
+      physiological evidence, consistency across settings and mortality changes after public-health interventions.
+    - >-
+      SIDS is an unexplained death after investigation, whereas sudden unexpected death in infancy is a broader category
+      that also includes explained deaths. Changes in investigation and classification complicate comparisons over time.
+    - >-
+      This record concerns routine sleep for healthy infants. It does not treat monitored therapeutic positioning in a
+      hospital as equivalent, and it distinguishes sleep from supervised, awake tummy time.
 episodes:
   - id: australia-1970-1991
     polity: Australia
     region: Oceania
     startYear: 1970
     endYear: 1991
+    periodLabel: Late 1960s–October 1991; the start year is approximate
     strength: institutionally-influential
-    institutionTypes: [medical, professional, education]
+    institutionTypes:
+      - medical
+      - professional
+      - education
+      - government
     institutions:
-      - Pediatric and maternal-child health professionals
-      - Hospitals and infant-care services
-      - Health-education advice to parents
+      - Australian medical and infant-care advice networks
+      - Community Services Victoria maternal and child health service
+      - National SIDS Council of Australia
+      - National Health and Medical Research Council
+    institutionalContext: >-
+      NHMRC's retrospective case study places Australia within a wider Western rise in prone sleeping from the late 1960s
+      through the 1980s, which it attributes to advice that had not been scientifically tested. It says the medical
+      community had not accepted sleeping position as a causal risk despite accumulating retrospective evidence. This
+      documents a broad professional advice pattern, not one Australian directive or identical conduct by every clinician,
+      hospital or parent. Tasmanian prospective and case-control work provided more compelling evidence in 1991. The first
+      recorded Australian policy correction began earlier, when Community Services Victoria instructed maternal and child
+      health nurses in July 1990 to recommend back or side sleep; national organizations acted in 1991.
     consequences:
-      - Widespread prone sleeping among healthy infants
-      - Increased exposure to SIDS risk
-      - Delayed reversal of infant-sleep advice
-    summary: During the 1970s and 1980s, prone sleeping became increasingly common among healthy Australian infants as health professionals and infant-care literature repeated advice that had not been scientifically tested. Evidence linking prone sleep to SIDS accumulated, but sleeping position was not initially accepted by the medical community as a causal risk factor. Australian research prompted a national reversal in 1991, when health campaigns and the NHMRC advised that healthy babies generally should not sleep prone.
+      - Untested prone-sleep rationales entered routine advice to parents while the medical significance of sleep position remained disputed
+      - In the Tasmanian cohort, 29.9% of infants usually slept prone before publication and campaign activity, compared with 5.4% in the following year
+      - The Tasmanian prospective cohort and case-control findings associated prone sleep with substantially higher SIDS odds and prompted rapid public-health action
+      - Australia's recorded SIDS deaths fell from 522 in 1985 to 73 in 2003 during a broader risk-reduction era; the national trend cannot be assigned to sleep position alone
+      - The initial 1990–1991 advice allowed side or back sleep, while later guidance evolved to back-only placement because side sleeping is unstable and unsafe
+    summary: >-
+      In Australia, the institutional carrier was a diffuse medical and infant-care advice network rather than a single
+      national rule. Prone placement became common while retrospective evidence accumulated but remained contested.
+      Prospective Tasmanian research helped make the association persuasive. Community Services Victoria changed advice
+      in July 1990; the National SIDS Council launched a national campaign in June 1991; a July meeting advised that healthy
+      infants should not sleep prone; and NHMRC recommended side or back sleep in October. Prone prevalence and SIDS deaths
+      then declined sharply, alongside other safe-sleep and risk-reduction messages. Later guidance narrowed the placement
+      recommendation from side-or-back to back only.
     mechanism:
       kind: education
       summary: >-
-        Health professionals, hospitals, infant-care services and parent-education materials repeated prone-sleep advice,
-        making an untested recommendation part of routine infant-care guidance.
+        Medical and infant-care advice repeated plausible but insufficiently tested reasons for prone sleep, and routine
+        professional counseling translated those reasons into household practice. The sources establish a broad advice
+        environment and observed prevalence; they do not identify a single Australian authority that mandated prone sleep.
     institutionalCorrection:
       status: corrected
-      periodLabel: '1991'
-      action: National health campaigns and the NHMRC advised that healthy babies generally should not sleep prone.
+      periodLabel: July 1990–October 1991; later refined to back only
+      action: >-
+        Community Services Victoria, the National SIDS Council of Australia and NHMRC replaced routine prone advice with
+        nonprone guidance and public education; subsequent guidance dropped the initially permitted side position.
       summary: >-
-        Australian research prompted a national reversal in 1991, when health campaigns and the NHMRC advised against
-        routine prone sleep for healthy infants.
+        The Australian correction unfolded through state nursing advice, a national parent-organization campaign,
+        research translation and an NHMRC statement. The October 1991 NHMRC statement recommended side or back rather
+        than the current back-only standard, so the record distinguishes the decisive rejection of prone sleep from the
+        later refinement of safe-sleep guidance.
   - id: east-germany-1971-1972
     polity: East Germany
     region: Eastern Europe
     startYear: 1971
     endYear: 1972
-    strength: officially-endorsed
-    institutionTypes: [government, medical, education]
+    periodLabel: 1971–8 June 1972
+    strength: institutionally-influential
+    institutionTypes:
+      - government
+      - medical
+      - education
     institutions:
-      - Pediatric services of the German Democratic Republic
-      - State day-care health system
+      - Pediatricians in the German Democratic Republic
+      - State day-care centres
+      - Regional and national child-mortality committees
       - Ministry of Health
+    institutionalContext: >-
+      A retrospective study using mortality statistics, archival material and witness interviews reports that East German
+      pediatricians followed the international recommendation of prone sleep and that state day-care centres used it.
+      The source does not identify a ministry order requiring prone placement, so the episode is classified as
+      institutionally influential rather than officially endorsed. East Germany's compulsory autopsies and district
+      mortality committees allowed day-care deaths to be reviewed quickly and reported to a national committee in Berlin.
     consequences:
-      - Prone placement of infants in state day care
-      - Preventable infant deaths
-      - Rapid reversal of official child-care guidance
-    summary: Pediatricians in East Germany followed the international recommendation that infants sleep prone, and the practice was used in the state day-care system. After seven infants died while sleeping prone in day care in 1971, the Ministry of Health reviewed the deaths and in June 1972 issued guidelines sharply restricting prone positioning during sleep and limiting it to supervised exercise while awake.
+      - Seven infants died while sleeping prone in East German day care in 1971; the evidence does not attribute each death conclusively to position
+      - The clustered deaths triggered expert meetings and review through the state child-mortality monitoring system
+      - The Ministry of Health restricted unsupervised prone positioning in day-care sleep within the following year
+      - A 1991 survey still found much less prone sleeping among infants in East Berlin than West Berlin, although that comparison cannot isolate the effect of the 1972 directive
+    summary: >-
+      Prone sleep entered East German pediatric recommendation and state day-care practice in 1971. Seven infants then
+      died while sleeping prone in day care. The mortality-monitoring system escalated the cases, and the Ministry of
+      Health issued a directive on 8 June 1972. It prohibited prone placement without continuous supervision during sleep
+      and in several other circumstances, and reserved recommended prone positioning for closely supervised muscular
+      training while awake. The response was early and official, but the historical evidence does not prove that prone
+      position caused every triggering death or that the preceding practice had been ordered by the ministry.
     mechanism:
       kind: administrative-adoption
       summary: >-
-        Pediatric services and the state day-care system adopted prone positioning as routine infant-care practice under
-        official health administration.
+        Pediatric recommendation was adopted as routine positioning in a state day-care system. Centralized death review
+        then used the same administrative network to identify the cluster and change practice quickly.
     institutionalCorrection:
       status: corrected
       periodLabel: June 1972
-      action: Ministry of Health guidelines sharply restricted prone positioning during sleep and limited it to supervised exercise while awake.
+      action: >-
+        The Ministry of Health prohibited unsupervised prone placement during sleep and specified that prone positioning
+        should be used for muscular training only while the infant was awake and closely supervised.
       summary: >-
-        After reviewing seven 1971 day-care deaths, the East German Ministry of Health rapidly reversed official guidance
-        and sharply restricted prone sleeping.
+        The June 1972 directive sharply restricted prone positioning in day-care centres. It was not worded as an absolute
+        ban in every circumstance: it listed prohibited conditions and retained closely supervised, awake prone exercise.
 sources:
   - id: nhmrc-safer-infant-sleeping
     title: A safer infant sleeping position
@@ -77,47 +167,222 @@ sources:
     title: Prevention of sudden infant death syndrome due to an active health monitoring system 20 years prior to the public “Back to Sleep” campaigns
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2065993/
     publisher: Archives of Disease in Childhood
+  - id: australia-sids-history
+    title: 'Sudden Infant Death Syndrome: History'
+    url: https://www.ncbi.nlm.nih.gov/books/NBK513390/
+    publisher: University of Adelaide Press / NCBI Bookshelf
+  - id: tasmanian-prone-campaign-study
+    title: 'An assessment of the impact of public health activities to reduce the prevalence of the prone sleeping position during infancy: the Tasmanian Cohort Study'
+    url: https://pubmed.ncbi.nlm.nih.gov/8078863/
+    publisher: Preventive Medicine / PubMed
+  - id: healthy-newborn-sleep-review
+    title: 'Effect of sleep position in term healthy newborns on sudden infant death syndrome and other infant outcomes: A systematic review'
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9284601/
+    publisher: Journal of Global Health / PubMed Central
+  - id: aap-safe-sleep-2022
+    title: 'Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment'
+    url: https://publications.aap.org/pediatrics/article/150/1/e2022057990/188304/Sleep-Related-Infant-Deaths-Updated-2022
+    publisher: American Academy of Pediatrics
+  - id: awmf-sids-guideline-2022
+    title: Prävention des Plötzlichen Säuglingstods
+    url: https://register.awmf.org/assets/guidelines/063-002l_S1_Praevention-des-Ploetzlichen-Sauuglingstods_2022-12_01.pdf
+    publisher: Association of the Scientific Medical Societies in Germany (AWMF)
 evidence:
   - id: prone-review-proposition
     sourceId: prone-sleep-systematic-review
-    relation: supports
+    relation: documents
     target: {scope: belief, aspect: proposition}
-    note: Finds that prone sleeping was recommended for decades on the basis of untested theory even though pooled evidence showed significantly increased SIDS risk by 1970.
-  - id: prone-review-correction
-    sourceId: prone-sleep-systematic-review
+    locator: Abstract; pp. 875–877, Historical review and Table 1
+    note: >-
+      The review found that infant-care books and pamphlets recommended front sleeping between 1943 and 1988 on the basis
+      of untested theory, including fear of choking on vomit. Its historical sample was drawn from UK library collections
+      and included mixed recommendations, so it does not establish one universal practice.
+  - id: prone-nhmrc-proposition
+    sourceId: nhmrc-safer-infant-sleeping
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Grants and Investment, paragraph 1
+    note: >-
+      NHMRC describes a rise in prone sleeping among healthy infants across many Western countries from the late 1960s
+      into the 1980s, attributes it to nonscientifically tested advice and records delayed medical acceptance of the risk.
+  - id: prone-east-germany-proposition
+    sourceId: east-germany-sids-history
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Results, historical-investigation paragraph and following 1971–1972 paragraph
+    note: >-
+      The archival and interview study states that pediatricians in the GDR followed the international prone-sleep
+      recommendation and that seven infants died while sleeping in that position in day care in 1971.
+  - id: prone-modern-review-correction
+    sourceId: healthy-newborn-sleep-review
     relation: supports
     target: {scope: belief, aspect: correction}
-  - id: prone-australia-carrier
+    locator: Abstract; Results, SIDS subsection; Discussion; Conclusions
+    note: >-
+      The 2022 review pooled 26 observational studies with 59,332 infants. Supine sleep was associated with lower SIDS
+      odds than nonsupine sleep (OR 0.51, 95% CI 0.42–0.61), but the authors rated the evidence very low certainty because
+      most studies had serious risk of bias and substantial heterogeneity.
+  - id: prone-aap-correction
+    sourceId: aap-safe-sleep-2022
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Recommendations to Reduce the Risk of Sleep-Related Infant Deaths, item 1 and its bullets
+    note: >-
+      The AAP recommends supine placement for every sleep until age one, says side sleep is unsafe, and states that a flat
+      supine position does not increase choking or aspiration even with gastroesophageal reflux. It separately recommends
+      supervised, awake tummy time.
+  - id: prone-awmf-correction
+    sourceId: awmf-sids-guideline-2022
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: pp. 5–6, Prävention, recommendations and notes
+    note: >-
+      The German multidisciplinary guideline recommends back sleep on a firm horizontal surface for all newborns and
+      distinguishes this from short periods of observed prone positioning while awake.
+  - id: prone-review-impact
+    sourceId: prone-sleep-systematic-review
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Abstract, Results and Conclusions; cumulative meta-analysis figures
+    note: >-
+      The retrospective cumulative analysis found a statistically significant association by 1970 for prone versus
+      supine sleep (pooled OR 2.93, 95% CI 1.15–7.47). This dates pooled evidence in hindsight, not contemporary consensus.
+  - id: prone-nhmrc-impact
     sourceId: nhmrc-safer-infant-sleeping
     relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Results and Translation; Health Outcomes and Impact
+    note: >-
+      NHMRC records the 1991 research and campaign sequence, the rapid Tasmanian decline, and an Australian fall from 522
+      recorded SIDS deaths in 1985 to 73 in 2003. The national figures cover a multifactor intervention era and are not a
+      victim count attributable solely to position.
+  - id: prone-east-germany-impact
+    sourceId: east-germany-sids-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Results; Discussion; What this study adds
+    note: >-
+      The study reports the seven 1971 day-care deaths, the 1972 response and lower later prone prevalence and mortality
+      in East than West Germany. Its historical and ecological comparisons support context, not individual causation.
+  - id: prone-australia-history-impact
+    sourceId: australia-sids-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Theories and Research Milestones; Prevention and “Reduce the Risk” Campaigns
+    note: >-
+      The Australian history describes the major mortality decline after risk-reduction campaigns and also explains that
+      messages changed over time, including the later removal of side sleeping from the recommendation.
+  - id: prone-australia-carrier
+    sourceId: nhmrc-safer-infant-sleeping
+    relation: documents
     target: {scope: episode, episodeId: australia-1970-1991, aspect: carrier}
-    note: Describes the rise of prone sleeping from the late 1960s and 1970s because of untested advice, the medical community's delayed acceptance of risk, and Australia's 1991 national recommendation against prone sleep.
+    locator: Grants and Investment, paragraph 1; Research
+    note: >-
+      NHMRC documents a broad Western rise in prone sleep attributed to untested advice and delayed medical acceptance of
+      the association. It supports a diffuse Australian professional context, not a single national mandate or uniform
+      adoption by all clinicians and hospitals.
   - id: prone-australia-mechanism
     sourceId: nhmrc-safer-infant-sleeping
     relation: supports
     target: {scope: episode, episodeId: australia-1970-1991, aspect: mechanism}
-  - id: prone-australia-consequences
+    locator: Grants and Investment, paragraph 1; Results and Translation
+    note: >-
+      The case study identifies advice to parents as the route by which prone sleeping became more prevalent and contrasts
+      that advice with the later prospective evidence and organized public-health messaging.
+  - id: prone-tasmania-consequences
+    sourceId: tasmanian-prone-campaign-study
+    relation: supports
+    target: {scope: episode, episodeId: australia-1970-1991, aspect: consequences}
+    locator: PubMed abstract, Results
+    note: >-
+      The cohort study reports that usual prone sleeping fell from 29.9% before publication and campaign activity to 5.4%
+      in the following cohort year (relative risk 0.18, 95% CI 0.15–0.22).
+  - id: prone-nhmrc-australia-consequences
     sourceId: nhmrc-safer-infant-sleeping
     relation: supports
     target: {scope: episode, episodeId: australia-1970-1991, aspect: consequences}
-  - id: prone-australia-correction
+    locator: Research; Results and Translation; Health Outcomes and Impact
+    note: >-
+      NHMRC connects the Tasmanian prospective findings to the 1991 response and subsequent decline, while describing
+      prone position as one environmental stressor among several relevant SIDS risk factors.
+  - id: prone-australia-history-correction
+    sourceId: australia-sids-history
+    relation: documents
+    target: {scope: episode, episodeId: australia-1970-1991, aspect: institutional-correction}
+    locator: Prevention and “Reduce the Risk” Campaigns, paragraphs 1–5
+    note: >-
+      The history dates the first recorded policy change to Community Services Victoria in July 1990, the national campaign
+      to June 1991, and the later evolution from side-or-back to back-only advice.
+  - id: prone-nhmrc-australia-correction
     sourceId: nhmrc-safer-infant-sleeping
     relation: documents
     target: {scope: episode, episodeId: australia-1970-1991, aspect: institutional-correction}
+    locator: Results and Translation, paragraphs 1–3 and reproduced October 1991 NHMRC statement
+    note: >-
+      NHMRC dates the national campaign, July recommendation and October statement. The reproduced statement recommended
+      side or back, so it documents rejection of prone sleep without being silently rewritten as today's back-only rule.
+  - id: prone-review-australia-context
+    sourceId: prone-sleep-systematic-review
+    relation: contextualizes
+    target: {scope: episode, episodeId: australia-1970-1991, aspect: context}
+    locator: Abstract; pp. 875–877, Historical review and Table 1
+    note: >-
+      The review explains the aspiration and comfort rationales circulating in infant-care literature and reconstructs
+      evidence available over time. Its historical recommendations sample was British, so it contextualizes rather than
+      independently proves the Australian carrier.
+  - id: prone-modern-review-australia-context
+    sourceId: healthy-newborn-sleep-review
+    relation: contextualizes
+    target: {scope: episode, episodeId: australia-1970-1991, aspect: context}
+    locator: Results, SIDS subsection; Discussion, final five paragraphs
+    note: >-
+      The modern review shows why the correction rests largely on consistent observational evidence and guideline judgment,
+      while making the low certainty and study heterogeneity explicit.
+  - id: prone-aap-australia-context
+    sourceId: aap-safe-sleep-2022
+    relation: contextualizes
+    target: {scope: episode, episodeId: australia-1970-1991, aspect: context}
+    locator: Recommendations to Reduce the Risk of Sleep-Related Infant Deaths, item 1 and its bullets
+    note: >-
+      Current AAP back-only guidance supplies a dated comparison with Australia's initial side-or-back correction. It does
+      not establish when each Australian institution adopted the later refinement.
   - id: prone-east-germany-carrier
     sourceId: east-germany-sids-history
-    relation: supports
+    relation: documents
     target: {scope: episode, episodeId: east-germany-1971-1972, aspect: carrier}
-    note: Reconstructs East Germany's prone-sleep recommendation, the seven 1971 day-care deaths, and the Ministry of Health's June 1972 reversal.
+    locator: Results, historical-investigation paragraph and following 1971–1972 paragraph
+    note: >-
+      The study says GDR pediatricians recommended the international prone practice and that it was used in day care. It
+      does not identify a Ministry of Health directive ordering prone sleep before the 1972 restriction.
   - id: prone-east-germany-mechanism
     sourceId: east-germany-sids-history
-    relation: supports
+    relation: documents
     target: {scope: episode, episodeId: east-germany-1971-1972, aspect: mechanism}
+    locator: Results, description of mortality committees and 1971–1972 response
+    note: >-
+      The paper describes both adoption through pediatric and day-care practice and the compulsory autopsy, district
+      review and national reporting system that detected the cluster and carried the corrective guidance.
   - id: prone-east-germany-consequences
     sourceId: east-germany-sids-history
     relation: supports
     target: {scope: episode, episodeId: east-germany-1971-1972, aspect: consequences}
+    locator: Results and Discussion
+    note: >-
+      Seven infants died while sleeping prone in day care in 1971, prompting expert meetings. Later East–West differences
+      are ecological evidence and do not establish the cause of each death or isolate the directive's effect.
   - id: prone-east-germany-correction
     sourceId: east-germany-sids-history
     relation: documents
     target: {scope: episode, episodeId: east-germany-1971-1972, aspect: institutional-correction}
+    locator: Results, paragraph beginning “Following the international recommendation”
+    note: >-
+      The paper dates the ministry guidance to June 1972 and details its restrictions, including no unsupervised prone
+      sleep and prone muscular training only while awake under close supervision.
+  - id: prone-awmf-east-germany-context
+    sourceId: awmf-sids-guideline-2022
+    relation: contextualizes
+    target: {scope: episode, episodeId: east-germany-1971-1972, aspect: context}
+    locator: pp. 5–6, Prävention, recommendations and notes
+    note: >-
+      The current German multidisciplinary guideline recommends back sleep on a firm horizontal surface and supervised
+      prone positioning only while awake. It documents the present standard, not continuous operation of the GDR rule.

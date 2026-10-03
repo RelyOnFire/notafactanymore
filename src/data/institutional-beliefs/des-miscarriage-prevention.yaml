@@ -6,7 +6,7 @@ proposition:
 correction:
   summary: Controlled trials found no benefit from DES for preventing miscarriage or other adverse pregnancy outcomes, and prenatal exposure can cause serious long-term harms in offspring, including an increased risk of clear-cell adenocarcinoma and reproductive abnormalities. DES should not be used during pregnancy.
 category: Obstetrics and drug regulation
-reviewedAt: '2026-08-26'
+reviewedAt: '2026-09-19'
 episodes:
   - id: united-states-1947-1971
     polity: United States
@@ -25,7 +25,7 @@ episodes:
       - Continued exposure of pregnant women and fetuses after controlled trials had failed to show the intended benefit
       - Increased risk of clear-cell adenocarcinoma of the vagina and cervix among women exposed in utero
       - Long-term reproductive and other health abnormalities among DES-exposed offspring
-      - A multigenerational drug-safety legacy requiring decades of follow-up and surveillance
+      - Decades of follow-up of exposed mothers and offspring, with research into possible health effects in subsequent generations
     summary: In 1947 the FDA approved DES for marketing as a miscarriage preventive, institutionalizing a treatment rationale that had been built largely on uncontrolled evidence. Better trials in the 1950s showed that the treatment did not prevent the pregnancy complications for which it was being prescribed, but use persisted. The decisive regulatory reversal came in 1971, when evidence linked prenatal DES exposure to a rare cancer in young women and the FDA warned clinicians not to prescribe DES during pregnancy.
     mechanism:
       kind: administrative-adoption
@@ -37,8 +37,8 @@ episodes:
       periodLabel: '1971'
       action: Required pregnancy to be listed as a contraindication and warned physicians not to prescribe DES during pregnancy.
       summary: >-
-        In 1971 the FDA reversed the pregnancy indication after prenatal DES exposure was linked to clear-cell
-        adenocarcinoma, notified physicians and required pregnancy to be listed as a contraindication.
+        In 1971, after prenatal DES exposure was linked to clear-cell adenocarcinoma, the FDA warned physicians
+        against prescribing DES during pregnancy and required pregnancy to be listed as a contraindication.
 sources:
   - id: des-case-study
     title: DES Case Study — Women and Health Research
@@ -59,33 +59,39 @@ sources:
 evidence:
   - id: des-case-proposition
     sourceId: des-case-study
-    relation: supports
+    relation: documents
     target:
       scope: belief
       aspect: proposition
+    locator: History of Development and Testing of DES, paragraphs 1–2 (uncontrolled studies, 1947 FDA approvals and subsequent controlled trials).
     note: Authoritative historical case study stating that the FDA approved NDAs in 1947 to market DES for miscarriage prevention, that controlled 1950s studies found no benefit, and that DES nevertheless continued to be administered to pregnant women for years afterward.
   - id: des-fda-carrier
-    sourceId: fda-des-history
+    sourceId: des-case-study
     relation: documents
     target:
       scope: episode
       episodeId: united-states-1947-1971
       aspect: carrier
-    note: FDA history describing DES use as prophylaxis against preterm labor, miscarriage and other pregnancy complications, its spread into routine pregnancy use, and the agency's 1971 warning against treating pregnant women with DES.
+    locator: History of Development and Testing of DES, paragraphs 1–2, particularly the 1947 new drug applications in paragraph 1.
+    note: Authoritative historical case study stating that the FDA approved NDAs in 1947 to market DES for miscarriage prevention, that controlled 1950s studies found no benefit, and that DES nevertheless continued to be administered to pregnant women for years afterward.
   - id: des-fda-mechanism
-    sourceId: fda-des-history
+    sourceId: des-case-study
     relation: documents
     target:
       scope: episode
       episodeId: united-states-1947-1971
       aspect: mechanism
+    locator: History of Development and Testing of DES, paragraphs 1–2 (marketing approval and later controlled studies).
+    note: The recorded 1947 approvals permitted marketing for miscarriage prevention; subsequent controlled studies did not validate the intended benefit. This documents the regulatory route into obstetric use rather than proof of efficacy.
   - id: des-case-consequences
     sourceId: des-case-study
-    relation: supports
+    relation: documents
     target:
       scope: episode
       episodeId: united-states-1947-1971
       aspect: consequences
+    locator: History of Development and Testing of DES, paragraph 2, describing continued administration for the next 20 years despite evidence of ineffectiveness.
+    note: The case study records continued prescribing to pregnant women for roughly two decades after controlled studies had failed to show benefit, documenting the continued exposure of women and fetuses.
   - id: des-bulletin-institutional-correction
     sourceId: fda-des-bulletin-1971
     relation: documents
@@ -93,6 +99,7 @@ evidence:
       scope: episode
       episodeId: united-states-1947-1971
       aspect: institutional-correction
+    locator: November 1971 FDA Drug Bulletin, reprinted in California Medicine 116(2), February 1972, p. 85, introductory notice and numbered precautions 1–2.
     note: Reproduction of the 1971 FDA Drug Bulletin announcing pregnancy as a contraindication after the association between maternal DES use and clear-cell adenocarcinoma in exposed offspring.
   - id: des-nci-correction
     sourceId: nci-des-fact-sheet
@@ -100,4 +107,64 @@ evidence:
     target:
       scope: belief
       aspect: correction
+    locator: What is DES?; What is the cancer risk of people who were exposed to DES in utero?; Do the children of women who took DES have problems with fertility and pregnancy?
     note: Current evidence summary stating that DES was prescribed in pregnancy to prevent miscarriage and premature labor, that 1950s studies showed it was ineffective, and that prenatal exposure is associated with cancer and other long-term health risks.
+  - id: des-fda-proposition
+    sourceId: fda-des-history
+    relation: documents
+    target:
+      scope: belief
+      aspect: proposition
+    locator: Diethylstilbestrol Lilly approved 1941, first paragraph, describing prophylactic indications and prescribing during pregnancy.
+    note: The FDA's historical exhibit records the use of DES to prevent preterm labor, miscarriage and other pregnancy complications, including its spread from high-risk into routine pregnancies.
+  - id: des-fda-history-context
+    sourceId: fda-des-history
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: united-states-1947-1971
+      aspect: context
+    locator: Diethylstilbestrol Lilly approved 1941, first paragraph (indications and prescribing) and final sentence (FDA's 1971 drug alert).
+    note: FDA history describing DES use as prophylaxis against preterm labor, miscarriage and other pregnancy complications, its spread into routine pregnancy use, and the agency's 1971 warning against treating pregnant women with DES.
+  - id: des-case-context
+    sourceId: des-case-study
+    relation: documents
+    target:
+      scope: episode
+      episodeId: united-states-1947-1971
+      aspect: context
+    locator: History of Development and Testing of DES, paragraphs 1–2.
+    note: The case study connects the early uncontrolled treatment rationale, the FDA's 1947 marketing approvals, the negative controlled studies of the 1950s and continued prescribing despite those findings.
+  - id: des-nci-cancer-consequences
+    sourceId: nci-des-fact-sheet
+    relation: supports
+    target:
+      scope: episode
+      episodeId: united-states-1947-1971
+      aspect: consequences
+    locator: What is DES?; What is the cancer risk of people who were exposed to DES in utero?, clear-cell adenocarcinoma item.
+    note: >-
+      Current evidence summary stating that DES was prescribed in pregnancy to prevent miscarriage and premature labor, that 1950s studies showed it was ineffective, and that prenatal exposure is associated with cancer and other long-term health risks.
+      Its cancer-risk section identifies the increased risk of clear-cell adenocarcinoma in prenatally exposed women while noting that this cancer remains rare.
+  - id: des-nci-reproductive-consequences
+    sourceId: nci-des-fact-sheet
+    relation: supports
+    target:
+      scope: episode
+      episodeId: united-states-1947-1971
+      aspect: consequences
+    locator: Do the children of women who took DES have problems with fertility and pregnancy?; What other health issues or characteristics might DES daughters and DES sons have?
+    note: >-
+      NCI describes reproductive and pregnancy risks in women exposed before birth and testicular abnormalities in exposed men, without finding an increased risk of male infertility.
+      Its other-health-issues section describes additional risks and the limits of the evidence.
+  - id: des-nci-follow-up-consequences
+    sourceId: nci-des-fact-sheet
+    relation: documents
+    target:
+      scope: episode
+      episodeId: united-states-1947-1971
+      aspect: consequences
+    locator: What is the focus of current research on DES exposure?; Where can DES-exposed people get additional information?, DES Follow-up Study; What health issues might DES grandchildren have?
+    note: >-
+      NCI describes long-term follow-up of exposed mothers and offspring since 1992, with third-generation women added in 2000.
+      It treats health effects in grandchildren as a continuing research question, with several reported associations based on small numbers of events.

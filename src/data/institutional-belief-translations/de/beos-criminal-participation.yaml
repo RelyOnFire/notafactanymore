@@ -1,72 +1,148 @@
+schemaVersion: 2
 locale: de
 entryId: beos-criminal-participation
-sourceReviewedAt: '2026-08-24'
+sourceReviewedAt: '2026-09-27'
 title: BEOS-Hirnprofiling als Nachweis einer Tatbeteiligung
-claim: Beim Brain Electrical Oscillation Signature Profiling (BEOS) wurde angenommen, dass sich Erlebniswissen aus
-  der persönlichen Beteiligung an einer Straftat von Wissen unterscheiden lasse, das durch Berichte, Beobachtung
-  oder andere Vertrautheit mit dem Geschehen entstanden ist, und dass sich daraus auf eine Tatbeteiligung schließen
-  lasse.
-currentUnderstanding: EEG-basierte Experimente können unter kontrollierten Bedingungen Aspekte von Wiedererkennung
-  und Gedächtnis erfassen. Die weitergehende forensische Schlussfolgerung von BEOS – aus einem Muster der Hirnaktivität
-  abzuleiten, ob eine Person eine konkrete Tat selbst begangen oder an ihr teilgenommen hat – ist jedoch nicht als
-  zuverlässig validiertes Verfahren für Einzelfälle belegt. Erinnerungen können einer falschen Quelle zugeschrieben,
-  suggeriert, eingeübt, kontaminiert oder subjektiv aufrichtig und dennoch falsch sein. Aus dem Nachweis einer Erinnerung
-  lässt sich daher nicht zuverlässig ableiten, dass die untersuchte Person die erinnerte Handlung selbst ausgeführt
-  hat. Es gibt zwar BEOS-Studien mit positiven Ergebnissen, doch keine robuste unabhängige Validierung und keine
-  bekannte Fehlerrate, die eine zuverlässige Bestimmung strafrechtlicher Tatbeteiligung im realen Einsatz belegen
-  würde.
+proposition:
+  summary: >-
+    Beim Brain Electrical Oscillation Signature Profiling (BEOS) wurde angenommen, dass sich Erlebniswissen aus der
+    persönlichen Beteiligung an einer Straftat von Wissen unterscheiden lasse, das durch Berichte, Beobachtung oder
+    andere Vertrautheit mit dem Geschehen entstanden ist, und dass sich daraus die Tatbeteiligung eines Beschuldigten
+    ableiten lasse.
+correction:
+  summary: >-
+    EEG-Forschung kann unter kontrollierten Bedingungen bestimmte Formen von Wiedererkennung und Erinnerung erfassen.
+    Damit ist die weitergehende BEOS-Schlussfolgerung von einer Hirnreaktion auf die persönliche Beteiligung an einer
+    konkreten Straftat jedoch nicht validiert. Unschuldige Personen können Tatdetails kennen, Erinnerungen können
+    suggeriert, verzerrt oder einer falschen Quelle zugeschrieben werden, und die Erinnerung an ein Ereignis belegt
+    nicht, dass die untersuchte Person es selbst ausgeführt hat. Die öffentlich zugängliche Evidenz weist weder eine
+    bekannte Fehlerrate im realen Einsatz noch eine robuste unabhängige Validierung solcher BEOS-Feststellungen nach;
+    eine aktuelle wissenschaftliche Übersicht hält das Verfahren für nicht ausreichend streng begutachtet, um seine
+    Behauptungen unabhängig prüfen zu können.
 impact:
-  summary: Indische Forensikeinrichtungen setzten BEOS bei Beschuldigten und Zeugen als Ermittlungsinstrument ein;
-    in frühen Verfahren berücksichtigten Gerichte die behaupteten Signaturen von Erlebniswissen zusammen mit anderen
-    Beweisen. Der Supreme Court untersagte später die unfreiwillige Anwendung vergleichbarer Brain-Mapping-Verfahren
-    und schloss selbst freiwillig gewonnene Testergebnisse als unmittelbar verwertbaren Beweis aus. Staatliche Forensik-
-    und nationale Ausbildungseinrichtungen führen BEOS dennoch weiter und beschreiben es weiterhin als Instrument
-    zur Schlussfolgerung auf Tatbeteiligung.
+  summary: >-
+    Maharashtras Forensiklabor untersuchte Beschuldigte und Zeugen mit BEOS; 2008 stützte sich ein Sessions Court in
+    Pune bei einer Mordverurteilung teilweise auf einen BEOS-Befund. Bis dahin waren in einem Labor Berichten zufolge
+    in weniger als zwei Jahren mehr als 75 Personen getestet worden. Später untersagte der Supreme Court unfreiwillige
+    BEAP- und verwandte Tests sowie die unmittelbare Verwertung freiwillig gewonnener Testergebnisse, entschied aber
+    nicht ausdrücklich über BEOS. Das Labor in Maharashtra führt BEOS weiterhin als verfügbares Ermittlungsverfahren
+    und beschreibt es weiterhin als Nachweis von Erlebniswissen aus der Beteiligung an einer Straftat.
   highlights:
-  - value: '2008'
-    label: Gerichte in Maharashtra berücksichtigten BEOS-Befunde in Mordverfahren
-  - value: 75+
-    label: Beschuldigte und Zeugen waren bis 2008 Berichten zufolge in einem Labor in Maharashtra mit BEOS untersucht
-      worden
-  - value: '2026'
-    label: Maharashtras staatliches Forensiklabor beschreibt BEOS weiterhin als Nachweis von Erlebniswissen aus
-      Tatbeteiligung
+    - value: '2008'
+      label: Ein Sessions Court in Pune stützte die Mordverurteilung Sharma teilweise auf BEOS
+    - value: 75+
+      label: Beschuldigte und Zeugen wurden Berichten zufolge in einem Labor binnen weniger als zwei Jahren untersucht
+    - value: '2026'
+      label: Maharashtras staatliches Forensiklabor führt BEOS weiterhin als verfügbares Verfahren
   context:
-  - Die umstrittene BEOS-Schlussfolgerung betrifft speziell den Schluss von Hirnreaktionen auf die persönliche
-    Beteiligung an einem Ereignis. EEG kann Hirnaktivität messen, Verfahren zur Wiedererkennung im Gedächtnis sind
-    nicht grundsätzlich ungültig, und eine erkannte Erinnerung kann Ermittlungswert haben; daraus folgt jedoch nicht,
-    dass BEOS eine Tatbeteiligung zuverlässig beweisen kann.
-  - Selvi v. State of Karnataka schaffte BEOS nicht durch ein wissenschaftliches Urteil ab. Der Supreme Court behandelte
-    BEAP und verwandte Verfahren, untersagte deren unfreiwillige Anwendung, verlangte Schutzvorkehrungen bei freiwilligen
-    Tests und erklärte die Testergebnisse selbst für nicht unmittelbar als Beweis verwertbar. Das fortbestehende
-    institutionelle Problem liegt daher in der Ermittlungsnutzung und in der daran geknüpften Tatsachenbehauptung.
+    - >-
+      Umstritten ist der Schluss von einer gemessenen Reaktion auf die persönliche Beteiligung an einer Straftat. EEG
+      kann Hirnaktivität messen, und manche Forschung kann unter begrenzten Bedingungen Wiedererkennung oder
+      Erinnerungsarten unterscheiden; daraus folgt nicht, dass BEOS zuverlässig bestimmt, wer eine reale Tat begangen hat.
+    - >-
+      Selvi v. State of Karnataka behandelte Narcoanalyse, Polygraphie und das Brain Electrical Activation Profile
+      (BEAP), nicht BEOS als ausdrücklich benanntes Verfahren. Eine begutachtete juristisch-naturwissenschaftliche
+      Analyse folgert, dass Begründung und Ergebnis des Urteils wahrscheinlich auch auf BEOS anwendbar wären. Dies ist
+      jedoch die Einschätzung der Autoren und keine ausdrückliche Entscheidung des Supreme Court über BEOS.
+    - >-
+      Die Auflistung von BEOS-Geräten an der NFSU Delhi dokumentiert Infrastruktur für Lehre und Forschung. Sie
+      behauptet selbst nicht, dass BEOS eine Tatbeteiligung zuverlässig bestimmt; die Universität wird deshalb als
+      Kontext und nicht als Trägerin der Behauptung behandelt.
 episodes:
-- id: india-2008-2026
-  polity: Indien
-  institutions:
-  - Directorate of Forensic Science Laboratories, Maharashtra
-  - Pune Sessions Court
-  - National Forensic Sciences University (NFSU)
-  institutionalContext: 'Spätestens 2008 setzte das staatliche Forensiklabor Maharashtras BEOS in Strafverfahren
-    ein; Sessions Courts berücksichtigten Sachverständigenaussagen, die Hirnreaktionen als Erlebniswissen im Zusammenhang
-    mit den vorgeworfenen Taten deuteten. 2010 untersagte der Supreme Court die unfreiwillige Anwendung von BEAP
-    und verwandten Verfahren und entschied, dass auch freiwillig gewonnene Testergebnisse nicht selbst als Beweis
-    verwertbar sind, ließ aber eine freiwillige Ermittlungsnutzung unter Schutzvorkehrungen offen. Die zugrunde
-    liegende institutionelle Behauptung besteht dennoch fort: Maharashtras heutige Directorate of Forensic Science
-    Laboratories beschreibt BEOS als Verfahren zum Nachweis von Erlebniswissen, das durch Beteiligung an kriminellen
-    Handlungen erworben wurde; zugleich hält die NFSU in Delhi BEOS-Geräte für Ausbildung und Forschung vor.'
-  summary: 'Indische Forensikeinrichtungen übernahmen BEOS, um daraus abzuleiten, ob kriminalitätsbezogenes Wissen
-    im Gehirn einer Person aus eigener Erfahrung stamme. 2008 berücksichtigten Gerichte in Maharashtra BEOS-Befunde
-    in Mordverfahren; ein staatliches Labor hatte zu diesem Zeitpunkt bereits Dutzende Beschuldigte und Zeugen untersucht.
-    Wissenschaftliche Gutachter bestritten, dass das Verfahren persönliche Tatbeteiligung zuverlässig von anderen
-    Erinnerungsquellen unterscheiden könne, und der Supreme Court setzte der unfreiwilligen Anwendung sowie der
-    unmittelbaren Beweisverwertung später verfassungsrechtliche Grenzen. Die zentrale Tatsachenbehauptung bleibt
-    jedoch institutionell aktiv: 2026 beschreibt Maharashtras Forensiklabor BEOS weiterhin als Nachweis von Erlebniswissen
-    aus Tatbeteiligung, und eine nationale Forensikuniversität bildet weiterhin mit der Technik aus.'
-  consequences:
-  - Hirnbasierte forensische Untersuchungen von Beschuldigten und Zeugen
-  - Ermittlungsfolgerungen darüber, ob eine Person an einer Straftat beteiligt war
-  - Nutzung von BEOS-Befunden zur Steuerung von Vernehmungen, Korroboration und weiterer Beweissuche
-  - Frühe gerichtliche Berücksichtigung vermeintlicher Signaturen von Erlebniswissen
-  - Risiko falscher Belastung, wenn erlernte, suggerierte, kontaminierte oder anderweitig erinnerte Informationen
-    als Tatbeteiligung eingeordnet werden
+  - id: india-2008-2026
+    polity: Indien
+    periodLabel: 2008–heute
+    institutions:
+      - Directorate of Forensic Science Laboratories, Maharashtra
+      - Pune Sessions Court
+    institutionalContext: >-
+      Spätestens 2008 setzte Maharashtras staatliches Forensiklabor BEOS in Strafverfahren ein und berichtete, ob
+      untersuchte Personen Erlebniswissen zu Tatdetails zeigten. Ein Sessions Court in Pune stützte sich bei der
+      Mordverurteilung von Aditi Sharma teilweise auf einen solchen Befund. Ein staatlicher Ausschuss kritisierte BEOS,
+      doch die Directorate of Forensic Science löste ihn vor einem Abschlussbericht auf und wies den Zwischenbericht
+      zurück. Anschließend begrenzte der Supreme Court mit einem Urteil zu BEAP und anderen ausdrücklich genannten
+      Verfahren unfreiwillige hirnbasierte Tests und deren Beweisverwertung. Maharashtras aktueller Laborauftritt bietet
+      BEOS dennoch weiter an und wiederholt die umstrittene Beteiligungsschlussfolgerung, nennt aber Einwilligungs- und
+      Zulässigkeitsgrenzen.
+    consequences:
+      - Beschuldigte und Zeugen wurden hirnbasierten forensischen Untersuchungen unterzogen
+      - Ermittler erhielten Befunde darüber, ob Personen Erlebniswissen zu Tatdetails besaßen
+      - Ein Tatgericht stützte die Mordverurteilung von Aditi Sharma teilweise auf einen BEOS-Befund
+      - BEOS-Befunde konnten Vernehmungen, Korroborationsversuche und die Suche nach weiteren Beweisen lenken
+      - Streit über Einwilligung, Selbstbelastung und Zulässigkeit führte später zu gerichtlichen Schutzvorkehrungen
+    summary: >-
+      Die indische Forensikpraxis verwandelte Muster in EEG-Daten in Aussagen über die Herkunft des Wissens einer
+      Person. Maharashtras Labor nutzte solche Befunde in Ermittlungen, und ein Tatgericht behandelte einen davon als
+      belastendes Beweismittel. Wissenschaftliche Kritik und Verfassungsrechtsprechung schufen erhebliche Grenzen,
+      führten aber nicht zu einer abgeschlossenen institutionellen wissenschaftlichen Verwerfung von BEOS. Das Labor
+      beschreibt das Verfahren weiterhin als Nachweis von Erlebniswissen aus Tatbeteiligung; die Behauptung bleibt
+      daher unter strengeren rechtlichen Bedingungen institutionell aktiv.
+    mechanism:
+      summary: >-
+        Ein staatliches Forensiklabor wandte ein proprietäres EEG-Protokoll an, deutete die berechneten Signaturen als
+        Erlebniswissen zu einer Straftat und übermittelte solche Befunde an Ermittler und Gerichte; ein Sessions Court
+        verwendete das Sachverständigenergebnis anschließend zusammen mit anderen Beweisen.
+    institutionalCorrection:
+      periodLabel: 2007–2010 und fortdauernd
+      action: >-
+        Ein wissenschaftlicher Prüfausschuss legte einen kritischen Zwischenbericht vor, wurde aber vor einem
+        Abschlussbericht aufgelöst; 2010 untersagte der Supreme Court erzwungene Narcoanalyse-, Polygraphie- und
+        BEAP-Tests sowie die unmittelbare Verwertung freiwillig gewonnener Testergebnisse.
+      summary: >-
+        Beide Korrekturprozesse blieben hinter einem institutionellen wissenschaftlichen Widerruf von BEOS zurück. Die
+        Regierung übernahm die Kritik des Ausschusses nicht als Abschlussbericht, und Selvi untersuchte BEOS nicht
+        ausdrücklich. Spätere Fachliteratur hält die Urteilsbegründung für anwendbar. Maharashtras heutiges Labor verlangt
+        Einwilligung und bezeichnet BEOS als Ergänzung konventioneller Ermittlungen, bietet das Verfahren aber weiterhin
+        an und vertritt weiterhin die Schlussfolgerung auf Tatbeteiligung.
+evidence:
+  - id: beos-dfsl-proposition
+    note: >-
+      Die aktuelle amtliche Seite bezeichnet BEOS als EEG-basiertes Verfahren zum Nachweis von Erlebniswissen, das
+      durch Beteiligung an einer Straftat entstanden sei, und führt es unter den verfügbaren Verfahren des Fachbereichs.
+  - id: beos-murphy-rissman-correction
+    note: >-
+      Die begutachtete Analyse erläutert Quellenverwechslung, falsche oder verzerrte Erinnerungen, Falschpositive bei
+      informierten Unschuldigen und die Lücke zwischen dem Nachweis einer Erinnerung und dem Beweis ihrer Wahrheit oder Herkunft.
+  - id: beos-rissman-murphy-correction
+    note: >-
+      Die aktualisierte wissenschaftliche Übersicht stellt fest, dass BEOS nicht hinreichend streng begutachtet wurde
+      und ohne Offenlegung der genauen Methoden und Validierungsbedingungen nicht kritisch bewertet werden kann; sie
+      behandelt außerdem allgemeine Grenzen individueller forensischer Schlussfolgerungen aus Gedächtnistests.
+  - id: beos-murphy-rissman-impact
+    note: >-
+      Rekonstruiert das Verfahren Sharma, die teilweise gerichtliche Stützung auf BEOS und den Bericht, dass in einem
+      Labor in Maharashtra binnen weniger als zwei Jahren mehr als 75 Beschuldigte und Zeugen untersucht worden waren.
+  - id: beos-dfsl-maharashtra-carrier
+    note: >-
+      Übernommene amtliche Quelle zur Darstellung von BEOS als Verfahren der forensischen Psychologie durch das Labor in Maharashtra.
+  - id: beos-nfsu-context
+    note: >-
+      Führt BEOS-Geräte in einem neurokognitiv-elektrophysiologischen Labor für die Ausbildung von Studierenden und
+      Fachleuten auf; dies dokumentiert institutionelle Infrastruktur, nicht die unabhängige Validierung der Beteiligungsschlussfolgerung.
+  - id: beos-murphy-rissman-mechanism
+    note: >-
+      Beschreibt die proprietären EEG-Signaturen, den Laboreinsatz, die sachverständige Deutung und die gerichtliche
+      Stützung auf einen Befund von Erlebniswissen im Verfahren Sharma von 2008.
+  - id: beos-murphy-rissman-consequences
+    note: >-
+      Dokumentiert die Untersuchung von Beschuldigten und Zeugen, berichtete Geständnisse nach Tests und die Verwendung
+      eines BEOS-Befunds als Teil der Beweisgrundlage einer Mordverurteilung.
+  - id: beos-selvi-partial-correction
+    note: >-
+      Primärurteil zu Narcoanalyse, Polygraphie und BEAP: Erzwungene Tests sind verboten, freiwillige Tests erfordern
+      Schutzvorkehrungen, das Ergebnis selbst ist unzulässig, und später entdecktes Material kann nach Section 27 des
+      Evidence Act zugelassen werden. Das Urteil nennt BEOS nicht.
+  - id: beos-dfsl-current-carrier
+    note: >-
+      Aktuelle institutionelle Primärquelle, die BEOS für registrierte Fälle der Polizei oder anderer Ermittlungsstellen
+      anbietet, Einwilligung verlangt und das Verfahren als Ergänzung konventioneller Ermittlungen darstellt.
+  - id: beos-lok-sabha-review-context
+    note: >-
+      Das Innenministerium erklärte, der Ausschuss von 2007 habe Brain Mapping und BEOS begutachten sollen, sei aber
+      vor dem Abschlussbericht aufgelöst worden; die Directorate habe dem Zwischenbericht widersprochen und eigene
+      Gründe für die Beendigung der Prüfung genannt.
+  - id: beos-rissman-murphy-current-context
+    note: >-
+      Die Übersicht von 2024 berichtet, dass BEOS in Indien anscheinend weiterhin zur forensischen Beurteilung statt als
+      rechtlicher Schuldbeweis verwendet wird, und erläutert, warum die unveröffentlichten Details eine unabhängige
+      Bewertung der Behauptungen verhindern.

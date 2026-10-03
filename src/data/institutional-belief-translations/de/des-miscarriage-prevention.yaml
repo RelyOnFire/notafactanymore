@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: des-miscarriage-prevention
-sourceReviewedAt: '2026-08-26'
+sourceReviewedAt: '2026-09-19'
 title: DES zur Vorbeugung von Fehlgeburten
 proposition:
   summary: Diethylstilbestrol (DES) wurde als wirksame vorbeugende Behandlung gegen Fehlgeburten, Frühgeburten und andere ungünstige Schwangerschaftsverläufe eingesetzt.
@@ -16,15 +16,15 @@ episodes:
       - Weitere Exposition schwangerer Frauen und Föten, nachdem kontrollierte Studien keinen vorgesehenen Nutzen gezeigt hatten
       - Erhöhtes Risiko für klarzellige Adenokarzinome von Vagina und Gebärmutterhals bei im Mutterleib exponierten Frauen
       - Langfristige reproduktive und andere gesundheitliche Störungen bei DES-exponierten Nachkommen
-      - Über Generationen reichende Arzneimittelfolgen, die jahrzehntelange Nachbeobachtung und Überwachung erforderten
+      - Jahrzehntelange Nachbeobachtung exponierter Mütter und ihrer Kinder sowie Forschung zu möglichen gesundheitlichen Folgen in nachfolgenden Generationen
     mechanism:
       summary: >-
-        Die FDA-Zulassung neuer Arzneimittelanträge im Jahr 1947 erlaubte die Vermarktung von DES zur Vorbeugung von Fehlgeburten und gab dieser Behandlungsannahme einen formellen regulatorischen Weg in die Geburtshilfe.
+        Die Genehmigung von Zulassungsanträgen durch die FDA im Jahr 1947 erlaubte die Vermarktung von DES zur Vorbeugung von Fehlgeburten und gab dieser Behandlungsannahme einen formellen regulatorischen Weg in die Geburtshilfe, obwohl spätere kontrollierte Studien keinen Nutzen zeigten.
     institutionalCorrection:
       periodLabel: '1971'
       action: Die FDA schrieb Schwangerschaft als Kontraindikation vor und warnte Ärzte vor der Verschreibung von DES während der Schwangerschaft.
       summary: >-
-        1971 kehrte die FDA die Schwangerschaftsindikation um, nachdem pränatale DES-Exposition mit klarzelligem Adenokarzinom in Verbindung gebracht worden war.
+        1971, nachdem pränatale DES-Exposition mit klarzelligem Adenokarzinom in Verbindung gebracht worden war, warnte die FDA Ärzte vor der Verschreibung von DES während der Schwangerschaft und schrieb Schwangerschaft als Kontraindikation vor.
 evidence:
   - id: des-case-proposition
     note: >-
@@ -33,10 +33,17 @@ evidence:
       noch jahrelang Schwangeren verabreicht wurde.
   - id: des-fda-carrier
     note: >-
-      Die FDA-Geschichte beschreibt DES als Prophylaxe gegen Frühgeburt, Fehlgeburt und andere Schwangerschaftskomplikationen,
-      seine Verbreitung in der routinemäßigen Schwangerschaftsbehandlung und die Warnung der Behörde von 1971 vor der Anwendung bei Schwangeren.
+      Die maßgebliche historische Fallstudie hält fest, dass die FDA 1947 Arzneimittelzulassungen für die Vermarktung von DES
+      zur Vorbeugung von Fehlgeburten genehmigte, kontrollierte Studien der 1950er-Jahre keinen Nutzen zeigten und DES dennoch
+      noch jahrelang Schwangeren verabreicht wurde.
   - id: des-fda-mechanism
+    note: >-
+      Die dokumentierten Zulassungen von 1947 erlaubten die Vermarktung zur Vorbeugung von Fehlgeburten; spätere kontrollierte Studien bestätigten den vorgesehenen Nutzen nicht.
+      Dies belegt den regulatorischen Weg in die Geburtshilfe, nicht die Wirksamkeit.
   - id: des-case-consequences
+    note: >-
+      Die Fallstudie hält fest, dass DES Schwangeren noch ungefähr zwei Jahrzehnte lang verschrieben wurde, nachdem kontrollierte Studien keinen Nutzen gezeigt hatten.
+      Sie dokumentiert damit die fortgesetzte Exposition von Frauen und Föten.
   - id: des-bulletin-institutional-correction
     note: >-
       Wiedergabe des FDA Drug Bulletin von 1971, das nach dem Zusammenhang zwischen mütterlicher DES-Anwendung und
@@ -46,3 +53,28 @@ evidence:
       Aktuelle Evidenzübersicht, die festhält, dass DES in der Schwangerschaft zur Vorbeugung von Fehl- und Frühgeburten
       verschrieben wurde, Studien der 1950er-Jahre seine Unwirksamkeit zeigten und pränatale Exposition mit Krebs und
       weiteren langfristigen Gesundheitsrisiken verbunden ist.
+  - id: des-fda-proposition
+    note: >-
+      Die historische FDA-Ausstellung beschreibt DES als Mittel zur Vorbeugung von Frühgeburt, Fehlgeburt und anderen Schwangerschaftskomplikationen sowie seine Verbreitung von Risikoschwangerschaften zur routinemäßigen Anwendung in der Schwangerschaft.
+  - id: des-fda-history-context
+    note: >-
+      Die FDA-Geschichte beschreibt DES als Prophylaxe gegen Frühgeburt, Fehlgeburt und andere Schwangerschaftskomplikationen,
+      seine Verbreitung in der routinemäßigen Schwangerschaftsbehandlung und die Warnung der Behörde von 1971 vor der Anwendung bei Schwangeren.
+  - id: des-case-context
+    note: >-
+      Die Fallstudie verknüpft die frühe, auf unkontrollierten Befunden beruhende Behandlungsannahme mit den Vermarktungszulassungen der FDA von 1947,
+      den negativen kontrollierten Studien der 1950er-Jahre und der trotz dieser Befunde fortgesetzten Verschreibung.
+  - id: des-nci-cancer-consequences
+    note: >-
+      Aktuelle Evidenzübersicht, die festhält, dass DES in der Schwangerschaft zur Vorbeugung von Fehl- und Frühgeburten
+      verschrieben wurde, Studien der 1950er-Jahre seine Unwirksamkeit zeigten und pränatale Exposition mit Krebs und
+      weiteren langfristigen Gesundheitsrisiken verbunden ist.
+      Der Abschnitt zum Krebsrisiko beschreibt das erhöhte Risiko für klarzellige Adenokarzinome bei pränatal exponierten Frauen und weist darauf hin, dass dieser Krebs weiterhin selten ist.
+  - id: des-nci-reproductive-consequences
+    note: >-
+      Die NCI-Übersicht beschreibt Risiken für Fortpflanzung und Schwangerschaft bei pränatal exponierten Frauen sowie Hodenanomalien bei exponierten Männern, ohne bei Letzteren ein erhöhtes Unfruchtbarkeitsrisiko festzustellen.
+      Der Abschnitt zu anderen Gesundheitsproblemen beschreibt weitere Risiken und die Grenzen der Evidenz.
+  - id: des-nci-follow-up-consequences
+    note: >-
+      Das NCI beschreibt die langfristige Nachbeobachtung exponierter Mütter und ihrer Kinder seit 1992; seit 2000 werden auch Frauen der dritten Generation einbezogen.
+      Gesundheitliche Folgen bei Enkelkindern bleiben Gegenstand der Forschung, wobei mehrere berichtete Zusammenhänge auf geringen Fallzahlen beruhen.

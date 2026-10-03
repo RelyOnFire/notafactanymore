@@ -1,8 +1,50 @@
+schemaVersion: 2
 title: HIV denialism
-claim: Senior state leaders treated the causal role of HIV in AIDS as doubtful or unproven and antiretroviral medicines as dangerously toxic or of questionable value.
-currentUnderstanding: HIV is the cause of AIDS. Effective antiretroviral therapy suppresses viral replication, preserves immune function, prevents illness and premature death, and sharply reduces transmission, including transmission from mother to child. Like all medicines, antiretrovirals can have adverse effects, but their benefits in HIV treatment are overwhelming.
-category: Medicine and public health
-reviewedAt: 2026-08-22
+proposition:
+  summary: >-
+    From 1999 to 2008, South Africa's president and health minister gave state authority to claims that HIV's causal
+    role in AIDS remained doubtful, that HIV alone could not explain the syndrome, and that antiretroviral medicines
+    were dangerously toxic, ineffective or less important than poverty relief, nutrition and alternative remedies. The Presidency convened an advisory
+    panel that placed established HIV science and denialist propositions within the same official inquiry, while
+    national health decisions restricted or delayed proven prevention and treatment.
+correction:
+  summary: >-
+    HIV infection causes AIDS. Poverty, malnutrition and other infections can influence exposure, health and the course
+    of disease, but they do not replace HIV as the cause of AIDS. Combination antiretroviral therapy suppresses HIV
+    replication, preserves or restores immune function, reduces illness and premature death, and prevents sexual and
+    perinatal transmission. Adverse effects, interactions and drug resistance are real clinical concerns that require
+    appropriate regimen selection and monitoring; they do not justify withholding effective therapy.
+category: Medicine, public health and executive policy
+reviewedAt: '2026-09-27'
+impact:
+  summary: >-
+    National policy initially confined nevirapine for preventing mother-to-child transmission to 18 research and
+    training sites. In 2002 the Constitutional Court found the inflexible restriction unreasonable and ordered it
+    removed. Cabinet approved a public-sector antiretroviral plan in November 2003, but implementation remained well
+    below its targets. Retrospective models estimated the human cost of delayed feasible programmes: one study estimated
+    more than 330,000 premature deaths and 35,000 infant HIV infections during 2000–2005; another estimated 343,000
+    deaths and 171,000 infections during 1999–2007.
+  highlights:
+    - value: '18'
+      label: research and training sites to which national nevirapine access was initially confined
+    - value: '>330,000'
+      label: modeled premature deaths in a feasible-treatment counterfactual for 2000–2005
+    - value: '35,000'
+      label: modeled infant HIV infections linked to the absent national nevirapine programme in the same study
+  context:
+    - >-
+      The mortality and infection figures are counterfactual model estimates, not directly counted cases. The two
+      studies used different comparison programmes, outcomes and time windows, so their figures should not be added or
+      presented as a single precise toll.
+    - >-
+      The South African state did not speak with one voice. Scientists, clinicians, activists, courts and some provinces
+      opposed the national restrictions; Cabinet explicitly stated in April 2002 that government policy began from the
+      premise that HIV causes AIDS and approved a national treatment plan in 2003. Senior presidential and health-ministry
+      leadership nevertheless continued to weaken treatment messaging and implementation through 2008.
+    - >-
+      Denialist leadership was not the only obstacle to treatment. High early drug prices, staffing shortages, uneven
+      provincial capacity and weak monitoring also constrained delivery. The impact studies therefore compare actual
+      coverage with programmes their authors judged feasible, rather than attributing every untreated case to one belief.
 episodes:
   - id: south-africa-1999-2008
     polity: South Africa
@@ -11,22 +53,244 @@ episodes:
     endYear: 2008
     periodLabel: 1999–2008
     strength: policy-basis
-    institutionTypes: [government, medical]
+    institutionTypes:
+      - government
+      - medical
     institutions:
-      - Presidency of South Africa
-      - National Department of Health
+      - Presidency of South Africa under Thabo Mbeki
+      - National Department of Health under Minister Manto Tshabalala-Msimang
       - Presidential AIDS Advisory Panel
+    institutionalContext: >-
+      In 1999 President Mbeki publicly described AZT as toxic and dangerous and questioned its public provision. In
+      2000 the Presidency convened an advisory panel that included established HIV researchers and denialists; its 2001
+      report preserved mutually incompatible recommendations, including proposals from panellists who rejected a causal
+      HIV–AIDS link. The national health department limited nevirapine access to designated sites and resisted wider
+      provision. Formal policy began changing in 2002 and a national ART plan followed in 2003, but the president and
+      health minister continued to cast doubt on antiretrovirals and elevate nutrition or alternative remedies, creating
+      a conflict between adopted policy and senior political leadership.
     consequences:
-      - Delayed national antiretroviral rollout
-      - Restricted prevention of mother-to-child transmission
-      - Large numbers of preventable deaths and HIV infections
-    summary: Under President Thabo Mbeki, senior national leadership questioned whether HIV caused AIDS and portrayed antiretroviral drugs as dangerously toxic. These views contributed to resistance and delay in providing antiretroviral treatment and prevention of mother-to-child transmission through the public health system. Later modelling studies using different methods estimated hundreds of thousands of avoidable deaths during the period of delayed treatment.
-    sources:
-      - title: The adequacy of policy responses to the treatment needs of South Africans living with HIV (1999–2008)
-        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2804692/
-        publisher: Journal of the International AIDS Society
-        note: Reviews Mbeki-era HIV policy, including public questioning of HIV causation and antiretroviral efficacy, and the delayed expansion of treatment.
-      - title: Modelling the human immunodeficiency virus epidemic — the impact of AIDS denialism
-        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5843995/
-        publisher: Southern African Journal of HIV Medicine
-        note: Reviews independent modelling studies estimating the mortality and infection burden associated with delayed antiretroviral and mother-to-child-transmission programmes.
+      - State sponsorship and amplification of doubt about the causal link between HIV and AIDS
+      - Initial restriction of public-sector nevirapine access to 18 research and training sites
+      - Delay in a national antiretroviral treatment programme and slower-than-planned implementation after its adoption
+      - Public promotion of nutrition and alternative remedies while senior leaders continued to question antiretroviral therapy
+      - Preventable premature deaths and infant HIV infections estimated by independent counterfactual models
+      - Sustained conflict with clinicians, scientists, provincial programmes, civil society and the courts over access to treatment
+    summary: >-
+      Senior executive and health-ministry leaders converted fringe doubt into an institutional obstacle during a severe
+      epidemic. Presidential sponsorship gave denialist claims standing, while administrative restrictions limited
+      access to nevirapine and delayed broad treatment. Courts, civil society, health professionals, provinces and parts
+      of Cabinet contested that direction, producing a gradual and internally inconsistent reversal before leadership
+      changed in 2008.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Presidential endorsement and a state-sponsored advisory process legitimized denialist claims; health authorities
+        then used concerns about toxicity, evidence and system readiness to restrict antiretroviral access, while official
+        messaging elevated nutrition, poverty and alternative remedies over a clear treatment-centred response.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 2002–2010
+      action: >-
+        Cabinet affirmed that HIV causes AIDS, the Constitutional Court ordered nevirapine restrictions removed, a
+        national ART plan was adopted, and successor leadership openly expanded evidence-based testing and treatment.
+      summary: >-
+        Correction unfolded in stages. Cabinet's April 2002 statement formally accepted HIV causation, and the July
+        2002 Treatment Action Campaign judgment required wider nevirapine access. Cabinet approved a national public ART
+        programme in November 2003, but senior-level resistance and implementation failures persisted. After the 2008
+        change in leadership, the government publicly rejected denial, announced expanded treatment rules in 2009 and
+        launched the scaled-up programme in April 2010. This policy correction did not erase the earlier harm or imply
+        that treatment coverage immediately became complete.
+sources:
+  - id: policy-responses-1999-2008
+    title: The adequacy of policy responses to the treatment needs of South Africans living with HIV (1999–2008)
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2804692/
+    publisher: Journal of the International AIDS Society
+  - id: model-impact-aids-denialism
+    title: Modelling the human immunodeficiency virus epidemic — the impact of AIDS denialism
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5843995/
+    publisher: Southern African Journal of HIV Medicine
+  - id: presidential-aids-panel-2001
+    title: Presidential AIDS Advisory Panel Report
+    url: https://www.gov.za/sites/default/files/gcis_document/201409/aidspanelpdf0.pdf
+    publisher: Government of South Africa
+  - id: durban-declaration-2000
+    title: The Durban Declaration
+    url: https://www.nature.com/articles/35017662
+    publisher: Nature
+  - id: tac-constitutional-court-2002
+    title: Minister of Health and Others v Treatment Action Campaign and Others (No 2)
+    url: https://collections.concourt.org.za/items/c68da9b9-e589-4952-acf4-df7b326fb1ba/full
+    publisher: Constitutional Court of South Africa
+  - id: cabinet-hiv-aids-2002
+    title: Statement on Cabinet meeting of 17 April 2002
+    url: https://www.gcis.gov.za/statement-on-cabinet-meeting-of-17-april-2002-1
+    publisher: Government Communication and Information System
+  - id: operational-plan-2003
+    title: Operational plan for comprehensive HIV and AIDS care, management and treatment for South Africa
+    url: https://www.gov.za/sites/default/files/gcis_document/201409/aidsoperationalplan10.pdf
+    publisher: Government of South Africa
+  - id: nih-art-treatment-goals
+    title: Treatment Goals — Adult and Adolescent Antiretroviral Therapy
+    url: https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/treatment-goals
+    publisher: National Institutes of Health
+  - id: zuma-policy-changes-2009
+    title: President Zuma announces changes to HIV and AIDS policy
+    url: https://www.gov.za/news/media-statements/president-zuma-announces-changes-hiv-and-aids-policy-01-dec-2009
+    publisher: South African Government
+  - id: chigwedere-lost-benefits
+    title: Estimating the lost benefits of antiretroviral drug use in South Africa
+    url: https://pubmed.ncbi.nlm.nih.gov/19186354/
+    publisher: Journal of Acquired Immune Deficiency Syndromes / PubMed
+evidence:
+  - id: policy-responses-proposition
+    sourceId: policy-responses-1999-2008
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    locator: “Policy response to the epidemic” and “Political commitment” sections
+    note: >-
+      Reviews Mbeki's statements about AZT and HIV causation, the health minister's treatment messaging and the effects
+      of senior leadership on national antiretroviral policy.
+  - id: panel-report-proposition
+    sourceId: presidential-aids-panel-2001
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: chs. 1–2, 3.8 and 8.2–8.5
+    note: >-
+      The official report documents the state-sponsored panel, its split over whether HIV causes AIDS and the separate
+      recommendations of panellists who rejected the causal link, HIV testing and antiretroviral treatment.
+  - id: durban-declaration-correction
+    sourceId: durban-declaration-2000
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: pp. 15–16
+    note: >-
+      Contemporary scientific declaration summarized virological, epidemiological and treatment evidence that HIV causes
+      AIDS and warned that doubting causation would obstruct prevention and care.
+  - id: nih-treatment-goals-correction
+    sourceId: nih-art-treatment-goals
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Treatment goals
+    note: >-
+      Current clinical guidance states that ART reduces HIV-related illness and mortality, restores or preserves immune
+      function and prevents sexual and perinatal transmission through durable viral suppression.
+  - id: chigwedere-impact
+    sourceId: chigwedere-lost-benefits
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Abstract
+    note: >-
+      Models a feasible 2000–2005 alternative and estimates more than 330,000 premature deaths, 35,000 infant infections
+      and 3.8 million person-years lost from delayed ART and mother-to-child-transmission prevention.
+  - id: model-review-impact
+    sourceId: model-impact-aids-denialism
+    relation: contextualizes
+    target: {scope: belief, aspect: impact}
+    locator: section 8, “The impact of AIDS denialism”
+    note: >-
+      Compares the independent Nattrass and Chigwedere models, their different periods and counterfactual assumptions,
+      and the broadly similar scale of their results.
+  - id: policy-responses-carrier
+    sourceId: policy-responses-1999-2008
+    relation: supports
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: carrier}
+    locator: “Policy response to the epidemic” section
+    note: Identifies the Presidency and health minister as the senior political carriers while documenting the wider public-health system.
+  - id: panel-report-carrier
+    sourceId: presidential-aids-panel-2001
+    relation: documents
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: carrier}
+    locator: ch. 1
+    note: Lists the experts invited by the President and records Cabinet endorsement of the advisory process in April 2000.
+  - id: panel-report-mechanism
+    sourceId: presidential-aids-panel-2001
+    relation: documents
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: mechanism}
+    locator: chs. 2–8
+    note: >-
+      Shows how an official synthesis presented incompatible causal, testing, prevention and treatment positions as
+      parallel sets of recommendations for government consideration.
+  - id: tac-judgment-mechanism
+    sourceId: tac-constitutional-court-2002
+    relation: documents
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: mechanism}
+    locator: paras. 11–19 and 80–95
+    note: Documents the national restriction of nevirapine to research and training sites and the administrative reasons advanced for it.
+  - id: tac-judgment-consequences
+    sourceId: tac-constitutional-court-2002
+    relation: documents
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: consequences}
+    locator: paras. 68–80 and 122–135
+    note: >-
+      Finds that the inflexible policy denied potentially lifesaving treatment to mothers and newborns outside designated
+      sites and orders wider access, counselling and testing measures.
+  - id: chigwedere-consequences
+    sourceId: chigwedere-lost-benefits
+    relation: supports
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: consequences}
+    locator: Abstract
+    note: Supplies the 2000–2005 counterfactual estimates used in the impact summary and highlights.
+  - id: model-review-consequences
+    sourceId: model-impact-aids-denialism
+    relation: contextualizes
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: consequences}
+    locator: section 8, “The impact of AIDS denialism”
+    note: >-
+      Reports both major modeling studies and makes clear that their death and infection estimates cover different
+      comparison programmes and time windows.
+  - id: policy-responses-context
+    sourceId: policy-responses-1999-2008
+    relation: contextualizes
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: context}
+    locator: “Operational Plan” and “Reasons for lack of policy effectiveness” sections
+    note: >-
+      Documents the 2003 plan, later expenditure and treatment uptake, as well as drug cost, staffing, provincial capacity
+      and monitoring constraints that complicate single-cause attribution.
+  - id: durban-declaration-context
+    sourceId: durban-declaration-2000
+    relation: contextualizes
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: context}
+    locator: pp. 15–16
+    note: Establishes that the causal and preventive evidence was publicly summarized by thousands of scientists during the episode.
+  - id: cabinet-2002-context
+    sourceId: cabinet-hiv-aids-2002
+    relation: documents
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: context}
+    locator: Statement by Cabinet on HIV/AIDS
+    note: >-
+      Demonstrates the state's internal divergence: Cabinet formally adopted HIV causation while retaining caution on
+      antiretrovirals and preparing broader prevention and treatment measures.
+  - id: cabinet-2002-correction
+    sourceId: cabinet-hiv-aids-2002
+    relation: documents
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: institutional-correction}
+    locator: Statement by Cabinet on HIV/AIDS
+    note: Records Cabinet's explicit April 2002 premise that HIV causes AIDS and its commitment to a universal mother-to-child-transmission plan.
+  - id: tac-judgment-correction
+    sourceId: tac-constitutional-court-2002
+    relation: documents
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: institutional-correction}
+    locator: paras. 122–135
+    note: Records the Constitutional Court's July 2002 order removing site restrictions and requiring reasonable expansion of access.
+  - id: operational-plan-correction
+    sourceId: operational-plan-2003
+    relation: documents
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: institutional-correction}
+    locator: Executive Summary, paras. 3–9
+    note: >-
+      Documents Cabinet's national public-sector ART programme, implementation structure, clinical monitoring and
+      recognition that antiretrovirals prolong life.
+  - id: nih-treatment-goals-institutional-correction
+    sourceId: nih-art-treatment-goals
+    relation: contextualizes
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: institutional-correction}
+    locator: Treatment goals
+    note: Provides the evidence-based clinical standard to which the corrected treatment policy ultimately aligned.
+  - id: zuma-policy-correction
+    sourceId: zuma-policy-changes-2009
+    relation: documents
+    target: {scope: episode, episodeId: south-africa-1999-2008, aspect: institutional-correction}
+    locator: 1 December 2009 announcement
+    note: >-
+      Announces expanded treatment for infants, people with HIV and tuberculosis, and pregnant women, wider facility
+      readiness and an end to politicized debate, with implementation from April 2010.

@@ -1,50 +1,55 @@
 schemaVersion: 2
-title: Hereditary diagnoses as reliable grounds for compulsory sterilization
+title: Listed “hereditary disease” categories as reliable grounds for compulsory sterilization
 proposition:
   summary: >-
-    Nazi German public-health, medical and judicial institutions treated a list of psychiatric, neurological,
-    sensory and social diagnoses as identifying “hereditarily diseased” people whose children were highly likely to
-    inherit serious defects, and used that purported hereditary prediction to order compulsory sterilization.
+    Nazi Germany's 1933 sterilization law set out nine categories within a system aimed at people deemed
+    “hereditarily diseased.” It authorized special courts to order sterilization when what the statute called the
+    experience of medical science was said to show a high probability that their descendants would have serious
+    hereditary physical or mental defects. Public-health physicians and institution directors supplied cases; courts
+    and doctors turned that hereditary forecast into enforceable surgery.
 correction:
   summary: >-
-    The blanket hereditary inference built into the sterilization system was scientifically invalid. Some conditions
-    on the law's list genuinely have genetic components, and Huntington disease is a clear single-gene inherited disorder.
-    But diagnoses such as schizophrenia and bipolar disorder reflect complex genetic and environmental risk rather than
-    a single deterministic inheritance pattern, while “congenital feeblemindedness” was used as an elastic category
-    that swept in people judged socially deviant or unable to pass conformity and intelligence tests. A diagnosis did
-    not establish the statutory claim that a person's future children were highly likely to suffer severe hereditary defects.
+    The categories did not amount to one reliable hereditary forecast and could not justify surgery without consent.
+    Huntington disease is caused by variants in one gene and inherited in an autosomal-dominant pattern, but
+    schizophrenia and bipolar disorder reflect risk from many genes together with environmental or life factors.
+    “Congenital feeblemindedness” was not a bounded genetic diagnosis and was applied to people judged socially
+    deviant or unable to pass purported intelligence or conformity tests. The system thus converted heterogeneous
+    conditions and social judgments into a coercive legal presumption. Forced sterilization is now recognized as a
+    grave rights violation and may be prosecuted under international law as a war crime or crime against humanity.
 category: Medicine, eugenics and compulsory sterilization
-reviewedAt: '2026-08-25'
+reviewedAt: '2026-09-24'
 impact:
   summary: >-
-    The hereditary claim was embedded in law, medical reporting, special courts and surgery. The 1933 Law for the
-    Prevention of Offspring with Hereditary Diseases took effect on 1 January 1934, created Hereditary Health Courts
-    composed of a judge and physicians, and permitted sterilization to be carried out against the person's will with
-    police force if necessary. Doctors, health offices and institutions supplied cases and diagnoses. Approximately
-    400,000 people were forcibly sterilized under the Nazi system. The Bundestag condemned the sterilizations as
-    National Socialist injustice in 1988 and legislatively annulled surviving Hereditary Health Court sterilization
-    decisions in 1998.
+    The law of 14 July 1933 took effect on 1 January 1934. State physicians and institution directors could initiate
+    cases; Hereditary Health Courts combining a judge and two physicians issued orders that police could enforce, and
+    approved doctors carried out the operations. Authoritative totals differ: a German Bundestag legislative history
+    estimated about 350,000 sterilizations from 1934 through 1945, while the United States Holocaust Memorial Museum
+    estimates about 400,000 people were forcibly sterilized under the law. The Bundestag condemned the sterilizations
+    as National Socialist injustice in 1988, federal legislation annulled all still legally effective court orders in
+    1998, and a 2007 Bundestag resolution extended the condemnation explicitly to the 1933 law itself.
   highlights:
-    - value: ≈400,000
-      label: people forcibly sterilized under the Nazi Hereditary Health Law
+    - value: ≈350,000–400,000
+      label: range of authoritative estimates for people sterilized under the Nazi law
+      note: Bundestag records give about 350,000–360,000; the USHMM gives an estimate of about 400,000.
     - value: '9'
-      label: diagnostic categories named by the law as sterilization grounds
-    - value: '1998'
-      label: year Germany legislatively annulled surviving Hereditary Health Court sterilization decisions
+      label: categories the law classified as grounds for hereditary-health sterilization proceedings
+    - value: 1 September 1998
+      label: federal law annulling all still effective Hereditary Health Court sterilization orders took effect
   context:
     - >-
-      The correction is not that heredity is irrelevant to every condition listed in the law. Huntington disease is
-      autosomal dominant, while schizophrenia and bipolar disorder have substantial but complex genetic contributions.
-      The false institutional leap was from a broad diagnosis to a sufficiently certain prediction about descendants
-      to justify irreversible reproductive coercion.
+      The correction is not that heredity was irrelevant to every condition on the list. The conditions differed
+      radically in genetic architecture and predictive value. Even a real genetic risk did not make non-consensual
+      sterilization medically or legally legitimate.
     - >-
-      The category translated as “congenital feeblemindedness” was especially expansive. Nazi authorities used it
-      not only for intellectual disability but also for people they considered socially deviant or who failed tests
-      presented as measures of intelligence or social conformity.
+      The category translated as “congenital feeblemindedness” was especially expansive. A 1998 Bundestag legislative
+      history says it accounted for roughly two thirds of those sterilized and covered cases not shown to arise from
+      external causes; the USHMM documents its use against people marked as socially deviant or unable to pass alleged
+      intelligence or conformity tests.
     - >-
-      The program ended with the Nazi regime in 1945, but institutional correction came much later. West German recognition
-      was delayed: the Bundestag condemned the forced sterilizations in 1988, annulled the court decisions in 1998
-      and in 2007 explicitly condemned the 1933 law itself as National Socialist injustice.
+      The coercive programme ended with the Nazi regime in 1945, but repudiation was delayed. Remaining provisions of
+      the law were repealed in 1974, the Bundestag condemned the sterilizations in 1988, the remaining court orders were
+      annulled in 1998, and the Bundestag condemned the law itself in 2007. The corrected status refers to that later
+      legal and parliamentary reversal, not to a wartime scientific self-correction.
 episodes:
   - id: nazi-germany-1934-1945
     polity: Nazi Germany
@@ -57,41 +62,47 @@ episodes:
       - court
       - medical
     institutions:
-      - Reich Ministry of the Interior and public-health administration
+      - Reich Ministry of the Interior and Nazi public-health administration
       - Hereditary Health Courts and Higher Hereditary Health Courts
-      - Public health offices, psychiatric institutions and participating hospitals
+      - State physicians and directors of hospitals, nursing homes and penal institutions
+      - Medical institutions and approved physicians performing sterilizations
     institutionalContext: >-
-      The July 1933 sterilization law defined people with listed diagnoses as “hereditarily diseased” and allowed
-      sterilization when medical science supposedly indicated a high probability of severe hereditary defects in their
-      descendants. From January 1934 special courts decided cases using medical reports and testimony. Each court
-      combined a judge, a public-health physician and another physician versed in hereditary-health doctrine. Once a
-      sterilization order became final, the law permitted police-backed physical compulsion. Physicians, institution
-      directors and health officials fed people into the process, and hospitals performed the operations.
+      The July 1933 law, effective from January 1934, set out nine statutory categories and made a claimed high
+      probability of serious hereditary defects in descendants the legal test. State physicians and heads of
+      hospitals, nursing homes and penal institutions could apply for sterilization. The first implementing regulation
+      expanded the machinery by requiring medical and care personnel to report people with listed conditions to the
+      state physician. A Hereditary Health Court at a district court combined a judge, a public-health physician and a
+      second physician trained in hereditary-health doctrine; a Higher Hereditary Health Court decided appeals. Final
+      orders could be enforced by police, and doctors performed the operations.
     consequences:
-      - Forced sterilization of approximately 400,000 people under a diagnosis-driven eugenic system
-      - Irreversible reproductive surgery ordered through special courts and enforceable against the person's will
-      - Broad use of “congenital feeblemindedness” to convert social judgments and disputed testing into hereditary diagnoses
-      - Medical and judicial institutionalisation of Nazi racial-hygiene concepts as purported scientific risk assessment
-      - Physical complications, deaths and lifelong psychological and social harm among people subjected to sterilization
-      - Decades of delayed legal rehabilitation before the Federal Republic annulled the court orders
+      - Approximately 350,000 to 400,000 people were sterilized under the diagnosis-driven Nazi system
+      - Irreversible surgery was ordered by special courts and could be enforced against the person's will
+      - “Congenital feeblemindedness” converted social judgments and disputed testing into a purported hereditary diagnosis
+      - Medical reporting, public-health administration, courts, police and medical institutions formed one enforcement chain
+      - Hundreds of people, mostly women, died as a result of the forced operations
+      - Legal condemnation and blanket annulment of the remaining court orders came only decades later
     summary: >-
-      Nazi compulsory sterilization transformed an overconfident hereditarian model into enforceable medical law. The
-      state treated heterogeneous diagnoses as if they reliably identified people whose future children faced a high
-      probability of severe hereditary defect, and special courts converted those judgments into compulsory operations.
-      Modern genetics shows why that inference was untenable for broad psychiatric diagnoses, while historical evidence
-      shows that the most frequently used category could absorb social nonconformity itself.
+      Nazi compulsory sterilization converted eugenic ideology and heterogeneous diagnoses into enforceable medical
+      law. Public-health and institutional reporting fed cases to special courts, and police could compel the resulting
+      surgery. Modern genetics shows why broad psychiatric labels did not provide the uniform predictive certainty the
+      system claimed; the elastic “feeblemindedness” category also absorbed social judgments. The programme ended in
+      1945, while formal German repudiation and annulment unfolded decades later.
     mechanism:
       kind: enforcement
       summary: >-
-        The state encoded hereditary predictions in statute, required medical reporting and special-court adjudication,
-        and authorized police-backed compulsory surgery once sterilization orders became final.
+        Statute and implementing rules defined the categories, required or authorized medical reporting and
+        applications, assigned decisions and appeals to special courts staffed by judges and physicians, and permitted
+        police-backed surgery once an order became final.
     institutionalCorrection:
       status: corrected
-      periodLabel: '1998'
-      action: The German Bundestag legislatively annulled surviving sterilization decisions of the former Hereditary Health Courts.
+      periodLabel: 1988–2007
+      action: >-
+        The Bundestag condemned the forced sterilizations in 1988; a federal law effective on 1 September 1998 annulled
+        all still legally effective sterilization orders; and in 2007 the Bundestag condemned the 1933 law itself.
       summary: >-
-        The coercive programme ended with the Nazi regime in 1945, but formal German institutional correction came
-        decades later through condemnation of the sterilizations and legislative annulment of the court decisions.
+        Coercive implementation ended with the Nazi regime, but formal correction was gradual. The corrected status
+        refers to the Federal Republic's parliamentary condemnation, statutory annulment of the court orders and later
+        express condemnation of the enabling law.
 sources:
   - id: sterilization-1933-law
     title: Law for the Prevention of Offspring with Hereditary Diseases — 14 July 1933
@@ -117,58 +128,156 @@ sources:
     title: Draft law annulling sterilization decisions of the former Hereditary Health Courts — 1998
     url: https://dserver.bundestag.de/btd/13/107/1310708.pdf
     publisher: German Bundestag
+  - id: sterilization-1998-enacted-law
+    title: Act annulling sterilization decisions of the former Hereditary Health Courts — 25 August 1998
+    url: https://www.gesetze-im-internet.de/sterilentschaufhg/BJNR250140998.html
+    publisher: Federal Ministry of Justice and Federal Office of Justice
+  - id: sterilization-bundestag-2007-vote
+    title: Plenary record 16/100 — 24 May 2007
+    url: https://dserver.bundestag.de/btp/16/16100.pdf
+    publisher: German Bundestag
 evidence:
   - id: sterilization-law-proposition
     sourceId: sterilization-1933-law
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: § 1
     note: >-
-      Primary law text defining the listed conditions as hereditary disease, establishing Hereditary Health Courts
-      and authorizing compulsory enforcement of sterilization orders.
+      The primary law sets eight named conditions plus chronic alcoholism as statutory categories and states the
+      claimed high-probability test concerning serious hereditary defects in descendants.
+  - id: sterilization-bundestag-proposition
+    sourceId: sterilization-bundestag-1998
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    locator: Printed pp. 3–4, section 2(a)
+    note: >-
+      The official legislative history reproduces the statutory hereditary forecast, lists the categories and explains
+      how the broad diagnoses were used in sterilization decisions.
   - id: sterilization-schizophrenia-correction
     sourceId: sterilization-nimh-schizophrenia
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: Section “What causes schizophrenia?”, subsections “Genes” and “Environment”
     note: >-
-      Current medical account explaining that many genes and environmental factors contribute to schizophrenia risk
-      and that no single gene by itself causes the disorder.
+      Explains that many genes may increase schizophrenia risk, no single gene causes the disorder by itself and
+      environmental and life-experience factors may also contribute.
   - id: sterilization-bipolar-correction
     sourceId: sterilization-nimh-bipolar
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: Section “What causes bipolar disorder?”, subsection “Genetics”
     note: >-
-      Current medical account explaining that bipolar disorder has a substantial hereditary component but involves
-      many genes and other factors rather than a single deterministic gene.
+      Explains that many genes are involved, no one gene causes bipolar disorder and family risk does not mean every
+      relative develops it; trauma and other stressful events may also contribute.
   - id: sterilization-huntington-context
     sourceId: sterilization-huntington
     relation: contextualizes
     target: {scope: belief, aspect: correction}
+    locator: Sections “Causes” and “Inheritance”
     note: >-
-      Current genetics reference showing why the card does not make the opposite overstatement that none of the law's
-      diagnoses involved genuine hereditary disease: Huntington disease is autosomal dominant.
+      Establishes the necessary counterexample to an overbroad correction: Huntington disease involves the HTT gene
+      and is inherited in an autosomal-dominant pattern, with penetrance varying at some repeat lengths.
+  - id: sterilization-ushmm-correction
+    sourceId: sterilization-ushmm
+    relation: contextualizes
+    target: {scope: belief, aspect: correction}
+    locator: 'Introductory text and sections “Forced Sterilization: A Tool of Eugenics” and “The Nazi Hereditary Health Law”'
+    note: >-
+      Documents the discredited eugenic premise, the expansive use of “congenital feeblemindedness” for social
+      judgments and alleged testing, and the present international-law treatment of forced sterilization.
   - id: sterilization-ushmm-impact
     sourceId: sterilization-ushmm
     relation: supports
     target: {scope: belief, aspect: impact}
+    locator: Sections “The Nazi Hereditary Health Law” and “Special Hereditary Health Courts”
     note: >-
-      Authoritative history of the nine assumed-hereditary categories, the special courts, the approximately 400,000
-      forced sterilizations and the broad use of “congenital feeblemindedness” for people deemed socially deviant.
+      Gives the nine categories, identifies the medical and judicial machinery, estimates about 400,000 forced
+      sterilizations under the law and reports that hundreds of people, mostly women, died from the operations.
+  - id: sterilization-bundestag-impact
+    sourceId: sterilization-bundestag-1998
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Printed pp. 3–4, sections 1 and 2(a)
+    note: >-
+      Gives an estimate of about 350,000 sterilizations from 1934 through 1945, quotes the Bundestag's 1988
+      condemnation and describes the law's diagnosis-driven operation.
+  - id: sterilization-law-carrier
+    sourceId: sterilization-1933-law
+    relation: documents
+    target: {scope: episode, episodeId: nazi-germany-1934-1945, aspect: carrier}
+    locator: §§ 3, 5–6 and signatures
+    note: >-
+      The law assigns applications to state physicians and institution heads, decisions to special courts composed of
+      a judge and two physicians, and bears the signatures of the Reich ministers of the Interior and Justice.
   - id: sterilization-ushmm-carrier
     sourceId: sterilization-ushmm
     relation: documents
     target: {scope: episode, episodeId: nazi-germany-1934-1945, aspect: carrier}
+    locator: Section “Special Hereditary Health Courts”
+    note: >-
+      Identifies doctors, public-health officials and health-care administrators as case suppliers, the court's judicial
+      and medical membership, approved doctors as operators and police as enforcers.
+  - id: sterilization-bundestag-carrier
+    sourceId: sterilization-bundestag-1998
+    relation: supports
+    target: {scope: episode, episodeId: nazi-germany-1934-1945, aspect: carrier}
+    locator: Printed p. 4, paragraphs on applications, reporting and the special courts
+    note: >-
+      Traces mandatory reporting through the public-health apparatus, applications by state physicians and institution
+      directors, and decision-making by Hereditary Health Courts and Higher Hereditary Health Courts.
   - id: sterilization-law-mechanism
     sourceId: sterilization-1933-law
     relation: documents
     target: {scope: episode, episodeId: nazi-germany-1934-1945, aspect: mechanism}
+    locator: §§ 1, 3–6 and 12; commencement clause
+    note: >-
+      Encodes the categories and predictive threshold, creates the application and court process, authorizes direct
+      force and police involvement after a final order, and fixes commencement on 1 January 1934.
+  - id: sterilization-bundestag-mechanism
+    sourceId: sterilization-bundestag-1998
+    relation: documents
+    target: {scope: episode, episodeId: nazi-germany-1934-1945, aspect: mechanism}
+    locator: Printed p. 4, paragraphs on the implementing regulation, courts and police coercion
+    note: >-
+      Details compulsory medical reporting, court and appeal composition, and several stages at which police force
+      could be used, including transport to the operating room.
   - id: sterilization-ushmm-consequences
     sourceId: sterilization-ushmm
     relation: supports
     target: {scope: episode, episodeId: nazi-germany-1934-1945, aspect: consequences}
-  - id: sterilization-bundestag-correction
+    locator: Sections “The Nazi Hereditary Health Law” and “Special Hereditary Health Courts”
+    note: >-
+      Documents the scale, broad social reach, compulsory operations and deaths, while distinguishing the statutory
+      programme from additional extralegal sterilizations and concentration-camp experiments.
+  - id: sterilization-bundestag-consequences
     sourceId: sterilization-bundestag-1998
+    relation: supports
+    target: {scope: episode, episodeId: nazi-germany-1934-1945, aspect: consequences}
+    locator: Printed pp. 3–5, sections 1 and 2(a)
+    note: >-
+      Quantifies the programme, shows that the most-used diagnosis was expansively defined, and describes the integrated
+      medical, judicial and police enforcement system.
+  - id: sterilization-1998-enacted-correction
+    sourceId: sterilization-1998-enacted-law
     relation: documents
     target: {scope: episode, episodeId: nazi-germany-1934-1945, aspect: institutional-correction}
+    locator: Introductory note and § 1
     note: >-
-      Official legislative record describing the sterilizations as National Socialist injustice, estimating the
-      scale of the program and providing for annulment of surviving court sterilization orders.
+      The enacted federal law states that it took effect on 1 September 1998 and annuls all still legally effective
+      court decisions ordering sterilization under the 1933 law.
+  - id: sterilization-bundestag-correction-history
+    sourceId: sterilization-bundestag-1998
+    relation: contextualizes
+    target: {scope: episode, episodeId: nazi-germany-1934-1945, aspect: institutional-correction}
+    locator: Printed pp. 3 and 5–6, sections 1 and 3
+    note: >-
+      Reproduces the Bundestag's 1988 condemnation, explains the delayed postwar legal treatment and supplies the
+      rationale for blanket statutory annulment of the remaining orders.
+  - id: sterilization-bundestag-2007-correction
+    sourceId: sterilization-bundestag-2007-vote
+    relation: documents
+    target: {scope: episode, episodeId: nazi-germany-1934-1945, aspect: institutional-correction}
+    locator: Printed p. 10285, agenda item 27
+    note: >-
+      Records the Bundestag's 24 May 2007 adoption of the motion titled “Condemnation of the Law for the Prevention of
+      Offspring with Hereditary Diseases of 14 July 1933.”

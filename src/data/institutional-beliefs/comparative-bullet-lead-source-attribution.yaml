@@ -13,7 +13,7 @@ correction:
     probabilities were not known. The evidence can therefore support only a limited association, not highly specific
     source attribution.
 category: Forensic science and criminal evidence
-reviewedAt: 2026-08-23
+reviewedAt: 2026-09-18
 impact:
   summary: >-
     The institutional error was not that elemental analysis measured nothing. It was that a real chemical comparison
@@ -32,9 +32,10 @@ impact:
       It found that the measurements could distinguish some samples, but that coincidentally indistinguishable lead
       compositions existed and the inferential language presented to courts needed to be sharply limited.
     - >-
-      The FBI later explained to Congress that the analytical and laboratory parts of the method were considered sound,
-      while the statistical interpretation could be overstated. The Bureau stopped conducting the examination in 2005
-      and undertook notification and case-review efforts.
+      The FBI later explained to Congress that the analytical and laboratory parts of the method were considered
+      sound, while the statistical interpretation could be overstated. The Bureau stopped conducting the
+      examination and issued notifications in 2005; in March 2008 it described a further review of case records
+      and testimony.
 episodes:
   - id: united-states-1960-2005
     polity: United States
@@ -71,12 +72,15 @@ episodes:
         turning laboratory similarities into source-association evidence for federal, state and local investigations.
     institutionalCorrection:
       status: corrected
-      periodLabel: '2005'
-      action: Discontinued comparative bullet-lead examinations and began notification and case-review efforts.
+      periodLabel: "2005–2008"
+      action: "Discontinued examinations and issued notifications in 2005; described further case and testimony review to Congress in 2008."
       summary: >-
-        After the National Research Council sharply limited the inferences supportable from a compositional match, the
-        FBI concluded that the statistical interpretation could be overstated, stopped conducting the examination in
-        2005 and undertook notification and review of affected cases.
+        After the National Research Council sharply limited the inferences supportable from a compositional
+        match, the FBI concluded that statistical interpretation could be overstated and discontinued the
+        examination in 2005. In the March 2008 hearing, Director Mueller described notifications made in 2005
+        and a further effort to collect and review case records and testimony. The documented correction is the
+        withdrawal of this FBI examination; the hearing does not establish that every affected case had been
+        resolved.
 sources:
   - id: nrc-bullet-lead-2004
     title: Forensic Analysis — Weighing Bullet Lead Evidence
@@ -87,63 +91,94 @@ sources:
     url: https://www.nationalacademies.org/read/10924/chapter/6
     publisher: National Research Council — National Academies Press
   - id: senate-forensic-science-hearing
-    title: Forensic Science — Hearing before the Senate Committee on the Judiciary
+    title: "Oversight of the Federal Bureau of Investigation — Senate Judiciary hearing, March 5, 2008 (S. Hrg. 110-910)"
     url: https://www.congress.gov/event/110th-congress/senate-event/LC9523/text
     publisher: United States Congress
 evidence:
   - id: bullet-nrc-proposition
     sourceId: nrc-bullet-lead-2004
-    relation: supports
-    target:
-      scope: belief
-      aspect: proposition
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: "Linked report, Executive Summary pp. 1–3 and Introduction pp. 8–10 (2004), FBI casework and courtroom interpretations."
     note: >-
-      Consensus review states that FBI representatives had relied on compositional bullet-lead evidence in thousands
-      of criminal cases since the 1960s and emphasizes the very limited conclusions the results can support.
+      Consensus review states that FBI representatives had relied on compositional bullet-lead evidence in
+      thousands of criminal cases since the 1960s and emphasizes the very limited conclusions the results can
+      support.
   - id: bullet-nrc-impact
     sourceId: nrc-bullet-lead-2004
     relation: supports
-    target:
-      scope: belief
-      aspect: impact
+    target: {scope: belief, aspect: impact}
+    locator: "Publication description (thousands of criminal cases since the 1960s); linked report, Executive Summary pp. 1–3."
+    note: >-
+      Documents the historical scale of FBI use and the distinction between chemical measurement and source
+      inference. The later 2005 discontinuation is documented separately by the 2008 hearing.
   - id: bullet-nrc-carrier
     sourceId: nrc-bullet-lead-2004
-    relation: supports
-    target:
-      scope: episode
-      episodeId: united-states-1960-2005
-      aspect: carrier
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1960-2005, aspect: carrier}
+    locator: "Linked report, Executive Summary pp. 1–3 and Introduction pp. 8–10 (2004), FBI casework and courtroom interpretations."
+    note: >-
+      Consensus review states that FBI representatives had relied on compositional bullet-lead evidence in
+      thousands of criminal cases since the 1960s and emphasizes the very limited conclusions the results can
+      support.
   - id: bullet-nrc-mechanism
     sourceId: nrc-bullet-lead-2004
-    relation: supports
-    target:
-      scope: episode
-      episodeId: united-states-1960-2005
-      aspect: mechanism
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1960-2005, aspect: mechanism}
+    locator: "Linked report, Executive Summary pp. 1–3 and Introduction pp. 8–10 (2004), FBI casework and courtroom interpretations."
+    note: >-
+      Describes FBI Laboratory examinations for federal and other law-enforcement agencies and the use of the
+      results in reports and testimony.
   - id: bullet-nrc-consequences
     sourceId: nrc-bullet-lead-2004
-    relation: supports
-    target:
-      scope: episode
-      episodeId: united-states-1960-2005
-      aspect: consequences
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1960-2005, aspect: consequences}
+    locator: "Linked report, Executive Summary pp. 1–3 and Introduction pp. 8–10 (2004), FBI casework and courtroom interpretations."
+    note: >-
+      Supports the first two consequences: links between crime bullets and suspects’ ammunition, and use in
+      criminal casework and testimony. It predates discontinuation and cannot establish the later review effort.
   - id: bullet-interpretation-correction
     sourceId: nrc-bullet-lead-interpretation
     relation: supports
-    target:
-      scope: belief
-      aspect: correction
+    target: {scope: belief, aspect: correction}
+    locator: "Chapter 4, Interpretation, pp. 107–108, Findings, especially particular-box and manufacturing-date inferences."
     note: >-
       Finds that available data do not support attribution to a particular ammunition box, calls box references
       seriously misleading, and states that compositional data alone cannot establish the date of manufacture.
   - id: bullet-senate-institutional-correction
     sourceId: senate-forensic-science-hearing
     relation: documents
-    target:
-      scope: episode
-      episodeId: united-states-1960-2005
-      aspect: institutional-correction
+    target: {scope: episode, episodeId: united-states-1960-2005, aspect: institutional-correction}
+    locator: "March 5, 2008 hearing, closing exchange between Chairman Patrick Leahy and Director Robert Mueller on bullet-lead analysis, immediately before adjournment."
     note: >-
-      FBI Director Robert Mueller described the Bureau's response to the National Academies review, explaining that
-      the laboratory analysis was considered appropriate while statistical interpretation could be overstated, and
-      that the FBI stopped using the examination in 2005 and pursued case notification and review.
+      FBI Director Robert Mueller described the Bureau's response to the National Academies review, explaining
+      that the laboratory analysis was considered appropriate while statistical interpretation could be
+      overstated, and that the FBI stopped using the examination in 2005 and pursued case notification and
+      review. Mueller dates cessation and notifications to 2005; his account of further records and testimony
+      review is given in March 2008.
+  - id: bullet-interpretation-consequences
+    sourceId: nrc-bullet-lead-interpretation
+    relation: supports
+    target: {scope: episode, episodeId: united-states-1960-2005, aspect: consequences}
+    locator: "Chapter 4, Interpretation, pp. 107–108, Findings, especially particular-box and manufacturing-date inferences."
+    note: >-
+      Finds that available data do not support attribution to a particular ammunition box, calls box references
+      seriously misleading, and states that compositional data alone cannot establish the date of manufacture.
+      These findings support the third consequence about the excessive weight conveyed by box or date
+      implications.
+  - id: bullet-senate-impact
+    sourceId: senate-forensic-science-hearing
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: "March 5, 2008 hearing, closing exchange between Chairman Patrick Leahy and Director Robert Mueller on bullet-lead analysis, immediately before adjournment."
+    note: >-
+      Documents the FBI’s 2005 discontinuation and notifications and the further review described in 2008,
+      supporting the later impact chronology.
+  - id: bullet-senate-consequences
+    sourceId: senate-forensic-science-hearing
+    relation: documents
+    target: {scope: episode, episodeId: united-states-1960-2005, aspect: consequences}
+    locator: "March 5, 2008 hearing, closing exchange between Chairman Patrick Leahy and Director Robert Mueller on bullet-lead analysis, immediately before adjournment."
+    note: >-
+      Documents notification and case-review efforts after discontinuation, the fourth consequence; it does not
+      establish completed review or relief in every affected case.

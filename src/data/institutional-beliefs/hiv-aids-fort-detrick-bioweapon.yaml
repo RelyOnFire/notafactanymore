@@ -8,80 +8,101 @@ proposition:
 correction:
   summary: >-
     HIV-1 group M, the principal cause of the global AIDS pandemic, arose through natural cross-species transmission from
-    simian immunodeficiency virus in chimpanzees in central Africa and was already diversifying in humans in the early
-    twentieth century. Viral genetic evidence and samples from Kinshasa predating the recognized AIDS epidemic are
-    incompatible with the claim that HIV was engineered at Fort Detrick.
+    a simian immunodeficiency virus in central chimpanzees. Its source has been traced to southeastern Cameroon, and the
+    virus was already diversifying in humans around Kinshasa in the early twentieth century. Divergent HIV-1 sequences
+    recovered from human samples collected there in 1959 and 1960 confirm decades of human evolution before AIDS was
+    recognized and contradict the claim that HIV was engineered at Fort Detrick.
 category: Public health, intelligence and state disinformation
-reviewedAt: '2026-08-25'
+reviewedAt: '2026-09-24'
 impact:
   summary: >-
     The Fort Detrick story became a coordinated international disinformation campaign rather than a stray conspiracy
-    theory. A 1983 article in the Indian newspaper Patriot supplied an early formulation; by September 1985 a KGB First
-    Chief Directorate communication explicitly described measures intended to create the belief abroad that AIDS
-    resulted from secret U.S. biological-weapons experiments. East German foreign intelligence joined through OVO
-    “Denver.” By late 1986 U.S. diplomatic reporting recorded the allegation in more than 50 countries and Soviet-bloc
-    radio broadcasts in more than 20 languages.
+    theory. An anonymous letter published by the Indian newspaper Patriot in 1983 supplied the first identifiable
+    publication naming Fort Detrick; on 7 September 1985 a KGB First Chief Directorate communication described measures
+    intended to create the belief abroad that AIDS resulted from secret U.S. biological-weapons experiments. East German
+    foreign intelligence joined through OVO “Denver.” By December 1986 U.S. diplomatic reporting had recorded the
+    allegation in more than 50 countries and Soviet-bloc radio broadcasts in more than 20 languages.
   highlights:
     - value: 50+
-      label: countries in which the Fort Detrick AIDS allegation had appeared by late 1986
+      label: countries in which the Fort Detrick AIDS allegation had appeared by December 1986
     - value: 20+
       label: languages used by Soviet-bloc radio broadcasts spreading AIDS-related allegations
-    - value: '1987'
-      label: year a senior Soviet diplomat privately acknowledged that Soviet AIDS propaganda had been foolish as Moscow curtailed it
+    - value: 1987–1992
+      label: period from official Soviet scientific repudiation to public acknowledgment of the KGB's responsibility
   context:
     - >-
-      The campaign is often called “Operation INFEKTION” in later literature. Archival research by Germany's federal
-      archive authority found that “Infektion” was not the documented codename of the AIDS campaign; East German foreign
-      intelligence used OVO “Denver.”
+      The campaign is often called “Operation INFEKTION” in later literature. The archival study found that “Infektion”
+      was not the documented codename of the AIDS campaign: East German foreign intelligence used OVO “Denver,” while a
+      separate coordinated action called “Infektion” concerned Radio Free Europe and Radio Liberty.
     - >-
-      The 1983 Patriot article is an important seed publication, but the cleanest direct institutional evidence begins
-      in 1985 with KGB Information No. 2955 to Bulgarian state security.
+      The 1983 Patriot item is an important seed publication, but its precise authorship remains less securely
+      documented than the later campaign. The archival study identifies several indications of KGB inspiration; direct
+      institutional evidence begins with KGB Information No. 2955 to Bulgarian state security in September 1985.
+    - >-
+      The campaign did not represent a Soviet or East German scientific consensus. Leading Soviet virologist Viktor
+      Zhdanov publicly supported an African, naturally occurring origin while the KGB-linked media campaign continued,
+      and many East German medical scientists rejected the Segal thesis. The relevant carriers were intelligence and
+      propaganda institutions, not the scientific communities as a whole.
     - >-
       The available archive does not justify claiming that Jakob Segal knowingly acted as a KGB agent or that the KGB
-      secretly authored all of his scientific arguments.
+      secretly authored all of his scientific arguments. East German intelligence used and promoted the Segal thesis,
+      but that institutional exploitation does not establish his personal intent.
 episodes:
-  - id: soviet-union-1983-1987
+  - id: soviet-union-1983-1988
     polity: Soviet Union
     region: Eurasia
     startYear: 1983
-    endYear: 1987
+    endYear: 1988
     strength: officially-endorsed
     institutionTypes:
       - government
     institutions:
-      - KGB First Chief Directorate
-      - Soviet foreign-propaganda and media apparatus
+      - KGB First Chief Directorate, including Service A
+      - Literaturnaya Gazeta
+      - Novosti Press Agency (APN)
+      - Soviet international radio services
     institutionalContext: >-
-      The 17 July 1983 Patriot article in India became a seed text for later Soviet amplification. Direct archival
-      evidence is unambiguous by 7 September 1985: KGB Information No. 2955 told Bulgarian state security that the USSR
+      The anonymous letter published by Patriot on 17 July 1983 was the first identifiable publication to name Fort
+      Detrick as the alleged origin of AIDS, but the evidence for KGB inspiration is circumstantial. By 7 September 1985,
+      the direct archival evidence is unambiguous. KGB Information No. 2955 told Bulgarian state security that the USSR
       was conducting measures to create a favorable foreign opinion that AIDS resulted from uncontrolled secret
-      experiments by U.S. intelligence services and the Pentagon with new biological weapons. By July 1987 Soviet
-      Deputy Foreign Minister Anatoly Adamishin told a U.S. counterpart that Soviet AIDS propaganda had been “foolish”
-      and said fewer such items were appearing; archival research indicates Moscow substantially curtailed the campaign.
+      services and the Pentagon with new biological weapons, and asked the allied service to use its political and media
+      contacts. Literaturnaya Gazeta, a principal KGB channel for propaganda and disinformation, publicly launched the
+      expanded theme on 30 October 1985; Soviet media, radio and allied services then amplified it internationally. In
+      July 1987 Deputy Foreign Minister Anatoly Adamishin privately called the propaganda “foolish,” yet Soviet press
+      items continued. The Soviet Academy of Sciences publicly and officially distanced itself from the Fort Detrick
+      thesis in November 1987; in 1988 the president of the Soviet Academy of Medical Sciences publicly rejected support
+      among Soviet scientists or scientific institutions. The Soviet press campaign ended in September 1988. Some KGB
+      activity then persisted in the narrower theme of AIDS and U.S. military bases.
     consequences:
       - Coordinated dissemination of a false U.S.-military origin for HIV/AIDS through international active measures
       - Mobilization of allied intelligence and propaganda services to amplify the Fort Detrick narrative
       - Spread of the allegation across more than 50 countries and through Soviet-bloc radio in more than 20 languages
+      - Use of fears about U.S. military personnel and bases to damage American relations with host countries
       - Undermining of accurate public-health understanding by presenting a fabricated laboratory origin as scientific fact
-      - Diplomatic friction requiring repeated U.S. government efforts to counter the campaign
+      - Diplomatic friction and conditions on U.S.–Soviet public-health cooperation while the campaign continued
     summary: >-
-      Soviet institutions converted an AIDS conspiracy theory into an organized active-measures campaign. Explicit KGB
-      instructions in 1985 sought to manufacture international belief in a U.S. biological-weapons origin and enlist
-      allied services. Soviet officials began retreating from the campaign in 1987; in 1992 Russian foreign-intelligence
-      chief Yevgeny Primakov publicly acknowledged that the KGB had been behind the international disinformation campaign.
+      Soviet intelligence converted a Fort Detrick conspiracy claim into an organized active-measures campaign. Explicit
+      KGB instructions in 1985 sought to manufacture international belief in a U.S. biological-weapons origin and enlist
+      allied services, while Soviet media and radio carried the theme worldwide. The retreat was staged rather than
+      instantaneous: a diplomat disavowed the propaganda privately in 1987, Soviet scientific authorities rejected it
+      publicly in 1987 and 1988, and the Soviet press stopped the campaign in September 1988. In 1992 Russian foreign-
+      intelligence chief Yevgeny Primakov publicly acknowledged that the KGB had been behind the international campaign.
     mechanism:
       kind: publication
       summary: >-
-        The KGB coordinated active measures with allied services while Soviet media and foreign-propaganda channels
-        amplified a fabricated Fort Detrick origin as ostensibly scientific fact.
+        The KGB set the active-measures theme, requested help from allied security services and used Soviet press and
+        international broadcasting to recirculate a Fort Detrick origin as ostensibly independent scientific reporting.
     institutionalCorrection:
-      status: partial
-      periodLabel: '1987'
-      action: Soviet officials curtailed the campaign and a deputy foreign minister privately acknowledged that the AIDS propaganda had been foolish.
+      status: corrected
+      periodLabel: 1987–1992
+      action: Soviet scientific academies publicly rejected the Fort Detrick thesis, the Soviet press ended the campaign, and Russia's foreign-intelligence chief later acknowledged KGB responsibility.
       summary: >-
-        Moscow substantially reduced the campaign and a senior Soviet diplomat acknowledged its propaganda character,
-        but the surviving record does not show a formal Soviet public retraction before the USSR dissolved. Russia's
-        foreign-intelligence chief publicly acknowledged KGB responsibility in 1992.
+        The institutional reversal unfolded in stages. Adamishin privately disavowed the propaganda in July 1987; the
+        Soviet Academy of Sciences publicly distanced itself in November 1987, and the president of the Soviet Academy of
+        Medical Sciences issued a broader public rejection in 1988; Soviet press publication stopped in September 1988.
+        Primakov's 1992 statement supplied the later public acknowledgment of KGB responsibility that the Soviet retreat
+        itself had not provided.
   - id: east-germany-1986-1989
     polity: East Germany
     region: Europe
@@ -92,31 +113,36 @@ episodes:
       - government
     institutions:
       - Ministry for State Security
-      - Hauptverwaltung A, Division X
+      - Hauptverwaltung A, Division X, Section 1
     institutionalContext: >-
-      East German foreign intelligence formalized OVO “Denver” on 17 July 1986, shared material with allied services
-      asserting that AIDS originated in U.S. biological-weapons research and used the Segal thesis in active measures.
-      Archival research shows that HV A/X continued AIDS-related measures even after the KGB began advising restraint,
-      including later work around the 1989 film AIDS — die Afrikalegende.
+      East German foreign intelligence participated in the Soviet-bloc campaign and opened OVO “Denver” on 17 July
+      1986. HV A/X sent Bulgarian intelligence a study and other material said to prove that AIDS came from the United
+      States and was a product of U.S. biological-weapons research; its officers described the Segal study as material
+      used in active measures around the world. The surviving archive does not establish that the service created the
+      Segals' thesis or directed their personal beliefs. It does show that HV A/X continued the operation after Moscow
+      began retreating: officers supplied updated material to Bulgarian partners in 1988, pursued the theme in 1989 and
+      helped finance and seek foreign distribution for the film AIDS — die Afrikalegende.
     consequences:
       - Creation of OVO “Denver” as an East German foreign-intelligence active-measures operation
       - Distribution to allied services of material claiming AIDS was a product of U.S. biological-weapons research
       - International use of the Segal thesis as ostensibly scientific support for the Fort Detrick narrative
-      - Continuation of AIDS-related active measures after the Soviet KGB began backing away from the campaign
+      - Continuation of AIDS-related active measures after Soviet scientific authorities repudiated the thesis
+      - Support for the 1989 film AIDS — die Afrikalegende and efforts to distribute it in developing countries
     summary: >-
-      The East German Ministry for State Security created OVO “Denver,” exchanged materials with allied services and
-      used the Segal thesis in active measures intended to strengthen anti-American attitudes. The campaign continued
-      into the final full year of the East German regime.
+      The East German Ministry for State Security did more than repeat Soviet media claims. Its foreign-intelligence
+      service created OVO “Denver,” exchanged materials with allied services and used the Segal thesis in active measures
+      intended to strengthen anti-American attitudes. It continued those measures after the Soviet retreat, through the
+      final full year of the East German regime.
     mechanism:
       kind: publication
       summary: >-
-        East German foreign intelligence organized OVO “Denver,” circulated material to allied services and promoted
-        the Fort Detrick narrative through international active measures.
+        East German foreign intelligence organized OVO “Denver,” supplied material to allied services, promoted updated
+        versions of the Segal thesis and supported media intended for international distribution.
     institutionalCorrection:
       status: undocumented
       summary: >-
-        The documented East German operation ended with the collapse of the regime, but the existing record does not
-        identify a dated Ministry for State Security act retracting or repudiating the Fort Detrick narrative.
+        The documented operation ended with the collapse of the regime. The archival study traces continued activity in
+        1989 but identifies no dated Ministry for State Security act retracting or repudiating the Fort Detrick narrative.
 sources:
   - id: aids-bundesarchiv
     title: Die AIDS-Verschwörung — Das Ministerium für Staatssicherheit und die AIDS-Desinformationskampagne des KGB
@@ -134,56 +160,213 @@ sources:
     title: The evolution of HIV-1 and the origin of AIDS
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2935100/
     publisher: Philosophical Transactions of the Royal Society B
+  - id: aids-kinshasa-1960
+    title: Direct evidence of extensive diversity of HIV-1 in Kinshasa by 1960
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3682493/
+    publisher: Nature
 evidence:
   - id: aids-bundesarchiv-proposition
     sourceId: aids-bundesarchiv
     relation: documents
-    target: {scope: belief, aspect: proposition}
+    target:
+      scope: belief
+      aspect: proposition
+    locator: Printed pp. 21–24 and 35–37
     note: >-
-      Archival study reproduces KGB Information No. 2955 and documents the coordinated Soviet and East German effort to
-      create belief in a U.S. biological-weapons origin for AIDS.
+      Reproduces KGB Information No. 2955, which states the campaign's intended false belief and requests allied help,
+      then documents the East German OVO “Denver” and its stated U.S.-bioweapon thesis.
   - id: aids-origin-correction
     sourceId: aids-origin-review
     relation: supports
-    target: {scope: belief, aspect: correction}
+    target:
+      scope: belief
+      aspect: correction
+    locator: Printed pp. 2487–2489 and 2492, sections 1, 2 and 5
     note: >-
-      Scientific review traces pandemic HIV-1 group M to a chimpanzee SIV lineage in central Africa and places early
-      human diversification around Kinshasa in the early twentieth century.
+      Reviews the phylogenetic evidence tracing pandemic HIV-1 group M to SIVcpz in central chimpanzees in southeastern
+      Cameroon and places its early human diversification around Kinshasa in the early twentieth century.
+  - id: aids-kinshasa-correction
+    sourceId: aids-kinshasa-1960
+    relation: supports
+    target:
+      scope: belief
+      aspect: correction
+    locator: Nature 455, printed pp. 661–664, especially the abstract and phylogenetic analysis
+    note: >-
+      Reports independent recovery of HIV-1 sequence from a 1960 Kinshasa specimen and its marked divergence from the
+      1959 sequence, demonstrating that group M had already diversified in humans decades before 1960.
   - id: aids-state-impact
     sourceId: aids-state-1986
     relation: supports
-    target: {scope: belief, aspect: impact}
+    target:
+      scope: belief
+      aspect: impact
+    locator: Document 21, paragraphs 2–3 (printed pp. 55–56)
     note: >-
-      Contemporary assessment reports appearance of the allegation in more than 50 countries and Soviet-bloc radio
-      dissemination in more than 20 languages.
+      The contemporary assessment reports appearance of the allegation in more than 50 countries, Soviet-bloc radio
+      dissemination in more than 20 languages and resulting fears about U.S. personnel and overseas bases.
+  - id: aids-bundesarchiv-impact
+    sourceId: aids-bundesarchiv
+    relation: documents
+    target:
+      scope: belief
+      aspect: impact
+    locator: Printed pp. 21–24, 35–37 and 146–149
+    note: >-
+      Connects the KGB instruction, allied-service coordination, OVO “Denver” and later media measures into a sustained
+      Soviet and East German campaign while distinguishing documented action from attribution that remains uncertain.
+  - id: aids-patriot-context
+    sourceId: aids-bundesarchiv
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: soviet-union-1983-1988
+      aspect: context
+    locator: Printed p. 21 and note 46
+    note: >-
+      Calls the Patriot item the first identifiable publication naming Fort Detrick and describes several indications of
+      KGB inspiration, but does not present the kind of direct institutional instruction available from September 1985.
+  - id: aids-soviet-science-context
+    sourceId: aids-bundesarchiv
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: soviet-union-1983-1988
+      aspect: context
+    locator: Printed pp. 96–100
+    note: >-
+      Documents public statements by leading Soviet virologist Viktor Zhdanov supporting a natural African origin and
+      shows that the intelligence-media campaign did not express a uniform Soviet scientific position.
   - id: aids-soviet-carrier
     sourceId: aids-bundesarchiv
     relation: documents
-    target: {scope: episode, episodeId: soviet-union-1983-1987, aspect: carrier}
+    target:
+      scope: episode
+      episodeId: soviet-union-1983-1988
+      aspect: carrier
+    locator: Printed pp. 21–24 and 96–102
+    note: >-
+      Identifies the KGB First Chief Directorate as campaign coordinator and documents roles for Literaturnaya Gazeta,
+      Novosti and Soviet broadcasting, including continued press activity during the later retreat.
   - id: aids-soviet-mechanism
     sourceId: aids-bundesarchiv
     relation: documents
-    target: {scope: episode, episodeId: soviet-union-1983-1987, aspect: mechanism}
+    target:
+      scope: episode
+      episodeId: soviet-union-1983-1988
+      aspect: mechanism
+    locator: Printed pp. 21–24
+    note: >-
+      Shows the mechanism from internal KGB guidance and requests to allied services through publication in a principal
+      propaganda channel and international recirculation as apparently independent reporting.
   - id: aids-soviet-consequences
     sourceId: aids-state-1986
     relation: supports
-    target: {scope: episode, episodeId: soviet-union-1983-1987, aspect: consequences}
-  - id: aids-soviet-partial-correction
+    target:
+      scope: episode
+      episodeId: soviet-union-1983-1988
+      aspect: consequences
+    locator: Document 21, paragraphs 2–4 (printed pp. 55–56)
+    note: >-
+      Records the campaign's geographic and linguistic reach, negative perceptions of the United States and contemporary
+      concern that the allegation could affect basing and international health or scientific negotiations.
+  - id: aids-soviet-diplomatic-consequences
+    sourceId: aids-bundesarchiv
+    relation: documents
+    target:
+      scope: episode
+      episodeId: soviet-union-1983-1988
+      aspect: consequences
+    locator: Printed pp. 98–102
+    note: >-
+      Traces U.S. pressure linking an end to the campaign with bilateral AIDS-research cooperation and records assessments
+      that the allegation complicated negotiations over U.S. bases in the Philippines and Greece.
+  - id: aids-soviet-private-retreat
     sourceId: aids-state-1987
     relation: documents
-    target: {scope: episode, episodeId: soviet-union-1983-1987, aspect: institutional-correction}
+    target:
+      scope: episode
+      episodeId: soviet-union-1983-1988
+      aspect: institutional-correction
+    locator: Document 30, paragraphs 2–6 (printed pp. 80–81)
     note: >-
-      Contemporary telegram records Deputy Foreign Minister Adamishin saying Soviet AIDS propaganda had been foolish
-      and that fewer such items were appearing.
+      Records Deputy Foreign Minister Adamishin's private July 1987 statement that Soviet AIDS propaganda had been
+      “foolish” and his claim that the Soviet press was publishing fewer such items; it was not itself a public retraction.
+  - id: aids-soviet-public-correction
+    sourceId: aids-bundesarchiv
+    relation: documents
+    target:
+      scope: episode
+      episodeId: soviet-union-1983-1988
+      aspect: institutional-correction
+    locator: Printed p. 7 and pp. 99–102
+    note: >-
+      Documents the Academy of Sciences' public distancing in 1987, the Academy of Medical Sciences president's broader
+      public rejection in 1988, the September 1988 end of Soviet press propagation and Primakov's 1992 acknowledgment.
+  - id: aids-operation-name-context
+    sourceId: aids-bundesarchiv
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: east-germany-1986-1989
+      aspect: context
+    locator: Printed p. 35, note 112
+    note: >-
+      Identifies OVO “Denver” as the East German operation and explains that the documented coordinated action called
+      “Infektion” concerned Radio Free Europe and Radio Liberty rather than the AIDS campaign.
+  - id: aids-segal-attribution-context
+    sourceId: aids-bundesarchiv
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: east-germany-1986-1989
+      aspect: context
+    locator: Printed pp. 8–11, 43–50 and 145–147
+    note: >-
+      Reviews the negative response of most East German experts and finds intelligence use and support of the Segal
+      thesis, but no proof that the KGB directly shaped the Segals' research or that they knowingly served as agents;
+      indirect influence and exploitation are documented.
   - id: aids-east-germany-carrier
     sourceId: aids-bundesarchiv
     relation: documents
-    target: {scope: episode, episodeId: east-germany-1986-1989, aspect: carrier}
+    target:
+      scope: episode
+      episodeId: east-germany-1986-1989
+      aspect: carrier
+    locator: Printed pp. 35–37
+    note: >-
+      Identifies HV A/X/1 as the unit organizing OVO “Denver” and reproduces its communication to Bulgarian intelligence
+      about material asserting a U.S. biological-weapons origin for AIDS.
   - id: aids-east-germany-mechanism
     sourceId: aids-bundesarchiv
     relation: documents
-    target: {scope: episode, episodeId: east-germany-1986-1989, aspect: mechanism}
+    target:
+      scope: episode
+      episodeId: east-germany-1986-1989
+      aspect: mechanism
+    locator: Printed pp. 35–37 and 103–111
+    note: >-
+      Documents exchange of the Segal study and updated material with allied services, its use for active measures and
+      later covert support for a film intended for television and international distribution.
   - id: aids-east-germany-consequences
     sourceId: aids-bundesarchiv
     relation: supports
-    target: {scope: episode, episodeId: east-germany-1986-1989, aspect: consequences}
+    target:
+      scope: episode
+      episodeId: east-germany-1986-1989
+      aspect: consequences
+    locator: Printed pp. 103–111 and 148–149
+    note: >-
+      Traces continued HV A/X activity in 1988–1989, including transfer of materials, pursuit of the Fort Detrick theme,
+      support for AIDS — die Afrikalegende and efforts to place it in developing countries.
+  - id: aids-east-germany-correction-limit
+    sourceId: aids-bundesarchiv
+    relation: contextualizes
+    target:
+      scope: episode
+      episodeId: east-germany-1986-1989
+      aspect: institutional-correction
+    locator: Printed pp. 107–111 and 148–149
+    note: >-
+      Documents continued operation through 1989, even after the Soviet retreat, but identifies no Ministry for State
+      Security retraction before the service and regime collapsed.

@@ -1,55 +1,271 @@
+schemaVersion: 2
 title: Caste as racial ancestry
-claim: Caste rank was treated as reflecting measurable racial ancestry, with bodily measurements such as the nasal index used
-  to classify Indians into racial types.
-currentUnderstanding: Caste is a historical and social system, not a biological hierarchy of races. Long-term endogamy has
-  produced some genetic structure among South Asian populations, but skull or nasal measurements do not define discrete human
-  races and do not validate caste rank as a measure of biological ancestry or human worth.
+proposition:
+  summary: >-
+    The 1901 Census of India treated relative caste rank as reflecting proportions of racial ancestry and used
+    anthropometric measurements, especially the nasal index, to sort population groups into racial types and present
+    social hierarchy as a measurable biological order.
+correction:
+  summary: >-
+    Caste ranks do not map to discrete biological races, and nasal measurements cannot establish a group's place in a
+    fixed racial ladder or its human worth. Genome-wide studies do find population structure, differing ancestry
+    proportions and the effects of long-term endogamy in South Asia; one study also found a statistical association
+    between traditional caste level and a modelled ancestry component in its sampled groups. Those findings describe
+    histories of mixture, isolation and social practice, not Risley's fixed racial types and not a biological
+    justification for caste hierarchy.
 category: Race and anthropology
-reviewedAt: '2026-08-23'
+reviewedAt: '2026-09-27'
+impact:
+  summary: >-
+    The Government of India connected an all-India Ethnographic Survey to the 1901 census and put Census Commissioner
+    Herbert Risley in charge of both projects. The official 1903 report claimed that racial sentiment supplied caste's
+    motive principle and that scientific methods confirmed it; its ethnographic appendices published the anthropometric
+    material used in the caste chapter. Census classification by social precedence also gave caste groups a state forum
+    in which to contest names and rank, prompting organized petitions. The census did not create caste, but it made one
+    disputed racial and hierarchical interpretation part of official, comparable colonial knowledge.
+  highlights:
+    - value: 23 May 1901
+      label: date of the Home Department proceedings for the census-linked Ethnographic Survey
+    - value: 69 pages
+      label: span of the official 1903 report's chapter on Caste, Tribe and Race, pages 489–557
+    - value: '1911'
+      label: next census year, when the documented Gwalior series replaced social precedence with occupational grouping
+  context:
+    - >-
+      Caste, jati, varna and forms of inherited hierarchy long predated the colonial census. The institutional effect at
+      issue is the census's standardization, ranking and racial interpretation of diverse identities, not an assertion
+      that British officials invented caste.
+    - >-
+      The anthropometric appendices were sampled research material attached to the census project, not measurements of
+      every person counted. Risley's inference also moved between bodily measurements and a social rank that officials
+      had ascertained separately, so apparent agreement could not independently validate either hierarchy.
+    - >-
+      Modern population genetics requires a narrower correction than saying caste has no relationship to ancestry.
+      Mixture was once widespread, later endogamy produced substantial structure, and ancestry proportions can correlate
+      with language, geography and traditional caste level. These overlapping histories do not form pure, discrete
+      races and do not make social rank a biological scale.
+    - >-
+      Institutional correction was delayed and staged. The 1911 Gwalior report rejected social-precedence classification
+      as unsatisfactory but continued caste enumeration; only much later did an official Census of India monograph
+      explicitly characterize Risley's racial classification as procedurally unsound and reject pure-race assumptions.
 episodes:
-- id: british-india-1901-1903
-  polity: British India
-  region: South Asia
-  startYear: 1901
-  endYear: 1903
-  periodLabel: 1901–1903
-  strength: officially-endorsed
-  institutionTypes:
-  - government
-  institutions:
-  - Home Department, Government of India
-  - Office of the Census Commissioner for India
-  institutionalContext: Risley’s earlier anthropometric work in Bengal supplied the intellectual framework, but the all-India
-    institutional episode is dated from 1901. The Government of India’s Home Department formally sanctioned an Ethnographic
-    Survey in connection with the census, while Census Commissioner Herbert Risley directed the census and served as honorary
-    director of the ethnographic survey. Provincial superintendents and survey staff gathered and standardized caste and anthropometric
-    material; those distributed field operations are described as machinery rather than listed as a single institution.
-  consequences:
-  - Racial classification of caste groups
-  - Anthropometric data collection
-  - Official ethnographic categories
-  summary: Herbert Risley’s earlier anthropometric work classified Indian populations into racial types using measurements
-    including the nasal index. In 1901 the Government of India formally sanctioned an all-India Ethnographic Survey in connection
-    with the census, with Risley serving as Census Commissioner and directing the ethnographic work. The resulting 1901 Census
-    report and 1903 ethnographic appendices treated physical measurements as evidence about race and caste hierarchy.
-  sources:
-  - title: Environment and Ethnicity in India, 1200–1991
+  - id: british-india-1901-1903
+    polity: British India
+    region: South Asia
+    startYear: 1901
+    endYear: 1903
+    periodLabel: 1901–1903
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+    institutions:
+      - Home Department, Government of India
+      - Office of the Census Commissioner for India
+    institutionalContext: >-
+      The Home Department formally recorded an Ethnographic Survey in connection with the 1901 census. Risley, whose
+      Bengal work had already joined caste description to anthropometric measurement, was Census Commissioner and
+      honorary director of the wider survey. Provincial census and survey personnel collected, organized and published
+      caste, social-precedence and bodily-measurement material. The central offices supplied authorization, direction and
+      a common publication framework; the distributed provincial staff were the operating machinery.
+    consequences:
+      - People selected as caste or tribal specimens were measured and entered into anthropometric tables
+      - Population groups were represented in official reports and maps as racial types
+      - Caste returns were arranged through a disputed scale of social precedence
+      - Caste associations organized petitions seeking different names or higher placement in the census hierarchy
+      - A colonial racial theory gained the authority and circulation of an all-India government publication
+    summary: >-
+      Between the census operation in 1901 and publication of the report and appendices in 1903, the Government of India
+      turned Risley's racial theory of caste into an official classification project. Anthropometric samples, especially
+      nasal indices, were read alongside caste and social-precedence returns to argue that narrower noses and greater
+      supposed Aryan ancestry tracked higher status. The operation measured only selected subjects, and the hierarchy was
+      also assembled from social judgments and petitions; it was therefore not an independent biological discovery.
+    mechanism:
+      kind: classification
+      summary: >-
+        The census and linked ethnographic survey converted selected body measurements, caste returns and judgments of
+        social precedence into standardized tables, racial types, maps and an official explanatory chapter.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 1911–1969
+      action: The 1911 Gwalior census series replaced social-precedence ranking with occupational grouping; a later Census of India monograph explicitly rejected Risley's racial classification as procedurally unsound.
+      summary: >-
+        Correction came in stages. The documented 1911 successor report called the social-precedence method
+        unsatisfactory and changed the grouping basis, although it retained caste enumeration. In a 1961 Census of India
+        monograph published in 1969, the Office of the Registrar General stated that Risley's classification rested on
+        unsatisfactory procedures, confused language with race and could not sustain a map of pure races in India.
+sources:
+  - id: caste-guha-history
+    title: Environment and Ethnicity in India, 1200–1991
     url: https://assets.cambridge.org/97805216/40787/sample/9780521640787ws.pdf
     publisher: Cambridge University Press
-    note: Describes Risley’s use of the nasal index to argue that caste hierarchy corresponded to measurable racial difference
-      and identifies upper castes as Aryan within that scheme.
-  - title: Census of India, 1901 — Ethnographic Appendices
+  - id: caste-1901-appendices
+    title: Census of India, 1901 — Ethnographic Appendices
     url: https://books.google.com/books?id=8MsiAQAAMAAJ
     publisher: Government of India
-    note: Official 1903 ethnographic appendices containing the anthropometric data used in the caste and race analysis of
-      the 1901 census.
-  - title: Ethnographic Survey of India in connection with the Census of 1901 — Home Department proceedings
+  - id: caste-home-proceedings
+    title: Ethnographic Survey of India in connection with the Census of 1901 — Home Department proceedings
     url: https://openlibrary.org/books/OL15311581M/Ethnographic_Survey_of_India_in_connection_with_the_Census_of_1901_Nos._3219-3232
     publisher: Government of India, Home Department — catalogue record via Open Library
-    note: Catalogue record for the 1901 Government of India Home Department proceedings formally establishing the Ethnographic
-      Survey in connection with the census and identifying the Census Commissioner as the issuing office.
-  - title: Herbert Risley — institutional biography
+  - id: caste-rai-risley
+    title: Herbert Risley — institutional biography
     url: https://therai.org.uk/archives-and-manuscripts/obituaries/herbert-risley/
     publisher: Royal Anthropological Institute
-    note: Records Risley’s appointment as Census Commissioner for the 1901 census and his leadership of the countrywide Ethnographic
-      Survey, linking the census office to the formal survey apparatus.
+  - id: caste-1901-report
+    title: Report on the Census Of India, 1901
+    url: https://ruralindiaonline.org/library/resource/report-on-the-census-of-india-1901
+    publisher: Government of India — scan via People's Archive of Rural India
+  - id: caste-lee-census
+    title: Caste in the Census of India
+    url: https://www.cambridge.org/core/books/abs/from-hierarchy-to-ethnicity/caste-in-the-census-of-india/454332F27D95CE922FD3AAA18784E14B
+    publisher: Cambridge University Press
+  - id: caste-1911-gwalior
+    title: Central India State Census Series, Part I & II, Volume I
+    url: https://censusindia.gov.in/nada/index.php/catalog/28392/download/31574/48180_THE_CENTRAL_INDIA_STATE_CENSUS_SERIES_1911.pdf
+    publisher: Census of India / Office of the Registrar General, India
+  - id: caste-census1961-monograph
+    title: The Sex Ratio of The Population of India, Volume 1, Monograph No. 10
+    url: https://censusindia.gov.in/nada/index.php/catalog/32383/download/35564/24291_1961_SEX.pdf
+    publisher: Office of the Registrar General, India
+  - id: caste-aaba-race
+    title: AABA Statement on Race & Racism
+    url: https://bioanth.org/about/aaba-statement-on-race-racism/
+    publisher: American Association of Biological Anthropologists
+  - id: caste-reich-genetics
+    title: Reconstructing Indian Population History
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2842210/
+    publisher: Nature / PubMed Central
+  - id: caste-moorjani-genetics
+    title: Genetic Evidence for Recent Population Mixture in India
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3769933/
+    publisher: American Journal of Human Genetics / PubMed Central
+evidence:
+  - id: caste-guha-proposition
+    sourceId: caste-guha-history
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Page 16 explains how Risley used the nasal index to claim measurable racial differences corresponding to caste
+      hierarchy and observes that contradictory head forms could be assigned different origins so the theory resisted
+      disproof.
+  - id: caste-guha-episode-context
+    sourceId: caste-guha-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: british-india-1901-1903, aspect: context}
+    note: >-
+      Page 16 links the Government of India's claimed policy value for ethnography, the ethnographic direction of the
+      1901 census and the resulting status claims made by groups within Indian society.
+  - id: caste-appendices-mechanism
+    sourceId: caste-1901-appendices
+    relation: documents
+    target: {scope: episode, episodeId: british-india-1901-1903, aspect: mechanism}
+    note: >-
+      Official 1903 volume explicitly titled as the ethnographic data on which the census report's caste chapter was
+      based; its contents include summaries of measurements, nasal indices and maps of proposed racial types.
+  - id: caste-home-carrier
+    sourceId: caste-home-proceedings
+    relation: documents
+    target: {scope: episode, episodeId: british-india-1901-1903, aspect: carrier}
+    note: >-
+      Catalogue metadata identifies a nine-page Government of India, Home Department (Public) proceeding, Nos. 3219–3232,
+      dated 23 May 1901 and titled for the Ethnographic Survey in connection with the census. The record establishes the
+      proceeding's identity and provenance; it is not a scan of its text.
+  - id: caste-rai-carrier
+    sourceId: caste-rai-risley
+    relation: documents
+    target: {scope: episode, episodeId: british-india-1901-1903, aspect: carrier}
+    note: >-
+      The institutional obituary records Risley's earlier Bengal assignment, Curzon's support for a countrywide survey,
+      his honorary directorship of that survey and his selection to conduct the 1901 census with E. A. Gait.
+  - id: caste-report-proposition
+    sourceId: caste-1901-report
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Chapter XI, pp. 489–557, opens by promising to show that racial sentiment supplied the motive principle of caste
+      and that scientific methods confirmed it; the following pages privilege physical measurements as tests of race.
+  - id: caste-report-mechanism
+    sourceId: caste-1901-report
+    relation: documents
+    target: {scope: episode, episodeId: british-india-1901-1903, aspect: mechanism}
+    note: >-
+      The official all-India report joins anthropometry, proposed racial types and classification by social precedence in
+      the government chapter titled Caste, Tribe, and Race.
+  - id: caste-lee-impact
+    sourceId: caste-lee-census
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      The modern scholarly chapter explains that Risley organized returns by hierarchical caste status to support his
+      racial-origin theory and that the census became a forum in which caste activists advanced status claims.
+  - id: caste-lee-consequences
+    sourceId: caste-lee-census
+    relation: supports
+    target: {scope: episode, episodeId: british-india-1901-1903, aspect: consequences}
+    note: >-
+      Pages 83–110 describe petitions for higher status or different caste names and explain how simplified census
+      categories could make caste more salient while overriding ambiguous identities; the author also stresses variation
+      in how activists used them.
+  - id: caste-1911-correction
+    sourceId: caste-1911-gwalior
+    relation: documents
+    target: {scope: episode, episodeId: british-india-1901-1903, aspect: institutional-correction}
+    note: >-
+      Printed page 75 says the 1911 Gwalior series used traditional occupation instead of the unsatisfactory 1901
+      classification by social precedence, which had discouraged accurate schedule returns.
+  - id: caste-census1961-belief-correction
+    sourceId: caste-census1961-monograph
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Page 25 calls Risley's racial classification procedurally unsatisfactory and questionable, notes its confusion of
+      language and race, and rejects both pure races in India and broad provincial racial classification.
+  - id: caste-census1961-episode-correction
+    sourceId: caste-census1961-monograph
+    relation: documents
+    target: {scope: episode, episodeId: british-india-1901-1903, aspect: institutional-correction}
+    note: >-
+      The correction appears in an official Census of India monograph issued by the post-independence Office of the
+      Registrar General, providing an explicit successor-institution assessment rather than only an outside critique.
+  - id: caste-aaba-belief-correction
+    sourceId: caste-aaba-race
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      The biological-anthropology association's 2019 statement explains that human variation does not form discrete,
+      pure or fixed racial groups and that visible traits do not follow socially defined racial boundaries.
+  - id: caste-aaba-episode-context
+    sourceId: caste-aaba-race
+    relation: contextualizes
+    target: {scope: episode, episodeId: british-india-1901-1903, aspect: context}
+    note: >-
+      Provides the modern disciplinary basis for distinguishing measurable human variation from the discrete racial
+      taxonomy and superiority claims imposed by the census interpretation.
+  - id: caste-reich-belief-correction
+    sourceId: caste-reich-genetics
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Genome-wide analysis found mixed ancestry and extensive population structure; it also found, in its samples, a
+      significant correlation between traditional caste level and ANI ancestry after controlling for language.
+  - id: caste-reich-episode-context
+    sourceId: caste-reich-genetics
+    relation: contextualizes
+    target: {scope: episode, episodeId: british-india-1901-1903, aspect: context}
+    note: >-
+      Shows why correcting Risley's typology must not erase real ancestry variation: correlation in sampled groups is
+      compatible with complex population history, but it is not evidence that nasal measurements define pure races or
+      biologically validate rank.
+  - id: caste-moorjani-belief-correction
+    sourceId: caste-moorjani-genetics
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Analysis of 73 groups estimates major mixture about 1,900–4,200 years ago followed by a shift toward endogamy, with
+      all sampled mainland groups described as admixed rather than surviving unmixed racial types.
+  - id: caste-moorjani-episode-context
+    sourceId: caste-moorjani-genetics
+    relation: contextualizes
+    target: {scope: episode, episodeId: british-india-1901-1903, aspect: context}
+    note: >-
+      Supplies the population-history explanation for genetic structure that the colonial report instead forced into a
+      small set of fixed racial categories ordered by social status.

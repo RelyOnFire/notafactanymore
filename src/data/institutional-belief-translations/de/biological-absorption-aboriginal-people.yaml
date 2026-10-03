@@ -1,22 +1,184 @@
+schemaVersion: 2
 locale: de
 entryId: biological-absorption-aboriginal-people
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: '2026-09-27'
 title: Biologische „Absorption“ der Aborigines
-claim: Menschen mit teilweise indigener Abstammung wurden als Bevölkerung behandelt, die durch gelenkte Eheschließungen und Assimilation in die weiße australische Gesellschaft zum Verschwinden gebracht werden könne.
-currentUnderstanding: Aboriginal und Torres Strait Islander Peoples sind keine biologisch minderwertigen Bevölkerungen, die in einer angeblich überlegenen „Rasse“ aufgehen müssten. Indigene Identität, Verwandtschaft, Kultur und politische Zugehörigkeit lassen sich nicht auf Hautfarbe oder Abstammungsanteile reduzieren; staatliche Eingriffe in Ehe, Kinder und Familienleben verursachten tiefgreifende und langfristige Schäden.
+proposition:
+  summary: >-
+    Australische Amtsträger behandelten Aboriginal Peoples, die ihre Verwaltungen als Menschen gemischter Abstammung
+    klassifizierten, als Bevölkerung, deren indigene Eigenständigkeit über Generationen verschwinden könne und solle.
+    Staatlich gelenkte Trennung, Bildung, Beschäftigung, Eheschließung und Heiraten mit Weißen sollten ihre Nachkommen in
+    der weißen Bevölkerung aufgehen lassen.
+correction:
+  summary: >-
+    Die Politik beruhte auf falschen Rassenkategorien und einem staatlichen Zwangsprojekt zur Auslöschung von Identität.
+    „Rasse“ und Ethnizität sind keine verlässlichen Ersatzgrößen für genetische Abstammung; weder hellere Haut noch
+    gemischte Abstammung löschen Aboriginal-Identität, Verwandtschaft, Kultur oder politische Zugehörigkeit aus. Nach
+    heutiger australischer Praxis umfasst die Identität als Aboriginal oder Torres Strait Islander Abstammung,
+    Selbstidentifikation und Anerkennung durch die Gemeinschaft; das Aussehen ist kein Kriterium. Regierungen haben
+    anerkannt, dass Gesetze und Politik zur Trennung von Kindern, Familien und Gemeinschaften tiefgreifendes Leid
+    verursachten.
+impact:
+  summary: >-
+    Biologische „Absorption“ war mit Verwaltungsbefugnissen über Kinder, Ehe, Wohnort, Schulbildung und Arbeit verbunden.
+    In Western Australia machte die Gesetzgebung von 1936 den Chief Protector zum gesetzlichen Vormund jedes als „Native
+    child“ klassifizierten Kindes bis zum Alter von 21 Jahren, selbst wenn Eltern oder andere Angehörige lebten. Auf der
+    Regierungskonferenz von 1937 verband A. O. Neville die „Absorption“ damit, Kinder ab sechs Jahren unter staatliche
+    Kontrolle zu nehmen; zugleich richtete die Konferenz Bildung und Beschäftigung auf den Eintritt in die weiße
+    Gemeinschaft aus. Im Northern Territory befürwortete Cecil Cook als Teil biologischer „Absorption“ ebenfalls
+    Kindesentziehungen und die Unterbringung in Einrichtungen. Diese Systeme trennten Familien und störten Verwandtschaft,
+    Kultur und Identität über Generationen hinweg.
+  highlights:
+    - value: '1933'
+      label: Jahr, in dem Neville in Western Australia öffentlich eine schrittweise biologische „Absorption“ propagierte
+    - value: '1937'
+      label: Jahr, in dem die erste nationale Aboriginal-Wohlfahrtskonferenz die endgültige „Absorption“ zum Ziel erklärte
+    - value: '2008'
+      label: Jahr der Entschuldigung des australischen Parlaments für Gesetze und Politik der Kindesentziehung
+  context:
+    - >-
+      Abwertende historische Klassifikationsbegriffe erscheinen hier nur, soweit sie zur Beschreibung der Politik und ihrer
+      Quellen nötig sind. Kolonialverwaltungen zwangen Menschen diese Bezeichnungen auf; sie sind keine akzeptablen
+      Bezeichnungen für Menschen.
+    - >-
+      Die Konferenz von 1937 beschloss ein gemeinsames Ziel, war jedoch weder nationales Gesetzgebungsorgan noch einheitliche
+      ausführende Behörde. Bundesstaaten und Commonwealth behielten eigene Gesetze, Befugnisse und Praktiken; die Umsetzung
+      unterschied sich zwischen den Jurisdiktionen.
+    - >-
+      Das Endjahr 1939 bezeichnet den dokumentierten Wechsel des Commonwealth im Northern Territory von Cooks biologischem
+      Modell zu McEwens wirtschaftlicher und gesellschaftlicher Assimilationspolitik. Zwangsassimilation, institutionelle
+      Kontrolle und Kindesentziehungen endeten damit nicht; sie wurden fortgeführt, und Neville blieb bis 1940 Commissioner
+      of Native Affairs in Western Australia.
+    - >-
+      Kindesentziehungen hatten in Australien je nach Ort unterschiedliche Rechtsgrundlagen und Verwaltungsursachen. Die
+      Belege verbinden biologische „Absorption“ mit Politik und Praxis der Entziehung, behaupten aber nicht, jedes Kind sei
+      ausschließlich oder ausdrücklich zu diesem Zweck fortgenommen worden.
 episodes:
   - id: australia-1933-1939
     polity: Australien
+    periodLabel: dokumentierte Phase biologischer „Absorption“ 1933–1939
     institutions:
       - Commonwealth Department of the Interior
       - Office of the Chief Protector of Aborigines, Western Australia
       - Office of the Commissioner of Native Affairs, Western Australia
       - Office of the Chief Protector of Aboriginals, Northern Territory
-      - Commonwealth–State Aboriginal Welfare Conference
-    institutionalContext: Eine einheitliche „Native Affairs administration“ gab es nicht. In Western Australia bekleidete A. O. Neville bis 1936 das gesetzlich definierte Amt des Chief Protector of Aborigines und anschließend das des Commissioner of Native Affairs; im Northern Territory handelte der Chief Protector innerhalb der Commonwealth-Verwaltung. Vertreter dieser Systeme trafen sich 1937 auf der Commonwealth–State-Konferenz, auf der „Absorption“ ausdrücklich als gemeinsames politisches Ziel formuliert wurde.
-    summary: "In den 1930er-Jahren propagierten führende Vertreter des Commonwealth und einzelner Bundesstaaten eine „biologische Absorption“: Menschen, die als teilweise indigener Abstammung eingestuft wurden, sollten durch Eheschließungen in der weißen Bevölkerung aufgehen, bis indigene Eigenständigkeit verschwände. Die Commonwealth–State-Konferenz von 1937 beschloss ausdrücklich, dass das Schicksal der als nicht „full blood“ klassifizierten Menschen in ihrer endgültigen Absorption liege und staatliche Anstrengungen darauf ausgerichtet werden sollten."
+      - Initial Conference of Commonwealth and State Aboriginal Authorities (1937)
+    institutionalContext: >-
+      1933 befürwortete Western Australias Chief Protector A. O. Neville öffentlich die schrittweise „Absorption“ und
+      beschrieb eine Commonwealth-Politik, die Ehen zwischen weißen Männern und Frauen fördern sollte, die als Menschen
+      gemischter Aboriginal-Abstammung klassifiziert wurden. Das Gesetz Western Australias von 1936 erweiterte Vormundschafts-
+      und Ehekontrollen; Neville erklärte der Konferenz von 1937, endgültige „Absorption“ sei das Hauptziel dieses Gesetzes.
+      Die vom Commonwealth einberufene Konferenz beschloss anschließend, Menschen, die sie als Aboriginal, aber nicht als
+      „full blood“ klassifizierte, sollten letztlich „absorbiert“ werden und alle Anstrengungen seien auf dieses Ziel zu
+      richten. Commonwealth Chief Protector Cecil Cook verfolgte im Northern Territory eine verwandte biologische Politik
+      bis zum Wechsel von Politik und Verwaltung 1939. Diese Systeme waren miteinander verbunden, aber rechtlich getrennt;
+      sie bildeten kein einheitliches nationales Programm.
+    summary: >-
+      Führende Amtsträger in Western Australia und im vom Commonwealth verwalteten Northern Territory propagierten eine
+      biologische Theorie der „Absorption“: Menschen in gemischten Abstammungskategorien sollten von Aboriginal-
+      Gemeinschaften getrennt werden; durch kontrollierte Eheschließung und Assimilation sollten ihre Nachkommen schließlich
+      im weißen Australien verschwinden. Die Konferenz von 1937 machte dieses Ziel zu einem zwischenstaatlichen Beschluss und
+      verband es mit Bildung, Beschäftigung und Verwaltungskontrolle. Die Episode endet mit dem Politikwechsel im Northern
+      Territory 1939; das nachfolgende Assimilationssystem und Kindesentziehungen bestanden weit darüber hinaus fort.
     consequences:
-      - Staatliche Kontrolle über Ehe und Familienleben
-      - Entfernung und Institutionalisierung indigener Kinder
-      - Administrative Verfolgung biologischer und kultureller Assimilation
-      - Langfristige Zerstörung von Verwandtschaft, Identität und gemeinschaftlicher Kontinuität
+      - Entziehung von Aboriginal-Kindern aus Elternhaus und Gemeinschaft sowie Unterbringung in Einrichtungen, Missionen oder Arbeitsstellen
+      - Gesetzliche Kontrolle über Ehe, Wohnort, Bildung, Beschäftigung und Familienleben
+      - Verwaltungsdruck zur Trennung von Kindern und Erwachsenen von Aboriginal-Verwandtschaft, Gemeinschaft und Kultur
+      - Behandlung von Hautfarbe und Abstammungsanteilen als Bestimmungsgrößen für Zukunft und gesellschaftliche Zugehörigkeit
+      - Langfristiger Verlust, Trauer und generationenübergreifendes Trauma bei Überlebenden, Nachkommen, Familien und Gemeinschaften
+    mechanism:
+      summary: >-
+        Schutz- und Native-Affairs-Verwaltungen verbanden Rassenklassifikation mit gesetzlicher Vormundschaft,
+        Kindesentziehung, Ehegenehmigung, institutioneller Unterbringung sowie Kontrolle von Schule und Beschäftigung. Die
+        Konferenz von 1937 gab diesen je nach Jurisdiktion unterschiedlichen Praktiken ein gemeinsames „Absorptionsziel“,
+        überließ die Verwaltung jedoch den einzelnen Bundesstaaten und Territorien.
+    institutionalCorrection:
+      periodLabel: 1939–2008; Wiedergutmachung dauert an
+      action: >-
+        Der Commonwealth ersetzte 1939 die biologische „Absorption“ im Northern Territory; die Untersuchung Bringing Them
+        Home dokumentierte und verurteilte 1997 die gewaltsame Trennung, Western Australia entschuldigte sich 1997, und das
+        australische Parlament entschuldigte sich 2008 für Gesetze und Politik aufeinanderfolgender Regierungen.
+      summary: >-
+        Die Korrektur erfolgte schrittweise. Der Commonwealth gab 1939 Cooks ausdrücklich biologisches Modell auf, ersetzte
+        es jedoch durch eine weitere zwanghafte Assimilationspolitik, unter der Kindesentziehungen fortgesetzt wurden. Die
+        nationale Untersuchung und die Entschuldigung Western Australias von 1997 sowie die nationale Entschuldigung von
+        2008 erkannten das Unrecht und die Schäden der staatlichen Trennung von Aboriginal- und Torres-Strait-Islander-
+        Kindern ausdrücklich an. Die Behauptung ist institutionell verworfen; ihre Folgen sowie Wiedergutmachung und
+        Entschädigung dauern an.
+evidence:
+  - id: absorption-conference-proposition
+    note: >-
+      Der Primärbericht enthält den beschlossenen Satz zur endgültigen „Absorption“, Nevilles Erklärung, die Gesetzgebung
+      Western Australias verfolge dieses Ziel, seine Ausführungen zur Übernahme der Kontrolle über Kinder ab sechs Jahren
+      sowie die spätere Konferenzdebatte und den Beschluss.
+  - id: absorption-nhgri-correction
+    note: >-
+      Die heutige Genomik-Leitlinie unterscheidet die gesellschaftlich geschaffene Kategorie „Rasse“ von genetischer
+      Abstammung und erklärt, dass „Rasse“ und Ethnizität keine gültigen oder verlässlichen Ersatzgrößen dafür sind.
+  - id: absorption-aiatsis-correction
+    note: >-
+      AIATSIS nennt Abstammung, Selbstidentifikation und Anerkennung durch die Gemeinschaft als übliche Arbeitskriterien und
+      stellt klar, dass Aussehen und Lebensweise keine Voraussetzungen sind.
+  - id: absorption-bringing-home-impact
+    note: >-
+      Die nationale Untersuchung verbindet die Absorptionstheorie mit erzwungener Trennung von Kindern, Kontrolle über
+      Familienbindungen und dem Beschluss von 1937; anschließend unterscheidet sie Nevilles biologisches Modell vom späteren
+      soziokulturellen Assimilationsmodell.
+  - id: absorption-hansard-carrier
+    note: >-
+      Die Parlamentsdebatte gibt Nevilles öffentliche Erklärung vom Juni 1933 für eine schrittweise „Absorption“ wieder und
+      berichtet, der Commonwealth fördere ausgewählte gemischte Ehen. Sie dokumentiert die öffentliche Formulierung der
+      Politik, nicht ein in dieser Debatte beschlossenes Gesetz oder eine Resolution.
+  - id: absorption-conference-carrier
+    note: >-
+      Nennt die Vertreter des Commonwealth und der Bundesstaaten, dokumentiert die Einberufung durch den Commonwealth und
+      enthält die unterzeichneten Konferenzbeschlüsse.
+  - id: absorption-neville-carrier
+    note: >-
+      Belegt Nevilles Amtszeiten als Chief Protector von 1915 bis 1936 und Commissioner von 1936 bis 1940 sowie gesetzliche
+      Befugnisse Western Australias über Kinder und Ehe. Es handelt sich um einen Konferenzvortrag des damaligen Chief
+      Justice, der ausdrücklich seine persönlichen Ansichten wiedergibt und kein Gerichtsurteil ist.
+  - id: absorption-naa-carrier
+    note: >-
+      Der Leitfaden des National Archives ordnet die biologische „Absorptionspolitik“ im Northern Territory Chief Protector
+      Cecil Cook zu und dokumentiert 1939 Cooks Ablösung sowie die Abschaffung des Amts des Chief Protector.
+  - id: absorption-conference-mechanism
+    note: >-
+      Dokumentiert den vorgesehenen Einsatz von Kontrolle über Kinder, Bildung, Beschäftigung und staatlicher Verwaltung
+      zur „Absorption“, wobei die Einzelheiten den jeweiligen Jurisdiktionen überlassen blieben.
+  - id: absorption-neville-mechanism
+    note: >-
+      Fasst zusammen, wie Western Australia 1936 die gesetzliche Vormundschaft auf jedes als „Native child“ klassifizierte
+      Kind bis zum Alter von 21 Jahren trotz lebender Eltern oder Angehöriger ausweitete, zusammen mit Ehe- und weiteren
+      Verwaltungskontrollen.
+  - id: absorption-bringing-home-consequences
+    note: >-
+      Dokumentiert umfassende Kontrolle durch Protection Boards, die gezielte Entfernung von Kindern aus Familien und
+      Gemeinschaften sowie Schäden und materielle Bedingungen in Einrichtungen und Missionen.
+  - id: absorption-naa-context
+    note: >-
+      Zeigt, dass der Wechsel von 1939 von biologischer „Absorption“ zu wirtschaftlicher und gesellschaftlicher Assimilation
+      führte, unter der Kindesentziehungen und staatliche Kontrolle fortbestanden. Der Beleg stützt daher die Eingrenzung des
+      Endjahres und nicht ein Ende des Zwangs.
+  - id: absorption-nhgri-context
+    note: >-
+      Liefert den heutigen wissenschaftlichen Kontext zur Bewertung der politischen Gleichsetzung von „Rasse“, Hautfarbe,
+      Abstammung und Identität.
+  - id: absorption-aiatsis-context
+    note: >-
+      Liefert heutigen australischen institutionellen Kontext dafür, weshalb ein aufgezwungener Abstammungsanteil oder eine
+      visuelle Klassifikation Aboriginal-Identität nicht bestimmen kann.
+  - id: absorption-naa-policy-shift
+    note: >-
+      Dokumentiert 1939 den Übergang des Commonwealth weg von Cooks biologischer „Absorptionspolitik“ und zugleich, dass die
+      nachfolgende Assimilationspolitik Kindesentziehung und Kontrolle beibehielt.
+  - id: absorption-apology-correction
+    note: >-
+      Die nationale Entschuldigung erkennt Gesetze und Politik aufeinanderfolgender Parlamente und Regierungen,
+      Kindesentziehungen und das Zerbrechen von Familien und Gemeinschaften an; die begleitende Rede benennt ausdrücklich
+      die „Absorptionspolitik“ von 1937.
+  - id: absorption-wa-redress-correction
+    note: >-
+      Dokumentiert die formelle Entschuldigung Western Australias von 1997, erneuert die Entschuldigung für die Trennung von
+      Familie, Kultur und Country und kündigt ein staatliches Entschädigungsprogramm an. Dies belegt sowohl die Verwerfung
+      als auch die fortdauernde Wiedergutmachungsarbeit.

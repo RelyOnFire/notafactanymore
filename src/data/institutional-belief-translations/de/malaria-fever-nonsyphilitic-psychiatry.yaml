@@ -1,64 +1,182 @@
+schemaVersion: 2
 locale: de
 entryId: malaria-fever-nonsyphilitic-psychiatry
-sourceReviewedAt: '2026-08-24'
+sourceReviewedAt: '2026-09-30'
 title: Malariafiebertherapie bei nichtsyphilitischen psychiatrischen Erkrankungen
-claim: Die absichtliche Infektion psychiatrischer Patientinnen und Patienten mit Malaria und die Auslösung wiederholter
-  hoher Fieberschübe wurden als therapeutische Methode bei Schizophrenie, intellektueller Beeinträchtigung, affektiven
-  und psychopathischen Störungen sowie weiteren Erkrankungen ohne Neurosyphilis behandelt.
-currentUnderstanding: 'Bei Neurosyphilis besaß die Malariafiebertherapie historisch eine andere Grundlage: Hohes
-  Fieber konnte Treponema pallidum beeinträchtigen, bevor wirksame Antibiotika verfügbar waren. Daraus folgte jedoch
-  keine Wirksamkeit bei Schizophrenie oder anderen nichtsyphilitischen psychiatrischen Erkrankungen. Die Ergebnisse
-  solcher Erweiterungen waren historisch uneinheitlich und schlecht begründet; moderne Evidenz stützt eine absichtlich
-  herbeigeführte Plasmodium-vivax-Infektion nicht als psychiatrische Therapie. Malaria ist selbst eine akute Infektionskrankheit
-  mit potenziell schweren Komplikationen. Die Korrektur betrifft daher ausdrücklich die Ausweitung über Neurosyphilis
-  hinaus.'
+proposition:
+  summary: >-
+    Die absichtliche Infektion psychiatrischer Patientinnen und Patienten mit Plasmodium vivax und die Auslösung
+    wiederholter hoher Fieberschübe galten als therapeutische Methode bei Schizophrenie, intellektueller
+    Beeinträchtigung, affektiven und psychopathischen Störungen sowie weiteren Erkrankungen ohne Neurosyphilis. An der
+    Wiener Universitätspsychiatrie sollte das Fieber selbst ohne syphilitische Infektion eine unspezifische psychische
+    Umstimmung bewirken oder die Entwicklung anregen.
+correction:
+  summary: >-
+    Der historische Nutzen der Malariafiebertherapie bei progressiver Paralyse war an eine bestimmte infektiöse Ursache
+    gebunden: Neurosyphilis. Daraus folgte keine Wirksamkeit einer P.-vivax-Infektion bei Schizophrenie oder anderen
+    nichtsyphilitischen psychiatrischen Erkrankungen. Die Wiener Aktenstudie fand keine ausführliche zeitgenössische
+    Indikationsdiskussion für ihre vier wichtigsten nichtsyphilitischen Diagnosegruppen; die breitere historische
+    Literatur beschreibt die Ergebnisse bei solchen Störungen als uneinheitlich und weniger erfolgreich. Die heutige
+    Medizin behandelt Malaria als schwere Infektion und Neurosyphilis mit Antibiotika; absichtlich herbeigeführte Malaria
+    hat keine etablierte psychiatrische Indikation. Die Korrektur betrifft daher die Ausweitung auf nichtsyphilitische
+    Erkrankungen und streicht nicht die eigenständige Geschichte der Behandlung progressiver Paralyse vor Penicillin.
 impact:
-  summary: Die Wiener Universitätspsychiatrie hielt einen übertragbaren Plasmodium-vivax-Stamm vor und infizierte
-    psychiatrische Patientinnen und Patienten noch bis in die späten 1960er Jahre absichtlich. Die Mehrheit der
-    Malariatherapiefälle in den fünf untersuchten Hauptdiagnosegruppen betraf keine Neurosyphilis. Schizophrenie
-    und andere Diagnosen wurden mit einer Methode behandelt, für deren nichtsyphilitische Indikationen die zeitgenössische
-    Literatur kaum eine detaillierte Begründung lieferte.
+  summary: >-
+    Die Wiener Universitätspsychiatrie hielt einen durch Blut übertragbaren P.-vivax-Stamm vor und verzeichnete von 1951
+    bis 1968 insgesamt 869 Malariafiebertherapiefälle über verschiedene Diagnosen hinweg. Unter 772 Behandlungsfällen in
+    fünf untersuchten Hauptdiagnosegruppen der Erwachsenenstationen betrafen 609 – fast 79 % – keine Neurosyphilis. Das
+    Archiv identifiziert 158 absichtlich infizierte Personen mit der Hauptdiagnose Schizophrenie. Üblicherweise erhielten
+    die Betroffenen infiziertes Blut, durchliefen wiederholte Fieberschübe um oder über 40 °C und bekamen anschließend
+    Malariamittel. Der letzte dokumentierte Einsatz erfolgte im Dezember 1968, lange nachdem Penicillin und
+    Psychopharmaka die verfügbaren Alternativen verändert hatten.
   highlights:
-  - value: 609 / 772
-    label: Malariatherapiefälle in den fünf Wiener Hauptdiagnosegruppen betrafen andere Diagnosen als Neurosyphilis
-  - value: '158'
-    label: Schizophreniepatienten wurden im Archiv 1951–1969 als absichtlich mit P. vivax infiziert identifiziert
-  - value: '1968'
-    label: letzte dokumentierte Malariafiebertherapie an der Wiener Universitätspsychiatrie
+    - value: '869'
+      label: dokumentierte Malariafiebertherapiefälle über verschiedene Diagnosen hinweg an der Wiener Klinik
+    - value: 609 / 772
+      label: Fälle in fünf Hauptdiagnosegruppen der Erwachsenenstationen ohne Neurosyphilisdiagnose
+    - value: '158'
+      label: Personen mit Hauptdiagnose Schizophrenie unter den identifizierten iatrogenen P.-vivax-Infektionen
   context:
-  - Die klassische Anwendung bei progressiver Paralyse beziehungsweise Neurosyphilis war historisch davon zu
-    unterscheiden. Vor Penicillin besaß das malariainduzierte Fieber dort eine biologisch plausible und historisch
-    relevante antisyphilitische Wirkung, obwohl die Methode riskant war.
-  - Die Archivlage beweist nicht, dass jeder nichtsyphilitische Patient ohne aufrichtig gemeinte therapeutische
-    Indikation infiziert wurde. Sie zeigt jedoch die breite Ausweitung auf Diagnosen mit kaum detaillierter zeitgenössischer
-    Begründung und dass einzelne Patienten zugleich als Träger des Malariastamms dienten.
+    - >-
+      Die Zahl 772 bezeichnet Behandlungsfälle beziehungsweise Aufnahmen in den fünf Diagnosegruppen und nicht zwingend
+      772 verschiedene Personen. Laut historischer Studie wurde die Malariatherapie nur selten wiederholt, sodass Fall-
+      und Patientenzahlen nahe beieinanderlagen. Die Gesamtsumme 869 umfasst außerdem 97 Fälle mit weiteren Diagnosen;
+      eine gesonderte Untersuchung der Kinderstation fand 35 Malariatherapiefälle.
+    - >-
+      Der Nobelpreis von 1927 wurde ausdrücklich für die Malariainokulation bei Dementia paralytica, der
+      neuropsychiatrischen Erscheinungsform der späten Syphilis, vergeben. Er verlieh der Malariafiebertherapie Ansehen,
+      bestätigte aber nicht ihre Ausweitung auf Schizophrenie, intellektuelle Beeinträchtigung, affektive oder
+      psychopathische Diagnosen.
+    - >-
+      In Akten wurden einige zurückverlegte Patienten als „Stammträger“ bezeichnet; sie halfen also, die von Mensch zu
+      Mensch weitergegebene Malariakette aufrechtzuerhalten. Die Untersuchung konnte nicht feststellen, dass eine Person
+      ausschließlich zu diesem Zweck infiziert wurde, weil dieselben Diagnosen auch therapeutisch behandelt wurden. Die
+      Akten tragen Bedenken und Ungewissheit, aber keine pauschale Behauptung eines rein nichttherapeutischen Versuchs.
+    - >-
+      Eine Person aus der Schizophreniegruppe starb während des Klinikaufenthalts nach P.-vivax-Inokulation und späterer
+      Behandlung mit Malariamitteln. Die Akte nennt keine eindeutige Todesursache; dieser Eintrag schreibt den Tod daher
+      nicht der Malariatherapie zu.
 episodes:
-- id: austria-vienna-1951-1968
-  polity: Österreich — Wien
-  institutions:
-  - Psychiatrisch-Neurologische Universitätsklinik Wien
-  - Allgemeines Krankenhaus Wien
-  - Medizinische Fakultät der Universität Wien
-  institutionalContext: Unter Hans Hoff setzte die Wiener Universitätspsychiatrie die Malariafiebertherapie von
-    1951 bis 1968 fort und weitete sie weit über Neurosyphilis hinaus aus. Menschen mit Schizophrenie, intellektueller
-    Beeinträchtigung, affektiven und psychopathischen Störungen sowie weiteren Diagnosen wurden gezielt mit P. vivax
-    infiziert, meist durch infiziertes Blut, und durchliefen wiederholte Fieberschübe, bevor Antimalariamittel gegeben
-    wurden. Eine moderne Aktenstudie fand 772 Malariatherapiefälle in fünf Hauptdiagnosegruppen; 609 davon – fast
-    79 % – betrafen keine Neurosyphilis. Für die vier nichtsyphilitischen Diagnosegruppen fand die Untersuchung
-    keine ausführliche zeitgenössische Indikationsdiskussion. Der letzte dokumentierte Einsatz erfolgte im Dezember
-    1968.
-  summary: Die Wiener Universitätspsychiatrie infizierte noch bis in die späten 1960er Jahre zahlreiche Menschen
-    ohne Neurosyphilis absichtlich mit Malaria. Im untersuchten Bestand betrafen 609 von 772 Malariatherapiefällen
-    der fünf Hauptdiagnosegruppen andere Diagnosen als Neurosyphilis, darunter Schizophrenie, intellektuelle Beeinträchtigung
-    sowie affektive und psychopathische Störungen. Eine separate infektiologische Aktenanalyse identifizierte 158
-    Schizophreniepatienten, die meist mit 4–8 mL P.-vivax-infiziertem Blut inokuliert wurden und mehrere Fieberschübe
-    durchliefen. Für diese nichtsyphilitischen Erweiterungen findet sich kaum eine detaillierte wissenschaftliche
-    Begründung; die Praxis hielt bis Dezember 1968 an.
-  consequences:
-  - Absichtliche Infektion psychiatrischer Patientinnen und Patienten mit Plasmodium vivax
-  - Wiederholte Fieberschübe vor Beendigung der Infektion durch Antimalariamittel
-  - Einsatz bei Schizophrenie, intellektueller Beeinträchtigung sowie affektiven und psychopathischen Diagnosen
-    ohne Neurosyphilis-Rationale
-  - Fortgesetzte Exposition gegenüber einer Infektionskrankheit trotz verfügbarer nichtinfektiöser psychiatrischer
-    Behandlungen
-  - Einzelne Patienten dienten zugleich als Träger des institutionellen Malariastamms
+  - id: austria-vienna-1951-1968
+    polity: Österreich — Wien
+    periodLabel: 1951–1968
+    institutions:
+      - Psychiatrisch-Neurologische Universitätsklinik Wien
+      - Medizinische Fakultät der Universität Wien
+      - Allgemeines Krankenhaus Wien
+    institutionalContext: >-
+      Unter Klinikleiter Hans Hoff behielt die Wiener Universitätspsychiatrie die Malariafiebertherapie während des
+      Übergangs zu Neuroleptika und Antidepressiva als etablierte Behandlungsoption bei. Ärztinnen und Ärzte wählten
+      Patientinnen und Patienten nach Symptomen und Diagnose aus und nutzten das Verfahren bei Schizophrenie,
+      intellektueller Beeinträchtigung, affektiven und psychopathischen Störungen sowie weiteren nichtsyphilitischen
+      Erkrankungen. Eine retrospektive Datenbank fand insgesamt 869 Malariatherapiefälle, darunter 772 in fünf
+      Hauptdiagnosegruppen der Erwachsenenstationen; 609 dieser 772 Fälle waren nichtsyphilitisch. Die meisten Menschen
+      in diesen Diagnosegruppen erhielten keine Malariatherapie. Es handelte sich somit um eine institutionalisierte,
+      aber selektive Praxis und nicht um eine allgemeine Klinikregel.
+    consequences:
+      - Absichtliche Infektion psychiatrischer Patientinnen und Patienten mit Blutstadien von Plasmodium vivax
+      - Wiederholte Fieberschübe häufig um oder über 40 °C vor Beendigung der Blutstadieninfektion durch Malariamittel
+      - Einsatz bei Schizophrenie, intellektueller Beeinträchtigung sowie affektiven und psychopathischen Diagnosen ohne Neurosyphilisrationale
+      - Kombination in einzelnen Fällen mit Elektroschock, Insulinschock oder Typhusprovokation
+      - Fortgesetzte Exposition gegenüber einer Infektionskrankheit trotz verfügbarer nichtinfektiöser Psychiatriebehandlungen und Penicillin
+      - Nutzung einzelner zurückverlegter Patienten als Träger in der Kette zur Erhaltung des klinikeigenen Malariastamms
+    summary: >-
+      Von 1951 bis Dezember 1968 übertrug die Wiener Universitätspsychiatrie P. vivax absichtlich in einem breiten Spektrum
+      psychiatrischer Fälle. In den vollständigen Schizophrenieakten erfolgte die Inokulation meist intravenös, die Dosis
+      betrug 4–8 mL infiziertes Blut, und im Durchschnitt wurden 5,4 Fieberschübe dokumentiert, bevor Malariamittel gegeben
+      wurden. Außerhalb der Neurosyphilis beschrieb die Klinik als Ziel eine unspezifische psychische Umstimmung oder einen
+      Entwicklungsanstoß. Das Archivprojekt fand jedoch keine ausführliche zeitgenössische Indikationsdiskussion für die
+      vier wichtigsten nichtsyphilitischen Diagnosegruppen. Wien hielt zudem an der Praxis fest, nachdem vergleichbare
+      Kliniken im deutschsprachigen Raum sie stark eingeschränkt oder beendet hatten.
+    mechanism:
+      summary: >-
+        Die Klinik hielt einen übertragbaren P.-vivax-Stamm vor, wählte psychiatrische stationäre Patientinnen und
+        Patienten zur Inokulation aus, gab infiziertes Blut von einer Person an die nächste weiter, beobachtete wiederholte
+        Fieberschübe und verabreichte anschließend Malariamittel. Diese klinische Infrastruktur machte die
+        Malariafiebertherapie außerhalb ihrer ursprünglichen Neurosyphilisindikation institutionell wiederholbar.
+    institutionalCorrection:
+      periodLabel: 1968; institutionelle Untersuchung 2012–2015 und spätere Veröffentlichung
+      action: >-
+        Nach der letzten dokumentierten Behandlung im Dezember 1968 endete die Praxis. 2012 beauftragte die Medizinische
+        Universität Wien eine externe historische Untersuchung und stellte deren Ergebnisse 2015 öffentlich vor; die
+        Aktenbefunde erschienen später in begutachteten Veröffentlichungen.
+      summary: >-
+        Die Untersuchung dokumentierte die außergewöhnlich breite Nutzung, die schwache veröffentlichte Begründung
+        nichtsyphilitischer Indikationen und die Möglichkeit, dass in Einzelfällen die Stammerhaltung die Auswahl
+        beeinflusste. Der Leiter einer Nachfolgeklinik wies einen primär der Stammerhaltung dienenden Einsatz ausdrücklich
+        zurück und bedauerte solche Maßnahmen. Die offizielle Darstellung bewertete die breitere Praxis zugleich nach
+        damaligen Maßstäben als zulässig und fand keine Hinweise auf Bestrafungs- oder Versuchszwecke. Dies ist eine
+        substanzielle, aber begrenzte institutionelle Aufarbeitung; die geprüften Quellen dokumentieren weder eine
+        pauschale Zurückweisung noch eine Entschuldigung an alle Betroffenen oder ein Entschädigungsprogramm.
+evidence:
+  - id: malaria-nonsyphilitic-proposition
+    note: >-
+      Dokumentiert die Wiener Malariafiebertherapie als unspezifische „Schockbehandlung“ bei Schizophrenie,
+      intellektueller Beeinträchtigung sowie affektiven und psychopathischen Störungen mit den Zielen psychischer
+      Umstimmung oder Entwicklungsanregung.
+  - id: malaria-nonsyphilitic-correction
+    note: >-
+      Findet keine ausführliche zeitgenössische Indikationsdiskussion für die vier wichtigsten nichtsyphilitischen
+      Diagnosegruppen und hält fest, dass andere psychiatrische Literatur Anwendungen außerhalb progressiver Paralyse als
+      selten wirksam bezeichnete.
+  - id: malaria-review-correction
+    note: >-
+      Unterscheidet die historische Neurosyphilisrationale von Ausweitungen auf Schizophrenie und manisch-depressive
+      Psychose, deren Ergebnisse uneinheitlich waren und als weniger erfolgreich galten.
+  - id: malaria-who-correction
+    note: >-
+      Definiert Malaria als potenziell lebensbedrohliche parasitäre Erkrankung, nennt P. vivax als eine der beiden größten
+      Bedrohungen durch menschliche Malaria und erklärt Malaria zur schweren, medikamentös zu behandelnden Infektion.
+  - id: malaria-cdc-correction
+    note: >-
+      Die heutige Leitlinie empfiehlt bei Neurosyphilis hoch dosiertes wässriges kristallines Penicillin G und zeigt damit,
+      dass selbst die historisch eigenständige Infektionsindikation heute ohne absichtlich ausgelöste Malaria behandelt wird.
+  - id: malaria-nobel-scope
+    note: >-
+      Die amtliche Preisbegründung betrifft ausdrücklich den therapeutischen Wert der Malariainokulation bei Dementia
+      paralytica; sie behauptet keine Wirksamkeit bei Schizophrenie oder anderen nichtsyphilitischen psychiatrischen Störungen.
+  - id: malaria-neurosyphilis-context
+    note: >-
+      Behandelt den historisch bedeutsamen, aber riskanten Einsatz gegen progressive Paralyse vor Penicillin, einschließlich
+      früher Remissionsbefunde und Mortalität, und erklärt, weshalb diese spezifische Infektionsindikation überholt wurde.
+  - id: vienna-malaria-impact
+    note: >-
+      Dokumentiert insgesamt 869 Malariatherapiefälle, 772 Fälle in fünf Hauptdiagnosegruppen der Erwachsenenstationen,
+      609 nichtsyphilitische Fälle und die letzte Behandlung im Dezember 1968 sowie 35 Fälle in der gesonderten Kinderakte.
+  - id: vienna-schizophrenia-impact
+    note: >-
+      Identifiziert im Archiv 869 iatrogene P.-vivax-Infektionen und 158 Personen mit Hauptdiagnose Schizophrenie und
+      dokumentiert Inokulationsdosen, wiederholte Fieberspitzen und die anschließende Behandlung mit Malariamitteln.
+  - id: vienna-malaria-carrier
+    note: >-
+      Benennt die Psychiatrisch-Neurologische Universitätsklinik Wien unter Hans Hoff als Behandlungsort und erklärt ihre
+      ungewöhnlich lange Fortführung der Malariafiebertherapie von 1951 bis 1968.
+  - id: vienna-malaria-mechanism
+    note: >-
+      Dokumentiert klinische Auswahl, Blutübertragung von Mensch zu Mensch, die Erhaltung eines syphilisfreien
+      Malariastamms und den Einsatz von in den Akten als Stammträger bezeichneten Patienten.
+  - id: vienna-malaria-procedure
+    note: >-
+      Rekonstruiert die überwiegend intravenöse Inokulation mit 4–8 mL P.-vivax-infiziertem Blut, durchschnittlich 5,4
+      Fieberschübe in vollständigen Schizophrenieakten und die Beendigung mit chinin- oder chloroquinbasierten Mitteln.
+  - id: vienna-malaria-consequences
+    note: >-
+      Dokumentiert 609 nichtsyphilitische Fälle unter den 772 untersuchten Erwachsenenfällen, den Einsatz in vier
+      wesentlichen nichtsyphilitischen Diagnosegruppen, Kombinationen mit anderen invasiven Therapien und die Stammträgerrolle.
+  - id: vienna-malaria-clinical-consequences
+    note: >-
+      Liefert personenbezogene Belege für absichtliche Infektion, wiederholte Temperaturen um oder über 40 °C, sinkende
+      Hämoglobin- und Erythrozytenwerte in den begrenzten Laborakten sowie einen Todesfall ungeklärter Ursache.
+  - id: vienna-malaria-nobel-context
+    note: >-
+      Begrenzt die Nobelanerkennung auf Dementia paralytica und verhindert, dass der Preis als institutioneller Beleg für
+      Wiens spätere nichtsyphilitische Anwendungen missverstanden wird.
+  - id: vienna-malaria-institutional-correction
+    note: >-
+      Dokumentiert die von der Medizinischen Universität beauftragte Untersuchung, ihre Ergebnisse von 2015, das
+      begrenzende Urteil der Zulässigkeit nach damaligen Maßstäben sowie Zurückweisung und Bedauern eines primär der
+      Stammerhaltung dienenden Einsatzes durch den Leiter einer Nachfolgeklinik.
+  - id: vienna-malaria-reappraisal
+    note: >-
+      Erklärt, dass die Leitung der Medizinischen Universität das historische Projekt nach öffentlichen Vorwürfen
+      einleitete, und liefert die begutachtete Aktenstudie samt erweitertem Projektbericht nach der Kommissionsarbeit.

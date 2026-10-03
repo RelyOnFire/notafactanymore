@@ -1,69 +1,300 @@
+schemaVersion: 2
 title: Covid-Organics as established COVID-19 prevention and treatment
-claim: Madagascar treated Covid-Organics as a preventive and therapeutic COVID-19 remedy and distributed it through
-  state policy before randomized trials had demonstrated that it prevented or treated the disease.
-currentUnderstanding: A plausible plant ingredient or traditional use does not establish clinical efficacy against
-  COVID-19. Covid-Organics had not been shown in adequately controlled randomized trials to prevent or treat COVID-19
-  when it was promoted and distributed. Later clinical evaluation was therefore an evidentiary step that should
-  have preceded claims of established therapeutic benefit.
+proposition:
+  summary: >-
+    Madagascar treated the original Covid-Organics drink as an established preventive and curative COVID-19 remedy,
+    distributed it through national policy, and later registered CVO and CVO+ products before product-specific
+    randomized evidence supported the breadth of the prevention and treatment claims.
+correction:
+  summary: >-
+    Laboratory inhibition can justify clinical study, but it does not establish that a drink prevents infection or
+    improves illness in people. A CVO-specific cell-culture study found antiviral activity, yet called its selectivity
+    index unpromising and required animal and human trials before recommending use. A later randomized trial provides
+    relevant but much narrower evidence for CVO+ Curatif: it tested standardized artemisinin and 1,8-cineole capsules
+    in adults with mild or moderate COVID-19, rather than the original drink or a preventive regimen, and reported
+    87.1% versus 75.0% success on its composite endpoint. The report analyzed 276 of 339 randomized participants per
+    protocol, used one-tailed tests, began enrolment before registry approval, and ended below its planned analyzed
+    sample. That result cannot retroactively validate the 2020 rollout or establish prevention by CVO products; those
+    broader claims require product-specific, independently reproducible clinical evidence and patient-relevant outcomes.
 category: Medicine and public health
-reviewedAt: '2026-08-24'
+reviewedAt: '2026-09-27'
 impact:
-  summary: Madagascar moved Covid-Organics from a locally developed preparation into national pandemic policy. Government
-    plans and audits document mass distribution, use in schools and public administration, and incorporation into
-    the COVID response before efficacy had been established in randomized trials. WHO later treated the related
-    CVO+ product as an investigational remedy requiring a Phase III trial.
+  summary: >-
+    Covid-Organics moved rapidly from a presidential announcement into Madagascar's national pandemic response. The
+    July 2020 emergency plan called it preventive and curative, recorded masks and CVO distributed to 270,000 pupils,
+    planned CVO for 660,600 examination-class pupils, and proposed preventive family packs for four million households.
+    The Court of Accounts later documented mass distribution through fokontany, public self-service points, schools,
+    government offices, and hospitals, while finding no scientific study that could attribute the observed mortality
+    pattern to CVO. Product registration also outlasted the emergency rollout: official 2025 registers listed four
+    presentations of the original CVO and both CVO+ Curatif and CVO+ Préventif capsules.
   highlights:
-  - value: '2020'
-    label: Covid-Organics entered national pandemic policy and mass distribution
-  - value: 270,000 pupils
-    label: The national emergency plan recorded distribution of masks and Covid-Organics to examination-class pupils
-  - value: '2021'
-    label: WHO described CVO+ as undergoing Phase III evaluation rather than as an established treatment
+    - value: 270,000 pupils
+      label: The emergency plan recorded masks and Covid-Organics distributed to examination-class pupils
+    - value: 4 million households
+      label: The emergency plan's proposed reach for preventive CVO family packs, not a completed-distribution count
+    - value: '2025'
+      label: Official medicine registers still listed original CVO and curative and preventive CVO+ products
   context:
-  - Artemisia and other plants can contain medically useful compounds. The disputed leap was from a preparation's
-    composition and preliminary observations to treating its COVID-19 preventive or therapeutic effect as established.
+    - >-
+      Artemisia and other plants can contain medically useful compounds. The disputed institutional step was treating
+      composition, traditional use, early observations, or cell-culture activity as proof of prevention and treatment
+      in people before suitable trials.
+    - >-
+      CVO, CVO+ Curatif, and CVO+ Préventif were not interchangeable products. The published randomized trial tested
+      a higher-concentration capsule formulation for treatment of mild or moderate disease; it did not test the original
+      tea and did not evaluate prevention.
+    - >-
+      Appearance in Madagascar's registered-medicines lists documents national regulatory status. The lists alone do
+      not supply a clinical indication, prove efficacy, or constitute a WHO recommendation.
 episodes:
-- id: madagascar-2020-2021
-  polity: Madagascar
-  region: East Africa
-  startYear: 2020
-  endYear: 2021
-  strength: policy-basis
-  institutionTypes:
-  - government
-  - medical
-  institutions:
-  - Presidency of the Republic of Madagascar
-  - Prime Minister’s Office (Primature de Madagascar)
-  institutionalContext: Covid-Organics became part of the national COVID response rather than remaining a private
-    experimental product. Government planning documents recorded population and school distribution; the Court of
-    Accounts later documented mass distribution and use across public settings while also noting the lack of scientific
-    evidence tying traditional remedies to outcomes. The 2021 shift toward formal Phase III evaluation did not amount
-    to a categorical Malagasy repudiation of the product.
-  consequences:
-  - Mass preventive distribution of Covid-Organics through local administrative structures
-  - Distribution to school pupils and public services
-  - Government incorporation of an unproven remedy into the national COVID response
-  - Public therapeutic legitimacy before randomized efficacy evidence was available
-  summary: In 2020 Madagascar incorporated Covid-Organics into its COVID-19 response and distributed it widely as
-    a protective and therapeutic remedy. Government emergency-planning and audit material document school and mass
-    distribution and the remedy’s role in public policy. At the time, controlled evidence establishing prevention
-    or treatment was absent. In 2021 WHO described the related CVO+ preparation as requiring Phase III clinical
-    evaluation to determine safety and efficacy.
-  sources:
-  - title: Plan Multisectoriel d’Urgence — COVID-19
+  - id: madagascar-2020-2025
+    polity: Madagascar
+    region: East Africa
+    startYear: 2020
+    endYear: 2025
+    periodLabel: 2020–2025
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - medical
+    institutions:
+      - Presidency of the Republic of Madagascar
+      - Prime Minister’s Office (Primature de Madagascar)
+      - Ministry of Public Health of Madagascar
+      - Agency of Medicine of Madagascar
+      - Pharmalagasy
+    institutionalContext: >-
+      The presidency supplied the initial claim and distribution order. On 19 April 2020 President Andry Rajoelina
+      announced an Artemisia-based remedy, said IMRA tests on infected people had been positive, promised clinical trials
+      for the following week, and ordered Covid-Organics distributed when examination classes returned. The national
+      emergency plan then described CVO as preventive and curative, embedded actual and planned distribution in education
+      and mass-protection programmes, and proposed family packs for two-thirds of Malagasy households. The Court of
+      Accounts found that strategic health decisions had been centralized at the presidency, that the state had adopted
+      the remedy, and that the wholly state-owned Pharmalagasy factory received exceptional support to manufacture it.
+      Formal evaluation followed: the government publicized a CVO+ Phase III trial in 2021 and its researchers published
+      results in 2022. Official medicine registers nevertheless continued to list the original CVO presentations in May
+      2025 and both curative and preventive CVO+ capsules in July 2025.
+    consequences:
+      - Distribution of masks and Covid-Organics to 270,000 examination-class pupils recorded as a completed measure
+      - Mass distribution through fokontany, public self-service points, schools, public administration, and hospitals
+      - Plans to reach 660,600 examination-class pupils and four million households with preventive CVO
+      - State investment in the wholly state-owned Pharmalagasy factory and continued national product registration
+      - Retention of the traditional remedy when the Health Ministry proposed joining COVAX in July 2020
+      - Public preventive and therapeutic legitimacy extending beyond the products and uses examined in a randomized trial
+    summary: >-
+      Madagascar made Covid-Organics part of state pandemic policy within days of its presidential launch. It was
+      distributed through schools and local administration, placed in the national treatment environment, and planned
+      for household-scale preventive distribution before controlled clinical evidence existed. A later government-backed
+      trial was a meaningful change in evidentiary method, but it examined a distinct standardized CVO+ Curatif capsule
+      only for mild or moderate treatment. Its positive reported result did not test the original drink or prevention,
+      and the report's attrition, per-protocol analysis, one-tailed testing, registry approval after enrolment began,
+      and fewer evaluable participants than planned limit the inference. The Court of Accounts rejected causal claims
+      based on observed mortality and urged systematic evaluation, yet national registers still carried original,
+      curative, and preventive CVO products in 2025.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Presidential endorsement became administrative distribution, national emergency planning, a state-owned
+        manufacturing programme, government-backed clinical research, and medicine registration. These channels gave
+        the products preventive and therapeutic authority well beyond an experimental research setting.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 2021–2022
+      action: The Court of Accounts rejected a causal efficacy inference and called for systematic evaluation, while the government moved the distinct CVO+ Curatif capsule into a randomized trial.
+      summary: >-
+        The audit and randomized trial corrected part of the original evidentiary process: one oversight body expressly
+        said no scientific study could tie the mortality pattern to CVO, and the later capsule was subjected to controlled
+        testing. The correction remained incomplete because neither step withdrew the original drink's prevention and
+        treatment claims, the trial did not test prevention or the original formulation, and official 2025 registers
+        still listed original CVO plus products explicitly named Curatif and Préventif.
+sources:
+  - id: cvo-emergency-plan
+    title: Plan Multisectoriel d’Urgence — COVID-19
     url: https://www.primature.gov.mg/wp-content/uploads/2020/07/Plan-Multisectoriel-DUrgence-PMDU-Version-finale-14.07.20-2.pdf
     publisher: Prime Minister’s Office, Madagascar
-    note: Official national emergency plan documenting Covid-Organics as part of the response, including distribution
-      with masks to 270,000 pupils in examination classes.
-  - title: Audit organisationnel de la gestion de la crise sanitaire liée à la COVID-19 pour l’année 2020
+  - id: cvo-court-audit
+    title: Audit organisationnel de la gestion de la crise sanitaire liée à la COVID-19 pour l’année 2020
     url: https://ccomptes.mg/uploads/RAPPORT-SUR-L%E2%80%99AUDIT-ORGANISATIONNEL-%28APPROCHE-SYSTEMIQUE%29-DE-LA-GESTION-DE-LA-CRISE-SANITAIRE-LIEE-A-LA-COVID-19-POUR-L%E2%80%99ANNEE-20201762004795.pdf
     publisher: Cour des Comptes de Madagascar
-    note: Official audit documenting mass CVO distribution through fokontany, public administration and other settings,
-      while noting that no scientific study could establish a direct causal link between traditional remedies and
-      the observed mortality pattern.
-  - title: WHO statement on the clinical trial of CVO+ remedy
+  - id: cvo-who-trial-statement
+    title: WHO statement on the clinical trial of CVO+ remedy
     url: https://www.afro.who.int/news/who-statement-clinical-trial-cvo-remedy
     publisher: World Health Organization Regional Office for Africa
-    note: WHO statement describing CVO+ as an investigational remedy undergoing Phase III clinical evaluation and
-      making recommendation contingent on demonstrated safety and efficacy.
+  - id: cvo-presidential-address
+    title: Intervention du Président de la République, S.E.M. Andry RAJOELINA du 19 avril 2020
+    url: https://botschaft-madagaskar.de/fr/en-general/intervention-du-president-de-la-republique-s-e-m-andry-rajoelina-du-19-avril-2020-2/
+    publisher: Embassy of the Republic of Madagascar in Germany
+  - id: cvo-plus-trial
+    title: 'Efficacy and Safety of CVO PLUS CURATIF Capsules, Malagasy Improved Traditional Medication for Treating COVID-19: A Randomized, Double-Blind, Placebo-Controlled Trial'
+    url: https://doi.org/10.26502/acbr.50170295
+    publisher: Archives of Clinical and Biomedical Research
+  - id: cvo-in-vitro-study
+    title: In vitro efficacy of Artemisia extracts against SARS-CoV-2
+    url: https://doi.org/10.1186/s12985-021-01651-8
+    publisher: Virology Journal
+  - id: cvo-who-artemisia
+    title: 'Coronavirus disease (COVID-19): Malaria and COVID-19'
+    url: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-malaria-and-covid-19
+    publisher: World Health Organization
+  - id: cvo-amm-original-2025
+    title: Liste des médicaments enregistrés à Madagascar du 02/05/2025
+    url: https://www.amm.mg/PDF/SE/2025/3%20LISTE_%20AMM_%20Mai-2025.pdf
+    publisher: Agency of Medicine of Madagascar
+  - id: cvo-amm-plus-2025
+    title: Liste des médicaments enregistrés à Madagascar du 14/07/2025
+    url: https://www.amm.mg/PDF/SE/2025/5%20LISTE_AMM_Juillet-2025.pdf
+    publisher: Agency of Medicine of Madagascar
+evidence:
+  - id: cvo-plan-proposition
+    sourceId: cvo-emergency-plan
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Foreword, p. 4; Executive Summary, p. 6; §§2.2.1 and 2.7.6, pp. 19–20 and 25–26
+    note: >-
+      The president's foreword calls Covid-Organics a preventive and curative remedy. The plan records completed school
+      distribution, labels family packs preventive, and treats CVO as a mass-protection measure while acknowledging that
+      the scientific basis of traditional medicines remained weakly documented.
+  - id: cvo-in-vitro-correction
+    sourceId: cvo-in-vitro-study
+    relation: contextualizes
+    target: {scope: belief, aspect: correction}
+    locator: Abstract; Results, Table 2; Discussion and Conclusions
+    note: >-
+      The original Covid-Organics drink inhibited SARS-CoV-2 in VeroE6 cell culture, with EC50 equal to 7.73% of the raw
+      drink and a selectivity index of 5.28. The authors called that selectivity index unpromising, said achievable human
+      exposure remained unknown, and required animal and human trials before patient recommendations.
+  - id: cvo-trial-correction
+    sourceId: cvo-plus-trial
+    relation: contextualizes
+    target: {scope: belief, aspect: correction}
+    locator: pp. 817–823, especially Methods, Results, Discussion, Limitations, and Declarations
+    note: >-
+      The CVO+ Curatif trial reported 87.1% success versus 75.0% with placebo (OR 2.25; p=0.011). It tested a standardized
+      capsule richer in active compounds than the original tea, not prevention; analyzed 276 of 339 randomized participants
+      per protocol; used one-tailed tests; began enrolment on 18 January before registry approval on 24 March 2021; and
+      ended below the planned analyzed sample amid attrition, urgent circumstances, and lack of funding.
+  - id: cvo-who-contemporaneous-correction
+    sourceId: cvo-who-artemisia
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: 25 August 2020 Q&A, “What is WHO’s position on the use of Artemisia plant material…?”
+    note: >-
+      WHO's contemporaneous assessment said evidence did not support Artemisia products or extracts as COVID-19 antivirals
+      and found no evidence for prevention or treatment with Artemisia-based plant material. The page is preserved for
+      reference and is no longer updated, so this evidence is used for the state of knowledge during the rollout.
+  - id: cvo-policy-impact
+    sourceId: cvo-emergency-plan
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Executive Summary, p. 6; §§2.2.1.1–2.2.1.2, pp. 19–20; §2.7.6.2, p. 26
+    note: >-
+      The official plan provides the card's scale figures: 270,000 pupils in a completed distribution measure, and
+      separate programme targets of 660,600 pupils and four million households. The targets are identified as plans
+      rather than reported completed distributions.
+  - id: cvo-president-carrier
+    sourceId: cvo-presidential-address
+    relation: documents
+    target: {scope: episode, episodeId: madagascar-2020-2025, aspect: carrier}
+    locator: Sections “À propos du remède contre le Covid-19” and “Les écoles”
+    note: >-
+      Official diplomatic archive of the 19 April address: the president said IMRA tests on infected people had been
+      positive, announced clinical trials for the following week, and included distribution of Covid-Organics tea among
+      the measures accompanying pupils' return to examination classes.
+  - id: cvo-plan-carrier
+    sourceId: cvo-emergency-plan
+    relation: documents
+    target: {scope: episode, episodeId: madagascar-2020-2025, aspect: carrier}
+    locator: Foreword, p. 4; §§2.2.1 and 2.7.6, pp. 19–20 and 25–26
+    note: >-
+      The national emergency plan incorporates CVO into education and mass-protection programmes and assigns implementation
+      through central government sectors rather than describing a private or merely experimental product.
+  - id: cvo-plan-impact
+    sourceId: cvo-emergency-plan
+    relation: supports
+    target: {scope: episode, episodeId: madagascar-2020-2025, aspect: consequences}
+    locator: Executive Summary, p. 6; §§2.2.1.1–2.2.1.2, pp. 19–20; §2.7.6.2, p. 26
+    note: >-
+      Records distribution of masks and CVO to 270,000 examination-class pupils as a measure taken; separately plans
+      CVO for 660,600 such pupils outside confined regions and preventive family packs for four million households.
+      The latter two figures are programme targets, not verified completion counts.
+  - id: cvo-audit-carrier
+    sourceId: cvo-court-audit
+    relation: documents
+    target: {scope: episode, episodeId: madagascar-2020-2025, aspect: carrier}
+    locator: §2.2.1, pp. 24–25; §3.1.3, pp. 45–46
+    note: >-
+      The Court found that strategic health decisions were taken at the highest level, that the presidency displaced the
+      Health Ministry's technical authority, and that the wholly state-owned Pharmalagasy received a new factory,
+      imported machinery, trained staff, and exclusive raw-material supply to produce CVO.
+  - id: cvo-audit-consequences
+    sourceId: cvo-court-audit
+    relation: supports
+    target: {scope: episode, episodeId: madagascar-2020-2025, aspect: consequences}
+    locator: §2.2.1, p. 24; “Protocoles de traitement…”, pp. 79–80; §2.4.7, p. 90
+    note: >-
+      The audit records mass sachet distribution through fokontany, public self-service drink stations, compulsory school
+      administration with sweets, free distribution in government services, hospital equipment supplied by the presidency,
+      and a national-treatment option. It also says the traditional remedy was retained instead of the Health Ministry's
+      July 2020 proposal to join COVAX and that other traditional-medicine messaging was prohibited except for CVO.
+  - id: cvo-audit-partial-correction
+    sourceId: cvo-court-audit
+    relation: documents
+    target: {scope: episode, episodeId: madagascar-2020-2025, aspect: institutional-correction}
+    locator: “Protocoles de traitement à bien communiquer et nécessitant une évaluation systématique”, pp. 79–80
+    note: >-
+      The Court said no scientific study could confirm a direct, predominant correlation between the low observed
+      mortality and the traditional remedy because it accompanied other treatments. It called for systematic protocol
+      evaluation, stronger scientific-institution involvement, and clinical research.
+  - id: cvo-who-trial-transition
+    sourceId: cvo-who-trial-statement
+    relation: documents
+    target: {scope: episode, episodeId: madagascar-2020-2025, aspect: institutional-correction}
+    locator: 5 July 2021 statement, paras. 2–8
+    note: >-
+      WHO described the completed study as a Phase III trial of CVO+ capsules for mild and moderate disease, stated that
+      recommendations require demonstrated safety, efficacy, and quality in randomized trials, and said an independent
+      regional expert committee would examine the Malagasy data. The statement itself did not endorse efficacy.
+  - id: cvo-trial-transition
+    sourceId: cvo-plus-trial
+    relation: documents
+    target: {scope: episode, episodeId: madagascar-2020-2025, aspect: institutional-correction}
+    locator: pp. 817–823
+    note: >-
+      Documents the government's move from observation and rollout to a randomized, double-blind, placebo-controlled
+      trial, while also defining the narrower capsule formulation, treatment population, reported benefit, and design
+      limitations that prevent extrapolation to the original drink or prevention.
+  - id: cvo-in-vitro-context
+    sourceId: cvo-in-vitro-study
+    relation: contextualizes
+    target: {scope: episode, episodeId: madagascar-2020-2025, aspect: context}
+    locator: Results, Table 2; Discussion and Conclusions
+    note: >-
+      Establishes that the original drink had a laboratory antiviral signal, avoiding the overstatement that it had no
+      supporting data of any kind, while drawing the crucial boundary between in-vitro activity and demonstrated benefit
+      or prevention in patients.
+  - id: cvo-who-rollout-context
+    sourceId: cvo-who-artemisia
+    relation: contextualizes
+    target: {scope: episode, episodeId: madagascar-2020-2025, aspect: context}
+    locator: 25 August 2020 Q&A, Artemisia question
+    note: >-
+      Provides WHO's dated evidentiary assessment during the national rollout; it is not treated as a post-2021 review
+      of the later CVO-specific cell study or CVO+ capsule trial.
+  - id: cvo-original-registration
+    sourceId: cvo-amm-original-2025
+    relation: documents
+    target: {scope: episode, episodeId: madagascar-2020-2025, aspect: mechanism}
+    locator: Product codes 40367–40370
+    note: >-
+      The 2 May 2025 official register lists original CovidOrganics/Tambavy as 33 cl and one-litre solutions, tea bags,
+      and 16.5 g powder sachets manufactured by IMRA. Registration documents regulatory continuity but does not itself
+      establish a clinical indication or efficacy.
+  - id: cvo-plus-registration
+    sourceId: cvo-amm-plus-2025
+    relation: documents
+    target: {scope: episode, episodeId: madagascar-2020-2025, aspect: institutional-correction}
+    locator: Product codes 40640 and 40404
+    note: >-
+      The 14 July 2025 official register lists both CVO Plus Curatif and CVO Plus Préventif capsules from CNARP and
+      Pharmalagasy. The prevention-labelled registration is especially material because the published randomized trial
+      evaluated treatment of mild or moderate disease, not prevention.

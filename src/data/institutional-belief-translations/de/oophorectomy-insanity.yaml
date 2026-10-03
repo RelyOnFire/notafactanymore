@@ -1,96 +1,264 @@
 schemaVersion: 2
 locale: de
 entryId: oophorectomy-insanity
-sourceReviewedAt: '2026-08-24'
-title: Entfernung der Eierstöcke als Behandlung von Geisteskrankheit
+sourceReviewedAt: '2026-09-19'
+title: Entfernung der Eierstöcke zur Heilung von Geisteskrankheit
 proposition:
   summary: >-
-    Die Entfernung der Eierstöcke und Eileiter wurde als mögliche Behandlung von Geisteskrankheit eingesetzt, wenn
-    psychische Erkrankungen von Frauen auf Krankheiten oder Funktionsstörungen der Fortpflanzungsorgane zurückgeführt wurden.
+    Die Entfernung der Eierstöcke und Eileiter galt als mögliche Heilung von Geisteskrankheit, wenn psychische Erkrankungen
+    von Frauen auf Krankheiten oder Funktionsstörungen der Fortpflanzungsorgane zurückgeführt wurden. In Norristown
+    beschrieb Alice Bennett Geisteskrankheit als Symptom körperlicher Erkrankung und berichtete von psychischen Genesungen
+    nach Operationen; zugleich bestand sie darauf, dass für jeden Eingriff eine eigenständige körperliche Indikation
+    vorgelegen habe.
 correction:
   summary: >-
-    Oophorektomie und Salpingo-Oophorektomie haben berechtigte gynäkologische und onkologische Indikationen, doch die
-    Entfernung gesunder Eierstöcke ist keine Behandlung primärer psychischer Erkrankungen. Eine beidseitige Oophorektomie
-    ist irreversibel, führt zu Unfruchtbarkeit und verursacht vor der natürlichen Menopause eine operative Menopause
-    mit erheblichen hormonellen und langfristigen gesundheitlichen Folgen. Eine vermutete reproduktive Ursache
-    psychiatrischer Symptome rechtfertigt einen solchen Eingriff nicht ohne eigenständige chirurgische Indikation.
+    Bennetts unkontrollierte Fallberichte belegen weder, dass Erkrankungen der Fortpflanzungsorgane die psychischen
+    Zustände der Patientinnen verursachten, noch, dass die Entfernung ihrer Eierstöcke sie heilte. Oophorektomie und
+    Salpingo-Oophorektomie haben berechtigte gynäkologische und onkologische Indikationen. Heutige Leitlinien lassen
+    eine Hysterektomie mit Entfernung beider Eierstöcke auch bei ausgewählten schweren Fällen des prämenstruellen
+    Syndroms zu, wenn andere Behandlungen erfolglos waren und ein Versuch mit hormoneller Unterdrückung den zu erwartenden
+    Nutzen geprüft hat; diese spezifische Indikation bestätigt keine allgemeine Heilung von Geisteskrankheit. Die
+    Entfernung beider Eierstöcke ist irreversibel, beseitigt die natürliche Fruchtbarkeit und löst vor der natürlichen
+    Menopause eine operative Menopause aus. ACOG nennt mögliche erhöhte Risiken unter anderem für Herz-Kreislauf-Erkrankungen,
+    Osteoporose und kognitive Beeinträchtigungen. Aus diesen allgemeinen Folgen lassen sich weder die vorherige Fruchtbarkeit
+    und der Menopausenstatus jeder historischen Patientin noch ihr späterer Gesundheitsverlauf ableiten.
 impact:
   summary: >-
-    1892 begann das State Hospital for the Insane in Norristown, Pennsylvania, ein institutionell gebilligtes Programm,
-    bei dem Frauen die Eierstöcke entfernt wurden, wenn ihre psychische Erkrankung auf reproduktive Pathologie
-    zurückgeführt wurde. Zeitgenössische Darstellungen zeigen, dass vier Frauen bereits operiert worden waren, als das
-    Programm formell untersucht wurde, und dass ungefähr fünfzig weitere Patientinnen für Eingriffe vorgesehen oder
-    vorgeschlagen waren. 1893 verurteilte Pennsylvanias Committee on Lunacy die Praxis und beendete das Programm.
+    Bennetts Bericht vom Februar 1893 beschrieb sechs Frauen im staatlichen Krankenhaus von Norristown, denen im Juli
+    und Oktober 1892 Eierstöcke und Eileiter entfernt worden waren. Sie berichtete von drei körperlichen und psychischen
+    Genesungen, unterschiedlichen Verbesserungen bei zwei weiteren Überlebenden und einem Tod durch Bauchfellentzündung
+    am sechsten Tag nach der Operation. Der Verwaltungsrat des Krankenhauses verteidigte die Eingriffe als Behandlung
+    körperlicher Erkrankungen. Pennsylvanias Board of Public Charities griff im Dezember 1892 ein, zog seinen Bericht
+    jedoch im März 1893 zurück, nachdem er seinen Vorwurf experimenteller Operationen als irrig bezeichnet hatte.
   highlights:
-    - value: '4'
-      label: Frauen waren bereits operiert worden, als das Programm formell untersucht wurde
-    - value: '~50'
-      label: weitere Frauen waren Berichten zufolge für Operationen vorgesehen oder vorgeschlagen
+    - value: '6'
+      label: im Juli und Oktober 1892 operierte Frauen laut Bennetts ausführlichem Bericht
+      note: Der Bericht beschreibt in jedem Fall die Entfernung beider Eierstöcke und beider Eileiter.
+    - value: '1'
+      label: berichteter Tod durch Bauchfellentzündung am sechsten Tag nach der Operation
+      note: >-
+        Dies war Fall sechs in Bennetts Bericht; ihre Genesungsangaben zu den Überlebenden beruhten auf unkontrollierten
+        Beobachtungen.
     - value: '1893'
-      label: Pennsylvanias Committee on Lunacy schritt gegen das Programm ein
+      label: Board of Public Charities zog seinen Bericht über angeblich experimentelle Operationen zurück
+      note: >-
+        Ein Schreiben vom 2. März gibt die am Vortag gefassten Beschlüsse wieder; es belegt keine Abkehr des Krankenhauses
+        von der psychiatrischen Theorie.
   context:
     - >-
-      Historische Darstellungen unterscheiden sich bei der endgültigen Zahl der Operationen; spätere Quellen nennen
-      fünf oder sechs Fälle. Vier abgeschlossene Operationen sind zum Zeitpunkt der Kontroverse zeitgenössisch belegt;
-      die spätere Endzahl und die genaue Todeschronologie bleiben unsicherer.
+      Zeitgenössische Darstellungen widersprechen einander. Ein Kommentar im American Journal of Insanity wiederholte
+      einen Zeitungsbericht über vier Operationen und fünfzig ausgewählte Frauen; Mortons Bericht sprach von vierzig
+      oder fünfzig vorgeschlagenen Fällen. Bennetts Bericht und Brief vom Februar beschrieben dagegen sechs Operationen,
+      sämtlich im Juli und Oktober 1892, und bestritten, dass weitere Patientinnen ausgewählt worden seien. Ihr Brief
+      räumte ein, dass einige Fälle erwogen würden. Die berichteten fünfzig lassen sich nicht als gesicherte zusätzliche
+      Operationsgruppe behandeln.
     - >-
-      Umstritten war der Einsatz der Operation als psychiatrische Behandlung. Bei einer eigenständig begründeten
-      gynäkologischen oder onkologischen Indikation kann eine Oophorektomie medizinisch angemessen sein.
+      Umstritten war, ob die Eingriffe Experimente zur Heilung von Geisteskrankheit oder Behandlungen eigenständig
+      schwerer körperlicher Erkrankungen waren. Bennett und der Verwaltungsrat verteidigten die körperliche Indikation,
+      deuteten psychische Erkrankung zugleich als Symptom körperlicher Krankheit und behaupteten psychiatrische Erfolge.
+      Weder diese Verteidigung noch die Rücknahme des Berichts durch die Aufsichtsbehörde beweist psychiatrische Wirksamkeit;
+      ebenso wenig belegen die Quellen, dass jedes entfernte Organ gesund war oder jedem Eingriff eine körperliche
+      Indikation fehlte.
+    - >-
+      Gynäkologische Erkrankungen, Krebsrisiken und ausgewählte schwere Fälle des prämenstruellen Syndroms können
+      heute Indikationen für Eierstockoperationen begründen. Sie erfordern eine eigene klinische Beurteilung und erlauben
+      keine nachträgliche Diagnose oder Bestätigung der Norristown-Fälle. Allgemeine Folgen für Fruchtbarkeit und
+      Menopause sind von den tatsächlich berichteten Verläufen dieser Patientinnen zu unterscheiden.
 episodes:
   - id: united-states-pennsylvania-1892-1893
     polity: Vereinigte Staaten — Pennsylvania
     institutions:
       - State Hospital for the Insane at Norristown
     institutionalContext: >-
-      Alice Bennett, leitende Ärztin der Frauenabteilung des State Hospital for the Insane in Norristown, und der
-      Chirurg Joseph Price verfolgten die Entfernung von Eierstöcken und verwandte reproduktive Eingriffe bei Frauen,
-      deren psychische Erkrankung auf Becken- oder Fortpflanzungspathologie zurückgeführt wurde. Die Trustees des
-      Krankenhauses genehmigten das Programm; es handelte sich daher nicht bloß um ein privates Experiment einzelner
-      Ärzte. Bis Ende 1892 waren vier Frauen ovariektomiert worden, während weitere Patientinnen für Eingriffe erwogen
-      wurden. Pennsylvanias Board of Public Charities und dessen Committee on Lunacy untersuchten die Praxis 1893 und
-      lehnten ihre Fortsetzung ab.
+      Alice Bennett leitete die Frauenabteilung des State Hospital for the Insane in Norristown. Ihr Bericht vom Februar
+      1893 beschrieb zwei Operationen durch Marie B. Werner, assistiert von Joseph Price, im Juli 1892 sowie vier
+      durch Price im Oktober. Er führte psychiatrische Symptome auf körperliche Erkrankungen zurück und behauptete
+      zugleich, körperliche Indikationen hätten die Operationen unabhängig davon gerechtfertigt. In ihrer auf den
+      3. Februar 1893 datierten Antwort verteidigten die Trustees, der Verwaltungsrat des Krankenhauses, das Urteil
+      des ärztlichen Personals und baten den Board of Public Charities, sein Eingreifen vom Dezember zu überdenken.
+      Sie lehnten die Bezeichnung der Eingriffe als Experimente zur Heilung von Geisteskrankheit ab und beschrieben
+      Geisteskrankheit zugleich als Symptom körperlicher Erkrankung. Belegt sind damit klinische Praxis und institutioneller
+      Schutz ihrer Begründung bei umstrittener Indikation. Der Board und sein Committee on Lunacy handelten als Aufsichtsorgane;
+      die Episode belegt keine psychiatrische Operationspolitik für ganz Pennsylvania. Ihr Zeitraum umfasst die Operationen
+      und den dokumentierten Streit, ohne das Ende dieser chirurgischen Praxis zu datieren.
     consequences:
-      - Institutionalisierte Frauen wurden irreversiblen Eingriffen an den Fortpflanzungsorganen als psychiatrischer Behandlung unterzogen
-      - Die Operationen führten zu dauerhafter Unfruchtbarkeit und bei Entfernung beider Eierstöcke zu operativer Menopause
-      - Rund fünfzig weitere Frauen waren Berichten zufolge für Operationen vorgesehen oder vorgeschlagen, bevor das Programm gestoppt wurde
-      - Staatliche Aufsicht griff ein, nachdem medizinische, rechtliche und ethische Grundlagen der Eingriffe infrage gestellt worden waren
+      - >-
+        Bennett berichtete von der Entfernung beider Eierstöcke und beider Eileiter bei sechs stationär aufgenommenen
+        Frauen; sie berief sich auf körperliche Indikationen und die Zustimmung der nächsten Angehörigen oder Vormünder
+      - >-
+        Die beidseitige Entfernung beseitigt die natürliche Fruchtbarkeit irreversibel und löst vor der natürlichen
+        Menopause eine operative Menopause aus; diese allgemeinen Folgen belegen nicht die vorherige Fruchtbarkeit,
+        den Menopausenstatus oder spätere Symptome jeder Patientin
+      - >-
+        Bennett berichtete von einem Tod durch Bauchfellentzündung am sechsten Tag nach der Operation sowie von einer
+        anderen Patientin, deren langsame Erholung vom Eingriff mit Eiterbildung an den Nähten einherging
+      - >-
+        Die Operationen führten zu medizinischen, rechtlichen und ethischen Einwänden, einer berichteten vorläufigen
+        Aussetzung und einem Streit zwischen Krankenhausverwaltung und staatlicher Aufsicht; der Board nahm seinen
+        Vorwurf experimenteller Operationen später zurück
     summary: >-
-      1892 begann die Frauenabteilung des staatlichen Krankenhauses in Norristown, Ovariektomien als Behandlung von
-      Geisteskrankheit einzusetzen, die auf Erkrankungen der Fortpflanzungsorgane zurückgeführt wurde. Das Programm war
-      von den Trustees gebilligt und damit institutionelle Behandlungspolitik statt bloßer Theorie einzelner Ärzte.
-      Vier Frauen waren bereits operiert worden, als die Praxis staatlich untersucht wurde; zeitgenössische Berichte
-      nennen ungefähr fünfzig weitere Patientinnen, die ausgewählt oder vorgeschlagen worden waren. 1893 verurteilte
-      das Pennsylvania Committee on Lunacy die Praxis, woraufhin das Programm eingestellt wurde.
+      In Norristown wurden 1892 laut Bennetts eigenem Fallbericht sechs Frauen beide Eierstöcke und Eileiter entfernt.
+      Sie behauptete drei psychische und körperliche Genesungen sowie Verbesserungen bei zwei weiteren Überlebenden;
+      eine Patientin starb. Ihre Erklärung verband psychische Symptome mit erkrankten Fortpflanzungsorganen, doch
+      sie und der Verwaltungsrat bestanden darauf, dass körperliche Erkrankungen die Eingriffe unabhängig davon gerechtfertigt
+      hätten. Der Board of Public Charities griff im Dezember 1892 ein; eine zeitgenössische Pressedarstellung berichtete
+      von einer vorläufigen Aussetzung. In einer auf Februar 1893 datierten Antwort verteidigte der Verwaltungsrat
+      seine Ärzte. Im März zog der Board seinen Bericht zurück und erklärte den Vorwurf experimenteller Operationen
+      für irrig. Die Dokumente belegen eine umstrittene institutionelle Praxis und berichtete Verläufe, ohne eine
+      psychiatrische Heilung oder die spätere Abkehr des Krankenhauses von der Ursachentheorie nachzuweisen.
     mechanism:
       summary: >-
-        Die Trustees des Krankenhauses genehmigten ein Programm, in dem reproduktive Operationen bei institutionalisierten
-        Frauen als psychiatrische Behandlung eingesetzt wurden, wenn deren Erkrankung auf Becken- oder Eierstockpathologie zurückgeführt wurde.
+        Bennetts Abteilung setzte Eierstockoperationen ein und berichtete in klinischen Fallgeschichten von psychiatrischen
+        Genesungen. Der Verwaltungsrat verteidigte formell den ärztlichen Ermessensspielraum und übermittelte ihren
+        Bericht über sechs Fälle an die staatliche Aufsicht. Seine Antwort übernahm die Erklärung psychischer Krankheit
+        als Symptom körperlicher Erkrankung und bestritt zugleich, dass es sich um psychiatrische Experimente gehandelt
+        habe. Klinische Praxis, Fallberichte und der Schutz durch die Verwaltung verliehen dieser Begründung institutionellen
+        Einfluss; eine pauschale Politik zur Entfernung gesunder Eierstöcke als Heilung von Geisteskrankheit ist nicht
+        belegt.
     institutionalCorrection:
-      periodLabel: '1893'
-      action: Pennsylvanias Board of Public Charities und Committee on Lunacy lehnten die Fortsetzung des Norristown-Programms für Eierstockoperationen ab.
       summary: >-
-        Die staatliche Aufsicht griff formell gegen das Programm ein; das Krankenhaus stellte den psychiatrischen Einsatz
-        der Ovariektomie unter der beanstandeten Begründung anschließend ein.
+        Auf das Eingreifen des Board im Dezember 1892 und die berichtete vorläufige Aussetzung folgte die Verteidigung
+        der Operationen durch den Verwaltungsrat. Ein Schreiben vom 2. März 1893 übermittelt die Beschlüsse des Vortags,
+        mit denen der Board seinen Bericht wegen des irrigen Vorwurfs experimenteller Operationen zurückzog. Das dokumentiert
+        die Kehrtwende der Aufsichtsbehörde. Die geprüften Quellen belegen weder eine spätere Abkehr Norristowns von
+        Bennetts psychiatrischer Ursachentheorie noch eine dauerhafte Einstellung von Operationen unter dieser Begründung.
+        Der Endpunkt 1893 bezeichnet den dokumentierten Streit, keine nachgewiesene institutionelle Korrektur.
+    periodLabel: 1892–1893 (Operationen und institutioneller Streit)
 evidence:
   - id: oophorectomy-ajp-proposition
     note: >-
       Zeitgenössischer Beitrag von 1893 des Committee-on-Lunacy-Mitglieds Thomas G. Morton zu den Norristown-Operationen
-      und der Behauptung, die Entfernung der Eierstöcke könne Geisteskrankheit heilen.
+      und der Behauptung, die Entfernung der Eierstöcke könne Geisteskrankheit heilen. Die Darstellung des Kritikers
+      unterscheidet ausdrücklich eigenständig schwere Eierstockkrankheiten; ihre Vorwürfe sind zusammen mit der Antwort
+      des Krankenhauses und der späteren Rücknahme durch den Board zu lesen.
   - id: oophorectomy-acog-correction
     note: >-
-      Moderne klinische Leitlinie, die berechtigte gynäkologische Indikationen von den erheblichen Folgen einer beidseitigen
-      Salpingo-Oophorektomie unterscheidet, darunter operative Menopause und erhöhte langfristige Gesundheitsrisiken.
+      Die moderne Leitlinie zur Krebsprävention beschreibt operative Menopause und mögliche Langzeitfolgen nach beidseitiger
+      Entfernung. Gelesen wurde das Abstract; es liefert allgemeinen klinischen Kontext, keine Belege für psychiatrische
+      Wirksamkeit oder Verläufe der Norristown-Patientinnen.
   - id: oophorectomy-jaapl-impact
     note: >-
-      Fachhistorische Rekonstruktion zu Alice Bennett, dem Norristown-Programm und der Untersuchung durch Pennsylvanias
-      Board of Public Charities 1893; sie verweist auf den primären staatlichen Bericht zu den Operationen.
+      Fachhistorische Rekonstruktion zu Bennett, den Norristown-Operationen und der staatlichen Untersuchung von 1893.
+      Der Schluss nennt sechs untersuchte Fälle und Bennetts Entlastung und verweist auf die primäre staatliche Untersuchung.
+      Er belegt keine dauerhafte Einstellung 1893; die zeitgenössisch abgedruckte Board-Resolution präzisiert die
+      Kehrtwende.
   - id: oophorectomy-library-carrier
     note: >-
-      Historische Ausstellung einer Institution zu Bennetts Experimenten ab 1892, den Operationen an Frauen in Norristown
-      und den Einwänden des Committee on Lunacy.
+      Die institutionelle Ausstellung benennt Bennetts Frauenabteilung in Norristown, sechs Operationen 1892 und Einwände
+      des Committee. Ihre Beschreibung als Experimente ist eine historische Deutung; das Dementi des Krankenhauses
+      und die Rücknahme durch den Board sind in den ergänzten zeitgenössischen Quellen dokumentiert. Die Ausstellung
+      belegt keine dauerhafte Einstellung.
   - id: oophorectomy-jaapl-mechanism
+    note: >-
+      Fachhistorische Rekonstruktion zu Bennett, den Norristown-Operationen und der staatlichen Untersuchung von 1893.
+      Der Schluss nennt sechs untersuchte Fälle und Bennetts Entlastung und verweist auf die primäre staatliche Untersuchung.
+      Er belegt keine dauerhafte Einstellung 1893; die zeitgenössisch abgedruckte Board-Resolution präzisiert die
+      Kehrtwende.
   - id: oophorectomy-ajp-consequences
+    note: >-
+      Zeitgenössischer Beitrag von 1893 des Committee-on-Lunacy-Mitglieds Thomas G. Morton zu den Norristown-Operationen
+      und der Behauptung, die Entfernung der Eierstöcke könne Geisteskrankheit heilen. Er dokumentiert die medizinischen,
+      rechtlichen und ethischen Einwände der Aufsicht. Die vierzig oder fünfzig vorgeschlagenen Operationen sind eine
+      von Bennett bestrittene Behauptung dieses kritischen Berichts; die Quelle bestätigt weder deren Auswahl noch
+      die Verläufe der sechs Patientinnen.
   - id: oophorectomy-jama-correction
     note: >-
       Zeitgenössischer Bericht von 1893 über Maßnahmen des Pennsylvania State Board of Public Charities und seines
-      Committee on Lunacy gegen Eierstockoperationen in einer staatlichen psychiatrischen Einrichtung.
+      Committee on Lunacy zu Eierstockoperationen in einer staatlichen psychiatrischen Einrichtung. Eingesehen wurde
+      nur die Vorschau. Sie behandelt den anfänglichen Streit und belegt weder den späteren Ausgang noch eine dauerhafte
+      Einstellung; die Rücknahme durch den Board im März ist gesondert belegt.
+  - id: oophorectomy-bennett-proposition
+    note: >-
+      Die abgedruckten Krankenhausdokumente nennen Geisteskrankheit ein Symptom körperlicher Erkrankung, berichten
+      psychische Genesungen und behaupten, eine frühere Operation hätte bei Fall fünf die Genesung sichern können.
+      Zugleich bestehen sie auf eigenständigen körperlichen Indikationen und lehnen die Bezeichnung als Heilungsexperiment
+      ab. Beide Teile der institutionellen Aussage sind wesentlich.
+  - id: oophorectomy-bennett-evaluation
+    note: >-
+      Bennett legt Einzelbeobachtungen und Genesungsangaben ihrer eigenen Abteilung ohne Vergleichsgruppe vor. Die
+      Einschätzung, dass diese Berichte psychiatrische Verursachung oder Wirksamkeit nicht belegen, bezeichnet eine
+      Beweisgrenze der Fallserie; Bennett selbst zog diesen Schluss nicht.
+  - id: oophorectomy-bennett-impact
+    note: >-
+      Der ausführliche zeitgenössische Bericht datiert zwei Operationen auf Juli und vier auf Oktober 1892, beschreibt
+      in allen sechs Fällen die Entfernung beider Eierstöcke und Eileiter und nennt drei behauptete Genesungen, zwei
+      unterschiedliche Verbesserungsberichte sowie einen Tod durch Bauchfellentzündung am sechsten Tag. Bennett bestreitet
+      jede weitere Auswahl. Es handelt sich um zugeordnete klinische Berichte, nicht um kontrollierte Ergebnismessungen.
+  - id: oophorectomy-board-impact
+    note: >-
+      Der Sekretär berichtet von einstimmigen Beschlüssen des Vortags: Der Vorwurf experimenteller Operationen war
+      irrig, und der Board zog seinen Bericht zurück. Das Beschlussdatum ergibt sich unmittelbar aus dem datierten
+      Schreiben. Das Dokument belegt keine Abkehr des Krankenhauses von der psychiatrischen Theorie.
+  - id: oophorectomy-rcog-correction
+    note: >-
+      RCOG beschreibt eine Hysterektomie mit beidseitiger Eierstockentfernung bei ausgewählten schweren PMS-Fällen
+      nach erfolglosen anderen Behandlungen und vorherigem Versuch hormoneller Unterdrückung. Diese spezifische heutige
+      Indikation begrenzt eine pauschale Ablehnung von Eierstockoperationen bei psychischen Symptomen; sie diagnostiziert
+      die historischen Patientinnen nicht.
+  - id: oophorectomy-msk-correction
+    note: >-
+      Die klinische Erläuterung benennt die Organe beider Seiten, Indikationen bei Zysten und Krebsrisiko sowie Folgen
+      für Fruchtbarkeit und Menopause. Sie belegt allgemeine Folgen der beidseitigen Entfernung, nicht die vorherige
+      Funktion oder spätere Symptome jeder Norristown-Patientin.
+  - id: oophorectomy-editorial-context
+    note: >-
+      Der Kommentar wiederholt die Darstellung der Philadelphia Press von vier Operationen und fünfzig ausgewählten
+      Frauen, berichtet ein Eingreifen des Board im Dezember und zitiert einen Sprecher der Trustees mit einer vorläufigen
+      Aussetzung. Er hält auch Bennetts Dementi fest, allein wegen Geisteskrankheit operiert zu haben. Das belegt
+      konkurrierende zeitgenössische Darstellungen und eine berichtete vorläufige Aussetzung, kein gesichertes Programm
+      mit fünfzig Patientinnen oder dauerhaftes Ende.
+  - id: oophorectomy-bennett-letter-context
+    note: >-
+      Bennett berichtet von sechs Operationen, zwei im Juli und vier im Oktober 1892, schweren körperlichen Indikationen,
+      der Zustimmung Angehöriger und einem Tod am sechsten Tag. Sie bestreitet weitere Auswahlen, räumt aber erwogene
+      Fälle ein. Zugleich bezeichnet sie das Handeln der Trustees als vertagt; die gesondert veröffentlichte Antwort
+      des Verwaltungsrats wird deshalb mit ihrem angegebenen Februardatum beschrieben, ohne eine Beschlusschronologie
+      zu erfinden.
+  - id: oophorectomy-trustees-carrier
+    note: >-
+      Die Zeitschrift druckt die Verteidigung des ärztlichen Personals durch die Trustees und die sechs Fälle der
+      Abteilung ab. Der Verwaltungsrat beruft sich auf klinisches Urteil, bezeichnet Geisteskrankheit als Symptom
+      und bittet die Aufsicht um Neubewertung, weist den Vorwurf von Experimenten zur Heilung von Geisteskrankheit
+      aber ausdrücklich zurück. Damit ist Norristowns institutionelle Beteiligung unter dieser Einschränkung belegt.
+  - id: oophorectomy-trustees-mechanism
+    note: >-
+      Die Primärdokumente verbinden klinische Operationen, Genesungsbehauptungen und den Schutz ärztlichen Urteils
+      durch den Verwaltungsrat. Sie belegen den beschriebenen administrativen Mechanismus, ohne einen allgemeinen
+      Auftrag zur Entfernung gesunder Eierstöcke oder eine uneingeschränkte amtliche Heilungsdoktrin nachzuweisen.
+  - id: oophorectomy-bennett-consequences
+    note: >-
+      Bennett beschreibt beidseitige Entfernung in allen sechs Fällen, Eiterbildung an den Nähten bei Fall fünf und
+      den Tod durch Bauchfellentzündung am sechsten Tag nach der Operation bei Fall sechs. Die Aussagen zu körperlichen
+      Indikationen und Zustimmung Angehöriger oder Vormünder werden ihrem Bericht zugeordnet; sie belegen weder eine
+      Einwilligung der Patientinnen noch eine heutige Beurteilung klinischer Notwendigkeit.
+  - id: oophorectomy-editorial-consequences
+    note: >-
+      Die im Kommentar wiedergegebene Pressedarstellung berichtet eine vorläufige Aussetzung bei fortbestehendem Vertrauen
+      der Trustees in Bennett. Die begrenzte Formulierung belegt lediglich eine berichtete vorläufige Pause; der spätere
+      staatliche Beschluss gehört ebenfalls zum Verlauf.
+  - id: oophorectomy-board-consequences
+    note: >-
+      Der Beschluss benennt den früheren Bericht vom Dezember, verwirft dessen Vorwurf experimenteller Operationen
+      und nimmt den Bericht zurück. Der anschließende polemische Kommentar der Zeitschrift ist von dem abgedruckten
+      institutionellen Dokument zu unterscheiden.
+  - id: oophorectomy-board-response
+    note: >-
+      Der Board nahm seinen eigenen Vorwurf zurück. Das ist wesentliche Geschichte der institutionellen Reaktion,
+      dokumentiert aber keine Abkehr Norristowns von der psychiatrischen Ursachenvorstellung. Der Korrekturstatus
+      bezieht sich auf diesen fehlenden Akt des Krankenhauses, das diese Vorstellung vertrat; er tilgt weder den
+      Aufsichtsstreit noch macht er die Kehrtwende zu wissenschaftlicher Bestätigung.
+  - id: oophorectomy-msk-consequences
+    note: >-
+      Die allgemeine Erläuterung zu Fruchtbarkeit und Menopause belegt die bedingten Folgen beidseitiger Entfernung.
+      Sie misst nicht, wie viel Funktion jede historische Patientin vor der Operation noch besaß oder welche späteren
+      Symptome sie erlebte.
+  - id: oophorectomy-acog-context
+    note: >-
+      Die moderne Leitlinie zur Krebsprävention beschreibt operative Menopause und mögliche Langzeitfolgen nach beidseitiger
+      Entfernung. Gelesen wurde das Abstract; es liefert allgemeinen klinischen Kontext, keine Belege für psychiatrische
+      Wirksamkeit oder Verläufe der Norristown-Patientinnen.
+  - id: oophorectomy-rcog-context
+    note: >-
+      Die heutige Indikation bei schwerem PMS verdeutlicht den Unterschied zwischen umfassenden historischen Heilungsbehauptungen
+      und spezifisch geprüften heutigen Operationsindikationen. Den Norristown-Patientinnen wird keine PMS-Diagnose
+      zugeschrieben.

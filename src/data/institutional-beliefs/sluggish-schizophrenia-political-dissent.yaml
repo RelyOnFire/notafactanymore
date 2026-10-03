@@ -1,63 +1,202 @@
+schemaVersion: 2
 title: Sluggish schizophrenia and political dissent
-claim: Persistent political reformism or opposition could be treated as evidence of a mild form of schizophrenia
-  even when a person showed no overt psychosis.
-currentUnderstanding: Political dissent is not a symptom of schizophrenia. Psychiatric diagnosis requires clinically
-  valid evidence of mental disorder and cannot be inferred from opposition to a government, advocacy of reform,
-  or persistence in political beliefs.
-category: Psychiatry
+proposition:
+  summary: >-
+    Within Soviet forensic psychiatry and state-security practice, persistent reform advocacy, religious or political
+    opposition, and a “struggle for truth” could be treated as symptoms within an unusually broad concept of sluggish
+    schizophrenia even when a person showed no overt psychosis. The diagnosis could then supply a medical basis for
+    compulsory examination, psychiatric confinement, and treatment of dissidents.
+correction:
+  summary: >-
+    Political or religious dissent is not itself evidence of schizophrenia. Schizophrenia cannot be inferred from
+    reform advocacy, conflict with authorities, or persistence in political beliefs without clinically established
+    disorder. The documented abuse does not mean that every Soviet psychiatric patient was healthy or that every
+    psychiatrist knowingly participated. It shows that a broad and weakly replicable diagnostic framework allowed
+    ideological nonconformity to become clinical evidence and was systematically joined to coercive state machinery.
+category: Psychiatry, forensic medicine and political repression
 reviewedAt: '2026-08-23'
+impact:
+  summary: >-
+    Psychiatric classification let the state bypass an ordinary public trial, discredit opposition as illness, and
+    confine people for periods governed by medical rather than criminal procedure. Dissidents were subjected to
+    compulsory hospitalization and treatment; a schizophrenia diagnosis could also outlast confinement and restrict
+    work and social reintegration. The institutional chain ran from the dominant Moscow school and Serbsky forensic
+    evaluations through security referrals and special hospitals. The resulting international scandal reshaped
+    psychiatric ethics and the Soviet profession's relationship with the World Psychiatric Association.
+  highlights:
+    - value: ≈1 in 3
+      label: retrospective estimate of Soviet political prisoners confined in psychiatric hospitals
+      note: >-
+        This is an estimate for political psychiatric abuse generally, not a count of people diagnosed specifically
+        with sluggish schizophrenia.
+    - value: 13 of 15
+      label: special psychiatric hospitals in which the Geneva Initiative documented clear examples of abuse
+      note: >-
+        This also describes the wider system of political psychiatric abuse and should not be read as a count of
+        hospitals using one diagnosis in every case.
+    - value: 1983–1989
+      label: period between the official Soviet psychiatric society's withdrawal from and conditional return to the WPA
+  context:
+    - >-
+      Sluggish or slowly developing illness had a longer history in Soviet psychiatry. The category was not simply
+      invented in one moment for dissidents, and some psychiatrists sincerely accepted its expansive criteria. The
+      documented institutional failure was the framework's weak diagnostic boundaries and its use within a system that
+      converted political nonconformity into compulsory forensic psychiatry.
+    - >-
+      Soviet political psychiatry used more than one diagnosis, and people with genuine mental disorders also passed
+      through the same institutions. Broad estimates of psychiatric repression therefore cannot be treated as exact
+      counts of healthy dissidents, of sluggish-schizophrenia diagnoses, or of knowingly abusive clinicians.
+    - >-
+      The 1969 start marks a defensible boundary for the mature doctrine and security network, not the beginning of all
+      Soviet psychiatric repression. Political use of psychiatric institutions and broader concepts of slowly
+      developing illness predated that year.
+    - >-
+      The transfer of special hospitals in 1988 and the All-Union Society's 1989 acknowledgment were real institutional
+      changes, but contemporary accounts still reported abuse at a reduced scale and continuity in the psychiatric
+      leadership. Later post-Soviet abuses are outside this episode and also preclude treating 1989 as a permanent cure.
 episodes:
-- id: soviet-union-1969-1989
-  polity: Soviet Union
-  region: Eurasia
-  startYear: 1969
-  endYear: 1989
-  periodLabel: 1969–1989
-  strength: enforced-doctrine
-  institutionTypes:
-  - government
-  - medical
-  institutions:
-  - Institute of Psychiatry of the USSR Academy of Medical Sciences
-  - Serbsky Central Research Institute for Forensic Psychiatry
-  - Committee for State Security (KGB)
-  - Ministry of Internal Affairs of the USSR (MVD)
-  institutionalContext: Snezhnevsky's Moscow psychiatric school, centered on the Institute of Psychiatry of the
-    USSR Academy of Medical Sciences, supplied the unusually broad diagnostic framework. The Serbsky Institute performed
-    forensic psychiatric evaluations in political cases; the KGB and investigative system referred dissidents into
-    that machinery; and special psychiatric hospitals used for compulsory confinement were administered by the Ministry
-    of Internal Affairs until their transfer to the health system in 1988. This institutional chain does not imply
-    that every Soviet psychiatrist knowingly participated in political repression.
-  consequences:
-  - Psychiatric incarceration of dissidents
-  - Forced psychiatric treatment
-  - Suppression of political and religious dissent
-  summary: The unusually broad Soviet category of “sluggish schizophrenia” allowed schizophrenia to be diagnosed
-    in people who functioned normally and lacked overt psychosis. During the Brezhnev era it was repeatedly applied
-    to dissidents, with reformist or oppositional behavior interpreted as pathology. The doctrine was developed
-    within the dominant Moscow psychiatric school, operationalized through forensic evaluation at institutions such
-    as the Serbsky Institute, and connected to state-security and special-hospital detention machinery.
-  sources:
-  - title: Political Abuse of Psychiatry — An Historical Overview
+  - id: soviet-union-1969-1989
+    polity: Soviet Union
+    region: Eurasia
+    startYear: 1969
+    endYear: 1989
+    periodLabel: 1969–1989 audit window
+    strength: enforced-doctrine
+    institutionTypes:
+      - government
+      - medical
+      - professional
+    institutions:
+      - Institute of Psychiatry of the USSR Academy of Medical Sciences
+      - Serbsky Central Research Institute for Forensic Psychiatry
+      - Committee for State Security (KGB)
+      - Ministry of Internal Affairs of the USSR (MVD)
+      - Ministry of Health of the USSR
+      - All-Union Society of Psychiatrists and Narcologists
+    institutionalContext: >-
+      The Moscow psychiatric school associated with Andrei Snezhnevsky supplied an unusually broad classification of
+      schizophrenia. The Serbsky Institute performed forensic evaluations in political cases; the KGB and investigative
+      authorities referred dissidents into that process; and MVD special psychiatric hospitals carried out compulsory
+      confinement. By 1969 the broad diagnostic doctrine was established, while Yuri Andropov initiated an expanded
+      mental-hospital network for the defense of the state. In the late 1980s, the Ministry of Health and the All-Union
+      Society became central to the incomplete reform and acknowledgment of abuse. This chain does not imply that every
+      Soviet psychiatrist knowingly participated or that every person examined had no mental disorder.
+    consequences:
+      - Compulsory forensic examination and psychiatric confinement of political and religious dissidents
+      - Forced or medically unnecessary treatment, including antipsychotic medication
+      - Avoidance of ordinary public criminal trials and indefinite detention under medical authority
+      - Stigma and lasting restrictions on skilled work and social reintegration after a schizophrenia diagnosis
+      - Suppression and delegitimization of reform advocacy, human-rights activity, religious practice, and opposition
+    summary: >-
+      The doctrine joined an elastic diagnostic category to a coercive institutional pathway. Behaviors described as
+      reformism, struggle for truth, perseverance, conflict with authority, or religious conviction could be made into
+      signs of illness even without overt psychosis. Forensic diagnosis then transformed a political case into one of
+      medical non-responsibility and compulsory treatment. The same framework could be accepted sincerely by some
+      clinicians and deliberately exploited by others; its danger lay precisely in allowing both professional belief and
+      state repression to produce the same outcome. Reforms under perestroika reduced the abuse and produced an official
+      acknowledgment in 1989, but did not amount to a clean abolition of the diagnosis or full institutional accountability.
+    mechanism:
+      kind: classification
+      summary: >-
+        An expansive diagnostic framework classified reformism and persistent opposition as possible symptoms; security
+        and investigative bodies referred dissidents for forensic examination; Serbsky commissions could find them not
+        criminally responsible; and MVD special hospitals converted that finding into compulsory confinement and treatment.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 1988–1989
+      action: >-
+        The USSR transferred special psychiatric hospitals from the MVD to the Ministry of Health, and the All-Union
+        Society acknowledged before the WPA that political conditions had enabled psychiatric abuse for non-medical,
+        including political, reasons; it accepted case review and conditional international oversight.
+      summary: >-
+        These were formal reforms and the official profession's first public acknowledgment of political abuse. They
+        were incomplete: the statement assigned no individual responsibility, the evidence here does not document a
+        1989 abolition of sluggish schizophrenia, contemporary observers reported continuing abuse at a reduced scale,
+        and much of the old psychiatric leadership remained in place.
+sources:
+  - id: van-voren-historical-overview
+    title: Political Abuse of Psychiatry — An Historical Overview
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2800147/
     publisher: Schizophrenia Bulletin
-    note: Reviews systematic Soviet political abuse of psychiatry, explains the Moscow School and Snezhnevsky's
+  - id: heath-kelly-cold-war-psychiatry
+    title: Cold War Psychiatry, Extremism, and Expertise
+    url: https://academic.oup.com/ips/article/16/1/olab034/6459960
+    publisher: International Political Sociology
+  - id: observatory-former-soviet-mental-health
+    title: Mental health care — Trends in health systems in the former Soviet countries
+    url: https://www.ncbi.nlm.nih.gov/books/NBK458299/
+    publisher: European Observatory on Health Systems and Policies / NCBI Bookshelf
+  - id: tobin-authoritarian-psychiatry
+    title: 'Editorial: Political abuse of psychiatry in authoritarian systems'
+    url: https://www.cambridge.org/core/journals/irish-journal-of-psychological-medicine/article/editorial-political-abuse-of-psychiatry-in-authoritarian-systems/6660A6682F9F2E40B11C9E7FC7920427
+    publisher: Irish Journal of Psychological Medicine
+  - id: dark-side-soviet-psychiatry
+    title: 'Psychiatry and the dark side: eugenics, Nazi and Soviet psychiatry'
+    url: https://www.cambridge.org/core/journals/advances-in-psychiatric-treatment/article/psychiatry-and-the-dark-side-eugenics-nazi-and-soviet-psychiatry/5A5950F52D74D0B5FC5418642C5211D1
+    publisher: Advances in Psychiatric Treatment
+  - id: bloch-athens-wpa
+    title: 'Athens and beyond: Soviet psychiatric abuse and the World Psychiatric Association'
+    url: https://www.cambridge.org/core/journals/psychiatric-bulletin/article/athens-and-beyond-soviet-psychiatric-abuse-and-the-world-psychiatric-association/8EA6AFBC3DED2DB4799805A3BAFAADE5
+    publisher: Psychiatric Bulletin
+evidence:
+  - id: sluggish-schizophrenia-proposition
+    sourceId: van-voren-historical-overview
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+  - id: sluggish-schizophrenia-correction
+    sourceId: heath-kelly-cold-war-psychiatry
+    relation: supports
+    target: {scope: belief, aspect: correction}
+  - id: sluggish-schizophrenia-impact
+    sourceId: observatory-former-soviet-mental-health
+    relation: supports
+    target: {scope: belief, aspect: impact}
+  - id: sluggish-schizophrenia-van-voren-carrier
+    sourceId: van-voren-historical-overview
+    relation: supports
+    target: {scope: episode, episodeId: soviet-union-1969-1989, aspect: carrier}
+    note: >-
+      Reviews systematic Soviet political abuse of psychiatry, explains the Moscow School and Snezhnevsky's
       broad concept of sluggish schizophrenia, and describes “reform delusions,” “struggle for the truth,” and “perseverance”
       as symptoms that could be used against dissenters; it also discusses KGB involvement while distinguishing
       deliberate abuse from psychiatrists who accepted the diagnostic framework.
-  - title: Cold War Psychiatry, Extremism, and Expertise
-    url: https://academic.oup.com/ips/article/16/1/olab034/6459960
-    publisher: International Political Sociology
-    note: Examines the Soviet sluggish-schizophrenia framework, its use against reformers and political dissenters,
+  - id: sluggish-schizophrenia-ips-mechanism
+    sourceId: heath-kelly-cold-war-psychiatry
+    relation: supports
+    target: {scope: episode, episodeId: soviet-union-1969-1989, aspect: mechanism}
+    note: >-
+      Examines the Soviet sluggish-schizophrenia framework, its use against reformers and political dissenters,
       and the institutional interaction between state authority and psychiatric expertise.
-  - title: Mental health care — Trends in health systems in the former Soviet countries
-    url: https://www.ncbi.nlm.nih.gov/books/NBK458299/
-    publisher: European Observatory on Health Systems and Policies / NCBI Bookshelf
-    note: Identifies the Serbsky Institute as a dominant institution in repression of political dissidents, closely
+  - id: sluggish-schizophrenia-observatory-consequences
+    sourceId: observatory-former-soviet-mental-health
+    relation: supports
+    target: {scope: episode, episodeId: soviet-union-1969-1989, aspect: consequences}
+    note: >-
+      Identifies the Serbsky Institute as a dominant institution in repression of political dissidents, closely
       connected to the KGB, and explains how Snezhnevsky-style sluggish schizophrenia became a preferred diagnosis
       for political dissent.
-  - title: 'Editorial: Political abuse of psychiatry in authoritarian systems'
-    url: https://www.cambridge.org/core/journals/irish-journal-of-psychological-medicine/article/editorial-political-abuse-of-psychiatry-in-authoritarian-systems/6660A6682F9F2E40B11C9E7FC7920427
-    publisher: Irish Journal of Psychological Medicine
-    note: Reviews the Serbsky Institute–KGB relationship and records that Soviet special forensic psychiatric hospitals
+  - id: sluggish-schizophrenia-editorial-context
+    sourceId: tobin-authoritarian-psychiatry
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-union-1969-1989, aspect: context}
+    note: >-
+      Reviews the Serbsky Institute–KGB relationship and records that Soviet special forensic psychiatric hospitals
       were transferred from the Ministry of Internal Affairs to the Ministry of Health in 1988.
+  - id: sluggish-schizophrenia-editorial-correction
+    sourceId: tobin-authoritarian-psychiatry
+    relation: supports
+    target: {scope: episode, episodeId: soviet-union-1969-1989, aspect: institutional-correction}
+  - id: sluggish-schizophrenia-1969-boundary
+    sourceId: dark-side-soviet-psychiatry
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-union-1969-1989, aspect: context}
+    note: >-
+      Supports the 1969 boundary through Andropov's mental-hospital network initiative and describes reform ideas,
+      religious convictions, and confrontation with authority as possible diagnostic features.
+  - id: sluggish-schizophrenia-athens-correction
+    sourceId: bloch-athens-wpa
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1969-1989, aspect: institutional-correction}
+    note: >-
+      Contemporaneous account reproducing the All-Union Society's five-point acknowledgment and the conditions of its
+      1989 WPA readmission while recording reports that abuse persisted at a reduced scale and much of the old leadership remained.

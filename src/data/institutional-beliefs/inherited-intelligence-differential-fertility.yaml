@@ -1,34 +1,378 @@
+schemaVersion: 2
 title: Inherited intelligence and differential fertility
-claim: Educational attainment was treated as a proxy for inherited intelligence, so better-educated women should have more children and less-educated women fewer in order to protect the population's future “quality.”
-currentUnderstanding: Intelligence and educational attainment are complex traits shaped by many genetic, developmental, familial, educational, economic, and social influences. A parent's educational credentials do not establish hereditary human worth, and they provide no scientific basis for assigning different reproductive incentives or disincentives to social classes.
+proposition:
+  summary: >-
+    The Singapore government treated mothers' formal educational qualifications as an administratively usable proxy
+    for inherited ability and future national talent. It used that premise to promote more births among better-educated
+    women and fewer among low-income couples without O-level qualifications.
+correction:
+  summary: >-
+    Intelligence and educational attainment are correlated, complex traits, and genetic variation contributes to
+    both. Heritability, however, describes variation in a studied population at a given time; it is not a fixed share
+    of an individual's ability or a ranking of families. Education-related genomic associations are highly polygenic,
+    context-dependent and partly reflect indirect, environmentally mediated effects. A parent's credential therefore
+    does not determine a child's ability and cannot scientifically sort parents into higher- and lower-value
+    reproductive groups.
 category: Eugenics and population policy
-reviewedAt: 2026-08-23
+reviewedAt: '2026-09-29'
+impact:
+  summary: >-
+    The belief did not produce one measure with one end date. It entered three administrative tracks in 1984: priority
+    in primary-school registration for children of qualifying graduate mothers, enhanced tax relief restricted by a
+    mother's educational credentials, and a S$10,000 grant tied to sterilization for selected low-income couples
+    without O-level passes. The school preference benefited 157 children in its sole general registration exercise
+    before Cabinet discontinued it. The tax qualification survived until the 2005 assessment year. Eight months into
+    the sterilization grant, 57 couples had applied and 47 had qualified; the government expressly retained that grant
+    during its broader pronatalist turn in 1987.
+  highlights:
+    - value: '157'
+      label: children given graduate-mother priority in the 1984 school-registration exercise
+    - value: 47 of 57
+      label: applicants reported as qualified eight months into the sterilization-grant scheme
+    - value: '2005'
+      label: assessment year in which the education requirement for enhanced child tax relief was removed
+  context:
+    - >-
+      “Graduate Mothers' Scheme” is often used for the whole controversy, but the school-registration rule, tax relief
+      and sterilization grant were distinct measures. Treating them separately prevents the 1985 withdrawal of the
+      school preference from becoming a false end date for the entire package.
+    - >-
+      The figures of 157 children and 47 qualifying couples measure a single registration exercise and an early
+      eight-month administrative report. They are not lifetime totals and do not establish how much any measure changed
+      fertility.
+    - >-
+      The sterilization grant was voluntary in legal form, but it attached a large housing-related benefit to an
+      irreversible procedure for a group selected by low income and low education. This card describes the documented
+      incentive and eligibility rules; it does not recast the scheme as compulsory surgery.
+    - >-
+      Modern evidence does not support the opposite claim that intelligence or educational attainment has no genetic
+      component. The correction concerns the leap from population-level associations to deterministic judgments about
+      particular parents, children and social classes.
 episodes:
-  - id: singapore-1983-1985
+  - id: singapore-school-priority-1983-1985
     polity: Singapore
     region: Southeast Asia
     startYear: 1983
     endYear: 1985
+    periodLabel: 1983–1985 adoption and withdrawal; prior commitments honored
     strength: policy-basis
-    institutionTypes: [government, education]
+    institutionTypes:
+      - government
+      - education
     institutions:
+      - Prime Minister's Office
       - Cabinet of Singapore
       - Ministry of Education
+    institutionalContext: >-
+      Prime Minister Lee Kuan Yew's 1983 National Day Rally made unequal fertility by educational level a national
+      “talent” problem and called for policy change. Cabinet set the direction, and the Ministry of Education rewrote
+      the registration phases for pre-primary and Primary One admission. This school rule was one component of the
+      wider package, not an umbrella program administering the tax and sterilization measures.
+    consequences:
+      - Children of qualifying graduate mothers received earlier access to preferred primary schools
+      - A child's registration priority depended on the mother's degree, family size and related sterilization rules
+      - 157 children received the special priority in the 1984 registration exercise
+      - Graduate and non-graduate families publicly objected to the unequal treatment
+      - Defined commitments to mothers who responded before withdrawal continued to be honored
+    summary: >-
+      After the 1983 speech linked mothers' education and differential fertility to the future supply of talent, the
+      Ministry of Education gave registration priority in 1984 to children of graduate mothers who met specified
+      family-size conditions. The rule made a parent's credential an advantage in competition for school places. It was
+      used in one general registration exercise and discontinued in 1985 after limited take-up, public resentment and
+      the ministry's conclusion that it was unlikely to change births.
+    mechanism:
+      kind: education
+      summary: >-
+        Cabinet approval and Ministry of Education registration phases translated the hereditarian population premise
+        into earlier school-choice access for a defined class of graduate mothers' children.
+    institutionalCorrection:
+      status: partial
+      periodLabel: March–July 1985
+      action: >-
+        Cabinet discontinued the graduate-mother priority and the Ministry of Education restored the earlier
+        registration guidelines, while honoring commitments made to a defined group of mothers who had already responded.
+      summary: >-
+        The government explicitly ended this admission preference after judging it ineffective and socially divisive.
+        The response corrected the school mechanism, but it did not withdraw the separate education-qualified tax
+        relief or sterilization grant and did not document a scientific repudiation of the inherited-talent premise.
+  - id: singapore-enhanced-child-relief-1984-2004
+    polity: Singapore
+    region: Southeast Asia
+    startYear: 1984
+    endYear: 2004
+    periodLabel: 1984–2004; education condition removed for assessment year 2005
+    strength: policy-basis
+    institutionTypes:
+      - government
+    institutions:
+      - Ministry of Finance
+    institutionalContext: >-
+      The enhanced child relief already encouraged qualified women to remain in or return to paid work. In the 1984
+      Budget, the Ministry of Finance made it more generous by birth order and widened eligibility to mothers with at
+      least five O-level passes, expressly adding the aim of inducing better-educated women to have a second or third
+      child. The threshold was later reduced to three O-level passes, but educational eligibility remained through 2004.
+    consequences:
+      - Education became a condition for access to an additional working-mother tax relief
+      - Relief rose from 5 percent of earned income for the first child to 10 percent for the second and 15 percent for the third
+      - The design favored mothers with qualifying credentials and enough taxable earnings to use the relief
+      - The education condition outlived the 1985 withdrawal of the school-priority rule by almost two decades
+    summary: >-
+      The 1984 amendment attached a pronatalist purpose to an existing employment-related tax relief. Mothers with the
+      specified educational qualifications could claim progressively larger deductions for later children, while
+      mothers below the threshold could not claim the enhanced relief. The measure continued in revised form until the
+      government replaced it for assessment year 2005 and expressly removed the educational qualification.
+    mechanism:
+      kind: funding
+      summary: >-
+        The Ministry of Finance used eligibility rules and birth-order percentages in the income-tax system to direct
+        larger reproductive incentives toward formally better-educated working mothers.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: '2005'
+      action: >-
+        The Working Mother's Child Relief replaced Enhanced Child Relief for assessment year 2005, and the government
+        expressly removed the requirement that a mother have three GCE O-level passes or equivalent qualifications.
+      summary: >-
+        The replacement retained support for working mothers but ended education as an eligibility test. This directly
+        removed the classifying feature relevant to this episode, although the announcement did not present itself as a
+        scientific retraction of the 1983 hereditarian argument.
+  - id: singapore-sterilization-grant-1984-1987
+    polity: Singapore
+    region: Southeast Asia
+    startYear: 1984
+    endYear: 1987
+    periodLabel: 1984–at least 1987; withdrawal year not established
+    strength: policy-basis
+    institutionTypes:
+      - government
+    institutions:
+      - Prime Minister's Office
+      - National Registration Department
       - Central Provident Fund Board
       - Housing & Development Board (HDB)
-    institutionalContext: The policy package crossed several parts of government rather than belonging to a single “population” agency. Cabinet set the political direction; education policy carried the Graduate Mothers' Priority Scheme, while tax, housing and sterilization incentives were administered through the relevant fiscal, housing and social-policy machinery.
+    institutionalContext: >-
+      The Prime Minister's Office announced the grant and its eligibility rules. The National Registration Department
+      administered applications; the S$10,000 was credited to the woman's Central Provident Fund account and could be
+      used toward an HDB flat under ownership conditions stated in the policy. CPF and HDB were delivery channels, not
+      evidence that either body originated the hereditarian premise.
     consequences:
-      - Graduate Mothers' Priority Scheme
-      - Preferential school-admission and tax incentives
-      - Cash incentives for sterilization among lower-income, less-educated women
-      - Reproductive discrimination by education and income
-    summary: After the 1980 census showed lower fertility among graduate women, Prime Minister Lee Kuan Yew argued that intelligence was largely inherited and that unequal fertility threatened Singapore's future talent pool. In 1984 the government introduced advantages for better-educated mothers while offering a S$10,000 grant to certain low-income women without O-level qualifications who chose sterilization after one or two children. The most explicitly eugenic measures were withdrawn or substantially modified by 1985.
-    sources:
-      - title: Uplifting Fertility of Better-Educated Women
-        url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C809DCD39559B1F23FB5FC3BFE6BE9EC/9789814762205c9_p143-156_CBO.pdf/uplifting_fertility_of_bettereducated_women.pdf
-        publisher: Cambridge University Press
-        note: Historical account of the 1983 turn toward policies intended to increase births among better-educated women and reduce births among less-educated women.
-      - title: Speech by Prime Minister Lee Kuan Yew, 2 June 1984
-        url: https://www.nas.gov.sg/archivesonline/data/pdfdoc/1284-1984-06-02/lky19840602.pdf
-        publisher: National Archives of Singapore
-        note: Primary government speech announcing the S$10,000 sterilization grant for low-income mothers under 30 whose households lacked O-level qualifications.
+      - A S$10,000 benefit was tied to sterilization after the first or second child and before age 30
+      - Eligibility required both parents to lack O-level passes and imposed individual and household income ceilings
+      - Having another child triggered repayment of the grant plus 10 percent compound interest per year
+      - 57 couples applied and 47 qualified in the first reported eight months
+      - The government retained the grant when it announced a wider pronatalist policy in 1987
+    summary: >-
+      From 1 June 1984, selected low-income couples in which neither parent had an O-level pass could receive S$10,000
+      after the mother underwent sterilization following the first or second child. The grant was placed in her CPF
+      account for retirement or an HDB purchase and was repayable with compound interest if she later had another child.
+      The scheme targeted fertility through education and income and remained government policy in 1987, two years
+      after the school preference had ended.
+    mechanism:
+      kind: funding
+      summary: >-
+        Eligibility screening joined educational and income thresholds to a large CPF or housing benefit conditional on
+        sterilization, with a financial clawback if the recipient later had another child.
+    institutionalCorrection:
+      status: undocumented
+      periodLabel: After 1987; exact date undocumented
+      summary: >-
+        A 1987 parliamentary statement confirms that the grant remained in force, while the 2016 historical account
+        says only that it had been stopped “some years ago.” The sources reviewed here do not establish the withdrawal
+        date or an official repudiation of its class-based rationale, so 1985 is not assigned as its correction year.
+sources:
+  - id: singapore-fertility-chapter
+    title: Uplifting Fertility of Better-Educated Women
+    url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C809DCD39559B1F23FB5FC3BFE6BE9EC/9789814762205c9_p143-156_CBO.pdf/uplifting_fertility_of_bettereducated_women.pdf
+    publisher: Cambridge University Press
+  - id: singapore-1984-cash-grant-speech
+    title: Speech by Prime Minister Lee Kuan Yew, 2 June 1984
+    url: https://www.nas.gov.sg/archivesonline/data/pdfdoc/1284-1984-06-02/lky19840602.pdf
+    publisher: National Archives of Singapore
+  - id: singapore-1983-talent-speech
+    title: Talent for the Future — National Day Rally, 14 August 1983
+    url: https://bookshop.iseas.edu.sg/component/get/6647
+    publisher: ISEAS–Yusof Ishak Institute
+  - id: singapore-monitor-1985-rescission
+    title: The Singapore Monitor, 14 May 1985 — Graduate mothers scheme rescinded
+    url: https://eresources.nlb.gov.sg/newspapers/digitised/issue/singmonitor19850514-2
+    publisher: NewspaperSG — National Library Board Singapore
+  - id: singapore-hansard-1987-grant
+    title: Hansard, 16 March 1987 — Annual Budget Statement
+    url: https://laws.sg/legislation/hansard-1987-03-16-1987
+    publisher: Parliament of Singapore — official report via laws.sg
+  - id: singapore-mof-2004-tax
+    title: Second Reading Speech on the Income Tax (Amendment) Bill 2004
+    url: https://www.mof.gov.sg/news-resources/newsroom/second-reading-speech-by-raymond-lim-acting-second-minister-for-finance-on-the-income-tax-amendment-bill-2004-at-the-parliament-17-nov-04/
+    publisher: Ministry of Finance, Singapore
+  - id: deary-intelligence-genetics-2021
+    title: Genetic variation, brain, and intelligence differences
+    url: https://www.nature.com/articles/s41380-021-01027-y
+    publisher: Molecular Psychiatry
+  - id: okbay-education-genetics-2022
+    title: Polygenic prediction of educational attainment within and between families from genome-wide association analyses in 3 million individuals
+    url: https://www.nature.com/articles/s41588-022-01016-z
+    publisher: Nature Genetics
+evidence:
+  - id: singapore-chapter-proposition
+    sourceId: singapore-fertility-chapter
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    locator: pp. 143–153
+    note: >-
+      Reconstructs the 1983 hereditarian argument and the 1984 measures for increasing births among better-educated
+      women while reducing births among poorer, lesser-educated women.
+  - id: singapore-speech-proposition
+    sourceId: singapore-1983-talent-speech
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: pp. 243–250, especially pp. 246–250
+    note: >-
+      The prepared rally text moves from an asserted predominance of nature in performance to a warning that unequal
+      fertility by education would deplete national talent and a call to reshape policy.
+  - id: singapore-grant-proposition
+    sourceId: singapore-1984-cash-grant-speech
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: pp. 1–3
+    note: >-
+      The primary announcement identifies a “low education, large family cycle” and makes lack of O-level passes part of
+      eligibility for a sterilization-linked grant.
+  - id: deary-science-correction
+    sourceId: deary-intelligence-genetics-2021
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Genetic nurture discussion and Box 2
+    note: >-
+      Explains that intelligence is heritable and polygenic while defining heritability as variation in a particular
+      sample and time, and distinguishes direct genetic effects from indirect, environmentally mediated effects.
+  - id: okbay-science-correction
+    sourceId: okbay-education-genetics-2022
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Abstract; Polygenic prediction; Direct and population effects
+    note: >-
+      In a roughly three-million-person GWAS, the educational-attainment polygenic index explained 12–16 percent of
+      variance, and controlling parental indices roughly halved its association, showing both limited prediction and
+      substantial indirect or contextual contribution.
+  - id: singapore-chapter-impact
+    sourceId: singapore-fertility-chapter
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: pp. 145–153
+    note: >-
+      Documents the separate school, tax and sterilization measures, the 157 school-priority cases, and the early report
+      of 57 grant applications with 47 qualifying couples.
+  - id: singapore-grant-impact
+    sourceId: singapore-1984-cash-grant-speech
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: pp. 2–3
+    note: >-
+      Specifies the grant amount, education and income tests, CPF and HDB delivery, and repayment with 10 percent
+      compound interest after a later birth.
+  - id: school-priority-carrier
+    sourceId: singapore-fertility-chapter
+    relation: documents
+    target: {scope: episode, episodeId: singapore-school-priority-1983-1985, aspect: carrier}
+    locator: pp. 147–151
+    note: >-
+      Identifies the Ministry of Education registration system, ministerial review, Cabinet decision and implementation
+      dates for the graduate-mother priority.
+  - id: school-priority-mechanism
+    sourceId: singapore-fertility-chapter
+    relation: documents
+    target: {scope: episode, episodeId: singapore-school-priority-1983-1985, aspect: mechanism}
+    locator: Table 9.1 and pp. 147–151
+    note: >-
+      Sets out the registration phases and the degree, birth-order and sterilization conditions that determined earlier access.
+  - id: school-priority-consequences
+    sourceId: singapore-fertility-chapter
+    relation: supports
+    target: {scope: episode, episodeId: singapore-school-priority-1983-1985, aspect: consequences}
+    locator: pp. 147–151
+    note: >-
+      Reports 157 beneficiaries in the 1984 exercise, public resentment, withdrawal after one general exercise and the
+      continuing treatment of prior commitments.
+  - id: school-priority-correction
+    sourceId: singapore-monitor-1985-rescission
+    relation: documents
+    target: {scope: episode, episodeId: singapore-school-priority-1983-1985, aspect: institutional-correction}
+    locator: p. 2, “Graduate mothers scheme rescinded”
+    note: >-
+      Contemporary reporting records the education minister's announcement that Cabinet unanimously ended priority for
+      graduate mothers' children in pre-primary and primary admission.
+  - id: school-priority-correction-context
+    sourceId: singapore-fertility-chapter
+    relation: contextualizes
+    target: {scope: episode, episodeId: singapore-school-priority-1983-1985, aspect: institutional-correction}
+    locator: pp. 150–151
+    note: >-
+      Gives the review, withdrawal and restoration dates, the stated reasons, and the limited commitments that remained protected.
+  - id: tax-relief-carrier
+    sourceId: singapore-fertility-chapter
+    relation: documents
+    target: {scope: episode, episodeId: singapore-enhanced-child-relief-1984-2004, aspect: carrier}
+    locator: pp. 145–146
+    note: >-
+      Attributes the 1984 Budget measure and its stated pronatalist purpose to the minister and Ministry of Finance.
+  - id: tax-relief-mechanism
+    sourceId: singapore-fertility-chapter
+    relation: documents
+    target: {scope: episode, episodeId: singapore-enhanced-child-relief-1984-2004, aspect: mechanism}
+    locator: pp. 145–146
+    note: >-
+      Details the education threshold, birth-order percentages and S$10,000-per-child ceiling used in the income-tax relief.
+  - id: tax-relief-consequences
+    sourceId: singapore-fertility-chapter
+    relation: supports
+    target: {scope: episode, episodeId: singapore-enhanced-child-relief-1984-2004, aspect: consequences}
+    locator: pp. 145–146 and p. 164
+    note: >-
+      Shows how the amended relief favored credentialed working mothers, later lowered its threshold and remained until replacement.
+  - id: tax-relief-correction
+    sourceId: singapore-mof-2004-tax
+    relation: documents
+    target: {scope: episode, episodeId: singapore-enhanced-child-relief-1984-2004, aspect: institutional-correction}
+    locator: paragraph 14
+    note: >-
+      The official bill speech states that Working Mother's Child Relief would replace Enhanced Child Relief for 2005
+      and expressly removes the three-O-level qualification.
+  - id: grant-carrier
+    sourceId: singapore-fertility-chapter
+    relation: documents
+    target: {scope: episode, episodeId: singapore-sterilization-grant-1984-1987, aspect: carrier}
+    locator: pp. 151–153
+    note: >-
+      Identifies the National Registration Department as administrator and describes the CPF account and HDB purchase channels.
+  - id: grant-mechanism
+    sourceId: singapore-1984-cash-grant-speech
+    relation: documents
+    target: {scope: episode, episodeId: singapore-sterilization-grant-1984-1987, aspect: mechanism}
+    locator: pp. 2–3
+    note: >-
+      The primary announcement joins age, birth order, education, income and sterilization conditions to the S$10,000
+      benefit and its repayment clause.
+  - id: grant-consequences
+    sourceId: singapore-fertility-chapter
+    relation: supports
+    target: {scope: episode, episodeId: singapore-sterilization-grant-1984-1987, aspect: consequences}
+    locator: pp. 151–153
+    note: >-
+      Describes the housing value of the grant, the early application and qualification counts, and the targeted aim of
+      discouraging births among low-income, lesser-educated mothers.
+  - id: grant-continued-1987
+    sourceId: singapore-hansard-1987-grant
+    relation: documents
+    target: {scope: episode, episodeId: singapore-sterilization-grant-1984-1987, aspect: context}
+    locator: 16 March 1987, Annual Budget Statement, reply at 2:56 pm
+    note: >-
+      The government defended the cash grant as consistent with its new population policy, proving that the grant had
+      not ended with the school-priority scheme in 1985.
+  - id: grant-correction-boundary
+    sourceId: singapore-fertility-chapter
+    relation: contextualizes
+    target: {scope: episode, episodeId: singapore-sterilization-grant-1984-1987, aspect: institutional-correction}
+    locator: p. 153
+    note: >-
+      The 2016 account says the policy was stopped “some years ago” but supplies no date, so it cannot support a precise
+      correction endpoint.

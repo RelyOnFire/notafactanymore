@@ -1,103 +1,282 @@
+schemaVersion: 2
 title: Malaria fever therapy for non-syphilitic psychiatric disease
-claim: Deliberately infecting psychiatric patients with malaria and provoking repeated high fevers was treated as
-  a therapeutic method for schizophrenia, intellectual disability, affective disorders, psychopathic disorders,
-  and other conditions without neurosyphilis.
-currentUnderstanding: Malaria fever therapy had a distinct historical rationale in neurosyphilis, where high fever
-  could impair Treponema pallidum before effective antibiotics were available. That rationale did not establish
-  malaria as a treatment for schizophrenia or other non-syphilitic psychiatric conditions. Historical outcomes for
-  those extensions were mixed and poorly justified, and modern evidence does not support intentionally inducing
-  Plasmodium vivax infection as a psychiatric treatment. Malaria itself is an acute infectious disease that can
-  produce severe complications. The correction therefore concerns the extension of malariotherapy beyond neurosyphilis,
-  not its historically different use against neurosyphilitic disease.
+proposition:
+  summary: >-
+    Deliberately infecting psychiatric patients with Plasmodium vivax and provoking repeated high fevers was treated as
+    a therapeutic method for schizophrenia, intellectual disability, affective disorders, psychopathic disorders and
+    other conditions without neurosyphilis. At Vienna's university psychiatric clinic, fever was expected to produce a
+    nonspecific change of psychological state or stimulate development even when there was no syphilitic infection for
+    the heat to act against.
+correction:
+  summary: >-
+    The historical benefit of malaria fever therapy in general paresis was tied to a specific infectious cause:
+    neurosyphilis. It did not establish P. vivax infection as a treatment for schizophrenia or other nonsyphilitic
+    psychiatric conditions. The Vienna archival review found no detailed contemporary discussion of the indication for
+    its four principal nonsyphilitic diagnosis groups, and the broader historical literature describes results in such
+    disorders as mixed and less successful. Modern care treats malaria as a serious infection and neurosyphilis with
+    antibiotics; deliberately induced malaria has no established psychiatric indication. The correction is therefore
+    confined to the nonsyphilitic extension and does not erase the distinct pre-penicillin history of treatment for
+    general paresis.
 category: Medicine and public health
-reviewedAt: '2026-08-24'
+reviewedAt: '2026-09-30'
 impact:
-  summary: Vienna's university psychiatric clinic maintained a transmissible Plasmodium vivax strain and deliberately
-    infected psychiatric patients well into the 1960s. Most malaria-therapy cases in the clinic's five focal diagnostic
-    groups were not neurosyphilis. Patients with schizophrenia and other diagnoses were used in a practice that
-    contemporary publications scarcely justified, even after neuroleptics and antidepressants provided noninfectious
-    alternatives.
+  summary: >-
+    Vienna's university psychiatric clinic maintained a blood-transmitted P. vivax strain and recorded 869
+    malaria-fever therapy cases across diagnoses from 1951 to 1968. Within five focal adult diagnosis groups, 609 of 772
+    treatment cases—nearly 79%—were for diagnoses other than neurosyphilis. The archive identifies 158 people whose main
+    diagnosis was schizophrenia among those intentionally infected. Patients typically received infected blood, passed
+    through repeated fever attacks around or above 40 °C, and were then given antimalarial drugs. The last recorded use
+    was in December 1968, long after penicillin and psychiatric medicines had changed the available alternatives.
   highlights:
-  - value: 609 / 772
-    label: malaria-therapy cases in Vienna's five focal diagnostic groups were for diagnoses other than neurosyphilis
-  - value: '158'
-    label: schizophrenia patients were identified as deliberately infected with P. vivax in the 1951–1969 archive
-  - value: '1968'
-    label: last recorded malaria-fever treatment at the Vienna psychiatric clinic
+    - value: '869'
+      label: malaria-fever therapy cases recorded across diagnoses at the Vienna clinic
+    - value: 609 / 772
+      label: cases in five focal adult diagnosis groups that involved diagnoses other than neurosyphilis
+    - value: '158'
+      label: people with a main schizophrenia diagnosis identified among the iatrogenic P. vivax infections
   context:
-  - The classic indication of general paresis/neurosyphilis was historically distinct. Before penicillin,
-    malaria-induced fever had a biologically plausible and historically meaningful antisyphilitic role, even though
-    it was hazardous. That use was not equivalent to malaria therapy for schizophrenia.
-  - The archival evidence does not prove that every non-neurosyphilitic patient lacked a sincerely intended therapeutic
-    indication. It does show that the clinic extended malaria therapy across diagnoses despite little detailed contemporary
-    justification and sometimes used patients as carriers to preserve the malaria strain.
+    - >-
+      The 772 figure counts treatment cases or admissions in the five diagnosis groups, not necessarily 772 unique
+      people. The historical study says repeat malaria therapy was rare, so case and patient totals were close. The 869
+      total also includes 97 cases with other diagnoses; a separate child-ward review found 35 malaria-therapy cases.
+    - >-
+      The 1927 Nobel Prize was expressly awarded for malaria inoculation in dementia paralytica, the neuropsychiatric
+      manifestation of late syphilis. It supplied prestige to malaria fever therapy but did not endorse its extension to
+      schizophrenia, intellectual disability, affective disorders or psychopathic diagnoses.
+    - >-
+      Records called some transferred patients “strain carriers,” showing that they helped keep the human-to-human
+      malaria chain alive. The investigators could not determine that any individual was infected solely for that
+      purpose, because the same diagnoses were also treated therapeutically. The record supports concern and uncertainty,
+      not a categorical claim of nontherapeutic experimentation.
+    - >-
+      One person in the schizophrenia cohort died during the hospital stay after P. vivax inoculation and subsequent
+      antimalarial treatment. The file did not establish a cause of death, so this record does not attribute that death
+      to malaria therapy.
 episodes:
-- id: austria-vienna-1951-1968
-  polity: Austria — Vienna
-  region: Europe
-  startYear: 1951
-  endYear: 1968
-  strength: policy-basis
-  institutionTypes:
-  - university
-  - medical
-  institutions:
-  - Psychiatric-Neurological University Clinic, Vienna
-  - Vienna General Hospital
-  - University of Vienna medical faculty
-  institutionalContext: Under Hans Hoff, Vienna's university psychiatric clinic continued malaria fever therapy
-    throughout 1951–1968 and applied it far beyond neurosyphilis. The clinic treated people diagnosed with schizophrenia,
-    intellectual disability, affective disorders, psychopathic disorders and additional conditions by deliberately
-    transmitting P. vivax, usually with infected blood, and waiting through repeated fever paroxysms before administering
-    antimalarial drugs. A modern archival study found 772 malaria-therapy cases within five focal diagnostic groups,
-    of which 609—nearly 79%—were not neurosyphilis. The same study found no detailed contemporary discussion justifying
-    malaria therapy for the four nonsyphilitic diagnostic groups. Vienna maintained a syphilis-free malaria strain
-    specifically because non-neurosyphilitic use was frequent, and the last documented treatment occurred in December
-    1968.
-  consequences:
-  - Deliberate infection of psychiatric patients with Plasmodium vivax
-  - Repeated febrile attacks before antimalarial treatment terminated the infection
-  - Use in schizophrenia, intellectual disability, affective and psychopathic diagnoses without the neurosyphilis
-    rationale
-  - Continued exposure to an infectious disease after noninfectious psychiatric treatments had become available
-  - Some patients functioned as continuing carriers of the institutional malaria strain
-  summary: Vienna's university psychiatric clinic deliberately infected large numbers of non-neurosyphilitic patients
-    with malaria well into the 1960s. In the archival sample, 609 of 772 malaria-therapy cases within the five principal
-    diagnostic groups involved diagnoses other than neurosyphilis, including schizophrenia, intellectual disability
-    and affective or psychopathic disorders. A separate infectious-disease reconstruction identified 158 schizophrenia
-    patients who had been inoculated, usually with 4–8 mL of P. vivax-infected blood, and who typically underwent
-    several fever attacks before malaria treatment was given. The clinic's own historical record contains little
-    detailed scientific justification for these nonsyphilitic extensions, and the practice persisted until December
-    1968.
-  sources:
-  - title: 'In the shadow of the ''psychopharmacological revolution'': Malaria fever, insulin coma, cardiazol and
-      electroconvulsive therapy at the Vienna Psychiatric University Clinic, 1951–1969'
+  - id: austria-vienna-1951-1968
+    polity: Austria — Vienna
+    region: Europe
+    startYear: 1951
+    endYear: 1968
+    periodLabel: 1951–1968
+    strength: policy-basis
+    institutionTypes:
+      - university
+      - medical
+    institutions:
+      - Psychiatric-Neurological University Clinic, Vienna
+      - Faculty of Medicine, University of Vienna
+      - Vienna General Hospital
+    institutionalContext: >-
+      Under director Hans Hoff, Vienna's university psychiatric clinic retained malaria fever therapy as an established
+      treatment option throughout the transition to neuroleptics and antidepressants. Physicians selected patients by
+      symptoms as well as diagnosis and used the procedure for schizophrenia, intellectual disability, affective and
+      psychopathic disorders and other nonsyphilitic conditions. A retrospective database found 869 malaria-therapy
+      cases overall, including 772 in five focal adult diagnosis groups; 609 of those 772 were nonsyphilitic. Most people
+      in those diagnostic groups did not receive malaria therapy, so this was an institutionalized but selective practice
+      rather than a universal clinic rule.
+    consequences:
+      - Deliberate infection of psychiatric patients with blood-stage Plasmodium vivax
+      - Repeated fever attacks, often around or above 40 °C, before antimalarial treatment ended the blood-stage infection
+      - Use for schizophrenia, intellectual disability, affective and psychopathic diagnoses without a neurosyphilis rationale
+      - Combination in some cases with electroshock, insulin shock or typhoid provocation therapy
+      - Continued exposure to an infectious disease after noninfectious psychiatric treatments and penicillin were available
+      - Use of some transferred patients as carriers in the chain that preserved the clinic's malaria strain
+    summary: >-
+      From 1951 through December 1968, Vienna's university psychiatric clinic deliberately transmitted P. vivax in a
+      broad range of psychiatric cases. In complete schizophrenia records, inoculation was usually intravenous, the dose
+      was 4–8 mL of infected blood and patients averaged 5.4 documented fever attacks before antimalarial treatment. The
+      clinic described the aim outside neurosyphilis as a nonspecific change of psychological state or developmental
+      stimulus. Yet the archival project found no detailed contemporary indication discussion for its four main
+      nonsyphilitic diagnosis groups, and Vienna persisted after comparable German-speaking clinics had sharply reduced
+      or ended the practice.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        The clinic maintained a transmissible P. vivax strain, selected psychiatric inpatients for inoculation, passed
+        infected blood from one person to the next, monitored repeated fever attacks and then administered antimalarial
+        drugs. This clinical infrastructure made malaria fever therapy a repeatable institutional treatment outside its
+        original neurosyphilis indication.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 1968; institutional review 2012–2015 and later publication
+      action: >-
+        The clinic ended the practice after its last recorded treatment in December 1968. In 2012 the Medical University
+        of Vienna commissioned an external historical investigation and presented its findings publicly in 2015; the
+        archival findings later appeared in peer-reviewed publications.
+      summary: >-
+        The review documented the exceptional breadth of use, the weak published justification for nonsyphilitic
+        indications and the possibility that strain preservation influenced individual cases. A director of a successor
+        clinic explicitly rejected and regretted any use primarily to maintain the strain. The official presentation also
+        judged the broader practice permissible by contemporary standards and found no evidence that it was used for
+        punishment or testing. This is a substantive but qualified institutional reckoning; the reviewed sources do not
+        document a categorical repudiation, apology to all affected patients or compensation program.
+sources:
+  - id: vienna-heiss-2025
+    title: 'In the shadow of the ''psychopharmacological revolution'': Malaria fever, insulin coma, cardiazol and electroconvulsive therapy at the Vienna Psychiatric University Clinic, 1951–1969'
     url: https://link.springer.com/article/10.1007/s00508-025-02592-w
     publisher: Wiener klinische Wochenschrift / Springer Nature
-    note: Peer-reviewed archival reconstruction documenting 772 malaria-therapy cases in five focal diagnostic groups,
-      609 nonsyphilitic cases, the extension to schizophrenia, intellectual disability, affective and psychopathic
-      disorders, absence of detailed contemporary justification for those extensions, maintenance of the malaria
-      strain, and the final recorded use in December 1968.
-  - title: Clinical and Parasitological Characteristics of Plasmodium vivax Malaria in Malaria-Naïve Patients
+  - id: vienna-wolff-2025
+    title: Clinical and Parasitological Characteristics of Plasmodium vivax Malaria in Malaria-Naïve Patients
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12676601/
     publisher: American Journal of Tropical Medicine and Hygiene
-    note: Modern medical-record analysis identifying 869 iatrogenically infected Vienna patients, including 158
-      with schizophrenia; documents infected-blood inoculation, typical 4–8 mL doses, repeated fever paroxysms and
-      subsequent antimalarial treatment. It explicitly notes that Vienna continued malaria therapy until the late
-      1960s after most centers had stopped.
-  - title: 'Malaria fever therapy: wide-spread administration in Vienna was an exceptional case'
+  - id: meduni-vienna-commission-2015
+    title: 'Malaria fever therapy: wide-spread administration in Vienna was an exceptional case'
     url: https://www.meduniwien.ac.at/web/en/about-us/news/detailsite/malaria-fever-therapy-wide-spread-administration-in-vienna-was-an-exceptional-case-medical-university-of-vienna-presents-results-from-the-historical-commission/
     publisher: Medical University of Vienna
-    note: Official university account of the independent historical commission, confirming unusually broad cross-diagnostic
-      use in Vienna, 772 adult focal cases, 35 child-ward cases, and persistence into the 1960s because clinicians
-      considered their experience with the treatment positive.
-  - title: 'Psychiatric effects of malaria and anti-malarial drugs: historical and modern perspectives'
+  - id: malaria-psychiatric-review-2016
+    title: 'Psychiatric effects of malaria and anti-malarial drugs: historical and modern perspectives'
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4918116/
     publisher: Malaria Journal
-    note: Peer-reviewed historical review distinguishing the successful neurosyphilis rationale from later extensions
-      to non-syphilitic psychiatric disorders, whose results were mixed and less successful.
-  - title: Malaria — Fact sheet
+  - id: who-malaria-fact-sheet
+    title: Malaria — Fact sheet
     url: https://www.who.int/news-room/fact-sheets/detail/malaria
     publisher: World Health Organization
-    note: 'Current clinical context: malaria is an acute parasitic infection; P. vivax is one of the two human malaria
-      species posing the greatest global threat, and malaria can cause severe illness and death.'
+  - id: nobel-malaria-1927
+    title: The Nobel Prize in Physiology or Medicine 1927
+    url: https://www.nobelprize.org/prizes/medicine/1927/summary/
+    publisher: Nobel Prize Outreach
+  - id: cdc-neurosyphilis-guideline
+    title: Neurosyphilis, Ocular Syphilis, and Otosyphilis — STI Treatment Guidelines
+    url: https://www.cdc.gov/std/treatment-guidelines/neurosyphilis.htm
+    publisher: U.S. Centers for Disease Control and Prevention
+  - id: malaria-neurosyphilis-history
+    title: Julius Wagner-Jauregg and the Legacy of Malarial Therapy for the Treatment of General Paresis of the Insane
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3670443/
+    publisher: Yale Journal of Biology and Medicine
+evidence:
+  - id: malaria-nonsyphilitic-proposition
+    sourceId: vienna-heiss-2025
+    relation: supports
+    target: {scope: belief, aspect: proposition}
+    locator: Malaria fever therapy
+    note: >-
+      Documents Vienna's use of malaria fever therapy as a nonspecific “shock” treatment for schizophrenia, intellectual
+      disability, affective and psychopathic disorders, with the intended goals of changing psychological state or
+      stimulating development.
+  - id: malaria-nonsyphilitic-correction
+    sourceId: vienna-heiss-2025
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Malaria fever therapy; Conclusion
+    note: >-
+      Finds no detailed contemporary indication discussion for the four principal nonsyphilitic diagnosis groups and
+      records that other psychiatric literature characterized use outside progressive paralysis as rarely effective.
+  - id: malaria-review-correction
+    sourceId: malaria-psychiatric-review-2016
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Malariotherapy of psychiatric disease
+    note: >-
+      Distinguishes the historical neurosyphilis rationale from extensions to schizophrenia and manic-depressive
+      psychosis, whose reported results were mixed and perceived as less successful.
+  - id: malaria-who-correction
+    sourceId: who-malaria-fact-sheet
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Overview; Symptoms; Treatment
+    note: >-
+      Defines malaria as a potentially life-threatening parasitic disease, identifies P. vivax as one of the two greatest
+      human malaria threats and states that malaria is a serious infection requiring antimalarial treatment.
+  - id: malaria-cdc-correction
+    sourceId: cdc-neurosyphilis-guideline
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Treatment
+    note: >-
+      Current neurosyphilis guidance recommends high-dose aqueous crystalline penicillin G, illustrating that even the
+      historically distinct infectious indication is now treated without deliberately induced malaria.
+  - id: malaria-nobel-scope
+    sourceId: nobel-malaria-1927
+    relation: contextualizes
+    target: {scope: belief, aspect: correction}
+    note: >-
+      The official prize motivation is specifically the therapeutic value of malaria inoculation in dementia paralytica;
+      it does not state efficacy for schizophrenia or other nonsyphilitic psychiatric disorders.
+  - id: malaria-neurosyphilis-context
+    sourceId: malaria-neurosyphilis-history
+    relation: contextualizes
+    target: {scope: belief, aspect: correction}
+    locator: Rebirth of Biological Psychiatry; Enduring Legacy
+    note: >-
+      Reviews the historically meaningful but hazardous use against general paresis before penicillin, including early
+      remission evidence and mortality, and explains why that specific infectious indication became obsolete.
+  - id: vienna-malaria-impact
+    sourceId: vienna-heiss-2025
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Background; Malaria fever therapy
+    note: >-
+      Records 869 malaria-therapy cases overall, 772 in five focal adult diagnosis groups, 609 nonsyphilitic cases and the
+      final treatment in December 1968; it also identifies 35 child-ward cases in the separate archive.
+  - id: vienna-schizophrenia-impact
+    sourceId: vienna-wolff-2025
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Results, Study population
+    note: >-
+      Identifies 869 iatrogenic P. vivax infections in the archive and 158 people whose main diagnosis was schizophrenia,
+      while documenting inoculation doses, repeated fever peaks and subsequent antimalarial treatment.
+  - id: vienna-malaria-carrier
+    sourceId: vienna-heiss-2025
+    relation: supports
+    target: {scope: episode, episodeId: austria-vienna-1951-1968, aspect: carrier}
+    locator: Background; Malaria fever therapy
+    note: >-
+      Identifies the Vienna Psychiatric-Neurological University Clinic under Hans Hoff as the treatment site and explains
+      its unusually long continuation of malaria fever therapy from 1951 through 1968.
+  - id: vienna-malaria-mechanism
+    sourceId: vienna-heiss-2025
+    relation: supports
+    target: {scope: episode, episodeId: austria-vienna-1951-1968, aspect: mechanism}
+    locator: Malaria fever therapy
+    note: >-
+      Documents clinical selection, human-to-human blood transfer, preservation of a syphilis-free malaria strain and use
+      of patients recorded as strain carriers.
+  - id: vienna-malaria-procedure
+    sourceId: vienna-wolff-2025
+    relation: supports
+    target: {scope: episode, episodeId: austria-vienna-1951-1968, aspect: mechanism}
+    locator: Materials and Methods; Results
+    note: >-
+      Reconstructs mainly intravenous inoculation with 4–8 mL of P. vivax-infected blood, a mean of 5.4 fever attacks in
+      complete schizophrenia records and termination with quinine-based or chloroquine-based treatment.
+  - id: vienna-malaria-consequences
+    sourceId: vienna-heiss-2025
+    relation: supports
+    target: {scope: episode, episodeId: austria-vienna-1951-1968, aspect: consequences}
+    locator: Malaria fever therapy
+    note: >-
+      Documents 609 nonsyphilitic cases among the 772 focal adult cases, use across four principal nonsyphilitic diagnosis
+      groups, combination with other invasive therapies and the strain-carrier role.
+  - id: vienna-malaria-clinical-consequences
+    sourceId: vienna-wolff-2025
+    relation: supports
+    target: {scope: episode, episodeId: austria-vienna-1951-1968, aspect: consequences}
+    locator: Results, Study population; Fever paroxysms
+    note: >-
+      Provides patient-level evidence of deliberate infection, repeated temperatures around or above 40 °C, falling
+      haemoglobin and erythrocyte measures in limited laboratory records, and one death whose cause was not established.
+  - id: vienna-malaria-nobel-context
+    sourceId: nobel-malaria-1927
+    relation: contextualizes
+    target: {scope: episode, episodeId: austria-vienna-1951-1968, aspect: context}
+    note: >-
+      Limits the Nobel endorsement to dementia paralytica and prevents the prize from being misread as institutional
+      evidence for Vienna's later nonsyphilitic applications.
+  - id: vienna-malaria-institutional-correction
+    sourceId: meduni-vienna-commission-2015
+    relation: documents
+    target: {scope: episode, episodeId: austria-vienna-1951-1968, aspect: institutional-correction}
+    note: >-
+      Records the Medical University-commissioned investigation, its 2015 findings, the qualified judgment that the
+      practice was permissible by contemporary standards and a successor clinic director's rejection and regret of any
+      use primarily to preserve the strain.
+  - id: vienna-malaria-reappraisal
+    sourceId: vienna-heiss-2025
+    relation: documents
+    target: {scope: episode, episodeId: austria-vienna-1951-1968, aspect: institutional-correction}
+    locator: Background; Acknowledgements; Supplementary Information
+    note: >-
+      Explains that Medical University leadership initiated the historical project after public allegations and provides
+      the peer-reviewed archival account and expanded project report that followed the commission's work.

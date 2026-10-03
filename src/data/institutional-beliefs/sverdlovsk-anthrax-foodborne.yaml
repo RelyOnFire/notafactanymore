@@ -1,88 +1,123 @@
 schemaVersion: 2
-title: Sverdlovsk anthrax as a foodborne outbreak
+title: Sverdlovsk anthrax as a natural, foodborne outbreak
 proposition:
   summary: >-
-    Soviet authorities maintained that the 1979 Sverdlovsk anthrax outbreak was an ordinary natural outbreak in which
-    people contracted intestinal anthrax from contaminated meat, rather than an airborne release associated with a
-    military microbiology facility.
+    After the 1979 Sverdlovsk anthrax epidemic, Soviet public-health, scientific and diplomatic institutions said that a
+    natural livestock epizootic had produced gastrointestinal and cutaneous human anthrax through uninspected infected
+    meat and contact with sick animals. They denied that the outbreak involved the city's military microbiology facility
+    or raised a Biological Weapons Convention compliance issue.
 correction:
   summary: >-
-    The human outbreak was predominantly inhalational anthrax caused by an aerosol release from the military microbiology
-    facility known as Compound 19. In 1992 Russian President Boris Yeltsin publicly acknowledged that Soviet military
-    development had caused the outbreak. Subsequent pathology found lesions diagnostic of inhalational anthrax in a
-    42-necropsy series, and epidemiological reconstruction found victims and livestock deaths aligned downwind from the
-    military facility, supporting an accidental airborne release rather than the official foodborne explanation.
+    The principal lethal human outbreak was inhalational anthrax caused by a windborne aerosol originating at the
+    military microbiology facility known as Compound 19. All 42 cases in a preserved necropsy series had the thoracic
+    lymph-node necrosis and hemorrhagic mediastinitis diagnostic of inhalational infection; their gastrointestinal
+    lesions mostly reflected spread through the bloodstream, not ingestion. A later field reconstruction placed victims
+    in a narrow zone extending south from the facility, with livestock deaths along the same axis and the relevant wind
+    on 2 April 1979. President Boris Yeltsin publicly reported in 1992 that the KGB had admitted Soviet military
+    development caused the outbreak. The exact release mechanics and complete casualty total remain uncertain.
 category: Public health, biological weapons and state secrecy
-reviewedAt: '2026-08-25'
+reviewedAt: '2026-09-25'
 impact:
   summary: >-
-    The contaminated-meat explanation operated through public-health messaging, scientific claims and international
-    diplomacy. Soviet officials formally repeated it to the United States while denying any connection to Biological
-    Weapons Convention compliance and rejecting requests for expert consultations under Article V. The explanation
-    remained the official line until the Soviet period ended; Russia's president acknowledged the military origin in
-    1992, after which pathological and epidemiological studies independently demonstrated inhalational exposure and a
-    plume originating at the military facility.
+    The foodborne account shaped local public information and persisted through science and diplomacy. During the
+    outbreak, newspapers and posters warned against uninspected meat and contact with sick animals, teams sampled meat
+    and disinfected kitchens and sickrooms, and roadblocks confiscated meat entering the city. The response also included
+    tetracycline and anthrax vaccination, measures whose possible benefit should not be attributed to the false route
+    explanation. A May 1980 Soviet epidemiology article and later official presentations sustained the meat account while
+    the Foreign Ministry formally rejected U.S. treaty concerns and three U.S. approaches, including requests for expert
+    consultation. Hospital and public-health records were reportedly confiscated by the KGB, forcing later investigators
+    to reconstruct the epidemic from surviving tissue, private notes, administrative lists and interviews. Their 1994
+    series contained 77 presumed or confirmed inhalational cases, 66 fatal, but it was not a complete census.
   highlights:
-    - value: '3'
-      label: formal U.S. overtures seeking Biological Weapons Convention consultation by mid-1980
+    - value: 66 of 77
+      label: Fatal cases in the reconstructed 1994 series; incomplete records prevent treating it as a final death toll
     - value: '42'
-      label: outbreak necropsies with lesions consistently diagnostic of inhalational anthrax in the 1993 pathology study
-    - value: '20'
-      label: cases in the 42-necropsy series from which Bacillus anthracis was recovered in culture
+      label: Preserved necropsies with lesions consistently diagnostic of inhalational anthrax
+    - value: 13 years
+      label: Approximate interval from the April 1979 outbreak to Yeltsin's public acknowledgment in May 1992
   context:
     - >-
-      Infected livestock did exist: later epidemiology documented animal anthrax along the same downwind axis. The
-      correction concerns the origin and principal route of the human outbreak, not the possibility of secondary animal infection.
+      Published totals describe different datasets. Soviet specialists presented 96 cases—79 gastrointestinal and 17
+      cutaneous—with 64 deaths. The later field team tabulated 77 presumed or confirmed inhalational patients, including
+      66 deaths, while a compensation list contained 68 names before several diagnoses were reassessed. Secrecy and
+      missing records make a single definitive case or death total unavailable.
     - >-
-      The available evidence does not establish a specific number of deaths caused by the false explanation itself.
+      Livestock anthrax did occur south of the city. Its geography did not validate the meat explanation: affected
+      villages extended as far as 50 kilometres along the same narrow axis as the human cases and the 2 April northerly
+      wind, consistent with exposure to the same aerosol plume.
     - >-
-      An accidental aerosol release from a military biological facility raises serious treaty-compliance questions,
-      but the outbreak alone does not establish the full legal scope of any Biological Weapons Convention violation.
+      Gastrointestinal hemorrhages do not by themselves identify ingestion as the portal of entry. In the 42-necropsy
+      series, diagnostic injury centred on thoracic lymph nodes and the mediastinum; most intestinal lesions were
+      submucosal and compatible with blood-borne dissemination from a pulmonary infection.
+    - >-
+      The official explanation did not determine every response measure. Antibiotic distribution and vaccination could
+      protect people after aerosol exposure, whereas warnings and investigative activity centred on meat and animals.
+      The surviving evidence cannot quantify deaths or illnesses caused specifically by the misclassification or delay.
+    - >-
+      Epidemiology strongly supports an aerosol originating at Compound 19 and makes 2 April the best-supported release
+      date. It does not independently establish the precise equipment failure, quantity released, every activity inside
+      the facility or the complete legal scope of a Biological Weapons Convention violation.
+    - >-
+      Yeltsin's acknowledgment, compliance decree and permission for outside fieldwork reversed the presidential line,
+      but did not produce a comprehensive official account. The Russian defense establishment still advanced versions
+      of the natural or meat explanation later in the 1990s, so the institutional correction was substantial but partial.
 episodes:
   - id: soviet-union-1979-1992
     polity: Soviet Union
     region: Eurasia
     startYear: 1979
     endYear: 1992
-    strength: officially-endorsed
+    periodLabel: April 1979–27 May 1992
+    strength: policy-basis
     institutionTypes:
       - government
       - medical
+      - military
     institutions:
+      - Sverdlovsk public-health authorities
       - USSR Ministry of Foreign Affairs
-      - Soviet public-health authorities
+      - Soviet medical and veterinary specialists
+      - Committee for State Security (KGB)
+      - Soviet Ministry of Defense
     institutionalContext: >-
-      During and after the 1979 outbreak, Soviet public information attributed anthrax risk to diseased animals and
-      uninspected meat. On 20 March 1980 the Soviet Foreign Ministry formally told the United States that Sverdlovsk had
-      experienced an ordinary natural anthrax outbreak among animals and that human cases were intestinal anthrax caused
-      by eating improperly inspected cattle meat. It denied any relevance to the Biological Weapons Convention. When the
-      United States requested expert consultations under Article V, the Soviet government repeated the natural-outbreak
-      explanation and refused consultation; by mid-1980 the United States had made three formal overtures. In May 1992
-      Russian President Boris Yeltsin said that the KGB had admitted Soviet military development caused the outbreak.
+      The route claim joined several institutions. Local authorities warned the public about uninspected meat, sampled
+      and confiscated meat, disinfected homes and promoted vaccination. Soviet epidemiologists published the natural,
+      foodborne account in May 1980 and officials presented an expanded version to foreign scientists in the 1980s. The
+      Foreign Ministry used the same explanation on 20 March 1980 to deny any Biological Weapons Convention relevance,
+      repeated it on 24 April when rejecting Article V consultations and maintained that refusal after three U.S.
+      approaches. Meanwhile, hospital and public-health records were removed; pathologists preserved notes, slides and
+      tissue privately. The resulting information control delayed a testable reconstruction until the Soviet system had
+      ended and Russia permitted field investigation.
     consequences:
-      - Official attribution of the human epidemic to contaminated meat and natural animal anthrax
-      - Presentation of the foodborne explanation through Soviet public-health and epidemiological channels
-      - Formal denial that the outbreak raised a Biological Weapons Convention compliance issue
-      - Repeated refusal of requested expert consultations under Article V of the convention
-      - Long-term obstruction of accurate public and international understanding of the outbreak's military airborne origin
+      - Public warnings and investigation directed toward uninspected meat, diseased animals and household contamination rather than an airborne industrial source
+      - Publication and international presentation of an epidemiological account assigning 79 of 96 reported cases to gastrointestinal infection
+      - Formal denial that the outbreak raised a Biological Weapons Convention compliance question
+      - Rejection of expert consultation despite three U.S. approaches by July 1980
+      - Removal or confiscation of clinical and public-health records needed to establish exposure routes and treatment effects
+      - Thirteen years of official misattribution before the successor-state president acknowledged a military cause
     summary: >-
-      Sverdlovsk turned a biological accident into a sustained institutional false explanation. Soviet officials carried
-      the contaminated-meat account into diplomatic exchanges over Biological Weapons Convention compliance. In 1992
-      Yeltsin publicly acknowledged a military cause, and subsequent pathology and epidemiology demonstrated that the
-      human outbreak was inhalational and followed an aerosol plume extending downwind from Compound 19.
+      Sverdlovsk converted a biological accident into a durable public-health and diplomatic explanation. Authorities
+      made real animal infections and gastrointestinal pathology carry a conclusion they did not support: that infected
+      meat caused the lethal human epidemic. Publication, controlled disclosure and refusal of treaty consultation kept
+      the account viable until surviving pathology, household interviews, workplace mapping, animal geography and wind
+      records could be combined after 1991.
     mechanism:
       kind: publication
       summary: >-
-        Soviet foreign-policy and public-health institutions repeatedly published and diplomatically defended a natural,
-        foodborne explanation while rejecting international consultation over the military-origin allegation.
+        Public warnings supplied an immediate natural source; Soviet epidemiological publication and curated scientific
+        presentations supplied apparent technical authority; record removal constrained independent testing; and the
+        Foreign Ministry converted the same account into a formal treaty defense while refusing expert consultation.
     institutionalCorrection:
-      status: corrected
-      periodLabel: May 1992
-      action: Russian President Boris Yeltsin publicly acknowledged that Soviet military development had caused the outbreak.
+      status: partial
+      periodLabel: 11 April–27 May 1992
+      action: >-
+        President Boris Yeltsin decreed an end to offensive biological-weapons work and publicly reported the KGB's
+        admission that Soviet military development caused the Sverdlovsk outbreak.
       summary: >-
-        The Soviet carrier no longer existed, but its principal successor state publicly reversed the inherited official
-        explanation and acknowledged a Soviet military cause; later pathology and epidemiology independently confirmed
-        the airborne-release account.
+        The Russian presidency reversed the inherited Soviet position and then allowed outside investigators to work in
+        Sverdlovsk in June 1992 and August 1993. Their pathology and epidemiology supplied independent tests of the
+        aerosol account. Continued denial from parts of the defense establishment and the absence of a complete official
+        release record keep the correction partial rather than comprehensive.
 sources:
   - id: sverdlovsk-soviet-reply
     title: Soviet reply to U.S. démarche on the Sverdlovsk biological-weapons incident — 20 March 1980
@@ -108,46 +143,176 @@ sources:
     title: The Sverdlovsk anthrax outbreak of 1979
     url: https://pubmed.ncbi.nlm.nih.gov/7973702/
     publisher: Science
+  - id: sverdlovsk-soviet-epidemiology
+    title: Epidemiologic analysis of anthrax in Sverdlovsk
+    url: https://pubmed.ncbi.nlm.nih.gov/7415678/
+    publisher: Zhurnal mikrobiologii, epidemiologii i immunobiologii / PubMed
+  - id: sverdlovsk-national-academies
+    title: 'Sverdlovsk, Russia 1979: Accidental Release'
+    url: https://www.ncbi.nlm.nih.gov/books/NBK190044/
+    publisher: National Academies Press / NCBI Bookshelf
+  - id: sverdlovsk-national-security-archive
+    title: Anthrax at Sverdlovsk, 1979
+    url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB61/
+    publisher: National Security Archive, George Washington University
 evidence:
   - id: sverdlovsk-reply-proposition
     sourceId: sverdlovsk-soviet-reply
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: paragraphs 2–3 and official statement, paragraphs 1–4
     note: >-
-      Contemporary diplomatic record reproduces the Soviet Foreign Ministry's official explanation of a natural animal
-      outbreak with human intestinal cases caused by improperly inspected cattle meat.
+      The 20 March 1980 diplomatic record reproduces the Soviet Foreign Ministry's claim that a natural animal outbreak
+      caused intestinal human anthrax through cattle meat sold outside veterinary controls, and its denial of any
+      Biological Weapons Convention relevance.
+  - id: sverdlovsk-journal-proposition
+    sourceId: sverdlovsk-soviet-epidemiology
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: bibliographic record, May 1980, pp. 111–113; PMID 7415678
+    note: >-
+      Records the contemporary Soviet epidemiology publication that institutionalized the Sverdlovsk explanation in a
+      medical journal; the bibliographic indexing includes food contamination, meat, cattle and veterinary transmission.
   - id: sverdlovsk-pathology-correction
     sourceId: sverdlovsk-pathology
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: abstract; pp. 2291 and 2293–2294
     note: >-
-      1993 pathology study found lesions consistently diagnostic of inhalational anthrax in 42 necropsies.
+      All 42 necropsies showed hemorrhagic thoracic lymphadenitis and mediastinitis diagnostic of inhalational anthrax.
+      The authors explained that most gastrointestinal lesions resulted from blood-borne spread and concluded that the
+      patients died after inhaling B. anthracis aerosols.
   - id: sverdlovsk-science-correction
     sourceId: sverdlovsk-science
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: abstract and pp. 1205–1206; PMID 7973702
     note: >-
-      1994 epidemiological reconstruction found a narrow downwind zone of human cases and animal deaths and concluded
-      that an aerosol escape from the military facility caused the outbreak.
+      The field reconstruction found a narrow human-case zone beginning at the military facility, animal deaths along
+      its extended axis and the matching northerly wind on 2 April. It concluded that a windborne aerosol escaped from
+      the facility while leaving the precise activity and release mechanism unresolved.
+  - id: sverdlovsk-academies-correction
+    sourceId: sverdlovsk-national-academies
+    relation: contextualizes
+    target: {scope: belief, aspect: correction}
+    locator: 'section “Sverdlovsk, Russia 1979: Accidental Release,” paragraphs 1–18'
+    note: >-
+      The National Academies review treats 2 April as the best-supported release date but explicitly records uncertainty
+      about exact timing and possible multiple or prolonged release. It distinguishes the 42-case autopsy series from
+      larger reconstructed datasets whose cases were not all confirmed pathologically or microbiologically.
+  - id: sverdlovsk-science-impact
+    sourceId: sverdlovsk-science
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: pp. 1203–1205, “Sources of Information,” “Case Data,” and local response paragraphs
+    note: >-
+      Reports the official count of 96 cases and 64 deaths, the later 77-patient series with 66 fatalities, public meat
+      warnings and control measures, and the confiscation of hospital and public-health records. These are distinct and
+      incomplete datasets, not interchangeable final totals.
   - id: sverdlovsk-three-overtures-impact
     sourceId: sverdlovsk-three-overtures
     relation: supports
     target: {scope: belief, aspect: impact}
+    locator: attached paper, paragraphs 1–10, especially paragraphs 7–10
+    note: >-
+      The July 1980 paper records the March, late-March and June approaches, the repeated Soviet natural-outbreak answer
+      and refusal of expert consultation, and the U.S. assessment that the evidence warranted Article V scrutiny.
+  - id: sverdlovsk-academies-impact
+    sourceId: sverdlovsk-national-academies
+    relation: contextualizes
+    target: {scope: belief, aspect: impact}
+    locator: 'section “Sverdlovsk, Russia 1979: Accidental Release,” paragraphs 2–18'
+    note: >-
+      Explains why precise comprehensive clinical and epidemiological data remain unverifiable and warns that only the
+      preserved autopsy cases in the larger reconstruction had microbiological or histopathological confirmation.
   - id: sverdlovsk-reply-carrier
     sourceId: sverdlovsk-soviet-reply
     relation: documents
     target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: carrier}
+    locator: heading and paragraphs 2–3; official statement, paragraphs 1–4
+    note: >-
+      Identifies the USSR Foreign Ministry and its USA Department chief Viktor Komplektov as the institution and official
+      delivering the foodborne explanation as a formal Soviet response.
+  - id: sverdlovsk-journal-carrier
+    sourceId: sverdlovsk-soviet-epidemiology
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: carrier}
+    locator: title, authors, journal, publication date and indexed subjects; PMID 7415678
+    note: >-
+      Shows that the explanation also entered a Soviet epidemiology and microbiology journal under named medical authors,
+      rather than remaining only an anonymous diplomatic assertion.
+  - id: sverdlovsk-science-context
+    sourceId: sverdlovsk-science
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: context}
+    locator: pp. 1203–1206, especially local response, geographic distribution and discussion
+    note: >-
+      Reconstructs both sides of the episode: local posters, meat controls, household disinfection, antibiotics and
+      vaccination, followed by the victim, animal and wind mapping that showed why infected livestock did not establish
+      a foodborne origin for the lethal human cases.
+  - id: sverdlovsk-pathology-context
+    sourceId: sverdlovsk-pathology
+    relation: supports
+    target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: context}
+    locator: pp. 2291 and 2293–2294
+    note: >-
+      Resolves an important source of confusion in the official account: intestinal hemorrhages were common, but their
+      submucosal distribution showed dissemination through blood after a pulmonary portal of entry rather than primary
+      gastrointestinal infection from food.
   - id: sverdlovsk-rejection-mechanism
     sourceId: sverdlovsk-consultation-rejection
     relation: documents
     target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: mechanism}
+    locator: paragraphs 2–5
+    note: >-
+      Documents the Foreign Ministry's 24 April repetition of the natural-epizootic account and its use as the stated
+      reason to reject expert consultations under Article V.
+  - id: sverdlovsk-archive-mechanism
+    sourceId: sverdlovsk-national-security-archive
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: mechanism}
+    locator: introduction, paragraphs 8–18, and Documents 27–31 discussion
+    note: >-
+      The declassified-document chronology shows how restricted access, official scientific presentations and incomplete
+      evidence kept the foodborne account plausible to some outside specialists until glasnost-era reporting and field
+      access made the competing explanation testable.
   - id: sverdlovsk-three-overtures-consequences
     sourceId: sverdlovsk-three-overtures
     relation: supports
     target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: consequences}
+    locator: attached paper, paragraphs 7–10
+    note: >-
+      Records three formal U.S. approaches by June 1980 and the resulting failure to conduct treaty consultations. The
+      document presents the contemporary U.S. assessment, not by itself final proof of the later aerosol reconstruction.
+  - id: sverdlovsk-pathology-consequences
+    sourceId: sverdlovsk-pathology
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: consequences}
+    locator: p. 2291, introduction; p. 2293, final discussion
+    note: >-
+      Reports that hospital records and autopsy reports were removed while two pathologists privately retained notes and
+      specimens. The authors state that secrecy impeded facts useful for diagnosis, treatment and clinicopathological comparison.
+  - id: sverdlovsk-academies-consequences
+    sourceId: sverdlovsk-national-academies
+    relation: contextualizes
+    target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: consequences}
+    locator: 'section “Sverdlovsk, Russia 1979: Accidental Release,” paragraphs 3–18'
+    note: >-
+      Confirms the lasting evidentiary cost of confiscated records and explains why later case, fatality and incubation
+      estimates depend on partially overlapping reconstructed series.
   - id: sverdlovsk-yeltsin-correction
     sourceId: sverdlovsk-yeltsin
     relation: documents
     target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: institutional-correction}
+    locator: 27 May 1992 chronology entry reproducing the Komsomolskaya Pravda exchange
     note: >-
-      Archive chronology reproduces Yeltsin's 1992 statement that the KGB later admitted Soviet military development caused the outbreak.
+      Reproduces Yeltsin's statement that the KGB admitted Soviet military development caused the outbreak, that weapons
+      development continued after laboratories were moved and that he had signed a decree banning the program.
+  - id: sverdlovsk-archive-correction
+    sourceId: sverdlovsk-national-security-archive
+    relation: documents
+    target: {scope: episode, episodeId: soviet-union-1979-1992, aspect: institutional-correction}
+    locator: introduction, paragraphs 19–27 and 1992–1998 chronology
+    note: >-
+      Places the interview beside Yeltsin's April 1992 decrees and the later site visits, while documenting renewed
+      natural-source denial by a senior Russian defense official in 1998. This supports classifying the correction as partial.

@@ -1,58 +1,239 @@
+schemaVersion: 2
 title: Paraffin nitrate testing as proof of firearm discharge
-claim: A positive paraffin or dermal-nitrate test on a person's hands was treated as evidence that the person had recently fired a gun because the detected nitrates were attributed to gunpowder residue.
-currentUnderstanding: The classic paraffin test is chemically nonspecific. It detects nitrates or nitrites that can come from many sources besides firearm discharge, including fertilizers, tobacco combustion, pharmaceuticals, fireworks, and other materials; genuine shooters can also test negative after washing, environmental loss, or depending on the firearm and ammunition. Modern gunshot-residue analysis uses more specific particle and elemental methods, and even valid GSR findings must be interpreted as contextual evidence rather than proof that a particular person fired a weapon.
+proposition:
+  summary: >-
+    A paraffin or dermal-nitrate test on a person's hands was treated as a reliable indicator of whether that person
+    had recently fired a gun: a positive reaction was attributed to gunpowder residue, while a negative result could
+    be treated as evidence that the person had not fired.
+correction:
+  summary: >-
+    The classic paraffin test is chemically nonspecific. It detects nitrates or nitrites that can come from many
+    sources besides firearm discharge, including fertilizers, tobacco combustion, pharmaceuticals and fireworks;
+    genuine shooters can also test negative after washing, ordinary activity, delay, or because of the firearm and
+    ammunition used. Modern primer-residue analysis uses particle morphology and elemental composition, commonly by
+    SEM/EDS. Even then, a positive finding can reflect discharge, proximity or transfer, and a negative finding does
+    not exclude firing. Results therefore require case context and cannot by themselves identify a shooter.
 category: Forensic science and firearms investigation
-reviewedAt: 2026-08-24
+reviewedAt: 2026-10-03
 impact:
-  summary: The Philippine history is notable because institutional use outlived the scientific and judicial correction by decades. Courts repeatedly described the paraffin test as extremely unreliable and inconclusive, yet police and forensic laboratories continued to use it in investigations, including high-profile police-shooting inquiries in the 2020s.
+  summary: >-
+    Philippine courts and forensic agencies provide an unusually long, internally documented trajectory. The Supreme
+    Court counted a positive paraffin result among the evidence of guilt in 1944 and said in 1981 that such a test
+    proved recent firing. By 1994 it expressly called the method extremely unreliable and rejected both positive and
+    negative results as source-specific proof. Operational use and public source inferences nevertheless continued:
+    police officials cited a positive result in 2021, and in 2026 a Philippine Navy spokesperson treated negative
+    results as clearing Marines of direct participation in a shooting.
   highlights:
     - value: '1941'
-      label: Philippine Constabulary chemists were already using paraffin nitrate testing in criminal cases
-    - value: '1990s'
-      label: Supreme Court jurisprudence repeatedly described the test as extremely unreliable and nonspecific
-    - value: '2023'
-      label: A Philippine Senate inquiry still treated failure to perform paraffin tests after a police shooting as an investigative irregularity
+      label: Philippine Constabulary chemists used the test; the 1944 Supreme Court opinion counted its positive result toward guilt
+    - value: '1994'
+      label: The Supreme Court expressly said the test was extremely unreliable and could not identify firearm discharge as the nitrate source
+    - value: '2026'
+      label: A Navy spokesperson publicly treated negative PNP paraffin results as showing that Marines had not fired
   context:
-    - The contradiction is not that every Philippine court accepted the test as conclusive. On the contrary, the Supreme Court repeatedly warned that nitrate findings cannot establish their source and that negative results cannot exclude firearm use. The institutional problem is that operational police practice continued to treat paraffin testing as a meaningful post-shooting procedure long after those limitations were established.
+    - >-
+      The cited convictions also rested on eyewitnesses, confessions or other evidence. The record does not attribute
+      any conviction solely to a paraffin result; it documents the source-specific meaning institutions assigned to
+      that result.
+    - >-
+      Collection of a test does not by itself show that an institution regarded it as conclusive. The later examples
+      are included because officials publicly drew the disputed inference from positive or negative results, while the
+      2023 Senate notes independently document that paraffin testing still formed part of a police-shooting inquiry.
+    - >-
+      This correction concerns the nitrate-based paraffin test. It does not imply that all modern gunshot-residue
+      analysis is invalid; modern particle analysis is more specific, although its results remain circumstantial.
 episodes:
-  - id: philippines-1941-2023
+  - id: philippines-1941-present
     polity: Philippines
     region: Southeast Asia
     startYear: 1941
-    endYear: 2023
-    periodLabel: 1941–at least 2023
-    strength: policy-basis
-    institutionTypes: [government]
+    endYear: 2026
+    endOpen: true
+    periodLabel: 1941–present (documented through 2026)
+    strength: institutionally-influential
+    institutionTypes:
+      - government
+      - court
     institutions:
       - Philippine Constabulary
       - National Bureau of Investigation (NBI) Forensic Chemistry Division
       - Philippine National Police (PNP) Crime Laboratory / Forensic Group
+      - Supreme Court of the Philippines
+      - Philippine Navy
     institutionalContext: >-
-      Successive Philippine law-enforcement forensic bodies used paraffin casting and diphenylamine nitrate testing in shooting investigations. The Supreme Court increasingly treated the result as legally inconclusive, but operational use persisted: PNP crime laboratories continued performing the test, senior police officials cited positive results in disciplinary and criminal investigations, and a 2023 Senate inquiry recorded a police chief's assertion that officers involved in a fatal shooting should have been paraffin-tested.
+      Successive Philippine law-enforcement laboratories collected paraffin casts and used diphenylamine reactions to
+      detect nitrates on suspects' and officers' hands. Courts admitted the results, and early Supreme Court opinions
+      themselves assigned positive findings source-specific weight. The Supreme Court later rejected that inference,
+      but PNP testing and official interpretations persisted in disciplinary, criminal and police-shooting inquiries.
+      The Navy's 2026 statement shows continued reliance on the opposite inference as well: that a negative test meant
+      personnel had not fired.
     consequences:
-      - Suspects and officers were subjected to paraffin casting during shooting investigations
-      - Positive nitrate findings influenced arrests, detention, charging decisions, and courtroom evidence
-      - Police-shooting accountability procedures continued to expect the test despite longstanding reliability warnings
+      - Suspects, victims and officers were subjected to paraffin casting during shooting investigations
+      - Positive nitrate findings entered criminal trials and were cited in police disciplinary proceedings
+      - Negative findings were publicly used to clear personnel despite the known false-negative problem
+      - Police-shooting accountability inquiries continued to expect the test after the judicial reliability warning
     summary: >-
-      Philippine investigators used the paraffin-diphenylamine test for decades to look for nitrates on suspects' hands and often interpreted a positive result as evidence of recent firearm discharge. Philippine Constabulary chemists were doing so by 1941, and the method later became routine in NBI and PNP forensic work. The Supreme Court repeatedly explained that the test is extremely unreliable as proof of firing a gun because nitrates are nonspecific and shooters can also test negative. Nevertheless, the procedure persisted operationally well into the twenty-first century: the PNP was still publicly relying on positive paraffin results in 2021, and a 2023 Senate inquiry treated the failure to test officers after a fatal police shooting as a significant investigative lapse.
-    sources:
-      - title: People v. Guinoban et al. — G.R. No. 48850
-        url: https://lawphil.net/judjuris/juri1944/jan1944/gr_48850_1944.html
-        publisher: Supreme Court of the Philippines — Lawphil
-        note: Documents Philippine Constabulary use of the paraffin-diphenylamine test in 1941 and expert testimony treating nitrate distribution as a strong indication of firearm discharge.
-      - title: People v. Galvez — G.R. No. 157221
-        url: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/1/41915
-        publisher: Supreme Court of the Philippines E-Library
-        note: Summarizes longstanding Supreme Court jurisprudence that the paraffin test is extremely unreliable and cannot establish that detected nitrates came from firing a gun.
-      - title: Forensic Science — Gunshot Residue Tests
-        url: https://www.ojp.gov/ncjrs/virtual-library/abstracts/forensic-science-gunshot-residue-tests
-        publisher: Office of Justice Programs / NCJRS
-        note: Describes the paraffin test as discredited because of nonspecificity and contrasts it with more specific modern gunshot-residue techniques.
-      - title: Female cop faces dismissal for indiscriminate firing
-        url: https://www.pna.gov.ph/articles/1126275
-        publisher: Philippine News Agency
-        note: Official Philippine government news report from 2021 records the PNP chief citing a positive paraffin test as evidence in an investigation of alleged firearm discharge.
-      - title: Third Public Hearing — Committee on Public Order and Dangerous Drugs and Committee on Justice and Human Rights, 30 August 2023
-        url: https://legacy.senate.gov.ph/publications/LRS/Quick%20Notes/Committee%20on%20Public%20Order-Jemboy%2C%20PNP%20Accountability-August%2030%2C%202023_Continuation.pdf
-        publisher: Senate of the Philippines
-        note: Senate hearing notes record the Navotas police chief's statement that he ordered paraffin testing of personnel identified as having discharged firearms, showing continued institutional expectation of the procedure in 2023.
+      Philippine institutional use is documented from a 1941 Philippine Constabulary examination through PNP testing
+      in 2026. Constabulary and NBI chemists reported nitrate reactions as gunpowder evidence, and the Supreme Court
+      once credited those results as showing recent firearm discharge. The Court had reversed that evidentiary premise
+      by 1994, explaining that nitrates are nonspecific and that genuine shooters can test negative. Yet later police
+      investigations retained the procedure and officials continued to give its outcomes source-specific meaning.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Law-enforcement bodies embedded paraffin casting in post-shooting examinations, forensic laboratories issued
+        nitrate findings, and investigators, disciplinary authorities and courts used those findings as evidence about
+        who had or had not fired a weapon.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 1994–present
+      action: The Supreme Court rejected paraffin results as conclusive proof of firearm discharge, but operational testing and source-specific public interpretations continued.
+      summary: >-
+        Judicial doctrine corrected the central inference and has repeatedly reaffirmed that neither a positive nor a
+        negative result identifies a shooter. The correction remained institutionally incomplete because law-enforcement
+        agencies continued to administer the test and officials still described its results as incriminating or exculpatory.
+sources:
+  - id: guinoban-1944
+    title: People v. Guinoban et al. — G.R. No. 48850
+    url: https://lawphil.net/judjuris/juri1944/jan1944/gr_48850_1944.html
+    publisher: Supreme Court of the Philippines — Lawphil
+  - id: galvez-2006
+    title: People v. Galvez — G.R. No. 157221
+    url: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/1/41915
+    publisher: Supreme Court of the Philippines E-Library
+  - id: ojp-gsr-tests
+    title: Forensic Science — Gunshot Residue Tests
+    url: https://www.ojp.gov/ncjrs/virtual-library/abstracts/forensic-science-gunshot-residue-tests
+    publisher: Office of Justice Programs / NCJRS
+  - id: pna-female-cop-2021
+    title: Female cop faces dismissal for indiscriminate firing
+    url: https://www.pna.gov.ph/articles/1126275
+    publisher: Philippine News Agency
+  - id: senate-jemboy-2023
+    title: Third Public Hearing — Committee on Public Order and Dangerous Drugs and Committee on Justice and Human Rights, 30 August 2023
+    url: https://legacy.senate.gov.ph/publications/LRS/Quick%20Notes/Committee%20on%20Public%20Order-Jemboy%2C%20PNP%20Accountability-August%2030%2C%202023_Continuation.pdf
+    publisher: Senate of the Philippines
+  - id: esteban-1981
+    title: People v. Esteban and Camaya — G.R. Nos. L-27046 and L-27047
+    url: https://lawphil.net/judjuris/juri1981/mar1981/gr_27046_27047_1981.html
+    publisher: Supreme Court of the Philippines — Lawphil
+  - id: barte-1994
+    title: People v. Barte — G.R. No. 103211
+    url: https://lawphil.net/judjuris/juri1994/feb1994/gr_103211_1994.html
+    publisher: Supreme Court of the Philippines — Lawphil
+  - id: nist-primer-gsr-guide
+    title: Guide for Primer Gunshot Residue Analysis by Scanning Electron Microscopy / Energy Dispersive X-Ray Spectrometry
+    url: https://www.nist.gov/system/files/documents/2024/08/30/SWGGSR-Guide-for-Primer-GSR-Analysis-by-SEM-Xray.pdf
+    publisher: Scientific Working Group for Gunshot Residue — hosted by National Institute of Standards and Technology
+  - id: pna-marines-2026
+    title: Marines in Senate standoff negative for gunpowder
+    url: https://www.pna.gov.ph/index.php/articles/1275854
+    publisher: Philippine News Agency
+evidence:
+  - id: paraffin-guinoban-proposition
+    sourceId: guinoban-1944
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Opinion, paraffin-test testimony and assessment of Leonardo Guinoban's guilt
+    note: Documents Philippine Constabulary use of the paraffin-diphenylamine test in 1941 and expert testimony treating nitrate distribution as a strong indication of firearm discharge.
+  - id: paraffin-esteban-proposition
+    sourceId: esteban-1981
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: Opinion, Case of Esteban
+    note: The Supreme Court stated that the NBI paraffin test “proved” that Esteban had fired a gun shortly before his arrest.
+  - id: paraffin-nist-correction
+    sourceId: nist-primer-gsr-guide
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: pp. 28 and 75–76
+    note: >-
+      Explains the paraffin test's false-positive and false-negative problem, identifies SEM/EDS as the preferred modern
+      method, and states that even modern positive or negative GSR findings do not by themselves establish whether a person fired.
+  - id: paraffin-ojp-correction
+    sourceId: ojp-gsr-tests
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: Describes the paraffin test as discredited because of nonspecificity and contrasts it with more specific modern gunshot-residue techniques.
+  - id: paraffin-guinoban-impact
+    sourceId: guinoban-1944
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Opinion, paraffin-test testimony and assessment of Leonardo Guinoban's guilt
+    note: The 1944 opinion counted the positive result among three stated grounds for finding Guinoban guilty, while also relying on a confession and a dying declaration.
+  - id: paraffin-barte-impact
+    sourceId: barte-1994
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    locator: Opinion, discussion of the negative diphenylamine test
+    note: Marks an explicit Supreme Court rejection of both the positive-source inference and the claim that a negative test excludes firing.
+  - id: paraffin-pna-2026-impact
+    sourceId: pna-marines-2026
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    note: Records a Philippine Navy spokesperson treating negative PNP paraffin results as showing Marines were not directly involved in a 2026 shooting and had “come out clean.”
+  - id: paraffin-guinoban-carrier
+    sourceId: guinoban-1944
+    relation: documents
+    target: {scope: episode, episodeId: philippines-1941-present, aspect: carrier}
+    note: Identifies the Philippine Constabulary chemist who performed the tests and the Supreme Court opinion that credited the positive result.
+  - id: paraffin-esteban-carrier
+    sourceId: esteban-1981
+    relation: documents
+    target: {scope: episode, episodeId: philippines-1941-present, aspect: carrier}
+    note: Documents NBI Forensic Chemistry Division testing and the Supreme Court's source-specific interpretation in a later case.
+  - id: paraffin-pna-2021-carrier
+    sourceId: pna-female-cop-2021
+    relation: documents
+    target: {scope: episode, episodeId: philippines-1941-present, aspect: carrier}
+    note: Official Philippine government news report from 2021 records the PNP chief citing a positive paraffin test as evidence in an investigation of alleged firearm discharge.
+  - id: paraffin-pna-2026-carrier
+    sourceId: pna-marines-2026
+    relation: documents
+    target: {scope: episode, episodeId: philippines-1941-present, aspect: carrier}
+    note: Identifies the PNP as the testing body and the Philippine Navy spokesperson as the institutional actor drawing an exculpatory inference.
+  - id: paraffin-guinoban-mechanism
+    sourceId: guinoban-1944
+    relation: documents
+    target: {scope: episode, episodeId: philippines-1941-present, aspect: mechanism}
+    note: Describes paraffin casting, diphenylamine testing, the chemist's comparison with experimental firing and presentation of the result in court.
+  - id: paraffin-pna-2021-mechanism
+    sourceId: pna-female-cop-2021
+    relation: supports
+    target: {scope: episode, episodeId: philippines-1941-present, aspect: mechanism}
+    note: Shows a positive result entering a summary-dismissal and criminal investigation alongside firearms examination.
+  - id: paraffin-senate-mechanism
+    sourceId: senate-jemboy-2023
+    relation: documents
+    target: {scope: episode, episodeId: philippines-1941-present, aspect: mechanism}
+    locator: p. 2, Highlights of the August 29 Hearing
+    note: Senate hearing notes record the Navotas police chief's statement that he ordered paraffin testing of personnel identified as having discharged firearms, showing continued institutional expectation of the procedure in 2023.
+  - id: paraffin-esteban-consequences
+    sourceId: esteban-1981
+    relation: documents
+    target: {scope: episode, episodeId: philippines-1941-present, aspect: consequences}
+    note: Shows an NBI nitrate finding entering a murder appeal and being described by the Supreme Court as proof of recent firing.
+  - id: paraffin-pna-2021-consequences
+    sourceId: pna-female-cop-2021
+    relation: documents
+    target: {scope: episode, episodeId: philippines-1941-present, aspect: consequences}
+    note: The PNP chief characterized the positive result as part of a “very strong case” in a fast-track dismissal proceeding.
+  - id: paraffin-barte-institutional-correction
+    sourceId: barte-1994
+    relation: documents
+    target: {scope: episode, episodeId: philippines-1941-present, aspect: institutional-correction}
+    locator: Opinion, discussion of the negative diphenylamine test
+    note: States that the test is extremely unreliable, identifies common non-firearm nitrate sources and explains why a shooter can test negative.
+  - id: paraffin-galvez-institutional-correction
+    sourceId: galvez-2006
+    relation: documents
+    target: {scope: episode, episodeId: philippines-1941-present, aspect: institutional-correction}
+    note: Summarizes longstanding Supreme Court jurisprudence that the paraffin test is extremely unreliable and cannot establish that detected nitrates came from firing a gun.
+  - id: paraffin-senate-context
+    sourceId: senate-jemboy-2023
+    relation: contextualizes
+    target: {scope: episode, episodeId: philippines-1941-present, aspect: context}
+    locator: p. 2, Highlights of the August 29 Hearing
+    note: >-
+      The notes record conflicting police accounts about whether tests were ordered. They document the procedure's
+      continued expected role, but do not say that the Senate itself considered a missing test scientifically probative.

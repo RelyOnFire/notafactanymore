@@ -1,39 +1,285 @@
+schemaVersion: 2
 title: Biological absorption of Aboriginal people
-claim: Aboriginal people of mixed descent were treated as a population that could be made to disappear through controlled intermarriage and assimilation into white Australia.
-currentUnderstanding: Aboriginal and Torres Strait Islander peoples are not biologically inferior populations awaiting absorption into a superior race. Indigenous identity, kinship, culture, and political belonging cannot be reduced to skin colour or fractions of ancestry, and state control over marriage, children, and family life caused profound and lasting harm.
+proposition:
+  summary: >-
+    Australian officials treated Aboriginal people whom their administrations classified as being of mixed descent as a
+    population whose Aboriginal distinctiveness could and should disappear over generations. State-directed separation,
+    education, employment, marriage and intermarriage were expected to merge their descendants into the white population.
+correction:
+  summary: >-
+    The policy rested on false racial categories and a coercive project of identity erasure. Race and ethnicity are not
+    reliable proxies for genetic ancestry, and neither lighter skin nor mixed ancestry erases Aboriginal identity, kinship,
+    culture or political belonging. Current Australian practice treats Aboriginal and Torres Strait Islander identity as
+    involving descent, self-identification and community acceptance; appearance is not the test. Governments have
+    acknowledged that laws and policies used to separate children, families and communities caused profound harm.
 category: Race and colonial administration
-reviewedAt: 2026-08-23
+reviewedAt: '2026-09-27'
+impact:
+  summary: >-
+    Biological absorption was connected to administrative powers over children, marriage, residence, schooling and work.
+    In Western Australia, the 1936 legislation made the Chief Protector the legal guardian of every person classified as a
+    Native child until age 21, even when a parent or relative was living. At the 1937 intergovernmental conference, A. O.
+    Neville linked absorption to taking charge of children from age six, while the conference directed education and
+    employment toward entry into the white community. In the Northern Territory, Cecil Cook likewise favoured child
+    removal and institutional placement as part of biological absorption. These systems separated families and disrupted
+    kinship, culture and identity across generations.
+  highlights:
+    - value: '1933'
+      label: year Neville publicly promoted gradual biological absorption in Western Australia
+    - value: '1937'
+      label: year the first national-level Aboriginal welfare conference adopted ultimate absorption as an objective
+    - value: '2008'
+      label: year the Australian Parliament apologised for child-removal laws and policies
+  context:
+    - >-
+      This record uses demeaning historical classification terms only when needed to describe the policy and its source
+      documents. Those labels were imposed by colonial administrations and are not accepted descriptions of people.
+    - >-
+      The 1937 conference adopted a shared objective, but it was not a national legislature or a single operating agency.
+      States and the Commonwealth retained separate laws, powers and practices, and implementation differed between
+      jurisdictions.
+    - >-
+      The 1939 endpoint marks the Commonwealth's documented shift in the Northern Territory from Cook's biological model
+      to McEwen's economic and social assimilation policy. It did not end coercive assimilation, institutional control or
+      child removal; those practices continued, and Neville remained Western Australia's Commissioner of Native Affairs
+      until 1940.
+    - >-
+      Child removal had multiple legal rationales and administrative causes across Australia. The evidence connects
+      biological absorption to removal policy and practice, but does not imply that every removed child was taken solely
+      or explicitly for that purpose.
 episodes:
   - id: australia-1933-1939
     polity: Australia
     region: Oceania
     startYear: 1933
     endYear: 1939
+    periodLabel: documented 1933–1939 biological-absorption phase
     strength: policy-basis
-    institutionTypes: [government]
+    institutionTypes:
+      - government
     institutions:
       - Commonwealth Department of the Interior
       - Office of the Chief Protector of Aborigines, Western Australia
       - Office of the Commissioner of Native Affairs, Western Australia
       - Office of the Chief Protector of Aboriginals, Northern Territory
-      - Commonwealth–State Aboriginal Welfare Conference
-    institutionalContext: “Native affairs administration” was not one institution. In Western Australia, A. O. Neville held the statutory office of Chief Protector of Aborigines until 1936 and then Commissioner of Native Affairs; in the Northern Territory, the Chief Protector operated under Commonwealth administration. Senior officials from these systems met at the 1937 Commonwealth–State conference, where absorption was stated as an intergovernmental objective.
+      - Initial Conference of Commonwealth and State Aboriginal Authorities (1937)
+    institutionalContext: >-
+      In 1933 Western Australia's Chief Protector A. O. Neville publicly endorsed gradual absorption and described a
+      Commonwealth policy of encouraging marriages between white men and women classified as being of mixed Aboriginal
+      descent. Western Australia's 1936 law expanded guardianship and marriage controls, and Neville told the 1937
+      conference that ultimate absorption was the principal objective of that legislation. The Commonwealth-convened
+      conference then resolved that people it classified as Aboriginal but not of “full blood” should ultimately be
+      absorbed and that all efforts should be directed to that end. Commonwealth Chief Protector Cecil Cook pursued a
+      related biological policy in the Northern Territory until a 1939 change in policy and administration. These were
+      linked but legally distinct systems rather than one uniform national program.
     consequences:
-      - State control over marriage and family life
-      - Removal and institutionalization of Aboriginal children
-      - Administrative pursuit of biological and cultural assimilation
-      - Long-term disruption of Indigenous kinship, identity, and community continuity
-    summary: "In the 1930s, senior Commonwealth and state officials promoted “biological absorption”: people classified as being of mixed Aboriginal descent would be absorbed into the white population through intermarriage while Aboriginal distinctiveness was expected to disappear. The 1937 Commonwealth–State conference formally resolved that the destiny of people classified as not “full blood” lay in their ultimate absorption and that government efforts should be directed toward that end."
-    sources:
-      - title: Aboriginal Welfare — Initial Conference of Commonwealth and State Aboriginal Authorities, 1937
-        url: https://aiatsis.gov.au/sites/default/files/catalogue_resources/20663.pdf
-        publisher: Commonwealth of Australia / AIATSIS
-        note: Primary conference record containing the formal resolution that Aboriginal people classified as not “full blood” should ultimately be absorbed into the wider population.
-      - title: Bringing Them Home — Chapter 2, National Overview
-        url: https://humanrights.gov.au/bringing-them-home/the-report/part-2-tracing-the-history/chapter-2-national-overview.html
-        publisher: Australian Human Rights Commission
-        note: Describes Neville's biological model of absorption, the 1937 conference, and the relationship between assimilation policy and the removal of Indigenous children.
-      - title: A. O. Neville — Chief Protector of Aborigines
-        url: https://www.supremecourt.wa.gov.au/_files/35th_Annual_Australia_and_New_Zealand_Law_and_History_Society_Conference_Martin_CJ_5_Dec_2016.pdf
-        publisher: Supreme Court of Western Australia
-        note: Records Neville's statutory offices as Chief Protector of Aborigines from 1915–1936 and Commissioner of Native Affairs from 1936–1940.
+      - Removal of Aboriginal children from parents and communities and placement in institutions, missions or employment
+      - Statutory control over marriage, residence, education, employment and family life
+      - Administrative pressure to sever children and adults from Aboriginal kinship, community and culture
+      - Treatment of skin colour and ancestry fractions as determinants of a person's future and social belonging
+      - Long-term loss, grief and intergenerational trauma for survivors, descendants, families and communities
+    summary: >-
+      Senior officials in Western Australia and the Commonwealth-administered Northern Territory promoted a biological
+      theory of absorption: people placed in mixed-descent categories would be separated from Aboriginal communities and,
+      through controlled marriage and assimilation, their descendants would eventually disappear into white Australia.
+      The 1937 conference converted that objective into an intergovernmental resolution and linked it to education,
+      employment and administrative control. The episode ends with the Northern Territory's 1939 policy change, while the
+      successor assimilation regime and removals continued well beyond that date.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        Protection and native-affairs administrations combined racial classification with statutory guardianship,
+        removal, marriage approval, institutional placement, schooling and employment control. The 1937 conference gave
+        these jurisdiction-specific practices a shared absorption objective while leaving administration to each state or
+        territory.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 1939–2008; redress continuing
+      action: >-
+        The Commonwealth replaced biological absorption in the Northern Territory in 1939, the 1997 Bringing Them Home
+        inquiry documented and condemned forcible separation, Western Australia apologised in 1997, and the Australian
+        Parliament apologised in 2008 for the laws and policies of successive governments.
+      summary: >-
+        Correction came in stages. The 1939 Commonwealth change abandoned Cook's specifically biological model but
+        replaced it with another coercive assimilation policy under which removal continued. The 1997 national inquiry and
+        state apology, followed by the 2008 national apology, expressly acknowledged the wrong and the damage caused by
+        government separation of Aboriginal and Torres Strait Islander children. The proposition is institutionally
+        repudiated, although the effects and work of remedy and redress continue.
+sources:
+  - id: absorption-conference-1937
+    title: Aboriginal Welfare — Initial Conference of Commonwealth and State Aboriginal Authorities, 1937
+    url: https://aiatsis.gov.au/sites/default/files/catalogue_resources/20663.pdf
+    publisher: Commonwealth of Australia / AIATSIS
+  - id: absorption-bringing-home-ch2
+    title: Bringing Them Home — Chapter 2, National Overview
+    url: https://humanrights.gov.au/bringing-them-home/the-report/part-2-tracing-the-history/chapter-2-national-overview.html
+    publisher: Australian Human Rights Commission
+  - id: absorption-neville-court-paper
+    title: A. O. Neville — Chief Protector of Aborigines
+    url: https://www.supremecourt.wa.gov.au/_files/35th_Annual_Australia_and_New_Zealand_Law_and_History_Society_Conference_Martin_CJ_5_Dec_2016.pdf
+    publisher: Supreme Court of Western Australia
+  - id: absorption-wa-hansard-1933
+    title: Western Australian Parliamentary Debates — Legislative Assembly, 30 August 1933
+    url: https://www.parliament.wa.gov.au/hansard/daily/lh/1933-08-30/pdf/download
+    publisher: Parliament of Western Australia
+  - id: absorption-naa-nt-records
+    title: Commonwealth Government Records about the Northern Territory
+    url: https://www.naa.gov.au/sites/default/files/2020-02/research-guide-government-records-nt.pdf
+    publisher: National Archives of Australia
+  - id: absorption-nhgri-populations
+    title: Use of Population Descriptors in Genomics
+    url: https://www.genome.gov/about-genomics/policy-issues/population-descriptors-in-genomics
+    publisher: National Human Genome Research Institute
+  - id: absorption-aiatsis-identity
+    title: Proof of Aboriginality
+    url: https://aiatsis.gov.au/proof-aboriginality
+    publisher: Australian Institute of Aboriginal and Torres Strait Islander Studies
+  - id: absorption-national-apology
+    title: Apology to Australia's Indigenous Peoples
+    url: https://pmtranscripts.pmc.gov.au/release/transcript-15758
+    publisher: Department of the Prime Minister and Cabinet — PM Transcripts
+  - id: absorption-wa-redress-2025
+    title: Stolen generations—Redress scheme
+    url: https://www.parliament.wa.gov.au/hansard/daily/lh/2025-05-27/4
+    publisher: Parliament of Western Australia
+evidence:
+  - id: absorption-conference-proposition
+    sourceId: absorption-conference-1937
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: report pp. 3–4; proceedings pp. 10–11 and 20–21
+    note: >-
+      The primary record prints the adopted ultimate-absorption resolution, Neville's explanation that Western Australian
+      legislation pursued absorption, his discussion of taking charge of children from age six and the later conference
+      debate and resolution.
+  - id: absorption-nhgri-correction
+    sourceId: absorption-nhgri-populations
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: sections “Understanding genetic ancestry, race and ethnicity” and “The Big Picture”
+    note: >-
+      Current genomics guidance distinguishes socially created race from genetic ancestry and explains that race and
+      ethnicity are not valid or reliable proxies for ancestry.
+  - id: absorption-aiatsis-correction
+    sourceId: absorption-aiatsis-identity
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: working criteria for confirmation of Aboriginal or Torres Strait Islander heritage
+    note: >-
+      AIATSIS identifies descent, self-identification and community acceptance as the usual working criteria and states
+      that appearance and way of life are not requirements.
+  - id: absorption-bringing-home-impact
+    sourceId: absorption-bringing-home-ch2
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: sections “Merging and absorption” and “Merging becomes assimilation”
+    note: >-
+      The national inquiry connects the absorption theory to forced child separation, control of family bonds and the
+      1937 resolution, then distinguishes Neville's biological model from the later sociocultural assimilation model.
+  - id: absorption-hansard-carrier
+    sourceId: absorption-wa-hansard-1933
+    relation: documents
+    target: {scope: episode, episodeId: australia-1933-1939, aspect: carrier}
+    locator: Legislative Assembly, speech by Frank Wise, 30 August 1933
+    note: >-
+      The parliamentary debate reproduces Neville's June 1933 public statement advocating gradual absorption and reports
+      that the Commonwealth was encouraging selected interracial marriages. It documents the policy's public articulation,
+      not a statute or resolution enacted during that debate.
+  - id: absorption-conference-carrier
+    sourceId: absorption-conference-1937
+    relation: documents
+    target: {scope: episode, episodeId: australia-1933-1939, aspect: carrier}
+    locator: report pp. 3–4; proceedings p. 21
+    note: >-
+      Identifies the Commonwealth and state representatives, records that the Commonwealth convened the meeting and prints
+      the signed resolutions adopted by the conference.
+  - id: absorption-neville-carrier
+    sourceId: absorption-neville-court-paper
+    relation: supports
+    target: {scope: episode, episodeId: australia-1933-1939, aspect: carrier}
+    locator: pp. 3–4 and 28–29
+    note: >-
+      Records Neville's tenure as Chief Protector from 1915 to 1936 and Commissioner from 1936 to 1940, as well as the
+      Western Australian statutory powers over children and marriage. This is a conference address by the then Chief
+      Justice, who states that it expresses his personal views and is not a court judgment.
+  - id: absorption-naa-carrier
+    sourceId: absorption-naa-nt-records
+    relation: supports
+    target: {scope: episode, episodeId: australia-1933-1939, aspect: carrier}
+    locator: chapter 8, pp. 133–136, especially “John McEwen's New Deal, 1939”
+    note: >-
+      The National Archives guide attributes the Northern Territory biological-absorption policy to Chief Protector Cecil
+      Cook and records the 1939 replacement of Cook and abolition of the Chief Protector office.
+  - id: absorption-conference-mechanism
+    sourceId: absorption-conference-1937
+    relation: documents
+    target: {scope: episode, episodeId: australia-1933-1939, aspect: mechanism}
+    locator: report pp. 3–4; proceedings pp. 10–11 and 20–21
+    note: >-
+      Documents the intended use of child control, education, employment and state administration to pursue absorption,
+      while leaving the details of administration to the individual jurisdictions.
+  - id: absorption-neville-mechanism
+    sourceId: absorption-neville-court-paper
+    relation: supports
+    target: {scope: episode, episodeId: australia-1933-1939, aspect: mechanism}
+    locator: pp. 28–29
+    note: >-
+      Summarises the 1936 Western Australian extension of legal guardianship to every person classified as a Native child
+      until age 21 despite a living parent or relative, alongside marriage and other administrative controls.
+  - id: absorption-bringing-home-consequences
+    sourceId: absorption-bringing-home-ch2
+    relation: supports
+    target: {scope: episode, episodeId: australia-1933-1939, aspect: consequences}
+    locator: sections “Protection”, “Merging and absorption” and “Merging becomes assimilation”
+    note: >-
+      Documents extensive protection-board control, deliberate distancing of children from families and communities, and
+      the harms and material conditions associated with institutions and missions.
+  - id: absorption-naa-context
+    sourceId: absorption-naa-nt-records
+    relation: contextualizes
+    target: {scope: episode, episodeId: australia-1933-1939, aspect: context}
+    locator: chapter 8, pp. 133–136
+    note: >-
+      Shows that the 1939 shift was from biological absorption to economic and social assimilation, under which child
+      removal and government control continued; it therefore supports the endpoint qualification rather than an end to
+      coercion.
+  - id: absorption-nhgri-context
+    sourceId: absorption-nhgri-populations
+    relation: contextualizes
+    target: {scope: episode, episodeId: australia-1933-1939, aspect: context}
+    locator: sections “Understanding genetic ancestry, race and ethnicity” and “The Big Picture”
+    note: >-
+      Provides the modern scientific context for evaluating the policy's conflation of race, skin colour, ancestry and
+      identity.
+  - id: absorption-aiatsis-context
+    sourceId: absorption-aiatsis-identity
+    relation: contextualizes
+    target: {scope: episode, episodeId: australia-1933-1939, aspect: context}
+    locator: working criteria for confirmation of Aboriginal or Torres Strait Islander heritage
+    note: >-
+      Provides current Australian institutional context showing why an imposed ancestry fraction or visual classification
+      cannot define Aboriginal identity.
+  - id: absorption-naa-policy-shift
+    sourceId: absorption-naa-nt-records
+    relation: documents
+    target: {scope: episode, episodeId: australia-1933-1939, aspect: institutional-correction}
+    locator: chapter 8, p. 135, “John McEwen's New Deal, 1939”
+    note: >-
+      Documents the 1939 Commonwealth transition away from Cook's biological absorption policy, while also recording that
+      the successor assimilation policy retained removal and control.
+  - id: absorption-apology-correction
+    sourceId: absorption-national-apology
+    relation: documents
+    target: {scope: episode, episodeId: australia-1933-1939, aspect: institutional-correction}
+    locator: House of Representatives speech and apology motion, 13 February 2008
+    note: >-
+      The national apology acknowledges the laws and policies of successive parliaments and governments, child removal and
+      the breaking of families and communities; the accompanying speech expressly identifies the 1937 absorption policy.
+  - id: absorption-wa-redress-correction
+    sourceId: absorption-wa-redress-2025
+    relation: documents
+    target: {scope: episode, episodeId: australia-1933-1939, aspect: institutional-correction}
+    locator: Premier's brief ministerial statement, 27 May 2025
+    note: >-
+      Records Western Australia's 1997 formal apology, renews the apology for separation from family, culture and Country,
+      and announces a state redress scheme, demonstrating both repudiation and continuing remedial work.

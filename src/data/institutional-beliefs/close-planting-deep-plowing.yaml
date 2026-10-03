@@ -1,52 +1,236 @@
+schemaVersion: 2
 title: Close planting and deep plowing
-claim: Very dense planting and unusually deep plowing were treated as broadly applicable techniques that would sharply increase
-  agricultural yields.
-currentUnderstanding: Planting density and tillage have crop-, soil-, and climate-specific optima. More plants per area or
-  deeper tillage do not automatically produce higher yields; excessive density increases competition for light, water, and
-  nutrients, while overly deep or poorly matched tillage can damage soil structure and waste labor.
+proposition:
+  summary: >-
+    Unusually dense planting and deep plowing were treated as generally applicable ways to raise crop yields: deeper
+    tillage would create the soil conditions needed for crowding, while adding more plants per unit of land would turn
+    those conditions into sharply higher production.
+correction:
+  summary: >-
+    Planting density and tillage depth have crop-, soil-, climate- and management-specific optima. Denser stands can
+    increase yield per unit area up to an optimum, but crowding intensifies competition and can reduce reproductive yield;
+    deep tillage can relieve a restrictive compacted layer, but greater depth does not automatically add benefit and can
+    reduce yield when it is poorly matched to field conditions. Neither practice supports a universal “more is better” rule.
 category: Agriculture
-reviewedAt: '2026-08-23'
+reviewedAt: '2026-09-27'
+impact:
+  summary: >-
+    The 29 August 1958 Central Committee directive made deep plowing a national production campaign, prescribed a depth
+    and timetable for nearly all land considered capable of it, and described deep plowing as the basis for close planting.
+    Historical research finds that the campaign consumed large amounts of labor and that excessive or improper deep
+    plowing sometimes reduced soil fertility; economic history identifies deep plowing and close planting pushed beyond
+    rational limits as contributors to reduced output. No defensible national loss or famine-death figure can be assigned
+    to these two practices alone.
+  highlights:
+    - value: 2–3 years
+      label: timetable in the 1958 directive for deep-plowing all arable land considered capable of it
+    - value: more than 1 chi
+      label: directive's general depth standard, with more than 2 chi prescribed for high-yield fields
+    - value: 29 Apr 1959
+      label: date central leadership called rigid planting-density orders useless and harmful
+  context:
+    - >-
+      Close planting and deep tillage are not inherently invalid. The error was turning conditional agronomic practices
+      into escalating, broadly imposed prescriptions detached from crop, soil, water, fertilizer and local experience.
+    - >-
+      The Great Famine and the wider production crisis were multicausal. The cited economic history also identifies
+      excessive procurement, labor diversion, distorted reporting, commune organization, lost incentives, harmful water
+      projects and natural conditions; this card does not attribute the crisis or its mortality to these techniques alone.
+    - >-
+      The directive itself warned against bringing raw subsoil to the surface. That qualification did not make its
+      nationwide depth targets or mass-campaign implementation agronomically self-validating, and historical research
+      documents overextension and improper execution in practice.
 episodes:
-- id: china-1958-1961
-  polity: People's Republic of China
-  region: East Asia
-  startYear: 1958
-  endYear: 1961
-  periodLabel: 1958–1961
-  strength: policy-basis
-  institutionTypes:
-  - government
-  institutions:
-  - Central Committee of the Chinese Communist Party
-  - Ministry of Agriculture of the People’s Republic of China
-  institutionalContext: The strongest identifiable national carrier was the Chinese Communist Party Central Committee. Its
-    29 August 1958 directive declared deep plowing the central agricultural yield-increasing technique and ordered a Party-wide,
-    mass campaign; People’s Daily reported that the directive had been approved at an expanded Politburo meeting. The Ministry
-    of Agriculture participated in central agricultural policy formation and national technical promotion. Provincial party
-    committees, local authorities and people’s communes implemented these campaigns, but those distributed layers are described
-    as machinery rather than listed as if they were a single institution.
-  consequences:
-  - Mandatory or heavily pressured cultivation campaigns
-  - Reduced yields in some regions
-  - Misallocation of agricultural labor
-  summary: During the Great Leap Forward, deep plowing and close planting were elevated into nationally promoted agricultural
-    methods and incorporated into Mao’s agricultural “eight-point charter.” A 29 August 1958 Central Committee directive declared
-    deep plowing the central technique for increasing yields and called for a mass campaign. Authorities pushed these methods
-    far beyond locally appropriate conditions. Historical economic research identifies centrally promoted deep plowing and
-    close planting among the policies that reduced agricultural output, alongside several other major causes of the crisis.
-  sources:
-  - title: 中共中央关于深耕和改良土壤的指示 — 29 August 1958
+  - id: china-1958-1961
+    polity: People's Republic of China
+    region: East Asia
+    startYear: 1958
+    endYear: 1961
+    periodLabel: 1958–1961
+    strength: policy-basis
+    institutionTypes:
+      - government
+    institutions:
+      - Central Committee of the Chinese Communist Party
+      - Ministry of Agriculture of the People's Republic of China
+    institutionalContext: >-
+      The strongest national carrier was the CCP Central Committee. Its 29 August 1958 directive declared deep plowing
+      the central yield-increasing technique and the basis for close planting, ordered all feasible arable land to be
+      deep-plowed within two or three years and every three years thereafter, set national depth standards, and demanded
+      Party-wide and population-wide mobilization. The Ministry of Agriculture was the central administrative carrier for
+      agricultural policy: Alfred L. Chan's institutional history describes how it was transformed into an agent of
+      mobilization under rapidly changing initiatives and impossible targets. Provincial committees, communes and
+      production units implemented the campaign, but they are described as machinery rather than listed as one institution.
+    consequences:
+      - A nationwide, labor-intensive deep-plowing and soil-improvement campaign
+      - Prescriptive planting-density and tillage targets imposed beyond locally appropriate conditions
+      - Reduced soil fertility and crop output in places where deep plowing or crowding was excessive or improper
+      - Displacement of farmers' and production teams' agronomic judgment by top-down campaign orders
+      - Contribution to agricultural losses within the wider, multicausal Great Leap Forward production crisis
+    summary: >-
+      During the Great Leap Forward, the Central Committee converted deep plowing and close planting from conditional
+      techniques into components of a national yield campaign. Its August 1958 directive prescribed unusually deep,
+      repeated tillage across almost all feasible arable land and mobilized the Party and population to carry it out. The
+      Ministry of Agriculture and local campaign apparatus translated central initiatives into implementation. Historical
+      studies document extensive labor mobilization, improper and excessive tillage, soil-fertility damage in some places,
+      and output losses from deep plowing and close planting pushed beyond rational limits.
+    mechanism:
+      kind: administrative-adoption
+      summary: >-
+        The Central Committee issued quantified national tillage targets and a mass-mobilization order; the agricultural
+        administration and local party-commune apparatus organized labor, promoted implements and converted the methods
+        into campaign requirements.
+    institutionalCorrection:
+      status: partial
+      periodLabel: April–July 1959
+      action: >-
+        Central leadership told production teams to determine suitable planting density and prohibited rigid density
+        commands from above.
+      summary: >-
+        Mao's 29 April 1959 intra-party letter expressly rejected the claim that closer planting was always better, called
+        rigid orders from above useless and harmful, and said density had to vary with climate, place, soil, fertilizer,
+        water, seed, crop and field management. The correction was incomplete: official party history says the broader
+        effort to correct Great Leap excesses stopped abruptly after the Lushan Conference, and the reviewed record does
+        not identify a comparably explicit institutional retraction of the deep-plowing directive during this episode.
+sources:
+  - id: close-planting-ccp-1958
+    title: 中共中央关于深耕和改良土壤的指示 — 29 August 1958
     url: https://www.ce.cn/xwzx/gnsz/szyw/200706/05/t20070605_11606403.shtml
     publisher: Xinhua reproduction via China Economic Net
-    note: Reproduces the 29 August 1958 CCP Central Committee directive declaring deep plowing the central agricultural yield-increasing
-      technique and calling for Party-wide and mass mobilization to carry out deep plowing and soil improvement.
-  - title: The Ministry of Agriculture and Rural and Agricultural Policies in 1958
+  - id: close-planting-chan
+    title: The Ministry of Agriculture and Rural and Agricultural Policies in 1958
     url: https://academic.oup.com/book/51913/chapter-abstract/420792907
     publisher: Oxford University Press
-    note: Examines central agricultural policy formation and implementation during the Great Leap Forward and the Ministry
-      of Agriculture’s role in the 1958 campaign.
-  - title: Feeding China — The Experience since 1949
+  - id: close-planting-riskin
+    title: Feeding China — The Experience since 1949
     url: https://academic.oup.com/book/26282/chapter/194517464
     publisher: Oxford University Press
-    note: Identifies deep plowing and close planting as centrally promoted innovations carried beyond rational limits that
-      reduced output during the Great Leap Forward.
+  - id: close-planting-deep-plowing-history
+    title: The Deep Plowing Movement of the “Great Leap Forward”
+    url: https://brill.com/display/book/edcoll/9789004322493/B9789004322493-s005.xml
+    publisher: Agricultural Reform and Rural Transformation in China since 1949 / Brill
+  - id: close-planting-mao-letter
+    title: Intra Party Correspondence — 29 April 1959
+    url: https://www.marxists.org/reference/archive/mao/selected-works/volume-8/mswv8_30.htm
+    publisher: Selected Works of Mao Tse-tung transcription via Marxists Internet Archive
+  - id: close-planting-party-history
+    title: 毛泽东在第一次郑州会议至庐山会议前期纠“左”的思想历程——读这一时段的《毛泽东年谱》
+    url: https://www.dswxyjy.org.cn/n1/2019/0621/c423733-31173604.html
+    publisher: Institute of Party History and Literature of the CPC Central Committee
+  - id: close-planting-density-review
+    title: 'Dividing the pie: A quantitative review on plant density responses'
+    url: https://onlinelibrary.wiley.com/doi/full/10.1111/pce.13968
+    publisher: Plant, Cell & Environment
+  - id: close-planting-tillage-meta
+    title: 'The effect of deep-tillage depths on crop yield: A global meta-analysis'
+    url: https://www.agriculturejournals.cz/pdfs/pse/2023/03/02.pdf
+    publisher: Plant, Soil and Environment
+evidence:
+  - id: close-planting-directive-proposition
+    sourceId: close-planting-ccp-1958
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    locator: §§1–2 and 5
+    note: >-
+      The directive calls deep plowing the central yield-increasing technique and the basis for close planting, prescribes
+      repeated national depth targets, and orders a mass campaign to carry them out.
+  - id: close-planting-density-correction
+    sourceId: close-planting-density-review
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Abstract; §§3.1–3.2 and 8; pp. 1072–1094
+    note: >-
+      Meta-analysis of 334 experiments across 163 species finds that rising density reduces individual growth and seed
+      number; reproductive output per area often has an optimum, and the highest tested density was supra-optimal in 60%
+      of experiments reporting generative biomass.
+  - id: close-planting-tillage-correction
+    sourceId: close-planting-tillage-meta
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    locator: Abstract, p. 105; Results, pp. 111–112; Conclusions, p. 115
+    note: >-
+      Global meta-analysis finds yield responses rose and then fell as tillage became deeper; the optimum varied with
+      climate, soil texture, bulk density and management, and the data showed yield reduction beyond 40 cm.
+  - id: close-planting-riskin-impact
+    sourceId: close-planting-riskin
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: §1.4, p. 29
+    note: >-
+      Identifies centrally promoted deep plowing and close planting pushed beyond rational limits as output-reducing
+      policies, while placing them among numerous natural, political and economic causes of the famine crisis.
+  - id: close-planting-history-impact
+    sourceId: close-planting-deep-plowing-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Abstract; chapter pp. 74–100
+    note: >-
+      Historical study describes nationwide mobilization, special implements and scientific advocacy, and concludes that
+      overextension or improper execution sometimes reduced soil fertility and failed to meet the movement's objectives.
+  - id: close-planting-directive-carrier
+    sourceId: close-planting-ccp-1958
+    relation: documents
+    target: {scope: episode, episodeId: china-1958-1961, aspect: carrier}
+    locator: Heading and §§1–2
+  - id: close-planting-directive-mechanism
+    sourceId: close-planting-ccp-1958
+    relation: documents
+    target: {scope: episode, episodeId: china-1958-1961, aspect: mechanism}
+    locator: §5
+    note: >-
+      Orders political leadership, mobilization of the whole Party and population, a campaign peak before autumn sowing
+      and through winter and spring, unified labor allocation, and improvement of tools.
+  - id: close-planting-chan-carrier
+    sourceId: close-planting-chan
+    relation: supports
+    target: {scope: episode, episodeId: china-1958-1961, aspect: carrier}
+    locator: Abstract; chapter pp. 109–157
+    note: >-
+      Institutional history explains the Ministry of Agriculture's enlarged responsibilities and transformation into a
+      mobilization agent required to improvise under the center's changing initiatives and production goals in 1958.
+  - id: close-planting-history-consequences
+    sourceId: close-planting-deep-plowing-history
+    relation: supports
+    target: {scope: episode, episodeId: china-1958-1961, aspect: consequences}
+    locator: Abstract; chapter pp. 74–100
+  - id: close-planting-riskin-consequences
+    sourceId: close-planting-riskin
+    relation: supports
+    target: {scope: episode, episodeId: china-1958-1961, aspect: consequences}
+    locator: §1.4, p. 29
+    note: >-
+      Supports a contribution to reduced output while expressly situating the techniques among several other causes; it
+      does not provide a technique-specific death toll or national loss estimate.
+  - id: close-planting-mao-correction
+    sourceId: close-planting-mao-letter
+    relation: documents
+    target: {scope: episode, episodeId: china-1958-1961, aspect: institutional-correction}
+    locator: Second question, paragraphs 1–2
+    note: >-
+      The 29 April 1959 letter says planting should be neither too sparse nor too close, rejects “the closer the better,”
+      prohibits rigid orders from above, and makes suitable density conditional on local agronomic factors.
+  - id: close-planting-party-history-correction
+    sourceId: close-planting-party-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: china-1958-1961, aspect: institutional-correction}
+    locator: §§3 and conclusion
+    note: >-
+      Official historical analysis identifies the April letter as an attempt to correct mistaken agricultural practices,
+      but says the broader correction campaign was bounded by continuing support for the Great Leap and stopped abruptly
+      after the Lushan Conference.
+  - id: close-planting-density-context
+    sourceId: close-planting-density-review
+    relation: contextualizes
+    target: {scope: episode, episodeId: china-1958-1961, aspect: context}
+    locator: Abstract; §§3.1–3.2 and 8
+    note: >-
+      Modern evidence explains why a universal density escalation was unsound without implying that all increases in
+      planting density are harmful.
+  - id: close-planting-tillage-context
+    sourceId: close-planting-tillage-meta
+    relation: contextualizes
+    target: {scope: episode, episodeId: china-1958-1961, aspect: context}
+    locator: Abstract, p. 105; Conclusions, p. 115
+    note: >-
+      Modern evidence supports condition-specific deep tillage for compaction while rejecting a universal rule that
+      progressively deeper tillage produces progressively higher yields.

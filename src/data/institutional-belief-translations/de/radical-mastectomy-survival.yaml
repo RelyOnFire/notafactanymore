@@ -1,13 +1,13 @@
 schemaVersion: 2
 locale: de
 entryId: radical-mastectomy-survival
-sourceReviewedAt: '2026-08-27'
+sourceReviewedAt: '2026-09-19'
 title: Radikale Mastektomie als bester Weg zu längerem Überleben bei Brustkrebs
 proposition:
   summary: >-
-    Die möglichst ausgedehnte routinemäßige Entfernung von Brust, Achsellymphknoten und Brustmuskulatur galt bei
-    operablem Brustkrebs als beste Chance auf längeres Überleben, weil man eine schrittweise Ausbreitung der Erkrankung
-    vom lokalen Tumor in die umliegenden Gewebe und Lymphbahnen erwartete.
+    Die routinemäßige radikale Mastektomie mit Entfernung von Brust, Achsellymphknoten und Brustmuskelgewebe galt bei
+    operablem Brustkrebs als beste Chance auf längeres Überleben. Zur Begründung verwies man auf die lokale und regionale
+    Ausbreitung der Erkrankung und darauf, verdächtiges Gewebe in einem Stück zu entfernen.
 correction:
   summary: >-
     Bei vielen Patientinnen mit frühem Brustkrebs verbessert eine ausgedehntere lokale Operation das Gesamtüberleben
@@ -17,8 +17,8 @@ correction:
 impact:
   summary: >-
     Die radikale Mastektomie nach Halsted wurde über weite Teile des 20. Jahrhunderts zur dominierenden Brustkrebsoperation
-    in den USA. Die Logik maximaler lokaler Kontrolle setzte Generationen von Frauen der Entfernung von Brustmuskulatur
-    und umfangreichem Lymphgewebe aus, mit erheblicher Entstellung, Armschwellung und Funktionseinbußen, bevor randomisierte
+    in den USA. Ihre routinemäßige Anwendung setzte Generationen von Frauen der Entfernung von Brustmuskelgewebe und
+    umfangreichem Lymphgewebe aus, mit erheblicher Entstellung, Armschwellung und Funktionseinbußen, bevor randomisierte
     Studien zeigten, dass ein größerer Operationsumfang das Überleben nicht verbesserte.
   context:
     - >-
@@ -30,43 +30,60 @@ impact:
 episodes:
   - id: united-states-1894-1977
     polity: Vereinigte Staaten
+    periodLabel: Johns Hopkins, 1889–1972 (belegte Praxis)
     institutions:
       - The Johns Hopkins Hospital
-      - Amerikanische chirurgische Fachwelt
     institutionalContext: >-
-      William Halsted entwickelte und veröffentlichte seine radikale Mastektomie als Chefchirurg des Johns Hopkins
-      Hospital. Der Eingriff entfernte Brust, Achsellymphknoten und Brustmuskeln en bloc und folgte dem Modell, Brustkrebs
-      breite sich schrittweise durch angrenzendes Gewebe und regionale Lymphbahnen aus. Das Verfahren wurde über Jahrzehnte
-      zum vorherrschenden US-Standard; noch in den 1970er-Jahren konnten Chirurgen, die weniger ausgedehnte Eingriffe
-      vorschlugen, dem Vorwurf einer unzureichenden Behandlung begegnen.
+      William Halsteds Bericht von 1894 beschrieb radikale Operationen, die von Juni 1889 bis Januar 1894 am Johns Hopkins
+      Hospital durchgeführt worden waren. Er schrieb die weite Entfernung von Brust, Achselgewebe und dem größten Teil
+      des großen Brustmuskels in einem Stück vor und verband ein Modell lokaler und regionaler Tumorausbreitung mit der
+      Sorge, geteiltes oder zurückgelassenes Gewebe könne Krankheit im Körper belassen. Eine spätere Studie des Johns
+      Hopkins Hospital zu Behandlungen von 1969 bis 1972 dokumentierte sowohl radikale als auch modifiziert radikale
+      Operationen; die Wahl hing von der Überzeugung des behandelnden Chirurgen ab. Der angezeigte Zeitraum folgt diesen
+      beiden belegten Behandlungskohorten; 1972 ist kein behauptetes Rückzugsdatum. Über Johns Hopkins hinaus wurde die
+      radikale Operation zu einem vorherrschenden US-Standard, und weniger ausgedehnte Eingriffe stießen noch in den
+      1970er-Jahren auf starken Widerstand.
     consequences:
       - Die radikale Mastektomie wurde über weite Teile des 20. Jahrhunderts zur vorherrschenden Brustkrebsoperation in den Vereinigten Staaten
-      - Frauen verloren routinemäßig Brust, Achsellymphknoten und Brustmuskulatur, obwohl sich später für viele Fälle gleich wirksame weniger ausgedehnte Operationen zeigten
+      - Bei der radikalen Operation verloren Frauen Brust, Achsellymphknoten und Brustmuskelgewebe; im späteren Vergleich von Johns Hopkins brachte dieser größere Umfang in keinem klinischen Stadium einen Vorteil beim Fünfjahresüberleben gegenüber der modifiziert radikalen Mastektomie
       - Der Eingriff konnte erhebliche Entstellung, Lymphödeme, Schmerzen, Kraftverlust und eingeschränkte Armbeweglichkeit hinterlassen
-      - Randomisierte Studien ab den 1970er-Jahren zeigten, dass weniger umfangreiche Operationen das Überleben nicht verschlechterten, und erzwangen einen grundlegenden Wandel der chirurgischen Standards
+      - Randomisierte Studien ab den 1970er-Jahren fanden keinen Überlebensnachteil weniger ausgedehnter Verfahren und trugen zu einem allmählichen Wandel der chirurgischen Standards bei
     summary: >-
-      Halsteds Operation am Johns Hopkins Hospital machte aus einem schlüssigen Modell geordneter Tumorausbreitung einen
-      langlebigen chirurgischen Standard. Wenn Brustkrebs sich nach außen durch angrenzende Gewebe und Lymphknoten
-      ausbreitete, schien die möglichst weite Entfernung in einem Block die sicherste Behandlung. Trotz ihrer erheblichen
-      körperlichen Folgen dominierte die radikale Mastektomie jahrzehntelang die US-Therapie. Die 1971 begonnene und
-      1977 veröffentlichte NSABP-Studie B-04 zeigte, dass Frauen nach der radikalen Operation nicht länger lebten als
-      nach weniger ausgedehnten Eingriffen. Europäische Studien zur Brusterhaltung und spätere US-Studien bestätigten
-      diese Lehre und ersetzten routinemäßige Maximalchirurgie durch eine Behandlung, die Ausdehnung und Biologie der Erkrankung berücksichtigt.
+      Halsteds Operation am Johns Hopkins Hospital verband ein Modell lokaler und regionaler Tumorausbreitung mit der
+      veröffentlichten Erwartung einer weiten Entfernung in einem Stück. Institutionelle Autorität und chirurgische
+      Ausbildung trugen dazu bei, die radikale Mastektomie trotz ihrer körperlichen Folgen als langlebigen US-Standard
+      zu verankern. Krankenakten von Johns Hopkins zeigen, dass radikale und modifiziert radikale Operationen in einer
+      Behandlungskohorte von 1969 bis 1972 nebeneinander angewandt wurden; der retrospektive Vergleich der Autoren von
+      1979 empfahl die modifizierte Operation für die Stadien I und II. Unabhängig davon zeigte die 1971 begonnene und
+      1977 veröffentlichte NSABP-Studie B-04 keinen Überlebensvorteil der radikalen Operation. Europäische Studien zur
+      Brusterhaltung und spätere US-Studien erweiterten die Evidenz; Empfehlungen und Praxis verschoben sich allmählich
+      zu Eingriffen, die an Ausdehnung und Biologie der Erkrankung angepasst sind.
     mechanism:
       summary: >-
-        Ein am Johns Hopkins Hospital geprägtes Modell geordneter lokaler Tumorausbreitung wurde zum langlebigen
-        chirurgischen Fachstandard und machte die maximale Entfernung en bloc für viele operable Brustkrebserkrankungen zur erwarteten Operation.
+        Halsteds veröffentlichte Technik setzte Erwartungen an eine weite Entfernung en bloc und forderte Chirurgen auf,
+        den anspruchsvollen Eingriff einzuüben. Die Autorität von Johns Hopkins und seiner chirurgischen Tradition trug
+        zusammen mit der Begründung durch lokale Tumorkontrolle dazu bei, diese Erwartungen als breiteren Fachstandard
+        zu stabilisieren.
     institutionalCorrection:
-      periodLabel: ab 1977
-      action: Randomisierte Studien verdrängten die routinemäßige Halsted-Mastektomie als vermeintlich überlebensmaximierenden chirurgischen Standard.
+      periodLabel: Empfehlungen von 1979; heutige Information von Johns Hopkins
+      action: >-
+        Chirurgen von Johns Hopkins empfahlen 1979 die modifiziert radikale Mastektomie für die Stadien I und II; ein
+        NIH-Gremium erklärte einen muskelerhaltenden Eingriff zum damaligen Standard, und Johns Hopkins bezeichnet die
+        radikale Mastektomie heute als selten.
       summary: >-
-        US-amerikanische und europäische randomisierte Studien zeigten, dass weniger ausgedehnte Operationen das
-        Überleben nicht verschlechterten; die fachlichen Standards verschoben sich von routinemäßiger Maximalchirurgie
-        zu Eingriffen, die an Ausdehnung und Biologie der Erkrankung angepasst sind.
+        Der Vergleich von Johns Hopkins empfahl 1979 die modifiziert radikale Mastektomie für die Stadien I und II,
+        behielt für ausgewählte Fälle im Stadium III aber eine Rolle der radikalen Operation bei der lokalen Kontrolle
+        bei. Im selben Jahr empfahl ein NIH-Konsensgremium bei lokalisierter Erkrankung die muskelerhaltende totale
+        Mastektomie mit Ausräumung der Achsellymphknoten. Johns Hopkins beschreibt die radikale Mastektomie heute als
+        selten und behält sie einer möglichen Beteiligung der Brustmuskeln vor. Diese Quellen belegen einen Wandel der
+        institutionellen Empfehlungen und der heutigen Information, aber kein genaues Datum, an dem Johns Hopkins die
+        routinemäßige Anwendung beendete.
 evidence:
   - id: mastectomy-halsted-proposition
     note: >-
-      Historische Analyse dazu, warum Halsteds ausgeweitete Mastektomie in der amerikanischen Chirurgie dauerhaft institutionalisiert wurde.
+      Historische Analyse dazu, warum Halsteds ausgeweitete Mastektomie in der amerikanischen Chirurgie dauerhaft
+      institutionalisiert wurde. Sie unterscheidet die angeführte Begründung des Eingriffs von den institutionellen
+      Kräften, die zu seinem Fortbestehen beitrugen.
   - id: mastectomy-nci-current-correction
     note: >-
       Aktuelle NCI-Information, wonach die radikale Mastektomie heute nur selten durchgeführt wird, weil die Entfernung
@@ -77,10 +94,93 @@ evidence:
       fachlichen Widerstand gegen weniger radikale Verfahren und das B-04-Ergebnis von 1977 beschreibt: mehr Behinderung
       und Entstellung ohne verlängertes Überleben.
   - id: mastectomy-halsted-carrier
+    note: >-
+      Historische Analyse dazu, warum Halsteds ausgeweitete Mastektomie am Johns Hopkins Hospital in der amerikanischen
+      Chirurgie dauerhaft institutionalisiert wurde; die spätere Krankenhauskohorte liefert die andere Grenze des
+      angezeigten Praxiszeitraums.
   - id: mastectomy-halsted-mechanism
+    note: >-
+      Die Historikerin nennt fachliche Autorität, institutionelles Ansehen und weitere Kräfte für das Fortbestehen des
+      Eingriffs; dies ist eine zugeordnete historische Deutung und keine Aussage über die Motive jedes Chirurgen.
   - id: mastectomy-fisher-consequences
+    note: >-
+      NCI-Geschichte, die die radikale Mastektomie als vorherrschende Operation der späten 1950er-Jahre, den starken
+      fachlichen Widerstand gegen weniger radikale Verfahren und das B-04-Ergebnis von 1977 beschreibt: mehr Behinderung
+      und Entstellung ohne verlängertes Überleben.
   - id: mastectomy-veronesi-correction
     note: >-
       Beschreibt die radikale Mastektomie als vorherrschenden Standard vor den ersten europäischen randomisierten
       Studien zur Brusterhaltung und hält fest, dass spätere US-Studien keinen Überlebensvorteil radikaler Chirurgie
       bei frühem Brustkrebs bestätigten.
+  - id: mastectomy-halsted-1894-proposition
+    note: >-
+      Halsted schrieb die routinemäßige Entfernung des größten Teils des großen Brustmuskels vor, damit verdächtiges
+      Gewebe in einem Stück entfernt werden konnte, und ordnete Behinderungen der erwarteten Lebensrettung unter.
+  - id: mastectomy-halsted-1894-carrier
+    note: >-
+      Der Originalbericht dokumentiert Operationen am Johns Hopkins Hospital von Juni 1889 bis Januar 1894; er belegt
+      den frühen Praxisbeginn, ohne eine ununterbrochene oder einheitliche spätere Anwendung zu behaupten.
+  - id: mastectomy-halsted-1894-mechanism
+    note: >-
+      Halsted veröffentlichte eine vorschreibende Operationstechnik und forderte Chirurgen auf, sie an Leichen einzuüben;
+      dies dokumentiert die Darstellung als erwartete spezialisierte Methode, nicht die Gründe jedes Anwenders.
+  - id: mastectomy-baker-carrier
+    note: >-
+      Die retrospektive Studie von Johns Hopkins dokumentiert 188 radikale und 144 modifiziert radikale Operationen bei
+      Behandlungen von 1969 bis 1972; die Wahl beruhte auf der Überzeugung des Chirurgen und nicht auf dem Krankheitsstadium.
+  - id: mastectomy-baker-correction
+    note: >-
+      Autoren von Johns Hopkins empfahlen nach dem fehlenden Vorteil beim Fünfjahresüberleben die modifiziert radikale
+      Mastektomie für die Stadien I und II; dies war eine retrospektive Veröffentlichung der Abteilungen, keine
+      Krankenhausrichtlinie.
+  - id: mastectomy-halsted-impact
+    note: >-
+      Belegt die historische Reichweite des Eingriffs, seinen Kontext lokaler Tumorkontrolle und sein Fortbestehen;
+      die vorgeschlagenen sozialen und institutionellen Erklärungen bleiben die Deutung der Historikerin.
+  - id: mastectomy-halsted-consequences
+    note: >-
+      Belegt die lange Vorherrschaft der Operation in den USA und ihre fortgesetzte Anwendung um 1980, nicht jeden
+      klinischen Schaden oder ein einheitliches Datum des fachlichen Wandels.
+  - id: mastectomy-patient-consequences
+    note: >-
+      Archivforschung zu Briefen von Halsteds Patientinnen dokumentiert eingeschränkte Beweglichkeit, Armschwellung und
+      Schmerzen als erlebte Operationsfolgen; sie schätzt deren Häufigkeit unter allen Patientinnen nicht.
+  - id: mastectomy-nci-current-context
+    note: >-
+      Aktuelle NCI-Information, wonach die radikale Mastektomie heute nur selten durchgeführt wird, weil die Entfernung
+      der Brustwandmuskulatur und aller Achsellymphknoten die Überlebensdauer nicht verbessert; sie datiert den
+      Praxiswandel bei Johns Hopkins nicht.
+  - id: mastectomy-veronesi-context
+    note: >-
+      Beschreibt die radikale Mastektomie als vorherrschenden Standard vor den ersten europäischen randomisierten
+      Studien zur Brusterhaltung und hält fest, dass spätere US-Studien keinen Überlebensvorteil radikaler Chirurgie
+      bei frühem Brustkrebs bestätigten.
+  - id: mastectomy-hopkins-current-correction
+    note: >-
+      Johns Hopkins beschreibt die radikale Mastektomie heute als selten und nennt eine mögliche Anwendung bei Ausbreitung
+      in die Brustmuskeln; die Seite liefert kein historisches Datum für das Ende der routinemäßigen Anwendung.
+  - id: mastectomy-nci-panel-correction
+    note: >-
+      Der zeitgenössische NCI-Bericht hält fest, dass ein NIH-Gremium 1979 bei lokalisierter Erkrankung empfahl, die
+      Halsted-Mastektomie zugunsten muskelerhaltender Chirurgie zurückzustellen; brusterhaltende Behandlung wurde noch geprüft.
+  - id: mastectomy-acr-correction
+    note: >-
+      Der ACR-Bericht von 2015 beschreibt brusterhaltende Chirurgie mit anschließender Strahlentherapie und fasst
+      ausgereifte Studien ohne Unterschied beim Gesamtüberleben gegenüber Mastektomie für geeignete Patientinnen mit
+      Erkrankung im Stadium I oder II zusammen.
+  - id: mastectomy-acr-context
+    note: >-
+      Die datierte klinische Leitlinie ordnet die späteren Studien und die kombinierte Behandlung ein; sie belegt nicht,
+      wann Johns Hopkins oder andere Einrichtungen die Brusterhaltung übernahmen.
+  - id: mastectomy-halsted-1894-consequences
+    note: >-
+      Der Originalbericht dokumentiert die ausgedehnte Gewebeentfernung und räumt Einschränkungen beim Anheben des Arms
+      ein. Halsteds eigene Verharmlosung der Behinderung gilt nicht als unabhängige Bewertung ihres Schweregrads.
+  - id: mastectomy-patient-impact
+    note: >-
+      Briefe von Patientinnen belegen den Schadensaspekt anhand historischer Erfahrungen mit eingeschränkter Bewegung,
+      Schwellung und Schmerzen; sie quantifizieren keine nationale Belastung.
+  - id: mastectomy-nci-current-impact
+    note: >-
+      Aktuelle NCI-Information stützt die Einschränkung, dass Mastektomien in bestimmten Situationen angemessen bleiben,
+      obwohl die routinemäßige radikale Entfernung heute selten ist.

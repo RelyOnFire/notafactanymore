@@ -6,14 +6,7 @@ import rehypeGlossaryLinks from './src/lib/rehype-glossary-links.mjs';
 export default defineConfig({
   site: 'https://notafactanymore.com',
   output: 'static',
-  integrations: [
-    sitemap({
-      filter: (page) => {
-        const pathname = new URL(page).pathname;
-        return !pathname.startsWith('/preview/') && !pathname.startsWith('/de/preview/');
-      },
-    }),
-  ],
+  integrations: [sitemap()],
   markdown: {
     processor: unified({
       rehypePlugins: [rehypeGlossaryLinks],

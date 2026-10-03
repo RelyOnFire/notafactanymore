@@ -1,71 +1,205 @@
+schemaVersion: 2
 locale: de
 entryId: emancipation-black-deterioration
-sourceReviewedAt: '2026-08-24'
+sourceReviewedAt: '2026-09-27'
 title: Emanzipation als Ursache psychischer und sozialer Verschlechterung Schwarzer Menschen
-claim: >-
-  Emanzipation wurde als Ursache psychischer und sozialer Verschlechterung Schwarzer Menschen behandelt; fehlerhafte
-  Behinderungsstatistiken der US-Volkszählung dienten als quantitative Begründung für die Behauptung, Schwarze Menschen
-  seien unter Sklaverei besser gestellt.
-currentUnderstanding: >-
-  Die Ergebnisse der Volkszählung von 1840 konnten diesen Kausalzusammenhang nicht belegen. Ihre Behinderungsstatistik
-  enthielt schwere Erfassungs- und Tabellenfehler, und die Spalten zu Behinderungen Schwarzer Menschen unterschieden
-  nicht selbst zwischen freien und versklavten Personen. Gemeinden wurden mit psychisch kranken Schwarzen Einwohnern
-  ausgewiesen, obwohl dieselbe Volkszählung dort überhaupt keine Schwarzen Einwohner verzeichnete. Aus diesen fehlerhaften
-  Daten konstruierte regionale Unterschiede waren kein Beleg dafür, dass Emanzipation psychische Erkrankungen,
-  Behinderungen oder sozialen Niedergang verursachte.
+proposition:
+  summary: >-
+    Das Außenministerium der Vereinigten Staaten behandelte regionale Behinderungs- und Sozialdaten aus der
+    Volkszählung von 1840 als Beleg dafür, dass eine Veränderung des Sklavereiverhältnisses, insbesondere durch
+    Emanzipation, den körperlichen, psychischen, moralischen und sozialen Zustand Schwarzer Menschen verschlechtere.
+correction:
+  summary: >-
+    Die Ergebnisse von 1840 konnten diesen Kausalschluss nicht tragen. In den Bevölkerungsspalten wurden freie Schwarze
+    Menschen und versklavte Menschen getrennt gezählt, in den Behinderungsspalten hingegen alle „colored persons“
+    zusammengefasst; der Vergleich zwischen Freiheit und Versklavung war somit ein aus Staaten mit unterschiedlichen
+    Sklavereiregimen konstruierter regionaler Ersatzvergleich. Die veröffentlichten Tabellen enthielten zudem unmögliche
+    Einträge und schwere Fehlklassifikationen, darunter Behinderungsfälle in Orten, für die keine Schwarzen Einwohner
+    verzeichnet waren. Selbst fehlerfreie Aggregatdaten hätten Emanzipation nicht von regionalen Unterschieden bei
+    Erfassung, Diagnose, institutionellem Zugang, Lebensbedingungen und Berichterstattung isoliert. Die historischen
+    Kategorien bündelten außerdem verschiedene Behinderungen und sind keine heutigen Diagnosen. Aus diesen Daten ließ
+    sich nicht gültig folgern, Freiheit verursache Behinderung oder sozialen Niedergang.
 impact:
   summary: >-
-    Fehlerhafte Statistiken der US-Volkszählung von 1840 wurden von Außenminister John C. Calhoun in ein offizielles
-    Argument zugunsten der Sklaverei verwandelt. Im April 1844 verwendete er regionale Vergleiche der
-    Behinderungszahlen in diplomatischer Korrespondenz, um zu behaupten, eine Veränderung des Verhältnisses zwischen
-    Schwarzen und weißen Menschen habe die Lage Schwarzer Menschen verschlechtert. Zeitgenössische Statistiker und
-    Anstaltsärzte wiesen grobe Fehler nach; der Kongress untersuchte die Volkszählung. Das Außenministerium verteidigte
-    die allgemeine Schlussfolgerung dennoch 1845 erneut.
+    Außenminister John C. Calhoun baute die fehlerhaften Zahlen in eine amtliche diplomatische Begründung der
+    Texas-Annexion und der Bewahrung der Sklaverei ein. Sein Schreiben vom 18. April 1844 an den britischen Gesandten
+    Richard Pakenham stellte ein regionales Behinderungsverhältnis von sieben zu eins als Beleg dafür dar, dass eine
+    Veränderung des Sklavereiverhältnisses Schwarzen Menschen schade. Ärzte und Statistiker wiesen grobe Fehler nach;
+    ein Bericht des Repräsentantenhauses und ein Senatsausschuss übernahmen wesentliche Teile dieser Kritik. Calhoun
+    beauftragte dennoch den Beamten, der die Aufbereitung der Volkszählung geleitet hatte, mit einer Verteidigung und
+    erklärte dem Repräsentantenhaus im Februar 1845, das regionale Ergebnis sei nicht widerlegt. Die beantragte
+    umfassende Revision oder eine förmliche Verwerfung unterblieb. Obwohl die Volkszählung von 1850 neu gestaltet wurde,
+    druckte ein amtliches Kompendium von 1854 die Verteidigung des Außenministeriums weiterhin ab und berechnete neue
+    regionale Behinderungsverhältnisse.
   highlights:
-  - value: 1 zu 96 gegenüber 1 zu 672
-    label: Calhouns kombinierte Behinderungsquote für Staaten ohne bzw. mit Sklaverei; keine reine Statistik zu Geisteskrankheit
-  - value: 56 von 94
-    label: angebliche Fälle psychisch kranker Schwarzer Menschen in Maine, die Orten ohne einen einzigen in derselben Volkszählung erfassten Schwarzen Einwohner zugeordnet waren
-  - value: '1844'
-    label: Kongressberichte dokumentierten erhebliche Fehler der sechsten Volkszählung
+    - value: 1 zu 96 gegenüber 1 zu 672
+      label: Calhouns kombinierte Quote für fünf Behinderungskategorien in Staaten ohne bzw. mit Sklaverei, keine reine Statistik zu Geisteskrankheit
+    - value: 56 von 94
+      label: In Maine als Schwarze Geisteskrankheitsfälle geführte Einträge, die ein Anstaltsbericht in Orten ohne Schwarze Einwohner derselben Volkszählung fand
+    - value: 1844–1850
+      label: Bundesstaatliche Kritik führte zu einer neu gestalteten Volkszählung; eine allgemeine Revision oder der Entzug der Sanktion für die Ergebnisse von 1840 unterblieb
   context:
-  - >-
-    Die Volkszählung von 1840 lieferte das fehlerhafte Zahlenmaterial. Zur offiziellen bundesstaatlichen
-    Kausalbehauptung wurde die daraus abgeleitete These 1844, als Außenminister John C. Calhoun die Zahlen in der
-    Diplomatie des Außenministeriums verwendete, um Emanzipation beziehungsweise veränderte Rassenverhältnisse mit
-    Verschlechterung zu verbinden.
-  - >-
-    Die Volkszählung zählte freie Schwarze Menschen und versklavte Menschen in den Bevölkerungsspalten getrennt,
-    fasste sie bei Behinderungen jedoch als „colored persons“ zusammen. Calhouns Verhältnis von 1 zu 96 gegenüber
-    1 zu 672 beruhte daher auf einer regionalen Einteilung der Staaten und nicht auf einem direkten Census-Vergleich
-    der Geisteskrankheitsraten freier und versklavter Schwarzer Menschen.
-  - >-
-    Calhouns Quote kombinierte Taubheit, Stummheit, Blindheit, Idiotie und Geisteskrankheit. Sie war keine
-    Statistik, wonach freie Schwarze Menschen siebenmal häufiger geisteskrank gewesen seien.
+    - >-
+      Die sechste Volkszählung lieferte das Zahlenmaterial; die bundesstaatliche Kausalbehauptung wurde jedoch 1844 und
+      1845 vom Außenministerium vertreten. Der Eintrag schreibt Calhouns Deutung weder allen Zählern noch allen
+      Kongressmitgliedern zu.
+    - >-
+      In den Bevölkerungsspalten trennte die Volkszählung freie Schwarze Menschen von versklavten Menschen, bei
+      Behinderungen fasste sie „colored persons“ zusammen. Calhoun sortierte daher Staaten nach Sklavereiregime, statt
+      ansonsten vergleichbare freie und versklavte Menschen direkt gegenüberzustellen.
+    - >-
+      Calhouns Zahlen 1 zu 96 und 1 zu 672 bündelten Taubheit, Stummheit, Blindheit, Idiotie und Geisteskrankheit. Eine
+      weitere Quote im selben Schreiben nahm zusätzlich Armut und Inhaftierung auf; keine von beiden war eine reine
+      Geisteskrankheitsrate.
+    - >-
+      Zeitgenössische Kritiker wiesen entscheidende innere Widersprüche der Volkszählung nach. Daraus folgt nicht, dass
+      ihre weitergehenden rassischen oder medizinischen Annahmen zutrafen. Ihre Untersuchungen dienen hier als Nachweis
+      der dokumentierten Fehler, nicht als heutige Autorität zu Rasse, Behinderung oder psychischer Gesundheit.
 episodes:
-- id: united-states-1844-1845
-  polity: Vereinigte Staaten
-  institutions:
-  - United States Department of State
-  institutionalContext: >-
-    Die Volkszählung von 1840 lieferte das fehlerhafte Zahlenmaterial, doch das Außenministerium verlieh der
-    Kausalbehauptung institutionelle Autorität. In einem amtlichen Schreiben vom 18. April 1844 an den britischen
-    Gesandten Richard Pakenham argumentierte Außenminister John C. Calhoun anhand der Volkszählung und anderer
-    amtlicher Statistiken, die Lage Schwarzer Menschen verschlechtere sich dort, wo Staaten das mit der Sklaverei
-    verbundene rassische „Verhältnis“ verändert hätten. Er führte stark unterschiedliche regionale Behinderungsquoten
-    als Beleg an. Nachdem statistische und parlamentarische Untersuchungen erhebliche Mängel der Volkszählung
-    aufgezeigt hatten, verteidigte das Außenministerium den allgemeinen Vergleich 1845 dennoch weiter.
-  consequences:
-  - Fehlerhafte Bundesstatistiken wurden in ein offizielles diplomatisches Argument der Vereinigten Staaten zur Verteidigung der Sklaverei eingebaut
-  - Zahlen verliehen einer rassistischen medizinisch-sozialen Behauptung den Anschein quantitativer bundesstaatlicher Bestätigung
-  - Das Außenministerium verteidigte den Vergleich auch nach formellen statistischen Einwänden weiter
-  - Die Episode zeigte, wie Fehler einer Volkszählung in institutionelle rassenpolitische Argumentation überführt werden konnten
-  summary: >-
-    1844 verwendete Außenminister John C. Calhoun die fehlerhaften Behinderungsdaten der sechsten Volkszählung in
-    offizieller Korrespondenz, um zu behaupten, Schwarze Menschen erlitten dort stärkere körperliche, psychische und
-    soziale Verschlechterung, wo Sklaverei abgeschafft oder rassische Verhältnisse verändert worden seien. Die
-    Volkszählung selbst enthielt nicht den häufig ihr zugeschriebenen direkten Vergleich der Geisteskrankheit freier
-    und versklavter Schwarzer Menschen: Die Behinderungsspalten fassten Schwarze Menschen zusammen, und Calhoun
-    konstruierte stattdessen einen regionalen Vergleich zwischen Staaten mit unterschiedlichen Sklavereiregimen.
-    Zeitgenössische Prüfer fanden unmögliche Einträge und grobe Tabellenfehler. Der Kongress untersuchte die
-    Volkszählung, doch das Außenministerium verteidigte die allgemeine Schlussfolgerung noch 1845.
+  - id: united-states-1844-1845
+    polity: Vereinigte Staaten
+    periodLabel: 1844–1845
+    institutions:
+      - United States Department of State
+    institutionalContext: >-
+      Am 18. April 1844 verwendete Außenminister John C. Calhoun die Volkszählung von 1840 in amtlicher Korrespondenz
+      mit dem britischen Gesandten Richard Pakenham. In seiner Argumentation für die Annexion von Texas und gegen die
+      britische Antisklavereipolitik behauptete er, Staaten, die das „alte Verhältnis“ der Sklaverei verändert hätten,
+      hätten Schwarze Menschen in Laster, Armut, Behinderung und Geisteskrankheit getrieben. Nachdem medizinische,
+      statistische und parlamentarische Einwände schwere Mängel offengelegt hatten, beauftragte Calhoun William A.
+      Weaver mit ihrer Prüfung; Weaver hatte die Aufbereitung und Korrektur der Ergebnisse von 1840 geleitet. Calhoun
+      übermittelte Weavers Gegenbericht im Februar 1845 an das Repräsentantenhaus, erklärte das regionale
+      Behinderungsergebnis für unwiderlegt und eine Abkehr von der Sklaverei für einen Fluch statt eines Nutzens für
+      Schwarze Menschen.
+    consequences:
+      - Fehlerhafte Bundesstatistiken wurden Teil eines amtlichen diplomatischen Arguments für die Texas-Annexion und die Bewahrung der Sklaverei
+      - Eine kombinierte Behinderungsquote wurde als quantitativer Beleg einer umfassenden rassischen, moralischen und sozialen Kausalbehauptung dargestellt
+      - Das Außenministerium bekräftigte die Schlussfolgerung, nachdem dokumentierte Fehler parlamentarische Prüfung ausgelöst hatten
+      - Der Kongress lehnte eine allgemeine Revision ab und entzog den Zahlen nicht förmlich seine Sanktion, obwohl er die nächste Volkszählung neu gestaltete
+      - Ein amtliches Volkszählungskompendium von 1854 verbreitete die Verteidigung des Außenministeriums und den regionalen Vergleich weiter
+    summary: >-
+      Calhoun verwandelte die fehlerhaften Behinderungsdaten der Volkszählung von 1840 in ein amtliches
+      sklavenfreundliches Kausalargument. Sein Schreiben von 1844 nutzte einen regionalen Ersatzvergleich und eine
+      Kombination aus fünf Behinderungskategorien, um zu behaupten, Emanzipation beziehungsweise ein verändertes
+      Rassenverhältnis verursache körperlichen, psychischen und sozialen Niedergang. Zeitgenössische Prüfer fanden
+      unmögliche Einträge und zeigten, wie weiße Patienten und andere Zahlen in Behinderungsspalten für Schwarze Menschen
+      geraten waren. Die bundesstaatlichen Reaktionen gingen danach auseinander: Ein Bericht des Repräsentantenhauses
+      und ein Senatsausschuss erkannten schwere Mängel an, und die nächste Volkszählung wurde neu gestaltet; das
+      Außenministerium verteidigte dagegen das Ergebnis, und der Kongress lehnte eine allgemeine Revision oder förmliche
+      Verwerfung ab. Die Episode endete daher mit einer teilweisen Verfahrenskorrektur, nicht mit einer klaren
+      Rücknahme durch die übernehmende Institution.
+    mechanism:
+      summary: >-
+        Das Außenministerium machte eine fehlerbehaftete Volkszählungstabelle durch diplomatische Korrespondenz,
+        parlamentarische Veröffentlichung und eine abwehrende ministerielle Prüfung nach formellen Einwänden zu einer
+        amtlichen Kausalbehauptung.
+    institutionalCorrection:
+      periodLabel: 1844–1850
+      action: Ausschüsse von Repräsentantenhaus und Senat erkannten schwere Mängel an, und der Kongress gestaltete die Volkszählung von 1850 neu; er ordnete jedoch keine allgemeine Revision an und entzog den Ergebnissen von 1840 nicht förmlich seine Sanktion.
+      summary: >-
+        Der Bericht 580 des Repräsentantenhauses erkannte die Ungenauigkeit der Volkszählung an; der getrennte Bericht
+        579 stellte die behaupteten Fehler der dort behandelten Petition hingegen nicht fest. 1845 erklärte der
+        Gemeinsame Bibliotheksausschuss des Kongresses die Kritik der Statistical Association im Allgemeinen für zutreffend
+        und die Fehler für geeignet, das Vertrauen zu zerstören, lehnte aber sowohl eine kostspielige Revision als auch
+        den förmlichen Entzug der parlamentarischen Sanktion ab. 1849 schuf der Kongress ein Census Board; 1850 wurde
+        die gedrängte Haushaltsübersicht durch personenbezogene Erhebungsbögen ersetzt. Die Korrektur blieb unvollständig,
+        weil das Außenministerium die zentrale Kritik zurückwies, das regionale Ergebnis amtlich verteidigt blieb und
+        das Volkszählungskompendium von 1854 weiterhin Verteidigung und Regionalvergleiche wiedergab.
+evidence:
+  - id: emancipation-calhoun-proposition
+    note: >-
+      Calhouns amtliches Schreiben vom 18. April 1844 erklärt, Staaten mit verändertem Sklavereiverhältnis hätten die
+      Lage Schwarzer Menschen verschlechtert, und stützt dies mit aus der Volkszählung gewonnenen Quoten zu Behinderung,
+      Armut und Gefängnis. Der Vergleich 1 zu 96 gegenüber 1 zu 672 auf Seite 52 bündelt Taubheit, Stummheit, Blindheit,
+      Idiotie und Geisteskrankheit.
+  - id: emancipation-census-structure
+    note: >-
+      Das amtliche Fragenverzeichnis zeigt getrennte Alters- und Geschlechtsspalten für freie Schwarze Menschen und
+      versklavte Menschen, gefolgt von einem gemeinsamen Satz Behinderungsspalten für „colored persons“. Behinderung
+      wurde somit nicht unmittelbar nach freiem oder versklavtem Status tabelliert.
+  - id: emancipation-ray-correction
+    note: >-
+      Isaac Ray nennt 94 Schwarze Geisteskrankheitsfälle in Maine und verortet 56 davon in Gemeinden, in denen dieselbe
+      Volkszählung keine Schwarzen Einwohner auswies. Für einige Orte wusste er aus eigener Kenntnis, dass dort kein
+      solcher Patient lebte, und er erklärte die Ergebnisse für außerordentlich ungenau.
+  - id: emancipation-jarvis-correction
+    note: >-
+      Jarvis verfolgt die überhöhten Raten bis zu Einträgen einzelner Gemeinden zurück, darunter 133 weiße Patienten der
+      staatlichen Anstalt in Worcester, die in die Spalte für Schwarze Menschen geraten waren, und führt zahlreiche
+      Behinderungseinträge ohne verzeichnete Schwarze Bevölkerung auf. Er folgert, dass die veröffentlichte Volkszählung
+      keine Aussagen über Geisteskrankheit Schwarzer Menschen in freien Staaten tragen könne.
+  - id: emancipation-asa-correction
+    note: >-
+      Die Eingabe vergleicht handschriftliche Ergebnisse, gedruckte Tabellen, Untersuchungen der Bundesstaaten und
+      örtliche Bevölkerungszahlen. Sie dokumentiert Fehlklassifikationen und innere Widersprüche und fordert den Kongress
+      auf, die Volkszählung zu berichtigen oder ihr die Sanktion zu entziehen, falls eine Korrektur unmöglich sei.
+  - id: emancipation-calhoun-impact
+    note: >-
+      Die Statistik steht in Calhouns Antwort an den britischen Gesandten zur Abschaffung der Sklaverei in Texas und zum
+      Annexionsvertrag. Damit ist ihre Nutzung in amtlicher Diplomatie und nicht nur in privater Kommentierung belegt.
+  - id: emancipation-census-context
+    note: >-
+      Das Census Bureau bezeichnet den Erhebungsbogen als zweiseitigen Bundesfragebogen, beschreibt die Aufsicht des
+      Außenministeriums und die Zählung durch Bundesmarshals und gibt die Bevölkerungs- und Behinderungsüberschriften
+      wieder, aus denen der spätere regionale Ersatzvergleich konstruiert wurde.
+  - id: emancipation-calhoun-carrier
+    note: >-
+      Die Senatsveröffentlichung kennzeichnet den Text als Schreiben des Außenministeriums von Calhoun an Pakenham und
+      verortet die Volkszählungsbehauptung in der amtlichen Korrespondenz der Exekutive über die Texas-Annexion.
+  - id: emancipation-calhoun-mechanism
+    note: >-
+      Das Schreiben zeigt den Mechanismus unmittelbar: Volkszählungszahlen wurden ausgewählt, zu regionalen Quoten
+      verbunden, kausal gedeutet und als Antwort des Außenministeriums an eine ausländische Regierung veröffentlicht.
+  - id: emancipation-calhoun-consequences
+    note: >-
+      Calhoun stellte die statistische Behauptung in die Argumentation, britische Antisklavereipolitik in Texas gefährde
+      die Vereinigten Staaten und die Annexion sei bundesstaatliche Selbstverteidigung. Damit ist die unmittelbare
+      politische Verwendung dokumentiert.
+  - id: emancipation-ray-episode-correction
+    note: >-
+      Der Leiter einer staatlichen Einrichtung widersprach den Bundeszahlen 1844 öffentlich und lieferte die genaue
+      Maine-Prüfung, auf der die Angabe 56 von 94 beruht.
+  - id: emancipation-house-reports-correction
+    note: >-
+      Der amtliche Katalog verhindert die Vermischung zweier Berichte desselben Tages: Bericht 579 behandelte Thomas
+      Earles Petition und erklärte die behaupteten Fehler für nicht festgestellt; Bericht 580 behandelte die Eingabe der
+      Statistical Association und bezeichnete die Volkszählung als ungenau.
+  - id: emancipation-history-context
+    note: >-
+      Diese begutachtete Institutionengeschichte verbindet den Erhebungsbogen von 1840 mit seinen achtzig Spalten mit
+      Spaltenfehlern, schildert Jarvis' Prüfung und Calhouns Weigerung zur Änderung und erläutert das Census Board sowie
+      die personenbezogene Neugestaltung von 1850.
+  - id: emancipation-1854-aftermath
+    note: >-
+      Das Bundeskompendium von 1854 greift die Einwände auf, druckt die ministerielle Verteidigung als „unwiderlegt“ ab,
+      räumt wahrscheinliche Fehler in den nördlichen Quoten von 1830 und 1840 ein und berechnet dennoch neue regionale
+      Behinderungsquoten aus den Zahlen von 1850. Es belegt einen ungeklärten amtlichen Nachlauf, keine direkte Rücknahme
+      oder neue Kausalprüfung.
+  - id: emancipation-jarvis-episode-correction
+    note: >-
+      Der zeitgenössische Zeitschriftenaufsatz liefert eine nachprüfbare Prüfung Gemeinde für Gemeinde und benennt mit
+      weißen Fällen in Spalten für Schwarze Menschen einen konkreten Mechanismus eines Teils der regionalen Differenz.
+  - id: emancipation-asa-memorial-action
+    note: >-
+      Die Statistical Association trug die dokumentierten Fehler förmlich an den Kongress heran und beantragte
+      Berichtigung oder Verwerfung; externe Kritik wurde so zu einer institutionellen Prüfungsfrage.
+  - id: emancipation-senate-response
+    note: >-
+      Der Gemeinsame Bibliotheksausschuss des Kongresses hielt die Kritik der Eingabe im Allgemeinen für zutreffend und die
+      Fehler für geeignet, das Vertrauen in die Volkszählung zu zerstören. Er empfahl Schutzvorkehrungen für 1850, lehnte
+      aber Revision, förmlichen Entzug der Kongresssanktion und weitere Befassung mit der Eingabe ab.
+  - id: emancipation-state-department-defense
+    note: >-
+      Calhouns Übermittlung vom Februar 1845 bezeichnet Weavers ministerielle Prüfung, erklärt das regionale
+      Behinderungsergebnis für unwiderlegt und folgert, eine Veränderung des Sklavereiverhältnisses wäre für Schwarze
+      Menschen ein Fluch statt eines Nutzens.
+  - id: emancipation-state-department-resistance
+    note: >-
+      Das Dokument markiert zugleich die Grenze der Korrektur innerhalb der übernehmenden Institution: Weaver verwirft
+      die Schlussfolgerung des Ausschusses, behandelt die meisten Einwände als irrig oder unerheblich und verteidigt das
+      Gesamtergebnis der Volkszählung.
+  - id: emancipation-history-redesign
+    note: >-
+      Der Aufsatz dokumentiert das Census Board von 1849 und den Wechsel von einer Haushaltsübersicht mit achtzig Spalten
+      zu personenbezogenen Zeilen und getrennten Erhebungsbögen im Jahr 1850: eine Verfahrensreaktion gegen Wiederholung,
+      die jedoch keine allgemeine Revision der Veröffentlichung von 1840 bewirkte.

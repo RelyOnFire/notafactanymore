@@ -10,47 +10,57 @@ correction:
     Effective treatment ends infectiousness, so medical care and follow-up may be necessary without prolonged blanket
     segregation of treated patients. Modern WHO guidance states that a patient stops transmitting the disease once treatment begins.
 category: Medicine, infectious disease and public health
-reviewedAt: '2026-08-25'
+reviewedAt: '2026-09-19'
 impact:
   summary: >-
-    Hawaiʻi, the Philippines and Japan retained compulsory-segregation frameworks after effective chemotherapy had
-    undermined the rationale for blanket isolation. In Hawaiʻi, sulfone therapy arrived in 1946 and later official
-    histories date the end of forced isolation at Kalaupapa to 1949, yet the formal isolation policy survived until
-    1969. In the Philippines, a 1952 law still required bacteriologically positive cases to be isolated and segregated
-    just as sulfones were entering general use; Parliament reversed that default in 1964. In Japan, a later government
-    review found segregation medically indefensible by about 1960, but the legal framework remained until 1996.
+    Hawaiʻi, the Philippines and Japan retained or did not fully dismantle compulsory-segregation frameworks after
+    effective chemotherapy had undermined blanket isolation. Hawaiʻi introduced routine sulfone therapy in 1946;
+    1949 reforms ended new admissions to Kalaupapa and limited quarantine to the infectious stage, while statutory
+    segregation provisions remained until 1969. In the Philippines, a 1952 law still required isolation and segregation
+    of bacteriologically positive people in the same year that DDS became generalized in the leprosaria; Congress
+    reversed that default in 1964. In Japan, the Kumamoto District Court later held that the segregation law was clearly
+    unconstitutional by 1960 at the latest, but the law remained until 1996.
   highlights:
     - value: '1946'
-      label: sulfone treatment reached Hawaiʻi and removed the medical need for blanket isolation
+      label: routine sulfone therapy began in Hawaiʻi, starting a phased retreat from blanket isolation
     - value: 1952–1964
-      label: Philippine law still mandated segregation of bacteriologically positive cases before reversing the default
+      label: Philippine law mandated segregation of bacteriologically positive people before Congress reversed the default
     - value: '1969'
-      label: Hawaiʻi formally abolished its isolation policy
+      label: Hawaiʻi repealed the remaining statutory segregation provisions
     - value: 36 years
-      label: Japan's segregation framework persisted from 1960, when later government review found segregation medically indefensible, until repeal in 1996
+      label: selected Japanese accountability span from the court's latest 1960 threshold to repeal in 1996
   context:
     - >-
-      Untreated leprosy can transmit. The corrected proposition is not “leprosy is never contagious,” but that prolonged
+      Untreated leprosy can transmit. The claim being corrected is not “leprosy is contagious,” but that prolonged
       compulsory segregation remained necessary after effective treatment had made routine blanket isolation medically unjustified.
     - >-
-      Hawaiʻi's 1946–1969 episode does not mean every patient remained continuously confined for those 23 years. Forced
-      isolation eased and is described in later official histories as ending in 1949; 1969 marks formal abolition of the policy.
+      Hawaiʻi's 1946–1969 episode does not mean every patient remained continuously confined for those 23 years. Later
+      legislative history dates the end of forced isolation to 1949; the archival record documents new admissions ending,
+      quarantine narrowing to the infectious stage and increasing travel freedom still subject to health-department controls.
+      The remaining statutory segregation provisions were repealed in 1969.
     - >-
-      The Philippine 1952 law did not require every person with leprosy to be sent specifically to Culion. It required
-      bacteriologically positive cases to be turned over for isolation and segregation within a wider system of government
-      sanitaria and treatment facilities. The 1964 reform did not abolish institutional care either: people whose stage
-      of disease required it could still be hospitalized.
+      Philippine sulfones did not suddenly become universally available in 1952. Rodríguez reported that Promin had been
+      introduced in 1946 but initially had to be bought by patients, that Diasone reached only a limited number, and that
+      DDS became generalized in the leprosaria in 1952. This treatment chronology is not evidence that it caused Republic Act No. 753.
     - >-
-      Republic Act No. 4073 made the Philippine legal reversal unusually explicit in 1964: “persons afflicted with
-      leprosy not to be segregated” except when institutional treatment was required. A 1966 rehabilitation law then
-      stated that sulfone treatment had made prolonged confinement unnecessary for most patients and acknowledged the
-      damage produced by that confinement.
+      The Philippine 1952 law did not require every person with leprosy to be sent specifically to Culion. It assigned
+      bacteriologically positive people to the Director of Hospitals for isolation and segregation within a system of
+      hospitals, sanitaria and other institutions. The 1964 reform retained institutional treatment when medically required.
+    - >-
+      Republic Act No. 4073 made the Philippine reversal explicit in 1964. A 1966 rehabilitation law then stated that
+      sulfone treatment had made prolonged confinement unnecessary for most patients and acknowledged the family,
+      employment and emotional damage associated with that confinement.
+    - >-
+      Japan's 1960 date is a selected accountability threshold, not the beginning of segregation. The later verification
+      report quotes the Kumamoto District Court's holding about the law and ministerial knowledge, then separately analyzes
+      why the 1953 law remained in force until 1996.
 episodes:
   - id: japan-1960-1996
     polity: Japan
     region: East Asia
     startYear: 1960
     endYear: 1996
+    periodLabel: 1960 accountability anchor–1996 repeal
     strength: enforced-doctrine
     institutionTypes:
       - government
@@ -58,76 +68,87 @@ episodes:
     institutions:
       - Ministry of Health and Welfare of Japan
     institutionalContext: >-
-      Japan's segregation policy had much earlier origins. The later government verification process found that by
-      1960 the Health Minister either possessed or could readily obtain the medical knowledge necessary to conclude
-      that segregation was unnecessary. The policy and Leprosy Prevention Law nevertheless remained in force until 1996.
+      Japan's compulsory-segregation policy and the 1953 Leprosy Prevention Law predated this selected interval. The
+      official Summary Version quotes the Kumamoto District Court's later holding that the law was clearly unconstitutional
+      by 1960 at the latest and that the Minister of Health and Welfare then possessed, or could readily obtain, the medical
+      information needed to assess segregation. The verification committee separately examined why the law was not
+      repealed until 1996.
     consequences:
-      - Continued confinement and segregation of people with Hansen's disease
-      - Severe restrictions on family life, residence and social participation
-      - State reinforcement of public stigma that treated patients as continuing dangers
-      - Decades of rights violations after the medical justification for blanket segregation had disappeared
+      - Continuation of a legal and administrative segregation regime after the selected 1960 accountability threshold
+      - Restrictions on leaving sanatoria, family life, residence and social participation documented under the policy
+      - Official reinforcement of fear and stigma that treated patients and former patients as continuing dangers
+      - Cumulative human-rights injuries during the decades before the law's repeal
     summary: >-
-      Japan continued a legal segregation regime for people with Hansen's disease after effective chemotherapy had
-      made blanket isolation medically unnecessary. The government's later verification committee concluded that the
-      need for segregation was already medically indefensible by about 1960 and that official policy reinforced the
-      belief that patients remained dangerous. The Leprosy Prevention Law was not repealed until 1996.
+      Japan maintained the 1953 segregation law after chemotherapy had undermined blanket isolation. The later Kumamoto
+      District Court decision identified 1960 as the latest point by which the law's unconstitutionality was clear and
+      the responsible minister had, or could readily obtain, the relevant medical knowledge. The verification committee
+      later documented the policy's institutional persistence and accumulated harms. The law was not repealed until 1996.
     mechanism:
       kind: enforcement
       summary: >-
-        National law and health administration maintained compulsory segregation and institutional confinement despite
-        the availability of effective chemotherapy and growing medical grounds for community treatment.
+        National law, ministry administration and the sanatorium system continued to authorize and implement segregation.
+        The selected interval tracks delayed institutional change after the court's accountability threshold; it does not
+        imply that every affected person experienced identical confinement throughout those years.
     institutionalCorrection:
       status: corrected
       periodLabel: '1996'
-      action: Japan repealed the Leprosy Prevention Law, ending the legal segregation framework.
+      action: Japan repealed the 1953 Leprosy Prevention Law and ended its statutory segregation framework.
       summary: >-
-        Repeal ended the statutory segregation regime; the later government verification process explicitly concluded
-        that continued segregation had lacked medical justification for decades.
+        Repeal removed the compulsory legal framework. It did not erase the accumulated injuries or mean that prejudice
+        and exclusion ended on the repeal date.
   - id: united-states-hawaii-1946-1969
     polity: United States — Hawaiʻi
     region: North America
     startYear: 1946
     endYear: 1969
+    periodLabel: 1946 treatment transition–1969 repeal
     strength: policy-basis
     institutionTypes:
       - government
       - medical
     institutions:
+      - Board of Hospitals and Settlement, Territory of Hawaiʻi
       - Board of Health, Territory of Hawaiʻi
       - Hawaiʻi Department of Health
     institutionalContext: >-
-      Hawaiʻi's compulsory-isolation regime began in the nineteenth century. Effective sulfone treatment reached Hawaiʻi
-      in 1946 and removed the medical rationale for blanket isolation of treated patients. Later official histories
-      describe forced isolation at Kalaupapa as ending in 1949, while the state's formal isolation policy and legal
-      framework were not abolished until 1969. Practice therefore changed before the institutional framework was formally repealed.
+      Routine sulfone therapy began at Kalaupapa in May 1946, and by mid-1948 about 85 percent of patients were receiving
+      one of the drugs voluntarily. On 1 July 1949, the legislature abolished the Board of Hospitals and Settlement and
+      returned administration to the territorial Board of Health. The new policy ended new admissions to Kalaupapa,
+      shifted new cases toward local hospital care and limited quarantine to the infectious stage. Later legislative
+      history calls 1949 the end of forced isolation. Statutory segregation provisions nevertheless remained until 1969,
+      and health-department controls continued during that interval.
     consequences:
-      - Continued compulsory isolation during the transition after effective treatment became available
-      - Persistence of a formal segregation policy after its blanket medical rationale had collapsed
-      - Continued institutional reinforcement of stigma around people with Hansen's disease
-      - Delayed restoration of ordinary residence and community life as the old isolation system was dismantled
+      - Continued forced isolation during the initial transition from treatment availability to the 1949 reforms
+      - Legal segregation provisions and health-department controls after blanket quarantine had been narrowed
+      - Continuing effects of family separation, restricted movement and institutional stigma, with experiences varying among residents
+      - Delayed statutory restoration of freedom to leave until 1969, despite increasing travel freedom before repeal
     summary: >-
-      Sulfone therapy was introduced in Hawaiʻi in 1946 and made treated Hansen's disease patients noninfectious,
-      eliminating the medical need for blanket isolation. Later Hawaiʻi legislative and National Park Service histories
-      date the end of forced isolation at Kalaupapa to 1949, but the state did not formally abolish its isolation policy
-      until 1969. The episode therefore captures the institutional lag between effective treatment, the practical end
-      of forced isolation, and final repeal of the segregation framework.
+      Hawaiʻi's retreat from compulsory isolation occurred in stages. Sulfone therapy began in 1946. The 1949
+      administrative transfer brought no new Kalaupapa admissions, local treatment arrangements and quarantine limited
+      to the infectious stage; later legislative history identifies that year as the end of forced isolation. Patients
+      nevertheless remained subject to legal and administrative controls, including controlled travel, until the
+      legislature repealed the segregation provisions in 1969.
     mechanism:
       kind: enforcement
       summary: >-
-        Territorial and later state health authorities maintained a formal compulsory-isolation framework for Hansen's
-        disease while treatment and practice progressively made blanket confinement unnecessary.
+        The Board of Hospitals and Settlement administered the program until July 1949, after which the territorial Board
+        of Health and later state health authorities controlled admission, quarantine and movement. Those rules narrowed
+        before the compulsory statutory framework was finally repealed.
     institutionalCorrection:
       status: corrected
-      periodLabel: '1969'
-      action: Hawaiʻi formally abolished its Hansen's disease isolation policy.
+      periodLabel: 1949 operational reform; 1969 statutory repeal
+      action: >-
+        Hawaiʻi ended new admissions to Kalaupapa and limited quarantine to the infectious stage in 1949, then repealed
+        the remaining statutory segregation provisions in 1969.
       summary: >-
-        Forced isolation had already eased after effective sulfone therapy, but the 1969 abolition removed the remaining
-        formal policy framework and completed the institutional reversal.
+        The 1949 reforms changed practice without granting unrestricted mobility to every resident. The 1969 repeal ended
+        the compulsory legal framework while preserving care and residence guarantees for people who chose to remain.
   - id: philippines-1952-1964
     polity: Philippines
     region: Southeast Asia
     startYear: 1952
     endYear: 1964
+    periodLabel: 18 June 1952–18 June 1964
     strength: enforced-doctrine
     institutionTypes:
       - government
@@ -135,46 +156,45 @@ episodes:
     institutions:
       - Philippine Department of Health — Director of Health
       - Bureau and Director of Hospitals
-      - Government sanitaria and leprosy treatment services
     institutionalContext: >-
-      Republic Act No. 753, approved in June 1952, required the Director of Health to subject suspected cases to
-      diagnostic examination and, when a person was bacteriologically positive for Mycobacterium leprae, to turn that
-      person over to the Director of Hospitals for isolation and segregation. The same statutory framework imposed
-      reporting duties and prohibited knowingly concealing a patient in order to prevent discovery and delivery to
-      the health authorities. This was also the period when sulfone therapy became general treatment in the Philippines.
-      On 18 June 1964, Republic Act No. 4073 reversed the legal default: people with leprosy were not to be segregated
-      unless the stage of disease required institutional treatment, with ordinary care available through government
-      skin clinics, rural health units or licensed physicians.
+      Republic Act No. 753, approved on 18 June 1952, empowered the Director of Health to order diagnostic procedures and
+      required bacteriologically positive people to be turned over to the Director of Hospitals for isolation and
+      segregation. It also imposed broad reporting duties, prohibited concealment or harboring intended to evade delivery,
+      and authorized the Director of Hospitals to establish hospitals, sanitaria and other institutions. Rodríguez later
+      reported that Promin had arrived in 1946 but was initially bought by patients, Diasone reached a limited number, and
+      DDS became generalized in the leprosaria in 1952. On 18 June 1964, Republic Act No. 4073 reversed the statutory default.
     consequences:
-      - Mandatory isolation and segregation of bacteriologically positive patients under the 1952 statute
-      - Police, health and community reporting machinery that supported compulsory case detection and delivery
-      - Criminal prohibition on concealing or harboring a patient in order to evade the segregation system
-      - Separation from homes and families and loss of employment or community ties during prolonged confinement
-      - Continued institutional stigma after chemotherapy had made blanket segregation medically unnecessary
-      - Statutory transition in 1964 toward outpatient and community treatment, retaining institutional care only when medically required
+      - Mandatory isolation and segregation of bacteriologically positive people under section 1058 of the 1952 statute
+      - Reporting and delivery machinery involving health authorities, police and peace officers, and other people with reason to suspect a case
+      - Statutory prohibition on concealing, harboring or supporting a person in concealment to prevent delivery to health authorities
+      - Loss of connections with homes and families, employment and emotional security during prolonged confinement, as acknowledged by Congress in 1966
+      - A 1964 transition to government clinics, rural health units or licensed physicians as the default, with institutional care retained when medically required
     summary: >-
-      The Philippines retained a compulsory segregation rule at the moment effective sulfone treatment was becoming
-      broadly available. Republic Act No. 753 still converted a positive bacteriological finding into mandatory isolation
-      and segregation. Twelve years later the legislature explicitly reversed that default, and a 1966 rehabilitation
-      law stated that sulfone therapy had made prolonged confinement unnecessary for most patients while acknowledging
-      the social and psychological damage it had caused.
+      The Philippines retained a compulsory segregation rule in 1952, the same year that DDS became generalized in the
+      leprosaria. Republic Act No. 753 converted a positive bacteriological finding into mandatory isolation and
+      segregation through two named health offices. Twelve years later Congress explicitly reversed that default.
+      Republic Act No. 4829 then acknowledged in 1966 that prolonged confinement had damaged family ties, employment
+      and emotional security.
     mechanism:
       kind: enforcement
       summary: >-
-        Republic Act No. 753 converted bacteriological positivity into mandatory isolation and segregation, backed by
-        reporting duties, anti-concealment provisions and government sanitaria.
+        Republic Act No. 753 assigned diagnostic authority to the Director of Health and required transfer of
+        bacteriologically positive people to the Director of Hospitals for isolation and segregation. Reporting duties,
+        anti-concealment provisions and authority to establish institutions supported that statutory system.
     institutionalCorrection:
       status: corrected
       periodLabel: 18 June 1964
-      action: Republic Act No. 4073 reversed the statutory default and stated that people with leprosy were not to be segregated unless institutional treatment was medically required.
+      action: >-
+        Republic Act No. 4073 stated that people with leprosy were not to be confined in a leprosarium unless the disease
+        required institutional treatment, and repealed the former control provisions.
       summary: >-
-        The legislature replaced blanket compulsory segregation with outpatient and community treatment as the default,
-        preserving institutional care only when the disease itself required it.
+        Congress replaced compulsory segregation as the default with treatment through government skin clinics, rural
+        health units or licensed physicians, while retaining institutional care when medically required.
 sources:
   - id: leprosy-japan-final-report
-    title: Verification Committee Concerning Hansen's Disease — Final Report
-    url: https://www.mhlw.go.jp/english/policy/health/01/pdf/01.pdf
-    publisher: Ministry of Health, Labour and Welfare of Japan
+    title: Final Report of the Verification Committee Concerning Hansen's Disease Problem — Summary Version
+    url: https://www.mhlw.go.jp/topics/bukyoku/kenkou/hansen/kanren/dl/4e.pdf
+    publisher: Verification Committee / Japan Law Foundation; hosted by the Ministry of Health, Labour and Welfare
   - id: leprosy-who
     title: Leprosy — Fact sheet
     url: https://www.who.int/news-room/fact-sheets/detail/leprosy
@@ -188,7 +208,7 @@ sources:
     url: https://www.nps.gov/kala/learn/historyculture/hansensdisease.htm
     publisher: National Park Service
   - id: leprosy-hawaii-legislature
-    title: S.B. No. 697, C.D. 1 — Kalaupapa Memorial and history
+    title: S.B. No. 697, C.D. 1 — Relating to Kalaupapa Month
     url: https://data.capitol.hawaii.gov/sessions/session2021/Bills/SB697_CD1_.HTM
     publisher: Hawaiʻi State Legislature
   - id: leprosy-hawaii-doh
@@ -201,119 +221,260 @@ sources:
     publisher: Supreme Court of the Philippines E-Library
   - id: leprosy-ph-ra4073
     title: Republic Act No. 4073 — Further Liberalizing the Treatment of Leprosy
-    url: https://ldr.senate.gov.ph/legislative-issuance/republic-act-no-4073
-    publisher: Senate of the Philippines Legislative Reference Bureau
+    url: https://lawphil.net/statutes/repacts/ra1964/ra_4073_1964.html
+    publisher: The Lawphil Project / Arellano Law Foundation
   - id: leprosy-ph-ra4829
     title: Republic Act No. 4829 — Re-establishment and Rehabilitation of Hansenites and Their Families
     url: https://lawphil.net/statutes/repacts/ra1966/ra_4829_1966.html
-    publisher: The Lawphil Project / Supreme Court of the Philippines
+    publisher: The Lawphil Project / Arellano Law Foundation
   - id: leprosy-ph-congress
-    title: Therapy — Seventh International Congress of Leprology proceedings
-    url: https://leprev.ilsl.br/pdfs/1959/v30n1/pdf/pdf_full/v30n1.pdf
-    publisher: Leprosy Review
+    title: J. N. Rodriguez — Relapses after Sulfone Therapy in Leprosy of the Lepromatous Type
+    url: https://www.archhdjp.jp/pdf_save/rai1958_all.html
+    publisher: Transactions of the VIIth International Congress of Leprology / Tofu Association; scan hosted by the National Institute of Infectious Diseases Hansen's Disease Research Center
   - id: leprosy-ph-eversley
     title: Historical Background — Eversley Childs Sanitarium
     url: https://ecs.doh.gov.ph/transparency/about-us/historical-background
     publisher: Philippine Department of Health
+  - id: leprosy-nps-historic-resource-study
+    title: 'Exile in Paradise: The Isolation of Hawaiʻi’s Leprosy Victims and Development of Kalaupapa Settlement, 1865 to the Present'
+    url: https://www.npshistory.com/publications/kala/hrs.pdf
+    publisher: U.S. National Park Service
 evidence:
   - id: leprosy-japan-proposition
     sourceId: leprosy-japan-final-report
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: Summary Version, pp. 9–12, 43–50
     note: >-
-      Official government verification report concluding that chemotherapy had made segregation unnecessary, that by
-      1960 the Health Minister had sufficient medical information to judge the necessity of segregation, and that the
-      segregation framework persisted until repeal in 1996.
+      The official Summary Version quotes the Kumamoto District Court's 1960 legal and ministerial-knowledge findings,
+      then separately analyzes the policy's continuation until repeal. It does not make 1960 the policy's starting date.
   - id: leprosy-who-correction
     sourceId: leprosy-who
     relation: supports
     target: {scope: belief, aspect: correction}
+    locator: Transmission; Treatment
     note: >-
-      Current WHO evidence says transmission follows prolonged close contact with an untreated case rather than casual
-      contact, and that a patient stops transmitting the disease upon initiation of treatment.
+      Current WHO guidance says transmission follows prolonged close contact with an untreated case, casual contact does
+      not spread the disease, and a patient stops transmitting upon treatment. It is not a source for historical sulfone access.
   - id: leprosy-hawaii-impact
     sourceId: leprosy-hawaii-legislature
     relation: supports
     target: {scope: belief, aspect: impact}
+    locator: Section 1, paragraph beginning “In 1946”
     note: >-
-      Legislative history states that sulfone treatment introduced in 1946 removed the need for isolation, forced
-      isolation at Kalaupapa ended in 1949, and the state's official isolation policy did not end until 1969.
+      Hawaiʻi legislative history gives the 1946 treatment, 1949 forced-isolation and 1969 official-policy milestones;
+      the archival study supplies the operational detail behind those distinct dates.
   - id: leprosy-japan-carrier
     sourceId: leprosy-japan-final-report
     relation: documents
     target: {scope: episode, episodeId: japan-1960-1996, aspect: carrier}
+    locator: Summary Version, pp. 9–12, 43–50
+    note: >-
+      These sections identify the Minister and Ministry of Health and Welfare's responsibility within the continued
+      national policy and examine the delayed repeal; the 1960 holding itself is the court's.
   - id: leprosy-japan-mechanism
     sourceId: leprosy-japan-final-report
     relation: documents
     target: {scope: episode, episodeId: japan-1960-1996, aspect: mechanism}
+    locator: Summary Version, pp. 43–50
+    note: >-
+      The committee analyzes how national law, administration, medical actors and sanatoria sustained the policy. This
+      documents an institutional mechanism without asserting identical confinement for every person in every year.
   - id: leprosy-japan-consequences
     sourceId: leprosy-japan-final-report
     relation: supports
     target: {scope: episode, episodeId: japan-1960-1996, aspect: consequences}
+    locator: Summary Version, pp. 56–63
+    note: >-
+      The damage survey documents restrictions, separation, stigma and cumulative life injuries under compulsory
+      segregation. Individual experiences varied, so the episode does not turn the survey into a universal biography.
   - id: leprosy-japan-correction
     sourceId: leprosy-japan-final-report
     relation: documents
     target: {scope: episode, episodeId: japan-1960-1996, aspect: institutional-correction}
+    locator: Summary Version, pp. 9–12, 43–50
+    note: >-
+      The report records the 1996 repeal and investigates why it was delayed. Repeal corrected the statutory framework,
+      not the accumulated damage or all later discrimination.
   - id: leprosy-hawaii-carrier
     sourceId: leprosy-nps-brief
-    relation: documents
-    target: {scope: episode, episodeId: united-states-hawaii-1946-1969, aspect: carrier}
+    relation: contextualizes
+    target: {scope: episode, episodeId: united-states-hawaii-1946-1969, aspect: context}
+    locator: The 20th Century, 1945–Today
     note: >-
-      Official NPS history states that sulfone drugs were introduced in Hawaiʻi in 1946, treated patients were no longer
-      contagious and there was no further need for isolation, while forced-quarantine laws were abolished in 1969.
+      NPS describes the 1946 treatment transition and 1969 abolition of forced-quarantine laws. It does not supply the
+      1949 date or the complete administering-body sequence, which the legislative and archival sources provide.
   - id: leprosy-hawaii-mechanism
     sourceId: leprosy-nps-history
     relation: documents
     target: {scope: episode, episodeId: united-states-hawaii-1946-1969, aspect: mechanism}
+    locator: Treatment and policy history
     note: >-
-      Official history describes effective sulfone treatment and the long interval before Hawaiʻi abolished its isolation policy in 1969.
+      The official history links effective sulfone treatment to the long transition before legal repeal in 1969; the
+      archival study supplies the specific 1949 administrative transfer and narrowed quarantine rules.
   - id: leprosy-hawaii-consequences
     sourceId: leprosy-hawaii-legislature
     relation: supports
     target: {scope: episode, episodeId: united-states-hawaii-1946-1969, aspect: consequences}
+    locator: Section 1
+    note: >-
+      The legislative account documents forced removal and isolation and distinguishes the 1949 and 1969 milestones.
+      It is not used as a complete history of the intervening administrative controls.
   - id: leprosy-hawaii-correction
     sourceId: leprosy-hawaii-doh
     relation: documents
     target: {scope: episode, episodeId: united-states-hawaii-1946-1969, aspect: institutional-correction}
+    locator: Brief History; Kalaupapa Transition Timeline, 1969
     note: >-
-      Current state health page records that the isolation order was lifted in 1969 after effective antibiotic treatment
-      had transformed Hansen's disease care.
+      The state health department records the 1969 lifting of the isolation order and repeal of segregation provisions,
+      together with continued care and residence guarantees for former patients.
   - id: leprosy-ph-proposition
     sourceId: leprosy-ph-ra753
     relation: documents
     target: {scope: belief, aspect: proposition}
+    locator: Section 1, amended section 1058
     note: >-
-      Primary 1952 statute. Section 1058 required bacteriologically positive persons to be turned over to the hospital
-      authorities for isolation and segregation; related sections created reporting and anti-concealment machinery.
+      The primary 1952 statute required bacteriologically positive people to be turned over to the Director of Hospitals
+      for isolation and segregation. It does not establish the separate treatment chronology.
   - id: leprosy-ph-carrier
     sourceId: leprosy-ph-eversley
-    relation: documents
-    target: {scope: episode, episodeId: philippines-1952-1964, aspect: carrier}
+    relation: contextualizes
+    target: {scope: episode, episodeId: philippines-1952-1964, aspect: context}
+    locator: Historical Background
     note: >-
-      Official institutional history describing the regional sanitarium model as a departure from compulsory segregation
-      of all bacteriologically positive cases in Culion and the later shift toward domiciliary management under Republic Act No. 4073.
+      This official institutional history describes the regional sanitarium model and later domiciliary-care transition.
+      It supplies context, not proof of the national statutory carriers named directly in Republic Act No. 753.
   - id: leprosy-ph-mechanism
     sourceId: leprosy-ph-ra753
     relation: documents
     target: {scope: episode, episodeId: philippines-1952-1964, aspect: mechanism}
+    locator: Section 1, amended sections 1058 and 1061–1063
+    note: >-
+      The statute assigns diagnostic and transfer duties, creates reporting and anti-concealment rules, and authorizes
+      institutions. It documents legal machinery, not the measured frequency of enforcement.
   - id: leprosy-ph-consequences
     sourceId: leprosy-ph-ra4829
     relation: supports
     target: {scope: episode, episodeId: philippines-1952-1964, aspect: consequences}
+    locator: Section 2
     note: >-
-      1966 statute explicitly stating that sulfone treatment had made prolonged confinement unnecessary except for
-      advanced or institutional-care cases and describing loss of family ties, jobs and emotional security caused by prolonged confinement.
+      Congress's 1966 policy declaration acknowledges that prolonged confinement severed connections with homes and
+      families, left dischargeable patients jobless and caused emotional insecurity. It does not document the 1952 machinery.
   - id: leprosy-ph-treatment-context
     sourceId: leprosy-ph-congress
     relation: contextualizes
     target: {scope: episode, episodeId: philippines-1952-1964, aspect: context}
+    locator: Rodriguez, printed p. 233
     note: >-
-      Conference record of Philippine leprologist J. M. Rodriguez stating that sulfones were not in general use in the
-      Philippines until 1952, supporting the episode's treatment-era starting point.
+      J. N. Rodriguez reported that Promin arrived in 1946 but initially had to be purchased by patients, Diasone reached
+      only a limited number, and DDS became generalized in the leprosaria in 1952. This does not establish universal access.
   - id: leprosy-ph-correction
     sourceId: leprosy-ph-ra4073
     relation: documents
     target: {scope: episode, episodeId: philippines-1952-1964, aspect: institutional-correction}
+    locator: Sections 1–2; approved 18 June 1964
     note: >-
-      Primary 1964 correction. The amended section is headed “Persons afflicted with leprosy not to be segregated” and
-      permits confinement only when the disease requires institutional treatment.
+      The primary 1964 statute says people with leprosy are not to be confined in a leprosarium unless the disease requires
+      institutional treatment and repeals the former control provisions.
+  - id: leprosy-japan-impact
+    sourceId: leprosy-japan-final-report
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Summary Version, pp. 9–12, 43–50
+    note: >-
+      Supports the Japan component of the impact chronology: the court's latest 1960 threshold, ministerial knowledge and
+      the 1996 repeal. It does not support the Hawaiʻi or Philippine components.
+  - id: leprosy-ph-ra753-impact
+    sourceId: leprosy-ph-ra753
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Section 1, amended section 1058
+    note: >-
+      Supports the Philippine impact statement that compulsory isolation and segregation remained statutory in 1952.
+      It does not establish that year's treatment availability.
+  - id: leprosy-ph-treatment-impact
+    sourceId: leprosy-ph-congress
+    relation: contextualizes
+    target: {scope: belief, aspect: impact}
+    locator: Rodriguez, printed p. 233
+    note: >-
+      Supports only the treatment-era synchronization: DDS became generalized in the leprosaria in 1952. The source does
+      not say that treatment caused the statute or was universally available.
+  - id: leprosy-ph-ra4073-impact
+    sourceId: leprosy-ph-ra4073
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    locator: Sections 1–2; approved 18 June 1964
+    note: >-
+      Supports the 1964 reversal and institutional-treatment exception in the Philippine impact account.
+  - id: leprosy-japan-who-context
+    sourceId: leprosy-who
+    relation: contextualizes
+    target: {scope: episode, episodeId: japan-1960-1996, aspect: context}
+    locator: Transmission; Treatment
+    note: >-
+      Provides current clinical context for why blanket prolonged segregation is unnecessary after effective treatment;
+      it is not evidence for Japan's historical adoption or repeal dates.
+  - id: leprosy-ph-who-context
+    sourceId: leprosy-who
+    relation: contextualizes
+    target: {scope: episode, episodeId: philippines-1952-1964, aspect: context}
+    locator: Transmission; Treatment
+    note: >-
+      Provides current clinical context for transmission and treatment while leaving historical sulfone timing to
+      Rodríguez and the legal chronology to the statutes.
+  - id: leprosy-hawaii-study-carrier
+    sourceId: leprosy-nps-historic-resource-study
+    relation: documents
+    target: {scope: episode, episodeId: united-states-hawaii-1946-1969, aspect: carrier}
+    locator: Printed pp. 548–549
+    note: >-
+      The 1985 NPS study identifies the Board of Hospitals and Settlement, its abolition on 1 July 1949, and transfer of
+      the program to the territorial Board of Health's Division of Hospitals and Settlement.
+  - id: leprosy-hawaii-study-mechanism
+    sourceId: leprosy-nps-historic-resource-study
+    relation: documents
+    target: {scope: episode, episodeId: united-states-hawaii-1946-1969, aspect: mechanism}
+    locator: Printed pp. 527–528, 548–549, 564, 567
+    note: >-
+      The study documents routine therapy, the 1949 administrative and quarantine changes, later controlled travel and
+      the 1969 legal change. It supports a phased mechanism rather than uniform confinement through the whole interval.
+  - id: leprosy-hawaii-study-consequences
+    sourceId: leprosy-nps-historic-resource-study
+    relation: supports
+    target: {scope: episode, episodeId: united-states-hawaii-1946-1969, aspect: consequences}
+    locator: Printed pp. 564, 567–568
+    note: >-
+      The study describes increasing travel freedom under health-department controls, freedom to leave after 1969 and
+      residents' continuing memories of forced isolation and family separation. It does not imply one uniform experience.
+  - id: leprosy-hawaii-study-correction
+    sourceId: leprosy-nps-historic-resource-study
+    relation: documents
+    target: {scope: episode, episodeId: united-states-hawaii-1946-1969, aspect: institutional-correction}
+    locator: Printed pp. 548–549, 564, 567
+    note: >-
+      The archival chronology distinguishes the 1949 operational reforms from the 1969 end of the legal isolation regime.
+  - id: leprosy-ph-ra753-carrier
+    sourceId: leprosy-ph-ra753
+    relation: documents
+    target: {scope: episode, episodeId: philippines-1952-1964, aspect: carrier}
+    locator: Section 1, amended sections 1058, 1063 and 1066
+    note: >-
+      Republic Act No. 753 directly assigns functions to the Director of Health and Director of Hospitals. Its facilities
+      form a distributed statutory system and are not presented as a third aggregate institution.
+  - id: leprosy-ph-ra753-consequences
+    sourceId: leprosy-ph-ra753
+    relation: documents
+    target: {scope: episode, episodeId: philippines-1952-1964, aspect: consequences}
+    locator: Section 1, amended sections 1058 and 1061–1062
+    note: >-
+      Supports the mandatory-isolation, reporting and statutory anti-concealment bullets. The inspected provisions do not
+      by themselves establish a criminal penalty.
+  - id: leprosy-ph-ra4073-consequences
+    sourceId: leprosy-ph-ra4073
+    relation: documents
+    target: {scope: episode, episodeId: philippines-1952-1964, aspect: consequences}
+    locator: Sections 1–2
+    note: >-
+      Supports the 1964 transition to clinic, rural-health-unit or licensed-physician treatment while retaining
+      institutional care when the disease stage required it.

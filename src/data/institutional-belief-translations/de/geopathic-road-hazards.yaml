@@ -1,7 +1,7 @@
 schemaVersion: 2
 locale: de
 entryId: geopathic-road-hazards
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: '2026-09-15'
 title: Geopathische Kraftfelder als Verkehrssicherheitsrisiko
 proposition:
   summary: >-
@@ -9,8 +9,8 @@ proposition:
     für Beeinträchtigungen von Autofahrern und Unfallhäufungen; energetische Eingriffe sollten diese Gefahr neutralisieren können.
 correction:
   summary: >-
-    Wissenschaftliche Prüfungen haben nicht gezeigt, dass Wünschelrutengehen die behauptete Gefahr zuverlässig erkennen
-    kann. Sinkende Unfallzahlen nach einem Eingriff belegen für sich allein nicht, dass der energetische Eingriff die
+    Die berichteten Verkehrssicherheitsmaßnahmen belegen weder die behauptete radiästhetische Gefahr noch eine
+    zuverlässige Methode zu ihrer Erkennung oder eine wirksame energetische Behandlung. Sinkende Unfallzahlen nach einem Eingriff belegen für sich allein nicht, dass der energetische Eingriff die
     Veränderung verursacht hat, insbesondere wenn konventionelle Verkehrssicherheitsmaßnahmen, abweichende Unfallzahlen
     und normale statistische Schwankungen ebenfalls mögliche Erklärungen sind.
 episodes:
@@ -49,10 +49,10 @@ evidence:
     note: >-
       Zeitgenössischer Bericht von 2003, der einen ASFINAG-Sprecher zur bisherigen Nutzung von Wünschelrutengängern,
       Quarzsteinen und Magnetfeldscheiben, zum behaupteten Wirkmechanismus auf Fahrer und zu Plänen für die S16 zitiert.
-  - id: geopathic-usgs-correction
+  - id: geopathic-usgs-context
     note: >-
-      Fasst das Scheitern von Wünschelrutenbehauptungen bei wissenschaftlicher Prüfung zusammen und verweist auf gewöhnliche
-      geologische und hydrologische Verfahren statt radiästhetischer Schlussfolgerungen.
+      Behandelt die wissenschaftliche Prüfung der Wassersuche mit Wünschelruten und geologische sowie hydrologische
+      Erklärungen scheinbarer Erfolge. Dies ist Hintergrund zur Methode, keine Studie zur behaupteten Straßengefahr oder ihrer Behandlung.
   - id: geopathic-zeit-correction
     note: >-
       Dokumentiert abweichende Polizeizahlen und gleichzeitige konventionelle Sicherheitsmaßnahmen und zeigt damit, warum
@@ -62,6 +62,10 @@ evidence:
       Dokumentiert die eigene Einräumung der ASFINAG, dass konventionelle Änderungen wie ein neuer Straßenbelag scheinbare
       Verbesserungen erklären könnten, die den esoterischen Maßnahmen zugeschrieben wurden.
   - id: geopathic-standard-carrier
+    note: >-
+      Zeitgenössischer Bericht von 2003, der einen ASFINAG-Sprecher zur bisherigen Nutzung von
+      Wünschelrutengängern, Quarzsteinen und Magnetfeldscheiben, zum behaupteten Wirkmechanismus auf Fahrer und
+      zu Plänen für die S16 zitiert.
   - id: geopathic-zeit-mechanism
     note: >-
       Dokumentiert den Eingriff an der S16, zitiert die damalige ASFINAG-Webseite mit positiven Unfallzahlen, hält die
@@ -71,3 +75,7 @@ evidence:
     note: >-
       Rückblick von 2008 über ASFINAG-Ausgaben für Wünschelrutengänger; ein eigener Sprecher räumt ein, dass konventionelle
       Änderungen wie ein neuer Straßenbelag scheinbare Verbesserungen erklären könnten, die den esoterischen Maßnahmen zugeschrieben wurden.
+  - id: geopathic-standard-consequences
+    note: >-
+      Dokumentiert unmittelbar die genannten Vorrichtungen und Aufträge und ordnet die behaupteten Unfallrückgänge
+      dem ASFINAG-Sprecher zu; eine Wirksamkeit wird damit nicht nachgewiesen.

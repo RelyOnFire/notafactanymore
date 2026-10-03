@@ -1,28 +1,56 @@
+schemaVersion: 2
 locale: de
 entryId: pure-acupuncture-surgical-anesthesia
-sourceReviewedAt: 2026-08-24
+sourceReviewedAt: '2026-08-24'
 title: Reine Akupunktur als ausreichende Operationsanästhesie
-claim: >-
-  Akupunkturstimulation allein wurde als hinreichend verlässliche Anästhesie für ein breites Spektrum großer Operationen behandelt, darunter Eingriffe an Brustkorb und Bauch, und als möglicher Ersatz für Medikamentenanästhesie in Situationen mit knappen Narkosemitteln oder Geräten.
-currentUnderstanding: >-
-  Akupunktur kann analgetische Effekte beitragen und in ausgewählten perioperativen Situationen den Bedarf an Anästhetika verringern. Eine wache „reine Akupunkturanästhesie“ liefert bei großen Operationen jedoch nicht zuverlässig die vollständige Analgesie, Sedierung, Muskelrelaxation und physiologische Kontrolle, die erforderlich sind. Moderne chinesische Akupunkturanästhesie beschränkt sich auf ausgewählte Indikationen und kombiniert Akupunktur üblicherweise mit Anästhetika oder Analgetika, statt sie als universellen Ersatz zu behandeln.
+proposition:
+  summary: >-
+    Von 1966 bis zum breiten Rückzug des Verfahrens in den 1990er-Jahren behandelten chinesische Wissenschafts- und
+    Gesundheitsstellen Akupunkturstimulation – teils allein, teils mit nur geringen Mengen zusätzlicher Medikamente – als
+    hinreichend verlässliche Anästhesie für viele große Operationen. Die amtliche Förderung stellte sie als einsetzbar bei
+    Eingriffen an Brustkorb, Bauch, Schädel und anderen Körperregionen sowie als Ersatz bei knappen Narkosemitteln oder
+    Geräten dar.
+correction:
+  summary: >-
+    Akupunktur kann Analgesie bewirken, liefert allein aber weder eine echte Allgemeinanästhesie noch zuverlässig die bei
+    großen Operationen nötige Bewusstlosigkeit, vollständige Schmerzkontrolle, Muskelrelaxation und Unterdrückung viszeraler
+    und autonomer Reaktionen. Konventionelle Anästhesieverfahren bleiben daher erforderlich. Studien zur Akupunktur als
+    Zusatz zur Allgemeinanästhesie deuten bei einigen Methoden auf einen geringeren Medikamentenbedarf hin; heterogene
+    Zusatzbefunde von niedriger bis moderater Sicherheit belegen jedoch keinen breiten Ersatz durch reine Akupunktur.
 impact:
   summary: >-
-    China beschränkte sich nicht auf einzelne Experimente. Staatliche Wissenschafts- und Gesundheitsstellen organisierten ein nationales Forschungsprogramm und eine breite Einführung; Krankenhäuser und die Volksbefreiungsarmee setzten das Verfahren in großem Umfang klinisch ein. Spätere chinesische medizinische Darstellungen beschreiben die wahllose Ausweitung der reinen Akupunkturanästhesie selbst als Überdehnung und die heutige Praxis als enger gefasste Kombination aus Akupunktur und Medikamenten.
+    Dies war ein nationales medizinisches Programm und keine Reihe vereinzelter Vorführungen. Staatliche Wissenschafts-
+    und Gesundheitsstellen organisierten die Forschung, Krankenhäuser und Einheiten der Volksbefreiungsarmee setzten das
+    Verfahren ein, und Staatsmedien bewarben es für große Operationen und Mangelsituationen. Spätere chinesische
+    medizinische Darstellungen beschreiben die wahllose Ausweitung über geeignete Fälle hinaus, den schrittweisen Rückzug
+    der Krankenhäuser und die engere Hinwendung zu ausgewählten Indikationen und Akupunktur-Medikamenten-Kombinationen.
   highlights:
-    - value: "1966"
-      label: Staatliche Wissenschaftskommission und Gesundheitsministerium legten ein nationales Forschungsprogramm fest
-    - value: "400.000+"
+    - value: '1966'
+      label: Staatliche Wissenschaftskommission und Gesundheitsministerium legten einen nationalen Forschungsplan fest
+    - value: '400.000+'
       label: Patienten, die laut Volkszeitung bis Juli 1971 unter Akupunkturanästhesie operiert worden waren
-    - value: "1990er"
-      label: Die meisten Krankenhäuser stellten die alten reinen Akupunkturoperationen ein, nachdem die Grenzen deutlicher geworden waren
+    - value: 1990er
+      label: Die meisten Krankenhäuser stellten die alten reinen Akupunkturoperationen ein, als deren Grenzen deutlicher wurden
   context:
     - >-
-      Die institutionelle Überdehnung bestand in reiner oder nahezu reiner Akupunktur als hauptsächlicher Anästhesie für ein breites Spektrum großer Operationen, nicht in der Behauptung, Akupunktur habe keinerlei analgetische Wirkung. Moderne chinesische Teams untersuchen und verwenden Akupunktur weiterhin als Zusatz, mit dem sich Medikamentendosen reduzieren lassen.
+      Die widerlegte Überdehnung ist reine oder nahezu reine Akupunktur als hauptsächliche Anästhesie für ein breites
+      Spektrum großer Operationen. Sie bestreitet weder einen Einfluss der Akupunktur auf Schmerz noch eine mögliche
+      sinnvolle perioperative Zusatzrolle.
     - >-
-      Zeitgenössische und spätere chinesische Quellen zeigen außerdem eine uneinheitliche Praxis: Manche Teams verwendeten geringe Mengen lokaler oder zusätzlicher Medikamente; selbst damalige Berichte räumten unvollständige Schmerzstillung und Beschwerden bei der Manipulation innerer Organe ein. Die institutionelle Überdehnung bestand in der breiten Bewerbung als ausreichende Anästhesie für schlecht ausgewählte Operationen und Mangelsituationen, nicht in jedem einzelnen akupunkturunterstützten Eingriff.
+      „Reine Akupunktur“ ist eine rückblickende Abgrenzung und kein einheitliches historisches Protokoll. Zeitgenössische
+      Berichte räumten Schmerzen und viszerale Beschwerden ein; manche Eingriffe verwendeten lokale oder zusätzliche
+      Medikamente. Bei einer Operation in Guangdong 1971 wurde etwa Lidocain nötig, als die Akupunkturanalgesie nicht
+      ausreichte.
+    - >-
+      Die Zahlen von mehr als 400.000 Operationen und rund 90 Prozent Erfolg waren Angaben der Volkszeitung während der
+      nationalen Kampagne. Sie belegen amtlich behaupteten Umfang und Zuversicht, sind aber keine kontrollierten
+      Ergebnisdaten; die Quelle definierte auch kein modernes, eingriffsspezifisches Erfolgsmaß.
+    - >-
+      Bei James Restons viel beachteter Blinddarmoperation von 1971 diente Akupunktur nicht als Operationsanästhesie. Die
+      Operation erfolgte unter konventioneller Anästhesie; erst danach erhielt er Akupunktur gegen einen geblähten Bauch.
+      Der Fall weckte ausländisches Interesse, belegte aber keine große Operation allein unter Akupunktur.
 episodes:
-  - id: china-1966-1989
+  - id: china-1966-1999
     polity: Volksrepublik China
     institutions:
       - Staatliche Wissenschafts- und Technologiekommission (国家科学技术委员会)
@@ -30,11 +58,119 @@ episodes:
       - Militärkontrollkommission des Gesundheitsministeriums (卫生部军管会)
       - Allgemeines Krankenhaus der Chinesischen Volksbefreiungsarmee (中国人民解放军总医院)
     institutionalContext: >-
-      Im Februar 1966 beriefen Staatliche Wissenschaftskommission und Gesundheitsministerium in Shanghai eine nationale Forschungstagung zur Akupunkturanästhesie ein und erarbeiteten einen Forschungsplan für 1966–1968; anschließend verbreitete sich das Verfahren landesweit. Im September 1969 erklärte die Militärkontrollkommission des Gesundheitsministeriums Akupunkturanästhesie zu einer wichtigen nationalen Aufgabe der medizinischen Kriegsvorbereitung. Krankenhäuser, lokale Gesundheitsdienste, Forschungsinstitute und medizinische Einheiten der Volksbefreiungsarmee setzten das Verfahren danach in großem Umfang ein. Seit den 1980er-Jahren wuchsen die Zweifel, und chinesische Rückblicke berichten, dass die meisten Krankenhäuser diese Operationen in den 1990er-Jahren einstellten; 1989 markiert damit das Ende des breit angewandten Modells der 1960er- bis 1980er-Jahre und keinen einzelnen wissenschaftlichen Wendepunkt.
-    summary: >-
-      Ausgehend von einem nationalen Forschungsplan von 1966 förderten chinesische Wissenschafts- und Gesundheitsbehörden Akupunkturanästhesie in Krankenhäusern und der Militärmedizin. 1971 berichtete die Volkszeitung von mehr als 400.000 unter Akupunkturanästhesie operierten Patienten, nannte eine Erfolgsquote von etwa 90 Prozent und hob den Einsatz dort hervor, wo Narkosemittel oder Geräte knapp waren. Das Verfahren wurde anschließend auf sehr viele Operationsarten ausgeweitet. Chinesische Rückblicke beschreiben diese Phase heute selbst als zu wahllose Ausdehnung: Reine Akupunktur konnte bei vielen Eingriffen keine vollständige Schmerzfreiheit, Sedierung oder Muskelrelaxation gewährleisten, und die meisten Krankenhäuser gaben das alte Modell in den 1990er-Jahren auf. Moderne chinesische Praxis setzt stattdessen auf ausgewählte Indikationen und eine kombinierte Akupunktur-Medikamenten-Anästhesie.
+      Am 28. Februar 1966 beriefen Staatliche Wissenschaftskommission und Gesundheitsministerium in Shanghai eine nationale
+      Forschungstagung ein und beschlossen einen Forschungsplan zur Akupunkturanästhesie für 1966–1968; dies beschleunigte
+      die landesweite Ausbreitung. Im September 1969 machte die Militärkontrollkommission des Gesundheitsministeriums das
+      Verfahren zu einer wichtigen Aufgabe der medizinischen Kriegsvorbereitung. Krankenhäuser, lokale Gesundheitsdienste,
+      Forschungsinstitute und medizinische Einheiten der Volksbefreiungsarmee setzten es danach in großem Umfang ein. In
+      den 1980er-Jahren nahmen Zweifel und eine engere Fallauswahl zu; chinesische Rückblicke berichten, die meisten
+      Krankenhäuser hätten die alten reinen Akupunkturoperationen in den 1990er-Jahren eingestellt. Das Endjahr 1999 bildet
+      diesen schrittweisen Rückzug über das Jahrzehnt ab und ist nicht das Datum eines nationalen Widerrufs.
     consequences:
       - Nationale Forschungsplanung und großflächige klinische Einführung
-      - Einsatz reiner Akupunkturanästhesie bei großen Thorax-, Bauch-, Schädel- und weiteren Operationen
-      - Bewerbung für ländliche, gebirgige und kriegsbedingte Mangelsituationen als Alternative bei eingeschränkter Medikamentenanästhesie
-      - Ausbildung und Verbreitung über Krankenhäuser, lokale Gesundheitsdienste und medizinische Einheiten der Volksbefreiungsarmee
+      - Einsatz reiner oder nahezu reiner Akupunkturanästhesie bei großen Thorax-, Bauch-, Schädel- und weiteren Operationen
+      - Bewerbung für ländliche, gebirgige und kriegsbedingte Mangelsituationen als Alternative bei knappen Mitteln oder Geräten
+      - Ausbildung und Verbreitung über Krankenhäuser, lokale Gesundheitsdienste, Forschungsinstitute und medizinische Einheiten der Volksbefreiungsarmee
+    summary: >-
+      Staatliche Wissenschafts- und Gesundheitsstellen machten Akupunkturanästhesie 1966 zu einem organisierten Forschungs-
+      und Klinikprogramm. 1971 berichtete die Volkszeitung von mehr als 400.000 operierten Patienten, behauptete rund 90
+      Prozent Erfolg und bewarb das Verfahren für große Operationen und ressourcenarme Situationen. Die Praxis war
+      uneinheitlich und schloss teils zusätzliche Medikamente ein; die amtliche Botschaft behandelte Akupunktur dennoch weit
+      über sorgfältig ausgewählte Fälle hinaus als möglichen Ersatz für Medikamentenanästhesie. Als ihre Grenzen
+      offenkundiger wurden, gaben Krankenhäuser das alte wache Modell mit reiner Akupunktur schrittweise auf; spätere
+      Programme behielten Akupunktur hauptsächlich in Kombination mit konventionellen Medikamenten bei.
+    mechanism:
+      summary: >-
+        Zentrale Wissenschafts- und Gesundheitsstellen legten einen nationalen Forschungsplan und eine Aufgabe der
+        medizinischen Kriegsvorbereitung fest; Staatsmedien, zivile Krankenhäuser, lokale Gesundheitsdienste,
+        Forschungsinstitute und militärmedizinische Einheiten sorgten für Werbung, Ausbildung, Forschung und klinische
+        Anwendung.
+    institutionalCorrection:
+      periodLabel: 1980er–ab 2001
+      action: >-
+        Krankenhäuser stellten breit eingesetzte reine Akupunkturoperationen schrittweise ein. Ab 2001 ersetzte ein
+        klinisches Programm in Shanghai die alte wache Technik durch eine kombinierte Akupunktur-Medikamenten-Anästhesie
+        bei leichtem Schlaf und Spontanatmung, grenzte geeignete Indikationen ein und erarbeitete klinische Leitlinien.
+      summary: >-
+        Der fachliche Rückzug und die ausdrückliche Neugestaltung korrigierten die Behauptung in der Praxis, indem sie
+        Akupunktur als Zusatz für ausgewählte Fälle statt als universellen Ersatz behandelten. Die geprüften Belege zeigen
+        keinen datierten landesweiten Widerruf durch Staatliche Wissenschaftskommission oder Gesundheitsministerium; zudem
+        wird die Bezeichnung „Akupunkturanästhesie“ weiterhin für kombinierte Verfahren verwendet. Die institutionelle
+        Korrektur blieb daher teilweise und dezentral.
+evidence:
+  - id: acupuncture-shanghai-proposition
+    note: >-
+      Die historische Rekonstruktion dokumentiert eine Förderung durch das Gesundheitsministerium 1961, die Anerkennung
+      durch die Staatliche Wissenschaftskommission 1965 und die gemeinsame nationale Forschungstagung von Kommission und
+      Ministerium am 28. Februar 1966, die den Forschungsplan 1966–1968 festlegte und die landesweite Ausbreitung vorantrieb.
+  - id: acupuncture-peoples-daily-proposition
+    note: >-
+      Die damalige Staatspresse berichtet über Akupunkturanästhesie in städtischen, ländlichen und militärischen
+      Medizineinheiten, nennt mehr als 400.000 operierte Patienten und rund 90 Prozent Erfolg und bewirbt das Verfahren für
+      große Operationen sowie für ländliche, gebirgige und kriegsbedingte Situationen mit begrenzten konventionellen Mitteln.
+  - id: acupuncture-perioperative-correction
+    note: >-
+      Eine anästhesiologische Übersicht erklärt, dass Akupunktur weder echte Anästhesie oder Bewusstlosigkeit noch
+      ausreichende Muskelrelaxation oder die Unterdrückung autonomer Reflexe bei viszeralem Schmerz bewirkt, und grenzt davon
+      mögliche analgetische und perioperative Anwendungen zusammen mit konventionellen Verfahren ab.
+  - id: acupuncture-network-correction
+    note: >-
+      Die Netzwerk-Metaanalyse von 76 randomisierten Studien untersucht Akupunkturverfahren zusätzlich zur
+      Allgemeinanästhesie, berichtet mögliche Einsparungen bei Propofol oder Remifentanil, bewertet die Vergleiche als
+      Evidenz niedriger bis moderater Qualität und stellt ein mäßiges Verzerrungsrisiko sowie erhebliche Heterogenität fest.
+  - id: acupuncture-current-boundary
+    note: >-
+      Eine aktuelle fachmedizinische Übersicht beschreibt Akupunkturanästhesie vorwiegend als Zusatzverfahren, bezeichnet
+      die alleinige Anwendung als schwierig und meist auf Medikamentenanästhesie angewiesen und warnt, der Begriff selbst
+      könne fälschlich nahelegen, Akupunktur sei eine Form der Anästhesie.
+  - id: acupuncture-wenhui-impact
+    note: >-
+      Das Interview mit dem heutigen Akupunkturanästhesie-Fachmann Zhou Jia beschreibt die frühere wahllose Ausweitung auf
+      mehr als 90 Krankheiten oder Operationsarten und rund zwei Millionen Eingriffe, nennt reine Akupunktur bei manchen
+      Operationen wirkungslos oder unzureichend und erklärt den späteren Wechsel zur kombinierten Medikamentenanästhesie.
+  - id: acupuncture-shanghai-carrier
+    note: >-
+      Benennt Staatliche Wissenschaftskommission und Gesundheitsministerium als Veranstalter der nationalen Tagung und des
+      Plans von 1966 und zeichnet die Umsetzung durch regionale Behörden, Krankenhäuser, Forschungsstellen und
+      Militäreinheiten nach.
+  - id: acupuncture-guangdong-mechanism
+    note: >-
+      Die Krankenhausgeschichte hält fest, dass die Militärkontrollkommission des Gesundheitsministeriums
+      Akupunkturanästhesie bei einer nationalen Tagung im September 1969 zu einer wichtigen Aufgabe der medizinischen
+      Kriegsvorbereitung machte. Sie dokumentiert außerdem eine Operation von 1971, bei der wegen unvollständiger
+      Akupunkturanalgesie eine geringe Menge Lidocain nötig war.
+  - id: acupuncture-peoples-daily-consequences
+    note: >-
+      Der Staatsartikel bewirbt das Verfahren für Eingriffe an Kopf, Brustkorb, Bauch und Gliedmaßen, in ländlichen und
+      gebirgigen Gebieten sowie unter Kriegsbedingungen; außerdem beschreibt er ein Team des Allgemeinen Krankenhauses der
+      Volksbefreiungsarmee, das im ländlichen Shanxi Tausende Operationen durchführte.
+  - id: acupuncture-guangdong-context
+    note: >-
+      Der belegte Einsatz von Lidocain bei unzureichender Analgesie zeigt, warum nicht bei jedem unter der historischen
+      Bezeichnung Akupunkturanästhesie gezählten Eingriff reine Akupunktur vorausgesetzt werden kann.
+  - id: acupuncture-reston-context
+    note: >-
+      Rekonstruiert Restons Fall von 1971 als konventionell anästhesierte Blinddarmoperation mit anschließender Akupunktur
+      gegen einen geblähten Bauch und trennt so die publizistische Wirkung von einem Beleg für Operationsanästhesie.
+  - id: acupuncture-perioperative-episode-context
+    note: >-
+      Liefert den heutigen anästhesiologischen Maßstab für das historische Programm: Akupunktur kann zu Analgesie oder
+      Sedierung beitragen, allein aber nicht sämtliche für große Operationen erforderlichen Bedingungen herstellen.
+  - id: acupuncture-network-institutional-context
+    note: >-
+      Zeigt, dass die heutige Studienliteratur Akupunktur als Zusatz zur Allgemeinanästhesie untersucht und nicht als den
+      während der historischen Episode beworbenen breiten eigenständigen Ersatz.
+  - id: acupuncture-current-institutional-context
+    note: >-
+      Ordnet die heutige Praxis überwiegend als Zusatzverfahren ein und fordert klarere fachliche Grenzen; dies stützt die
+      Einordnung des späteren institutionellen Wandels als tatsächlich, aber unvollständig.
+  - id: acupuncture-wenhui-correction
+    note: >-
+      Berichtet, dass Krankenhäuser das alte Modell reiner Akupunktur nach den 1980er-Jahren wegen seiner erkennbaren Grenzen
+      schrittweise aufgaben, und beschreibt die spätere Hinwendung zu kombinierter Akupunktur-Medikamenten-Anästhesie und
+      ausgewählten Indikationen.
+  - id: acupuncture-shutcm-correction
+    note: >-
+      Der amtliche Universitätsbericht erklärt, das heutige Team habe die alte wache reine Akupunkturtechnik in eine
+      kombinierte Akupunktur-Medikamenten-Anästhesie bei leichtem Schlaf und Spontanatmung überführt, geeignete Indikationen
+      neu bestimmt, klinische Leitlinien erarbeitet und das Verfahren damit auf einen angemesseneren Entwicklungspfad gebracht.

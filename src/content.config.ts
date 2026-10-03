@@ -165,35 +165,16 @@ const institutionalType = z.enum([
   'military',
 ]);
 
-const institutionalSourceV1 = z.object({
-  title: z.string(),
-  url: z.string().url(),
-  publisher: z.string(),
-  note: z.string(),
-});
-
 const institutionalImpactHighlight = z.object({
-  value: z.union([z.string().min(1), z.number()]).transform(String),
-  label: z.string().min(1),
-  note: z.string().min(1).optional(),
-});
-
-const institutionalImpact = z.object({
-  summary: z.string().min(1),
-  context: z.array(z.string().min(1)).optional().default([]),
-  highlights: z.array(institutionalImpactHighlight).optional().default([]),
-});
-
-const institutionalImpactHighlightV2 = z.object({
   value: z.union([z.string().min(1), z.number()]).transform(String),
   label: z.string().min(1),
   note: z.string().min(1).optional(),
 }).strict();
 
-const institutionalImpactV2 = z.object({
+const institutionalImpact = z.object({
   summary: z.string().min(1),
   context: z.array(z.string().min(1)).optional().default([]),
-  highlights: z.array(institutionalImpactHighlightV2).optional().default([]),
+  highlights: z.array(institutionalImpactHighlight).optional().default([]),
 }).strict();
 
 const institutionalEpisodeFields = {
@@ -211,14 +192,6 @@ const institutionalEpisodeFields = {
   consequences: z.array(z.string().min(1)).min(1),
   summary: z.string().min(1),
 };
-
-const institutionalEpisodeV1 = z.object({
-  ...institutionalEpisodeFields,
-  sources: z.array(institutionalSourceV1).min(1),
-}).refine((episode) => episode.startYear <= episode.endYear, {
-  message: 'institutional episode startYear must be earlier than or equal to endYear',
-  path: ['startYear'],
-});
 
 const institutionalMechanismKind = z.enum([
   'endorsement',
@@ -254,7 +227,7 @@ const institutionalCorrection = z.object({
   summary: z.string().min(1),
 }).strict();
 
-const institutionalEpisodeV2 = z.object({
+const institutionalEpisode = z.object({
   ...institutionalEpisodeFields,
   mechanism: institutionalMechanism,
   institutionalCorrection,
@@ -263,7 +236,7 @@ const institutionalEpisodeV2 = z.object({
   path: ['startYear'],
 });
 
-const institutionalSourceV2 = z.object({
+const institutionalSource = z.object({
   id: mediaId,
   title: z.string().min(1),
   url: z.string().url(),
@@ -297,19 +270,7 @@ const institutionalEvidence = z.object({
   note: z.string().min(1).optional(),
 }).strict();
 
-const institutionalBeliefV1 = z.object({
-  schemaVersion: z.literal(1),
-  title: z.string().min(1),
-  claim: z.string().min(1),
-  currentUnderstanding: z.string().min(1),
-  category: z.string().min(1),
-  entryId: z.string().min(1).optional(),
-  reviewedAt: z.coerce.date(),
-  impact: institutionalImpact.optional(),
-  episodes: z.array(institutionalEpisodeV1).min(1),
-});
-
-const institutionalBeliefV2 = z.object({
+const institutionalBelief = z.object({
   schemaVersion: z.literal(2),
   title: z.string().min(1),
   proposition: z.object({
@@ -321,13 +282,14 @@ const institutionalBeliefV2 = z.object({
   category: z.string().min(1),
   entryId: z.string().min(1).optional(),
   reviewedAt: z.coerce.date(),
-  impact: institutionalImpactV2.optional(),
-  episodes: z.array(institutionalEpisodeV2).min(1),
-  sources: z.array(institutionalSourceV2).min(1),
+  impact: institutionalImpact.optional(),
+  episodes: z.array(institutionalEpisode).min(1),
+  sources: z.array(institutionalSource).min(1),
   evidence: z.array(institutionalEvidence).min(1),
 }).strict().superRefine((belief, ctx) => {
   const episodeIds = new Set<string>();
   const sourceIds = new Set<string>();
+  const sourceUrls = new Set<string>();
   const evidenceIds = new Set<string>();
   const usedSourceIds = new Set<string>();
   const validEvidenceIndexes = new Set<number>();
@@ -352,6 +314,15 @@ const institutionalBeliefV2 = z.object({
       });
     }
     sourceIds.add(source.id);
+
+    if (sourceUrls.has(source.url)) {
+      ctx.addIssue({
+        code: 'custom',
+        message: `duplicate institutional source URL: ${source.url}`,
+        path: ['sources', index, 'url'],
+      });
+    }
+    sourceUrls.add(source.url);
   });
 
   belief.evidence.forEach((item, index) => {
@@ -487,49 +458,21 @@ const institutionalBeliefV2 = z.object({
   });
 });
 
-const injectLegacyInstitutionalSchemaVersion = (input: unknown) => {
-  if (
-    input !== null &&
-    typeof input === 'object' &&
-    !Array.isArray(input) &&
-    !Object.prototype.hasOwnProperty.call(input, 'schemaVersion')
-  ) {
-    return { ...input, schemaVersion: 1 };
-  }
-
-  return input;
-};
-
 const institutionalBeliefs = defineCollection({
   loader: glob({ pattern: '**/*.yaml', base: './src/data/institutional-beliefs' }),
-  schema: z.preprocess(
-    injectLegacyInstitutionalSchemaVersion,
-    z.discriminatedUnion('schemaVersion', [institutionalBeliefV1, institutionalBeliefV2]),
-  ),
+  schema: institutionalBelief,
 });
 
 const translatedInstitutionalImpactHighlight = z.object({
   value: z.union([z.string().min(1), z.number()]).transform(String),
   label: z.string().min(1),
   note: z.string().min(1).optional(),
-});
+}).strict();
 
 const translatedInstitutionalImpact = z.object({
   summary: z.string().min(1),
   context: z.array(z.string().min(1)).optional().default([]),
   highlights: z.array(translatedInstitutionalImpactHighlight).optional().default([]),
-});
-
-const translatedInstitutionalImpactHighlightV2 = z.object({
-  value: z.union([z.string().min(1), z.number()]).transform(String),
-  label: z.string().min(1),
-  note: z.string().min(1).optional(),
-}).strict();
-
-const translatedInstitutionalImpactV2 = z.object({
-  summary: z.string().min(1),
-  context: z.array(z.string().min(1)).optional().default([]),
-  highlights: z.array(translatedInstitutionalImpactHighlightV2).optional().default([]),
 }).strict();
 
 const translatedInstitutionalEpisodeFields = {
@@ -542,11 +485,7 @@ const translatedInstitutionalEpisodeFields = {
   consequences: z.array(z.string().min(1)).min(1),
 };
 
-const translatedInstitutionalEpisodeV1 = z.object({
-  ...translatedInstitutionalEpisodeFields,
-});
-
-const translatedInstitutionalEpisodeV2 = z.object({
+const translatedInstitutionalEpisode = z.object({
   ...translatedInstitutionalEpisodeFields,
   mechanism: z.object({
     summary: z.string().min(1),
@@ -563,19 +502,7 @@ const translatedInstitutionalEvidence = z.object({
   note: z.string().min(1).optional(),
 }).strict();
 
-const institutionalBeliefTranslationV1 = z.object({
-  schemaVersion: z.literal(1),
-  locale: z.enum(['de', 'fr', 'es']),
-  entryId: z.string().min(1),
-  sourceReviewedAt: z.coerce.date(),
-  title: z.string().min(1),
-  claim: z.string().min(1),
-  currentUnderstanding: z.string().min(1),
-  impact: translatedInstitutionalImpact.optional(),
-  episodes: z.array(translatedInstitutionalEpisodeV1).min(1),
-});
-
-const institutionalBeliefTranslationV2 = z.object({
+const institutionalBeliefTranslation = z.object({
   schemaVersion: z.literal(2),
   locale: z.enum(['de', 'fr', 'es']),
   entryId: z.string().min(1),
@@ -587,20 +514,14 @@ const institutionalBeliefTranslationV2 = z.object({
   correction: z.object({
     summary: z.string().min(1),
   }).strict(),
-  impact: translatedInstitutionalImpactV2.optional(),
-  episodes: z.array(translatedInstitutionalEpisodeV2).min(1),
+  impact: translatedInstitutionalImpact.optional(),
+  episodes: z.array(translatedInstitutionalEpisode).min(1),
   evidence: z.array(translatedInstitutionalEvidence).min(1),
 }).strict();
 
 const institutionalBeliefTranslations = defineCollection({
   loader: glob({ pattern: '**/*.yaml', base: './src/data/institutional-belief-translations' }),
-  schema: z.preprocess(
-    injectLegacyInstitutionalSchemaVersion,
-    z.discriminatedUnion('schemaVersion', [
-      institutionalBeliefTranslationV1,
-      institutionalBeliefTranslationV2,
-    ]),
-  ),
+  schema: institutionalBeliefTranslation,
 });
 
 export const collections = {

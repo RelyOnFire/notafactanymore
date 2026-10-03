@@ -1,64 +1,222 @@
 schemaVersion: 2
 locale: de
 entryId: sparrow-eradication
-sourceReviewedAt: '2026-08-23'
-title: Ausrottung der Spatzen
+sourceReviewedAt: '2026-09-25'
+title: Spatzenausrottung als landwirtschaftliches Heilmittel
 proposition:
-  summary: Spatzen wurden als insgesamt schädliche Agrarfeinde behandelt, deren massenhafte Ausrottung die Getreideproduktion erhöhen würde.
+  summary: >-
+    Der chinesische Parteistaat behandelte Feldsperlinge als schädliche Vögel, deren Ausrottung überall dort, wo sie
+    möglich war, Getreideverluste verhindern und die Agrarproduktion steigern sollte. Ein zentrales Agrarprogramm machte
+    die Ausrottung zum offiziellen Ziel; der Große Sprung nach vorn verwandelte sie in eine landesweite Massenkampagne.
 correction:
   summary: >-
-    Spatzen fressen zwar Getreide, ernähren sich aber auch von Insekten und sind Teil von Nahrungsnetzen. Die großflächige
-    Entfernung von Fressfeinden kann ökologische Kettenreaktionen auslösen, an denen die einfache Gleichung „Schädling
-    gleich Nettoschaden“ scheitert.
+    Feldsperlinge fressen Getreide, weshalb ein begrenzter Schutz von Kulturen an bestimmten Orten und zu bestimmten
+    Jahreszeiten gerechtfertigt sein kann. Ihre Gesamtwirkung lässt sich jedoch nicht allein aus dem Getreidefraß
+    ableiten: Die Nahrung variiert nach Lebensraum, Jahreszeit und Lebensstadium, und besonders bei der Jungenfütterung
+    fressen sie zahlreiche Insekten. Die flächendeckende Ausrottung beseitigte eine natürliche Schädlingskontrolle.
+    Zeitgenössische Forscher stellten einen Zusammenhang zwischen dem Rückgang der Spatzen und den Insektenausbrüchen von
+    1959 her, warnten aber zugleich vor weiteren Ursachen wie dem Wetter. Ein NBER-Arbeitspapier von 2025 liefert neue
+    quantitative Belege für einen Beitrag zu Ernteverlusten und Hungersnotsterblichkeit; es macht die Kampagne nicht zur
+    alleinigen Ursache der Großen Hungersnot.
+impact:
+  summary: >-
+    Die Politik begann Ende 1955, wurde im Januar 1956 in das nationale Agrarprogramm aufgenommen und 1957 durch eine
+    Ausnahme für Spatzen in Städten und Wäldern eingeschränkt. Diese Einschränkung blieb weitgehend wirkungslos, als die
+    Kampagne 1958 eskalierte. Lokale Partei- und Staatsorgane bildeten Sondereinheiten und mobilisierten Arbeiter,
+    Amtsträger, Soldaten, Schüler, Studierende und Anwohner, um Nester, Eier und Jungvögel zu vernichten sowie Altvögel zu
+    töten. Die Bestände wurden stark dezimiert und örtlich ausgelöscht. Es folgten Insektenausbrüche und Ernteschäden,
+    deren Ursachen jedoch nicht auf einen einzigen Faktor zurückgingen. Im März 1960 änderte die zentrale Führung den
+    Kurs; am 10. April ersetzte der Nationale Volkskongress die Spatzen in der Liste der Vier Schädlinge formell durch
+    Bettwanzen.
+  highlights:
+    - value: 1955–1960
+      label: Zeitraum von der zentralen Ausrottungspolitik bis zu ihrer formellen Aufhebung
+    - value: 5,3 % / 8,7 %
+      label: >-
+        vom NBER-Arbeitspapier 2025 geschätzter zusätzlicher Rückgang bei Reis und Weizen je Standardabweichung höherer
+        Habitateignung für Spatzen
+    - value: knapp 2 Millionen
+      label: >-
+        vom selben Arbeitspapier der Spatzenausrottung zugerechnete zusätzliche Todesfälle; Schätzung der Autoren, keine
+        Gesamtzahl der Hungersnottoten
+  context:
+    - >-
+      Das Programm gegen die Vier Schädlinge verband unterschiedliche Ziele. Fliegen, Mücken und Ratten wurden vor allem
+      als Krankheitsüberträger bekämpft; Spatzen hauptsächlich wegen des Getreidefraßes. Das Scheitern der
+      Spatzenausrottung widerlegt für sich genommen nicht den gesundheitlichen Nutzen jeder Hygiene- oder
+      Vektorkontrollmaßnahme der breiteren patriotischen Gesundheitskampagne.
+    - >-
+      Die wissenschaftlichen Positionen waren komplexer als ein Gegensatz zwischen der Führung und einer geschlossenen
+      Fachwelt. Einige Ornithologen unterstützten anfangs die Bekämpfung, andere Biologen verlangten Aufschub; weitere
+      Forschung zeigte starke jahreszeitliche und räumliche Unterschiede. Bis November 1959 sprach sich die Chinesische
+      Akademie der Wissenschaften mehrheitlich dafür aus, konkrete Fraßschäden zu begrenzen, statt die Art auszurotten.
+    - >-
+      Veröffentlichte landesweite Tötungszahlen unterscheiden sich ungefähr um den Faktor zehn, und das Berichtssystem
+      belohnte überhöhte Kampagnenerfolge. Der Eintrag beschreibt daher eine schwere Dezimierung und örtliche Auslöschung,
+      übernimmt aber keine genaue nationale Todeszahl für die Vögel.
+    - >-
+      Die Berichte über Insektenausbrüche 1959 waren real, doch schon damalige Forscher nannten mehrere mögliche Ursachen.
+      Die NBER-Studie von 2025 nutzt Habitateignung und Kreisstatistiken für eine kausale Schätzung. Sie ist ein nicht
+      begutachtetes Diskussionspapier; ihre Angaben zu Ernten und Sterblichkeit erscheinen deshalb als Schätzungen der
+      Autoren.
+    - >-
+      Eine kurze amtliche forsthistorische Seite behauptet, Spatzen seien bereits im Juni 1959 aus der Liste entfernt
+      worden. Die ausführliche Archivchronologie nennt dagegen wissenschaftliche Berichte im September und November 1959,
+      eine zentrale Stoppanweisung im März 1960 und die formelle Ersetzung durch den Nationalen Volkskongress am 10. April
+      1960. Der Eintrag folgt der datierten Anweisung und dem beschlossenen Text, bewahrt die widersprechende amtliche
+      Seite aber im Evidenzverzeichnis.
 episodes:
-  - id: china-1958-1959
+  - id: china-1955-1960
     polity: Volksrepublik China
-    periodLabel: 1958–1959
+    periodLabel: Ende 1955–10. April 1960
     institutions:
-      - Zentralkomitee der Kommunistischen Partei Chinas
+      - Mao Zedong und das Zentralkomitee der Kommunistischen Partei Chinas
       - Staatsrat der Volksrepublik China
+      - Oberste Staatskonferenz und Zweiter Nationaler Volkskongress
+      - Chinesische Akademie der Wissenschaften und ihre Parteigruppe
+      - Volkszeitung und provinziale sowie kommunale parteistaatliche Medien
     institutionalContext: >-
-      Die institutionelle Behauptung ist hier ungewöhnlich ausdrücklich belegt. Am 12. Februar 1958 erließen das
-      Zentralkomitee der KPCh und der Staatsrat gemeinsam die Anweisung 关于除四害讲卫生的指示, in der Ratten und Spatzen als
-      große Feinde bezeichnet wurden, die Getreide schädigten und die Produktion behinderten. Die landesweite Umsetzung
-      lief anschließend über den breiteren Apparat der Vier-Schädlinge- und patriotischen Gesundheitskampagne; diese
-      regionalen und lokalen Strukturen werden als Umsetzungsapparat beschrieben und nicht als einzelne Institution
-      ausgegeben.
-    summary: >-
-      Während der Vier-Schädlinge-Kampagne stuften das Zentralkomitee der KPCh und der Staatsrat Spatzen in einer Anweisung
-      vom Februar 1958 ausdrücklich als große Feinde ein, die Getreide schädigten und die Produktion behinderten. Die
-      Massentötung reduzierte ihre Population stark; historische und ökologische Untersuchungen beschreiben anschließend
-      Insektenausbrüche, ökologische Störungen und negative Ernteeffekte. Bis Juni 1959 waren Spatzen aus der offiziellen
-      Liste der Vier Schädlinge gestrichen worden. Der Eintrag führt die Große Hungersnot ausdrücklich nicht allein auf die
-      Spatzenkampagne zurück.
+      Mao nahm Spatzen im November 1955 in agrarpolitische Vorschläge zu den Vier Schädlingen auf. Nach Beratungen im
+      Politbüro und in der Obersten Staatskonferenz verlangte Artikel 27 des Entwurfs des nationalen Agrarprogramms vom
+      Januar 1956, Ratten, Spatzen, Fliegen und Mücken überall dort, wo dies möglich war, im Wesentlichen auszurotten.
+      Forschung und Einwände führten in der Fassung vom Oktober 1957 zu dem Zusatz, dass Spatzen in Städten und Wäldern
+      nicht getötet werden müssten. Eine gemeinsame Anweisung von Zentralkomitee und Staatsrat vom 12. Februar 1958
+      bezeichnete Ratten und Spatzen jedoch erneut als große Feinde, die Getreide schädigten und die Produktion
+      behinderten. Wiederholte Aufrufe der Führung, parteistaatliche Medien, lokale Kommandostrukturen, Schulen und
+      Arbeitsstätten machten daraus 1958 eine Massentötung. 1959 sammelte die Chinesische Akademie der Wissenschaften
+      Belege zur gemischten ökologischen Rolle der Vögel. Im März 1960 ordnete die zentrale Führung das Ende der
+      Spatzentötung an; am 10. April schrieb die Legislative die Ersetzung durch Bettwanzen fest.
     consequences:
-      - Wildtierausrottung
-      - Agrarpolitik
-      - Ökologische Störung
+      - Organisierte Vernichtung von Altvögeln, Nestern, Eiern und Jungvögeln im städtischen und ländlichen China
+      - Schwere Bestandsverluste und örtliche Auslöschung in besonders stark mobilisierten Gebieten
+      - Verlust der Insektenprädation mit nachfolgenden Berichten über Schäden an Stadtbäumen und Nutzpflanzen
+      - Ein messbarer Beitrag zu Reis- und Weizenverlusten sowie Hungersnotsterblichkeit in einer Arbeitspapier-Schätzung von 2025
+      - Verdrängung differenzierter wissenschaftlicher Warnungen und ortsspezifischer Empfehlungen auf dem Höhepunkt 1958
+      - Aufgabe des Ziels 1960 nach erneuter wissenschaftlicher Prüfung und Hinweisen auf ökologische Schäden
+    summary: >-
+      Eine Klage über Ernteverluste wurde schon vor dem Großen Sprung nach vorn zur Zentralpolitik und anschließend zur
+      landesweiten Mobilisierung. Verwaltungsvorgaben und Kampagnenmedien pressten eine wechselhafte ökologische Beziehung
+      in die Kategorie eines artweiten Feindes. Die Tötungen dezimierten die Spatzen stark, schwächten die natürliche
+      Insektenkontrolle und trugen in der breiteren Krise des Großen Sprungs zu Ernteverlusten bei. Wissenschaftliche
+      Prüfung half, im März 1960 eine zentrale Kehrtwende und im April eine formelle Gesetzesänderung herbeizuführen.
     mechanism:
       summary: >-
-        Das Zentralkomitee der KPCh und der Staatsrat verwandelten die Schädlingsbehauptung in eine landesweite
-        Ausrottungsanweisung und setzten sie über den Apparat der Vier-Schädlinge- und patriotischen Gesundheitskampagne um.
+        Die Parteiführung verankerte die Ausrottung in einem nationalen Agrarprogramm, Zentralkomitee und Staatsrat
+        erließen eine gemeinsame Anweisung, und Provinz- sowie Lokalorgane setzten sie in Kommandostrukturen, Propaganda,
+        kollektive Aktionen und gemeldete Leistungszahlen um. Schulen, Arbeitsstätten, Amtsträger und Anwohner wurden zur
+        Vernichtung von Vögeln und Nestern mobilisiert. Dieselbe zentralisierte Kette übermittelte später den Stoppbefehl.
     institutionalCorrection:
-      periodLabel: Juni 1959
-      action: Die offizielle Liste der Vier Schädlinge wurde geändert und Spatzen wurden daraus gestrichen.
+      periodLabel: September 1959–10. April 1960
+      action: >-
+        Das Zentralkomitee ordnete an, Spatzen nicht länger zu töten; der Nationale Volkskongress ersetzte sie in Artikel
+        27 des nationalen Agrarprogramms durch Bettwanzen.
       summary: >-
-        Dasselbe zentrale Politiksystem, das Spatzen als bedeutenden Agrarfeind eingestuft hatte, gab diese Klassifikation
-        innerhalb der Kampagne auf, indem es Spatzen aus der offiziellen Liste entfernte.
+        Berichte der Chinesischen Akademie der Wissenschaften vom September und November 1959 betonten orts- und
+        jahreszeitabhängige Nutzen und Schäden und empfahlen, Schäden zu begrenzen, statt die Art auszurotten. Mao ließ
+        den Novemberbericht verteilen, die Akademie organisierte weitere Prüfungen, und eine am 16. März entworfene sowie
+        am 18. März 1960 versandte Gesundheitsanweisung des Zentralkomitees verlangte das Ende der Spatzentötung. Am 10.
+        April beschloss der Zweite Nationale Volkskongress die neue Liste aus Ratten, Bettwanzen, Fliegen und Mücken.
 evidence:
   - id: sparrow-directive-proposition
     note: >-
-      Amtliche Wiedergabe der gemeinsamen Anweisung von Zentralkomitee und Staatsrat, die Ratten und Spatzen als große
-      Feinde bezeichnet, welche Getreide schädigten und die Produktion behinderten; dieselbe amtliche historische
-      Darstellung vermerkt, dass Spatzen bis Juni 1959 aus der Liste der Vier Schädlinge entfernt wurden.
-  - id: sparrow-ecology-correction
+      Die amtliche Rückschau nennt die gemeinsame Anweisung von Zentralkomitee und Staatsrat vom 12. Februar 1958 und gibt
+      deren Einstufung von Ratten und Spatzen als große Feinde wieder, die Getreide schädigten und die Produktion
+      behinderten.
+  - id: sparrow-outline-proposition
     note: >-
-      Bespricht die Spatzenvernichtung von 1958, das Ausmaß der Tötung und die anschließenden Insektenausbrüche.
+      Das revidierte nationale Agrarprogramm vom Oktober 1957 behielt das Ziel bei, Spatzen überall dort, wo es möglich
+      war, im Wesentlichen auszurotten. Zugleich erklärte es den Schutz der Ernten zum Zweck und nahm Stadt- und
+      Waldspatzen aus.
+  - id: sparrow-policy-proposition
+    note: >-
+      Die archivgestützte Politikgeschichte verfolgt das Ziel von Maos Agrarvorschlägen im November 1955 bis zu Artikel
+      27 des Entwurfs vom Januar 1956 nach Beratungen im Politbüro und in der Obersten Staatskonferenz.
+  - id: sparrow-cornell-correction
+    note: >-
+      Das Artporträt beschreibt eine gemischte Nahrung aus Getreide, Samen, Früchten, Blüten und Wirbellosen und hält fest,
+      dass Feldsperlinge im Frühjahr, besonders bei der Jungenfütterung, große Mengen Insekten und andere Gliederfüßer
+      fressen.
+  - id: sparrow-policy-correction
+    note: >-
+      Die Archivreonstruktion dokumentiert die Schlussfolgerung der Forscher, Nutzen und Schaden variierten nach Ort und
+      Jahreszeit; die Politik solle konkrete Fraßschäden begrenzen, statt die Art auszurotten.
+  - id: sparrow-nber-correction
+    note: >-
+      Das Arbeitspapier verbindet Modelle der Habitateignung mit historischen Produktions- und Bevölkerungsdaten auf
+      Kreisebene und schätzt, dass die Ausrottung natürliche Schädlingskontrolle minderte, Reis- und Weizenerträge senkte
+      und die Hungersnotsterblichkeit erhöhte. Das Titelblatt weist es ausdrücklich als nicht begutachtet aus.
+  - id: sparrow-biodiversity-impact
+    note: >-
+      Bespricht die zentral gesteuerte Kampagne, die Massenbeteiligung, die starke Dezimierung und den Insektenausbruch
+      1959 als Beispiel ökologischer Schäden einer Einheitslösung. Die numerische Tötungsschätzung wird wegen
+      widersprechender nationaler Angaben hier nicht übernommen.
+  - id: sparrow-guangzhou-impact
+    note: >-
+      Die historische Studie trennt gesundheitliche Erfolge der breiteren Hygienekampagne in Guangzhou von schweren
+      ökologischen und Ernteschäden überzogener Maßnahmen wie der Spatzenausrottung.
+  - id: sparrow-nber-impact
+    note: >-
+      Nennt die Schätzungen der Autoren: 5,3 Prozent stärkerer Rückgang bei Reis und 8,7 Prozent bei Weizen je
+      Standardabweichung der Habitateignung, 9,6 Prozent höhere Sterblichkeit in Gebieten hoher Eignung und knapp zwei
+      Millionen zusätzliche Todesfälle.
   - id: sparrow-directive-carrier
-  - id: sparrow-directive-mechanism
+    note: >-
+      Bezeichnet das Zentralkomitee der KPCh und den Staatsrat als gemeinsame Herausgeber der Anweisung vom Februar 1958
+      und beschreibt den anschließenden landesweiten Aufschwung der Kampagne gegen die Vier Schädlinge.
+  - id: sparrow-outline-carrier
+    note: >-
+      Belegt, dass das Zentralkomitee den revidierten Entwurf zur landesweiten Erörterung vorlegte und die
+      Spatzenausrottung mit der Einschränkung für Städte und Wälder als Agrarziel beibehielt.
+  - id: sparrow-policy-carrier
+    note: >-
+      Verfolgt die Rollen Maos, des Politbüros, der Obersten Staatskonferenz, der Chinesischen Akademie der Wissenschaften,
+      der Massenmedien und lokaler Behörden von der Übernahme über die Fachdiskussion bis zur landesweiten Eskalation.
+  - id: sparrow-policy-mechanism
+    note: >-
+      Beschreibt, wie die Ausnahme von 1957 in der Mobilisierung des Großen Sprungs unterging, und dokumentiert
+      organisierte stadtweite Aktionen in Beijing, Shanxi, Sichuan und Shanghai. Die Quelle warnt, gemeldete Erfolgszahlen
+      könnten überhöht sein.
+  - id: sparrow-nber-mechanism
+    note: >-
+      Fasst Belege zu lokalen Sondereinheiten, Massenmobilisierung, der Vernichtung von Nestern und Eiern sowie zum
+      Abschießen und Erschöpfen der Vögel durch Lärm zusammen und warnt ausdrücklich vor überhöhten Tötungszahlen durch
+      bürokratische Anreize.
+  - id: sparrow-outline-context
+    note: >-
+      Zeigt, dass der zentrale Text 1957 bereits räumlich unterschied: Ernteschutz war der angegebene Zweck, Spatzen in
+      Städten und Wäldern konnten verschont werden. Die städtischen Aktionen von 1958 gingen darüber hinaus.
+  - id: sparrow-cornell-context
+    note: >-
+      Liefert modernen Artkontext dafür, weshalb weder „reiner Getreidedieb“ noch „reiner Insektenjäger“ angemessen ist:
+      Feldsperlinge fressen Nutzpflanzen und Wirbellose, mit deutlichen jahreszeitlichen und reproduktiven Unterschieden.
+  - id: sparrow-biodiversity-consequences
+    note: >-
+      Verbindet die zentralisierte Kampagne und die Beteiligung von Amtsträgern, Polizei, Soldaten und Öffentlichkeit mit
+      schwerer Bestandsdezimierung und dem Verlust natürlicher Insektenkontrolle.
   - id: sparrow-guangzhou-consequences
     note: >-
-      Historische Untersuchung der Radikalisierung der Kampagne 1958 sowie ökologischer Schäden und Ernteschäden durch
-      übermäßige Maßnahmen wie die Spatzenvernichtung.
-  - id: sparrow-ecology-context
-  - id: sparrow-directive-correction
+      Nutzt Zeitungsberichte aus Guangzhou, um die hygienischen Erfolge der Gesamtkampagne von ökologischen und
+      Ernteschäden radikaler Übergriffe einschließlich der Spatzenausrottung zu unterscheiden.
+  - id: sparrow-policy-consequences
+    note: >-
+      Dokumentiert verbreitete Insektenausbrüche und Missernten 1959, die Sorge von Forschern über einen Zusammenhang mit
+      der Spatzenvernichtung sowie Zheng Zuoxins Warnung, Wetter und andere Faktoren schlössen eine Ein-Faktor-Erklärung
+      aus.
+  - id: sparrow-nber-consequences
+    note: >-
+      Liefert eine moderne quantitative Schätzung des Beitrags der Kampagne zu Ernteverlust und Sterblichkeit und
+      untersucht die staatliche Abschöpfung als verstärkende Institution. Es sind Arbeitspapier-Schätzungen, kein Beweis,
+      dass die Spatzenkampagne allein die Hungersnot verursachte.
+  - id: sparrow-policy-correction-process
+    note: >-
+      Rekonstruiert den Akademiebericht und die Sitzungen, Maos Verteilung der Unterlagen, die zentrale Stoppanweisung im
+      März, Tan Zhenlins Bericht vom 6. April und die Abstimmung im Nationalen Volkskongress am 10. April.
+  - id: sparrow-npc-correction
+    note: >-
+      Das amtliche Bulletin dokumentiert Tan Zhenlins Anweisung, keine Spatzen mehr zu töten, und gibt den beschlossenen
+      Artikel 27 mit Ratten, Bettwanzen, Fliegen und Mücken wieder; Spatzen fehlen.
+  - id: sparrow-forestry-date-dispute
+    note: >-
+      Diese kurze Rückschau datiert die Entfernung der Spatzen auf Juni 1959, nennt aber keinen zugrunde liegenden Akt.
+      Das widerspricht der ausführlichen Akademiechronologie, der zentralen Anweisung vom März 1960 und dem beschlossenen
+      Agrarprogramm vom 10. April 1960.

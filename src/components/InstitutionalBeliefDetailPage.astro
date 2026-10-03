@@ -1,14 +1,12 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import {
-  translationMatchesEntry,
-  type SiteLocale,
-} from '../lib/i18n';
+import { translationMatchesEntry, type SiteLocale } from '../lib/i18n';
 import {
   normalizeInstitutionalBelief,
   type InstitutionalBeliefEntry,
   type InstitutionalBeliefTranslationEntry,
+  type NormalizedInstitutionalEvidence,
 } from '../lib/institutionalBeliefs';
 
 interface Props {
@@ -25,13 +23,33 @@ const {
   hasGermanTranslation = false,
 } = Astro.props;
 
-const normalized = normalizeInstitutionalBelief(belief, locale, translation);
-const {
-  title,
-  proposition: claim,
-  correction: currentUnderstanding,
-  impact,
-} = normalized;
+const entry = normalizeInstitutionalBelief(belief, locale, translation);
+const sourceById = new Map(entry.sources.map((source) => [source.id, source]));
+const enrichEvidence = (items: NormalizedInstitutionalEvidence[]) => items.map((item) => {
+  const source = sourceById.get(item.sourceId);
+  if (!source) {
+    throw new Error(`${entry.id}: evidence ${item.id} references missing source ${item.sourceId}`);
+  }
+  return { ...item, source };
+});
+
+const beliefEvidence = enrichEvidence(
+  entry.evidence.filter((item) => item.target.scope === 'belief'),
+);
+const episodes = [...entry.episodes]
+  .sort((a, b) => a.startYear - b.startYear || a.polity.localeCompare(b.polity, locale))
+  .map((episode) => ({
+    ...episode,
+    evidence: enrichEvidence(
+      entry.evidence.filter(
+        (item) => item.target.scope === 'episode' && item.target.episodeId === episode.id,
+      ),
+    ),
+  }));
+const sourceRows = entry.sources.map((source) => ({
+  source,
+  evidenceCount: entry.evidence.filter((item) => item.sourceId === source.id).length,
+}));
 
 const strengthLabels: Record<string, string> = locale === 'de'
   ? {
@@ -47,62 +65,186 @@ const strengthLabels: Record<string, string> = locale === 'de'
       'enforced-doctrine': 'Enforced doctrine',
     };
 
-const episodes = [...normalized.episodes].sort((a, b) =>
-  a.startYear - b.startYear ||
-  a.polity.localeCompare(b.polity, locale)
-);
+const institutionTypeLabels: Record<string, string> = locale === 'de'
+  ? {
+      government: 'Staat',
+      court: 'Gericht',
+      academy: 'Akademie',
+      university: 'Universität',
+      medical: 'Medizin',
+      professional: 'Fachinstitution',
+      education: 'Bildung',
+      military: 'Militär',
+    }
+  : {
+      government: 'Government',
+      court: 'Court',
+      academy: 'Academy',
+      university: 'University',
+      medical: 'Medical',
+      professional: 'Professional',
+      education: 'Education',
+      military: 'Military',
+    };
+
+const mechanismLabels: Record<string, string> = locale === 'de'
+  ? {
+      endorsement: 'Befürwortung',
+      classification: 'Klassifizierung',
+      'standard-setting': 'Standardsetzung',
+      'administrative-adoption': 'Administrative Übernahme',
+      education: 'Ausbildung',
+      publication: 'Veröffentlichung',
+      funding: 'Finanzierung',
+      credentialing: 'Qualifikationsvergabe',
+      enforcement: 'Durchsetzung',
+      suppression: 'Unterdrückung',
+      other: 'Anderer Mechanismus',
+    }
+  : {
+      endorsement: 'Endorsement',
+      classification: 'Classification',
+      'standard-setting': 'Standard-setting',
+      'administrative-adoption': 'Administrative adoption',
+      education: 'Education',
+      publication: 'Publication',
+      funding: 'Funding',
+      credentialing: 'Credentialing',
+      enforcement: 'Enforcement',
+      suppression: 'Suppression',
+      other: 'Other mechanism',
+    };
+
+const correctionStatusLabels: Record<string, string> = locale === 'de'
+  ? {
+      corrected: 'Korrigiert',
+      partial: 'Teilweise korrigiert',
+      uncorrected: 'Nicht korrigiert',
+      ongoing: 'Laufend',
+      undocumented: 'Nicht dokumentiert',
+    }
+  : {
+      corrected: 'Corrected',
+      partial: 'Partially corrected',
+      uncorrected: 'Uncorrected',
+      ongoing: 'Ongoing',
+      undocumented: 'Undocumented',
+    };
+
+const relationLabels: Record<string, string> = locale === 'de'
+  ? {
+      documents: 'Dokumentiert',
+      supports: 'Stützt',
+      contextualizes: 'Ordnet ein',
+      disputes: 'Widerspricht',
+    }
+  : {
+      documents: 'Documents',
+      supports: 'Supports',
+      contextualizes: 'Contextualizes',
+      disputes: 'Disputes',
+    };
+
+const targetLabels: Record<string, string> = locale === 'de'
+  ? {
+      proposition: 'Historische Überzeugung',
+      correction: 'Heutige Korrektur',
+      impact: 'Auswirkungen',
+      carrier: 'Institutioneller Träger',
+      mechanism: 'Mechanismus',
+      consequences: 'Folgen',
+      'institutional-correction': 'Institutionelle Korrektur',
+      context: 'Kontext',
+    }
+  : {
+      proposition: 'Historical belief',
+      correction: 'Present correction',
+      impact: 'Impact',
+      carrier: 'Institutional carrier',
+      mechanism: 'Mechanism',
+      consequences: 'Consequences',
+      'institutional-correction': 'Institutional correction',
+      context: 'Context',
+    };
+
+const targetLabel = (evidence: NormalizedInstitutionalEvidence) =>
+  targetLabels[evidence.target.aspect] ?? evidence.target.aspect;
 
 const copy = locale === 'de'
   ? {
       back: 'Zur Zeitleiste der institutionellen Überzeugungen',
       eyebrow: 'Institutionelle Überzeugung',
-      claim: 'Die institutionelle Behauptung',
-      current: 'Heutiger Wissensstand',
-      impact: 'Folgen und menschliche Auswirkungen',
-      impactContext: 'Wie daraus Folgen entstanden',
+      accepted: 'Was Institutionen akzeptierten',
+      current: 'Was die Evidenz heute stützt',
+      beliefEvidence: 'Evidenz zur übergeordneten Überzeugung',
+      impact: 'Auswirkungen',
+      impactContext: 'Einordnung',
       impactCaution:
-        'Zahlen werden nur hervorgehoben, wenn sie durch die angegebenen Quellen gestützt werden. Die Größe einer damit verbundenen Katastrophe wird nicht automatisch als ausschließlich durch diese Überzeugung verursacht behandelt.',
+        'Historische Zahlen und Wirkungen werden als kontextgebundene Evidenz dargestellt, nicht als universelle Kausalbehauptung.',
       episode: 'Institutionelle Episode',
-      institutions: 'Institutionen',
-      institutionalContext: 'Institutioneller Apparat',
-      consequences: 'Dokumentierte Folgen',
-      evidence: 'Quellen und was sie belegen',
+      institutions: 'Beteiligte Institutionen',
+      institutionalContext: 'Institutioneller Kontext',
+      consequences: 'Folgen',
+      why: 'Warum sich die Annahme hielt',
+      how: 'Wie die institutionelle Korrektur verlief',
+      action: 'Maßnahme',
+      evidenceForEpisode: 'Evidenz für diese Episode',
+      locator: 'Fundstelle',
+      sourceRegistry: 'Quellenregister',
+      sourceRegistryIntro:
+        'Jede Quelle wird einmal geführt und kann mehrere präzise Evidenzbeziehungen tragen.',
       catalogue: 'Verknüpfter Katalogeintrag',
-      reviewed: 'Zuletzt geprüft',
+      reviewed: 'Inhalt geprüft',
       episodes: (count: number) => `${count} ${count === 1 ? 'Episode' : 'Episoden'}`,
+      evidenceLinks: (count: number) =>
+        `${count} Evidenz${count === 1 ? 'beziehung' : 'beziehungen'}`,
+      sources: (count: number) => `${count} ${count === 1 ? 'Quelle' : 'Quellen'}`,
+      usedBy: (count: number) =>
+        `${count} ${count === 1 ? 'Evidenzbeziehung' : 'Evidenzbeziehungen'}`,
     }
   : {
       back: 'Back to institutional beliefs timeline',
       eyebrow: 'Institutional belief',
-      claim: 'The institutional claim',
-      current: 'Current understanding',
-      impact: 'Consequences and human impact',
-      impactContext: 'How the consequences followed',
+      accepted: 'What institutions accepted',
+      current: 'What the evidence supports now',
+      beliefEvidence: 'Evidence for the overall belief',
+      impact: 'Impact',
+      impactContext: 'Context',
       impactCaution:
-        'Quantitative figures are highlighted only when the cited evidence supports them. The scale of a related catastrophe is not automatically treated as a death toll caused solely by this belief.',
+        'Historical totals and effects are presented as contextual evidence, not as universal causal claims.',
       episode: 'Institutional episode',
-      institutions: 'Institutions',
-      institutionalContext: 'Institutional machinery',
-      consequences: 'Documented consequences',
-      evidence: 'Sources and what they establish',
+      institutions: 'Institutions involved',
+      institutionalContext: 'Institutional context',
+      consequences: 'Consequences',
+      why: 'Why this persisted',
+      how: 'How correction happened',
+      action: 'Action',
+      evidenceForEpisode: 'Evidence for this episode',
+      locator: 'Where in the source',
+      sourceRegistry: 'Source registry',
+      sourceRegistryIntro:
+        'Each source is registered once and can carry several precise evidence relationships.',
       catalogue: 'Linked catalogue entry',
-      reviewed: 'Last reviewed',
+      reviewed: 'Content reviewed',
       episodes: (count: number) => `${count} ${count === 1 ? 'episode' : 'episodes'}`,
+      evidenceLinks: (count: number) =>
+        `${count} evidence ${count === 1 ? 'link' : 'links'}`,
+      sources: (count: number) => `${count} ${count === 1 ? 'source' : 'sources'}`,
+      usedBy: (count: number) => `${count} evidence ${count === 1 ? 'link' : 'links'}`,
     };
 
 const timelinePath = locale === 'de' ? '/de/institutions/' : '/institutions/';
 const alternatePath = locale === 'de'
-  ? `/institutions/${normalized.id}/`
+  ? `/institutions/${entry.id}/`
   : hasGermanTranslation
-    ? `/de/institutions/${normalized.id}/`
+    ? `/de/institutions/${entry.id}/`
     : undefined;
 
 let cataloguePath: string | undefined;
 let catalogueTitle: string | undefined;
-const linkedEntryId = normalized.entryId;
 
-if (linkedEntryId) {
-  const catalogueEntries = await getCollection('entries', (entry) => entry.id === linkedEntryId);
+if (entry.entryId) {
+  const catalogueEntries = await getCollection('entries', (item) => item.id === entry.entryId);
   const catalogueEntry = catalogueEntries[0];
 
   if (catalogueEntry) {
@@ -112,13 +254,12 @@ if (linkedEntryId) {
     if (locale === 'de') {
       const catalogueTranslations = await getCollection(
         'entryTranslations',
-        (entryTranslation) =>
-          entryTranslation.data.locale === 'de' &&
-          entryTranslation.data.entryId === catalogueEntry.id &&
-          translationMatchesEntry(catalogueEntry, entryTranslation),
+        (item) =>
+          item.data.locale === 'de' &&
+          item.data.entryId === catalogueEntry.id &&
+          translationMatchesEntry(catalogueEntry, item),
       );
       const catalogueTranslation = catalogueTranslations[0];
-
       if (catalogueTranslation) {
         catalogueTitle = catalogueTranslation.data.claim;
         cataloguePath = `/de/entries/${catalogueEntry.id}/`;
@@ -126,49 +267,109 @@ if (linkedEntryId) {
     }
   }
 }
+
+const reviewedDate = entry.reviewedAt.toLocaleDateString(
+  locale === 'de' ? 'de-DE' : 'en-GB',
+  { dateStyle: 'long' },
+);
 ---
 
 <BaseLayout
   locale={locale}
-  title={`${title} — ${locale === 'de' ? 'Institutionelle Überzeugungen' : 'Institutional beliefs'}`}
-  description={claim}
+  title={`${entry.title} — ${locale === 'de' ? 'Institutionelle Überzeugungen' : 'Institutional beliefs'}`}
+  description={entry.proposition}
   type="article"
   alternatePath={alternatePath}
 >
   <article class="institution-case container">
     <a class="back-link" href={timelinePath}>← {copy.back}</a>
 
-    <header class="case-head">
-      <p class="eyebrow">{copy.eyebrow} · {normalized.category}</p>
-      <h1>{title}</h1>
-      <p class="claim">{claim}</p>
-      <p class="episode-count">{copy.episodes(episodes.length)}</p>
+    <header class="case-header">
+      <div class="case-flags">
+        <span class="section-label">{copy.eyebrow}</span>
+        <span>{entry.category}</span>
+      </div>
+      <h1>{entry.title}</h1>
+      <div
+        class="case-counts"
+        aria-label={`${copy.episodes(episodes.length)}, ${copy.evidenceLinks(entry.evidence.length)}, ${copy.sources(entry.sources.length)}`}
+      >
+        <span>{copy.episodes(episodes.length)}</span>
+        <span>{copy.evidenceLinks(entry.evidence.length)}</span>
+        <span>{copy.sources(entry.sources.length)}</span>
+      </div>
     </header>
 
-    <section class="understanding" aria-labelledby="current-understanding-title">
-      <p class="section-kicker">{copy.current}</p>
-      <h2 id="current-understanding-title">{copy.current}</h2>
-      <p>{currentUnderstanding}</p>
-    </section>
+    <div class="narrative-grid">
+      <section class="narrative-panel proposition-panel" aria-labelledby="institutional-proposition">
+        <p class="section-kicker">01</p>
+        <h2 id="institutional-proposition">{copy.accepted}</h2>
+        <p>{entry.proposition}</p>
+      </section>
+      <section class="narrative-panel correction-panel" aria-labelledby="present-correction">
+        <p class="section-kicker">02</p>
+        <h2 id="present-correction">{copy.current}</h2>
+        <p>{entry.correction}</p>
+      </section>
+    </div>
 
-    {impact && (
+    {beliefEvidence.length > 0 && (
+      <section class="belief-evidence evidence-section" aria-labelledby="belief-evidence-title">
+        <div class="subsection-heading">
+          <div>
+            <p class="section-kicker">03</p>
+            <h2 id="belief-evidence-title">{copy.beliefEvidence}</h2>
+          </div>
+          <span>{copy.evidenceLinks(beliefEvidence.length)}</span>
+        </div>
+        <ol class="evidence-list">
+          {beliefEvidence.map((evidence) => (
+            <li class="evidence-item" id={`evidence-${entry.id}-${evidence.id}`}>
+              <div class="evidence-badges">
+                <span class={`relation-badge relation-${evidence.relation}`}>
+                  {relationLabels[evidence.relation]}
+                </span>
+                <span class="target-badge">{targetLabel(evidence)}</span>
+              </div>
+              <a
+                class="evidence-source"
+                href={evidence.source.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {evidence.source.title}
+              </a>
+              <span class="evidence-publisher">{evidence.source.publisher}</span>
+              {evidence.locator && (
+                <p class="evidence-locator">
+                  <strong>{copy.locator}:</strong> {evidence.locator}
+                </p>
+              )}
+              {evidence.note && <p class="evidence-note-copy">{evidence.note}</p>}
+            </li>
+          ))}
+        </ol>
+      </section>
+    )}
+
+    {entry.impact && (
       <section class="impact-section" aria-labelledby="impact-title">
-        <p class="section-kicker">{copy.impact}</p>
-        <h2 id="impact-title">{copy.impact}</h2>
-        <p class="impact-summary">{impact.summary}</p>
-
-        {impact.context.length > 0 && (
+        <div class="subsection-heading">
+          <div>
+            <p class="section-kicker">04</p>
+            <h2 id="impact-title">{copy.impact}</h2>
+          </div>
+        </div>
+        <p class="impact-summary">{entry.impact.summary}</p>
+        {entry.impact.context.length > 0 && (
           <div class="impact-context">
             <h3>{copy.impactContext}</h3>
-            <div class="impact-context-copy">
-              {impact.context.map((paragraph) => <p>{paragraph}</p>)}
-            </div>
+            <div>{entry.impact.context.map((paragraph) => <p>{paragraph}</p>)}</div>
           </div>
         )}
-
-        {impact.highlights.length > 0 && (
+        {entry.impact.highlights.length > 0 && (
           <div class="impact-grid">
-            {impact.highlights.map((highlight) => (
+            {entry.impact.highlights.map((highlight) => (
               <article class="impact-highlight">
                 <strong>{highlight.value}</strong>
                 <h3>{highlight.label}</h3>
@@ -177,204 +378,306 @@ if (linkedEntryId) {
             ))}
           </div>
         )}
-
         <p class="impact-caution">{copy.impactCaution}</p>
       </section>
     )}
 
-    <section class="episodes-section">
-      {episodes.map((episode) => (
-        <article class="episode-detail" id={episode.id}>
-          <header class="episode-detail-head">
+    <section class="episodes-section" aria-label={copy.episodes(episodes.length)}>
+      {episodes.map((episode, episodeIndex) => (
+        <article class="episode-card" id={episode.id}>
+          <header class="episode-header">
             <div>
-              <p class="section-kicker">{copy.episode}</p>
+              <p class="section-kicker">
+                {copy.episode} {String(episodeIndex + 1).padStart(2, '0')}
+              </p>
               <h2>{episode.polity}</h2>
+              <p class="episode-region">{episode.regionLabel}</p>
             </div>
             <div class="episode-meta">
-              <span class="period">{episode.period}</span>
-              <span class={`strength strength-${episode.strength}`}>
-                {strengthLabels[episode.strength]}
+              <span class="period-badge">{episode.period}</span>
+              <span class={`strength-badge strength-${episode.strength}`}>
+                {strengthLabels[episode.strength] ?? episode.strength}
               </span>
             </div>
           </header>
 
           <p class="episode-summary">{episode.summary}</p>
 
-          <div class="episode-record">
-            <section class="episode-record-row">
+          <div class="institution-block">
+            <div>
               <h3>{copy.institutions}</h3>
-              <ul class="institution-list">
-                {episode.institutions.map((institution) => (
-                  <li>{institution}</li>
+              <div class="type-badges">
+                {episode.institutionTypes.map((type) => (
+                  <span>{institutionTypeLabels[type] ?? type}</span>
                 ))}
-              </ul>
-            </section>
-
-            <section class="episode-record-row">
-              <h3>{copy.consequences}</h3>
-              <ul class="consequence-list">
-                {episode.consequences.map((consequence) => (
-                  <li>{consequence}</li>
-                ))}
-              </ul>
-            </section>
-
-            {episode.institutionalContext && (
-              <section class="episode-record-row institutional-context">
-                <h3>{copy.institutionalContext}</h3>
-                <p>{episode.institutionalContext}</p>
-              </section>
-            )}
+              </div>
+            </div>
+            <ul>{episode.institutions.map((institution) => <li>{institution}</li>)}</ul>
           </div>
 
-          <section class="source-section">
-            <h3>{copy.evidence}</h3>
-            <ul class="source-list">
-              {episode.sources.map((source) => (
-                <li>
-                  <a href={source.url} target="_blank" rel="noopener noreferrer">
-                    <strong>{source.title}</strong>
+          {episode.institutionalContext && (
+            <section class="context-block">
+              <h3>{copy.institutionalContext}</h3>
+              <p>{episode.institutionalContext}</p>
+            </section>
+          )}
+
+          <div class="explanation-grid">
+            <section class="explanation-panel mechanism-panel">
+              <div class="explanation-title">
+                <h3>{copy.why}</h3>
+                {episode.mechanism?.kind && (
+                  <span>{mechanismLabels[episode.mechanism.kind] ?? episode.mechanism.kind}</span>
+                )}
+              </div>
+              <p>{episode.mechanism?.summary}</p>
+            </section>
+
+            <section class="explanation-panel correction-process-panel">
+              <div class="explanation-title">
+                <h3>{copy.how}</h3>
+                <span class={`status-badge status-${episode.institutionalCorrection?.status}`}>
+                  {episode.institutionalCorrection &&
+                    correctionStatusLabels[episode.institutionalCorrection.status]}
+                </span>
+              </div>
+              {episode.institutionalCorrection?.periodLabel && (
+                <p class="correction-period">{episode.institutionalCorrection.periodLabel}</p>
+              )}
+              {episode.institutionalCorrection?.action && (
+                <p class="correction-action">
+                  <strong>{copy.action}:</strong> {episode.institutionalCorrection.action}
+                </p>
+              )}
+              <p>{episode.institutionalCorrection?.summary}</p>
+            </section>
+          </div>
+
+          <section class="consequences-block">
+            <h3>{copy.consequences}</h3>
+            <ul>{episode.consequences.map((consequence) => <li>{consequence}</li>)}</ul>
+          </section>
+
+          <section
+            class="evidence-section episode-evidence"
+            aria-labelledby={`episode-evidence-${episode.id}`}
+          >
+            <div class="subsection-heading">
+              <h3 id={`episode-evidence-${episode.id}`}>{copy.evidenceForEpisode}</h3>
+              <span>{copy.evidenceLinks(episode.evidence.length)}</span>
+            </div>
+            <ol class="evidence-list">
+              {episode.evidence.map((evidence) => (
+                <li class="evidence-item" id={`evidence-${entry.id}-${evidence.id}`}>
+                  <div class="evidence-badges">
+                    <span class={`relation-badge relation-${evidence.relation}`}>
+                      {relationLabels[evidence.relation]}
+                    </span>
+                    <span class="target-badge">{targetLabel(evidence)}</span>
+                  </div>
+                  <a
+                    class="evidence-source"
+                    href={evidence.source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {evidence.source.title}
                   </a>
-                  <span>{source.publisher}</span>
-                  {source.note && <p>{source.note}</p>}
+                  <span class="evidence-publisher">{evidence.source.publisher}</span>
+                  {evidence.locator && (
+                    <p class="evidence-locator">
+                      <strong>{copy.locator}:</strong> {evidence.locator}
+                    </p>
+                  )}
+                  {evidence.note && <p class="evidence-note-copy">{evidence.note}</p>}
                 </li>
               ))}
-            </ul>
+            </ol>
           </section>
         </article>
       ))}
     </section>
 
+    <details class="source-registry">
+      <summary>
+        <span>
+          <strong>{copy.sourceRegistry}</strong>
+          <small>{copy.sourceRegistryIntro}</small>
+        </span>
+        <span>{copy.sources(sourceRows.length)}</span>
+      </summary>
+      <ol>
+        {sourceRows.map(({ source, evidenceCount }, sourceIndex) => (
+          <li id={`source-${entry.id}-${source.id}`}>
+            <span class="source-number">{String(sourceIndex + 1).padStart(2, '0')}</span>
+            <div>
+              <a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}</a>
+              <span>{source.publisher}</span>
+            </div>
+            <small>{copy.usedBy(evidenceCount)}</small>
+          </li>
+        ))}
+      </ol>
+    </details>
+
     {cataloguePath && (
       <aside class="catalogue-link">
         <span>{copy.catalogue}</span>
-        <a href={cataloguePath}>{catalogueTitle ?? normalized.entryId} →</a>
+        <a href={cataloguePath}>{catalogueTitle ?? entry.entryId} →</a>
       </aside>
     )}
 
-    <p class="reviewed">
-      {copy.reviewed}: {normalized.reviewedAt.toLocaleDateString(locale === 'de' ? 'de-AT' : 'en-GB')}
-    </p>
+    <footer class="case-footer">
+      <span>{copy.reviewed}: {reviewedDate}</span>
+      <a href={timelinePath}>← {copy.back}</a>
+    </footer>
   </article>
 </BaseLayout>
 
 <style>
   .institution-case {
-    max-width: 1040px;
-    padding: 3.5rem 0 5rem;
+    max-width: 1180px;
+    padding: 3.5rem 0 6rem;
   }
 
   .back-link {
     display: inline-block;
-    margin-bottom: 2.2rem;
+    margin-bottom: 2rem;
     color: var(--accent-dark);
-    font-size: 0.9rem;
-    font-weight: 760;
+    font-size: 0.88rem;
+    font-weight: 780;
     text-underline-offset: 0.2em;
   }
 
-  .case-head {
-    max-width: 900px;
-    padding-bottom: 2.25rem;
-    border-bottom: 2px solid var(--ink);
+  .case-header {
+    padding-bottom: 2.5rem;
+    border-bottom: 3px solid var(--ink);
   }
 
-  .case-head h1 {
-    margin: 0.25rem 0 1rem;
-    max-width: 900px;
-    font-size: clamp(2.5rem, 7vw, 4.15rem);
-    line-height: 0.98;
+  .case-header h1 {
+    margin: 0.75rem 0 0;
+    max-width: 1000px;
+    font-size: clamp(2.8rem, 7vw, 5.6rem);
+    line-height: 0.95;
   }
 
-  .claim {
-    margin: 0;
-    max-width: 820px;
-    font-size: clamp(1.15rem, 2vw, 1.45rem);
-    font-weight: 680;
-    line-height: 1.45;
+  .case-flags,
+  .case-counts,
+  .type-badges,
+  .evidence-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    align-items: center;
   }
 
-  .episode-count {
-    margin: 1rem 0 0;
+  .case-flags span,
+  .case-counts span,
+  .type-badges span,
+  .period-badge,
+  .strength-badge,
+  .relation-badge,
+  .target-badge,
+  .explanation-title span {
+    padding: 0.28rem 0.55rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
     color: var(--muted);
-    font-size: 0.85rem;
+    background: var(--paper);
+    font-size: 0.7rem;
     font-weight: 760;
+    line-height: 1.25;
   }
 
-  .section-kicker {
-    margin: 0 0 0.35rem;
-    color: var(--muted);
-    font-size: 0.72rem;
-    font-weight: 850;
-    letter-spacing: 0.08em;
+  .case-flags .section-label {
+    border-color: var(--accent-dark);
+    color: white;
+    background: var(--accent-dark);
+    letter-spacing: 0.055em;
     text-transform: uppercase;
   }
 
-  .understanding,
-  .impact-section {
+  .case-counts { margin-top: 1.25rem; }
+
+  .section-kicker {
+    margin: 0 0 0.35rem;
+    color: var(--accent-dark);
+    font-size: 0.72rem;
+    font-weight: 850;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .narrative-grid {
     margin-top: 2rem;
-    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .narrative-panel,
+  .impact-section {
+    min-width: 0;
+    padding: 1.35rem;
     border: 1px solid var(--line);
-    border-radius: 0.9rem;
+    border-radius: 0.75rem;
     background: var(--card);
   }
 
-  .understanding h2,
-  .impact-section h2 {
+  .narrative-panel h2,
+  .subsection-heading h2,
+  .subsection-heading h3 {
     margin: 0;
-    font-size: 1.35rem;
+    font-size: 1.25rem;
   }
 
-  .understanding > p:last-child,
+  .narrative-panel > p:last-child,
   .impact-summary {
-    margin: 0.65rem 0 0;
-    max-width: 850px;
+    margin: 0.75rem 0 0;
     color: var(--muted);
-    font-size: 1.02rem;
-    line-height: 1.62;
-  }
-
-  .impact-context {
-    margin-top: 1.35rem;
-    padding-top: 1.15rem;
-    display: grid;
-    grid-template-columns: minmax(165px, 0.3fr) minmax(0, 1fr);
-    gap: 1.8rem;
-    align-items: start;
-    border-top: 1px solid var(--line);
-  }
-
-  .impact-context h3 {
-    margin: 0;
-    font-size: 1rem;
-    line-height: 1.35;
-  }
-
-  .impact-context-copy {
-    min-width: 0;
-    max-width: 48rem;
-  }
-
-  .impact-context-copy p {
-    margin: 0;
-    color: var(--muted);
-    font-size: 1rem;
     line-height: 1.65;
   }
 
-  .impact-context-copy p + p {
-    margin-top: 0.9rem;
+  .proposition-panel {
+    border-top: 4px solid color-mix(in srgb, var(--ink) 75%, var(--muted));
   }
 
-  .impact-section {
-    margin-top: 1rem;
-    border-top: 4px solid var(--ink);
+  .correction-panel { border-top: 4px solid var(--accent-dark); }
+  .belief-evidence,
+  .impact-section { margin-top: 1rem; }
+
+  .subsection-heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 1rem;
+    align-items: baseline;
   }
+
+  .subsection-heading > span {
+    color: var(--muted);
+    font-size: 0.75rem;
+    font-weight: 760;
+  }
+
+  .impact-context {
+    margin-top: 1.2rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: minmax(140px, 0.25fr) minmax(0, 1fr);
+    gap: 1.5rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .impact-context h3,
+  .impact-context p { margin: 0; }
+  .impact-context p { color: var(--muted); line-height: 1.6; }
+  .impact-context p + p { margin-top: 0.75rem; }
 
   .impact-grid {
-    margin-top: 1.3rem;
+    margin-top: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 0.75rem;
   }
 
@@ -382,233 +685,311 @@ if (linkedEntryId) {
     min-width: 0;
     padding: 1rem;
     border: 1px solid var(--line);
-    border-radius: 0.7rem;
-    background: color-mix(in srgb, var(--paper) 70%, var(--card));
+    border-radius: 0.65rem;
+    background: color-mix(in srgb, var(--paper) 72%, var(--card));
   }
 
-  .impact-highlight strong {
+  .impact-highlight > strong {
     display: block;
-    font-size: clamp(1.5rem, 4vw, 2.35rem);
+    overflow-wrap: anywhere;
+    font-size: clamp(1.45rem, 3vw, 2.1rem);
     line-height: 1.05;
   }
 
-  .impact-highlight h3 {
-    margin: 0.5rem 0 0;
-    font-size: 0.9rem;
-  }
-
+  .impact-highlight h3 { margin: 0.45rem 0 0; font-size: 0.9rem; }
   .impact-highlight p {
     margin: 0.45rem 0 0;
     color: var(--muted);
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     line-height: 1.45;
   }
 
   .impact-caution {
     margin: 1rem 0 0;
-    padding-top: 0.85rem;
+    padding-top: 0.8rem;
     border-top: 1px solid var(--line);
     color: var(--muted);
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     font-style: italic;
+    line-height: 1.5;
   }
 
   .episodes-section {
-    margin-top: 3.5rem;
+    margin-top: 4rem;
+    display: grid;
+    gap: 4.5rem;
   }
 
-  .episode-detail {
-    padding-top: 2.5rem;
-    border-top: 3px solid var(--ink);
+  .episode-card {
+    scroll-margin-top: 1rem;
+    min-width: 0;
+    padding: 2rem;
+    border: 1px solid var(--line);
+    border-top: 6px solid var(--ink);
+    border-radius: 0.8rem;
+    background: color-mix(in srgb, var(--card) 86%, var(--paper));
   }
 
-  .episode-detail + .episode-detail {
-    margin-top: 5.5rem;
-    padding-top: 3rem;
-    border-top-width: 4px;
-  }
-
-  .episode-detail-head {
+  .episode-header {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
-    align-items: flex-start;
+    gap: 1.5rem;
+    align-items: start;
   }
 
-  .episode-detail-head h2 {
+  .episode-header h2 {
     margin: 0;
-    font-size: clamp(1.9rem, 4vw, 2.8rem);
+    max-width: 800px;
+    font-size: clamp(2rem, 4.5vw, 3.5rem);
+  }
+
+  .episode-region {
+    margin: 0.45rem 0 0;
+    color: var(--muted);
+    font-size: 0.84rem;
+    font-weight: 720;
   }
 
   .episode-meta {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 0.6rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.5rem;
   }
 
-  .period {
-    color: var(--accent-dark);
-    font-weight: 850;
-  }
-
-  .strength {
+  .period-badge { border-color: var(--accent-dark); color: var(--accent-dark); }
+  .strength-badge {
     --level-color: #4f5d6b;
-    --level-bg: color-mix(in srgb, var(--level-color) 10%, white);
-    --level-border: color-mix(in srgb, var(--level-color) 58%, var(--line));
-    display: inline-flex;
-    align-items: center;
-    gap: 0.48rem;
-    padding: 0.3rem 0.68rem 0.3rem 0.42rem;
-    border: 1px solid var(--level-border);
-    border-left-width: 4px;
-    border-radius: 0.3rem;
+    border-color: color-mix(in srgb, var(--level-color) 55%, var(--line));
     color: color-mix(in srgb, var(--level-color) 88%, black);
-    background: var(--level-bg);
-    font-size: 0.72rem;
-    font-weight: 850;
-    letter-spacing: 0.025em;
+    background: color-mix(in srgb, var(--level-color) 10%, var(--paper));
   }
-
-  .strength::before {
-    display: grid;
-    place-items: center;
-    min-width: 1.35rem;
-    height: 1.35rem;
-    padding: 0 0.2rem;
-    border: 1px solid color-mix(in srgb, var(--level-color) 68%, black);
-    border-radius: 0.16rem;
-    color: white;
-    background: var(--level-color);
-    font-size: 0.64rem;
-    font-weight: 900;
-    line-height: 1;
-  }
-
-  .strength-institutionally-influential { --level-color: #4f5d6b; }
-  .strength-institutionally-influential::before { content: 'I'; }
   .strength-officially-endorsed { --level-color: #514a68; }
-  .strength-officially-endorsed::before { content: 'II'; }
   .strength-policy-basis { --level-color: #655047; }
-  .strength-policy-basis::before { content: 'III'; }
   .strength-enforced-doctrine { --level-color: #6a2e35; }
-  .strength-enforced-doctrine::before { content: 'IV'; }
 
   .episode-summary {
-    margin: 1rem 0 0;
-    max-width: 880px;
+    margin: 1.25rem 0 0;
+    max-width: 930px;
     color: var(--muted);
-    font-size: 1.05rem;
-    line-height: 1.62;
+    font-size: 1.03rem;
+    line-height: 1.65;
   }
 
-  .episode-record {
-    margin-top: 1.7rem;
+  .institution-block,
+  .context-block,
+  .consequences-block {
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: minmax(190px, 0.3fr) minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .institution-block {
+    margin-top: 1.5rem;
     border-block: 1px solid var(--line);
   }
 
-  .episode-record-row {
-    display: grid;
-    grid-template-columns: minmax(175px, 0.28fr) minmax(0, 1fr);
-    gap: 1.8rem;
-    align-items: start;
-    padding: 1rem 0;
-  }
+  .context-block { border-bottom: 1px solid var(--line); }
+  .consequences-block { margin-top: 1rem; border-block: 1px solid var(--line); }
 
-  .episode-record-row + .episode-record-row {
-    border-top: 1px solid color-mix(in srgb, var(--line) 78%, transparent);
-  }
-
-  .episode-record-row h3 {
+  .institution-block h3,
+  .context-block h3,
+  .consequences-block h3 {
     margin: 0;
-    color: var(--ink);
-    font-size: 0.74rem;
-    font-weight: 850;
+    font-size: 0.78rem;
     letter-spacing: 0.075em;
-    line-height: 1.45;
     text-transform: uppercase;
   }
 
-  .institution-list,
-  .consequence-list,
-  .source-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .institution-list,
-  .consequence-list {
-    min-width: 0;
-  }
-
-  .institution-list li,
-  .consequence-list li {
+  .type-badges { margin-top: 0.55rem; }
+  .institution-block ul,
+  .consequences-block ul { margin: 0; padding: 0; list-style: none; }
+  .institution-block li,
+  .consequences-block li {
     position: relative;
-    padding: 0 0 0 1rem;
-    line-height: 1.52;
+    padding-left: 1rem;
+    line-height: 1.55;
   }
-
-  .institution-list li + li,
-  .consequence-list li + li {
-    margin-top: 0.52rem;
-  }
-
-  .institution-list li::before,
-  .consequence-list li::before {
+  .institution-block li + li,
+  .consequences-block li + li { margin-top: 0.5rem; }
+  .institution-block li::before,
+  .consequences-block li::before {
     content: '–';
     position: absolute;
     left: 0;
     color: var(--muted);
   }
 
-  .institutional-context p {
-    margin: 0;
-    max-width: 52rem;
+  .context-block p { margin: 0; color: var(--muted); line-height: 1.62; }
+
+  .explanation-grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .explanation-panel {
+    min-width: 0;
+    padding: 1.15rem;
+    border: 1px solid var(--line);
+    border-radius: 0.7rem;
+    background: var(--card);
+  }
+
+  .explanation-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: start;
+  }
+  .explanation-title h3 { margin: 0; font-size: 1rem; }
+  .explanation-panel > p {
+    margin: 0.7rem 0 0;
     color: var(--muted);
-    font-size: 0.92rem;
-    line-height: 1.62;
+    font-size: 0.91rem;
+    line-height: 1.58;
+  }
+  .mechanism-panel {
+    border-top: 4px solid color-mix(in srgb, var(--ink) 70%, var(--muted));
+  }
+  .correction-process-panel { border-top: 4px solid var(--accent-dark); }
+  .correction-period { color: var(--ink) !important; font-weight: 780; }
+  .correction-action strong { color: var(--ink); }
+
+  .status-corrected {
+    border-color: color-mix(in srgb, #236b4b 60%, var(--line)) !important;
+    color: #205d43 !important;
+    background: color-mix(in srgb, #3f9b73 10%, var(--paper)) !important;
+  }
+  .status-partial,
+  .status-ongoing {
+    border-color: color-mix(in srgb, #986b19 60%, var(--line)) !important;
+    color: #76500f !important;
+    background: color-mix(in srgb, #c38a22 11%, var(--paper)) !important;
+  }
+  .status-uncorrected,
+  .status-undocumented {
+    border-color: color-mix(in srgb, #6a2e35 55%, var(--line)) !important;
+    color: #642b32 !important;
+    background: color-mix(in srgb, #9b4650 9%, var(--paper)) !important;
   }
 
-  .source-section {
-    margin-top: 1.8rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--line);
+  .evidence-section {
+    min-width: 0;
+    padding: 1.25rem;
+    border: 1px solid var(--line);
+    border-radius: 0.75rem;
+    background: color-mix(in srgb, var(--paper) 62%, var(--card));
   }
-
-  .source-section h3 {
-    margin: 0 0 0.65rem;
-    font-size: 0.78rem;
-    letter-spacing: 0.075em;
-    text-transform: uppercase;
+  .episode-evidence { margin-top: 1rem; }
+  .evidence-list {
+    margin: 1rem 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+    list-style: none;
+    counter-reset: evidence;
   }
-
-  .source-list li {
-    padding: 1rem 0;
-    border-bottom: 1px solid color-mix(in srgb, var(--line) 72%, transparent);
+  .evidence-item {
+    min-width: 0;
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 0.65rem;
+    background: var(--card);
+    counter-increment: evidence;
   }
-
-  .source-list a {
-    color: var(--accent-dark);
-  }
-
-  .source-list span {
+  .evidence-item::before {
+    content: counter(evidence, decimal-leading-zero);
     display: block;
-    margin-top: 0.15rem;
-    color: var(--muted);
-    font-size: 0.83rem;
+    margin-bottom: 0.65rem;
+    color: var(--accent-dark);
+    font-size: 0.68rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
   }
-
-  .source-list p {
-    margin: 0.4rem 0 0;
-    max-width: 850px;
+  .relation-documents,
+  .relation-supports { border-color: var(--accent-dark); color: var(--accent-dark); }
+  .relation-disputes { border-color: #6a2e35; color: #6a2e35; }
+  .evidence-source {
+    display: block;
+    margin-top: 0.7rem;
+    overflow-wrap: anywhere;
+    color: var(--accent-dark);
+    font-weight: 800;
+    line-height: 1.4;
+    text-underline-offset: 0.16em;
+  }
+  .evidence-publisher {
+    display: block;
+    margin-top: 0.25rem;
     color: var(--muted);
-    font-size: 0.9rem;
+    font-size: 0.78rem;
+  }
+  .evidence-locator,
+  .evidence-note-copy {
+    margin: 0.65rem 0 0;
+    overflow-wrap: anywhere;
+    color: var(--muted);
+    font-size: 0.84rem;
     line-height: 1.5;
   }
+  .evidence-locator strong { color: var(--ink); }
+
+  .source-registry {
+    margin-top: 4rem;
+    border: 1px solid var(--line);
+    border-radius: 0.75rem;
+    background: var(--card);
+  }
+  .source-registry summary {
+    padding: 1.15rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+  }
+  .source-registry summary > span:first-child { display: grid; gap: 0.2rem; }
+  .source-registry summary strong { font-size: 1rem; }
+  .source-registry summary small,
+  .source-registry summary > span:last-child {
+    color: var(--muted);
+    font-size: 0.76rem;
+  }
+  .source-registry > ol { margin: 0; padding: 0 1.25rem 1.25rem; list-style: none; }
+  .source-registry > ol > li {
+    padding: 0.85rem 0;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 0.8rem;
+    align-items: start;
+    border-top: 1px solid var(--line);
+  }
+  .source-number {
+    color: var(--accent-dark);
+    font-size: 0.68rem;
+    font-weight: 900;
+  }
+  .source-registry li a {
+    overflow-wrap: anywhere;
+    color: var(--accent-dark);
+    font-weight: 760;
+  }
+  .source-registry li div > span,
+  .source-registry li small {
+    display: block;
+    margin-top: 0.2rem;
+    color: var(--muted);
+    font-size: 0.76rem;
+  }
+  .source-registry li small { margin-top: 0; white-space: nowrap; }
 
   .catalogue-link {
-    margin-top: 3rem;
+    margin-top: 1.25rem;
     padding: 1.1rem 1.25rem;
     display: flex;
     justify-content: space-between;
@@ -617,49 +998,49 @@ if (linkedEntryId) {
     border-radius: 0.75rem;
     background: var(--card);
   }
+  .catalogue-link span { color: var(--muted); }
+  .catalogue-link a { color: var(--accent-dark); font-weight: 800; }
 
-  .catalogue-link span {
+  .case-footer {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border-top: 1px solid var(--line);
     color: var(--muted);
+    font-size: 0.78rem;
+  }
+  .case-footer a { color: var(--accent-dark); font-weight: 780; }
+
+  @media (max-width: 820px) {
+    .institution-case { padding-top: 2.5rem; }
+    .narrative-grid,
+    .explanation-grid,
+    .evidence-list { grid-template-columns: 1fr; }
+    .episode-header { display: grid; }
+    .episode-meta { justify-content: flex-start; }
+    .institution-block,
+    .context-block,
+    .consequences-block,
+    .impact-context { grid-template-columns: 1fr; gap: 0.65rem; }
   }
 
-  .catalogue-link a {
-    color: var(--accent-dark);
-    font-weight: 800;
-  }
-
-  .reviewed {
-    margin: 2rem 0 0;
-    color: var(--muted);
-    font-size: 0.82rem;
-  }
-
-  @media (max-width: 760px) {
-    .institution-case {
-      padding-top: 2.5rem;
+  @media (max-width: 540px) {
+    .case-header h1 { font-size: clamp(2.35rem, 13vw, 3.4rem); }
+    .episode-card { padding: 1rem; }
+    .evidence-section { padding: 1rem; }
+    .evidence-item { padding: 0.85rem; }
+    .episode-evidence {
+      margin-inline: -1rem;
+      padding-inline: 1rem;
+      border-inline: 0;
+      border-radius: 0;
     }
-
-    .episode-detail-head {
-      flex-direction: column;
-      gap: 0.75rem;
-    }
-
-    .episode-meta {
-      align-items: flex-start;
-    }
-
-    .episode-record-row,
-    .impact-context {
-      grid-template-columns: 1fr;
-      gap: 0.55rem;
-    }
-
-    .impact-context-copy,
-    .institutional-context p {
-      max-width: none;
-    }
-
-    .catalogue-link {
-      flex-direction: column;
-    }
+    .source-registry summary,
+    .catalogue-link,
+    .case-footer { align-items: flex-start; flex-direction: column; }
+    .source-registry > ol > li { grid-template-columns: auto minmax(0, 1fr); }
+    .source-registry li small { grid-column: 2; white-space: normal; }
   }
 </style>

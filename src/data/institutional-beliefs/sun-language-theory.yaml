@@ -1,37 +1,210 @@
+schemaVersion: 2
 title: Sun Language Theory
-claim: Turkish was treated as the primordial language from which the world's other languages ultimately developed.
-currentUnderstanding: Turkish belongs to the Turkic language family and is not the ancestor of all human languages. Historical linguistics reconstructs multiple language families and earlier forms through systematic patterns of sound change, grammar, and documented descent; the Sun Language Theory has no evidentiary basis.
+proposition:
+  summary: >-
+    Turkish was presented as humanity's primordial “mother tongue” and the source of words across all other languages;
+    within the theory, established language families and comparative-historical linguistics were treated as scientifically
+    obsolete.
+correction:
+  summary: >-
+    Turkish is an Oghuz member of the Turkic language family. Similar-looking words or freely manipulated sound segments
+    do not establish descent: comparative reconstruction requires recurring sound and grammatical correspondences.
+    Nothing supports identifying Turkish as the source of every human language, and the theory's universal origin claim
+    extends far beyond what the linguistic record can reconstruct.
 category: Linguistics
-reviewedAt: 2026-08-23
+reviewedAt: '2026-08-23'
+impact:
+  summary: >-
+    For roughly three years, the state-backed language establishment turned the theory into an institutional programme.
+    It was officially declared, placed at the centre of the 1936 language congress, assigned a dedicated congress
+    commission and a dedicated higher-education professorship, and developed across 25 published volumes between 1935
+    and 1938.
+  highlights:
+    - value: '25'
+      label: volumes about the theory published from 1935 through 1938
+    - value: '1'
+      label: dedicated higher-education professorship created for the theory
+  context:
+    - >-
+      The publication count and formal teaching structures show institutional reach. They do not measure how many
+      officials, scholars, students or members of the public personally accepted the proposition.
+    - >-
+      The theory belonged to a broader language-reform and nation-building programme. Sources connect its appeal to a
+      response to European hierarchies of languages and civilizations, but that political setting does not show that every
+      participant shared one motive.
 episodes:
-  - id: turkey-1936-1938
+  - id: turkey-1935-1938
     polity: Turkey
     region: Middle East
-    startYear: 1936
+    startYear: 1935
     endYear: 1938
-    periodLabel: 1936–late 1930s
+    periodLabel: 1935–1938
     strength: officially-endorsed
-    institutionTypes: [government, academy, education]
+    institutionTypes:
+      - government
+      - academy
+      - education
     institutions:
-      - Turkish Language Association (Türk Dil Kurumu)
-      - Third Turkish Language Congress (Üçüncü Türk Dil Kurultayı)
+      - Turkish Language Research Society / Turkish Language Association (Türk Dili Tetkik Cemiyeti / Türk Dil Kurumu)
+      - Third Turkish Language Congress and its Sun Language Theory and Language Comparisons Commission
+      - Faculty of Language, History and Geography, Ankara (then under the Ministry of National Education)
     institutionalContext: >-
-      The Turkish Language Association was the principal institutional carrier. Its Third Turkish Language Congress in 1936 made the Sun Language Theory a formal subject of institutional linguistic work, including a dedicated Güneş-Dil Teorisi ve Dil Karşılaştırmaları Komisyonu. The broader language-reform establishment and state sponsorship are described here rather than listed as if they were separate institutions.
+      Mustafa Kemal Atatürk asked language reformers to develop Hermann Kvergić's 1935 manuscript and followed the work
+      closely. The state-backed Turkish Language Society was the principal carrier: it officially declared the theory in
+      autumn 1935 and made it a central programme of its Third Congress in 1936. The congress created a dedicated
+      Güneş-Dil Teorisi ve Dil Karşılaştırmaları Komisyonu, while the newly founded Ankara faculty created a professorship
+      and courses for the theory. These named bodies define the institutional episode; presidential patronage is described
+      as sponsorship rather than turning Atatürk himself into an institution.
     consequences:
-      - State-sponsored linguistic research
-      - Language policy
-      - National historical narrative
-    summary: The Sun Language Theory was promoted through the state-backed Turkish Language Association and became a central subject of the Third Turkish Language Congress in 1936. The congress proceedings treated it as a new linguistic school and organized a dedicated commission around the theory. It proposed a primordial role for Turkish in the origin of language and was supported for political and national-cultural purposes before being abandoned.
-    sources:
-      - title: Güneş Dil Teorisi
-        url: https://ataturkansiklopedisi.gov.tr/detay/473
-        publisher: Atatürk Encyclopedia
-        note: Describes the theory, Atatürk's support, its political rather than scientific basis, and its treatment at the Third Turkish Language Congress.
-      - title: Güneş Dil Teorisi Raporu — Third Turkish Language Congress commission report
-        url: https://tdk.gov.tr/icerik/diger-icerikler/gunes-dil-teorisi-raporu-2/
-        publisher: Turkish Language Association
-        note: TDK archival page reproducing the report and membership of the Third Turkish Language Congress's Güneş-Dil Teorisi ve Dil Karşılaştırmaları Komisyonu.
-      - title: Üçüncü Türk Dil Kurultayı (24–31 Ağustos 1936) — Tezler, Müzakere Zabıtları
-        url: https://tdk.gov.tr/wp-content/uploads/2024/10/3-Ucuncu-Turk-Dil-Kurultayi-sari.pdf
-        publisher: Turkish Language Association
-        note: Direct 451-page TDK edition of the 1936 congress proceedings; the agenda and papers place the Sun Language Theory at the centre of the congress's formal linguistic programme.
+      - Official linguistic research and publication were redirected toward unrestricted Turkish derivations of words in other languages
+      - A dedicated faculty professorship and courses taught the theory
+      - The theory dismissed established language-family classification and comparative etymology as obsolete
+      - The 1936 language congress gave the theory a dedicated commission and a central place in its programme
+      - The theory reinforced a national narrative that placed Turkish at the origin of language and civilization
+    summary: >-
+      From autumn 1935 through 1938, presidential patronage and the Turkish Language Society elevated the Sun Language
+      Theory into official linguistic work. Its claim that all languages ultimately derived from Turkish shaped congress
+      proceedings, publications and university teaching. This was a short, intensive institutional episode; participation
+      in those structures does not establish that every scholar involved privately accepted the theory.
+    mechanism:
+      kind: endorsement
+      summary: >-
+        Presidential sponsorship and official adoption by the Turkish Language Society moved the proposition from an
+        submitted manuscript into a research, publication and teaching programme. A dedicated congress commission,
+        official proceedings and a higher-education professorship then supplied channels for its dissemination.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 1938 onward
+      action: After Atatürk's death in November 1938, the Ankara course ended and institutional publication and promotion of the theory ceased.
+      summary: >-
+        The theory underwent a quiet institutional abandonment, and at least one prominent former advocate later opposed
+        it. The available record does not document a formal retraction by all of its institutional carriers or an official
+        account acknowledging why its linguistic method failed, so practical withdrawal is classified as a partial
+        institutional correction.
+sources:
+  - id: sun-ataturk-encyclopedia
+    title: Güneş Dil Teorisi
+    url: https://ataturkansiklopedisi.gov.tr/detay/473
+    publisher: Atatürk Encyclopedia
+  - id: sun-tdk-commission
+    title: Güneş Dil Teorisi Raporu — Third Turkish Language Congress commission report
+    url: https://tdk.gov.tr/icerik/diger-icerikler/gunes-dil-teorisi-raporu-2/
+    publisher: Turkish Language Association
+  - id: sun-tdk-congress
+    title: Üçüncü Türk Dil Kurultayı (24–31 Ağustos 1936) — Tezler, Müzakere Zabıtları
+    url: https://tdk.gov.tr/wp-content/uploads/2024/10/3-Ucuncu-Turk-Dil-Kurultayi-sari.pdf
+    publisher: Turkish Language Association
+  - id: sun-maarif-encyclopedia
+    title: Güneş-Dil Teorisi
+    url: https://turkmaarifansiklopedisi.org.tr/gunes-dil-teorisi
+    publisher: Türk Maarif Ansiklopedisi
+  - id: sun-tetik-classification
+    title: The Reception of European Typological Language Classification among the Turkish Language Reformers of 1932–1936
+    url: https://www.cahiers-clsl.ch/article/view/1961/1716
+    publisher: Cahiers du Centre de Linguistique et des Sciences du Langage
+  - id: sun-cambridge-turkish
+    title: Introduction — A Student Grammar of Turkish
+    url: https://www.cambridge.org/core/books/abs/student-grammar-of-turkish/introduction/5C534399EFE43902C585A533DE92F6E6
+    publisher: Cambridge University Press
+  - id: sun-bls-comparative-method
+    title: Reconsidering the “Isolating Protolanguage Hypothesis” in the Evolution of Morphology
+    url: https://escholarship.org/uc/item/5378602b
+    publisher: Berkeley Linguistics Society / University of California eScholarship
+  - id: sun-ankara-faculty-history
+    title: About the Faculty of Language and History-Geography
+    url: https://www.dtcf.ankara.edu.tr/corporate/about-the-faculty/
+    publisher: Ankara University Faculty of Language, History and Geography
+evidence:
+  - id: sun-maarif-proposition
+    sourceId: sun-maarif-encyclopedia
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Documents the theory's claim that Turkish was the mother of all languages and traces its development from Kvergić's
+      1935 manuscript through Atatürk's instruction to language reformers.
+  - id: sun-cambridge-correction
+    sourceId: sun-cambridge-turkish
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: Identifies modern Turkish as a member of the Southwestern, or Oghuz, branch of the Turkic language family.
+  - id: sun-bls-method-correction
+    sourceId: sun-bls-comparative-method
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Explains that lexical resemblance alone is insufficient for demonstrating descent and that the comparative method
+      depends on regular sound correspondences across morphological systems.
+  - id: sun-ataturk-context
+    sourceId: sun-ataturk-encyclopedia
+    relation: contextualizes
+    target: {scope: episode, episodeId: turkey-1935-1938, aspect: context}
+    note: Describes the theory, Atatürk's support, its political rather than scientific basis, and its treatment at the Third Turkish Language Congress.
+  - id: sun-ankara-faculty-context
+    sourceId: sun-ankara-faculty-history
+    relation: contextualizes
+    target: {scope: episode, episodeId: turkey-1935-1938, aspect: context}
+    note: >-
+      Official faculty history establishing that the Faculty opened in 1935 under the Ministry of National Education and
+      did not become part of Ankara University until 1946.
+  - id: sun-tdk-report-carrier
+    sourceId: sun-tdk-commission
+    relation: documents
+    target: {scope: episode, episodeId: turkey-1935-1938, aspect: carrier}
+    note: TDK archival page reproducing the report and membership of the Third Turkish Language Congress's Güneş-Dil Teorisi ve Dil Karşılaştırmaları Komisyonu.
+  - id: sun-tdk-proceedings-mechanism
+    sourceId: sun-tdk-congress
+    relation: documents
+    target: {scope: episode, episodeId: turkey-1935-1938, aspect: mechanism}
+    note: Direct 451-page TDK edition of the 1936 congress proceedings; the agenda and papers place the Sun Language Theory at the centre of the congress's formal linguistic programme.
+  - id: sun-tetik-carrier
+    sourceId: sun-tetik-classification
+    relation: documents
+    target: {scope: episode, episodeId: turkey-1935-1938, aspect: carrier}
+    note: >-
+      Documents official declaration in autumn 1935, the January 1936 creation of a Sun Language Theory professorship at
+      the Ankara faculty, textbooks and teaching by the chair holder.
+  - id: sun-tetik-mechanism
+    sourceId: sun-tetik-classification
+    relation: supports
+    target: {scope: episode, episodeId: turkey-1935-1938, aspect: mechanism}
+    note: >-
+      Shows how official declaration, university teaching and the 1936 congress converted the theory into a coordinated
+      institutional programme.
+  - id: sun-maarif-consequences
+    sourceId: sun-maarif-encyclopedia
+    relation: supports
+    target: {scope: episode, episodeId: turkey-1935-1938, aspect: consequences}
+    note: >-
+      Describes the congress commission, the theory's nationalist and civilizational setting, the forced etymologies that
+      damaged its credibility, and the subsequent end of university instruction.
+  - id: sun-tetik-consequences
+    sourceId: sun-tetik-classification
+    relation: documents
+    target: {scope: episode, episodeId: turkey-1935-1938, aspect: consequences}
+    note: >-
+      Documents a university professorship and textbooks, and reproduces the theory's own dismissal of language-family
+      classification and comparative form-based etymology as scientifically obsolete.
+  - id: sun-maarif-impact
+    sourceId: sun-maarif-encyclopedia
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: Reports that 25 volumes of work on the theory appeared between 1935 and 1938.
+  - id: sun-tetik-impact
+    sourceId: sun-tetik-classification
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: Documents the dedicated Ankara professorship and describes the theory as a three-year episode in Turkish linguistics.
+  - id: sun-maarif-partial-correction
+    sourceId: sun-maarif-encyclopedia
+    relation: documents
+    target: {scope: episode, episodeId: turkey-1935-1938, aspect: institutional-correction}
+    note: >-
+      Reports that the theory fell off the agenda, classes ended after Atatürk's death, and a leading former commission
+      member abandoned and opposed his earlier claims.
+  - id: sun-tetik-partial-correction
+    sourceId: sun-tetik-classification
+    relation: documents
+    target: {scope: episode, episodeId: turkey-1935-1938, aspect: institutional-correction}
+    note: >-
+      Describes the theory's quiet death after November 1938 and the cancellation of the Ankara course, supporting
+      abandonment while not documenting a formal institutional retraction.

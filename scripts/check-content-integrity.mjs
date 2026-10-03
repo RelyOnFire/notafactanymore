@@ -99,13 +99,12 @@ const contentId = (dir, file) =>
 
 const schemaVersion = (source, label, errors) => {
   const raw = scalar(source, 'schemaVersion');
-  if (raw === undefined) return 1;
   const version = Number(raw);
-  if (version !== 1 && version !== 2) {
-    errors.push(`${label}: schemaVersion is ${JSON.stringify(raw)}, expected 1 or 2`);
+  if (raw === undefined || version !== 2) {
+    errors.push(`${label}: schemaVersion is ${JSON.stringify(raw)}, expected 2`);
     return undefined;
   }
-  return version;
+  return 2;
 };
 
 const topLevelKey = (source, key) =>
@@ -310,9 +309,9 @@ for (const file of institutionalFiles) {
       `${label}: episodes must use a supported block-list format (indentless or indented sequence items)`,
     );
   }
-  if (version === 2 && evidenceItems.length === 0) {
+  if (evidenceItems.length === 0) {
     errors.push(
-      `${label}: v2 evidence must use a supported block-list format (indentless or indented sequence items)`,
+      `${label}: evidence must use a supported block-list format (indentless or indented sequence items)`,
     );
   }
 
@@ -328,7 +327,7 @@ for (const file of institutionalFiles) {
   if (episodeItems.some((item) => !item.id)) {
     errors.push(`${label}: an episode is missing id`);
   }
-  if (version === 2 && evidenceItems.some((item) => !item.id)) {
+  if (evidenceItems.some((item) => !item.id)) {
     errors.push(`${label}: an evidence link is missing id`);
   }
 
@@ -370,9 +369,9 @@ for (const file of institutionalDeFiles) {
       `${label}: episodes must use a supported block-list format (indentless or indented sequence items)`,
     );
   }
-  if (version === 2 && evidenceItems.length === 0) {
+  if (evidenceItems.length === 0) {
     errors.push(
-      `${label}: v2 evidence must use a supported block-list format (indentless or indented sequence items)`,
+      `${label}: evidence must use a supported block-list format (indentless or indented sequence items)`,
     );
   }
 
@@ -402,7 +401,7 @@ for (const file of institutionalDeFiles) {
   if (episodeItems.some((item) => !item.id)) {
     errors.push(`${label}: an episode is missing id`);
   }
-  if (version === 2 && evidenceItems.some((item) => !item.id)) {
+  if (evidenceItems.some((item) => !item.id)) {
     errors.push(`${label}: an evidence translation is missing id`);
   }
 
@@ -441,23 +440,21 @@ for (const [id, belief] of institutionalById) {
     );
   }
 
-  if (belief.version === 2 && translation.version === 2) {
-    if (!arraysEqual(belief.evidenceIds, translation.evidenceIds)) {
-      errors.push(
-        `${id}: German evidence ids/order [${translation.evidenceIds.join(', ')}] do not match canonical [${belief.evidenceIds.join(', ')}]`
-      );
-    }
-    if (belief.hasImpact && !translation.hasImpact) {
-      errors.push(`${id}: v2 German translation is missing canonical impact`);
-    }
-
-    const translatedEvidenceById = new Map(
-      translation.evidenceItems.map((item) => [item.id, item]),
+  if (!arraysEqual(belief.evidenceIds, translation.evidenceIds)) {
+    errors.push(
+      `${id}: German evidence ids/order [${translation.evidenceIds.join(', ')}] do not match canonical [${belief.evidenceIds.join(', ')}]`
     );
-    for (const item of belief.evidenceItems) {
-      if (item.hasNote && !translatedEvidenceById.get(item.id)?.hasNote) {
-        errors.push(`${id}: German evidence ${JSON.stringify(item.id)} is missing its translated note`);
-      }
+  }
+  if (belief.hasImpact && !translation.hasImpact) {
+    errors.push(`${id}: German translation is missing canonical impact`);
+  }
+
+  const translatedEvidenceById = new Map(
+    translation.evidenceItems.map((item) => [item.id, item]),
+  );
+  for (const item of belief.evidenceItems) {
+    if (item.hasNote && !translatedEvidenceById.get(item.id)?.hasNote) {
+      errors.push(`${id}: German evidence ${JSON.stringify(item.id)} is missing its translated note`);
     }
   }
 }
@@ -471,5 +468,5 @@ for (const id of institutionalTranslationById.keys()) {
 if (errors.length) fail(errors);
 
 console.log(
-  `Content integrity OK: ${enFiles.length} English entries, ${deFiles.length} German translations, ${FEATURED_LIMIT} featured cards; ${institutionalFiles.length} Institutional beliefs and ${institutionalDeFiles.length} German Institutional translations.`
+  `Content integrity OK: ${enFiles.length} English entries, ${deFiles.length} German translations, ${FEATURED_LIMIT} featured cards; ${institutionalFiles.length} v2 Institutional beliefs and ${institutionalDeFiles.length} v2 German Institutional translations.`
 );

@@ -272,7 +272,7 @@ episodes:
         former Czechoslovak system and its administration has remained troubled. The Czech Ombudsman documented delayed
         decisions, overly formal demands for missing medical records and other barriers in the compensation process.
 sources:
-  - id: eugenics-reilly-us
+  - id: eugenics-reilly-review
     title: Eugenics and Involuntary Sterilization, 1907–2015
     url: https://pubmed.ncbi.nlm.nih.gov/26322647/
     publisher: Annual Review of Genomics and Human Genetics
@@ -292,10 +292,6 @@ sources:
     title: Erbgesundheitsgerichte im Regierungsbezirk Magdeburg, 1934–1946 — Bestand C 136 I
     url: https://recherche.landesarchiv.sachsen-anhalt.de/Query/detail.aspx?ID=1156663
     publisher: Landesarchiv Sachsen-Anhalt
-  - id: eugenics-reilly-germany
-    title: Eugenics and Involuntary Sterilization, 1907–2015
-    url: https://pubmed.ncbi.nlm.nih.gov/26322647/
-    publisher: Annual Review of Genomics and Human Genetics
   - id: eugenics-sweden-sou
     title: Steriliseringsfrågan i Sverige 1935–1975 — SOU 2000:20
     url: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/statens-offentliga-utredningar/steriliseringsfragan-i-sverige-1935-1975_gob320/html/
@@ -405,14 +401,14 @@ evidence:
       Joint UN standard that sterilization must rest on the individual's full, free and informed decision and be free
       from discrimination, coercion and violence.
   - id: eugenics-reilly-impact
-    sourceId: eugenics-reilly-us
+    sourceId: eugenics-reilly-review
     relation: supports
     target: {scope: belief, aspect: impact}
     locator: abstract
     note: >-
       Cross-national review supporting the scale of U.S. and German programs and their shared reliance on eugenic heredity claims.
   - id: eugenics-us-reilly-consequences
-    sourceId: eugenics-reilly-us
+    sourceId: eugenics-reilly-review
     relation: supports
     target: {scope: episode, episodeId: united-states-1907-1974, aspect: consequences}
     locator: abstract
@@ -485,7 +481,7 @@ evidence:
     target: {scope: episode, episodeId: germany-1933-1945, aspect: mechanism}
     locator: archival description, Bestand C 136 I
   - id: eugenics-germany-reilly-consequences
-    sourceId: eugenics-reilly-germany
+    sourceId: eugenics-reilly-review
     relation: supports
     target: {scope: episode, episodeId: germany-1933-1945, aspect: consequences}
     locator: abstract

@@ -1,68 +1,117 @@
+schemaVersion: 2
 locale: de
 entryId: reichstag-fire-communist-insurrection
 sourceReviewedAt: '2026-08-25'
 title: Der Reichstagsbrand als Beleg für einen kommunistischen Aufstand
-claim: >-
-  Die nationalsozialistischen Behörden behandelten den Reichstagsbrand als Beleg für eine kommunistische
-  Umsturzverschwörung, die den Staat bedrohe, und begründeten mit dieser behaupteten Gefahr außerordentliche
-  Notstandsbefugnisse und politische Repression.
-currentUnderstanding: >-
-  Der Reichstag brannte am 27. Februar 1933, und Marinus van der Lubbe wurde wegen der Brandstiftung verurteilt.
-  Die von der Regierung behauptete weitergehende kommunistische Verschwörung ließ sich jedoch nicht belegen. Vier
-  weitere Angeklagte, denen eine Beteiligung an einem Plan zur Auslösung eines kommunistischen Aufstands vorgeworfen
-  wurde, sprach das Reichsgericht mangels Beweisen frei; das Regime hielt dennoch an der Verschwörungsthese fest.
-  Ob van der Lubbe beim Brand selbst völlig allein handelte, ist in der Forschung weiterhin umstritten und muss für
-  diese Korrektur nicht entschieden werden.
+proposition:
+  summary: >-
+    Die Exekutivbehörden und die Staatsanwaltschaft des nationalsozialistischen Deutschlands behandelten den
+    Reichstagsbrand vom 27. Februar 1933 als Beleg für eine kommunistische Umsturzverschwörung, die den Staat bedrohe.
+    Sie schrieben diese behauptete Gefahr in die Notverordnung des folgenden Tages ein, nutzten sie zur Unterdrückung
+    der politischen Opposition und klagten fünf Männer wegen gemeinschaftlicher Brandstiftung und Hochverrats mit dem
+    Ziel an, einen Aufstand auszulösen.
+correction:
+  summary: >-
+    Der Reichstag brannte, und Marinus van der Lubbe wurde wegen der Brandstiftung verurteilt. Der Prozess von 1933
+    belegte jedoch die behauptete weitergehende kommunistische Verschwörung nicht: Das Reichsgericht sprach die vier
+    übrigen Angeklagten mangels Beweisen frei. Die NS-Behörden hielten sie dennoch in Haft und hielten an der
+    Verschwörungsthese fest. Ob van der Lubbe völlig allein handelte oder Mittäter hatte, ist in der Forschung weiterhin
+    umstritten; die Zurückweisung der weitergehenden Aufstandsbehauptung der Regierung setzt deshalb keine endgültige
+    Antwort auf die Frage nach allen Beteiligten am Brand selbst voraus.
 impact:
   summary: >-
-    Die behauptete kommunistische Revolutionsgefahr wurde unmittelbar zur rechtlichen Begründung der
-    Reichstagsbrandverordnung vom 28. Februar 1933. Sie setzte zentrale Grundrechte außer Kraft und erlaubte weitreichende
-    Eingriffe in persönliche Freiheit, Meinungs- und Pressefreiheit, Versammlungs- und Vereinigungsfreiheit,
-    Kommunikationsgeheimnis, Hausrecht und Eigentum. Damit wurde die Behauptung zu einem dauerhaften Bestandteil der
-    Repressions- und Polizeistaatsmechanik des NS-Regimes, obwohl der Strafprozess die weitergehende Verschwörung gegen
-    vier der fünf Angeklagten nicht nachweisen konnte.
+    Die behauptete kommunistische Revolutionsgefahr wurde zur erklärten rechtlichen Grundlage der
+    Reichstagsbrandverordnung vom 28. Februar 1933. Die Verordnung setzte sieben Verfassungsartikel außer Kraft und
+    erlaubte weitreichende Beschränkungen persönlicher Freiheit, von Meinungsäußerung, Presse, Versammlung und
+    Vereinigung, des Kommunikationsgeheimnisses sowie Durchsuchungen, Beschlagnahmen und Eingriffe in das Eigentum.
+    Sie stützte Massenverhaftungen und die Unterdrückung kommunistischer und sozialdemokratischer Organisationen und
+    Publikationen und blieb eine rechtliche Grundlage des nationalsozialistischen Polizeistaats, obwohl das
+    Strafverfahren die weitergehende Verschwörung gegen vier der fünf Angeklagten nicht beweisen konnte.
   highlights:
-  - value: '7'
-    label: Artikel der Weimarer Reichsverfassung, die durch die Reichstagsbrandverordnung außer Kraft gesetzt wurden
-  - value: 4 von 5
-    label: Angeklagte im Reichstagsbrandprozess, die mangels Beweisen freigesprochen wurden
-  - value: 1933–1945
-    label: der durch die Verordnung geschaffene Ausnahmezustand blieb während der NS-Herrschaft formell bestehen
+    - value: '7'
+      label: durch die Reichstagsbrandverordnung außer Kraft gesetzte Artikel der Weimarer Reichsverfassung
+    - value: 4 von 5
+      label: im Reichstagsbrandprozess mangels Beweisen freigesprochene Angeklagte
+    - value: 1933–1945
+      label: der durch die Verordnung geschaffene Ausnahmezustand blieb unter dem NS-Regime formell in Kraft
   context:
-  - >-
-    Ob Nationalsozialisten selbst an der Brandlegung beteiligt waren, ist historisch weiterhin umstritten. Die
-    dokumentierte institutionelle Falschbehauptung ist enger: Die Behörden behandelten den Brand als Beleg für eine
-    kommunistische Umsturzverschwörung und begründeten damit den Notstand.
-  - >-
-    Van der Lubbe wurde verurteilt und hingerichtet. Das Beweisproblem betraf die weitergehende Anklagethese, er habe
-    gemeinsam mit vier kommunistischen Mitangeklagten durch Brandstiftung und Hochverrat einen Aufstand auslösen wollen.
-  - >-
-    Die Verordnung wirkte weit über die Ermittlungen zum Brand hinaus: Der von ihr geschaffene Ausnahmezustand blieb
-    bis zum Zusammenbruch des NS-Regimes 1945 bestehen.
+    - >-
+      Ob NS-Funktionäre selbst an der Brandlegung beteiligt waren, ist historisch weiterhin umstritten. Die
+      dokumentierte institutionelle Falschbehauptung ist enger: Die Behörden behandelten den Brand als Beleg für eine
+      kommunistische Umsturzverschwörung und rechtfertigten damit Notstandsmaßnahmen.
+    - >-
+      Van der Lubbe wurde verurteilt und hingerichtet. Das Beweisversagen betraf die weitergehende Anklagethese, er und
+      vier kommunistische Angeklagte hätten gemeinsam Brandstiftung und Hochverrat begangen, um einen Aufstand
+      auszulösen. Die rechtliche Aufhebung von van der Lubbes Urteil im Jahr 2007 beruhte auf einem Gesetz zur Aufhebung
+      nationalsozialistischer Unrechtsurteile und war kein Freispruch in der Sache.
+    - >-
+      Die Verordnung wirkte weit über die Untersuchung der Brandstiftung hinaus. Ihre Ausnahmebefugnisse wurden zum
+      gewöhnlichen Instrumentarium nationalsozialistischer Repression, und der von ihr geschaffene Ausnahmezustand
+      wurde während der zwölfjährigen Herrschaft des Regimes nicht aufgehoben.
 episodes:
-- id: nazi-germany-1933-1945
-  polity: NS-Deutschland
-  institutions:
-  - Reichsregierung
-  - Reichsministerium des Innern
-  institutionalContext: >-
-    Am 28. Februar 1933, einen Tag nach dem Brand, erließ Reichspräsident Paul von Hindenburg auf Betreiben der Regierung
-    Adolf Hitlers die Verordnung zum Schutz von Volk und Staat. Schon ihre Präambel erklärte sie zur Abwehr
-    „kommunistischer staatsgefährdender Gewaltakte“. Sie setzte sieben Verfassungsartikel außer Kraft und ermöglichte
-    außergewöhnliche Eingriffe in Grundrechte und staatliche Zuständigkeiten. Parallel beschuldigten die Machthaber
-    Kommunisten eines geplanten Umsturzes und klagten fünf Männer wegen gemeinschaftlicher Brandstiftung und Hochverrats
-    zur Auslösung eines kommunistischen Aufstands an. Im Dezember 1933 wurde van der Lubbe verurteilt; die vier übrigen
-    Angeklagten wurden mangels Beweisen freigesprochen. Das Regime hielt trotzdem an der Verschwörungsthese fest, und
-    die Notstandsverordnung blieb bis 1945 in Kraft.
-  consequences:
-  - Außerkraftsetzung zentraler Grundrechte auf persönliche Freiheit, Meinungsäußerung, Presse, Versammlung und Vereinigung
-  - Ausweitung von Haussuchungen, Beschlagnahmen, Überwachung der Kommunikation und Eingriffen des Reichs in die Länder
-  - Massenhafte politische Verfolgung einschließlich Haft sowie Unterdrückung von Organisationen und Publikationen
-  - Fortbestand des Notstandsrechts, obwohl die weitergehende kommunistische Verschwörung im Prozess nicht bewiesen wurde
-  summary: >-
-    Der Reichstagsbrand wurde nicht nur zum Gegenstand eines Strafverfahrens, sondern zum Tatsachenkern eines
-    dauerhaften Notstandsregimes. Die Verordnung vom 28. Februar berief sich ausdrücklich auf kommunistische Gewaltakte,
-    die den Staat bedrohten, und setzte sieben Verfassungsgarantien außer Kraft. Im anschließenden Prozess versuchte die
-    Anklage zu beweisen, fünf Männer hätten gemeinsam einen kommunistischen Aufstand vorbereiten wollen. Vier wurden
-    mangels Beweisen freigesprochen. Dennoch gab die Regierung weder die Verschwörungserzählung noch die damit
-    verbundenen Notstandsbefugnisse auf; der Ausnahmezustand bestand bis 1945 fort.
+  - id: nazi-germany-1933-1945
+    polity: NS-Deutschland
+    institutions:
+      - Reichspräsident Paul von Hindenburg
+      - Reichsregierung unter Adolf Hitler
+      - Reichsministerium des Innern
+      - Reichsministerium der Justiz
+      - Oberreichsanwalt beim Reichsgericht
+      - Reichsgericht
+    institutionalContext: >-
+      Am 28. Februar 1933, einen Tag nach dem Brand, erließ Reichspräsident Paul von Hindenburg auf Betreiben der
+      Regierung Adolf Hitlers die Verordnung des Reichspräsidenten zum Schutz von Volk und Staat. Ihre Präambel
+      bezeichnete die Maßnahme ausdrücklich als Abwehr kommunistischer staatsgefährdender Gewaltakte. Hindenburg,
+      Hitler, Innenminister Wilhelm Frick und Justizminister Franz Gürtner unterzeichneten sie; Reichs-, Landes- und
+      Kommunalbehörden vollzogen sie. Der Oberreichsanwalt klagte anschließend van der Lubbe, den KPD-Fraktionsvorsitzenden
+      Ernst Torgler sowie die bulgarischen Kommunisten Georgi Dimitroff, Blagoi Popoff und Vasil Taneff wegen Hochverrats
+      und gemeinschaftlicher Brandstiftung zur Auslösung eines kommunistischen Aufstands an. Das Reichsgericht
+      verurteilte van der Lubbe, sprach die vier übrigen Angeklagten aber mangels Beweisen frei.
+    consequences:
+      - Außerkraftsetzung der Verfassungsgarantien für persönliche Freiheit, Meinungsäußerung, Presse, Versammlung und Vereinigung
+      - Ausweitung von Durchsuchungen, Beschlagnahmen, Kommunikationsüberwachung und Eingriffen des Reichs in die Länder
+      - Massenhafte Inhaftierung politischer Gegner und Unterdrückung kommunistischer und sozialdemokratischer Organisationen und Publikationen
+      - Fortgesetzte Notstandsregierung, nachdem die Anklage die weitergehende kommunistische Verschwörung gegen vier Angeklagte nicht beweisen konnte
+    summary: >-
+      Der Brand wurde zur Tatsachengrundlage eines Notstandsregimes und blieb nicht bloß Gegenstand einer
+      Brandstiftungsuntersuchung. Die Verordnung berief sich ausdrücklich auf kommunistische Gewalt, die den Staat
+      bedrohe, und setzte sieben Verfassungsgarantien außer Kraft. Anschließend versuchten die Behörden, dieselbe
+      Aufstandsbehauptung in ein Strafurteil zu überführen. Die vier Freisprüche offenbarten das Beweisversagen der
+      Anklage, doch die Regierung behielt sowohl die Verschwörungserzählung als auch die damit verbundenen
+      Notstandsbefugnisse bei. Der Ausnahmezustand dauerte bis zum Ende der NS-Herrschaft an.
+    mechanism:
+      summary: >-
+        Die Exekutive überführte die Verschwörungsbehauptung in eine Notverordnung; Innen-, Justiz-, Polizei-, Landes-
+        und Kommunalbehörden nutzten sie für Verhaftungen, Zensur, Durchsuchungen, Beschlagnahmen und Unterdrückung; der
+        Oberreichsanwalt verfolgte vor dem Reichsgericht eine Anklage wegen gemeinschaftlicher Brandstiftung und Hochverrats.
+    institutionalCorrection:
+      periodLabel: 23. Dezember 1933
+      action: >-
+        Das Reichsgericht sprach Torgler, Dimitroff, Popoff und Taneff mangels Beweisen frei und verurteilte van der Lubbe.
+      summary: >-
+        Die Freisprüche waren eine amtliche Niederlage der Beweisführung für die behauptete kommunistische
+        Fünf-Personen-Verschwörung, aber keine Rücknahme durch die Regierung. Die vier Männer blieben in Haft, die
+        NS-Behörden hielten an der Verschwörungsthese fest, und die Notverordnung blieb bis zum Ende des Regimes 1945
+        in Kraft.
+evidence:
+  - id: reichstag-fire-decree-proposition
+  - id: reichstag-fire-trial-correction
+  - id: reichstag-fire-bundestag-impact
+  - id: reichstag-fire-decree-carrier
+    note: >-
+      Englische Übersetzung mit Nachweis der deutschen Quelle für die Reichstagsbrandverordnung. Die Präambel
+      bezeichnet die Verordnung als Abwehrmaßnahme gegen kommunistische staatsgefährdende Gewaltakte; § 1 setzt sieben
+      benannte Verfassungsartikel außer Kraft.
+  - id: reichstag-fire-decree-mechanism
+  - id: reichstag-fire-trial-carrier
+  - id: reichstag-fire-trial-institutional-correction
+    note: >-
+      Amtliche Archivdarstellung der Beschuldigung eines kommunistischen Umsturzplans, der Anklagethese einer
+      gemeinschaftlichen Brandstiftung zur Auslösung eines Aufstands, der Freisprüche von vier Angeklagten mangels
+      Beweisen und des Festhaltens des Regimes an der kommunistischen Verschwörungsthese; sie weist außerdem darauf hin,
+      dass die Urheberschaft des Brandes weiterhin umstritten ist.
+  - id: reichstag-fire-trial-context
+  - id: reichstag-fire-bundestag-consequences
+    note: >-
+      Amtliche Parlamentsgeschichte, die die Unterdrückung politischer Rechte durch die Verordnung erläutert und
+      festhält, dass der von ihr geschaffene Ausnahmezustand vor 1945 nicht aufgehoben wurde.

@@ -1,39 +1,298 @@
+schemaVersion: 2
 title: Turkish History Thesis
-claim: Turks were treated as an ancient white or “Alpine” race whose ancestors carried civilization outward from Central Asia and founded or strongly shaped many of the world's early civilizations.
-currentUnderstanding: Modern populations are products of complex migration and mixture, not discrete civilizational races. The obsolete “Alpine,” “Caucasoid,” and similar racial taxonomies do not describe natural human divisions, and the origins of ancient civilizations cannot be assigned to a single modern ethnic or racial people.
+proposition:
+  summary: >-
+    Early Republican Turkish institutions treated Turks as an ancient white, brachycephalic or “Alpine” race whose
+    ancestors migrated from Central Asia and created or decisively shaped many of the world's earliest civilizations.
+correction:
+  summary: >-
+    Human biological variation does not divide people into discrete “Alpine,” “Caucasoid” or other continental races.
+    Modern populations in Turkey show extensive variation and admixture, while ancient DNA from Anatolia records both
+    substantial local continuity and incoming ancestries. Neither skull measurements nor a modern national identity can
+    establish that Sumerians, Hittites, Egyptians, Chinese or other ancient peoples belonged to one modern ethnic or
+    racial nation.
 category: Race, anthropology and historiography
-reviewedAt: 2026-08-23
+reviewedAt: '2026-08-23'
+impact:
+  summary: >-
+    From 1931 through 1941, the four-volume Tarih series published by the Ministry of Education carried the thesis into
+    high-school history, while state-sponsored congresses in 1932 and 1937 promoted it as a research programme. A second
+    arm of the programme gathered 64,000 anthropometric forms in 1937. After incomplete or incorrectly completed forms
+    were excluded, the General Directorate of Statistics calculated results for 59,728 people. Those measurements fed a
+    1939 dissertation and a 1940 Turkish Historical Society publication that used physical classification to support the
+    thesis's racial and civilizational claims.
+  highlights:
+    - value: '4'
+      label: volumes in the official high-school history series
+      note: The series was used from 1931 through 1941; publication and use do not establish that every teacher or student accepted its claims.
+    - value: '2'
+      label: state-sponsored Turkish History Congresses held during the episode
+      note: The first two congresses met in 1932 and 1937.
+    - value: '59,728'
+      label: usable individual records in the anthropometric calculations
+      note: Field teams collected 64,000 forms; incomplete or incorrectly completed forms were removed before calculation.
+  context:
+    - >-
+      The thesis answered European depictions of Turks as a supposedly inferior, non-white and civilization-destroying
+      people and formed part of an early Republican nation-building project. That context explains its institutional
+      appeal without validating its racial categories or historical conclusions.
+    - >-
+      The survey's 64,000 collected forms and 59,728 analyzed records are measures of administrative reach. They are not
+      estimates of how many people believed the thesis, and the present evidence does not support a numerical estimate of
+      its social harm.
+    - >-
+      Genetic ancestry, language, culture and political identity are different kinds of evidence. Modern and ancient DNA
+      can disprove a model of pure, fixed races, but genetic similarity by itself does not assign an ancient civilization
+      to a modern nation.
+    - >-
+      After Atatürk's death, new textbooks abandoned the strongest claim that Turks were the source of every civilization.
+      The Turkish-centered organization of history remained influential, so the curriculum change was substantial but
+      incomplete rather than a full institutional repudiation.
 episodes:
-  - id: turkey-1931-1939
+  - id: turkey-curriculum-1930-1941
     polity: Turkey
     region: Middle East
-    startYear: 1931
-    endYear: 1939
-    periodLabel: 1931–late 1930s
-    strength: officially-endorsed
-    institutionTypes: [government, academy, education]
+    startYear: 1930
+    endYear: 1941
+    periodLabel: 1930–1941
+    strength: policy-basis
+    institutionTypes:
+      - government
+      - academy
+      - education
     institutions:
-      - Türk Tarihi Tetkik Cemiyeti / Türk Tarih Kurumu
-      - Maarif Vekâleti
-      - Sıhhat ve İçtimaî Muavenet Vekâleti
-      - İstatistik Umum Müdürlüğü
+      - Türk Tarihini Tetkik Heyeti / Türk Tarihi Tetkik Cemiyeti / Türk Tarih Kurumu
+      - Maarif Vekâleti (Ministry of Education)
     institutionalContext: >-
-      The Türk Tarihi Tetkik Cemiyeti, renamed Türk Tarih Kurumu in the mid-1930s, developed the thesis and prepared the four-volume secondary-school history series published by the Maarif Vekâleti. The 1937 nationwide anthropometric survey was organized through the health ministry, with the İstatistik Umum Müdürlüğü processing the resulting records. Congresses and individual researchers were important parts of this machinery, but they are not substituted for the formal institutions that carried the programme.
+      A sixteen-member history committee formed within the Türk Ocakları in 1930 and produced Türk Tarihinin Ana Hatları.
+      Reconstituted in 1931 as the Türk Tarihi Tetkik Cemiyeti and renamed Türk Tarih Kurumu in 1935, the body prepared the
+      four-volume Tarih series that the Ministry of Education published for secondary schools. A condensed outline also
+      entered middle-school teaching. The state-sponsored history congresses of 1932 and 1937 supplied prominent forums
+      for the thesis, but the named society and ministry are the formal carriers recorded here.
     consequences:
-      - National history curriculum
-      - State-sponsored racial anthropology
-      - Reinterpretation of ancient civilizations
-    summary: The Turkish History Thesis became an official framework of early Republican historiography and school history. The Türk Tarihi Tetkik Cemiyeti prepared a four-volume school history series published by the Ministry of Education, while state-sponsored history congresses promoted the thesis. In 1937 the health ministry organized a nationwide anthropometric survey of roughly 64,000 people, with the statistics administration processing the data; Afet İnan used the results to support the thesis's claim that Turks belonged to the white “Alpine” race and had carried civilization outward from Central Asia.
-    sources:
-      - title: A Country of White Lilies — Inter-Imperial Nation-Making and Development from the Russian Empire's Periphery to Post-Ottoman Turkey
-        url: https://www.cambridge.org/core/journals/comparative-studies-in-society-and-history/article/country-of-white-lilies-interimperial-nationmaking-and-development-from-the-russian-empires-periphery-to-postottoman-turkey/784D83C662617BF5EAF53A8B920C1240
-        publisher: Comparative Studies in Society and History
-        note: Describes state-sponsored efforts to establish Turks as members of the white Alpine race, the Turkish History Congresses, and the large anthropometric survey associated with Afet İnan.
-      - title: Tarihçe — Türk Tarih Kurumu
-        url: https://ttk.gov.tr/ttk-tarihce/
-        publisher: Türk Tarih Kurumu
-        note: Official institutional history stating that the society prepared the four-volume secondary-school history books and that they were published under the Maarif Vekâleti.
-      - title: Ayşe Afet İnan (1908–1985)
-        url: https://ataturkansiklopedisi.gov.tr/detay/890/Ay%C5%9Fe-Afet-%C4%B0nan-%281908-1985%29
-        publisher: Atatürk Encyclopedia
-        note: Describes the 1937 nationwide anthropometric survey, the health ministry's organizational role, the statistics administration's role, its scale of roughly 64,000 people, and İnan's use of the results to support the Turkish History Thesis and white-Alpine racial claim.
+      - The four-volume Tarih series made the thesis an official high-school history framework from 1931 through 1941
+      - A condensed version of Türk Tarihinin Ana Hatları was distributed for middle-school teaching
+      - State-sponsored congresses promoted the thesis and organized historical and anthropological work around it
+      - Textbooks recast numerous ancient civilizations as creations of migrating Central Asian Turks
+      - Racial typology became part of an official account of national origins and civilizational legitimacy
+    summary: >-
+      The Turkish Historical Society and the Ministry of Education converted a nation-building thesis into curriculum.
+      Official textbooks described white, brachycephalic Central Asian Turks as founders of civilizations across Asia,
+      Africa, Anatolia and Europe, and the first two Turkish History Congresses promoted the same framework. Contemporary
+      criticism existed, but official teaching treated the thesis as a basis for organizing historical evidence.
+    mechanism:
+      kind: education
+      summary: >-
+        The historical society wrote the core texts, the Ministry of Education published and distributed them, and
+        state-sponsored congresses reinforced their premises as a programme for teaching and research.
+    institutionalCorrection:
+      status: partial
+      periodLabel: 1942 onward
+      action: New Ministry of Education textbooks introduced in 1942 abandoned the claim that Turks were the source of all civilizations and reduced the earlier emphasis on Turkish origins in ancient history.
+      summary: >-
+        The post-Atatürk curriculum moved toward a humanist account and dropped the thesis's most expansive universal
+        claims. It did not issue a comprehensive retraction, and a Turkish-centered historical framework continued in
+        modified form, so the change is classified as a partial institutional correction.
+  - id: turkey-anthropometry-1937-1940
+    polity: Turkey
+    region: Middle East
+    startYear: 1937
+    endYear: 1940
+    periodLabel: 1937–1940
+    strength: officially-endorsed
+    institutionTypes:
+      - government
+      - medical
+      - academy
+    institutions:
+      - Sıhhat ve İçtimaî Muavenet Vekâleti (Ministry of Health and Social Assistance)
+      - İstatistik Umum Müdürlüğü (General Directorate of Statistics)
+      - Türk Tarih Kurumu (Turkish Historical Society)
+    institutionalContext: >-
+      The health ministry financed and organized field teams of civilian and military doctors, health staff and physical-
+      education teachers for a nationwide survey from 19 June through 31 December 1937. The teams collected 64,000 forms;
+      the statistics administration created a dedicated processing operation and calculated 59,728 usable records after
+      exclusions. Afet İnan used the results in her 1939 Geneva dissertation and a 1940 article in the Turkish Historical
+      Society's Belleten. She and other researchers shaped the interpretation, but the state ministries and society are
+      listed because they supplied the administrative machinery and institutional publication channel.
+    consequences:
+      - Government personnel collected standardized bodily and demographic measurements across ten survey regions
+      - The statistics administration classified and calculated 59,728 usable individual records
+      - Survey results were used to portray the population of Turkey as predominantly white and “Alpine”
+      - Anthropometric classifications were presented as evidence for the Turkish History Thesis
+      - State-backed measurement gave a racial national narrative the appearance of quantitative scientific confirmation
+    summary: >-
+      The 1937 anthropometric survey turned the thesis's racial premise into a nationwide classification project. Health,
+      education and military personnel collected the measurements, the statistics administration processed them, and the
+      resulting publications claimed that the findings confirmed a white “Alpine” Turkish race and the thesis's account
+      of Central Asian civilization. The corrected total distinguishes 64,000 collected forms from 59,728 analyzed records.
+    mechanism:
+      kind: classification
+      summary: >-
+        Ministries deployed trained field teams to record standardized physical traits, and the statistics administration
+        converted the forms into racial tables that were then interpreted and published as confirmation of the national
+        history thesis.
+    institutionalCorrection:
+      status: undocumented
+      summary: >-
+        Modern biological anthropology and population genetics reject the survey's typological racial inference. The
+        current evidence record does not identify a dated act by the health ministry, statistics administration or Turkish
+        Historical Society formally retracting the proposition or acknowledging the survey's methodological failure.
+sources:
+  - id: turkish-history-white-lilies
+    title: A Country of White Lilies — Inter-Imperial Nation-Making and Development from the Russian Empire's Periphery to Post-Ottoman Turkey
+    url: https://www.cambridge.org/core/journals/comparative-studies-in-society-and-history/article/country-of-white-lilies-interimperial-nationmaking-and-development-from-the-russian-empires-periphery-to-postottoman-turkey/784D83C662617BF5EAF53A8B920C1240
+    publisher: Comparative Studies in Society and History
+  - id: turkish-history-ttk-history
+    title: Tarihçe — Türk Tarih Kurumu
+    url: https://ttk.gov.tr/ttk-tarihce/
+    publisher: Türk Tarih Kurumu
+  - id: turkish-history-afet-inan
+    title: Ayşe Afet İnan (1908–1985)
+    url: https://ataturkansiklopedisi.gov.tr/detay/890/Ay%C5%9Fe-Afet-%C4%B0nan-%281908-1985%29
+    publisher: Atatürk Encyclopedia
+  - id: turkish-history-maarif
+    title: Türk Tarih Tezi
+    url: https://turkmaarifansiklopedisi.org.tr/turk-tarih-tezi
+    publisher: Türk Maarif Ansiklopedisi
+  - id: turkish-history-textbooks
+    title: 1930-1950 Dönemi Ortaöğretim Tarih Ders Kitaplarında Tarihçilik Anlayışı
+    url: https://acikerisim.sinop.edu.tr/items/fdf705ad-e92c-4822-b076-9ed0a8b1cca8
+    publisher: Erzincan Üniversitesi Sosyal Bilimler Enstitüsü Dergisi
+  - id: turkish-history-survey-primary
+    title: Türkiye Halkının Antropolojik Karakterleri Üzerinde Büyük Anket ve Umumi Neticeleri
+    url: https://dergipark.org.tr/en/pub/ttkbelleten/article/1416965
+    publisher: Belleten / Türk Tarih Kurumu
+  - id: turkish-history-aaba-race
+    title: AABA Statement on Race & Racism
+    url: https://bioanth.org/about/aaba-statement-on-race-racism/
+    publisher: American Association of Biological Anthropologists
+  - id: turkish-history-genetics
+    title: The genetic structure of the Turkish population reveals high levels of variation and admixture
+    url: https://doi.org/10.1073/pnas.2026076118
+    publisher: Proceedings of the National Academy of Sciences
+  - id: turkish-history-anatolia-dna
+    title: Late Pleistocene human genome suggests a local origin for the first farmers of central Anatolia
+    url: https://www.nature.com/articles/s41467-019-09209-7
+    publisher: Nature Communications
+evidence:
+  - id: turkish-history-white-lilies-proposition
+    sourceId: turkish-history-white-lilies
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: Describes state-sponsored efforts to establish Turks as members of the white Alpine race, the Turkish History Congresses, and the large anthropometric survey associated with Afet İnan.
+  - id: turkish-history-maarif-proposition
+    sourceId: turkish-history-maarif
+    relation: documents
+    target: {scope: belief, aspect: proposition}
+    note: >-
+      Defines the thesis as early Republican official history policy and records its claims that white, brachycephalic
+      Central Asian Turks founded civilizations including those of China, India, Egypt, Mesopotamia, Anatolia, Greece and Rome.
+  - id: turkish-history-aaba-correction
+    sourceId: turkish-history-aaba-race
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      The professional association's 2019 statement explains that race does not accurately represent human biological
+      variation and that humans are not divided into discrete continental types or racial genetic clusters.
+  - id: turkish-history-genetics-correction
+    sourceId: turkish-history-genetics
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Genome and exome data from 3,362 unrelated individuals show high variation and extensive admixture in the modern
+      population of Turkey rather than a pure, bounded racial type.
+  - id: turkish-history-anatolia-correction
+    sourceId: turkish-history-anatolia-dna
+    relation: supports
+    target: {scope: belief, aspect: correction}
+    note: >-
+      Ancient DNA from central Anatolia finds substantial local hunter-gatherer continuity into early farming alongside
+      later Iranian/Caucasus-related and Levantine ancestries, contradicting a single-race civilizational origin story.
+  - id: turkish-history-ttk-impact
+    sourceId: turkish-history-ttk-history
+    relation: supports
+    target: {scope: belief, aspect: impact}
+    note: >-
+      Official institutional history documents the four-volume school series and the first two congresses, while tracing
+      the history committee's 1930 formation, its 1931 incorporation and its 1935 renaming.
+  - id: turkish-history-survey-impact
+    sourceId: turkish-history-survey-primary
+    relation: documents
+    target: {scope: belief, aspect: impact}
+    note: >-
+      The survey author's primary report states that 64,000 forms were collected and that final calculations covered
+      59,728 people—39,465 men and 20,263 women—after incorrect and incomplete forms were excluded.
+  - id: turkish-history-ttk-curriculum-carrier
+    sourceId: turkish-history-ttk-history
+    relation: documents
+    target: {scope: episode, episodeId: turkey-curriculum-1930-1941, aspect: carrier}
+    note: Official institutional history stating that the society prepared the four-volume secondary-school history books and that they were published under the Maarif Vekâleti.
+  - id: turkish-history-maarif-curriculum-mechanism
+    sourceId: turkish-history-maarif
+    relation: documents
+    target: {scope: episode, episodeId: turkey-curriculum-1930-1941, aspect: mechanism}
+    note: >-
+      Describes the condensed outline's use in middle schools, the four-volume Tarih series in high schools and the 1932
+      congress as an official vehicle for presenting the thesis to teachers and scholars.
+  - id: turkish-history-white-lilies-curriculum-consequences
+    sourceId: turkish-history-white-lilies
+    relation: supports
+    target: {scope: episode, episodeId: turkey-curriculum-1930-1941, aspect: consequences}
+    note: >-
+      Documents the state-sponsored 1932 and 1937 congresses and the claim presented there that Central Asian ancestors
+      of the Turks had spread civilization outward.
+  - id: turkish-history-maarif-curriculum-consequences
+    sourceId: turkish-history-maarif
+    relation: supports
+    target: {scope: episode, episodeId: turkey-curriculum-1930-1941, aspect: consequences}
+    note: >-
+      Records the thesis's deep effect on history teaching and explains that evidence was made to fit a proposition treated
+      at the first congress as a truth beyond ordinary scientific dispute.
+  - id: turkish-history-maarif-curriculum-correction
+    sourceId: turkish-history-maarif
+    relation: documents
+    target: {scope: episode, episodeId: turkey-curriculum-1930-1941, aspect: institutional-correction}
+    note: >-
+      States that textbooks published after Atatürk's death abandoned the claim that Turks were the source of all
+      civilizations, while Turkish history continued to provide the curriculum's main organizing frame.
+  - id: turkish-history-textbooks-curriculum-correction
+    sourceId: turkish-history-textbooks
+    relation: supports
+    target: {scope: episode, episodeId: turkey-curriculum-1930-1941, aspect: institutional-correction}
+    note: >-
+      Finds that the thesis shaped textbooks used from 1931 to 1941 and that the subsequent humanist approach reduced,
+      without eliminating, the Turkish emphasis in accounts of ancient civilizations.
+  - id: turkish-history-afet-survey-carrier
+    sourceId: turkish-history-afet-inan
+    relation: documents
+    target: {scope: episode, episodeId: turkey-anthropometry-1937-1940, aspect: carrier}
+    note: Describes the 1937 nationwide anthropometric survey, the health ministry's organizational role, the statistics administration's role, its scale of roughly 64,000 people, and İnan's use of the results to support the Turkish History Thesis and white-Alpine racial claim.
+  - id: turkish-history-survey-carrier
+    sourceId: turkish-history-survey-primary
+    relation: documents
+    target: {scope: episode, episodeId: turkey-anthropometry-1937-1940, aspect: carrier}
+    note: >-
+      The primary report names the health ministry as financier of field-team travel, the statistics administration as
+      processor of the forms and Belleten as the Turkish Historical Society's publication channel for the results.
+  - id: turkish-history-survey-mechanism
+    sourceId: turkish-history-survey-primary
+    relation: documents
+    target: {scope: episode, episodeId: turkey-anthropometry-1937-1940, aspect: mechanism}
+    note: >-
+      Describes ten regional teams, standardized measurement work from June through December 1937 and a dedicated
+      statistical staff that classified and calculated the records into 1938.
+  - id: turkish-history-white-lilies-survey-consequences
+    sourceId: turkish-history-white-lilies
+    relation: supports
+    target: {scope: episode, episodeId: turkey-anthropometry-1937-1940, aspect: consequences}
+    note: >-
+      Scholarly history explains that the state-sponsored dissertation used the survey to purport to prove that Turks
+      belonged to a white Caucasian or Alpine race.
+  - id: turkish-history-survey-consequences
+    sourceId: turkish-history-survey-primary
+    relation: documents
+    target: {scope: episode, episodeId: turkey-anthropometry-1937-1940, aspect: consequences}
+    note: >-
+      The 1940 report presents the measurements as evidence that the Turkish population was predominantly brachycephalic
+      and belonged to the white Alpine racial category used in the thesis.

@@ -1,21 +1,197 @@
+schemaVersion: 2
 locale: de
 entryId: turkish-history-thesis
-sourceReviewedAt: 2026-08-23
+sourceReviewedAt: '2026-08-23'
 title: Türkische Geschichtsthese
-claim: Türken wurden als alte weiße beziehungsweise „alpine Rasse“ behandelt, deren Vorfahren die Zivilisation aus Zentralasien in andere Regionen getragen und zahlreiche frühe Hochkulturen gegründet oder wesentlich geprägt hätten.
-currentUnderstanding: Moderne Bevölkerungen sind das Ergebnis komplexer Migration und Vermischung, nicht voneinander getrennter „Zivilisationsrassen“. Überholte Kategorien wie „alpin“ oder „kaukasisch“ beschreiben keine natürlichen Unterteilungen der Menschheit; die Ursprünge antiker Zivilisationen lassen sich keinem einzelnen modernen Volk oder einer „Rasse“ zuschreiben.
+proposition:
+  summary: >-
+    Institutionen der frühen Türkischen Republik behandelten Türken als alte weiße, brachyzephale beziehungsweise
+    „alpine Rasse“, deren Vorfahren aus Zentralasien ausgewandert seien und zahlreiche der frühesten Zivilisationen der
+    Welt geschaffen oder entscheidend geprägt hätten.
+correction:
+  summary: >-
+    Die biologische Variation des Menschen lässt sich nicht in voneinander getrennte „alpine“, „kaukasische“ oder andere
+    kontinentale Rassen einteilen. Heutige Bevölkerungen in der Türkei weisen umfassende Vielfalt und Vermischung auf;
+    zugleich belegt alte DNA aus Anatolien sowohl erhebliche lokale Kontinuität als auch hinzugekommene Abstammungslinien.
+    Weder Schädelmessungen noch eine moderne nationale Identität können belegen, dass Sumerer, Hethiter, Ägypter,
+    Chinesen oder andere antike Völker einer einzigen modernen ethnischen oder rassischen Nation angehörten.
+impact:
+  summary: >-
+    Von 1931 bis 1941 trug die vom Bildungsministerium veröffentlichte vierbändige Reihe Tarih die These in den
+    Geschichtsunterricht der höheren Schulen; staatlich geförderte Kongresse von 1932 und 1937 verbreiteten sie als
+    Forschungsprogramm. Ein zweiter Arm des Programms erhob 1937 insgesamt 64.000 anthropometrische Bögen. Nach dem
+    Ausschluss unvollständiger oder fehlerhaft ausgefüllter Bögen berechnete die Statistikbehörde Ergebnisse für 59.728
+    Menschen. Die Messungen flossen in eine Dissertation von 1939 und eine Veröffentlichung der Türkischen Historischen
+    Gesellschaft von 1940 ein, die körperliche Klassifikation zur Stützung der rassischen und zivilisatorischen
+    Behauptungen der These nutzten.
+  highlights:
+    - value: '4'
+      label: Bände der offiziellen Geschichtsreihe für höhere Schulen
+      note: Die Reihe wurde von 1931 bis 1941 verwendet; Veröffentlichung und Einsatz belegen nicht, dass alle Lehrkräfte oder Lernenden ihre Behauptungen akzeptierten.
+    - value: '2'
+      label: während der Episode staatlich geförderte Türkische Geschichtskongresse
+      note: Die ersten beiden Kongresse fanden 1932 und 1937 statt.
+    - value: '59.728'
+      label: verwertbare Personenakten in den anthropometrischen Berechnungen
+      note: Die Feldteams erhoben 64.000 Bögen; unvollständige oder fehlerhaft ausgefüllte Bögen wurden vor der Berechnung ausgesondert.
+  context:
+    - >-
+      Die These reagierte auf europäische Darstellungen der Türken als angeblich minderwertiges, nicht weißes und
+      zivilisationszerstörendes Volk und gehörte zum Nationsbildungsprojekt der frühen Republik. Dieser Zusammenhang
+      erklärt ihre institutionelle Anziehungskraft, bestätigt aber weder ihre Rassenkategorien noch ihre historischen Schlüsse.
+    - >-
+      Die 64.000 erhobenen Bögen und 59.728 ausgewerteten Datensätze messen die administrative Reichweite der Erhebung.
+      Sie schätzen nicht, wie viele Menschen die These glaubten; die vorliegenden Belege tragen auch keine zahlenmäßige
+      Schätzung ihrer gesellschaftlichen Schäden.
+    - >-
+      Genetische Abstammung, Sprache, Kultur und politische Identität sind unterschiedliche Arten von Evidenz. Moderne
+      und alte DNA können ein Modell reiner, fester Rassen widerlegen, doch genetische Ähnlichkeit allein ordnet eine
+      antike Zivilisation keiner modernen Nation zu.
+    - >-
+      Nach Atatürks Tod gaben neue Schulbücher die stärkste Behauptung auf, Türken seien die Quelle sämtlicher
+      Zivilisationen. Die türkisch zentrierte Geschichtsordnung blieb einflussreich; der Lehrplanwechsel war daher
+      substanziell, aber unvollständig und keine umfassende institutionelle Zurückweisung.
 episodes:
-  - id: turkey-1931-1939
+  - id: turkey-curriculum-1930-1941
     polity: Türkei
+    periodLabel: 1930–1941
     institutions:
-      - Türk Tarihi Tetkik Cemiyeti / Türk Tarih Kurumu
-      - Maarif Vekâleti
-      - Sıhhat ve İçtimaî Muavenet Vekâleti
-      - İstatistik Umum Müdürlüğü
+      - Ausschuss / Gesellschaft zur Erforschung der türkischen Geschichte / Türkische Historische Gesellschaft (Türk Tarihini Tetkik Heyeti / Türk Tarihi Tetkik Cemiyeti / Türk Tarih Kurumu)
+      - Maarif Vekâleti (Bildungsministerium)
     institutionalContext: >-
-      Die Türk Tarihi Tetkik Cemiyeti, später Türk Tarih Kurumu, entwickelte die These und erarbeitete die vierbändige Schulbuchreihe, die vom Maarif Vekâleti veröffentlicht wurde. Die landesweite anthropometrische Erhebung von 1937 wurde über das Gesundheitsministerium organisiert; das İstatistik Umum Müdürlüğü übernahm die Auswertung der Erhebungsbögen. Kongresse und einzelne Forscher waren Teil dieses Apparats, werden hier aber nicht an die Stelle der formalen Trägerinstitutionen gesetzt.
-    summary: Die Türkische Geschichtsthese wurde zu einem offiziellen Rahmen der frühen republikanischen Geschichtsschreibung und des Geschichtsunterrichts. Die Türk Tarihi Tetkik Cemiyeti erarbeitete eine vierbändige Schulbuchreihe, die vom Bildungsministerium veröffentlicht wurde; staatlich geförderte Geschichtskongresse verbreiteten die These. 1937 organisierte das Gesundheitsministerium eine landesweite anthropometrische Erhebung an rund 64.000 Menschen, deren Daten von der Statistikverwaltung bearbeitet wurden. Afet İnan nutzte die Ergebnisse zur Stützung der Behauptung, Türken gehörten zur weißen „alpinen Rasse“ und hätten Zivilisation aus Zentralasien verbreitet.
+      1930 entstand innerhalb der Türk Ocakları ein sechzehnköpfiger Geschichtsausschuss, der Türk Tarihinin Ana Hatları
+      erarbeitete. 1931 wurde er als Türk Tarihi Tetkik Cemiyeti neu gegründet und 1935 in Türk Tarih Kurumu umbenannt.
+      Die Gesellschaft verfasste die vierbändige Reihe Tarih, die das Bildungsministerium für höhere Schulen
+      veröffentlichte. Eine Kurzfassung gelangte auch in den Unterricht der Mittelschulen. Die staatlich geförderten
+      Geschichtskongresse von 1932 und 1937 boten der These wichtige Foren; als formale Träger werden hier jedoch die
+      benannte Gesellschaft und das Ministerium erfasst.
     consequences:
-      - Nationaler Geschichtsunterricht
-      - Staatlich geförderte Rassenanthropologie
-      - Neuinterpretation antiker Zivilisationen
+      - Die vierbändige Reihe Tarih machte die These von 1931 bis 1941 zum offiziellen Geschichtsrahmen der höheren Schulen
+      - Eine Kurzfassung von Türk Tarihinin Ana Hatları wurde für den Unterricht der Mittelschulen verbreitet
+      - Staatlich geförderte Kongresse verbreiteten die These und richteten historische sowie anthropologische Arbeit an ihr aus
+      - Schulbücher deuteten zahlreiche antike Zivilisationen als Schöpfungen ausgewanderter zentralasiatischer Türken um
+      - Rassentypologie wurde Teil einer offiziellen Erzählung über nationale Ursprünge und zivilisatorische Legitimität
+    summary: >-
+      Die Türkische Historische Gesellschaft und das Bildungsministerium machten aus einer nationsbildenden These einen
+      Lehrplan. Offizielle Schulbücher beschrieben weiße, brachyzephale zentralasiatische Türken als Gründer von
+      Zivilisationen in Asien, Afrika, Anatolien und Europa; die ersten beiden Türkischen Geschichtskongresse verbreiteten
+      denselben Rahmen. Zeitgenössische Kritik bestand, doch der offizielle Unterricht behandelte die These als Grundlage
+      zur Ordnung historischer Evidenz.
+    mechanism:
+      summary: >-
+        Die Historische Gesellschaft schrieb die Kerntexte, das Bildungsministerium veröffentlichte und verteilte sie,
+        und staatlich geförderte Kongresse stärkten ihre Prämissen als Lehr- und Forschungsprogramm.
+    institutionalCorrection:
+      periodLabel: ab 1942
+      action: Neue Schulbücher des Bildungsministeriums gaben 1942 die Behauptung auf, Türken seien die Quelle aller Zivilisationen, und schwächten die frühere Betonung türkischer Ursprünge in der antiken Geschichte ab.
+      summary: >-
+        Der Lehrplan nach Atatürk wandte sich einer humanistischen Darstellung zu und strich die weitreichendsten
+        universalen Behauptungen der These. Eine umfassende Rücknahme blieb aus, und ein türkisch zentrierter
+        Geschichtsrahmen bestand in veränderter Form fort; die Veränderung gilt deshalb als teilweise institutionelle Korrektur.
+  - id: turkey-anthropometry-1937-1940
+    polity: Türkei
+    periodLabel: 1937–1940
+    institutions:
+      - Sıhhat ve İçtimaî Muavenet Vekâleti (Ministerium für Gesundheit und soziale Fürsorge)
+      - İstatistik Umum Müdürlüğü (Generaldirektion für Statistik)
+      - Türk Tarih Kurumu (Türkische Historische Gesellschaft)
+    institutionalContext: >-
+      Das Gesundheitsministerium finanzierte und organisierte Feldteams aus zivilen und militärischen Ärzten,
+      Gesundheitspersonal und Sportlehrkräften für eine landesweite Erhebung vom 19. Juni bis 31. Dezember 1937. Die Teams
+      sammelten 64.000 Bögen; die Statistikbehörde richtete eine eigene Auswertungsstelle ein und berechnete nach
+      Ausschlüssen 59.728 verwertbare Datensätze. Afet İnan nutzte die Ergebnisse in ihrer Genfer Dissertation von 1939
+      und in einem Beitrag von 1940 in der Zeitschrift Belleten der Türkischen Historischen Gesellschaft. Sie und andere
+      Forschende prägten die Deutung; als Träger werden die Ministerien und die Gesellschaft erfasst, weil sie
+      Verwaltungsapparat und institutionellen Publikationsweg bereitstellten.
+    consequences:
+      - Staatliches Personal erhob in zehn Regionen standardisierte Körper- und demografische Maße
+      - Die Statistikbehörde klassifizierte und berechnete 59.728 verwertbare Personenakten
+      - Die Ergebnisse dienten zur Darstellung der Bevölkerung der Türkei als überwiegend weiß und „alpin“
+      - Anthropometrische Klassifikationen wurden als Beleg für die Türkische Geschichtsthese präsentiert
+      - Staatlich gestützte Vermessung verlieh einer nationalen Rassenerzählung den Anschein quantitativer wissenschaftlicher Bestätigung
+    summary: >-
+      Die anthropometrische Erhebung von 1937 verwandelte die rassische Prämisse der These in ein landesweites
+      Klassifikationsprojekt. Personal aus Gesundheits-, Bildungs- und Militärbereich erhob die Maße, die Statistikbehörde
+      wertete sie aus, und die daraus entstandenen Publikationen behaupteten, die Befunde bestätigten eine weiße „alpine“
+      türkische Rasse sowie die zentralasiatische Zivilisationserzählung der These. Die korrigierte Angabe unterscheidet
+      64.000 erhobene Bögen von 59.728 ausgewerteten Datensätzen.
+    mechanism:
+      summary: >-
+        Ministerien entsandten geschulte Feldteams zur standardisierten Erfassung körperlicher Merkmale. Die
+        Statistikbehörde verwandelte die Bögen in Rassentabellen, die anschließend als Bestätigung der nationalen
+        Geschichtsthese interpretiert und veröffentlicht wurden.
+    institutionalCorrection:
+      summary: >-
+        Moderne biologische Anthropologie und Populationsgenetik verwerfen die typologische Rassendeutung der Erhebung.
+        Die derzeitige Beleglage weist jedoch keinen datierten Akt des Gesundheitsministeriums, der Statistikbehörde oder
+        der Türkischen Historischen Gesellschaft nach, der die Behauptung formell zurücknahm oder das methodische
+        Scheitern der Erhebung anerkannte.
+evidence:
+  - id: turkish-history-white-lilies-proposition
+    note: Beschreibt staatlich geförderte Bemühungen, Türken als Angehörige der weißen alpinen Rasse zu etablieren, die Türkischen Geschichtskongresse und die große anthropometrische Erhebung im Zusammenhang mit Afet İnan.
+  - id: turkish-history-maarif-proposition
+    note: >-
+      Definiert die These als offizielle Geschichtspolitik der frühen Republik und dokumentiert ihre Behauptung, weiße,
+      brachyzephale zentralasiatische Türken hätten unter anderem die Zivilisationen Chinas, Indiens, Ägyptens,
+      Mesopotamiens, Anatoliens, Griechenlands und Roms gegründet.
+  - id: turkish-history-aaba-correction
+    note: >-
+      Die Erklärung des Fachverbands von 2019 erläutert, dass „Rasse“ die biologische Variation des Menschen nicht korrekt
+      abbildet und Menschen nicht in getrennte kontinentale Typen oder rassische genetische Cluster zerfallen.
+  - id: turkish-history-genetics-correction
+    note: >-
+      Genom- und Exomdaten von 3.362 nicht verwandten Personen zeigen hohe Vielfalt und umfassende Vermischung in der
+      heutigen Bevölkerung der Türkei statt eines reinen, abgegrenzten Rassentyps.
+  - id: turkish-history-anatolia-correction
+    note: >-
+      Alte DNA aus Zentralanatolien belegt erhebliche lokale Kontinuität von Jägern und Sammlern zu frühen Bauern sowie
+      spätere iranisch-kaukasische und levantinische Abstammung und widerspricht damit einer Zivilisationsgeschichte
+      einer einzigen Rasse.
+  - id: turkish-history-ttk-impact
+    note: >-
+      Die offizielle Institutionsgeschichte dokumentiert die vierbändige Schulreihe und die ersten beiden Kongresse und
+      zeichnet zugleich die Gründung des Ausschusses 1930, seine Vereinsgründung 1931 und die Umbenennung 1935 nach.
+  - id: turkish-history-survey-impact
+    note: >-
+      Der Primärbericht der Autorin hält fest, dass 64.000 Bögen erhoben wurden und die endgültigen Berechnungen nach dem
+      Ausschluss fehlerhafter und unvollständiger Bögen 59.728 Menschen umfassten — 39.465 Männer und 20.263 Frauen.
+  - id: turkish-history-ttk-curriculum-carrier
+    note: Offizielle Institutionsgeschichte, wonach die Gesellschaft die vierbändigen Geschichtsbücher für höhere Schulen erarbeitete und diese unter dem Maarif Vekâleti veröffentlicht wurden.
+  - id: turkish-history-maarif-curriculum-mechanism
+    note: >-
+      Beschreibt den Einsatz der Kurzfassung in Mittelschulen, der vierbändigen Reihe Tarih in höheren Schulen und des
+      Kongresses von 1932 als offiziellen Weg zur Vermittlung der These an Lehrkräfte und Forschende.
+  - id: turkish-history-white-lilies-curriculum-consequences
+    note: >-
+      Dokumentiert die staatlich geförderten Kongresse von 1932 und 1937 sowie die dort vertretene Behauptung,
+      zentralasiatische Vorfahren der Türken hätten die Zivilisation verbreitet.
+  - id: turkish-history-maarif-curriculum-consequences
+    note: >-
+      Dokumentiert den tiefen Einfluss der These auf den Geschichtsunterricht und erklärt, wie Evidenz an eine beim ersten
+      Kongress als über gewöhnliche wissenschaftliche Diskussion erhaben behandelte Behauptung angepasst wurde.
+  - id: turkish-history-maarif-curriculum-correction
+    note: >-
+      Hält fest, dass nach Atatürks Tod veröffentlichte Schulbücher die Behauptung aufgaben, Türken seien die Quelle aller
+      Zivilisationen, während die türkische Geschichte den wichtigsten Ordnungsrahmen des Lehrplans bildete.
+  - id: turkish-history-textbooks-curriculum-correction
+    note: >-
+      Stellt fest, dass die These die von 1931 bis 1941 verwendeten Schulbücher prägte und der folgende humanistische
+      Ansatz die türkische Betonung antiker Zivilisationen verringerte, aber nicht beseitigte.
+  - id: turkish-history-afet-survey-carrier
+    note: Beschreibt die landesweite anthropometrische Erhebung von 1937, die organisatorische Rolle des Gesundheitsministeriums, die Rolle der Statistikbehörde, ihren Umfang von ungefähr 64.000 Menschen und İnans Nutzung der Ergebnisse zur Stützung der Türkischen Geschichtsthese sowie der Behauptung einer weißen alpinen Rasse.
+  - id: turkish-history-survey-carrier
+    note: >-
+      Der Primärbericht nennt das Gesundheitsministerium als Geldgeber für die Reisen der Feldteams, die Statistikbehörde
+      als Auswerterin der Bögen und Belleten als Publikationsweg der Türkischen Historischen Gesellschaft für die Ergebnisse.
+  - id: turkish-history-survey-mechanism
+    note: >-
+      Beschreibt zehn regionale Teams, standardisierte Messarbeit von Juni bis Dezember 1937 und eigenes Statistikpersonal,
+      das die Datensätze bis 1938 klassifizierte und berechnete.
+  - id: turkish-history-white-lilies-survey-consequences
+    note: >-
+      Die fachhistorische Studie erläutert, dass die staatlich gestützte Dissertation mit der Erhebung angeblich belegte,
+      Türken gehörten einer weißen kaukasischen beziehungsweise alpinen Rasse an.
+  - id: turkish-history-survey-consequences
+    note: >-
+      Der Bericht von 1940 präsentiert die Messungen als Beleg dafür, dass die türkische Bevölkerung überwiegend
+      brachyzephal sei und zur in der These verwendeten weißen alpinen Rassenkategorie gehöre.

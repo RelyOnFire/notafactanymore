@@ -6,6 +6,7 @@ import FactCard from '../components/FactCard.astro';
 import TimelineTeaser from '../components/TimelineTeaser.astro';
 import HomeDiscoveryPaths from '../components/HomeDiscoveryPaths.astro';
 import SurpriseMe from '../components/SurpriseMe.astro';
+import ExplorerTeaser from '../components/ExplorerTeaser.astro';
 
 const entries = await getCollection('entries');
 
@@ -167,6 +168,8 @@ const currentYear = new Date().getFullYear();
       <a class="button secondary" href="/submit">Submit a claim</a>
     </div>
   </section>
+
+  <ExplorerTeaser />
 
   <section class="principle">
     <div class="narrow">

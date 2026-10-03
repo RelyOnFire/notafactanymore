@@ -2,12 +2,14 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import InstitutionalBeliefsPage from '../components/InstitutionalBeliefsPage.astro';
 import InstitutionalCoverageMatrix from '../components/InstitutionalCoverageMatrix.astro';
+import YoungerReadersNote from '../components/YoungerReadersNote.astro';
 ---
 <BaseLayout
   title="Institutional beliefs"
   description="A global timeline of claims that acquired institutional authority and shaped research, education, medicine, law, or public policy."
   alternatePath="/de/institutions"
 >
+  <YoungerReadersNote />
   <InstitutionalBeliefsPage locale="en" />
   <InstitutionalCoverageMatrix locale="en" />
 </BaseLayout>

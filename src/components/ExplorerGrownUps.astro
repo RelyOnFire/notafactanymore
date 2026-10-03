@@ -1,0 +1,53 @@
+---
+import { explorerStories } from '../lib/young-explorers';
+import { localizedPath, type SiteLocale } from '../lib/i18n';
+const { locale } = Astro.props as { locale: SiteLocale };
+const de = locale === 'de';
+---
+<article class="grown-ups narrow">
+  <p class="eyebrow">{de ? 'Junge Entdecker' : 'Young Explorers'}</p>
+  <h1>{de ? 'Für Erwachsene' : 'For grown-ups'}</h1>
+  {de ? <>
+    <p class="intro">Eine kleine Sammlung für neugierige Kinder, die wissen möchten, wie neue Belege unser Wissen verändern.</p>
+    <h2>Für wen ist die Sammlung gedacht?</h2>
+    <p>Die Texte richten sich ungefähr an Kinder von 9 bis 12 Jahren. Lesefähigkeit und Interessen unterscheiden sich; jüngere Kinder können gemeinsam mit Erwachsenen lesen. Das ist eine redaktionelle Orientierung, keine geprüfte Alterseinstufung.</p>
+    <h2>Wie wurden die Geschichten ausgewählt?</h2>
+    <p>Zum Start enthält die Sammlung {explorerStories.length} einzeln durchgesehene Geschichten auf Deutsch und Englisch. Jede Kurzfassung erklärt eine frühere Idee, die entscheidenden Belege und den heutigen Wissensstand. Sie hat eine einfache Zeichnung und eine offene Denkfrage. Gewaltbeschreibungen, sexualisierte Inhalte und belastende medizinische Fallgeschichten gehören nicht zu dieser Auswahl.</p>
+    <p>Fossilien, Evolution und das Aussterben von Tieren kommen vor. Die Zeichnungen sind schematisch und zeigen keine drastischen Darstellungen. Die kurzen Texte werden eigenständig gepflegt; neue Einträge im Hauptkatalog erscheinen hier erst nach einer eigenen Auswahl und Prüfung.</p>
+    <h2>Was bleibt innerhalb dieser Sammlung?</h2>
+    <p>Suche, Zufallsauswahl, verwandte Geschichten und Sprachwechsel führen innerhalb von Junge Entdecker weiter. Bei gesetzten Suchfiltern wählt „Überrasch mich“ aus den passenden Geschichten. Zum Lesen sind weder Anmeldung noch persönliche Angaben nötig.</p>
+    <p>Die Quellen und der vollständige Katalogeintrag stehen unter jeder Geschichte in einem ausdrücklich für Erwachsene gekennzeichneten Aufklappbereich. Diese Links verlassen die Sammlung. Der übrige Katalog und externe Websites können anspruchsvolle oder belastende Inhalte enthalten. Diese Sammlung sperrt den Zugang zu anderen Seiten nicht.</p>
+    <h2>Gemeinsam weiterlesen</h2>
+    <p>Eine hilfreiche Frage lautet: „Was hätte dich damals überzeugt?“ So bleibt die frühere Idee verständlich, während die neuen Belege ernst genommen werden. Wer eine Antwort noch nicht weiß, darf erst einmal eine Vermutung äußern.</p>
+  </> : <>
+    <p class="intro">A small collection for curious children who want to know how new evidence changes what we know.</p>
+    <h2>Who is it for?</h2>
+    <p>The writing is aimed at roughly ages 9–12. Reading confidence and interests vary; younger children can read with an adult. This is an editorial guide, not a tested age rating.</p>
+    <h2>How were the stories selected?</h2>
+    <p>The first collection contains {explorerStories.length} individually reviewed stories in English and German. Each adaptation explains an earlier idea, the evidence that changed it, and what we know now. It includes a simple diagram and an open question. Graphic violence, sexual content and distressing medical case histories are outside this selection.</p>
+    <p>The stories do discuss fossils, evolution and animal extinction. The diagrams are schematic and non-graphic. These short texts are maintained separately; new entries in the main catalogue join this collection only after a separate selection and review.</p>
+    <h2>What stays inside this collection?</h2>
+    <p>Search, the surprise button, related stories and language switching lead to other Young Explorers pages. When filters are active, “Surprise me” chooses from the matching stories. Reading does not require an account or personal details.</p>
+    <p>Sources and the full catalogue article are available in a clearly labelled section for grown-ups beneath each story. Those links leave this collection. The wider catalogue and external websites can contain advanced or distressing material. This collection does not block access to other pages.</p>
+    <h2>Reading together</h2>
+    <p>Try asking, “What would have convinced you at the time?” That keeps the earlier idea understandable while taking the new evidence seriously. It is fine to offer a first guess before reading the explanation.</p>
+  </>}
+  <a class="button" href={localizedPath('/kids/', locale)}>{de ? 'Zu den Geschichten' : 'Go to the stories'} <span aria-hidden="true">→</span></a>
+  <section class="leaving-note" data-explorer-exit aria-labelledby="leaving-title">
+    <h2 id="leaving-title">{de ? 'Links zum Hauptauftritt' : 'Links to the main website'}</h2>
+    <p>{de ? 'Diese Links verlassen Junge Entdecker. Der Hauptkatalog ist nicht als Kindersammlung zusammengestellt.' : 'These links leave Young Explorers. The main catalogue is not selected as a children’s collection.'}</p>
+    <ul>
+      <li><a data-leaves-explorers href={localizedPath('/browse/', locale)}>{de ? 'Vollständiger Katalog' : 'Full catalogue'}</a></li>
+      <li><a data-leaves-explorers href={localizedPath('/methodology/', locale)}>{de ? 'Redaktionelle Methodik' : 'Editorial methodology'}</a></li>
+      <li><a data-leaves-explorers href={localizedPath('/submit/', locale)}>{de ? 'Hinweis oder Korrektur vorschlagen' : 'Suggest a correction or a story'}</a></li>
+      <li><a data-leaves-explorers href={localizedPath('/impressum/', locale)}>{de ? 'Impressum und Projektinformationen' : 'Impressum and project information'}</a></li>
+    </ul>
+  </section>
+</article>
+<style>
+  .grown-ups { padding: 3rem 0 4rem; } h1 { font-size: clamp(2.6rem, 6vw, 4.5rem); margin: 1rem 0; }
+  .intro { font-size: 1.25rem; } h2 { font-size: 1.5rem; margin-top: 2.5rem; }
+  p { line-height: 1.8; } .button { margin-top: 1rem; }
+  .leaving-note { margin-top: 2.5rem; background: #ede9dc; border: 1px solid var(--line); border-radius: 10px; padding: .5rem 1.5rem 1rem; }
+  .leaving-note h2 { margin-top: 1rem; } li { margin: .65rem 0; } a { text-underline-offset: .25rem; }
+</style>

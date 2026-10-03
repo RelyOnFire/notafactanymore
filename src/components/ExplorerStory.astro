@@ -1,0 +1,92 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import ExplorerVisual from './ExplorerVisual.astro';
+import { explorerCategories, explorerPath, explorerStories, type ExplorerStory } from '../lib/young-explorers';
+import { localizedPath, type SiteLocale } from '../lib/i18n';
+interface Props { story: ExplorerStory; entry: CollectionEntry<'entries'>; locale: SiteLocale; }
+const { story, entry, locale } = Astro.props;
+const de = locale === 'de';
+const copy = story[locale];
+const index = explorerStories.findIndex((candidate) => candidate.id === story.id);
+const others = explorerStories.filter((candidate) => candidate.id !== story.id);
+const related = [...others.filter((candidate) => candidate.category === story.category), ...others.filter((candidate) => candidate.category !== story.category)].slice(0, 3);
+const reviewed = new Intl.DateTimeFormat(locale, { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(story.reviewedAt));
+const sections = [
+  { label: de ? 'Die frühere Idee' : 'The earlier idea', text: copy.then, className: 'then' },
+  { label: de ? 'Der entscheidende Hinweis' : 'The clue that changed things', text: copy.evidence, className: 'evidence' },
+  { label: de ? 'Was wir heute wissen' : 'What we know now', text: copy.now, className: 'now' },
+];
+---
+<article class="explorer-story container" data-reviewed-story={story.id}>
+  <a class="back-link" href={localizedPath('/kids/#explorer-stories', locale)}><span aria-hidden="true">←</span> {de ? 'Alle Geschichten' : 'All stories'}</a>
+  <header class="story-header">
+    <p class="eyebrow">{de ? 'Junge Entdecker' : 'Young Explorers'} <span aria-hidden="true">/</span> {String(index + 1).padStart(2, '0')} <span aria-hidden="true">/</span> {explorerCategories[locale][story.category]}</p>
+    <h1>{copy.title}</h1>
+    <p class="story-intro">{copy.summary}</p>
+  </header>
+  <div class="story-content">
+    <figure>
+      <div class="visual-frame"><ExplorerVisual story={story} locale={locale} /></div>
+      <figcaption>{copy.caption}</figcaption>
+    </figure>
+    <div class="story-sections">
+      {sections.map((section, i) => <section class={`story-step ${section.className}`} aria-labelledby={`step-${i}`}><span class="step-number" aria-hidden="true">0{i + 1}</span><div><h2 id={`step-${i}`}>{section.label}</h2><p>{section.text}</p></div></section>)}
+      <aside class="thinking-note" aria-labelledby="thinking-title">
+        <p class="eyebrow">{de ? 'Jetzt bist du dran' : 'Your turn to think'}</p>
+        <h2 id="thinking-title">{copy.question}</h2>
+        <p class="thinking-invitation">{de ? 'Nimm dir einen Moment. Welche Belege würden dir helfen?' : 'Take a moment. What evidence would help you decide?'}</p>
+        <details><summary>{de ? 'Eine Erklärung ansehen' : 'Read an explanation'}</summary><p>{copy.answer}</p></details>
+      </aside>
+      <p class="reviewed-at">{de ? 'Diese Kurzfassung geprüft am' : 'This adaptation reviewed on'} <time datetime={story.reviewedAt}>{reviewed}</time>.</p>
+      <details class="adult-resources" data-explorer-exit>
+        <summary>{de ? 'Für Erwachsene: Quellen und vollständiger Eintrag' : 'For grown-ups: sources and the full article'}</summary>
+        <p>{de ? 'Die folgenden Links verlassen Junge Entdecker. Der vollständige Katalog und externe Quellen sind nicht für diese Altersgruppe zusammengestellt. Sie können anspruchsvollere oder belastende Inhalte und weitere Links enthalten.' : 'The links below leave Young Explorers. The full catalogue and external sources are not selected for this age group. They may contain more advanced or distressing material and links to other pages.'}</p>
+        <p><a data-leaves-explorers href={localizedPath(`/entries/${story.id}/`, locale)}>{de ? 'Vollständiger Eintrag im Hauptkatalog →' : 'Full article in the main catalogue →'}</a></p>
+        <ul>{entry.data.sources.map((source) => <li><a data-leaves-explorers href={source.url} rel="external">{source.title}</a> <span>— {source.publisher}</span></li>)}</ul>
+      </details>
+    </div>
+  </div>
+  <section class="next-stories" aria-labelledby="next-title">
+    <p class="eyebrow">{de ? 'Weiter neugierig bleiben' : 'Keep wondering'}</p>
+    <h2 id="next-title">{de ? 'Noch eine Spur?' : 'Another clue to follow?'}</h2>
+    <div class="related-grid">{related.map((candidate) => <a class="related-story" data-related-story={candidate.id} href={explorerPath(candidate.id, locale)}><p>{explorerCategories[locale][candidate.category]}</p><h3>{candidate[locale].title}</h3><span aria-hidden="true">→</span></a>)}</div>
+    <a class="back-link" href={localizedPath('/kids/#explorer-stories', locale)}>{de ? 'Zur ganzen Sammlung' : 'Back to the collection'} <span aria-hidden="true">→</span></a>
+  </section>
+</article>
+<style>
+  .explorer-story { padding: 2rem 0 4rem; }
+  .back-link { display: inline-block; padding: .5rem 0; font-size: .9rem; color: #315f53; font-weight: 750; text-underline-offset: .3rem; }
+  .story-header { padding: 2rem 0 1rem; max-width: 870px; }
+  .story-header .eyebrow { color: #315f53; } .eyebrow span { margin: 0 .45rem; }
+  h1 { font-size: clamp(2.5rem, 5.5vw, 4.8rem); margin: 1rem 0 1.25rem; line-height: 1.07; }
+  .story-intro { font-size: 1.3rem; max-width: 54ch; }
+  .story-content { max-width: 820px; }
+  figure { margin: 0 0 2.5rem; }
+  .visual-frame { border: 1px solid #acbcaa; border-radius: 14px; overflow: hidden; }
+  figcaption { font-size: .85rem; color: #505a51; margin-top: .75rem; max-width: 78ch; }
+  .story-step { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 1rem; border-top: 1px solid var(--line); padding: 1.7rem 0; }
+  .step-number { color: #a92e1d; font-size: .8rem; font-weight: 850; padding-top: .2rem; }
+  .story-step h2 { font-size: 1.5rem; margin: 0 0 .85rem; }
+  .story-step p { margin: 0; font-size: 1.13rem; line-height: 1.8; max-width: 62ch; }
+  .now h2 { color: #315f53; }
+  .thinking-note { margin-top: 1rem; padding: 1.75rem 2rem; border: 1px solid #bca969; background: #eee5c7; border-radius: 12px; }
+  .thinking-note .eyebrow { margin: 0 0 .75rem; color: #69551e; }
+  .thinking-note h2 { font-size: clamp(1.4rem, 3vw, 1.9rem); margin: 0; line-height: 1.2; }
+  .thinking-invitation { font-size: .95rem; }
+  details { margin-top: 1.25rem; }
+  summary { cursor: pointer; font-weight: 750; padding: .7rem 0; min-height: 44px; }
+  .thinking-note details { border-top: 1px solid #bca969; }
+  details p { line-height: 1.75; }
+  .reviewed-at { font-size: .8rem; color: var(--muted); margin: 1.75rem 0; }
+  .adult-resources { padding: .3rem 1.2rem; border: 1px solid var(--line); border-radius: 8px; background: #efece3; font-size: .9rem; }
+  .adult-resources ul { padding-left: 1.2rem; } .adult-resources li { margin: .9rem 0; } .adult-resources a { text-underline-offset: .2rem; }
+  .next-stories { margin-top: 4rem; border-top: 1px solid var(--line); padding-top: 1.5rem; }
+  .next-stories h2 { font-size: 2rem; margin: .5rem 0 1.5rem; }
+  .related-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1rem; }
+  .related-story { display: flex; flex-direction: column; background: var(--card); border: 1px solid #b8c1af; border-radius: 10px; padding: 1.4rem; text-decoration: none; }
+  .related-story:hover { border-color: #315f53; }
+  .related-story p { font-size: .75rem; font-weight: 750; color: #315f53; margin: 0; }
+  .related-story h3 { font-size: 1.3rem; margin: .7rem 0 1.5rem; line-height: 1.2; }
+  .related-story > span { margin-top: auto; color: #315f53; }
+  @media (max-width: 650px) { .explorer-story { padding-top: 1rem; } .story-header { padding-top: 1rem; } .story-step { grid-template-columns: 24px minmax(0, 1fr); gap: .7rem; } .thinking-note { padding: 1.25rem; } .related-grid { grid-template-columns: 1fr; } .story-step p { font-size: 1.05rem; } }
+</style>

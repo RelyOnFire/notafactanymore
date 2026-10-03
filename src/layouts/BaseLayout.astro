@@ -14,6 +14,7 @@ interface Props {
   noindex?: boolean;
   locale?: SiteLocale;
   alternatePath?: string;
+  audience?: 'general' | 'explorers';
 }
 
 const {
@@ -30,7 +31,10 @@ const {
   type = 'website',
   noindex = false,
   alternatePath,
+  audience = 'general',
 } = Astro.props;
+
+const isExplorers = audience === 'explorers';
 
 const isLocaleHome = locale === 'de'
   ? Astro.url.pathname === '/de/' || Astro.url.pathname === '/de'
@@ -90,13 +94,18 @@ const germanPath = resolvedAlternatePath
   ? locale === 'de' ? Astro.url.pathname : resolvedAlternatePath
   : undefined;
 
-const navItems = locale === 'de'
+const navItems = isExplorers
+  ? locale === 'de'
+    ? [['/de/kids', 'Geschichten'], ['/de/kids/for-grown-ups', 'Für Erwachsene']]
+    : [['/kids', 'Stories'], ['/kids/for-grown-ups', 'For grown-ups']]
+  : locale === 'de'
   ? [
       ['/de/browse', 'Katalog'],
       ['/de/timeline', 'Zeitleiste'],
       ['/de/institutions', 'Institutionen'],
       ['/de/lifespans', 'Lebensdauer'],
       ['/de/glossary', 'Glossar'],
+      ['/de/kids', 'Für Kinder'],
       ['/de/methodology', 'Methodik'],
       ['/de/submit', 'Beitrag vorschlagen'],
     ]
@@ -106,13 +115,16 @@ const navItems = locale === 'de'
       ['/institutions', 'Institutions'],
       ['/lifespans', 'Lifespans'],
       ['/glossary', 'Glossary'],
+      ['/kids', 'For kids'],
       ['/methodology', 'Methodology'],
       ['/submit', 'Submit a claim'],
     ];
 
-const brandHome = locale === 'de' ? '/de/' : '/';
+const brandHome = isExplorers ? localizedPath('/kids/', locale) : locale === 'de' ? '/de/' : '/';
 const navLabel = locale === 'de' ? 'Hauptnavigation' : 'Main navigation';
-const brandLabel = locale === 'de' ? `${siteConfig.name} Startseite` : `${siteConfig.name} home`;
+const brandLabel = isExplorers
+  ? locale === 'de' ? 'Junge Entdecker – Startseite' : 'Young Explorers home'
+  : locale === 'de' ? `${siteConfig.name} Startseite` : `${siteConfig.name} home`;
 const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
 ---
 <!doctype html>
@@ -162,12 +174,12 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
     <meta name="twitter:image" content={socialImageURL.toString()} />
     <meta name="twitter:image:alt" content={imageAlt} />
   </head>
-  <body>
+  <body data-audience={audience}>
     <a class="skip-link" href="#main-content">{skipLabel}</a>
     <header class="site-header">
       <a class="brand" href={brandHome} aria-label={brandLabel}>
         <span class="brand-mark" aria-hidden="true">NF</span>
-        <span>{siteConfig.name}</span>
+        <span class="brand-text">{siteConfig.name}{isExplorers && <small>{locale === 'de' ? 'Junge Entdecker' : 'Young Explorers'}</small>}</span>
       </a>
 
       <div class="header-actions">
@@ -193,11 +205,17 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
       <slot />
     </main>
 
-    <GlossaryPopover locale={locale} />
+    {!isExplorers && <GlossaryPopover locale={locale} />}
     <BackToTop locale={locale} />
 
     <footer>
-      {locale === 'de' ? (
+      {isExplorers ? (
+        <>
+          <p><strong>{locale === 'de' ? 'Junge Entdecker' : 'Young Explorers'}</strong> · {siteConfig.name}</p>
+          <p>{locale === 'de' ? 'Kurze Geschichten darüber, wie neue Belege unser Wissen verändern.' : 'Short stories about how new evidence changes what we know.'}</p>
+          <p><a href={localizedPath('/kids/for-grown-ups/', locale)}>{locale === 'de' ? 'Für Erwachsene: Auswahl, Quellen und Impressum' : 'For grown-ups: our selection, sources and site information'}</a></p>
+        </>
+      ) : locale === 'de' ? (
         <>
           <p>
             <strong>{siteConfig.name}</strong> dokumentiert, wie sich belastbares Wissen verändert,
@@ -315,7 +333,11 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
     color: white;
     border-radius: 50%;
     font-size: 0.8rem;
+    flex-shrink: 0;
   }
+
+  .brand-text small { display: block; color: #315f53; font-size: 0.75rem; letter-spacing: 0.035em; }
+  [data-audience="explorers"] :where(a, button, input, select, summary):focus-visible { outline: 3px solid #315f53; outline-offset: 4px; }
 
   .header-actions {
     display: flex;

@@ -70,6 +70,7 @@ const normalizedPath = Astro.url.pathname.length > 1
 const germanShellRoutes = new Set([
   '/',
   '/browse',
+  '/start',
   '/timeline',
   '/institutions',
   '/lifespans',
@@ -207,7 +208,7 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
             wenn bessere Evidenz verfügbar wird.
           </p>
           <p>Jeder Eintrag ist datiert, belegt und offen für Korrekturen.</p>
-          <p><a href="/de/about">Über das Projekt</a> · <CorrectionLink locale="de" /> · <a href="/de/impressum">Impressum</a></p>
+          <p><a href="/de/start/">Hier anfangen</a> · <a href="/de/about">Über das Projekt</a> · <CorrectionLink locale="de" /> · <a href="/de/impressum">Impressum</a></p>
         </>
       ) : (
         <>
@@ -216,7 +217,7 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
             changes when stronger evidence arrives.
           </p>
           <p>Every entry is dated, sourced, and open to correction.</p>
-          <p><a href="/about">About</a> · <CorrectionLink /> · <a href="/impressum">Impressum</a></p>
+          <p><a href="/start/">Start here</a> · <a href="/about">About</a> · <CorrectionLink /> · <a href="/impressum">Impressum</a></p>
         </>
       )}
     </footer>

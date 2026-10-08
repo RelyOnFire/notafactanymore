@@ -1,4 +1,4 @@
-"""Check published page layouts and links into folded institutional evidence."""
+"""Check layouts, guided reading, contribution drafts and institutional evidence."""
 import argparse
 import asyncio
 import functools
@@ -17,6 +17,7 @@ parser.add_argument('--screenshots', type=pathlib.Path)
 parser.add_argument('--paths', nargs='+', help='Check only these paths; omit for the full reading check.')
 parser.add_argument('--widths', nargs='+', type=int, default=[320, 390, 1440])
 parser.add_argument('--contributions', action='store_true', help='Check contribution flows when --paths limits layout checks.')
+parser.add_argument('--reading-path', action='store_true', help='Follow the Start here path when --paths limits layout checks.')
 args = parser.parse_args()
 
 
@@ -119,6 +120,62 @@ async def check_corrections(browser, base):
     return len(drafts)
 
 
+async def check_reading_path(browser, base):
+    cases = ['/entries/humans-have-48-chromosomes/', '/entries/peptic-ulcers/',
+             '/institutions/routine-oxygen-heart-attack/', '/institutions/lysenkoist-heredity/']
+    case_checks = 0
+    source_checks = 0
+    for javascript in [True, False]:
+        ctx = await browser.new_context(viewport={'width': 390, 'height': 844}, java_script_enabled=javascript)
+        page = await ctx.new_page()
+        for prefix in ['', '/de']:
+            guide = prefix + '/start/'
+            await page.goto(base + prefix + '/', wait_until='networkidle')
+            await page.locator(f'.actions a[href="{guide}"]').click()
+            await page.wait_for_url(base + guide, wait_until='networkidle')
+            assert await page.locator('.reading-case').count() == len(cases)
+            hrefs = await page.locator('.reading-case').evaluate_all('(links) => links.map(link => link.getAttribute("href"))')
+            assert hrefs == [prefix + path for path in cases], 'Reading path changed order or language'
+            other_guide = '/start/' if prefix else '/de/start/'
+            await page.locator('.language-switch').click()
+            await page.wait_for_url(base + other_guide, wait_until='networkidle')
+            await page.locator('.language-switch').click()
+            await page.wait_for_url(base + guide, wait_until='networkidle')
+            source_links = await page.locator('.step-actions a[href*="#"]').evaluate_all('(links) => links.map(link => link.getAttribute("href"))')
+            assert len(source_links) == len(cases)
+            for href in source_links:
+                response = await page.goto(base + href, wait_until='networkidle')
+                assert response.status == 200
+                anchor = urlparse(href).fragment
+                assert await page.locator('#' + anchor).is_visible(), 'Guide source link has no visible destination'
+                y = await page.locator('#' + anchor).evaluate('(el) => el.getBoundingClientRect().top')
+                assert abs(y) < 50, f'Guide source link did not reach its destination: {href} at {y}'
+                source_checks += 1
+            await page.goto(base + guide, wait_until='networkidle')
+            await page.locator('.reading-begin').click()
+            for index, path in enumerate(cases):
+                await page.wait_for_url(base + prefix + path, wait_until='networkidle')
+                await check_layout(page, 'Reading path case')
+                assert await page.locator('main h1').count() == 1
+                assert await page.locator('.reading-context a').get_attribute('href') == guide + f'#case-{index + 1}'
+                previous = prefix + cases[index - 1] if index else guide
+                assert await page.locator('.reading-previous').get_attribute('href') == previous
+                if index + 1 < len(cases):
+                    assert await page.locator('.reading-next').get_attribute('href') == prefix + cases[index + 1]
+                    await page.locator('.reading-next').click()
+                else:
+                    assert await page.locator('.reading-next').count() == 0
+                    await page.locator('.reading-previous').click()
+                    await page.wait_for_url(base + prefix + cases[index - 1], wait_until='networkidle')
+                    await page.locator('.reading-next').click()
+                    await page.wait_for_url(base + prefix + path, wait_until='networkidle')
+                    await page.locator('.reading-explore').click()
+                    await page.wait_for_url(base + prefix + '/browse/', wait_until='networkidle')
+                case_checks += 1
+        await ctx.close()
+    return {'caseChecks': case_checks, 'sourceJumpChecks': source_checks, 'withoutJavaScript': True}
+
+
 async def main():
     server = None
     if args.base_url:
@@ -130,13 +187,14 @@ async def main():
     issues = []
     checked = 0
     draft_checks = 0
+    reading_path_checks = None
     async with async_playwright() as p:
         options = {'headless': True}
         if args.executable:
             options['executable_path'] = args.executable
         browser = await p.chromium.launch(**options)
-        paths = ['/', '/browse/', '/timeline/', '/institutions/', '/lifespans/', '/glossary/', '/categories/medicine/', '/methodology/', '/about/', '/submit/', '/corrections/',
-                 '/entries/peptic-ulcers/', '/institutions/lysenkoist-heredity/', '/institutions/virginity-testing/', '/institutions/routine-oxygen-heart-attack/']
+        paths = ['/', '/start/', '/browse/', '/timeline/', '/institutions/', '/lifespans/', '/glossary/', '/categories/medicine/', '/methodology/', '/about/', '/submit/', '/corrections/',
+                 '/entries/humans-have-48-chromosomes/', '/entries/peptic-ulcers/', '/institutions/lysenkoist-heredity/', '/institutions/virginity-testing/', '/institutions/routine-oxygen-heart-attack/']
         paths += [('/de/' if path == '/' else '/de' + path) for path in paths]
         if args.paths:
             paths = args.paths
@@ -163,9 +221,12 @@ async def main():
                             assert await page.locator('.filter-panel').is_visible()
                             await page.keyboard.press('Escape')
                             assert not await page.locator('.filter-panel').is_visible()
-                        if args.screenshots and width in [390, 1440] and path in ['/', '/institutions/lysenkoist-heredity/', '/methodology/', '/de/methodology/', '/corrections/', '/de/corrections/']:
+                        if args.screenshots and width in [390, 1440] and path in ['/', '/de/', '/start/', '/de/start/', '/entries/peptic-ulcers/', '/de/entries/peptic-ulcers/', '/institutions/lysenkoist-heredity/', '/methodology/', '/de/methodology/', '/corrections/', '/de/corrections/']:
                             args.screenshots.mkdir(parents=True, exist_ok=True)
-                            await page.screenshot(path=str(args.screenshots / f'{width}-{path.strip("/").replace("/", "-") or "home"}.png'))
+                            name = f'{width}-{path.strip("/").replace("/", "-") or "home"}'
+                            await page.screenshot(path=str(args.screenshots / f'{name}.png'), full_page=path.endswith('/start/'))
+                            if await page.locator('.reading-path-nav').count():
+                                await page.locator('.reading-path-nav').screenshot(path=str(args.screenshots / f'{name}-reading-nav.png'))
                         checked += 1
                     except Exception as error:
                         issues.append(f'{width}px {path}: {error}')
@@ -209,6 +270,8 @@ async def main():
                         issues.append(f'Evidence navigation {path}: {error}')
                 await page.close()
             await ctx.close()
+        if not args.paths or args.reading_path:
+            reading_path_checks = await check_reading_path(browser, base)
         if not args.paths or args.contributions:
             draft_checks = await check_corrections(browser, base)
             # Evidence can still be expanded when JavaScript is unavailable.
@@ -233,7 +296,7 @@ async def main():
         server.server_close()
     if issues:
         raise AssertionError('\n'.join(issues))
-    print(json.dumps({'pageChecks': checked, 'widths': args.widths, 'fullReadingCheck': not args.paths, 'issueDraftsChecked': draft_checks}), flush=True)
+    print(json.dumps({'pageChecks': checked, 'widths': args.widths, 'fullReadingCheck': not args.paths, 'issueDraftsChecked': draft_checks, 'readingPath': reading_path_checks}), flush=True)
 
 
 asyncio.run(main())

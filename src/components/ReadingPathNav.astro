@@ -1,0 +1,74 @@
+---
+import { localizedPath, type SiteLocale } from '../lib/i18n';
+import { readingPosition } from '../lib/readingPath';
+
+interface Props {
+  collection: 'entries' | 'institutions';
+  id: string;
+  locale?: SiteLocale;
+  compact?: boolean;
+}
+
+const { collection, id, locale = 'en', compact = false } = Astro.props;
+const position = readingPosition(collection, id, locale);
+const guidePath = localizedPath('/start/', locale);
+const copy = locale === 'de' ? {
+  guide: 'Lesepfad zum Einstieg',
+  all: 'Alle vier Fälle',
+  previous: 'Vorheriger Fall',
+  next: 'Nächster Fall',
+  end: 'Letzter Fall dieses Lesepfads',
+  explore: 'Weitere Fälle erkunden',
+  count: (number: number, total: number) => `Fall ${number} von ${total}`,
+} : {
+  guide: 'Start here reading path',
+  all: 'All four cases',
+  previous: 'Previous case',
+  next: 'Next case',
+  end: 'Last case in this reading path',
+  explore: 'Explore more cases',
+  count: (number: number, total: number) => `Case ${number} of ${total}`,
+};
+---
+{position && (compact ? (
+  <aside class="reading-context">
+    <a href={`${guidePath}#case-${position.step.number}`}>{copy.guide}</a>
+    <span>{copy.count(position.step.number, position.total)}</span>
+  </aside>
+) : (
+  <nav class="reading-path-nav" aria-label={copy.guide}>
+    <div class="path-heading">
+      <p><strong>{copy.guide}</strong><span>{copy.count(position.step.number, position.total)}</span></p>
+      <a class="reading-all" href={guidePath}>{copy.all} →</a>
+    </div>
+    <div class="path-links">
+      {position.previous ? (
+        <a class="reading-previous" href={position.previous.href}><span>← {copy.previous}</span><strong>{position.previous.title}</strong></a>
+      ) : (
+        <a class="reading-previous" href={guidePath}><span>← {copy.guide}</span><strong>{copy.all}</strong></a>
+      )}
+      {position.next ? (
+        <a class="reading-next" href={position.next.href}><span>{copy.next} →</span><strong>{position.next.title}</strong></a>
+      ) : (
+        <a class="reading-explore" href={localizedPath('/browse/', locale)}><span>{copy.end}</span><strong>{copy.explore} →</strong></a>
+      )}
+    </div>
+  </nav>
+))}
+
+<style>
+  .reading-context { display: flex; flex-wrap: wrap; gap: .35rem 1rem; margin: 1.5rem 0; padding: .75rem 0; border-block: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+  .reading-context a { color: var(--accent-dark); font-weight: 750; }
+  .reading-path-nav { display: block; margin: 3rem 0; padding: 1.25rem; border: 1px solid var(--line); background: var(--card); overflow-wrap: anywhere; }
+  .path-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 1.5rem; margin-bottom: 1rem; }
+  .path-heading p { display: flex; flex-wrap: wrap; gap: .25rem 1rem; margin: 0; font-size: .9rem; }
+  .path-heading span { color: var(--muted); }
+  .reading-all { font-size: .85rem; color: var(--accent-dark); }
+  .path-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+  .path-links a { display: flex; flex-direction: column; min-width: 0; padding: 1rem; border: 1px solid var(--line); text-decoration: none; color: var(--accent-dark); }
+  .path-links a:hover { border-color: var(--accent-dark); }
+  .path-links span { font-size: .8rem; color: var(--muted); }
+  .path-links strong { margin-top: .3rem; font-size: 1rem; line-height: 1.4; }
+  @media (max-width: 600px) { .path-links { grid-template-columns: minmax(0, 1fr); } }
+  @media print { .reading-context, .reading-path-nav { display: none; } }
+</style>

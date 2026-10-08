@@ -1,0 +1,133 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { localizedPath, type SiteLocale } from '../lib/i18n';
+import { readingPath } from '../lib/readingPath';
+
+interface Props { locale?: SiteLocale; }
+const { locale = 'en' } = Astro.props;
+const steps = readingPath(locale);
+const copy = locale === 'de' ? {
+  title: 'Hier anfangen',
+  heading: 'Vier Fälle zum Einstieg.',
+  description: 'Ein kurzer Lesepfad durch vier belegte Fälle: bessere Messung, neue Erklärungen, geänderte Leitlinien und die Unterdrückung wissenschaftlichen Widerspruchs.',
+  intro: 'Vier ausgewählte Fälle zeigen unterschiedliche Wege, wie sich Wissen verändert. Lies sie der Reihe nach oder beginne mit dem Fall, der dich interessiert.',
+  first: 'Mit dem ersten Fall anfangen',
+  browse: 'Den ganzen Katalog durchsuchen',
+  how: 'So liest du einen Fall',
+  instructions: 'Vergleiche die frühere Aussage mit dem heutigen Wissensstand. Lies dann, warum sich die Einschätzung änderte und was die einzelnen Quellen belegen. Die Fragen unten helfen dir, die Grenzen der Aussagen zu prüfen.',
+  distinction: 'Die ersten beiden Fälle gehören zum Kernkatalog: Dort geht es um früher begründet akzeptierte wissenschaftliche Aussagen. Die letzten beiden stammen aus „Institutionelle Überzeugungen“: Dort zählt, wie eine Aussage die Praxis einer Institution prägte, auch wenn Fachleute ihr bereits widersprachen.',
+  core: 'Kernkatalog',
+  institutions: 'Institutionelle Überzeugungen',
+  question: 'Achte beim Lesen auf diese Frage',
+  read: 'Fall lesen',
+  further: 'Danach weiter erkunden',
+  furtherCopy: 'Die vier Fälle sind ein Einstieg, keine Rangliste und keine repräsentative Stichprobe. Erkunde weitere Fälle oder lies, nach welchen Maßstäben sie ausgewählt und belegt werden.',
+  timeline: 'Zeitleiste',
+  institutionalBrowse: 'Institutionelle Überzeugungen',
+  methodology: 'Methodik und Evidenzkennzeichnungen',
+} : {
+  title: 'Start here',
+  heading: 'Four cases to begin with.',
+  description: 'A short reading path through four sourced cases: better measurement, new explanations, revised guidelines and the suppression of scientific challenge.',
+  intro: 'Four selected cases show different ways knowledge changes. Read them in order, or begin with the case that interests you.',
+  first: 'Begin with the first case',
+  browse: 'Browse the whole catalogue',
+  how: 'How to read a case',
+  instructions: 'Compare the earlier claim with the current understanding. Then read why it changed and what each source establishes. The questions below help you check the limits of the account.',
+  distinction: 'The first two cases come from the core catalogue: scientific claims once reasonably accepted. The last two come from Institutional Beliefs: claims that shaped institutional practice, including claims that relevant experts already contested.',
+  core: 'Core catalogue',
+  institutions: 'Institutional Beliefs',
+  question: 'A question to read with',
+  read: 'Read the case',
+  further: 'Keep exploring',
+  furtherCopy: 'These four cases are an introduction, rather than a ranking or a representative sample. Explore more cases, or read how they are selected and sourced.',
+  timeline: 'Timeline',
+  institutionalBrowse: 'Institutional Beliefs',
+  methodology: 'Methodology and evidence labels',
+};
+---
+<BaseLayout locale={locale} title={copy.title} description={copy.description} alternatePath={localizedPath('/start/', locale === 'de' ? 'en' : 'de')}>
+  <div class="container reading-page">
+    <header class="reading-intro">
+      <p class="eyebrow">{copy.title}</p>
+      <h1>{copy.heading}</h1>
+      <p class="lead">{copy.intro}</p>
+      <div class="reading-actions">
+        <a class="button reading-begin" href={steps[0].href}>{copy.first} →</a>
+        <a class="catalogue-action" href={localizedPath('/browse/', locale)}>{copy.browse}</a>
+      </div>
+    </header>
+
+    <section class="reading-help" aria-labelledby="reading-help-title">
+      <h2 id="reading-help-title">{copy.how}</h2>
+      <p>{copy.instructions}</p>
+      <p>{copy.distinction}</p>
+    </section>
+
+    <ol class="reading-steps">
+      {steps.map(step => (
+        <li class="reading-step" id={`case-${step.number}`}>
+          <span class="step-number" aria-hidden="true">{String(step.number).padStart(2, '0')}</span>
+          <div class="step-content">
+            <p class="step-focus">{step.focus}</p>
+            <h2><a class="reading-case-title" href={step.href}>{step.title}</a></h2>
+            <p class="collection-label">{step.collection === 'entries' ? copy.core : copy.institutions}</p>
+            <p class="step-description">{step.description}</p>
+            <div class="reading-question"><strong>{copy.question}</strong><p>{step.question}</p></div>
+            <div class="step-actions">
+              <a class="reading-case" href={step.href}>{copy.read} →</a>
+              <a href={`${step.href}#${step.sourceAnchor}`}>{step.sourceAction} →</a>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <section class="reading-further" aria-labelledby="reading-further-title">
+      <h2 id="reading-further-title">{copy.further}</h2>
+      <p>{copy.furtherCopy}</p>
+      <div class="further-links">
+        <a href={localizedPath('/browse/', locale)}>{copy.browse} →</a>
+        <a href={localizedPath('/timeline/', locale)}>{copy.timeline} →</a>
+        <a href={localizedPath('/institutions/', locale)}>{copy.institutionalBrowse} →</a>
+        <a href={localizedPath('/methodology/', locale)}>{copy.methodology} →</a>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .reading-page { max-width: 960px; padding: clamp(3rem, 6vw, 5rem) 0; overflow-wrap: anywhere; }
+  .reading-intro { max-width: 48rem; margin-bottom: 2.5rem; }
+  .reading-intro h1 { margin: .3rem 0 1.25rem; max-width: 16ch; font-size: clamp(2.5rem, 6vw, 4.5rem); }
+  .lead { color: var(--muted); font-size: 1.2rem; }
+  .reading-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem 1.5rem; margin-top: 1.75rem; }
+  .catalogue-action { color: var(--accent-dark); font-weight: 750; }
+  .reading-help { padding: 1.5rem; border: 1px solid var(--line); background: var(--card); }
+  .reading-help h2 { margin: 0; font-size: 1.3rem; }
+  .reading-help p { color: var(--muted); margin: .75rem 0 0; }
+  .reading-steps { list-style: none; padding: 0; margin: 3rem 0; border-top: 2px solid var(--ink); }
+  .reading-step { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: 1.5rem; padding: 2.25rem 0; border-bottom: 1px solid var(--line); }
+  .step-number { color: var(--accent-dark); font-size: 3rem; font-weight: 850; line-height: 1; letter-spacing: -.05em; white-space: nowrap; }
+  .step-content { min-width: 0; }
+  .step-focus { margin: 0; color: var(--accent-dark); font-weight: 800; font-size: .85rem; }
+  .step-content h2 { margin: .4rem 0; font-size: clamp(1.5rem, 3vw, 2rem); }
+  .reading-case-title { text-decoration: none; }
+  .reading-case-title:hover { text-decoration: underline; text-underline-offset: .15em; }
+  .collection-label { color: var(--muted); font-size: .85rem; margin: .35rem 0 1rem; }
+  .step-description { margin: 0 0 1rem; }
+  .reading-question { border-left: 3px solid var(--line); padding-left: 1rem; color: var(--muted); }
+  .reading-question strong { color: var(--ink); font-size: .85rem; }
+  .reading-question p { margin: .25rem 0 0; }
+  .step-actions { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; margin-top: 1.5rem; }
+  .step-actions a, .further-links a { color: var(--accent-dark); font-weight: 750; }
+  .reading-case { font-weight: 850; }
+  .reading-further h2 { margin: 0 0 .75rem; font-size: 1.7rem; }
+  .reading-further p { color: var(--muted); max-width: 45rem; }
+  .further-links { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; }
+  @media (max-width: 600px) {
+    .reading-step { grid-template-columns: 2.25rem minmax(0, 1fr); gap: .75rem; }
+    .step-number { font-size: 1.8rem; padding-top: .1rem; }
+    .reading-help { padding: 1.1rem; }
+  }
+</style>

@@ -5,6 +5,7 @@ import FactCard from '../../components/FactCard.astro';
 import EntryMedia from '../../components/EntryMedia.astro';
 import EntryDiscovery from '../../components/EntryDiscovery.astro';
 import CorrectionLink from '../../components/CorrectionLink.astro';
+import ReadingPathNav from '../../components/ReadingPathNav.astro';
 import { translationMatchesEntry } from '../../lib/i18n';
 
 export async function getStaticPaths() {
@@ -37,13 +38,15 @@ const groupedSources = entry.data.sources.reduce<Record<string, typeof entry.dat
   <div class="narrow entry-page">
     <FactCard entry={entry} expanded headingLevel={1} />
 
+    <ReadingPathNav collection="entries" id={entry.id} compact />
+
     <EntryMedia media={entry.data.media} />
 
     <article class="context prose">
       <Content />
     </article>
 
-    <section class="evidence">
+    <section class="evidence" id="sources">
       <p class="eyebrow">Evidence</p>
       <h2>Sources and what they establish</h2>
       {Object.entries(groupedSources).map(([purpose, sources]) => (
@@ -61,6 +64,8 @@ const groupedSources = entry.data.sources.reduce<Record<string, typeof entry.dat
         </div>
       ))}
     </section>
+
+    <ReadingPathNav collection="entries" id={entry.id} />
 
     <EntryDiscovery entry={entry} />
 

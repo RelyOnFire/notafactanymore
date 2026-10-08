@@ -3,6 +3,7 @@ import { siteConfig } from '../site-config';
 import BackToTop from '../components/BackToTop.astro';
 import GlossaryPopover from '../components/GlossaryPopover.astro';
 import { localeMeta, localizedPath, type SiteLocale } from '../lib/i18n';
+import { getSocialCard } from '../lib/socialCards';
 
 interface Props {
   title?: string;
@@ -22,10 +23,8 @@ const {
   description = locale === 'de'
     ? 'Ein Katalog wissenschaftlicher Aussagen, die einst vernünftigerweise als Tatsachen galten, später aber durch bessere Evidenz widerlegt, ersetzt, eingeschränkt, neu eingeordnet oder korrigiert wurden.'
     : siteConfig.description,
-  image = locale === 'de' ? '/social-card-de.png' : '/social-card.png',
-  imageAlt = locale === 'de'
-    ? `${siteConfig.name} - Fakten haben eine Geschichte.`
-    : `${siteConfig.name} - Facts have a history.`,
+  image,
+  imageAlt,
   canonicalURL,
   type = 'website',
   noindex = false,
@@ -59,7 +58,10 @@ const pageURL = canonicalURL
   ? new URL(canonicalURL.toString(), siteURL)
   : new URL(Astro.url.pathname, siteURL);
 
-const socialImageURL = new URL(image, siteURL);
+const socialCard = await getSocialCard(Astro.url.pathname, locale);
+const socialImageURL = new URL(image ?? socialCard.imagePath, siteURL);
+const socialImageAlt = imageAlt ?? `${socialCard.label}: ${socialCard.title}`;
+const socialTitle = `${socialCard.shareTitle} | ${siteConfig.name}`;
 const otherLocale: SiteLocale = locale === 'de' ? 'en' : 'de';
 const normalizedPath = Astro.url.pathname.length > 1
   ? Astro.url.pathname.replace(/\/$/, '')
@@ -146,7 +148,7 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
     <meta property="og:site_name" content={siteConfig.name} />
     <meta property="og:locale" content={localeMeta[locale].ogLocale} />
     <meta property="og:type" content={type} />
-    <meta property="og:title" content={pageTitle} />
+    <meta property="og:title" content={socialTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={pageURL.toString()} />
     <meta property="og:image" content={socialImageURL.toString()} />
@@ -154,13 +156,13 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content={imageAlt} />
+    <meta property="og:image:alt" content={socialImageAlt} />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:title" content={socialTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={socialImageURL.toString()} />
-    <meta name="twitter:image:alt" content={imageAlt} />
+    <meta name="twitter:image:alt" content={socialImageAlt} />
   </head>
   <body>
     <a class="skip-link" href="#main-content">{skipLabel}</a>
@@ -194,7 +196,7 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
     </main>
 
     <GlossaryPopover locale={locale} />
-    <BackToTop locale={locale} />
+    <BackToTop locale={locale} shareEnabled={!noindex} />
 
     <footer>
       {locale === 'de' ? (

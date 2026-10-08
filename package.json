@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "check:content": "node scripts/check-content-integrity.mjs && node scripts/check-media-integrity.mjs && node scripts/check-glossary-integrity.mjs && node scripts/check-narrative-emphasis.mjs",
-    "check:build-output": "node scripts/check-build-output.mjs"
+    "check:build-output": "node scripts/check-build-output.mjs && node scripts/check-sharing-output.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

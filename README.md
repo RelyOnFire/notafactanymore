@@ -28,6 +28,8 @@ npm run preview
 
 The production files are generated in `dist/`.
 
+The build checks content, translations, generated page parity, social previews and internal links. GitHub Actions also runs [desktop and mobile reading checks](tests/reading.browser.py), including direct links into institutional evidence and access without JavaScript.
+
 ## Add an entry
 
 1. Copy `src/data/entries/_template.md`.

@@ -3,9 +3,10 @@ import type { SiteLocale } from '../lib/i18n';
 
 interface Props {
   locale?: SiteLocale;
+  shareEnabled?: boolean;
 }
 
-const { locale = 'en' } = Astro.props;
+const { locale = 'en', shareEnabled = true } = Astro.props;
 const topLabel = locale === 'de' ? 'Nach oben' : 'Back to top';
 const topShortLabel = locale === 'de' ? 'Oben' : 'Top';
 const shareLabel = locale === 'de' ? 'Teilen' : 'Share';
@@ -14,8 +15,6 @@ const copiedMessage = locale === 'de'
   ? 'Link in die Zwischenablage kopiert'
   : 'Link copied to clipboard';
 
-const pathname = Astro.url.pathname;
-const shareEnabled = /^\/(?:de\/)?(?:browse|timeline|institutions(?:\/[^/]+)?|entries\/[^/]+)\/?$/.test(pathname);
 ---
 
 <div class="floating-actions" aria-label={locale === 'de' ? 'Seitenaktionen' : 'Page actions'}>

@@ -56,4 +56,4 @@ After the Pages deployment works at its temporary `pages.dev` address, add `nota
 
 ## Submission workflow
 
-The submission page converts the form into a pre-filled GitHub issue labelled `submission`. Nothing is published automatically. Review accepted proposals, create a Markdown entry, verify its sources, and merge it into `main`.
+The submission page opens a pre-filled GitHub issue draft using the submission template. The corrections page does the same for problems with existing entries, sources, translations or usability. Page links preserve the relevant case and citation fragment. Reports are public when submitted on GitHub; nothing is published to the catalogue automatically. Review accepted proposals against the sources before merging them into `main`.

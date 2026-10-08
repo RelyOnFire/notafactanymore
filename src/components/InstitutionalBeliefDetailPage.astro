@@ -1,7 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import CorrectionLink from './CorrectionLink.astro';
 import { historicalDescription } from '../lib/socialCards';
+import { evidenceRelations, institutionalCorrectionStates } from '../lib/institutionalEvidenceLabels';
 import { translationMatchesEntry, type SiteLocale } from '../lib/i18n';
 import {
   normalizeInstitutionalBelief,
@@ -116,35 +118,8 @@ const mechanismLabels: Record<string, string> = locale === 'de'
       other: 'Other mechanism',
     };
 
-const correctionStatusLabels: Record<string, string> = locale === 'de'
-  ? {
-      corrected: 'Korrigiert',
-      partial: 'Teilweise korrigiert',
-      uncorrected: 'Nicht korrigiert',
-      ongoing: 'Laufend',
-      undocumented: 'Nicht dokumentiert',
-    }
-  : {
-      corrected: 'Corrected',
-      partial: 'Partially corrected',
-      uncorrected: 'Uncorrected',
-      ongoing: 'Ongoing',
-      undocumented: 'Undocumented',
-    };
-
-const relationLabels: Record<string, string> = locale === 'de'
-  ? {
-      documents: 'Dokumentiert',
-      supports: 'Stützt',
-      contextualizes: 'Ordnet ein',
-      disputes: 'Widerspricht',
-    }
-  : {
-      documents: 'Documents',
-      supports: 'Supports',
-      contextualizes: 'Contextualizes',
-      disputes: 'Disputes',
-    };
+const correctionStatusLabels = Object.fromEntries(institutionalCorrectionStates.map(state => [state.id, state.label[locale]]));
+const relationLabels = Object.fromEntries(evidenceRelations.map(relation => [relation.id, relation.label[locale]]));
 
 const targetLabels: Record<string, string> = locale === 'de'
   ? {
@@ -308,6 +283,7 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
         {entry.impact && <li><a href="#impact-title">{copy.impact}</a></li>}
         {episodes.map(episode => <li><a href={`#${episode.id}`}>{episode.polity}</a></li>)}
         <li><a href="#source-registry">{copy.sourceRegistry}</a></li>
+        <li><a href={`${locale === 'de' ? '/de' : ''}/methodology/#institutional-evidence`}>{locale === 'de' ? 'Evidenz erklärt' : 'Evidence guide'}</a></li>
       </ul>
       <button
         class="evidence-toggle" type="button" hidden aria-expanded="false"
@@ -551,6 +527,7 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
 
     <footer class="case-footer">
       <span>{copy.reviewed}: {reviewedDate}</span>
+      <CorrectionLink locale={locale} />
       <a href={timelinePath}>← {copy.back}</a>
     </footer>
   </article>

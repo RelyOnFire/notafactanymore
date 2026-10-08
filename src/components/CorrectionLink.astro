@@ -1,0 +1,22 @@
+---
+import { localizedPath, type SiteLocale } from '../lib/i18n';
+
+interface Props { locale?: SiteLocale; }
+const { locale = 'en' } = Astro.props;
+const href = `${localizedPath('/corrections', locale)}/?page=${encodeURIComponent(Astro.url.pathname)}`;
+---
+<a class="correction-link" href={href}>{locale === 'de' ? 'Korrektur vorschlagen' : 'Suggest a correction'}</a>
+
+<script>
+  for (const link of document.querySelectorAll<HTMLAnchorElement>('.correction-link')) {
+    link.addEventListener('click', () => {
+      const destination = new URL(link.href);
+      destination.searchParams.set('page', window.location.pathname + window.location.search + window.location.hash);
+      link.href = destination.toString();
+    });
+  }
+</script>
+
+<style>
+  a { color: var(--accent-dark); font-weight: 750; text-underline-offset: .2em; }
+</style>

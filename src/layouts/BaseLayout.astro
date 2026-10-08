@@ -1,6 +1,7 @@
 ---
 import { siteConfig } from '../site-config';
 import BackToTop from '../components/BackToTop.astro';
+import CorrectionLink from '../components/CorrectionLink.astro';
 import GlossaryPopover from '../components/GlossaryPopover.astro';
 import { localeMeta, localizedPath, type SiteLocale } from '../lib/i18n';
 import { getSocialCard } from '../lib/socialCards';
@@ -206,7 +207,7 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
             wenn bessere Evidenz verfügbar wird.
           </p>
           <p>Jeder Eintrag ist datiert, belegt und offen für Korrekturen.</p>
-          <p><a href="/de/about">Über das Projekt</a> · <a href="/de/impressum">Impressum</a></p>
+          <p><a href="/de/about">Über das Projekt</a> · <CorrectionLink locale="de" /> · <a href="/de/impressum">Impressum</a></p>
         </>
       ) : (
         <>
@@ -215,7 +216,7 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
             changes when stronger evidence arrives.
           </p>
           <p>Every entry is dated, sourced, and open to correction.</p>
-          <p><a href="/about">About</a> · <a href="/impressum">Impressum</a></p>
+          <p><a href="/about">About</a> · <CorrectionLink /> · <a href="/impressum">Impressum</a></p>
         </>
       )}
     </footer>

@@ -1,0 +1,171 @@
+---
+import { siteConfig } from '../site-config';
+import type { SiteLocale } from '../lib/i18n';
+
+interface Props { locale?: SiteLocale; }
+const { locale = 'en' } = Astro.props;
+const issueURL = `https://github.com/${siteConfig.githubOwner}/${siteConfig.githubRepo}/issues/new?template=correction.md`;
+const copy = locale === 'de' ? {
+  page: 'Link zur betroffenen Seite',
+  pageHelp: 'Du kannst auch direkt auf eine Episode, Quelle oder Evidenzbeziehung verlinken.',
+  summary: 'Kurze Beschreibung des Problems',
+  kind: 'Art des Problems',
+  kinds: ['Sachliche Aussage', 'Historische Einordnung oder fehlender Kontext', 'Quelle oder defekter Link', 'Übersetzung', 'Darstellung oder Bedienung', 'Sonstiges'],
+  details: 'Was sollte geändert werden, und warum?',
+  evidence: 'Belege oder Quellen',
+  evidenceHelp: 'Bei sachlichen Korrekturen helfen Quellentitel, Links und genaue Fundstellen. Ein defekter Link kann auch ohne zusätzliche Quelle gemeldet werden.',
+  suggestion: 'Vorgeschlagene Korrektur (optional)',
+  submit: 'Entwurf auf GitHub prüfen',
+  copy: 'Bericht kopieren',
+  public: 'Auf GitHub kannst du den Entwurf vor dem Absenden prüfen. Eingereichte Berichte sind öffentlich; zum Absenden brauchst du ein GitHub-Konto.',
+  fallback: 'Ohne JavaScript kannst du die Korrekturvorlage auf GitHub öffnen und den Seitenlink dort eintragen.',
+  template: 'Korrekturvorlage auf GitHub öffnen',
+  draft: 'Dein Bericht',
+  long: 'Dein Bericht ist lang. Kopiere ihn in die Korrekturvorlage auf GitHub.',
+  copied: 'Bericht kopiert.',
+  select: 'Markiere und kopiere den Bericht unten.',
+  invalidPage: 'Bitte verwende einen Link zu notafactanymore.com.',
+} : {
+  page: 'Link to the affected page',
+  pageHelp: 'You can link directly to an episode, source or evidence relationship.',
+  summary: 'Short description of the problem',
+  kind: 'Type of problem',
+  kinds: ['Factual claim', 'Historical framing or missing context', 'Source or broken link', 'Translation', 'Layout or usability', 'Other'],
+  details: 'What should change, and why?',
+  evidence: 'Evidence or sources',
+  evidenceHelp: 'For factual corrections, source titles, links and precise locations help. You can report a broken link without an additional source.',
+  suggestion: 'Suggested correction (optional)',
+  submit: 'Review draft on GitHub',
+  copy: 'Copy report',
+  public: 'You can review the draft on GitHub before submitting. Submitted reports are public; you need a GitHub account to submit one.',
+  fallback: 'Without JavaScript, open the correction template on GitHub and include the page link there.',
+  template: 'Open the correction template on GitHub',
+  draft: 'Your report',
+  long: 'Your report is long. Copy it into the correction template on GitHub.',
+  copied: 'Report copied.',
+  select: 'Select and copy the report below.',
+  invalidPage: 'Please use a link to notafactanymore.com.',
+};
+const kinds = ['factual', 'framing', 'source', 'translation', 'usability', 'other'];
+---
+<noscript><p>{copy.fallback} <a href={issueURL}>{copy.template} →</a></p></noscript>
+
+<form id="correction-form" hidden data-issue-url={issueURL} data-domain={siteConfig.domain}
+  data-long-message={copy.long} data-copied-message={copy.copied} data-select-message={copy.select} data-invalid-page={copy.invalidPage}>
+  <label for="correction-page">{copy.page}</label>
+  <input id="correction-page" name="page" type="url" required aria-describedby="page-help" placeholder={`https://${siteConfig.domain}/…`} />
+  <p class="help" id="page-help">{copy.pageHelp}</p>
+
+  <label for="correction-summary">{copy.summary}</label>
+  <input id="correction-summary" name="summary" required maxlength="120" />
+
+  <label for="correction-kind">{copy.kind}</label>
+  <select id="correction-kind" name="kind">{kinds.map((kind, index) => <option value={kind}>{copy.kinds[index]}</option>)}</select>
+
+  <label for="correction-details">{copy.details}</label>
+  <textarea id="correction-details" name="details" required></textarea>
+
+  <label for="correction-evidence">{copy.evidence}</label>
+  <textarea id="correction-evidence" name="evidence" aria-describedby="evidence-help"></textarea>
+  <p class="help" id="evidence-help">{copy.evidenceHelp}</p>
+
+  <label for="correction-suggestion">{copy.suggestion}</label>
+  <textarea id="correction-suggestion" name="suggestion"></textarea>
+
+  <div class="actions">
+    <button class="button" type="submit">{copy.submit}</button>
+    <button class="button secondary" type="button" id="copy-correction">{copy.copy}</button>
+  </div>
+  <p class="help">{copy.public}</p>
+  <p id="correction-status" role="status" aria-live="polite"></p>
+
+  <section id="correction-draft" hidden aria-labelledby="draft-title">
+    <h2 id="draft-title">{copy.draft}</h2>
+    <textarea id="correction-report" readonly aria-label={copy.draft}></textarea>
+    <a href={issueURL}>{copy.template} →</a>
+  </section>
+</form>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>('#correction-form');
+  if (form) {
+    const pageInput = form.querySelector<HTMLInputElement>('[name="page"]')!;
+    const status = form.querySelector<HTMLElement>('#correction-status')!;
+    const draft = form.querySelector<HTMLElement>('#correction-draft')!;
+    const report = form.querySelector<HTMLTextAreaElement>('#correction-report')!;
+    const domain = form.dataset.domain!;
+    const normalizePage = (value: string) => {
+      if (!value.trim()) return null;
+      try {
+        const page = new URL(value.trim(), `https://${domain}`);
+        if (!['http:', 'https:'].includes(page.protocol) || ![domain, `www.${domain}`].includes(page.hostname) || page.username || page.password || page.port) return null;
+        return `https://${domain}${page.pathname}${page.search}${page.hash}`;
+      } catch { return null; }
+    };
+    const incomingPage = new URLSearchParams(window.location.search).get('page');
+    if (incomingPage) pageInput.value = normalizePage(incomingPage) ?? '';
+    pageInput.addEventListener('input', () => pageInput.setCustomValidity(''));
+    const readDraft = () => {
+      for (const name of ['summary', 'details']) {
+        const field = form.querySelector<HTMLInputElement | HTMLTextAreaElement>(`[name="${name}"]`)!;
+        if (!field.value.trim()) field.value = '';
+      }
+      const page = normalizePage(pageInput.value);
+      pageInput.setCustomValidity(page ? '' : form.dataset.invalidPage!);
+      if (page) pageInput.value = page;
+      if (!form.reportValidity()) return null;
+      const data = new FormData(form);
+      const value = (name: string) => String(data.get(name) ?? '').trim();
+      const title = `[Correction] ${value('summary')}`;
+      const body = `## Page\n${page}\n\n## Type of problem\n${value('kind')}\n\n## What should change, and why?\n${value('details')}\n\n## Evidence or sources\n${value('evidence') || 'None provided.'}\n\n## Suggested correction\n${value('suggestion') || 'None provided.'}`;
+      return { title, body };
+    };
+    const showReport = (content: { title: string; body: string }) => {
+      report.value = `${content.title}\n\n${content.body}`;
+      draft.hidden = false;
+    };
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      const content = readDraft();
+      if (!content) return;
+      const url = new URL(form.dataset.issueUrl!);
+      url.searchParams.set('title', content.title);
+      url.searchParams.set('body', content.body);
+      // Preserve long reports for copying rather than losing them to a URL length limit.
+      if (url.toString().length > 6000) {
+        showReport(content);
+        status.textContent = form.dataset.longMessage!;
+        report.focus();
+        return;
+      }
+      window.location.assign(url.toString());
+    });
+    form.querySelector<HTMLButtonElement>('#copy-correction')!.addEventListener('click', async () => {
+      const content = readDraft();
+      if (!content) return;
+      showReport(content);
+      try {
+        await navigator.clipboard.writeText(report.value);
+        status.textContent = form.dataset.copiedMessage!;
+      } catch {
+        report.focus();
+        report.select();
+        status.textContent = form.dataset.selectMessage!;
+      }
+    });
+    form.hidden = false;
+  }
+</script>
+
+<style>
+  form { margin-top: 2rem; }
+  form[hidden], section[hidden] { display: none; }
+  label { display: block; margin: 1.3rem 0 .4rem; font-weight: 800; }
+  input, select, textarea { display: block; width: 100%; min-width: 0; padding: .8rem; border: 1px solid var(--line); border-radius: .35rem; background: var(--card); color: var(--ink); font: inherit; }
+  textarea { min-height: 7rem; resize: vertical; }
+  .help { margin-top: .5rem; color: var(--muted); font-size: .9rem; }
+  .actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; }
+  #correction-draft { padding-top: 1rem; }
+  #correction-report { min-height: 16rem; margin-bottom: 1rem; }
+  a { color: var(--accent-dark); }
+</style>

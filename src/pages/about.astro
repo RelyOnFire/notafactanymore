@@ -8,19 +8,24 @@ const [entries, glossary, institutionalBeliefs] = await Promise.all([
   getCollection('institutionalBeliefs'),
 ]);
 ---
-<BaseLayout title="About">
+<BaseLayout title="About" description="An independent catalogue maintained by Isaac Mattoo, with AI assistance and an open correction process." alternatePath="/de/about">
   <article class="narrow prose">
     <p class="eyebrow">About the project</p>
     <h1>Facts have a history.</h1>
-    <p class="lead"><strong>Not a Fact Anymore</strong> documents claims that institutions, researchers, and expert communities once had reason to treat as factual, and what happened when stronger evidence changed the picture.</p>
-    <p>The core catalogue currently contains <strong>{entries.length}</strong> corrected, narrowed, superseded, reclassified, or overturned claims. A separate <strong>Institutional Beliefs</strong> collection follows cases in which factual propositions became embedded in policy, medicine, law, professional practice, education, or other institutions before being corrected or disconfirmed.</p>
-    <p>The site also tracks when claims changed and how long they remained defensible. Its <strong>{glossary.length}</strong>-term glossary explains specialized concepts, while timelines, lifespan analysis, and category pages offer different ways of exploring the core catalogue. <strong>Institutional Beliefs</strong> is a related but separate collection with a stricter inclusion test.</p>
+    <p class="lead"><strong>Not a Fact Anymore</strong> documents how accepted knowledge changes, and how factual claims shape institutional practice.</p>
+    <p>The core catalogue currently contains <strong>{entries.length}</strong> corrected, narrowed, superseded, reclassified, or overturned claims. A separate <strong>Institutional Beliefs</strong> collection follows cases in which factual propositions became embedded in policy, medicine, law, professional practice, education, or other institutions. It traces both the current evidence and what the institutions did in response.</p>
+    <p>The site also tracks when claims changed and how long they remained defensible. Its <strong>{glossary.length}</strong>-term glossary explains specialized concepts, while timelines, lifespan analysis, and category pages offer different ways of exploring the core catalogue. <strong>Institutional Beliefs</strong> is a related but separate collection that requires evidence of institutional authority and practice. Some of its claims were disputed even while institutions acted on them.</p>
     <p>The purpose is not to ridicule earlier researchers or generations. Many discarded ideas were reasonable given the evidence and instruments available at the time. Revising a conclusion when better evidence arrives is one of the strengths of science, scholarship, and empirical inquiry.</p>
     <p>This is a curated, open-source project. Every published claim is sourced, dates and boundaries are treated as approximations where the history demands it, and proposed entries and corrections are reviewed before publication. The Institutional Beliefs collection currently contains <strong>{institutionalBeliefs.length}</strong> documented cases.</p>
+    <h2>How the project is made</h2>
+    <p>Isaac Mattoo created and maintains the site. AI tools assist with research, drafting, translation and code; editorial decisions and publication remain his responsibility.</p>
+    <p>The catalogue has not undergone a formal independent expert review. A recorded review date refers to checking an entry for this project. The <a href="/methodology/#institutional-evidence">methodology</a> explains the evidence labels, inclusion standards and limits of those dates.</p>
+    <p>If you spot an error, missing context or a source problem, <a href="/corrections/">suggest a correction</a>. You can also <a href="https://github.com/RelyOnFire/notafactanymore/">view the project and its history on GitHub</a>.</p>
   </article>
 </BaseLayout>
 <style>
-  .prose { padding: 5rem 0; }
+  .prose { padding: 5rem 0; overflow-wrap: anywhere; }
+  .prose h2 { margin-top: 2.5rem; font-size: 1.7rem; }
   .prose h1 { margin: .2rem 0 1.5rem; }
   .lead { font-size: 1.3rem; color: var(--muted); }
   .prose p { font-size: 1.08rem; }

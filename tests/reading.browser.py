@@ -6,6 +6,7 @@ import http.server
 import json
 import pathlib
 import threading
+from urllib.parse import parse_qs, quote, urlparse
 from playwright.async_api import async_playwright
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -15,6 +16,7 @@ parser.add_argument('--executable')
 parser.add_argument('--screenshots', type=pathlib.Path)
 parser.add_argument('--paths', nargs='+', help='Check only these paths; omit for the full reading check.')
 parser.add_argument('--widths', nargs='+', type=int, default=[320, 390, 1440])
+parser.add_argument('--contributions', action='store_true', help='Check contribution flows when --paths limits layout checks.')
 args = parser.parse_args()
 
 
@@ -36,6 +38,87 @@ async def check_layout(page, label='Page'):
         raise AssertionError(f'{label} horizontal overflow: {sizes}; text: {offenders}; boxes: {boxes}')
 
 
+async def check_corrections(browser, base):
+    context = await browser.new_context(viewport={'width': 390, 'height': 844})
+    drafts = []
+
+    async def intercept_draft(route):
+        # Validate the draft URL without sending a request or submitting an issue to GitHub.
+        drafts.append(parse_qs(urlparse(route.request.url).query))
+        await route.fulfill(status=200, content_type='text/html', body='<title>Draft intercepted</title>')
+
+    await context.route('https://github.com/**/issues/new*', intercept_draft)
+    page = await context.new_page()
+    details = 'Missing context: Österreich & “quotation”.\nThe second line should survive.'
+    evidence = 'Source: https://example.org/paper?language=de&section=2\nPage 12, paragraph 3.'
+    summary = 'Source note needs context'
+    paths = ['/institutions/lysenkoist-heredity/', '/de/institutions/lysenkoist-heredity/', '/entries/peptic-ulcers/', '/de/entries/peptic-ulcers/']
+    for path in paths:
+        fragment = '#ussr-1948-1964' if '/institutions/' in path else ''
+        await page.goto(base + path + fragment, wait_until='networkidle')
+        await page.locator('main .correction-link').first.click()
+        await page.wait_for_url('**/corrections/**')
+        await page.locator('#correction-form').wait_for(state='visible')
+        expected_page = 'https://notafactanymore.com' + path + fragment
+        assert await page.locator('[name="page"]').input_value() == expected_page, 'Case or citation context was lost'
+        await page.locator('[name="summary"]').fill(summary)
+        await page.locator('[name="kind"]').select_option('source')
+        await page.locator('[name="details"]').fill(details)
+        await page.locator('[name="evidence"]').fill(evidence)
+        await page.locator('[name="suggestion"]').fill('Narrow the wording to the source’s scope.')
+        async with page.expect_navigation(wait_until='domcontentloaded'):
+            await page.locator('#correction-form button[type="submit"]').click()
+        draft = drafts[-1]
+        assert draft['template'] == ['correction.md']
+        assert draft['title'] == ['[Correction] ' + summary]
+        assert expected_page in draft['body'][0] and details in draft['body'][0] and evidence in draft['body'][0]
+        assert 'labels' not in draft, 'The public draft requires label permissions'
+
+    for prefix in ['', '/de']:
+        await page.goto(base + prefix + '/corrections/', wait_until='networkidle')
+        await page.locator('#copy-correction').click()
+        assert await page.locator('[name="page"]').input_value() == '', 'An empty page silently became the homepage'
+        assert not await page.locator('#correction-draft').is_visible()
+        await page.locator('[name="page"]').fill('https://example.org/another-site/')
+        await page.locator('[name="summary"]').fill(summary)
+        await page.locator('[name="details"]').fill(details)
+        await page.locator('#copy-correction').click()
+        assert not await page.locator('#correction-draft').is_visible(), 'An unrelated page was accepted'
+        await page.locator('[name="page"]').fill('http://www.notafactanymore.com/institutions/lysenkoist-heredity/#ussr-1948-1964')
+        long_details = 'A detailed correction with precise quotations and context.\n' * 200
+        await page.locator('[name="details"]').fill(long_details)
+        before = len(drafts)
+        await page.locator('#correction-form button[type="submit"]').click()
+        assert len(drafts) == before and await page.locator('#correction-draft').is_visible(), 'Long report was sent through an oversized URL'
+        assert long_details.strip() in await page.locator('#correction-report').input_value(), 'Long report was truncated'
+        assert await page.locator('[name="page"]').input_value() == 'https://notafactanymore.com/institutions/lysenkoist-heredity/#ussr-1948-1964'
+        await page.locator('#copy-correction').click()
+        await check_layout(page, 'Long correction draft')
+        await page.goto(base + prefix + '/corrections/?page=' + quote('javascript:alert(1)', safe=''), wait_until='networkidle')
+        assert await page.locator('[name="page"]').input_value() == '', 'Unsafe incoming page was accepted'
+
+        await page.goto(base + prefix + '/submit/', wait_until='networkidle')
+        for name, value in {'oldClaim': 'Earlier claim & its scope', 'current': 'The better-supported understanding', 'why': 'A new measurement', 'oldEvidence': evidence, 'newEvidence': evidence}.items():
+            await page.locator(f'[name="{name}"]').fill(value)
+        await page.locator('[name="category"]').select_option('__other__')
+        await page.locator('[name="categoryOther"]').fill('History & technology')
+        async with page.expect_navigation(wait_until='domcontentloaded'):
+            await page.locator('#submission-form button[type="submit"]').click()
+        assert drafts[-1]['template'] == ['submission.md'] and 'labels' not in drafts[-1]
+        assert 'History & technology' in drafts[-1]['body'][0] and evidence in drafts[-1]['body'][0]
+        await page.goto(base + prefix + '/submit/', wait_until='networkidle')
+        for name, value in {'oldClaim': 'Earlier claim', 'current': 'A better understanding', 'why': 'New evidence', 'oldEvidence': long_details, 'newEvidence': evidence}.items():
+            await page.locator(f'[name="{name}"]').fill(value)
+        first_category = await page.locator('[name="category"] option').nth(1).get_attribute('value')
+        await page.locator('[name="category"]').select_option(first_category)
+        before = len(drafts)
+        await page.locator('#submission-form button[type="submit"]').click()
+        assert len(drafts) == before and await page.locator('.submission-draft').is_visible()
+        assert long_details.strip() in await page.locator('#submission-report').input_value(), 'Long submission was truncated'
+    await context.close()
+    return len(drafts)
+
+
 async def main():
     server = None
     if args.base_url:
@@ -46,12 +129,13 @@ async def main():
         base = f'http://127.0.0.1:{server.server_port}'
     issues = []
     checked = 0
+    draft_checks = 0
     async with async_playwright() as p:
         options = {'headless': True}
         if args.executable:
             options['executable_path'] = args.executable
         browser = await p.chromium.launch(**options)
-        paths = ['/', '/browse/', '/timeline/', '/institutions/', '/lifespans/', '/glossary/', '/categories/medicine/', '/methodology/', '/submit/',
+        paths = ['/', '/browse/', '/timeline/', '/institutions/', '/lifespans/', '/glossary/', '/categories/medicine/', '/methodology/', '/about/', '/submit/', '/corrections/',
                  '/entries/peptic-ulcers/', '/institutions/lysenkoist-heredity/', '/institutions/virginity-testing/', '/institutions/routine-oxygen-heart-attack/']
         paths += [('/de/' if path == '/' else '/de' + path) for path in paths]
         if args.paths:
@@ -79,7 +163,7 @@ async def main():
                             assert await page.locator('.filter-panel').is_visible()
                             await page.keyboard.press('Escape')
                             assert not await page.locator('.filter-panel').is_visible()
-                        if args.screenshots and width in [390, 1440] and path in ['/', '/institutions/lysenkoist-heredity/']:
+                        if args.screenshots and width in [390, 1440] and path in ['/', '/institutions/lysenkoist-heredity/', '/methodology/', '/de/methodology/', '/corrections/', '/de/corrections/']:
                             args.screenshots.mkdir(parents=True, exist_ok=True)
                             await page.screenshot(path=str(args.screenshots / f'{width}-{path.strip("/").replace("/", "-") or "home"}.png'))
                         checked += 1
@@ -125,13 +209,23 @@ async def main():
                         issues.append(f'Evidence navigation {path}: {error}')
                 await page.close()
             await ctx.close()
-        if not args.paths:
+        if not args.paths or args.contributions:
+            draft_checks = await check_corrections(browser, base)
             # Evidence can still be expanded when JavaScript is unavailable.
             ctx = await browser.new_context(java_script_enabled=False)
             page = await ctx.new_page()
             await page.goto(base + '/institutions/lysenkoist-heredity/')
             await page.locator('.evidence-disclosure summary').first.click()
             assert await page.locator('.evidence-item').first.is_visible()
+            for prefix in ['', '/de']:
+                await page.goto(base + prefix + '/corrections/')
+                assert await page.locator('noscript a').is_visible(), 'Correction fallback needs JavaScript'
+                assert 'template=correction.md' in await page.locator('noscript a').get_attribute('href')
+                assert not await page.locator('#correction-form').is_visible()
+                await page.goto(base + prefix + '/submit/')
+                assert await page.locator('noscript a').is_visible(), 'Submission fallback needs JavaScript'
+                assert 'template=submission.md' in await page.locator('noscript a').get_attribute('href')
+                assert not await page.locator('#submission-form').is_visible()
             await ctx.close()
         await browser.close()
     if server:
@@ -139,7 +233,7 @@ async def main():
         server.server_close()
     if issues:
         raise AssertionError('\n'.join(issues))
-    print(json.dumps({'pageChecks': checked, 'widths': args.widths, 'fullReadingCheck': not args.paths}), flush=True)
+    print(json.dumps({'pageChecks': checked, 'widths': args.widths, 'fullReadingCheck': not args.paths, 'issueDraftsChecked': draft_checks}), flush=True)
 
 
 asyncio.run(main())

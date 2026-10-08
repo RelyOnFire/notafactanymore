@@ -9,6 +9,7 @@ interface Props {
 
 const { locale = 'en' } = Astro.props;
 const repoReady = siteConfig.githubOwner !== 'YOUR_GITHUB_USERNAME';
+const issueURL = `https://github.com/${siteConfig.githubOwner}/${siteConfig.githubRepo}/issues/new?template=submission.md`;
 const entries = await getCollection('entries');
 const categories = [...new Set(entries.map((entry) => entry.data.category))].sort((a, b) =>
   locale === 'de'
@@ -37,7 +38,11 @@ const labels = locale === 'de'
       qualifications: 'Wichtige Einschränkungen oder Unsicherheiten',
       sourcePlaceholder: 'Quellentitel und URLs',
       submit: 'Vorschlag in GitHub öffnen',
-      help: 'Dadurch wird ein vorausgefülltes GitHub-Issue geöffnet. Vor dem Absenden kannst du alles noch einmal prüfen.',
+      help: 'Dadurch wird ein Entwurf auf GitHub geöffnet. Du kannst ihn vor dem Absenden prüfen. Eingereichte Vorschläge sind öffentlich; zum Absenden brauchst du ein GitHub-Konto.',
+      template: 'Beitragsvorlage auf GitHub öffnen',
+      fallback: 'Ohne JavaScript kannst du deinen Vorschlag direkt in der GitHub-Vorlage verfassen.',
+      long: 'Dein Vorschlag ist lang. Kopiere den Entwurf unten in die GitHub-Vorlage.',
+      draft: 'Dein Vorschlag',
     }
   : {
       setupStrong: 'Owner setup needed:',
@@ -59,7 +64,11 @@ const labels = locale === 'de'
       qualifications: 'Important qualifications or uncertainty',
       sourcePlaceholder: 'Source titles and URLs',
       submit: 'Open submission in GitHub',
-      help: 'This opens a pre-filled GitHub issue. You can review everything before submitting it.',
+      help: 'This opens a draft on GitHub. You can review it before submitting. Submitted proposals are public; you need a GitHub account to submit one.',
+      template: 'Open the submission template on GitHub',
+      fallback: 'Without JavaScript, write your proposal directly in the GitHub template.',
+      long: 'Your proposal is long. Copy the draft below into the GitHub template.',
+      draft: 'Your proposal',
     };
 
 const statusOptions = locale === 'de'
@@ -85,7 +94,9 @@ const statusOptions = locale === 'de'
   </div>
 )}
 
-<form id="submission-form">
+<noscript><p>{labels.fallback} <a href={issueURL}>{labels.template} →</a></p></noscript>
+
+<form id="submission-form" hidden>
   <fieldset>
     <legend>{labels.claimGroup}</legend>
     <label>{labels.oldClaim}<textarea name="oldClaim" required></textarea></label>
@@ -127,6 +138,11 @@ const statusOptions = locale === 'de'
 
   <button class="button" type="submit" disabled={!repoReady}>{labels.submit}</button>
   <p class="help">{labels.help}</p>
+  <section class="submission-draft" hidden>
+    <p role="status">{labels.long}</p>
+    <textarea id="submission-report" readonly aria-label={labels.draft}></textarea>
+    <p><a href={issueURL}>{labels.template} →</a></p>
+  </section>
 </form>
 
 <script define:vars={{ owner: siteConfig.githubOwner, repo: siteConfig.githubRepo, locale }}>
@@ -146,6 +162,7 @@ const statusOptions = locale === 'de'
 
   categorySelect?.addEventListener('change', syncOtherCategory);
   syncOtherCategory();
+  if (form) form.hidden = false;
 
   form?.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -157,7 +174,16 @@ const statusOptions = locale === 'de'
       : 'Submitted through notafactanymore.com. Publication requires editorial review.';
     const body = `## Formerly accepted claim\n${value('oldClaim')}\n\n## What is understood now?\n${value('current')}\n\n## Why did it change?\n${value('why')}\n\n## Classification\n- **Category:** ${category}\n- **Suggested status:** ${value('status')}\n\n## Evidence that the earlier claim was accepted\n${value('oldEvidence')}\n\n## Evidence for the current understanding\n${value('newEvidence')}\n\n## Qualifications or uncertainty\n${value('qualifications') || 'None provided.'}\n\n---\n${footer}`;
     const title = `[Submission] ${value('oldClaim').slice(0, 90)}`;
-    const url = `https://github.com/${owner}/${repo}/issues/new?labels=submission&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+    const url = `https://github.com/${owner}/${repo}/issues/new?template=submission.md&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+    if (url.length > 6000) {
+      const draft = form.querySelector('.submission-draft');
+      const report = form.querySelector('#submission-report');
+      report.value = `${title}\n\n${body}`;
+      draft.hidden = false;
+      report.focus();
+      report.select();
+      return;
+    }
     window.location.href = url;
   });
 </script>
@@ -173,6 +199,8 @@ const statusOptions = locale === 'de'
   form {
     margin-top: 2.5rem;
   }
+  form[hidden], .submission-draft[hidden] { display: none; }
+  #submission-report { min-height: 18rem; }
 
   fieldset {
     margin: 0 0 1.25rem;

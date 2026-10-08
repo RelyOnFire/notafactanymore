@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CorrectionForm from '../../components/CorrectionForm.astro';
+---
+<BaseLayout locale="de" title="Korrektur vorschlagen" description="Melde sachliche Fehler, Quellenprobleme, fehlenden Kontext, Übersetzungsfehler oder Probleme bei der Bedienung von Not a Fact Anymore." alternatePath="/corrections">
+  <article class="narrow corrections-page">
+    <p class="eyebrow">Den Katalog verbessern</p>
+    <h1>Korrektur vorschlagen</h1>
+    <p class="lead">Hast du einen Fehler, fehlenden Kontext oder eine Quelle gefunden, die den Text nicht stützt? Nenne den Seitenlink und erkläre, was geändert werden sollte.</p>
+    <p>Hinweise werden anhand der Quellen geprüft, bevor der Katalog geändert wird. Veröffentlichte Änderungen bleiben im <a href="https://github.com/RelyOnFire/notafactanymore/commits/main/">Projektverlauf</a> nachvollziehbar.</p>
+    <p>Für einen neuen Eintrag nutze <a href="/de/submit/">Beitrag vorschlagen</a>. Die Aufnahme- und Evidenzstandards findest du in der <a href="/de/methodology/">Methodik</a>.</p>
+    <CorrectionForm locale="de" />
+  </article>
+</BaseLayout>
+<style>
+  .corrections-page { padding: 4rem 0; overflow-wrap: anywhere; }
+  h1 { margin: .2rem 0 1rem; }
+  .lead { font-size: 1.2rem; color: var(--muted); }
+  a { color: var(--accent-dark); }
+</style>

@@ -4,6 +4,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import FactCard from '../../../components/FactCard.astro';
 import EntryMedia from '../../../components/EntryMedia.astro';
 import EntryDiscovery from '../../../components/EntryDiscovery.astro';
+import CorrectionLink from '../../../components/CorrectionLink.astro';
 import { sourcePurposeLabel, translationMatchesEntry } from '../../../lib/i18n';
 
 export async function getStaticPaths() {
@@ -76,6 +77,7 @@ const groupedSources = sourcesWithIndex.reduce<Record<string, typeof sourcesWith
 
     <aside class="reviewed">
       Veröffentlicht am {entry.data.publishedAt.toLocaleDateString('de-AT')} · Zuletzt geprüft am {entry.data.reviewedAt.toLocaleDateString('de-AT')}
+      <p><CorrectionLink locale="de" /></p>
     </aside>
   </div>
 </BaseLayout>

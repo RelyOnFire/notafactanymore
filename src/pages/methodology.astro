@@ -1,36 +1,63 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { evidenceRelations, institutionalCorrectionStates } from '../lib/institutionalEvidenceLabels';
 ---
-<BaseLayout title="Methodology">
+<BaseLayout title="Methodology" description="How claims enter the catalogue, what institutional evidence labels mean, how review dates are used and how to suggest a correction." alternatePath="/de/methodology">
   <article class="narrow prose">
     <p class="eyebrow">Editorial standard</p>
     <h1>Methodology</h1>
-    <p class="lead">The site uses two related inclusion standards. The core catalogue tracks scientific and scholarly claims that were once reasonably treated as factual or as the best available evidence-based explanation. <strong>Institutional Beliefs</strong> uses a stricter test for factual propositions that became embedded in institutional practice.</p>
+    <p class="lead">The site uses two related inclusion standards. The core catalogue tracks scientific and scholarly claims that were once reasonably treated as factual or as the best available evidence-based explanation. <strong>Institutional Beliefs</strong> follows a separate test for factual propositions that became embedded in institutional practice.</p>
 
-    <h2>The core catalogue</h2>
+    <nav class="reading-guide" aria-label="On this page">
+      <a href="#inclusion">Inclusion standards</a>
+      <a href="#institutional-evidence">Reading evidence links</a>
+      <a href="#institutional-correction">Institutional correction</a>
+      <a href="#review-dates">Review dates</a>
+      <a href="#corrections">Suggest a correction</a>
+    </nav>
+
+    <h2 id="inclusion">The core catalogue</h2>
     <p>A core entry must make a concrete factual claim and show that it had meaningful standing within a relevant expert community, institution, textbook tradition, reference work, or professional practice. The former claim must have been reasonably defensible in its historical setting, and the later change must be traceable to stronger evidence, improved measurement, or a more successful explanatory framework.</p>
 
     <h2>Institutional Beliefs</h2>
-    <p>This collection asks a narrower question: did a factual proposition become operational inside an identifiable institution and materially shape what that institution did? A case should support all five links in the chain:</p>
+    <p>This collection asks whether a factual proposition became operational inside an identifiable institution and materially shaped what that institution did. A case must identify and support the proposition, carrier, mechanism and consequences, then distinguish the current evidence from the institution’s own response:</p>
     <ol>
       <li><strong>Proposition:</strong> A specific factual proposition that was treated as true.</li>
       <li><strong>Carrier:</strong> An identifiable institution, authority, profession, or institutional system that carried it.</li>
       <li><strong>Mechanism:</strong> A policy, diagnosis, law, professional standard, training practice, curriculum, evidentiary rule, protocol, or comparable mechanism through which the proposition was put into practice.</li>
       <li><strong>Consequences:</strong> Decisions, practices, classifications, treatments, or other outcomes materially shaped by it.</li>
-      <li><strong>Correction:</strong> Evidence, review, or institutional change that corrected, narrowed, replaced, abandoned, or disconfirmed the proposition.</li>
+      <li><strong>Current finding and institutional response:</strong> What the evidence supports now, and what the sources establish about the institution’s correction, partial correction or unresolved response.</li>
     </ol>
     <p>Being widely believed is not enough. The institutional carrier and the operational mechanism must be identifiable from the evidence.</p>
+    <p>A claim may qualify here even if relevant researchers disputed it at the time. Inclusion describes documented institutional authority and practice; it does not imply that the claim was scientifically defensible or accepted by everyone.</p>
 
     <h2>What does not qualify</h2>
     <p>The core catalogue is not a collection of generic misconceptions. Urban legends, failed predictions, satire, isolated quotations, propaganda, value judgments, and claims that relevant experts consistently rejected do not qualify. A law or policy can provide evidence for an Institutional Beliefs case when it rests on a testable factual claim. A value judgment or policy preference, by itself, cannot.</p>
 
     <h2>Required evidence</h2>
-    <p>Each core entry should normally include evidence that the former claim was genuinely accepted and evidence supporting the current understanding. Institutional Beliefs entries also need evidence for the carrier, mechanism, consequences, and correction. Sources are labelled by purpose so readers can see what each citation establishes.</p>
+    <p>Each core entry should normally include evidence that the former claim was genuinely accepted and evidence supporting the current understanding. Institutional cases also need evidence for the carrier, mechanism and consequences. The sources must support whatever is stated about an institutional correction; gaps are labelled explicitly. Sources are connected to the specific part of the account they establish.</p>
+
+    <h2 id="institutional-evidence">Reading institutional evidence links</h2>
+    <p>Each evidence link names a <strong>target</strong>, a <strong>relationship</strong> and a <strong>source</strong>. The target identifies the part of the account: the historical belief, present correction, impact, institutional carrier, mechanism, consequences, institutional correction or context. The relationship explains how the source bears on that target.</p>
+    <dl class="evidence-relations">
+      {evidenceRelations.map(relation => <div id={`evidence-relation-${relation.id}`}><dt>{relation.label.en}</dt><dd>{relation.description.en}</dd></div>)}
+    </dl>
+    <p>The historical-belief target concerns the account of what was asserted or accepted. The <strong>Present correction</strong> target addresses what the evidence supports now. Read the source location and explanatory note alongside the badges; a source may document an official claim while challenging its accuracy.</p>
+    <p>Each source appears once in a case’s source registry and may be used in several evidence links. Link counts therefore include reuse of a source. The number of citations alone is not a measure of certainty, independence or historical importance.</p>
+    <p>Open an evidence section to read its sources, locators and notes, or use <strong>Show all evidence</strong>. Direct citation links open the relevant section automatically. For an example, explore <a href="/institutions/lysenkoist-heredity/">Lysenkoist heredity</a>.</p>
+
+    <h2 id="institutional-correction">Institutional correction states</h2>
+    <p>What the evidence supports now and how an institution responded are separate questions. A proposition can be disconfirmed without a documented institutional acknowledgment, withdrawal or reform. These states describe the response in a particular episode:</p>
+    <dl class="correction-states">
+      {institutionalCorrectionStates.map(state => <div id={`correction-state-${state.id}`}><dt>{state.label.en}</dt><dd>{state.description.en}</dd></div>)}
+    </dl>
+    <p><strong>Undocumented</strong> records a limit in the sources used; <strong>Uncorrected</strong> records a supported finding about the institution’s response. The end of an episode or a regime does not automatically establish a correction, and a correction does not establish that all consequences were repaired.</p>
+    <p>The <a href="/institutions/#institutional-levels-title">four levels of institutionalization</a> describe how a claim acquired authority and shaped practice. They are not confidence scores, measures of harm or rankings of countries. Dates describe the documented episode, with approximate boundaries where the record requires them.</p>
 
     <h2>Glossary</h2>
     <p>The glossary defines technical, historical, or otherwise unfamiliar terms used in the catalogue when replacing them with plainer language would lose useful precision.</p>
 
-    <h2>Status labels</h2>
+    <h2>Core catalogue status labels</h2>
     <dl>
       <div><dt>Overturned</dt><dd>The former claim is now considered substantially incorrect.</dd></div>
       <div><dt>Superseded</dt><dd>A stronger explanation or model replaced it.</dd></div>
@@ -39,12 +66,20 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <div><dt>Corrected</dt><dd>Improved data or measurement produced a materially different answer.</dd></div>
     </dl>
 
-    <h2>Corrections</h2>
-    <p>Entries are dated and periodically reviewed. Dates and boundaries are treated as approximations where the historical record demands it. A source becoming outdated, a consensus being overstated, or stronger evidence emerging is a reason to revise the catalogue. Submissions and corrections are reviewed before publication.</p>
+    <h2 id="review-dates">Review dates and editorial responsibility</h2>
+    <p>A review date records the last recorded check of an entry for this catalogue. Sources and scholarship can change after that date. Review dates describe editorial maintenance; they do not certify an independent expert review.</p>
+    <p>Isaac Mattoo created and maintains the project, using AI assistance for research, drafting, translation and code. Editorial decisions and publication remain his responsibility. The catalogue has not undergone a formal independent expert review. More about the project appears on the <a href="/about/">About page</a>.</p>
+
+    <h2 id="corrections">Corrections</h2>
+    <p>A source becoming outdated, an overstated consensus, a missing qualification or stronger evidence is a reason to revise the catalogue. <a href="/corrections/">Suggest a correction</a> with the page link, the wording at issue and supporting sources where available. Source, translation and usability problems can be reported there too.</p>
+    <p>Reports are checked against the evidence before publication. Published changes remain visible in the <a href="https://github.com/RelyOnFire/notafactanymore/commits/main/">project history</a>. Proposals for new entries belong on <a href="/submit/">Submit a claim</a>.</p>
   </article>
 </BaseLayout>
 <style>
-  .prose { padding: 5rem 0; }
+  .prose { padding: 5rem 0; overflow-wrap: anywhere; }
+  .reading-guide { margin: 2rem 0; padding: 1rem; border: 1px solid var(--line); background: var(--card); }
+  .reading-guide a { color: var(--accent-dark); }
+  .prose :global([id]) { scroll-margin-top: 1rem; }
   .prose h1 { margin: .2rem 0 1.5rem; }
   .lead { font-size: 1.3rem; color: var(--muted); }
   .prose h2 { margin-top: 2.8rem; font-size: 1.7rem; }

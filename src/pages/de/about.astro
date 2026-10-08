@@ -8,19 +8,24 @@ const [entries, glossary, institutionalBeliefs] = await Promise.all([
   getCollection('institutionalBeliefs'),
 ]);
 ---
-<BaseLayout locale="de" title="Über das Projekt" alternatePath="/about">
+<BaseLayout locale="de" title="Über das Projekt" description="Ein unabhängiger Katalog, den Isaac Mattoo mit KI-Unterstützung pflegt und der offen für Korrekturen ist." alternatePath="/about">
   <article class="narrow prose">
     <p class="eyebrow">Über das Projekt</p>
     <h1>Fakten haben eine Geschichte.</h1>
-    <p class="lead"><strong>Not a Fact Anymore</strong> dokumentiert Aussagen, die Institutionen, Forschende und Fachgemeinschaften einst mit guten Gründen als Tatsachen behandelten – und was geschah, als stärkere Evidenz dieses Bild veränderte.</p>
-    <p>Der Kernkatalog enthält derzeit <strong>{entries.length}</strong> korrigierte, eingeschränkte, abgelöste, neu eingeordnete oder widerlegte Aussagen. Eine separate Sammlung <strong>Institutionelle Überzeugungen</strong> verfolgt Fälle, in denen Tatsachenbehauptungen in Politik, Medizin, Recht, Berufspraxis, Bildung oder anderen Institutionen verankert wurden, bevor sie korrigiert oder widerlegt wurden.</p>
-    <p>Die Website erfasst außerdem, wann sich Aussagen änderten und wie lange sie vertretbar blieben. Das Glossar mit <strong>{glossary.length}</strong> Begriffen erklärt Fachbegriffe; Zeitleisten, Lebensdaueranalysen und Kategorieseiten bieten verschiedene Zugänge zum Kernkatalog. <strong>Institutionelle Überzeugungen</strong> ist eine verwandte, aber eigenständige Sammlung mit strengeren Aufnahmekriterien.</p>
+    <p class="lead"><strong>Not a Fact Anymore</strong> dokumentiert, wie sich akzeptiertes Wissen verändert und wie Tatsachenbehauptungen institutionelle Praxis prägen.</p>
+    <p>Der Kernkatalog enthält derzeit <strong>{entries.length}</strong> korrigierte, eingeschränkte, abgelöste, neu eingeordnete oder widerlegte Aussagen. Eine separate Sammlung <strong>Institutionelle Überzeugungen</strong> verfolgt Fälle, in denen Tatsachenbehauptungen in Politik, Medizin, Recht, Berufspraxis, Bildung oder anderen Institutionen verankert wurden. Sie erfasst sowohl den heutigen Evidenzstand als auch die Reaktion der Institutionen.</p>
+    <p>Die Website erfasst außerdem, wann sich Aussagen änderten und wie lange sie vertretbar blieben. Das Glossar mit <strong>{glossary.length}</strong> Begriffen erklärt Fachbegriffe; Zeitleisten, Lebensdaueranalysen und Kategorieseiten bieten verschiedene Zugänge zum Kernkatalog. <strong>Institutionelle Überzeugungen</strong> ist eine verwandte, aber eigenständige Sammlung, die Belege für institutionelle Autorität und Praxis verlangt. Manche ihrer Aussagen waren umstritten, während Institutionen dennoch auf ihrer Grundlage handelten.</p>
     <p>Ziel ist nicht, frühere Forschende oder Generationen lächerlich zu machen. Viele verworfene Vorstellungen waren angesichts der damals verfügbaren Evidenz und Instrumente vernünftig. Eine Schlussfolgerung zu revidieren, wenn bessere Evidenz verfügbar wird, gehört zu den Stärken von Wissenschaft, Forschung und empirischem Denken.</p>
     <p>Dies ist ein kuratiertes Open-Source-Projekt. Jede veröffentlichte Aussage ist belegt; Datierungen und Abgrenzungen werden dort, wo es die historische Lage verlangt, als Annäherungen behandelt; vorgeschlagene Einträge und Korrekturen werden vor der Veröffentlichung geprüft. Die Sammlung Institutionelle Überzeugungen enthält derzeit <strong>{institutionalBeliefs.length}</strong> dokumentierte Fälle.</p>
+    <h2>Wie das Projekt entsteht</h2>
+    <p>Isaac Mattoo hat die Website erstellt und pflegt sie. KI-Werkzeuge unterstützen Recherche, Entwürfe, Übersetzung und Code; redaktionelle Entscheidungen und Veröffentlichung bleiben in seiner Verantwortung.</p>
+    <p>Der Katalog hat keine formale unabhängige fachliche Begutachtung durchlaufen. Ein vermerktes Prüfdatum bezieht sich auf die Prüfung eines Eintrags für dieses Projekt. Die <a href="/de/methodology/#institutional-evidence">Methodik</a> erklärt Evidenzkennzeichnungen, Aufnahmestandards und die Grenzen dieser Datierungen.</p>
+    <p>Wenn du einen Fehler, fehlenden Kontext oder ein Quellenproblem findest, <a href="/de/corrections/">schlage eine Korrektur vor</a>. Du kannst das <a href="https://github.com/RelyOnFire/notafactanymore/">Projekt und seinen Verlauf auch auf GitHub ansehen</a>.</p>
   </article>
 </BaseLayout>
 <style>
-  .prose { padding: 5rem 0; }
+  .prose { padding: 5rem 0; overflow-wrap: anywhere; }
+  .prose h2 { margin-top: 2.5rem; font-size: 1.7rem; }
   .prose h1 { margin: .2rem 0 1.5rem; }
   .lead { font-size: 1.3rem; color: var(--muted); }
   .prose p { font-size: 1.08rem; }

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { historicalDescription } from '../lib/socialCards';
 import { translationMatchesEntry, type SiteLocale } from '../lib/i18n';
 import {
   normalizeInstitutionalBelief,
@@ -277,7 +278,7 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
 <BaseLayout
   locale={locale}
   title={`${entry.title} — ${locale === 'de' ? 'Institutionelle Überzeugungen' : 'Institutional beliefs'}`}
-  description={entry.proposition}
+  description={historicalDescription(entry.proposition, locale)}
   type="article"
   alternatePath={alternatePath}
 >
@@ -300,7 +301,22 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
       </div>
     </header>
 
-    <div class="narrative-grid">
+    <nav class="case-navigation" aria-label={locale === 'de' ? 'Auf dieser Seite' : 'On this page'}>
+      <p>{locale === 'de' ? 'Auf dieser Seite' : 'On this page'}</p>
+      <ul>
+        <li><a href="#case-overview">{locale === 'de' ? 'Überblick' : 'Overview'}</a></li>
+        {entry.impact && <li><a href="#impact-title">{copy.impact}</a></li>}
+        {episodes.map(episode => <li><a href={`#${episode.id}`}>{episode.polity}</a></li>)}
+        <li><a href="#source-registry">{copy.sourceRegistry}</a></li>
+      </ul>
+      <button
+        class="evidence-toggle" type="button" hidden aria-expanded="false"
+        data-expand-label={locale === 'de' ? 'Alle Evidenzbeziehungen anzeigen' : 'Show all evidence'}
+        data-collapse-label={locale === 'de' ? 'Evidenzbeziehungen einklappen' : 'Collapse evidence'}
+      >{locale === 'de' ? 'Alle Evidenzbeziehungen anzeigen' : 'Show all evidence'}</button>
+    </nav>
+
+    <div class="narrative-grid" id="case-overview">
       <section class="narrative-panel proposition-panel" aria-labelledby="institutional-proposition">
         <p class="section-kicker">01</p>
         <h2 id="institutional-proposition">{copy.accepted}</h2>
@@ -322,7 +338,9 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
           </div>
           <span>{copy.evidenceLinks(beliefEvidence.length)}</span>
         </div>
-        <ol class="evidence-list">
+        <details class="evidence-disclosure" id="belief-evidence">
+          <summary>{locale === 'de' ? 'Quellen, Fundstellen und Erläuterungen öffnen' : 'Open sources, locators and notes'}</summary>
+          <ol class="evidence-list">
           {beliefEvidence.map((evidence) => (
             <li class="evidence-item" id={`evidence-${entry.id}-${evidence.id}`}>
               <div class="evidence-badges">
@@ -348,7 +366,8 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
               {evidence.note && <p class="evidence-note-copy">{evidence.note}</p>}
             </li>
           ))}
-        </ol>
+          </ol>
+        </details>
       </section>
     )}
 
@@ -466,7 +485,9 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
               <h3 id={`episode-evidence-${episode.id}`}>{copy.evidenceForEpisode}</h3>
               <span>{copy.evidenceLinks(episode.evidence.length)}</span>
             </div>
-            <ol class="evidence-list">
+            <details class="evidence-disclosure" id={`episode-evidence-block-${episode.id}`}>
+              <summary>{locale === 'de' ? 'Quellen, Fundstellen und Erläuterungen öffnen' : 'Open sources, locators and notes'}</summary>
+              <ol class="evidence-list">
               {episode.evidence.map((evidence) => (
                 <li class="evidence-item" id={`evidence-${entry.id}-${evidence.id}`}>
                   <div class="evidence-badges">
@@ -492,13 +513,14 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
                   {evidence.note && <p class="evidence-note-copy">{evidence.note}</p>}
                 </li>
               ))}
-            </ol>
+              </ol>
+            </details>
           </section>
         </article>
       ))}
     </section>
 
-    <details class="source-registry">
+    <details class="source-registry" id="source-registry">
       <summary>
         <span>
           <strong>{copy.sourceRegistry}</strong>
@@ -534,11 +556,70 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
   </article>
 </BaseLayout>
 
+<script>
+  const evidenceSections = Array.from(document.querySelectorAll<HTMLDetailsElement>('.evidence-disclosure'));
+  const toggle = document.querySelector<HTMLButtonElement>('.evidence-toggle');
+  const updateToggle = () => {
+    if (!toggle) return;
+    const expanded = evidenceSections.every(section => section.open);
+    toggle.setAttribute('aria-expanded', String(expanded));
+    toggle.textContent = expanded ? toggle.dataset.collapseLabel! : toggle.dataset.expandLabel!;
+  };
+  if (toggle && evidenceSections.length) {
+    toggle.hidden = false;
+    toggle.addEventListener('click', () => {
+      const open = !evidenceSections.every(section => section.open);
+      for (const section of evidenceSections) section.open = open;
+      updateToggle();
+    });
+    for (const section of evidenceSections) section.addEventListener('toggle', updateToggle);
+  }
+  // Direct links to an evidence relationship or registry source remain usable when folded.
+  const revealFragment = () => {
+    let id: string;
+    try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
+    const target = id ? document.getElementById(id) : null;
+    if (!target) return;
+    for (let node: HTMLElement | null = target; node; node = node.parentElement) {
+      if (node instanceof HTMLDetailsElement) node.open = true;
+    }
+    window.requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+  };
+  window.addEventListener('hashchange', revealFragment);
+  revealFragment();
+  let printState: Array<[HTMLDetailsElement, boolean]> = [];
+  window.addEventListener('beforeprint', () => {
+    printState = Array.from(document.querySelectorAll<HTMLDetailsElement>('.institution-case details'))
+      .map(section => [section, section.open]);
+    for (const [section] of printState) section.open = true;
+  });
+  window.addEventListener('afterprint', () => {
+    for (const [section, open] of printState) section.open = open;
+  });
+</script>
+
 <style>
   .institution-case {
     max-width: 1180px;
     padding: 3.5rem 0 6rem;
   }
+
+  .case-navigation {
+    margin: 1.4rem 0 2rem;
+    padding: 1.1rem 1.25rem;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 0.8rem;
+  }
+  .case-navigation p { margin: 0 0 0.65rem; font-size: 0.85rem; font-weight: 800; }
+  .case-navigation ul { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; list-style: none; margin: 0; padding: 0; }
+  .case-navigation a { color: var(--accent-dark); font-size: 0.9rem; font-weight: 700; text-underline-offset: 0.2em; }
+  .evidence-toggle { margin-top: 1rem; border: 1px solid var(--line); border-radius: 0.4rem; padding: 0.55rem 0.75rem; background: var(--paper); color: var(--ink); font: inherit; font-size: 0.85rem; cursor: pointer; }
+  .evidence-toggle[hidden] { display: none; }
+  .evidence-disclosure { margin-top: 0.8rem; }
+  .evidence-disclosure > summary { cursor: pointer; color: var(--accent-dark); font-weight: 750; padding: 0.85rem 1rem; border: 1px solid var(--line); border-radius: 0.5rem; background: var(--card); }
+  .evidence-disclosure[open] > summary { margin-bottom: 1rem; }
+  .institution-case :global([id]) { scroll-margin-top: 1rem; }
 
   .back-link {
     display: inline-block;

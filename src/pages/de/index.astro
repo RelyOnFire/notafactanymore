@@ -199,7 +199,7 @@ const currentYear = new Date().getFullYear();
 <style>
   .hero { display: grid; grid-template-columns: minmax(0,1.08fr) minmax(19rem,.92fr); grid-template-areas: "copy art" "actions art"; align-items: center; column-gap: clamp(1.5rem,4vw,4.5rem); padding: clamp(3rem,7vw,6.5rem) 0; }
   .hero-copy { grid-area: copy; min-width: 0; }
-  .hero h1 { margin: .3rem 0 1.5rem; max-width: 14ch; }
+  .hero h1 { margin: .3rem 0 1.5rem; max-width: 14ch; overflow-wrap: anywhere; }
   .intro { font-size: clamp(1.1rem,2.5vw,1.45rem); color: var(--muted); max-width: 46rem; }
   .actions { grid-area: actions; display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1rem; }
   .hero-art { grid-area: art; min-width: 0; display: flex; justify-content: center; align-items: center; }
@@ -224,7 +224,7 @@ const currentYear = new Date().getFullYear();
   .catalogue-actions > a { font-weight: 800; color: var(--accent-dark); }
   .section-intro { margin-bottom: 0; color: var(--muted); }
   .featured { padding: 5rem 0; }
-  .cards { display: grid; gap: 2rem; }
+  .cards { display: grid; grid-template-columns: minmax(0,1fr); gap: 2rem; }
   .catalogue-preview { padding: 4.5rem 0 5rem; border-top: 1px solid var(--line); background: color-mix(in srgb,var(--card) 66%,var(--paper)); }
   .compact-preview { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .75rem; }
 

@@ -536,6 +536,7 @@ const decades = [...new Set(items.map(({ entry }) => decadeFor(entry.data.timeli
   .decade-heading span { height: 1px; background: var(--line); }
   .timeline-entry { display: grid; grid-template-columns: 7rem minmax(0,1fr); gap: 1.5rem; padding: 1.35rem 0; border-bottom: 1px solid var(--line); }
   .timeline-year { padding-top: .15rem; color: var(--accent-dark); font-size: 1.2rem; line-height: 1; font-weight: 900; font-variant-numeric: tabular-nums; }
+  .timeline-content { min-width: 0; overflow-wrap: anywhere; }
   .timeline-content h3 { max-width: 42ch; margin: 0 0 .35rem; font-size: clamp(1.25rem,2.4vw,1.8rem); }
   .timeline-content h3 a { text-decoration-thickness: .08em; text-underline-offset: .16em; text-decoration-color: color-mix(in srgb,var(--accent) 45%,transparent); }
   .timeline-content h3 a:hover { color: var(--accent-dark); }
@@ -551,7 +552,8 @@ const decades = [...new Set(items.map(({ entry }) => decadeFor(entry.data.timeli
     .school-context-inner { align-items: flex-start; flex-direction: column; }
     .timeline-controls { backdrop-filter: none; -webkit-backdrop-filter: none; }
     .timeline-head { padding-top: 3rem; }
-    .controls-inner { grid-template-columns: 1fr auto; }
+    .controls-inner { grid-template-columns: minmax(0,1fr) auto; }
+    .direction-field { min-width: 0; }
     .search-field { grid-column: 1 / -1; }
     .direction-select { width: 100%; }
     .filter-panel { position: fixed; top: max(.75rem,env(safe-area-inset-top)); right: 0; bottom: 0; left: 0; width: 100%; max-height: none; border-radius: 1rem 1rem 0 0; border-left: 0; border-right: 0; border-bottom: 0; z-index: 50; overscroll-behavior: contain; }

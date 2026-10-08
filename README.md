@@ -28,7 +28,11 @@ npm run preview
 
 The production files are generated in `dist/`.
 
-The build checks content, translations, generated page parity, social previews and internal links. GitHub Actions also runs [desktop and mobile reading checks](tests/reading.browser.py), including direct links into institutional evidence and access without JavaScript.
+The build checks content, translations, generated page parity, social previews and internal links. GitHub Actions also runs [desktop and mobile reading checks](tests/reading.browser.py), including the Start here sequence, direct links into institutional evidence and access without JavaScript.
+
+## Start here reading path
+
+`/start/` and `/de/start/` introduce four existing cases. [readingPath.ts](src/lib/readingPath.ts) defines their order, bilingual introductions and source destinations; the guide and case navigation use the same sequence. Changes to the selection must preserve the distinction between the core catalogue and Institutional Beliefs. The browser checks follow the path in both languages with and without JavaScript.
 
 ## Add an entry
 

@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CorrectionLink from './CorrectionLink.astro';
+import ReadingPathNav from './ReadingPathNav.astro';
 import { historicalDescription } from '../lib/socialCards';
 import { evidenceRelations, institutionalCorrectionStates } from '../lib/institutionalEvidenceLabels';
 import { translationMatchesEntry, type SiteLocale } from '../lib/i18n';
@@ -276,6 +277,8 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
       </div>
     </header>
 
+    <ReadingPathNav collection="institutions" id={entry.id} locale={locale} compact />
+
     <nav class="case-navigation" aria-label={locale === 'de' ? 'Auf dieser Seite' : 'On this page'}>
       <p>{locale === 'de' ? 'Auf dieser Seite' : 'On this page'}</p>
       <ul>
@@ -524,6 +527,8 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
         <a href={cataloguePath}>{catalogueTitle ?? entry.entryId} →</a>
       </aside>
     )}
+
+    <ReadingPathNav collection="institutions" id={entry.id} locale={locale} />
 
     <footer class="case-footer">
       <span>{copy.reviewed}: {reviewedDate}</span>

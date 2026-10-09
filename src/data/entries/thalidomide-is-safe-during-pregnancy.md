@@ -9,8 +9,7 @@ acceptedYear: 1957
 changedApproximately: "1961–1962"
 timelineYear: 1961
 summary: "A widely marketed sedative caused a global epidemic of severe birth defects and transformed drug regulation."
-featured: true
-featuredOrder: 6
+featured: false
 publishedAt: "2026-08-06"
 reviewedAt: "2026-08-20"
 sources:

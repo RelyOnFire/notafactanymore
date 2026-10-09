@@ -29,7 +29,9 @@ for (const file of htmlFiles) {
   const pagePath = resolvePagePath(file);
   if (/name="robots"[^>]*content="[^"]*noindex/.test(html)) continue;
   const metas = new Map([...html.matchAll(/<meta\s+(?:name|property)="([^"]+)"\s+content="([^"]*)"/g)].map(m => [m[1], decode(m[2])]));
-  const ids = new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(m => decode(m[1])));
+  const idValues = [...html.matchAll(/<[a-z][^>]*\sid="([^"]+)"/gi)].map(m => decode(m[1]));
+  const ids = new Set(idValues);
+  if (ids.size !== idValues.length) errors.push(`${pagePath}: duplicate element IDs make citation links ambiguous`);
   const links = [...html.matchAll(/<a\b[^>]*\bhref="([^"]+)"/g)].map(m => decode(m[1]));
   pages.set(normalize(pagePath), { ids, links });
   for (const key of ['description', 'og:title', 'og:description', 'og:image', 'og:image:alt', 'twitter:title', 'twitter:description', 'twitter:image', 'twitter:image:alt']) {

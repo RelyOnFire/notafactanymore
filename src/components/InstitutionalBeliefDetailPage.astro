@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CorrectionLink from './CorrectionLink.astro';
 import ReadingPathNav from './ReadingPathNav.astro';
+import Permalink from './Permalink.astro';
 import { historicalDescription } from '../lib/socialCards';
 import { evidenceRelations, institutionalCorrectionStates } from '../lib/institutionalEvidenceLabels';
 import { translationMatchesEntry, type SiteLocale } from '../lib/i18n';
@@ -300,11 +301,13 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
         <p class="section-kicker">01</p>
         <h2 id="institutional-proposition">{copy.accepted}</h2>
         <p>{entry.proposition}</p>
+        <Permalink id="institutional-proposition" context={copy.accepted} kind="section" locale={locale} />
       </section>
       <section class="narrative-panel correction-panel" aria-labelledby="present-correction">
         <p class="section-kicker">02</p>
         <h2 id="present-correction">{copy.current}</h2>
         <p>{entry.correction}</p>
+        <Permalink id="present-correction" context={copy.current} kind="section" locale={locale} />
       </section>
     </div>
 
@@ -343,6 +346,7 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
                 </p>
               )}
               {evidence.note && <p class="evidence-note-copy">{evidence.note}</p>}
+              <Permalink id={`evidence-${entry.id}-${evidence.id}`} context={`${targetLabel(evidence)}: ${evidence.source.title}`} locale={locale} />
             </li>
           ))}
           </ol>
@@ -377,6 +381,7 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
           </div>
         )}
         <p class="impact-caution">{copy.impactCaution}</p>
+        <Permalink id="impact-title" context={copy.impact} kind="section" locale={locale} />
       </section>
     )}
 
@@ -398,6 +403,8 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
               </span>
             </div>
           </header>
+
+          <Permalink id={episode.id} context={episode.polity} kind="episode" locale={locale} />
 
           <p class="episode-summary">{episode.summary}</p>
 
@@ -490,6 +497,7 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
                     </p>
                   )}
                   {evidence.note && <p class="evidence-note-copy">{evidence.note}</p>}
+                  <Permalink id={`evidence-${entry.id}-${evidence.id}`} context={`${targetLabel(evidence)}: ${evidence.source.title}`} locale={locale} />
                 </li>
               ))}
               </ol>
@@ -514,6 +522,7 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
             <div>
               <a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}</a>
               <span>{source.publisher}</span>
+              <Permalink id={`source-${entry.id}-${source.id}`} context={source.title} kind="source" locale={locale} />
             </div>
             <small>{copy.usedBy(evidenceCount)}</small>
           </li>
@@ -973,6 +982,12 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
     font-size: 0.68rem;
     font-weight: 900;
     letter-spacing: 0.08em;
+  }
+  .evidence-item:target, .source-registry li:target, .episode-card:target,
+  #institutional-proposition:target, #present-correction:target, #impact-title:target {
+    outline: 2px solid var(--accent-dark);
+    outline-offset: .25rem;
+    scroll-margin-top: 1rem;
   }
   .relation-documents,
   .relation-supports { border-color: var(--accent-dark); color: var(--accent-dark); }

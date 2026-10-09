@@ -18,6 +18,7 @@ parser.add_argument('--paths', nargs='+', help='Check only these paths; omit for
 parser.add_argument('--widths', nargs='+', type=int, default=[320, 390, 1440])
 parser.add_argument('--contributions', action='store_true', help='Check contribution flows when --paths limits layout checks.')
 parser.add_argument('--reading-path', action='store_true', help='Follow the Start here path when --paths limits layout checks.')
+parser.add_argument('--citations', action='store_true', help='Check citation links when --paths limits layout checks.')
 args = parser.parse_args()
 
 
@@ -176,6 +177,97 @@ async def check_reading_path(browser, base):
     return {'caseChecks': case_checks, 'sourceJumpChecks': source_checks, 'withoutJavaScript': True}
 
 
+async def check_citations(browser, base):
+    checked = 0
+    clipboard_script = '''() => {
+        window.copiedCitation = null;
+        window.clipboardFails = false;
+        Object.defineProperty(navigator, 'clipboard', {configurable: true, value: {
+            writeText: async (text) => {
+                if (window.clipboardFails) throw new Error('Clipboard denied');
+                window.copiedCitation = text;
+            }
+        }});
+    }'''
+    ctx = await browser.new_context(viewport={'width': 390, 'height': 844})
+    await ctx.add_init_script('(' + clipboard_script + ')()')
+    page = await ctx.new_page()
+    destinations = []
+    for prefix in ['', '/de']:
+        for path in ['/institutions/lysenkoist-heredity/', '/entries/peptic-ulcers/']:
+            path = prefix + path
+            await page.goto(base + path, wait_until='networkidle')
+            selectors = ['.proposition-panel', '.correction-panel', '#ussr-1948-1964',
+                         '.belief-evidence .evidence-item', '.source-registry li'] if '/institutions/' in path else ['#sources > .permalink-actions', '.source-note']
+            for selector in selectors:
+                target = page.locator(selector).first
+                href = await target.locator('.permalink-link').first.get_attribute('href')
+                assert href.startswith('#') and len(href) > 1
+                destinations.append((path, href))
+            for current_path, href in [destination for destination in destinations if destination[0] == path]:
+                response = await page.goto(base + current_path + href, wait_until='networkidle')
+                assert response is None or response.status == 200
+                target = page.locator(href)
+                assert await target.is_visible(), 'Shared citation remained folded'
+                action = page.locator(f'.permalink-link[href="{href}"]').first.locator('..')
+                link = action.locator('.permalink-link')
+                # Real keyboard navigation must retain the destination, including on note links.
+                await link.focus()
+                await link.press('Enter')
+                await page.wait_for_url(base + current_path + href, wait_until='networkidle')
+                button = action.locator('.permalink-copy')
+                assert await button.is_visible()
+                await button.focus()
+                await button.press('Enter')
+                expected = 'https://notafactanymore.com' + current_path + href
+                await page.wait_for_function('(url) => window.copiedCitation === url', arg=expected)
+                assert await action.locator('.permalink-status').text_content() in ['Link copied.', 'Link kopiert.']
+                assert page.url == base + current_path + href, 'Copy unexpectedly navigated away'
+                await check_layout(page, 'Selected citation')
+                alternate = current_path.removeprefix('/de') if prefix else '/de' + current_path
+                await page.locator('.language-switch').click()
+                await page.wait_for_url(base + alternate + href, wait_until='networkidle')
+                assert await page.locator(href).is_visible(), 'Language switch lost the selected citation'
+                checked += 1
+            await page.goto(base + path + href, wait_until='networkidle')
+            await page.evaluate('window.clipboardFails = true')
+            action = page.locator(f'.permalink-link[href="{href}"]').first.locator('..')
+            await action.locator('.permalink-copy').click()
+            assert await action.locator('.permalink-status').text_content() in [
+                'Could not copy. Open the link and copy the page address.',
+                'Kopieren fehlgeschlagen. Öffne den Link und kopiere die Seitenadresse.']
+            assert await action.locator('.permalink-copy').text_content() in ['Copy link', 'Link kopieren']
+            assert await action.locator('.permalink-link').is_visible(), 'Clipboard failure removed the normal link'
+            await check_layout(page, 'Clipboard fallback')
+            await page.locator('main .correction-link').first.click()
+            await page.wait_for_url('**/corrections/**', wait_until='networkidle')
+            assert await page.locator('[name="page"]').input_value() == 'https://notafactanymore.com' + path + href, 'Correction report lost its citation'
+    await ctx.close()
+
+    # Ordinary links and direct fragments still work without script or clipboard access.
+    ctx = await browser.new_context(viewport={'width': 390, 'height': 844}, java_script_enabled=False)
+    page = await ctx.new_page()
+    for path, href in destinations:
+        await page.goto(base + path + href, wait_until='networkidle')
+        target = page.locator(href)
+        assert await target.is_visible(), 'Native fragment did not reveal the citation'
+        action = page.locator(f'.permalink-link[href="{href}"]').first.locator('..')
+        assert await action.locator('.permalink-copy').is_hidden()
+        await action.locator('.permalink-link').click()
+        await page.wait_for_url(base + path + href, wait_until='networkidle')
+        checked += 1
+    await ctx.close()
+
+    ctx = await browser.new_context()
+    await ctx.add_init_script("Object.defineProperty(navigator, 'clipboard', {value: undefined})")
+    page = await ctx.new_page()
+    await page.goto(base + '/entries/peptic-ulcers/', wait_until='networkidle')
+    assert await page.locator('.permalink-copy:visible').count() == 0
+    assert await page.locator('.permalink-link:visible').count() > 0
+    await ctx.close()
+    return {'destinationChecks': checked, 'clipboardDenial': True, 'languageFragments': True, 'withoutJavaScript': True}
+
+
 async def main():
     server = None
     if args.base_url:
@@ -188,6 +280,7 @@ async def main():
     checked = 0
     draft_checks = 0
     reading_path_checks = None
+    citation_checks = None
     async with async_playwright() as p:
         options = {'headless': True}
         if args.executable:
@@ -221,12 +314,20 @@ async def main():
                             assert await page.locator('.filter-panel').is_visible()
                             await page.keyboard.press('Escape')
                             assert not await page.locator('.filter-panel').is_visible()
+                        if '/institutions/' in path and not path.endswith('/institutions/'):
+                            await page.locator('.evidence-toggle').click()
+                            await page.locator('.source-registry summary').click()
+                            await check_layout(page, 'Expanded evidence and source links')
                         if args.screenshots and width in [390, 1440] and path in ['/', '/de/', '/start/', '/de/start/', '/entries/peptic-ulcers/', '/de/entries/peptic-ulcers/', '/institutions/lysenkoist-heredity/', '/methodology/', '/de/methodology/', '/corrections/', '/de/corrections/']:
                             args.screenshots.mkdir(parents=True, exist_ok=True)
                             name = f'{width}-{path.strip("/").replace("/", "-") or "home"}'
                             await page.screenshot(path=str(args.screenshots / f'{name}.png'), full_page=path.endswith('/start/'))
                             if await page.locator('.reading-path-nav').count():
                                 await page.locator('.reading-path-nav').screenshot(path=str(args.screenshots / f'{name}-reading-nav.png'))
+                            if await page.locator('.evidence-item').count():
+                                await page.locator('.evidence-item').first.screenshot(path=str(args.screenshots / f'{name}-citation.png'))
+                            elif await page.locator('.source-note').count():
+                                await page.locator('.source-note').first.screenshot(path=str(args.screenshots / f'{name}-citation.png'))
                         checked += 1
                     except Exception as error:
                         issues.append(f'{width}px {path}: {error}')
@@ -272,6 +373,8 @@ async def main():
             await ctx.close()
         if not args.paths or args.reading_path:
             reading_path_checks = await check_reading_path(browser, base)
+        if not args.paths or args.citations:
+            citation_checks = await check_citations(browser, base)
         if not args.paths or args.contributions:
             draft_checks = await check_corrections(browser, base)
             # Evidence can still be expanded when JavaScript is unavailable.
@@ -296,7 +399,7 @@ async def main():
         server.server_close()
     if issues:
         raise AssertionError('\n'.join(issues))
-    print(json.dumps({'pageChecks': checked, 'widths': args.widths, 'fullReadingCheck': not args.paths, 'issueDraftsChecked': draft_checks, 'readingPath': reading_path_checks}), flush=True)
+    print(json.dumps({'pageChecks': checked, 'widths': args.widths, 'fullReadingCheck': not args.paths, 'issueDraftsChecked': draft_checks, 'readingPath': reading_path_checks, 'citations': citation_checks}), flush=True)
 
 
 asyncio.run(main())

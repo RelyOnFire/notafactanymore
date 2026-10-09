@@ -34,6 +34,10 @@ The build checks content, translations, generated page parity, social previews a
 
 `/start/` and `/de/start/` introduce four existing cases. [readingPath.ts](src/lib/readingPath.ts) defines their order, bilingual introductions and source destinations; the guide and case navigation use the same sequence. Changes to the selection must preserve the distinction between the core catalogue and Institutional Beliefs. The browser checks follow the path in both languages with and without JavaScript.
 
+## Citation links
+
+Case pages provide ordinary fragment links and clipboard controls for source notes, institutional evidence and episodes. Copy controls use public canonical URLs, including on branch previews. Core source anchors derive from the canonical source URL and purpose in [sourceAnchors.ts](src/lib/sourceAnchors.ts); translating or reordering notes preserves them. Existing institutional evidence/source IDs remain the destinations. The build rejects duplicate IDs and broken fragments, and browser checks cover direct links, clipboard denial, language switching and access without JavaScript.
+
 ## Add an entry
 
 1. Copy `src/data/entries/_template.md`.

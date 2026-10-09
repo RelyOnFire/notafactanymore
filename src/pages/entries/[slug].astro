@@ -6,6 +6,8 @@ import EntryMedia from '../../components/EntryMedia.astro';
 import EntryDiscovery from '../../components/EntryDiscovery.astro';
 import CorrectionLink from '../../components/CorrectionLink.astro';
 import ReadingPathNav from '../../components/ReadingPathNav.astro';
+import Permalink from '../../components/Permalink.astro';
+import { sourceAnchor } from '../../lib/sourceAnchors';
 import { translationMatchesEntry } from '../../lib/i18n';
 
 export async function getStaticPaths() {
@@ -49,15 +51,17 @@ const groupedSources = entry.data.sources.reduce<Record<string, typeof entry.dat
     <section class="evidence" id="sources">
       <p class="eyebrow">Evidence</p>
       <h2>Sources and what they establish</h2>
+      <Permalink id="sources" context="Sources and what they establish" kind="section" />
       {Object.entries(groupedSources).map(([purpose, sources]) => (
         <div class="source-group">
           <h3>{purpose}</h3>
           <ul>
             {sources?.map((source) => (
-              <li>
+              <li class="source-note" id={sourceAnchor(source)}>
                 <a href={source.url} target="_blank" rel="noopener noreferrer"><strong>{source.title}</strong></a>
                 <span>{source.publisher}</span>
                 <p>{source.note}</p>
+                <Permalink id={sourceAnchor(source)} context={source.title} />
               </li>
             ))}
           </ul>
@@ -88,5 +92,6 @@ const groupedSources = entry.data.sources.reduce<Record<string, typeof entry.dat
   li a { color: var(--accent-dark); }
   li span { display: block; color: var(--muted); font-size: .92rem; }
   li p { margin: .35rem 0 0; }
+  .source-note:target { outline: 2px solid var(--accent-dark); outline-offset: .35rem; scroll-margin-top: 1rem; }
   .reviewed { margin-top: 3rem; padding: 1rem; background: #e9e3d6; color: var(--muted); font-size: .9rem; }
 </style>

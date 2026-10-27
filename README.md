@@ -36,7 +36,7 @@ The build checks content, translations, generated page parity, social previews a
 
 ## Citation links
 
-Case pages provide ordinary fragment links and clipboard controls for source notes, institutional evidence and episodes. Copy controls use public canonical URLs, including on branch previews. Core source anchors derive from the canonical source URL and purpose in [sourceAnchors.ts](src/lib/sourceAnchors.ts); translating or reordering notes preserves them. Existing institutional evidence/source IDs remain the destinations. The build rejects duplicate IDs and broken fragments, and browser checks cover direct links, clipboard denial, language switching and access without JavaScript.
+Institutional evidence, episodes and source entries retain their fragment links and clipboard controls, as do the Sources sections on core entry pages. Individual core source notes show only the linked publication title, publisher and explanatory note, without a repeated sharing toolbar. Copy controls use public canonical URLs, including on branch previews. Core source anchors derive from the canonical source URL and purpose in [sourceAnchors.ts](src/lib/sourceAnchors.ts); translating or reordering notes preserves them. Existing institutional evidence/source IDs remain the destinations. The build rejects duplicate IDs and broken fragments, and browser checks cover direct links, clipboard denial, language switching and access without JavaScript.
 
 ## Add an entry
 

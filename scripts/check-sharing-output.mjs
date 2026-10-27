@@ -34,6 +34,16 @@ for (const file of htmlFiles) {
   if (ids.size !== idValues.length) errors.push(`${pagePath}: duplicate element IDs make citation links ambiguous`);
   const links = [...html.matchAll(/<a\b[^>]*\bhref="([^"]+)"/g)].map(m => decode(m[1]));
   pages.set(normalize(pagePath), { ids, links });
+  // Core entries retain source destinations, but not a sharing toolbar under each note.
+  if (/^\/(?:de\/)?entries\/[^/]+$/.test(pagePath)) {
+    const sourceNotes = [...html.matchAll(/(<li\b[^>]*\bclass="[^"]*\bsource-note\b[^"]*"[^>]*>)([\s\S]*?)<\/li>/g)];
+    if (!sourceNotes.length) errors.push(`${pagePath}: source notes are missing`);
+    for (const [, openingTag, note] of sourceNotes) {
+      if (!/\bid="[^"]+"/.test(openingTag)) errors.push(`${pagePath}: source note lost its citation anchor`);
+      if (!/<a\b[^>]*\bhref="https?:\/\//.test(note)) errors.push(`${pagePath}: source note lost its original publication link`);
+      if (/\bclass="[^"]*\bpermalink-(?:actions|link|copy)\b/.test(note)) errors.push(`${pagePath}: source note has redundant sharing controls`);
+    }
+  }
   for (const key of ['description', 'og:title', 'og:description', 'og:image', 'og:image:alt', 'twitter:title', 'twitter:description', 'twitter:image', 'twitter:image:alt']) {
     if (!metas.get(key)?.trim()) errors.push(`${pagePath}: missing ${key}`);
   }

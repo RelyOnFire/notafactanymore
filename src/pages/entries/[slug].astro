@@ -61,7 +61,6 @@ const groupedSources = entry.data.sources.reduce<Record<string, typeof entry.dat
                 <a href={source.url} target="_blank" rel="noopener noreferrer"><strong>{source.title}</strong></a>
                 <span>{source.publisher}</span>
                 <p>{source.note}</p>
-                <Permalink id={sourceAnchor(source)} context={source.title} />
               </li>
             ))}
           </ul>

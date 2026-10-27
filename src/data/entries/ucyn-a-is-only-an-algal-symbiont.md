@@ -1,52 +1,56 @@
 ---
-claim: The nitrogen-fixing body inside Braarudosphaera bigelowii is a bacterial partner, rather than a cell organelle.
-currentUnderstanding: In a studied lineage of this marine alga, the partner UCYN-A is integrated into the cell as an early-stage nitrogen-fixing organelle, called a nitroplast. It imports proteins made by its host and divides in coordination with the algal cell.
-whyItChanged: Earlier work identified UCYN-A as a cyanobacterial endosymbiont. A 2024 study combined cellular imaging and protein analysis to demonstrate a degree of integration characteristic of organelles, changing how the partnership was classified.
+claim: "The bacterium inside this tiny ocean alga is a partner, not part of the cell itself."
+currentUnderstanding: "In the alga studied, the bacterial partner is better understood as a specialised part of the cell. It turns nitrogen gas into compounds the alga can use, receives proteins made by the alga and divides in step with it."
+whyItChanged: "Researchers had described one organism living inside another. In 2024, detailed images and protein tests showed how closely the partner was integrated into the alga's cell. The evidence supported classifying it as an organelle: a cell component with a specific job."
 status: Reclassified
 category: Microbiology
-acceptedApproximately: 2013–2024, with organelle-like integration investigated before reclassification
+acceptedApproximately: "2013–2024, with a different classification already being explored"
 acceptedYear: 2013
 lifespanComparable: false
 changedApproximately: '2024'
 timelineYear: 2024
-summary: A marine alga's bacterial partner turned out to be a nitrogen-fixing part of the cell itself.
+summary: "A tiny ocean alga's bacterial partner turned out to be a working part of its cell."
 featured: false
 publishedAt: '2026-10-09'
-reviewedAt: '2026-10-09'
+reviewedAt: "2026-10-27"
 sources:
   - title: Discovery of an Endosymbiotic Nitrogen-Fixing Cyanobacterium UCYN-A in Braarudosphaera bigelowii (Prymnesiophyceae)
     url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0081749
     publisher: PLOS ONE
     purpose: Previous belief
-    note: The 2013 investigation identified the algal cell's internal body as originating from an endosymbiotic nitrogen-fixing cyanobacterium.
+    note: "The 2013 study identified a bacterial partner inside the alga. It described the relationship as one organism living within another."
   - title: Metabolic trade-offs constrain the cell size ratio in a nitrogen-fixing symbiosis
     url: https://pubmed.ncbi.nlm.nih.gov/38471501/
     publisher: Cell
     purpose: Historical context
-    note: Work published shortly before the Science study found coordinated size relationships and described UCYN-A as functioning in several respects like a hypothetical nitroplast. The organelle interpretation was already under investigation.
+    note: "Published shortly before the main 2024 study, this work found linked sizes in the alga and its partner. Researchers were already considering whether the partner functioned as part of the cell."
   - title: Nitrogen-fixing organelle in a marine alga
     url: https://pubmed.ncbi.nlm.nih.gov/38603509/
     publisher: Science
     purpose: Primary research
-    note: The 2024 study demonstrated host-protein import and coordinated division, identifying the studied UCYN-A as an early-stage nitrogen-fixing organelle.
+    note: "The 2024 study found that the partner receives proteins from the alga and divides in step with it. Together, these findings supported classifying it as a specialised part of the cell at an early stage of its evolution."
   - title: 'The nitroplast: A nitrogen-fixing organelle'
     url: https://emm.icm.csic.es/publication/massana-nitroplast-2024/
     publisher: Science / Institute of Marine Sciences, CSIC
     purpose: Current evidence
-    note: The accompanying scientific perspective explains the change from a bacterial symbiont to a eukaryotic organelle and its significance for nitrogen fixation.
+    note: "This accompanying scientific commentary explains why the new evidence supported treating the bacterial partner as a part of the cell that supplies usable nitrogen."
   - title: Protein import into bacterial endosymbionts and evolving organelles
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12176269/
     publisher: The FEBS Journal
     purpose: Current evidence
-    note: The 2025 review discusses UCYN-A in the broader evidence for protein import and evolving organelles, including remaining questions about integration mechanisms.
+    note: "This 2025 review discusses how proteins enter bacterial partners and newly evolved cell components. It covers UCYN-A and questions that remain about how the partnership works."
 ---
 
-Living things need nitrogen to build proteins and other important molecules. Nitrogen gas is abundant, but most organisms cannot use it directly. Some bacteria can convert it into usable compounds, a process called nitrogen fixation.
+The surprise was not that an alga had a bacterial helper. It was that the helper had become part of the alga's own cell.
 
-The tiny marine alga *Braarudosphaera bigelowii* was known to obtain this service from a cyanobacterial partner called UCYN-A. A 2013 study identified the partner inside the algal cell. As researchers found increasingly close cooperation, they began asking whether it had become an organelle: a working component of the host cell.
+Living things need nitrogen to make proteins and other building blocks of life. Most cannot use nitrogen gas directly. Some bacteria turn it into usable compounds, a process called nitrogen fixation.
 
-In 2024, cellular imaging and protein analysis supplied crucial evidence. The studied UCYN-A imported proteins made by the alga, and its division was coordinated with the host's. Researchers classified it as an early-stage nitrogen-fixing organelle, the nitroplast.
+In 2013, researchers identified a bacterial partner inside a tiny, single-celled ocean alga called *Braarudosphaera bigelowii*. The partner, known as UCYN-A, supplies usable nitrogen. It was described as one organism living inside another.
 
-The discovery makes a process from deep evolutionary history observable in a living partnership. Mitochondria and chloroplasts also originated through the integration of bacterial ancestors into host cells.
+As researchers learned more, that description began to look incomplete. Work published shortly before the main 2024 study found that the sizes of the alga and its partner were linked. Scientists were already asking whether the partner had become a cell component, rather than simply a resident.
 
-The alga did not acquire its partner in 2024; that is when the evidence supported reclassification. Nor does the finding establish nitroplasts in every UCYN-A association or in ordinary crop plants. The scope is the studied algal lineage, and the integration process still has open questions.
+Detailed images and tests in 2024 showed that the partner receives proteins made by the alga and divides in step with it. Together, these findings supported classifying it as an *organelle*: a specialised part of a cell with a particular job. Researchers named this nitrogen-supplying component a *nitroplast* and described it as an early stage in the evolution of an organelle.
+
+That matters because some familiar cell parts also began as bacteria. Mitochondria, which help cells release usable energy, and chloroplasts, which allow plants and algae to use sunlight to make food, have this history. The finding offers another way to study how a partnership can become part of a cell.
+
+The change in 2024 was in our understanding, not a transformation that happened that year. The evidence concerns the particular alga and bacterial partner studied. It does not show that every similar partnership, or ordinary crop plant, has a nitroplast. How the two became so closely linked is still being investigated.

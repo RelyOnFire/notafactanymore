@@ -177,6 +177,59 @@ async def check_reading_path(browser, base):
     return {'caseChecks': case_checks, 'sourceJumpChecks': source_checks, 'withoutJavaScript': True}
 
 
+async def check_core_source_notes(browser, base):
+    """Keep source links and existing fragments, without a toolbar on each note."""
+    expected_ucyn_sources = {'source-1ebc369195dc': 'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0081749', 'source-84fe8df67261': 'https://pubmed.ncbi.nlm.nih.gov/38471501/', 'source-c298451cc21e': 'https://pubmed.ncbi.nlm.nih.gov/38603509/', 'source-525ecf3dc683': 'https://emm.icm.csic.es/publication/massana-nitroplast-2024/', 'source-ae759a34d6ed': 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12176269/'}
+    identities = {}
+    checked = 0
+    for javascript in [True, False]:
+        ctx = await browser.new_context(viewport={'width': 390, 'height': 844}, java_script_enabled=javascript)
+        page = await ctx.new_page()
+        for prefix in ['', '/de']:
+            for slug in ['peptic-ulcers', 'ucyn-a-is-only-an-algal-symbiont']:
+                path = prefix + '/entries/' + slug + '/'
+                await page.goto(base + path, wait_until='networkidle')
+                notes = page.locator('.source-note')
+                assert await notes.count() > 0, 'Source notes disappeared'
+                assert await notes.locator('.permalink-actions, .permalink-link, .permalink-copy').count() == 0, 'Source-note toolbar returned'
+                records = await notes.evaluate_all("""notes => notes.map(note => ({
+                    id: note.id,
+                    url: note.querySelector('a').getAttribute('href'),
+                    target: note.querySelector('a').getAttribute('target'),
+                    rel: note.querySelector('a').getAttribute('rel')
+                }))""")
+                sources = {note['id']: note['url'] for note in records}
+                assert len(sources) == len(records) and all(sources), 'Missing or duplicate source anchors'
+                assert all(note['url'].startswith('https://') and note['target'] == '_blank'
+                           and 'noopener' in (note['rel'] or '').split() for note in records), 'Original publication links changed'
+                if slug == 'ucyn-a-is-only-an-algal-symbiont':
+                    assert sources == expected_ucyn_sources, 'An existing UCYN-A source link or anchor changed'
+                if slug in identities:
+                    assert sources == identities[slug], 'Source anchors differ by language or JavaScript availability'
+                identities[slug] = sources
+                # Check both ends of the list, with and without JavaScript.
+                for note in [records[0], records[-1]]:
+                    href = '#' + note['id']
+                    response = await page.goto(base + path + href, wait_until='networkidle')
+                    assert response is None or response.status == 200
+                    assert await page.locator(href).is_visible(), 'Direct source-note citation has no visible target'
+                    assert await page.locator(':target').get_attribute('id') == note['id']
+                    await check_layout(page, 'Source note without controls')
+                    if javascript:
+                        alternate = path.removeprefix('/de') if prefix else '/de' + path
+                        await page.locator('.language-switch').click()
+                        await page.wait_for_url(base + alternate + href, wait_until='networkidle')
+                        assert await page.locator(href).is_visible(), 'Language switch lost the source note'
+                        await page.locator('.language-switch').click()
+                        await page.wait_for_url(base + path + href, wait_until='networkidle')
+                        await page.locator('main .correction-link').first.click()
+                        await page.wait_for_url('**/corrections/**', wait_until='networkidle')
+                        assert await page.locator('[name="page"]').input_value() == 'https://notafactanymore.com' + path + href, 'Correction report lost the source note'
+                    checked += 1
+        await ctx.close()
+    return checked
+
+
 async def check_citations(browser, base):
     checked = 0
     clipboard_script = '''() => {
@@ -198,7 +251,7 @@ async def check_citations(browser, base):
             path = prefix + path
             await page.goto(base + path, wait_until='networkidle')
             selectors = ['.proposition-panel', '.correction-panel', '#ussr-1948-1964',
-                         '.belief-evidence .evidence-item', '.source-registry li'] if '/institutions/' in path else ['#sources > .permalink-actions', '.source-note']
+                         '.belief-evidence .evidence-item', '.source-registry li'] if '/institutions/' in path else ['#sources > .permalink-actions']
             for selector in selectors:
                 target = page.locator(selector).first
                 href = await target.locator('.permalink-link').first.get_attribute('href')
@@ -265,7 +318,7 @@ async def check_citations(browser, base):
     assert await page.locator('.permalink-copy:visible').count() == 0
     assert await page.locator('.permalink-link:visible').count() > 0
     await ctx.close()
-    return {'destinationChecks': checked, 'clipboardDenial': True, 'languageFragments': True, 'withoutJavaScript': True}
+    return {'destinationChecks': checked, 'coreSourceNoteChecks': await check_core_source_notes(browser, base), 'clipboardDenial': True, 'languageFragments': True, 'withoutJavaScript': True}
 
 
 async def main():
@@ -287,7 +340,7 @@ async def main():
             options['executable_path'] = args.executable
         browser = await p.chromium.launch(**options)
         paths = ['/', '/start/', '/browse/', '/timeline/', '/institutions/', '/lifespans/', '/glossary/', '/categories/medicine/', '/methodology/', '/about/', '/submit/', '/corrections/',
-                 '/entries/humans-have-48-chromosomes/', '/entries/peptic-ulcers/', '/institutions/lysenkoist-heredity/', '/institutions/virginity-testing/', '/institutions/routine-oxygen-heart-attack/']
+                 '/entries/humans-have-48-chromosomes/', '/entries/peptic-ulcers/', '/entries/ucyn-a-is-only-an-algal-symbiont/', '/institutions/lysenkoist-heredity/', '/institutions/virginity-testing/', '/institutions/routine-oxygen-heart-attack/']
         paths += [('/de/' if path == '/' else '/de' + path) for path in paths]
         if args.paths:
             paths = args.paths
@@ -318,7 +371,7 @@ async def main():
                             await page.locator('.evidence-toggle').click()
                             await page.locator('.source-registry summary').click()
                             await check_layout(page, 'Expanded evidence and source links')
-                        if args.screenshots and width in [390, 1440] and path in ['/', '/de/', '/start/', '/de/start/', '/entries/peptic-ulcers/', '/de/entries/peptic-ulcers/', '/institutions/lysenkoist-heredity/', '/methodology/', '/de/methodology/', '/corrections/', '/de/corrections/']:
+                        if args.screenshots and width in [390, 1440] and path in ['/', '/de/', '/start/', '/de/start/', '/entries/peptic-ulcers/', '/de/entries/peptic-ulcers/', '/entries/ucyn-a-is-only-an-algal-symbiont/', '/de/entries/ucyn-a-is-only-an-algal-symbiont/', '/institutions/lysenkoist-heredity/', '/methodology/', '/de/methodology/', '/corrections/', '/de/corrections/']:
                             args.screenshots.mkdir(parents=True, exist_ok=True)
                             name = f'{width}-{path.strip("/").replace("/", "-") or "home"}'
                             await page.screenshot(path=str(args.screenshots / f'{name}.png'), full_page=path.endswith('/start/'))

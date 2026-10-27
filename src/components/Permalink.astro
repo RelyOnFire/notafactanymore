@@ -74,7 +74,14 @@ url.hash = id;
   languageLink?.addEventListener('click', () => {
     const destination = new URL(languageHref!);
     const withoutLocale = (path: string) => path.replace(/^\/de(?=\/|$)/, '').replace(/\/+$/, '') || '/';
-    const hasPermalink = Array.from(document.querySelectorAll<HTMLAnchorElement>('.permalink-link'))
+    // Core source notes retain their anchors without displaying sharing controls.
+    let isSourceNote = false;
+    try {
+      isSourceNote = document.getElementById(decodeURIComponent(window.location.hash.slice(1)))?.classList.contains('source-note') ?? false;
+    } catch {
+      // Ignore malformed fragments rather than interrupting language navigation.
+    }
+    const hasPermalink = isSourceNote || Array.from(document.querySelectorAll<HTMLAnchorElement>('.permalink-link'))
       .some(link => link.hash === window.location.hash);
     if (window.location.hash && hasPermalink && withoutLocale(destination.pathname) === withoutLocale(window.location.pathname)) {
       destination.hash = window.location.hash;

@@ -193,12 +193,13 @@ async def check_citations(browser, base):
     await ctx.add_init_script('(' + clipboard_script + ')()')
     page = await ctx.new_page()
     destinations = []
+    core_destinations = []
     for prefix in ['', '/de']:
         for path in ['/institutions/lysenkoist-heredity/', '/entries/peptic-ulcers/']:
             path = prefix + path
             await page.goto(base + path, wait_until='networkidle')
             selectors = ['.proposition-panel', '.correction-panel', '#ussr-1948-1964',
-                         '.belief-evidence .evidence-item', '.source-registry li'] if '/institutions/' in path else ['#sources > .permalink-actions', '.source-note']
+                         '.belief-evidence .evidence-item', '.source-registry li'] if '/institutions/' in path else ['#sources > .permalink-actions']
             for selector in selectors:
                 target = page.locator(selector).first
                 href = await target.locator('.permalink-link').first.get_attribute('href')
@@ -242,6 +243,33 @@ async def check_citations(browser, base):
             await page.locator('main .correction-link').first.click()
             await page.wait_for_url('**/corrections/**', wait_until='networkidle')
             assert await page.locator('[name="page"]').input_value() == 'https://notafactanymore.com' + path + href, 'Correction report lost its citation'
+
+        # Core notes keep usable source links and old fragments, without per-note toolbars.
+        for entry in ['peptic-ulcers', 'ucyn-a-is-only-an-algal-symbiont']:
+            path = prefix + '/entries/' + entry + '/'
+            await page.goto(base + path, wait_until='networkidle')
+            notes = page.locator('.source-note')
+            assert await notes.count() > 0, 'Core source notes disappeared'
+            assert await notes.locator('.permalink-actions, .permalink-link, .permalink-copy').count() == 0, 'Core notes still have sharing controls'
+            source_links = await notes.locator('a').evaluate_all('(links) => links.map(link => link.getAttribute("href"))')
+            assert len(source_links) == await notes.count()
+            assert all(urlparse(link).scheme in ['http', 'https'] for link in source_links), 'Original publication link was replaced'
+            anchor = await notes.first.get_attribute('id')
+            assert anchor, 'Core source anchor disappeared'
+            href = '#' + anchor
+            core_destinations.append((path, href))
+            await page.goto(base + path + href, wait_until='networkidle')
+            assert await page.locator(href).is_visible(), 'Core source fragment lost its target'
+            await check_layout(page, 'Core source note')
+            alternate = path.removeprefix('/de') if prefix else '/de' + path
+            await page.locator('.language-switch').click()
+            await page.wait_for_url(base + alternate + href, wait_until='networkidle')
+            assert await page.locator(href).is_visible(), 'Core source language switch lost its fragment'
+            await page.goto(base + path + href, wait_until='networkidle')
+            await page.locator('main .correction-link').first.click()
+            await page.wait_for_url('**/corrections/**', wait_until='networkidle')
+            assert await page.locator('[name="page"]').input_value() == 'https://notafactanymore.com' + path + href, 'Core source correction lost its context'
+            checked += 1
     await ctx.close()
 
     # Ordinary links and direct fragments still work without script or clipboard access.
@@ -255,6 +283,15 @@ async def check_citations(browser, base):
         assert await action.locator('.permalink-copy').is_hidden()
         await action.locator('.permalink-link').click()
         await page.wait_for_url(base + path + href, wait_until='networkidle')
+        checked += 1
+    for path, href in core_destinations:
+        response = await page.goto(base + path + href, wait_until='networkidle')
+        assert response.status == 200
+        target = page.locator(href)
+        assert await target.is_visible(), 'Core source fragment requires JavaScript'
+        assert await target.locator('.permalink-actions, .permalink-link, .permalink-copy').count() == 0
+        assert urlparse(await target.locator('a').get_attribute('href')).scheme in ['http', 'https']
+        await check_layout(page, 'Core source note without JavaScript')
         checked += 1
     await ctx.close()
 
@@ -287,7 +324,7 @@ async def main():
             options['executable_path'] = args.executable
         browser = await p.chromium.launch(**options)
         paths = ['/', '/start/', '/browse/', '/timeline/', '/institutions/', '/lifespans/', '/glossary/', '/categories/medicine/', '/methodology/', '/about/', '/submit/', '/corrections/',
-                 '/entries/humans-have-48-chromosomes/', '/entries/peptic-ulcers/', '/institutions/lysenkoist-heredity/', '/institutions/virginity-testing/', '/institutions/routine-oxygen-heart-attack/']
+                 '/entries/humans-have-48-chromosomes/', '/entries/peptic-ulcers/', '/entries/ucyn-a-is-only-an-algal-symbiont/', '/institutions/lysenkoist-heredity/', '/institutions/virginity-testing/', '/institutions/routine-oxygen-heart-attack/']
         paths += [('/de/' if path == '/' else '/de' + path) for path in paths]
         if args.paths:
             paths = args.paths
@@ -318,7 +355,7 @@ async def main():
                             await page.locator('.evidence-toggle').click()
                             await page.locator('.source-registry summary').click()
                             await check_layout(page, 'Expanded evidence and source links')
-                        if args.screenshots and width in [390, 1440] and path in ['/', '/de/', '/start/', '/de/start/', '/entries/peptic-ulcers/', '/de/entries/peptic-ulcers/', '/institutions/lysenkoist-heredity/', '/methodology/', '/de/methodology/', '/corrections/', '/de/corrections/']:
+                        if args.screenshots and width in [390, 1440] and path in ['/', '/de/', '/start/', '/de/start/', '/entries/peptic-ulcers/', '/de/entries/peptic-ulcers/', '/entries/ucyn-a-is-only-an-algal-symbiont/', '/de/entries/ucyn-a-is-only-an-algal-symbiont/', '/institutions/lysenkoist-heredity/', '/methodology/', '/de/methodology/', '/corrections/', '/de/corrections/']:
                             args.screenshots.mkdir(parents=True, exist_ok=True)
                             name = f'{width}-{path.strip("/").replace("/", "-") or "home"}'
                             await page.screenshot(path=str(args.screenshots / f'{name}.png'), full_page=path.endswith('/start/'))

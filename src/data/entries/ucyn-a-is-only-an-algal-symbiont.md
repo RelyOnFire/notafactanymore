@@ -45,8 +45,8 @@ A tiny single-celled alga in the ocean gets usable nitrogen from a bacterium liv
 
 The alga is called *Braarudosphaera bigelowii*, and its bacterial partner is known as UCYN-A. A 2013 study identified the partner inside the alga. But as researchers learned more about their close relationship, they began asking whether the partner had become a working part of the cell itself.
 
-In 2024, researchers found two important clues. The partner takes in proteins made by the alga, and it divides in step with the algal cell. These findings went beyond showing that the two exchange nutrients. They supported classifying the partner as an early-stage **organelle**: a specialised part of a cell with its own job. The researchers called this nitrogen-supplying part a **nitroplast**.
+In 2024, researchers found two important clues. The partner takes in proteins made by the alga, and it divides in step with the algal cell. These findings went beyond showing that the two exchange nutrients. They supported classifying the partner as an early-stage organelle: a specialised part of a cell with its own job. The researchers called this nitrogen-supplying part a nitroplast.
 
-The change was from **two organisms cooperating** to **a cell with a specialised working part**. Cells have gained new abilities this way before. Some of the machinery in our own cells also descends from bacteria that once lived inside other cells.
+The change was from two organisms cooperating to a cell with a specialised working part. Cells have gained new abilities this way before. Some of the machinery in our own cells also descends from bacteria that once lived inside other cells.
 
 Researchers did not watch this partnership turn into a cell part in 2024. That is when they published the evidence for reclassifying it, building on earlier work. The result applies to the type of alga studied, not automatically to every alga or every UCYN-A partnership. Exactly how the two became so closely linked is still being investigated.

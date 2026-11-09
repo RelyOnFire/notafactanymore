@@ -9,6 +9,7 @@ import ReadingPathNav from '../../../components/ReadingPathNav.astro';
 import Permalink from '../../../components/Permalink.astro';
 import { sourceAnchor } from '../../../lib/sourceAnchors';
 import { sourcePurposeLabel, translationMatchesEntry } from '../../../lib/i18n';
+import { seoTitleForEntry } from '../../../lib/seo';
 
 export async function getStaticPaths() {
   const entries = await getCollection('entries');
@@ -36,13 +37,36 @@ const groupedSources = sourcesWithIndex.reduce<Record<string, typeof sourcesWith
   (groups[item.source.purpose] ??= []).push(item);
   return groups;
 }, {});
+const seoTitle = seoTitleForEntry(entry.id, 'de') ?? translation.data.claim;
+const canonicalPageURL = new URL(`/de/entries/${entry.id}/`, Astro.site ?? new URL('https://notafactanymore.com')).toString();
+const articleJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: translation.data.claim,
+  description: translation.data.summary,
+  inLanguage: 'de',
+  datePublished: entry.data.publishedAt.toISOString(),
+  dateModified: entry.data.reviewedAt.toISOString(),
+  mainEntityOfPage: canonicalPageURL,
+  author: {
+    '@type': 'Organization',
+    name: 'Not a Fact Anymore',
+    url: 'https://notafactanymore.com/de/about/',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Not a Fact Anymore',
+    url: 'https://notafactanymore.com/',
+  },
+};
 ---
 <BaseLayout
   locale="de"
-  title={translation.data.claim}
+  title={seoTitle}
   description={translation.data.summary}
   type="article"
   alternatePath={`/entries/${entry.id}/`}
+  structuredData={articleJsonLd}
 >
   <div class="narrow entry-page">
     <FactCard entry={entry} translation={translation} locale="de" expanded headingLevel={1} />

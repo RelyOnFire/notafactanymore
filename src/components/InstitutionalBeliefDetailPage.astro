@@ -8,11 +8,13 @@ import { historicalDescription } from '../lib/socialCards';
 import { evidenceRelations, institutionalCorrectionStates } from '../lib/institutionalEvidenceLabels';
 import { translationMatchesEntry, type SiteLocale } from '../lib/i18n';
 import {
+  currentInstitutionalTranslationMap,
   normalizeInstitutionalBelief,
   type InstitutionalBeliefEntry,
   type InstitutionalBeliefTranslationEntry,
   type NormalizedInstitutionalEvidence,
 } from '../lib/institutionalBeliefs';
+import { seoTitleForInstitutional } from '../lib/seo';
 
 interface Props {
   belief: InstitutionalBeliefEntry;
@@ -172,6 +174,8 @@ const copy = locale === 'de'
       sourceRegistryIntro:
         'Jede Quelle wird einmal geführt und kann mehrere präzise Evidenzbeziehungen tragen.',
       catalogue: 'Verknüpfter Katalogeintrag',
+      relatedTitle: 'Verwandte institutionelle Fälle',
+      relatedIntro: 'Weitere Fälle mit ähnlichen Fachgebieten, Institutionstypen oder regionalen Zusammenhängen.',
       reviewed: 'Inhalt geprüft',
       episodes: (count: number) => `${count} ${count === 1 ? 'Episode' : 'Episoden'}`,
       evidenceLinks: (count: number) =>
@@ -203,6 +207,8 @@ const copy = locale === 'de'
       sourceRegistryIntro:
         'Each source is registered once and can carry several precise evidence relationships.',
       catalogue: 'Linked catalogue entry',
+      relatedTitle: 'Related institutional cases',
+      relatedIntro: 'Other cases with overlapping subject areas, institution types, or regional context.',
       reviewed: 'Content reviewed',
       episodes: (count: number) => `${count} ${count === 1 ? 'episode' : 'episodes'}`,
       evidenceLinks: (count: number) =>
@@ -250,14 +256,84 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
   locale === 'de' ? 'de-DE' : 'en-GB',
   { dateStyle: 'long' },
 );
+
+const allBeliefs = await getCollection('institutionalBeliefs');
+const allTranslations = locale === 'de'
+  ? await getCollection(
+      'institutionalBeliefTranslations',
+      (item) => item.data.locale === 'de',
+    )
+  : [];
+const translationById = currentInstitutionalTranslationMap(allBeliefs, allTranslations);
+const currentTypes = new Set(entry.episodes.flatMap((episode) => episode.institutionTypes));
+const currentRegions = new Set(entry.episodes.map((episode) => episode.region));
+
+const relatedCases = allBeliefs
+  .filter((candidate) => candidate.id !== belief.id)
+  .filter((candidate) => locale === 'en' || translationById.has(candidate.id))
+  .map((candidate) => {
+    const candidateEntry = normalizeInstitutionalBelief(
+      candidate,
+      locale,
+      translationById.get(candidate.id),
+    );
+    const candidateTypes = new Set(candidateEntry.episodes.flatMap((episode) => episode.institutionTypes));
+    const candidateRegions = new Set(candidateEntry.episodes.map((episode) => episode.region));
+    const sharedTypes = [...candidateTypes].filter((type) => currentTypes.has(type)).length;
+    const sharedRegions = [...candidateRegions].filter((region) => currentRegions.has(region)).length;
+    let score = candidate.data.category === belief.data.category ? 6 : 0;
+    score += Math.min(sharedTypes, 2) * 2;
+    score += Math.min(sharedRegions, 2);
+    if (entry.entryId && candidate.data.entryId === entry.entryId) score += 4;
+
+    return {
+      id: candidate.id,
+      title: candidateEntry.title,
+      category: candidateEntry.category,
+      episodeCount: candidateEntry.episodes.length,
+      score,
+    };
+  })
+  .filter((candidate) => candidate.score >= 3)
+  .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title, locale))
+  .slice(0, 4);
+
+const seoTitle = seoTitleForInstitutional(entry.id, locale)
+  ?? `${entry.title} — ${locale === 'de' ? 'Institutionelle Überzeugungen' : 'Institutional beliefs'}`;
+const canonicalPageURL = new URL(
+  locale === 'de' ? `/de/institutions/${entry.id}/` : `/institutions/${entry.id}/`,
+  Astro.site ?? new URL('https://notafactanymore.com'),
+).toString();
+const articleJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: entry.title,
+  description: historicalDescription(entry.proposition, locale),
+  inLanguage: locale,
+  dateModified: entry.reviewedAt.toISOString(),
+  mainEntityOfPage: canonicalPageURL,
+  author: {
+    '@type': 'Organization',
+    name: 'Not a Fact Anymore',
+    url: locale === 'de'
+      ? 'https://notafactanymore.com/de/about/'
+      : 'https://notafactanymore.com/about/',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Not a Fact Anymore',
+    url: 'https://notafactanymore.com/',
+  },
+};
 ---
 
 <BaseLayout
   locale={locale}
-  title={`${entry.title} — ${locale === 'de' ? 'Institutionelle Überzeugungen' : 'Institutional beliefs'}`}
+  title={seoTitle}
   description={historicalDescription(entry.proposition, locale)}
   type="article"
   alternatePath={alternatePath}
+  structuredData={articleJsonLd}
 >
   <article class="institution-case container">
     <a class="back-link" href={timelinePath}>← {copy.back}</a>
@@ -537,6 +613,25 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
       </aside>
     )}
 
+    {relatedCases.length > 0 && (
+      <section class="related-cases" aria-labelledby="related-cases-title">
+        <div>
+          <p class="section-kicker">{locale === 'de' ? 'Weiterlesen' : 'Continue exploring'}</p>
+          <h2 id="related-cases-title">{copy.relatedTitle}</h2>
+          <p>{copy.relatedIntro}</p>
+        </div>
+        <div class="related-grid">
+          {relatedCases.map((related) => (
+            <a href={locale === 'de' ? `/de/institutions/${related.id}/` : `/institutions/${related.id}/`}>
+              <span>{related.category}</span>
+              <strong>{related.title}</strong>
+              <small>{copy.episodes(related.episodeCount)}</small>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
     <ReadingPathNav collection="institutions" id={entry.id} locale={locale} />
 
     <footer class="case-footer">
@@ -594,6 +689,41 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
     max-width: 1180px;
     padding: 3.5rem 0 6rem;
   }
+
+  .related-cases {
+    margin: 4rem 0 2rem;
+    padding: 1.4rem;
+    border: 1px solid var(--line);
+    border-radius: 0.8rem;
+    background: var(--card);
+  }
+  .related-cases h2 { margin: 0; }
+  .related-cases > div:first-child > p:last-child {
+    margin: 0.55rem 0 0;
+    max-width: 760px;
+    color: var(--muted);
+  }
+  .related-grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+  }
+  .related-grid a {
+    min-width: 0;
+    padding: 0.95rem 1rem;
+    display: grid;
+    gap: 0.3rem;
+    border: 1px solid var(--line);
+    border-radius: 0.65rem;
+    color: inherit;
+    background: color-mix(in srgb, var(--paper) 72%, var(--card));
+    text-decoration: none;
+  }
+  .related-grid a:hover { border-color: var(--accent-dark); }
+  .related-grid span,
+  .related-grid small { color: var(--muted); font-size: 0.75rem; }
+  .related-grid strong { overflow-wrap: anywhere; }
 
   .case-navigation {
     margin: 1.4rem 0 2rem;
@@ -1093,6 +1223,7 @@ const reviewedDate = entry.reviewedAt.toLocaleDateString(
 
   @media (max-width: 820px) {
     .institution-case { padding-top: 2.5rem; }
+    .related-grid { grid-template-columns: minmax(0, 1fr); }
     .narrative-grid,
     .explanation-grid,
     .evidence-list { grid-template-columns: 1fr; }

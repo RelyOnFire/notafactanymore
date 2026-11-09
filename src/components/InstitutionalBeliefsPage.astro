@@ -161,6 +161,10 @@ const casePath = (beliefId: string) => locale === 'de'
   ? `/de/institutions/${beliefId}/`
   : `/institutions/${beliefId}/`;
 
+const beliefSearchAliases: Record<string, string> = {
+  'lysenkoist-heredity': 'lysenko lyssenko lysenkoism lyssenkoismus',
+};
+
 const copy = locale === 'de'
   ? {
       eyebrow: 'Wenn Behauptungen Macht bekommen',
@@ -500,7 +504,7 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
       <section
         class="belief-group"
         data-belief-id={item.belief.id}
-        data-group-search={`${item.title} ${item.claim} ${item.belief.data.category}`.toLowerCase()}
+        data-group-search={`${item.title} ${item.claim} ${item.belief.data.category} ${beliefSearchAliases[item.belief.id] ?? ''}`.toLowerCase()}
       >
         <header class="belief-heading">
           <div>

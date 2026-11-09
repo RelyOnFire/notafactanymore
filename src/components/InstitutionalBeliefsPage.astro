@@ -88,7 +88,6 @@ const entries = visibleBeliefs.map((belief) => {
     belief,
     title: normalized.title,
     claim: normalized.proposition,
-    currentUnderstanding: normalized.correction,
     episodes: [...normalized.episodes].sort((a, b) =>
       a.startYear - b.startYear ||
       a.polity.localeCompare(b.polity, locale)
@@ -158,10 +157,6 @@ const allDecades = [...new Set(
 const formatDecade = (decade: number) =>
   locale === 'de' ? `${decade}er` : `${decade}s`;
 
-const entryPath = (entryId: string) => locale === 'de'
-  ? `/de/entries/${entryId}/`
-  : `/entries/${entryId}/`;
-
 const casePath = (beliefId: string) => locale === 'de'
   ? `/de/institutions/${beliefId}/`
   : `/institutions/${beliefId}/`;
@@ -203,11 +198,7 @@ const copy = locale === 'de'
       closeFilters: 'Filter schließen',
       showResults: (count: number) => count === 1 ? '1 Ergebnis anzeigen' : `${count} Ergebnisse anzeigen`,
       institutions: 'Institutionen',
-      consequences: 'Folgen',
-      evidence: 'Belege zur Institutionalisierung',
-      linkedEntry: 'Zum Katalogeintrag',
-      moreOnCase: 'weitere auf der Detailseite',
-      current: 'Heutiger Wissensstand',
+      fullCase: 'Vollständigen Fall lesen',
       noResults: 'Keine institutionellen Fälle entsprechen diesen Filtern.',
       episodes: (count: number) => `${count} ${count === 1 ? 'Episode' : 'Episoden'}`,
       polities: (count: number) => `${count} politische Räume`,
@@ -252,11 +243,7 @@ const copy = locale === 'de'
       closeFilters: 'Close filters',
       showResults: (count: number) => count === 1 ? 'Show 1 result' : `Show ${count} results`,
       institutions: 'Institutions',
-      consequences: 'Consequences',
-      evidence: 'Institutional evidence',
-      linkedEntry: 'Open catalogue entry',
-      moreOnCase: 'more on the case page',
-      current: 'Current understanding',
+      fullCase: 'Read full case',
       noResults: 'No institutional cases match those filters.',
       episodes: (count: number) => `${count} ${count === 1 ? 'episode' : 'episodes'}`,
       polities: (count: number) => `${count} polities`,
@@ -513,7 +500,7 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
       <section
         class="belief-group"
         data-belief-id={item.belief.id}
-        data-group-search={`${item.title} ${item.claim} ${item.currentUnderstanding}`.toLowerCase()}
+        data-group-search={`${item.title} ${item.claim} ${item.belief.data.category}`.toLowerCase()}
       >
         <header class="belief-heading">
           <div>
@@ -545,10 +532,7 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
           </div>
 
           <div class="belief-heading-actions">
-            <details class="group-current">
-              <summary>{copy.current}</summary>
-              <p>{item.currentUnderstanding}</p>
-            </details>
+            <a class="case-link case-link-primary" href={casePath(item.belief.id)}>{copy.fullCase} →</a>
           </div>
         </header>
 
@@ -557,22 +541,15 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
             const searchText = [
               item.title,
               item.claim,
-              item.currentUnderstanding,
+              item.belief.data.category,
               episode.polity,
               episode.region,
               episode.regionLabel,
               episode.period,
-              episode.summary,
-              episode.institutionalContext ?? '',
               ...episode.institutions,
-              ...episode.consequences,
               ...episode.institutionTypes.map((type) => typeLabels[type]),
               strengthLabels[episode.strength],
             ].join(' ').toLowerCase();
-
-            const compactConsequences = episode.consequences.slice(0, 3);
-            const hiddenConsequenceCount =
-              Math.max(0, episode.consequences.length - compactConsequences.length);
 
             return (
               <article
@@ -597,46 +574,10 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
                   {strengthLabels[episode.strength]}
                 </span>
 
-                <p class="episode-summary">{episode.summary}</p>
-
                 <div class="episode-section">
                   <h3>{copy.institutions}</h3>
                   <p>{compactInstitutionLabel(episode.institutions)}</p>
                 </div>
-
-                <div class="episode-section">
-                  <h3>{copy.consequences}</h3>
-                  <ul class="consequence-list">
-                    {compactConsequences.map((consequence) => (
-                      <li>{consequence}</li>
-                    ))}
-                    {hiddenConsequenceCount > 0 && (
-                      <li class="consequence-more">
-                        +{hiddenConsequenceCount} {copy.moreOnCase}
-                      </li>
-                    )}
-                  </ul>
-                </div>
-
-                <details class="evidence">
-                  <summary>{copy.evidence}</summary>
-                  <ul>
-                    {episode.sources.map((source) => (
-                      <li>
-                        <a href={source.url} target="_blank" rel="noreferrer">
-                          {source.title}
-                        </a>
-                        <span>{source.publisher}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </details>
-
-                {item.belief.data.entryId && (
-                  <a class="entry-link" href={entryPath(item.belief.data.entryId)}>
-                    {copy.linkedEntry} →
-                  </a>
-                )}
               </article>
             );
           })}
@@ -1500,32 +1441,20 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
     font-weight: 680;
   }
   .belief-heading-actions { min-width: 0; }
-  .group-current {
-    padding: 0.9rem 1rem;
-    border: 1px solid var(--line);
-    border-radius: 0.7rem;
-    background: var(--card);
-  }
-  .group-current summary {
-    cursor: pointer;
-    color: var(--accent-dark);
-    font-weight: 800;
-  }
-  .group-current p {
-    margin: 0.55rem 0 0;
-    color: var(--muted);
-    font-size: 0.9rem;
-  }
-  .compact-belief-meta { display: none; }
-
-  .entry-link {
+  .case-link {
     display: inline-block;
-    margin-top: 0.75rem;
     color: var(--accent-dark);
-    font-weight: 800;
+    font-weight: 820;
     text-decoration-thickness: 1px;
     text-underline-offset: 0.2em;
   }
+  .case-link-primary {
+    padding: 0.75rem 0.95rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--card);
+  }
+  .compact-belief-meta { display: none; }
   .episode-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1606,12 +1535,11 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
   }
   .strength-enforced-doctrine::before { content: 'IV'; }
 
-  .episode-summary { margin: 0.95rem 0 1.1rem; color: var(--muted); }
   .episode-section {
+    margin-top: 0.95rem;
     padding-top: 0.9rem;
     border-top: 1px solid color-mix(in srgb, var(--line) 72%, transparent);
   }
-  .episode-section + .episode-section { margin-top: 0.85rem; }
   .episode-section h3 {
     margin: 0 0 0.38rem;
     font-size: 0.73rem;
@@ -1619,49 +1547,6 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
     text-transform: uppercase;
   }
   .episode-section p { margin: 0; color: var(--muted); font-size: 0.88rem; }
-  .consequence-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: grid;
-    gap: 0.28rem;
-  }
-  .consequence-list li {
-    position: relative;
-    padding-left: 0.85rem;
-    color: var(--muted);
-    font-size: 0.8rem;
-    line-height: 1.38;
-  }
-  .consequence-list li::before {
-    content: '–';
-    position: absolute;
-    left: 0;
-    color: color-mix(in srgb, var(--muted) 68%, transparent);
-  }
-  .consequence-list .consequence-more {
-    color: var(--accent-dark);
-    font-weight: 720;
-  }
-  .evidence {
-    margin-top: 0.9rem;
-    padding-top: 0.75rem;
-    border-top: 1px solid color-mix(in srgb, var(--line) 72%, transparent);
-  }
-  .evidence summary {
-    cursor: pointer;
-    color: var(--accent-dark);
-    font-weight: 780;
-  }
-  .evidence ul { margin: 0.75rem 0 0; padding-left: 1.15rem; }
-  .evidence li + li { margin-top: 0.7rem; }
-  .evidence a { font-weight: 720; }
-  .evidence li > span {
-    display: block;
-    color: var(--muted);
-    font-size: 0.8rem;
-  }
-
   .belief-groups.is-compact {
     padding-top: 1.25rem;
     display: grid;
@@ -1896,7 +1781,6 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
       flex-direction: column;
       gap: 0.1rem;
     }
-    .group-current { max-width: none; }
 
     .belief-groups.is-compact .belief-heading {
       padding: 0.78rem 0.85rem;

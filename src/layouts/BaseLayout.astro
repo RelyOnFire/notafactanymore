@@ -16,6 +16,7 @@ interface Props {
   noindex?: boolean;
   locale?: SiteLocale;
   alternatePath?: string;
+  structuredData?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 const {
@@ -30,6 +31,7 @@ const {
   type = 'website',
   noindex = false,
   alternatePath,
+  structuredData,
 } = Astro.props;
 
 const isLocaleHome = locale === 'de'
@@ -54,6 +56,10 @@ const websiteJsonLd = {
   url: 'https://notafactanymore.com/',
   description: siteConfig.description,
 };
+
+const structuredDataItems = structuredData
+  ? Array.isArray(structuredData) ? structuredData : [structuredData]
+  : [];
 
 const pageURL = canonicalURL
   ? new URL(canonicalURL.toString(), siteURL)
@@ -133,6 +139,10 @@ const skipLabel = locale === 'de' ? 'Zum Inhalt' : 'Skip to content';
         set:html={JSON.stringify(websiteJsonLd)}
       />
     )}
+
+    {structuredDataItems.map((item) => (
+      <script type="application/ld+json" set:html={JSON.stringify(item)} />
+    ))}
 
     {noindex && <meta name="robots" content="noindex, nofollow" />}
 

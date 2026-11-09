@@ -9,6 +9,7 @@ import ReadingPathNav from '../../components/ReadingPathNav.astro';
 import Permalink from '../../components/Permalink.astro';
 import { sourceAnchor } from '../../lib/sourceAnchors';
 import { translationMatchesEntry } from '../../lib/i18n';
+import { seoTitleForEntry } from '../../lib/seo';
 
 export async function getStaticPaths() {
   const entries = await getCollection('entries');
@@ -25,6 +26,28 @@ const translations = await getCollection(
     translationMatchesEntry(entry, translation),
 );
 const hasGermanTranslation = translations.length > 0;
+const seoTitle = seoTitleForEntry(entry.id, 'en') ?? entry.data.claim;
+const canonicalPageURL = new URL(`/entries/${entry.id}/`, Astro.site ?? new URL('https://notafactanymore.com')).toString();
+const articleJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: entry.data.claim,
+  description: entry.data.summary,
+  inLanguage: 'en',
+  datePublished: entry.data.publishedAt.toISOString(),
+  dateModified: entry.data.reviewedAt.toISOString(),
+  mainEntityOfPage: canonicalPageURL,
+  author: {
+    '@type': 'Organization',
+    name: 'Not a Fact Anymore',
+    url: 'https://notafactanymore.com/about/',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Not a Fact Anymore',
+    url: 'https://notafactanymore.com/',
+  },
+};
 
 const groupedSources = entry.data.sources.reduce<Record<string, typeof entry.data.sources>>((groups, source) => {
   (groups[source.purpose] ??= []).push(source);
@@ -32,10 +55,11 @@ const groupedSources = entry.data.sources.reduce<Record<string, typeof entry.dat
 }, {});
 ---
 <BaseLayout
-  title={entry.data.claim}
+  title={seoTitle}
   description={entry.data.summary}
   type="article"
   alternatePath={hasGermanTranslation ? `/de/entries/${entry.id}/` : undefined}
+  structuredData={articleJsonLd}
 >
   <div class="narrow entry-page">
     <FactCard entry={entry} expanded headingLevel={1} />

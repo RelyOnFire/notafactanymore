@@ -294,7 +294,7 @@ const relatedCases = allBeliefs
       score,
     };
   })
-  .filter((candidate) => candidate.score >= 2)
+  .filter((candidate) => candidate.score >= 3)
   .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title, locale))
   .slice(0, 4);
 

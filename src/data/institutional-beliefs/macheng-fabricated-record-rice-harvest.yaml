@@ -1,0 +1,387 @@
+schemaVersion: 2
+title: "Macheng's fabricated record rice harvest (1958)"
+proposition:
+  summary: >-
+    In August 1958, a rice field at the Jianguo agricultural cooperative in Macheng, Hubei, genuinely
+    produced 36,956 jin (about 18.5 metric tonnes) of dry rice per mu (about 667 square metres).
+    Provincial, prefectural and county inspectors verified the record, which was hailed as an
+    extraordinary production breakthrough.
+correction:
+  summary: >-
+    The reported yield was not rice grown on that single field. A later investigation published by the
+    Hubei Provincial CPPCC recounts how mature rice from seven or eight mu was brought into a 1.016-mu
+    plot, additional grain was added and baskets were counted more than once. This produced an inflated
+    figure accepted and publicized as an authentic harvest.
+category: "Agriculture"
+reviewedAt: "2026-11-13"
+impact:
+  summary: >-
+    Official inspections, a front-page Xinhua report and an approving People's Daily editorial made the
+    false record a celebrated model. Local retrospective accounts describe official rewards, pressure on
+    skeptics and excessive grain deliveries assessed against exaggerated production, followed by severe
+    food shortages. At national scale, inflated harvest reports and inflexible procurement contributed to
+    the Great Chinese Famine; no defensible national death toll or precise local mortality contribution
+    can be assigned to this one claim.
+  highlights:
+    -
+      value: "36,956 jin/mu"
+      label: "claimed dry-rice yield on the 13 August 1958 People's Daily front page"
+    -
+      value: "1.016 mu"
+      label: "area of the purported record field, approximately 677 square metres"
+    -
+      value: "7–8 mu"
+      label: "area from which mature rice was reportedly moved into the display field"
+  context:
+    - >-
+      The original 1958 claim was an asserted measured yield, not merely an optimistic production target.
+      The paper specifically cited a three-level official inspection and published an editorial celebrating
+      it.
+    - >-
+      The 2014 Hubei CPPCC publication is a later historical investigation reproduced from Hubei Historical
+      Materials, not a contemporaneous laboratory measurement. The precise method of falsification is
+      attributed to that investigation and separately contextualized by other Chinese scholars and
+      eyewitness reporting.
+    - >-
+      Jianguo was an agricultural cooperative in August 1958; descriptions that call it a fully formed
+      people's commune at that date are anachronistic. Here, jin is the Chinese unit of 500 grams and mu is
+      about 667 square metres.
+    - >-
+      Neither the 1958 field report nor its later correction supplies a reliable estimate of deaths caused
+      by this particular false report. The nationwide famine resulted from interacting production failures,
+      procurement policies, political decisions and environmental conditions.
+episodes:
+  -
+    id: "china-macheng-1958-1960"
+    polity: "People's Republic of China"
+    region: "East Asia"
+    startYear: 1958
+    endYear: 1960
+    periodLabel: "August 1958–1960"
+    strength: "officially-endorsed"
+    institutionTypes:
+      - "government"
+    institutions:
+      - "Hubei provincial, Huanggang prefectural and Macheng county harvest-inspection authorities"
+      - "Macheng County and Huanggang Prefecture Party committees"
+      - "Xinhua News Agency"
+      - "People's Daily"
+    institutionalContext: >-
+      In August 1958 the Jianguo agricultural cooperative reported an extraordinary early-rice harvest. The
+      original Xinhua account named provincial, prefectural and county officials and agricultural
+      specialists as inspectors. The Party's national newspaper printed the claim on its front page and
+      praised it in an editorial; provincial leaders later treated the field as a model. This is a
+      documented officially endorsed agricultural claim, not an assertion that every participant knew the
+      claim was false.
+    consequences:
+      - >-
+        A fabricated harvest figure was presented as a verified production record in national Party and state
+        news.
+      - >-
+        Officials praised and rewarded the cooperative; its supposed methods were displayed to visiting
+        groups.
+      - "Retrospective local sources describe inflated grain-delivery obligations and worsening food shortages."
+      - "Local officials and residents faced pressures to repeat or avoid challenging production claims."
+      - >-
+        One part of a broader nationwide system of exaggerated reporting that interacted with compulsory
+        procurement; no specific famine-death total is attributed to this field.
+    summary: >-
+      During the Great Leap Forward, officials at several levels appeared to certify an extraordinary rice
+      harvest at the Jianguo cooperative. Xinhua and People's Daily circulated the result as a verified
+      production record and celebrated its alleged agronomic lessons. A later investigation published by the
+      Hubei CPPCC concluded that plants and grain from other fields were used and that counting was
+      manipulated. Retrospective local reports describe official incentives and grain procurement
+      consequences.
+    mechanism:
+      kind: "endorsement"
+      summary: >-
+        A local demonstration plot, inspection by officials and agricultural experts, awards and nationwide
+        newspaper coverage converted an artificially assembled crop into an authoritative 'record' that
+        influenced local expectations and grain deliveries.
+    institutionalCorrection:
+      status: "partial"
+      periodLabel: "2006–2014 retrospective acknowledgments"
+      action: >-
+        Chinese historical accounts, including a Central Party School historian's analysis and a Hubei CPPCC
+        publication, identified the supposed record as fabricated.
+      summary: >-
+        The record was subsequently identified as fabricated in Chinese historical and institutional
+        publications. The Hubei CPPCC's published retrospective describes the mechanics of the fraud and its
+        local costs. The sources reviewed do not establish that the original 1958 People's Daily report
+        received a formal contemporaneous retraction, or that the resulting harms were fully remedied.
+sources:
+  -
+    id: "macheng-peoples-daily-1958"
+    title: "麻城建国一社出现天下第一田 — 13 August 1958 (front-page report and editorial)"
+    url: "https://cn.govopendata.com/renminribao/1958/08/13/1/"
+    publisher: "People's Daily / Xinhua News Agency, historical transcription"
+  -
+    id: "macheng-zhang-2014"
+    title: "天下第一田”出台前后 — Zhang Yuebing, from 湖北文史, issue 88"
+    url: "https://www.hbzx.gov.cn/49/2014-09-15/6014.html"
+    publisher: "Hubei Provincial Committee of the Chinese People's Political Consultative Conference"
+  -
+    id: "macheng-xue-2014"
+    title: "五八年纪事 — Xue Fushun"
+    url: "https://www.hbzx.gov.cn/49/2014-09-15/6036.html"
+    publisher: "Hubei Provincial Committee of the Chinese People's Political Consultative Conference"
+  -
+    id: "macheng-luo-2006"
+    title: "大跃进粮食卫星出笼前后 — Luo Pinghan"
+    url: "https://news.sina.com.cn/c/2006-03-27/11239453954.shtml"
+    publisher: "Democracy and Legal System Times, via Sina; author at Central Party School"
+  -
+    id: "macheng-villagers-2009"
+    title: "“天下第一田”的前世今生:“亩产36956斤”"
+    url: "https://www.chinanews.com/cul/news/2009/12-16/2019796.shtml"
+    publisher: "China Youth Daily, reproduced by China News Service"
+  -
+    id: "macheng-li-chen"
+    title: "关于大跃进的注解 — Li Chenggui"
+    url: "https://agri-history.ihns.ac.cn/scholars/lcg/lcg1.htm"
+    publisher: "Chinese Academy of Sciences, Institute for the History of Natural Sciences agricultural-history site"
+  -
+    id: "macheng-chen-2010"
+    title: "“三年自然灾害”与“大跃进”——“天灾”、“人祸”关系的计量历史考察 — Chen Donglin"
+    url: "https://www.ihns.ac.cn/agri-his/history/zgns/dds/202607/t20260714_8247410.html"
+    publisher: "Chinese Academy of Sciences, Institute for the History of Natural Sciences agricultural-history site"
+  -
+    id: "macheng-li-yang-2005"
+    title: "The Great Leap Forward: Anatomy of a Central Planning Disaster"
+    url: "https://www.journals.uchicago.edu/doi/10.1086/430804"
+    publisher: "Journal of Political Economy"
+  -
+    id: "macheng-liu-zhou-2022"
+    title: "Radical Target Setting and China's Great Famine"
+    url: "https://academic.oup.com/jleo/article-abstract/38/1/120/6409911"
+    publisher: "Journal of Law, Economics, and Organization"
+evidence:
+  -
+    id: "macheng-original-announcement"
+    sourceId: "macheng-peoples-daily-1958"
+    relation: "documents"
+    target:
+      scope: "belief"
+      aspect: "proposition"
+    locator: "Front page; Xinhua dispatch of 12 August published 13 August 1958"
+    note: >-
+      The newspaper reported a harvest of 37,547 jin from a 1.016-mu plot, or 36,956 jin per mu, and claimed
+      that provincial, prefectural and county inspection teams had verified the result.
+  -
+    id: "macheng-editorial"
+    sourceId: "macheng-peoples-daily-1958"
+    relation: "documents"
+    target:
+      scope: "belief"
+      aspect: "proposition"
+    locator: "Editorial: 祝早稻花生双星高照, 13 August 1958"
+    note: >-
+      The accompanying editorial celebrated the reported record as proof of remarkable gains under the Great
+      Leap Forward rather than presenting it as an unverified claim.
+  -
+    id: "macheng-zhang-mechanism"
+    sourceId: "macheng-zhang-2014"
+    relation: "supports"
+    target:
+      scope: "belief"
+      aspect: "correction"
+    locator: "Sections III–IV"
+    note: >-
+      A retrospective investigation, based on interviews with local cadres and residents, describes moving
+      mature rice from seven or eight mu into the smaller plot, adding grain from elsewhere, and counting
+      baskets repeatedly while weighing.
+  -
+    id: "macheng-luo-correction"
+    sourceId: "macheng-luo-2006"
+    relation: "supports"
+    target:
+      scope: "belief"
+      aspect: "correction"
+    locator: "Sections on the Macheng record"
+    note: >-
+      A Central Party School historian identifies the 1958 harvest records as false exemplars and
+      reconstructs how such extraordinary production figures were made.
+  -
+    id: "macheng-villagers-correction"
+    sourceId: "macheng-villagers-2009"
+    relation: "contextualizes"
+    target:
+      scope: "belief"
+      aspect: "correction"
+    locator: "Opening section; interviews conducted 3 December 2009"
+    note: >-
+      A local resident describes an initially celebrated record that villagers subsequently recognized as
+      problematic. This interview corroborates the retrospective picture, but it is not a new measurement of
+      the original harvest.
+  -
+    id: "macheng-agri-history-context"
+    sourceId: "macheng-li-chen"
+    relation: "contextualizes"
+    target:
+      scope: "belief"
+      aspect: "correction"
+    locator: "Section on 1958 grain-production 'satellites', Table 1"
+    note: >-
+      A Chinese academic historical analysis lists the Macheng yield among inflated harvest records and
+      describes moving crops from multiple plots, exaggerated reporting and repeated weighing as methods
+      used in such cases.
+  -
+    id: "macheng-local-overdelivery"
+    sourceId: "macheng-zhang-2014"
+    relation: "supports"
+    target:
+      scope: "belief"
+      aspect: "impact"
+    locator: "Section VII"
+    note: >-
+      The historical investigation says the cooperative was required to sell grain against its exaggerated
+      reported output and later suffered severe food shortages. Its specific local death count is not
+      treated here as independently verified.
+  -
+    id: "macheng-local-witnesses"
+    sourceId: "macheng-villagers-2009"
+    relation: "supports"
+    target:
+      scope: "belief"
+      aspect: "impact"
+    locator: "Section: 一年后有人饿死"
+    note: >-
+      The reporter records survivor testimony about excessive grain deliveries, official hospitality
+      expenses, food shortages and starvation in the community. The testimony describes local experience
+      rather than establishing a precise attributable death toll.
+  -
+    id: "macheng-macro-economics"
+    sourceId: "macheng-li-yang-2005"
+    relation: "contextualizes"
+    target:
+      scope: "belief"
+      aspect: "impact"
+    locator: "Abstract and findings"
+    note: >-
+      Peer-reviewed economic research identifies diversion of resources and excessive procurement as
+      important causes of falling production during the Great Leap Forward; it does not attribute a national
+      death toll to the Macheng claim.
+  -
+    id: "macheng-targets-analysis"
+    sourceId: "macheng-liu-zhou-2022"
+    relation: "contextualizes"
+    target:
+      scope: "belief"
+      aspect: "impact"
+    locator: "Abstract; empirical results"
+    note: >-
+      A county-level econometric study links unrealistic official yield targets to excessive procurement and
+      higher mortality. It supports the institutional mechanism nationally, not a causal estimate for this
+      single field.
+  -
+    id: "macheng-announcement-carrier"
+    sourceId: "macheng-peoples-daily-1958"
+    relation: "documents"
+    target:
+      scope: "episode"
+      episodeId: "china-macheng-1958-1960"
+      aspect: "carrier"
+    locator: "First news report; named participants in inspection delegation"
+    note: >-
+      The front-page article names officials and agricultural specialists involved in the three-level
+      inspection, documenting state and Party endorsement of the yield.
+  -
+    id: "macheng-fraud-carrier"
+    sourceId: "macheng-zhang-2014"
+    relation: "supports"
+    target:
+      scope: "episode"
+      episodeId: "china-macheng-1958-1960"
+      aspect: "carrier"
+    locator: "Sections IV–VI"
+    note: >-
+      The retrospective traces the county's supervision, provincial inspection, provincial leaders' public
+      congratulations and later official honors.
+  -
+    id: "macheng-inspection-and-press"
+    sourceId: "macheng-peoples-daily-1958"
+    relation: "documents"
+    target:
+      scope: "episode"
+      episodeId: "china-macheng-1958-1960"
+      aspect: "mechanism"
+    locator: "News report and accompanying editorial"
+    note: >-
+      Official inspection and nationally distributed state and Party press elevated a purported local record
+      into an officially endorsed model for agricultural production.
+  -
+    id: "macheng-inspection-failure"
+    sourceId: "macheng-zhang-2014"
+    relation: "supports"
+    target:
+      scope: "episode"
+      episodeId: "china-macheng-1958-1960"
+      aspect: "mechanism"
+    locator: "Sections III–V"
+    note: >-
+      Interview-based reconstruction describes how grain was moved into the display field and how the
+      counting and inspection process accepted an artificial result.
+  -
+    id: "macheng-sanctions"
+    sourceId: "macheng-zhang-2014"
+    relation: "supports"
+    target:
+      scope: "episode"
+      episodeId: "china-macheng-1958-1960"
+      aspect: "consequences"
+    locator: "Sections V–VII"
+    note: >-
+      The retrospective describes public tours, pressure on doubters, rewards to organizers, inflated grain
+      deliveries and later hardship. These claims are attributed to a retrospective, not a contemporaneous
+      official requisition ledger.
+  -
+    id: "macheng-local-official-memoir"
+    sourceId: "macheng-xue-2014"
+    relation: "contextualizes"
+    target:
+      scope: "episode"
+      episodeId: "china-macheng-1958-1960"
+      aspect: "context"
+    locator: "Section I: 农业大跃进 高产放卫星"
+    note: >-
+      A former Macheng county official recounts participating in and witnessing fabricated harvest
+      competitions, providing local background without independently proving every detail of the Jianguo
+      field.
+  -
+    id: "macheng-harvest-overestimate"
+    sourceId: "macheng-chen-2010"
+    relation: "contextualizes"
+    target:
+      scope: "episode"
+      episodeId: "china-macheng-1958-1960"
+      aspect: "context"
+    locator: "Section I, subsection on exaggerated grain output"
+    note: >-
+      Economic-history analysis on a Chinese Academy of Sciences site documents inflated national
+      grain-output expectations and consequential decisions, while distinguishing policy failures from
+      natural disasters.
+  -
+    id: "macheng-later-recognition"
+    sourceId: "macheng-zhang-2014"
+    relation: "documents"
+    target:
+      scope: "episode"
+      episodeId: "china-macheng-1958-1960"
+      aspect: "institutional-correction"
+    locator: "Opening and Section VII; reproduced from 湖北文史, issue 88"
+    note: >-
+      A later historical account published on the Hubei CPPCC website expressly calls the celebrated harvest
+      fabricated. This does not establish that People's Daily formally retracted its 1958 coverage.
+  -
+    id: "macheng-party-historian-recognition"
+    sourceId: "macheng-luo-2006"
+    relation: "contextualizes"
+    target:
+      scope: "episode"
+      episodeId: "china-macheng-1958-1960"
+      aspect: "institutional-correction"
+    locator: "Introduction and Macheng section"
+    note: >-
+      A 2006 historical analysis by a Central Party School professor publicly identifies the harvest
+      'satellites' as false models, corroborating later acknowledgment without proving a formal
+      original-source correction.

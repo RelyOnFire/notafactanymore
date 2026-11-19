@@ -5,6 +5,7 @@ import functools
 import http.server
 import json
 import pathlib
+import re
 import threading
 from urllib.parse import parse_qs, quote, urlparse
 from playwright.async_api import async_playwright
@@ -365,9 +366,13 @@ async def main():
                             expected_suffix = '–heute' if path.startswith('/de/') else '–present'
                             assert open_periods and all(period.endswith(expected_suffix) for period in open_periods), \
                                 f'Open periods are inconsistent: {open_periods}'
+                            catalogue_periods = await page.locator('.episode-card .period').all_text_contents()
+                            period_pattern = re.compile(r'^\d{4}(?:–(?:\d{4}|present|heute))?$')
+                            assert catalogue_periods and all(period_pattern.fullmatch(period) for period in catalogue_periods), \
+                                f'Catalogue periods contain editorial qualifiers: {catalogue_periods}'
                             compact_periods = await page.locator('.compact-period').all_text_contents()
-                            assert all('+' not in period and 'reviewed' not in period.lower() and 'geprüft' not in period.lower()
-                                       for period in compact_periods), f'Compact periods mix review metadata into dates: {compact_periods}'
+                            assert compact_periods and all(period_pattern.fullmatch(period) for period in compact_periods), \
+                                f'Compact periods contain editorial qualifiers: {compact_periods}'
                             await page.locator('.institutional-search').fill('Lyssenko' if path.startswith('/de/') else 'Lysenko')
                             assert await page.locator('.belief-group:visible').count() == 1, 'Search did not find one belief'
                             await page.locator('.filter-toggle').click()

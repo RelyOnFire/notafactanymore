@@ -256,6 +256,8 @@ async def check_citations(browser, base):
                 target = page.locator(selector).first
                 href = await target.locator('.permalink-link').first.get_attribute('href')
                 assert href.startswith('#') and len(href) > 1
+                assert await target.locator('.permalink-actions > .permalink-link').count() == 1
+                assert await target.locator('.permalink-copy').count() == 0
                 destinations.append((path, href))
             for current_path, href in [destination for destination in destinations if destination[0] == path]:
                 response = await page.goto(base + current_path + href, wait_until='networkidle')
@@ -264,14 +266,10 @@ async def check_citations(browser, base):
                 assert await target.is_visible(), 'Shared citation remained folded'
                 action = page.locator(f'.permalink-link[href="{href}"]').first.locator('..')
                 link = action.locator('.permalink-link')
-                # Real keyboard navigation must retain the destination, including on note links.
+                # The single enhanced link copies with either pointer or keyboard activation.
+                assert await link.text_content() in ['Copy link', 'Link kopieren']
                 await link.focus()
                 await link.press('Enter')
-                await page.wait_for_url(base + current_path + href, wait_until='networkidle')
-                button = action.locator('.permalink-copy')
-                assert await button.is_visible()
-                await button.focus()
-                await button.press('Enter')
                 expected = 'https://notafactanymore.com' + current_path + href
                 await page.wait_for_function('(url) => window.copiedCitation === url', arg=expected)
                 assert await action.locator('.permalink-status').text_content() in ['Link copied.', 'Link kopiert.']
@@ -285,11 +283,11 @@ async def check_citations(browser, base):
             await page.goto(base + path + href, wait_until='networkidle')
             await page.evaluate('window.clipboardFails = true')
             action = page.locator(f'.permalink-link[href="{href}"]').first.locator('..')
-            await action.locator('.permalink-copy').click()
+            await action.locator('.permalink-link').click()
             assert await action.locator('.permalink-status').text_content() in [
-                'Could not copy. Open the link and copy the page address.',
-                'Kopieren fehlgeschlagen. Öffne den Link und kopiere die Seitenadresse.']
-            assert await action.locator('.permalink-copy').text_content() in ['Copy link', 'Link kopieren']
+                'Could not copy. The page address now points to this section.',
+                'Kopieren fehlgeschlagen. Die Seitenadresse verweist jetzt auf diesen Abschnitt.']
+            assert await action.locator('.permalink-link').text_content() in ['Copy link', 'Link kopieren']
             assert await action.locator('.permalink-link').is_visible(), 'Clipboard failure removed the normal link'
             await check_layout(page, 'Clipboard fallback')
             await page.locator('main .correction-link').first.click()
@@ -305,7 +303,7 @@ async def check_citations(browser, base):
         target = page.locator(href)
         assert await target.is_visible(), 'Native fragment did not reveal the citation'
         action = page.locator(f'.permalink-link[href="{href}"]').first.locator('..')
-        assert await action.locator('.permalink-copy').is_hidden()
+        assert await action.locator('.permalink-copy').count() == 0
         await action.locator('.permalink-link').click()
         await page.wait_for_url(base + path + href, wait_until='networkidle')
         checked += 1
@@ -315,7 +313,7 @@ async def check_citations(browser, base):
     await ctx.add_init_script("Object.defineProperty(navigator, 'clipboard', {value: undefined})")
     page = await ctx.new_page()
     await page.goto(base + '/entries/peptic-ulcers/', wait_until='networkidle')
-    assert await page.locator('.permalink-copy:visible').count() == 0
+    assert await page.locator('.permalink-copy').count() == 0
     assert await page.locator('.permalink-link:visible').count() > 0
     await ctx.close()
     return {'destinationChecks': checked, 'coreSourceNoteChecks': await check_core_source_notes(browser, base), 'clipboardDenial': True, 'languageFragments': True, 'withoutJavaScript': True}

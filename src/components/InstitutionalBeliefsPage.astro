@@ -273,8 +273,18 @@ const highestStrengthFor = (episodes: typeof allEpisodes) =>
     'institutionally-influential',
   );
 
+const cataloguePeriodFor = (episode: typeof allEpisodes[number]) =>
+  formatInstitutionalPeriod(
+    {
+      startYear: episode.startYear,
+      endYear: episode.endYear,
+      endOpen: episode.endOpen,
+    },
+    locale,
+  );
+
 const compactPeriodFor = (episodes: typeof allEpisodes) => {
-  if (episodes.length === 1) return episodes[0].period;
+  if (episodes.length === 1) return cataloguePeriodFor(episodes[0]);
 
   const startYear = Math.min(...episodes.map((episode) => episode.startYear));
   const endYear = Math.max(...episodes.map((episode) => episode.endYear));
@@ -542,6 +552,7 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
 
         <div class="episode-grid">
           {item.episodes.map((episode) => {
+            const cataloguePeriod = cataloguePeriodFor(episode);
             const searchText = [
               item.title,
               item.claim,
@@ -550,6 +561,7 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
               episode.region,
               episode.regionLabel,
               episode.period,
+              cataloguePeriod,
               ...episode.institutions,
               ...episode.institutionTypes.map((type) => typeLabels[type]),
               strengthLabels[episode.strength],
@@ -561,7 +573,7 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
                 data-start-year={episode.startYear}
                 data-end-year={episode.endYear}
                 data-end-open={episode.endOpen ? 'true' : 'false'}
-                data-period={episode.period}
+                data-period={cataloguePeriod}
                 data-region={episode.region}
                 data-polity={episode.polity}
                 data-polity-group={polityGroupFor(episode.polity)}
@@ -571,7 +583,12 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
               >
                 <div class="episode-topline">
                   <span class="polity">{episode.polity}</span>
-                  <span class="period">{episode.period}</span>
+                  <span
+                    class="period"
+                    title={episode.period !== cataloguePeriod ? episode.period : undefined}
+                  >
+                    {cataloguePeriod}
+                  </span>
                 </div>
 
                 <span class={`strength strength-${episode.strength}`}>

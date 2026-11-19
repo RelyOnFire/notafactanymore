@@ -167,13 +167,17 @@ export const formatInstitutionalPeriod = (
   }: InstitutionalPeriodOptions,
   locale: SiteLocale,
 ) => {
+  if (endOpen) {
+    return `${startYear}–${locale === 'de' ? 'heute' : 'present'}`;
+  }
+
   const authoredLabel = locale === 'de'
     ? translatedPeriodLabel ?? (periodLabel ? germanInstitutionalPeriodLabel(periodLabel) : undefined)
     : periodLabel;
 
   if (authoredLabel) return authoredLabel;
-  if (startYear === endYear) return `${startYear}${endOpen ? '+' : ''}`;
-  return `${startYear}–${endYear}${endOpen ? '+' : ''}`;
+  if (startYear === endYear) return `${startYear}`;
+  return `${startYear}–${endYear}`;
 };
 
 export const categoryLabel = (category: string, locale: SiteLocale) =>

@@ -254,10 +254,12 @@ async def check_citations(browser, base):
                          '.belief-evidence .evidence-item', '.source-registry li'] if '/institutions/' in path else ['#sources > .permalink-actions']
             for selector in selectors:
                 target = page.locator(selector).first
-                href = await target.locator('.permalink-link').first.get_attribute('href')
+                control = target.locator('.permalink-link').first
+                href = await control.get_attribute('href')
                 assert href.startswith('#') and len(href) > 1
-                assert await target.locator('.permalink-actions > .permalink-link').count() == 1
-                assert await target.locator('.permalink-copy').count() == 0
+                action = control.locator('..')
+                assert await action.locator('.permalink-link').count() == 1
+                assert await action.locator('.permalink-copy').count() == 0
                 destinations.append((path, href))
             for current_path, href in [destination for destination in destinations if destination[0] == path]:
                 response = await page.goto(base + current_path + href, wait_until='networkidle')

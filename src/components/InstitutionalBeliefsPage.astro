@@ -823,9 +823,11 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
         (card) => card.dataset.endOpen === 'true' && Number(card.dataset.endYear) === end,
       );
 
-      period.textContent = start === end
-        ? `${start}${endOpen ? '+' : ''}`
-        : `${start}–${end}${endOpen ? '+' : ''}`;
+      period.textContent = endOpen
+        ? `${start}–${locale === 'de' ? 'heute' : 'present'}`
+        : start === end
+          ? `${start}`
+          : `${start}–${end}`;
     }
 
     polities.textContent = visiblePolities.join(' · ');
@@ -1400,7 +1402,7 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
   }
 
   .belief-groups { padding-top: 3rem; }
-  .belief-group + .belief-group { margin-top: 4.5rem; }
+  .belief-group + .belief-group { margin-top: 3.5rem; }
   .belief-group[hidden],
   .episode-card[hidden] { display: none; }
   .belief-heading {
@@ -1408,8 +1410,8 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
     padding-bottom: 1.15rem;
     border-bottom: 2px solid var(--ink);
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(250px, 0.45fr);
-    gap: 2rem;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: clamp(1.25rem, 3vw, 2.5rem);
     align-items: start;
     overflow-wrap: anywhere;
   }
@@ -1431,7 +1433,10 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
   }
   .belief-heading h2 {
     margin: 0;
-    font-size: clamp(2rem, 5vw, 3.3rem);
+    max-width: 25ch;
+    font-size: clamp(1.65rem, 3vw, 2.35rem);
+    line-height: 1.08;
+    letter-spacing: -0.025em;
   }
   .belief-heading h2 a {
     color: inherit;
@@ -1439,10 +1444,11 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
   }
   .belief-heading h2 a:hover { color: var(--accent-dark); }
   .belief-claim {
-    margin: 0.7rem 0 0;
-    max-width: 760px;
-    font-size: 1.03rem;
-    font-weight: 680;
+    margin: 0.62rem 0 0;
+    max-width: 860px;
+    font-size: 1rem;
+    font-weight: 650;
+    line-height: 1.48;
   }
   .belief-heading-actions { min-width: 0; }
   .case-link {
@@ -1574,7 +1580,7 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
   }
   .belief-groups.is-compact .belief-heading {
     margin: 0;
-    padding: 0.85rem 1rem;
+    padding: 0.78rem 1rem;
     border: 0;
     display: block;
   }
@@ -1585,8 +1591,10 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
   .belief-groups.is-compact .episode-count { display: none; }
   .belief-groups.is-compact .belief-heading h2 {
     margin: 0;
-    font-size: 1.08rem;
-    line-height: 1.28;
+    max-width: none;
+    font-size: 1rem;
+    line-height: 1.25;
+    letter-spacing: -0.012em;
   }
   .belief-groups.is-compact .belief-heading h2 a::after {
     content: '';
@@ -1602,14 +1610,14 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
     outline-offset: 3px;
   }
   .belief-groups.is-compact .belief-claim {
-    margin: 0.32rem 0 0;
+    margin: 0.24rem 0 0;
     color: var(--muted);
     font-size: 0.86rem;
-    font-weight: 620;
+    font-weight: 580;
     line-height: 1.38;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 2;
     overflow: hidden;
   }
   .belief-groups.is-compact .compact-belief-meta {
@@ -1630,13 +1638,15 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
   }
   .compact-period {
     color: var(--ink);
-    font-size: 1.02rem;
-    font-weight: 880;
+    font-size: 0.94rem;
+    font-weight: 760;
     letter-spacing: -0.01em;
     font-variant-numeric: tabular-nums;
     min-width: 0;
-    overflow-wrap: anywhere;
-    line-height: 1.3;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
+    line-height: 1.32;
   }
   .compact-polities {
     color: var(--muted);
@@ -1667,20 +1677,20 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
 
 
 
-  @media (min-width: 900px) {
+  @media (min-width: 1050px) {
     .belief-groups.is-compact .belief-heading {
-      padding: 0.78rem 1rem;
+      padding: 0.72rem 1rem;
     }
 
     .belief-groups.is-compact .belief-heading > div:first-child {
       display: grid;
-      grid-template-columns: minmax(17.5rem, 18.5rem) minmax(0, 1fr);
+      grid-template-columns: minmax(12rem, 13.5rem) minmax(11.5rem, 13rem) minmax(0, 1fr);
       grid-template-areas:
-        "meta topline"
-        "meta title"
-        "meta claim"
-        "meta polities";
-      column-gap: 1.35rem;
+        "period strength topline"
+        "period strength title"
+        "period strength claim"
+        "period strength polities";
+      column-gap: 1.1rem;
       row-gap: 0;
       align-items: start;
     }
@@ -1699,7 +1709,7 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
       grid-area: claim;
       margin-top: 0.18rem;
       max-width: none;
-      -webkit-line-clamp: 3;
+      -webkit-line-clamp: 2;
     }
 
     .belief-groups.is-compact .compact-belief-meta {
@@ -1707,10 +1717,26 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
     }
 
     .belief-groups.is-compact .compact-meta-top {
-      grid-area: meta;
+      display: contents;
+    }
+
+    .belief-groups.is-compact .compact-period {
+      grid-area: period;
       align-self: center;
-      padding-right: 1.25rem;
-      border-right: 1px solid color-mix(in srgb, var(--line) 78%, transparent);
+    }
+
+    .belief-groups.is-compact .compact-strength {
+      grid-area: strength;
+      align-self: center;
+      justify-self: start;
+    }
+
+    .belief-groups.is-compact .belief-heading-topline,
+    .belief-groups.is-compact .belief-heading h2,
+    .belief-groups.is-compact .belief-claim,
+    .belief-groups.is-compact .compact-polities {
+      padding-left: 1.1rem;
+      border-left: 1px solid color-mix(in srgb, var(--line) 78%, transparent);
     }
 
     .belief-groups.is-compact .compact-polities {
@@ -1800,9 +1826,9 @@ const compactPolitiesFor = (episodes: typeof allEpisodes) =>
       gap: 0.4rem;
     }
     .compact-meta-top {
-      grid-template-columns: minmax(0, 1fr) auto;
-      align-items: center;
-      column-gap: 0.58rem;
+      grid-template-columns: minmax(0, 1fr);
+      align-items: start;
+      row-gap: 0.45rem;
     }
     .belief-groups.is-compact .compact-strength {
       font-size: 0.68rem;

@@ -361,6 +361,13 @@ async def main():
                             for view in ['cards', 'compact']:
                                 await page.locator(f'.view-button[data-view="{view}"]').click()
                                 await check_layout(page, view)
+                            open_periods = await page.locator('.episode-card[data-end-open="true"] .period').all_text_contents()
+                            expected_suffix = '–heute' if path.startswith('/de/') else '–present'
+                            assert open_periods and all(period.endswith(expected_suffix) for period in open_periods), \
+                                f'Open periods are inconsistent: {open_periods}'
+                            compact_periods = await page.locator('.compact-period').all_text_contents()
+                            assert all('+' not in period and 'reviewed' not in period.lower() and 'geprüft' not in period.lower()
+                                       for period in compact_periods), f'Compact periods mix review metadata into dates: {compact_periods}'
                             await page.locator('.institutional-search').fill('Lyssenko' if path.startswith('/de/') else 'Lysenko')
                             assert await page.locator('.belief-group:visible').count() == 1, 'Search did not find one belief'
                             await page.locator('.filter-toggle').click()

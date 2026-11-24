@@ -23,6 +23,7 @@ const resolvePagePath = absolute => {
 const normalize = pathname => decodeURIComponent(pathname).replace(/\/+$/, '') || '/';
 const pngHeader = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]);
 let maxImageBytes = 0;
+const logoImages = new Set();
 
 for (const file of htmlFiles) {
   const html = fs.readFileSync(file, 'utf8');
@@ -41,11 +42,20 @@ for (const file of htmlFiles) {
   if (metas.get('og:image') !== metas.get('twitter:image')) errors.push(`${pagePath}: Open Graph and Twitter images differ`);
   const image = new URL(metas.get('og:image') || '/', 'https://notafactanymore.com');
   const locale = /^\/de(?:\/|$)/.test(pagePath) ? 'de' : 'en';
-  if (image.origin !== 'https://notafactanymore.com' || !image.pathname.startsWith(`/social/${locale}/`)) {
+  const expectsLogo = /^\/(?:de\/)?(?:entries\/[^/]+|browse)$/.test(pagePath);
+  const correctPath = expectsLogo
+    ? /^\/_astro\/nf-share-logo\.[\w-]+\.png$/.test(image.pathname)
+    : image.pathname.startsWith(`/social/${locale}/`);
+  if (image.origin !== 'https://notafactanymore.com' || !correctPath) {
     errors.push(`${pagePath}: missing generated ${locale} preview`);
     continue;
   }
-  if (imagePaths.has(image.pathname)) errors.push(`${pagePath}: preview is shared with another page`);
+  if (expectsLogo) {
+    logoImages.add(image.pathname);
+    if (/^(Historical claim|Historische Aussage):/.test(metas.get('og:title'))) errors.push(`${pagePath}: generic historical share title`);
+    if (metas.get('twitter:title') !== metas.get('og:title')) errors.push(`${pagePath}: inconsistent share titles`);
+  }
+  if (!expectsLogo && imagePaths.has(image.pathname)) errors.push(`${pagePath}: preview is shared with another page`);
   imagePaths.add(image.pathname);
   const imageFile = path.join(dist, decodeURIComponent(image.pathname));
   if (!fs.existsSync(imageFile)) { errors.push(`${pagePath}: image file is missing`); continue; }
@@ -80,8 +90,9 @@ for (const [pagePath, { links }] of pages) {
 for (const filename of fs.readdirSync(dist).filter(name => /^sitemap.*\.xml$/.test(name))) {
   if (fs.readFileSync(path.join(dist, filename), 'utf8').includes('/social/')) errors.push(`${filename}: generated images must not be indexed as pages`);
 }
+if (logoImages.size !== 1) errors.push('Browse and core entries must share one versioned logo image');
 if (errors.length) {
   console.error(`Sharing and link checks failed:\n${[...new Set(errors)].map(error => `- ${error}`).join('\n')}`);
   process.exit(1);
 }
-console.log(`Sharing and links OK: ${pages.size} published pages, ${imagePaths.size} distinct bilingual previews, 1200 × 630 PNGs; largest ${Math.ceil(maxImageBytes / 1024)} KB.`);
+console.log(`Sharing and links OK: ${pages.size} published pages, ${imagePaths.size} distinct preview images, 1200 × 630 PNGs; largest ${Math.ceil(maxImageBytes / 1024)} KB.`);

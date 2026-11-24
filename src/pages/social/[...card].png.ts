@@ -4,7 +4,7 @@ import { getSocialCards, socialCardSvg, type SocialCard } from '../../lib/social
 
 export async function getStaticPaths() {
   const cards = await getSocialCards();
-  return [...cards.values()].map(card => ({
+  return [...cards.values()].filter(card => !card.usesLogo).map(card => ({
     params: { card: card.imagePath.slice('/social/'.length, -'.png'.length) },
     props: { card },
   }));

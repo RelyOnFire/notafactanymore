@@ -1,0 +1,9 @@
+---
+import KnowledgeComparison from '../../components/KnowledgeComparison.astro';
+import { comparisons } from '../../data/knowledgeComparisons';
+
+export function getStaticPaths() {
+  return comparisons.map(({ id }) => ({ params: { slug: id } }));
+}
+---
+<KnowledgeComparison id={Astro.params.slug} />

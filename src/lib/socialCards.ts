@@ -1,3 +1,4 @@
+import { comparisons } from '../data/knowledgeComparisons';
 import { createHash } from 'node:crypto';
 import { getCollection } from 'astro:content';
 import { categoryLabel, localizedPath, translationMatchesEntry, type SiteLocale } from './i18n';
@@ -46,6 +47,7 @@ async function buildCards() {
     ['/', 'Knowledge changes. The record should too.', 'Wissen verändert sich. Der Katalog sollte es auch.', 'Facts have a history.', 'Fakten haben eine Geschichte.', 'Explore how accepted claims changed when stronger evidence arrived.', 'Entdecke, wie sich akzeptierte Aussagen durch bessere Evidenz verändert haben.'],
     ['/start', 'Four cases to begin with.', 'Vier Fälle zum Einstieg.', 'Start here', 'Hier anfangen', 'Better measurement, new explanations, revised guidelines and the suppression of scientific challenge.', 'Bessere Messung, neue Erklärungen, geänderte Leitlinien und die Unterdrückung wissenschaftlichen Widerspruchs.'],
     ['/browse', 'Browse the catalogue', 'Den Katalog durchsuchen', 'The catalogue', 'Der Katalog', 'Search scientific and scholarly claims, their former standing and their current understanding.', 'Durchsuche wissenschaftliche Aussagen, ihre frühere Anerkennung und den heutigen Wissensstand.'],
+    ['/graph', 'Knowledge map', 'Wissenskarte', 'Compare the evidence', 'Belege vergleichen', 'Compare the reasoning that changed claims across fields.', 'Vergleiche, wie Evidenz frühere Annahmen in verschiedenen Fachgebieten veränderte.'],
     ['/timeline', 'When knowledge changed', 'Wann sich Wissen veränderte', 'Timeline', 'Zeitleiste', 'Follow corrections and discoveries through history, or explore what changed since your school years.', 'Verfolge Korrekturen und Entdeckungen durch die Geschichte oder seit deiner Schulzeit.'],
     ['/institutions', 'Institutional beliefs', 'Institutionelle Überzeugungen', 'When claims acquire power', 'Wenn Aussagen Macht erhalten', 'Explore documented cases of claims embedded in research, education, medicine, law and public policy.', 'Entdecke dokumentierte Fälle von Aussagen, die Forschung, Bildung, Medizin, Recht und staatliche Praxis prägten.'],
     ['/lifespans', 'How long did an accepted claim last?', 'Wie lange hatte eine akzeptierte Aussage Bestand?', 'Lifespans', 'Lebensdauer', 'Compare approximate durations in this curated catalogue, with historical boundaries and limits made explicit.', 'Vergleiche ungefähre Zeitspannen in diesem kuratierten Katalog mit ausdrücklich benannten historischen Grenzen.'],
@@ -60,6 +62,12 @@ async function buildCards() {
   for (const [path, enTitle, deTitle, enLabel, deLabel, enDescription, deDescription] of landingPages) {
     add(path, 'en', enTitle, enLabel, enDescription);
     add(localizedPath(path, 'de'), 'de', deTitle, deLabel, deDescription);
+  }
+  for (const reading of comparisons) {
+    for (const locale of ['en', 'de'] as const) {
+      add(localizedPath(`/graph/${reading.id}`, locale), locale, reading.question[locale],
+        locale === 'de' ? 'Wissenskarte' : 'Knowledge map', reading.insight[locale]);
+    }
   }
   const translationById = new Map(translations.filter(t => t.data.locale === 'de').map(t => [t.data.entryId, t]));
   for (const entry of entries) {

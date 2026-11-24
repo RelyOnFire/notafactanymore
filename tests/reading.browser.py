@@ -340,7 +340,7 @@ async def main():
         if args.executable:
             options['executable_path'] = args.executable
         browser = await p.chromium.launch(**options)
-        paths = ['/', '/start/', '/browse/', '/timeline/', '/institutions/', '/lifespans/', '/glossary/', '/categories/medicine/', '/methodology/', '/about/', '/submit/', '/corrections/',
+        paths = ['/', '/start/', '/browse/', '/graph/', '/graph/what-repeated-observations-miss/', '/timeline/', '/institutions/', '/lifespans/', '/glossary/', '/categories/medicine/', '/methodology/', '/about/', '/submit/', '/corrections/',
                  '/entries/humans-have-48-chromosomes/', '/entries/peptic-ulcers/', '/entries/ucyn-a-is-only-an-algal-symbiont/', '/institutions/lysenkoist-heredity/', '/institutions/virginity-testing/', '/institutions/routine-oxygen-heart-attack/']
         paths += [('/de/' if path == '/' else '/de' + path) for path in paths]
         if args.paths:
@@ -449,6 +449,17 @@ async def main():
             await page.locator('.evidence-disclosure summary').first.click()
             assert await page.locator('.evidence-item').first.is_visible()
             for prefix in ['', '/de']:
+                await page.goto(base + prefix + '/graph/')
+                cell_link = page.locator('.matrix td a').first
+                cell = await cell_link.get_attribute('href')
+                count = int(await cell_link.inner_text())
+                await cell_link.click()
+                assert await page.locator(cell).is_visible()
+                assert await page.locator(cell + ' li').count() == count
+                await page.goto(base + prefix + '/graph/what-repeated-observations-miss/')
+                for evidence in await page.locator('.pair .evidence').evaluate_all('(links) => links.map(a => a.href)'):
+                    await page.goto(evidence)
+                    assert await page.locator(':target.source-note').is_visible()
                 await page.goto(base + prefix + '/corrections/')
                 assert await page.locator('noscript a').is_visible(), 'Correction fallback needs JavaScript'
                 assert 'template=correction.md' in await page.locator('noscript a').get_attribute('href')

@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { loadKnowledgeMap, comparisonPath, cellId } from '../lib/knowledgeMap';
+import { localizedPath, type SiteLocale } from '../lib/i18n';
+import { ontologyTermById } from '../data/knowledgeOntology';
+const { id, locale = 'en' } = Astro.props as { id: string; locale?: SiteLocale };
+const de = locale === 'de';
+const { readings } = await loadKnowledgeMap(locale);
+const reading = readings.find(item => item.id === id)!;
+const hub = localizedPath('/graph/', locale);
+const term = ontologyTermById.get(reading.term)!;
+---
+<BaseLayout {locale} title={reading.question[locale]} description={reading.insight[locale]} alternatePath={comparisonPath(id, de ? 'en' : 'de')}>
+  <article class="container comparison">
+    <a class="back" href={hub}>← {de ? 'Wissenskarte' : 'Knowledge map'}</a>
+    <header>
+      <p class="eyebrow">{reading.cases.map(c => c.record.category).join(' · ')}</p>
+      <h1>{reading.question[locale]}</h1>
+      <p class="intro">{reading.insight[locale]}</p>
+    </header>
+    <div class="pair">{reading.cases.map(c => {
+      const { links } = c.record;
+      const pattern = term.axis === 'error-pattern' ? term.id : links.errorPatterns[0];
+      const method = term.axis === 'correction-mechanism' ? term.id : links.correctionMechanisms[0];
+      return <section>
+        <h2><a href={c.record.href}>{c.name[locale]}</a></h2>
+        <p>{c.finding[locale]}</p>
+        <a class="evidence" href={c.sourceHref}>{de ? 'Quellenbeleg' : 'Evidence'} · {c.publisher}{de && c.record.language === 'en' && ' (EN)'} ↗</a>
+        <a class="matrix-link" href={`${hub}#${cellId(pattern,method)}`}>{de ? 'Fälle mit diesem Muster' : 'Cases with this pattern'} →</a>
+      </section>;
+    })}</div>
+    <section class="boundary">
+      <h2>{de ? 'Wo der Vergleich endet' : 'Where the comparison stops'}</h2>
+      <p>{reading.limit[locale]}</p>
+    </section>
+    <a class="back" href={hub}>{de ? 'Weitere Vergleiche' : 'Explore other comparisons'} →</a>
+  </article>
+</BaseLayout>
+
+<style>
+  .comparison { padding-block: clamp(2rem,5vw,4rem); }
+  header { margin-block: 1.75rem; }
+  h1 { margin: .35rem 0 1rem; max-width: 23ch; font-size: clamp(2.4rem,5.5vw,4.5rem); }
+  .intro { max-width: 70ch; font-size: clamp(1.1rem,2vw,1.3rem); }
+  .pair { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; }
+  .pair section { background: var(--card); border-top: 3px solid var(--accent); padding: clamp(1rem,3vw,2rem); }
+  h2 { margin: 0; font-size: clamp(1.4rem,2.5vw,2rem); }
+  .back, .evidence { color: var(--accent-dark); font-weight: 700; }
+  .matrix-link { display: block; margin-top: .8rem; font-size: .9rem; }
+  .boundary { margin-block: 2rem; }
+  .boundary p { font-size: 1.1rem; }
+  @media(max-width: 650px) { .pair { grid-template-columns: 1fr; } }
+</style>

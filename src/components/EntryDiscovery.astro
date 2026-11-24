@@ -9,6 +9,10 @@ import {
   type SiteLocale,
 } from '../lib/i18n';
 import { formatHistoricalYear } from '../lib/lifespans';
+import GlossaryText from './GlossaryText.astro';
+import { ontologyTermById, type OntologyTerm } from '../data/knowledgeOntology';
+import { comparisons } from '../data/knowledgeComparisons';
+import { assignments, cellId, comparisonPath, findContrast } from '../lib/knowledgeMap';
 import SurpriseMe from './SurpriseMe.astro';
 
 interface Props {
@@ -17,6 +21,9 @@ interface Props {
 }
 
 const { entry, locale = 'en' } = Astro.props;
+const mapping = assignments[entry.id];
+const readings = comparisons.filter(reading => reading.cases.some(item => item.entry === entry.id));
+const mapPath = locale === 'de' ? '/de/graph/' : '/graph/';
 const entries = await getCollection('entries');
 
 const translationById = new Map<string, EntryTranslation>();
@@ -61,6 +68,9 @@ const compareByChronologicalDistance = (
     a.data.claim.localeCompare(b.data.claim, locale)
   );
 };
+
+const contrast = readings.length ? undefined : findContrast(entry, eligibleEntries);
+const termLabels = (ids: readonly OntologyTerm['id'][]) => ids.map(id => ontologyTermById.get(id)!.label[locale]).join(' · ');
 
 const sameCategory = eligibleEntries
   .filter((candidate) => candidate.data.category === entry.data.category)
@@ -117,6 +127,26 @@ const entryHrefFor = (candidate: CollectionEntry<'entries'>) =>
     ? `/de/entries/${candidate.id}/`
     : `/entries/${candidate.id}/`;
 ---
+{mapping && <section class="map-reading">
+  <h2>{locale === 'de' ? 'Diesen Fall vergleichen' : 'Compare this case'}</h2>
+  {readings.map(reading => <p><a href={comparisonPath(reading.id, locale)}>{reading.question[locale]}</a></p>)}
+  {contrast && <div class="contrast">
+    <h3>{contrast.sharedAxis === 'errorPatterns'
+      ? (locale === 'de' ? 'Gleiche Annahme, andere Prüfung' : 'Same assumption, different test')
+      : (locale === 'de' ? 'Gleiche Prüfung, andere Annahme' : 'Same test, different assumption')}</h3>
+    <p>{termLabels([contrast.term])}</p>
+    <dl>
+      <div><dt>{currentCategory}</dt><dd>{termLabels(contrast.here)}</dd></div>
+      <div><dt>{categoryLabel(contrast.other.data.category, locale)}</dt><dd>{termLabels(contrast.there)}</dd></div>
+    </dl>
+    <a href={entryHrefFor(contrast.other)}>{claimFor(contrast.other)}</a>
+    <p><GlossaryText text={translationById.get(contrast.other.id)?.data.whyItChanged ?? contrast.other.data.whyItChanged} {locale} /></p>
+  </div>}
+  <a href={`${mapPath}#${cellId(mapping.errorPatterns[0], mapping.correctionMechanisms[0])}`}>
+    {locale === 'de' ? 'Annahme und Belege in der Wissenskarte' : 'See the assumption and evidence on the knowledge map'} →
+  </a>
+</section>}
+
 
 {(sameCategory.length > 0 || aroundSameTime.length > 0) && (
   <section class="entry-discovery" aria-labelledby="entry-discovery-title">
@@ -170,6 +200,16 @@ const entryHrefFor = (candidate: CollectionEntry<'entries'>) =>
 )}
 
 <style>
+  .map-reading { margin-top: 3rem; padding: 1.25rem; border-left: .25rem solid var(--accent); background: var(--card); }
+  .map-reading h2 { margin: 0 0 .65rem; font-size: 1.5rem; }
+  .contrast h3, .contrast p { margin: .45rem 0; }
+  .contrast dl { font-size: .9rem; margin: .7rem 0; }
+  .contrast dt { font-weight: 700; }
+  .contrast dd { margin: 0; }
+  .contrast dl div { margin: .3rem 0; }
+  .contrast { margin-bottom: 1rem; }
+  .map-reading a { color: var(--accent-dark); }
+
   .entry-discovery {
     margin-top: clamp(3.5rem, 8vw, 5rem);
     padding-top: clamp(2.5rem, 5vw, 3.25rem);

@@ -1,8 +1,8 @@
-import { comparisons } from '../data/knowledgeComparisons';
 import { createHash } from 'node:crypto';
 import { getCollection } from 'astro:content';
 import { categoryLabel, localizedPath, translationMatchesEntry, type SiteLocale } from './i18n';
 import { currentInstitutionalTranslationMap, normalizeInstitutionalBelief } from './institutionalBeliefs';
+import { comparisons } from '../data/knowledgeComparisons';
 
 export const socialCardSize = { width: 1200, height: 630 };
 

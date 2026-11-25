@@ -37,6 +37,12 @@ impact:
       label: "original case dispositions upheld in that particular review"
   context:
     - >-
+      The county gazetteer documents official reconsideration before the 1982 case review: corrective
+      orders in 1972 for people wrongly sentenced or classified, a 1978 review of sentences from
+      1959–1961, and a 1979 provincial report acknowledging wrongful convictions, overly broad
+      confiscations, and deaths related to poor management of detainees. These were separate earlier
+      measures; their totals must not be combined with the 1982 Xiahe review.
+    - >-
       Xiahe County's official history describes an actual armed conflict in Gannan in 1958 and calls the
       military suppression justified but seriously overextended. The correction to wrongful case decisions
       does not erase documented fighting or prove that every allegation of abuse by older local authorities
@@ -131,7 +137,7 @@ episodes:
 sources:
   -
     id: "xiahe-gazetteer-official"
-    title: "夏河县志 (Xiahe County Gazetteer), pp. 89 and 103"
+    title: "夏河县志 (Xiahe County Gazetteer), historical chronology pp. 89–103"
     url: "https://www.gsdfszw.org.cn/gsxz/gnzzzzz_279/xhx/201708/P020171013388964399892.pdf"
     publisher: "Xiahe County Gazetteer Compilation Committee / Gansu Culture Press (1999); Gansu Provincial Gazetteer Office"
   -
@@ -418,3 +424,17 @@ evidence:
     note: >-
       The official county review is independently discoverable in a bibliographic transcription of the
       gazetteer, which identifies the place as Xiahe and the event year as 1982.
+  -
+    id: "xh-1972-1979-earlier-corrections"
+    sourceId: "xiahe-gazetteer-official"
+    relation: "documents"
+    target:
+      scope: "episode"
+      episodeId: "prc-xiahe-1958-1982"
+      aspect: "institutional-correction"
+    locator: "Chronology pp. 97, 99–100: 1972, 1978 and 29 November 1979 entries"
+    note: >-
+      The county history records an initial 1972 instruction to rectify erroneous sentences, classifications
+      and confiscations from the suppression; a separate 1978 review of 1959–1961 criminal sentences; and
+      a 1979 Gansu provincial report acknowledging wrongful judgments, overly broad property seizures,
+      and severe deaths connected with poor detention management. These preceded the distinct 1982 review.

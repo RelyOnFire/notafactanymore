@@ -985,6 +985,8 @@ const articleJsonLd = {
   .episode-header h2 {
     margin: 0;
     max-width: 800px;
+    hyphens: auto;
+    overflow-wrap: anywhere;
     font-size: clamp(2rem, 4.5vw, 3.5rem);
   }
 
@@ -1254,7 +1256,7 @@ const articleJsonLd = {
     .narrative-grid,
     .explanation-grid,
     .evidence-list { grid-template-columns: 1fr; }
-    .episode-header { display: grid; }
+    .episode-header { display: grid; grid-template-columns: minmax(0, 1fr); }
     .episode-meta { justify-content: flex-start; }
     .institution-block,
     .context-block,

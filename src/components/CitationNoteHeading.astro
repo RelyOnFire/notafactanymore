@@ -1,0 +1,31 @@
+---
+import type { SiteLocale } from '../lib/i18n';
+import type { CitationNote } from '../lib/institutionalCitations';
+
+interface Props {
+  note: CitationNote;
+  locale: SiteLocale;
+}
+const { note, locale } = Astro.props;
+const back = locale === 'de' ? 'Zur Textstelle' : 'Back to text';
+---
+<div class="citation-note-heading">
+  <strong>[{note.number}]</strong>
+  {note.backlinks.length > 0 && <span class="backlinks">
+    {note.backlinks.length > 1 && back}
+    {note.backlinks.map((id, i) => <a href={`#${id}`} role="doc-backlink"
+      aria-label={locale === 'de'
+        ? `Zurück zu Textstelle ${i + 1} für Beleg ${note.number}`
+        : `Return to passage ${i + 1} citing reference ${note.number}`}>
+      {note.backlinks.length > 1 ? i + 1 : back}
+    </a>)}
+  </span>}
+</div>
+
+<style>
+  .citation-note-heading { display: flex; gap: .5rem 1rem; flex-wrap: wrap; align-items: baseline; margin-bottom: .55rem; }
+  .citation-note-heading strong { font-size: .8rem; color: var(--accent-dark); }
+  .backlinks { display: inline-flex; gap: .55rem; flex-wrap: wrap; color: var(--muted); font-size: .78rem; }
+  .backlinks a { color: var(--accent-dark); text-underline-offset: .2em; }
+  @media print { .backlinks { display: none; } }
+</style>

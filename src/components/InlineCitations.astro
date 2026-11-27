@@ -1,0 +1,22 @@
+---
+import type { SiteLocale } from '../lib/i18n';
+import type { CitationReference } from '../lib/institutionalCitations';
+
+interface Props {
+  references: CitationReference[];
+  locale: SiteLocale;
+}
+const { references, locale } = Astro.props;
+---
+{references.length > 0 && <sup class="inline-citations">{references.map(ref => (
+  <a id={ref.id} href={`#${ref.noteId}`} role="doc-noteref"
+    aria-label={`${locale === 'de' ? 'Beleg' : 'Reference'} ${ref.number}: ${ref.sourceTitle}`}
+    title={ref.sourceTitle}>[{ref.number}]</a>
+))}</sup>}
+
+<style>
+  .inline-citations { font-size: .75em; line-height: 0; font-weight: 650; vertical-align: .34em; }
+  .inline-citations a { padding-inline: .13em; color: var(--accent-dark); text-decoration: none; }
+  .inline-citations a:hover, .inline-citations a:focus-visible { text-decoration: underline; }
+  .inline-citations a:target { outline: 2px solid var(--accent-dark); outline-offset: 2px; }
+</style>

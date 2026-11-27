@@ -342,6 +342,7 @@ for (const file of institutionalFiles) {
     source,
     version,
     reviewedAt: scalar(source, 'reviewedAt'),
+    sectionIds: sectionMetadata(source, 'sections').map((item) => item.id),
     episodeIds,
     evidenceIds,
     evidenceItems,
@@ -411,6 +412,7 @@ for (const file of institutionalDeFiles) {
       source,
       version,
       sourceReviewedAt: scalar(source, 'sourceReviewedAt'),
+      sectionIds: sectionMetadata(source, 'sections').map((item) => item.id),
       episodeIds,
       evidenceIds,
       evidenceItems,
@@ -438,6 +440,9 @@ for (const [id, belief] of institutionalById) {
     errors.push(
       `${id}: German episode ids/order [${translation.episodeIds.join(', ')}] do not match canonical [${belief.episodeIds.join(', ')}]`
     );
+  }
+  if (!arraysEqual(belief.sectionIds, translation.sectionIds)) {
+    errors.push(`${id}: German research section IDs/order do not match the English sections`);
   }
 
   if (!arraysEqual(belief.evidenceIds, translation.evidenceIds)) {

@@ -246,7 +246,7 @@ const institutionalSource = z.object({
 const institutionalEvidenceTarget = z.discriminatedUnion('scope', [
   z.object({
     scope: z.literal('belief'),
-    aspect: z.enum(['proposition', 'correction', 'impact']),
+    aspect: z.enum(['proposition', 'correction', 'impact', 'background']),
   }).strict(),
   z.object({
     scope: z.literal('episode'),
@@ -270,6 +270,20 @@ const institutionalEvidence = z.object({
   note: z.string().min(1).optional(),
 }).strict();
 
+const citedEvidenceIds = z.array(mediaId).min(1).refine(
+  (ids) => new Set(ids).size === ids.length,
+  { message: 'a passage cannot cite the same evidence note twice' },
+);
+
+const institutionalSection = z.object({
+  id: mediaId,
+  title: z.string().min(1),
+  paragraphs: z.array(z.object({
+    text: z.string().min(1),
+    evidenceIds: citedEvidenceIds,
+  }).strict()).min(1),
+}).strict();
+
 const institutionalBelief = z.object({
   schemaVersion: z.literal(2),
   title: z.string().min(1),
@@ -283,6 +297,8 @@ const institutionalBelief = z.object({
   entryId: z.string().min(1).optional(),
   reviewedAt: z.coerce.date(),
   impact: institutionalImpact.optional(),
+  inlineCitations: z.record(mediaId, citedEvidenceIds).default({}),
+  sections: z.array(institutionalSection).default([]),
   episodes: z.array(institutionalEpisode).min(1),
   sources: z.array(institutionalSource).min(1),
   evidence: z.array(institutionalEvidence).min(1),
@@ -380,6 +396,48 @@ const institutionalBelief = z.object({
       validEvidenceIndexes.add(index);
     }
   });
+
+  const checkReferences = (ids: string[], path: (string | number)[]) => {
+    ids.forEach((id, index) => {
+      if (!evidenceIds.has(id)) {
+        ctx.addIssue({ code: 'custom', message: `unknown evidence note: ${id}`, path: [...path, index] });
+      }
+    });
+  };
+
+  const sectionIds = new Set<string>();
+  belief.sections.forEach((section, index) => {
+    if (sectionIds.has(section.id)) {
+      ctx.addIssue({ code: 'custom', message: `duplicate section id: ${section.id}`, path: ['sections', index, 'id'] });
+    }
+    sectionIds.add(section.id);
+    section.paragraphs.forEach((paragraph, row) =>
+      checkReferences(paragraph.evidenceIds, ['sections', index, 'paragraphs', row, 'evidenceIds']));
+  });
+
+  if (Object.keys(belief.inlineCitations).length) {
+    const places = new Set(['proposition', 'correction']);
+    if (belief.impact) {
+      places.add('impact-summary');
+      belief.impact.context.forEach((_, i) => places.add(`impact-context-${i + 1}`));
+      belief.impact.highlights.forEach((_, i) => places.add(`impact-highlight-${i + 1}`));
+    }
+    for (const episode of belief.episodes) {
+      for (const field of ['summary', 'institutions', 'mechanism', 'correction', 'consequences']) {
+        places.add(`${episode.id}-${field}`);
+      }
+      if (episode.institutionalContext) places.add(`${episode.id}-context`);
+      if (episode.institutionalCorrection.action) places.add(`${episode.id}-action`);
+      episode.consequences.forEach((_, i) => places.add(`${episode.id}-consequence-${i + 1}`));
+    }
+    for (const [place, ids] of Object.entries(belief.inlineCitations)) {
+      const path = ['inlineCitations', place];
+      if (!places.has(place)) {
+        ctx.addIssue({ code: 'custom', message: `unknown citation location: ${place}`, path });
+      }
+      checkReferences(ids, path);
+    }
+  }
 
   belief.sources.forEach((source, index) => {
     if (!usedSourceIds.has(source.id)) {
@@ -499,6 +557,7 @@ const translatedInstitutionalEpisode = z.object({
 
 const translatedInstitutionalEvidence = z.object({
   id: mediaId,
+  locator: z.string().min(1).optional(),
   note: z.string().min(1).optional(),
 }).strict();
 
@@ -515,6 +574,11 @@ const institutionalBeliefTranslation = z.object({
     summary: z.string().min(1),
   }).strict(),
   impact: translatedInstitutionalImpact.optional(),
+  sections: z.array(z.object({
+    id: mediaId,
+    title: z.string().min(1),
+    paragraphs: z.array(z.string().min(1)).min(1),
+  }).strict()).default([]),
   episodes: z.array(translatedInstitutionalEpisode).min(1),
   evidence: z.array(translatedInstitutionalEvidence).min(1),
 }).strict();

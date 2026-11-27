@@ -80,10 +80,10 @@ url.hash = id;
     const withoutLocale = (path: string) => path.replace(/^\/de(?=\/|$)/, '').replace(/\/+$/, '') || '/';
     const hasPermalink = Array.from(document.querySelectorAll<HTMLAnchorElement>('.permalink-link'))
       .some(link => link.hash === window.location.hash);
-    // Core source notes retain their anchors without displaying share controls.
-    const hasSourceNote = Array.from(document.querySelectorAll<HTMLElement>('.source-note[id]'))
-      .some(note => `#${encodeURIComponent(note.id)}` === window.location.hash);
-    if (window.location.hash && (hasPermalink || hasSourceNote) && withoutLocale(destination.pathname) === withoutLocale(window.location.pathname)) {
+    // These reading positions have bilingual IDs and no individual share control.
+    const readingAnchor = document.getElementById(window.location.hash.slice(1));
+    const hasReadingAnchor = readingAnchor?.matches('.source-note, [role="doc-noteref"], .case-section h2');
+    if (window.location.hash && (hasPermalink || hasReadingAnchor) && withoutLocale(destination.pathname) === withoutLocale(window.location.pathname)) {
       destination.hash = window.location.hash;
     }
     languageLink.href = destination.toString();

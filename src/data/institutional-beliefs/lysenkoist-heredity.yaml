@@ -5,67 +5,367 @@ proposition:
     Environmental treatment can reliably reshape heredity across generations, making Mendelian genetics unnecessary
     or false.
 correction:
-  summary: >-
-    Heredity is transmitted primarily through genetic information. Environmental effects can influence development
-    and sometimes persist across generations, but they do not support the broad Lysenkoist claim that directed environmental
-    treatment routinely rewrites inherited traits. Modern studies distinguish DNA sequence inheritance from changes
-    in gene regulation: in one Arabidopsis experiment, stress-associated epigenetic effects passed mainly through
-    the maternal line and were extensively reset when the stress was removed.
+  summary: Plants inherit DNA and can also inherit some changes in how genes are used. A winter wheat plant remembers
+    cold long enough to flower. In its offspring that memory is reset, and the next generation ordinarily needs
+    cold again. In thale cress (Arabidopsis), one study found that a response to stress could pass mainly through
+    the maternal line and faded without further stress. These findings explain how an environmental effect can last
+    while a breeder’s hoped-for permanent change fails to appear.
 category: Genetics
 entryId: acquired-traits-drive-evolution
-reviewedAt: '2026-09-18'
+reviewedAt: '2026-11-27'
 impact:
-  summary: >-
-    Lysenkoism's best-supported direct consequences were institutional: genetics was suppressed, scientists were dismissed
-    or demoted, teaching and research were reorganized around a politically protected doctrine, and agricultural science
-    lost decades of normal scientific correction. In China, the campaign interrupted genetics teaching and breeding
-    research. The later Great Leap Forward famine belongs to the wider history of state-directed agriculture; its
-    mortality arose from interacting policies and failures and cannot be assigned to Lysenkoism as a single cause.
+  summary: In the Soviet Union, geneticists lost their posts, university departments lost teachers and experimental
+    material, and a generation of students had little access to training in classical genetics. In China, the campaign
+    also interrupted hybrid-breeding research that had already yielded results.
   highlights:
     - value: '127'
       label: University teachers dismissed in autumn 1948 in one historical accounting
-      note: >-
-        The same historical review reports that 66 of the 127 were professors; subsequent dismissals, demotions and
-        removals from leadership were much broader.
+      note: The same historical review reports that 66 of the 127 were professors; subsequent dismissals, demotions
+        and removals from leadership were much broader.
     - value: Several thousand
       label: Scientists and teachers described as dismissed, demoted or removed from leadership after the 1948 Soviet
         campaign
-      note: This is an institutional-repression estimate reported in the historical literature, not a death toll.
-    - value: 15–30 million
-      label: Range of estimated excess deaths in China's 1959–1961 famine reported by Chen and Zhou (2007)
-      note: >-
-        Overall famine mortality, not deaths attributable specifically to Lysenkoism. Production losses, procurement,
-        exports, collectivization and other political-economic mechanisms interacted.
+      note: A retrospective estimate covering the wider post-session campaign, including personnel actions beyond
+        outright dismissal.
   context:
-    - >-
-      In the Soviet Union, the turning point was the 1948 VASKhNIL session, organized under Lysenko and approved by
-      Stalin. The session did more than endorse a theory: it ended open institutional competition with Mendelian genetics.
-      An August 1948 Ministry of Higher Education order directed universities to revise biological teaching and staffing
-      around Michurinist biology. Geneticists lost posts, departments were reorganized, textbooks and research materials
-      were withdrawn, and the normal mechanisms by which a scientific claim could be challenged were deliberately
-      weakened.
-    - >-
-      An earlier phase overlaps chronologically with the Holodomor. Soviet authorities ordered immediate implementation
-      of Lysenko's vernalization program in 1931 and the treated acreage expanded rapidly, so his agricultural methods
-      were already being promoted when the 1932–1933 Ukrainian famine occurred. But the evidence does not support
-      presenting Lysenkoism as an important established cause of the Holodomor. Historical work instead places collectivization
-      and grain seizure or procurement at the center, while recent quantitative work finds that migration restrictions
-      and anti-Ukrainian bias in Soviet procurement and grain-retention policy contributed to mortality. The famine
-      also strengthened rather than discredited Lysenko: afterward, the People's Commissar for Agriculture instructed
-      Vavilov to assist his work.
-    - >-
-      The Great Leap Forward followed the early campaign against genetics. Its agricultural crisis involved several
-      interacting policies and failures. Communalization altered incentives and household food access; large numbers
-      of workers were diverted from farming; officials reported inflated harvests; procurement targets were then imposed
-      on a shrinking and badly measured crop; and grain exports and increasingly rigid procurement reduced what remained
-      for rural consumption. Li and Yang's central-planning study and Kasahara and Li's county-level analysis examine
-      these economic mechanisms. They do not estimate a death toll caused specifically by Lysenkoist heredity.
-    - >-
-      That distinction matters for attribution. Economic studies find that falling agricultural production, higher
-      and more inflexible procurement, and grain exports all raised excess mortality, with no single mechanism accounting
-      for the whole famine. The 15–30 million range reported by Chen and Zhou (2007) therefore describes the scale
-      of the 1959–1961 famine as a whole. It is useful context for understanding the stakes of failed agricultural
-      doctrine, but it is not a defensible count of people killed specifically by Lysenkoism.
+    - In Ukraine, the 1932–1933 Holodomor coincided with the expansion of a vernalization campaign ordered in 1931.
+      The documented mechanisms of famine mortality included discriminatory grain procurement and restrictions on
+      migration. After the famine, the agriculture commissar instructed Vavilov to assist Lysenko. The chronology
+      establishes official support for the program, but supplies no estimate of its contribution to mortality.
+    - China’s 1959–1961 famine came after the Qingdao genetics meeting. Li and Yang trace the diversion of farm
+      workers and excessive grain procurement against a background of exaggerated harvest reports. Kasahara and
+      Li examine falling production, exports and inflexible procurement at county level. Chen and Zhou report a
+      range of 15–30 million excess deaths for the famine as a whole. These studies provide no separate mortality
+      estimate for Lysenkoist farming practices.
+sections:
+  - id: winter-wheat
+    title: The promise of a spring sowing
+    paragraphs:
+      - text: Winter wheat ordinarily needs a spell of cold before it can flower. By chilling moist seed before
+          spring sowing, a farmer could satisfy that requirement even after missing the autumn planting. Farmers
+          and plant physiologists had studied this effect before Trofim Lysenko promoted it in the late 1920s under
+          the name vernalization. The Soviet agronomist made two further promises. The treatment would raise harvests,
+          and growers could change what future generations of wheat would inherit. A field of ripening grain could
+          demonstrate the flowering response. The other claims required their own tests.
+        evidenceIds:
+          - lysenko-earliest-wheat
+          - lysenko-report-doctrine
+      - text: One such test concerned the harvest. In 1937 the Soviet breeder P. N. Konstantinov reported that the
+          treatment required roughly twice as much seed, left it more susceptible to the fungal disease smut, and
+          raised yield by at most 0.4% in his comparison. Soviet authorities had already ordered widespread use of vernalization in 1931.
+        evidenceIds:
+          - lysenko-konstantinov-trials
+          - lysenko-history-early-impact
+  - id: heredity-in-dispute
+    title: What was at stake in heredity
+    paragraphs:
+      - text: Lysenko and the philosopher Isaak Prezent called their program Michurinism, invoking the Russian fruit
+          breeder Ivan Michurin, who had crossed varieties to produce new apples and cherries. Lysenko argued that
+          living tissue acquired hereditary properties through its surroundings and that breeders could direct this
+          process. He acknowledged the physical existence of chromosomes and their part in sexual reproduction.
+          What he rejected was the idea that discrete hereditary factors carried on chromosomes explain the transmission
+          of traits.
+        evidenceIds:
+          - lysenko-michurin-names
+          - lysenko-report-doctrine
+      - text: What was a Mendelian breeder counting? In Brno, Gregor Mendel crossed peas that differed in seed colour.
+          The hybrid seeds were yellow. When the hybrid plants self-pollinated, the green trait reappeared. Mendel
+          counted 6,022 yellow seeds and 2,001 green ones, very close to three to one. A trait could pass through
+          a generation in which no one could see it.
+        evidenceIds:
+          - lysenko-mendel-counts
+      - text: 'In Thomas Hunt Morgan’s 1910 fruit-fly
+          experiments, crossing a white-eyed female with a red-eyed male produced red-eyed daughters and white-eyed
+          sons. Their eye colours followed the inheritance of the X chromosome: a son received his single X from
+          his mother, while a daughter received an X from each parent. This was the experimental work behind the
+          name “Morganism” that appeared so often in Lysenko’s attacks.'
+        evidenceIds:
+          - lysenko-morgan-cross
+          - lysenko-report-doctrine
+  - id: grafted-tomatoes
+    title: Could two grafted tomatoes produce a hybrid?
+    paragraphs:
+      - text: A graft joins a shoot from one plant to the rooted part of another. At the 1948 session Lysenko described
+          joining two tomato varieties differing in leaf shape and fruit colour. He reported that most seedlings
+          from the rooted plant resembled their parent, but six grew a leaf shape characteristic of the other variety
+          and some bore yellow fruit. The botanist Petr Zhukovsky suggested accidental cross-pollination. Lysenko
+          replied that the first generation of such a cross should have borne red fruit. Those were competing readings
+          of one reported result.
+        evidenceIds:
+          - lysenko-report-tomatoes
+      - text: 'At Gatersleben in East Germany, Helmut Böhme set out expecting to confirm the Soviet work. His tomato
+          experiments ran from 1951 to 1957. He observed unusual offspring, including changes he traced to mutations
+          in the parent plant’s body cells. When he repeated the work with improved methods, the partners’ traits
+          still failed to pass to offspring in the predicted pattern. The distinction mattered: finding an unusual
+          seedling and showing how it acquired its trait were different achievements.'
+        evidenceIds:
+          - lysenko-boehme-grafts
+  - id: winter-memory
+    title: What wheat remembers, and what its seedlings inherit
+    paragraphs:
+      - text: In experiments from 1949 to 1952, Hans Stubbe tested the claim that repeated greenhouse cultivation
+          without a cold period could convert winter wheat into a line of spring wheat. He could not reproduce the
+          proposed hereditary conversion. Decades later researchers could follow the plant’s response inside the
+          developing seed. De Niu and colleagues reported in 2024 that one cold-activated flowering gene in winter
+          bread wheat remained active into the early embryo, then reset as the embryo grew. A second regulator switched
+          back on at germination. Together these changes restored the seedlings’ need for cold.
+        evidenceIds:
+          - lysenko-boehme-grain
+          - lysenko-niu-reset
+      - text: 'Grafts have a similarly instructive modern counterpart. In 2009 Sandra Stegemann and Ralph Bock detected
+          genetic material from adjoining tobacco plants together in cells at the graft junction. That result identifies
+          a place and a physical route for exchange. Lysenko’s proposition went much further: any character could,
+          in principle, pass through a graft into offspring as it could through sexual crossing. A cell at the join
+          and a trait inherited by seedlings are different things to examine.'
+        evidenceIds:
+          - lysenko-stegemann-grafts
+          - lysenko-report-doctrine
+  - id: vavilov-and-the-academy
+    title: Vavilov and the academy session he never saw
+    paragraphs:
+      - text: Nikolai Vavilov, the geneticist who led the agricultural academy from 1929 to 1935, had initially
+          encouraged Lysenko. Vavilov collected seeds around the world to study the origins and diversity of crops.
+          Their public break came by 1939. Soviet authorities arrested Vavilov on a collecting expedition to western
+          Ukraine in 1940. His death sentence was commuted, but he died of malnutrition in prison in Saratov in
+          January 1943. His death preceded the academy’s 1948 session by five years.
+        evidenceIds:
+          - lysenko-vavilov-career
+          - lysenko-vavilov-arrest
+      - text: Stalin personally reviewed Lysenko’s report before the agricultural academy met from 31 July to 7
+          August 1948. Some speakers still defended genetics. The physiologist Boris Zavadovsky reminded delegates
+          that farmers were already sowing wheat and rye varieties produced by geneticists on millions of hectares.
+          In his closing remarks Lysenko announced that the Party’s Central Committee had approved his report. On
+          23 August the higher-education minister ordered changes to university appointments and teaching. The exchange
+          at the lectern had become a decision about who could train the next generation.
+        evidenceIds:
+          - lysenko-session-floor
+          - lysenko-report-approval
+          - lysenko-history-ussr-carrier
+  - id: routes-back
+    title: How genetics survived the prohibition
+    paragraphs:
+      - text: Physicists helped shelter genetic research within institutes whose work on radiation had official
+          backing. In 1955 Leningrad biologists drafted the “Letter of Three Hundred” asking the Party leadership
+          to end its support for Lysenko. Mathematicians joined the appeals and singled out his followers’ rejection
+          of statistics. Even after that protest, the education ministry could still cancel a Leningrad genetics
+          conference by telegram the day before it opened in 1961. Khrushchev’s removal in 1964 made possible the
+          Academy of Sciences’ formal repudiation in 1965. Rebuilding courses and laboratories had begun earlier
+          and continued afterward.
+        evidenceIds:
+          - lysenko-pushback-resistance
+          - lysenko-pushback-ussr-correction
+  - id: research-and-schooling
+    title: What reached classrooms and laboratories?
+    paragraphs:
+      - text: Polish students had to learn the new biology. How much did botanists use it in print? Piotr Köhler
+          examined the bibliography for 1948–1958 and identified about 140 Lysenkoist publications among 3,410 botanical
+          works (4.1%). That count measures what reached the page. It cannot tell us what a botanist privately believed
+          or felt safe saying in a lecture.
+        evidenceIds:
+          - lysenko-poland-mechanism
+          - kohler-publication-count
+      - text: In East Germany the divide ran between schools and research institutes. While schoolbooks presented
+          Lysenko as an authority, Hans Stubbe persuaded Walter Ulbricht to let his crop research institute at Gatersleben
+          continue its work. Stubbe could challenge Lysenko’s ideas while serving as president of the German Academy
+          of Agricultural Sciences in Berlin from 1951 to 1967. A school syllabus and the research record of an
+          academy thus give different answers to the question of who accepted Soviet biology.
+        evidenceIds:
+          - gdr-textbook-background
+          - stubbe-institute-background
+  - id: international-debate
+    title: How the dispute travelled abroad
+    paragraphs:
+      - text: On 30 November 1948 the BBC’s Third Programme aired separately recorded contributions by R. A. Fisher,
+          Cyril Darlington, Sydney Harland and J. B. S. Haldane. The first three criticized Lysenko. Haldane, a
+          geneticist and a Communist, had told a correspondent that Lysenko went too far in attacking Soviet geneticists.
+          He also resisted calls from sympathizers to organize a defence of Lysenko. Listeners sent Haldane letters
+          of support after the broadcast.
+        evidenceIds:
+          - darlington-bbc-record
+          - dejong-haldane-bbc
+          - lysenko-global-dale
+      - text: Readers can still see how that argument travelled. In 1949 the Society for Freedom in Science in Oxford
+          published a pamphlet pairing an expanded version of Fisher’s broadcast with the resignation letter that
+          the British physiologist Henry Dale sent to the Soviet Academy of Sciences. One document addressed radio
+          listeners. The other ended a scientist’s formal association with the academy.
+        evidenceIds:
+          - wellcome-dale-response
+          - lysenko-global-dale
+      - text: Political loyalties also divided scientists on the European mainland. The French Marxist biologist
+          Marcel Prenant voiced doubts while many other French Communists supported the doctrine. Within the Italian
+          Communist Party, rival factions disputed whether to back Lysenko. By 1951 the party had largely stopped
+          taking a public position.
+        evidenceIds:
+          - lysenko-western-parties
+      - text: In Japan under American occupation, some geneticists took a scientific interest in the reports because
+          they were already studying inheritance through the cytoplasm, the material outside the cell nucleus. Historian
+          Kaori Iida recounts how criticism of Lysenko sharpened as the Cold War deepened. Willingness to investigate
+          a claim had a different institutional meaning from making it a curriculum requirement.
+        evidenceIds:
+          - lysenko-japanese-reception
+  - id: historical-interpretations
+    title: Why historians explain his rise differently
+    paragraphs:
+      - text: 'David Joravsky emphasized the crisis of collectivized farming and a political culture that rewarded
+          unilateral decisions. Nikolai Krementsov asked what happened when rival scientists depended on the same
+          party-state for resources. Nils Roll-Hansen returned to the early experiments and the practical reasons
+          breeders found vernalization plausible. These explanations address two different events, as historian
+          Michael Gordin observes: an agronomist winning a hearing for his work and a government giving him authority
+          over a discipline.'
+        evidenceIds:
+          - lysenko-gordin-interpretations
+      - text: In 2014 and 2015, books appeared in Russia arguing that modern biology had vindicated Lysenko. Historian
+          Loren Graham traced much of the new interest to epigenetics. Yet the wheat finding depends on identifying
+          particular genes, following their activity in the embryo and observing when the effect disappears. Those
+          measurements let a reader ask precisely which part of a parent’s experience a seedling inherits. They
+          also show where Lysenko’s prediction of a new, persistent variety breaks down.
+        evidenceIds:
+          - lysenko-graham-revival
+          - lysenko-niu-reset
+      - text: Two sources let readers follow different parts of this history further. The published proceedings of the
+          1948 academy session include the delegates’ own speeches alongside Lysenko’s address. For the international
+          story, the second volume of The Lysenko Controversy as a Global Phenomenon has separate studies of Hungary,
+          Italy and Japan.
+        evidenceIds:
+          - lysenko-read-proceedings
+          - lysenko-read-global
+inlineCitations:
+  proposition:
+    - lysenko-report-doctrine
+    - lysenko-history-proposition
+  correction:
+    - lysenko-dna-correction
+    - lysenko-niu-reset
+    - lysenko-stress-memory-correction
+  impact-summary:
+    - lysenko-pushback-impact
+    - lysenko-cas-1952-impact
+  impact-context-1:
+    - lysenko-history-early-impact
+    - lysenko-holodomor-impact
+  impact-context-2:
+    - lysenko-great-leap-impact
+    - lysenko-grain-exports-impact
+    - lysenko-china-famine-impact
+  impact-highlight-1:
+    - lysenko-history-numeric-impact
+  impact-highlight-2:
+    - lysenko-history-numeric-impact
+  ussr-1948-1964-summary:
+    - lysenko-nature-ussr-consequences
+    - lysenko-pushback-ussr-correction
+    - lysenko-history-residual-context
+  ussr-1948-1964-institutions:
+    - lysenko-history-ussr-carrier
+  ussr-1948-1964-context:
+    - lysenko-history-ussr-carrier
+    - lysenko-history-residual-context
+  ussr-1948-1964-mechanism:
+    - lysenko-history-ussr-mechanism
+  ussr-1948-1964-action:
+    - lysenko-pushback-ussr-correction
+  ussr-1948-1964-correction:
+    - lysenko-pushback-ussr-correction
+    - lysenko-history-residual-context
+  ussr-1948-1964-consequence-1:
+    - lysenko-nature-ussr-consequences
+    - lysenko-history-ussr-consequences
+  ussr-1948-1964-consequence-2:
+    - lysenko-nature-ussr-consequences
+    - lysenko-history-ussr-consequences
+  ussr-1948-1964-consequence-3:
+    - lysenko-history-ussr-consequences
+  ussr-1948-1964-consequence-4:
+    - lysenko-history-ussr-mechanism
+  china-1949-1956-summary:
+    - lysenko-china-biotech-carrier
+    - lysenko-cas-1952-consequences
+    - lysenko-cas-1956-correction
+  china-1949-1956-institutions:
+    - lysenko-cas-1952-carrier
+  china-1949-1956-context:
+    - lysenko-party-press-china
+    - lysenko-cas-1952-consequences
+  china-1949-1956-mechanism:
+    - lysenko-party-press-china
+    - lysenko-cas-1952-mechanism
+  china-1949-1956-action:
+    - lysenko-cas-1956-correction
+  china-1949-1956-correction:
+    - lysenko-cas-1956-correction
+  china-1949-1956-consequence-1:
+    - lysenko-cas-1952-consequences
+  china-1949-1956-consequence-2:
+    - lysenko-cas-1952-consequences
+  china-1949-1956-consequence-3:
+    - lysenko-cas-1952-consequences
+  poland-1949-1956-summary:
+    - lysenko-poland-carrier
+    - lysenko-kohler-poland-correction
+  poland-1949-1956-institutions:
+    - lysenko-kohler-poland-carrier
+  poland-1949-1956-context:
+    - lysenko-kohler-poland-carrier
+    - lysenko-kohler-poland-consequences
+  poland-1949-1956-mechanism:
+    - lysenko-poland-carrier
+    - lysenko-poland-mechanism
+  poland-1949-1956-action:
+    - lysenko-kohler-poland-correction
+  poland-1949-1956-correction:
+    - lysenko-kohler-poland-correction
+    - lysenko-strzadala-poland-correction
+  poland-1949-1956-consequence-1:
+    - lysenko-poland-consequences
+  poland-1949-1956-consequence-2:
+    - lysenko-kohler-poland-consequences
+  poland-1949-1956-consequence-3:
+    - lysenko-poland-consequences
+  poland-1949-1956-consequence-4:
+    - lysenko-kohler-poland-consequences
+  czechoslovakia-1948-1965-summary:
+    - prague-direction
+    - brno-exclusion
+    - brno-lectures
+  czechoslovakia-1948-1965-institutions:
+    - brno-committee
+    - prague-academy
+  czechoslovakia-1948-1965-context:
+    - prague-honour
+  czechoslovakia-1948-1965-mechanism:
+    - brno-committee
+    - prague-direction
+  czechoslovakia-1948-1965-action:
+    - brno-lectures
+    - brno-state-reform
+  czechoslovakia-1948-1965-correction:
+    - brno-lectures
+    - brno-state-reform
+  czechoslovakia-1948-1965-consequence-1:
+    - brno-exclusion
+  czechoslovakia-1948-1965-consequence-2:
+    - brno-exclusion
+    - brno-lectures
+  east-germany-1951-1965-summary:
+    - gdr-teaching-rules
+    - stubbe-institute-background
+  east-germany-1951-1965-institutions:
+    - gdr-ministry-syllabuses
+  east-germany-1951-1965-context:
+    - gdr-ministry-syllabuses
+    - gdr-teaching-rules
+  east-germany-1951-1965-mechanism:
+    - gdr-teaching-rules
+  east-germany-1951-1965-action:
+    - gdr-return-by-grade
+  east-germany-1951-1965-correction:
+    - gdr-return-by-grade
+    - gdr-revised-textbooks
+  east-germany-1951-1965-consequence-1:
+    - gdr-textbook-omissions
+  east-germany-1951-1965-consequence-2:
+    - gdr-textbook-omissions
+    - gdr-revised-textbooks
 episodes:
   - id: ussr-1948-1964
     polity: Soviet Union
@@ -83,14 +383,11 @@ episodes:
       - USSR Academy of Sciences
       - Moscow State University
       - Leningrad State University
-    institutionalContext: >-
-      The 1948 VASKhNIL session gave Lysenko's position state-backed authority. Higher education minister Sergei Kaftanov's
-      order of 23 August directed dismissals and the restructuring of teaching and research. The USSR Academy of Sciences
-      then adopted its own measures against genetics. At Moscow and Leningrad State Universities, departments were
-      reorganized and opponents were dismissed or replaced. These were actions of institutional authorities; individual
-      scientists within the same institutions resisted, and some later helped genetics recover. Lysenko's earlier
-      vernalization campaign overlapped with the Holodomor, whose documented procurement and migration policies are
-      discussed separately in the impact section.
+    institutionalContext: The 1948 VASKhNIL session gave Lysenko's position state-backed authority. Higher education
+      minister Sergei Kaftanov's order of 23 August directed dismissals and the restructuring of teaching and research.
+      The USSR Academy of Sciences then adopted its own measures against genetics. At Moscow and Leningrad State Universities,
+      departments were reorganized and opponents were dismissed or replaced. These were actions of institutional authorities;
+      individual scientists within the same institutions resisted, and some later helped genetics recover.
     consequences:
       - Geneticists were dismissed, demoted, or removed from scientific leadership
       - Genetics laboratories and departments were closed or reorganized
@@ -159,15 +456,11 @@ episodes:
         of their courses and research. Both schools were allowed to argue their positions. The response corrected
         exclusion and restored scientific discussion, but does not establish a general institutional rejection of
         every Lysenkoist heredity claim.
-    institutionalContext: >-
-      China reorganized science along Soviet lines after 1949. In April–June 1952, the Academy's Planning Bureau and
-      the government's Science and Health Office convened meetings that led to a 29 June People's Daily article requiring
-      biology to follow the Michurinist direction. The Academy's chronology records the subsequent suspension of classical-genetics
-      courses and research, interruption of successful hybrid-breeding work, and pressure on geneticists to publish
-      statements they did not believe. The Ministry of Higher Education later joined the Academy in organizing the
-      1956 Qingdao meeting that reopened discussion. The Great Leap Forward and its famine came later, amid wider
-      changes in state-directed agriculture. The famine involved production losses, labour diversion, procurement
-      and exports; its total mortality cannot be attributed to this genetics campaign.
+    institutionalContext: The Academy’s Planning Bureau and the government’s Science and Health Office convened three
+      meetings in spring 1952. On 29 June, People’s Daily printed their conclusions. The authors rebuked Le Tianyu,
+      a prominent advocate, for the way he imposed Michurinist biology, even as they called for a broader campaign against
+      Morganist genetics. The Academy later recorded what happened in universities and journals. Courses stopped, successful
+      hybrid-breeding projects were interrupted, and some geneticists had to publish statements they privately rejected.
   - id: poland-1949-1956
     polity: Poland
     region: Eastern Europe
@@ -187,7 +480,7 @@ episodes:
       - Removal of genetics from teaching
       - Suppression of competing biological research
       - Political pressure on scientists
-      - Attempts to reshape agricultural science
+      - Pressure to redirect botanical research toward agricultural applications
     summary: >-
       A Warsaw conference in March 1949 proclaimed the Lysenkoist “New Biology” an official paradigm in Polish science.
       Genetics and criticism of the doctrine were actively confronted, genetics courses disappeared from universities,
@@ -220,6 +513,81 @@ episodes:
       a major public advocate. Administrative pressure, publishing controls and teaching requirements restricted
       competing biology. Much of the botanical community nevertheless resisted or avoided the doctrine, so
       institutional enforcement should not be read as unanimous scientific acceptance.
+  - id: czechoslovakia-1948-1965
+    polity: Czechoslovakia
+    region: Central Europe
+    startYear: 1948
+    endYear: 1965
+    strength: enforced-doctrine
+    institutionTypes:
+      - academy
+      - education
+    institutions:
+      - Brno Agricultural College (Vysoká škola zemědělská), action committee
+      - Czechoslovak Academy of Agriculture (ČSAZ)
+    institutionalContext: Public criticism was already returning in the late 1950s when the agricultural academy elected
+      Lysenko an honorary member in June 1959. He came to Prague in April 1960 to accept the honour and lecture on
+      Michurinist agrobiology. The gap between the academy ceremony and contemporary criticism shows why it is difficult
+      to give the doctrine a single end date.
+    consequences:
+      - The Brno college barred geneticist Jaroslav Kříženecký from the faculty and dismissed him. He was subsequently
+        imprisoned.
+      - Plans for a Mendel institute in Brno foundered after the 1948 takeover. Kříženecký finally led a genetics-history
+        department at the Moravian Museum in 1962.
+    summary: After the Communist takeover in 1948, the authorities branded classical genetics reactionary. At Brno
+      Agricultural College this cost Jaroslav Kříženecký his post. The agricultural academy in Prague promoted Michurinist
+      biology even as critics recovered a public voice. By spring 1965 students could again attend official genetics
+      lectures at what is now Masaryk University in Brno.
+    mechanism:
+      kind: suppression
+      summary: The Brno college’s action committee could remove a teacher who defended Mendelian genetics. At the
+        Czechoslovak Academy of Agriculture, president Antonín Klečka promoted the Soviet approach after taking office
+        in 1949.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 1962–1966
+      action: Official genetics lectures resumed at what is now Masaryk University by spring 1965. In 1966 the Czechoslovak
+        government adopted a resolution supporting genetics. Agricultural colleges were directed to prepare practical
+        courses and textbooks.
+      summary: The Moravian Museum appointed Kříženecký in 1962. He died in 1964, before his former student Vítězslav
+        Orel opened the Mendelianum on 4 August 1965 during the international Mendel centenary symposium. The episode
+        ends at this public restoration in Brno. The following year’s national measures also gave priority to genetics
+        laboratories.
+  - id: east-germany-1951-1965
+    polity: East Germany (GDR)
+    region: Central Europe
+    startYear: 1951
+    endYear: 1965
+    strength: enforced-doctrine
+    institutionTypes:
+      - government
+      - education
+    institutions:
+      - GDR Ministry of People’s Education (Ministerium für Volksbildung), school biology curricula
+    institutionalContext: The ministry specified what pupils should learn at different ages. In 1951 it prescribed
+      Michurin and Lysenko in eighth- and tenth-grade biology. The 1953 and 1954 upper-school syllabuses called for
+      criticism of classical genetics in the twelfth grade. Georg Schneider, an advocate at Jena, helped write the
+      1952 twelfth-grade textbook.
+    consequences:
+      - Evolution and breeding lessons in grades 8, 10 and 12 gave Michurin and Lysenko a prominent place.
+      - School materials passed over Soviet geneticists including Nikolai Vavilov. Later twelfth-grade materials included
+        his work.
+    summary: East Germany’s education ministry made Michurinist biology part of the school curriculum in the 1950s.
+      Its authority extended to classroom objectives and textbooks. Geneticists at Gatersleben retained room to pursue
+      and defend Mendelian research during those same years.
+    mechanism:
+      kind: education
+      summary: Through national syllabuses and schoolbooks, the ministry required pupils to study Lysenko’s approach
+        to heredity and to criticize the competing approach based on genes and chromosomes.
+    institutionalCorrection:
+      status: corrected
+      periodLabel: 1959–1966
+      action: A 1959 tenth-grade syllabus specified Mendel’s laws. A twelfth-grade syllabus effective in 1963 still
+        prescribed a critical treatment of classical genetics. By 1966 a published exercise book asked pupils to perform
+        Mendelian crosses and record the ratios in their offspring.
+      summary: The end year marks the mid-1960s shift in school teaching. The pace differed by grade and school type.
+        Post-1965 materials dropped Lysenko and gave previously omitted scientists a place in accounts of heredity
+        and evolution.
 sources:
   - id: lysenko-nature-1948
     title: Genetics in the Soviet Union
@@ -277,16 +645,110 @@ sources:
     publisher: eLife
   - id: lysenko-cas-1952
     title: 1952 — 召开生物科学工作座谈会 (Meetings on biological science)
-    url: https://www.cas.cn/zj/ys1/bn/200909/t20090928_2529070.shtml
+    url: https://www.cas.cn/zj/ys1/bn/202611/t20261124_5124987.shtml
     publisher: Chinese Academy of Sciences
   - id: lysenko-cas-1956
     title: 1956 — 遗传学座谈会在青岛召开 (Qingdao genetics meeting)
-    url: https://www.cas.cn/zj/ys1/bn/200909/t20090928_2529096.shtml
+    url: https://www.cas.cn/zj/ys1/bn/202611/t20261124_5124983.shtml
     publisher: Chinese Academy of Sciences
   - id: lysenko-poland-botany
     title: Botany and Lysenkoism in Poland
     url: https://ruj.uj.edu.pl/entities/publication/835ef8f1-f909-4bdf-89e2-51806f4efb3c
     publisher: Studies in the History of Biology / Jagiellonian University repository
+  - id: gordin-2022
+    title: Lysenkoism (Michael D. Gordin, 2022)
+    url: https://ethos.lps.library.cmu.edu/article/id/560/
+    publisher: Encyclopedia of the History of Science
+  - id: lysenko-report-1948
+    title: 'Soviet Biology: Report to the Lenin Academy of Agricultural Sciences (T. D. Lysenko, 1948)'
+    url: https://dai.mun.ca/PDFs/radical/SovietBiology.pdf
+    publisher: Birch Books / Memorial University of Newfoundland
+  - id: lysenko-boehme-gatersleben
+    title: Einige Bemerkungen zu wissenschaftspolitischen Aspekten genetischer Forschungen der fünfziger Jahre in
+      der DDR im Zusammenhang mit der Lyssenko-Problematik (Helmut Böhme, 1998)
+    url: https://leibnizsozietaet.de/wp-content/uploads/2012/10/04_boehme_h.pdf
+    publisher: Sitzungsberichte der Leibniz-Sozietät
+  - id: lysenko-niu-wheat
+    title: A molecular mechanism for embryonic resetting of winter memory and restoration of winter annual growth
+      habit in wheat (Niu et al., 2024)
+    url: https://pubmed.ncbi.nlm.nih.gov/38177663/
+    publisher: Nature Plants
+  - id: lysenko-stegemann-tobacco
+    title: Exchange of genetic material between cells in plant tissue grafts (Stegemann and Bock, 2009)
+    url: https://pubmed.ncbi.nlm.nih.gov/19407205/
+    publisher: Science
+  - id: lysenko-vavilov-encyclopedia
+    title: Vavilov, Nikolai (Encyclopedia of Ukraine, 1993)
+    url: https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%2FV%2FA%2FVavilovNikolai.htm
+    publisher: Canadian Institute of Ukrainian Studies
+  - id: lysenko-morgan-flies
+    title: “Sex Limited Inheritance in Drosophila” (1910), by Thomas Hunt Morgan
+    url: https://embryo.asu.edu/pages/sex-limited-inheritance-drosophila-1910-thomas-hunt-morgan
+    publisher: Embryo Project Encyclopedia / Arizona State University
+  - id: por-lev-hoss-2021
+    title: 'Saaterbse, Wunderblume, Rinderrasse: Zur Visualisierung der Mendelschen Regeln im Biologieunterricht der
+      SBZ/DDR'
+    url: https://www.bio.uni-jena.de/biophamedia/153967/folmen-1-2-2021-visualisierung-biou.pdf
+    publisher: Karl Porges, Georgy S. Levit and Uwe Hoßfeld · Folia Mendeliana (2021)
+  - id: porges-watts-2018
+    title: Soviet Biologists and Evolutionary Theory — Who Made It into the Textbooks in Former East Germany and Why?
+    url: https://www.bio.uni-jena.de/biophamedia/149644/2018-studies-in-the-history-of-biology-soviet-biologists.pdf
+    publisher: Karl Porges and Elizabeth Watts · Studies in the History of Biology (2018)
+  - id: gatersleben-stubbe
+    title: Hans Stubbe (1902–1989)
+    url: https://www.ipk-gatersleben.de/institut/ueber-uns/geschichte/hans-stubbe
+    publisher: Leibniz Institute of Plant Genetics and Crop Plant Research (IPK)
+  - id: simunek-hossfeld-prague
+    title: 'Trofim D. Lysenko in Prague 1960: A Historical Note'
+    url: https://cyberleninka.ru/article/n/uwe-hofifeld-trofim-d-lysenko-in-prague-1960-a-historical-note
+    publisher: Michal V. Šimůnek and Uwe Hoßfeld · Studies in the History of Biology (2013)
+  - id: mendelu-animal-genetics
+    title: Historie genetiky živočichů na univerzitě
+    url: https://umfgz.af.mendelu.cz/o-ustavu/historie-ustavu/27610-historie-genetiky-zivocichu-na-univerzite
+    publisher: Mendel University in Brno · Department of Animal Morphology, Physiology and Genetics
+  - id: masaryk-mendelianum
+    title: 'Příběh Mendelova odkazu: Jak zřídit muzeum?'
+    url: https://www.em.muni.cz/udalosti/18167-pribeh-mendelova-odkazu-jak-zridit-muzeum
+    publisher: Masaryk University · Interview with geneticist Jiřina Relichová (2025)
+  - id: darlington-bbc-archive
+    title: Cyril Dean Darlington papers
+    url: https://centreforscientificarchives.co.uk/catalogues/cyril-dean-darlington/
+    publisher: Centre for Scientific Archives · Darlington catalogue, CSAC 106/3/85
+  - id: wellcome-dale-fisher
+    title: Papers on the Soviet Genetics Controversy
+    url: https://wellcomecollection.org/works/cuha26vy
+    publisher: Society for Freedom in Science (Oxford, 1949) · Wellcome Collection
+  - id: dejong-haldane-muller
+    url: https://link.springer.com/chapter/10.1007/978-3-319-39179-3_4
+    title: 'H.J. Muller and J.B.S. Haldane: Eugenics and Lysenkoism'
+    publisher: William deJong-Lambert · The Lysenko Controversy as a Global Phenomenon, vol. 2 (2017)
+  - id: lysenko-peoples-daily-1952
+    title: 为坚持生物科学的米丘林方向而斗争 (A call for biology to follow Michurin’s direction), 29 June 1952
+    publisher: People’s Daily, p. 3 / Renmin Ribao archive
+    url: https://cn.govopendata.com/renminribao/1952/06/29/3/
+  - id: lysenko-graham-epigenetics
+    title: Epigenetics and Russia (Loren Graham, 2016)
+    url: https://www.amphilsoc.org/sites/default/files/2017-07/attachments/Graham.pdf
+    publisher: Proceedings of the American Philosophical Society
+  - id: lysenko-mendel-peas
+    title: Experiments in Plant Hybridization (Gregor Mendel, published 1866)
+    url: https://cs.brown.edu/people/rblumber/MendelWeb/archive/Mendel.Experiments.html
+    publisher: MendelWeb / Brown University
+  - id: lysenko-iida-japan
+    title: 'A controversial idea as a cultural resource: the Lysenko controversy and discussions of genetics as a
+      “democratic” science in postwar Japan (Kaori Iida, 2015)'
+    url: https://pubmed.ncbi.nlm.nih.gov/26502659/
+    publisher: Social Studies of Science
+  - id: lysenko-proceedings
+    title: 'The Situation in Biological Science: Proceedings of the Lenin Academy of Agricultural Sciences of the
+      U.S.S.R. (1949)'
+    url: https://archive.org/details/thesituationinbiologicalscience/page/605/mode/1up
+    publisher: Foreign Languages Publishing House, Moscow / Internet Archive
+  - id: lysenko-global-history
+    title: The Lysenko Controversy as a Global Phenomenon, vol. 2 (William deJong-Lambert and Nikolai Krementsov,
+      eds., 2017)
+    url: https://link.springer.com/book/10.1007/978-3-319-39179-3
+    publisher: Palgrave Macmillan
 evidence:
   - id: lysenko-history-proposition
     sourceId: lysenko-1948-history
@@ -310,11 +772,11 @@ evidence:
       aspect: correction
     note: >-
       Historical review of state support for Lysenkoism, suppression of genetics, and rehabilitation after the Khrushchev
-      era. Its account of the doctrine distinguishes denial of DNA/chromosomal heredity from later institutional rehabilitation;
+      era. Its account of the doctrine distinguishes rejection of chromosome-based heredity from later institutional rehabilitation;
       modern genetic and epigenetic evidence is cited separately.
     locator: >-
-      The arrival of Lysenkoism: numbered list of theoretical ideas, especially acquired-trait inheritance and denial
-      of chromosomes and DNA; paragraphs on agricultural claims and suppression.
+      The arrival of Lysenkoism: numbered list of theoretical ideas, especially acquired-trait inheritance and rejection
+      of chromosome-based genetics; paragraphs on agricultural claims and suppression.
   - id: lysenko-pushback-impact
     sourceId: lysenko-pushback-review
     relation: supports
@@ -825,3 +1287,397 @@ evidence:
       Introduction and discussion of Polish zoology: 30 March 1949 conference, teaching exclusion and return of genetics
       courses in 1957; passages on pressure, resistance and avoidance of official language.
     note: Independently records the return of genetics courses in 1957 after their removal in 1949.
+  - id: lysenko-earliest-wheat
+    sourceId: lysenko-1948-history
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: Background and Secret Preparation of the August 1948 VASKhNIL Session, paragraphs on yarovization and
+      the earlier work of Klippart, Grachev and Gassner.
+    note: Separates the cold treatment’s observable effects from the yield increases and heritable changes Lysenko
+      claimed.
+  - id: lysenko-report-doctrine
+    sourceId: lysenko-report-1948
+    relation: documents
+    target:
+      scope: belief
+      aspect: proposition
+    locator: Printed pp. 28–31 on directed change, the mentor method, graft transmission and winter forms. The concluding
+      remarks on pp. 42–43 distinguish chromosomes themselves from the chromosome theory.
+    note: Records Lysenko’s own claims about the inheritance of acquired traits, the sexual transmission of chromosomes
+      and his rejection of chromosome-based genetics.
+  - id: lysenko-konstantinov-trials
+    sourceId: lysenko-pushback-review
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: The arrival of Lysenkoism, paragraph citing Konstantinov (1937) on seed requirements, smut and measured
+      yield.
+    note: Reviews Konstantinov’s reported comparison and its costs. The numerical result applies to that comparison.
+  - id: lysenko-michurin-names
+    sourceId: gordin-2022
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: Opening discussion of names and Comrade Lysenko, the passages on Prezent, Michurin’s fruit breeding and
+      the description of Michurinist heredity.
+    note: Explains the role of Prezent and how Lysenko’s program borrowed Michurin’s name and prestige.
+  - id: lysenko-morgan-cross
+    sourceId: lysenko-morgan-flies
+    relation: supports
+    target:
+      scope: belief
+      aspect: correction
+    locator: Paragraphs on the X-chromosome hypothesis and the mating of a red-eyed male with a white-eyed female.
+    note: Reconstructs Morgan’s specific prediction and the eye colours observed in sons and daughters.
+  - id: lysenko-report-tomatoes
+    sourceId: lysenko-report-1948
+    relation: documents
+    target:
+      scope: belief
+      aspect: background
+    locator: Printed pp. 41–42, concluding remarks on the grafted tomato, six plants, the possibility of cross-pollination
+      and the expected fruit colour of a first-generation cross.
+    note: Records Lysenko’s observations and his reply to Zhukovsky as he presented them to the session.
+  - id: lysenko-boehme-grafts
+    sourceId: lysenko-boehme-gatersleben
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: Printed pp. 60–62, passages on the 1951–1957 experiments, somatic mutations and the follow-up study recorded
+      in Böhme (1957).
+    note: A participant describes his attempt to confirm the reported transmission of characters in grafted plants,
+      the atypical offspring and the result of his later controls.
+  - id: lysenko-boehme-grain
+    sourceId: lysenko-boehme-gatersleben
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: Printed p. 61, paragraph on Stubbe’s wheat experiments from 1949 to 1952. P. 62 identifies the original
+      1955 paper in Der Züchter 25, 321–330.
+    note: Identifies the experimental setting and the failure to reproduce the proposed inherited conversion of winter
+      wheat.
+  - id: lysenko-niu-reset
+    sourceId: lysenko-niu-wheat
+    relation: supports
+    target:
+      scope: belief
+      aspect: correction
+    locator: Nature Plants 10, 37–52 (2024), abstract. The findings distinguish changes in TaVRN1 during embryogenesis
+      and TaVRN2 at germination.
+    note: Identifies how winter bread wheat passes a cold-induced state to early embryos and restores the requirement
+      for cold in the next generation.
+  - id: lysenko-stegemann-grafts
+    sourceId: lysenko-stegemann-tobacco
+    relation: supports
+    target:
+      scope: belief
+      aspect: correction
+    locator: Science 324, 649–651 (2009), abstract, observations on marked cells at the graft sites.
+    note: Locates genetic exchange in tobacco at the graft junction. The experiment addressed cells at that junction.
+  - id: lysenko-vavilov-career
+    sourceId: gordin-2022
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: Comrade Lysenko, paragraphs on Vavilov’s academy presidency, his seed collections and his initial encouragement
+      of Lysenko.
+    note: Connects Vavilov’s work on plant diversity and early professional support for Lysenko to the later confrontation.
+  - id: lysenko-vavilov-arrest
+    sourceId: lysenko-vavilov-encyclopedia
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: Biographical entry, from the 1935 academy demotion through Vavilov’s 1939 break with Lysenko and the
+      1940 arrest. The opening gives the date and place of death.
+    note: Dates the expedition, imprisonment, commutation and death in Saratov to the years preceding the 1948 session.
+  - id: lysenko-session-floor
+    sourceId: lysenko-1948-history
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: End of Background and Secret Preparation, Stalin’s review of the report. The August 1948 VASKhNIL Session
+      and its Aftermath, first paragraphs on meeting dates and Boris Zavadovsky’s statement, spelled Zavadoskii in
+      this translation.
+    note: Distinguishes the existence of dissent about genetics at the meeting from the Party decision.
+  - id: lysenko-report-approval
+    sourceId: lysenko-report-1948
+    relation: documents
+    target:
+      scope: belief
+      aspect: background
+    locator: Printed p. 39, opening of Concluding Remarks, responding to a question about the Central Committee’s
+      attitude.
+    note: Lysenko reports Central Committee approval to the delegates in his own words.
+  - id: lysenko-pushback-resistance
+    sourceId: lysenko-pushback-review
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: 'Abstract on nuclear physics cover and the section The attempts of nationwide rehabilitation of genetics:
+      the “Letter of three hundred”, including the 1955 appeals and cancellation of the 1961 conference.'
+    note: Documents several routes by which scientists sustained the discipline and continued barriers to restoring
+      open scientific meetings.
+  - id: lysenko-gordin-interpretations
+    sourceId: gordin-2022
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: Lysenko Triumphant, discussion of Joravsky, Krementsov, and Roll-Hansen and the questions that distinguish
+      their interpretations.
+    note: Surveys historical explanations of Lysenko’s early appeal and the timing of Stalin’s intervention.
+  - id: kohler-publication-count
+    sourceId: lysenko-poland-botany
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: P. 45, paragraph on the bibliography of Polish botany and the following discussion of types of publication.
+    note: Counts about 140 Lysenkoist works in 3,410 botanical publications from 1948 to 1958.
+  - id: gdr-textbook-background
+    sourceId: porges-watts-2018
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: “Lysenkoism — a popular export?” and the closing “Summary”, especially the contrast between Gatersleben
+      research and school curricula.
+    note: Compares resistance in research with Lysenko’s prominence in schoolbooks.
+  - id: stubbe-institute-background
+    sourceId: gatersleben-stubbe
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: Opening biography and paragraph on the discussions with Walter Ulbricht, immediately before the account
+      of 1950s crop research.
+    note: The institute identifies its director’s academy presidency and how he secured permission to continue its
+      work.
+  - id: darlington-bbc-record
+    sourceId: darlington-bbc-archive
+    relation: documents
+    target:
+      scope: belief
+      aspect: background
+    locator: Lectures and broadcasts, “The Lysenko Controversy”, between files F.90 and F.92, catalogue p. 156.
+    note: Dates the broadcast to 30 November 1948 and identifies all four participants and its surviving script.
+  - id: wellcome-dale-response
+    sourceId: wellcome-dale-fisher
+    relation: documents
+    target:
+      scope: belief
+      aspect: background
+    locator: 1949 pamphlet, catalogue sections “Publication/Creation” and “Contents”, entries for Dale and Fisher.
+    note: Identifies the Oxford publisher and links Fisher’s broadcast and Dale’s resignation letter to the same pamphlet.
+  - id: lysenko-global-dale
+    sourceId: lysenko-1948-history
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: “International Effect of the VASKhNIL Session”, paragraph on Britain and the United States.
+    note: Identifies the British critics Darlington, Harland and Fisher and describes physiologist Sir Henry Dale’s
+      resignation from the Soviet Academy of Sciences.
+  - id: brno-committee
+    sourceId: mendelu-animal-genetics
+    relation: supports
+    target:
+      scope: episode
+      episodeId: czechoslovakia-1948-1965
+      aspect: carrier
+    locator: University history, final paragraph before “Padesátá léta XX. století”.
+    note: Names the agricultural college’s action committee as the body that ordered the dismissal.
+  - id: prague-academy
+    sourceId: simunek-hossfeld-prague
+    relation: supports
+    target:
+      scope: episode
+      episodeId: czechoslovakia-1948-1965
+      aspect: carrier
+    locator: Pp. 86–87, paragraphs on Antonín Klečka and the agricultural academy’s 1959 and 1960 general assemblies.
+    note: Identifies the Prague agricultural academy, its president and its public honours for Lysenko.
+  - id: prague-direction
+    sourceId: simunek-hossfeld-prague
+    relation: supports
+    target:
+      scope: episode
+      episodeId: czechoslovakia-1948-1965
+      aspect: mechanism
+    locator: Pp. 84–86, sections on Communist Party control, hostility to classical genetics and Klečka’s presidency
+      from 1949.
+    note: Explains how the national political campaign and the Soviet orientation of the agricultural academy reached
+      researchers.
+  - id: prague-honour
+    sourceId: simunek-hossfeld-prague
+    relation: supports
+    target:
+      scope: episode
+      episodeId: czechoslovakia-1948-1965
+      aspect: context
+    locator: Pp. 86–87, late-1950s journal criticism, June 1959 assembly and Lysenko’s appearance on 21 April 1960.
+    note: Establishes that publicly voiced criticism coincided with continuing institutional honours.
+  - id: brno-exclusion
+    sourceId: masaryk-mendelianum
+    relation: supports
+    target:
+      scope: episode
+      episodeId: czechoslovakia-1948-1965
+      aspect: consequences
+    locator: Interview, paragraphs on the failed institute after 1948, the political status of genetics in the 1950s
+      and the 1962 appointment.
+    note: Records exclusion from the college, dismissal, later imprisonment and delayed work on the Mendel institution.
+  - id: brno-lectures
+    sourceId: masaryk-mendelianum
+    relation: supports
+    target:
+      scope: episode
+      episodeId: czechoslovakia-1948-1965
+      aspect: institutional-correction
+    locator: Interview, answers on the 1962 appointment, the Mendelianum’s opening and the significance of the August
+      1965 symposium.
+    note: An eyewitness recalls the return of genetics teaching to what is now Masaryk University; the account also
+      gives Orel’s opening date.
+  - id: brno-state-reform
+    sourceId: mendelu-animal-genetics
+    relation: supports
+    target:
+      scope: episode
+      episodeId: czechoslovakia-1948-1965
+      aspect: institutional-correction
+    locator: “Šedesátá léta XX. století”, paragraph beginning “V roce 1966 vydala vláda usnesení”.
+    note: Identifies the government’s 1966 resolution and subsequent curricular and laboratory measures.
+  - id: gdr-ministry-syllabuses
+    sourceId: por-lev-hoss-2021
+    relation: supports
+    target:
+      scope: episode
+      episodeId: east-germany-1951-1965
+      aspect: carrier
+    locator: Pp. 54–55, Ministry of People’s Education syllabuses for 1951–1954 and the discussion of the 1952 twelfth-grade
+      book.
+    note: Identifies the ministry as the prescribing authority and traces Schneider’s role in textbook production.
+  - id: gdr-teaching-rules
+    sourceId: por-lev-hoss-2021
+    relation: supports
+    target:
+      scope: episode
+      episodeId: east-germany-1951-1965
+      aspect: mechanism
+    locator: Pp. 54–55, quotations from the 1951 and 1953–1954 curricula on Michurin, Lysenko and formal genetics.
+    note: Distinguishes requirements imposed on different grades, including criticism of classical genetics in upper
+      school.
+  - id: gdr-textbook-omissions
+    sourceId: porges-watts-2018
+    relation: supports
+    target:
+      scope: episode
+      episodeId: east-germany-1951-1965
+      aspect: consequences
+    locator: Summary, paragraphs on grades 8, 10 and 12 and the later inclusion of Vavilov and Karpechenko.
+    note: Identifies what pupils were asked to learn and which Soviet geneticists the sampled materials omitted.
+  - id: gdr-return-by-grade
+    sourceId: por-lev-hoss-2021
+    relation: supports
+    target:
+      scope: episode
+      episodeId: east-germany-1951-1965
+      aspect: institutional-correction
+    locator: Pp. 55–56, the 1959 and 1963 curricula and exercise 18 from the 1966 Biologische Aufgabensammlung.
+    note: Tracks the uneven reintroduction of Mendelian genetics and gives a post-reform classroom exercise.
+  - id: gdr-revised-textbooks
+    sourceId: porges-watts-2018
+    relation: supports
+    target:
+      scope: episode
+      episodeId: east-germany-1951-1965
+      aspect: institutional-correction
+    locator: Summary, final paragraph on the effect of 1965 on school curricula and textbooks.
+    note: Describes the subsequent disappearance of Lysenko from the materials studied and the inclusion of other
+      researchers.
+  - id: dejong-haldane-bbc
+    sourceId: dejong-haldane-muller
+    relation: supports
+    target:
+      scope: belief
+      aspect: background
+    locator: Part IV, “The BBC ‘Debate’”, pp. 124–127. The analysis draws on the transcript, Haldane’s correspondence
+      and responses from listeners.
+    note: Documents the separate recordings, Haldane’s misgivings and the support he received from listeners.
+  - id: lysenko-party-press-china
+    sourceId: lysenko-peoples-daily-1952
+    relation: documents
+    target:
+      scope: episode
+      episodeId: china-1949-1956
+      aspect: mechanism
+    locator: Page 3, first article. The editor’s introduction lists the conveners and three meetings. Sections I and
+      II set out the Michurinist position and criticize Le Tianyu.
+    note: The newspaper printed the conclusions of the meetings. The authors faulted a Michurinist official for his
+      conduct while calling for a wider campaign against Morganist genetics.
+  - id: lysenko-graham-revival
+    sourceId: lysenko-graham-epigenetics
+    relation: documents
+    target:
+      scope: belief
+      aspect: background
+    locator: Printed pp. 266–269, especially p. 267 on the Russian books of 2014 and 2015.
+    note: Graham describes the appeal to epigenetics in attempts to rehabilitate Lysenko and assesses that argument
+      against the methods and results of the original work.
+  - id: lysenko-mendel-counts
+    sourceId: lysenko-mendel-peas
+    relation: contextualizes
+    target:
+      scope: belief
+      aspect: background
+    locator: “The First Generation [Bred] from the Hybrids”, experiment 2, on seed colour.
+    note: Mendel reports that 258 hybrid plants produced 8,023 seeds, with both colours often represented in a single
+      pod.
+  - id: lysenko-western-parties
+    sourceId: gordin-2022
+    relation: contextualizes
+    target:
+      scope: belief
+      aspect: background
+    locator: The discussion of international reactions after the August meeting, especially the passages on France
+      and the Italian Communist Party.
+    note: Gordin distinguishes individual scientists’ public views from the positions of the parties to which they
+      belonged.
+  - id: lysenko-japanese-reception
+    sourceId: lysenko-iida-japan
+    relation: contextualizes
+    target:
+      scope: belief
+      aspect: background
+    locator: Abstract, on the American occupation, interest in cytoplasmic inheritance, and the subsequent Cold War
+      shift.
+    note: Iida explains why some Japanese researchers initially gave the Soviet claims a hearing and how the reception
+      changed.
+  - id: lysenko-read-proceedings
+    sourceId: lysenko-proceedings
+    relation: contextualizes
+    target:
+      scope: belief
+      aspect: background
+    locator: The reader opens on printed p. 605 (Central Committee approval). Pages 607–608 record the tomato dispute.
+      The searchable volume includes the other delegates’ speeches.
+    note: The official English proceedings reproduce Lysenko’s report alongside the debate. The report also appears
+      in the stand-alone Birch Books edition with different pagination.
+  - id: lysenko-read-global
+    sourceId: lysenko-global-history
+    relation: contextualizes
+    target:
+      scope: belief
+      aspect: background
+    locator: 'Volume 2, contents under “The Lysenko Controversy: East and West”. The publisher lists chapters on Hungary,
+      Italy and Japan.'
+    note: A guide to further reading. The contents establish the geographical subjects of the chapters.

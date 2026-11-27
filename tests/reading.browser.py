@@ -231,6 +231,32 @@ async def check_core_source_notes(browser, base):
     return checked
 
 
+async def follow_inline_citation(page):
+    order = await page.locator('[role="doc-noteref"]').evaluate_all('''refs => {
+      const firstMention = new Map();
+      for (const ref of refs) {
+        const note = document.getElementById(ref.hash.slice(1));
+        if (!note || ref.textContent !== '[' + note.value + ']') throw Error('Wrong evidence note number');
+        if (!note.querySelector('a[role="doc-backlink"][href="#' + ref.id + '"]')) throw Error('Missing return link');
+        firstMention.set(note.id, note.value);
+      }
+      return [...firstMention.values()];
+    }''')
+    assert order == list(range(1, len(order) + 1)), 'Citations are numbered out of reading order'
+    ref = page.locator('.proposition-panel [role="doc-noteref"]').first
+    number = await ref.inner_text()
+    href = await ref.get_attribute('href')
+    origin = '#' + await ref.get_attribute('id')
+    await ref.focus()
+    await ref.press('Enter')
+    note = page.locator(href)
+    assert await note.is_visible(), 'Inline reference did not reveal its evidence note'
+    assert await note.locator('.citation-note-heading strong').inner_text() == number
+    assert await note.locator('.evidence-source').get_attribute('href'), 'Missing original publication'
+    await note.locator(f'a[role="doc-backlink"][href="{origin}"]').click()
+    assert urlparse(page.url).fragment == origin[1:], 'Return link lost its citing passage'
+
+
 async def check_citations(browser, base):
     checked = 0
     clipboard_script = '''() => {
@@ -251,6 +277,8 @@ async def check_citations(browser, base):
         for path in ['/institutions/lysenkoist-heredity/', '/entries/peptic-ulcers/']:
             path = prefix + path
             await page.goto(base + path, wait_until='networkidle')
+            if '/institutions/' in path:
+                await follow_inline_citation(page)
             selectors = ['.proposition-panel', '.correction-panel', '#ussr-1948-1964',
                          '.belief-evidence .evidence-item', '.source-registry li'] if '/institutions/' in path else ['#sources > .permalink-actions']
             for selector in selectors:
@@ -301,6 +329,9 @@ async def check_citations(browser, base):
     # Ordinary links and direct fragments still work without script or clipboard access.
     ctx = await browser.new_context(viewport={'width': 390, 'height': 844}, java_script_enabled=False)
     page = await ctx.new_page()
+    for prefix in ['', '/de']:
+        await page.goto(base + prefix + '/institutions/lysenkoist-heredity/')
+        await follow_inline_citation(page)
     for path, href in destinations:
         await page.goto(base + path + href, wait_until='networkidle')
         target = page.locator(href)
@@ -409,11 +440,15 @@ async def main():
                 for path in ['/institutions/lysenkoist-heredity/', '/de/institutions/lysenkoist-heredity/']:
                     try:
                         await page.goto(base + path, wait_until='networkidle')
-                        assert await page.locator('.evidence-item').count() == 42
-                        assert await page.locator('.source-registry li').count() == 15
+                        evidence_count = await page.locator('.evidence-item').count()
+                        source_count = await page.locator('.source-registry li').count()
+                        assert evidence_count >= 42 and source_count >= 15, 'Previously available evidence is missing'
+                        count_labels = await page.locator('.case-counts span').all_inner_texts()
+                        assert int(count_labels[1].split()[0]) == evidence_count
+                        assert int(count_labels[2].split()[0]) == source_count
                         assert await page.locator('.evidence-disclosure[open]').count() == 0
                         await page.locator('.evidence-toggle').click()
-                        assert await page.locator('.evidence-item:visible').count() == 42
+                        assert await page.locator('.evidence-item:visible').count() == evidence_count
                         await page.locator('.evidence-toggle').click()
                         assert await page.locator('.evidence-disclosure[open]').count() == 0
                         evidence_id = await page.locator('.evidence-item').first.get_attribute('id')

@@ -61,6 +61,8 @@ export interface NormalizedInstitutionalBelief {
   entryId?: string;
   reviewedAt: Date;
   impact?: InstitutionalImpact;
+  inlineCitations: InstitutionalBeliefData['inlineCitations'];
+  sections: InstitutionalBeliefData['sections'];
   episodes: NormalizedInstitutionalEpisode[];
   sources: InstitutionalSource[];
   evidence: NormalizedInstitutionalEvidence[];
@@ -77,16 +79,40 @@ export const institutionalTranslationMatchesBelief = (
   belief: InstitutionalBeliefEntry,
   translation: InstitutionalBeliefTranslationEntry,
 ) => {
+  const canonical = belief.data;
+  const translated = translation.data;
   if (
-    translation.data.entryId !== belief.id ||
-    translation.data.schemaVersion !== belief.data.schemaVersion ||
-    translation.data.sourceReviewedAt.getTime() !== belief.data.reviewedAt.getTime() ||
-    !idsMatchInOrder(belief.data.episodes, translation.data.episodes)
+    translated.entryId !== belief.id ||
+    translated.schemaVersion !== canonical.schemaVersion ||
+    translated.sourceReviewedAt.getTime() !== canonical.reviewedAt.getTime() ||
+    !idsMatchInOrder(canonical.episodes, translated.episodes) ||
+    !idsMatchInOrder(canonical.evidence, translated.evidence) ||
+    !idsMatchInOrder(canonical.sections, translated.sections)
   ) {
     return false;
   }
 
-  return idsMatchInOrder(belief.data.evidence, translation.data.evidence);
+  // Explicit citations can bind to individual paragraphs, highlights and list items.
+  // Both language versions must retain their positions.
+  const places = Object.keys(canonical.inlineCitations);
+  if (places.length) {
+    const citesList = (prefix: string) => places.some((place) => place.startsWith(prefix));
+    if (
+      (citesList('impact-context-') && canonical.impact?.context.length !== translated.impact?.context.length) ||
+      (citesList('impact-highlight-') && canonical.impact?.highlights.length !== translated.impact?.highlights.length)
+    ) return false;
+
+    for (const [index, episode] of canonical.episodes.entries()) {
+      const localized = translated.episodes[index];
+      if (
+        (citesList(`${episode.id}-consequence-`) && episode.consequences.length !== localized.consequences.length) ||
+        (canonical.inlineCitations[`${episode.id}-action`] && !localized.institutionalCorrection.action)
+      ) return false;
+    }
+  }
+
+  return canonical.sections.every((section, index) =>
+    section.paragraphs.length === translated.sections[index].paragraphs.length);
 };
 
 export const currentInstitutionalTranslationMap = (
@@ -165,6 +191,7 @@ const normalizeBelief = (
   const sourceById = new Map(belief.data.sources.map((source) => [source.id, source]));
   const evidence: NormalizedInstitutionalEvidence[] = belief.data.evidence.map((item) => ({
     ...item,
+    locator: translatedEvidence.get(item.id)?.locator ?? item.locator,
     note: locale === 'de'
       ? translatedEvidence.get(item.id)?.note
       : item.note,
@@ -179,6 +206,19 @@ const normalizeBelief = (
     entryId: belief.data.entryId,
     reviewedAt: belief.data.reviewedAt,
     impact: locale === 'de' ? localized?.data.impact : belief.data.impact,
+    inlineCitations: belief.data.inlineCitations,
+    sections: belief.data.sections.map((section, index) => {
+      const translated = localized?.data.sections[index];
+      if (!translated) return section;
+      return {
+        ...section,
+        title: translated.title,
+        paragraphs: section.paragraphs.map((paragraph, row) => ({
+          ...paragraph,
+          text: translated.paragraphs[row],
+        })),
+      };
+    }),
     episodes: belief.data.episodes.map((episode) => {
       const translatedEpisode = translatedEpisodes.get(episode.id);
       const episodeEvidence = evidence.filter(

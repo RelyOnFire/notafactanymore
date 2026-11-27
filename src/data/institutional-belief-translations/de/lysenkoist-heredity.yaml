@@ -1,77 +1,189 @@
 schemaVersion: 2
 locale: de
 entryId: lysenkoist-heredity
-sourceReviewedAt: '2026-09-18'
+sourceReviewedAt: '2026-11-27'
 title: Lyssenkistische Vererbungslehre
 proposition:
   summary: >-
     Umweltbehandlungen können die Vererbung über Generationen gezielt umformen und die mendelsche Genetik damit überflüssig
     oder falsch machen.
 correction:
-  summary: >-
-    Vererbung wird hauptsächlich durch genetische Information vermittelt. Umweltbedingungen beeinflussen Entwicklung
-    und können in einzelnen Fällen über Generationen nachwirken, stützen aber nicht die breite lyssenkistische Behauptung,
-    dass gezielte Umweltbehandlung erbliche Merkmale routinemäßig umschreibt. Moderne Studien unterscheiden die Vererbung
-    der DNA-Sequenz von Veränderungen der Genregulation: In einem Arabidopsis-Experiment wurden stressbedingte epigenetische
-    Effekte vorwiegend über die mütterliche Linie weitergegeben und nach Wegfall des Stresses weitgehend zurückgesetzt.
+  summary: Pflanzen erben DNA und können auch manche Veränderungen der Genaktivität erben. Winterweizen behält die
+    Wirkung eines Kältereizes lange genug, um zu blühen. Bei den Nachkommen wird diese Kälteerinnerung zurückgesetzt.
+    Die neue Generation braucht gewöhnlich erneut Kälte. Bei der Ackerschmalwand (Arabidopsis) zeigte eine Studie,
+    dass eine Stressreaktion vor allem über die mütterliche Linie weitergegeben werden konnte und ohne weiteren
+    Stress wieder nachließ. So kann eine Umweltwirkung fortbestehen, während die für die Züchtung erhoffte dauerhafte
+    Veränderung ausbleibt.
 impact:
-  summary: >-
-    Die am besten belegten direkten Folgen des Lyssenkoismus waren institutioneller Art: Die Genetik wurde unterdrückt,
-    Wissenschaftler wurden entlassen oder degradiert, Lehre und Forschung auf eine politisch geschützte Doktrin ausgerichtet
-    und die normale wissenschaftliche Korrektur über Jahrzehnte beschädigt. In China unterbrach die Kampagne die Lehre
-    der Genetik und die Züchtungsforschung. Die spätere Hungersnot während des Großen Sprungs nach vorn gehört zur
-    weiteren Geschichte staatlich gelenkter Landwirtschaft; ihre Sterblichkeit entstand aus zusammenwirkenden Politiken
-    und Fehlentwicklungen und lässt sich dem Lyssenkoismus nicht als alleiniger Ursache zuschreiben.
+  summary: In der Sowjetunion verloren Genetiker ihre Stellen. Den Hochschulen fehlten Lehrkräfte und Versuchsmaterial,
+    und eine Generation von Studierenden hatte kaum Zugang zu einer Ausbildung in klassischer Genetik. In China
+    unterbrach die Kampagne auch die Arbeit an Kreuzungszüchtungen, die bereits Ergebnisse geliefert hatten.
   context:
-    - >-
-      In der Sowjetunion war die VASKhNIL-Tagung von 1948 der entscheidende Wendepunkt. Sie wurde unter Lyssenko organisiert
-      und von Stalin gebilligt. Damit wurde nicht bloß eine Theorie unterstützt: Der institutionelle Wettbewerb mit
-      der mendelschen Genetik wurde beendet. Eine Anordnung des sowjetischen Ministeriums für Hochschulbildung vom
-      August 1948 verlangte, biologische Lehrpläne und Personalpolitik an der „mitschurinschen Biologie“ auszurichten.
-      Genetiker verloren Stellen, Lehrstühle wurden umgebaut, Lehrbücher und Forschungsmaterialien entfernt und die
-      Mechanismen, durch die eine wissenschaftliche Behauptung normalerweise widerlegt werden kann, gezielt geschwächt.
-    - >-
-      Eine frühere Phase überschneidet sich zeitlich mit dem Holodomor. Die sowjetischen Behörden ordneten 1931 die
-      sofortige Anwendung von Lyssenkos Vernalisationsprogramm an, und die behandelte Anbaufläche nahm rasch zu. Seine
-      agronomischen Methoden wurden also bereits gefördert, als die ukrainische Hungersnot von 1932–1933 einsetzte.
-      Die Belege tragen jedoch nicht die Aussage, der Lyssenkoismus sei eine bedeutende nachgewiesene Ursache des
-      Holodomor gewesen. Die historische Forschung stellt vielmehr Kollektivierung und staatliche Getreideentnahme
-      beziehungsweise -beschaffung in den Mittelpunkt; neuere quantitative Forschung zeigt zusätzlich, dass Ausreise-
-      und Wanderungsbeschränkungen sowie eine antiukrainische Verzerrung der sowjetischen Beschaffungs- und Getreiderückhaltungspolitik
-      zur Sterblichkeit beitrugen. Die Hungersnot schwächte Lyssenkos Stellung zudem nicht, sondern stärkte sie: Danach
-      wies der Volkskommissar für Landwirtschaft Wawilow an, Lyssenkos Arbeit zu unterstützen.
-    - >-
-      Der Große Sprung nach vorn folgte auf die frühe Kampagne gegen die Genetik. Seine Agrarkrise entstand aus mehreren
-      zusammenwirkenden Politiken und Fehlentwicklungen. Die Kollektivierung veränderte Anreize und den Zugang der
-      Haushalte zu Nahrung; Arbeitskräfte wurden aus der Landwirtschaft abgezogen; Funktionäre meldeten überhöhte
-      Ernten; auf dieser fehlerhaften Grundlage wurden hohe Ablieferungsquoten festgesetzt; und Getreideexporte sowie
-      eine zunehmend starre Beschaffung reduzierten die ländlichen Vorräte weiter. Li und Yang untersuchen diese wirtschaftlichen
-      Mechanismen in ihrem Modell der Zentralplanung, Kasahara und Li anhand von Kreisdaten. Beide Arbeiten schätzen
-      keine spezifisch durch die lyssenkistische Vererbungslehre verursachte Zahl von Todesopfern.
-    - >-
-      Für die Zuschreibung ist diese Unterscheidung entscheidend. Ökonomische Untersuchungen zeigen, dass sinkende
-      Produktion, höhere und unflexiblere staatliche Getreidebeschaffung sowie Exporte gemeinsam zur Übersterblichkeit
-      beitrugen und kein einzelner Mechanismus die gesamte Hungersnot erklärt. Die von Chen und Zhou (2007) genannte
-      Schätzspanne von 15–30 Millionen bezeichnet daher die Hungersnot von 1959–1961 insgesamt. Sie zeigt, in welchem
-      historischen Umfeld fehlgeleitete Agrardoktrinen wirkten, ist aber keine belastbare Zahl der speziell durch
-      Lyssenkoismus verursachten Todesfälle.
+    - In der Ukraine fiel der Holodomor 1932–1933 in die Zeit, als sich die 1931 angeordnete Vernalisationskampagne
+      ausweitete. Zur Sterblichkeit trugen nachweislich die Benachteiligung bei staatlichen Getreideablieferungen
+      und Beschränkungen der Freizügigkeit bei. Nach der Hungersnot wies der Volkskommissar für Landwirtschaft Wawilow
+      an, Lyssenko zu unterstützen. Die zeitliche Abfolge belegt die staatliche Förderung des Programms. Welchen
+      Anteil es an der Sterblichkeit hatte, lässt sich daraus nicht ermitteln.
+    - Die chinesische Hungersnot von 1959 bis 1961 folgte auf die Genetiktagung in Qingdao. Li und Yang untersuchen,
+      wie Arbeitskräfte von den Feldern abgezogen und auf der Grundlage übertriebener Erntemeldungen zu hohe Getreideabgaben
+      gefordert wurden. Kasahara und Li untersuchen auf Kreisebene den Produktionsrückgang, die Exporte und die
+      starren Ablieferungsvorgaben. Chen und Zhou nennen für die gesamte Hungersnot 15 bis 30 Millionen zusätzliche
+      Todesfälle. Keine dieser Arbeiten beziffert einen gesonderten Anteil für lyssenkistische Anbaumethoden.
   highlights:
     - value: '127'
       label: Im Herbst 1948 entlassene Hochschullehrkräfte in einer historischen Aufstellung
-      note: >-
-        Darunter waren 66 Professoren; spätere Entlassungen, Degradierungen und Entzüge von Leitungsfunktionen gingen
-        deutlich darüber hinaus.
+      note: Darunter waren 66 Professoren; spätere Entlassungen, Degradierungen und Entzüge von Leitungsfunktionen
+        gingen deutlich darüber hinaus.
     - value: Mehrere Tausend
-      label: >-
-        Nach 1948 entlassene, degradierte oder aus Leitungsfunktionen entfernte Wissenschaftler und Lehrkräfte laut
-        historischer Forschung
-      note: Dies ist eine Größenordnung institutioneller Repression, keine Zahl von Todesopfern.
-    - value: 15–30 Millionen
-      label: Von Chen und Zhou (2007) genannte Schätzspanne der Übersterblichkeit während der chinesischen Hungersnot
-        1959–1961
-      note: >-
-        Gesamtsterblichkeit der Hungersnot, nicht dem Lyssenkoismus allein zurechenbare Todesfälle. Produktionsrückgang,
-        Beschaffung, Exporte, Kollektivierung und weitere politische und wirtschaftliche Mechanismen wirkten zusammen.
+      label: Nach 1948 entlassene, degradierte oder aus Leitungsfunktionen entfernte Wissenschaftler und Lehrkräfte
+        laut historischer Forschung
+      note: Rückblickende Schätzung für die gesamte Kampagne nach der Tagung. Sie umfasst neben Entlassungen auch
+        andere personelle Maßnahmen.
+sections:
+  - id: winter-wheat
+    title: Das Versprechen der Frühjahrssaat
+    paragraphs:
+      - Winterweizen braucht gewöhnlich eine Kälteperiode, bevor er blühen kann. Wer die Aussaat im Herbst versäumt
+        hatte, konnte das angefeuchtete Saatgut vor der Frühjahrssaat kühlen und so den Kältebedarf decken. Landwirte
+        und Pflanzenphysiologen hatten diesen Effekt bereits untersucht, als der sowjetische Agronom Trofim Lyssenko
+        das Verfahren Ende der 1920er-Jahre unter dem Namen Vernalisation bekannt machte. Lyssenko versprach darüber
+        hinaus höhere Erträge. Er behauptete auch, Züchter könnten gezielt verändern, welche Eigenschaften die nächste
+        Generation erbt. Ein Feld mit reifenden Ähren zeigte, dass der Weizen nach der Kältebehandlung zur Blüte
+        gekommen war. Für die beiden weitergehenden Behauptungen brauchte es eigene Versuche.
+      - Einen solchen Ertragsvergleich legte der sowjetische Züchter P. N. Konstantinow 1937 vor. Nach seinen Angaben
+        brauchte er für das Verfahren rund doppelt so viel Saatgut. Das Getreide war anfälliger für Brandpilze,
+        und der Mehrertrag betrug in seinem Vergleich höchstens 0,4 Prozent. Für einen Betrieb, der das zusätzliche
+        Saatgut bezahlen musste, war diese Größenordnung entscheidend. Die sowjetischen Behörden hatten die breite
+        Einführung des Verfahrens bereits 1931 angeordnet.
+  - id: heredity-in-dispute
+    title: Worin der Streit um die Vererbung bestand
+    paragraphs:
+      - Lyssenko und der Philosoph Isaak Present nannten ihr Programm Mitschurinismus. Sie beriefen sich auf den
+        russischen Obstzüchter Iwan Mitschurin, der durch Kreuzungen neue Apfel- und Kirschsorten gewonnen hatte.
+        Lyssenko behauptete, lebendes Gewebe erwerbe unter dem Einfluss seiner Umwelt erbliche Eigenschaften, und
+        Züchter könnten diesen Vorgang lenken. Er erkannte die Existenz der Chromosomen und ihre Rolle bei der geschlechtlichen
+        Fortpflanzung an. Er verwarf die Vorstellung, dass einzelne, auf den Chromosomen liegende Erbanlagen die
+        Weitergabe von Merkmalen erklären.
+      - Was zählte ein Züchter, der nach den mendelschen Regeln arbeitete? In Brünn kreuzte Gregor Mendel Erbsen
+        mit unterschiedlicher Samenfarbe. Die Samen der ersten Kreuzung waren gelb. Als sich die daraus gezogenen
+        Pflanzen selbst bestäubten, trat die grüne Farbe wieder auf. Mendel zählte 6.022 gelbe und 2.001 grüne Samen,
+        annähernd drei zu eins. Ein Merkmal konnte also über eine Generation weitergegeben werden, in der es unsichtbar
+        blieb.
+      - Bis 1948 hatte die Chromosomentheorie längst überprüfbare Vorhersagen geliefert. Thomas Hunt Morgan kreuzte
+        1910 ein weißäugiges Fruchtfliegenweibchen mit einem rotäugigen Männchen. Die Töchter hatten rote, die Söhne
+        weiße Augen. Die Augenfarben folgten dem Erbgang des X-Chromosoms. Ein Sohn erhielt sein einziges X von
+        der Mutter, eine Tochter je eines von beiden Eltern. Auf Versuche wie diesen bezog sich der Ausdruck „Morganismus“,
+        den Lyssenko immer wieder angriff.
+  - id: grafted-tomatoes
+    title: Konnten zwei gepfropfte Tomatenpflanzen einen Hybriden hervorbringen?
+    paragraphs:
+      - Beim Pfropfen verwächst ein Trieb der einen Pflanze mit der bewurzelten Unterlage einer anderen. Auf der
+        Tagung von 1948 beschrieb Lyssenko die Pfropfung zweier Tomatensorten, die sich in Blattform und Fruchtfarbe
+        unterschieden. Die meisten Sämlinge aus den Samen der Unterlage hätten dieser geglichen. Sechs hätten Blätter
+        von der Form der anderen Sorte entwickelt, einige davon gelbe Früchte getragen. Der Botaniker Pjotr Schukowski
+        hielt eine unbeabsichtigte Fremdbestäubung für möglich. Lyssenko erwiderte, bei einer solchen Kreuzung hätte
+        die erste Tochtergeneration rote Früchte tragen müssen. Damit standen zwei Erklärungen für ein und dieselbe
+        berichtete Beobachtung im Raum.
+      - Helmut Böhme ging in Gatersleben in der DDR zunächst davon aus, die sowjetischen Befunde bestätigen zu können.
+        In seinen Tomatenversuchen von 1951 bis 1957 fand er ungewöhnliche Nachkommen. Manche Veränderungen konnte
+        er auf Mutationen in Körperzellen der Elternpflanze zurückführen. Auch nach einer Wiederholung mit verbesserter
+        Versuchsmethodik blieben die vorhergesagten Merkmalsübertragungen zwischen den Pfropfpartnern und ihren
+        Nachkommen aus. Ein ungewöhnlicher Sämling war damit zwar gefunden, die Herkunft seines Merkmals musste
+        aber eigens geklärt werden.
+  - id: winter-memory
+    title: Woran sich Weizen erinnert und was seine Nachkommen erben
+    paragraphs:
+      - Hans Stubbe prüfte von 1949 bis 1952, ob sich Winterweizen durch wiederholten Anbau im Gewächshaus ohne
+        Kälteperiode erblich in Sommerweizen umwandeln ließ. In seinen Versuchen gelang das nicht. Jahrzehnte später
+        ließ sich die Wirkung der Kälte im heranwachsenden Samen verfolgen. Eine Forschungsgruppe um De Niu zeigte
+        2024 an Winterformen des Brotweizens, dass ein durch Kälte aktiviertes Gen für die Blütenbildung im frühen
+        Embryo noch aktiv blieb. Im weiteren Verlauf der Embryonalentwicklung wurde dieser Zustand zurückgesetzt.
+        Ein zweiter Regulator wurde bei der Keimung wieder aktiv. Zusammen bewirkten diese Vorgänge, dass auch die
+        nächste Generation wieder Kälte brauchte, um später zu blühen.
+      - Auch bei Pfropfungen lässt sich heute genauer bestimmen, was übertragen wird. Sandra Stegemann und Ralph
+        Bock wiesen 2009 in Zellen an der Verwachsungsstelle zweier Tabakpflanzen Erbmaterial beider Pfropfpartner
+        nach. Damit waren Ort und Weg eines Austauschs erkennbar. Lyssenko hatte behauptet, grundsätzlich könne
+        über eine Pfropfung jedes Merkmal ebenso an Nachkommen gelangen wie bei einer geschlechtlichen Kreuzung.
+        Um das zu zeigen, müsste man das betreffende Merkmal an den aus Samen gezogenen Nachkommen nachweisen.
+  - id: vavilov-and-the-academy
+    title: Wawilow und die Akademietagung, die er nicht mehr erlebte
+    paragraphs:
+      - Der Genetiker Nikolai Wawilow, von 1929 bis 1935 Präsident der Landwirtschaftsakademie, förderte Lyssenko
+        anfangs. Wawilow sammelte weltweit Saatgut, um Herkunft und Vielfalt der Kulturpflanzen zu untersuchen.
+        Spätestens 1939 kam es zum öffentlichen Bruch zwischen den beiden. Sowjetische Behörden verhafteten Wawilow
+        1940 während einer Sammelreise in die Westukraine. Sein Todesurteil wurde in eine Haftstrafe umgewandelt.
+        Im Januar 1943 starb er im Gefängnis von Saratow an den Folgen von Unterernährung, fünf Jahre vor der Akademietagung.
+      - Stalin prüfte Lyssenkos Bericht persönlich, bevor die Landwirtschaftsakademie vom 31. Juli bis zum 7. August
+        1948 zusammentrat. Einige Redner verteidigten weiterhin die Genetik. Der Physiologe Boris Sawadowski erinnerte
+        die Delegierten daran, dass Landwirte bereits auf Millionen Hektar Weizen- und Roggensorten anbauten, die
+        Genetiker gezüchtet hatten. In seinem Schlusswort gab Lyssenko bekannt, das Zentralkomitee der Partei habe
+        seinen Bericht gebilligt. Am 23. August verfügte der Hochschulminister Änderungen bei der Besetzung von
+        Hochschulstellen und in der Lehre. Aus der Debatte am Rednerpult war eine Entscheidung darüber geworden,
+        wer die nächste Generation ausbilden durfte.
+  - id: routes-back
+    title: Wie die Genetik das Verbot überdauerte
+    paragraphs:
+      - Physiker ermöglichten genetische Forschung an Instituten, deren Arbeit zur Strahlung staatlich gefördert
+        wurde. 1955 verfassten Leningrader Biologen den „Brief der Dreihundert“, in dem sie die Parteiführung aufforderten,
+        Lyssenko die Unterstützung zu entziehen. Auch Mathematiker wandten sich an die Partei und kritisierten besonders
+        die Ablehnung statistischer Methoden durch seine Anhänger. Noch 1961 sagte das Hochschulministerium eine
+        Leningrader Genetikkonferenz per Telegramm ab, einen Tag vor Beginn. Chruschtschows Sturz 1964 ermöglichte
+        es der Akademie der Wissenschaften, sich 1965 offiziell von den Beschlüssen von 1948 zu distanzieren. Der
+        Wiederaufbau von Lehre und Laboren hatte schon früher begonnen und setzte sich danach fort.
+  - id: research-and-schooling
+    title: Was kam in Schulen und Forschung an?
+    paragraphs:
+      - Polnische Schüler mussten die neue Biologie lernen. Wie stark prägte sie die botanische Fachliteratur? Piotr
+        Köhler fand für die Jahre 1948–1958 rund 140 lyssenkistische Veröffentlichungen unter 3.410 botanischen
+        Arbeiten (4,1 Prozent). Die Zählung erfasst, was im Druck erschien. Was einzelne Botaniker glaubten oder
+        in einer Vorlesung zu sagen wagten, lässt sich daraus nicht ablesen.
+      - In der DDR verlief die Trennlinie zwischen Schule und Forschung. Während Schulbücher Lyssenko als Autorität
+        darstellten, erreichte Hans Stubbe bei Walter Ulbricht, dass sein Gaterslebener Institut für Kulturpflanzenforschung
+        weiterarbeiten konnte. Stubbe konnte Lyssenkos Thesen prüfen und ihnen widersprechen, obwohl er von 1951
+        bis 1967 der Deutschen Akademie der Landwirtschaftswissenschaften zu Berlin vorstand. Wer die sowjetische
+        Lehre übernahm, erscheint also je nach Quelle in anderem Licht. Ein Lehrplan erzählt eine andere Geschichte
+        als die Forschungsarbeiten einer Akademie.
+  - id: international-debate
+    title: Wie sich der Streit international ausbreitete
+    paragraphs:
+      - Am 30. November 1948 sendete das Third Programme der BBC getrennt aufgezeichnete Beiträge von R. A. Fisher,
+        Cyril Darlington, Sydney Harland und J. B. S. Haldane. Die ersten drei kritisierten Lyssenko. Der Genetiker
+        und Kommunist Haldane hatte einem Briefpartner geschrieben, Lyssenko sei mit seinen Angriffen auf sowjetische
+        Genetiker zu weit gegangen. Er lehnte auch die Bitte von Sympathisanten ab, eine gemeinsame Verteidigung
+        Lyssenkos zu organisieren. Nach der Sendung erhielt Haldane zustimmende Hörerbriefe.
+      - Wie die Debatte weiterging, lässt sich an einer Broschüre aus Oxford nachvollziehen. Die Society for Freedom
+        in Science veröffentlichte 1949 eine erweiterte Fassung von Fishers Rundfunkbeitrag zusammen mit dem Brief,
+        in dem der britische Physiologe Henry Dale seinen Austritt aus der sowjetischen Akademie der Wissenschaften
+        erklärte. Fisher wandte sich an ein Radiopublikum. Dale löste mit seinem Schreiben eine institutionelle
+        Bindung.
+      - Auch in Kontinentaleuropa waren sich Wissenschaftler mit ähnlichen politischen Überzeugungen uneins. Der
+        französische marxistische Biologe Marcel Prenant äußerte Zweifel, während viele andere französische Kommunisten
+        die Lehre unterstützten. In der Kommunistischen Partei Italiens stritten verschiedene Gruppen darüber, ob
+        die Partei Lyssenko unterstützen sollte. Ab 1951 äußerte sie sich dazu kaum noch öffentlich.
+      - Im Japan der amerikanischen Besatzungszeit interessierten sich manche Genetiker für die Berichte, weil sie
+        bereits die Vererbung über das Zytoplasma untersuchten, also über den Zellinhalt außerhalb des Zellkerns.
+        Die Historikerin Kaori Iida beschreibt, wie sich die Kritik an Lyssenko mit der Verschärfung des Kalten
+        Krieges zuspitzte. Eine Behauptung untersuchen zu wollen hatte institutionell eine andere Bedeutung, als
+        sie im Unterricht verbindlich vorzuschreiben.
+  - id: historical-interpretations
+    title: Warum Historiker Lyssenkos Aufstieg unterschiedlich erklären
+    paragraphs:
+      - David Joravsky betonte die Krise der kollektivierten Landwirtschaft und eine politische Kultur, die Entscheidungen
+        im Alleingang begünstigte. Nikolai Krementsov untersuchte die Folgen der Konkurrenz von Wissenschaftlern,
+        die bei der Beschaffung von Mitteln auf denselben Parteistaat angewiesen waren. Nils Roll-Hansen ging zu
+        den frühen Versuchen zurück und fragte, aus welchen praktischen Gründen Züchtern die Vernalisation plausibel
+        erschien. Wie der Historiker Michael Gordin erläutert, verlangen zwei Vorgänge nach einer Erklärung. Wie
+        fand ein Agronom Gehör für seine Versuche? Und warum erhielt er später von der Regierung Entscheidungsgewalt
+        über ein ganzes Fach?
+      - 2014 und 2015 erschienen in Russland Bücher mit der These, die moderne Biologie habe Lyssenko recht gegeben.
+        Der Historiker Loren Graham führte das erneute Interesse unter anderem auf die Epigenetik zurück. Bei der
+        Winterweizenstudie war entscheidend, welche Gene die Forschenden untersuchten, wie lange sie im Embryo aktiv
+        blieben und wann die Wirkung nachließ. So lässt sich genau bestimmen, was vom Kältereiz der Elternpflanze
+        im Keimling ankommt. Die Messungen zeigen auch, wo Lyssenkos Vorhersage einer dauerhaft veränderten Sorte
+        scheitert.
+      - Zwei Quellen laden zur vertiefenden Lektüre ein. Der Tagungsband von 1948 enthält neben Lyssenkos Vortrag die
+        Redebeiträge der Delegierten. Wer die internationale Geschichte weiterverfolgen möchte, findet im zweiten Band
+        von The Lysenko Controversy as a Global Phenomenon eigene Studien zu Ungarn, Italien und Japan.
 episodes:
   - id: ussr-1948-1964
     polity: Sowjetunion
@@ -81,15 +193,12 @@ episodes:
       - Akademie der Wissenschaften der UdSSR
       - Moskauer Staatliche Universität
       - Staatliche Universität Leningrad
-    institutionalContext: >-
-      Die VASKhNIL-Tagung von 1948 verlieh Lyssenkos Position staatlich gestützte Autorität. Hochschulminister Sergei
-      Kaftanows Anordnung vom 23. August verlangte Entlassungen und die Neuordnung von Lehre und Forschung. Die Akademie
-      der Wissenschaften der UdSSR beschloss anschließend eigene Maßnahmen gegen die Genetik. An den Universitäten
+    institutionalContext: Die VASKhNIL-Tagung von 1948 verlieh Lyssenkos Position staatlich gestützte Autorität. Hochschulminister
+      Sergei Kaftanows Anordnung vom 23. August verlangte Entlassungen und die Neuordnung von Lehre und Forschung. Die
+      Akademie der Wissenschaften der UdSSR beschloss anschließend eigene Maßnahmen gegen die Genetik. An den Universitäten
       Moskau und Leningrad wurden Lehrstühle umorganisiert und Gegner entlassen oder ersetzt. Dabei handelte es sich
       um Maßnahmen institutioneller Leitungen; einzelne Wissenschaftler derselben Einrichtungen leisteten Widerstand
-      und halfen später beim Wiederaufbau der Genetik. Lyssenkos frühere Vernalisationskampagne überschnitt sich mit
-      dem Holodomor; dessen belegte Beschaffungs- und Wanderungspolitik wird im Abschnitt zu den Auswirkungen gesondert
-      behandelt.
+      und halfen später beim Wiederaufbau der Genetik.
     summary: >-
       Nach der VASKhNIL-Tagung von 1948 erhielt Lyssenkos anti-mendelsche Biologie staatliche Rückendeckung. Genetiker
       verloren Stellen, Labore wurden geschlossen und Lehre sowie Forschung zur klassischen Genetik eingeschränkt.
@@ -151,17 +260,12 @@ episodes:
         schrittweise Rückkehr ihrer Lehrveranstaltungen und Forschungen. Beide Schulen durften ihre Positionen vertreten.
         Die Reaktion korrigierte Ausgrenzung und stellte wissenschaftliche Diskussion wieder her, belegt aber keine
         allgemeine institutionelle Zurückweisung sämtlicher lyssenkistischer Vererbungsbehauptungen.
-    institutionalContext: >-
-      China ordnete die Wissenschaft nach 1949 nach sowjetischem Vorbild neu. Von April bis Juni 1952 veranstalteten
-      das Planungsbüro der Akademie und das staatliche Referat für Wissenschaft und Gesundheit Beratungen, aus denen
-      ein Artikel der Volkszeitung vom 29. Juni hervorging: Die Biologie sollte der mitschurinschen Richtung folgen.
-      Die Chronik der Akademie beschreibt anschließend eingestellte Lehrveranstaltungen und Forschungen zur klassischen
-      Genetik, die Unterbrechung erfolgreicher Kreuzungszüchtung und den Druck auf Genetiker, gegen ihre Überzeugung
-      Stellung zu nehmen. Das Ministerium für Hochschulbildung veranstaltete später gemeinsam mit der Akademie die
-      Tagung von Qingdao 1956, die eine offene Diskussion wieder ermöglichte. Der Große Sprung nach vorn und die Hungersnot
-      folgten später im Zuge umfassenderer Veränderungen der staatlich gelenkten Landwirtschaft. Produktionsverluste,
-      die Verlagerung von Arbeitskräften, Getreidebeschaffung und Exporte wirkten zusammen; die gesamte Sterblichkeit
-      lässt sich dieser Genetikkampagne nicht zuschreiben.
+    institutionalContext: Das Planungsbüro der Akademie und das staatliche Referat für Wissenschaft und Gesundheit hielten
+      im Frühjahr 1952 drei Sitzungen ab. Am 29. Juni veröffentlichte die Volkszeitung ihre Schlussfolgerungen. Die
+      Autoren kritisierten, mit welchen Mitteln Le Tianyu die mitschurinsche Biologie durchgesetzt hatte. Zugleich forderten
+      sie eine breitere Kampagne gegen die Genetik in der Tradition Morgans. Die Akademie beschrieb später die Folgen
+      für Hochschulen und Zeitschriften. Lehrveranstaltungen fielen weg, erfolgreiche Kreuzungsversuche wurden abgebrochen,
+      und einige Genetiker mussten Stellungnahmen veröffentlichen, die ihrer eigenen Überzeugung widersprachen.
   - id: poland-1949-1956
     polity: Polen
     institutions:
@@ -181,7 +285,7 @@ episodes:
       - Entfernung der Genetik aus dem Unterricht
       - Unterdrückung konkurrierender biologischer Forschung
       - Politischer Druck auf Wissenschaftler
-      - Versuche zur Umgestaltung der Agrarwissenschaft
+      - Druck, die botanische Forschung auf landwirtschaftliche Anwendungen auszurichten
     mechanism:
       summary: >-
         Wissenschafts- und Bildungsinstitutionen machten die „Neue Biologie“ zum offiziellen Paradigma, schrieben
@@ -206,6 +310,64 @@ episodes:
       Fürsprecherin. Verwaltungsdruck, Publikationskontrolle und Lehrvorgaben schränkten konkurrierende Biologie
       ein. Ein großer Teil der botanischen Fachgemeinschaft leistete dennoch Widerstand oder mied die Doktrin;
       institutionelle Durchsetzung bedeutete keine einhellige wissenschaftliche Zustimmung.
+  - id: czechoslovakia-1948-1965
+    polity: Tschechoslowakei
+    institutions:
+      - Landwirtschaftliche Hochschule Brünn (Vysoká škola zemědělská), Aktionsausschuss
+      - Tschechoslowakische Akademie der Landwirtschaft (ČSAZ)
+    institutionalContext: Ende der 1950er-Jahre konnten Kritiker bereits wieder öffentlich zu Wort kommen. Dennoch
+      ernannte die Landwirtschaftsakademie Lyssenko im Juni 1959 zum Ehrenmitglied. Im April 1960 nahm er die Auszeichnung
+      in Prag persönlich entgegen und hielt einen Vortrag über mitschurinsche Agrobiologie. Die Ehrung inmitten erneuter
+      fachlicher Kritik erklärt, warum die Doktrin kein eindeutiges Enddatum hat.
+    consequences:
+      - Die Brünner Hochschule untersagte dem Genetiker Jaroslav Kříženecký den Zutritt zur Fakultät und entließ ihn.
+        Später wurde er inhaftiert.
+      - Die Pläne für ein Mendel-Institut in Brünn scheiterten nach der Machtübernahme 1948. Erst 1962 übernahm Kříženecký
+        eine Abteilung für die Geschichte der Genetik am Mährischen Landesmuseum.
+    summary: Nach der kommunistischen Machtübernahme 1948 stuften die Behörden die klassische Genetik als reaktionär
+      ein. Jaroslav Kříženecký verlor deshalb seine Stelle an der Landwirtschaftlichen Hochschule Brünn. Die Landwirtschaftsakademie
+      in Prag förderte die mitschurinsche Biologie noch, als Kritik bereits wieder öffentlich möglich war. Im Frühjahr
+      1965 konnten Studierende an der heutigen Brünner Masaryk-Universität wieder offizielle Genetikvorlesungen besuchen.
+    mechanism:
+      summary: Der Aktionsausschuss der Brünner Hochschule konnte einen Dozenten entlassen, der für die mendelsche
+        Genetik eintrat. An der Tschechoslowakischen Akademie der Landwirtschaft förderte Präsident Antonín Klečka
+        nach seinem Amtsantritt 1949 das sowjetische Vorbild.
+    institutionalCorrection:
+      periodLabel: 1962–1966
+      action: An der heutigen Masaryk-Universität fanden im Frühjahr 1965 wieder offizielle Genetikvorlesungen statt.
+        Die tschechoslowakische Regierung beschloss 1966, die Genetik zu fördern. Die landwirtschaftlichen Hochschulen
+        sollten Praktika und Lehrbücher erarbeiten.
+      summary: Das Mährische Landesmuseum berief Kříženecký 1962. Er starb 1964 und erlebte die Eröffnung des Mendelianums
+        durch seinen früheren Schüler Vítězslav Orel am 4. August 1965 während des internationalen Mendel-Symposiums
+        nicht mehr. Mit dieser öffentlichen Rehabilitierung in Brünn endet die Episode. Im Folgejahr erhielt auch
+        der Aufbau von Genetiklaboren auf staatlicher Ebene Vorrang.
+  - id: east-germany-1951-1965
+    polity: Deutsche Demokratische Republik (DDR)
+    institutions:
+      - Ministerium für Volksbildung der DDR, Lehrpläne für den schulischen Biologieunterricht
+    institutionalContext: Das Ministerium schrieb die Lernziele für einzelne Jahrgänge vor. 1951 verlangte es für
+      die achte und zehnte Klasse, Mitschurin und Lyssenko im Biologieunterricht zu behandeln. Die Oberschullehrpläne
+      von 1953 und 1954 forderten für die zwölfte Klasse Kritik an der klassischen Genetik. Georg Schneider, ein Jenaer
+      Verfechter der Lehre, wirkte am Biologiebuch von 1952 für die zwölfte Klasse mit.
+    consequences:
+      - In den Klassen 8, 10 und 12 nahmen Mitschurin und Lyssenko bei den Themen Evolution und Züchtung einen wichtigen
+        Platz ein.
+      - Sowjetische Genetiker wie Nikolai Wawilow blieben in den Unterrichtsmaterialien zunächst unerwähnt. Spätere
+        Schulbücher für die zwölfte Klasse behandelten seine Arbeit.
+    summary: Das Volksbildungsministerium der DDR verankerte die mitschurinsche Biologie in den 1950er-Jahren im Schulunterricht.
+      Es bestimmte Lernziele und Lehrbücher. In Gatersleben konnten Genetiker in denselben Jahren weiterhin auf der
+      Grundlage der mendelschen Genetik forschen und diese vertreten.
+    mechanism:
+      summary: Über landesweite Lehrpläne und Schulbücher gab das Ministerium vor, dass Schüler Lyssenkos Vererbungslehre
+        behandeln und die konkurrierende Gen- und Chromosomentheorie kritisieren sollten.
+    institutionalCorrection:
+      periodLabel: 1959–1966
+      action: Ein Lehrplan der zehnten Klasse schrieb 1959 die mendelschen Regeln vor. Für die zwölfte Klasse verlangte
+        der ab 1963 gültige Lehrplan weiterhin eine kritische Behandlung der klassischen Genetik. Eine Aufgabensammlung
+        von 1966 ließ die Schüler selbst Kreuzungen durchführen und die Merkmalsverhältnisse der Nachkommen bestimmen.
+      summary: Das Endjahr bezeichnet die Wende im Schulunterricht Mitte der 1960er-Jahre. Wann sie einsetzte, hing
+        von Klassenstufe und Schultyp ab. Nach 1965 verschwand Lyssenko aus den untersuchten Lehrmaterialien. Zuvor
+        übergangene Wissenschaftler fanden wieder Eingang in die Darstellung von Vererbung und Evolution.
 evidence:
   - id: lysenko-history-proposition
     note: >-
@@ -213,174 +375,466 @@ evidence:
       Verluste in sowjetischer Landwirtschaft, Genetik, Evolutionstheorie, Molekularbiologie und wissenschaftlicher
       Kontinuität zwischen Generationen verursachte. Die Darstellung benennt außerdem die Lehre von der Vererbung
       erworbener Merkmale, die Ablehnung einer Erbsubstanz und die offizielle Billigung von Lyssenkos Rede.
+    locator: Abschnitt „The August 1948 VASKhNIL Session and its Aftermath“, insbesondere die Absätze mit den Anfangsworten
+      „In his speech, Lysenko rejected“ und „In Lysenko’s closing statement“.
   - id: lysenko-pushback-correction
     note: >-
       Historischer Überblick über staatliche Unterstützung des Lyssenkoismus, die Unterdrückung der Genetik und ihre
       Rehabilitierung nach der Chruschtschow-Ära. Die Darstellung der Doktrin unterscheidet die Ablehnung der DNA-
       und Chromosomenvererbung von der späteren institutionellen Rehabilitierung; moderne genetische und epigenetische
       Evidenz wird gesondert belegt.
+    locator: „The arrival of Lysenkoism“, nummerierte Liste der Lehrsätze zur Vererbung erworbener Merkmale und zur
+      Ablehnung der Chromosomentheorie. Anschließend die Absätze zu landwirtschaftlichen Behauptungen und zur Unterdrückung
+      der Genetik.
   - id: lysenko-pushback-impact
     note: >-
       Dokumentiert Unterdrückung und den schwierigen Wiederaufbau biologischer Forschung und Lehre, einschließlich
       geschützter Arbeit vor 1964.
+    locator: Abstract sowie die Abschnitte „Revival of a full-fledged biological education“, „The attempts of nationwide
+      rehabilitation of genetics“ und „Conclusions“. Sie behandeln die geschützte Forschung der 1950er-Jahre und die
+      spätere offizielle Rehabilitierung.
   - id: lysenko-holodomor-impact
     note: >-
       Quantitative Studie zum Holodomor, die zeigt, dass Wanderungsbeschränkungen und eine antiukrainische Verzerrung
       der sowjetischen Getreidebeschaffungs- und Rückhaltungspolitik zur hohen ukrainischen Sterblichkeit beitrugen;
       hier zur Abgrenzung dieser belegten Mechanismen von Lyssenkos gleichzeitigem Agrarprogramm verwendet.
+    locator: Das Abstract des Verlags behandelt die regional unterschiedliche Sterblichkeit, die Benachteiligung der
+      Ukraine bei der Getreideablieferung und beim Verbleib von Vorräten sowie die Beschränkung der Freizügigkeit. Grundlage
+      ist das Abstract.
   - id: lysenko-china-famine-impact
     note: >-
       Gibt eine Schätzung von etwa 15–30 Millionen zusätzlichen Todesfällen während der Großen Chinesischen Hungersnot
       und betont, dass die Hungersnot aus mehreren zusammenwirkenden Faktoren entstand.
+    locator: Die Einleitung nennt auf S. 659 im ersten Absatz und in Fußnote 1 die Spanne von 15 bis 30 Millionen. Die
+      ersten beiden Absätze von „The 1959–1961 famine in China“ (Abschnitt 2) behandeln das Zusammenwirken mehrerer
+      Ursachen. Geprüft wurden die genannten Passagen.
   - id: lysenko-great-leap-impact
     note: >-
       Modelliert, wie optimistische Produktivitätserwartungen, die Verlagerung landwirtschaftlicher Arbeitskräfte
       und erhöhte Getreidebeschaffung mit sinkender Produktion zusammenwirkten und den Nahrungsmittelkonsum einbrechen
       ließen.
+    locator: Abstract (S. 840), Einleitung (S. 841–844) und Abschnitt II „Development Strategy and Rural Institutions“
+      (S. 844–845). Die Autoren behandeln Ertragserwartungen, Kollektivierung, überhöhte Erntemeldungen, den Abzug von
+      Arbeitskräften und zu hohe Getreideabgaben.
   - id: lysenko-grain-exports-impact
     note: >-
       Zeigt, dass sinkende Agrarproduktion, höhere Beschaffung, Getreideexporte und zunehmend starre Beschaffung gemeinsam
       die Übersterblichkeit erhöhten; kein einzelner Faktor erklärt die Hungersnot insgesamt.
+    locator: Grundlage sind das Abstract des Verlags, die „Highlights“ und der frei zugängliche Teil der Einleitung.
+      Sie beschreiben die Analyse auf Kreisebene und die Modellrechnungen zu Erntemengen, Getreideablieferungen, Exporten
+      und starren Ablieferungsquoten.
   - id: lysenko-nature-ussr-carrier
     note: >-
       Zeitgenössischer Bericht von 1948 über Entlassungen, Laborschließungen und die Entfernung orthodoxer Genetiker
       nach dem Akademiebeschluss. Der eingesehene Vorschautext identifiziert die Akademie der Wissenschaften der UdSSR
       und ihren Beschluss, nicht die gesonderte Ministerialanordnung oder VASKhNIL-Tagung.
+    locator: Grundlage ist der erste Absatz im „Extract“ des Verlags. Er nennt den am 27. August 1948 veröffentlichten
+      Beschluss des Akademiepräsidiums, Entlassungen, die Schließung zweier Labore und den Ausschluss aus Ausschüssen
+      und Redaktionen.
   - id: lysenko-history-ussr-mechanism
     note: >-
       Untersucht die institutionelle Übernahme von 1948 und kommt zu dem Schluss, dass der Lyssenkoismus erhebliche
       Verluste in sowjetischer Landwirtschaft, Genetik, Evolutionstheorie, Molekularbiologie und wissenschaftlicher
       Kontinuität zwischen Generationen verursachte. Die angegebenen Absätze konkretisieren die Lehr-, Personal- und
       Forschungsanordnungen, über die die Kampagne wirkte.
+    locator: Abschnitt „The August 1948 VASKhNIL Session and its Aftermath“. Einschlägig sind die Absätze zum Eingriff
+      am 9. August, zur Moskauer Universität, zu Kaftanows Anordnung vom 23. August und zur Vernichtung von Lehrbüchern
+      und genetischem Material.
   - id: lysenko-nature-ussr-consequences
     note: >-
       Die zeitgenössische Vorschau belegt Entlassungen, Laborschließungen und Ausschlüsse aus wissenschaftlichen Gremien.
       Folgen für ministeriell gesteuerte und universitäre Lehre sind gesondert belegt.
+    locator: Grundlage ist der erste Absatz im „Extract“ des Verlags. Er nennt den am 27. August 1948 veröffentlichten
+      Beschluss des Akademiepräsidiums, Entlassungen, die Schließung zweier Labore und den Ausschluss aus Ausschüssen
+      und Redaktionen.
   - id: lysenko-pushback-ussr-correction
     note: >-
       Historischer Überblick über staatliche Unterstützung des Lyssenkoismus, die Unterdrückung der Genetik und ihre
       Rehabilitierung nach der Chruschtschow-Ära. Die archivalische Analyse beschreibt die Akademieberatungen von
       1965 und anschließende Forschungs- und Lehrvorhaben, ohne ein sofortiges Ende jedes lyssenkistischen Einflusses
       zu behaupten.
+    locator: Abschnitt „The Academy of Sciences 1965 General Assembly and the official rehabilitation of genetics in
+      the USSR“. Behandelt werden die Direktorenwahl im Januar 1965, Keldyschs Erklärungen im Februar, geplante Forschungs-
+      und Lehreinrichtungen sowie fortbestehende Publikationsbeschränkungen.
   - id: lysenko-china-biotech-carrier
     note: >-
       Beschreibt Chinas sowjetisches Wissenschaftsmodell nach 1949 und die Aufgabe der klassischen Genetik zugunsten
       des Lyssenkoismus. Dies liefert nationalen Kontext; die benannten Planungsstellen von 1952 werden durch die
       Akademiechronik belegt.
+    locator: Abschnitt „China’s Long History of Biotechnology“, insbesondere die Absätze zur Neuordnung von Grundlagenforschung,
+      angewandter Forschung und Hochschulen nach sowjetischem Vorbild ab 1949 und zur Verdrängung der klassischen Genetik.
   - id: lysenko-china-biotech-mechanism
     note: >-
       Erläutert die institutionelle Neuordnung nach sowjetischem Vorbild und die Verdrängung klassischer Genetik;
       der konkrete Durchsetzungsprozess von 1952 ist gesondert belegt.
+    locator: Abschnitt „China’s Long History of Biotechnology“, insbesondere die Absätze zur Neuordnung von Grundlagenforschung,
+      angewandter Forschung und Hochschulen nach sowjetischem Vorbild ab 1949 und zur Verdrängung der klassischen Genetik.
   - id: lysenko-china-monograph-consequences
     note: >-
       Schneiders Geschichte behandelt Genetik unter der Parteidoktrin, die Öffnung von 1956 und spätere
       Rückschläge. Beschreibung und Inhaltsverzeichnis des Verlags belegen diesen Gegenstand; der nicht
       eingesehene Kapiteltext dient nicht als direkter Beleg für bestimmte Agrarverfahren oder Folgen der
       Hungersnot.
+    locator: Grundlage sind die Verlagsbeschreibung und das Inhaltsverzeichnis (Kapitel 4–7). Sie nennen die Unterdrückung
+      der Genetik, die Parteidoktrin, die Öffnung während der Hundert-Blumen-Bewegung und spätere Rückschläge.
   - id: lysenko-history-china-correction
     note: >-
       Untersucht die internationale Ausbreitung des Lyssenkoismus und hält fest, dass die Genetik in China 1956 offiziell
       rehabilitiert wurde. Die präzisere Akademiechronik zeigt, dass Rehabilitierung die Wiederöffnung von Diskussion
       und Arbeit beider Schulen bedeutete; darauf beruht die Einordnung als teilweise Korrektur.
+    locator: Abschnitt „International Effect of the VASKhNIL Session“ zur Rehabilitierung der Genetik in China 1956,
+      zur administrativen Einführung der Doktrin in Polen und zum Kurswechsel dort nach 1956.
   - id: lysenko-poland-carrier
     note: >-
       Dokumentiert die Erklärung vom März 1949, Lehrplanänderungen, Unterdrückung und das Ende der offiziellen Kampagne.
       Köhlers organisationsgeschichtliche Darstellung benennt die hier verwendeten institutionellen Träger.
+    locator: Einleitung und Darstellung zur polnischen Zoologie. Einschlägig sind die Tagung vom 30. März 1949, die
+      Streichung der Genetikkurse und ihre Wiedereinführung 1957 sowie die Passagen zu Druck, Widerstand und der Vermeidung
+      der offiziellen Terminologie.
   - id: lysenko-poland-mechanism
     note: >-
       Dokumentiert ideologische Sprache und Verwaltungsdruck in Lehre und Publikationen; beschreibt auch Widerstand
       sowie Unterschiede zwischen öffentlichen Erklärungen und wissenschaftlicher Arbeit.
+    locator: Einleitung und Darstellung zur polnischen Zoologie. Einschlägig sind die Tagung vom 30. März 1949, die
+      Streichung der Genetikkurse und ihre Wiedereinführung 1957 sowie die Passagen zu Druck, Widerstand und der Vermeidung
+      der offiziellen Terminologie.
   - id: lysenko-poland-consequences
     note: >-
       Belegt die Folgen für Lehre und beruflichen Druck, einschließlich gestrichener Genetikkurse und ihrer Rückkehr
       1957; belegt keine einhellige Zustimmung polnischer Biologen.
+    locator: Einleitung und Darstellung zur polnischen Zoologie. Einschlägig sind die Tagung vom 30. März 1949, die
+      Streichung der Genetikkurse und ihre Wiedereinführung 1957 sowie die Passagen zu Druck, Widerstand und der Vermeidung
+      der offiziellen Terminologie.
   - id: lysenko-history-poland-context
     note: >-
       Untersucht die administrative Einführung der mitschurinschen Biologie in Polen und ihr Verschwinden aus dem
       offiziellen Massendiskurs nach 1956.
+    locator: Abschnitt „International Effect of the VASKhNIL Session“ zur Rehabilitierung der Genetik in China 1956,
+      zur administrativen Einführung der Doktrin in Polen und zum Kurswechsel dort nach 1956.
   - id: lysenko-holodomor-ussr-context
     note: >-
       Quantitative Studie zum Holodomor, die zeigt, dass Wanderungsbeschränkungen und eine antiukrainische Verzerrung
       der sowjetischen Getreidebeschaffungs- und Rückhaltungspolitik zur hohen ukrainischen Sterblichkeit beitrugen;
       hier zur Abgrenzung dieser belegten Mechanismen von Lyssenkos gleichzeitigem Agrarprogramm verwendet.
+    locator: Das Abstract des Verlags behandelt die regional unterschiedliche Sterblichkeit, die Benachteiligung der
+      Ukraine bei der Getreideablieferung und beim Verbleib von Vorräten sowie die Beschränkung der Freizügigkeit. Grundlage
+      ist das Abstract.
   - id: lysenko-china-famine-context
     note: >-
       Gibt eine Schätzung von etwa 15–30 Millionen zusätzlichen Todesfällen während der Großen Chinesischen Hungersnot
       und betont, dass die Hungersnot aus mehreren zusammenwirkenden Faktoren entstand.
+    locator: Die Einleitung nennt auf S. 659 im ersten Absatz und in Fußnote 1 die Spanne von 15 bis 30 Millionen. Die
+      ersten beiden Absätze von „The 1959–1961 famine in China“ (Abschnitt 2) behandeln das Zusammenwirken mehrerer
+      Ursachen. Geprüft wurden die genannten Passagen.
   - id: lysenko-great-leap-china-context
     note: >-
       Modelliert, wie optimistische Produktivitätserwartungen, die Verlagerung landwirtschaftlicher Arbeitskräfte
       und erhöhte Getreidebeschaffung mit sinkender Produktion zusammenwirkten und den Nahrungsmittelkonsum einbrechen
       ließen.
+    locator: Abstract (S. 840), Einleitung (S. 841–844) und Abschnitt II „Development Strategy and Rural Institutions“
+      (S. 844–845). Die Autoren behandeln Ertragserwartungen, Kollektivierung, überhöhte Erntemeldungen, den Abzug von
+      Arbeitskräften und zu hohe Getreideabgaben.
   - id: lysenko-grain-exports-china-context
     note: >-
       Zeigt, dass sinkende Agrarproduktion, höhere Beschaffung, Getreideexporte und zunehmend starre Beschaffung gemeinsam
       die Übersterblichkeit erhöhten; kein einzelner Faktor erklärt die Hungersnot insgesamt.
+    locator: Grundlage sind das Abstract des Verlags, die „Highlights“ und der frei zugängliche Teil der Einleitung.
+      Sie beschreiben die Analyse auf Kreisebene und die Modellrechnungen zu Erntemengen, Getreideablieferungen, Exporten
+      und starren Ablieferungsquoten.
   - id: lysenko-dna-correction
     note: Erklärt DNA als biologischen Informationsträger und die Bedeutung ihrer Sequenz für genetische Information.
+    locator: Die drei Abschnitte „What is DNA?“, „What does DNA do?“ und „How are DNA sequences used to make proteins?“.
   - id: lysenko-stress-memory-correction
     note: >-
       Ein konkretes Pflanzenexperiment stützt die begrenzte Aussage zu umweltbedingter Vererbung: Stressbedingte epigenetische
       Effekte wurden bedingt weitergegeben und ohne Stress zurückgesetzt. Es bestätigt nicht die lyssenkistische Verallgemeinerung.
+    locator: Abstract, „eLife digest“ und Einleitung der korrigierten Fassung. Sie beschreiben, unter welchen Bedingungen
+      stressbedingte DNA-Methylierung weitergegeben wurde, warum dies vorwiegend über die mütterliche Linie geschah
+      und wie der Effekt ohne erneuten Stress abklang.
   - id: lysenko-dna-ussr-context
     note: >-
       Wissenschaftlicher Hintergrund zur Vererbungsbehauptung und ihrer Korrektur; kein historischer Beleg für sowjetische
       Institutionshandlungen.
+    locator: Die drei Abschnitte „What is DNA?“, „What does DNA do?“ und „How are DNA sequences used to make proteins?“.
   - id: lysenko-stress-ussr-context
     note: >-
       Moderner experimenteller Kontext zur begrenzten epigenetischen Einschränkung in der wissenschaftlichen Korrektur;
       kein Beleg für die historischen Verwaltungsbehauptungen.
+    locator: Abstract, „eLife digest“ und Einleitung der korrigierten Fassung. Sie beschreiben, unter welchen Bedingungen
+      stressbedingte DNA-Methylierung weitergegeben wurde, warum dies vorwiegend über die mütterliche Linie geschah
+      und wie der Effekt ohne erneuten Stress abklang.
   - id: lysenko-history-ussr-carrier
     note: >-
       Identifiziert VASKhNIL, den Hochschulminister, die Akademie und die beiden Universitäten bei der Umsetzung der
       Kampagne von 1948.
+    locator: Abschnitt „The August 1948 VASKhNIL Session and its Aftermath“ zur Schlusserklärung der VASKhNIL, zur Ministerialanordnung
+      vom 23. August, zum Umbau in Moskau und Leningrad sowie zur erweiterten Sitzung des Akademiepräsidiums vom 24.
+      bis 26. August.
   - id: lysenko-history-ussr-consequences
     note: >-
       Belegt alle vier Folgenthemen durch Entlassungen, Lehrstuhlumbau, zurückgezogene Lehrbücher und vernichtetes
       genetisches Material.
+    locator: Abschnitt „The August 1948 VASKhNIL Session and its Aftermath“. Einschlägig sind die Absätze zum Eingriff
+      am 9. August, zur Moskauer Universität, zu Kaftanows Anordnung vom 23. August und zur Vernichtung von Lehrbüchern
+      und genetischem Material.
   - id: lysenko-history-numeric-impact
     note: >-
       Gibt Strunnikows historische Aufstellung mit 127 Lehrkräften, darunter 66 Professoren, sowie mehreren Tausend
       späteren Personalmaßnahmen wieder. Es sind Angaben aus der Literatur, keine neue Zählung für diesen Katalog.
+    locator: Abschnitt „The August 1948 VASKhNIL Session and its Aftermath“, Absatz mit den Anfangsworten „Academician
+      Vladimir Strunnikov“ und Verweis auf Strunnikov (2004). Die folgenden Absätze behandeln Entlassungen in Moskau
+      und Leningrad.
   - id: lysenko-history-early-impact
     note: >-
       Belegt die Chronologie der frühen Vernalisationskampagne und Wawilows angeordnete Unterstützung, nicht die Zuschreibung
       der Holodomor-Sterblichkeit an dieses Programm.
+    locator: Abschnitt „Background and Secret Preparation of the August 1948 VASKhNIL Session“. Die einschlägigen Absätze
+      behandeln das Vernalisationsprogramm von 1931, die Hungersnot von 1932–1933 und Jakowlews Weisung an Wawilow.
   - id: lysenko-history-residual-context
     note: >-
       Beschreibt Erholung vor 1964 und fortbestehende mitschurinsche Leitungen danach und präzisiert damit die Bedeutung
       des repräsentativen Episodenendes.
+    locator: Abschnitt „The August 1948 VASKhNIL Session and its Aftermath“ zu Leningrad 1953–1955, zum Wiederaufbau
+      genetischer Labore 1956–1957 und zum Verbleib von Mitschurinisten in Leitungspositionen nach Oktober 1964.
   - id: lysenko-cas-1952-carrier
     note: >-
       Benennt das Planungsbüro der Akademie und das staatliche Referat für Wissenschaft und Gesundheit als Veranstalter
       der Beratungen von 1952.
+    locator: Chronik für 1952, Abschnitt „召开生物科学工作座谈会“. Auf die Schilderung der Treffen von April bis Juni und des Artikels
+      vom 29. Juni in der Volkszeitung folgt der Absatz über Lehrveranstaltungen, Forschung, Fachzeitschriften und erzwungene
+      Erklärungen.
   - id: lysenko-cas-1952-mechanism
     note: Verbindet Beratungen und Eingriff der Parteipresse mit wissenschaftlicher Richtungssteuerung und Ausgrenzung.
+    locator: Chronik für 1952, Abschnitt „召开生物科学工作座谈会“. Auf die Schilderung der Treffen von April bis Juni und des Artikels
+      vom 29. Juni in der Volkszeitung folgt der Absatz über Lehrveranstaltungen, Forschung, Fachzeitschriften und erzwungene
+      Erklärungen.
   - id: lysenko-cas-1952-consequences
     note: >-
       Beschreibt ausdrücklich unterbrochene Lehrveranstaltungen, Forschung und Kreuzungszüchtung, eingeschränkte Publikationen
       und erzwungene Erklärungen.
+    locator: Chronik für 1952, Abschnitt „召开生物科学工作座谈会“. Auf die Schilderung der Treffen von April bis Juni und des Artikels
+      vom 29. Juni in der Volkszeitung folgt der Absatz über Lehrveranstaltungen, Forschung, Fachzeitschriften und erzwungene
+      Erklärungen.
   - id: lysenko-cas-1952-impact
     note: Direkter Beleg für die im Überblick beschriebenen chinesischen Verluste in Lehre und Züchtungsforschung.
+    locator: Chronik für 1952, Abschnitt „召开生物科学工作座谈会“. Auf die Schilderung der Treffen von April bis Juni und des Artikels
+      vom 29. Juni in der Volkszeitung folgt der Absatz über Lehrveranstaltungen, Forschung, Fachzeitschriften und erzwungene
+      Erklärungen.
   - id: lysenko-cas-1956-correction
     note: >-
       Dokumentiert die Tagung von Akademie und Ministerium, den Verzicht auf politische Etikettierungen sowie anschließende
       Änderungen in Forschung, Lehre und Publikationen; beide Schulen durften teilnehmen.
+    locator: Chronik für 1956, Abschnitt „遗传学座谈会在青岛召开“. Er behandelt die Tagung vom 10. bis 25. August, den Umgang mit
+      politischen Etikettierungen, die Beiträge beider Schulen und die anschließenden Änderungen in Forschung, Lehre
+      und Publikationswesen.
   - id: lysenko-kohler-poland-carrier
     note: >-
       Benennt die Vereinigung marxistischer Naturforscher und ihre Verschmelzung, die biologische Akademieabteilung
       und Evolutionskommission, das Hochschulministerium und die Kopernikus-Gesellschaft.
+    locator: Abschnitt „The implementation of Lysenkoism and the collapse of its propaganda in Poland“ zum Gesetz vom
+      30. Oktober 1951 und zur Abteilung II, zum Zusammenschluss am 2. März 1952, zur Präsidiumssitzung am 24. Mai und
+      zum Lehrgang in Dziwnów vom 7. Juli bis 7. August. Textfassung über das Hochschulrepositorium des Autors.
   - id: lysenko-kohler-poland-mechanism
     note: >-
       Dokumentiert organisatorische Verbreitung und den Lehrgang in Dziwnów 1952 unter Verantwortung von Ministerium
       und Akademiekommission.
+    locator: Abschnitt „The implementation of Lysenkoism and the collapse of its propaganda in Poland“ zum Gesetz vom
+      30. Oktober 1951 und zur Abteilung II, zum Zusammenschluss am 2. März 1952, zur Präsidiumssitzung am 24. Mai und
+      zum Lehrgang in Dziwnów vom 7. Juli bis 7. August. Textfassung über das Hochschulrepositorium des Autors.
   - id: lysenko-kohler-poland-consequences
     note: >-
       Belegt Verwaltungs- und Lehrdruck sowie Versuche zur Umlenkung botanischer Forschung, stellt aber eine begrenzte
       Übernahme in großen Teilen der tatsächlichen Forschung fest.
+    locator: In Köhlers Aufsatz die Passagen zu passivem Widerstand, zu Veröffentlichungen der Polnischen Botanischen
+      Gesellschaft, zu Verwaltungsdruck und Einschränkungen der Lehre. Köhler unterscheidet botanische Forschungspraxis
+      und öffentliche Werbung für die Doktrin.
   - id: lysenko-kohler-poland-correction
     note: >-
       Unterscheidet den weiterhin prolyssenkistischen Beschluss vom Mai 1955 von der Akademiekritik im Juni 1956 und
       der anschließenden Wiederherstellung genetischer Lehrinhalte.
+    locator: In Köhlers Aufsatz die Absätze mit den Anfangsworten „On the 9th of May 1955“ und „During the 6th Session
+      of the General Assembly“. Sie behandeln die Durchsetzung 1955, die Kritik am 11. und 12. Juni 1956 und die Rückkehr
+      der Genetik in die Lehrpläne 1957–1958.
   - id: lysenko-strzadala-poland-correction
     note: Dokumentiert unabhängig die Rückkehr der Genetikkurse 1957 nach ihrer Streichung 1949.
+    locator: Einleitung und Darstellung zur polnischen Zoologie. Einschlägig sind die Tagung vom 30. März 1949, die
+      Streichung der Genetikkurse und ihre Wiedereinführung 1957 sowie die Passagen zu Druck, Widerstand und der Vermeidung
+      der offiziellen Terminologie.
+  - id: lysenko-earliest-wheat
+    note: Unterscheidet die beobachtbaren Wirkungen der Kältebehandlung von den Ertragssteigerungen und erblichen
+      Veränderungen, die Lyssenko versprach.
+    locator: Abschnitt „Background and Secret Preparation of the August 1948 VASKhNIL Session“, Absätze zur „yarovization“
+      und zu den früheren Arbeiten von Klippart, Grachev und Gassner.
+  - id: lysenko-report-doctrine
+    note: Lyssenko beschreibt die Vererbung erworbener Merkmale, die Weitergabe von Chromosomen bei der geschlechtlichen
+      Fortpflanzung und seine Ablehnung der Chromosomentheorie der Vererbung.
+    locator: Gedruckte S. 28–31 zur gezielten Veränderung, zur Mentormethode, zur Merkmalsübertragung durch Pfropfung
+      und zu Winterformen. Im Schlusswort (S. 42–43) unterscheidet Lyssenko zwischen den Chromosomen selbst und der
+      Chromosomentheorie.
+  - id: lysenko-konstantinov-trials
+    note: Gibt Konstantinows Vergleich einschließlich des zusätzlichen Aufwands wieder. Die Ertragszahl gilt für diesen
+      Versuch.
+    locator: Abschnitt „The arrival of Lysenkoism“, Absatz mit dem Verweis auf Konstantinov (1937) zu Saatgutbedarf,
+      Brandpilzbefall und Ertrag.
+  - id: lysenko-michurin-names
+    note: Erklärt Presents Rolle und wie sich Lyssenkos Programm auf Mitschurins Namen und Ansehen berief.
+    locator: Einleitende Erläuterung der Bezeichnungen und Abschnitt „Comrade Lysenko“, insbesondere die Passagen
+      zu Present, Mitschurins Obstzüchtung und der mitschurinistischen Vererbungslehre.
+  - id: lysenko-morgan-cross
+    note: Rekonstruiert Morgans Vorhersage und die Augenfarben, die er bei den Söhnen und Töchtern beobachtete.
+    locator: Absätze zur X-Chromosomen-Hypothese und zur Kreuzung eines rotäugigen Männchens mit einem weißäugigen
+      Weibchen.
+  - id: lysenko-report-tomatoes
+    note: Überliefert Lyssenkos Beobachtungen und seine Antwort an Schukowski in der Fassung, die er der Tagung vortrug.
+    locator: Gedruckte S. 41–42, Schlusswort zur gepfropften Tomate, zu den sechs Pflanzen, zur Möglichkeit einer
+      Fremdbestäubung und zur erwarteten Fruchtfarbe der ersten Kreuzungsgeneration.
+  - id: lysenko-boehme-grafts
+    note: Böhme schildert seinen Versuch, die behauptete Merkmalsübertragung bei gepfropften Pflanzen zu bestätigen,
+      sowie die abweichenden Nachkommen und das Ergebnis späterer Kontrollen.
+    locator: Gedruckte S. 60–62 zu den Versuchen 1951–1957, zu somatischen Mutationen und zur Folgeuntersuchung, die
+      Böhme 1957 veröffentlichte.
+  - id: lysenko-boehme-grain
+    note: Beschreibt die Versuchsbedingungen und berichtet, dass sich die behauptete erbliche Umwandlung des Winterweizens
+      nicht reproduzieren ließ.
+    locator: Gedruckte S. 61, Absatz über Stubbes Weizenversuche von 1949 bis 1952. Auf S. 62 steht der Nachweis der
+      Erstveröffentlichung von 1955 in „Der Züchter“, Band 25, S. 321–330.
+  - id: lysenko-niu-reset
+    note: Zeigt, wie eine Winterform des Brotweizens einen durch Kälte ausgelösten Zustand an frühe Embryonen weitergibt
+      und wie der Kältebedarf in der nächsten Generation wiederkehrt.
+    locator: Abstract in „Nature Plants“ 10, S. 37–52 (2024), zu TaVRN1 während der Embryonalentwicklung und TaVRN2
+      bei der Keimung.
+  - id: lysenko-stegemann-grafts
+    note: Weist einen Austausch von Erbmaterial bei Tabak in Zellen an der Verwachsungsstelle nach.
+    locator: Abstract in „Science“ 324, S. 649–651 (2009), zu markierten Zellen an den Pfropfstellen.
+  - id: lysenko-vavilov-career
+    note: Ordnet Wawilows Forschungen zur Pflanzenvielfalt und seine frühe Unterstützung Lyssenkos in die Vorgeschichte
+      ihres späteren Konflikts ein.
+    locator: Abschnitt „Comrade Lysenko“, Absätze zu Wawilows Präsidentschaft der Akademie, seinen Saatgutsammlungen
+      und seiner frühen Förderung Lyssenkos.
+  - id: lysenko-vavilov-arrest
+    note: Datiert die Expedition, die Haft, die Umwandlung des Todesurteils und den Tod in Saratow auf die Jahre vor
+      der Tagung von 1948.
+    locator: Biografischer Eintrag zu Wawilows Absetzung als Akademiepräsident 1935, zum Bruch mit Lyssenko 1939 und
+      zur Verhaftung 1940. Die einleitenden Angaben nennen Sterbeort und -datum.
+  - id: lysenko-session-floor
+    note: Belegt den Widerspruch einzelner Tagungsteilnehmer und die Entscheidung der Partei.
+    locator: Am Ende von „Background and Secret Preparation“ wird Stalins Prüfung des Berichts behandelt. Die ersten
+      Absätze von „The August 1948 VASKhNIL Session and its Aftermath“ nennen die Tagungsdaten und Boris Sawadowskis
+      Wortmeldung (Schreibweise dort „Zavadoskii“).
+  - id: lysenko-report-approval
+    note: Überliefert in Lyssenkos eigenen Worten, wie er vor den Delegierten die Billigung durch das Zentralkomitee
+      bekannt gab.
+    locator: Gedruckte S. 39, Beginn der „Concluding Remarks“ mit Lyssenkos Antwort auf die Frage nach der Haltung
+      des Zentralkomitees.
+  - id: lysenko-pushback-resistance
+    note: Zeigt, wie Wissenschaftler die Genetik fortführten und welche Hindernisse offenen Fachtagungen weiterhin
+      im Weg standen.
+    locator: 'Das Abstract behandelt den Schutz durch die Kernphysik. Der Abschnitt „The attempts of nationwide rehabilitation
+      of genetics: the ‘Letter of three hundred’“ beschreibt die Eingaben von 1955 und die Absage der Konferenz von
+      1961.'
+  - id: lysenko-gordin-interpretations
+    note: Stellt historische Erklärungen für die frühe Resonanz auf Lyssenkos Arbeit und für den Zeitpunkt von Stalins
+      Eingreifen gegenüber.
+    locator: Abschnitt „Lysenko Triumphant“, Diskussion der Deutungen von Joravsky, Krementsov und Roll-Hansen und
+      ihrer unterschiedlichen Fragestellungen.
+  - id: kohler-publication-count
+    locator: S. 45, Absatz zur Bibliografie der polnischen Botanik und anschließende Einordnung der Publikationsformen.
+    note: Köhler zählt für 1948–1958 rund 140 lyssenkistische Arbeiten unter 3.410 botanischen Veröffentlichungen.
+  - id: gdr-textbook-background
+    locator: Abschnitt „Lysenkoism — a popular export?“ und Zusammenfassung.
+    note: Stellt Widerstand in der Forschung der hervorgehobenen Rolle Lyssenkos in Schulbüchern gegenüber.
+  - id: stubbe-institute-background
+    locator: Einleitung und Absatz zu Walter Ulbricht vor der Darstellung der Getreideforschung in den 1950er-Jahren.
+    note: Das Institut nennt die Amtszeit seines Direktors als Akademiepräsident und beschreibt die Absicherung der
+      Forschung in Gatersleben.
+  - id: darlington-bbc-record
+    locator: Vorträge und Rundfunkbeiträge, „The Lysenko Controversy“, zwischen F.90 und F.92, Katalog S. 156.
+    note: Datiert die Sendung auf den 30. November 1948 und nennt die vier Teilnehmer sowie das erhaltene Manuskript.
+  - id: wellcome-dale-response
+    locator: Broschüre von 1949, Katalogabschnitte „Publication/Creation“ und „Contents“, Einträge zu Dale und Fisher.
+    note: Belegt Erscheinungsort und Herausgeber sowie den gemeinsamen Abdruck von Fishers Rundfunkbeitrag und Dales
+      Austrittsbrief.
+  - id: lysenko-global-dale
+    locator: Abschnitt „International Effect of the VASKhNIL Session“, Absatz zu Großbritannien und den USA.
+    note: Benennt die britischen Kritiker Darlington, Harland und Fisher und schildert den Austritt des Physiologen
+      Sir Henry Dale aus der sowjetischen Akademie der Wissenschaften.
+  - id: brno-committee
+    locator: Hochschulgeschichte, letzter Absatz vor „Padesátá léta XX. století“.
+    note: Bezeichnet den Aktionsausschuss der Landwirtschaftlichen Hochschule als Urheber der Entlassungsanordnung.
+  - id: prague-academy
+    locator: S. 86–87, Absätze zu Antonín Klečka und den Vollversammlungen der Landwirtschaftsakademie 1959 und 1960.
+    note: Benennt die Prager Landwirtschaftsakademie und ihren Präsidenten und belegt die öffentlichen Ehrungen für
+      Lyssenko.
+  - id: prague-direction
+    locator: S. 84–86, Abschnitte zu Parteikontrolle, Ablehnung der klassischen Genetik und Klečkas Präsidentschaft
+      ab 1949.
+    note: Ordnet das Vorgehen gegen Forscher in die politische Kampagne und die sowjetische Ausrichtung der Landwirtschaftsakademie
+      ein.
+  - id: prague-honour
+    locator: S. 86–87, Fachkritik Ende der 1950er-Jahre, Vollversammlung im Juni 1959 und Lyssenkos Auftritt am 21.
+      April 1960.
+    note: Belegt, dass öffentliche fachliche Kritik und fortgesetzte institutionelle Ehrungen zeitlich zusammentrafen.
+  - id: brno-exclusion
+    locator: Interview, Absätze zum gescheiterten Institut nach 1948, zur politischen Stellung der Genetik in den
+      1950er-Jahren und zur Berufung 1962.
+    note: Belegt Hausverbot, Entlassung, spätere Haft und die Verzögerung beim Aufbau der Mendel-Institution.
+  - id: brno-lectures
+    locator: Interview, Antworten zur Berufung 1962, zur Eröffnung des Mendelianums und zur Bedeutung des Symposiums
+      im August 1965.
+    note: Eine Zeitzeugin schildert die Rückkehr der Genetik in die Lehre der heutigen Masaryk-Universität. Der Bericht
+      datiert auch die Eröffnung durch Orel.
+  - id: brno-state-reform
+    locator: „Šedesátá léta XX. století“, Absatz beginnend mit „V roce 1966 vydala vláda usnesení“.
+    note: Belegt den Regierungsbeschluss von 1966 sowie die Vorgaben für Praktika, Lehrbücher und Labore.
+  - id: gdr-ministry-syllabuses
+    locator: S. 54–55, Lehrpläne des Volksbildungsministeriums von 1951–1954 und Besprechung des Lehrbuchs von 1952
+      für die zwölfte Klasse.
+    note: Benennt das Ministerium als Urheber der Vorgaben und beschreibt Schneiders Mitarbeit am Schulbuch.
+  - id: gdr-teaching-rules
+    locator: S. 54–55, Zitate aus den Lehrplänen von 1951 und 1953–1954 zu Mitschurin, Lyssenko und formaler Genetik.
+    note: Belegt die unterschiedlichen Vorgaben der Jahrgänge und die verlangte Kritik an der klassischen Genetik
+      in der Oberschule.
+  - id: gdr-textbook-omissions
+    locator: Zusammenfassung, Absätze zu den Klassen 8, 10 und 12 sowie zur späteren Aufnahme Wawilows und Karpetschenkos.
+    note: Belegt die Lernziele und benennt sowjetische Genetiker, die in den untersuchten Materialien zunächst fehlten.
+  - id: gdr-return-by-grade
+    locator: S. 55–56, Lehrpläne von 1959 und 1963 sowie Aufgabe 18 der Biologischen Aufgabensammlung von 1966.
+    note: Verfolgt die nach Klassenstufe gestaffelte Rückkehr der mendelschen Genetik bis zu einer konkreten Unterrichtsaufgabe.
+  - id: gdr-revised-textbooks
+    locator: Zusammenfassung, letzter Absatz zum Wandel der Lehrpläne und Schulbücher ab 1965.
+    note: Beschreibt, wie Lyssenko aus den untersuchten Materialien verschwand und andere Forscher Eingang fanden.
+  - id: dejong-haldane-bbc
+    locator: Teil IV, „The BBC ‘Debate’“, S. 124–127. Die Darstellung stützt sich auf das Sendemanuskript, Haldanes
+      Briefwechsel und Hörerreaktionen.
+    note: Belegt die getrennten Aufnahmen, Haldanes Vorbehalte und die Unterstützung durch Zuhörer.
+  - id: lysenko-party-press-china
+    locator: S. 3, erster Artikel. Der redaktionelle Vorspann nennt die Veranstalter und die drei Sitzungen. Abschnitte
+      I und II erläutern die mitschurinsche Position und die Kritik an Le Tianyu.
+    note: Die Zeitung veröffentlichte die Schlussfolgerungen der Sitzungen. Die Autoren kritisierten das Verhalten
+      eines mitschurinschen Funktionärs und forderten zugleich eine breitere Kampagne gegen die Genetik in der Tradition
+      Morgans.
+  - id: lysenko-graham-revival
+    locator: Druckseiten 266–269, insbesondere S. 267 zu den russischen Büchern von 2014 und 2015.
+    note: Graham zeigt, wie Befürworter einer Rehabilitierung Lyssenkos die Epigenetik heranzogen, und prüft ihr Argument
+      anhand der damaligen Methoden und Befunde.
+  - id: lysenko-mendel-counts
+    locator: „The First Generation [Bred] from the Hybrids“, Versuch 2 zur Samenfarbe.
+    note: Mendel berichtet von 8.023 Samen an 258 Hybridpflanzen. Häufig kamen beide Farben in derselben Hülse vor.
+  - id: lysenko-western-parties
+    locator: Abschnitt zu den internationalen Reaktionen nach der Augusttagung, insbesondere die Passagen zu Frankreich
+      und zur Kommunistischen Partei Italiens.
+    note: Gordin unterscheidet die öffentlichen Äußerungen einzelner Wissenschaftler von den Positionen ihrer jeweiligen
+      Partei.
+  - id: lysenko-japanese-reception
+    locator: Zusammenfassung zu US-Besatzung, zytoplasmatischer Vererbung und dem späteren Wandel im Kalten Krieg.
+    note: Iida erklärt, weshalb japanische Forscher die sowjetischen Behauptungen zunächst prüfenswert fanden und
+      wie sich ihre Haltung veränderte.
+  - id: lysenko-read-proceedings
+    locator: Die Buchansicht öffnet auf Druckseite 605 (Billigung durch das Zentralkomitee). S. 607–608 dokumentieren
+      den Streit um die Tomaten. Der durchsuchbare Band enthält auch die übrigen Redebeiträge.
+    note: Die offizielle englische Ausgabe enthält Lyssenkos Vortrag und die Debattenbeiträge. Derselbe Vortrag erschien
+      auch bei Birch Books mit abweichender Seitenzählung.
+  - id: lysenko-read-global
+    locator: 'Band 2, Inhaltsverzeichnis unter „The Lysenko Controversy: East and West“. Der Verlag führt Kapitel
+      zu Ungarn, Italien und Japan auf.'
+    note: Hinweis zur vertiefenden Lektüre. Das Inhaltsverzeichnis belegt die geografischen Schwerpunkte der Kapitel.

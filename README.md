@@ -36,6 +36,8 @@ The build checks content, translations, generated page parity, social previews a
 
 ## Citation links
 
+On institutional pages, bracketed numbers link a passage to its evidence note. The same note keeps the same number throughout the case. Authors can assign evidence IDs to individual fields in `inlineCitations` or to a background paragraph in `sections`. Otherwise, the detail page uses existing supporting or documentary evidence for matching fields. Impact figures and individual consequences require explicit assignments for their own inline links.
+
 Institutional evidence, episodes and source entries retain their fragment links and clipboard controls, as do the Sources sections on core entry pages. Individual core source notes show only the linked publication title, publisher and explanatory note, without a repeated sharing toolbar. Copy controls use public canonical URLs, including on branch previews. Core source anchors derive from the canonical source URL and purpose in [sourceAnchors.ts](src/lib/sourceAnchors.ts); translating or reordering notes preserves them. Existing institutional evidence/source IDs remain the destinations. The build rejects duplicate IDs and broken fragments, and browser checks cover direct links, clipboard denial, language switching and access without JavaScript.
 
 ## Add an entry

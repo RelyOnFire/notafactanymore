@@ -1,3 +1,5 @@
+import logoPath from '../assets/nf-share-logo.png?url';
+import { seoTitleForEntry } from './seo';
 import { createHash } from 'node:crypto';
 import { getCollection } from 'astro:content';
 import { categoryLabel, localizedPath, translationMatchesEntry, type SiteLocale } from './i18n';
@@ -13,6 +15,7 @@ export interface SocialCard {
   description: string;
   shareTitle: string;
   imagePath: string;
+  usesLogo: boolean;
 }
 
 export const plainText = (text: string) => text
@@ -40,7 +43,9 @@ async function buildCards() {
     // Version the image URL when copy or the template changes, so cached previews can refresh.
     const hash = createHash('sha256').update(JSON.stringify({ template: 1, ...text })).digest('hex').slice(0, 12);
     const key = path.replace(/^\/de(?=\/|$)/, '').replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '') || 'home';
-    cards.set(path, { ...text, imagePath: `/social/${locale}/${key}-${hash}.png` });
+    const localPath = localizedPath(path, 'en');
+    const usesLogo = localPath === '/browse' || localPath.startsWith('/entries/');
+    cards.set(path, { ...text, usesLogo, imagePath: usesLogo ? logoPath : `/social/${locale}/${key}-${hash}.png` });
   };
   const landingPages = [
     ['/', 'Knowledge changes. The record should too.', 'Wissen verändert sich. Der Katalog sollte es auch.', 'Facts have a history.', 'Fakten haben eine Geschichte.', 'Explore how accepted claims changed when stronger evidence arrived.', 'Entdecke, wie sich akzeptierte Aussagen durch bessere Evidenz verändert haben.'],
@@ -63,10 +68,10 @@ async function buildCards() {
   }
   const translationById = new Map(translations.filter(t => t.data.locale === 'de').map(t => [t.data.entryId, t]));
   for (const entry of entries) {
-    add(`/entries/${entry.id}`, 'en', entry.data.claim, `Formerly accepted claim · ${entry.data.category}`, entry.data.summary, `Historical claim: ${entry.data.claim}`);
+    add(`/entries/${entry.id}`, 'en', entry.data.claim, `Formerly accepted claim · ${entry.data.category}`, entry.data.whyItChanged, seoTitleForEntry(entry.id, 'en') ?? entry.data.summary);
     const translated = translationById.get(entry.id);
     if (translated && translationMatchesEntry(entry, translated)) {
-      add(`/de/entries/${entry.id}`, 'de', translated.data.claim, `Früher akzeptierte Aussage · ${categoryLabel(entry.data.category, 'de')}`, translated.data.summary, `Historische Aussage: ${translated.data.claim}`);
+      add(`/de/entries/${entry.id}`, 'de', translated.data.claim, `Früher akzeptierte Aussage · ${categoryLabel(entry.data.category, 'de')}`, translated.data.whyItChanged, seoTitleForEntry(entry.id, 'de') ?? translated.data.summary);
     }
   }
   const beliefTranslationById = currentInstitutionalTranslationMap(beliefs, beliefTranslations.filter(t => t.data.locale === 'de'));
